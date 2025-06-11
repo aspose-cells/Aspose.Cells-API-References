@@ -29,7 +29,7 @@ class PictureCollection;
 | [add(number, number, string, number, number)](#add-number-number-string-number-number-)| Adds a picture to the collection. |
 | [clear()](#clear--)| Clear all pictures. |
 | [removeAt(number)](#removeAt-number-)| Remove shapes at the specific index |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -211,7 +211,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

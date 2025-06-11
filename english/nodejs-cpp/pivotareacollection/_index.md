@@ -23,7 +23,7 @@ class PivotAreaCollection;
 | [add(PivotArea)](#add-pivotarea-)| Adds pivot area. |
 | [add(CellArea)](#add-cellarea-)| Adds an area based on pivot table view. |
 | [removeAt(number)](#removeAt-number-)| Remove one pivot conditional formatted area setting. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -85,7 +85,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

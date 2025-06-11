@@ -20,66 +20,279 @@ class Comment;
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var comments = workbook.getWorksheets().get(0).getComments();
+var comments = workbook.worksheets.get(0).comments;
 
 //Add comment to cell A1
 var commentIndex = comments.add(0, 0);
 var comment = comments.get(commentIndex);
-comment.setNote("First note.");
-comment.getFont().setName("Times New Roman");
+comment.note = "First note.";
+comment.font.setName("Times New Roman");
 
 //Add comment to cell B2
 comments.add("B2");
 comment = comments.get("B2");
-comment.setNote("Second note.");
+comment.note = "Second note.";
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [author](#author--)| string | Gets and sets Name of the original comment author |
+| [commentShape](#commentShape--)| CommentShape | Readonly. Get a Shape object that represents the shape attached to the specified comment. |
+| [row](#row--)| number | Readonly. Gets the row index of the comment. |
+| [column](#column--)| number | Readonly. Gets the column index of the comment. |
+| [isThreadedComment](#isThreadedComment--)| boolean | Readonly. Indicates whether this comment is a threaded comment. |
+| [threadedComments](#threadedComments--)| ThreadedCommentCollection | Readonly. Gets the list of threaded comments; |
+| [note](#note--)| string | Represents the content of comment. |
+| [htmlNote](#htmlNote--)| string | Gets and sets the html string which contains data and some formats in this comment. |
+| [font](#font--)| Font | Readonly. Gets the font of comment. |
+| [isVisible](#isVisible--)| boolean | Represents if the comment is visible or not. |
+| [textOrientationType](#textOrientationType--)| TextOrientationType | Gets and sets the text orientation type of the comment. |
+| [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment type of the comment. |
+| [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets and sets the text vertical alignment type of the comment. |
+| [autoSize](#autoSize--)| boolean | Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
+| [heightCM](#heightCM--)| number | Represents the height of the comment, in unit of centimeters. |
+| [widthCM](#widthCM--)| number | Represents the width of the comment, in unit of centimeters. |
+| [width](#width--)| number | Represents the width of the comment, in unit of pixels. |
+| [height](#height--)| number | Represents the Height of the comment, in unit of pixels. |
+| [widthInch](#widthInch--)| number | Represents the width of the comment, in unit of inches. |
+| [heightInch](#heightInch--)| number | Represents the height of the comment, in unit of inches. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAuthor()](#getAuthor--)| Gets and sets Name of the original comment author |
-| [setAuthor(string)](#setAuthor-string-)| Gets and sets Name of the original comment author |
-| [getCommentShape()](#getCommentShape--)| Get a Shape object that represents the shape attached to the specified comment. |
-| [getRow()](#getRow--)| Gets the row index of the comment. |
-| [getColumn()](#getColumn--)| Gets the column index of the comment. |
-| [isThreadedComment()](#isThreadedComment--)| Indicates whether this comment is a threaded comment. |
-| [getThreadedComments()](#getThreadedComments--)| Gets the list of threaded comments; |
-| [getNote()](#getNote--)| Represents the content of comment. |
-| [setNote(string)](#setNote-string-)| Represents the content of comment. |
-| [getHtmlNote()](#getHtmlNote--)| Gets and sets the html string which contains data and some formats in this comment. |
-| [setHtmlNote(string)](#setHtmlNote-string-)| Gets and sets the html string which contains data and some formats in this comment. |
-| [getFont()](#getFont--)| Gets the font of comment. |
-| [isVisible()](#isVisible--)| Represents if the comment is visible or not. |
-| [setIsVisible(boolean)](#setIsVisible-boolean-)| Represents if the comment is visible or not. |
-| [getTextOrientationType()](#getTextOrientationType--)| Gets and sets the text orientation type of the comment. |
-| [setTextOrientationType(TextOrientationType)](#setTextOrientationType-textorientationtype-)| Gets and sets the text orientation type of the comment. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| Gets and sets the text horizontal alignment type of the comment. |
-| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| Gets and sets the text horizontal alignment type of the comment. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| Gets and sets the text vertical alignment type of the comment. |
-| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the comment. |
-| [getAutoSize()](#getAutoSize--)| Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
-| [setAutoSize(boolean)](#setAutoSize-boolean-)| Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
-| [getHeightCM()](#getHeightCM--)| Represents the height of the comment, in unit of centimeters. |
-| [setHeightCM(number)](#setHeightCM-number-)| Represents the height of the comment, in unit of centimeters. |
-| [getWidthCM()](#getWidthCM--)| Represents the width of the comment, in unit of centimeters. |
-| [setWidthCM(number)](#setWidthCM-number-)| Represents the width of the comment, in unit of centimeters. |
-| [getWidth()](#getWidth--)| Represents the width of the comment, in unit of pixels. |
-| [setWidth(number)](#setWidth-number-)| Represents the width of the comment, in unit of pixels. |
-| [getHeight()](#getHeight--)| Represents the Height of the comment, in unit of pixels. |
-| [setHeight(number)](#setHeight-number-)| Represents the Height of the comment, in unit of pixels. |
-| [getWidthInch()](#getWidthInch--)| Represents the width of the comment, in unit of inches. |
-| [setWidthInch(number)](#setWidthInch-number-)| Represents the width of the comment, in unit of inches. |
-| [getHeightInch()](#getHeightInch--)| Represents the height of the comment, in unit of inches. |
-| [setHeightInch(number)](#setHeightInch-number-)| Represents the height of the comment, in unit of inches. |
+| [getAuthor()](#getAuthor--)| <b>@deprecated.</b> Please use the 'author' property instead. Gets and sets Name of the original comment author |
+| [setAuthor(string)](#setAuthor-string-)| <b>@deprecated.</b> Please use the 'author' property instead. Gets and sets Name of the original comment author |
+| [getCommentShape()](#getCommentShape--)| <b>@deprecated.</b> Please use the 'commentShape' property instead. Get a Shape object that represents the shape attached to the specified comment. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the comment. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the comment. |
+| [isThreadedComment()](#isThreadedComment--)| <b>@deprecated.</b> Please use the 'isThreadedComment' property instead. Indicates whether this comment is a threaded comment. |
+| [getThreadedComments()](#getThreadedComments--)| <b>@deprecated.</b> Please use the 'threadedComments' property instead. Gets the list of threaded comments; |
+| [getNote()](#getNote--)| <b>@deprecated.</b> Please use the 'note' property instead. Represents the content of comment. |
+| [setNote(string)](#setNote-string-)| <b>@deprecated.</b> Please use the 'note' property instead. Represents the content of comment. |
+| [getHtmlNote()](#getHtmlNote--)| <b>@deprecated.</b> Please use the 'htmlNote' property instead. Gets and sets the html string which contains data and some formats in this comment. |
+| [setHtmlNote(string)](#setHtmlNote-string-)| <b>@deprecated.</b> Please use the 'htmlNote' property instead. Gets and sets the html string which contains data and some formats in this comment. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets the font of comment. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the comment is visible or not. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the comment is visible or not. |
+| [getTextOrientationType()](#getTextOrientationType--)| <b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the comment. |
+| [setTextOrientationType(TextOrientationType)](#setTextOrientationType-textorientationtype-)| <b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the comment. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the comment. |
+| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the comment. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the comment. |
+| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the comment. |
+| [getAutoSize()](#getAutoSize--)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
+| [setAutoSize(boolean)](#setAutoSize-boolean-)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
+| [getHeightCM()](#getHeightCM--)| <b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the comment, in unit of centimeters. |
+| [setHeightCM(number)](#setHeightCM-number-)| <b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the comment, in unit of centimeters. |
+| [getWidthCM()](#getWidthCM--)| <b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the comment, in unit of centimeters. |
+| [setWidthCM(number)](#setWidthCM-number-)| <b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the comment, in unit of centimeters. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Represents the width of the comment, in unit of pixels. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Represents the width of the comment, in unit of pixels. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Represents the Height of the comment, in unit of pixels. |
+| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Represents the Height of the comment, in unit of pixels. |
+| [getWidthInch()](#getWidthInch--)| <b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the comment, in unit of inches. |
+| [setWidthInch(number)](#setWidthInch-number-)| <b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the comment, in unit of inches. |
+| [getHeightInch()](#getHeightInch--)| <b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the comment, in unit of inches. |
+| [setHeightInch(number)](#setHeightInch-number-)| <b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the comment, in unit of inches. |
 | [formatCharacters(number, number, Font, StyleFlag)](#formatCharacters-number-number-font-styleflag-)| Format some characters with the font setting. |
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the comment text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the comment text. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getAuthor() {#getAuthor--}
+### author {#author--}
 
 Gets and sets Name of the original comment author
+
+```javascript
+author : string;
+```
+
+
+### commentShape {#commentShape--}
+
+Readonly. Get a Shape object that represents the shape attached to the specified comment.
+
+```javascript
+commentShape : CommentShape;
+```
+
+
+### row {#row--}
+
+Readonly. Gets the row index of the comment.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets the column index of the comment.
+
+```javascript
+column : number;
+```
+
+
+### isThreadedComment {#isThreadedComment--}
+
+Readonly. Indicates whether this comment is a threaded comment.
+
+```javascript
+isThreadedComment : boolean;
+```
+
+
+### threadedComments {#threadedComments--}
+
+Readonly. Gets the list of threaded comments;
+
+```javascript
+threadedComments : ThreadedCommentCollection;
+```
+
+
+### note {#note--}
+
+Represents the content of comment.
+
+```javascript
+note : string;
+```
+
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+
+### htmlNote {#htmlNote--}
+
+Gets and sets the html string which contains data and some formats in this comment.
+
+```javascript
+htmlNote : string;
+```
+
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+
+### font {#font--}
+
+Readonly. Gets the font of comment.
+
+```javascript
+font : Font;
+```
+
+
+### isVisible {#isVisible--}
+
+Represents if the comment is visible or not.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### textOrientationType {#textOrientationType--}
+
+Gets and sets the text orientation type of the comment.
+
+```javascript
+textOrientationType : TextOrientationType;
+```
+
+
+### textHorizontalAlignment {#textHorizontalAlignment--}
+
+Gets and sets the text horizontal alignment type of the comment.
+
+```javascript
+textHorizontalAlignment : TextAlignmentType;
+```
+
+
+### textVerticalAlignment {#textVerticalAlignment--}
+
+Gets and sets the text vertical alignment type of the comment.
+
+```javascript
+textVerticalAlignment : TextAlignmentType;
+```
+
+
+### autoSize {#autoSize--}
+
+Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
+
+```javascript
+autoSize : boolean;
+```
+
+
+### heightCM {#heightCM--}
+
+Represents the height of the comment, in unit of centimeters.
+
+```javascript
+heightCM : number;
+```
+
+
+### widthCM {#widthCM--}
+
+Represents the width of the comment, in unit of centimeters.
+
+```javascript
+widthCM : number;
+```
+
+
+### width {#width--}
+
+Represents the width of the comment, in unit of pixels.
+
+```javascript
+width : number;
+```
+
+
+### height {#height--}
+
+Represents the Height of the comment, in unit of pixels.
+
+```javascript
+height : number;
+```
+
+
+### widthInch {#widthInch--}
+
+Represents the width of the comment, in unit of inches.
+
+```javascript
+widthInch : number;
+```
+
+
+### heightInch {#heightInch--}
+
+Represents the height of the comment, in unit of inches.
+
+```javascript
+heightInch : number;
+```
+
+
+### getAuthor() {#getAuthor--}
+
+<b>@deprecated.</b> Please use the 'author' property instead. Gets and sets Name of the original comment author
 
 ```javascript
 getAuthor() : string;
@@ -88,7 +301,7 @@ getAuthor() : string;
 
 ### setAuthor(string) {#setAuthor-string-}
 
-Gets and sets Name of the original comment author
+<b>@deprecated.</b> Please use the 'author' property instead. Gets and sets Name of the original comment author
 
 ```javascript
 setAuthor(value: string) : void;
@@ -101,7 +314,7 @@ setAuthor(value: string) : void;
 
 ### getCommentShape() {#getCommentShape--}
 
-Get a Shape object that represents the shape attached to the specified comment.
+<b>@deprecated.</b> Please use the 'commentShape' property instead. Get a Shape object that represents the shape attached to the specified comment.
 
 ```javascript
 getCommentShape() : CommentShape;
@@ -114,7 +327,7 @@ getCommentShape() : CommentShape;
 
 ### getRow() {#getRow--}
 
-Gets the row index of the comment.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the comment.
 
 ```javascript
 getRow() : number;
@@ -123,7 +336,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets the column index of the comment.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the comment.
 
 ```javascript
 getColumn() : number;
@@ -132,7 +345,7 @@ getColumn() : number;
 
 ### isThreadedComment() {#isThreadedComment--}
 
-Indicates whether this comment is a threaded comment.
+<b>@deprecated.</b> Please use the 'isThreadedComment' property instead. Indicates whether this comment is a threaded comment.
 
 ```javascript
 isThreadedComment() : boolean;
@@ -141,7 +354,7 @@ isThreadedComment() : boolean;
 
 ### getThreadedComments() {#getThreadedComments--}
 
-Gets the list of threaded comments;
+<b>@deprecated.</b> Please use the 'threadedComments' property instead. Gets the list of threaded comments;
 
 ```javascript
 getThreadedComments() : ThreadedCommentCollection;
@@ -154,7 +367,7 @@ getThreadedComments() : ThreadedCommentCollection;
 
 ### getNote() {#getNote--}
 
-Represents the content of comment.
+<b>@deprecated.</b> Please use the 'note' property instead. Represents the content of comment.
 
 ```javascript
 getNote() : string;
@@ -167,7 +380,7 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 ### setNote(string) {#setNote-string-}
 
-Represents the content of comment.
+<b>@deprecated.</b> Please use the 'note' property instead. Represents the content of comment.
 
 ```javascript
 setNote(value: string) : void;
@@ -184,7 +397,7 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 ### getHtmlNote() {#getHtmlNote--}
 
-Gets and sets the html string which contains data and some formats in this comment.
+<b>@deprecated.</b> Please use the 'htmlNote' property instead. Gets and sets the html string which contains data and some formats in this comment.
 
 ```javascript
 getHtmlNote() : string;
@@ -197,7 +410,7 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 ### setHtmlNote(string) {#setHtmlNote-string-}
 
-Gets and sets the html string which contains data and some formats in this comment.
+<b>@deprecated.</b> Please use the 'htmlNote' property instead. Gets and sets the html string which contains data and some formats in this comment.
 
 ```javascript
 setHtmlNote(value: string) : void;
@@ -214,7 +427,7 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 ### getFont() {#getFont--}
 
-Gets the font of comment.
+<b>@deprecated.</b> Please use the 'font' property instead. Gets the font of comment.
 
 ```javascript
 getFont() : Font;
@@ -227,7 +440,7 @@ getFont() : Font;
 
 ### isVisible() {#isVisible--}
 
-Represents if the comment is visible or not.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the comment is visible or not.
 
 ```javascript
 isVisible() : boolean;
@@ -236,7 +449,7 @@ isVisible() : boolean;
 
 ### setIsVisible(boolean) {#setIsVisible-boolean-}
 
-Represents if the comment is visible or not.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the comment is visible or not.
 
 ```javascript
 setIsVisible(value: boolean) : void;
@@ -249,7 +462,7 @@ setIsVisible(value: boolean) : void;
 
 ### getTextOrientationType() {#getTextOrientationType--}
 
-Gets and sets the text orientation type of the comment.
+<b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the comment.
 
 ```javascript
 getTextOrientationType() : TextOrientationType;
@@ -262,7 +475,7 @@ getTextOrientationType() : TextOrientationType;
 
 ### setTextOrientationType(TextOrientationType) {#setTextOrientationType-textorientationtype-}
 
-Gets and sets the text orientation type of the comment.
+<b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the comment.
 
 ```javascript
 setTextOrientationType(value: TextOrientationType) : void;
@@ -275,7 +488,7 @@ setTextOrientationType(value: TextOrientationType) : void;
 
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
 
-Gets and sets the text horizontal alignment type of the comment.
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the comment.
 
 ```javascript
 getTextHorizontalAlignment() : TextAlignmentType;
@@ -288,7 +501,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
-Gets and sets the text horizontal alignment type of the comment.
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the comment.
 
 ```javascript
 setTextHorizontalAlignment(value: TextAlignmentType) : void;
@@ -301,7 +514,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
-Gets and sets the text vertical alignment type of the comment.
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the comment.
 
 ```javascript
 getTextVerticalAlignment() : TextAlignmentType;
@@ -314,7 +527,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
-Gets and sets the text vertical alignment type of the comment.
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the comment.
 
 ```javascript
 setTextVerticalAlignment(value: TextAlignmentType) : void;
@@ -327,7 +540,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 
 ### getAutoSize() {#getAutoSize--}
 
-Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 ```javascript
 getAutoSize() : boolean;
@@ -336,7 +549,7 @@ getAutoSize() : boolean;
 
 ### setAutoSize(boolean) {#setAutoSize-boolean-}
 
-Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 ```javascript
 setAutoSize(value: boolean) : void;
@@ -349,7 +562,7 @@ setAutoSize(value: boolean) : void;
 
 ### getHeightCM() {#getHeightCM--}
 
-Represents the height of the comment, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the comment, in unit of centimeters.
 
 ```javascript
 getHeightCM() : number;
@@ -358,7 +571,7 @@ getHeightCM() : number;
 
 ### setHeightCM(number) {#setHeightCM-number-}
 
-Represents the height of the comment, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the comment, in unit of centimeters.
 
 ```javascript
 setHeightCM(value: number) : void;
@@ -371,7 +584,7 @@ setHeightCM(value: number) : void;
 
 ### getWidthCM() {#getWidthCM--}
 
-Represents the width of the comment, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the comment, in unit of centimeters.
 
 ```javascript
 getWidthCM() : number;
@@ -380,7 +593,7 @@ getWidthCM() : number;
 
 ### setWidthCM(number) {#setWidthCM-number-}
 
-Represents the width of the comment, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the comment, in unit of centimeters.
 
 ```javascript
 setWidthCM(value: number) : void;
@@ -393,7 +606,7 @@ setWidthCM(value: number) : void;
 
 ### getWidth() {#getWidth--}
 
-Represents the width of the comment, in unit of pixels.
+<b>@deprecated.</b> Please use the 'width' property instead. Represents the width of the comment, in unit of pixels.
 
 ```javascript
 getWidth() : number;
@@ -402,7 +615,7 @@ getWidth() : number;
 
 ### setWidth(number) {#setWidth-number-}
 
-Represents the width of the comment, in unit of pixels.
+<b>@deprecated.</b> Please use the 'width' property instead. Represents the width of the comment, in unit of pixels.
 
 ```javascript
 setWidth(value: number) : void;
@@ -415,7 +628,7 @@ setWidth(value: number) : void;
 
 ### getHeight() {#getHeight--}
 
-Represents the Height of the comment, in unit of pixels.
+<b>@deprecated.</b> Please use the 'height' property instead. Represents the Height of the comment, in unit of pixels.
 
 ```javascript
 getHeight() : number;
@@ -424,7 +637,7 @@ getHeight() : number;
 
 ### setHeight(number) {#setHeight-number-}
 
-Represents the Height of the comment, in unit of pixels.
+<b>@deprecated.</b> Please use the 'height' property instead. Represents the Height of the comment, in unit of pixels.
 
 ```javascript
 setHeight(value: number) : void;
@@ -437,7 +650,7 @@ setHeight(value: number) : void;
 
 ### getWidthInch() {#getWidthInch--}
 
-Represents the width of the comment, in unit of inches.
+<b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the comment, in unit of inches.
 
 ```javascript
 getWidthInch() : number;
@@ -446,7 +659,7 @@ getWidthInch() : number;
 
 ### setWidthInch(number) {#setWidthInch-number-}
 
-Represents the width of the comment, in unit of inches.
+<b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the comment, in unit of inches.
 
 ```javascript
 setWidthInch(value: number) : void;
@@ -459,7 +672,7 @@ setWidthInch(value: number) : void;
 
 ### getHeightInch() {#getHeightInch--}
 
-Represents the height of the comment, in unit of inches.
+<b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the comment, in unit of inches.
 
 ```javascript
 getHeightInch() : number;
@@ -468,7 +681,7 @@ getHeightInch() : number;
 
 ### setHeightInch(number) {#setHeightInch-number-}
 
-Represents the height of the comment, in unit of inches.
+<b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the comment, in unit of inches.
 
 ```javascript
 setHeightInch(value: number) : void;

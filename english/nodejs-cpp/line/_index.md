@@ -20,7 +20,7 @@ class Line;
 const { Workbook, ChartType, LineType, ChartMarkerType, WeightType } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var cells = workbook.getWorksheets().get(0).getCells();
+var cells = workbook.worksheets.get(0).cells;
 cells.get("a1").putValue(2);
 cells.get("a2").putValue(5);
 cells.get("a3").putValue(3);
@@ -29,68 +29,297 @@ cells.get("b1").putValue(4);
 cells.get("b2").putValue(3);
 cells.get("b3").putValue(6);
 cells.get("b4").putValue(7);
-var chartIndex = workbook.getWorksheets().get(0).getCharts().add(ChartType.Column, 11, 0, 27, 10);
-var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
-chart.getNSeries().add("A1:B4", true);
+var chartIndex = workbook.worksheets.get(0).charts.add(ChartType.Column, 11, 0, 27, 10);
+var chart = workbook.worksheets.get(0).charts.get(chartIndex);
+chart.nSeries.add("A1:B4", true);
 //Applying a dotted line style on the lines of an NSeries
-chart.getNSeries().get(0).getBorder().setStyle(LineType.Dot);
+chart.nSeries.get(0).border.style = LineType.Dot;
 //Applying a triangular marker style on the data markers of an NSeries
-chart.getNSeries().get(0).getMarker().setMarkerStyle(ChartMarkerType.Triangle);
+chart.nSeries.get(0).marker.markerStyle = ChartMarkerType.Triangle;
 //Setting the weight of all lines in an NSeries to medium
-chart.getNSeries().get(0).getBorder().setWeight(WeightType.MediumLine);
+chart.nSeries.get(0).border.weight = WeightType.MediumLine;
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [compoundType](#compoundType--)| MsoLineStyle | Specifies the compound line type |
+| [dashType](#dashType--)| MsoLineDashStyle | Specifies the dash line type |
+| [capType](#capType--)| LineCapType | Specifies the ending caps. |
+| [joinType](#joinType--)| LineJoinType | Specifies the joining caps. |
+| [beginType](#beginType--)| MsoArrowheadStyle | Specifies an arrowhead for the begin of a line. |
+| [endType](#endType--)| MsoArrowheadStyle | Specifies an arrowhead for the end of a line. |
+| [beginArrowLength](#beginArrowLength--)| MsoArrowheadLength | Specifies the length of the arrowhead for the begin of a line. |
+| [endArrowLength](#endArrowLength--)| MsoArrowheadLength | Specifies the length of the arrowhead for the end of a line. |
+| [beginArrowWidth](#beginArrowWidth--)| MsoArrowheadWidth | Specifies the width of the arrowhead for the begin of a line. |
+| [endArrowWidth](#endArrowWidth--)| MsoArrowheadWidth | Specifies the width of the arrowhead for the end of a line. |
+| [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color. |
+| [color](#color--)| Color | Represents the [Color](../color/) of the line. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [style](#style--)| LineType | Represents the style of the line. |
+| [weight](#weight--)| WeightType | Gets or sets the [WeightType](../weighttype/) of the line. |
+| [weightPt](#weightPt--)| number | Gets or sets the weight of the line in unit of points. |
+| [weightPx](#weightPx--)| number | Gets or sets the weight of the line in unit of pixels. |
+| [formattingType](#formattingType--)| ChartLineFormattingType | Gets or sets format type. |
+| [isAutomaticColor](#isAutomaticColor--)| boolean | Readonly. Indicates whether the color of line is automatic assigned. |
+| [isVisible](#isVisible--)| boolean | Represents whether the line is visible. |
+| [isAuto](#isAuto--)| boolean | Indicates whether this line style is auto assigned. |
+| [gradientFill](#gradientFill--)| GradientFill | Readonly. Represents gradient fill. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCompoundType()](#getCompoundType--)| Specifies the compound line type |
-| [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| Specifies the compound line type |
-| [getDashType()](#getDashType--)| Specifies the dash line type |
-| [setDashType(MsoLineDashStyle)](#setDashType-msolinedashstyle-)| Specifies the dash line type |
-| [getCapType()](#getCapType--)| Specifies the ending caps. |
-| [setCapType(LineCapType)](#setCapType-linecaptype-)| Specifies the ending caps. |
-| [getJoinType()](#getJoinType--)| Specifies the joining caps. |
-| [setJoinType(LineJoinType)](#setJoinType-linejointype-)| Specifies the joining caps. |
-| [getBeginType()](#getBeginType--)| Specifies an arrowhead for the begin of a line. |
-| [setBeginType(MsoArrowheadStyle)](#setBeginType-msoarrowheadstyle-)| Specifies an arrowhead for the begin of a line. |
-| [getEndType()](#getEndType--)| Specifies an arrowhead for the end of a line. |
-| [setEndType(MsoArrowheadStyle)](#setEndType-msoarrowheadstyle-)| Specifies an arrowhead for the end of a line. |
-| [getBeginArrowLength()](#getBeginArrowLength--)| Specifies the length of the arrowhead for the begin of a line. |
-| [setBeginArrowLength(MsoArrowheadLength)](#setBeginArrowLength-msoarrowheadlength-)| Specifies the length of the arrowhead for the begin of a line. |
-| [getEndArrowLength()](#getEndArrowLength--)| Specifies the length of the arrowhead for the end of a line. |
-| [setEndArrowLength(MsoArrowheadLength)](#setEndArrowLength-msoarrowheadlength-)| Specifies the length of the arrowhead for the end of a line. |
-| [getBeginArrowWidth()](#getBeginArrowWidth--)| Specifies the width of the arrowhead for the begin of a line. |
-| [setBeginArrowWidth(MsoArrowheadWidth)](#setBeginArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the begin of a line. |
-| [getEndArrowWidth()](#getEndArrowWidth--)| Specifies the width of the arrowhead for the end of a line. |
-| [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
-| [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
-| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [Color](../color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [Color](../color/) of the line. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getStyle()](#getStyle--)| Represents the style of the line. |
-| [setStyle(LineType)](#setStyle-linetype-)| Represents the style of the line. |
-| [getWeight()](#getWeight--)| Gets or sets the [WeightType](../weighttype/) of the line. |
-| [setWeight(WeightType)](#setWeight-weighttype-)| Gets or sets the [WeightType](../weighttype/) of the line. |
-| [getWeightPt()](#getWeightPt--)| Gets or sets the weight of the line in unit of points. |
-| [setWeightPt(number)](#setWeightPt-number-)| Gets or sets the weight of the line in unit of points. |
-| [getWeightPx()](#getWeightPx--)| Gets or sets the weight of the line in unit of pixels. |
-| [setWeightPx(number)](#setWeightPx-number-)| Gets or sets the weight of the line in unit of pixels. |
-| [getFormattingType()](#getFormattingType--)| Gets or sets format type. |
-| [setFormattingType(ChartLineFormattingType)](#setFormattingType-chartlineformattingtype-)| Gets or sets format type. |
-| [isAutomaticColor()](#isAutomaticColor--)| Indicates whether the color of line is automatic assigned. |
-| [isVisible()](#isVisible--)| Represents whether the line is visible. |
-| [setIsVisible(boolean)](#setIsVisible-boolean-)| Represents whether the line is visible. |
-| [isAuto()](#isAuto--)| Indicates whether this line style is auto assigned. |
-| [setIsAuto(boolean)](#setIsAuto-boolean-)| Indicates whether this line style is auto assigned. |
-| [getGradientFill()](#getGradientFill--)| Represents gradient fill. |
+| [getCompoundType()](#getCompoundType--)| <b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type |
+| [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| <b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type |
+| [getDashType()](#getDashType--)| <b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type |
+| [setDashType(MsoLineDashStyle)](#setDashType-msolinedashstyle-)| <b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type |
+| [getCapType()](#getCapType--)| <b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps. |
+| [setCapType(LineCapType)](#setCapType-linecaptype-)| <b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps. |
+| [getJoinType()](#getJoinType--)| <b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps. |
+| [setJoinType(LineJoinType)](#setJoinType-linejointype-)| <b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps. |
+| [getBeginType()](#getBeginType--)| <b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line. |
+| [setBeginType(MsoArrowheadStyle)](#setBeginType-msoarrowheadstyle-)| <b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line. |
+| [getEndType()](#getEndType--)| <b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line. |
+| [setEndType(MsoArrowheadStyle)](#setEndType-msoarrowheadstyle-)| <b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line. |
+| [getBeginArrowLength()](#getBeginArrowLength--)| <b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line. |
+| [setBeginArrowLength(MsoArrowheadLength)](#setBeginArrowLength-msoarrowheadlength-)| <b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line. |
+| [getEndArrowLength()](#getEndArrowLength--)| <b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line. |
+| [setEndArrowLength(MsoArrowheadLength)](#setEndArrowLength-msoarrowheadlength-)| <b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line. |
+| [getBeginArrowWidth()](#getBeginArrowWidth--)| <b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line. |
+| [setBeginArrowWidth(MsoArrowheadWidth)](#setBeginArrowWidth-msoarrowheadwidth-)| <b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line. |
+| [getEndArrowWidth()](#getEndArrowWidth--)| <b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line. |
+| [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| <b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line. |
+| [getThemeColor()](#getThemeColor--)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getStyle()](#getStyle--)| <b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line. |
+| [setStyle(LineType)](#setStyle-linetype-)| <b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line. |
+| [getWeight()](#getWeight--)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line. |
+| [setWeight(WeightType)](#setWeight-weighttype-)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line. |
+| [getWeightPt()](#getWeightPt--)| <b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points. |
+| [setWeightPt(number)](#setWeightPt-number-)| <b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points. |
+| [getWeightPx()](#getWeightPx--)| <b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels. |
+| [setWeightPx(number)](#setWeightPx-number-)| <b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels. |
+| [getFormattingType()](#getFormattingType--)| <b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type. |
+| [setFormattingType(ChartLineFormattingType)](#setFormattingType-chartlineformattingtype-)| <b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type. |
+| [isAutomaticColor()](#isAutomaticColor--)| <b>@deprecated.</b> Please use the 'isAutomaticColor' property instead. Indicates whether the color of line is automatic assigned. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible. |
+| [isAuto()](#isAuto--)| <b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned. |
+| [setIsAuto(boolean)](#setIsAuto-boolean-)| <b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned. |
+| [getGradientFill()](#getGradientFill--)| <b>@deprecated.</b> Please use the 'gradientFill' property instead. Represents gradient fill. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### compoundType {#compoundType--}
+
+Specifies the compound line type
+
+```javascript
+compoundType : MsoLineStyle;
+```
+
+
+### dashType {#dashType--}
+
+Specifies the dash line type
+
+```javascript
+dashType : MsoLineDashStyle;
+```
+
+
+### capType {#capType--}
+
+Specifies the ending caps.
+
+```javascript
+capType : LineCapType;
+```
+
+
+### joinType {#joinType--}
+
+Specifies the joining caps.
+
+```javascript
+joinType : LineJoinType;
+```
+
+
+### beginType {#beginType--}
+
+Specifies an arrowhead for the begin of a line.
+
+```javascript
+beginType : MsoArrowheadStyle;
+```
+
+
+### endType {#endType--}
+
+Specifies an arrowhead for the end of a line.
+
+```javascript
+endType : MsoArrowheadStyle;
+```
+
+
+### beginArrowLength {#beginArrowLength--}
+
+Specifies the length of the arrowhead for the begin of a line.
+
+```javascript
+beginArrowLength : MsoArrowheadLength;
+```
+
+
+### endArrowLength {#endArrowLength--}
+
+Specifies the length of the arrowhead for the end of a line.
+
+```javascript
+endArrowLength : MsoArrowheadLength;
+```
+
+
+### beginArrowWidth {#beginArrowWidth--}
+
+Specifies the width of the arrowhead for the begin of a line.
+
+```javascript
+beginArrowWidth : MsoArrowheadWidth;
+```
+
+
+### endArrowWidth {#endArrowWidth--}
+
+Specifies the width of the arrowhead for the end of a line.
+
+```javascript
+endArrowWidth : MsoArrowheadWidth;
+```
+
+
+### themeColor {#themeColor--}
+
+Gets and sets the theme color.
+
+```javascript
+themeColor : ThemeColor;
+```
+
+
+**Remarks**
+
+If the foreground color is not a theme color, NULL will be returned.
+
+### color {#color--}
+
+Represents the [Color](../color/) of the line.
+
+```javascript
+color : Color;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
+
+
+### style {#style--}
+
+Represents the style of the line.
+
+```javascript
+style : LineType;
+```
+
+
+### weight {#weight--}
+
+Gets or sets the [WeightType](../weighttype/) of the line.
+
+```javascript
+weight : WeightType;
+```
+
+
+### weightPt {#weightPt--}
+
+Gets or sets the weight of the line in unit of points.
+
+```javascript
+weightPt : number;
+```
+
+
+### weightPx {#weightPx--}
+
+Gets or sets the weight of the line in unit of pixels.
+
+```javascript
+weightPx : number;
+```
+
+
+### formattingType {#formattingType--}
+
+Gets or sets format type.
+
+```javascript
+formattingType : ChartLineFormattingType;
+```
+
+
+### isAutomaticColor {#isAutomaticColor--}
+
+Readonly. Indicates whether the color of line is automatic assigned.
+
+```javascript
+isAutomaticColor : boolean;
+```
+
+
+### isVisible {#isVisible--}
+
+Represents whether the line is visible.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### isAuto {#isAuto--}
+
+Indicates whether this line style is auto assigned.
+
+```javascript
+isAuto : boolean;
+```
+
+
+### gradientFill {#gradientFill--}
+
+Readonly. Represents gradient fill.
+
+```javascript
+gradientFill : GradientFill;
+```
 
 
 ### getCompoundType() {#getCompoundType--}
 
-Specifies the compound line type
+<b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type
 
 ```javascript
 getCompoundType() : MsoLineStyle;
@@ -103,7 +332,7 @@ getCompoundType() : MsoLineStyle;
 
 ### setCompoundType(MsoLineStyle) {#setCompoundType-msolinestyle-}
 
-Specifies the compound line type
+<b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type
 
 ```javascript
 setCompoundType(value: MsoLineStyle) : void;
@@ -116,7 +345,7 @@ setCompoundType(value: MsoLineStyle) : void;
 
 ### getDashType() {#getDashType--}
 
-Specifies the dash line type
+<b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type
 
 ```javascript
 getDashType() : MsoLineDashStyle;
@@ -129,7 +358,7 @@ getDashType() : MsoLineDashStyle;
 
 ### setDashType(MsoLineDashStyle) {#setDashType-msolinedashstyle-}
 
-Specifies the dash line type
+<b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type
 
 ```javascript
 setDashType(value: MsoLineDashStyle) : void;
@@ -142,7 +371,7 @@ setDashType(value: MsoLineDashStyle) : void;
 
 ### getCapType() {#getCapType--}
 
-Specifies the ending caps.
+<b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps.
 
 ```javascript
 getCapType() : LineCapType;
@@ -155,7 +384,7 @@ getCapType() : LineCapType;
 
 ### setCapType(LineCapType) {#setCapType-linecaptype-}
 
-Specifies the ending caps.
+<b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps.
 
 ```javascript
 setCapType(value: LineCapType) : void;
@@ -168,7 +397,7 @@ setCapType(value: LineCapType) : void;
 
 ### getJoinType() {#getJoinType--}
 
-Specifies the joining caps.
+<b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps.
 
 ```javascript
 getJoinType() : LineJoinType;
@@ -181,7 +410,7 @@ getJoinType() : LineJoinType;
 
 ### setJoinType(LineJoinType) {#setJoinType-linejointype-}
 
-Specifies the joining caps.
+<b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps.
 
 ```javascript
 setJoinType(value: LineJoinType) : void;
@@ -194,7 +423,7 @@ setJoinType(value: LineJoinType) : void;
 
 ### getBeginType() {#getBeginType--}
 
-Specifies an arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line.
 
 ```javascript
 getBeginType() : MsoArrowheadStyle;
@@ -207,7 +436,7 @@ getBeginType() : MsoArrowheadStyle;
 
 ### setBeginType(MsoArrowheadStyle) {#setBeginType-msoarrowheadstyle-}
 
-Specifies an arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line.
 
 ```javascript
 setBeginType(value: MsoArrowheadStyle) : void;
@@ -220,7 +449,7 @@ setBeginType(value: MsoArrowheadStyle) : void;
 
 ### getEndType() {#getEndType--}
 
-Specifies an arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line.
 
 ```javascript
 getEndType() : MsoArrowheadStyle;
@@ -233,7 +462,7 @@ getEndType() : MsoArrowheadStyle;
 
 ### setEndType(MsoArrowheadStyle) {#setEndType-msoarrowheadstyle-}
 
-Specifies an arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line.
 
 ```javascript
 setEndType(value: MsoArrowheadStyle) : void;
@@ -246,7 +475,7 @@ setEndType(value: MsoArrowheadStyle) : void;
 
 ### getBeginArrowLength() {#getBeginArrowLength--}
 
-Specifies the length of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line.
 
 ```javascript
 getBeginArrowLength() : MsoArrowheadLength;
@@ -259,7 +488,7 @@ getBeginArrowLength() : MsoArrowheadLength;
 
 ### setBeginArrowLength(MsoArrowheadLength) {#setBeginArrowLength-msoarrowheadlength-}
 
-Specifies the length of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line.
 
 ```javascript
 setBeginArrowLength(value: MsoArrowheadLength) : void;
@@ -272,7 +501,7 @@ setBeginArrowLength(value: MsoArrowheadLength) : void;
 
 ### getEndArrowLength() {#getEndArrowLength--}
 
-Specifies the length of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line.
 
 ```javascript
 getEndArrowLength() : MsoArrowheadLength;
@@ -285,7 +514,7 @@ getEndArrowLength() : MsoArrowheadLength;
 
 ### setEndArrowLength(MsoArrowheadLength) {#setEndArrowLength-msoarrowheadlength-}
 
-Specifies the length of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line.
 
 ```javascript
 setEndArrowLength(value: MsoArrowheadLength) : void;
@@ -298,7 +527,7 @@ setEndArrowLength(value: MsoArrowheadLength) : void;
 
 ### getBeginArrowWidth() {#getBeginArrowWidth--}
 
-Specifies the width of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line.
 
 ```javascript
 getBeginArrowWidth() : MsoArrowheadWidth;
@@ -311,7 +540,7 @@ getBeginArrowWidth() : MsoArrowheadWidth;
 
 ### setBeginArrowWidth(MsoArrowheadWidth) {#setBeginArrowWidth-msoarrowheadwidth-}
 
-Specifies the width of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line.
 
 ```javascript
 setBeginArrowWidth(value: MsoArrowheadWidth) : void;
@@ -324,7 +553,7 @@ setBeginArrowWidth(value: MsoArrowheadWidth) : void;
 
 ### getEndArrowWidth() {#getEndArrowWidth--}
 
-Specifies the width of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line.
 
 ```javascript
 getEndArrowWidth() : MsoArrowheadWidth;
@@ -337,7 +566,7 @@ getEndArrowWidth() : MsoArrowheadWidth;
 
 ### setEndArrowWidth(MsoArrowheadWidth) {#setEndArrowWidth-msoarrowheadwidth-}
 
-Specifies the width of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line.
 
 ```javascript
 setEndArrowWidth(value: MsoArrowheadWidth) : void;
@@ -350,7 +579,7 @@ setEndArrowWidth(value: MsoArrowheadWidth) : void;
 
 ### getThemeColor() {#getThemeColor--}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 getThemeColor() : ThemeColor;
@@ -367,7 +596,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 setThemeColor(value: ThemeColor) : void;
@@ -384,7 +613,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [Color](../color/) of the line.
+<b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -397,7 +626,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [Color](../color/) of the line.
+<b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;
@@ -410,7 +639,7 @@ setColor(value: Color) : void;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -419,7 +648,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;
@@ -432,7 +661,7 @@ setTransparency(value: number) : void;
 
 ### getStyle() {#getStyle--}
 
-Represents the style of the line.
+<b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line.
 
 ```javascript
 getStyle() : LineType;
@@ -445,7 +674,7 @@ getStyle() : LineType;
 
 ### setStyle(LineType) {#setStyle-linetype-}
 
-Represents the style of the line.
+<b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line.
 
 ```javascript
 setStyle(value: LineType) : void;
@@ -458,7 +687,7 @@ setStyle(value: LineType) : void;
 
 ### getWeight() {#getWeight--}
 
-Gets or sets the [WeightType](../weighttype/) of the line.
+<b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line.
 
 ```javascript
 getWeight() : WeightType;
@@ -471,7 +700,7 @@ getWeight() : WeightType;
 
 ### setWeight(WeightType) {#setWeight-weighttype-}
 
-Gets or sets the [WeightType](../weighttype/) of the line.
+<b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line.
 
 ```javascript
 setWeight(value: WeightType) : void;
@@ -484,7 +713,7 @@ setWeight(value: WeightType) : void;
 
 ### getWeightPt() {#getWeightPt--}
 
-Gets or sets the weight of the line in unit of points.
+<b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points.
 
 ```javascript
 getWeightPt() : number;
@@ -493,7 +722,7 @@ getWeightPt() : number;
 
 ### setWeightPt(number) {#setWeightPt-number-}
 
-Gets or sets the weight of the line in unit of points.
+<b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points.
 
 ```javascript
 setWeightPt(value: number) : void;
@@ -506,7 +735,7 @@ setWeightPt(value: number) : void;
 
 ### getWeightPx() {#getWeightPx--}
 
-Gets or sets the weight of the line in unit of pixels.
+<b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels.
 
 ```javascript
 getWeightPx() : number;
@@ -515,7 +744,7 @@ getWeightPx() : number;
 
 ### setWeightPx(number) {#setWeightPx-number-}
 
-Gets or sets the weight of the line in unit of pixels.
+<b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels.
 
 ```javascript
 setWeightPx(value: number) : void;
@@ -528,7 +757,7 @@ setWeightPx(value: number) : void;
 
 ### getFormattingType() {#getFormattingType--}
 
-Gets or sets format type.
+<b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type.
 
 ```javascript
 getFormattingType() : ChartLineFormattingType;
@@ -541,7 +770,7 @@ getFormattingType() : ChartLineFormattingType;
 
 ### setFormattingType(ChartLineFormattingType) {#setFormattingType-chartlineformattingtype-}
 
-Gets or sets format type.
+<b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type.
 
 ```javascript
 setFormattingType(value: ChartLineFormattingType) : void;
@@ -554,7 +783,7 @@ setFormattingType(value: ChartLineFormattingType) : void;
 
 ### isAutomaticColor() {#isAutomaticColor--}
 
-Indicates whether the color of line is automatic assigned.
+<b>@deprecated.</b> Please use the 'isAutomaticColor' property instead. Indicates whether the color of line is automatic assigned.
 
 ```javascript
 isAutomaticColor() : boolean;
@@ -563,7 +792,7 @@ isAutomaticColor() : boolean;
 
 ### isVisible() {#isVisible--}
 
-Represents whether the line is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible.
 
 ```javascript
 isVisible() : boolean;
@@ -572,7 +801,7 @@ isVisible() : boolean;
 
 ### setIsVisible(boolean) {#setIsVisible-boolean-}
 
-Represents whether the line is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible.
 
 ```javascript
 setIsVisible(value: boolean) : void;
@@ -585,7 +814,7 @@ setIsVisible(value: boolean) : void;
 
 ### isAuto() {#isAuto--}
 
-Indicates whether this line style is auto assigned.
+<b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned.
 
 ```javascript
 isAuto() : boolean;
@@ -594,7 +823,7 @@ isAuto() : boolean;
 
 ### setIsAuto(boolean) {#setIsAuto-boolean-}
 
-Indicates whether this line style is auto assigned.
+<b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned.
 
 ```javascript
 setIsAuto(value: boolean) : void;
@@ -607,7 +836,7 @@ setIsAuto(value: boolean) : void;
 
 ### getGradientFill() {#getGradientFill--}
 
-Represents gradient fill.
+<b>@deprecated.</b> Please use the 'gradientFill' property instead. Represents gradient fill.
 
 ```javascript
 getGradientFill() : GradientFill;

@@ -15,27 +15,102 @@ class ColorScale;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [is3ColorScale](#is3ColorScale--)| boolean | Indicates whether conditional formatting is 3 color scale. |
+| [minCfvo](#minCfvo--)| ConditionalFormattingValue | Readonly. Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it. |
+| [midCfvo](#midCfvo--)| ConditionalFormattingValue | Readonly. Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it. |
+| [maxCfvo](#maxCfvo--)| ConditionalFormattingValue | Readonly. Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it. |
+| [minColor](#minColor--)| Color | Get or set the gradient color for the minimum value in the range. |
+| [midColor](#midColor--)| Color | Get or set the gradient color for the middle value in the range. |
+| [maxColor](#maxColor--)| Color | Get or set the gradient color for the maximum value in the range. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getIs3ColorScale()](#getIs3ColorScale--)| Indicates whether conditional formatting is 3 color scale. |
-| [setIs3ColorScale(boolean)](#setIs3ColorScale-boolean-)| Indicates whether conditional formatting is 3 color scale. |
-| [getMinCfvo()](#getMinCfvo--)| Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it. |
-| [getMidCfvo()](#getMidCfvo--)| Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it. |
-| [getMaxCfvo()](#getMaxCfvo--)| Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it. |
-| [getMinColor()](#getMinColor--)| Get or set the gradient color for the minimum value in the range. |
-| [setMinColor(Color)](#setMinColor-color-)| Get or set the gradient color for the minimum value in the range. |
-| [getMidColor()](#getMidColor--)| Get or set the gradient color for the middle value in the range. |
-| [setMidColor(Color)](#setMidColor-color-)| Get or set the gradient color for the middle value in the range. |
-| [getMaxColor()](#getMaxColor--)| Get or set the gradient color for the maximum value in the range. |
-| [setMaxColor(Color)](#setMaxColor-color-)| Get or set the gradient color for the maximum value in the range. |
+| [getIs3ColorScale()](#getIs3ColorScale--)| <b>@deprecated.</b> Please use the 'is3ColorScale' property instead. Indicates whether conditional formatting is 3 color scale. |
+| [setIs3ColorScale(boolean)](#setIs3ColorScale-boolean-)| <b>@deprecated.</b> Please use the 'is3ColorScale' property instead. Indicates whether conditional formatting is 3 color scale. |
+| [getMinCfvo()](#getMinCfvo--)| <b>@deprecated.</b> Please use the 'minCfvo' property instead. Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it. |
+| [getMidCfvo()](#getMidCfvo--)| <b>@deprecated.</b> Please use the 'midCfvo' property instead. Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it. |
+| [getMaxCfvo()](#getMaxCfvo--)| <b>@deprecated.</b> Please use the 'maxCfvo' property instead. Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it. |
+| [getMinColor()](#getMinColor--)| <b>@deprecated.</b> Please use the 'minColor' property instead. Get or set the gradient color for the minimum value in the range. |
+| [setMinColor(Color)](#setMinColor-color-)| <b>@deprecated.</b> Please use the 'minColor' property instead. Get or set the gradient color for the minimum value in the range. |
+| [getMidColor()](#getMidColor--)| <b>@deprecated.</b> Please use the 'midColor' property instead. Get or set the gradient color for the middle value in the range. |
+| [setMidColor(Color)](#setMidColor-color-)| <b>@deprecated.</b> Please use the 'midColor' property instead. Get or set the gradient color for the middle value in the range. |
+| [getMaxColor()](#getMaxColor--)| <b>@deprecated.</b> Please use the 'maxColor' property instead. Get or set the gradient color for the maximum value in the range. |
+| [setMaxColor(Color)](#setMaxColor-color-)| <b>@deprecated.</b> Please use the 'maxColor' property instead. Get or set the gradient color for the maximum value in the range. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### is3ColorScale {#is3ColorScale--}
+
+Indicates whether conditional formatting is 3 color scale.
+
+```javascript
+is3ColorScale : boolean;
+```
+
+
+### minCfvo {#minCfvo--}
+
+Readonly. Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
+
+```javascript
+minCfvo : ConditionalFormattingValue;
+```
+
+
+### midCfvo {#midCfvo--}
+
+Readonly. Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
+
+```javascript
+midCfvo : ConditionalFormattingValue;
+```
+
+
+### maxCfvo {#maxCfvo--}
+
+Readonly. Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
+
+```javascript
+maxCfvo : ConditionalFormattingValue;
+```
+
+
+### minColor {#minColor--}
+
+Get or set the gradient color for the minimum value in the range.
+
+```javascript
+minColor : Color;
+```
+
+
+### midColor {#midColor--}
+
+Get or set the gradient color for the middle value in the range.
+
+```javascript
+midColor : Color;
+```
+
+
+### maxColor {#maxColor--}
+
+Get or set the gradient color for the maximum value in the range.
+
+```javascript
+maxColor : Color;
+```
 
 
 ### getIs3ColorScale() {#getIs3ColorScale--}
 
-Indicates whether conditional formatting is 3 color scale.
+<b>@deprecated.</b> Please use the 'is3ColorScale' property instead. Indicates whether conditional formatting is 3 color scale.
 
 ```javascript
 getIs3ColorScale() : boolean;
@@ -44,7 +119,7 @@ getIs3ColorScale() : boolean;
 
 ### setIs3ColorScale(boolean) {#setIs3ColorScale-boolean-}
 
-Indicates whether conditional formatting is 3 color scale.
+<b>@deprecated.</b> Please use the 'is3ColorScale' property instead. Indicates whether conditional formatting is 3 color scale.
 
 ```javascript
 setIs3ColorScale(value: boolean) : void;
@@ -57,7 +132,7 @@ setIs3ColorScale(value: boolean) : void;
 
 ### getMinCfvo() {#getMinCfvo--}
 
-Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
+<b>@deprecated.</b> Please use the 'minCfvo' property instead. Get or set this ColorScale's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 
 ```javascript
 getMinCfvo() : ConditionalFormattingValue;
@@ -70,7 +145,7 @@ getMinCfvo() : ConditionalFormattingValue;
 
 ### getMidCfvo() {#getMidCfvo--}
 
-Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
+<b>@deprecated.</b> Please use the 'midCfvo' property instead. Get or set this ColorScale's mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
 
 ```javascript
 getMidCfvo() : ConditionalFormattingValue;
@@ -83,7 +158,7 @@ getMidCfvo() : ConditionalFormattingValue;
 
 ### getMaxCfvo() {#getMaxCfvo--}
 
-Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
+<b>@deprecated.</b> Please use the 'maxCfvo' property instead. Get or set this ColorScale's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
 
 ```javascript
 getMaxCfvo() : ConditionalFormattingValue;
@@ -96,7 +171,7 @@ getMaxCfvo() : ConditionalFormattingValue;
 
 ### getMinColor() {#getMinColor--}
 
-Get or set the gradient color for the minimum value in the range.
+<b>@deprecated.</b> Please use the 'minColor' property instead. Get or set the gradient color for the minimum value in the range.
 
 ```javascript
 getMinColor() : Color;
@@ -109,7 +184,7 @@ getMinColor() : Color;
 
 ### setMinColor(Color) {#setMinColor-color-}
 
-Get or set the gradient color for the minimum value in the range.
+<b>@deprecated.</b> Please use the 'minColor' property instead. Get or set the gradient color for the minimum value in the range.
 
 ```javascript
 setMinColor(value: Color) : void;
@@ -122,7 +197,7 @@ setMinColor(value: Color) : void;
 
 ### getMidColor() {#getMidColor--}
 
-Get or set the gradient color for the middle value in the range.
+<b>@deprecated.</b> Please use the 'midColor' property instead. Get or set the gradient color for the middle value in the range.
 
 ```javascript
 getMidColor() : Color;
@@ -135,7 +210,7 @@ getMidColor() : Color;
 
 ### setMidColor(Color) {#setMidColor-color-}
 
-Get or set the gradient color for the middle value in the range.
+<b>@deprecated.</b> Please use the 'midColor' property instead. Get or set the gradient color for the middle value in the range.
 
 ```javascript
 setMidColor(value: Color) : void;
@@ -148,7 +223,7 @@ setMidColor(value: Color) : void;
 
 ### getMaxColor() {#getMaxColor--}
 
-Get or set the gradient color for the maximum value in the range.
+<b>@deprecated.</b> Please use the 'maxColor' property instead. Get or set the gradient color for the maximum value in the range.
 
 ```javascript
 getMaxColor() : Color;
@@ -161,7 +236,7 @@ getMaxColor() : Color;
 
 ### setMaxColor(Color) {#setMaxColor-color-}
 
-Get or set the gradient color for the maximum value in the range.
+<b>@deprecated.</b> Please use the 'maxColor' property instead. Get or set the gradient color for the maximum value in the range.
 
 ```javascript
 setMaxColor(value: Color) : void;

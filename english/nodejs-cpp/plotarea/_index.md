@@ -17,66 +17,101 @@ class PlotArea extends ChartFrame;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ChartFrame)](#constructor-chartframe-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [x](#x--)| number | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [y](#y--)| number | Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area. |
+| [height](#height--)| number | Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
+| [width](#width--)| number | Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
+| [innerX](#innerX--)| number | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [innerY](#innerY--)| number | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [innerHeight](#innerHeight--)| number | Gets or sets the height of plot area in units of 1/4000 of the chart area. |
+| [innerWidth](#innerWidth--)| number | Gets or sets the width  of plot area in units of 1/4000 of the chart area. |
+| [xRatioToChart](#xRatioToChart--)| number | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
+| [yRatioToChart](#yRatioToChart--)| number | Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area. |
+| [heightRatioToChart](#heightRatioToChart--)| number | Gets or sets the height of plot-area bounding box in units of ratio of the chart area. |
+| [widthRatioToChart](#widthRatioToChart--)| number | Gets or sets the width of plot-area bounding box in units of ratio of the chart area. |
+| [innerXRatioToChart](#innerXRatioToChart--)| number | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [innerYRatioToChart](#innerYRatioToChart--)| number | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [innerHeightRatioToChart](#innerHeightRatioToChart--)| number | Gets or sets the height of plot area in units of ratio of the chart area. |
+| [innerWidthRatioToChart](#innerWidthRatioToChart--)| number | Gets or sets the width  of plot area in units of ratio of the chart area. |
+| [isAutomaticSize](#isAutomaticSize--)| boolean | Indicates whether the plot area is automatic sized. |
+| [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [shadow](#shadow--)| boolean | True if the frame has a shadow. |
+| [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getX()](#getX--)| Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
-| [setX(number)](#setX-number-)| Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
-| [getY()](#getY--)| Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area. |
-| [setY(number)](#setY-number-)| Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area. |
-| [getHeight()](#getHeight--)| Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| [setHeight(number)](#setHeight-number-)| Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| [getWidth()](#getWidth--)| Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
-| [setWidth(number)](#setWidth-number-)| Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
-| [getInnerX()](#getInnerX--)| Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [setInnerX(number)](#setInnerX-number-)| Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [getInnerY()](#getInnerY--)| Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [setInnerY(number)](#setInnerY-number-)| Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [getInnerHeight()](#getInnerHeight--)| Gets or sets the height of plot area in units of 1/4000 of the chart area. |
-| [setInnerHeight(number)](#setInnerHeight-number-)| Gets or sets the height of plot area in units of 1/4000 of the chart area. |
-| [getInnerWidth()](#getInnerWidth--)| Gets or sets the width  of plot area in units of 1/4000 of the chart area. |
-| [setInnerWidth(number)](#setInnerWidth-number-)| Gets or sets the width  of plot area in units of 1/4000 of the chart area. |
-| [getXRatioToChart()](#getXRatioToChart--)| Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
-| [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
-| [getYRatioToChart()](#getYRatioToChart--)| Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area. |
-| [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--)| Gets or sets the height of plot-area bounding box in units of ratio of the chart area. |
-| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the height of plot-area bounding box in units of ratio of the chart area. |
-| [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the width of plot-area bounding box in units of ratio of the chart area. |
-| [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the width of plot-area bounding box in units of ratio of the chart area. |
-| [getInnerXRatioToChart()](#getInnerXRatioToChart--)| Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [setInnerXRatioToChart(number)](#setInnerXRatioToChart-number-)| Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [getInnerYRatioToChart()](#getInnerYRatioToChart--)| Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [setInnerYRatioToChart(number)](#setInnerYRatioToChart-number-)| Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [getInnerHeightRatioToChart()](#getInnerHeightRatioToChart--)| Gets or sets the height of plot area in units of ratio of the chart area. |
-| [setInnerHeightRatioToChart(number)](#setInnerHeightRatioToChart-number-)| Gets or sets the height of plot area in units of ratio of the chart area. |
-| [getInnerWidthRatioToChart()](#getInnerWidthRatioToChart--)| Gets or sets the width  of plot area in units of ratio of the chart area. |
-| [setInnerWidthRatioToChart(number)](#setInnerWidthRatioToChart-number-)| Gets or sets the width  of plot area in units of ratio of the chart area. |
-| [isAutomaticSize()](#isAutomaticSize--)| Indicates whether the plot area is automatic sized. |
-| [setIsAutomaticSize(boolean)](#setIsAutomaticSize-boolean-)| Indicates whether the plot area is automatic sized. |
+| [getX()](#getX--)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setX(number)](#setX-number-)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getY()](#getY--)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setY(number)](#setY-number-)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getInnerX()](#getInnerX--)| <b>@deprecated.</b> Please use the 'innerX' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [setInnerX(number)](#setInnerX-number-)| <b>@deprecated.</b> Please use the 'innerX' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [getInnerY()](#getInnerY--)| <b>@deprecated.</b> Please use the 'innerY' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [setInnerY(number)](#setInnerY-number-)| <b>@deprecated.</b> Please use the 'innerY' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [getInnerHeight()](#getInnerHeight--)| <b>@deprecated.</b> Please use the 'innerHeight' property instead. Gets or sets the height of plot area in units of 1/4000 of the chart area. |
+| [setInnerHeight(number)](#setInnerHeight-number-)| <b>@deprecated.</b> Please use the 'innerHeight' property instead. Gets or sets the height of plot area in units of 1/4000 of the chart area. |
+| [getInnerWidth()](#getInnerWidth--)| <b>@deprecated.</b> Please use the 'innerWidth' property instead. Gets or sets the width  of plot area in units of 1/4000 of the chart area. |
+| [setInnerWidth(number)](#setInnerWidth-number-)| <b>@deprecated.</b> Please use the 'innerWidth' property instead. Gets or sets the width  of plot area in units of 1/4000 of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
+| [setXRatioToChart(number)](#setXRatioToChart-number-)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
+| [getYRatioToChart()](#getYRatioToChart--)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area. |
+| [setYRatioToChart(number)](#setYRatioToChart-number-)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the height of plot-area bounding box in units of ratio of the chart area. |
+| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| <b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the height of plot-area bounding box in units of ratio of the chart area. |
+| [getWidthRatioToChart()](#getWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the width of plot-area bounding box in units of ratio of the chart area. |
+| [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| <b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the width of plot-area bounding box in units of ratio of the chart area. |
+| [getInnerXRatioToChart()](#getInnerXRatioToChart--)| <b>@deprecated.</b> Please use the 'innerXRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [setInnerXRatioToChart(number)](#setInnerXRatioToChart-number-)| <b>@deprecated.</b> Please use the 'innerXRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [getInnerYRatioToChart()](#getInnerYRatioToChart--)| <b>@deprecated.</b> Please use the 'innerYRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [setInnerYRatioToChart(number)](#setInnerYRatioToChart-number-)| <b>@deprecated.</b> Please use the 'innerYRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [getInnerHeightRatioToChart()](#getInnerHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'innerHeightRatioToChart' property instead. Gets or sets the height of plot area in units of ratio of the chart area. |
+| [setInnerHeightRatioToChart(number)](#setInnerHeightRatioToChart-number-)| <b>@deprecated.</b> Please use the 'innerHeightRatioToChart' property instead. Gets or sets the height of plot area in units of ratio of the chart area. |
+| [getInnerWidthRatioToChart()](#getInnerWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'innerWidthRatioToChart' property instead. Gets or sets the width  of plot area in units of ratio of the chart area. |
+| [setInnerWidthRatioToChart(number)](#setInnerWidthRatioToChart-number-)| <b>@deprecated.</b> Please use the 'innerWidthRatioToChart' property instead. Gets or sets the width  of plot area in units of ratio of the chart area. |
+| [isAutomaticSize()](#isAutomaticSize--)| <b>@deprecated.</b> Please use the 'isAutomaticSize' property instead. Indicates whether the plot area is automatic sized. |
+| [setIsAutomaticSize(boolean)](#setIsAutomaticSize-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticSize' property instead. Indicates whether the plot area is automatic sized. |
 | [setPositionAuto()](#setPositionAuto--)| Set position of the plot area to automatic |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getShadow()](#getShadow--)| True if the frame has a shadow. |
-| [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [getDefaultX()](#getDefaultX--)| Represents x of default position in units of 1/4000 of the chart area. |
-| [getDefaultY()](#getDefaultY--)| Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultWidth()](#getDefaultWidth--)| Represents width of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeight()](#getDefaultHeight--)| Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
-| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
+| [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [getDefaultX()](#getDefaultX--)| <b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area. |
+| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area. |
+| [getDefaultWidth()](#getDefaultWidth--)| <b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area. |
+| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -106,9 +141,363 @@ constructor(obj: ChartFrame);
 | --- | --- | --- |
 | obj | ChartFrame | The parent object. |
 
-### getX() {#getX--}
+### x {#x--}
 
 Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+
+```javascript
+x : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### y {#y--}
+
+Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area.
+
+```javascript
+y : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### height {#height--}
+
+Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
+
+```javascript
+height : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### width {#width--}
+
+Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
+
+```javascript
+width : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### innerX {#innerX--}
+
+Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+
+```javascript
+innerX : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### innerY {#innerY--}
+
+Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+
+```javascript
+innerY : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### innerHeight {#innerHeight--}
+
+Gets or sets the height of plot area in units of 1/4000 of the chart area.
+
+```javascript
+innerHeight : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### innerWidth {#innerWidth--}
+
+Gets or sets the width  of plot area in units of 1/4000 of the chart area.
+
+```javascript
+innerWidth : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+
+### xRatioToChart {#xRatioToChart--}
+
+Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+
+```javascript
+xRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> XPixel = XRatioToChart * chart.ChartObject.Width.
+
+### yRatioToChart {#yRatioToChart--}
+
+Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
+
+```javascript
+yRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> YPixel = YRatioToChart * chart.ChartObject.Width.
+
+### heightRatioToChart {#heightRatioToChart--}
+
+Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+
+```javascript
+heightRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> HeightPixel = HeightRatioToChart * chart.ChartObject.Width.
+
+### widthRatioToChart {#widthRatioToChart--}
+
+Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
+
+```javascript
+widthRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> WidthPixel = WidthRatioToChart * chart.ChartObject.Width.
+
+### innerXRatioToChart {#innerXRatioToChart--}
+
+Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+
+```javascript
+innerXRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> InnerX in Pixel = InnerXRatioToChart * chart.ChartObject.Width.
+
+### innerYRatioToChart {#innerYRatioToChart--}
+
+Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+
+```javascript
+innerYRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> InnerY in Pixel = InnerYRatioToChart * chart.ChartObject.Width.
+
+### innerHeightRatioToChart {#innerHeightRatioToChart--}
+
+Gets or sets the height of plot area in units of ratio of the chart area.
+
+```javascript
+innerHeightRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> InnerHeight in Pixel = InnerXRatioToChart * chart.ChartObject.Width.
+
+### innerWidthRatioToChart {#innerWidthRatioToChart--}
+
+Gets or sets the width  of plot area in units of ratio of the chart area.
+
+```javascript
+innerWidthRatioToChart : number;
+```
+
+
+**Remarks**
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>XRatioToChart</b>, <b>YRatioToChart</b>, <b>WidthRatioToChart</b> and <b>HeightRatioToChart</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerXRatioToChart</b>, <b>InnerYRatioToChart</b>, <b>InnerWidthRatioToChart</b> and <b>InnerHeightRatioToChart</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p> InnerWidth in Pixel = InnerXRatioToChart * chart.ChartObject.Width.
+
+### isAutomaticSize {#isAutomaticSize--}
+
+Indicates whether the plot area is automatic sized.
+
+```javascript
+isAutomaticSize : boolean;
+```
+
+
+### isInnerMode {#isInnerMode--}
+
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### shadow {#shadow--}
+
+True if the frame has a shadow.
+
+```javascript
+shadow : boolean;
+```
+
+
+### shapeProperties {#shapeProperties--}
+
+Readonly. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+shapeProperties : ShapePropertyCollection;
+```
+
+
+### isDefaultPosBeSet {#isDefaultPosBeSet--}
+
+Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet : boolean;
+```
+
+
+### defaultX {#defaultX--}
+
+Readonly. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultX : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultY {#defaultY--}
+
+Readonly. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultY : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultWidth {#defaultWidth--}
+
+Readonly. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultWidth : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultHeight {#defaultHeight--}
+
+Readonly. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultHeight : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultXRatioToChart {#defaultXRatioToChart--}
+
+Readonly. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+defaultXRatioToChart : number;
+```
+
+
+### defaultYRatioToChart {#defaultYRatioToChart--}
+
+Readonly. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+defaultYRatioToChart : number;
+```
+
+
+### defaultWidthRatioToChart {#defaultWidthRatioToChart--}
+
+Readonly. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+defaultWidthRatioToChart : number;
+```
+
+
+### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
+
+Readonly. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+defaultHeightRatioToChart : number;
+```
+
+
+### getX() {#getX--}
+
+<b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 getX() : number;
@@ -121,7 +510,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setX(number) {#setX-number-}
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 setX(value: number) : void;
@@ -138,7 +527,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getY() {#getY--}
 
-Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 getY() : number;
@@ -151,7 +540,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setY(number) {#setY-number-}
 
-Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 setY(value: number) : void;
@@ -168,7 +557,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getHeight() {#getHeight--}
 
-Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 getHeight() : number;
@@ -181,7 +570,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setHeight(number) {#setHeight-number-}
 
-Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 setHeight(value: number) : void;
@@ -198,7 +587,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getWidth() {#getWidth--}
 
-Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 getWidth() : number;
@@ -211,7 +600,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setWidth(number) {#setWidth-number-}
 
-Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of plot-area bounding box in units of 1/4000 of the chart area.
 
 ```javascript
 setWidth(value: number) : void;
@@ -228,7 +617,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerX() {#getInnerX--}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerX' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 getInnerX() : number;
@@ -241,7 +630,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerX(number) {#setInnerX-number-}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerX' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 setInnerX(value: number) : void;
@@ -258,7 +647,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerY() {#getInnerY--}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerY' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 getInnerY() : number;
@@ -271,7 +660,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerY(number) {#setInnerY-number-}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerY' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 setInnerY(value: number) : void;
@@ -288,7 +677,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerHeight() {#getInnerHeight--}
 
-Gets or sets the height of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerHeight' property instead. Gets or sets the height of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 getInnerHeight() : number;
@@ -301,7 +690,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerHeight(number) {#setInnerHeight-number-}
 
-Gets or sets the height of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerHeight' property instead. Gets or sets the height of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 setInnerHeight(value: number) : void;
@@ -318,7 +707,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerWidth() {#getInnerWidth--}
 
-Gets or sets the width  of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerWidth' property instead. Gets or sets the width  of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 getInnerWidth() : number;
@@ -331,7 +720,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerWidth(number) {#setInnerWidth-number-}
 
-Gets or sets the width  of plot area in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'innerWidth' property instead. Gets or sets the width  of plot area in units of 1/4000 of the chart area.
 
 ```javascript
 setInnerWidth(value: number) : void;
@@ -348,7 +737,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getXRatioToChart() {#getXRatioToChart--}
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 getXRatioToChart() : number;
@@ -361,7 +750,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setXRatioToChart(number) {#setXRatioToChart-number-}
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 setXRatioToChart(value: number) : void;
@@ -378,7 +767,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getYRatioToChart() {#getYRatioToChart--}
 
-Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 getYRatioToChart() : number;
@@ -391,7 +780,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setYRatioToChart(number) {#setYRatioToChart-number-}
 
-Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 setYRatioToChart(value: number) : void;
@@ -408,7 +797,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getHeightRatioToChart() {#getHeightRatioToChart--}
 
-Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 getHeightRatioToChart() : number;
@@ -421,7 +810,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setHeightRatioToChart(number) {#setHeightRatioToChart-number-}
 
-Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 setHeightRatioToChart(value: number) : void;
@@ -438,7 +827,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getWidthRatioToChart() {#getWidthRatioToChart--}
 
-Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 getWidthRatioToChart() : number;
@@ -451,7 +840,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setWidthRatioToChart(number) {#setWidthRatioToChart-number-}
 
-Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
 
 ```javascript
 setWidthRatioToChart(value: number) : void;
@@ -468,7 +857,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerXRatioToChart() {#getInnerXRatioToChart--}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerXRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
 
 ```javascript
 getInnerXRatioToChart() : number;
@@ -481,7 +870,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerXRatioToChart(number) {#setInnerXRatioToChart-number-}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerXRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
 
 ```javascript
 setInnerXRatioToChart(value: number) : void;
@@ -498,7 +887,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerYRatioToChart() {#getInnerYRatioToChart--}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerYRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
 
 ```javascript
 getInnerYRatioToChart() : number;
@@ -511,7 +900,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerYRatioToChart(number) {#setInnerYRatioToChart-number-}
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerYRatioToChart' property instead. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
 
 ```javascript
 setInnerYRatioToChart(value: number) : void;
@@ -528,7 +917,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerHeightRatioToChart() {#getInnerHeightRatioToChart--}
 
-Gets or sets the height of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerHeightRatioToChart' property instead. Gets or sets the height of plot area in units of ratio of the chart area.
 
 ```javascript
 getInnerHeightRatioToChart() : number;
@@ -541,7 +930,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerHeightRatioToChart(number) {#setInnerHeightRatioToChart-number-}
 
-Gets or sets the height of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerHeightRatioToChart' property instead. Gets or sets the height of plot area in units of ratio of the chart area.
 
 ```javascript
 setInnerHeightRatioToChart(value: number) : void;
@@ -558,7 +947,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### getInnerWidthRatioToChart() {#getInnerWidthRatioToChart--}
 
-Gets or sets the width  of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerWidthRatioToChart' property instead. Gets or sets the width  of plot area in units of ratio of the chart area.
 
 ```javascript
 getInnerWidthRatioToChart() : number;
@@ -571,7 +960,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### setInnerWidthRatioToChart(number) {#setInnerWidthRatioToChart-number-}
 
-Gets or sets the width  of plot area in units of ratio of the chart area.
+<b>@deprecated.</b> Please use the 'innerWidthRatioToChart' property instead. Gets or sets the width  of plot area in units of ratio of the chart area.
 
 ```javascript
 setInnerWidthRatioToChart(value: number) : void;
@@ -588,7 +977,7 @@ The plot-area bounding box includes the plot area, tick marks(tick labels), and 
 
 ### isAutomaticSize() {#isAutomaticSize--}
 
-Indicates whether the plot area is automatic sized.
+<b>@deprecated.</b> Please use the 'isAutomaticSize' property instead. Indicates whether the plot area is automatic sized.
 
 ```javascript
 isAutomaticSize() : boolean;
@@ -597,7 +986,7 @@ isAutomaticSize() : boolean;
 
 ### setIsAutomaticSize(boolean) {#setIsAutomaticSize-boolean-}
 
-Indicates whether the plot area is automatic sized.
+<b>@deprecated.</b> Please use the 'isAutomaticSize' property instead. Indicates whether the plot area is automatic sized.
 
 ```javascript
 setIsAutomaticSize(value: boolean) : void;
@@ -628,7 +1017,7 @@ isNull() : boolean;
 
 ### isInnerMode() {#isInnerMode--}
 
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
 
 ```javascript
 isInnerMode() : boolean;
@@ -641,7 +1030,7 @@ Only for Xlsx file.
 
 ### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
 
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
 
 ```javascript
 setIsInnerMode(value: boolean) : void;
@@ -658,7 +1047,7 @@ Only for Xlsx file.
 
 ### getBackgroundMode() {#getBackgroundMode--}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 getBackgroundMode() : BackgroundMode;
@@ -671,7 +1060,7 @@ getBackgroundMode() : BackgroundMode;
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 setBackgroundMode(value: BackgroundMode) : void;
@@ -684,7 +1073,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 
 ### getShadow() {#getShadow--}
 
-True if the frame has a shadow.
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
 
 ```javascript
 getShadow() : boolean;
@@ -693,7 +1082,7 @@ getShadow() : boolean;
 
 ### setShadow(boolean) {#setShadow-boolean-}
 
-True if the frame has a shadow.
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
 
 ```javascript
 setShadow(value: boolean) : void;
@@ -706,7 +1095,7 @@ setShadow(value: boolean) : void;
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapeProperties](../shapeproperties/) object.
+<b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -719,7 +1108,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
 
 ```javascript
 isDefaultPosBeSet() : boolean;
@@ -728,7 +1117,7 @@ isDefaultPosBeSet() : boolean;
 
 ### getDefaultX() {#getDefaultX--}
 
-Represents x of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultX() : number;
@@ -741,7 +1130,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart pr
 
 ### getDefaultY() {#getDefaultY--}
 
-Represents y of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultY() : number;
@@ -754,7 +1143,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart pr
 
 ### getDefaultWidth() {#getDefaultWidth--}
 
-Represents width of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultWidth() : number;
@@ -767,7 +1156,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChar
 
 ### getDefaultHeight() {#getDefaultHeight--}
 
-Represents height of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultHeight() : number;
@@ -780,7 +1169,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToCha
 
 ### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
 
-Represents x of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultXRatioToChart() : number;
@@ -789,7 +1178,7 @@ getDefaultXRatioToChart() : number;
 
 ### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
 
-Represents y of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultYRatioToChart() : number;
@@ -798,7 +1187,7 @@ getDefaultYRatioToChart() : number;
 
 ### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
 
-Represents width of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultWidthRatioToChart() : number;
@@ -807,7 +1196,7 @@ getDefaultWidthRatioToChart() : number;
 
 ### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
 
-Represents height of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultHeightRatioToChart() : number;

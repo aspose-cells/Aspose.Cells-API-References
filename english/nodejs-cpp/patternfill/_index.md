@@ -15,30 +15,105 @@ class PatternFill;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pattern](#pattern--)| FillPattern | Gets or sets the fill pattern type |
+| [backgroundColor](#backgroundColor--)| Color | Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [backgroundCellsColor](#backgroundCellsColor--)| CellsColor | Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [foregroundColor](#foregroundColor--)| Color | Gets or sets the foreground [Color](../color/). |
+| [foregroundCellsColor](#foregroundCellsColor--)| CellsColor | Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [foreTransparency](#foreTransparency--)| number | Gets or sets the transparency of foreground color. |
+| [backTransparency](#backTransparency--)| number | Gets or sets the transparency of background color. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPattern()](#getPattern--)| Gets or sets the fill pattern type |
-| [setPattern(FillPattern)](#setPattern-fillpattern-)| Gets or sets the fill pattern type |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [getBackgroundCellsColor()](#getBackgroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
-| [setBackgroundCellsColor(CellsColor)](#setBackgroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [Color](../color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [Color](../color/). |
-| [getForegroundCellsColor()](#getForegroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
-| [setForegroundCellsColor(CellsColor)](#setForegroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
-| [getForeTransparency()](#getForeTransparency--)| Gets or sets the transparency of foreground color. |
-| [setForeTransparency(number)](#setForeTransparency-number-)| Gets or sets the transparency of foreground color. |
-| [getBackTransparency()](#getBackTransparency--)| Gets or sets the transparency of background color. |
-| [setBackTransparency(number)](#setBackTransparency-number-)| Gets or sets the transparency of background color. |
+| [getPattern()](#getPattern--)| <b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the fill pattern type |
+| [setPattern(FillPattern)](#setPattern-fillpattern-)| <b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the fill pattern type |
+| [getBackgroundColor()](#getBackgroundColor--)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [getBackgroundCellsColor()](#getBackgroundCellsColor--)| <b>@deprecated.</b> Please use the 'backgroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [setBackgroundCellsColor(CellsColor)](#setBackgroundCellsColor-cellscolor-)| <b>@deprecated.</b> Please use the 'backgroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [getForegroundCellsColor()](#getForegroundCellsColor--)| <b>@deprecated.</b> Please use the 'foregroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [setForegroundCellsColor(CellsColor)](#setForegroundCellsColor-cellscolor-)| <b>@deprecated.</b> Please use the 'foregroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [getForeTransparency()](#getForeTransparency--)| <b>@deprecated.</b> Please use the 'foreTransparency' property instead. Gets or sets the transparency of foreground color. |
+| [setForeTransparency(number)](#setForeTransparency-number-)| <b>@deprecated.</b> Please use the 'foreTransparency' property instead. Gets or sets the transparency of foreground color. |
+| [getBackTransparency()](#getBackTransparency--)| <b>@deprecated.</b> Please use the 'backTransparency' property instead. Gets or sets the transparency of background color. |
+| [setBackTransparency(number)](#setBackTransparency-number-)| <b>@deprecated.</b> Please use the 'backTransparency' property instead. Gets or sets the transparency of background color. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### pattern {#pattern--}
+
+Gets or sets the fill pattern type
+
+```javascript
+pattern : FillPattern;
+```
+
+
+### backgroundColor {#backgroundColor--}
+
+Gets or sets the background [Color](../color/) of the [Area](../area/).
+
+```javascript
+backgroundColor : Color;
+```
+
+
+### backgroundCellsColor {#backgroundCellsColor--}
+
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
+
+```javascript
+backgroundCellsColor : CellsColor;
+```
+
+
+### foregroundColor {#foregroundColor--}
+
+Gets or sets the foreground [Color](../color/).
+
+```javascript
+foregroundColor : Color;
+```
+
+
+### foregroundCellsColor {#foregroundCellsColor--}
+
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
+
+```javascript
+foregroundCellsColor : CellsColor;
+```
+
+
+### foreTransparency {#foreTransparency--}
+
+Gets or sets the transparency of foreground color.
+
+```javascript
+foreTransparency : number;
+```
+
+
+### backTransparency {#backTransparency--}
+
+Gets or sets the transparency of background color.
+
+```javascript
+backTransparency : number;
+```
 
 
 ### getPattern() {#getPattern--}
 
-Gets or sets the fill pattern type
+<b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the fill pattern type
 
 ```javascript
 getPattern() : FillPattern;
@@ -51,7 +126,7 @@ getPattern() : FillPattern;
 
 ### setPattern(FillPattern) {#setPattern-fillpattern-}
 
-Gets or sets the fill pattern type
+<b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the fill pattern type
 
 ```javascript
 setPattern(value: FillPattern) : void;
@@ -64,7 +139,7 @@ setPattern(value: FillPattern) : void;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -77,7 +152,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -90,7 +165,7 @@ setBackgroundColor(value: Color) : void;
 
 ### getBackgroundCellsColor() {#getBackgroundCellsColor--}
 
-Gets and sets the foreground [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'backgroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 getBackgroundCellsColor() : CellsColor;
@@ -103,7 +178,7 @@ getBackgroundCellsColor() : CellsColor;
 
 ### setBackgroundCellsColor(CellsColor) {#setBackgroundCellsColor-cellscolor-}
 
-Gets and sets the foreground [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'backgroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 setBackgroundCellsColor(value: CellsColor) : void;
@@ -116,7 +191,7 @@ setBackgroundCellsColor(value: CellsColor) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -129,7 +204,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -142,7 +217,7 @@ setForegroundColor(value: Color) : void;
 
 ### getForegroundCellsColor() {#getForegroundCellsColor--}
 
-Gets and sets the foreground [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'foregroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 getForegroundCellsColor() : CellsColor;
@@ -155,7 +230,7 @@ getForegroundCellsColor() : CellsColor;
 
 ### setForegroundCellsColor(CellsColor) {#setForegroundCellsColor-cellscolor-}
 
-Gets and sets the foreground [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'foregroundCellsColor' property instead. Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 setForegroundCellsColor(value: CellsColor) : void;
@@ -168,7 +243,7 @@ setForegroundCellsColor(value: CellsColor) : void;
 
 ### getForeTransparency() {#getForeTransparency--}
 
-Gets or sets the transparency of foreground color.
+<b>@deprecated.</b> Please use the 'foreTransparency' property instead. Gets or sets the transparency of foreground color.
 
 ```javascript
 getForeTransparency() : number;
@@ -177,7 +252,7 @@ getForeTransparency() : number;
 
 ### setForeTransparency(number) {#setForeTransparency-number-}
 
-Gets or sets the transparency of foreground color.
+<b>@deprecated.</b> Please use the 'foreTransparency' property instead. Gets or sets the transparency of foreground color.
 
 ```javascript
 setForeTransparency(value: number) : void;
@@ -190,7 +265,7 @@ setForeTransparency(value: number) : void;
 
 ### getBackTransparency() {#getBackTransparency--}
 
-Gets or sets the transparency of background color.
+<b>@deprecated.</b> Please use the 'backTransparency' property instead. Gets or sets the transparency of background color.
 
 ```javascript
 getBackTransparency() : number;
@@ -199,7 +274,7 @@ getBackTransparency() : number;
 
 ### setBackTransparency(number) {#setBackTransparency-number-}
 
-Gets or sets the transparency of background color.
+<b>@deprecated.</b> Please use the 'backTransparency' property instead. Gets or sets the transparency of background color.
 
 ```javascript
 setBackTransparency(value: number) : void;

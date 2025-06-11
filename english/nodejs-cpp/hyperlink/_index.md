@@ -22,33 +22,88 @@ const { Workbook } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Adding a new worksheet to the Workbook object
-workbook.getWorksheets().add();
+workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Adding a hyperlink to a URL at "A1" cell
-worksheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
+worksheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 //Saving the Excel file
 workbook.save("output/Hyperlink.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [address](#address--)| string | Represents the address of a hyperlink. |
+| [textToDisplay](#textToDisplay--)| string | Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
+| [area](#area--)| CellArea | Readonly. Gets the range of hyperlink. |
+| [screenTip](#screenTip--)| string | Returns or sets the ScreenTip text for the specified hyperlink. |
+| [linkType](#linkType--)| TargetModeType | Readonly. Gets the link type. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAddress()](#getAddress--)| Represents the address of a hyperlink. |
-| [setAddress(string)](#setAddress-string-)| Represents the address of a hyperlink. |
-| [getTextToDisplay()](#getTextToDisplay--)| Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
-| [setTextToDisplay(string)](#setTextToDisplay-string-)| Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
-| [getArea()](#getArea--)| Gets the range of hyperlink. |
-| [getScreenTip()](#getScreenTip--)| Returns or sets the ScreenTip text for the specified hyperlink. |
-| [setScreenTip(string)](#setScreenTip-string-)| Returns or sets the ScreenTip text for the specified hyperlink. |
-| [getLinkType()](#getLinkType--)| Gets the link type. |
+| [getAddress()](#getAddress--)| <b>@deprecated.</b> Please use the 'address' property instead. Represents the address of a hyperlink. |
+| [setAddress(string)](#setAddress-string-)| <b>@deprecated.</b> Please use the 'address' property instead. Represents the address of a hyperlink. |
+| [getTextToDisplay()](#getTextToDisplay--)| <b>@deprecated.</b> Please use the 'textToDisplay' property instead. Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
+| [setTextToDisplay(string)](#setTextToDisplay-string-)| <b>@deprecated.</b> Please use the 'textToDisplay' property instead. Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
+| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Gets the range of hyperlink. |
+| [getScreenTip()](#getScreenTip--)| <b>@deprecated.</b> Please use the 'screenTip' property instead. Returns or sets the ScreenTip text for the specified hyperlink. |
+| [setScreenTip(string)](#setScreenTip-string-)| <b>@deprecated.</b> Please use the 'screenTip' property instead. Returns or sets the ScreenTip text for the specified hyperlink. |
+| [getLinkType()](#getLinkType--)| <b>@deprecated.</b> Please use the 'linkType' property instead. Gets the link type. |
 | [delete()](#delete--)| Deletes this hyperlink |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getAddress() {#getAddress--}
+### address {#address--}
 
 Represents the address of a hyperlink.
+
+```javascript
+address : string;
+```
+
+
+### textToDisplay {#textToDisplay--}
+
+Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
+
+```javascript
+textToDisplay : string;
+```
+
+
+### area {#area--}
+
+Readonly. Gets the range of hyperlink.
+
+```javascript
+area : CellArea;
+```
+
+
+### screenTip {#screenTip--}
+
+Returns or sets the ScreenTip text for the specified hyperlink.
+
+```javascript
+screenTip : string;
+```
+
+
+### linkType {#linkType--}
+
+Readonly. Gets the link type.
+
+```javascript
+linkType : TargetModeType;
+```
+
+
+### getAddress() {#getAddress--}
+
+<b>@deprecated.</b> Please use the 'address' property instead. Represents the address of a hyperlink.
 
 ```javascript
 getAddress() : string;
@@ -57,7 +112,7 @@ getAddress() : string;
 
 ### setAddress(string) {#setAddress-string-}
 
-Represents the address of a hyperlink.
+<b>@deprecated.</b> Please use the 'address' property instead. Represents the address of a hyperlink.
 
 ```javascript
 setAddress(value: string) : void;
@@ -70,7 +125,7 @@ setAddress(value: string) : void;
 
 ### getTextToDisplay() {#getTextToDisplay--}
 
-Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
+<b>@deprecated.</b> Please use the 'textToDisplay' property instead. Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 
 ```javascript
 getTextToDisplay() : string;
@@ -79,7 +134,7 @@ getTextToDisplay() : string;
 
 ### setTextToDisplay(string) {#setTextToDisplay-string-}
 
-Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
+<b>@deprecated.</b> Please use the 'textToDisplay' property instead. Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 
 ```javascript
 setTextToDisplay(value: string) : void;
@@ -92,7 +147,7 @@ setTextToDisplay(value: string) : void;
 
 ### getArea() {#getArea--}
 
-Gets the range of hyperlink.
+<b>@deprecated.</b> Please use the 'area' property instead. Gets the range of hyperlink.
 
 ```javascript
 getArea() : CellArea;
@@ -105,7 +160,7 @@ getArea() : CellArea;
 
 ### getScreenTip() {#getScreenTip--}
 
-Returns or sets the ScreenTip text for the specified hyperlink.
+<b>@deprecated.</b> Please use the 'screenTip' property instead. Returns or sets the ScreenTip text for the specified hyperlink.
 
 ```javascript
 getScreenTip() : string;
@@ -114,7 +169,7 @@ getScreenTip() : string;
 
 ### setScreenTip(string) {#setScreenTip-string-}
 
-Returns or sets the ScreenTip text for the specified hyperlink.
+<b>@deprecated.</b> Please use the 'screenTip' property instead. Returns or sets the ScreenTip text for the specified hyperlink.
 
 ```javascript
 setScreenTip(value: string) : void;
@@ -127,7 +182,7 @@ setScreenTip(value: string) : void;
 
 ### getLinkType() {#getLinkType--}
 
-Gets the link type.
+<b>@deprecated.</b> Please use the 'linkType' property instead. Gets the link type.
 
 ```javascript
 getLinkType() : TargetModeType;

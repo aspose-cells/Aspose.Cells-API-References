@@ -22,7 +22,7 @@ class FilterColumnCollection;
 | [get(number)](#get-number-)| Gets [FilterColumn](../filtercolumn/) object at the special field. |
 | [removeAt(number)](#removeAt-number-)|  |
 | [getByIndex(number)](#getByIndex-number-)| Returns a single Filter object from a collection. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -75,7 +75,7 @@ getByIndex(index: number) : FilterColumn;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

@@ -22,11 +22,11 @@ const { Workbook, CellArea, SortOrder } = require("aspose.cells.node");
 //Instantiate a new Workbook object.
 var workbook = new Workbook("input/DataSorter.xls");
 //Get the workbook datasorter object.
-var sorter = workbook.getDataSorter();
+var sorter = workbook.dataSorter;
 //Set the first order for datasorter object.
-sorter.setOrder1(SortOrder.Descending);
+sorter.order1 = SortOrder.Descending;
 //Define the first key.
-sorter.setKey1(0);
+sorter.key1 = 0;
 //Create a cells area (range).
 var ca = new CellArea();
 //Specify the start row index.
@@ -38,35 +38,51 @@ ca.endRow = 12;
 //Specify the last column index.
 ca.endColumn = 1;
 //Sort data in the specified data range (A1:B14)
-sorter.sort(workbook.getWorksheets().get(0).getCells(), ca);
+sorter.sort(workbook.worksheets.get(0).cells, ca);
 //Save the excel file.
 workbook.save("output/DataSorter.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [keys](#keys--)| DataSorterKeyCollection | Readonly. Gets the key list of data sorter. |
+| [hasHeaders](#hasHeaders--)| boolean | Represents whether the range has headers. |
+| [key1](#key1--)| number | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [order1](#order1--)| SortOrder | Represents sort order of the first key. |
+| [key2](#key2--)| number | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [order2](#order2--)| SortOrder | Represents sort order of the second key. |
+| [key3](#key3--)| number | Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [order3](#order3--)| SortOrder | Represents sort order of the third key. |
+| [sortLeftToRight](#sortLeftToRight--)| boolean | True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
+| [caseSensitive](#caseSensitive--)| boolean | Gets and sets whether case sensitive when comparing string. |
+| [sortAsNumber](#sortAsNumber--)| boolean | Indicates whether sorting anything that looks like a number. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getKeys()](#getKeys--)| Gets the key list of data sorter. |
-| [getHasHeaders()](#getHasHeaders--)| Represents whether the range has headers. |
-| [setHasHeaders(boolean)](#setHasHeaders-boolean-)| Represents whether the range has headers. |
-| [getKey1()](#getKey1--)| Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [setKey1(number)](#setKey1-number-)| Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [getOrder1()](#getOrder1--)| Represents sort order of the first key. |
-| [setOrder1(SortOrder)](#setOrder1-sortorder-)| Represents sort order of the first key. |
-| [getKey2()](#getKey2--)| Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [setKey2(number)](#setKey2-number-)| Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [getOrder2()](#getOrder2--)| Represents sort order of the second key. |
-| [setOrder2(SortOrder)](#setOrder2-sortorder-)| Represents sort order of the second key. |
-| [getKey3()](#getKey3--)| Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [setKey3(number)](#setKey3-number-)| Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
-| [getOrder3()](#getOrder3--)| Represents sort order of the third key. |
-| [setOrder3(SortOrder)](#setOrder3-sortorder-)| Represents sort order of the third key. |
-| [getSortLeftToRight()](#getSortLeftToRight--)| True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
-| [setSortLeftToRight(boolean)](#setSortLeftToRight-boolean-)| True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
-| [getCaseSensitive()](#getCaseSensitive--)| Gets and sets whether case sensitive when comparing string. |
-| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| Gets and sets whether case sensitive when comparing string. |
-| [getSortAsNumber()](#getSortAsNumber--)| Indicates whether sorting anything that looks like a number. |
-| [setSortAsNumber(boolean)](#setSortAsNumber-boolean-)| Indicates whether sorting anything that looks like a number. |
+| [getKeys()](#getKeys--)| <b>@deprecated.</b> Please use the 'keys' property instead. Gets the key list of data sorter. |
+| [getHasHeaders()](#getHasHeaders--)| <b>@deprecated.</b> Please use the 'hasHeaders' property instead. Represents whether the range has headers. |
+| [setHasHeaders(boolean)](#setHasHeaders-boolean-)| <b>@deprecated.</b> Please use the 'hasHeaders' property instead. Represents whether the range has headers. |
+| [getKey1()](#getKey1--)| <b>@deprecated.</b> Please use the 'key1' property instead. Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setKey1(number)](#setKey1-number-)| <b>@deprecated.</b> Please use the 'key1' property instead. Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [getOrder1()](#getOrder1--)| <b>@deprecated.</b> Please use the 'order1' property instead. Represents sort order of the first key. |
+| [setOrder1(SortOrder)](#setOrder1-sortorder-)| <b>@deprecated.</b> Please use the 'order1' property instead. Represents sort order of the first key. |
+| [getKey2()](#getKey2--)| <b>@deprecated.</b> Please use the 'key2' property instead. Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setKey2(number)](#setKey2-number-)| <b>@deprecated.</b> Please use the 'key2' property instead. Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [getOrder2()](#getOrder2--)| <b>@deprecated.</b> Please use the 'order2' property instead. Represents sort order of the second key. |
+| [setOrder2(SortOrder)](#setOrder2-sortorder-)| <b>@deprecated.</b> Please use the 'order2' property instead. Represents sort order of the second key. |
+| [getKey3()](#getKey3--)| <b>@deprecated.</b> Please use the 'key3' property instead. Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setKey3(number)](#setKey3-number-)| <b>@deprecated.</b> Please use the 'key3' property instead. Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [getOrder3()](#getOrder3--)| <b>@deprecated.</b> Please use the 'order3' property instead. Represents sort order of the third key. |
+| [setOrder3(SortOrder)](#setOrder3-sortorder-)| <b>@deprecated.</b> Please use the 'order3' property instead. Represents sort order of the third key. |
+| [getSortLeftToRight()](#getSortLeftToRight--)| <b>@deprecated.</b> Please use the 'sortLeftToRight' property instead. True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
+| [setSortLeftToRight(boolean)](#setSortLeftToRight-boolean-)| <b>@deprecated.</b> Please use the 'sortLeftToRight' property instead. True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false. |
+| [getCaseSensitive()](#getCaseSensitive--)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Gets and sets whether case sensitive when comparing string. |
+| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Gets and sets whether case sensitive when comparing string. |
+| [getSortAsNumber()](#getSortAsNumber--)| <b>@deprecated.</b> Please use the 'sortAsNumber' property instead. Indicates whether sorting anything that looks like a number. |
+| [setSortAsNumber(boolean)](#setSortAsNumber-boolean-)| <b>@deprecated.</b> Please use the 'sortAsNumber' property instead. Indicates whether sorting anything that looks like a number. |
 | [clear()](#clear--)| Clear all settings. |
 | [addKey(number, SortOrder)](#addKey-number-sortorder-)| Adds sorted column index and sort order. |
 | [addKey(number, SortOrder, string)](#addKey-number-sortorder-string-)| Adds sorted column index and sort order with custom sort list. |
@@ -79,9 +95,108 @@ workbook.save("output/DataSorter.xls");
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### keys {#keys--}
+
+Readonly. Gets the key list of data sorter.
+
+```javascript
+keys : DataSorterKeyCollection;
+```
+
+
+### hasHeaders {#hasHeaders--}
+
+Represents whether the range has headers.
+
+```javascript
+hasHeaders : boolean;
+```
+
+
+### key1 {#key1--}
+
+Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
+
+```javascript
+key1 : number;
+```
+
+
+### order1 {#order1--}
+
+Represents sort order of the first key.
+
+```javascript
+order1 : SortOrder;
+```
+
+
+### key2 {#key2--}
+
+Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
+
+```javascript
+key2 : number;
+```
+
+
+### order2 {#order2--}
+
+Represents sort order of the second key.
+
+```javascript
+order2 : SortOrder;
+```
+
+
+### key3 {#key3--}
+
+Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
+
+```javascript
+key3 : number;
+```
+
+
+### order3 {#order3--}
+
+Represents sort order of the third key.
+
+```javascript
+order3 : SortOrder;
+```
+
+
+### sortLeftToRight {#sortLeftToRight--}
+
+True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
+
+```javascript
+sortLeftToRight : boolean;
+```
+
+
+### caseSensitive {#caseSensitive--}
+
+Gets and sets whether case sensitive when comparing string.
+
+```javascript
+caseSensitive : boolean;
+```
+
+
+### sortAsNumber {#sortAsNumber--}
+
+Indicates whether sorting anything that looks like a number.
+
+```javascript
+sortAsNumber : boolean;
+```
+
+
 ### getKeys() {#getKeys--}
 
-Gets the key list of data sorter.
+<b>@deprecated.</b> Please use the 'keys' property instead. Gets the key list of data sorter.
 
 ```javascript
 getKeys() : DataSorterKeyCollection;
@@ -94,7 +209,7 @@ getKeys() : DataSorterKeyCollection;
 
 ### getHasHeaders() {#getHasHeaders--}
 
-Represents whether the range has headers.
+<b>@deprecated.</b> Please use the 'hasHeaders' property instead. Represents whether the range has headers.
 
 ```javascript
 getHasHeaders() : boolean;
@@ -103,7 +218,7 @@ getHasHeaders() : boolean;
 
 ### setHasHeaders(boolean) {#setHasHeaders-boolean-}
 
-Represents whether the range has headers.
+<b>@deprecated.</b> Please use the 'hasHeaders' property instead. Represents whether the range has headers.
 
 ```javascript
 setHasHeaders(value: boolean) : void;
@@ -116,7 +231,7 @@ setHasHeaders(value: boolean) : void;
 
 ### getKey1() {#getKey1--}
 
-Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key1' property instead. Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 getKey1() : number;
@@ -125,7 +240,7 @@ getKey1() : number;
 
 ### setKey1(number) {#setKey1-number-}
 
-Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key1' property instead. Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 setKey1(value: number) : void;
@@ -138,7 +253,7 @@ setKey1(value: number) : void;
 
 ### getOrder1() {#getOrder1--}
 
-Represents sort order of the first key.
+<b>@deprecated.</b> Please use the 'order1' property instead. Represents sort order of the first key.
 
 ```javascript
 getOrder1() : SortOrder;
@@ -151,7 +266,7 @@ getOrder1() : SortOrder;
 
 ### setOrder1(SortOrder) {#setOrder1-sortorder-}
 
-Represents sort order of the first key.
+<b>@deprecated.</b> Please use the 'order1' property instead. Represents sort order of the first key.
 
 ```javascript
 setOrder1(value: SortOrder) : void;
@@ -164,7 +279,7 @@ setOrder1(value: SortOrder) : void;
 
 ### getKey2() {#getKey2--}
 
-Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key2' property instead. Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 getKey2() : number;
@@ -173,7 +288,7 @@ getKey2() : number;
 
 ### setKey2(number) {#setKey2-number-}
 
-Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key2' property instead. Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 setKey2(value: number) : void;
@@ -186,7 +301,7 @@ setKey2(value: number) : void;
 
 ### getOrder2() {#getOrder2--}
 
-Represents sort order of the second key.
+<b>@deprecated.</b> Please use the 'order2' property instead. Represents sort order of the second key.
 
 ```javascript
 getOrder2() : SortOrder;
@@ -199,7 +314,7 @@ getOrder2() : SortOrder;
 
 ### setOrder2(SortOrder) {#setOrder2-sortorder-}
 
-Represents sort order of the second key.
+<b>@deprecated.</b> Please use the 'order2' property instead. Represents sort order of the second key.
 
 ```javascript
 setOrder2(value: SortOrder) : void;
@@ -212,7 +327,7 @@ setOrder2(value: SortOrder) : void;
 
 ### getKey3() {#getKey3--}
 
-Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key3' property instead. Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 getKey3() : number;
@@ -221,7 +336,7 @@ getKey3() : number;
 
 ### setKey3(number) {#setKey3-number-}
 
-Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
+<b>@deprecated.</b> Please use the 'key3' property instead. Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
 
 ```javascript
 setKey3(value: number) : void;
@@ -234,7 +349,7 @@ setKey3(value: number) : void;
 
 ### getOrder3() {#getOrder3--}
 
-Represents sort order of the third key.
+<b>@deprecated.</b> Please use the 'order3' property instead. Represents sort order of the third key.
 
 ```javascript
 getOrder3() : SortOrder;
@@ -247,7 +362,7 @@ getOrder3() : SortOrder;
 
 ### setOrder3(SortOrder) {#setOrder3-sortorder-}
 
-Represents sort order of the third key.
+<b>@deprecated.</b> Please use the 'order3' property instead. Represents sort order of the third key.
 
 ```javascript
 setOrder3(value: SortOrder) : void;
@@ -260,7 +375,7 @@ setOrder3(value: SortOrder) : void;
 
 ### getSortLeftToRight() {#getSortLeftToRight--}
 
-True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
+<b>@deprecated.</b> Please use the 'sortLeftToRight' property instead. True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
 
 ```javascript
 getSortLeftToRight() : boolean;
@@ -269,7 +384,7 @@ getSortLeftToRight() : boolean;
 
 ### setSortLeftToRight(boolean) {#setSortLeftToRight-boolean-}
 
-True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
+<b>@deprecated.</b> Please use the 'sortLeftToRight' property instead. True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
 
 ```javascript
 setSortLeftToRight(value: boolean) : void;
@@ -282,7 +397,7 @@ setSortLeftToRight(value: boolean) : void;
 
 ### getCaseSensitive() {#getCaseSensitive--}
 
-Gets and sets whether case sensitive when comparing string.
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Gets and sets whether case sensitive when comparing string.
 
 ```javascript
 getCaseSensitive() : boolean;
@@ -291,7 +406,7 @@ getCaseSensitive() : boolean;
 
 ### setCaseSensitive(boolean) {#setCaseSensitive-boolean-}
 
-Gets and sets whether case sensitive when comparing string.
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Gets and sets whether case sensitive when comparing string.
 
 ```javascript
 setCaseSensitive(value: boolean) : void;
@@ -304,7 +419,7 @@ setCaseSensitive(value: boolean) : void;
 
 ### getSortAsNumber() {#getSortAsNumber--}
 
-Indicates whether sorting anything that looks like a number.
+<b>@deprecated.</b> Please use the 'sortAsNumber' property instead. Indicates whether sorting anything that looks like a number.
 
 ```javascript
 getSortAsNumber() : boolean;
@@ -313,7 +428,7 @@ getSortAsNumber() : boolean;
 
 ### setSortAsNumber(boolean) {#setSortAsNumber-boolean-}
 
-Indicates whether sorting anything that looks like a number.
+<b>@deprecated.</b> Please use the 'sortAsNumber' property instead. Indicates whether sorting anything that looks like a number.
 
 ```javascript
 setSortAsNumber(value: boolean) : void;

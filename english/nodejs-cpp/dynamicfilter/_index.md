@@ -17,20 +17,28 @@ class DynamicFilter;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [dynamicFilterType](#dynamicFilterType--)| DynamicFilterType | Gets and sets the dynamic filter type. |
+| [value](#value--)| Object | Gets and sets the dynamic filter value. |
+| [maxValue](#maxValue--)| Object | Gets and sets the dynamic filter max value. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDynamicFilterType()](#getDynamicFilterType--)| Gets and sets the dynamic filter type. |
-| [setDynamicFilterType(DynamicFilterType)](#setDynamicFilterType-dynamicfiltertype-)| Gets and sets the dynamic filter type. |
-| [getValue()](#getValue--)| Gets and sets the dynamic filter value. |
-| [setValue(Object)](#setValue-object-)| Gets and sets the dynamic filter value. |
-| [getMaxValue()](#getMaxValue--)| Gets and sets the dynamic filter max value. |
-| [setMaxValue(Object)](#setMaxValue-object-)| Gets and sets the dynamic filter max value. |
+| [getDynamicFilterType()](#getDynamicFilterType--)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type. |
+| [setDynamicFilterType(DynamicFilterType)](#setDynamicFilterType-dynamicfiltertype-)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value. |
+| [getMaxValue()](#getMaxValue--)| <b>@deprecated.</b> Please use the 'maxValue' property instead. Gets and sets the dynamic filter max value. |
+| [setMaxValue(Object)](#setMaxValue-object-)| <b>@deprecated.</b> Please use the 'maxValue' property instead. Gets and sets the dynamic filter max value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -48,9 +56,36 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
-### getDynamicFilterType() {#getDynamicFilterType--}
+### dynamicFilterType {#dynamicFilterType--}
 
 Gets and sets the dynamic filter type.
+
+```javascript
+dynamicFilterType : DynamicFilterType;
+```
+
+
+### value {#value--}
+
+Gets and sets the dynamic filter value.
+
+```javascript
+value : Object;
+```
+
+
+### maxValue {#maxValue--}
+
+Gets and sets the dynamic filter max value.
+
+```javascript
+maxValue : Object;
+```
+
+
+### getDynamicFilterType() {#getDynamicFilterType--}
+
+<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type.
 
 ```javascript
 getDynamicFilterType() : DynamicFilterType;
@@ -63,7 +98,7 @@ getDynamicFilterType() : DynamicFilterType;
 
 ### setDynamicFilterType(DynamicFilterType) {#setDynamicFilterType-dynamicfiltertype-}
 
-Gets and sets the dynamic filter type.
+<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type.
 
 ```javascript
 setDynamicFilterType(value: DynamicFilterType) : void;
@@ -76,7 +111,7 @@ setDynamicFilterType(value: DynamicFilterType) : void;
 
 ### getValue() {#getValue--}
 
-Gets and sets the dynamic filter value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value.
 
 ```javascript
 getValue() : Object;
@@ -85,7 +120,7 @@ getValue() : Object;
 
 ### setValue(Object) {#setValue-object-}
 
-Gets and sets the dynamic filter value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value.
 
 ```javascript
 setValue(value: Object) : void;
@@ -98,7 +133,7 @@ setValue(value: Object) : void;
 
 ### getMaxValue() {#getMaxValue--}
 
-Gets and sets the dynamic filter max value.
+<b>@deprecated.</b> Please use the 'maxValue' property instead. Gets and sets the dynamic filter max value.
 
 ```javascript
 getMaxValue() : Object;
@@ -107,7 +142,7 @@ getMaxValue() : Object;
 
 ### setMaxValue(Object) {#setMaxValue-object-}
 
-Gets and sets the dynamic filter max value.
+<b>@deprecated.</b> Please use the 'maxValue' property instead. Gets and sets the dynamic filter max value.
 
 ```javascript
 setMaxValue(value: Object) : void;

@@ -17,33 +17,49 @@ class GroupCharacterEquationNode extends EquationNode;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(EquationNode)](#constructor-equationnode-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [groupChr](#groupChr--)| string | Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [chrType](#chrType--)| EquationCombiningCharacterType | Specify combining characters by type value. |
+| [position](#position--)| EquationCharacterPositionType | This attribute specifies the position of the character in the object |
+| [vertJc](#vertJc--)| EquationCharacterPositionType | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
+| [parentNode](#parentNode--)| EquationNode | Specifies the parent node of the current node |
+| [type](#type--)| TextNodeType | Readonly. Represents the type of the node. |
+| [equationType](#equationType--)| EquationNodeType | Readonly. Get the equation type of the current node |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getGroupChr()](#getGroupChr--)| Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
-| [setGroupChr(string)](#setGroupChr-string-)| Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
-| [getChrType()](#getChrType--)| Specify combining characters by type value. |
-| [setChrType(EquationCombiningCharacterType)](#setChrType-equationcombiningcharactertype-)| Specify combining characters by type value. |
-| [getPosition()](#getPosition--)| This attribute specifies the position of the character in the object |
-| [setPosition(EquationCharacterPositionType)](#setPosition-equationcharacterpositiontype-)| This attribute specifies the position of the character in the object |
-| [getVertJc()](#getVertJc--)| This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
-| [setVertJc(EquationCharacterPositionType)](#setVertJc-equationcharacterpositiontype-)| This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
+| [getGroupChr()](#getGroupChr--)| <b>@deprecated.</b> Please use the 'groupChr' property instead. Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [setGroupChr(string)](#setGroupChr-string-)| <b>@deprecated.</b> Please use the 'groupChr' property instead. Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [getChrType()](#getChrType--)| <b>@deprecated.</b> Please use the 'chrType' property instead. Specify combining characters by type value. |
+| [setChrType(EquationCombiningCharacterType)](#setChrType-equationcombiningcharactertype-)| <b>@deprecated.</b> Please use the 'chrType' property instead. Specify combining characters by type value. |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. This attribute specifies the position of the character in the object |
+| [setPosition(EquationCharacterPositionType)](#setPosition-equationcharacterpositiontype-)| <b>@deprecated.</b> Please use the 'position' property instead. This attribute specifies the position of the character in the object |
+| [getVertJc()](#getVertJc--)| <b>@deprecated.</b> Please use the 'vertJc' property instead. This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
+| [setVertJc(EquationCharacterPositionType)](#setVertJc-equationcharacterpositiontype-)| <b>@deprecated.</b> Please use the 'vertJc' property instead. This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
 | [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
-| [getParentNode()](#getParentNode--)| Specifies the parent node of the current node |
-| [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
-| [getType()](#getType--)| Represents the type of the node. |
-| [getEquationType()](#getEquationType--)| Get the equation type of the current node |
+| [getParentNode()](#getParentNode--)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [setParentNode(EquationNode)](#setParentNode-equationnode-)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node. |
+| [getEquationType()](#getEquationType--)| <b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node |
 | [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
 | [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
@@ -72,9 +88,112 @@ constructor(obj: EquationNode);
 | --- | --- | --- |
 | obj | EquationNode | The parent object. |
 
-### getGroupChr() {#getGroupChr--}
+### groupChr {#groupChr--}
 
 Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type.
+
+```javascript
+groupChr : string;
+```
+
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+
+### chrType {#chrType--}
+
+Specify combining characters by type value.
+
+```javascript
+chrType : EquationCombiningCharacterType;
+```
+
+
+### position {#position--}
+
+This attribute specifies the position of the character in the object
+
+```javascript
+position : EquationCharacterPositionType;
+```
+
+
+### vertJc {#vertJc--}
+
+This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline.
+
+```javascript
+vertJc : EquationCharacterPositionType;
+```
+
+
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
+### parentNode {#parentNode--}
+
+Specifies the parent node of the current node
+
+```javascript
+parentNode : EquationNode;
+```
+
+
+### type {#type--}
+
+Readonly. Represents the type of the node.
+
+```javascript
+type : TextNodeType;
+```
+
+
+### equationType {#equationType--}
+
+Readonly. Get the equation type of the current node
+
+```javascript
+equationType : EquationNodeType;
+```
+
+
+### getGroupChr() {#getGroupChr--}
+
+<b>@deprecated.</b> Please use the 'groupChr' property instead. Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type.
 
 ```javascript
 getGroupChr() : string;
@@ -87,7 +206,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### setGroupChr(string) {#setGroupChr-string-}
 
-Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type.
+<b>@deprecated.</b> Please use the 'groupChr' property instead. Specifies a symbol(default U+23DF). It is strongly recommended to use attribute ChrType to set accent character. Use this property setting if you cannot find the character you need in a known type.
 
 ```javascript
 setGroupChr(value: string) : void;
@@ -104,7 +223,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getChrType() {#getChrType--}
 
-Specify combining characters by type value.
+<b>@deprecated.</b> Please use the 'chrType' property instead. Specify combining characters by type value.
 
 ```javascript
 getChrType() : EquationCombiningCharacterType;
@@ -117,7 +236,7 @@ getChrType() : EquationCombiningCharacterType;
 
 ### setChrType(EquationCombiningCharacterType) {#setChrType-equationcombiningcharactertype-}
 
-Specify combining characters by type value.
+<b>@deprecated.</b> Please use the 'chrType' property instead. Specify combining characters by type value.
 
 ```javascript
 setChrType(value: EquationCombiningCharacterType) : void;
@@ -130,7 +249,7 @@ setChrType(value: EquationCombiningCharacterType) : void;
 
 ### getPosition() {#getPosition--}
 
-This attribute specifies the position of the character in the object
+<b>@deprecated.</b> Please use the 'position' property instead. This attribute specifies the position of the character in the object
 
 ```javascript
 getPosition() : EquationCharacterPositionType;
@@ -143,7 +262,7 @@ getPosition() : EquationCharacterPositionType;
 
 ### setPosition(EquationCharacterPositionType) {#setPosition-equationcharacterpositiontype-}
 
-This attribute specifies the position of the character in the object
+<b>@deprecated.</b> Please use the 'position' property instead. This attribute specifies the position of the character in the object
 
 ```javascript
 setPosition(value: EquationCharacterPositionType) : void;
@@ -156,7 +275,7 @@ setPosition(value: EquationCharacterPositionType) : void;
 
 ### getVertJc() {#getVertJc--}
 
-This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline.
+<b>@deprecated.</b> Please use the 'vertJc' property instead. This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline.
 
 ```javascript
 getVertJc() : EquationCharacterPositionType;
@@ -169,7 +288,7 @@ getVertJc() : EquationCharacterPositionType;
 
 ### setVertJc(EquationCharacterPositionType) {#setVertJc-equationcharacterpositiontype-}
 
-This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline.
+<b>@deprecated.</b> Please use the 'vertJc' property instead. This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline.
 
 ```javascript
 setVertJc(value: EquationCharacterPositionType) : void;
@@ -204,7 +323,7 @@ isNull() : boolean;
 
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -213,7 +332,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -222,7 +341,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -235,7 +354,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;
@@ -265,7 +384,7 @@ Only for the text of shape/chart.
 
 ### getParentNode() {#getParentNode--}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 getParentNode() : EquationNode;
@@ -278,7 +397,7 @@ getParentNode() : EquationNode;
 
 ### setParentNode(EquationNode) {#setParentNode-equationnode-}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 setParentNode(value: EquationNode) : void;
@@ -291,7 +410,7 @@ setParentNode(value: EquationNode) : void;
 
 ### getType() {#getType--}
 
-Represents the type of the node.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node.
 
 ```javascript
 getType() : TextNodeType;
@@ -304,7 +423,7 @@ getType() : TextNodeType;
 
 ### getEquationType() {#getEquationType--}
 
-Get the equation type of the current node
+<b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node
 
 ```javascript
 getEquationType() : EquationNodeType;

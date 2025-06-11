@@ -15,19 +15,48 @@ class Revision;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Represents the type of revision. |
 
 
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -40,7 +69,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

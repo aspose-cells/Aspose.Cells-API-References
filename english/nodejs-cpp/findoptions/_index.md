@@ -22,7 +22,7 @@ const { Workbook, FindOptions, CellArea, LookInType } = require("aspose.cells.no
 //Instantiate the workbook object
 var workbook = new Workbook("input/Book1.xls");
 //Get Cells collection 
-var cells = workbook.getWorksheets().get(0).getCells();
+var cells = workbook.worksheets.get(0).cells;
 //Instantiate FindOptions Object
 var findOptions = new FindOptions();
 //Create a Cells Area
@@ -35,41 +35,56 @@ ca.endColumn = 13;
 //Set cells area for find options
 findOptions.setRange(ca);
 //Set searching properties
-findOptions.setSearchBackward(false);
-findOptions.setSearchOrderByRows(true);
-findOptions.setLookInType(LookInType.Values);
+findOptions.searchBackward = false;
+findOptions.searchOrderByRows = true;
+findOptions.lookInType = LookInType.Values;
 //Find the cell with 0 value
 var cell = cells.find(0, null, findOptions);
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [caseSensitive](#caseSensitive--)| boolean | Indicates if the searched string is case sensitive. |
+| [lookAtType](#lookAtType--)| LookAtType | Look at type. |
+| [isRangeSet](#isRangeSet--)| boolean | Readonly. Indicates whether the searched range is set. |
+| [searchBackward](#searchBackward--)| boolean | Whether search backward for cells. |
+| [searchOrderByRows](#searchOrderByRows--)| boolean | Indicates whether search order by rows or columns. |
+| [lookInType](#lookInType--)| LookInType | Look in type. |
+| [regexKey](#regexKey--)| boolean | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
+| [valueTypeSensitive](#valueTypeSensitive--)| boolean | Indicates whether searched cell value type should be same with the searched key. |
+| [style](#style--)| Style | The format to search for. |
+| [convertNumericData](#convertNumericData--)| boolean | Gets or sets a value that indicates whether converting the searched string value to numeric data. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCaseSensitive()](#getCaseSensitive--)| Indicates if the searched string is case sensitive. |
-| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| Indicates if the searched string is case sensitive. |
-| [getLookAtType()](#getLookAtType--)| Look at type. |
-| [setLookAtType(LookAtType)](#setLookAtType-lookattype-)| Look at type. |
-| [isRangeSet()](#isRangeSet--)| Indicates whether the searched range is set. |
-| [getSearchBackward()](#getSearchBackward--)| Whether search backward for cells. |
-| [setSearchBackward(boolean)](#setSearchBackward-boolean-)| Whether search backward for cells. |
-| [getSearchOrderByRows()](#getSearchOrderByRows--)| Indicates whether search order by rows or columns. |
-| [setSearchOrderByRows(boolean)](#setSearchOrderByRows-boolean-)| Indicates whether search order by rows or columns. |
-| [getLookInType()](#getLookInType--)| Look in type. |
-| [setLookInType(LookInType)](#setLookInType-lookintype-)| Look in type. |
-| [getRegexKey()](#getRegexKey--)| Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
-| [setRegexKey(boolean)](#setRegexKey-boolean-)| Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
-| [getValueTypeSensitive()](#getValueTypeSensitive--)| Indicates whether searched cell value type should be same with the searched key. |
-| [setValueTypeSensitive(boolean)](#setValueTypeSensitive-boolean-)| Indicates whether searched cell value type should be same with the searched key. |
-| [getStyle()](#getStyle--)| The format to search for. |
-| [setStyle(Style)](#setStyle-style-)| The format to search for. |
-| [getConvertNumericData()](#getConvertNumericData--)| Gets or sets a value that indicates whether converting the searched string value to numeric data. |
-| [setConvertNumericData(boolean)](#setConvertNumericData-boolean-)| Gets or sets a value that indicates whether converting the searched string value to numeric data. |
+| [getCaseSensitive()](#getCaseSensitive--)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive. |
+| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive. |
+| [getLookAtType()](#getLookAtType--)| <b>@deprecated.</b> Please use the 'lookAtType' property instead. Look at type. |
+| [setLookAtType(LookAtType)](#setLookAtType-lookattype-)| <b>@deprecated.</b> Please use the 'lookAtType' property instead. Look at type. |
+| [isRangeSet()](#isRangeSet--)| <b>@deprecated.</b> Please use the 'isRangeSet' property instead. Indicates whether the searched range is set. |
+| [getSearchBackward()](#getSearchBackward--)| <b>@deprecated.</b> Please use the 'searchBackward' property instead. Whether search backward for cells. |
+| [setSearchBackward(boolean)](#setSearchBackward-boolean-)| <b>@deprecated.</b> Please use the 'searchBackward' property instead. Whether search backward for cells. |
+| [getSearchOrderByRows()](#getSearchOrderByRows--)| <b>@deprecated.</b> Please use the 'searchOrderByRows' property instead. Indicates whether search order by rows or columns. |
+| [setSearchOrderByRows(boolean)](#setSearchOrderByRows-boolean-)| <b>@deprecated.</b> Please use the 'searchOrderByRows' property instead. Indicates whether search order by rows or columns. |
+| [getLookInType()](#getLookInType--)| <b>@deprecated.</b> Please use the 'lookInType' property instead. Look in type. |
+| [setLookInType(LookInType)](#setLookInType-lookintype-)| <b>@deprecated.</b> Please use the 'lookInType' property instead. Look in type. |
+| [getRegexKey()](#getRegexKey--)| <b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
+| [setRegexKey(boolean)](#setRegexKey-boolean-)| <b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
+| [getValueTypeSensitive()](#getValueTypeSensitive--)| <b>@deprecated.</b> Please use the 'valueTypeSensitive' property instead. Indicates whether searched cell value type should be same with the searched key. |
+| [setValueTypeSensitive(boolean)](#setValueTypeSensitive-boolean-)| <b>@deprecated.</b> Please use the 'valueTypeSensitive' property instead. Indicates whether searched cell value type should be same with the searched key. |
+| [getStyle()](#getStyle--)| <b>@deprecated.</b> Please use the 'style' property instead. The format to search for. |
+| [setStyle(Style)](#setStyle-style-)| <b>@deprecated.</b> Please use the 'style' property instead. The format to search for. |
+| [getConvertNumericData()](#getConvertNumericData--)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether converting the searched string value to numeric data. |
+| [setConvertNumericData(boolean)](#setConvertNumericData-boolean-)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether converting the searched string value to numeric data. |
 | [getRange()](#getRange--)| Gets and sets the searched range. |
 | [setRange(CellArea)](#setRange-cellarea-)| Sets the searched range. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -84,9 +99,107 @@ constructor();
 ```
 
 
-### getCaseSensitive() {#getCaseSensitive--}
+### caseSensitive {#caseSensitive--}
 
 Indicates if the searched string is case sensitive.
+
+```javascript
+caseSensitive : boolean;
+```
+
+
+### lookAtType {#lookAtType--}
+
+Look at type.
+
+```javascript
+lookAtType : LookAtType;
+```
+
+
+**Remarks**
+
+When [RegexKey](../regexkey/) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as [LookAtType.EntireContent](../lookattype.entirecontent/). Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
+
+### isRangeSet {#isRangeSet--}
+
+Readonly. Indicates whether the searched range is set.
+
+```javascript
+isRangeSet : boolean;
+```
+
+
+### searchBackward {#searchBackward--}
+
+Whether search backward for cells.
+
+```javascript
+searchBackward : boolean;
+```
+
+
+### searchOrderByRows {#searchOrderByRows--}
+
+Indicates whether search order by rows or columns.
+
+```javascript
+searchOrderByRows : boolean;
+```
+
+
+### lookInType {#lookInType--}
+
+Look in type.
+
+```javascript
+lookInType : LookInType;
+```
+
+
+### regexKey {#regexKey--}
+
+Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+
+```javascript
+regexKey : boolean;
+```
+
+
+**Remarks**
+
+Even though the search key has been specified as regex, it may be refactored according to specified [LookAtType](../lookattype/). For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [LookAtType](../lookattype/) as additional constraint and user may set it as [LookAtType.EntireContent](../lookattype.entirecontent/) to get better performance.
+
+### valueTypeSensitive {#valueTypeSensitive--}
+
+Indicates whether searched cell value type should be same with the searched key.
+
+```javascript
+valueTypeSensitive : boolean;
+```
+
+
+### style {#style--}
+
+The format to search for.
+
+```javascript
+style : Style;
+```
+
+
+### convertNumericData {#convertNumericData--}
+
+Gets or sets a value that indicates whether converting the searched string value to numeric data.
+
+```javascript
+convertNumericData : boolean;
+```
+
+
+### getCaseSensitive() {#getCaseSensitive--}
+
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive.
 
 ```javascript
 getCaseSensitive() : boolean;
@@ -95,7 +208,7 @@ getCaseSensitive() : boolean;
 
 ### setCaseSensitive(boolean) {#setCaseSensitive-boolean-}
 
-Indicates if the searched string is case sensitive.
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive.
 
 ```javascript
 setCaseSensitive(value: boolean) : void;
@@ -108,7 +221,7 @@ setCaseSensitive(value: boolean) : void;
 
 ### getLookAtType() {#getLookAtType--}
 
-Look at type.
+<b>@deprecated.</b> Please use the 'lookAtType' property instead. Look at type.
 
 ```javascript
 getLookAtType() : LookAtType;
@@ -125,7 +238,7 @@ When [RegexKey](../regexkey/) is true and user has specified the exact rule for 
 
 ### setLookAtType(LookAtType) {#setLookAtType-lookattype-}
 
-Look at type.
+<b>@deprecated.</b> Please use the 'lookAtType' property instead. Look at type.
 
 ```javascript
 setLookAtType(value: LookAtType) : void;
@@ -142,7 +255,7 @@ When [RegexKey](../regexkey/) is true and user has specified the exact rule for 
 
 ### isRangeSet() {#isRangeSet--}
 
-Indicates whether the searched range is set.
+<b>@deprecated.</b> Please use the 'isRangeSet' property instead. Indicates whether the searched range is set.
 
 ```javascript
 isRangeSet() : boolean;
@@ -151,7 +264,7 @@ isRangeSet() : boolean;
 
 ### getSearchBackward() {#getSearchBackward--}
 
-Whether search backward for cells.
+<b>@deprecated.</b> Please use the 'searchBackward' property instead. Whether search backward for cells.
 
 ```javascript
 getSearchBackward() : boolean;
@@ -160,7 +273,7 @@ getSearchBackward() : boolean;
 
 ### setSearchBackward(boolean) {#setSearchBackward-boolean-}
 
-Whether search backward for cells.
+<b>@deprecated.</b> Please use the 'searchBackward' property instead. Whether search backward for cells.
 
 ```javascript
 setSearchBackward(value: boolean) : void;
@@ -173,7 +286,7 @@ setSearchBackward(value: boolean) : void;
 
 ### getSearchOrderByRows() {#getSearchOrderByRows--}
 
-Indicates whether search order by rows or columns.
+<b>@deprecated.</b> Please use the 'searchOrderByRows' property instead. Indicates whether search order by rows or columns.
 
 ```javascript
 getSearchOrderByRows() : boolean;
@@ -182,7 +295,7 @@ getSearchOrderByRows() : boolean;
 
 ### setSearchOrderByRows(boolean) {#setSearchOrderByRows-boolean-}
 
-Indicates whether search order by rows or columns.
+<b>@deprecated.</b> Please use the 'searchOrderByRows' property instead. Indicates whether search order by rows or columns.
 
 ```javascript
 setSearchOrderByRows(value: boolean) : void;
@@ -195,7 +308,7 @@ setSearchOrderByRows(value: boolean) : void;
 
 ### getLookInType() {#getLookInType--}
 
-Look in type.
+<b>@deprecated.</b> Please use the 'lookInType' property instead. Look in type.
 
 ```javascript
 getLookInType() : LookInType;
@@ -208,7 +321,7 @@ getLookInType() : LookInType;
 
 ### setLookInType(LookInType) {#setLookInType-lookintype-}
 
-Look in type.
+<b>@deprecated.</b> Please use the 'lookInType' property instead. Look in type.
 
 ```javascript
 setLookInType(value: LookInType) : void;
@@ -221,7 +334,7 @@ setLookInType(value: LookInType) : void;
 
 ### getRegexKey() {#getRegexKey--}
 
-Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+<b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
 
 ```javascript
 getRegexKey() : boolean;
@@ -234,7 +347,7 @@ Even though the search key has been specified as regex, it may be refactored acc
 
 ### setRegexKey(boolean) {#setRegexKey-boolean-}
 
-Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+<b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
 
 ```javascript
 setRegexKey(value: boolean) : void;
@@ -251,7 +364,7 @@ Even though the search key has been specified as regex, it may be refactored acc
 
 ### getValueTypeSensitive() {#getValueTypeSensitive--}
 
-Indicates whether searched cell value type should be same with the searched key.
+<b>@deprecated.</b> Please use the 'valueTypeSensitive' property instead. Indicates whether searched cell value type should be same with the searched key.
 
 ```javascript
 getValueTypeSensitive() : boolean;
@@ -260,7 +373,7 @@ getValueTypeSensitive() : boolean;
 
 ### setValueTypeSensitive(boolean) {#setValueTypeSensitive-boolean-}
 
-Indicates whether searched cell value type should be same with the searched key.
+<b>@deprecated.</b> Please use the 'valueTypeSensitive' property instead. Indicates whether searched cell value type should be same with the searched key.
 
 ```javascript
 setValueTypeSensitive(value: boolean) : void;
@@ -273,7 +386,7 @@ setValueTypeSensitive(value: boolean) : void;
 
 ### getStyle() {#getStyle--}
 
-The format to search for.
+<b>@deprecated.</b> Please use the 'style' property instead. The format to search for.
 
 ```javascript
 getStyle() : Style;
@@ -286,7 +399,7 @@ getStyle() : Style;
 
 ### setStyle(Style) {#setStyle-style-}
 
-The format to search for.
+<b>@deprecated.</b> Please use the 'style' property instead. The format to search for.
 
 ```javascript
 setStyle(value: Style) : void;
@@ -299,7 +412,7 @@ setStyle(value: Style) : void;
 
 ### getConvertNumericData() {#getConvertNumericData--}
 
-Gets or sets a value that indicates whether converting the searched string value to numeric data.
+<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether converting the searched string value to numeric data.
 
 ```javascript
 getConvertNumericData() : boolean;
@@ -308,7 +421,7 @@ getConvertNumericData() : boolean;
 
 ### setConvertNumericData(boolean) {#setConvertNumericData-boolean-}
 
-Gets or sets a value that indicates whether converting the searched string value to numeric data.
+<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether converting the searched string value to numeric data.
 
 ```javascript
 setConvertNumericData(value: boolean) : void;

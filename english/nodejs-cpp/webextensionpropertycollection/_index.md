@@ -17,7 +17,7 @@ class WebExtensionPropertyCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -29,7 +29,7 @@ class WebExtensionPropertyCollection;
 | [get(string)](#get-string-)| Gets the property of web extension. |
 | [add(string, string)](#add-string-string-)| Adds web extension property. |
 | [removeAt(string)](#removeAt-string-)| Remove the property by the name. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -109,7 +109,7 @@ removeAt(name: string) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

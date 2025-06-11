@@ -17,19 +17,27 @@ class MetadataOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(MetadataType)](#constructor-metadatatype-)| Creates an options of loading the metadata. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [metadataType](#metadataType--)| MetadataType | Readonly. Gets and sets the type of the metadata which is loading. |
+| [password](#password--)| string | Represents Workbook file encryption password. |
+| [keyLength](#keyLength--)| number | The key length. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMetadataType()](#getMetadataType--)| Gets and sets the type of the metadata which is loading. |
-| [getPassword()](#getPassword--)| Represents Workbook file encryption password. |
-| [setPassword(string)](#setPassword-string-)| Represents Workbook file encryption password. |
-| [getKeyLength()](#getKeyLength--)| The key length. |
-| [setKeyLength(number)](#setKeyLength-number-)| The key length. |
+| [getMetadataType()](#getMetadataType--)| <b>@deprecated.</b> Please use the 'metadataType' property instead. Gets and sets the type of the metadata which is loading. |
+| [getPassword()](#getPassword--)| <b>@deprecated.</b> Please use the 'password' property instead. Represents Workbook file encryption password. |
+| [setPassword(string)](#setPassword-string-)| <b>@deprecated.</b> Please use the 'password' property instead. Represents Workbook file encryption password. |
+| [getKeyLength()](#getKeyLength--)| <b>@deprecated.</b> Please use the 'keyLength' property instead. The key length. |
+| [setKeyLength(number)](#setKeyLength-number-)| <b>@deprecated.</b> Please use the 'keyLength' property instead. The key length. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -46,9 +54,36 @@ constructor(metadataType: MetadataType);
 | --- | --- | --- |
 | metadataType | [MetadataType](../metadatatype/) | The type of metadata. |
 
+### metadataType {#metadataType--}
+
+Readonly. Gets and sets the type of the metadata which is loading.
+
+```javascript
+metadataType : MetadataType;
+```
+
+
+### password {#password--}
+
+Represents Workbook file encryption password.
+
+```javascript
+password : string;
+```
+
+
+### keyLength {#keyLength--}
+
+The key length.
+
+```javascript
+keyLength : number;
+```
+
+
 ### getMetadataType() {#getMetadataType--}
 
-Gets and sets the type of the metadata which is loading.
+<b>@deprecated.</b> Please use the 'metadataType' property instead. Gets and sets the type of the metadata which is loading.
 
 ```javascript
 getMetadataType() : MetadataType;
@@ -61,7 +96,7 @@ getMetadataType() : MetadataType;
 
 ### getPassword() {#getPassword--}
 
-Represents Workbook file encryption password.
+<b>@deprecated.</b> Please use the 'password' property instead. Represents Workbook file encryption password.
 
 ```javascript
 getPassword() : string;
@@ -70,7 +105,7 @@ getPassword() : string;
 
 ### setPassword(string) {#setPassword-string-}
 
-Represents Workbook file encryption password.
+<b>@deprecated.</b> Please use the 'password' property instead. Represents Workbook file encryption password.
 
 ```javascript
 setPassword(value: string) : void;
@@ -83,7 +118,7 @@ setPassword(value: string) : void;
 
 ### getKeyLength() {#getKeyLength--}
 
-The key length.
+<b>@deprecated.</b> Please use the 'keyLength' property instead. The key length.
 
 ```javascript
 getKeyLength() : number;
@@ -92,7 +127,7 @@ getKeyLength() : number;
 
 ### setKeyLength(number) {#setKeyLength-number-}
 
-The key length.
+<b>@deprecated.</b> Please use the 'keyLength' property instead. The key length.
 
 ```javascript
 setKeyLength(value: number) : void;

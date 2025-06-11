@@ -17,20 +17,28 @@ class WebExtensionBinding;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [id](#id--)| string | Gets and sets the binding identifier. |
+| [type](#type--)| string | Gets and sets the binding type. |
+| [appref](#appref--)| string | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--)| Gets and sets the binding identifier. |
-| [setId(string)](#setId-string-)| Gets and sets the binding identifier. |
-| [getType()](#getType--)| Gets and sets the binding type. |
-| [setType(string)](#setType-string-)| Gets and sets the binding type. |
-| [getAppref()](#getAppref--)| Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
-| [setAppref(string)](#setAppref-string-)| Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the binding identifier. |
+| [setId(string)](#setId-string-)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the binding identifier. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the binding type. |
+| [setType(string)](#setType-string-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the binding type. |
+| [getAppref()](#getAppref--)| <b>@deprecated.</b> Please use the 'appref' property instead. Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [setAppref(string)](#setAppref-string-)| <b>@deprecated.</b> Please use the 'appref' property instead. Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,36 @@ constructor();
 ```
 
 
-### getId() {#getId--}
+### id {#id--}
 
 Gets and sets the binding identifier.
+
+```javascript
+id : string;
+```
+
+
+### type {#type--}
+
+Gets and sets the binding type.
+
+```javascript
+type : string;
+```
+
+
+### appref {#appref--}
+
+Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+
+```javascript
+appref : string;
+```
+
+
+### getId() {#getId--}
+
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the binding identifier.
 
 ```javascript
 getId() : string;
@@ -54,7 +89,7 @@ getId() : string;
 
 ### setId(string) {#setId-string-}
 
-Gets and sets the binding identifier.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the binding identifier.
 
 ```javascript
 setId(value: string) : void;
@@ -67,7 +102,7 @@ setId(value: string) : void;
 
 ### getType() {#getType--}
 
-Gets and sets the binding type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the binding type.
 
 ```javascript
 getType() : string;
@@ -76,7 +111,7 @@ getType() : string;
 
 ### setType(string) {#setType-string-}
 
-Gets and sets the binding type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the binding type.
 
 ```javascript
 setType(value: string) : void;
@@ -89,7 +124,7 @@ setType(value: string) : void;
 
 ### getAppref() {#getAppref--}
 
-Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+<b>@deprecated.</b> Please use the 'appref' property instead. Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
 
 ```javascript
 getAppref() : string;
@@ -98,7 +133,7 @@ getAppref() : string;
 
 ### setAppref(string) {#setAppref-string-}
 
-Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+<b>@deprecated.</b> Please use the 'appref' property instead. Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
 
 ```javascript
 setAppref(value: string) : void;

@@ -22,65 +22,192 @@ const { Workbook, ChartType, Color } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the first worksheet
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(60);
+worksheet.cells.get("B1").putValue(60);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(32);
+worksheet.cells.get("B2").putValue(32);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 10);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 10);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.getNSeries().add("A1:B3", true);
-chart.setShowDataTable(true);
+chart.nSeries.add("A1:B3", true);
+chart.showDataTable = true;
 //Getting Chart Table
 var chartTable = chart.getChartDataTable();
 //Setting Chart Table Font Color
-chartTable.getFont().setColor(Color.Red);
+chartTable.font.color = Color.Red;
 //Setting Legend Key Visibility
-chartTable.setShowLegendKey(false);
+chartTable.showLegendKey = false;
 //Saving the Excel file
 workbook.save("output/ChartsChartDataTable.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [font](#font--)| Font | Readonly. Gets a [Font](../font/) object which represents the font setting of the specified chart data table. |
+| [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [hasBorderHorizontal](#hasBorderHorizontal--)| boolean | True if the chart data table has horizontal cell borders |
+| [hasHorizontalBorder](#hasHorizontalBorder--)| boolean | True if the chart data table has horizontal cell borders |
+| [hasBorderVertical](#hasBorderVertical--)| boolean | True if the chart data table has vertical cell borders |
+| [hasVerticalBorder](#hasVerticalBorder--)| boolean | True if the chart data table has vertical cell borders |
+| [hasBorderOutline](#hasBorderOutline--)| boolean | True if the chart data table has outline borders |
+| [hasOutlineBorder](#hasOutlineBorder--)| boolean | True if the chart data table has outline borders |
+| [showLegendKey](#showLegendKey--)| boolean | True if the data label legend key is visible. |
+| [border](#border--)| Line | Readonly. Returns a Border object that represents the border of the object |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFont()](#getFont--)| Gets a [Font](../font/) object which represents the font setting of the specified chart data table. |
-| [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
-| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getHasBorderHorizontal()](#getHasBorderHorizontal--)| True if the chart data table has horizontal cell borders |
-| [setHasBorderHorizontal(boolean)](#setHasBorderHorizontal-boolean-)| True if the chart data table has horizontal cell borders |
-| [getHasHorizontalBorder()](#getHasHorizontalBorder--)| True if the chart data table has horizontal cell borders |
-| [setHasHorizontalBorder(boolean)](#setHasHorizontalBorder-boolean-)| True if the chart data table has horizontal cell borders |
-| [getHasBorderVertical()](#getHasBorderVertical--)| True if the chart data table has vertical cell borders |
-| [setHasBorderVertical(boolean)](#setHasBorderVertical-boolean-)| True if the chart data table has vertical cell borders |
-| [getHasVerticalBorder()](#getHasVerticalBorder--)| True if the chart data table has vertical cell borders |
-| [setHasVerticalBorder(boolean)](#setHasVerticalBorder-boolean-)| True if the chart data table has vertical cell borders |
-| [getHasBorderOutline()](#getHasBorderOutline--)| True if the chart data table has outline borders |
-| [setHasBorderOutline(boolean)](#setHasBorderOutline-boolean-)| True if the chart data table has outline borders |
-| [getHasOutlineBorder()](#getHasOutlineBorder--)| True if the chart data table has outline borders |
-| [setHasOutlineBorder(boolean)](#setHasOutlineBorder-boolean-)| True if the chart data table has outline borders |
-| [getShowLegendKey()](#getShowLegendKey--)| True if the data label legend key is visible. |
-| [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| True if the data label legend key is visible. |
-| [getBorder()](#getBorder--)| Returns a Border object that represents the border of the object |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object which represents the font setting of the specified chart data table. |
+| [getAutoScaleFont()](#getAutoScaleFont--)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
+| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getHasBorderHorizontal()](#getHasBorderHorizontal--)| <b>@deprecated.</b> Please use the 'hasBorderHorizontal' property instead. True if the chart data table has horizontal cell borders |
+| [setHasBorderHorizontal(boolean)](#setHasBorderHorizontal-boolean-)| <b>@deprecated.</b> Please use the 'hasBorderHorizontal' property instead. True if the chart data table has horizontal cell borders |
+| [getHasHorizontalBorder()](#getHasHorizontalBorder--)| <b>@deprecated.</b> Please use the 'hasHorizontalBorder' property instead. True if the chart data table has horizontal cell borders |
+| [setHasHorizontalBorder(boolean)](#setHasHorizontalBorder-boolean-)| <b>@deprecated.</b> Please use the 'hasHorizontalBorder' property instead. True if the chart data table has horizontal cell borders |
+| [getHasBorderVertical()](#getHasBorderVertical--)| <b>@deprecated.</b> Please use the 'hasBorderVertical' property instead. True if the chart data table has vertical cell borders |
+| [setHasBorderVertical(boolean)](#setHasBorderVertical-boolean-)| <b>@deprecated.</b> Please use the 'hasBorderVertical' property instead. True if the chart data table has vertical cell borders |
+| [getHasVerticalBorder()](#getHasVerticalBorder--)| <b>@deprecated.</b> Please use the 'hasVerticalBorder' property instead. True if the chart data table has vertical cell borders |
+| [setHasVerticalBorder(boolean)](#setHasVerticalBorder-boolean-)| <b>@deprecated.</b> Please use the 'hasVerticalBorder' property instead. True if the chart data table has vertical cell borders |
+| [getHasBorderOutline()](#getHasBorderOutline--)| <b>@deprecated.</b> Please use the 'hasBorderOutline' property instead. True if the chart data table has outline borders |
+| [setHasBorderOutline(boolean)](#setHasBorderOutline-boolean-)| <b>@deprecated.</b> Please use the 'hasBorderOutline' property instead. True if the chart data table has outline borders |
+| [getHasOutlineBorder()](#getHasOutlineBorder--)| <b>@deprecated.</b> Please use the 'hasOutlineBorder' property instead. True if the chart data table has outline borders |
+| [setHasOutlineBorder(boolean)](#setHasOutlineBorder-boolean-)| <b>@deprecated.</b> Please use the 'hasOutlineBorder' property instead. True if the chart data table has outline borders |
+| [getShowLegendKey()](#getShowLegendKey--)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. True if the data label legend key is visible. |
+| [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. True if the data label legend key is visible. |
+| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Returns a Border object that represents the border of the object |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### font {#font--}
+
+Readonly. Gets a [Font](../font/) object which represents the font setting of the specified chart data table.
+
+```javascript
+font : Font;
+```
+
+
+### autoScaleFont {#autoScaleFont--}
+
+True if the text in the object changes font size when the object size changes. The default value is True.
+
+```javascript
+autoScaleFont : boolean;
+```
+
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### hasBorderHorizontal {#hasBorderHorizontal--}
+
+True if the chart data table has horizontal cell borders
+
+```javascript
+hasBorderHorizontal : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHorizontalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### hasHorizontalBorder {#hasHorizontalBorder--}
+
+True if the chart data table has horizontal cell borders
+
+```javascript
+hasHorizontalBorder : boolean;
+```
+
+
+### hasBorderVertical {#hasBorderVertical--}
+
+True if the chart data table has vertical cell borders
+
+```javascript
+hasBorderVertical : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerticalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### hasVerticalBorder {#hasVerticalBorder--}
+
+True if the chart data table has vertical cell borders
+
+```javascript
+hasVerticalBorder : boolean;
+```
+
+
+### hasBorderOutline {#hasBorderOutline--}
+
+True if the chart data table has outline borders
+
+```javascript
+hasBorderOutline : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutlineBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### hasOutlineBorder {#hasOutlineBorder--}
+
+True if the chart data table has outline borders
+
+```javascript
+hasOutlineBorder : boolean;
+```
+
+
+### showLegendKey {#showLegendKey--}
+
+True if the data label legend key is visible.
+
+```javascript
+showLegendKey : boolean;
+```
+
+
+### border {#border--}
+
+Readonly. Returns a Border object that represents the border of the object
+
+```javascript
+border : Line;
+```
 
 
 ### getFont() {#getFont--}
 
-Gets a [Font](../font/) object which represents the font setting of the specified chart data table.
+<b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object which represents the font setting of the specified chart data table.
 
 ```javascript
 getFont() : Font;
@@ -93,7 +220,7 @@ getFont() : Font;
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 
-True if the text in the object changes font size when the object size changes. The default value is True.
+<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
 
 ```javascript
 getAutoScaleFont() : boolean;
@@ -102,7 +229,7 @@ getAutoScaleFont() : boolean;
 
 ### setAutoScaleFont(boolean) {#setAutoScaleFont-boolean-}
 
-True if the text in the object changes font size when the object size changes. The default value is True.
+<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
 
 ```javascript
 setAutoScaleFont(value: boolean) : void;
@@ -115,7 +242,7 @@ setAutoScaleFont(value: boolean) : void;
 
 ### getBackgroundMode() {#getBackgroundMode--}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 getBackgroundMode() : BackgroundMode;
@@ -128,7 +255,7 @@ getBackgroundMode() : BackgroundMode;
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 setBackgroundMode(value: BackgroundMode) : void;
@@ -141,7 +268,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 
 ### getHasBorderHorizontal() {#getHasBorderHorizontal--}
 
-True if the chart data table has horizontal cell borders
+<b>@deprecated.</b> Please use the 'hasBorderHorizontal' property instead. True if the chart data table has horizontal cell borders
 
 ```javascript
 getHasBorderHorizontal() : boolean;
@@ -154,7 +281,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHoriz
 
 ### setHasBorderHorizontal(boolean) {#setHasBorderHorizontal-boolean-}
 
-True if the chart data table has horizontal cell borders
+<b>@deprecated.</b> Please use the 'hasBorderHorizontal' property instead. True if the chart data table has horizontal cell borders
 
 ```javascript
 setHasBorderHorizontal(value: boolean) : void;
@@ -171,7 +298,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHoriz
 
 ### getHasHorizontalBorder() {#getHasHorizontalBorder--}
 
-True if the chart data table has horizontal cell borders
+<b>@deprecated.</b> Please use the 'hasHorizontalBorder' property instead. True if the chart data table has horizontal cell borders
 
 ```javascript
 getHasHorizontalBorder() : boolean;
@@ -180,7 +307,7 @@ getHasHorizontalBorder() : boolean;
 
 ### setHasHorizontalBorder(boolean) {#setHasHorizontalBorder-boolean-}
 
-True if the chart data table has horizontal cell borders
+<b>@deprecated.</b> Please use the 'hasHorizontalBorder' property instead. True if the chart data table has horizontal cell borders
 
 ```javascript
 setHasHorizontalBorder(value: boolean) : void;
@@ -193,7 +320,7 @@ setHasHorizontalBorder(value: boolean) : void;
 
 ### getHasBorderVertical() {#getHasBorderVertical--}
 
-True if the chart data table has vertical cell borders
+<b>@deprecated.</b> Please use the 'hasBorderVertical' property instead. True if the chart data table has vertical cell borders
 
 ```javascript
 getHasBorderVertical() : boolean;
@@ -206,7 +333,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerti
 
 ### setHasBorderVertical(boolean) {#setHasBorderVertical-boolean-}
 
-True if the chart data table has vertical cell borders
+<b>@deprecated.</b> Please use the 'hasBorderVertical' property instead. True if the chart data table has vertical cell borders
 
 ```javascript
 setHasBorderVertical(value: boolean) : void;
@@ -223,7 +350,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerti
 
 ### getHasVerticalBorder() {#getHasVerticalBorder--}
 
-True if the chart data table has vertical cell borders
+<b>@deprecated.</b> Please use the 'hasVerticalBorder' property instead. True if the chart data table has vertical cell borders
 
 ```javascript
 getHasVerticalBorder() : boolean;
@@ -232,7 +359,7 @@ getHasVerticalBorder() : boolean;
 
 ### setHasVerticalBorder(boolean) {#setHasVerticalBorder-boolean-}
 
-True if the chart data table has vertical cell borders
+<b>@deprecated.</b> Please use the 'hasVerticalBorder' property instead. True if the chart data table has vertical cell borders
 
 ```javascript
 setHasVerticalBorder(value: boolean) : void;
@@ -245,7 +372,7 @@ setHasVerticalBorder(value: boolean) : void;
 
 ### getHasBorderOutline() {#getHasBorderOutline--}
 
-True if the chart data table has outline borders
+<b>@deprecated.</b> Please use the 'hasBorderOutline' property instead. True if the chart data table has outline borders
 
 ```javascript
 getHasBorderOutline() : boolean;
@@ -258,7 +385,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutli
 
 ### setHasBorderOutline(boolean) {#setHasBorderOutline-boolean-}
 
-True if the chart data table has outline borders
+<b>@deprecated.</b> Please use the 'hasBorderOutline' property instead. True if the chart data table has outline borders
 
 ```javascript
 setHasBorderOutline(value: boolean) : void;
@@ -275,7 +402,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutli
 
 ### getHasOutlineBorder() {#getHasOutlineBorder--}
 
-True if the chart data table has outline borders
+<b>@deprecated.</b> Please use the 'hasOutlineBorder' property instead. True if the chart data table has outline borders
 
 ```javascript
 getHasOutlineBorder() : boolean;
@@ -284,7 +411,7 @@ getHasOutlineBorder() : boolean;
 
 ### setHasOutlineBorder(boolean) {#setHasOutlineBorder-boolean-}
 
-True if the chart data table has outline borders
+<b>@deprecated.</b> Please use the 'hasOutlineBorder' property instead. True if the chart data table has outline borders
 
 ```javascript
 setHasOutlineBorder(value: boolean) : void;
@@ -297,7 +424,7 @@ setHasOutlineBorder(value: boolean) : void;
 
 ### getShowLegendKey() {#getShowLegendKey--}
 
-True if the data label legend key is visible.
+<b>@deprecated.</b> Please use the 'showLegendKey' property instead. True if the data label legend key is visible.
 
 ```javascript
 getShowLegendKey() : boolean;
@@ -306,7 +433,7 @@ getShowLegendKey() : boolean;
 
 ### setShowLegendKey(boolean) {#setShowLegendKey-boolean-}
 
-True if the data label legend key is visible.
+<b>@deprecated.</b> Please use the 'showLegendKey' property instead. True if the data label legend key is visible.
 
 ```javascript
 setShowLegendKey(value: boolean) : void;
@@ -319,7 +446,7 @@ setShowLegendKey(value: boolean) : void;
 
 ### getBorder() {#getBorder--}
 
-Returns a Border object that represents the border of the object
+<b>@deprecated.</b> Please use the 'border' property instead. Returns a Border object that represents the border of the object
 
 ```javascript
 getBorder() : Line;

@@ -22,55 +22,63 @@ const { Workbook, ChartType } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Adding a new worksheet to the Excel object
-var sheetIndex = workbook.getWorksheets().add();
+var sheetIndex = workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(sheetIndex);
+var worksheet = workbook.worksheets.get(sheetIndex);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "A4" cell
-worksheet.getCells().get("A4").putValue(200);
+worksheet.cells.get("A4").putValue(200);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(60);
+worksheet.cells.get("B1").putValue(60);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(32);
+worksheet.cells.get("B2").putValue(32);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 //Adding a sample value to "B4" cell
-worksheet.getCells().get("B4").putValue(40);
+worksheet.cells.get("B4").putValue(40);
 //Adding a sample value to "C1" cell as category data
-worksheet.getCells().get("C1").putValue("Q1");
+worksheet.cells.get("C1").putValue("Q1");
 //Adding a sample value to "C2" cell as category data
-worksheet.getCells().get("C2").putValue("Q2");
+worksheet.cells.get("C2").putValue("Q2");
 //Adding a sample value to "C3" cell as category data
-worksheet.getCells().get("C3").putValue("Y1");
+worksheet.cells.get("C3").putValue("Y1");
 //Adding a sample value to "C4" cell as category data
-worksheet.getCells().get("C4").putValue("Y2");
+worksheet.cells.get("C4").putValue("Y2");
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 15, 5);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-chart.getNSeries().add("A1:B4", true);
+chart.nSeries.add("A1:B4", true);
 //Setting the data source for the category data of NSeries
-chart.getNSeries().setCategoryData("C1:C4");
+chart.nSeries.categoryData = "C1:C4";
 //Saving the Excel file
 workbook.save("output/ChartsSeriesCollection.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [categoryData](#categoryData--)| string | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [secondCategoryData](#secondCategoryData--)| string | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Series](../series/) element at the specified index. |
-| [getCategoryData()](#getCategoryData--)| Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
-| [setCategoryData(string)](#setCategoryData-string-)| Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
-| [getSecondCategoryData()](#getSecondCategoryData--)| Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
-| [setSecondCategoryData(string)](#setSecondCategoryData-string-)| Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
-| [isColorVaried()](#isColorVaried--)| Represents if the color of points is varied. |
-| [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| Represents if the color of points is varied. |
+| [getCategoryData()](#getCategoryData--)| <b>@deprecated.</b> Please use the 'categoryData' property instead. Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [setCategoryData(string)](#setCategoryData-string-)| <b>@deprecated.</b> Please use the 'categoryData' property instead. Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [getSecondCategoryData()](#getSecondCategoryData--)| <b>@deprecated.</b> Please use the 'secondCategoryData' property instead. Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [setSecondCategoryData(string)](#setSecondCategoryData-string-)| <b>@deprecated.</b> Please use the 'secondCategoryData' property instead. Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [isColorVaried()](#isColorVaried--)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. |
+| [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. |
 | [getSeriesByOrder(number)](#getSeriesByOrder-number-)| Gets the [Series](../series/) element by order. |
 | [removeAt(number)](#removeAt-number-)| Remove at a series at the specific index. |
 | [changeSeriesOrder(number, number)](#changeSeriesOrder-number-number-)| Directly changes the orders of the two series. |
@@ -80,8 +88,35 @@ workbook.save("output/ChartsSeriesCollection.xls");
 | [add(string, boolean)](#add-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [add(string, boolean, boolean)](#add-string-boolean-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [clear()](#clear--)| Clears the collection |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### categoryData {#categoryData--}
+
+Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
+
+```javascript
+categoryData : string;
+```
+
+
+### secondCategoryData {#secondCategoryData--}
+
+Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
+
+```javascript
+secondCategoryData : string;
+```
+
+
+### isColorVaried {#isColorVaried--}
+
+Represents if the color of points is varied.
+
+```javascript
+isColorVaried : boolean;
+```
 
 
 ### get(number) {#get-number-}
@@ -103,7 +138,7 @@ The element at the specified index.
 
 ### getCategoryData() {#getCategoryData--}
 
-Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
+<b>@deprecated.</b> Please use the 'categoryData' property instead. Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
 
 ```javascript
 getCategoryData() : string;
@@ -112,7 +147,7 @@ getCategoryData() : string;
 
 ### setCategoryData(string) {#setCategoryData-string-}
 
-Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
+<b>@deprecated.</b> Please use the 'categoryData' property instead. Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
 
 ```javascript
 setCategoryData(value: string) : void;
@@ -125,7 +160,7 @@ setCategoryData(value: string) : void;
 
 ### getSecondCategoryData() {#getSecondCategoryData--}
 
-Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
+<b>@deprecated.</b> Please use the 'secondCategoryData' property instead. Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
 
 ```javascript
 getSecondCategoryData() : string;
@@ -134,7 +169,7 @@ getSecondCategoryData() : string;
 
 ### setSecondCategoryData(string) {#setSecondCategoryData-string-}
 
-Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
+<b>@deprecated.</b> Please use the 'secondCategoryData' property instead. Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
 
 ```javascript
 setSecondCategoryData(value: string) : void;
@@ -147,7 +182,7 @@ setSecondCategoryData(value: string) : void;
 
 ### isColorVaried() {#isColorVaried--}
 
-Represents if the color of points is varied.
+<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied.
 
 ```javascript
 isColorVaried() : boolean;
@@ -156,7 +191,7 @@ isColorVaried() : boolean;
 
 ### setIsColorVaried(boolean) {#setIsColorVaried-boolean-}
 
-Represents if the color of points is varied.
+<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied.
 
 ```javascript
 setIsColorVaried(value: boolean) : void;
@@ -326,7 +361,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

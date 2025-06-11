@@ -17,26 +17,36 @@ class LowCodeImageSaveOptions extends LowCodeSaveOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(LowCodeSaveOptions)](#constructor-lowcodesaveoptions-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [saveFormat](#saveFormat--)| SaveFormat | Gets or sets the save format. |
+| [imageOptions](#imageOptions--)| ImageOrPrintOptions | The options for rendering images. |
+| [saveOptionsProvider](#saveOptionsProvider--)| AbstractLowCodeSaveOptionsProvider | Provider of save options for saving generated images. |
+| [outputFile](#outputFile--)| string | Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [outputStream](#outputStream--)| Uint8Array | Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSaveFormat()](#getSaveFormat--)| Gets or sets the save format. |
-| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| Gets or sets the save format. |
-| [getImageOptions()](#getImageOptions--)| The options for rendering images. |
-| [setImageOptions(ImageOrPrintOptions)](#setImageOptions-imageorprintoptions-)| The options for rendering images. |
-| [getSaveOptionsProvider()](#getSaveOptionsProvider--)| Provider of save options for saving generated images. |
-| [setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider)](#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-)| Provider of save options for saving generated images. |
+| [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format. |
+| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format. |
+| [getImageOptions()](#getImageOptions--)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images. |
+| [setImageOptions(ImageOrPrintOptions)](#setImageOptions-imageorprintoptions-)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images. |
+| [getSaveOptionsProvider()](#getSaveOptionsProvider--)| <b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving generated images. |
+| [setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider)](#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-)| <b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving generated images. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getOutputFile()](#getOutputFile--)| Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
-| [setOutputFile(string)](#setOutputFile-string-)| Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
-| [getOutputStream()](#getOutputStream--)| Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
-| [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [getOutputFile()](#getOutputFile--)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [setOutputFile(string)](#setOutputFile-string-)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [getOutputStream()](#getOutputStream--)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 
 
 ### constructor(LowCodeSaveOptions) {#constructor-lowcodesaveoptions-}
@@ -61,9 +71,66 @@ constructor();
 ```
 
 
-### getSaveFormat() {#getSaveFormat--}
+### saveFormat {#saveFormat--}
 
 Gets or sets the save format.
+
+```javascript
+saveFormat : SaveFormat;
+```
+
+
+**Remarks**
+
+If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
+
+### imageOptions {#imageOptions--}
+
+The options for rendering images.
+
+```javascript
+imageOptions : ImageOrPrintOptions;
+```
+
+
+**Remarks**
+
+When one [ImageOrPrintOptions](../imageorprintoptions/) instance is specified, the [SaveFormat](../saveformat/) will be overwritten(if it had been specified before).
+
+### saveOptionsProvider {#saveOptionsProvider--}
+
+Provider of save options for saving generated images.
+
+```javascript
+saveOptionsProvider : AbstractLowCodeSaveOptionsProvider;
+```
+
+
+**Remarks**
+
+The output([LowCodeSaveOptions.OutputFile](../lowcodesaveoptions.outputfile/) or [LowCodeSaveOptions.OutputStream](../lowcodesaveoptions.outputstream/)) specified by this instance will take no effect when this property is specified. Instead the output of every generated image will be specified by the provider.
+
+### outputFile {#outputFile--}
+
+Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+
+```javascript
+outputFile : string;
+```
+
+
+### outputStream {#outputStream--}
+
+Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+
+```javascript
+outputStream : Uint8Array;
+```
+
+
+### getSaveFormat() {#getSaveFormat--}
+
+<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format.
 
 ```javascript
 getSaveFormat() : SaveFormat;
@@ -80,7 +147,7 @@ If [ImageOptions](../imageoptions/) has been specified, setting this property wi
 
 ### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
 
-Gets or sets the save format.
+<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format.
 
 ```javascript
 setSaveFormat(value: SaveFormat) : void;
@@ -97,7 +164,7 @@ If [ImageOptions](../imageoptions/) has been specified, setting this property wi
 
 ### getImageOptions() {#getImageOptions--}
 
-The options for rendering images.
+<b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images.
 
 ```javascript
 getImageOptions() : ImageOrPrintOptions;
@@ -114,7 +181,7 @@ When one [ImageOrPrintOptions](../imageorprintoptions/) instance is specified, t
 
 ### setImageOptions(ImageOrPrintOptions) {#setImageOptions-imageorprintoptions-}
 
-The options for rendering images.
+<b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images.
 
 ```javascript
 setImageOptions(value: ImageOrPrintOptions) : void;
@@ -131,7 +198,7 @@ When one [ImageOrPrintOptions](../imageorprintoptions/) instance is specified, t
 
 ### getSaveOptionsProvider() {#getSaveOptionsProvider--}
 
-Provider of save options for saving generated images.
+<b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving generated images.
 
 ```javascript
 getSaveOptionsProvider() : AbstractLowCodeSaveOptionsProvider;
@@ -148,7 +215,7 @@ The output([LowCodeSaveOptions.OutputFile](../lowcodesaveoptions.outputfile/) or
 
 ### setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider) {#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-}
 
-Provider of save options for saving generated images.
+<b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving generated images.
 
 ```javascript
 setSaveOptionsProvider(value: AbstractLowCodeSaveOptionsProvider) : void;
@@ -174,7 +241,7 @@ isNull() : boolean;
 
 ### getOutputFile() {#getOutputFile--}
 
-Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
 
 ```javascript
 getOutputFile() : string;
@@ -183,7 +250,7 @@ getOutputFile() : string;
 
 ### setOutputFile(string) {#setOutputFile-string-}
 
-Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
 
 ```javascript
 setOutputFile(value: string) : void;
@@ -196,7 +263,7 @@ setOutputFile(value: string) : void;
 
 ### getOutputStream() {#getOutputStream--}
 
-Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
 
 ```javascript
 getOutputStream() : Uint8Array;
@@ -205,7 +272,7 @@ getOutputStream() : Uint8Array;
 
 ### setOutputStream(Uint8Array) {#setOutputStream-uint8array-}
 
-Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
 
 ```javascript
 setOutputStream(value: Uint8Array) : void;

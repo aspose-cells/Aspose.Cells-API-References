@@ -17,16 +17,22 @@ class TableToRangeOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [lastRow](#lastRow--)| number | Gets and sets the last row index of the table. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLastRow()](#getLastRow--)| Gets and sets the last row index of the table. |
-| [setLastRow(number)](#setLastRow-number-)| Gets and sets the last row index of the table. |
+| [getLastRow()](#getLastRow--)| <b>@deprecated.</b> Please use the 'lastRow' property instead. Gets and sets the last row index of the table. |
+| [setLastRow(number)](#setLastRow-number-)| <b>@deprecated.</b> Please use the 'lastRow' property instead. Gets and sets the last row index of the table. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -39,9 +45,18 @@ constructor();
 ```
 
 
-### getLastRow() {#getLastRow--}
+### lastRow {#lastRow--}
 
 Gets and sets the last row index of the table.
+
+```javascript
+lastRow : number;
+```
+
+
+### getLastRow() {#getLastRow--}
+
+<b>@deprecated.</b> Please use the 'lastRow' property instead. Gets and sets the last row index of the table.
 
 ```javascript
 getLastRow() : number;
@@ -50,7 +65,7 @@ getLastRow() : number;
 
 ### setLastRow(number) {#setLastRow-number-}
 
-Gets and sets the last row index of the table.
+<b>@deprecated.</b> Please use the 'lastRow' property instead. Gets and sets the last row index of the table.
 
 ```javascript
 setLastRow(value: number) : void;

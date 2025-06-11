@@ -15,20 +15,45 @@ class DataBarBorder;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [color](#color--)| Color | Gets or sets the border's color of data bars specified by a conditional formatting rule. |
+| [type](#type--)| DataBarBorderType | Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getColor()](#getColor--)| Gets or sets the border's color of data bars specified by a conditional formatting rule. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the border's color of data bars specified by a conditional formatting rule. |
-| [getType()](#getType--)| Gets or sets the border's type of data bars specified by a conditional formatting rule. |
-| [setType(DataBarBorderType)](#setType-databarbordertype-)| Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the border's color of data bars specified by a conditional formatting rule. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the border's color of data bars specified by a conditional formatting rule. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+| [setType(DataBarBorderType)](#setType-databarbordertype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the border's type of data bars specified by a conditional formatting rule. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### color {#color--}
+
+Gets or sets the border's color of data bars specified by a conditional formatting rule.
+
+```javascript
+color : Color;
+```
+
+
+### type {#type--}
+
+Gets or sets the border's type of data bars specified by a conditional formatting rule.
+
+```javascript
+type : DataBarBorderType;
+```
 
 
 ### getColor() {#getColor--}
 
-Gets or sets the border's color of data bars specified by a conditional formatting rule.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the border's color of data bars specified by a conditional formatting rule.
 
 ```javascript
 getColor() : Color;
@@ -41,7 +66,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the border's color of data bars specified by a conditional formatting rule.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the border's color of data bars specified by a conditional formatting rule.
 
 ```javascript
 setColor(value: Color) : void;
@@ -54,7 +79,7 @@ setColor(value: Color) : void;
 
 ### getType() {#getType--}
 
-Gets or sets the border's type of data bars specified by a conditional formatting rule.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the border's type of data bars specified by a conditional formatting rule.
 
 ```javascript
 getType() : DataBarBorderType;
@@ -67,7 +92,7 @@ getType() : DataBarBorderType;
 
 ### setType(DataBarBorderType) {#setType-databarbordertype-}
 
-Gets or sets the border's type of data bars specified by a conditional formatting rule.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the border's type of data bars specified by a conditional formatting rule.
 
 ```javascript
 setType(value: DataBarBorderType) : void;

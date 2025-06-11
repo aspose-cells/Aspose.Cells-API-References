@@ -17,7 +17,7 @@ class VmlShapeGuide extends BaseShapeGuide;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BaseShapeGuide)](#constructor-baseshapeguide-)| Constructs from a parent object convertible to this. |
 

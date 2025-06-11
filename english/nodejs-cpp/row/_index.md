@@ -15,28 +15,45 @@ class Row;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isBlank](#isBlank--)| boolean | Readonly. Indicates whether the row contains any data |
+| [isCollapsed](#isCollapsed--)| boolean | whether the row is collapsed |
+| [height](#height--)| number | Gets and sets the row height in unit of Points. |
+| [isHidden](#isHidden--)| boolean | Indicates whether the row is hidden. |
+| [index](#index--)| number | Readonly. Gets the index of this row. |
+| [groupLevel](#groupLevel--)| number | Gets the group level of the row. |
+| [isHeightMatched](#isHeightMatched--)| boolean | Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
+| [hasCustomStyle](#hasCustomStyle--)| boolean | Readonly. Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
+| [firstCell](#firstCell--)| Cell | Readonly. Gets the first cell object in the row. |
+| [firstDataCell](#firstDataCell--)| Cell | Readonly. Gets the first non-blank cell in the row. |
+| [lastCell](#lastCell--)| Cell | Readonly. Gets the last cell object in the row. |
+| [lastDataCell](#lastDataCell--)| Cell | Readonly. Gets the last non-blank cell in the row. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the cell. |
-| [isBlank()](#isBlank--)| Indicates whether the row contains any data |
-| [isCollapsed()](#isCollapsed--)| whether the row is collapsed |
-| [setIsCollapsed(boolean)](#setIsCollapsed-boolean-)| whether the row is collapsed |
-| [getHeight()](#getHeight--)| Gets and sets the row height in unit of Points. |
-| [setHeight(number)](#setHeight-number-)| Gets and sets the row height in unit of Points. |
-| [isHidden()](#isHidden--)| Indicates whether the row is hidden. |
-| [setIsHidden(boolean)](#setIsHidden-boolean-)| Indicates whether the row is hidden. |
-| [getIndex()](#getIndex--)| Gets the index of this row. |
-| [getGroupLevel()](#getGroupLevel--)| Gets the group level of the row. |
-| [setGroupLevel(number)](#setGroupLevel-number-)| Gets the group level of the row. |
-| [isHeightMatched()](#isHeightMatched--)| Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
-| [setIsHeightMatched(boolean)](#setIsHeightMatched-boolean-)| Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
-| [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
-| [getFirstCell()](#getFirstCell--)| Gets the first cell object in the row. |
-| [getFirstDataCell()](#getFirstDataCell--)| Gets the first non-blank cell in the row. |
-| [getLastCell()](#getLastCell--)| Gets the last cell object in the row. |
-| [getLastDataCell()](#getLastDataCell--)| Gets the last non-blank cell in the row. |
+| [isBlank()](#isBlank--)| <b>@deprecated.</b> Please use the 'isBlank' property instead. Indicates whether the row contains any data |
+| [isCollapsed()](#isCollapsed--)| <b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the row is collapsed |
+| [setIsCollapsed(boolean)](#setIsCollapsed-boolean-)| <b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the row is collapsed |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets and sets the row height in unit of Points. |
+| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Gets and sets the row height in unit of Points. |
+| [isHidden()](#isHidden--)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the row is hidden. |
+| [setIsHidden(boolean)](#setIsHidden-boolean-)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the row is hidden. |
+| [getIndex()](#getIndex--)| <b>@deprecated.</b> Please use the 'index' property instead. Gets the index of this row. |
+| [getGroupLevel()](#getGroupLevel--)| <b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the row. |
+| [setGroupLevel(number)](#setGroupLevel-number-)| <b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the row. |
+| [isHeightMatched()](#isHeightMatched--)| <b>@deprecated.</b> Please use the 'isHeightMatched' property instead. Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
+| [setIsHeightMatched(boolean)](#setIsHeightMatched-boolean-)| <b>@deprecated.</b> Please use the 'isHeightMatched' property instead. Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
+| [getHasCustomStyle()](#getHasCustomStyle--)| <b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
+| [getFirstCell()](#getFirstCell--)| <b>@deprecated.</b> Please use the 'firstCell' property instead. Gets the first cell object in the row. |
+| [getFirstDataCell()](#getFirstDataCell--)| <b>@deprecated.</b> Please use the 'firstDataCell' property instead. Gets the first non-blank cell in the row. |
+| [getLastCell()](#getLastCell--)| <b>@deprecated.</b> Please use the 'lastCell' property instead. Gets the last cell object in the row. |
+| [getLastDataCell()](#getLastDataCell--)| <b>@deprecated.</b> Please use the 'lastDataCell' property instead. Gets the last non-blank cell in the row. |
 | [getCellByIndex(number)](#getCellByIndex-number-)| Get the cell by specific index in the cells collection of this row. |
 | [getEnumerator()](#getEnumerator--)| Gets the cells enumerator |
 | [getEnumerator(boolean, boolean)](#getEnumerator-boolean-boolean-)| Gets an enumerator that iterates cells through this row. |
@@ -48,6 +65,118 @@ class Row;
 | [equals(Object)](#equals-object-)| Checks whether this object refers to the same row with another. |
 | [equals(Row)](#equals-row-)| Checks whether this object refers to the same row with another row object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### isBlank {#isBlank--}
+
+Readonly. Indicates whether the row contains any data
+
+```javascript
+isBlank : boolean;
+```
+
+
+### isCollapsed {#isCollapsed--}
+
+whether the row is collapsed
+
+```javascript
+isCollapsed : boolean;
+```
+
+
+### height {#height--}
+
+Gets and sets the row height in unit of Points.
+
+```javascript
+height : number;
+```
+
+
+### isHidden {#isHidden--}
+
+Indicates whether the row is hidden.
+
+```javascript
+isHidden : boolean;
+```
+
+
+### index {#index--}
+
+Readonly. Gets the index of this row.
+
+```javascript
+index : number;
+```
+
+
+### groupLevel {#groupLevel--}
+
+Gets the group level of the row.
+
+```javascript
+groupLevel : number;
+```
+
+
+### isHeightMatched {#isHeightMatched--}
+
+Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
+
+```javascript
+isHeightMatched : boolean;
+```
+
+
+**Remarks**
+
+When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.AutoFitRows()](../worksheet.autofitrows()/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
+
+### hasCustomStyle {#hasCustomStyle--}
+
+Readonly. Indicates whether this row has custom style settings(different from the default one inherited from workbook).
+
+```javascript
+hasCustomStyle : boolean;
+```
+
+
+### firstCell {#firstCell--}
+
+Readonly. Gets the first cell object in the row.
+
+```javascript
+firstCell : Cell;
+```
+
+
+### firstDataCell {#firstDataCell--}
+
+Readonly. Gets the first non-blank cell in the row.
+
+```javascript
+firstDataCell : Cell;
+```
+
+
+### lastCell {#lastCell--}
+
+Readonly. Gets the last cell object in the row.
+
+```javascript
+lastCell : Cell;
+```
+
+
+### lastDataCell {#lastDataCell--}
+
+Readonly. Gets the last non-blank cell in the row.
+
+```javascript
+lastDataCell : Cell;
+```
 
 
 ### get(number) {#get-number-}
@@ -69,7 +198,7 @@ get(column: number) : Cell;
 
 ### isBlank() {#isBlank--}
 
-Indicates whether the row contains any data
+<b>@deprecated.</b> Please use the 'isBlank' property instead. Indicates whether the row contains any data
 
 ```javascript
 isBlank() : boolean;
@@ -78,7 +207,7 @@ isBlank() : boolean;
 
 ### isCollapsed() {#isCollapsed--}
 
-whether the row is collapsed
+<b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the row is collapsed
 
 ```javascript
 isCollapsed() : boolean;
@@ -87,7 +216,7 @@ isCollapsed() : boolean;
 
 ### setIsCollapsed(boolean) {#setIsCollapsed-boolean-}
 
-whether the row is collapsed
+<b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the row is collapsed
 
 ```javascript
 setIsCollapsed(value: boolean) : void;
@@ -100,7 +229,7 @@ setIsCollapsed(value: boolean) : void;
 
 ### getHeight() {#getHeight--}
 
-Gets and sets the row height in unit of Points.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets and sets the row height in unit of Points.
 
 ```javascript
 getHeight() : number;
@@ -109,7 +238,7 @@ getHeight() : number;
 
 ### setHeight(number) {#setHeight-number-}
 
-Gets and sets the row height in unit of Points.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets and sets the row height in unit of Points.
 
 ```javascript
 setHeight(value: number) : void;
@@ -122,7 +251,7 @@ setHeight(value: number) : void;
 
 ### isHidden() {#isHidden--}
 
-Indicates whether the row is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the row is hidden.
 
 ```javascript
 isHidden() : boolean;
@@ -131,7 +260,7 @@ isHidden() : boolean;
 
 ### setIsHidden(boolean) {#setIsHidden-boolean-}
 
-Indicates whether the row is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the row is hidden.
 
 ```javascript
 setIsHidden(value: boolean) : void;
@@ -144,7 +273,7 @@ setIsHidden(value: boolean) : void;
 
 ### getIndex() {#getIndex--}
 
-Gets the index of this row.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets the index of this row.
 
 ```javascript
 getIndex() : number;
@@ -153,7 +282,7 @@ getIndex() : number;
 
 ### getGroupLevel() {#getGroupLevel--}
 
-Gets the group level of the row.
+<b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the row.
 
 ```javascript
 getGroupLevel() : number;
@@ -162,7 +291,7 @@ getGroupLevel() : number;
 
 ### setGroupLevel(number) {#setGroupLevel-number-}
 
-Gets the group level of the row.
+<b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the row.
 
 ```javascript
 setGroupLevel(value: number) : void;
@@ -175,7 +304,7 @@ setGroupLevel(value: number) : void;
 
 ### isHeightMatched() {#isHeightMatched--}
 
-Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
+<b>@deprecated.</b> Please use the 'isHeightMatched' property instead. Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
 
 ```javascript
 isHeightMatched() : boolean;
@@ -188,7 +317,7 @@ When this property is true, if the content in this row changes, generally the ro
 
 ### setIsHeightMatched(boolean) {#setIsHeightMatched-boolean-}
 
-Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
+<b>@deprecated.</b> Please use the 'isHeightMatched' property instead. Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
 
 ```javascript
 setIsHeightMatched(value: boolean) : void;
@@ -205,7 +334,7 @@ When this property is true, if the content in this row changes, generally the ro
 
 ### getHasCustomStyle() {#getHasCustomStyle--}
 
-Indicates whether this row has custom style settings(different from the default one inherited from workbook).
+<b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this row has custom style settings(different from the default one inherited from workbook).
 
 ```javascript
 getHasCustomStyle() : boolean;
@@ -214,7 +343,7 @@ getHasCustomStyle() : boolean;
 
 ### getFirstCell() {#getFirstCell--}
 
-Gets the first cell object in the row.
+<b>@deprecated.</b> Please use the 'firstCell' property instead. Gets the first cell object in the row.
 
 ```javascript
 getFirstCell() : Cell;
@@ -227,7 +356,7 @@ getFirstCell() : Cell;
 
 ### getFirstDataCell() {#getFirstDataCell--}
 
-Gets the first non-blank cell in the row.
+<b>@deprecated.</b> Please use the 'firstDataCell' property instead. Gets the first non-blank cell in the row.
 
 ```javascript
 getFirstDataCell() : Cell;
@@ -240,7 +369,7 @@ getFirstDataCell() : Cell;
 
 ### getLastCell() {#getLastCell--}
 
-Gets the last cell object in the row.
+<b>@deprecated.</b> Please use the 'lastCell' property instead. Gets the last cell object in the row.
 
 ```javascript
 getLastCell() : Cell;
@@ -253,7 +382,7 @@ getLastCell() : Cell;
 
 ### getLastDataCell() {#getLastDataCell--}
 
-Gets the last non-blank cell in the row.
+<b>@deprecated.</b> Please use the 'lastDataCell' property instead. Gets the last non-blank cell in the row.
 
 ```javascript
 getLastDataCell() : Cell;

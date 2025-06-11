@@ -15,26 +15,85 @@ class DefaultStyleSettings;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [builtInPreference](#builtInPreference--)| boolean | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [fontName](#fontName--)| string | Gets/Sets the default font name for the workbook |
+| [fontSize](#fontSize--)| number | Gets/Sets the default standard font size for the workbook. |
+| [horizontalAlignment](#horizontalAlignment--)| TextAlignmentType | Gets/Sets the default value for horizontal alignment |
+| [verticalAlignment](#verticalAlignment--)| TextAlignmentType | Gets/Sets the default value for vertical alignment |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBuiltInPreference()](#getBuiltInPreference--)| Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
-| [setBuiltInPreference(boolean)](#setBuiltInPreference-boolean-)| Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
-| [getFontName()](#getFontName--)| Gets/Sets the default font name for the workbook |
-| [setFontName(string)](#setFontName-string-)| Gets/Sets the default font name for the workbook |
-| [getFontSize()](#getFontSize--)| Gets/Sets the default standard font size for the workbook. |
-| [setFontSize(number)](#setFontSize-number-)| Gets/Sets the default standard font size for the workbook. |
-| [getHorizontalAlignment()](#getHorizontalAlignment--)| Gets/Sets the default value for horizontal alignment |
-| [setHorizontalAlignment(TextAlignmentType)](#setHorizontalAlignment-textalignmenttype-)| Gets/Sets the default value for horizontal alignment |
-| [getVerticalAlignment()](#getVerticalAlignment--)| Gets/Sets the default value for vertical alignment |
-| [setVerticalAlignment(TextAlignmentType)](#setVerticalAlignment-textalignmenttype-)| Gets/Sets the default value for vertical alignment |
+| [getBuiltInPreference()](#getBuiltInPreference--)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [setBuiltInPreference(boolean)](#setBuiltInPreference-boolean-)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook |
+| [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook |
+| [getFontSize()](#getFontSize--)| <b>@deprecated.</b> Please use the 'fontSize' property instead. Gets/Sets the default standard font size for the workbook. |
+| [setFontSize(number)](#setFontSize-number-)| <b>@deprecated.</b> Please use the 'fontSize' property instead. Gets/Sets the default standard font size for the workbook. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets/Sets the default value for horizontal alignment |
+| [setHorizontalAlignment(TextAlignmentType)](#setHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets/Sets the default value for horizontal alignment |
+| [getVerticalAlignment()](#getVerticalAlignment--)| <b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets/Sets the default value for vertical alignment |
+| [setVerticalAlignment(TextAlignmentType)](#setVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets/Sets the default value for vertical alignment |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### builtInPreference {#builtInPreference--}
+
+Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+
+```javascript
+builtInPreference : boolean;
+```
+
+
+**Remarks**
+
+When loading workbook from existing template file, maybe both built-in number and custom pattern are defined for one style. This property determine whether we should use the built-in number or the custom pattern when formatting values with the style.
+
+### fontName {#fontName--}
+
+Gets/Sets the default font name for the workbook
+
+```javascript
+fontName : string;
+```
+
+
+### fontSize {#fontSize--}
+
+Gets/Sets the default standard font size for the workbook.
+
+```javascript
+fontSize : number;
+```
+
+
+### horizontalAlignment {#horizontalAlignment--}
+
+Gets/Sets the default value for horizontal alignment
+
+```javascript
+horizontalAlignment : TextAlignmentType;
+```
+
+
+### verticalAlignment {#verticalAlignment--}
+
+Gets/Sets the default value for vertical alignment
+
+```javascript
+verticalAlignment : TextAlignmentType;
+```
 
 
 ### getBuiltInPreference() {#getBuiltInPreference--}
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 getBuiltInPreference() : boolean;
@@ -47,7 +106,7 @@ When loading workbook from existing template file, maybe both built-in number an
 
 ### setBuiltInPreference(boolean) {#setBuiltInPreference-boolean-}
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 setBuiltInPreference(value: boolean) : void;
@@ -64,7 +123,7 @@ When loading workbook from existing template file, maybe both built-in number an
 
 ### getFontName() {#getFontName--}
 
-Gets/Sets the default font name for the workbook
+<b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook
 
 ```javascript
 getFontName() : string;
@@ -73,7 +132,7 @@ getFontName() : string;
 
 ### setFontName(string) {#setFontName-string-}
 
-Gets/Sets the default font name for the workbook
+<b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook
 
 ```javascript
 setFontName(value: string) : void;
@@ -86,7 +145,7 @@ setFontName(value: string) : void;
 
 ### getFontSize() {#getFontSize--}
 
-Gets/Sets the default standard font size for the workbook.
+<b>@deprecated.</b> Please use the 'fontSize' property instead. Gets/Sets the default standard font size for the workbook.
 
 ```javascript
 getFontSize() : number;
@@ -95,7 +154,7 @@ getFontSize() : number;
 
 ### setFontSize(number) {#setFontSize-number-}
 
-Gets/Sets the default standard font size for the workbook.
+<b>@deprecated.</b> Please use the 'fontSize' property instead. Gets/Sets the default standard font size for the workbook.
 
 ```javascript
 setFontSize(value: number) : void;
@@ -108,7 +167,7 @@ setFontSize(value: number) : void;
 
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 
-Gets/Sets the default value for horizontal alignment
+<b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets/Sets the default value for horizontal alignment
 
 ```javascript
 getHorizontalAlignment() : TextAlignmentType;
@@ -121,7 +180,7 @@ getHorizontalAlignment() : TextAlignmentType;
 
 ### setHorizontalAlignment(TextAlignmentType) {#setHorizontalAlignment-textalignmenttype-}
 
-Gets/Sets the default value for horizontal alignment
+<b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets/Sets the default value for horizontal alignment
 
 ```javascript
 setHorizontalAlignment(value: TextAlignmentType) : void;
@@ -134,7 +193,7 @@ setHorizontalAlignment(value: TextAlignmentType) : void;
 
 ### getVerticalAlignment() {#getVerticalAlignment--}
 
-Gets/Sets the default value for vertical alignment
+<b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets/Sets the default value for vertical alignment
 
 ```javascript
 getVerticalAlignment() : TextAlignmentType;
@@ -147,7 +206,7 @@ getVerticalAlignment() : TextAlignmentType;
 
 ### setVerticalAlignment(TextAlignmentType) {#setVerticalAlignment-textalignmenttype-}
 
-Gets/Sets the default value for vertical alignment
+<b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets/Sets the default value for vertical alignment
 
 ```javascript
 setVerticalAlignment(value: TextAlignmentType) : void;

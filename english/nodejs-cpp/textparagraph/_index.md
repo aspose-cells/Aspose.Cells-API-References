@@ -17,53 +17,81 @@ class TextParagraph extends FontSetting;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(FontSetting)](#constructor-fontsetting-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [bullet](#bullet--)| Bullet | Readonly. Gets the bullet. |
+| [type](#type--)| TextNodeType | Readonly. Gets the type of text node. |
+| [lineSpaceSizeType](#lineSpaceSizeType--)| LineSpaceSizeType | Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [lineSpace](#lineSpace--)| number | Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [spaceAfterSizeType](#spaceAfterSizeType--)| LineSpaceSizeType | Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [spaceAfter](#spaceAfter--)| number | Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [spaceBeforeSizeType](#spaceBeforeSizeType--)| LineSpaceSizeType | Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [spaceBefore](#spaceBefore--)| number | Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [stops](#stops--)| TextTabStopCollection | Readonly. Gets tab stop list. |
+| [isLatinLineBreak](#isLatinLineBreak--)| boolean | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [isEastAsianLineBreak](#isEastAsianLineBreak--)| boolean | Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [isHangingPunctuation](#isHangingPunctuation--)| boolean | Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
+| [rightMargin](#rightMargin--)| number | Specifies the right margin of the paragraph. |
+| [leftMargin](#leftMargin--)| number | Specifies the left margin of the paragraph. |
+| [firstLineIndent](#firstLineIndent--)| number | Specifies the indent size that will be applied to the first line of text in the paragraph. |
+| [fontAlignType](#fontAlignType--)| TextFontAlignType | Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. |
+| [alignmentType](#alignmentType--)| TextAlignmentType | Gets and sets the text horizontal alignment type of the paragraph. |
+| [defaultTabSize](#defaultTabSize--)| number | Gets and sets the default size for a tab character within this paragraph. |
+| [children](#children--)| FontSetting[] | Readonly. Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself. |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBullet()](#getBullet--)| Gets the bullet. |
-| [getType()](#getType--)| Gets the type of text node. |
-| [getLineSpaceSizeType()](#getLineSpaceSizeType--)| Gets and sets the amount of vertical white space that will be used within a paragraph. |
-| [setLineSpaceSizeType(LineSpaceSizeType)](#setLineSpaceSizeType-linespacesizetype-)| Gets and sets the amount of vertical white space that will be used within a paragraph. |
-| [getLineSpace()](#getLineSpace--)| Gets and sets the amount of vertical white space that will be used within a paragraph. |
-| [setLineSpace(number)](#setLineSpace-number-)| Gets and sets the amount of vertical white space that will be used within a paragraph. |
-| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--)| Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [setSpaceAfterSizeType(LineSpaceSizeType)](#setSpaceAfterSizeType-linespacesizetype-)| Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceAfter()](#getSpaceAfter--)| Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [setSpaceAfter(number)](#setSpaceAfter-number-)| Gets and sets the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--)| Gets and sets the amount of vertical white space that will be present before a paragraph. |
-| [setSpaceBeforeSizeType(LineSpaceSizeType)](#setSpaceBeforeSizeType-linespacesizetype-)| Gets and sets the amount of vertical white space that will be present before a paragraph. |
-| [getSpaceBefore()](#getSpaceBefore--)| Gets and sets the amount of vertical white space that will be present before a paragraph. |
-| [setSpaceBefore(number)](#setSpaceBefore-number-)| Gets and sets the amount of vertical white space that will be present before a paragraph. |
-| [getStops()](#getStops--)| Gets tab stop list. |
-| [isLatinLineBreak()](#isLatinLineBreak--)| Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
-| [setIsLatinLineBreak(boolean)](#setIsLatinLineBreak-boolean-)| Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
-| [isEastAsianLineBreak()](#isEastAsianLineBreak--)| Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
-| [setIsEastAsianLineBreak(boolean)](#setIsEastAsianLineBreak-boolean-)| Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
-| [isHangingPunctuation()](#isHangingPunctuation--)| Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
-| [setIsHangingPunctuation(boolean)](#setIsHangingPunctuation-boolean-)| Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
-| [getRightMargin()](#getRightMargin--)| Specifies the right margin of the paragraph. |
-| [setRightMargin(number)](#setRightMargin-number-)| Specifies the right margin of the paragraph. |
-| [getLeftMargin()](#getLeftMargin--)| Specifies the left margin of the paragraph. |
-| [setLeftMargin(number)](#setLeftMargin-number-)| Specifies the left margin of the paragraph. |
-| [getFirstLineIndent()](#getFirstLineIndent--)| Specifies the indent size that will be applied to the first line of text in the paragraph. |
-| [setFirstLineIndent(number)](#setFirstLineIndent-number-)| Specifies the indent size that will be applied to the first line of text in the paragraph. |
-| [getFontAlignType()](#getFontAlignType--)| Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. |
-| [setFontAlignType(TextFontAlignType)](#setFontAlignType-textfontaligntype-)| Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. |
-| [getAlignmentType()](#getAlignmentType--)| Gets and sets the text horizontal alignment type of the paragraph. |
-| [setAlignmentType(TextAlignmentType)](#setAlignmentType-textalignmenttype-)| Gets and sets the text horizontal alignment type of the paragraph. |
-| [getDefaultTabSize()](#getDefaultTabSize--)| Gets and sets the default size for a tab character within this paragraph. |
-| [setDefaultTabSize(number)](#setDefaultTabSize-number-)| Gets and sets the default size for a tab character within this paragraph. |
-| [getChildren()](#getChildren--)| Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself. |
+| [getBullet()](#getBullet--)| <b>@deprecated.</b> Please use the 'bullet' property instead. Gets the bullet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of text node. |
+| [getLineSpaceSizeType()](#getLineSpaceSizeType--)| <b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [setLineSpaceSizeType(LineSpaceSizeType)](#setLineSpaceSizeType-linespacesizetype-)| <b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [getLineSpace()](#getLineSpace--)| <b>@deprecated.</b> Please use the 'lineSpace' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [setLineSpace(number)](#setLineSpace-number-)| <b>@deprecated.</b> Please use the 'lineSpace' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
+| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--)| <b>@deprecated.</b> Please use the 'spaceAfterSizeType' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [setSpaceAfterSizeType(LineSpaceSizeType)](#setSpaceAfterSizeType-linespacesizetype-)| <b>@deprecated.</b> Please use the 'spaceAfterSizeType' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceAfter()](#getSpaceAfter--)| <b>@deprecated.</b> Please use the 'spaceAfter' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [setSpaceAfter(number)](#setSpaceAfter-number-)| <b>@deprecated.</b> Please use the 'spaceAfter' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--)| <b>@deprecated.</b> Please use the 'spaceBeforeSizeType' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [setSpaceBeforeSizeType(LineSpaceSizeType)](#setSpaceBeforeSizeType-linespacesizetype-)| <b>@deprecated.</b> Please use the 'spaceBeforeSizeType' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [getSpaceBefore()](#getSpaceBefore--)| <b>@deprecated.</b> Please use the 'spaceBefore' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [setSpaceBefore(number)](#setSpaceBefore-number-)| <b>@deprecated.</b> Please use the 'spaceBefore' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph. |
+| [getStops()](#getStops--)| <b>@deprecated.</b> Please use the 'stops' property instead. Gets tab stop list. |
+| [isLatinLineBreak()](#isLatinLineBreak--)| <b>@deprecated.</b> Please use the 'isLatinLineBreak' property instead. Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [setIsLatinLineBreak(boolean)](#setIsLatinLineBreak-boolean-)| <b>@deprecated.</b> Please use the 'isLatinLineBreak' property instead. Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [isEastAsianLineBreak()](#isEastAsianLineBreak--)| <b>@deprecated.</b> Please use the 'isEastAsianLineBreak' property instead. Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [setIsEastAsianLineBreak(boolean)](#setIsEastAsianLineBreak-boolean-)| <b>@deprecated.</b> Please use the 'isEastAsianLineBreak' property instead. Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [isHangingPunctuation()](#isHangingPunctuation--)| <b>@deprecated.</b> Please use the 'isHangingPunctuation' property instead. Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
+| [setIsHangingPunctuation(boolean)](#setIsHangingPunctuation-boolean-)| <b>@deprecated.</b> Please use the 'isHangingPunctuation' property instead. Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
+| [getRightMargin()](#getRightMargin--)| <b>@deprecated.</b> Please use the 'rightMargin' property instead. Specifies the right margin of the paragraph. |
+| [setRightMargin(number)](#setRightMargin-number-)| <b>@deprecated.</b> Please use the 'rightMargin' property instead. Specifies the right margin of the paragraph. |
+| [getLeftMargin()](#getLeftMargin--)| <b>@deprecated.</b> Please use the 'leftMargin' property instead. Specifies the left margin of the paragraph. |
+| [setLeftMargin(number)](#setLeftMargin-number-)| <b>@deprecated.</b> Please use the 'leftMargin' property instead. Specifies the left margin of the paragraph. |
+| [getFirstLineIndent()](#getFirstLineIndent--)| <b>@deprecated.</b> Please use the 'firstLineIndent' property instead. Specifies the indent size that will be applied to the first line of text in the paragraph. |
+| [setFirstLineIndent(number)](#setFirstLineIndent-number-)| <b>@deprecated.</b> Please use the 'firstLineIndent' property instead. Specifies the indent size that will be applied to the first line of text in the paragraph. |
+| [getFontAlignType()](#getFontAlignType--)| <b>@deprecated.</b> Please use the 'fontAlignType' property instead. Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. |
+| [setFontAlignType(TextFontAlignType)](#setFontAlignType-textfontaligntype-)| <b>@deprecated.</b> Please use the 'fontAlignType' property instead. Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. |
+| [getAlignmentType()](#getAlignmentType--)| <b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text horizontal alignment type of the paragraph. |
+| [setAlignmentType(TextAlignmentType)](#setAlignmentType-textalignmenttype-)| <b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text horizontal alignment type of the paragraph. |
+| [getDefaultTabSize()](#getDefaultTabSize--)| <b>@deprecated.</b> Please use the 'defaultTabSize' property instead. Gets and sets the default size for a tab character within this paragraph. |
+| [setDefaultTabSize(number)](#setDefaultTabSize-number-)| <b>@deprecated.</b> Please use the 'defaultTabSize' property instead. Gets and sets the default size for a tab character within this paragraph. |
+| [getChildren()](#getChildren--)| <b>@deprecated.</b> Please use the 'children' property instead. Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
 
 
@@ -80,9 +108,216 @@ constructor(obj: FontSetting);
 | --- | --- | --- |
 | obj | FontSetting | The parent object. |
 
+### bullet {#bullet--}
+
+Readonly. Gets the bullet.
+
+```javascript
+bullet : Bullet;
+```
+
+
+### type {#type--}
+
+Readonly. Gets the type of text node.
+
+```javascript
+type : TextNodeType;
+```
+
+
+### lineSpaceSizeType {#lineSpaceSizeType--}
+
+Gets and sets the amount of vertical white space that will be used within a paragraph.
+
+```javascript
+lineSpaceSizeType : LineSpaceSizeType;
+```
+
+
+### lineSpace {#lineSpace--}
+
+Gets and sets the amount of vertical white space that will be used within a paragraph.
+
+```javascript
+lineSpace : number;
+```
+
+
+### spaceAfterSizeType {#spaceAfterSizeType--}
+
+Gets and sets the amount of vertical white space that will be present after a paragraph.
+
+```javascript
+spaceAfterSizeType : LineSpaceSizeType;
+```
+
+
+### spaceAfter {#spaceAfter--}
+
+Gets and sets the amount of vertical white space that will be present after a paragraph.
+
+```javascript
+spaceAfter : number;
+```
+
+
+### spaceBeforeSizeType {#spaceBeforeSizeType--}
+
+Gets and sets the amount of vertical white space that will be present before a paragraph.
+
+```javascript
+spaceBeforeSizeType : LineSpaceSizeType;
+```
+
+
+### spaceBefore {#spaceBefore--}
+
+Gets and sets the amount of vertical white space that will be present before a paragraph.
+
+```javascript
+spaceBefore : number;
+```
+
+
+### stops {#stops--}
+
+Readonly. Gets tab stop list.
+
+```javascript
+stops : TextTabStopCollection;
+```
+
+
+### isLatinLineBreak {#isLatinLineBreak--}
+
+Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
+
+```javascript
+isLatinLineBreak : boolean;
+```
+
+
+### isEastAsianLineBreak {#isEastAsianLineBreak--}
+
+Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
+
+```javascript
+isEastAsianLineBreak : boolean;
+```
+
+
+### isHangingPunctuation {#isHangingPunctuation--}
+
+Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
+
+```javascript
+isHangingPunctuation : boolean;
+```
+
+
+### rightMargin {#rightMargin--}
+
+Specifies the right margin of the paragraph.
+
+```javascript
+rightMargin : number;
+```
+
+
+### leftMargin {#leftMargin--}
+
+Specifies the left margin of the paragraph.
+
+```javascript
+leftMargin : number;
+```
+
+
+### firstLineIndent {#firstLineIndent--}
+
+Specifies the indent size that will be applied to the first line of text in the paragraph.
+
+```javascript
+firstLineIndent : number;
+```
+
+
+### fontAlignType {#fontAlignType--}
+
+Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
+
+```javascript
+fontAlignType : TextFontAlignType;
+```
+
+
+### alignmentType {#alignmentType--}
+
+Gets and sets the text horizontal alignment type of the paragraph.
+
+```javascript
+alignmentType : TextAlignmentType;
+```
+
+
+### defaultTabSize {#defaultTabSize--}
+
+Gets and sets the default size for a tab character within this paragraph.
+
+```javascript
+defaultTabSize : number;
+```
+
+
+### children {#children--}
+
+Readonly. Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself.
+
+```javascript
+children : FontSetting[];
+```
+
+
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
 ### getBullet() {#getBullet--}
 
-Gets the bullet.
+<b>@deprecated.</b> Please use the 'bullet' property instead. Gets the bullet.
 
 ```javascript
 getBullet() : Bullet;
@@ -95,7 +330,7 @@ getBullet() : Bullet;
 
 ### getType() {#getType--}
 
-Gets the type of text node.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of text node.
 
 ```javascript
 getType() : TextNodeType;
@@ -108,7 +343,7 @@ getType() : TextNodeType;
 
 ### getLineSpaceSizeType() {#getLineSpaceSizeType--}
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+<b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph.
 
 ```javascript
 getLineSpaceSizeType() : LineSpaceSizeType;
@@ -121,7 +356,7 @@ getLineSpaceSizeType() : LineSpaceSizeType;
 
 ### setLineSpaceSizeType(LineSpaceSizeType) {#setLineSpaceSizeType-linespacesizetype-}
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+<b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph.
 
 ```javascript
 setLineSpaceSizeType(value: LineSpaceSizeType) : void;
@@ -134,7 +369,7 @@ setLineSpaceSizeType(value: LineSpaceSizeType) : void;
 
 ### getLineSpace() {#getLineSpace--}
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+<b>@deprecated.</b> Please use the 'lineSpace' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph.
 
 ```javascript
 getLineSpace() : number;
@@ -143,7 +378,7 @@ getLineSpace() : number;
 
 ### setLineSpace(number) {#setLineSpace-number-}
 
-Gets and sets the amount of vertical white space that will be used within a paragraph.
+<b>@deprecated.</b> Please use the 'lineSpace' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph.
 
 ```javascript
 setLineSpace(value: number) : void;
@@ -156,7 +391,7 @@ setLineSpace(value: number) : void;
 
 ### getSpaceAfterSizeType() {#getSpaceAfterSizeType--}
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+<b>@deprecated.</b> Please use the 'spaceAfterSizeType' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph.
 
 ```javascript
 getSpaceAfterSizeType() : LineSpaceSizeType;
@@ -169,7 +404,7 @@ getSpaceAfterSizeType() : LineSpaceSizeType;
 
 ### setSpaceAfterSizeType(LineSpaceSizeType) {#setSpaceAfterSizeType-linespacesizetype-}
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+<b>@deprecated.</b> Please use the 'spaceAfterSizeType' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph.
 
 ```javascript
 setSpaceAfterSizeType(value: LineSpaceSizeType) : void;
@@ -182,7 +417,7 @@ setSpaceAfterSizeType(value: LineSpaceSizeType) : void;
 
 ### getSpaceAfter() {#getSpaceAfter--}
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+<b>@deprecated.</b> Please use the 'spaceAfter' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph.
 
 ```javascript
 getSpaceAfter() : number;
@@ -191,7 +426,7 @@ getSpaceAfter() : number;
 
 ### setSpaceAfter(number) {#setSpaceAfter-number-}
 
-Gets and sets the amount of vertical white space that will be present after a paragraph.
+<b>@deprecated.</b> Please use the 'spaceAfter' property instead. Gets and sets the amount of vertical white space that will be present after a paragraph.
 
 ```javascript
 setSpaceAfter(value: number) : void;
@@ -204,7 +439,7 @@ setSpaceAfter(value: number) : void;
 
 ### getSpaceBeforeSizeType() {#getSpaceBeforeSizeType--}
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+<b>@deprecated.</b> Please use the 'spaceBeforeSizeType' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph.
 
 ```javascript
 getSpaceBeforeSizeType() : LineSpaceSizeType;
@@ -217,7 +452,7 @@ getSpaceBeforeSizeType() : LineSpaceSizeType;
 
 ### setSpaceBeforeSizeType(LineSpaceSizeType) {#setSpaceBeforeSizeType-linespacesizetype-}
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+<b>@deprecated.</b> Please use the 'spaceBeforeSizeType' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph.
 
 ```javascript
 setSpaceBeforeSizeType(value: LineSpaceSizeType) : void;
@@ -230,7 +465,7 @@ setSpaceBeforeSizeType(value: LineSpaceSizeType) : void;
 
 ### getSpaceBefore() {#getSpaceBefore--}
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+<b>@deprecated.</b> Please use the 'spaceBefore' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph.
 
 ```javascript
 getSpaceBefore() : number;
@@ -239,7 +474,7 @@ getSpaceBefore() : number;
 
 ### setSpaceBefore(number) {#setSpaceBefore-number-}
 
-Gets and sets the amount of vertical white space that will be present before a paragraph.
+<b>@deprecated.</b> Please use the 'spaceBefore' property instead. Gets and sets the amount of vertical white space that will be present before a paragraph.
 
 ```javascript
 setSpaceBefore(value: number) : void;
@@ -252,7 +487,7 @@ setSpaceBefore(value: number) : void;
 
 ### getStops() {#getStops--}
 
-Gets tab stop list.
+<b>@deprecated.</b> Please use the 'stops' property instead. Gets tab stop list.
 
 ```javascript
 getStops() : TextTabStopCollection;
@@ -265,7 +500,7 @@ getStops() : TextTabStopCollection;
 
 ### isLatinLineBreak() {#isLatinLineBreak--}
 
-Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
+<b>@deprecated.</b> Please use the 'isLatinLineBreak' property instead. Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 ```javascript
 isLatinLineBreak() : boolean;
@@ -274,7 +509,7 @@ isLatinLineBreak() : boolean;
 
 ### setIsLatinLineBreak(boolean) {#setIsLatinLineBreak-boolean-}
 
-Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
+<b>@deprecated.</b> Please use the 'isLatinLineBreak' property instead. Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 ```javascript
 setIsLatinLineBreak(value: boolean) : void;
@@ -287,7 +522,7 @@ setIsLatinLineBreak(value: boolean) : void;
 
 ### isEastAsianLineBreak() {#isEastAsianLineBreak--}
 
-Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
+<b>@deprecated.</b> Please use the 'isEastAsianLineBreak' property instead. Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 ```javascript
 isEastAsianLineBreak() : boolean;
@@ -296,7 +531,7 @@ isEastAsianLineBreak() : boolean;
 
 ### setIsEastAsianLineBreak(boolean) {#setIsEastAsianLineBreak-boolean-}
 
-Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
+<b>@deprecated.</b> Please use the 'isEastAsianLineBreak' property instead. Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 ```javascript
 setIsEastAsianLineBreak(value: boolean) : void;
@@ -309,7 +544,7 @@ setIsEastAsianLineBreak(value: boolean) : void;
 
 ### isHangingPunctuation() {#isHangingPunctuation--}
 
-Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
+<b>@deprecated.</b> Please use the 'isHangingPunctuation' property instead. Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
 
 ```javascript
 isHangingPunctuation() : boolean;
@@ -318,7 +553,7 @@ isHangingPunctuation() : boolean;
 
 ### setIsHangingPunctuation(boolean) {#setIsHangingPunctuation-boolean-}
 
-Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
+<b>@deprecated.</b> Please use the 'isHangingPunctuation' property instead. Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
 
 ```javascript
 setIsHangingPunctuation(value: boolean) : void;
@@ -331,7 +566,7 @@ setIsHangingPunctuation(value: boolean) : void;
 
 ### getRightMargin() {#getRightMargin--}
 
-Specifies the right margin of the paragraph.
+<b>@deprecated.</b> Please use the 'rightMargin' property instead. Specifies the right margin of the paragraph.
 
 ```javascript
 getRightMargin() : number;
@@ -340,7 +575,7 @@ getRightMargin() : number;
 
 ### setRightMargin(number) {#setRightMargin-number-}
 
-Specifies the right margin of the paragraph.
+<b>@deprecated.</b> Please use the 'rightMargin' property instead. Specifies the right margin of the paragraph.
 
 ```javascript
 setRightMargin(value: number) : void;
@@ -353,7 +588,7 @@ setRightMargin(value: number) : void;
 
 ### getLeftMargin() {#getLeftMargin--}
 
-Specifies the left margin of the paragraph.
+<b>@deprecated.</b> Please use the 'leftMargin' property instead. Specifies the left margin of the paragraph.
 
 ```javascript
 getLeftMargin() : number;
@@ -362,7 +597,7 @@ getLeftMargin() : number;
 
 ### setLeftMargin(number) {#setLeftMargin-number-}
 
-Specifies the left margin of the paragraph.
+<b>@deprecated.</b> Please use the 'leftMargin' property instead. Specifies the left margin of the paragraph.
 
 ```javascript
 setLeftMargin(value: number) : void;
@@ -375,7 +610,7 @@ setLeftMargin(value: number) : void;
 
 ### getFirstLineIndent() {#getFirstLineIndent--}
 
-Specifies the indent size that will be applied to the first line of text in the paragraph.
+<b>@deprecated.</b> Please use the 'firstLineIndent' property instead. Specifies the indent size that will be applied to the first line of text in the paragraph.
 
 ```javascript
 getFirstLineIndent() : number;
@@ -384,7 +619,7 @@ getFirstLineIndent() : number;
 
 ### setFirstLineIndent(number) {#setFirstLineIndent-number-}
 
-Specifies the indent size that will be applied to the first line of text in the paragraph.
+<b>@deprecated.</b> Please use the 'firstLineIndent' property instead. Specifies the indent size that will be applied to the first line of text in the paragraph.
 
 ```javascript
 setFirstLineIndent(value: number) : void;
@@ -397,7 +632,7 @@ setFirstLineIndent(value: number) : void;
 
 ### getFontAlignType() {#getFontAlignType--}
 
-Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
+<b>@deprecated.</b> Please use the 'fontAlignType' property instead. Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
 
 ```javascript
 getFontAlignType() : TextFontAlignType;
@@ -410,7 +645,7 @@ getFontAlignType() : TextFontAlignType;
 
 ### setFontAlignType(TextFontAlignType) {#setFontAlignType-textfontaligntype-}
 
-Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
+<b>@deprecated.</b> Please use the 'fontAlignType' property instead. Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
 
 ```javascript
 setFontAlignType(value: TextFontAlignType) : void;
@@ -423,7 +658,7 @@ setFontAlignType(value: TextFontAlignType) : void;
 
 ### getAlignmentType() {#getAlignmentType--}
 
-Gets and sets the text horizontal alignment type of the paragraph.
+<b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text horizontal alignment type of the paragraph.
 
 ```javascript
 getAlignmentType() : TextAlignmentType;
@@ -436,7 +671,7 @@ getAlignmentType() : TextAlignmentType;
 
 ### setAlignmentType(TextAlignmentType) {#setAlignmentType-textalignmenttype-}
 
-Gets and sets the text horizontal alignment type of the paragraph.
+<b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text horizontal alignment type of the paragraph.
 
 ```javascript
 setAlignmentType(value: TextAlignmentType) : void;
@@ -449,7 +684,7 @@ setAlignmentType(value: TextAlignmentType) : void;
 
 ### getDefaultTabSize() {#getDefaultTabSize--}
 
-Gets and sets the default size for a tab character within this paragraph.
+<b>@deprecated.</b> Please use the 'defaultTabSize' property instead. Gets and sets the default size for a tab character within this paragraph.
 
 ```javascript
 getDefaultTabSize() : number;
@@ -458,7 +693,7 @@ getDefaultTabSize() : number;
 
 ### setDefaultTabSize(number) {#setDefaultTabSize-number-}
 
-Gets and sets the default size for a tab character within this paragraph.
+<b>@deprecated.</b> Please use the 'defaultTabSize' property instead. Gets and sets the default size for a tab character within this paragraph.
 
 ```javascript
 setDefaultTabSize(value: number) : void;
@@ -471,7 +706,7 @@ setDefaultTabSize(value: number) : void;
 
 ### getChildren() {#getChildren--}
 
-Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself.
+<b>@deprecated.</b> Please use the 'children' property instead. Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself.
 
 ```javascript
 getChildren() : FontSetting[];
@@ -493,7 +728,7 @@ isNull() : boolean;
 
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -502,7 +737,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -511,7 +746,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -524,7 +759,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;

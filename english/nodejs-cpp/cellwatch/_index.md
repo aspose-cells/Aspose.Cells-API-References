@@ -17,20 +17,28 @@ class CellWatch;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [row](#row--)| number | Gets and sets the row of the cell. |
+| [column](#column--)| number | Gets and sets the column of the cell. |
+| [cellName](#cellName--)| string | Gets and sets the name of the cell. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRow()](#getRow--)| Gets and sets the row of the cell. |
-| [setRow(number)](#setRow-number-)| Gets and sets the row of the cell. |
-| [getColumn()](#getColumn--)| Gets and sets the column of the cell. |
-| [setColumn(number)](#setColumn-number-)| Gets and sets the column of the cell. |
-| [getCellName()](#getCellName--)| Gets and sets the name of the cell. |
-| [setCellName(string)](#setCellName-string-)| Gets and sets the name of the cell. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row of the cell. |
+| [setRow(number)](#setRow-number-)| <b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row of the cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column of the cell. |
+| [setColumn(number)](#setColumn-number-)| <b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column of the cell. |
+| [getCellName()](#getCellName--)| <b>@deprecated.</b> Please use the 'cellName' property instead. Gets and sets the name of the cell. |
+| [setCellName(string)](#setCellName-string-)| <b>@deprecated.</b> Please use the 'cellName' property instead. Gets and sets the name of the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,36 @@ constructor();
 ```
 
 
-### getRow() {#getRow--}
+### row {#row--}
 
 Gets and sets the row of the cell.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Gets and sets the column of the cell.
+
+```javascript
+column : number;
+```
+
+
+### cellName {#cellName--}
+
+Gets and sets the name of the cell.
+
+```javascript
+cellName : string;
+```
+
+
+### getRow() {#getRow--}
+
+<b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row of the cell.
 
 ```javascript
 getRow() : number;
@@ -54,7 +89,7 @@ getRow() : number;
 
 ### setRow(number) {#setRow-number-}
 
-Gets and sets the row of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row of the cell.
 
 ```javascript
 setRow(value: number) : void;
@@ -67,7 +102,7 @@ setRow(value: number) : void;
 
 ### getColumn() {#getColumn--}
 
-Gets and sets the column of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column of the cell.
 
 ```javascript
 getColumn() : number;
@@ -76,7 +111,7 @@ getColumn() : number;
 
 ### setColumn(number) {#setColumn-number-}
 
-Gets and sets the column of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column of the cell.
 
 ```javascript
 setColumn(value: number) : void;
@@ -89,7 +124,7 @@ setColumn(value: number) : void;
 
 ### getCellName() {#getCellName--}
 
-Gets and sets the name of the cell.
+<b>@deprecated.</b> Please use the 'cellName' property instead. Gets and sets the name of the cell.
 
 ```javascript
 getCellName() : string;
@@ -98,7 +133,7 @@ getCellName() : string;
 
 ### setCellName(string) {#setCellName-string-}
 
-Gets and sets the name of the cell.
+<b>@deprecated.</b> Please use the 'cellName' property instead. Gets and sets the name of the cell.
 
 ```javascript
 setCellName(value: string) : void;

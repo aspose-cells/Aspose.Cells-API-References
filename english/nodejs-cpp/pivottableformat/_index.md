@@ -15,19 +15,34 @@ class PivotTableFormat;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pivotArea](#pivotArea--)| PivotArea | Readonly. Gets the pivot area. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPivotArea()](#getPivotArea--)| Gets the pivot area. |
+| [getPivotArea()](#getPivotArea--)| <b>@deprecated.</b> Please use the 'pivotArea' property instead. Gets the pivot area. |
 | [getStyle()](#getStyle--)| Gets the formatted style. |
 | [setStyle(Style)](#setStyle-style-)| Sets the style of the pivot area. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### pivotArea {#pivotArea--}
+
+Readonly. Gets the pivot area.
+
+```javascript
+pivotArea : PivotArea;
+```
+
+
 ### getPivotArea() {#getPivotArea--}
 
-Gets the pivot area.
+<b>@deprecated.</b> Please use the 'pivotArea' property instead. Gets the pivot area.
 
 ```javascript
 getPivotArea() : PivotArea;

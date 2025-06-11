@@ -71,7 +71,7 @@ class ShapeCollection;
 | [updateSelectedValue()](#updateSelectedValue--)| Update the selected value by the value of the linked cell or range of the shape. |
 | [addFreeform(number, number, number, number, number, number, ShapePath[])](#addFreeform-number-number-number-number-number-number-shapepatharray-)| Adds a freeform shape to the worksheet. |
 | [addSignatureLine(number, number, SignatureLine)](#addSignatureLine-number-number-signatureline-)| Adds a Signature Line to the worksheet. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -1154,7 +1154,7 @@ addSignatureLine(upperLeftRow: number, upperLeftColumn: number, signatureLine: S
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

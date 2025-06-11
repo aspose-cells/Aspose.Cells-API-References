@@ -17,7 +17,7 @@ class ShapeSegmentPathCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -27,7 +27,7 @@ class ShapeSegmentPathCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets [ShapeSegmentPath](../shapesegmentpath/) object. |
 | [add(ShapePathType)](#add-shapepathtype-)| Add a segment path in creation path. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -76,7 +76,7 @@ Returns the position of [ShapeSegmentPath](../shapesegmentpath/) object in the l
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

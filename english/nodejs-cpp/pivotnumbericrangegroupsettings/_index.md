@@ -17,18 +17,27 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(PivotFieldGroupSettings)](#constructor-pivotfieldgroupsettings-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| PivotFieldGroupType | Readonly. Gets the group type. |
+| [start](#start--)| number | Readonly. Gets the start number of the group. |
+| [end](#end--)| number | Readonly. Gets the end number of the group. |
+| [interval](#interval--)| number | Readonly. Gets the interval of the group. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the group type. |
-| [getStart()](#getStart--)| Gets the start number of the group. |
-| [getEnd()](#getEnd--)| Gets the end number of the group. |
-| [getInterval()](#getInterval--)| Gets the interval of the group. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the group type. |
+| [getStart()](#getStart--)| <b>@deprecated.</b> Please use the 'start' property instead. Gets the start number of the group. |
+| [getEnd()](#getEnd--)| <b>@deprecated.</b> Please use the 'end' property instead. Gets the end number of the group. |
+| [getInterval()](#getInterval--)| <b>@deprecated.</b> Please use the 'interval' property instead. Gets the interval of the group. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -45,9 +54,45 @@ constructor(obj: PivotFieldGroupSettings);
 | --- | --- | --- |
 | obj | PivotFieldGroupSettings | The parent object. |
 
+### type {#type--}
+
+Readonly. Gets the group type.
+
+```javascript
+type : PivotFieldGroupType;
+```
+
+
+### start {#start--}
+
+Readonly. Gets the start number of the group.
+
+```javascript
+start : number;
+```
+
+
+### end {#end--}
+
+Readonly. Gets the end number of the group.
+
+```javascript
+end : number;
+```
+
+
+### interval {#interval--}
+
+Readonly. Gets the interval of the group.
+
+```javascript
+interval : number;
+```
+
+
 ### getType() {#getType--}
 
-Gets the group type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the group type.
 
 ```javascript
 getType() : PivotFieldGroupType;
@@ -60,7 +105,7 @@ getType() : PivotFieldGroupType;
 
 ### getStart() {#getStart--}
 
-Gets the start number of the group.
+<b>@deprecated.</b> Please use the 'start' property instead. Gets the start number of the group.
 
 ```javascript
 getStart() : number;
@@ -69,7 +114,7 @@ getStart() : number;
 
 ### getEnd() {#getEnd--}
 
-Gets the end number of the group.
+<b>@deprecated.</b> Please use the 'end' property instead. Gets the end number of the group.
 
 ```javascript
 getEnd() : number;
@@ -78,7 +123,7 @@ getEnd() : number;
 
 ### getInterval() {#getInterval--}
 
-Gets the interval of the group.
+<b>@deprecated.</b> Please use the 'interval' property instead. Gets the interval of the group.
 
 ```javascript
 getInterval() : number;

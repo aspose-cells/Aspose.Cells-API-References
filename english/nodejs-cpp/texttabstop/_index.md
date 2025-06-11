@@ -15,20 +15,45 @@ class TextTabStop;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [tabAlignment](#tabAlignment--)| TextTabAlignmentType | Specifies the alignment that is to be applied to text using this tab stop. |
+| [tabPosition](#tabPosition--)| number | Specifies the position of the tab stop relative to the left margin. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getTabAlignment()](#getTabAlignment--)| Specifies the alignment that is to be applied to text using this tab stop. |
-| [setTabAlignment(TextTabAlignmentType)](#setTabAlignment-texttabalignmenttype-)| Specifies the alignment that is to be applied to text using this tab stop. |
-| [getTabPosition()](#getTabPosition--)| Specifies the position of the tab stop relative to the left margin. |
-| [setTabPosition(number)](#setTabPosition-number-)| Specifies the position of the tab stop relative to the left margin. |
+| [getTabAlignment()](#getTabAlignment--)| <b>@deprecated.</b> Please use the 'tabAlignment' property instead. Specifies the alignment that is to be applied to text using this tab stop. |
+| [setTabAlignment(TextTabAlignmentType)](#setTabAlignment-texttabalignmenttype-)| <b>@deprecated.</b> Please use the 'tabAlignment' property instead. Specifies the alignment that is to be applied to text using this tab stop. |
+| [getTabPosition()](#getTabPosition--)| <b>@deprecated.</b> Please use the 'tabPosition' property instead. Specifies the position of the tab stop relative to the left margin. |
+| [setTabPosition(number)](#setTabPosition-number-)| <b>@deprecated.</b> Please use the 'tabPosition' property instead. Specifies the position of the tab stop relative to the left margin. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### tabAlignment {#tabAlignment--}
+
+Specifies the alignment that is to be applied to text using this tab stop.
+
+```javascript
+tabAlignment : TextTabAlignmentType;
+```
+
+
+### tabPosition {#tabPosition--}
+
+Specifies the position of the tab stop relative to the left margin.
+
+```javascript
+tabPosition : number;
+```
 
 
 ### getTabAlignment() {#getTabAlignment--}
 
-Specifies the alignment that is to be applied to text using this tab stop.
+<b>@deprecated.</b> Please use the 'tabAlignment' property instead. Specifies the alignment that is to be applied to text using this tab stop.
 
 ```javascript
 getTabAlignment() : TextTabAlignmentType;
@@ -41,7 +66,7 @@ getTabAlignment() : TextTabAlignmentType;
 
 ### setTabAlignment(TextTabAlignmentType) {#setTabAlignment-texttabalignmenttype-}
 
-Specifies the alignment that is to be applied to text using this tab stop.
+<b>@deprecated.</b> Please use the 'tabAlignment' property instead. Specifies the alignment that is to be applied to text using this tab stop.
 
 ```javascript
 setTabAlignment(value: TextTabAlignmentType) : void;
@@ -54,7 +79,7 @@ setTabAlignment(value: TextTabAlignmentType) : void;
 
 ### getTabPosition() {#getTabPosition--}
 
-Specifies the position of the tab stop relative to the left margin.
+<b>@deprecated.</b> Please use the 'tabPosition' property instead. Specifies the position of the tab stop relative to the left margin.
 
 ```javascript
 getTabPosition() : number;
@@ -63,7 +88,7 @@ getTabPosition() : number;
 
 ### setTabPosition(number) {#setTabPosition-number-}
 
-Specifies the position of the tab stop relative to the left margin.
+<b>@deprecated.</b> Please use the 'tabPosition' property instead. Specifies the position of the tab stop relative to the left margin.
 
 ```javascript
 setTabPosition(value: number) : void;

@@ -17,15 +17,21 @@ class PivotPageFields;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Represents the pivot page field items. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pageFieldCount](#pageFieldCount--)| number | Readonly. Gets the number of page fields. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageFieldCount()](#getPageFieldCount--)| Gets the number of page fields. |
+| [getPageFieldCount()](#getPageFieldCount--)| <b>@deprecated.</b> Please use the 'pageFieldCount' property instead. Gets the number of page fields. |
 | [addPageField(string[])](#addPageField-stringarray-)| Adds a page field. |
 | [addIdentify(number, number[])](#addIdentify-number-numberarray-)| Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -40,9 +46,18 @@ constructor();
 ```
 
 
+### pageFieldCount {#pageFieldCount--}
+
+Readonly. Gets the number of page fields.
+
+```javascript
+pageFieldCount : number;
+```
+
+
 ### getPageFieldCount() {#getPageFieldCount--}
 
-Gets the number of page fields.
+<b>@deprecated.</b> Please use the 'pageFieldCount' property instead. Gets the number of page fields.
 
 ```javascript
 getPageFieldCount() : number;

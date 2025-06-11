@@ -17,19 +17,27 @@ class PageStartSavingArgs extends PageSavingArgs;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(PageSavingArgs)](#constructor-pagesavingargs-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isToOutput](#isToOutput--)| boolean | Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [pageIndex](#pageIndex--)| number | Readonly. Current page index, zero based. |
+| [pageCount](#pageCount--)| number | Readonly. Total page count. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isToOutput()](#isToOutput--)| Gets or sets a value indicating whether the page should be output. The default value is true. |
-| [setIsToOutput(boolean)](#setIsToOutput-boolean-)| Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [isToOutput()](#isToOutput--)| <b>@deprecated.</b> Please use the 'isToOutput' property instead. Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [setIsToOutput(boolean)](#setIsToOutput-boolean-)| <b>@deprecated.</b> Please use the 'isToOutput' property instead. Gets or sets a value indicating whether the page should be output. The default value is true. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getPageIndex()](#getPageIndex--)| Current page index, zero based. |
-| [getPageCount()](#getPageCount--)| Total page count. |
+| [getPageIndex()](#getPageIndex--)| <b>@deprecated.</b> Please use the 'pageIndex' property instead. Current page index, zero based. |
+| [getPageCount()](#getPageCount--)| <b>@deprecated.</b> Please use the 'pageCount' property instead. Total page count. |
 
 
 ### constructor(PageSavingArgs) {#constructor-pagesavingargs-}
@@ -45,9 +53,36 @@ constructor(obj: PageSavingArgs);
 | --- | --- | --- |
 | obj | PageSavingArgs | The parent object. |
 
-### isToOutput() {#isToOutput--}
+### isToOutput {#isToOutput--}
 
 Gets or sets a value indicating whether the page should be output. The default value is true.
+
+```javascript
+isToOutput : boolean;
+```
+
+
+### pageIndex {#pageIndex--}
+
+Readonly. Current page index, zero based.
+
+```javascript
+pageIndex : number;
+```
+
+
+### pageCount {#pageCount--}
+
+Readonly. Total page count.
+
+```javascript
+pageCount : number;
+```
+
+
+### isToOutput() {#isToOutput--}
+
+<b>@deprecated.</b> Please use the 'isToOutput' property instead. Gets or sets a value indicating whether the page should be output. The default value is true.
 
 ```javascript
 isToOutput() : boolean;
@@ -56,7 +91,7 @@ isToOutput() : boolean;
 
 ### setIsToOutput(boolean) {#setIsToOutput-boolean-}
 
-Gets or sets a value indicating whether the page should be output. The default value is true.
+<b>@deprecated.</b> Please use the 'isToOutput' property instead. Gets or sets a value indicating whether the page should be output. The default value is true.
 
 ```javascript
 setIsToOutput(value: boolean) : void;
@@ -78,7 +113,7 @@ isNull() : boolean;
 
 ### getPageIndex() {#getPageIndex--}
 
-Current page index, zero based.
+<b>@deprecated.</b> Please use the 'pageIndex' property instead. Current page index, zero based.
 
 ```javascript
 getPageIndex() : number;
@@ -87,7 +122,7 @@ getPageIndex() : number;
 
 ### getPageCount() {#getPageCount--}
 
-Total page count.
+<b>@deprecated.</b> Please use the 'pageCount' property instead. Total page count.
 
 ```javascript
 getPageCount() : number;

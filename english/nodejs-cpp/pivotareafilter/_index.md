@@ -17,16 +17,22 @@ class PivotAreaFilter;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [selected](#selected--)| boolean | Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSelected()](#getSelected--)| Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
-| [setSelected(boolean)](#setSelected-boolean-)| Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
+| [getSelected()](#getSelected--)| <b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
+| [setSelected(boolean)](#setSelected-boolean-)| <b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 | [isSubtotalSet(PivotFieldSubtotalType)](#isSubtotalSet-pivotfieldsubtotaltype-)| Gets which subtotal is set for this filter. |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Subtotal for the filter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -41,9 +47,18 @@ constructor();
 ```
 
 
-### getSelected() {#getSelected--}
+### selected {#selected--}
 
 Indicates whether this field has selection. Only works when the PivotTable is in Outline view.
+
+```javascript
+selected : boolean;
+```
+
+
+### getSelected() {#getSelected--}
+
+<b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view.
 
 ```javascript
 getSelected() : boolean;
@@ -52,7 +67,7 @@ getSelected() : boolean;
 
 ### setSelected(boolean) {#setSelected-boolean-}
 
-Indicates whether this field has selection. Only works when the PivotTable is in Outline view.
+<b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view.
 
 ```javascript
 setSelected(value: boolean) : void;

@@ -22,14 +22,20 @@ const { Workbook } = require("aspose.cells.node");
 //Open a file with external links
 var workbook = new Workbook("input/Externlink.xls");
 //Change external link data source
-workbook.getWorksheets().getExternalLinks().get(0).setDataSource("input/Book1.xls");
+workbook.worksheets.externalLinks.get(0).dataSource = "input/Book1.xls";
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the number of elements actually contained in the collection. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [ExternalLink](../externallink/) element at the specified index. |
-| [getCount()](#getCount--)| Gets the number of elements actually contained in the collection. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements actually contained in the collection. |
 | [add(string, string[])](#add-string-stringarray-)| Adds an external link. |
 | [add(DirectoryType, string, string[])](#add-directorytype-string-stringarray-)| Add an external link . |
 | [clear()](#clear--)| Removes all external links. |
@@ -38,6 +44,15 @@ workbook.getWorksheets().getExternalLinks().get(0).setDataSource("input/Book1.xl
 | [removeAt(number, boolean)](#removeAt-number-boolean-)| Removes the specified external link from the workbook. |
 | [getEnumerator()](#getEnumerator--)| Get an enumerator that iterates through this collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the number of elements actually contained in the collection.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -59,7 +74,7 @@ The element at the specified index.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements actually contained in the collection.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements actually contained in the collection.
 
 ```javascript
 getCount() : number;

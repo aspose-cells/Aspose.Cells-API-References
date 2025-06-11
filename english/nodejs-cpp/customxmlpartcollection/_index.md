@@ -22,7 +22,7 @@ class CustomXmlPartCollection;
 | [get(number)](#get-number-)| Gets an item at the specified index. |
 | [add(Uint8Array, Uint8Array)](#add-uint8array-uint8array-)| Adds an item to the collection. |
 | [selectByID(string)](#selectByID-string-)| Gets an item by id. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -76,7 +76,7 @@ selectByID(id: string) : CustomXmlPart;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

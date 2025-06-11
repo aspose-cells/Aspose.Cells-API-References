@@ -24,7 +24,7 @@ class VbaProjectReferenceCollection;
 | [addControlRefrernce(string, string, string, string)](#addControlRefrernce-string-string-string-string-)| Add a reference to a twiddled type library and its extended type library. |
 | [addProjectRefrernce(string, string, string)](#addProjectRefrernce-string-string-string-)| Adds a reference to an external VBA project. |
 | [copy(VbaProjectReferenceCollection)](#copy-vbaprojectreferencecollection-)| Copies references from other VBA project. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -105,7 +105,7 @@ copy(source: VbaProjectReferenceCollection) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

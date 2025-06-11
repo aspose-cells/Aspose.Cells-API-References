@@ -15,22 +15,57 @@ class CustomXmlPart;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [data](#data--)| Uint8Array | Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [schemaData](#schemaData--)| Uint8Array | Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [iD](#iD--)| string | Gets and sets the id of the custom xml part. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getData()](#getData--)| Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [setData(Uint8Array)](#setData-uint8array-)| Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [getSchemaData()](#getSchemaData--)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
-| [setSchemaData(Uint8Array)](#setSchemaData-uint8array-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
-| [getID()](#getID--)| Gets and sets the id of the custom xml part. |
-| [setID(string)](#setID-string-)| Gets and sets the id of the custom xml part. |
+| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [setData(Uint8Array)](#setData-uint8array-)| <b>@deprecated.</b> Please use the 'data' property instead. Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [getSchemaData()](#getSchemaData--)| <b>@deprecated.</b> Please use the 'schemaData' property instead. Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [setSchemaData(Uint8Array)](#setSchemaData-uint8array-)| <b>@deprecated.</b> Please use the 'schemaData' property instead. Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [getID()](#getID--)| <b>@deprecated.</b> Please use the 'iD' property instead. Gets and sets the id of the custom xml part. |
+| [setID(string)](#setID-string-)| <b>@deprecated.</b> Please use the 'iD' property instead. Gets and sets the id of the custom xml part. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### data {#data--}
+
+Gets or sets the XML content of this Custom XML Data Storage Part.
+
+```javascript
+data : Uint8Array;
+```
+
+
+### schemaData {#schemaData--}
+
+Gets or sets the XML content of this Custom XML Schema Data Storage Part.
+
+```javascript
+schemaData : Uint8Array;
+```
+
+
+### iD {#iD--}
+
+Gets and sets the id of the custom xml part.
+
+```javascript
+iD : string;
+```
 
 
 ### getData() {#getData--}
 
-Gets or sets the XML content of this Custom XML Data Storage Part.
+<b>@deprecated.</b> Please use the 'data' property instead. Gets or sets the XML content of this Custom XML Data Storage Part.
 
 ```javascript
 getData() : Uint8Array;
@@ -39,7 +74,7 @@ getData() : Uint8Array;
 
 ### setData(Uint8Array) {#setData-uint8array-}
 
-Gets or sets the XML content of this Custom XML Data Storage Part.
+<b>@deprecated.</b> Please use the 'data' property instead. Gets or sets the XML content of this Custom XML Data Storage Part.
 
 ```javascript
 setData(value: Uint8Array) : void;
@@ -52,7 +87,7 @@ setData(value: Uint8Array) : void;
 
 ### getSchemaData() {#getSchemaData--}
 
-Gets or sets the XML content of this Custom XML Schema Data Storage Part.
+<b>@deprecated.</b> Please use the 'schemaData' property instead. Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 
 ```javascript
 getSchemaData() : Uint8Array;
@@ -61,7 +96,7 @@ getSchemaData() : Uint8Array;
 
 ### setSchemaData(Uint8Array) {#setSchemaData-uint8array-}
 
-Gets or sets the XML content of this Custom XML Schema Data Storage Part.
+<b>@deprecated.</b> Please use the 'schemaData' property instead. Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 
 ```javascript
 setSchemaData(value: Uint8Array) : void;
@@ -74,7 +109,7 @@ setSchemaData(value: Uint8Array) : void;
 
 ### getID() {#getID--}
 
-Gets and sets the id of the custom xml part.
+<b>@deprecated.</b> Please use the 'iD' property instead. Gets and sets the id of the custom xml part.
 
 ```javascript
 getID() : string;
@@ -83,7 +118,7 @@ getID() : string;
 
 ### setID(string) {#setID-string-}
 
-Gets and sets the id of the custom xml part.
+<b>@deprecated.</b> Please use the 'iD' property instead. Gets and sets the id of the custom xml part.
 
 ```javascript
 setID(value: string) : void;

@@ -15,20 +15,45 @@ class PivotFieldCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| PivotFieldType | Readonly. Gets the PivotFields type. |
+| [count](#count--)| number | Readonly. Gets the count of the pivotFields. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotField Object at the specific index. |
 | [get(string)](#get-string-)| Gets the PivotField Object of the specific name. |
-| [getType()](#getType--)| Gets the PivotFields type. |
-| [getCount()](#getCount--)| Gets the count of the pivotFields. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the PivotFields type. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the pivotFields. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
 | [addByBaseIndex(number)](#addByBaseIndex-number-)| Adds a PivotField Object to the specific type PivotFields. |
 | [add(PivotField)](#add-pivotfield-)| Adds a PivotField Object to the specific type PivotFields. |
 | [clear()](#clear--)| clear all fields of PivotFieldCollection |
 | [move(number, number)](#move-number-number-)| Moves the PivotField from current position to destination position |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### type {#type--}
+
+Readonly. Gets the PivotFields type.
+
+```javascript
+type : PivotFieldType;
+```
+
+
+### count {#count--}
+
+Readonly. Gets the count of the pivotFields.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -67,7 +92,7 @@ get(name: string) : PivotField;
 
 ### getType() {#getType--}
 
-Gets the PivotFields type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the PivotFields type.
 
 ```javascript
 getType() : PivotFieldType;
@@ -80,7 +105,7 @@ getType() : PivotFieldType;
 
 ### getCount() {#getCount--}
 
-Gets the count of the pivotFields.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the pivotFields.
 
 ```javascript
 getCount() : number;

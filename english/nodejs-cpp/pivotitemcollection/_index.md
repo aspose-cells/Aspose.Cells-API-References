@@ -15,16 +15,31 @@ class PivotItemCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the count of the pivot items. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotItem Object at the specific index. |
 | [get(string)](#get-string-)| Gets the [PivotItem](../pivotitem/) by the specific name. |
-| [getCount()](#getCount--)| Gets the count of the pivot items. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the pivot items. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
 | [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the count of the pivot items.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -63,7 +78,7 @@ get(itemValue: string) : PivotItem;
 
 ### getCount() {#getCount--}
 
-Gets the count of the pivot items.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the pivot items.
 
 ```javascript
 getCount() : number;

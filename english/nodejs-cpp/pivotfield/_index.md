@@ -15,81 +15,127 @@ class PivotField;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pivotItems](#pivotItems--)| PivotItemCollection | Readonly. Gets the pivot items of the pivot field |
+| [groupSettings](#groupSettings--)| PivotFieldGroupSettings | Readonly. Gets the group settings of the pivot field. |
+| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the specified PivotTable field is calculated field. |
+| [isValueFields](#isValueFields--)| boolean | Readonly. Indicates whether this field represents values fields. |
+| [baseIndex](#baseIndex--)| number | Represents the PivotField index in the base PivotFields. |
+| [position](#position--)| number | Readonly. Represents the index of [PivotField](../pivotfield/) in the region. |
+| [regionType](#regionType--)| PivotFieldType | Readonly. Specifies the region of the PivotTable that this field is displayed. |
+| [name](#name--)| string | Represents the name of PivotField. |
+| [displayName](#displayName--)| string | Represents the PivotField display name. |
+| [isAutoSubtotals](#isAutoSubtotals--)| boolean | Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [dragToColumn](#dragToColumn--)| boolean | Indicates whether the specified field can be dragged to the column position. The default value is true. |
+| [dragToHide](#dragToHide--)| boolean | Indicates whether the specified field can be dragged to the hide position. The default value is true. |
+| [dragToRow](#dragToRow--)| boolean | Indicates whether the specified field can be dragged to the row position. The default value is true. |
+| [dragToPage](#dragToPage--)| boolean | Indicates whether the specified field can be dragged to the page position. The default value is true. |
+| [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the data position. The default value is true. |
+| [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether repeating labels of the field in the region. The default value is false. |
+| [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether including new items to the field in manual filter. The default value is false. |
+| [isInsertPageBreaksBetweenItems](#isInsertPageBreaksBetweenItems--)| boolean | Indicates whether inserting page breaks after each item. The default value is false. |
+| [showAllItems](#showAllItems--)| boolean | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
+| [nonAutoSortDefault](#nonAutoSortDefault--)| boolean | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [isAutoSort](#isAutoSort--)| boolean | Indicates whether the specified PivotTable field is automatically sorted. |
+| [isAscendSort](#isAscendSort--)| boolean | Indicates whether the specified PivotTable field is autosorted ascending. |
+| [sortSetting](#sortSetting--)| PivotFieldSortSetting | Readonly. Gets all settings of auto sorting |
+| [autoSortField](#autoSortField--)| number | Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [isAutoShow](#isAutoShow--)| boolean | Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [isAscendShow](#isAscendShow--)| boolean | Indicates whether the specified PivotTable field is autoshown ascending. |
+| [autoShowCount](#autoShowCount--)| number | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [autoShowField](#autoShowField--)| number | Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [function](#function--)| ConsolidationFunction | Represents the function used to summarize the PivotTable data field. |
+| [showValuesSetting](#showValuesSetting--)| PivotShowValuesSetting | Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [currentPageItem](#currentPageItem--)| number | Represents the current page item showing for the page field (valid only for page fields). |
+| [number](#number--)| number | Represents the built-in display format of numbers and dates. |
+| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether inserting blank line after each item. |
+| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [showInOutlineForm](#showInOutlineForm--)| boolean | Indicates whether layout this field in outline form on the Pivot Table view |
+| [numberFormat](#numberFormat--)| string | Represents the custom display format of numbers and dates. |
+| [items](#items--)| string[] | Readonly. Get all labels of pivot items in this field. |
+| [originalItems](#originalItems--)| string[] | Readonly. Get the original base items; |
+| [itemCount](#itemCount--)| number | Readonly. Gets the count of the base items in this pivot field. |
+| [showCompact](#showCompact--)| boolean | Indicates whether display labels from the next field in the same column on the Pivot Table view |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPivotItems()](#getPivotItems--)| Gets the pivot items of the pivot field |
-| [getGroupSettings()](#getGroupSettings--)| Gets the group settings of the pivot field. |
-| [isCalculatedField()](#isCalculatedField--)| Indicates whether the specified PivotTable field is calculated field. |
-| [isValueFields()](#isValueFields--)| Indicates whether this field represents values fields. |
-| [getBaseIndex()](#getBaseIndex--)| Represents the PivotField index in the base PivotFields. |
-| [setBaseIndex(number)](#setBaseIndex-number-)| Represents the PivotField index in the base PivotFields. |
-| [getPosition()](#getPosition--)| Represents the index of [PivotField](../pivotfield/) in the region. |
-| [getRegionType()](#getRegionType--)| Specifies the region of the PivotTable that this field is displayed. |
-| [getName()](#getName--)| Represents the name of PivotField. |
-| [setName(string)](#setName-string-)| Represents the name of PivotField. |
-| [getDisplayName()](#getDisplayName--)| Represents the PivotField display name. |
-| [setDisplayName(string)](#setDisplayName-string-)| Represents the PivotField display name. |
-| [isAutoSubtotals()](#isAutoSubtotals--)| Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [setIsAutoSubtotals(boolean)](#setIsAutoSubtotals-boolean-)| Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [getDragToColumn()](#getDragToColumn--)| Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [setDragToColumn(boolean)](#setDragToColumn-boolean-)| Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [getDragToHide()](#getDragToHide--)| Indicates whether the specified field can be dragged to the hide position. The default value is true. |
-| [setDragToHide(boolean)](#setDragToHide-boolean-)| Indicates whether the specified field can be dragged to the hide position. The default value is true. |
-| [getDragToRow()](#getDragToRow--)| Indicates whether the specified field can be dragged to the row position. The default value is true. |
-| [setDragToRow(boolean)](#setDragToRow-boolean-)| Indicates whether the specified field can be dragged to the row position. The default value is true. |
-| [getDragToPage()](#getDragToPage--)| Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [setDragToPage(boolean)](#setDragToPage-boolean-)| Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [getDragToData()](#getDragToData--)| Indicates whether the specified field can be dragged to the data position. The default value is true. |
-| [setDragToData(boolean)](#setDragToData-boolean-)| Indicates whether the specified field can be dragged to the data position. The default value is true. |
-| [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--)| indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [setIsMultipleItemSelectionAllowed(boolean)](#setIsMultipleItemSelectionAllowed-boolean-)| indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [isRepeatItemLabels()](#isRepeatItemLabels--)| Indicates whether repeating labels of the field in the region. The default value is false. |
-| [setIsRepeatItemLabels(boolean)](#setIsRepeatItemLabels-boolean-)| Indicates whether repeating labels of the field in the region. The default value is false. |
-| [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--)| Indicates whether including new items to the field in manual filter. The default value is false. |
-| [setIsIncludeNewItemsInFilter(boolean)](#setIsIncludeNewItemsInFilter-boolean-)| Indicates whether including new items to the field in manual filter. The default value is false. |
-| [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--)| Indicates whether inserting page breaks after each item. The default value is false. |
-| [setIsInsertPageBreaksBetweenItems(boolean)](#setIsInsertPageBreaksBetweenItems-boolean-)| Indicates whether inserting page breaks after each item. The default value is false. |
-| [getShowAllItems()](#getShowAllItems--)| Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
-| [setShowAllItems(boolean)](#setShowAllItems-boolean-)| Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
-| [getNonAutoSortDefault()](#getNonAutoSortDefault--)| Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
-| [setNonAutoSortDefault(boolean)](#setNonAutoSortDefault-boolean-)| Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
-| [isAutoSort()](#isAutoSort--)| Indicates whether the specified PivotTable field is automatically sorted. |
-| [setIsAutoSort(boolean)](#setIsAutoSort-boolean-)| Indicates whether the specified PivotTable field is automatically sorted. |
-| [isAscendSort()](#isAscendSort--)| Indicates whether the specified PivotTable field is autosorted ascending. |
-| [setIsAscendSort(boolean)](#setIsAscendSort-boolean-)| Indicates whether the specified PivotTable field is autosorted ascending. |
-| [getSortSetting()](#getSortSetting--)| Gets all settings of auto sorting |
-| [getAutoSortField()](#getAutoSortField--)| Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
-| [setAutoSortField(number)](#setAutoSortField-number-)| Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
-| [isAutoShow()](#isAutoShow--)| Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
-| [setIsAutoShow(boolean)](#setIsAutoShow-boolean-)| Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
-| [isAscendShow()](#isAscendShow--)| Indicates whether the specified PivotTable field is autoshown ascending. |
-| [setIsAscendShow(boolean)](#setIsAscendShow-boolean-)| Indicates whether the specified PivotTable field is autoshown ascending. |
-| [getAutoShowCount()](#getAutoShowCount--)| Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
-| [setAutoShowCount(number)](#setAutoShowCount-number-)| Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
-| [getAutoShowField()](#getAutoShowField--)| Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
-| [setAutoShowField(number)](#setAutoShowField-number-)| Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
-| [getFunction()](#getFunction--)| Represents the function used to summarize the PivotTable data field. |
-| [setFunction(ConsolidationFunction)](#setFunction-consolidationfunction-)| Represents the function used to summarize the PivotTable data field. |
-| [getShowValuesSetting()](#getShowValuesSetting--)| Gets the settings of showing values as when the ShowDataAs calculation is in use. |
-| [getCurrentPageItem()](#getCurrentPageItem--)| Represents the current page item showing for the page field (valid only for page fields). |
-| [setCurrentPageItem(number)](#setCurrentPageItem-number-)| Represents the current page item showing for the page field (valid only for page fields). |
-| [getNumber()](#getNumber--)| Represents the built-in display format of numbers and dates. |
-| [setNumber(number)](#setNumber-number-)| Represents the built-in display format of numbers and dates. |
-| [getInsertBlankRow()](#getInsertBlankRow--)| Indicates whether inserting blank line after each item. |
-| [setInsertBlankRow(boolean)](#setInsertBlankRow-boolean-)| Indicates whether inserting blank line after each item. |
-| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--)| when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [setShowSubtotalAtTop(boolean)](#setShowSubtotalAtTop-boolean-)| when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [getShowInOutlineForm()](#getShowInOutlineForm--)| Indicates whether layout this field in outline form on the Pivot Table view |
-| [setShowInOutlineForm(boolean)](#setShowInOutlineForm-boolean-)| Indicates whether layout this field in outline form on the Pivot Table view |
-| [get_NumberFormat()](#get_NumberFormat--)| Represents the custom display format of numbers and dates. |
-| [setNumberFormat(string)](#setNumberFormat-string-)| Represents the custom display format of numbers and dates. |
-| [getItems()](#getItems--)| Get all labels of pivot items in this field. |
-| [getOriginalItems()](#getOriginalItems--)| Get the original base items; |
-| [getItemCount()](#getItemCount--)| Gets the count of the base items in this pivot field. |
-| [getShowCompact()](#getShowCompact--)| Indicates whether display labels from the next field in the same column on the Pivot Table view |
-| [setShowCompact(boolean)](#setShowCompact-boolean-)| Indicates whether display labels from the next field in the same column on the Pivot Table view |
+| [getPivotItems()](#getPivotItems--)| <b>@deprecated.</b> Please use the 'pivotItems' property instead. Gets the pivot items of the pivot field |
+| [getGroupSettings()](#getGroupSettings--)| <b>@deprecated.</b> Please use the 'groupSettings' property instead. Gets the group settings of the pivot field. |
+| [isCalculatedField()](#isCalculatedField--)| <b>@deprecated.</b> Please use the 'isCalculatedField' property instead. Indicates whether the specified PivotTable field is calculated field. |
+| [isValueFields()](#isValueFields--)| <b>@deprecated.</b> Please use the 'isValueFields' property instead. Indicates whether this field represents values fields. |
+| [getBaseIndex()](#getBaseIndex--)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the PivotField index in the base PivotFields. |
+| [setBaseIndex(number)](#setBaseIndex-number-)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the PivotField index in the base PivotFields. |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the index of [PivotField](../pivotfield/) in the region. |
+| [getRegionType()](#getRegionType--)| <b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the PivotTable that this field is displayed. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
+| [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the PivotField display name. |
+| [setDisplayName(string)](#setDisplayName-string-)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the PivotField display name. |
+| [isAutoSubtotals()](#isAutoSubtotals--)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [setIsAutoSubtotals(boolean)](#setIsAutoSubtotals-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [getDragToColumn()](#getDragToColumn--)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true. |
+| [setDragToColumn(boolean)](#setDragToColumn-boolean-)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true. |
+| [getDragToHide()](#getDragToHide--)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide position. The default value is true. |
+| [setDragToHide(boolean)](#setDragToHide-boolean-)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide position. The default value is true. |
+| [getDragToRow()](#getDragToRow--)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row position. The default value is true. |
+| [setDragToRow(boolean)](#setDragToRow-boolean-)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row position. The default value is true. |
+| [getDragToPage()](#getDragToPage--)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true. |
+| [setDragToPage(boolean)](#setDragToPage-boolean-)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true. |
+| [getDragToData()](#getDragToData--)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the data position. The default value is true. |
+| [setDragToData(boolean)](#setDragToData-boolean-)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the data position. The default value is true. |
+| [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [setIsMultipleItemSelectionAllowed(boolean)](#setIsMultipleItemSelectionAllowed-boolean-)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [isRepeatItemLabels()](#isRepeatItemLabels--)| <b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether repeating labels of the field in the region. The default value is false. |
+| [setIsRepeatItemLabels(boolean)](#setIsRepeatItemLabels-boolean-)| <b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether repeating labels of the field in the region. The default value is false. |
+| [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--)| <b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether including new items to the field in manual filter. The default value is false. |
+| [setIsIncludeNewItemsInFilter(boolean)](#setIsIncludeNewItemsInFilter-boolean-)| <b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether including new items to the field in manual filter. The default value is false. |
+| [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--)| <b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether inserting page breaks after each item. The default value is false. |
+| [setIsInsertPageBreaksBetweenItems(boolean)](#setIsInsertPageBreaksBetweenItems-boolean-)| <b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether inserting page breaks after each item. The default value is false. |
+| [getShowAllItems()](#getShowAllItems--)| <b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
+| [setShowAllItems(boolean)](#setShowAllItems-boolean-)| <b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
+| [getNonAutoSortDefault()](#getNonAutoSortDefault--)| <b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [setNonAutoSortDefault(boolean)](#setNonAutoSortDefault-boolean-)| <b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [isAutoSort()](#isAutoSort--)| <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the specified PivotTable field is automatically sorted. |
+| [setIsAutoSort(boolean)](#setIsAutoSort-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the specified PivotTable field is automatically sorted. |
+| [isAscendSort()](#isAscendSort--)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the specified PivotTable field is autosorted ascending. |
+| [setIsAscendSort(boolean)](#setIsAscendSort-boolean-)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the specified PivotTable field is autosorted ascending. |
+| [getSortSetting()](#getSortSetting--)| <b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting |
+| [getAutoSortField()](#getAutoSortField--)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [setAutoSortField(number)](#setAutoSortField-number-)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [isAutoShow()](#isAutoShow--)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [setIsAutoShow(boolean)](#setIsAutoShow-boolean-)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [isAscendShow()](#isAscendShow--)| <b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending. |
+| [setIsAscendShow(boolean)](#setIsAscendShow-boolean-)| <b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending. |
+| [getAutoShowCount()](#getAutoShowCount--)| <b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [setAutoShowCount(number)](#setAutoShowCount-number-)| <b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [getAutoShowField()](#getAutoShowField--)| <b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [setAutoShowField(number)](#setAutoShowField-number-)| <b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [getFunction()](#getFunction--)| <b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize the PivotTable data field. |
+| [setFunction(ConsolidationFunction)](#setFunction-consolidationfunction-)| <b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize the PivotTable data field. |
+| [getShowValuesSetting()](#getShowValuesSetting--)| <b>@deprecated.</b> Please use the 'showValuesSetting' property instead. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [getCurrentPageItem()](#getCurrentPageItem--)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current page item showing for the page field (valid only for page fields). |
+| [setCurrentPageItem(number)](#setCurrentPageItem-number-)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current page item showing for the page field (valid only for page fields). |
+| [getNumber()](#getNumber--)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates. |
+| [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates. |
+| [getInsertBlankRow()](#getInsertBlankRow--)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether inserting blank line after each item. |
+| [setInsertBlankRow(boolean)](#setInsertBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether inserting blank line after each item. |
+| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [setShowSubtotalAtTop(boolean)](#setShowSubtotalAtTop-boolean-)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [getShowInOutlineForm()](#getShowInOutlineForm--)| <b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Indicates whether layout this field in outline form on the Pivot Table view |
+| [setShowInOutlineForm(boolean)](#setShowInOutlineForm-boolean-)| <b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Indicates whether layout this field in outline form on the Pivot Table view |
+| [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates. |
+| [setNumberFormat(string)](#setNumberFormat-string-)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates. |
+| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Get all labels of pivot items in this field. |
+| [getOriginalItems()](#getOriginalItems--)| <b>@deprecated.</b> Please use the 'originalItems' property instead. Get the original base items; |
+| [getItemCount()](#getItemCount--)| <b>@deprecated.</b> Please use the 'itemCount' property instead. Gets the count of the base items in this pivot field. |
+| [getShowCompact()](#getShowCompact--)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether display labels from the next field in the same column on the Pivot Table view |
+| [setShowCompact(boolean)](#setShowCompact-boolean-)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
 | [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with internal |
 | [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
@@ -119,9 +165,386 @@ class PivotField;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### pivotItems {#pivotItems--}
+
+Readonly. Gets the pivot items of the pivot field
+
+```javascript
+pivotItems : PivotItemCollection;
+```
+
+
+### groupSettings {#groupSettings--}
+
+Readonly. Gets the group settings of the pivot field.
+
+```javascript
+groupSettings : PivotFieldGroupSettings;
+```
+
+
+**Remarks**
+
+If this field is not grouped, Null will be returned.
+
+### isCalculatedField {#isCalculatedField--}
+
+Readonly. Indicates whether the specified PivotTable field is calculated field.
+
+```javascript
+isCalculatedField : boolean;
+```
+
+
+### isValueFields {#isValueFields--}
+
+Readonly. Indicates whether this field represents values fields.
+
+```javascript
+isValueFields : boolean;
+```
+
+
+### baseIndex {#baseIndex--}
+
+Represents the PivotField index in the base PivotFields.
+
+```javascript
+baseIndex : number;
+```
+
+
+### position {#position--}
+
+Readonly. Represents the index of [PivotField](../pivotfield/) in the region.
+
+```javascript
+position : number;
+```
+
+
+### regionType {#regionType--}
+
+Readonly. Specifies the region of the PivotTable that this field is displayed.
+
+```javascript
+regionType : PivotFieldType;
+```
+
+
+### name {#name--}
+
+Represents the name of PivotField.
+
+```javascript
+name : string;
+```
+
+
+### displayName {#displayName--}
+
+Represents the PivotField display name.
+
+```javascript
+displayName : string;
+```
+
+
+### isAutoSubtotals {#isAutoSubtotals--}
+
+Indicates whether the specified field shows automatic subtotals. Default is true.
+
+```javascript
+isAutoSubtotals : boolean;
+```
+
+
+### dragToColumn {#dragToColumn--}
+
+Indicates whether the specified field can be dragged to the column position. The default value is true.
+
+```javascript
+dragToColumn : boolean;
+```
+
+
+### dragToHide {#dragToHide--}
+
+Indicates whether the specified field can be dragged to the hide position. The default value is true.
+
+```javascript
+dragToHide : boolean;
+```
+
+
+### dragToRow {#dragToRow--}
+
+Indicates whether the specified field can be dragged to the row position. The default value is true.
+
+```javascript
+dragToRow : boolean;
+```
+
+
+### dragToPage {#dragToPage--}
+
+Indicates whether the specified field can be dragged to the page position. The default value is true.
+
+```javascript
+dragToPage : boolean;
+```
+
+
+### dragToData {#dragToData--}
+
+Indicates whether the specified field can be dragged to the data position. The default value is true.
+
+```javascript
+dragToData : boolean;
+```
+
+
+### isMultipleItemSelectionAllowed {#isMultipleItemSelectionAllowed--}
+
+indicates whether the field can have multiple items selected in the page field The default value is false.
+
+```javascript
+isMultipleItemSelectionAllowed : boolean;
+```
+
+
+### isRepeatItemLabels {#isRepeatItemLabels--}
+
+Indicates whether repeating labels of the field in the region. The default value is false.
+
+```javascript
+isRepeatItemLabels : boolean;
+```
+
+
+### isIncludeNewItemsInFilter {#isIncludeNewItemsInFilter--}
+
+Indicates whether including new items to the field in manual filter. The default value is false.
+
+```javascript
+isIncludeNewItemsInFilter : boolean;
+```
+
+
+### isInsertPageBreaksBetweenItems {#isInsertPageBreaksBetweenItems--}
+
+Indicates whether inserting page breaks after each item. The default value is false.
+
+```javascript
+isInsertPageBreaksBetweenItems : boolean;
+```
+
+
+### showAllItems {#showAllItems--}
+
+Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+
+```javascript
+showAllItems : boolean;
+```
+
+
+### nonAutoSortDefault {#nonAutoSortDefault--}
+
+Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+
+```javascript
+nonAutoSortDefault : boolean;
+```
+
+
+### isAutoSort {#isAutoSort--}
+
+Indicates whether the specified PivotTable field is automatically sorted.
+
+```javascript
+isAutoSort : boolean;
+```
+
+
+### isAscendSort {#isAscendSort--}
+
+Indicates whether the specified PivotTable field is autosorted ascending.
+
+```javascript
+isAscendSort : boolean;
+```
+
+
+### sortSetting {#sortSetting--}
+
+Readonly. Gets all settings of auto sorting
+
+```javascript
+sortSetting : PivotFieldSortSetting;
+```
+
+
+### autoSortField {#autoSortField--}
+
+Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+
+```javascript
+autoSortField : number;
+```
+
+
+### isAutoShow {#isAutoShow--}
+
+Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+
+```javascript
+isAutoShow : boolean;
+```
+
+
+### isAscendShow {#isAscendShow--}
+
+Indicates whether the specified PivotTable field is autoshown ascending.
+
+```javascript
+isAscendShow : boolean;
+```
+
+
+### autoShowCount {#autoShowCount--}
+
+Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+
+```javascript
+autoShowCount : number;
+```
+
+
+### autoShowField {#autoShowField--}
+
+Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+
+```javascript
+autoShowField : number;
+```
+
+
+### function {#function--}
+
+Represents the function used to summarize the PivotTable data field.
+
+```javascript
+function : ConsolidationFunction;
+```
+
+
+### showValuesSetting {#showValuesSetting--}
+
+Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use.
+
+```javascript
+showValuesSetting : PivotShowValuesSetting;
+```
+
+
+### currentPageItem {#currentPageItem--}
+
+Represents the current page item showing for the page field (valid only for page fields).
+
+```javascript
+currentPageItem : number;
+```
+
+
+### number {#number--}
+
+Represents the built-in display format of numbers and dates.
+
+```javascript
+number : number;
+```
+
+
+### insertBlankRow {#insertBlankRow--}
+
+Indicates whether inserting blank line after each item.
+
+```javascript
+insertBlankRow : boolean;
+```
+
+
+### showSubtotalAtTop {#showSubtotalAtTop--}
+
+when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+
+```javascript
+showSubtotalAtTop : boolean;
+```
+
+
+**Remarks**
+
+Only works when ShowInOutlineForm is true.
+
+### showInOutlineForm {#showInOutlineForm--}
+
+Indicates whether layout this field in outline form on the Pivot Table view
+
+```javascript
+showInOutlineForm : boolean;
+```
+
+
+### numberFormat {#numberFormat--}
+
+Represents the custom display format of numbers and dates.
+
+```javascript
+numberFormat : string;
+```
+
+
+### items {#items--}
+
+Readonly. Get all labels of pivot items in this field.
+
+```javascript
+items : string[];
+```
+
+
+### originalItems {#originalItems--}
+
+Readonly. Get the original base items;
+
+```javascript
+originalItems : string[];
+```
+
+
+### itemCount {#itemCount--}
+
+Readonly. Gets the count of the base items in this pivot field.
+
+```javascript
+itemCount : number;
+```
+
+
+### showCompact {#showCompact--}
+
+Indicates whether display labels from the next field in the same column on the Pivot Table view
+
+```javascript
+showCompact : boolean;
+```
+
+
 ### getPivotItems() {#getPivotItems--}
 
-Gets the pivot items of the pivot field
+<b>@deprecated.</b> Please use the 'pivotItems' property instead. Gets the pivot items of the pivot field
 
 ```javascript
 getPivotItems() : PivotItemCollection;
@@ -134,7 +557,7 @@ getPivotItems() : PivotItemCollection;
 
 ### getGroupSettings() {#getGroupSettings--}
 
-Gets the group settings of the pivot field.
+<b>@deprecated.</b> Please use the 'groupSettings' property instead. Gets the group settings of the pivot field.
 
 ```javascript
 getGroupSettings() : PivotFieldGroupSettings;
@@ -151,7 +574,7 @@ If this field is not grouped, Null will be returned.
 
 ### isCalculatedField() {#isCalculatedField--}
 
-Indicates whether the specified PivotTable field is calculated field.
+<b>@deprecated.</b> Please use the 'isCalculatedField' property instead. Indicates whether the specified PivotTable field is calculated field.
 
 ```javascript
 isCalculatedField() : boolean;
@@ -160,7 +583,7 @@ isCalculatedField() : boolean;
 
 ### isValueFields() {#isValueFields--}
 
-Indicates whether this field represents values fields.
+<b>@deprecated.</b> Please use the 'isValueFields' property instead. Indicates whether this field represents values fields.
 
 ```javascript
 isValueFields() : boolean;
@@ -169,7 +592,7 @@ isValueFields() : boolean;
 
 ### getBaseIndex() {#getBaseIndex--}
 
-Represents the PivotField index in the base PivotFields.
+<b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the PivotField index in the base PivotFields.
 
 ```javascript
 getBaseIndex() : number;
@@ -178,7 +601,7 @@ getBaseIndex() : number;
 
 ### setBaseIndex(number) {#setBaseIndex-number-}
 
-Represents the PivotField index in the base PivotFields.
+<b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the PivotField index in the base PivotFields.
 
 ```javascript
 setBaseIndex(value: number) : void;
@@ -191,7 +614,7 @@ setBaseIndex(value: number) : void;
 
 ### getPosition() {#getPosition--}
 
-Represents the index of [PivotField](../pivotfield/) in the region.
+<b>@deprecated.</b> Please use the 'position' property instead. Represents the index of [PivotField](../pivotfield/) in the region.
 
 ```javascript
 getPosition() : number;
@@ -200,7 +623,7 @@ getPosition() : number;
 
 ### getRegionType() {#getRegionType--}
 
-Specifies the region of the PivotTable that this field is displayed.
+<b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the PivotTable that this field is displayed.
 
 ```javascript
 getRegionType() : PivotFieldType;
@@ -213,7 +636,7 @@ getRegionType() : PivotFieldType;
 
 ### getName() {#getName--}
 
-Represents the name of PivotField.
+<b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField.
 
 ```javascript
 getName() : string;
@@ -222,7 +645,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Represents the name of PivotField.
+<b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField.
 
 ```javascript
 setName(value: string) : void;
@@ -235,7 +658,7 @@ setName(value: string) : void;
 
 ### getDisplayName() {#getDisplayName--}
 
-Represents the PivotField display name.
+<b>@deprecated.</b> Please use the 'displayName' property instead. Represents the PivotField display name.
 
 ```javascript
 getDisplayName() : string;
@@ -244,7 +667,7 @@ getDisplayName() : string;
 
 ### setDisplayName(string) {#setDisplayName-string-}
 
-Represents the PivotField display name.
+<b>@deprecated.</b> Please use the 'displayName' property instead. Represents the PivotField display name.
 
 ```javascript
 setDisplayName(value: string) : void;
@@ -257,7 +680,7 @@ setDisplayName(value: string) : void;
 
 ### isAutoSubtotals() {#isAutoSubtotals--}
 
-Indicates whether the specified field shows automatic subtotals. Default is true.
+<b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true.
 
 ```javascript
 isAutoSubtotals() : boolean;
@@ -266,7 +689,7 @@ isAutoSubtotals() : boolean;
 
 ### setIsAutoSubtotals(boolean) {#setIsAutoSubtotals-boolean-}
 
-Indicates whether the specified field shows automatic subtotals. Default is true.
+<b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true.
 
 ```javascript
 setIsAutoSubtotals(value: boolean) : void;
@@ -279,7 +702,7 @@ setIsAutoSubtotals(value: boolean) : void;
 
 ### getDragToColumn() {#getDragToColumn--}
 
-Indicates whether the specified field can be dragged to the column position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true.
 
 ```javascript
 getDragToColumn() : boolean;
@@ -288,7 +711,7 @@ getDragToColumn() : boolean;
 
 ### setDragToColumn(boolean) {#setDragToColumn-boolean-}
 
-Indicates whether the specified field can be dragged to the column position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true.
 
 ```javascript
 setDragToColumn(value: boolean) : void;
@@ -301,7 +724,7 @@ setDragToColumn(value: boolean) : void;
 
 ### getDragToHide() {#getDragToHide--}
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide position. The default value is true.
 
 ```javascript
 getDragToHide() : boolean;
@@ -310,7 +733,7 @@ getDragToHide() : boolean;
 
 ### setDragToHide(boolean) {#setDragToHide-boolean-}
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide position. The default value is true.
 
 ```javascript
 setDragToHide(value: boolean) : void;
@@ -323,7 +746,7 @@ setDragToHide(value: boolean) : void;
 
 ### getDragToRow() {#getDragToRow--}
 
-Indicates whether the specified field can be dragged to the row position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row position. The default value is true.
 
 ```javascript
 getDragToRow() : boolean;
@@ -332,7 +755,7 @@ getDragToRow() : boolean;
 
 ### setDragToRow(boolean) {#setDragToRow-boolean-}
 
-Indicates whether the specified field can be dragged to the row position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row position. The default value is true.
 
 ```javascript
 setDragToRow(value: boolean) : void;
@@ -345,7 +768,7 @@ setDragToRow(value: boolean) : void;
 
 ### getDragToPage() {#getDragToPage--}
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true.
 
 ```javascript
 getDragToPage() : boolean;
@@ -354,7 +777,7 @@ getDragToPage() : boolean;
 
 ### setDragToPage(boolean) {#setDragToPage-boolean-}
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true.
 
 ```javascript
 setDragToPage(value: boolean) : void;
@@ -367,7 +790,7 @@ setDragToPage(value: boolean) : void;
 
 ### getDragToData() {#getDragToData--}
 
-Indicates whether the specified field can be dragged to the data position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the data position. The default value is true.
 
 ```javascript
 getDragToData() : boolean;
@@ -376,7 +799,7 @@ getDragToData() : boolean;
 
 ### setDragToData(boolean) {#setDragToData-boolean-}
 
-Indicates whether the specified field can be dragged to the data position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the data position. The default value is true.
 
 ```javascript
 setDragToData(value: boolean) : void;
@@ -389,7 +812,7 @@ setDragToData(value: boolean) : void;
 
 ### isMultipleItemSelectionAllowed() {#isMultipleItemSelectionAllowed--}
 
-indicates whether the field can have multiple items selected in the page field The default value is false.
+<b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. indicates whether the field can have multiple items selected in the page field The default value is false.
 
 ```javascript
 isMultipleItemSelectionAllowed() : boolean;
@@ -398,7 +821,7 @@ isMultipleItemSelectionAllowed() : boolean;
 
 ### setIsMultipleItemSelectionAllowed(boolean) {#setIsMultipleItemSelectionAllowed-boolean-}
 
-indicates whether the field can have multiple items selected in the page field The default value is false.
+<b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. indicates whether the field can have multiple items selected in the page field The default value is false.
 
 ```javascript
 setIsMultipleItemSelectionAllowed(value: boolean) : void;
@@ -411,7 +834,7 @@ setIsMultipleItemSelectionAllowed(value: boolean) : void;
 
 ### isRepeatItemLabels() {#isRepeatItemLabels--}
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+<b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether repeating labels of the field in the region. The default value is false.
 
 ```javascript
 isRepeatItemLabels() : boolean;
@@ -420,7 +843,7 @@ isRepeatItemLabels() : boolean;
 
 ### setIsRepeatItemLabels(boolean) {#setIsRepeatItemLabels-boolean-}
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+<b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether repeating labels of the field in the region. The default value is false.
 
 ```javascript
 setIsRepeatItemLabels(value: boolean) : void;
@@ -433,7 +856,7 @@ setIsRepeatItemLabels(value: boolean) : void;
 
 ### isIncludeNewItemsInFilter() {#isIncludeNewItemsInFilter--}
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+<b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether including new items to the field in manual filter. The default value is false.
 
 ```javascript
 isIncludeNewItemsInFilter() : boolean;
@@ -442,7 +865,7 @@ isIncludeNewItemsInFilter() : boolean;
 
 ### setIsIncludeNewItemsInFilter(boolean) {#setIsIncludeNewItemsInFilter-boolean-}
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+<b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether including new items to the field in manual filter. The default value is false.
 
 ```javascript
 setIsIncludeNewItemsInFilter(value: boolean) : void;
@@ -455,7 +878,7 @@ setIsIncludeNewItemsInFilter(value: boolean) : void;
 
 ### isInsertPageBreaksBetweenItems() {#isInsertPageBreaksBetweenItems--}
 
-Indicates whether inserting page breaks after each item. The default value is false.
+<b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether inserting page breaks after each item. The default value is false.
 
 ```javascript
 isInsertPageBreaksBetweenItems() : boolean;
@@ -464,7 +887,7 @@ isInsertPageBreaksBetweenItems() : boolean;
 
 ### setIsInsertPageBreaksBetweenItems(boolean) {#setIsInsertPageBreaksBetweenItems-boolean-}
 
-Indicates whether inserting page breaks after each item. The default value is false.
+<b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether inserting page breaks after each item. The default value is false.
 
 ```javascript
 setIsInsertPageBreaksBetweenItems(value: boolean) : void;
@@ -477,7 +900,7 @@ setIsInsertPageBreaksBetweenItems(value: boolean) : void;
 
 ### getShowAllItems() {#getShowAllItems--}
 
-Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+<b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
 
 ```javascript
 getShowAllItems() : boolean;
@@ -486,7 +909,7 @@ getShowAllItems() : boolean;
 
 ### setShowAllItems(boolean) {#setShowAllItems-boolean-}
 
-Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+<b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
 
 ```javascript
 setShowAllItems(value: boolean) : void;
@@ -499,7 +922,7 @@ setShowAllItems(value: boolean) : void;
 
 ### getNonAutoSortDefault() {#getNonAutoSortDefault--}
 
-Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+<b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
 
 ```javascript
 getNonAutoSortDefault() : boolean;
@@ -508,7 +931,7 @@ getNonAutoSortDefault() : boolean;
 
 ### setNonAutoSortDefault(boolean) {#setNonAutoSortDefault-boolean-}
 
-Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+<b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
 
 ```javascript
 setNonAutoSortDefault(value: boolean) : void;
@@ -521,7 +944,7 @@ setNonAutoSortDefault(value: boolean) : void;
 
 ### isAutoSort() {#isAutoSort--}
 
-Indicates whether the specified PivotTable field is automatically sorted.
+<b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the specified PivotTable field is automatically sorted.
 
 ```javascript
 isAutoSort() : boolean;
@@ -530,7 +953,7 @@ isAutoSort() : boolean;
 
 ### setIsAutoSort(boolean) {#setIsAutoSort-boolean-}
 
-Indicates whether the specified PivotTable field is automatically sorted.
+<b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the specified PivotTable field is automatically sorted.
 
 ```javascript
 setIsAutoSort(value: boolean) : void;
@@ -543,7 +966,7 @@ setIsAutoSort(value: boolean) : void;
 
 ### isAscendSort() {#isAscendSort--}
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+<b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the specified PivotTable field is autosorted ascending.
 
 ```javascript
 isAscendSort() : boolean;
@@ -552,7 +975,7 @@ isAscendSort() : boolean;
 
 ### setIsAscendSort(boolean) {#setIsAscendSort-boolean-}
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+<b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the specified PivotTable field is autosorted ascending.
 
 ```javascript
 setIsAscendSort(value: boolean) : void;
@@ -565,7 +988,7 @@ setIsAscendSort(value: boolean) : void;
 
 ### getSortSetting() {#getSortSetting--}
 
-Gets all settings of auto sorting
+<b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting
 
 ```javascript
 getSortSetting() : PivotFieldSortSetting;
@@ -578,7 +1001,7 @@ getSortSetting() : PivotFieldSortSetting;
 
 ### getAutoSortField() {#getAutoSortField--}
 
-Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+<b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
 
 ```javascript
 getAutoSortField() : number;
@@ -587,7 +1010,7 @@ getAutoSortField() : number;
 
 ### setAutoSortField(number) {#setAutoSortField-number-}
 
-Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+<b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
 
 ```javascript
 setAutoSortField(value: number) : void;
@@ -600,7 +1023,7 @@ setAutoSortField(value: number) : void;
 
 ### isAutoShow() {#isAutoShow--}
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+<b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
 
 ```javascript
 isAutoShow() : boolean;
@@ -609,7 +1032,7 @@ isAutoShow() : boolean;
 
 ### setIsAutoShow(boolean) {#setIsAutoShow-boolean-}
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+<b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
 
 ```javascript
 setIsAutoShow(value: boolean) : void;
@@ -622,7 +1045,7 @@ setIsAutoShow(value: boolean) : void;
 
 ### isAscendShow() {#isAscendShow--}
 
-Indicates whether the specified PivotTable field is autoshown ascending.
+<b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending.
 
 ```javascript
 isAscendShow() : boolean;
@@ -631,7 +1054,7 @@ isAscendShow() : boolean;
 
 ### setIsAscendShow(boolean) {#setIsAscendShow-boolean-}
 
-Indicates whether the specified PivotTable field is autoshown ascending.
+<b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending.
 
 ```javascript
 setIsAscendShow(value: boolean) : void;
@@ -644,7 +1067,7 @@ setIsAscendShow(value: boolean) : void;
 
 ### getAutoShowCount() {#getAutoShowCount--}
 
-Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+<b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
 
 ```javascript
 getAutoShowCount() : number;
@@ -653,7 +1076,7 @@ getAutoShowCount() : number;
 
 ### setAutoShowCount(number) {#setAutoShowCount-number-}
 
-Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+<b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
 
 ```javascript
 setAutoShowCount(value: number) : void;
@@ -666,7 +1089,7 @@ setAutoShowCount(value: number) : void;
 
 ### getAutoShowField() {#getAutoShowField--}
 
-Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+<b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
 
 ```javascript
 getAutoShowField() : number;
@@ -675,7 +1098,7 @@ getAutoShowField() : number;
 
 ### setAutoShowField(number) {#setAutoShowField-number-}
 
-Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+<b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
 
 ```javascript
 setAutoShowField(value: number) : void;
@@ -688,7 +1111,7 @@ setAutoShowField(value: number) : void;
 
 ### getFunction() {#getFunction--}
 
-Represents the function used to summarize the PivotTable data field.
+<b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize the PivotTable data field.
 
 ```javascript
 getFunction() : ConsolidationFunction;
@@ -701,7 +1124,7 @@ getFunction() : ConsolidationFunction;
 
 ### setFunction(ConsolidationFunction) {#setFunction-consolidationfunction-}
 
-Represents the function used to summarize the PivotTable data field.
+<b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize the PivotTable data field.
 
 ```javascript
 setFunction(value: ConsolidationFunction) : void;
@@ -714,7 +1137,7 @@ setFunction(value: ConsolidationFunction) : void;
 
 ### getShowValuesSetting() {#getShowValuesSetting--}
 
-Gets the settings of showing values as when the ShowDataAs calculation is in use.
+<b>@deprecated.</b> Please use the 'showValuesSetting' property instead. Gets the settings of showing values as when the ShowDataAs calculation is in use.
 
 ```javascript
 getShowValuesSetting() : PivotShowValuesSetting;
@@ -727,7 +1150,7 @@ getShowValuesSetting() : PivotShowValuesSetting;
 
 ### getCurrentPageItem() {#getCurrentPageItem--}
 
-Represents the current page item showing for the page field (valid only for page fields).
+<b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current page item showing for the page field (valid only for page fields).
 
 ```javascript
 getCurrentPageItem() : number;
@@ -736,7 +1159,7 @@ getCurrentPageItem() : number;
 
 ### setCurrentPageItem(number) {#setCurrentPageItem-number-}
 
-Represents the current page item showing for the page field (valid only for page fields).
+<b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current page item showing for the page field (valid only for page fields).
 
 ```javascript
 setCurrentPageItem(value: number) : void;
@@ -749,7 +1172,7 @@ setCurrentPageItem(value: number) : void;
 
 ### getNumber() {#getNumber--}
 
-Represents the built-in display format of numbers and dates.
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates.
 
 ```javascript
 getNumber() : number;
@@ -758,7 +1181,7 @@ getNumber() : number;
 
 ### setNumber(number) {#setNumber-number-}
 
-Represents the built-in display format of numbers and dates.
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates.
 
 ```javascript
 setNumber(value: number) : void;
@@ -771,7 +1194,7 @@ setNumber(value: number) : void;
 
 ### getInsertBlankRow() {#getInsertBlankRow--}
 
-Indicates whether inserting blank line after each item.
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether inserting blank line after each item.
 
 ```javascript
 getInsertBlankRow() : boolean;
@@ -780,7 +1203,7 @@ getInsertBlankRow() : boolean;
 
 ### setInsertBlankRow(boolean) {#setInsertBlankRow-boolean-}
 
-Indicates whether inserting blank line after each item.
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether inserting blank line after each item.
 
 ```javascript
 setInsertBlankRow(value: boolean) : void;
@@ -793,7 +1216,7 @@ setInsertBlankRow(value: boolean) : void;
 
 ### getShowSubtotalAtTop() {#getShowSubtotalAtTop--}
 
-when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+<b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
 
 ```javascript
 getShowSubtotalAtTop() : boolean;
@@ -806,7 +1229,7 @@ Only works when ShowInOutlineForm is true.
 
 ### setShowSubtotalAtTop(boolean) {#setShowSubtotalAtTop-boolean-}
 
-when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+<b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
 
 ```javascript
 setShowSubtotalAtTop(value: boolean) : void;
@@ -823,7 +1246,7 @@ Only works when ShowInOutlineForm is true.
 
 ### getShowInOutlineForm() {#getShowInOutlineForm--}
 
-Indicates whether layout this field in outline form on the Pivot Table view
+<b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Indicates whether layout this field in outline form on the Pivot Table view
 
 ```javascript
 getShowInOutlineForm() : boolean;
@@ -832,7 +1255,7 @@ getShowInOutlineForm() : boolean;
 
 ### setShowInOutlineForm(boolean) {#setShowInOutlineForm-boolean-}
 
-Indicates whether layout this field in outline form on the Pivot Table view
+<b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Indicates whether layout this field in outline form on the Pivot Table view
 
 ```javascript
 setShowInOutlineForm(value: boolean) : void;
@@ -845,7 +1268,7 @@ setShowInOutlineForm(value: boolean) : void;
 
 ### get_NumberFormat() {#get_NumberFormat--}
 
-Represents the custom display format of numbers and dates.
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates.
 
 ```javascript
 get_NumberFormat() : string;
@@ -854,7 +1277,7 @@ get_NumberFormat() : string;
 
 ### setNumberFormat(string) {#setNumberFormat-string-}
 
-Represents the custom display format of numbers and dates.
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates.
 
 ```javascript
 setNumberFormat(value: string) : void;
@@ -867,7 +1290,7 @@ setNumberFormat(value: string) : void;
 
 ### getItems() {#getItems--}
 
-Get all labels of pivot items in this field.
+<b>@deprecated.</b> Please use the 'items' property instead. Get all labels of pivot items in this field.
 
 ```javascript
 getItems() : string[];
@@ -880,7 +1303,7 @@ string[]
 
 ### getOriginalItems() {#getOriginalItems--}
 
-Get the original base items;
+<b>@deprecated.</b> Please use the 'originalItems' property instead. Get the original base items;
 
 ```javascript
 getOriginalItems() : string[];
@@ -893,7 +1316,7 @@ string[]
 
 ### getItemCount() {#getItemCount--}
 
-Gets the count of the base items in this pivot field.
+<b>@deprecated.</b> Please use the 'itemCount' property instead. Gets the count of the base items in this pivot field.
 
 ```javascript
 getItemCount() : number;
@@ -902,7 +1325,7 @@ getItemCount() : number;
 
 ### getShowCompact() {#getShowCompact--}
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+<b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether display labels from the next field in the same column on the Pivot Table view
 
 ```javascript
 getShowCompact() : boolean;
@@ -911,7 +1334,7 @@ getShowCompact() : boolean;
 
 ### setShowCompact(boolean) {#setShowCompact-boolean-}
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+<b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether display labels from the next field in the same column on the Pivot Table view
 
 ```javascript
 setShowCompact(value: boolean) : void;

@@ -23,27 +23,62 @@ const { Workbook } = require("aspose.cells.node");
 var workbook = new Workbook();
 
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 
 //Add a page break at cell Y30
-var Index = worksheet.getHorizontalPageBreaks().add("Y30");
+var Index = worksheet.horizontalPageBreaks.add("Y30");
 
 //get the newly added horizontal page break
-var hPageBreak = worksheet.getHorizontalPageBreaks().get(Index);
+var hPageBreak = worksheet.horizontalPageBreaks.get(Index);
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [startColumn](#startColumn--)| number | Readonly. Gets the start column index of this horizontal page break. |
+| [endColumn](#endColumn--)| number | Readonly. Gets the end column index of this horizontal page break. |
+| [row](#row--)| number | Readonly. Gets the zero based row index. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getStartColumn()](#getStartColumn--)| Gets the start column index of this horizontal page break. |
-| [getEndColumn()](#getEndColumn--)| Gets the end column index of this horizontal page break. |
-| [getRow()](#getRow--)| Gets the zero based row index. |
+| [getStartColumn()](#getStartColumn--)| <b>@deprecated.</b> Please use the 'startColumn' property instead. Gets the start column index of this horizontal page break. |
+| [getEndColumn()](#getEndColumn--)| <b>@deprecated.</b> Please use the 'endColumn' property instead. Gets the end column index of this horizontal page break. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the zero based row index. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### startColumn {#startColumn--}
+
+Readonly. Gets the start column index of this horizontal page break.
+
+```javascript
+startColumn : number;
+```
+
+
+### endColumn {#endColumn--}
+
+Readonly. Gets the end column index of this horizontal page break.
+
+```javascript
+endColumn : number;
+```
+
+
+### row {#row--}
+
+Readonly. Gets the zero based row index.
+
+```javascript
+row : number;
+```
 
 
 ### getStartColumn() {#getStartColumn--}
 
-Gets the start column index of this horizontal page break.
+<b>@deprecated.</b> Please use the 'startColumn' property instead. Gets the start column index of this horizontal page break.
 
 ```javascript
 getStartColumn() : number;
@@ -52,7 +87,7 @@ getStartColumn() : number;
 
 ### getEndColumn() {#getEndColumn--}
 
-Gets the end column index of this horizontal page break.
+<b>@deprecated.</b> Please use the 'endColumn' property instead. Gets the end column index of this horizontal page break.
 
 ```javascript
 getEndColumn() : number;
@@ -61,7 +96,7 @@ getEndColumn() : number;
 
 ### getRow() {#getRow--}
 
-Gets the zero based row index.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the zero based row index.
 
 ```javascript
 getRow() : number;

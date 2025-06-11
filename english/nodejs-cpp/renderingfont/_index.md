@@ -17,22 +17,32 @@ class RenderingFont;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(string, number)](#constructor-string-number-)| Initializes a new instance of the [RenderingFont](../renderingfont/) |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Readonly. Gets name of the font. |
+| [size](#size--)| number | Readonly. Gets size of the font in points. |
+| [bold](#bold--)| boolean | Gets or sets bold for the font. |
+| [italic](#italic--)| boolean | Gets or sets italic for the font. |
+| [color](#color--)| Color | Gets or sets color for the font. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets name of the font. |
-| [getSize()](#getSize--)| Gets size of the font in points. |
-| [getBold()](#getBold--)| Gets or sets bold for the font. |
-| [setBold(boolean)](#setBold-boolean-)| Gets or sets bold for the font. |
-| [getItalic()](#getItalic--)| Gets or sets italic for the font. |
-| [setItalic(boolean)](#setItalic-boolean-)| Gets or sets italic for the font. |
-| [getColor()](#getColor--)| Gets or sets color for the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets color for the font. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets name of the font. |
+| [getSize()](#getSize--)| <b>@deprecated.</b> Please use the 'size' property instead. Gets size of the font in points. |
+| [getBold()](#getBold--)| <b>@deprecated.</b> Please use the 'bold' property instead. Gets or sets bold for the font. |
+| [setBold(boolean)](#setBold-boolean-)| <b>@deprecated.</b> Please use the 'bold' property instead. Gets or sets bold for the font. |
+| [getItalic()](#getItalic--)| <b>@deprecated.</b> Please use the 'italic' property instead. Gets or sets italic for the font. |
+| [setItalic(boolean)](#setItalic-boolean-)| <b>@deprecated.</b> Please use the 'italic' property instead. Gets or sets italic for the font. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets color for the font. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets color for the font. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -50,9 +60,54 @@ constructor(fontName: string, fontSize: number);
 | fontName | string | font name |
 | fontSize | number | font size in points |
 
+### name {#name--}
+
+Readonly. Gets name of the font.
+
+```javascript
+name : string;
+```
+
+
+### size {#size--}
+
+Readonly. Gets size of the font in points.
+
+```javascript
+size : number;
+```
+
+
+### bold {#bold--}
+
+Gets or sets bold for the font.
+
+```javascript
+bold : boolean;
+```
+
+
+### italic {#italic--}
+
+Gets or sets italic for the font.
+
+```javascript
+italic : boolean;
+```
+
+
+### color {#color--}
+
+Gets or sets color for the font.
+
+```javascript
+color : Color;
+```
+
+
 ### getName() {#getName--}
 
-Gets name of the font.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets name of the font.
 
 ```javascript
 getName() : string;
@@ -61,7 +116,7 @@ getName() : string;
 
 ### getSize() {#getSize--}
 
-Gets size of the font in points.
+<b>@deprecated.</b> Please use the 'size' property instead. Gets size of the font in points.
 
 ```javascript
 getSize() : number;
@@ -70,7 +125,7 @@ getSize() : number;
 
 ### getBold() {#getBold--}
 
-Gets or sets bold for the font.
+<b>@deprecated.</b> Please use the 'bold' property instead. Gets or sets bold for the font.
 
 ```javascript
 getBold() : boolean;
@@ -79,7 +134,7 @@ getBold() : boolean;
 
 ### setBold(boolean) {#setBold-boolean-}
 
-Gets or sets bold for the font.
+<b>@deprecated.</b> Please use the 'bold' property instead. Gets or sets bold for the font.
 
 ```javascript
 setBold(value: boolean) : void;
@@ -92,7 +147,7 @@ setBold(value: boolean) : void;
 
 ### getItalic() {#getItalic--}
 
-Gets or sets italic for the font.
+<b>@deprecated.</b> Please use the 'italic' property instead. Gets or sets italic for the font.
 
 ```javascript
 getItalic() : boolean;
@@ -101,7 +156,7 @@ getItalic() : boolean;
 
 ### setItalic(boolean) {#setItalic-boolean-}
 
-Gets or sets italic for the font.
+<b>@deprecated.</b> Please use the 'italic' property instead. Gets or sets italic for the font.
 
 ```javascript
 setItalic(value: boolean) : void;
@@ -114,7 +169,7 @@ setItalic(value: boolean) : void;
 
 ### getColor() {#getColor--}
 
-Gets or sets color for the font.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets color for the font.
 
 ```javascript
 getColor() : Color;
@@ -127,7 +182,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets color for the font.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets color for the font.
 
 ```javascript
 setColor(value: Color) : void;

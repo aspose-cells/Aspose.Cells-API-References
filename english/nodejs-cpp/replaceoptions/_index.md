@@ -17,24 +17,34 @@ class ReplaceOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [caseSensitive](#caseSensitive--)| boolean | Indicates if the searched string is case sensitive. |
+| [matchEntireCellContents](#matchEntireCellContents--)| boolean | Indicates whether to match entire cells contents |
+| [regexKey](#regexKey--)| boolean | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [fontSettings](#fontSettings--)| FontSetting[] | The rich formatted settings for the replaced text. |
+| [styleFlags](#styleFlags--)| StyleFlag[] | Gets and sets flags of applying font settings. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCaseSensitive()](#getCaseSensitive--)| Indicates if the searched string is case sensitive. |
-| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| Indicates if the searched string is case sensitive. |
-| [getMatchEntireCellContents()](#getMatchEntireCellContents--)| Indicates whether to match entire cells contents |
-| [setMatchEntireCellContents(boolean)](#setMatchEntireCellContents-boolean-)| Indicates whether to match entire cells contents |
-| [getRegexKey()](#getRegexKey--)| Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
-| [setRegexKey(boolean)](#setRegexKey-boolean-)| Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
-| [getFontSettings()](#getFontSettings--)| The rich formatted settings for the replaced text. |
-| [setFontSettings(FontSetting[])](#setFontSettings-fontsettingarray-)| The rich formatted settings for the replaced text. |
-| [getStyleFlags()](#getStyleFlags--)| Gets and sets flags of applying font settings. |
-| [setStyleFlags(StyleFlag[])](#setStyleFlags-styleflagarray-)| Gets and sets flags of applying font settings. |
+| [getCaseSensitive()](#getCaseSensitive--)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive. |
+| [setCaseSensitive(boolean)](#setCaseSensitive-boolean-)| <b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive. |
+| [getMatchEntireCellContents()](#getMatchEntireCellContents--)| <b>@deprecated.</b> Please use the 'matchEntireCellContents' property instead. Indicates whether to match entire cells contents |
+| [setMatchEntireCellContents(boolean)](#setMatchEntireCellContents-boolean-)| <b>@deprecated.</b> Please use the 'matchEntireCellContents' property instead. Indicates whether to match entire cells contents |
+| [getRegexKey()](#getRegexKey--)| <b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [setRegexKey(boolean)](#setRegexKey-boolean-)| <b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [getFontSettings()](#getFontSettings--)| <b>@deprecated.</b> Please use the 'fontSettings' property instead. The rich formatted settings for the replaced text. |
+| [setFontSettings(FontSetting[])](#setFontSettings-fontsettingarray-)| <b>@deprecated.</b> Please use the 'fontSettings' property instead. The rich formatted settings for the replaced text. |
+| [getStyleFlags()](#getStyleFlags--)| <b>@deprecated.</b> Please use the 'styleFlags' property instead. Gets and sets flags of applying font settings. |
+| [setStyleFlags(StyleFlag[])](#setStyleFlags-styleflagarray-)| <b>@deprecated.</b> Please use the 'styleFlags' property instead. Gets and sets flags of applying font settings. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -47,9 +57,58 @@ constructor();
 ```
 
 
-### getCaseSensitive() {#getCaseSensitive--}
+### caseSensitive {#caseSensitive--}
 
 Indicates if the searched string is case sensitive.
+
+```javascript
+caseSensitive : boolean;
+```
+
+
+### matchEntireCellContents {#matchEntireCellContents--}
+
+Indicates whether to match entire cells contents
+
+```javascript
+matchEntireCellContents : boolean;
+```
+
+
+**Remarks**
+
+The default value is true.
+
+### regexKey {#regexKey--}
+
+Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
+
+```javascript
+regexKey : boolean;
+```
+
+
+### fontSettings {#fontSettings--}
+
+The rich formatted settings for the replaced text.
+
+```javascript
+fontSettings : FontSetting[];
+```
+
+
+### styleFlags {#styleFlags--}
+
+Gets and sets flags of applying font settings.
+
+```javascript
+styleFlags : StyleFlag[];
+```
+
+
+### getCaseSensitive() {#getCaseSensitive--}
+
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive.
 
 ```javascript
 getCaseSensitive() : boolean;
@@ -58,7 +117,7 @@ getCaseSensitive() : boolean;
 
 ### setCaseSensitive(boolean) {#setCaseSensitive-boolean-}
 
-Indicates if the searched string is case sensitive.
+<b>@deprecated.</b> Please use the 'caseSensitive' property instead. Indicates if the searched string is case sensitive.
 
 ```javascript
 setCaseSensitive(value: boolean) : void;
@@ -71,7 +130,7 @@ setCaseSensitive(value: boolean) : void;
 
 ### getMatchEntireCellContents() {#getMatchEntireCellContents--}
 
-Indicates whether to match entire cells contents
+<b>@deprecated.</b> Please use the 'matchEntireCellContents' property instead. Indicates whether to match entire cells contents
 
 ```javascript
 getMatchEntireCellContents() : boolean;
@@ -84,7 +143,7 @@ The default value is true.
 
 ### setMatchEntireCellContents(boolean) {#setMatchEntireCellContents-boolean-}
 
-Indicates whether to match entire cells contents
+<b>@deprecated.</b> Please use the 'matchEntireCellContents' property instead. Indicates whether to match entire cells contents
 
 ```javascript
 setMatchEntireCellContents(value: boolean) : void;
@@ -101,7 +160,7 @@ The default value is true.
 
 ### getRegexKey() {#getRegexKey--}
 
-Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
+<b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 
 ```javascript
 getRegexKey() : boolean;
@@ -110,7 +169,7 @@ getRegexKey() : boolean;
 
 ### setRegexKey(boolean) {#setRegexKey-boolean-}
 
-Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
+<b>@deprecated.</b> Please use the 'regexKey' property instead. Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 
 ```javascript
 setRegexKey(value: boolean) : void;
@@ -123,7 +182,7 @@ setRegexKey(value: boolean) : void;
 
 ### getFontSettings() {#getFontSettings--}
 
-The rich formatted settings for the replaced text.
+<b>@deprecated.</b> Please use the 'fontSettings' property instead. The rich formatted settings for the replaced text.
 
 ```javascript
 getFontSettings() : FontSetting[];
@@ -136,7 +195,7 @@ getFontSettings() : FontSetting[];
 
 ### setFontSettings(FontSetting[]) {#setFontSettings-fontsettingarray-}
 
-The rich formatted settings for the replaced text.
+<b>@deprecated.</b> Please use the 'fontSettings' property instead. The rich formatted settings for the replaced text.
 
 ```javascript
 setFontSettings(value: FontSetting[]) : void;
@@ -149,7 +208,7 @@ setFontSettings(value: FontSetting[]) : void;
 
 ### getStyleFlags() {#getStyleFlags--}
 
-Gets and sets flags of applying font settings.
+<b>@deprecated.</b> Please use the 'styleFlags' property instead. Gets and sets flags of applying font settings.
 
 ```javascript
 getStyleFlags() : StyleFlag[];
@@ -162,7 +221,7 @@ getStyleFlags() : StyleFlag[];
 
 ### setStyleFlags(StyleFlag[]) {#setStyleFlags-styleflagarray-}
 
-Gets and sets flags of applying font settings.
+<b>@deprecated.</b> Please use the 'styleFlags' property instead. Gets and sets flags of applying font settings.
 
 ```javascript
 setStyleFlags(value: StyleFlag[]) : void;

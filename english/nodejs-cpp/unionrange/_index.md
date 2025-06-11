@@ -15,24 +15,41 @@ class UnionRange;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [firstRow](#firstRow--)| number | Readonly. Gets the index of the first row of the range. |
+| [firstColumn](#firstColumn--)| number | Readonly. Gets the index of the first column of the range. |
+| [rowCount](#rowCount--)| number | Readonly. Gets the count of rows in the range. |
+| [columnCount](#columnCount--)| number | Readonly. Gets the count of rows in the range. |
+| [value](#value--)| Object | Gets and sets the values of the range. |
+| [name](#name--)| string | Gets or sets the name of the range. |
+| [refersTo](#refersTo--)| string | Readonly. Gets the range's refers to. |
+| [hasRange](#hasRange--)| boolean | Readonly. Indicates whether this has range. |
+| [hyperlinks](#hyperlinks--)| Hyperlink[] | Readonly. Gets all hyperlink in the range. |
+| [cellCount](#cellCount--)| number | Readonly. Gets all cell count in the range. |
+| [rangeCount](#rangeCount--)| number | Readonly. Gets the count of the ranges. |
+| [ranges](#ranges--)| Range[] | Readonly. Gets all union ranges. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFirstRow()](#getFirstRow--)| Gets the index of the first row of the range. |
-| [getFirstColumn()](#getFirstColumn--)| Gets the index of the first column of the range. |
-| [getRowCount()](#getRowCount--)| Gets the count of rows in the range. |
-| [getColumnCount()](#getColumnCount--)| Gets the count of rows in the range. |
-| [getValue()](#getValue--)| Gets and sets the values of the range. |
-| [setValue(Object)](#setValue-object-)| Gets and sets the values of the range. |
-| [getName()](#getName--)| Gets or sets the name of the range. |
-| [setName(string)](#setName-string-)| Gets or sets the name of the range. |
-| [getRefersTo()](#getRefersTo--)| Gets the range's refers to. |
-| [getHasRange()](#getHasRange--)| Indicates whether this has range. |
-| [getHyperlinks()](#getHyperlinks--)| Gets all hyperlink in the range. |
-| [getCellCount()](#getCellCount--)| Gets all cell count in the range. |
-| [getRangeCount()](#getRangeCount--)| Gets the count of the ranges. |
-| [getRanges()](#getRanges--)| Gets all union ranges. |
+| [getFirstRow()](#getFirstRow--)| <b>@deprecated.</b> Please use the 'firstRow' property instead. Gets the index of the first row of the range. |
+| [getFirstColumn()](#getFirstColumn--)| <b>@deprecated.</b> Please use the 'firstColumn' property instead. Gets the index of the first column of the range. |
+| [getRowCount()](#getRowCount--)| <b>@deprecated.</b> Please use the 'rowCount' property instead. Gets the count of rows in the range. |
+| [getColumnCount()](#getColumnCount--)| <b>@deprecated.</b> Please use the 'columnCount' property instead. Gets the count of rows in the range. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the values of the range. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the values of the range. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range. |
+| [getRefersTo()](#getRefersTo--)| <b>@deprecated.</b> Please use the 'refersTo' property instead. Gets the range's refers to. |
+| [getHasRange()](#getHasRange--)| <b>@deprecated.</b> Please use the 'hasRange' property instead. Indicates whether this has range. |
+| [getHyperlinks()](#getHyperlinks--)| <b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets all hyperlink in the range. |
+| [getCellCount()](#getCellCount--)| <b>@deprecated.</b> Please use the 'cellCount' property instead. Gets all cell count in the range. |
+| [getRangeCount()](#getRangeCount--)| <b>@deprecated.</b> Please use the 'rangeCount' property instead. Gets the count of the ranges. |
+| [getRanges()](#getRanges--)| <b>@deprecated.</b> Please use the 'ranges' property instead. Gets all union ranges. |
 | [merge()](#merge--)| Combines a range of cells into a single cell. |
 | [unMerge()](#unMerge--)| Unmerges merged cells of this range. |
 | [putValue(string, boolean, boolean)](#putValue-string-boolean-boolean-)| Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
@@ -51,9 +68,137 @@ class UnionRange;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### firstRow {#firstRow--}
+
+Readonly. Gets the index of the first row of the range.
+
+```javascript
+firstRow : number;
+```
+
+
+**Remarks**
+
+Only effects when it only contains one range.
+
+### firstColumn {#firstColumn--}
+
+Readonly. Gets the index of the first column of the range.
+
+```javascript
+firstColumn : number;
+```
+
+
+**Remarks**
+
+Only effects when it only contains one range.
+
+### rowCount {#rowCount--}
+
+Readonly. Gets the count of rows in the range.
+
+```javascript
+rowCount : number;
+```
+
+
+**Remarks**
+
+Only effects when it only contains one range.
+
+### columnCount {#columnCount--}
+
+Readonly. Gets the count of rows in the range.
+
+```javascript
+columnCount : number;
+```
+
+
+**Remarks**
+
+Only effects when it only contains one range.
+
+### value {#value--}
+
+Gets and sets the values of the range.
+
+```javascript
+value : Object;
+```
+
+
+### name {#name--}
+
+Gets or sets the name of the range.
+
+```javascript
+name : string;
+```
+
+
+**Remarks**
+
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
+
+### refersTo {#refersTo--}
+
+Readonly. Gets the range's refers to.
+
+```javascript
+refersTo : string;
+```
+
+
+### hasRange {#hasRange--}
+
+Readonly. Indicates whether this has range.
+
+```javascript
+hasRange : boolean;
+```
+
+
+### hyperlinks {#hyperlinks--}
+
+Readonly. Gets all hyperlink in the range.
+
+```javascript
+hyperlinks : Hyperlink[];
+```
+
+
+### cellCount {#cellCount--}
+
+Readonly. Gets all cell count in the range.
+
+```javascript
+cellCount : number;
+```
+
+
+### rangeCount {#rangeCount--}
+
+Readonly. Gets the count of the ranges.
+
+```javascript
+rangeCount : number;
+```
+
+
+### ranges {#ranges--}
+
+Readonly. Gets all union ranges.
+
+```javascript
+ranges : Range[];
+```
+
+
 ### getFirstRow() {#getFirstRow--}
 
-Gets the index of the first row of the range.
+<b>@deprecated.</b> Please use the 'firstRow' property instead. Gets the index of the first row of the range.
 
 ```javascript
 getFirstRow() : number;
@@ -66,7 +211,7 @@ Only effects when it only contains one range.
 
 ### getFirstColumn() {#getFirstColumn--}
 
-Gets the index of the first column of the range.
+<b>@deprecated.</b> Please use the 'firstColumn' property instead. Gets the index of the first column of the range.
 
 ```javascript
 getFirstColumn() : number;
@@ -79,7 +224,7 @@ Only effects when it only contains one range.
 
 ### getRowCount() {#getRowCount--}
 
-Gets the count of rows in the range.
+<b>@deprecated.</b> Please use the 'rowCount' property instead. Gets the count of rows in the range.
 
 ```javascript
 getRowCount() : number;
@@ -92,7 +237,7 @@ Only effects when it only contains one range.
 
 ### getColumnCount() {#getColumnCount--}
 
-Gets the count of rows in the range.
+<b>@deprecated.</b> Please use the 'columnCount' property instead. Gets the count of rows in the range.
 
 ```javascript
 getColumnCount() : number;
@@ -105,7 +250,7 @@ Only effects when it only contains one range.
 
 ### getValue() {#getValue--}
 
-Gets and sets the values of the range.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the values of the range.
 
 ```javascript
 getValue() : Object;
@@ -114,7 +259,7 @@ getValue() : Object;
 
 ### setValue(Object) {#setValue-object-}
 
-Gets and sets the values of the range.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the values of the range.
 
 ```javascript
 setValue(value: Object) : void;
@@ -127,7 +272,7 @@ setValue(value: Object) : void;
 
 ### getName() {#getName--}
 
-Gets or sets the name of the range.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range.
 
 ```javascript
 getName() : string;
@@ -140,7 +285,7 @@ Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### setName(string) {#setName-string-}
 
-Gets or sets the name of the range.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range.
 
 ```javascript
 setName(value: string) : void;
@@ -157,7 +302,7 @@ Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### getRefersTo() {#getRefersTo--}
 
-Gets the range's refers to.
+<b>@deprecated.</b> Please use the 'refersTo' property instead. Gets the range's refers to.
 
 ```javascript
 getRefersTo() : string;
@@ -166,7 +311,7 @@ getRefersTo() : string;
 
 ### getHasRange() {#getHasRange--}
 
-Indicates whether this has range.
+<b>@deprecated.</b> Please use the 'hasRange' property instead. Indicates whether this has range.
 
 ```javascript
 getHasRange() : boolean;
@@ -175,7 +320,7 @@ getHasRange() : boolean;
 
 ### getHyperlinks() {#getHyperlinks--}
 
-Gets all hyperlink in the range.
+<b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets all hyperlink in the range.
 
 ```javascript
 getHyperlinks() : Hyperlink[];
@@ -188,7 +333,7 @@ getHyperlinks() : Hyperlink[];
 
 ### getCellCount() {#getCellCount--}
 
-Gets all cell count in the range.
+<b>@deprecated.</b> Please use the 'cellCount' property instead. Gets all cell count in the range.
 
 ```javascript
 getCellCount() : number;
@@ -197,7 +342,7 @@ getCellCount() : number;
 
 ### getRangeCount() {#getRangeCount--}
 
-Gets the count of the ranges.
+<b>@deprecated.</b> Please use the 'rangeCount' property instead. Gets the count of the ranges.
 
 ```javascript
 getRangeCount() : number;
@@ -206,7 +351,7 @@ getRangeCount() : number;
 
 ### getRanges() {#getRanges--}
 
-Gets all union ranges.
+<b>@deprecated.</b> Please use the 'ranges' property instead. Gets all union ranges.
 
 ```javascript
 getRanges() : Range[];

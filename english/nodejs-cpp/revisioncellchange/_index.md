@@ -17,29 +17,48 @@ class RevisionCellChange extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
+| [cellName](#cellName--)| string | Readonly. Gets the name of the cell. |
+| [row](#row--)| number | Readonly. Gets the row index of the cell. |
+| [column](#column--)| number | Readonly. Gets the column index of the cell. |
+| [isNewFormatted](#isNewFormatted--)| boolean | Readonly. Indicates whether this cell is new formatted. |
+| [isOldFormatted](#isOldFormatted--)| boolean | Readonly. Indicates whether this cell is old formatted. |
+| [oldFormula](#oldFormula--)| string | Readonly. Gets the old formula. |
+| [oldValue](#oldValue--)| Object | Readonly. Gets old value of the cell. |
+| [newValue](#newValue--)| Object | Readonly. Gets new value of the cell. |
+| [newFormula](#newFormula--)| string | Readonly. Gets the old formula. |
+| [newStyle](#newStyle--)| Style | Readonly. Gets the new style of the cell. |
+| [oldStyle](#oldStyle--)| Style | Readonly. Gets the old style of the cell. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of revision. |
-| [getCellName()](#getCellName--)| Gets the name of the cell. |
-| [getRow()](#getRow--)| Gets the row index of the cell. |
-| [getColumn()](#getColumn--)| Gets the column index of the cell. |
-| [isNewFormatted()](#isNewFormatted--)| Indicates whether this cell is new formatted. |
-| [isOldFormatted()](#isOldFormatted--)| Indicates whether this cell is old formatted. |
-| [getOldFormula()](#getOldFormula--)| Gets the old formula. |
-| [getOldValue()](#getOldValue--)| Gets old value of the cell. |
-| [getNewValue()](#getNewValue--)| Gets new value of the cell. |
-| [getNewFormula()](#getNewFormula--)| Gets the old formula. |
-| [getNewStyle()](#getNewStyle--)| Gets the new style of the cell. |
-| [getOldStyle()](#getOldStyle--)| Gets the old style of the cell. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
+| [getCellName()](#getCellName--)| <b>@deprecated.</b> Please use the 'cellName' property instead. Gets the name of the cell. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the cell. |
+| [isNewFormatted()](#isNewFormatted--)| <b>@deprecated.</b> Please use the 'isNewFormatted' property instead. Indicates whether this cell is new formatted. |
+| [isOldFormatted()](#isOldFormatted--)| <b>@deprecated.</b> Please use the 'isOldFormatted' property instead. Indicates whether this cell is old formatted. |
+| [getOldFormula()](#getOldFormula--)| <b>@deprecated.</b> Please use the 'oldFormula' property instead. Gets the old formula. |
+| [getOldValue()](#getOldValue--)| <b>@deprecated.</b> Please use the 'oldValue' property instead. Gets old value of the cell. |
+| [getNewValue()](#getNewValue--)| <b>@deprecated.</b> Please use the 'newValue' property instead. Gets new value of the cell. |
+| [getNewFormula()](#getNewFormula--)| <b>@deprecated.</b> Please use the 'newFormula' property instead. Gets the old formula. |
+| [getNewStyle()](#getNewStyle--)| <b>@deprecated.</b> Please use the 'newStyle' property instead. Gets the new style of the cell. |
+| [getOldStyle()](#getOldStyle--)| <b>@deprecated.</b> Please use the 'oldStyle' property instead. Gets the old style of the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -55,9 +74,139 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
+### type {#type--}
+
+Readonly. Represents the type of revision.
+
+```javascript
+type : RevisionType;
+```
+
+
+### cellName {#cellName--}
+
+Readonly. Gets the name of the cell.
+
+```javascript
+cellName : string;
+```
+
+
+### row {#row--}
+
+Readonly. Gets the row index of the cell.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets the column index of the cell.
+
+```javascript
+column : number;
+```
+
+
+### isNewFormatted {#isNewFormatted--}
+
+Readonly. Indicates whether this cell is new formatted.
+
+```javascript
+isNewFormatted : boolean;
+```
+
+
+### isOldFormatted {#isOldFormatted--}
+
+Readonly. Indicates whether this cell is old formatted.
+
+```javascript
+isOldFormatted : boolean;
+```
+
+
+### oldFormula {#oldFormula--}
+
+Readonly. Gets the old formula.
+
+```javascript
+oldFormula : string;
+```
+
+
+### oldValue {#oldValue--}
+
+Readonly. Gets old value of the cell.
+
+```javascript
+oldValue : Object;
+```
+
+
+### newValue {#newValue--}
+
+Readonly. Gets new value of the cell.
+
+```javascript
+newValue : Object;
+```
+
+
+### newFormula {#newFormula--}
+
+Readonly. Gets the old formula.
+
+```javascript
+newFormula : string;
+```
+
+
+### newStyle {#newStyle--}
+
+Readonly. Gets the new style of the cell.
+
+```javascript
+newStyle : Style;
+```
+
+
+### oldStyle {#oldStyle--}
+
+Readonly. Gets the old style of the cell.
+
+```javascript
+oldStyle : Style;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getType() {#getType--}
 
-Represents the type of revision.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
 
 ```javascript
 getType() : RevisionType;
@@ -70,7 +219,7 @@ getType() : RevisionType;
 
 ### getCellName() {#getCellName--}
 
-Gets the name of the cell.
+<b>@deprecated.</b> Please use the 'cellName' property instead. Gets the name of the cell.
 
 ```javascript
 getCellName() : string;
@@ -79,7 +228,7 @@ getCellName() : string;
 
 ### getRow() {#getRow--}
 
-Gets the row index of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the cell.
 
 ```javascript
 getRow() : number;
@@ -88,7 +237,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets the column index of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the cell.
 
 ```javascript
 getColumn() : number;
@@ -97,7 +246,7 @@ getColumn() : number;
 
 ### isNewFormatted() {#isNewFormatted--}
 
-Indicates whether this cell is new formatted.
+<b>@deprecated.</b> Please use the 'isNewFormatted' property instead. Indicates whether this cell is new formatted.
 
 ```javascript
 isNewFormatted() : boolean;
@@ -106,7 +255,7 @@ isNewFormatted() : boolean;
 
 ### isOldFormatted() {#isOldFormatted--}
 
-Indicates whether this cell is old formatted.
+<b>@deprecated.</b> Please use the 'isOldFormatted' property instead. Indicates whether this cell is old formatted.
 
 ```javascript
 isOldFormatted() : boolean;
@@ -115,7 +264,7 @@ isOldFormatted() : boolean;
 
 ### getOldFormula() {#getOldFormula--}
 
-Gets the old formula.
+<b>@deprecated.</b> Please use the 'oldFormula' property instead. Gets the old formula.
 
 ```javascript
 getOldFormula() : string;
@@ -124,7 +273,7 @@ getOldFormula() : string;
 
 ### getOldValue() {#getOldValue--}
 
-Gets old value of the cell.
+<b>@deprecated.</b> Please use the 'oldValue' property instead. Gets old value of the cell.
 
 ```javascript
 getOldValue() : Object;
@@ -133,7 +282,7 @@ getOldValue() : Object;
 
 ### getNewValue() {#getNewValue--}
 
-Gets new value of the cell.
+<b>@deprecated.</b> Please use the 'newValue' property instead. Gets new value of the cell.
 
 ```javascript
 getNewValue() : Object;
@@ -142,7 +291,7 @@ getNewValue() : Object;
 
 ### getNewFormula() {#getNewFormula--}
 
-Gets the old formula.
+<b>@deprecated.</b> Please use the 'newFormula' property instead. Gets the old formula.
 
 ```javascript
 getNewFormula() : string;
@@ -151,7 +300,7 @@ getNewFormula() : string;
 
 ### getNewStyle() {#getNewStyle--}
 
-Gets the new style of the cell.
+<b>@deprecated.</b> Please use the 'newStyle' property instead. Gets the new style of the cell.
 
 ```javascript
 getNewStyle() : Style;
@@ -164,7 +313,7 @@ getNewStyle() : Style;
 
 ### getOldStyle() {#getOldStyle--}
 
-Gets the old style of the cell.
+<b>@deprecated.</b> Please use the 'oldStyle' property instead. Gets the old style of the cell.
 
 ```javascript
 getOldStyle() : Style;
@@ -186,7 +335,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -199,7 +348,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

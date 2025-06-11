@@ -20,33 +20,78 @@ class Border;
 const { Workbook, BorderType, CellBorderType, Color } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var worksheet = workbook.getWorksheets().get(0);
-var cell = worksheet.getCells().get(0, 0);
+var worksheet = workbook.worksheets.get(0);
+var cell = worksheet.cells.get(0, 0);
 var style = workbook.createStyle();
 //Set top border style and color
-var border = style.getBorders().get(BorderType.TopBorder);
-border.setLineStyle(CellBorderType.Medium);
-border.setColor(Color.Red);
+var border = style.borders.get(BorderType.TopBorder);
+border.lineStyle = CellBorderType.Medium;
+border.color = Color.Red;
 cell.setStyle(style);
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color of the border. |
+| [color](#color--)| Color | Gets or sets the [Color](../color/) of the border. |
+| [argbColor](#argbColor--)| number | Gets and sets the color with a 32-bit ARGB value. |
+| [lineStyle](#lineStyle--)| CellBorderType | Gets or sets the cell border type. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getThemeColor()](#getThemeColor--)| Gets and sets the theme color of the border. |
-| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color of the border. |
-| [getColor()](#getColor--)| Gets or sets the [Color](../color/) of the border. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/) of the border. |
-| [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
-| [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
-| [getLineStyle()](#getLineStyle--)| Gets or sets the cell border type. |
-| [setLineStyle(CellBorderType)](#setLineStyle-cellbordertype-)| Gets or sets the cell border type. |
+| [getThemeColor()](#getThemeColor--)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color of the border. |
+| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color of the border. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the border. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the border. |
+| [getArgbColor()](#getArgbColor--)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
+| [setArgbColor(number)](#setArgbColor-number-)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
+| [getLineStyle()](#getLineStyle--)| <b>@deprecated.</b> Please use the 'lineStyle' property instead. Gets or sets the cell border type. |
+| [setLineStyle(CellBorderType)](#setLineStyle-cellbordertype-)| <b>@deprecated.</b> Please use the 'lineStyle' property instead. Gets or sets the cell border type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### themeColor {#themeColor--}
+
+Gets and sets the theme color of the border.
+
+```javascript
+themeColor : ThemeColor;
+```
+
+
+### color {#color--}
+
+Gets or sets the [Color](../color/) of the border.
+
+```javascript
+color : Color;
+```
+
+
+### argbColor {#argbColor--}
+
+Gets and sets the color with a 32-bit ARGB value.
+
+```javascript
+argbColor : number;
+```
+
+
+### lineStyle {#lineStyle--}
+
+Gets or sets the cell border type.
+
+```javascript
+lineStyle : CellBorderType;
+```
 
 
 ### getThemeColor() {#getThemeColor--}
 
-Gets and sets the theme color of the border.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color of the border.
 
 ```javascript
 getThemeColor() : ThemeColor;
@@ -59,7 +104,7 @@ getThemeColor() : ThemeColor;
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
-Gets and sets the theme color of the border.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color of the border.
 
 ```javascript
 setThemeColor(value: ThemeColor) : void;
@@ -72,7 +117,7 @@ setThemeColor(value: ThemeColor) : void;
 
 ### getColor() {#getColor--}
 
-Gets or sets the [Color](../color/) of the border.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the border.
 
 ```javascript
 getColor() : Color;
@@ -85,7 +130,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [Color](../color/) of the border.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the border.
 
 ```javascript
 setColor(value: Color) : void;
@@ -98,7 +143,7 @@ setColor(value: Color) : void;
 
 ### getArgbColor() {#getArgbColor--}
 
-Gets and sets the color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 getArgbColor() : number;
@@ -107,7 +152,7 @@ getArgbColor() : number;
 
 ### setArgbColor(number) {#setArgbColor-number-}
 
-Gets and sets the color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 setArgbColor(value: number) : void;
@@ -120,7 +165,7 @@ setArgbColor(value: number) : void;
 
 ### getLineStyle() {#getLineStyle--}
 
-Gets or sets the cell border type.
+<b>@deprecated.</b> Please use the 'lineStyle' property instead. Gets or sets the cell border type.
 
 ```javascript
 getLineStyle() : CellBorderType;
@@ -133,7 +178,7 @@ getLineStyle() : CellBorderType;
 
 ### setLineStyle(CellBorderType) {#setLineStyle-cellbordertype-}
 
-Gets or sets the cell border type.
+<b>@deprecated.</b> Please use the 'lineStyle' property instead. Gets or sets the cell border type.
 
 ```javascript
 setLineStyle(value: CellBorderType) : void;

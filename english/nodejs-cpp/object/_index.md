@@ -12,7 +12,7 @@ Object class.
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 | [constructor(bool)](#constructor-bool-)| Constructs from a bool value. |

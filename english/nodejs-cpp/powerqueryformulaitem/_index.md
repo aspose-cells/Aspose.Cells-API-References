@@ -15,19 +15,44 @@ class PowerQueryFormulaItem;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Readonly. Gets the name of the item. |
+| [value](#value--)| string | Gets the value of the item. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets the name of the item. |
-| [getValue()](#getValue--)| Gets the value of the item. |
-| [setValue(string)](#setValue-string-)| Gets the value of the item. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the item. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the item. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the item. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### name {#name--}
+
+Readonly. Gets the name of the item.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Gets the value of the item.
+
+```javascript
+value : string;
+```
 
 
 ### getName() {#getName--}
 
-Gets the name of the item.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the item.
 
 ```javascript
 getName() : string;
@@ -36,7 +61,7 @@ getName() : string;
 
 ### getValue() {#getValue--}
 
-Gets the value of the item.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the item.
 
 ```javascript
 getValue() : string;
@@ -45,7 +70,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Gets the value of the item.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the item.
 
 ```javascript
 setValue(value: string) : void;

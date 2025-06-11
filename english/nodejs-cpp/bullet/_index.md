@@ -15,21 +15,56 @@ class Bullet;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [bulletValue](#bulletValue--)| BulletValue | Readonly. Gets the value of bullet. |
+| [type](#type--)| BulletType | Gets and sets the type of bullet. |
+| [fontName](#fontName--)| string | Get and sets the name of the font. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBulletValue()](#getBulletValue--)| Gets the value of bullet. |
-| [getType()](#getType--)| Gets and sets the type of bullet. |
-| [setType(BulletType)](#setType-bullettype-)| Gets and sets the type of bullet. |
-| [getFontName()](#getFontName--)| Get and sets the name of the font. |
-| [setFontName(string)](#setFontName-string-)| Get and sets the name of the font. |
+| [getBulletValue()](#getBulletValue--)| <b>@deprecated.</b> Please use the 'bulletValue' property instead. Gets the value of bullet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet. |
+| [setType(BulletType)](#setType-bullettype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet. |
+| [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font. |
+| [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### bulletValue {#bulletValue--}
+
+Readonly. Gets the value of bullet.
+
+```javascript
+bulletValue : BulletValue;
+```
+
+
+### type {#type--}
+
+Gets and sets the type of bullet.
+
+```javascript
+type : BulletType;
+```
+
+
+### fontName {#fontName--}
+
+Get and sets the name of the font.
+
+```javascript
+fontName : string;
+```
 
 
 ### getBulletValue() {#getBulletValue--}
 
-Gets the value of bullet.
+<b>@deprecated.</b> Please use the 'bulletValue' property instead. Gets the value of bullet.
 
 ```javascript
 getBulletValue() : BulletValue;
@@ -42,7 +77,7 @@ getBulletValue() : BulletValue;
 
 ### getType() {#getType--}
 
-Gets and sets the type of bullet.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet.
 
 ```javascript
 getType() : BulletType;
@@ -55,7 +90,7 @@ getType() : BulletType;
 
 ### setType(BulletType) {#setType-bullettype-}
 
-Gets and sets the type of bullet.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet.
 
 ```javascript
 setType(value: BulletType) : void;
@@ -68,7 +103,7 @@ setType(value: BulletType) : void;
 
 ### getFontName() {#getFontName--}
 
-Get and sets the name of the font.
+<b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font.
 
 ```javascript
 getFontName() : string;
@@ -77,7 +112,7 @@ getFontName() : string;
 
 ### setFontName(string) {#setFontName-string-}
 
-Get and sets the name of the font.
+<b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font.
 
 ```javascript
 setFontName(value: string) : void;

@@ -15,20 +15,31 @@ class ListColumn;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Gets and sets the name of the column. |
+| [totalsCalculation](#totalsCalculation--)| TotalsCalculation | Gets and sets the type of calculation in the Totals row of the list column. |
+| [range](#range--)| Range | Readonly. Gets the range of this list column. |
+| [isArrayFormula](#isArrayFormula--)| boolean | Readonly. Indicates whether the fomula is array formula. |
+| [formula](#formula--)| string | Gets and sets the formula of the list column. |
+| [totalsRowLabel](#totalsRowLabel--)| string | Gets and sets the display labels of total row. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets and sets the name of the column. |
-| [setName(string)](#setName-string-)| Gets and sets the name of the column. |
-| [getTotalsCalculation()](#getTotalsCalculation--)| Gets and sets the type of calculation in the Totals row of the list column. |
-| [setTotalsCalculation(TotalsCalculation)](#setTotalsCalculation-totalscalculation-)| Gets and sets the type of calculation in the Totals row of the list column. |
-| [getRange()](#getRange--)| Gets the range of this list column. |
-| [isArrayFormula()](#isArrayFormula--)| Indicates whether the fomula is array formula. |
-| [getFormula()](#getFormula--)| Gets and sets the formula of the list column. |
-| [setFormula(string)](#setFormula-string-)| Gets and sets the formula of the list column. |
-| [getTotalsRowLabel()](#getTotalsRowLabel--)| Gets and sets the display labels of total row. |
-| [setTotalsRowLabel(string)](#setTotalsRowLabel-string-)| Gets and sets the display labels of total row. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the column. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the column. |
+| [getTotalsCalculation()](#getTotalsCalculation--)| <b>@deprecated.</b> Please use the 'totalsCalculation' property instead. Gets and sets the type of calculation in the Totals row of the list column. |
+| [setTotalsCalculation(TotalsCalculation)](#setTotalsCalculation-totalscalculation-)| <b>@deprecated.</b> Please use the 'totalsCalculation' property instead. Gets and sets the type of calculation in the Totals row of the list column. |
+| [getRange()](#getRange--)| <b>@deprecated.</b> Please use the 'range' property instead. Gets the range of this list column. |
+| [isArrayFormula()](#isArrayFormula--)| <b>@deprecated.</b> Please use the 'isArrayFormula' property instead. Indicates whether the fomula is array formula. |
+| [getFormula()](#getFormula--)| <b>@deprecated.</b> Please use the 'formula' property instead. Gets and sets the formula of the list column. |
+| [setFormula(string)](#setFormula-string-)| <b>@deprecated.</b> Please use the 'formula' property instead. Gets and sets the formula of the list column. |
+| [getTotalsRowLabel()](#getTotalsRowLabel--)| <b>@deprecated.</b> Please use the 'totalsRowLabel' property instead. Gets and sets the display labels of total row. |
+| [setTotalsRowLabel(string)](#setTotalsRowLabel-string-)| <b>@deprecated.</b> Please use the 'totalsRowLabel' property instead. Gets and sets the display labels of total row. |
 | [getCustomTotalsRowFormula(boolean, boolean)](#getCustomTotalsRowFormula-boolean-boolean-)| Gets the formula of totals row of this list column. |
 | [setCustomTotalsRowFormula(string, boolean, boolean)](#setCustomTotalsRowFormula-string-boolean-boolean-)| Gets the formula of totals row of this list column. |
 | [getCustomCalculatedFormula(boolean, boolean)](#getCustomCalculatedFormula-boolean-boolean-)| Gets the formula of this list column. |
@@ -38,9 +49,67 @@ class ListColumn;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getName() {#getName--}
+### name {#name--}
 
 Gets and sets the name of the column.
+
+```javascript
+name : string;
+```
+
+
+**Remarks**
+
+If sets the name of the column, the according cell' value will be changed too.
+
+### totalsCalculation {#totalsCalculation--}
+
+Gets and sets the type of calculation in the Totals row of the list column.
+
+```javascript
+totalsCalculation : TotalsCalculation;
+```
+
+
+### range {#range--}
+
+Readonly. Gets the range of this list column.
+
+```javascript
+range : Range;
+```
+
+
+### isArrayFormula {#isArrayFormula--}
+
+Readonly. Indicates whether the fomula is array formula.
+
+```javascript
+isArrayFormula : boolean;
+```
+
+
+### formula {#formula--}
+
+Gets and sets the formula of the list column.
+
+```javascript
+formula : string;
+```
+
+
+### totalsRowLabel {#totalsRowLabel--}
+
+Gets and sets the display labels of total row.
+
+```javascript
+totalsRowLabel : string;
+```
+
+
+### getName() {#getName--}
+
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the column.
 
 ```javascript
 getName() : string;
@@ -53,7 +122,7 @@ If sets the name of the column, the according cell' value will be changed too.
 
 ### setName(string) {#setName-string-}
 
-Gets and sets the name of the column.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the column.
 
 ```javascript
 setName(value: string) : void;
@@ -70,7 +139,7 @@ If sets the name of the column, the according cell' value will be changed too.
 
 ### getTotalsCalculation() {#getTotalsCalculation--}
 
-Gets and sets the type of calculation in the Totals row of the list column.
+<b>@deprecated.</b> Please use the 'totalsCalculation' property instead. Gets and sets the type of calculation in the Totals row of the list column.
 
 ```javascript
 getTotalsCalculation() : TotalsCalculation;
@@ -83,7 +152,7 @@ getTotalsCalculation() : TotalsCalculation;
 
 ### setTotalsCalculation(TotalsCalculation) {#setTotalsCalculation-totalscalculation-}
 
-Gets and sets the type of calculation in the Totals row of the list column.
+<b>@deprecated.</b> Please use the 'totalsCalculation' property instead. Gets and sets the type of calculation in the Totals row of the list column.
 
 ```javascript
 setTotalsCalculation(value: TotalsCalculation) : void;
@@ -96,7 +165,7 @@ setTotalsCalculation(value: TotalsCalculation) : void;
 
 ### getRange() {#getRange--}
 
-Gets the range of this list column.
+<b>@deprecated.</b> Please use the 'range' property instead. Gets the range of this list column.
 
 ```javascript
 getRange() : Range;
@@ -109,7 +178,7 @@ getRange() : Range;
 
 ### isArrayFormula() {#isArrayFormula--}
 
-Indicates whether the fomula is array formula.
+<b>@deprecated.</b> Please use the 'isArrayFormula' property instead. Indicates whether the fomula is array formula.
 
 ```javascript
 isArrayFormula() : boolean;
@@ -118,7 +187,7 @@ isArrayFormula() : boolean;
 
 ### getFormula() {#getFormula--}
 
-Gets and sets the formula of the list column.
+<b>@deprecated.</b> Please use the 'formula' property instead. Gets and sets the formula of the list column.
 
 ```javascript
 getFormula() : string;
@@ -127,7 +196,7 @@ getFormula() : string;
 
 ### setFormula(string) {#setFormula-string-}
 
-Gets and sets the formula of the list column.
+<b>@deprecated.</b> Please use the 'formula' property instead. Gets and sets the formula of the list column.
 
 ```javascript
 setFormula(value: string) : void;
@@ -140,7 +209,7 @@ setFormula(value: string) : void;
 
 ### getTotalsRowLabel() {#getTotalsRowLabel--}
 
-Gets and sets the display labels of total row.
+<b>@deprecated.</b> Please use the 'totalsRowLabel' property instead. Gets and sets the display labels of total row.
 
 ```javascript
 getTotalsRowLabel() : string;
@@ -149,7 +218,7 @@ getTotalsRowLabel() : string;
 
 ### setTotalsRowLabel(string) {#setTotalsRowLabel-string-}
 
-Gets and sets the display labels of total row.
+<b>@deprecated.</b> Please use the 'totalsRowLabel' property instead. Gets and sets the display labels of total row.
 
 ```javascript
 setTotalsRowLabel(value: string) : void;

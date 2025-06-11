@@ -15,25 +15,39 @@ class PivotItem;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isHidden](#isHidden--)| boolean | Gets and Sets whether the pivot item is hidden. |
+| [position](#position--)| number | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [positionInSameParentNode](#positionInSameParentNode--)| number | Specifying the position index in the PivotItems under the same parent node. |
+| [isDetailHidden](#isDetailHidden--)| boolean | Gets and sets whether the detail of this pivot item is hidden. |
+| [isCalculatedItem](#isCalculatedItem--)| boolean | Readonly. Indicates whether this pivot item is a calculated formula item. |
+| [isMissing](#isMissing--)| boolean | Readonly. Indicates whether the item is removed from the data source. |
+| [value](#value--)| Object | Readonly. Gets the value of the pivot item |
+| [name](#name--)| string | Gets the name of the pivot item. |
+| [index](#index--)| number | Gets the index of the pivot item in cache field. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isHidden()](#isHidden--)| Gets and Sets whether the pivot item is hidden. |
-| [setIsHidden(boolean)](#setIsHidden-boolean-)| Gets and Sets whether the pivot item is hidden. |
-| [getPosition()](#getPosition--)| Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
-| [setPosition(number)](#setPosition-number-)| Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
-| [getPositionInSameParentNode()](#getPositionInSameParentNode--)| Specifying the position index in the PivotItems under the same parent node. |
-| [setPositionInSameParentNode(number)](#setPositionInSameParentNode-number-)| Specifying the position index in the PivotItems under the same parent node. |
-| [isDetailHidden()](#isDetailHidden--)| Gets and sets whether the detail of this pivot item is hidden. |
-| [setIsDetailHidden(boolean)](#setIsDetailHidden-boolean-)| Gets and sets whether the detail of this pivot item is hidden. |
-| [isCalculatedItem()](#isCalculatedItem--)| Indicates whether this pivot item is a calculated formula item. |
-| [isMissing()](#isMissing--)| Indicates whether the item is removed from the data source. |
-| [getValue()](#getValue--)| Gets the value of the pivot item |
-| [getName()](#getName--)| Gets the name of the pivot item. |
-| [setName(string)](#setName-string-)| Gets the name of the pivot item. |
-| [getIndex()](#getIndex--)| Gets the index of the pivot item in cache field. |
-| [setIndex(number)](#setIndex-number-)| Gets the index of the pivot item in cache field. |
+| [isHidden()](#isHidden--)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Gets and Sets whether the pivot item is hidden. |
+| [setIsHidden(boolean)](#setIsHidden-boolean-)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Gets and Sets whether the pivot item is hidden. |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [setPosition(number)](#setPosition-number-)| <b>@deprecated.</b> Please use the 'position' property instead. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [getPositionInSameParentNode()](#getPositionInSameParentNode--)| <b>@deprecated.</b> Please use the 'positionInSameParentNode' property instead. Specifying the position index in the PivotItems under the same parent node. |
+| [setPositionInSameParentNode(number)](#setPositionInSameParentNode-number-)| <b>@deprecated.</b> Please use the 'positionInSameParentNode' property instead. Specifying the position index in the PivotItems under the same parent node. |
+| [isDetailHidden()](#isDetailHidden--)| <b>@deprecated.</b> Please use the 'isDetailHidden' property instead. Gets and sets whether the detail of this pivot item is hidden. |
+| [setIsDetailHidden(boolean)](#setIsDetailHidden-boolean-)| <b>@deprecated.</b> Please use the 'isDetailHidden' property instead. Gets and sets whether the detail of this pivot item is hidden. |
+| [isCalculatedItem()](#isCalculatedItem--)| <b>@deprecated.</b> Please use the 'isCalculatedItem' property instead. Indicates whether this pivot item is a calculated formula item. |
+| [isMissing()](#isMissing--)| <b>@deprecated.</b> Please use the 'isMissing' property instead. Indicates whether the item is removed from the data source. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the pivot item |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot item. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot item. |
+| [getIndex()](#getIndex--)| <b>@deprecated.</b> Please use the 'index' property instead. Gets the index of the pivot item in cache field. |
+| [setIndex(number)](#setIndex-number-)| <b>@deprecated.</b> Please use the 'index' property instead. Gets the index of the pivot item in cache field. |
 | [move(number, boolean)](#move-number-boolean-)| Moves the item up or down |
 | [getFormula()](#getFormula--)| Gets the formula of this calculated item. Only works when this item is calculated item. |
 | [getStringValue()](#getStringValue--)| Gets the string value of the pivot item If the value is null, it will return "" |
@@ -42,9 +56,94 @@ class PivotItem;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### isHidden() {#isHidden--}
+### isHidden {#isHidden--}
 
 Gets and Sets whether the pivot item is hidden.
+
+```javascript
+isHidden : boolean;
+```
+
+
+### position {#position--}
+
+Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+
+```javascript
+position : number;
+```
+
+
+### positionInSameParentNode {#positionInSameParentNode--}
+
+Specifying the position index in the PivotItems under the same parent node.
+
+```javascript
+positionInSameParentNode : number;
+```
+
+
+### isDetailHidden {#isDetailHidden--}
+
+Gets and sets whether the detail of this pivot item is hidden.
+
+```javascript
+isDetailHidden : boolean;
+```
+
+
+### isCalculatedItem {#isCalculatedItem--}
+
+Readonly. Indicates whether this pivot item is a calculated formula item.
+
+```javascript
+isCalculatedItem : boolean;
+```
+
+
+### isMissing {#isMissing--}
+
+Readonly. Indicates whether the item is removed from the data source.
+
+```javascript
+isMissing : boolean;
+```
+
+
+**Remarks**
+
+True means this value has benn removed from the data source.
+
+### value {#value--}
+
+Readonly. Gets the value of the pivot item
+
+```javascript
+value : Object;
+```
+
+
+### name {#name--}
+
+Gets the name of the pivot item.
+
+```javascript
+name : string;
+```
+
+
+### index {#index--}
+
+Gets the index of the pivot item in cache field.
+
+```javascript
+index : number;
+```
+
+
+### isHidden() {#isHidden--}
+
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Gets and Sets whether the pivot item is hidden.
 
 ```javascript
 isHidden() : boolean;
@@ -53,7 +152,7 @@ isHidden() : boolean;
 
 ### setIsHidden(boolean) {#setIsHidden-boolean-}
 
-Gets and Sets whether the pivot item is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Gets and Sets whether the pivot item is hidden.
 
 ```javascript
 setIsHidden(value: boolean) : void;
@@ -66,7 +165,7 @@ setIsHidden(value: boolean) : void;
 
 ### getPosition() {#getPosition--}
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+<b>@deprecated.</b> Please use the 'position' property instead. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
 
 ```javascript
 getPosition() : number;
@@ -75,7 +174,7 @@ getPosition() : number;
 
 ### setPosition(number) {#setPosition-number-}
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+<b>@deprecated.</b> Please use the 'position' property instead. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
 
 ```javascript
 setPosition(value: number) : void;
@@ -88,7 +187,7 @@ setPosition(value: number) : void;
 
 ### getPositionInSameParentNode() {#getPositionInSameParentNode--}
 
-Specifying the position index in the PivotItems under the same parent node.
+<b>@deprecated.</b> Please use the 'positionInSameParentNode' property instead. Specifying the position index in the PivotItems under the same parent node.
 
 ```javascript
 getPositionInSameParentNode() : number;
@@ -97,7 +196,7 @@ getPositionInSameParentNode() : number;
 
 ### setPositionInSameParentNode(number) {#setPositionInSameParentNode-number-}
 
-Specifying the position index in the PivotItems under the same parent node.
+<b>@deprecated.</b> Please use the 'positionInSameParentNode' property instead. Specifying the position index in the PivotItems under the same parent node.
 
 ```javascript
 setPositionInSameParentNode(value: number) : void;
@@ -110,7 +209,7 @@ setPositionInSameParentNode(value: number) : void;
 
 ### isDetailHidden() {#isDetailHidden--}
 
-Gets and sets whether the detail of this pivot item is hidden.
+<b>@deprecated.</b> Please use the 'isDetailHidden' property instead. Gets and sets whether the detail of this pivot item is hidden.
 
 ```javascript
 isDetailHidden() : boolean;
@@ -119,7 +218,7 @@ isDetailHidden() : boolean;
 
 ### setIsDetailHidden(boolean) {#setIsDetailHidden-boolean-}
 
-Gets and sets whether the detail of this pivot item is hidden.
+<b>@deprecated.</b> Please use the 'isDetailHidden' property instead. Gets and sets whether the detail of this pivot item is hidden.
 
 ```javascript
 setIsDetailHidden(value: boolean) : void;
@@ -132,7 +231,7 @@ setIsDetailHidden(value: boolean) : void;
 
 ### isCalculatedItem() {#isCalculatedItem--}
 
-Indicates whether this pivot item is a calculated formula item.
+<b>@deprecated.</b> Please use the 'isCalculatedItem' property instead. Indicates whether this pivot item is a calculated formula item.
 
 ```javascript
 isCalculatedItem() : boolean;
@@ -141,7 +240,7 @@ isCalculatedItem() : boolean;
 
 ### isMissing() {#isMissing--}
 
-Indicates whether the item is removed from the data source.
+<b>@deprecated.</b> Please use the 'isMissing' property instead. Indicates whether the item is removed from the data source.
 
 ```javascript
 isMissing() : boolean;
@@ -154,7 +253,7 @@ True means this value has benn removed from the data source.
 
 ### getValue() {#getValue--}
 
-Gets the value of the pivot item
+<b>@deprecated.</b> Please use the 'value' property instead. Gets the value of the pivot item
 
 ```javascript
 getValue() : Object;
@@ -163,7 +262,7 @@ getValue() : Object;
 
 ### getName() {#getName--}
 
-Gets the name of the pivot item.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot item.
 
 ```javascript
 getName() : string;
@@ -172,7 +271,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets the name of the pivot item.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot item.
 
 ```javascript
 setName(value: string) : void;
@@ -185,7 +284,7 @@ setName(value: string) : void;
 
 ### getIndex() {#getIndex--}
 
-Gets the index of the pivot item in cache field.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets the index of the pivot item in cache field.
 
 ```javascript
 getIndex() : number;
@@ -194,7 +293,7 @@ getIndex() : number;
 
 ### setIndex(number) {#setIndex-number-}
 
-Gets the index of the pivot item in cache field.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets the index of the pivot item in cache field.
 
 ```javascript
 setIndex(value: number) : void;

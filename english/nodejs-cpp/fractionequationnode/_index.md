@@ -17,27 +17,40 @@ class FractionEquationNode extends EquationNode;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(EquationNode)](#constructor-equationnode-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [fractionType](#fractionType--)| EquationFractionType | This specifies the type of fraction ; the default is 'Bar'. |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
+| [parentNode](#parentNode--)| EquationNode | Specifies the parent node of the current node |
+| [type](#type--)| TextNodeType | Readonly. Represents the type of the node. |
+| [equationType](#equationType--)| EquationNodeType | Readonly. Get the equation type of the current node |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFractionType()](#getFractionType--)| This specifies the type of fraction ; the default is 'Bar'. |
-| [setFractionType(EquationFractionType)](#setFractionType-equationfractiontype-)| This specifies the type of fraction ; the default is 'Bar'. |
+| [getFractionType()](#getFractionType--)| <b>@deprecated.</b> Please use the 'fractionType' property instead. This specifies the type of fraction ; the default is 'Bar'. |
+| [setFractionType(EquationFractionType)](#setFractionType-equationfractiontype-)| <b>@deprecated.</b> Please use the 'fractionType' property instead. This specifies the type of fraction ; the default is 'Bar'. |
 | [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
-| [getParentNode()](#getParentNode--)| Specifies the parent node of the current node |
-| [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
-| [getType()](#getType--)| Represents the type of the node. |
-| [getEquationType()](#getEquationType--)| Get the equation type of the current node |
+| [getParentNode()](#getParentNode--)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [setParentNode(EquationNode)](#setParentNode-equationnode-)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node. |
+| [getEquationType()](#getEquationType--)| <b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node |
 | [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
 | [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
@@ -66,9 +79,81 @@ constructor(obj: EquationNode);
 | --- | --- | --- |
 | obj | EquationNode | The parent object. |
 
-### getFractionType() {#getFractionType--}
+### fractionType {#fractionType--}
 
 This specifies the type of fraction ; the default is 'Bar'.
+
+```javascript
+fractionType : EquationFractionType;
+```
+
+
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
+### parentNode {#parentNode--}
+
+Specifies the parent node of the current node
+
+```javascript
+parentNode : EquationNode;
+```
+
+
+### type {#type--}
+
+Readonly. Represents the type of the node.
+
+```javascript
+type : TextNodeType;
+```
+
+
+### equationType {#equationType--}
+
+Readonly. Get the equation type of the current node
+
+```javascript
+equationType : EquationNodeType;
+```
+
+
+### getFractionType() {#getFractionType--}
+
+<b>@deprecated.</b> Please use the 'fractionType' property instead. This specifies the type of fraction ; the default is 'Bar'.
 
 ```javascript
 getFractionType() : EquationFractionType;
@@ -81,7 +166,7 @@ getFractionType() : EquationFractionType;
 
 ### setFractionType(EquationFractionType) {#setFractionType-equationfractiontype-}
 
-This specifies the type of fraction ; the default is 'Bar'.
+<b>@deprecated.</b> Please use the 'fractionType' property instead. This specifies the type of fraction ; the default is 'Bar'.
 
 ```javascript
 setFractionType(value: EquationFractionType) : void;
@@ -116,7 +201,7 @@ isNull() : boolean;
 
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -125,7 +210,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -134,7 +219,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -147,7 +232,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;
@@ -177,7 +262,7 @@ Only for the text of shape/chart.
 
 ### getParentNode() {#getParentNode--}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 getParentNode() : EquationNode;
@@ -190,7 +275,7 @@ getParentNode() : EquationNode;
 
 ### setParentNode(EquationNode) {#setParentNode-equationnode-}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 setParentNode(value: EquationNode) : void;
@@ -203,7 +288,7 @@ setParentNode(value: EquationNode) : void;
 
 ### getType() {#getType--}
 
-Represents the type of the node.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node.
 
 ```javascript
 getType() : TextNodeType;
@@ -216,7 +301,7 @@ getType() : TextNodeType;
 
 ### getEquationType() {#getEquationType--}
 
-Get the equation type of the current node
+<b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node
 
 ```javascript
 getEquationType() : EquationNodeType;

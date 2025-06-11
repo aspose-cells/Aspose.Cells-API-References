@@ -26,7 +26,7 @@ class PivotFilterCollection;
 | [addLabelFilter(number, PivotFilterType, string, string)](#addLabelFilter-number-pivotfiltertype-string-string-)| Filters by captions of row or column pivot field. |
 | [addDateFilter(number, PivotFilterType, Date, Date)](#addDateFilter-number-pivotfiltertype-date-date-)| Filters by date setting of row or column pivot field. |
 | [clearFilter(number)](#clearFilter-number-)| Clear PivotFilter from the specific PivotField |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -166,7 +166,7 @@ clearFilter(fieldIndex: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

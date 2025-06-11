@@ -17,22 +17,31 @@ class Top10Filter;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isTop](#isTop--)| boolean | Indicates whether it's top filter. |
+| [isPercent](#isPercent--)| boolean | Indicates whether the items is percent. |
+| [items](#items--)| number | Gets and sets the items of the filter. |
+| [criteria](#criteria--)| Object |  |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isTop()](#isTop--)| Indicates whether it's top filter. |
-| [setIsTop(boolean)](#setIsTop-boolean-)| Indicates whether it's top filter. |
-| [isPercent()](#isPercent--)| Indicates whether the items is percent. |
-| [setIsPercent(boolean)](#setIsPercent-boolean-)| Indicates whether the items is percent. |
-| [getItems()](#getItems--)| Gets and sets the items of the filter. |
-| [setItems(number)](#setItems-number-)| Gets and sets the items of the filter. |
-| [getCriteria()](#getCriteria--)|  |
-| [setCriteria(Object)](#setCriteria-object-)|  |
+| [isTop()](#isTop--)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter. |
+| [setIsTop(boolean)](#setIsTop-boolean-)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter. |
+| [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent. |
+| [setIsPercent(boolean)](#setIsPercent-boolean-)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent. |
+| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter. |
+| [setItems(number)](#setItems-number-)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter. |
+| [getCriteria()](#getCriteria--)| <b>@deprecated.</b> Please use the 'criteria' property instead. |
+| [setCriteria(Object)](#setCriteria-object-)| <b>@deprecated.</b> Please use the 'criteria' property instead. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -50,9 +59,45 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
-### isTop() {#isTop--}
+### isTop {#isTop--}
 
 Indicates whether it's top filter.
+
+```javascript
+isTop : boolean;
+```
+
+
+### isPercent {#isPercent--}
+
+Indicates whether the items is percent.
+
+```javascript
+isPercent : boolean;
+```
+
+
+### items {#items--}
+
+Gets and sets the items of the filter.
+
+```javascript
+items : number;
+```
+
+
+### criteria {#criteria--}
+
+
+
+```javascript
+criteria : Object;
+```
+
+
+### isTop() {#isTop--}
+
+<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter.
 
 ```javascript
 isTop() : boolean;
@@ -61,7 +106,7 @@ isTop() : boolean;
 
 ### setIsTop(boolean) {#setIsTop-boolean-}
 
-Indicates whether it's top filter.
+<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter.
 
 ```javascript
 setIsTop(value: boolean) : void;
@@ -74,7 +119,7 @@ setIsTop(value: boolean) : void;
 
 ### isPercent() {#isPercent--}
 
-Indicates whether the items is percent.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent.
 
 ```javascript
 isPercent() : boolean;
@@ -83,7 +128,7 @@ isPercent() : boolean;
 
 ### setIsPercent(boolean) {#setIsPercent-boolean-}
 
-Indicates whether the items is percent.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent.
 
 ```javascript
 setIsPercent(value: boolean) : void;
@@ -96,7 +141,7 @@ setIsPercent(value: boolean) : void;
 
 ### getItems() {#getItems--}
 
-Gets and sets the items of the filter.
+<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter.
 
 ```javascript
 getItems() : number;
@@ -105,7 +150,7 @@ getItems() : number;
 
 ### setItems(number) {#setItems-number-}
 
-Gets and sets the items of the filter.
+<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter.
 
 ```javascript
 setItems(value: number) : void;
@@ -118,7 +163,7 @@ setItems(value: number) : void;
 
 ### getCriteria() {#getCriteria--}
 
-
+<b>@deprecated.</b> Please use the 'criteria' property instead.
 
 ```javascript
 getCriteria() : Object;
@@ -127,7 +172,7 @@ getCriteria() : Object;
 
 ### setCriteria(Object) {#setCriteria-object-}
 
-
+<b>@deprecated.</b> Please use the 'criteria' property instead.
 
 ```javascript
 setCriteria(value: Object) : void;

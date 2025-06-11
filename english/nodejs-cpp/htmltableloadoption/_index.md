@@ -17,26 +17,37 @@ class HtmlTableLoadOption;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [tableIndex](#tableIndex--)| number | Get or set the index of table to import from html. |
+| [id](#id--)| string | Get or set the id of table to import from html |
+| [name](#name--)| string | Get or set the name of table to import from html |
+| [originalSheetIndex](#originalSheetIndex--)| number | Get or set the original index of worksheet in the html. |
+| [targetSheetIndex](#targetSheetIndex--)| number | Get or set the target index of worksheet where the table is to be located. |
+| [tableToListObject](#tableToListObject--)| boolean | Indicates whether generate list objects from imported table. The default value is false. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getTableIndex()](#getTableIndex--)| Get or set the index of table to import from html. |
-| [setTableIndex(number)](#setTableIndex-number-)| Get or set the index of table to import from html. |
-| [getId()](#getId--)| Get or set the id of table to import from html |
-| [setId(string)](#setId-string-)| Get or set the id of table to import from html |
-| [getName()](#getName--)| Get or set the name of table to import from html |
-| [setName(string)](#setName-string-)| Get or set the name of table to import from html |
-| [getOriginalSheetIndex()](#getOriginalSheetIndex--)| Get or set the original index of worksheet in the html. |
-| [setOriginalSheetIndex(number)](#setOriginalSheetIndex-number-)| Get or set the original index of worksheet in the html. |
-| [getTargetSheetIndex()](#getTargetSheetIndex--)| Get or set the target index of worksheet where the table is to be located. |
-| [setTargetSheetIndex(number)](#setTargetSheetIndex-number-)| Get or set the target index of worksheet where the table is to be located. |
-| [getTableToListObject()](#getTableToListObject--)| Indicates whether generate list objects from imported table. The default value is false. |
-| [setTableToListObject(boolean)](#setTableToListObject-boolean-)| Indicates whether generate list objects from imported table. The default value is false. |
+| [getTableIndex()](#getTableIndex--)| <b>@deprecated.</b> Please use the 'tableIndex' property instead. Get or set the index of table to import from html. |
+| [setTableIndex(number)](#setTableIndex-number-)| <b>@deprecated.</b> Please use the 'tableIndex' property instead. Get or set the index of table to import from html. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Get or set the id of table to import from html |
+| [setId(string)](#setId-string-)| <b>@deprecated.</b> Please use the 'id' property instead. Get or set the id of table to import from html |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Get or set the name of table to import from html |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Get or set the name of table to import from html |
+| [getOriginalSheetIndex()](#getOriginalSheetIndex--)| <b>@deprecated.</b> Please use the 'originalSheetIndex' property instead. Get or set the original index of worksheet in the html. |
+| [setOriginalSheetIndex(number)](#setOriginalSheetIndex-number-)| <b>@deprecated.</b> Please use the 'originalSheetIndex' property instead. Get or set the original index of worksheet in the html. |
+| [getTargetSheetIndex()](#getTargetSheetIndex--)| <b>@deprecated.</b> Please use the 'targetSheetIndex' property instead. Get or set the target index of worksheet where the table is to be located. |
+| [setTargetSheetIndex(number)](#setTargetSheetIndex-number-)| <b>@deprecated.</b> Please use the 'targetSheetIndex' property instead. Get or set the target index of worksheet where the table is to be located. |
+| [getTableToListObject()](#getTableToListObject--)| <b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported table. The default value is false. |
+| [setTableToListObject(boolean)](#setTableToListObject-boolean-)| <b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported table. The default value is false. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -49,9 +60,63 @@ constructor();
 ```
 
 
-### getTableIndex() {#getTableIndex--}
+### tableIndex {#tableIndex--}
 
 Get or set the index of table to import from html.
+
+```javascript
+tableIndex : number;
+```
+
+
+### id {#id--}
+
+Get or set the id of table to import from html
+
+```javascript
+id : string;
+```
+
+
+### name {#name--}
+
+Get or set the name of table to import from html
+
+```javascript
+name : string;
+```
+
+
+### originalSheetIndex {#originalSheetIndex--}
+
+Get or set the original index of worksheet in the html.
+
+```javascript
+originalSheetIndex : number;
+```
+
+
+### targetSheetIndex {#targetSheetIndex--}
+
+Get or set the target index of worksheet where the table is to be located.
+
+```javascript
+targetSheetIndex : number;
+```
+
+
+### tableToListObject {#tableToListObject--}
+
+Indicates whether generate list objects from imported table. The default value is false.
+
+```javascript
+tableToListObject : boolean;
+```
+
+
+### getTableIndex() {#getTableIndex--}
+
+<b>@deprecated.</b> Please use the 'tableIndex' property instead. Get or set the index of table to import from html.
 
 ```javascript
 getTableIndex() : number;
@@ -60,7 +125,7 @@ getTableIndex() : number;
 
 ### setTableIndex(number) {#setTableIndex-number-}
 
-Get or set the index of table to import from html.
+<b>@deprecated.</b> Please use the 'tableIndex' property instead. Get or set the index of table to import from html.
 
 ```javascript
 setTableIndex(value: number) : void;
@@ -73,7 +138,7 @@ setTableIndex(value: number) : void;
 
 ### getId() {#getId--}
 
-Get or set the id of table to import from html
+<b>@deprecated.</b> Please use the 'id' property instead. Get or set the id of table to import from html
 
 ```javascript
 getId() : string;
@@ -82,7 +147,7 @@ getId() : string;
 
 ### setId(string) {#setId-string-}
 
-Get or set the id of table to import from html
+<b>@deprecated.</b> Please use the 'id' property instead. Get or set the id of table to import from html
 
 ```javascript
 setId(value: string) : void;
@@ -95,7 +160,7 @@ setId(value: string) : void;
 
 ### getName() {#getName--}
 
-Get or set the name of table to import from html
+<b>@deprecated.</b> Please use the 'name' property instead. Get or set the name of table to import from html
 
 ```javascript
 getName() : string;
@@ -104,7 +169,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Get or set the name of table to import from html
+<b>@deprecated.</b> Please use the 'name' property instead. Get or set the name of table to import from html
 
 ```javascript
 setName(value: string) : void;
@@ -117,7 +182,7 @@ setName(value: string) : void;
 
 ### getOriginalSheetIndex() {#getOriginalSheetIndex--}
 
-Get or set the original index of worksheet in the html.
+<b>@deprecated.</b> Please use the 'originalSheetIndex' property instead. Get or set the original index of worksheet in the html.
 
 ```javascript
 getOriginalSheetIndex() : number;
@@ -126,7 +191,7 @@ getOriginalSheetIndex() : number;
 
 ### setOriginalSheetIndex(number) {#setOriginalSheetIndex-number-}
 
-Get or set the original index of worksheet in the html.
+<b>@deprecated.</b> Please use the 'originalSheetIndex' property instead. Get or set the original index of worksheet in the html.
 
 ```javascript
 setOriginalSheetIndex(value: number) : void;
@@ -139,7 +204,7 @@ setOriginalSheetIndex(value: number) : void;
 
 ### getTargetSheetIndex() {#getTargetSheetIndex--}
 
-Get or set the target index of worksheet where the table is to be located.
+<b>@deprecated.</b> Please use the 'targetSheetIndex' property instead. Get or set the target index of worksheet where the table is to be located.
 
 ```javascript
 getTargetSheetIndex() : number;
@@ -148,7 +213,7 @@ getTargetSheetIndex() : number;
 
 ### setTargetSheetIndex(number) {#setTargetSheetIndex-number-}
 
-Get or set the target index of worksheet where the table is to be located.
+<b>@deprecated.</b> Please use the 'targetSheetIndex' property instead. Get or set the target index of worksheet where the table is to be located.
 
 ```javascript
 setTargetSheetIndex(value: number) : void;
@@ -161,7 +226,7 @@ setTargetSheetIndex(value: number) : void;
 
 ### getTableToListObject() {#getTableToListObject--}
 
-Indicates whether generate list objects from imported table. The default value is false.
+<b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported table. The default value is false.
 
 ```javascript
 getTableToListObject() : boolean;
@@ -170,7 +235,7 @@ getTableToListObject() : boolean;
 
 ### setTableToListObject(boolean) {#setTableToListObject-boolean-}
 
-Indicates whether generate list objects from imported table. The default value is false.
+<b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported table. The default value is false.
 
 ```javascript
 setTableToListObject(value: boolean) : void;

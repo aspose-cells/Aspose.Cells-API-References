@@ -15,24 +15,69 @@ class ContentTypeProperty;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Returns or sets the name of the object. |
+| [value](#value--)| string | Returns or sets the value of the content type property. |
+| [type](#type--)| string | Gets and sets the type of the property. |
+| [isNillable](#isNillable--)| boolean | Indicates whether the value could be empty. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Returns or sets the name of the object. |
-| [setName(string)](#setName-string-)| Returns or sets the name of the object. |
-| [getValue()](#getValue--)| Returns or sets the value of the content type property. |
-| [setValue(string)](#setValue-string-)| Returns or sets the value of the content type property. |
-| [getType()](#getType--)| Gets and sets the type of the property. |
-| [setType(string)](#setType-string-)| Gets and sets the type of the property. |
-| [isNillable()](#isNillable--)| Indicates whether the value could be empty. |
-| [setIsNillable(boolean)](#setIsNillable-boolean-)| Indicates whether the value could be empty. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the content type property. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the content type property. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of the property. |
+| [setType(string)](#setType-string-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of the property. |
+| [isNillable()](#isNillable--)| <b>@deprecated.</b> Please use the 'isNillable' property instead. Indicates whether the value could be empty. |
+| [setIsNillable(boolean)](#setIsNillable-boolean-)| <b>@deprecated.</b> Please use the 'isNillable' property instead. Indicates whether the value could be empty. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### name {#name--}
+
+Returns or sets the name of the object.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Returns or sets the value of the content type property.
+
+```javascript
+value : string;
+```
+
+
+### type {#type--}
+
+Gets and sets the type of the property.
+
+```javascript
+type : string;
+```
+
+
+### isNillable {#isNillable--}
+
+Indicates whether the value could be empty.
+
+```javascript
+isNillable : boolean;
+```
 
 
 ### getName() {#getName--}
 
-Returns or sets the name of the object.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object.
 
 ```javascript
 getName() : string;
@@ -41,7 +86,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Returns or sets the name of the object.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object.
 
 ```javascript
 setName(value: string) : void;
@@ -54,7 +99,7 @@ setName(value: string) : void;
 
 ### getValue() {#getValue--}
 
-Returns or sets the value of the content type property.
+<b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the content type property.
 
 ```javascript
 getValue() : string;
@@ -63,7 +108,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Returns or sets the value of the content type property.
+<b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the content type property.
 
 ```javascript
 setValue(value: string) : void;
@@ -76,7 +121,7 @@ setValue(value: string) : void;
 
 ### getType() {#getType--}
 
-Gets and sets the type of the property.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of the property.
 
 ```javascript
 getType() : string;
@@ -85,7 +130,7 @@ getType() : string;
 
 ### setType(string) {#setType-string-}
 
-Gets and sets the type of the property.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of the property.
 
 ```javascript
 setType(value: string) : void;
@@ -98,7 +143,7 @@ setType(value: string) : void;
 
 ### isNillable() {#isNillable--}
 
-Indicates whether the value could be empty.
+<b>@deprecated.</b> Please use the 'isNillable' property instead. Indicates whether the value could be empty.
 
 ```javascript
 isNillable() : boolean;
@@ -107,7 +152,7 @@ isNillable() : boolean;
 
 ### setIsNillable(boolean) {#setIsNillable-boolean-}
 
-Indicates whether the value could be empty.
+<b>@deprecated.</b> Please use the 'isNillable' property instead. Indicates whether the value could be empty.
 
 ```javascript
 setIsNillable(value: boolean) : void;

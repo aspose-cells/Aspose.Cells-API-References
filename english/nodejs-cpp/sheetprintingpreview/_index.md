@@ -17,15 +17,21 @@ class SheetPrintingPreview;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Worksheet, ImageOrPrintOptions)](#constructor-worksheet-imageorprintoptions-)| The construct of SheetPrintingPreview |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [evaluatedPageCount](#evaluatedPageCount--)| number | Readonly. Evaluate the total page count of this worksheet |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getEvaluatedPageCount()](#getEvaluatedPageCount--)| Evaluate the total page count of this worksheet |
+| [getEvaluatedPageCount()](#getEvaluatedPageCount--)| <b>@deprecated.</b> Please use the 'evaluatedPageCount' property instead. Evaluate the total page count of this worksheet |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +49,18 @@ constructor(sheet: Worksheet, options: ImageOrPrintOptions);
 | sheet | [Worksheet](../worksheet/) | Indicate which spreadsheet to be printed. |
 | options | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output |
 
+### evaluatedPageCount {#evaluatedPageCount--}
+
+Readonly. Evaluate the total page count of this worksheet
+
+```javascript
+evaluatedPageCount : number;
+```
+
+
 ### getEvaluatedPageCount() {#getEvaluatedPageCount--}
 
-Evaluate the total page count of this worksheet
+<b>@deprecated.</b> Please use the 'evaluatedPageCount' property instead. Evaluate the total page count of this worksheet
 
 ```javascript
 getEvaluatedPageCount() : number;

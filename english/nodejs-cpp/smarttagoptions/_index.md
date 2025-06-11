@@ -17,18 +17,25 @@ class SmartTagOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [embedSmartTags](#embedSmartTags--)| boolean | Indicates whether saving smart tags with the workbook. |
+| [showType](#showType--)| SmartTagShowType | Represents the show type of smart tag. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getEmbedSmartTags()](#getEmbedSmartTags--)| Indicates whether saving smart tags with the workbook. |
-| [setEmbedSmartTags(boolean)](#setEmbedSmartTags-boolean-)| Indicates whether saving smart tags with the workbook. |
-| [getShowType()](#getShowType--)| Represents the show type of smart tag. |
-| [setShowType(SmartTagShowType)](#setShowType-smarttagshowtype-)| Represents the show type of smart tag. |
+| [getEmbedSmartTags()](#getEmbedSmartTags--)| <b>@deprecated.</b> Please use the 'embedSmartTags' property instead. Indicates whether saving smart tags with the workbook. |
+| [setEmbedSmartTags(boolean)](#setEmbedSmartTags-boolean-)| <b>@deprecated.</b> Please use the 'embedSmartTags' property instead. Indicates whether saving smart tags with the workbook. |
+| [getShowType()](#getShowType--)| <b>@deprecated.</b> Please use the 'showType' property instead. Represents the show type of smart tag. |
+| [setShowType(SmartTagShowType)](#setShowType-smarttagshowtype-)| <b>@deprecated.</b> Please use the 'showType' property instead. Represents the show type of smart tag. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,9 +48,27 @@ constructor();
 ```
 
 
-### getEmbedSmartTags() {#getEmbedSmartTags--}
+### embedSmartTags {#embedSmartTags--}
 
 Indicates whether saving smart tags with the workbook.
+
+```javascript
+embedSmartTags : boolean;
+```
+
+
+### showType {#showType--}
+
+Represents the show type of smart tag.
+
+```javascript
+showType : SmartTagShowType;
+```
+
+
+### getEmbedSmartTags() {#getEmbedSmartTags--}
+
+<b>@deprecated.</b> Please use the 'embedSmartTags' property instead. Indicates whether saving smart tags with the workbook.
 
 ```javascript
 getEmbedSmartTags() : boolean;
@@ -52,7 +77,7 @@ getEmbedSmartTags() : boolean;
 
 ### setEmbedSmartTags(boolean) {#setEmbedSmartTags-boolean-}
 
-Indicates whether saving smart tags with the workbook.
+<b>@deprecated.</b> Please use the 'embedSmartTags' property instead. Indicates whether saving smart tags with the workbook.
 
 ```javascript
 setEmbedSmartTags(value: boolean) : void;
@@ -65,7 +90,7 @@ setEmbedSmartTags(value: boolean) : void;
 
 ### getShowType() {#getShowType--}
 
-Represents the show type of smart tag.
+<b>@deprecated.</b> Please use the 'showType' property instead. Represents the show type of smart tag.
 
 ```javascript
 getShowType() : SmartTagShowType;
@@ -78,7 +103,7 @@ getShowType() : SmartTagShowType;
 
 ### setShowType(SmartTagShowType) {#setShowType-smarttagshowtype-}
 
-Represents the show type of smart tag.
+<b>@deprecated.</b> Please use the 'showType' property instead. Represents the show type of smart tag.
 
 ```javascript
 setShowType(value: SmartTagShowType) : void;

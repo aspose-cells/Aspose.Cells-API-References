@@ -24,7 +24,7 @@ class TextBoxCollection;
 | [add(number, number, number, number)](#add-number-number-number-number-)| Adds a textbox to the collection. |
 | [removeAt(number)](#removeAt-number-)| Remove a text box from the file. |
 | [clear()](#clear--)| Clear all text boxes. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -106,7 +106,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

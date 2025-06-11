@@ -15,23 +15,58 @@ class ConditionalFormattingIcon;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [imageData](#imageData--)| Uint8Array | Readonly. Gets the icon set data. |
+| [type](#type--)| IconSetType | Gets and sets the icon set type. |
+| [index](#index--)| number | Gets and sets the icon's index in the icon set. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getImageData()](#getImageData--)| Gets the icon set data. |
-| [getType()](#getType--)| Gets and sets the icon set type. |
-| [setType(IconSetType)](#setType-iconsettype-)| Gets and sets the icon set type. |
-| [getIndex()](#getIndex--)| Gets and sets the icon's index in the icon set. |
-| [setIndex(number)](#setIndex-number-)| Gets and sets the icon's index in the icon set. |
+| [getImageData()](#getImageData--)| <b>@deprecated.</b> Please use the 'imageData' property instead. Gets the icon set data. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the icon set type. |
+| [setType(IconSetType)](#setType-iconsettype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the icon set type. |
+| [getIndex()](#getIndex--)| <b>@deprecated.</b> Please use the 'index' property instead. Gets and sets the icon's index in the icon set. |
+| [setIndex(number)](#setIndex-number-)| <b>@deprecated.</b> Please use the 'index' property instead. Gets and sets the icon's index in the icon set. |
 | [getImageData(Cell)](#getImageData-cell-)| Gets the image data with the setting of cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [getIconImageData(IconSetType, number)](#getIconImageData-iconsettype-number-)| Get the icon set data |
 
 
+### imageData {#imageData--}
+
+Readonly. Gets the icon set data.
+
+```javascript
+imageData : Uint8Array;
+```
+
+
+### type {#type--}
+
+Gets and sets the icon set type.
+
+```javascript
+type : IconSetType;
+```
+
+
+### index {#index--}
+
+Gets and sets the icon's index in the icon set.
+
+```javascript
+index : number;
+```
+
+
 ### getImageData() {#getImageData--}
 
-Gets the icon set data.
+<b>@deprecated.</b> Please use the 'imageData' property instead. Gets the icon set data.
 
 ```javascript
 getImageData() : Uint8Array;
@@ -40,7 +75,7 @@ getImageData() : Uint8Array;
 
 ### getType() {#getType--}
 
-Gets and sets the icon set type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the icon set type.
 
 ```javascript
 getType() : IconSetType;
@@ -53,7 +88,7 @@ getType() : IconSetType;
 
 ### setType(IconSetType) {#setType-iconsettype-}
 
-Gets and sets the icon set type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the icon set type.
 
 ```javascript
 setType(value: IconSetType) : void;
@@ -66,7 +101,7 @@ setType(value: IconSetType) : void;
 
 ### getIndex() {#getIndex--}
 
-Gets and sets the icon's index in the icon set.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets and sets the icon's index in the icon set.
 
 ```javascript
 getIndex() : number;
@@ -75,7 +110,7 @@ getIndex() : number;
 
 ### setIndex(number) {#setIndex-number-}
 
-Gets and sets the icon's index in the icon set.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets and sets the icon's index in the icon set.
 
 ```javascript
 setIndex(value: number) : void;

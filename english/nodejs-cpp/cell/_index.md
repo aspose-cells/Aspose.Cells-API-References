@@ -20,82 +20,122 @@ class Cell;
 const { Workbook, Color, TextAlignmentType } = require("aspose.cells.node");
 
 var excel = new Workbook();
-var cells = excel.getWorksheets().get(0).getCells();
+var cells = excel.worksheets.get(0).cells;
 
 //Put a string into a cell
 var cell = cells.get(0, 0);
 cell.putValue("Hello");
-var first = cell.getStringValue();
+var first = cell.stringValue;
 //Put an integer into a cell
 cell = cells.get("B1");
 cell.putValue(12);
-var second = cell.getIntValue();
+var second = cell.intValue;
 //Put a double into a cell
 cell = cells.get(0, 2);
 cell.putValue(-1.234);
-var third = cell.getDoubleValue();
+var third = cell.doubleValue;
 //Put a formula into a cell
 cell = cells.get("D1");
-cell.setFormula("=B1 + C1");
+cell.formula = "=B1 + C1";
 //Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
 cell = cells.get("b2");
-cell.setFormula("=sum(average(b1,c1), b1)");
+cell.formula = "=sum(average(b1,c1), b1)";
 
 //Set style of a cell
 var style = cell.getStyle();
 //Set background color
-style.setBackgroundColor(Color.Yellow);
+style.backgroundColor = Color.Yellow;
 //Set format of a cell
-style.getFont().setName("Courier New");
-style.setVerticalAlignment(TextAlignmentType.Top);
+style.font.setName("Courier New");
+style.verticalAlignment = TextAlignmentType.Top;
 cell.setStyle(style);
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the parent worksheet. |
+| [dateTimeValue](#dateTimeValue--)| Date | Readonly. Gets the DateTime value contained in the cell. |
+| [row](#row--)| number | Readonly. Gets row number (zero based) of the cell. |
+| [column](#column--)| number | Readonly. Gets column number (zero based) of the cell. |
+| [isFormula](#isFormula--)| boolean | Readonly. Represents if the specified cell contains formula. |
+| [hasCustomFunction](#hasCustomFunction--)| boolean | Readonly. Checks whether there is custom function(unsupported function) in this cell's formula. |
+| [type](#type--)| CellValueType | Readonly. Represents cell value type. |
+| [name](#name--)| string | Readonly. Gets the name of the cell. |
+| [isErrorValue](#isErrorValue--)| boolean | Readonly. Checks if the value of this cell is an error. |
+| [isNumericValue](#isNumericValue--)| boolean | Readonly. Indicates whether the value of this cell is numeric(int, double and datetime) |
+| [stringValue](#stringValue--)| string | Readonly. Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
+| [numberCategoryType](#numberCategoryType--)| NumberCategoryType | Readonly. Represents the category type of this cell's number formatting. |
+| [displayStringValue](#displayStringValue--)| string | Readonly. Gets the formatted string value of this cell by cell's display style. |
+| [intValue](#intValue--)| number | Readonly. Gets the integer value contained in the cell. |
+| [doubleValue](#doubleValue--)| number | Readonly. Gets the double value contained in the cell. |
+| [floatValue](#floatValue--)| number | Readonly. Gets the float value contained in the cell. |
+| [boolValue](#boolValue--)| boolean | Readonly. Gets the boolean value contained in the cell. |
+| [hasCustomStyle](#hasCustomStyle--)| boolean | Readonly. Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
+| [sharedStyleIndex](#sharedStyleIndex--)| number | Readonly. Gets cell's shared style index in the style pool. |
+| [formula](#formula--)| string | Gets or sets a formula of the [Cell](../cell/). |
+| [formulaLocal](#formulaLocal--)| string | Get the locale formatted formula of the cell. |
+| [r1C1Formula](#r1C1Formula--)| string | Gets or sets a R1C1 formula of the [Cell](../cell/). |
+| [containsExternalLink](#containsExternalLink--)| boolean | Readonly. Indicates whether this cell contains an external link. Only applies when the cell is a formula cell. |
+| [isArrayHeader](#isArrayHeader--)| boolean | Readonly. Indicates the cell's formula is an array formula and it is the first cell of the array. |
+| [isDynamicArrayFormula](#isDynamicArrayFormula--)| boolean | Readonly. Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
+| [isArrayFormula](#isArrayFormula--)| boolean | Readonly. Indicates whether the cell formula is an array formula. |
+| [isSharedFormula](#isSharedFormula--)| boolean | Readonly. Indicates whether the cell formula is part of shared formula. |
+| [isTableFormula](#isTableFormula--)| boolean | Readonly. Indicates whether this cell is part of table formula. |
+| [value](#value--)| Object | Gets/sets the value contained in this cell. |
+| [isStyleSet](#isStyleSet--)| boolean | Readonly. Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
+| [isMerged](#isMerged--)| boolean | Readonly. Checks if a cell is part of a merged range or not. |
+| [comment](#comment--)| Comment | Readonly. Gets the comment of this cell. |
+| [htmlString](#htmlString--)| string | Gets and sets the html string which contains data and some formats in this cell. |
+| [isCheckBoxStyle](#isCheckBoxStyle--)| boolean | Indicates whether setting this cell as a check box. |
+| [embeddedImage](#embeddedImage--)| Uint8Array | Gets and sets the embeddedn image in the cell. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWorksheet()](#getWorksheet--)| Gets the parent worksheet. |
-| [getDateTimeValue()](#getDateTimeValue--)| Gets the DateTime value contained in the cell. |
-| [getRow()](#getRow--)| Gets row number (zero based) of the cell. |
-| [getColumn()](#getColumn--)| Gets column number (zero based) of the cell. |
-| [isFormula()](#isFormula--)| Represents if the specified cell contains formula. |
-| [getHasCustomFunction()](#getHasCustomFunction--)| Checks whether there is custom function(unsupported function) in this cell's formula. |
-| [getType()](#getType--)| Represents cell value type. |
-| [getName()](#getName--)| Gets the name of the cell. |
-| [isErrorValue()](#isErrorValue--)| Checks if the value of this cell is an error. |
-| [isNumericValue()](#isNumericValue--)| Indicates whether the value of this cell is numeric(int, double and datetime) |
-| [getStringValue()](#getStringValue--)| Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
-| [getNumberCategoryType()](#getNumberCategoryType--)| Represents the category type of this cell's number formatting. |
-| [getDisplayStringValue()](#getDisplayStringValue--)| Gets the formatted string value of this cell by cell's display style. |
-| [getIntValue()](#getIntValue--)| Gets the integer value contained in the cell. |
-| [getDoubleValue()](#getDoubleValue--)| Gets the double value contained in the cell. |
-| [getFloatValue()](#getFloatValue--)| Gets the float value contained in the cell. |
-| [getBoolValue()](#getBoolValue--)| Gets the boolean value contained in the cell. |
-| [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
-| [getSharedStyleIndex()](#getSharedStyleIndex--)| Gets cell's shared style index in the style pool. |
-| [getFormula()](#getFormula--)| Gets or sets a formula of the [Cell](../cell/). |
-| [setFormula(string)](#setFormula-string-)| Gets or sets a formula of the [Cell](../cell/). |
-| [getFormulaLocal()](#getFormulaLocal--)| Get the locale formatted formula of the cell. |
-| [setFormulaLocal(string)](#setFormulaLocal-string-)| Get the locale formatted formula of the cell. |
-| [getR1C1Formula()](#getR1C1Formula--)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
-| [setR1C1Formula(string)](#setR1C1Formula-string-)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
-| [getContainsExternalLink()](#getContainsExternalLink--)| Indicates whether this cell contains an external link. Only applies when the cell is a formula cell. |
-| [isArrayHeader()](#isArrayHeader--)| Indicates the cell's formula is an array formula and it is the first cell of the array. |
-| [isDynamicArrayFormula()](#isDynamicArrayFormula--)| Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
-| [isArrayFormula()](#isArrayFormula--)| Indicates whether the cell formula is an array formula. |
-| [isSharedFormula()](#isSharedFormula--)| Indicates whether the cell formula is part of shared formula. |
-| [isTableFormula()](#isTableFormula--)| Indicates whether this cell is part of table formula. |
-| [getValue()](#getValue--)| Gets/sets the value contained in this cell. |
-| [setValue(Object)](#setValue-object-)| Gets/sets the value contained in this cell. |
-| [isStyleSet()](#isStyleSet--)| Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
-| [isMerged()](#isMerged--)| Checks if a cell is part of a merged range or not. |
-| [getComment()](#getComment--)| Gets the comment of this cell. |
-| [getHtmlString()](#getHtmlString--)| Gets and sets the html string which contains data and some formats in this cell. |
-| [setHtmlString(string)](#setHtmlString-string-)| Gets and sets the html string which contains data and some formats in this cell. |
-| [isCheckBoxStyle()](#isCheckBoxStyle--)| Indicates whether setting this cell as a check box. |
-| [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| Indicates whether setting this cell as a check box. |
-| [getEmbeddedImage()](#getEmbeddedImage--)| Gets and sets the embeddedn image in the cell. |
-| [setEmbeddedImage(Uint8Array)](#setEmbeddedImage-uint8array-)| Gets and sets the embeddedn image in the cell. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the parent worksheet. |
+| [getDateTimeValue()](#getDateTimeValue--)| <b>@deprecated.</b> Please use the 'dateTimeValue' property instead. Gets the DateTime value contained in the cell. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets row number (zero based) of the cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets column number (zero based) of the cell. |
+| [isFormula()](#isFormula--)| <b>@deprecated.</b> Please use the 'isFormula' property instead. Represents if the specified cell contains formula. |
+| [getHasCustomFunction()](#getHasCustomFunction--)| <b>@deprecated.</b> Please use the 'hasCustomFunction' property instead. Checks whether there is custom function(unsupported function) in this cell's formula. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents cell value type. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the cell. |
+| [isErrorValue()](#isErrorValue--)| <b>@deprecated.</b> Please use the 'isErrorValue' property instead. Checks if the value of this cell is an error. |
+| [isNumericValue()](#isNumericValue--)| <b>@deprecated.</b> Please use the 'isNumericValue' property instead. Indicates whether the value of this cell is numeric(int, double and datetime) |
+| [getStringValue()](#getStringValue--)| <b>@deprecated.</b> Please use the 'stringValue' property instead. Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
+| [getNumberCategoryType()](#getNumberCategoryType--)| <b>@deprecated.</b> Please use the 'numberCategoryType' property instead. Represents the category type of this cell's number formatting. |
+| [getDisplayStringValue()](#getDisplayStringValue--)| <b>@deprecated.</b> Please use the 'displayStringValue' property instead. Gets the formatted string value of this cell by cell's display style. |
+| [getIntValue()](#getIntValue--)| <b>@deprecated.</b> Please use the 'intValue' property instead. Gets the integer value contained in the cell. |
+| [getDoubleValue()](#getDoubleValue--)| <b>@deprecated.</b> Please use the 'doubleValue' property instead. Gets the double value contained in the cell. |
+| [getFloatValue()](#getFloatValue--)| <b>@deprecated.</b> Please use the 'floatValue' property instead. Gets the float value contained in the cell. |
+| [getBoolValue()](#getBoolValue--)| <b>@deprecated.</b> Please use the 'boolValue' property instead. Gets the boolean value contained in the cell. |
+| [getHasCustomStyle()](#getHasCustomStyle--)| <b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
+| [getSharedStyleIndex()](#getSharedStyleIndex--)| <b>@deprecated.</b> Please use the 'sharedStyleIndex' property instead. Gets cell's shared style index in the style pool. |
+| [getFormula()](#getFormula--)| <b>@deprecated.</b> Please use the 'formula' property instead. Gets or sets a formula of the [Cell](../cell/). |
+| [setFormula(string)](#setFormula-string-)| <b>@deprecated.</b> Please use the 'formula' property instead. Gets or sets a formula of the [Cell](../cell/). |
+| [getFormulaLocal()](#getFormulaLocal--)| <b>@deprecated.</b> Please use the 'formulaLocal' property instead. Get the locale formatted formula of the cell. |
+| [setFormulaLocal(string)](#setFormulaLocal-string-)| <b>@deprecated.</b> Please use the 'formulaLocal' property instead. Get the locale formatted formula of the cell. |
+| [getR1C1Formula()](#getR1C1Formula--)| <b>@deprecated.</b> Please use the 'r1C1Formula' property instead. Gets or sets a R1C1 formula of the [Cell](../cell/). |
+| [setR1C1Formula(string)](#setR1C1Formula-string-)| <b>@deprecated.</b> Please use the 'r1C1Formula' property instead. Gets or sets a R1C1 formula of the [Cell](../cell/). |
+| [getContainsExternalLink()](#getContainsExternalLink--)| <b>@deprecated.</b> Please use the 'containsExternalLink' property instead. Indicates whether this cell contains an external link. Only applies when the cell is a formula cell. |
+| [isArrayHeader()](#isArrayHeader--)| <b>@deprecated.</b> Please use the 'isArrayHeader' property instead. Indicates the cell's formula is an array formula and it is the first cell of the array. |
+| [isDynamicArrayFormula()](#isDynamicArrayFormula--)| <b>@deprecated.</b> Please use the 'isDynamicArrayFormula' property instead. Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
+| [isArrayFormula()](#isArrayFormula--)| <b>@deprecated.</b> Please use the 'isArrayFormula' property instead. Indicates whether the cell formula is an array formula. |
+| [isSharedFormula()](#isSharedFormula--)| <b>@deprecated.</b> Please use the 'isSharedFormula' property instead. Indicates whether the cell formula is part of shared formula. |
+| [isTableFormula()](#isTableFormula--)| <b>@deprecated.</b> Please use the 'isTableFormula' property instead. Indicates whether this cell is part of table formula. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the value contained in this cell. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the value contained in this cell. |
+| [isStyleSet()](#isStyleSet--)| <b>@deprecated.</b> Please use the 'isStyleSet' property instead. Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
+| [isMerged()](#isMerged--)| <b>@deprecated.</b> Please use the 'isMerged' property instead. Checks if a cell is part of a merged range or not. |
+| [getComment()](#getComment--)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets the comment of this cell. |
+| [getHtmlString()](#getHtmlString--)| <b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this cell. |
+| [setHtmlString(string)](#setHtmlString-string-)| <b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this cell. |
+| [isCheckBoxStyle()](#isCheckBoxStyle--)| <b>@deprecated.</b> Please use the 'isCheckBoxStyle' property instead. Indicates whether setting this cell as a check box. |
+| [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| <b>@deprecated.</b> Please use the 'isCheckBoxStyle' property instead. Indicates whether setting this cell as a check box. |
+| [getEmbeddedImage()](#getEmbeddedImage--)| <b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embeddedn image in the cell. |
+| [setEmbeddedImage(Uint8Array)](#setEmbeddedImage-uint8array-)| <b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embeddedn image in the cell. |
 | [calculate(CalculationOptions)](#calculate-calculationoptions-)| Calculates the formula of the cell. |
 | [putValue(boolean)](#putValue-boolean-)| Puts a boolean value into the cell. |
 | [putValue(number)](#putValue-number-)| Puts an integer value into the cell. |
@@ -164,9 +204,361 @@ cell.setStyle(style);
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### worksheet {#worksheet--}
+
+Readonly. Gets the parent worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### dateTimeValue {#dateTimeValue--}
+
+Readonly. Gets the DateTime value contained in the cell.
+
+```javascript
+dateTimeValue : Date;
+```
+
+
+### row {#row--}
+
+Readonly. Gets row number (zero based) of the cell.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets column number (zero based) of the cell.
+
+```javascript
+column : number;
+```
+
+
+### isFormula {#isFormula--}
+
+Readonly. Represents if the specified cell contains formula.
+
+```javascript
+isFormula : boolean;
+```
+
+
+### hasCustomFunction {#hasCustomFunction--}
+
+Readonly. Checks whether there is custom function(unsupported function) in this cell's formula.
+
+```javascript
+hasCustomFunction : boolean;
+```
+
+
+### type {#type--}
+
+Readonly. Represents cell value type.
+
+```javascript
+type : CellValueType;
+```
+
+
+### name {#name--}
+
+Readonly. Gets the name of the cell.
+
+```javascript
+name : string;
+```
+
+
+**Remarks**
+
+A cell name includes its column letter and row number. For example, the name of a cell in row 0 and column 0 is A1.
+
+### isErrorValue {#isErrorValue--}
+
+Readonly. Checks if the value of this cell is an error.
+
+```javascript
+isErrorValue : boolean;
+```
+
+
+**Remarks**
+
+Also applies to formula cell to check whether the calculated result is an error.
+
+### isNumericValue {#isNumericValue--}
+
+Readonly. Indicates whether the value of this cell is numeric(int, double and datetime)
+
+```javascript
+isNumericValue : boolean;
+```
+
+
+**Remarks**
+
+Also applies to formula cell to check the calculated result
+
+### stringValue {#stringValue--}
+
+Readonly. Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv).
+
+```javascript
+stringValue : string;
+```
+
+
+### numberCategoryType {#numberCategoryType--}
+
+Readonly. Represents the category type of this cell's number formatting.
+
+```javascript
+numberCategoryType : NumberCategoryType;
+```
+
+
+**Remarks**
+
+When cell's formatting pattern is combined with conditional formatting patterns, then the returned type is corresponding to the part which is used for current value of this cell. For example, if the formatting pattern for this cell is "#,##0;(#,##0);"-";@", then when cell's value is numeric and not 0, the returned type is [NumberCategoryType.Number](../numbercategorytype.number/); When cell's value is 0 or not numeric value, the returned type is [NumberCategoryType.Text](../numbercategorytype.text/).
+
+### displayStringValue {#displayStringValue--}
+
+Readonly. Gets the formatted string value of this cell by cell's display style.
+
+```javascript
+displayStringValue : string;
+```
+
+
+### intValue {#intValue--}
+
+Readonly. Gets the integer value contained in the cell.
+
+```javascript
+intValue : number;
+```
+
+
+### doubleValue {#doubleValue--}
+
+Readonly. Gets the double value contained in the cell.
+
+```javascript
+doubleValue : number;
+```
+
+
+### floatValue {#floatValue--}
+
+Readonly. Gets the float value contained in the cell.
+
+```javascript
+floatValue : number;
+```
+
+
+### boolValue {#boolValue--}
+
+Readonly. Gets the boolean value contained in the cell.
+
+```javascript
+boolValue : boolean;
+```
+
+
+### hasCustomStyle {#hasCustomStyle--}
+
+Readonly. Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook).
+
+```javascript
+hasCustomStyle : boolean;
+```
+
+
+### sharedStyleIndex {#sharedStyleIndex--}
+
+Readonly. Gets cell's shared style index in the style pool.
+
+```javascript
+sharedStyleIndex : number;
+```
+
+
+### formula {#formula--}
+
+Gets or sets a formula of the [Cell](../cell/).
+
+```javascript
+formula : string;
+```
+
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.worksheets.get(0).cells;
+cells.get("B6").formula = "=SUM(B2:B5, E1) + sheet2!A1";
+```
+
+### formulaLocal {#formulaLocal--}
+
+Get the locale formatted formula of the cell.
+
+```javascript
+formulaLocal : string;
+```
+
+
+### r1C1Formula {#r1C1Formula--}
+
+Gets or sets a R1C1 formula of the [Cell](../cell/).
+
+```javascript
+r1C1Formula : string;
+```
+
+
+### containsExternalLink {#containsExternalLink--}
+
+Readonly. Indicates whether this cell contains an external link. Only applies when the cell is a formula cell.
+
+```javascript
+containsExternalLink : boolean;
+```
+
+
+### isArrayHeader {#isArrayHeader--}
+
+Readonly. Indicates the cell's formula is an array formula and it is the first cell of the array.
+
+```javascript
+isArrayHeader : boolean;
+```
+
+
+### isDynamicArrayFormula {#isDynamicArrayFormula--}
+
+Readonly. Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false).
+
+```javascript
+isDynamicArrayFormula : boolean;
+```
+
+
+### isArrayFormula {#isArrayFormula--}
+
+Readonly. Indicates whether the cell formula is an array formula.
+
+```javascript
+isArrayFormula : boolean;
+```
+
+
+### isSharedFormula {#isSharedFormula--}
+
+Readonly. Indicates whether the cell formula is part of shared formula.
+
+```javascript
+isSharedFormula : boolean;
+```
+
+
+### isTableFormula {#isTableFormula--}
+
+Readonly. Indicates whether this cell is part of table formula.
+
+```javascript
+isTableFormula : boolean;
+```
+
+
+### value {#value--}
+
+Gets/sets the value contained in this cell.
+
+```javascript
+value : Object;
+```
+
+
+**Remarks**
+
+Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>Integer</p> <p>String.</p> For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
+
+### isStyleSet {#isStyleSet--}
+
+Readonly. Indicates if the cell's style is set. If return false, it means this cell has a default cell format.
+
+```javascript
+isStyleSet : boolean;
+```
+
+
+### isMerged {#isMerged--}
+
+Readonly. Checks if a cell is part of a merged range or not.
+
+```javascript
+isMerged : boolean;
+```
+
+
+### comment {#comment--}
+
+Readonly. Gets the comment of this cell.
+
+```javascript
+comment : Comment;
+```
+
+
+**Remarks**
+
+If there is no comment applies to the cell, returns null.
+
+### htmlString {#htmlString--}
+
+Gets and sets the html string which contains data and some formats in this cell.
+
+```javascript
+htmlString : string;
+```
+
+
+### isCheckBoxStyle {#isCheckBoxStyle--}
+
+Indicates whether setting this cell as a check box.
+
+```javascript
+isCheckBoxStyle : boolean;
+```
+
+
+### embeddedImage {#embeddedImage--}
+
+Gets and sets the embeddedn image in the cell.
+
+```javascript
+embeddedImage : Uint8Array;
+```
+
+
 ### getWorksheet() {#getWorksheet--}
 
-Gets the parent worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the parent worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -179,7 +571,7 @@ getWorksheet() : Worksheet;
 
 ### getDateTimeValue() {#getDateTimeValue--}
 
-Gets the DateTime value contained in the cell.
+<b>@deprecated.</b> Please use the 'dateTimeValue' property instead. Gets the DateTime value contained in the cell.
 
 ```javascript
 getDateTimeValue() : Date;
@@ -188,7 +580,7 @@ getDateTimeValue() : Date;
 
 ### getRow() {#getRow--}
 
-Gets row number (zero based) of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets row number (zero based) of the cell.
 
 ```javascript
 getRow() : number;
@@ -197,7 +589,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets column number (zero based) of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets column number (zero based) of the cell.
 
 ```javascript
 getColumn() : number;
@@ -206,7 +598,7 @@ getColumn() : number;
 
 ### isFormula() {#isFormula--}
 
-Represents if the specified cell contains formula.
+<b>@deprecated.</b> Please use the 'isFormula' property instead. Represents if the specified cell contains formula.
 
 ```javascript
 isFormula() : boolean;
@@ -215,7 +607,7 @@ isFormula() : boolean;
 
 ### getHasCustomFunction() {#getHasCustomFunction--}
 
-Checks whether there is custom function(unsupported function) in this cell's formula.
+<b>@deprecated.</b> Please use the 'hasCustomFunction' property instead. Checks whether there is custom function(unsupported function) in this cell's formula.
 
 ```javascript
 getHasCustomFunction() : boolean;
@@ -224,7 +616,7 @@ getHasCustomFunction() : boolean;
 
 ### getType() {#getType--}
 
-Represents cell value type.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents cell value type.
 
 ```javascript
 getType() : CellValueType;
@@ -237,7 +629,7 @@ getType() : CellValueType;
 
 ### getName() {#getName--}
 
-Gets the name of the cell.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the cell.
 
 ```javascript
 getName() : string;
@@ -250,7 +642,7 @@ A cell name includes its column letter and row number. For example, the name of 
 
 ### isErrorValue() {#isErrorValue--}
 
-Checks if the value of this cell is an error.
+<b>@deprecated.</b> Please use the 'isErrorValue' property instead. Checks if the value of this cell is an error.
 
 ```javascript
 isErrorValue() : boolean;
@@ -263,7 +655,7 @@ Also applies to formula cell to check whether the calculated result is an error.
 
 ### isNumericValue() {#isNumericValue--}
 
-Indicates whether the value of this cell is numeric(int, double and datetime)
+<b>@deprecated.</b> Please use the 'isNumericValue' property instead. Indicates whether the value of this cell is numeric(int, double and datetime)
 
 ```javascript
 isNumericValue() : boolean;
@@ -276,7 +668,7 @@ Also applies to formula cell to check the calculated result
 
 ### getStringValue() {#getStringValue--}
 
-Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv).
+<b>@deprecated.</b> Please use the 'stringValue' property instead. Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv).
 
 ```javascript
 getStringValue() : string;
@@ -285,7 +677,7 @@ getStringValue() : string;
 
 ### getNumberCategoryType() {#getNumberCategoryType--}
 
-Represents the category type of this cell's number formatting.
+<b>@deprecated.</b> Please use the 'numberCategoryType' property instead. Represents the category type of this cell's number formatting.
 
 ```javascript
 getNumberCategoryType() : NumberCategoryType;
@@ -302,7 +694,7 @@ When cell's formatting pattern is combined with conditional formatting patterns,
 
 ### getDisplayStringValue() {#getDisplayStringValue--}
 
-Gets the formatted string value of this cell by cell's display style.
+<b>@deprecated.</b> Please use the 'displayStringValue' property instead. Gets the formatted string value of this cell by cell's display style.
 
 ```javascript
 getDisplayStringValue() : string;
@@ -311,7 +703,7 @@ getDisplayStringValue() : string;
 
 ### getIntValue() {#getIntValue--}
 
-Gets the integer value contained in the cell.
+<b>@deprecated.</b> Please use the 'intValue' property instead. Gets the integer value contained in the cell.
 
 ```javascript
 getIntValue() : number;
@@ -320,7 +712,7 @@ getIntValue() : number;
 
 ### getDoubleValue() {#getDoubleValue--}
 
-Gets the double value contained in the cell.
+<b>@deprecated.</b> Please use the 'doubleValue' property instead. Gets the double value contained in the cell.
 
 ```javascript
 getDoubleValue() : number;
@@ -329,7 +721,7 @@ getDoubleValue() : number;
 
 ### getFloatValue() {#getFloatValue--}
 
-Gets the float value contained in the cell.
+<b>@deprecated.</b> Please use the 'floatValue' property instead. Gets the float value contained in the cell.
 
 ```javascript
 getFloatValue() : number;
@@ -338,7 +730,7 @@ getFloatValue() : number;
 
 ### getBoolValue() {#getBoolValue--}
 
-Gets the boolean value contained in the cell.
+<b>@deprecated.</b> Please use the 'boolValue' property instead. Gets the boolean value contained in the cell.
 
 ```javascript
 getBoolValue() : boolean;
@@ -347,7 +739,7 @@ getBoolValue() : boolean;
 
 ### getHasCustomStyle() {#getHasCustomStyle--}
 
-Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook).
+<b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook).
 
 ```javascript
 getHasCustomStyle() : boolean;
@@ -356,7 +748,7 @@ getHasCustomStyle() : boolean;
 
 ### getSharedStyleIndex() {#getSharedStyleIndex--}
 
-Gets cell's shared style index in the style pool.
+<b>@deprecated.</b> Please use the 'sharedStyleIndex' property instead. Gets cell's shared style index in the style pool.
 
 ```javascript
 getSharedStyleIndex() : number;
@@ -365,7 +757,7 @@ getSharedStyleIndex() : number;
 
 ### getFormula() {#getFormula--}
 
-Gets or sets a formula of the [Cell](../cell/).
+<b>@deprecated.</b> Please use the 'formula' property instead. Gets or sets a formula of the [Cell](../cell/).
 
 ```javascript
 getFormula() : string;
@@ -378,7 +770,7 @@ A formula string always begins with an equal sign (=). And please always use com
 
 ### setFormula(string) {#setFormula-string-}
 
-Gets or sets a formula of the [Cell](../cell/).
+<b>@deprecated.</b> Please use the 'formula' property instead. Gets or sets a formula of the [Cell](../cell/).
 
 ```javascript
 setFormula(value: string) : void;
@@ -393,18 +785,9 @@ setFormula(value: string) : void;
 
 A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
-**Example**
-```javascript
-const { Workbook } = require("aspose.cells.node");
-
-var excel = new Workbook();
-var cells = excel.getWorksheets().get(0).getCells();
-cells.get("B6").setFormula("=SUM(B2:B5, E1) + sheet2!A1");
-```
-
 ### getFormulaLocal() {#getFormulaLocal--}
 
-Get the locale formatted formula of the cell.
+<b>@deprecated.</b> Please use the 'formulaLocal' property instead. Get the locale formatted formula of the cell.
 
 ```javascript
 getFormulaLocal() : string;
@@ -413,7 +796,7 @@ getFormulaLocal() : string;
 
 ### setFormulaLocal(string) {#setFormulaLocal-string-}
 
-Get the locale formatted formula of the cell.
+<b>@deprecated.</b> Please use the 'formulaLocal' property instead. Get the locale formatted formula of the cell.
 
 ```javascript
 setFormulaLocal(value: string) : void;
@@ -426,7 +809,7 @@ setFormulaLocal(value: string) : void;
 
 ### getR1C1Formula() {#getR1C1Formula--}
 
-Gets or sets a R1C1 formula of the [Cell](../cell/).
+<b>@deprecated.</b> Please use the 'r1C1Formula' property instead. Gets or sets a R1C1 formula of the [Cell](../cell/).
 
 ```javascript
 getR1C1Formula() : string;
@@ -435,7 +818,7 @@ getR1C1Formula() : string;
 
 ### setR1C1Formula(string) {#setR1C1Formula-string-}
 
-Gets or sets a R1C1 formula of the [Cell](../cell/).
+<b>@deprecated.</b> Please use the 'r1C1Formula' property instead. Gets or sets a R1C1 formula of the [Cell](../cell/).
 
 ```javascript
 setR1C1Formula(value: string) : void;
@@ -448,7 +831,7 @@ setR1C1Formula(value: string) : void;
 
 ### getContainsExternalLink() {#getContainsExternalLink--}
 
-Indicates whether this cell contains an external link. Only applies when the cell is a formula cell.
+<b>@deprecated.</b> Please use the 'containsExternalLink' property instead. Indicates whether this cell contains an external link. Only applies when the cell is a formula cell.
 
 ```javascript
 getContainsExternalLink() : boolean;
@@ -457,7 +840,7 @@ getContainsExternalLink() : boolean;
 
 ### isArrayHeader() {#isArrayHeader--}
 
-Indicates the cell's formula is an array formula and it is the first cell of the array.
+<b>@deprecated.</b> Please use the 'isArrayHeader' property instead. Indicates the cell's formula is an array formula and it is the first cell of the array.
 
 ```javascript
 isArrayHeader() : boolean;
@@ -466,7 +849,7 @@ isArrayHeader() : boolean;
 
 ### isDynamicArrayFormula() {#isDynamicArrayFormula--}
 
-Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false).
+<b>@deprecated.</b> Please use the 'isDynamicArrayFormula' property instead. Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false).
 
 ```javascript
 isDynamicArrayFormula() : boolean;
@@ -475,7 +858,7 @@ isDynamicArrayFormula() : boolean;
 
 ### isArrayFormula() {#isArrayFormula--}
 
-Indicates whether the cell formula is an array formula.
+<b>@deprecated.</b> Please use the 'isArrayFormula' property instead. Indicates whether the cell formula is an array formula.
 
 ```javascript
 isArrayFormula() : boolean;
@@ -484,7 +867,7 @@ isArrayFormula() : boolean;
 
 ### isSharedFormula() {#isSharedFormula--}
 
-Indicates whether the cell formula is part of shared formula.
+<b>@deprecated.</b> Please use the 'isSharedFormula' property instead. Indicates whether the cell formula is part of shared formula.
 
 ```javascript
 isSharedFormula() : boolean;
@@ -493,7 +876,7 @@ isSharedFormula() : boolean;
 
 ### isTableFormula() {#isTableFormula--}
 
-Indicates whether this cell is part of table formula.
+<b>@deprecated.</b> Please use the 'isTableFormula' property instead. Indicates whether this cell is part of table formula.
 
 ```javascript
 isTableFormula() : boolean;
@@ -502,7 +885,7 @@ isTableFormula() : boolean;
 
 ### getValue() {#getValue--}
 
-Gets/sets the value contained in this cell.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the value contained in this cell.
 
 ```javascript
 getValue() : Object;
@@ -515,7 +898,7 @@ Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>I
 
 ### setValue(Object) {#setValue-object-}
 
-Gets/sets the value contained in this cell.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the value contained in this cell.
 
 ```javascript
 setValue(value: Object) : void;
@@ -532,7 +915,7 @@ Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>I
 
 ### isStyleSet() {#isStyleSet--}
 
-Indicates if the cell's style is set. If return false, it means this cell has a default cell format.
+<b>@deprecated.</b> Please use the 'isStyleSet' property instead. Indicates if the cell's style is set. If return false, it means this cell has a default cell format.
 
 ```javascript
 isStyleSet() : boolean;
@@ -541,7 +924,7 @@ isStyleSet() : boolean;
 
 ### isMerged() {#isMerged--}
 
-Checks if a cell is part of a merged range or not.
+<b>@deprecated.</b> Please use the 'isMerged' property instead. Checks if a cell is part of a merged range or not.
 
 ```javascript
 isMerged() : boolean;
@@ -550,7 +933,7 @@ isMerged() : boolean;
 
 ### getComment() {#getComment--}
 
-Gets the comment of this cell.
+<b>@deprecated.</b> Please use the 'comment' property instead. Gets the comment of this cell.
 
 ```javascript
 getComment() : Comment;
@@ -567,7 +950,7 @@ If there is no comment applies to the cell, returns null.
 
 ### getHtmlString() {#getHtmlString--}
 
-Gets and sets the html string which contains data and some formats in this cell.
+<b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this cell.
 
 ```javascript
 getHtmlString() : string;
@@ -576,7 +959,7 @@ getHtmlString() : string;
 
 ### setHtmlString(string) {#setHtmlString-string-}
 
-Gets and sets the html string which contains data and some formats in this cell.
+<b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this cell.
 
 ```javascript
 setHtmlString(value: string) : void;
@@ -589,7 +972,7 @@ setHtmlString(value: string) : void;
 
 ### isCheckBoxStyle() {#isCheckBoxStyle--}
 
-Indicates whether setting this cell as a check box.
+<b>@deprecated.</b> Please use the 'isCheckBoxStyle' property instead. Indicates whether setting this cell as a check box.
 
 ```javascript
 isCheckBoxStyle() : boolean;
@@ -598,7 +981,7 @@ isCheckBoxStyle() : boolean;
 
 ### setIsCheckBoxStyle(boolean) {#setIsCheckBoxStyle-boolean-}
 
-Indicates whether setting this cell as a check box.
+<b>@deprecated.</b> Please use the 'isCheckBoxStyle' property instead. Indicates whether setting this cell as a check box.
 
 ```javascript
 setIsCheckBoxStyle(value: boolean) : void;
@@ -611,7 +994,7 @@ setIsCheckBoxStyle(value: boolean) : void;
 
 ### getEmbeddedImage() {#getEmbeddedImage--}
 
-Gets and sets the embeddedn image in the cell.
+<b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embeddedn image in the cell.
 
 ```javascript
 getEmbeddedImage() : Uint8Array;
@@ -620,7 +1003,7 @@ getEmbeddedImage() : Uint8Array;
 
 ### setEmbeddedImage(Uint8Array) {#setEmbeddedImage-uint8array-}
 
-Gets and sets the embeddedn image in the cell.
+<b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embeddedn image in the cell.
 
 ```javascript
 setEmbeddedImage(value: Uint8Array) : void;
@@ -1116,23 +1499,23 @@ ul> <li>Returns null if this is not a formula cell.</li> <li>All references appe
 const { Workbook, CellsHelper } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var cells = workbook.getWorksheets().get(0).getCells();
-cells.get("A1").setFormula("= B1 + SUM(B1:B10)");
+var cells = workbook.worksheets.get(0).cells;
+cells.get("A1").formula = "= B1 + SUM(B1:B10)";
 var areas = cells.get("A1").getPrecedents();
-for (var i = 0; i < areas.getCount(); i++) {
+for (var i = 0; i < areas.count; i++) {
     var area = areas.get(i);
     var stringBuilder = "";
-    if (area.isExternalLink()) {
+    if (area.isExternalLink) {
         stringBuilder += "[";
-        stringBuilder += area.getExternalFileName();
+        stringBuilder += area.externalFileName;
         stringBuilder += "]";
     }
-    stringBuilder += area.getSheetName();
+    stringBuilder += area.sheetName;
     stringBuilder += "!";
-    stringBuilder += CellsHelper.cellIndexToName(area.getStartRow(), area.getStartColumn());
-    if (area.isArea()) {
+    stringBuilder += CellsHelper.cellIndexToName(area.startRow, area.startColumn);
+    if (area.isArea) {
         stringBuilder += ":";
-        stringBuilder += CellsHelper.cellIndexToName(area.getEndRow(), area.getEndColumn());
+        stringBuilder += CellsHelper.cellIndexToName(area.endRow, area.endColumn);
     }
 }
 workbook.save("output/CellGetPrecedents.xls");
@@ -1412,9 +1795,9 @@ This method only works on cell with string value.
 const { Workbook, Color } = require("aspose.cells.node");
 
 var excel = new Workbook();
-excel.getWorksheets().get(0).getCells().get("A1").putValue("Helloworld");
-excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setIsBold(true);
-excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setColor(Color.Blue);
+excel.worksheets.get(0).cells.get("A1").putValue("Helloworld");
+excel.worksheets.get(0).cells.get("A1").characters(5, 5).font.isBold = true;
+excel.worksheets.get(0).cells.get("A1").characters(5, 5).font.color = Color.Blue;
 ```
 
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}

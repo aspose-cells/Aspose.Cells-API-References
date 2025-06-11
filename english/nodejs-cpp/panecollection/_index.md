@@ -15,22 +15,57 @@ class PaneCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [firstVisibleRowOfBottomPane](#firstVisibleRowOfBottomPane--)| number | Gets and sets the first visible row of the bottom pane. |
+| [firstVisibleColumnOfRightPane](#firstVisibleColumnOfRightPane--)| number | Gets and sets the first visible column of the right pane. |
+| [acitvePaneType](#acitvePaneType--)| RectangleAlignmentType | Gets and sets the active pane. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--)| Gets and sets the first visible row of the bottom pane. |
-| [setFirstVisibleRowOfBottomPane(number)](#setFirstVisibleRowOfBottomPane-number-)| Gets and sets the first visible row of the bottom pane. |
-| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--)| Gets and sets the first visible column of the right pane. |
-| [setFirstVisibleColumnOfRightPane(number)](#setFirstVisibleColumnOfRightPane-number-)| Gets and sets the first visible column of the right pane. |
-| [getAcitvePaneType()](#getAcitvePaneType--)| Gets and sets the active pane. |
-| [setAcitvePaneType(RectangleAlignmentType)](#setAcitvePaneType-rectanglealignmenttype-)| Gets and sets the active pane. |
+| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--)| <b>@deprecated.</b> Please use the 'firstVisibleRowOfBottomPane' property instead. Gets and sets the first visible row of the bottom pane. |
+| [setFirstVisibleRowOfBottomPane(number)](#setFirstVisibleRowOfBottomPane-number-)| <b>@deprecated.</b> Please use the 'firstVisibleRowOfBottomPane' property instead. Gets and sets the first visible row of the bottom pane. |
+| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--)| <b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane. |
+| [setFirstVisibleColumnOfRightPane(number)](#setFirstVisibleColumnOfRightPane-number-)| <b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane. |
+| [getAcitvePaneType()](#getAcitvePaneType--)| <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane. |
+| [setAcitvePaneType(RectangleAlignmentType)](#setAcitvePaneType-rectanglealignmenttype-)| <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### firstVisibleRowOfBottomPane {#firstVisibleRowOfBottomPane--}
+
+Gets and sets the first visible row of the bottom pane.
+
+```javascript
+firstVisibleRowOfBottomPane : number;
+```
+
+
+### firstVisibleColumnOfRightPane {#firstVisibleColumnOfRightPane--}
+
+Gets and sets the first visible column of the right pane.
+
+```javascript
+firstVisibleColumnOfRightPane : number;
+```
+
+
+### acitvePaneType {#acitvePaneType--}
+
+Gets and sets the active pane.
+
+```javascript
+acitvePaneType : RectangleAlignmentType;
+```
 
 
 ### getFirstVisibleRowOfBottomPane() {#getFirstVisibleRowOfBottomPane--}
 
-Gets and sets the first visible row of the bottom pane.
+<b>@deprecated.</b> Please use the 'firstVisibleRowOfBottomPane' property instead. Gets and sets the first visible row of the bottom pane.
 
 ```javascript
 getFirstVisibleRowOfBottomPane() : number;
@@ -39,7 +74,7 @@ getFirstVisibleRowOfBottomPane() : number;
 
 ### setFirstVisibleRowOfBottomPane(number) {#setFirstVisibleRowOfBottomPane-number-}
 
-Gets and sets the first visible row of the bottom pane.
+<b>@deprecated.</b> Please use the 'firstVisibleRowOfBottomPane' property instead. Gets and sets the first visible row of the bottom pane.
 
 ```javascript
 setFirstVisibleRowOfBottomPane(value: number) : void;
@@ -52,7 +87,7 @@ setFirstVisibleRowOfBottomPane(value: number) : void;
 
 ### getFirstVisibleColumnOfRightPane() {#getFirstVisibleColumnOfRightPane--}
 
-Gets and sets the first visible column of the right pane.
+<b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane.
 
 ```javascript
 getFirstVisibleColumnOfRightPane() : number;
@@ -61,7 +96,7 @@ getFirstVisibleColumnOfRightPane() : number;
 
 ### setFirstVisibleColumnOfRightPane(number) {#setFirstVisibleColumnOfRightPane-number-}
 
-Gets and sets the first visible column of the right pane.
+<b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane.
 
 ```javascript
 setFirstVisibleColumnOfRightPane(value: number) : void;
@@ -74,7 +109,7 @@ setFirstVisibleColumnOfRightPane(value: number) : void;
 
 ### getAcitvePaneType() {#getAcitvePaneType--}
 
-Gets and sets the active pane.
+<b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane.
 
 ```javascript
 getAcitvePaneType() : RectangleAlignmentType;
@@ -87,7 +122,7 @@ getAcitvePaneType() : RectangleAlignmentType;
 
 ### setAcitvePaneType(RectangleAlignmentType) {#setAcitvePaneType-rectanglealignmenttype-}
 
-Gets and sets the active pane.
+<b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane.
 
 ```javascript
 setAcitvePaneType(value: RectangleAlignmentType) : void;

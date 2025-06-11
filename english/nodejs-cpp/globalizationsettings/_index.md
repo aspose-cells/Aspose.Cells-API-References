@@ -17,18 +17,25 @@ class GlobalizationSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [chartSettings](#chartSettings--)| ChartGlobalizationSettings | Gets or sets the globalization settings for Chart. |
+| [pivotSettings](#pivotSettings--)| PivotGlobalizationSettings | Gets or sets the globalization settings for pivot table. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getChartSettings()](#getChartSettings--)| Gets or sets the globalization settings for Chart. |
-| [setChartSettings(ChartGlobalizationSettings)](#setChartSettings-chartglobalizationsettings-)| Gets or sets the globalization settings for Chart. |
-| [getPivotSettings()](#getPivotSettings--)| Gets or sets the globalization settings for pivot table. |
-| [setPivotSettings(PivotGlobalizationSettings)](#setPivotSettings-pivotglobalizationsettings-)| Gets or sets the globalization settings for pivot table. |
+| [getChartSettings()](#getChartSettings--)| <b>@deprecated.</b> Please use the 'chartSettings' property instead. Gets or sets the globalization settings for Chart. |
+| [setChartSettings(ChartGlobalizationSettings)](#setChartSettings-chartglobalizationsettings-)| <b>@deprecated.</b> Please use the 'chartSettings' property instead. Gets or sets the globalization settings for Chart. |
+| [getPivotSettings()](#getPivotSettings--)| <b>@deprecated.</b> Please use the 'pivotSettings' property instead. Gets or sets the globalization settings for pivot table. |
+| [setPivotSettings(PivotGlobalizationSettings)](#setPivotSettings-pivotglobalizationsettings-)| <b>@deprecated.</b> Please use the 'pivotSettings' property instead. Gets or sets the globalization settings for pivot table. |
 | abstract [getListSeparator()](#getListSeparator--)| Gets the separator for list, parameters of function, ...etc. |
 | abstract [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--)| Gets the separator for rows in array data in formula. |
 | abstract [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--)| Gets the separator for the items in array's row data in formula. |
@@ -60,9 +67,27 @@ constructor();
 ```
 
 
-### getChartSettings() {#getChartSettings--}
+### chartSettings {#chartSettings--}
 
 Gets or sets the globalization settings for Chart.
+
+```javascript
+chartSettings : ChartGlobalizationSettings;
+```
+
+
+### pivotSettings {#pivotSettings--}
+
+Gets or sets the globalization settings for pivot table.
+
+```javascript
+pivotSettings : PivotGlobalizationSettings;
+```
+
+
+### getChartSettings() {#getChartSettings--}
+
+<b>@deprecated.</b> Please use the 'chartSettings' property instead. Gets or sets the globalization settings for Chart.
 
 ```javascript
 getChartSettings() : ChartGlobalizationSettings;
@@ -75,7 +100,7 @@ getChartSettings() : ChartGlobalizationSettings;
 
 ### setChartSettings(ChartGlobalizationSettings) {#setChartSettings-chartglobalizationsettings-}
 
-Gets or sets the globalization settings for Chart.
+<b>@deprecated.</b> Please use the 'chartSettings' property instead. Gets or sets the globalization settings for Chart.
 
 ```javascript
 setChartSettings(value: ChartGlobalizationSettings) : void;
@@ -88,7 +113,7 @@ setChartSettings(value: ChartGlobalizationSettings) : void;
 
 ### getPivotSettings() {#getPivotSettings--}
 
-Gets or sets the globalization settings for pivot table.
+<b>@deprecated.</b> Please use the 'pivotSettings' property instead. Gets or sets the globalization settings for pivot table.
 
 ```javascript
 getPivotSettings() : PivotGlobalizationSettings;
@@ -101,7 +126,7 @@ getPivotSettings() : PivotGlobalizationSettings;
 
 ### setPivotSettings(PivotGlobalizationSettings) {#setPivotSettings-pivotglobalizationsettings-}
 
-Gets or sets the globalization settings for pivot table.
+<b>@deprecated.</b> Please use the 'pivotSettings' property instead. Gets or sets the globalization settings for pivot table.
 
 ```javascript
 setPivotSettings(value: PivotGlobalizationSettings) : void;

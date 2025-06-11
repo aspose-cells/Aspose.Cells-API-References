@@ -15,155 +15,242 @@ class PivotTable;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isExcel2003Compatible](#isExcel2003Compatible--)| boolean | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
+| [refreshedByWho](#refreshedByWho--)| string | Readonly. Gets the name of the last user who refreshed this PivotTable |
+| [refreshDate](#refreshDate--)| Date | Readonly. Gets the last date time when the PivotTable was refreshed. |
+| [pivotTableStyleName](#pivotTableStyleName--)| string | Gets and sets the pivottable style name. |
+| [pivotTableStyleType](#pivotTableStyleType--)| PivotTableStyleType | Gets and sets the built-in pivot table style. |
+| [columnFields](#columnFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as column fields. |
+| [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as row fields. |
+| [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as page fields. |
+| [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [dataField](#dataField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
+| [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
+| [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
+| [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
+| [rowRange](#rowRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
+| [dataBodyRange](#dataBodyRange--)| CellArea | Readonly. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
+| [tableRange1](#tableRange1--)| CellArea | Readonly. Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
+| [tableRange2](#tableRange2--)| CellArea | Readonly. Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
+| [isGridDropZones](#isGridDropZones--)| boolean | Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
+| [showColumnGrandTotals](#showColumnGrandTotals--)| boolean | Indicates whether to show grand totals for columns of this pivot table. |
+| [showRowGrandTotals](#showRowGrandTotals--)| boolean | Indicates whether to show grand totals for rows of the pivot table. |
+| [columnGrand](#columnGrand--)| boolean | Indicates whether the PivotTable report shows grand totals for columns. |
+| [rowGrand](#rowGrand--)| boolean | Indicates whether to show grand totals for rows of this pivot table. |
+| [displayNullString](#displayNullString--)| boolean | Indicates whether the PivotTable report displays a custom string if the value is null. |
+| [nullString](#nullString--)| string | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
+| [displayErrorString](#displayErrorString--)| boolean | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
+| [dataFieldHeaderName](#dataFieldHeaderName--)| string | Gets and sets the name of the value area field header in the PivotTable. |
+| [errorString](#errorString--)| string | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
+| [isAutoFormat](#isAutoFormat--)| boolean | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
+| [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether autofitting column width on update |
+| [autoFormatType](#autoFormatType--)| PivotTableAutoFormatType | Gets and sets the auto format type of PivotTable. |
+| [hasBlankRows](#hasBlankRows--)| boolean | Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
+| [mergeLabels](#mergeLabels--)| boolean | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [showDrill](#showDrill--)| boolean | Gets and sets whether showing expand/collapse buttons. |
+| [enableDrilldown](#enableDrilldown--)| boolean | Gets whether drilldown is enabled. |
+| [enableFieldDialog](#enableFieldDialog--)| boolean | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
+| [enableFieldList](#enableFieldList--)| boolean | Indicates whether the field list for the PivotTable is available on the view of Excel. |
+| [enableWizard](#enableWizard--)| boolean | Indicates whether the PivotTable Wizard is available. |
+| [subtotalHiddenPageItems](#subtotalHiddenPageItems--)| boolean | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
+| [grandTotalName](#grandTotalName--)| string | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
+| [manualUpdate](#manualUpdate--)| boolean | Indicates whether the PivotTable report is recalculated only at the user's request. |
+| [isMultipleFieldFilters](#isMultipleFieldFilters--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [allowMultipleFiltersPerField](#allowMultipleFiltersPerField--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [missingItemsLimit](#missingItemsLimit--)| PivotMissingItemLimitType | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [showDataTips](#showDataTips--)| boolean | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [showMemberPropertyTips](#showMemberPropertyTips--)| boolean | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
+| [showValuesRow](#showValuesRow--)| boolean | Indicates whether showing values row. |
+| [showEmptyCol](#showEmptyCol--)| boolean | Indicates whether to include empty columns in the table |
+| [showEmptyRow](#showEmptyRow--)| boolean | Indicates whether to include empty rows in the table. |
+| [fieldListSortAscending](#fieldListSortAscending--)| boolean | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
+| [printDrill](#printDrill--)| boolean | Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
+| [altTextTitle](#altTextTitle--)| string | Gets and sets the title of the alter text. |
+| [altTextDescription](#altTextDescription--)| string | Gets the description of the alt text. |
+| [name](#name--)| string | Gets the name of the PivotTable |
+| [columnHeaderCaption](#columnHeaderCaption--)| string | Gets the Column Header Caption of the PivotTable. |
+| [indent](#indent--)| number | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
+| [rowHeaderCaption](#rowHeaderCaption--)| string | Gets the Row Header Caption of the PivotTable. |
+| [showRowHeaderCaption](#showRowHeaderCaption--)| boolean | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [customListSort](#customListSort--)| boolean | Indicates whether consider built-in custom list when sort data |
+| [pivotFormatConditions](#pivotFormatConditions--)| PivotFormatConditionCollection | Readonly. Gets the Format Conditions of the pivot table. |
+| [conditionalFormats](#conditionalFormats--)| PivotConditionalFormatCollection | Readonly. Gets the conditional formats of the pivot table. |
+| [pageFieldOrder](#pageFieldOrder--)| PrintOrderType | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
+| [pageFieldWrapCount](#pageFieldWrapCount--)| number | Gets the number of page fields in each column or row in the PivotTable report. |
+| [tag](#tag--)| string | Gets a string saved with the PivotTable report. |
+| [saveData](#saveData--)| boolean | Indicates whether data for the PivotTable report is saved with the workbook. |
+| [refreshDataOnOpeningFile](#refreshDataOnOpeningFile--)| boolean | Indicates whether Refresh Data when Opening File. |
+| [refreshDataFlag](#refreshDataFlag--)| boolean | Indicates whether Refreshing Data or not. |
+| [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
+| [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
+| [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
+| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets the collection of formats applied to PivotTable. |
+| [itemPrintTitles](#itemPrintTitles--)| boolean | Indicates whether PivotItem names should be repeated at the top of each printed page. |
+| [repeatItemsOnEachPrintedPage](#repeatItemsOnEachPrintedPage--)| boolean | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
+| [printTitles](#printTitles--)| boolean | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
+| [displayImmediateItems](#displayImmediateItems--)| boolean | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
+| [isSelected](#isSelected--)| boolean | Indicates whether this PivotTable is selected. |
+| [showPivotStyleRowHeader](#showPivotStyleRowHeader--)| boolean | Indicates whether the row header in the pivot table should have the style applied. |
+| [showPivotStyleColumnHeader](#showPivotStyleColumnHeader--)| boolean | Indicates whether the column header in the pivot table should have the style applied. |
+| [showPivotStyleRowStripes](#showPivotStyleRowStripes--)| boolean | Indicates whether row stripe formatting is applied. |
+| [showPivotStyleColumnStripes](#showPivotStyleColumnStripes--)| boolean | Indicates whether stripe formatting is applied for column. |
+| [showPivotStyleLastColumn](#showPivotStyleLastColumn--)| boolean | Indicates whether the column formatting is applied. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isExcel2003Compatible()](#isExcel2003Compatible--)| Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
-| [setIsExcel2003Compatible(boolean)](#setIsExcel2003Compatible-boolean-)| Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
-| [getRefreshedByWho()](#getRefreshedByWho--)| Gets the name of the last user who refreshed this PivotTable |
-| [getRefreshDate()](#getRefreshDate--)| Gets the last date time when the PivotTable was refreshed. |
-| [getPivotTableStyleName()](#getPivotTableStyleName--)| Gets and sets the pivottable style name. |
-| [setPivotTableStyleName(string)](#setPivotTableStyleName-string-)| Gets and sets the pivottable style name. |
-| [getPivotTableStyleType()](#getPivotTableStyleType--)| Gets and sets the built-in pivot table style. |
-| [setPivotTableStyleType(PivotTableStyleType)](#setPivotTableStyleType-pivottablestyletype-)| Gets and sets the built-in pivot table style. |
-| [getColumnFields()](#getColumnFields--)| Returns a PivotFields object that are currently shown as column fields. |
-| [getRowFields()](#getRowFields--)| Returns a PivotFields object that are currently shown as row fields. |
-| [getPageFields()](#getPageFields--)| Returns a PivotFields object that are currently shown as page fields. |
-| [getDataFields()](#getDataFields--)| Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
-| [getDataField()](#getDataField--)| Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
-| [getBaseFields()](#getBaseFields--)| Returns all base pivot fields in the PivotTable. |
-| [getPivotFilters()](#getPivotFilters--)| Returns all filters of pivot fields in the pivot table. |
-| [getColumnRange()](#getColumnRange--)| Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
-| [getRowRange()](#getRowRange--)| Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
-| [getDataBodyRange()](#getDataBodyRange--)| Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
-| [getTableRange1()](#getTableRange1--)| Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
-| [getTableRange2()](#getTableRange2--)| Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
-| [isGridDropZones()](#isGridDropZones--)| Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
-| [setIsGridDropZones(boolean)](#setIsGridDropZones-boolean-)| Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
-| [getShowColumnGrandTotals()](#getShowColumnGrandTotals--)| Indicates whether to show grand totals for columns of this pivot table. |
-| [setShowColumnGrandTotals(boolean)](#setShowColumnGrandTotals-boolean-)| Indicates whether to show grand totals for columns of this pivot table. |
-| [getShowRowGrandTotals()](#getShowRowGrandTotals--)| Indicates whether to show grand totals for rows of the pivot table. |
-| [setShowRowGrandTotals(boolean)](#setShowRowGrandTotals-boolean-)| Indicates whether to show grand totals for rows of the pivot table. |
-| [getColumnGrand()](#getColumnGrand--)| Indicates whether the PivotTable report shows grand totals for columns. |
-| [setColumnGrand(boolean)](#setColumnGrand-boolean-)| Indicates whether the PivotTable report shows grand totals for columns. |
-| [getRowGrand()](#getRowGrand--)| Indicates whether to show grand totals for rows of this pivot table. |
-| [setRowGrand(boolean)](#setRowGrand-boolean-)| Indicates whether to show grand totals for rows of this pivot table. |
-| [getDisplayNullString()](#getDisplayNullString--)| Indicates whether the PivotTable report displays a custom string if the value is null. |
-| [setDisplayNullString(boolean)](#setDisplayNullString-boolean-)| Indicates whether the PivotTable report displays a custom string if the value is null. |
-| [getNullString()](#getNullString--)| Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [setNullString(string)](#setNullString-string-)| Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [getDisplayErrorString()](#getDisplayErrorString--)| Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
-| [setDisplayErrorString(boolean)](#setDisplayErrorString-boolean-)| Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
-| [getDataFieldHeaderName()](#getDataFieldHeaderName--)| Gets and sets the name of the value area field header in the PivotTable. |
-| [setDataFieldHeaderName(string)](#setDataFieldHeaderName-string-)| Gets and sets the name of the value area field header in the PivotTable. |
-| [getErrorString()](#getErrorString--)| Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
-| [setErrorString(string)](#setErrorString-string-)| Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
-| [isAutoFormat()](#isAutoFormat--)| Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
-| [setIsAutoFormat(boolean)](#setIsAutoFormat-boolean-)| Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
-| [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--)| Indicates whether autofitting column width on update |
-| [setAutofitColumnWidthOnUpdate(boolean)](#setAutofitColumnWidthOnUpdate-boolean-)| Indicates whether autofitting column width on update |
-| [getAutoFormatType()](#getAutoFormatType--)| Gets and sets the auto format type of PivotTable. |
-| [setAutoFormatType(PivotTableAutoFormatType)](#setAutoFormatType-pivottableautoformattype-)| Gets and sets the auto format type of PivotTable. |
-| [getHasBlankRows()](#getHasBlankRows--)| Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
-| [setHasBlankRows(boolean)](#setHasBlankRows-boolean-)| Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
-| [getMergeLabels()](#getMergeLabels--)| True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
-| [setMergeLabels(boolean)](#setMergeLabels-boolean-)| True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
-| [getPreserveFormatting()](#getPreserveFormatting--)| Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
-| [setPreserveFormatting(boolean)](#setPreserveFormatting-boolean-)| Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
-| [getShowDrill()](#getShowDrill--)| Gets and sets whether showing expand/collapse buttons. |
-| [setShowDrill(boolean)](#setShowDrill-boolean-)| Gets and sets whether showing expand/collapse buttons. |
-| [getEnableDrilldown()](#getEnableDrilldown--)| Gets whether drilldown is enabled. |
-| [setEnableDrilldown(boolean)](#setEnableDrilldown-boolean-)| Gets whether drilldown is enabled. |
-| [getEnableFieldDialog()](#getEnableFieldDialog--)| Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
-| [setEnableFieldDialog(boolean)](#setEnableFieldDialog-boolean-)| Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
-| [getEnableFieldList()](#getEnableFieldList--)| Indicates whether the field list for the PivotTable is available on the view of Excel. |
-| [setEnableFieldList(boolean)](#setEnableFieldList-boolean-)| Indicates whether the field list for the PivotTable is available on the view of Excel. |
-| [getEnableWizard()](#getEnableWizard--)| Indicates whether the PivotTable Wizard is available. |
-| [setEnableWizard(boolean)](#setEnableWizard-boolean-)| Indicates whether the PivotTable Wizard is available. |
-| [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--)| Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
-| [setSubtotalHiddenPageItems(boolean)](#setSubtotalHiddenPageItems-boolean-)| Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
-| [getGrandTotalName()](#getGrandTotalName--)| Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
-| [setGrandTotalName(string)](#setGrandTotalName-string-)| Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
-| [getManualUpdate()](#getManualUpdate--)| Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [setManualUpdate(boolean)](#setManualUpdate-boolean-)| Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [isMultipleFieldFilters()](#isMultipleFieldFilters--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [setIsMultipleFieldFilters(boolean)](#setIsMultipleFieldFilters-boolean-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [getAllowMultipleFiltersPerField()](#getAllowMultipleFiltersPerField--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [setAllowMultipleFiltersPerField(boolean)](#setAllowMultipleFiltersPerField-boolean-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [getMissingItemsLimit()](#getMissingItemsLimit--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [setMissingItemsLimit(PivotMissingItemLimitType)](#setMissingItemsLimit-pivotmissingitemlimittype-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [getEnableDataValueEditing()](#getEnableDataValueEditing--)| Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
-| [setEnableDataValueEditing(boolean)](#setEnableDataValueEditing-boolean-)| Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
-| [getShowDataTips()](#getShowDataTips--)| Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
-| [setShowDataTips(boolean)](#setShowDataTips-boolean-)| Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
-| [getShowMemberPropertyTips()](#getShowMemberPropertyTips--)| Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
-| [setShowMemberPropertyTips(boolean)](#setShowMemberPropertyTips-boolean-)| Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
-| [getShowValuesRow()](#getShowValuesRow--)| Indicates whether showing values row. |
-| [setShowValuesRow(boolean)](#setShowValuesRow-boolean-)| Indicates whether showing values row. |
-| [getShowEmptyCol()](#getShowEmptyCol--)| Indicates whether to include empty columns in the table |
-| [setShowEmptyCol(boolean)](#setShowEmptyCol-boolean-)| Indicates whether to include empty columns in the table |
-| [getShowEmptyRow()](#getShowEmptyRow--)| Indicates whether to include empty rows in the table. |
-| [setShowEmptyRow(boolean)](#setShowEmptyRow-boolean-)| Indicates whether to include empty rows in the table. |
-| [getFieldListSortAscending()](#getFieldListSortAscending--)| Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
-| [setFieldListSortAscending(boolean)](#setFieldListSortAscending-boolean-)| Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
-| [getPrintDrill()](#getPrintDrill--)| Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
-| [setPrintDrill(boolean)](#setPrintDrill-boolean-)| Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
-| [getAltTextTitle()](#getAltTextTitle--)| Gets and sets the title of the alter text. |
-| [setAltTextTitle(string)](#setAltTextTitle-string-)| Gets and sets the title of the alter text. |
-| [getAltTextDescription()](#getAltTextDescription--)| Gets the description of the alt text. |
-| [setAltTextDescription(string)](#setAltTextDescription-string-)| Gets the description of the alt text. |
-| [getName()](#getName--)| Gets the name of the PivotTable |
-| [setName(string)](#setName-string-)| Gets the name of the PivotTable |
-| [getColumnHeaderCaption()](#getColumnHeaderCaption--)| Gets the Column Header Caption of the PivotTable. |
-| [setColumnHeaderCaption(string)](#setColumnHeaderCaption-string-)| Gets the Column Header Caption of the PivotTable. |
-| [getIndent()](#getIndent--)| Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [setIndent(number)](#setIndent-number-)| Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [getRowHeaderCaption()](#getRowHeaderCaption--)| Gets the Row Header Caption of the PivotTable. |
-| [setRowHeaderCaption(string)](#setRowHeaderCaption-string-)| Gets the Row Header Caption of the PivotTable. |
-| [getShowRowHeaderCaption()](#getShowRowHeaderCaption--)| Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
-| [setShowRowHeaderCaption(boolean)](#setShowRowHeaderCaption-boolean-)| Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
-| [getCustomListSort()](#getCustomListSort--)| Indicates whether consider built-in custom list when sort data |
-| [setCustomListSort(boolean)](#setCustomListSort-boolean-)| Indicates whether consider built-in custom list when sort data |
-| [getPivotFormatConditions()](#getPivotFormatConditions--)| Gets the Format Conditions of the pivot table. |
-| [getConditionalFormats()](#getConditionalFormats--)| Gets the conditional formats of the pivot table. |
-| [getPageFieldOrder()](#getPageFieldOrder--)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
-| [setPageFieldOrder(PrintOrderType)](#setPageFieldOrder-printordertype-)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
-| [getPageFieldWrapCount()](#getPageFieldWrapCount--)| Gets the number of page fields in each column or row in the PivotTable report. |
-| [setPageFieldWrapCount(number)](#setPageFieldWrapCount-number-)| Gets the number of page fields in each column or row in the PivotTable report. |
-| [getTag()](#getTag--)| Gets a string saved with the PivotTable report. |
-| [setTag(string)](#setTag-string-)| Gets a string saved with the PivotTable report. |
-| [getSaveData()](#getSaveData--)| Indicates whether data for the PivotTable report is saved with the workbook. |
-| [setSaveData(boolean)](#setSaveData-boolean-)| Indicates whether data for the PivotTable report is saved with the workbook. |
-| [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--)| Indicates whether Refresh Data when Opening File. |
-| [setRefreshDataOnOpeningFile(boolean)](#setRefreshDataOnOpeningFile-boolean-)| Indicates whether Refresh Data when Opening File. |
-| [getRefreshDataFlag()](#getRefreshDataFlag--)| Indicates whether Refreshing Data or not. |
-| [setRefreshDataFlag(boolean)](#setRefreshDataFlag-boolean-)| Indicates whether Refreshing Data or not. |
-| [getSourceType()](#getSourceType--)| Gets the data source type of the pivot table. |
-| [getExternalConnectionDataSource()](#getExternalConnectionDataSource--)| Gets the external connection data source. |
-| [getDataSource()](#getDataSource--)| Gets and sets the data source of the pivot table. |
-| [setDataSource(string[])](#setDataSource-stringarray-)| Gets and sets the data source of the pivot table. |
-| [getPivotFormats()](#getPivotFormats--)| Gets the collection of formats applied to PivotTable. |
-| [getItemPrintTitles()](#getItemPrintTitles--)| Indicates whether PivotItem names should be repeated at the top of each printed page. |
-| [setItemPrintTitles(boolean)](#setItemPrintTitles-boolean-)| Indicates whether PivotItem names should be repeated at the top of each printed page. |
-| [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--)| Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [setRepeatItemsOnEachPrintedPage(boolean)](#setRepeatItemsOnEachPrintedPage-boolean-)| Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [getPrintTitles()](#getPrintTitles--)| Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
-| [setPrintTitles(boolean)](#setPrintTitles-boolean-)| Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
-| [getDisplayImmediateItems()](#getDisplayImmediateItems--)| Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
-| [setDisplayImmediateItems(boolean)](#setDisplayImmediateItems-boolean-)| Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
-| [isSelected()](#isSelected--)| Indicates whether this PivotTable is selected. |
-| [setIsSelected(boolean)](#setIsSelected-boolean-)| Indicates whether this PivotTable is selected. |
-| [getShowPivotStyleRowHeader()](#getShowPivotStyleRowHeader--)| Indicates whether the row header in the pivot table should have the style applied. |
-| [setShowPivotStyleRowHeader(boolean)](#setShowPivotStyleRowHeader-boolean-)| Indicates whether the row header in the pivot table should have the style applied. |
-| [getShowPivotStyleColumnHeader()](#getShowPivotStyleColumnHeader--)| Indicates whether the column header in the pivot table should have the style applied. |
-| [setShowPivotStyleColumnHeader(boolean)](#setShowPivotStyleColumnHeader-boolean-)| Indicates whether the column header in the pivot table should have the style applied. |
-| [getShowPivotStyleRowStripes()](#getShowPivotStyleRowStripes--)| Indicates whether row stripe formatting is applied. |
-| [setShowPivotStyleRowStripes(boolean)](#setShowPivotStyleRowStripes-boolean-)| Indicates whether row stripe formatting is applied. |
-| [getShowPivotStyleColumnStripes()](#getShowPivotStyleColumnStripes--)| Indicates whether stripe formatting is applied for column. |
-| [setShowPivotStyleColumnStripes(boolean)](#setShowPivotStyleColumnStripes-boolean-)| Indicates whether stripe formatting is applied for column. |
-| [getShowPivotStyleLastColumn()](#getShowPivotStyleLastColumn--)| Indicates whether the column formatting is applied. |
-| [setShowPivotStyleLastColumn(boolean)](#setShowPivotStyleLastColumn-boolean-)| Indicates whether the column formatting is applied. |
+| [isExcel2003Compatible()](#isExcel2003Compatible--)| <b>@deprecated.</b> Please use the 'isExcel2003Compatible' property instead. Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
+| [setIsExcel2003Compatible(boolean)](#setIsExcel2003Compatible-boolean-)| <b>@deprecated.</b> Please use the 'isExcel2003Compatible' property instead. Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
+| [getRefreshedByWho()](#getRefreshedByWho--)| <b>@deprecated.</b> Please use the 'refreshedByWho' property instead. Gets the name of the last user who refreshed this PivotTable |
+| [getRefreshDate()](#getRefreshDate--)| <b>@deprecated.</b> Please use the 'refreshDate' property instead. Gets the last date time when the PivotTable was refreshed. |
+| [getPivotTableStyleName()](#getPivotTableStyleName--)| <b>@deprecated.</b> Please use the 'pivotTableStyleName' property instead. Gets and sets the pivottable style name. |
+| [setPivotTableStyleName(string)](#setPivotTableStyleName-string-)| <b>@deprecated.</b> Please use the 'pivotTableStyleName' property instead. Gets and sets the pivottable style name. |
+| [getPivotTableStyleType()](#getPivotTableStyleType--)| <b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style. |
+| [setPivotTableStyleType(PivotTableStyleType)](#setPivotTableStyleType-pivottablestyletype-)| <b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style. |
+| [getColumnFields()](#getColumnFields--)| <b>@deprecated.</b> Please use the 'columnFields' property instead. Returns a PivotFields object that are currently shown as column fields. |
+| [getRowFields()](#getRowFields--)| <b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a PivotFields object that are currently shown as row fields. |
+| [getPageFields()](#getPageFields--)| <b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a PivotFields object that are currently shown as page fields. |
+| [getDataFields()](#getDataFields--)| <b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [getDataField()](#getDataField--)| <b>@deprecated.</b> Please use the 'dataField' property instead. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
+| [getBaseFields()](#getBaseFields--)| <b>@deprecated.</b> Please use the 'baseFields' property instead. Returns all base pivot fields in the PivotTable. |
+| [getPivotFilters()](#getPivotFilters--)| <b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters of pivot fields in the pivot table. |
+| [getColumnRange()](#getColumnRange--)| <b>@deprecated.</b> Please use the 'columnRange' property instead. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
+| [getRowRange()](#getRowRange--)| <b>@deprecated.</b> Please use the 'rowRange' property instead. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
+| [getDataBodyRange()](#getDataBodyRange--)| <b>@deprecated.</b> Please use the 'dataBodyRange' property instead. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
+| [getTableRange1()](#getTableRange1--)| <b>@deprecated.</b> Please use the 'tableRange1' property instead. Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
+| [getTableRange2()](#getTableRange2--)| <b>@deprecated.</b> Please use the 'tableRange2' property instead. Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
+| [isGridDropZones()](#isGridDropZones--)| <b>@deprecated.</b> Please use the 'isGridDropZones' property instead. Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
+| [setIsGridDropZones(boolean)](#setIsGridDropZones-boolean-)| <b>@deprecated.</b> Please use the 'isGridDropZones' property instead. Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
+| [getShowColumnGrandTotals()](#getShowColumnGrandTotals--)| <b>@deprecated.</b> Please use the 'showColumnGrandTotals' property instead. Indicates whether to show grand totals for columns of this pivot table. |
+| [setShowColumnGrandTotals(boolean)](#setShowColumnGrandTotals-boolean-)| <b>@deprecated.</b> Please use the 'showColumnGrandTotals' property instead. Indicates whether to show grand totals for columns of this pivot table. |
+| [getShowRowGrandTotals()](#getShowRowGrandTotals--)| <b>@deprecated.</b> Please use the 'showRowGrandTotals' property instead. Indicates whether to show grand totals for rows of the pivot table. |
+| [setShowRowGrandTotals(boolean)](#setShowRowGrandTotals-boolean-)| <b>@deprecated.</b> Please use the 'showRowGrandTotals' property instead. Indicates whether to show grand totals for rows of the pivot table. |
+| [getColumnGrand()](#getColumnGrand--)| <b>@deprecated.</b> Please use the 'columnGrand' property instead. Indicates whether the PivotTable report shows grand totals for columns. |
+| [setColumnGrand(boolean)](#setColumnGrand-boolean-)| <b>@deprecated.</b> Please use the 'columnGrand' property instead. Indicates whether the PivotTable report shows grand totals for columns. |
+| [getRowGrand()](#getRowGrand--)| <b>@deprecated.</b> Please use the 'rowGrand' property instead. Indicates whether to show grand totals for rows of this pivot table. |
+| [setRowGrand(boolean)](#setRowGrand-boolean-)| <b>@deprecated.</b> Please use the 'rowGrand' property instead. Indicates whether to show grand totals for rows of this pivot table. |
+| [getDisplayNullString()](#getDisplayNullString--)| <b>@deprecated.</b> Please use the 'displayNullString' property instead. Indicates whether the PivotTable report displays a custom string if the value is null. |
+| [setDisplayNullString(boolean)](#setDisplayNullString-boolean-)| <b>@deprecated.</b> Please use the 'displayNullString' property instead. Indicates whether the PivotTable report displays a custom string if the value is null. |
+| [getNullString()](#getNullString--)| <b>@deprecated.</b> Please use the 'nullString' property instead. Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
+| [setNullString(string)](#setNullString-string-)| <b>@deprecated.</b> Please use the 'nullString' property instead. Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
+| [getDisplayErrorString()](#getDisplayErrorString--)| <b>@deprecated.</b> Please use the 'displayErrorString' property instead. Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
+| [setDisplayErrorString(boolean)](#setDisplayErrorString-boolean-)| <b>@deprecated.</b> Please use the 'displayErrorString' property instead. Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
+| [getDataFieldHeaderName()](#getDataFieldHeaderName--)| <b>@deprecated.</b> Please use the 'dataFieldHeaderName' property instead. Gets and sets the name of the value area field header in the PivotTable. |
+| [setDataFieldHeaderName(string)](#setDataFieldHeaderName-string-)| <b>@deprecated.</b> Please use the 'dataFieldHeaderName' property instead. Gets and sets the name of the value area field header in the PivotTable. |
+| [getErrorString()](#getErrorString--)| <b>@deprecated.</b> Please use the 'errorString' property instead. Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
+| [setErrorString(string)](#setErrorString-string-)| <b>@deprecated.</b> Please use the 'errorString' property instead. Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
+| [isAutoFormat()](#isAutoFormat--)| <b>@deprecated.</b> Please use the 'isAutoFormat' property instead. Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
+| [setIsAutoFormat(boolean)](#setIsAutoFormat-boolean-)| <b>@deprecated.</b> Please use the 'isAutoFormat' property instead. Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
+| [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--)| <b>@deprecated.</b> Please use the 'autofitColumnWidthOnUpdate' property instead. Indicates whether autofitting column width on update |
+| [setAutofitColumnWidthOnUpdate(boolean)](#setAutofitColumnWidthOnUpdate-boolean-)| <b>@deprecated.</b> Please use the 'autofitColumnWidthOnUpdate' property instead. Indicates whether autofitting column width on update |
+| [getAutoFormatType()](#getAutoFormatType--)| <b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable. |
+| [setAutoFormatType(PivotTableAutoFormatType)](#setAutoFormatType-pivottableautoformattype-)| <b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable. |
+| [getHasBlankRows()](#getHasBlankRows--)| <b>@deprecated.</b> Please use the 'hasBlankRows' property instead. Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
+| [setHasBlankRows(boolean)](#setHasBlankRows-boolean-)| <b>@deprecated.</b> Please use the 'hasBlankRows' property instead. Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
+| [getMergeLabels()](#getMergeLabels--)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [setMergeLabels(boolean)](#setMergeLabels-boolean-)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [getPreserveFormatting()](#getPreserveFormatting--)| <b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [setPreserveFormatting(boolean)](#setPreserveFormatting-boolean-)| <b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [getShowDrill()](#getShowDrill--)| <b>@deprecated.</b> Please use the 'showDrill' property instead. Gets and sets whether showing expand/collapse buttons. |
+| [setShowDrill(boolean)](#setShowDrill-boolean-)| <b>@deprecated.</b> Please use the 'showDrill' property instead. Gets and sets whether showing expand/collapse buttons. |
+| [getEnableDrilldown()](#getEnableDrilldown--)| <b>@deprecated.</b> Please use the 'enableDrilldown' property instead. Gets whether drilldown is enabled. |
+| [setEnableDrilldown(boolean)](#setEnableDrilldown-boolean-)| <b>@deprecated.</b> Please use the 'enableDrilldown' property instead. Gets whether drilldown is enabled. |
+| [getEnableFieldDialog()](#getEnableFieldDialog--)| <b>@deprecated.</b> Please use the 'enableFieldDialog' property instead. Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
+| [setEnableFieldDialog(boolean)](#setEnableFieldDialog-boolean-)| <b>@deprecated.</b> Please use the 'enableFieldDialog' property instead. Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
+| [getEnableFieldList()](#getEnableFieldList--)| <b>@deprecated.</b> Please use the 'enableFieldList' property instead. Indicates whether the field list for the PivotTable is available on the view of Excel. |
+| [setEnableFieldList(boolean)](#setEnableFieldList-boolean-)| <b>@deprecated.</b> Please use the 'enableFieldList' property instead. Indicates whether the field list for the PivotTable is available on the view of Excel. |
+| [getEnableWizard()](#getEnableWizard--)| <b>@deprecated.</b> Please use the 'enableWizard' property instead. Indicates whether the PivotTable Wizard is available. |
+| [setEnableWizard(boolean)](#setEnableWizard-boolean-)| <b>@deprecated.</b> Please use the 'enableWizard' property instead. Indicates whether the PivotTable Wizard is available. |
+| [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--)| <b>@deprecated.</b> Please use the 'subtotalHiddenPageItems' property instead. Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
+| [setSubtotalHiddenPageItems(boolean)](#setSubtotalHiddenPageItems-boolean-)| <b>@deprecated.</b> Please use the 'subtotalHiddenPageItems' property instead. Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
+| [getGrandTotalName()](#getGrandTotalName--)| <b>@deprecated.</b> Please use the 'grandTotalName' property instead. Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
+| [setGrandTotalName(string)](#setGrandTotalName-string-)| <b>@deprecated.</b> Please use the 'grandTotalName' property instead. Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
+| [getManualUpdate()](#getManualUpdate--)| <b>@deprecated.</b> Please use the 'manualUpdate' property instead. Indicates whether the PivotTable report is recalculated only at the user's request. |
+| [setManualUpdate(boolean)](#setManualUpdate-boolean-)| <b>@deprecated.</b> Please use the 'manualUpdate' property instead. Indicates whether the PivotTable report is recalculated only at the user's request. |
+| [isMultipleFieldFilters()](#isMultipleFieldFilters--)| <b>@deprecated.</b> Please use the 'isMultipleFieldFilters' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [setIsMultipleFieldFilters(boolean)](#setIsMultipleFieldFilters-boolean-)| <b>@deprecated.</b> Please use the 'isMultipleFieldFilters' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [getAllowMultipleFiltersPerField()](#getAllowMultipleFiltersPerField--)| <b>@deprecated.</b> Please use the 'allowMultipleFiltersPerField' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [setAllowMultipleFiltersPerField(boolean)](#setAllowMultipleFiltersPerField-boolean-)| <b>@deprecated.</b> Please use the 'allowMultipleFiltersPerField' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [getMissingItemsLimit()](#getMissingItemsLimit--)| <b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [setMissingItemsLimit(PivotMissingItemLimitType)](#setMissingItemsLimit-pivotmissingitemlimittype-)| <b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [getEnableDataValueEditing()](#getEnableDataValueEditing--)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [setEnableDataValueEditing(boolean)](#setEnableDataValueEditing-boolean-)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [getShowDataTips()](#getShowDataTips--)| <b>@deprecated.</b> Please use the 'showDataTips' property instead. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [setShowDataTips(boolean)](#setShowDataTips-boolean-)| <b>@deprecated.</b> Please use the 'showDataTips' property instead. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [getShowMemberPropertyTips()](#getShowMemberPropertyTips--)| <b>@deprecated.</b> Please use the 'showMemberPropertyTips' property instead. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
+| [setShowMemberPropertyTips(boolean)](#setShowMemberPropertyTips-boolean-)| <b>@deprecated.</b> Please use the 'showMemberPropertyTips' property instead. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
+| [getShowValuesRow()](#getShowValuesRow--)| <b>@deprecated.</b> Please use the 'showValuesRow' property instead. Indicates whether showing values row. |
+| [setShowValuesRow(boolean)](#setShowValuesRow-boolean-)| <b>@deprecated.</b> Please use the 'showValuesRow' property instead. Indicates whether showing values row. |
+| [getShowEmptyCol()](#getShowEmptyCol--)| <b>@deprecated.</b> Please use the 'showEmptyCol' property instead. Indicates whether to include empty columns in the table |
+| [setShowEmptyCol(boolean)](#setShowEmptyCol-boolean-)| <b>@deprecated.</b> Please use the 'showEmptyCol' property instead. Indicates whether to include empty columns in the table |
+| [getShowEmptyRow()](#getShowEmptyRow--)| <b>@deprecated.</b> Please use the 'showEmptyRow' property instead. Indicates whether to include empty rows in the table. |
+| [setShowEmptyRow(boolean)](#setShowEmptyRow-boolean-)| <b>@deprecated.</b> Please use the 'showEmptyRow' property instead. Indicates whether to include empty rows in the table. |
+| [getFieldListSortAscending()](#getFieldListSortAscending--)| <b>@deprecated.</b> Please use the 'fieldListSortAscending' property instead. Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
+| [setFieldListSortAscending(boolean)](#setFieldListSortAscending-boolean-)| <b>@deprecated.</b> Please use the 'fieldListSortAscending' property instead. Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
+| [getPrintDrill()](#getPrintDrill--)| <b>@deprecated.</b> Please use the 'printDrill' property instead. Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
+| [setPrintDrill(boolean)](#setPrintDrill-boolean-)| <b>@deprecated.</b> Please use the 'printDrill' property instead. Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
+| [getAltTextTitle()](#getAltTextTitle--)| <b>@deprecated.</b> Please use the 'altTextTitle' property instead. Gets and sets the title of the alter text. |
+| [setAltTextTitle(string)](#setAltTextTitle-string-)| <b>@deprecated.</b> Please use the 'altTextTitle' property instead. Gets and sets the title of the alter text. |
+| [getAltTextDescription()](#getAltTextDescription--)| <b>@deprecated.</b> Please use the 'altTextDescription' property instead. Gets the description of the alt text. |
+| [setAltTextDescription(string)](#setAltTextDescription-string-)| <b>@deprecated.</b> Please use the 'altTextDescription' property instead. Gets the description of the alt text. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the PivotTable |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the PivotTable |
+| [getColumnHeaderCaption()](#getColumnHeaderCaption--)| <b>@deprecated.</b> Please use the 'columnHeaderCaption' property instead. Gets the Column Header Caption of the PivotTable. |
+| [setColumnHeaderCaption(string)](#setColumnHeaderCaption-string-)| <b>@deprecated.</b> Please use the 'columnHeaderCaption' property instead. Gets the Column Header Caption of the PivotTable. |
+| [getIndent()](#getIndent--)| <b>@deprecated.</b> Please use the 'indent' property instead. Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
+| [setIndent(number)](#setIndent-number-)| <b>@deprecated.</b> Please use the 'indent' property instead. Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
+| [getRowHeaderCaption()](#getRowHeaderCaption--)| <b>@deprecated.</b> Please use the 'rowHeaderCaption' property instead. Gets the Row Header Caption of the PivotTable. |
+| [setRowHeaderCaption(string)](#setRowHeaderCaption-string-)| <b>@deprecated.</b> Please use the 'rowHeaderCaption' property instead. Gets the Row Header Caption of the PivotTable. |
+| [getShowRowHeaderCaption()](#getShowRowHeaderCaption--)| <b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [setShowRowHeaderCaption(boolean)](#setShowRowHeaderCaption-boolean-)| <b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [getCustomListSort()](#getCustomListSort--)| <b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data |
+| [setCustomListSort(boolean)](#setCustomListSort-boolean-)| <b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data |
+| [getPivotFormatConditions()](#getPivotFormatConditions--)| <b>@deprecated.</b> Please use the 'pivotFormatConditions' property instead. Gets the Format Conditions of the pivot table. |
+| [getConditionalFormats()](#getConditionalFormats--)| <b>@deprecated.</b> Please use the 'conditionalFormats' property instead. Gets the conditional formats of the pivot table. |
+| [getPageFieldOrder()](#getPageFieldOrder--)| <b>@deprecated.</b> Please use the 'pageFieldOrder' property instead. Gets and sets the order in which page fields are added to the PivotTable report's layout. |
+| [setPageFieldOrder(PrintOrderType)](#setPageFieldOrder-printordertype-)| <b>@deprecated.</b> Please use the 'pageFieldOrder' property instead. Gets and sets the order in which page fields are added to the PivotTable report's layout. |
+| [getPageFieldWrapCount()](#getPageFieldWrapCount--)| <b>@deprecated.</b> Please use the 'pageFieldWrapCount' property instead. Gets the number of page fields in each column or row in the PivotTable report. |
+| [setPageFieldWrapCount(number)](#setPageFieldWrapCount-number-)| <b>@deprecated.</b> Please use the 'pageFieldWrapCount' property instead. Gets the number of page fields in each column or row in the PivotTable report. |
+| [getTag()](#getTag--)| <b>@deprecated.</b> Please use the 'tag' property instead. Gets a string saved with the PivotTable report. |
+| [setTag(string)](#setTag-string-)| <b>@deprecated.</b> Please use the 'tag' property instead. Gets a string saved with the PivotTable report. |
+| [getSaveData()](#getSaveData--)| <b>@deprecated.</b> Please use the 'saveData' property instead. Indicates whether data for the PivotTable report is saved with the workbook. |
+| [setSaveData(boolean)](#setSaveData-boolean-)| <b>@deprecated.</b> Please use the 'saveData' property instead. Indicates whether data for the PivotTable report is saved with the workbook. |
+| [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--)| <b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File. |
+| [setRefreshDataOnOpeningFile(boolean)](#setRefreshDataOnOpeningFile-boolean-)| <b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File. |
+| [getRefreshDataFlag()](#getRefreshDataFlag--)| <b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not. |
+| [setRefreshDataFlag(boolean)](#setRefreshDataFlag-boolean-)| <b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not. |
+| [getSourceType()](#getSourceType--)| <b>@deprecated.</b> Please use the 'sourceType' property instead. Gets the data source type of the pivot table. |
+| [getExternalConnectionDataSource()](#getExternalConnectionDataSource--)| <b>@deprecated.</b> Please use the 'externalConnectionDataSource' property instead. Gets the external connection data source. |
+| [getDataSource()](#getDataSource--)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table. |
+| [setDataSource(string[])](#setDataSource-stringarray-)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table. |
+| [getPivotFormats()](#getPivotFormats--)| <b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets the collection of formats applied to PivotTable. |
+| [getItemPrintTitles()](#getItemPrintTitles--)| <b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page. |
+| [setItemPrintTitles(boolean)](#setItemPrintTitles-boolean-)| <b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page. |
+| [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--)| <b>@deprecated.</b> Please use the 'repeatItemsOnEachPrintedPage' property instead. Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
+| [setRepeatItemsOnEachPrintedPage(boolean)](#setRepeatItemsOnEachPrintedPage-boolean-)| <b>@deprecated.</b> Please use the 'repeatItemsOnEachPrintedPage' property instead. Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
+| [getPrintTitles()](#getPrintTitles--)| <b>@deprecated.</b> Please use the 'printTitles' property instead. Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
+| [setPrintTitles(boolean)](#setPrintTitles-boolean-)| <b>@deprecated.</b> Please use the 'printTitles' property instead. Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
+| [getDisplayImmediateItems()](#getDisplayImmediateItems--)| <b>@deprecated.</b> Please use the 'displayImmediateItems' property instead. Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
+| [setDisplayImmediateItems(boolean)](#setDisplayImmediateItems-boolean-)| <b>@deprecated.</b> Please use the 'displayImmediateItems' property instead. Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
+| [isSelected()](#isSelected--)| <b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this PivotTable is selected. |
+| [setIsSelected(boolean)](#setIsSelected-boolean-)| <b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this PivotTable is selected. |
+| [getShowPivotStyleRowHeader()](#getShowPivotStyleRowHeader--)| <b>@deprecated.</b> Please use the 'showPivotStyleRowHeader' property instead. Indicates whether the row header in the pivot table should have the style applied. |
+| [setShowPivotStyleRowHeader(boolean)](#setShowPivotStyleRowHeader-boolean-)| <b>@deprecated.</b> Please use the 'showPivotStyleRowHeader' property instead. Indicates whether the row header in the pivot table should have the style applied. |
+| [getShowPivotStyleColumnHeader()](#getShowPivotStyleColumnHeader--)| <b>@deprecated.</b> Please use the 'showPivotStyleColumnHeader' property instead. Indicates whether the column header in the pivot table should have the style applied. |
+| [setShowPivotStyleColumnHeader(boolean)](#setShowPivotStyleColumnHeader-boolean-)| <b>@deprecated.</b> Please use the 'showPivotStyleColumnHeader' property instead. Indicates whether the column header in the pivot table should have the style applied. |
+| [getShowPivotStyleRowStripes()](#getShowPivotStyleRowStripes--)| <b>@deprecated.</b> Please use the 'showPivotStyleRowStripes' property instead. Indicates whether row stripe formatting is applied. |
+| [setShowPivotStyleRowStripes(boolean)](#setShowPivotStyleRowStripes-boolean-)| <b>@deprecated.</b> Please use the 'showPivotStyleRowStripes' property instead. Indicates whether row stripe formatting is applied. |
+| [getShowPivotStyleColumnStripes()](#getShowPivotStyleColumnStripes--)| <b>@deprecated.</b> Please use the 'showPivotStyleColumnStripes' property instead. Indicates whether stripe formatting is applied for column. |
+| [setShowPivotStyleColumnStripes(boolean)](#setShowPivotStyleColumnStripes-boolean-)| <b>@deprecated.</b> Please use the 'showPivotStyleColumnStripes' property instead. Indicates whether stripe formatting is applied for column. |
+| [getShowPivotStyleLastColumn()](#getShowPivotStyleLastColumn--)| <b>@deprecated.</b> Please use the 'showPivotStyleLastColumn' property instead. Indicates whether the column formatting is applied. |
+| [setShowPivotStyleLastColumn(boolean)](#setShowPivotStyleLastColumn-boolean-)| <b>@deprecated.</b> Please use the 'showPivotStyleLastColumn' property instead. Indicates whether the column formatting is applied. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [copyStyle(PivotTable)](#copyStyle-pivottable-)| Copies named style from another pivot table. |
 | [showReportFilterPage(PivotField)](#showReportFilterPage-pivotfield-)| Show all the report filter pages according to PivotField, the PivotField must be located in the PageFields. |
@@ -209,9 +296,775 @@ class PivotTable;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### isExcel2003Compatible() {#isExcel2003Compatible--}
+### isExcel2003Compatible {#isExcel2003Compatible--}
 
 Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true.
+
+```javascript
+isExcel2003Compatible : boolean;
+```
+
+
+### refreshedByWho {#refreshedByWho--}
+
+Readonly. Gets the name of the last user who refreshed this PivotTable
+
+```javascript
+refreshedByWho : string;
+```
+
+
+### refreshDate {#refreshDate--}
+
+Readonly. Gets the last date time when the PivotTable was refreshed.
+
+```javascript
+refreshDate : Date;
+```
+
+
+### pivotTableStyleName {#pivotTableStyleName--}
+
+Gets and sets the pivottable style name.
+
+```javascript
+pivotTableStyleName : string;
+```
+
+
+### pivotTableStyleType {#pivotTableStyleType--}
+
+Gets and sets the built-in pivot table style.
+
+```javascript
+pivotTableStyleType : PivotTableStyleType;
+```
+
+
+### columnFields {#columnFields--}
+
+Readonly. Returns a PivotFields object that are currently shown as column fields.
+
+```javascript
+columnFields : PivotFieldCollection;
+```
+
+
+### rowFields {#rowFields--}
+
+Readonly. Returns a PivotFields object that are currently shown as row fields.
+
+```javascript
+rowFields : PivotFieldCollection;
+```
+
+
+### pageFields {#pageFields--}
+
+Readonly. Returns a PivotFields object that are currently shown as page fields.
+
+```javascript
+pageFields : PivotFieldCollection;
+```
+
+
+### dataFields {#dataFields--}
+
+Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+
+```javascript
+dataFields : PivotFieldCollection;
+```
+
+
+### dataField {#dataField--}
+
+Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
+
+```javascript
+dataField : PivotField;
+```
+
+
+### baseFields {#baseFields--}
+
+Readonly. Returns all base pivot fields in the PivotTable.
+
+```javascript
+baseFields : PivotFieldCollection;
+```
+
+
+### pivotFilters {#pivotFilters--}
+
+Readonly. Returns all filters of pivot fields in the pivot table.
+
+```javascript
+pivotFilters : PivotFilterCollection;
+```
+
+
+### columnRange {#columnRange--}
+
+Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only.
+
+```javascript
+columnRange : CellArea;
+```
+
+
+### rowRange {#rowRange--}
+
+Readonly. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only.
+
+```javascript
+rowRange : CellArea;
+```
+
+
+### dataBodyRange {#dataBodyRange--}
+
+Readonly. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
+
+```javascript
+dataBodyRange : CellArea;
+```
+
+
+### tableRange1 {#tableRange1--}
+
+Readonly. Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only.
+
+```javascript
+tableRange1 : CellArea;
+```
+
+
+### tableRange2 {#tableRange2--}
+
+Readonly. Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only.
+
+```javascript
+tableRange2 : CellArea;
+```
+
+
+### isGridDropZones {#isGridDropZones--}
+
+Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
+
+```javascript
+isGridDropZones : boolean;
+```
+
+
+### showColumnGrandTotals {#showColumnGrandTotals--}
+
+Indicates whether to show grand totals for columns of this pivot table.
+
+```javascript
+showColumnGrandTotals : boolean;
+```
+
+
+### showRowGrandTotals {#showRowGrandTotals--}
+
+Indicates whether to show grand totals for rows of the pivot table.
+
+```javascript
+showRowGrandTotals : boolean;
+```
+
+
+### columnGrand {#columnGrand--}
+
+Indicates whether the PivotTable report shows grand totals for columns.
+
+```javascript
+columnGrand : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### rowGrand {#rowGrand--}
+
+Indicates whether to show grand totals for rows of this pivot table.
+
+```javascript
+rowGrand : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### displayNullString {#displayNullString--}
+
+Indicates whether the PivotTable report displays a custom string if the value is null.
+
+```javascript
+displayNullString : boolean;
+```
+
+
+### nullString {#nullString--}
+
+Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
+
+```javascript
+nullString : string;
+```
+
+
+### displayErrorString {#displayErrorString--}
+
+Indicates whether the PivotTable report displays a custom string in cells that contain errors.
+
+```javascript
+displayErrorString : boolean;
+```
+
+
+### dataFieldHeaderName {#dataFieldHeaderName--}
+
+Gets and sets the name of the value area field header in the PivotTable.
+
+```javascript
+dataFieldHeaderName : string;
+```
+
+
+### errorString {#errorString--}
+
+Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string.
+
+```javascript
+errorString : string;
+```
+
+
+### isAutoFormat {#isAutoFormat--}
+
+Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
+
+```javascript
+isAutoFormat : boolean;
+```
+
+
+### autofitColumnWidthOnUpdate {#autofitColumnWidthOnUpdate--}
+
+Indicates whether autofitting column width on update
+
+```javascript
+autofitColumnWidthOnUpdate : boolean;
+```
+
+
+### autoFormatType {#autoFormatType--}
+
+Gets and sets the auto format type of PivotTable.
+
+```javascript
+autoFormatType : PivotTableAutoFormatType;
+```
+
+
+### hasBlankRows {#hasBlankRows--}
+
+Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
+
+```javascript
+hasBlankRows : boolean;
+```
+
+
+### mergeLabels {#mergeLabels--}
+
+True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+
+```javascript
+mergeLabels : boolean;
+```
+
+
+### preserveFormatting {#preserveFormatting--}
+
+Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+
+```javascript
+preserveFormatting : boolean;
+```
+
+
+### showDrill {#showDrill--}
+
+Gets and sets whether showing expand/collapse buttons.
+
+```javascript
+showDrill : boolean;
+```
+
+
+### enableDrilldown {#enableDrilldown--}
+
+Gets whether drilldown is enabled.
+
+```javascript
+enableDrilldown : boolean;
+```
+
+
+### enableFieldDialog {#enableFieldDialog--}
+
+Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
+
+```javascript
+enableFieldDialog : boolean;
+```
+
+
+### enableFieldList {#enableFieldList--}
+
+Indicates whether the field list for the PivotTable is available on the view of Excel.
+
+```javascript
+enableFieldList : boolean;
+```
+
+
+### enableWizard {#enableWizard--}
+
+Indicates whether the PivotTable Wizard is available.
+
+```javascript
+enableWizard : boolean;
+```
+
+
+### subtotalHiddenPageItems {#subtotalHiddenPageItems--}
+
+Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False.
+
+```javascript
+subtotalHiddenPageItems : boolean;
+```
+
+
+### grandTotalName {#grandTotalName--}
+
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+
+```javascript
+grandTotalName : string;
+```
+
+
+### manualUpdate {#manualUpdate--}
+
+Indicates whether the PivotTable report is recalculated only at the user's request.
+
+```javascript
+manualUpdate : boolean;
+```
+
+
+### isMultipleFieldFilters {#isMultipleFieldFilters--}
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+```javascript
+isMultipleFieldFilters : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipleFiltersPerField property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowMultipleFiltersPerField {#allowMultipleFiltersPerField--}
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+```javascript
+allowMultipleFiltersPerField : boolean;
+```
+
+
+### missingItemsLimit {#missingItemsLimit--}
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+```javascript
+missingItemsLimit : PivotMissingItemLimitType;
+```
+
+
+### enableDataValueEditing {#enableDataValueEditing--}
+
+Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+
+```javascript
+enableDataValueEditing : boolean;
+```
+
+
+### showDataTips {#showDataTips--}
+
+Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+
+```javascript
+showDataTips : boolean;
+```
+
+
+### showMemberPropertyTips {#showMemberPropertyTips--}
+
+Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
+
+```javascript
+showMemberPropertyTips : boolean;
+```
+
+
+### showValuesRow {#showValuesRow--}
+
+Indicates whether showing values row.
+
+```javascript
+showValuesRow : boolean;
+```
+
+
+### showEmptyCol {#showEmptyCol--}
+
+Indicates whether to include empty columns in the table
+
+```javascript
+showEmptyCol : boolean;
+```
+
+
+### showEmptyRow {#showEmptyRow--}
+
+Indicates whether to include empty rows in the table.
+
+```javascript
+showEmptyRow : boolean;
+```
+
+
+### fieldListSortAscending {#fieldListSortAscending--}
+
+Indicates whether fields in the PivotTable are sorted in non-default order in the field list.
+
+```javascript
+fieldListSortAscending : boolean;
+```
+
+
+### printDrill {#printDrill--}
+
+Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
+
+```javascript
+printDrill : boolean;
+```
+
+
+### altTextTitle {#altTextTitle--}
+
+Gets and sets the title of the alter text.
+
+```javascript
+altTextTitle : string;
+```
+
+
+### altTextDescription {#altTextDescription--}
+
+Gets the description of the alt text.
+
+```javascript
+altTextDescription : string;
+```
+
+
+### name {#name--}
+
+Gets the name of the PivotTable
+
+```javascript
+name : string;
+```
+
+
+### columnHeaderCaption {#columnHeaderCaption--}
+
+Gets the Column Header Caption of the PivotTable.
+
+```javascript
+columnHeaderCaption : string;
+```
+
+
+### indent {#indent--}
+
+Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
+
+```javascript
+indent : number;
+```
+
+
+### rowHeaderCaption {#rowHeaderCaption--}
+
+Gets the Row Header Caption of the PivotTable.
+
+```javascript
+rowHeaderCaption : string;
+```
+
+
+### showRowHeaderCaption {#showRowHeaderCaption--}
+
+Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
+
+```javascript
+showRowHeaderCaption : boolean;
+```
+
+
+### customListSort {#customListSort--}
+
+Indicates whether consider built-in custom list when sort data
+
+```javascript
+customListSort : boolean;
+```
+
+
+### pivotFormatConditions {#pivotFormatConditions--}
+
+Readonly. Gets the Format Conditions of the pivot table.
+
+```javascript
+pivotFormatConditions : PivotFormatConditionCollection;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalFormats property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### conditionalFormats {#conditionalFormats--}
+
+Readonly. Gets the conditional formats of the pivot table.
+
+```javascript
+conditionalFormats : PivotConditionalFormatCollection;
+```
+
+
+### pageFieldOrder {#pageFieldOrder--}
+
+Gets and sets the order in which page fields are added to the PivotTable report's layout.
+
+```javascript
+pageFieldOrder : PrintOrderType;
+```
+
+
+### pageFieldWrapCount {#pageFieldWrapCount--}
+
+Gets the number of page fields in each column or row in the PivotTable report.
+
+```javascript
+pageFieldWrapCount : number;
+```
+
+
+### tag {#tag--}
+
+Gets a string saved with the PivotTable report.
+
+```javascript
+tag : string;
+```
+
+
+### saveData {#saveData--}
+
+Indicates whether data for the PivotTable report is saved with the workbook.
+
+```javascript
+saveData : boolean;
+```
+
+
+### refreshDataOnOpeningFile {#refreshDataOnOpeningFile--}
+
+Indicates whether Refresh Data when Opening File.
+
+```javascript
+refreshDataOnOpeningFile : boolean;
+```
+
+
+### refreshDataFlag {#refreshDataFlag--}
+
+Indicates whether Refreshing Data or not.
+
+```javascript
+refreshDataFlag : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### sourceType {#sourceType--}
+
+Readonly. Gets the data source type of the pivot table.
+
+```javascript
+sourceType : PivotTableSourceType;
+```
+
+
+### externalConnectionDataSource {#externalConnectionDataSource--}
+
+Readonly. Gets the external connection data source.
+
+```javascript
+externalConnectionDataSource : ExternalConnection;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### dataSource {#dataSource--}
+
+Gets and sets the data source of the pivot table.
+
+```javascript
+dataSource : string[];
+```
+
+
+### pivotFormats {#pivotFormats--}
+
+Readonly. Gets the collection of formats applied to PivotTable.
+
+```javascript
+pivotFormats : PivotTableFormatCollection;
+```
+
+
+### itemPrintTitles {#itemPrintTitles--}
+
+Indicates whether PivotItem names should be repeated at the top of each printed page.
+
+```javascript
+itemPrintTitles : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsOnEachPrintedPage property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### repeatItemsOnEachPrintedPage {#repeatItemsOnEachPrintedPage--}
+
+Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+
+```javascript
+repeatItemsOnEachPrintedPage : boolean;
+```
+
+
+### printTitles {#printTitles--}
+
+Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
+
+```javascript
+printTitles : boolean;
+```
+
+
+### displayImmediateItems {#displayImmediateItems--}
+
+Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true.
+
+```javascript
+displayImmediateItems : boolean;
+```
+
+
+### isSelected {#isSelected--}
+
+Indicates whether this PivotTable is selected.
+
+```javascript
+isSelected : boolean;
+```
+
+
+### showPivotStyleRowHeader {#showPivotStyleRowHeader--}
+
+Indicates whether the row header in the pivot table should have the style applied.
+
+```javascript
+showPivotStyleRowHeader : boolean;
+```
+
+
+### showPivotStyleColumnHeader {#showPivotStyleColumnHeader--}
+
+Indicates whether the column header in the pivot table should have the style applied.
+
+```javascript
+showPivotStyleColumnHeader : boolean;
+```
+
+
+### showPivotStyleRowStripes {#showPivotStyleRowStripes--}
+
+Indicates whether row stripe formatting is applied.
+
+```javascript
+showPivotStyleRowStripes : boolean;
+```
+
+
+### showPivotStyleColumnStripes {#showPivotStyleColumnStripes--}
+
+Indicates whether stripe formatting is applied for column.
+
+```javascript
+showPivotStyleColumnStripes : boolean;
+```
+
+
+### showPivotStyleLastColumn {#showPivotStyleLastColumn--}
+
+Indicates whether the column formatting is applied.
+
+```javascript
+showPivotStyleLastColumn : boolean;
+```
+
+
+### isExcel2003Compatible() {#isExcel2003Compatible--}
+
+<b>@deprecated.</b> Please use the 'isExcel2003Compatible' property instead. Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true.
 
 ```javascript
 isExcel2003Compatible() : boolean;
@@ -220,7 +1073,7 @@ isExcel2003Compatible() : boolean;
 
 ### setIsExcel2003Compatible(boolean) {#setIsExcel2003Compatible-boolean-}
 
-Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true.
+<b>@deprecated.</b> Please use the 'isExcel2003Compatible' property instead. Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true.
 
 ```javascript
 setIsExcel2003Compatible(value: boolean) : void;
@@ -233,7 +1086,7 @@ setIsExcel2003Compatible(value: boolean) : void;
 
 ### getRefreshedByWho() {#getRefreshedByWho--}
 
-Gets the name of the last user who refreshed this PivotTable
+<b>@deprecated.</b> Please use the 'refreshedByWho' property instead. Gets the name of the last user who refreshed this PivotTable
 
 ```javascript
 getRefreshedByWho() : string;
@@ -242,7 +1095,7 @@ getRefreshedByWho() : string;
 
 ### getRefreshDate() {#getRefreshDate--}
 
-Gets the last date time when the PivotTable was refreshed.
+<b>@deprecated.</b> Please use the 'refreshDate' property instead. Gets the last date time when the PivotTable was refreshed.
 
 ```javascript
 getRefreshDate() : Date;
@@ -251,7 +1104,7 @@ getRefreshDate() : Date;
 
 ### getPivotTableStyleName() {#getPivotTableStyleName--}
 
-Gets and sets the pivottable style name.
+<b>@deprecated.</b> Please use the 'pivotTableStyleName' property instead. Gets and sets the pivottable style name.
 
 ```javascript
 getPivotTableStyleName() : string;
@@ -260,7 +1113,7 @@ getPivotTableStyleName() : string;
 
 ### setPivotTableStyleName(string) {#setPivotTableStyleName-string-}
 
-Gets and sets the pivottable style name.
+<b>@deprecated.</b> Please use the 'pivotTableStyleName' property instead. Gets and sets the pivottable style name.
 
 ```javascript
 setPivotTableStyleName(value: string) : void;
@@ -273,7 +1126,7 @@ setPivotTableStyleName(value: string) : void;
 
 ### getPivotTableStyleType() {#getPivotTableStyleType--}
 
-Gets and sets the built-in pivot table style.
+<b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style.
 
 ```javascript
 getPivotTableStyleType() : PivotTableStyleType;
@@ -286,7 +1139,7 @@ getPivotTableStyleType() : PivotTableStyleType;
 
 ### setPivotTableStyleType(PivotTableStyleType) {#setPivotTableStyleType-pivottablestyletype-}
 
-Gets and sets the built-in pivot table style.
+<b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style.
 
 ```javascript
 setPivotTableStyleType(value: PivotTableStyleType) : void;
@@ -299,7 +1152,7 @@ setPivotTableStyleType(value: PivotTableStyleType) : void;
 
 ### getColumnFields() {#getColumnFields--}
 
-Returns a PivotFields object that are currently shown as column fields.
+<b>@deprecated.</b> Please use the 'columnFields' property instead. Returns a PivotFields object that are currently shown as column fields.
 
 ```javascript
 getColumnFields() : PivotFieldCollection;
@@ -312,7 +1165,7 @@ getColumnFields() : PivotFieldCollection;
 
 ### getRowFields() {#getRowFields--}
 
-Returns a PivotFields object that are currently shown as row fields.
+<b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a PivotFields object that are currently shown as row fields.
 
 ```javascript
 getRowFields() : PivotFieldCollection;
@@ -325,7 +1178,7 @@ getRowFields() : PivotFieldCollection;
 
 ### getPageFields() {#getPageFields--}
 
-Returns a PivotFields object that are currently shown as page fields.
+<b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a PivotFields object that are currently shown as page fields.
 
 ```javascript
 getPageFields() : PivotFieldCollection;
@@ -338,7 +1191,7 @@ getPageFields() : PivotFieldCollection;
 
 ### getDataFields() {#getDataFields--}
 
-Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+<b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
 
 ```javascript
 getDataFields() : PivotFieldCollection;
@@ -351,7 +1204,7 @@ getDataFields() : PivotFieldCollection;
 
 ### getDataField() {#getDataField--}
 
-Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
+<b>@deprecated.</b> Please use the 'dataField' property instead. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
 
 ```javascript
 getDataField() : PivotField;
@@ -364,7 +1217,7 @@ getDataField() : PivotField;
 
 ### getBaseFields() {#getBaseFields--}
 
-Returns all base pivot fields in the PivotTable.
+<b>@deprecated.</b> Please use the 'baseFields' property instead. Returns all base pivot fields in the PivotTable.
 
 ```javascript
 getBaseFields() : PivotFieldCollection;
@@ -377,7 +1230,7 @@ getBaseFields() : PivotFieldCollection;
 
 ### getPivotFilters() {#getPivotFilters--}
 
-Returns all filters of pivot fields in the pivot table.
+<b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters of pivot fields in the pivot table.
 
 ```javascript
 getPivotFilters() : PivotFilterCollection;
@@ -390,7 +1243,7 @@ getPivotFilters() : PivotFilterCollection;
 
 ### getColumnRange() {#getColumnRange--}
 
-Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only.
+<b>@deprecated.</b> Please use the 'columnRange' property instead. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only.
 
 ```javascript
 getColumnRange() : CellArea;
@@ -403,7 +1256,7 @@ getColumnRange() : CellArea;
 
 ### getRowRange() {#getRowRange--}
 
-Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only.
+<b>@deprecated.</b> Please use the 'rowRange' property instead. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only.
 
 ```javascript
 getRowRange() : CellArea;
@@ -416,7 +1269,7 @@ getRowRange() : CellArea;
 
 ### getDataBodyRange() {#getDataBodyRange--}
 
-Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
+<b>@deprecated.</b> Please use the 'dataBodyRange' property instead. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
 
 ```javascript
 getDataBodyRange() : CellArea;
@@ -429,7 +1282,7 @@ getDataBodyRange() : CellArea;
 
 ### getTableRange1() {#getTableRange1--}
 
-Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only.
+<b>@deprecated.</b> Please use the 'tableRange1' property instead. Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only.
 
 ```javascript
 getTableRange1() : CellArea;
@@ -442,7 +1295,7 @@ getTableRange1() : CellArea;
 
 ### getTableRange2() {#getTableRange2--}
 
-Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only.
+<b>@deprecated.</b> Please use the 'tableRange2' property instead. Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only.
 
 ```javascript
 getTableRange2() : CellArea;
@@ -455,7 +1308,7 @@ getTableRange2() : CellArea;
 
 ### isGridDropZones() {#isGridDropZones--}
 
-Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
+<b>@deprecated.</b> Please use the 'isGridDropZones' property instead. Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
 
 ```javascript
 isGridDropZones() : boolean;
@@ -464,7 +1317,7 @@ isGridDropZones() : boolean;
 
 ### setIsGridDropZones(boolean) {#setIsGridDropZones-boolean-}
 
-Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
+<b>@deprecated.</b> Please use the 'isGridDropZones' property instead. Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
 
 ```javascript
 setIsGridDropZones(value: boolean) : void;
@@ -477,7 +1330,7 @@ setIsGridDropZones(value: boolean) : void;
 
 ### getShowColumnGrandTotals() {#getShowColumnGrandTotals--}
 
-Indicates whether to show grand totals for columns of this pivot table.
+<b>@deprecated.</b> Please use the 'showColumnGrandTotals' property instead. Indicates whether to show grand totals for columns of this pivot table.
 
 ```javascript
 getShowColumnGrandTotals() : boolean;
@@ -486,7 +1339,7 @@ getShowColumnGrandTotals() : boolean;
 
 ### setShowColumnGrandTotals(boolean) {#setShowColumnGrandTotals-boolean-}
 
-Indicates whether to show grand totals for columns of this pivot table.
+<b>@deprecated.</b> Please use the 'showColumnGrandTotals' property instead. Indicates whether to show grand totals for columns of this pivot table.
 
 ```javascript
 setShowColumnGrandTotals(value: boolean) : void;
@@ -499,7 +1352,7 @@ setShowColumnGrandTotals(value: boolean) : void;
 
 ### getShowRowGrandTotals() {#getShowRowGrandTotals--}
 
-Indicates whether to show grand totals for rows of the pivot table.
+<b>@deprecated.</b> Please use the 'showRowGrandTotals' property instead. Indicates whether to show grand totals for rows of the pivot table.
 
 ```javascript
 getShowRowGrandTotals() : boolean;
@@ -508,7 +1361,7 @@ getShowRowGrandTotals() : boolean;
 
 ### setShowRowGrandTotals(boolean) {#setShowRowGrandTotals-boolean-}
 
-Indicates whether to show grand totals for rows of the pivot table.
+<b>@deprecated.</b> Please use the 'showRowGrandTotals' property instead. Indicates whether to show grand totals for rows of the pivot table.
 
 ```javascript
 setShowRowGrandTotals(value: boolean) : void;
@@ -521,7 +1374,7 @@ setShowRowGrandTotals(value: boolean) : void;
 
 ### getColumnGrand() {#getColumnGrand--}
 
-Indicates whether the PivotTable report shows grand totals for columns.
+<b>@deprecated.</b> Please use the 'columnGrand' property instead. Indicates whether the PivotTable report shows grand totals for columns.
 
 ```javascript
 getColumnGrand() : boolean;
@@ -534,7 +1387,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGr
 
 ### setColumnGrand(boolean) {#setColumnGrand-boolean-}
 
-Indicates whether the PivotTable report shows grand totals for columns.
+<b>@deprecated.</b> Please use the 'columnGrand' property instead. Indicates whether the PivotTable report shows grand totals for columns.
 
 ```javascript
 setColumnGrand(value: boolean) : void;
@@ -551,7 +1404,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGr
 
 ### getRowGrand() {#getRowGrand--}
 
-Indicates whether to show grand totals for rows of this pivot table.
+<b>@deprecated.</b> Please use the 'rowGrand' property instead. Indicates whether to show grand totals for rows of this pivot table.
 
 ```javascript
 getRowGrand() : boolean;
@@ -564,7 +1417,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrand
 
 ### setRowGrand(boolean) {#setRowGrand-boolean-}
 
-Indicates whether to show grand totals for rows of this pivot table.
+<b>@deprecated.</b> Please use the 'rowGrand' property instead. Indicates whether to show grand totals for rows of this pivot table.
 
 ```javascript
 setRowGrand(value: boolean) : void;
@@ -581,7 +1434,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrand
 
 ### getDisplayNullString() {#getDisplayNullString--}
 
-Indicates whether the PivotTable report displays a custom string if the value is null.
+<b>@deprecated.</b> Please use the 'displayNullString' property instead. Indicates whether the PivotTable report displays a custom string if the value is null.
 
 ```javascript
 getDisplayNullString() : boolean;
@@ -590,7 +1443,7 @@ getDisplayNullString() : boolean;
 
 ### setDisplayNullString(boolean) {#setDisplayNullString-boolean-}
 
-Indicates whether the PivotTable report displays a custom string if the value is null.
+<b>@deprecated.</b> Please use the 'displayNullString' property instead. Indicates whether the PivotTable report displays a custom string if the value is null.
 
 ```javascript
 setDisplayNullString(value: boolean) : void;
@@ -603,7 +1456,7 @@ setDisplayNullString(value: boolean) : void;
 
 ### getNullString() {#getNullString--}
 
-Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
+<b>@deprecated.</b> Please use the 'nullString' property instead. Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
 
 ```javascript
 getNullString() : string;
@@ -612,7 +1465,7 @@ getNullString() : string;
 
 ### setNullString(string) {#setNullString-string-}
 
-Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
+<b>@deprecated.</b> Please use the 'nullString' property instead. Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string.
 
 ```javascript
 setNullString(value: string) : void;
@@ -625,7 +1478,7 @@ setNullString(value: string) : void;
 
 ### getDisplayErrorString() {#getDisplayErrorString--}
 
-Indicates whether the PivotTable report displays a custom string in cells that contain errors.
+<b>@deprecated.</b> Please use the 'displayErrorString' property instead. Indicates whether the PivotTable report displays a custom string in cells that contain errors.
 
 ```javascript
 getDisplayErrorString() : boolean;
@@ -634,7 +1487,7 @@ getDisplayErrorString() : boolean;
 
 ### setDisplayErrorString(boolean) {#setDisplayErrorString-boolean-}
 
-Indicates whether the PivotTable report displays a custom string in cells that contain errors.
+<b>@deprecated.</b> Please use the 'displayErrorString' property instead. Indicates whether the PivotTable report displays a custom string in cells that contain errors.
 
 ```javascript
 setDisplayErrorString(value: boolean) : void;
@@ -647,7 +1500,7 @@ setDisplayErrorString(value: boolean) : void;
 
 ### getDataFieldHeaderName() {#getDataFieldHeaderName--}
 
-Gets and sets the name of the value area field header in the PivotTable.
+<b>@deprecated.</b> Please use the 'dataFieldHeaderName' property instead. Gets and sets the name of the value area field header in the PivotTable.
 
 ```javascript
 getDataFieldHeaderName() : string;
@@ -656,7 +1509,7 @@ getDataFieldHeaderName() : string;
 
 ### setDataFieldHeaderName(string) {#setDataFieldHeaderName-string-}
 
-Gets and sets the name of the value area field header in the PivotTable.
+<b>@deprecated.</b> Please use the 'dataFieldHeaderName' property instead. Gets and sets the name of the value area field header in the PivotTable.
 
 ```javascript
 setDataFieldHeaderName(value: string) : void;
@@ -669,7 +1522,7 @@ setDataFieldHeaderName(value: string) : void;
 
 ### getErrorString() {#getErrorString--}
 
-Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string.
+<b>@deprecated.</b> Please use the 'errorString' property instead. Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string.
 
 ```javascript
 getErrorString() : string;
@@ -678,7 +1531,7 @@ getErrorString() : string;
 
 ### setErrorString(string) {#setErrorString-string-}
 
-Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string.
+<b>@deprecated.</b> Please use the 'errorString' property instead. Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string.
 
 ```javascript
 setErrorString(value: string) : void;
@@ -691,7 +1544,7 @@ setErrorString(value: string) : void;
 
 ### isAutoFormat() {#isAutoFormat--}
 
-Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
+<b>@deprecated.</b> Please use the 'isAutoFormat' property instead. Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
 
 ```javascript
 isAutoFormat() : boolean;
@@ -700,7 +1553,7 @@ isAutoFormat() : boolean;
 
 ### setIsAutoFormat(boolean) {#setIsAutoFormat-boolean-}
 
-Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
+<b>@deprecated.</b> Please use the 'isAutoFormat' property instead. Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
 
 ```javascript
 setIsAutoFormat(value: boolean) : void;
@@ -713,7 +1566,7 @@ setIsAutoFormat(value: boolean) : void;
 
 ### getAutofitColumnWidthOnUpdate() {#getAutofitColumnWidthOnUpdate--}
 
-Indicates whether autofitting column width on update
+<b>@deprecated.</b> Please use the 'autofitColumnWidthOnUpdate' property instead. Indicates whether autofitting column width on update
 
 ```javascript
 getAutofitColumnWidthOnUpdate() : boolean;
@@ -722,7 +1575,7 @@ getAutofitColumnWidthOnUpdate() : boolean;
 
 ### setAutofitColumnWidthOnUpdate(boolean) {#setAutofitColumnWidthOnUpdate-boolean-}
 
-Indicates whether autofitting column width on update
+<b>@deprecated.</b> Please use the 'autofitColumnWidthOnUpdate' property instead. Indicates whether autofitting column width on update
 
 ```javascript
 setAutofitColumnWidthOnUpdate(value: boolean) : void;
@@ -735,7 +1588,7 @@ setAutofitColumnWidthOnUpdate(value: boolean) : void;
 
 ### getAutoFormatType() {#getAutoFormatType--}
 
-Gets and sets the auto format type of PivotTable.
+<b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable.
 
 ```javascript
 getAutoFormatType() : PivotTableAutoFormatType;
@@ -748,7 +1601,7 @@ getAutoFormatType() : PivotTableAutoFormatType;
 
 ### setAutoFormatType(PivotTableAutoFormatType) {#setAutoFormatType-pivottableautoformattype-}
 
-Gets and sets the auto format type of PivotTable.
+<b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable.
 
 ```javascript
 setAutoFormatType(value: PivotTableAutoFormatType) : void;
@@ -761,7 +1614,7 @@ setAutoFormatType(value: PivotTableAutoFormatType) : void;
 
 ### getHasBlankRows() {#getHasBlankRows--}
 
-Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
+<b>@deprecated.</b> Please use the 'hasBlankRows' property instead. Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
 
 ```javascript
 getHasBlankRows() : boolean;
@@ -770,7 +1623,7 @@ getHasBlankRows() : boolean;
 
 ### setHasBlankRows(boolean) {#setHasBlankRows-boolean-}
 
-Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
+<b>@deprecated.</b> Please use the 'hasBlankRows' property instead. Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
 
 ```javascript
 setHasBlankRows(value: boolean) : void;
@@ -783,7 +1636,7 @@ setHasBlankRows(value: boolean) : void;
 
 ### getMergeLabels() {#getMergeLabels--}
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+<b>@deprecated.</b> Please use the 'mergeLabels' property instead. True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
 
 ```javascript
 getMergeLabels() : boolean;
@@ -792,7 +1645,7 @@ getMergeLabels() : boolean;
 
 ### setMergeLabels(boolean) {#setMergeLabels-boolean-}
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+<b>@deprecated.</b> Please use the 'mergeLabels' property instead. True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
 
 ```javascript
 setMergeLabels(value: boolean) : void;
@@ -805,7 +1658,7 @@ setMergeLabels(value: boolean) : void;
 
 ### getPreserveFormatting() {#getPreserveFormatting--}
 
-Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+<b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
 
 ```javascript
 getPreserveFormatting() : boolean;
@@ -814,7 +1667,7 @@ getPreserveFormatting() : boolean;
 
 ### setPreserveFormatting(boolean) {#setPreserveFormatting-boolean-}
 
-Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+<b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
 
 ```javascript
 setPreserveFormatting(value: boolean) : void;
@@ -827,7 +1680,7 @@ setPreserveFormatting(value: boolean) : void;
 
 ### getShowDrill() {#getShowDrill--}
 
-Gets and sets whether showing expand/collapse buttons.
+<b>@deprecated.</b> Please use the 'showDrill' property instead. Gets and sets whether showing expand/collapse buttons.
 
 ```javascript
 getShowDrill() : boolean;
@@ -836,7 +1689,7 @@ getShowDrill() : boolean;
 
 ### setShowDrill(boolean) {#setShowDrill-boolean-}
 
-Gets and sets whether showing expand/collapse buttons.
+<b>@deprecated.</b> Please use the 'showDrill' property instead. Gets and sets whether showing expand/collapse buttons.
 
 ```javascript
 setShowDrill(value: boolean) : void;
@@ -849,7 +1702,7 @@ setShowDrill(value: boolean) : void;
 
 ### getEnableDrilldown() {#getEnableDrilldown--}
 
-Gets whether drilldown is enabled.
+<b>@deprecated.</b> Please use the 'enableDrilldown' property instead. Gets whether drilldown is enabled.
 
 ```javascript
 getEnableDrilldown() : boolean;
@@ -858,7 +1711,7 @@ getEnableDrilldown() : boolean;
 
 ### setEnableDrilldown(boolean) {#setEnableDrilldown-boolean-}
 
-Gets whether drilldown is enabled.
+<b>@deprecated.</b> Please use the 'enableDrilldown' property instead. Gets whether drilldown is enabled.
 
 ```javascript
 setEnableDrilldown(value: boolean) : void;
@@ -871,7 +1724,7 @@ setEnableDrilldown(value: boolean) : void;
 
 ### getEnableFieldDialog() {#getEnableFieldDialog--}
 
-Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
+<b>@deprecated.</b> Please use the 'enableFieldDialog' property instead. Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
 
 ```javascript
 getEnableFieldDialog() : boolean;
@@ -880,7 +1733,7 @@ getEnableFieldDialog() : boolean;
 
 ### setEnableFieldDialog(boolean) {#setEnableFieldDialog-boolean-}
 
-Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
+<b>@deprecated.</b> Please use the 'enableFieldDialog' property instead. Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field.
 
 ```javascript
 setEnableFieldDialog(value: boolean) : void;
@@ -893,7 +1746,7 @@ setEnableFieldDialog(value: boolean) : void;
 
 ### getEnableFieldList() {#getEnableFieldList--}
 
-Indicates whether the field list for the PivotTable is available on the view of Excel.
+<b>@deprecated.</b> Please use the 'enableFieldList' property instead. Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```javascript
 getEnableFieldList() : boolean;
@@ -902,7 +1755,7 @@ getEnableFieldList() : boolean;
 
 ### setEnableFieldList(boolean) {#setEnableFieldList-boolean-}
 
-Indicates whether the field list for the PivotTable is available on the view of Excel.
+<b>@deprecated.</b> Please use the 'enableFieldList' property instead. Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```javascript
 setEnableFieldList(value: boolean) : void;
@@ -915,7 +1768,7 @@ setEnableFieldList(value: boolean) : void;
 
 ### getEnableWizard() {#getEnableWizard--}
 
-Indicates whether the PivotTable Wizard is available.
+<b>@deprecated.</b> Please use the 'enableWizard' property instead. Indicates whether the PivotTable Wizard is available.
 
 ```javascript
 getEnableWizard() : boolean;
@@ -924,7 +1777,7 @@ getEnableWizard() : boolean;
 
 ### setEnableWizard(boolean) {#setEnableWizard-boolean-}
 
-Indicates whether the PivotTable Wizard is available.
+<b>@deprecated.</b> Please use the 'enableWizard' property instead. Indicates whether the PivotTable Wizard is available.
 
 ```javascript
 setEnableWizard(value: boolean) : void;
@@ -937,7 +1790,7 @@ setEnableWizard(value: boolean) : void;
 
 ### getSubtotalHiddenPageItems() {#getSubtotalHiddenPageItems--}
 
-Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False.
+<b>@deprecated.</b> Please use the 'subtotalHiddenPageItems' property instead. Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False.
 
 ```javascript
 getSubtotalHiddenPageItems() : boolean;
@@ -946,7 +1799,7 @@ getSubtotalHiddenPageItems() : boolean;
 
 ### setSubtotalHiddenPageItems(boolean) {#setSubtotalHiddenPageItems-boolean-}
 
-Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False.
+<b>@deprecated.</b> Please use the 'subtotalHiddenPageItems' property instead. Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False.
 
 ```javascript
 setSubtotalHiddenPageItems(value: boolean) : void;
@@ -959,7 +1812,7 @@ setSubtotalHiddenPageItems(value: boolean) : void;
 
 ### getGrandTotalName() {#getGrandTotalName--}
 
-Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+<b>@deprecated.</b> Please use the 'grandTotalName' property instead. Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```javascript
 getGrandTotalName() : string;
@@ -968,7 +1821,7 @@ getGrandTotalName() : string;
 
 ### setGrandTotalName(string) {#setGrandTotalName-string-}
 
-Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+<b>@deprecated.</b> Please use the 'grandTotalName' property instead. Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```javascript
 setGrandTotalName(value: string) : void;
@@ -981,7 +1834,7 @@ setGrandTotalName(value: string) : void;
 
 ### getManualUpdate() {#getManualUpdate--}
 
-Indicates whether the PivotTable report is recalculated only at the user's request.
+<b>@deprecated.</b> Please use the 'manualUpdate' property instead. Indicates whether the PivotTable report is recalculated only at the user's request.
 
 ```javascript
 getManualUpdate() : boolean;
@@ -990,7 +1843,7 @@ getManualUpdate() : boolean;
 
 ### setManualUpdate(boolean) {#setManualUpdate-boolean-}
 
-Indicates whether the PivotTable report is recalculated only at the user's request.
+<b>@deprecated.</b> Please use the 'manualUpdate' property instead. Indicates whether the PivotTable report is recalculated only at the user's request.
 
 ```javascript
 setManualUpdate(value: boolean) : void;
@@ -1003,7 +1856,7 @@ setManualUpdate(value: boolean) : void;
 
 ### isMultipleFieldFilters() {#isMultipleFieldFilters--}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'isMultipleFieldFilters' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 isMultipleFieldFilters() : boolean;
@@ -1016,7 +1869,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipl
 
 ### setIsMultipleFieldFilters(boolean) {#setIsMultipleFieldFilters-boolean-}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'isMultipleFieldFilters' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 setIsMultipleFieldFilters(value: boolean) : void;
@@ -1033,7 +1886,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipl
 
 ### getAllowMultipleFiltersPerField() {#getAllowMultipleFiltersPerField--}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'allowMultipleFiltersPerField' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 getAllowMultipleFiltersPerField() : boolean;
@@ -1042,7 +1895,7 @@ getAllowMultipleFiltersPerField() : boolean;
 
 ### setAllowMultipleFiltersPerField(boolean) {#setAllowMultipleFiltersPerField-boolean-}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'allowMultipleFiltersPerField' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 setAllowMultipleFiltersPerField(value: boolean) : void;
@@ -1055,7 +1908,7 @@ setAllowMultipleFiltersPerField(value: boolean) : void;
 
 ### getMissingItemsLimit() {#getMissingItemsLimit--}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 getMissingItemsLimit() : PivotMissingItemLimitType;
@@ -1068,7 +1921,7 @@ getMissingItemsLimit() : PivotMissingItemLimitType;
 
 ### setMissingItemsLimit(PivotMissingItemLimitType) {#setMissingItemsLimit-pivotmissingitemlimittype-}
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+<b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 setMissingItemsLimit(value: PivotMissingItemLimitType) : void;
@@ -1081,7 +1934,7 @@ setMissingItemsLimit(value: PivotMissingItemLimitType) : void;
 
 ### getEnableDataValueEditing() {#getEnableDataValueEditing--}
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
 
 ```javascript
 getEnableDataValueEditing() : boolean;
@@ -1090,7 +1943,7 @@ getEnableDataValueEditing() : boolean;
 
 ### setEnableDataValueEditing(boolean) {#setEnableDataValueEditing-boolean-}
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
 
 ```javascript
 setEnableDataValueEditing(value: boolean) : void;
@@ -1103,7 +1956,7 @@ setEnableDataValueEditing(value: boolean) : void;
 
 ### getShowDataTips() {#getShowDataTips--}
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+<b>@deprecated.</b> Please use the 'showDataTips' property instead. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
 
 ```javascript
 getShowDataTips() : boolean;
@@ -1112,7 +1965,7 @@ getShowDataTips() : boolean;
 
 ### setShowDataTips(boolean) {#setShowDataTips-boolean-}
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+<b>@deprecated.</b> Please use the 'showDataTips' property instead. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
 
 ```javascript
 setShowDataTips(value: boolean) : void;
@@ -1125,7 +1978,7 @@ setShowDataTips(value: boolean) : void;
 
 ### getShowMemberPropertyTips() {#getShowMemberPropertyTips--}
 
-Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
+<b>@deprecated.</b> Please use the 'showMemberPropertyTips' property instead. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
 
 ```javascript
 getShowMemberPropertyTips() : boolean;
@@ -1134,7 +1987,7 @@ getShowMemberPropertyTips() : boolean;
 
 ### setShowMemberPropertyTips(boolean) {#setShowMemberPropertyTips-boolean-}
 
-Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
+<b>@deprecated.</b> Please use the 'showMemberPropertyTips' property instead. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
 
 ```javascript
 setShowMemberPropertyTips(value: boolean) : void;
@@ -1147,7 +2000,7 @@ setShowMemberPropertyTips(value: boolean) : void;
 
 ### getShowValuesRow() {#getShowValuesRow--}
 
-Indicates whether showing values row.
+<b>@deprecated.</b> Please use the 'showValuesRow' property instead. Indicates whether showing values row.
 
 ```javascript
 getShowValuesRow() : boolean;
@@ -1156,7 +2009,7 @@ getShowValuesRow() : boolean;
 
 ### setShowValuesRow(boolean) {#setShowValuesRow-boolean-}
 
-Indicates whether showing values row.
+<b>@deprecated.</b> Please use the 'showValuesRow' property instead. Indicates whether showing values row.
 
 ```javascript
 setShowValuesRow(value: boolean) : void;
@@ -1169,7 +2022,7 @@ setShowValuesRow(value: boolean) : void;
 
 ### getShowEmptyCol() {#getShowEmptyCol--}
 
-Indicates whether to include empty columns in the table
+<b>@deprecated.</b> Please use the 'showEmptyCol' property instead. Indicates whether to include empty columns in the table
 
 ```javascript
 getShowEmptyCol() : boolean;
@@ -1178,7 +2031,7 @@ getShowEmptyCol() : boolean;
 
 ### setShowEmptyCol(boolean) {#setShowEmptyCol-boolean-}
 
-Indicates whether to include empty columns in the table
+<b>@deprecated.</b> Please use the 'showEmptyCol' property instead. Indicates whether to include empty columns in the table
 
 ```javascript
 setShowEmptyCol(value: boolean) : void;
@@ -1191,7 +2044,7 @@ setShowEmptyCol(value: boolean) : void;
 
 ### getShowEmptyRow() {#getShowEmptyRow--}
 
-Indicates whether to include empty rows in the table.
+<b>@deprecated.</b> Please use the 'showEmptyRow' property instead. Indicates whether to include empty rows in the table.
 
 ```javascript
 getShowEmptyRow() : boolean;
@@ -1200,7 +2053,7 @@ getShowEmptyRow() : boolean;
 
 ### setShowEmptyRow(boolean) {#setShowEmptyRow-boolean-}
 
-Indicates whether to include empty rows in the table.
+<b>@deprecated.</b> Please use the 'showEmptyRow' property instead. Indicates whether to include empty rows in the table.
 
 ```javascript
 setShowEmptyRow(value: boolean) : void;
@@ -1213,7 +2066,7 @@ setShowEmptyRow(value: boolean) : void;
 
 ### getFieldListSortAscending() {#getFieldListSortAscending--}
 
-Indicates whether fields in the PivotTable are sorted in non-default order in the field list.
+<b>@deprecated.</b> Please use the 'fieldListSortAscending' property instead. Indicates whether fields in the PivotTable are sorted in non-default order in the field list.
 
 ```javascript
 getFieldListSortAscending() : boolean;
@@ -1222,7 +2075,7 @@ getFieldListSortAscending() : boolean;
 
 ### setFieldListSortAscending(boolean) {#setFieldListSortAscending-boolean-}
 
-Indicates whether fields in the PivotTable are sorted in non-default order in the field list.
+<b>@deprecated.</b> Please use the 'fieldListSortAscending' property instead. Indicates whether fields in the PivotTable are sorted in non-default order in the field list.
 
 ```javascript
 setFieldListSortAscending(value: boolean) : void;
@@ -1235,7 +2088,7 @@ setFieldListSortAscending(value: boolean) : void;
 
 ### getPrintDrill() {#getPrintDrill--}
 
-Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
+<b>@deprecated.</b> Please use the 'printDrill' property instead. Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
 
 ```javascript
 getPrintDrill() : boolean;
@@ -1244,7 +2097,7 @@ getPrintDrill() : boolean;
 
 ### setPrintDrill(boolean) {#setPrintDrill-boolean-}
 
-Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
+<b>@deprecated.</b> Please use the 'printDrill' property instead. Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
 
 ```javascript
 setPrintDrill(value: boolean) : void;
@@ -1257,7 +2110,7 @@ setPrintDrill(value: boolean) : void;
 
 ### getAltTextTitle() {#getAltTextTitle--}
 
-Gets and sets the title of the alter text.
+<b>@deprecated.</b> Please use the 'altTextTitle' property instead. Gets and sets the title of the alter text.
 
 ```javascript
 getAltTextTitle() : string;
@@ -1266,7 +2119,7 @@ getAltTextTitle() : string;
 
 ### setAltTextTitle(string) {#setAltTextTitle-string-}
 
-Gets and sets the title of the alter text.
+<b>@deprecated.</b> Please use the 'altTextTitle' property instead. Gets and sets the title of the alter text.
 
 ```javascript
 setAltTextTitle(value: string) : void;
@@ -1279,7 +2132,7 @@ setAltTextTitle(value: string) : void;
 
 ### getAltTextDescription() {#getAltTextDescription--}
 
-Gets the description of the alt text.
+<b>@deprecated.</b> Please use the 'altTextDescription' property instead. Gets the description of the alt text.
 
 ```javascript
 getAltTextDescription() : string;
@@ -1288,7 +2141,7 @@ getAltTextDescription() : string;
 
 ### setAltTextDescription(string) {#setAltTextDescription-string-}
 
-Gets the description of the alt text.
+<b>@deprecated.</b> Please use the 'altTextDescription' property instead. Gets the description of the alt text.
 
 ```javascript
 setAltTextDescription(value: string) : void;
@@ -1301,7 +2154,7 @@ setAltTextDescription(value: string) : void;
 
 ### getName() {#getName--}
 
-Gets the name of the PivotTable
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the PivotTable
 
 ```javascript
 getName() : string;
@@ -1310,7 +2163,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets the name of the PivotTable
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the PivotTable
 
 ```javascript
 setName(value: string) : void;
@@ -1323,7 +2176,7 @@ setName(value: string) : void;
 
 ### getColumnHeaderCaption() {#getColumnHeaderCaption--}
 
-Gets the Column Header Caption of the PivotTable.
+<b>@deprecated.</b> Please use the 'columnHeaderCaption' property instead. Gets the Column Header Caption of the PivotTable.
 
 ```javascript
 getColumnHeaderCaption() : string;
@@ -1332,7 +2185,7 @@ getColumnHeaderCaption() : string;
 
 ### setColumnHeaderCaption(string) {#setColumnHeaderCaption-string-}
 
-Gets the Column Header Caption of the PivotTable.
+<b>@deprecated.</b> Please use the 'columnHeaderCaption' property instead. Gets the Column Header Caption of the PivotTable.
 
 ```javascript
 setColumnHeaderCaption(value: string) : void;
@@ -1345,7 +2198,7 @@ setColumnHeaderCaption(value: string) : void;
 
 ### getIndent() {#getIndent--}
 
-Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
+<b>@deprecated.</b> Please use the 'indent' property instead. Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
 
 ```javascript
 getIndent() : number;
@@ -1354,7 +2207,7 @@ getIndent() : number;
 
 ### setIndent(number) {#setIndent-number-}
 
-Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
+<b>@deprecated.</b> Please use the 'indent' property instead. Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
 
 ```javascript
 setIndent(value: number) : void;
@@ -1367,7 +2220,7 @@ setIndent(value: number) : void;
 
 ### getRowHeaderCaption() {#getRowHeaderCaption--}
 
-Gets the Row Header Caption of the PivotTable.
+<b>@deprecated.</b> Please use the 'rowHeaderCaption' property instead. Gets the Row Header Caption of the PivotTable.
 
 ```javascript
 getRowHeaderCaption() : string;
@@ -1376,7 +2229,7 @@ getRowHeaderCaption() : string;
 
 ### setRowHeaderCaption(string) {#setRowHeaderCaption-string-}
 
-Gets the Row Header Caption of the PivotTable.
+<b>@deprecated.</b> Please use the 'rowHeaderCaption' property instead. Gets the Row Header Caption of the PivotTable.
 
 ```javascript
 setRowHeaderCaption(value: string) : void;
@@ -1389,7 +2242,7 @@ setRowHeaderCaption(value: string) : void;
 
 ### getShowRowHeaderCaption() {#getShowRowHeaderCaption--}
 
-Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
+<b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
 
 ```javascript
 getShowRowHeaderCaption() : boolean;
@@ -1398,7 +2251,7 @@ getShowRowHeaderCaption() : boolean;
 
 ### setShowRowHeaderCaption(boolean) {#setShowRowHeaderCaption-boolean-}
 
-Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
+<b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
 
 ```javascript
 setShowRowHeaderCaption(value: boolean) : void;
@@ -1411,7 +2264,7 @@ setShowRowHeaderCaption(value: boolean) : void;
 
 ### getCustomListSort() {#getCustomListSort--}
 
-Indicates whether consider built-in custom list when sort data
+<b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data
 
 ```javascript
 getCustomListSort() : boolean;
@@ -1420,7 +2273,7 @@ getCustomListSort() : boolean;
 
 ### setCustomListSort(boolean) {#setCustomListSort-boolean-}
 
-Indicates whether consider built-in custom list when sort data
+<b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data
 
 ```javascript
 setCustomListSort(value: boolean) : void;
@@ -1433,7 +2286,7 @@ setCustomListSort(value: boolean) : void;
 
 ### getPivotFormatConditions() {#getPivotFormatConditions--}
 
-Gets the Format Conditions of the pivot table.
+<b>@deprecated.</b> Please use the 'pivotFormatConditions' property instead. Gets the Format Conditions of the pivot table.
 
 ```javascript
 getPivotFormatConditions() : PivotFormatConditionCollection;
@@ -1450,7 +2303,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalF
 
 ### getConditionalFormats() {#getConditionalFormats--}
 
-Gets the conditional formats of the pivot table.
+<b>@deprecated.</b> Please use the 'conditionalFormats' property instead. Gets the conditional formats of the pivot table.
 
 ```javascript
 getConditionalFormats() : PivotConditionalFormatCollection;
@@ -1463,7 +2316,7 @@ getConditionalFormats() : PivotConditionalFormatCollection;
 
 ### getPageFieldOrder() {#getPageFieldOrder--}
 
-Gets and sets the order in which page fields are added to the PivotTable report's layout.
+<b>@deprecated.</b> Please use the 'pageFieldOrder' property instead. Gets and sets the order in which page fields are added to the PivotTable report's layout.
 
 ```javascript
 getPageFieldOrder() : PrintOrderType;
@@ -1476,7 +2329,7 @@ getPageFieldOrder() : PrintOrderType;
 
 ### setPageFieldOrder(PrintOrderType) {#setPageFieldOrder-printordertype-}
 
-Gets and sets the order in which page fields are added to the PivotTable report's layout.
+<b>@deprecated.</b> Please use the 'pageFieldOrder' property instead. Gets and sets the order in which page fields are added to the PivotTable report's layout.
 
 ```javascript
 setPageFieldOrder(value: PrintOrderType) : void;
@@ -1489,7 +2342,7 @@ setPageFieldOrder(value: PrintOrderType) : void;
 
 ### getPageFieldWrapCount() {#getPageFieldWrapCount--}
 
-Gets the number of page fields in each column or row in the PivotTable report.
+<b>@deprecated.</b> Please use the 'pageFieldWrapCount' property instead. Gets the number of page fields in each column or row in the PivotTable report.
 
 ```javascript
 getPageFieldWrapCount() : number;
@@ -1498,7 +2351,7 @@ getPageFieldWrapCount() : number;
 
 ### setPageFieldWrapCount(number) {#setPageFieldWrapCount-number-}
 
-Gets the number of page fields in each column or row in the PivotTable report.
+<b>@deprecated.</b> Please use the 'pageFieldWrapCount' property instead. Gets the number of page fields in each column or row in the PivotTable report.
 
 ```javascript
 setPageFieldWrapCount(value: number) : void;
@@ -1511,7 +2364,7 @@ setPageFieldWrapCount(value: number) : void;
 
 ### getTag() {#getTag--}
 
-Gets a string saved with the PivotTable report.
+<b>@deprecated.</b> Please use the 'tag' property instead. Gets a string saved with the PivotTable report.
 
 ```javascript
 getTag() : string;
@@ -1520,7 +2373,7 @@ getTag() : string;
 
 ### setTag(string) {#setTag-string-}
 
-Gets a string saved with the PivotTable report.
+<b>@deprecated.</b> Please use the 'tag' property instead. Gets a string saved with the PivotTable report.
 
 ```javascript
 setTag(value: string) : void;
@@ -1533,7 +2386,7 @@ setTag(value: string) : void;
 
 ### getSaveData() {#getSaveData--}
 
-Indicates whether data for the PivotTable report is saved with the workbook.
+<b>@deprecated.</b> Please use the 'saveData' property instead. Indicates whether data for the PivotTable report is saved with the workbook.
 
 ```javascript
 getSaveData() : boolean;
@@ -1542,7 +2395,7 @@ getSaveData() : boolean;
 
 ### setSaveData(boolean) {#setSaveData-boolean-}
 
-Indicates whether data for the PivotTable report is saved with the workbook.
+<b>@deprecated.</b> Please use the 'saveData' property instead. Indicates whether data for the PivotTable report is saved with the workbook.
 
 ```javascript
 setSaveData(value: boolean) : void;
@@ -1555,7 +2408,7 @@ setSaveData(value: boolean) : void;
 
 ### getRefreshDataOnOpeningFile() {#getRefreshDataOnOpeningFile--}
 
-Indicates whether Refresh Data when Opening File.
+<b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File.
 
 ```javascript
 getRefreshDataOnOpeningFile() : boolean;
@@ -1564,7 +2417,7 @@ getRefreshDataOnOpeningFile() : boolean;
 
 ### setRefreshDataOnOpeningFile(boolean) {#setRefreshDataOnOpeningFile-boolean-}
 
-Indicates whether Refresh Data when Opening File.
+<b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File.
 
 ```javascript
 setRefreshDataOnOpeningFile(value: boolean) : void;
@@ -1577,7 +2430,7 @@ setRefreshDataOnOpeningFile(value: boolean) : void;
 
 ### getRefreshDataFlag() {#getRefreshDataFlag--}
 
-Indicates whether Refreshing Data or not.
+<b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not.
 
 ```javascript
 getRefreshDataFlag() : boolean;
@@ -1590,7 +2443,7 @@ NOTE: This method is now obsolete. Instead, This method will be removed 12 month
 
 ### setRefreshDataFlag(boolean) {#setRefreshDataFlag-boolean-}
 
-Indicates whether Refreshing Data or not.
+<b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not.
 
 ```javascript
 setRefreshDataFlag(value: boolean) : void;
@@ -1607,7 +2460,7 @@ NOTE: This method is now obsolete. Instead, This method will be removed 12 month
 
 ### getSourceType() {#getSourceType--}
 
-Gets the data source type of the pivot table.
+<b>@deprecated.</b> Please use the 'sourceType' property instead. Gets the data source type of the pivot table.
 
 ```javascript
 getSourceType() : PivotTableSourceType;
@@ -1620,7 +2473,7 @@ getSourceType() : PivotTableSourceType;
 
 ### getExternalConnectionDataSource() {#getExternalConnectionDataSource--}
 
-Gets the external connection data source.
+<b>@deprecated.</b> Please use the 'externalConnectionDataSource' property instead. Gets the external connection data source.
 
 ```javascript
 getExternalConnectionDataSource() : ExternalConnection;
@@ -1637,7 +2490,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDat
 
 ### getDataSource() {#getDataSource--}
 
-Gets and sets the data source of the pivot table.
+<b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table.
 
 ```javascript
 getDataSource() : string[];
@@ -1650,7 +2503,7 @@ string[]
 
 ### setDataSource(string[]) {#setDataSource-stringarray-}
 
-Gets and sets the data source of the pivot table.
+<b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table.
 
 ```javascript
 setDataSource(value: string[]) : void;
@@ -1663,7 +2516,7 @@ setDataSource(value: string[]) : void;
 
 ### getPivotFormats() {#getPivotFormats--}
 
-Gets the collection of formats applied to PivotTable.
+<b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets the collection of formats applied to PivotTable.
 
 ```javascript
 getPivotFormats() : PivotTableFormatCollection;
@@ -1676,7 +2529,7 @@ getPivotFormats() : PivotTableFormatCollection;
 
 ### getItemPrintTitles() {#getItemPrintTitles--}
 
-Indicates whether PivotItem names should be repeated at the top of each printed page.
+<b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page.
 
 ```javascript
 getItemPrintTitles() : boolean;
@@ -1689,7 +2542,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsO
 
 ### setItemPrintTitles(boolean) {#setItemPrintTitles-boolean-}
 
-Indicates whether PivotItem names should be repeated at the top of each printed page.
+<b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page.
 
 ```javascript
 setItemPrintTitles(value: boolean) : void;
@@ -1706,7 +2559,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsO
 
 ### getRepeatItemsOnEachPrintedPage() {#getRepeatItemsOnEachPrintedPage--}
 
-Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+<b>@deprecated.</b> Please use the 'repeatItemsOnEachPrintedPage' property instead. Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
 
 ```javascript
 getRepeatItemsOnEachPrintedPage() : boolean;
@@ -1715,7 +2568,7 @@ getRepeatItemsOnEachPrintedPage() : boolean;
 
 ### setRepeatItemsOnEachPrintedPage(boolean) {#setRepeatItemsOnEachPrintedPage-boolean-}
 
-Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+<b>@deprecated.</b> Please use the 'repeatItemsOnEachPrintedPage' property instead. Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
 
 ```javascript
 setRepeatItemsOnEachPrintedPage(value: boolean) : void;
@@ -1728,7 +2581,7 @@ setRepeatItemsOnEachPrintedPage(value: boolean) : void;
 
 ### getPrintTitles() {#getPrintTitles--}
 
-Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
+<b>@deprecated.</b> Please use the 'printTitles' property instead. Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
 
 ```javascript
 getPrintTitles() : boolean;
@@ -1737,7 +2590,7 @@ getPrintTitles() : boolean;
 
 ### setPrintTitles(boolean) {#setPrintTitles-boolean-}
 
-Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
+<b>@deprecated.</b> Please use the 'printTitles' property instead. Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
 
 ```javascript
 setPrintTitles(value: boolean) : void;
@@ -1750,7 +2603,7 @@ setPrintTitles(value: boolean) : void;
 
 ### getDisplayImmediateItems() {#getDisplayImmediateItems--}
 
-Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true.
+<b>@deprecated.</b> Please use the 'displayImmediateItems' property instead. Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true.
 
 ```javascript
 getDisplayImmediateItems() : boolean;
@@ -1759,7 +2612,7 @@ getDisplayImmediateItems() : boolean;
 
 ### setDisplayImmediateItems(boolean) {#setDisplayImmediateItems-boolean-}
 
-Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true.
+<b>@deprecated.</b> Please use the 'displayImmediateItems' property instead. Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true.
 
 ```javascript
 setDisplayImmediateItems(value: boolean) : void;
@@ -1772,7 +2625,7 @@ setDisplayImmediateItems(value: boolean) : void;
 
 ### isSelected() {#isSelected--}
 
-Indicates whether this PivotTable is selected.
+<b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this PivotTable is selected.
 
 ```javascript
 isSelected() : boolean;
@@ -1781,7 +2634,7 @@ isSelected() : boolean;
 
 ### setIsSelected(boolean) {#setIsSelected-boolean-}
 
-Indicates whether this PivotTable is selected.
+<b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this PivotTable is selected.
 
 ```javascript
 setIsSelected(value: boolean) : void;
@@ -1794,7 +2647,7 @@ setIsSelected(value: boolean) : void;
 
 ### getShowPivotStyleRowHeader() {#getShowPivotStyleRowHeader--}
 
-Indicates whether the row header in the pivot table should have the style applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleRowHeader' property instead. Indicates whether the row header in the pivot table should have the style applied.
 
 ```javascript
 getShowPivotStyleRowHeader() : boolean;
@@ -1803,7 +2656,7 @@ getShowPivotStyleRowHeader() : boolean;
 
 ### setShowPivotStyleRowHeader(boolean) {#setShowPivotStyleRowHeader-boolean-}
 
-Indicates whether the row header in the pivot table should have the style applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleRowHeader' property instead. Indicates whether the row header in the pivot table should have the style applied.
 
 ```javascript
 setShowPivotStyleRowHeader(value: boolean) : void;
@@ -1816,7 +2669,7 @@ setShowPivotStyleRowHeader(value: boolean) : void;
 
 ### getShowPivotStyleColumnHeader() {#getShowPivotStyleColumnHeader--}
 
-Indicates whether the column header in the pivot table should have the style applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleColumnHeader' property instead. Indicates whether the column header in the pivot table should have the style applied.
 
 ```javascript
 getShowPivotStyleColumnHeader() : boolean;
@@ -1825,7 +2678,7 @@ getShowPivotStyleColumnHeader() : boolean;
 
 ### setShowPivotStyleColumnHeader(boolean) {#setShowPivotStyleColumnHeader-boolean-}
 
-Indicates whether the column header in the pivot table should have the style applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleColumnHeader' property instead. Indicates whether the column header in the pivot table should have the style applied.
 
 ```javascript
 setShowPivotStyleColumnHeader(value: boolean) : void;
@@ -1838,7 +2691,7 @@ setShowPivotStyleColumnHeader(value: boolean) : void;
 
 ### getShowPivotStyleRowStripes() {#getShowPivotStyleRowStripes--}
 
-Indicates whether row stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleRowStripes' property instead. Indicates whether row stripe formatting is applied.
 
 ```javascript
 getShowPivotStyleRowStripes() : boolean;
@@ -1847,7 +2700,7 @@ getShowPivotStyleRowStripes() : boolean;
 
 ### setShowPivotStyleRowStripes(boolean) {#setShowPivotStyleRowStripes-boolean-}
 
-Indicates whether row stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleRowStripes' property instead. Indicates whether row stripe formatting is applied.
 
 ```javascript
 setShowPivotStyleRowStripes(value: boolean) : void;
@@ -1860,7 +2713,7 @@ setShowPivotStyleRowStripes(value: boolean) : void;
 
 ### getShowPivotStyleColumnStripes() {#getShowPivotStyleColumnStripes--}
 
-Indicates whether stripe formatting is applied for column.
+<b>@deprecated.</b> Please use the 'showPivotStyleColumnStripes' property instead. Indicates whether stripe formatting is applied for column.
 
 ```javascript
 getShowPivotStyleColumnStripes() : boolean;
@@ -1869,7 +2722,7 @@ getShowPivotStyleColumnStripes() : boolean;
 
 ### setShowPivotStyleColumnStripes(boolean) {#setShowPivotStyleColumnStripes-boolean-}
 
-Indicates whether stripe formatting is applied for column.
+<b>@deprecated.</b> Please use the 'showPivotStyleColumnStripes' property instead. Indicates whether stripe formatting is applied for column.
 
 ```javascript
 setShowPivotStyleColumnStripes(value: boolean) : void;
@@ -1882,7 +2735,7 @@ setShowPivotStyleColumnStripes(value: boolean) : void;
 
 ### getShowPivotStyleLastColumn() {#getShowPivotStyleLastColumn--}
 
-Indicates whether the column formatting is applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleLastColumn' property instead. Indicates whether the column formatting is applied.
 
 ```javascript
 getShowPivotStyleLastColumn() : boolean;
@@ -1891,7 +2744,7 @@ getShowPivotStyleLastColumn() : boolean;
 
 ### setShowPivotStyleLastColumn(boolean) {#setShowPivotStyleLastColumn-boolean-}
 
-Indicates whether the column formatting is applied.
+<b>@deprecated.</b> Please use the 'showPivotStyleLastColumn' property instead. Indicates whether the column formatting is applied.
 
 ```javascript
 setShowPivotStyleLastColumn(value: boolean) : void;

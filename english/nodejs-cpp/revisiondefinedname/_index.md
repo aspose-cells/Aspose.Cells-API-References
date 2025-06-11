@@ -17,21 +17,32 @@ class RevisionDefinedName extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
+| [text](#text--)| string | Readonly. Gets the text of the defined name. |
+| [oldFormula](#oldFormula--)| string | Readonly. Gets the old formula. |
+| [newFormula](#newFormula--)| string | Readonly. Gets the formula. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of revision. |
-| [getText()](#getText--)| Gets the text of the defined name. |
-| [getOldFormula()](#getOldFormula--)| Gets the old formula. |
-| [getNewFormula()](#getNewFormula--)| Gets the formula. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets the text of the defined name. |
+| [getOldFormula()](#getOldFormula--)| <b>@deprecated.</b> Please use the 'oldFormula' property instead. Gets the old formula. |
+| [getNewFormula()](#getNewFormula--)| <b>@deprecated.</b> Please use the 'newFormula' property instead. Gets the formula. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -47,9 +58,67 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
+### type {#type--}
+
+Readonly. Represents the type of revision.
+
+```javascript
+type : RevisionType;
+```
+
+
+### text {#text--}
+
+Readonly. Gets the text of the defined name.
+
+```javascript
+text : string;
+```
+
+
+### oldFormula {#oldFormula--}
+
+Readonly. Gets the old formula.
+
+```javascript
+oldFormula : string;
+```
+
+
+### newFormula {#newFormula--}
+
+Readonly. Gets the formula.
+
+```javascript
+newFormula : string;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getType() {#getType--}
 
-Represents the type of revision.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
 
 ```javascript
 getType() : RevisionType;
@@ -62,7 +131,7 @@ getType() : RevisionType;
 
 ### getText() {#getText--}
 
-Gets the text of the defined name.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets the text of the defined name.
 
 ```javascript
 getText() : string;
@@ -71,7 +140,7 @@ getText() : string;
 
 ### getOldFormula() {#getOldFormula--}
 
-Gets the old formula.
+<b>@deprecated.</b> Please use the 'oldFormula' property instead. Gets the old formula.
 
 ```javascript
 getOldFormula() : string;
@@ -80,7 +149,7 @@ getOldFormula() : string;
 
 ### getNewFormula() {#getNewFormula--}
 
-Gets the formula.
+<b>@deprecated.</b> Please use the 'newFormula' property instead. Gets the formula.
 
 ```javascript
 getNewFormula() : string;
@@ -98,7 +167,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -111,7 +180,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

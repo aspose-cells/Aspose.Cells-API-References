@@ -22,12 +22,12 @@ const { Workbook } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 
 //Get Hyperlinks Collection
-var hyperlinks = worksheet.getHyperlinks();
+var hyperlinks = worksheet.hyperlinks;
 //Adding a hyperlink to a URL at "A1" cell
-hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
+hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 
 //Saving the Excel file
 workbook.save("output/HyperlinkCollection.xls");
@@ -42,7 +42,7 @@ workbook.save("output/HyperlinkCollection.xls");
 | [add(string, string, string, string, string)](#add-string-string-string-string-string-)| Adds a hyperlink to a specified cell or a range of cells. |
 | [removeAt(number)](#removeAt-number-)| Remove the hyperlink  at the specified index in this collection. |
 | [clear()](#clear--)| Clears all hyperlinks. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -89,9 +89,9 @@ add(firstRow: number, firstColumn: number, totalRows: number, totalColumns: numb
 const { Workbook } = require("aspose.cells.node");
 
 var excel = new Workbook();
-var worksheet = excel.getWorksheets().get(0);
-worksheet.getHyperlinks().add("A4", 1, 1, "http://www.aspose.com");
-worksheet.getHyperlinks().add("A5", 1, 1, "c:\\book1.xls");
+var worksheet = excel.worksheets.get(0);
+worksheet.hyperlinks.add("A4", 1, 1, "https://www.aspose.com");
+worksheet.hyperlinks.add("A5", 1, 1, "c:\\book1.xls");
 ```
 
 ### add(string, number, number, string) {#add-string-number-number-string-}
@@ -159,7 +159,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

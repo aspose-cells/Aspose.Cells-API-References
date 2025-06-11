@@ -15,17 +15,26 @@ class FontSettingCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [textAlignment](#textAlignment--)| ShapeTextAlignment | Readonly. Represents the alignment setting of the text body. |
+| [textParagraphs](#textParagraphs--)| TextParagraphCollection | Readonly. Gets all paragraphs. |
+| [text](#text--)| string | Gets and sets the text of the shape. |
+| [htmlString](#htmlString--)| string | Gets and sets the html string which contains data and some formats in this shape. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [FontSetting](../fontsetting/) by the index. |
-| [getTextAlignment()](#getTextAlignment--)| Represents the alignment setting of the text body. |
-| [getTextParagraphs()](#getTextParagraphs--)| Gets all paragraphs. |
-| [getText()](#getText--)| Gets and sets the text of the shape. |
-| [setText(string)](#setText-string-)| Gets and sets the text of the shape. |
-| [getHtmlString()](#getHtmlString--)| Gets and sets the html string which contains data and some formats in this shape. |
-| [setHtmlString(string)](#setHtmlString-string-)| Gets and sets the html string which contains data and some formats in this shape. |
+| [getTextAlignment()](#getTextAlignment--)| <b>@deprecated.</b> Please use the 'textAlignment' property instead. Represents the alignment setting of the text body. |
+| [getTextParagraphs()](#getTextParagraphs--)| <b>@deprecated.</b> Please use the 'textParagraphs' property instead. Gets all paragraphs. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of the shape. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of the shape. |
+| [getHtmlString()](#getHtmlString--)| <b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this shape. |
+| [setHtmlString(string)](#setHtmlString-string-)| <b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this shape. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
 | [getParagraphEnumerator()](#getParagraphEnumerator--)| Gets the enumerator of the paragraphs. |
 | [appendText(string)](#appendText-string-)| Appends the text. |
@@ -37,8 +46,44 @@ class FontSettingCollection;
 | [clear()](#clear--)| Clear all setting. |
 | [equals(Object)](#equals-object-)|  |
 | [getHashCode()](#getHashCode--)|  |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### textAlignment {#textAlignment--}
+
+Readonly. Represents the alignment setting of the text body.
+
+```javascript
+textAlignment : ShapeTextAlignment;
+```
+
+
+### textParagraphs {#textParagraphs--}
+
+Readonly. Gets all paragraphs.
+
+```javascript
+textParagraphs : TextParagraphCollection;
+```
+
+
+### text {#text--}
+
+Gets and sets the text of the shape.
+
+```javascript
+text : string;
+```
+
+
+### htmlString {#htmlString--}
+
+Gets and sets the html string which contains data and some formats in this shape.
+
+```javascript
+htmlString : string;
+```
 
 
 ### get(number) {#get-number-}
@@ -60,7 +105,7 @@ get(index: number) : FontSetting;
 
 ### getTextAlignment() {#getTextAlignment--}
 
-Represents the alignment setting of the text body.
+<b>@deprecated.</b> Please use the 'textAlignment' property instead. Represents the alignment setting of the text body.
 
 ```javascript
 getTextAlignment() : ShapeTextAlignment;
@@ -73,7 +118,7 @@ getTextAlignment() : ShapeTextAlignment;
 
 ### getTextParagraphs() {#getTextParagraphs--}
 
-Gets all paragraphs.
+<b>@deprecated.</b> Please use the 'textParagraphs' property instead. Gets all paragraphs.
 
 ```javascript
 getTextParagraphs() : TextParagraphCollection;
@@ -86,7 +131,7 @@ getTextParagraphs() : TextParagraphCollection;
 
 ### getText() {#getText--}
 
-Gets and sets the text of the shape.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of the shape.
 
 ```javascript
 getText() : string;
@@ -95,7 +140,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-Gets and sets the text of the shape.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of the shape.
 
 ```javascript
 setText(value: string) : void;
@@ -108,7 +153,7 @@ setText(value: string) : void;
 
 ### getHtmlString() {#getHtmlString--}
 
-Gets and sets the html string which contains data and some formats in this shape.
+<b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this shape.
 
 ```javascript
 getHtmlString() : string;
@@ -117,7 +162,7 @@ getHtmlString() : string;
 
 ### setHtmlString(string) {#setHtmlString-string-}
 
-Gets and sets the html string which contains data and some formats in this shape.
+<b>@deprecated.</b> Please use the 'htmlString' property instead. Gets and sets the html string which contains data and some formats in this shape.
 
 ```javascript
 setHtmlString(value: string) : void;
@@ -273,7 +318,7 @@ getHashCode() : number;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

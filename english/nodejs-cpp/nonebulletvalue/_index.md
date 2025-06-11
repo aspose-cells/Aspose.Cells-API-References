@@ -17,16 +17,22 @@ class NoneBulletValue extends BulletValue;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BulletValue)](#constructor-bulletvalue-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| BulletType | Readonly. Gets the type of the bullet's value. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the bullet's value. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -52,9 +58,18 @@ constructor();
 ```
 
 
+### type {#type--}
+
+Readonly. Gets the type of the bullet's value.
+
+```javascript
+type : BulletType;
+```
+
+
 ### getType() {#getType--}
 
-Gets the type of the bullet's value.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value.
 
 ```javascript
 getType() : BulletType;

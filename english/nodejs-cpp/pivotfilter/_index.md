@@ -15,31 +15,49 @@ class PivotFilter;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [useWholeDay](#useWholeDay--)| boolean | Indicates whether uses whole days in its filtering criteria. |
+| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets the autofilter of the pivot filter. |
+| [filterType](#filterType--)| PivotFilterType | Readonly. Gets the autofilter type of the pivot filter. |
+| [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of source field which this pivot filter is applied to. |
+| [filterCategory](#filterCategory--)| FilterCategory | Readonly. Gets the category of this filter. |
+| [value1](#value1--)| string | Gets the string value1 of the label pivot filter. |
+| [value2](#value2--)| string | Gets the string value2 of the label pivot filter. |
+| [measureFldIndex](#measureFldIndex--)| number | Gets the measure field index of the pivot filter. |
+| [valueFieldIndex](#valueFieldIndex--)| number | Gets the index of value field in the value region. |
+| [measureCubeFieldIndex](#measureCubeFieldIndex--)| number | Readonly. Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
+| [memberPropertyFieldIndex](#memberPropertyFieldIndex--)| number | Gets the member property field index of the pivot filter. |
+| [name](#name--)| string | Gets the name of the pivot filter. |
+| [evaluationOrder](#evaluationOrder--)| number | Gets the Evaluation Order of the pivot filter. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getUseWholeDay()](#getUseWholeDay--)| Indicates whether uses whole days in its filtering criteria. |
-| [setUseWholeDay(boolean)](#setUseWholeDay-boolean-)| Indicates whether uses whole days in its filtering criteria. |
-| [getAutoFilter()](#getAutoFilter--)| Gets the autofilter of the pivot filter. |
-| [getFilterType()](#getFilterType--)| Gets the autofilter type of the pivot filter. |
-| [getFieldIndex()](#getFieldIndex--)| Gets the index of source field which this pivot filter is applied to. |
-| [getFilterCategory()](#getFilterCategory--)| Gets the category of this filter. |
-| [getValue1()](#getValue1--)| Gets the string value1 of the label pivot filter. |
-| [setValue1(string)](#setValue1-string-)| Gets the string value1 of the label pivot filter. |
-| [getValue2()](#getValue2--)| Gets the string value2 of the label pivot filter. |
-| [setValue2(string)](#setValue2-string-)| Gets the string value2 of the label pivot filter. |
-| [getMeasureFldIndex()](#getMeasureFldIndex--)| Gets the measure field index of the pivot filter. |
-| [setMeasureFldIndex(number)](#setMeasureFldIndex-number-)| Gets the measure field index of the pivot filter. |
-| [getValueFieldIndex()](#getValueFieldIndex--)| Gets the index of value field in the value region. |
-| [setValueFieldIndex(number)](#setValueFieldIndex-number-)| Gets the index of value field in the value region. |
-| [getMeasureCubeFieldIndex()](#getMeasureCubeFieldIndex--)| Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
-| [getMemberPropertyFieldIndex()](#getMemberPropertyFieldIndex--)| Gets the member property field index of the pivot filter. |
-| [setMemberPropertyFieldIndex(number)](#setMemberPropertyFieldIndex-number-)| Gets the member property field index of the pivot filter. |
-| [getName()](#getName--)| Gets the name of the pivot filter. |
-| [setName(string)](#setName-string-)| Gets the name of the pivot filter. |
-| [getEvaluationOrder()](#getEvaluationOrder--)| Gets the Evaluation Order of the pivot filter. |
-| [setEvaluationOrder(number)](#setEvaluationOrder-number-)| Gets the Evaluation Order of the pivot filter. |
+| [getUseWholeDay()](#getUseWholeDay--)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria. |
+| [setUseWholeDay(boolean)](#setUseWholeDay-boolean-)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria. |
+| [getAutoFilter()](#getAutoFilter--)| <b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets the autofilter of the pivot filter. |
+| [getFilterType()](#getFilterType--)| <b>@deprecated.</b> Please use the 'filterType' property instead. Gets the autofilter type of the pivot filter. |
+| [getFieldIndex()](#getFieldIndex--)| <b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets the index of source field which this pivot filter is applied to. |
+| [getFilterCategory()](#getFilterCategory--)| <b>@deprecated.</b> Please use the 'filterCategory' property instead. Gets the category of this filter. |
+| [getValue1()](#getValue1--)| <b>@deprecated.</b> Please use the 'value1' property instead. Gets the string value1 of the label pivot filter. |
+| [setValue1(string)](#setValue1-string-)| <b>@deprecated.</b> Please use the 'value1' property instead. Gets the string value1 of the label pivot filter. |
+| [getValue2()](#getValue2--)| <b>@deprecated.</b> Please use the 'value2' property instead. Gets the string value2 of the label pivot filter. |
+| [setValue2(string)](#setValue2-string-)| <b>@deprecated.</b> Please use the 'value2' property instead. Gets the string value2 of the label pivot filter. |
+| [getMeasureFldIndex()](#getMeasureFldIndex--)| <b>@deprecated.</b> Please use the 'measureFldIndex' property instead. Gets the measure field index of the pivot filter. |
+| [setMeasureFldIndex(number)](#setMeasureFldIndex-number-)| <b>@deprecated.</b> Please use the 'measureFldIndex' property instead. Gets the measure field index of the pivot filter. |
+| [getValueFieldIndex()](#getValueFieldIndex--)| <b>@deprecated.</b> Please use the 'valueFieldIndex' property instead. Gets the index of value field in the value region. |
+| [setValueFieldIndex(number)](#setValueFieldIndex-number-)| <b>@deprecated.</b> Please use the 'valueFieldIndex' property instead. Gets the index of value field in the value region. |
+| [getMeasureCubeFieldIndex()](#getMeasureCubeFieldIndex--)| <b>@deprecated.</b> Please use the 'measureCubeFieldIndex' property instead. Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
+| [getMemberPropertyFieldIndex()](#getMemberPropertyFieldIndex--)| <b>@deprecated.</b> Please use the 'memberPropertyFieldIndex' property instead. Gets the member property field index of the pivot filter. |
+| [setMemberPropertyFieldIndex(number)](#setMemberPropertyFieldIndex-number-)| <b>@deprecated.</b> Please use the 'memberPropertyFieldIndex' property instead. Gets the member property field index of the pivot filter. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot filter. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot filter. |
+| [getEvaluationOrder()](#getEvaluationOrder--)| <b>@deprecated.</b> Please use the 'evaluationOrder' property instead. Gets the Evaluation Order of the pivot filter. |
+| [setEvaluationOrder(number)](#setEvaluationOrder-number-)| <b>@deprecated.</b> Please use the 'evaluationOrder' property instead. Gets the Evaluation Order of the pivot filter. |
 | [getTop10Value()](#getTop10Value--)| Gets top 10 setting of the filter. |
 | [getLabels()](#getLabels--)| Gets labels of the caption filter. |
 | [getNumberValues()](#getNumberValues--)| Gets values of the number filter. |
@@ -47,9 +65,134 @@ class PivotFilter;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getUseWholeDay() {#getUseWholeDay--}
+### useWholeDay {#useWholeDay--}
 
 Indicates whether uses whole days in its filtering criteria.
+
+```javascript
+useWholeDay : boolean;
+```
+
+
+### autoFilter {#autoFilter--}
+
+Readonly. Gets the autofilter of the pivot filter.
+
+```javascript
+autoFilter : AutoFilter;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,FilterDate or FilterTop10 method. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### filterType {#filterType--}
+
+Readonly. Gets the autofilter type of the pivot filter.
+
+```javascript
+filterType : PivotFilterType;
+```
+
+
+### fieldIndex {#fieldIndex--}
+
+Readonly. Gets the index of source field which this pivot filter is applied to.
+
+```javascript
+fieldIndex : number;
+```
+
+
+### filterCategory {#filterCategory--}
+
+Readonly. Gets the category of this filter.
+
+```javascript
+filterCategory : FilterCategory;
+```
+
+
+### value1 {#value1--}
+
+Gets the string value1 of the label pivot filter.
+
+```javascript
+value1 : string;
+```
+
+
+### value2 {#value2--}
+
+Gets the string value2 of the label pivot filter.
+
+```javascript
+value2 : string;
+```
+
+
+### measureFldIndex {#measureFldIndex--}
+
+Gets the measure field index of the pivot filter.
+
+```javascript
+measureFldIndex : number;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldIndex property. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### valueFieldIndex {#valueFieldIndex--}
+
+Gets the index of value field in the value region.
+
+```javascript
+valueFieldIndex : number;
+```
+
+
+### measureCubeFieldIndex {#measureCubeFieldIndex--}
+
+Readonly. Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply.
+
+```javascript
+measureCubeFieldIndex : number;
+```
+
+
+### memberPropertyFieldIndex {#memberPropertyFieldIndex--}
+
+Gets the member property field index of the pivot filter.
+
+```javascript
+memberPropertyFieldIndex : number;
+```
+
+
+### name {#name--}
+
+Gets the name of the pivot filter.
+
+```javascript
+name : string;
+```
+
+
+### evaluationOrder {#evaluationOrder--}
+
+Gets the Evaluation Order of the pivot filter.
+
+```javascript
+evaluationOrder : number;
+```
+
+
+### getUseWholeDay() {#getUseWholeDay--}
+
+<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria.
 
 ```javascript
 getUseWholeDay() : boolean;
@@ -58,7 +201,7 @@ getUseWholeDay() : boolean;
 
 ### setUseWholeDay(boolean) {#setUseWholeDay-boolean-}
 
-Indicates whether uses whole days in its filtering criteria.
+<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria.
 
 ```javascript
 setUseWholeDay(value: boolean) : void;
@@ -71,7 +214,7 @@ setUseWholeDay(value: boolean) : void;
 
 ### getAutoFilter() {#getAutoFilter--}
 
-Gets the autofilter of the pivot filter.
+<b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets the autofilter of the pivot filter.
 
 ```javascript
 getAutoFilter() : AutoFilter;
@@ -88,7 +231,7 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 ### getFilterType() {#getFilterType--}
 
-Gets the autofilter type of the pivot filter.
+<b>@deprecated.</b> Please use the 'filterType' property instead. Gets the autofilter type of the pivot filter.
 
 ```javascript
 getFilterType() : PivotFilterType;
@@ -101,7 +244,7 @@ getFilterType() : PivotFilterType;
 
 ### getFieldIndex() {#getFieldIndex--}
 
-Gets the index of source field which this pivot filter is applied to.
+<b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets the index of source field which this pivot filter is applied to.
 
 ```javascript
 getFieldIndex() : number;
@@ -110,7 +253,7 @@ getFieldIndex() : number;
 
 ### getFilterCategory() {#getFilterCategory--}
 
-Gets the category of this filter.
+<b>@deprecated.</b> Please use the 'filterCategory' property instead. Gets the category of this filter.
 
 ```javascript
 getFilterCategory() : FilterCategory;
@@ -123,7 +266,7 @@ getFilterCategory() : FilterCategory;
 
 ### getValue1() {#getValue1--}
 
-Gets the string value1 of the label pivot filter.
+<b>@deprecated.</b> Please use the 'value1' property instead. Gets the string value1 of the label pivot filter.
 
 ```javascript
 getValue1() : string;
@@ -132,7 +275,7 @@ getValue1() : string;
 
 ### setValue1(string) {#setValue1-string-}
 
-Gets the string value1 of the label pivot filter.
+<b>@deprecated.</b> Please use the 'value1' property instead. Gets the string value1 of the label pivot filter.
 
 ```javascript
 setValue1(value: string) : void;
@@ -145,7 +288,7 @@ setValue1(value: string) : void;
 
 ### getValue2() {#getValue2--}
 
-Gets the string value2 of the label pivot filter.
+<b>@deprecated.</b> Please use the 'value2' property instead. Gets the string value2 of the label pivot filter.
 
 ```javascript
 getValue2() : string;
@@ -154,7 +297,7 @@ getValue2() : string;
 
 ### setValue2(string) {#setValue2-string-}
 
-Gets the string value2 of the label pivot filter.
+<b>@deprecated.</b> Please use the 'value2' property instead. Gets the string value2 of the label pivot filter.
 
 ```javascript
 setValue2(value: string) : void;
@@ -167,7 +310,7 @@ setValue2(value: string) : void;
 
 ### getMeasureFldIndex() {#getMeasureFldIndex--}
 
-Gets the measure field index of the pivot filter.
+<b>@deprecated.</b> Please use the 'measureFldIndex' property instead. Gets the measure field index of the pivot filter.
 
 ```javascript
 getMeasureFldIndex() : number;
@@ -180,7 +323,7 @@ NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldInd
 
 ### setMeasureFldIndex(number) {#setMeasureFldIndex-number-}
 
-Gets the measure field index of the pivot filter.
+<b>@deprecated.</b> Please use the 'measureFldIndex' property instead. Gets the measure field index of the pivot filter.
 
 ```javascript
 setMeasureFldIndex(value: number) : void;
@@ -197,7 +340,7 @@ NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldInd
 
 ### getValueFieldIndex() {#getValueFieldIndex--}
 
-Gets the index of value field in the value region.
+<b>@deprecated.</b> Please use the 'valueFieldIndex' property instead. Gets the index of value field in the value region.
 
 ```javascript
 getValueFieldIndex() : number;
@@ -206,7 +349,7 @@ getValueFieldIndex() : number;
 
 ### setValueFieldIndex(number) {#setValueFieldIndex-number-}
 
-Gets the index of value field in the value region.
+<b>@deprecated.</b> Please use the 'valueFieldIndex' property instead. Gets the index of value field in the value region.
 
 ```javascript
 setValueFieldIndex(value: number) : void;
@@ -219,7 +362,7 @@ setValueFieldIndex(value: number) : void;
 
 ### getMeasureCubeFieldIndex() {#getMeasureCubeFieldIndex--}
 
-Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply.
+<b>@deprecated.</b> Please use the 'measureCubeFieldIndex' property instead. Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply.
 
 ```javascript
 getMeasureCubeFieldIndex() : number;
@@ -228,7 +371,7 @@ getMeasureCubeFieldIndex() : number;
 
 ### getMemberPropertyFieldIndex() {#getMemberPropertyFieldIndex--}
 
-Gets the member property field index of the pivot filter.
+<b>@deprecated.</b> Please use the 'memberPropertyFieldIndex' property instead. Gets the member property field index of the pivot filter.
 
 ```javascript
 getMemberPropertyFieldIndex() : number;
@@ -237,7 +380,7 @@ getMemberPropertyFieldIndex() : number;
 
 ### setMemberPropertyFieldIndex(number) {#setMemberPropertyFieldIndex-number-}
 
-Gets the member property field index of the pivot filter.
+<b>@deprecated.</b> Please use the 'memberPropertyFieldIndex' property instead. Gets the member property field index of the pivot filter.
 
 ```javascript
 setMemberPropertyFieldIndex(value: number) : void;
@@ -250,7 +393,7 @@ setMemberPropertyFieldIndex(value: number) : void;
 
 ### getName() {#getName--}
 
-Gets the name of the pivot filter.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot filter.
 
 ```javascript
 getName() : string;
@@ -259,7 +402,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets the name of the pivot filter.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the pivot filter.
 
 ```javascript
 setName(value: string) : void;
@@ -272,7 +415,7 @@ setName(value: string) : void;
 
 ### getEvaluationOrder() {#getEvaluationOrder--}
 
-Gets the Evaluation Order of the pivot filter.
+<b>@deprecated.</b> Please use the 'evaluationOrder' property instead. Gets the Evaluation Order of the pivot filter.
 
 ```javascript
 getEvaluationOrder() : number;
@@ -281,7 +424,7 @@ getEvaluationOrder() : number;
 
 ### setEvaluationOrder(number) {#setEvaluationOrder-number-}
 
-Gets the Evaluation Order of the pivot filter.
+<b>@deprecated.</b> Please use the 'evaluationOrder' property instead. Gets the Evaluation Order of the pivot filter.
 
 ```javascript
 setEvaluationOrder(value: number) : void;

@@ -17,15 +17,21 @@ class ShapePath;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Initializes a new instance of the [ShapePath](../shapepath/) class. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pathSegementList](#pathSegementList--)| ShapeSegmentPathCollection | Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPathSegementList()](#getPathSegementList--)| Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
+| [getPathSegementList()](#getPathSegementList--)| <b>@deprecated.</b> Please use the 'pathSegementList' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [moveTo(number, number)](#moveTo-number-number-)| Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. |
 | [lineTo(number, number)](#lineTo-number-number-)| Appends a line segment to the current figure. The starting point is the end point of the current figure. |
 | [cubicBezierTo(number, number, number, number, number, number)](#cubicBezierTo-number-number-number-number-number-number-)| Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure. |
@@ -43,9 +49,18 @@ constructor();
 ```
 
 
+### pathSegementList {#pathSegementList--}
+
+Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
+
+```javascript
+pathSegementList : ShapeSegmentPathCollection;
+```
+
+
 ### getPathSegementList() {#getPathSegementList--}
 
-Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
+<b>@deprecated.</b> Please use the 'pathSegementList' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
 
 ```javascript
 getPathSegementList() : ShapeSegmentPathCollection;

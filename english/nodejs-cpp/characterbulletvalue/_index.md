@@ -17,18 +17,25 @@ class CharacterBulletValue extends BulletValue;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BulletValue)](#constructor-bulletvalue-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| BulletType | Readonly. Gets the type of the bullet. |
+| [character](#character--)| string | Gets and sets character of the bullet. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the bullet. |
-| [getCharacter()](#getCharacter--)| Gets and sets character of the bullet. |
-| [setCharacter(string)](#setCharacter-string-)| Gets and sets character of the bullet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet. |
+| [getCharacter()](#getCharacter--)| <b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet. |
+| [setCharacter(string)](#setCharacter-string-)| <b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -54,9 +61,27 @@ constructor();
 ```
 
 
+### type {#type--}
+
+Readonly. Gets the type of the bullet.
+
+```javascript
+type : BulletType;
+```
+
+
+### character {#character--}
+
+Gets and sets character of the bullet.
+
+```javascript
+character : string;
+```
+
+
 ### getType() {#getType--}
 
-Gets the type of the bullet.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet.
 
 ```javascript
 getType() : BulletType;
@@ -69,7 +94,7 @@ getType() : BulletType;
 
 ### getCharacter() {#getCharacter--}
 
-Gets and sets character of the bullet.
+<b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet.
 
 ```javascript
 getCharacter() : string;
@@ -78,7 +103,7 @@ getCharacter() : string;
 
 ### setCharacter(string) {#setCharacter-string-}
 
-Gets and sets character of the bullet.
+<b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet.
 
 ```javascript
 setCharacter(value: string) : void;

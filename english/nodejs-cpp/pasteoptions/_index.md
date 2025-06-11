@@ -17,26 +17,37 @@ class PasteOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pasteType](#pasteType--)| PasteType | The paste special type. |
+| [skipBlanks](#skipBlanks--)| boolean | Indicates whether skips blank cells. |
+| [onlyVisibleCells](#onlyVisibleCells--)| boolean | True means only copying visible cells. |
+| [transpose](#transpose--)| boolean | True to transpose rows and columns when the range is pasted. The default value is False. |
+| [operationType](#operationType--)| PasteOperationType | Gets and sets the operation type when pasting range. |
+| [ignoreLinksToOriginalFile](#ignoreLinksToOriginalFile--)| boolean | Ingore links to the original file. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPasteType()](#getPasteType--)| The paste special type. |
-| [setPasteType(PasteType)](#setPasteType-pastetype-)| The paste special type. |
-| [getSkipBlanks()](#getSkipBlanks--)| Indicates whether skips blank cells. |
-| [setSkipBlanks(boolean)](#setSkipBlanks-boolean-)| Indicates whether skips blank cells. |
-| [getOnlyVisibleCells()](#getOnlyVisibleCells--)| True means only copying visible cells. |
-| [setOnlyVisibleCells(boolean)](#setOnlyVisibleCells-boolean-)| True means only copying visible cells. |
-| [getTranspose()](#getTranspose--)| True to transpose rows and columns when the range is pasted. The default value is False. |
-| [setTranspose(boolean)](#setTranspose-boolean-)| True to transpose rows and columns when the range is pasted. The default value is False. |
-| [getOperationType()](#getOperationType--)| Gets and sets the operation type when pasting range. |
-| [setOperationType(PasteOperationType)](#setOperationType-pasteoperationtype-)| Gets and sets the operation type when pasting range. |
-| [getIgnoreLinksToOriginalFile()](#getIgnoreLinksToOriginalFile--)| Ingore links to the original file. |
-| [setIgnoreLinksToOriginalFile(boolean)](#setIgnoreLinksToOriginalFile-boolean-)| Ingore links to the original file. |
+| [getPasteType()](#getPasteType--)| <b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type. |
+| [setPasteType(PasteType)](#setPasteType-pastetype-)| <b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type. |
+| [getSkipBlanks()](#getSkipBlanks--)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
+| [setSkipBlanks(boolean)](#setSkipBlanks-boolean-)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
+| [getOnlyVisibleCells()](#getOnlyVisibleCells--)| <b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells. |
+| [setOnlyVisibleCells(boolean)](#setOnlyVisibleCells-boolean-)| <b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells. |
+| [getTranspose()](#getTranspose--)| <b>@deprecated.</b> Please use the 'transpose' property instead. True to transpose rows and columns when the range is pasted. The default value is False. |
+| [setTranspose(boolean)](#setTranspose-boolean-)| <b>@deprecated.</b> Please use the 'transpose' property instead. True to transpose rows and columns when the range is pasted. The default value is False. |
+| [getOperationType()](#getOperationType--)| <b>@deprecated.</b> Please use the 'operationType' property instead. Gets and sets the operation type when pasting range. |
+| [setOperationType(PasteOperationType)](#setOperationType-pasteoperationtype-)| <b>@deprecated.</b> Please use the 'operationType' property instead. Gets and sets the operation type when pasting range. |
+| [getIgnoreLinksToOriginalFile()](#getIgnoreLinksToOriginalFile--)| <b>@deprecated.</b> Please use the 'ignoreLinksToOriginalFile' property instead. Ingore links to the original file. |
+| [setIgnoreLinksToOriginalFile(boolean)](#setIgnoreLinksToOriginalFile-boolean-)| <b>@deprecated.</b> Please use the 'ignoreLinksToOriginalFile' property instead. Ingore links to the original file. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -49,9 +60,63 @@ constructor();
 ```
 
 
-### getPasteType() {#getPasteType--}
+### pasteType {#pasteType--}
 
 The paste special type.
+
+```javascript
+pasteType : PasteType;
+```
+
+
+### skipBlanks {#skipBlanks--}
+
+Indicates whether skips blank cells.
+
+```javascript
+skipBlanks : boolean;
+```
+
+
+### onlyVisibleCells {#onlyVisibleCells--}
+
+True means only copying visible cells.
+
+```javascript
+onlyVisibleCells : boolean;
+```
+
+
+### transpose {#transpose--}
+
+True to transpose rows and columns when the range is pasted. The default value is False.
+
+```javascript
+transpose : boolean;
+```
+
+
+### operationType {#operationType--}
+
+Gets and sets the operation type when pasting range.
+
+```javascript
+operationType : PasteOperationType;
+```
+
+
+### ignoreLinksToOriginalFile {#ignoreLinksToOriginalFile--}
+
+Ingore links to the original file.
+
+```javascript
+ignoreLinksToOriginalFile : boolean;
+```
+
+
+### getPasteType() {#getPasteType--}
+
+<b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type.
 
 ```javascript
 getPasteType() : PasteType;
@@ -64,7 +129,7 @@ getPasteType() : PasteType;
 
 ### setPasteType(PasteType) {#setPasteType-pastetype-}
 
-The paste special type.
+<b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type.
 
 ```javascript
 setPasteType(value: PasteType) : void;
@@ -77,7 +142,7 @@ setPasteType(value: PasteType) : void;
 
 ### getSkipBlanks() {#getSkipBlanks--}
 
-Indicates whether skips blank cells.
+<b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells.
 
 ```javascript
 getSkipBlanks() : boolean;
@@ -86,7 +151,7 @@ getSkipBlanks() : boolean;
 
 ### setSkipBlanks(boolean) {#setSkipBlanks-boolean-}
 
-Indicates whether skips blank cells.
+<b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells.
 
 ```javascript
 setSkipBlanks(value: boolean) : void;
@@ -99,7 +164,7 @@ setSkipBlanks(value: boolean) : void;
 
 ### getOnlyVisibleCells() {#getOnlyVisibleCells--}
 
-True means only copying visible cells.
+<b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells.
 
 ```javascript
 getOnlyVisibleCells() : boolean;
@@ -108,7 +173,7 @@ getOnlyVisibleCells() : boolean;
 
 ### setOnlyVisibleCells(boolean) {#setOnlyVisibleCells-boolean-}
 
-True means only copying visible cells.
+<b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells.
 
 ```javascript
 setOnlyVisibleCells(value: boolean) : void;
@@ -121,7 +186,7 @@ setOnlyVisibleCells(value: boolean) : void;
 
 ### getTranspose() {#getTranspose--}
 
-True to transpose rows and columns when the range is pasted. The default value is False.
+<b>@deprecated.</b> Please use the 'transpose' property instead. True to transpose rows and columns when the range is pasted. The default value is False.
 
 ```javascript
 getTranspose() : boolean;
@@ -130,7 +195,7 @@ getTranspose() : boolean;
 
 ### setTranspose(boolean) {#setTranspose-boolean-}
 
-True to transpose rows and columns when the range is pasted. The default value is False.
+<b>@deprecated.</b> Please use the 'transpose' property instead. True to transpose rows and columns when the range is pasted. The default value is False.
 
 ```javascript
 setTranspose(value: boolean) : void;
@@ -143,7 +208,7 @@ setTranspose(value: boolean) : void;
 
 ### getOperationType() {#getOperationType--}
 
-Gets and sets the operation type when pasting range.
+<b>@deprecated.</b> Please use the 'operationType' property instead. Gets and sets the operation type when pasting range.
 
 ```javascript
 getOperationType() : PasteOperationType;
@@ -156,7 +221,7 @@ getOperationType() : PasteOperationType;
 
 ### setOperationType(PasteOperationType) {#setOperationType-pasteoperationtype-}
 
-Gets and sets the operation type when pasting range.
+<b>@deprecated.</b> Please use the 'operationType' property instead. Gets and sets the operation type when pasting range.
 
 ```javascript
 setOperationType(value: PasteOperationType) : void;
@@ -169,7 +234,7 @@ setOperationType(value: PasteOperationType) : void;
 
 ### getIgnoreLinksToOriginalFile() {#getIgnoreLinksToOriginalFile--}
 
-Ingore links to the original file.
+<b>@deprecated.</b> Please use the 'ignoreLinksToOriginalFile' property instead. Ingore links to the original file.
 
 ```javascript
 getIgnoreLinksToOriginalFile() : boolean;
@@ -178,7 +243,7 @@ getIgnoreLinksToOriginalFile() : boolean;
 
 ### setIgnoreLinksToOriginalFile(boolean) {#setIgnoreLinksToOriginalFile-boolean-}
 
-Ingore links to the original file.
+<b>@deprecated.</b> Please use the 'ignoreLinksToOriginalFile' property instead. Ingore links to the original file.
 
 ```javascript
 setIgnoreLinksToOriginalFile(value: boolean) : void;

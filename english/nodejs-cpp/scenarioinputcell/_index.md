@@ -15,23 +15,78 @@ class ScenarioInputCell;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [row](#row--)| number | Readonly. Gets and sets the row index of the input cell. |
+| [column](#column--)| number | Readonly. Gets and sets the column index of the input cell. |
+| [name](#name--)| string | Readonly. Gets and sets the input cell address. |
+| [value](#value--)| string | Gets and sets value of the input cell. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether input cell is deleted. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRow()](#getRow--)| Gets and sets the row index of the input cell. |
-| [getColumn()](#getColumn--)| Gets and sets the column index of the input cell. |
-| [getName()](#getName--)| Gets and sets the input cell address. |
-| [getValue()](#getValue--)| Gets and sets value of the input cell. |
-| [setValue(string)](#setValue-string-)| Gets and sets value of the input cell. |
-| [isDeleted()](#isDeleted--)| Indicates whether input cell is deleted. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether input cell is deleted. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the input cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the input cell. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the input cell address. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets value of the input cell. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets value of the input cell. |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether input cell is deleted. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether input cell is deleted. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### row {#row--}
+
+Readonly. Gets and sets the row index of the input cell.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets and sets the column index of the input cell.
+
+```javascript
+column : number;
+```
+
+
+### name {#name--}
+
+Readonly. Gets and sets the input cell address.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Gets and sets value of the input cell.
+
+```javascript
+value : string;
+```
+
+
+### isDeleted {#isDeleted--}
+
+Indicates whether input cell is deleted.
+
+```javascript
+isDeleted : boolean;
+```
 
 
 ### getRow() {#getRow--}
 
-Gets and sets the row index of the input cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the input cell.
 
 ```javascript
 getRow() : number;
@@ -40,7 +95,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets and sets the column index of the input cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the input cell.
 
 ```javascript
 getColumn() : number;
@@ -49,7 +104,7 @@ getColumn() : number;
 
 ### getName() {#getName--}
 
-Gets and sets the input cell address.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the input cell address.
 
 ```javascript
 getName() : string;
@@ -58,7 +113,7 @@ getName() : string;
 
 ### getValue() {#getValue--}
 
-Gets and sets value of the input cell.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets value of the input cell.
 
 ```javascript
 getValue() : string;
@@ -67,7 +122,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Gets and sets value of the input cell.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets value of the input cell.
 
 ```javascript
 setValue(value: string) : void;
@@ -80,7 +135,7 @@ setValue(value: string) : void;
 
 ### isDeleted() {#isDeleted--}
 
-Indicates whether input cell is deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether input cell is deleted.
 
 ```javascript
 isDeleted() : boolean;
@@ -89,7 +144,7 @@ isDeleted() : boolean;
 
 ### setIsDeleted(boolean) {#setIsDeleted-boolean-}
 
-Indicates whether input cell is deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether input cell is deleted.
 
 ```javascript
 setIsDeleted(value: boolean) : void;

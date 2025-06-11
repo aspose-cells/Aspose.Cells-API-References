@@ -17,7 +17,7 @@ class SmartTagPropertyCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -28,7 +28,7 @@ class SmartTagPropertyCollection;
 | [get(number)](#get-number-)| Gets a [SmartTagProperty](../smarttagproperty/) object. |
 | [get(string)](#get-string-)| Gets a [SmartTagProperty](../smarttagproperty/) object by the name of the property. |
 | [add(string, string)](#add-string-string-)| Adds a property of cell's smart tag. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -95,7 +95,7 @@ return [SmartTagProperty](../smarttagproperty/)
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

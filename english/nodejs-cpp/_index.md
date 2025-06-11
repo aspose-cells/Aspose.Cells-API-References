@@ -104,6 +104,7 @@ is_root: true
 | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
 | [CustomProperty](./customproperty) | Represents identifier information. |
 | [CustomPropertyCollection](./custompropertycollection) | A collection of [CustomProperty](../nodejs-cpp/customproperty/) objects that represent additional information. |
+| [CustomRenderSettings](./customrendersettings) | Represents custom settings during rendering. |
 | [CustomXmlPart](./customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlPartCollection](./customxmlpartcollection) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlShape](./customxmlshape) | Represents Custom xml shape ,such as Ink. |
@@ -399,6 +400,7 @@ is_root: true
 | [SlicerCacheItem](./slicercacheitem) | Represent slicer data source item |
 | [SlicerCacheItemCollection](./slicercacheitemcollection) | Represent the collection of SlicerCacheItem |
 | [SlicerCollection](./slicercollection) | Specifies the collection of all the Slicer objects on the specified worksheet. |
+| [SlicerShape](./slicershape) | Represents the slicer shape. |
 | [SmartArtShape](./smartartshape) | Represents the smart art. |
 | [SmartTag](./smarttag) | Represents a smart tag. |
 | [SmartTagCollection](./smarttagcollection) | Represents all smart tags in the cell. |
@@ -456,6 +458,7 @@ is_root: true
 | [TilePicOption](./tilepicoption) | Represents tile picture as texture. |
 | [Timeline](./timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
 | [TimelineCollection](./timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline. |
+| [TimelineShape](./timelineshape) | Represents the Timeline msodrawing object. |
 | [Title](./title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](./togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |
 | [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
@@ -662,7 +665,7 @@ is_root: true
 | [MapChartProjectionType](./mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownTableHeaderType](./markdowntableheadertype) | Represents the header type of the table in the markdown file. |
-| [MemorySetting](./memorysetting) | Memory usage options. |
+| [MemorySetting](./memorysetting) | Memory usage modes for cells data model. |
 | [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
 | [MetadataType](./metadatatype) | Represents the type of metadata. |

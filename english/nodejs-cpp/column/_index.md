@@ -22,52 +22,121 @@ const { Workbook, Color, BackgroundType, StyleFlag } = require("aspose.cells.nod
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the first worksheet
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 
 //Add new Style to Workbook
 var style = workbook.createStyle();
 //Setting the background color to Blue
-style.setBackgroundColor(Color.Blue);
+style.backgroundColor = Color.Blue;
 //Setting the foreground color to Red
-style.setForegroundColor(Color.Red);
+style.foregroundColor = Color.Red;
 //setting Background Pattern
-style.setPattern(BackgroundType.DiagonalStripe);
+style.pattern = BackgroundType.DiagonalStripe;
 //New Style Flag
 var styleFlag = new StyleFlag();
 //Set All Styles
-styleFlag.setAll(true);
+styleFlag.all = true;
 
 //Get first Column
-var column = worksheet.getCells().getColumns().get(0);
+var column = worksheet.cells.columns.get(0);
 //Apply Style to first Column
 column.applyStyle(style, styleFlag);
 
 //Saving the Excel file
 workbook.save("output/Column.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [index](#index--)| number | Readonly. Gets the index of this column. |
+| [width](#width--)| number | Gets and sets the column width in unit of characters. |
+| [groupLevel](#groupLevel--)| number | Gets the group level of the column. |
+| [isHidden](#isHidden--)| boolean | Indicates whether the column is hidden. |
+| [hasCustomStyle](#hasCustomStyle--)| boolean | Readonly. Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
+| [isCollapsed](#isCollapsed--)| boolean | whether the column is collapsed |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getIndex()](#getIndex--)| Gets the index of this column. |
-| [getWidth()](#getWidth--)| Gets and sets the column width in unit of characters. |
-| [setWidth(number)](#setWidth-number-)| Gets and sets the column width in unit of characters. |
-| [getGroupLevel()](#getGroupLevel--)| Gets the group level of the column. |
-| [setGroupLevel(number)](#setGroupLevel-number-)| Gets the group level of the column. |
-| [isHidden()](#isHidden--)| Indicates whether the column is hidden. |
-| [setIsHidden(boolean)](#setIsHidden-boolean-)| Indicates whether the column is hidden. |
-| [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
-| [isCollapsed()](#isCollapsed--)| whether the column is collapsed |
-| [setIsCollapsed(boolean)](#setIsCollapsed-boolean-)| whether the column is collapsed |
+| [getIndex()](#getIndex--)| <b>@deprecated.</b> Please use the 'index' property instead. Gets the index of this column. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets and sets the column width in unit of characters. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Gets and sets the column width in unit of characters. |
+| [getGroupLevel()](#getGroupLevel--)| <b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the column. |
+| [setGroupLevel(number)](#setGroupLevel-number-)| <b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the column. |
+| [isHidden()](#isHidden--)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the column is hidden. |
+| [setIsHidden(boolean)](#setIsHidden-boolean-)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the column is hidden. |
+| [getHasCustomStyle()](#getHasCustomStyle--)| <b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
+| [isCollapsed()](#isCollapsed--)| <b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the column is collapsed |
+| [setIsCollapsed(boolean)](#setIsCollapsed-boolean-)| <b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the column is collapsed |
 | [applyStyle(Style, StyleFlag)](#applyStyle-style-styleflag-)| Applies formats for a whole column. |
 | [getStyle()](#getStyle--)| Gets the style of this column. |
 | [setStyle(Style)](#setStyle-style-)| Sets the style of this column. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### index {#index--}
+
+Readonly. Gets the index of this column.
+
+```javascript
+index : number;
+```
+
+
+### width {#width--}
+
+Gets and sets the column width in unit of characters.
+
+```javascript
+width : number;
+```
+
+
+**Remarks**
+
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
+
+### groupLevel {#groupLevel--}
+
+Gets the group level of the column.
+
+```javascript
+groupLevel : number;
+```
+
+
+### isHidden {#isHidden--}
+
+Indicates whether the column is hidden.
+
+```javascript
+isHidden : boolean;
+```
+
+
+### hasCustomStyle {#hasCustomStyle--}
+
+Readonly. Indicates whether this column has custom style settings(different from the default one inherited from workbook).
+
+```javascript
+hasCustomStyle : boolean;
+```
+
+
+### isCollapsed {#isCollapsed--}
+
+whether the column is collapsed
+
+```javascript
+isCollapsed : boolean;
+```
+
+
 ### getIndex() {#getIndex--}
 
-Gets the index of this column.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets the index of this column.
 
 ```javascript
 getIndex() : number;
@@ -76,7 +145,7 @@ getIndex() : number;
 
 ### getWidth() {#getWidth--}
 
-Gets and sets the column width in unit of characters.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets and sets the column width in unit of characters.
 
 ```javascript
 getWidth() : number;
@@ -89,7 +158,7 @@ For spreadsheet, column width is measured as the number of characters of the max
 
 ### setWidth(number) {#setWidth-number-}
 
-Gets and sets the column width in unit of characters.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets and sets the column width in unit of characters.
 
 ```javascript
 setWidth(value: number) : void;
@@ -106,7 +175,7 @@ For spreadsheet, column width is measured as the number of characters of the max
 
 ### getGroupLevel() {#getGroupLevel--}
 
-Gets the group level of the column.
+<b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the column.
 
 ```javascript
 getGroupLevel() : number;
@@ -115,7 +184,7 @@ getGroupLevel() : number;
 
 ### setGroupLevel(number) {#setGroupLevel-number-}
 
-Gets the group level of the column.
+<b>@deprecated.</b> Please use the 'groupLevel' property instead. Gets the group level of the column.
 
 ```javascript
 setGroupLevel(value: number) : void;
@@ -128,7 +197,7 @@ setGroupLevel(value: number) : void;
 
 ### isHidden() {#isHidden--}
 
-Indicates whether the column is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the column is hidden.
 
 ```javascript
 isHidden() : boolean;
@@ -137,7 +206,7 @@ isHidden() : boolean;
 
 ### setIsHidden(boolean) {#setIsHidden-boolean-}
 
-Indicates whether the column is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the column is hidden.
 
 ```javascript
 setIsHidden(value: boolean) : void;
@@ -150,7 +219,7 @@ setIsHidden(value: boolean) : void;
 
 ### getHasCustomStyle() {#getHasCustomStyle--}
 
-Indicates whether this column has custom style settings(different from the default one inherited from workbook).
+<b>@deprecated.</b> Please use the 'hasCustomStyle' property instead. Indicates whether this column has custom style settings(different from the default one inherited from workbook).
 
 ```javascript
 getHasCustomStyle() : boolean;
@@ -159,7 +228,7 @@ getHasCustomStyle() : boolean;
 
 ### isCollapsed() {#isCollapsed--}
 
-whether the column is collapsed
+<b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the column is collapsed
 
 ```javascript
 isCollapsed() : boolean;
@@ -168,7 +237,7 @@ isCollapsed() : boolean;
 
 ### setIsCollapsed(boolean) {#setIsCollapsed-boolean-}
 
-whether the column is collapsed
+<b>@deprecated.</b> Please use the 'isCollapsed' property instead. whether the column is collapsed
 
 ```javascript
 setIsCollapsed(value: boolean) : void;
