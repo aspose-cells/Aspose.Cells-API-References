@@ -165,6 +165,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CustomPiovtFieldGroupItem](../com.aspose.cells/custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
 | [CustomProperty](../com.aspose.cells/customproperty) | Represents identifier information. |
 | [CustomPropertyCollection](../com.aspose.cells/custompropertycollection) | A collection of [CustomProperty](../com.aspose.cells/customproperty) objects that represent additional information. |
+| [CustomRenderSettings](../com.aspose.cells/customrendersettings) | Represents custom settings during rendering. |
 | [CustomXmlPart](../com.aspose.cells/customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlPartCollection](../com.aspose.cells/customxmlpartcollection) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlShape](../com.aspose.cells/customxmlshape) | Represents Custom xml shape ,such as Ink. |
@@ -396,7 +397,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MathematicalEquationNode](../com.aspose.cells/mathematicalequationnode) | This class specifies an equation or mathematical expression. |
 | [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MemoryFontSource](../com.aspose.cells/memoryfontsource) | Represents the single TrueType font file stored in memory. |
-| [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage options. |
+| [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage modes for cells data model. |
 | [MergeEmptyTdType](../com.aspose.cells/mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
 | [MergedCellsShrinkType](../com.aspose.cells/mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
@@ -644,6 +645,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SlicerCacheItemCollection](../com.aspose.cells/slicercacheitemcollection) | Represent the collection of SlicerCacheItem |
 | [SlicerCacheItemSortType](../com.aspose.cells/slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerCollection](../com.aspose.cells/slicercollection) | Specifies the collection of all the Slicer objects on the specified worksheet. |
+| [SlicerShape](../com.aspose.cells/slicershape) | Represents the slicer shape. |
 | [SlicerStyleType](../com.aspose.cells/slicerstyletype) | Specify the style of slicer view |
 | [SlideViewType](../com.aspose.cells/slideviewtype) | Represents the type when exporting to slides. |
 | [SmartArtShape](../com.aspose.cells/smartartshape) | Represents the smart art. |
@@ -741,6 +743,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TimeUnit](../com.aspose.cells/timeunit) | Represents the base unit for the category axis. |
 | [Timeline](../com.aspose.cells/timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
 | [TimelineCollection](../com.aspose.cells/timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. |
+| [TimelineShape](../com.aspose.cells/timelineshape) | Represents the Timeline msodrawing object. |
 | [Title](../com.aspose.cells/title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](../com.aspose.cells/togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |
 | [Top10](../com.aspose.cells/top10) | Describe the Top10 conditional formatting rule. |

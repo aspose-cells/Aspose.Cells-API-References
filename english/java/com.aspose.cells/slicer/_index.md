@@ -84,7 +84,7 @@ summary description of Slicer View
 | [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
 | [getClass()](#getClass--) |  |
 | [getColumnWidth()](#getColumnWidth--) | Returns or sets the width, in points, of each column in the slicer. |
-| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d |
 | [getHeight()](#getHeight--) | Returns or sets the height of the specified slicer, in points. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified slicer, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -96,6 +96,7 @@ summary description of Slicer View
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
 | [getRowHeight()](#getRowHeight--) | Returns or sets the height, in points, of each row in the specified slicer. |
 | [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [getShape()](#getShape--) | Returns the Shape object associated with the specified slicer. |
 | [getSlicerCache()](#getSlicerCache--) | Returns the SlicerCache object associated with the slicer. |
 | [getStyleType()](#getStyleType--) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [getTitle()](#getTitle--) | Specifies the title of the current Slicer object. |
@@ -113,7 +114,7 @@ summary description of Slicer View
 | [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified slicer. |
 | [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
 | [setColumnWidth(double value)](#setColumnWidth-double-) | Returns or sets the width, in points, of each column in the slicer. |
-| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d |
 | [setHeight(double value)](#setHeight-double-) | Returns or sets the height of the specified slicer, in points. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified slicer, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -249,7 +250,7 @@ public int getColumnWidthPixel()
 ```
 
 
-Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+Gets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d
 
 **Example**
 
@@ -267,10 +268,14 @@ public double getHeight()
 
 Returns or sets the height of the specified slicer, in points.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.HeightPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setHeight(120);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -283,10 +288,14 @@ public int getHeightPixel()
 
 Returns or sets the height of the specified slicer, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setHeightPixel(150);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -299,10 +308,14 @@ public int getLeftPixel()
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setLeftPixel(2);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -437,6 +450,16 @@ Returns or sets the height, in pixels, of each row in the specified slicer.
 
 **Returns:**
 int
+### getShape() {#getShape--}
+```
+public SlicerShape getShape()
+```
+
+
+Returns the Shape object associated with the specified slicer. Read-only.
+
+**Returns:**
+[SlicerShape](../../com.aspose.cells/slicershape)
 ### getSlicerCache() {#getSlicerCache--}
 ```
 public SlicerCache getSlicerCache()
@@ -495,10 +518,14 @@ public int getTopPixel()
 
 Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setTopPixel(6);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -511,10 +538,14 @@ public double getWidth()
 
 Returns or sets the width of the specified slicer, in points.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setWidth(100);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -527,10 +558,14 @@ public int getWidthPixel()
 
 Returns or sets the width of the specified slicer, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setWidthPixel(120);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -684,7 +719,7 @@ public void setColumnWidthPixel(int value)
 ```
 
 
-Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+Sets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,6 +734,10 @@ public void setHeight(double value)
 
 Returns or sets the height of the specified slicer, in points.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.HeightPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -712,6 +751,10 @@ public void setHeightPixel(int value)
 
 Returns or sets the height of the specified slicer, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -724,6 +767,10 @@ public void setLeftPixel(int value)
 
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -885,6 +932,10 @@ public void setTopPixel(int value)
 
 Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -898,6 +949,10 @@ public void setWidth(double value)
 
 Returns or sets the width of the specified slicer, in points.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -910,6 +965,10 @@ public void setWidthPixel(int value)
 
 
 Returns or sets the width of the specified slicer, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

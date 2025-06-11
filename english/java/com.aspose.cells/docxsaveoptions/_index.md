@@ -25,19 +25,20 @@ Represents options of saving .docx file.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
-| [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [getCustomRenderSettings()](#getCustomRenderSettings--) | Gets custom settings during rendering. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
-| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -48,6 +49,7 @@ Represents options of saving .docx file.
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getSaveAsEditableShapes()](#getSaveAsEditableShapes--) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [getSaveAsEditableShaps()](#getSaveAsEditableShaps--) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
@@ -62,19 +64,20 @@ Represents options of saving .docx file.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
 | [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setCustomRenderSettings(CustomRenderSettings value)](#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-) | Sets custom settings during rendering. |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
-| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline color. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -85,6 +88,7 @@ Represents options of saving .docx file.
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSaveAsEditableShapes(boolean value)](#setSaveAsEditableShapes-boolean-) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [setSaveAsEditableShaps(boolean value)](#setSaveAsEditableShaps-boolean-) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -149,7 +153,7 @@ public String getCachedFileFolder()
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Returns:**
 java.lang.String
@@ -225,6 +229,16 @@ The default value is false.
 
 **Returns:**
 boolean
+### getCustomRenderSettings() {#getCustomRenderSettings--}
+```
+public CustomRenderSettings getCustomRenderSettings()
+```
+
+
+Gets custom settings during rendering.
+
+**Returns:**
+[CustomRenderSettings](../../com.aspose.cells/customrendersettings)
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 ```
 public int getDefaultEditLanguage()
@@ -297,7 +311,7 @@ public Color getGridlineColor()
 ```
 
 
-Gets gridline colr.
+Gets gridline color.
 
 **Remarks**
 
@@ -494,6 +508,20 @@ Indicates whether refreshing chart cache data
 
 **Returns:**
 boolean
+### getSaveAsEditableShapes() {#getSaveAsEditableShapes--}
+```
+public boolean getSaveAsEditableShapes()
+```
+
+
+Save all drawing objects as editable shapes in the word file, so you can edit them in Word.
+
+**Remarks**
+
+Only for charts.
+
+**Returns:**
+boolean
 ### getSaveAsEditableShaps() {#getSaveAsEditableShaps--}
 ```
 public boolean getSaveAsEditableShaps()
@@ -501,6 +529,10 @@ public boolean getSaveAsEditableShaps()
 
 
 Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [getSaveAsEditableShapes()](../../com.aspose.cells/docxsaveoptions\#getSaveAsEditableShapes--) property. This property will be removed 6 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -670,7 +702,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,6 +785,19 @@ The default value is false.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setCustomRenderSettings(CustomRenderSettings value) {#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-}
+```
+public void setCustomRenderSettings(CustomRenderSettings value)
+```
+
+
+Sets custom settings during rendering.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CustomRenderSettings](../../com.aspose.cells/customrendersettings) |  |
 
 ### setDefaultEditLanguage(int value) {#setDefaultEditLanguage-int-}
 ```
@@ -858,7 +903,7 @@ public void setGridlineColor(Color value)
 ```
 
 
-Sets gridline colr.
+Sets gridline color.
 
 **Remarks**
 
@@ -1027,6 +1072,23 @@ Indicates whether refreshing chart cache data
 | --- | --- | --- |
 | value | boolean |  |
 
+### setSaveAsEditableShapes(boolean value) {#setSaveAsEditableShapes-boolean-}
+```
+public void setSaveAsEditableShapes(boolean value)
+```
+
+
+Save all drawing objects as editable shapes in the word file, so you can edit them in Word.
+
+**Remarks**
+
+Only for charts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setSaveAsEditableShaps(boolean value) {#setSaveAsEditableShaps-boolean-}
 ```
 public void setSaveAsEditableShaps(boolean value)
@@ -1034,6 +1096,10 @@ public void setSaveAsEditableShaps(boolean value)
 
 
 Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [getSaveAsEditableShapes()](../../com.aspose.cells/docxsaveoptions\#getSaveAsEditableShapes--) property. This property will be removed 6 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

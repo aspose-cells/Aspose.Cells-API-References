@@ -79,6 +79,7 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified timeline, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [getName()](#getName--) | Returns or sets the name of the specified Timeline |
+| [getShape()](#getShape--) | Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline. |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified timeline, in pixels. |
 | [hashCode()](#hashCode--) |  |
@@ -144,6 +145,10 @@ public int getHeightPixel()
 
 Returns or sets the height of the specified timeline, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
 ### getLeftPixel() {#getLeftPixel--}
@@ -153,6 +158,10 @@ public int getLeftPixel()
 
 
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -173,6 +182,16 @@ Returns or sets the name of the specified Timeline
 
 **Returns:**
 java.lang.String
+### getShape() {#getShape--}
+```
+public TimelineShape getShape()
+```
+
+
+Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline. Read-only.
+
+**Returns:**
+[TimelineShape](../../com.aspose.cells/timelineshape)
 ### getTopPixel() {#getTopPixel--}
 ```
 public int getTopPixel()
@@ -180,6 +199,10 @@ public int getTopPixel()
 
 
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -190,6 +213,10 @@ public int getWidthPixel()
 
 
 Returns or sets the width of the specified timeline, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -240,6 +267,10 @@ public void setHeightPixel(int value)
 
 Returns or sets the height of the specified timeline, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -252,6 +283,10 @@ public void setLeftPixel(int value)
 
 
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,6 +314,10 @@ public void setTopPixel(int value)
 
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -291,6 +330,10 @@ public void setWidthPixel(int value)
 
 
 Returns or sets the width of the specified timeline, in pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

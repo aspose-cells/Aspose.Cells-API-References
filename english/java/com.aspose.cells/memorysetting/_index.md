@@ -1,7 +1,7 @@
 ---
 title: MemorySetting
 second_title: Aspose.Cells for Java API Reference
-description: Memory usage options.
+description: Memory usage modes for cells data model.
 type: docs
 url: /java/com.aspose.cells/memorysetting/
 ---
@@ -12,13 +12,13 @@ java.lang.Object
 public final class MemorySetting
 ```
 
-Memory usage options.
+Memory usage modes for cells data model.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [MEMORY_PREFERENCE](#MEMORY-PREFERENCE) | Memory performance preferrable. |
-| [NORMAL](#NORMAL) | Default option for cells model. |
+| [NORMAL](#NORMAL) | Default mode for cells model. |
 ## Methods
 
 | Method | Description |
@@ -38,11 +38,11 @@ public static final int MEMORY_PREFERENCE
 ```
 
 
-Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases.
+Memory performance preferrable.
 
 **Remarks**
 
-This option is available since v 8.0.0.
+With this mode the cells data will be maintained in compact format to decrease the memory cost. On other hand, the compact data also may cause higher time cost, especially when updating the cells data, or accessing it randomly, This option is available since v 8.0.0.
 
 ### NORMAL {#NORMAL}
 ```
@@ -50,11 +50,11 @@ public static final int NORMAL
 ```
 
 
-Default option for cells model.
+Default mode for cells model.
 
 **Remarks**
 
-This option is applied for all versions.
+This mode is applied for all versions.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
