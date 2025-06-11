@@ -92,3 +92,5 @@ type SvgImageOptions struct  {
 |[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafiles in source file. | 
 |[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafiles in source file. | 
+|[GetCustomRenderSettings](./getcustomrendersettings/) | Gets or sets custom settings during rendering. | 
+|[SetCustomRenderSettings](./setcustomrendersettings/) | Gets or sets custom settings during rendering. | 

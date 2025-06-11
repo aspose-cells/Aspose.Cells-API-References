@@ -64,8 +64,8 @@ type EbookLoadOptions struct  {
 |[SetPaperSize](./setpapersize/) | Sets the default print paper size from default printer's setting. | 
 |[GetLanguageCode](./getlanguagecode/) | Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file. | 
 |[SetLanguageCode](./setlanguagecode/) | Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file. | 
-|[GetRegion](./getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. | 
-|[SetRegion](./setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. | 
+|[GetRegion](./getregion/) | Gets or sets the regional settings used for the Workbook that will be loaded. | 
+|[SetRegion](./setregion/) | Gets or sets the regional settings used for the Workbook that will be loaded. | 
 |[GetDefaultStyleSettings](./getdefaultstylesettings/) | Gets the default style settings for initializing styles of the workbook | 
 |[GetInterruptMonitor](./getinterruptmonitor/) | Gets and sets the interrupt monitor. | 
 |[SetInterruptMonitor](./setinterruptmonitor/) | Gets and sets the interrupt monitor. | 

@@ -10,7 +10,7 @@ url: /go-cpp/pdfsaveoptions/setgridlinecolor/
 
 ## SetGridlineColor function
 
-Gets or sets gridline colr.
+Gets or sets gridline color.
 
 ```go
 

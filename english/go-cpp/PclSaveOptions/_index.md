@@ -31,6 +31,8 @@ type PclSaveOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetEmbedFont](./getembedfont/) | Indicates whether to embed font into the output Pcl file. | 
+|[SetEmbedFont](./setembedfont/) | Indicates whether to embed font into the output Pcl file. | 
 |[AddPrinterFont](./addprinterfont/) | Adds information about font that is already added to the printer by manufacturer. | 
 |[GetDefaultFont](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
 |[SetDefaultFont](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
@@ -56,8 +58,8 @@ type PclSaveOptions struct  {
 |[SetPrintingPageType](./setprintingpagetype/) | Indicates which pages will not be printed. | 
 |[GetGridlineType](./getgridlinetype/) | Gets or sets gridline type. | 
 |[SetGridlineType](./setgridlinetype/) | Gets or sets gridline type. | 
-|[GetGridlineColor](./getgridlinecolor/) | Gets or sets gridline colr. | 
-|[SetGridlineColor](./setgridlinecolor/) | Gets or sets gridline colr. | 
+|[GetGridlineColor](./getgridlinecolor/) | Gets or sets gridline color. | 
+|[SetGridlineColor](./setgridlinecolor/) | Gets or sets gridline color. | 
 |[GetTextCrossType](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 
@@ -68,11 +70,13 @@ type PclSaveOptions struct  {
 |[SetDrawObjectEventHandler](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafile. | 
 |[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafile. | 
+|[GetCustomRenderSettings](./getcustomrendersettings/) | Gets or sets custom settings during rendering. | 
+|[SetCustomRenderSettings](./setcustomrendersettings/) | Gets or sets custom settings during rendering. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 
-|[GetCachedFileFolder](./getcachedfilefolder/) | The cached file folder is used to store some large data. | 
-|[SetCachedFileFolder](./setcachedfilefolder/) | The cached file folder is used to store some large data. | 
+|[GetCachedFileFolder](./getcachedfilefolder/) | The folder for temporary files that may be used as data cache. | 
+|[SetCachedFileFolder](./setcachedfilefolder/) | The folder for temporary files that may be used as data cache. | 
 |[GetValidateMergedAreas](./getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. | 
 |[SetValidateMergedAreas](./setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. | 
 |[GetMergeAreas](./getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. | 

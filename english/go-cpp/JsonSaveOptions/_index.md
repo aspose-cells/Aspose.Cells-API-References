@@ -31,6 +31,8 @@ type JsonSaveOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetExportStylePool](./getexportstylepool/) | Exporting style pool when converting to json struct. | 
+|[SetExportStylePool](./setexportstylepool/) | Exporting style pool when converting to json struct. | 
 |[GetExportHyperlinkType](./getexporthyperlinktype/) | Represents the type of exporting hyperlink to json. | 
 |[SetExportHyperlinkType](./setexporthyperlinktype/) | Represents the type of exporting hyperlink to json. | 
 |[GetSkipEmptyRows](./getskipemptyrows/) | Indicates whether skipping emtpy rows. | 
@@ -58,8 +60,8 @@ type JsonSaveOptions struct  {
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 
-|[GetCachedFileFolder](./getcachedfilefolder/) | The cached file folder is used to store some large data. | 
-|[SetCachedFileFolder](./setcachedfilefolder/) | The cached file folder is used to store some large data. | 
+|[GetCachedFileFolder](./getcachedfilefolder/) | The folder for temporary files that may be used as data cache. | 
+|[SetCachedFileFolder](./setcachedfilefolder/) | The folder for temporary files that may be used as data cache. | 
 |[GetValidateMergedAreas](./getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. | 
 |[SetValidateMergedAreas](./setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. | 
 |[GetMergeAreas](./getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. | 
