@@ -16,21 +16,43 @@ public string FunctionName { get; }
 ### Examples
 
 ```csharp
-// Called: if (data.FunctionName.ToUpper() == "MYFUNC")
-public override void CalculationData_Property_FunctionName(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataPropertyFunctionNameDemo
+    {
+        public static void Run()
         {
-            // Example: Custom implementation for a function named "MYFUNC"
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["A2"].PutValue(3);
+            sheet.Cells["A3"].Formula = "=MYFUNC(A1, A2)";
+            
+            CalculationOptions options = new CalculationOptions();
+            options.CustomEngine = new MyCustomEngine();
+            workbook.CalculateFormula(options);
+            
+            Console.WriteLine("Custom function result: " + sheet.Cells["A3"].Value);
+        }
+    }
+
+    public class MyCustomEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
             if (data.FunctionName.ToUpper() == "MYFUNC")
             {
-                // Assuming MYFUNC takes two parameters and returns their sum
-                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
-                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
-
-                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
-                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+                double param1 = Convert.ToDouble(((ReferredArea)data.GetParamValue(0)).GetValue(0, 0));
+                double param2 = Convert.ToDouble(((ReferredArea)data.GetParamValue(1)).GetValue(0, 0));
                 data.CalculatedValue = param1 + param2;
             }
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,40 +16,52 @@ public string OldFormula { get; }
 ### Examples
 
 ```csharp
-// Called: string fml = rcc.OldFormula;
-public void RevisionCellChange_Property_OldFormula()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
-    RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-    Assert.AreEqual(3, rlc.Count, "Revision logs count");
-    int matched = 0;
-    foreach (RevisionLog log in rlc)
+    public class RevisionCellChangePropertyOldFormulaDemo
     {
-        RevisionCollection rvs = log.Revisions;
-        foreach (Revision rv in rvs)
+        public static void Run()
         {
-            if (rv.Type == RevisionType.ChangeCells)
+            Workbook wb = new Workbook("example.xlsx");
+            if (!wb.HasRevisions)
             {
-                RevisionCellChange rcc = (RevisionCellChange)rv;
-                string fml = rcc.OldFormula;
-                if (fml != null)
+                Console.WriteLine("No revisions found.");
+                return;
+            }
+
+            RevisionLogCollection logs = wb.Worksheets.RevisionLogs;
+            Console.WriteLine($"Found {logs.Count} revision logs");
+
+            int formulaCount = 0;
+            foreach (RevisionLog log in logs)
+            {
+                foreach (Revision revision in log.Revisions)
                 {
-                    if (rcc.Row == 0)
+                    if (revision.Type == RevisionType.ChangeCells)
                     {
-                        Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
-                        matched++;
-                    }
-                    else if (rcc.Row == 1)
-                    {
-                        Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
-                        matched++;
+                        RevisionCellChange cellChange = (RevisionCellChange)revision;
+                        string formula = cellChange.OldFormula;
+                        
+                        if (formula != null)
+                        {
+                            Console.WriteLine($"Cell {cellChange.CellName} had formula: {formula}");
+                            if ((cellChange.Row == 0 && formula == "Sheet2!A1") || 
+                                (cellChange.Row == 1 && formula == "Sheet2!#REF!"))
+                            {
+                                formulaCount++;
+                            }
+                        }
                     }
                 }
             }
+            
+            Console.WriteLine($"Matched {formulaCount} formula changes");
         }
     }
-    Assert.AreEqual(2, matched, "Changed formula count");
 }
 ```
 

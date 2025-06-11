@@ -22,21 +22,47 @@ NOTE: This property is now obsolete. Instead, please use HtmlSaveOptions.IStream
 ### Examples
 
 ```csharp
-// Called: ExportObjectListener = new CustomExportObjectListener()
-public static void HtmlSaveOptions_Property_ExportObjectListener()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportObjectListenerDemo
+    {
+        public static void Run()
         {
-            // Custom implementation of IExportObjectListener
-            // Save HTML file with custom listener
-            Workbook workbook = new Workbook(); // Build your workbook here
+            // Create a custom export object listener
+            var listener = new CustomExportObjectListener();
+            
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Export Object Listener");
+            
+            // Create HTML save options with the listener
             HtmlSaveOptions saveOptions = new HtmlSaveOptions
             {
-                ExportObjectListener = new CustomExportObjectListener()
+                ExportObjectListener = listener
             };
-            using (Stream stream = new FileStream("ExportObjectEventExample.html", FileMode.Create))
-            {
-                workbook.Save(stream, saveOptions); // Save the workbook to stream
-            }
+
+            // Save to HTML file
+            workbook.Save("output.html", saveOptions);
         }
+    }
+
+    // Custom implementation of IExportObjectListener
+    public class CustomExportObjectListener : IExportObjectListener
+    {
+        public object ExportObject(ExportObjectEvent e)
+        {
+            // Example: Process the exported object
+            Console.WriteLine($"Exporting object: {e.GetType()}");
+            // Return the original object (could modify it if needed)
+            return e;
+        }
+    }
+}
 ```
 
 ### See Also

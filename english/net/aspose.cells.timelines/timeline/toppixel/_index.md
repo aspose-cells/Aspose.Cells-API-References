@@ -10,8 +10,14 @@ url: /net/aspose.cells.timelines/timeline/toppixel/
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
 ```csharp
+[Obsolete("Use Shape.Top property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int TopPixel { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

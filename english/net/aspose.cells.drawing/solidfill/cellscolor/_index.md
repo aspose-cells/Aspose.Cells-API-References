@@ -16,18 +16,34 @@ public CellsColor CellsColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
-public void SolidFill_Property_CellsColor()
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
-    cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
-    chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.Color.ToArgb() & 0xFFFFFF, Color.FromArgb(252, 213, 181).ToArgb() & 0xFFFFFF);
-    Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
+    public class SolidFillPropertyCellsColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["A4"].PutValue(3);
+
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A2:A4", true);
+
+            CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
+            cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
+            chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
+
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

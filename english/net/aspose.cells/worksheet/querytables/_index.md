@@ -16,12 +16,49 @@ public QueryTableCollection QueryTables { get; }
 ### Examples
 
 ```csharp
-// Called: QueryTable qt = workbook.Worksheets[0].QueryTables[0];
-public void Worksheet_Property_QueryTables()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    QueryTable qt = workbook.Worksheets[0].QueryTables[0];
-   Assert.AreEqual("A1:A8", qt.ResultRange.Address);
+    public class WorksheetPropertyQueryTablesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(1.8);
+            
+            // Get the first query table (since we can't add new ones directly)
+            // Note: QueryTables collection is read-only in this API version
+            if (worksheet.QueryTables.Count > 0)
+            {
+                QueryTable queryTable = worksheet.QueryTables[0];
+                
+                // Display query table information
+                Console.WriteLine("Query Table Name: " + queryTable.Name);
+                Console.WriteLine("Result Range: " + queryTable.ResultRange.Address);
+                Console.WriteLine("Number of Query Tables: " + worksheet.QueryTables.Count);
+            }
+            else
+            {
+                Console.WriteLine("No query tables found in the worksheet.");
+            }
+            
+            // Save the workbook
+            workbook.Save("QueryTableDemo.xlsx");
+        }
+    }
 }
 ```
 

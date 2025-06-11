@@ -13,18 +13,6 @@ True if the password is to be saved as part of the connection string; otherwise,
 public bool SavePassword { get; set; }
 ```
 
-### Examples
-
-```csharp
-// Called: Assert.IsTrue(workbook.DataConnections[0].SavePassword);
-public void ExternalConnection_Property_SavePassword()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.IsTrue(workbook.DataConnections[0].SavePassword);
-    workbook.Save(Constants.destPath + "example.xlsx");
-}
-```
-
 ### See Also
 
 * class [ExternalConnection](../)

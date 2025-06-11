@@ -53,8 +53,7 @@ namespace AsposeCellsExamples
             Console.WriteLine("Initial Data length: " + list.Data.Length);
 
             // Modify control properties that affect Data
-            list.MouseIcon = new byte[] { 0x01, 0x02, 0x03 }; // Simple mock icon data
-            list.BackOleColor = 0xFF0000; // Red background
+            list.BackOleColor = 0xFF0000;
 
             // Display updated Data property information
             Console.WriteLine("Modified Data length: " + list.Data.Length);

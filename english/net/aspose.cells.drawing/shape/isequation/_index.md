@@ -16,12 +16,39 @@ public bool IsEquation { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//If true,the shape only contains an equation.
-if(shape.IsEquation)
+namespace AsposeCellsExamples
 {
-    //The shape contains only an equation
+    public class ShapePropertyIsEquationDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an equation shape with correct parameters
+            Shape equationShape = worksheet.Shapes.AddEquation(0, 0, 0, 0, 100, 100);
+            equationShape.AlternativeText = "x^2 + y^2 = r^2";
+            
+            // Add a regular rectangle shape with correct parameters
+            Shape rectangleShape = worksheet.Shapes.AddRectangle(2, 0, 0, 0, 100, 100);
+
+            foreach (Shape shape in worksheet.Shapes)
+            {
+                if (shape.IsEquation)
+                {
+                    Console.WriteLine("Shape is an equation: " + shape.AlternativeText);
+                }
+                else
+                {
+                    Console.WriteLine("Shape is not an equation");
+                }
+            }
+        }
+    }
 }
 ```
 

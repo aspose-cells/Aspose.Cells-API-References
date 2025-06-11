@@ -16,11 +16,30 @@ public string Email { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells.Drawing;
 
-[C#]
-// Create signature line object
-SignatureLine s5 = new SignatureLine();
-s5.Email = "Simon.Zhao@aspose.com";
+namespace AsposeCellsExamples
+{
+    public class SignatureLinePropertyEmailDemo
+    {
+        public static void Run()
+        {
+            // Create a new signature line
+            SignatureLine signatureLine = new SignatureLine();
+            
+            // Set signature line properties including Email
+            signatureLine.Signer = "Simon Zhao";
+            signatureLine.Title = "Software Developer";
+            signatureLine.Email = "Simon.Zhao@aspose.com";
+            signatureLine.IsLine = true;
+            signatureLine.ShowSignedDate = true;
+            
+            // Display the email property
+            Console.WriteLine("Signer Email: " + signatureLine.Email);
+        }
+    }
+}
 ```
 
 ### See Also

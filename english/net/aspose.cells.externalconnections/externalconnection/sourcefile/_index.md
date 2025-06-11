@@ -16,22 +16,27 @@ public string SourceFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
-public void ExternalConnection_Property_SourceFile()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-    foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionPropertySourceFileDemo
     {
-        connection.Name = connection.Name.Replace("c:\\", "d:\\");
-        connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
-        connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
-        connection.Command = connection.Command.Replace("c:\\", "d:\\");
-        if (!string.IsNullOrEmpty(connection.SeverCommand))
-            connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
+        public static void Run()
+        {
+            Workbook workbook = new Workbook("input.xlsx");
+            ExternalConnectionCollection connections = workbook.DataConnections;
+
+            foreach (ExternalConnection connection in connections)
+            {
+                if (!string.IsNullOrEmpty(connection.SourceFile))
+                    connection.SourceFile = connection.SourceFile.Replace("C:\\", "D:\\");
+            }
+
+            workbook.Save("output.xlsx");
+        }
     }
-    workbook.Save(Constants.destPath + "example.xls");
 }
 ```
 

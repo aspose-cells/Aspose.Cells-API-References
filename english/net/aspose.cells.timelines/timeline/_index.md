@@ -18,11 +18,12 @@ public class Timeline
 | Name | Description |
 | --- | --- |
 | [Caption](../../aspose.cells.timelines/timeline/caption/) { get; set; } | Returns or sets the caption of the specified Timeline. |
-| [HeightPixel](../../aspose.cells.timelines/timeline/heightpixel/) { get; set; } | Returns or sets the height of the specified timeline, in pixels. |
-| [LeftPixel](../../aspose.cells.timelines/timeline/leftpixel/) { get; set; } | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
+| [HeightPixel](../../aspose.cells.timelines/timeline/heightpixel/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified timeline, in pixels. |
+| [LeftPixel](../../aspose.cells.timelines/timeline/leftpixel/) { get; set; } | (**Obsolete.**) Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [Name](../../aspose.cells.timelines/timeline/name/) { get; set; } | Returns or sets the name of the specified Timeline |
-| [TopPixel](../../aspose.cells.timelines/timeline/toppixel/) { get; set; } | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
-| [WidthPixel](../../aspose.cells.timelines/timeline/widthpixel/) { get; set; } | Returns or sets the width of the specified timeline, in pixels. |
+| [Shape](../../aspose.cells.timelines/timeline/shape/) { get; } | Returns the [`TimelineShape`](../../aspose.cells.drawing/timelineshape/) object associated with this Timeline. Read-only. |
+| [TopPixel](../../aspose.cells.timelines/timeline/toppixel/) { get; set; } | (**Obsolete.**) Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
+| [WidthPixel](../../aspose.cells.timelines/timeline/widthpixel/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified timeline, in pixels. |
 
 ### Examples
 

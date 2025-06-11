@@ -23,30 +23,30 @@ public int Add(int row, int column, OdsCellFieldType fieldType, string format)
 ### Examples
 
 ```csharp
-// Called: int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
-public static void OdsCellFieldCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
+{
+    public class OdsCellFieldCollectionMethodAddWithInt32Int32OdsCellFieldTypStringDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+            OdsCellFieldCollection odsCellFields = worksheet.Cells.OdsCellFields;
 
-            // Access the OdsCellFieldCollection
-            OdsCellFieldCollection odsCellFields = cells.OdsCellFields;
+            // Add different types of fields
+            odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
+            odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+            odsCellFields.Add(2, 2, OdsCellFieldType.Title, "SampleTitle");
 
-            // Add fields to the OdsCellFieldCollection
-            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
-            int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
-            int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
-
-            // Update fields value to the cells
             odsCellFields.UpdateFieldsValue();
-
-            // Save the workbook
-            workbook.Save("OdsCellFieldCollectionExample.ods");
-
-            return;
+            workbook.Save("OdsCellFieldsDemo.ods");
         }
+    }
+}
 ```
 
 ### See Also

@@ -24,33 +24,39 @@ Page size of image, [0] for width and [1] for height
 ### Examples
 
 ```csharp
-// Called: var size = sheetRender.GetPageSizeInch(0);
-private byte[] SheetRender_Method_GetPageSizeInch(Worksheet worksheet, string cellAddressUpperLeft, string cellAddressLowerRight)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class SheetRenderMethodGetPageSizeInchWithInt32Demo
+    {
+        public static void Run()
         {
-            // Set the print area range
-            worksheet.PageSetup.PrintArea = cellAddressUpperLeft + ":" + cellAddressLowerRight;
-            // Set all margins to zero
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.PageSetup.PrintArea = "A1:D10";
             worksheet.PageSetup.LeftMargin = 0;
             worksheet.PageSetup.RightMargin = 0;
             worksheet.PageSetup.TopMargin = 0;
             worksheet.PageSetup.BottomMargin = 0;
-            // Create image options
-            var options = new ImageOrPrintOptions
+
+            ImageOrPrintOptions options = new ImageOrPrintOptions
             {
                 OnePagePerSheet = true,
-                ImageType = ImageType.Png,
-                //SaveFormat = Aspose.Cells.SaveFormat.Svg,
-                HorizontalResolution = 200,
-                VerticalResolution = 200
+                ImageType = ImageType.Png
             };
-            // Create image of the worksheet
-            var sheetRender = new SheetRender(worksheet, options);
-            MemoryStream rangeStream = new MemoryStream();
-            sheetRender.ToImage(0, rangeStream);
-            var size = sheetRender.GetPageSizeInch(0);
-            var bytes = rangeStream.ToArray();
-            return bytes;
+
+            SheetRender sheetRender = new SheetRender(worksheet, options);
+            float[] pageSize = sheetRender.GetPageSizeInch(0);
+            
+            Console.WriteLine($"Page Size (Inches): Width={pageSize[0]}, Height={pageSize[1]}");
         }
+    }
+}
 ```
 
 ### See Also

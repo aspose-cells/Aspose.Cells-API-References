@@ -10,8 +10,14 @@ url: /net/aspose.cells/docxsaveoptions/saveaseditableshaps/
 Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
 
 ```csharp
+[Obsolete("Use SaveFormat.SaveAsEditableShapes instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool SaveAsEditableShaps { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`SaveAsEditableShapes`](../saveaseditableshapes/) property. This property will be removed 6 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

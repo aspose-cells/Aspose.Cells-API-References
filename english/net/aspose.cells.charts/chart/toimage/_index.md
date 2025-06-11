@@ -24,13 +24,46 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-// Called: Bitmap bitmap = charts[0].ToImage();
-public void Chart_Method_ToImage()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "HideCatergoryData.xls");
-    ChartCollection charts = workbook.Worksheets[0].Charts;
-    Bitmap bitmap = charts[0].ToImage();
-    bitmap.Save(Constants.destPath + "HideCatergoryData.bmp", ImageFormat.Bmp);
+    public class ChartMethodToImageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Fruits");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1200);
+            worksheet.Cells["B3"].PutValue(800);
+            worksheet.Cells["B4"].PutValue(1500);
+
+            // Add a column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.SetChartDataRange("A1:B4", true);
+            
+            // Convert chart to image and save to file
+            chart.ToImage("ChartImage.png", ImageType.Png);
+        }
+    }
 }
 ```
 
@@ -64,26 +97,61 @@ Returns a 32-bit bitmap object, so ImageOrPrintOptions.ImageFormat, ImageOrPrint
 
 ### Examples
 
-Gets a bitmap object with 200 x dpi and 300 y dpi.
-
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
 
-[C#]
-ImageOrPrintOptions options = new ImageOrPrintOptions();
-options.HorizontalResolution = 200;
-options.VerticalResolution = 300;
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToImageWithImageOrPrintOptDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Fruits");
+            worksheet.Cells["A3"].PutValue("Vegetables");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(30);
 
-Workbook book = new Workbook(@"test.xls");
-Bitmap chartObject = book.Worksheets[0].Charts[0].ToImage(options);
+            // Add a column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.SetChartDataRange("A1:B3", true);
 
-[VB]
-Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions() 
-options.HorizontalResolution = 200
-options.VerticalResolution = 300
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.HorizontalResolution = 200;
+            options.VerticalResolution = 300;
+            options.ImageType = ImageType.Png;
 
-Dim book As Workbook =  New Workbook("test.xls")
-Dim chartObject As Bitmap = book.Worksheets(0).Charts(0).ToImage(options)
-
+            // Save chart to image stream
+            using (MemoryStream stream = new MemoryStream())
+            {
+                chart.ToImage(stream, options);
+                
+                // Reset stream position for reading
+                stream.Position = 0;
+                
+                // Save to file for demonstration
+                File.WriteAllBytes("chart_output.png", stream.ToArray());
+            }
+        }
+    }
+}
 ```
 
 ### See Also

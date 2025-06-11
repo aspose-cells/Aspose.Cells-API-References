@@ -51,32 +51,39 @@ public abstract class ExternalConnection
 ### Examples
 
 ```csharp
-// Called: foreach (ExternalConnection conn in conns)
-public void ExternalConnections_Type_ExternalConnection()
-{
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ExternalConnectionCollection conns = workbook.DataConnections;
-    foreach (ExternalConnection conn in conns)
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionsClassExternalConnectionDemo
     {
-        DBConnection dbConn = conn as DBConnection;
-        if (dbConn != null)
+        public static void Run()
         {
-            Console.WriteLine(dbConn.ConnectionInfo);
-            Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-            Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-        }
-    }
-    workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    conns = workbook.DataConnections;
-    foreach (ExternalConnection conn in conns)
-    {
-        DBConnection dbConn = conn as DBConnection;
-        if (dbConn != null)
-        {
-            Console.WriteLine(dbConn.ConnectionInfo);
-            Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-            Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+            string sourceDir = "Your Source Directory";
+
+            Workbook workbook = new Workbook(sourceDir + "example.xlsx");
+            ExternalConnectionCollection conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                if (conn is DBConnection dbConn)
+                {
+                    Console.WriteLine("Connection Info: " + dbConn.ConnectionInfo);
+                    Console.WriteLine("Formula Definition: " + dbConn.PowerQueryFormula.FormulaDefinition);
+                }
+            }
+
+            workbook = new Workbook(sourceDir + "example.xlsm");
+            conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                if (conn is DBConnection dbConn)
+                {
+                    Console.WriteLine("Connection Info: " + dbConn.ConnectionInfo);
+                    Console.WriteLine("Formula Definition: " + dbConn.PowerQueryFormula.FormulaDefinition);
+                }
+            }
         }
     }
 }

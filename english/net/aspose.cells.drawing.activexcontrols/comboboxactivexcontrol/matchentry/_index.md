@@ -16,40 +16,47 @@ public ControlMatchEntryType MatchEntry { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-private void ComboBoxActiveXControl_Property_MatchEntry(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyMatchEntryDemo
+    {
+        public static void Run()
         {
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ComboBox, control.Type);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(8, control.ListRows);
-            Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(true, control.IsEditable);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(false, control.IsDragBehaviorEnabled);
-            Assert.AreEqual(false, control.EnterFieldBehavior);
-            Assert.AreEqual(false, control.IsAutoWordSelected);
-            Assert.AreEqual(true, control.SelectionMargin);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(82.488188976378, control.Width);
-            //Assert.AreEqual(32.9952755905512, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ComboBox ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.ComboBox, 
+                1, 0, 1, 0, 100, 20);
+            
+            // Get the ComboBox ActiveX control
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Configure basic properties
+            comboBox.Font.Name = "Arial";
+            comboBox.Font.Size = 10;
+            comboBox.ListRows = 8;
+
+            // Demonstrate MatchEntry property
+            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Search as user types
+            Console.WriteLine("MatchEntry set to: " + comboBox.MatchEntry);
+
+            // Change MatchEntry to another mode
+            comboBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Search by first letter
+            Console.WriteLine("MatchEntry changed to: " + comboBox.MatchEntry);
+
+            // Save the workbook
+            workbook.Save("ComboBoxActiveXControlDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

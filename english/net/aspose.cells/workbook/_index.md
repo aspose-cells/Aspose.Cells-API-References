@@ -89,6 +89,7 @@ public class Workbook : IDisposable
 | [ImportXml](../../aspose.cells/workbook/importxml/#importxml)(Stream, string, int, int) | Imports/Updates an XML data file into the workbook. |
 | [ImportXml](../../aspose.cells/workbook/importxml/#importxml_1)(string, string, int, int) | Imports/Updates an XML data file into the workbook. |
 | [IsColorInPalette](../../aspose.cells/workbook/iscolorinpalette/)(Color) | Checks if a color is in the palette for the spreadsheet. |
+| [MergeNamedStyles](../../aspose.cells/workbook/mergenamedstyles/)(Workbook) | Merges named styles from the other Excel file. |
 | [ParseFormulas](../../aspose.cells/workbook/parseformulas/)(bool) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [Protect](../../aspose.cells/workbook/protect/)(ProtectionType, string) | Protects a workbook. |
 | [ProtectSharedWorkbook](../../aspose.cells/workbook/protectsharedworkbook/)(string) | Protects a shared workbook. |

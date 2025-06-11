@@ -16,30 +16,46 @@ public override ControlType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlType.CommandButton, control.Type);
-private void CommandButtonActiveXControl_Property_Type(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class CommandButtonActiveXControlPropertyTypeDemo
+    {
+        public static void Run()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create command button with full parameter list
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.CommandButton,
+                0,  // topRow
+                0,  // top
+                0,  // leftColumn
+                0,  // left
+                100,  // width
+                100  // height
+            );
+            var control = (CommandButtonActiveXControl)shape.ActiveXControl;
+
+            control.Caption = "CommandButton1";
+            control.PicturePosition = ControlPicturePositionType.AboveCenter;
+            control.Accelerator = (char)0;
+            control.TakeFocusOnClick = false;
+            control.IsWordWrapped = false;
+            control.IsEnabled = true;
+
+            Console.WriteLine($"Control Type: {control.Type}");
+            Console.WriteLine($"Is CommandButton type: {control.Type == ControlType.CommandButton}");
+
+            workbook.Save("CommandButtonDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,47 +20,31 @@ Can only be a value from 1 through 4, corresponding to one of the four variants 
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(formatSrc.GradientVariant, formatDest.GradientVariant, info + ".GradientVariant");
-public static void FillFormat_Property_GradientVariant(FillFormat formatSrc, FillFormat formatDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyGradientVariantDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(formatSrc, formatDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(formatSrc.FillType, formatDest.FillType, info + ".SetType");
-            switch (formatSrc.FillType)
-            {
-                case FillType.None:
-                    break;
-                case FillType.Gradient:
-                    AssertHelper.AreEqual(formatSrc.GradientColorType, formatDest.GradientColorType, info + ".GradientColorType");
-                    switch (formatSrc.GradientColorType)
-                    {
-                        case GradientColorType.None:
-                            break;
-                        case GradientColorType.OneColor:
-                            AssertHelper.FillFormat_Property_GradientVariant(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
-                            AssertHelper.AreEqual(formatSrc.GradientDegree, formatDest.GradientDegree, info + ".GradientDegree");
-                            break;
-                        case GradientColorType.TwoColors:
-                            AssertHelper.FillFormat_Property_GradientVariant(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
-                            AssertHelper.FillFormat_Property_GradientVariant(formatSrc.GradientColor2, formatDest.GradientColor2, info + ".GradientColor2");                          
-                            break;
-                        case GradientColorType.PresetColors:
-                            AssertHelper.AreEqual(formatSrc.PresetColor, formatDest.PresetColor, info + ".PresetColor");
-                            break;
-                    }
-                    AssertHelper.AreEqual(formatSrc.GradientStyle, formatDest.GradientStyle, info + ".GradientStyle");
-                    AssertHelper.AreEqual(formatSrc.GradientVariant, formatDest.GradientVariant, info + ".GradientVariant");
-                    break;
-                case FillType.Texture:
-                    AssertHelper.AreEqual(formatSrc.Texture, formatDest.Texture, info + ".Texture");
-                    break;
-                case FillType.Pattern:
-                    AssertHelper.AreEqual(formatSrc.Pattern, formatDest.Pattern, info + ".Pattern");
-                    break;
-            }
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            Shape rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 200, 150);
+            FillFormat fillFormat = rectangle.Fill;
+            
+            fillFormat.SetTwoColorGradient(Color.LightBlue, Color.DarkBlue, GradientStyleType.Horizontal, 2);
+            Console.WriteLine("GradientVariant after SetTwoColorGradient: " + fillFormat.GradientVariant);
+            
+            fillFormat.SetPresetColorGradient(GradientPresetType.Gold, GradientStyleType.FromCorner, 4);
+            Console.WriteLine("GradientVariant after SetPresetColorGradient: " + fillFormat.GradientVariant);
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,14 +16,24 @@ public virtual string AltText { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("test alt text", c4.GetRichValue().AltText);
-public void CellRichValue_Property_AltText()
-{ 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell c4 = workbook.Worksheets[0].Cells["C4"];
-    Assert.AreEqual("test alt text", c4.GetRichValue().AltText);
+using System;
+using Aspose.Cells;
 
-
+namespace AsposeCellsExamples
+{
+    public class CellRichValuePropertyAltTextDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["C4"];
+            
+            cell.GetRichValue().AltText = "test alt text";
+            
+            Console.WriteLine("AltText: " + cell.GetRichValue().AltText);
+        }
+    }
 }
 ```
 

@@ -21,17 +21,6 @@ public RevisionLog this[int index] { get; }
 
 Returns [`RevisionLog`](../../revisionlog/) object.
 
-### Examples
-
-```csharp
-// Called: Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-public void RevisionLogCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-   Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-}
-```
-
 ### See Also
 
 * class [RevisionLog](../../revisionlog/)

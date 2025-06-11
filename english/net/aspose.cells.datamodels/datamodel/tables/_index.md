@@ -16,15 +16,48 @@ public DataModelTableCollection Tables { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1,wb.DataModel.Tables.Count);
-public void DataModel_Property_Tables()
-{
+using System;
+using Aspose.Cells;
+using Aspose.Cells.DataModels;
 
-    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    Assert.AreEqual(1,wb.DataModel.Tables.Count);
-    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
+namespace AsposeCellsExamples
+{
+    public class DataModelPropertyTablesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access the data model
+            DataModel dataModel = wb.DataModel;
+            
+            // Get tables collection and show count
+            Console.WriteLine($"Tables count in new workbook: {dataModel.Tables.Count}");
+            
+            // Load sample workbook with data model
+            string sourceFile = "example.xlsb";
+            if (System.IO.File.Exists(sourceFile))
+            {
+                Workbook sampleWorkbook = new Workbook(sourceFile);
+                DataModel sampleDataModel = sampleWorkbook.DataModel;
+                
+                // Access tables collection
+                DataModelTableCollection tables = sampleDataModel.Tables;
+                Console.WriteLine($"Tables count in sample file: {tables.Count}");
+                
+                // Iterate through tables
+                foreach (DataModelTable table in tables)
+                {
+                    Console.WriteLine($"Table name: {table.Name}");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Sample file '{sourceFile}' not found. Create an Excel file with data model to see tables information.");
+            }
+        }
+    }
 }
 ```
 

@@ -16,42 +16,48 @@ public override PivotFieldGroupType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
-public void PivotDiscreteGroupSettings_Property_Type()
-{  // Create a new workbook
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    // Adding some sample data
-    worksheet.Cells[0, 0].PutValue("Item");
-    worksheet.Cells[0, 1].PutValue("Quantity");
-    worksheet.Cells[1, 0].PutValue("A");
-    worksheet.Cells[1, 1].PutValue(10);
-    worksheet.Cells[2, 0].PutValue("B");
-    worksheet.Cells[2, 1].PutValue(15);
-    worksheet.Cells[3, 0].PutValue("A");
-    worksheet.Cells[3, 1].PutValue(10);
-    worksheet.Cells[4, 0].PutValue("B");
-    worksheet.Cells[4, 1].PutValue(15);
+namespace AsposeCellsExamples
+{
+    public class PivotDiscreteGroupSettingsPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // Add a pivot table to the worksheet
-    int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
-    PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            // Sample data
+            worksheet.Cells[0, 0].PutValue("Item");
+            worksheet.Cells[0, 1].PutValue("Value");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(20);
 
-    // Set row and data fields
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B3", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
-    // Accessing the row field
-    PivotField pivotField = pivotTable.RowFields[0];
-    pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1 }) }, true);
+            // Add fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-    // Create an instance of PivotDiscreteGroupSettings
-    PivotDiscreteGroupSettings groupSettings = pivotField.GroupSettings as PivotDiscreteGroupSettings;
+            // Group items
+            PivotField pivotField = pivotTable.RowFields[0];
+            pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { 
+                new CustomPiovtFieldGroupItem("Group1", new int[] { 0, 1 }) 
+            }, true);
 
-    // Set the group type to Discrete (This property is read-only)
-    // Display the current group type
-   Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
+            // Get group settings and demonstrate Type property
+            PivotDiscreteGroupSettings groupSettings = pivotField.GroupSettings as PivotDiscreteGroupSettings;
+            Console.WriteLine("Group Type: " + groupSettings.Type);
+
+            workbook.Save("PivotDiscreteGroupSettingsDemo.xlsx");
+        }
+    }
 }
 ```
 

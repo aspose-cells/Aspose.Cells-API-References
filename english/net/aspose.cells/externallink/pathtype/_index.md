@@ -16,34 +16,35 @@ public string PathType { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Path Type: " + externalLink.PathType);
-public static void ExternalLink_Property_PathType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ExternalLinkPropertyPathTypeDemo
+    {
+        public static void Run()
         {
-            // Open a file with external links
-            Workbook workbook = new Workbook("UpdatedExternalLinkExample_original.xlsx");
-
-            // Get External Link 
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Create an external link to another workbook
+            sheet.Cells["A1"].Formula = "='C:\\Temp\\ExternalWorkbook.xlsx'!Sheet1!A1";
+            
+            // Get the external link
             ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
-
-            // Display properties of the external link
-            Console.WriteLine("External Link Type: " + externalLink.Type);
+            
+            // Display the path type of the external link
             Console.WriteLine("Path Type: " + externalLink.PathType);
-            Console.WriteLine("Original Data Source: " + externalLink.OriginalDataSource);
-            Console.WriteLine("Data Source: " + externalLink.DataSource);
-            Console.WriteLine("Is Referred: " + externalLink.IsReferred);
-            Console.WriteLine("Is Visible: " + externalLink.IsVisible);
-
-            // Change External Link's Data Source
-            externalLink.DataSource = "d:\\linktest.xls";
-
-            // Add an external name to the external link
-            externalLink.AddExternalName("ExternalName", "Sheet1!A1");
-
+            
             // Save the workbook
-            workbook.Save("UpdatedExternalLinkExample.xlsx");
-
-            return;
+            workbook.Save("ExternalLinkDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

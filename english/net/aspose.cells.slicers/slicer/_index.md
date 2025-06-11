@@ -21,12 +21,12 @@ public class Slicer
 | [Caption](../../aspose.cells.slicers/slicer/caption/) { get; set; } | Returns or sets the caption of the specified slicer. |
 | [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible/) { get; set; } | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
 | [ColumnWidth](../../aspose.cells.slicers/slicer/columnwidth/) { get; set; } | Returns or sets the width, in points, of each column in the slicer. |
-| [ColumnWidthPixel](../../aspose.cells.slicers/slicer/columnwidthpixel/) { get; set; } | Gets or sets the width in unit of pixels for each column of the slicer. |
-| [Height](../../aspose.cells.slicers/slicer/height/) { get; set; } | Returns or sets the height of the specified slicer, in points. |
-| [HeightPixel](../../aspose.cells.slicers/slicer/heightpixel/) { get; set; } | Returns or sets the height of the specified slicer, in pixels. |
+| [ColumnWidthPixel](../../aspose.cells.slicers/slicer/columnwidthpixel/) { get; set; } | Gets or sets the width of each column in the slicer, in unit of pixels. |
+| [Height](../../aspose.cells.slicers/slicer/height/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified slicer, in points. |
+| [HeightPixel](../../aspose.cells.slicers/slicer/heightpixel/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified slicer, in pixels. |
 | [IsLocked](../../aspose.cells.slicers/slicer/islocked/) { get; set; } | Indicates whether the slicer shape is locked. |
 | [IsPrintable](../../aspose.cells.slicers/slicer/isprintable/) { get; set; } | Indicates whether the slicer object is printable. |
-| [LeftPixel](../../aspose.cells.slicers/slicer/leftpixel/) { get; set; } | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
+| [LeftPixel](../../aspose.cells.slicers/slicer/leftpixel/) { get; set; } | (**Obsolete.**) Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
 | [LockedAspectRatio](../../aspose.cells.slicers/slicer/lockedaspectratio/) { get; set; } | Indicates whether locking aspect ratio. |
 | [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition/) { get; set; } | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [Name](../../aspose.cells.slicers/slicer/name/) { get; set; } | Returns or sets the name of the specified slicer |
@@ -35,12 +35,13 @@ public class Slicer
 | [Placement](../../aspose.cells.slicers/slicer/placement/) { get; set; } | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
 | [RowHeight](../../aspose.cells.slicers/slicer/rowheight/) { get; set; } | Returns or sets the height, in points, of each row in the specified slicer. |
 | [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel/) { get; set; } | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [Shape](../../aspose.cells.slicers/slicer/shape/) { get; } | Returns the Shape object associated with the specified slicer. Read-only. |
 | [SlicerCache](../../aspose.cells.slicers/slicer/slicercache/) { get; } | Returns the SlicerCache object associated with the slicer. Read-only. |
 | [StyleType](../../aspose.cells.slicers/slicer/styletype/) { get; set; } | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [Title](../../aspose.cells.slicers/slicer/title/) { get; set; } | Specifies the title of the current Slicer object. |
-| [TopPixel](../../aspose.cells.slicers/slicer/toppixel/) { get; set; } | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
-| [Width](../../aspose.cells.slicers/slicer/width/) { get; set; } | Returns or sets the width of the specified slicer, in points. |
-| [WidthPixel](../../aspose.cells.slicers/slicer/widthpixel/) { get; set; } | Returns or sets the width of the specified slicer, in pixels. |
+| [TopPixel](../../aspose.cells.slicers/slicer/toppixel/) { get; set; } | (**Obsolete.**) Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
+| [Width](../../aspose.cells.slicers/slicer/width/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified slicer, in points. |
+| [WidthPixel](../../aspose.cells.slicers/slicer/widthpixel/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified slicer, in pixels. |
 
 ## Methods
 

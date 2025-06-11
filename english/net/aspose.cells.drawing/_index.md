@@ -74,6 +74,7 @@ The **Aspose.Cells.Drawing** namespace provides classes that allow to create and
 | [ShapeSegmentPath](./shapesegmentpath/) | Represents a segment path in a path of the freeform. |
 | [ShapeSegmentPathCollection](./shapesegmentpathcollection/) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 | [SignatureLine](./signatureline/) | Represent the signature line. |
+| [SlicerShape](./slicershape/) | Represents the slicer shape. |
 | [SmartArtShape](./smartartshape/) | Represents the smart art. |
 | [SolidFill](./solidfill/) | Encapsulates the object that represents solid fill format |
 | [Spinner](./spinner/) | Represents the Forms control: Spinner. |
@@ -83,6 +84,7 @@ The **Aspose.Cells.Drawing** namespace provides classes that allow to create and
 | [TextureFill](./texturefill/) | Encapsulates the object that represents texture fill format |
 | [ThreeDFormat](./threedformat/) | Represents a shape's three-dimensional formatting. |
 | [TilePicOption](./tilepicoption/) | Represents tile picture as texture. |
+| [TimelineShape](./timelineshape/) | Represents the Timeline msodrawing object. |
 | [VmlShapeGuide](./vmlshapeguide/) | just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape |
 | [WebExtensionShape](./webextensionshape/) | Represents the shape of web extension. |
 ## Enumeration

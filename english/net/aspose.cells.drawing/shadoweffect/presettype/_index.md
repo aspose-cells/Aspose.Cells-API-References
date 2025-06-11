@@ -16,40 +16,41 @@ public PresetShadowType PresetType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + ".ShapeProperties.ShadowEffect.PresetType");
-public static void ShadowEffect_Property_PresetType(Legend legendSrc, Legend legendDest, string info)
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ShadowEffectPropertyPresetTypeDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(legendSrc, legendDest, info))
-            {
-                return;
-            }
-            //==============Legend Options=================//
-            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + ".Position");
-            //=====================Shadow Option=============//
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + ".ShapeProperties.ShadowEffect.PresetType");
-            CellsColorTest.ShadowEffect_Property_PresetType(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + ".ShapeProperties.ShadowEffect.Color");
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + ".ShapeProperties.ShadowEffect.Transparency");
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + ".ShapeProperties.ShadowEffect.Size");
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + ".ShapeProperties.ShadowEffect.Blur");
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + ".ShapeProperties.ShadowEffect.Angle");
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + ".ShapeProperties.ShadowEffect.Distance");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            Shape shape = worksheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            ShadowEffect shadow = shape.ShadowEffect;
+            
+            shadow.PresetType = PresetShadowType.OffsetBottom;
+            shadow.Color = workbook.CreateCellsColor();
+            shadow.Color.Color = Color.Blue;
+            shadow.Transparency = 0.3;
+            shadow.Size = 80;
+            shadow.Blur = 20;
+            shadow.Distance = 6;
 
-            //===================compare patterns===========//
-            LineTest.ShadowEffect_Property_PresetType(legendSrc.Border, legendDest.Border, info + ".Border");
-            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + ".Shadow");
-            AreaTest.ShadowEffect_Property_PresetType(legendSrc.Area, legendDest.Area, info + ".Area");
-            //===================compare font==============//
-            FontTest.ShadowEffect_Property_PresetType(legendSrc.TextFont, legendDest.TextFont, info + ".TextFont");
-            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + ".AutoScaleFont");
-            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + ".Background");
-            //===================compare placement=========//
-           
-            //==================compare other==============//
-            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + ".Height");
-            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + ".Width");
-            LegendEntriesTest.ShadowEffect_Property_PresetType(legendSrc.LegendEntries, legendDest.LegendEntries, info + ".LegendEntries");           
+            workbook.Save("ShadowEffectDemo.xlsx");
+
+            Workbook loadedWorkbook = new Workbook("ShadowEffectDemo.xlsx");
+            ShadowEffect loadedShadow = loadedWorkbook.Worksheets[0].Shapes[0].ShadowEffect;
+            
+            Console.WriteLine("PresetType: " + loadedShadow.PresetType);
+            Console.WriteLine("Transparency: " + loadedShadow.Transparency);
         }
+    }
+}
 ```
 
 ### See Also

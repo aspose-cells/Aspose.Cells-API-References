@@ -245,10 +245,73 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Timelines;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, "i5", 1);
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableStringInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells["A1"].PutValue("Date");
+            cells["B1"].PutValue("Product");
+            cells["C1"].PutValue("Sales");
+            
+            cells["A2"].PutValue(new DateTime(2023, 1, 1));
+            cells["B2"].PutValue("A");
+            cells["C2"].PutValue(100);
+            
+            cells["A3"].PutValue(new DateTime(2023, 1, 2));
+            cells["B3"].PutValue("B");
+            cells["C3"].PutValue(200);
+            
+            cells["A4"].PutValue(new DateTime(2023, 1, 3));
+            cells["B4"].PutValue("A");
+            cells["C4"].PutValue(150);
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Refresh pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Find base field index for "Date" field
+            int dateFieldIndex = -1;
+            for (int i = 0; i < pivotTable.BaseFields.Count; i++)
+            {
+                if (pivotTable.BaseFields[i].Name == "Date")
+                {
+                    dateFieldIndex = i;
+                    break;
+                }
+            }
+
+            // Add timeline using the found index
+            if (dateFieldIndex >= 0)
+            {
+                sheet.Timelines.Add(pivotTable, "H2", dateFieldIndex);
+            }
+
+            // Save the result
+            workbook.Save("TimelineCollectionMethodAddWithPivotTableStringInt32Demo_output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

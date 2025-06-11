@@ -15,33 +15,44 @@ public PdfSecurityOptions SecurityOptions { get; set; }
 
 ### Examples
 
-The following code sets hight resolution print permisson for the output pdf.
-
 ```csharp
-Workbook wb = new Workbook();
-wb.Worksheets[0].Cells["A1"].Value = "Aspose";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
 
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-
-PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
-
-//set owner password
-pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-
-//set user password
-pdfSecurityOptions.UserPassword = "YourUserPassword";
-
-//set print permisson
-pdfSecurityOptions.PrintPermission = true;
-
-//set high resolution for print
-pdfSecurityOptions.FullQualityPrintPermission = true;
-
-
-pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
-
-wb.Save("output.pdf", pdfSaveOptions);
+namespace AsposeCellsExamples
+{
+    public class PdfSaveOptionsPropertySecurityOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data
+            workbook.Worksheets[0].Cells["A1"].Value = "Protected PDF Demo";
+            
+            // Create PDF save options
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            
+            // Configure security options
+            PdfSecurityOptions securityOptions = new PdfSecurityOptions();
+            securityOptions.OwnerPassword = "owner123";
+            securityOptions.UserPassword = "user123";
+            securityOptions.PrintPermission = true;
+            securityOptions.ModifyDocumentPermission = false;
+            securityOptions.ExtractContentPermission = false;
+            
+            // Assign security options to save options
+            saveOptions.SecurityOptions = securityOptions;
+            
+            // Save the PDF with security settings
+            workbook.Save("SecuredDocument.pdf", saveOptions);
+            
+            Console.WriteLine("PDF with security options created successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -28,15 +28,28 @@ public class PowerQueryFormulaFunction : PowerQueryFormula
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
-public void QueryTables_Type_PowerQueryFormulaFunction()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
-    Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
-    Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
-    Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class QueryTablesClassPowerQueryFormulaFunctionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook("source.xlsx");
+            PowerQueryFormula formula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+            
+            Console.WriteLine($"Name: {formula.Name}");
+            Console.WriteLine($"Type: {formula.Type}");
+            
+            PowerQueryFormulaFunction function = (PowerQueryFormulaFunction)formula;
+            Console.WriteLine($"Signature: {function.F}");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

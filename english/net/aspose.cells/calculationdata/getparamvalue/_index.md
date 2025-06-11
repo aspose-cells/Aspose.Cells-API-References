@@ -36,19 +36,37 @@ If it is some kind of expression that needs to be calculated, then it will be ca
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Target", data.GetParamValue(1), "Second parameter of HYPERLINK");
-public override void CalculationData_Method_GetParamValue(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataMethodGetParamValueWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Cells["A1"].Formula = "=HYPERLINK(\"http://localhost:9090\", \"Target\")";
+
+            CalculationOptions options = new CalculationOptions();
+            options.CustomEngine = new HyperlinkCalculationEngine();
+            workbook.CalculateFormula(options);
+        }
+
+        class HyperlinkCalculationEngine : AbstractCalculationEngine
+        {
+            public override void Calculate(CalculationData data)
             {
-                if (data.FunctionName.ToLower().Equals("hyperlink"))
+                if (data.FunctionName.Equals("HYPERLINK", StringComparison.OrdinalIgnoreCase))
                 {
-                    _invoked = true;
-                    if (_processBuiltIn)
-                    {
-                        Assert.AreEqual("http://localhost:9090", data.GetParamValue(0), "First parameter of HYPERLINK");
-                        Assert.AreEqual("Target", data.GetParamValue(1), "Second parameter of HYPERLINK");
-                    }
+                    Console.WriteLine("URL Parameter: " + data.GetParamValue(0));
+                    Console.WriteLine("Display Text: " + data.GetParamValue(1));
                 }
             }
+        }
+    }
+}
 ```
 
 ### See Also

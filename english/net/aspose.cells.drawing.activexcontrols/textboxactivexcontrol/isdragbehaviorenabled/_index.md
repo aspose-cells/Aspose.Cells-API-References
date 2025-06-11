@@ -16,10 +16,30 @@ public bool IsDragBehaviorEnabled { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.IsDragBehaviorEnabled)
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.IsDragBehaviorEnabled = true;
+    public class TextBoxActiveXControlPropertyIsDragBehaviorEnabledDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 1, 0, 1, 0, 100, 22);
+            TextBoxActiveXControl textBox = (TextBoxActiveXControl)shape.ActiveXControl;
+
+            if (!textBox.IsDragBehaviorEnabled)
+            {
+                textBox.IsDragBehaviorEnabled = true;
+            }
+
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

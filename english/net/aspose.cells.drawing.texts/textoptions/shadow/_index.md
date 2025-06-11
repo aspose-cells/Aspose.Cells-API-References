@@ -16,34 +16,44 @@ public ShadowEffect Shadow { get; }
 ### Examples
 
 ```csharp
-// Called: font.Shadow.PresetType = PresetShadowType.OffsetBottom;
-public void TextOptions_Property_Shadow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
-    sp.Fill.FillType = FillType.None;
-
-    sp.Text = "Hello World !!!";
-    FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
-    TextOptions font = fs.TextOptions;
-    font.Name = "Calibri";
-    font.Size = 54;
-    font.IsBold = true;
-
-
-    font.Color = System.Drawing.Color.Green;
-    font.Outline.FillType = FillType.Solid;
-    SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
-    outLineFill.Color = Color.White;
-
-    font.Fill.FillType = FillType.Solid;
-    SolidFill fill = font.Fill.SolidFill;
-    fill.Color = Color.Green;
-    font.Shadow.PresetType = PresetShadowType.OffsetBottom;
-
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+    public class TextOptionsPropertyShadowDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            Shape shape = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
+            shape.Fill.FillType = FillType.None;
+            shape.Text = "Hello World !!!";
+            
+            FontSetting fontSetting = shape.Characters(0, "Hello World !!!".Length);
+            TextOptions textOptions = fontSetting.TextOptions;
+            
+            textOptions.Name = "Calibri";
+            textOptions.Size = 54;
+            textOptions.IsBold = true;
+            textOptions.Color = Color.Green;
+            
+            textOptions.Outline.FillType = FillType.Solid;
+            textOptions.Outline.SolidFill.Color = Color.White;
+            
+            textOptions.Fill.FillType = FillType.Solid;
+            ((SolidFill)textOptions.Fill.SolidFill).Color = Color.Green;
+            
+            textOptions.Shadow.PresetType = PresetShadowType.OffsetBottom;
+            
+            workbook.Save("example.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

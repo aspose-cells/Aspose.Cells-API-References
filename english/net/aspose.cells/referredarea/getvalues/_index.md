@@ -20,22 +20,48 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 ### Examples
 
 ```csharp
-// Called: object vs = ra.GetValues();
-private void ReferredArea_Method_GetValues(ReferredArea ra)
+using System;
+using Aspose.Cells;
+using System.Collections;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValuesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["B1"].PutValue(3);
+            worksheet.Cells["B2"].PutValue(4);
+
+            Cell formulaCell = worksheet.Cells["C1"];
+            formulaCell.Formula = "=SUM(A1:B2)";
+
+            ReferredAreaCollection referredAreas = formulaCell.GetPrecedents();
+            if (referredAreas.Count > 0)
             {
+                ReferredArea ra = referredAreas[0];
                 object vs = ra.GetValues();
+
                 if (vs is Array)
                 {
-                    object[][] avs = (object[][])vs;
-                    foreach (object[] rd in avs)
+                    object[][] values = (object[][])vs;
+                    foreach (object[] row in values)
                     {
-                        foreach (object v in rd)
+                        foreach (object val in row)
                         {
-                            Console.WriteLine(_copts == null ? "default:" + v : "norecursive: " + v);
+                            Console.WriteLine($"Value: {val}");
                         }
                     }
                 }
             }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -65,54 +91,72 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 ### Examples
 
 ```csharp
-// Called: object res = ra.GetValues(false);
-public override void ReferredArea_Method_GetValues(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValuesWithBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+
+            string formula = "=A1:B2";
+            Cell cell = worksheet.Cells["C1"];
+            cell.Formula = formula;
+
+            workbook.CalculateFormula();
+            
+            ReferredAreaCollection referredAreasCollection = cell.GetPrecedents();
+            ReferredArea[] referredAreas = new ReferredArea[referredAreasCollection.Count];
+            for (int i = 0; i < referredAreasCollection.Count; i++)
             {
-                if (_inProcess)
-                {
-                    data.CalculatedValue = -_type;
-                    return;
-                }
-                _inProcess = true;
-                ReferredArea ra = (ReferredArea) data.GetParamValue(0);
-                switch (_type)
-                {
-                    case 1:
-                    {
-                        object res = ra.GetValues();
-                        data.CalculatedValue = res is object[] ? ((object[]) res)[0] : res;
-                        break;
-                    }
-                    case 2:
-                    {
-                        object res = ra.GetValues(true);
-                        data.CalculatedValue = res is object[] ? ((object[])res)[0] : res;
-                        break;
-                    }
-                    case 3:
-                    {
-                        object res = ra.GetValues(false);
-                        data.CalculatedValue = res is object[] ? ((object[])res)[0] : res;
-                        break;
-                    }
-                    case 4:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0);
-                        break;
-                    }
-                    case 5:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0, true);
-                        break;
-                    }
-                    case 6:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0, false);
-                        break;
-                    }
-                }
-                _inProcess = false;
+                referredAreas[i] = referredAreasCollection[i];
             }
+
+            if (referredAreas.Length > 0)
+            {
+                ReferredArea ra = referredAreas[0];
+                
+                Console.WriteLine("With headers (true):");
+                PrintResult(ra.GetValues(true));
+                
+                Console.WriteLine("\nWithout headers (false):");
+                PrintResult(ra.GetValues(false));
+            }
+        }
+
+        private static void PrintResult(object result)
+        {
+            if (result is object[,] multiArray)
+            {
+                for (int i = 0; i < multiArray.GetLength(0); i++)
+                {
+                    for (int j = 0; j < multiArray.GetLength(1); j++)
+                    {
+                        Console.Write(multiArray[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            else if (result is object[] singleArray)
+            {
+                Console.WriteLine(string.Join("\t", singleArray));
+            }
+            else
+            {
+                Console.WriteLine(result);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

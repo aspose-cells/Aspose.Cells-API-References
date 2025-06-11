@@ -16,40 +16,49 @@ public bool IsEditable { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, control.IsEditable);
-private void ComboBoxActiveXControl_Property_IsEditable(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyIsEditableDemo
+    {
+        public static void Run()
         {
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ComboBox, control.Type);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(8, control.ListRows);
-            Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(true, control.IsEditable);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(false, control.IsDragBehaviorEnabled);
-            Assert.AreEqual(false, control.EnterFieldBehavior);
-            Assert.AreEqual(false, control.IsAutoWordSelected);
-            Assert.AreEqual(true, control.SelectionMargin);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(82.488188976378, control.Width);
-            //Assert.AreEqual(32.9952755905512, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a ComboBox ActiveX control using Shapes collection
+            Shape shape = sheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 5, 0, 100, 30);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.IsEditable = true;
+            comboBox.Value = "Editable ComboBox";
+            comboBox.ColumnCount = 2;
+            comboBox.ListRows = 6;
+            comboBox.TextColumn = 1;
+
+            // Add items to the ComboBox (using the ListFillRange property)
+            sheet.Cells["A10"].PutValue("Item 1");
+            sheet.Cells["B10"].PutValue("Description 1");
+            sheet.Cells["A11"].PutValue("Item 2");
+            sheet.Cells["B11"].PutValue("Description 2");
+            comboBox.ListFillRange = "A10:B11";
+
+            // Save the workbook
+            workbook.Save("ComboBoxActiveXControl_IsEditableDemo.xlsx");
+
+            // Verify property after save
+            Console.WriteLine("IsEditable property value: " + comboBox.IsEditable);
         }
+    }
+}
 ```
 
 ### See Also

@@ -27,40 +27,35 @@ Total number of rows imported
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
-public void Cells_Method_ImportDataGrid()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
+    public class CellsMethodImportDataGridWithDataGridInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    DataTable dataTable = new DataTable("Table1");
+            // Create sample data
+            object[,] data = new object[4, 3]
+            {
+                {"ID", "Name", "Price"},
+                {1, "Product A", 19.99},
+                {2, "Product B", 29.99},
+                {3, "Product C", 39.99}
+            };
 
-    dataTable.Columns.Add("Name", typeof(string));
+            // Import data directly using two-dimensional array
+            sheet.Cells.ImportTwoDimensionArray(data, 0, 0, true);
 
-    dataTable.Columns.Add("Date", typeof(DateTime));
-
-    DataRow dr = dataTable.NewRow();
-
-    dr[0] = "test";
-
-    dr[1] = DateTime.Now;
-
-    dataTable.Rows.Add(dr);
-
-    System.Web.UI.WebControls.DataGrid dataGrid = new System.Web.UI.WebControls.DataGrid();
-
-    dataGrid.DataSource = dataTable;
-
-    dataGrid.UseAccessibleHeader = true;
-
-    dataGrid.ShowHeader = true;
-
-    dataGrid.DataBind();
-
-    sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
-
-    sheet.AutoFitColumns();
-    workbook.Save(Constants.destPath + "example.xlsx");
+            sheet.AutoFitColumns();
+            workbook.Save("ImportDataGridOutput.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,25 +16,63 @@ public LightCellsDataHandler LightCellsDataHandler { get; set; }
 ### Examples
 
 ```csharp
-// Called: opts.LightCellsDataHandler = new DataTableExporter(dt);
-public void LoadOptions_Property_LightCellsDataHandler()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    DataTable dt = new DataTable();
-    dt.Columns.Add("Column1", typeof(string));
-    dt.Columns.Add("Column2", typeof(DateTime));
-    dt.Columns.Add("Column3", typeof(double));
-    TxtLoadOptions opts = new TxtLoadOptions();
-    opts.ConvertDateTimeData = false;
-    opts.ConvertNumericData = false;
-    opts.LightCellsDataHandler = new DataTableExporter(dt);
-    Workbook wb = CSVTest.LoadAsCsv("row1,06/18/2023,1234.5\nrow2,07/25/2023,5678.9", opts);
-    Assert.AreEqual(2, dt.Rows.Count, "Total rows of data");
-    Assert.AreEqual("row1", dt.Rows[0][0]);
-    Assert.AreEqual("row2", dt.Rows[1][0]);
-    Assert.AreEqual("18/06/2023", ((DateTime)dt.Rows[0][1]).ToString("dd/MM/yyyy"));
-    Assert.AreEqual("25/07/2023", ((DateTime)dt.Rows[1][1]).ToString("dd/MM/yyyy"));
-    Assert.AreEqual(1236.5, dt.Rows[0][2]);
-    Assert.AreEqual(5680.9, dt.Rows[1][2]);
+    public class LoadOptionsPropertyLightCellsDataHandlerDemo
+    {
+        public static void Run()
+        {
+            // Create a custom LightCellsDataHandler to process cells data
+            var dataHandler = new CustomLightCellsDataHandler();
+            
+            // Create load options and set the data handler
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.LightCellsDataHandler = dataHandler;
+
+            // Load workbook with the custom handler
+            using (Workbook workbook = new Workbook("sample.xlsx", loadOptions))
+            {
+                Console.WriteLine("Workbook processed successfully with LightCellsDataHandler");
+            }
+        }
+    }
+
+    public class CustomLightCellsDataHandler : LightCellsDataHandler
+    {
+        public bool StartSheet(Worksheet sheet)
+        {
+            Console.WriteLine($"Processing sheet: {sheet.Name}");
+            return true; // Continue processing this sheet
+        }
+
+        public bool StartRow(int rowIndex)
+        {
+            Console.WriteLine($"  Starting row: {rowIndex}");
+            return true; // Continue processing this row
+        }
+
+        public bool ProcessRow(Row row)
+        {
+            // You can process row data here if needed
+            return true;
+        }
+
+        public bool StartCell(int columnIndex)
+        {
+            Console.WriteLine($"    Starting cell at column: {columnIndex}");
+            return true; // Continue processing this cell
+        }
+
+        public bool ProcessCell(Cell cell)
+        {
+            Console.WriteLine($"      Cell[{cell.Row},{cell.Column}]: {cell.Value}");
+            return true;
+        }
+    }
 }
 ```
 

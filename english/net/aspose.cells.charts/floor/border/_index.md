@@ -16,23 +16,53 @@ public Line Border { get; set; }
 ### Examples
 
 ```csharp
-// Called: LineTest.equals(floorSrc.Border, floorDest.Border, info + ".Border");
-public static void Floor_Property_Border(Floor floorSrc, Floor floorDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FloorPropertyBorderDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(floorSrc, floorDest, info))
-            {
-                return;
-            }
-            LineTest.Floor_Property_Border(floorSrc.Border, floorDest.Border, info + ".Border");            
-            AssertHelper.AreEqual(floorSrc.Formatting, floorDest.Formatting, info + ".Formatting");
-            if (floorSrc.Formatting == FormattingType.Custom)
-            {
-                FillFormatTest.Floor_Property_Border(floorSrc.FillFormat, floorDest.FillFormat, info + ".FillFormat");
-                AssertHelper.Floor_Property_Border(floorSrc.ForegroundColor, floorDest.ForegroundColor, info + ".ForegroundColor");
-                AssertHelper.Floor_Property_Border(floorSrc.BackgroundColor, floorDest.BackgroundColor, info + ".BackgroundColor");
-            }
-            AssertHelper.AreEqual(floorSrc.InvertIfNegative, floorDest.InvertIfNegative, info + ".InvertIfNegative");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a 3D column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Get the floor of the chart
+            Floor floor = chart.Floor;
+
+            // Set border properties by modifying existing border rather than creating new one
+            floor.Border.Color = Color.Red;
+            floor.Border.Weight = WeightType.MediumLine;
+            floor.Border.DashType = MsoLineDashStyle.DashDot;
+            floor.Border.IsVisible = true;
+            floor.Border.Transparency = 0.5;
+
+            // Save the workbook
+            workbook.Save("FloorBorderDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

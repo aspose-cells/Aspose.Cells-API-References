@@ -16,35 +16,47 @@ public int Order { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(tlSrc.Order, tlDest.Order, info + ".Order");
-public static void Trendline_Property_Order(Trendline tlSrc, Trendline tlDest, string info)
-        {
-            if (AssertHelper.checkNull(tlSrc, tlDest, info))
-            {
-                return;
-            }
-            bool isvSrc = tlSrc.IsVisible;
-            bool isvDest = tlDest.IsVisible;
-            AssertHelper.AreEqual(isvSrc, isvDest, info + ".IsVisible");
-            if (isvSrc && isvDest)
-            {
-                AssertHelper.AreEqual(tlSrc.Name, tlDest.Name, info + ".Name");
-                AssertHelper.AreEqual(tlSrc.Type, tlDest.Type, info + ".Type");
-                AssertHelper.AreEqual(tlSrc.Backward, tlDest.Backward, info + ".Backward");
-                AssertHelper.Trendline_Property_Order(tlSrc.Color, tlDest.Color, info + ".Color");
-                DataLabelsTest.Trendline_Property_Order(tlSrc.DataLabels, tlDest.DataLabels, info + ".DataLabels");
-                AssertHelper.AreEqual(tlSrc.DisplayEquation, tlDest.DisplayEquation, info + ".DisplayEquation");
-                AssertHelper.AreEqual(tlSrc.DisplayRSquared, tlDest.DisplayRSquared, info + ".DisplayRSquared");
-                AssertHelper.AreEqual(tlSrc.Forward, tlDest.Forward, delta, info + ".Forward");
-                AssertHelper.AreEqual(tlSrc.Intercept, tlDest.Intercept, delta, info + ".Intercept");
-                AssertHelper.AreEqual(tlSrc.IsNameAuto, tlDest.IsNameAuto, info + ".IsNameAuto");
-                AssertHelper.AreEqual(tlSrc.Order, tlDest.Order, info + ".Order");
-                AssertHelper.AreEqual(tlSrc.Period, tlDest.Period, info + ".Period");
-                AssertHelper.AreEqual(tlSrc.Style, tlDest.Style, info + ".Style");
-                AssertHelper.AreEqual(tlSrc.Weight, tlDest.Weight, info + ".Weight");
-            }
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
+namespace AsposeCellsExamples
+{
+    public class TrendlinePropertyOrderDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(5);
+            worksheet.Cells["B3"].PutValue(6);
+
+            int chartIndex = worksheet.Charts.Add(ChartType.Scatter, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries.CategoryData = "B1:B3";
+
+            Series series = chart.NSeries[0];
+            int trendlineIndex = series.TrendLines.Add(TrendlineType.Polynomial);
+            Trendline trendline = series.TrendLines[trendlineIndex];
+            trendline.Order = 3;
+
+            workbook.Save("TrendlineOrderDemo.xlsx");
+
+            Workbook loadedWorkbook = new Workbook("TrendlineOrderDemo.xlsx");
+            Chart loadedChart = loadedWorkbook.Worksheets[0].Charts[0];
+            Trendline loadedTrendline = loadedChart.NSeries[0].TrendLines[0];
+            
+            Console.WriteLine("Trendline Order: " + loadedTrendline.Order);
         }
+    }
+}
 ```
 
 ### See Also

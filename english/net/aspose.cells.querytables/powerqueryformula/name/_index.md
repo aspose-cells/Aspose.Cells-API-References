@@ -16,27 +16,43 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(f.Name);
-public void PowerQueryFormula_Property_Name()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
-    foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
-    {
-        Console.WriteLine(f.Name);
-        foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
-        {
-            //if (item.Name == "Source")
-            //{
-            Console.WriteLine("Original Source: " + item.Value);
-            item.Value = item.Value.Replace(@"Central", @"OLIVER");
-            Console.WriteLine("New Source: " + item.Value);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
 
-            //}
+namespace AsposeCellsExamples
+{
+    public class PowerQueryFormulaPropertyNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Load an existing file with Power Query formulas
+            workbook = new Workbook("example.xlsx");
+            
+            // Access existing Power Query formulas
+            if (workbook.DataMashup.PowerQueryFormulas.Count > 0)
+            {
+                PowerQueryFormula formula = workbook.DataMashup.PowerQueryFormulas[0];
+                
+                // Demonstrate Name property usage
+                Console.WriteLine("Original Power Query Formula Name: " + formula.Name);
+                
+                // Change the name
+                formula.Name = "UpdatedSalesFilter";
+                Console.WriteLine("Updated Power Query Formula Name: " + formula.Name);
+                
+                // Save the workbook
+                workbook.Save("PowerQueryFormulaDemo.xlsx");
+            }
+            else
+            {
+                Console.WriteLine("No Power Query formulas found in the workbook.");
+            }
         }
     }
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Util.SaveForViewer(workbook, "13", "example.xls");
 }
 ```
 

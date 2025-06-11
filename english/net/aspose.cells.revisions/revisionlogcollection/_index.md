@@ -58,40 +58,45 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 ### Examples
 
 ```csharp
-// Called: RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-public void Revisions_Type_RevisionLogCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
-    RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-    Assert.AreEqual(3, rlc.Count, "Revision logs count");
-    int matched = 0;
-    foreach (RevisionLog log in rlc)
+    public class RevisionsClassRevisionLogCollectionDemo
     {
-        RevisionCollection rvs = log.Revisions;
-        foreach (Revision rv in rvs)
+        public static void Run()
         {
-            if (rv.Type == RevisionType.ChangeCells)
+            Workbook wb = new Workbook("example.xlsx");
+            
+            if (!wb.HasRevisions)
             {
-                RevisionCellChange rcc = (RevisionCellChange)rv;
-                string fml = rcc.OldFormula;
-                if (fml != null)
+                Console.WriteLine("Workbook has no revisions");
+                return;
+            }
+
+            RevisionLogCollection revisionLogs = wb.Worksheets.RevisionLogs;
+            Console.WriteLine($"Found {revisionLogs.Count} revision logs");
+
+            foreach (RevisionLog log in revisionLogs)
+            {
+                foreach (Revision revision in log.Revisions)
                 {
-                    if (rcc.Row == 0)
+                    if (revision.Type == RevisionType.ChangeCells)
                     {
-                        Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
-                        matched++;
-                    }
-                    else if (rcc.Row == 1)
-                    {
-                        Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
-                        matched++;
+                        RevisionCellChange cellChange = (RevisionCellChange)revision;
+                        Console.WriteLine($"Cell change at {cellChange.CellName} (Row {cellChange.Row})");
+                        
+                        if (cellChange.OldFormula != null)
+                        {
+                            Console.WriteLine($"Old formula: {cellChange.OldFormula}");
+                        }
                     }
                 }
             }
         }
     }
-    Assert.AreEqual(2, matched, "Changed formula count");
 }
 ```
 

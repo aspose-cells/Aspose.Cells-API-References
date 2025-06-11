@@ -20,36 +20,44 @@ For some special requirements, such as when calculating custom function in user'
 ### Examples
 
 ```csharp
-// Called: CustomFunctionDefinition = customFunctionDefinition
-public static void FormulaParseOptions_Property_CustomFunctionDefinition()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FormulaParseOptionsPropertyCustomFunctionDefinitionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Create a new CustomFunctionDefinition instance
-            CustomFunctionDefinition customFunctionDefinition = new CustomFunctionDefinition();
-
-            // Create a new FormulaParseOptions instance and set the CustomFunctionDefinition
-            FormulaParseOptions formulaParseOptions = new FormulaParseOptions
-            {
-                CustomFunctionDefinition = customFunctionDefinition
-            };
-
-            // Add a worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Define a custom formula
-            string customFormula = "=MY_CUSTOM_FUNCTION(A1, B1)";
+            // Create custom function definition
+            CustomFunctionDefinition customFunction = new CustomFunctionDefinition();
+            
+            // Set up formula parse options with custom function
+            FormulaParseOptions options = new FormulaParseOptions
+            {
+                CustomFunctionDefinition = customFunction,
+                Parse = true
+            };
 
-            // Parse the custom formula using the FormulaParseOptions
-            worksheet.Cells["C1"].Formula = customFormula;
-            worksheet.Cells["C1"].SetFormula(customFormula, formulaParseOptions);
+            // Set sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["B1"].PutValue(20);
 
-            // Save the workbook
-            workbook.Save("CustomFunctionDefinitionExample.xlsx");
-            workbook.Save("CustomFunctionDefinitionExample.pdf");
-            return;
+            // Use custom function in formula
+            string formula = "=MY_CUSTOM_FUNCTION(A1, B1)";
+            worksheet.Cells["C1"].SetFormula(formula, options);
+
+            // Calculate workbook to demonstrate custom function processing
+            workbook.CalculateFormula();
+
+            // Save result
+            workbook.Save("CustomFunctionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

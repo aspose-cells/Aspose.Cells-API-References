@@ -16,13 +16,39 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null, true);
-public void MsoFillFormat_Property_ImageData()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null, true);
+    public class MsoFillFormatPropertyImageDataDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            Shape shape = sheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            MsoFillFormat fillFormat = shape.FillFormat;
+
+            byte[] imageData = new byte[]
+            {
+                0x42, 0x4D, 0x3A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0x00, 0x00,
+                0x28, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x18, 0x00,
+                0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+                0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x00
+            };
+
+            fillFormat.ImageData = imageData;
+            workbook.Save("output.ods");
+
+            Workbook reloadedWorkbook = new Workbook("output.ods");
+            Console.WriteLine(reloadedWorkbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null 
+                ? "ImageData exists" 
+                : "ImageData missing");
+        }
+    }
 }
 ```
 

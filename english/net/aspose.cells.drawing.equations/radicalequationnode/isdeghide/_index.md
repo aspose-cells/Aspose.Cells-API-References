@@ -16,52 +16,49 @@ public bool IsDegHide { get; set; }
 ### Examples
 
 ```csharp
-// Called: node.IsDegHide = true;
-public void RadicalEquationNode_Property_IsDegHide()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class RadicalEquationNodePropertyIsDegHideDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            TextBox textBox = worksheet.Shapes.AddEquation(0, 0, 0, 0, 200, 100);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            RadicalEquationNode radicalNode = (RadicalEquationNode)mathNode.AddChild(EquationNodeType.Radical);
+            
+            radicalNode.IsDegHide = true;
+            
+            EquationNode degNode = radicalNode.AddChild(EquationNodeType.Degree);
+            TextRunEquationNode degText = (TextRunEquationNode)degNode.AddChild(EquationNodeType.Text);
+            degText.Text = "3";
+            
+            EquationNode baseNode = radicalNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode baseText = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+            baseText.Text = "x";
 
-    RadicalEquationNode node = (RadicalEquationNode)mathNode.AddChild(EquationNodeType.Radical);
-    node.IsDegHide = true;
-    //IsDegHide = true,deg invalid,do not write to file
-    EquationNode deg = node.AddChild(EquationNodeType.Degree);
-    TextRunEquationNode tr = (TextRunEquationNode)deg.AddChild(EquationNodeType.Text);
-    tr.Text = "5";
-
-    EquationNode e = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode tr2 = (TextRunEquationNode)e.AddChild(EquationNodeType.Text);
-    tr2.Text = "a";
-
-    workbook.Save(Constants.destPath + "RadicalEquationTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "RadicalEquationTest.xlsx");
-
-    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    RadicalEquationNode node2 = (RadicalEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(true, node2.IsDegHide);
-
-    EquationComponentNode deg2 = (EquationComponentNode)node2.GetChild(0);
-    Assert.AreNotEqual(null, deg2);
-    Assert.AreEqual(EquationNodeType.Degree, deg2.EquationType);
-
-    EquationComponentNode e2 = (EquationComponentNode)node2.GetChild(1);
-    Assert.AreNotEqual(null, e2);
-    Assert.AreEqual(EquationNodeType.Base, e2.EquationType);
-
-    TextRunEquationNode TR1 = (TextRunEquationNode)deg2.GetChild(0);
-    Assert.AreEqual(null, TR1);
-
-    TextRunEquationNode TR2 = (TextRunEquationNode)e2.GetChild(0);
-    Assert.AreNotEqual(null, TR2);
-    Assert.AreEqual("a", TR2.Text);
+            workbook.Save("RadicalEquationNodePropertyIsDegHideDemo_Out.xlsx");
+            
+            Workbook reloadedWorkbook = new Workbook("RadicalEquationNodePropertyIsDegHideDemo_Out.xlsx");
+            TextBox reloadedTextBox = (TextBox)reloadedWorkbook.Worksheets[0].Shapes[0];
+            RadicalEquationNode reloadedRadical = (RadicalEquationNode)reloadedTextBox.GetEquationParagraph()
+                .GetChild(0).GetChild(0);
+                
+            Console.WriteLine("Reloaded IsDegHide: " + reloadedRadical.IsDegHide);
+            
+            // Fixed: Use GetChild(0) and null check instead of ChildCount property
+            EquationNode degreeNode = reloadedRadical.GetChild(0);
+            EquationNode firstChildOfDegree = degreeNode.GetChild(0);
+            Console.WriteLine("Degree node has child: " + (firstChildOfDegree != null));
+        }
+    }
 }
 ```
 

@@ -1,13 +1,13 @@
 ---
 title: PaginatedSaveOptions.GridlineColor
 second_title: Aspose.Cells for .NET API Reference
-description: PaginatedSaveOptions property. Gets or sets gridline colr
+description: PaginatedSaveOptions property. Gets or sets gridline color
 type: docs
 url: /net/aspose.cells/paginatedsaveoptions/gridlinecolor/
 ---
 ## PaginatedSaveOptions.GridlineColor property
 
-Gets or sets gridline colr.
+Gets or sets gridline color.
 
 ```csharp
 public Color GridlineColor { get; set; }

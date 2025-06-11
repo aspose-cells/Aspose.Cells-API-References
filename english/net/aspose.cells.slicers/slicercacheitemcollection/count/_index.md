@@ -13,6 +13,15 @@ Gets the count of the SlicerCacheItem.
 public int Count { get; }
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+
+int count = items.Count;
+```
+
 ### See Also
 
 * class [SlicerCacheItemCollection](../)

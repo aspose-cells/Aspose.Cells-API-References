@@ -16,27 +16,31 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: item.Value = item.Value.Replace("Parameter1", "\"TESTING\"");
-public void PowerQueryFormulaItem_Property_Value()
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    DataMashup mashupData = workbook.DataMashup;
-    foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
+    public class PowerQueryFormulaItemPropertyValueDemo
     {
-        foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+        public static void Run()
         {
-            //TestPowerRefresh2
-            if (item.Name == "Source")
+            Workbook workbook = new Workbook("source.xlsx");
+            
+            foreach (PowerQueryFormula formula in workbook.DataMashup.PowerQueryFormulas)
             {
-                item.Value = item.Value.Replace("Parameter1", "\"TESTING\"");
+                foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+                {
+                    if (item.Name == "Source")
+                    {
+                        item.Value = item.Value.Replace("Parameter1", "\"TESTING\"");
+                    }
+                }
             }
+            
+            workbook.Save("output.xlsx");
         }
     }
-    //TestPowerRefresh
-    //workbook.Worksheets[0].PivotTables[0].RefreshData();
-
-    // Save the output workbookCellsNet47435
-    workbook.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

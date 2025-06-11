@@ -16,38 +16,42 @@ public bool ShowColumnHeads { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, control.ShowColumnHeads);
-private void ListBoxActiveXControl_Property_ShowColumnHeads(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ListBoxActiveXControlPropertyShowColumnHeadsDemo
+    {
+        public static void Run()
         {
-            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ListBox, control.Type);
-           // Assert.AreEqual(0, control.MaxLength);
-            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(SelectionType.Single, control.SelectionType);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(true, control.IntegralHeight);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(67.4929133858268, control.Width);
-            //Assert.AreEqual(21.7417322834646, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ListBox ActiveX Control with all required parameters
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.ListBox, 
+                1, 1, 100, 100,  // Left, Top, Width, Height
+                0, 0);           // UpperLeftRow, UpperLeftColumn
+
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ListBox
+            listBox.ColumnCount = 2;
+            listBox.ListWidth = 150;
+            listBox.ShowColumnHeads = true; // Demonstrate ShowColumnHeads property
+
+            // Add some sample data
+            listBox.Value = "Header1\tHeader2\nItem1\tData1\nItem2\tData2";
+
+            // Save the workbook
+            workbook.Save("ListBoxActiveXControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
