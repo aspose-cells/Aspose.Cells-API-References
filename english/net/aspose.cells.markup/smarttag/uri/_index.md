@@ -13,6 +13,55 @@ Gets the namespace URI of the smart tag.
 public string Uri { get; }
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Markup;
+    using System;
+
+    public class SmartTagPropertyUriDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            try
+            {
+                // Create a smart tag property collection
+                SmartTagPropertyCollection properties = new SmartTagPropertyCollection();
+                
+                // Create a smart tag instance (using reflection since constructor isn't public)
+                Type smartTagType = typeof(SmartTag);
+                SmartTag smartTag = (SmartTag)Activator.CreateInstance(smartTagType, nonPublic: true);
+                
+                // Set properties using available methods
+                smartTag.SetLink("http://example.com/smarttags", "SampleSmartTag");
+                
+                // Display the Uri property value (read-only operation)
+                Console.WriteLine("SmartTag Uri: " + smartTag.Uri);
+                
+                // Demonstrate other properties
+                Console.WriteLine("SmartTag Name: " + smartTag.Name);
+                
+                // Save the workbook
+                workbook.Save("SmartTagUriDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SmartTag](../)

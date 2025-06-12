@@ -56,9 +56,7 @@ public class LegendEntryCollection : CollectionBase<LegendEntry>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

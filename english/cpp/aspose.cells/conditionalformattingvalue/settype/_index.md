@@ -4,7 +4,7 @@ linktitle: SetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConditionalFormattingValue::SetType method. Get or set the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells/conditionalformattingvalue/settype/
 ---
 ## ConditionalFormattingValue::SetType method

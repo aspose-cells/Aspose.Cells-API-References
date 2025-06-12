@@ -20,10 +20,17 @@ Only for Xlsx file.
 ### Examples
 
 ```csharp
-// Called: chartFrame.IsInnerMode = false;
-public static void ChartFrame_Property_IsInnerMode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ChartFramePropertyIsInnerModeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
@@ -37,49 +44,25 @@ public static void ChartFrame_Property_IsInnerMode()
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Add series to the chart
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
 
-            // Access the chart frame
-            ChartFrame chartFrame = chart.ChartArea;
+            // Access chart frame and demonstrate IsInnerMode
+            Aspose.Cells.Charts.ChartFrame chartFrame = chart.ChartArea;
+            chartFrame.IsInnerMode = true; // Set to use inner mode
+            
+            // Set some basic properties to show the effect
+            chartFrame.Border.Color = Color.Blue;
+            chartFrame.Border.Style = Aspose.Cells.Drawing.LineType.Solid;
+            chartFrame.Area.ForegroundColor = Color.LightYellow;
 
-            // Set properties of the chart frame
-            chartFrame.IsInnerMode = false;
-            chartFrame.AutoScaleFont = true;
-            chartFrame.BackgroundMode = BackgroundMode.Transparent;
-            chartFrame.IsAutomaticSize = true;
-            chartFrame.X = 1000; // 1/4000 of the chart area
-            chartFrame.Y = 1000; // 1/4000 of the chart area
-            chartFrame.Width = 3000; // 1/4000 of the chart area
-            chartFrame.Height = 2000; // 1/4000 of the chart area
-            chartFrame.Shadow = true;
-
-            // Access and modify the border of the chart frame
-            Line border = chartFrame.Border;
-            border.Color = Color.Red;
-            border.Style = LineType.Solid;
-
-            // Access and modify the area of the chart frame
-            Area area = chartFrame.Area;
-            area.ForegroundColor = Color.Yellow;
-            area.BackgroundColor = Color.Blue;
-
-            // Access and modify the font of the chart frame
-            Aspose.Cells.Font font = chartFrame.TextFont;
-            font.Name = "Arial";
-            font.Size = 12;
-            font.IsBold = true;
-            font.Color = Color.Green;
-
-            // Save the workbook
-            workbook.Save("ChartFrameExample.xlsx");
-            workbook.Save("ChartFrameExample.pdf");
+            workbook.Save("ChartFrameIsInnerModeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

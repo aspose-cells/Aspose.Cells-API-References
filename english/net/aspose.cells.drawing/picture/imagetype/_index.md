@@ -16,26 +16,30 @@ public ImageType ImageType { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//insert first picture
-int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
-//Get the inserted picture object
-Picture pic1 = worksheet.Pictures[imgIndex1];
-if(pic1.ImageType == Aspose.Cells.Drawing.ImageType.Png)
+namespace AsposeCellsExamples
 {
-    //The picture's type is png.";
-}
-//insert second picture
-int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
-//Get the inserted picture object
-Picture pic2 = worksheet.Pictures[imgIndex2];
-if(pic2.ImageType == Aspose.Cells.Drawing.ImageType.Jpeg)
-{
-    //The picture's type is jpg.";
+    public class PicturePropertyImageTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Insert first picture (PNG)
+            int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
+            Picture pic1 = worksheet.Pictures[imgIndex1];
+            Console.WriteLine("Picture 1 is of type: " + pic1.ImageType);
+
+            // Insert second picture (JPEG)
+            int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
+            Picture pic2 = worksheet.Pictures[imgIndex2];
+            Console.WriteLine("Picture 2 is of type: " + pic2.ImageType);
+        }
+    }
 }
 ```
 

@@ -16,22 +16,38 @@ public bool EnableIterativeCalculation { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-public void FormulaSettings_Property_EnableIterativeCalculation()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-    workbook.Settings.FormulaSettings.MaxIteration = 100;
-    workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
-    workbook.CalculateFormula();
-    Assert.AreEqual(6069.76062, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_1");
+using System;
+using Aspose.Cells;
 
-    workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-    workbook.Settings.FormulaSettings.MaxIteration = 100;
-    workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
-    workbook.CalculateFormula();
-    Assert.AreEqual(6139.36894, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_2");
+namespace AsposeCellsExamples
+{
+    public class FormulaSettingsPropertyEnableIterativeCalculationDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set up circular reference for demonstration
+            worksheet.Cells["A1"].Formula = "=B1+1";
+            worksheet.Cells["B1"].Formula = "=A1+1";
+            
+            // Enable iterative calculation with max iterations
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 100;
+            workbook.Settings.FormulaSettings.MaxChange = 0.001;
+            
+            // Calculate formulas
+            workbook.CalculateFormula();
+            
+            // Output results
+            Console.WriteLine("A1 value after calculation: " + worksheet.Cells["A1"].DoubleValue);
+            Console.WriteLine("B1 value after calculation: " + worksheet.Cells["B1"].DoubleValue);
+        }
+    }
 }
 ```
 

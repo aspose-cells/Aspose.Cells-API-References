@@ -27,24 +27,45 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 ### Examples
 
 ```csharp
-[C#]
-Workbook wb = new Workbook("template.xlsx");
-InsertOptions options = new InsertOptions();
-options.FormulaChangeMonitor = new MyFormulaChangeMonitor(wb.Worksheets);
-wb.Worksheets[0].Cells.InsertRows(0, 2, options);
+using System;
+using Aspose.Cells;
 
-class MyFormulaChangeMonitor : AbstractFormulaChangeMonitor
+namespace AsposeCellsExamples
 {
-    private readonly WorksheetCollection mWorksheets;
-    public MyFormulaChangeMonitor(WorksheetCollection worksheets)
+    public class CellsClassAbstractFormulaChangeMonitorDemo
     {
-        mWorksheets = worksheets;
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet worksheet = wb.Worksheets[0];
+            
+            // Set some formulas in cells
+            worksheet.Cells["A1"].Formula = "=B1+C1";
+            worksheet.Cells["B1"].Formula = "=D1*2";
+            worksheet.Cells["C1"].Value = 5;
+            worksheet.Cells["D1"].Value = 10;
+
+            InsertOptions options = new InsertOptions();
+            options.FormulaChangeMonitor = new MyFormulaChangeMonitor(wb.Worksheets);
+            
+            // Insert rows which will trigger formula changes
+            worksheet.Cells.InsertRows(0, 2, options);
+        }
     }
-    public override void OnCellFormulaChanged(int sheetIndex, int rowIndex, int columnIndex)
+
+    public class MyFormulaChangeMonitor : AbstractFormulaChangeMonitor
     {
-        Console.WriteLine("Cell " + mWorksheets[sheetIndex].Name + "!"
-            + CellsHelper.CellIndexToName(rowIndex, columnIndex)
-            + "'s formula was changed while inserting rows.");
+        private readonly WorksheetCollection mWorksheets;
+        
+        public MyFormulaChangeMonitor(WorksheetCollection worksheets)
+        {
+            mWorksheets = worksheets;
+        }
+
+        public override void OnCellFormulaChanged(int sheetIndex, int rowIndex, int columnIndex)
+        {
+            Console.WriteLine($"Formula changed in {mWorksheets[sheetIndex].Name}!{CellsHelper.CellIndexToName(rowIndex, columnIndex)}");
+        }
     }
 }
 ```

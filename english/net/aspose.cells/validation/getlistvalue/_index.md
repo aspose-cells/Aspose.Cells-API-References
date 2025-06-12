@@ -29,34 +29,53 @@ Only for validation whose type is List and has been applied to given cell, other
 ### Examples
 
 ```csharp
-// Called: object v = vldt.GetListValue(i, 2);
-public void Validation_Method_GetListValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Validation vldt = wb.Worksheets[0].Cells["C9"].GetValidation();
-    string[] expected = new string[]
+    public class ValidationMethodGetListValueWithInt32Int32Demo
     {
-        null, "Sheet3!$G$5:$G$110", "Sheet3!$G$31:$G$110", "Sheet3!$G$26:$G$110", "Sheet3!$G$2:$G$110",
-        "Sheet3!$G$91:$G$110", "Sheet3!$G$32:$G$110", "Sheet3!$G$54:$G$110", "Sheet3!$G$75:$G$110",
-        "Sheet3!$G$36:$G$110", "Sheet3!$G$109:$G$110", "Sheet3!$G$18:$G$110", "Sheet3!$G$30:$G$110", null
-    };
-    for (int i = 6; i < 20; i++)
-    {
-        object v = vldt.GetListValue(i, 2);
-        Assert.AreEqual(expected[i - 6], v == null ? null : ((ReferredArea)v).ToString(), "C" + (i + 1));
-    }
-    vldt.Formula1 = "abc,def";
-    for (int i = 7; i < 18; i++)
-    {
-        object[] v = (object[])vldt.GetListValue(i, 2);
-        Assert.AreEqual("abc", v[0], "C" + (i + 1) + ".[0]");
-        Assert.AreEqual("def", v[1], "C" + (i + 1) + ".[1]");
-    }
-    vldt.Formula1 = "abc";
-    for (int i = 7; i < 18; i++)
-    {
-        object v = vldt.GetListValue(i, 2);
-        Assert.AreEqual("abc", v, "C" + (i + 1));
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for validation
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Cherry");
+            worksheet.Cells["A4"].PutValue("Date");
+
+            // Create validation for cell B1
+            Validation validation = worksheet.Cells["B1"].GetValidation();
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "A1:A4";
+
+            // Test GetListValue with different parameters
+            Console.WriteLine("List values:");
+            for (int i = 0; i < 4; i++)
+            {
+                object value = validation.GetListValue(i, 0);
+                Console.WriteLine($"Index {i}: {value}");
+            }
+
+            // Change to comma-separated values
+            validation.Formula1 = "Red,Green,Blue";
+            Console.WriteLine("\nComma-separated values:");
+            for (int i = 0; i < 3; i++)
+            {
+                object[] values = (object[])validation.GetListValue(i, 0);
+                Console.WriteLine($"Index {i}: {string.Join(", ", values)}");
+            }
+
+            // Change to single value
+            validation.Formula1 = "SingleValue";
+            Console.WriteLine("\nSingle value:");
+            object singleValue = validation.GetListValue(0, 0);
+            Console.WriteLine($"Value: {singleValue}");
+        }
     }
 }
 ```

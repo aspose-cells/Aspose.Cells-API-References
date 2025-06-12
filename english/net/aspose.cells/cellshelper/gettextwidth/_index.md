@@ -22,11 +22,21 @@ public static double GetTextWidth(string text, Font font, double scaling)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(9.75,CellsHelper.GetTextWidth("   ", workbook.DefaultStyle.Font, 1));
-public void CellsHelper_Method_GetTextWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Assert.AreEqual(9.75,CellsHelper.GetTextWidth("   ", workbook.DefaultStyle.Font, 1));
+    public class CellsHelperMethodGetTextWidthWithStringFontDoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Font font = workbook.DefaultStyle.Font;
+            double textWidth = CellsHelper.GetTextWidth("Sample Text", font, 1.0);
+            Console.WriteLine("Text width: " + textWidth);
+        }
+    }
 }
 ```
 

@@ -20,35 +20,48 @@ This value should be between 2 and 255. And it must be less than the number of t
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(tlSrc.Period, tlDest.Period, info + ".Period");
-public static void Trendline_Property_Period(Trendline tlSrc, Trendline tlDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class TrendlinePropertyPeriodDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(tlSrc, tlDest, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("X");
+            worksheet.Cells["B1"].PutValue("Y");
+            for (int i = 2; i <= 10; i++)
             {
-                return;
-            }
-            bool isvSrc = tlSrc.IsVisible;
-            bool isvDest = tlDest.IsVisible;
-            AssertHelper.AreEqual(isvSrc, isvDest, info + ".IsVisible");
-            if (isvSrc && isvDest)
-            {
-                AssertHelper.AreEqual(tlSrc.Name, tlDest.Name, info + ".Name");
-                AssertHelper.AreEqual(tlSrc.Type, tlDest.Type, info + ".Type");
-                AssertHelper.AreEqual(tlSrc.Backward, tlDest.Backward, info + ".Backward");
-                AssertHelper.Trendline_Property_Period(tlSrc.Color, tlDest.Color, info + ".Color");
-                DataLabelsTest.Trendline_Property_Period(tlSrc.DataLabels, tlDest.DataLabels, info + ".DataLabels");
-                AssertHelper.AreEqual(tlSrc.DisplayEquation, tlDest.DisplayEquation, info + ".DisplayEquation");
-                AssertHelper.AreEqual(tlSrc.DisplayRSquared, tlDest.DisplayRSquared, info + ".DisplayRSquared");
-                AssertHelper.AreEqual(tlSrc.Forward, tlDest.Forward, delta, info + ".Forward");
-                AssertHelper.AreEqual(tlSrc.Intercept, tlDest.Intercept, delta, info + ".Intercept");
-                AssertHelper.AreEqual(tlSrc.IsNameAuto, tlDest.IsNameAuto, info + ".IsNameAuto");
-                AssertHelper.AreEqual(tlSrc.Order, tlDest.Order, info + ".Order");
-                AssertHelper.AreEqual(tlSrc.Period, tlDest.Period, info + ".Period");
-                AssertHelper.AreEqual(tlSrc.Style, tlDest.Style, info + ".Style");
-                AssertHelper.AreEqual(tlSrc.Weight, tlDest.Weight, info + ".Weight");
+                worksheet.Cells["A" + i].PutValue(i);
+                worksheet.Cells["B" + i].PutValue(i * 2);
             }
 
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series
+            chart.NSeries.Add("B2:B10", true);
+            chart.NSeries.CategoryData = "A2:A10";
+
+            // Add a moving average trendline
+            int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.MovingAverage);
+            Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
+            trendline.Period = 3; // Set period for moving average
+            trendline.Name = "3-Period Moving Average";
+
+            // Save the workbook
+            workbook.Save("TrendlinePeriodDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

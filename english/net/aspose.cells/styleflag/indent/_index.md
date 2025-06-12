@@ -16,47 +16,51 @@ public bool Indent { get; set; }
 ### Examples
 
 ```csharp
-// Called: var tcStyleFlag = new StyleFlag { Indent = true };
-public void StyleFlag_Property_Indent()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47178/";
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook();
-    Worksheet ws = wb.Worksheets[0];
-    var tcStyle = ws.Workbook.CreateStyle();
-    tcStyle.IndentLevel = 2;
-    var tcStyleFlag = new StyleFlag { Indent = true };
-    // Add some data
-    for (int r = 0; r < 4; r++)
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyIndentDemo
     {
-        for (int c = 0; c < 4; c++)
+        public static void Run()
         {
-            if (r == 0)
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a style with indent level
+            Style style = workbook.CreateStyle();
+            style.IndentLevel = 2;
+            style.HorizontalAlignment = TextAlignmentType.Left;
+
+            // Create style flag with Indent property set
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.Indent = true;
+
+            // Apply data to cells
+            for (int row = 0; row < 5; row++)
             {
-                var cellValue = string.Format("Column {0}", c);
-                ws.Cells[r, c].PutValue(cellValue);
+                for (int col = 0; col < 5; col++)
+                {
+                    worksheet.Cells[row, col].PutValue($"Cell {row},{col}");
+                }
             }
-            else
-            {
-                var cellValue = r + c;
-                ws.Cells[r, c].PutValue(cellValue);
-            }
+
+            // Apply the style with indent to a range
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 0, 5, 5);
+            range.ApplyStyle(style, styleFlag);
+
+            // Verify the style was applied
+            Cell cell = worksheet.Cells["A1"];
+            Style appliedStyle = cell.GetStyle();
+            Console.WriteLine($"Indent Level: {appliedStyle.IndentLevel}");
+            Console.WriteLine($"Alignment: {appliedStyle.HorizontalAlignment}");
+
+            // Save the workbook
+            workbook.Save("IndentStyleDemo.xlsx", SaveFormat.Xlsx);
         }
     }
-    var range = ws.Cells.CreateRange(1, 0, 3, 4);
-    var index = ws.ListObjects.Add(range.FirstRow - 1, range.FirstColumn, range.FirstRow + 3, range.FirstColumn + 3, true);
-    ws.ListObjects[index].TableStyleType = TableStyleType.TableStyleLight16;
-    range.ApplyStyle(tcStyle, tcStyleFlag);
-
-    Style a2Style = wb.Worksheets[0].Cells["A2"].GetStyle();
-    Assert.AreEqual(a2Style.IndentLevel, 2);
-    Assert.AreEqual(a2Style.HorizontalAlignment, TextAlignmentType.Left);
-
-    string savePath = CreateFolder(filePath);
-    XlsSaveOptions saveOptions = new XlsSaveOptions();
-    wb.Save(savePath + "out.xls", saveOptions);
-    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-    wb.Save(savePath + "out.html", htmlSaveOptions);
 }
 ```
 

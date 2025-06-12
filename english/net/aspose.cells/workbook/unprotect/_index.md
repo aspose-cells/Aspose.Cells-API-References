@@ -20,13 +20,26 @@ public void Unprotect(string password)
 ### Examples
 
 ```csharp
-// Called: workbook.Unprotect("book"); // Correct password is "book"
-public void Workbook_Method_Unprotect()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions lo = new LoadOptions() { Password = "excel" };
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", lo);
-    workbook.Unprotect("book"); // Correct password is "book"
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorkbookMethodUnprotectWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with protection
+            Workbook workbook = new Workbook();
+            workbook.Protect(ProtectionType.All, "book");
+
+            // Unprotect the workbook with correct password
+            workbook.Unprotect("book");
+
+            // Save the unprotected workbook
+            workbook.Save("unprotected_workbook.xlsx");
+        }
+    }
 }
 ```
 

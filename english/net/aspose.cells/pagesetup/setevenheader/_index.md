@@ -21,36 +21,31 @@ public void SetEvenHeader(int section, string headerScript)
 ### Examples
 
 ```csharp
-// Called: setup.SetEvenHeader(1, "EvenHeader");
-public void PageSetup_Method_SetEvenHeader()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-    setup.SetFirstPageFooter(0, "FirstPageFooter");
-    setup.IsHFDiffFirst = true;
-    setup.IsHFDiffOddEven = true;
-    setup.SetEvenHeader(1, "EvenHeader");
-    setup.SetEvenFooter(2, "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xlsx");
-    workbook = new Workbook(Constants.destPath + "dest.xlsx");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xlsb");
-    workbook = new Workbook(Constants.destPath + "dest.xlsb");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xls");
-    workbook = new Workbook(Constants.destPath + "dest.xls");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.IsTrue(setup.IsHFDiffFirst);
-    Assert.IsTrue(setup.IsHFDiffOddEven);
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+    public class PageSetupMethodSetEvenHeaderWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Enable different headers/footers for odd and even pages
+            pageSetup.IsHFDiffOddEven = true;
+
+            // Set even page header with section index and text
+            pageSetup.SetEvenHeader(1, "Even Page Header - Center Section");
+            pageSetup.SetEvenHeader(0, "Even Page Header - Left Section");
+            pageSetup.SetEvenHeader(2, "Even Page Header - Right Section");
+
+            // Save the workbook
+            workbook.Save("PageSetup_SetEvenHeaderExample.xlsx");
+        }
+    }
 }
 ```
 

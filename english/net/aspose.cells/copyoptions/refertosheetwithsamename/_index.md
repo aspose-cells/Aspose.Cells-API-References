@@ -20,28 +20,44 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: options.ReferToSheetWithSameName = true;
-public void CopyOptions_Property_ReferToSheetWithSameName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string templetePath = Constants.sourcePath + "example.xlsx";
-    Workbook templeteWorkbook = new Aspose.Cells.Workbook(templetePath);
-    Workbook outputWorkbook = new Aspose.Cells.Workbook();
-
-    for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
+    public class CopyOptionsPropertyReferToSheetWithSameNameDemo
     {
-        outputWorkbook.Worksheets.Add(templeteWorkbook.Worksheets[i].Name);
-    }
-    for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
-    {
-        Aspose.Cells.CopyOptions options = new Aspose.Cells.CopyOptions();
-        options.ReferToSheetWithSameName = true;
-        outputWorkbook.Worksheets[templeteWorkbook.Worksheets[i].Name].Copy(templeteWorkbook.Worksheets[i]);
-    }
+        public static void Run()
+        {
+            // Create a template workbook with sample data
+            Workbook templateWorkbook = new Workbook();
+            Worksheet templateSheet1 = templateWorkbook.Worksheets[0];
+            templateSheet1.Name = "Data";
+            templateSheet1.Cells["A1"].PutValue("Value");
+            templateSheet1.Cells["A2"].PutValue(10);
+            templateSheet1.Cells["A3"].PutValue(20);
+            
+            Worksheet templateSheet2 = templateWorkbook.Worksheets.Add("Summary");
+            templateSheet2.Cells["B2"].Formula = "=SUM(Data!A2:A3)";
 
-    outputWorkbook.Worksheets.RemoveAt(0);
-    outputWorkbook.Worksheets.RemoveAt("Start");
-    outputWorkbook.Worksheets.RemoveAt("End");
-    Assert.AreEqual("=SUM(Detail!B3)", outputWorkbook.Worksheets[0].Cells["B3"].Formula);
+            // Create output workbook
+            Workbook outputWorkbook = new Workbook();
+            outputWorkbook.Worksheets.Clear();
+
+            // Copy worksheets with ReferToSheetWithSameName enabled
+            foreach (Worksheet sheet in templateWorkbook.Worksheets)
+            {
+                outputWorkbook.Worksheets.Add(sheet.Name);
+                CopyOptions options = new CopyOptions();
+                options.ReferToSheetWithSameName = true;
+                outputWorkbook.Worksheets[sheet.Name].Copy(sheet, options);
+            }
+
+            // Verify the formula references the correct sheet
+            Console.WriteLine("Formula in output workbook: " + 
+                outputWorkbook.Worksheets["Summary"].Cells["B2"].Formula);
+        }
+    }
 }
 ```
 

@@ -16,13 +16,33 @@ public void AutoFitColumns()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AutoFitColumns();
-public void Worksheet_Method_AutoFitColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    workbook.Worksheets[0].AutoFitColumns();
-    int w = workbook.Worksheets[0].Cells.GetColumnWidthPixel(0);
-    Assert.IsTrue(w == 61 || w == 63 || w == 56);
+    public class WorksheetMethodAutoFitColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("This is a test string");
+            worksheet.Cells["B1"].PutValue("Another longer test string for demonstration");
+            worksheet.Cells["C1"].PutValue("Short");
+            
+            // Auto-fit all columns in the worksheet
+            worksheet.AutoFitColumns();
+            
+            // Save the workbook
+            workbook.Save("AutoFitColumnsDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -49,23 +69,37 @@ public void AutoFitColumns(AutoFitterOptions options)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[1].AutoFitColumns(options);
-public void Worksheet_Method_AutoFitColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    AutoFitterOptions options = new AutoFitterOptions();
-    //   options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
-    workbook.Worksheets[1].AutoFitColumns(options);
-    Cells cells = workbook.Worksheets[1].Cells;
-
-    int w = cells.GetColumnWidthPixel(14 + 0);
-    Assert.IsTrue(w == 48 || w==42 );
-    w = cells.GetColumnWidthPixel(14 + 1);
-    Assert.IsTrue(w == 27 || w == 29);
-    w = cells.GetColumnWidthPixel(14 + 2);
-    Assert.IsTrue(w == 41 || w == 36);
-    workbook.Save(Constants.destPath  + "example.xlsx");
-
+    public class WorksheetMethodAutoFitColumnsWithAutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Sample Text for AutoFit");
+            worksheet.Cells["B1"].PutValue("Longer Sample Text for Testing AutoFitColumns");
+            worksheet.Cells["C1"].PutValue(12345.6789);
+            
+            // Create auto fitter options
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+            
+            // Auto fit columns with options
+            worksheet.AutoFitColumns(options);
+            
+            // Save the workbook
+            workbook.Save("AutoFitColumnsWithOptions.xlsx");
+        }
+    }
 }
 ```
 
@@ -98,18 +132,31 @@ AutoFitColumn is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFitColumns(0, 3);
-public void Worksheet_Method_AutoFitColumns()
-{
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
-    Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
+using System;
+using Aspose.Cells;
 
-    sheet.AutoFitColumns(0, 3);
-    Assert.AreEqual(79, sheet.Cells.GetColumnWidthPixel(0));
-    Assert.AreEqual(184, sheet.Cells.GetColumnWidthPixel(1));
-    Assert.AreEqual(100, sheet.Cells.GetColumnWidthPixel(2));
-    Assert.AreEqual(1822, sheet.Cells.GetColumnWidthPixel(3));
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data to demonstrate autofit
+            sheet.Cells["A1"].PutValue("Short");
+            sheet.Cells["B1"].PutValue("Medium length text");
+            sheet.Cells["C1"].PutValue("Very very long text that needs column width adjustment");
+            sheet.Cells["D1"].PutValue("Another example with different length");
+
+            // AutoFit columns from index 0 to 3
+            sheet.AutoFitColumns(0, 3);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -138,6 +185,57 @@ public void AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions op
 ### Remarks
 
 AutoFitColumn is an imprecise function.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32AutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Short text");
+            worksheet.Cells["B1"].PutValue("This is a much longer text that needs column autofitting");
+            worksheet.Cells["C1"].PutValue("Another example with different length");
+
+            // Create AutoFitterOptions with specific settings
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // Call AutoFitColumns with parameters (firstColumn, lastColumn, options)
+                worksheet.AutoFitColumns(0, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, AutoFitterOptions)");
+                
+                // Display the effect by showing column widths
+                Console.WriteLine($"Column A width: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -170,13 +268,29 @@ AutoFitColumn is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFitColumns(18, 3, 78, 52);
-public void Worksheet_Method_AutoFitColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFitColumns(18, 3, 78, 52);
-    Assert.AreEqual(64,worksheet.Cells.GetColumnWidthPixel(3));
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some data for demonstration
+            worksheet.Cells["A1"].PutValue("Short");
+            worksheet.Cells["B1"].PutValue("Medium length text");
+            worksheet.Cells["C1"].PutValue("Very very long text that needs more column width");
+            
+            // AutoFit columns from column 0 (A) to column 2 (C), with first row 0 and last row 0
+            worksheet.AutoFitColumns(0, 2, 0, 0);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -208,6 +322,60 @@ public void AutoFitColumns(int firstRow, int firstColumn, int lastRow, int lastC
 ### Remarks
 
 AutoFitColumn is an imprecise function.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32AutoFitterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate cells with sample data that needs column width adjustment
+            worksheet.Cells["A1"].PutValue("This is a long text that needs column autofit");
+            worksheet.Cells["B1"].PutValue("Another lengthy text string for demonstration");
+            worksheet.Cells["C1"].PutValue("Short");
+            worksheet.Cells["A2"].PutValue(12345.6789);
+            worksheet.Cells["B2"].PutValue("Multi-line\ntext\nsample");
+            worksheet.Cells["C2"].PutValue(true);
+
+            // Create AutoFitterOptions with specific settings
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // Call AutoFitColumns with specific parameters (firstRow, firstColumn, lastRow, lastColumn, options)
+                worksheet.AutoFitColumns(0, 0, 1, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, Int32, Int32, AutoFitterOptions)");
+                
+                // Display column widths after autofit
+                Console.WriteLine($"Column A width after autofit: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width after autofit: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width after autofit: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: IsArray1D
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::IsArray1D method. Checks whether the object is a one-dimensional array in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells/object/isarray1d/
 ---
 ## Object::IsArray1D method

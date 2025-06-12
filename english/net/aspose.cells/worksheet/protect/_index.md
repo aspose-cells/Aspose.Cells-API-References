@@ -24,17 +24,27 @@ This method protects worksheet without password. It can protect worksheet in all
 ### Examples
 
 ```csharp
-// Called: sheet.Protect(ProtectionType.Objects);
-public void Worksheet_Method_Protect()
-{
-    using (var workbook = new Workbook(Constants.sourcePath + "example.xls"))
-    {
-        foreach (Worksheet sheet in workbook.Worksheets)
-        {
-            sheet.Protect(ProtectionType.Objects);
-        }
+using System;
+using Aspose.Cells;
 
-        workbook.Save(Constants.destPath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Protect the worksheet with Objects protection type
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Save the workbook
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
     }
 }
 ```
@@ -69,34 +79,29 @@ This method can protect worksheet in all versions of Excel file.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook excel = new Workbook("template.xlsx");
-//Accessing the first worksheet in the Excel file
-Worksheet worksheet = excel.Worksheets[0];
-//Protecting the worksheet with a password
-worksheet.Protect(ProtectionType.All, "aspose", null);
-//Saving the modified Excel file in default (that is Excel 20003) format
-excel.Save("output.xls");
-//Closing the file stream to free all resources
-
-[Visual Basic]
-
-'Creating a file stream containing the Excel file to be opened
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instantiating a Workbook object and Opening the Excel file through the file stream
-Dim excel As Workbook = New Workbook(fstream)
-'Accessing the first worksheet in the Excel file
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Protecting the worksheet with a password
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Saving the modified Excel file in default (that is Excel 20003) format
-excel.Save("output.xls")
-'Closing the file stream to free all resources
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Protect the worksheet with password and allow all protection types
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Save the workbook
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

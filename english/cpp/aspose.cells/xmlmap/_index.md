@@ -4,7 +4,7 @@ linktitle: XmlMap
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlMap class. Represents Xml map information in C++.'
 type: docs
-weight: 16900
+weight: 17300
 url: /cpp/aspose.cells/xmlmap/
 ---
 ## XmlMap class

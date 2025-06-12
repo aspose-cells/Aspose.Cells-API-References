@@ -20,47 +20,51 @@ Only works when [`RefreshData`](../refreshdata/) is true.
 ### Examples
 
 ```csharp
-// Called: ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
-public static void PivotTableCalculateOption_Property_ReserveMissingPivotItemType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableCalculateOptionPropertyReserveMissingPivotItemTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data for the pivot table
+            // Sample data
             sheet.Cells["A1"].PutValue("Category");
-            sheet.Cells["B1"].PutValue("Amount");
-            sheet.Cells["A2"].PutValue("Fruit");
-            sheet.Cells["B2"].PutValue(50);
-            sheet.Cells["A3"].PutValue("Vegetable");
-            sheet.Cells["B3"].PutValue(30);
-            sheet.Cells["A4"].PutValue("Fruit");
-            sheet.Cells["B4"].PutValue(70);
-            sheet.Cells["A5"].PutValue("Vegetable");
-            sheet.Cells["B5"].PutValue(40);
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["A4"].PutValue("A");
+            sheet.Cells["B4"].PutValue(30);
 
-            // Add a pivot table to the worksheet
-            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
             PivotTable pivotTable = sheet.PivotTables[pivotIndex];
 
-            // Configure the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+            // Configure pivot fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Create a PivotTableCalculateOption object
-            PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
+            // Set calculate options with ReserveMissingPivotItemType
+            PivotTableCalculateOption options = new PivotTableCalculateOption
             {
-                RefreshData = true,
-                RefreshCharts = true,
                 ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
             };
 
-            // Calculate the pivot table data with the specified options
-            pivotTable.CalculateData(calculateOption);
+            // Calculate with options
+            pivotTable.CalculateData(options);
 
-            // Save the workbook
-            workbook.Save("PivotTableCalculateOptionExample.xlsx");
+            // Save result
+            workbook.Save("PivotTableReserveMissingItemsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

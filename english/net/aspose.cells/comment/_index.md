@@ -50,43 +50,60 @@ public class Comment
 ### Examples
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-Workbook workbook = new Workbook();
-CommentCollection comments = workbook.Worksheets[0].Comments;
+    public class CommentDemo
+    {
+        public static void CommentExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Access the comments collection of the worksheet
+            CommentCollection comments = worksheet.Comments;
 
-//Add comment to cell A1
-int commentIndex1 = comments.Add(0, 0);
-Comment comment1 = comments[commentIndex1];
-comment1.Note = "First note.";
-comment1.Font.Name = "Times New Roman";
+            // Add a comment to cell A1
+            int commentIndex1 = comments.Add(0, 0);
+            Comment comment1 = comments[commentIndex1];
+            comment1.Note = "First note.";
+            comment1.Font.Name = "Times New Roman";
+            comment1.Font.Size = 12;
+            comment1.Font.Color = System.Drawing.Color.Red;
+            comment1.Author = "Carl.Yang";
+            comment1.HtmlNote = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+            comment1.IsVisible = true;
+            comment1.TextOrientationType = TextOrientationType.TopToBottom;
+            comment1.TextHorizontalAlignment = TextAlignmentType.Center;
+            comment1.TextVerticalAlignment = TextAlignmentType.Center;
+            comment1.AutoSize = true;
+            comment1.HeightCM = 1.0;
+            comment1.WidthCM = 1.0;
+            comment1.Width = 10;
+            comment1.Height = 10;
+            comment1.WidthInch = 1.0;
+            comment1.HeightInch = 1.0;
 
-//Add comment to cell B2
-comments.Add("B2");
-Comment comment2 = comments["B2"];
-comment2.Note = "Second note.";
+            // Access the shape of the comment
+            CommentShape shape = comment1.CommentShape;
+            int w = shape.Width;
+            int h = shape.Height;
 
-//do your business
+            // Add a comment to cell B2
+            comments.Add("B2");
+            Comment comment2 = comments["B2"];
+            comment2.Note = "Second note.";
 
-//Save the excel file.
-workbook.Save("exmaple.xlsx");
-
-[Visual Basic]
-
-Dim workbook as Workbook = new Workbook()
-Dim comments as CommentCollection = workbook.Worksheets(0).Comments
- 
-'Add comment to cell A1
-Dim commentIndex1 as Integer = comments.Add(0, 0)
-Dim comment1 as Comment = comments(commentIndex1)
-comment1.Note = "First note."
-comment1.Font.Name = "Times New Roman"
-
-'Add comment to cell B2
-comments.Add("B2")
-Dim comment2 As Comment = comments("B2")
-comment2.Note = "Second note."
- 
+            // Save the workbook
+            workbook.Save("CommentExample.xlsx");
+            workbook.Save("CommentExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

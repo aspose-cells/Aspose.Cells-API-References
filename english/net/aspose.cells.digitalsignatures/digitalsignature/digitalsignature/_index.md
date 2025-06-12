@@ -21,35 +21,39 @@ public DigitalSignature(X509Certificate2 certificate, string comments, DateTime 
 
 ### Examples
 
-The following example shows how to create digital signature.
-
 ```csharp
-[C#]
-//signature collection contains one or more signature needed to sign
-DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-//The cert must contain private key, it can be contructed from cert file or windows certificate collection.
-//123456 is password of cert
-X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
-DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
-dsc.Add(ds);
-Workbook wb = new Workbook();
-//set all signatures to workbook
-wb.SetDigitalSignature(dsc);
-wb.Save(@"newfile.xlsx");
+using System;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
 
-
-[Visual Basic]
-'signature collection contains one or more signature needed to sign
-Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-'The cert must contain private key, it can be contructed from cert file or windows certificate collection.
-Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-'create a signature with certificate, sign purpose and sign time
-Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
-dsc.Add(ds)
-Dim wb As Workbook = New Workbook()
-'set all signatures to workbook
-wb.SetDigitalSignature(dsc)
-wb.Save("newfile.xlsx")
+namespace AsposeCellsExamples
+{
+    public class DigitalSignatureMethodCtorWithX509Certificate2StringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a digital signature collection
+            DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+            
+            // Load certificate with private key
+            X509Certificate2 certificate = new X509Certificate2("mykey2.pfx", "123456");
+            
+            // Create digital signature with certificate, purpose and timestamp
+            DigitalSignature signature = new DigitalSignature(
+                certificate, 
+                "Document approval", 
+                DateTime.Now);
+                
+            signatures.Add(signature);
+            
+            // Create a new workbook and sign it
+            Workbook workbook = new Workbook();
+            workbook.SetDigitalSignature(signatures);
+            workbook.Save("signed_document.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -74,6 +78,62 @@ public DigitalSignature(byte[] rawData, string password, string comments, DateTi
 | password | String | The password required to access the X.509 certificate data. |
 | comments | String | The purpose to signature. |
 | signTime | DateTime | The utc time when the document was signed. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.IO;
+
+    public class DigitalSignatureConstructorWithByteArrayStringStringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample content
+            worksheet.Cells["A1"].PutValue("Digitally Signed Document");
+            
+            try
+            {
+                // Load certificate file as byte array (replace with actual certificate path)
+                string certPath = "certificate.pfx";
+                byte[] certData = File.ReadAllBytes(certPath);
+                
+                // Create digital signature parameters
+                string password = "certificate_password";
+                string comments = "Approved by John Doe";
+                DateTime signTime = DateTime.Now;
+                
+                // Call the constructor with (Byte[], String, String, DateTime)
+                DigitalSignature signature = new DigitalSignature(certData, password, comments, signTime);
+                
+                // Create a DigitalSignatureCollection and add the signature to it
+                DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+                signatures.Add(signature);
+                
+                // Add signatures to workbook
+                workbook.AddDigitalSignature(signatures);
+                
+                Console.WriteLine("Digital signature added successfully with parameters (Byte[], String, String, DateTime)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing constructor method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("DigitalSignatureDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

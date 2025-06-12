@@ -16,14 +16,45 @@ public bool IgnoreError { get; set; }
 ### Examples
 
 ```csharp
-// Called: new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
-public void CalculationOptions_Property_IgnoreError()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Name n = wb.Worksheets.Names[0];
-    Assert.IsNull(n.GetRange());
-    FormulaCaseUtil.AssertInt(0, wb.Worksheets[0].CalculateFormula("=" + n.Text,
-        new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
+    public class CalculationOptionsPropertyIgnoreErrorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a named range that doesn't exist to demonstrate error handling
+            worksheet.Cells["A1"].Formula = "=NONEXISTENTNAME()";
+            
+            // Calculate with IgnoreError = false (will throw error)
+            try
+            {
+                workbook.CalculateFormula(new CalculationOptions() { IgnoreError = false });
+                Console.WriteLine("Calculation completed without ignoring errors");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error occurred (expected): " + ex.Message);
+            }
+
+            // Calculate with IgnoreError = true (will suppress error)
+            try
+            {
+                workbook.CalculateFormula(new CalculationOptions() { IgnoreError = true });
+                Console.WriteLine("Calculation completed while ignoring errors");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error occurred (unexpected): " + ex.Message);
+            }
+        }
+    }
 }
 ```
 

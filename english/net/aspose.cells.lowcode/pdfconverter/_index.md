@@ -23,8 +23,22 @@ public class PdfConverter
 ### Examples
 
 ```csharp
-[C#]
-PdfConverter.Process("template.xlsx", "res.pdf");
+using System;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeClassPdfConverterDemo
+    {
+        public static void Run()
+        {
+            // Initialize the PdfConverter with template and output paths
+            PdfConverter.Process("template.xlsx", "res.pdf");
+            
+            Console.WriteLine("PDF conversion completed successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

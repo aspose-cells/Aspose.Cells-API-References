@@ -4,7 +4,7 @@ linktitle: GetExportHyperlinkType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::GetExportHyperlinkType method. Represents the type of exporting hyperlink to json in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.cells/jsonsaveoptions/getexporthyperlinktype/
 ---
 ## JsonSaveOptions::GetExportHyperlinkType method

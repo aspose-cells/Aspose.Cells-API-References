@@ -20,27 +20,38 @@ When there are lots of formulas in the workbook and user needs to calculate them
 ### Examples
 
 ```csharp
-// Called: modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
-public void FormulaSettings_Property_EnableCalculationChain()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var modelWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    // Originally, we populate transactional data here - but the test works without.
-
-    modelWorkbook.CalculateFormula();
-
-    // For 21.12 versions:
-    // modelWorkbook.Settings.CreateCalcChain = false;
-    // For later versions:
-    modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
-    Workbook subWorkbook = new Workbook();
-
-    CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
-    Worksheet justAddedSheet = subWorkbook.Worksheets.Add("Industry Summary");
-
-    justAddedSheet.Copy(modelWorkbook.Worksheets["Industry Summary"], copyOptions);
-    Util.ReSave(subWorkbook, SaveFormat.Xlsx);
-    //subWorkbook.Save(Constants.destPath + "example.xlsx");
+    public class FormulaSettingsPropertyEnableCalculationChainDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample formulas
+            worksheet.Cells["A1"].Formula = "=1+2";
+            worksheet.Cells["A2"].Formula = "=A1*3";
+            worksheet.Cells["A3"].Formula = "=SUM(A1:A2)";
+            
+            // Disable calculation chain
+            workbook.Settings.FormulaSettings.EnableCalculationChain = false;
+            
+            // Calculate formulas
+            workbook.CalculateFormula();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Workbook saved with calculation chain disabled.");
+        }
+    }
 }
 ```
 

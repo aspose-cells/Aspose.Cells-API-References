@@ -22,26 +22,33 @@ public int Add(string name, string userId, string providerId)
 ### Examples
 
 ```csharp
-// Called: int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add("Author 1", "author1", "OV");
-public void ThreadedCommentAuthorCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
-    int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add("Author 1", "author1", "OV");
-    ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
-    FindOptions findOptions = new FindOptions();
-    findOptions.RegexKey = true;
-    findOptions.CaseSensitive = false;
-    findOptions.SearchBackward = true;
-    findOptions.LookInType = LookInType.Comments;
-    addThreadedComment(worksheet, "C2", "1", author1);
-    addThreadedComment(worksheet, "C2", "2", author1);
-    addThreadedComment(worksheet, "C2", "3", author1);
-    addThreadedComment(worksheet, "C2", "4", author1);
-    Cell cell = worksheet.Cells.Find("4", null, findOptions);
-    Assert.AreEqual(cell.Name,"C2");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    public class ThreadedCommentAuthorCollectionMethodAddWithStringStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a threaded comment author
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Test Author", "testuser", "TA");
+
+            // Get the added author
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+
+            // Add threaded comments using the author
+            worksheet.Comments.AddThreadedComment("C2", "First comment", author);
+            worksheet.Comments.AddThreadedComment("C2", "Second comment", author);
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentsExample.xlsx");
+        }
+    }
 }
 ```
 

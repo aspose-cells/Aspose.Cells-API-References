@@ -16,35 +16,46 @@ public byte[] Image { get; set; }
 ### Examples
 
 ```csharp
-// Called: signature.Image = File.ReadAllBytes(path + "signer.emf");
-public void DigitalSignature_Property_Image()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.DigitalSignatures;
+using System.Security.Cryptography.X509Certificates;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "CELLSNET-47892/";
-    Workbook wb = new Workbook(path + "before_sign.xlsx");
-    SignatureLine signatureLine = wb.Worksheets[0].Pictures[0].SignatureLine;
-
-    X509Certificate2 certificate = new X509Certificate2(path + "rsa2048.pfx", "123456");
-    Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test Microsoft Office signature line", DateTime.UtcNow);
-    signature.Id = signatureLine.Id;
-    signature.ProviderId = signatureLine.ProviderId;
-    //sinature text, e.g. your name
-    //signature.Text = "signed by Aspose.Cells";
-    //Or signature Image
-    signature.Image = File.ReadAllBytes(path + "signer.emf");
-
-    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-    dsCollection.Add(signature);
-    wb.SetDigitalSignature(dsCollection);
-
-    MemoryStream ms = new MemoryStream();
-    wb.Save(ms, SaveFormat.Xlsx);
-
-    ms.Position = 0;
-    Workbook reloadedWb = new Workbook(ms);
-    foreach(Aspose.Cells.DigitalSignatures.DigitalSignature validateSignature in reloadedWb.GetDigitalSignature())
+    public class DigitalSignaturePropertyImageDemo
     {
-        Assert.IsTrue(validateSignature.IsValid);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+
+            // Add a signature line to the worksheet
+            Picture picture = ws.Pictures[0];
+            SignatureLine signatureLine = picture.SignatureLine;
+            signatureLine.Signer = "Test Signer";
+            signatureLine.Title = "Test Title";
+
+            // Create a test certificate (in real usage, load from file)
+            byte[] certData = new byte[0]; // Replace with actual certificate bytes
+            X509Certificate2 certificate = new X509Certificate2(certData);
+
+            // Create digital signature with image
+            DigitalSignature signature = new DigitalSignature(certificate, "Test Signature", DateTime.Now);
+            signature.Image = File.ReadAllBytes("signature.png"); // Replace with actual image path
+
+            // Add signature and save
+            DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
+            dsCollection.Add(signature);
+            wb.SetDigitalSignature(dsCollection);
+
+            // Save to memory stream
+            MemoryStream ms = new MemoryStream();
+            wb.Save(ms, SaveFormat.Xlsx);
+        }
     }
 }
 ```

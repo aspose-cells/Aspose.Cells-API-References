@@ -15,21 +15,46 @@ class TableStyleElement;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [size](#size--)| number | Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
+| [type](#type--)| TableStyleElementType | Readonly. Gets the element type. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSize()](#getSize--)| Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
-| [setSize(number)](#setSize-number-)| Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
-| [getType()](#getType--)| Gets the element type. |
+| [getSize()](#getSize--)| <b>@deprecated.</b> Please use the 'size' property instead. Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
+| [setSize(number)](#setSize-number-)| <b>@deprecated.</b> Please use the 'size' property instead. Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the element type. |
 | [getElementStyle()](#getElementStyle--)| Gets the element style. |
 | [setElementStyle(Style)](#setElementStyle-style-)| Sets the element style. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getSize() {#getSize--}
+### size {#size--}
 
 Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe.
+
+```javascript
+size : number;
+```
+
+
+### type {#type--}
+
+Readonly. Gets the element type.
+
+```javascript
+type : TableStyleElementType;
+```
+
+
+### getSize() {#getSize--}
+
+<b>@deprecated.</b> Please use the 'size' property instead. Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe.
 
 ```javascript
 getSize() : number;
@@ -38,7 +63,7 @@ getSize() : number;
 
 ### setSize(number) {#setSize-number-}
 
-Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe.
+<b>@deprecated.</b> Please use the 'size' property instead. Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe.
 
 ```javascript
 setSize(value: number) : void;
@@ -51,7 +76,7 @@ setSize(value: number) : void;
 
 ### getType() {#getType--}
 
-Gets the element type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the element type.
 
 ```javascript
 getType() : TableStyleElementType;

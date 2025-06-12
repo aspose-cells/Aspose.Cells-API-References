@@ -24,33 +24,42 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Validation validation = sheet.Validations[0];
-private void ValidationCollection_Property_Item(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
+            // Create a workbook
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            testAreEqual(1, sheet.Validations.Count, caseName);
-            Validation validation = sheet.Validations[0];
-            testAreEqual(2, validation.Areas.Length, caseName);
-            bool IsSame = false;
-            for (int i = 0; i < validation.Areas.Length; i++)
+
+            // Add data validation to cells
+            ValidationCollection validations = sheet.Validations;
+            
+            // First validation area
+            Validation validation1 = validations[validations.Add()];
+            validation1.AddArea(new CellArea { StartRow = 1, StartColumn = 1, EndRow = 4, EndColumn = 3 });
+            
+            // Second validation area
+            Validation validation2 = validations[validations.Add()];
+            validation2.AddArea(new CellArea { StartRow = 6, StartColumn = 1, EndRow = 6, EndColumn = 3 });
+
+            // Access validation using Item property
+            Validation firstValidation = validations[0];
+            Console.WriteLine($"First validation has {firstValidation.Areas.Length} area(s)");
+
+            // Verify areas
+            foreach (CellArea area in firstValidation.Areas)
             {
-                CellArea cellarea = (CellArea)validation.Areas[i];
-                if (cellarea.StartRow == 1)
-                {
-                    AssertHelper.checkCellArea(1, 1, 4, 3, cellarea);
-                    IsSame = true;
-                }
-                else if (cellarea.StartRow == 6)
-                {
-                    AssertHelper.checkCellArea(6, 1, 6, 3, cellarea);
-                    IsSame = true;
-                }
-            }
-            if (!IsSame)
-            {
-                AssertHelper.Fail("Validation object is not same");
+                Console.WriteLine($"Area: {area.StartRow},{area.StartColumn} to {area.EndRow},{area.EndColumn}");
             }
         }
+    }
+}
 ```
 
 ### See Also

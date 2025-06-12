@@ -16,17 +16,37 @@ public CheckValueType CheckedValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: box1.CheckedValue = (CheckValueType.Checked);
-public void CheckBox_Property_CheckedValue()
-{
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    CheckBox box1 = sheet.Shapes.AddCheckBox(5, 5, 5, 5, 20, 20);
-    box1.CheckedValue = (CheckValueType.Checked);
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsx", "xl/drawings/drawing1.xml", new string[] { "mc:AlternateContent" }, true));
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class CheckBoxPropertyCheckedValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a checkbox to the worksheet
+            CheckBox checkBox = sheet.Shapes.AddCheckBox(1, 1, 100, 100, 20, 20);
+
+            // Set the checkbox value to Checked
+            checkBox.CheckedValue = CheckValueType.Checked;
+
+            // Save the workbook
+            workbook.Save("CheckBoxCheckedValueDemo.xlsx");
+
+            // Load the saved workbook to verify
+            Workbook loadedWorkbook = new Workbook("CheckBoxCheckedValueDemo.xlsx");
+            CheckBox loadedCheckBox = (CheckBox)loadedWorkbook.Worksheets[0].Shapes[0];
+            
+            // Output the checkbox state
+            Console.WriteLine("CheckBox CheckedValue: " + loadedCheckBox.CheckedValue);
+        }
+    }
 }
 ```
 

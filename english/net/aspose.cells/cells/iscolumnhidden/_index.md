@@ -24,13 +24,31 @@ true if the column is hidden.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.IsColumnHidden(2), true);
-public void Cells_Method_IsColumnHidden()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual(cells.IsColumnHidden(2), true);
-    Assert.AreEqual(cells.GetRowHeightPixel(1), 6);
+    public class CellsMethodIsColumnHiddenWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Hide column C (index 2)
+            cells.HideColumn(2);
+            
+            // Check if column C is hidden
+            bool isHidden = cells.IsColumnHidden(2);
+            
+            Console.WriteLine("Is column C (index 2) hidden? " + isHidden);
+        }
+    }
 }
 ```
 

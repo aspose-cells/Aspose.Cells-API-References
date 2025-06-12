@@ -4,7 +4,7 @@ linktitle: UpdateCustomFunctionDefinition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::UpdateCustomFunctionDefinition method. Updates definition of custom functions in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.cells/workbook/updatecustomfunctiondefinition/
 ---
 ## Workbook::UpdateCustomFunctionDefinition method

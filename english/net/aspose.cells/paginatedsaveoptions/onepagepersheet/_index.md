@@ -16,18 +16,35 @@ public bool OnePagePerSheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.OnePagePerSheet = true;
-public void PaginatedSaveOptions_Property_OnePagePerSheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE21/";
-    string path2 = Constants.destPath + "NetCoreTests/";
-    string excelPath = path + "example.xlsx";
+    public class PaginatedSaveOptionsPropertyOnePagePerSheetDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet sheet1 = workbook.Worksheets[0];
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+            
+            // Add some sample data to both sheets
+            for (int i = 0; i < 10; i++)
+            {
+                sheet1.Cells[i, 0].Value = $"Sheet1 Data {i + 1}";
+                sheet2.Cells[i, 0].Value = $"Sheet2 Data {i + 1}";
+            }
 
-    Workbook workbook = new Workbook(excelPath);
-    PdfSaveOptions options = new PdfSaveOptions();
-    options.OnePagePerSheet = true;
-    workbook.Save(path2 + "win_out1.pdf", options);
+            // Set PDF save options with OnePagePerSheet
+            PdfSaveOptions options = new PdfSaveOptions();
+            options.OnePagePerSheet = true;
 
+            // Save the workbook to PDF
+            workbook.Save("output.pdf", options);
+        }
+    }
 }
 ```
 

@@ -16,40 +16,35 @@ public bool LoadFormulas { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.LoadFormulas = true;
-public static void HtmlLoadOptions_Property_LoadFormulas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlLoadOptionsPropertyLoadFormulasDemo
+    {
+        public static void Run()
         {
             // Create an instance of HtmlLoadOptions
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
+            // Set LoadFormulas to true to load formulas from HTML
             loadOptions.LoadFormulas = true;
-            loadOptions.SupportDivTag = true;
-            loadOptions.DeleteRedundantSpaces = true;
-            loadOptions.AutoFitColsAndRows = true;
-            loadOptions.HasFormula = true;
-            loadOptions.Encoding = System.Text.Encoding.UTF8;
-            loadOptions.LoadStyleStrategy = TxtLoadStyleStrategy.None;
-            loadOptions.ConvertNumericData = true;
-            loadOptions.ConvertDateTimeData = true;
-            loadOptions.KeepPrecision = true;
-            loadOptions.ParsingFormulaOnOpen = true;
-            loadOptions.ParsingPivotCachedRecords = true;
-            loadOptions.IgnoreNotPrinted = true;
-            loadOptions.CheckDataValid = true;
-            loadOptions.CheckExcelRestriction = true;
-            loadOptions.KeepUnparsedData = true;
-            loadOptions.AutoFilter = true;
-            loadOptions.IgnoreUselessShapes = true;
-            loadOptions.PreservePaddingSpacesInFormula = true;
 
-            // Load an HTML file into a Workbook using the HtmlLoadOptions
-            Workbook workbook = new Workbook("HtmlLoadOptionsExample_original.html", loadOptions);
+            // Load an HTML file containing formulas into a Workbook
+            Workbook workbook = new Workbook("input.html", loadOptions);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Display formula from cell A1 (if present in HTML)
+            Console.WriteLine("Formula in A1: " + worksheet.Cells["A1"].Formula);
 
             // Save the workbook to an Excel file
-            workbook.Save("HtmlLoadOptionsExample.xlsx");
-
-            return;
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

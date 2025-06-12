@@ -16,16 +16,42 @@ public void RefreshAll()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RefreshAll();
-public void WorksheetCollection_Method_RefreshAll()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    workbook.Worksheets.RefreshAll();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.IsTrue(Util.CompareColor(Color.FromArgb(146, 208, 80), cells["G8"].GetStyle().ForegroundColor));
-    Assert.IsTrue(Util.CompareColor(Color.FromArgb(146, 208, 80), cells["H8"].GetStyle().ForegroundColor));
-    Assert.IsTrue(Util.CompareColor(Color.Yellow, cells["J8"].GetStyle().ForegroundColor));
-    Assert.IsTrue(Util.CompareColor(Color.Yellow, cells["K8"].GetStyle().ForegroundColor));
+    public class WorksheetCollectionMethodRefreshAllDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and formulas
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["B3"].PutValue(1.8);
+            
+            // Add formulas that will be refreshed
+            worksheet.Cells["C1"].PutValue("Total");
+            worksheet.Cells["C2"].PutValue("=SUM(B2:B3)");
+            
+            // Change some values
+            worksheet.Cells["B2"].PutValue(3.0);
+            worksheet.Cells["B3"].PutValue(2.0);
+            
+            // Refresh all formulas in all worksheets
+            workbook.Worksheets.RefreshAll();
+            
+            // Output the refreshed total
+            Console.WriteLine("Refreshed total: " + worksheet.Cells["C2"].StringValue);
+        }
+    }
 }
 ```
 

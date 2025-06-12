@@ -16,28 +16,54 @@ public LineSpaceSizeType SpaceBeforeSizeType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-public void TextParagraph_Property_SpaceBeforeSizeType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    shape.Text = "abc\nefg";
-    TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-    TextParagraph p = paragraphs[1];
-    p.LineSpaceSizeType = LineSpaceSizeType.Points;
-    p.LineSpace = 2;
-    p.SpaceAfter = 3;
-    p.SpaceBefore = 4;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
-    Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(2, p.LineSpace);
-    Assert.AreEqual(3, p.SpaceAfter);
-    Assert.AreEqual(4, p.SpaceBefore);
+    public class TextParagraphPropertySpaceBeforeSizeTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a text box and get its shape
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            shape.Text = "First paragraph\nSecond paragraph";
+            
+            // Access the second paragraph
+            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            TextParagraph paragraph = paragraphs[1];
+            
+            // Set paragraph spacing properties
+            paragraph.LineSpaceSizeType = LineSpaceSizeType.Points;
+            paragraph.SpaceBeforeSizeType = LineSpaceSizeType.Points;
+            paragraph.SpaceAfterSizeType = LineSpaceSizeType.Points;
+            
+            paragraph.LineSpace = 12;
+            paragraph.SpaceBefore = 8;
+            paragraph.SpaceAfter = 10;
+            
+            // Save and reload to demonstrate persistence
+            string outputPath = "TextParagraphSpacingDemo.xlsx";
+            workbook.Save(outputPath);
+            
+            // Reload to verify properties
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            Shape loadedShape = loadedWorkbook.Worksheets[0].Shapes[0];
+            TextParagraph loadedParagraph = loadedShape.TextBody.TextParagraphs[1];
+            
+            Console.WriteLine("SpaceBeforeSizeType: " + loadedParagraph.SpaceBeforeSizeType);
+            Console.WriteLine("SpaceBefore: " + loadedParagraph.SpaceBefore);
+            Console.WriteLine("SpaceAfterSizeType: " + loadedParagraph.SpaceAfterSizeType);
+            Console.WriteLine("SpaceAfter: " + loadedParagraph.SpaceAfter);
+            Console.WriteLine("LineSpaceSizeType: " + loadedParagraph.LineSpaceSizeType);
+            Console.WriteLine("LineSpace: " + loadedParagraph.LineSpace);
+        }
+    }
 }
 ```
 

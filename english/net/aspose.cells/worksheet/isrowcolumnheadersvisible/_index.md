@@ -16,16 +16,36 @@ public bool IsRowColumnHeadersVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
-[Test, Category("Bug")]
-        public void Worksheet_Property_IsRowColumnHeadersVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyIsRowColumnHeadersVisibleDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].IsRowColumnHeadersVisible = false;
-            workbook.Save(Constants.destPath + "example.xml");
-            workbook = new Workbook(Constants.destPath + "example.xml");
-            Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set row and column headers visibility to false
+            worksheet.IsRowColumnHeadersVisible = false;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to verify the property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            
+            // Output the property value
+            Console.WriteLine("Row and Column Headers Visible: " + loadedWorksheet.IsRowColumnHeadersVisible);
         }
+    }
+}
 ```
 
 ### See Also

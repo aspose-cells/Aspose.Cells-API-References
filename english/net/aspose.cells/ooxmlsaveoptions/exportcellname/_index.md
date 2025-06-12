@@ -16,23 +16,39 @@ public bool ExportCellName { get; set; }
 ### Examples
 
 ```csharp
-// Called: xlsxSaveOptions.ExportCellName = true;
-public void OoxmlSaveOptions_Property_ExportCellName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("testCELLSNET_27446()");
-    string infn = path + @"example.xlsx";
-    string outfn = destpath + @"example.xlsm";
-    string outfn1 = destpath + @"example.xlsx";
-
-    Workbook wb = new Workbook(infn);
-    OoxmlSaveOptions xlsxSaveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-    xlsxSaveOptions.ExportCellName = true;
-    wb.Save(outfn, xlsxSaveOptions);
-    xlsxSaveOptions = new OoxmlSaveOptions();
-    xlsxSaveOptions.ExportCellName = true;
-    wb.Save(outfn1, xlsxSaveOptions);
-
-
+    public class OoxmlSaveOptionsPropertyExportCellNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Put some data in cells
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B2"].PutValue(123);
+            
+            // Create XLSX save options with ExportCellName enabled
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.ExportCellName = true;
+            
+            // Save the workbook with cell names exported
+            workbook.Save("output_with_cellnames.xlsx", saveOptions);
+            
+            // Create another save options with ExportCellName disabled (default)
+            OoxmlSaveOptions saveOptions2 = new OoxmlSaveOptions();
+            
+            // Save the workbook without cell names exported
+            workbook.Save("output_without_cellnames.xlsx", saveOptions2);
+        }
+    }
 }
 ```
 

@@ -24,57 +24,56 @@ the Cell object
 ### Examples
 
 ```csharp
-// Called: Cell cell = pivotTable.GetCellByDisplayName(displayName);
-public void PivotTable_Method_GetCellByDisplayName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath  + @"NET44304_";
-    Workbook wb = new Workbook(filePath + "sample.xlsx");
-    Worksheet ws = wb.Worksheets["Pivot Sheet"];
-
-    PivotTable pivotTable = ws.PivotTables[0];
-
-    pivotTable.IsExcel2003Compatible = false;
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    pivotTable.RefreshDataOnOpeningFile = false;
-
-    var dataFields = pivotTable.Fields(PivotFieldType.Data);
-
-    for (int i = 255; i < dataFields.Count; i++)
+    public class PivotTableMethodGetCellByDisplayNameWithStringDemo
     {
-        var displayName = dataFields[i].DisplayName;
-
-        Cell cell = pivotTable.GetCellByDisplayName(displayName);
-
-        if (cell == null)
+        public static void Run()
         {
-            Assert.Fail("find null via PivotField.DisplayName");
-            Console.WriteLine(displayName + "----Null");
-        }
-        else
-        {
-            Console.WriteLine(displayName + "----" + cell.Name);
-        }
-    }
-    wb.Save(Constants.PivotTableDestPath + @"example.xlsx");
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    wb = new Workbook(Constants.PivotTableDestPath + @"example.xlsx");
-    pivotTable = wb.Worksheets["Pivot Sheet"].PivotTables[0];
-    dataFields = pivotTable.Fields(PivotFieldType.Data);
-    for (int i = 255; i < dataFields.Count; i++)
-    {
-        var displayName = dataFields[i].DisplayName;
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
 
-        Cell cell = pivotTable.GetCellByDisplayName(displayName);
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
 
-        if (cell == null)
-        {
-            Assert.Fail("find null via PivotField.DisplayName");
-            Console.WriteLine(displayName + "----Null");
-        }
-        else
-        {
-            Console.WriteLine(displayName + "----" + cell.Name);
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            // Refresh and calculate pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Get data field display name
+            string displayName = pivotTable.DataFields[0].DisplayName;
+
+            // Use GetCellByDisplayName method
+            Cell cell = pivotTable.GetCellByDisplayName(displayName);
+
+            // Output results
+            Console.WriteLine("Display Name: " + displayName);
+            Console.WriteLine("Cell Name: " + (cell != null ? cell.Name : "null"));
+            Console.WriteLine("Cell Value: " + (cell != null ? cell.Value.ToString() : "null"));
+
+            // Save the workbook
+            workbook.Save("PivotTable_GetCellByDisplayName_Output.xlsx");
         }
     }
 }

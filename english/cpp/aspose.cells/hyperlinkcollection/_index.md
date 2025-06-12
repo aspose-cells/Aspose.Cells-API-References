@@ -4,7 +4,7 @@ linktitle: HyperlinkCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HyperlinkCollection class. Encapsulates a collection of Hyperlink objects in C++.'
 type: docs
-weight: 8200
+weight: 8500
 url: /cpp/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class

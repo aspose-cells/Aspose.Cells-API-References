@@ -16,18 +16,37 @@ public string TableCssId { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.TableCssId = "asdf";
-public void HtmlSaveOptions_Property_TableCssId()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42465/";
-    Workbook workbook = new Workbook(filePath + "input.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-    saveOptions.ExportHiddenWorksheet = false;
-    saveOptions.ExportActiveWorksheetOnly = true;
-    saveOptions.CellCssPrefix = "prefix123";
-    saveOptions.TableCssId = "asdf";
-    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyTableCssIdDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Configure HTML save options with TableCssId
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            saveOptions.TableCssId = "custom-table-style";
+            
+            // Save the workbook with HTML options
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("HTML file saved with TableCssId: " + saveOptions.TableCssId);
+        }
+    }
 }
 ```
 

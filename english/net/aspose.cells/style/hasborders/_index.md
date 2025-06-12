@@ -16,17 +16,40 @@ public bool HasBorders { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(cells["B9"].GetStyle().HasBorders);
-public void Style_Property_HasBorders()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.HtmlPath + "example.html");
-    workbook.Save(_destFilesPath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.IsFalse(cells["A8"].GetStyle().HasBorders);
-    Assert.IsFalse(cells["B9"].GetStyle().HasBorders);
-    Assert.AreEqual(CellBorderType.Thin , cells["C8"].GetStyle().Borders[BorderType.TopBorder].LineStyle);
-    Assert.AreEqual(TextAlignmentType.Left , cells["A10"].GetStyle().HorizontalAlignment);
-    Assert.AreEqual(TextAlignmentType.Right , cells["C10"].GetStyle().HorizontalAlignment);
+    public class StylePropertyHasBordersDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Access cell A1 and check if it has borders (should be false by default)
+            Cell cellA1 = cells["A1"];
+            Console.WriteLine("Cell A1 has borders: " + cellA1.GetStyle().HasBorders);
+
+            // Create a style with borders
+            Style styleWithBorders = workbook.CreateStyle();
+            styleWithBorders.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            styleWithBorders.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+
+            // Apply the style to cell B1
+            Cell cellB1 = cells["B1"];
+            cellB1.SetStyle(styleWithBorders);
+
+            // Check if cell B1 has borders (should be true now)
+            Console.WriteLine("Cell B1 has borders: " + cellB1.GetStyle().HasBorders);
+
+            // Save the workbook
+            workbook.Save("HasBordersDemo.xlsx");
+        }
+    }
 }
 ```
 

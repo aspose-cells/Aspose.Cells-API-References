@@ -20,12 +20,30 @@ It's format is "00.0000",for example : 12.0000
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
-public void BuiltInDocumentPropertyCollection_Property_Version()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
+    public class BuiltInDocumentPropertyCollectionPropertyVersionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set some document properties
+            workbook.BuiltInDocumentProperties.Author = "Test Author";
+            workbook.BuiltInDocumentProperties.Title = "Test Document";
+            
+            // Access and display the Version property
+            string version = workbook.BuiltInDocumentProperties.Version;
+            Console.WriteLine("Document Version: " + version);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

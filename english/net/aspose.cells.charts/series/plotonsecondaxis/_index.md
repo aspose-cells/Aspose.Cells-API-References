@@ -16,13 +16,45 @@ public bool PlotOnSecondAxis { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.NSeries[0].PlotOnSecondAxis, true);
-public void Series_Property_PlotOnSecondAxis()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets.AddCopy(workbook.Worksheets[0].Name);
-    Chart chart = workbook.Worksheets[1].Charts[0];
-    Assert.AreEqual(chart.NSeries[0].PlotOnSecondAxis, true);
+    public class SeriesPropertyPlotOnSecondAxisDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set the first series to plot on secondary axis
+            chart.NSeries[0].PlotOnSecondAxis = true;
+
+            // Save the workbook
+            workbook.Save("SeriesPropertyPlotOnSecondAxisDemo_out.xlsx");
+        }
+    }
 }
 ```
 

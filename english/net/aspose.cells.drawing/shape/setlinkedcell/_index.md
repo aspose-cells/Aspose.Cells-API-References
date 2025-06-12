@@ -22,19 +22,30 @@ public void SetLinkedCell(string formula, bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//After executing the code below, a ScrollBar object is created in the generated file. As you drag the slider, the value is displayed in cell A12.
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodSetLinkedCellWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//ActiveX Controls
-//Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ScrollBar,2, 0, 2, 0, 30, 130);
+            // Add a scrollbar shape
+            Aspose.Cells.Drawing.Shape scrollBar = worksheet.Shapes.AddScrollBar(2, 0, 2, 0, 130, 30);
 
-//Form Controls
-Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddScrollBar(2, 0, 2, 0, 130, 30);
+            // Link the scrollbar value to cell A12
+            scrollBar.SetLinkedCell("$A$12", false, true);
 
-//Sets the range linked to the control's value.
-scrollBar.SetLinkedCell("$A$12", false, true);
-
+            // Save the workbook
+            workbook.Save("SetLinkedCellDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

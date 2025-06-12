@@ -16,19 +16,38 @@ public Range EntireColumn { get; }
 ### Examples
 
 ```csharp
-// Called: var columnDRange = workbook.Worksheets["Sheet1"].Cells.CreateRange(1, 3, 1, 1).EntireColumn;
-public void Range_Property_EntireColumn()
-{
-    var workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
-    var columnDRange = workbook.Worksheets["Sheet1"].Cells.CreateRange(1, 3, 1, 1).EntireColumn;
-    var style = columnDRange[0, 0].GetStyle();
-    style.Custom = "##0%";
-    var styleFlag = new StyleFlag();
-    styleFlag.NumberFormat = true;
-    columnDRange.ApplyStyle(style, styleFlag);
-    Assert.AreEqual(788,workbook.Worksheets["Sheet1"].Cells.MaxRow);
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class RangePropertyEntireColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a range starting at cell C1 (row 0, column 2)
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 2, 1, 1);
+            
+            // Get the entire column containing the range (column C)
+            Aspose.Cells.Range entireColumn = range.EntireColumn;
+            
+            // Apply formatting to the entire column
+            Style style = entireColumn[0, 0].GetStyle();
+            style.Custom = "##0%";
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.NumberFormat = true;
+            entireColumn.ApplyStyle(style, styleFlag);
+            
+            // Save the workbook
+            workbook.Save("EntireColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

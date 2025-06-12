@@ -23,9 +23,7 @@ public enum PdfCustomPropertiesExport
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

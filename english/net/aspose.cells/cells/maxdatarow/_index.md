@@ -15,22 +15,55 @@ public int MaxDataRow { get; }
 
 ### Remarks
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### Examples
 
 ```csharp
-// Called: CellArea ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
-public void Cells_Property_MaxDataRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "TestSubT.xls");
-    Worksheet sheet = wb.Worksheets[0];
-    CellArea ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
-    sheet.Cells.Subtotal(ca, 0, ConsolidationFunction.CountNums, new int[] { 1 }, false, false, true);
-    ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
-    sheet.Cells.Subtotal(ca, 0, ConsolidationFunction.Max, new int[] { 1 }, false, false, true);
-    Assert.AreEqual(sheet.Cells["B24"].GetStyle().Custom, "m/d/yyyy\\ h:mm\\ AM/PM");
-    wb.Save(Constants.destPath + "example.xls");
+    public class CellsPropertyMaxDataRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue("Item1");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["A3"].PutValue("Item2");
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["A4"].PutValue("Item3");
+            sheet.Cells["B4"].PutValue(30);
+
+            // Demonstrate MaxDataRow usage
+            int maxRow = sheet.Cells.MaxDataRow;
+            Console.WriteLine("Max data row: " + maxRow);
+
+            // Create a cell area using MaxDataRow
+            int startRow = 0;
+            int startColumn = 0;
+            int endRow = sheet.Cells.MaxDataRow;
+            int endColumn = sheet.Cells.MaxDataColumn;
+
+            // Apply formatting to the data range
+            Style style = workbook.CreateStyle();
+            style.Font.IsBold = true;
+            
+            // Apply style to the range
+            sheet.Cells.CreateRange(startRow, startColumn, endRow + 1, endColumn + 1).ApplyStyle(style, new StyleFlag { FontBold = true });
+
+            // Save the workbook
+            workbook.Save("MaxDataRowDemo.xlsx");
+        }
+    }
 }
 ```
 

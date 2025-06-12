@@ -28,16 +28,40 @@ public enum FillType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
-public void Drawing_Type_FillType()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Shape shape = workbook.Worksheets["1.1 Antenna System (RF)"].Shapes["Rectangle 1184"];
-    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-    shape = workbook.Worksheets[0].Shapes["TextBox 1"];
-    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+namespace AsposeCellsExamples
+{
+    public class DrawingClassFillTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape
+            Shape rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 1, 100, 150);
+            
+            // Set gradient fill type
+            rectangle.Fill.FillType = FillType.Gradient;
+            rectangle.Fill.SetTwoColorGradient(Color.LightBlue, Color.DarkBlue, GradientStyleType.Horizontal, 1);
+
+            // Add a text box
+            Shape textBox = worksheet.Shapes.AddTextBox(1, 0, 10, 10, 100, 150);
+            textBox.Text = "Gradient Fill Example";
+            
+            // Set gradient fill type for text box
+            textBox.Fill.FillType = FillType.Gradient;
+            textBox.Fill.SetTwoColorGradient(Color.LightGreen, Color.DarkGreen, GradientStyleType.Vertical, 1);
+
+            // Save the workbook
+            workbook.Save("FillTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

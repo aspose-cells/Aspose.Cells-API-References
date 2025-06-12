@@ -16,33 +16,49 @@ public JsonLayoutOptions LayoutOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: LayoutOptions = new JsonLayoutOptions
-public static void JsonLoadOptions_Property_LayoutOptions()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
+{
+    public class JsonLoadOptionsPropertyLayoutOptionsDemo
+    {
+        public static void Run()
         {
-            // Create an instance of JsonLoadOptions
-            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
+            // Create JSON load options with LayoutOptions
+            JsonLoadOptions options = new JsonLoadOptions
             {
-                StartCell = "A1",
-                MultipleWorksheets = true,
-                KeptSchema = true,
                 LayoutOptions = new JsonLayoutOptions
                 {
                     ArrayAsTable = true,
                     IgnoreNull = false,
-                    IgnoreTitle = false,
                     ConvertNumericOrDate = true,
                     NumberFormat = "0.00",
                     DateFormat = "yyyy-MM-dd"
                 }
             };
 
-            // Load JSON data into a Workbook
-            string jsonFilePath = "JsonLoadOptionsExample_data.json";
-            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
+            // Create a new workbook with JSON data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Sample JSON data
+            string json = @"{
+                ""Products"": [
+                    { ""ID"": 1, ""Name"": ""Product A"", ""Price"": 19.99, ""Date"": ""2023-05-15"" },
+                    { ""ID"": 2, ""Name"": ""Product B"", ""Price"": 29.99, ""Date"": ""2023-06-20"" }
+                ]
+            }";
 
-            // Save the workbook to an Excel file
-            workbook.Save("JsonLoadOptionsExample.xlsx");
+            // Import JSON to worksheet
+            JsonUtility.ImportData(json, worksheet.Cells, 0, 0, options.LayoutOptions);
+
+            // Save the workbook
+            workbook.Save("JsonWithLayoutOptions.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

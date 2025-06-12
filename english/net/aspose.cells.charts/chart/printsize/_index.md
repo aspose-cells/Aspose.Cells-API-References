@@ -16,30 +16,47 @@ public PrintSizeType PrintSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.PrintSize = PrintSizeType.Full;
-public void Chart_Property_PrintSize()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE53/";
-    string fileName = "input_green_dot_test.xlsx";
-    string filePathName = path + fileName;
-    string savedFile = destPathNetCore + "input_green_dot_test.pdf";
-
-    Workbook sourceBook = new Workbook(filePathName);
-    foreach (Aspose.Cells.Charts.Chart chart in sourceBook.Worksheets[0].Charts)
+    public class ChartPropertyPrintSizeDemo
     {
-        chart.PrintSize = PrintSizeType.Full;
-        chart.SizeWithWindow = false;
-        chart.AutoScaling = false;
-        int width = chart.GapWidth;
-        chart.GapWidth = 100;
-        //chart.PageSetup.Zoom;
-    }
-    SaveOptions so = new PdfSaveOptions();
-    so.ValidateMergedAreas = true;
-    so.RefreshChartCache = true;
-    so.MergeAreas = true;
-    sourceBook.Save(savedFile, so);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Configure print settings
+            chart.PrintSize = PrintSizeType.Full;
+            chart.SizeWithWindow = false;
+            chart.AutoScaling = false;
+
+            // Save the workbook
+            workbook.Save("ChartPrintSizeDemo.pdf", SaveFormat.Pdf);
+        }
+    }
 }
 ```
 

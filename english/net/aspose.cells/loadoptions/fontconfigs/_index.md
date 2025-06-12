@@ -16,62 +16,34 @@ public IndividualFontConfigs FontConfigs { get; set; }
 ### Examples
 
 ```csharp
-// Called: FontConfigs = new IndividualFontConfigs(),
-public static void LoadOptions_Property_FontConfigs()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class LoadOptionsPropertyFontConfigsDemo
+    {
+        public static void Run()
         {
-            // Create an instance of TxtLoadOptions
+            // Create load options with FontConfigs
             TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
             {
-                Separator = ',',
-                SeparatorString = ",",
-                IsMultiEncoded = false,
-                HasFormula = true,
-                HasTextQualifier = true,
-                TextQualifier = '\"',
-                TreatConsecutiveDelimitersAsOne = true,
-                TreatQuotePrefixAsValue = true,
-                ExtendToNextSheet = false,
-                HeaderRowsCount = 1,
-                HeaderColumnsCount = 1,
-                MaxRowCount = 1000,
-                MaxColumnCount = 50,
-                Encoding = Encoding.UTF8,
-                LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn,
-                ConvertNumericData = true,
-                ConvertDateTimeData = true,
-                KeepPrecision = true,
-                Password = "password",
-                ParsingFormulaOnOpen = true,
-                ParsingPivotCachedRecords = true,
-                LanguageCode = CountryCode.USA,
-                Region = CountryCode.USA,
-                CultureInfo = new System.Globalization.CultureInfo("en-US"),
-                StandardFont = "Arial",
-                StandardFontSize = 10.5,
-                InterruptMonitor = new InterruptMonitor(),
-                IgnoreNotPrinted = true,
-                CheckDataValid = true,
-                CheckExcelRestriction = true,
-                KeepUnparsedData = true,
-                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
-                LightCellsDataHandler = new LightCellsDataHandler(),
-                MemorySetting = MemorySetting.MemoryPreference,
-                WarningCallback = new WarningCallback(),
-                AutoFitterOptions = new AutoFitterOptions(),
-                AutoFilter = true,
-                FontConfigs = new IndividualFontConfigs(),
-                IgnoreUselessShapes = true,
-                PreservePaddingSpacesInFormula = true
+                FontConfigs = new IndividualFontConfigs()
             };
 
+            // Set some font substitution rules using the correct API
+            loadOptions.FontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman" });
+            loadOptions.FontConfigs.SetFontSubstitutes("Courier New", new string[] { "Consolas" });
+
             // Load a CSV file with the specified options
-            Workbook workbook = new Workbook("TxtLoadOptionsExample_original.csv", loadOptions);
+            Workbook workbook = new Workbook("sample.csv", loadOptions);
 
             // Save the workbook to an Excel file
-            workbook.Save("TxtLoadOptionsExample.xlsx");
-
-            return;
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

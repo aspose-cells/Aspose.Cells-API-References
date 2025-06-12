@@ -16,42 +16,39 @@ public bool HasHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.HasHeaderRow = true;
-public static void XmlSaveOptions_Property_HasHeaderRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XmlSaveOptionsPropertyHasHeaderRowDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data in the worksheet
-            worksheet.Cells["A1"].PutValue("Header1");
-            worksheet.Cells["B1"].PutValue("Header2");
-            worksheet.Cells["A2"].PutValue("Data1");
-            worksheet.Cells["B2"].PutValue("Data2");
+            // Add header row and data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
 
-            // Create an instance of XmlSaveOptions
+            // Create XML save options
             XmlSaveOptions saveOptions = new XmlSaveOptions();
-
-            // Setting properties
-            saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 };
-            saveOptions.HasHeaderRow = true;
-            saveOptions.XmlMapName = "MyXmlMap";
+            saveOptions.HasHeaderRow = true; // Demonstrate HasHeaderRow property
             saveOptions.SheetNameAsElementName = true;
-            saveOptions.DataAsAttribute = false;
-            saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = "C:\\Temp";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = false;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
 
-            // Save the workbook as an XML file
-            workbook.Save("XmlSaveOptionsExample.xml", saveOptions);
+            // Save as XML file
+            workbook.Save("output.xml", saveOptions);
 
-            return;
+            Console.WriteLine("XML file saved with HasHeaderRow=true");
         }
+    }
+}
 ```
 
 ### See Also

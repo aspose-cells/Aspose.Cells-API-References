@@ -90,46 +90,87 @@ public class DataLabels : ChartTextFrame
 ### Examples
 
 ```csharp
-
-[C#]
-
-//Set the DataLabels in the chart
-Workbook wb = new Workbook("chart.xlsx");
-Chart chart = wb.Worksheets[0].Charts[0];
-DataLabels datalabels;
-for (int i = 0; i  <chart.NSeries.Count; i++)
+namespace AsposeCellsExamples
 {
-    datalabels = chart.NSeries[i].DataLabels;
-    //Set the position of DataLabels
-    datalabels.Position = LabelPositionType.InsideBase;
-    //Show the category name in the DataLabels
-    datalabels.ShowCategoryName = true;
-    //Show the value in the DataLabels
-    datalabels.ShowValue = true;
-    //Not show the percentage in the DataLabels
-    datalabels.ShowPercentage = false;
-    //Not show the legend key.
-    datalabels.ShowLegendKey = false;
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class DataLabelsDemo
+    {
+        public static void DataLabelsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Access the DataLabels of the first series
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+            // Set properties of DataLabels
+            dataLabels.Position = LabelPositionType.InsideBase;
+            dataLabels.ShowCategoryName = true;
+            dataLabels.ShowValue = true;
+            dataLabels.ShowPercentage = false;
+            dataLabels.ShowLegendKey = false;
+            dataLabels.IsAutoText = true;
+            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            dataLabels.Text = "Custom Text";
+            dataLabels.IsTextWrapped = true;
+            dataLabels.BackgroundMode = BackgroundMode.Transparent;
+            dataLabels.ShowCellRange = false;
+            dataLabels.ShowBubbleSize = false;
+            dataLabels.ShowSeriesName = false;
+            dataLabels.NumberFormat = "0.00";
+            dataLabels.Number = 0;
+            dataLabels.NumberFormatLinked = false;
+            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            dataLabels.SeparatorValue = ", ";
+            dataLabels.IsNeverOverlap = true;
+            dataLabels.IsDeleted = false;
+            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
+            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
+            dataLabels.RotationAngle = 0;
+            dataLabels.LinkedSource = "";
+            dataLabels.TextDirection = TextDirectionType.LeftToRight;
+            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            dataLabels.IsResizeShapeToFitText = true;
+            dataLabels.IsInnerMode = false;
+            dataLabels.AutoScaleFont = true;
+            dataLabels.Background = BackgroundMode.Transparent;
+            dataLabels.IsAutomaticSize = true;
+            dataLabels.X = 0;
+            dataLabels.Y = 0;
+            dataLabels.Height = 100;
+            dataLabels.Width = 100;
+            dataLabels.Shadow = false;
+
+            // Save the workbook
+            workbook.Save("DataLabelsExample.xlsx");
+            workbook.Save("DataLabelsExample.pdf");
+        }
+    }
 }
-
-[Visual Basic]
-
-'Set the DataLabels in the chart
-Dim datalabels As DataLabels
-Dim i As Integer
-For i = 0 To chart.NSeries.Count - 1 Step 1
-    datalabels = chart.NSeries(i).DataLabels
-    'Set the position of DataLabels
-    datalabels.Position = LabelPositionType.InsideBase
-    'Show the category name in the DataLabels
-    datalabels.ShowCategoryName= True
-    'Show the value in the DataLabels
-    datalabels.ShowValue = True
-    'Not show the percentage in the DataLabels
-    datalabels.ShowPercentage = False
-    'Not show the legend key.
-    datalabels.ShowLegendKey = False
-Next
 ```
 
 ### See Also

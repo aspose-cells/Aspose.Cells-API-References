@@ -16,16 +16,35 @@ public double PaperWidth { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(8.5, setup.PaperWidth);
-public void PageSetup_Property_PaperWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A4"].PutValue("test");
-    Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-   Assert.AreEqual(11,setup.PaperHeight);
-    Assert.AreEqual(8.5, setup.PaperWidth);
+    public class PageSetupPropertyPaperWidthDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set some sample data
+            worksheet.Cells["A1"].PutValue("Sample Page Setup Demo");
+            
+            // Access the PageSetup of the worksheet
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Demonstrate PaperWidth property (read-only)
+            Console.WriteLine("Paper Width: " + pageSetup.PaperWidth);
+            
+            // To change paper size, use PaperSize property instead
+            pageSetup.PaperSize = PaperSizeType.PaperLetter;
+            Console.WriteLine("New Paper Width: " + pageSetup.PaperWidth);
+        }
+    }
 }
 ```
 

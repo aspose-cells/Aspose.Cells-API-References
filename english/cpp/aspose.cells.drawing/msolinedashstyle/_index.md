@@ -4,7 +4,7 @@ linktitle: MsoLineDashStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoLineDashStyle enum. Represents style of dash drawing lines in C++.'
 type: docs
-weight: 9900
+weight: 10100
 url: /cpp/aspose.cells.drawing/msolinedashstyle/
 ---
 ## MsoLineDashStyle enum

@@ -16,15 +16,40 @@ public double RowHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: double Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
-public void Range_Property_RowHeight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook sourceWorkbook = new Workbook(Constants.sourcePath +  "example.xlsx");
-    AutoFitterOptions oAutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true, IgnoreHidden = true, OnlyAuto = false };
-    double Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
-    sourceWorkbook.Worksheets[0].AutoFitRow(0, 0, 16383, oAutoFitterOptions);
-    Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
-    Assert.AreEqual(Height, 15.75);
+    public class RangePropertyRowHeightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some data in the first row
+            worksheet.Cells["A1"].PutValue("This is a test");
+            worksheet.Cells["B1"].PutValue("to demonstrate");
+            worksheet.Cells["C1"].PutValue("RowHeight property");
+
+            // Get initial row height
+            double initialHeight = worksheet.Cells.CreateRange("1:1").RowHeight;
+            Console.WriteLine("Initial row height: " + initialHeight);
+
+            // Auto-fit the row
+            worksheet.AutoFitRow(0);
+
+            // Get the new row height after auto-fit
+            double newHeight = worksheet.Cells.CreateRange("1:1").RowHeight;
+            Console.WriteLine("Row height after auto-fit: " + newHeight);
+
+            // Manually set a new row height
+            worksheet.Cells.CreateRange("1:1").RowHeight = 30;
+            Console.WriteLine("Row height after manual set: " + worksheet.Cells.CreateRange("1:1").RowHeight);
+        }
+    }
 }
 ```
 

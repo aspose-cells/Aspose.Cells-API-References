@@ -16,20 +16,38 @@ public bool DataExtractLoad { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.DataExtractLoad = true;
-public void WorkbookSettings_Property_DataExtractLoad()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Settings.AutoRecover = false;
-    workbook.Settings.DataExtractLoad = true;
-    workbook.Settings.CrashSave = true;
-    workbook.Settings.RepairLoad = true;
-    workbook.Save(Constants.destPath +"example.xlsx");
-    workbook = new Workbook(Constants.destPath +"example.xlsx");
-    Assert.AreEqual(workbook.Settings.AutoRecover, false);
-    Assert.AreEqual(workbook.Settings.DataExtractLoad, true);
-    Assert.AreEqual(workbook.Settings.CrashSave, true);
-    Assert.AreEqual(workbook.Settings.RepairLoad, true);
+    public class WorkbookSettingsPropertyDataExtractLoadDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Configure workbook settings
+            workbook.Settings.AutoRecover = false;
+            workbook.Settings.DataExtractLoad = true;
+            workbook.Settings.CrashSave = true;
+            workbook.Settings.RepairLoad = true;
+            
+            // Save the workbook
+            string destPath = "output.xlsx";
+            workbook.Save(destPath);
+            
+            // Reload the workbook to verify settings
+            Workbook loadedWorkbook = new Workbook(destPath);
+            
+            // Output the settings to console
+            Console.WriteLine("AutoRecover: " + loadedWorkbook.Settings.AutoRecover);
+            Console.WriteLine("DataExtractLoad: " + loadedWorkbook.Settings.DataExtractLoad);
+            Console.WriteLine("CrashSave: " + loadedWorkbook.Settings.CrashSave);
+            Console.WriteLine("RepairLoad: " + loadedWorkbook.Settings.RepairLoad);
+        }
+    }
 }
 ```
 

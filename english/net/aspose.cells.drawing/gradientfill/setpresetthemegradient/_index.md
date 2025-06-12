@@ -22,35 +22,47 @@ public void SetPresetThemeGradient(PresetThemeGradientType gradientType,
 ### Examples
 
 ```csharp
-// Called: ser.Area.FillFormat.GradientFill.SetPresetThemeGradient(PresetThemeGradientType.RadialGradient, ThemeColorType.Accent1);
-public void GradientFill_Method_SetPresetThemeGradient()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
+    public class GradientFillMethodSetPresetThemeGradientWithPresetThemeGradientTypeThemeCoDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    sheet.Cells["A2"].PutValue("カテゴリー1");
-    sheet.Cells["A3"].PutValue("カテゴリー2");
-    sheet.Cells["A4"].PutValue("カテゴリー3");
-    sheet.Cells["B1"].PutValue("列 1");
-    sheet.Cells["B2"].PutValue(4);
-    sheet.Cells["B3"].PutValue(20);
-    sheet.Cells["B4"].PutValue(50);
-    sheet.Cells["C1"].PutValue("列 2");
-    sheet.Cells["C2"].PutValue(50);
-    sheet.Cells["C3"].PutValue(100);
-    sheet.Cells["C4"].PutValue(150);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
 
-    int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
-    Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.SetChartDataRange("A1:A4", false);
 
-    chart.Title.Text = "マーケット";
-    chart.SetChartDataRange("A1:C4", true);
-    Series ser = chart.NSeries[0];
-    ser.Area.FillFormat.FillType = FillType.Gradient;
-    ser.Area.FillFormat.GradientFill.SetPresetThemeGradient(PresetThemeGradientType.RadialGradient, ThemeColorType.Accent1);
-    Assert.AreEqual(69, ser.Area.FillFormat.GradientFill.GradientStops[2].Position);
+            // Configure series fill with gradient
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            series.Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Gradient;
+            
+            // Demonstrate SetPresetThemeGradient with specified parameters
+            series.Area.FillFormat.GradientFill.SetPresetThemeGradient(
+                Aspose.Cells.Drawing.PresetThemeGradientType.RadialGradient, 
+                Aspose.Cells.ThemeColorType.Accent1);
 
-    wb.Save(Constants.destPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("GradientFillDemo.xlsx");
+        }
+    }
 }
 ```
 

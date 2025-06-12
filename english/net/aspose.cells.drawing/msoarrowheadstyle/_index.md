@@ -27,39 +27,41 @@ public enum MsoArrowheadStyle
 ### Examples
 
 ```csharp
-// Called: new Object[]{"EndArrowheadStyle", MsoArrowheadStyle.Arrow},
-public void Drawing_Type_MsoArrowheadStyle(Shape shape, LineShape lineshape) 
-        {
-            if (shape.UpperLeftRow == 21 && shape.UpperLeftColumn == 3 && shape.LowerRightRow == 26 && shape.LowerRightColumn == 6)
-            {    
-                    ReflectInvoker.invoke("lineshape", lineshape, new Object[][]{
-                    new Object[] {"HeightCM", 2.57, 0.01},
-                    new Object[] {"WidthCM", 5.95, 0.01},
-                    new Object[] {"RotationAngle", 0.0},
-                    new Object[] {"HeightScale", 100},
-                    new Object[] {"WidthScale", 100},
-                    new Object[] {"IsLockAspectRatio", false},
-                    new Object[] {"IsLocked", true},
-                    new Object[] {"Placement", PlacementType.MoveAndSize},
-                    new Object[] {"IsPrintable", true}
-                 });
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-                  MsoLineFormat msolineFormat = shape.LineFormat;
-                  ReflectInvoker.invoke("msolineFormat", msolineFormat, new Object[][]{
-                        new Object[] {"ForeColor", Color.Black},
-                        new Object[] {"DashStyle", MsoLineDashStyle.DashDot},
-                        new Object[] {"Weight", 0.75},
-                });     
-                ReflectInvoker.invoke("lineshape.Line", lineshape.Line, new Object[][]{
-				 new Object[]{"BeginArrowheadStyle",  MsoArrowheadStyle.ArrowStealth},
-				   new Object[]{"EndArrowheadStyle", MsoArrowheadStyle.Arrow},
-				   new Object[]{"BeginArrowheadLength",  MsoArrowheadLength.Medium},
-				   new Object[]{"EndArrowheadLength", MsoArrowheadLength.Medium}
-		       });
-                   
-            }
-      
+namespace AsposeCellsExamples
+{
+    public class DrawingClassMsoArrowheadStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            LineShape lineShape = worksheet.Shapes.AddLine(5, 5, 10, 10, 100, 100);
+
+            // Set line properties
+            MsoLineFormat lineFormat = lineShape.LineFormat;
+            lineFormat.ForeColor = System.Drawing.Color.Black;
+            lineFormat.DashStyle = MsoLineDashStyle.DashDot;
+            lineFormat.Weight = 0.75;
+
+            // Set arrowhead styles
+            lineShape.Line.BeginArrowheadStyle = MsoArrowheadStyle.ArrowStealth;
+            lineShape.Line.EndArrowheadStyle = MsoArrowheadStyle.Arrow;
+            lineShape.Line.BeginArrowheadLength = MsoArrowheadLength.Medium;
+            lineShape.Line.EndArrowheadLength = MsoArrowheadLength.Medium;
+
+            // Save the workbook
+            workbook.Save("MsoArrowheadStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

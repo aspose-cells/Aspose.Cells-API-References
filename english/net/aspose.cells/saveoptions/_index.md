@@ -17,7 +17,7 @@ public class SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The cached file folder is used to store some large data. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The folder for temporary files that may be used as data cache. |
 | [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -34,8 +34,39 @@ public class SaveOptions
 ### Examples
 
 ```csharp
-// Called: public static Workbook ReSave(Workbook wb, SaveOptions optsSave, LoadOptions optsLoad)
-public static Workbook Cells_Type_SaveOptions(Workbook wb, SaveOptions optsSave, LoadOptions optsLoad)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+
+            // Create save options - save as CSV
+            TxtSaveOptions saveOptions = new TxtSaveOptions();
+            saveOptions.Separator = ',';
+            
+            // Create load options for CSV
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
+
+            // Re-save the workbook using the options
+            Workbook resavedWorkbook = Cells_Type_SaveOptions(workbook, saveOptions, loadOptions);
+
+            // Save the result to file
+            resavedWorkbook.Save("output.csv", SaveFormat.Csv);
+        }
+
+        public static Workbook Cells_Type_SaveOptions(Workbook wb, SaveOptions optsSave, LoadOptions optsLoad)
         {
             using (MemoryStream ms = new MemoryStream(1048576))
             {
@@ -44,6 +75,8 @@ public static Workbook Cells_Type_SaveOptions(Workbook wb, SaveOptions optsSave,
                 return new Workbook(ms, optsLoad);
             }
         }
+    }
+}
 ```
 
 ### See Also

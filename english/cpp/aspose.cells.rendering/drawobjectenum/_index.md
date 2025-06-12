@@ -4,7 +4,7 @@ linktitle: DrawObjectEnum
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::DrawObjectEnum enum. Indicate Cell or Image of DrawObject in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.rendering/drawobjectenum/
 ---
 ## DrawObjectEnum enum

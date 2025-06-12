@@ -4,7 +4,7 @@ linktitle: CustomFunctionDefinition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFunctionDefinition class. Definition of custom function for calculating with user''s custom engine in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells/customfunctiondefinition/
 ---
 ## CustomFunctionDefinition class

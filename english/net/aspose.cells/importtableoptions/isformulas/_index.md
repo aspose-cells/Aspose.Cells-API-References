@@ -16,21 +16,40 @@ public bool[] IsFormulas { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.IsFormulas = new bool[] { true };
-public void ImportTableOptions_Property_IsFormulas()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].Formula = "=B1";
-    DataTable dt = new DataTable();
-    dt.Columns.Add("abasdf");
-    dt.Rows.Add("=HYPERLINK(\"https:\\domain.com\")");
-    ImportTableOptions options = new ImportTableOptions();
-    //  options.InsertRows = true;
-    options.IsFieldNameShown = true;
-    options.IsFormulas = new bool[] { true };
-    workbook.Worksheets[0].Cells.ImportData(dt, 0, 0, options);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A2"].Formula, "=HYPERLINK(\"https:\\domain.com\")");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ImportTableOptionsPropertyIsFormulasDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create sample data table with formula content
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Column1");
+            dt.Rows.Add("=SUM(1,2,3)");
+            dt.Rows.Add("=AVERAGE(4,5,6)");
+
+            // Set import options with IsFormulas property
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFormulas = new bool[] { true }; // Treat first column as formulas
+            
+            // Import data with formulas
+            workbook.Worksheets[0].Cells.ImportData(dt, 0, 0, options);
+
+            // Verify the formulas were imported correctly
+            Console.WriteLine("Cell A1 formula: " + workbook.Worksheets[0].Cells["A1"].Formula);
+            Console.WriteLine("Cell A2 formula: " + workbook.Worksheets[0].Cells["A2"].Formula);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,15 +24,44 @@ public class PaneCollection
 ### Examples
 
 ```csharp
-// Called: PaneCollection panes = sheet.GetPanes();
-public void Cells_Type_PaneCollection()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
-    PaneCollection panes = sheet.GetPanes();
-    panes.FirstVisibleRowOfBottomPane = 5;
-    panes.FirstVisibleColumnOfRightPane = 1;
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
+    public class CellsClassPaneCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].Value = $"Row {i}, Col {j}";
+                }
+            }
+            
+            // Freeze panes at row 5, column 1
+            sheet.FreezePanes(5, 1, 5, 1);
+            
+            // Get pane collection
+            PaneCollection panes = sheet.GetPanes();
+            
+            // Modify pane settings
+            panes.FirstVisibleRowOfBottomPane = 5;
+            panes.FirstVisibleColumnOfRightPane = 1;
+            
+            // Save the workbook
+            workbook.Save("PaneCollectionDemo.xls", SaveFormat.Excel97To2003);
+            
+            Console.WriteLine("PaneCollection demo executed successfully.");
+        }
+    }
 }
 ```
 

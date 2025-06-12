@@ -16,8 +16,38 @@ public bool AllowFormattingColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (protection.AllowFormattingColumn) { flag |= 0x0080; }
-private int Protection_Property_AllowFormattingColumn(Protection protection)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowFormattingColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access protection settings
+            Protection protection = worksheet.Protection;
+
+            // Set AllowFormattingColumn property
+            protection.AllowFormattingColumn = true;
+
+            // Verify and print the property value
+            Console.WriteLine("AllowFormattingColumn: " + protection.AllowFormattingColumn);
+
+            // Demonstrate setting multiple protection properties
+            protection.AllowDeletingColumn = true;
+            protection.AllowFormattingRow = true;
+
+            // Call the flag calculation method
+            int protectionFlags = CalculateProtectionFlags(protection);
+            Console.WriteLine("Protection Flags: 0x" + protectionFlags.ToString("X4"));
+        }
+
+        private static int CalculateProtectionFlags(Protection protection)
         {
             int flag = 0;
             if (protection.AllowDeletingColumn) { flag |= 0x0001; }
@@ -38,6 +68,8 @@ private int Protection_Property_AllowFormattingColumn(Protection protection)
             if (protection.AllowUsingPivotTable) { flag |= 0x8000; }
             return flag;
         }
+    }
+}
 ```
 
 ### See Also

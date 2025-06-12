@@ -20,32 +20,35 @@ When loading workbook from existing template file, maybe both built-in number an
 ### Examples
 
 ```csharp
-// Called: defaultStyleSettings.BuiltInPreference = false;
-public static void DefaultStyleSettings_Property_BuiltInPreference()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DefaultStyleSettingsPropertyBuiltInPreferenceDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the default style settings of the workbook
+
+            // Access default style settings
             DefaultStyleSettings defaultStyleSettings = workbook.Settings.DefaultStyleSettings;
 
-            // Setting properties
+            // Demonstrate BuiltInPreference property
             defaultStyleSettings.BuiltInPreference = false;
             defaultStyleSettings.FontName = "Arial";
-            defaultStyleSettings.FontSize = 12.0;
-            defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
-            defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
+            defaultStyleSettings.FontSize = 12;
 
-            // Apply the default style settings to the first worksheet
+            // Apply to worksheet
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
-
+            worksheet.Cells["A1"].PutValue("Sample Text");
+            
             // Save the workbook
-            workbook.Save("DefaultStyleSettingsExample.xlsx");
-            workbook.Save("DefaultStyleSettingsExample.pdf");
-
-            return;
+            workbook.Save("BuiltInPreferenceDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

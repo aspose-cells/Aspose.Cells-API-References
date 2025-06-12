@@ -16,38 +16,36 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: font.Color = Color.Blue;
-public static void RenderingFont_Property_Color()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingFontPropertyColorDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
+            worksheet.Cells["A1"].PutValue("Testing font color property");
 
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont("Calibri", 68);
-            font.Italic = true;
+            RenderingFont font = new RenderingFont("Arial", 16);
+            font.Color = System.Drawing.Color.Red;
             font.Bold = true;
-            font.Color = Color.Blue;
 
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
-
-            // Set properties for the watermark
-            watermark.HAlignment = TextAlignmentType.Center;
-            watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
-            watermark.IsBackground = true;
-
-            // Specify watermark for rendering to PDF
             PdfSaveOptions options = new PdfSaveOptions();
-            options.Watermark = watermark;
+            options.Watermark = new RenderingWatermark("COLOR DEMO", font)
+            {
+                Opacity = 0.5f,
+                IsBackground = true
+            };
 
-            // Save the workbook as a PDF with the watermark
-            workbook.Save("output_watermark.pdf", options);
+            workbook.Save("FontColorDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

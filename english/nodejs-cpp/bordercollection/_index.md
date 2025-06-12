@@ -22,47 +22,72 @@ const { Workbook, BorderType, CellBorderType, Color } = require("aspose.cells.no
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Accessing the "A1" cell from the worksheet
-var cell = worksheet.getCells().get("A1");
+var cell = worksheet.cells.get("A1");
 //Adding some value to the "A1" cell
 cell.putValue("Visit Aspose!");
 //Get style object from cell
 var style = cell.getStyle();
 //Setting the line style of the top border
-style.getBorders().get(BorderType.TopBorder).setLineStyle(CellBorderType.Thick);
+style.borders.get(BorderType.TopBorder).lineStyle = CellBorderType.Thick;
 //Setting the color of the top border
-style.getBorders().get(BorderType.TopBorder).setColor(Color.Black);
+style.borders.get(BorderType.TopBorder).color = Color.Black;
 //Setting the line style of the bottom border
-style.getBorders().get(BorderType.BottomBorder).setLineStyle(CellBorderType.Thick);
+style.borders.get(BorderType.BottomBorder).lineStyle = CellBorderType.Thick;
 //Setting the color of the bottom border
-style.getBorders().get(BorderType.BottomBorder).setColor(Color.Black);
+style.borders.get(BorderType.BottomBorder).color = Color.Black;
 //Setting the line style of the left border
-style.getBorders().get(BorderType.LeftBorder).setLineStyle(CellBorderType.Thick);
+style.borders.get(BorderType.LeftBorder).lineStyle = CellBorderType.Thick;
 //Setting the color of the left border
-style.getBorders().get(BorderType.LeftBorder).setColor(Color.Black);
+style.borders.get(BorderType.LeftBorder).color = Color.Black;
 //Setting the line style of the right border
-style.getBorders().get(BorderType.RightBorder).setLineStyle(CellBorderType.Thick);
+style.borders.get(BorderType.RightBorder).lineStyle = CellBorderType.Thick;
 //Setting the color of the right border
-style.getBorders().get(BorderType.RightBorder).setColor(Color.Black);
+style.borders.get(BorderType.RightBorder).color = Color.Black;
 //Set style object to cell
 cell.setStyle(style);
 
 //Saving the Excel file
 workbook.save("output/BorderCollection.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [diagonalColor](#diagonalColor--)| Color | Gets or sets the [Color](../color/) of Diagonal lines. |
+| [diagonalStyle](#diagonalStyle--)| CellBorderType | Gets or sets the style of Diagonal lines. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(BorderType)](#get-bordertype-)| Gets the [Border](../border/) element at the specified index. |
-| [getDiagonalColor()](#getDiagonalColor--)| Gets or sets the [Color](../color/) of Diagonal lines. |
-| [setDiagonalColor(Color)](#setDiagonalColor-color-)| Gets or sets the [Color](../color/) of Diagonal lines. |
-| [getDiagonalStyle()](#getDiagonalStyle--)| Gets or sets the style of Diagonal lines. |
-| [setDiagonalStyle(CellBorderType)](#setDiagonalStyle-cellbordertype-)| Gets or sets the style of Diagonal lines. |
+| [getDiagonalColor()](#getDiagonalColor--)| <b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines. |
+| [setDiagonalColor(Color)](#setDiagonalColor-color-)| <b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines. |
+| [getDiagonalStyle()](#getDiagonalStyle--)| <b>@deprecated.</b> Please use the 'diagonalStyle' property instead. Gets or sets the style of Diagonal lines. |
+| [setDiagonalStyle(CellBorderType)](#setDiagonalStyle-cellbordertype-)| <b>@deprecated.</b> Please use the 'diagonalStyle' property instead. Gets or sets the style of Diagonal lines. |
 | [setColor(Color)](#setColor-color-)| Sets the [Color](../color/) of all borders in the collection. |
 | [setStyle(CellBorderType)](#setStyle-cellbordertype-)| Sets the style of all borders of the collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### diagonalColor {#diagonalColor--}
+
+Gets or sets the [Color](../color/) of Diagonal lines.
+
+```javascript
+diagonalColor : Color;
+```
+
+
+### diagonalStyle {#diagonalStyle--}
+
+Gets or sets the style of Diagonal lines.
+
+```javascript
+diagonalStyle : CellBorderType;
+```
 
 
 ### get(BorderType) {#get-bordertype-}
@@ -84,7 +109,7 @@ The element at the specified index.
 
 ### getDiagonalColor() {#getDiagonalColor--}
 
-Gets or sets the [Color](../color/) of Diagonal lines.
+<b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines.
 
 ```javascript
 getDiagonalColor() : Color;
@@ -97,7 +122,7 @@ getDiagonalColor() : Color;
 
 ### setDiagonalColor(Color) {#setDiagonalColor-color-}
 
-Gets or sets the [Color](../color/) of Diagonal lines.
+<b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines.
 
 ```javascript
 setDiagonalColor(value: Color) : void;
@@ -110,7 +135,7 @@ setDiagonalColor(value: Color) : void;
 
 ### getDiagonalStyle() {#getDiagonalStyle--}
 
-Gets or sets the style of Diagonal lines.
+<b>@deprecated.</b> Please use the 'diagonalStyle' property instead. Gets or sets the style of Diagonal lines.
 
 ```javascript
 getDiagonalStyle() : CellBorderType;
@@ -123,7 +148,7 @@ getDiagonalStyle() : CellBorderType;
 
 ### setDiagonalStyle(CellBorderType) {#setDiagonalStyle-cellbordertype-}
 
-Gets or sets the style of Diagonal lines.
+<b>@deprecated.</b> Please use the 'diagonalStyle' property instead. Gets or sets the style of Diagonal lines.
 
 ```javascript
 setDiagonalStyle(value: CellBorderType) : void;

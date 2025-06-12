@@ -16,10 +16,40 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(activeXControl.IsWordWrapped == false)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.IsWordWrapped = true;
+    public class RadioButtonActiveXControlPropertyIsWordWrappedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a RadioButton ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.RadioButton,
+                1, 1, 100, 50, 100, 50);
+            Aspose.Cells.Drawing.ActiveXControls.RadioButtonActiveXControl radioButton = 
+                (Aspose.Cells.Drawing.ActiveXControls.RadioButtonActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate IsWordWrapped property
+            Console.WriteLine("Initial IsWordWrapped value: " + radioButton.IsWordWrapped);
+            
+            radioButton.IsWordWrapped = true;
+            Console.WriteLine("After setting IsWordWrapped to true: " + radioButton.IsWordWrapped);
+            
+            radioButton.IsWordWrapped = false;
+            Console.WriteLine("After setting IsWordWrapped to false: " + radioButton.IsWordWrapped);
+
+            // Save the workbook
+            workbook.Save("RadioButtonIsWordWrappedDemo.xlsx");
+        }
+    }
 }
 ```
 

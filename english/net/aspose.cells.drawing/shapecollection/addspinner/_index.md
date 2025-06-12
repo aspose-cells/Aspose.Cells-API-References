@@ -30,10 +30,34 @@ A Spinner object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a spinner
-Spinner spinner = shapes.AddSpinner(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddSpinnerWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a spinner to the worksheet
+            Aspose.Cells.Drawing.Spinner spinner = (Aspose.Cells.Drawing.Spinner)worksheet.Shapes.AddSpinner(1, 0, 1, 0, 100, 50);
+
+            // Set spinner properties
+            spinner.LinkedCell = "A1";
+            spinner.Min = 0;
+            spinner.Max = 100;
+            spinner.IncrementalChange = 1;
+
+            // Save the workbook
+            workbook.Save("AddSpinnerDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

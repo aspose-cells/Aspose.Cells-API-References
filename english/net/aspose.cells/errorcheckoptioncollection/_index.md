@@ -57,35 +57,32 @@ public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 ### Examples
 
 ```csharp
-// Called: ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
-public static void Cells_Type_ErrorCheckOptionCollection()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassErrorCheckOptionCollectionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the ErrorCheckOptionCollection
             ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
-
-            // Add a new ErrorCheckOption
             int optionIndex = errorCheckOptions.Add();
             ErrorCheckOption errorCheckOption = errorCheckOptions[optionIndex];
 
-            // Set various error check types to false
             errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
-            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistRange, false);
-            errorCheckOption.SetErrorCheck(ErrorCheckType.TextDate, false);
             errorCheckOption.SetErrorCheck(ErrorCheckType.TextNumber, false);
-            errorCheckOption.SetErrorCheck(ErrorCheckType.Validation, false);
 
-            // Define a cell area for the error check option
-            CellArea cellArea = CellArea.CreateCellArea("A1", "B10");
+            CellArea cellArea = CellArea.CreateCellArea("A1", "C5");
             errorCheckOption.AddRange(cellArea);
 
-            // Save the workbook
-            workbook.Save("ErrorCheckTypeExample.xlsx");
-            workbook.Save("ErrorCheckTypeExample.pdf");
+            workbook.Save("ErrorCheckOptionsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

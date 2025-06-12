@@ -22,7 +22,7 @@ class SparklineCollection;
 | [get(number)](#get-number-)| Gets the [Sparkline](../sparkline/) element at the specified index. |
 | [add(string, number, number)](#add-string-number-number-)| Add a sparkline. |
 | [remove(Object)](#remove-object-)| Removes the sparkline |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -73,7 +73,7 @@ remove(o: Object) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

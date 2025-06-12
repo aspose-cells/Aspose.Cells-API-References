@@ -28,15 +28,29 @@ The converted formula.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
-public void Worksheet_Method_ConvertFormulaReferenceStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    string fml = "R[0]C23,testDS,R[0]C24";
-    Assert.AreEqual("$W1,testDS,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
-    fml = "R[0]C23,testDS,rcurr,R[0]C24";
-    Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+    public class WorksheetMethodConvertFormulaReferenceStyleWithStringBooleanInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Example 1: Convert R1C1 style to A1 style
+            string formulaR1C1 = "R[0]C23,testDS,R[0]C24";
+            string formulaA1 = sheet.ConvertFormulaReferenceStyle(formulaR1C1, false, 0, 0);
+            Console.WriteLine("Converted formula: " + formulaA1);
+
+            // Example 2: Convert with mixed references
+            string formulaMixed = "R[0]C23,testDS,rcurr,R[0]C24";
+            string convertedMixed = sheet.ConvertFormulaReferenceStyle(formulaMixed, false, 0, 0);
+            Console.WriteLine("Converted mixed formula: " + convertedMixed);
+        }
+    }
 }
 ```
 

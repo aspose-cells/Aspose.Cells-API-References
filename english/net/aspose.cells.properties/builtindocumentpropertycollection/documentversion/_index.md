@@ -16,23 +16,28 @@ public string DocumentVersion { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("test_version", wb.BuiltInDocumentProperties.DocumentVersion);
-public void BuiltInDocumentPropertyCollection_Property_DocumentVersion()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    //Console.WriteLine(wb.BuiltInDocumentProperties.ContentType);
-    Assert.AreEqual("test_content_status", wb.BuiltInDocumentProperties.ContentStatus);
-    Assert.AreEqual("test_version", wb.BuiltInDocumentProperties.DocumentVersion);
-    // wb.Worksheets[0].ListObjects[0].ConvertToRange();
-    // wb.Worksheets[1].ListObjects[0].ConvertToRange();
-    Util.ReSave(wb, SaveFormat.Xlsx);
-    wb = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual("test_content_type", wb.BuiltInDocumentProperties.ContentType);
-    Assert.AreEqual("test_content_status", wb.BuiltInDocumentProperties.ContentStatus);
-    Assert.AreEqual("test_version", wb.BuiltInDocumentProperties.DocumentVersion);
-    // wb.Worksheets[0].ListObjects[0].ConvertToRange();
-    // wb.Worksheets[1].ListObjects[0].ConvertToRange();
-    Util.ReSave(wb, SaveFormat.Xlsx);
+    public class BuiltInDocumentPropertyCollectionPropertyDocumentVersionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set document version property
+            workbook.BuiltInDocumentProperties.DocumentVersion = "1.0";
+            
+            // Display the document version
+            Console.WriteLine("Document Version: " + workbook.BuiltInDocumentProperties.DocumentVersion);
+            
+            // Save the workbook
+            workbook.Save("DocumentVersionDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

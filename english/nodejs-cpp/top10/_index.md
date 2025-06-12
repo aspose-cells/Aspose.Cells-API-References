@@ -17,20 +17,28 @@ class Top10;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isPercent](#isPercent--)| boolean | Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false. |
+| [isBottom](#isBottom--)| boolean | Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
+| [rank](#rank--)| number | Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isPercent()](#isPercent--)| Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false. |
-| [setIsPercent(boolean)](#setIsPercent-boolean-)| Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false. |
-| [isBottom()](#isBottom--)| Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
-| [setIsBottom(boolean)](#setIsBottom-boolean-)| Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
-| [getRank()](#getRank--)| Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
-| [setRank(number)](#setRank-number-)| Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
+| [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false. |
+| [setIsPercent(boolean)](#setIsPercent-boolean-)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false. |
+| [isBottom()](#isBottom--)| <b>@deprecated.</b> Please use the 'isBottom' property instead. Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
+| [setIsBottom(boolean)](#setIsBottom-boolean-)| <b>@deprecated.</b> Please use the 'isBottom' property instead. Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
+| [getRank()](#getRank--)| <b>@deprecated.</b> Please use the 'rank' property instead. Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
+| [setRank(number)](#setRank-number-)| <b>@deprecated.</b> Please use the 'rank' property instead. Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,36 @@ constructor();
 ```
 
 
-### isPercent() {#isPercent--}
+### isPercent {#isPercent--}
 
 Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+
+```javascript
+isPercent : boolean;
+```
+
+
+### isBottom {#isBottom--}
+
+Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+
+```javascript
+isBottom : boolean;
+```
+
+
+### rank {#rank--}
+
+Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+
+```javascript
+rank : number;
+```
+
+
+### isPercent() {#isPercent--}
+
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
 
 ```javascript
 isPercent() : boolean;
@@ -54,7 +89,7 @@ isPercent() : boolean;
 
 ### setIsPercent(boolean) {#setIsPercent-boolean-}
 
-Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Get or set whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
 
 ```javascript
 setIsPercent(value: boolean) : void;
@@ -67,7 +102,7 @@ setIsPercent(value: boolean) : void;
 
 ### isBottom() {#isBottom--}
 
-Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+<b>@deprecated.</b> Please use the 'isBottom' property instead. Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
 
 ```javascript
 isBottom() : boolean;
@@ -76,7 +111,7 @@ isBottom() : boolean;
 
 ### setIsBottom(boolean) {#setIsBottom-boolean-}
 
-Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+<b>@deprecated.</b> Please use the 'isBottom' property instead. Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
 
 ```javascript
 setIsBottom(value: boolean) : void;
@@ -89,7 +124,7 @@ setIsBottom(value: boolean) : void;
 
 ### getRank() {#getRank--}
 
-Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+<b>@deprecated.</b> Please use the 'rank' property instead. Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 ```javascript
 getRank() : number;
@@ -98,7 +133,7 @@ getRank() : number;
 
 ### setRank(number) {#setRank-number-}
 
-Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+<b>@deprecated.</b> Please use the 'rank' property instead. Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 ```javascript
 setRank(value: number) : void;

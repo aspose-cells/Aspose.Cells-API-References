@@ -17,34 +17,49 @@ class PdfSecurityOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| The constructor of PdfSecurityOptions |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [userPassword](#userPassword--)| string | Gets or sets the user password required for opening the encrypted PDF document. |
+| [ownerPassword](#ownerPassword--)| string | Gets or sets the owner password for the encrypted PDF document. |
+| [printPermission](#printPermission--)| boolean | Indicates whether to allow to print the document. |
+| [modifyDocumentPermission](#modifyDocumentPermission--)| boolean | Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
+| [annotationsPermission](#annotationsPermission--)| boolean | Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
+| [fillFormsPermission](#fillFormsPermission--)| boolean | Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [extractContentPermission](#extractContentPermission--)| boolean | Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
+| [accessibilityExtractContent](#accessibilityExtractContent--)| boolean | Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
+| [assembleDocumentPermission](#assembleDocumentPermission--)| boolean | Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [fullQualityPrintPermission](#fullQualityPrintPermission--)| boolean | Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getUserPassword()](#getUserPassword--)| Gets or sets the user password required for opening the encrypted PDF document. |
-| [setUserPassword(string)](#setUserPassword-string-)| Gets or sets the user password required for opening the encrypted PDF document. |
-| [getOwnerPassword()](#getOwnerPassword--)| Gets or sets the owner password for the encrypted PDF document. |
-| [setOwnerPassword(string)](#setOwnerPassword-string-)| Gets or sets the owner password for the encrypted PDF document. |
-| [getPrintPermission()](#getPrintPermission--)| Indicates whether to allow to print the document. |
-| [setPrintPermission(boolean)](#setPrintPermission-boolean-)| Indicates whether to allow to print the document. |
-| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
-| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
-| [getAnnotationsPermission()](#getAnnotationsPermission--)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
-| [setAnnotationsPermission(boolean)](#setAnnotationsPermission-boolean-)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
-| [getFillFormsPermission()](#getFillFormsPermission--)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
-| [setFillFormsPermission(boolean)](#setFillFormsPermission-boolean-)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
-| [getExtractContentPermission()](#getExtractContentPermission--)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
-| [setExtractContentPermission(boolean)](#setExtractContentPermission-boolean-)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
-| [getAccessibilityExtractContent()](#getAccessibilityExtractContent--)| Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
-| [setAccessibilityExtractContent(boolean)](#setAccessibilityExtractContent-boolean-)| Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
-| [getAssembleDocumentPermission()](#getAssembleDocumentPermission--)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
-| [setAssembleDocumentPermission(boolean)](#setAssembleDocumentPermission-boolean-)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
-| [getFullQualityPrintPermission()](#getFullQualityPrintPermission--)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
-| [setFullQualityPrintPermission(boolean)](#setFullQualityPrintPermission-boolean-)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
+| [getUserPassword()](#getUserPassword--)| <b>@deprecated.</b> Please use the 'userPassword' property instead. Gets or sets the user password required for opening the encrypted PDF document. |
+| [setUserPassword(string)](#setUserPassword-string-)| <b>@deprecated.</b> Please use the 'userPassword' property instead. Gets or sets the user password required for opening the encrypted PDF document. |
+| [getOwnerPassword()](#getOwnerPassword--)| <b>@deprecated.</b> Please use the 'ownerPassword' property instead. Gets or sets the owner password for the encrypted PDF document. |
+| [setOwnerPassword(string)](#setOwnerPassword-string-)| <b>@deprecated.</b> Please use the 'ownerPassword' property instead. Gets or sets the owner password for the encrypted PDF document. |
+| [getPrintPermission()](#getPrintPermission--)| <b>@deprecated.</b> Please use the 'printPermission' property instead. Indicates whether to allow to print the document. |
+| [setPrintPermission(boolean)](#setPrintPermission-boolean-)| <b>@deprecated.</b> Please use the 'printPermission' property instead. Indicates whether to allow to print the document. |
+| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| <b>@deprecated.</b> Please use the 'modifyDocumentPermission' property instead. Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
+| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| <b>@deprecated.</b> Please use the 'modifyDocumentPermission' property instead. Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
+| [getAnnotationsPermission()](#getAnnotationsPermission--)| <b>@deprecated.</b> Please use the 'annotationsPermission' property instead. Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
+| [setAnnotationsPermission(boolean)](#setAnnotationsPermission-boolean-)| <b>@deprecated.</b> Please use the 'annotationsPermission' property instead. Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
+| [getFillFormsPermission()](#getFillFormsPermission--)| <b>@deprecated.</b> Please use the 'fillFormsPermission' property instead. Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [setFillFormsPermission(boolean)](#setFillFormsPermission-boolean-)| <b>@deprecated.</b> Please use the 'fillFormsPermission' property instead. Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [getExtractContentPermission()](#getExtractContentPermission--)| <b>@deprecated.</b> Please use the 'extractContentPermission' property instead. Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
+| [setExtractContentPermission(boolean)](#setExtractContentPermission-boolean-)| <b>@deprecated.</b> Please use the 'extractContentPermission' property instead. Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
+| [getAccessibilityExtractContent()](#getAccessibilityExtractContent--)| <b>@deprecated.</b> Please use the 'accessibilityExtractContent' property instead. Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
+| [setAccessibilityExtractContent(boolean)](#setAccessibilityExtractContent-boolean-)| <b>@deprecated.</b> Please use the 'accessibilityExtractContent' property instead. Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
+| [getAssembleDocumentPermission()](#getAssembleDocumentPermission--)| <b>@deprecated.</b> Please use the 'assembleDocumentPermission' property instead. Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [setAssembleDocumentPermission(boolean)](#setAssembleDocumentPermission-boolean-)| <b>@deprecated.</b> Please use the 'assembleDocumentPermission' property instead. Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [getFullQualityPrintPermission()](#getFullQualityPrintPermission--)| <b>@deprecated.</b> Please use the 'fullQualityPrintPermission' property instead. Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
+| [setFullQualityPrintPermission(boolean)](#setFullQualityPrintPermission-boolean-)| <b>@deprecated.</b> Please use the 'fullQualityPrintPermission' property instead. Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -57,9 +72,119 @@ constructor();
 ```
 
 
-### getUserPassword() {#getUserPassword--}
+### userPassword {#userPassword--}
 
 Gets or sets the user password required for opening the encrypted PDF document.
+
+```javascript
+userPassword : string;
+```
+
+
+**Remarks**
+
+The owner password or user password will be required to open an encrypted PDF document for viewing.</p> <p>The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.</p> <p>Opening the document with the correct owner password allows full access to the document.</p> <p>Opening the document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.
+
+### ownerPassword {#ownerPassword--}
+
+Gets or sets the owner password for the encrypted PDF document.
+
+```javascript
+ownerPassword : string;
+```
+
+
+**Remarks**
+
+The owner password allows the user to open an encrypted PDF document without any access restrictions specified.
+
+### printPermission {#printPermission--}
+
+Indicates whether to allow to print the document.
+
+```javascript
+printPermission : boolean;
+```
+
+
+**Remarks**
+
+Possibly not at the highest quality level, depending on whether [FullQualityPrintPermission](../fullqualityprintpermission/) is also set.
+
+### modifyDocumentPermission {#modifyDocumentPermission--}
+
+Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
+
+```javascript
+modifyDocumentPermission : boolean;
+```
+
+
+### annotationsPermission {#annotationsPermission--}
+
+Indicates whether to allow to add or modify text annotations, fill in interactive form fields.
+
+```javascript
+annotationsPermission : boolean;
+```
+
+
+**Remarks**
+
+if [ModifyDocumentPermission](../modifydocumentpermission/) is also set, create or modify interactive form fields (including signature fields).
+
+### fillFormsPermission {#fillFormsPermission--}
+
+Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+
+```javascript
+fillFormsPermission : boolean;
+```
+
+
+### extractContentPermission {#extractContentPermission--}
+
+Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
+
+```javascript
+extractContentPermission : boolean;
+```
+
+
+### accessibilityExtractContent {#accessibilityExtractContent--}
+
+Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
+
+```javascript
+accessibilityExtractContent : boolean;
+```
+
+
+### assembleDocumentPermission {#assembleDocumentPermission--}
+
+Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+
+```javascript
+assembleDocumentPermission : boolean;
+```
+
+
+### fullQualityPrintPermission {#fullQualityPrintPermission--}
+
+Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated.
+
+```javascript
+fullQualityPrintPermission : boolean;
+```
+
+
+**Remarks**
+
+When it is clear (and [PrintPermission](../printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
+
+### getUserPassword() {#getUserPassword--}
+
+<b>@deprecated.</b> Please use the 'userPassword' property instead. Gets or sets the user password required for opening the encrypted PDF document.
 
 ```javascript
 getUserPassword() : string;
@@ -72,7 +197,7 @@ The owner password or user password will be required to open an encrypted PDF do
 
 ### setUserPassword(string) {#setUserPassword-string-}
 
-Gets or sets the user password required for opening the encrypted PDF document.
+<b>@deprecated.</b> Please use the 'userPassword' property instead. Gets or sets the user password required for opening the encrypted PDF document.
 
 ```javascript
 setUserPassword(value: string) : void;
@@ -89,7 +214,7 @@ The owner password or user password will be required to open an encrypted PDF do
 
 ### getOwnerPassword() {#getOwnerPassword--}
 
-Gets or sets the owner password for the encrypted PDF document.
+<b>@deprecated.</b> Please use the 'ownerPassword' property instead. Gets or sets the owner password for the encrypted PDF document.
 
 ```javascript
 getOwnerPassword() : string;
@@ -102,7 +227,7 @@ The owner password allows the user to open an encrypted PDF document without any
 
 ### setOwnerPassword(string) {#setOwnerPassword-string-}
 
-Gets or sets the owner password for the encrypted PDF document.
+<b>@deprecated.</b> Please use the 'ownerPassword' property instead. Gets or sets the owner password for the encrypted PDF document.
 
 ```javascript
 setOwnerPassword(value: string) : void;
@@ -119,7 +244,7 @@ The owner password allows the user to open an encrypted PDF document without any
 
 ### getPrintPermission() {#getPrintPermission--}
 
-Indicates whether to allow to print the document.
+<b>@deprecated.</b> Please use the 'printPermission' property instead. Indicates whether to allow to print the document.
 
 ```javascript
 getPrintPermission() : boolean;
@@ -132,7 +257,7 @@ Possibly not at the highest quality level, depending on whether [FullQualityPrin
 
 ### setPrintPermission(boolean) {#setPrintPermission-boolean-}
 
-Indicates whether to allow to print the document.
+<b>@deprecated.</b> Please use the 'printPermission' property instead. Indicates whether to allow to print the document.
 
 ```javascript
 setPrintPermission(value: boolean) : void;
@@ -149,7 +274,7 @@ Possibly not at the highest quality level, depending on whether [FullQualityPrin
 
 ### getModifyDocumentPermission() {#getModifyDocumentPermission--}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
+<b>@deprecated.</b> Please use the 'modifyDocumentPermission' property instead. Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
 
 ```javascript
 getModifyDocumentPermission() : boolean;
@@ -158,7 +283,7 @@ getModifyDocumentPermission() : boolean;
 
 ### setModifyDocumentPermission(boolean) {#setModifyDocumentPermission-boolean-}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
+<b>@deprecated.</b> Please use the 'modifyDocumentPermission' property instead. Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
 
 ```javascript
 setModifyDocumentPermission(value: boolean) : void;
@@ -171,7 +296,7 @@ setModifyDocumentPermission(value: boolean) : void;
 
 ### getAnnotationsPermission() {#getAnnotationsPermission--}
 
-Indicates whether to allow to add or modify text annotations, fill in interactive form fields.
+<b>@deprecated.</b> Please use the 'annotationsPermission' property instead. Indicates whether to allow to add or modify text annotations, fill in interactive form fields.
 
 ```javascript
 getAnnotationsPermission() : boolean;
@@ -184,7 +309,7 @@ if [ModifyDocumentPermission](../modifydocumentpermission/) is also set, create 
 
 ### setAnnotationsPermission(boolean) {#setAnnotationsPermission-boolean-}
 
-Indicates whether to allow to add or modify text annotations, fill in interactive form fields.
+<b>@deprecated.</b> Please use the 'annotationsPermission' property instead. Indicates whether to allow to add or modify text annotations, fill in interactive form fields.
 
 ```javascript
 setAnnotationsPermission(value: boolean) : void;
@@ -201,7 +326,7 @@ if [ModifyDocumentPermission](../modifydocumentpermission/) is also set, create 
 
 ### getFillFormsPermission() {#getFillFormsPermission--}
 
-Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+<b>@deprecated.</b> Please use the 'fillFormsPermission' property instead. Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 getFillFormsPermission() : boolean;
@@ -210,7 +335,7 @@ getFillFormsPermission() : boolean;
 
 ### setFillFormsPermission(boolean) {#setFillFormsPermission-boolean-}
 
-Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+<b>@deprecated.</b> Please use the 'fillFormsPermission' property instead. Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 setFillFormsPermission(value: boolean) : void;
@@ -223,7 +348,7 @@ setFillFormsPermission(value: boolean) : void;
 
 ### getExtractContentPermission() {#getExtractContentPermission--}
 
-Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
+<b>@deprecated.</b> Please use the 'extractContentPermission' property instead. Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
 
 ```javascript
 getExtractContentPermission() : boolean;
@@ -232,7 +357,7 @@ getExtractContentPermission() : boolean;
 
 ### setExtractContentPermission(boolean) {#setExtractContentPermission-boolean-}
 
-Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
+<b>@deprecated.</b> Please use the 'extractContentPermission' property instead. Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
 
 ```javascript
 setExtractContentPermission(value: boolean) : void;
@@ -245,7 +370,7 @@ setExtractContentPermission(value: boolean) : void;
 
 ### getAccessibilityExtractContent() {#getAccessibilityExtractContent--}
 
-Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
+<b>@deprecated.</b> Please use the 'accessibilityExtractContent' property instead. Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
 
 ```javascript
 getAccessibilityExtractContent() : boolean;
@@ -254,7 +379,7 @@ getAccessibilityExtractContent() : boolean;
 
 ### setAccessibilityExtractContent(boolean) {#setAccessibilityExtractContent-boolean-}
 
-Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
+<b>@deprecated.</b> Please use the 'accessibilityExtractContent' property instead. Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
 
 ```javascript
 setAccessibilityExtractContent(value: boolean) : void;
@@ -267,7 +392,7 @@ setAccessibilityExtractContent(value: boolean) : void;
 
 ### getAssembleDocumentPermission() {#getAssembleDocumentPermission--}
 
-Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+<b>@deprecated.</b> Please use the 'assembleDocumentPermission' property instead. Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 getAssembleDocumentPermission() : boolean;
@@ -276,7 +401,7 @@ getAssembleDocumentPermission() : boolean;
 
 ### setAssembleDocumentPermission(boolean) {#setAssembleDocumentPermission-boolean-}
 
-Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
+<b>@deprecated.</b> Please use the 'assembleDocumentPermission' property instead. Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 setAssembleDocumentPermission(value: boolean) : void;
@@ -289,7 +414,7 @@ setAssembleDocumentPermission(value: boolean) : void;
 
 ### getFullQualityPrintPermission() {#getFullQualityPrintPermission--}
 
-Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated.
+<b>@deprecated.</b> Please use the 'fullQualityPrintPermission' property instead. Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated.
 
 ```javascript
 getFullQualityPrintPermission() : boolean;
@@ -302,7 +427,7 @@ When it is clear (and [PrintPermission](../printpermission/) is set), printing i
 
 ### setFullQualityPrintPermission(boolean) {#setFullQualityPrintPermission-boolean-}
 
-Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated.
+<b>@deprecated.</b> Please use the 'fullQualityPrintPermission' property instead. Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated.
 
 ```javascript
 setFullQualityPrintPermission(value: boolean) : void;

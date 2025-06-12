@@ -20,13 +20,32 @@ Only for OleObject.
 ### Examples
 
 ```csharp
-// Called: saveOptions.EmbedOoxmlAsOleObject = true;
-public void OoxmlSaveOptions_Property_EmbedOoxmlAsOleObject()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.EmbedOoxmlAsOleObject = true;
-    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+    public class OoxmlSaveOptionsPropertyEmbedOoxmlAsOleObjectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample OLE Object Embedding");
+            
+            // Create OOXML save options and set EmbedOoxmlAsOleObject
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.EmbedOoxmlAsOleObject = true;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", saveOptions);
+            
+            Console.WriteLine("Workbook saved with OOXML embedded as OLE object.");
+        }
+    }
 }
 ```
 

@@ -16,11 +16,40 @@ public ShapePathCollection Paths { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Returns non-null if there is a path to the custom geometry
-if(shape.Paths == null)
-    Console.WriteLine("No custom geometry path.");
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyPathsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a custom shape (rectangle) with correct parameters
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 1, 1, 1, 1, 100, 150);
+
+            // Check if the shape has custom geometry paths
+            if (shape.Paths != null)
+            {
+                Console.WriteLine("Shape has custom geometry paths:");
+                Console.WriteLine($"Number of paths: {shape.Paths.Count}");
+                
+                // Add a new path to the shape's geometry
+                int newPathIndex = shape.Paths.Add();
+                Console.WriteLine($"Added new path at index: {newPathIndex}");
+            }
+            else
+            {
+                Console.WriteLine("No custom geometry path.");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

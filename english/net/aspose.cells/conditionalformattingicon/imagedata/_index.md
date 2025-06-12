@@ -16,17 +16,43 @@ public byte[] ImageData { get; }
 ### Examples
 
 ```csharp
-// Called: byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
-public void ConditionalFormattingIcon_Property_ImageData()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = wb.Worksheets[0];
-    byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
-    Assert.AreEqual(imageData != null && imageData.Length != 0,true);
-    using (Image image = Image.FromStream(new MemoryStream(imageData)))
+    public class ConditionalFormattingIconPropertyImageDataDemo
     {
-        Assert.AreEqual(16, image.Width);
-        Assert.AreEqual(16, image.Height);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data and conditional formatting
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            
+            // Get conditional formatting result
+            var conditionalFormattingResult = worksheet.Cells["A1"].GetConditionalFormattingResult();
+            if (conditionalFormattingResult != null)
+            {
+                ConditionalFormattingIcon icon = conditionalFormattingResult.ConditionalFormattingIcon;
+                if (icon != null)
+                {
+                    // Get the icon image data
+                    byte[] imageData = icon.ImageData;
+                    
+                    // Verify and display image information
+                    if (imageData != null && imageData.Length > 0)
+                    {
+                        Console.WriteLine($"Icon data length: {imageData.Length} bytes");
+                    }
+                }
+            }
+        }
     }
 }
 ```

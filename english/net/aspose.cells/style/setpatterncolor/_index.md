@@ -22,17 +22,28 @@ public void SetPatternColor(BackgroundType pattern, Color color1, Color color2)
 ### Examples
 
 ```csharp
-// Called: style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Red);
-	    public void Style_Method_SetPatternColor()
-	    {
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class StyleMethodSetPatternColorWithBackgroundTypeColorColorDemo
+    {
+        public static void Run()
+        {
             Workbook workbook = new Workbook();
-	        Cell cell = workbook.Worksheets[0].Cells["A1"];
-	        Style style = cell.GetStyle();
-	        style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Red);
-            Assert.AreEqual(BackgroundType.Solid, style.Pattern, "Pattern");
-            AssertHelper.AreEqual(Color.Red, style.ForegroundColor, "ForegroundColor");
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-	    }
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            
+            Style style = cell.GetStyle();
+            style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Blue);
+            cell.SetStyle(style);
+            
+            workbook.Save("SetPatternColorDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
 ```
 
 ### See Also

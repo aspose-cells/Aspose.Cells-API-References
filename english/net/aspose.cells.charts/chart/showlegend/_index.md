@@ -16,23 +16,49 @@ public bool ShowLegend { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.ShowLegend, true, "ShowLegend");
-public void Chart_Property_ShowLegend()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    int chartIndex = sheet.Charts.Add(ChartType.Waterfall, 10, 2, 20, 10);
-    Chart chart = sheet.Charts[chartIndex];
-    chart.NSeries.Add("{10,20,30,40}", true);
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    chart = wb.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.ShowLegend, true, "ShowLegend");
-    chart.ShowLegend = false;
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    chart = wb.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.ShowLegend, false, "ShowLegend");
+    public class ChartPropertyShowLegendDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Item");
+            sheet.Cells["A2"].PutValue("Apple");
+            sheet.Cells["A3"].PutValue("Orange");
+            sheet.Cells["A4"].PutValue("Banana");
+            sheet.Cells["B1"].PutValue("Quantity");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Show legend by default (true)
+            Console.WriteLine("Legend initially visible: " + chart.ShowLegend);
+            
+            // Hide the legend
+            chart.ShowLegend = false;
+            Console.WriteLine("Legend after setting to false: " + chart.ShowLegend);
+            
+            // Save the workbook
+            workbook.Save("ChartLegendExample.xlsx");
+        }
+    }
 }
 ```
 

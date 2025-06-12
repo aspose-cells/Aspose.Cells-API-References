@@ -24,7 +24,7 @@ class ValidationCollection;
 | [removeACell(number, number)](#removeACell-number-number-)| Removes all validation setting on the cell. |
 | [removeArea(CellArea)](#removeArea-cellarea-)| Removes all validation setting on the range.. |
 | [getValidationInCell(number, number)](#getValidationInCell-number-number-)| Gets the validation applied to given cell. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -109,7 +109,7 @@ Returns a [Validation](../validation/) object or null if there is no validation 
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

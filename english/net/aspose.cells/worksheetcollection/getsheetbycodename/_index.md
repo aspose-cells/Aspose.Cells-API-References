@@ -24,18 +24,37 @@ The element with the specified code name.
 ### Examples
 
 ```csharp
-// Called: Worksheet pivotTableSheet = workbook.Worksheets.GetSheetByCodeName("Pvt");
-public void WorksheetCollection_Method_GetSheetByCodeName()
-{
-    var workbook = new Workbook(Constants.openPivottablePath + "Template.xlsx");
-    Worksheet pivotTableSheet = workbook.Worksheets.GetSheetByCodeName("Pvt");
-    Worksheet dataFinalSheet = workbook.Worksheets.GetSheetByCodeName("DataFinal");
-    PivotTable pivotTable = pivotTableSheet.PivotTables[0];
-    Aspose.Cells.Range range = dataFinalSheet.Cells.CreateRange(0, 0, dataFinalSheet.Cells.MaxDataRow + 1, dataFinalSheet.Cells.MaxColumn);
-    range.Name = "MngfulDiffAnalysisDataSource";
-    pivotTable.RefreshData();
-    workbook.Save(Constants.savePivottablePath + "OutPivotTable1.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodGetSheetByCodeNameWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add worksheets and set their code names
+            Worksheet sheet1 = workbook.Worksheets.Add("Sheet1");
+            sheet1.CodeName = "MainSheet";
+            
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+            sheet2.CodeName = "DataSheet";
+
+            // Get worksheet by code name
+            Worksheet mainSheet = workbook.Worksheets.GetSheetByCodeName("MainSheet");
+            Worksheet dataSheet = workbook.Worksheets.GetSheetByCodeName("DataSheet");
+
+            // Demonstrate usage by writing to cells
+            mainSheet.Cells["A1"].PutValue("This is Main Sheet");
+            dataSheet.Cells["A1"].PutValue("This is Data Sheet");
+
+            // Save the workbook
+            workbook.Save("GetSheetByCodeNameDemo.xlsx");
+        }
+    }
 }
 ```
 

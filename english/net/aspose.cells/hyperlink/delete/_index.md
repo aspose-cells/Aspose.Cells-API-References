@@ -16,17 +16,32 @@ public void Delete()
 ### Examples
 
 ```csharp
-// Called: currentHyperlink.Delete(); // error here
-public void Hyperlink_Method_Delete()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlt");
+using System;
+using Aspose.Cells;
 
-    foreach (Worksheet worksheet in workbook.Worksheets)
+namespace AsposeCellsExamples
+{
+    public class HyperlinkMethodDeleteDemo
     {
-        for (int i = worksheet.Hyperlinks.Count - 1; i >= 0; i--)
+        public static void Run()
         {
-            var currentHyperlink = worksheet.Hyperlinks[i];
-            currentHyperlink.Delete(); // error here
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some hyperlinks to demonstrate deletion
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            worksheet.Hyperlinks.Add("B2", 1, 1, "https://www.example.com");
+            
+            Console.WriteLine($"Hyperlinks count before deletion: {worksheet.Hyperlinks.Count}");
+            
+            // Delete all hyperlinks
+            for (int i = worksheet.Hyperlinks.Count - 1; i >= 0; i--)
+            {
+                worksheet.Hyperlinks[i].Delete();
+            }
+            
+            Console.WriteLine($"Hyperlinks count after deletion: {worksheet.Hyperlinks.Count}");
         }
     }
 }

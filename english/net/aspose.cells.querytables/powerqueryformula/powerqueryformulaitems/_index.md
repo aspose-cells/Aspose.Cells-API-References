@@ -16,16 +16,33 @@ public PowerQueryFormulaItemCollection PowerQueryFormulaItems { get; }
 ### Examples
 
 ```csharp
-// Called: item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-public void PowerQueryFormula_Property_PowerQueryFormulaItems()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-    string str = item.Value.Replace(@"C:\", @"D:\");
-    item.Value = str;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-    Assert.AreEqual(str, item.Value);
+    public class PowerQueryFormulaPropertyPowerQueryFormulaItemsDemo
+    {
+        public static void Run()
+        {
+            // Load the source workbook
+            Workbook workbook = new Workbook("example.xlsx");
+
+            // Access the first Power Query formula and its first item
+            PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+            
+            // Modify the item value (replace drive letter)
+            string modifiedValue = item.Value.Replace(@"C:\", @"D:\");
+            item.Value = modifiedValue;
+
+            // Save the workbook
+            workbook.Save("modified_example.xlsx");
+
+            // Verify the change
+            Console.WriteLine("Original value modified to: " + modifiedValue);
+        }
+    }
 }
 ```
 

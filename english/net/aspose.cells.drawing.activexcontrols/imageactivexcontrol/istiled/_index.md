@@ -16,8 +16,17 @@ public bool IsTiled { get; set; }
 ### Examples
 
 ```csharp
-// Called: imageControl.IsTiled = false;
-public static void ImageActiveXControl_Property_IsTiled()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyIsTiledDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -29,33 +38,21 @@ public static void ImageActiveXControl_Property_IsTiled()
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 0, 1, 1, 100, 100);
             ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the Image ActiveX control
-            imageControl.IsAutoSize = true;
-            imageControl.BorderOleColor = 0x000000; // Black border
-            imageControl.BorderStyle = ControlBorderType.Single;
+            // Set IsTiled property and other properties
+            imageControl.IsTiled = true;
             imageControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
 
-            // Load an image from file and set it to the control
-            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
+            // Load an image from file (replace with your own image path)
+            byte[] imageData = File.ReadAllBytes("demo.jpg");
             imageControl.Picture = imageData;
 
             // Save the workbook
-            workbook.Save("ImageActiveXControlDemo.xlsx");
-            workbook.Save("ImageActiveXControlDemo.pdf");
+            workbook.Save("ImageActiveXControlIsTiledDemo.xlsx");
 
-            // Output the results
-            Console.WriteLine("Image ActiveX Control added with the following properties:");
-            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
-            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
-            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
-            Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
-            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
-            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
-            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
+            Console.WriteLine($"IsTiled property set to: {imageControl.IsTiled}");
         }
+    }
+}
 ```
 
 ### See Also

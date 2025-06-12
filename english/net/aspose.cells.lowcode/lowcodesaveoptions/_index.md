@@ -30,15 +30,38 @@ public class LowCodeSaveOptions
 ### Examples
 
 ```csharp
-// Called: new LowCodeSaveOptions()
-private void LowCode_Type_LowCodeSaveOptions(Stream stream, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeClassLowCodeSaveOptionsDemo
+    {
+        public static void Run()
         {
-            SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-                new LowCodeSaveOptions()
-                {
-                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
-                }, "123456", "234567");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and put some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+
+            // Create save options
+            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions()
+            {
+                OutputFile = "output.xlsx"
+            };
+
+            // Save the workbook using the specified options
+            workbook.Save(saveOptions.OutputFile, saveOptions.SaveFormat);
+            
+            Console.WriteLine("File saved successfully with LowCodeSaveOptions");
         }
+    }
+}
 ```
 
 ### See Also

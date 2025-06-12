@@ -20,30 +20,47 @@ If the file is opened by stream and there are some external formula references, 
 ### Examples
 
 ```csharp
-// Called: wb1.FileName = wb.Worksheets.ExternalLinks[0].DataSource;
-private void Workbook_Property_FileName(bool link)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyFileNameDemo
+    {
+        public static void Run()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-            if (link)
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Set the file name property
+            wb.FileName = "SampleWorkbook.xlsx";
+            
+            // Add some data to demonstrate functionality
+            Worksheet sheet = wb.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Workbook FileName Demo");
+            sheet.Cells["A2"].PutValue("Current FileName:");
+            sheet.Cells["B2"].PutValue(wb.FileName);
+            
+            // Save the workbook
+            wb.Save(wb.FileName);
+            
+            Console.WriteLine($"Workbook created with filename: {wb.FileName}");
+            
+            // Demonstrate changing the filename
+            Workbook wb2 = new Workbook();
+            wb2.FileName = "ChangedName.xlsx";
+            Console.WriteLine($"New workbook filename set to: {wb2.FileName}");
+            
+            // Demonstrate external link usage
+            if (wb.Worksheets.ExternalLinks.Count > 0)
             {
-                Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsx");
-                wb1.FileName = wb.Worksheets.ExternalLinks[0].DataSource;
-                //below should work too
-                //wb1.FileName = "../../../Files/template/Formula/calculate/report.xlsx";
-                //wb1.FileName = "..\\..\\Files\\template\\Formula\\calculate\\report.xlsx";
-                wb.UpdateLinkedDataSource(new Workbook[] { wb1 });
-            }
-            Cells cells = wb.Worksheets[0].Cells;
-            wb.CalculateFormula();
-            for (int i = 1; i < 4; i++)
-            {
-                Assert.AreEqual(100, cells[1, i].IntValue, ((char)('A' + i)) + "2");
-            }
-            for (int i = 1; i < 4; i++)
-            {
-                Assert.AreEqual(200, cells[2, i].IntValue, ((char)('A' + i)) + "2");
+                string externalSource = wb.Worksheets.ExternalLinks[0].DataSource;
+                wb2.FileName = externalSource;
+                Console.WriteLine($"Updated filename to external source: {wb2.FileName}");
             }
         }
+    }
+}
 ```
 
 ### See Also

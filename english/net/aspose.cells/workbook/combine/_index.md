@@ -24,13 +24,30 @@ Merge Excel, ODS , CSV and other files to one file.
 ### Examples
 
 ```csharp
-// Called: new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
-public void Workbook_Method_Combine()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-    new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
-    wb = new Workbook(Constants.sourcePath + "example.xls");
-    new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
+    public class WorkbookMethodCombineWithWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Create source workbook
+            Workbook sourceWorkbook = new Workbook();
+            sourceWorkbook.Worksheets[0].Cells["A1"].PutValue("Source Data");
+
+            // Create destination workbook
+            Workbook destWorkbook = new Workbook(FileFormatType.Xlsx);
+            destWorkbook.Worksheets[0].Cells["B2"].PutValue("Destination Data");
+
+            // Combine the workbooks
+            destWorkbook.Combine(sourceWorkbook);
+
+            // Save the combined workbook
+            destWorkbook.Save("CombinedWorkbook.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

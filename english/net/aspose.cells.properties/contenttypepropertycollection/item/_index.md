@@ -24,17 +24,32 @@ The content type property
 ### Examples
 
 ```csharp
-// Called: workbook.ContentTypeProperties[index].IsNillable = true;
-public void ContentTypePropertyCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
-    workbook.ContentTypeProperties[index].IsNillable = true;
-    //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
-    index = workbook.ContentTypeProperties.Add("MK32",
-        DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
-    workbook.ContentTypeProperties[index].IsNillable = true;
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ContentTypePropertyCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Add content type properties and demonstrate Item property usage
+            int index1 = workbook.ContentTypeProperties.Add("Property1", "Sample Value");
+            workbook.ContentTypeProperties[index1].IsNillable = true;
+            
+            int index2 = workbook.ContentTypeProperties.Add("Property2", 
+                DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss"), "DateTime");
+            workbook.ContentTypeProperties[index2].IsNillable = false;
+            
+            // Access properties using Item indexer
+            Console.WriteLine($"Property1 IsNillable: {workbook.ContentTypeProperties[0].IsNillable}");
+            Console.WriteLine($"Property2 IsNillable: {workbook.ContentTypeProperties[1].IsNillable}");
+            
+            workbook.Save("ContentTypePropertiesDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -66,29 +81,33 @@ The content type property
 ### Examples
 
 ```csharp
-// Called: ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
-public static void ContentTypePropertyCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class ContentTypePropertyCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Add a new content type property
+            
+            // Add content type property
             workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-
-            // Access the newly added property
+            
+            // Access property using Item indexer
             ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
             
-            // Setting properties
-            property.Name = "Admin";
-            property.Value = "Aspose";
-            property.Type = "text";
-            property.IsNillable = true;
-
-            // Save the Excel file
-            workbook.Save("ContentTypePropertyExample.xlsx");
-            workbook.Save("ContentTypePropertyExample.pdf");
-            return;
+            // Modify property values
+            property.Value = "UpdatedValue";
+            property.IsNillable = false;
+            
+            // Save workbook
+            workbook.Save("ContentTypePropertyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

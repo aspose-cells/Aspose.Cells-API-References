@@ -20,17 +20,50 @@ Returns [`FormatConditionCollection`](../../formatconditioncollection/) object
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, cell.GetFormatConditions().Length);
-public void Cell_Method_GetFormatConditions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsb");
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.InsertColumns(11, 2);
-    cells.CopyColumn(cells, 9, 11);
-    Cell cell = cells["L81"];
-    Assert.AreEqual(1, cell.GetFormatConditions().Length);
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    //wb.Save(Constants.destPath + "example.xlsx");
+    public class CellMethodGetFormatConditionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get cells collection
+            Cells cells = worksheet.Cells;
+            
+            // Add sample data
+            cells["A1"].PutValue(10);
+            cells["A2"].PutValue(20);
+            cells["A3"].PutValue(30);
+            
+            // Add format condition to cell A1
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 0;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "5", "15");
+            
+            // Get format conditions for cell A1
+            FormatConditionCollection[] conditions = cells["A1"].GetFormatConditions();
+            
+            // Output the number of format conditions
+            Console.WriteLine("Number of format conditions: " + conditions.Length);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

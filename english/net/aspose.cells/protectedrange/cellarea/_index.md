@@ -16,29 +16,45 @@ public CellArea CellArea { get; }
 ### Examples
 
 ```csharp
-// Called: + range.CellArea.EndRow + "," + range.CellArea.EndColumn);
-//http://www.aspose.com/community/forums/thread/226241/trouble-with-allow-users-to-edit-ranges.aspx
-public void ProtectedRange_Property_CellArea()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("ProtectedRange_Property_CellArea()");
-    string infn = path + "Test_AllowEditRanges.xlsm";
-    string outfn = Constants.destPath + "Test_AllowEditRanges_out.xlsm";
+    public class ProtectedRangePropertyCellAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(infn);
-    Worksheet sheet = book.Worksheets[0];
-    ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-    ProtectedRange range = allowRanges[0];
-    Console.WriteLine(range.Name);
-    Console.Write("  " + range.CellArea.StartRow + "," + range.CellArea.StartColumn + ","
-      + range.CellArea.EndRow + "," + range.CellArea.EndColumn);
-    Console.WriteLine("  " + range.Password);
-    //Console.WriteLine("  " + range.SecurityDescriptor);
+            // Create protected ranges
+            ProtectedRangeCollection allowRanges = worksheet.AllowEditRanges;
+            
+            // Add first protected range
+            int index1 = allowRanges.Add("Range1", 0, 0, 2, 2);
+            ProtectedRange range1 = allowRanges[index1];
+            range1.Password = "123";
 
-    int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-    range = allowRanges[idx];
-    range.Password = "1";
+            // Add second protected range
+            int index2 = allowRanges.Add("Range2", 3, 3, 5, 5);
+            ProtectedRange range2 = allowRanges[index2];
+            range2.Password = "456";
 
-    book.Save(outfn);
+            // Display CellArea information for both ranges
+            Console.WriteLine("Protected Range 1:");
+            Console.WriteLine($"Name: {range1.Name}");
+            Console.WriteLine($"Area: {range1.CellArea.StartRow},{range1.CellArea.StartColumn} to {range1.CellArea.EndRow},{range1.CellArea.EndColumn}");
+
+            Console.WriteLine("\nProtected Range 2:");
+            Console.WriteLine($"Name: {range2.Name}");
+            Console.WriteLine($"Area: {range2.CellArea.StartRow},{range2.CellArea.StartColumn} to {range2.CellArea.EndRow},{range2.CellArea.EndColumn}");
+
+            // Save the workbook
+            workbook.Save("ProtectedRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

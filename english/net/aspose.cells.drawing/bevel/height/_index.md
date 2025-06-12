@@ -16,59 +16,48 @@ public double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: topBevel.Height = 5.0;
-public static void Bevel_Property_Height()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class BevelPropertyHeightDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1000);
+            worksheet.Cells["B3"].PutValue(1500);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
-
-            workbook.CalculateFormula();
-
-            // Add a chart to the worksheet
+            // Add a 3D column chart
             int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:B3", true);
 
-            // Add data series to the chart
-            chart.NSeries.Add("A1:B4", true);
+            // Access the plot area's 3D format
+            Format3D format3D = chart.PlotArea.ShapeProperties.Format3D;
 
-            // Access the chart's plot area
-            ChartFrame plotArea = chart.PlotArea;
-
-            // Access the shape properties of the plot area
-            ShapePropertyCollection shapeProperties = plotArea.ShapeProperties;
-
-            // Access the 3D format properties
-            Format3D format3D = shapeProperties.Format3D;
-
-            // Access the top bevel properties
+            // Configure top bevel with Height property
             Bevel topBevel = format3D.TopBevel;
-
-            // Set the width, height, and type of the bevel
-            topBevel.Width = 10.0;
-            topBevel.Height = 5.0;
-            topBevel.Type = BevelPresetType.Circle;
-
-            // Set other 3D format properties
-            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
-            format3D.LightingAngle = 45.0;
+            topBevel.Type = BevelPresetType.ArtDeco;
+            topBevel.Width = 8;
+            topBevel.Height = 4.5; // Demonstrating Height property usage
 
             // Save the workbook
-            workbook.Save("BevelDemo.xlsx");
-            workbook.Save("BevelDemo.pdf");
+            workbook.Save("BevelHeightDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

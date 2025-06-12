@@ -4,7 +4,7 @@ linktitle: GetRowHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetRowHeightPixel method. Returns or sets the height, in pixels, of each row in the specified slicer in C++.'
 type: docs
-weight: 5100
+weight: 5200
 url: /cpp/aspose.cells.slicers/slicer/getrowheightpixel/
 ---
 ## Slicer::GetRowHeightPixel method

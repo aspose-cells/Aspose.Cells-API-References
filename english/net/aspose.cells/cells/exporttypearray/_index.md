@@ -28,18 +28,50 @@ Exported array object representing cell value types.
 ### Examples
 
 ```csharp
-// Called: CellValueType[,] arr = cells.ExportTypeArray(-1, 0, 2, 2);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_ExportTypeArray()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportTypeArrayWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
-            caseName = "testExportTypeArray_Exception_001";
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellValueType[,] arr = cells.ExportTypeArray(-1, 0, 2, 2);
-            string msg = message + "cells.ExportTypeArray(-1, 0, 2, 2)";
-            writeToExcel(caseName, msg);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set values in cells
+            cells["A1"].PutValue(10);
+            cells["B1"].PutValue("Hello");
+            cells["A2"].PutValue(true);
+            cells["B2"].PutValue(DateTime.Now);
+
+            // Export cell types to a 2D array
+            CellValueType[,] typeArray = cells.ExportTypeArray(0, 0, 2, 2);
+
+            // Display the results
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.WriteLine($"Cell[{i},{j}] Type: {typeArray[i, j]}");
+                }
+            }
+
+            // Demonstrate exception case
+            try
+            {
+                CellValueType[,] invalidArray = cells.ExportTypeArray(-1, 0, 2, 2);
+            }
+            catch (CellsException ex)
+            {
+                Console.WriteLine("Exception caught as expected: " + ex.Message);
+            }
         }
+    }
+}
 ```
 
 ### See Also

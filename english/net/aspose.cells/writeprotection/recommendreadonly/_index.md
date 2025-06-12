@@ -16,16 +16,38 @@ public bool RecommendReadOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-public void WriteProtection_Property_RecommendReadOnly()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-   Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-   Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
-   workbook.Save(Constants.destPath + "example.xls");
-   workbook = new Workbook(Constants.destPath + "example.xls");
-   Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-   Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
+    public class WriteProtectionPropertyRecommendReadOnlyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+
+            // Set RecommendReadOnly to true
+            workbook.Settings.WriteProtection.RecommendReadOnly = true;
+            
+            // Verify the property is set
+            Console.WriteLine("RecommendReadOnly: " + workbook.Settings.WriteProtection.RecommendReadOnly);
+            Console.WriteLine("IsWriteProtected: " + workbook.Settings.WriteProtection.IsWriteProtected);
+
+            // Save the workbook
+            workbook.Save("output_recommend_readonly.xlsx");
+
+            // Load the saved workbook to verify settings persist
+            Workbook loadedWorkbook = new Workbook("output_recommend_readonly.xlsx");
+            Console.WriteLine("After loading - RecommendReadOnly: " + loadedWorkbook.Settings.WriteProtection.RecommendReadOnly);
+            Console.WriteLine("After loading - IsWriteProtected: " + loadedWorkbook.Settings.WriteProtection.IsWriteProtected);
+        }
+    }
 }
 ```
 

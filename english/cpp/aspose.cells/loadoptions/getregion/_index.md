@@ -2,7 +2,7 @@
 title: Aspose::Cells::LoadOptions::GetRegion method
 linktitle: GetRegion
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::LoadOptions::GetRegion method. Gets or sets the system regional settings based on CountryCode at the time the file was loaded in C++.'
+description: 'Aspose::Cells::LoadOptions::GetRegion method. Gets or sets the regional settings used for the Workbook that will be loaded in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells/loadoptions/getregion/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/loadoptions/getregion/
 ## LoadOptions::GetRegion method
 
 
-Gets or sets the system regional settings based on CountryCode at the time the file was loaded.
+Gets or sets the regional settings used for the [Workbook](../../workbook/) that will be loaded.
 
 ```cpp
 CountryCode Aspose::Cells::LoadOptions::GetRegion()
@@ -19,7 +19,7 @@ CountryCode Aspose::Cells::LoadOptions::GetRegion()
 ## Remarks
 
 
-If you do not want to use the region saved in the file, please reset it after reading the file.
+The regional settings may be used for initializing some features for the workbook such as fonts, themes, and so on. For text based file formats, such as CSV, HTML, ..., the regional setting also will be used to detect number formats and parse text values to numeric or datetime values for cells. This setting will be kept for the instantiated workbook later, that is, WorkbookSettings.Region of the workbook will use the same region with this property. 
 ## See Also
 
 * Enum [CountryCode](../../countrycode/)

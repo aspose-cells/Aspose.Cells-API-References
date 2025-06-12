@@ -20,52 +20,60 @@ For KeepHeaderOnly, all cells in it will be taken as blank except the non-blank 
 ### Examples
 
 ```csharp
-// Called: dopts.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
-public void DeleteBlankOptions_Property_MergedCellsShrinkType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Style s = wb.DefaultStyle;
-    s.Font.Name = "Arial";
-    s.Font.Size = 10;
-    wb.DefaultStyle = s;
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.SetColumnWidthPixel(0, 150);
+    public class DeleteBlankOptionsPropertyMergedCellsShrinkTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            Cells cells = ws.Cells;
 
-    CELLSNET56128InitRow(cells);
-    cells.DeleteBlankRows();
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "WithouOption-A1");
-    AssertHelper.AssertNonEmptyCell(cells, 1, 0, "WithouOption-A2");
-    AssertHelper.AssertEmptyCell(cells, 2, 0, "WithouOption-A3");
+            // Setup sample data with merged cells
+            cells.Merge(0, 0, 3, 1);
+            cells[0, 0].PutValue("Merged Header");
+            cells[3, 0].PutValue("Data after blank");
+            
+            // Create delete options with different shrink types
+            DeleteBlankOptions options = new DeleteBlankOptions();
+            
+            // Case 1: KeepHeaderOnly
+            options.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
+            cells.DeleteBlankRows(options);
+            Console.WriteLine("After KeepHeaderOnly - Merged area preserved: " + 
+                (cells.MergedCells.Count > 0 ? cells.MergedCells[0].ToString() : "No merged cells"));
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitRow(cells);
-    DeleteBlankOptions dopts = new DeleteBlankOptions();
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
-    cells.DeleteBlankRows(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkHeader-A1");
-    AssertHelper.AssertNonEmptyCell(cells, 1, 0, "ShrinkHeader-A2");
-    AssertHelper.AssertEmptyCell(cells, 2, 0, "ShrinkHeader-A3");
+            // Reset worksheet
+            cells.ClearContents(0, 0, cells.MaxDataRow + 1, cells.MaxDataColumn + 1);
+            cells.UnMerge(0, 0, 3, 1);
+            cells.Merge(0, 0, 3, 1);
+            cells[0, 0].PutValue("Merged Header");
+            cells[3, 0].PutValue("Data after blank");
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitRow(cells);
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.None;
-    cells.DeleteBlankRows(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkNone-A1");
-    AssertHelper.AssertEmptyCell(cells, 1, 0, "ShrinkNone-A2");
-    AssertHelper.AssertEmptyCell(cells, 2, 0, "ShrinkNone-A3");
-    AssertHelper.AssertNonEmptyCell(cells, 3, 0, "ShrinkNone-A4");
+            // Case 2: ShrinkToFit
+            options.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
+            cells.DeleteBlankRows(options);
+            Console.WriteLine("After ShrinkToFit - Merged area adjusted: " + 
+                (cells.MergedCells.Count > 0 ? cells.MergedCells[0].ToString() : "No merged cells"));
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitRow(cells);
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
-    cells.DeleteBlankRows(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkFit-A1");
-    AssertHelper.AssertEmptyCell(cells, 1, 0, "ShrinkFit-A2");
-    AssertHelper.AssertNonEmptyCell(cells, 2, 0, "ShrinkFit-A3");
-    AssertHelper.AssertEmptyCell(cells, 3, 0, "ShrinkFit-A4");
+            // Reset worksheet
+            cells.ClearContents(0, 0, cells.MaxDataRow + 1, cells.MaxDataColumn + 1);
+            cells.UnMerge(0, 0, 3, 1);
+            cells.Merge(0, 0, 3, 1);
+            cells[0, 0].PutValue("Merged Header");
+            cells[3, 0].PutValue("Data after blank");
+
+            // Case 3: None
+            options.MergedCellsShrinkType = MergedCellsShrinkType.None;
+            cells.DeleteBlankRows(options);
+            Console.WriteLine("After None - Merged area unchanged: " + 
+                (cells.MergedCells.Count > 0 ? cells.MergedCells[0].ToString() : "No merged cells"));
+        }
+    }
 }
 ```
 

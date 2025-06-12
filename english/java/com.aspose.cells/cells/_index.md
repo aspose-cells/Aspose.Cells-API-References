@@ -1470,7 +1470,7 @@ Maximum column index of cell which contains data.
 
 **Remarks**
 
-\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -1484,7 +1484,7 @@ Maximum row index of cell which contains data.
 
 **Remarks**
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -1532,7 +1532,7 @@ Maximum row index of cell which contains data or style.
 
 **Remarks**
 
-Return -1 if there is no cell which contains data or style in the worksheet.
+Return -1 if there is no cell which contains data or style in the worksheet. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -1580,6 +1580,10 @@ public int getMinColumn()
 
 Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
 
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
 **Returns:**
 int
 ### getMinDataColumn() {#getMinDataColumn--}
@@ -1592,7 +1596,7 @@ Minimum column index of cell which contains data.
 
 **Remarks**
 
-\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -1606,7 +1610,7 @@ Minimum row index of cell which contains data.
 
 **Remarks**
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -1617,6 +1621,10 @@ public int getMinRow()
 
 
 Minimum row index of cell which contains data or style.
+
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 **Returns:**
 int
@@ -3012,13 +3020,13 @@ Sets the width of the specified column in normal view.
 
 **Remarks**
 
-To hide a column, sets column width to zero.
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | int | Column index. |
-| width | double | Width of column.Column width must be between 0 and 255. |
+| width | double | Width of column in unit of characters.Column width must be between 0 and 255. |
 
 ### setColumnWidthInch(int column, double inches) {#setColumnWidthInch-int-double-}
 ```

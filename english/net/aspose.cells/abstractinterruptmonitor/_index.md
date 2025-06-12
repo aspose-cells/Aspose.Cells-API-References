@@ -23,13 +23,11 @@ public abstract class AbstractInterruptMonitor
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 using System.Reflection.Metadata.Ecma335;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     // Custom implementation of AbstractInterruptMonitor
     public class CustomInterruptMonitor : AbstractInterruptMonitor

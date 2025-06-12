@@ -4,7 +4,7 @@ linktitle: PdfCompliance
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfCompliance enum. Allowing user to set PDF conversion''s Compatibility in C++.'
 type: docs
-weight: 2000
+weight: 2200
 url: /cpp/aspose.cells.rendering/pdfcompliance/
 ---
 ## PdfCompliance enum

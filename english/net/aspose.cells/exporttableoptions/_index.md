@@ -51,9 +51,7 @@ If there are some special requirements about the exporting, such as ignoring err
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

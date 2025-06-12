@@ -16,24 +16,41 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: module.Name = "Sheet1";
-public void VbaModule_Property_Name()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
+    public class VbaModulePropertyNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
 
-    var vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n";
-    vbaCode += "    ActiveCell.Value = \"Hello\"\r\n";
-    vbaCode += "End Sub\r\n";
+            // Add a worksheet and get its VBA module
+            Worksheet sheet = wb.Worksheets[0];
+            int moduleIndex = wb.VbaProject.Modules.Add(sheet);
+            VbaModule module = wb.VbaProject.Modules[moduleIndex];
 
-    var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
-    var module = wb.VbaProject.Modules[index];
-    module.Name = "Sheet1";
-    module.Codes = vbaCode;
+            // Set the module name
+            module.Name = "Sheet1";
 
-    wb.VbaProject.Sign(certSign);
+            // Add simple VBA code to the module
+            string vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n" +
+                             "    MsgBox \"Sheet name: \" & Me.Name\r\n" +
+                             "End Sub\r\n";
+            module.Codes = vbaCode;
 
-    // Save the workbook
-    wb.Save(new MemoryStream(), SaveFormat.Xlsb);
+            // Save to memory stream (for demonstration)
+            using (MemoryStream ms = new MemoryStream())
+            {
+                wb.Save(ms, SaveFormat.Xlsm);
+            }
+        }
+    }
 }
 ```
 

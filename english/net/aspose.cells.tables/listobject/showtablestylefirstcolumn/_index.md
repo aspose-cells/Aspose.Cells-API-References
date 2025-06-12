@@ -16,29 +16,44 @@ public bool ShowTableStyleFirstColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: listObjects[0].ShowTableStyleFirstColumn = true;
-public void ListObject_Property_ShowTableStyleFirstColumn()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue("a");
-    cells[1, 0].PutValue(1);
-    cells[2, 0].PutValue(2);
-    cells[3, 0].PutValue(3);
-    cells[0, 1].PutValue("b");
-    cells[1, 1].PutValue(4);
-    cells[2, 1].PutValue(5);
-    cells[3, 1].PutValue(6);
+    public class ListObjectPropertyShowTableStyleFirstColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["B3"].PutValue(1.8);
+            worksheet.Cells["B4"].PutValue(3.2);
 
-    ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
-    listObjects.Add("A1", "B4", true);
-    listObjects[0].ShowTableStyleFirstColumn = true;
-    workbook.Save(Constants.destPath + "testListObject.xlsx", SaveFormat.Xlsx);
-
-    workbook = new Workbook(Constants.destPath + "testListObject.xlsx");
-    listObjects = workbook.Worksheets[0].ListObjects;
-    ListObject listObject = listObjects[0];
-    AssertHelper.AreEqual(true, listObject.ShowTableStyleFirstColumn, "listObject.ShowTableStyleFirstColumn");
+            // Create a list object
+            ListObjectCollection listObjects = worksheet.ListObjects;
+            int index = listObjects.Add("A1", "B4", true);
+            ListObject listObject = listObjects[index];
+            
+            // Apply first column style
+            listObject.ShowTableStyleFirstColumn = true;
+            
+            // Save the workbook
+            workbook.Save("ListObjectShowFirstColumnStyle.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("File saved with first column style applied to the table.");
+        }
+    }
 }
 ```
 

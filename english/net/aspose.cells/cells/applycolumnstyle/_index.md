@@ -22,28 +22,37 @@ public void ApplyColumnStyle(int column, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyColumnStyle(1, style, sflag);
-public void Cells_Method_ApplyColumnStyle()
-{
-    caseName = "testApplyColumnStyle_001";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = getStyle(workbook);
-    StyleFlag sflag = new StyleFlag();
-    sflag.Borders = true;
-    cells.ApplyColumnStyle(1, style, sflag);
+using System;
+using Aspose.Cells;
 
-    checkApplyColumnStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");
-    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xls");
-    checkApplyColumnStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyColumnStyle.xlsx");
-    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xlsx");
-    checkApplyColumnStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyColumnStyle.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xml");
-    checkApplyColumnStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");              
+namespace AsposeCellsExamples
+{
+    public class CellsMethodApplyColumnStyleWithInt32StyleStyleFlagDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Create a style with borders
+            Style style = workbook.CreateStyle();
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
+
+            // Create a style flag to apply only borders
+            StyleFlag sflag = new StyleFlag();
+            sflag.Borders = true;
+
+            // Apply the style to column 1 (index 0)
+            cells.ApplyColumnStyle(0, style, sflag);
+
+            // Save the workbook
+            workbook.Save("ApplyColumnStyleOutput.xlsx");
+        }
+    }
 }
 ```
 

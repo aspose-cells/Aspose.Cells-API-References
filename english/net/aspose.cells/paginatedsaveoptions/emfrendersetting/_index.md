@@ -20,52 +20,37 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 ### Examples
 
 ```csharp
-// Called: EmfRenderSetting = EmfRenderSetting.EmfOnly,
-public static void PaginatedSaveOptions_Property_EmfRenderSetting()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyEmfRenderSettingDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data into the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["A2"].PutValue("World");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("EMF Render Setting Demo");
+            worksheet.Cells["A2"].PutValue(DateTime.Now.ToString());
 
-            // Create an instance of PptxSaveOptions
-            PptxSaveOptions saveOptions = new PptxSaveOptions
+            // Create image for EMF demonstration
+            worksheet.Pictures.Add(10, 10, "example.png");
+
+            // Configure save options with EMF settings using PdfSaveOptions
+            PdfSaveOptions options = new PdfSaveOptions()
             {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-                ExportViewType = SlideViewType.Print,
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
+                EmfRenderSetting = EmfRenderSetting.EmfPlusPrefer
             };
 
-            // Save the workbook as a PPTX file
-            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
+            // Save the workbook with EMF settings
+            workbook.Save("EmfRenderSettingDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

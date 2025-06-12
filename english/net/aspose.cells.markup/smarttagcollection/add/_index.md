@@ -25,34 +25,30 @@ The index of smart tag in the list.
 ### Examples
 
 ```csharp
-// Called: int tagIndex = smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
-public static void SmartTagCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Markup;
+
+namespace AsposeCellsExamples
+{
+    public class SmartTagCollectionMethodAddWithStringStringDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a smart tag to a specific cell
             SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
-            int smartTagIndex = smartTagSetting.Add(0, 0); // Adding smart tag to cell A1
+            smartTagSetting.Add(0, 0); // Add smart tag to cell A1
 
-            // Access the SmartTagCollection for the cell
             SmartTagCollection smartTagCollection = smartTagSetting[0, 0];
-
-            // Add a smart tag to the collection
             int tagIndex = smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
 
-            // Set the capacity of the smart tag setting
-            smartTagSetting.Capacity = 10;
-
-            // Print the count of smart tags
-            Console.WriteLine("Total Smart Tags: " + smartTagSetting.Count);
-
-            // Save the workbook
-            workbook.Save("SmartTagSettingExample.xlsx");
-
-            return;
+            Console.WriteLine("Added smart tag at index: " + tagIndex);
+            workbook.Save("SmartTagCollectionAddExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

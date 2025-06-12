@@ -16,14 +16,38 @@ public byte[] PrinterSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[1].Charts[0].PageSetup.PrinterSettings == null);
-public void PageSetup_Property_PrinterSettings()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.Chart);
-    Assert.IsTrue(workbook.Worksheets[1].Charts[0].PageSetup.PrinterSettings == null);
-    Assert.AreEqual(2, workbook.Worksheets[1].Charts.Count);
-    workbook.Save(Constants.destPath + "example.xls");
+    public class PageSetupPropertyPrinterSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to the worksheet
+            worksheet.Cells["A1"].PutValue("Test Printer Settings");
+            
+            // Access page setup
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Set printer settings (as byte array)
+            byte[] printerSettings = new byte[10]; // Simplified example
+            pageSetup.PrinterSettings = printerSettings;
+            
+            // Verify printer settings are set
+            Console.WriteLine("Printer Settings: " + (pageSetup.PrinterSettings != null));
+            
+            // Save the workbook
+            workbook.Save("PrinterSettingsDemo.xlsx");
+        }
+    }
 }
 ```
 

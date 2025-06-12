@@ -16,38 +16,39 @@ public MarkdownSaveOptions()
 ### Examples
 
 ```csharp
-// Called: MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
-public static void MarkdownSaveOptions_Constructor()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class MarkdownSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
+            // Create a new workbook with sample data
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(100);
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
-
-            // Create an instance of MarkdownSaveOptions
+            // Demonstrate MarkdownSaveOptions constructor
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
             {
                 Encoding = Encoding.UTF8,
                 FormatStrategy = CellValueFormatStrategy.DisplayString,
-                LineSeparator = "\n",
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
+                LineSeparator = Environment.NewLine
             };
 
-            // Save the workbook as a Markdown file
-            workbook.Save("MarkdownSaveOptionsExample.md", saveOptions);
+            // Save as Markdown
+            workbook.Save("MarkdownOutput.md", saveOptions);
 
-            Console.WriteLine("Workbook saved as Markdown file successfully.");
+            Console.WriteLine("Markdown file created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

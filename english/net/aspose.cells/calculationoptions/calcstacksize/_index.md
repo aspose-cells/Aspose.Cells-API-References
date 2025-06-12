@@ -20,22 +20,36 @@ When there are large amount of cells need to be calculated recursively in the de
 ### Examples
 
 ```csharp
-// Called: wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
-public void CalculationOptions_Property_CalcStackSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells["A1"].PutValue(1);
-    int last = 800;
-    cells["B1"].Formula = "=A" + last + "-A2";
-    cells["C1"].Formula = "=B" + last + "-B2";
-    for (int i = 2; i <= last; i++)
+    public class CalculationOptionsPropertyCalcStackSizeDemo
     {
-        cells["A" + i].Formula = "=0.8 * A" + (i - 1);
-        cells["B" + i].Formula = "=0.8 * B" + (i + 1);
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Setup sample formulas that would require stack calculation
+            cells["A1"].PutValue(1);
+            int last = 100;
+            cells["B1"].Formula = "=SUM(A1:A" + last + ")";
+            
+            for (int i = 2; i <= last; i++)
+            {
+                cells["A" + i].Formula = "=A" + (i - 1) + "*1.1";
+                cells["B" + i].Formula = "=B" + (i - 1) + "+A" + i;
+            }
+
+            // Calculate with custom stack size
+            wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 50 });
+            
+            Console.WriteLine("Calculation completed with custom stack size");
+        }
     }
-    wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
 }
 ```
 

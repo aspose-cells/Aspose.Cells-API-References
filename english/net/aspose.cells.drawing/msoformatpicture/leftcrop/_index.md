@@ -16,22 +16,40 @@ public double LeftCrop { get; set; }
 ### Examples
 
 ```csharp
-// Called: pic.FormatPicture.LeftCrop = 0.1;
-public void MsoFormatPicture_Property_LeftCrop()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Aspose.Cells.Workbook();
-    var sheet = workbook.Worksheets[0];
-    var bmpBytes = File.ReadAllBytes(Constants.sourcePath + "example.png");
-    var picId = sheet.Pictures.Add(0, 0, new MemoryStream(bmpBytes));
-    var pic = sheet.Pictures[picId];
-    pic.FormatPicture.LeftCrop = 0.1;
+    public class MsoFormatPicturePropertyLeftCropDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            var workbook = new Workbook();
+            var sheet = workbook.Worksheets[0];
 
-    pic.FormatPicture.TopCrop = 0.1;
-    double x = pic.FormatPicture.LeftCropInch;
+            // Load image data
+            byte[] imageData = File.ReadAllBytes("example.png");
+            
+            // Add picture to worksheet
+            int pictureIndex = sheet.Pictures.Add(0, 0, new MemoryStream(imageData));
+            var picture = sheet.Pictures[pictureIndex];
 
-    pic.FormatPicture.LeftCropInch = x;
-    Assert.AreEqual(Math.Round(pic.FormatPicture.LeftCrop, 1), 0.1);
+            // Set LeftCrop property
+            picture.FormatPicture.LeftCrop = 0.1;
+            Console.WriteLine("LeftCrop set to: " + picture.FormatPicture.LeftCrop);
 
+            // Get and set LeftCropInch property
+            double leftCropInch = picture.FormatPicture.LeftCropInch;
+            picture.FormatPicture.LeftCropInch = leftCropInch;
+            Console.WriteLine("LeftCropInch value: " + leftCropInch);
+
+            // Save the workbook
+            workbook.Save("LeftCropDemo.xlsx");
+        }
+    }
 }
 ```
 

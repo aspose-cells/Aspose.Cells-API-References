@@ -16,49 +16,50 @@ public bool HasTopBevelData()
 ### Examples
 
 ```csharp
-// Called: if (format3D.HasTopBevelData())
-public static void Format3D_Method_HasTopBevelData()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class Format3DMethodHasTopBevelDataDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
+            // Add sample data
             sheet.Cells["A1"].PutValue(10);
             sheet.Cells["A2"].PutValue(20);
             sheet.Cells["A3"].PutValue(30);
-            sheet.Cells["A4"].PutValue(40);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column3DClustered, 5, 0, 20, 10);
+            // Create 3D chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 8);
             Chart chart = sheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
 
-            // Add series to the chart
-            chart.NSeries.Add("A1:A4", true);
+            // Get 3D format
+            Format3D format3D = chart.NSeries[0].ShapeProperties.Format3D;
 
-            // Access the first series
-            Series series = chart.NSeries[0];
+            // Set top bevel
+            format3D.TopBevel.Type = BevelPresetType.Circle;
+            format3D.TopBevel.Width = 6;
+            format3D.TopBevel.Height = 6;
 
-            // Access the 3D format of the series
-            Format3D format3D = series.ShapeProperties.Format3D;
-
-            // Set the 3D format properties
-            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
-            format3D.LightingAngle = 45.0;
-
-            // Check if the shape has top bevel data
+            // Check and display bevel data
             if (format3D.HasTopBevelData())
             {
-                Bevel topBevel = format3D.TopBevel;
-                Console.WriteLine("Top Bevel Width: " + topBevel.Width);
-                Console.WriteLine("Top Bevel Height: " + topBevel.Height);
+                Console.WriteLine("Top Bevel Type: " + format3D.TopBevel.Type);
+                Console.WriteLine("Top Bevel Width: " + format3D.TopBevel.Width);
+                Console.WriteLine("Top Bevel Height: " + format3D.TopBevel.Height);
             }
 
-            // Save the workbook
-            workbook.Save("Format3DDemo.xlsx");
-            workbook.Save("Format3DDemo.pdf");
+            workbook.Save("Format3DTopBevelDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

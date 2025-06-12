@@ -20,27 +20,30 @@ if it is not be set, it will be the time of generating the pdf.
 ### Examples
 
 ```csharp
-// Called: CreatedTime = DateTime.Now,
-public void PdfSaveOptions_Property_CreatedTime()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].Cells["A1"].Value = "PdfA/1b validation with CreateTime setting";
-
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions()
+    public class PdfSaveOptionsPropertyCreatedTimeDemo
     {
-        CreatedTime = DateTime.Now,
-        Compliance = PdfCompliance.PdfA1b
-    };
-
-    using (MemoryStream ms = new MemoryStream())
-    {
-        wb.Save(ms, pdfSaveOptions);
-
-        ms.Position = 0;
-        using (StreamReader sr = new StreamReader(ms))
+        public static void Run()
         {
-            string content = sr.ReadToEnd();
-            Assert.IsTrue(content.IndexOf("/ID") != -1);
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("PDF with CreatedTime demonstration");
+
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                CreatedTime = DateTime.Now,
+                Compliance = PdfCompliance.PdfA1b
+            };
+
+            string outputPath = "OutputWithCreatedTime.pdf";
+            workbook.Save(outputPath, saveOptions);
+
+            Console.WriteLine($"PDF saved with CreatedTime: {saveOptions.CreatedTime}");
         }
     }
 }

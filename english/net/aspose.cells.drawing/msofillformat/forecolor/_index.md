@@ -16,24 +16,40 @@ public Color ForeColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(msofformatSrc.ForeColor, msofformatDest.ForeColor, info + ".ForeColor");
-public static void MsoFillFormat_Property_ForeColor(MsoFillFormat msofformatSrc, MsoFillFormat msofformatDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class MsoFillFormatPropertyForeColorDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(msofformatSrc, msofformatDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(msofformatSrc.IsVisible, msofformatDest.IsVisible, info + ".IsVisible");
-            if (msofformatSrc.IsVisible)
-            {                
-                AssertHelper.MsoFillFormat_Property_ForeColor(msofformatSrc.ForeColor, msofformatDest.ForeColor, info + ".ForeColor");
-                AssertHelper.MsoFillFormat_Property_ForeColor(msofformatSrc.BackColor, msofformatDest.BackColor, info + ".BackColor");
-                AssertHelper.AreEqual(msofformatSrc.Transparency, msofformatDest.Transparency, 0.01, info + ".Transparency");
-                if(msofformatDest.ImageData != null)
-                    AssertHelper.MsoFillFormat_Property_ForeColor(msofformatSrc.ImageData, msofformatDest.ImageData, info + ".ImageData");
-                AssertHelper.AreEqual(msofformatSrc.Texture, msofformatDest.Texture, info + ".Texture");
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape with all required parameters
+            var rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 150, 200);
+
+            // Get the fill format
+            MsoFillFormat fillFormat = rectangle.FillFormat;
+
+            // Set and demonstrate ForeColor property
+            fillFormat.ForeColor = System.Drawing.Color.Red;
+            Console.WriteLine("ForeColor set to: " + fillFormat.ForeColor);
+
+            // Modify the ForeColor
+            fillFormat.ForeColor = System.Drawing.Color.FromArgb(0, 128, 255);
+            Console.WriteLine("ForeColor changed to: " + fillFormat.ForeColor);
+
+            // Save the workbook
+            workbook.Save("MsoFillFormatForeColorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

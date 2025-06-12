@@ -16,35 +16,55 @@ public OperatorType Operator { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fc.Operator, OperatorType.Between);
-public void FormatCondition_Property_Operator()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.InsertColumns(0, 4);
-    Assert.AreEqual(cells["F2"].DoubleValue, 3);
-    Assert.AreEqual(cells["H6"].DoubleValue, 5);
-    ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
-    FormatCondition fc = cfs[0][0];
-    string fml = fc.Formula1;
-    if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
-    {
-        fml = "=" + fml;
-    }
-    Assert.AreEqual("=1", fml);
-    fml = fc.Formula2;
-    if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
-    {
-        fml = "=" + fml;
-    }
-    Assert.AreEqual("=2", fml);
-    Assert.AreEqual(fc.Operator, OperatorType.Between);
-    Assert.AreEqual(fc.Type, FormatConditionType.CellValue);
-    fc = cfs[1][0];
-    Assert.AreEqual(fc.Formula1, "=F2=3");
-    Assert.AreEqual(fc.Type, FormatConditionType.Expression);
-    workbook.Save(Constants.destPath + "example.xls");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class FormatConditionPropertyOperatorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            
+            // Add conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            
+            // Create cell range
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 0;
+            
+            // Add condition
+            int conditionIndex = fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "15", "25");
+            FormatCondition fc = fcc[conditionIndex];
+            
+            // Set style
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            fc.Style = style;
+            
+            // Demonstrate Operator property usage
+            Console.WriteLine("Operator Type: " + fc.Operator);
+            if (fc.Operator == OperatorType.Between)
+            {
+                Console.WriteLine("Condition is set to BETWEEN values");
+            }
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

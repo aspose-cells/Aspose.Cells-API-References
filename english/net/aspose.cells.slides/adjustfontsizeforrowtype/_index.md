@@ -23,8 +23,15 @@ public enum AdjustFontSizeForRowType
 ### Examples
 
 ```csharp
-// Called: AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-public static void Slides_Type_AdjustFontSizeForRowType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Slides;
+
+namespace AsposeCellsExamples
+{
+    public class SlidesClassAdjustFontSizeForRowTypeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -34,41 +41,17 @@ public static void Slides_Type_AdjustFontSizeForRowType()
             worksheet.Cells["A1"].PutValue("Hello");
             worksheet.Cells["A2"].PutValue("World");
 
-            // Create an instance of PptxSaveOptions
+            // Create an instance of PptxSaveOptions with AdjustFontSizeForRowType setting
             PptxSaveOptions saveOptions = new PptxSaveOptions
             {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-                ExportViewType = SlideViewType.Print,
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
+                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows
             };
 
             // Save the workbook as a PPTX file
-            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
+            workbook.Save("AdjustFontSizeForRowTypeDemo.pptx", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

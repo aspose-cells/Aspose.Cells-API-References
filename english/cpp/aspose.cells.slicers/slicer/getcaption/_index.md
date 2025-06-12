@@ -4,7 +4,7 @@ linktitle: GetCaption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetCaption method. Returns or sets the caption of the specified slicer in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells.slicers/slicer/getcaption/
 ---
 ## Slicer::GetCaption method

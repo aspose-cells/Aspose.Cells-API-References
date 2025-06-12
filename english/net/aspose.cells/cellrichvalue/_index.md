@@ -24,18 +24,35 @@ public abstract class CellRichValue
 ### Examples
 
 ```csharp
-// Called: CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-public void Cells_Type_CellRichValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook w = new Workbook();
-    w.Worksheets[0].Copy(wb.Worksheets[0]);
-    CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-    w.Save(Constants.destPath + "example.xlsx");
-    w = new Workbook(Constants.destPath + "example.xlsx");
-    c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+    public class CellsClassCellRichValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set a rich value in cell A1
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample Rich Value");
+            
+            // Get the rich value from cell A1
+            CellRichValue richValue = cell.GetRichValue();
+            
+            // Display the rich value properties
+            Console.WriteLine("Rich Value: " + richValue.ToString());
+            
+            // Save the workbook
+            workbook.Save("RichValueDemo.xlsx");
+        }
+    }
 }
 ```
 

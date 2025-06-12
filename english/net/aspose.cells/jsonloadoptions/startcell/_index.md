@@ -16,33 +16,36 @@ public string StartCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: StartCell = "A1",
-public static void JsonLoadOptions_Property_StartCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class JsonLoadOptionsPropertyStartCellDemo
+    {
+        public static void Run()
         {
-            // Create an instance of JsonLoadOptions
-            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
+            // Create JSON load options with StartCell property
+            JsonLoadOptions options = new JsonLoadOptions
             {
-                StartCell = "A1",
-                MultipleWorksheets = true,
-                KeptSchema = true,
-                LayoutOptions = new JsonLayoutOptions
-                {
-                    ArrayAsTable = true,
-                    IgnoreNull = false,
-                    IgnoreTitle = false,
-                    ConvertNumericOrDate = true,
-                    NumberFormat = "0.00",
-                    DateFormat = "yyyy-MM-dd"
-                }
+                StartCell = "B3" // JSON data will start from cell B3
             };
 
-            // Load JSON data into a Workbook
-            string jsonFilePath = "JsonLoadOptionsExample_data.json";
-            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
+            // Create a workbook from JSON file with options
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("Header");
+            
+            // Create a sample JSON file
+            System.IO.File.WriteAllText("data.json", "{\"Name\":\"John\",\"Age\":30,\"City\":\"New York\"}");
+            
+            // Load JSON data into workbook
+            workbook = new Workbook("data.json", options);
 
-            // Save the workbook to an Excel file
-            workbook.Save("JsonLoadOptionsExample.xlsx");
+            // Save the workbook
+            workbook.Save("JsonStartCellDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

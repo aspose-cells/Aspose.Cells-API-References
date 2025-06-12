@@ -20,17 +20,32 @@ The default value is an empty string. If SourceFullName is not an empty string, 
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(!string.IsNullOrEmpty(pics[0].SourceFullName));
-public void Picture_Property_SourceFullName()
-{
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PictureCollection pics = workbook.Worksheets[0].Pictures;
-    // Picture pic =  workbook.Worksheets[0].Shapes.AddLinkedPicture(0, 0, 100, 100, dir + "image1.png");
-    Assert.AreEqual(ImageType.Svg, pics[0].ImageType);
-    Assert.IsTrue(pics[0].IsLink);
-    Assert.IsTrue(!string.IsNullOrEmpty(pics[0].SourceFullName));
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PicturePropertySourceFullNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a linked picture to the worksheet
+            string imagePath = "example.png";
+            Picture picture = worksheet.Shapes.AddLinkedPicture(0, 0, 100, 100, imagePath);
+
+            // Demonstrate SourceFullName property
+            Console.WriteLine("Picture SourceFullName: " + picture.SourceFullName);
+            Console.WriteLine("Is linked picture: " + picture.IsLink);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

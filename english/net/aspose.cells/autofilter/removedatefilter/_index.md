@@ -32,45 +32,44 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
 ### Examples
 
 ```csharp
-// Called: filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-public void AutoFilter_Method_RemoveDateFilter()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets["Sheet1"];
+using System;
+using Aspose.Cells;
 
-    Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
-    Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
-    sheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    sheet.AutoFilter.Refresh();
-   Assert.IsTrue(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsTrue(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    sheet = wb.Worksheets["Sheet1"];
-    AutoFilter filter = wb.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-    MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
-    DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
-    Assert.AreEqual(dateTimeGroupItem.Day, 7);
-    filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    Assert.AreEqual(m.Count, 0);
-    filter.RemoveFilter(1);
-    filter.Refresh(true);
-    Assert.IsFalse(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    filter.DynamicFilter(1, DynamicFilterType.September);
-    fc = filter.FilterColumns[1];
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
+namespace AsposeCellsExamples
+{
+    public class AutoFilterMethodRemoveDateFilterWithInt32DateTimeGroupingTypeInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data with dates
+            sheet.Cells["A1"].PutValue("Date");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue(new DateTime(2020, 1, 7));
+            sheet.Cells["A3"].PutValue(new DateTime(2020, 1, 8));
+            sheet.Cells["A4"].PutValue(new DateTime(2020, 1, 9));
+            
+            // Apply auto filter
+            sheet.AutoFilter.Range = "A1:A4";
+            
+            // Add date filter for day 7
+            sheet.AutoFilter.AddDateFilter(0, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
+            sheet.AutoFilter.Refresh();
+            
+            // Verify filter is applied
+            Console.WriteLine("Row 2 hidden: " + sheet.Cells.IsRowHidden(1)); // Should be true
+            
+            // Remove the date filter
+            sheet.AutoFilter.RemoveDateFilter(0, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
+            sheet.AutoFilter.Refresh();
+            
+            // Verify filter is removed
+            Console.WriteLine("Row 2 hidden after removal: " + sheet.Cells.IsRowHidden(1)); // Should be false
+        }
+    }
 }
 ```
 

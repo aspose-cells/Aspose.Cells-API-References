@@ -16,24 +16,32 @@ public SignatureLine SignatureLine { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.Pictures.Add(1, 1, (string)null);
-//Get the inserted picture object
-Picture pic = worksheet.Pictures[imgIndex];
-// Create signature line object
-SignatureLine s = new SignatureLine();
-s.Signer = "Simon";
-s.Title = "Development";
-s.Email = "simon@aspose.com";
-// Assign the signature line object to Picture.
-pic.SignatureLine = s;
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PicturePropertySignatureLineDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            int imgIndex = worksheet.Pictures.Add(1, 1, (string)null);
+            Picture pic = worksheet.Pictures[imgIndex];
+            
+            SignatureLine signatureLine = new SignatureLine();
+            signatureLine.Signer = "Simon";
+            signatureLine.Title = "Development";
+            signatureLine.Email = "simon@aspose.com";
+            
+            pic.SignatureLine = signatureLine;
+            workbook.Save("result.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -39,6 +39,62 @@ public class LowCodeSaveOptionsProviderOfPlaceHolders : AbstractLowCodeSaveOptio
 | virtual [Finish](../../aspose.cells.lowcode/abstractlowcodesaveoptionsprovider/finish/)(LowCodeSaveOptions) | Releases resources after processing currently split part.(Inherited from [`AbstractLowCodeSaveOptionsProvider`](../abstractlowcodesaveoptionsprovider/).) |
 | override [GetSaveOptions](../../aspose.cells.lowcode/lowcodesaveoptionsproviderofplaceholders/getsaveoptions/)(SplitPartInfo) | Gets the save options from which to get the output settings for currently split part. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using Aspose.Cells.Rendering;
+
+    public class LowCodeClassLowCodeSaveOptionsProviderOfPlaceHoldersDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate worksheet with sample data
+            for (int i = 0; i < 250; i++)
+            {
+                worksheet.Cells[i, 0].Value = $"Data Row {i + 1}";
+            }
+
+            // Create provider with path template containing placeholders
+            var provider = new LowCodeSaveOptionsProviderOfPlaceHolders("Output_Sheet_{sheet}_Part_{split}.xlsx");
+            
+            // Configure provider properties
+            provider.SheetIndexOffset = 1;
+            provider.SplitPartIndexOffset = 1;
+            provider.SheetIndexPrefix = "S";
+            provider.SplitPartPrefix = "P";
+            provider.BuildPathWithSheetAlways = true;
+            provider.BuildPathWithSplitPartAlways = true;
+
+            // Configure save options template
+            provider.SaveOptionsTemplate = new LowCodeSaveOptions
+            {
+                SaveFormat = SaveFormat.Xlsx
+            };
+
+            // Configure image or print options for split rendering
+            var imgOrPrintOptions = new ImageOrPrintOptions
+            {
+                SaveFormat = SaveFormat.Pdf,
+                OnePagePerSheet = false,
+                PageIndex = 0,
+                PageCount = 1
+            };
+
+            // Create sheet render with split configuration
+            var sheetRender = new SheetRender(worksheet, imgOrPrintOptions);
+            sheetRender.ToImage(0, "output"); // This would normally split and save using provider
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractLowCodeSaveOptionsProvider](../abstractlowcodesaveoptionsprovider/)

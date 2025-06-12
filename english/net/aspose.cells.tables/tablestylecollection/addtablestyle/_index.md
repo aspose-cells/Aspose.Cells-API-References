@@ -24,72 +24,63 @@ The index of the table style.
 ### Examples
 
 ```csharp
-// Called: int index1 = tableStyles.AddTableStyle(tableStyleName);
-public static void TableStyleCollection_Method_AddTableStyle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class TableStyleCollectionMethodAddTableStyleWithStringDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create styles for the first and last columns
-            Style firstColumnStyle = workbook.CreateStyle();
-            firstColumnStyle.Pattern = BackgroundType.Solid;
-            firstColumnStyle.BackgroundColor = System.Drawing.Color.Red;
-
-            Style lastColumnStyle = workbook.CreateStyle();
-            lastColumnStyle.Font.IsBold = true;
-            lastColumnStyle.Pattern = BackgroundType.Solid;
-            lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
-
-            // Define a custom table style name
-            string tableStyleName = "Custom1";
-
-            // Access the table styles collection
-            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-
-            // Add a new table style to the collection
-            int index1 = tableStyles.AddTableStyle(tableStyleName);
-            TableStyle tableStyle = tableStyles[index1];
-
-            // Access the table style elements collection
-            TableStyleElementCollection elements = tableStyle.TableStyleElements;
-
-            // Add and configure the first column style element
-            index1 = elements.Add(TableStyleElementType.FirstColumn);
-            TableStyleElement element = elements[index1];
-            element.SetElementStyle(firstColumnStyle);
-
-            // Add and configure the last column style element
-            index1 = elements.Add(TableStyleElementType.LastColumn);
-            element = elements[index1];
-            element.SetElementStyle(lastColumnStyle);
-
-            // Populate the worksheet with sample data
-            Cells cells = workbook.Worksheets[0].Cells;
+            // Create sample data
             for (int i = 0; i < 5; i++)
             {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row < 10; row++)
-            {
-                for (int column = 0; column < 5; column++)
+                worksheet.Cells[0, i].PutValue("Header " + (i + 1));
+                for (int row = 1; row < 6; row++)
                 {
-                    cells[row, column].PutValue(row * column);
+                    worksheet.Cells[row, i].PutValue(row * (i + 1));
                 }
             }
 
-            // Add a table to the worksheet
-            ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
+            // Create a custom table style
+            string styleName = "MyCustomStyle";
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            int styleIndex = tableStyles.AddTableStyle(styleName);
+            TableStyle tableStyle = tableStyles[styleIndex];
 
-            // Apply the custom table style to the table
+            // Style the header row
+            Style headerStyle = workbook.CreateStyle();
+            headerStyle.Font.IsBold = true;
+            headerStyle.ForegroundColor = System.Drawing.Color.LightBlue;
+            headerStyle.Pattern = BackgroundType.Solid;
+
+            tableStyle.TableStyleElements.Add(TableStyleElementType.HeaderRow);
+            TableStyleElement headerElement = tableStyle.TableStyleElements[TableStyleElementType.HeaderRow];
+            headerElement.SetElementStyle(headerStyle);
+
+            // Style the first column
+            Style firstColStyle = workbook.CreateStyle();
+            firstColStyle.Font.Color = System.Drawing.Color.Red;
+
+            tableStyle.TableStyleElements.Add(TableStyleElementType.FirstColumn);
+            TableStyleElement firstColElement = tableStyle.TableStyleElements[TableStyleElementType.FirstColumn];
+            firstColElement.SetElementStyle(firstColStyle);
+
+            // Create a table with the custom style
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 5, 4, true);
+            ListObject table = worksheet.ListObjects[tableIndex];
+            table.TableStyleName = styleName;
             table.ShowTableStyleFirstColumn = true;
-            table.ShowTableStyleLastColumn = true;
-            table.TableStyleName = tableStyleName;
 
-            // Save the workbook
-            workbook.Save("TableStyleElementCollectionExample.xlsx");
+            workbook.Save("CustomTableStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

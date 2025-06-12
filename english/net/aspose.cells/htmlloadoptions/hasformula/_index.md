@@ -16,33 +16,36 @@ public bool HasFormula { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.HasFormula = false;
-public void HtmlLoadOptions_Property_HasFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-    loadOptions.ConvertNumericData = true;
-    loadOptions.ConvertDateTimeData = false;
-    loadOptions.HasFormula = false;
-    loadOptions.IgnoreNotPrinted = true;
-    loadOptions.SupportDivTag = true;
-
-    loadOptions.AutoFitColsAndRows = true;
-
-    //loadOptions.Encoding = System.Text.Encoding.GetEncoding("ISO-8859-1");
-
-
-    // Create a Workbook object and opening the file from its path
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
-
-    Cells cells = wb.Worksheets[0].Cells;
-    Assert.AreEqual("Daytime ", cells["A1"].StringValue);
-    Assert.AreEqual("After-Hours", cells["B1"].StringValue);
-    Assert.AreEqual("Backup", cells["C1"].StringValue);
-
-    Assert.AreEqual("Employee Away Information", cells["A11"].StringValue);
-
-    // Save the MHT file
-    wb.Save(_destFilesPath + "example.xlsx");
+    public class HtmlLoadOptionsPropertyHasFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create HTML load options
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            
+            // Set HasFormula to false to treat formula strings as plain text
+            loadOptions.HasFormula = false;
+            
+            // Create workbook with HTML file and load options
+            Workbook workbook = new Workbook("example.html", loadOptions);
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Display some cell values to demonstrate HTML import
+            Console.WriteLine("A1: " + cells["A1"].StringValue);
+            Console.WriteLine("B1: " + cells["B1"].StringValue);
+            
+            // Save as XLSX
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

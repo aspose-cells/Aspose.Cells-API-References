@@ -25,30 +25,63 @@ public class Border
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-WorksheetCollection sheets = workbook.Worksheets;
-Cell cell = sheets[0].Cells["A1"];
+    public class BorderDemo
+    {
+        public static void BorderExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-Style style = cell.GetStyle();
-//Set top border style and color
-Border border = style.Borders[BorderType.TopBorder];
-border.LineStyle = CellBorderType.Medium;
-border.Color = Color.Red;
-cell.SetStyle(style);
+            // Adding a new worksheet to the Workbook object
+            workbook.Worksheets.Add();
 
-[Visual Basic]
-Dim workbook as Workbook  = New Workbook()
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Dim sheets as WorksheetCollection  = workbook.Worksheets
-Cell cell = sheets(0).Cells("A1");
-Dim style as Style = cell.GetStyle()
-'Set top border style and color
-Dim border as Border = style.Borders(BorderType.TopBorder)
-border.LineStyle = CellBorderType.Medium
-border.Color = Color.Red
-cell.SetStyle(style);
+            // Accessing the "A1" cell from the worksheet
+            Cell cell = worksheet.Cells["A1"];
+
+            // Adding some value to the "A1" cell
+            cell.PutValue("Hello World");
+
+            // Getting the cell style
+            Style style = cell.GetStyle();
+
+            // Setting the line style of the top border
+            Border topBorder = style.Borders[BorderType.TopBorder];
+            topBorder.LineStyle = CellBorderType.Medium;
+            topBorder.Color = Color.Red;
+
+            // Setting the line style of the bottom border
+            Border bottomBorder = style.Borders[BorderType.BottomBorder];
+            bottomBorder.LineStyle = CellBorderType.Thick;
+            bottomBorder.Color = Color.Blue;
+
+            // Setting the line style of the left border
+            Border leftBorder = style.Borders[BorderType.LeftBorder];
+            leftBorder.LineStyle = CellBorderType.Dashed;
+            leftBorder.Color = Color.Green;
+
+            // Setting the line style of the right border
+            Border rightBorder = style.Borders[BorderType.RightBorder];
+            rightBorder.LineStyle = CellBorderType.Dotted;
+            rightBorder.Color = Color.Purple;
+
+            // Applying the style to the cell
+            cell.SetStyle(style);
+
+            // Saving the Excel file
+            workbook.Save("BorderExample.xlsx");
+            workbook.Save("BorderExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

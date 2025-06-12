@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row class. Represents a single row in a worksheet in C++.'
 type: docs
-weight: 12600
+weight: 13000
 url: /cpp/aspose.cells/row/
 ---
 ## Row class

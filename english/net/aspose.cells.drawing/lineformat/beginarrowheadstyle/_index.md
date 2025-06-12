@@ -16,9 +16,31 @@ public MsoArrowheadStyle BeginArrowheadStyle { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyBeginArrowheadStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            Shape line = worksheet.Shapes.AddLine(5, 5, 100, 5, 10, 100);
+
+            // Set the begin arrowhead style
+            line.Line.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+
+            // Save the workbook
+            workbook.Save("LineFormatPropertyBeginArrowheadStyleDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

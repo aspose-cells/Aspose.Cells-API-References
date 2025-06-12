@@ -19,16 +19,32 @@ The default value is true.
 
 ### Examples
 
-The following code makes the vertical scroll bar invisible for the spreadsheet.
-
 ```csharp
-[C#]
-// Hide the vertical scroll bar of the Excel file.
-settings.IsVScrollBarVisible = false;
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-' Hide the vertical scroll bar of the Excel file.
-settings.IsVScrollBarVisible = False
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyIsVScrollBarVisibleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access workbook settings
+            WorkbookSettings settings = workbook.Settings;
+            
+            // Hide the vertical scroll bar
+            settings.IsVScrollBarVisible = false;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Vertical scroll bar visibility set to false. Workbook saved.");
+        }
+    }
+}
 ```
 
 ### See Also

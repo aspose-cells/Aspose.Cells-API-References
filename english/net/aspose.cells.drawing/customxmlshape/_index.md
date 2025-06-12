@@ -154,25 +154,40 @@ public class CustomXmlShape : Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-
-//add a CustomXmlShape
-Shape shape = shapes.AddShape(MsoDrawingType.CustomXml, 3, 0, 3, 0, 50, 150);
-
-//Check if a shape is CustomXmlShape
-CustomXmlShape customXmlShape = null;
-if (shapes[0].MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.CustomXml)
+namespace AsposeCellsExamples
 {
-    //is CustomXmlShape
-    customXmlShape = (CustomXmlShape)shapes[0];
+    public class DrawingClassCustomXmlShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a CustomXmlShape to the worksheet with all required parameters
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.CustomXml, 10, 10, 200, 100, 0, 0);
+            
+            // Check if the shape is CustomXmlShape and cast it
+            if (shape.MsoDrawingType == MsoDrawingType.CustomXml)
+            {
+                CustomXmlShape customXmlShape = (CustomXmlShape)shape;
+                
+                // Set custom XML data (example) with all required parameters
+                string xmlData = "<root><item>Sample XML Data</item></root>";
+                customXmlShape.SetInputRange(xmlData, false, false);
+                
+                // Save the workbook
+                workbook.Save("CustomXmlShapeDemo.xlsx");
+            }
+        }
+    }
 }
-
-//do your business
-
 ```
 
 ### See Also

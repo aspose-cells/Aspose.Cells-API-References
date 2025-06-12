@@ -21,37 +21,112 @@ const { Workbook, MsoPresetTextEffect } = require("aspose.cells.node");
 
 //Instantiating a Workbook object
 var workbook = new Workbook();
-var shapes = workbook.getWorksheets().get(0).getShapes();
+var shapes = workbook.worksheets.get(0).shapes;
 shapes.addTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
-var textEffectFormat = shapes.get(0).getTextEffect();
+var textEffectFormat = shapes.get(0).textEffect;
 textEffectFormat.setTextEffect(MsoPresetTextEffect.TextEffect10);
 workbook.save("output/TextEffectFormat.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [text](#text--)| string | The text in the WordArt. |
+| [fontName](#fontName--)| string | The name of the font used in the WordArt. |
+| [fontBold](#fontBold--)| boolean | Indicates whether font is bold. |
+| [fontItalic](#fontItalic--)| boolean | Indicates whether font is italic. |
+| [rotatedChars](#rotatedChars--)| boolean | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
+| [fontSize](#fontSize--)| number | The size (in points) of the font used in the WordArt. |
+| [presetShape](#presetShape--)| MsoPresetTextEffectShape | Gets and sets the preset shape type. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--)| The text in the WordArt. |
-| [setText(string)](#setText-string-)| The text in the WordArt. |
-| [getFontName()](#getFontName--)| The name of the font used in the WordArt. |
-| [setFontName(string)](#setFontName-string-)| The name of the font used in the WordArt. |
-| [getFontBold()](#getFontBold--)| Indicates whether font is bold. |
-| [setFontBold(boolean)](#setFontBold-boolean-)| Indicates whether font is bold. |
-| [getFontItalic()](#getFontItalic--)| Indicates whether font is italic. |
-| [setFontItalic(boolean)](#setFontItalic-boolean-)| Indicates whether font is italic. |
-| [getRotatedChars()](#getRotatedChars--)| If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
-| [setRotatedChars(boolean)](#setRotatedChars-boolean-)| If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
-| [getFontSize()](#getFontSize--)| The size (in points) of the font used in the WordArt. |
-| [setFontSize(number)](#setFontSize-number-)| The size (in points) of the font used in the WordArt. |
-| [getPresetShape()](#getPresetShape--)| Gets and sets the preset shape type. |
-| [setPresetShape(MsoPresetTextEffectShape)](#setPresetShape-msopresettexteffectshape-)| Gets and sets the preset shape type. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. The text in the WordArt. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. The text in the WordArt. |
+| [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. The name of the font used in the WordArt. |
+| [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. The name of the font used in the WordArt. |
+| [getFontBold()](#getFontBold--)| <b>@deprecated.</b> Please use the 'fontBold' property instead. Indicates whether font is bold. |
+| [setFontBold(boolean)](#setFontBold-boolean-)| <b>@deprecated.</b> Please use the 'fontBold' property instead. Indicates whether font is bold. |
+| [getFontItalic()](#getFontItalic--)| <b>@deprecated.</b> Please use the 'fontItalic' property instead. Indicates whether font is italic. |
+| [setFontItalic(boolean)](#setFontItalic-boolean-)| <b>@deprecated.</b> Please use the 'fontItalic' property instead. Indicates whether font is italic. |
+| [getRotatedChars()](#getRotatedChars--)| <b>@deprecated.</b> Please use the 'rotatedChars' property instead. If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
+| [setRotatedChars(boolean)](#setRotatedChars-boolean-)| <b>@deprecated.</b> Please use the 'rotatedChars' property instead. If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
+| [getFontSize()](#getFontSize--)| <b>@deprecated.</b> Please use the 'fontSize' property instead. The size (in points) of the font used in the WordArt. |
+| [setFontSize(number)](#setFontSize-number-)| <b>@deprecated.</b> Please use the 'fontSize' property instead. The size (in points) of the font used in the WordArt. |
+| [getPresetShape()](#getPresetShape--)| <b>@deprecated.</b> Please use the 'presetShape' property instead. Gets and sets the preset shape type. |
+| [setPresetShape(MsoPresetTextEffectShape)](#setPresetShape-msopresettexteffectshape-)| <b>@deprecated.</b> Please use the 'presetShape' property instead. Gets and sets the preset shape type. |
 | [setTextEffect(MsoPresetTextEffect)](#setTextEffect-msopresettexteffect-)| Sets the preset text effect. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getText() {#getText--}
+### text {#text--}
 
 The text in the WordArt.
+
+```javascript
+text : string;
+```
+
+
+### fontName {#fontName--}
+
+The name of the font used in the WordArt.
+
+```javascript
+fontName : string;
+```
+
+
+### fontBold {#fontBold--}
+
+Indicates whether font is bold.
+
+```javascript
+fontBold : boolean;
+```
+
+
+### fontItalic {#fontItalic--}
+
+Indicates whether font is italic.
+
+```javascript
+fontItalic : boolean;
+```
+
+
+### rotatedChars {#rotatedChars--}
+
+If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
+
+```javascript
+rotatedChars : boolean;
+```
+
+
+### fontSize {#fontSize--}
+
+The size (in points) of the font used in the WordArt.
+
+```javascript
+fontSize : number;
+```
+
+
+### presetShape {#presetShape--}
+
+Gets and sets the preset shape type.
+
+```javascript
+presetShape : MsoPresetTextEffectShape;
+```
+
+
+### getText() {#getText--}
+
+<b>@deprecated.</b> Please use the 'text' property instead. The text in the WordArt.
 
 ```javascript
 getText() : string;
@@ -60,7 +135,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-The text in the WordArt.
+<b>@deprecated.</b> Please use the 'text' property instead. The text in the WordArt.
 
 ```javascript
 setText(value: string) : void;
@@ -73,7 +148,7 @@ setText(value: string) : void;
 
 ### getFontName() {#getFontName--}
 
-The name of the font used in the WordArt.
+<b>@deprecated.</b> Please use the 'fontName' property instead. The name of the font used in the WordArt.
 
 ```javascript
 getFontName() : string;
@@ -82,7 +157,7 @@ getFontName() : string;
 
 ### setFontName(string) {#setFontName-string-}
 
-The name of the font used in the WordArt.
+<b>@deprecated.</b> Please use the 'fontName' property instead. The name of the font used in the WordArt.
 
 ```javascript
 setFontName(value: string) : void;
@@ -95,7 +170,7 @@ setFontName(value: string) : void;
 
 ### getFontBold() {#getFontBold--}
 
-Indicates whether font is bold.
+<b>@deprecated.</b> Please use the 'fontBold' property instead. Indicates whether font is bold.
 
 ```javascript
 getFontBold() : boolean;
@@ -104,7 +179,7 @@ getFontBold() : boolean;
 
 ### setFontBold(boolean) {#setFontBold-boolean-}
 
-Indicates whether font is bold.
+<b>@deprecated.</b> Please use the 'fontBold' property instead. Indicates whether font is bold.
 
 ```javascript
 setFontBold(value: boolean) : void;
@@ -117,7 +192,7 @@ setFontBold(value: boolean) : void;
 
 ### getFontItalic() {#getFontItalic--}
 
-Indicates whether font is italic.
+<b>@deprecated.</b> Please use the 'fontItalic' property instead. Indicates whether font is italic.
 
 ```javascript
 getFontItalic() : boolean;
@@ -126,7 +201,7 @@ getFontItalic() : boolean;
 
 ### setFontItalic(boolean) {#setFontItalic-boolean-}
 
-Indicates whether font is italic.
+<b>@deprecated.</b> Please use the 'fontItalic' property instead. Indicates whether font is italic.
 
 ```javascript
 setFontItalic(value: boolean) : void;
@@ -139,7 +214,7 @@ setFontItalic(value: boolean) : void;
 
 ### getRotatedChars() {#getRotatedChars--}
 
-If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
+<b>@deprecated.</b> Please use the 'rotatedChars' property instead. If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
 
 ```javascript
 getRotatedChars() : boolean;
@@ -148,7 +223,7 @@ getRotatedChars() : boolean;
 
 ### setRotatedChars(boolean) {#setRotatedChars-boolean-}
 
-If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
+<b>@deprecated.</b> Please use the 'rotatedChars' property instead. If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
 
 ```javascript
 setRotatedChars(value: boolean) : void;
@@ -161,7 +236,7 @@ setRotatedChars(value: boolean) : void;
 
 ### getFontSize() {#getFontSize--}
 
-The size (in points) of the font used in the WordArt.
+<b>@deprecated.</b> Please use the 'fontSize' property instead. The size (in points) of the font used in the WordArt.
 
 ```javascript
 getFontSize() : number;
@@ -170,7 +245,7 @@ getFontSize() : number;
 
 ### setFontSize(number) {#setFontSize-number-}
 
-The size (in points) of the font used in the WordArt.
+<b>@deprecated.</b> Please use the 'fontSize' property instead. The size (in points) of the font used in the WordArt.
 
 ```javascript
 setFontSize(value: number) : void;
@@ -183,7 +258,7 @@ setFontSize(value: number) : void;
 
 ### getPresetShape() {#getPresetShape--}
 
-Gets and sets the preset shape type.
+<b>@deprecated.</b> Please use the 'presetShape' property instead. Gets and sets the preset shape type.
 
 ```javascript
 getPresetShape() : MsoPresetTextEffectShape;
@@ -196,7 +271,7 @@ getPresetShape() : MsoPresetTextEffectShape;
 
 ### setPresetShape(MsoPresetTextEffectShape) {#setPresetShape-msopresettexteffectshape-}
 
-Gets and sets the preset shape type.
+<b>@deprecated.</b> Please use the 'presetShape' property instead. Gets and sets the preset shape type.
 
 ```javascript
 setPresetShape(value: MsoPresetTextEffectShape) : void;

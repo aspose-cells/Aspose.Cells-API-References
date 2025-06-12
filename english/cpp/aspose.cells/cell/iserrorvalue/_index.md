@@ -4,7 +4,7 @@ linktitle: IsErrorValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsErrorValue method. Checks if the value of this cell is an error in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/cell/iserrorvalue/
 ---
 ## Cell::IsErrorValue method

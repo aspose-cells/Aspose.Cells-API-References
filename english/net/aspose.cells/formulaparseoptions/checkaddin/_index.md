@@ -16,26 +16,29 @@ public bool CheckAddIn { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells[0, c1++].SetFormula("=TEST_UDF()", new FormulaParseOptions() { CheckAddIn = false }, null);
-public void FormulaParseOptions_Property_CheckAddIn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    int c1 = 0;
-    int c2 = 0;
-    cells[0, c1++].Formula = "=TEST_UDF()";
-    wb.Worksheets.RegisterAddInFunction("Test.xlam", "TEST_UDF", false);
-    cells[1, c2++].Formula = "=Test.xlam!TEST_UDF()";
-    cells[1, c2++].Formula = "=TEST_UDF()";
-    cells[1, c2++].SetFormula("=TEST_UDF()", new FormulaParseOptions());
-    cells[0, c1++].SetFormula("=TEST_UDF()", new FormulaParseOptions() { CheckAddIn = false }, null);
-    for (c1--; c1 > -1; c1--)
+    public class FormulaParseOptionsPropertyCheckAddInDemo
     {
-        Assert.AreEqual("=TEST_UDF()", cells[0, c1].Formula, CellsHelper.CellIndexToName(0, c1));
-    }
-    for (c2--; c2 > -1; c2--)
-    {
-        Assert.AreEqual("=Test.xlam!TEST_UDF()", cells[1, c2].Formula, CellsHelper.CellIndexToName(1, c2));
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            
+            // Register add-in function
+            wb.Worksheets.RegisterAddInFunction("Test.xlam", "TEST_UDF", false);
+
+            // Without CheckAddIn=false - formula will be converted to add-in format
+            cells["A1"].SetFormula("=TEST_UDF()", new FormulaParseOptions());
+            Console.WriteLine("A1 Formula (CheckAddIn=true): " + cells["A1"].Formula);
+
+            // With CheckAddIn=false - formula remains unchanged
+            cells["A2"].SetFormula("=TEST_UDF()", new FormulaParseOptions() { CheckAddIn = false });
+            Console.WriteLine("A2 Formula (CheckAddIn=false): " + cells["A2"].Formula);
+        }
     }
 }
 ```

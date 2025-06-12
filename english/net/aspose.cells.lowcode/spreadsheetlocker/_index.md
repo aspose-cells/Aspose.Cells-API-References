@@ -25,8 +25,21 @@ public class SpreadsheetLocker
 ### Examples
 
 ```csharp
-[C#]
-SpreadsheetLocker.Process("template.xlsx", "locked.xlsx", "mypassword", "mypassword");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeClassSpreadsheetLockerDemo
+    {
+        public static void Run()
+        {
+            // Use SpreadsheetLocker to protect the workbook
+            SpreadsheetLocker.Process("template.xlsx", "locked.xlsx", "mypassword", "mypassword");
+        }
+    }
+}
 ```
 
 ### See Also

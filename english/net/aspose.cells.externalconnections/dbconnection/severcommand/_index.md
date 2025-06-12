@@ -22,22 +22,36 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Seco
 ### Examples
 
 ```csharp
-// Called: connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
-public void DBConnection_Property_SeverCommand()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-    foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+namespace AsposeCellsExamples
+{
+    public class DBConnectionPropertySeverCommandDemo
     {
-        connection.Name = connection.Name.Replace("c:\\", "d:\\");
-        connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
-        connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
-        connection.Command = connection.Command.Replace("c:\\", "d:\\");
-        if (!string.IsNullOrEmpty(connection.SeverCommand))
-            connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
+        public static void Run()
+        {
+            Workbook workbook = new Workbook("input.xlsx");
+            ExternalConnectionCollection connections = workbook.DataConnections;
+
+            foreach (ExternalConnection connection in connections)
+            {
+                if (connection is DBConnection dbConn)
+                {
+                    dbConn.Name = dbConn.Name.Replace("c:\\", "d:\\");
+                    dbConn.SourceFile = dbConn.SourceFile.Replace("c:\\", "d:\\");
+                    dbConn.ConnectionInfo = dbConn.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
+                    dbConn.Command = dbConn.Command.Replace("c:\\", "d:\\");
+                    
+                    if (!string.IsNullOrEmpty(dbConn.SeverCommand))
+                        dbConn.SeverCommand = dbConn.SeverCommand.Replace("c:\\", "d:\\");
+                }
+            }
+
+            workbook.Save("output.xlsx");
+        }
     }
-    workbook.Save(Constants.destPath + "example.xls");
 }
 ```
 

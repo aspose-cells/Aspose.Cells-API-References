@@ -16,19 +16,43 @@ public PivotTableStyleType PivotTableStyleType { get; set; }
 ### Examples
 
 ```csharp
-// Called: PivotTableStyleType type = wb.Worksheets[0].PivotTables[0].PivotTableStyleType;
-public void PivotTable_Property_PivotTableStyleType()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET51306_";
-    string savePath = CreateFolder(filePath);
-    Workbook workbook = new Workbook(filePath + @"test.xlsx");
-    Workbook newWorkbook = new Workbook();
-    newWorkbook.Copy(workbook);
-    newWorkbook.Save(savePath + "out.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Workbook wb = new Workbook(savePath + "out.xlsx");
-    PivotTableStyleType type = wb.Worksheets[0].PivotTables[0].PivotTableStyleType;
-    Assert.AreEqual(type, PivotTableStyleType.None);
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyPivotTableStyleTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Set and demonstrate PivotTableStyleType
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            Console.WriteLine("PivotTable Style Type: " + pivotTable.PivotTableStyleType);
+
+            // Save the workbook
+            workbook.Save("PivotTableStyleTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

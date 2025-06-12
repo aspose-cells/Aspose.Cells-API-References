@@ -16,60 +16,54 @@ public bool HorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: flagDataRange.HorizontalAlignment = true;
-public void StyleFlag_Property_HorizontalAlignment()
-{
-    Workbook workbook = new Workbook();
-    Color color = Color.FromArgb(255, 250, 223);
-    workbook.ChangePalette(color, 55);
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    int rows = 10000;
-    int numberOfColumns = 200;
-    //Fill Data in 10000 * 200 matrix.
-    for (int i = 0; i <= rows; i++)
-    {
-        for (int j = 0; j <= numberOfColumns; j++)
-        {
+using System;
+using System.Drawing;
+using System.IO;
+using Aspose.Cells;
 
-            cells[i, j].PutValue(i.ToString() + "," + j.ToString());
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyHorizontalAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data in cells
+            worksheet.Cells["A1"].PutValue("Left Aligned");
+            worksheet.Cells["B1"].PutValue("Center Aligned");
+            worksheet.Cells["C1"].PutValue("Right Aligned");
+            
+            // Create styles with different horizontal alignments
+            Style styleLeft = workbook.CreateStyle();
+            styleLeft.HorizontalAlignment = TextAlignmentType.Left;
+            
+            Style styleCenter = workbook.CreateStyle();
+            styleCenter.HorizontalAlignment = TextAlignmentType.Center;
+            
+            Style styleRight = workbook.CreateStyle();
+            styleRight.HorizontalAlignment = TextAlignmentType.Right;
+            
+            // Create style flags to only apply horizontal alignment
+            StyleFlag flag = new StyleFlag();
+            flag.HorizontalAlignment = true;
+            
+            // Apply styles to ranges
+            Aspose.Cells.Range rangeLeft = worksheet.Cells.CreateRange("A1:A1");
+            rangeLeft.ApplyStyle(styleLeft, flag);
+            
+            Aspose.Cells.Range rangeCenter = worksheet.Cells.CreateRange("B1:B1");
+            rangeCenter.ApplyStyle(styleCenter, flag);
+            
+            Aspose.Cells.Range rangeRight = worksheet.Cells.CreateRange("C1:C1");
+            rangeRight.ApplyStyle(styleRight, flag);
+            
+            // Save the workbook
+            workbook.Save("HorizontalAlignmentDemo.xlsx", SaveFormat.Xlsx);
         }
     }
-
-    //Apply to range style.
-    Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-    objRangeData.Name = "DataRange";
-    Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-    StyleDataRange.Font.Name = "Arial";
-    StyleDataRange.Font.Size = 8;
-    StyleDataRange.Font.Color = System.Drawing.Color.Black;
-    StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
-    StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
-    StyleDataRange.Pattern = BackgroundType.Solid;
-
-    //Define a style flag struct.
-    StyleFlag flagDataRange = new StyleFlag();
-    flagDataRange.CellShading = true;
-    flagDataRange.FontName = true;
-    flagDataRange.FontSize = true;
-    flagDataRange.FontColor = true;
-    flagDataRange.HorizontalAlignment = true;
-    flagDataRange.Borders = true;
-    flagDataRange.ShrinkToFit = true;
-    flagDataRange.WrapText = true;
-
-    objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-    saveOptions.CachedFileFolder = Constants.destPath;
-
-    FileStream fout = new FileStream(Constants.destPath + "testSave.xlsm", FileMode.Create);
-    workbook.Save(fout, saveOptions);
-    fout.Flush();
-    fout.Close();
 }
 ```
 

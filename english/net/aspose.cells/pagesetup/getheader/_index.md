@@ -20,18 +20,27 @@ public string GetHeader(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(page.GetHeader(2), "&8Report ID: TEST01\n你好Public");
-public void PageSetup_Method_GetHeader()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43421/";
-    string savePath = CreateFolder(filePath);
+using System;
+using Aspose.Cells;
 
-    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-    Workbook wb = new Workbook(filePath + "test1.html", htmlLoadOptions);
-    PageSetup page = wb.Worksheets[0].PageSetup;
-    Assert.AreEqual(page.GetHeader(2), "&8Report ID: TEST01\n你好Public");
-    Assert.AreEqual(page.GetFooter(0), "&8Report By: SYSTEM");
-    wb.Save(savePath + "out.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PageSetupMethodGetHeaderWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set header for section 2
+            worksheet.PageSetup.SetHeader(2, "&8Report ID: TEST01\n你好Public");
+            
+            // Get and print the header for section 2
+            string header = worksheet.PageSetup.GetHeader(2);
+            Console.WriteLine("Header for section 2: " + header);
+        }
+    }
 }
 ```
 

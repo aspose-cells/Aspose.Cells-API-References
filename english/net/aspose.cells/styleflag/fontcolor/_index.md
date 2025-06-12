@@ -16,21 +16,39 @@ public bool FontColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: styleFlag.FontColor = true;
-public void StyleFlag_Property_FontColor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath +"example.xls");
-    Style newStyle = wb.CreateStyle();
-
-    newStyle.Font.Color = System.Drawing.Color.Black;
-    newStyle.BackgroundColor = System.Drawing.Color.White;
-    StyleFlag styleFlag = new StyleFlag();
-    styleFlag.CellShading = true;
-    styleFlag.FontColor = true;
-
-    wb.Worksheets[0].Cells.ApplyStyle(newStyle, styleFlag);
+    public class StyleFlagPropertyFontColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             
-    wb.Save(Constants.destPath + "example.xls");
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a custom style
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            style.BackgroundColor = System.Drawing.Color.LightGray;
+            
+            // Create style flag and enable font color and cell shading
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.FontColor = true;
+            styleFlag.CellShading = true;
+            
+            // Apply the style to cell A1 with the specified flags
+            worksheet.Cells["A1"].PutValue("Red Text on Gray Background");
+            worksheet.Cells["A1"].SetStyle(style, styleFlag);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

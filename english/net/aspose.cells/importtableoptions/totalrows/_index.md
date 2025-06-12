@@ -16,31 +16,46 @@ public int TotalRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: { IsFieldNameShown = false, InsertRows = false, TotalRows = 1, TotalColumns = 1 });
-public void ImportTableOptions_Property_TotalRows()
-{
-    caseName = "testImportDataView_017";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    DataView dataview = getDataView();
-    cells.ImportData(dataview, 65535, 255, new ImportTableOptions()
-    { IsFieldNameShown = false, InsertRows = false, TotalRows = 1, TotalColumns = 1 });
+using System;
+using System.Data;
+using Aspose.Cells;
 
-    checkImportDataView_017(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testDataView.xls");            
-    //workbook = new Workbook(Constants.destPath + "testDataView.xls");
-    checkImportDataView_017(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "testDataView.xlsx");            
-    //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
-    checkImportDataView_017(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
-    //workbook = new Workbook(Constants.destPath + "testDataView.xml");
-    checkImportDataView_017(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testDataView.xls");
+namespace AsposeCellsExamples
+{
+    public class ImportTableOptionsPropertyTotalRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample DataTable
+            DataTable table = new DataTable("TestTable");
+            table.Columns.Add("Column1", typeof(string));
+            table.Columns.Add("Column2", typeof(int));
+            
+            // Add sample data
+            table.Rows.Add("Item1", 100);
+            table.Rows.Add("Item2", 200);
+            table.Rows.Add("Item3", 300);
+
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create ImportTableOptions with TotalRows set to 2 (will import only first 2 rows)
+            ImportTableOptions options = new ImportTableOptions
+            {
+                IsFieldNameShown = true,
+                TotalRows = 2 // Only import 2 rows from the DataTable
+            };
+
+            // Import data with the specified options
+            worksheet.Cells.ImportData(table, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("ImportWithTotalRows.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Data imported with TotalRows=2. Only first 2 rows were imported.");
+        }
+    }
 }
 ```
 

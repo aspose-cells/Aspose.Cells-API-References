@@ -4,7 +4,7 @@ linktitle: PrintOrderType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintOrderType enum. Represent print order constants in C++.'
 type: docs
-weight: 24300
+weight: 25500
 url: /cpp/aspose.cells/printordertype/
 ---
 ## PrintOrderType enum

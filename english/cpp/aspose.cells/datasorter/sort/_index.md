@@ -4,7 +4,7 @@ linktitle: Sort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::Sort method. Sorts the data of the area in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/datasorter/sort/
 ---
 ## DataSorter::Sort(const Cells\&, int32_t, int32_t, int32_t, int32_t) method

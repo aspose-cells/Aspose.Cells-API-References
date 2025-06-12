@@ -13,23 +13,6 @@ Gets digital signature from file.
 public DigitalSignatureCollection GetDigitalSignature()
 ```
 
-### Examples
-
-```csharp
-// Called: DigitalSignatureCollection signs = wb.GetDigitalSignature();
-public void Workbook_Method_GetDigitalSignature()
-{
-    Workbook wb = new Workbook(dir + "example.xls");
-
-    DigitalSignatureCollection signs = wb.GetDigitalSignature();
-
-    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
-    {
-        Assert.IsTrue(sign.IsValid);
-    }
-}
-```
-
 ### See Also
 
 * class [DigitalSignatureCollection](../../../aspose.cells.digitalsignatures/digitalsignaturecollection/)

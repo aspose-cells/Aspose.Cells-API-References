@@ -16,25 +16,44 @@ public int[] ColumnIndexes { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ColumnIndexes = new int[] { 2 };
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void ImportTableOptions_Property_ColumnIndexes()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ImportTableOptionsPropertyColumnIndexesDemo
+    {
+        public static void Run()
         {
-            caseName = "testImportDataColumn_Exception_001";
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable datatable = getDataTable();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample DataTable
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Price", typeof(decimal));
+            
+            // Add sample data
+            dataTable.Rows.Add(1, "Product A", 19.99m);
+            dataTable.Rows.Add(2, "Product B", 29.99m);
+            dataTable.Rows.Add(3, "Product C", 39.99m);
 
+            // Set import options to only import columns at indexes 0 and 2 (ID and Price)
             ImportTableOptions options = new ImportTableOptions();
-            options.ColumnIndexes = new int[] { 2 };
+            options.ColumnIndexes = new int[] { 0, 2 };
             options.IsFieldNameShown = true;
-            options.InsertRows = true;
 
-            cells.ImportData(datatable, -1, 0, options);
-            string msg = message + "cells.ImportDataColumn(datatable, true, -1, 0, 2, true)";
-            writeToExcel(caseName, msg);
+            // Import data with specified column indexes
+            worksheet.Cells.ImportData(dataTable, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("ColumnIndexesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

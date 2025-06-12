@@ -30,10 +30,26 @@ A LineShape object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// add a line object
-LineShape lineShape = shapes.AddLine(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddLineWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            LineShape lineShape = shapes.AddLine(1, 0, 1, 0, 100, 50);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

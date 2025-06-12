@@ -16,14 +16,20 @@ public bool IsRowGrandIncluded { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotArea.IsRowGrandIncluded = true;
-public static void PivotArea_Property_IsRowGrandIncluded()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotAreaPropertyIsRowGrandIncludedDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
+            // Sample data
             sheet.Cells["A1"].PutValue("Category");
             sheet.Cells["A2"].PutValue("Fruit");
             sheet.Cells["A3"].PutValue("Vegetable");
@@ -31,39 +37,35 @@ public static void PivotArea_Property_IsRowGrandIncluded()
             sheet.Cells["B2"].PutValue(50);
             sheet.Cells["B3"].PutValue(30);
 
-            // Add a pivot table
+            // Create pivot table
             int pivotIndex = sheet.PivotTables.Add("A1:B3", "E5", "PivotTable1");
             PivotTable pivotTable = sheet.PivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+            // Add fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Access the PivotTableFormatCollection
-            PivotTableFormatCollection pivotFormats = pivotTable.PivotFormats;
-
-            // Add a new format to the collection
-            int formatIndex = pivotFormats.Add();
-            PivotTableFormat pivotFormat = pivotFormats[formatIndex];
-
-            // Access the PivotArea of the format
+            // Create pivot format
+            int formatIndex = pivotTable.PivotFormats.Add();
+            PivotTableFormat pivotFormat = pivotTable.PivotFormats[formatIndex];
             PivotArea pivotArea = pivotFormat.PivotArea;
+            
+            // Demonstrate IsRowGrandIncluded property
             pivotArea.AxisType = PivotFieldType.Data;
             pivotArea.IsRowGrandIncluded = true;
-            pivotArea.IsColumnGrandIncluded = true;
+            pivotArea.IsColumnGrandIncluded = false;
 
-            // Create a new style
+            // Apply style to highlight the grand row
             Style style = workbook.CreateStyle();
             style.Font.IsBold = true;
-            style.ForegroundColor = System.Drawing.Color.Yellow;
+            style.ForegroundColor = System.Drawing.Color.LightGreen;
             style.Pattern = BackgroundType.Solid;
-
-            // Apply the style to the PivotTableFormat
             pivotFormat.SetStyle(style);
 
-            // Save the workbook
-            workbook.Save("PivotTableFormatDemo.xlsx");
+            workbook.Save("PivotAreaIsRowGrandIncludedDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -24,34 +24,47 @@ Only support adding Xmldsig Digital Signature
 ### Examples
 
 ```csharp
-// Called: wb.SetDigitalSignature(signs);
-public void Workbook_Method_SetDigitalSignature()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "CELLSNET-46246/";
-    Workbook wb = new Workbook(path + "TestCert.xlsx");
-    DigitalSignatureCollection signs = new DigitalSignatureCollection();
-
-
-    DirectoryInfo directoryInfo = new DirectoryInfo(path + "certs");
-    FileInfo[] certFiles = directoryInfo.GetFiles();
-    foreach (var certFile in certFiles)
+    public class WorkbookMethodSetDigitalSignatureWithDigitalSignatureCollectionDemo
     {
-        if (certFile.Name.EndsWith(".pfx"))
+        public static void Run()
         {
-            //Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature = new Aspose.Cells.DigitalSignatures.DigitalSignature(new System.Security.Cryptography.X509Certificates.X509Certificate2(certFile.FullName, "1234567890"), certFile.Name, DateTime.Now);
-            Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature = new Aspose.Cells.DigitalSignatures.DigitalSignature(File.ReadAllBytes(certFile.FullName), "1234567890", certFile.Name, DateTime.Now);
-            signs.Add(digitalSignature);
+            // Source directory path
+            string sourceDir = "SourceDirectory/";
+            
+            // Output directory path
+            string outputDir = "OutputDirectory/";
+
+            // Load the workbook
+            Workbook workbook = new Workbook(sourceDir + "TestCert.xlsx");
+
+            // Create digital signature collection
+            DigitalSignatureCollection digitalSignatures = new DigitalSignatureCollection();
+
+            // Load certificate file
+            string certPath = sourceDir + "certs\\sample.pfx";
+            byte[] certData = File.ReadAllBytes(certPath);
+
+            // Create digital signature
+            DigitalSignature signature = new DigitalSignature(certData, "1234567890", "Sample Signer", DateTime.Now);
+
+            // Add signature to collection
+            digitalSignatures.Add(signature);
+
+            // Set digital signature to workbook
+            workbook.SetDigitalSignature(digitalSignatures);
+
+            // Save the workbook
+            workbook.Save(outputDir + "DigitallySignedWorkbook.xlsx");
+
+            Console.WriteLine("Digital signature set successfully.");
         }
-    }
-    wb.SetDigitalSignature(signs);
-
-    wb.Save(Constants.destPath + "example.xlsx");
-
-    Console.WriteLine("Start to verify: ");
-    Workbook workbook1 = new Workbook(Constants.destPath + "example.xlsx");
-    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
-    {
-        Assert.IsTrue(digitalSignature.IsValid);
     }
 }
 ```

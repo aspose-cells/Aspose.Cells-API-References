@@ -16,45 +16,40 @@ public TextCrossType TextCrossType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.TextCrossType = TextCrossType.CrossKeep;
-public static void PaginatedSaveOptions_Property_TextCrossType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyTextCrossTypeDemo
+    {
+        public static void Run()
         {
-            // Open an Excel file
-            Workbook workbook = new Workbook("PaginatedSaveOptionsExample_original.xlsx");
-
-            // Create an instance of PaginatedSaveOptions
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set long text that will cross cell boundaries
+            worksheet.Cells["A1"].PutValue("This is a long text that will cross cell boundaries");
+            worksheet.Cells["B1"].PutValue("Another cell content");
+            
+            // Set column width to make text cross cells
+            worksheet.Cells.SetColumnWidth(0, 5);
+            
+            // Create PDF save options
             PdfSaveOptions options = new PdfSaveOptions();
-
-            // Setting properties
-            options.DefaultFont = "Arial";
-            options.CheckWorkbookDefaultFont = true;
-            options.CheckFontCompatibility = true;
-            options.IsFontSubstitutionCharGranularity = true;
-            options.OnePagePerSheet = false;
-            options.AllColumnsInOnePagePerSheet = false;
-            options.IgnoreError = true;
-            options.OutputBlankPageWhenNothingToPrint = false;
-            options.PageIndex = 3; // Starting page index (0-based index)
-            options.PageCount = 2; // Number of pages to be printed
-            options.PrintingPageType = PrintingPageType.IgnoreBlank;
-            options.GridlineType = GridlineType.Dotted;
+            
+            // Demonstrate TextCrossType by setting it to CrossKeep
             options.TextCrossType = TextCrossType.CrossKeep;
-            options.DefaultEditLanguage = DefaultEditLanguage.English;
-            options.SheetSet = new SheetSet(new int[] { workbook.Worksheets.ActiveSheetIndex });
-            options.ClearData = false;
-            options.CachedFileFolder = "C:\\Temp";
-            options.ValidateMergedAreas = true;
-            options.MergeAreas = true;
-            options.SortNames = true;
-            options.SortExternalNames = true;
-            options.RefreshChartCache = true;
-            options.UpdateSmartArt = false;
-
-            // Save the PDF file
-            workbook.Save("PaginatedSaveOptionsExample.pdf", options);
-
-            return;
+            
+            // Save the workbook as PDF
+            workbook.Save("TextCrossTypeDemo.pdf", options);
+            
+            Console.WriteLine("PDF saved with TextCrossType.CrossKeep setting");
         }
+    }
+}
 ```
 
 ### See Also

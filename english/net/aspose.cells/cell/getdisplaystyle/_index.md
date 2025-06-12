@@ -24,14 +24,40 @@ Same with using SideBorders for `GetDisplayStyle`. That is, this method will che
 ### Examples
 
 ```csharp
-// Called: s = workbook.Worksheets[0].Cells["A23"].GetDisplayStyle();
-public void Cell_Method_GetDisplayStyle()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Style s = workbook.Worksheets[0].Cells["A1"].GetDisplayStyle();
-    AssertHelper.AreEqual(Color.FromArgb(157, 195, 230), s.ForegroundColor);
-    s = workbook.Worksheets[0].Cells["A23"].GetDisplayStyle();
-    AssertHelper.AreEqual(Color.Red, s.ForegroundColor);
+    public class CellMethodGetDisplayStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set style for cell A1
+            Style style1 = workbook.CreateStyle();
+            style1.ForegroundColor = Color.FromArgb(157, 195, 230);
+            worksheet.Cells["A1"].SetStyle(style1);
+            
+            // Set style for cell A23
+            Style style2 = workbook.CreateStyle();
+            style2.ForegroundColor = Color.Red;
+            worksheet.Cells["A23"].SetStyle(style2);
+            
+            // Get and display styles
+            Style displayStyle1 = worksheet.Cells["A1"].GetDisplayStyle();
+            Console.WriteLine("A1 Foreground Color: " + displayStyle1.ForegroundColor);
+            
+            Style displayStyle2 = worksheet.Cells["A23"].GetDisplayStyle();
+            Console.WriteLine("A23 Foreground Color: " + displayStyle2.ForegroundColor);
+        }
+    }
 }
 ```
 
@@ -67,15 +93,34 @@ If the specified flag is false, then it is same with `GetDisplayStyle`. Otherwis
 ### Examples
 
 ```csharp
-// Called: Style style = cell.GetDisplayStyle(true);
-public void Cell_Method_GetDisplayStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    Cell cell = workbook.Worksheets[0].Cells["B2"];
-    Style style = cell.GetDisplayStyle(true);
-    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle,CellBorderType.Thin);
-
+    public class CellMethodGetDisplayStyleWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell B2 and set some style properties
+            Cell cell = worksheet.Cells["B2"];
+            Style cellStyle = cell.GetStyle();
+            cellStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
+            cell.SetStyle(cellStyle);
+            
+            // Get display style with formatting (true parameter)
+            Style displayStyle = cell.GetDisplayStyle(true);
+            
+            // Output the right border line style
+            Console.WriteLine("Right Border Line Style: " + displayStyle.Borders[BorderType.RightBorder].LineStyle);
+        }
+    }
 }
 ```
 
@@ -111,43 +156,42 @@ If this cell is also affected by other settings such as conditional formatting, 
 ### Examples
 
 ```csharp
-// Called: if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
-public void Cell_Method_GetDisplayStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    for (int i = 0; i < 100000; i++)
+    public class CellMethodGetDisplayStyleWithBorderTypeDemo
     {
-        cells[i, 0].PutValue(i % 10);
-    }
-    FormatConditionCollection fcs = sheet.ConditionalFormattings[sheet.ConditionalFormattings.Add()];
-    fcs.AddArea(CellArea.CreateCellArea(0, 0, 1048575, 0));
-    fcs.AddCondition(FormatConditionType.ColorScale);
-    int[] argbs = new int[]
-    {
-        //0xFFF8696B, 0xFFF98570, 0xFFFBA276, 0xFFFCBF7B, 0xFFFEDC81, 0xFFEDE582, 0xFFCADB80, 0xFFA8D17E, 0xFF85C77C, 0xFF63BE7B,
-        -497301, -424592, -286090, -213125, -74623, -1186430, -3482752, -5713538, -8009860, -10240389,
-    };
-
-    sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-
-    TimePerformance monitor = new TimePerformance(70);
-    monitor.StartPerfTest();
-    Random random = new Random();
-    for (int i = 0; i < 5000; i++)
-    {
-        int r = (int)(100000 * random.NextDouble());
-        if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
+        public static void Run()
         {
-            Assert.Fail("A" + (r + 1) + " expected color should be "
-                + argbs[r % 10].ToString("X") + " but was "
-                + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString("X"));
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Set sample data
+            for (int i = 0; i < 10; i++)
+            {
+                cells[i, 0].PutValue(i);
+            }
+
+            // Create conditional formatting
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[sheet.ConditionalFormattings.Add()];
+            fcs.AddArea(CellArea.CreateCellArea(0, 0, 9, 0));
+            fcs.AddCondition(FormatConditionType.ColorScale);
+
+            // Get display style with different border types
+            for (int i = 0; i < 10; i++)
+            {
+                Style styleWithBorder = cells[i, 0].GetDisplayStyle(BorderType.TopBorder);
+                Style styleWithoutBorder = cells[i, 0].GetDisplayStyle(BorderType.None);
+
+                Console.WriteLine($"Cell {i + 1}:");
+                Console.WriteLine($"  Style with border - Foreground: {styleWithBorder.ForegroundArgbColor:X}");
+                Console.WriteLine($"  Style without border - Foreground: {styleWithoutBorder.ForegroundArgbColor:X}");
+            }
         }
     }
-    monitor.FinishPerfTest("Using access cache for conditional formattings with type of ColorScale");
-
-    sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
 }
 ```
 

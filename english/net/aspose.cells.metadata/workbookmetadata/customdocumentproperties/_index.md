@@ -16,15 +16,38 @@ public CustomDocumentPropertyCollection CustomDocumentProperties { get; }
 ### Examples
 
 ```csharp
-// Called: meta.CustomDocumentProperties.Add("test", "test");
-public void WorkbookMetadata_Property_CustomDocumentProperties()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
 {
-    MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-    WorkbookMetadata meta = new WorkbookMetadata(Constants.sourcePath + "example.xlsx", options);
-    meta.CustomDocumentProperties.Add("test", "test");
-    meta.Save(Constants.destPath + "example.xlsx");
-    Workbook w = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("test", w.CustomDocumentProperties["test"].Value);
+    public class WorkbookMetadataPropertyCustomDocumentPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Source and destination paths
+            string sourcePath = "example.xlsx";
+            string destPath = "output.xlsx";
+
+            // Create metadata options for document properties
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+            
+            // Initialize workbook metadata
+            WorkbookMetadata meta = new WorkbookMetadata(sourcePath, options);
+            
+            // Add custom document property
+            meta.CustomDocumentProperties.Add("Author", "John Doe");
+            
+            // Save the workbook with metadata
+            meta.Save(destPath);
+            
+            // Verify the custom property
+            Workbook workbook = new Workbook(destPath);
+            Console.WriteLine("Custom Property Value: " + 
+                workbook.CustomDocumentProperties["Author"].Value);
+        }
+    }
 }
 ```
 

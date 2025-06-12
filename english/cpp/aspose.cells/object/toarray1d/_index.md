@@ -4,7 +4,7 @@ linktitle: ToArray1D
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToArray1D method. Gets the one-dimensional array value in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.cells/object/toarray1d/
 ---
 ## Object::ToArray1D method

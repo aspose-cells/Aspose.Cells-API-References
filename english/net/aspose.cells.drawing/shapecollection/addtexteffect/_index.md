@@ -37,10 +37,39 @@ Returns a Shape object that represents the new WordArt object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a WordArt
-Shape wordArt1 = shapes.AddTextEffect(MsoPresetTextEffect.TextEffect10, "WordArt", "arial", 18, false, false, 3, 0, 3, 0, 200, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddTextEffectWithMsoPresetTextEffectStringStrinDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            Shape wordArt = shapes.AddTextEffect(
+                MsoPresetTextEffect.TextEffect10,
+                "Sample WordArt",
+                "Arial",
+                18,
+                false,
+                false,
+                3,
+                0,
+                3,
+                0,
+                200,
+                50
+            );
+
+            workbook.Save("WordArtDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

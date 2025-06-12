@@ -28,77 +28,25 @@ If it can not be converted, returns null.
 ### Examples
 
 ```csharp
-// Called: suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Excel97To2003);
-public void FileFormatUtil_Method_LoadFormatToExtension()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //The annotated test code is currently not supported
-
-    string suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Auto);
-    Assert.AreEqual(null, suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Csv);
-    Assert.AreEqual(".csv", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Excel97To2003);
-    Assert.AreEqual(".xls", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsx);
-    Assert.AreEqual(".xlsx", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Tsv);
-    Assert.AreEqual(".txt", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.TabDelimited);
-    Assert.AreEqual(".txt", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Ods);
-    Assert.AreEqual(".ods", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.SpreadsheetML);
-    Assert.AreEqual(".xml", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsb);
-    Assert.AreEqual(".xlsb", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Numbers);
-    Assert.AreEqual(".numbers", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Fods);
-    Assert.AreEqual(".fods", suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Image);
-    Assert.AreEqual(null, suffix);
-
-    suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Unknown);
-    Assert.AreEqual(null, suffix);
-
-            
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Ots);
-    //Assert.AreEqual(".ots", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xml);
-    //Assert.AreEqual(".xml", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Epub);
-    //Assert.AreEqual(".epub", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Azw3);
-    //Assert.AreEqual(".azw3", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Html);
-    //Assert.AreEqual(".html", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.MHtml);
-    //Assert.AreEqual(".mhtml", suffix);
-
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Sxc);
-    //Assert.AreEqual(".sxc", suffix);
-
-    //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Json);
-    //Assert.AreEqual(".json", suffix);
-
-
+    public class FileFormatUtilMethodLoadFormatToExtensionWithLoadFormatDemo
+    {
+        public static void Run()
+        {
+            // Demonstrate LoadFormatToExtension with various LoadFormat values
+            Console.WriteLine("Auto format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Auto));
+            Console.WriteLine("CSV format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Csv));
+            Console.WriteLine("Excel97-2003 format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Excel97To2003));
+            Console.WriteLine("XLSX format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsx));
+            Console.WriteLine("TSV format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Tsv));
+            Console.WriteLine("ODS format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Ods));
+            Console.WriteLine("XLSB format extension: " + FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsb));
+        }
+    }
 }
 ```
 

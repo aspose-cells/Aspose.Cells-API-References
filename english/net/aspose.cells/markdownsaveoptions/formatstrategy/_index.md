@@ -16,38 +16,42 @@ public CellValueFormatStrategy FormatStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: FormatStrategy = CellValueFormatStrategy.DisplayString,
-public static void MarkdownSaveOptions_Property_FormatStrategy()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class MarkdownSaveOptionsPropertyFormatStrategyDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
+            // Add sample data with different formats
+            worksheet.Cells["A1"].PutValue(123.456); // Numeric value
+            worksheet.Cells["A2"].PutValue(DateTime.Now); // Date value
+            worksheet.Cells["A3"].PutValue(true); // Boolean value
 
-            // Create an instance of MarkdownSaveOptions
+            // Create Markdown save options with DisplayString format strategy
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
             {
-                Encoding = Encoding.UTF8,
-                FormatStrategy = CellValueFormatStrategy.DisplayString,
-                LineSeparator = "\n",
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
+                FormatStrategy = CellValueFormatStrategy.DisplayString
             };
 
-            // Save the workbook as a Markdown file
-            workbook.Save("MarkdownSaveOptionsExample.md", saveOptions);
+            // Save the workbook as Markdown
+            workbook.Save("MarkdownWithDisplayString.md", saveOptions);
 
-            Console.WriteLine("Workbook saved as Markdown file successfully.");
+            // Change to CellValueFormatStrategy.CellStyle
+            saveOptions.FormatStrategy = CellValueFormatStrategy.CellStyle;
+            workbook.Save("MarkdownWithCellStyle.md", saveOptions);
+
+            Console.WriteLine("Markdown files saved successfully with different format strategies.");
         }
+    }
+}
 ```
 
 ### See Also

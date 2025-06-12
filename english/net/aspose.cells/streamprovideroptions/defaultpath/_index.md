@@ -16,32 +16,40 @@ public string DefaultPath { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
-public void StreamProviderOptions_Property_DefaultPath(StreamProviderOptions opts)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StreamProviderOptionsPropertyDefaultPathDemo
+    {
+        public static void Run()
+        {
+            // Create a new Workbook
+            Workbook workbook = new Workbook();
+            
+            // Create StreamProviderOptions with ResourceLoadingType and DefaultPath
+            StreamProviderOptions options = new StreamProviderOptions(ResourceLoadingType.Default, "1.DefaultPathExample");
+            
+            // Demonstrate DefaultPath usage
+            Console.WriteLine("StreamProviderOptions DefaultPath: " + options.DefaultPath);
+            
+            // Example of using the options with a stream (simplified demonstration)
+            using (MemoryStream stream = new MemoryStream())
             {
-                if (opts.DefaultPath.IndexOf("1.") > 0)
+                options.Stream = stream;
+                
+                if (options.DefaultPath.IndexOf("1.") >= 0)
                 {
-                    Console.WriteLine("Closing stream for " + opts.DefaultPath);
-                    if (opts.Stream != _ms1)
-                    {
-                        Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
-                    }
-                    _closeCount++;
-                }
-                else if (opts.DefaultPath.IndexOf("2.") > 0)
-                {
-                    Console.WriteLine("Closing stream for " + opts.DefaultPath);
-                    if (opts.Stream != _ms2)
-                    {
-                        Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
-                    }
-                    _closeCount++;
-                }
-                else
-                {
-                    Console.WriteLine("Path for others: " + opts.DefaultPath);
+                    Console.WriteLine("Processing stream for path: " + options.DefaultPath);
+                    // Perform operations with the stream
+                    workbook.Save(stream, SaveFormat.Xlsx);
                 }
             }
+        }
+    }
+}
 ```
 
 ### See Also

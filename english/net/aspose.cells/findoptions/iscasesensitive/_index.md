@@ -22,16 +22,34 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.CaseSensitive
 ### Examples
 
 ```csharp
-// Called: findoptions.IsCaseSensitive = true;
-private void FindOptions_Property_IsCaseSensitive(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FindOptionsPropertyIsCaseSensitiveDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            FindOptions findoptions = new FindOptions();
-            findoptions.IsCaseSensitive = true;
-            Cell cell = cells.Find("abc", null, findoptions);
-            AssertHelper.AreEqual(2, cell.Row, "cell.Row");
-            AssertHelper.AreEqual(3, cell.Column, "cell.Column");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data
+            worksheet.Cells["A1"].PutValue("ABC");
+            worksheet.Cells["A2"].PutValue("abc");
+            worksheet.Cells["A3"].PutValue("AbC");
+
+            FindOptions options = new FindOptions();
+            options.IsCaseSensitive = true;
+            
+            // Find case-sensitive match
+            Cell cell = worksheet.Cells.Find("abc", null, options);
+            
+            Console.WriteLine("Case-sensitive search for 'abc' found at: " + 
+                              (cell != null ? cell.Name : "No match"));
         }
+    }
+}
 ```
 
 ### See Also

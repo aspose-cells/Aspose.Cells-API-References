@@ -16,9 +16,34 @@ public TextVerticalType TextVerticalType { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-[C#]
-shapeTextAlignment.TextVerticalType = Aspose.Cells.Drawing.Texts.TextVerticalType.Horizontal;
+namespace AsposeCellsExamples
+{
+    public class ShapeTextAlignmentPropertyTextVerticalTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box shape with correct parameters
+            Shape shape = worksheet.Shapes.AddTextBox(1, 0, 1, 0, 100, 200);
+            shape.Text = "Sample Text";
+
+            // Get the text alignment and set vertical text type
+            ShapeTextAlignment textAlignment = shape.TextBody.TextAlignment;
+            textAlignment.TextVerticalType = TextVerticalType.Horizontal;
+
+            // Save the workbook
+            workbook.Save("TextVerticalTypeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

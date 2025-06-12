@@ -24,24 +24,36 @@ Name of column.
 ### Examples
 
 ```csharp
-// Called: + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
-private void CellsHelper_Method_ColumnIndexToName(Cells cells, int shiftRow, int shiftCol, int[][] cols, object[][] vals)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperMethodColumnIndexToNameWithInt32Demo
+    {
+        public static void Run()
         {
-            for (int i = 0; i < cols.Length; i++)
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set values in cells to demonstrate column index to name conversion
+            worksheet.Cells["A1"].PutValue("Column Index");
+            worksheet.Cells["B1"].PutValue("Column Name");
+
+            // Demonstrate ColumnIndexToName for indices 0-4
+            for (int i = 0; i < 5; i++)
             {
-                if (cols[i] != null)
-                {
-                    int[] cs = cols[i];
-                    object[] vs = vals[i];
-                    for (int j = 0; j < cs.Length; j++)
-                    {
-                        Assert.AreEqual(vs[j], cells[i-shiftRow, cs[j]-shiftCol].Value,
-                            CellsHelper.ColumnIndexToName(cs[j]) + (i + 1) + "->"
-                            + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
-                    }
-                }
+                worksheet.Cells[i + 1, 0].PutValue(i);
+                string columnName = CellsHelper.ColumnIndexToName(i);
+                worksheet.Cells[i + 1, 1].PutValue(columnName);
             }
+
+            // Save the workbook
+            workbook.Save("ColumnIndexToNameDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

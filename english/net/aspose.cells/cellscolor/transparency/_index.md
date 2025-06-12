@@ -16,36 +16,34 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: cellsColor.Transparency = 0.5;
-public static void CellsColor_Property_Transparency()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class CellsColorPropertyTransparencyDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create a range of cells
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "A10");
-
-            // Create a CellsColor instance
             CellsColor cellsColor = workbook.CreateCellsColor();
+            cellsColor.Color = Color.FromArgb(128, 255, 0, 0); // Semi-transparent red
+            cellsColor.Transparency = 0.5; // Set transparency to 50%
 
-            // Set properties of CellsColor
-            cellsColor.IsShapeColor = false;
-            cellsColor.Color = Color.Red;
-            cellsColor.ColorIndex = 5;
-            cellsColor.Argb = Color.Blue.ToArgb();
-            cellsColor.Transparency = 0.5;
-
-            // Apply the CellsColor to the range
             Style style = workbook.CreateStyle();
             style.ForegroundColor = cellsColor.Color;
             style.Pattern = BackgroundType.Solid;
-            range.ApplyStyle(style, new StyleFlag { CellShading = true });
 
-            // Save the workbook
-            workbook.Save("CellsColorExample.xlsx");
-            workbook.Save("CellsColorExample.pdf");
+            worksheet.Cells["A1"].PutValue("50% transparent red background");
+            worksheet.Cells["A1"].SetStyle(style);
+
+            workbook.Save("TransparencyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

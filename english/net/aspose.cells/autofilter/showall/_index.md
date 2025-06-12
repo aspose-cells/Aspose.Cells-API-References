@@ -16,16 +16,39 @@ public void ShowAll()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AutoFilter.ShowAll();
-public void AutoFilter_Method_ShowAll()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    workbook.CalculateFormula();
-    for (int i = 0; i < workbook.Worksheets.Count; i++)
+    public class AutoFilterMethodShowAllDemo
     {
-        workbook.Worksheets[0].AutoFilter.ShowAll();
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Fruit");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Orange");
+            worksheet.Cells["A5"].PutValue("Grape");
+            
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:A5";
+            
+            // Filter to show only "Apple"
+            worksheet.AutoFilter.Filter(0, "Apple");
+            
+            // Show all data again
+            worksheet.AutoFilter.ShowAll();
+            
+            // Save the workbook
+            workbook.Save("ShowAllDemoOutput.xlsx", SaveFormat.Xlsx);
+        }
     }
-    Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
 }
 ```
 

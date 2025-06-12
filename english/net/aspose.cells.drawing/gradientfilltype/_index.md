@@ -25,50 +25,38 @@ public enum GradientFillType
 ### Examples
 
 ```csharp
-// Called: fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
-public static void Drawing_Type_GradientFillType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class DrawingClassGradientFillTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Create a shape to demonstrate gradient fill
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 5, 5, 20);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+            // Get the fill format
+            FillFormat fillFormat = shape.Fill;
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Access the chart's plot area
-            PlotArea plotArea = chart.PlotArea;
-
-            // Access the fill format of the plot area
-            FillFormat fillFormat = plotArea.Area.FillFormat;
-
-            // Set a two-color gradient fill with a specific direction
-            fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+            // Set gradient fill type and properties
+            fillFormat.SetTwoColorGradient(System.Drawing.Color.Blue, System.Drawing.Color.LightBlue, GradientStyleType.Horizontal, 1);
             fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
 
-            // Output the gradient direction type
+            // Output gradient direction type
             Console.WriteLine("Gradient Direction Type: " + fillFormat.GradientFill.DirectionType);
 
             // Save the workbook
-            workbook.Save("GradientDirectionTypeExample.xlsx");
-            workbook.Save("GradientDirectionTypeExample.pdf");
+            workbook.Save("GradientFillTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

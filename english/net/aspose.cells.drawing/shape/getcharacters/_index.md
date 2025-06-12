@@ -26,9 +26,36 @@ NOTE: This method is now obsolete. Instead, please use Shape.GetRichFormattings(
 ### Examples
 
 ```csharp
+using System;
+using System.Collections;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-ArrayList list = shape.GetCharacters();
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodGetCharactersDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box shape to the worksheet with all required parameters
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+            shape.Text = "Sample Text";
+
+            // Get the characters from the shape
+            ArrayList characters = shape.GetCharacters();
+
+            // Display information about each character
+            foreach (FontSetting charSetting in characters)
+            {
+                Console.WriteLine($"Font: {charSetting.Font.Name}, Size: {charSetting.Font.Size}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

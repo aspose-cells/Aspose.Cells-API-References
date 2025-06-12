@@ -29,7 +29,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetAddTooltipText()](../../aspose.cells/htmlsaveoptions/getaddtooltiptext/) | Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false. |
 | [GetAttachedFilesDirectory()](../../aspose.cells/htmlsaveoptions/getattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [GetAttachedFilesUrlPrefix()](../../aspose.cells/htmlsaveoptions/getattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
-| [GetCachedFileFolder()](../../aspose.cells/saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../../aspose.cells/saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCalculateFormula()](../../aspose.cells/htmlsaveoptions/getcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [GetCellCssPrefix()](../../aspose.cells/htmlsaveoptions/getcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [GetCellNameAttribute()](../../aspose.cells/htmlsaveoptions/getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
@@ -123,8 +123,8 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetAttachedFilesDirectory(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [SetAttachedFilesUrlPrefix(const U16String\& value)](../../aspose.cells/htmlsaveoptions/setattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
 | [SetAttachedFilesUrlPrefix(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
-| [SetCachedFileFolder(const U16String\& value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCalculateFormula(bool value)](../../aspose.cells/htmlsaveoptions/setcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [SetCellCssPrefix(const U16String\& value)](../../aspose.cells/htmlsaveoptions/setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [SetCellCssPrefix(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |

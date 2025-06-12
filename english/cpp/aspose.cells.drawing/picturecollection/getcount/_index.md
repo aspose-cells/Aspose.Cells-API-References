@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use GetCount method of Aspose::Cells::Drawing::PictureCollection class in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.drawing/picturecollection/getcount/
 ---
 ## PictureCollection::GetCount method

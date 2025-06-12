@@ -16,18 +16,41 @@ public Guid CreateId { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(s0.CreateId, g);
-public void Shape_Property_CreateId()
-{
-    Workbook workbook = new Workbook();
-    RectangleShape s = workbook.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-    Guid g = Guid.NewGuid();
-    s.CreateId = g;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Shape s0 = workbook.Worksheets[0].Shapes[0];
-    Assert.AreEqual(s0.CreateId, g);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyCreateIdDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a rectangle shape
+            Shape shape = worksheet.Shapes.AddRectangle(10, 10, 100, 100, 200, 150);
+            
+            // Create and assign a new GUID as CreateId
+            Guid createId = Guid.NewGuid();
+            shape.CreateId = createId;
+            
+            // Save the workbook
+            workbook.Save("ShapeCreateIdDemo.xlsx");
+            
+            // Reload the workbook to verify the CreateId persists
+            Workbook loadedWorkbook = new Workbook("ShapeCreateIdDemo.xlsx");
+            Shape loadedShape = loadedWorkbook.Worksheets[0].Shapes[0];
+            
+            // Output the CreateId for verification
+            Console.WriteLine("Original CreateId: " + createId);
+            Console.WriteLine("Loaded CreateId: " + loadedShape.CreateId);
+        }
+    }
 }
 ```
 

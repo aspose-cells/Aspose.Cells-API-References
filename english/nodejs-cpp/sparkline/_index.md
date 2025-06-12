@@ -15,22 +15,57 @@ class Sparkline;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [dataRange](#dataRange--)| string | Represents the data range of the sparkline. |
+| [row](#row--)| number | Readonly. Gets the row index of the sparkline. |
+| [column](#column--)| number | Readonly. Gets the column index of the sparkline. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDataRange()](#getDataRange--)| Represents the data range of the sparkline. |
-| [setDataRange(string)](#setDataRange-string-)| Represents the data range of the sparkline. |
-| [getRow()](#getRow--)| Gets the row index of the sparkline. |
-| [getColumn()](#getColumn--)| Gets the column index of the sparkline. |
+| [getDataRange()](#getDataRange--)| <b>@deprecated.</b> Please use the 'dataRange' property instead. Represents the data range of the sparkline. |
+| [setDataRange(string)](#setDataRange-string-)| <b>@deprecated.</b> Please use the 'dataRange' property instead. Represents the data range of the sparkline. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the sparkline. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the sparkline. |
 | [toImage(string, ImageOrPrintOptions)](#toImage-string-imageorprintoptions-)| Converts a sparkline to an image. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts a sparkline to an image. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getDataRange() {#getDataRange--}
+### dataRange {#dataRange--}
 
 Represents the data range of the sparkline.
+
+```javascript
+dataRange : string;
+```
+
+
+### row {#row--}
+
+Readonly. Gets the row index of the sparkline.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets the column index of the sparkline.
+
+```javascript
+column : number;
+```
+
+
+### getDataRange() {#getDataRange--}
+
+<b>@deprecated.</b> Please use the 'dataRange' property instead. Represents the data range of the sparkline.
 
 ```javascript
 getDataRange() : string;
@@ -39,7 +74,7 @@ getDataRange() : string;
 
 ### setDataRange(string) {#setDataRange-string-}
 
-Represents the data range of the sparkline.
+<b>@deprecated.</b> Please use the 'dataRange' property instead. Represents the data range of the sparkline.
 
 ```javascript
 setDataRange(value: string) : void;
@@ -52,7 +87,7 @@ setDataRange(value: string) : void;
 
 ### getRow() {#getRow--}
 
-Gets the row index of the sparkline.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the sparkline.
 
 ```javascript
 getRow() : number;
@@ -61,7 +96,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets the column index of the sparkline.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the sparkline.
 
 ```javascript
 getColumn() : number;

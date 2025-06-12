@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OdsLoadOptions::_impl field. The implementation object in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells/odsloadoptions/_impl/
 ---
 ## _impl field

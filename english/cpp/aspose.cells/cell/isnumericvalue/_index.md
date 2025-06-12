@@ -4,7 +4,7 @@ linktitle: IsNumericValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsNumericValue method. Indicates whether the value of this cell is numeric(int, double and datetime) in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells/cell/isnumericvalue/
 ---
 ## Cell::IsNumericValue method

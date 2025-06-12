@@ -20,32 +20,47 @@ public void CopyValue(Range range)
 ### Examples
 
 ```csharp
-// Called: rangeDest.CopyValue(rangeSrc);
-public void Range_Method_CopyValue()
-{
-    caseName = "testRangeCopyValue_Picture";
-    Workbook workbook = new Workbook();
-    workbook = new Workbook(Constants.sourcePath + "insertDelete\\testPicture.xls");
-    Worksheet sheetSrc = workbook.Worksheets[0];
-    Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-    sheetDest.Name = "sheetDest";
-    Cells cellsSrc = sheetSrc.Cells;
-    Cells cellsDest = sheetDest.Cells;
-    Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(2, 1, 2, 2);
-    Aspose.Cells.Range rangeDest = cellsDest.CreateRange(2, 1, 2, 2);
-    rangeDest.CopyValue(rangeSrc);
+using System;
+using Aspose.Cells;
 
-    checkRangeCopyValue_Picture(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyValue.xls");
-   workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xls");
-    checkRangeCopyValue_Picture(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyValue.xlsx");
-    workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xlsx");
-    checkRangeCopyValue_Picture(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyValue.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xml");
-    checkRangeCopyValue_Picture(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyValue.xls");
+namespace AsposeCellsExamples
+{
+    public class RangeMethodCopyValueWithRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and get the first worksheet
+            Worksheet sheetSrc = workbook.Worksheets[0];
+            sheetSrc.Name = "SourceSheet";
+            
+            // Add another worksheet for destination
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "DestinationSheet";
+            
+            // Create sample data in source range
+            Cells cellsSrc = sheetSrc.Cells;
+            cellsSrc["A1"].PutValue("Source Data");
+            cellsSrc["A2"].PutValue(10);
+            cellsSrc["B2"].PutValue(20);
+            cellsSrc["A3"].PutValue(30);
+            cellsSrc["B3"].PutValue(40);
+            
+            // Create ranges for source and destination
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange("A2:B3");
+            Aspose.Cells.Range rangeDest = sheetDest.Cells.CreateRange("D2:E3");
+            
+            // Copy values from source range to destination range
+            rangeDest.CopyValue(rangeSrc);
+            
+            // Save the workbook
+            workbook.Save("RangeCopyValueDemo.xlsx");
+            
+            Console.WriteLine("Values copied successfully from source range to destination range.");
+        }
+    }
 }
 ```
 

@@ -16,17 +16,30 @@ public ContentTypePropertyCollection ContentTypeProperties { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.ContentTypeProperties[index].IsNillable = true;
-public void Workbook_Property_ContentTypeProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
-    workbook.ContentTypeProperties[index].IsNillable = true;
-    //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
-    index = workbook.ContentTypeProperties.Add("MK32",
-        DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
-    workbook.ContentTypeProperties[index].IsNillable = true;
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorkbookPropertyContentTypePropertiesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Add simple string property
+            int index1 = workbook.ContentTypeProperties.Add("Property1", "Sample Value");
+            workbook.ContentTypeProperties[index1].IsNillable = true;
+            
+            // Add datetime property with type specification
+            int index2 = workbook.ContentTypeProperties.Add("Property2", 
+                DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss"), "DateTime");
+            workbook.ContentTypeProperties[index2].IsNillable = false;
+            
+            // Save the workbook
+            workbook.Save("ContentTypePropertiesDemo.xlsx");
+        }
+    }
 }
 ```
 

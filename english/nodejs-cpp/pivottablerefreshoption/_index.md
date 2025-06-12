@@ -17,16 +17,22 @@ class PivotTableRefreshOption;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Represents the options of refreshing data source of the pivot table. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [reserveMissingPivotItemType](#reserveMissingPivotItemType--)| ReserveMissingPivotItemType | Represents how to reserve missing pivot items. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| Represents how to reserve missing pivot items. |
-| [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| Represents how to reserve missing pivot items. |
+| [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
+| [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -39,9 +45,18 @@ constructor();
 ```
 
 
-### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
+### reserveMissingPivotItemType {#reserveMissingPivotItemType--}
 
 Represents how to reserve missing pivot items.
+
+```javascript
+reserveMissingPivotItemType : ReserveMissingPivotItemType;
+```
+
+
+### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
+
+<b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items.
 
 ```javascript
 getReserveMissingPivotItemType() : ReserveMissingPivotItemType;
@@ -54,7 +69,7 @@ getReserveMissingPivotItemType() : ReserveMissingPivotItemType;
 
 ### setReserveMissingPivotItemType(ReserveMissingPivotItemType) {#setReserveMissingPivotItemType-reservemissingpivotitemtype-}
 
-Represents how to reserve missing pivot items.
+<b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items.
 
 ```javascript
 setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;

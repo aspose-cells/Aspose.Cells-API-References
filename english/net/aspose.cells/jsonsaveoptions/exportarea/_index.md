@@ -16,14 +16,20 @@ public CellArea ExportArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-public static void JsonSaveOptions_Property_ExportArea()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class JsonSaveOptionsPropertyExportAreaDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data into the worksheet
+            // Fill sample data
             worksheet.Cells["A1"].PutValue("Name");
             worksheet.Cells["B1"].PutValue("Age");
             worksheet.Cells["A2"].PutValue("John");
@@ -31,34 +37,17 @@ public static void JsonSaveOptions_Property_ExportArea()
             worksheet.Cells["A3"].PutValue("Jane");
             worksheet.Cells["B3"].PutValue(25);
 
-            // Create an instance of JsonSaveOptions
+            // Configure JSON save options with ExportArea
             JsonSaveOptions saveOptions = new JsonSaveOptions
             {
-                ExportHyperlinkType = JsonExportHyperlinkType.DisplayString,
-                SkipEmptyRows = true,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                HasHeaderRow = true,
-                ExportAsString = true,
-                Indent = "  ",
-                ExportNestedStructure = false,
-                ExportEmptyCells = false,
-                AlwaysExportAsJsonObject = false,
-                ToExcelStruct = false,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
+                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 }
             };
 
-            // Save the workbook as a JSON file
-            workbook.Save("JsonSaveOptionsExample.json", saveOptions);
-
-            return;
+            // Save with specified export area (A1:B3)
+            workbook.Save("JsonExportAreaDemo.json", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

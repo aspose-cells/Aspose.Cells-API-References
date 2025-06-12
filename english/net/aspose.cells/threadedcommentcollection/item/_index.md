@@ -20,24 +20,50 @@ public ThreadedComment this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Aspose", tcs[1].Author.Name);
-public void ThreadedCommentCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    CommentCollection comments = worksheet.Comments;
-    Comment comment = comments[0];
-    ThreadedCommentCollection tcs = comment.ThreadedComments;
-    Assert.AreEqual(2, tcs.Count);
-    ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
-    string au = tcs[0].Author.Name;
-   int index = authors.Add("Aspose", "S::johnson.shi@asposenj.onmicrosoft.com::bd07c1a8-5f37-4ecf-bd20-1f831c9015ce", "AD");
+    public class ThreadedCommentCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    tcs[1].Author = authors[index];
-    Assert.AreEqual(au, tcs[0].Author.Name);
-    Assert.AreEqual("Aspose", tcs[1].Author.Name);
-    workbook.Save(Constants.destPath + "example.xlsx");
+            // Add a comment
+            Comment comment = worksheet.Comments[worksheet.Comments.Add("A1")];
+            comment.Note = "Initial comment";
 
+            // Add threaded comments
+            ThreadedCommentCollection threadedComments = comment.ThreadedComments;
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+            
+            // Add authors
+            int author1Index = authors.Add("User1", "user1@example.com", "ID1");
+            int author2Index = authors.Add("User2", "user2@example.com", "ID2");
+
+            // Add threaded comments
+            threadedComments.Add("Reply 1", authors[author1Index]);
+            threadedComments.Add("Reply 2", authors[author2Index]);
+
+            // Demonstrate Item property usage
+            ThreadedComment firstComment = threadedComments[0];
+            ThreadedComment secondComment = threadedComments[1];
+
+            Console.WriteLine("First comment author: " + firstComment.Author.Name);
+            Console.WriteLine("Second comment author: " + secondComment.Author.Name);
+
+            // Modify second comment's author
+            secondComment.Author = authors[author1Index];
+            Console.WriteLine("Updated second comment author: " + secondComment.Author.Name);
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentsDemo.xlsx");
+        }
+    }
 }
 ```
 

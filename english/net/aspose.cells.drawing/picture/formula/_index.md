@@ -16,20 +16,36 @@ public string Formula { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=A1:A3", workbook.Worksheets[0].Pictures[0].Formula);
-public void Picture_Property_Formula()
-{
-    Workbook workbook = new Workbook();
-    Picture picture = workbook.Worksheets[0].Pictures[workbook.Worksheets[0].Pictures.Add(0, 0, Constants.sourcePath + "example.jpg")];
-    picture.Formula = "A1:A3";
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual("=A1:A3", workbook.Worksheets[0].Pictures[0].Formula);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    workbook.Worksheets[0].Pictures[0].Formula = "B1:B3";
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual("=B1:B3", workbook.Worksheets[0].Pictures[0].Formula);
+namespace AsposeCellsExamples
+{
+    public class PicturePropertyFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Picture picture = worksheet.Pictures[pictureIndex];
+
+            // Set formula for the picture
+            picture.Formula = "A1:A3";
+            Console.WriteLine("Picture Formula: " + picture.Formula);
+
+            // Change the formula
+            picture.Formula = "B1:B3";
+            Console.WriteLine("Updated Picture Formula: " + picture.Formula);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

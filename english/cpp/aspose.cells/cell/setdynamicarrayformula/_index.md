@@ -4,7 +4,7 @@ linktitle: SetDynamicArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetDynamicArrayFormula method. Sets dynamic array formula and make the formula spill into neighboring cells if possible in C++.'
 type: docs
-weight: 5100
+weight: 5200
 url: /cpp/aspose.cells/cell/setdynamicarrayformula/
 ---
 ## Cell::SetDynamicArrayFormula(const U16String\&, const FormulaParseOptions\&, bool) method

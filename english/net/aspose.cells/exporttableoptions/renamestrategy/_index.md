@@ -16,41 +16,40 @@ public RenameStrategy RenameStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: RenameStrategy = RenameStrategy.Digit // Use the Digit strategy for duplicate names
-public static void ExportTableOptions_Property_RenameStrategy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ExportTableOptionsPropertyRenameStrategyDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
             worksheet.Cells["A1"].PutValue("Name");
             worksheet.Cells["A2"].PutValue("John");
             worksheet.Cells["A3"].PutValue("Jane");
             worksheet.Cells["A4"].PutValue("John");
 
-            // Create ExportTableOptions and set the RenameStrategy
             ExportTableOptions options = new ExportTableOptions
             {
-                RenameStrategy = RenameStrategy.Digit // Use the Digit strategy for duplicate names
+                RenameStrategy = RenameStrategy.Digit
             };
 
-            // Export the worksheet data to a DataTable
             System.Data.DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 4, 1, options);
 
-            // Display the DataTable content
+            Console.WriteLine("Exported DataTable with Digit RenameStrategy:");
             foreach (System.Data.DataRow row in dataTable.Rows)
             {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item + "\t");
-                }
-                Console.WriteLine();
+                Console.WriteLine(row[0]);
             }
 
-            // Save the workbook
-            workbook.Save("RenameStrategyExample.xlsx");
+            workbook.Save("RenameStrategyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,20 +16,34 @@ public bool WorksheetScalable { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.WorksheetScalable = true;
-public void HtmlSaveOptions_Property_WorksheetScalable()
-{
-            
-    // Creating a Workbook object
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets.ActiveSheetIndex = 4;
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.WorksheetScalable = true;
-    options.ExportActiveWorksheetOnly = true;
-    workbook.Save(_destFilesPath + "example.html", options);
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    Assert.IsTrue(text.IndexOf("transform: scale(0.6)") != -1);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyWorksheetScalableDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            
+            // Set HTML save options with WorksheetScalable property
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.WorksheetScalable = true;
+            
+            // Save the workbook with HTML options
+            string outputPath = "output.html";
+            workbook.Save(outputPath, options);
+            
+            // Verify the output contains scaling style
+            string htmlContent = File.ReadAllText(outputPath);
+            Console.WriteLine("HTML contains scaling: " + htmlContent.Contains("transform: scale"));
+        }
+    }
 }
 ```
 

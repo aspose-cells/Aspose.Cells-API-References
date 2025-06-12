@@ -16,8 +16,36 @@ public ControlCaptionAlignmentType Alignment { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.Alignment = Aspose.Cells.Drawing.ActiveXControls.ControlCaptionAlignmentType.Left;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class RadioButtonActiveXControlPropertyAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a new shape collection and add ActiveX control
+            ShapeCollection shapes = worksheet.Shapes;
+            Shape shape = shapes.AddActiveXControl(ControlType.RadioButton, 1, 1, 100, 30, 0, 0);
+            RadioButtonActiveXControl radioButton = (RadioButtonActiveXControl)shape.ActiveXControl;
+            
+            // Set the Alignment property
+            radioButton.Alignment = ControlCaptionAlignmentType.Left;
+            
+            // Save the workbook
+            workbook.Save("RadioButtonAlignmentDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

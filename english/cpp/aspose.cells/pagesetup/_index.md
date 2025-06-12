@@ -4,7 +4,7 @@ linktitle: PageSetup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PageSetup class. Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options in C++.'
 type: docs
-weight: 11000
+weight: 11300
 url: /cpp/aspose.cells/pagesetup/
 ---
 ## PageSetup class

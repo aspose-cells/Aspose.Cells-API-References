@@ -51,18 +51,55 @@ public class RadioButtonActiveXControl : ToggleButtonActiveXControl
 ### Examples
 
 ```csharp
-[C#]
-//Initialize a new workbook.
-Workbook book = new Workbook();
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.ActiveXControls;
+    using System;
 
-//Add a ToggleButtonActiveXControl.
-Shape shape = book.Worksheets[0].Shapes.AddActiveXControl(ControlType.RadioButton, 1, 0, 1, 0, 100, 50);
-RadioButtonActiveXControl activeXControl = (RadioButtonActiveXControl)shape.ActiveXControl;
+    public class RadioButtonActiveXControlDemo
+    {
+        public static void RadioButtonActiveXControlExample()
+        {
+            // Initialize a new workbook.
+            Workbook workbook = new Workbook();
 
-//do your business
+            // Add a RadioButton ActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.RadioButton, 1, 0, 1, 0, 100, 50);
+            RadioButtonActiveXControl activeXControl = (RadioButtonActiveXControl)shape.ActiveXControl;
 
-//Save the excel file.
-book.Save("exmaple.xlsx");
+            // Setting properties
+            activeXControl.GroupName = "GroupName123";
+            activeXControl.Alignment = ControlCaptionAlignmentType.Left;
+            activeXControl.IsWordWrapped = true;
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = false;
+            activeXControl.IsAutoSize = true;
+            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
+
+            // Save the workbook
+            workbook.Save("RadioButtonActiveXControlExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

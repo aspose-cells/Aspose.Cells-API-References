@@ -16,51 +16,37 @@ public string NumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.NumberFormat = "0.00";
-public static void XmlLoadOptions_Property_NumberFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XmlLoadOptionsPropertyNumberFormatDemo
+    {
+        public static void Run()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();
 
-            // Setting properties
-            options.StartCell = "A1";
-            options.IsXmlMap = true;
-            options.ContainsMultipleWorksheets = false;
-            options.ConvertNumericOrDate = true;
+            // Set the NumberFormat property to display numbers with 2 decimal places
             options.NumberFormat = "0.00";
-            options.DateFormat = "yyyy-MM-dd";
-            options.IgnoreRootAttributes = false;
-            options.Password = "password";
-            options.ParsingFormulaOnOpen = true;
-            options.ParsingPivotCachedRecords = false;
-            options.LanguageCode = CountryCode.USA;
-            options.Region = CountryCode.USA;
-            options.CultureInfo = new System.Globalization.CultureInfo("en-US");
-            options.StandardFont = "Arial";
-            options.StandardFontSize = 10.5;
-            options.InterruptMonitor = null; // Assuming no interrupt monitor is set
-            options.IgnoreNotPrinted = true;
-            options.CheckDataValid = true;
-            options.CheckExcelRestriction = true;
-            options.KeepUnparsedData = true;
-            options.LoadFilter = new LoadFilter(LoadDataFilterOptions.All);
-            options.LightCellsDataHandler = null; // Assuming no data handler is set
-            options.MemorySetting = MemorySetting.Normal;
-            options.WarningCallback = null; // Assuming no warning callback is set
-            options.AutoFitterOptions = new AutoFitterOptions();
-            options.AutoFilter = true;
-            options.FontConfigs = null; // Assuming no individual font configs are set
-            options.IgnoreUselessShapes = true;
-            options.PreservePaddingSpacesInFormula = false;
 
             // Load an XML file into a Workbook using the specified options
-            Workbook workbook = new Workbook("XmlLoadOptionsExample_original.xml", options);
+            Workbook workbook = new Workbook("input.xml", options);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some numeric values to demonstrate the number formatting
+            worksheet.Cells["A1"].PutValue(123);
+            worksheet.Cells["A2"].PutValue(45.678);
+            worksheet.Cells["A3"].PutValue(0.5);
 
             // Save the workbook to a new file
-            workbook.Save("XmlLoadOptionsExample.xlsx");
-
-            return;
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

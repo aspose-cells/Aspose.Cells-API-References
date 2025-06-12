@@ -4,7 +4,7 @@ linktitle: GetCharacters
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetCharacters method. Returns all Characters objects that represents a range of characters within the cell text in C++.'
 type: docs
-weight: 6200
+weight: 6300
 url: /cpp/aspose.cells/cell/getcharacters/
 ---
 ## Cell::GetCharacters() method

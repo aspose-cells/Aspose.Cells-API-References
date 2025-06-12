@@ -16,31 +16,41 @@ public bool IsHtmlString { get; set; }
 ### Examples
 
 ```csharp
-// Called: IsHtmlString = true
-public void ImportTableOptions_Property_IsHtmlString()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    System.Data.DataTable table = new System.Data.DataTable();
-    table.Columns.Add("ID");
-    table.Columns.Add("thelink");
-    table.Columns.Add("Start Time");
-    string[] addrow = { "1", "<span style='width: 240px; overflow: hidden; white-space: nowrap; display: inline-block; text-overflow:ellipsis;'><a href='http://mysite.com/includes/pdfcrowd/pdfAPI.php?url=https%3A%2F%2Fwww%2mysite%2Ecom%2Fcfp2%2FReviews%2FTools%2FPreview%2Dall%2Easp%3FEventID%3D9638%26ClientID%3D2465%26SubID%3D716990&pageheight=11in' target='_blank'>Submission Preview</a></span>", "1:00 PM" };
-    table.Rows.Add(addrow);
-
-    var workbook = new Workbook();
-    var ws = workbook.Worksheets[0];
-    ws.Cells.ImportData(table, 0, 0, new ImportTableOptions
+    public class ImportTableOptionsPropertyIsHtmlStringDemo
     {
-        IsFieldNameShown = true,
-        ConvertNumericData = true,
-        NumberFormats = new string[] { null, null, "h:mm AM/PM" },
-        IsHtmlString = true
+        public static void Run()
+        {
+            // Create a DataTable with sample data containing HTML
+            DataTable table = new DataTable();
+            table.Columns.Add("ID");
+            table.Columns.Add("Content");
+            table.Columns.Add("Time");
+            
+            // Add a row with HTML content
+            table.Rows.Add("1", "<a href='https://www.example.com'>Example Link</a>", "2:30 PM");
 
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    });
-    Hyperlink link = workbook.Worksheets[0].Hyperlinks[0];
-    Assert.AreEqual(1, link.Area.StartRow);
-    Assert.AreEqual(1, link.Area.StartColumn);
-    workbook.Save(_destFilesPath + "example.xlsx");
+            // Import the DataTable with IsHtmlString set to true
+            worksheet.Cells.ImportData(table, 0, 0, new ImportTableOptions
+            {
+                IsFieldNameShown = true,
+                IsHtmlString = true,
+                NumberFormats = new string[] { null, null, "h:mm AM/PM" }
+            });
+
+            // Save the workbook
+            workbook.Save("HtmlStringImportDemo.xlsx");
+        }
+    }
 }
 ```
 

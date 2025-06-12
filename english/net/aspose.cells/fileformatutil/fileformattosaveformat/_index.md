@@ -20,28 +20,31 @@ public static SaveFormat FileFormatToSaveFormat(FileFormatType format)
 ### Examples
 
 ```csharp
-// Called: Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
-public void FileFormatUtil_Method_FileFormatToSaveFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //Test1_U227969_TestAsposeMassivReadWrite1.xlsx
-    string[] files = Directory.GetFiles(Constants.sourcePath + "openxls/");
-
-    Workbook excel = new Workbook();
-    string fileName = "";
-    foreach (string file in files)
+    public class FileFormatUtilMethodFileFormatToSaveFormatWithFileFormatTypeDemo
     {
-        try
+        public static void Run()
         {
-            excel = new Workbook(file);
-            int index = file.LastIndexOf("/");
-            fileName = file.Substring(index);
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test FileFormatToSaveFormat");
 
-            Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("Problem in processing " + file);
-            Console.WriteLine("    " + e.GetType().Name + ": " + e.Message);
+            // Get the file format type of the workbook
+            FileFormatType originalFormat = workbook.FileFormat;
+
+            // Convert FileFormatType to SaveFormat
+            SaveFormat saveFormat = FileFormatUtil.FileFormatToSaveFormat(originalFormat);
+
+            // Save the workbook using the converted SaveFormat
+            string outputPath = "Output_" + saveFormat.ToString() + ".xlsx";
+            workbook.Save(outputPath, saveFormat);
+
+            Console.WriteLine("File saved successfully with SaveFormat: " + saveFormat);
         }
     }
 }

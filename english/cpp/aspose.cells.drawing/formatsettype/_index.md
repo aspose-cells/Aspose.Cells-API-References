@@ -4,7 +4,7 @@ linktitle: FormatSetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::FormatSetType enum. Fill format set type in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells.drawing/formatsettype/
 ---
 ## FormatSetType enum

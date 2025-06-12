@@ -16,17 +16,32 @@ public void Ungroup()
 ### Examples
 
 ```csharp
-// Called: pt.ColumnFields[0].Ungroup();
-public void PivotField_Method_Ungroup()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    pt.ColumnFields[0].Ungroup();
-    Assert.AreEqual(1, pt.ColumnFields.Count);
-    Assert.AreEqual("1", workbook.Worksheets[0].Cells["H8"].StringValue);
-
-    workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
-
+    public class PivotFieldMethodUngroupDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the first pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Ungroup the first column field
+            pivotTable.ColumnFields[0].Ungroup();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

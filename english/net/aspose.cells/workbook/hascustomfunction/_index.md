@@ -16,30 +16,50 @@ public bool HasCustomFunction { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(wb.HasCustomFunction, "No custom function in Name");
-public void Workbook_Property_HasCustomFunction()
-{
-    Workbook wb = new Workbook();
-    NameCollection nc = wb.Worksheets.Names;
-    nc[nc.Add("TestName1")].RefersTo = "=SUM(Sheet1!$C$1:$C$2)";
-    Assert.IsFalse(wb.HasCustomFunction, "No custom function in Name");
-    nc[nc.Add("TestName2")].RefersTo = "=MYTESTFUNC()";
-    Assert.IsTrue(wb.HasCustomFunction, "Custom function in Name");
+using System;
+using Aspose.Cells;
 
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    cell.Formula = "=ABS(C1)";
-    Assert.IsFalse(cell.HasCustomFunction, "Fix function");
-    cell.Formula = "=SUM(C1)";
-    Assert.IsFalse(cell.HasCustomFunction, "Var function");
-    cell.Formula = "=XLOOKUP(C1:C2,D1:D2,E1:E2)";
-    Assert.IsFalse(cell.HasCustomFunction, "Future function");
-    cell.Formula = "=MYTESTFUNC(C1)";
-    Assert.IsTrue(cell.HasCustomFunction, "Custom function");
-    cell.Formula = "=TestName2";
-    Assert.IsTrue(cell.HasCustomFunction, "Using Name with custom function");
-    cell.Formula = "=MYTESTFUNC(TestName2)";
-    Assert.IsTrue(cell.HasCustomFunction, "Multiple occurences of Custom function");
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyHasCustomFunctionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Add a standard formula to a name
+            NameCollection names = wb.Worksheets.Names;
+            int index = names.Add("StandardName");
+            names[index].RefersTo = "=SUM(Sheet1!$A$1:$A$2)";
+            Console.WriteLine($"Workbook has custom function (should be false): {wb.HasCustomFunction}");
+
+            // Add a custom function to a name
+            index = names.Add("CustomName");
+            names[index].RefersTo = "=MYFUNC()";
+            Console.WriteLine($"Workbook has custom function (should be true): {wb.HasCustomFunction}");
+
+            // Test with cell formulas
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Standard function in cell
+            cells["A1"].Formula = "=SUM(B1:B2)";
+            Console.WriteLine($"Cell has custom function (should be false): {cells["A1"].HasCustomFunction}");
+
+            // Custom function in cell
+            cells["A2"].Formula = "=MYFUNC(B1)";
+            Console.WriteLine($"Cell has custom function (should be true): {cells["A2"].HasCustomFunction}");
+
+            // Reference to name with custom function
+            cells["A3"].Formula = "=CustomName";
+            Console.WriteLine($"Cell has custom function (should be true): {cells["A3"].HasCustomFunction}");
+
+            // Combined custom functions
+            cells["A4"].Formula = "=MYFUNC(CustomName)";
+            Console.WriteLine($"Cell has custom function (should be true): {cells["A4"].HasCustomFunction}");
+        }
+    }
 }
 ```
 

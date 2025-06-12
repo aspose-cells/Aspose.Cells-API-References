@@ -24,17 +24,33 @@ Returns null if a property with the specified name is not found.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.CustomDocumentProperties[key].Value = value;
-public void DocumentPropertyCollection_Property_Item(Workbook wb)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DocumentPropertyCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
+            Workbook wb = new Workbook();
             string key = "TemplateGUID";
-            object value = "the value";
+            object value = "TestValue123";
 
             if (wb.Worksheets.CustomDocumentProperties.Contains(key))
+            {
                 wb.Worksheets.CustomDocumentProperties[key].Value = value;
+            }
             else
+            {
                 wb.Worksheets.CustomDocumentProperties.Add(key, value.ToString());
+            }
+
+            // Verify the value was set using Item property
+            Console.WriteLine("Property Value: " + wb.Worksheets.CustomDocumentProperties[key].Value);
         }
+    }
+}
 ```
 
 ### See Also
@@ -61,23 +77,42 @@ public DocumentProperty this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: DocumentProperty propSrc = expected[i];
-public static void DocumentPropertyCollection_Property_Item(DocumentPropertyCollection expected, DocumentPropertyCollection resultProperties, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class DocumentPropertyCollectionPropertyItemDemo1
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(expected, resultProperties, info))
-            {
-                return;
-            }
-            int countSrc = expected.Count;
-            int countDest = resultProperties.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
-            for (int i = 0; i < countSrc && i < countDest; i++)
-            {
-                DocumentProperty propSrc = expected[i];
-                DocumentProperty propDest = resultProperties[i];
-                DocumentPropertyCollection_Property_Item(propSrc, propDest, info + ".DocumentProperty");
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get built-in document properties
+            BuiltInDocumentPropertyCollection properties = workbook.BuiltInDocumentProperties;
+
+            // Set built-in properties (not Add)
+            properties.Author = "John Doe";
+            properties.Company = "Aspose";
+            properties["Version"].Value = "1.0";
+
+            // Access properties using Item indexer
+            Console.WriteLine("Property 0: " + properties[0].Name + " = " + properties[0].Value);
+            Console.WriteLine("Property 1: " + properties[1].Name + " = " + properties[1].Value);
+            Console.WriteLine("Property 2: " + properties[2].Name + " = " + properties[2].Value);
+
+            // Access property by name
+            DocumentProperty authorProp = properties["Author"];
+            Console.WriteLine("Author property: " + authorProp.Value);
+
+            // Modify a property
+            properties["Version"].Value = "2.0";
+            Console.WriteLine("Updated Version: " + properties["Version"].Value);
         }
+    }
+}
 ```
 
 ### See Also

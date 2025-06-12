@@ -16,26 +16,46 @@ public bool RefreshDataOnOpeningFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.RefreshDataOnOpeningFile = false;
-public void PivotTable_Property_RefreshDataOnOpeningFile()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46857_";
-
-    Workbook book = new Workbook(filePath + "a.xlsx");
-    PivotTable pt = book.Worksheets[0].PivotTables[0];
-    pt.RefreshData();
-    pt.CalculateData();
-    pt.RefreshDataOnOpeningFile = false;
-    book.Save(CreateFolder(filePath) + "a_out.xlsx");
-
-    Workbook wb = new Workbook(filePath + "Attachment 1.xlsm");
-    foreach (Worksheet worksheet in wb.Worksheets)
+    public class PivotTablePropertyRefreshDataOnOpeningFileDemo
     {
-        //被切片隐藏的条目 没有去除掉，因为隐藏条目的PiovtField没有应用在透视表的区域里，所以刷新时没有起作用
-        worksheet.RefreshPivotTables();
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
+            // Add sample data for pivot table
+            var cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 1000;
+            cells["A3"].Value = "Banana";
+            cells["B3"].Value = 2000;
+            cells["A4"].Value = "Orange";
+            cells["B4"].Value = 3000;
+
+            // Add a pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Set RefreshDataOnOpeningFile property
+            pivotTable.RefreshDataOnOpeningFile = false;
+
+            // Save the workbook
+            workbook.Save("PivotTableRefreshDataOnOpeningFileDemo.xlsx");
+        }
+    }
 }
 ```
 

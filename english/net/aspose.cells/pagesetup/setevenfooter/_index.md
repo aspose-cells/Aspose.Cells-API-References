@@ -21,31 +21,34 @@ public void SetEvenFooter(int section, string footerScript)
 ### Examples
 
 ```csharp
-// Called: ps.SetEvenFooter(0, "EvenFooter");
-public void PageSetup_Method_SetEvenFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    ps.IsHFDiffFirst = true;
-    ps.IsHFDiffOddEven = true;
-    ps.SetEvenFooter(0, "EvenFooter");
-    ps.SetFooter(0, "Footer");
-    ps.SetFirstPageFooter(0, "FirstPageFooter");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    ps = workbook.Worksheets[0].PageSetup;
-    Assert.IsTrue(ps.IsHFDiffFirst);
-    Assert.IsTrue(ps.IsHFDiffOddEven);
-    Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-    Assert.AreEqual("Footer", ps.GetFooter(0));
-    Assert.AreEqual("FirstPageFooter", ps.GetFirstPageFooter(0));
-    Workbook tmp = new Workbook();
-    tmp.Copy(workbook);
-    ps = tmp.Worksheets[0].PageSetup;
-    Assert.IsTrue(ps.IsHFDiffFirst);
-    Assert.IsTrue(ps.IsHFDiffOddEven);
-    Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-    Assert.AreEqual("Footer", ps.GetFooter(0));
+    public class PageSetupMethodSetEvenFooterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Enable different headers/footers for first and even pages
+            pageSetup.IsHFDiffFirst = true;
+            pageSetup.IsHFDiffOddEven = true;
+
+            // Set different footer types
+            pageSetup.SetEvenFooter(0, "Even Page Footer");
+            pageSetup.SetFooter(0, "Odd Page Footer");
+            pageSetup.SetFirstPageFooter(0, "First Page Footer");
+
+            // Save the workbook
+            workbook.Save("PageSetup_SetEvenFooter_Example.xlsx");
+
+            Console.WriteLine("Workbook saved with even page footer set successfully.");
+        }
+    }
 }
 ```
 

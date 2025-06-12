@@ -20,65 +20,99 @@ class Cells;
 const { Workbook } = require("aspose.cells.node");
 
 var excel = new Workbook();
-var cells = excel.getWorksheets().get(0).getCells();
+var cells = excel.worksheets.get(0).cells;
 //Set default row height
-cells.setStandardHeight(20);
+cells.standardHeight = 20;
 //Set row height
 cells.setRowHeight(2, 20.5);
 //Set default colum width
-cells.setStandardWidth(15);
+cells.standardWidth = 15;
 //Set column width
 cells.setColumnWidth(3, 12.57);
 //Merge cells
 cells.merge(5, 4, 2, 2);
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [odsCellFields](#odsCellFields--)| OdsCellFieldCollection | Readonly. Gets the list of fields of ods. |
+| [count](#count--)| number | Readonly. Gets the total count of instantiated Cell objects. |
+| [countLarge](#countLarge--)| number | Readonly. Gets the total count of instantiated Cell objects. |
+| [rows](#rows--)| RowCollection | Readonly. Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet. |
+| [multiThreadReading](#multiThreadReading--)| boolean | Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
+| [memorySetting](#memorySetting--)| MemorySetting | Gets or sets the memory usage option for this cells. |
+| [style](#style--)| Style | Gets and sets the default style of the worksheet. |
+| [standardWidthInch](#standardWidthInch--)| number | Gets or sets the default column width in the worksheet, in unit of inches. |
+| [standardWidthPixels](#standardWidthPixels--)| number | Gets or sets the default column width in the worksheet, in unit of pixels. |
+| [standardWidth](#standardWidth--)| number | Gets or sets the default column width in the worksheet, in unit of characters. |
+| [standardHeight](#standardHeight--)| number | Gets or sets the default row height in this worksheet, in unit of points. |
+| [standardHeightPixels](#standardHeightPixels--)| number | Gets or sets the default row height in this worksheet, in unit of pixels. |
+| [standardHeightInch](#standardHeightInch--)| number | Gets or sets the default row height in this worksheet, in unit of inches. |
+| [preserveString](#preserveString--)| boolean | Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
+| [minRow](#minRow--)| number | Readonly. Minimum row index of cell which contains data or style. |
+| [maxRow](#maxRow--)| number | Readonly. Maximum row index of cell which contains data or style. |
+| [minColumn](#minColumn--)| number | Readonly. Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [maxColumn](#maxColumn--)| number | Readonly. Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [minDataRow](#minDataRow--)| number | Readonly. Minimum row index of cell which contains data. |
+| [maxDataRow](#maxDataRow--)| number | Readonly. Maximum row index of cell which contains data. |
+| [minDataColumn](#minDataColumn--)| number | Readonly. Minimum column index of cell which contains data. |
+| [maxDataColumn](#maxDataColumn--)| number | Readonly. Maximum column index of cell which contains data. |
+| [isDefaultRowHeightMatched](#isDefaultRowHeightMatched--)| boolean | Indicates that row height and default font height matches |
+| [isDefaultRowHidden](#isDefaultRowHidden--)| boolean | Indicates whether the row is default hidden. |
+| [columns](#columns--)| ColumnCollection | Readonly. Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
+| [ranges](#ranges--)| RangeCollection | Readonly. Gets the collection of [Range](../range/) objects created at run time. |
+| [lastCell](#lastCell--)| Cell | Readonly. Gets the last cell in this worksheet. |
+| [maxDisplayRange](#maxDisplayRange--)| Range | Readonly. Gets the max range which includes data, merged cells and shapes. |
+| [firstCell](#firstCell--)| Cell | Readonly. Gets the first cell in this worksheet. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number, number)](#get-number-number-)| Gets the [Cell](../cell/) element at the specified cell row index and column index. |
 | [get(string)](#get-string-)| Gets the [Cell](../cell/) element at the specified cell name. |
-| [getOdsCellFields()](#getOdsCellFields--)| Gets the list of fields of ods. |
-| [getCount()](#getCount--)| Gets the total count of instantiated Cell objects. |
-| [getCountLarge()](#getCountLarge--)| Gets the total count of instantiated Cell objects. |
-| [getRows()](#getRows--)| Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet. |
-| [getMultiThreadReading()](#getMultiThreadReading--)| Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
-| [setMultiThreadReading(boolean)](#setMultiThreadReading-boolean-)| Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
-| [getMemorySetting()](#getMemorySetting--)| Gets or sets the memory usage option for this cells. |
-| [setMemorySetting(MemorySetting)](#setMemorySetting-memorysetting-)| Gets or sets the memory usage option for this cells. |
-| [getStyle()](#getStyle--)| Gets and sets the default style of the worksheet. |
-| [setStyle(Style)](#setStyle-style-)| Gets and sets the default style of the worksheet. |
-| [getStandardWidthInch()](#getStandardWidthInch--)| Gets or sets the default column width in the worksheet, in unit of inches. |
-| [setStandardWidthInch(number)](#setStandardWidthInch-number-)| Gets or sets the default column width in the worksheet, in unit of inches. |
-| [getStandardWidthPixels()](#getStandardWidthPixels--)| Gets or sets the default column width in the worksheet, in unit of pixels. |
-| [setStandardWidthPixels(number)](#setStandardWidthPixels-number-)| Gets or sets the default column width in the worksheet, in unit of pixels. |
-| [getStandardWidth()](#getStandardWidth--)| Gets or sets the default column width in the worksheet, in unit of characters. |
-| [setStandardWidth(number)](#setStandardWidth-number-)| Gets or sets the default column width in the worksheet, in unit of characters. |
-| [getStandardHeight()](#getStandardHeight--)| Gets or sets the default row height in this worksheet, in unit of points. |
-| [setStandardHeight(number)](#setStandardHeight-number-)| Gets or sets the default row height in this worksheet, in unit of points. |
-| [getStandardHeightPixels()](#getStandardHeightPixels--)| Gets or sets the default row height in this worksheet, in unit of pixels. |
-| [setStandardHeightPixels(number)](#setStandardHeightPixels-number-)| Gets or sets the default row height in this worksheet, in unit of pixels. |
-| [getStandardHeightInch()](#getStandardHeightInch--)| Gets or sets the default row height in this worksheet, in unit of inches. |
-| [setStandardHeightInch(number)](#setStandardHeightInch-number-)| Gets or sets the default row height in this worksheet, in unit of inches. |
-| [getPreserveString()](#getPreserveString--)| Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
-| [setPreserveString(boolean)](#setPreserveString-boolean-)| Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
-| [getMinRow()](#getMinRow--)| Minimum row index of cell which contains data or style. |
-| [getMaxRow()](#getMaxRow--)| Maximum row index of cell which contains data or style. |
-| [getMinColumn()](#getMinColumn--)| Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [getMaxColumn()](#getMaxColumn--)| Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [getMinDataRow()](#getMinDataRow--)| Minimum row index of cell which contains data. |
-| [getMaxDataRow()](#getMaxDataRow--)| Maximum row index of cell which contains data. |
-| [getMinDataColumn()](#getMinDataColumn--)| Minimum column index of cell which contains data. |
-| [getMaxDataColumn()](#getMaxDataColumn--)| Maximum column index of cell which contains data. |
-| [isDefaultRowHeightMatched()](#isDefaultRowHeightMatched--)| Indicates that row height and default font height matches |
-| [setIsDefaultRowHeightMatched(boolean)](#setIsDefaultRowHeightMatched-boolean-)| Indicates that row height and default font height matches |
-| [isDefaultRowHidden()](#isDefaultRowHidden--)| Indicates whether the row is default hidden. |
-| [setIsDefaultRowHidden(boolean)](#setIsDefaultRowHidden-boolean-)| Indicates whether the row is default hidden. |
-| [getColumns()](#getColumns--)| Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
-| [getRanges()](#getRanges--)| Gets the collection of [Range](../range/) objects created at run time. |
-| [getLastCell()](#getLastCell--)| Gets the last cell in this worksheet. |
-| [getMaxDisplayRange()](#getMaxDisplayRange--)| Gets the max range which includes data, merged cells and shapes. |
-| [getFirstCell()](#getFirstCell--)| Gets the first cell in this worksheet. |
+| [getOdsCellFields()](#getOdsCellFields--)| <b>@deprecated.</b> Please use the 'odsCellFields' property instead. Gets the list of fields of ods. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the total count of instantiated Cell objects. |
+| [getCountLarge()](#getCountLarge--)| <b>@deprecated.</b> Please use the 'countLarge' property instead. Gets the total count of instantiated Cell objects. |
+| [getRows()](#getRows--)| <b>@deprecated.</b> Please use the 'rows' property instead. Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet. |
+| [getMultiThreadReading()](#getMultiThreadReading--)| <b>@deprecated.</b> Please use the 'multiThreadReading' property instead. Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
+| [setMultiThreadReading(boolean)](#setMultiThreadReading-boolean-)| <b>@deprecated.</b> Please use the 'multiThreadReading' property instead. Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
+| [getMemorySetting()](#getMemorySetting--)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells. |
+| [setMemorySetting(MemorySetting)](#setMemorySetting-memorysetting-)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells. |
+| [getStyle()](#getStyle--)| <b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet. |
+| [setStyle(Style)](#setStyle-style-)| <b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet. |
+| [getStandardWidthInch()](#getStandardWidthInch--)| <b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches. |
+| [setStandardWidthInch(number)](#setStandardWidthInch-number-)| <b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches. |
+| [getStandardWidthPixels()](#getStandardWidthPixels--)| <b>@deprecated.</b> Please use the 'standardWidthPixels' property instead. Gets or sets the default column width in the worksheet, in unit of pixels. |
+| [setStandardWidthPixels(number)](#setStandardWidthPixels-number-)| <b>@deprecated.</b> Please use the 'standardWidthPixels' property instead. Gets or sets the default column width in the worksheet, in unit of pixels. |
+| [getStandardWidth()](#getStandardWidth--)| <b>@deprecated.</b> Please use the 'standardWidth' property instead. Gets or sets the default column width in the worksheet, in unit of characters. |
+| [setStandardWidth(number)](#setStandardWidth-number-)| <b>@deprecated.</b> Please use the 'standardWidth' property instead. Gets or sets the default column width in the worksheet, in unit of characters. |
+| [getStandardHeight()](#getStandardHeight--)| <b>@deprecated.</b> Please use the 'standardHeight' property instead. Gets or sets the default row height in this worksheet, in unit of points. |
+| [setStandardHeight(number)](#setStandardHeight-number-)| <b>@deprecated.</b> Please use the 'standardHeight' property instead. Gets or sets the default row height in this worksheet, in unit of points. |
+| [getStandardHeightPixels()](#getStandardHeightPixels--)| <b>@deprecated.</b> Please use the 'standardHeightPixels' property instead. Gets or sets the default row height in this worksheet, in unit of pixels. |
+| [setStandardHeightPixels(number)](#setStandardHeightPixels-number-)| <b>@deprecated.</b> Please use the 'standardHeightPixels' property instead. Gets or sets the default row height in this worksheet, in unit of pixels. |
+| [getStandardHeightInch()](#getStandardHeightInch--)| <b>@deprecated.</b> Please use the 'standardHeightInch' property instead. Gets or sets the default row height in this worksheet, in unit of inches. |
+| [setStandardHeightInch(number)](#setStandardHeightInch-number-)| <b>@deprecated.</b> Please use the 'standardHeightInch' property instead. Gets or sets the default row height in this worksheet, in unit of inches. |
+| [getPreserveString()](#getPreserveString--)| <b>@deprecated.</b> Please use the 'preserveString' property instead. Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
+| [setPreserveString(boolean)](#setPreserveString-boolean-)| <b>@deprecated.</b> Please use the 'preserveString' property instead. Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
+| [getMinRow()](#getMinRow--)| <b>@deprecated.</b> Please use the 'minRow' property instead. Minimum row index of cell which contains data or style. |
+| [getMaxRow()](#getMaxRow--)| <b>@deprecated.</b> Please use the 'maxRow' property instead. Maximum row index of cell which contains data or style. |
+| [getMinColumn()](#getMinColumn--)| <b>@deprecated.</b> Please use the 'minColumn' property instead. Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [getMaxColumn()](#getMaxColumn--)| <b>@deprecated.</b> Please use the 'maxColumn' property instead. Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [getMinDataRow()](#getMinDataRow--)| <b>@deprecated.</b> Please use the 'minDataRow' property instead. Minimum row index of cell which contains data. |
+| [getMaxDataRow()](#getMaxDataRow--)| <b>@deprecated.</b> Please use the 'maxDataRow' property instead. Maximum row index of cell which contains data. |
+| [getMinDataColumn()](#getMinDataColumn--)| <b>@deprecated.</b> Please use the 'minDataColumn' property instead. Minimum column index of cell which contains data. |
+| [getMaxDataColumn()](#getMaxDataColumn--)| <b>@deprecated.</b> Please use the 'maxDataColumn' property instead. Maximum column index of cell which contains data. |
+| [isDefaultRowHeightMatched()](#isDefaultRowHeightMatched--)| <b>@deprecated.</b> Please use the 'isDefaultRowHeightMatched' property instead. Indicates that row height and default font height matches |
+| [setIsDefaultRowHeightMatched(boolean)](#setIsDefaultRowHeightMatched-boolean-)| <b>@deprecated.</b> Please use the 'isDefaultRowHeightMatched' property instead. Indicates that row height and default font height matches |
+| [isDefaultRowHidden()](#isDefaultRowHidden--)| <b>@deprecated.</b> Please use the 'isDefaultRowHidden' property instead. Indicates whether the row is default hidden. |
+| [setIsDefaultRowHidden(boolean)](#setIsDefaultRowHidden-boolean-)| <b>@deprecated.</b> Please use the 'isDefaultRowHidden' property instead. Indicates whether the row is default hidden. |
+| [getColumns()](#getColumns--)| <b>@deprecated.</b> Please use the 'columns' property instead. Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
+| [getRanges()](#getRanges--)| <b>@deprecated.</b> Please use the 'ranges' property instead. Gets the collection of [Range](../range/) objects created at run time. |
+| [getLastCell()](#getLastCell--)| <b>@deprecated.</b> Please use the 'lastCell' property instead. Gets the last cell in this worksheet. |
+| [getMaxDisplayRange()](#getMaxDisplayRange--)| <b>@deprecated.</b> Please use the 'maxDisplayRange' property instead. Gets the max range which includes data, merged cells and shapes. |
+| [getFirstCell()](#getFirstCell--)| <b>@deprecated.</b> Please use the 'firstCell' property instead. Gets the first cell in this worksheet. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getEnumerator()](#getEnumerator--)| Gets the cells enumerator. |
 | [getMergedAreas()](#getMergedAreas--)| Gets all merged cells. |
@@ -226,6 +260,315 @@ cells.merge(5, 4, 2, 2);
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### odsCellFields {#odsCellFields--}
+
+Readonly. Gets the list of fields of ods.
+
+```javascript
+odsCellFields : OdsCellFieldCollection;
+```
+
+
+### count {#count--}
+
+Readonly. Gets the total count of instantiated Cell objects.
+
+```javascript
+count : number;
+```
+
+
+### countLarge {#countLarge--}
+
+Readonly. Gets the total count of instantiated Cell objects.
+
+```javascript
+countLarge : number;
+```
+
+
+### rows {#rows--}
+
+Readonly. Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet.
+
+```javascript
+rows : RowCollection;
+```
+
+
+### multiThreadReading {#multiThreadReading--}
+
+Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+
+```javascript
+multiThreadReading : boolean;
+```
+
+
+**Remarks**
+
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](../cell.stringvalue/), [Cell.DisplayStringValue](../cell.displaystringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+
+### memorySetting {#memorySetting--}
+
+Gets or sets the memory usage option for this cells.
+
+```javascript
+memorySetting : MemorySetting;
+```
+
+
+### style {#style--}
+
+Gets and sets the default style of the worksheet.
+
+```javascript
+style : Style;
+```
+
+
+### standardWidthInch {#standardWidthInch--}
+
+Gets or sets the default column width in the worksheet, in unit of inches.
+
+```javascript
+standardWidthInch : number;
+```
+
+
+### standardWidthPixels {#standardWidthPixels--}
+
+Gets or sets the default column width in the worksheet, in unit of pixels.
+
+```javascript
+standardWidthPixels : number;
+```
+
+
+### standardWidth {#standardWidth--}
+
+Gets or sets the default column width in the worksheet, in unit of characters.
+
+```javascript
+standardWidth : number;
+```
+
+
+### standardHeight {#standardHeight--}
+
+Gets or sets the default row height in this worksheet, in unit of points.
+
+```javascript
+standardHeight : number;
+```
+
+
+### standardHeightPixels {#standardHeightPixels--}
+
+Gets or sets the default row height in this worksheet, in unit of pixels.
+
+```javascript
+standardHeightPixels : number;
+```
+
+
+### standardHeightInch {#standardHeightInch--}
+
+Gets or sets the default row height in this worksheet, in unit of inches.
+
+```javascript
+standardHeightInch : number;
+```
+
+
+### preserveString {#preserveString--}
+
+Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
+
+```javascript
+preserveString : boolean;
+```
+
+
+### minRow {#minRow--}
+
+Readonly. Minimum row index of cell which contains data or style.
+
+```javascript
+minRow : number;
+```
+
+
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### maxRow {#maxRow--}
+
+Readonly. Maximum row index of cell which contains data or style.
+
+```javascript
+maxRow : number;
+```
+
+
+**Remarks**
+
+Return -1 if there is no cell which contains data or style in the worksheet. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### minColumn {#minColumn--}
+
+Readonly. Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+
+```javascript
+minColumn : number;
+```
+
+
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### maxColumn {#maxColumn--}
+
+Readonly. Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+
+```javascript
+maxColumn : number;
+```
+
+
+**Remarks**
+
+Return -1 if there is no cell has been instantiated.
+
+### minDataRow {#minDataRow--}
+
+Readonly. Minimum row index of cell which contains data.
+
+```javascript
+minDataRow : number;
+```
+
+
+**Remarks**
+
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### maxDataRow {#maxDataRow--}
+
+Readonly. Maximum row index of cell which contains data.
+
+```javascript
+maxDataRow : number;
+```
+
+
+**Remarks**
+
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### minDataColumn {#minDataColumn--}
+
+Readonly. Minimum column index of cell which contains data.
+
+```javascript
+minDataColumn : number;
+```
+
+
+**Remarks**
+
+-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### maxDataColumn {#maxDataColumn--}
+
+Readonly. Maximum column index of cell which contains data.
+
+```javascript
+maxDataColumn : number;
+```
+
+
+**Remarks**
+
+-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
+### isDefaultRowHeightMatched {#isDefaultRowHeightMatched--}
+
+Indicates that row height and default font height matches
+
+```javascript
+isDefaultRowHeightMatched : boolean;
+```
+
+
+### isDefaultRowHidden {#isDefaultRowHidden--}
+
+Indicates whether the row is default hidden.
+
+```javascript
+isDefaultRowHidden : boolean;
+```
+
+
+### columns {#columns--}
+
+Readonly. Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet.
+
+```javascript
+columns : ColumnCollection;
+```
+
+
+### ranges {#ranges--}
+
+Readonly. Gets the collection of [Range](../range/) objects created at run time.
+
+```javascript
+ranges : RangeCollection;
+```
+
+
+### lastCell {#lastCell--}
+
+Readonly. Gets the last cell in this worksheet.
+
+```javascript
+lastCell : Cell;
+```
+
+
+**Remarks**
+
+Returns null if there is no data in the worksheet.
+
+### maxDisplayRange {#maxDisplayRange--}
+
+Readonly. Gets the max range which includes data, merged cells and shapes.
+
+```javascript
+maxDisplayRange : Range;
+```
+
+
+**Remarks**
+
+Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
+
+### firstCell {#firstCell--}
+
+Readonly. Gets the first cell in this worksheet.
+
+```javascript
+firstCell : Cell;
+```
+
+
+**Remarks**
+
+Returns null if there is no data in the worksheet.
+
 ### get(number, number) {#get-number-number-}
 
 Gets the [Cell](../cell/) element at the specified cell row index and column index.
@@ -249,7 +592,7 @@ The [Cell](../cell/) object.
 const { Workbook } = require("aspose.cells.node");
 
 var excel = new Workbook();
-var cells = excel.getWorksheets().get(0).getCells();
+var cells = excel.worksheets.get(0).cells;
 var cell = cells.get(0, 0);    //Gets the cell at "A1"
 ```
 
@@ -275,13 +618,13 @@ A [Cell](../cell/) object
 const { Workbook } = require("aspose.cells.node");
 
 var excel = new Workbook();
-var cells = excel.getWorksheets().get(0).getCells();
+var cells = excel.worksheets.get(0).cells;
 var cell = cells.get("A1");    //Gets the cell at "A1"
 ```
 
 ### getOdsCellFields() {#getOdsCellFields--}
 
-Gets the list of fields of ods.
+<b>@deprecated.</b> Please use the 'odsCellFields' property instead. Gets the list of fields of ods.
 
 ```javascript
 getOdsCellFields() : OdsCellFieldCollection;
@@ -294,7 +637,7 @@ getOdsCellFields() : OdsCellFieldCollection;
 
 ### getCount() {#getCount--}
 
-Gets the total count of instantiated Cell objects.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the total count of instantiated Cell objects.
 
 ```javascript
 getCount() : number;
@@ -303,7 +646,7 @@ getCount() : number;
 
 ### getCountLarge() {#getCountLarge--}
 
-Gets the total count of instantiated Cell objects.
+<b>@deprecated.</b> Please use the 'countLarge' property instead. Gets the total count of instantiated Cell objects.
 
 ```javascript
 getCountLarge() : number;
@@ -312,7 +655,7 @@ getCountLarge() : number;
 
 ### getRows() {#getRows--}
 
-Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet.
+<b>@deprecated.</b> Please use the 'rows' property instead. Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet.
 
 ```javascript
 getRows() : RowCollection;
@@ -325,7 +668,7 @@ getRows() : RowCollection;
 
 ### getMultiThreadReading() {#getMultiThreadReading--}
 
-Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+<b>@deprecated.</b> Please use the 'multiThreadReading' property instead. Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
 
 ```javascript
 getMultiThreadReading() : boolean;
@@ -338,7 +681,7 @@ If there are multiple threads to read Row/Cell objects in this collection concur
 
 ### setMultiThreadReading(boolean) {#setMultiThreadReading-boolean-}
 
-Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+<b>@deprecated.</b> Please use the 'multiThreadReading' property instead. Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
 
 ```javascript
 setMultiThreadReading(value: boolean) : void;
@@ -355,7 +698,7 @@ If there are multiple threads to read Row/Cell objects in this collection concur
 
 ### getMemorySetting() {#getMemorySetting--}
 
-Gets or sets the memory usage option for this cells.
+<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells.
 
 ```javascript
 getMemorySetting() : MemorySetting;
@@ -368,7 +711,7 @@ getMemorySetting() : MemorySetting;
 
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
-Gets or sets the memory usage option for this cells.
+<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells.
 
 ```javascript
 setMemorySetting(value: MemorySetting) : void;
@@ -381,7 +724,7 @@ setMemorySetting(value: MemorySetting) : void;
 
 ### getStyle() {#getStyle--}
 
-Gets and sets the default style of the worksheet.
+<b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet.
 
 ```javascript
 getStyle() : Style;
@@ -394,7 +737,7 @@ getStyle() : Style;
 
 ### setStyle(Style) {#setStyle-style-}
 
-Gets and sets the default style of the worksheet.
+<b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet.
 
 ```javascript
 setStyle(value: Style) : void;
@@ -407,7 +750,7 @@ setStyle(value: Style) : void;
 
 ### getStandardWidthInch() {#getStandardWidthInch--}
 
-Gets or sets the default column width in the worksheet, in unit of inches.
+<b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches.
 
 ```javascript
 getStandardWidthInch() : number;
@@ -416,7 +759,7 @@ getStandardWidthInch() : number;
 
 ### setStandardWidthInch(number) {#setStandardWidthInch-number-}
 
-Gets or sets the default column width in the worksheet, in unit of inches.
+<b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches.
 
 ```javascript
 setStandardWidthInch(value: number) : void;
@@ -429,7 +772,7 @@ setStandardWidthInch(value: number) : void;
 
 ### getStandardWidthPixels() {#getStandardWidthPixels--}
 
-Gets or sets the default column width in the worksheet, in unit of pixels.
+<b>@deprecated.</b> Please use the 'standardWidthPixels' property instead. Gets or sets the default column width in the worksheet, in unit of pixels.
 
 ```javascript
 getStandardWidthPixels() : number;
@@ -438,7 +781,7 @@ getStandardWidthPixels() : number;
 
 ### setStandardWidthPixels(number) {#setStandardWidthPixels-number-}
 
-Gets or sets the default column width in the worksheet, in unit of pixels.
+<b>@deprecated.</b> Please use the 'standardWidthPixels' property instead. Gets or sets the default column width in the worksheet, in unit of pixels.
 
 ```javascript
 setStandardWidthPixels(value: number) : void;
@@ -451,7 +794,7 @@ setStandardWidthPixels(value: number) : void;
 
 ### getStandardWidth() {#getStandardWidth--}
 
-Gets or sets the default column width in the worksheet, in unit of characters.
+<b>@deprecated.</b> Please use the 'standardWidth' property instead. Gets or sets the default column width in the worksheet, in unit of characters.
 
 ```javascript
 getStandardWidth() : number;
@@ -460,7 +803,7 @@ getStandardWidth() : number;
 
 ### setStandardWidth(number) {#setStandardWidth-number-}
 
-Gets or sets the default column width in the worksheet, in unit of characters.
+<b>@deprecated.</b> Please use the 'standardWidth' property instead. Gets or sets the default column width in the worksheet, in unit of characters.
 
 ```javascript
 setStandardWidth(value: number) : void;
@@ -473,7 +816,7 @@ setStandardWidth(value: number) : void;
 
 ### getStandardHeight() {#getStandardHeight--}
 
-Gets or sets the default row height in this worksheet, in unit of points.
+<b>@deprecated.</b> Please use the 'standardHeight' property instead. Gets or sets the default row height in this worksheet, in unit of points.
 
 ```javascript
 getStandardHeight() : number;
@@ -482,7 +825,7 @@ getStandardHeight() : number;
 
 ### setStandardHeight(number) {#setStandardHeight-number-}
 
-Gets or sets the default row height in this worksheet, in unit of points.
+<b>@deprecated.</b> Please use the 'standardHeight' property instead. Gets or sets the default row height in this worksheet, in unit of points.
 
 ```javascript
 setStandardHeight(value: number) : void;
@@ -495,7 +838,7 @@ setStandardHeight(value: number) : void;
 
 ### getStandardHeightPixels() {#getStandardHeightPixels--}
 
-Gets or sets the default row height in this worksheet, in unit of pixels.
+<b>@deprecated.</b> Please use the 'standardHeightPixels' property instead. Gets or sets the default row height in this worksheet, in unit of pixels.
 
 ```javascript
 getStandardHeightPixels() : number;
@@ -504,7 +847,7 @@ getStandardHeightPixels() : number;
 
 ### setStandardHeightPixels(number) {#setStandardHeightPixels-number-}
 
-Gets or sets the default row height in this worksheet, in unit of pixels.
+<b>@deprecated.</b> Please use the 'standardHeightPixels' property instead. Gets or sets the default row height in this worksheet, in unit of pixels.
 
 ```javascript
 setStandardHeightPixels(value: number) : void;
@@ -517,7 +860,7 @@ setStandardHeightPixels(value: number) : void;
 
 ### getStandardHeightInch() {#getStandardHeightInch--}
 
-Gets or sets the default row height in this worksheet, in unit of inches.
+<b>@deprecated.</b> Please use the 'standardHeightInch' property instead. Gets or sets the default row height in this worksheet, in unit of inches.
 
 ```javascript
 getStandardHeightInch() : number;
@@ -526,7 +869,7 @@ getStandardHeightInch() : number;
 
 ### setStandardHeightInch(number) {#setStandardHeightInch-number-}
 
-Gets or sets the default row height in this worksheet, in unit of inches.
+<b>@deprecated.</b> Please use the 'standardHeightInch' property instead. Gets or sets the default row height in this worksheet, in unit of inches.
 
 ```javascript
 setStandardHeightInch(value: number) : void;
@@ -539,7 +882,7 @@ setStandardHeightInch(value: number) : void;
 
 ### getPreserveString() {#getPreserveString--}
 
-Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
+<b>@deprecated.</b> Please use the 'preserveString' property instead. Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
 
 ```javascript
 getPreserveString() : boolean;
@@ -548,7 +891,7 @@ getPreserveString() : boolean;
 
 ### setPreserveString(boolean) {#setPreserveString-boolean-}
 
-Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
+<b>@deprecated.</b> Please use the 'preserveString' property instead. Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false.
 
 ```javascript
 setPreserveString(value: boolean) : void;
@@ -561,16 +904,20 @@ setPreserveString(value: boolean) : void;
 
 ### getMinRow() {#getMinRow--}
 
-Minimum row index of cell which contains data or style.
+<b>@deprecated.</b> Please use the 'minRow' property instead. Minimum row index of cell which contains data or style.
 
 ```javascript
 getMinRow() : number;
 ```
 
 
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
 ### getMaxRow() {#getMaxRow--}
 
-Maximum row index of cell which contains data or style.
+<b>@deprecated.</b> Please use the 'maxRow' property instead. Maximum row index of cell which contains data or style.
 
 ```javascript
 getMaxRow() : number;
@@ -579,20 +926,24 @@ getMaxRow() : number;
 
 **Remarks**
 
-Return -1 if there is no cell which contains data or style in the worksheet.
+Return -1 if there is no cell which contains data or style in the worksheet. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### getMinColumn() {#getMinColumn--}
 
-Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+<b>@deprecated.</b> Please use the 'minColumn' property instead. Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
 
 ```javascript
 getMinColumn() : number;
 ```
 
 
+**Remarks**
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
+
 ### getMaxColumn() {#getMaxColumn--}
 
-Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+<b>@deprecated.</b> Please use the 'maxColumn' property instead. Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
 
 ```javascript
 getMaxColumn() : number;
@@ -605,7 +956,7 @@ Return -1 if there is no cell has been instantiated.
 
 ### getMinDataRow() {#getMinDataRow--}
 
-Minimum row index of cell which contains data.
+<b>@deprecated.</b> Please use the 'minDataRow' property instead. Minimum row index of cell which contains data.
 
 ```javascript
 getMinDataRow() : number;
@@ -614,11 +965,11 @@ getMinDataRow() : number;
 
 **Remarks**
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### getMaxDataRow() {#getMaxDataRow--}
 
-Maximum row index of cell which contains data.
+<b>@deprecated.</b> Please use the 'maxDataRow' property instead. Maximum row index of cell which contains data.
 
 ```javascript
 getMaxDataRow() : number;
@@ -627,11 +978,11 @@ getMaxDataRow() : number;
 
 **Remarks**
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### getMinDataColumn() {#getMinDataColumn--}
 
-Minimum column index of cell which contains data.
+<b>@deprecated.</b> Please use the 'minDataColumn' property instead. Minimum column index of cell which contains data.
 
 ```javascript
 getMinDataColumn() : number;
@@ -640,11 +991,11 @@ getMinDataColumn() : number;
 
 **Remarks**
 
--1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### getMaxDataColumn() {#getMaxDataColumn--}
 
-Maximum column index of cell which contains data.
+<b>@deprecated.</b> Please use the 'maxDataColumn' property instead. Maximum column index of cell which contains data.
 
 ```javascript
 getMaxDataColumn() : number;
@@ -653,11 +1004,11 @@ getMaxDataColumn() : number;
 
 **Remarks**
 
--1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### isDefaultRowHeightMatched() {#isDefaultRowHeightMatched--}
 
-Indicates that row height and default font height matches
+<b>@deprecated.</b> Please use the 'isDefaultRowHeightMatched' property instead. Indicates that row height and default font height matches
 
 ```javascript
 isDefaultRowHeightMatched() : boolean;
@@ -666,7 +1017,7 @@ isDefaultRowHeightMatched() : boolean;
 
 ### setIsDefaultRowHeightMatched(boolean) {#setIsDefaultRowHeightMatched-boolean-}
 
-Indicates that row height and default font height matches
+<b>@deprecated.</b> Please use the 'isDefaultRowHeightMatched' property instead. Indicates that row height and default font height matches
 
 ```javascript
 setIsDefaultRowHeightMatched(value: boolean) : void;
@@ -679,7 +1030,7 @@ setIsDefaultRowHeightMatched(value: boolean) : void;
 
 ### isDefaultRowHidden() {#isDefaultRowHidden--}
 
-Indicates whether the row is default hidden.
+<b>@deprecated.</b> Please use the 'isDefaultRowHidden' property instead. Indicates whether the row is default hidden.
 
 ```javascript
 isDefaultRowHidden() : boolean;
@@ -688,7 +1039,7 @@ isDefaultRowHidden() : boolean;
 
 ### setIsDefaultRowHidden(boolean) {#setIsDefaultRowHidden-boolean-}
 
-Indicates whether the row is default hidden.
+<b>@deprecated.</b> Please use the 'isDefaultRowHidden' property instead. Indicates whether the row is default hidden.
 
 ```javascript
 setIsDefaultRowHidden(value: boolean) : void;
@@ -701,7 +1052,7 @@ setIsDefaultRowHidden(value: boolean) : void;
 
 ### getColumns() {#getColumns--}
 
-Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet.
+<b>@deprecated.</b> Please use the 'columns' property instead. Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet.
 
 ```javascript
 getColumns() : ColumnCollection;
@@ -714,7 +1065,7 @@ getColumns() : ColumnCollection;
 
 ### getRanges() {#getRanges--}
 
-Gets the collection of [Range](../range/) objects created at run time.
+<b>@deprecated.</b> Please use the 'ranges' property instead. Gets the collection of [Range](../range/) objects created at run time.
 
 ```javascript
 getRanges() : RangeCollection;
@@ -727,7 +1078,7 @@ getRanges() : RangeCollection;
 
 ### getLastCell() {#getLastCell--}
 
-Gets the last cell in this worksheet.
+<b>@deprecated.</b> Please use the 'lastCell' property instead. Gets the last cell in this worksheet.
 
 ```javascript
 getLastCell() : Cell;
@@ -744,7 +1095,7 @@ Returns null if there is no data in the worksheet.
 
 ### getMaxDisplayRange() {#getMaxDisplayRange--}
 
-Gets the max range which includes data, merged cells and shapes.
+<b>@deprecated.</b> Please use the 'maxDisplayRange' property instead. Gets the max range which includes data, merged cells and shapes.
 
 ```javascript
 getMaxDisplayRange() : Range;
@@ -761,7 +1112,7 @@ Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
 
 ### getFirstCell() {#getFirstCell--}
 
-Gets the first cell in this worksheet.
+<b>@deprecated.</b> Please use the 'firstCell' property instead. Gets the first cell in this worksheet.
 
 ```javascript
 getFirstCell() : Cell;
@@ -1680,11 +2031,11 @@ setColumnWidth(column: number, width: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | number | Column index. |
-| width | number | Width of column.Column width must be between 0 and 255. |
+| width | number | Width of column in unit of characters.Column width must be between 0 and 255. |
 
 **Remarks**
 
-To hide a column, sets column width to zero.
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 ### getColumnWidthPixel(number) {#getColumnWidthPixel-number-}
 

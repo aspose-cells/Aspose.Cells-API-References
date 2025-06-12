@@ -23,8 +23,37 @@ public bool IsTripleState { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.IsTripleState = false;
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ToggleButtonActiveXControlPropertyIsTripleStateDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ToggleButton ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ToggleButton, 1, 0, 1, 0, 100, 30);
+            var toggleButton = (Aspose.Cells.Drawing.ActiveXControls.ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Set IsTripleState property to true
+            toggleButton.IsTripleState = true;
+            Console.WriteLine("ToggleButton IsTripleState: " + toggleButton.IsTripleState);
+
+            // Change IsTripleState property to false
+            toggleButton.IsTripleState = false;
+            Console.WriteLine("ToggleButton IsTripleState: " + toggleButton.IsTripleState);
+
+            // Save the workbook
+            workbook.Save("ToggleButtonIsTripleStateDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

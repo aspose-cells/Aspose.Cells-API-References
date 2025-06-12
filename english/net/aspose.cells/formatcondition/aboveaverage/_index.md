@@ -16,22 +16,53 @@ public AboveAverage AboveAverage { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
-public void FormatCondition_Property_AboveAverage()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
-    Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
-    Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
-    Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
-    Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    cfs = workbook.Worksheets[0].ConditionalFormattings;
-    Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
-    Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
-    Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
-    Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
+    public class FormatConditionPropertyAboveAverageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+            worksheet.Cells["A5"].PutValue(50);
+
+            // Add above average conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            fcc.AddCondition(FormatConditionType.AboveAverage);
+            fcc.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 4, EndColumn = 0 });
+
+            // Set to highlight above average values
+            FormatCondition fc = fcc[0];
+            fc.AboveAverage.IsAboveAverage = true;
+            fc.Style.BackgroundColor = Color.Yellow;
+
+            // Add below average conditional formatting
+            index = worksheet.ConditionalFormattings.Add();
+            fcc = worksheet.ConditionalFormattings[index];
+            fcc.AddCondition(FormatConditionType.AboveAverage);
+            fcc.AddArea(new CellArea { StartRow = 0, StartColumn = 1, EndRow = 4, EndColumn = 1 });
+
+            // Set to highlight below average values
+            fc = fcc[0];
+            fc.AboveAverage.IsAboveAverage = false;
+            fc.Style.BackgroundColor = Color.LightBlue;
+
+            // Save the workbook
+            workbook.Save("AboveAverageConditionDemo.xlsx");
+        }
+    }
 }
 ```
 

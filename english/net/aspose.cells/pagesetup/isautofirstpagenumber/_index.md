@@ -16,33 +16,36 @@ public bool IsAutoFirstPageNumber { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-public void PageSetup_Property_IsAutoFirstPageNumber()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-    workbook = Util.ReSave(workbook, SaveFormat.Ods);
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-    workbook = Util.ReSave(workbook, SaveFormat.Html);
-    //Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-    //Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-    //Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+    public class PageSetupPropertyIsAutoFirstPageNumberDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set page setup properties
+            worksheet.PageSetup.IsAutoFirstPageNumber = true;
+            Console.WriteLine("Auto First Page Number (Worksheet 1): " + worksheet.PageSetup.IsAutoFirstPageNumber);
+
+            // Add a second worksheet
+            worksheet = workbook.Worksheets.Add("Sheet2");
+            worksheet.PageSetup.IsAutoFirstPageNumber = false;
+            worksheet.PageSetup.FirstPageNumber = 3;
+            Console.WriteLine("Auto First Page Number (Worksheet 2): " + worksheet.PageSetup.IsAutoFirstPageNumber);
+            Console.WriteLine("First Page Number (Worksheet 2): " + worksheet.PageSetup.FirstPageNumber);
+
+            // Save the workbook
+            workbook.Save("PageSetup_IsAutoFirstPageNumber_Example.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

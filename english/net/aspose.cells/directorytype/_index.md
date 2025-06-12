@@ -25,9 +25,7 @@ public enum DirectoryType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

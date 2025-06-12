@@ -24,11 +24,46 @@ public class PageEndSavingArgs : PageSavingArgs
 ### Examples
 
 ```csharp
-// Called: public void PageEndSaving(PageEndSavingArgs args)
-public void Rendering_Type_PageEndSavingArgs(PageEndSavingArgs args)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingClassPageEndSavingArgsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data to the worksheet
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Create an instance of PdfSaveOptions
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            
+            // Set the PageEndSaving callback
+            saveOptions.PageSavingCallback = new PageEndSavingArgsTest();
+
+            // Save the workbook with the callback
+            workbook.Save("output.pdf", saveOptions);
+        }
+    }
+
+    public class PageEndSavingArgsTest : IPageSavingCallback
+    {
+        public void PageEndSaving(PageEndSavingArgs args)
         {
             Console.WriteLine($"Finished saving page {args.PageIndex}");
         }
+
+        public void PageStartSaving(PageStartSavingArgs args)
+        {
+            // Implementation not needed for this demo
+        }
+    }
+}
 ```
 
 ### See Also

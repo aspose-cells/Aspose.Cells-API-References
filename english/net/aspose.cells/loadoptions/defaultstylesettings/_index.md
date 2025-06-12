@@ -16,24 +16,45 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
-public void LoadOptions_Property_DefaultStyleSettings()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET51595_";
-    string savePath = CreateFolder(filePath);
-
-    LoadOptions loadOptions = new LoadOptions(FileFormatUtil.DetectFileFormat(filePath + "book.xlsm").LoadFormat);
-    loadOptions.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
-    Workbook workbook = new Workbook(filePath + "book.xlsm", loadOptions);
-
-    PdfSaveOptions saveOptions = new PdfSaveOptions();
-    workbook.Save(savePath + "out.pdf", saveOptions);
-
-    Cell o10 = workbook.Worksheets[0].Cells["O10"];
-    Assert.AreEqual(o10.GetStyle().VerticalAlignment, TextAlignmentType.Center);
-
-    Cell a7 = workbook.Worksheets[0].Cells["A7"];
-    Assert.AreEqual(a7.GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
+    public class LoadOptionsPropertyDefaultStyleSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set load options with default style settings
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
+            loadOptions.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
+            
+            // Create a worksheet and get cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Set values to demonstrate default style
+            cells["A1"].PutValue("Default Style Applied");
+            cells["A2"].PutValue("Should have bottom alignment");
+            
+            // Create a cell with custom style (to contrast with default)
+            Cell customCell = cells["B1"];
+            customCell.PutValue("Custom Style");
+            Style customStyle = customCell.GetStyle();
+            customStyle.VerticalAlignment = TextAlignmentType.Center;
+            customCell.SetStyle(customStyle);
+            
+            // Save the workbook
+            workbook.Save("DefaultStyleSettingsDemo.xlsx");
+            
+            // Verify the styles
+            Console.WriteLine("A1 Vertical Alignment: " + cells["A1"].GetStyle().VerticalAlignment);
+            Console.WriteLine("B1 Vertical Alignment: " + cells["B1"].GetStyle().VerticalAlignment);
+        }
+    }
 }
 ```
 

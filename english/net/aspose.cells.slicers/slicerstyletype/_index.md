@@ -36,80 +36,51 @@ public enum SlicerStyleType
 ### Examples
 
 ```csharp
-// Called: slicer.StyleType = SlicerStyleType.SlicerStyleDark1;
-public void Slicers_Type_SlicerStyleType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET44455_";
-
-    Workbook wb = null;
-    wb = new Workbook(filePath + "issue.xlsx");
-    wb.Save(CreateFolder(filePath) + "issue_out.pdf");
-
-    wb = new Workbook(filePath + "aaa.xlsx");
-    wb.Save(CreateFolder(filePath) + "aaa_out.pdf");
-    wb = new Workbook(filePath + "bbb.xlsx");
-    wb.Settings.GlobalizationSettings.PivotSettings = new CustomGlobal44455();
-    wb.Save(CreateFolder(filePath) + "bbb_out.pdf");
-
-    #region read and write for xlsb and xlsx
-    wb = new Workbook(filePath + "slicer.xlsx");
-    wb.Save(CreateFolder(filePath) + "slicer_out.xlsx");
-    wb = new Workbook(filePath + "slicer.xlsb");
-    wb.Save(CreateFolder(filePath) + "slicer_out.xlsb");
-    #endregion
-
-    #region conversion between xlsb and xlsx
-    wb = new Workbook(filePath + "slicer.xlsx");
-    wb.Save(CreateFolder(filePath) + "slicer_out1.xlsx");
-    wb.Save(CreateFolder(filePath) + "slicer_out1.xlsb");//ok
-    wb.Save(Constants.PivotTableDestPath + @"example.html");
-    wb = new Workbook(filePath + "slicer.xlsb");
-    wb.Save(CreateFolder(filePath) + "slicer_out2.xlsx");//ok
-    wb.Save(CreateFolder(filePath) + "slicer_out2.xlsb");
-    #endregion
-
-
-    #region create slicer
-    wb = new Workbook(filePath + "a.xlsx");
-    Worksheet sheet = wb.Worksheets[0];
-    PivotTable pivot = sheet.PivotTables[0];
-    int index = sheet.Slicers.Add(pivot, "A10", pivot.BaseFields[0]);
-    Slicer slicer = sheet.Slicers[index];
-    slicer.NumberOfColumns = 2;
-    slicer.StyleType = SlicerStyleType.SlicerStyleDark1;
-
-
-    wb.Save(CreateFolder(filePath) + "a_createSlicer.xlsx");
-    wb.Save(CreateFolder(filePath) + "a_createSlicer.xlsb");
-    wb.Save(CreateFolder(filePath) + "a_createSlicer.pdf");
-
-    SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
-    int itemCount = items.Count;
-    for (int i = 0; i < itemCount; i++)
+    public class SlicersClassSlicerStyleTypeDemo
     {
-        SlicerCacheItem item = items[i];
-        //only select partial items 
-        if (i % 2 == 0)
+        public static void Run()
         {
-            item.Selected = false;
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Create sample data for pivot table
+            sheet.Cells["A1"].Value = "Fruit";
+            sheet.Cells["A2"].Value = "Apple";
+            sheet.Cells["A3"].Value = "Orange";
+            sheet.Cells["A4"].Value = "Banana";
+            sheet.Cells["A5"].Value = "Apple";
+            sheet.Cells["B1"].Value = "Quantity";
+            sheet.Cells["B2"].Value = 10;
+            sheet.Cells["B3"].Value = 15;
+            sheet.Cells["B4"].Value = 8;
+            sheet.Cells["B5"].Value = 12;
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add slicer
+            int slicerIndex = sheet.Slicers.Add(pivot, "G1", pivot.BaseFields[0]);
+            Slicer slicer = sheet.Slicers[slicerIndex];
+            
+            // Set slicer style
+            slicer.StyleType = SlicerStyleType.SlicerStyleDark1;
+            slicer.NumberOfColumns = 2;
+
+            // Save the workbook
+            wb.Save("SlicerStyleTypeDemo.xlsx");
         }
     }
-    slicer.Refresh();
-
-    wb.Save(CreateFolder(filePath) + "a_updateSlicer.xlsx");
-    wb.Save(CreateFolder(filePath) + "a_updateSlicer.xlsb");
-    wb.Save(CreateFolder(filePath) + "a_updateSlicer.pdf");
-
-    sheet.Slicers.Remove(slicer);
-    wb.Save(CreateFolder(filePath) + "a_removeSlicer.xlsx");
-    wb.Save(CreateFolder(filePath) + "a_removeSlicer.xlsb");
-    wb.Save(CreateFolder(filePath) + "a_removeSlicer.pdf");
-    #endregion
-
-    #region chart issue
-    wb = new Workbook(filePath + "chart.xlsx");
-    wb.Save(CreateFolder(filePath) + "chart_toXls.xls");
-    #endregion
 }
 ```
 

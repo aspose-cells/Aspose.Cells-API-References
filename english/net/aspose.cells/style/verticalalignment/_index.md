@@ -16,16 +16,40 @@ public TextAlignmentType VerticalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(style.VerticalAlignment, TextAlignmentType.Bottom);
-public void Style_Property_VerticalAlignment()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "FK1.xls");
-    // workbook.ConvertNumericData = false;
-    //
+using System;
+using Aspose.Cells;
 
-    Style style = workbook.GetNamedStyle("Normal");
-          
-    Assert.AreEqual(style.VerticalAlignment, TextAlignmentType.Bottom);
+namespace AsposeCellsExamples
+{
+    public class StylePropertyVerticalAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell A1
+            Cell cell = worksheet.Cells["A1"];
+            
+            // Set the cell value
+            cell.PutValue("Vertical Alignment Demo");
+            
+            // Access the cell's style
+            Style style = cell.GetStyle();
+            
+            // Set vertical alignment to Top
+            style.VerticalAlignment = TextAlignmentType.Top;
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("VerticalAlignmentDemo.xlsx");
+            
+            Console.WriteLine("Vertical alignment set to Top for cell A1.");
+        }
+    }
 }
 ```
 

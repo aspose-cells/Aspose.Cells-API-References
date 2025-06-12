@@ -16,17 +16,31 @@ public SlideViewType ExportViewType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportViewType = Aspose.Cells.Slides.SlideViewType.View;
-public void PptxSaveOptions_Property_ExportViewType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Slides;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PptxSaveOptions saveOptions = new PptxSaveOptions();
-    saveOptions.ExportViewType = Aspose.Cells.Slides.SlideViewType.View;
-    //globalImageId = 1;
-    workbook.Save(Constants.destPath + "example.pptx", saveOptions);
-    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
-    Assert.IsTrue(slide1.IndexOf("<a:gridCol w=\"847725\">") != -1);
-    Assert.IsTrue(slide1.IndexOf("a:lnR w=\"6350\"") != -1);
+    public class PptxSaveOptionsPropertyExportViewTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            
+            // Set PPTX save options with ExportViewType
+            PptxSaveOptions saveOptions = new PptxSaveOptions();
+            saveOptions.ExportViewType = SlideViewType.View;
+            
+            // Save the workbook as PPTX
+            workbook.Save("output.pptx", saveOptions);
+            
+            Console.WriteLine("Workbook saved as PPTX with ExportViewType set to View");
+        }
+    }
 }
 ```
 

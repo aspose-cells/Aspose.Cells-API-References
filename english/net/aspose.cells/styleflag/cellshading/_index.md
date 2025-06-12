@@ -16,19 +16,32 @@ public bool CellShading { get; set; }
 ### Examples
 
 ```csharp
-// Called: flag.CellShading = true;
-public void StyleFlag_Property_CellShading()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    StyleFlag flag = new StyleFlag();
-    flag.CellShading = true;
-    Style style = workbook.CreateStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = Color.Red;
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("sdfsdfsdf");
-    cells.ApplyRowStyle(0, style, flag);
-    Assert.AreEqual(cells["A1"].GetStyle().Pattern, BackgroundType.Solid);
+    public class StyleFlagPropertyCellShadingDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            StyleFlag flag = new StyleFlag();
+            flag.CellShading = true;
+            
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = Color.Red;
+            
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["A1"].PutValue("Test Cell Shading");
+            
+            cells.ApplyStyle(style, flag);
+            
+            workbook.Save("CellShadingDemo.xlsx");
+        }
+    }
 }
 ```
 

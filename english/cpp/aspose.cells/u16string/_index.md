@@ -4,7 +4,7 @@ linktitle: U16String
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::U16String class. Represents the char16_t array class and ends with u''\0'' in C++.'
 type: docs
-weight: 15100
+weight: 15500
 url: /cpp/aspose.cells/u16string/
 ---
 ## U16String class
@@ -38,9 +38,9 @@ class U16String
 | [ToUtf8()](./toutf8/) const | Converts this to std::string in UTF8 format. The result does not end with '\0'. |
 | [Trim()](./trim/) const | Trims leading and trailing spaces in this. |
 | [U16String()](./u16string/) | Default constructor. Constructs an empty [U16String](./) object. |
-| [U16String(const char* str)](./u16string/) | Constructs from an const char* string. |
-| [U16String(const char16_t* ustr)](./u16string/) | Constructs from an const char16_t* string. |
-| [U16String(const char16_t* ustr, int32_t len)](./u16string/) | Constructs from const char16_t* string with specified length. |
+| [U16String(const char* str)](./u16string/) | Constructs from a const char* string. |
+| [U16String(const char16_t* ustr)](./u16string/) | Constructs from a const char16_t* string. |
+| [U16String(const char16_t* ustr, int32_t len)](./u16string/) | Constructs from a const char16_t* string with specified length. |
 | [U16String(const U16String\& src)](./u16string/) | Copy constructor. |
 | [~U16String()](./~u16string/) | Destructor. |
 ## See Also

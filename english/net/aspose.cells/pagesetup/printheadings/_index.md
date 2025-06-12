@@ -16,24 +16,46 @@ public bool PrintHeadings { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.PageSetup.PrintHeadings = true;
-private void PageSetup_Property_PrintHeadings(string filePath, Worksheet worksheet, int pageNumber, string printArea)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPrintHeadingsDemo
+    {
+        public static void Run()
         {
-            worksheet.IsSelected = true;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some sample data with headings
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(1.8);
+
+            // Enable printing of headings
             worksheet.PageSetup.PrintHeadings = true;
-            worksheet.PageSetup.PrintArea = printArea;
+            worksheet.PageSetup.PrintArea = "A1:B3";
 
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportActiveWorksheetOnly = true;
-            saveOptions.ExportPrintAreaOnly = true;
-            saveOptions.ExportGridLines = true;
-            saveOptions.ExportHeadings = true;
-            saveOptions.ExportSingleTab = true;
+            // Save as HTML to demonstrate the effect
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions
+            {
+                ExportActiveWorksheetOnly = true,
+                ExportPrintAreaOnly = true,
+                ExportGridLines = true,
+                ExportHeadings = true
+            };
 
-            string outputFilePath = filePath + "out_" + pageNumber + ".html";
+            workbook.Save("PrintHeadingsDemo.html", saveOptions);
 
-            worksheet.Workbook.Save(outputFilePath, saveOptions);
+            Console.WriteLine("Worksheet saved with PrintHeadings enabled.");
         }
+    }
+}
 ```
 
 ### See Also

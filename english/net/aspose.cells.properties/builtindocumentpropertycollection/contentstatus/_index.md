@@ -16,32 +16,34 @@ public string ContentStatus { get; set; }
 ### Examples
 
 ```csharp
-// Called: ContentStatus = "contentStatus",
-    public void BuiltInDocumentPropertyCollection_Property_ContentStatus()
-    {
-        var wb = new Workbook()
-        {
-            BuiltInDocumentProperties =
-{
-    Author = "author",
-    Title = "title",
-    Comments = "comments",
-    Keywords = "keywords",
-    LastSavedBy = "lastSavedBy",
-    Manager = "manager",
-    Company = "company",
-    Category = "category",
-    Subject = "subject",
-    ContentStatus = "contentStatus",
-    HyperlinkBase = "hyperlinkBase",
-    Template = "template",
-}
-        };
+using System;
+using Aspose.Cells;
 
-        wb.Settings.Password = "1";
-        wb.Save(Constants.destPath + @"example.xls", new XlsSaveOptions()
-        { EncryptDocumentProperties = true });
+namespace AsposeCellsExamples
+{
+    public class BuiltInDocumentPropertyCollectionPropertyContentStatusDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Set built-in document properties including ContentStatus
+            workbook.BuiltInDocumentProperties.ContentStatus = "Draft";
+            workbook.BuiltInDocumentProperties.Author = "John Doe";
+            workbook.BuiltInDocumentProperties.Title = "Sample Document";
+
+            // Save the workbook
+            workbook.Save("DocumentWithContentStatus.xlsx", SaveFormat.Xlsx);
+
+            // Load the saved workbook to verify properties
+            Workbook loadedWorkbook = new Workbook("DocumentWithContentStatus.xlsx");
+            
+            // Display the ContentStatus property
+            Console.WriteLine("Content Status: " + loadedWorkbook.BuiltInDocumentProperties.ContentStatus);
+        }
     }
+}
 ```
 
 ### See Also

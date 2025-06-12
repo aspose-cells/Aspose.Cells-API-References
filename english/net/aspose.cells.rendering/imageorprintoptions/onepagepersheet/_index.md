@@ -16,16 +16,42 @@ public bool OnePagePerSheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: _saveOptions.OnePagePerSheet = true;
-private ImageOrPrintOptions ImageOrPrintOptions_Property_OnePagePerSheet()
-        {
-            ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
-            _saveOptions.OnePagePerSheet = true;
-            _saveOptions.ImageType = ImageType.Png;
-            _saveOptions.TextCrossType = TextCrossType.Default;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-            return _saveOptions;
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyOnePagePerSheetDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Sample Data for OnePagePerSheet Demo");
+            for (int i = 1; i <= 10; i++)
+            {
+                worksheet.Cells["A" + (i + 1)].PutValue("Row " + i);
+            }
+
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true; // Key property being demonstrated
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            
+            // Create sheet render
+            SheetRender sr = new SheetRender(worksheet, options);
+            
+            // Save the output image
+            sr.ToImage(0, "OnePagePerSheetOutput.png");
+            
+            Console.WriteLine("Output saved with OnePagePerSheet=true");
         }
+    }
+}
 ```
 
 ### See Also

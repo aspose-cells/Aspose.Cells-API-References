@@ -16,21 +16,53 @@ public Cells Cells { get; }
 ### Examples
 
 ```csharp
-// Called: Cells cells = wb.Worksheets[0].Cells;
-public void Worksheet_Property_Cells()
-{
-    //formula(range) error
-    Workbook wb = new Workbook(Constants.sourcePath + "example.numbers");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    Cells cells = wb.Worksheets[0].Cells;
-    Assert.AreEqual("3976.2", cells["E31"].StringValue);
-    Assert.AreEqual("=SUM(E3:E29)", cells["E31"].Formula);
-    Assert.AreEqual("166", cells["E3"].StringValue);
-    Assert.AreEqual("79.8", cells["E29"].StringValue);
-    Assert.AreEqual("170", cells["C23"].StringValue);
-    Assert.AreEqual("2.66", cells["D13"].StringValue);
-    //check foregroundColor for the first line and row...
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyCellsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cells collection
+            Cells cells = worksheet.Cells;
+            
+            // Set values in cells
+            cells["A1"].PutValue("Item");
+            cells["B1"].PutValue("Price");
+            cells["A2"].PutValue("Apple");
+            cells["B2"].PutValue(2.5);
+            cells["A3"].PutValue("Orange");
+            cells["B3"].PutValue(1.8);
+            
+            // Set formula to calculate total
+            cells["A4"].PutValue("Total:");
+            cells["B4"].Formula = "=SUM(B2:B3)";
+            
+            // Calculate formulas
+            workbook.CalculateFormula();
+            
+            // Display cell values
+            Console.WriteLine("A1: " + cells["A1"].StringValue);
+            Console.WriteLine("B1: " + cells["B1"].StringValue);
+            Console.WriteLine("A2: " + cells["A2"].StringValue);
+            Console.WriteLine("B2: " + cells["B2"].StringValue);
+            Console.WriteLine("A3: " + cells["A3"].StringValue);
+            Console.WriteLine("B3: " + cells["B3"].StringValue);
+            Console.WriteLine("A4: " + cells["A4"].StringValue);
+            Console.WriteLine("B4: " + cells["B4"].StringValue + " (Formula: " + cells["B4"].Formula + ")");
+            
+            // Save workbook
+            workbook.Save("CellsPropertyDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

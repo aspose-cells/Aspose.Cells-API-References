@@ -16,48 +16,45 @@ public int LastRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: LastRow = 9 // Set the last row index of the table
-public static void TableToRangeOptions_Property_LastRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class TableToRangeOptionsPropertyLastRowDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
 
-            // Populate the worksheet with some data
-            for (int i = 0; i < 5; i++)
+            // Create sample data
+            for (int row = 0; row < 10; row++)
             {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row < 10; row++)
-            {
-                for (int column = 0; column < 5; column++)
+                for (int col = 0; col < 5; col++)
                 {
-                    cells[row, column].PutValue(row * column);
+                    cells[row, col].PutValue($"Data {row}-{col}");
                 }
             }
 
-            // Add a ListObject (table) to the worksheet
-            ListObjectCollection tables = worksheet.ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
+            // Create table
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 9, 4, true);
+            ListObject table = worksheet.ListObjects[tableIndex];
+            table.TableStyleType = Aspose.Cells.Tables.TableStyleType.TableStyleMedium2;
 
-            // Set some properties of the table
-            table.ShowTotals = true;
-            table.ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
-
-            // Create an instance of TableToRangeOptions
+            // Convert table to range with LastRow specified
             TableToRangeOptions options = new TableToRangeOptions
             {
-                LastRow = 9 // Set the last row index of the table
+                LastRow = 7 // Only convert rows 0-7 (excluding 8-9)
             };
-
-            // Convert the table to a range using the options
             table.ConvertToRange(options);
 
-            // Save the workbook
-            workbook.Save("TableToRangeOptionsExample.xlsx");
+            workbook.Save("TableToRangeWithLastRow.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

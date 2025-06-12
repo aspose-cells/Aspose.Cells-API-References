@@ -16,9 +16,33 @@ public MsoArrowheadWidth EndArrowheadWidth { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyEndArrowheadWidthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            Shape line = worksheet.Shapes.AddLine(10, 10, 100, 10, 5, 5);
+
+            // Get the line format
+            LineFormat lineFmt = line.Line;
+
+            // Set the end arrowhead width
+            lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+
+            // Save the workbook
+            workbook.Save("LineFormatPropertyEndArrowheadWidthDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -15,33 +15,38 @@ public PdfSecurityOptions()
 
 ### Examples
 
-The following code sets high resolution print permisson for the output pdf.
-
 ```csharp
-Workbook wb = new Workbook();
-wb.Worksheets[0].Cells["A1"].Value = "Aspose";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
 
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Cells["A1"].Value = "Aspose PDF Security Demo";
 
-
-PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
-
-//set owner password
-pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-
-//set user password
-pdfSecurityOptions.UserPassword = "YourUserPassword";
-
-//set print permisson
-pdfSecurityOptions.PrintPermission = true;
-
-//set high resolution for print
-pdfSecurityOptions.FullQualityPrintPermission = true;
-
-
-pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
-
-wb.Save("output.pdf", pdfSaveOptions);
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            
+            // Using #ctor to create PdfSecurityOptions instance
+            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
+            
+            pdfSecurityOptions.OwnerPassword = "owner123";
+            pdfSecurityOptions.UserPassword = "user123";
+            pdfSecurityOptions.PrintPermission = true;
+            pdfSecurityOptions.FullQualityPrintPermission = true;
+            
+            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+            
+            wb.Save("SecuredOutput.pdf", pdfSaveOptions);
+            
+            Console.WriteLine("PDF with security options created successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

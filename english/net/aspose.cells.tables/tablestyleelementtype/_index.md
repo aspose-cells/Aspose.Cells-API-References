@@ -51,76 +51,63 @@ public enum TableStyleElementType
 ### Examples
 
 ```csharp
-// Called: index1 = elements.Add(TableStyleElementType.LastColumn);
-public static void Tables_Type_TableStyleElementType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-            // Create styles for the first and last columns
+namespace AsposeCellsExamples
+{
+    public class TablesClassTableStyleElementTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
             Style firstColumnStyle = workbook.CreateStyle();
             firstColumnStyle.Pattern = BackgroundType.Solid;
-            firstColumnStyle.BackgroundColor = System.Drawing.Color.Red;
-
+            firstColumnStyle.ForegroundColor = System.Drawing.Color.LightBlue;
+            
             Style lastColumnStyle = workbook.CreateStyle();
             lastColumnStyle.Font.IsBold = true;
             lastColumnStyle.Pattern = BackgroundType.Solid;
-            lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
+            lastColumnStyle.ForegroundColor = System.Drawing.Color.LightGreen;
 
-            // Define a custom table style name
-            string tableStyleName = "Custom1";
-
-            // Access the table styles collection
+            string tableStyleName = "CustomStyle1";
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            int styleIndex = tableStyles.AddTableStyle(tableStyleName);
+            TableStyle tableStyle = tableStyles[styleIndex];
 
-            // Add a new table style to the collection
-            int index1 = tableStyles.AddTableStyle(tableStyleName);
-            TableStyle tableStyle = tableStyles[index1];
-
-            // Access the table style elements collection
             TableStyleElementCollection elements = tableStyle.TableStyleElements;
+            
+            int elementIndex = elements.Add(TableStyleElementType.FirstColumn);
+            elements[elementIndex].SetElementStyle(firstColumnStyle);
+            
+            elementIndex = elements.Add(TableStyleElementType.LastColumn);
+            elements[elementIndex].SetElementStyle(lastColumnStyle);
 
-            // Add and set style for the first column
-            index1 = elements.Add(TableStyleElementType.FirstColumn);
-            TableStyleElement element = elements[index1];
-            element.SetElementStyle(firstColumnStyle);
-
-            // Add and set style for the last column
-            index1 = elements.Add(TableStyleElementType.LastColumn);
-            element = elements[index1];
-            element.SetElementStyle(lastColumnStyle);
-
-            // Access the cells of the first worksheet
             Cells cells = workbook.Worksheets[0].Cells;
-
-            // Populate the first row with column names
             for (int i = 0; i < 5; i++)
             {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+                cells[0, i].PutValue($"Column {i + 1}");
             }
 
-            // Populate the rest of the cells with sample data
-            for (int row = 1; row < 10; row++)
+            for (int row = 1; row < 5; row++)
             {
-                for (int column = 0; column < 5; column++)
+                for (int col = 0; col < 5; col++)
                 {
-                    cells[row, column].PutValue(row * column);
+                    cells[row, col].PutValue(row * col);
                 }
             }
 
-            // Add a table to the worksheet
-            ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
-
-            // Apply the custom table style to the table
+            ListObject table = workbook.Worksheets[0].ListObjects[workbook.Worksheets[0].ListObjects.Add(0, 0, 4, 4, true)];
             table.ShowTableStyleFirstColumn = true;
             table.ShowTableStyleLastColumn = true;
             table.TableStyleName = tableStyleName;
 
-            // Save the workbook
-            workbook.Save("TableStyleExample.xlsx");
+            workbook.Save("TableStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

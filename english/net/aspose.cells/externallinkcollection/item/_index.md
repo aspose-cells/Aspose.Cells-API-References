@@ -24,21 +24,34 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Original Data Source:" + workbook.Worksheets.ExternalLinks[i].OriginalDataSource);
-        public void ExternalLinkCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ExternalLinkCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-            //for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
-            int i = 1;
+            // Create a workbook with sample external links
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some external links
+            worksheet.Cells["A1"].Formula = "='C:\\Temp\\External1.xlsx'!A1";
+            worksheet.Cells["A2"].Formula = "='C:\\Temp\\External2.xlsx'!B2";
+            
+            // Access external links using Item property
+            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
             {
-                Console.WriteLine((i + 1).ToString() + ". " + workbook.Worksheets.ExternalLinks[i].DataSource);
-#if !LINUX_TEST
-                Assert.IsTrue(workbook.Worksheets.ExternalLinks[i].DataSource.StartsWith("S:"));
-                Console.WriteLine("Original Data Source:" + workbook.Worksheets.ExternalLinks[i].OriginalDataSource);
-                //Console.WriteLine("ToString:" + workbook.Worksheets.ExternalLinks[i].ToString());
-#endif
+                ExternalLink link = workbook.Worksheets.ExternalLinks[i];
+                Console.WriteLine($"External Link {i + 1}:");
+                Console.WriteLine($"- DataSource: {link.DataSource}");
+                Console.WriteLine($"- OriginalDataSource: {link.OriginalDataSource}");
             }
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,87 +16,42 @@ public SelectionType SelectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.SelectionType = SelectionType.Single;
-public static void ListBox_Property_SelectionType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ListBoxPropertySelectionTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new Workbook.
+            // Create a new Workbook
             Workbook workbook = new Workbook();
-
-            // Get the first worksheet.
             Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for the list box
+            sheet.Cells["A1"].PutValue("Sales");
+            sheet.Cells["A2"].PutValue("Finance");
+            sheet.Cells["A3"].PutValue("MIS");
+            sheet.Cells["A4"].PutValue("R&D");
 
-            // Get the worksheet cells collection.
-            Cells cells = sheet.Cells;
+            // Add a list box
+            ListBox listBox = sheet.Shapes.AddListBox(1, 0, 2, 0, 100, 80);
+            
+            // Set list box properties
+            listBox.InputRange = "A1:A4";
+            listBox.LinkedCell = "B1";
+            
+            // Demonstrate SelectionType property
+            listBox.SelectionType = SelectionType.Single; // Only single selection allowed
+            listBox.SelectedIndex = 1; // Select "Finance"
 
-            // Input a value.
-            cells["B3"].PutValue("Choose Dept:");
-
-            // Set it bold.
-            Style style = cells["B3"].GetStyle();
-            style.Font.IsBold = true;
-            cells["B3"].SetStyle(style);
-
-            // Input some values that denote the input range for the list box.
-            cells["A2"].PutValue("Sales");
-            cells["A3"].PutValue("Finance");
-            cells["A4"].PutValue("MIS");
-            cells["A5"].PutValue("R&D");
-            cells["A6"].PutValue("Marketing");
-            cells["A7"].PutValue("HRA");
-
-            // Add a new list box.
-            ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
-
-            // Set the placement type.
-            listBox.Placement = PlacementType.FreeFloating;
-
-            // Set the linked cell.
-            listBox.LinkedCell = "A1";
-
-            // Set the input range.
-            listBox.InputRange = "A2:A7";
-
-            // Set the selection style.
-            listBox.SelectionType = SelectionType.Single;
-
-            // Set the list box with 3-D shading.
-            listBox.Shadow = true;
-
-            // Set additional properties
-            listBox.SelectedIndex = 2; // Select "MIS"
-            listBox.MacroName = "DoWork()";
-            listBox.ZOrderPosition = 3;
-            listBox.Name = "ListBox1";
-            listBox.AlternativeText = "Department Selection ListBox";
-            listBox.Title = "Department List";
-            listBox.SoftEdges = 0.5d;
-            listBox.IsHidden = false;
-            listBox.IsLockAspectRatio = true;
-            listBox.RotationAngle = 45;
-            listBox.IsPrintable = true;
-            listBox.AutoShapeType = AutoShapeType.Rectangle;
-            listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
-            listBox.UpperLeftRow = 2;
-            listBox.UpperLeftColumn = 1;
-            listBox.LowerRightRow = 10;
-            listBox.LowerRightColumn = 5;
-            listBox.Width = 200;
-            listBox.Height = 100;
-            listBox.Left = 50;
-            listBox.Top = 50;
-            listBox.Text = "Select a department";
-            listBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select a <b>department</b>.</Font>";
-            listBox.TextVerticalOverflow = TextOverflowType.Overflow;
-            listBox.TextHorizontalOverflow = TextOverflowType.Overflow;
-            listBox.IsTextWrapped = true;
-            listBox.TextOrientationType = TextOrientationType.TopToBottom;
-            listBox.TextHorizontalAlignment = TextAlignmentType.Center;
-            listBox.TextVerticalAlignment = TextAlignmentType.Center;
-            listBox.TextDirection = TextDirectionType.LeftToRight;
-
-            // Save the file.
-            workbook.Save("ListBoxExample.xlsx");
+            // Save the workbook
+            workbook.Save("ListBoxSelectionTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,16 +16,43 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
-public override void CalculationData_Property_Worksheet(CalculationData data)
-            {
-                CellRow = data.CellRow;
-                CellColumn = data.CellColumn;
-                BaseCell = data.Cell;
+using System;
+using Aspose.Cells;
 
-                data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
-                    "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
+namespace AsposeCellsExamples
+{
+    public class CalculationDataPropertyWorksheetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data in cells
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
+            worksheet.Cells["B2"].PutValue(5);
+            worksheet.Cells["B3"].PutValue(15);
+            worksheet.Cells["B4"].PutValue(25);
+
+            // Calculate array formula using Worksheet property
+            object result = worksheet.CalculateArrayFormula(
+                "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
+
+            // Output the result (assuming it's an array)
+            if (result is object[,] arrayResult)
+            {
+                Console.WriteLine("Calculation Results:");
+                for (int i = 0; i < arrayResult.GetLength(0); i++)
+                {
+                    Console.WriteLine(arrayResult[i, 0]);
+                }
             }
+        }
+    }
+}
 ```
 
 ### See Also

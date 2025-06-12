@@ -4,7 +4,7 @@ linktitle: FileFormatUtil
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFormatUtil class. Provides utility methods for converting file format enums to strings or file extensions and back in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells/fileformatutil/
 ---
 ## FileFormatUtil class

@@ -16,44 +16,47 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: c.ChartArea.BackgroundMode = BackgroundMode.Transparent;
-public void ChartFrame_Property_BackgroundMode()
-{
-    Console.WriteLine("ChartFrame_Property_BackgroundMode()");
-    string outfn = Constants.destPath + "TEST_MovePlotArea_out.xlsx";
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
-    Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
-    sheet.Name = "Data";
-    Aspose.Cells.Cells cells = workbook.Worksheets[0].Cells;
-    workbook.ChangePalette(Color.Orange, 53);
-    workbook.ChangePalette(Color.LightBlue, 54);
-    workbook.ChangePalette(Color.LightCoral, 55);
-    workbook.ChangePalette(Color.Indigo, 52);
-    Color[] colors = workbook.Colors;
-    cells["A1"].PutValue("Excelsior lasalle property fund LLC ");
-    cells["A2"].PutValue("Excelsior lasalle property fund\n LLC property fund LLC ");
-    cells["A3"].PutValue("Germany"); cells["A4"].PutValue("England");
-    cells["A5"].PutValue("Sweden"); cells["B1"].PutValue("Sale");
-    cells["B2"].PutValue(0.32); cells["B3"].PutValue(0.62); cells["B4"].PutValue(0.06);
-    cells["B5"].PutValue(0.06); int chartIndex = 0;
-    chartIndex = sheet.Charts.Add(ChartType.Pie, 1, 3, 25, 12);
-    Chart c = sheet.Charts[chartIndex]; c.Legend.Border.IsVisible = false;
-    c.Legend.AutoScaleFont = true; c.Legend.AutoScaleFont = false;
-    c.Legend.TextFont.Name = "Arial"; c.Legend.TextFont.Size = 7;
-    c.Legend.Position = LegendPositionType.Right;
-    c.ChartArea.BackgroundMode = BackgroundMode.Transparent;
-    c.NSeries.Add("Data!B2:B5", true); c.NSeries.CategoryData = "Data!A2:A5";
-    DataLabels datalabels;
-    for (int i = 0; i < c.NSeries.Count; i++)
+namespace AsposeCellsExamples
+{
+    public class ChartFramePropertyBackgroundModeDemo
     {
-        datalabels = c.NSeries[i].DataLabels;
-        datalabels.ShowPercentage = true;
-        datalabels.NumberFormat = "0%";
-        datalabels.Position = LabelPositionType.OutsideEnd;
-        datalabels.TextFont.Name = "Arial"; datalabels.TextFont.Size = 7;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Apple");
+            sheet.Cells["A3"].PutValue("Orange");
+            sheet.Cells["A4"].PutValue("Banana");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(50);
+            sheet.Cells["B3"].PutValue(30);
+            sheet.Cells["B4"].PutValue(20);
+
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            
+            // Set chart data
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Demonstrate BackgroundMode property
+            chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Transparent;
+            chart.PlotArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
+
+            // Save the workbook
+            workbook.Save("ChartBackgroundModeDemo.xlsx");
+        }
     }
-    c.PlotArea.X = 0; c.PlotArea.Y = 700; workbook.Save(outfn);
 }
 ```
 

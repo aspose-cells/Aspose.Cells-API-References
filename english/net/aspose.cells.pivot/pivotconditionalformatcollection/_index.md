@@ -57,80 +57,77 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
 ### Examples
 
 ```csharp
-// Called: PivotConditionalFormatCollection pfcc = pivot.ConditionalFormats;
-public void Pivot_Type_PivotConditionalFormatCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET47335_";
-
-    Workbook workbook = new Workbook(filePath + "Filter.xlsx");
-    PivotTable table = workbook.Worksheets[0].PivotTables[0];
-    PivotField pivotField = table.PageFields[0];
-
-    pivotField.IsMultipleItemSelectionAllowed = true;
-
-    int pageItemCount = pivotField.PivotItems.Count;
-    //Select a, e, i, oitems only 
-    for (int i = 0; i < pageItemCount; i++)
+    public class PivotClassPivotConditionalFormatCollectionDemo
     {
-        PivotItem item = pivotField.PivotItems[i];
-        switch (item.Name)
+        public static void Run()
         {
-            case "a":
-            case "e":
-            case "i":
-            case "o":
-                item.IsHidden = false;
-                break;
-            default:
-                item.IsHidden = true;
-                break;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "A";
+            cells["B2"].Value = "East";
+            cells["C2"].Value = 100;
+            
+            cells["A3"].Value = "B";
+            cells["B3"].Value = "West";
+            cells["C3"].Value = 200;
+            
+            cells["A4"].Value = "C";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 300;
+            
+            cells["A5"].Value = "D";
+            cells["B5"].Value = "West";
+            cells["C5"].Value = 400;
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("=A1:C5", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            
+            // Add fields to pivot areas
+            pivot.AddFieldToArea(PivotFieldType.Row, 0); // Product
+            pivot.AddFieldToArea(PivotFieldType.Column, 1); // Region
+            pivot.AddFieldToArea(PivotFieldType.Data, 2); // Sales
+
+            // Refresh and calculate pivot table
+            pivot.RefreshData();
+            pivot.CalculateData();
+
+            // Access conditional formats collection
+            PivotConditionalFormatCollection pfcc = pivot.ConditionalFormats;
+            int formatIndex = pfcc.Add();
+            PivotConditionalFormat pfc = pfcc[formatIndex];
+            
+            // Get pivot table data range
+            CellArea dataBodyRange = pivot.DataBodyRange;
+            pfc.FormatConditions.AddArea(dataBodyRange);
+
+            // Add conditional formatting
+            FormatConditionCollection fcc = pfc.FormatConditions;
+            int conditionIndex = fcc.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = fcc[conditionIndex];
+            fc.Operator = OperatorType.Between;
+            fc.Formula1 = "200";
+            fc.Formula2 = "400";
+            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
+
+            // Save the workbook
+            workbook.Save("PivotConditionalFormatDemo_out.xlsx");
         }
     }
-
-    table.RefreshData();
-    table.CalculateData();
-
-    workbook.Save(CreateFolder(filePath) + "filter_out.xlsx");
-
-    Workbook wb = new Workbook(filePath + "To Aspose.xlsx");
-    Worksheet sheet = wb.Worksheets.Add("Test");
-    int pivotIndex = sheet.PivotTables.Add("=ExportPOC2_AggregateData7_M!$A$1:$D$24", "A3", "TestPivot");
-    PivotTable pivot = sheet.PivotTables[pivotIndex];
-    pivot.AddFieldToArea(PivotFieldType.Row, 0);
-    pivot.AddFieldToArea(PivotFieldType.Column, 1);
-    pivot.AddFieldToArea(PivotFieldType.Data, 3);
-
-    pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleLight16;
-
-    pivot.RefreshData();
-    pivot.CalculateData();
-
-    PivotConditionalFormatCollection pfcc = pivot.ConditionalFormats;
-    int pIndex = pfcc.Add();
-    PivotConditionalFormat pfc = pfcc[pIndex];
-    FormatConditionCollection fcc = pfc.FormatConditions;
-    CellArea dataBodyRange = pivot.DataBodyRange;
-
-    string startCell = CellsHelper.CellIndexToName(dataBodyRange.StartRow, dataBodyRange.StartColumn);
-    fcc.AddArea(dataBodyRange);
-
-    //you can add other format conditions
-    //now we will replace 1 with "Direct"
-    int idx = fcc.AddCondition(FormatConditionType.Expression);
-    FormatCondition fc = fcc[idx];
-    fc.Formula1 = "=" + startCell + "=1";
-    fc.Operator = OperatorType.Equal;
-    fc.Style.Custom = "[=1]\"Direct\";;";
-
-    //replace 8 with "Direct8"
-    idx = fcc.AddCondition(FormatConditionType.Expression);
-    fc = fcc[idx];
-    fc.Formula1 = "=" + startCell + "=8";
-    fc.Operator = OperatorType.Equal;
-    fc.Style.Custom = "[=8]\"Direct8\";;";
-
-
-    wb.Save(CreateFolder(filePath) + "ToAspose_out.xlsx");
 }
 ```
 

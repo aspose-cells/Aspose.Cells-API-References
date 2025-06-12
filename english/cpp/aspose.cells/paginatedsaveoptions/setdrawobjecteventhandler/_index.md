@@ -4,7 +4,7 @@ linktitle: SetDrawObjectEventHandler
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions::SetDrawObjectEventHandler method. Implements this interface to get DrawObject and Bound when rendering in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.cells/paginatedsaveoptions/setdrawobjecteventhandler/
 ---
 ## PaginatedSaveOptions::SetDrawObjectEventHandler method

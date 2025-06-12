@@ -20,53 +20,58 @@ The set is ignored when it is used in [`SheetRender`](../../sheetrender/)
 ### Examples
 
 ```csharp
-// Called: imgOpt.SheetSet = new SheetSet(new int[] { hiddenSheetIndex });
-public void ImageOrPrintOptions_Property_SheetSet()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
 
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.SheetSet = SheetSet.Visible;
-    using (MemoryStream ms = new MemoryStream())
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertySheetSetDemo
     {
-        wb.Save(ms, pdfSaveOptions);
-        ms.Position = 0;
-        using (StreamReader reader = new StreamReader(ms))
+        public static void Run()
         {
-            string content = reader.ReadToEnd();
-            Regex regex = new Regex(@"/Count\s*(\d+)");
-            Assert.AreEqual("9", regex.Match(content).Groups[1].Value);
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet1 = workbook.Worksheets[0];
+            sheet1.Name = "VisibleSheet1";
+            sheet1.Cells["A1"].PutValue("Sheet1 Content");
+            
+            Worksheet sheet2 = workbook.Worksheets.Add("VisibleSheet2");
+            sheet2.Cells["A1"].PutValue("Sheet2 Content");
+            
+            Worksheet sheet3 = workbook.Worksheets.Add("HiddenSheet");
+            sheet3.Cells["A1"].PutValue("Hidden Content");
+            sheet3.IsVisible = false;
+
+            // Demonstrate SheetSet property with ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = ImageType.Tiff;
+
+            // Option 1: Print all sheets (including hidden)
+            options.SheetSet = SheetSet.All;
+            WorkbookRender allSheetsRender = new WorkbookRender(workbook, options);
+            Console.WriteLine($"All sheets page count: {allSheetsRender.PageCount}");
+
+            // Option 2: Print only visible sheets
+            options.SheetSet = SheetSet.Visible;
+            WorkbookRender visibleSheetsRender = new WorkbookRender(workbook, options);
+            Console.WriteLine($"Visible sheets page count: {visibleSheetsRender.PageCount}");
+
+            // Option 3: Print specific sheets by index
+            options.SheetSet = new SheetSet(new int[] { 0, 2 }); // First and third sheets
+            WorkbookRender specificSheetsRender = new WorkbookRender(workbook, options);
+            Console.WriteLine($"Specific sheets page count: {specificSheetsRender.PageCount}");
+
+            // Save one page to stream as demonstration
+            using (MemoryStream stream = new MemoryStream())
+            {
+                specificSheetsRender.ToImage(0, stream);
+                Console.WriteLine($"Image stream length: {stream.Length} bytes");
+            }
         }
     }
-
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-    imgOpt.ImageType = ImageType.Tiff;
-    imgOpt.SheetSet = SheetSet.All;
-    Assert.AreEqual(11, new WorkbookPrintingPreview(wb, imgOpt).EvaluatedPageCount);
-
-    int hiddenSheetIndex = 3;
-    imgOpt.SheetSet = new SheetSet(new int[] { hiddenSheetIndex });
-    WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-    Assert.AreEqual(2, wr.PageCount);
-    using (MemoryStream ms = new MemoryStream())
-    {
-        wr.ToImage(0, ms);
-        Assert.IsTrue(ms.Length > 0);
-    }
-
-    //Hidden sheet is not output in SheetRender.
-    SheetRender sr = new SheetRender(wb.Worksheets[hiddenSheetIndex], new ImageOrPrintOptions());
-    Assert.AreEqual(0, sr.PageCount);
-    using (MemoryStream ms = new MemoryStream())
-    {
-        sr.ToImage(0, new MemoryStream());
-        Assert.AreEqual(0, ms.Length);
-    }
-
-
-    imgOpt.SheetSet = new SheetSet(new int[] { 1, 3 });
-    Assert.AreEqual(5, new WorkbookRender(wb, imgOpt).PageCount);
-    Assert.AreEqual(5, new WorkbookPrintingPreview(wb, imgOpt).EvaluatedPageCount);
 }
 ```
 

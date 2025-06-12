@@ -4,7 +4,7 @@ linktitle: GetFontSources
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs::GetFontSources method. Gets a copy of the array that contains the list of sources in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells/fontconfigs/getfontsources/
 ---
 ## FontConfigs::GetFontSources method

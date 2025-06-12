@@ -16,8 +16,34 @@ public int Max { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.Max = 100;
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SpinButtonActiveXControlPropertyMaxDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a SpinButton ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.SpinButton, 1, 1, 1, 1, 100, 30);
+            
+            // Get the ActiveX control and set its Max property
+            var spinButton = (Aspose.Cells.Drawing.ActiveXControls.SpinButtonActiveXControl)shape.ActiveXControl;
+            spinButton.Max = 100;
+            
+            // Save the workbook
+            workbook.Save("SpinButtonMaxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,54 +16,39 @@ public MergeEmptyTdType MergeEmptyTdType { get; set; }
 ### Examples
 
 ```csharp
-// Called: MergeEmptyTdType = MergeEmptyTdType.None,
-public void HtmlSaveOptions_Property_MergeEmptyTdType()
-{
-    Workbook workbook = new Workbook(Constants.HtmlPath + "example.xlsx");
-    WorksheetCollection worksheets = workbook.Worksheets;
-    string fullRangeName = $"Sheet1!TEST_AREA";
-    Aspose.Cells.Range range = worksheets.GetRangeByName(fullRangeName);
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    if (range == null && fullRangeName.Contains("!"))
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyMergeEmptyTdTypeDemo
     {
-        string fallbackName = fullRangeName.Split('!')[1];
-        range = worksheets.GetRangeByName(fallbackName);
-    } 
-    for (int r = 0; r < range.RowCount; r++)
-    {
-        for (int c = 0; c < range.ColumnCount; c++)
+        public static void Run()
         {
-            var cell = range[r, c];
-            if (string.IsNullOrEmpty(cell.StringValue))
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue(""); // Empty cell
+
+            // Configure HTML save options with MergeEmptyTdType
+            HtmlSaveOptions htmlOptions = new HtmlSaveOptions()
             {
-                Style style = cell.GetStyle();
-                style.ShrinkToFit = true;
-                cell.SetStyle(style);
-            }
+                MergeEmptyTdType = MergeEmptyTdType.None // Demonstrate the property
+            };
+
+            // Save to HTML
+            string outputPath = "output.html";
+            workbook.Save(outputPath, htmlOptions);
+
+            Console.WriteLine("HTML saved with MergeEmptyTdType.None. Output file: " + outputPath);
         }
     }
-
-    worksheets.ActiveSheetIndex = range.Worksheet.Index;
-    range.Worksheet.PageSetup.PrintArea = range.Address;
-
-    var htmlOptions = new HtmlSaveOptions(SaveFormat.Html)
-    {
-        ExportPrintAreaOnly = true,
-        ExportActiveWorksheetOnly = true,
-        AddGenericFont = false,
-        ExportBogusRowData = false,
-        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-        MergeEmptyTdType = MergeEmptyTdType.None,
-        CellNameAttribute = "id",
-    };
-
-
-    workbook.Save(_destFilesPath+ "example.html", htmlOptions);
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    Assert.IsTrue(text.IndexOf("<td id='I3' class='x44'>ABC</td>\n </tr>") > -1);
-
-
 }
 ```
 

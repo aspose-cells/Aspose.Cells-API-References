@@ -16,19 +16,31 @@ public ImportTableOptions()
 ### Examples
 
 ```csharp
-// Called: ImportTableOptions options = new ImportTableOptions();
-public void ImportTableOptions_Constructor()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    DataTable dt = new DataTable();
-    dt.Columns.Add("C1");
-    dt.Rows.Add("<b>aa</b>");
-    Cells cells = workbook.Worksheets[0].Cells;
-    ImportTableOptions options = new ImportTableOptions();
-    options.IsHtmlString = true;
-    options.IsFieldNameShown = true;
-    cells.ImportData(dt, 0, 0, options);
-    Assert.IsTrue(cells["A2"].GetStyle().Font.IsBold);
+    public class ImportTableOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Column1");
+            dt.Rows.Add("<b>Bold Text</b>");
+            
+            Cells cells = workbook.Worksheets[0].Cells;
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsHtmlString = true;
+            options.IsFieldNameShown = true;
+            
+            cells.ImportData(dt, 0, 0, options);
+            
+            Console.WriteLine("Cell A2 is bold: " + cells["A2"].GetStyle().Font.IsBold);
+        }
+    }
 }
 ```
 

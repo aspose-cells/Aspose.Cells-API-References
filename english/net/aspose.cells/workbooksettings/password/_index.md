@@ -16,19 +16,39 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Password = "xixi";
-public void WorkbookSettings_Property_Password()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions loadOptions = new LoadOptions();
-    Workbook wb = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
-    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
-    wb.Settings.Password = "xixi";
-
-    wb.Save(Constants.destPath + "example.ods");
-
-    loadOptions.Password = "xixi";
-    wb = new Workbook(Constants.destPath + "example.ods", loadOptions);
-    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+    public class WorkbookSettingsPropertyPasswordDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access the first worksheet and add some data
+            Worksheet sheet = wb.Worksheets[0];
+            sheet.Cells["C6"].PutValue("test encrypt.");
+            
+            // Set password to protect the workbook
+            wb.Settings.Password = "xixi";
+            
+            // Save the workbook
+            wb.Save("output_with_password.ods");
+            
+            // Create load options with password to open the protected workbook
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.Password = "xixi";
+            
+            // Open the password-protected workbook
+            Workbook wbProtected = new Workbook("output_with_password.ods", loadOptions);
+            
+            // Verify the data
+            Console.WriteLine("Cell value: " + wbProtected.Worksheets[0].Cells["C6"].Value);
+        }
+    }
 }
 ```
 

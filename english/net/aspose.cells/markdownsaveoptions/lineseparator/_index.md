@@ -16,38 +16,40 @@ public string LineSeparator { get; set; }
 ### Examples
 
 ```csharp
-// Called: LineSeparator = "\n",
-public static void MarkdownSaveOptions_Property_LineSeparator()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class MarkdownSaveOptionsPropertyLineSeparatorDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Value1");
+            worksheet.Cells["B2"].PutValue("Value2");
 
-            // Create an instance of MarkdownSaveOptions
+            // Configure Markdown save options with custom line separator
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
             {
-                Encoding = Encoding.UTF8,
-                FormatStrategy = CellValueFormatStrategy.DisplayString,
-                LineSeparator = "\n",
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
+                LineSeparator = "\n", // Using Unix-style line endings
+                Encoding = Encoding.UTF8
             };
 
-            // Save the workbook as a Markdown file
-            workbook.Save("MarkdownSaveOptionsExample.md", saveOptions);
+            // Save as Markdown file
+            workbook.Save("MarkdownWithLineSeparator.md", saveOptions);
 
-            Console.WriteLine("Workbook saved as Markdown file successfully.");
+            Console.WriteLine("Markdown file saved with custom line separator.");
         }
+    }
+}
 ```
 
 ### See Also

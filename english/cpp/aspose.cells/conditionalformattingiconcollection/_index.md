@@ -4,7 +4,7 @@ linktitle: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConditionalFormattingIconCollection class. Represents a collection of ConditionalFormattingIcon objects in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells/conditionalformattingiconcollection/
 ---
 ## ConditionalFormattingIconCollection class

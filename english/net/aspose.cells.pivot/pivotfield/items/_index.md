@@ -16,25 +16,61 @@ public string[] Items { get; }
 ### Examples
 
 ```csharp
-// Called: string[] items = pivotField.Items;
-private void PivotField_Property_Items(Worksheet worksheet, PivotTable pivotTable, PivotField pivotField, String field)
+using System;
+using System.Collections;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotFieldPropertyItemsDemo
+    {
+        public static void Run()
         {
+            // Create a workbook and add sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["A5"].Value = "Apple";
+            worksheet.Cells["B1"].Value = "Quantity";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["B3"].Value = 15;
+            worksheet.Cells["B4"].Value = 20;
+            worksheet.Cells["B5"].Value = 5;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add pivot field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            PivotField pivotField = pivotTable.RowFields[0];
+            
+            // Demonstrate Items property
             string[] items = pivotField.Items;
+            Console.WriteLine("Pivot Field Items:");
+            foreach (string item in items)
+            {
+                Console.WriteLine(item);
+            }
+            
+            // Set current page item
             ArrayList list = new ArrayList(items);
-            //Console.WriteLine("Fields are: " + Arrays.asList(pivotField.getItems()));
-            if (list.Contains(field))
+            if (list.Contains("Apple"))
             {
-                pivotField.CurrentPageItem = (short)list.IndexOf(field);
-                //System.out.println("Current page item set for" + field + "is:" + pivotField.getCurrentPageItem() + pivotField.getItems());
+                pivotField.CurrentPageItem = (short)list.IndexOf("Apple");
+                Console.WriteLine("Current page item set to: Apple");
             }
-            else
-            {
-                pivotField.CurrentPageItem = (short)list.IndexOf("(blank)");
-                //System.out.println("Current page item set for (blank) is:" + pivotField.getCurrentPageItem() + pivotField.getItems());
-            }
+            
             pivotTable.CalculateData();
-            //pivotTable.RefreshDataOnOpeningFile = true;
         }
+    }
+}
 ```
 
 ### See Also

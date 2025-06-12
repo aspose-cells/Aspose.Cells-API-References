@@ -20,26 +20,33 @@ For builtin number formats, the returned pattern content is still culture-depend
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("dd/MM/yyyy", style.InvariantCustom, "InvariantCustom");
-        public void Style_Property_InvariantCustom()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyInvariantCustomDemo
+    {
+        public static void Run()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.Germany;
             Cell cell = wb.Worksheets[0].Cells[0, 0];
             Style style = cell.GetStyle();
-            style.Number = 14;
+            
+            // Set date format and value
+            style.Number = 14; // Date format
+            style.Custom = "dd/MM/yyyy"; // Set custom format which affects both CultureCustom and InvariantCustom
             cell.PutValue(new DateTime(2019, 10, 12));
             cell.SetStyle(style);
-#if !LINUX_TEST
-            Assert.AreEqual("12.10.2019", cell.StringValue, "Formatted value");
-            Assert.AreEqual("TT.MM.JJJJ", style.CultureCustom, "CultureCustom");
-            Assert.AreEqual("dd/MM/yyyy", style.InvariantCustom, "InvariantCustom");
-#else
-            Assert.AreEqual("12.10.19", cell.StringValue, "Formatted value");
-            Assert.AreEqual("TT.MM.JJ", style.CultureCustom, "CultureCustom");
-            Assert.AreEqual("dd/MM/yy", style.InvariantCustom, "InvariantCustom");
-#endif
+
+            // Output results
+            Console.WriteLine("Formatted value: " + cell.StringValue);
+            Console.WriteLine("CultureCustom: " + style.CultureCustom);
+            Console.WriteLine("InvariantCustom: " + style.InvariantCustom);
         }
+    }
+}
 ```
 
 ### See Also

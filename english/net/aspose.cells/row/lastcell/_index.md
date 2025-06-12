@@ -16,14 +16,34 @@ public Cell LastCell { get; }
 ### Examples
 
 ```csharp
-// Called: object v = row.LastCell.Value;
-public void Row_Property_LastCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    TxtLoadOptions opts = new TxtLoadOptions(LoadFormat.Csv);
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.csv", opts);
-    Worksheet ws = wb.Worksheets[wb.Worksheets.ActiveSheetIndex];
-    Row row = ws.Cells.Rows[0];
-    object v = row.LastCell.Value;
+    public class RowPropertyLastCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("First");
+            worksheet.Cells["B1"].PutValue("Second");
+            worksheet.Cells["C1"].PutValue("Last");
+
+            // Get the first row
+            Row row = worksheet.Cells.Rows[0];
+
+            // Access the last cell in the row
+            Cell lastCell = row.LastCell;
+            
+            // Output the value of the last cell
+            Console.WriteLine("Last cell value: " + lastCell.Value);
+        }
+    }
 }
 ```
 

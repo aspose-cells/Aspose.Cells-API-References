@@ -16,12 +16,42 @@ public Validation GetValidation()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ValidationType.AnyValue, cell.GetValidation().Type);
-public void Cell_Method_GetValidation()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = wb.Worksheets[0].Cells["B11"];
-    Assert.AreEqual(ValidationType.AnyValue, cell.GetValidation().Type);
+    public class CellMethodGetValidationDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell B5 and add validation
+            Cell cell = worksheet.Cells["B5"];
+            Validation validation = cell.GetValidation();
+            
+            // Set validation type and show message
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "10";
+            validation.Formula2 = "20";
+            validation.ShowError = true;
+            validation.ErrorMessage = "Enter value between 10 and 20";
+            
+            // Save the workbook
+            workbook.Save("ValidationDemo.xlsx");
+            
+            // Verify the validation
+            Validation retrievedValidation = cell.GetValidation();
+            Console.WriteLine("Validation Type: " + retrievedValidation.Type);
+            Console.WriteLine("Validation Message: " + retrievedValidation.ErrorMessage);
+        }
+    }
 }
 ```
 

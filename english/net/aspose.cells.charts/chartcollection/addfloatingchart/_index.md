@@ -28,19 +28,30 @@ public int AddFloatingChart(ChartType type, int left, int top, int width, int he
 ### Examples
 
 ```csharp
-// Called: sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
-public void ChartCollection_Method_AddFloatingChart()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    int index = workbook.Worksheets.Add(SheetType.Chart);
-    Worksheet sheet = workbook.Worksheets[index];
-    sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
-    sheet.Charts[0].NSeries.Add("{1,2,3}", false);
-    sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-        PlacementType.Move, 400, 400, 1000, 600);
-    sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
-    int width = sheet.Charts[0].Shapes[0].Width;
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ChartCollectionMethodAddFloatingChartWithChartTypeInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add floating chart with specified dimensions
+            int chartIndex = sheet.Charts.AddFloatingChart(ChartType.Column, 100, 100, 600, 400);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            
+            // Add sample data to the chart
+            chart.NSeries.Add("{1,3,2,5}", false);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

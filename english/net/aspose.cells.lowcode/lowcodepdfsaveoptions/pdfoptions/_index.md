@@ -16,54 +16,44 @@ public PdfSaveOptions PdfOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: PdfOptions = (PdfSaveOptions)saveOptions,
-private void LowCodePdfSaveOptions_Property_PdfOptions(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodePdfSaveOptionsPropertyPdfOptionsDemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("PDF Options Demo");
+
+            // Create PDF save options with custom settings
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
             {
-                case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
-            }
+                Compliance = PdfCompliance.PdfA1b,
+                OnePagePerSheet = true
+            };
+
+            // Create low code PDF save options and assign the PDF options
+            LowCodePdfSaveOptions lowCodePdfSaveOptions = new LowCodePdfSaveOptions
+            {
+                OutputFile = "output.pdf",
+                PdfOptions = pdfSaveOptions
+            };
+
+            // Save using low code options
+            workbook.Save(lowCodePdfSaveOptions.OutputFile, lowCodePdfSaveOptions.PdfOptions);
+
+            Console.WriteLine("PDF saved with custom options.");
         }
+    }
+}
 ```
 
 ### See Also

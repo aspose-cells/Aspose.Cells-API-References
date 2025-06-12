@@ -17,16 +17,23 @@ class SheetRender;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Worksheet, ImageOrPrintOptions)](#constructor-worksheet-imageorprintoptions-)| the construct of SheetRender, need worksheet and ImageOrPrintOptions as params |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pageCount](#pageCount--)| number | Readonly. Gets the total page count of current worksheet. |
+| [pageScale](#pageScale--)| number | Readonly. Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/). |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageCount()](#getPageCount--)| Gets the total page count of current worksheet. |
-| [getPageScale()](#getPageScale--)| Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/). |
+| [getPageCount()](#getPageCount--)| <b>@deprecated.</b> Please use the 'pageCount' property instead. Gets the total page count of current worksheet. |
+| [getPageScale()](#getPageScale--)| <b>@deprecated.</b> Please use the 'pageScale' property instead. Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/). |
 | [getPageSizeInch(number)](#getPageSizeInch-number-)| Get page size in inch of output image. |
 | [toImage(number, string)](#toImage-number-string-)| Render certain page to a file. |
 | [toImage(number)](#toImage-number-)| Render certain page to a stream. |
@@ -54,9 +61,27 @@ constructor(worksheet: Worksheet, options: ImageOrPrintOptions);
 | worksheet | [Worksheet](../worksheet/) | Indicate which spreadsheet to be rendered. |
 | options | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
 
+### pageCount {#pageCount--}
+
+Readonly. Gets the total page count of current worksheet.
+
+```javascript
+pageCount : number;
+```
+
+
+### pageScale {#pageScale--}
+
+Readonly. Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/).
+
+```javascript
+pageScale : number;
+```
+
+
 ### getPageCount() {#getPageCount--}
 
-Gets the total page count of current worksheet.
+<b>@deprecated.</b> Please use the 'pageCount' property instead. Gets the total page count of current worksheet.
 
 ```javascript
 getPageCount() : number;
@@ -65,7 +90,7 @@ getPageCount() : number;
 
 ### getPageScale() {#getPageScale--}
 
-Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/).
+<b>@deprecated.</b> Please use the 'pageScale' property instead. Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/).
 
 ```javascript
 getPageScale() : number;

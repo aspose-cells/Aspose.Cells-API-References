@@ -16,38 +16,62 @@ public bool SortAsNumber { get; set; }
 ### Examples
 
 ```csharp
-// Called: sorter.SortAsNumber = sortNumber;
-private void DataSorter_Property_SortAsNumber(bool sortNumber)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DataSorterPropertySortAsNumberDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            //Create your cell area 
-            CellArea ca = CellArea.CreateCellArea("A1", "B4");
 
-            //Create your sorter 
+            // Add sample data with mixed numbers and text numbers
+            worksheet.Cells["A1"].PutValue("Number");
+            worksheet.Cells["A2"].PutValue("2");
+            worksheet.Cells["A3"].PutValue("10");
+            worksheet.Cells["A4"].PutValue("1");
+
+            // Create cell area to sort
+            CellArea ca = CellArea.CreateCellArea("A1", "A4");
+
+            // Create data sorter
             DataSorter sorter = workbook.DataSorter;
-
-            //Find the index, since we want to sort by column A, so we should know 
-            //the index for sorter 
             int idx = CellsHelper.ColumnNameToIndex("A");
 
-            //Add key in sorter, it will sort in Ascending order 
+            // Add sort key (column A)
             sorter.AddKey(idx, SortOrder.Ascending);
-            sorter.SortAsNumber = sortNumber;
 
-            //Perform sort 
+            // Sort as numbers (true) or strings (false)
+            sorter.SortAsNumber = true;
             sorter.Sort(worksheet.Cells, ca);
-            if (sortNumber)
+
+            Console.WriteLine("Sorted as numbers:");
+            for (int i = 1; i <= 4; i++)
             {
-                Assert.AreEqual(worksheet.Cells["A3"].StringValue,"21");
-            }
-            else
-            {
-                Assert.AreEqual(worksheet.Cells["A4"].StringValue, "21");
+                Console.WriteLine(worksheet.Cells["A" + i].StringValue);
             }
 
-            workbook.Save(Constants.destPath + "example.xlsx");
+            // Reset data for second sort
+            worksheet.Cells["A2"].PutValue("2");
+            worksheet.Cells["A3"].PutValue("10");
+            worksheet.Cells["A4"].PutValue("1");
+
+            // Sort as strings
+            sorter.SortAsNumber = false;
+            sorter.Sort(worksheet.Cells, ca);
+
+            Console.WriteLine("\nSorted as strings:");
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine(worksheet.Cells["A" + i].StringValue);
+            }
         }
+    }
+}
 ```
 
 ### See Also

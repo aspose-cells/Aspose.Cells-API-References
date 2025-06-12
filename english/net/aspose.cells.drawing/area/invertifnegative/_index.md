@@ -16,65 +16,39 @@ public bool InvertIfNegative { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Adding a new worksheet to the Workbook object
-int sheetIndex = workbook.Worksheets.Add();
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Adding a sample value to "A1" cell
-worksheet.Cells["A1"].PutValue(50);
-//Adding a sample value to "A2" cell
-worksheet.Cells["A2"].PutValue(-100);
-//Adding a sample value to "A3" cell
-worksheet.Cells["A3"].PutValue(150);
-//Adding a chart to the worksheet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Accessing the instance of the newly added chart
-Chart chart = worksheet.Charts[chartIndex];
-//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
-chart.NSeries.Add("A1:A3", true);
-chart.NSeries[0].Area.InvertIfNegative = true;
-//Setting the foreground color of the 1st NSeries area
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Setting the background color of the 1st NSeries area.
-//The displayed area color of second chart point will be the background color.
-chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
-//Saving the Excel file
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(-100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a chart to the worksheet
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accessing the instance of the newly added chart
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
-chart.NSeries.Add("A1:A3", True)
-chart.NSeries(0).Area.InvertIfNegative = True
-'Setting the foreground color of the 1st NSeries area
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Setting the background color of the 1st NSeries area.
-'The displayed area color of second chart point will be the background color.
-chart.NSeries(0).Area.BackgroundColor = Color.Yellow
-'Saving the Excel file
-workbook.Save("book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyInvertIfNegativeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data with negative value
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            
+            // Add column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add data series and configure area properties
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries[0].Area.InvertIfNegative = true;
+            chart.NSeries[0].Area.ForegroundColor = Color.Red;
+            chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
+            
+            workbook.Save("AreaPropertyInvertIfNegativeDemo.xls");
+        }
+    }
+}
 ```
 
 ### See Also

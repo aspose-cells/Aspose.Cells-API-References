@@ -29,27 +29,45 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 ### Examples
 
 ```csharp
-// Called: fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
-public void FormatConditionCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    for (int i = 0; i < 5; i++)
+    public class FormatConditionCollectionMethodAddWithCellAreaFormatConditionTypeOpeDemo
     {
-        cells[i, 0].PutValue(i);
-    }
-    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-    FormatConditionCollection fcc = cfc[cfc.Add()];
-    fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
-        FormatConditionType.Expression, OperatorType.None,
-        "=A1>AVERAGE(OFFSET($A$1:$A$5,0,0)-0)", null);
-    int fontSize = wb.DefaultStyle.Font.Size;
-    fcc[0].Style.Font.Size = fontSize + 2;
-    for (int i = 0; i < 5; i++)
-    {
-        Assert.AreEqual(i < 3 ? fontSize : fontSize + 2,
-            cells[i, 0].GetDisplayStyle().Font.Size, "Font size of A" + (i + 1));
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Populate sample data
+            for (int i = 0; i < 5; i++)
+            {
+                cells[i, 0].PutValue(i);
+            }
+
+            // Add conditional formatting
+            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+            FormatConditionCollection fcc = cfc[cfc.Add()];
+            
+            // Demonstrate Add method with specified parameters
+            fcc.Add(
+                CellArea.CreateCellArea(0, 0, 4, 0),
+                FormatConditionType.Expression,
+                OperatorType.None,
+                "=A1>AVERAGE(OFFSET($A$1:$A$5,0,0)-0)",
+                null
+            );
+
+            // Apply formatting
+            int fontSize = wb.DefaultStyle.Font.Size;
+            fcc[0].Style.Font.Size = fontSize + 2;
+
+            // Save the workbook to demonstrate the result
+            wb.Save("ConditionalFormattingDemo.xlsx");
+        }
     }
 }
 ```

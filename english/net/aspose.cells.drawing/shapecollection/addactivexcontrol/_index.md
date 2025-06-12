@@ -27,10 +27,34 @@ public Shape AddActiveXControl(ControlType type, int topRow, int top, int leftCo
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add an ActiveX control
-Shape activeXControl = shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.CheckBox, 1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddActiveXControlWithControlTypeInt32Int32Int32Int3Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            Shape activeXControl = shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.CheckBox, 
+                1,  // upperLeftRow
+                0,  // top
+                1,  // upperLeftColumn
+                0,  // left
+                100,  // width
+                50   // height
+            );
+
+            workbook.Save("AddActiveXControlDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

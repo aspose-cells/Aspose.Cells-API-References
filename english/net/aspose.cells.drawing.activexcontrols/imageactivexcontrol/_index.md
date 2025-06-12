@@ -48,15 +48,13 @@ public class ImageActiveXControl : ActiveXControl
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using Aspose.Cells.Drawing.ActiveXControls;
 using System;
 using System.IO;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class ImageActiveXControlDemo
     {

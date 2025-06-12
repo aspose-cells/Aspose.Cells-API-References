@@ -16,20 +16,35 @@ public bool IsGridlinesVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].IsGridlinesVisible = true;
-public void Worksheet_Property_IsGridlinesVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43180/";
-
-    HtmlLoadOptions opts = new HtmlLoadOptions();
-    opts.AutoFitColsAndRows = true;
-    Workbook wb = new Workbook(filePath + "report.html", opts);
-    wb.Worksheets[0].IsGridlinesVisible = true;
-
-    Cell a3 = wb.Worksheets[0].Cells["A3"];
-    Assert.AreEqual(a3.GetStyle().ForegroundColor, Color.FromArgb(255, 192, 192, 192));
-
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
+    public class WorksheetPropertyIsGridlinesVisibleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set gridlines visibility to true
+            worksheet.IsGridlinesVisible = true;
+            
+            // Add some sample data to see gridlines
+            worksheet.Cells["A1"].PutValue("Gridlines Visible Example");
+            worksheet.Cells["A2"].PutValue("This worksheet shows gridlines");
+            
+            // Auto-fit columns for better visibility
+            worksheet.AutoFitColumns();
+            
+            // Save the workbook
+            workbook.Save("GridlinesVisibleDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -80,6 +80,45 @@ public enum PresetCameraType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassPresetCameraTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to apply camera preset
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.TextBox, 1, 1, 300, 200, 0, 0);
+
+            // Set 3D format properties with different preset camera types
+            shape.ThreeDFormat.PresetCameraType = PresetCameraType.IsometricLeftUp;
+            shape.ThreeDFormat.LightAngle = 45;
+            shape.ThreeDFormat.LightingDirection = LightRigDirectionType.Top;
+            shape.ThreeDFormat.Z = 10;
+
+            // Create another shape with different camera preset
+            Shape shape2 = worksheet.Shapes.AddShape(MsoDrawingType.TextBox, 1, 10, 300, 200, 0, 0);
+            shape2.ThreeDFormat.PresetCameraType = PresetCameraType.PerspectiveHeroicRightFacing;
+            shape2.ThreeDFormat.ContourWidth = 5;
+            shape2.ThreeDFormat.ExtrusionHeight = 30;
+
+            // Save the workbook
+            workbook.Save("PresetCameraTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

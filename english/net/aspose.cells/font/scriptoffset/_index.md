@@ -16,33 +16,42 @@ public double ScriptOffset { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(source.ScriptOffset, dest.ScriptOffset);
-public static void Font_Property_ScriptOffset(Font source, Font dest)
-        {
-            bool isSourceNull = (source == null);
-            bool isDestNull = (dest == null);
-            Assert.AreEqual(isSourceNull, isDestNull);
+using System;
+using Aspose.Cells;
 
-            if (isSourceNull)
-            {
-                return;
-            }
-            Assert.AreEqual(source.Name, dest.Name);
-            Assert.AreEqual(source.Size, dest.Size);
-            Assert.AreEqual(source.SchemeType, dest.SchemeType);
-            Assert.AreEqual(source.IsNormalizeHeights, dest.IsNormalizeHeights);
-            Assert.AreEqual(source.IsItalic, dest.IsItalic);
-            Assert.AreEqual(source.Charset, dest.Charset);
-            Assert.AreEqual(source.Color, dest.Color);
-            //Assert.AreEqual(source.IsBold, dest.IsBold);
-            Assert.AreEqual(source.IsStrikeout, dest.IsStrikeout);
-            Assert.AreEqual(source.IsSubscript, dest.IsSubscript);
-            Assert.AreEqual(source.IsSuperscript, dest.IsSuperscript);
-            Assert.AreEqual(source.ScriptOffset, dest.ScriptOffset);
-            Assert.AreEqual(source.StrikeType, dest.StrikeType);
-            //Assert.AreEqual(source.ThemeColor, dest.ThemeColor);
-            Assert.AreEqual(source.Underline, dest.Underline);
+namespace AsposeCellsExamples
+{
+    public class FontPropertyScriptOffsetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access cell A1 and set its value
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("ScriptOffset Demo");
+
+            // Get the style and font of the cell
+            Style style = cell.GetStyle();
+            Font font = style.Font;
+
+            // Set ScriptOffset to demonstrate subscript/superscript effect
+            font.ScriptOffset = 10; // Positive for superscript, negative for subscript
+            font.IsSuperscript = true; // Enable superscript
+
+            // Apply the modified style back to the cell
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("FontScriptOffsetDemo.xlsx");
+
+            // Verify the ScriptOffset value
+            Console.WriteLine("ScriptOffset value: " + font.ScriptOffset);
         }
+    }
+}
 ```
 
 ### See Also

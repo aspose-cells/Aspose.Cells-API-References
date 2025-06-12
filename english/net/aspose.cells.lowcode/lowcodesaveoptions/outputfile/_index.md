@@ -16,54 +16,69 @@ public string OutputFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-private void LowCodeSaveOptions_Property_OutputFile(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeSaveOptionsPropertyOutputFileDemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create a simple workbook with one worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+
+            // Save to different formats using OutputFile property
+            string outputDir = "Output/";
+            Directory.CreateDirectory(outputDir);
+
+            // Save as PDF
+            SaveWithOutputFile(workbook, SaveFormat.Pdf, "output.pdf");
+
+            // Save as JSON
+            SaveWithOutputFile(workbook, SaveFormat.Json, "output.json");
+
+            // Save as HTML
+            SaveWithOutputFile(workbook, SaveFormat.Html, "output.html");
+
+            // Save as CSV
+            SaveWithOutputFile(workbook, SaveFormat.Csv, "output.csv");
+        }
+
+        private static void SaveWithOutputFile(Workbook workbook, SaveFormat format, string fileName)
+        {
+            string outputPath = "Output/" + fileName;
+            
+            switch (format)
             {
                 case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
+                    PdfConverter.Process(new LowCodeLoadOptions { InputStream = new MemoryStream() },
+                        new LowCodePdfSaveOptions { OutputFile = outputPath });
+                    break;
                 case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
+                    JsonConverter.Process(new LowCodeLoadOptions { InputStream = new MemoryStream() },
+                        new LowCodeSaveOptions { OutputFile = outputPath });
+                    break;
                 case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
+                    HtmlConverter.Process(new LowCodeLoadOptions { InputStream = new MemoryStream() },
+                        new LowCodeSaveOptions { OutputFile = outputPath });
+                    break;
                 case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
+                    TextConverter.Process(new LowCodeLoadOptions { InputStream = new MemoryStream() },
+                        new LowCodeSaveOptions { OutputFile = outputPath });
+                    break;
                 default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
+                    throw new NotSupportedException("Format not supported: " + format);
             }
+
+            Console.WriteLine($"File saved successfully to: {outputPath}");
         }
+    }
+}
 ```
 
 ### See Also

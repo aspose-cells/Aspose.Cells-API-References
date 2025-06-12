@@ -16,27 +16,41 @@ public SheetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected.Type, result.Type, info + ".Type");
-private static void Worksheet_Property_Type(Worksheet expected, Worksheet result, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyTypeDemo
+    {
+        public static void Run()
         {
-            //Options
-            AssertHelper.AreEqual(expected.Name, result.Name, info + ".Name");
-            AssertHelper.AreEqual(expected.Index, result.Index, info + ".Index");
-            AssertHelper.AreEqual(expected.ActiveCell, result.ActiveCell, info + ".ActiveCell");
-            AssertHelper.AreEqual(expected.CodeName, result.CodeName, info + ".CodeName");
-            AssertHelper.AreEqual(expected.IsVisible, result.IsVisible, info + ".IsVisible");
-            AssertHelper.equals(expected.TabColor, result.TabColor, info + ".TabColor");
-            AssertHelper.AreEqual(expected.Type, result.Type, info + ".Type");
-            AssertHelper.AreEqual(expected.Zoom, result.Zoom, info + ".Zoom");
-            AssertHelper.AreEqual(expected.DisplayRightToLeft, result.DisplayRightToLeft, info + ".DisplayRightToLeft");
-            AssertHelper.AreEqual(expected.FirstVisibleColumn, result.FirstVisibleColumn, info + ".FirstVisibleColumn");
-            AssertHelper.AreEqual(expected.FirstVisibleRow, result.FirstVisibleRow, info + ".FirstVisibleRow");
-            AssertHelper.AreEqual(expected.IsGridlinesVisible, result.IsGridlinesVisible, info + ".IsGridlinesVisible");
-            AssertHelper.AreEqual(expected.IsPageBreakPreview, result.IsPageBreakPreview, info + ".IsPageBreakPreview");
-            AssertHelper.AreEqual(expected.IsProtected, result.IsProtected, info + ".IsProtected");
-            AssertHelper.AreEqual(expected.IsRowColumnHeadersVisible, result.IsRowColumnHeadersVisible, info + ".IsRowColumnHeadersVisible");
-            AssertHelper.AreEqual(expected.IsVisible, result.IsVisible, info + ".IsVisible");         
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set some basic properties
+            worksheet.Name = "DemoSheet";
+            worksheet.IsVisible = true;
+            
+            // Demonstrate Type property usage
+            Console.WriteLine("Worksheet Type: " + worksheet.Type);
+            
+            // Add a chart sheet to demonstrate different worksheet type
+            workbook.Worksheets.Add(SheetType.Chart);
+            Worksheet chartSheet = workbook.Worksheets[1];
+            
+            // Compare worksheet types
+            Console.WriteLine("Regular Sheet Type: " + worksheet.Type);
+            Console.WriteLine("Chart Sheet Type: " + chartSheet.Type);
+            
+            // Save the workbook
+            workbook.Save("WorksheetTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

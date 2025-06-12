@@ -16,17 +16,34 @@ public MarkdownTableHeaderType TableHeaderType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.TableHeaderType = Aspose.Cells.Markdown.MarkdownTableHeaderType.FirstRow;
-public void MarkdownSaveOptions_Property_TableHeaderType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Markdown;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-    saveOptions.TableHeaderType = Aspose.Cells.Markdown.MarkdownTableHeaderType.FirstRow;
-    saveOptions.SheetSet = SheetSet.All;
-    workbook.Save(Constants.destPath + "CELLSJAVA46293.md", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46293.md");
-    string text1 = File.ReadAllText(Constants.sourcePath + "CELLSJAVA46293.md");
-    Assert.AreEqual(text, text1);
+    public class MarkdownSaveOptionsPropertyTableHeaderTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to create a table
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+
+            // Create MarkdownSaveOptions and set TableHeaderType
+            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+            saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
+
+            // Save as markdown with specified options
+            workbook.Save("output.md", saveOptions);
+        }
+    }
 }
 ```
 

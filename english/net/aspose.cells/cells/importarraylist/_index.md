@@ -23,22 +23,37 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 ### Examples
 
 ```csharp
-// Called: cells.ImportArrayList(list, 1048576, 0, true);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_ImportArrayList()
+using System;
+using System.Collections;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportArrayListWithArrayListInt32Int32BooleanDemo
+    {
+        public static void Run()
         {
-            caseName = "testImportArrayList_Exception_002";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            ArrayList list = new ArrayList();
-            list.Add(10);
-            list.Add("abc");
-            list.Add(true);
-            cells.ImportArrayList(list, 1048576, 0, true);
-            string msg = message + "cells.ImportArrayList(list, 1048576, 0, true)";
-            writeToExcel(caseName, msg);
+            
+            ArrayList data = new ArrayList();
+            data.Add("Name");
+            data.Add("Age");
+            data.Add("City");
+            
+            cells.ImportArrayList(data, 0, 0, false);
+            
+            data.Clear();
+            data.Add("John");
+            data.Add(30);
+            data.Add("New York");
+            
+            cells.ImportArrayList(data, 1, 0, false);
+            
+            workbook.Save("ImportArrayListDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

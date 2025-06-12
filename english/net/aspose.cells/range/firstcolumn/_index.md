@@ -16,26 +16,42 @@ public int FirstColumn { get; }
 ### Examples
 
 ```csharp
-// Called: destWorkbook.Worksheets["Sheet1"].Cells.ClearContents(destRange.FirstRow, destRange.FirstColumn,
-public void Range_Property_FirstColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    string sourcefileName = Constants.sourcePath  + "example.xlsx";
-    string destfileName = Constants.sourcePath  + "example.xlsx";
+    public class RangePropertyFirstColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    var sourceWorkbook = new Workbook(sourcefileName);
-    var destWorkbook = new Workbook(destfileName);
+            // Create sample data
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
 
-    var destRange = destWorkbook.Worksheets["Sheet1"].Cells.CreateRange("A1", "C2");
-    var sourceRange = sourceWorkbook.Worksheets["Sheet1"].Cells.CreateRange("A5", "C6");
+            // Create a range
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "B2");
 
-    destWorkbook.Worksheets["Sheet1"].Cells.ClearContents(destRange.FirstRow, destRange.FirstColumn,
-                                                    destRange.FirstRow + destRange.RowCount - 1,
-                                                   destRange.FirstColumn + destRange.ColumnCount - 1);
+            // Demonstrate FirstColumn property
+            Console.WriteLine("First column index of range: " + range.FirstColumn);
 
-    destRange.CopyData(sourceRange);
-    Assert.IsTrue(destRange[0, 0].GetStyle().Font.IsBold);
-    destWorkbook.Save(Constants.destPath + "dest.xlsx");
+            // Use FirstColumn to access cells in the first column of the range
+            for (int i = 0; i < range.RowCount; i++)
+            {
+                Cell cell = range[i, 0]; // Access first column (index 0) of the range
+                Console.WriteLine($"Cell[{i},0] value: {cell.StringValue}");
+            }
+
+            // Save the workbook
+            workbook.Save("RangeFirstColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,34 +20,55 @@ The MemoryStream instance.
 ### Examples
 
 ```csharp
-// Called: MemoryStream memoryStream1 = factory.CreateMemoryStream();
-public static void CustomImplementationFactory_Method_CreateMemoryStream()
+using System;
+using System.IO;
+using System.Globalization;
+
+namespace AsposeCellsExamples
+{
+    public class CustomImplementationFactory2
+    {
+        public MemoryStream CreateMemoryStream()
         {
-            // Create an instance of CustomImplementationFactory
-            CustomImplementationFactory factory = new CustomImplementationFactory();
-
-            // Demonstrate the CreateMemoryStream method without parameters
-            MemoryStream memoryStream1 = factory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created without parameters.");
-
-            // Demonstrate the CreateMemoryStream method with capacity parameter
-            int capacity = 1024;
-            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
-
-            // Demonstrate the CreateCultureInfo method
-            int lcid = 1033; // LCID for English - United States
-            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
-
-            // Demonstrate the CreateRandomInstance method
-            Random random = factory.CreateRandomInstance();
-            Console.WriteLine("Random instance created.");
-
-            // Example usage of the factory with CellsHelper
-            CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            return new MemoryStream();
         }
+
+        public MemoryStream CreateMemoryStream(int capacity)
+        {
+            return new MemoryStream(capacity);
+        }
+
+        public CultureInfo CreateCultureInfo(int lcid)
+        {
+            return new CultureInfo(lcid);
+        }
+
+        public Random CreateRandomInstance()
+        {
+            return new Random();
+        }
+    }
+
+    public class CustomImplementationFactory2MethodCreateMemoryStreamDemo
+    {
+        public static void Run()
+        {
+            CustomImplementationFactory2 factory = new CustomImplementationFactory2();
+
+            // Create MemoryStream without parameters
+            using (MemoryStream stream1 = factory.CreateMemoryStream())
+            {
+                Console.WriteLine($"MemoryStream created - Length: {stream1.Length}, Capacity: {stream1.Capacity}");
+            }
+
+            // Create MemoryStream with capacity
+            using (MemoryStream stream2 = factory.CreateMemoryStream(1024))
+            {
+                Console.WriteLine($"MemoryStream created - Length: {stream2.Length}, Capacity: {stream2.Capacity}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -77,34 +98,58 @@ The MemoryStream instance.
 ### Examples
 
 ```csharp
-// Called: MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-public static void CustomImplementationFactory_Method_CreateMemoryStream()
+using System;
+using System.IO;
+using System.Globalization;
+
+namespace AsposeCellsExamples
+{
+    public interface ICustomImplementationFactory
+    {
+        MemoryStream CreateMemoryStream();
+        MemoryStream CreateMemoryStream(int capacity);
+        CultureInfo CreateCultureInfo(int lcid);
+        Random CreateRandomInstance();
+    }
+
+    public class CustomImplementationFactory : ICustomImplementationFactory
+    {
+        public MemoryStream CreateMemoryStream()
         {
-            // Create an instance of CustomImplementationFactory
-            CustomImplementationFactory factory = new CustomImplementationFactory();
-
-            // Demonstrate the CreateMemoryStream method without parameters
-            MemoryStream memoryStream1 = factory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created without parameters.");
-
-            // Demonstrate the CreateMemoryStream method with capacity parameter
-            int capacity = 1024;
-            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
-
-            // Demonstrate the CreateCultureInfo method
-            int lcid = 1033; // LCID for English - United States
-            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
-
-            // Demonstrate the CreateRandomInstance method
-            Random random = factory.CreateRandomInstance();
-            Console.WriteLine("Random instance created.");
-
-            // Example usage of the factory with CellsHelper
-            CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            return new MemoryStream();
         }
+
+        public MemoryStream CreateMemoryStream(int capacity)
+        {
+            return new MemoryStream(capacity);
+        }
+
+        public CultureInfo CreateCultureInfo(int lcid)
+        {
+            return new CultureInfo(lcid);
+        }
+
+        public Random CreateRandomInstance()
+        {
+            return new Random();
+        }
+    }
+
+    public class CustomImplementationFactoryMethodCreateMemoryStreamWithInt32Demo
+    {
+        public static void Run()
+        {
+            CustomImplementationFactory factory = new CustomImplementationFactory();
+            
+            // Demonstrate CreateMemoryStream with capacity parameter
+            int capacity = 1024;
+            using (MemoryStream memoryStream = factory.CreateMemoryStream(capacity))
+            {
+                Console.WriteLine($"MemoryStream created with capacity: {capacity}, Length: {memoryStream.Length}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

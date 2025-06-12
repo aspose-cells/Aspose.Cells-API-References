@@ -4,7 +4,7 @@ linktitle: ImportXml
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::ImportXml method. Imports/Updates an XML data file into the workbook in C++.'
 type: docs
-weight: 7000
+weight: 7200
 url: /cpp/aspose.cells/workbook/importxml/
 ---
 ## Workbook::ImportXml(const U16String\&, const U16String\&, int32_t, int32_t) method

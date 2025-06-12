@@ -16,14 +16,30 @@ public Cell LastDataCell { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.Rows[0].LastDataCell.Name, "A1");
-public void Row_Property_LastDataCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("1");
-    Cell cell = cells["A2"];
-    Assert.AreEqual(cells.Rows[0].LastDataCell.Name, "A1");
+    public class RowPropertyLastDataCellDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Put data in cells
+            cells["A1"].PutValue("First cell");
+            cells["B1"].PutValue("Second cell");
+            cells["C2"].PutValue("Not in first row");
+            
+            // Get last data cell in first row
+            Cell lastDataCell = cells.Rows[0].LastDataCell;
+            
+            Console.WriteLine("Last data cell in first row: " + lastDataCell.Name);
+            Console.WriteLine("Value in last data cell: " + lastDataCell.StringValue);
+        }
+    }
 }
 ```
 

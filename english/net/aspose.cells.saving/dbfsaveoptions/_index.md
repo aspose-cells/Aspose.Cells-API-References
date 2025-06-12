@@ -23,7 +23,7 @@ public class DbfSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The folder for temporary files that may be used as data cache.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
@@ -37,6 +37,46 @@ public class DbfSaveOptions : SaveOptions
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Saving;
+    using System;
+
+    public class SavingClassDbfSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create an instance of DbfSaveOptions
+            DbfSaveOptions saveOptions = new DbfSaveOptions();
+            
+            // Set ExportAsString property
+            saveOptions.ExportAsString = true;
+
+            // Save the workbook with DBF save options
+            workbook.Save("output.dbf", saveOptions);
+
+            Console.WriteLine("Workbook saved as DBF with ExportAsString set to true.");
+        }
+    }
+}
+```
 
 ### See Also
 

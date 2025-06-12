@@ -4,7 +4,7 @@ linktitle: SqlScriptColumnTypeMap
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::SqlScriptColumnTypeMap class. Represents column type map in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells.saving/sqlscriptcolumntypemap/
 ---
 ## SqlScriptColumnTypeMap class

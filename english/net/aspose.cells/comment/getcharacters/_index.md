@@ -26,9 +26,35 @@ NOTE: This method is now obsolete. Instead, please use Comment.GetRichFormatting
 ### Examples
 
 ```csharp
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-[C#]
-ArrayList list = comment1.GetCharacters();
+namespace AsposeCellsExamples
+{
+    public class CommentMethodGetCharactersDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            comment.Note = "This is a test comment with rich text formatting.";
+            
+            // Get characters from the comment
+            ArrayList characters = comment.GetCharacters();
+            
+            // Display character information
+            foreach (FontSetting ch in characters)
+            {
+                Console.WriteLine($"Font: {ch.Font.Name}, Size: {ch.Font.Size}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

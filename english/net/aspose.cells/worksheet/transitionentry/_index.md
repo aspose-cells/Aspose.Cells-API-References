@@ -16,16 +16,38 @@ public bool TransitionEntry { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-public void Worksheet_Property_TransitionEntry()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+    public class WorksheetPropertyTransitionEntryDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set TransitionEntry property
+            worksheet.TransitionEntry = true;
+            
+            // Display the TransitionEntry value
+            Console.WriteLine("TransitionEntry: " + worksheet.TransitionEntry);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to verify the property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            
+            // Display the loaded TransitionEntry value
+            Console.WriteLine("Loaded TransitionEntry: " + loadedWorksheet.TransitionEntry);
+        }
+    }
 }
 ```
 

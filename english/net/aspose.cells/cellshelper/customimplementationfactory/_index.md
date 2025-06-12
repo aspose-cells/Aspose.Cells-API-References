@@ -16,34 +16,39 @@ public static CustomImplementationFactory CustomImplementationFactory { get; set
 ### Examples
 
 ```csharp
-// Called: CellsHelper.CustomImplementationFactory = factory;
-public static void CellsHelper_Property_CustomImplementationFactory()
+using System;
+using System.IO;
+using System.Globalization;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperPropertyCustomImplementationFactoryDemo
+    {
+        public static void Run()
         {
             // Create an instance of CustomImplementationFactory
             CustomImplementationFactory factory = new CustomImplementationFactory();
 
-            // Demonstrate the CreateMemoryStream method without parameters
-            MemoryStream memoryStream1 = factory.CreateMemoryStream();
+            // Demonstrate factory methods
+            MemoryStream memoryStream = factory.CreateMemoryStream();
             Console.WriteLine("MemoryStream created without parameters.");
 
-            // Demonstrate the CreateMemoryStream method with capacity parameter
-            int capacity = 1024;
-            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
+            MemoryStream sizedStream = factory.CreateMemoryStream(1024);
+            Console.WriteLine("MemoryStream created with capacity: 1024");
 
-            // Demonstrate the CreateCultureInfo method
-            int lcid = 1033; // LCID for English - United States
-            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
+            CultureInfo culture = factory.CreateCultureInfo(1033);
+            Console.WriteLine($"CultureInfo created: {culture.DisplayName}");
 
-            // Demonstrate the CreateRandomInstance method
             Random random = factory.CreateRandomInstance();
-            Console.WriteLine("Random instance created.");
+            Console.WriteLine($"Random number generated: {random.Next()}");
 
-            // Example usage of the factory with CellsHelper
+            // Set the factory in CellsHelper
             CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            Console.WriteLine("CustomImplementationFactory set in CellsHelper");
         }
+    }
+}
 ```
 
 ### See Also

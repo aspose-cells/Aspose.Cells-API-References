@@ -16,24 +16,41 @@ public string StringValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("#REF!", cell.StringValue);
-public void Cell_Property_StringValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-  Workbook workbook = new Workbook();
-  Cells cells = workbook.Worksheets[0].Cells;
-  cells[1, 2].PutValue(1);
-  cells[2, 2].PutValue(2);
-  cells[3, 2].PutValue(3);
-  cells[1, 3].PutValue(4);
-  cells[2, 3].PutValue(5);
-  cells[3, 3].PutValue(6);
-  cells[1, 4].PutValue(7);
-  cells[2, 4].PutValue(8);
-  cells[3, 4].PutValue(9);
-  Cell cell = cells[0, 0];
-  cell.Formula = "=SUM(OFFSET(C3:E5,-1,0,0,0))";
-  workbook.CalculateFormula();
-  Assert.AreEqual("#REF!", cell.StringValue);
+    public class CellPropertyStringValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set some values
+            cells["A1"].PutValue("Hello");
+            cells["A2"].PutValue(123);
+            cells["A3"].PutValue(DateTime.Now);
+            cells["A4"].Formula = "=A1&A2";
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Demonstrate StringValue property
+            Console.WriteLine("A1 StringValue: " + cells["A1"].StringValue);
+            Console.WriteLine("A2 StringValue: " + cells["A2"].StringValue);
+            Console.WriteLine("A3 StringValue: " + cells["A3"].StringValue);
+            Console.WriteLine("A4 StringValue: " + cells["A4"].StringValue);
+
+            // Show error value case
+            Cell errorCell = cells["B1"];
+            errorCell.Formula = "=1/0";
+            workbook.CalculateFormula();
+            Console.WriteLine("B1 (Error) StringValue: " + errorCell.StringValue);
+        }
+    }
 }
 ```
 

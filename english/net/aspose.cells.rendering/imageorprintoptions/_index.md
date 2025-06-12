@@ -28,13 +28,14 @@ public class ImageOrPrintOptions
 | [CheckWorkbookDefaultFont](../../aspose.cells.rendering/imageorprintoptions/checkworkbookdefaultfont/) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [CustomPrintPageEventHandler](../../aspose.cells.rendering/imageorprintoptions/customprintpageeventhandler/) { get; set; } | Client can special output to printer when print each page using this EventHandler |
 | [CustomQueryPageSettingsEventHandler](../../aspose.cells.rendering/imageorprintoptions/customquerypagesettingseventhandler/) { get; set; } | Client can control page setting of printer when print each page using this EventHandler |
+| [CustomRenderSettings](../../aspose.cells.rendering/imageorprintoptions/customrendersettings/) { get; set; } | Gets or sets custom settings during rendering. |
 | [DefaultEditLanguage](../../aspose.cells.rendering/imageorprintoptions/defaulteditlanguage/) { get; set; } | Gets or sets default edit language. |
 | [DefaultFont](../../aspose.cells.rendering/imageorprintoptions/defaultfont/) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, Aspose.Cells will use system default font to show these unicode characters. |
 | [DrawObjectEventHandler](../../aspose.cells.rendering/imageorprintoptions/drawobjecteventhandler/) { get; set; } | Implements this interface to get DrawObject and Bound when rendering. |
 | [EmbededImageNameInSvg](../../aspose.cells.rendering/imageorprintoptions/embededimagenameinsvg/) { get; set; } | (**Obsolete.**) Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded" |
 | [EmfRenderSetting](../../aspose.cells.rendering/imageorprintoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafiles in source file. |
 | [EmfType](../../aspose.cells.rendering/imageorprintoptions/emftype/) { get; set; } | Gets or sets an EmfType that specifies the format of the Metafile.. The default value is EmfPlusDual. |
-| [GridlineColor](../../aspose.cells.rendering/imageorprintoptions/gridlinecolor/) { get; set; } | Gets or sets gridline color. |
+| [GridlineColor](../../aspose.cells.rendering/imageorprintoptions/gridlinecolor/) { get; set; } | Gets or sets gridline colr. |
 | [GridlineType](../../aspose.cells.rendering/imageorprintoptions/gridlinetype/) { get; set; } | Gets or sets gridline type. |
 | [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | virtual [ImageType](../../aspose.cells.rendering/imageorprintoptions/imagetype/) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |
@@ -75,46 +76,48 @@ public class ImageOrPrintOptions
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Charts;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class RenderingClassImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create ImageOrPrintOptions and set properties
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.HorizontalResolution = 300;
+            options.VerticalResolution = 300;
 
-//Set Image Or Print Options
-ImageOrPrintOptions options = new ImageOrPrintOptions();
+            // Create a new workbook with sample data and chart
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
 
-//Set output image format
-options.ImageType = ImageType.Png;
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-//Set Horizontal resolution
-options.HorizontalResolution = 300;
-
-//Set Vertical Resolution
-options.VerticalResolution = 300;
-
-//Instantiate Workbook
-Workbook book = new Workbook("test.xls");
-
-//Save chart as Image using ImageOrPrint Options
-book.Worksheets[0].Charts[0].ToImage("chart.png", options);
-
-[VB.NET]
-
-'Set Image Or Print Options
-Dim options As New ImageOrPrintOptions()
-
-'Set output image format
-options.ImageType = ImageType.Png
-
-'Set Horizontal resolution
-options.HorizontalResolution = 300
-
-'Set Vertical Resolution
-options.VerticalResolution = 300
-
-'Instantiate Workbook
-Dim book As New Workbook("test.xls")
-
-'Save chart as Image using ImageOrPrint Options
-book.Worksheets(0).Charts(0).ToImage("chart.png", options)
+            // Save chart as image using the options
+            chart.ToImage("output_chart.png", options);
+        }
+    }
+}
 ```
 
 ### See Also

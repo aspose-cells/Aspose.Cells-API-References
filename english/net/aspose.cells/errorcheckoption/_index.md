@@ -27,35 +27,43 @@ public class ErrorCheckOption
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class ErrorCheckOptionDemo
+    {
+        public static void ErrorCheckOptionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-  Workbook workbook = new Workbook();
-  ErrorCheckOptionCollection opts = workbook.Worksheets[0].ErrorCheckOptions;
-  int optionIdx = opts.Add();
-  ErrorCheckOption opt = opts[optionIdx];
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, false);
-  opt.AddRange(CellArea.CreateCellArea("A1", "B10"));
-  workbook.Save(@"Book1.xlsx");
-  
-[Visual Basic]
+            // Get the ErrorCheckOptionCollection from the worksheet
+            ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
 
-   Dim workbook As Workbook = New Workbook()
-   Dim opts As ErrorCheckOptionCollection = workbook.Worksheets(0).ErrorCheckOptions
-   Dim optionIdx As Integer = opts.Add()
-   Dim opt As ErrorCheckOption = opts(optionIdx)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, False)
-   opt.AddRange(CellArea.CreateCellArea("A1", "B10"))
-   workbook.Save("Book1.xlsx")
-   
+            // Add a new ErrorCheckOption to the collection
+            int optionIdx = opts.Add();
+            ErrorCheckOption opt = opts[optionIdx];
+
+            // Set error check options
+            opt.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            opt.SetErrorCheck(ErrorCheckType.TextDate, false);
+            opt.SetErrorCheck(ErrorCheckType.TextNumber, false);
+            opt.SetErrorCheck(ErrorCheckType.Validation, false);
+
+            // Define a cell area and add it to the ErrorCheckOption
+            CellArea ca = CellArea.CreateCellArea("A1", "B10");
+            opt.AddRange(ca);
+
+            // Save the workbook
+            workbook.Save("ErrorCheckOptionExample.xlsx");
+            workbook.Save("ErrorCheckOptionExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

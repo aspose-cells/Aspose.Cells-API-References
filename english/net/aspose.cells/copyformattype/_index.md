@@ -24,9 +24,7 @@ public enum CopyFormatType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

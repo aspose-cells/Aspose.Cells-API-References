@@ -16,32 +16,50 @@ public WebExtensionReference Reference { get; }
 ### Examples
 
 ```csharp
-// Called: webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
-public void WebExtension_Property_Reference()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.WebExtensions;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-    int index = webExtensions.Add();
-    WebExtension webExt = webExtensions[index];
-    //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
-    webExt.Reference.Version = "1.0.6.28";
-    webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
-    webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
-    webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
-
-    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-    int index1 = taskPanes.Add();
-    WebExtensionTaskPane taskPane = taskPanes[index1];
-
-    taskPane.WebExtension = webExt;
-    taskPane.DockState = "right";
-    taskPane.IsVisible = true;
-    taskPane.Width = 350;
-    taskPane.Row = 7;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
+    public class WebExtensionPropertyReferenceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a web extension
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            int webExtIndex = webExtensions.Add();
+            WebExtension webExt = webExtensions[webExtIndex];
+            
+            // Set reference properties
+            webExt.Reference.Version = "1.0.6.28";
+            webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
+            webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
+            
+            // Add extension properties
+            webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
+            
+            // Add task pane
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            int taskPaneIndex = taskPanes.Add();
+            WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
+            
+            // Configure task pane
+            taskPane.WebExtension = webExt;
+            taskPane.DockState = "right";
+            taskPane.IsVisible = true;
+            taskPane.Width = 350;
+            taskPane.Row = 7;
+            
+            // Save the workbook
+            workbook.Save("WebExtensionDemo.xlsx");
+            
+            Console.WriteLine("Web extension with reference properties created successfully.");
+        }
+    }
 }
 ```
 

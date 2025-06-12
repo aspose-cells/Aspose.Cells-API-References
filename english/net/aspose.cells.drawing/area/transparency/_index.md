@@ -16,22 +16,56 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("area trans: " + ser.Area.Transparency);
-//http://www.aspose.com/community/forums/thread/224730.aspx
-public void Area_Property_Transparency()
-{
-    Console.WriteLine("Area_Property_Transparency()");
-    string infn = path + "Test_SimpleTransparency.xlsx";
-    string outfn = Constants.destPath + "Test_SimpleTransparency_out.xlsx";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    Workbook book = new Workbook(infn);
-    Chart c = book.Worksheets[0].Charts[0];
-    Series ser = c.NSeries[0];
-    Console.WriteLine("area trans: " + ser.Area.Transparency);
-    Console.WriteLine("line trans: " + ser.Border.Transparency);
-    ser.Area.Transparency = .8;
-    ser.Border.Transparency = 0;
-    book.Save(outfn);
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyTransparencyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Access the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+
+            // Demonstrate Transparency property
+            Console.WriteLine("Initial area transparency: " + series.Area.Transparency);
+            Console.WriteLine("Initial border transparency: " + series.Border.Transparency);
+
+            // Modify transparency values
+            series.Area.Transparency = 0.5; // 50% transparent
+            series.Border.Transparency = 0.2; // 20% transparent
+
+            Console.WriteLine("Modified area transparency: " + series.Area.Transparency);
+            Console.WriteLine("Modified border transparency: " + series.Border.Transparency);
+
+            // Save the workbook
+            workbook.Save("AreaPropertyTransparencyDemo_out.xlsx");
+        }
+    }
 }
 ```
 

@@ -21,41 +21,35 @@ NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property.
 ### Examples
 
 ```csharp
-// Called: glowEffect.Radius = 10.0;
-public static void GlowEffect_Property_Radius()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class GlowEffectPropertyRadiusDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an arc shape to the worksheet
             ArcShape arcShape = worksheet.Shapes.AddArc(2, 0, 2, 0, 130, 130);
-
-            // Set the placement of the arc
             arcShape.Placement = PlacementType.FreeFloating;
-
-            // Set the fill format
             arcShape.Fill.FillType = FillType.Solid;
-            arcShape.Fill.SolidFill.Color = Color.Blue;
+            arcShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
 
-            // Set the line style
-            arcShape.Line.CompoundType = MsoLineStyle.Single;
-            arcShape.Line.Weight = 2;
-            arcShape.Line.FillType = FillType.Solid;
-            arcShape.Line.SolidFill.Color = Color.Red;
-            arcShape.Line.DashStyle = MsoLineDashStyle.Solid;
-
-            // Create a GlowEffect instance and set its properties
             GlowEffect glowEffect = arcShape.Glow;
             glowEffect.Color = workbook.CreateCellsColor();
-            glowEffect.Color.Color = Color.Yellow;
-            glowEffect.Radius = 10.0;
-            glowEffect.Transparency = 0.5;
+            glowEffect.Color.Color = System.Drawing.Color.Yellow;
+            glowEffect.Radius = 15.0; // Demonstrating Radius property
+            glowEffect.Transparency = 0.3;
 
-            // Save the workbook
-            workbook.Save("GlowEffectExample.xlsx");
-            workbook.Save("GlowEffectExample.pdf");
+            workbook.Save("GlowEffectRadiusDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

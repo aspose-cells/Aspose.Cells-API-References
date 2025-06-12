@@ -17,6 +17,63 @@ public void Remove(string[] names)
 | --- | --- | --- |
 | names | String[] | The names' text. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class NameCollectionMethodRemoveWithStringArrayDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the NameCollection from the workbook
+            NameCollection names = workbook.Worksheets.Names;
+            
+            // Add some named ranges to demonstrate removal
+            names.Add("TestRange1");
+            names.Add("TestRange2");
+            names.Add("TestRange3");
+            
+            // Prepare the array of names to remove
+            string[] namesToRemove = new string[] { "TestRange1", "TestRange3" };
+
+            try
+            {
+                // Call the Remove method with String[] parameter
+                names.Remove(namesToRemove);
+                
+                Console.WriteLine("Names removed successfully:");
+                foreach (string name in namesToRemove)
+                {
+                    Console.WriteLine(name);
+                }
+                
+                // Display remaining names
+                Console.WriteLine("\nRemaining names in the collection:");
+                foreach (Name name in names)
+                {
+                    Console.WriteLine(name.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Remove method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("NameCollectionRemoveDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [NameCollection](../)
@@ -40,19 +97,32 @@ public void Remove(string text)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.Names.Remove("Source!EHC_Admin");
-public void NameCollection_Method_Remove()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    int count = workbook.Worksheets.Names.Count;
-    //workbook.Worksheets.DeleteName("Source!EHC_Admin");
-    workbook.Worksheets.Names.Remove("Source!EHC_Admin");
-    Worksheet sheet = workbook.Worksheets["Test"];
-    Aspose.Cells.Range range = sheet.Cells.CreateRange("A1", "B10");
+using System;
+using Aspose.Cells;
 
-    range.Name = "EHC_Admin";
-    Assert.AreEqual(workbook.Worksheets.Names.Count, count);
-    workbook.Save(Constants.destPath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class NameCollectionMethodRemoveWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add a named range
+            Aspose.Cells.Range range = sheet.Cells.CreateRange("A1", "B10");
+            range.Name = "TestRange";
+            
+            // Display count before removal
+            Console.WriteLine("Named ranges count before removal: " + workbook.Worksheets.Names.Count);
+            
+            // Remove the named range
+            workbook.Worksheets.Names.Remove("TestRange");
+            
+            // Display count after removal
+            Console.WriteLine("Named ranges count after removal: " + workbook.Worksheets.Names.Count);
+        }
+    }
 }
 ```
 

@@ -29,40 +29,48 @@ Returns null (Nothing) if no cell is found.
 ### Examples
 
 ```csharp
-// Called: cell = worksheet.Cells.Find("Marginal Tax Rate", null);
-public void Cells_Method_Find()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA44628_";
-    string savePath = CreateFolder(filePath);
+    public class CellsMethodFindWithObjectCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(filePath + "State Reconciliation.xlsx");
-    Worksheet worksheet = wb.Worksheets[0];
-    PivotTable pivotTable = worksheet.PivotTables[0];
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    //Find the cell containing the row field text/label
-    Cell cell = worksheet.Cells.Find("State Apport. Factor", null);
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(1.8);
+            worksheet.Cells["A4"].PutValue("Banana");
+            worksheet.Cells["B4"].PutValue(1.2);
 
-    //Create the style with your desired formatting
-    Style style = wb.CreateStyle();
-    style.Custom = "0.00%";
-    style.Font.Name = "Calibri";
-    style.Font.Size = 11;
+            // Find the cell containing "Orange"
+            Cell searchCell = null;
+            Cell foundCell = worksheet.Cells.Find("Orange", searchCell);
 
-    //format the row data
-    pivotTable.FormatRow(cell.Row, style);
+            if (foundCell != null)
+            {
+                Console.WriteLine("Found 'Orange' at: " + foundCell.Name);
+                
+                // Create and apply a style to the found cell
+                Style style = workbook.CreateStyle();
+                style.Font.Color = System.Drawing.Color.Red;
+                style.Font.IsBold = true;
+                foundCell.SetStyle(style);
+            }
 
-    cell = worksheet.Cells.Find("Marginal Tax Rate", null);
-    //format the row data
-    pivotTable.FormatRow(cell.Row, style);
-
-    wb.Save(savePath + "out.xlsx");
-
-    string pivotXml = GetEntryText(savePath + "out.xlsx", @"xl\pivotTables\pivotTable1.xml");
-    Assert.AreNotEqual(pivotXml.IndexOf("<x v=\"6\" />"), -1);
-    Assert.AreNotEqual(pivotXml.IndexOf("<x v=\"13\" />"), -1);
-
-            
+            // Save the workbook
+            workbook.Save("FindMethodDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -100,13 +108,35 @@ Returns null (Nothing) if no cell is found.
 ### Examples
 
 ```csharp
-// Called: Cell cell = cells.Find("abc ", null,options);
-private void Cells_Method_Find(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodFindWithObjectCellFindOptionsDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells.Find("abc ", null,options);
-            testAreEqual(null, cell, caseName);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data
+            worksheet.Cells["A1"].PutValue("abc");
+            worksheet.Cells["A2"].PutValue("def");
+            worksheet.Cells["A3"].PutValue("abc ");
+            
+            // Create find options
+            FindOptions options = new FindOptions();
+            options.LookInType = LookInType.Values;
+            options.LookAtType = LookAtType.Contains;
+            
+            // Find cell with value "abc "
+            Cell foundCell = worksheet.Cells.Find("abc ", null, options);
+            
+            Console.WriteLine("Found cell: " + (foundCell != null ? foundCell.Name : "null"));
         }
+    }
+}
 ```
 
 ### See Also

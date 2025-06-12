@@ -16,37 +16,44 @@ public PivotAreaType RuleType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PivotAreaType.Button, pfc.PivotAreas[0].RuleType);
-public void PivotArea_Property_RuleType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    public class PivotAreaPropertyRuleTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["A2"].Value = "Bike";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["A3"].Value = "Car";
+            worksheet.Cells["B3"].Value = 2500;
 
-    PivotTable pivot = book.Worksheets[0].PivotTables[0];
-    // pivot.AddFieldToArea(PivotFieldType.Page, "year");
-    pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            // Corrected pivot table creation
+            int pivotIndex = worksheet.PivotTables.Add("E5", "A1:B3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            pivotTable.CalculateData();
 
-    //Add PivotFormatCondition
-    int formatIndex = pivot.ConditionalFormats.Add();
-    PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-    pfc.AddCellArea(CellArea.CreateCellArea("I12", "J12"));
-    Assert.AreEqual(2, pfc.PivotAreas.Count);
-    Assert.AreEqual(PivotAreaType.Button, pfc.PivotAreas[0].RuleType);
-    Assert.AreEqual(PivotAreaType.Normal, pfc.PivotAreas[1].RuleType);
-    FormatConditionCollection fcc = pfc.FormatConditions;
+            int formatIndex = pivotTable.ConditionalFormats.Add();
+            PivotConditionalFormat pfc = pivotTable.ConditionalFormats[formatIndex];
+            pfc.AddCellArea(CellArea.CreateCellArea("E5", "F6"));
 
+            Console.WriteLine("PivotArea[0] RuleType: " + pfc.PivotAreas[0].RuleType);
+            Console.WriteLine("PivotArea[1] RuleType: " + pfc.PivotAreas[1].RuleType);
 
-
-    int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
-    FormatCondition fc = pfc.FormatConditions[index];
-    fc.Formula1 = "100";
-    fc.Operator = OperatorType.GreaterOrEqual;
-    fc.Style.BackgroundColor = Color.Red;
-
-    pivot.CalculateData();
-    CellArea ca = fcc.GetCellArea(0);
-    Assert.IsTrue(CellAreaTest.equals(ca, CellArea.CreateCellArea("I12", "J12"), "Area"));
-    book.Save(Constants.PivotTableDestPath + "example.xlsx");
-
+            workbook.Save("PivotAreaPropertyRuleTypeDemo_output.xlsx");
+        }
+    }
 }
 ```
 

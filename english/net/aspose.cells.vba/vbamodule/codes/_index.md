@@ -16,28 +16,33 @@ public string Codes { get; set; }
 ### Examples
 
 ```csharp
-// Called: module.Codes = (code + "\n" +
-public void VbaModule_Property_Codes()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    VbaModuleCollection modules = workbook.VbaProject.Modules;
-    bool hasFinalMacros = false;
-    for (int i = 0; i < modules.Count; i++)
+    public class VbaModulePropertyCodesDemo
     {
-        VbaModule module = modules[i];
-        String code = module.Codes;
-        if (code.ToLower().Contains("finalmacros"))
+        public static void Run()
         {
-            module.Codes = (code + "\n" +
-                    "Private Sub Auto_open()\n" +
-                    " Call FinalMacros\n" +
-                    "End Sub");
-            break;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a VBA module
+            int index = workbook.VbaProject.Modules.Add(VbaModuleType.Class, "TestModule");
+            Aspose.Cells.Vba.VbaModule module = workbook.VbaProject.Modules[index];
+            
+            // Set initial code
+            module.Codes = "Sub TestMacro()\n    MsgBox \"Hello World\"\nEnd Sub";
+            
+            // Modify the code by appending new lines
+            module.Codes = module.Codes + "\nSub AnotherMacro()\n    MsgBox \"Second Macro\"\nEnd Sub";
+            
+            // Save the workbook
+            workbook.Save("VbaModuleDemo.xlsm", SaveFormat.Xlsm);
         }
     }
-    Util.SaveManCheck(workbook, "Shape", "example.xls");
-
-
 }
 ```
 

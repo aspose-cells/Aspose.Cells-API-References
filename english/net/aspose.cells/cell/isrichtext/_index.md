@@ -16,16 +16,38 @@ public bool IsRichText()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(a1.IsRichText(), true);
-public void Cell_Method_IsRichText()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45035/";
-    var wb = new Workbook(filePath + "sample.html");
-    Cell a1 = wb.Worksheets[0].Cells["A1"];
-    Assert.AreEqual(a1.IsRichText(), true);
-    Assert.AreEqual(a1.GetCharacters()[0].Font.IsBold, true);
-    Assert.AreEqual(a1.GetCharacters()[1].Font.IsBold, false);
-    wb.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
+    public class CellMethodIsRichTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a cell with rich text formatting
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Hello World");
+            
+            // Apply rich text formatting
+            FontSetting boldFont = cell.GetCharacters()[0];
+            boldFont.Font.IsBold = true;
+            
+            FontSetting normalFont = cell.GetCharacters()[6];
+            normalFont.Font.IsBold = false;
+            
+            // Check if the cell contains rich text
+            bool isRichText = cell.IsRichText();
+            Console.WriteLine("Is cell A1 rich text? " + isRichText);
+            
+            // Save the workbook
+            workbook.Save("RichTextDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

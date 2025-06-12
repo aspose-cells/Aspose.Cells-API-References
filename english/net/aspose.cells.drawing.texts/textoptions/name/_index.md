@@ -16,34 +16,36 @@ public override string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: font.Name = "Calibri";
-public void TextOptions_Property_Name()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
-    sp.Fill.FillType = FillType.None;
-
-    sp.Text = "Hello World !!!";
-    FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
-    TextOptions font = fs.TextOptions;
-    font.Name = "Calibri";
-    font.Size = 54;
-    font.IsBold = true;
-
-
-    font.Color = System.Drawing.Color.Green;
-    font.Outline.FillType = FillType.Solid;
-    SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
-    outLineFill.Color = Color.White;
-
-    font.Fill.FillType = FillType.Solid;
-    SolidFill fill = font.Fill.SolidFill;
-    fill.Color = Color.Green;
-    font.Shadow.PresetType = PresetShadowType.OffsetBottom;
-
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+    public class TextOptionsPropertyNameDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            Shape shape = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 200, 100, 0, 0);
+            shape.Text = "Sample Text";
+            
+            FontSetting fontSetting = shape.Characters(0, shape.Text.Length);
+            TextOptions textOptions = fontSetting.TextOptions;
+            
+            // Demonstrate Name property usage
+            textOptions.Name = "Arial";
+            textOptions.Size = 14;
+            textOptions.IsBold = true;
+            textOptions.Color = System.Drawing.Color.Blue;
+            
+            workbook.Save("TextOptionsPropertyNameDemo.xlsx");
+        }
+    }
 }
 ```
 

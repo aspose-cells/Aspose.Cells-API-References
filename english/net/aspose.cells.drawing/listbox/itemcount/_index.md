@@ -16,27 +16,38 @@ public int ItemCount { get; }
 ### Examples
 
 ```csharp
-// Called: int count = listbox.ItemCount;
-public void ListBox_Property_ItemCount()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets.Add("First Sheet");
+    public class ListBoxPropertyItemCountDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets.Add("Sheet1");
 
-    worksheet.Cells[0, 0].PutValue("Jason");
-    worksheet.Cells[1, 0].PutValue("Rick");
-    worksheet.Cells[2, 0].PutValue("Jane");
-    worksheet.Cells[3, 0].PutValue("Rachel");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Mango");
 
-    Aspose.Cells.Drawing.ListBox listbox = worksheet.Shapes.AddListBox(0, 0, 1, 0, 40, 100);
-    listbox.InputRange = "A1:A4";
-    listbox.SelectionType = Aspose.Cells.Drawing.SelectionType.Multi;
-    int count = listbox.ItemCount;
-    Assert.AreEqual(count, 4);
-    listbox.PageChange = count;
-    listbox.Height = count * 15;
+            // Create list box and set properties
+            Aspose.Cells.Drawing.ListBox listBox = worksheet.Shapes.AddListBox(1, 0, 10, 0, 100, 150);
+            listBox.InputRange = "A1:A4";
+            
+            // Demonstrate ItemCount usage
+            int itemCount = listBox.ItemCount;
+            Console.WriteLine("ListBox contains {0} items", itemCount);
+            
+            // Adjust listbox height based on item count
+            listBox.Height = itemCount * 15;
 
-
-    workbook.Save(Constants.destPath + "example.xlsx");
+            workbook.Save("ListBoxItemCountDemo.xlsx");
+        }
+    }
 }
 ```
 

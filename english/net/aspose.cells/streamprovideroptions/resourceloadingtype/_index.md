@@ -16,25 +16,48 @@ public ResourceLoadingType ResourceLoadingType { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
-public void StreamProviderOptions_Property_ResourceLoadingType(StreamProviderOptions options)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StreamProviderOptionsPropertyResourceLoadingTypeDemo
+    {
+        public static void Run()
         {
+            // Create workbook with stream provider options
+            var options = new StreamProviderOptions
+            {
+                ResourceLoadingType = ResourceLoadingType.UserProvided
+            };
+
+            // Demonstrate different resource loading behaviors
             if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
             {
-                // Provide a custom stream for the resource
+                // Provide a custom memory stream
                 options.Stream = new MemoryStream();
+                Console.WriteLine("Using user-provided memory stream");
             }
             else if (options.ResourceLoadingType == ResourceLoadingType.Skip)
             {
-                // Skip loading the resource
+                // Skip loading by using null stream
                 options.Stream = Stream.Null;
+                Console.WriteLine("Skipping resource loading");
             }
             else
             {
-                // Load the resource as usual
-                options.Stream = new FileStream(options.DefaultPath, FileMode.Open, FileAccess.Read);
+                // Default file loading behavior
+                string defaultPath = "default_resource.txt";
+                options.Stream = new FileStream(defaultPath, FileMode.Open, FileAccess.Read);
+                Console.WriteLine("Loading resource from default path");
             }
+
+            // Cleanup
+            options.Stream?.Dispose();
         }
+    }
+}
 ```
 
 ### See Also

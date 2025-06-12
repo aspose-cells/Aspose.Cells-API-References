@@ -16,27 +16,37 @@ public bool SummaryRowBelow { get; set; }
 ### Examples
 
 ```csharp
-// Called: outline.SummaryRowBelow = true; // Indicates if the summary row will be positioned below the detail rows
-public static void Outline_Property_SummaryRowBelow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class OutlinePropertySummaryRowBelowDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet in the workbook
             Worksheet worksheet = workbook.Worksheets[0];
             
-            // Access the outline of the worksheet
+            // Add sample data and grouping
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Amount");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("Total");
+            worksheet.Cells["B4"].PutValue("=SUM(B2:B3)");
+            
+            // Group rows and set summary row position
+            worksheet.Cells.GroupRows(1, 2, false);
             Outline outline = worksheet.Outline;
+            outline.SummaryRowBelow = true;
             
-            // Set the properties of the outline
-            outline.SummaryRowBelow = true; // Indicates if the summary row will be positioned below the detail rows
-            outline.SummaryColumnRight = true; // Indicates if the summary column will be positioned to the right of the detail columns
-            
-            // Save the workbook
-            workbook.Save("OutlineExample.xlsx");
-
-            return;
+            workbook.Save("OutlineSummaryRowBelow.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

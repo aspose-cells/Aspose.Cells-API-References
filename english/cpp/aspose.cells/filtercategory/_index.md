@@ -4,7 +4,7 @@ linktitle: FilterCategory
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterCategory enum. Represents the category of the filter in C++.'
 type: docs
-weight: 21100
+weight: 21200
 url: /cpp/aspose.cells/filtercategory/
 ---
 ## FilterCategory enum

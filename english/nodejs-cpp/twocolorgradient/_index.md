@@ -17,22 +17,31 @@ class TwoColorGradient;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Color, Color, GradientStyleType, number)](#constructor-color-color-gradientstyletype-number-)|  |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [color1](#color1--)| Color | Gets and sets the first gradient color. |
+| [color2](#color2--)| Color | Gets and sets the second gradient color. |
+| [gradientStyleType](#gradientStyleType--)| GradientStyleType | Gets and sets gradient shading style. |
+| [variant](#variant--)| number | Gets and sets the gradient variant. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getColor1()](#getColor1--)| Gets and sets the first gradient color. |
-| [setColor1(Color)](#setColor1-color-)| Gets and sets the first gradient color. |
-| [getColor2()](#getColor2--)| Gets and sets the second gradient color. |
-| [setColor2(Color)](#setColor2-color-)| Gets and sets the second gradient color. |
-| [getGradientStyleType()](#getGradientStyleType--)| Gets and sets gradient shading style. |
-| [setGradientStyleType(GradientStyleType)](#setGradientStyleType-gradientstyletype-)| Gets and sets gradient shading style. |
-| [getVariant()](#getVariant--)| Gets and sets the gradient variant. |
-| [setVariant(number)](#setVariant-number-)| Gets and sets the gradient variant. |
+| [getColor1()](#getColor1--)| <b>@deprecated.</b> Please use the 'color1' property instead. Gets and sets the first gradient color. |
+| [setColor1(Color)](#setColor1-color-)| <b>@deprecated.</b> Please use the 'color1' property instead. Gets and sets the first gradient color. |
+| [getColor2()](#getColor2--)| <b>@deprecated.</b> Please use the 'color2' property instead. Gets and sets the second gradient color. |
+| [setColor2(Color)](#setColor2-color-)| <b>@deprecated.</b> Please use the 'color2' property instead. Gets and sets the second gradient color. |
+| [getGradientStyleType()](#getGradientStyleType--)| <b>@deprecated.</b> Please use the 'gradientStyleType' property instead. Gets and sets gradient shading style. |
+| [setGradientStyleType(GradientStyleType)](#setGradientStyleType-gradientstyletype-)| <b>@deprecated.</b> Please use the 'gradientStyleType' property instead. Gets and sets gradient shading style. |
+| [getVariant()](#getVariant--)| <b>@deprecated.</b> Please use the 'variant' property instead. Gets and sets the gradient variant. |
+| [setVariant(number)](#setVariant-number-)| <b>@deprecated.</b> Please use the 'variant' property instead. Gets and sets the gradient variant. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -52,9 +61,45 @@ constructor(color1: Color, color2: Color, gradientStyleType: GradientStyleType, 
 | gradientStyleType | [GradientStyleType](../gradientstyletype/) |  |
 | variant | number |  |
 
-### getColor1() {#getColor1--}
+### color1 {#color1--}
 
 Gets and sets the first gradient color.
+
+```javascript
+color1 : Color;
+```
+
+
+### color2 {#color2--}
+
+Gets and sets the second gradient color.
+
+```javascript
+color2 : Color;
+```
+
+
+### gradientStyleType {#gradientStyleType--}
+
+Gets and sets gradient shading style.
+
+```javascript
+gradientStyleType : GradientStyleType;
+```
+
+
+### variant {#variant--}
+
+Gets and sets the gradient variant.
+
+```javascript
+variant : number;
+```
+
+
+### getColor1() {#getColor1--}
+
+<b>@deprecated.</b> Please use the 'color1' property instead. Gets and sets the first gradient color.
 
 ```javascript
 getColor1() : Color;
@@ -67,7 +112,7 @@ getColor1() : Color;
 
 ### setColor1(Color) {#setColor1-color-}
 
-Gets and sets the first gradient color.
+<b>@deprecated.</b> Please use the 'color1' property instead. Gets and sets the first gradient color.
 
 ```javascript
 setColor1(value: Color) : void;
@@ -80,7 +125,7 @@ setColor1(value: Color) : void;
 
 ### getColor2() {#getColor2--}
 
-Gets and sets the second gradient color.
+<b>@deprecated.</b> Please use the 'color2' property instead. Gets and sets the second gradient color.
 
 ```javascript
 getColor2() : Color;
@@ -93,7 +138,7 @@ getColor2() : Color;
 
 ### setColor2(Color) {#setColor2-color-}
 
-Gets and sets the second gradient color.
+<b>@deprecated.</b> Please use the 'color2' property instead. Gets and sets the second gradient color.
 
 ```javascript
 setColor2(value: Color) : void;
@@ -106,7 +151,7 @@ setColor2(value: Color) : void;
 
 ### getGradientStyleType() {#getGradientStyleType--}
 
-Gets and sets gradient shading style.
+<b>@deprecated.</b> Please use the 'gradientStyleType' property instead. Gets and sets gradient shading style.
 
 ```javascript
 getGradientStyleType() : GradientStyleType;
@@ -119,7 +164,7 @@ getGradientStyleType() : GradientStyleType;
 
 ### setGradientStyleType(GradientStyleType) {#setGradientStyleType-gradientstyletype-}
 
-Gets and sets gradient shading style.
+<b>@deprecated.</b> Please use the 'gradientStyleType' property instead. Gets and sets gradient shading style.
 
 ```javascript
 setGradientStyleType(value: GradientStyleType) : void;
@@ -132,7 +177,7 @@ setGradientStyleType(value: GradientStyleType) : void;
 
 ### getVariant() {#getVariant--}
 
-Gets and sets the gradient variant.
+<b>@deprecated.</b> Please use the 'variant' property instead. Gets and sets the gradient variant.
 
 ```javascript
 getVariant() : number;
@@ -141,7 +186,7 @@ getVariant() : number;
 
 ### setVariant(number) {#setVariant-number-}
 
-Gets and sets the gradient variant.
+<b>@deprecated.</b> Please use the 'variant' property instead. Gets and sets the gradient variant.
 
 ```javascript
 setVariant(value: number) : void;

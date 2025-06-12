@@ -16,10 +16,38 @@ public bool IntegralHeight { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.IntegralHeight)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.IntegralHeight = true;
+    public class TextBoxActiveXControlPropertyIntegralHeightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an ActiveX TextBox control and get its ActiveXControl property
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 1, 1, 1, 1, 200, 100);
+            var textBox = (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate IntegralHeight property
+            Console.WriteLine("Initial IntegralHeight: " + textBox.IntegralHeight);
+            
+            // Set IntegralHeight to true if it's false
+            if (!textBox.IntegralHeight)
+            {
+                textBox.IntegralHeight = true;
+                Console.WriteLine("IntegralHeight set to: " + textBox.IntegralHeight);
+            }
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlIntegralHeightDemo.xlsx");
+        }
+    }
 }
 ```
 

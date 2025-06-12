@@ -15,18 +15,43 @@ class ScenarioCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [activeIndex](#activeIndex--)| number | Gets and sets which scenario is selected. |
+| [lastSelected](#lastSelected--)| number | Indicates which scenario was last selected by the user to be run/shown. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Scenario](../scenario/) object by the index. |
-| [getActiveIndex()](#getActiveIndex--)| Gets and sets which scenario is selected. |
-| [setActiveIndex(number)](#setActiveIndex-number-)| Gets and sets which scenario is selected. |
-| [getLastSelected()](#getLastSelected--)| Indicates which scenario was last selected by the user to be run/shown. |
-| [setLastSelected(number)](#setLastSelected-number-)| Indicates which scenario was last selected by the user to be run/shown. |
+| [getActiveIndex()](#getActiveIndex--)| <b>@deprecated.</b> Please use the 'activeIndex' property instead. Gets and sets which scenario is selected. |
+| [setActiveIndex(number)](#setActiveIndex-number-)| <b>@deprecated.</b> Please use the 'activeIndex' property instead. Gets and sets which scenario is selected. |
+| [getLastSelected()](#getLastSelected--)| <b>@deprecated.</b> Please use the 'lastSelected' property instead. Indicates which scenario was last selected by the user to be run/shown. |
+| [setLastSelected(number)](#setLastSelected-number-)| <b>@deprecated.</b> Please use the 'lastSelected' property instead. Indicates which scenario was last selected by the user to be run/shown. |
 | [add(string)](#add-string-)| Adds a scenario. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### activeIndex {#activeIndex--}
+
+Gets and sets which scenario is selected.
+
+```javascript
+activeIndex : number;
+```
+
+
+### lastSelected {#lastSelected--}
+
+Indicates which scenario was last selected by the user to be run/shown.
+
+```javascript
+lastSelected : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -48,7 +73,7 @@ get(index: number) : Scenario;
 
 ### getActiveIndex() {#getActiveIndex--}
 
-Gets and sets which scenario is selected.
+<b>@deprecated.</b> Please use the 'activeIndex' property instead. Gets and sets which scenario is selected.
 
 ```javascript
 getActiveIndex() : number;
@@ -57,7 +82,7 @@ getActiveIndex() : number;
 
 ### setActiveIndex(number) {#setActiveIndex-number-}
 
-Gets and sets which scenario is selected.
+<b>@deprecated.</b> Please use the 'activeIndex' property instead. Gets and sets which scenario is selected.
 
 ```javascript
 setActiveIndex(value: number) : void;
@@ -70,7 +95,7 @@ setActiveIndex(value: number) : void;
 
 ### getLastSelected() {#getLastSelected--}
 
-Indicates which scenario was last selected by the user to be run/shown.
+<b>@deprecated.</b> Please use the 'lastSelected' property instead. Indicates which scenario was last selected by the user to be run/shown.
 
 ```javascript
 getLastSelected() : number;
@@ -79,7 +104,7 @@ getLastSelected() : number;
 
 ### setLastSelected(number) {#setLastSelected-number-}
 
-Indicates which scenario was last selected by the user to be run/shown.
+<b>@deprecated.</b> Please use the 'lastSelected' property instead. Indicates which scenario was last selected by the user to be run/shown.
 
 ```javascript
 setLastSelected(value: number) : void;
@@ -109,7 +134,7 @@ The index in the list of scenarios.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

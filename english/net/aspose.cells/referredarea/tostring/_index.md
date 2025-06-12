@@ -17,38 +17,6 @@ public override string ToString()
 
 the reference address of this area.
 
-### Examples
-
-```csharp
-// Called: Console.WriteLine(ra.ToString());
-private void ReferredArea_Method_ToString(object v)
-        {
-            if (v == null)
-            {
-                Console.WriteLine("null");
-            }
-            else if (v is object[])
-            {
-                Console.Write("{");
-                object[] vs = (object[])v;
-                foreach (object vo in vs)
-                {
-                    Console.Write(vo + ",");
-                }
-                Console.WriteLine("}");
-            }
-            else if (v is ReferredArea)
-            {
-                ReferredArea ra = (ReferredArea)v;
-                Console.WriteLine(ra.ToString());
-            }
-            else
-            {
-                Console.WriteLine(v);
-            }
-        }
-```
-
 ### See Also
 
 * class [ReferredArea](../)

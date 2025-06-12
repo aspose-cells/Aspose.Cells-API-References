@@ -67,6 +67,79 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 | [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace/#replace)(int, int, string) | Replace the text. |
 | [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle/)(PresetWordArtStyle) | Sets the preset WordArt style. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class TextsClassFontSettingCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            var textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            var fontSettings = textBox.TextBody;
+
+            // Set initial text
+            fontSettings.Text = "Initial Text";
+            Console.WriteLine("Initial Text: " + fontSettings.Text);
+
+            // Append text
+            fontSettings.AppendText("\nAppended Text");
+            Console.WriteLine("After Append: " + fontSettings.Text);
+
+            // Insert text
+            fontSettings.InsertText(7, "Inserted ");
+            Console.WriteLine("After Insert: " + fontSettings.Text);
+
+            // Replace text by position
+            fontSettings.Replace(0, 7, "Modified");
+            Console.WriteLine("After Position Replace: " + fontSettings.Text);
+
+            // Replace text by value
+            fontSettings.Replace("Appended", "Replaced");
+            Console.WriteLine("After Value Replace: " + fontSettings.Text);
+
+            // Format text
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 14;
+            style.Font.Color = System.Drawing.Color.Red;
+
+            StyleFlag flag = new StyleFlag();
+            flag.FontName = true;
+            flag.FontSize = true;
+            flag.FontColor = true;
+
+            fontSettings.Format(0, 8, style.Font, flag);
+
+            // Demonstrate HTML string
+            fontSettings.HtmlString = "<b>Bold HTML</b> <i>Italic HTML</i>";
+            Console.WriteLine("HTML String: " + fontSettings.HtmlString);
+
+            // Access text paragraphs
+            var paragraphs = fontSettings.TextParagraphs;
+            Console.WriteLine("Paragraph Count: " + paragraphs.Count);
+
+            // Set WordArt style
+            fontSettings.SetWordArtStyle(PresetWordArtStyle.WordArtStyle1);
+
+            // Save the workbook
+            workbook.Save("TextsClassFontSettingCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

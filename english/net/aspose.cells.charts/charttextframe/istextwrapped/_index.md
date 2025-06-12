@@ -16,61 +16,43 @@ public virtual bool IsTextWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.Title.IsTextWrapped = true;
-public static void ChartTextFrame_Property_IsTextWrapped()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ChartTextFramePropertyIsTextWrappedDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Access the first worksheet
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue("Income");
-            cells[1, 0].PutValue("Company A");
-            cells[2, 0].PutValue("Company B");
-            cells[3, 0].PutValue("Company C");
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Q1");
+            sheet.Cells["A3"].PutValue("Q2");
+            sheet.Cells["B1"].PutValue("Sales");
+            sheet.Cells["B2"].PutValue(12000);
+            sheet.Cells["B3"].PutValue(15000);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            // Add chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 5, 20, 10);
             Chart chart = sheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
 
-            // Set the data source for the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
-
-            // Set the title of the chart
-            chart.Title.Text = "Income Analysis";
-            chart.Title.Font.Color = Color.Blue;
-            chart.Title.IsVisible = true;
-            chart.Title.X = 100;
-            chart.Title.Y = 50;
-            chart.Title.OverLay = false;
-            chart.Title.IsAutoText = false;
-            chart.Title.IsDeleted = false;
-            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
-            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
-            chart.Title.RotationAngle = 0;
-            chart.Title.LinkedSource = null;
-            chart.Title.TextDirection = TextDirectionType.LeftToRight;
-            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
-            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            // Set chart title with text wrapping
+            chart.Title.Text = "Quarterly Sales Report (2023) - This is a long title that will wrap when IsTextWrapped is true";
             chart.Title.IsTextWrapped = true;
-            chart.Title.IsResizeShapeToFitText = true;
-            chart.Title.IsInnerMode = false;
-            chart.Title.AutoScaleFont = true;
-            chart.Title.BackgroundMode = BackgroundMode.Transparent;
-            chart.Title.IsAutomaticSize = true;
-            chart.Title.Height = 100;
-            chart.Title.Width = 200;
-            chart.Title.Shadow = false;
-
-            // Save the workbook
-            workbook.Save("TitleExample.xlsx");
+            
+            // Save workbook
+            workbook.Save("ChartTextWrappingDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

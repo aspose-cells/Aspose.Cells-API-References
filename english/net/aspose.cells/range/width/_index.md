@@ -16,15 +16,33 @@ public double Width { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(64 / 96.0 * 72 * 2, range.Width);
-public void Range_Property_Width()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B2:C4");
-    Assert.AreEqual(12.75, range.Top);
-    Assert.AreEqual(12.75 * 3, range.Height);
-    Assert.AreEqual(64 /96.0 *72 , range.Left);
-    Assert.AreEqual(64 / 96.0 * 72 * 2, range.Width);
+    public class RangePropertyWidthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set column widths to demonstrate Width property
+            worksheet.Cells.SetColumnWidth(1, 20); // Column B width = 20
+            worksheet.Cells.SetColumnWidth(2, 30); // Column C width = 30
+            
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2:C4");
+            
+            // Display range width (sum of column widths in the range)
+            Console.WriteLine("Range Width: " + range.Width);
+            
+            // Display individual properties for verification
+            Console.WriteLine("Range Left Position: " + range.Left);
+            Console.WriteLine("Range Top Position: " + range.Top);
+            Console.WriteLine("Range Height: " + range.Height);
+        }
+    }
 }
 ```
 

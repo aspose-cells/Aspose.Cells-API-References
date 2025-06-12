@@ -16,9 +16,31 @@ public TextOverflowType TextHorizontalOverflow { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+namespace AsposeCellsExamples
+{
+    public class ShapeTextAlignmentPropertyTextHorizontalOverflowDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box shape
+            TextBox textBox = worksheet.Shapes.AddTextBox(1, 0, 1, 100, 300, 50);
+            textBox.Text = "This is a long text that demonstrates horizontal overflow behavior";
+
+            // Set horizontal overflow to Clip
+            textBox.TextBody.TextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+
+            // Save the workbook
+            workbook.Save("TextHorizontalOverflowDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

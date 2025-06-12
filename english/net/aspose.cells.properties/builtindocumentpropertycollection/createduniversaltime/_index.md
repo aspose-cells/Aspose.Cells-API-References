@@ -20,17 +20,30 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
-public void BuiltInDocumentPropertyCollection_Property_CreatedUniversalTime()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wk = new Workbook(Constants.sourcePath + "example.xlsm");
-    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
-    wk = Util.ReSave(wk, SaveFormat.Excel97To2003);
-    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
-    wk = Util.ReSave(wk, SaveFormat.SpreadsheetML);
-    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
-    wk = Util.ReSave(wk, SaveFormat.Xlsx);
-    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+    public class BuiltInDocumentPropertyCollectionPropertyCreatedUniversalTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the CreatedUniversalTime property
+            DateTime creationTime = new DateTime(2023, 5, 15, 15, 30, 0, DateTimeKind.Utc);
+            workbook.BuiltInDocumentProperties.CreatedUniversalTime = creationTime;
+            
+            // Display the CreatedUniversalTime property
+            Console.WriteLine("Document created (UTC): " + 
+                workbook.BuiltInDocumentProperties.CreatedUniversalTime.ToString());
+            
+            // Save the workbook
+            workbook.Save("DocumentPropertiesDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

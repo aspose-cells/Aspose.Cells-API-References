@@ -20,19 +20,33 @@ The returned custom string is culture-independent.
 ### Examples
 
 ```csharp
-// Called: style.Custom = "d-mmm-yy";
-public void Style_Property_Custom()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-  Workbook workbook = new Workbook();
-  Cells cells = workbook.Worksheets[0].Cells;
-  Style style = workbook.CreateStyle();
-  style.Custom = "d-mmm-yy";
-  cells[0, 0].PutValue(1999);
-  cells[0, 0].SetStyle(style);
-  cells[0, 1].Formula = "=CELL(\"format\", A1)";
-  Console.WriteLine("=CELL(\"format\", A1)");
-  workbook.CalculateFormula();
-  Assert.AreEqual("D1", cells[0, 1].StringValue);
+    public class StylePropertyCustomDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create and apply custom date format
+            Style style = workbook.CreateStyle();
+            style.Custom = "d-mmm-yy";
+            
+            cells["A1"].PutValue(new DateTime(2023, 10, 15));
+            cells["A1"].SetStyle(style);
+
+            // Display the formatted value
+            Console.WriteLine("Formatted value: " + cells["A1"].StringValue);
+            
+            // Save the workbook
+            workbook.Save("StylePropertyCustomDemo_out.xlsx");
+        }
+    }
 }
 ```
 

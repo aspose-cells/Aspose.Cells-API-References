@@ -4,7 +4,7 @@ linktitle: XmlLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlLoadOptions class. Represents the options of loading xml in C++.'
 type: docs
-weight: 16800
+weight: 17200
 url: /cpp/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -44,7 +44,7 @@ class XmlLoadOptions : public Aspose::Cells::LoadOptions
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](../loadoptions/getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [GetRegion()](../loadoptions/getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [GetRegion()](../loadoptions/getregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [GetStartCell()](./getstartcell/) | Gets and sets the start cell. |
 | [GetWarningCallback()](../loadoptions/getwarningcallback/) | Gets or sets warning callback. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -83,7 +83,7 @@ class XmlLoadOptions : public Aspose::Cells::LoadOptions
 | [SetPassword(const U16String\& value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPassword(const char16_t* value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](../loadoptions/setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [SetStartCell(const U16String\& value)](./setstartcell/) | Gets and sets the start cell. |
 | [SetStartCell(const char16_t* value)](./setstartcell/) | Gets and sets the start cell. |
 | [SetWarningCallback(IWarningCallback* value)](../loadoptions/setwarningcallback/) | Gets or sets warning callback. |

@@ -105,50 +105,74 @@ public class Chart
 
 ### Examples
 
-The following codes show how to create a chart with .Net codes.
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+    public class ChartDemo
+    {
+        public static void ChartExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Cells cells = sheet.Cells;
-cells[0,1].PutValue("Income");
-cells[1,0].PutValue("Company A");
-cells[2,0].PutValue("Company B");
-cells[3,0].PutValue("Company C");
-cells[1,1].PutValue(10000);
-cells[2,1].PutValue(20000);
-cells[3,1].PutValue(30000);
-		
-int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            // Add sample data
+            worksheet.Cells[0, 1].PutValue("Income");
+            worksheet.Cells[1, 0].PutValue("Company A");
+            worksheet.Cells[2, 0].PutValue("Company B");
+            worksheet.Cells[3, 0].PutValue("Company C");
+            worksheet.Cells[1, 1].PutValue(10000);
+            worksheet.Cells[2, 1].PutValue(20000);
+            worksheet.Cells[3, 1].PutValue(30000);
 
-Chart chart = sheet.Charts[chartIndex];
-chart.SetChartDataRange("A1:B4", true);
-chart.ShowLegend = true;
-chart.Title.Text = "Income Analysis";
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = worksheet.Charts[chartIndex];
 
-[Visual Basic]
+            // Set the data range for the chart
+            chart.SetChartDataRange("A1:B4", true);
 
-Dim workbook as Workbook = new Workbook()
-Dim sheet as Worksheet = workbook.Worksheets(0)
+            // Set chart properties
+            chart.ShowLegend = true;
+            chart.Title.Text = "Income Analysis";
+            chart.Style = 2; // Built-in style
 
-Dim cells as Cells = sheet.Cells
-cells(0,1).PutValue("Income")
-cells(1,0).PutValue("Company A")
-cells(2,0).PutValue("Company B")
-cells(3,0).PutValue("Company C")
-cells(1,1).PutValue(10000)
-cells(2,1).PutValue(20000)
-cells(3,1).PutValue(30000)
-		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)
+            // Customize the chart's appearance
+            chart.ChartObject.Name = "IncomeChart";
+            chart.PlotEmptyCellsType = PlotEmptyCellsType.NotPlotted;
+            chart.PlotVisibleCells = true;
+            chart.DisplayNaAsBlank = true;
+            chart.SizeWithWindow = true;
 
-Dim chart as Chart = sheet.Charts(chartIndex) 
-chart.SetChartDataRange("A1:B4", True);
-chart.ShowLegend = True
-chart.Title.Text = "Income Analysis"
+            // Customize the chart's axes
+            chart.CategoryAxis.Title.Text = "Companies";
+            chart.ValueAxis.Title.Text = "Income";
+            chart.CategoryAxis.MajorTickMark = TickMarkType.Outside;
+            chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
+
+            // Customize the chart's legend
+            chart.Legend.Position = LegendPositionType.Bottom;
+            chart.Legend.IsOverLay = false;
+
+            // Customize the chart's plot area
+            chart.PlotArea.Area.ForegroundColor = Color.LightYellow;
+            chart.PlotArea.Border.IsVisible = false;
+
+            // Customize the chart's chart area
+            chart.ChartArea.Area.ForegroundColor = Color.LightBlue;
+            chart.ChartArea.Border.IsVisible = false;
+
+            // Save the workbook
+            workbook.Save("ChartExample.xlsx");
+            workbook.Save("ChartExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

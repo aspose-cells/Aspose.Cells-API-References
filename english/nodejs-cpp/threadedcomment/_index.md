@@ -15,24 +15,79 @@ class ThreadedComment;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [row](#row--)| number | Readonly. Gets the row index of the comment. |
+| [column](#column--)| number | Readonly. Gets the column index of the comment. |
+| [notes](#notes--)| string | Gets and sets the text of the comment. |
+| [author](#author--)| ThreadedCommentAuthor | Gets the author of the comment. |
+| [createdTime](#createdTime--)| Date | Gets and sets the created time of this threaded comment. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRow()](#getRow--)| Gets the row index of the comment. |
-| [getColumn()](#getColumn--)| Gets the column index of the comment. |
-| [getNotes()](#getNotes--)| Gets and sets the text of the comment. |
-| [setNotes(string)](#setNotes-string-)| Gets and sets the text of the comment. |
-| [getAuthor()](#getAuthor--)| Gets the author of the comment. |
-| [setAuthor(ThreadedCommentAuthor)](#setAuthor-threadedcommentauthor-)| Gets the author of the comment. |
-| [getCreatedTime()](#getCreatedTime--)| Gets and sets the created time of this threaded comment. |
-| [setCreatedTime(Date)](#setCreatedTime-date-)| Gets and sets the created time of this threaded comment. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the comment. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the comment. |
+| [getNotes()](#getNotes--)| <b>@deprecated.</b> Please use the 'notes' property instead. Gets and sets the text of the comment. |
+| [setNotes(string)](#setNotes-string-)| <b>@deprecated.</b> Please use the 'notes' property instead. Gets and sets the text of the comment. |
+| [getAuthor()](#getAuthor--)| <b>@deprecated.</b> Please use the 'author' property instead. Gets the author of the comment. |
+| [setAuthor(ThreadedCommentAuthor)](#setAuthor-threadedcommentauthor-)| <b>@deprecated.</b> Please use the 'author' property instead. Gets the author of the comment. |
+| [getCreatedTime()](#getCreatedTime--)| <b>@deprecated.</b> Please use the 'createdTime' property instead. Gets and sets the created time of this threaded comment. |
+| [setCreatedTime(Date)](#setCreatedTime-date-)| <b>@deprecated.</b> Please use the 'createdTime' property instead. Gets and sets the created time of this threaded comment. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### row {#row--}
+
+Readonly. Gets the row index of the comment.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets the column index of the comment.
+
+```javascript
+column : number;
+```
+
+
+### notes {#notes--}
+
+Gets and sets the text of the comment.
+
+```javascript
+notes : string;
+```
+
+
+### author {#author--}
+
+Gets the author of the comment.
+
+```javascript
+author : ThreadedCommentAuthor;
+```
+
+
+### createdTime {#createdTime--}
+
+Gets and sets the created time of this threaded comment.
+
+```javascript
+createdTime : Date;
+```
 
 
 ### getRow() {#getRow--}
 
-Gets the row index of the comment.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the comment.
 
 ```javascript
 getRow() : number;
@@ -41,7 +96,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets the column index of the comment.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the comment.
 
 ```javascript
 getColumn() : number;
@@ -50,7 +105,7 @@ getColumn() : number;
 
 ### getNotes() {#getNotes--}
 
-Gets and sets the text of the comment.
+<b>@deprecated.</b> Please use the 'notes' property instead. Gets and sets the text of the comment.
 
 ```javascript
 getNotes() : string;
@@ -59,7 +114,7 @@ getNotes() : string;
 
 ### setNotes(string) {#setNotes-string-}
 
-Gets and sets the text of the comment.
+<b>@deprecated.</b> Please use the 'notes' property instead. Gets and sets the text of the comment.
 
 ```javascript
 setNotes(value: string) : void;
@@ -72,7 +127,7 @@ setNotes(value: string) : void;
 
 ### getAuthor() {#getAuthor--}
 
-Gets the author of the comment.
+<b>@deprecated.</b> Please use the 'author' property instead. Gets the author of the comment.
 
 ```javascript
 getAuthor() : ThreadedCommentAuthor;
@@ -85,7 +140,7 @@ getAuthor() : ThreadedCommentAuthor;
 
 ### setAuthor(ThreadedCommentAuthor) {#setAuthor-threadedcommentauthor-}
 
-Gets the author of the comment.
+<b>@deprecated.</b> Please use the 'author' property instead. Gets the author of the comment.
 
 ```javascript
 setAuthor(value: ThreadedCommentAuthor) : void;
@@ -98,7 +153,7 @@ setAuthor(value: ThreadedCommentAuthor) : void;
 
 ### getCreatedTime() {#getCreatedTime--}
 
-Gets and sets the created time of this threaded comment.
+<b>@deprecated.</b> Please use the 'createdTime' property instead. Gets and sets the created time of this threaded comment.
 
 ```javascript
 getCreatedTime() : Date;
@@ -107,7 +162,7 @@ getCreatedTime() : Date;
 
 ### setCreatedTime(Date) {#setCreatedTime-date-}
 
-Gets and sets the created time of this threaded comment.
+<b>@deprecated.</b> Please use the 'createdTime' property instead. Gets and sets the created time of this threaded comment.
 
 ```javascript
 setCreatedTime(value: Date) : void;

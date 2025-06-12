@@ -20,25 +20,44 @@ If the value is null, or a valid LICENSE is not set, string Aspose.Cells vVERSIO
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.Producer = "";
-public void PdfSaveOptions_Property_Producer()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-
-    wb.Worksheets[0].Cells["A1"].PutValue("test Remove Pdf Producer");
-
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.Producer = "";
-
-    using (MemoryStream ms = new MemoryStream())
+    public class PdfSaveOptionsPropertyProducerDemo
     {
-        wb.Save(ms, pdfSaveOptions);
-
-        ms.Position = 0;
-        using(StreamReader sr = new StreamReader(ms))
+        public static void Run()
         {
-            string content = sr.ReadToEnd();
-            Assert.IsTrue(content.IndexOf("/Producer") == -1);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("PDF Producer Property Demo");
+
+            // Create PDF save options
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            
+            // Set the Producer property
+            pdfSaveOptions.Producer = "Aspose.Cells for .NET";
+            
+            // Save to memory stream
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, pdfSaveOptions);
+                
+                // Verify the Producer was set
+                stream.Position = 0;
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string content = reader.ReadToEnd();
+                    Console.WriteLine(content.Contains("/Producer (Aspose.Cells for .NET)") 
+                        ? "Producer property set successfully" 
+                        : "Failed to set Producer property");
+                }
+            }
         }
     }
 }

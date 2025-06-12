@@ -25,19 +25,24 @@ The newly created property object.
 ### Examples
 
 ```csharp
-// Called: workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
-// http://www.aspose.com/community/forums/thread/288239.aspx
-// Custom properties are case sensitive
-public void CustomDocumentPropertyCollection_Method_Add()
-{
-    Console.WriteLine("CustomDocumentPropertyCollection_Method_Add()");
-    string infn = path + @"CaseSensitive\CaseSensitive.xlsx";
-    string outfn = Constants.destPath + @"CaseSensitive_out.xlsx";
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(infn);
-    workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
-    Console.WriteLine("Custom Property: " + workbook.CustomDocumentProperties["StartDate"].Value);
-    workbook.Save(outfn, SaveFormat.Xlsx);
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
+            
+            Console.WriteLine("Custom Property Value: " + 
+                workbook.CustomDocumentProperties["startdate"].Value);
+                
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -70,18 +75,31 @@ The newly created property object.
 ### Examples
 
 ```csharp
-// Called: doc.CustomDocumentProperties.Add("num1", 1);
-public void CustomDocumentPropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xlsm", new MetadataOptions(MetadataType.DocumentProperties));
-    doc.CustomDocumentProperties.Add("text1", "text2");
-    doc.CustomDocumentProperties.Add("num1", 1);
-    doc.Save(Constants.destPath + "dest.xlsm");
-    Workbook workbook = new Workbook(Constants.destPath + "dest.xlsm");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
-    Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
-
-
+    public class CustomDocumentPropertyCollectionMethodAddWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet1");
+            
+            // Add custom document properties
+            workbook.CustomDocumentProperties.Add("textProperty", "Sample Text");
+            workbook.CustomDocumentProperties.Add("numericProperty", 42);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Verify the properties
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("Text Property Value: " + loadedWorkbook.CustomDocumentProperties["textProperty"].Value);
+            Console.WriteLine("Numeric Property Value: " + loadedWorkbook.CustomDocumentProperties["numericProperty"].Value);
+        }
+    }
 }
 ```
 
@@ -114,15 +132,32 @@ The newly created property object.
 ### Examples
 
 ```csharp
-// Called: workbook.CustomDocumentProperties.Add(propertyName, new DateTime(2010, 8, 30, 16, 26, 17, DateTimeKind.Local));
-public void CustomDocumentPropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    const string propertyName = "CustomDate";
-    var workbook = new Workbook();//I use a simple template file. 
-    workbook.CustomDocumentProperties.Add(propertyName, new DateTime(2010, 8, 30, 16, 26, 17, DateTimeKind.Local));
-    var workbookAfter = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    Assert.AreEqual(Convert.ToDateTime(workbook.CustomDocumentProperties[propertyName].Value),
-        Convert.ToDateTime(workbookAfter.CustomDocumentProperties[propertyName].Value));
+    public class CustomDocumentPropertyCollectionMethodAddWithStringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a custom document property with DateTime value
+            string propertyName = "CreationDate";
+            DateTime propertyValue = new DateTime(2023, 5, 15, 10, 30, 0, DateTimeKind.Local);
+            workbook.CustomDocumentProperties.Add(propertyName, propertyValue);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            
+            // Verify the property was added
+            Console.WriteLine("Added property: {0} = {1}", 
+                propertyName, 
+                workbook.CustomDocumentProperties[propertyName].Value);
+        }
+    }
 }
 ```
 
@@ -155,40 +190,31 @@ The newly created property object.
 ### Examples
 
 ```csharp
-// Called: customProperties.Add("IsReviewed", true); // Boolean
-public static void CustomDocumentPropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringBooleanDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Access the built-in document properties
-            BuiltInDocumentPropertyCollection builtInProperties = workbook.BuiltInDocumentProperties;
-
-            // Set some built-in properties
-            builtInProperties.Author = "John Doe";
-            builtInProperties.Title = "Sample Workbook";
-            builtInProperties.Subject = "Demonstration of PropertyType";
-            builtInProperties.Company = "Aspose";
-
-            // Access the custom document properties
             CustomDocumentPropertyCollection customProperties = workbook.CustomDocumentProperties;
 
-            // Add custom properties of different types
-            customProperties.Add("IsReviewed", true); // Boolean
-            customProperties.Add("ReviewDate", DateTime.Now); // DateTime
-            customProperties.Add("Rating", 4.5); // Double
-            customProperties.Add("Pages", 100); // Number
-            customProperties.Add("Summary", "This is a sample workbook for demonstrating PropertyType."); // String
+            // Add boolean custom property
+            customProperties.Add("IsApproved", true);
 
-            // Retrieve and display custom properties
-            foreach (DocumentProperty property in customProperties)
-            {
-                Console.WriteLine($"Name: {property.Name}, Value: {property.Value}, Type: {property.Type}");
-            }
+            // Display the added property
+            DocumentProperty property = customProperties["IsApproved"];
+            Console.WriteLine($"Name: {property.Name}, Value: {property.Value}, Type: {property.Type}");
 
             // Save the workbook
-            workbook.Save("PropertyTypeExample.xlsx");
+            workbook.Save("CustomPropertiesExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -220,49 +246,34 @@ The newly created property object.
 ### Examples
 
 ```csharp
-// Called: customProperties.Add("Rating", 4.5);
-public static void CustomDocumentPropertyCollection_Method_Add()
-        {
-            // Instantiate a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
 
-            // Retrieve a list of all custom document properties of the Excel file
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringDoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
-            // Add custom document properties
-            customProperties.Add("Author", "John Doe");
-            customProperties.Add("Revision", 3);
-            customProperties.Add("LastModified", DateTime.Now);
-            customProperties.Add("IsFinal", true);
+            // Demonstrate Add method with String and Double parameters
             customProperties.Add("Rating", 4.5);
+            customProperties.Add("Score", 8.75);
 
-            // Add a linked custom document property
-            customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
-
-            // Update linked property values
-            //customProperties.UpdateLinkedPropertyValue();
-            customProperties.UpdateLinkedRange();
-
-            // Accessing custom document properties
-            DocumentProperty authorProperty = customProperties["Author"];
-            DocumentProperty revisionProperty = customProperties["Revision"];
-            DocumentProperty lastModifiedProperty = customProperties["LastModified"];
-            DocumentProperty isFinalProperty = customProperties["IsFinal"];
+            // Access and display the added properties
             DocumentProperty ratingProperty = customProperties["Rating"];
-            DocumentProperty linkedProperty = customProperties["LinkedProperty"];
+            DocumentProperty scoreProperty = customProperties["Score"];
 
-            // Print custom document properties
-            Console.WriteLine($"Author: {authorProperty.Value}");
-            Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
-            Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
-            Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
             Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
-            Console.WriteLine($"Linked Property: {linkedProperty.Value}");
+            Console.WriteLine($"Score: {scoreProperty.ToDouble()}");
 
-            // Save the workbook
-            workbook.Save("CustomDocumentPropertiesExample.xlsx");
-            workbook.Save("CustomDocumentPropertiesExample.pdf");
+            workbook.Save("CustomDocumentPropertiesWithDoubleValues.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,18 +16,36 @@ public bool DiscardImageEditData { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(w.Settings.DiscardImageEditData);
-public void WorkbookSettings_Property_DiscardImageEditData()
-{
-    Workbook w = new Workbook(Constants.sourcePath + @"example.xlsx");
-    w.Save(Constants.destPath + "example.xlsb");
-    w = new Workbook(Constants.destPath + "example.xlsb");
-    w.Save(Constants.destPath + "example.xlsx");
-    w = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(32767, w.Settings.DefaultImageResolution);
-    Assert.IsFalse(w.Settings.DiscardImageEditData);
-          
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyDiscardImageEditDataDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add an image to the worksheet
+            int index = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Picture picture = worksheet.Pictures[index];
+            
+            // Set DiscardImageEditData to true (default is false)
+            workbook.Settings.DiscardImageEditData = true;
+            
+            // Save the workbook
+            workbook.Save("output_with_discarded_image_data.xlsx", SaveFormat.Xlsx);
+            
+            // Verify the setting was applied
+            Console.WriteLine("DiscardImageEditData is set to: " + workbook.Settings.DiscardImageEditData);
+        }
+    }
 }
 ```
 

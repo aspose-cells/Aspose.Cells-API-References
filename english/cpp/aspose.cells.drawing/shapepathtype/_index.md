@@ -4,7 +4,7 @@ linktitle: ShapePathType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapePathType enum. Represents path segment type in C++.'
 type: docs
-weight: 11400
+weight: 11600
 url: /cpp/aspose.cells.drawing/shapepathtype/
 ---
 ## ShapePathType enum

@@ -16,18 +16,46 @@ public string RefersTo { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=Sheet1!$G$4:$H$6", ranges[0].RefersTo);
-public void Range_Property_RefersTo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
-    book.Save(Constants.destPath + @"example.ods");
-    book = new Workbook(Constants.destPath + @"example.ods");
-    Name name = book.Worksheets.Names["abc"];
-    Aspose.Cells.Range[] ranges = name.GetRanges();
-    Assert.AreEqual("=Sheet1!$G$4:$H$6", ranges[0].RefersTo);
-    Assert.AreEqual("=Sheet1!$J$8:$K$10", ranges[1].RefersTo);
-    Assert.AreEqual("=SUM((A1,A5,A9))", book.Worksheets[0].Cells["F8"].Formula);
-           
+    public class RangePropertyRefersToDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            
+            // Create a named range
+            int index = workbook.Worksheets.Names.Add("MyRange");
+            Name name = workbook.Worksheets.Names[index];
+            
+            // Set the RefersTo property for the named range
+            name.RefersTo = "=Sheet1!$A$1:$A$3";
+            
+            // Get the ranges referred by the name
+            Aspose.Cells.Range[] ranges = name.GetRanges();
+            
+            // Display the RefersTo property of the first range
+            Console.WriteLine("Named range refers to: " + ranges[0].RefersTo);
+            
+            // Create a formula that uses the named range
+            worksheet.Cells["B1"].Formula = "=SUM(MyRange)";
+            
+            // Calculate the formula
+            Console.WriteLine("Sum of named range: " + worksheet.Cells["B1"].Value);
+        }
+    }
 }
 ```
 

@@ -16,14 +16,34 @@ public bool IsSharedFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(cell.IsSharedFormula);
-public void Cell_Property_IsSharedFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ApplyFormulas(workbook, workbook.Worksheets[2]);
-    Cell cell = workbook.Worksheets[2].Cells["D3"];
-    Assert.IsFalse(cell.IsSharedFormula);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CellPropertyIsSharedFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set shared formula in a range
+            worksheet.Cells["B2"].Formula = "=A2*2";
+            worksheet.Cells["B2"].Copy(worksheet.Cells["B3:B5"]);
+
+            // Check if cells contain shared formula
+            Cell cellB2 = worksheet.Cells["B2"];
+            Cell cellB3 = worksheet.Cells["B3"];
+
+            Console.WriteLine("Cell B2 IsSharedFormula: " + cellB2.IsSharedFormula);
+            Console.WriteLine("Cell B3 IsSharedFormula: " + cellB3.IsSharedFormula);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

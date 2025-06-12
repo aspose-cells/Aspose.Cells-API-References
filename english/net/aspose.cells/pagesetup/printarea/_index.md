@@ -16,30 +16,44 @@ public string PrintArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[index].PageSetup.PrintArea = range;
-private void PageSetup_Property_PrintArea(int index,string range)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPrintAreaDemo
+    {
+        public static void Run()
         {
-
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
-            var htmlSaveOptions = new HtmlSaveOptions
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue(3);
+            
+            // Set print area to A1:B3
+            worksheet.PageSetup.PrintArea = "A1:B3";
+            
+            // Save with print area only
+            HtmlSaveOptions options = new HtmlSaveOptions
             {
-                Encoding = Encoding.UTF8,
-                ExportImagesAsBase64 = true,
-                ExportPrintAreaOnly = true,
-                ExportActiveWorksheetOnly = true,
-                ExportWorksheetCSSSeparately = false,
-                ExcludeUnusedStyles = true,
-                ExportDocumentProperties = false,
-                ExportWorkbookProperties = false,
-                ExportSimilarBorderStyle = true,
+                ExportPrintAreaOnly = true
             };
-            workbook.Worksheets.ActiveSheetIndex = index;
-            workbook.Worksheets[index].PageSetup.PrintArea = range;
-
-            workbook.Save(Constants.destPath + "CELLSNETCORE269_"+index+".html", htmlSaveOptions);
-            workbook = new Workbook(Constants.destPath + "CELLSNETCORE269_" + index + ".html");
-            Assert.AreEqual(2, workbook.Worksheets[0].Cells["B2"].IntValue);
+            
+            workbook.Save("PrintAreaDemo.html", options);
+            
+            Console.WriteLine("Print area demo created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

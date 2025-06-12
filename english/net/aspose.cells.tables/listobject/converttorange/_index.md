@@ -16,19 +16,45 @@ public void ConvertToRange()
 ### Examples
 
 ```csharp
-// Called: sheet.ListObjects[i].ConvertToRange();
-public void ListObject_Method_ConvertToRange()
-{
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    foreach (Worksheet sheet in workbook.Worksheets)
-    {
-        for (int i = 0; i < sheet.ListObjects.Count; i++)
-        {
-            sheet.ListObjects[i].ConvertToRange();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
+namespace AsposeCellsExamples
+{
+    public class ListObjectMethodConvertToRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("ID");
+            sheet.Cells["B1"].PutValue("Name");
+            sheet.Cells["A2"].PutValue(1);
+            sheet.Cells["B2"].PutValue("John");
+            sheet.Cells["A3"].PutValue(2);
+            sheet.Cells["B3"].PutValue("Mary");
+            
+            // Create a list object
+            int index = sheet.ListObjects.Add("A1", "B3", true);
+            ListObject listObject = sheet.ListObjects[index];
+            
+            Console.WriteLine("Before conversion - ListObject exists: " + (listObject != null));
+            
+            // Convert list object to range
+            listObject.ConvertToRange();
+            
+            Console.WriteLine("After conversion - ListObjects count: " + sheet.ListObjects.Count);
+            
+            // Save the workbook
+            workbook.Save("ListObjectConversion.xlsx");
         }
     }
-
 }
 ```
 
@@ -55,48 +81,43 @@ public void ConvertToRange(TableToRangeOptions options)
 ### Examples
 
 ```csharp
-// Called: table.ConvertToRange(options);
-public static void ListObject_Method_ConvertToRange()
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class ListObjectMethodConvertToRangeWithTableToRangeOptionsDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
-
-            // Populate the worksheet with some data
+            
+            // Create sample data
             for (int i = 0; i < 5; i++)
             {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row < 10; row++)
-            {
-                for (int column = 0; column < 5; column++)
+                worksheet.Cells[0, i].PutValue($"Column {i + 1}");
+                for (int row = 1; row < 5; row++)
                 {
-                    cells[row, column].PutValue(row * column);
+                    worksheet.Cells[row, i].PutValue(row * (i + 1));
                 }
             }
 
-            // Add a ListObject (table) to the worksheet
-            ListObjectCollection tables = worksheet.ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
-
-            // Set some properties of the table
+            // Create table
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 4, 4, true);
+            ListObject table = worksheet.ListObjects[tableIndex];
             table.ShowTotals = true;
-            table.ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
+            table.ListColumns[0].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
 
-            // Create an instance of TableToRangeOptions
-            TableToRangeOptions options = new TableToRangeOptions
-            {
-                LastRow = 9 // Set the last row index of the table
-            };
-
-            // Convert the table to a range using the options
+            // Convert table to range with options
+            TableToRangeOptions options = new TableToRangeOptions();
+            options.LastRow = 4;
             table.ConvertToRange(options);
 
-            // Save the workbook
-            workbook.Save("TableToRangeOptionsExample.xlsx");
+            workbook.Save("TableToRangeWithOptions.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

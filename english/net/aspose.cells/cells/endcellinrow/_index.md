@@ -21,6 +21,54 @@ public Cell EndCellInRow(int rowIndex)
 
 Cell object.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodEndCellInRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate data in row 5 (0-based index)
+            worksheet.Cells[5, 2].PutValue("Data1");
+            worksheet.Cells[5, 4].PutValue("Data2");
+            worksheet.Cells[5, 6].PutValue("Data3");
+
+            try
+            {
+                // Call EndCellInRow with row index 5
+                Cell endCell = worksheet.Cells.EndCellInRow(5);
+                
+                if (endCell != null)
+                {
+                    Console.WriteLine($"Last cell in row 5: {endCell.Name}");
+                    Console.WriteLine($"Cell value: {endCell.StringValue}");
+                }
+                else
+                {
+                    Console.WriteLine("No cells found in row 5");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing EndCellInRow: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("CellsMethodEndCellInRowWithInt32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../../cell/)
@@ -52,13 +100,35 @@ Cell object.
 ### Examples
 
 ```csharp
-// Called: Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
-public void Cells_Method_EndCellInRow()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet objWS = workbook.Worksheets[0];
+using System;
+using Aspose.Cells;
 
-    Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
+namespace AsposeCellsExamples
+{
+    public class CellsMethodEndCellInRowWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some data in the worksheet
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Cell_{i}_{j}");
+                }
+            }
+
+            // Get the end cell in row 3 between columns 1 to 4
+            Cell endCell = worksheet.Cells.EndCellInRow(3, 1, 3, 4);
+
+            // Output the end cell's row and column indices
+            Console.WriteLine($"End cell in row 3 between columns 1-4 is at: Row {endCell.Row}, Column {endCell.Column}");
+        }
+    }
 }
 ```
 

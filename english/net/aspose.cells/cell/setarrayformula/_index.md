@@ -28,6 +28,56 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetArrayFormulaWithStringInt32Int32BooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+
+            try
+            {
+                string arrayFormula = "={1,2;3,4}*2";
+                int rowNumber = 2;
+                int columnNumber = 2;
+                bool isR1C1 = false;
+                bool isLocal = false;
+
+                cell.SetArrayFormula(arrayFormula, rowNumber, columnNumber, isR1C1, isLocal);
+                Console.WriteLine("Array formula set successfully.");
+
+                workbook.CalculateFormula();
+
+                Console.WriteLine("Results in range A1:B2:");
+                for (int r = 0; r < rowNumber; r++)
+                {
+                    for (int c = 0; c < columnNumber; c++)
+                    {
+                        Console.Write(worksheet.Cells[r, c].Value + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            workbook.Save("SetArrayFormulaWithStringInt32Int32BooleanBoolean.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../)
@@ -53,19 +103,30 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 ### Examples
 
 ```csharp
-// Called: cell.SetArrayFormula("=FREQUENCY({\"79\",\"85\",\"78\",\"85\",\"50\",\"81\",\"95\",\"88\",\"97\"},{70,79,89})", 4, 1);
-public void Cell_Method_SetArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    cell.SetArrayFormula("=FREQUENCY({\"79\",\"85\",\"78\",\"85\",\"50\",\"81\",\"95\",\"88\",\"97\"},{70,79,89})", 4, 1);
-    Console.WriteLine("=FREQUENCY({\"79\",\"85\",\"78\",\"85\",\"50\",\"81\",\"95\",\"88\",\"97\"},{70,79,89})");
-    workbook.CalculateFormula();
-    Assert.AreEqual(0, cells[0, 0].IntValue);
-    Assert.AreEqual(0, cells[1, 0].IntValue);
-    Assert.AreEqual(0, cells[2, 0].IntValue);
-    Assert.AreEqual(0, cells[3, 0].IntValue);//=FREQUENCY({"79","85","78","85","50","81","95","88","97"},{70,79,89})
+    public class CellMethodSetArrayFormulaWithStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            Cell cell = cells["A1"];
+            cell.SetArrayFormula("=FREQUENCY({\"79\",\"85\",\"78\",\"85\",\"50\",\"81\",\"95\",\"88\",\"97\"},{70,79,89})", 4, 1);
+
+            workbook.CalculateFormula();
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"Cell A{i+1} value: {cells[i, 0].IntValue}");
+            }
+        }
+    }
 }
 ```
 
@@ -96,86 +157,42 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 ### Examples
 
 ```csharp
-// Called: cells[1, 0].SetArrayFormula("=TRANSPOSE(Sheet1!C1:E1)", 2, 1, new FormulaParseOptions());
-public void Cell_Method_SetArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets.Add("Sheet2").Cells;
-    cells[1, 0].SetArrayFormula("=TRANSPOSE(Sheet1!C1:E1)", 2, 1, new FormulaParseOptions());
-    cells[1, 1].SetDynamicArrayFormula("=TRANSPOSE(Sheet1!C1:E1)", new FormulaParseOptions(), false);
+    public class CellMethodSetArrayFormulaWithStringInt32Int32FormulaParseOpDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    cells = wb.Worksheets[0].Cells;
-    cells[0, 0].Formula = "=B1";
-    cells[0, 1].PutValue(1);
-    cells[0, 2].PutValue(2);
-    cells[0, 3].PutValue(4);
-    cells[0, 4].PutValue(8);
-    string[] fmls = new string[]
-    {
-        "=TRANSPOSE(C1:E1)", "=TRANSPOSE(C1:E1)",
-        "=B1#", "=$A$3#", "=INDIRECT(\"A2:B2\")#",
-        "=SUM(A2#)", "=$A$1#", "=SUM(Sheet2!A2#)",
-        "=A2#", "=INDIRECT(\"A2:A2\")#", "=Sheet2!A2#",
-        "=$B$2#", "=Sheet2!A2#:Sheet2!B2#",
-    };
-    int[][] vals = new int[][]
-    {
-        new int[]{2, 4, }, new int[]{2, 4, 8, },
-        null, null, null,
-        new int[]{6, }, new int[]{1, }, new int[]{6, },
-        new int[]{2, 4, }, new int[]{2, 4, }, new int[]{2, 4, },
-        new int[]{2, 4, 8, }, new int[]{2, 4, 0, }, new int[]{2, 4, 8, },
-    };
-    cells[1, 0].SetArrayFormula(fmls[0], 2, 1, new FormulaParseOptions());
-    wb.CalculateFormula();
-    for (int i = 1; i < fmls.Length; i++)
-    {
-        cells[1, i].SetDynamicArrayFormula(fmls[i], new FormulaParseOptions(), true);
-    }
+            // Put sample data in cells C1:E1
+            cells["C1"].PutValue(10);
+            cells["D1"].PutValue(20);
+            cells["E1"].PutValue(30);
 
-    for (int i = 0; i < 2; i++)
-    {
-        if (i > 0)
-        {
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);
-            cells = wb.Worksheets[0].Cells;
-        }
-        for (int j = 0; j < fmls.Length; j++)
-        {
-            int[] cv = vals[j];
-            int h = cv == null ? 1 : cv.Length;
-            for (int k = h; k > 0; k--)
+            // Set array formula in cell A1 that will spill to 2 rows and 3 columns
+            cells["A1"].SetArrayFormula("=TRANSPOSE(C1:E1)", 2, 1, new FormulaParseOptions());
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Output the results
+            Console.WriteLine("Array formula results:");
+            for (int row = 0; row < 2; row++)
             {
-                Assert.AreEqual(fmls[j], cells[k, j].Formula,
-                    ((char)('A' + j)) + "" + (k + 1) + ".Formula");
-            }
-            for (int k = h; k < 3; k++)
-            {
-                Assert.IsNull(cells.CheckCell(k + 1, j), fmls[j]
-                    + " should not be spilled to " + ((char)('A' + j)) + "" + (k + 2));
-            }
-        }
-        for (int k = 1; k < 4; k++)
-        {
-            Assert.AreEqual(fmls[fmls.Length - 1], cells[k, fmls.Length].Formula,
-                ((char)('A' + fmls.Length)) + "" + (k + 1) + ".Formula");
-        }
-        wb.CalculateFormula(false);
-        for (int j = 0; j < vals.Length; j++)
-        {
-            int[] cv = vals[j];
-            if (cv == null)
-            {
-                Cell cell = cells[1, j];
-                Assert.AreEqual("#REF!", cell.Value,
-                    cell.Name + ".Value(Formula=" + cell.Formula + ")");
-                continue;
-            }
-            for (int k = 0; k < cv.Length; k++)
-            {
-                Cell cell = cells[k + 1, j];
-                Assert.AreEqual(cv[k], cell.IntValue,
-                    cell.Name + ".Value(Formula=" + cell.Formula + ")");
+                for (int col = 0; col < 3; col++)
+                {
+                    Cell cell = cells[row, col];
+                    Console.WriteLine($"Cell {cell.Name}: {cell.Value}");
+                }
             }
         }
     }
@@ -207,6 +224,53 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | columnNumber | Int32 | Number of columns to populate result of the array formula. |
 | options | FormulaParseOptions | Options for parsing the formula. |
 | values | Object[][] | values for those cells with given array formula |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetArrayFormulaWithStringInt32Int32FormulaParseOpDemo2
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells[0, 0]; // Target cell A1
+
+            // Prepare array formula parameters
+            string arrayFormula = "{1,2;3,4;5,6}"; // 3x2 array formula
+            int rowNumber = 3;
+            int columnNumber = 2;
+            FormulaParseOptions options = new FormulaParseOptions();
+            object[][] values = new object[3][]
+            {
+                new object[] { 1, 2 },
+                new object[] { 3, 4 },
+                new object[] { 5, 6 }
+            };
+
+            try
+            {
+                // Set array formula with predefined values
+                cell.SetArrayFormula(arrayFormula, rowNumber, columnNumber, options, values);
+                Console.WriteLine("Array formula set successfully in A1:B3");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetArrayFormula: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("SetArrayFormulaDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -20,18 +20,33 @@ When setting this property as false, all rows/columns covered by drawing objects
 ### Examples
 
 ```csharp
-// Called: ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
-public void DeleteBlankOptions_Property_DrawingsAsBlank()
-{  
-    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsx");
-    foreach (Worksheet ws in wb.Worksheets)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DeleteBlankOptionsPropertyDrawingsAsBlankDemo
     {
-        ws.Cells.DeleteBlankRows();
-        ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue("Data");
+            worksheet.Cells["B1"].PutValue("");
+            worksheet.Cells["B2"].PutValue("");
+
+            // Add a drawing object to test DrawingsAsBlank behavior
+            worksheet.Shapes.AddRectangle(1, 0, 1, 100, 100, 50);
+
+            // Delete blank columns with DrawingsAsBlank = false (preserves drawings)
+            worksheet.Cells.DeleteBlankColumns(new DeleteBlankOptions { DrawingsAsBlank = false });
+
+            Console.WriteLine("Drawing preserved count: " + worksheet.Shapes.Count);
+        }
     }
-    Assert.AreEqual(1, wb.Worksheets[0].Charts.Count);
-    //wb.Save(Constants.destPath + "example.xlsx");
-    Util.ReSave(wb, SaveFormat.Xlsx);
 }
 ```
 

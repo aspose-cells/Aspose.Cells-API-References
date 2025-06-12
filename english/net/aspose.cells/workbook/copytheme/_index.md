@@ -20,16 +20,28 @@ public void CopyTheme(Workbook source)
 ### Examples
 
 ```csharp
-// Called: nwb.CopyTheme(wb);
-public void Workbook_Method_CopyTheme()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook nwb = new Workbook();
-    nwb.Copy(wb);
-    nwb.CopyTheme(wb);
-    nwb.Save(Constants.destPath + "dest.xlsx");
-    wb = new Workbook(Constants.destPath + "dest.xlsx");
-    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+    public class WorkbookMethodCopyThemeWithWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Create source workbook (theme is automatically set when opening a template file)
+            Workbook sourceWorkbook = new Workbook(FileFormatType.Xlsx);
+
+            // Create destination workbook
+            Workbook destWorkbook = new Workbook();
+            
+            // Copy theme from source to destination workbook
+            destWorkbook.CopyTheme(sourceWorkbook);
+
+            // Save the destination workbook
+            destWorkbook.Save("output_with_theme.xlsx");
+        }
+    }
 }
 ```
 

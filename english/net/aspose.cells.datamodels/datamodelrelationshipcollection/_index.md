@@ -53,6 +53,60 @@ public class DataModelRelationshipCollection : CollectionBase<DataModelRelations
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DataModelRelationship, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.DataModels;
+    using System;
+
+    public class DataModelsClassDataModelRelationshipCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Get the DataModelRelationshipCollection from the workbook's data model
+                // This assumes the workbook has a data model with relationships
+                DataModelRelationshipCollection relationships = workbook.DataModel?.Relationships;
+                
+                if (relationships == null)
+                {
+                    Console.WriteLine("Workbook data model doesn't contain relationships");
+                    return;
+                }
+                
+                // Demonstrate basic functionality by showing the count
+                Console.WriteLine($"Number of relationships: {relationships.Count}");
+                
+                // Attempt to access first item (will throw exception if collection is empty)
+                try
+                {
+                    var firstRelationship = relationships[0];
+                    Console.WriteLine($"First relationship: {firstRelationship}");
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    Console.WriteLine("Collection is empty - cannot access items");
+                }
+                
+                // Save the workbook
+                workbook.Save("DataModelRelationshipCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with DataModelRelationshipCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

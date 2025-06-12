@@ -4,7 +4,7 @@ linktitle: GetLeftPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetLeftPixel method. Returns or sets the horizontal offset of slicer shape from its left column, in pixels in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells.slicers/slicer/getleftpixel/
 ---
 ## Slicer::GetLeftPixel method
@@ -12,20 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/getleftpixel/
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
 
+
+>Deprecated
+>
+>Use Shape.Left property instead. 
 ```cpp
 int32_t Aspose::Cells::Slicers::Slicer::GetLeftPixel()
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetLeftPixel() != 2)
-{
-    slicer.SetLeftPixel(2);
-}
-```
 
 ## See Also
 

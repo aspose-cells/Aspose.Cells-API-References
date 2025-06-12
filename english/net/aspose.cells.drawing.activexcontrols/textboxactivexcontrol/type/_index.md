@@ -16,8 +16,28 @@ public override ControlType Type { get; }
 ### Examples
 
 ```csharp
-[C#]
-Aspose.Cells.Drawing.ActiveXControls.ControlType type = activeXControl.Type;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class TextBoxActiveXControlPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape textBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 1, 1, 0, 0, 200, 50);
+            ActiveXControl activeXControl = textBoxShape.ActiveXControl;
+
+            ControlType type = activeXControl.Type;
+            Console.WriteLine("ActiveX Control Type: " + type);
+        }
+    }
+}
 ```
 
 ### See Also

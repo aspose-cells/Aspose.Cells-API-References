@@ -25,26 +25,54 @@ The field position in the specific fields.If there is no field named as it, retu
 ### Examples
 
 ```csharp
-// Called: index = pivot.AddFieldToArea(PivotFieldType.Row, "H1");
-public void PivotTable_Method_AddFieldToArea()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET46360_";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    using (Workbook workbook = new Workbook(filePath + "TestPivot.xlsx"))
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodAddFieldToAreaWithPivotFieldTypeStringDemo
     {
-        Worksheet sheet = workbook.Worksheets["Pivot"];
-        int index = sheet.PivotTables.Add("='Data'!A1:E7", "A1", "MyPivot");
-        PivotTable pivot = sheet.PivotTables[index];
-        index = pivot.AddFieldToArea(PivotFieldType.Page, "H5");
-        index = pivot.AddFieldToArea(PivotFieldType.Row, "H1");
-        index = pivot.AddFieldToArea(PivotFieldType.Row, "H2");
-        index = pivot.AddFieldToArea(PivotFieldType.Data, "H4");
-        index = pivot.AddFieldToArea(PivotFieldType.Data, "H3");
-        pivot.AddFieldToArea(PivotFieldType.Column, pivot.DataField);
-        pivot.RefreshData();
-        pivot.CalculateRange();
-        pivot.CalculateData();
-        workbook.Save(CreateFolder(filePath) + "out.xlsx");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            cells["A2"].Value = "P1";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            cells["A3"].Value = "P2";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 1500;
+            cells["A4"].Value = "P3";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 2000;
+            cells["A5"].Value = "P1";
+            cells["B5"].Value = "West";
+            cells["C5"].Value = 1200;
+
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[index];
+
+            // Add fields to different areas using AddFieldToArea with string field names
+            pivot.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivot.AddFieldToArea(PivotFieldType.Column, "Region");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Refresh and calculate pivot table
+            pivot.RefreshData();
+            pivot.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotTableDemo_out.xlsx");
+        }
     }
 }
 ```
@@ -78,28 +106,45 @@ The field position in the specific fields.
 ### Examples
 
 ```csharp
-// Called: pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
-public void PivotTable_Method_AddFieldToArea()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "Net1.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class PivotTableMethodAddFieldToAreaWithPivotFieldTypeInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // Add a Pivot Table
-    int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133", "J1", "PivotTable1", false, false);
-    PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+            // Add sample data for the PivotTable
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Region");
+            worksheet.Cells["C1"].PutValue("Sales");
+            
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells["A" + i].PutValue("Product " + (i % 3 + 1));
+                worksheet.Cells["B" + i].PutValue("Region " + (i % 2 + 1));
+                worksheet.Cells["C" + i].PutValue(i * 100);
+            }
 
-    // Set the row fields
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-    //  pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
+            // Add a PivotTable
+            int pivotTableIndex = worksheet.PivotTables.Add("=A1:C10", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
 
-    // Set the data field
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
-    Assert.AreEqual(PivotTableStyleType.PivotTableStyleLight16, pivotTable.PivotTableStyleType);
-    Assert.IsFalse(pivotTable.ShowValuesRow);
-    Assert.IsFalse(pivotTable.IsExcel2003Compatible);
-    // Save the workbook with the Pivot Table
-    workbook.Save(Constants.PivotTableDestPath + "out_net.xlsx");
-    ;
+            // Add fields to areas using AddFieldToArea(PivotFieldType, Int32)
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product as row field
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Region as column field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales as data field
+
+            // Save the workbook
+            workbook.Save("PivotTableDemo_out.xlsx");
+        }
+    }
 }
 ```
 
@@ -132,35 +177,70 @@ the field position in the specific fields.
 ### Examples
 
 ```csharp
-// Called: pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
-public void PivotTable_Method_AddFieldToArea()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.openPivottablePath + "Bad.xlsx");
-
-    Worksheet pivotSheet = workbook.Worksheets.Add("PivotData");
-    pivotSheet.Name = "Summarize";
-
-    PivotTableCollection pivotTables = pivotSheet.PivotTables;
-    string source = String.Format("='Source Data'!A1:D5");
-    int index = pivotTables.Add(source, "A1", "PivotTable");
-    PivotTable pTable = pivotTables[index];
-
-    pTable.IsAutoFormat = true;
-    pTable.AutoFormatType = PivotTableAutoFormatType.Classic;
-
-    pTable.AddFieldToArea(PivotFieldType.Row, 0);
-    pTable.AddFieldToArea(PivotFieldType.Row, 1);
-
-    pTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-    pTable.DataFields[0].Function = ConsolidationFunction.Sum;
-    pTable.DataFields[0].NumberFormat = "$0.00";
-
-    if (pTable.DataField != null)
+    public class PivotTableMethodAddFieldToAreaWithPivotFieldTypePivotFieldDemo
     {
-        pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
-    }
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet with source data
+            Worksheet sourceSheet = workbook.Worksheets[0];
+            sourceSheet.Name = "Source Data";
+            
+            // Add sample data
+            sourceSheet.Cells["A1"].PutValue("Product");
+            sourceSheet.Cells["B1"].PutValue("Region");
+            sourceSheet.Cells["C1"].PutValue("Sales");
+            
+            sourceSheet.Cells["A2"].PutValue("Product A");
+            sourceSheet.Cells["B2"].PutValue("North");
+            sourceSheet.Cells["C2"].PutValue(1000);
+            
+            sourceSheet.Cells["A3"].PutValue("Product B");
+            sourceSheet.Cells["B3"].PutValue("South");
+            sourceSheet.Cells["C3"].PutValue(2000);
+            
+            sourceSheet.Cells["A4"].PutValue("Product A");
+            sourceSheet.Cells["B4"].PutValue("East");
+            sourceSheet.Cells["C4"].PutValue(1500);
+            
+            sourceSheet.Cells["A5"].PutValue("Product B");
+            sourceSheet.Cells["B5"].PutValue("West");
+            sourceSheet.Cells["C5"].PutValue(2500);
 
-    workbook.Save(Constants.savePivottablePath + "t.xlsx");
+            // Add a pivot table
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
+            string source = "='Source Data'!A1:C5";
+            int index = pivotTables.Add(source, "A1", "PivotTable");
+            PivotTable pTable = pivotTables[index];
+
+            // Add fields to areas
+            pTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
+            pTable.AddFieldToArea(PivotFieldType.Row, 1); // Region
+            
+            // Add data field
+            pTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            pTable.DataFields[0].Function = ConsolidationFunction.Sum;
+            pTable.DataFields[0].NumberFormat = "$0.00";
+
+            // Add data field to column area using PivotField parameter
+            if (pTable.DataField != null)
+            {
+                pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
+            }
+
+            // Save the workbook
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
 }
 ```
 

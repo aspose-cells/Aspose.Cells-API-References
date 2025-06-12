@@ -45,27 +45,43 @@ public enum IconSetType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A3's IconSetType");
-public void Cells_Type_IconSetType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells["A1"].PutValue(1);
-    cells["A2"].PutValue("#DIV/0!");
-    cells["A3"].PutValue(3);
-    ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-    FormatConditionCollection fcs = cfs[cfs.Add()];
-    fcs.AddArea(CellArea.CreateCellArea(0, 0, 3, 0));
-    FormatCondition fc = fcs[fcs.AddCondition(FormatConditionType.IconSet)];
-    ConditionalFormattingResult res = cells["A1"].GetConditionalFormattingResult();
-    Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A1's IconSetType");
-    Assert.AreEqual(0, res.ConditionalFormattingIcon.Index, "A1's IconIndex");
-    res = cells["A3"].GetConditionalFormattingResult();
-    Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A3's IconSetType");
-    Assert.AreEqual(2, res.ConditionalFormattingIcon.Index, "A3's IconIndex");
-    res = cells["A2"].GetConditionalFormattingResult();
-    Assert.IsTrue(res == null || res.ConditionalFormattingIcon == null, "A2 should have no formatting");
+    public class CellsClassIconSetTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Set sample values
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue("#DIV/0!");
+            cells["A3"].PutValue(3);
+
+            // Add conditional formatting with icon set
+            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+            FormatConditionCollection fcs = cfs[cfs.Add()];
+            fcs.AddArea(CellArea.CreateCellArea(0, 0, 3, 0));
+            
+            FormatCondition fc = fcs[fcs.AddCondition(FormatConditionType.IconSet)];
+            fc.IconSet.Type = IconSetType.TrafficLights31;
+
+            // Get and display results
+            ConditionalFormattingResult res1 = cells["A1"].GetConditionalFormattingResult();
+            Console.WriteLine($"A1 Icon Type: {res1.ConditionalFormattingIcon.Type}, Index: {res1.ConditionalFormattingIcon.Index}");
+
+            ConditionalFormattingResult res3 = cells["A3"].GetConditionalFormattingResult();
+            Console.WriteLine($"A3 Icon Type: {res3.ConditionalFormattingIcon.Type}, Index: {res3.ConditionalFormattingIcon.Index}");
+
+            ConditionalFormattingResult res2 = cells["A2"].GetConditionalFormattingResult();
+            Console.WriteLine($"A2 has formatting: {res2 != null && res2.ConditionalFormattingIcon != null}");
+        }
+    }
 }
 ```
 

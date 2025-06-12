@@ -4,7 +4,7 @@ linktitle: PlacementType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PlacementType enum. Represents the way the drawing object is attached to the cells below it in C++.'
 type: docs
-weight: 10300
+weight: 10500
 url: /cpp/aspose.cells.drawing/placementtype/
 ---
 ## PlacementType enum

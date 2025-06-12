@@ -25,6 +25,78 @@ Whether the formula engine needs to calculate those cells in circular after this
 
 In the implementation user may also set the expected value as calculated result for part/all of those cells so the formula engine will not calculate them recursively.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections;
+
+    public class AbstractCalculationMonitorMethodOnCircularWithIEnumeratorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create circular reference between A1 and B1
+            worksheet.Cells["A1"].Formula = "=C1";
+            worksheet.Cells["C1"].Formula = "=A1";
+
+            // Create and assign custom calculation monitor
+            CalculationOptions options = new CalculationOptions();
+            options.CalculationMonitor = new CircularRefMonitor();
+
+            try
+            {
+                workbook.CalculateFormula(options);
+                Console.WriteLine("Formula calculation completed.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Calculation error: {ex.Message}");
+            }
+
+            workbook.Save("OnCircularDemo.xlsx");
+        }
+    }
+
+    public class CircularRefMonitor : AbstractCalculationMonitor
+    {
+        public override bool OnCircular(IEnumerator circularCellsData)
+        {
+            Console.WriteLine("Processing circular references:");
+            
+            while (circularCellsData.MoveNext())
+            {
+                if (circularCellsData.Current is CalculationCell calculationCell)
+                {
+                   Cell cell = calculationCell.Cell;
+                    Console.WriteLine($"Found circular reference in cell {cell.Name}");
+                    
+                    // Add visual indicator for circular reference
+                    Style style = cell.GetStyle();
+                    style.Font.Color = System.Drawing.Color.Red;
+                    cell.SetStyle(style);
+                    
+                    if (cell.Comment == null)
+                    {
+                        int commentIndex = cell.Worksheet.Comments.Add(cell.Name);
+                        Comment comment = cell.Worksheet.Comments[commentIndex];
+                        comment.Note = "Circular reference detected";
+                        comment.Author = "System Monitor";
+                    }
+                }
+            }
+            
+            return true; // Continue calculation
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractCalculationMonitor](../)

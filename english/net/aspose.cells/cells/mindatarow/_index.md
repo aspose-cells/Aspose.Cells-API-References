@@ -15,25 +15,40 @@ public int MinDataRow { get; }
 
 ### Remarks
 
-Return -1 if there is no cell which contains data.
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop.
 
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.RemoveDuplicates(sheet.Cells.MinDataRow, sheet.Cells.MinDataColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true, columnOffsets);
-public void Cells_Property_MinDataRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook();
-    var sheet = workbook.Worksheets[0];
-    sheet.Cells[0, 0].Value = "Col A"; sheet.Cells[0, 1].Value = "Col B"; sheet.Cells[0, 2].Value = "Col C";
-    sheet.Cells[1, 0].Value = "A1"; sheet.Cells[1, 1].Value = "B1"; sheet.Cells[1, 2].Value = "C1";
-    sheet.Cells[2, 0].Value = "A2"; sheet.Cells[2, 1].Value = "B2"; sheet.Cells[2, 2].Value = "C2";
-    sheet.Cells[3, 0].Value = "A1"; sheet.Cells[3, 1].Value = "B1"; sheet.Cells[3, 2].Value = "C1";
-    sheet.Cells[4, 0].Value = "A3"; sheet.Cells[4, 1].Value = "B3"; sheet.Cells[4, 2].Value = "C3";
-    var columnOffsets = new int[] { 1, 2 };
-    sheet.Cells.RemoveDuplicates(sheet.Cells.MinDataRow, sheet.Cells.MinDataColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true, columnOffsets);
-    Assert.AreEqual("B3", sheet.Cells["B4"].StringValue);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CellsPropertyMinDataRowDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Populate some data
+            sheet.Cells[0, 0].Value = "Header1";
+            sheet.Cells[0, 1].Value = "Header2";
+            sheet.Cells[1, 0].Value = "Data1";
+            sheet.Cells[1, 1].Value = "Data2";
+            sheet.Cells[2, 0].Value = "Data3";
+            sheet.Cells[2, 1].Value = "Data4";
+
+            // Demonstrate MinDataRow usage
+            Console.WriteLine("Minimum data row index: " + sheet.Cells.MinDataRow);
+            Console.WriteLine("Maximum data row index: " + sheet.Cells.MaxDataRow);
+
+            // Save the workbook
+            workbook.Save("MinDataRowExample.xlsx");
+        }
+    }
 }
 ```
 

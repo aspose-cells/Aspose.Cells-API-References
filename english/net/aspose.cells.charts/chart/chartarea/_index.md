@@ -16,13 +16,38 @@ public ChartArea ChartArea { get; }
 ### Examples
 
 ```csharp
-// Called: ChartArea chartarea = chart.ChartArea;
-private void Chart_Property_ChartArea(Workbook workbook)
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyChartAreaDemo
+    {
+        public static void Run()
         {
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(WeightType.SingleLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(70);
+
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", true);
+
+            ChartArea chartArea = chart.ChartArea;
+            chartArea.Border.Weight = WeightType.SingleLine;
+            chartArea.Border.Color = System.Drawing.Color.Blue;
+
+            workbook.Save("ChartPropertyChartAreaDemo_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

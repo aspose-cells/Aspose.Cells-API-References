@@ -20,55 +20,46 @@ public ThreadInterruptMonitor(bool terminateWithoutException)
 ### Examples
 
 ```csharp
-// Called: ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
-public void ThreadInterruptMonitor_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    for (int i = 0; i < 2; i++)
+    public class ThreadInterruptMonitorMethodCtorWithBooleanDemo
     {
-        long t = DateTime.Now.ToFileTimeUtc();
-        Workbook wb = new Workbook();
-        Model.RandomFill(wb.Worksheets[0].Cells, 5000, 20, true);
-        int limit = ((int)((DateTime.Now.ToFileTimeUtc() - t) / 10000)) >> 2; //by test the time cost of saving is about half of that of filling
-        string msg;
-        if (i != 0)
+        public static void Run()
         {
-            msg = "SystemTimeInterruptMonitor: ";
-            SystemTimeInterruptMonitor m = new SystemTimeInterruptMonitor(false);
-            wb.InterruptMonitor = m;
-            t = DateTime.Now.ToFileTimeUtc();
-            m.StartMonitor(limit);
-        }
-        else
-        {
-            msg = "ThreadInterruptMonitor: ";
-            ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
-            wb.InterruptMonitor = m;
-            t = DateTime.Now.ToFileTimeUtc();
-            m.StartMonitor(limit);
-        }
-        try
-        {
-            Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-            t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-            Assert.Fail(msg + "InterrupMonitor has not interrupted the process which finished in " + t + "ms");
-        }
-        catch (CellsException e)
-        {
-            if (e.Code == ExceptionType.Interrupted)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create a ThreadInterruptMonitor with throwOnInterrupted set to false
+            ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
+            workbook.InterruptMonitor = monitor;
+            
+            // Set a short time limit (100ms) for demonstration
+            int timeLimit = 100;
+            monitor.StartMonitor(timeLimit);
+
+            try
             {
-                t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-                if (t > (limit + limit + limit))
+                // Perform a long operation (will be interrupted)
+                for (int i = 0; i < 100000; i++)
                 {
-                    Assert.Fail(msg + "InterrupMonitor took too long time, expected no more than 500 ms, but was " + t + "ms");
+                    workbook.Worksheets[0].Cells[i % 100, i / 100].PutValue(i);
+                }
+                
+                Console.WriteLine("Operation completed without interruption");
+            }
+            catch (CellsException e)
+            {
+                if (e.Code == ExceptionType.Interrupted)
+                {
+                    Console.WriteLine("Operation was successfully interrupted");
                 }
                 else
                 {
-                    Console.WriteLine(msg + "Interrupted after " + t + "ms");
+                    Console.WriteLine("Error occurred: " + e.Message);
                 }
-            }
-            else
-            {
-                throw e;
             }
         }
     }

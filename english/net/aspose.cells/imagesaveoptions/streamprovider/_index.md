@@ -20,19 +20,54 @@ If saving as Tiff, this property is ignored. Otherwise, if more than one image s
 ### Examples
 
 ```csharp
-// Called: saveOptions.StreamProvider = new StreamProvider();
-public void ImageSaveOptions_Property_StreamProvider()
-{
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-         
-    workbook.Save(Constants.destPath + "example.png");
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
-    saveOptions.StreamProvider = new StreamProvider();
-    workbook.Save(Constants.destPath + "example.png", saveOptions);
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+namespace AsposeCellsExamples
+{
+    public class CustomStreamProvider : IStreamProvider
+    {
+        private int m_count = 0;
+
+        public void InitStream(StreamProviderOptions options)
+        {
+            m_count++;
+        }
+
+        public Stream GetStream(StreamProviderOptions options)
+        {
+            return new FileStream(options.DefaultPath + m_count + ".png", FileMode.Create);
+        }
+
+        public void CloseStream(StreamProviderOptions options)
+        {
+            // Implementation when no stream is provided
+        }
+
+        public void CloseStream(StreamProviderOptions options, Stream stream)
+        {
+            stream.Dispose();
+        }
+    }
+
+    public class ImageSaveOptionsPropertyStreamProviderDemo
+    {
+        public static void Run()
+        {
+            // Create workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test StreamProvider");
+
+            // Set save options with custom stream provider
+            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+            saveOptions.StreamProvider = new CustomStreamProvider();
+
+            // Save with stream provider
+            workbook.Save("output.png", saveOptions);
+        }
+    }
 }
 ```
 

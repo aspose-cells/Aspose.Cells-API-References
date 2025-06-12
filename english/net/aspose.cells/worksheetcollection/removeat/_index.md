@@ -20,22 +20,39 @@ public void RemoveAt(string name)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RemoveAt("Sheet3");
-public void WorksheetCollection_Method_RemoveAt()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add("Sheet2");
-    wb.Worksheets.Add("Sheet3");
-    wb.Worksheets.Names[wb.Worksheets.Names.Add("testname")].RefersTo = "=[Book1.xlsx]Sheet1!$A1";
-    wb.Worksheets.Names[wb.Worksheets.Names.Add("Sheet2!testname")].RefersTo = "=[Book1.xlsx]Sheet2!$A2";
-    wb.Worksheets[1].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
-    wb.Worksheets[2].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
-    wb.Worksheets.Add();
-    wb.Worksheets.ExternalLinks.Clear();
-    wb.Worksheets.RemoveAt("Sheet1");
-    wb.Worksheets.RemoveAt("Sheet2");
-    wb.Worksheets.RemoveAt("Sheet3");
-    wb.Save(new MemoryStream(), SaveFormat.Xlsx);
+    public class WorksheetCollectionMethodRemoveAtWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Add some worksheets
+            wb.Worksheets.Add("Sheet2");
+            wb.Worksheets.Add("Sheet3");
+            
+            // Add a named range (fixed)
+            int nameIndex = wb.Worksheets.Names.Add("testname");
+            wb.Worksheets.Names[nameIndex].RefersTo = "=[Book1.xlsx]Sheet1!$A1";
+            
+            // Demonstrate RemoveAt with string parameter
+            Console.WriteLine($"Before removal - Worksheet count: {wb.Worksheets.Count}");
+            wb.Worksheets.RemoveAt("Sheet1");
+            Console.WriteLine($"After removal - Worksheet count: {wb.Worksheets.Count}");
+            
+            // Save the workbook
+            using (MemoryStream ms = new MemoryStream())
+            {
+                wb.Save(ms, SaveFormat.Xlsx);
+            }
+        }
+    }
 }
 ```
 
@@ -62,14 +79,36 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RemoveAt(ws.Index);
-public void WorksheetCollection_Method_RemoveAt()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    Worksheet ws = wb.Worksheets["Second"];
-    wb.Worksheets.RemoveAt(ws.Index);
-    Assert.AreEqual(wb.VbaProject.Modules.Count , 3);
-    wb.Save(Constants.destPath + "example.xlsm");
+    public class WorksheetCollectionMethodRemoveAtWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Add some worksheets
+            wb.Worksheets.Add("Sheet1");
+            wb.Worksheets.Add("Sheet2");
+            wb.Worksheets.Add("Sheet3");
+
+            // Display original worksheet count
+            Console.WriteLine($"Original worksheet count: {wb.Worksheets.Count}");
+
+            // Remove worksheet at index 1 (second worksheet)
+            wb.Worksheets.RemoveAt(1);
+
+            // Display updated worksheet count
+            Console.WriteLine($"After removal, worksheet count: {wb.Worksheets.Count}");
+
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 

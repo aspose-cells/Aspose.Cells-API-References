@@ -20,7 +20,7 @@ class ChartCollection;
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var charts = workbook.getWorksheets().get(0).getCharts();
+var charts = workbook.worksheets.get(0).charts;
 ```
 ## Methods
 
@@ -34,7 +34,7 @@ var charts = workbook.getWorksheets().get(0).getCharts();
 | [add(ChartType, string, boolean, number, number, number, number)](#add-charttype-string-boolean-number-number-number-number-)| Adds a chart to the collection. |
 | [removeAt(number)](#removeAt-number-)| Remove a chart at the specific index. |
 | [clear()](#clear--)| Clear all charts. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -188,7 +188,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

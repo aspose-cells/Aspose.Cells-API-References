@@ -16,26 +16,37 @@ public SpreadsheetML2003SaveOptions()
 ### Examples
 
 ```csharp
-// Called: SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
-public void SpreadsheetML2003SaveOptions_Constructor()
-{
-    caseName = "testCreateRange_Excel2007_003";
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange(0, 0, 1048576, 16384);
-    range.Name = "testRange";
+using System;
+using Aspose.Cells;
 
-    checkCreateRange_Excel2007_001(workbook);
-    workbook.Save(Constants.destPath + "testCreateRange.xlsx");
-    workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
-    checkCreateRange_Excel2007_001(workbook);
-    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+namespace AsposeCellsExamples
+{
+    public class SpreadsheetML2003SaveOptionsMethodCtorDemo
     {
-        LimitAsXls = true
-    };
-    workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
-    workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
-    workbook.Save(Constants.destPath + "testCreateRange.xls");    
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["A3"].PutValue(DateTime.Now);
+
+            // Create SpreadsheetML2003SaveOptions with constructor
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+            
+            // Set options
+            saveOptions.LimitAsXls = true;
+            saveOptions.ExportColumnIndexOfCell = true;
+
+            // Save with the options
+            workbook.Save("output.xml", saveOptions);
+            
+            Console.WriteLine("File saved with SpreadsheetML2003SaveOptions");
+        }
+    }
 }
 ```
 
@@ -64,6 +75,51 @@ public SpreadsheetML2003SaveOptions(SaveFormat saveFormat)
 ### Remarks
 
 NOTE: This constructor is now obsolete. Instead, please use SpreadsheetML2003SaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class SpreadsheetML2003SaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B1"].PutValue(123.45);
+
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions(SaveFormat.SpreadsheetML);
+
+                // Set some properties of the save options
+                saveOptions.IsIndentedFormatting = true;
+                saveOptions.LimitAsXls = false;
+                saveOptions.ExportColumnIndexOfCell = true;
+
+                Console.WriteLine("SpreadsheetML2003SaveOptions created successfully with SaveFormat parameter");
+
+                // Save the workbook using the created save options
+                workbook.Save("SpreadsheetML2003Output.xml", saveOptions);
+                Console.WriteLine("Workbook saved successfully with SpreadsheetML2003SaveOptions");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SpreadsheetML2003SaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

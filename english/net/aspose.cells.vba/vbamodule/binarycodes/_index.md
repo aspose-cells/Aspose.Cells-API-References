@@ -16,14 +16,34 @@ public byte[] BinaryCodes { get; }
 ### Examples
 
 ```csharp
-// Called: byte[] codes = p.Modules[0].BinaryCodes;
-public void VbaModule_Property_BinaryCodes()
+using System;
+using System.Text;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    VbaProject p = wb.VbaProject;
-    byte[] codes = p.Modules[0].BinaryCodes;
-    string str = Encoding.GetEncoding(936).GetString(codes);
-    Assert.IsTrue(str.IndexOf("测试") != -1);
+    public class VbaModulePropertyBinaryCodesDemo
+    {
+        public static void Run()
+        {
+            // Load the workbook with VBA project
+            Workbook workbook = new Workbook("example.xlsm");
+            
+            // Access the VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Get binary codes from the first module
+            byte[] binaryCodes = vbaProject.Modules[0].BinaryCodes;
+            
+            // Convert to string using Chinese encoding (936)
+            string codeContent = Encoding.GetEncoding(936).GetString(binaryCodes);
+            
+            // Output the content containing Chinese characters
+            Console.WriteLine("VBA Module Content:");
+            Console.WriteLine(codeContent);
+        }
+    }
 }
 ```
 

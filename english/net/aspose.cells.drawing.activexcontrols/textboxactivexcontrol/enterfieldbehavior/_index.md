@@ -16,10 +16,39 @@ public bool EnterFieldBehavior { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.EnterFieldBehavior)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.EnterFieldBehavior = true;
+    public class TextBoxActiveXControlPropertyEnterFieldBehaviorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a TextBox ActiveX Control with correct parameters
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 
+                1, 1, 1, 1, 100, 50);
+            Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl textBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate EnterFieldBehavior property
+            Console.WriteLine("Initial EnterFieldBehavior: " + textBox.EnterFieldBehavior);
+            
+            // Toggle the EnterFieldBehavior property
+            textBox.EnterFieldBehavior = !textBox.EnterFieldBehavior;
+            Console.WriteLine("Toggled EnterFieldBehavior: " + textBox.EnterFieldBehavior);
+
+            // Set EnterFieldBehavior to true explicitly
+            textBox.EnterFieldBehavior = true;
+            Console.WriteLine("Final EnterFieldBehavior: " + textBox.EnterFieldBehavior);
+        }
+    }
 }
 ```
 

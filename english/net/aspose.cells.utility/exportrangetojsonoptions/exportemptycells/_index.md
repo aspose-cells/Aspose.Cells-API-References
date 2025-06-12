@@ -16,24 +16,37 @@ public bool ExportEmptyCells { get; set; }
 ### Examples
 
 ```csharp
-// Called: exportOptions.ExportEmptyCells = true;
-public void ExportRangeToJsonOptions_Property_ExportEmptyCells()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-
-
-    // create & set ExportRangeToJsonOptions for advanced options
-    var exportOptions = new ExportRangeToJsonOptions();
-
-     exportOptions.ExportEmptyCells = true;
-    // create a range of cells containing data to be exported
-    var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
-    // export range as JSON data
-
-
-    string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-    Assert.IsTrue(jsonData.IndexOf("\"Ticket Organization\": null,") != -1);
+    public class ExportRangeToJsonOptionsPropertyExportEmptyCellsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            // Leave B2 empty intentionally
+            
+            // Create export options and enable exporting empty cells
+            ExportRangeToJsonOptions exportOptions = new ExportRangeToJsonOptions();
+            exportOptions.ExportEmptyCells = true;
+            
+            // Export the range to JSON
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 0, 2, 2);
+            string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
+            
+            Console.WriteLine(jsonData);
+        }
+    }
 }
 ```
 

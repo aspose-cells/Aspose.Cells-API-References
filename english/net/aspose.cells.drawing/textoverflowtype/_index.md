@@ -24,22 +24,39 @@ public enum TextOverflowType
 ### Examples
 
 ```csharp
-// Called: textBox.TextVerticalOverflow = TextOverflowType.Clip;
-// http://www.aspose.com/community/forums/thread/251886.aspx
-public void Drawing_Type_TextOverflowType()
-{
-    Console.WriteLine("Drawing_Type_TextOverflowType()");
-    string infn = path + "Test_TxoTextOverflowType.xlsx";
-    string outfn = Constants.destPath + "Test_TxoTextOverflowType_out.xlsx";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
 
-    Workbook book = new Workbook(infn);
-    Worksheet sheet = book.Worksheets[0];
-    Aspose.Cells.Charts.Chart chart = book.Worksheets[1].Charts[0];
-    Aspose.Cells.Drawing.TextBox textBox = (Aspose.Cells.Drawing.TextBox)chart.Shapes[0];
-    textBox.TextBody.TextAlignment.AutoSize = false;
-    textBox.Text = "This is a long text";
-    textBox.TextVerticalOverflow = TextOverflowType.Clip;
-    book.Save(outfn);
+namespace AsposeCellsExamples
+{
+    public class DrawingClassTextOverflowTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+            // Add a text box to the chart
+            TextBox textBox = chart.Shapes.AddTextBoxInChart(10, 10, 200, 50);
+
+            // Set text box properties
+            textBox.TextBody.TextAlignment.AutoSize = false;
+            textBox.Text = "This is a long text that will demonstrate text overflow handling";
+            
+            // Set text overflow type
+            textBox.TextVerticalOverflow = TextOverflowType.Clip;
+
+            // Save the workbook
+            workbook.Save("TextOverflowTypeDemo_out.xlsx");
+        }
+    }
 }
 ```
 

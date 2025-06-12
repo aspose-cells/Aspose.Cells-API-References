@@ -60,6 +60,41 @@ public class WebExtensionReferenceCollection : CollectionBase<WebExtensionRefere
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionReference, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells.WebExtensions;
+    using System;
+
+    public class WebExtensionsClassWebExtensionReferenceCollectionDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create an instance of WebExtensionReferenceCollection
+                WebExtensionReferenceCollection references = new WebExtensionReferenceCollection();
+                
+                // Add a new web extension reference
+                int index = references.Add();
+                
+                // Access the added reference (read-only property)
+                WebExtensionReference reference = references[index];
+                
+                Console.WriteLine($"Added web extension reference at index: {index}");
+                Console.WriteLine($"Total references count: {references.Count}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionReferenceCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -22,28 +22,33 @@ public abstract class FontSourceBase
 ### Examples
 
 ```csharp
-// Called: FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
-public static void Cells_Type_FontSourceBase()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassFontSourceBaseDemo
+    {
+        public static void Run()
         {
-            // Create an instance of FolderFontSource
-            string folderPath = @"C:\Fonts";
-            bool scanSubfolders = true;
-            FolderFontSource folderFontSource = new FolderFontSource(folderPath, scanSubfolders);
+            // Create a folder font source
+            string fontFolder = @"C:\Windows\Fonts";
+            FolderFontSource folderSource = new FolderFontSource(fontFolder, true);
 
-            // Accessing properties
-            Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
-            Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
-            Console.WriteLine("Font Source Type: " + folderFontSource.Type);
+            // Display font source properties
+            Console.WriteLine($"Font folder: {folderSource.FolderPath}");
+            Console.WriteLine($"Scan subfolders: {folderSource.ScanSubFolders}");
+            Console.WriteLine($"Source type: {folderSource.Type}");
 
-            // Create a workbook and set the font sources
+            // Create workbook and set font source
             Workbook workbook = new Workbook();
-            FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
+            FontConfigs.SetFontSources(new FontSourceBase[] { folderSource });
 
-            // Save the workbook
-            workbook.Save("FolderFontSourceExample.xlsx");
-            workbook.Save("FolderFontSourceExample.pdf");
-            return;
+            // Save with custom fonts
+            workbook.Save("OutputWithCustomFonts.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

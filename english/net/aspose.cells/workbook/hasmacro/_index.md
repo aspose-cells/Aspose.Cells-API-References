@@ -16,15 +16,24 @@ public bool HasMacro { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("is workbook has macro :" + workbook.HasMacro);
-public void Workbook_Property_HasMacro()
-{
-    // http://www.aspose.com/community/forums/thread/211124.aspx
-    Console.WriteLine("Workbook_Property_HasMacro()");
-    string infn = path + "Test_HasMacro.xlsm";
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(infn);
-    Console.WriteLine("is workbook has macro :" + workbook.HasMacro);
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyHasMacroDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with macro by loading a template file
+            Workbook workbookWithMacro = new Workbook("sample_with_macro.xlsm");
+            Console.WriteLine("Workbook with macro - HasMacro: " + workbookWithMacro.HasMacro);
+
+            // Create a workbook without macro
+            Workbook workbookWithoutMacro = new Workbook();
+            Console.WriteLine("Workbook without macro - HasMacro: " + workbookWithoutMacro.HasMacro);
+        }
+    }
 }
 ```
 

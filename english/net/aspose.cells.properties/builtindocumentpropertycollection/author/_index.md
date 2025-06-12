@@ -16,25 +16,29 @@ public string Author { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(AuthorValue, wb.BuiltInDocumentProperties.Author, "BuiltIn-Author");
-public void BuiltInDocumentPropertyCollection_Property_Author()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(FileFormatType.Excel97To2003);
+    public class BuiltInDocumentPropertyCollectionPropertyAuthorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-    string KeyAverageAge = "Average Age";
-    double AverageAgeValue = 31.5;
+            // Set the author property
+            string authorName = "John Doe";
+            workbook.BuiltInDocumentProperties.Author = authorName;
 
-    string KeyDistance = "Distance";
-    float DistanceValue = 2194.5f;
+            // Display the author property
+            Console.WriteLine("Document Author: " + workbook.BuiltInDocumentProperties.Author);
 
-    string AuthorValue = "John Smith";
-    wb.BuiltInDocumentProperties.Author = AuthorValue;
-    wb.CustomDocumentProperties.Add(KeyAverageAge, AverageAgeValue);
-    wb.CustomDocumentProperties.Add(KeyDistance, DistanceValue);
-    wb = Util.ReSave(wb, new XlsSaveOptions(), new LoadOptions(LoadFormat.Excel97To2003));
-    Assert.AreEqual(AuthorValue, wb.BuiltInDocumentProperties.Author, "BuiltIn-Author");
-    Assert.AreEqual(AverageAgeValue, wb.CustomDocumentProperties[KeyAverageAge].Value, "Custom-" + KeyAverageAge);
-    Assert.AreEqual(DistanceValue, wb.CustomDocumentProperties[KeyDistance].Value, "Custom-" + KeyDistance);
+            // Save the workbook
+            workbook.Save("DocumentPropertiesDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

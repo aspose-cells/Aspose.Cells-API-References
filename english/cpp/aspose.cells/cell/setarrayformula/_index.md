@@ -4,7 +4,7 @@ linktitle: SetArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetArrayFormula method. Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells/cell/setarrayformula/
 ---
 ## Cell::SetArrayFormula(const U16String\&, int32_t, int32_t) method

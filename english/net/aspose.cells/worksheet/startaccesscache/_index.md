@@ -24,48 +24,53 @@ After finishing the access to the data, [`CloseAccessCache`](../closeaccesscache
 ### Examples
 
 ```csharp
-// Called: sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-public void Worksheet_Method_StartAccessCache()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Style style = wb.DefaultStyle;
-    style.Font.Size = 10;
-    wb.DefaultStyle = style;
-    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-    FormatConditionCollection fcc = cfc[cfc.Add()];
-    fcc.AddArea(CellArea.CreateCellArea(0, 0, 65536, 9));
-    fcc.AddCondition(FormatConditionType.DuplicateValues);
-    FormatCondition fc = fcc[0];
-    fc.Style.Font.Size = 16;
-    Cells cells = sheet.Cells;
-    for (int i = 0; i < 10; i++)
+    public class WorksheetMethodStartAccessCacheWithAccessCacheOptionsDemo
     {
-        cells[0, i].PutValue("A");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Set default style
+            Style style = wb.DefaultStyle;
+            style.Font.Size = 10;
+            wb.DefaultStyle = style;
+
+            // Add conditional formatting
+            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+            FormatConditionCollection fcc = cfc[cfc.Add()];
+            fcc.AddArea(CellArea.CreateCellArea(0, 0, 10, 10));
+            fcc.AddCondition(FormatConditionType.DuplicateValues);
+            FormatCondition fc = fcc[0];
+            fc.Style.Font.Size = 16;
+
+            // Populate some data
+            Cells cells = sheet.Cells;
+            for (int i = 0; i < 10; i++)
+            {
+                cells[0, i].PutValue("A");
+                cells[i, 0].PutValue(i);
+            }
+
+            // Start access cache for better performance
+            sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+            // Verify styles
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Cell[0,{i}] Font Size: {cells[0, i].GetDisplayStyle().Font.Size}");
+                Console.WriteLine($"Cell[{i},0] Font Size: {cells[i, 0].GetDisplayStyle().Font.Size}");
+            }
+
+            // Close cache when done
+            sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+        }
     }
-    for (int i = 1; i < 32768; i++)
-    {
-        cells[i, 0].PutValue(i % 1000 == 0 ? i - 1 : i);
-    }
-    Console.WriteLine("Test performance of FormatConditionType.DuplicateValues, time cost should be less than 3 seconds");
-    //before optimization, rowsdata<>timebase: 16384<>5000; 32768<>17000; 65536<>74000;
-    //after optimization:
-    //  for all double values, 16384<>1000; 32768<>4000;
-    //  for all int values, 16384<>160; 32768<>400;
-    TimePerformance monitor = new TimePerformance(500);
-    monitor.StartPerfTest();
-    sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-    for (int i = 0; i < 10; i++)
-    {
-        Assert.AreEqual(16, cells[0, i].GetDisplayStyle().Font.Size, ((char)('A' + i)) + "1");
-    }
-    for (int i = 1; i < 32767; i++)
-    {
-        Assert.AreEqual(i % 1000 == 0 || (i + 1) % 1000 == 0 ? 16 : 10,
-            cells[i, 0].GetDisplayStyle().Font.Size, ((char)('A' + i)) + "1");
-    }
-    //Console.WriteLine("PerfBase of building cached result: " + monitor.GenPerfBase());
-    monitor.FinishPerfTest("PerfBase of building cached result");
 }
 ```
 

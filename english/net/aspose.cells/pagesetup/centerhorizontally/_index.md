@@ -16,31 +16,36 @@ public bool CenterHorizontally { get; set; }
 ### Examples
 
 ```csharp
-// Called: pageSetup.CenterHorizontally = true;
-public static void PageSetup_Property_CenterHorizontally()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyCenterHorizontallyDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the PageSetup object
+            // Populate some sample data
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            for (int i = 1; i <= 5; i++)
+            {
+                worksheet.Cells["A" + (i + 1)].PutValue("Item " + i);
+                worksheet.Cells["B" + (i + 1)].PutValue(i * 100);
+            }
+
             PageSetup pageSetup = worksheet.PageSetup;
-
-            // Set the print order to DownThenOver
-            pageSetup.Order = PrintOrderType.DownThenOver;
-
-            // Set some other page setup properties for demonstration
-            pageSetup.PrintArea = "A1:D10";
-            pageSetup.PrintTitleRows = "$1:$1";
-            pageSetup.PrintTitleColumns = "$A:$A";
+            
+            // Demonstrate CenterHorizontally property
             pageSetup.CenterHorizontally = true;
-            pageSetup.CenterVertically = true;
+            pageSetup.PrintArea = "A1:B6";
 
-            // Save the workbook
-            workbook.Save("PrintOrderTypeExample.xlsx");
-
-            return;
+            workbook.Save("CenterHorizontallyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

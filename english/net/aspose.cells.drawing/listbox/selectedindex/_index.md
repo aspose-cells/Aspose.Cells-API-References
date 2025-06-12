@@ -20,16 +20,31 @@ public int SelectedIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.SelectedIndex = 2;
-public void ListBox_Property_SelectedIndex()
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = workbook.Worksheets[0].Cells["A2"];
-    Assert.AreEqual("1", cell.StringValue);
-    ListBox listBox = (ListBox)workbook.Worksheets[0].Shapes[3];
-    listBox.SelectedIndex = 2;
-    Assert.AreEqual("2",cell.StringValue);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ListBoxPropertySelectedIndexDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].PutValue("Item 0");
+            worksheet.Cells["A2"].PutValue("Item 1");
+            worksheet.Cells["A3"].PutValue("Item 2");
+            
+            ListBox listBox = worksheet.Shapes.AddListBox(5, 5, 100, 100, 200, 300);
+            listBox.InputRange = "A1:A3";
+            listBox.LinkedCell = "B1";
+            
+            listBox.SelectedIndex = 2;
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

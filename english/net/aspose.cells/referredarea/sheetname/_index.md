@@ -20,17 +20,26 @@ If it references to multiple worksheets, the returned value is just like the ran
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Sheet2", ra.SheetName, "Precedent's referred sheet");
-public void ReferredArea_Property_SheetName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets.Add("Sheet2");
-    Worksheet worksheet1 = workbook.Worksheets["Sheet1"];
-    // the named range
-    workbook.Worksheets["Sheet2"].Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
-    worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
-    ReferredArea ra = worksheet1.Cells["A1"].GetPrecedents()[0];
-    Assert.AreEqual("Sheet2", ra.SheetName, "Precedent's referred sheet");
+    public class ReferredAreaPropertySheetNameDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            Worksheet worksheet1 = workbook.Worksheets["Sheet1"];
+            
+            workbook.Worksheets["Sheet2"].Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
+            worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
+            
+            ReferredArea ra = worksheet1.Cells["A1"].GetPrecedents()[0];
+            Console.WriteLine("Precedent's referred sheet: " + ra.SheetName);
+        }
+    }
 }
 ```
 

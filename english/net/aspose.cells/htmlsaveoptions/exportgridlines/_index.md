@@ -16,20 +16,41 @@ public bool ExportGridLines { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
-private Aspose.Cells.HtmlSaveOptions HtmlSaveOptions_Property_ExportGridLines(Aspose.Cells.Workbook tmpWb)
-        {
-            return new Aspose.Cells.HtmlSaveOptions
-            {
-                ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
-                ExportActiveWorksheetOnly = true,
-                ParseHtmlTagInCell = true,
-                ExcludeUnusedStyles = true,
+using System;
+using Aspose.Cells;
 
-                HtmlCrossStringType = HtmlCrossType.MSExport,
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportGridLinesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set gridlines visibility
+            worksheet.IsGridlinesVisible = true;
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B2"].PutValue(123);
+            worksheet.Cells["C3"].PutValue(DateTime.Now);
+
+            // Create HTML save options
+            HtmlSaveOptions options = new HtmlSaveOptions
+            {
+                ExportGridLines = worksheet.IsGridlinesVisible,
+                ExportActiveWorksheetOnly = true
             };
 
+            // Save as HTML
+            workbook.Save("output.html", options);
+
+            Console.WriteLine("HTML file saved with ExportGridLines: " + options.ExportGridLines);
         }
+    }
+}
 ```
 
 ### See Also

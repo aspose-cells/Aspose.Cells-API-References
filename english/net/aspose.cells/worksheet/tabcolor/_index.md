@@ -20,16 +20,37 @@ This feature is only supported in ExcelXP(Excel2002) and later versions. If you 
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(workbook.Worksheets[0].TabColor, Color.Red);
-public void Worksheet_Property_TabColor()
-{
+using System;
+using System.Drawing;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    AssertHelper.AreEqual(workbook.Worksheets[0].TabColor, Color.Red);
-    workbook.Worksheets[0].TabColor = Color.Empty;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].TabColor.IsEmpty,true);
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyTabColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set tab color to red
+            worksheet.TabColor = Color.Red;
+            Console.WriteLine("Tab color set to: " + worksheet.TabColor);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Clear the tab color
+            worksheet.TabColor = Color.Empty;
+            Console.WriteLine("Tab color cleared: " + worksheet.TabColor.IsEmpty);
+            
+            // Save the modified workbook
+            workbook.Save("output_modified.xlsx");
+        }
+    }
 }
 ```
 

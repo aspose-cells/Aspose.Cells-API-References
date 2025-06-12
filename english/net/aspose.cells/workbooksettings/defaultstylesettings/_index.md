@@ -16,100 +16,45 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.DefaultStyleSettings.BuiltInPreference = true;
-public void WorkbookSettings_Property_DefaultStyleSettings()
+using System;
+using System.Globalization;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //CELLSNET-53482
-    //en-CA: CELLSNET-55529
-    string ptn = "BuiltInFormat_";
-    string[] files = Directory.GetFiles(Constants.sourcePath + "Style", ptn + "*.xlsx");
-    if (files == null || files.Length < 1)
+    public class WorkbookSettingsPropertyDefaultStyleSettingsDemo
     {
-        Assert.Fail("Cannot find template files " + ptn + "*.xlsx");
-    }
-    StringBuilder sb = null;
-    foreach (string path in files)
-    {
-        int v = path.IndexOf(ptn);
-        Console.Write("FormattingTest.LocaleBuiltIn: " + path.Substring(v) + "...");
-        if (v < 0)
+        public static void Run()
         {
-            Console.WriteLine("Ignored");
-            continue;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the default style settings
+            DefaultStyleSettings styleSettings = workbook.Settings.DefaultStyleSettings;
+
+            // Set built-in number format preference
+            styleSettings.BuiltInPreference = true;
+
+            // Set culture for number formatting
+            workbook.Settings.CultureInfo = new CultureInfo("en-US");
+
+            // Access cells and apply formatting
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set values and styles
+            cells["A1"].PutValue(1234.56);
+            cells["A1"].GetStyle().Number = 4; // Currency format
+
+            cells["B1"].PutValue(0.456);
+            cells["B1"].GetStyle().Number = 2; // Percentage format
+
+            cells["C1"].PutValue(DateTime.Now);
+            cells["C1"].GetStyle().Number = 22; // Short date format
+
+            // Save the workbook
+            workbook.Save("DefaultStyleSettingsDemo.xlsx");
         }
-        Workbook wb = new Workbook(path);
-        wb.Settings.DefaultStyleSettings.BuiltInPreference = true;
-        v += ptn.Length;
-        bool addFile = true;
-        string cn = path.Substring(v, path.Length - 5 - v).Replace('_', '-');
-        try
-        {
-            wb.Settings.CultureInfo = new CultureInfo(cn);
-        }
-        catch (Exception e)
-        {
-            if (sb == null)
-            {
-                sb = new StringBuilder(1024);
-            }
-            else
-            {
-                sb.Append('\n');
-            }
-            sb.Append(path);
-            sb.Append("\n  Failed to set CultureInfo: ");
-            sb.Append(cn);
-            sb.Append("; ");
-            Util.GetExceptoinInfo(e, sb);
-            addFile = false;
-            continue;
-        }
-        Cells cells = wb.Worksheets[0].Cells;
-        v = cells.MaxDataRow;
-        for (int i = 0; i <= v; i++)
-        {
-            for (int j = 0; j < 6; j += 3)
-            {
-                Cell c = cells.CheckCell(i, j + 2);
-                if (c != null && c.StringValue == "x")
-                {
-                    continue;
-                }
-                string d = cells[i, j].StringValue;
-                string s = cells[i, j + 1].StringValue;
-                if (d != s && !s.StartsWith("###"))
-                {
-                    if (addFile)
-                    {
-                        if (sb == null)
-                        {
-                            sb = new StringBuilder(1024);
-                        }
-                        else
-                        {
-                            sb.Append('\n');
-                        }
-                        sb.Append(path);
-                        addFile = false;
-                    }
-                    sb.Append("\n  ");
-                    sb.Append((char)('A' + j));
-                    sb.Append(i + 1);
-                    sb.Append("(Style.Number=");
-                    sb.Append(cells[i, 0].GetStyle(false).Number);
-                    sb.Append("): expected [");
-                    sb.Append(s);
-                    sb.Append("] but was [");
-                    sb.Append(d);
-                    sb.Append(']');
-                }
-            }
-        }
-        Console.WriteLine("Finished");
-    }
-    if (sb != null)
-    {
-        Assert.Fail(sb.ToString());
     }
 }
 ```

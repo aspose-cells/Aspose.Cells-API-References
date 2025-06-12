@@ -16,16 +16,35 @@ public bool ExportCellCoordinate { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportCellCoordinate = true;
-public void HtmlSaveOptions_Property_ExportCellCoordinate()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47922/";
-    string savePath = CreateFolder(filePath);
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(filePath + "Book1.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportCellCoordinate = true;
-    wb.Save(savePath + "out.html", options);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportCellCoordinateDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+
+            // Create HTML save options and enable ExportCellCoordinate
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportCellCoordinate = true;
+
+            // Save the workbook as HTML with cell coordinates
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("HTML with cell coordinates exported successfully.");
+        }
+    }
 }
 ```
 

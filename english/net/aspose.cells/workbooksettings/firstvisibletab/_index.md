@@ -16,12 +16,33 @@ public int FirstVisibleTab { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
-public void WorkbookSettings_Property_FirstVisibleTab()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
+    public class WorkbookSettingsPropertyFirstVisibleTabDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
+            
+            // Set the first visible tab index (0-based)
+            workbook.Settings.FirstVisibleTab = 1;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            
+            // Verify the setting
+            Console.WriteLine("First visible tab index: " + workbook.Settings.FirstVisibleTab);
+        }
+    }
 }
 ```
 

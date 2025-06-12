@@ -20,19 +20,57 @@ If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xl
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
-public void Chart_Property_PivotSource()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = wb.Worksheets[0].Cells[4, 3];
-    cell.Value = 3;
-    // Rename the sheet using a name with ' 
-    wb.Worksheets[0].Name = "New' Name";
-    wb.Worksheets[0].PivotTables[0].RefreshData();
-    wb.Worksheets[0].PivotTables[0].CalculateData();
-    Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
-    wb.Worksheets[0].Charts[0].RefreshPivotData();//Exception 
-    Util.ReSave(wb, SaveFormat.Xlsx);
+    public class ChartPropertyPivotSourceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 150;
+            worksheet.Cells["B4"].Value = 200;
+            
+            // Add pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set pivot source for the chart
+            chart.PivotSource = "Sheet1!PivotTable1";
+            
+            // Refresh pivot data and chart
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            chart.RefreshPivotData();
+            
+            // Save the workbook
+            workbook.Save("PivotSourceDemo.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Chart PivotSource demo executed successfully.");
+        }
+    }
 }
 ```
 

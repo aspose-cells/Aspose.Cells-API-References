@@ -16,37 +16,40 @@ public VerticalPageBreakCollection VerticalPageBreaks { get; }
 ### Examples
 
 ```csharp
-// Called: VerticalPageBreakCollection verticalPageBreaks = worksheet.VerticalPageBreaks;
-public static void Worksheet_Property_VerticalPageBreaks()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyVerticalPageBreaksDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the VerticalPageBreakCollection of the worksheet
             VerticalPageBreakCollection verticalPageBreaks = worksheet.VerticalPageBreaks;
 
-            // Add vertical page breaks
-            verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
-            verticalPageBreaks.Add(4); // At column 4
-            verticalPageBreaks.Add(5, 3); // At row 5, column 3
-            verticalPageBreaks.Add("G5"); // At cell G5
+            // Add different types of vertical page breaks
+            verticalPageBreaks.Add(0, 10, 2);
+            verticalPageBreaks.Add(4);
+            verticalPageBreaks.Add(5, 3);
+            verticalPageBreaks.Add("G5");
 
-            // Remove a vertical page break at index 1
+            // Remove one break
             verticalPageBreaks.RemoveAt(1);
 
-            // Access and print details of the vertical page breaks
+            // Print break information
             for (int i = 0; i < verticalPageBreaks.Count; i++)
             {
                 VerticalPageBreak vpb = verticalPageBreaks[i];
-                Console.WriteLine($"Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
+                Console.WriteLine($"Break {i}: StartRow={vpb.StartRow}, EndRow={vpb.EndRow}, Column={vpb.Column}");
             }
 
-            // Save the workbook
-            workbook.Save("VerticalPageBreakCollectionExample.xlsx");
-
-            return;
+            workbook.Save("VerticalPageBreaksDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

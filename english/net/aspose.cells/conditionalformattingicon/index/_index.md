@@ -16,29 +16,47 @@ public int Index { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, iconCollection[1].Index);
-public void ConditionalFormattingIcon_Property_Index()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Worksheet sheet1 = workbook.Worksheets[1];
-
-    ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
-    //  for(int i = 0; i < collection.Count; i++)
+    public class ConditionalFormattingIconPropertyIndexDemo
     {
-        int i = 2;
-        FormatConditionCollection conditionCollection = collection[i];
-
-    //    for (int j = 0; j < conditionCollection.Count; j++)
+        public static void Run()
         {
-            FormatCondition condition = conditionCollection[0];
-            //if(condition.getType() == FormatConditionType.ICON_SET){ 
-            ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            Assert.AreEqual(2, iconCollection[0].Index);
-            Assert.AreEqual(2, iconCollection[1].Index);
-            Assert.AreEqual(0, iconCollection[2].Index);
+            // Add sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+            sheet.Cells["A4"].PutValue(40);
+
+            // Add icon set conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sheet.ConditionalFormattings[index];
+            fcc.AddCondition(FormatConditionType.IconSet);
+            
+            // Set icon set properties
+            FormatCondition condition = fcc[0];
+            condition.IconSet.Type = IconSetType.Arrows3;
+            ConditionalFormattingIconCollection icons = condition.IconSet.CfIcons;
+
+            // Display the index of each icon
+            Console.WriteLine("Icon Indexes:");
+            for (int i = 0; i < icons.Count; i++)
+            {
+                Console.WriteLine($"Icon {i}: Index = {icons[i].Index}");
+            }
+
+            // Modify and show index property
+            icons[1].Index = 2;
+            Console.WriteLine($"Modified Icon 1 Index: {icons[1].Index}");
         }
-    } 
+    }
 }
 ```
 

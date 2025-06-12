@@ -16,25 +16,49 @@ public int CellRow { get; }
 ### Examples
 
 ```csharp
-// Called: + data.Worksheet.Name + "!" + CellsHelper.CellIndexToName(data.CellRow, data.CellColumn)
-public override void CalculationData_Property_CellRow(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataPropertyCellRowDemo
+    {
+        public static void Run()
         {
-            if (_init)
-            {
-                _functions = new HashSet<string>();
-                _init = false;
-            }
-            else if (_functions.Contains(data.FunctionName))
-            {
-                SkipCalculation();
-                return;
-            }
-            _functions.Add(data.FunctionName);
-            Console.WriteLine("Ignore calculation for [" + data.Worksheet.Index + "]"
-                + data.Worksheet.Name + "!" + CellsHelper.CellIndexToName(data.CellRow, data.CellColumn)
-                + ": " + data.FunctionName);
-            SkipCalculation();
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue("=SUM(A1:A2)");
+
+            // Set calculation options
+            CalculationOptions opts = new CalculationOptions();
+            opts.CustomEngine = new CustomCalculationEngine();
+
+            // Calculate formulas
+            workbook.CalculateFormula(opts);
+
+            // Access the calculated cell and demonstrate CellRow property
+            Cell calculatedCell = worksheet.Cells["A3"];
+            Console.WriteLine("Calculated cell is at row: " + calculatedCell.Row);
         }
+    }
+
+    public class CustomCalculationEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
+            // Demonstrate accessing row information from calculation data
+            if (data != null)
+            {
+                Console.WriteLine("Current calculation is for row: " + data.CellRow);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

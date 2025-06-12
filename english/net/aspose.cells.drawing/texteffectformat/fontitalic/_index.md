@@ -16,17 +16,40 @@ public bool FontItalic { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-public static void TextEffectFormat_Property_FontItalic(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class TextEffectFormatPropertyFontItalicDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
-            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");
-            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
-            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
-            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
-            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape with text effect
+            Shape shape = worksheet.Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Sample Text", 
+                "Arial", 18, false, false, 0, 0, 0, 0, 100, 100);
+
+            // Get the text effect format
+            TextEffectFormat textEffectFormat = shape.TextEffect;
+
+            // Set FontItalic to true
+            textEffectFormat.FontItalic = true;
+            Console.WriteLine("FontItalic after setting to true: " + textEffectFormat.FontItalic);
+
+            // Set FontItalic to false
+            textEffectFormat.FontItalic = false;
+            Console.WriteLine("FontItalic after setting to false: " + textEffectFormat.FontItalic);
+
+            // Save the workbook
+            workbook.Save("TextEffectFormatFontItalicDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

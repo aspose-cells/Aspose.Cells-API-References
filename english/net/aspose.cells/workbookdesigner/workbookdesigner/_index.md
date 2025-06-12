@@ -16,35 +16,56 @@ public WorkbookDesigner()
 ### Examples
 
 ```csharp
-// Called: WorkbookDesigner designer = new WorkbookDesigner();
-public void WorkbookDesigner_Constructor()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    List<Level> list = new List<Level>();
-    for (int i = 1; i < 10001; i++)
+    public class WorkbookDesignerMethodCtorDemo
     {
-        list.Add(new Level("r" + i, "c" + i));
+        public static void Run()
+        {
+            // Create a new WorkbookDesigner using the constructor
+            WorkbookDesigner designer = new WorkbookDesigner();
+            
+            // Create sample data source
+            List<Level> levels = new List<Level>();
+            levels.Add(new Level("r1", "c1"));
+            levels.Add(new Level("r2", "c2"));
+            levels.Add(new Level("r3", "c3"));
+
+            // Create a new workbook and set it as designer's workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set markers in the worksheet
+            worksheet.Cells["A1"].PutValue("&Level.Name");
+            worksheet.Cells["B1"].PutValue("&Level.Value");
+
+            // Set the workbook to designer
+            designer.Workbook = workbook;
+
+            // Set data source and process
+            designer.SetDataSource("Level", levels);
+            designer.Process();
+
+            // Save the result
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
     }
 
-    WorkbookDesigner designer = new WorkbookDesigner();
-    designer.Workbook = PrepareCellsJava43994();
+    public class Level
+    {
+        public string Name { get; set; }
+        public string Value { get; set; }
 
-    ////currently it takes too long time to process normally
-    //Console.WriteLine("CellsJava43994: Processing normally...");
-    //DateTime t1 = DateTime.Now;
-    //designer.SetDataSource("Level", list);
-    //designer.CalculateFormula = false;
-    //designer.Process();
-    //int tt = (int)DateTime.Now.Subtract(t1).TotalMilliseconds;
-    //Console.WriteLine("CellsJava43994: finished with time cost " + tt + "ms.");
-
-    int tt = 15000; //large enough for assuring to interrupt after global processes has been finished
-    designer.Workbook = PrepareCellsJava43994();
-    Thread monitor = Util.StartInterruptMonitorThread(designer.Workbook,
-        "CellsJava43994", tt / 5, tt / 10, true);
-    designer.SetDataSource("Level", list);
-    designer.CalculateFormula = false;
-    designer.Process();
-    monitor.Interrupt();
+        public Level(string name, string value)
+        {
+            Name = name;
+            Value = value;
+        }
+    }
 }
 ```
 
@@ -71,18 +92,41 @@ public WorkbookDesigner(Workbook workbook)
 ### Examples
 
 ```csharp
-// Called: WorkbookDesigner designer = new WorkbookDesigner(workbook);
-public void WorkbookDesigner_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    String data = "{\"object\": {\"object1\": {\"name\": \"John Doe\"}}        }";
-
-    WorkbookDesigner designer = new WorkbookDesigner(workbook);
-    designer.SetJsonDataSource("ds", data);
-    //designer.LineByLine = false;
-
-    designer.Process();
-    Assert.AreEqual("John Doe", workbook.Worksheets[0].Cells["A2"].StringValue);
+    public class WorkbookDesignerMethodCtorWithWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data in cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue("&=$ds.object.object1.name");
+            
+            // Create JSON data source
+            string jsonData = "{\"object\": {\"object1\": {\"name\": \"John Doe\"}}}";
+            
+            // Initialize WorkbookDesigner with the workbook
+            WorkbookDesigner designer = new WorkbookDesigner(workbook);
+            
+            // Set JSON data source
+            designer.SetJsonDataSource("ds", jsonData);
+            
+            // Process the designer
+            designer.Process();
+            
+            // Output the result
+            Console.WriteLine("Processed value: " + worksheet.Cells["A2"].StringValue);
+        }
+    }
 }
 ```
 

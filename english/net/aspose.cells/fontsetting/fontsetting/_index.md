@@ -20,52 +20,34 @@ public FontSetting(int startIndex, int length, WorksheetCollection sheets)
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
-public void FontSetting_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    bool caseSensitive = false;
-    bool matchEntireCellContents = false;
-    string searchText = "Dickens";
-    string regText = "^[pbtd][^aeiou]";
-    string replacementText = "Hulahoop";
-    bool useRegex = false;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ReplaceOptions options = new ReplaceOptions();
-
-    // Set case sensitivity and text matching options
-    options.CaseSensitive = caseSensitive;
-    options.MatchEntireCellContents = matchEntireCellContents;
-
-    List<Aspose.Cells.FontSetting> settingsList = new List<Aspose.Cells.FontSetting>(); // replace.FontSettings.ToList();
-    Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
-
-    //setting.Font.IsBold = true; // ExcelFont.IsBold;
-    setting.Font.Color = System.Drawing.Color.Red; //ExcelFont.Color
-                                                   //setting.Font.Size = 22;
-                                                   //setting.Font.Name = "ALGERIAN";
-
-
-    setting.Font.Underline = Aspose.Cells.FontUnderlineType.Single;
-
-    setting.Font.IsStrikeout = true;
-    setting.Font.StrikeType = Aspose.Cells.TextStrikeType.Double;
-
-    settingsList.Add(setting);
-    options.FontSettings = settingsList.ToArray();
-
-    if (!useRegex)
+    public class FontSettingMethodCtorWithInt32Int32WorksheetCollectionDemo
     {
-        // Replace text
-        workbook.Replace(searchText, replacementText, options);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample text to cell
+            worksheet.Cells["A1"].PutValue("Hello World");
+            
+            // Create font setting for the first 5 characters (0-4) in all worksheets
+            FontSetting fontSetting = new FontSetting(0, 5, workbook.Worksheets);
+            
+            // Apply formatting
+            fontSetting.Font.Color = System.Drawing.Color.Red;
+            fontSetting.Font.IsBold = true;
+            fontSetting.Font.Size = 14;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    else
-    {
-        options.RegexKey = true;
-        workbook.Replace(regText, replacementText, options);
-    }
-
-    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters("wo shi ".Length, replacementText.Length);
-    Assert.IsTrue(fs.Font.IsStrikeout);
 }
 ```
 

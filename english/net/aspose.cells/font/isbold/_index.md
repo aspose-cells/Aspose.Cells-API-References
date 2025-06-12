@@ -16,15 +16,39 @@ public bool IsBold { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(style.Font.IsBold);
-public void Font_Property_IsBold()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook= new Workbook(Constants.destPath + "example.xlsx");
-    Style style = workbook.Worksheets[0].Cells["B12"].GetStyle();
-    Assert.IsTrue(style.Font.IsBold);
-    Assert.IsTrue(style.Font.IsStrikeout);
+    public class FontPropertyIsBoldDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell A1 and set its value
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Bold Text Demo");
+            
+            // Get cell's style and set font to bold
+            Style style = cell.GetStyle();
+            style.Font.IsBold = true;
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("FontIsBoldDemo.xlsx");
+            
+            // Verify the bold property
+            Workbook loadedWorkbook = new Workbook("FontIsBoldDemo.xlsx");
+            Style loadedStyle = loadedWorkbook.Worksheets[0].Cells["A1"].GetStyle();
+            Console.WriteLine("IsBold property: " + loadedStyle.Font.IsBold);
+        }
+    }
 }
 ```
 

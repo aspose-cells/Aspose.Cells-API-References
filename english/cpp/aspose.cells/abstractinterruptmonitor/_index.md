@@ -4,7 +4,7 @@ linktitle: AbstractInterruptMonitor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractInterruptMonitor class. Monitor for interruption requests in all time-consuming operations in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells/abstractinterruptmonitor/
 ---
 ## AbstractInterruptMonitor class

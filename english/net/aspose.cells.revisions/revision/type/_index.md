@@ -16,40 +16,37 @@ public virtual RevisionType Type { get; }
 ### Examples
 
 ```csharp
-// Called: if (rv.Type == RevisionType.ChangeCells)
-public void Revision_Property_Type()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
-    RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-    Assert.AreEqual(3, rlc.Count, "Revision logs count");
-    int matched = 0;
-    foreach (RevisionLog log in rlc)
+    public class RevisionPropertyTypeDemo
     {
-        RevisionCollection rvs = log.Revisions;
-        foreach (Revision rv in rvs)
+        public static void Run()
         {
-            if (rv.Type == RevisionType.ChangeCells)
+            Workbook wb = new Workbook("example.xlsx");
+            if (!wb.HasRevisions)
             {
-                RevisionCellChange rcc = (RevisionCellChange)rv;
-                string fml = rcc.OldFormula;
-                if (fml != null)
+                Console.WriteLine("No revisions found");
+                return;
+            }
+
+            foreach (RevisionLog log in wb.Worksheets.RevisionLogs)
+            {
+                foreach (Revision rv in log.Revisions)
                 {
-                    if (rcc.Row == 0)
+                    if (rv.Type == RevisionType.ChangeCells)
                     {
-                        Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
-                        matched++;
-                    }
-                    else if (rcc.Row == 1)
-                    {
-                        Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
-                        matched++;
+                        RevisionCellChange change = (RevisionCellChange)rv;
+                        Console.WriteLine($"Cell {change.CellName} (Row {change.Row}):");
+                        Console.WriteLine($"Old formula: {change.OldFormula ?? "N/A"}");
                     }
                 }
             }
         }
     }
-    Assert.AreEqual(2, matched, "Changed formula count");
 }
 ```
 

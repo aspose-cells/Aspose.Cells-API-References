@@ -16,15 +16,45 @@ public bool Smooth { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue( chart1.NSeries[0].Smooth);
-public void Series_Property_Smooth()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet ws = workbook.Worksheets["Sheet1"];
-    Chart chart1 = ws.Charts[1];
-    Chart chart2 = ws.Charts[2];
-   Assert.IsTrue( chart1.NSeries[0].Smooth);
-    Assert.IsFalse( chart2.NSeries[0].Smooth);
+    public class SeriesPropertySmoothDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data source
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set Smooth property for the first series
+            chart.NSeries[0].Smooth = true;
+
+            // Save the workbook
+            workbook.Save("SmoothPropertyDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,19 +16,38 @@ public int StartIndex { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Example 1.1", cell.StringValue.Substring(fs.StartIndex, fs.Length));
-public void FontSetting_Property_StartIndex()
-{
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
+using System;
+using Aspose.Cells;
 
-    string value = "<b>Example Test</b><div><ul><li>Example 1<ul><li><span style=\"font-size:1.16rem;text-transform:inherit\">Example 1.1</span> <ul><li><span style=\"font-size:1.16rem;text-transform:inherit\">Example 1.1.1</span> </li></ul></li></ul></li><li>Example 2<ul><li>Example 2.1 </li><li>Example 2.2</li></ul></li></ul></div>";
-    Cell cell = worksheet.Cells[1, 1];
-    cell.HtmlString = value;
-    FontSetting[] fontSettings = cell.GetCharacters();
-    FontSetting fs = fontSettings[5];
-    Assert.AreEqual(11.6, fs.Font.DoubleSize);
-    Assert.AreEqual("Example 1.1", cell.StringValue.Substring(fs.StartIndex, fs.Length));
+namespace AsposeCellsExamples
+{
+    public class FontSettingPropertyStartIndexDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            string htmlText = "Normal <b>Bold Text</b> <i>Italic Text</i>";
+            Cell cell = worksheet.Cells["A1"];
+            cell.HtmlString = htmlText;
+
+            FontSetting[] fontSettings = cell.GetCharacters();
+            
+            Console.WriteLine("Text in cell: " + cell.StringValue);
+            Console.WriteLine("\nFont settings analysis:");
+            
+            foreach (FontSetting fs in fontSettings)
+            {
+                string segment = cell.StringValue.Substring(fs.StartIndex, fs.Length);
+                Console.WriteLine($"Text: '{segment}'");
+                Console.WriteLine($"Starts at: {fs.StartIndex}, Length: {fs.Length}");
+                Console.WriteLine($"Font is bold: {fs.Font.IsBold}");
+                Console.WriteLine($"Font is italic: {fs.Font.IsItalic}");
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 

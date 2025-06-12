@@ -20,15 +20,39 @@ Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary d
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2,copy.Worksheets[0].CustomProperties.Count);
-public void Worksheet_Property_CustomProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    Workbook copy = new Workbook();
-    copy.Copy(wb);
-    Assert.AreEqual(2,copy.Worksheets[0].CustomProperties.Count);
-    Util.ReSave(copy, SaveFormat.Xlsm);
-    //copy.Save(Constants.destPath + "example.xlsm");
+    public class WorksheetPropertyCustomPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add custom properties to the worksheet
+            worksheet.CustomProperties.Add("Property1", "Value1");
+            worksheet.CustomProperties.Add("Property2", "12345");
+            worksheet.CustomProperties.Add("Property3", DateTime.Now.ToString());
+            
+            // Display count of custom properties
+            Console.WriteLine("Custom Properties Count: " + worksheet.CustomProperties.Count);
+            
+            // Access and display property values
+            foreach (var prop in worksheet.CustomProperties)
+            {
+                Console.WriteLine($"Name: {prop.Name}, Value: {prop.Value}");
+            }
+            
+            // Save the workbook
+            workbook.Save("WorksheetCustomPropertiesDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

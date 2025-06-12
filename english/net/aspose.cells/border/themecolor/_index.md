@@ -16,12 +16,33 @@ public ThemeColor ThemeColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
-public void Border_Property_ThemeColor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Style style = workbook.Worksheets[0].Cells["F1"].GetStyle();
-    Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
+    public class BorderPropertyThemeColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access a cell and get its style
+            Style style = worksheet.Cells["A1"].GetStyle();
+
+            // Set border theme color
+            style.Borders[BorderType.BottomBorder].ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+
+            // Apply the style to the cell
+            worksheet.Cells["A1"].SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("BorderThemeColorDemo.xlsx");
+        }
+    }
 }
 ```
 

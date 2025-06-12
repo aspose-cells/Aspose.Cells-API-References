@@ -20,21 +20,46 @@ public WorksheetCollection Worksheets { get; }
 ### Examples
 
 ```csharp
-// Called: sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
-public void Workbook_Property_Worksheets()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    DataSorter sorter = workbook.DataSorter;
-    sorter.AddKey(1, SortOnType.CellColor, SortOrder.Descending, Color.Red);
-    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
-    Assert.AreEqual("2", workbook.Worksheets[1].Cells["B5"].StringValue);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-   sorter = workbook.DataSorter;
-    sorter.AddKey(1, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
-    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
-    Assert.AreEqual("2", workbook.Worksheets[1].Cells["B2"].StringValue);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorkbookPropertyWorksheetsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+            
+            // Add a new worksheet
+            workbook.Worksheets.Add("SecondSheet");
+            
+            // Access the second worksheet and add data
+            Worksheet secondSheet = workbook.Worksheets[1];
+            secondSheet.Cells["A1"].PutValue("Product");
+            secondSheet.Cells["B1"].PutValue("Price");
+            secondSheet.Cells["A2"].PutValue("Laptop");
+            secondSheet.Cells["B2"].PutValue(999.99);
+            
+            // Save the workbook
+            workbook.Save("WorkbookWorksheetsDemo.xlsx");
+            
+            // Output worksheet count
+            Console.WriteLine($"Number of worksheets: {workbook.Worksheets.Count}");
+        }
+    }
 }
 ```
 

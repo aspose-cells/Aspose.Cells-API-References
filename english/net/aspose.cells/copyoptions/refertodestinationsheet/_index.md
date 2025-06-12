@@ -20,33 +20,37 @@ The default value is false, it works as MS Excel.
 ### Examples
 
 ```csharp
-// Called: copyOptions.ReferToDestinationSheet = true;
-public void CopyOptions_Property_ReferToDestinationSheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string outputWSName = "Output";
-    int reportNum = 0;
-
-    CopyOptions copyOptions = new CopyOptions();
-    copyOptions.ReferToDestinationSheet = true;
-
-    Workbook tmpWorkBook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook targetWB = new Workbook();
-    for (int i = 0; i < 2; i++)
+    public class CopyOptionsPropertyReferToDestinationSheetDemo
     {
-        Worksheet sourceWS = tmpWorkBook.Worksheets[0];
-        Worksheet targetWS = targetWB.Worksheets[outputWSName];
-        while (targetWS != null)
+        public static void Run()
         {
-            outputWSName += reportNum + 1;
-            targetWS = targetWB.Worksheets[outputWSName];
-        }
+            // Create source workbook with sample data
+            Workbook sourceWorkbook = new Workbook();
+            Worksheet sourceSheet = sourceWorkbook.Worksheets[0];
+            sourceSheet.Cells["A1"].PutValue("Source Data");
+            sourceSheet.Cells["B1"].PutValue(100);
+            sourceSheet.Cells["A2"].PutValue("=SUM(B1)");
 
-        targetWS = targetWB.Worksheets.Add(outputWSName);
-        targetWS.Copy(sourceWS, copyOptions);
-        targetWS.PageSetup.PrintTitleRows = sourceWS.PageSetup.PrintTitleRows;
-        targetWS.Cells.DeleteColumn(0);
+            // Create destination workbook
+            Workbook destWorkbook = new Workbook();
+            Worksheet destSheet = destWorkbook.Worksheets.Add("DestinationSheet");
+
+            // Set copy options with ReferToDestinationSheet
+            CopyOptions copyOptions = new CopyOptions();
+            copyOptions.ReferToDestinationSheet = true;
+
+            // Copy worksheet with the options
+            destSheet.Copy(sourceSheet, copyOptions);
+
+            // Save the result
+            destWorkbook.Save("output.xlsx");
+        }
     }
-    targetWB.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

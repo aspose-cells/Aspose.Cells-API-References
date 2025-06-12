@@ -20,41 +20,30 @@ Default is false. We will try default font of Workbook and PdfSaveOption/system 
 ### Examples
 
 ```csharp
-// Called: IsFontSubstitutionCharGranularity = true,
-public static void PaginatedSaveOptions_Property_IsFontSubstitutionCharGranularity()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyIsFontSubstitutionCharGranularityDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            sheet.Cells["A1"].PutValue("Hello");
-            sheet.Cells["A2"].PutValue("World");
-            sheet.Cells["A3"].PutValue(123);
+            sheet.Cells["A1"].PutValue("Sample Text with Font Substitution");
 
-            // Create XpsSaveOptions with specific settings
             XpsSaveOptions saveOptions = new XpsSaveOptions
             {
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
                 IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = false,
-                OutputBlankPageWhenNothingToPrint = false,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.Default,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.Default,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.All
+                DefaultFont = "Arial"
             };
 
-            // Save the workbook as XPS with the specified options
-            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
+            workbook.Save("FontSubstitutionDemo.xps", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

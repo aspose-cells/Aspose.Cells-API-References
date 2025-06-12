@@ -158,27 +158,43 @@ public class CheckBox : Shape
 ### Examples
 
 ```csharp
-[C#]
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System;
 
-//Instantiate a new Workbook.
-Workbook excel = new Workbook();
+namespace AsposeCellsExamples
+{
+    public class CheckBoxExample
+    {
+        public static void CreateCheckBox()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-int index = excel.Worksheets[0].CheckBoxes.Add(15, 15, 20, 100);
-CheckBox checkBox = excel.Worksheets[0].CheckBoxes[index];
-checkBox.Text = "Check Box 1";
+            // Add a checkbox to the worksheet
+            CheckBoxCollection checkBoxes = sheet.CheckBoxes;
+            int upperLeftRow = 0;
+            int upperLeftColumn = 0;
+            int height = 20;
+            int width = 100;
 
-//Save the excel file.
-excel.Save("checkBox.xlsx");
+            // Add a checkbox at specified position
+            int checkBoxIndex = checkBoxes.Add(upperLeftRow, upperLeftColumn, height, width);
+            CheckBox checkBox = checkBoxes[checkBoxIndex];
 
-[Visual Basic]
+            // Set properties for the checkbox
+            checkBox.Value = true; // Check the checkbox
+            checkBox.LinkedCell = "A1"; // Link to cell A1
+            checkBox.Text = "Accept Terms"; // Set checkbox text
+            checkBox.Shadow = false; // No shadow effect
 
-Dim excel As Workbook = new Workbook()
-
-Dim index as integer = excel.Worksheets(0).CheckBoxes.Add(15, 15, 20, 100)
-Dim checkBox as CheckBox = excel.Worksheets(0).CheckBoxes[index];
-checkBox.Text = "Check Box 1"
-
-excel.Save("checkBox.xlsx")
+            // Save the workbook
+            workbook.Save("CheckBoxExample.xlsx");
+            workbook.Save("CheckBoxExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,36 +16,50 @@ public Style Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: fc2.Style.BackgroundColor = System.Drawing.Color.Green;
-public static void FormatCondition_Property_Style()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FormatConditionPropertyStyleDemo
+    {
+        public static void Run()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an empty conditional formatting
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(30);
+            worksheet.Cells["A2"].PutValue(60);
+            worksheet.Cells["A3"].PutValue(90);
+
+            // Add conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
 
-            // Set the conditional format range
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            fcs.AddArea(ca);
+            // Set the range
+            CellArea area = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(area);
 
-            // Add a condition with OperatorType.Between
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A1", "100");
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
+            // Add first condition (values between 40-80)
+            int conditionIndex1 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "40", "80");
+            FormatCondition fc1 = fcs[conditionIndex1];
+            fc1.Style.BackgroundColor = System.Drawing.Color.Yellow;
+            fc1.Style.Font.Color = System.Drawing.Color.Black;
 
-            // Add another condition with OperatorType.GreaterThan
-            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "50", null);
+            // Add second condition (values > 80)
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "80", null);
             FormatCondition fc2 = fcs[conditionIndex2];
             fc2.Style.BackgroundColor = System.Drawing.Color.Green;
+            fc2.Style.Font.Color = System.Drawing.Color.White;
+            fc2.Style.Font.IsBold = true;
 
             // Save the workbook
-            workbook.Save("OperatorTypeExample.xlsx");
-
-            return;
+            workbook.Save("FormatConditionStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

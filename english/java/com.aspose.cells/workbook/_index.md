@@ -112,6 +112,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [isDigitallySigned()](#isDigitallySigned--) | Indicates if this spreadsheet is digitally signed. |
 | [isLicensed()](#isLicensed--) | Indicates whether license is set. |
 | [isWorkbookProtectedWithPassword()](#isWorkbookProtectedWithPassword--) | Indicates whether structure or window is protected with password. |
+| [mergeNamedStyles(Workbook source)](#mergeNamedStyles-com.aspose.cells.Workbook-) | Merges named styles from the other Excel file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parseFormulas(boolean ignoreError)](#parseFormulas-boolean-) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
@@ -1173,6 +1174,19 @@ Indicates whether structure or window is protected with password.
 
 **Returns:**
 boolean
+### mergeNamedStyles(Workbook source) {#mergeNamedStyles-com.aspose.cells.Workbook-}
+```
+public void mergeNamedStyles(Workbook source)
+```
+
+
+Merges named styles from the other Excel file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | [Workbook](../../com.aspose.cells/workbook) | The other file |
+
 ### notify() {#notify--}
 ```
 public final native void notify()

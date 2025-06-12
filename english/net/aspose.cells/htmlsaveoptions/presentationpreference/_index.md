@@ -16,21 +16,36 @@ public bool PresentationPreference { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.PresentationPreference = true;
-public void HtmlSaveOptions_Property_PresentationPreference()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43533/";
-    string savePath = CreateFolder(filePath);
+    public class HtmlSaveOptionsPropertyPresentationPreferenceDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Presentation Preference Test");
+            worksheet.Cells["B1"].PutValue(123.45);
+            worksheet.Cells["A2"].PutValue(DateTime.Now);
 
-    Workbook workbook = new Workbook(filePath + "TestAspose.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.PresentationPreference = true;
-    options.IsFullPathLink = true;
-    options.StreamProvider = new ExportStreamProvider(savePath + @"output\");
+            // Set HTML save options with PresentationPreference
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.PresentationPreference = true;
+            options.IsFullPathLink = false;
 
-    FileStream outStream = new FileStream(savePath + "out.html", FileMode.Create);
-    workbook.Save(outStream, options);
-
+            // Save to memory stream for demonstration
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, options);
+                Console.WriteLine("Workbook saved with PresentationPreference=true");
+            }
+        }
+    }
 }
 ```
 

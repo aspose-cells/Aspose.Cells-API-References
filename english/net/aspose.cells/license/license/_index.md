@@ -15,19 +15,26 @@ public License()
 
 ### Examples
 
-In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-License license = new License();
-license.SetLicense("MyLicense.lic");
-
-
-[Visual Basic]
-
-Dim license As license = New license
-License.SetLicense("MyLicense.lic")
+namespace AsposeCellsExamples
+{
+    public class LicenseMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new instance of License using the constructor (#ctor)
+            License license = new License();
+            
+            // Set the license file
+            license.SetLicense("MyLicense.lic");
+            
+            Console.WriteLine("License set successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

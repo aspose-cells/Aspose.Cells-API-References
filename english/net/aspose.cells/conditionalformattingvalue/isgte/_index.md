@@ -16,42 +16,52 @@ public bool IsGTE { get; set; }
 ### Examples
 
 ```csharp
-// Called: fc.ColorScale.MaxCfvo.IsGTE = true;
-public void ConditionalFormattingValue_Property_IsGTE()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet ws = workbook.Worksheets[0];
+    public class ConditionalFormattingValuePropertyIsGTEDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet ws = workbook.Worksheets[0];
 
-    ws.Cells["A1"].PutValue(1);
-    ws.Cells["A2"].PutValue(2);
-    ws.Cells["A3"].PutValue(3);
-    ws.Cells["A4"].PutValue(4);
-    ws.Cells["A5"].PutValue(5);
+            // Add sample data
+            ws.Cells["A1"].PutValue(1);
+            ws.Cells["A2"].PutValue(2);
+            ws.Cells["A3"].PutValue(3);
+            ws.Cells["A4"].PutValue(4);
+            ws.Cells["A5"].PutValue(5);
 
-    int idx = ws.ConditionalFormattings.Add();
+            // Add conditional formatting
+            int index = ws.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = ws.ConditionalFormattings[index];
+            fcc.AddArea(CellArea.CreateCellArea("A1", "A5"));
 
-    FormatConditionCollection fcc = ws.ConditionalFormattings[idx];
+            // Create color scale format
+            index = fcc.AddCondition(FormatConditionType.ColorScale);
+            FormatCondition fc = fcc[index];
+            
+            // Configure 2-color scale
+            fc.ColorScale.Is3ColorScale = false;
+            
+            // Set max value format (demonstrating IsGTE)
+            fc.ColorScale.MaxCfvo.IsGTE = true;
+            fc.ColorScale.MaxCfvo.Type = FormatConditionValueType.Max;
+            fc.ColorScale.MaxColor = Color.Yellow;
+            
+            // Set min value format
+            fc.ColorScale.MinCfvo.IsGTE = true;
+            fc.ColorScale.MinCfvo.Type = FormatConditionValueType.Min;
+            fc.ColorScale.MinColor = Color.Red;
 
-    CellArea ca = CellArea.CreateCellArea("A1", "A5"); fcc.AddArea(ca);
-
-    idx = fcc.AddCondition(FormatConditionType.ColorScale);
-
-    FormatCondition fc = fcc[idx];
-    fc.ColorScale.Is3ColorScale = false;
-    fc.ColorScale.MaxCfvo.IsGTE = true;
-    fc.ColorScale.MaxCfvo.Type = FormatConditionValueType.Max;
-    fc.ColorScale.MaxCfvo.Value = null;
-    fc.ColorScale.MaxColor = Color.Yellow;
-
-    fc.ColorScale.MinCfvo.IsGTE = true;
-    fc.ColorScale.MinCfvo.Type = FormatConditionValueType.Min;
-    fc.ColorScale.MinCfvo.Value = null;
-    fc.ColorScale.MinColor = Color.Red;
-
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    fc = workbook.Worksheets[0].ConditionalFormattings[0][0];
-    Assert.AreEqual(fc.ColorScale.Is3ColorScale, false);
+            // Save the workbook
+            workbook.Save("ConditionalFormattingValuePropertyIsGTEDemo_out.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,19 +16,39 @@ public CopyOptions()
 ### Examples
 
 ```csharp
-// Called: CopyOptions options = new CopyOptions();
-public void CopyOptions_Constructor()
-{
-    var book = new Workbook(Constants.sourcePath + "example.xlsx");
-    var source = book.Worksheets[0];
-    var destination = book.Worksheets[book.Worksheets.Add()];
-    CopyOptions options = new CopyOptions();
-    options.ReferToDestinationSheet = true;
+using System;
+using Aspose.Cells;
 
-    destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
-    Assert.AreEqual(destination.Charts[0].NSeries[0].Values, "=Sheet2!$B$2:$B$4");
-    Util.ReSave(book, SaveFormat.Xlsx);
-    //book.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class CopyOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and get the first worksheet
+            Worksheet sourceSheet = workbook.Worksheets[0];
+            Worksheet destSheet = workbook.Worksheets[workbook.Worksheets.Add()];
+            
+            // Add sample data to source sheet
+            sourceSheet.Cells["A1"].PutValue("Source Data");
+            sourceSheet.Cells["A2"].PutValue(100);
+            sourceSheet.Cells["A3"].PutValue(200);
+            sourceSheet.Cells["A4"].PutValue(300);
+            
+            // Create CopyOptions using constructor
+            CopyOptions options = new CopyOptions();
+            options.ReferToDestinationSheet = true;
+            
+            // Copy rows with the options
+            destSheet.Cells.CopyRows(sourceSheet.Cells, 0, 0, sourceSheet.Cells.MaxDisplayRange.RowCount, options);
+            
+            // Save the workbook
+            workbook.Save("CopyOptionsDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

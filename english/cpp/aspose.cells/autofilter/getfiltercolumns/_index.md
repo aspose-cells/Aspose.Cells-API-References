@@ -4,7 +4,7 @@ linktitle: GetFilterColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFilter::GetFilterColumns method. Gets the collection of the filter columns in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells/autofilter/getfiltercolumns/
 ---
 ## AutoFilter::GetFilterColumns method

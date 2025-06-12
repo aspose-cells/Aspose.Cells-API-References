@@ -21,30 +21,56 @@ public void AddFontColorFilter(int fieldIndex, CellsColor color)
 ### Examples
 
 ```csharp
-// Called: filter.AddFontColorFilter(1,cr);
-public void AutoFilter_Method_AddFontColorFilter()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-    AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor cr = workbook.CreateCellsColor();
-    cr.Color = Color.Red;
-    filter.AddFontColorFilter(1,cr);
-    filter.Refresh();
-    Assert.IsTrue(cells.IsRowHidden(1));
-    Assert.IsTrue(cells.IsRowHidden(2));
-    Assert.IsTrue(cells.IsRowHidden(3));
-    Assert.IsFalse(cells.IsRowHidden(4));
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
+using System;
+using System.Drawing;
+using Aspose.Cells;
 
-    filter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[1];
-    Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
+namespace AsposeCellsExamples
+{
+    public class AutoFilterMethodAddFontColorFilterWithInt32CellsColorDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
             
-    ColorFilter cf = fc.Filter as ColorFilter;
-    Assert.IsFalse(cf.FilterByFillColor);
-    AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
+            // Add sample data with different font colors
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue("Item 1");
+            cells["A3"].PutValue("Item 2");
+            cells["A4"].PutValue("Item 3");
+            
+            // Set font colors
+            Style style = cells["A2"].GetStyle();
+            style.Font.Color = Color.Red;
+            cells["A2"].SetStyle(style);
+            
+            style = cells["A3"].GetStyle();
+            style.Font.Color = Color.Blue;
+            cells["A3"].SetStyle(style);
+            
+            style = cells["A4"].GetStyle();
+            style.Font.Color = Color.Green;
+            cells["A4"].SetStyle(style);
+
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:A4";
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Create color filter for red font
+            CellsColor cr = workbook.CreateCellsColor();
+            cr.Color = Color.Red;
+            
+            // Add font color filter
+            filter.AddFontColorFilter(0, cr);
+            filter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("AutoFilterFontColorDemo.xlsx");
+        }
+    }
 }
 ```
 

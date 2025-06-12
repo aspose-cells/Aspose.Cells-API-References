@@ -25,7 +25,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | --- | --- |
 | [AllColumnsInOnePagePerSheet](../../aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) { get; set; } | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [Bookmark](../../aspose.cells/pdfsaveoptions/bookmark/) { get; set; } | Gets and sets the [`PdfBookmarkEntry`](../../aspose.cells.rendering/pdfbookmarkentry/) object. |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The folder for temporary files that may be used as data cache.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CalculateFormula](../../aspose.cells/pdfsaveoptions/calculateformula/) { get; set; } | Indicates whether to calculate formulas before saving pdf file. |
 | [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CheckFontCompatibility](../../aspose.cells/paginatedsaveoptions/checkfontcompatibility/) { get; set; } | Indicates whether to check font compatibility for every character in text.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
@@ -35,6 +35,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreatedTime](../../aspose.cells/pdfsaveoptions/createdtime/) { get; set; } | Gets and sets the time of generating the pdf document. |
 | [CustomPropertiesExport](../../aspose.cells/pdfsaveoptions/custompropertiesexport/) { get; set; } | Gets or sets a value determining the way [`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
+| [CustomRenderSettings](../../aspose.cells/paginatedsaveoptions/customrendersettings/) { get; set; } | Gets or sets custom settings during rendering.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [DefaultEditLanguage](../../aspose.cells/paginatedsaveoptions/defaulteditlanguage/) { get; set; } | Gets or sets default edit language.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [DefaultFont](../../aspose.cells/paginatedsaveoptions/defaultfont/) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, Aspose.Cells will use system default font to show these unicode characters.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [DisplayDocTitle](../../aspose.cells/pdfsaveoptions/displaydoctitle/) { get; set; } | Indicates whether the window's title bar should display the document title. |
@@ -45,7 +46,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [ExportDocumentStructure](../../aspose.cells/pdfsaveoptions/exportdocumentstructure/) { get; set; } | Indicates whether to export document structure. |
 | [FontEncoding](../../aspose.cells/pdfsaveoptions/fontencoding/) { get; set; } | Gets or sets embedded font encoding in pdf. |
-| [GridlineColor](../../aspose.cells/paginatedsaveoptions/gridlinecolor/) { get; set; } | Gets or sets gridline colr.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [GridlineColor](../../aspose.cells/paginatedsaveoptions/gridlinecolor/) { get; set; } | Gets or sets gridline color.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Gets or sets gridline type.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [IgnoreError](../../aspose.cells/paginatedsaveoptions/ignoreerror/) { get; set; } | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [ImageType](../../aspose.cells/pdfsaveoptions/imagetype/) { get; set; } | (**Obsolete.**) Represents the image type when converting the chart and shape . |
@@ -81,9 +82,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

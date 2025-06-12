@@ -13,6 +13,53 @@ The URL of the user-facing web page showing the web query data. This URL is pers
 public string EditWebPage { get; set; }
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class WebQueryConnectionPropertyEditWebPageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Access the first existing web query connection (if any)
+                if (workbook.DataConnections.Count > 0 && 
+                    workbook.DataConnections[0] is WebQueryConnection connection)
+                {
+                    // Set initial EditWebPage value
+                    connection.EditWebPage = "https://example.com/user-facing-page.html";
+                    Console.WriteLine("Initial EditWebPage value: " + connection.EditWebPage);
+                    
+                    // Update EditWebPage value
+                    connection.EditWebPage = "https://example.com/updated-user-page.html";
+                    Console.WriteLine("Updated EditWebPage value: " + connection.EditWebPage);
+                    
+                    // Save the workbook with the web query connection
+                    workbook.Save("WebQueryConnectionEditWebPageDemo.xlsx");
+                }
+                else
+                {
+                    Console.WriteLine("No web query connection found in the workbook.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WebQueryConnection](../)

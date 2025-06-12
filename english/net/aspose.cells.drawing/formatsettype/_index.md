@@ -22,6 +22,43 @@ public enum FormatSetType
 | IsTextureSet | `2` | Texture fill format. |
 | IsPatternSet | `3` | Pattern fill format. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System.Drawing;
+
+    public class DrawingClassFormatSetTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create gradient-filled rectangle
+            Shape rectangle = worksheet.Shapes.AddRectangle(0, 10, 0, 10, 100, 200);
+            rectangle.Fill.FillType = FillType.Gradient;
+            rectangle.Fill.SetTwoColorGradient(Color.DarkBlue, Color.LightBlue, GradientStyleType.Vertical, 0);
+
+            // Create pattern-filled oval
+            Shape oval = worksheet.Shapes.AddOval(2, 150, 0, 10, 100, 200);
+            oval.Fill.FillType = FillType.Pattern;
+            oval.Fill.Pattern = FillPattern.DarkDownwardDiagonal; // Fixed enum value
+
+            // Create texture-filled line
+            Shape line = worksheet.Shapes.AddLine(5, 10, 0, 10, 100, 200);
+            line.Fill.FillType = FillType.Texture;
+            line.Fill.Texture = TextureType.BlueTissuePaper;
+
+            workbook.Save("FormatSetTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

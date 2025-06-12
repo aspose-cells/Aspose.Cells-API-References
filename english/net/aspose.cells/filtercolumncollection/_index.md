@@ -57,9 +57,7 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

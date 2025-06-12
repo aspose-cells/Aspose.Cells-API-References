@@ -16,20 +16,50 @@ public FilterColumnCollection FilterColumns { get; }
 ### Examples
 
 ```csharp
-// Called: FilterColumn fc = autoFilter.FilterColumns[2];
-public void AutoFilter_Property_FilterColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class AutoFilterPropertyFilterColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Department");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["C1"].PutValue("Status");
+            
+            worksheet.Cells["A2"].PutValue("HR");
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["C2"].PutValue("Present");
+            
+            worksheet.Cells["A3"].PutValue("IT");
+            worksheet.Cells["B3"].PutValue("Sarah");
+            worksheet.Cells["C3"].PutValue("Absent");
+            
+            worksheet.Cells["A4"].PutValue("HR");
+            worksheet.Cells["B4"].PutValue("Mike");
+            worksheet.Cells["C4"].PutValue("Present");
 
-    AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
-    int maxColRange = workbook.Worksheets[0].Cells.MaxDataColumn;
-    autoFilter.Range = ("A1:" + CellsHelper.ColumnIndexToName(maxColRange) + "1");
-
-    autoFilter.Filter(2, "present");
-    FilterColumn fc = autoFilter.FilterColumns[2];
-    //  autoFilter.FilterColumns[0].Filter;
-    autoFilter.Refresh();
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+            // Apply auto filter
+            AutoFilter autoFilter = worksheet.AutoFilter;
+            autoFilter.Range = "A1:C1";
+            
+            // Filter column 2 (Status) for "Present" values
+            autoFilter.Filter(2, "Present");
+            
+            // Access the filter column
+            FilterColumn filterColumn = autoFilter.FilterColumns[2];
+            
+            // Save the workbook
+            workbook.Save("AutoFilterExample.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

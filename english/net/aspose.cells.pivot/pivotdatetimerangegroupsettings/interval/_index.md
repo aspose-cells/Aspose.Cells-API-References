@@ -16,90 +16,61 @@ public double Interval { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, ((PivotDateTimeRangeGroupSettings)dateBaseField.GroupSettings).Interval);
-public static void PivotDateTimeRangeGroupSettings_Property_Interval(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotDateTimeRangeGroupSettingsPropertyIntervalDemo
+    {
+        public static void Run()
         {
-            int indPivTab;
-            double stnrdRowHeight;
-            string sourceDataPT, addrRngAllDta;
-            Aspose.Cells.Range rngAllData;
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet with sample data
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Name = "Data";
+            
+            // Add sample date data
+            dataSheet.Cells["A1"].PutValue("Date");
+            dataSheet.Cells["A2"].PutValue(DateTime.Now.AddDays(-5));
+            dataSheet.Cells["A3"].PutValue(DateTime.Now.AddDays(-4));
+            dataSheet.Cells["A4"].PutValue(DateTime.Now.AddDays(-3));
+            dataSheet.Cells["A5"].PutValue(DateTime.Now.AddDays(-2));
+            dataSheet.Cells["A6"].PutValue(DateTime.Now.AddDays(-1));
+            dataSheet.Cells["A7"].PutValue(DateTime.Now);
 
-            Worksheet wsCasPivot = workbook.Worksheets.Add("CasPivot");
-            PivotTableCollection pivotTables = wsCasPivot.PivotTables;
-            workbook.Worksheets.ActiveSheetIndex = 3;
+            // Add a pivot table worksheet
+            Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
+            
+            // Add pivot table
+            int pivotIndex = pivotSheet.PivotTables.Add(
+                "=Data!A1:A7", 
+                "A1", 
+                "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotIndex];
 
-            Cells casCells = workbook.Worksheets["Cas"].Cells;
-            rngAllData = casCells.MaxDisplayRange;
-            addrRngAllDta = rngAllData.Address;
-            sourceDataPT = String.Format("=CAS!{0}", addrRngAllDta);
-
-            //Add Pivot table to worksheet
-            indPivTab = pivotTables.Add(sourceDataPT, "A1", "PivotTable2");
-            // Accessing the instance of the newly added PivotTable
-            PivotTable pivotTable = pivotTables[indPivTab];
-
-            // Setting the PivotTable report shows grand totals for rows.
-            pivotTable.ShowRowGrandTotals = true;
-            // Setting the PivotTable report shows grand totals for columns.
-            pivotTable.ShowColumnGrandTotals = true;
-            //set Auto format
-            pivotTable.IsAutoFormat = true;
-
-            // Draging the first field to the row area.
+            // Add date field to row area
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-            PivotField dateBaseField = pivotTable.BaseFields["Date"];
+            PivotField dateField = pivotTable.RowFields[0];
 
-            // Draging the second field to the column area.
-            pivotTable.AddFieldToArea(PivotFieldType.Column, 2);
-            PivotField colField = pivotTable.ColumnFields[0];
-            colField.IsAutoSort = true;
-            colField.IsAscendSort = true;
+            // Group by days with interval of 2
+            dateField.GroupBy(1, false);
+            PivotDateTimeRangeGroupSettings groupSettings = 
+                (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
+            
+            // Since Interval is read-only, we need to set it during grouping
+            // The interval is actually set in the GroupBy method parameters
+            // Here we just verify the interval value
+            Console.WriteLine($"Grouping interval: {groupSettings.Interval} days");
 
-            // Draging the third field to the data area.
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
-            pivotTable.DataFields[0].Function = ConsolidationFunction.Count;
-
-            // group and format Date field
-            // pivotTable.SetAutoGroupField(dateBaseField);
-            dateBaseField.GroupBy(1, false);
-            Assert.AreEqual(1, ((PivotDateTimeRangeGroupSettings)dateBaseField.GroupSettings).Interval);
-            #region Pivot table Style
-            pivotTable.ShowInOutlineForm();
-
-            //Refresh and calculate pivot table
-           
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-           
-
-            // Change PT background color
-            Style style = workbook.CreateStyle();
-            style.Pattern = BackgroundType.Solid;
-            style.BackgroundColor = System.Drawing.Color.LightBlue;
-            style.Font.IsBold = true;
-            int ptMaxCol = wsCasPivot.Cells.MaxDataColumn;
-            int ptMaxRow = wsCasPivot.Cells.MaxDataRow;
-
-            for (int col = 0; col <= ptMaxCol; col++)
-            {
-                pivotTable.Format(0, col, style);
-                pivotTable.Format(1, col, style);
-                pivotTable.Format(ptMaxRow, col, style);
-            }
-            #endregion
-
-            //Change workbook rows height
-            stnrdRowHeight = casCells.StandardHeight;
-
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                sheet.Cells.StandardHeight = stnrdRowHeight + 2.25;
-            }
-
-            CreateChart(wsCasPivot);
-
-            workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("PivotDateTimeGroupingDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,29 +16,50 @@ public bool PlotVisibleCellsOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets["Data"].Charts[0].PlotVisibleCellsOnly = false;
-public void Chart_Property_PlotVisibleCellsOnly()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41378/";
-    Workbook workbook = new Workbook(filePath + "Xls_To_HTML_Test.XLSX");
-
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-    saveOptions.ImageOptions.ImageType = ImageType.Png;
-    saveOptions.ImageOptions.Transparent = true;
-    saveOptions.ExportHiddenWorksheet = false;
-    saveOptions.PresentationPreference = true;
-
-    //saveOptions.getImageOptions().setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-
-    //saveOptions.getImageOptions().setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
-
-    PageSetup pgSetup = workbook.Worksheets[0].PageSetup;
-    pgSetup.PrintArea = "A1:BU43";
-    saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-    workbook.Worksheets["Data"].Charts[0].PlotVisibleCellsOnly = false;
-    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+    public class ChartPropertyPlotVisibleCellsOnlyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+            
+            // Hide row 3
+            worksheet.Cells.Rows[2].IsHidden = true;
+            
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set PlotVisibleCellsOnly to false (default is true)
+            chart.PlotVisibleCellsOnly = false;
+            
+            // Save the workbook
+            workbook.Save("ChartPlotVisibleCellsOnlyDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

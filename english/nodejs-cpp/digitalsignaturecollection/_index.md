@@ -17,7 +17,7 @@ class DigitalSignatureCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| The constructor of DigitalSignatureCollection. |
 

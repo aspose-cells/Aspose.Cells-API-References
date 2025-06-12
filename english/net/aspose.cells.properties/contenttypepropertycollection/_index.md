@@ -58,24 +58,44 @@ public class ContentTypePropertyCollection : CollectionBase<ContentTypeProperty>
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+    using System;
 
-[C#]
+    public class ContentTypePropertyCollectionDemo
+    {
+        public static void ContentTypePropertyCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Add a new property.
- workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-//Save the Excel file
-workbook.Save("book1.xlsm");
+            // Add a new property to the ContentTypePropertyCollection
+            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
 
- [Visual Basic]
+            // Accessing the ContentTypePropertyCollection
+            ContentTypePropertyCollection contentTypeProperties = workbook.ContentTypeProperties;
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Add a new property.
- workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Save the Excel file
-workbook.Save("book1.xlsm")
+            // Displaying the count of properties
+            Console.WriteLine("Number of ContentTypeProperties: " + contentTypeProperties.Count);
+
+            // Accessing a specific property by index
+            ContentTypeProperty property = contentTypeProperties[0];
+            Console.WriteLine("Property Name: " + property.Name);
+            Console.WriteLine("Property Value: " + property.Value);
+            Console.WriteLine("Property Type: " + property.Type);
+
+            // Modifying the capacity of the collection
+            contentTypeProperties.Capacity = 10;
+            Console.WriteLine("New Capacity: " + contentTypeProperties.Capacity);
+
+            // Save the Excel file
+            workbook.Save("ContentTypePropertyCollectionExample.xlsx");
+            workbook.Save("ContentTypePropertyCollectionExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

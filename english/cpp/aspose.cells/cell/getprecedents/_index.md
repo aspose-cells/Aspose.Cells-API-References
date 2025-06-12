@@ -4,7 +4,7 @@ linktitle: GetPrecedents
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetPrecedents method. Gets all references appearing in this cell''s formula in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells/cell/getprecedents/
 ---
 ## Cell::GetPrecedents method

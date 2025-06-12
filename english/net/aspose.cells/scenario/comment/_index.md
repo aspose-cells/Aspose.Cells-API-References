@@ -16,23 +16,44 @@ public string Comment { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-private void Scenario_Property_Comment(ScenarioCollection scenarios)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioPropertyCommentDemo
+    {
+        public static void Run()
         {
-            Assert.AreEqual(scenarios.Count, 2);
-            Assert.AreEqual(1, scenarios.ActiveIndex);
-            Assert.AreEqual(1, scenarios.LastSelected);
-            Scenario scenario = scenarios[0];
-            Assert.AreEqual("test", scenario.Name);
-            Assert.AreEqual(true, scenario.IsLocked);
-            Assert.AreEqual(false, scenario.IsHidden);
-            Assert.AreEqual("Simon", scenario.User);
-            Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-            Assert.AreEqual(scenario.InputCells.Count, 4);
-            ScenarioInputCell inputCell = scenario.InputCells[0];
-            Assert.AreEqual("G16", inputCell.Name);
-            Assert.AreEqual("1", inputCell.Value);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a scenario collection
+            ScenarioCollection scenarios = worksheet.Scenarios;
+            
+            // Add a scenario
+            int index = scenarios.Add("test");
+            Scenario scenario = scenarios[index];
+            
+            // Set scenario properties
+            scenario.IsLocked = true;
+            scenario.Comment = "创建者 Simon 日期 " + DateTime.Now.ToShortDateString();
+            
+            // Add input cells to the scenario using cell references and values
+            scenario.InputCells.Add(0, 6, "1");  // G16 (row 0, column 6)
+            scenario.InputCells.Add(0, 0, "100"); // A1
+            scenario.InputCells.Add(1, 1, "200"); // B2
+            scenario.InputCells.Add(2, 2, "300"); // C3
+
+            // Display scenario comment
+            Console.WriteLine("Scenario Comment: " + scenario.Comment);
+            
+            // Save the workbook
+            workbook.Save("ScenarioCommentDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

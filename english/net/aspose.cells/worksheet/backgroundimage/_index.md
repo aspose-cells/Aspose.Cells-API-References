@@ -16,19 +16,37 @@ public byte[] BackgroundImage { get; set; }
 ### Examples
 
 ```csharp
-// Called: book.Worksheets[0].BackgroundImage = picData;
-public void Worksheet_Property_BackgroundImage()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Worksheet_Property_BackgroundImage()");
-    string infn = path + "TEST_SheetBgPicture2.jpg";
-    string outfn = Constants.destPath + "TEST_SheetBgPicture2_out.xlsx";
-    Workbook book = new Workbook();
-    FileStream fs = new FileStream(infn, FileMode.Open);
-    byte[] picData = new byte[fs.Length];
-    fs.Read(picData, 0, (int)fs.Length);
-    fs.Close();
-    book.Worksheets[0].BackgroundImage = picData;
-    book.Save(outfn);
+    public class WorksheetPropertyBackgroundImageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Path to the image file
+            string imagePath = "background.jpg";
+            
+            // Read the image file into a byte array
+            byte[] imageData = File.ReadAllBytes(imagePath);
+            
+            // Set the background image for the worksheet
+            worksheet.BackgroundImage = imageData;
+            
+            // Save the workbook
+            workbook.Save("WorksheetWithBackground.xlsx");
+            
+            Console.WriteLine("Worksheet background image set successfully.");
+        }
+    }
 }
 ```
 

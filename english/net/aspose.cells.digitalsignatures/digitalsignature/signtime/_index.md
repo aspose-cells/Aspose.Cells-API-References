@@ -16,42 +16,44 @@ public DateTime SignTime { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Sign Time: " + existingDs.SignTime);
-public static void DigitalSignature_Property_SignTime()
+using System;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
+{
+    public class DigitalSignaturePropertySignTimeDemo
+    {
+        public static void Run()
         {
-            // Load a workbook from a signed source file
-            Workbook signedWorkbook = new Workbook(@"DigitalSignatureCollection_original.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Digital Signature");
 
-            // Check if the workbook is digitally signed
-            Console.WriteLine("Is the workbook digitally signed? " + signedWorkbook.IsDigitallySigned);
-
-            // Get the digital signature collection from the workbook
-            DigitalSignatureCollection existingDsc = signedWorkbook.GetDigitalSignature();
-
-            if (existingDsc != null)
+            // Create and add a digital signature
+            try
             {
-                // Iterate over the digital signatures in the collection
-                foreach (DigitalSignature existingDs in existingDsc)
-                {
-                    Console.WriteLine("Comments: " + existingDs.Comments);
-                    Console.WriteLine("Sign Time: " + existingDs.SignTime);
-                    Console.WriteLine("Is Valid: " + existingDs.IsValid);
-                }
+                X509Certificate2 certificate = new X509Certificate2("test.pfx", "password");
+                DigitalSignature signature = new DigitalSignature(certificate, "Test Signature", DateTime.Now);
+                
+                DigitalSignatureCollection dsc = workbook.GetDigitalSignature();
+                dsc.Add(signature);
 
-                // Create a new digital signature
-                X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "password");
-                DigitalSignature newSignature = new DigitalSignature(certificate, "New signature comment", DateTime.Now);
+                // Demonstrate SignTime property
+                Console.WriteLine("Signature added at: " + signature.SignTime);
 
-                // Add the new digital signature to the collection
-                existingDsc.Add(newSignature);
-            }     
-            
-
-            // Save the workbook with the new digital signature
-            signedWorkbook.Save("DigitalSignatureCollectionExample.xlsx");
-            signedWorkbook.Save("DigitalSignatureCollectionExample.pdf");
-            return;
+                // Save the signed workbook
+                workbook.Save("SignedWorkbook.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
+    }
+}
 ```
 
 ### See Also

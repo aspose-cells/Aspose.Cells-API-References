@@ -20,16 +20,42 @@ Only valid for HeaderFooterCommandType.Text.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
-public void HeaderFooterCommand_Property_Text()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+namespace AsposeCellsExamples
+{
+    public class HeaderFooterCommandPropertyTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set header with text command
+            worksheet.PageSetup.SetHeader(1, "&\"Arial\"&12&KFF0000Sample Text Header");
+            
+            // Get header commands
+            HeaderFooterCommand[] commands = worksheet.PageSetup.GetCommands(worksheet.PageSetup.GetHeader(1));
+            
+            // Display information about text command
+            foreach (HeaderFooterCommand cmd in commands)
+            {
+                if (cmd.Type == HeaderFooterCommandType.Text)
+                {
+                    Console.WriteLine("Text command found:");
+                    Console.WriteLine("Text: " + cmd.Text);
+                    Console.WriteLine("Font: " + cmd.Font);
+                    Console.WriteLine("Color: " + ColorTranslator.ToHtml(cmd.Font.Color));
+                }
+            }
+            
+            // Save the workbook
+            workbook.Save("HeaderFooterTextDemo.xlsx");
+        }
+    }
 }
 ```
 

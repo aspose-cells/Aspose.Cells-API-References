@@ -21,56 +21,35 @@ public void HideRows(int row, int totalRows)
 ### Examples
 
 ```csharp
-// Called: cells.HideRows(0, firstRow);
-public void Cells_Method_HideRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47261/";
-
-    var workBook = new Workbook(filePath + "Test2.xlsx");
-    string RangeName = "RANGE1";
-    var range = Array.Find(workBook.Worksheets.GetNamedRanges(), r => r.Name == RangeName);
-
-    var sheet = range.Worksheet;
-    var cells = sheet.Cells;
-    var firstCol = range.FirstColumn;
-    var firstRow = range.FirstRow;
-    var maxCol = cells.MaxDisplayRange.ColumnCount;
-    var maxRow = cells.MaxDisplayRange.RowCount;
-
-    if (firstCol > 0)
+    public class CellsMethodHideRowsWithInt32Int32Demo
     {
-        cells.HideColumns(0, firstCol);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some data
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].Value = $"Row {i+1}, Col {j+1}";
+                }
+            }
+
+            // Hide rows 3 to 5 (zero-based index: 2 to 4)
+            worksheet.Cells.HideRows(2, 3);
+
+            // Save the workbook
+            workbook.Save("HideRowsExample.xlsx");
+        }
     }
-    if (firstCol + range.ColumnCount < maxCol)
-    {
-        cells.HideColumns(firstCol + range.ColumnCount, maxCol - (firstCol + range.ColumnCount));
-    }
-    if (firstRow > 0)
-    {
-        cells.HideRows(0, firstRow);
-    }
-    if (firstRow + range.RowCount < maxRow)
-    {
-        cells.HideRows(firstRow + range.RowCount, maxRow - (firstRow + range.RowCount));
-    }
-
-    range.Worksheet.Workbook.Worksheets.ActiveSheetIndex = sheet.Index;
-
-    var opts = new HtmlSaveOptions()
-    {
-        Encoding = Encoding.UTF8,
-        HtmlCrossStringType = HtmlCrossType.Cross,
-        PresentationPreference = true,
-        ExportHiddenWorksheet = false,
-        ExportActiveWorksheetOnly = true,
-        ExportImagesAsBase64 = true,
-        CreateDirectory = false,
-        IsExpImageToTempDir = false,
-        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove
-    };
-    range.Worksheet.Workbook.Save(CreateFolder(filePath) + "out2.html", opts);
-
 }
 ```
 

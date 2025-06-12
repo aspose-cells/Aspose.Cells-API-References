@@ -16,15 +16,28 @@ public int SheetTabBarWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
-public void WorkbookSettings_Property_SheetTabBarWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
-
-    Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
-    workbook = new Workbook(Constants.sourcePath + "example.ods");
-
-    Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
+    public class WorkbookSettingsPropertySheetTabBarWidthDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the SheetTabBarWidth property
+            workbook.Settings.SheetTabBarWidth = 1000;
+            
+            // Get and display the SheetTabBarWidth value
+            Console.WriteLine("SheetTabBarWidth: " + workbook.Settings.SheetTabBarWidth);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

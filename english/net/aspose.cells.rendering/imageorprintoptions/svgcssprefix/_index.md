@@ -22,28 +22,38 @@ NOTE: This member is now obsolete. Instead, please use [`CssPrefix`](../../svgim
 ### Examples
 
 ```csharp
-// Called: imgOpt.SvgCssPrefix = prefix;
-public void ImageOrPrintOptions_Property_SvgCssPrefix()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string prefix = "x_";
-
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].Cells["A1"].PutValue("Svg css prefix");
-
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-    imgOpt.ImageType = ImageType.Svg;
-    imgOpt.OnePagePerSheet = true;
-    imgOpt.SvgCssPrefix = prefix;
-
-    SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
-    using(MemoryStream ms = new MemoryStream())
+    public class ImageOrPrintOptionsPropertySvgCssPrefixDemo
     {
-        sr.ToImage(0, ms);
-        ms.Position = 0;
-        using(StreamReader reader = new StreamReader(ms))
+        public static void Run()
         {
-            string content = reader.ReadToEnd();
-            Assert.IsTrue(content.IndexOf(prefix + "f") > -1, "Svg css prefix doesn't work.");
+            string prefix = "custom_prefix_";
+
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("SVG CSS Prefix Test");
+
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Svg;
+            options.OnePagePerSheet = true;
+            options.SvgCssPrefix = prefix;
+
+            SheetRender renderer = new SheetRender(workbook.Worksheets[0], options);
+            using (MemoryStream stream = new MemoryStream())
+            {
+                renderer.ToImage(0, stream);
+                stream.Position = 0;
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string svgContent = reader.ReadToEnd();
+                    Console.WriteLine("SVG contains CSS prefix: " + svgContent.Contains(prefix + "f"));
+                }
+            }
         }
     }
 }

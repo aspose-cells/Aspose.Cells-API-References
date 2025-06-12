@@ -20,18 +20,25 @@ public void SetImageResample(int desiredPPI, int jpegQuality)
 
 ### Examples
 
-The following code sets desired PPI as 96 and jpeg quality as 80 for images in the output pdf.
-
 ```csharp
-//load the source file with images.
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-//set desired PPI as 96 and jpeg quality as 80.
-pdfSaveOptions.SetImageResample(96, 80);
-
-wb.Save("output.pdf", pdfSaveOptions);
+namespace AsposeCellsExamples
+{
+    public class PdfSaveOptionsMethodSetImageResampleWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook("Book1.xlsx");
+            
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.SetImageResample(96, 80);
+            
+            wb.Save("output.pdf", pdfSaveOptions);
+        }
+    }
+}
 ```
 
 ### See Also

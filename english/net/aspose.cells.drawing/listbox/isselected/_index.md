@@ -24,14 +24,38 @@ whether the item is selected.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(comboBox.IsSelected(1), false);
-public void ListBox_Method_IsSelected()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "ListBoxIssue.xlsx");
-    ListBox comboBox = (ListBox)workbook.Worksheets[0].Shapes[0];
-    Assert.AreEqual(comboBox.IsSelected(0), false);
-    Assert.AreEqual(comboBox.IsSelected(1), false);
-    Assert.AreEqual(comboBox.IsSelected(2), false);
+    public class ListBoxMethodIsSelectedWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a list box to the worksheet
+            ListBox listBox = worksheet.Shapes.AddListBox(0, 0, 100, 100, 200, 200);
+
+            // Set list items through the linked cell range
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+            listBox.LinkedCell = "A1:A3";
+
+            // Select an item
+            listBox.SelectedIndex = 0;
+
+            // Check selection status using IsSelected with Int32 parameter
+            Console.WriteLine("Item 0 selected: " + listBox.IsSelected(0));
+            Console.WriteLine("Item 1 selected: " + listBox.IsSelected(1));
+            Console.WriteLine("Item 2 selected: " + listBox.IsSelected(2));
+        }
+    }
 }
 ```
 

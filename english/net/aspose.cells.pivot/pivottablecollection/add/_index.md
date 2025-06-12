@@ -26,27 +26,51 @@ The new added cache index.
 ### Examples
 
 ```csharp
-// Called: int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
-public void PivotTableCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
-    Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.csv", loadOptions);
-    book.Worksheets[0].Name = "LA_SUM";
-    //Build Pivot table and Pivot Chart
-    Aspose.Cells.Range rngAllData = book.Worksheets[0].Cells.MaxDisplayRange;
-    Worksheet wsLASumPiv = book.Worksheets.Add("LA_SUM_Pivot");
-    PivotTableCollection pivotTables = wsLASumPiv.PivotTables;
-    string sourceDataPT = String.Format("=LA_SUM!{0}", rngAllData.Address);
-    int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
-    PivotTable pivotTable = pivotTables[indPivTab];
+    public class PivotTableCollectionMethodAddWithStringStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source CSV
+            Workbook workbook = new Workbook();
+            Worksheet sourceSheet = workbook.Worksheets[0];
+            sourceSheet.Name = "SourceData";
+            
+            // Add sample data
+            sourceSheet.Cells["A1"].PutValue("Category");
+            sourceSheet.Cells["B1"].PutValue("Value");
+            sourceSheet.Cells["A2"].PutValue("A");
+            sourceSheet.Cells["B2"].PutValue(10);
+            sourceSheet.Cells["A3"].PutValue("B");
+            sourceSheet.Cells["B3"].PutValue(20);
+            sourceSheet.Cells["A4"].PutValue("A");
+            sourceSheet.Cells["B4"].PutValue(30);
 
-    int indSlicerYrs = wsLASumPiv.Slicers.Add(pivotTable, "E2", pivotTable.BaseFields["LA_Name"]);
-    Slicer slicerYrs = wsLASumPiv.Slicers[indSlicerYrs];
-    int indSlicerLA = wsLASumPiv.Slicers.Add(pivotTable, "E7", pivotTable.BaseFields["Year"]);
-    Slicer slicerLA = wsLASumPiv.Slicers[indSlicerLA];
-
-   Assert.AreEqual(4,slicerLA.SlicerCache.SlicerCacheItems.Count);
-    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Create pivot table worksheet
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Get the source data range
+            Aspose.Cells.Range sourceRange = sourceSheet.Cells.MaxDisplayRange;
+            string sourceData = String.Format("=SourceData!{0}", sourceRange.Address);
+            
+            // Add pivot table using String, String, String parameters
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
+            int pivotIndex = pivotTables.Add(sourceData, "A1", "MyPivotTable");
+            
+            // Configure pivot table
+            PivotTable pivotTable = pivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Save the workbook
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -76,6 +100,66 @@ public int Add(string sourceData, string destCellName, string tableName, bool us
 ### Return Value
 
 The new added cache index.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Define parameters for Add method
+            string sourceData = "A1:B4";
+            string destCellName = "E5";
+            string tableName = "FruitPivotTable";
+            bool useSameSource = true;
+
+            try
+            {
+                // Call the Add method with parameters (String, String, String, Boolean)
+                int index = worksheet.PivotTables.Add(sourceData, destCellName, tableName, useSameSource);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                Console.WriteLine($"Pivot table name: {worksheet.PivotTables[index].Name}");
+                Console.WriteLine($"Pivot table location: {worksheet.PivotTables[index].TableRange1}");
+
+                // Configure the pivot table
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -107,52 +191,70 @@ The new added cache index.
 ### Examples
 
 ```csharp
-// Called: var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
-public void PivotTableCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET43717_";
-    string savePath = CreateFolder(filePath);
-
-    var dataSheetName = "data";
-    var pivotSheetName = "pivot";
-    var pivotDataRange = dataSheetName + "!A:C";
-
-    var workbook = new Workbook(filePath + "PivotSortingTest.xlsx");
-    var pivotWorksheet = workbook.Worksheets[pivotSheetName];
-    var dataWorksheet = workbook.Worksheets[dataSheetName];
-
-    var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
-    var pivotTable = pivotWorksheet.PivotTables[pivotIndex];
-
-    pivotTable.AddFieldToArea(PivotFieldType.Row, "Test1");
-
-    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test2");
-    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test3");
-    pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
-
-    pivotTable.DataFields["Test2"].Function = ConsolidationFunction.Sum;
-
-    pivotTable.RowFields["Test1"].IsAutoSort = true;
-    pivotTable.RowFields["Test1"].AutoSortField = 0;
-
-    pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium8;
-
-    dataWorksheet.IsVisible = false;
-
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-
-    Assert.AreEqual(pivotWorksheet.Cells["B4"].StringValue, "9");
-    Assert.AreEqual(pivotWorksheet.Cells["B5"].StringValue, "9");
-    Assert.AreEqual(pivotWorksheet.Cells["B6"].StringValue, "16");
-
-    workbook.Save(savePath + "out.xlsx");
-
-    PdfSaveOptions pdfOptions = new PdfSaveOptions();
-    pdfOptions.AllColumnsInOnePagePerSheet = true;
-    pdfOptions.CalculateFormula = true;
-
-    workbook.Save(savePath + "out.pdf", pdfOptions);
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet for data
+            Worksheet dataWorksheet = workbook.Worksheets[0];
+            dataWorksheet.Name = "Data";
+            
+            // Add sample data
+            dataWorksheet.Cells["A1"].PutValue("Category");
+            dataWorksheet.Cells["B1"].PutValue("Product");
+            dataWorksheet.Cells["C1"].PutValue("Sales");
+            
+            dataWorksheet.Cells["A2"].PutValue("Electronics");
+            dataWorksheet.Cells["B2"].PutValue("Laptop");
+            dataWorksheet.Cells["C2"].PutValue(1000);
+            
+            dataWorksheet.Cells["A3"].PutValue("Electronics");
+            dataWorksheet.Cells["B3"].PutValue("Phone");
+            dataWorksheet.Cells["C3"].PutValue(800);
+            
+            dataWorksheet.Cells["A4"].PutValue("Furniture");
+            dataWorksheet.Cells["B4"].PutValue("Chair");
+            dataWorksheet.Cells["C4"].PutValue(200);
+            
+            // Add a worksheet for pivot table
+            Worksheet pivotWorksheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Add pivot table using the Add method with (String, Int32, Int32, String) parameters
+            string pivotDataRange = "Data!A1:C4";
+            int row = 0;
+            int column = 0;
+            string tableName = "SalesPivotTable";
+            
+            int pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, row, column, tableName);
+            
+            // Access the pivot table
+            PivotTable pivotTable = pivotWorksheet.PivotTables[pivotIndex];
+            
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Set consolidation function
+            pivotTable.DataFields[0].Function = ConsolidationFunction.Sum;
+            
+            // Refresh and calculate pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -184,6 +286,71 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 
 The new added cache index.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Region");
+            cells["C1"].PutValue("Sales");
+            
+            cells["A2"].PutValue("Product1");
+            cells["B2"].PutValue("North");
+            cells["C2"].PutValue(1000);
+            
+            cells["A3"].PutValue("Product2");
+            cells["B3"].PutValue("South");
+            cells["C3"].PutValue(2000);
+            
+            cells["A4"].PutValue("Product3");
+            cells["B4"].PutValue("East");
+            cells["C4"].PutValue(3000);
+            
+            // Define the data range
+            string sourceData = "A1:C4";
+            
+            try
+            {
+                // Call the Add method with parameters: (String sourceData, Int32 row, Int32 column, String tableName, Boolean useSameSource)
+                int index = worksheet.PivotTables.Add(sourceData, 6, 0, "PivotTable1", false);
+                
+                Console.WriteLine("Pivot table added successfully at index: " + index);
+                
+                // Access the newly created pivot table
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                
+                // Configure pivot table
+                pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product as row
+                pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Region as column
+                pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales as data
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTableCollection](../)
@@ -213,6 +380,76 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 ### Return Value
 
 The new added cache index.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringBooleanBDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Region");
+            cells["C1"].PutValue("Sales");
+            cells["A2"].PutValue("Product1");
+            cells["B2"].PutValue("North");
+            cells["C2"].PutValue(1000);
+            cells["A3"].PutValue("Product2");
+            cells["B3"].PutValue("South");
+            cells["C3"].PutValue(2000);
+            cells["A4"].PutValue("Product3");
+            cells["B4"].PutValue("East");
+            cells["C4"].PutValue(3000);
+            cells["A5"].PutValue("Product4");
+            cells["B5"].PutValue("West");
+            cells["C5"].PutValue(4000);
+
+            // Define the source data range
+            string sourceData = "A1:C5";
+
+            try
+            {
+                // Call the Add method with parameters (String, Int32, Int32, String, Boolean, Boolean)
+                int index = worksheet.PivotTables.Add(
+                    sourceData,    // String sourceData
+                    3,            // Int32 row - pivot table will start at row 3
+                    0,            // Int32 column - pivot table will start at column 0
+                    "PivotTable1", // String tableName
+                    false,        // Boolean useSameSource
+                    false         // Boolean isXlsClassic
+                );
+
+                Console.WriteLine("Pivot table added successfully at index: " + index);
+
+                // Configure the pivot table
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -246,35 +483,43 @@ The new added cache index.
 ### Examples
 
 ```csharp
-// Called: int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
-public void PivotTableCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("a");
-    cells["A1"].PutValue("b");
-    cells["A1"].PutValue("c");
-    for(int i = 1; i < 65535; i++)
+    public class PivotTableCollectionMethodAddWithStringStringStringBooleanBooleDemo
     {
-        cells[i, 0].PutValue(i);
-        cells[i, 1].PutValue(i);
-        cells[i, 2].PutValue(i);
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate sample data
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Category");
+            cells["B1"].PutValue("Product");
+            cells["C1"].PutValue("Sales");
+            
+            for (int i = 2; i <= 10; i++)
+            {
+                cells["A" + i].PutValue("Cat" + (i % 3 + 1));
+                cells["B" + i].PutValue("Prod" + i);
+                cells["C" + i].PutValue(i * 100);
+            }
+
+            // Add pivot table with specified parameters
+            int pivotTableIndex = worksheet.PivotTables.Add("=A1:C10", "E1", "SalesPivot", false, false);
+            Aspose.Cells.Pivot.PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0); // Category as row
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2); // Sum of Sales
+            
+            workbook.Save("PivotTableDemo.xlsx");
+        }
     }
-           
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    // Add a Pivot Table
-    int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
-    PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
-
-    // Set the row fields
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-
-    // Set the data field
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
-
-         
-
 }
 ```
 
@@ -304,6 +549,57 @@ public int Add(PivotTable pivotTable, string destCellName, string tableName)
 
 The new added PivotTable index.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithPivotTableStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Create a pivot table from the data range
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable sourcePivotTable = pivotTables[pivotIndex];
+
+            try
+            {
+                // Call the Add method with parameters (PivotTable, String, String)
+                int newPivotIndex = pivotTables.Add(sourcePivotTable, "E10", "PivotTable2");
+                Console.WriteLine($"New pivot table added at index: {newPivotIndex}");
+
+                // Save the workbook to show the effect
+                workbook.Save("PivotTableCollectionMethodAddWithPivotTableStringStringDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../../pivottable/)
@@ -331,6 +627,59 @@ public int Add(PivotTable pivotTable, int row, int column, string tableName)
 ### Return Value
 
 The new added PivotTable index.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithPivotTableInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Create a source pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("A1:B4", "C3", "SourcePivotTable");
+            PivotTable sourcePivotTable = pivotTables[pivotIndex];
+            sourcePivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            sourcePivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            try
+            {
+                // Call the Add method with parameters (PivotTable, Int32, Int32, String)
+                int newPivotIndex = pivotTables.Add(sourcePivotTable, 10, 5, "NewPivotTable");
+                Console.WriteLine($"New pivot table added at index: {newPivotIndex}");
+
+                // Save the workbook to show the effect
+                workbook.Save("PivotTableCollectionMethodAddWithPivotTableInt32Int32StringDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -362,6 +711,72 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 
 The new added PivotTable index.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringBooleanPivotPageFieldsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            cells["A2"].Value = "Product1";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            cells["A3"].Value = "Product2";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 2000;
+            cells["A4"].Value = "Product3";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 3000;
+
+            // Define data range
+            string[] sourceData = { "A1:C4" };
+            bool isAutoPage = true;
+            PivotPageFields pageFields = new PivotPageFields();
+            string destCellName = "E5";
+            string tableName = "PivotTable1";
+
+            try
+            {
+                // Call the Add method with specified parameters
+                int index = worksheet.PivotTables.Add(sourceData, isAutoPage, pageFields, destCellName, tableName);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                
+                // Access the newly created pivot table
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                
+                // Configure pivot table fields
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotPageFields](../../pivotpagefields/)
@@ -392,6 +807,86 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 ### Return Value
 
 The new added PivotTable index.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringBooleanPivotPageFieldsDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Product1";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            
+            cells["A3"].Value = "Product2";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 2000;
+            
+            cells["A4"].Value = "Product3";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 3000;
+            
+            cells["A5"].Value = "Product1";
+            cells["B5"].Value = "West";
+            cells["C5"].Value = 4000;
+            
+            cells["A6"].Value = "Product2";
+            cells["B6"].Value = "North";
+            cells["C6"].Value = 5000;
+
+            // Define parameters for Add method
+            string[] sourceData = { "A1:C6" };
+            bool isAutoPage = true;
+            PivotPageFields pageFields = new PivotPageFields();
+            int row = 8;
+            int column = 1;
+            string tableName = "PivotTable1";
+
+            try
+            {
+                // Call the Add method with specified parameters
+                int index = worksheet.PivotTables.Add(sourceData, isAutoPage, pageFields, row, column, tableName);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                
+                // Configure the pivot table
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+                
+                // Refresh data
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

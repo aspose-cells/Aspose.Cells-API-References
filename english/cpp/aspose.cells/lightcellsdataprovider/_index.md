@@ -4,7 +4,7 @@ linktitle: LightCellsDataProvider
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LightCellsDataProvider class. Represents Data provider for saving large spreadsheet files in light weight mode in C++.'
 type: docs
-weight: 9700
+weight: 9900
 url: /cpp/aspose.cells/lightcellsdataprovider/
 ---
 ## LightCellsDataProvider class

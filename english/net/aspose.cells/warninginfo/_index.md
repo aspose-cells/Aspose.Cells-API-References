@@ -26,28 +26,59 @@ public class WarningInfo
 ### Examples
 
 ```csharp
-// Called: public void Warning(WarningInfo warningInfo)
-public void Cells_Type_WarningInfo(WarningInfo warningInfo)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassWarningInfoDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set warning callback
+            workbook.Settings.WarningCallback = new WarningHandler();
+
+            // Trigger different warning types
+            worksheet.Cells["A1"].PutValue("InvalidName"); // Will trigger DefinedName warning
+            worksheet.Cells["A2"].PutValue(DateTime.MaxValue); // May trigger other warnings
+
+            Console.WriteLine("Warning demo completed.");
+        }
+    }
+
+    public class WarningHandler : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            switch (warningInfo.WarningType)
             {
-                switch (warningInfo.Type)
-                {
-                    case ExceptionType.DefinedName:
-                        warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
-                        return;
-                    case ExceptionType.Font:
-                    // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
-                    case ExceptionType.FileFormat:
-                    // throw new CellsException(ExceptionType.UnsupportedStream, "Unsupported file format.");
-                    case ExceptionType.IO:
-                        //Console.WriteLine(warningInfo.Description);
-                        return;
-                    case ExceptionType.InvalidData:
-                    case ExceptionType.Limitation:
-                        return;
-                    default:
-                        break;
-                }
+                case WarningType.DuplicateDefinedName:
+                    warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
+                    Console.WriteLine($"DefinedName warning handled. Corrected to: {warningInfo.CorrectedObject}");
+                    break;
+                case WarningType.FontSubstitution:
+                    Console.WriteLine($"Font warning: {warningInfo.Description}");
+                    break;
+                case WarningType.UnsupportedFileFormat:
+                    Console.WriteLine($"File format warning: {warningInfo.Description}");
+                    break;
+                case WarningType.IO:
+                    Console.WriteLine($"IO warning: {warningInfo.Description}");
+                    break;
+                case WarningType.InvalidData:
+                case WarningType.Limitation:
+                    Console.WriteLine($"Warning: {warningInfo.Description}");
+                    break;
+                default:
+                    Console.WriteLine($"Unknown warning type: {warningInfo.Description}");
+                    break;
             }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,21 +16,31 @@ public bool IsDefaultRowHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
-public void Cells_Property_IsDefaultRowHidden()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sourceSheet = sourceWorkbook.Worksheets[1];
-
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var newwSheetId = workbook.Worksheets.Add();
-    var newSheet = workbook.Worksheets[newwSheetId];
-
-    newSheet.Name = "insertedSheet";
-    newSheet.Copy(sourceSheet);
-    Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
-    Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "example.xlsx");
+    public class CellsPropertyIsDefaultRowHiddenDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set default row hidden property
+            worksheet.Cells.IsDefaultRowHidden = true;
+            
+            // Display the current value of IsDefaultRowHidden
+            Console.WriteLine("IsDefaultRowHidden: " + worksheet.Cells.IsDefaultRowHidden);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

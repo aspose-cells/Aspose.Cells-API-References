@@ -16,27 +16,36 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Password = "your_password";
-public static void MetadataOptions_Property_Password()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
+{
+    public class MetadataOptionsPropertyPasswordDemo
+    {
+        public static void Run()
         {
-            // Create an instance of MetadataOptions with a specific MetadataType
+            // Create metadata options with password protection
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-
-            // Set properties
-            options.Password = "your_password";
-            options.KeyLength = 256;
-
-            // Load metadata from an existing workbook
-            WorkbookMetadata metadata = new WorkbookMetadata("MetadataOptionsExample_original.xlsx", options);
-
-            // Add a custom document property
-            metadata.CustomDocumentProperties.Add("Author", "John Doe");
-
-            // Save the metadata changes to a new file
-            metadata.Save("MetadataOptionsExample.xlsx");
-
-            return;
+            options.Password = "secure_password123";
+            
+            // Create a new workbook and save it first
+            Workbook workbook = new Workbook();
+            string filePath = "ProtectedMetadata.xlsx";
+            workbook.Save(filePath);
+            
+            // Load metadata from the saved file
+            WorkbookMetadata metadata = new WorkbookMetadata(filePath, options);
+            
+            // Add custom document property
+            metadata.CustomDocumentProperties.Add("CreatedBy", "MetadataDemo");
+            
+            // Save with metadata
+            metadata.Save(filePath);
         }
+    }
+}
 ```
 
 ### See Also

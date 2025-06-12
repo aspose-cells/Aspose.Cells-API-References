@@ -33,28 +33,42 @@ public class ExternalLink
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class ExternalLinkDemo
+    {
+        public static void ExternalLinkExample()
+        {
+            // Open a file with external links
+            Workbook workbook = new Workbook("UpdatedExternalLinkExample_original.xlsx");
 
-//Open a file with external links
-Workbook workbook = new Workbook("book1.xls");
+            // Get External Link 
+            ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
 
-//Get External Link 
-ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
+            // Display properties of the external link
+            Console.WriteLine("External Link Type: " + externalLink.Type);
+            Console.WriteLine("Path Type: " + externalLink.PathType);
+            Console.WriteLine("Original Data Source: " + externalLink.OriginalDataSource);
+            Console.WriteLine("Data Source: " + externalLink.DataSource);
+            Console.WriteLine("Is Referred: " + externalLink.IsReferred);
+            Console.WriteLine("Is Visible: " + externalLink.IsVisible);
 
-//Change External Link's Data Source
-externalLink.DataSource = "d:\\link.xls";
+            // Change External Link's Data Source
+            externalLink.DataSource = "d:\\linktest.xls";
 
-[VB.NET]
+            // Add an external name to the external link
+            externalLink.AddExternalName("ExternalName", "Sheet1!A1");
 
-'Open a file with external links
-Dim workbook As New Workbook("book1.xls")
+            // Save the workbook
+            workbook.Save("UpdatedExternalLinkExample.xlsx");
 
-'Get External Link 
-Dim externalLink As ExternalLink = workbook.Worksheets.ExternalLinks(0)
-
-'Change External Link's Data Source
-externalLink.DataSource = "d:\link.xls"
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

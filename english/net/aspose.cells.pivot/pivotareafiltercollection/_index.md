@@ -59,6 +59,62 @@ public class PivotAreaFilterCollection : CollectionBase<PivotAreaFilter>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotAreaFilter, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotClassPivotAreaFilterCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            var cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B5", "C3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            // Create PivotAreaFilterCollection
+            PivotAreaFilterCollection filters = new PivotAreaFilterCollection();
+
+            // Create and add filters (though the API reflection shows limited functionality)
+            // Note: Actual filter creation would require more complete API information
+            // This demonstrates the collection structure
+            
+            // Access items (read-only property)
+            if (filters.Count > 0)
+            {
+                var firstFilter = filters[0];
+            }
+
+            // Save the workbook
+            workbook.Save("PivotAreaFilterCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

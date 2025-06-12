@@ -39,163 +39,70 @@ public class DataBar
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class DataBarDemo
+    {
+        public static void DataBarExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Adds an empty conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Sets the conditional format range
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Adds an empty conditional formatting
-int index = sheet.ConditionalFormattings.Add();
+            // Adds condition
+            int idx = fcs.AddCondition(FormatConditionType.DataBar);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // Get DataBar
+            DataBar dataBar = cond.DataBar;
 
-//Sets the conditional format range.
-CellArea ca = new CellArea();
+            // Set DataBar properties
+            dataBar.Color = Color.Orange;
+            dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
+            dataBar.MinCfvo.Value = 30;
+            dataBar.ShowValue = false;
+            dataBar.BarBorder.Type = DataBarBorderType.Solid;
+            dataBar.BarBorder.Color = Color.Plum;
+            dataBar.BarFillType = DataBarFillType.Solid;
+            dataBar.AxisColor = Color.Red;
+            dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
+            dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.Color = Color.White;
+            dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
 
-ca.StartRow = 0;
+            // Put Cell Values
+            Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
+            cell1.PutValue(10);
+            Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
+            cell2.PutValue(120);
+            Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
+            cell3.PutValue(260);
 
-ca.EndRow = 2;
-
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Adds condition.
-int idx = fcs.AddCondition(FormatConditionType.DataBar);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-//Get Databar
-DataBar dataBar = cond.DataBar;
-
-dataBar.Color = Color.Orange;
-
-//Set Databar properties
-dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
-
-dataBar.MinCfvo.Value = 30;
-
-dataBar.ShowValue = false;
-
-dataBar.BarBorder.Type = DataBarBorderType.Solid;
-
-dataBar.BarBorder.Color = Color.Plum;
-
- dataBar.BarFillType = DataBarFillType.Solid;
-  
- dataBar.AxisColor = Color.Red;
- 
- dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
- 
- dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
- 
- dataBar.NegativeBarFormat.Color = Color.White;
- 
- dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
- 
- dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
- 
-//Put Cell Values
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Saving the Excel file
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Adds an empty conditional formatting
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Sets the conditional format range.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Adds condition.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.DataBar)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Get Databar
-Dim dataBar As DataBar = cond.DataBar
-
-dataBar.Color = Color.Orange
-
-'Set Databar properties
-dataBar.MinCfvo.Type = FormatConditionValueType.Percentile
-
-dataBar.MinCfvo.Value = 30
-
-dataBar.ShowValue = False
-
-dataBar.BarBorder.Type = DataBarBorderType.Solid
-
-dataBar.BarBorder.Color = Color.Plum
-
- dataBar.BarFillType = DataBarFillType.Solid
-  
- dataBar.AxisColor = Color.Red
- 
- dataBar.AxisPosition = DataBarAxisPosition.Midpoint
- 
- dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color
- 
- dataBar.NegativeBarFormat.Color = Color.White
- 
- dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color
- 
- dataBar.NegativeBarFormat.BorderColor = Color.Yellow
-
-'Put Cell Values
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Saving the Excel file
-workbook.Save("book1.xlsx")
-
+            // Saving the Excel file
+            workbook.Save("DataBarExample.xlsx");
+            workbook.Save("DataBarExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

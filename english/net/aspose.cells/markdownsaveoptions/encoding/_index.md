@@ -16,38 +16,37 @@ public Encoding Encoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: Encoding = Encoding.UTF8,
-public static void MarkdownSaveOptions_Property_Encoding()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class MarkdownSaveOptionsPropertyEncodingDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample");
+            worksheet.Cells["B1"].PutValue("Markdown");
 
-            // Create an instance of MarkdownSaveOptions
+            // Configure save options with UTF8 encoding
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
             {
-                Encoding = Encoding.UTF8,
-                FormatStrategy = CellValueFormatStrategy.DisplayString,
-                LineSeparator = "\n",
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
+                Encoding = Encoding.UTF8
             };
 
-            // Save the workbook as a Markdown file
-            workbook.Save("MarkdownSaveOptionsExample.md", saveOptions);
+            // Save with specified encoding
+            workbook.Save("MarkdownWithEncoding.md", saveOptions);
 
-            Console.WriteLine("Workbook saved as Markdown file successfully.");
+            Console.WriteLine("Markdown file saved with UTF-8 encoding.");
         }
+    }
+}
 ```
 
 ### See Also

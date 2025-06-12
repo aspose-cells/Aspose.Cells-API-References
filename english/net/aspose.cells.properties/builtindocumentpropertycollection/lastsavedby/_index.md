@@ -20,32 +20,34 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-// Called: LastSavedBy = "lastSavedBy",
-    public void BuiltInDocumentPropertyCollection_Property_LastSavedBy()
-    {
-        var wb = new Workbook()
-        {
-            BuiltInDocumentProperties =
-{
-    Author = "author",
-    Title = "title",
-    Comments = "comments",
-    Keywords = "keywords",
-    LastSavedBy = "lastSavedBy",
-    Manager = "manager",
-    Company = "company",
-    Category = "category",
-    Subject = "subject",
-    ContentStatus = "contentStatus",
-    HyperlinkBase = "hyperlinkBase",
-    Template = "template",
-}
-        };
+using System;
+using Aspose.Cells;
 
-        wb.Settings.Password = "1";
-        wb.Save(Constants.destPath + @"example.xls", new XlsSaveOptions()
-        { EncryptDocumentProperties = true });
+namespace AsposeCellsExamples
+{
+    public class BuiltInDocumentPropertyCollectionPropertyLastSavedByDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set built-in document properties including LastSavedBy
+            workbook.BuiltInDocumentProperties.Author = "John Doe";
+            workbook.BuiltInDocumentProperties.Title = "Sample Document";
+            workbook.BuiltInDocumentProperties.LastSavedBy = "Jane Smith";
+            
+            // Save the workbook
+            workbook.Save("DocumentPropertiesDemo.xlsx", SaveFormat.Xlsx);
+            
+            // Load the saved workbook to verify properties
+            Workbook loadedWorkbook = new Workbook("DocumentPropertiesDemo.xlsx");
+            
+            // Output the LastSavedBy property
+            Console.WriteLine("Last saved by: " + loadedWorkbook.BuiltInDocumentProperties.LastSavedBy);
+        }
     }
+}
 ```
 
 ### See Also

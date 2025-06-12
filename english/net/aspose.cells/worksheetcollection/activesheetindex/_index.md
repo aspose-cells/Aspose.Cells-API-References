@@ -20,24 +20,35 @@ Sheet index is zero based.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.ActiveSheetIndex = 0;
-public void WorksheetCollection_Property_ActiveSheetIndex()
-            {
-                Workbook wb = new Workbook(_outputDir + "graph.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 
-                wb.Worksheets.ActiveSheetIndex = 0;
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyActiveSheetIndexDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with 3 worksheets
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
 
-                HtmlSaveOptions options = new HtmlSaveOptions();
-                options.ExportActiveWorksheetOnly = true;
-                options.ExportDataOptions = HtmlExportDataOptions.All;
-                options.StreamProvider = this;
-                options.IsExpImageToTempDir = true;
+            // Set the active sheet index to 1 (second sheet)
+            workbook.Worksheets.ActiveSheetIndex = 1;
 
-                string outputFilePath = Path.Combine(CreateFolder(Constants.HtmlDestPath + "NET46383"), "output.html");
+            // Verify the active sheet
+            Console.WriteLine("Active Sheet: " + workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex].Name);
 
-                using (FileStream fs = new FileStream(outputFilePath, FileMode.Create))
-                    wb.Save(fs, options);
-            }
+            // Save the workbook
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ActiveSheetDemo.xlsx");
+            workbook.Save(outputPath);
+
+            Console.WriteLine("File saved to: " + outputPath);
+        }
+    }
+}
 ```
 
 ### See Also

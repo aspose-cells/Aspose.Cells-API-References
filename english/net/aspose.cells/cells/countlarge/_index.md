@@ -16,16 +16,32 @@ public long CountLarge { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
-public void Cells_Property_CountLarge()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A4"].PutValue("test");
-    Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-   Assert.AreEqual(11,setup.PaperHeight);
-    Assert.AreEqual(8.5, setup.PaperWidth);
+    public class CellsPropertyCountLargeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B2"].PutValue("World");
+            worksheet.Cells["C3"].PutValue(123);
+            
+            // Demonstrate CountLarge property
+            long cellCount = worksheet.Cells.CountLarge;
+            Console.WriteLine($"Total cells in worksheet: {cellCount}");
+            
+            // Show paper size for demonstration
+            Console.WriteLine($"Paper Height: {worksheet.PageSetup.PaperHeight}");
+            Console.WriteLine($"Paper Width: {worksheet.PageSetup.PaperWidth}");
+        }
+    }
 }
 ```
 

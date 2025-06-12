@@ -64,19 +64,59 @@ public class CommentCollection : CollectionBase<Comment>
 ### Examples
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-Workbook workbook = new Workbook();
+    public class CommentCollectionDemo
+    {
+        public static void CommentCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-CommentCollection comments = workbook.Worksheets[0].Comments;
+            // Access the comments collection of the worksheet
+            CommentCollection comments = worksheet.Comments;
 
-//do your business
+            // Add a comment to cell A1
+            int commentIndex1 = comments.Add(0, 0);
+            Comment comment1 = comments[commentIndex1];
+            comment1.Note = "First note.";
+            comment1.Author = "Author1";
+            comment1.Font.Name = "Times New Roman";
 
-[Visual Basic]
+            // Add a comment to cell B2
+            comments.Add("B2");
+            Comment comment2 = comments["B2"];
+            comment2.Note = "Second note.";
+            comment2.Author = "Author2";
 
-Dim workbook as Workbook = new Workbook()
+            // Add a threaded comment to cell C3
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Author3", "user3", "provider3");
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+            comments.AddThreadedComment(2, 2, "This is a threaded comment.", author);
 
-Dim comments as CommentCollection = workbook.Worksheets(0).Comments
+            // Retrieve threaded comments from cell C3
+            var threadedComments = comments.GetThreadedComments(2, 2);
+            foreach (var threadedComment in threadedComments)
+            {
+                Console.WriteLine(threadedComment.Notes);
+            }
+
+            // Remove the comment at cell A1
+            comments.RemoveAt(0, 0);
+
+            // Clear all comments
+            comments.Clear();
+
+            // Save the workbook
+            workbook.Save("CommentCollectionExample.xlsx");
+            workbook.Save("CommentCollectionExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

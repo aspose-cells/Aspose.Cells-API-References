@@ -46,13 +46,35 @@ public enum PresetShadowType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
-public void Drawing_Type_PresetShadowType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
+    public class DrawingClassPresetShadowTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to demonstrate shadow effects
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 100);
+            
+            // Set different preset shadow types
+            shape.ShadowEffect.PresetType = PresetShadowType.OffsetDiagonalBottomRight;
+            Console.WriteLine("Shadow type set to: " + shape.ShadowEffect.PresetType);
+
+            // Change to another shadow type
+            shape.ShadowEffect.PresetType = PresetShadowType.OffsetBottom;
+            Console.WriteLine("Shadow type changed to: " + shape.ShadowEffect.PresetType);
+
+            // Save the workbook
+            workbook.Save("PresetShadowTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

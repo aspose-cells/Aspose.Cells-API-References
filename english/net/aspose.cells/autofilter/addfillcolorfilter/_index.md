@@ -24,30 +24,59 @@ public void AddFillColorFilter(int fieldIndex, BackgroundType pattern, CellsColo
 ### Examples
 
 ```csharp
-// Called: filter.AddFillColorFilter(3, BackgroundType.Solid, cr, cr);
-public void AutoFilter_Method_AddFillColorFilter()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-    AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor cr =  workbook.CreateCellsColor();
-    cr.Color = Color.Red;
-    filter.AddFillColorFilter(3, BackgroundType.Solid, cr, cr);
-    filter.Refresh();
-    Assert.IsTrue(cells.IsRowHidden(1));
-    Assert.IsTrue(cells.IsRowHidden(2));
-    Assert.IsTrue(cells.IsRowHidden(3));
-    Assert.IsFalse(cells.IsRowHidden(4));
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
+    public class AutoFilterMethodAddFillColorFilterWithInt32BackgroundTypeCellsColorCDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data with different fill colors
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue("Data1");
+            cells["A3"].PutValue("Data2");
+            cells["A4"].PutValue("Data3");
+            
+            // Apply different fill colors
+            Style style1 = cells["A2"].GetStyle();
+            style1.ForegroundColor = Color.Red;
+            style1.Pattern = BackgroundType.Solid;
+            cells["A2"].SetStyle(style1);
+            
+            Style style2 = cells["A3"].GetStyle();
+            style2.ForegroundColor = Color.Blue;
+            style2.Pattern = BackgroundType.Solid;
+            cells["A3"].SetStyle(style2);
+            
+            Style style3 = cells["A4"].GetStyle();
+            style3.ForegroundColor = Color.Green;
+            style3.Pattern = BackgroundType.Solid;
+            cells["A4"].SetStyle(style3);
 
-    filter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[3];
-    Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
-    ColorFilter cf = fc.Filter as ColorFilter;
-
-    Assert.IsTrue(cf.FilterByFillColor);
-    AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
+            // Create auto filter
+            worksheet.AutoFilter.Range = "A1:A4";
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Create cells color for filtering
+            CellsColor filterColor = workbook.CreateCellsColor();
+            filterColor.Color = Color.Red;
+            
+            // Apply fill color filter
+            filter.AddFillColorFilter(0, BackgroundType.Solid, filterColor, filterColor);
+            filter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("AutoFilterFillColorDemo.xlsx");
+        }
+    }
 }
 ```
 

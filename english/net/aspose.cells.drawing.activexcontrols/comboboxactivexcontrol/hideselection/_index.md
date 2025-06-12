@@ -16,47 +16,45 @@ public bool HideSelection { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.HideSelection = true;
-public static void ComboBoxActiveXControl_Property_HideSelection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyHideSelectionDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Add a ComboBox ActiveX control with all required parameters
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 
+                10, 10, 150, 30, 100, 20);
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl comboBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox ActiveX control
-            comboBox.MaxLength = 100;
-            comboBox.ListWidth = 150;
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-            comboBox.ColumnCount = 1;
+            // Configure basic properties
             comboBox.ListRows = 5;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete;
-            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
-            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
-            comboBox.ListStyle = ControlListStyle.Plain;
-            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
-            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            comboBox.IsEditable = true;
-            comboBox.ShowColumnHeads = false;
-            comboBox.IsDragBehaviorEnabled = false;
-            comboBox.EnterFieldBehavior = true;
-            comboBox.IsAutoWordSelected = false;
-            comboBox.SelectionMargin = false;
-            comboBox.Value = "Sample Text";
-            comboBox.HideSelection = true;
-            comboBox.ColumnWidths = 100;
+            comboBox.Value = "Select an item";
+            
+            // Add sample items using the correct property name
+            comboBox.ListFillRange = "A1:A3"; // Alternative way to set items
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+
+            // Demonstrate HideSelection property
+            comboBox.HideSelection = true; // Text won't show selection highlight when control loses focus
 
             // Save the workbook
-            workbook.Save("ControlBorderTypeExample.xlsx");
-            workbook.Save("ControlBorderTypeExample.pdf");
+            workbook.Save("ComboBoxHideSelectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

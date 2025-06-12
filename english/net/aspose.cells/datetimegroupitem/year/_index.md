@@ -16,48 +16,41 @@ public int Year { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-public static void DateTimeGroupItem_Property_Year()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertyYearDemo
+    {
+        public static void Run()
         {
-            // Create an instance of DateTimeGroupItem
-            DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
-                DateTimeGroupingType.Year, // Group by Year
-                2023,                      // Year
-                10,                        // Month
-                5,                         // Day
-                14,                        // Hour
-                30,                        // Minute
-                45                         // Second
+            // Create a DateTimeGroupItem grouped by Year
+            DateTimeGroupItem dateTimeGroup = new DateTimeGroupItem(
+                DateTimeGroupingType.Year,
+                2023,  // Year
+                1,     // Month (ignored when grouping by Year)
+                1,     // Day (ignored)
+                0,     // Hour (ignored)
+                0,     // Minute (ignored)
+                0      // Second (ignored)
             );
 
-            // Accessing properties
-            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+            // Display initial Year value
+            Console.WriteLine("Initial Year: " + dateTimeGroup.Year);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
-            dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
-            dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
+            // Modify the Year property
+            dateTimeGroup.Year = 2024;
 
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+            // Display modified Year value
+            Console.WriteLine("Modified Year: " + dateTimeGroup.Year);
+
+            // Demonstrate that other properties are ignored when grouping by Year
+            dateTimeGroup.Month = 12;
+            Console.WriteLine("Month value is ignored when grouping by Year: " + dateTimeGroup.Month);
         }
+    }
+}
 ```
 
 ### See Also

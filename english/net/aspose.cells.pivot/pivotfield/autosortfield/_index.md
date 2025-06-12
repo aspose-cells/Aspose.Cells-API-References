@@ -16,35 +16,56 @@ public int AutoSortField { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.AutoSortField = 0;
-public void PivotField_Property_AutoSortField()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET42556_";
+    public class PivotFieldPropertyAutoSortFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    var book = new Aspose.Cells.Workbook(filePath + "example.xls");
-    var sheet = book.Worksheets[0];
-    var pivot = sheet.PivotTables[0];
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Branch";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "North";
+            cells["B2"].Value = 1000;
+            cells["A3"].Value = "South";
+            cells["B3"].Value = 1500;
+            cells["A4"].Value = "East";
+            cells["B4"].Value = 800;
+            cells["A5"].Value = "West";
+            cells["B5"].Value = 1200;
 
-    PivotFieldCollection pivotFields = pivot.BaseFields;
+            // Add pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
 
-    PivotField pivotField = pivotFields["Branch"];
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Branch");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-    //Setting the field auto sort
-    pivotField.IsAutoSort = true;
+            // Get the pivot field
+            PivotField pivotField = pivotTable.RowFields["Branch"];
 
-    //Setting the field sorting in ascending order
-    pivotField.IsAscendSort = true;
+            // Configure auto sort
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+            pivotField.AutoSortField = 0; // Sort by first data field (Sales)
 
-    //Sort PivotField named "Branch" via DataField named "GPW"
-    pivotField.AutoSortField = 0;
+            // Calculate data and refresh
+            pivotTable.CalculateData();
 
-    pivot.CalculateData();
-    pivot.RefreshDataOnOpeningFile = true;
-
-    string savePath = CreateFolder(filePath);
-    book.Save(savePath + "out.xlsx");
-    book.Save(savePath + "out.pdf");
-
+            // Save the workbook
+            workbook.Save("PivotFieldAutoSortDemo.xlsx");
+        }
+    }
 }
 ```
 

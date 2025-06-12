@@ -20,15 +20,26 @@ public void PutValue(bool boolValue)
 ### Examples
 
 ```csharp
-// Called: cells[2, 2].PutValue(true);
-public void Cell_Method_PutValue()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[1, 1].PutValue("FfalseL");
-    cells[2, 2].PutValue(true);
+using System;
+using Aspose.Cells;
 
-    CheckFind_EndWith_006(workbook);
+namespace AsposeCellsExamples
+{
+    public class CellMethodPutValueWithBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Put a boolean value in cell B3 (row 2, column 2)
+            cells[2, 2].PutValue(true);
+
+            // Verify the value was set correctly
+            Console.WriteLine("Cell B3 value: " + cells[2, 2].Value);
+        }
+    }
 }
 ```
 
@@ -55,20 +66,30 @@ public void PutValue(int intValue)
 ### Examples
 
 ```csharp
-// Called: cells[4, 0].PutValue(8);
-public void Cell_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue(3);
-    cells[1, 0].PutValue(3);
-    cells[2, 0].PutValue(4);
-    cells[3, 0].PutValue(6);
-    cells[4, 0].PutValue(8);
-    Cell cell = cells[0, 1];
-    cell.Formula = "=MATCH(3,A1:A5,1)";
-    workbook.CalculateFormula();
-    Assert.AreEqual(2, cell.IntValue);
+    public class CellMethodPutValueWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Using PutValue with Int32 parameters
+            cells[0, 0].PutValue(10);
+            cells[1, 0].PutValue(20);
+            cells[2, 0].PutValue(30);
+            
+            // Calculate sum of the values
+            cells[3, 0].Formula = "=SUM(A1:A3)";
+            workbook.CalculateFormula();
+            
+            Console.WriteLine("Sum of values: " + cells[3, 0].IntValue);
+        }
+    }
 }
 ```
 
@@ -95,30 +116,32 @@ public void PutValue(double doubleValue)
 ### Examples
 
 ```csharp
-// Called: cells[2, 1].PutValue(0.69);
-public void Cell_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue("Fruit");
-    cells[0, 1].PutValue("Price");
-    cells[0, 2].PutValue("Count");
-    cells[1, 0].PutValue("Apples");
-    cells[1, 1].PutValue(0.69);
-    cells[1, 2].PutValue(40);
-    cells[2, 0].PutValue("Bananas");
-    cells[2, 1].PutValue(0.69);
-    cells[2, 2].PutValue(38);
-    cells[3, 0].PutValue("Lemons");
-    cells[3, 1].PutValue(0.55);
-    cells[3, 2].PutValue(15);
-    cells[4, 0].PutValue("Oranges");
-    cells[4, 1].PutValue(0.25);
-    cells[4, 2].PutValue(25);
-    Cell cell = cells[0, 3];
-    cell.Formula = "=INDEX(A2:C5,5,3)";
-    workbook.CalculateFormula();
-    Assert.AreEqual("#REF!", cell.StringValue);
+    public class CellMethodPutValueWithDoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Put double values using PutValue method
+            cells[0, 0].PutValue("Item");
+            cells[0, 1].PutValue("Price");
+            cells[1, 0].PutValue("Apple");
+            cells[1, 1].PutValue(0.69);
+            cells[2, 0].PutValue("Banana");
+            cells[2, 1].PutValue(0.49);
+            cells[3, 0].PutValue("Orange");
+            cells[3, 1].PutValue(0.29);
+
+            // Save the workbook
+            workbook.Save("PutValueWithDoubleDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -147,22 +170,45 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ### Examples
 
 ```csharp
-// Called: age.PutValue("-60", true, false);
-public void Cell_Method_PutValue()
- {
-     var book = new Workbook(Constants.sourcePath + "example.xlsx");
-     book.CalculateFormula();
+using System;
+using Aspose.Cells;
 
-     Worksheet sheetBla = book.Worksheets["Sheet1"];
-
-     Cell age = sheetBla.Cells["B3"];
-     age.PutValue("-60", true, false);
-     book.CalculateFormula();
-     bool isValid = age.GetValidationValue(); //
-     Assert.IsFalse(isValid);
-     book.Save(Constants.destPath + "example.xlsx");
-           
- }
+namespace AsposeCellsExamples
+{
+    public class CellMethodPutValueWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get cell B3
+            Cell cell = worksheet.Cells["B3"];
+            
+            // Set data validation for age (must be positive number)
+            Validation validation = cell.GetValidation();
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.GreaterThan;
+            validation.Formula1 = "0";
+            
+            // Put value with conversion and validation check
+            cell.PutValue("-60", true, false);
+            
+            // Calculate formulas (though not needed in this simple case)
+            workbook.CalculateFormula();
+            
+            // Check if value is valid
+            bool isValid = cell.GetValidationValue();
+            Console.WriteLine("Is value valid? " + isValid);
+            
+            // Save workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -189,17 +235,30 @@ public void PutValue(string stringValue, bool isConverted)
 ### Examples
 
 ```csharp
-// Called: cells[2, 2].PutValue("1", true);
-public void Cell_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[2, 2].PutValue("1", true);
-    cells[2, 3].PutValue("2", true);
-    cells[2, 4].PutValue("3", true);
-    //SHEET.Cells[3, 1].Formula = "=PERCENTRANK(INDIRECT(\"A3:IV3\"),INDIRECT(\"C2\"))";
-    cells[3, 1].Formula = "=PERCENTRANK(A2:Z2,C2)";
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    public class CellMethodPutValueWithStringBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Demonstrate PutValue with string and boolean parameters
+            cells["B2"].PutValue("123", true);  // String value with conversion flag
+            cells["C2"].PutValue("456", false); // String value without conversion
+            
+            // Verify the values
+            Console.WriteLine("B2 value (converted): " + cells["B2"].Value); // Should show 123 as number
+            Console.WriteLine("C2 value (raw): " + cells["C2"].Value);       // Should show "456" as string
+
+            workbook.Save("PutValueDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -226,30 +285,35 @@ public void PutValue(string stringValue)
 ### Examples
 
 ```csharp
-// Called: cells[0, 1].PutValue("Price");
-public void Cell_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue("Fruit");
-    cells[0, 1].PutValue("Price");
-    cells[0, 2].PutValue("Count");
-    cells[1, 0].PutValue("Apples");
-    cells[1, 1].PutValue(0.69);
-    cells[1, 2].PutValue(40);
-    cells[2, 0].PutValue("Bananas");
-    cells[2, 1].PutValue(0.69);
-    cells[2, 2].PutValue(38);
-    cells[3, 0].PutValue("Lemons");
-    cells[3, 1].PutValue(0.55);
-    cells[3, 2].PutValue(15);
-    cells[4, 0].PutValue("Oranges");
-    cells[4, 1].PutValue(0.25);
-    cells[4, 2].PutValue(25);
-    Cell cell = cells[0, 3];
-    cell.Formula = "=INDEX(A2:C5,2,4)";
-    workbook.CalculateFormula();
-    Assert.AreEqual("#REF!", cell.StringValue);
+    public class CellMethodPutValueWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Using PutValue with string parameters
+            cells[0, 0].PutValue("Product");
+            cells[0, 1].PutValue("Category");
+            cells[0, 2].PutValue("Price");
+            
+            cells[1, 0].PutValue("Laptop");
+            cells[1, 1].PutValue("Electronics");
+            cells[1, 2].PutValue(999.99);
+            
+            cells[2, 0].PutValue("Desk Chair");
+            cells[2, 1].PutValue("Furniture");
+            cells[2, 2].PutValue(199.50);
+            
+            // Save the workbook
+            workbook.Save("PutValueStringDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -279,20 +343,31 @@ Setting a DateTime value for a cell dose not means the cell will be formatted as
 
 ### Examples
 
-This example shows how to set DateTime value to a cell and make it be displayed as date time.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
+namespace AsposeCellsExamples
+{
+    public class CellMethodPutValueWithDateTimeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-//Put date time into a cell
-Cell cell = cells[0, 0];
-cell.PutValue(new DateTime(2023, 5, 15));
-Style style = cell.GetStyle(false);
-style.Number = 14;
-cell.SetStyle(style);
+            Cell cell = cells["A1"];
+            cell.PutValue(new DateTime(2023, 5, 15));
+            
+            Style style = cell.GetStyle();
+            style.Number = 14;
+            cell.SetStyle(style);
+            
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -318,16 +393,32 @@ public void PutValue(object objectValue)
 ### Examples
 
 ```csharp
-// Called: cells[0, 0].PutValue(dt);
-public void Cell_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-  Workbook workbook = new Workbook();
-  Cells cells = workbook.Worksheets[0].Cells;
-  DateTime dt = new DateTime(2008, 2, 2);
-  cells[0, 0].PutValue(dt);
-  cells[0, 1].Formula = "=EOMONTH(A1, 1)";
-  workbook.CalculateFormula();
-  Assert.AreEqual(39538, cells[0, 1].IntValue);
+    public class CellMethodPutValueWithObjectDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // PutValue with DateTime object
+            DateTime dt = new DateTime(2008, 2, 2);
+            cells[0, 0].PutValue((object)dt);
+            
+            // PutValue with string object
+            cells[1, 0].PutValue((object)"Hello World");
+            
+            // PutValue with numeric object
+            cells[2, 0].PutValue((object)123.45);
+            
+            // Save the workbook
+            workbook.Save("PutValueWithObjectDemo.xlsx");
+        }
+    }
 }
 ```
 

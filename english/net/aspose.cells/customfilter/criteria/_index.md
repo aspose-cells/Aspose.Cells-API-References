@@ -16,17 +16,47 @@ public object Criteria { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(cf.Criteria.ToString(), "7");
-public void CustomFilter_Property_Criteria()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "example.xls");
-    workbook.Save(Constants.HtmlDestPath + "example.html");
-    workbook = new Workbook(Constants.HtmlDestPath + "example.html");
-    AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = autoFilter.FilterColumns[2];
-    CustomFilter cf = ((CustomFilterCollection)fc.Filter)[0];
-    Assert.AreEqual(fc.FilterType, FilterType.CustomFilters);
-    Console.WriteLine(cf.Criteria.ToString(), "7");
+    public class CustomFilterPropertyCriteriaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Numbers");
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(7);
+            worksheet.Cells["A4"].PutValue(5);
+            worksheet.Cells["A5"].PutValue(9);
+            worksheet.Cells["A6"].PutValue(3);
+
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:A6";
+            AutoFilter autoFilter = worksheet.AutoFilter;
+            
+            // Add custom filter
+            int fieldIndex = 0;
+            autoFilter.Custom(fieldIndex, FilterOperatorType.GreaterOrEqual, 5);
+            
+            // Get the filter column and display criteria
+            FilterColumn fc = autoFilter.FilterColumns[fieldIndex];
+            CustomFilter cf = ((CustomFilterCollection)fc.Filter)[0];
+            Console.WriteLine("Filter Criteria: " + cf.Criteria);
+            
+            // Refresh the filter
+            autoFilter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("CustomFilterExample.xlsx");
+        }
+    }
 }
 ```
 

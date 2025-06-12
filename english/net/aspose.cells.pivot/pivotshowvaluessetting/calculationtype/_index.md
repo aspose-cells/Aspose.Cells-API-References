@@ -16,17 +16,50 @@ public PivotFieldDataDisplayFormat CalculationType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.DataFields[1].ShowValuesSetting.CalculationType, PivotFieldDataDisplayFormat.RankLargestToSmallest);
-public void PivotShowValuesSetting_Property_CalculationType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.openPivottablePath + "testDisplayFormat.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    //Console.WriteLine(pt.PageFieldWrapCount);
-    //Console.WriteLine(pt.DisplayNullString);
-    //Console.WriteLine(pt.PreserveFormatting);
-    //Console.WriteLine(pt.ItemPrintTitles);
-    Assert.AreEqual(pt.DataFields[1].ShowValuesSetting.CalculationType, PivotFieldDataDisplayFormat.RankLargestToSmallest);
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+    public class PivotShowValuesSettingPropertyCalculationTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 20;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 15;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+
+            // Add data field and set calculation type
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            PivotField dataField = pivotTable.DataFields[0];
+            dataField.ShowValuesSetting.CalculationType = PivotFieldDataDisplayFormat.RankLargestToSmallest;
+
+            // Calculate data and save
+            pivotTable.CalculateData();
+            workbook.Save("PivotShowValuesSettingPropertyCalculationTypeDemo_out.xlsx");
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: SetKey2
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::SetKey2 method. Represents second sorted column index(absolute position, column A is 0, B is 1, ...) in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells/datasorter/setkey2/
 ---
 ## DataSorter::SetKey2 method

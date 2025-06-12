@@ -16,34 +16,35 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
-// Aspose.Cells addes border to Bitmaps when saving to 2007 formats
-// http://www.aspose.com/community/forums/thread/293742.aspx
-public void MsoLineFormat_Property_IsVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("MsoLineFormat_Property_IsVisible()");
-    string infn = path + @"BitmapBorder\ExcelSource.xlsx";
-    string outfn = Constants.destPath + @"ExcelSource_output.xlsx";
-    string infnXlsm = path + @"BitmapBorder\ExcelSource.xlsm";
-    string outfnXlsm = Constants.destPath + @"ExcelSource_output.xlsm";
+    public class MsoLineFormatPropertyIsVisibleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Console.WriteLine("TEST 1 - Open Excel source file '{0}'", infn);
-    Workbook workbook = new Workbook(infn);
-    Worksheet currentSheet = workbook.Worksheets[0];
-    Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
-    Assert.IsTrue(currentSheet.Shapes[1].LineFormat.IsVisible);
-    Console.WriteLine("Save file to: '{0}'", outfn);
-    workbook.Save(outfn, SaveFormat.Xlsx);
+            // Add a rectangle shape with visible border
+            var shape1 = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+            shape1.LineFormat.IsVisible = true;
 
-    workbook = null;
+            // Add an oval shape with invisible border
+            var shape2 = worksheet.Shapes.AddOval(2, 0, 150, 100, 100, 100);
+            shape2.LineFormat.IsVisible = false;
 
-    Console.WriteLine("TEST 2 - Open Excel source file '{0}'", infnXlsm);
-    workbook = new Workbook(infnXlsm);
-    currentSheet = workbook.Worksheets[0];
-    Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
-    Assert.IsTrue(currentSheet.Shapes[1].LineFormat.IsVisible);
-    Console.WriteLine("Save file to: '{0}'", outfnXlsm);
-    workbook.Save(outfnXlsm, SaveFormat.Xlsm);
+            // Verify and print the IsVisible property values
+            Console.WriteLine("Rectangle border visible: " + shape1.LineFormat.IsVisible);
+            Console.WriteLine("Oval border visible: " + shape2.LineFormat.IsVisible);
+
+            // Save the workbook
+            workbook.Save("MsoLineFormat_IsVisible_Demo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

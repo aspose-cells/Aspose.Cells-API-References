@@ -16,33 +16,49 @@ public bool ShowRowHeaderCaption { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pt.ShowRowHeaderCaption);
-public void PivotTable_Property_ShowRowHeaderCaption()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "testPivotTableOptions.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    Assert.AreEqual(pt.PageFieldWrapCount,2);
-    Assert.AreEqual(pt.DisplayNullString,false);
-    Assert.AreEqual(pt.PreserveFormatting,false);
-   // Assert.AreEqual(pt.RepeatItemsOnEachPrintedPage,false);
-    Assert.AreEqual(pt.PrintTitles, false);
-    Assert.AreEqual(pt.EnableFieldList,true);
-    Assert.IsFalse(pt.DisplayNullString);
-    Assert.IsFalse(pt.DisplayErrorString);
-    Assert.IsFalse(pt.MergeLabels);
-    Assert.AreEqual(2,pt.PageFieldWrapCount);
-    Assert.IsTrue(pt.ShowColumnGrandTotals);
-    Assert.IsTrue(pt.ShowRowGrandTotals);
-    Assert.IsTrue(pt.CustomListSort);
-    Assert.IsTrue(pt.EnableDrilldown);
-    Assert.IsTrue(pt.ShowDataTips);
-    Assert.IsTrue(pt.ShowDrill);
-    Assert.IsFalse(pt.ShowValuesRow);
-    Assert.IsFalse(pt.IsGridDropZones);
-    Assert.IsFalse(pt.AllowMultipleFiltersPerField);
-    Assert.IsTrue(pt.ShowRowHeaderCaption);
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowRowHeaderCaptionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and populate with sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Add sample data for pivot table
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Demonstrate ShowRowHeaderCaption property
+            pivotTable.ShowRowHeaderCaption = true;
+            Console.WriteLine("Row Header Caption Visible: " + pivotTable.ShowRowHeaderCaption);
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowRowHeaderCaptionDemo.xlsx");
+        }
+    }
 }
 ```
 

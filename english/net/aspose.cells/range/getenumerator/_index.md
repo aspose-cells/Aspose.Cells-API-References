@@ -24,15 +24,36 @@ When traversing elements by the returned Enumerator, the cells collection should
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook("template.xlsx");
-Cells cells = workbook.Worksheets[0].Cells;
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-IEnumerator en = cells.CreateRange("B2:C3").GetEnumerator();
-while (en.MoveNext())
+namespace AsposeCellsExamples
 {
-    Cell cell = (Cell)en.Current;
-    Console.WriteLine(cell.Name + ": " + cell.Value);
+    public class RangeMethodGetEnumeratorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some sample data
+            worksheet.Cells["B2"].PutValue("Apple");
+            worksheet.Cells["B3"].PutValue("Banana");
+            worksheet.Cells["C2"].PutValue("Cherry");
+            worksheet.Cells["C3"].PutValue("Date");
+
+            // Get range and enumerate through cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2:C3");
+            IEnumerator enumerator = range.GetEnumerator();
+            
+            while (enumerator.MoveNext())
+            {
+                Cell cell = (Cell)enumerator.Current;
+                Console.WriteLine($"{cell.Name}: {cell.Value}");
+            }
+        }
+    }
 }
 ```
 

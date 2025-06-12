@@ -28,9 +28,7 @@ When processing data with headers, some scenarios require the headers to be no d
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

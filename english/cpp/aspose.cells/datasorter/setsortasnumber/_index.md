@@ -4,7 +4,7 @@ linktitle: SetSortAsNumber
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::SetSortAsNumber method. Indicates whether sorting anything that looks like a number in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells/datasorter/setsortasnumber/
 ---
 ## DataSorter::SetSortAsNumber method

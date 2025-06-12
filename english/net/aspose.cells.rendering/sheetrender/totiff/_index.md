@@ -17,6 +17,52 @@ public void ToTiff(Stream stream)
 | --- | --- | --- |
 | stream | Stream | the stream of the output image |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class SheetRenderMethodToTiffWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and access first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample content to demonstrate rendering
+            worksheet.Cells["A1"].PutValue("Aspose.Cells TIFF Rendering Demo");
+            
+            // Configure image options for rendering
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+
+            // Create sheet renderer with configured options
+            SheetRender renderer = new SheetRender(worksheet, options);
+            try
+            {
+                // Create output stream for TIFF image
+                using (FileStream tiffStream = new FileStream("output.tiff", FileMode.Create))
+                {
+                    // Render worksheet to TIFF using stream
+                    renderer.ToTiff(tiffStream);
+                    Console.WriteLine("Worksheet successfully rendered to TIFF stream.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during TIFF rendering: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SheetRender](../)
@@ -39,22 +85,32 @@ public void ToTiff(string filename)
 
 ### Examples
 
-The following code outputs all the pages of the first sheet to Tiff image.
-
 ```csharp
-//load the source file with images.
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+namespace AsposeCellsExamples
+{
+    public class SheetRenderMethodToTiffWithStringDemo
+    {
+        public static void Run()
+        {
+            // Load the source Excel file
+            Workbook workbook = new Workbook("Book1.xlsx");
 
-//set output image type.
-imgOpt.SaveFormat = SaveFormat.Tiff;
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.SaveFormat = SaveFormat.Tiff;
 
-//render the first sheet.
-SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+            // Create sheet render for the first worksheet
+            SheetRender sheetRender = new SheetRender(workbook.Worksheets[0], options);
 
-//output all the pages of the sheet to Tiff image.
-sr.ToTiff("output.tiff");
+            // Save all pages of the sheet as a multi-page TIFF file
+            sheetRender.ToTiff("output.tiff");
+        }
+    }
+}
 ```
 
 ### See Also

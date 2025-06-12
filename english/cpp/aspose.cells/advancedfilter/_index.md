@@ -4,7 +4,7 @@ linktitle: AdvancedFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AdvancedFilter class. Represents the settings of advanced filter in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells/advancedfilter/
 ---
 ## AdvancedFilter class

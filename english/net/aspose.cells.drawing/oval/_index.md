@@ -154,20 +154,23 @@ public class Oval : Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-
-//get ShapeCollection
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-
-//add a oval
-Oval oval = shapes.AddOval(1, 0, 1, 0, 50, 50);
-
-//do your business
-
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class DrawingClassOvalDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            Oval oval = shapes.AddOval(1, 0, 1, 0, 50, 50);
+            workbook.Save("result.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

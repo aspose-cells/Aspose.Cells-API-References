@@ -20,16 +20,44 @@ public int RotationAngle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
-public void ChartTextFrame_Property_RotationAngle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[1];
-    Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    chart = workbook.Worksheets[0].Charts[1];
-    Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
+    public class ChartTextFramePropertyRotationAngleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart and set its data range
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set rotation angle for value axis title
+            chart.ValueAxis.Title.Text = "Values";
+            chart.ValueAxis.Title.RotationAngle = 45;
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

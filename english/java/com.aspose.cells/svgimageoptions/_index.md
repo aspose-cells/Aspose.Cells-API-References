@@ -28,6 +28,7 @@ Options for generating Svg image.
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
 | [getCssPrefix()](#getCssPrefix--) | Gets the prefix of the css name in svg,the default value is empty string. |
+| [getCustomRenderSettings()](#getCustomRenderSettings--) | Gets custom settings during rendering. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
@@ -70,6 +71,7 @@ Options for generating Svg image.
 | [setChartImageType(ImageFormat value)](#setChartImageType-com.aspose.cells.ImageFormat-) | Indicate the chart imagetype when converting. |
 | [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setCssPrefix(String value)](#setCssPrefix-java.lang.String-) | Sets the prefix of the css name in svg,the default value is empty string. |
+| [setCustomRenderSettings(CustomRenderSettings value)](#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-) | Sets custom settings during rendering. |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDesiredSize(int desiredWidth, int desiredHeight)](#setDesiredSize-int-int-) | Sets desired width and height of image. |
@@ -191,6 +193,16 @@ Gets the prefix of the css name in svg,the default value is empty string.
 
 **Returns:**
 java.lang.String
+### getCustomRenderSettings() {#getCustomRenderSettings--}
+```
+public CustomRenderSettings getCustomRenderSettings()
+```
+
+
+Gets custom settings during rendering.
+
+**Returns:**
+[CustomRenderSettings](../../com.aspose.cells/customrendersettings)
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 ```
 public int getDefaultEditLanguage()
@@ -786,6 +798,19 @@ Sets the prefix of the css name in svg,the default value is empty string.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCustomRenderSettings(CustomRenderSettings value) {#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-}
+```
+public void setCustomRenderSettings(CustomRenderSettings value)
+```
+
+
+Sets custom settings during rendering.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CustomRenderSettings](../../com.aspose.cells/customrendersettings) |  |
 
 ### setDefaultEditLanguage(int value) {#setDefaultEditLanguage-int-}
 ```

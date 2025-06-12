@@ -16,17 +16,35 @@ public string ActiveCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
-public void Worksheet_Property_ActiveCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+    public class WorksheetPropertyActiveCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set active cell to B2
+            worksheet.ActiveCell = "B2";
+            
+            // Print active cell address
+            Console.WriteLine("Active Cell: " + worksheet.ActiveCell);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to verify active cell
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("Loaded Active Cell: " + loadedWorkbook.Worksheets[0].ActiveCell);
+        }
+    }
 }
 ```
 

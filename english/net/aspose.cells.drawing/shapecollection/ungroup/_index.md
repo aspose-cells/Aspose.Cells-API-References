@@ -24,20 +24,40 @@ If the group shape is grouped by another group shape,nothing will be done.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add first shape
-shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-//add second shape
-shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodUngroupWithGroupShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//group
-Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };
-GroupShape groupShape = shapes.Group(shapesArr);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
 
-//ungroup
-shapes.Ungroup(groupShape);
+            // Add first rectangle shape
+            shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+            
+            // Add second rectangle shape
+            shapes.AddRectangle(6, 0, 2, 0, 30, 30);
 
+            // Create array of shapes to group
+            Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };
+
+            // Group the shapes
+            GroupShape groupShape = shapes.Group(shapesArr);
+
+            // Ungroup the group shape
+            shapes.Ungroup(groupShape);
+        }
+    }
+}
 ```
 
 ### See Also

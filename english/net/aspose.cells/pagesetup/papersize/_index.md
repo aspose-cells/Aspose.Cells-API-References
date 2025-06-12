@@ -16,12 +16,30 @@ public PaperSizeType PaperSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PaperSizeType.PaperEnvelopeB6, sheet.PageSetup.PaperSize, "sheet.PageSetup.PaperSize");
-private void PageSetup_Property_PaperSize(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPaperSizeDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            AssertHelper.AreEqual(PaperSizeType.PaperEnvelopeB6, sheet.PageSetup.PaperSize, "sheet.PageSetup.PaperSize");
+
+            // Set the paper size to Envelope B6
+            sheet.PageSetup.PaperSize = PaperSizeType.PaperEnvelopeB6;
+
+            // Print the current paper size
+            Console.WriteLine("Current paper size: " + sheet.PageSetup.PaperSize);
+
+            // Save the workbook
+            workbook.Save("PageSetup_PaperSizeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,44 +16,42 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(listboxSrc.Shadow, listboxDest.Shadow, info + ".Shadow");
-public static void ListBox_Property_Shadow(ListBox listboxSrc, ListBox listboxDest, string info)
-        {
-            if (AssertHelper.checkNull(listboxSrc, listboxDest, info))
-            {
-                return;
-            }
-            //====================properties are supported in excel 2003 format====================//
-            AssertHelper.AreEqual(listboxSrc.MsoDrawingType, listboxDest.MsoDrawingType, info + ".MsoDrawingType");
-            AssertHelper.AreEqual(listboxSrc.UpperLeftRow, listboxDest.UpperLeftRow, info + ".UpperLeftRow");
-            AssertHelper.AreEqual(listboxSrc.UpperLeftColumn, listboxDest.UpperLeftColumn, info + ".UpperLeftColumn");
-            AssertHelper.AreEqual(listboxSrc.LowerRightRow, listboxDest.LowerRightRow, info + ".LowerRightRow");
-            AssertHelper.AreEqual(listboxSrc.LowerRightColumn, listboxDest.LowerRightColumn, info + ".LowerRightColumn");  
-            //===size===//
-            AssertHelper.AreEqual(listboxSrc.HeightCM, listboxDest.HeightCM, info + ".HeightCM");
-            AssertHelper.AreEqual(listboxSrc.WidthCM, listboxDest.WidthCM, info + ".WidthCM");
-            AssertHelper.AreEqual(listboxSrc.HeightScale, listboxDest.HeightScale, info + ".HeightScale");
-            AssertHelper.AreEqual(listboxSrc.WidthScale, listboxDest.WidthScale, info + ".WidthScale");
-            AssertHelper.AreEqual(listboxSrc.IsLockAspectRatio, listboxDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
-            //===protection===//
-            AssertHelper.AreEqual(listboxSrc.IsLocked, listboxDest.IsLocked, info + ".IsLocked");
-            //===properties===//
-            AssertHelper.AreEqual(listboxSrc.Placement, listboxDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(listboxSrc.IsPrintable, listboxDest.IsPrintable, info + ".IsPrintable");
-            //===web===//
-            AssertHelper.AreEqual(listboxSrc.AlternativeText, listboxDest.AlternativeText, info + ".AlternativeText");
-            //===control===//
-            AssertHelper.AreEqual(listboxSrc.InputRange, listboxDest.InputRange, info + ".InputRange");
-            AssertHelper.AreEqual(listboxSrc.LinkedCell, listboxDest.LinkedCell, info + ".LinkedCell");
-            AssertHelper.AreEqual(listboxSrc.SelectionType, listboxDest.SelectionType, info + ".SelectionType");
-            AssertHelper.AreEqual(listboxSrc.Shadow, listboxDest.Shadow, info + ".Shadow");
-            //other
-            AssertHelper.AreEqual(listboxSrc.IsHidden, listboxDest.IsHidden, info + ".IsHidden");
-            AssertHelper.AreEqual(listboxSrc.IsGroup, listboxDest.IsGroup, info + ".IsGroup");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            AssertHelper.AreEqual(listboxSrc.ItemCount, listboxDest.ItemCount, info + ".ItemCount");
-            AssertHelper.AreEqual(listboxSrc.SelectedIndex, listboxDest.SelectedIndex, info + ".SelectedIndex");
+namespace AsposeCellsExamples
+{
+    public class ListBoxPropertyShadowDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate list items
+            worksheet.Cells["A1"].PutValue("Option 1");
+            worksheet.Cells["A2"].PutValue("Option 2");
+            worksheet.Cells["A3"].PutValue("Option 3");
+
+            // Create listbox and set core properties
+            ListBox listBox = worksheet.Shapes.AddListBox(2, 1, 5, 1, 100, 150);
+            listBox.InputRange = "A1:A3";
+            listBox.LinkedCell = "B1";
+            
+            // Set shadow property
+            listBox.Shadow = true;
+
+            // Save and reload to verify
+            workbook.Save("ListBoxShadowDemo.xlsx");
+            
+            Workbook loadedWorkbook = new Workbook("ListBoxShadowDemo.xlsx");
+            ListBox loadedBox = (ListBox)loadedWorkbook.Worksheets[0].Shapes[0];
+            
+            Console.WriteLine("Shadow enabled: " + loadedBox.Shadow);
         }
+    }
+}
 ```
 
 ### See Also

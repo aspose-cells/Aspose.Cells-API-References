@@ -17,18 +17,26 @@ class FolderFontSource extends FontSourceBase;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(FontSourceBase)](#constructor-fontsourcebase-)| Constructs from a parent object convertible to this. |
 | [constructor(string, boolean)](#constructor-string-boolean-)| Ctor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [folderPath](#folderPath--)| string | Readonly. Path to fonts folder. |
+| [scanSubFolders](#scanSubFolders--)| boolean | Readonly. Determines whether or not to scan the subfolders. |
+| [type](#type--)| FontSourceType | Readonly. Returns the type of the font source. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFolderPath()](#getFolderPath--)| Path to fonts folder. |
-| [getScanSubFolders()](#getScanSubFolders--)| Determines whether or not to scan the subfolders. |
-| [getType()](#getType--)| Returns the type of the font source. |
+| [getFolderPath()](#getFolderPath--)| <b>@deprecated.</b> Please use the 'folderPath' property instead. Path to fonts folder. |
+| [getScanSubFolders()](#getScanSubFolders--)| <b>@deprecated.</b> Please use the 'scanSubFolders' property instead. Determines whether or not to scan the subfolders. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Returns the type of the font source. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -59,9 +67,36 @@ constructor(folderPath: string, scanSubfolders: boolean);
 | folderPath | string | path to fonts folder |
 | scanSubfolders | boolean | Determines whether or not to scan subfolders. |
 
+### folderPath {#folderPath--}
+
+Readonly. Path to fonts folder.
+
+```javascript
+folderPath : string;
+```
+
+
+### scanSubFolders {#scanSubFolders--}
+
+Readonly. Determines whether or not to scan the subfolders.
+
+```javascript
+scanSubFolders : boolean;
+```
+
+
+### type {#type--}
+
+Readonly. Returns the type of the font source.
+
+```javascript
+type : FontSourceType;
+```
+
+
 ### getFolderPath() {#getFolderPath--}
 
-Path to fonts folder.
+<b>@deprecated.</b> Please use the 'folderPath' property instead. Path to fonts folder.
 
 ```javascript
 getFolderPath() : string;
@@ -70,7 +105,7 @@ getFolderPath() : string;
 
 ### getScanSubFolders() {#getScanSubFolders--}
 
-Determines whether or not to scan the subfolders.
+<b>@deprecated.</b> Please use the 'scanSubFolders' property instead. Determines whether or not to scan the subfolders.
 
 ```javascript
 getScanSubFolders() : boolean;
@@ -79,7 +114,7 @@ getScanSubFolders() : boolean;
 
 ### getType() {#getType--}
 
-Returns the type of the font source.
+<b>@deprecated.</b> Please use the 'type' property instead. Returns the type of the font source.
 
 ```javascript
 getType() : FontSourceType;

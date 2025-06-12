@@ -16,30 +16,50 @@ public bool CheckExcelRestriction { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.CheckExcelRestriction = false;
-public void SaveOptions_Property_CheckExcelRestriction()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Workbook workbook = new Workbook();
-    workbook.Settings.CheckExcelRestriction = false;
+    public class SaveOptionsPropertyCheckExcelRestrictionDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Disable Excel restriction checking
+            workbook.Settings.CheckExcelRestriction = false;
 
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    string str = Repeat("x",32767) + " Testing if it works or not";
-    cells["A1"].PutValue(str);
-    Assert.AreEqual(str, cells["A1"].StringValue);
-          
+            // Access first worksheet and cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Create a string longer than Excel's normal limit
+            string longString = new string('x', 32767) + " Testing Excel restriction";
+            
+            // Put the long string in cell A1
+            cells["A1"].PutValue(longString);
 
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.CheckExcelRestriction = false;
+            // Configure save options to bypass restrictions
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.CheckExcelRestriction = false;
 
-    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+            // Save the workbook
+            workbook.Save("output_without_restrictions.xlsx", saveOptions);
 
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.CheckExcelRestriction = false;
-    workbook = new Workbook(Constants.destPath + "example.xlsx", loadOptions);
-    Assert.AreEqual(str, workbook.Worksheets[0].Cells["A1"].StringValue);
-    Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].StringValue.Length > short.MaxValue);
+            // Load the saved file with restrictions disabled
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.CheckExcelRestriction = false;
+            Workbook loadedWorkbook = new Workbook("output_without_restrictions.xlsx", loadOptions);
+
+            // Verify the long string was preserved
+            string loadedValue = loadedWorkbook.Worksheets[0].Cells["A1"].StringValue;
+            Console.WriteLine("Loaded string length: " + loadedValue.Length);
+            Console.WriteLine("First 50 chars: " + loadedValue.Substring(0, 50));
+            Console.WriteLine("Last 50 chars: " + loadedValue.Substring(loadedValue.Length - 50));
+        }
+    }
 }
 ```
 

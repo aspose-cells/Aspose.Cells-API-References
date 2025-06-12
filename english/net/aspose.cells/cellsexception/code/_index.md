@@ -16,15 +16,30 @@ public ExceptionType Code { get; }
 ### Examples
 
 ```csharp
-// Called: sb.Append(e.Code);
-public static void CellsException_Property_Code(CellsException e, StringBuilder sb)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsExceptionPropertyCodeDemo
+    {
+        public static void Run()
         {
-            sb.Append("CellsException[");
-            sb.Append(e.Code);
-            sb.Append(": ");
-            sb.Append(e.Message);
-            sb.Append(']');
+            try
+            {
+                // Create a workbook and try to access a non-existent worksheet
+                Workbook workbook = new Workbook();
+                Worksheet worksheet = workbook.Worksheets["NonExistentSheet"];
+            }
+            catch (CellsException e)
+            {
+                // Demonstrate usage of the Code property
+                Console.WriteLine($"Error Code: {e.Code}");
+                Console.WriteLine($"Error Message: {e.Message}");
+            }
         }
+    }
+}
 ```
 
 ### See Also

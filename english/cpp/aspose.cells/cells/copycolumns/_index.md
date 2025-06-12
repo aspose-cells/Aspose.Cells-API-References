@@ -4,7 +4,7 @@ linktitle: CopyColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::CopyColumns method. Copies data and formats of a whole column in C++.'
 type: docs
-weight: 9300
+weight: 9400
 url: /cpp/aspose.cells/cells/copycolumns/
 ---
 ## Cells::CopyColumns(const Cells\&, int32_t, int32_t, int32_t, const PasteOptions\&) method

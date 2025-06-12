@@ -16,41 +16,37 @@ public int DropDownLines { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cboxSrc.DropDownLines, cboxDest.DropDownLines, info + ".DropDownLines");
-public static void ComboBox_Property_DropDownLines(ComboBox cboxSrc, ComboBox cboxDest, string info)
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxPropertyDropDownLinesDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(cboxSrc, cboxDest, info))
-            {
-                return;
-            }
-            //========================need be supported in excel 2003 format=======================//
-            AssertHelper.AreEqual(cboxSrc.MsoDrawingType, cboxDest.MsoDrawingType, info + ".MsoDrawingType");
-            AssertHelper.AreEqual(cboxSrc.UpperLeftRow, cboxDest.UpperLeftRow, info + ".UpperLeftRow");
-            AssertHelper.AreEqual(cboxSrc.UpperLeftColumn, cboxDest.UpperLeftColumn, info + ".UpperLeftColumn");
-            AssertHelper.AreEqual(cboxSrc.LowerRightRow, cboxDest.LowerRightRow, info + ".LowerRightRow");
-            AssertHelper.AreEqual(cboxSrc.LowerRightColumn, cboxDest.LowerRightColumn, info + ".LowerRightColumn");     
-            //size
-            AssertHelper.AreEqual(cboxSrc.Height, cboxDest.Height, info+".Height");
-            AssertHelper.AreEqual(cboxSrc.Width, cboxDest.Width, info+".Width");
-            AssertHelper.AreEqual(cboxSrc.HeightScale, cboxDest.HeightScale, info + ".HeightScale");
-            AssertHelper.AreEqual(cboxSrc.WidthScale, cboxDest.WidthScale, info + ".WidthScale");
-            AssertHelper.AreEqual(cboxSrc.IsLockAspectRatio, cboxDest.IsLockAspectRatio, info+".IsLockAspectRatio");
-            //protection
-            AssertHelper.AreEqual(cboxSrc.IsLocked, cboxDest.IsLocked, info + ".IsLocked");
-            //properties
-            AssertHelper.AreEqual(cboxSrc.Placement, cboxDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(cboxSrc.IsPrintable, cboxDest.IsPrintable, info + ".IsPrintable");
-            //web
-            AssertHelper.AreEqual(cboxSrc.AlternativeText, cboxDest.AlternativeText, info + ".AlternativeText");
-            //control
-            AssertHelper.AreEqual(cboxSrc.InputRange, cboxDest.InputRange, info + ".InputRange");
-            AssertHelper.AreEqual(cboxSrc.LinkedCell, cboxDest.LinkedCell, info + ".LinkedCell");
-            AssertHelper.AreEqual(cboxSrc.DropDownLines, cboxDest.DropDownLines, info + ".DropDownLines");
-            AssertHelper.AreEqual(cboxSrc.Shadow, cboxDest.Shadow, info + ".Shadow");
-            //other
-            AssertHelper.AreEqual(cboxSrc.IsHidden, cboxDest.IsHidden, info + ".IsHidden");
-            AssertHelper.AreEqual(cboxSrc.IsGroup, cboxDest.IsGroup, info + ".IsGroup");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a ComboBox with correct parameters
+            ComboBox comboBox = worksheet.Shapes.AddComboBox(0, 0, 0, 0, 100, 100);
+            comboBox.DropDownLines = 5;
+            
+            // Populate worksheet cells with items
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+            worksheet.Cells["A4"].PutValue("Item 4");
+            worksheet.Cells["A5"].PutValue("Item 5");
+            worksheet.Cells["A6"].PutValue("Item 6");
+
+            // Link combo box to cell values
+            comboBox.InputRange = "A1:A6";
+
+            workbook.Save("ComboBoxDropDownLinesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

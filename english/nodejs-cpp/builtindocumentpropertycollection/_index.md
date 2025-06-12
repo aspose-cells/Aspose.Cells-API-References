@@ -19,9 +19,43 @@ Provides access to [DocumentProperty](../documentproperty/) objects by their nam
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(DocumentPropertyCollection)](#constructor-documentpropertycollection-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [language](#language--)| string | Gets or sets the document's language. |
+| [author](#author--)| string | Gets or sets the name of the document's author. |
+| [comments](#comments--)| string | Gets or sets the document comments. |
+| [category](#category--)| string | Gets or sets the category of the document. |
+| [contentType](#contentType--)| string | Gets or sets the content type of the document. |
+| [contentStatus](#contentStatus--)| string | Gets or sets the content status of the document. |
+| [company](#company--)| string | Gets or sets the company property. |
+| [hyperlinkBase](#hyperlinkBase--)| string | Gets or sets the hyperlinkbase property. |
+| [createdTime](#createdTime--)| Date | Gets or sets date of the document creation in local timezone. |
+| [createdUniversalTime](#createdUniversalTime--)| Date | Gets or sets the Universal time of the document creation. |
+| [keywords](#keywords--)| string | Gets or sets the document keywords. |
+| [lastPrinted](#lastPrinted--)| Date | Gets or sets the date when the document was last printed in local timezone. |
+| [lastPrintedUniversalTime](#lastPrintedUniversalTime--)| Date | Gets or sets the Universal time when the document was last printed. |
+| [lastSavedBy](#lastSavedBy--)| string | Gets or sets the name of the last author. |
+| [lastSavedTime](#lastSavedTime--)| Date | Gets or sets the time of the last save in local timezone. |
+| [lastSavedUniversalTime](#lastSavedUniversalTime--)| Date | Gets or sets the universal time of the last save. |
+| [manager](#manager--)| string | Gets or sets the manager property. |
+| [nameOfApplication](#nameOfApplication--)| string | Gets or sets the name of the application. |
+| [pages](#pages--)| number | Represents an estimate of the number of pages in the document. |
+| [revisionNumber](#revisionNumber--)| string | Gets or sets the document revision number. |
+| [subject](#subject--)| string | Gets or sets the subject of the document. |
+| [template](#template--)| string | Gets or sets the informational name of the document template. |
+| [title](#title--)| string | Gets or sets the title of the document. |
+| [totalEditingTime](#totalEditingTime--)| number | Gets or sets the total editing time in minutes. |
+| [version](#version--)| string | Represents the version number of the application that created the document. |
+| [documentVersion](#documentVersion--)| string | Represents the version of the file. |
+| [scaleCrop](#scaleCrop--)| boolean | Indicates the display mode of the document thumbnail. |
+| [linksUpToDate](#linksUpToDate--)| boolean | Indicates whether hyperlinks in a document are up-to-date. |
+| [words](#words--)| number | Represents an estimate of the number of words in the document. |
 
 ## Methods
 
@@ -29,65 +63,65 @@ Provides access to [DocumentProperty](../documentproperty/) objects by their nam
 | --- | --- |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
-| [getLanguage()](#getLanguage--)| Gets or sets the document's language. |
-| [setLanguage(string)](#setLanguage-string-)| Gets or sets the document's language. |
-| [getAuthor()](#getAuthor--)| Gets or sets the name of the document's author. |
-| [setAuthor(string)](#setAuthor-string-)| Gets or sets the name of the document's author. |
-| [getComments()](#getComments--)| Gets or sets the document comments. |
-| [setComments(string)](#setComments-string-)| Gets or sets the document comments. |
-| [getCategory()](#getCategory--)| Gets or sets the category of the document. |
-| [setCategory(string)](#setCategory-string-)| Gets or sets the category of the document. |
-| [getContentType()](#getContentType--)| Gets or sets the content type of the document. |
-| [setContentType(string)](#setContentType-string-)| Gets or sets the content type of the document. |
-| [getContentStatus()](#getContentStatus--)| Gets or sets the content status of the document. |
-| [setContentStatus(string)](#setContentStatus-string-)| Gets or sets the content status of the document. |
-| [getCompany()](#getCompany--)| Gets or sets the company property. |
-| [setCompany(string)](#setCompany-string-)| Gets or sets the company property. |
-| [getHyperlinkBase()](#getHyperlinkBase--)| Gets or sets the hyperlinkbase property. |
-| [setHyperlinkBase(string)](#setHyperlinkBase-string-)| Gets or sets the hyperlinkbase property. |
-| [getCreatedTime()](#getCreatedTime--)| Gets or sets date of the document creation in local timezone. |
-| [setCreatedTime(Date)](#setCreatedTime-date-)| Gets or sets date of the document creation in local timezone. |
-| [getCreatedUniversalTime()](#getCreatedUniversalTime--)| Gets or sets the Universal time of the document creation. |
-| [setCreatedUniversalTime(Date)](#setCreatedUniversalTime-date-)| Gets or sets the Universal time of the document creation. |
-| [getKeywords()](#getKeywords--)| Gets or sets the document keywords. |
-| [setKeywords(string)](#setKeywords-string-)| Gets or sets the document keywords. |
-| [getLastPrinted()](#getLastPrinted--)| Gets or sets the date when the document was last printed in local timezone. |
-| [setLastPrinted(Date)](#setLastPrinted-date-)| Gets or sets the date when the document was last printed in local timezone. |
-| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--)| Gets or sets the Universal time when the document was last printed. |
-| [setLastPrintedUniversalTime(Date)](#setLastPrintedUniversalTime-date-)| Gets or sets the Universal time when the document was last printed. |
-| [getLastSavedBy()](#getLastSavedBy--)| Gets or sets the name of the last author. |
-| [setLastSavedBy(string)](#setLastSavedBy-string-)| Gets or sets the name of the last author. |
-| [getLastSavedTime()](#getLastSavedTime--)| Gets or sets the time of the last save in local timezone. |
-| [setLastSavedTime(Date)](#setLastSavedTime-date-)| Gets or sets the time of the last save in local timezone. |
-| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--)| Gets or sets the universal time of the last save. |
-| [setLastSavedUniversalTime(Date)](#setLastSavedUniversalTime-date-)| Gets or sets the universal time of the last save. |
-| [getManager()](#getManager--)| Gets or sets the manager property. |
-| [setManager(string)](#setManager-string-)| Gets or sets the manager property. |
-| [getNameOfApplication()](#getNameOfApplication--)| Gets or sets the name of the application. |
-| [setNameOfApplication(string)](#setNameOfApplication-string-)| Gets or sets the name of the application. |
-| [getPages()](#getPages--)| Represents an estimate of the number of pages in the document. |
-| [setPages(number)](#setPages-number-)| Represents an estimate of the number of pages in the document. |
-| [getRevisionNumber()](#getRevisionNumber--)| Gets or sets the document revision number. |
-| [setRevisionNumber(string)](#setRevisionNumber-string-)| Gets or sets the document revision number. |
-| [getSubject()](#getSubject--)| Gets or sets the subject of the document. |
-| [setSubject(string)](#setSubject-string-)| Gets or sets the subject of the document. |
-| [getTemplate()](#getTemplate--)| Gets or sets the informational name of the document template. |
-| [setTemplate(string)](#setTemplate-string-)| Gets or sets the informational name of the document template. |
-| [getTitle()](#getTitle--)| Gets or sets the title of the document. |
-| [setTitle(string)](#setTitle-string-)| Gets or sets the title of the document. |
-| [getTotalEditingTime()](#getTotalEditingTime--)| Gets or sets the total editing time in minutes. |
-| [setTotalEditingTime(number)](#setTotalEditingTime-number-)| Gets or sets the total editing time in minutes. |
-| [getVersion()](#getVersion--)| Represents the version number of the application that created the document. |
-| [setVersion(string)](#setVersion-string-)| Represents the version number of the application that created the document. |
-| [getDocumentVersion()](#getDocumentVersion--)| Represents the version of the file. |
-| [setDocumentVersion(string)](#setDocumentVersion-string-)| Represents the version of the file. |
-| [getScaleCrop()](#getScaleCrop--)| Indicates the display mode of the document thumbnail. |
-| [setScaleCrop(boolean)](#setScaleCrop-boolean-)| Indicates the display mode of the document thumbnail. |
-| [getLinksUpToDate()](#getLinksUpToDate--)| Indicates whether hyperlinks in a document are up-to-date. |
-| [setLinksUpToDate(boolean)](#setLinksUpToDate-boolean-)| Indicates whether hyperlinks in a document are up-to-date. |
-| [getWords()](#getWords--)| Represents an estimate of the number of words in the document. |
-| [setWords(number)](#setWords-number-)| Represents an estimate of the number of words in the document. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getLanguage()](#getLanguage--)| <b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language. |
+| [setLanguage(string)](#setLanguage-string-)| <b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language. |
+| [getAuthor()](#getAuthor--)| <b>@deprecated.</b> Please use the 'author' property instead. Gets or sets the name of the document's author. |
+| [setAuthor(string)](#setAuthor-string-)| <b>@deprecated.</b> Please use the 'author' property instead. Gets or sets the name of the document's author. |
+| [getComments()](#getComments--)| <b>@deprecated.</b> Please use the 'comments' property instead. Gets or sets the document comments. |
+| [setComments(string)](#setComments-string-)| <b>@deprecated.</b> Please use the 'comments' property instead. Gets or sets the document comments. |
+| [getCategory()](#getCategory--)| <b>@deprecated.</b> Please use the 'category' property instead. Gets or sets the category of the document. |
+| [setCategory(string)](#setCategory-string-)| <b>@deprecated.</b> Please use the 'category' property instead. Gets or sets the category of the document. |
+| [getContentType()](#getContentType--)| <b>@deprecated.</b> Please use the 'contentType' property instead. Gets or sets the content type of the document. |
+| [setContentType(string)](#setContentType-string-)| <b>@deprecated.</b> Please use the 'contentType' property instead. Gets or sets the content type of the document. |
+| [getContentStatus()](#getContentStatus--)| <b>@deprecated.</b> Please use the 'contentStatus' property instead. Gets or sets the content status of the document. |
+| [setContentStatus(string)](#setContentStatus-string-)| <b>@deprecated.</b> Please use the 'contentStatus' property instead. Gets or sets the content status of the document. |
+| [getCompany()](#getCompany--)| <b>@deprecated.</b> Please use the 'company' property instead. Gets or sets the company property. |
+| [setCompany(string)](#setCompany-string-)| <b>@deprecated.</b> Please use the 'company' property instead. Gets or sets the company property. |
+| [getHyperlinkBase()](#getHyperlinkBase--)| <b>@deprecated.</b> Please use the 'hyperlinkBase' property instead. Gets or sets the hyperlinkbase property. |
+| [setHyperlinkBase(string)](#setHyperlinkBase-string-)| <b>@deprecated.</b> Please use the 'hyperlinkBase' property instead. Gets or sets the hyperlinkbase property. |
+| [getCreatedTime()](#getCreatedTime--)| <b>@deprecated.</b> Please use the 'createdTime' property instead. Gets or sets date of the document creation in local timezone. |
+| [setCreatedTime(Date)](#setCreatedTime-date-)| <b>@deprecated.</b> Please use the 'createdTime' property instead. Gets or sets date of the document creation in local timezone. |
+| [getCreatedUniversalTime()](#getCreatedUniversalTime--)| <b>@deprecated.</b> Please use the 'createdUniversalTime' property instead. Gets or sets the Universal time of the document creation. |
+| [setCreatedUniversalTime(Date)](#setCreatedUniversalTime-date-)| <b>@deprecated.</b> Please use the 'createdUniversalTime' property instead. Gets or sets the Universal time of the document creation. |
+| [getKeywords()](#getKeywords--)| <b>@deprecated.</b> Please use the 'keywords' property instead. Gets or sets the document keywords. |
+| [setKeywords(string)](#setKeywords-string-)| <b>@deprecated.</b> Please use the 'keywords' property instead. Gets or sets the document keywords. |
+| [getLastPrinted()](#getLastPrinted--)| <b>@deprecated.</b> Please use the 'lastPrinted' property instead. Gets or sets the date when the document was last printed in local timezone. |
+| [setLastPrinted(Date)](#setLastPrinted-date-)| <b>@deprecated.</b> Please use the 'lastPrinted' property instead. Gets or sets the date when the document was last printed in local timezone. |
+| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--)| <b>@deprecated.</b> Please use the 'lastPrintedUniversalTime' property instead. Gets or sets the Universal time when the document was last printed. |
+| [setLastPrintedUniversalTime(Date)](#setLastPrintedUniversalTime-date-)| <b>@deprecated.</b> Please use the 'lastPrintedUniversalTime' property instead. Gets or sets the Universal time when the document was last printed. |
+| [getLastSavedBy()](#getLastSavedBy--)| <b>@deprecated.</b> Please use the 'lastSavedBy' property instead. Gets or sets the name of the last author. |
+| [setLastSavedBy(string)](#setLastSavedBy-string-)| <b>@deprecated.</b> Please use the 'lastSavedBy' property instead. Gets or sets the name of the last author. |
+| [getLastSavedTime()](#getLastSavedTime--)| <b>@deprecated.</b> Please use the 'lastSavedTime' property instead. Gets or sets the time of the last save in local timezone. |
+| [setLastSavedTime(Date)](#setLastSavedTime-date-)| <b>@deprecated.</b> Please use the 'lastSavedTime' property instead. Gets or sets the time of the last save in local timezone. |
+| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--)| <b>@deprecated.</b> Please use the 'lastSavedUniversalTime' property instead. Gets or sets the universal time of the last save. |
+| [setLastSavedUniversalTime(Date)](#setLastSavedUniversalTime-date-)| <b>@deprecated.</b> Please use the 'lastSavedUniversalTime' property instead. Gets or sets the universal time of the last save. |
+| [getManager()](#getManager--)| <b>@deprecated.</b> Please use the 'manager' property instead. Gets or sets the manager property. |
+| [setManager(string)](#setManager-string-)| <b>@deprecated.</b> Please use the 'manager' property instead. Gets or sets the manager property. |
+| [getNameOfApplication()](#getNameOfApplication--)| <b>@deprecated.</b> Please use the 'nameOfApplication' property instead. Gets or sets the name of the application. |
+| [setNameOfApplication(string)](#setNameOfApplication-string-)| <b>@deprecated.</b> Please use the 'nameOfApplication' property instead. Gets or sets the name of the application. |
+| [getPages()](#getPages--)| <b>@deprecated.</b> Please use the 'pages' property instead. Represents an estimate of the number of pages in the document. |
+| [setPages(number)](#setPages-number-)| <b>@deprecated.</b> Please use the 'pages' property instead. Represents an estimate of the number of pages in the document. |
+| [getRevisionNumber()](#getRevisionNumber--)| <b>@deprecated.</b> Please use the 'revisionNumber' property instead. Gets or sets the document revision number. |
+| [setRevisionNumber(string)](#setRevisionNumber-string-)| <b>@deprecated.</b> Please use the 'revisionNumber' property instead. Gets or sets the document revision number. |
+| [getSubject()](#getSubject--)| <b>@deprecated.</b> Please use the 'subject' property instead. Gets or sets the subject of the document. |
+| [setSubject(string)](#setSubject-string-)| <b>@deprecated.</b> Please use the 'subject' property instead. Gets or sets the subject of the document. |
+| [getTemplate()](#getTemplate--)| <b>@deprecated.</b> Please use the 'template' property instead. Gets or sets the informational name of the document template. |
+| [setTemplate(string)](#setTemplate-string-)| <b>@deprecated.</b> Please use the 'template' property instead. Gets or sets the informational name of the document template. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of the document. |
+| [setTitle(string)](#setTitle-string-)| <b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of the document. |
+| [getTotalEditingTime()](#getTotalEditingTime--)| <b>@deprecated.</b> Please use the 'totalEditingTime' property instead. Gets or sets the total editing time in minutes. |
+| [setTotalEditingTime(number)](#setTotalEditingTime-number-)| <b>@deprecated.</b> Please use the 'totalEditingTime' property instead. Gets or sets the total editing time in minutes. |
+| [getVersion()](#getVersion--)| <b>@deprecated.</b> Please use the 'version' property instead. Represents the version number of the application that created the document. |
+| [setVersion(string)](#setVersion-string-)| <b>@deprecated.</b> Please use the 'version' property instead. Represents the version number of the application that created the document. |
+| [getDocumentVersion()](#getDocumentVersion--)| <b>@deprecated.</b> Please use the 'documentVersion' property instead. Represents the version of the file. |
+| [setDocumentVersion(string)](#setDocumentVersion-string-)| <b>@deprecated.</b> Please use the 'documentVersion' property instead. Represents the version of the file. |
+| [getScaleCrop()](#getScaleCrop--)| <b>@deprecated.</b> Please use the 'scaleCrop' property instead. Indicates the display mode of the document thumbnail. |
+| [setScaleCrop(boolean)](#setScaleCrop-boolean-)| <b>@deprecated.</b> Please use the 'scaleCrop' property instead. Indicates the display mode of the document thumbnail. |
+| [getLinksUpToDate()](#getLinksUpToDate--)| <b>@deprecated.</b> Please use the 'linksUpToDate' property instead. Indicates whether hyperlinks in a document are up-to-date. |
+| [setLinksUpToDate(boolean)](#setLinksUpToDate-boolean-)| <b>@deprecated.</b> Please use the 'linksUpToDate' property instead. Indicates whether hyperlinks in a document are up-to-date. |
+| [getWords()](#getWords--)| <b>@deprecated.</b> Please use the 'words' property instead. Represents an estimate of the number of words in the document. |
+| [setWords(number)](#setWords-number-)| <b>@deprecated.</b> Please use the 'words' property instead. Represents an estimate of the number of words in the document. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
@@ -107,6 +141,299 @@ constructor(obj: DocumentPropertyCollection);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | DocumentPropertyCollection | The parent object. |
+
+### language {#language--}
+
+Gets or sets the document's language.
+
+```javascript
+language : string;
+```
+
+
+### author {#author--}
+
+Gets or sets the name of the document's author.
+
+```javascript
+author : string;
+```
+
+
+### comments {#comments--}
+
+Gets or sets the document comments.
+
+```javascript
+comments : string;
+```
+
+
+### category {#category--}
+
+Gets or sets the category of the document.
+
+```javascript
+category : string;
+```
+
+
+### contentType {#contentType--}
+
+Gets or sets the content type of the document.
+
+```javascript
+contentType : string;
+```
+
+
+### contentStatus {#contentStatus--}
+
+Gets or sets the content status of the document.
+
+```javascript
+contentStatus : string;
+```
+
+
+### company {#company--}
+
+Gets or sets the company property.
+
+```javascript
+company : string;
+```
+
+
+### hyperlinkBase {#hyperlinkBase--}
+
+Gets or sets the hyperlinkbase property.
+
+```javascript
+hyperlinkBase : string;
+```
+
+
+### createdTime {#createdTime--}
+
+Gets or sets date of the document creation in local timezone.
+
+```javascript
+createdTime : Date;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### createdUniversalTime {#createdUniversalTime--}
+
+Gets or sets the Universal time of the document creation.
+
+```javascript
+createdUniversalTime : Date;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### keywords {#keywords--}
+
+Gets or sets the document keywords.
+
+```javascript
+keywords : string;
+```
+
+
+### lastPrinted {#lastPrinted--}
+
+Gets or sets the date when the document was last printed in local timezone.
+
+```javascript
+lastPrinted : Date;
+```
+
+
+**Remarks**
+
+If the document was never printed, this property will return DateTime.MinValue.</p> <p>Aspose.Cells does not update this property when you modify the document.
+
+### lastPrintedUniversalTime {#lastPrintedUniversalTime--}
+
+Gets or sets the Universal time when the document was last printed.
+
+```javascript
+lastPrintedUniversalTime : Date;
+```
+
+
+### lastSavedBy {#lastSavedBy--}
+
+Gets or sets the name of the last author.
+
+```javascript
+lastSavedBy : string;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### lastSavedTime {#lastSavedTime--}
+
+Gets or sets the time of the last save in local timezone.
+
+```javascript
+lastSavedTime : Date;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### lastSavedUniversalTime {#lastSavedUniversalTime--}
+
+Gets or sets the universal time of the last save.
+
+```javascript
+lastSavedUniversalTime : Date;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### manager {#manager--}
+
+Gets or sets the manager property.
+
+```javascript
+manager : string;
+```
+
+
+### nameOfApplication {#nameOfApplication--}
+
+Gets or sets the name of the application.
+
+```javascript
+nameOfApplication : string;
+```
+
+
+### pages {#pages--}
+
+Represents an estimate of the number of pages in the document.
+
+```javascript
+pages : number;
+```
+
+
+### revisionNumber {#revisionNumber--}
+
+Gets or sets the document revision number.
+
+```javascript
+revisionNumber : string;
+```
+
+
+**Remarks**
+
+Aspose.Cells does not update this property when you modify the document.
+
+### subject {#subject--}
+
+Gets or sets the subject of the document.
+
+```javascript
+subject : string;
+```
+
+
+### template {#template--}
+
+Gets or sets the informational name of the document template.
+
+```javascript
+template : string;
+```
+
+
+### title {#title--}
+
+Gets or sets the title of the document.
+
+```javascript
+title : string;
+```
+
+
+### totalEditingTime {#totalEditingTime--}
+
+Gets or sets the total editing time in minutes.
+
+```javascript
+totalEditingTime : number;
+```
+
+
+### version {#version--}
+
+Represents the version number of the application that created the document.
+
+```javascript
+version : string;
+```
+
+
+**Remarks**
+
+It's format is "00.0000",for example : 12.0000
+
+### documentVersion {#documentVersion--}
+
+Represents the version of the file.
+
+```javascript
+documentVersion : string;
+```
+
+
+### scaleCrop {#scaleCrop--}
+
+Indicates the display mode of the document thumbnail.
+
+```javascript
+scaleCrop : boolean;
+```
+
+
+### linksUpToDate {#linksUpToDate--}
+
+Indicates whether hyperlinks in a document are up-to-date.
+
+```javascript
+linksUpToDate : boolean;
+```
+
+
+### words {#words--}
+
+Represents an estimate of the number of words in the document.
+
+```javascript
+words : number;
+```
+
 
 ### get(string) {#get-string-}
 
@@ -148,7 +475,7 @@ get(index: number) : DocumentProperty;
 
 ### getLanguage() {#getLanguage--}
 
-Gets or sets the document's language.
+<b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language.
 
 ```javascript
 getLanguage() : string;
@@ -157,7 +484,7 @@ getLanguage() : string;
 
 ### setLanguage(string) {#setLanguage-string-}
 
-Gets or sets the document's language.
+<b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language.
 
 ```javascript
 setLanguage(value: string) : void;
@@ -170,7 +497,7 @@ setLanguage(value: string) : void;
 
 ### getAuthor() {#getAuthor--}
 
-Gets or sets the name of the document's author.
+<b>@deprecated.</b> Please use the 'author' property instead. Gets or sets the name of the document's author.
 
 ```javascript
 getAuthor() : string;
@@ -179,7 +506,7 @@ getAuthor() : string;
 
 ### setAuthor(string) {#setAuthor-string-}
 
-Gets or sets the name of the document's author.
+<b>@deprecated.</b> Please use the 'author' property instead. Gets or sets the name of the document's author.
 
 ```javascript
 setAuthor(value: string) : void;
@@ -192,7 +519,7 @@ setAuthor(value: string) : void;
 
 ### getComments() {#getComments--}
 
-Gets or sets the document comments.
+<b>@deprecated.</b> Please use the 'comments' property instead. Gets or sets the document comments.
 
 ```javascript
 getComments() : string;
@@ -201,7 +528,7 @@ getComments() : string;
 
 ### setComments(string) {#setComments-string-}
 
-Gets or sets the document comments.
+<b>@deprecated.</b> Please use the 'comments' property instead. Gets or sets the document comments.
 
 ```javascript
 setComments(value: string) : void;
@@ -214,7 +541,7 @@ setComments(value: string) : void;
 
 ### getCategory() {#getCategory--}
 
-Gets or sets the category of the document.
+<b>@deprecated.</b> Please use the 'category' property instead. Gets or sets the category of the document.
 
 ```javascript
 getCategory() : string;
@@ -223,7 +550,7 @@ getCategory() : string;
 
 ### setCategory(string) {#setCategory-string-}
 
-Gets or sets the category of the document.
+<b>@deprecated.</b> Please use the 'category' property instead. Gets or sets the category of the document.
 
 ```javascript
 setCategory(value: string) : void;
@@ -236,7 +563,7 @@ setCategory(value: string) : void;
 
 ### getContentType() {#getContentType--}
 
-Gets or sets the content type of the document.
+<b>@deprecated.</b> Please use the 'contentType' property instead. Gets or sets the content type of the document.
 
 ```javascript
 getContentType() : string;
@@ -245,7 +572,7 @@ getContentType() : string;
 
 ### setContentType(string) {#setContentType-string-}
 
-Gets or sets the content type of the document.
+<b>@deprecated.</b> Please use the 'contentType' property instead. Gets or sets the content type of the document.
 
 ```javascript
 setContentType(value: string) : void;
@@ -258,7 +585,7 @@ setContentType(value: string) : void;
 
 ### getContentStatus() {#getContentStatus--}
 
-Gets or sets the content status of the document.
+<b>@deprecated.</b> Please use the 'contentStatus' property instead. Gets or sets the content status of the document.
 
 ```javascript
 getContentStatus() : string;
@@ -267,7 +594,7 @@ getContentStatus() : string;
 
 ### setContentStatus(string) {#setContentStatus-string-}
 
-Gets or sets the content status of the document.
+<b>@deprecated.</b> Please use the 'contentStatus' property instead. Gets or sets the content status of the document.
 
 ```javascript
 setContentStatus(value: string) : void;
@@ -280,7 +607,7 @@ setContentStatus(value: string) : void;
 
 ### getCompany() {#getCompany--}
 
-Gets or sets the company property.
+<b>@deprecated.</b> Please use the 'company' property instead. Gets or sets the company property.
 
 ```javascript
 getCompany() : string;
@@ -289,7 +616,7 @@ getCompany() : string;
 
 ### setCompany(string) {#setCompany-string-}
 
-Gets or sets the company property.
+<b>@deprecated.</b> Please use the 'company' property instead. Gets or sets the company property.
 
 ```javascript
 setCompany(value: string) : void;
@@ -302,7 +629,7 @@ setCompany(value: string) : void;
 
 ### getHyperlinkBase() {#getHyperlinkBase--}
 
-Gets or sets the hyperlinkbase property.
+<b>@deprecated.</b> Please use the 'hyperlinkBase' property instead. Gets or sets the hyperlinkbase property.
 
 ```javascript
 getHyperlinkBase() : string;
@@ -311,7 +638,7 @@ getHyperlinkBase() : string;
 
 ### setHyperlinkBase(string) {#setHyperlinkBase-string-}
 
-Gets or sets the hyperlinkbase property.
+<b>@deprecated.</b> Please use the 'hyperlinkBase' property instead. Gets or sets the hyperlinkbase property.
 
 ```javascript
 setHyperlinkBase(value: string) : void;
@@ -324,7 +651,7 @@ setHyperlinkBase(value: string) : void;
 
 ### getCreatedTime() {#getCreatedTime--}
 
-Gets or sets date of the document creation in local timezone.
+<b>@deprecated.</b> Please use the 'createdTime' property instead. Gets or sets date of the document creation in local timezone.
 
 ```javascript
 getCreatedTime() : Date;
@@ -337,7 +664,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setCreatedTime(Date) {#setCreatedTime-date-}
 
-Gets or sets date of the document creation in local timezone.
+<b>@deprecated.</b> Please use the 'createdTime' property instead. Gets or sets date of the document creation in local timezone.
 
 ```javascript
 setCreatedTime(value: Date) : void;
@@ -354,7 +681,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getCreatedUniversalTime() {#getCreatedUniversalTime--}
 
-Gets or sets the Universal time of the document creation.
+<b>@deprecated.</b> Please use the 'createdUniversalTime' property instead. Gets or sets the Universal time of the document creation.
 
 ```javascript
 getCreatedUniversalTime() : Date;
@@ -367,7 +694,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setCreatedUniversalTime(Date) {#setCreatedUniversalTime-date-}
 
-Gets or sets the Universal time of the document creation.
+<b>@deprecated.</b> Please use the 'createdUniversalTime' property instead. Gets or sets the Universal time of the document creation.
 
 ```javascript
 setCreatedUniversalTime(value: Date) : void;
@@ -384,7 +711,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getKeywords() {#getKeywords--}
 
-Gets or sets the document keywords.
+<b>@deprecated.</b> Please use the 'keywords' property instead. Gets or sets the document keywords.
 
 ```javascript
 getKeywords() : string;
@@ -393,7 +720,7 @@ getKeywords() : string;
 
 ### setKeywords(string) {#setKeywords-string-}
 
-Gets or sets the document keywords.
+<b>@deprecated.</b> Please use the 'keywords' property instead. Gets or sets the document keywords.
 
 ```javascript
 setKeywords(value: string) : void;
@@ -406,7 +733,7 @@ setKeywords(value: string) : void;
 
 ### getLastPrinted() {#getLastPrinted--}
 
-Gets or sets the date when the document was last printed in local timezone.
+<b>@deprecated.</b> Please use the 'lastPrinted' property instead. Gets or sets the date when the document was last printed in local timezone.
 
 ```javascript
 getLastPrinted() : Date;
@@ -419,7 +746,7 @@ If the document was never printed, this property will return DateTime.MinValue.<
 
 ### setLastPrinted(Date) {#setLastPrinted-date-}
 
-Gets or sets the date when the document was last printed in local timezone.
+<b>@deprecated.</b> Please use the 'lastPrinted' property instead. Gets or sets the date when the document was last printed in local timezone.
 
 ```javascript
 setLastPrinted(value: Date) : void;
@@ -436,7 +763,7 @@ If the document was never printed, this property will return DateTime.MinValue.<
 
 ### getLastPrintedUniversalTime() {#getLastPrintedUniversalTime--}
 
-Gets or sets the Universal time when the document was last printed.
+<b>@deprecated.</b> Please use the 'lastPrintedUniversalTime' property instead. Gets or sets the Universal time when the document was last printed.
 
 ```javascript
 getLastPrintedUniversalTime() : Date;
@@ -445,7 +772,7 @@ getLastPrintedUniversalTime() : Date;
 
 ### setLastPrintedUniversalTime(Date) {#setLastPrintedUniversalTime-date-}
 
-Gets or sets the Universal time when the document was last printed.
+<b>@deprecated.</b> Please use the 'lastPrintedUniversalTime' property instead. Gets or sets the Universal time when the document was last printed.
 
 ```javascript
 setLastPrintedUniversalTime(value: Date) : void;
@@ -458,7 +785,7 @@ setLastPrintedUniversalTime(value: Date) : void;
 
 ### getLastSavedBy() {#getLastSavedBy--}
 
-Gets or sets the name of the last author.
+<b>@deprecated.</b> Please use the 'lastSavedBy' property instead. Gets or sets the name of the last author.
 
 ```javascript
 getLastSavedBy() : string;
@@ -471,7 +798,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedBy(string) {#setLastSavedBy-string-}
 
-Gets or sets the name of the last author.
+<b>@deprecated.</b> Please use the 'lastSavedBy' property instead. Gets or sets the name of the last author.
 
 ```javascript
 setLastSavedBy(value: string) : void;
@@ -488,7 +815,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getLastSavedTime() {#getLastSavedTime--}
 
-Gets or sets the time of the last save in local timezone.
+<b>@deprecated.</b> Please use the 'lastSavedTime' property instead. Gets or sets the time of the last save in local timezone.
 
 ```javascript
 getLastSavedTime() : Date;
@@ -501,7 +828,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedTime(Date) {#setLastSavedTime-date-}
 
-Gets or sets the time of the last save in local timezone.
+<b>@deprecated.</b> Please use the 'lastSavedTime' property instead. Gets or sets the time of the last save in local timezone.
 
 ```javascript
 setLastSavedTime(value: Date) : void;
@@ -518,7 +845,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getLastSavedUniversalTime() {#getLastSavedUniversalTime--}
 
-Gets or sets the universal time of the last save.
+<b>@deprecated.</b> Please use the 'lastSavedUniversalTime' property instead. Gets or sets the universal time of the last save.
 
 ```javascript
 getLastSavedUniversalTime() : Date;
@@ -531,7 +858,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedUniversalTime(Date) {#setLastSavedUniversalTime-date-}
 
-Gets or sets the universal time of the last save.
+<b>@deprecated.</b> Please use the 'lastSavedUniversalTime' property instead. Gets or sets the universal time of the last save.
 
 ```javascript
 setLastSavedUniversalTime(value: Date) : void;
@@ -548,7 +875,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getManager() {#getManager--}
 
-Gets or sets the manager property.
+<b>@deprecated.</b> Please use the 'manager' property instead. Gets or sets the manager property.
 
 ```javascript
 getManager() : string;
@@ -557,7 +884,7 @@ getManager() : string;
 
 ### setManager(string) {#setManager-string-}
 
-Gets or sets the manager property.
+<b>@deprecated.</b> Please use the 'manager' property instead. Gets or sets the manager property.
 
 ```javascript
 setManager(value: string) : void;
@@ -570,7 +897,7 @@ setManager(value: string) : void;
 
 ### getNameOfApplication() {#getNameOfApplication--}
 
-Gets or sets the name of the application.
+<b>@deprecated.</b> Please use the 'nameOfApplication' property instead. Gets or sets the name of the application.
 
 ```javascript
 getNameOfApplication() : string;
@@ -579,7 +906,7 @@ getNameOfApplication() : string;
 
 ### setNameOfApplication(string) {#setNameOfApplication-string-}
 
-Gets or sets the name of the application.
+<b>@deprecated.</b> Please use the 'nameOfApplication' property instead. Gets or sets the name of the application.
 
 ```javascript
 setNameOfApplication(value: string) : void;
@@ -592,7 +919,7 @@ setNameOfApplication(value: string) : void;
 
 ### getPages() {#getPages--}
 
-Represents an estimate of the number of pages in the document.
+<b>@deprecated.</b> Please use the 'pages' property instead. Represents an estimate of the number of pages in the document.
 
 ```javascript
 getPages() : number;
@@ -601,7 +928,7 @@ getPages() : number;
 
 ### setPages(number) {#setPages-number-}
 
-Represents an estimate of the number of pages in the document.
+<b>@deprecated.</b> Please use the 'pages' property instead. Represents an estimate of the number of pages in the document.
 
 ```javascript
 setPages(value: number) : void;
@@ -614,7 +941,7 @@ setPages(value: number) : void;
 
 ### getRevisionNumber() {#getRevisionNumber--}
 
-Gets or sets the document revision number.
+<b>@deprecated.</b> Please use the 'revisionNumber' property instead. Gets or sets the document revision number.
 
 ```javascript
 getRevisionNumber() : string;
@@ -627,7 +954,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### setRevisionNumber(string) {#setRevisionNumber-string-}
 
-Gets or sets the document revision number.
+<b>@deprecated.</b> Please use the 'revisionNumber' property instead. Gets or sets the document revision number.
 
 ```javascript
 setRevisionNumber(value: string) : void;
@@ -644,7 +971,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ### getSubject() {#getSubject--}
 
-Gets or sets the subject of the document.
+<b>@deprecated.</b> Please use the 'subject' property instead. Gets or sets the subject of the document.
 
 ```javascript
 getSubject() : string;
@@ -653,7 +980,7 @@ getSubject() : string;
 
 ### setSubject(string) {#setSubject-string-}
 
-Gets or sets the subject of the document.
+<b>@deprecated.</b> Please use the 'subject' property instead. Gets or sets the subject of the document.
 
 ```javascript
 setSubject(value: string) : void;
@@ -666,7 +993,7 @@ setSubject(value: string) : void;
 
 ### getTemplate() {#getTemplate--}
 
-Gets or sets the informational name of the document template.
+<b>@deprecated.</b> Please use the 'template' property instead. Gets or sets the informational name of the document template.
 
 ```javascript
 getTemplate() : string;
@@ -675,7 +1002,7 @@ getTemplate() : string;
 
 ### setTemplate(string) {#setTemplate-string-}
 
-Gets or sets the informational name of the document template.
+<b>@deprecated.</b> Please use the 'template' property instead. Gets or sets the informational name of the document template.
 
 ```javascript
 setTemplate(value: string) : void;
@@ -688,7 +1015,7 @@ setTemplate(value: string) : void;
 
 ### getTitle() {#getTitle--}
 
-Gets or sets the title of the document.
+<b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of the document.
 
 ```javascript
 getTitle() : string;
@@ -697,7 +1024,7 @@ getTitle() : string;
 
 ### setTitle(string) {#setTitle-string-}
 
-Gets or sets the title of the document.
+<b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of the document.
 
 ```javascript
 setTitle(value: string) : void;
@@ -710,7 +1037,7 @@ setTitle(value: string) : void;
 
 ### getTotalEditingTime() {#getTotalEditingTime--}
 
-Gets or sets the total editing time in minutes.
+<b>@deprecated.</b> Please use the 'totalEditingTime' property instead. Gets or sets the total editing time in minutes.
 
 ```javascript
 getTotalEditingTime() : number;
@@ -719,7 +1046,7 @@ getTotalEditingTime() : number;
 
 ### setTotalEditingTime(number) {#setTotalEditingTime-number-}
 
-Gets or sets the total editing time in minutes.
+<b>@deprecated.</b> Please use the 'totalEditingTime' property instead. Gets or sets the total editing time in minutes.
 
 ```javascript
 setTotalEditingTime(value: number) : void;
@@ -732,7 +1059,7 @@ setTotalEditingTime(value: number) : void;
 
 ### getVersion() {#getVersion--}
 
-Represents the version number of the application that created the document.
+<b>@deprecated.</b> Please use the 'version' property instead. Represents the version number of the application that created the document.
 
 ```javascript
 getVersion() : string;
@@ -745,7 +1072,7 @@ It's format is "00.0000",for example : 12.0000
 
 ### setVersion(string) {#setVersion-string-}
 
-Represents the version number of the application that created the document.
+<b>@deprecated.</b> Please use the 'version' property instead. Represents the version number of the application that created the document.
 
 ```javascript
 setVersion(value: string) : void;
@@ -762,7 +1089,7 @@ It's format is "00.0000",for example : 12.0000
 
 ### getDocumentVersion() {#getDocumentVersion--}
 
-Represents the version of the file.
+<b>@deprecated.</b> Please use the 'documentVersion' property instead. Represents the version of the file.
 
 ```javascript
 getDocumentVersion() : string;
@@ -771,7 +1098,7 @@ getDocumentVersion() : string;
 
 ### setDocumentVersion(string) {#setDocumentVersion-string-}
 
-Represents the version of the file.
+<b>@deprecated.</b> Please use the 'documentVersion' property instead. Represents the version of the file.
 
 ```javascript
 setDocumentVersion(value: string) : void;
@@ -784,7 +1111,7 @@ setDocumentVersion(value: string) : void;
 
 ### getScaleCrop() {#getScaleCrop--}
 
-Indicates the display mode of the document thumbnail.
+<b>@deprecated.</b> Please use the 'scaleCrop' property instead. Indicates the display mode of the document thumbnail.
 
 ```javascript
 getScaleCrop() : boolean;
@@ -793,7 +1120,7 @@ getScaleCrop() : boolean;
 
 ### setScaleCrop(boolean) {#setScaleCrop-boolean-}
 
-Indicates the display mode of the document thumbnail.
+<b>@deprecated.</b> Please use the 'scaleCrop' property instead. Indicates the display mode of the document thumbnail.
 
 ```javascript
 setScaleCrop(value: boolean) : void;
@@ -806,7 +1133,7 @@ setScaleCrop(value: boolean) : void;
 
 ### getLinksUpToDate() {#getLinksUpToDate--}
 
-Indicates whether hyperlinks in a document are up-to-date.
+<b>@deprecated.</b> Please use the 'linksUpToDate' property instead. Indicates whether hyperlinks in a document are up-to-date.
 
 ```javascript
 getLinksUpToDate() : boolean;
@@ -815,7 +1142,7 @@ getLinksUpToDate() : boolean;
 
 ### setLinksUpToDate(boolean) {#setLinksUpToDate-boolean-}
 
-Indicates whether hyperlinks in a document are up-to-date.
+<b>@deprecated.</b> Please use the 'linksUpToDate' property instead. Indicates whether hyperlinks in a document are up-to-date.
 
 ```javascript
 setLinksUpToDate(value: boolean) : void;
@@ -828,7 +1155,7 @@ setLinksUpToDate(value: boolean) : void;
 
 ### getWords() {#getWords--}
 
-Represents an estimate of the number of words in the document.
+<b>@deprecated.</b> Please use the 'words' property instead. Represents an estimate of the number of words in the document.
 
 ```javascript
 getWords() : number;
@@ -837,7 +1164,7 @@ getWords() : number;
 
 ### setWords(number) {#setWords-number-}
 
-Represents an estimate of the number of words in the document.
+<b>@deprecated.</b> Please use the 'words' property instead. Represents an estimate of the number of words in the document.
 
 ```javascript
 setWords(value: number) : void;
@@ -850,7 +1177,7 @@ setWords(value: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

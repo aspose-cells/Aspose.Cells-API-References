@@ -4,7 +4,7 @@ linktitle: BuiltinStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BuiltinStyleType enum. Represents all built-in style types in C++.'
 type: docs
-weight: 17900
+weight: 18300
 url: /cpp/aspose.cells/builtinstyletype/
 ---
 ## BuiltinStyleType enum

@@ -21,15 +21,15 @@ const { Workbook, BackgroundType, Color, TableStyleElementType, CellsHelper } = 
 
 var workbook = new Workbook();
 var firstColumnStyle = workbook.createStyle();
-firstColumnStyle.setPattern(BackgroundType.Solid);
-firstColumnStyle.setBackgroundColor(Color.Red);
+firstColumnStyle.pattern = BackgroundType.Solid;
+firstColumnStyle.backgroundColor = Color.Red;
 
 var lastColumnStyle = workbook.createStyle();
-lastColumnStyle.getFont().setIsBold(true);
-lastColumnStyle.setPattern(BackgroundType.Solid);
-lastColumnStyle.setBackgroundColor(Color.Red);
+lastColumnStyle.font.isBold = true;
+lastColumnStyle.pattern = BackgroundType.Solid;
+lastColumnStyle.backgroundColor = Color.Red;
 var tableStyleName = "Custom1";
-var tableStyles = workbook.getWorksheets().getTableStyles();
+var tableStyles = workbook.worksheets.getTableStyles();
 var index1 = tableStyles.addTableStyle(tableStyleName);
 var tableStyle = tableStyles.get(index1);
 var elements = tableStyle.getTableStyleElements();
@@ -39,7 +39,7 @@ element.setElementStyle(firstColumnStyle);
 index1 = elements.add(TableStyleElementType.LastColumn);
 element = elements.get(index1);
 element.setElementStyle(lastColumnStyle);
-var cells = workbook.getWorksheets().get(0).getCells();
+var cells = workbook.worksheets.get(0).cells;
 for (var i = 0; i < 5; i++) {
     cells.get(0, i).putValue(CellsHelper.columnIndexToName(i));
 }
@@ -48,26 +48,51 @@ for (var row = 1; row < 10; row++) {
         cells.get(row, column).putValue(row * column);
     }
 }
-var tables = workbook.getWorksheets().get(0).getListObjects();
+var tables = workbook.worksheets.get(0).getListObjects();
 var index = tables.add(0, 0, 9, 4, true);
 var table = tables.get(0);
-table.setShowTableStyleFirstColumn(true);
-table.setShowTableStyleLastColumn(true);
-table.setTableStyleName(tableStyleName);
+table.showTableStyleFirstColumn = true;
+table.showTableStyleLastColumn = true;
+table.tableStyleName = tableStyleName;
 workbook.save("output/TablesTableStyle.xlsx");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Readonly. Gets the name of table style. |
+| [tableStyleElements](#tableStyleElements--)| TableStyleElementCollection | Readonly. Gets all elements of the table style. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets the name of table style. |
-| [getTableStyleElements()](#getTableStyleElements--)| Gets all elements of the table style. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of table style. |
+| [getTableStyleElements()](#getTableStyleElements--)| <b>@deprecated.</b> Please use the 'tableStyleElements' property instead. Gets all elements of the table style. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### name {#name--}
+
+Readonly. Gets the name of table style.
+
+```javascript
+name : string;
+```
+
+
+### tableStyleElements {#tableStyleElements--}
+
+Readonly. Gets all elements of the table style.
+
+```javascript
+tableStyleElements : TableStyleElementCollection;
+```
 
 
 ### getName() {#getName--}
 
-Gets the name of table style.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of table style.
 
 ```javascript
 getName() : string;
@@ -76,7 +101,7 @@ getName() : string;
 
 ### getTableStyleElements() {#getTableStyleElements--}
 
-Gets all elements of the table style.
+<b>@deprecated.</b> Please use the 'tableStyleElements' property instead. Gets all elements of the table style.
 
 ```javascript
 getTableStyleElements() : TableStyleElementCollection;

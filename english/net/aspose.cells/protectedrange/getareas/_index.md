@@ -20,20 +20,38 @@ Returns all referred areas.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, r.GetAreas().Length);
-public void ProtectedRange_Method_GetAreas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-    Workbook workbook = new Workbook();
-    ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
-    int index = pranges.Add("Range1", 0, 0, 10, 10);
-    ProtectedRange r = pranges[index];
-   Assert.AreEqual(1, r.GetAreas().Length);
-    string x = "O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)";
-    r.SecurityDescriptor = x;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].AllowEditRanges[0].SecurityDescriptor, x);
+    public class ProtectedRangeMethodGetAreasDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the protected ranges collection
+            ProtectedRangeCollection protectedRanges = worksheet.AllowEditRanges;
+            
+            // Add a protected range
+            int index = protectedRanges.Add("TestRange", 0, 0, 10, 10);
+            ProtectedRange protectedRange = protectedRanges[index];
+            
+            // Get areas of the protected range
+            CellArea[] areas = protectedRange.GetAreas();
+            
+            // Output the number of areas (should be 1 for this simple range)
+            Console.WriteLine("Number of areas in protected range: " + areas.Length);
+            
+            // Save the workbook
+            workbook.Save("ProtectedRangeExample.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,14 +16,31 @@ public double Angle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual( 45,shape.ShadowEffect.Angle);
-public void ShadowEffect_Property_Angle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Shape shape = workbook.Worksheets[0].Shapes[3];
-    Assert.AreEqual( 45,shape.ShadowEffect.Angle);
-    Assert.AreEqual(8, workbook.Worksheets[0].Shapes[2].Font.Size);
-    workbook.Save(Constants.destPath + "example.xls");
+    public class ShadowEffectPropertyAngleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape and set shadow effect angle
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+            shape.ShadowEffect.Angle = 45;
+
+            // Verify and output the angle value
+            Console.WriteLine("Shadow Effect Angle: " + shape.ShadowEffect.Angle);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

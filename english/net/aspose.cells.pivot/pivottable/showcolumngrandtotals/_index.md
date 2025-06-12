@@ -16,24 +16,49 @@ public bool ShowColumnGrandTotals { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-public void PivotTable_Property_ShowColumnGrandTotals()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
+    public class PivotTablePropertyShowColumnGrandTotalsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            var cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["A5"].Value = "Apple";
+            cells["B2"].Value = 5;
+            cells["B3"].Value = 3;
+            cells["B4"].Value = 6;
+            cells["B5"].Value = 2;
+
+            // Add pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit as rows
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Sum of Quantity
+
+            // Demonstrate ShowColumnGrandTotals property
+            pivotTable.ShowColumnGrandTotals = false; // Disable column grand totals
+            Console.WriteLine("Column Grand Totals Visible: " + pivotTable.ShowColumnGrandTotals);
+
+            // Save the workbook
+            workbook.Save("PivotTableShowColumnGrandTotalsDemo.xlsx");
+        }
+    }
 }
 ```
 

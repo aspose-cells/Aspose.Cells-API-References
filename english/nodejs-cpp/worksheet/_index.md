@@ -20,102 +20,167 @@ class Worksheet;
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var sheet = workbook.getWorksheets().get(0);
+var sheet = workbook.worksheets.get(0);
 //Freeze panes at "AS40" with 10 rows and 10 columns
 sheet.freezePanes("AS40", 10, 10);
 //Add a hyperlink in Cell A1
-sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
+sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [protection](#protection--)| Protection | Readonly. Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. |
+| [uniqueId](#uniqueId--)| string | Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
+| [workbook](#workbook--)| Workbook | Readonly. Gets the workbook object which contains this sheet. |
+| [cells](#cells--)| Cells | Readonly. Gets the [Cells](../cells/) collection. |
+| [queryTables](#queryTables--)| QueryTableCollection | Readonly. Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
+| [type](#type--)| SheetType | Represents worksheet type. |
+| [name](#name--)| string | Gets or sets the name of the worksheet. |
+| [showFormulas](#showFormulas--)| boolean | Indicates whether to show formulas or their results. |
+| [isGridlinesVisible](#isGridlinesVisible--)| boolean | Gets or sets a value indicating whether the gridlines are visible.Default is true. |
+| [isRowColumnHeadersVisible](#isRowColumnHeadersVisible--)| boolean | Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
+| [paneState](#paneState--)| PaneStateType | Readonly. Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. |
+| [displayZeros](#displayZeros--)| boolean | True if zero values are displayed. |
+| [displayRightToLeft](#displayRightToLeft--)| boolean | Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false. |
+| [isOutlineShown](#isOutlineShown--)| boolean | Indicates whether to show outline. |
+| [isSelected](#isSelected--)| boolean | Indicates whether this worksheet is selected when the workbook is opened. |
+| [pivotTables](#pivotTables--)| PivotTableCollection | Readonly. Gets all pivot tables in this worksheet. |
+| [listObjects](#listObjects--)| ListObjectCollection | Readonly. Gets all ListObjects in this worksheet. |
+| [tabId](#tabId--)| number | Specifies the internal identifier for the sheet. |
+| [horizontalPageBreaks](#horizontalPageBreaks--)| HorizontalPageBreakCollection | Readonly. Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection. |
+| [verticalPageBreaks](#verticalPageBreaks--)| VerticalPageBreakCollection | Readonly. Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection. |
+| [hyperlinks](#hyperlinks--)| HyperlinkCollection | Readonly. Gets the [HyperlinkCollection](../hyperlinkcollection/) collection. |
+| [pageSetup](#pageSetup--)| PageSetup | Readonly. Represents the page setup description in this sheet. |
+| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Represents auto filter for the specified worksheet. |
+| [hasAutofilter](#hasAutofilter--)| boolean | Readonly. Indicates whether this worksheet has auto filter. |
+| [transitionEvaluation](#transitionEvaluation--)| boolean | Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
+| [transitionEntry](#transitionEntry--)| boolean | Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
+| [visibilityType](#visibilityType--)| VisibilityType | Indicates the visible state for this sheet. |
+| [isVisible](#isVisible--)| boolean | Represents if the worksheet is visible. |
+| [sparklineGroups](#sparklineGroups--)| SparklineGroupCollection | Readonly. Gets the sparkline groups in the worksheet. |
+| [charts](#charts--)| ChartCollection | Readonly. Gets a [Chart](../chart/) collection |
+| [comments](#comments--)| CommentCollection | Readonly. Gets the [Comment](../comment/) collection. |
+| [pictures](#pictures--)| PictureCollection | Readonly. Gets a [Picture](../picture/) collection. |
+| [textBoxes](#textBoxes--)| TextBoxCollection | Readonly. Gets a [TextBox](../textbox/) collection. |
+| [checkBoxes](#checkBoxes--)| CheckBoxCollection | Readonly. Gets a [CheckBox](../checkbox/) collection. |
+| [oleObjects](#oleObjects--)| OleObjectCollection | Readonly. Represents a collection of [OleObject](../oleobject/) in a worksheet. |
+| [shapes](#shapes--)| ShapeCollection | Readonly. Returns all drawing shapes in this worksheet. |
+| [slicers](#slicers--)| SlicerCollection | Readonly. Get the Slicer collection in the worksheet |
+| [timelines](#timelines--)| TimelineCollection | Readonly. Get the Timeline collection in the worksheet |
+| [index](#index--)| number | Readonly. Gets the index of sheet in the worksheet collection. |
+| [isProtected](#isProtected--)| boolean | Readonly. Indicates if the worksheet is protected. |
+| [validations](#validations--)| ValidationCollection | Readonly. Gets the data validation setting collection in the worksheet. |
+| [allowEditRanges](#allowEditRanges--)| ProtectedRangeCollection | Readonly. Gets the allow edit range collection in the worksheet. |
+| [errorCheckOptions](#errorCheckOptions--)| ErrorCheckOptionCollection | Readonly. Gets error check setting applied on certain ranges. |
+| [outline](#outline--)| Outline | Readonly. Gets the outline on this worksheet. |
+| [firstVisibleRow](#firstVisibleRow--)| number | Represents first visible row index. |
+| [firstVisibleColumn](#firstVisibleColumn--)| number | Represents first visible column index. |
+| [zoom](#zoom--)| number | Represents the scaling factor in percentage. It should be between 10 and 400. |
+| [viewType](#viewType--)| ViewType | Gets and sets the view type. |
+| [isPageBreakPreview](#isPageBreakPreview--)| boolean | Indicates whether the specified worksheet is shown in normal view or page break preview. |
+| [isRulerVisible](#isRulerVisible--)| boolean | Indicates whether the ruler is visible. This property is only applied for page break preview. |
+| [tabColor](#tabColor--)| Color | Represents worksheet tab color. |
+| [gridlineColor](#gridlineColor--)| Color | Gets and sets the color of gridline |
+| [codeName](#codeName--)| string | Gets worksheet code name. |
+| [backgroundImage](#backgroundImage--)| Uint8Array | Gets and sets worksheet background image. |
+| [conditionalFormattings](#conditionalFormattings--)| ConditionalFormattingCollection | Readonly. Gets the ConditionalFormattings in the worksheet. |
+| [activeCell](#activeCell--)| string | Gets or sets the active cell in the worksheet. |
+| [customProperties](#customProperties--)| CustomPropertyCollection | Readonly. Gets an object representing the identifier information associated with a worksheet. |
+| [smartTagSetting](#smartTagSetting--)| SmartTagSetting | Readonly. Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet. |
+| [scenarios](#scenarios--)| ScenarioCollection | Readonly. Gets the collection of [Scenario](../scenario/). |
+| [cellWatches](#cellWatches--)| CellWatchCollection | Readonly. Gets collection of cells on this worksheet being watched in the 'watch window'. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getProtection()](#getProtection--)| Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. |
-| [getUniqueId()](#getUniqueId--)| Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
-| [setUniqueId(string)](#setUniqueId-string-)| Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
-| [getWorkbook()](#getWorkbook--)| Gets the workbook object which contains this sheet. |
-| [getCells()](#getCells--)| Gets the [Cells](../cells/) collection. |
-| [getQueryTables()](#getQueryTables--)| Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
-| [getType()](#getType--)| Represents worksheet type. |
-| [setType(SheetType)](#setType-sheettype-)| Represents worksheet type. |
-| [getName()](#getName--)| Gets or sets the name of the worksheet. |
-| [setName(string)](#setName-string-)| Gets or sets the name of the worksheet. |
-| [getShowFormulas()](#getShowFormulas--)| Indicates whether to show formulas or their results. |
-| [setShowFormulas(boolean)](#setShowFormulas-boolean-)| Indicates whether to show formulas or their results. |
-| [isGridlinesVisible()](#isGridlinesVisible--)| Gets or sets a value indicating whether the gridlines are visible.Default is true. |
-| [setIsGridlinesVisible(boolean)](#setIsGridlinesVisible-boolean-)| Gets or sets a value indicating whether the gridlines are visible.Default is true. |
-| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--)| Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
-| [setIsRowColumnHeadersVisible(boolean)](#setIsRowColumnHeadersVisible-boolean-)| Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
-| [getPaneState()](#getPaneState--)| Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. |
-| [getDisplayZeros()](#getDisplayZeros--)| True if zero values are displayed. |
-| [setDisplayZeros(boolean)](#setDisplayZeros-boolean-)| True if zero values are displayed. |
-| [getDisplayRightToLeft()](#getDisplayRightToLeft--)| Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false. |
-| [setDisplayRightToLeft(boolean)](#setDisplayRightToLeft-boolean-)| Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false. |
-| [isOutlineShown()](#isOutlineShown--)| Indicates whether to show outline. |
-| [setIsOutlineShown(boolean)](#setIsOutlineShown-boolean-)| Indicates whether to show outline. |
-| [isSelected()](#isSelected--)| Indicates whether this worksheet is selected when the workbook is opened. |
-| [setIsSelected(boolean)](#setIsSelected-boolean-)| Indicates whether this worksheet is selected when the workbook is opened. |
-| [getPivotTables()](#getPivotTables--)| Gets all pivot tables in this worksheet. |
-| [getListObjects()](#getListObjects--)| Gets all ListObjects in this worksheet. |
-| [getTabId()](#getTabId--)| Specifies the internal identifier for the sheet. |
-| [setTabId(number)](#setTabId-number-)| Specifies the internal identifier for the sheet. |
-| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection. |
-| [getVerticalPageBreaks()](#getVerticalPageBreaks--)| Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection. |
-| [getHyperlinks()](#getHyperlinks--)| Gets the [HyperlinkCollection](../hyperlinkcollection/) collection. |
-| [getPageSetup()](#getPageSetup--)| Represents the page setup description in this sheet. |
-| [getAutoFilter()](#getAutoFilter--)| Represents auto filter for the specified worksheet. |
-| [getHasAutofilter()](#getHasAutofilter--)| Indicates whether this worksheet has auto filter. |
-| [getTransitionEvaluation()](#getTransitionEvaluation--)| Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
-| [setTransitionEvaluation(boolean)](#setTransitionEvaluation-boolean-)| Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
-| [getTransitionEntry()](#getTransitionEntry--)| Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
-| [setTransitionEntry(boolean)](#setTransitionEntry-boolean-)| Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
-| [getVisibilityType()](#getVisibilityType--)| Indicates the visible state for this sheet. |
-| [setVisibilityType(VisibilityType)](#setVisibilityType-visibilitytype-)| Indicates the visible state for this sheet. |
-| [isVisible()](#isVisible--)| Represents if the worksheet is visible. |
-| [setIsVisible(boolean)](#setIsVisible-boolean-)| Represents if the worksheet is visible. |
-| [getSparklineGroups()](#getSparklineGroups--)| Gets the sparkline groups in the worksheet. |
-| [getCharts()](#getCharts--)| Gets a [Chart](../chart/) collection |
-| [getComments()](#getComments--)| Gets the [Comment](../comment/) collection. |
-| [getPictures()](#getPictures--)| Gets a [Picture](../picture/) collection. |
-| [getTextBoxes()](#getTextBoxes--)| Gets a [TextBox](../textbox/) collection. |
-| [getCheckBoxes()](#getCheckBoxes--)| Gets a [CheckBox](../checkbox/) collection. |
-| [getOleObjects()](#getOleObjects--)| Represents a collection of [OleObject](../oleobject/) in a worksheet. |
-| [getShapes()](#getShapes--)| Returns all drawing shapes in this worksheet. |
-| [getSlicers()](#getSlicers--)| Get the Slicer collection in the worksheet |
-| [getTimelines()](#getTimelines--)| Get the Timeline collection in the worksheet |
-| [getIndex()](#getIndex--)| Gets the index of sheet in the worksheet collection. |
-| [isProtected()](#isProtected--)| Indicates if the worksheet is protected. |
-| [getValidations()](#getValidations--)| Gets the data validation setting collection in the worksheet. |
-| [getAllowEditRanges()](#getAllowEditRanges--)| Gets the allow edit range collection in the worksheet. |
-| [getErrorCheckOptions()](#getErrorCheckOptions--)| Gets error check setting applied on certain ranges. |
-| [getOutline()](#getOutline--)| Gets the outline on this worksheet. |
-| [getFirstVisibleRow()](#getFirstVisibleRow--)| Represents first visible row index. |
-| [setFirstVisibleRow(number)](#setFirstVisibleRow-number-)| Represents first visible row index. |
-| [getFirstVisibleColumn()](#getFirstVisibleColumn--)| Represents first visible column index. |
-| [setFirstVisibleColumn(number)](#setFirstVisibleColumn-number-)| Represents first visible column index. |
-| [getZoom()](#getZoom--)| Represents the scaling factor in percentage. It should be between 10 and 400. |
-| [setZoom(number)](#setZoom-number-)| Represents the scaling factor in percentage. It should be between 10 and 400. |
-| [getViewType()](#getViewType--)| Gets and sets the view type. |
-| [setViewType(ViewType)](#setViewType-viewtype-)| Gets and sets the view type. |
-| [isPageBreakPreview()](#isPageBreakPreview--)| Indicates whether the specified worksheet is shown in normal view or page break preview. |
-| [setIsPageBreakPreview(boolean)](#setIsPageBreakPreview-boolean-)| Indicates whether the specified worksheet is shown in normal view or page break preview. |
-| [isRulerVisible()](#isRulerVisible--)| Indicates whether the ruler is visible. This property is only applied for page break preview. |
-| [setIsRulerVisible(boolean)](#setIsRulerVisible-boolean-)| Indicates whether the ruler is visible. This property is only applied for page break preview. |
-| [getTabColor()](#getTabColor--)| Represents worksheet tab color. |
-| [setTabColor(Color)](#setTabColor-color-)| Represents worksheet tab color. |
-| [getGridlineColor()](#getGridlineColor--)| Gets and sets the color of gridline |
-| [setGridlineColor(Color)](#setGridlineColor-color-)| Gets and sets the color of gridline |
-| [getCodeName()](#getCodeName--)| Gets worksheet code name. |
-| [setCodeName(string)](#setCodeName-string-)| Gets worksheet code name. |
-| [getBackgroundImage()](#getBackgroundImage--)| Gets and sets worksheet background image. |
-| [setBackgroundImage(Uint8Array)](#setBackgroundImage-uint8array-)| Gets and sets worksheet background image. |
-| [getConditionalFormattings()](#getConditionalFormattings--)| Gets the ConditionalFormattings in the worksheet. |
-| [getActiveCell()](#getActiveCell--)| Gets or sets the active cell in the worksheet. |
-| [setActiveCell(string)](#setActiveCell-string-)| Gets or sets the active cell in the worksheet. |
-| [getCustomProperties()](#getCustomProperties--)| Gets an object representing the identifier information associated with a worksheet. |
-| [getSmartTagSetting()](#getSmartTagSetting--)| Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet. |
-| [getScenarios()](#getScenarios--)| Gets the collection of [Scenario](../scenario/). |
-| [getCellWatches()](#getCellWatches--)| Gets collection of cells on this worksheet being watched in the 'watch window'. |
+| [getProtection()](#getProtection--)| <b>@deprecated.</b> Please use the 'protection' property instead. Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. |
+| [getUniqueId()](#getUniqueId--)| <b>@deprecated.</b> Please use the 'uniqueId' property instead. Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
+| [setUniqueId(string)](#setUniqueId-string-)| <b>@deprecated.</b> Please use the 'uniqueId' property instead. Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
+| [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the workbook object which contains this sheet. |
+| [getCells()](#getCells--)| <b>@deprecated.</b> Please use the 'cells' property instead. Gets the [Cells](../cells/) collection. |
+| [getQueryTables()](#getQueryTables--)| <b>@deprecated.</b> Please use the 'queryTables' property instead. Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents worksheet type. |
+| [setType(SheetType)](#setType-sheettype-)| <b>@deprecated.</b> Please use the 'type' property instead. Represents worksheet type. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the worksheet. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the worksheet. |
+| [getShowFormulas()](#getShowFormulas--)| <b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results. |
+| [setShowFormulas(boolean)](#setShowFormulas-boolean-)| <b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results. |
+| [isGridlinesVisible()](#isGridlinesVisible--)| <b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true. |
+| [setIsGridlinesVisible(boolean)](#setIsGridlinesVisible-boolean-)| <b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true. |
+| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--)| <b>@deprecated.</b> Please use the 'isRowColumnHeadersVisible' property instead. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
+| [setIsRowColumnHeadersVisible(boolean)](#setIsRowColumnHeadersVisible-boolean-)| <b>@deprecated.</b> Please use the 'isRowColumnHeadersVisible' property instead. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
+| [getPaneState()](#getPaneState--)| <b>@deprecated.</b> Please use the 'paneState' property instead. Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. |
+| [getDisplayZeros()](#getDisplayZeros--)| <b>@deprecated.</b> Please use the 'displayZeros' property instead. True if zero values are displayed. |
+| [setDisplayZeros(boolean)](#setDisplayZeros-boolean-)| <b>@deprecated.</b> Please use the 'displayZeros' property instead. True if zero values are displayed. |
+| [getDisplayRightToLeft()](#getDisplayRightToLeft--)| <b>@deprecated.</b> Please use the 'displayRightToLeft' property instead. Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false. |
+| [setDisplayRightToLeft(boolean)](#setDisplayRightToLeft-boolean-)| <b>@deprecated.</b> Please use the 'displayRightToLeft' property instead. Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false. |
+| [isOutlineShown()](#isOutlineShown--)| <b>@deprecated.</b> Please use the 'isOutlineShown' property instead. Indicates whether to show outline. |
+| [setIsOutlineShown(boolean)](#setIsOutlineShown-boolean-)| <b>@deprecated.</b> Please use the 'isOutlineShown' property instead. Indicates whether to show outline. |
+| [isSelected()](#isSelected--)| <b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this worksheet is selected when the workbook is opened. |
+| [setIsSelected(boolean)](#setIsSelected-boolean-)| <b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this worksheet is selected when the workbook is opened. |
+| [getPivotTables()](#getPivotTables--)| <b>@deprecated.</b> Please use the 'pivotTables' property instead. Gets all pivot tables in this worksheet. |
+| [getListObjects()](#getListObjects--)| <b>@deprecated.</b> Please use the 'listObjects' property instead. Gets all ListObjects in this worksheet. |
+| [getTabId()](#getTabId--)| <b>@deprecated.</b> Please use the 'tabId' property instead. Specifies the internal identifier for the sheet. |
+| [setTabId(number)](#setTabId-number-)| <b>@deprecated.</b> Please use the 'tabId' property instead. Specifies the internal identifier for the sheet. |
+| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| <b>@deprecated.</b> Please use the 'horizontalPageBreaks' property instead. Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection. |
+| [getVerticalPageBreaks()](#getVerticalPageBreaks--)| <b>@deprecated.</b> Please use the 'verticalPageBreaks' property instead. Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection. |
+| [getHyperlinks()](#getHyperlinks--)| <b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets the [HyperlinkCollection](../hyperlinkcollection/) collection. |
+| [getPageSetup()](#getPageSetup--)| <b>@deprecated.</b> Please use the 'pageSetup' property instead. Represents the page setup description in this sheet. |
+| [getAutoFilter()](#getAutoFilter--)| <b>@deprecated.</b> Please use the 'autoFilter' property instead. Represents auto filter for the specified worksheet. |
+| [getHasAutofilter()](#getHasAutofilter--)| <b>@deprecated.</b> Please use the 'hasAutofilter' property instead. Indicates whether this worksheet has auto filter. |
+| [getTransitionEvaluation()](#getTransitionEvaluation--)| <b>@deprecated.</b> Please use the 'transitionEvaluation' property instead. Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
+| [setTransitionEvaluation(boolean)](#setTransitionEvaluation-boolean-)| <b>@deprecated.</b> Please use the 'transitionEvaluation' property instead. Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
+| [getTransitionEntry()](#getTransitionEntry--)| <b>@deprecated.</b> Please use the 'transitionEntry' property instead. Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
+| [setTransitionEntry(boolean)](#setTransitionEntry-boolean-)| <b>@deprecated.</b> Please use the 'transitionEntry' property instead. Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
+| [getVisibilityType()](#getVisibilityType--)| <b>@deprecated.</b> Please use the 'visibilityType' property instead. Indicates the visible state for this sheet. |
+| [setVisibilityType(VisibilityType)](#setVisibilityType-visibilitytype-)| <b>@deprecated.</b> Please use the 'visibilityType' property instead. Indicates the visible state for this sheet. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the worksheet is visible. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the worksheet is visible. |
+| [getSparklineGroups()](#getSparklineGroups--)| <b>@deprecated.</b> Please use the 'sparklineGroups' property instead. Gets the sparkline groups in the worksheet. |
+| [getCharts()](#getCharts--)| <b>@deprecated.</b> Please use the 'charts' property instead. Gets a [Chart](../chart/) collection |
+| [getComments()](#getComments--)| <b>@deprecated.</b> Please use the 'comments' property instead. Gets the [Comment](../comment/) collection. |
+| [getPictures()](#getPictures--)| <b>@deprecated.</b> Please use the 'pictures' property instead. Gets a [Picture](../picture/) collection. |
+| [getTextBoxes()](#getTextBoxes--)| <b>@deprecated.</b> Please use the 'textBoxes' property instead. Gets a [TextBox](../textbox/) collection. |
+| [getCheckBoxes()](#getCheckBoxes--)| <b>@deprecated.</b> Please use the 'checkBoxes' property instead. Gets a [CheckBox](../checkbox/) collection. |
+| [getOleObjects()](#getOleObjects--)| <b>@deprecated.</b> Please use the 'oleObjects' property instead. Represents a collection of [OleObject](../oleobject/) in a worksheet. |
+| [getShapes()](#getShapes--)| <b>@deprecated.</b> Please use the 'shapes' property instead. Returns all drawing shapes in this worksheet. |
+| [getSlicers()](#getSlicers--)| <b>@deprecated.</b> Please use the 'slicers' property instead. Get the Slicer collection in the worksheet |
+| [getTimelines()](#getTimelines--)| <b>@deprecated.</b> Please use the 'timelines' property instead. Get the Timeline collection in the worksheet |
+| [getIndex()](#getIndex--)| <b>@deprecated.</b> Please use the 'index' property instead. Gets the index of sheet in the worksheet collection. |
+| [isProtected()](#isProtected--)| <b>@deprecated.</b> Please use the 'isProtected' property instead. Indicates if the worksheet is protected. |
+| [getValidations()](#getValidations--)| <b>@deprecated.</b> Please use the 'validations' property instead. Gets the data validation setting collection in the worksheet. |
+| [getAllowEditRanges()](#getAllowEditRanges--)| <b>@deprecated.</b> Please use the 'allowEditRanges' property instead. Gets the allow edit range collection in the worksheet. |
+| [getErrorCheckOptions()](#getErrorCheckOptions--)| <b>@deprecated.</b> Please use the 'errorCheckOptions' property instead. Gets error check setting applied on certain ranges. |
+| [getOutline()](#getOutline--)| <b>@deprecated.</b> Please use the 'outline' property instead. Gets the outline on this worksheet. |
+| [getFirstVisibleRow()](#getFirstVisibleRow--)| <b>@deprecated.</b> Please use the 'firstVisibleRow' property instead. Represents first visible row index. |
+| [setFirstVisibleRow(number)](#setFirstVisibleRow-number-)| <b>@deprecated.</b> Please use the 'firstVisibleRow' property instead. Represents first visible row index. |
+| [getFirstVisibleColumn()](#getFirstVisibleColumn--)| <b>@deprecated.</b> Please use the 'firstVisibleColumn' property instead. Represents first visible column index. |
+| [setFirstVisibleColumn(number)](#setFirstVisibleColumn-number-)| <b>@deprecated.</b> Please use the 'firstVisibleColumn' property instead. Represents first visible column index. |
+| [getZoom()](#getZoom--)| <b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percentage. It should be between 10 and 400. |
+| [setZoom(number)](#setZoom-number-)| <b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percentage. It should be between 10 and 400. |
+| [getViewType()](#getViewType--)| <b>@deprecated.</b> Please use the 'viewType' property instead. Gets and sets the view type. |
+| [setViewType(ViewType)](#setViewType-viewtype-)| <b>@deprecated.</b> Please use the 'viewType' property instead. Gets and sets the view type. |
+| [isPageBreakPreview()](#isPageBreakPreview--)| <b>@deprecated.</b> Please use the 'isPageBreakPreview' property instead. Indicates whether the specified worksheet is shown in normal view or page break preview. |
+| [setIsPageBreakPreview(boolean)](#setIsPageBreakPreview-boolean-)| <b>@deprecated.</b> Please use the 'isPageBreakPreview' property instead. Indicates whether the specified worksheet is shown in normal view or page break preview. |
+| [isRulerVisible()](#isRulerVisible--)| <b>@deprecated.</b> Please use the 'isRulerVisible' property instead. Indicates whether the ruler is visible. This property is only applied for page break preview. |
+| [setIsRulerVisible(boolean)](#setIsRulerVisible-boolean-)| <b>@deprecated.</b> Please use the 'isRulerVisible' property instead. Indicates whether the ruler is visible. This property is only applied for page break preview. |
+| [getTabColor()](#getTabColor--)| <b>@deprecated.</b> Please use the 'tabColor' property instead. Represents worksheet tab color. |
+| [setTabColor(Color)](#setTabColor-color-)| <b>@deprecated.</b> Please use the 'tabColor' property instead. Represents worksheet tab color. |
+| [getGridlineColor()](#getGridlineColor--)| <b>@deprecated.</b> Please use the 'gridlineColor' property instead. Gets and sets the color of gridline |
+| [setGridlineColor(Color)](#setGridlineColor-color-)| <b>@deprecated.</b> Please use the 'gridlineColor' property instead. Gets and sets the color of gridline |
+| [getCodeName()](#getCodeName--)| <b>@deprecated.</b> Please use the 'codeName' property instead. Gets worksheet code name. |
+| [setCodeName(string)](#setCodeName-string-)| <b>@deprecated.</b> Please use the 'codeName' property instead. Gets worksheet code name. |
+| [getBackgroundImage()](#getBackgroundImage--)| <b>@deprecated.</b> Please use the 'backgroundImage' property instead. Gets and sets worksheet background image. |
+| [setBackgroundImage(Uint8Array)](#setBackgroundImage-uint8array-)| <b>@deprecated.</b> Please use the 'backgroundImage' property instead. Gets and sets worksheet background image. |
+| [getConditionalFormattings()](#getConditionalFormattings--)| <b>@deprecated.</b> Please use the 'conditionalFormattings' property instead. Gets the ConditionalFormattings in the worksheet. |
+| [getActiveCell()](#getActiveCell--)| <b>@deprecated.</b> Please use the 'activeCell' property instead. Gets or sets the active cell in the worksheet. |
+| [setActiveCell(string)](#setActiveCell-string-)| <b>@deprecated.</b> Please use the 'activeCell' property instead. Gets or sets the active cell in the worksheet. |
+| [getCustomProperties()](#getCustomProperties--)| <b>@deprecated.</b> Please use the 'customProperties' property instead. Gets an object representing the identifier information associated with a worksheet. |
+| [getSmartTagSetting()](#getSmartTagSetting--)| <b>@deprecated.</b> Please use the 'smartTagSetting' property instead. Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet. |
+| [getScenarios()](#getScenarios--)| <b>@deprecated.</b> Please use the 'scenarios' property instead. Gets the collection of [Scenario](../scenario/). |
+| [getCellWatches()](#getCellWatches--)| <b>@deprecated.</b> Please use the 'cellWatches' property instead. Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getPanes()](#getPanes--)| Gets the window panes. |
 | [freezePanes(number, number, number, number)](#freezePanes-number-number-number-number-)| Freezes panes at the specified cell in the worksheet. |
@@ -201,9 +266,569 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### protection {#protection--}
+
+Readonly. Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.
+
+```javascript
+protection : Protection;
+```
+
+
+**Remarks**
+
+This property can protect worksheet in all versions of Excel file and support advanced protection options in ExcelXP and above version.
+
+### uniqueId {#uniqueId--}
+
+Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
+
+```javascript
+uniqueId : string;
+```
+
+
+### workbook {#workbook--}
+
+Readonly. Gets the workbook object which contains this sheet.
+
+```javascript
+workbook : Workbook;
+```
+
+
+### cells {#cells--}
+
+Readonly. Gets the [Cells](../cells/) collection.
+
+```javascript
+cells : Cells;
+```
+
+
+### queryTables {#queryTables--}
+
+Readonly. Gets [QueryTableCollection](../querytablecollection/) in the worksheet.
+
+```javascript
+queryTables : QueryTableCollection;
+```
+
+
+### type {#type--}
+
+Represents worksheet type.
+
+```javascript
+type : SheetType;
+```
+
+
+### name {#name--}
+
+Gets or sets the name of the worksheet.
+
+```javascript
+name : string;
+```
+
+
+**Remarks**
+
+The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+
+### showFormulas {#showFormulas--}
+
+Indicates whether to show formulas or their results.
+
+```javascript
+showFormulas : boolean;
+```
+
+
+### isGridlinesVisible {#isGridlinesVisible--}
+
+Gets or sets a value indicating whether the gridlines are visible.Default is true.
+
+```javascript
+isGridlinesVisible : boolean;
+```
+
+
+### isRowColumnHeadersVisible {#isRowColumnHeadersVisible--}
+
+Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
+
+```javascript
+isRowColumnHeadersVisible : boolean;
+```
+
+
+### paneState {#paneState--}
+
+Readonly. Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
+
+```javascript
+paneState : PaneStateType;
+```
+
+
+### displayZeros {#displayZeros--}
+
+True if zero values are displayed.
+
+```javascript
+displayZeros : boolean;
+```
+
+
+### displayRightToLeft {#displayRightToLeft--}
+
+Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
+
+```javascript
+displayRightToLeft : boolean;
+```
+
+
+### isOutlineShown {#isOutlineShown--}
+
+Indicates whether to show outline.
+
+```javascript
+isOutlineShown : boolean;
+```
+
+
+### isSelected {#isSelected--}
+
+Indicates whether this worksheet is selected when the workbook is opened.
+
+```javascript
+isSelected : boolean;
+```
+
+
+### pivotTables {#pivotTables--}
+
+Readonly. Gets all pivot tables in this worksheet.
+
+```javascript
+pivotTables : PivotTableCollection;
+```
+
+
+### listObjects {#listObjects--}
+
+Readonly. Gets all ListObjects in this worksheet.
+
+```javascript
+listObjects : ListObjectCollection;
+```
+
+
+### tabId {#tabId--}
+
+Specifies the internal identifier for the sheet.
+
+```javascript
+tabId : number;
+```
+
+
+### horizontalPageBreaks {#horizontalPageBreaks--}
+
+Readonly. Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection.
+
+```javascript
+horizontalPageBreaks : HorizontalPageBreakCollection;
+```
+
+
+### verticalPageBreaks {#verticalPageBreaks--}
+
+Readonly. Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection.
+
+```javascript
+verticalPageBreaks : VerticalPageBreakCollection;
+```
+
+
+### hyperlinks {#hyperlinks--}
+
+Readonly. Gets the [HyperlinkCollection](../hyperlinkcollection/) collection.
+
+```javascript
+hyperlinks : HyperlinkCollection;
+```
+
+
+### pageSetup {#pageSetup--}
+
+Readonly. Represents the page setup description in this sheet.
+
+```javascript
+pageSetup : PageSetup;
+```
+
+
+### autoFilter {#autoFilter--}
+
+Readonly. Represents auto filter for the specified worksheet.
+
+```javascript
+autoFilter : AutoFilter;
+```
+
+
+### hasAutofilter {#hasAutofilter--}
+
+Readonly. Indicates whether this worksheet has auto filter.
+
+```javascript
+hasAutofilter : boolean;
+```
+
+
+### transitionEvaluation {#transitionEvaluation--}
+
+Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
+
+```javascript
+transitionEvaluation : boolean;
+```
+
+
+### transitionEntry {#transitionEntry--}
+
+Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
+
+```javascript
+transitionEntry : boolean;
+```
+
+
+### visibilityType {#visibilityType--}
+
+Indicates the visible state for this sheet.
+
+```javascript
+visibilityType : VisibilityType;
+```
+
+
+### isVisible {#isVisible--}
+
+Represents if the worksheet is visible.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### sparklineGroups {#sparklineGroups--}
+
+Readonly. Gets the sparkline groups in the worksheet.
+
+```javascript
+sparklineGroups : SparklineGroupCollection;
+```
+
+
+### charts {#charts--}
+
+Readonly. Gets a [Chart](../chart/) collection
+
+```javascript
+charts : ChartCollection;
+```
+
+
+### comments {#comments--}
+
+Readonly. Gets the [Comment](../comment/) collection.
+
+```javascript
+comments : CommentCollection;
+```
+
+
+### pictures {#pictures--}
+
+Readonly. Gets a [Picture](../picture/) collection.
+
+```javascript
+pictures : PictureCollection;
+```
+
+
+### textBoxes {#textBoxes--}
+
+Readonly. Gets a [TextBox](../textbox/) collection.
+
+```javascript
+textBoxes : TextBoxCollection;
+```
+
+
+### checkBoxes {#checkBoxes--}
+
+Readonly. Gets a [CheckBox](../checkbox/) collection.
+
+```javascript
+checkBoxes : CheckBoxCollection;
+```
+
+
+### oleObjects {#oleObjects--}
+
+Readonly. Represents a collection of [OleObject](../oleobject/) in a worksheet.
+
+```javascript
+oleObjects : OleObjectCollection;
+```
+
+
+### shapes {#shapes--}
+
+Readonly. Returns all drawing shapes in this worksheet.
+
+```javascript
+shapes : ShapeCollection;
+```
+
+
+### slicers {#slicers--}
+
+Readonly. Get the Slicer collection in the worksheet
+
+```javascript
+slicers : SlicerCollection;
+```
+
+
+### timelines {#timelines--}
+
+Readonly. Get the Timeline collection in the worksheet
+
+```javascript
+timelines : TimelineCollection;
+```
+
+
+### index {#index--}
+
+Readonly. Gets the index of sheet in the worksheet collection.
+
+```javascript
+index : number;
+```
+
+
+### isProtected {#isProtected--}
+
+Readonly. Indicates if the worksheet is protected.
+
+```javascript
+isProtected : boolean;
+```
+
+
+### validations {#validations--}
+
+Readonly. Gets the data validation setting collection in the worksheet.
+
+```javascript
+validations : ValidationCollection;
+```
+
+
+### allowEditRanges {#allowEditRanges--}
+
+Readonly. Gets the allow edit range collection in the worksheet.
+
+```javascript
+allowEditRanges : ProtectedRangeCollection;
+```
+
+
+### errorCheckOptions {#errorCheckOptions--}
+
+Readonly. Gets error check setting applied on certain ranges.
+
+```javascript
+errorCheckOptions : ErrorCheckOptionCollection;
+```
+
+
+### outline {#outline--}
+
+Readonly. Gets the outline on this worksheet.
+
+```javascript
+outline : Outline;
+```
+
+
+### firstVisibleRow {#firstVisibleRow--}
+
+Represents first visible row index.
+
+```javascript
+firstVisibleRow : number;
+```
+
+
+### firstVisibleColumn {#firstVisibleColumn--}
+
+Represents first visible column index.
+
+```javascript
+firstVisibleColumn : number;
+```
+
+
+### zoom {#zoom--}
+
+Represents the scaling factor in percentage. It should be between 10 and 400.
+
+```javascript
+zoom : number;
+```
+
+
+**Remarks**
+
+Please set the view type first.
+
+### viewType {#viewType--}
+
+Gets and sets the view type.
+
+```javascript
+viewType : ViewType;
+```
+
+
+### isPageBreakPreview {#isPageBreakPreview--}
+
+Indicates whether the specified worksheet is shown in normal view or page break preview.
+
+```javascript
+isPageBreakPreview : boolean;
+```
+
+
+### isRulerVisible {#isRulerVisible--}
+
+Indicates whether the ruler is visible. This property is only applied for page break preview.
+
+```javascript
+isRulerVisible : boolean;
+```
+
+
+### tabColor {#tabColor--}
+
+Represents worksheet tab color.
+
+```javascript
+tabColor : Color;
+```
+
+
+**Remarks**
+
+This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
+
+### gridlineColor {#gridlineColor--}
+
+Gets and sets the color of gridline
+
+```javascript
+gridlineColor : Color;
+```
+
+
+### codeName {#codeName--}
+
+Gets worksheet code name.
+
+```javascript
+codeName : string;
+```
+
+
+### backgroundImage {#backgroundImage--}
+
+Gets and sets worksheet background image.
+
+```javascript
+backgroundImage : Uint8Array;
+```
+
+
+### conditionalFormattings {#conditionalFormattings--}
+
+Readonly. Gets the ConditionalFormattings in the worksheet.
+
+```javascript
+conditionalFormattings : ConditionalFormattingCollection;
+```
+
+
+### activeCell {#activeCell--}
+
+Gets or sets the active cell in the worksheet.
+
+```javascript
+activeCell : string;
+```
+
+
+### customProperties {#customProperties--}
+
+Readonly. Gets an object representing the identifier information associated with a worksheet.
+
+```javascript
+customProperties : CustomPropertyCollection;
+```
+
+
+**Remarks**
+
+Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary data. It supports legacy third-party document components, as well as those situations that have a stringent need for binary parts.
+
+### smartTagSetting {#smartTagSetting--}
+
+Readonly. Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet.
+
+```javascript
+smartTagSetting : SmartTagSetting;
+```
+
+
+### scenarios {#scenarios--}
+
+Readonly. Gets the collection of [Scenario](../scenario/).
+
+```javascript
+scenarios : ScenarioCollection;
+```
+
+
+### cellWatches {#cellWatches--}
+
+Readonly. Gets collection of cells on this worksheet being watched in the 'watch window'.
+
+```javascript
+cellWatches : CellWatchCollection;
+```
+
+
 ### getProtection() {#getProtection--}
 
-Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.
+<b>@deprecated.</b> Please use the 'protection' property instead. Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.
 
 ```javascript
 getProtection() : Protection;
@@ -220,7 +845,7 @@ This property can protect worksheet in all versions of Excel file and support ad
 
 ### getUniqueId() {#getUniqueId--}
 
-Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
+<b>@deprecated.</b> Please use the 'uniqueId' property instead. Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
 
 ```javascript
 getUniqueId() : string;
@@ -229,7 +854,7 @@ getUniqueId() : string;
 
 ### setUniqueId(string) {#setUniqueId-string-}
 
-Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
+<b>@deprecated.</b> Please use the 'uniqueId' property instead. Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
 
 ```javascript
 setUniqueId(value: string) : void;
@@ -242,7 +867,7 @@ setUniqueId(value: string) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the workbook object which contains this sheet.
+<b>@deprecated.</b> Please use the 'workbook' property instead. Gets the workbook object which contains this sheet.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -255,7 +880,7 @@ getWorkbook() : Workbook;
 
 ### getCells() {#getCells--}
 
-Gets the [Cells](../cells/) collection.
+<b>@deprecated.</b> Please use the 'cells' property instead. Gets the [Cells](../cells/) collection.
 
 ```javascript
 getCells() : Cells;
@@ -268,7 +893,7 @@ getCells() : Cells;
 
 ### getQueryTables() {#getQueryTables--}
 
-Gets [QueryTableCollection](../querytablecollection/) in the worksheet.
+<b>@deprecated.</b> Please use the 'queryTables' property instead. Gets [QueryTableCollection](../querytablecollection/) in the worksheet.
 
 ```javascript
 getQueryTables() : QueryTableCollection;
@@ -281,7 +906,7 @@ getQueryTables() : QueryTableCollection;
 
 ### getType() {#getType--}
 
-Represents worksheet type.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents worksheet type.
 
 ```javascript
 getType() : SheetType;
@@ -294,7 +919,7 @@ getType() : SheetType;
 
 ### setType(SheetType) {#setType-sheettype-}
 
-Represents worksheet type.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents worksheet type.
 
 ```javascript
 setType(value: SheetType) : void;
@@ -307,7 +932,7 @@ setType(value: SheetType) : void;
 
 ### getName() {#getName--}
 
-Gets or sets the name of the worksheet.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the worksheet.
 
 ```javascript
 getName() : string;
@@ -320,7 +945,7 @@ The max length of sheet name is 31. And you cannot assign same name(case insensi
 
 ### setName(string) {#setName-string-}
 
-Gets or sets the name of the worksheet.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the worksheet.
 
 ```javascript
 setName(value: string) : void;
@@ -337,7 +962,7 @@ The max length of sheet name is 31. And you cannot assign same name(case insensi
 
 ### getShowFormulas() {#getShowFormulas--}
 
-Indicates whether to show formulas or their results.
+<b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results.
 
 ```javascript
 getShowFormulas() : boolean;
@@ -346,7 +971,7 @@ getShowFormulas() : boolean;
 
 ### setShowFormulas(boolean) {#setShowFormulas-boolean-}
 
-Indicates whether to show formulas or their results.
+<b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results.
 
 ```javascript
 setShowFormulas(value: boolean) : void;
@@ -359,7 +984,7 @@ setShowFormulas(value: boolean) : void;
 
 ### isGridlinesVisible() {#isGridlinesVisible--}
 
-Gets or sets a value indicating whether the gridlines are visible.Default is true.
+<b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true.
 
 ```javascript
 isGridlinesVisible() : boolean;
@@ -368,7 +993,7 @@ isGridlinesVisible() : boolean;
 
 ### setIsGridlinesVisible(boolean) {#setIsGridlinesVisible-boolean-}
 
-Gets or sets a value indicating whether the gridlines are visible.Default is true.
+<b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true.
 
 ```javascript
 setIsGridlinesVisible(value: boolean) : void;
@@ -381,7 +1006,7 @@ setIsGridlinesVisible(value: boolean) : void;
 
 ### isRowColumnHeadersVisible() {#isRowColumnHeadersVisible--}
 
-Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
+<b>@deprecated.</b> Please use the 'isRowColumnHeadersVisible' property instead. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
 
 ```javascript
 isRowColumnHeadersVisible() : boolean;
@@ -390,7 +1015,7 @@ isRowColumnHeadersVisible() : boolean;
 
 ### setIsRowColumnHeadersVisible(boolean) {#setIsRowColumnHeadersVisible-boolean-}
 
-Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
+<b>@deprecated.</b> Please use the 'isRowColumnHeadersVisible' property instead. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
 
 ```javascript
 setIsRowColumnHeadersVisible(value: boolean) : void;
@@ -403,7 +1028,7 @@ setIsRowColumnHeadersVisible(value: boolean) : void;
 
 ### getPaneState() {#getPaneState--}
 
-Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
+<b>@deprecated.</b> Please use the 'paneState' property instead. Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
 
 ```javascript
 getPaneState() : PaneStateType;
@@ -416,7 +1041,7 @@ getPaneState() : PaneStateType;
 
 ### getDisplayZeros() {#getDisplayZeros--}
 
-True if zero values are displayed.
+<b>@deprecated.</b> Please use the 'displayZeros' property instead. True if zero values are displayed.
 
 ```javascript
 getDisplayZeros() : boolean;
@@ -425,7 +1050,7 @@ getDisplayZeros() : boolean;
 
 ### setDisplayZeros(boolean) {#setDisplayZeros-boolean-}
 
-True if zero values are displayed.
+<b>@deprecated.</b> Please use the 'displayZeros' property instead. True if zero values are displayed.
 
 ```javascript
 setDisplayZeros(value: boolean) : void;
@@ -438,7 +1063,7 @@ setDisplayZeros(value: boolean) : void;
 
 ### getDisplayRightToLeft() {#getDisplayRightToLeft--}
 
-Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
+<b>@deprecated.</b> Please use the 'displayRightToLeft' property instead. Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 
 ```javascript
 getDisplayRightToLeft() : boolean;
@@ -447,7 +1072,7 @@ getDisplayRightToLeft() : boolean;
 
 ### setDisplayRightToLeft(boolean) {#setDisplayRightToLeft-boolean-}
 
-Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
+<b>@deprecated.</b> Please use the 'displayRightToLeft' property instead. Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 
 ```javascript
 setDisplayRightToLeft(value: boolean) : void;
@@ -460,7 +1085,7 @@ setDisplayRightToLeft(value: boolean) : void;
 
 ### isOutlineShown() {#isOutlineShown--}
 
-Indicates whether to show outline.
+<b>@deprecated.</b> Please use the 'isOutlineShown' property instead. Indicates whether to show outline.
 
 ```javascript
 isOutlineShown() : boolean;
@@ -469,7 +1094,7 @@ isOutlineShown() : boolean;
 
 ### setIsOutlineShown(boolean) {#setIsOutlineShown-boolean-}
 
-Indicates whether to show outline.
+<b>@deprecated.</b> Please use the 'isOutlineShown' property instead. Indicates whether to show outline.
 
 ```javascript
 setIsOutlineShown(value: boolean) : void;
@@ -482,7 +1107,7 @@ setIsOutlineShown(value: boolean) : void;
 
 ### isSelected() {#isSelected--}
 
-Indicates whether this worksheet is selected when the workbook is opened.
+<b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this worksheet is selected when the workbook is opened.
 
 ```javascript
 isSelected() : boolean;
@@ -491,7 +1116,7 @@ isSelected() : boolean;
 
 ### setIsSelected(boolean) {#setIsSelected-boolean-}
 
-Indicates whether this worksheet is selected when the workbook is opened.
+<b>@deprecated.</b> Please use the 'isSelected' property instead. Indicates whether this worksheet is selected when the workbook is opened.
 
 ```javascript
 setIsSelected(value: boolean) : void;
@@ -504,7 +1129,7 @@ setIsSelected(value: boolean) : void;
 
 ### getPivotTables() {#getPivotTables--}
 
-Gets all pivot tables in this worksheet.
+<b>@deprecated.</b> Please use the 'pivotTables' property instead. Gets all pivot tables in this worksheet.
 
 ```javascript
 getPivotTables() : PivotTableCollection;
@@ -517,7 +1142,7 @@ getPivotTables() : PivotTableCollection;
 
 ### getListObjects() {#getListObjects--}
 
-Gets all ListObjects in this worksheet.
+<b>@deprecated.</b> Please use the 'listObjects' property instead. Gets all ListObjects in this worksheet.
 
 ```javascript
 getListObjects() : ListObjectCollection;
@@ -530,7 +1155,7 @@ getListObjects() : ListObjectCollection;
 
 ### getTabId() {#getTabId--}
 
-Specifies the internal identifier for the sheet.
+<b>@deprecated.</b> Please use the 'tabId' property instead. Specifies the internal identifier for the sheet.
 
 ```javascript
 getTabId() : number;
@@ -539,7 +1164,7 @@ getTabId() : number;
 
 ### setTabId(number) {#setTabId-number-}
 
-Specifies the internal identifier for the sheet.
+<b>@deprecated.</b> Please use the 'tabId' property instead. Specifies the internal identifier for the sheet.
 
 ```javascript
 setTabId(value: number) : void;
@@ -552,7 +1177,7 @@ setTabId(value: number) : void;
 
 ### getHorizontalPageBreaks() {#getHorizontalPageBreaks--}
 
-Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection.
+<b>@deprecated.</b> Please use the 'horizontalPageBreaks' property instead. Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection.
 
 ```javascript
 getHorizontalPageBreaks() : HorizontalPageBreakCollection;
@@ -565,7 +1190,7 @@ getHorizontalPageBreaks() : HorizontalPageBreakCollection;
 
 ### getVerticalPageBreaks() {#getVerticalPageBreaks--}
 
-Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection.
+<b>@deprecated.</b> Please use the 'verticalPageBreaks' property instead. Gets the [VerticalPageBreakCollection](../verticalpagebreakcollection/) collection.
 
 ```javascript
 getVerticalPageBreaks() : VerticalPageBreakCollection;
@@ -578,7 +1203,7 @@ getVerticalPageBreaks() : VerticalPageBreakCollection;
 
 ### getHyperlinks() {#getHyperlinks--}
 
-Gets the [HyperlinkCollection](../hyperlinkcollection/) collection.
+<b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets the [HyperlinkCollection](../hyperlinkcollection/) collection.
 
 ```javascript
 getHyperlinks() : HyperlinkCollection;
@@ -591,7 +1216,7 @@ getHyperlinks() : HyperlinkCollection;
 
 ### getPageSetup() {#getPageSetup--}
 
-Represents the page setup description in this sheet.
+<b>@deprecated.</b> Please use the 'pageSetup' property instead. Represents the page setup description in this sheet.
 
 ```javascript
 getPageSetup() : PageSetup;
@@ -604,7 +1229,7 @@ getPageSetup() : PageSetup;
 
 ### getAutoFilter() {#getAutoFilter--}
 
-Represents auto filter for the specified worksheet.
+<b>@deprecated.</b> Please use the 'autoFilter' property instead. Represents auto filter for the specified worksheet.
 
 ```javascript
 getAutoFilter() : AutoFilter;
@@ -617,7 +1242,7 @@ getAutoFilter() : AutoFilter;
 
 ### getHasAutofilter() {#getHasAutofilter--}
 
-Indicates whether this worksheet has auto filter.
+<b>@deprecated.</b> Please use the 'hasAutofilter' property instead. Indicates whether this worksheet has auto filter.
 
 ```javascript
 getHasAutofilter() : boolean;
@@ -626,7 +1251,7 @@ getHasAutofilter() : boolean;
 
 ### getTransitionEvaluation() {#getTransitionEvaluation--}
 
-Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
+<b>@deprecated.</b> Please use the 'transitionEvaluation' property instead. Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
 
 ```javascript
 getTransitionEvaluation() : boolean;
@@ -635,7 +1260,7 @@ getTransitionEvaluation() : boolean;
 
 ### setTransitionEvaluation(boolean) {#setTransitionEvaluation-boolean-}
 
-Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
+<b>@deprecated.</b> Please use the 'transitionEvaluation' property instead. Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
 
 ```javascript
 setTransitionEvaluation(value: boolean) : void;
@@ -648,7 +1273,7 @@ setTransitionEvaluation(value: boolean) : void;
 
 ### getTransitionEntry() {#getTransitionEntry--}
 
-Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
+<b>@deprecated.</b> Please use the 'transitionEntry' property instead. Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
 
 ```javascript
 getTransitionEntry() : boolean;
@@ -657,7 +1282,7 @@ getTransitionEntry() : boolean;
 
 ### setTransitionEntry(boolean) {#setTransitionEntry-boolean-}
 
-Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
+<b>@deprecated.</b> Please use the 'transitionEntry' property instead. Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
 
 ```javascript
 setTransitionEntry(value: boolean) : void;
@@ -670,7 +1295,7 @@ setTransitionEntry(value: boolean) : void;
 
 ### getVisibilityType() {#getVisibilityType--}
 
-Indicates the visible state for this sheet.
+<b>@deprecated.</b> Please use the 'visibilityType' property instead. Indicates the visible state for this sheet.
 
 ```javascript
 getVisibilityType() : VisibilityType;
@@ -683,7 +1308,7 @@ getVisibilityType() : VisibilityType;
 
 ### setVisibilityType(VisibilityType) {#setVisibilityType-visibilitytype-}
 
-Indicates the visible state for this sheet.
+<b>@deprecated.</b> Please use the 'visibilityType' property instead. Indicates the visible state for this sheet.
 
 ```javascript
 setVisibilityType(value: VisibilityType) : void;
@@ -696,7 +1321,7 @@ setVisibilityType(value: VisibilityType) : void;
 
 ### isVisible() {#isVisible--}
 
-Represents if the worksheet is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the worksheet is visible.
 
 ```javascript
 isVisible() : boolean;
@@ -705,7 +1330,7 @@ isVisible() : boolean;
 
 ### setIsVisible(boolean) {#setIsVisible-boolean-}
 
-Represents if the worksheet is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the worksheet is visible.
 
 ```javascript
 setIsVisible(value: boolean) : void;
@@ -718,7 +1343,7 @@ setIsVisible(value: boolean) : void;
 
 ### getSparklineGroups() {#getSparklineGroups--}
 
-Gets the sparkline groups in the worksheet.
+<b>@deprecated.</b> Please use the 'sparklineGroups' property instead. Gets the sparkline groups in the worksheet.
 
 ```javascript
 getSparklineGroups() : SparklineGroupCollection;
@@ -731,7 +1356,7 @@ getSparklineGroups() : SparklineGroupCollection;
 
 ### getCharts() {#getCharts--}
 
-Gets a [Chart](../chart/) collection
+<b>@deprecated.</b> Please use the 'charts' property instead. Gets a [Chart](../chart/) collection
 
 ```javascript
 getCharts() : ChartCollection;
@@ -744,7 +1369,7 @@ getCharts() : ChartCollection;
 
 ### getComments() {#getComments--}
 
-Gets the [Comment](../comment/) collection.
+<b>@deprecated.</b> Please use the 'comments' property instead. Gets the [Comment](../comment/) collection.
 
 ```javascript
 getComments() : CommentCollection;
@@ -757,7 +1382,7 @@ getComments() : CommentCollection;
 
 ### getPictures() {#getPictures--}
 
-Gets a [Picture](../picture/) collection.
+<b>@deprecated.</b> Please use the 'pictures' property instead. Gets a [Picture](../picture/) collection.
 
 ```javascript
 getPictures() : PictureCollection;
@@ -770,7 +1395,7 @@ getPictures() : PictureCollection;
 
 ### getTextBoxes() {#getTextBoxes--}
 
-Gets a [TextBox](../textbox/) collection.
+<b>@deprecated.</b> Please use the 'textBoxes' property instead. Gets a [TextBox](../textbox/) collection.
 
 ```javascript
 getTextBoxes() : TextBoxCollection;
@@ -783,7 +1408,7 @@ getTextBoxes() : TextBoxCollection;
 
 ### getCheckBoxes() {#getCheckBoxes--}
 
-Gets a [CheckBox](../checkbox/) collection.
+<b>@deprecated.</b> Please use the 'checkBoxes' property instead. Gets a [CheckBox](../checkbox/) collection.
 
 ```javascript
 getCheckBoxes() : CheckBoxCollection;
@@ -796,7 +1421,7 @@ getCheckBoxes() : CheckBoxCollection;
 
 ### getOleObjects() {#getOleObjects--}
 
-Represents a collection of [OleObject](../oleobject/) in a worksheet.
+<b>@deprecated.</b> Please use the 'oleObjects' property instead. Represents a collection of [OleObject](../oleobject/) in a worksheet.
 
 ```javascript
 getOleObjects() : OleObjectCollection;
@@ -809,7 +1434,7 @@ getOleObjects() : OleObjectCollection;
 
 ### getShapes() {#getShapes--}
 
-Returns all drawing shapes in this worksheet.
+<b>@deprecated.</b> Please use the 'shapes' property instead. Returns all drawing shapes in this worksheet.
 
 ```javascript
 getShapes() : ShapeCollection;
@@ -822,7 +1447,7 @@ getShapes() : ShapeCollection;
 
 ### getSlicers() {#getSlicers--}
 
-Get the Slicer collection in the worksheet
+<b>@deprecated.</b> Please use the 'slicers' property instead. Get the Slicer collection in the worksheet
 
 ```javascript
 getSlicers() : SlicerCollection;
@@ -835,7 +1460,7 @@ getSlicers() : SlicerCollection;
 
 ### getTimelines() {#getTimelines--}
 
-Get the Timeline collection in the worksheet
+<b>@deprecated.</b> Please use the 'timelines' property instead. Get the Timeline collection in the worksheet
 
 ```javascript
 getTimelines() : TimelineCollection;
@@ -848,7 +1473,7 @@ getTimelines() : TimelineCollection;
 
 ### getIndex() {#getIndex--}
 
-Gets the index of sheet in the worksheet collection.
+<b>@deprecated.</b> Please use the 'index' property instead. Gets the index of sheet in the worksheet collection.
 
 ```javascript
 getIndex() : number;
@@ -857,7 +1482,7 @@ getIndex() : number;
 
 ### isProtected() {#isProtected--}
 
-Indicates if the worksheet is protected.
+<b>@deprecated.</b> Please use the 'isProtected' property instead. Indicates if the worksheet is protected.
 
 ```javascript
 isProtected() : boolean;
@@ -866,7 +1491,7 @@ isProtected() : boolean;
 
 ### getValidations() {#getValidations--}
 
-Gets the data validation setting collection in the worksheet.
+<b>@deprecated.</b> Please use the 'validations' property instead. Gets the data validation setting collection in the worksheet.
 
 ```javascript
 getValidations() : ValidationCollection;
@@ -879,7 +1504,7 @@ getValidations() : ValidationCollection;
 
 ### getAllowEditRanges() {#getAllowEditRanges--}
 
-Gets the allow edit range collection in the worksheet.
+<b>@deprecated.</b> Please use the 'allowEditRanges' property instead. Gets the allow edit range collection in the worksheet.
 
 ```javascript
 getAllowEditRanges() : ProtectedRangeCollection;
@@ -892,7 +1517,7 @@ getAllowEditRanges() : ProtectedRangeCollection;
 
 ### getErrorCheckOptions() {#getErrorCheckOptions--}
 
-Gets error check setting applied on certain ranges.
+<b>@deprecated.</b> Please use the 'errorCheckOptions' property instead. Gets error check setting applied on certain ranges.
 
 ```javascript
 getErrorCheckOptions() : ErrorCheckOptionCollection;
@@ -905,7 +1530,7 @@ getErrorCheckOptions() : ErrorCheckOptionCollection;
 
 ### getOutline() {#getOutline--}
 
-Gets the outline on this worksheet.
+<b>@deprecated.</b> Please use the 'outline' property instead. Gets the outline on this worksheet.
 
 ```javascript
 getOutline() : Outline;
@@ -918,7 +1543,7 @@ getOutline() : Outline;
 
 ### getFirstVisibleRow() {#getFirstVisibleRow--}
 
-Represents first visible row index.
+<b>@deprecated.</b> Please use the 'firstVisibleRow' property instead. Represents first visible row index.
 
 ```javascript
 getFirstVisibleRow() : number;
@@ -927,7 +1552,7 @@ getFirstVisibleRow() : number;
 
 ### setFirstVisibleRow(number) {#setFirstVisibleRow-number-}
 
-Represents first visible row index.
+<b>@deprecated.</b> Please use the 'firstVisibleRow' property instead. Represents first visible row index.
 
 ```javascript
 setFirstVisibleRow(value: number) : void;
@@ -940,7 +1565,7 @@ setFirstVisibleRow(value: number) : void;
 
 ### getFirstVisibleColumn() {#getFirstVisibleColumn--}
 
-Represents first visible column index.
+<b>@deprecated.</b> Please use the 'firstVisibleColumn' property instead. Represents first visible column index.
 
 ```javascript
 getFirstVisibleColumn() : number;
@@ -949,7 +1574,7 @@ getFirstVisibleColumn() : number;
 
 ### setFirstVisibleColumn(number) {#setFirstVisibleColumn-number-}
 
-Represents first visible column index.
+<b>@deprecated.</b> Please use the 'firstVisibleColumn' property instead. Represents first visible column index.
 
 ```javascript
 setFirstVisibleColumn(value: number) : void;
@@ -962,7 +1587,7 @@ setFirstVisibleColumn(value: number) : void;
 
 ### getZoom() {#getZoom--}
 
-Represents the scaling factor in percentage. It should be between 10 and 400.
+<b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percentage. It should be between 10 and 400.
 
 ```javascript
 getZoom() : number;
@@ -975,7 +1600,7 @@ Please set the view type first.
 
 ### setZoom(number) {#setZoom-number-}
 
-Represents the scaling factor in percentage. It should be between 10 and 400.
+<b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percentage. It should be between 10 and 400.
 
 ```javascript
 setZoom(value: number) : void;
@@ -992,7 +1617,7 @@ Please set the view type first.
 
 ### getViewType() {#getViewType--}
 
-Gets and sets the view type.
+<b>@deprecated.</b> Please use the 'viewType' property instead. Gets and sets the view type.
 
 ```javascript
 getViewType() : ViewType;
@@ -1005,7 +1630,7 @@ getViewType() : ViewType;
 
 ### setViewType(ViewType) {#setViewType-viewtype-}
 
-Gets and sets the view type.
+<b>@deprecated.</b> Please use the 'viewType' property instead. Gets and sets the view type.
 
 ```javascript
 setViewType(value: ViewType) : void;
@@ -1018,7 +1643,7 @@ setViewType(value: ViewType) : void;
 
 ### isPageBreakPreview() {#isPageBreakPreview--}
 
-Indicates whether the specified worksheet is shown in normal view or page break preview.
+<b>@deprecated.</b> Please use the 'isPageBreakPreview' property instead. Indicates whether the specified worksheet is shown in normal view or page break preview.
 
 ```javascript
 isPageBreakPreview() : boolean;
@@ -1027,7 +1652,7 @@ isPageBreakPreview() : boolean;
 
 ### setIsPageBreakPreview(boolean) {#setIsPageBreakPreview-boolean-}
 
-Indicates whether the specified worksheet is shown in normal view or page break preview.
+<b>@deprecated.</b> Please use the 'isPageBreakPreview' property instead. Indicates whether the specified worksheet is shown in normal view or page break preview.
 
 ```javascript
 setIsPageBreakPreview(value: boolean) : void;
@@ -1040,7 +1665,7 @@ setIsPageBreakPreview(value: boolean) : void;
 
 ### isRulerVisible() {#isRulerVisible--}
 
-Indicates whether the ruler is visible. This property is only applied for page break preview.
+<b>@deprecated.</b> Please use the 'isRulerVisible' property instead. Indicates whether the ruler is visible. This property is only applied for page break preview.
 
 ```javascript
 isRulerVisible() : boolean;
@@ -1049,7 +1674,7 @@ isRulerVisible() : boolean;
 
 ### setIsRulerVisible(boolean) {#setIsRulerVisible-boolean-}
 
-Indicates whether the ruler is visible. This property is only applied for page break preview.
+<b>@deprecated.</b> Please use the 'isRulerVisible' property instead. Indicates whether the ruler is visible. This property is only applied for page break preview.
 
 ```javascript
 setIsRulerVisible(value: boolean) : void;
@@ -1062,7 +1687,7 @@ setIsRulerVisible(value: boolean) : void;
 
 ### getTabColor() {#getTabColor--}
 
-Represents worksheet tab color.
+<b>@deprecated.</b> Please use the 'tabColor' property instead. Represents worksheet tab color.
 
 ```javascript
 getTabColor() : Color;
@@ -1079,7 +1704,7 @@ This feature is only supported in ExcelXP(Excel2002) and later versions. If you 
 
 ### setTabColor(Color) {#setTabColor-color-}
 
-Represents worksheet tab color.
+<b>@deprecated.</b> Please use the 'tabColor' property instead. Represents worksheet tab color.
 
 ```javascript
 setTabColor(value: Color) : void;
@@ -1096,7 +1721,7 @@ This feature is only supported in ExcelXP(Excel2002) and later versions. If you 
 
 ### getGridlineColor() {#getGridlineColor--}
 
-Gets and sets the color of gridline
+<b>@deprecated.</b> Please use the 'gridlineColor' property instead. Gets and sets the color of gridline
 
 ```javascript
 getGridlineColor() : Color;
@@ -1109,7 +1734,7 @@ getGridlineColor() : Color;
 
 ### setGridlineColor(Color) {#setGridlineColor-color-}
 
-Gets and sets the color of gridline
+<b>@deprecated.</b> Please use the 'gridlineColor' property instead. Gets and sets the color of gridline
 
 ```javascript
 setGridlineColor(value: Color) : void;
@@ -1122,7 +1747,7 @@ setGridlineColor(value: Color) : void;
 
 ### getCodeName() {#getCodeName--}
 
-Gets worksheet code name.
+<b>@deprecated.</b> Please use the 'codeName' property instead. Gets worksheet code name.
 
 ```javascript
 getCodeName() : string;
@@ -1131,7 +1756,7 @@ getCodeName() : string;
 
 ### setCodeName(string) {#setCodeName-string-}
 
-Gets worksheet code name.
+<b>@deprecated.</b> Please use the 'codeName' property instead. Gets worksheet code name.
 
 ```javascript
 setCodeName(value: string) : void;
@@ -1144,7 +1769,7 @@ setCodeName(value: string) : void;
 
 ### getBackgroundImage() {#getBackgroundImage--}
 
-Gets and sets worksheet background image.
+<b>@deprecated.</b> Please use the 'backgroundImage' property instead. Gets and sets worksheet background image.
 
 ```javascript
 getBackgroundImage() : Uint8Array;
@@ -1153,7 +1778,7 @@ getBackgroundImage() : Uint8Array;
 
 ### setBackgroundImage(Uint8Array) {#setBackgroundImage-uint8array-}
 
-Gets and sets worksheet background image.
+<b>@deprecated.</b> Please use the 'backgroundImage' property instead. Gets and sets worksheet background image.
 
 ```javascript
 setBackgroundImage(value: Uint8Array) : void;
@@ -1166,7 +1791,7 @@ setBackgroundImage(value: Uint8Array) : void;
 
 ### getConditionalFormattings() {#getConditionalFormattings--}
 
-Gets the ConditionalFormattings in the worksheet.
+<b>@deprecated.</b> Please use the 'conditionalFormattings' property instead. Gets the ConditionalFormattings in the worksheet.
 
 ```javascript
 getConditionalFormattings() : ConditionalFormattingCollection;
@@ -1179,7 +1804,7 @@ getConditionalFormattings() : ConditionalFormattingCollection;
 
 ### getActiveCell() {#getActiveCell--}
 
-Gets or sets the active cell in the worksheet.
+<b>@deprecated.</b> Please use the 'activeCell' property instead. Gets or sets the active cell in the worksheet.
 
 ```javascript
 getActiveCell() : string;
@@ -1188,7 +1813,7 @@ getActiveCell() : string;
 
 ### setActiveCell(string) {#setActiveCell-string-}
 
-Gets or sets the active cell in the worksheet.
+<b>@deprecated.</b> Please use the 'activeCell' property instead. Gets or sets the active cell in the worksheet.
 
 ```javascript
 setActiveCell(value: string) : void;
@@ -1201,7 +1826,7 @@ setActiveCell(value: string) : void;
 
 ### getCustomProperties() {#getCustomProperties--}
 
-Gets an object representing the identifier information associated with a worksheet.
+<b>@deprecated.</b> Please use the 'customProperties' property instead. Gets an object representing the identifier information associated with a worksheet.
 
 ```javascript
 getCustomProperties() : CustomPropertyCollection;
@@ -1218,7 +1843,7 @@ Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary d
 
 ### getSmartTagSetting() {#getSmartTagSetting--}
 
-Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet.
+<b>@deprecated.</b> Please use the 'smartTagSetting' property instead. Gets all [SmartTagCollection](../smarttagcollection/) objects of the worksheet.
 
 ```javascript
 getSmartTagSetting() : SmartTagSetting;
@@ -1231,7 +1856,7 @@ getSmartTagSetting() : SmartTagSetting;
 
 ### getScenarios() {#getScenarios--}
 
-Gets the collection of [Scenario](../scenario/).
+<b>@deprecated.</b> Please use the 'scenarios' property instead. Gets the collection of [Scenario](../scenario/).
 
 ```javascript
 getScenarios() : ScenarioCollection;
@@ -1244,7 +1869,7 @@ getScenarios() : ScenarioCollection;
 
 ### getCellWatches() {#getCellWatches--}
 
-Gets collection of cells on this worksheet being watched in the 'watch window'.
+<b>@deprecated.</b> Please use the 'cellWatches' property instead. Gets collection of cells on this worksheet being watched in the 'watch window'.
 
 ```javascript
 getCellWatches() : CellWatchCollection;
@@ -2147,7 +2772,7 @@ const { Workbook, ProtectionType } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var excel = new Workbook("input/Book1.xls");
 //Accessing the first worksheet in the Excel file
-var worksheet = excel.getWorksheets().get(0);
+var worksheet = excel.worksheets.get(0);
 //Protecting the worksheet with a password
 worksheet.protect(ProtectionType.All, "aspose", null);
 //Saving the modified Excel file in default (that is Excel 20003) format

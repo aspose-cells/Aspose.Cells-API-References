@@ -16,23 +16,46 @@ public int FirstSliceAngle { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.FirstSliceAngle = 15;
-		public void Chart_Property_FirstSliceAngle()
-		{
-			Workbook excel = new Workbook();
-			Worksheet sheet = excel.Worksheets[0];
-			sheet.Cells["h3"].PutValue(1);
-			sheet.Cells["h4"].PutValue(2);
-			sheet.Cells["h5"].PutValue(3);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-			int chartIndex = sheet.Charts.Add(ChartType.Pie, 3, 3, 8, 6);
-			Chart chart = sheet.Charts[chartIndex];
-			chart.NSeries.Add("h3:h5", true);
-			chart.FirstSliceAngle = 15;
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyFirstSliceAngleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(30);
+            worksheet.Cells["B4"].PutValue(20);
 
-			excel.Save(Constants.destPath + "pieangle.xls");
-
-		}
+            // Add pie chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set first slice angle to 45 degrees
+            chart.FirstSliceAngle = 45;
+            
+            // Save the workbook
+            workbook.Save("PieChartWithFirstSliceAngle.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,23 +16,45 @@ public ListColumnCollection ListColumns { get; }
 ### Examples
 
 ```csharp
-// Called: listObjects[0].ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
-public void ListObject_Property_ListColumns()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("ListObject_Property_ListColumns()");
-    string infn = path + "Test_CreateTable.xlsx";
-    string outfn = Constants.destPath + "Test_CreateTable_out.xlsx";
+    public class ListObjectPropertyListColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].PutValue((i + 1) * (j + 1));
+                }
+            }
 
-    Workbook workbook = new Workbook(infn);
+            // Create a list object
+            ListObjectCollection listObjects = worksheet.ListObjects;
+            int index = listObjects.Add(0, 0, 9, 4, true);
+            ListObject listObject = listObjects[index];
+            
+            // Enable totals and set calculation for the 5th column
+            listObject.ShowTotals = true;
+            listObject.ListColumns[4].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
+            
+            // Apply table style
+            listObject.TableStyleType = Aspose.Cells.Tables.TableStyleType.TableStyleLight4;
 
-    ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
-    listObjects.Add(1, 1, 11, 5, true);
-    listObjects[0].ShowTotals = true;
-    listObjects[0].ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
-
-    listObjects[0].TableStyleType = TableStyleType.TableStyleLight4;
-
-    workbook.Save(outfn);
+            // Save the workbook
+            workbook.Save("ListColumnsDemo_out.xlsx");
+        }
+    }
 }
 ```
 

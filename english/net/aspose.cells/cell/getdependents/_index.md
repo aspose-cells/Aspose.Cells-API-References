@@ -24,16 +24,37 @@ If one reference containing this cell appears in one cell's formula, that cell w
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
-cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-Cell[] dependents = cells["B1"].GetDependents(true);
-for (int i = 0; i < dependents.Length; i++)
+namespace AsposeCellsExamples
 {
-     Console.WriteLine(dependents[i].Name);
+    public class CellMethodGetDependentsWithBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set formulas that reference B1
+            cells["A1"].Formula = "=B1+5";
+            cells["A2"].Formula = "=B1*2";
+            cells["A3"].Formula = "=SUM(B1:B3)";
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Get all cells that depend on B1 (recursive)
+            Cell[] dependents = cells["B1"].GetDependents(true);
+
+            Console.WriteLine("Cells dependent on B1:");
+            foreach (Cell cell in dependents)
+            {
+                Console.WriteLine(cell.Name + ": " + cell.Formula);
+            }
+        }
+    }
 }
 ```
 

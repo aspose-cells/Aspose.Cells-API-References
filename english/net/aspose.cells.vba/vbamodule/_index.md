@@ -25,36 +25,36 @@ public class VbaModule
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Vba;
+    using System;
 
-[C#]
+    public class VbaModuleDemo
+    {
+        public static void VbaModuleExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
- // Init VBA project.
-VbaProject vbaProject = workbook.VbaProject; 
-// Add a new module.
-int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
-// Get vba module
-VbaModule vbaModule = vbaProject.Modules[index];
-// Set codes
-vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
-//Saving the Excel file
-workbook.Save("book1.xlsm");
+            // Initialize VBA project
+            VbaProject vbaProject = workbook.VbaProject;
 
- [Visual Basic]
+            // Add a new module
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Init VBA project.
-Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add a new module.
-Dim index as Integer = vbaProject.Modules.Add(VbaModuleType.Class, "test")
-'Get vba module
-Dim vbaModule as VbaModule = vbaProject.Modules(index)
-'Set codes
-vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub"
-'Saving the Excel file
-workbook.Save("book1.xlsm")
+            // Get the VBA module
+            VbaModule vbaModule = vbaProject.Modules[index];
+
+            // Set the codes for the module
+            vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
+
+            // Saving the Excel file
+            workbook.Save("VbaModuleExample.xlsm");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -76,15 +76,32 @@ Number of Multimedia Clips
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-DocumentProperty doc = workbook.BuiltInDocumentProperties["Author"];
-doc.Value = "John Smith";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
 
-[Visual Basic]
-Dim workbook as Workbook = New Workbook()
-Dim doc as DocumentProperty = workbook.BuiltInDocumentProperties("Author")
-doc.Value = "John Smith"
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyBuiltInDocumentPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access and modify built-in document properties
+            DocumentProperty authorProperty = workbook.BuiltInDocumentProperties["Author"];
+            authorProperty.Value = "John Smith";
+            
+            DocumentProperty titleProperty = workbook.BuiltInDocumentProperties["Title"];
+            titleProperty.Value = "Sample Workbook";
+            
+            // Display the modified properties
+            Console.WriteLine("Author: " + workbook.BuiltInDocumentProperties["Author"].Value);
+            Console.WriteLine("Title: " + workbook.BuiltInDocumentProperties["Title"].Value);
+        }
+    }
+}
 ```
 
 ### See Also

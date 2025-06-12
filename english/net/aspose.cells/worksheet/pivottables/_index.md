@@ -16,26 +16,44 @@ public PivotTableCollection PivotTables { get; }
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Pivot.PivotTable _PivotTable = _sheetActiva.PivotTables[0];
-public void Worksheet_Property_PivotTables()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET44514_";
-
-    Workbook workbook = new Workbook(filePath + "SellOut.xlsx");
-    Aspose.Cells.Worksheet _sheetActiva = workbook.Worksheets[0];
-
-    //aplicar filtro
-    Aspose.Cells.Pivot.PivotTable _PivotTable = _sheetActiva.PivotTables[0];
-
-    _PivotTable.PivotFilters.Clear();
-
-    Aspose.Cells.Pivot.PivotField _PivotField = GetPivotFieldByDisplayNameNET44514(ref _PivotTable, "Ejercicio");
-
-    List<string> _lstStrValores = new List<string>() { "2014/15" };
-    SetValuePivotFieldNET44514(ref _sheetActiva, ref _PivotTable, ref _PivotField, _lstStrValores);
-
-
-    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+    public class WorksheetPropertyPivotTablesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("PivotTableExample.xlsx");
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access pivot tables collection from worksheet
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            
+            // Check if there are any pivot tables
+            if (pivotTables.Count > 0)
+            {
+                // Get first pivot table
+                PivotTable pivotTable = pivotTables[0];
+                
+                // Clear any existing filters
+                pivotTable.PivotFilters.Clear();
+                
+                // Refresh pivot table data
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+                
+                // Save the modified workbook
+                workbook.Save("PivotTableModified.xlsx");
+            }
+        }
+    }
 }
 ```
 

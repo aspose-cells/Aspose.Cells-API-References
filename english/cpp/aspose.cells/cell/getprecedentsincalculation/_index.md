@@ -4,7 +4,7 @@ linktitle: GetPrecedentsInCalculation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetPrecedentsInCalculation method. Gets all precedents(reference to cells in current workbook) used by this cell''s formula while calculating it in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.cells/cell/getprecedentsincalculation/
 ---
 ## Cell::GetPrecedentsInCalculation method

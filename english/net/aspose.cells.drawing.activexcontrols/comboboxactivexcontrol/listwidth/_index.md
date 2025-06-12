@@ -16,57 +16,50 @@ public double ListWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.ListWidth = 100;
-public static void ComboBoxActiveXControl_Property_ListWidth()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyListWidthDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Item");
-            worksheet.Cells["A2"].PutValue("Item 1");
-            worksheet.Cells["A3"].PutValue("Item 2");
-            worksheet.Cells["A4"].PutValue("Item 3");
+            // Add sample data for the ComboBox
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Orange");
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Add a ComboBox ActiveX control with all required parameters
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox,
+                1,  // left
+                1,  // top
+                100, // width
+                30,  // height
+                0,   // image width (unused for ComboBox)
+                0    // image height (unused for ComboBox)
+            );
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl comboBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
+            // Set ListWidth property to control dropdown width
+            comboBox.ListWidth = 150;
             comboBox.ListRows = 3;
-            comboBox.ColumnCount = 1;
-            comboBox.ListStyle = ControlListStyle.Plain; // Set the ListStyle to Plain
-
-            // Add items to the ComboBox
-            comboBox.Value = "Item 1";
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the ListBox
-            listBox.ColumnCount = 1;
-            listBox.ListStyle = ControlListStyle.Option; // Set the ListStyle to Option
-
-            // Add items to the ListBox
-            listBox.Value = "Item 1";
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
+            comboBox.LinkedCell = "A1:A3";
 
             // Save the workbook
-            workbook.Save("ControlListStyleExample.xlsx");
-            workbook.Save("ControlListStyleExample.pdf");
+            workbook.Save("ComboBoxListWidthDemo.xlsx");
 
-            // Output the results
-            Console.WriteLine("ComboBox ListStyle: " + comboBox.ListStyle);
-            Console.WriteLine("ListBox ListStyle: " + listBox.ListStyle);
+            Console.WriteLine("ComboBox ListWidth set to: " + comboBox.ListWidth);
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,24 +16,35 @@ public PasteType PasteType { get; set; }
 ### Examples
 
 ```csharp
-// Called: targetRange.Copy(sourceRange, new PasteOptions() { PasteType = PasteType.All });
-public void PasteOptions_Property_PasteType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class PasteOptionsPropertyPasteTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Cell cell = worksheet.Cells["A1"];
-    cell.PutValue("1");
+            // Set source value
+            worksheet.Cells["A1"].PutValue("SourceValue");
 
-    Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1");
-    Aspose.Cells.Range targetRange = worksheet.Cells.CreateRange("B1:B3");
+            // Create ranges with fully qualified type names
+            Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1");
+            Aspose.Cells.Range targetRange = worksheet.Cells.CreateRange("B1:D3");
 
-    targetRange.Copy(sourceRange, new PasteOptions() { PasteType = PasteType.All });
+            // Copy with PasteType.All
+            targetRange.Copy(sourceRange, new PasteOptions() { PasteType = PasteType.All });
 
-    Assert.AreEqual(worksheet.Cells["A1"].StringValue, "1");
-    Assert.AreEqual(worksheet.Cells["B1"].StringValue, "1");
-    Assert.AreEqual(worksheet.Cells["B2"].StringValue, "1");
-    Assert.AreEqual(worksheet.Cells["B3"].StringValue, "1");
+            // Output results
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+            Console.WriteLine("B1: " + worksheet.Cells["B1"].StringValue);
+            Console.WriteLine("C2: " + worksheet.Cells["C2"].StringValue);
+            Console.WriteLine("D3: " + worksheet.Cells["D3"].StringValue);
+        }
+    }
 }
 ```
 

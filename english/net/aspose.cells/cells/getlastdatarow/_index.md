@@ -24,16 +24,48 @@ last row index.
 ### Examples
 
 ```csharp
-// Called: cellarea.EndRow = workbook.Worksheets["Volumes"].Cells.GetLastDataRow(0);
-public void Cells_Method_GetLastDataRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea cellarea = new CellArea();
-    cellarea.StartColumn = 0;
-    cellarea.StartRow = 9;
-    cellarea.EndColumn = 6;
-    cellarea.EndRow = workbook.Worksheets["Volumes"].Cells.GetLastDataRow(0);
-    workbook.Worksheets["Volumes"].Cells.InsertRange(cellarea, 1, ShiftType.Down, true);
+    public class CellsMethodGetLastDataRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["A3"].PutValue("Data2");
+            worksheet.Cells["A4"].PutValue("Data3");
+            
+            // Get the last data row in column A (index 0)
+            int lastRow = worksheet.Cells.GetLastDataRow(0);
+            
+            // Output the result
+            Console.WriteLine("Last data row in column A: " + lastRow);
+            
+            // Insert a new row after the last data row
+            CellArea area = new CellArea();
+            area.StartRow = lastRow + 1;
+            area.EndRow = lastRow + 1;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            worksheet.Cells.InsertRange(area, 1, ShiftType.Down);
+            
+            // Add data to the new row
+            worksheet.Cells[lastRow + 2, 0].PutValue("New Data");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

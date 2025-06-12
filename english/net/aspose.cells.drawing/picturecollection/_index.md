@@ -63,19 +63,53 @@ public class PictureCollection : CollectionBase<Picture>
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
 
-[C#]
+    public class PictureCollectionDemo
+    {
+        public static void PictureCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Accessing the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//get PictureCollection
-PictureCollection pictures = workbook.Worksheets[0].Pictures;
+            // Accessing the PictureCollection of the worksheet
+            PictureCollection pictures = worksheet.Pictures;
 
-//do your business
+            // Adding a picture using a file path
+            int pictureIndex1 = pictures.Add(1, 1, 5, 5, "PictureCollectionExample.jpg");
 
-//Save the excel file.
-workbook.Save("result.xlsx");
+            // Adding a picture using a stream
+            using (FileStream stream = new FileStream("PictureCollectionExample2.jpg", FileMode.Open))
+            {
+                int pictureIndex2 = pictures.Add(6, 1, 10, 5, stream);
+            }
+
+            // Adding a picture with scaling
+            int pictureIndex3 = pictures.Add(11, 1, "PictureCollectionExample3.jpg", 50, 50);
+
+            // Accessing a picture from the collection
+            Picture picture = pictures[pictureIndex1];
+
+            // Modifying the picture's properties
+            picture.Left = 10;
+            picture.Top = 10;
+
+            // Clearing all pictures from the collection
+            pictures.Clear();
+
+            // Saving the workbook
+            workbook.Save("PictureCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

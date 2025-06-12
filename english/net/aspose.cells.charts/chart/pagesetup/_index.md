@@ -16,30 +16,68 @@ public PageSetup PageSetup { get; }
 ### Examples
 
 ```csharp
-// Called: PageSetup ps = chart.PageSetup;
-public void Chart_Property_PageSetup()
-{
-    Workbook wb = new Workbook();
-    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
-    ws.Name = "Sheet";
-    int iChartWorksheet = wb.Worksheets.Add(SheetType.Chart);
-    ws = wb.Worksheets[iChartWorksheet];
-    ChartCollection charts = ws.Charts;
-    int chartIndex = charts.Add(ChartType.Column, 10, 10, 20, 20);
-    Chart chart = charts[chartIndex];
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    PageSetup ps = chart.PageSetup;
-    string path = Constants.sourcePath + "caffeine.wmf";
-    FileStream inFile = new System.IO.FileStream(path, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-    byte[] binaryData = new byte[inFile.Length];
-    long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
-    ps.SetHeaderPicture(0, binaryData);
-    ps.SetHeader(0, "&G");
-    //ps.SetHeader(0, "BI");
-    ps.SetHeader(1, "Center");
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(wb.Worksheets[iChartWorksheet].Charts[0].PageSetup.GetPicture(true, 0) != null, true);
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyPageSetupDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and insert some data for the chart
+            Worksheet dataSheet = workbook.Worksheets[workbook.Worksheets.Add()];
+            dataSheet.Name = "DataSheet";
+            dataSheet.Cells["A1"].PutValue("Category");
+            dataSheet.Cells["A2"].PutValue("A");
+            dataSheet.Cells["A3"].PutValue("B");
+            dataSheet.Cells["A4"].PutValue("C");
+            dataSheet.Cells["B1"].PutValue("Value");
+            dataSheet.Cells["B2"].PutValue(10);
+            dataSheet.Cells["B3"].PutValue(20);
+            dataSheet.Cells["B4"].PutValue(30);
+
+            // Add a chart sheet
+            int chartSheetIndex = workbook.Worksheets.Add(SheetType.Chart);
+            Worksheet chartSheet = workbook.Worksheets[chartSheetIndex];
+            chartSheet.Name = "ChartSheet";
+
+            // Add a chart to the chart sheet
+            int chartIndex = chartSheet.Charts.Add(ChartType.Column, 0, 0, 800, 600);
+            Chart chart = chartSheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Access the PageSetup of the chart
+            PageSetup pageSetup = chart.PageSetup;
+
+            // Set page setup properties
+            pageSetup.Orientation = PageOrientationType.Landscape;
+            pageSetup.PaperSize = PaperSizeType.PaperA4;
+            pageSetup.Zoom = 90;
+            pageSetup.LeftMargin = 2.0;
+            pageSetup.RightMargin = 2.0;
+            pageSetup.TopMargin = 2.0;
+            pageSetup.BottomMargin = 2.0;
+
+            // Set header with text and image
+            byte[] imageData = File.ReadAllBytes("logo.png");
+            pageSetup.SetHeaderPicture(0, imageData);
+            pageSetup.SetHeader(0, "&G");
+            pageSetup.SetHeader(1, "Sales Report");
+            pageSetup.SetHeader(2, "&D");
+
+            // Set footer
+            pageSetup.SetFooter(0, "Page &P of &N");
+
+            // Save the workbook
+            workbook.Save("ChartPageSetupDemo.xlsx");
+        }
+    }
 }
 ```
 

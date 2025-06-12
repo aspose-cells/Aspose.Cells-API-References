@@ -22,36 +22,45 @@ const { Workbook, Color } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Adding a new worksheet to the Excel object
-workbook.getWorksheets().add();
+workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Accessing the "A1" cell from the worksheet
-var cell = worksheet.getCells().get("A1");
+var cell = worksheet.cells.get("A1");
 //Adding some value to the "A1" cell
 cell.putValue("Visit Aspose!");
 //getting charactor
 var charactor = cell.characters(6, 7);
 //Setting the font of selected characters to bold
-charactor.getFont().setIsBold(true);
+charactor.font.isBold = true;
 //Setting the font color of selected characters to blue
-charactor.getFont().setColor(Color.Blue);
+charactor.font.color = Color.Blue;
 //Saving the Excel file
 workbook.save("output/FontSetting.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(number, number, WorksheetCollection)](#constructor-number-number-worksheetcollection-)|  |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the type of text node. |
@@ -72,9 +81,45 @@ constructor(startIndex: number, length: number, sheets: WorksheetCollection);
 | length | number |  |
 | sheets | [WorksheetCollection](../worksheetcollection/) |  |
 
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -83,7 +128,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -92,7 +137,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -105,7 +150,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;

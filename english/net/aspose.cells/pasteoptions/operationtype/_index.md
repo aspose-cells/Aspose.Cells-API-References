@@ -16,28 +16,48 @@ public PasteOperationType OperationType { get; set; }
 ### Examples
 
 ```csharp
-// Called: OperationType = PasteOperationType.None,
-public void PasteOptions_Property_OperationType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wbOrigin = new Workbook(Constants.sourcePath + "example.xlsx");
-    var wbDestination = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx"));
-           
-    var rangeOrigin = wbOrigin.Worksheets[0].Cells.CreateRange("A1:E150");
-    var rangeDestination = wbDestination.Worksheets[0].Cells.CreateRange("A1:E150");
-    var options = new PasteOptions
+    public class PasteOptionsPropertyOperationTypeDemo
     {
-        PasteType = PasteType.All,
-        SkipBlanks = false,
-        OnlyVisibleCells = false,
-        Transpose = false,
-        OperationType = PasteOperationType.None,
-        IgnoreLinksToOriginalFile = false
-    };
-    rangeDestination.Copy(rangeOrigin, options);
-    Cell b2 = wbDestination.Worksheets[0].Cells["B2"];
-    Style style = b2.GetStyle(false);
-    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle);
-    wbDestination.Save(Path.Combine(Constants.destPath, "example.xlsx"), SaveFormat.Xlsx);
+        public static void Run()
+        {
+            // Create source workbook with sample data
+            Workbook wbOrigin = new Workbook();
+            Worksheet sourceSheet = wbOrigin.Worksheets[0];
+            sourceSheet.Cells["A1"].PutValue("Source Data");
+            sourceSheet.Cells["B2"].PutValue(100);
+            
+            // Create destination workbook
+            Workbook wbDestination = new Workbook();
+            Worksheet destSheet = wbDestination.Worksheets[0];
+            destSheet.Cells["A1"].PutValue("Destination Data");
+            destSheet.Cells["B2"].PutValue(200); // Will be modified by paste operation
+            
+            // Create ranges for copy/paste
+            var rangeOrigin = sourceSheet.Cells.CreateRange("A1:B3");
+            var rangeDestination = destSheet.Cells.CreateRange("A1:B3");
+            
+            // Create paste options with OperationType demonstration
+            var options = new PasteOptions
+            {
+                PasteType = PasteType.All,
+                OperationType = PasteOperationType.Add // Values will be added (100 + 200 = 300)
+            };
+            
+            // Perform the copy/paste operation
+            rangeDestination.Copy(rangeOrigin, options);
+            
+            // Verify the result
+            Console.WriteLine("B2 value after paste with Add operation: " + destSheet.Cells["B2"].IntValue);
+            
+            // Save the result
+            wbDestination.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

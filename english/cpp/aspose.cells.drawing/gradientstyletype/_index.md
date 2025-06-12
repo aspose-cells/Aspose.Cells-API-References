@@ -4,7 +4,7 @@ linktitle: GradientStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::GradientStyleType enum. Represents gradient shading style in C++.'
 type: docs
-weight: 8700
+weight: 8900
 url: /cpp/aspose.cells.drawing/gradientstyletype/
 ---
 ## GradientStyleType enum

@@ -16,32 +16,42 @@ public double Width { get; set; }
 ### Examples
 
 ```csharp
-// Called: taskPane.Width = 350;
-public void WebExtensionTaskPane_Property_Width()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.WebExtensions;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-    int index = webExtensions.Add();
-    WebExtension webExt = webExtensions[index];
-    //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
-    webExt.Reference.Version = "1.0.6.28";
-    webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
-    webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
-    webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
+    public class WebExtensionTaskPanePropertyWidthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            int index = webExtensions.Add();
+            WebExtension webExt = webExtensions[index];
+            
+            webExt.Reference.Version = "1.0.6.28";
+            webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
+            webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
+            webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
 
-    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-    int index1 = taskPanes.Add();
-    WebExtensionTaskPane taskPane = taskPanes[index1];
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            int taskPaneIndex = taskPanes.Add();
+            WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 
-    taskPane.WebExtension = webExt;
-    taskPane.DockState = "right";
-    taskPane.IsVisible = true;
-    taskPane.Width = 350;
-    taskPane.Row = 7;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
+            taskPane.WebExtension = webExt;
+            taskPane.DockState = "right";
+            taskPane.IsVisible = true;
+            
+            // Demonstrate Width property usage
+            taskPane.Width = 350;
+            
+            workbook.Save("WebExtensionTaskPanePropertyWidthDemo.xlsx");
+            
+            Console.WriteLine("Workbook saved with task pane width set to: " + taskPane.Width);
+        }
+    }
 }
 ```
 

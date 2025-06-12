@@ -25,9 +25,7 @@ public enum AutoFitMergedCellsType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
 

@@ -16,8 +16,34 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.Text = "This is a test.";
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class TextBoxActiveXControlPropertyTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a TextBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 1, 1, 1, 1, 200, 100);
+            
+            // Get the ActiveX control and set its text
+            var textBox = (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+            textBox.Text = "This is a test.";
+            
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

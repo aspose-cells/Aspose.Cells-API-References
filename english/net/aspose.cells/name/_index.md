@@ -44,32 +44,23 @@ public class Name
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Accessing the first worksheet in the Excel file
-Worksheet worksheet = workbook.Worksheets[0];
-//Creating a named range
-Range range = worksheet.Cells.CreateRange("B4", "G14");
-//Setting the name of the named range
-range.Name = "TestRange";
-//Saving the modified Excel file in default (that is Excel 2000) format
-workbook.Save("output.xls");   
-
-[Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Accessing the first worksheet in the Excel file
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creating a named range
-Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
-'Setting the name of the named range
-range.Name = "TestRange"
-'Saving the modified Excel file in default (that is Excel 2000) format
-workbook.Save("output.xls")
+namespace AsposeCellsExamples
+{
+    public class CellsClassNameDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B4", "G14");
+            range.Name = "TestRange";
+            workbook.Save("output.xls");
+        }
+    }
+}
 ```
 
 ### See Also

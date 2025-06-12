@@ -20,17 +20,42 @@ public void ToPdf(string fileName)
 ### Examples
 
 ```csharp
-// Called: chart.ToPdf(Constants.destPath + "example.pdf");
-public void Chart_Method_ToPdf()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.ChartObject.IsHidden = (false);
-    ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-    imgOptions.ImageType = (ImageType.Png);
-    chart.ToImage(Constants.destPath + "example.png", imgOptions);
-    chart.ToPdf(Constants.destPath + "example.pdf");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToPdfWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Fruits");
+            worksheet.Cells["A3"].PutValue("Vegetables");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            // Export chart to PDF
+            chart.ToPdf("output_chart.pdf");
+            
+            Console.WriteLine("Chart exported to PDF successfully.");
+        }
+    }
 }
 ```
 
@@ -62,37 +87,33 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 ### Examples
 
 ```csharp
-// Called: chart.ToPdf("ChartExample.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
-public static void Chart_Method_ToPdf()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToPdfWithStringSingleSinglePageLayoutAlDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Sample Data");
-            worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["A3"].PutValue(456);
-            worksheet.Cells["A4"].PutValue(789);
+            worksheet.Cells["A1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
-            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the data range for the chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
             chart.SetChartDataRange("A1:A4", true);
+            chart.Title.Text = "Demo Chart";
 
-            // Set the title of the chart
-            chart.Title.Text = "Sample Chart";
-
-            // Save the workbook to a file
-            workbook.Save("PageLayoutAlignmentTypeExample.xlsx");
-
-            // Export the chart to a PDF with specific page layout alignment
-            chart.ToPdf("ChartExample.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
-
-            return;
+            chart.ToPdf("ChartDemo.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
         }
+    }
+}
 ```
 
 ### See Also
@@ -115,6 +136,64 @@ public void ToPdf(Stream stream)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The output stream. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToPdfWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Fruits");
+            worksheet.Cells["A3"].PutValue("Vegetables");
+            worksheet.Cells["A4"].PutValue("Dairy");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(45);
+            worksheet.Cells["B3"].PutValue(32);
+            worksheet.Cells["B4"].PutValue(23);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            try
+            {
+                // Create a memory stream to save the PDF
+                using (MemoryStream pdfStream = new MemoryStream())
+                {
+                    // Call the ToPdf method with Stream parameter
+                    chart.ToPdf(pdfStream);
+
+                    // Save the stream to a file for demonstration
+                    File.WriteAllBytes("ChartToPdfStreamOutput.pdf", pdfStream.ToArray());
+                }
+
+                Console.WriteLine("Chart successfully converted to PDF using Stream parameter.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ToPdf method: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -140,6 +219,73 @@ public void ToPdf(Stream stream, float desiredPageWidth, float desiredPageHeight
 | desiredPageHeight | Single | The desired page height in inches. |
 | hAlignmentType | PageLayoutAlignmentType | The chart horizontal alignment type in the output page. |
 | vAlignmentType | PageLayoutAlignmentType | The chart vertical alignment type in the output page. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToPdfWithStreamSingleSinglePageLayoutAlDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Create a memory stream to save the PDF
+            using (MemoryStream pdfStream = new MemoryStream())
+            {
+                try
+                {
+                    // Call ToPdf with specific parameters
+                    chart.ToPdf(
+                        pdfStream, 
+                        800f, // desiredPageWidth
+                        600f, // desiredPageHeight
+                        PageLayoutAlignmentType.Center, // horizontal alignment
+                        PageLayoutAlignmentType.Center // vertical alignment
+                    );
+
+                    Console.WriteLine("Chart successfully converted to PDF with specified layout parameters.");
+                    
+                    // Save the PDF stream to a file for demonstration
+                    File.WriteAllBytes("ChartToPdfWithLayout.pdf", pdfStream.ToArray());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error converting chart to PDF: {ex.Message}");
+                }
+            }
+
+            // Save the workbook
+            workbook.Save("ChartMethodToPdfDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

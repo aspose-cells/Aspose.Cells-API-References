@@ -17,7 +17,7 @@ class HighlightChangesOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(boolean, boolean)](#constructor-boolean-boolean-)| Represents options of highlighting revsions or changes of shared Excel files. |
 

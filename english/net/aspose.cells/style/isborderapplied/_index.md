@@ -20,19 +20,44 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(style.IsBorderApplied);
-public void Style_Property_IsBorderApplied()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook asposeWorkbook;
-    LoadOptions options = new LoadOptions();
-    asposeWorkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    Style style = asposeWorkbook.GetNamedStyle("TestStyle");
-    Assert.IsTrue(style.IsNumberFormatApplied);
-    Assert.IsFalse(style.IsAlignmentApplied);
-    Assert.IsFalse(style.IsFontApplied);
-    Assert.IsFalse(style.IsBorderApplied);
-    Assert.IsFalse(style.IsFillApplied);
-    Assert.IsFalse(style.IsProtectionApplied);
+    public class StylePropertyIsBorderAppliedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a custom style
+            Style style = workbook.CreateStyle();
+            
+            // Apply border settings to the style
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.TopBorder].Color = System.Drawing.Color.Black;
+            
+            // Check if border is applied
+            Console.WriteLine("IsBorderApplied before setting: " + style.IsBorderApplied);
+            
+            // Explicitly set IsBorderApplied to true
+            style.IsBorderApplied = true;
+            
+            // Apply the style to a cell
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Verify border application
+            Console.WriteLine("IsBorderApplied after setting: " + style.IsBorderApplied);
+            
+            // Save the workbook
+            workbook.Save("IsBorderAppliedDemo.xlsx");
+        }
+    }
 }
 ```
 

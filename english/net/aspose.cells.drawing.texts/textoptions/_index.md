@@ -55,15 +55,35 @@ public class TextOptions : Font
 ### Examples
 
 ```csharp
-// Called: TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
-public void Texts_Type_TextOptions()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
-    //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
-    TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
-    Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class TextsClassTextOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
             
+            // Add a shape to the worksheet with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 200, 0);
+            
+            // Add text to the shape and get TextOptions
+            shape.TextBody.Text = "Sample Text";
+            TextOptions textOptions = shape.TextBody[2].TextOptions;
+            
+            // Set text options
+            textOptions.Fill.SolidFill.Color = System.Drawing.Color.Red;
+            textOptions.Fill.SolidFill.Transparency = 0.5;
+            
+            // Save the workbook
+            workbook.Save("TextOptionsDemo.xlsx");
+        }
+    }
 }
 ```
 

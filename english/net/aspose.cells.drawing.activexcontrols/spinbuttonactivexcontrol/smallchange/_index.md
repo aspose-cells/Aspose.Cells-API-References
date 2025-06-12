@@ -16,8 +16,34 @@ public int SmallChange { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.SmallChange = 5;
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SpinButtonActiveXControlPropertySmallChangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a SpinButton ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.SpinButton, 1, 0, 1, 0, 100, 30);
+            
+            // Get the ActiveX control and set the SmallChange property
+            var spinButton = (Aspose.Cells.Drawing.ActiveXControls.SpinButtonActiveXControl)shape.ActiveXControl;
+            spinButton.SmallChange = 5;
+            
+            // Save the workbook
+            workbook.Save("SpinButtonSmallChangeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

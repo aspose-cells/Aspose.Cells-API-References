@@ -16,14 +16,36 @@ public int PageChange { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
-public void ListBox_Property_PageChange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook _asposeWorkbook = new Workbook();
-    _asposeWorkbook.Copy(workbook);
-    Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
-    _asposeWorkbook.Save(Constants.destPath +"example.xlsx");
+    public class ListBoxPropertyPageChangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ListBox shape
+            ListBox listBox = (ListBox)worksheet.Shapes.AddListBox(1, 0, 1, 0, 100, 100);
+
+            // Set some items for the ListBox
+            listBox.SetInputRange("A1:A5", false, false);
+            
+            // Set the PageChange property
+            listBox.PageChange = 2;
+
+            // Save the workbook
+            workbook.Save("ListBoxPageChangeDemo.xlsx");
+
+            // Display the PageChange value
+            Console.WriteLine("ListBox PageChange value: " + listBox.PageChange);
+        }
+    }
 }
 ```
 

@@ -16,18 +16,35 @@ public CellBorderType DiagonalStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(style.Borders.DiagonalStyle, CellBorderType.Thin);
-public void BorderCollection_Property_DiagonalStyle()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-    Assert.IsNotNull(cells["B3"].GetTable());
-    Assert.IsTrue(cells["F2"].IsArrayFormula);
-    Assert.IsTrue(cells["H3"].IsSharedFormula);
-    Style style = cells["F5"].GetStyle();
-    Assert.AreEqual(style.Borders.DiagonalStyle, CellBorderType.Thin);
-   AssertHelper.AreEqual(style.Borders.DiagonalColor, Color.Red);
+namespace AsposeCellsExamples
+{
+    public class BorderCollectionPropertyDiagonalStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get a cell and its style
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Set diagonal border properties
+            style.Borders.DiagonalStyle = CellBorderType.Thin;
+            style.Borders.DiagonalColor = Color.Red;
+            
+            // Apply the style to the cell
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("DiagonalBorderDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: FillPattern
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::FillPattern enum. Enumerates shape fill pattern types in C++.'
 type: docs
-weight: 7900
+weight: 8100
 url: /cpp/aspose.cells.drawing/fillpattern/
 ---
 ## FillPattern enum

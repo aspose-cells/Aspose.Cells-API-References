@@ -16,48 +16,44 @@ public LineJoinType JoinType { get; set; }
 ### Examples
 
 ```csharp
-// Called: majorGridLines.JoinType = LineJoinType.Round;
-public static void Line_Property_JoinType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class LinePropertyJoinTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             worksheet.Cells["A1"].PutValue("Category");
             worksheet.Cells["A2"].PutValue("A");
             worksheet.Cells["A3"].PutValue("B");
             worksheet.Cells["A4"].PutValue("C");
-
             worksheet.Cells["B1"].PutValue("Value");
             worksheet.Cells["B2"].PutValue(10);
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
 
-            // Add a chart to the worksheet
+            // Create chart
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the chart data range
             chart.SetChartDataRange("A1:B4", true);
 
-            // Access the primary value axis
-            Axis valueAxis = chart.ValueAxis;
-
-            // Access the line format of the major gridlines
-            Line majorGridLines = valueAxis.MajorGridLines;
-
-            // Set the join type of the line
+            // Set line join type
+            Line majorGridLines = chart.ValueAxis.MajorGridLines;
             majorGridLines.JoinType = LineJoinType.Round;
 
-            // Output the join type
             Console.WriteLine("Line Join Type: " + majorGridLines.JoinType);
-
-            // Save the workbook
             workbook.Save("LineJoinTypeExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

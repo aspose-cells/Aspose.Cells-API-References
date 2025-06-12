@@ -25,11 +25,11 @@ const { Workbook } = require("aspose.cells.node");
 var workbook = new Workbook("input/CustomProperties.xlsx");
 
 //Retrieve a list of all custom document properties of the Excel file
-var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+var customProperties = workbook.worksheets.customDocumentProperties;
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(DocumentPropertyCollection)](#constructor-documentpropertycollection-)| Constructs from a parent object convertible to this. |
 
@@ -45,7 +45,7 @@ var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
 | [addLinkToContent(string, string)](#addLinkToContent-string-string-)| Creates a new custom document property which links to content. |
 | [updateLinkedPropertyValue()](#updateLinkedPropertyValue--)| Update custom document property value which links to content. |
 | [updateLinkedRange()](#updateLinkedRange--)| Update custom document property value to linked range. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
@@ -196,7 +196,7 @@ updateLinkedRange() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

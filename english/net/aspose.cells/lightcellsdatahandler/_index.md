@@ -30,9 +30,7 @@ When reading a workbook by this mode, [`StartSheet`](./startsheet/) will be chec
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

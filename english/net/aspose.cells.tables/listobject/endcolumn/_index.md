@@ -16,26 +16,49 @@ public int EndColumn { get; }
 ### Examples
 
 ```csharp
-// Called: table.Resize(table.StartRow, table.StartColumn, 43, table.EndColumn, table.ShowHeaderRow);
-public void ListObject_Property_EndColumn()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    WorksheetCollection worksheets = workbook.Worksheets;
-    Worksheet worksheet = worksheets["S.20.01.01"];
+    public class ListObjectPropertyEndColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["C1"].PutValue("Age");
+            for (int i = 2; i <= 5; i++)
+            {
+                worksheet.Cells[$"A{i}"].PutValue(i-1);
+                worksheet.Cells[$"B{i}"].PutValue($"Person {i-1}");
+                worksheet.Cells[$"C{i}"].PutValue(20 + i);
+            }
 
-    Cells cells = worksheet.Cells;
-    cells.CopyRows(cells, 8, 26, 18);
-
-    ListObjectCollection listObjects = worksheet.ListObjects;
-    ListObject table = listObjects["ClaimsPerPeriod"];
-    table.Resize(table.StartRow, table.StartColumn, 43, table.EndColumn, table.ShowHeaderRow);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Style style = cells["E29"].GetStyle();
-    AssertHelper.AreEqual(style.ForegroundColor, System.Drawing.Color.FromArgb(253, 234, 218));// System.Drawing.Color.FromArgb(253, 233, 217));
-    style = cells["E43"].GetStyle();
-   AssertHelper.AreEqual(style.ForegroundColor, System.Drawing.Color.FromArgb(217, 217, 217));
-        
-
+            // Create a list object/table
+            int listObjectIndex = worksheet.ListObjects.Add(0, 0, 4, 2, true);
+            ListObject table = worksheet.ListObjects[listObjectIndex];
+            table.ShowTotals = true;
+            
+            // Display original end column
+            Console.WriteLine($"Original EndColumn: {table.EndColumn}");
+            
+            // Resize the table to include one more column
+            table.Resize(table.StartRow, table.StartColumn, table.EndRow, table.EndColumn + 1, table.ShowHeaderRow);
+            
+            // Display new end column
+            Console.WriteLine($"New EndColumn: {table.EndColumn}");
+            
+            // Save the workbook
+            workbook.Save("ListObjectEndColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

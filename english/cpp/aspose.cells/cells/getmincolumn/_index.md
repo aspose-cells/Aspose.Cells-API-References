@@ -16,6 +16,10 @@ Minimum column index of those cells that have been instantiated in the collectio
 int32_t Aspose::Cells::Cells::GetMinColumn()
 ```
 
+## Remarks
+
+
+This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop. 
 ## See Also
 
 * Class [Vector](../../vector/)

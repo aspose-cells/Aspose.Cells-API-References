@@ -20,42 +20,37 @@ Default is 0.
 ### Examples
 
 ```csharp
-// Called: imgOpt.PageIndex = 1;
-//Also for CELLSNET50088
-public void ImageOrPrintOptions_Property_PageIndex()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string destFile = Constants.destPath + "example.pdf";
-
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
-
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-    imgOpt.PrintWithStatusDialog = false;
-    imgOpt.PageIndex = 1;
-    imgOpt.PageCount = 1;
-
-    PrinterSettings printerSettings = new PrinterSettings();
-    printerSettings.PrintToFile = true;
-    printerSettings.PrintFileName = destFile;
-    printerSettings.PrinterName = "Microsoft Print to PDF";
-
-    if (printerSettings.IsValid)
+    public class ImageOrPrintOptionsPropertyPageIndexDemo
     {
-        SheetRender sr = new SheetRender(wb.Worksheets[wb.Worksheets.ActiveSheetIndex], imgOpt);
-        sr.ToPrinter(printerSettings, "test CELLSNET-50063 and CELLSNET-50088");
-
-        //wait max 1s
-        int count = 0;
-        while (count < 10 && !File.Exists(destFile))
+        public static void Run()
         {
-            Thread.Sleep(1000);
-            count++;
-        }
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to multiple pages
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Data Row " + (i + 1);
+            }
 
-        if (count < 10)
-        {
-            string content = File.ReadAllText(destFile);
-            //only one page in pdf.
-            Assert.IsTrue(content.IndexOf("/Count 1") > -1);
+            // Set up image/print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.PageIndex = 1; // Start from second page (0-based index would be 1)
+            options.PageCount = 1; // Only process one page
+
+            // Create sheet render for the first worksheet
+            SheetRender render = new SheetRender(worksheet, options);
+
+            // Save to PDF using the correct API method
+            render.ToImage(0, "output.pdf");
+            Console.WriteLine("Saved page 2 to PDF successfully.");
         }
     }
 }

@@ -16,26 +16,44 @@ public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ### Examples
 
 ```csharp
-// Called: foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
-public void DataMashup_Property_PowerQueryFormulas()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-
-    DataMashup mashupData = workbook.DataMashup;
-            
-    Assert.AreEqual("Timesheets", mashupData.PowerQueryFormulas[0].Name);
-    Assert.AreEqual("PQVLookUp", mashupData.PowerQueryFormulas[1].Name);
-    Assert.AreEqual("tPeriodTable", mashupData.PowerQueryFormulas[2].Name);
-    workbook.Save(Constants.destPath + "example.xlsm");
-
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    mashupData = workbook.DataMashup;
-    foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    public class DataMashupPropertyPowerQueryFormulasDemo
     {
-        Console.WriteLine(f.Name);
+        public static void Run()
+        {
+            // Load workbook with Power Query formulas
+            Workbook workbook = new Workbook("source.xlsx");
+            
+            // Get DataMashup object
+            DataMashup mashupData = workbook.DataMashup;
+            
+            // Check if there are any Power Query formulas
+            if (mashupData != null && mashupData.PowerQueryFormulas != null)
+            {
+                Console.WriteLine("Power Query Formulas Found:");
+                
+                // Iterate through each Power Query formula
+                foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
+                {
+                    Console.WriteLine("Formula Definition:");
+                    Console.WriteLine(formula.FormulaDefinition);
+                    Console.WriteLine("----------------------");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No Power Query formulas found in the workbook.");
+            }
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    workbook.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

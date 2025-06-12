@@ -17,18 +17,27 @@ class FileFormatInfo;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isProtectedByRMS](#isProtectedByRMS--)| boolean | Readonly. Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isEncrypted](#isEncrypted--)| boolean | Readonly. Returns true if the document is encrypted and requires a password to open. |
+| [fileFormatType](#fileFormatType--)| FileFormatType | Readonly. Gets the detected file format. |
+| [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the detected load format. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isProtectedByRMS()](#isProtectedByRMS--)| Gets whether the file is protected by Microsoft Rights Management Server. |
-| [isEncrypted()](#isEncrypted--)| Returns true if the document is encrypted and requires a password to open. |
-| [getFileFormatType()](#getFileFormatType--)| Gets the detected file format. |
-| [getLoadFormat()](#getLoadFormat--)| Gets the detected load format. |
+| [isProtectedByRMS()](#isProtectedByRMS--)| <b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isEncrypted()](#isEncrypted--)| <b>@deprecated.</b> Please use the 'isEncrypted' property instead. Returns true if the document is encrypted and requires a password to open. |
+| [getFileFormatType()](#getFileFormatType--)| <b>@deprecated.</b> Please use the 'fileFormatType' property instead. Gets the detected file format. |
+| [getLoadFormat()](#getLoadFormat--)| <b>@deprecated.</b> Please use the 'loadFormat' property instead. Gets the detected load format. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,9 +50,45 @@ constructor();
 ```
 
 
+### isProtectedByRMS {#isProtectedByRMS--}
+
+Readonly. Gets whether the file is protected by Microsoft Rights Management Server.
+
+```javascript
+isProtectedByRMS : boolean;
+```
+
+
+### isEncrypted {#isEncrypted--}
+
+Readonly. Returns true if the document is encrypted and requires a password to open.
+
+```javascript
+isEncrypted : boolean;
+```
+
+
+### fileFormatType {#fileFormatType--}
+
+Readonly. Gets the detected file format.
+
+```javascript
+fileFormatType : FileFormatType;
+```
+
+
+### loadFormat {#loadFormat--}
+
+Readonly. Gets the detected load format.
+
+```javascript
+loadFormat : LoadFormat;
+```
+
+
 ### isProtectedByRMS() {#isProtectedByRMS--}
 
-Gets whether the file is protected by Microsoft Rights Management Server.
+<b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Gets whether the file is protected by Microsoft Rights Management Server.
 
 ```javascript
 isProtectedByRMS() : boolean;
@@ -52,7 +97,7 @@ isProtectedByRMS() : boolean;
 
 ### isEncrypted() {#isEncrypted--}
 
-Returns true if the document is encrypted and requires a password to open.
+<b>@deprecated.</b> Please use the 'isEncrypted' property instead. Returns true if the document is encrypted and requires a password to open.
 
 ```javascript
 isEncrypted() : boolean;
@@ -61,7 +106,7 @@ isEncrypted() : boolean;
 
 ### getFileFormatType() {#getFileFormatType--}
 
-Gets the detected file format.
+<b>@deprecated.</b> Please use the 'fileFormatType' property instead. Gets the detected file format.
 
 ```javascript
 getFileFormatType() : FileFormatType;
@@ -74,7 +119,7 @@ getFileFormatType() : FileFormatType;
 
 ### getLoadFormat() {#getLoadFormat--}
 
-Gets the detected load format.
+<b>@deprecated.</b> Please use the 'loadFormat' property instead. Gets the detected load format.
 
 ```javascript
 getLoadFormat() : LoadFormat;

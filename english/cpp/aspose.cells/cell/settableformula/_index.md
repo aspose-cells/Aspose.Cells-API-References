@@ -4,7 +4,7 @@ linktitle: SetTableFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetTableFormula method. Create two-variable data table for given range starting from this cell in C++.'
 type: docs
-weight: 5200
+weight: 5300
 url: /cpp/aspose.cells/cell/settableformula/
 ---
 ## Cell::SetTableFormula(int32_t, int32_t, const U16String\&, const U16String\&, const Vector \<Vector \<Aspose::Cells::Object\>\>\&) method

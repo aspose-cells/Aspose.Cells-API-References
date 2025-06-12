@@ -4,7 +4,7 @@ linktitle: SetNumberOfColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetNumberOfColumns method. Returns or sets the number of columns in the specified slicer in C++.'
 type: docs
-weight: 3400
+weight: 3500
 url: /cpp/aspose.cells.slicers/slicer/setnumberofcolumns/
 ---
 ## Slicer::SetNumberOfColumns method

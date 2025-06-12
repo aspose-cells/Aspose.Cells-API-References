@@ -46,25 +46,36 @@ public class WorkbookRender
 ### Examples
 
 ```csharp
-// Called: WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-public void Rendering_Type_WorkbookRender()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    sheet.Cells["A1"].PutValue("Test page size");
-    sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
+    public class RenderingClassWorkbookRenderDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and set page size
+            worksheet.Cells["A1"].PutValue("Workbook Render Demo");
+            worksheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-
-    SheetRender sr = new SheetRender(sheet, imgOpt);
-    float[] pageSize = sr.GetPageSizeInch(0);
-    Assert.AreEqual(8.5, pageSize[0]);
-    Assert.AreEqual(11, pageSize[1]);
-
-    WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-    pageSize = wr.GetPageSizeInch(0);
-    Assert.AreEqual(8.5, pageSize[0]);
-    Assert.AreEqual(11, pageSize[1]);
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            
+            // Create workbook render and get page size
+            WorkbookRender render = new WorkbookRender(workbook, options);
+            float[] pageSize = render.GetPageSizeInch(0);
+            
+            // Output the results
+            Console.WriteLine($"Page Width: {pageSize[0]} inches");
+            Console.WriteLine($"Page Height: {pageSize[1]} inches");
+        }
+    }
 }
 ```
 

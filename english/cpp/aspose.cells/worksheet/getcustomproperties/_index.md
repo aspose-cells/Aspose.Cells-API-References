@@ -4,7 +4,7 @@ linktitle: GetCustomProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetCustomProperties method. Gets an object representing the identifier information associated with a worksheet in C++.'
 type: docs
-weight: 11000
+weight: 11300
 url: /cpp/aspose.cells/worksheet/getcustomproperties/
 ---
 ## Worksheet::GetCustomProperties method

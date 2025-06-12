@@ -4,7 +4,7 @@ linktitle: PresetMaterialType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PresetMaterialType enum. Describes surface appearance of a shape in C++.'
 type: docs
-weight: 10500
+weight: 10700
 url: /cpp/aspose.cells.drawing/presetmaterialtype/
 ---
 ## PresetMaterialType enum

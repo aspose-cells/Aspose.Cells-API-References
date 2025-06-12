@@ -4,7 +4,7 @@ linktitle: PdfBookmarkEntry
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfBookmarkEntry class. PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class

@@ -16,21 +16,45 @@ public DataSorter Sorter { get; }
 ### Examples
 
 ```csharp
-// Called: list.AutoFilter.Sorter.Sort();
-public void AutoFilter_Property_Sorter()
-{
-    var size = 1;
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var worksheet = workbook.Worksheets[0];
-    var list = worksheet.ListObjects["table1"];
-    var dataRange = list.DataRange;
-    worksheet.Cells.DeleteRange(dataRange.FirstRow + size, dataRange.FirstColumn,
-        dataRange.FirstRow + dataRange.RowCount - 1, dataRange.ColumnCount, ShiftType.Up);
+using System;
+using Aspose.Cells;
 
-    list.AutoFilter.Sorter.Sort();
-    // Got this meesage in result file. 
-    // We found a problem with some content in 'file'. Do you want us to try to recover as much as we can? If you trust the source of this workbook, click Yes. 
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class AutoFilterPropertySorterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("C");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("A");
+            worksheet.Cells["B3"].PutValue(10);
+            worksheet.Cells["A4"].PutValue("B");
+            worksheet.Cells["B4"].PutValue(20);
+
+            // Create auto filter range
+            worksheet.AutoFilter.Range = "A1:B4";
+
+            // Get the auto filter
+            AutoFilter filter = worksheet.AutoFilter;
+
+            // Apply filter
+            filter.Filter(1, "10");
+
+            // Sort using the Sorter property
+            filter.Sorter.Sort();
+
+            // Save the workbook
+            workbook.Save("AutoFilterPropertySorterDemo.xlsx");
+        }
+    }
 }
 ```
 

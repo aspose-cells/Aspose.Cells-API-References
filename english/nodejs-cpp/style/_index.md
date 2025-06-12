@@ -22,90 +22,131 @@ const { Workbook, Color } = require("aspose.cells.node");
 
 var excel = new Workbook();
 var style = excel.createStyle();
-style.getFont().setName("Times New Roman");
-style.getFont().setColor(Color.Blue);
+style.font.setName("Times New Roman");
+style.font.setColor(Color.Blue);
 for (var i = 0; i < 100; i++) {
-    excel.getWorksheets().get(0).getCells().get(0, i).setStyle(style);
+    excel.worksheets.get(0).cells.get(0, i).setStyle(style);
 }
 
 //Second method
-var style1 = excel.getWorksheets().get(0).getCells().get("A1").getStyle();
-style1.getFont().setName("Times New Roman");
-style1.getFont().setColor(Color.Blue);
-excel.getWorksheets().get(0).getCells().get("A1").setStyle(style1);
+var style1 = excel.worksheets.get(0).cells.get("A1").getStyle();
+style1.font.setName("Times New Roman");
+style1.font.color = Color.Blue;
+excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 
 //First method is a fast and efficient way to change several cell-formatting properties on multiple cells at the same time.
 //If you want to change a single cell's style properties, second method can be used.
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [backgroundThemeColor](#backgroundThemeColor--)| ThemeColor | Gets and sets the background theme color. |
+| [foregroundThemeColor](#foregroundThemeColor--)| ThemeColor | Gets and sets the foreground theme color. |
+| [name](#name--)| string | Gets or sets the name of the style. |
+| [pattern](#pattern--)| BackgroundType | Gets or sets the cell background pattern type. |
+| [borders](#borders--)| BorderCollection | Readonly. Gets the [BorderCollection](../bordercollection/) of the style. |
+| [backgroundColor](#backgroundColor--)| Color | Gets or sets a style's background color. |
+| [backgroundArgbColor](#backgroundArgbColor--)| number | Gets and sets the background color with a 32-bit ARGB value. |
+| [foregroundColor](#foregroundColor--)| Color | Gets or sets a style's foreground color. |
+| [foregroundArgbColor](#foregroundArgbColor--)| number | Gets and sets the foreground color with a 32-bit ARGB value. |
+| [hasBorders](#hasBorders--)| boolean | Readonly. Checks whether there are borders have been set for the style. |
+| [parentStyle](#parentStyle--)| Style | Readonly. Gets the parent style of this style. |
+| [isNumberFormatApplied](#isNumberFormatApplied--)| boolean | Indicate whether the number formatting should be applied. |
+| [isFontApplied](#isFontApplied--)| boolean | Indicate whether the font formatting should be applied. |
+| [isAlignmentApplied](#isAlignmentApplied--)| boolean | Indicate whether the alignment formatting should be applied. |
+| [isBorderApplied](#isBorderApplied--)| boolean | Indicate whether the border formatting should be applied. |
+| [isFillApplied](#isFillApplied--)| boolean | Indicate whether the fill formatting should be applied. |
+| [isProtectionApplied](#isProtectionApplied--)| boolean | Indicate whether the protection formatting should be applied. |
+| [indentLevel](#indentLevel--)| number | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
+| [font](#font--)| Font | Readonly. Gets a [Font](../font/) object. |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle. |
+| [horizontalAlignment](#horizontalAlignment--)| TextAlignmentType | Gets or sets the horizontal alignment type of the text in a cell. |
+| [verticalAlignment](#verticalAlignment--)| TextAlignmentType | Gets or sets the vertical alignment type of the text in a cell. |
+| [isTextWrapped](#isTextWrapped--)| boolean | Gets or sets a value indicating whether the text within a cell is wrapped. |
+| [number](#number--)| number | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
+| [isLocked](#isLocked--)| boolean | Gets or sets a value indicating whether a cell can be modified or not. |
+| [custom](#custom--)| string | Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
+| [cultureCustom](#cultureCustom--)| string | Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [invariantCustom](#invariantCustom--)| string | Readonly. Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [isFormulaHidden](#isFormulaHidden--)| boolean | Represents if the formula will be hidden when the worksheet is protected. |
+| [shrinkToFit](#shrinkToFit--)| boolean | Represents if text automatically shrinks to fit in the available column width. |
+| [textDirection](#textDirection--)| TextDirectionType | Represents text reading order. |
+| [isJustifyDistributed](#isJustifyDistributed--)| boolean | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
+| [quotePrefix](#quotePrefix--)| boolean | Indicates whether the cell's value starts with single quote mark. |
+| [isGradient](#isGradient--)| boolean | Indicates whether the cell shading is a gradient pattern. |
+| [isPercent](#isPercent--)| boolean | Readonly. Indicates whether the number format is a percent format. |
+| [isDateTime](#isDateTime--)| boolean | Readonly. Indicates whether the number format is a date format. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBackgroundThemeColor()](#getBackgroundThemeColor--)| Gets and sets the background theme color. |
-| [setBackgroundThemeColor(ThemeColor)](#setBackgroundThemeColor-themecolor-)| Gets and sets the background theme color. |
-| [getForegroundThemeColor()](#getForegroundThemeColor--)| Gets and sets the foreground theme color. |
-| [setForegroundThemeColor(ThemeColor)](#setForegroundThemeColor-themecolor-)| Gets and sets the foreground theme color. |
-| [getName()](#getName--)| Gets or sets the name of the style. |
-| [setName(string)](#setName-string-)| Gets or sets the name of the style. |
-| [getPattern()](#getPattern--)| Gets or sets the cell background pattern type. |
-| [setPattern(BackgroundType)](#setPattern-backgroundtype-)| Gets or sets the cell background pattern type. |
-| [getBorders()](#getBorders--)| Gets the [BorderCollection](../bordercollection/) of the style. |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets a style's background color. |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets a style's background color. |
-| [getBackgroundArgbColor()](#getBackgroundArgbColor--)| Gets and sets the background color with a 32-bit ARGB value. |
-| [setBackgroundArgbColor(number)](#setBackgroundArgbColor-number-)| Gets and sets the background color with a 32-bit ARGB value. |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets a style's foreground color. |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets a style's foreground color. |
-| [getForegroundArgbColor()](#getForegroundArgbColor--)| Gets and sets the foreground color with a 32-bit ARGB value. |
-| [setForegroundArgbColor(number)](#setForegroundArgbColor-number-)| Gets and sets the foreground color with a 32-bit ARGB value. |
-| [getHasBorders()](#getHasBorders--)| Checks whether there are borders have been set for the style. |
-| [getParentStyle()](#getParentStyle--)| Gets the parent style of this style. |
-| [isNumberFormatApplied()](#isNumberFormatApplied--)| Indicate whether the number formatting should be applied. |
-| [setIsNumberFormatApplied(boolean)](#setIsNumberFormatApplied-boolean-)| Indicate whether the number formatting should be applied. |
-| [isFontApplied()](#isFontApplied--)| Indicate whether the font formatting should be applied. |
-| [setIsFontApplied(boolean)](#setIsFontApplied-boolean-)| Indicate whether the font formatting should be applied. |
-| [isAlignmentApplied()](#isAlignmentApplied--)| Indicate whether the alignment formatting should be applied. |
-| [setIsAlignmentApplied(boolean)](#setIsAlignmentApplied-boolean-)| Indicate whether the alignment formatting should be applied. |
-| [isBorderApplied()](#isBorderApplied--)| Indicate whether the border formatting should be applied. |
-| [setIsBorderApplied(boolean)](#setIsBorderApplied-boolean-)| Indicate whether the border formatting should be applied. |
-| [isFillApplied()](#isFillApplied--)| Indicate whether the fill formatting should be applied. |
-| [setIsFillApplied(boolean)](#setIsFillApplied-boolean-)| Indicate whether the fill formatting should be applied. |
-| [isProtectionApplied()](#isProtectionApplied--)| Indicate whether the protection formatting should be applied. |
-| [setIsProtectionApplied(boolean)](#setIsProtectionApplied-boolean-)| Indicate whether the protection formatting should be applied. |
-| [getIndentLevel()](#getIndentLevel--)| Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
-| [setIndentLevel(number)](#setIndentLevel-number-)| Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
-| [getFont()](#getFont--)| Gets a [Font](../font/) object. |
-| [getRotationAngle()](#getRotationAngle--)| Represents text rotation angle. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Represents text rotation angle. |
-| [getHorizontalAlignment()](#getHorizontalAlignment--)| Gets or sets the horizontal alignment type of the text in a cell. |
-| [setHorizontalAlignment(TextAlignmentType)](#setHorizontalAlignment-textalignmenttype-)| Gets or sets the horizontal alignment type of the text in a cell. |
-| [getVerticalAlignment()](#getVerticalAlignment--)| Gets or sets the vertical alignment type of the text in a cell. |
-| [setVerticalAlignment(TextAlignmentType)](#setVerticalAlignment-textalignmenttype-)| Gets or sets the vertical alignment type of the text in a cell. |
-| [isTextWrapped()](#isTextWrapped--)| Gets or sets a value indicating whether the text within a cell is wrapped. |
-| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets a value indicating whether the text within a cell is wrapped. |
-| [getNumber()](#getNumber--)| Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
-| [setNumber(number)](#setNumber-number-)| Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
-| [isLocked()](#isLocked--)| Gets or sets a value indicating whether a cell can be modified or not. |
-| [setIsLocked(boolean)](#setIsLocked-boolean-)| Gets or sets a value indicating whether a cell can be modified or not. |
-| [getCustom()](#getCustom--)| Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
-| [setCustom(string)](#setCustom-string-)| Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
-| [getCultureCustom()](#getCultureCustom--)| Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
-| [setCultureCustom(string)](#setCultureCustom-string-)| Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
-| [getInvariantCustom()](#getInvariantCustom--)| Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
-| [isFormulaHidden()](#isFormulaHidden--)| Represents if the formula will be hidden when the worksheet is protected. |
-| [setIsFormulaHidden(boolean)](#setIsFormulaHidden-boolean-)| Represents if the formula will be hidden when the worksheet is protected. |
-| [getShrinkToFit()](#getShrinkToFit--)| Represents if text automatically shrinks to fit in the available column width. |
-| [setShrinkToFit(boolean)](#setShrinkToFit-boolean-)| Represents if text automatically shrinks to fit in the available column width. |
-| [getTextDirection()](#getTextDirection--)| Represents text reading order. |
-| [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Represents text reading order. |
-| [isJustifyDistributed()](#isJustifyDistributed--)| Indicates if the cells justified or distributed alignment should be used on the last line of text. |
-| [setIsJustifyDistributed(boolean)](#setIsJustifyDistributed-boolean-)| Indicates if the cells justified or distributed alignment should be used on the last line of text. |
-| [getQuotePrefix()](#getQuotePrefix--)| Indicates whether the cell's value starts with single quote mark. |
-| [setQuotePrefix(boolean)](#setQuotePrefix-boolean-)| Indicates whether the cell's value starts with single quote mark. |
-| [isGradient()](#isGradient--)| Indicates whether the cell shading is a gradient pattern. |
-| [setIsGradient(boolean)](#setIsGradient-boolean-)| Indicates whether the cell shading is a gradient pattern. |
-| [isPercent()](#isPercent--)| Indicates whether the number format is a percent format. |
-| [isDateTime()](#isDateTime--)| Indicates whether the number format is a date format. |
+| [getBackgroundThemeColor()](#getBackgroundThemeColor--)| <b>@deprecated.</b> Please use the 'backgroundThemeColor' property instead. Gets and sets the background theme color. |
+| [setBackgroundThemeColor(ThemeColor)](#setBackgroundThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'backgroundThemeColor' property instead. Gets and sets the background theme color. |
+| [getForegroundThemeColor()](#getForegroundThemeColor--)| <b>@deprecated.</b> Please use the 'foregroundThemeColor' property instead. Gets and sets the foreground theme color. |
+| [setForegroundThemeColor(ThemeColor)](#setForegroundThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'foregroundThemeColor' property instead. Gets and sets the foreground theme color. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the style. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the style. |
+| [getPattern()](#getPattern--)| <b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the cell background pattern type. |
+| [setPattern(BackgroundType)](#setPattern-backgroundtype-)| <b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the cell background pattern type. |
+| [getBorders()](#getBorders--)| <b>@deprecated.</b> Please use the 'borders' property instead. Gets the [BorderCollection](../bordercollection/) of the style. |
+| [getBackgroundColor()](#getBackgroundColor--)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets a style's background color. |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets a style's background color. |
+| [getBackgroundArgbColor()](#getBackgroundArgbColor--)| <b>@deprecated.</b> Please use the 'backgroundArgbColor' property instead. Gets and sets the background color with a 32-bit ARGB value. |
+| [setBackgroundArgbColor(number)](#setBackgroundArgbColor-number-)| <b>@deprecated.</b> Please use the 'backgroundArgbColor' property instead. Gets and sets the background color with a 32-bit ARGB value. |
+| [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets a style's foreground color. |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets a style's foreground color. |
+| [getForegroundArgbColor()](#getForegroundArgbColor--)| <b>@deprecated.</b> Please use the 'foregroundArgbColor' property instead. Gets and sets the foreground color with a 32-bit ARGB value. |
+| [setForegroundArgbColor(number)](#setForegroundArgbColor-number-)| <b>@deprecated.</b> Please use the 'foregroundArgbColor' property instead. Gets and sets the foreground color with a 32-bit ARGB value. |
+| [getHasBorders()](#getHasBorders--)| <b>@deprecated.</b> Please use the 'hasBorders' property instead. Checks whether there are borders have been set for the style. |
+| [getParentStyle()](#getParentStyle--)| <b>@deprecated.</b> Please use the 'parentStyle' property instead. Gets the parent style of this style. |
+| [isNumberFormatApplied()](#isNumberFormatApplied--)| <b>@deprecated.</b> Please use the 'isNumberFormatApplied' property instead. Indicate whether the number formatting should be applied. |
+| [setIsNumberFormatApplied(boolean)](#setIsNumberFormatApplied-boolean-)| <b>@deprecated.</b> Please use the 'isNumberFormatApplied' property instead. Indicate whether the number formatting should be applied. |
+| [isFontApplied()](#isFontApplied--)| <b>@deprecated.</b> Please use the 'isFontApplied' property instead. Indicate whether the font formatting should be applied. |
+| [setIsFontApplied(boolean)](#setIsFontApplied-boolean-)| <b>@deprecated.</b> Please use the 'isFontApplied' property instead. Indicate whether the font formatting should be applied. |
+| [isAlignmentApplied()](#isAlignmentApplied--)| <b>@deprecated.</b> Please use the 'isAlignmentApplied' property instead. Indicate whether the alignment formatting should be applied. |
+| [setIsAlignmentApplied(boolean)](#setIsAlignmentApplied-boolean-)| <b>@deprecated.</b> Please use the 'isAlignmentApplied' property instead. Indicate whether the alignment formatting should be applied. |
+| [isBorderApplied()](#isBorderApplied--)| <b>@deprecated.</b> Please use the 'isBorderApplied' property instead. Indicate whether the border formatting should be applied. |
+| [setIsBorderApplied(boolean)](#setIsBorderApplied-boolean-)| <b>@deprecated.</b> Please use the 'isBorderApplied' property instead. Indicate whether the border formatting should be applied. |
+| [isFillApplied()](#isFillApplied--)| <b>@deprecated.</b> Please use the 'isFillApplied' property instead. Indicate whether the fill formatting should be applied. |
+| [setIsFillApplied(boolean)](#setIsFillApplied-boolean-)| <b>@deprecated.</b> Please use the 'isFillApplied' property instead. Indicate whether the fill formatting should be applied. |
+| [isProtectionApplied()](#isProtectionApplied--)| <b>@deprecated.</b> Please use the 'isProtectionApplied' property instead. Indicate whether the protection formatting should be applied. |
+| [setIsProtectionApplied(boolean)](#setIsProtectionApplied-boolean-)| <b>@deprecated.</b> Please use the 'isProtectionApplied' property instead. Indicate whether the protection formatting should be applied. |
+| [getIndentLevel()](#getIndentLevel--)| <b>@deprecated.</b> Please use the 'indentLevel' property instead. Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
+| [setIndentLevel(number)](#setIndentLevel-number-)| <b>@deprecated.</b> Please use the 'indentLevel' property instead. Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets or sets the horizontal alignment type of the text in a cell. |
+| [setHorizontalAlignment(TextAlignmentType)](#setHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets or sets the horizontal alignment type of the text in a cell. |
+| [getVerticalAlignment()](#getVerticalAlignment--)| <b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets or sets the vertical alignment type of the text in a cell. |
+| [setVerticalAlignment(TextAlignmentType)](#setVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets or sets the vertical alignment type of the text in a cell. |
+| [isTextWrapped()](#isTextWrapped--)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text within a cell is wrapped. |
+| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text within a cell is wrapped. |
+| [getNumber()](#getNumber--)| <b>@deprecated.</b> Please use the 'number' property instead. Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
+| [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
+| [isLocked()](#isLocked--)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Gets or sets a value indicating whether a cell can be modified or not. |
+| [setIsLocked(boolean)](#setIsLocked-boolean-)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Gets or sets a value indicating whether a cell can be modified or not. |
+| [getCustom()](#getCustom--)| <b>@deprecated.</b> Please use the 'custom' property instead. Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
+| [setCustom(string)](#setCustom-string-)| <b>@deprecated.</b> Please use the 'custom' property instead. Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
+| [getCultureCustom()](#getCultureCustom--)| <b>@deprecated.</b> Please use the 'cultureCustom' property instead. Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [setCultureCustom(string)](#setCultureCustom-string-)| <b>@deprecated.</b> Please use the 'cultureCustom' property instead. Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [getInvariantCustom()](#getInvariantCustom--)| <b>@deprecated.</b> Please use the 'invariantCustom' property instead. Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [isFormulaHidden()](#isFormulaHidden--)| <b>@deprecated.</b> Please use the 'isFormulaHidden' property instead. Represents if the formula will be hidden when the worksheet is protected. |
+| [setIsFormulaHidden(boolean)](#setIsFormulaHidden-boolean-)| <b>@deprecated.</b> Please use the 'isFormulaHidden' property instead. Represents if the formula will be hidden when the worksheet is protected. |
+| [getShrinkToFit()](#getShrinkToFit--)| <b>@deprecated.</b> Please use the 'shrinkToFit' property instead. Represents if text automatically shrinks to fit in the available column width. |
+| [setShrinkToFit(boolean)](#setShrinkToFit-boolean-)| <b>@deprecated.</b> Please use the 'shrinkToFit' property instead. Represents if text automatically shrinks to fit in the available column width. |
+| [getTextDirection()](#getTextDirection--)| <b>@deprecated.</b> Please use the 'textDirection' property instead. Represents text reading order. |
+| [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| <b>@deprecated.</b> Please use the 'textDirection' property instead. Represents text reading order. |
+| [isJustifyDistributed()](#isJustifyDistributed--)| <b>@deprecated.</b> Please use the 'isJustifyDistributed' property instead. Indicates if the cells justified or distributed alignment should be used on the last line of text. |
+| [setIsJustifyDistributed(boolean)](#setIsJustifyDistributed-boolean-)| <b>@deprecated.</b> Please use the 'isJustifyDistributed' property instead. Indicates if the cells justified or distributed alignment should be used on the last line of text. |
+| [getQuotePrefix()](#getQuotePrefix--)| <b>@deprecated.</b> Please use the 'quotePrefix' property instead. Indicates whether the cell's value starts with single quote mark. |
+| [setQuotePrefix(boolean)](#setQuotePrefix-boolean-)| <b>@deprecated.</b> Please use the 'quotePrefix' property instead. Indicates whether the cell's value starts with single quote mark. |
+| [isGradient()](#isGradient--)| <b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern. |
+| [setIsGradient(boolean)](#setIsGradient-boolean-)| <b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern. |
+| [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the number format is a percent format. |
+| [isDateTime()](#isDateTime--)| <b>@deprecated.</b> Please use the 'isDateTime' property instead. Indicates whether the number format is a date format. |
 | [setPatternColor(BackgroundType, Color, Color)](#setPatternColor-backgroundtype-color-color-)| Sets the background color. |
 | [copy(Style)](#copy-style-)| Copies data from another style object |
 | [update()](#update--)| Apply the named style to the styles of the cells which use this named style. It works like clicking the "ok" button after you finished modifying the style. Only applies for named style. |
@@ -121,9 +162,405 @@ excel.getWorksheets().get(0).getCells().get("A1").setStyle(style1);
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getBackgroundThemeColor() {#getBackgroundThemeColor--}
+### backgroundThemeColor {#backgroundThemeColor--}
 
 Gets and sets the background theme color.
+
+```javascript
+backgroundThemeColor : ThemeColor;
+```
+
+
+**Remarks**
+
+If the background color is not a theme color, NULL will be returned.
+
+### foregroundThemeColor {#foregroundThemeColor--}
+
+Gets and sets the foreground theme color.
+
+```javascript
+foregroundThemeColor : ThemeColor;
+```
+
+
+**Remarks**
+
+If the foreground color is not a theme color, NULL will be returned.
+
+### name {#name--}
+
+Gets or sets the name of the style.
+
+```javascript
+name : string;
+```
+
+
+### pattern {#pattern--}
+
+Gets or sets the cell background pattern type.
+
+```javascript
+pattern : BackgroundType;
+```
+
+
+### borders {#borders--}
+
+Readonly. Gets the [BorderCollection](../bordercollection/) of the style.
+
+```javascript
+borders : BorderCollection;
+```
+
+
+### backgroundColor {#backgroundColor--}
+
+Gets or sets a style's background color.
+
+```javascript
+backgroundColor : Color;
+```
+
+
+**Remarks**
+
+If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
+
+### backgroundArgbColor {#backgroundArgbColor--}
+
+Gets and sets the background color with a 32-bit ARGB value.
+
+```javascript
+backgroundArgbColor : number;
+```
+
+
+### foregroundColor {#foregroundColor--}
+
+Gets or sets a style's foreground color.
+
+```javascript
+foregroundColor : Color;
+```
+
+
+**Remarks**
+
+It means no color setting if Color.Empty is returned.
+
+### foregroundArgbColor {#foregroundArgbColor--}
+
+Gets and sets the foreground color with a 32-bit ARGB value.
+
+```javascript
+foregroundArgbColor : number;
+```
+
+
+### hasBorders {#hasBorders--}
+
+Readonly. Checks whether there are borders have been set for the style.
+
+```javascript
+hasBorders : boolean;
+```
+
+
+### parentStyle {#parentStyle--}
+
+Readonly. Gets the parent style of this style.
+
+```javascript
+parentStyle : Style;
+```
+
+
+### isNumberFormatApplied {#isNumberFormatApplied--}
+
+Indicate whether the number formatting should be applied.
+
+```javascript
+isNumberFormatApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### isFontApplied {#isFontApplied--}
+
+Indicate whether the font formatting should be applied.
+
+```javascript
+isFontApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### isAlignmentApplied {#isAlignmentApplied--}
+
+Indicate whether the alignment formatting should be applied.
+
+```javascript
+isAlignmentApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### isBorderApplied {#isBorderApplied--}
+
+Indicate whether the border formatting should be applied.
+
+```javascript
+isBorderApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### isFillApplied {#isFillApplied--}
+
+Indicate whether the fill formatting should be applied.
+
+```javascript
+isFillApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### isProtectionApplied {#isProtectionApplied--}
+
+Indicate whether the protection formatting should be applied.
+
+```javascript
+isProtectionApplied : boolean;
+```
+
+
+**Remarks**
+
+Only for named style.
+
+### indentLevel {#indentLevel--}
+
+Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
+
+```javascript
+indentLevel : number;
+```
+
+
+**Remarks**
+
+If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
+
+### font {#font--}
+
+Readonly. Gets a [Font](../font/) object.
+
+```javascript
+font : Font;
+```
+
+
+### rotationAngle {#rotationAngle--}
+
+Represents text rotation angle.
+
+```javascript
+rotationAngle : number;
+```
+
+
+**Remarks**
+
+0: Not rotated.</p> <p>255: Top to Bottom.</p> <p>-90: Downward.</p> <p>90: Upward.</p> You can set 255 or value ranged from -90 to 90.
+
+### horizontalAlignment {#horizontalAlignment--}
+
+Gets or sets the horizontal alignment type of the text in a cell.
+
+```javascript
+horizontalAlignment : TextAlignmentType;
+```
+
+
+### verticalAlignment {#verticalAlignment--}
+
+Gets or sets the vertical alignment type of the text in a cell.
+
+```javascript
+verticalAlignment : TextAlignmentType;
+```
+
+
+### isTextWrapped {#isTextWrapped--}
+
+Gets or sets a value indicating whether the text within a cell is wrapped.
+
+```javascript
+isTextWrapped : boolean;
+```
+
+
+### number {#number--}
+
+Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
+
+```javascript
+number : number;
+```
+
+
+**Remarks**
+
+For example, the formatting patterns represented by numbers for en_US region: <list type="table"> <listheader> <description>Value</description> <description>Type</description> <description>Format String</description> </listheader> <item> <description>0</description> <description>General</description> <description><c>General</c></description> </item> <item> <description>1</description> <description>Decimal</description> <description><c>0</c></description> </item> <item> <description>2</description> <description>Decimal</description> <description><c>0.00</c></description> </item> <item> <description>3</description> <description>Decimal</description> <description><c>#,##0</c></description> </item> <item> <description>4</description> <description>Decimal</description> <description><c>#,##0.00</c></description> </item> <item> <description>5</description> <description>Currency</description> <description><c>$#,##0_);($#,##0)</c></description> </item> <item> <description>6</description> <description>Currency</description> <description><c>$#,##0_);[Red]($#,##0)</c></description> </item> <item> <description>7</description> <description>Currency</description> <description><c>$#,##0.00_);($#,##0.00)</c></description> </item> <item> <description>8</description> <description>Currency</description> <description><c>$#,##0.00_);[Red]($#,##0.00)</c></description> </item> <item> <description>9</description> <description>Percentage</description> <description><c>0%</c></description> </item> <item> <description>10</description> <description>Percentage</description> <description><c>0.00%</c></description> </item> <item> <description>11</description> <description>Scientific</description> <description><c>0.00E+00</c></description> </item> <item> <description>12</description> <description>Fraction</description> <description><c># ?/?</c></description> </item> <item> <description>13</description> <description>Fraction</description> <description><c># ??/??</c></description> </item> <item> <description>14</description> <description>Date</description> <description><c>m/d/yyyy</c></description> </item> <item> <description>15</description> <description>Date</description> <description><c>d-mmm-yy</c></description> </item> <item> <description>16</description> <description>Date</description> <description><c>d-mmm</c></description> </item> <item> <description>17</description> <description>Date</description> <description><c>mmm-yy</c></description> </item> <item> <description>18</description> <description>Time</description> <description><c>h:mm AM/PM</c></description> </item> <item> <description>19</description> <description>Time</description> <description><c>h:mm:ss AM/PM</c></description> </item> <item> <description>20</description> <description>Time</description> <description><c>h:mm</c></description> </item> <item> <description>21</description> <description>Time</description> <description><c>h:mm:ss</c></description> </item> <item> <description>22</description> <description>Time</description> <description><c>m/d/yyyy h:mm</c></description> </item> <item> <description>37</description> <description>Accounting</description> <description><c>#,##0_);(#,##0)</c></description> </item> <item> <description>38</description> <description>Accounting</description> <description><c>#,##0_);[Red](#,##0)</c></description> </item> <item> <description>39</description> <description>Accounting</description> <description><c>#,##0.00_);(#,##0.00)</c></description> </item> <item> <description>40</description> <description>Accounting</description> <description><c>#,##0.00_);[Red](#,##0.00)</c></description> </item> <item> <description>41</description> <description>Accounting</description> <description><c>_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)</c></description> </item> <item> <description>42</description> <description>Currency</description> <description><c>_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)</c></description> </item> <item> <description>43</description> <description>Accounting</description> <description><c>_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)</c></description> </item> <item> <description>44</description> <description>Currency</description> <description><c>_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)</c></description> </item> <item> <description>45</description> <description>Time</description> <description><c>mm:ss</c></description> </item> <item> <description>46</description> <description>Time</description> <description><c>[h]:mm:ss</c></description> </item> <item> <description>47</description> <description>Time</description> <description><c>mm:ss.0</c></description> </item> <item> <description>48</description> <description>Scientific</description> <description><c>##0.0E+0</c></description> </item> <item> <description>49</description> <description>Text</description> <description><c>@</c></description> </item> </list
+
+### isLocked {#isLocked--}
+
+Gets or sets a value indicating whether a cell can be modified or not.
+
+```javascript
+isLocked : boolean;
+```
+
+
+**Remarks**
+
+Locking cells has no effect unless the worksheet is protected.
+
+### custom {#custom--}
+
+Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+
+```javascript
+custom : string;
+```
+
+
+**Remarks**
+
+The returned custom string is culture-independent.
+
+### cultureCustom {#cultureCustom--}
+
+Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+
+```javascript
+cultureCustom : string;
+```
+
+
+**Remarks**
+
+For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes  "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
+
+### invariantCustom {#invariantCustom--}
+
+Readonly. Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+
+```javascript
+invariantCustom : string;
+```
+
+
+**Remarks**
+
+For builtin number formats, the returned pattern content is still culture-dependent, such as, for some locales it returns "m/d/y" and for some other locales it returns "d/m/y". The difference from [CultureCustom](../culturecustom/) is(that is also what culture-independent means): the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator and  "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
+
+### isFormulaHidden {#isFormulaHidden--}
+
+Represents if the formula will be hidden when the worksheet is protected.
+
+```javascript
+isFormulaHidden : boolean;
+```
+
+
+### shrinkToFit {#shrinkToFit--}
+
+Represents if text automatically shrinks to fit in the available column width.
+
+```javascript
+shrinkToFit : boolean;
+```
+
+
+### textDirection {#textDirection--}
+
+Represents text reading order.
+
+```javascript
+textDirection : TextDirectionType;
+```
+
+
+### isJustifyDistributed {#isJustifyDistributed--}
+
+Indicates if the cells justified or distributed alignment should be used on the last line of text.
+
+```javascript
+isJustifyDistributed : boolean;
+```
+
+
+**Remarks**
+
+This is typical for East Asian alignments but not typical in other contexts.
+
+### quotePrefix {#quotePrefix--}
+
+Indicates whether the cell's value starts with single quote mark.
+
+```javascript
+quotePrefix : boolean;
+```
+
+
+### isGradient {#isGradient--}
+
+Indicates whether the cell shading is a gradient pattern.
+
+```javascript
+isGradient : boolean;
+```
+
+
+### isPercent {#isPercent--}
+
+Readonly. Indicates whether the number format is a percent format.
+
+```javascript
+isPercent : boolean;
+```
+
+
+### isDateTime {#isDateTime--}
+
+Readonly. Indicates whether the number format is a date format.
+
+```javascript
+isDateTime : boolean;
+```
+
+
+### getBackgroundThemeColor() {#getBackgroundThemeColor--}
+
+<b>@deprecated.</b> Please use the 'backgroundThemeColor' property instead. Gets and sets the background theme color.
 
 ```javascript
 getBackgroundThemeColor() : ThemeColor;
@@ -140,7 +577,7 @@ If the background color is not a theme color, NULL will be returned.
 
 ### setBackgroundThemeColor(ThemeColor) {#setBackgroundThemeColor-themecolor-}
 
-Gets and sets the background theme color.
+<b>@deprecated.</b> Please use the 'backgroundThemeColor' property instead. Gets and sets the background theme color.
 
 ```javascript
 setBackgroundThemeColor(value: ThemeColor) : void;
@@ -157,7 +594,7 @@ If the background color is not a theme color, NULL will be returned.
 
 ### getForegroundThemeColor() {#getForegroundThemeColor--}
 
-Gets and sets the foreground theme color.
+<b>@deprecated.</b> Please use the 'foregroundThemeColor' property instead. Gets and sets the foreground theme color.
 
 ```javascript
 getForegroundThemeColor() : ThemeColor;
@@ -174,7 +611,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### setForegroundThemeColor(ThemeColor) {#setForegroundThemeColor-themecolor-}
 
-Gets and sets the foreground theme color.
+<b>@deprecated.</b> Please use the 'foregroundThemeColor' property instead. Gets and sets the foreground theme color.
 
 ```javascript
 setForegroundThemeColor(value: ThemeColor) : void;
@@ -191,7 +628,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getName() {#getName--}
 
-Gets or sets the name of the style.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the style.
 
 ```javascript
 getName() : string;
@@ -200,7 +637,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets or sets the name of the style.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the style.
 
 ```javascript
 setName(value: string) : void;
@@ -213,7 +650,7 @@ setName(value: string) : void;
 
 ### getPattern() {#getPattern--}
 
-Gets or sets the cell background pattern type.
+<b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the cell background pattern type.
 
 ```javascript
 getPattern() : BackgroundType;
@@ -226,7 +663,7 @@ getPattern() : BackgroundType;
 
 ### setPattern(BackgroundType) {#setPattern-backgroundtype-}
 
-Gets or sets the cell background pattern type.
+<b>@deprecated.</b> Please use the 'pattern' property instead. Gets or sets the cell background pattern type.
 
 ```javascript
 setPattern(value: BackgroundType) : void;
@@ -239,7 +676,7 @@ setPattern(value: BackgroundType) : void;
 
 ### getBorders() {#getBorders--}
 
-Gets the [BorderCollection](../bordercollection/) of the style.
+<b>@deprecated.</b> Please use the 'borders' property instead. Gets the [BorderCollection](../bordercollection/) of the style.
 
 ```javascript
 getBorders() : BorderCollection;
@@ -252,7 +689,7 @@ getBorders() : BorderCollection;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets a style's background color.
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets a style's background color.
 
 ```javascript
 getBackgroundColor() : Color;
@@ -269,7 +706,7 @@ If you want to set a cell's color, please use Style.ForegroundColor property. On
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets a style's background color.
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets a style's background color.
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -286,7 +723,7 @@ If you want to set a cell's color, please use Style.ForegroundColor property. On
 
 ### getBackgroundArgbColor() {#getBackgroundArgbColor--}
 
-Gets and sets the background color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'backgroundArgbColor' property instead. Gets and sets the background color with a 32-bit ARGB value.
 
 ```javascript
 getBackgroundArgbColor() : number;
@@ -295,7 +732,7 @@ getBackgroundArgbColor() : number;
 
 ### setBackgroundArgbColor(number) {#setBackgroundArgbColor-number-}
 
-Gets and sets the background color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'backgroundArgbColor' property instead. Gets and sets the background color with a 32-bit ARGB value.
 
 ```javascript
 setBackgroundArgbColor(value: number) : void;
@@ -308,7 +745,7 @@ setBackgroundArgbColor(value: number) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets a style's foreground color.
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets a style's foreground color.
 
 ```javascript
 getForegroundColor() : Color;
@@ -325,7 +762,7 @@ It means no color setting if Color.Empty is returned.
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets a style's foreground color.
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets a style's foreground color.
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -342,7 +779,7 @@ It means no color setting if Color.Empty is returned.
 
 ### getForegroundArgbColor() {#getForegroundArgbColor--}
 
-Gets and sets the foreground color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'foregroundArgbColor' property instead. Gets and sets the foreground color with a 32-bit ARGB value.
 
 ```javascript
 getForegroundArgbColor() : number;
@@ -351,7 +788,7 @@ getForegroundArgbColor() : number;
 
 ### setForegroundArgbColor(number) {#setForegroundArgbColor-number-}
 
-Gets and sets the foreground color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'foregroundArgbColor' property instead. Gets and sets the foreground color with a 32-bit ARGB value.
 
 ```javascript
 setForegroundArgbColor(value: number) : void;
@@ -364,7 +801,7 @@ setForegroundArgbColor(value: number) : void;
 
 ### getHasBorders() {#getHasBorders--}
 
-Checks whether there are borders have been set for the style.
+<b>@deprecated.</b> Please use the 'hasBorders' property instead. Checks whether there are borders have been set for the style.
 
 ```javascript
 getHasBorders() : boolean;
@@ -373,7 +810,7 @@ getHasBorders() : boolean;
 
 ### getParentStyle() {#getParentStyle--}
 
-Gets the parent style of this style.
+<b>@deprecated.</b> Please use the 'parentStyle' property instead. Gets the parent style of this style.
 
 ```javascript
 getParentStyle() : Style;
@@ -386,7 +823,7 @@ getParentStyle() : Style;
 
 ### isNumberFormatApplied() {#isNumberFormatApplied--}
 
-Indicate whether the number formatting should be applied.
+<b>@deprecated.</b> Please use the 'isNumberFormatApplied' property instead. Indicate whether the number formatting should be applied.
 
 ```javascript
 isNumberFormatApplied() : boolean;
@@ -399,7 +836,7 @@ Only for named style.
 
 ### setIsNumberFormatApplied(boolean) {#setIsNumberFormatApplied-boolean-}
 
-Indicate whether the number formatting should be applied.
+<b>@deprecated.</b> Please use the 'isNumberFormatApplied' property instead. Indicate whether the number formatting should be applied.
 
 ```javascript
 setIsNumberFormatApplied(value: boolean) : void;
@@ -416,7 +853,7 @@ Only for named style.
 
 ### isFontApplied() {#isFontApplied--}
 
-Indicate whether the font formatting should be applied.
+<b>@deprecated.</b> Please use the 'isFontApplied' property instead. Indicate whether the font formatting should be applied.
 
 ```javascript
 isFontApplied() : boolean;
@@ -429,7 +866,7 @@ Only for named style.
 
 ### setIsFontApplied(boolean) {#setIsFontApplied-boolean-}
 
-Indicate whether the font formatting should be applied.
+<b>@deprecated.</b> Please use the 'isFontApplied' property instead. Indicate whether the font formatting should be applied.
 
 ```javascript
 setIsFontApplied(value: boolean) : void;
@@ -446,7 +883,7 @@ Only for named style.
 
 ### isAlignmentApplied() {#isAlignmentApplied--}
 
-Indicate whether the alignment formatting should be applied.
+<b>@deprecated.</b> Please use the 'isAlignmentApplied' property instead. Indicate whether the alignment formatting should be applied.
 
 ```javascript
 isAlignmentApplied() : boolean;
@@ -459,7 +896,7 @@ Only for named style.
 
 ### setIsAlignmentApplied(boolean) {#setIsAlignmentApplied-boolean-}
 
-Indicate whether the alignment formatting should be applied.
+<b>@deprecated.</b> Please use the 'isAlignmentApplied' property instead. Indicate whether the alignment formatting should be applied.
 
 ```javascript
 setIsAlignmentApplied(value: boolean) : void;
@@ -476,7 +913,7 @@ Only for named style.
 
 ### isBorderApplied() {#isBorderApplied--}
 
-Indicate whether the border formatting should be applied.
+<b>@deprecated.</b> Please use the 'isBorderApplied' property instead. Indicate whether the border formatting should be applied.
 
 ```javascript
 isBorderApplied() : boolean;
@@ -489,7 +926,7 @@ Only for named style.
 
 ### setIsBorderApplied(boolean) {#setIsBorderApplied-boolean-}
 
-Indicate whether the border formatting should be applied.
+<b>@deprecated.</b> Please use the 'isBorderApplied' property instead. Indicate whether the border formatting should be applied.
 
 ```javascript
 setIsBorderApplied(value: boolean) : void;
@@ -506,7 +943,7 @@ Only for named style.
 
 ### isFillApplied() {#isFillApplied--}
 
-Indicate whether the fill formatting should be applied.
+<b>@deprecated.</b> Please use the 'isFillApplied' property instead. Indicate whether the fill formatting should be applied.
 
 ```javascript
 isFillApplied() : boolean;
@@ -519,7 +956,7 @@ Only for named style.
 
 ### setIsFillApplied(boolean) {#setIsFillApplied-boolean-}
 
-Indicate whether the fill formatting should be applied.
+<b>@deprecated.</b> Please use the 'isFillApplied' property instead. Indicate whether the fill formatting should be applied.
 
 ```javascript
 setIsFillApplied(value: boolean) : void;
@@ -536,7 +973,7 @@ Only for named style.
 
 ### isProtectionApplied() {#isProtectionApplied--}
 
-Indicate whether the protection formatting should be applied.
+<b>@deprecated.</b> Please use the 'isProtectionApplied' property instead. Indicate whether the protection formatting should be applied.
 
 ```javascript
 isProtectionApplied() : boolean;
@@ -549,7 +986,7 @@ Only for named style.
 
 ### setIsProtectionApplied(boolean) {#setIsProtectionApplied-boolean-}
 
-Indicate whether the protection formatting should be applied.
+<b>@deprecated.</b> Please use the 'isProtectionApplied' property instead. Indicate whether the protection formatting should be applied.
 
 ```javascript
 setIsProtectionApplied(value: boolean) : void;
@@ -566,7 +1003,7 @@ Only for named style.
 
 ### getIndentLevel() {#getIndentLevel--}
 
-Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
+<b>@deprecated.</b> Please use the 'indentLevel' property instead. Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
 
 ```javascript
 getIndentLevel() : number;
@@ -579,7 +1016,7 @@ If text horizontal alignment type is set to value other than left or right, inde
 
 ### setIndentLevel(number) {#setIndentLevel-number-}
 
-Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
+<b>@deprecated.</b> Please use the 'indentLevel' property instead. Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
 
 ```javascript
 setIndentLevel(value: number) : void;
@@ -596,7 +1033,7 @@ If text horizontal alignment type is set to value other than left or right, inde
 
 ### getFont() {#getFont--}
 
-Gets a [Font](../font/) object.
+<b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object.
 
 ```javascript
 getFont() : Font;
@@ -609,7 +1046,7 @@ getFont() : Font;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-Represents text rotation angle.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
 
 ```javascript
 getRotationAngle() : number;
@@ -622,7 +1059,7 @@ getRotationAngle() : number;
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-Represents text rotation angle.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
 
 ```javascript
 setRotationAngle(value: number) : void;
@@ -639,7 +1076,7 @@ setRotationAngle(value: number) : void;
 
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 
-Gets or sets the horizontal alignment type of the text in a cell.
+<b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets or sets the horizontal alignment type of the text in a cell.
 
 ```javascript
 getHorizontalAlignment() : TextAlignmentType;
@@ -652,7 +1089,7 @@ getHorizontalAlignment() : TextAlignmentType;
 
 ### setHorizontalAlignment(TextAlignmentType) {#setHorizontalAlignment-textalignmenttype-}
 
-Gets or sets the horizontal alignment type of the text in a cell.
+<b>@deprecated.</b> Please use the 'horizontalAlignment' property instead. Gets or sets the horizontal alignment type of the text in a cell.
 
 ```javascript
 setHorizontalAlignment(value: TextAlignmentType) : void;
@@ -665,7 +1102,7 @@ setHorizontalAlignment(value: TextAlignmentType) : void;
 
 ### getVerticalAlignment() {#getVerticalAlignment--}
 
-Gets or sets the vertical alignment type of the text in a cell.
+<b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets or sets the vertical alignment type of the text in a cell.
 
 ```javascript
 getVerticalAlignment() : TextAlignmentType;
@@ -678,7 +1115,7 @@ getVerticalAlignment() : TextAlignmentType;
 
 ### setVerticalAlignment(TextAlignmentType) {#setVerticalAlignment-textalignmenttype-}
 
-Gets or sets the vertical alignment type of the text in a cell.
+<b>@deprecated.</b> Please use the 'verticalAlignment' property instead. Gets or sets the vertical alignment type of the text in a cell.
 
 ```javascript
 setVerticalAlignment(value: TextAlignmentType) : void;
@@ -691,7 +1128,7 @@ setVerticalAlignment(value: TextAlignmentType) : void;
 
 ### isTextWrapped() {#isTextWrapped--}
 
-Gets or sets a value indicating whether the text within a cell is wrapped.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text within a cell is wrapped.
 
 ```javascript
 isTextWrapped() : boolean;
@@ -700,7 +1137,7 @@ isTextWrapped() : boolean;
 
 ### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
 
-Gets or sets a value indicating whether the text within a cell is wrapped.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text within a cell is wrapped.
 
 ```javascript
 setIsTextWrapped(value: boolean) : void;
@@ -713,7 +1150,7 @@ setIsTextWrapped(value: boolean) : void;
 
 ### getNumber() {#getNumber--}
 
-Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
+<b>@deprecated.</b> Please use the 'number' property instead. Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
 
 ```javascript
 getNumber() : number;
@@ -726,7 +1163,7 @@ For example, the formatting patterns represented by numbers for en_US region: <l
 
 ### setNumber(number) {#setNumber-number-}
 
-Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
+<b>@deprecated.</b> Please use the 'number' property instead. Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
 
 ```javascript
 setNumber(value: number) : void;
@@ -743,7 +1180,7 @@ For example, the formatting patterns represented by numbers for en_US region: <l
 
 ### isLocked() {#isLocked--}
 
-Gets or sets a value indicating whether a cell can be modified or not.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Gets or sets a value indicating whether a cell can be modified or not.
 
 ```javascript
 isLocked() : boolean;
@@ -756,7 +1193,7 @@ Locking cells has no effect unless the worksheet is protected.
 
 ### setIsLocked(boolean) {#setIsLocked-boolean-}
 
-Gets or sets a value indicating whether a cell can be modified or not.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Gets or sets a value indicating whether a cell can be modified or not.
 
 ```javascript
 setIsLocked(value: boolean) : void;
@@ -773,7 +1210,7 @@ Locking cells has no effect unless the worksheet is protected.
 
 ### getCustom() {#getCustom--}
 
-Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+<b>@deprecated.</b> Please use the 'custom' property instead. Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
 
 ```javascript
 getCustom() : string;
@@ -786,7 +1223,7 @@ The returned custom string is culture-independent.
 
 ### setCustom(string) {#setCustom-string-}
 
-Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+<b>@deprecated.</b> Please use the 'custom' property instead. Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
 
 ```javascript
 setCustom(value: string) : void;
@@ -803,7 +1240,7 @@ The returned custom string is culture-independent.
 
 ### getCultureCustom() {#getCultureCustom--}
 
-Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+<b>@deprecated.</b> Please use the 'cultureCustom' property instead. Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
 
 ```javascript
 getCultureCustom() : string;
@@ -816,7 +1253,7 @@ For builtin number format, both the pattern content(such as, one builtin date fo
 
 ### setCultureCustom(string) {#setCultureCustom-string-}
 
-Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+<b>@deprecated.</b> Please use the 'cultureCustom' property instead. Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
 
 ```javascript
 setCultureCustom(value: string) : void;
@@ -833,7 +1270,7 @@ For builtin number format, both the pattern content(such as, one builtin date fo
 
 ### getInvariantCustom() {#getInvariantCustom--}
 
-Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+<b>@deprecated.</b> Please use the 'invariantCustom' property instead. Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
 
 ```javascript
 getInvariantCustom() : string;
@@ -846,7 +1283,7 @@ For builtin number formats, the returned pattern content is still culture-depend
 
 ### isFormulaHidden() {#isFormulaHidden--}
 
-Represents if the formula will be hidden when the worksheet is protected.
+<b>@deprecated.</b> Please use the 'isFormulaHidden' property instead. Represents if the formula will be hidden when the worksheet is protected.
 
 ```javascript
 isFormulaHidden() : boolean;
@@ -855,7 +1292,7 @@ isFormulaHidden() : boolean;
 
 ### setIsFormulaHidden(boolean) {#setIsFormulaHidden-boolean-}
 
-Represents if the formula will be hidden when the worksheet is protected.
+<b>@deprecated.</b> Please use the 'isFormulaHidden' property instead. Represents if the formula will be hidden when the worksheet is protected.
 
 ```javascript
 setIsFormulaHidden(value: boolean) : void;
@@ -868,7 +1305,7 @@ setIsFormulaHidden(value: boolean) : void;
 
 ### getShrinkToFit() {#getShrinkToFit--}
 
-Represents if text automatically shrinks to fit in the available column width.
+<b>@deprecated.</b> Please use the 'shrinkToFit' property instead. Represents if text automatically shrinks to fit in the available column width.
 
 ```javascript
 getShrinkToFit() : boolean;
@@ -877,7 +1314,7 @@ getShrinkToFit() : boolean;
 
 ### setShrinkToFit(boolean) {#setShrinkToFit-boolean-}
 
-Represents if text automatically shrinks to fit in the available column width.
+<b>@deprecated.</b> Please use the 'shrinkToFit' property instead. Represents if text automatically shrinks to fit in the available column width.
 
 ```javascript
 setShrinkToFit(value: boolean) : void;
@@ -890,7 +1327,7 @@ setShrinkToFit(value: boolean) : void;
 
 ### getTextDirection() {#getTextDirection--}
 
-Represents text reading order.
+<b>@deprecated.</b> Please use the 'textDirection' property instead. Represents text reading order.
 
 ```javascript
 getTextDirection() : TextDirectionType;
@@ -903,7 +1340,7 @@ getTextDirection() : TextDirectionType;
 
 ### setTextDirection(TextDirectionType) {#setTextDirection-textdirectiontype-}
 
-Represents text reading order.
+<b>@deprecated.</b> Please use the 'textDirection' property instead. Represents text reading order.
 
 ```javascript
 setTextDirection(value: TextDirectionType) : void;
@@ -916,7 +1353,7 @@ setTextDirection(value: TextDirectionType) : void;
 
 ### isJustifyDistributed() {#isJustifyDistributed--}
 
-Indicates if the cells justified or distributed alignment should be used on the last line of text.
+<b>@deprecated.</b> Please use the 'isJustifyDistributed' property instead. Indicates if the cells justified or distributed alignment should be used on the last line of text.
 
 ```javascript
 isJustifyDistributed() : boolean;
@@ -929,7 +1366,7 @@ This is typical for East Asian alignments but not typical in other contexts.
 
 ### setIsJustifyDistributed(boolean) {#setIsJustifyDistributed-boolean-}
 
-Indicates if the cells justified or distributed alignment should be used on the last line of text.
+<b>@deprecated.</b> Please use the 'isJustifyDistributed' property instead. Indicates if the cells justified or distributed alignment should be used on the last line of text.
 
 ```javascript
 setIsJustifyDistributed(value: boolean) : void;
@@ -946,7 +1383,7 @@ This is typical for East Asian alignments but not typical in other contexts.
 
 ### getQuotePrefix() {#getQuotePrefix--}
 
-Indicates whether the cell's value starts with single quote mark.
+<b>@deprecated.</b> Please use the 'quotePrefix' property instead. Indicates whether the cell's value starts with single quote mark.
 
 ```javascript
 getQuotePrefix() : boolean;
@@ -955,7 +1392,7 @@ getQuotePrefix() : boolean;
 
 ### setQuotePrefix(boolean) {#setQuotePrefix-boolean-}
 
-Indicates whether the cell's value starts with single quote mark.
+<b>@deprecated.</b> Please use the 'quotePrefix' property instead. Indicates whether the cell's value starts with single quote mark.
 
 ```javascript
 setQuotePrefix(value: boolean) : void;
@@ -968,7 +1405,7 @@ setQuotePrefix(value: boolean) : void;
 
 ### isGradient() {#isGradient--}
 
-Indicates whether the cell shading is a gradient pattern.
+<b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern.
 
 ```javascript
 isGradient() : boolean;
@@ -977,7 +1414,7 @@ isGradient() : boolean;
 
 ### setIsGradient(boolean) {#setIsGradient-boolean-}
 
-Indicates whether the cell shading is a gradient pattern.
+<b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern.
 
 ```javascript
 setIsGradient(value: boolean) : void;
@@ -990,7 +1427,7 @@ setIsGradient(value: boolean) : void;
 
 ### isPercent() {#isPercent--}
 
-Indicates whether the number format is a percent format.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the number format is a percent format.
 
 ```javascript
 isPercent() : boolean;
@@ -999,7 +1436,7 @@ isPercent() : boolean;
 
 ### isDateTime() {#isDateTime--}
 
-Indicates whether the number format is a date format.
+<b>@deprecated.</b> Please use the 'isDateTime' property instead. Indicates whether the number format is a date format.
 
 ```javascript
 isDateTime() : boolean;

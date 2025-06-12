@@ -16,29 +16,42 @@ public TilePicOption TilePicOption { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleY = 50;
-public void TextureFill_Property_TilePicOption()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xls")))
+    public class TextureFillPropertyTilePicOptionDemo
     {
-        var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "example.png"));
-        var worksheet = workbook.Worksheets[0];
-        var chart = worksheet.Charts[0];
-        chart.ChartArea.Area.FillFormat.FillType = FillType.Texture;
-        chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption = new TilePicOption();
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleX = 50;
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleY = 50;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-        workbook.Save(Constants.destPath + "example.xls");
-    }
-    using (Workbook workbook = new Workbook(Constants.destPath + "example.xls"))
-    {
-        Chart chart = workbook.Worksheets[0].Charts[0];
-        Assert.AreEqual(chart.ChartArea.Area.FillFormat.FillType, FillType.Texture);
-        Util.SaveManCheck(workbook, "Shape", "example.xls");
-    }
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 5, 15, 15);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
+            // Set texture fill with image
+            chart.ChartArea.Area.FillFormat.FillType = FillType.Texture;
+            byte[] imageData = File.ReadAllBytes("texture.png");
+            chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+
+            // Configure tile options
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption = new TilePicOption();
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleX = 50;
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleY = 50;
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.OffsetX = 10;
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.OffsetY = 10;
+
+            // Save the workbook
+            workbook.Save("TextureFillDemo.xlsx");
+        }
+    }
 }
 ```
 

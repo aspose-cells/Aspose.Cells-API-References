@@ -16,27 +16,35 @@ public TextureFill TextureFill { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
-public void FillFormat_Property_TextureFill()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class FillFormatPropertyTextureFillDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Picture pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
+            // Add a picture shape
+            string imagePath = Path.Combine("your_image_directory", "texture.png");
+            int pictureIndex = worksheet.Pictures.Add(0, 0, imagePath);
+            Shape picture = worksheet.Shapes[pictureIndex];
 
-    // Background and foreground images are not equal, but Aspose.Cells returns same data.
-    Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
+            // Set texture fill properties
+            picture.Fill.TextureFill.ImageData = File.ReadAllBytes(imagePath);
+            picture.Fill.TextureFill.IsTiling = true;
+            picture.Fill.TextureFill.Scale = 0.5;
 
-    // This line properly changes the foreground image, but the background image is also changed.
-    pictureShape.Data = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "image1.png"));
-
-
-
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
-
-    // Background and foreground images are not equal, but Aspose.Cells returns same data.
-    Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
+            // Save the workbook
+            workbook.Save("TextureFillDemo.xlsx");
+        }
+    }
 }
 ```
 

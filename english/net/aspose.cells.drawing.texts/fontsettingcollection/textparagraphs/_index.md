@@ -16,36 +16,43 @@ public TextParagraphCollection TextParagraphs { get; }
 ### Examples
 
 ```csharp
-// Called: textbox0.TextBody.TextParagraphs[0].LineSpace = 3000;
-public void FontSettingCollection_Property_TextParagraphs()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    // Get the first worksheet in the book.
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class FontSettingCollectionPropertyTextParagraphsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // Add a new textbox to the collection.
-    int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
+            // Add a textbox to the worksheet
+            int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
+            TextBox textbox = worksheet.TextBoxes[textboxIndex];
+            textbox.Text = "First paragraph\nSecond paragraph";
 
-    // Get the textbox object.
-    Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[textboxIndex];
-    // Fill the text.
-    textbox0.Text = "   Sample text";
+            // Access the first text paragraph
+            TextParagraph paragraph = textbox.TextBody.TextParagraphs[0];
+            
+            // Set line spacing properties
+            paragraph.LineSpaceSizeType = LineSpaceSizeType.Percentage;
+            paragraph.LineSpace = 3000; // 300% line spacing
 
-    textbox0.TextBody.TextParagraphs[0].LineSpaceSizeType = Aspose.Cells.Drawing.Texts.LineSpaceSizeType.Percentage;
-    textbox0.TextBody.TextParagraphs[0].LineSpace = 3000;
+            // Set bullet properties
+            Bullet bullet = paragraph.Bullet;
+            bullet.Type = BulletType.Character;
+            ((CharacterBulletValue)bullet.BulletValue).Character = '•';
+            bullet.FontName = "Arial";
 
-    Bullet bullet = textbox0.TextBody.TextParagraphs[0].Bullet;
-    bullet.Type = BulletType.Character;
-    ((CharacterBulletValue)bullet.BulletValue).Character = 'v';
-
-    bullet.FontName = "Arial";
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    bullet = textbox0.TextBody.TextParagraphs[0].Bullet;
-    Assert.AreEqual(bullet.Type, BulletType.Character);
-    Assert.AreEqual(((CharacterBulletValue)bullet.BulletValue).Character, 'v');
-    Assert.AreEqual(bullet.FontName, "Arial");
+            // Save the workbook
+            workbook.Save("TextParagraphsDemo.xlsx");
+        }
+    }
 }
 ```
 

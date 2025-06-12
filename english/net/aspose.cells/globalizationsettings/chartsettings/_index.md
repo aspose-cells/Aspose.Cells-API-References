@@ -16,43 +16,63 @@ public ChartGlobalizationSettings ChartSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: book.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
-public void GlobalizationSettings_Property_ChartSettings()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook(Constants.sourcePath + "Xl_V2.xlsx");
-    CellsHelper.DPI = 96;
-    book.Settings.CultureInfo = new System.Globalization.CultureInfo("es-ES");
-
-    ///////////////////
-    //Add this line
-    book.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
-    //////////////////
-    Worksheet excelWorksheet = book.Worksheets["Hoja1"];
-    Aspose.Cells.Range range = excelWorksheet.Workbook.Worksheets.GetRangeByName("BIPLI_PRUEBA_CASCADA");
-    string startCell = CellsHelper.CellIndexToName(range.FirstRow, range.FirstColumn);
-    string endCell = CellsHelper.CellIndexToName(range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1);
-    string rangeAddress = string.Format("{0}:{1}", startCell, endCell);
-
-    ImageOrPrintOptions options = new ImageOrPrintOptions();
-    options.AllColumnsInOnePagePerSheet = true;
-    options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    options.OnePagePerSheet = true;
-    options.HorizontalResolution = 600;
-    options.VerticalResolution = 600;
-    options.OnlyArea = true;
-
-    Aspose.Cells.PageSetup pageSetup = excelWorksheet.PageSetup;
-
-
-    pageSetup.PrintArea = rangeAddress;
-    using (MemoryStream imageStream = new MemoryStream())
+    public class CustomChartGlobalizationSettings : ChartGlobalizationSettings
     {
-        SheetRender sr = new SheetRender(excelWorksheet, options);
-        //sr.ToImage(0, imageStream);
-        //Image.FromStream(imageStream).Save(Constants.destPath + "example.png", ImageFormat.Png);
-        sr.ToImage(0, Constants.destPath + "example.png");
+        public override string GetAxisUnitName(DisplayUnitType type)
+        {
+            switch (type)
+            {
+                case DisplayUnitType.Hundreds:
+                    return "百";
+                case DisplayUnitType.Thousands:
+                    return "千";
+                case DisplayUnitType.TenThousands:
+                    return "万";
+                default:
+                    return base.GetAxisUnitName(type);
+            }
+        }
+    }
 
-    };
+    public class GlobalizationSettingsPropertyChartSettingsDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Create a chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 5, 15, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            
+            // Add sample data
+            chart.NSeries.Add("{10,20,30,40}", true);
+            
+            // Set display units
+            chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
+            chart.ValueAxis.IsDisplayUnitLabelShown = true;
+            Console.WriteLine("Default display unit label: " + chart.ValueAxis.DisplayUnitLabel.Text);
+            
+            // Apply custom globalization settings
+            wb.Settings.GlobalizationSettings = new GlobalizationSettings
+            {
+                ChartSettings = new CustomChartGlobalizationSettings()
+            };
+            
+            // Verify the custom labels
+            Console.WriteLine("Custom display unit label: " + chart.ValueAxis.DisplayUnitLabel.Text);
+            
+            // Change display unit and verify
+            chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+            Console.WriteLine("Updated display unit label: " + chart.ValueAxis.DisplayUnitLabel.Text);
+        }
+    }
 }
 ```
 

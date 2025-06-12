@@ -16,20 +16,32 @@ public string PageTitle { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.PageTitle = "the Page Title";
-public void HtmlSaveOptions_Property_PageTitle()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("TEST_HtmlStreamSpecifyDir()");
-    string infn = path + "TEST_HtmlStreamSpecifyDir.xlsx";
-    string outfn = Constants.destPath + "TEST_HtmlStreamSpecifyDir_out.htm";
-    Workbook book = new Workbook(infn);
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.PageTitle = "the Page Title";
-    saveOptions.AttachedFilesDirectory = Constants.destPath + @"TEST_HtmlStreamSpecifyDir_outDir";
-    saveOptions.AttachedFilesUrlPrefix = @"http://www.example.com/usereport10_Attached/";
-    FileStream fs = new FileStream(outfn, FileMode.OpenOrCreate);
-    book.Save(fs,saveOptions);
-    fs.Close();
+    public class HtmlSaveOptionsPropertyPageTitleDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample HTML Export");
+
+            // Set HTML save options with PageTitle
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.PageTitle = "My Custom Page Title";
+
+            // Save to HTML with the specified title
+            string outputPath = "output.html";
+            workbook.Save(outputPath, saveOptions);
+
+            Console.WriteLine("HTML file saved with custom page title: " + outputPath);
+        }
+    }
 }
 ```
 

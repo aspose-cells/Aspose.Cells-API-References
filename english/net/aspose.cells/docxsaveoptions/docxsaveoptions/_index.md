@@ -16,16 +16,33 @@ public DocxSaveOptions()
 ### Examples
 
 ```csharp
-// Called: DocxSaveOptions saveOptions = new DocxSaveOptions();
-public void DocxSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //workbook.Save(dir + "dest.pptx");
-    DocxSaveOptions saveOptions = new DocxSaveOptions();
-    saveOptions.SaveAsEditableShaps = true;
-    workbook.Save(Constants.destPath + "example.docx", saveOptions);
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.docx",
-    "word/charts/chart1.xml", new string[] { "multiLvlStrRef" }, true));
+    public class DocxSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            
+            // Initialize DocxSaveOptions using the constructor
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
+            saveOptions.SaveAsEditableShaps = true;
+            
+            // Save the workbook as DOCX with options
+            workbook.Save("output.docx", saveOptions);
+            
+            Console.WriteLine("Document saved successfully with DocxSaveOptions.");
+        }
+    }
 }
 ```
 
@@ -52,15 +69,27 @@ public DocxSaveOptions(bool saveAsImage)
 ### Examples
 
 ```csharp
-// Called: w1.Save(destPathNetCore + "example.docx", new DocxSaveOptions(true));//for compare
-public void DocxSaveOptions_Constructor()
-{
-    string path = PathNetCore + "TestDocx001/";
-    Workbook w1 = new Workbook(path + "example.xlsx");
-    w1.Save(destPathNetCore + "example.docx");
-    w1.Save(destPathNetCore + "example.pdf");//for compare
-    w1.Save(destPathNetCore + "example.docx", new DocxSaveOptions(true));//for compare
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class DocxSaveOptionsMethodCtorWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Save as DOCX with default options
+            workbook.Save("output_default.docx");
+            
+            // Save as DOCX with DocxSaveOptions(true) - optimized for MS Word
+            workbook.Save("output_optimized.docx", new DocxSaveOptions(true));
+        }
+    }
 }
 ```
 

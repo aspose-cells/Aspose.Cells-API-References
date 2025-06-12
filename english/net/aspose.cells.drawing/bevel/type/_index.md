@@ -16,71 +16,59 @@ public BevelPresetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: bevel.Type = BevelPresetType.Circle;
-//http://www.aspose.com/community/forums/thread/262927.aspx
-public void Bevel_Property_Type()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Bevel_Property_Type()");
-    string outfn = Constants.destPath + "chart_out.xlsx";
+    public class BevelPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook();
-    Worksheet dataSheet = book.Worksheets.Add("DataSheet");
-    Worksheet sheet = book.Worksheets.Add("MyChart");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-    dataSheet.Cells["B1"].PutValue(1);
-    dataSheet.Cells["B2"].PutValue(2);
-    dataSheet.Cells["B3"].PutValue(3);
-    dataSheet.Cells["A1"].PutValue("A");
-    dataSheet.Cells["A2"].PutValue("B");
-    dataSheet.Cells["A3"].PutValue("C");
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 20, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    ChartCollection charts = sheet.Charts;
-    int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
-    Aspose.Cells.Charts.Chart chart = book.Worksheets[2].Charts[0];
-    chart.PlotArea.Area.BackgroundColor = Color.White;
-    chart.ChartArea.Area.BackgroundColor = Color.White;
-    chart.PlotArea.Area.ForegroundColor = Color.White;
-    chart.ChartArea.Area.ForegroundColor = Color.White;
-    chart.ValueAxis.MajorGridLines.Color = Color.Silver;
-    chart.ValueAxis.AxisLine.Color = Color.Silver;
-    chart.CategoryAxis.AxisLine.Color = Color.Silver;
+            // Get the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
 
-    chart.ShowLegend = false;
-    chart.NSeries.Add("DataSheet!B1:B3", true);
-    chart.NSeries.CategoryData = "DataSheet!A1:A3";
+            // Set series color
+            series.Area.ForegroundColor = Color.Blue;
 
-    Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+            // Configure 3D format and bevel properties
+            Format3D format3D = series.ShapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
 
-    ShapePropertyCollection spPr = ser.ShapeProperties;
-    Format3D fmt3d = spPr.Format3D;
-    Bevel bevel = fmt3d.TopBevel;
+            // Demonstrate Type property usage
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Width = 5;
+            topBevel.Height = 2;
 
-    bevel.Type = BevelPresetType.Circle;
-    bevel.Height = 2;
-    bevel.Width = 5;
-
-    //bevel.Type = BevelPresetType.RelaxedInset;
-    //bevel.Height = 10;
-    //bevel.Width = 10;
-
-    fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-    fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
-    fmt3d.LightingAngle = 20;
-    //fmt3d.SurfaceLightingType = LightRigType.Balanced;
-    //fmt3d.LightingAngle = 70;
-
-    //for (int x = 0; x < chart.NSeries[0].Points.Count; x++)
-    //{
-    //  chart.NSeries[0].Points[x].Area.BackgroundColor = Color.Blue;
-    //  chart.NSeries[0].Points[x].Area.ForegroundColor = Color.Blue;
-    //  chart.NSeries[0].Points[x].Border.Color = Color.Blue;
-    //}
-    ser.Area.BackgroundColor = Color.Blue;
-    ser.Area.ForegroundColor = Color.Blue;
-    ser.Border.Color = Color.Blue;
-
-    //book.Worksheets.SetOleSize(0, 3, 0, 1);
-    book.Save(outfn, SaveFormat.Xlsx);
+            // Save the workbook
+            workbook.Save("BevelPropertyTypeDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

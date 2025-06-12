@@ -17,18 +17,25 @@ class DeleteOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [updateReference](#updateReference--)| boolean | Indicates if update references in other worksheets. |
+| [formulaChangeMonitor](#formulaChangeMonitor--)| AbstractFormulaChangeMonitor | Gets/sets the monitor for tracking changes caused by the deletion. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getUpdateReference()](#getUpdateReference--)| Indicates if update references in other worksheets. |
-| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if update references in other worksheets. |
-| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| Gets/sets the monitor for tracking changes caused by the deletion. |
-| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| Gets/sets the monitor for tracking changes caused by the deletion. |
+| [getUpdateReference()](#getUpdateReference--)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets. |
+| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,9 +48,27 @@ constructor();
 ```
 
 
-### getUpdateReference() {#getUpdateReference--}
+### updateReference {#updateReference--}
 
 Indicates if update references in other worksheets.
+
+```javascript
+updateReference : boolean;
+```
+
+
+### formulaChangeMonitor {#formulaChangeMonitor--}
+
+Gets/sets the monitor for tracking changes caused by the deletion.
+
+```javascript
+formulaChangeMonitor : AbstractFormulaChangeMonitor;
+```
+
+
+### getUpdateReference() {#getUpdateReference--}
+
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets.
 
 ```javascript
 getUpdateReference() : boolean;
@@ -52,7 +77,7 @@ getUpdateReference() : boolean;
 
 ### setUpdateReference(boolean) {#setUpdateReference-boolean-}
 
-Indicates if update references in other worksheets.
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets.
 
 ```javascript
 setUpdateReference(value: boolean) : void;
@@ -65,7 +90,7 @@ setUpdateReference(value: boolean) : void;
 
 ### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
 
-Gets/sets the monitor for tracking changes caused by the deletion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion.
 
 ```javascript
 getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
@@ -78,7 +103,7 @@ getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
 
 ### setFormulaChangeMonitor(AbstractFormulaChangeMonitor) {#setFormulaChangeMonitor-abstractformulachangemonitor-}
 
-Gets/sets the monitor for tracking changes caused by the deletion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion.
 
 ```javascript
 setFormulaChangeMonitor(value: AbstractFormulaChangeMonitor) : void;

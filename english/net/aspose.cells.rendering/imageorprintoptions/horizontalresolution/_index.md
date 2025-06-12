@@ -21,23 +21,43 @@ Setting `HorizontalResolution` and [`VerticalResolution`](../verticalresolution/
 
 ### Examples
 
-The following code sets resolution to 192, the width and height of the generated image is twice of the one with resolution left as the default value 96.
-
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
 
-ImageOrPrintOptions opts = new ImageOrPrintOptions();
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyHorizontalResolutionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Text for Image Rendering");
 
-//Set output image type: png.
-opts.ImageType = ImageType.Png;
+            // Initialize ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = ImageType.Png;
+            
+            // Set horizontal and vertical resolution
+            options.HorizontalResolution = 192;
+            options.VerticalResolution = 192;
 
-//Set resolution to 192.
-opts.HorizontalResolution = 192;
-opts.VerticalResolution = 192;
+            // Render the worksheet to image with specified resolution
+            SheetRender renderer = new SheetRender(worksheet, options);
+            renderer.ToImage(0, "WorksheetImage_192dpi.png");
 
-//Render worksheet page to image.
-SheetRender sr = new SheetRender(wb.Worksheets[0], opts);
-sr.ToImage(0, "Sheet_Page1.png");
+            // Demonstrate different resolution
+            options.HorizontalResolution = 300;
+            options.VerticalResolution = 300;
+            renderer = new SheetRender(worksheet, options);
+            renderer.ToImage(0, "WorksheetImage_300dpi.png");
+        }
+    }
+}
 ```
 
 ### See Also

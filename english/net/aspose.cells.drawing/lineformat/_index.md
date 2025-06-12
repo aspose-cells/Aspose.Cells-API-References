@@ -63,16 +63,49 @@ public class LineFormat : FillFormat
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-LineFormat lineFmt = shape.Line;
+    public class LineFormatDemo
+    {
+        public static void LineFormatExample()
+        {
+            // Instantiate a new Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
 
-//do your business
+            // Add a rectangle shape to the worksheet
+            Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
+            LineFormat lineFmt = shape.Line;
 
+            // Set various properties of the LineFormat
+            lineFmt.CompoundType = MsoLineStyle.Single;
+            lineFmt.DashStyle = MsoLineDashStyle.Solid;
+            lineFmt.CapType = LineCapType.Flat;
+            lineFmt.JoinType = LineJoinType.Round;
+            lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.Weight = 2.0d;
+
+            // Set fill properties
+            lineFmt.FillType = FillType.Solid;
+            lineFmt.Transparency = 0.5;
+
+            // Save the workbook
+            workbook.Save("LineFormatExample.xlsx");
+            workbook.Save("LineFormatExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -20,18 +20,37 @@ This property can protect worksheet in all versions of Excel file and support ad
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(sheet.Protection.AllowEditingObject);
-public void Worksheet_Property_Protection()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
-    Worksheet sheet = workbook.Worksheets[0];
-    Assert.IsFalse(sheet.Protection.AllowEditingScenario);
-    Assert.IsFalse(sheet.Protection.AllowEditingObject);
-    workbook.Save(Constants.destPath + "example.xml");
-    workbook = new Workbook(Constants.destPath + "example.xml");
-    Assert.IsFalse(sheet.Protection.AllowEditingScenario);
-    Assert.IsFalse(sheet.Protection.AllowEditingObject);
-    workbook.Save(Constants.destPath + "example.xml");
+    public class WorksheetPropertyProtectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Access protection properties
+            Protection protection = sheet.Protection;
+            
+            // Set protection properties
+            protection.AllowEditingObject = false;
+            protection.AllowEditingScenario = false;
+            
+            // Protect the worksheet (using Protect method instead of setting IsProtectedWithPassword directly)
+            sheet.Protect(ProtectionType.All, "password123", null);
+
+            // Save the workbook
+            workbook.Save("WorksheetProtectionDemo.xlsx");
+
+            // Verify protection settings
+            Console.WriteLine("AllowEditingObject: " + protection.AllowEditingObject);
+            Console.WriteLine("AllowEditingScenario: " + protection.AllowEditingScenario);
+        }
+    }
 }
 ```
 

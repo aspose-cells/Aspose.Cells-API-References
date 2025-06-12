@@ -20,29 +20,56 @@ public void ShowReportFilterPageByName(string fieldName)
 ### Examples
 
 ```csharp
-// Called: pt.ShowReportFilterPageByName(pt.PageFields[0].Name);
-public void PivotTable_Method_ShowReportFilterPageByName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46429_";
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
-    pt.ShowReportFilterPageByName(pt.PageFields[0].Name);
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    Assert.AreEqual(wb.Worksheets.Count, 17);
-    Assert.AreEqual(wb.Worksheets[15].Name.EndsWith("(5)"), true);
-    Assert.AreEqual(wb.Worksheets[12].Name.EndsWith("(4)"), true);
-    Assert.AreEqual(wb.Worksheets[9].Name.EndsWith("(3)"), true);
-    Assert.AreEqual(wb.Worksheets[6].Name.EndsWith("(2)"), true);
-
-    Assert.AreEqual("18", wb.Worksheets[1].Cells["A4"].StringValue);
-    Assert.AreEqual("22", wb.Worksheets[2].Cells["A4"].StringValue);
-    Assert.AreEqual("18", wb.Worksheets[3].Cells["A4"].StringValue);
-
-
+    public class PivotTableMethodShowReportFilterPageByNameWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            var cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 20;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 15;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
+            
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Add page field
+            pivotTable.AddFieldToArea(PivotFieldType.Page, "Fruit");
+            pivotTable.PageFields[0].Name = "FruitFilter";
+            
+            // Refresh pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Show report filter pages by name
+            pivotTable.ShowReportFilterPageByName("FruitFilter");
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowReportFilterPageByNameDemo.xlsx");
+        }
+    }
 }
 ```
 

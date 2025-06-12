@@ -24,17 +24,37 @@ public class VerticalPageBreak
 ### Examples
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-//Add a pagebreak at G5
-excel.Worksheets[0].HorizontalPageBreaks.Add("G5");
-excel.Worksheets[0].VerticalPageBreaks.Add("G5");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[VB]
-Dim excel as Workbook = new Workbook()
-'Add a pagebreak at G5
-excel.Worksheets(0).HorizontalPageBreaks.Add("G5")
-excel.Worksheets(0).VerticalPageBreaks.Add("G5")
+    public class VerticalPageBreakDemo
+    {
+        public static void VerticalPageBreakExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a vertical page break at column G (index 6)
+            worksheet.VerticalPageBreaks.Add("G5");
+
+            // Save the workbook
+            workbook.Save("VerticalPageBreakExample.xlsx");
+
+            // Access the added vertical page break
+            VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
+
+            // Display the properties of the vertical page break
+            Console.WriteLine("Start Row: " + vpb.StartRow);
+            Console.WriteLine("End Row: " + vpb.EndRow);
+            Console.WriteLine("Column: " + vpb.Column);
+        }
+    }
+}
 ```
 
 ### See Also

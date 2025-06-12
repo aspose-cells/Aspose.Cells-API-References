@@ -16,18 +16,31 @@ public string HtmlString { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells["A1"].HtmlString = "I am <br/>a <i>strValue</i> value.";
-public void Cell_Property_HtmlString()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells["A1"].GetStyle();
-    style.Font.IsBold = true;
-    cells["A1"].SetStyle(style);
+using System;
+using Aspose.Cells;
 
-    cells["A1"].HtmlString = "I am <br/>a <i>strValue</i> value.";
-    Assert.IsTrue(cells["A1"].StringValue.IndexOf('\n') != -1);
-    workbook.Save(Constants.destPath + "XlsSave.xls", new XlsSaveOptions());
+namespace AsposeCellsExamples
+{
+    public class CellPropertyHtmlStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook instance
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cells collection
+            Cells cells = worksheet.Cells;
+            
+            // Set HTML string with formatting to cell A1
+            cells["A1"].HtmlString = "This is <b>bold</b> and <i>italic</i> text<br>with a line break";
+            
+            // Save the workbook
+            workbook.Save("HtmlStringDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

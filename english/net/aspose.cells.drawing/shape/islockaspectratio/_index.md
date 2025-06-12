@@ -22,9 +22,32 @@ Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, p
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shape.IsLockAspectRatio = false;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyIsLockAspectRatioDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+
+            // Lock aspect ratio
+            shape.IsLockAspectRatio = true;
+            Console.WriteLine("Aspect ratio locked: " + shape.IsLockAspectRatio);
+
+            // Unlock aspect ratio
+            shape.IsLockAspectRatio = false;
+            Console.WriteLine("Aspect ratio locked: " + shape.IsLockAspectRatio);
+        }
+    }
+}
 ```
 
 ### See Also

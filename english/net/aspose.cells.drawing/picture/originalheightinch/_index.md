@@ -16,19 +16,28 @@ public double OriginalHeightInch { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-//Get the inserted picture object
-Picture pic = worksheet.Pictures[imgIndex];
-//Gets the original height of the picture.
-double picHeightInch = pic.OriginalHeightInch;
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PicturePropertyOriginalHeightInchDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
+            Picture pic = worksheet.Pictures[imgIndex];
+            
+            Console.WriteLine("Original picture height in inches: " + pic.OriginalHeightInch);
+            
+            workbook.Save("result.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

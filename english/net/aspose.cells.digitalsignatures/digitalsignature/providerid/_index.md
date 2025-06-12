@@ -20,35 +20,63 @@ The cryptographic service provider (CSP) is an independent software module that 
 ### Examples
 
 ```csharp
-// Called: signature.ProviderId = signatureLine.ProviderId;
-public void DigitalSignature_Property_ProviderId()
+using System;
+using System.IO;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "CELLSNET-47892/";
-    Workbook wb = new Workbook(path + "before_sign.xlsx");
-    SignatureLine signatureLine = wb.Worksheets[0].Pictures[0].SignatureLine;
-
-    X509Certificate2 certificate = new X509Certificate2(path + "rsa2048.pfx", "123456");
-    Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test Microsoft Office signature line", DateTime.UtcNow);
-    signature.Id = signatureLine.Id;
-    signature.ProviderId = signatureLine.ProviderId;
-    //sinature text, e.g. your name
-    //signature.Text = "signed by Aspose.Cells";
-    //Or signature Image
-    signature.Image = File.ReadAllBytes(path + "signer.emf");
-
-    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-    dsCollection.Add(signature);
-    wb.SetDigitalSignature(dsCollection);
-
-    MemoryStream ms = new MemoryStream();
-    wb.Save(ms, SaveFormat.Xlsx);
-
-    ms.Position = 0;
-    Workbook reloadedWb = new Workbook(ms);
-    foreach(Aspose.Cells.DigitalSignatures.DigitalSignature validateSignature in reloadedWb.GetDigitalSignature())
+    public class DigitalSignaturePropertyProviderIdDemo
     {
-        Assert.IsTrue(validateSignature.IsValid);
+        public static void Run()
+        {
+            // Create self-signed certificate
+            X509Certificate2 certificate;
+            using (var rsa = RSA.Create())
+            {
+                var request = new CertificateRequest(
+                    new X500DistinguishedName("cn=AsposeTest"),
+                    rsa,
+                    HashAlgorithmName.SHA256,
+                    RSASignaturePadding.Pkcs1);
+                
+                certificate = request.CreateSelfSigned(DateTimeOffset.Now, DateTimeOffset.Now.AddHours(1));
+            }
+
+            // Create workbook and add signature line
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Add dummy picture with signature line
+            using (var ms = new MemoryStream())
+            {
+                ms.Write(new byte[] { 0x42, 0x4D, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1A, 0x00, 0x00, 0x00 }, 0, 14);
+                ms.Position = 0;
+                
+                int idx = ws.Pictures.Add(0, 0, ms);
+                Picture pic = ws.Pictures[idx];
+                pic.SignatureLine = new SignatureLine();
+                pic.SignatureLine.ProviderId = Guid.NewGuid();
+            }
+
+            // Create digital signature
+            var signature = new DigitalSignature(certificate, "Aspose ProviderId Demo", DateTime.Now);
+            signature.ProviderId = ws.Pictures[0].SignatureLine.ProviderId;
+
+            // Set digital signature and save
+            DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
+            dsCollection.Add(signature);
+            wb.SetDigitalSignature(dsCollection);
+
+            using (MemoryStream output = new MemoryStream())
+            {
+                wb.Save(output, SaveFormat.Xlsx);
+            }
+        }
     }
 }
 ```

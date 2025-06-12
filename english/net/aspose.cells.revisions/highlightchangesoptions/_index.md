@@ -22,13 +22,11 @@ public class HighlightChangesOptions
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Revisions;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class HighlightChangesOptionsDemo
     {

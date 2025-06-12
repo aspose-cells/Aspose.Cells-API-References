@@ -23,7 +23,7 @@ class WebExtensionCollection;
 | [add()](#add--)| Adds a web extension. |
 | [addWebVideoPlayer(string, boolean, number, number)](#addWebVideoPlayer-string-boolean-number-number-)| Add a web video player into exel. |
 | [removeAt(number)](#removeAt-number-)| Remove web extension by the index. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -88,7 +88,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

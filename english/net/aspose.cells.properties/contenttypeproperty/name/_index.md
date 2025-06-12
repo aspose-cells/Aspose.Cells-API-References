@@ -16,17 +16,36 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
-public void ContentTypeProperty_Property_Name()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.ContentTypeProperties.Add("ss", "bb", "text");
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
+    public class ContentTypePropertyPropertyNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a content type property with name "ss"
+            workbook.ContentTypeProperties.Add("ss", "bb", "text");
+            
+            // Save to XLS format
+            workbook.Save("example.xls");
+            
+            // Reload the workbook and verify the Name property
+            workbook = new Workbook("example.xls");
+            Console.WriteLine("Name property in XLS: " + workbook.ContentTypeProperties[0].Name);
+            
+            // Save to XLSX format
+            workbook.Save("example.xlsx");
+            
+            // Reload and verify again
+            workbook = new Workbook("example.xlsx");
+            Console.WriteLine("Name property in XLSX: " + workbook.ContentTypeProperties[0].Name);
+        }
+    }
 }
 ```
 

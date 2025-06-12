@@ -16,13 +16,28 @@ public string NameOfApplication { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
-public void BuiltInDocumentPropertyCollection_Property_NameOfApplication()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "SAU Rapporter.ods");
-    Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
-    workbook.Save(Constants.destPath + "example.xml");
-    workbook.Save(Constants.destPath + "example.ods");
+    public class BuiltInDocumentPropertyCollectionPropertyNameOfApplicationDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the NameOfApplication property
+            workbook.BuiltInDocumentProperties.NameOfApplication = "Aspose.Cells Demo App";
+            
+            // Display the NameOfApplication property
+            Console.WriteLine("Application Name: " + workbook.BuiltInDocumentProperties.NameOfApplication);
+            
+            // Save the workbook
+            workbook.Save("output.ods");
+        }
+    }
 }
 ```
 

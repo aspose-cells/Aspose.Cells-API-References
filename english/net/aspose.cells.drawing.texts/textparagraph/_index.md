@@ -50,20 +50,41 @@ public class TextParagraph : FontSetting
 ### Examples
 
 ```csharp
-// Called: var tp = obj as TextParagraph;
-public void Texts_Type_TextParagraph()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sheet = workbook.Worksheets[0];
-    var textBox = sheet.TextBoxes[0];
-    foreach (var obj in textBox.TextBody.TextParagraphs)
-    {
-        var tp = obj as TextParagraph;
-        tp.LineSpaceSizeType = tp.LineSpaceSizeType;
-        Assert.IsTrue(tp.LineSpace != 0);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
+namespace AsposeCellsExamples
+{
+    public class TextsClassTextParagraphDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            int textBoxIndex = sheet.TextBoxes.Add(10, 10, 200, 100);
+            Aspose.Cells.Drawing.TextBox textBox = sheet.TextBoxes[textBoxIndex];
+            
+            // Set text content with multiple paragraphs
+            textBox.Text = "First paragraph\nSecond paragraph\nThird paragraph";
+
+            // Access and modify text paragraphs
+            foreach (TextParagraph paragraph in textBox.TextBody.TextParagraphs)
+            {
+                // Set paragraph properties
+                paragraph.LineSpaceSizeType = LineSpaceSizeType.Points;
+                paragraph.LineSpace = 20;
+                paragraph.AlignmentType = TextAlignmentType.Center;
+            }
+
+            // Save the workbook
+            workbook.Save("TextParagraphDemo.xlsx");
+        }
     }
-    workbook.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

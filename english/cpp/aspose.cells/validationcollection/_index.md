@@ -4,7 +4,7 @@ linktitle: ValidationCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ValidationCollection class. Represents data validation collection in C++.'
 type: docs
-weight: 15400
+weight: 15800
 url: /cpp/aspose.cells/validationcollection/
 ---
 ## ValidationCollection class

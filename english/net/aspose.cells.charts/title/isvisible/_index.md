@@ -16,31 +16,50 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.Title.IsVisible = true;
-public void Title_Property_IsVisible()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
+    public class TitlePropertyIsVisibleDemo
     {
-        Chart chart = workbook.Worksheets[0].Charts[chartIndex];
-        chart.Title.IsVisible = true;
-        chart.CategoryAxis.Title.IsVisible = true;
-        chart.ValueAxis.Title.IsVisible = true;
-        chart.CategoryAxis.Title.Font.Name = "Arial";
-        chart.ValueAxis.Title.Font.Name = "Aktiv Grotesk";
-        chart.Title.Font.Name = "Aktiv Grotesk";
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(workbook.FileName);
-    for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
-    {
-        Chart chart = workbook.Worksheets[0].Charts[chartIndex];
-        Assert.AreEqual("Arial", chart.CategoryAxis.Title.Font.Name, "CategoryAxis Title Font Name");
-        Assert.AreEqual("Aktiv Grotesk", chart.ValueAxis.Title.Font.Name, "ValueAxis Title Font Name");
-        Assert.AreEqual("Aktiv Grotesk", chart.Title.Font.Name, "Chart Title Font Name");
-    }
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Demonstrate IsVisible property
+            chart.Title.IsVisible = true;
+            chart.Title.Text = "Sample Chart";
+            chart.CategoryAxis.Title.IsVisible = true;
+            chart.CategoryAxis.Title.Text = "Categories";
+            chart.ValueAxis.Title.IsVisible = true;
+            chart.ValueAxis.Title.Text = "Values";
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

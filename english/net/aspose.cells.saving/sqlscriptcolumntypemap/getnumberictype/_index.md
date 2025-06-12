@@ -16,39 +16,38 @@ public virtual string GetNumbericType()
 ### Examples
 
 ```csharp
-// Called: string numericType = columnTypeMap.GetNumbericType();
-public static void SqlScriptColumnTypeMap_Method_GetNumbericType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
+{
+    public class SqlScriptColumnTypeMapMethodGetNumbericTypeDemo
+    {
+        public static void Run()
         {
             // Create an instance of SqlScriptColumnTypeMap
             SqlScriptColumnTypeMap columnTypeMap = new SqlScriptColumnTypeMap();
 
-            // Demonstrate the usage of GetStringType and GetNumbericType methods
-            string stringType = columnTypeMap.GetStringType();
+            // Get and display the numeric type mapping
             string numericType = columnTypeMap.GetNumbericType();
-
-            // Output the results to the console
-            Console.WriteLine("String Type in Database: " + stringType);
             Console.WriteLine("Numeric Type in Database: " + numericType);
 
-            // Create an instance of SqlScriptSaveOptions and set the ColumnTypeMap
+            // Create a simple workbook with numeric data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Number");
+            worksheet.Cells["A2"].PutValue(123.45);
+
+            // Save with SQL script options using the type mapping
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
                 ColumnTypeMap = columnTypeMap
             };
-
-            // Create a workbook and add some data
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("ID");
-            worksheet.Cells["B1"].PutValue("Name");
-            worksheet.Cells["A2"].PutValue(1);
-            worksheet.Cells["B2"].PutValue("John Doe");
-
-            // Save the workbook as SQL script using the save options
-            workbook.Save("SqlScriptExample.sql", saveOptions);
-
-            return;
+            workbook.Save("NumericTypeDemo.sql", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

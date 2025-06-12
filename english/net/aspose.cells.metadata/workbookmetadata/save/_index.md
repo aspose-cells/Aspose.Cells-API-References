@@ -20,18 +20,32 @@ public void Save(string fileName)
 ### Examples
 
 ```csharp
-// Called: doc.Save(Constants.destPath + "dest.xlsb");
-public void WorkbookMetadata_Method_Save()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
 {
-    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xlsb", new MetadataOptions(MetadataType.DocumentProperties));
-    doc.CustomDocumentProperties.Add("text1", "text2");
-    doc.CustomDocumentProperties.Add("num1", 1);
-    doc.Save(Constants.destPath + "dest.xlsb");
-    Workbook workbook = new Workbook(Constants.destPath + "dest.xlsb");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
-    Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
-
-
+    public class WorkbookMetadataMethodSaveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook metadata
+            WorkbookMetadata doc = new WorkbookMetadata("example.xlsb", new MetadataOptions(Aspose.Cells.Metadata.MetadataType.DocumentProperties));
+            
+            // Add custom properties
+            doc.CustomDocumentProperties.Add("text1", "text2");
+            doc.CustomDocumentProperties.Add("num1", 1);
+            
+            // Save with string path
+            doc.Save("output.xlsb");
+            
+            // Verify the saved file
+            Workbook workbook = new Workbook("output.xlsb");
+            Console.WriteLine("File saved successfully with custom properties.");
+            Console.WriteLine("Property 'text1' value: " + doc.CustomDocumentProperties["text1"].Value.ToString());
+        }
+    }
 }
 ```
 
@@ -54,6 +68,69 @@ public void Save(Stream stream)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+    using System;
+    using System.IO;
+
+    public class WorkbookMetadataMethodSaveWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a temporary file to work with
+            string tempFile = Path.GetTempFileName();
+            try
+            {
+                // Create a new workbook and save it to the temp file
+                Workbook workbook = new Workbook();
+                workbook.Save(tempFile);
+
+                // Create metadata options
+                MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+                // Create WorkbookMetadata instance
+                WorkbookMetadata metadata = new WorkbookMetadata(tempFile, options);
+
+                // Add some document properties
+                metadata.BuiltInDocumentProperties.Author = "Test Author";
+                metadata.BuiltInDocumentProperties.Title = "Test Title";
+                metadata.CustomDocumentProperties.Add("CustomProperty", "Custom Value");
+
+                // Create a memory stream to save the metadata
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    try
+                    {
+                        // Call the Save method with Stream parameter
+                        metadata.Save(stream);
+
+                        Console.WriteLine("Metadata saved to stream successfully");
+                        Console.WriteLine($"Stream length: {stream.Length} bytes");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error saving metadata to stream: {ex.Message}");
+                    }
+                }
+            }
+            finally
+            {
+                // Clean up the temporary file
+                if (File.Exists(tempFile))
+                {
+                    File.Delete(tempFile);
+                }
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

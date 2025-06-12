@@ -20,17 +20,20 @@ The default value is True.
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.IsDisplayUnitLabelShown = true;
-public static void Axis_Property_IsDisplayUnitLabelShown()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class AxisPropertyIsDisplayUnitLabelShownDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
             
-            // Add a new worksheet to the workbook
-            int sheetIndex = workbook.Worksheets.Add();
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            
-            // Add some sample data to the worksheet
+            // Sample data
             worksheet.Cells["A1"].PutValue(500000);
             worksheet.Cells["A2"].PutValue(1000000);
             worksheet.Cells["A3"].PutValue(1500000);
@@ -38,23 +41,19 @@ public static void Axis_Property_IsDisplayUnitLabelShown()
             worksheet.Cells["B2"].PutValue(20);
             worksheet.Cells["B3"].PutValue(50);
             
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-            
-            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
             
-            // Set the display unit of the value axis to Millions
+            // Configure display unit and label visibility
             chart.ValueAxis.DisplayUnit = DisplayUnitType.Millions;
-            
-            // Optionally, show the display unit label
             chart.ValueAxis.IsDisplayUnitLabelShown = true;
             
-            // Save the workbook
-            workbook.Save("DisplayUnitTypeExample.xlsx");
-            workbook.Save("DisplayUnitTypeExample.pdf");
+            workbook.Save("AxisPropertyIsDisplayUnitLabelShownDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

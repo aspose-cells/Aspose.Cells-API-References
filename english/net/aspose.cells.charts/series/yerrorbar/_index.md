@@ -16,14 +16,46 @@ public ErrorBar YErrorBar { get; }
 ### Examples
 
 ```csharp
-// Called: ErrorBar errorbar = chart.NSeries[0].YErrorBar;
-private void Series_Property_YErrorBar(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesPropertyYErrorBarDemo
+    {
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets["Sheet2"];
-            Chart chart = sheet.Charts[0];
-            ErrorBar errorbar = chart.NSeries[0].YErrorBar;
-            AssertHelper.AreEqual(ErrorBarType.Percent, errorbar.Type, "chart.NSeries[0].YErrorBar.Type");
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("X");
+            sheet.Cells["A2"].PutValue(1);
+            sheet.Cells["A3"].PutValue(2);
+            sheet.Cells["A4"].PutValue(3);
+            sheet.Cells["B1"].PutValue("Y");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(30);
+
+            // Create chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set YErrorBar properties
+            ErrorBar errorBar = chart.NSeries[0].YErrorBar;
+            errorBar.Type = ErrorBarType.Percent;
+            errorBar.Amount = 5;
+            errorBar.DisplayType = ErrorBarDisplayType.Both;
+
+            // Save the workbook
+            workbook.Save("YErrorBarDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -28,19 +28,39 @@ You can set 255 or value ranged from -90 to 90.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(255, style.RotationAngle);
-public void Style_Property_RotationAngle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Style style = workbook.Worksheets[0].Cells["B2"].GetStyle();
-    Assert.AreEqual(-90, style.RotationAngle);
-    style = workbook.Worksheets[0].Cells["C3"].GetStyle();
-    Assert.AreEqual(90, style.RotationAngle);
-    style = workbook.Worksheets[0].Cells["D4"].GetStyle();
-    Assert.AreEqual(255, style.RotationAngle);
-    style = workbook.Worksheets[0].Cells["E6"].GetStyle();
-    Assert.AreEqual(0, style.RotationAngle);
-    workbook.Save(Constants.destPath + "example.xls");
+    public class StylePropertyRotationAngleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a style with different rotation angles
+            Style style1 = workbook.CreateStyle();
+            style1.RotationAngle = -90;
+            worksheet.Cells["B2"].PutValue("Text rotated -90°");
+            worksheet.Cells["B2"].SetStyle(style1);
+
+            Style style2 = workbook.CreateStyle();
+            style2.RotationAngle = 90;
+            worksheet.Cells["C3"].PutValue("Text rotated 90°");
+            worksheet.Cells["C3"].SetStyle(style2);
+
+            Style style3 = workbook.CreateStyle();
+            style3.RotationAngle = 255;
+            worksheet.Cells["D4"].PutValue("Text rotated 255°");
+            worksheet.Cells["D4"].SetStyle(style3);
+
+            // Save the workbook
+            workbook.Save("output_rotation_angles.xlsx");
+        }
+    }
 }
 ```
 

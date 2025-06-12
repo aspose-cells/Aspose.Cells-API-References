@@ -58,31 +58,49 @@ public class WebExtensionCollection : CollectionBase<WebExtension>
 ### Examples
 
 ```csharp
-// Called: WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-public void WebExtensions_Type_WebExtensionCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.WebExtensions;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-    int index = webExtensions.Add();
-    WebExtension webExt = webExtensions[index];
-    //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
-    webExt.Reference.Id = "wa104104476";
-    webExt.Reference.Version = "1.3.0.0";
-    webExt.Reference.StoreName = @"en-US";
-    webExt.Reference.StoreType = WebExtensionStoreType.OMEX;
-    webExt.Properties.Add("sku", "\"peoplebar-giant\"");
-    webExt.Properties.Add("theme", "\"giant-redwhiteblack\"");
-    webExt.Properties.Add("shape", "\"muscle-people\"");
-    webExt.Properties.Add("layout-element-title", "\"NUMBERS ABOUT THE APP\"");
-    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-    shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 500, 500);
-    WebExtensionShape wShape = (WebExtensionShape)shapes[0];
-    wShape.WebExtension = webExt;
-
-
-    //      workbook.Worksheets.Add();
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    public class WebExtensionsClassWebExtensionCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the WebExtensionCollection
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            
+            // Add a new web extension
+            int index = webExtensions.Add();
+            WebExtension webExt = webExtensions[index];
+            
+            // Set web extension properties
+            webExt.Reference.Id = "wa104104476";
+            webExt.Reference.Version = "1.3.0.0";
+            webExt.Reference.StoreName = "en-US";
+            webExt.Reference.StoreType = WebExtensionStoreType.OMEX;
+            
+            // Add custom properties
+            webExt.Properties.Add("sku", "peoplebar-giant");
+            webExt.Properties.Add("theme", "giant-redwhiteblack");
+            webExt.Properties.Add("shape", "muscle-people");
+            webExt.Properties.Add("layout-element-title", "NUMBERS ABOUT THE APP");
+            
+            // Create a shape to host the web extension
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 500, 500);
+            WebExtensionShape wShape = (WebExtensionShape)shapes[0];
+            wShape.WebExtension = webExt;
+            
+            // Save the workbook
+            workbook.Save("web_extension_demo.xlsx");
+        }
+    }
 }
 ```
 

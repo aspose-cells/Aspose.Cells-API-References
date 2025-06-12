@@ -16,33 +16,51 @@ public bool AllowMultipleFiltersPerField { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(pt.AllowMultipleFiltersPerField);
-public void PivotTable_Property_AllowMultipleFiltersPerField()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "testPivotTableOptions.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    Assert.AreEqual(pt.PageFieldWrapCount,2);
-    Assert.AreEqual(pt.DisplayNullString,false);
-    Assert.AreEqual(pt.PreserveFormatting,false);
-   // Assert.AreEqual(pt.RepeatItemsOnEachPrintedPage,false);
-    Assert.AreEqual(pt.PrintTitles, false);
-    Assert.AreEqual(pt.EnableFieldList,true);
-    Assert.IsFalse(pt.DisplayNullString);
-    Assert.IsFalse(pt.DisplayErrorString);
-    Assert.IsFalse(pt.MergeLabels);
-    Assert.AreEqual(2,pt.PageFieldWrapCount);
-    Assert.IsTrue(pt.ShowColumnGrandTotals);
-    Assert.IsTrue(pt.ShowRowGrandTotals);
-    Assert.IsTrue(pt.CustomListSort);
-    Assert.IsTrue(pt.EnableDrilldown);
-    Assert.IsTrue(pt.ShowDataTips);
-    Assert.IsTrue(pt.ShowDrill);
-    Assert.IsFalse(pt.ShowValuesRow);
-    Assert.IsFalse(pt.IsGridDropZones);
-    Assert.IsFalse(pt.AllowMultipleFiltersPerField);
-    Assert.IsTrue(pt.ShowRowHeaderCaption);
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyAllowMultipleFiltersPerFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 20;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 15;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
+            cells["A6"].Value = "Orange";
+            cells["B6"].Value = 10;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B6", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            // Set AllowMultipleFiltersPerField property
+            pivotTable.AllowMultipleFiltersPerField = true;
+            Console.WriteLine("AllowMultipleFiltersPerField: " + pivotTable.AllowMultipleFiltersPerField);
+
+            // Save the workbook
+            workbook.Save("PivotTable_AllowMultipleFiltersPerField.xlsx");
+        }
+    }
 }
 ```
 

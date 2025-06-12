@@ -16,31 +16,40 @@ public CellsColor SeriesColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: group.SeriesColor = clr;
-public void SparklineGroup_Property_SeriesColor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SparklineGroupPropertySeriesColorDemo
+    {
+        public static void Run()
         {
-            Console.WriteLine("SparklineGroup_Property_SeriesColor()");
-            Workbook wb = new Workbook(FileFormatType.Xlsx); // specify the dest file type
-            wb.Worksheets.Clear();
-            Worksheet ws = wb.Worksheets.Add("New Sheet");
-            ws.Cells["A8"].PutValue(34);
-            ws.Cells["A9"].PutValue(50);
-            ws.Cells["A10"].PutValue(34);
-            CellArea ca = new CellArea();
-            ca.StartColumn = 0;
-            ca.EndColumn = 0;
-            ca.StartRow = 0;
-            ca.EndRow = 0;
-            int idx = ws.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Column,
-             "'" + ws.Name + "'!A8:A10", true, ca);
-            Aspose.Cells.Charts.SparklineGroup group = ws.SparklineGroups[idx];
-            // change the color of the series if need
-            CellsColor clr = wb.CreateCellsColor();
-            clr.Color = Color.Orange;
-            group.SeriesColor = clr;
-            Util.ReSave(wb, SaveFormat.Xlsx);
-            //wb.Save(Constants.destPath + "Test_CreateSparkline_out.xlsx");
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Sample data
+            ws.Cells["A1"].PutValue(5);
+            ws.Cells["A2"].PutValue(8);
+            ws.Cells["A3"].PutValue(3);
+            
+            // Create sparkline group
+            CellArea dataRange = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 0 };
+            CellArea locationRange = new CellArea { StartRow = 0, EndRow = 0, StartColumn = 1, EndColumn = 1 };
+            int index = ws.SparklineGroups.Add(SparklineType.Column, "A1:A3", false, locationRange);
+            
+            // Set series color
+            SparklineGroup group = ws.SparklineGroups[index];
+            CellsColor color = wb.CreateCellsColor();
+            color.Color = Color.Blue;
+            group.SeriesColor = color;
+            
+            wb.Save("SparklineSeriesColorDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

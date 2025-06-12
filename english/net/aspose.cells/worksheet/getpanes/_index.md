@@ -20,13 +20,35 @@ If the window is not split or frozen.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
-public void Worksheet_Method_GetPanes()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].Cells.DeleteRow(0);
-    Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorksheetMethodGetPanesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Freeze panes at row 5 and column 3
+            worksheet.FreezePanes(5, 3, 5, 3);
+            
+            // Get pane information
+            PaneCollection panes = worksheet.GetPanes();
+            
+            // Display pane information
+            Console.WriteLine("First visible row of bottom pane: " + panes.FirstVisibleRowOfBottomPane);
+            Console.WriteLine("First visible column of right pane: " + panes.FirstVisibleColumnOfRightPane);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

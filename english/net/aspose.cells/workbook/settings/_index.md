@@ -16,19 +16,35 @@ public WorkbookSettings Settings { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Settings.FormulaSettings.EnableIterativeCalculation);
-// Zhao Xilong Issue
-public void Workbook_Property_Settings()
-{
-    Console.WriteLine("Workbook_Property_Settings()");
-    string infn = path + @"example.xlsm";
-    string outfn = Constants.destPath + @"example.xlsm";
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(infn);
-    Assert.IsTrue(workbook.Settings.FormulaSettings.EnableIterativeCalculation);
-    Assert.AreEqual(30, workbook.Settings.FormulaSettings.MaxIteration);
-    Assert.AreEqual(0.1, workbook.Settings.FormulaSettings.MaxChange);
-    workbook.Save(outfn);
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertySettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access and modify settings
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 30;
+            workbook.Settings.FormulaSettings.MaxChange = 0.1;
+
+            // Verify settings
+            Console.WriteLine("Iterative Calculation Enabled: " + 
+                workbook.Settings.FormulaSettings.EnableIterativeCalculation);
+            Console.WriteLine("Max Iterations: " + 
+                workbook.Settings.FormulaSettings.MaxIteration);
+            Console.WriteLine("Max Change: " + 
+                workbook.Settings.FormulaSettings.MaxChange);
+
+            // Save the workbook
+            workbook.Save("WorkbookSettingsDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,14 +16,36 @@ public GradientStyleType GradientStyle { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(GradientStyleType.Vertical, chartarea.Area.FillFormat.GradientStyle, "chart.ChartArea.Area.FillFormat.GradientStyle");
-private void FillFormat_Property_GradientStyle(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyGradientStyleDemo
+    {
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets["Sheet2"];
-            Chart chart = sheet.Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(GradientStyleType.Vertical, chartarea.Area.FillFormat.GradientStyle, "chart.ChartArea.Area.FillFormat.GradientStyle");
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Create a chart and get its chart area
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 5, 15, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            ChartArea chartArea = chart.ChartArea;
+            
+            // Set gradient fill style
+            chartArea.Area.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.Vertical, 2);
+            
+            // Demonstrate GradientStyle property usage
+            Console.WriteLine("Gradient Style: " + chartArea.Area.FillFormat.GradientStyle);
+            
+            // Save the workbook
+            workbook.Save("FillFormatPropertyGradientStyleDemo_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

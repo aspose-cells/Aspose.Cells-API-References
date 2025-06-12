@@ -16,16 +16,46 @@ public string Formula2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=Sheet2!B3",dv.Formula2);
-public void Validation_Property_Formula2()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsb");
+using System;
+using Aspose.Cells;
 
-    Cell cell = wb.Worksheets[0].Cells["B7"];
-    Validation dv = cell.GetValidation();
-   Assert.AreEqual("1960-1-1",dv.Formula1);
-    Assert.AreEqual("=Sheet2!B3",dv.Formula2);
-    wb.Save(Constants.destPath + "example.xlsb");
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyFormula2Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["B3"].PutValue(100);
+            sheet.Cells["B7"].PutValue(50);
+            
+            // Create validation for cell B7
+            Validation validation = sheet.Cells["B7"].GetValidation();
+            
+            // Set validation type and formulas
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "10";
+            validation.Formula2 = "=B3";  // Demonstrating Formula2 usage
+            
+            // Apply validation
+            CellArea area = new CellArea();
+            area.StartRow = 6;
+            area.StartColumn = 1;
+            area.EndRow = 6;
+            area.EndColumn = 1;
+            validation.AddArea(area);
+            
+            // Save the workbook
+            workbook.Save("ValidationFormula2Demo.xlsx");
+        }
+    }
 }
 ```
 

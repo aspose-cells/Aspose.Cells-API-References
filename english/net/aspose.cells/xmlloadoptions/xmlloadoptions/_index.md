@@ -16,21 +16,33 @@ public XmlLoadOptions()
 ### Examples
 
 ```csharp
-// Called: XmlLoadOptions options = new XmlLoadOptions();
-public void XmlLoadOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    bool[] flags = {true, false};
-    foreach(bool flag in flags)
+    public class XmlLoadOptionsMethodCtorDemo
     {
-        XmlLoadOptions options = new XmlLoadOptions();
-        options.ConvertNumericOrDate = flag;
-        Workbook wb = new Workbook(Constants.sourcePath + "example.xml", options);
-        // wb.Worksheets.RefreshAll();
-        Cell cell = wb.Worksheets[0].Cells["E4"];
-       Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
-        wb.Save(Constants.destPath + "example.xlsx");
-    }
+        public static void Run()
+        {
+            // Create new XML load options
+            XmlLoadOptions options = new XmlLoadOptions();
             
+            // Set to convert numeric or date values
+            options.ConvertNumericOrDate = true;
+            
+            // Load workbook with options
+            Workbook workbook = new Workbook("input.xml", options);
+            
+            // Access cell data
+            Cell cell = workbook.Worksheets[0].Cells["A1"];
+            Console.WriteLine("Cell Value: " + cell.Value);
+            Console.WriteLine("Cell Type: " + cell.Type);
+            
+            // Save workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -53,6 +65,51 @@ public XmlLoadOptions(LoadFormat type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | LoadFormat | The load format type. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XmlLoadOptionsMethodCtorWithLoadFormatDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create XmlLoadOptions instance with LoadFormat parameter
+                LoadFormat loadFormat = LoadFormat.Xml;
+                XmlLoadOptions xmlLoadOptions = new XmlLoadOptions(loadFormat);
+
+                // Set some properties of the XmlLoadOptions
+                xmlLoadOptions.StartCell = "A1";
+                xmlLoadOptions.IsXmlMap = true;
+                xmlLoadOptions.ConvertNumericOrDate = true;
+
+                // Create a workbook using the load options
+                Workbook workbook = new Workbook("input.xml", xmlLoadOptions);
+
+                // Access the first worksheet
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Display some information
+                Console.WriteLine("XML file loaded successfully with LoadFormat.Xml");
+                Console.WriteLine($"First cell value: {worksheet.Cells["A1"].Value}");
+
+                // Save the workbook
+                workbook.Save("XmlLoadOptionsCtorDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing XmlLoadOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

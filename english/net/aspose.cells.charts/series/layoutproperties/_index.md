@@ -16,76 +16,54 @@ public SeriesLayoutProperties LayoutProperties { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[series_index].LayoutProperties.ShowMeanLine = false;
-public void Series_Property_LayoutProperties()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var index = 0;
-    var sheetName = "BoxwhiskerChart";
-    string excelTemplateRelativePath = Constants.sourcePath + @"example.xlsx";
-    var templatePath = excelTemplateRelativePath;
-    var excel = new Workbook(templatePath);
-    excel.Worksheets.AddCopy(index);
-    var sheet = excel.Worksheets[index];
-    var datacell = sheet.Cells["A" + 1];
-    datacell.PutValue("");
-    for (int i = 2; i <= 6; i++)
+    public class SeriesPropertyLayoutPropertiesDemo
     {
-        datacell = sheet.Cells["A" + i];
-        datacell.PutValue("19-Jan");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Sample data for box and whisker chart
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Q1");
+            sheet.Cells["A3"].PutValue("Q1");
+            sheet.Cells["A4"].PutValue("Q1");
+            sheet.Cells["A5"].PutValue("Q2");
+            sheet.Cells["A6"].PutValue("Q2");
+            sheet.Cells["A7"].PutValue("Q2");
+
+            sheet.Cells["B1"].PutValue("Series1");
+            sheet.Cells["B2"].PutValue(15);
+            sheet.Cells["B3"].PutValue(25);
+            sheet.Cells["B4"].PutValue(30);
+            sheet.Cells["B5"].PutValue(20);
+            sheet.Cells["B6"].PutValue(35);
+            sheet.Cells["B7"].PutValue(40);
+
+            // Add box and whisker chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.BoxWhisker, 5, 0, 25, 10);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("B1:B7", true);
+            chart.NSeries.CategoryData = "A2:A7";
+
+            // Configure layout properties for the series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            series.LayoutProperties.ShowMeanLine = false;
+            series.LayoutProperties.ShowInnerPoints = true;
+            series.LayoutProperties.ShowOutlierPoints = true;
+            series.LayoutProperties.ShowMeanMarker = true;
+
+            // Save the workbook
+            workbook.Save("SeriesLayoutPropertiesDemo.xlsx");
+        }
     }
-    for (int i = 7; i <= 11; i++)
-    {
-        datacell = sheet.Cells["A" + i];
-        datacell.PutValue("1-Feb");
-    }
-
-    sheet.Cells["B1"].PutValue("Team A");
-    sheet.Cells["B2"].PutValue(50);
-    sheet.Cells["B3"].PutValue(150);
-    sheet.Cells["B4"].PutValue(300);
-    sheet.Cells["B5"].PutValue(400);
-    sheet.Cells["B6"].PutValue(500);
-    sheet.Cells["B7"].PutValue(50);
-    sheet.Cells["B8"].PutValue(150);
-    sheet.Cells["B9"].PutValue(300);
-    sheet.Cells["B10"].PutValue(400);
-    sheet.Cells["B11"].PutValue(500);
-
-    sheet.Cells["C1"].PutValue("Team B");
-    sheet.Cells["C2"].PutValue(50);
-    sheet.Cells["C3"].PutValue(150);
-    sheet.Cells["C4"].PutValue(300);
-    sheet.Cells["C5"].PutValue(400);
-    sheet.Cells["C6"].PutValue(500);
-    sheet.Cells["C7"].PutValue(50);
-    sheet.Cells["C8"].PutValue(150);
-    sheet.Cells["C9"].PutValue(300);
-    sheet.Cells["C10"].PutValue(400);
-    sheet.Cells["C11"].PutValue(500);
-    var chartArea = "B" + 2 + ":" + "C" + 11;
-
-    var categoryData = "A" + 2 + ":A" + 11;
-    int index1 = sheet.Charts.Add(ChartType.BoxWhisker, 0, 3, 0 + 20, 10);
-
-    var chart = sheet.Charts[index1];
-    chart.SetChartDataRange(chartArea, true);
-    chart.NSeries.CategoryData = categoryData;
-    var seriesName = new List<string> { "Team 1", "Team 2" };
-    var seriesTheme = new List<ThemeColorType> { ThemeColorType.Accent1, ThemeColorType.Accent2 };
-    int series_index = 0;
-    foreach (var series in seriesName)
-    {
-        chart.NSeries[series_index].Name = series;
-        chart.NSeries[series_index].LayoutProperties.ShowMeanLine = false;
-        chart.NSeries[series_index].LayoutProperties.ShowInnerPoints = false;
-        chart.NSeries[series_index].Area.FillFormat.FillType = FillType.None;
-        chart.NSeries[series_index].Border.FormattingType = ChartLineFormattingType.Solid;
-        chart.NSeries[series_index].Border.Style = LineType.Solid;
-        chart.NSeries[series_index].Border.ThemeColor = new ThemeColor(seriesTheme[series_index], 0);
-        series_index++;
-    }
-
-    excel.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

@@ -16,19 +16,31 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: workSheet.Cells.Columns[2].IsHidden = true;
-public void Column_Property_IsHidden()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet  workSheet = workbook.Worksheets[0];
-    double x = workSheet.Cells.Columns[2].Width;
-    workSheet.Cells.Columns[2].IsHidden = true;
+    public class ColumnPropertyIsHiddenDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(x, workbook.Worksheets[0].Cells.Columns[2].Width);
+            // Set column width for demonstration
+            worksheet.Cells.Columns[1].Width = 20;
+            Console.WriteLine("Column 1 width before hiding: " + worksheet.Cells.Columns[1].Width);
 
+            // Hide the column
+            worksheet.Cells.Columns[1].IsHidden = true;
+            Console.WriteLine("Column 1 is hidden: " + worksheet.Cells.Columns[1].IsHidden);
 
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

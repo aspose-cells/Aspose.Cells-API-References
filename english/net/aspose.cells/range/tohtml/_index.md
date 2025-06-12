@@ -20,17 +20,43 @@ public byte[] ToHtml(HtmlSaveOptions saveOptions)
 ### Examples
 
 ```csharp
-// Called: byte[] htmlData = r.ToHtml(null);
-public void Range_Method_ToHtml()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //A1:J25
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range r = cells.CreateRange("A1:J25");
-    byte[] data = r.ToImage(null);
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    byte[] htmlData = r.ToHtml(null);
-    string json = r.ToJson(null);
+namespace AsposeCellsExamples
+{
+    public class RangeMethodToHtmlWithHtmlSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some data in the range A1:J25
+            for (int i = 0; i < 25; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].Value = $"Cell {i+1},{j+1}";
+                }
+            }
+
+            // Create a range with fully qualified type name
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1:J25");
+            
+            // Create HTML save options
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportImagesAsBase64 = true;
+            
+            // Convert range to HTML
+            byte[] htmlData = range.ToHtml(options);
+            
+            // Save HTML to file
+            File.WriteAllBytes("output.html", htmlData);
+        }
+    }
 }
 ```
 

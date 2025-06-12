@@ -4,7 +4,7 @@ linktitle: CustomFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFilter class. Represents the custom filter in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.cells/customfilter/
 ---
 ## CustomFilter class

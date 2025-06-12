@@ -25,13 +25,11 @@ public class FilterColumn
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Tables;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class FilterColumnDemo
     {

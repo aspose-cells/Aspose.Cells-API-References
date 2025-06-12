@@ -16,35 +16,62 @@ public bool ShowRowGrandTotals { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.ShowRowGrandTotals = true;
-public void PivotTable_Property_ShowRowGrandTotals()
-{
-    //Instantiating an Workbook object
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xls");
-    //Obtaining the reference of the newly added worksheet
-    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Add()];
-    //If I use this line, it works fine.
-    //Worksheet sheet = workbook.Worksheets["Raw Data 2"];
-    Cells cells = sheet.Cells;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    PivotTableCollection pivotTables = sheet.PivotTables;
-    //Adding a PivotTable to the worksheet
-    int index = pivotTables.Add("='Raw Data 2'!all", "G3", "PivotTable2");
-    //Accessing the instance of the newly added PivotTable
-    PivotTable pivotTable = pivotTables[index];
-    pivotTable.ShowRowGrandTotals = true;
-    pivotTable.ShowColumnGrandTotals = true;
-    //Draging the second field to the row area.
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
-    //Draging the third field to the column area.
-    pivotTable.AddFieldToArea(PivotFieldType.Column, 3);
-    //Draging the fifth field to the data area.
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 4);
-    //for (int i = 0; i < workbook.Worksheets.Names.Count; i++)
-    //{
-    //    Console.WriteLine(workbook.Worksheets.Names[i].Text);
-    //}
-    workbook.Save(Constants.PivotTableDestPath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowRowGrandTotalsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Product A";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            
+            cells["A3"].Value = "Product B";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 1500;
+            
+            cells["A4"].Value = "Product A";
+            cells["B4"].Value = "South";
+            cells["C4"].Value = 2000;
+            
+            cells["A5"].Value = "Product B";
+            cells["B5"].Value = "North";
+            cells["C5"].Value = 1200;
+
+            // Add a pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.ShowRowGrandTotals = true; // Demonstrate ShowRowGrandTotals property
+            pivotTable.ShowColumnGrandTotals = true;
+            
+            // Add fields to areas
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product as row
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Region as column
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales as data
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowRowGrandTotalsDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: AccessCacheOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AccessCacheOptions enum. Cache options for data access. Can be combined with | operator for multiple options together in C++.'
 type: docs
-weight: 17300
+weight: 17700
 url: /cpp/aspose.cells/accesscacheoptions/
 ---
 ## AccessCacheOptions enum

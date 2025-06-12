@@ -20,73 +20,40 @@ Has effect only when saving to JPEG. The value must be between 0 and 100. The de
 ### Examples
 
 ```csharp
-// Called: imgOption.Quality = 100;
-public void ImageOrPrintOptions_Property_Quality()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42944/";
-
-    string savePath = CreateFolder(filePath);
-    string fileName = "无宏转换失败.xlsx";
-
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.StandardFont = "SimSun";
-    loadOptions.Region = CountryCode.USA;
-    loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-    Workbook excel = new Workbook(filePath + fileName, loadOptions);
-    excel.AcceptAllRevisions();
-
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportActiveWorksheetOnly = true;
-    saveOptions.ExportHiddenWorksheet = false;
-    saveOptions.ExportImagesAsBase64 = true;
-    saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-    saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-    saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-
-    int sheetCount = excel.Worksheets.Count;
-    // int visibleCount = 0;
-    int originActiveIndex = excel.Worksheets.ActiveSheetIndex;
-    Worksheet worksheet = null;
-
-    Workbook checkExcel = getCheckExcel42944(new FileStream(filePath + fileName, FileMode.Open, FileAccess.ReadWrite));
-    bool canApplyStyle = canApplyStyle42944(savePath, checkExcel, saveOptions);
-    for (int i = 1; i <= sheetCount; i++)
+    public class ImageOrPrintOptionsPropertyQualityDemo
     {
-        worksheet = checkExcel.Worksheets[i - 1];
-        Cells cells1 = worksheet.Cells;
-        Cell cell1 = cells1["A6"];
-        Style style1 = cell1.GetStyle();
-        if (worksheet != null && worksheet.IsVisible)
+        public static void Run()
         {
-            // visibleCount++;
-            excel.Worksheets.ActiveSheetIndex = i - 1;
-            if (canApplyStyle)
-            {
-                Style newStyle = checkExcel.CreateStyle();
-                newStyle.IsTextWrapped = true;
-                StyleFlag flag = new StyleFlag();
-                flag.WrapText = true;
-                newStyle.IsTextWrapped = true;
-                Cells cells = worksheet.Cells;
-                cells.ApplyStyle(newStyle, flag);
-            }
-            Cells cells2 = worksheet.Cells;
-            Cell cell2 = cells2["A6"];
-            Style style2 = cell2.GetStyle();
-            if (originActiveIndex == i - 1)
-            {
-                worksheet.PageSetup.PrintArea = "A1:I4";
-                ImageOrPrintOptions imgOption = new ImageOrPrintOptions();
-                imgOption.HorizontalResolution = 96;
-                imgOption.VerticalResolution = 96;
-                imgOption.DefaultFont = "SimSun";
-                imgOption.Quality = 100;
-                imgOption.OutputBlankPageWhenNothingToPrint = true;
-                imgOption.ImageType = ImageType.Png;
-                SheetRender sheetRender = new SheetRender(worksheet, imgOption);
-                sheetRender.ToImage(0, savePath + "thumbnail.png");
-            }
-            excel.Save(savePath + "pageResult" + i + ".html", saveOptions);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample Text");
+            worksheet.Cells["B2"].PutValue(123.45);
+            worksheet.Cells["C3"].PutValue(DateTime.Now);
+
+            // Create image options with different quality settings
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+            options.Quality = 100; // Highest quality
+
+            // Render worksheet to image with high quality
+            SheetRender renderer = new SheetRender(worksheet, options);
+            renderer.ToImage(0, "HighQualityOutput.jpg");
+
+            // Change quality to demonstrate difference
+            options.Quality = 50; // Medium quality
+            renderer.ToImage(0, "MediumQualityOutput.jpg");
+
+            options.Quality = 10; // Low quality
+            renderer.ToImage(0, "LowQualityOutput.jpg");
         }
     }
 }

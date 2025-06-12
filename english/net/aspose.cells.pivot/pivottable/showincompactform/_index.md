@@ -16,126 +16,65 @@ public void ShowInCompactForm()
 ### Examples
 
 ```csharp
-// Called: pivotTable.ShowInCompactForm();
-public void PivotTable_Method_ShowInCompactForm()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    int maxDRow, counter, indPivTab;
-    string fileCSV, originalDate, modifiedDate, sourceDataPT;
-    string addrRngAllDta;
-    Cells cellsTabCF;
-    Aspose.Cells.Range rngAllData, rngAccDate;
-    Worksheet wsTabCF;
-
-    TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
-    loadOptions.ConvertDateTimeData = true;
-
-
-    fileCSV = Constants.PivotTableSourcePath +"example.csv";
-    Workbook wbCFPiv = new Workbook(fileCSV, loadOptions);
-    wsTabCF = wbCFPiv.Worksheets[0];
-    wsTabCF.Name = "tabCF";
-    cellsTabCF = wsTabCF.Cells;
-    maxDRow = cellsTabCF.MaxDataRow + 1;
-    rngAllData = cellsTabCF.MaxDisplayRange;
-
-    #region Format date on column B
-    Style stDateForm = wbCFPiv.CreateStyle();
-    stDateForm.Number = 14;
-    rngAccDate = cellsTabCF.CreateRange($"B2:B{maxDRow}");
-    counter = 0;
-    foreach (Cell cell in rngAccDate)
+    public class PivotTableMethodShowInCompactFormDemo
     {
-        originalDate = cell.StringValue;
-        modifiedDate = originalDate.Insert(4, "-").Insert(7, "-");
-        if (cell.StringValue != null)
+        public static void Run()
         {
-            cell.PutValue(modifiedDate, true, true);
+            // Create a workbook from source data
+            Workbook workbook = new Workbook();
+            Worksheet sourceSheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            sourceSheet.Cells["A1"].PutValue("Category");
+            sourceSheet.Cells["B1"].PutValue("Product");
+            sourceSheet.Cells["C1"].PutValue("Sales");
+            
+            sourceSheet.Cells["A2"].PutValue("Electronics");
+            sourceSheet.Cells["B2"].PutValue("Laptop");
+            sourceSheet.Cells["C2"].PutValue(1200);
+            
+            sourceSheet.Cells["A3"].PutValue("Electronics");
+            sourceSheet.Cells["B3"].PutValue("Phone");
+            sourceSheet.Cells["C3"].PutValue(800);
+            
+            sourceSheet.Cells["A4"].PutValue("Furniture");
+            sourceSheet.Cells["B4"].PutValue("Chair");
+            sourceSheet.Cells["C4"].PutValue(150);
+            
+            sourceSheet.Cells["A5"].PutValue("Furniture");
+            sourceSheet.Cells["B5"].PutValue("Table");
+            sourceSheet.Cells["C5"].PutValue(300);
+
+            // Create a pivot table worksheet
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Add pivot table
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
+            int index = pivotTables.Add("=Sheet1!A1:C5", "A3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add fields to areas
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Set the pivot table to show in compact form
+            pivotTable.ShowInCompactForm();
+            
+            // Calculate data and refresh
+            pivotTable.CalculateData();
+            pivotTable.RefreshData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableCompactFormDemo.xlsx");
         }
-        counter++;
     }
-    //TxtLoadOptions opts = new TxtLoadOptions();
-    //cellsTabCF.TextToColumns(0, 1, maxDRow, opts);
-    //rngAccDate.ApplyStyle(stDateForm, new StyleFlag() { NumberFormat = true });
-    cellsTabCF.Columns[1].Width = 11.14;
-    #endregion
-
-    // Pivot Table
-    Worksheet wsSheet1 = wbCFPiv.Worksheets.Add("Sheet1");
-    wsTabCF.MoveTo(1);
-    wbCFPiv.Worksheets.ActiveSheetIndex = 0;
-    PivotTableCollection pivotTables = wsSheet1.PivotTables;
-
-    rngAllData = rngAllData.Worksheet.Cells.CreateRange(rngAllData.FirstRow, rngAllData.FirstColumn, rngAllData.RowCount - 1, rngAllData.ColumnCount);
-
-    addrRngAllDta = rngAllData.Address;
-    sourceDataPT = String.Format("=tabCF!{0}", addrRngAllDta);
-
-    //Add Pivot table to worksheet
-    indPivTab = pivotTables.Add(sourceDataPT, "A1", "PivotTbl");
-    PivotTable pivotTable = pivotTables[indPivTab];
-
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
-    pivotTable.DataFields[0].Function = ConsolidationFunction.Count;
-
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 7);
-    PivotField cfgroupField = pivotTable.RowFields[0];
-    cfgroupField.ShowSubtotalAtTop = true;
-    cfgroupField.IsAutoSort = true;
-
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 14);
-    PivotField sevtransField = pivotTable.RowFields[1];
-    sevtransField.ShowSubtotalAtTop = true;
-    sevtransField.ShowAllItems = true;
-    sevtransField.IsAutoSort = true;
-
-    pivotTable.AddFieldToArea(PivotFieldType.Column, 12);
-    PivotField sextransField = pivotTable.ColumnFields[0];
-    sextransField.IsAutoSort = true;
-
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
-    PivotField accdateField = pivotTable.RowFields[2];
-
-    PivotField dateBaseField = pivotTable.BaseFields["AccDate"];
-    DateTime start = new DateTime(2020, 1, 1);
-    DateTime end = new DateTime(2020, 12, 31);
-    System.Collections.ArrayList groupTypeList = new System.Collections.ArrayList();
-    //groupTypeList.Add(PivotGroupByType.Months);
-    //groupTypeList.Add(PivotGroupByType.Years);
-    //pivotTable.SetManualGroupField(dateBaseField, start, end, groupTypeList, 1);
-    dateBaseField.GroupBy(start, end, new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Years }, 1, false);
-
-    pivotTable.AddFieldToArea(PivotFieldType.Page, pivotTable.RowFields[0]);
-    pivotTable.RemoveField(PivotFieldType.Row, "AccDate");
-
-    Console.WriteLine(pivotTable.RowFields[0].Name);
-    for (int i = 0; i < pivotTable.RowFields.Count; i++)
-    {
-        Console.WriteLine($"RowField Name: {pivotTable.RowFields[i].Name}: " +
-            $"Position: {pivotTable.RowFields[i].Position}");
-        Console.WriteLine($"\t\t\t" +
-            $"BaseIndex: {pivotTable.RowFields[i].BaseIndex}");
-        //Console.WriteLine("\n");
-    }
-
-    pivotTable.ShowInCompactForm();
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    pivotTable.RefreshDataOnOpeningFile = true;
-    //CELLSNET-54576
-    Assert.AreEqual("", wsSheet1.Cells["C1"].StringValue);
-    // Pivot Chart
-    int indChart = wsSheet1.Charts.Add(Aspose.Cells.Charts.ChartType.Column3DClustered, 0, 5, 28, 16);
-    // Setting the pivot chart data source
-    wsSheet1.Charts[indChart].PivotSource = "Sheet1!PivotTbl";
-
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    int indSlicer = wsSheet1.Slicers.Add(pivotTable, "H30", pivotTable.BaseFields["Years"]);
-    //int indSlicer = wsSheet1.Slicers.Add(pivotTable, "H30", pivotTable.BaseFields[18]);
-    Slicer slicer = wsSheet1.Slicers[indSlicer];
-    slicer.AddPivotConnection(pivotTable);
-
-    wbCFPiv.Save(Constants.PivotTableDestPath + "example.xlsx");
 }
 ```
 

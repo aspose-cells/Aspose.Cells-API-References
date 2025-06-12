@@ -24,7 +24,7 @@ class OleObjectCollection;
 | [add(number, number, number, number, Uint8Array, string)](#add-number-number-number-number-uint8array-string-)| Adds a linked OleObject to the collection. |
 | [clear()](#clear--)| Remove all embedded OLE objects. |
 | [removeAt(number)](#removeAt-number-)| Removes the element at the specified index. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -112,7 +112,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

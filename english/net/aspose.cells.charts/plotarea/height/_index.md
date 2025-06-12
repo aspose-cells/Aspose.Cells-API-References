@@ -28,21 +28,51 @@ NOTE: This member is now obsolete. Please use PlotArea.HeightRatioToChart proper
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
-        public void PlotArea_Property_Height()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class PlotAreaPropertyHeightDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Calculate chart
             chart.Calculate();
 
-            Assert.AreEqual(1, chart.ChartArea.WidthRatioToChart);
-            Assert.AreEqual(4000, chart.ChartArea.Height);
+            // Demonstrate Height property
+            Console.WriteLine("Chart Area Height: " + chart.ChartArea.Height);
+            Console.WriteLine("Plot Area Height: " + chart.PlotArea.Height);
 
-            Assert.AreEqual(2680, chart.PlotArea.Width);
-#if !SKIA
-            Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
-#endif
+            // Modify PlotArea height
+            chart.PlotArea.Height = 2500;
+            Console.WriteLine("Modified Plot Area Height: " + chart.PlotArea.Height);
         }
+    }
+}
 ```
 
 ### See Also

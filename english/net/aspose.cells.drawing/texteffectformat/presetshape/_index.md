@@ -16,17 +16,52 @@ public MsoPresetTextEffectShape PresetShape { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
-public static void TextEffectFormat_Property_PresetShape(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class TextEffectFormatPropertyPresetShapeDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
-            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");
-            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
-            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
-            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
-            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape with text effect
+            Shape shape = worksheet.Shapes.AddTextEffect(
+                MsoPresetTextEffect.TextEffect1,
+                "Sample Text",
+                "Arial",
+                18,
+                false,
+                false,
+                0,
+                0,
+                100,
+                200,
+                0,
+                0);
+
+            // Get the text effect format
+            TextEffectFormat textEffectFormat = shape.TextEffect;
+
+            // Set and get PresetShape property
+            textEffectFormat.PresetShape = MsoPresetTextEffectShape.ArchUpPour;
+            Console.WriteLine("PresetShape: " + textEffectFormat.PresetShape);
+
+            // Modify other properties
+            textEffectFormat.Text = "Updated Text";
+            textEffectFormat.FontBold = true;
+            textEffectFormat.FontSize = 24;
+
+            // Save the workbook
+            workbook.Save("TextEffectFormatDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

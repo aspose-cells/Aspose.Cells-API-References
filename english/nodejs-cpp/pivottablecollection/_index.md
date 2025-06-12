@@ -38,7 +38,7 @@ class PivotTableCollection;
 | [remove(PivotTable, boolean)](#remove-pivottable-boolean-)| Deletes the specified PivotTable |
 | [removeAt(number)](#removeAt-number-)| Deletes the PivotTable at the specified index and delete the PivotTable data |
 | [removeAt(number, boolean)](#removeAt-number-boolean-)| Deletes the PivotTable at the specified index |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -373,7 +373,7 @@ removeAt(index: number, keepData: boolean) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

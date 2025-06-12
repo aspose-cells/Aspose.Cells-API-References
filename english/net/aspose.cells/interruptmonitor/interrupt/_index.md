@@ -16,32 +16,56 @@ public void Interrupt()
 ### Examples
 
 ```csharp
-// Called: monitor.Interrupt();
-public void InterruptMonitor_Method_Interrupt()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA42341_";
-
-    DateTime start = DateTime.Now;
-    Workbook workbook = new Workbook(filePath + "example.xlsx");
-
-    InterruptMonitor monitor = new InterruptMonitor();
-    workbook.InterruptMonitor = monitor;
-    try
+    public class InterruptMonitorMethodInterruptDemo
     {
-        Console.WriteLine("Now convert");
-        monitor.Interrupt();
-        workbook.Save(CreateFolder(filePath) + "out.pdf", SaveFormat.Pdf);
-        Console.WriteLine("Converted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
-    }
-    catch (CellsException e)
-    {
-        if (e.Code == ExceptionType.Interrupted)
+        public static void Run()
         {
-            Console.WriteLine("The save thread interrupted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
-        }
-        else
-        {
-            throw e;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some data to the worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            for (int i = 0; i < 10000; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Data " + i;
+            }
+
+            // Create and set interrupt monitor
+            InterruptMonitor monitor = new InterruptMonitor();
+            workbook.InterruptMonitor = monitor;
+
+            try
+            {
+                Console.WriteLine("Starting long operation...");
+                
+                // Simulate a long operation in another thread
+                System.Threading.ThreadPool.QueueUserWorkItem(_ => 
+                {
+                    System.Threading.Thread.Sleep(1000); // Wait 1 second
+                    Console.WriteLine("Interrupting operation...");
+                    monitor.Interrupt(); // Call interrupt
+                });
+
+                // Perform a long operation (save)
+                workbook.Save("output.pdf", SaveFormat.Pdf);
+                Console.WriteLine("Operation completed successfully.");
+            }
+            catch (CellsException e)
+            {
+                if (e.Code == ExceptionType.Interrupted)
+                {
+                    Console.WriteLine("Operation was interrupted successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Error: " + e.Message);
+                }
+            }
         }
     }
 }

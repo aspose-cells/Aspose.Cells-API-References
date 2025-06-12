@@ -16,48 +16,49 @@ public int Month { get; set; }
 ### Examples
 
 ```csharp
-// Called: dateTimeGroupItem.Month = 12;
-public static void DateTimeGroupItem_Property_Month()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertyMonthDemo
+    {
+        public static void Run()
         {
-            // Create an instance of DateTimeGroupItem
+            // Create a DateTimeGroupItem grouped by Month
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
-                DateTimeGroupingType.Year, // Group by Year
-                2023,                      // Year
-                10,                        // Month
-                5,                         // Day
-                14,                        // Hour
-                30,                        // Minute
-                45                         // Second
+                DateTimeGroupingType.Month,
+                2023,
+                10,
+                1,
+                0,
+                0,
+                0
             );
 
-            // Accessing properties
-            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+            // Display initial month value
+            Console.WriteLine("Initial Month: " + dateTimeGroupItem.Month);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
+            // Change the month value
             dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
-            dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
-
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
             Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+
+            // Create another DateTimeGroupItem with different grouping
+            DateTimeGroupItem yearlyItem = new DateTimeGroupItem(
+                DateTimeGroupingType.Year,
+                2023,
+                1,
+                1,
+                0,
+                0,
+                0
+            );
+
+            // Show that Month property is still accessible even when grouped by Year
+            Console.WriteLine("Yearly Grouping - Month: " + yearlyItem.Month);
         }
+    }
+}
 ```
 
 ### See Also

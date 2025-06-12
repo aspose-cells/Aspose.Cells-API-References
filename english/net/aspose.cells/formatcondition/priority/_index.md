@@ -16,15 +16,45 @@ public int Priority { get; set; }
 ### Examples
 
 ```csharp
-// Called: var priority1 = rule1[0].Priority;
-public void FormatCondition_Property_Priority()
-{
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    var rule1 = workbook.Worksheets["Sheet1"].ConditionalFormattings[0];
-    var priority1 = rule1[0].Priority;
-    Assert.AreEqual(4, priority1);
-    Assert.IsTrue(workbook.Worksheets.Dxfs.Count == 0);
+namespace AsposeCellsExamples
+{
+    public class FormatConditionPropertyPriorityDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                sheet.Cells[i, 0].PutValue(i + 1);
+            }
+
+            // Add conditional formatting
+            int formatIndex = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection formatConditions = sheet.ConditionalFormattings[formatIndex];
+            
+            // Add conditions
+            int conditionIndex1 = formatConditions.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "2", "5");
+            int conditionIndex2 = formatConditions.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "6", "9");
+
+            // Set priorities
+            formatConditions[conditionIndex1].Priority = 2;
+            formatConditions[conditionIndex2].Priority = 1;
+
+            // Demonstrate Priority property usage
+            Console.WriteLine("Condition 1 Priority: " + formatConditions[conditionIndex1].Priority);
+            Console.WriteLine("Condition 2 Priority: " + formatConditions[conditionIndex2].Priority);
+
+            // Save the workbook
+            workbook.Save("ConditionalFormattingPriorityDemo.xlsx");
+        }
+    }
 }
 ```
 

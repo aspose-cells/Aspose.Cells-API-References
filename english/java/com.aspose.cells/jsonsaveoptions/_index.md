@@ -24,7 +24,7 @@ Represents the options of saving the workbook as a json file.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlwaysExportAsJsonObject()](#getAlwaysExportAsJsonObject--) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
-| [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -35,6 +35,7 @@ Represents the options of saving the workbook as a json file.
 | [getExportEmptyCells()](#getExportEmptyCells--) | Indicates whether exporting empty cells as null. |
 | [getExportHyperlinkType()](#getExportHyperlinkType--) | Represents the type of exporting hyperlink to json. |
 | [getExportNestedStructure()](#getExportNestedStructure--) | Exported as parent-child hierarchy Json structure. |
+| [getExportStylePool()](#getExportStylePool--) | Exporting style pool when converting to json struct. |
 | [getIndent()](#getIndent--) | Indicates the indent. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -53,7 +54,7 @@ Represents the options of saving the workbook as a json file.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAlwaysExportAsJsonObject(boolean value)](#setAlwaysExportAsJsonObject-boolean-) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -63,6 +64,7 @@ Represents the options of saving the workbook as a json file.
 | [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | Indicates whether exporting empty cells as null. |
 | [setExportHyperlinkType(int value)](#setExportHyperlinkType-int-) | Represents the type of exporting hyperlink to json. |
 | [setExportNestedStructure(boolean value)](#setExportNestedStructure-boolean-) | Exported as parent-child hierarchy Json structure. |
+| [setExportStylePool(boolean value)](#setExportStylePool-boolean-) | Exporting style pool when converting to json struct. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setIndent(String value)](#setIndent-java.lang.String-) | Indicates the indent. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -119,7 +121,7 @@ public String getCachedFileFolder()
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Returns:**
 java.lang.String
@@ -236,6 +238,16 @@ public boolean getExportNestedStructure()
 Exported as parent-child hierarchy Json structure.
 
 **Remarks**
+
+**Returns:**
+boolean
+### getExportStylePool() {#getExportStylePool--}
+```
+public boolean getExportStylePool()
+```
+
+
+Exporting style pool when converting to json struct.
 
 **Returns:**
 boolean
@@ -446,7 +458,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -580,6 +592,19 @@ public void setExportNestedStructure(boolean value)
 Exported as parent-child hierarchy Json structure.
 
 **Remarks**
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setExportStylePool(boolean value) {#setExportStylePool-boolean-}
+```
+public void setExportStylePool(boolean value)
+```
+
+
+Exporting style pool when converting to json struct.
 
 **Parameters:**
 | Parameter | Type | Description |

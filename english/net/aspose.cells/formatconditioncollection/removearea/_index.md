@@ -20,61 +20,44 @@ public void RemoveArea(int index)
 ### Examples
 
 ```csharp
-// Called: fcc.RemoveArea(1);
-public void FormatConditionCollection_Method_RemoveArea()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Style style = wb.DefaultStyle;
-    style.Font.Size = 10;
-    wb.DefaultStyle = style;
-    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-    FormatConditionCollection fcc = cfc[cfc.Add()];
-    fcc.AddArea(CellArea.CreateCellArea(0, 18, 1048575, 16382));
-    fcc.AddArea(CellArea.CreateCellArea(0, 0, 1048570, 17));
-    fcc.AddCondition(FormatConditionType.DuplicateValues);
-    FormatCondition fc = fcc[0];
-    fc.Style.Font.Size = 16;
-    Cells cells = sheet.Cells;
-    Random r = new Random();
-    int[] flags = new int[1000];
-    for (int i = 0; i < 128; i++)
+    public class FormatConditionCollectionMethodRemoveAreaWithInt32Demo
     {
-        for (int j = 0; j < 16; j++)
+        public static void Run()
         {
-            int v = r.Next(flags.Length);
-            int f = flags[v];
-            if (f == 0)
-            {
-                cells[i, j].PutValue("U" + v);
-                flags[v] = ((i << 4) | j) + 1;
-            }
-            else
-            {
-                cells[i, j].PutValue("D" + v);
-                if (f > 0)
-                {
-                    f--;
-                    cells[f >> 4, f & 0x0F].PutValue("D" + v);
-                    flags[v] = -1;
-                }
-            }
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add conditional formatting
+            ConditionalFormattingCollection conditionalFormattings = worksheet.ConditionalFormattings;
+            int index = conditionalFormattings.Add();
+            FormatConditionCollection formatConditionCollection = conditionalFormattings[index];
+
+            // Add areas to format
+            formatConditionCollection.AddArea(CellArea.CreateCellArea(0, 0, 10, 5)); // First area
+            formatConditionCollection.AddArea(CellArea.CreateCellArea(5, 5, 15, 10)); // Second area
+
+            // Add a condition
+            formatConditionCollection.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "100");
+
+            // Display initial area count (we know we added 2 areas)
+            Console.WriteLine("Areas before removal: 2");
+
+            // Remove the second area (index 1)
+            formatConditionCollection.RemoveArea(1);
+
+            // Display area count after removal (we know we removed 1 area)
+            Console.WriteLine("Areas after removal: 1");
+
+            // Save the workbook
+            workbook.Save("RemoveAreaDemo.xlsx");
         }
     }
-    flags = null;
-    VerifyJ43108(wb);
-    fcc.RemoveArea(1);
-    fcc.RemoveArea(0);
-    fcc.AddArea(CellArea.CreateCellArea(0, 0, 1048500, 16382));
-    VerifyJ43108(wb);
-    fcc.AddArea(CellArea.CreateCellArea(1048502, 0, 1048575, 16380));
-    VerifyJ43108(wb);
-    fcc.RemoveArea(1);
-    fcc.RemoveArea(0);
-    fcc.AddArea(CellArea.CreateCellArea(10, 5, 1048575, 16382));
-    fcc.AddArea(CellArea.CreateCellArea(0, 0, 9, 16382));
-    fcc.AddArea(CellArea.CreateCellArea(10, 0, 1048575, 4));
-    VerifyJ43108(wb);
 }
 ```
 
@@ -108,50 +91,44 @@ Returns TRUE, this FormatCondtionCollection should be removed.
 ### Examples
 
 ```csharp
-// Called: fcc.RemoveArea(row, col, 1, 1);
-public void FormatConditionCollection_Method_RemoveArea()
-{
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-    string[] formulas = new string[]
-    {
-        "=$C$8=$C$7", "=$E$8=$E$7", "=$F$8=$F$7", "=$G$8=$G$7", "=$C$7=$C$6", "=$E$7=$E$6",
-        "=$F$7=$F$6", "=$G$7=$G$6", "=$B$7=$B$5", "=$D$7=$D$6", "=$D$8=$D$7"
-    };
-    string[] initialCells = new string[]
-    {
-        "C8", "E8", "F8", "G8", "C7", "E7", "F7", "G7", "B7", "D7", "D8"
-    };
-    Random rand = new Random();
-    TimePerformance monitor = new TimePerformance(30);
-    monitor.StartPerfTest();
-    for (int i = 0; i < formulas.Length; i++)
-    {
-        int idx = cfc.Add();
-        FormatConditionCollection fcc = cfc[idx];
-        int row, col;
-        CellsHelper.CellNameToIndex(initialCells[i], out row, out col);
-        CellArea ca = CellArea.CreateCellArea(row, col, row, col);
-        fcc.AddArea(ca);
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-        idx = fcc.AddCondition(FormatConditionType.Expression);
-        FormatCondition fc = fcc[idx];
-        fc.Formula1 = formulas[i];
-        fc.Style.Font.Color = Color.FromArgb(0, 97, 0);
-        Console.WriteLine("Processing condition: " + fcc[0].Formula1);
-        // create single cell areas for about 1000 cells
-        for (int j = 0; j < 1000; j++)
+namespace AsposeCellsExamples
+{
+    public class FormatConditionCollectionMethodRemoveAreaWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
-            row = rand.Next(20000);
-            col = rand.Next(26);
-            fcc.RemoveArea(row, col, 1, 1);
-            // Add the cell to the collection in order to apply conditional formatting
-            CellArea area = CellArea.CreateCellArea(row, col, row, col);
-            fcc.AddArea(area);
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+            
+            int idx = cfc.Add();
+            FormatConditionCollection fcc = cfc[idx];
+            
+            // Add initial area
+            CellArea initialArea = CellArea.CreateCellArea(0, 0, 0, 0);
+            fcc.AddArea(initialArea);
+            
+            // Add condition
+            idx = fcc.AddCondition(FormatConditionType.Expression);
+            FormatCondition fc = fcc[idx];
+            fc.Formula1 = "=A1>0";
+            fc.Style.Font.Color = Color.Red;
+            
+            // Demonstrate RemoveArea with Int32 parameters
+            Console.WriteLine("Before removal - Areas count: " + fcc.Count);
+            fcc.RemoveArea(0, 0, 1, 1); // Remove the initial area
+            Console.WriteLine("After removal - Areas count: " + fcc.Count);
+            
+            // Add new area
+            CellArea newArea = CellArea.CreateCellArea(1, 1, 1, 1);
+            fcc.AddArea(newArea);
+            Console.WriteLine("After adding new area - Areas count: " + fcc.Count);
         }
     }
-    monitor.FinishPerfTest("Repeatedly remove and add areas for 1000 times");
 }
 ```
 

@@ -15,23 +15,68 @@ class SmartTag;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [deleted](#deleted--)| boolean | Indicates whether the smart tag is deleted. |
+| [properties](#properties--)| SmartTagPropertyCollection | Gets and set the properties of the smart tag. |
+| [uri](#uri--)| string | Readonly. Gets the namespace URI of the smart tag. |
+| [name](#name--)| string | Readonly. Gets the name of the smart tag. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDeleted()](#getDeleted--)| Indicates whether the smart tag is deleted. |
-| [setDeleted(boolean)](#setDeleted-boolean-)| Indicates whether the smart tag is deleted. |
-| [getProperties()](#getProperties--)| Gets and set the properties of the smart tag. |
-| [setProperties(SmartTagPropertyCollection)](#setProperties-smarttagpropertycollection-)| Gets and set the properties of the smart tag. |
-| [getUri()](#getUri--)| Gets the namespace URI of the smart tag. |
-| [getName()](#getName--)| Gets the name of the smart tag. |
+| [getDeleted()](#getDeleted--)| <b>@deprecated.</b> Please use the 'deleted' property instead. Indicates whether the smart tag is deleted. |
+| [setDeleted(boolean)](#setDeleted-boolean-)| <b>@deprecated.</b> Please use the 'deleted' property instead. Indicates whether the smart tag is deleted. |
+| [getProperties()](#getProperties--)| <b>@deprecated.</b> Please use the 'properties' property instead. Gets and set the properties of the smart tag. |
+| [setProperties(SmartTagPropertyCollection)](#setProperties-smarttagpropertycollection-)| <b>@deprecated.</b> Please use the 'properties' property instead. Gets and set the properties of the smart tag. |
+| [getUri()](#getUri--)| <b>@deprecated.</b> Please use the 'uri' property instead. Gets the namespace URI of the smart tag. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the smart tag. |
 | [setLink(string, string)](#setLink-string-string-)| Change the name and  the namespace URI of the smart tag. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getDeleted() {#getDeleted--}
+### deleted {#deleted--}
 
 Indicates whether the smart tag is deleted.
+
+```javascript
+deleted : boolean;
+```
+
+
+### properties {#properties--}
+
+Gets and set the properties of the smart tag.
+
+```javascript
+properties : SmartTagPropertyCollection;
+```
+
+
+### uri {#uri--}
+
+Readonly. Gets the namespace URI of the smart tag.
+
+```javascript
+uri : string;
+```
+
+
+### name {#name--}
+
+Readonly. Gets the name of the smart tag.
+
+```javascript
+name : string;
+```
+
+
+### getDeleted() {#getDeleted--}
+
+<b>@deprecated.</b> Please use the 'deleted' property instead. Indicates whether the smart tag is deleted.
 
 ```javascript
 getDeleted() : boolean;
@@ -40,7 +85,7 @@ getDeleted() : boolean;
 
 ### setDeleted(boolean) {#setDeleted-boolean-}
 
-Indicates whether the smart tag is deleted.
+<b>@deprecated.</b> Please use the 'deleted' property instead. Indicates whether the smart tag is deleted.
 
 ```javascript
 setDeleted(value: boolean) : void;
@@ -53,7 +98,7 @@ setDeleted(value: boolean) : void;
 
 ### getProperties() {#getProperties--}
 
-Gets and set the properties of the smart tag.
+<b>@deprecated.</b> Please use the 'properties' property instead. Gets and set the properties of the smart tag.
 
 ```javascript
 getProperties() : SmartTagPropertyCollection;
@@ -66,7 +111,7 @@ getProperties() : SmartTagPropertyCollection;
 
 ### setProperties(SmartTagPropertyCollection) {#setProperties-smarttagpropertycollection-}
 
-Gets and set the properties of the smart tag.
+<b>@deprecated.</b> Please use the 'properties' property instead. Gets and set the properties of the smart tag.
 
 ```javascript
 setProperties(value: SmartTagPropertyCollection) : void;
@@ -79,7 +124,7 @@ setProperties(value: SmartTagPropertyCollection) : void;
 
 ### getUri() {#getUri--}
 
-Gets the namespace URI of the smart tag.
+<b>@deprecated.</b> Please use the 'uri' property instead. Gets the namespace URI of the smart tag.
 
 ```javascript
 getUri() : string;
@@ -88,7 +133,7 @@ getUri() : string;
 
 ### getName() {#getName--}
 
-Gets the name of the smart tag.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the smart tag.
 
 ```javascript
 getName() : string;

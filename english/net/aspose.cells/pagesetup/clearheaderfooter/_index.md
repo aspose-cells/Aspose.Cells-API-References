@@ -16,19 +16,43 @@ public void ClearHeaderFooter()
 ### Examples
 
 ```csharp
-// Called: pageSetup.ClearHeaderFooter();
-public void PageSetup_Method_ClearHeaderFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    var pageSetup = workbook.Worksheets[0].PageSetup;
+    public class PageSetupMethodClearHeaderFooterDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
 
-    //This line causes NullReferenceException when setting either Header or Footer below
-    pageSetup.ClearHeaderFooter();
+            // Set initial headers and footers
+            pageSetup.SetHeader(0, "Initial Left Header");
+            pageSetup.SetFooter(0, "Initial Left Footer");
 
-    pageSetup.SetHeader(0, "Left Header");
-    pageSetup.SetFooter(0, "Left Footer");
+            Console.WriteLine("Before ClearHeaderFooter:");
+            Console.WriteLine("Header: " + pageSetup.GetHeader(0));
+            Console.WriteLine("Footer: " + pageSetup.GetFooter(0));
 
-            
+            // Clear headers and footers
+            pageSetup.ClearHeaderFooter();
+
+            Console.WriteLine("\nAfter ClearHeaderFooter:");
+            Console.WriteLine("Header: " + (string.IsNullOrEmpty(pageSetup.GetHeader(0)) ? "Cleared" : "Not Cleared"));
+            Console.WriteLine("Footer: " + (string.IsNullOrEmpty(pageSetup.GetFooter(0)) ? "Cleared" : "Not Cleared"));
+
+            // Set new headers and footers after clearing
+            pageSetup.SetHeader(0, "New Left Header");
+            pageSetup.SetFooter(0, "New Left Footer");
+
+            Console.WriteLine("\nAfter Setting New Values:");
+            Console.WriteLine("Header: " + pageSetup.GetHeader(0));
+            Console.WriteLine("Footer: " + pageSetup.GetFooter(0));
+        }
+    }
 }
 ```
 

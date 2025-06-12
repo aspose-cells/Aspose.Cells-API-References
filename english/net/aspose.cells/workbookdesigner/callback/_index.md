@@ -16,33 +16,41 @@ public ISmartMarkerCallBack CallBack { get; set; }
 ### Examples
 
 ```csharp
-// Called: designer.CallBack = new ISmartMarkerCallBackDemo();
-public static void WorkbookDesigner_Property_CallBack()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerPropertyCallBackDemo : ISmartMarkerCallBack
+    {
+        public void Process(int sheetIndex, int rowIndex, int colIndex, string tableName, string columnName)
         {
-            // Create a new WorkbookDesigner instance
+            Console.WriteLine($"Processing - Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+            Console.WriteLine($"Table: {tableName}, Column: {columnName}");
+        }
+
+        public static void Run()
+        {
             WorkbookDesigner designer = new WorkbookDesigner();
-            // Open a template file (which contains smart markers)
-            designer.Workbook = new Workbook("ISmartMarkerCallBackExample_original.xlsx");
+            designer.Workbook = new Workbook();
+            
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("&=$Table1.Column1");
+            
+            designer.CallBack = new WorkbookDesignerPropertyCallBackDemo();
 
-            // Set the callback interface
-            designer.CallBack = new ISmartMarkerCallBackDemo();
-
-            // Initialize your data from data source
-            // For demonstration, we will use a simple DataTable
             System.Data.DataTable dataTable = new System.Data.DataTable("Table1");
             dataTable.Columns.Add("Column1", typeof(string));
-            dataTable.Rows.Add("Value1");
-            dataTable.Rows.Add("Value2");
+            dataTable.Rows.Add("Data1");
+            dataTable.Rows.Add("Data2");
 
-            // Set the datatable as the data source
             designer.SetDataSource(dataTable);
-
-            // Process the smart markers to fill the data into the worksheets
-            designer.Process(true);
-
-            // Save the excel file
-            designer.Workbook.Save("ISmartMarkerCallBackExample.xlsx");
+            designer.Process(false);
+            
+            designer.Workbook.Save("WorkbookDesignerCallBackDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

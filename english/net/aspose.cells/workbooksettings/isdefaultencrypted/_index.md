@@ -20,11 +20,22 @@ The default value is false now. It's same as MS Excel 2013.
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
-public void WorkbookSettings_Property_IsDefaultEncrypted()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
+    public class WorkbookSettingsPropertyIsDefaultEncryptedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            Console.WriteLine("IsDefaultEncrypted: " + workbook.Settings.IsDefaultEncrypted);
+            
+            workbook.Settings.IsDefaultEncrypted = true;
+            Console.WriteLine("After setting to true: " + workbook.Settings.IsDefaultEncrypted);
+        }
+    }
 }
 ```
 

@@ -36,9 +36,7 @@ For some features, accessing large dataset requires a lot of repeated and compli
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

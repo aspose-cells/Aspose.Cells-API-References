@@ -30,11 +30,31 @@ The new CheckBox object index.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddCheckBoxWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//add a CheckBox
-CheckBox checkBox = shapes.AddCheckBox(1, 0, 1, 0, 100, 50);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a CheckBox using the specified parameters
+            Aspose.Cells.Drawing.CheckBox checkBox = shapes.AddCheckBox(1, 0, 1, 0, 100, 50);
+
+            // Save the workbook
+            workbook.Save("CheckBoxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

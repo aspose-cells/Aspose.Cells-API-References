@@ -16,17 +16,48 @@ public string DisplayName { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Prix départ", chart.NSeries[0].DisplayName);
-public void Series_Property_DisplayName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.numbers");
-    //wb.Save(Constants.destPath + @"example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    Chart chart = wb.Worksheets["Depart"].Charts[0];
-    Assert.AreEqual(1, chart.NSeries.Count);
-    Assert.AreEqual("=Depart!$D$1", chart.NSeries[0].Name);
-    Assert.AreEqual("Prix départ", chart.NSeries[0].DisplayName);
-    Assert.AreEqual("=(Depart!$B$7,Depart!$B$3,Depart!$B$4,Depart!$B$2,Depart!$B$6,Depart!$B$5,Depart!$B$22,Depart!$A$9:$B$9,Depart!$B$8)", chart.NSeries.CategoryData);
+    public class SeriesPropertyDisplayNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Series");
+            worksheet.Cells["A2"].PutValue("Cat1");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("Cat2");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("Cat3");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set display name for the first series by setting the Name property
+            chart.NSeries[0].Name = "Sample Series Display Name";
+            
+            // Output the display name
+            Console.WriteLine("Series Display Name: " + chart.NSeries[0].Name);
+            
+            // Save the workbook
+            workbook.Save("SeriesDisplayNameDemo.xlsx");
+        }
+    }
 }
 ```
 

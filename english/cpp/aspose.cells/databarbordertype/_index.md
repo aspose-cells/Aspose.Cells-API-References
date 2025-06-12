@@ -4,7 +4,7 @@ linktitle: DataBarBorderType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBarBorderType enum. Specifies the border type of a data bar in C++.'
 type: docs
-weight: 19200
+weight: 19600
 url: /cpp/aspose.cells/databarbordertype/
 ---
 ## DataBarBorderType enum

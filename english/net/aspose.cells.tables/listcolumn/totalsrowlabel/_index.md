@@ -16,43 +16,43 @@ public string TotalsRowLabel { get; set; }
 ### Examples
 
 ```csharp
-// Called: listColumn.TotalsRowLabel = "Total";
-public static void ListColumn_Property_TotalsRowLabel()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class ListColumnPropertyTotalsRowLabelDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue("Item3");
+            worksheet.Cells["B4"].PutValue(200);
 
-            // Populate the worksheet with some data
-            for (int i = 0; i < 5; i++)
-            {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row < 10; row++)
-            {
-                for (int column = 0; column < 4; column++)
-                {
-                    cells[row, column].PutValue(row * column);
-                }
-            }
-
-            // Add a ListObject (table) to the worksheet
-            ListObjectCollection tables = worksheet.ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
+            // Create table
+            int index = worksheet.ListObjects.Add(0, 0, 4, 1, true);
+            ListObject table = worksheet.ListObjects[index];
             table.ShowTotals = true;
 
-            // Access the ListColumn and set its properties
-            ListColumn listColumn = table.ListColumns[4];
-            listColumn.TotalsCalculation = TotalsCalculation.Sum;
-            listColumn.Formula = "=[A]";
-            listColumn.Name = "CustomColumn";
-            listColumn.TotalsRowLabel = "Total";
+            // Configure totals row
+            ListColumn priceColumn = table.ListColumns[1];
+            priceColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
+            priceColumn.TotalsRowLabel = "Grand Total";
 
-            // Save the workbook
-            workbook.Save("ListColumnExample.xlsx");
+            workbook.Save("ListColumnTotalsRowLabelDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

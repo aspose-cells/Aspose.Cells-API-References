@@ -16,33 +16,39 @@ public string FontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.DefaultStyleSettings.FontName = "SimSun";
-public void DefaultStyleSettings_Property_FontName()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.DefaultStyleSettings.FontName = "SimSun";
-    loadOptions.Region = CountryCode.USA;
-    loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-    Workbook excel = new Workbook(Constants.HtmlPath + "example.xlsx", loadOptions);
-    excel.AcceptAllRevisions();
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportActiveWorksheetOnly = true;
-    saveOptions.ExportHiddenWorksheet = false;
-    saveOptions.ExportImagesAsBase64 = true;
-    saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-    saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-    saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-
-    saveOptions.ExcludeUnusedStyles = true;
-
-
-    using (MemoryStream ms = new MemoryStream())
+    public class DefaultStyleSettingsPropertyFontNameDemo
     {
-        excel.Save(ms, saveOptions);
-        ms.Position = 0;
+        public static void Run()
+        {
+            // Create load options and set font name
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
+            loadOptions.DefaultStyleSettings.FontName = "SimSun";
 
-        Workbook reLoadWb = new Workbook(ms);
-        Assert.IsTrue(reLoadWb.Worksheets[0].Shapes[0].UpperLeftColumn >= 15);
+            // Create a new workbook with the load options
+            Workbook workbook = new Workbook();
+            workbook.DefaultStyle.Font.Name = loadOptions.DefaultStyleSettings.FontName;
+
+            // Access the default style and verify font name
+            Style defaultStyle = workbook.DefaultStyle;
+            Console.WriteLine("Default Font Name: " + defaultStyle.Font.Name);
+
+            // Create a worksheet and set cell value
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Font Name Test");
+
+            // Save the workbook
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, SaveFormat.Xlsx);
+                Console.WriteLine("Workbook saved with default font: SimSun");
+            }
+        }
     }
 }
 ```

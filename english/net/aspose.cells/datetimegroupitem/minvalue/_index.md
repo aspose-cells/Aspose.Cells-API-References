@@ -16,8 +16,14 @@ public DateTime MinValue { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-public static void DateTimeGroupItem_Property_MinValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertyMinValueDemo
+    {
+        public static void Run()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
@@ -30,34 +36,21 @@ public static void DateTimeGroupItem_Property_MinValue()
                 45                         // Second
             );
 
-            // Accessing properties
+            // Demonstrate MinValue property
             Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
-            dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
-            dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
-
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+            // Show other properties for context
+            Console.WriteLine("Grouping Type: " + dateTimeGroupItem.DateTimeGroupingType);
+            Console.WriteLine("Date Components: {0}-{1}-{2} {3}:{4}:{5}",
+                dateTimeGroupItem.Year,
+                dateTimeGroupItem.Month,
+                dateTimeGroupItem.Day,
+                dateTimeGroupItem.Hour,
+                dateTimeGroupItem.Minute,
+                dateTimeGroupItem.Second);
         }
+    }
+}
 ```
 
 ### See Also

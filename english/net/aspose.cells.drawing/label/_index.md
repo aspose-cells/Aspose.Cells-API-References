@@ -154,53 +154,31 @@ public class Label : Shape
 ### Examples
 
 ```csharp
-//Create a new Workbook.
-Workbook workbook = new Workbook();
- 
-//Get the first worksheet in the workbook.
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Add a new label to the worksheet.
-Aspose.Cells.Drawing.Label label = sheet.Shapes.AddLabel(2, 0, 2, 0, 60, 120);
- 
-//Set the caption of the label.
-label.Text = "This is a Label";
- 
-//Set the Placement Type, the way the
-//label is attached to the cells.
-label.Placement = PlacementType.FreeFloating;
- 
-//Set the fill color of the label.
-label.Fill.FillType = FillType.Solid;
-label.Fill.SolidFill.Color = Color.Yellow;
- 
-//Saves the file.
-workbook.Save("tstlabel.xls");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-[VB.NET]
-
-Create a new Workbook.
-Dim workbook As Workbook = New Workbook()
- 
-'Get the first worksheet in the workbook.
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-'Add a new label to the worksheet.
-Dim label As Aspose.Cells.Drawing.Label = sheet.Shapes.AddLabel(2, 0, 2, 0, 60, 120)
- 
-'Set the caption of the label.
-label.Text = "This is a Label"
- 
-'Set the Placement Type, the way the
-'label is attached to the cells.
-label.Placement = PlacementType.FreeFloating
- 
-'Set the fill color of the label.
-label.Fill.FillType = FillType.Solid
-label.Fill.SolidFill.Color = Color.Yellow
- 
-'Saves the file.
-workbook.Save("tstlabel.xls")
+namespace AsposeCellsExamples
+{
+    public class DrawingClassLabelDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            Label label = sheet.Shapes.AddLabel(2, 0, 2, 0, 60, 120);
+            label.Text = "Sample Label";
+            label.Placement = PlacementType.FreeFloating;
+            
+            label.Fill.FillType = FillType.Solid;
+            label.Fill.SolidFill.Color = Color.Yellow;
+            
+            workbook.Save("LabelDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

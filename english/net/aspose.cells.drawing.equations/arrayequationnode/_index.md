@@ -44,6 +44,48 @@ public class ArrayEquationNode : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationsClassArrayEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box shape to hold the equation
+            var textBox = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 100, 100);
+
+            // Create an array equation node (must be created with parent node)
+            ArrayEquationNode arrayEquation = (ArrayEquationNode)EquationNode.CreateNode(EquationNodeType.ArrayEquation, workbook, null);
+
+            // Create a simple equation node to add to the array
+            // EquationNode is abstract, so we need to create a specific type
+            // Using Text equation type as the simplest option
+            EquationNode simpleEquation = EquationNode.CreateNode(EquationNodeType.Text, workbook, arrayEquation);
+
+            // Add the simple equation to the array equation
+            arrayEquation.AddChild(simpleEquation);
+
+            // Set the equation to the text box
+            textBox.Text = arrayEquation.ToMathML();
+
+            // Save the result
+            workbook.Save("ArrayEquationNodeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)

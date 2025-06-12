@@ -19,23 +19,39 @@ If content in the sheet is sparse, there will be some pages are totally blank in
 
 ### Examples
 
-The following code omits blank pages or pages which only contains some style content like cell background, borders.
-
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-//ignore blank pages
-pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-
-wb.Save("output_ignore_blank_page.pdf", pdfSaveOptions);
-
-
-//ignore blank pages and pages which only contains some style content like cell background
-pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreStyle;
-
-wb.Save("output_ignore_blank_and_style_page.pdf", pdfSaveOptions);
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyPrintingPageTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Add some sample data
+            ws.Cells["A1"].PutValue("Sample Data");
+            ws.Cells["A2"].PutValue(123);
+            ws.Cells["A3"].PutValue(456);
+            
+            // Create blank worksheet
+            Worksheet blankWs = wb.Worksheets.Add("BlankSheet");
+            
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            
+            // Save ignoring blank pages
+            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            wb.Save("output_ignore_blank_page.pdf", pdfSaveOptions);
+            
+            // Save ignoring blank pages and style-only pages
+            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreStyle;
+            wb.Save("output_ignore_blank_and_style_page.pdf", pdfSaveOptions);
+        }
+    }
+}
 ```
 
 ### See Also

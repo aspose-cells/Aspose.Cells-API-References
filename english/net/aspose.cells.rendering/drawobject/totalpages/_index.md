@@ -16,23 +16,51 @@ public int TotalPages { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
-public override void DrawObject_Property_TotalPages(DrawObject drawObject, float x, float y, float width, float height)
-        {
-            Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
-            Console.WriteLine($"Object Type: {drawObject.Type}");
-            Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-            if (drawObject.Cell != null)
+namespace AsposeCellsExamples
+{
+    public class DrawObjectPropertyTotalPagesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and add some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            for (int i = 2; i <= 10; i++)
             {
-                Console.WriteLine($"Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}");
+                worksheet.Cells[$"A{i}"].PutValue($"Item {i-1}");
             }
 
-            if (drawObject.Shape != null)
+            // Add a second worksheet
+            workbook.Worksheets.Add();
+            
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = false;
+
+            // Create sheet render
+            SheetRender render = new SheetRender(worksheet, options);
+
+            // Demonstrate TotalPages property
+            Console.WriteLine($"Total pages to render: {render.PageCount}");
+
+            // Simulate drawing each page
+            for (int pageIndex = 0; pageIndex < render.PageCount; pageIndex++)
             {
-                Console.WriteLine($"Rendering Shape: {drawObject.Shape.Name}");
+                Console.WriteLine($"Rendering page {pageIndex + 1} of {render.PageCount}");
+                
+                // In a real scenario, you would render the page here
+                // render.ToImage(pageIndex, "output_" + pageIndex + ".png");
             }
         }
+    }
+}
 ```
 
 ### See Also

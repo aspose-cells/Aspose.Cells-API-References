@@ -16,27 +16,39 @@ public RowCollection Rows { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(worksheet.Cells.Rows[0].IsHeightMatched);
-public void Cells_Property_Rows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.Cells.SetColumnWidthPixel(0, 202);
-    Cell cell = worksheet.Cells[0, 0];
-    var cellStyle = cell.GetStyle();
-    cellStyle.IsTextWrapped = true;
-    cellStyle.Font.Name = "Calibri";
-    cellStyle.Font.Size = 11;
-    cell.SetStyle(cellStyle);
-
-    cell.PutValue("aaaaaaaa aaaaaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaaa");
-
-    AutoFitterOptions options = new AutoFitterOptions();
-   // options.IsHeightMatched = false;
-    worksheet.AutoFitRows(options);
-    Assert.AreEqual(60,worksheet.Cells.GetRowHeightPixel(0));//It returns 60, whereas MS Excel shows 100 pixels
-    Assert.IsTrue(worksheet.Cells.Rows[0].IsHeightMatched);
-    workbook.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
+    public class CellsPropertyRowsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set column width and row height
+            worksheet.Cells.SetColumnWidthPixel(0, 200);
+            worksheet.Cells.Rows[0].Height = 50;
+            
+            // Access row properties through Rows collection
+            Row row = worksheet.Cells.Rows[0];
+            Console.WriteLine($"Row 0 height: {row.Height}");
+            Console.WriteLine($"Is height matched: {row.IsHeightMatched}");
+            
+            // Modify row properties
+            row.IsHeightMatched = true;
+            row.Height = 60;
+            
+            // Verify changes
+            Console.WriteLine($"Modified row 0 height: {worksheet.Cells.GetRowHeightPixel(0)}");
+            Console.WriteLine($"Is height matched after change: {row.IsHeightMatched}");
+            
+            // Save the workbook
+            workbook.Save("CellsPropertyRowsDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

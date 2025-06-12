@@ -24,11 +24,28 @@ True if the property exists in the collection; false otherwise.
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.BuiltInDocumentProperties.Contains("RevisionNumber"));
-public void DocumentPropertyCollection_Method_Contains()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
-    Assert.IsFalse(workbook.BuiltInDocumentProperties.Contains("RevisionNumber"));
+    public class DocumentPropertyCollectionMethodContainsWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Check if "RevisionNumber" property exists in built-in document properties
+            bool containsRevision = workbook.BuiltInDocumentProperties.Contains("RevisionNumber");
+            Console.WriteLine("Contains 'RevisionNumber': " + containsRevision);
+            
+            // Add a custom property and check for its existence
+            workbook.CustomDocumentProperties.Add("CustomProperty", "Test Value");
+            bool containsCustom = workbook.CustomDocumentProperties.Contains("CustomProperty");
+            Console.WriteLine("Contains 'CustomProperty': " + containsCustom);
+        }
+    }
 }
 ```
 

@@ -16,19 +16,42 @@ public bool AllColumnsInOnePagePerSheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-public void ImageOrPrintOptions_Property_AllColumnsInOnePagePerSheet()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-    MemoryStream ms = new MemoryStream();
-    workbook.Save(ms, pngOptions);
-    byte x = ms.GetBuffer()[0];
-    Assert.AreEqual(0x89, x);
+    public class ImageOrPrintOptionsPropertyAllColumnsInOnePagePerSheetDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and add sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Fill some data in the worksheet
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
+
+            // Create image save options
+            ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png);
+            pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
+            pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+
+            // Save workbook to memory stream as PNG
+            using (MemoryStream ms = new MemoryStream())
+            {
+                workbook.Save(ms, pngOptions);
+                Console.WriteLine("Workbook saved as PNG with all columns in one page per sheet.");
+            }
+        }
+    }
 }
 ```
 

@@ -133,88 +133,57 @@ public class Cell
 ### Examples
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
+    public class CellDemo
+    {
+        public static void CellExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Access the cells collection
+            Cells cells = worksheet.Cells;
 
-//Put a string into a cell
-Cell cell = cells[0, 0];
-cell.PutValue("Hello");
+            // Put a string into a cell
+            Cell cell = cells[0, 0];
+            cell.PutValue("Hello");
 
-string first = cell.StringValue;
-	
-//Put an integer into a cell
-cell = cells["B1"];
-cell.PutValue(12);
+            // Put an integer into a cell
+            cell = cells["B1"];
+            cell.PutValue(12);
 
-int second = cell.IntValue;
+            // Put a double into a cell
+            cell = cells[0, 2];
+            cell.PutValue(-1.234);
 
-//Put a double into a cell
-cell = cells[0, 2];
-cell.PutValue(-1.234);
+            // Put a formula into a cell
+            cell = cells["D1"];
+            cell.Formula = "=B1 + C1";
 
-double third = cell.DoubleValue;
+            // Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
+            cell = cells["B2"];
+            cell.Formula = "=sum(average(b1,c1), b1)";
 
-//Put a formula into a cell
-cell = cells["D1"];
-cell.Formula = "=B1 + C1";
+            // Set style of a cell
+            Style style = cell.GetStyle();
+            // Set background color
+            style.BackgroundColor = System.Drawing.Color.Yellow;
+            // Set font of a cell
+            style.Font.Name = "Courier New";
+            style.VerticalAlignment = TextAlignmentType.Top;
+            cell.SetStyle(style);
 
-//Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
-cell = cells["b2"];
-cell.Formula = "=sum(average(b1,c1), b1)";
-
-//Set style of a cell
-Style style = cell.GetStyle();
-//Set background color
-style.BackgroundColor = Color.Yellow;
-//Set format of a cell
-style.Font.Name = "Courier New";
-style.VerticalAlignment = TextAlignmentType.Top;
-cell.SetStyle(style);
-
-
-
-[Visual Basic]
-
-Dim excel as Workbook = new Workbook()
-Dim cells as Cells = exce.Worksheets(0).Cells
-
-'Put a string into a cell
-Dim cell as Cell = cells(0, 0)
-cell.PutValue("Hello")
-
-Dim first as String = cell.StringValue
-	
-//Put an integer into a cell
-cell = cells("B1")
-cell.PutValue(12)
-
-Dim second as Integer = cell.IntValue
-
-//Put a double into a cell
-cell = cells(0, 2)
-cell.PutValue(-1.234)
-
-Dim third as Double = cell.DoubleValue
-
-//Put a formula into a cell
-cell = cells("D1")
-cell.Formula = "=B1 + C1"
-
-//Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
-cell = cells("b2")
-cell.Formula = "=sum(average(b1,c1), b1)"
-	
-//Set style of a cell
-Dim style as Style = cell.GetStyle()
-
-//Set background color
-style.BackgroundColor = Color.Yellow
-//Set font of a cell
-style.Font.Name = "Courier New"
-style.VerticalAlignment = TextAlignmentType.Top
-cell.SetStyle(style)
+            // Save the workbook
+            workbook.Save("CellExample.xlsx");
+            workbook.Save("CellExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -35,43 +35,56 @@ public class PivotPageFields
 ### Examples
 
 ```csharp
-// Called: PivotPageFields page = new PivotPageFields();
-public void Pivot_Type_PivotPageFields()
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.openPivottablePath + "PivotSource.xls");
+    public class PivotClassPivotPageFieldsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            Worksheet sheet1 = workbook.Worksheets[0];
+            sheet1.Name = "Sheet1";
+            FillData(sheet1);
 
-    Worksheet ws = workbook.Worksheets[0];
-    PivotTableCollection pivottables = ws.PivotTables;
-    string[] src = { "=Sheet1!A1:C8", "=Sheet2!A1:C8" };
-    PivotPageFields page = new PivotPageFields();
-    string[] items = new string[2];
-    items[0] = "item1";
-    items[1] = "item2";
-    page.AddPageField(items);
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+            FillData(sheet2);
 
-    items = new string[2];
-    items[0] = "item3";
-    items[1] = "item4";
-    page.AddPageField(items);
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotSheet");
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
 
-    int[] tb = new int[2];
-    tb[0] = 0;
-    tb[1] = 1;
+            string[] src = { "=Sheet1!A1:C8", "=Sheet2!A1:C8" };
+            PivotPageFields pageFields = new PivotPageFields();
 
-    page.AddIdentify(0, tb);
+            pageFields.AddPageField(new string[] { "item1", "item2" });
+            pageFields.AddPageField(new string[] { "item3", "item4" });
 
-    tb = new int[2];
-    tb[0] = 1;
-    tb[1] = -1;
-    page.AddIdentify(1, tb);
+            pageFields.AddIdentify(0, new int[] { 0, 1 });
+            pageFields.AddIdentify(1, new int[] { 1, -1 });
 
-    int index = pivottables.Add(src, false, page, "E3", "PivotTable1");
+            pivotTables.Add(src, false, pageFields, "E3", "PivotTable1");
 
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
 
-    //workbook.Save("D:\\c.xls", FileFormatType.Excel97To2003);
-    workbook.Save(Constants.savePivottablePath + "c.xlsx");
+        private static void FillData(Worksheet sheet)
+        {
+            Cells cells = sheet.Cells;
+            cells["A1"].PutValue("Category");
+            cells["B1"].PutValue("Value");
+            cells["C1"].PutValue("Date");
 
-
+            for (int i = 1; i < 8; i++)
+            {
+                cells[$"A{i+1}"].PutValue($"Item{i}");
+                cells[$"B{i+1}"].PutValue(i * 100);
+                cells[$"C{i+1}"].PutValue(System.DateTime.Now.AddDays(i).ToString("yyyy-MM-dd"));
+            }
+        }
+    }
 }
 ```
 

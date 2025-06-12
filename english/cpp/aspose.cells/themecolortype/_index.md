@@ -4,7 +4,7 @@ linktitle: ThemeColorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThemeColorType enum. Enumerates the theme color types in C++.'
 type: docs
-weight: 26100
+weight: 27300
 url: /cpp/aspose.cells/themecolortype/
 ---
 ## ThemeColorType enum

@@ -16,22 +16,47 @@ public bool ShowPivotStyleColumnHeader { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.ShowPivotStyleColumnHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnHeader);
-public void PivotTable_Property_ShowPivotStyleColumnHeader()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET43735_";
-    Workbook wb_a = new Workbook(filePath + "wbA.xlsx");
-    Workbook wb_b = new Workbook(filePath + "wbB.xlsx");
-    wb_a.Combine(wb_b);
-    wb_a.Save(Constants.PivotTableDestPath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Workbook wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    PivotTable pt = wb.Worksheets["SheetB"].PivotTables["PivotTable1"];
-    Assert.AreEqual(pt.ShowPivotStyleRowStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowStripes);
-    Assert.AreEqual(pt.ShowPivotStyleColumnStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnStripes);
-    Assert.AreEqual(pt.ShowPivotStyleRowHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowHeader);
-    Assert.AreEqual(pt.ShowPivotStyleColumnHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnHeader);
-    Assert.AreEqual(pt.ShowPivotStyleLastColumn, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleLastColumn);
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowPivotStyleColumnHeaderDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Set pivot table style
+            pivotTable.ShowPivotStyleColumnHeader = true;
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowPivotStyleColumnHeaderDemo.xlsx");
+        }
+    }
 }
 ```
 

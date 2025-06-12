@@ -16,33 +16,47 @@ public CellValueType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(CellValueType.IsNumeric, cells[0, 0].Type, "A1");
-public void Cell_Property_Type()
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.Region = CountryCode.USA;
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[0, 0].PutValue("1.2345");
-    cells[0, 1].PutValue("1,2345");
-    cells = wb.Worksheets.Add("Sheet2").Cells;
-    TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
-    tlo.Region = CountryCode.USA;
-    tlo.Encoding = Encoding.Unicode;
-    MemoryStream ms = new MemoryStream(Encoding.Unicode.GetBytes("\"1.2345\",\"1,2345\",\"1.2.3456\",\"True\",\"False\""), false);
-    cells.ImportCSV(ms, tlo, 0, 0);
-    tlo.Region = CountryCode.Germany;
-    ms.Seek(0, SeekOrigin.Begin);
-    cells.ImportCSV(ms, tlo, 1, 0);
-    Assert.AreEqual(CellValueType.IsNumeric, cells[0, 0].Type, "A1");
-    Assert.AreEqual(CellValueType.IsNumeric, cells[0, 1].Type, "B1"); //before 24.2 it is string
-    Assert.AreEqual(CellValueType.IsString, cells[0, 2].Type, "C1");
-    Assert.IsTrue(cells[0, 3].BoolValue, "D1");
-    Assert.IsFalse(cells[0, 4].BoolValue, "E1");
-    Assert.AreEqual(CellValueType.IsNumeric, cells[1, 0].Type, "A2"); //before 24.2 it is datetime
-    Assert.AreEqual(CellValueType.IsNumeric, cells[1, 1].Type, "B1");
-    Assert.AreEqual(CellValueType.IsDateTime, cells[1, 2].Type, "C2");
-    Assert.IsTrue(cells[1, 3].BoolValue, "D2");
-    Assert.IsFalse(cells[1, 4].BoolValue, "E2");
+    public class CellPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.USA;
+            Cells cells = wb.Worksheets[0].Cells;
+            
+            // Demonstrate Type property with different values
+            cells["A1"].PutValue("123.45");
+            Console.WriteLine($"A1 Type: {cells["A1"].Type}"); // Should be IsNumeric
+            
+            cells["A2"].PutValue("Hello");
+            Console.WriteLine($"A2 Type: {cells["A2"].Type}"); // Should be IsString
+            
+            cells["A3"].PutValue(DateTime.Now);
+            Console.WriteLine($"A3 Type: {cells["A3"].Type}"); // Should be IsDateTime
+            
+            cells["A4"].PutValue(true);
+            Console.WriteLine($"A4 Type: {cells["A4"].Type}"); // Should be IsBool
+            
+            // Demonstrate with different regional settings
+            Cells sheet2Cells = wb.Worksheets.Add("Sheet2").Cells;
+            TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
+            tlo.Region = CountryCode.Germany;
+            
+            using (MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes("\"1,2345\",\"12.345\"")))
+            {
+                sheet2Cells.ImportCSV(ms, tlo, 0, 0);
+                Console.WriteLine($"Sheet2 A1 Type: {sheet2Cells["A1"].Type}"); // Should be IsNumeric (German decimal)
+                Console.WriteLine($"Sheet2 B1 Type: {sheet2Cells["B1"].Type}"); // Should be IsString
+            }
+        }
+    }
 }
 ```
 

@@ -31,9 +31,7 @@ When saving a workbook by this mode, [`StartSheet`](./startsheet/) will be check
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,26 +16,52 @@ public bool ShowDrill { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.ShowDrill = true;
-private void PivotTable_Property_ShowDrill(string file, string filePath)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowDrillDemo
+    {
+        public static void Run()
         {
-            var book = new Workbook(filePath + file);
-            string sheetName = "Pivot";
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
-                pt.RefreshData();
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and populate with sample data
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Name = "Pivot";
+            sheet.Cells["A1"].Value = "Category";
+            sheet.Cells["B1"].Value = "Value";
+            sheet.Cells["A2"].Value = "A";
+            sheet.Cells["B2"].Value = 100;
+            sheet.Cells["A3"].Value = "B";
+            sheet.Cells["B3"].Value = 200;
+            sheet.Cells["A4"].Value = "A";
+            sheet.Cells["B4"].Value = 150;
 
-            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A93"].StringValue, "FX_Carry_Value");
-
-            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_AfterRefresh.xlsx");
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Enable drilldown and show drill indicators
+            pivotTable.EnableDrilldown = true;
+            pivotTable.ShowDrill = true;
+            
+            // Refresh and calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowDrillDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

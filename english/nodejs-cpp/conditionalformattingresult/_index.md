@@ -15,21 +15,76 @@ class ConditionalFormattingResult;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [conditionalStyle](#conditionalStyle--)| Style | Readonly. Gets the conditional result style. |
+| [conditionalFormattingIcon](#conditionalFormattingIcon--)| ConditionalFormattingIcon | Readonly. Gets the image of icon set. |
+| [conditionalFormattingDataBar](#conditionalFormattingDataBar--)| DataBar | Readonly. Gets the DataBar object. |
+| [conditionalFormattingColorScale](#conditionalFormattingColorScale--)| ColorScale | Readonly. Gets the ColorScale object. |
+| [colorScaleResult](#colorScaleResult--)| Color | Readonly. Gets the display color of color scale. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getConditionalStyle()](#getConditionalStyle--)| Gets the conditional result style. |
-| [getConditionalFormattingIcon()](#getConditionalFormattingIcon--)| Gets the image of icon set. |
-| [getConditionalFormattingDataBar()](#getConditionalFormattingDataBar--)| Gets the DataBar object. |
-| [getConditionalFormattingColorScale()](#getConditionalFormattingColorScale--)| Gets the ColorScale object. |
-| [getColorScaleResult()](#getColorScaleResult--)| Gets the display color of color scale. |
+| [getConditionalStyle()](#getConditionalStyle--)| <b>@deprecated.</b> Please use the 'conditionalStyle' property instead. Gets the conditional result style. |
+| [getConditionalFormattingIcon()](#getConditionalFormattingIcon--)| <b>@deprecated.</b> Please use the 'conditionalFormattingIcon' property instead. Gets the image of icon set. |
+| [getConditionalFormattingDataBar()](#getConditionalFormattingDataBar--)| <b>@deprecated.</b> Please use the 'conditionalFormattingDataBar' property instead. Gets the DataBar object. |
+| [getConditionalFormattingColorScale()](#getConditionalFormattingColorScale--)| <b>@deprecated.</b> Please use the 'conditionalFormattingColorScale' property instead. Gets the ColorScale object. |
+| [getColorScaleResult()](#getColorScaleResult--)| <b>@deprecated.</b> Please use the 'colorScaleResult' property instead. Gets the display color of color scale. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### conditionalStyle {#conditionalStyle--}
+
+Readonly. Gets the conditional result style.
+
+```javascript
+conditionalStyle : Style;
+```
+
+
+### conditionalFormattingIcon {#conditionalFormattingIcon--}
+
+Readonly. Gets the image of icon set.
+
+```javascript
+conditionalFormattingIcon : ConditionalFormattingIcon;
+```
+
+
+### conditionalFormattingDataBar {#conditionalFormattingDataBar--}
+
+Readonly. Gets the DataBar object.
+
+```javascript
+conditionalFormattingDataBar : DataBar;
+```
+
+
+### conditionalFormattingColorScale {#conditionalFormattingColorScale--}
+
+Readonly. Gets the ColorScale object.
+
+```javascript
+conditionalFormattingColorScale : ColorScale;
+```
+
+
+### colorScaleResult {#colorScaleResult--}
+
+Readonly. Gets the display color of color scale.
+
+```javascript
+colorScaleResult : Color;
+```
 
 
 ### getConditionalStyle() {#getConditionalStyle--}
 
-Gets the conditional result style.
+<b>@deprecated.</b> Please use the 'conditionalStyle' property instead. Gets the conditional result style.
 
 ```javascript
 getConditionalStyle() : Style;
@@ -42,7 +97,7 @@ getConditionalStyle() : Style;
 
 ### getConditionalFormattingIcon() {#getConditionalFormattingIcon--}
 
-Gets the image of icon set.
+<b>@deprecated.</b> Please use the 'conditionalFormattingIcon' property instead. Gets the image of icon set.
 
 ```javascript
 getConditionalFormattingIcon() : ConditionalFormattingIcon;
@@ -55,7 +110,7 @@ getConditionalFormattingIcon() : ConditionalFormattingIcon;
 
 ### getConditionalFormattingDataBar() {#getConditionalFormattingDataBar--}
 
-Gets the DataBar object.
+<b>@deprecated.</b> Please use the 'conditionalFormattingDataBar' property instead. Gets the DataBar object.
 
 ```javascript
 getConditionalFormattingDataBar() : DataBar;
@@ -68,7 +123,7 @@ getConditionalFormattingDataBar() : DataBar;
 
 ### getConditionalFormattingColorScale() {#getConditionalFormattingColorScale--}
 
-Gets the ColorScale object.
+<b>@deprecated.</b> Please use the 'conditionalFormattingColorScale' property instead. Gets the ColorScale object.
 
 ```javascript
 getConditionalFormattingColorScale() : ColorScale;
@@ -81,7 +136,7 @@ getConditionalFormattingColorScale() : ColorScale;
 
 ### getColorScaleResult() {#getColorScaleResult--}
 
-Gets the display color of color scale.
+<b>@deprecated.</b> Please use the 'colorScaleResult' property instead. Gets the display color of color scale.
 
 ```javascript
 getColorScaleResult() : Color;

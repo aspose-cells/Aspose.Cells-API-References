@@ -32,40 +32,42 @@ public class Hyperlink
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Adding a new worksheet to the Workbook object
-workbook.Worksheets.Add();
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[0];
-//Adding a hyperlink to a URL at "A1" cell
-int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-//Getting a Hyperlink by index.
-Hyperlink hyperlink = worksheet.Hyperlinks[index];
-//Setting display text of this hyperlink.
-hyperlink.TextToDisplay = "Aspose";
-//Saving the Excel file
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Workbook object
-workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Adding a hyperlink to a URL at "A1" cell
-Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
-'Getting a Hyperlink by index.
-Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
-'Setting display text of this hyperlink.
-hyperlink.TextToDisplay = "Aspose";
-'Saving the Excel file
-workbook.Save("book1.xls")
+    public class HyperlinkDemo
+    {
+        public static void HyperlinkExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Adding a new worksheet to the Workbook object
+            workbook.Worksheets.Add();
+            
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Adding a hyperlink to a URL at "A1" cell
+            int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+            
+            // Getting a Hyperlink by index
+            Hyperlink hyperlink = worksheet.Hyperlinks[index];
+            
+            // Setting display text of this hyperlink
+            hyperlink.TextToDisplay = "Aspose";
+            
+            // Setting the ScreenTip text for the hyperlink
+            hyperlink.ScreenTip = "Visit Aspose Website";
+            
+            // Saving the Excel file
+            workbook.Save("HyperlinkExample.xlsx");
+            workbook.Save("HyperlinkExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

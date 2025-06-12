@@ -15,41 +15,202 @@ class TickLabels;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [font](#font--)| Font | Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
+| [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle in clockwise. |
+| [isAutomaticRotation](#isAutomaticRotation--)| boolean | Indicates whether the rotation angle is automatic |
+| [numberFormat](#numberFormat--)| string | Represents the format string for the TickLabels object. |
+| [number](#number--)| number | Represents the format number for the TickLabels object. |
+| [numberFormatLinked](#numberFormatLinked--)| boolean | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [displayNumberFormat](#displayNumberFormat--)| string | Readonly. Gets and sets the display number format of tick labels. |
+| [offset](#offset--)| number | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
+| [directionType](#directionType--)| ChartTextDirectionType | Gets and sets the direction of text. |
+| [tickLabelItems](#tickLabelItems--)| TickLabelItem[] | Readonly. Gets the display tick labels of the axis. |
+| [alignmentType](#alignmentType--)| TickLabelAlignmentType | Gets and sets the text alignment for the tick labels on the axis. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFont()](#getFont--)| Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
-| [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
-| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getRotationAngle()](#getRotationAngle--)| Represents text rotation angle in clockwise. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Represents text rotation angle in clockwise. |
-| [isAutomaticRotation()](#isAutomaticRotation--)| Indicates whether the rotation angle is automatic |
-| [setIsAutomaticRotation(boolean)](#setIsAutomaticRotation-boolean-)| Indicates whether the rotation angle is automatic |
-| [get_NumberFormat()](#get_NumberFormat--)| Represents the format string for the TickLabels object. |
-| [setNumberFormat(string)](#setNumberFormat-string-)| Represents the format string for the TickLabels object. |
-| [getNumber()](#getNumber--)| Represents the format number for the TickLabels object. |
-| [setNumber(number)](#setNumber-number-)| Represents the format number for the TickLabels object. |
-| [getNumberFormatLinked()](#getNumberFormatLinked--)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getDisplayNumberFormat()](#getDisplayNumberFormat--)| Gets and sets the display number format of tick labels. |
-| [getOffset()](#getOffset--)| Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
-| [setOffset(number)](#setOffset-number-)| Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
-| [getReadingOrder()](#getReadingOrder--)| Represents text reading order. |
-| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| Represents text reading order. |
-| [getDirectionType()](#getDirectionType--)| Gets and sets the direction of text. |
-| [setDirectionType(ChartTextDirectionType)](#setDirectionType-charttextdirectiontype-)| Gets and sets the direction of text. |
-| [getTickLabelItems()](#getTickLabelItems--)| Gets the display tick labels of the axis. |
-| [getAlignmentType()](#getAlignmentType--)| Gets and sets the text alignment for the tick labels on the axis. |
-| [setAlignmentType(TickLabelAlignmentType)](#setAlignmentType-ticklabelalignmenttype-)| Gets and sets the text alignment for the tick labels on the axis. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
+| [getAutoScaleFont()](#getAutoScaleFont--)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
+| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise. |
+| [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
+| [setIsAutomaticRotation(boolean)](#setIsAutomaticRotation-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
+| [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object. |
+| [setNumberFormat(string)](#setNumberFormat-string-)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object. |
+| [getNumber()](#getNumber--)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the format number for the TickLabels object. |
+| [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the format number for the TickLabels object. |
+| [getNumberFormatLinked()](#getNumberFormatLinked--)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [getDisplayNumberFormat()](#getDisplayNumberFormat--)| <b>@deprecated.</b> Please use the 'displayNumberFormat' property instead. Gets and sets the display number format of tick labels. |
+| [getOffset()](#getOffset--)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [setOffset(number)](#setOffset-number-)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [getReadingOrder()](#getReadingOrder--)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [getDirectionType()](#getDirectionType--)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text. |
+| [setDirectionType(ChartTextDirectionType)](#setDirectionType-charttextdirectiontype-)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text. |
+| [getTickLabelItems()](#getTickLabelItems--)| <b>@deprecated.</b> Please use the 'tickLabelItems' property instead. Gets the display tick labels of the axis. |
+| [getAlignmentType()](#getAlignmentType--)| <b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text alignment for the tick labels on the axis. |
+| [setAlignmentType(TickLabelAlignmentType)](#setAlignmentType-ticklabelalignmenttype-)| <b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text alignment for the tick labels on the axis. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### font {#font--}
+
+Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object.
+
+```javascript
+font : Font;
+```
+
+
+### autoScaleFont {#autoScaleFont--}
+
+True if the text in the object changes font size when the object size changes. The default value is True.
+
+```javascript
+autoScaleFont : boolean;
+```
+
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### rotationAngle {#rotationAngle--}
+
+Represents text rotation angle in clockwise.
+
+```javascript
+rotationAngle : number;
+```
+
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### isAutomaticRotation {#isAutomaticRotation--}
+
+Indicates whether the rotation angle is automatic
+
+```javascript
+isAutomaticRotation : boolean;
+```
+
+
+### numberFormat {#numberFormat--}
+
+Represents the format string for the TickLabels object.
+
+```javascript
+numberFormat : string;
+```
+
+
+**Remarks**
+
+The formatting string is same as a custom format string setting to a cell. For example, "$0".
+
+### number {#number--}
+
+Represents the format number for the TickLabels object.
+
+```javascript
+number : number;
+```
+
+
+### numberFormatLinked {#numberFormatLinked--}
+
+True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+
+```javascript
+numberFormatLinked : boolean;
+```
+
+
+### displayNumberFormat {#displayNumberFormat--}
+
+Readonly. Gets and sets the display number format of tick labels.
+
+```javascript
+displayNumberFormat : string;
+```
+
+
+### offset {#offset--}
+
+Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+
+```javascript
+offset : number;
+```
+
+
+**Remarks**
+
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
+
+### readingOrder {#readingOrder--}
+
+Represents text reading order.
+
+```javascript
+readingOrder : TextDirectionType;
+```
+
+
+### directionType {#directionType--}
+
+Gets and sets the direction of text.
+
+```javascript
+directionType : ChartTextDirectionType;
+```
+
+
+### tickLabelItems {#tickLabelItems--}
+
+Readonly. Gets the display tick labels of the axis.
+
+```javascript
+tickLabelItems : TickLabelItem[];
+```
+
+
+**Remarks**
+
+Only available after calling [Chart.Calculate()](../chart.calculate()/) method.
+
+### alignmentType {#alignmentType--}
+
+Gets and sets the text alignment for the tick labels on the axis.
+
+```javascript
+alignmentType : TickLabelAlignmentType;
+```
 
 
 ### getFont() {#getFont--}
 
-Returns a [Font](../font/) object that represents the font of the specified TickLabels object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns a [Font](../font/) object that represents the font of the specified TickLabels object.
 
 ```javascript
 getFont() : Font;
@@ -62,7 +223,7 @@ getFont() : Font;
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 
-True if the text in the object changes font size when the object size changes. The default value is True.
+<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
 
 ```javascript
 getAutoScaleFont() : boolean;
@@ -71,7 +232,7 @@ getAutoScaleFont() : boolean;
 
 ### setAutoScaleFont(boolean) {#setAutoScaleFont-boolean-}
 
-True if the text in the object changes font size when the object size changes. The default value is True.
+<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
 
 ```javascript
 setAutoScaleFont(value: boolean) : void;
@@ -84,7 +245,7 @@ setAutoScaleFont(value: boolean) : void;
 
 ### getBackgroundMode() {#getBackgroundMode--}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 getBackgroundMode() : BackgroundMode;
@@ -97,7 +258,7 @@ getBackgroundMode() : BackgroundMode;
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
-Gets and sets the display mode of the background
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
 
 ```javascript
 setBackgroundMode(value: BackgroundMode) : void;
@@ -110,7 +271,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-Represents text rotation angle in clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise.
 
 ```javascript
 getRotationAngle() : number;
@@ -123,7 +284,7 @@ br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-Represents text rotation angle in clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise.
 
 ```javascript
 setRotationAngle(value: number) : void;
@@ -140,7 +301,7 @@ br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br
 
 ### isAutomaticRotation() {#isAutomaticRotation--}
 
-Indicates whether the rotation angle is automatic
+<b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic
 
 ```javascript
 isAutomaticRotation() : boolean;
@@ -149,7 +310,7 @@ isAutomaticRotation() : boolean;
 
 ### setIsAutomaticRotation(boolean) {#setIsAutomaticRotation-boolean-}
 
-Indicates whether the rotation angle is automatic
+<b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic
 
 ```javascript
 setIsAutomaticRotation(value: boolean) : void;
@@ -162,7 +323,7 @@ setIsAutomaticRotation(value: boolean) : void;
 
 ### get_NumberFormat() {#get_NumberFormat--}
 
-Represents the format string for the TickLabels object.
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object.
 
 ```javascript
 get_NumberFormat() : string;
@@ -175,7 +336,7 @@ The formatting string is same as a custom format string setting to a cell. For e
 
 ### setNumberFormat(string) {#setNumberFormat-string-}
 
-Represents the format string for the TickLabels object.
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object.
 
 ```javascript
 setNumberFormat(value: string) : void;
@@ -192,7 +353,7 @@ The formatting string is same as a custom format string setting to a cell. For e
 
 ### getNumber() {#getNumber--}
 
-Represents the format number for the TickLabels object.
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the format number for the TickLabels object.
 
 ```javascript
 getNumber() : number;
@@ -201,7 +362,7 @@ getNumber() : number;
 
 ### setNumber(number) {#setNumber-number-}
 
-Represents the format number for the TickLabels object.
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the format number for the TickLabels object.
 
 ```javascript
 setNumber(value: number) : void;
@@ -214,7 +375,7 @@ setNumber(value: number) : void;
 
 ### getNumberFormatLinked() {#getNumberFormatLinked--}
 
-True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+<b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
 
 ```javascript
 getNumberFormatLinked() : boolean;
@@ -223,7 +384,7 @@ getNumberFormatLinked() : boolean;
 
 ### setNumberFormatLinked(boolean) {#setNumberFormatLinked-boolean-}
 
-True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+<b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
 
 ```javascript
 setNumberFormatLinked(value: boolean) : void;
@@ -236,7 +397,7 @@ setNumberFormatLinked(value: boolean) : void;
 
 ### getDisplayNumberFormat() {#getDisplayNumberFormat--}
 
-Gets and sets the display number format of tick labels.
+<b>@deprecated.</b> Please use the 'displayNumberFormat' property instead. Gets and sets the display number format of tick labels.
 
 ```javascript
 getDisplayNumberFormat() : string;
@@ -245,7 +406,7 @@ getDisplayNumberFormat() : string;
 
 ### getOffset() {#getOffset--}
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis.
 
 ```javascript
 getOffset() : number;
@@ -258,7 +419,7 @@ The default distance is 100 percent, which represents the default spacing betwee
 
 ### setOffset(number) {#setOffset-number-}
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis.
 
 ```javascript
 setOffset(value: number) : void;
@@ -275,7 +436,7 @@ The default distance is 100 percent, which represents the default spacing betwee
 
 ### getReadingOrder() {#getReadingOrder--}
 
-Represents text reading order.
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
 
 ```javascript
 getReadingOrder() : TextDirectionType;
@@ -288,7 +449,7 @@ getReadingOrder() : TextDirectionType;
 
 ### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
 
-Represents text reading order.
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
 
 ```javascript
 setReadingOrder(value: TextDirectionType) : void;
@@ -301,7 +462,7 @@ setReadingOrder(value: TextDirectionType) : void;
 
 ### getDirectionType() {#getDirectionType--}
 
-Gets and sets the direction of text.
+<b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text.
 
 ```javascript
 getDirectionType() : ChartTextDirectionType;
@@ -314,7 +475,7 @@ getDirectionType() : ChartTextDirectionType;
 
 ### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
 
-Gets and sets the direction of text.
+<b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text.
 
 ```javascript
 setDirectionType(value: ChartTextDirectionType) : void;
@@ -327,7 +488,7 @@ setDirectionType(value: ChartTextDirectionType) : void;
 
 ### getTickLabelItems() {#getTickLabelItems--}
 
-Gets the display tick labels of the axis.
+<b>@deprecated.</b> Please use the 'tickLabelItems' property instead. Gets the display tick labels of the axis.
 
 ```javascript
 getTickLabelItems() : TickLabelItem[];
@@ -344,7 +505,7 @@ Only available after calling [Chart.Calculate()](../chart.calculate()/) method.
 
 ### getAlignmentType() {#getAlignmentType--}
 
-Gets and sets the text alignment for the tick labels on the axis.
+<b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text alignment for the tick labels on the axis.
 
 ```javascript
 getAlignmentType() : TickLabelAlignmentType;
@@ -357,7 +518,7 @@ getAlignmentType() : TickLabelAlignmentType;
 
 ### setAlignmentType(TickLabelAlignmentType) {#setAlignmentType-ticklabelalignmenttype-}
 
-Gets and sets the text alignment for the tick labels on the axis.
+<b>@deprecated.</b> Please use the 'alignmentType' property instead. Gets and sets the text alignment for the tick labels on the axis.
 
 ```javascript
 setAlignmentType(value: TickLabelAlignmentType) : void;

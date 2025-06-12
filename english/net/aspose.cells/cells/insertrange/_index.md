@@ -23,16 +23,37 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 ### Examples
 
 ```csharp
-// Called: cells.InsertRange(area, 1, ShiftType.Right, true);
-private static void Cells_Method_InsertRange(Cells cells, int row)
-        {
+using System;
+using Aspose.Cells;
 
-            CellArea area = CellArea.CreateCellArea(row, 1, row + 1, 1);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodInsertRangeWithCellAreaInt32ShiftTypeBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate some sample data
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue(100);
+            cells["A3"].PutValue(200);
+
+            // Define the area to insert (rows 2-3, column A)
+            CellArea area = CellArea.CreateCellArea(1, 0, 2, 0);
+
+            // Insert range shifting cells right and update references
             cells.InsertRange(area, 1, ShiftType.Right, true);
-            Aspose.Cells.Range sourceRange = cells.CreateRange(row, 0, 2, 1);
-            Aspose.Cells.Range targetRange = cells.CreateRange(row, 1, 2, 1);
-            targetRange.Copy(sourceRange);
+
+            // Verify the operation by checking values
+            Console.WriteLine("A2 value after insert: " + cells["A2"].StringValue);
+            Console.WriteLine("B2 value after insert: " + cells["B2"].StringValue);
         }
+    }
+}
 ```
 
 ### See Also
@@ -61,26 +82,43 @@ public void InsertRange(CellArea area, ShiftType shiftType)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRange(cellarea, ShiftType.Down);
-public void Cells_Method_InsertRange()
-{
-    caseName = "testInsertRangeStyle_036";
-    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\testStyle.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellArea cellarea = common.setCellArea(1, 5, 2, 5);
-    cells.InsertRange(cellarea, ShiftType.Down);
+using System;
+using Aspose.Cells;
 
-    checkInsertRangeStyle_036(workbook);
-    workbook.Save(Constants.destPath + "testInsertRangeStyle.xls");
-    workbook = new Workbook(Constants.destPath + "testInsertRangeStyle.xls");
-    checkInsertRangeStyle_036(workbook);
-    workbook.Save(Constants.destPath + "testInsertRangeStyle.xlsx");
-    workbook = new Workbook(Constants.destPath + "testInsertRangeStyle.xlsx");
-    checkInsertRangeStyle_036(workbook);
-    workbook.Save(Constants.destPath + "testInsertRangeStyle.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testInsertRangeStyle.xml", new LoadOptions(LoadFormat.SpreadsheetML));
-    checkInsertRangeStyle_036(workbook);
-    workbook.Save(Constants.destPath + "testInsertRangeStyle.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodInsertRangeWithCellAreaShiftTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Fill some sample data
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 5; col++)
+                {
+                    cells[row, col].PutValue($"R{row}C{col}");
+                }
+            }
+
+            // Define the cell area to insert
+            CellArea area = new CellArea();
+            area.StartRow = 2;
+            area.EndRow = 4;
+            area.StartColumn = 1;
+            area.EndColumn = 3;
+
+            // Insert range and shift cells down
+            cells.InsertRange(area, ShiftType.Down);
+
+            // Save the workbook
+            workbook.Save("InsertRangeDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -111,25 +149,40 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets["Tables"].Cells.InsertRange(objCellArea, 1, ShiftType.Right);
-public void Cells_Method_InsertRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea objCellArea = new CellArea();
-
-    objCellArea.StartColumn = 1;
-
-    objCellArea.StartRow = 0;
-
-    objCellArea.EndColumn = 1;
-
-    objCellArea.EndRow = 0;
-
-
-    workbook.Worksheets["Tables"].Cells.InsertRange(objCellArea, 1, ShiftType.Right);
-
-
-    workbook.Worksheets["Tables"].AutoFitRow(0);
+    public class CellsMethodInsertRangeWithCellAreaInt32ShiftTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Original Data");
+            worksheet.Cells["B1"].PutValue(100);
+            worksheet.Cells["C1"].PutValue(200);
+            
+            // Define the cell area to insert (single cell B1)
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 0;
+            area.StartColumn = 1;
+            area.EndColumn = 1;
+            
+            // Insert range shifting cells right
+            worksheet.Cells.InsertRange(area, 1, ShiftType.Right);
+            
+            // Save the workbook
+            workbook.Save("InsertRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,16 +20,33 @@ Default is Pdf17.
 ### Examples
 
 ```csharp
-// Called: Compliance = Aspose.Cells.Rendering.PdfCompliance.PdfA1b
-public void PdfSaveOptions_Property_Compliance()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46510_";
-    var workbook = new Workbook(filePath + "example.xlsx");
-    var options = new Aspose.Cells.PdfSaveOptions
+    public class PdfSaveOptionsPropertyComplianceDemo
     {
-        Compliance = Aspose.Cells.Rendering.PdfCompliance.PdfA1b
-    };
-    workbook.Save(CreateFolder(filePath) + "out.pdf", options);
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test PDF Compliance");
+
+            // Set PDF save options with PDF/A-1b compliance
+            PdfSaveOptions options = new PdfSaveOptions
+            {
+                Compliance = PdfCompliance.PdfA1b
+            };
+
+            // Save the workbook as PDF with compliance settings
+            workbook.Save("output.pdf", options);
+            
+            Console.WriteLine("PDF saved with PDF/A-1b compliance.");
+        }
+    }
 }
 ```
 

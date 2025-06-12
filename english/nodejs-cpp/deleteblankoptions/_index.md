@@ -17,32 +17,45 @@ class DeleteBlankOptions extends DeleteOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(DeleteOptions)](#constructor-deleteoptions-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [emptyStringAsBlank](#emptyStringAsBlank--)| boolean | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [emptyFormulaValueAsBlank](#emptyFormulaValueAsBlank--)| boolean | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
+| [drawingsAsBlank](#drawingsAsBlank--)| boolean | Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
+| [mergedCellsShrinkType](#mergedCellsShrinkType--)| MergedCellsShrinkType | Indicates how to process merged cells when deleting blank rows/columns. |
+| [startIndex](#startIndex--)| number | Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [endIndex](#endIndex--)| number | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
+| [updateReference](#updateReference--)| boolean | Indicates if update references in other worksheets. |
+| [formulaChangeMonitor](#formulaChangeMonitor--)| AbstractFormulaChangeMonitor | Gets/sets the monitor for tracking changes caused by the deletion. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getEmptyStringAsBlank()](#getEmptyStringAsBlank--)| Whether one cell will be taken as blank when its value is empty string. Default value is true. |
-| [setEmptyStringAsBlank(boolean)](#setEmptyStringAsBlank-boolean-)| Whether one cell will be taken as blank when its value is empty string. Default value is true. |
-| [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--)| Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
-| [setEmptyFormulaValueAsBlank(boolean)](#setEmptyFormulaValueAsBlank-boolean-)| Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
-| [getDrawingsAsBlank()](#getDrawingsAsBlank--)| Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
-| [setDrawingsAsBlank(boolean)](#setDrawingsAsBlank-boolean-)| Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
-| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--)| Indicates how to process merged cells when deleting blank rows/columns. |
-| [setMergedCellsShrinkType(MergedCellsShrinkType)](#setMergedCellsShrinkType-mergedcellsshrinktype-)| Indicates how to process merged cells when deleting blank rows/columns. |
-| [getStartIndex()](#getStartIndex--)| Specifies the start row/column index of the range to check and delete blank rows/columns. |
-| [setStartIndex(number)](#setStartIndex-number-)| Specifies the start row/column index of the range to check and delete blank rows/columns. |
-| [getEndIndex()](#getEndIndex--)| Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
-| [setEndIndex(number)](#setEndIndex-number-)| Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
+| [getEmptyStringAsBlank()](#getEmptyStringAsBlank--)| <b>@deprecated.</b> Please use the 'emptyStringAsBlank' property instead. Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [setEmptyStringAsBlank(boolean)](#setEmptyStringAsBlank-boolean-)| <b>@deprecated.</b> Please use the 'emptyStringAsBlank' property instead. Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--)| <b>@deprecated.</b> Please use the 'emptyFormulaValueAsBlank' property instead. Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
+| [setEmptyFormulaValueAsBlank(boolean)](#setEmptyFormulaValueAsBlank-boolean-)| <b>@deprecated.</b> Please use the 'emptyFormulaValueAsBlank' property instead. Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
+| [getDrawingsAsBlank()](#getDrawingsAsBlank--)| <b>@deprecated.</b> Please use the 'drawingsAsBlank' property instead. Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
+| [setDrawingsAsBlank(boolean)](#setDrawingsAsBlank-boolean-)| <b>@deprecated.</b> Please use the 'drawingsAsBlank' property instead. Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
+| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--)| <b>@deprecated.</b> Please use the 'mergedCellsShrinkType' property instead. Indicates how to process merged cells when deleting blank rows/columns. |
+| [setMergedCellsShrinkType(MergedCellsShrinkType)](#setMergedCellsShrinkType-mergedcellsshrinktype-)| <b>@deprecated.</b> Please use the 'mergedCellsShrinkType' property instead. Indicates how to process merged cells when deleting blank rows/columns. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [setStartIndex(number)](#setStartIndex-number-)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [getEndIndex()](#getEndIndex--)| <b>@deprecated.</b> Please use the 'endIndex' property instead. Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
+| [setEndIndex(number)](#setEndIndex-number-)| <b>@deprecated.</b> Please use the 'endIndex' property instead. Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getUpdateReference()](#getUpdateReference--)| Indicates if update references in other worksheets. |
-| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if update references in other worksheets. |
-| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| Gets/sets the monitor for tracking changes caused by the deletion. |
-| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| Gets/sets the monitor for tracking changes caused by the deletion. |
+| [getUpdateReference()](#getUpdateReference--)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets. |
+| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion. |
 
 
 ### constructor(DeleteOptions) {#constructor-deleteoptions-}
@@ -67,9 +80,93 @@ constructor();
 ```
 
 
-### getEmptyStringAsBlank() {#getEmptyStringAsBlank--}
+### emptyStringAsBlank {#emptyStringAsBlank--}
 
 Whether one cell will be taken as blank when its value is empty string. Default value is true.
+
+```javascript
+emptyStringAsBlank : boolean;
+```
+
+
+### emptyFormulaValueAsBlank {#emptyFormulaValueAsBlank--}
+
+Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+
+```javascript
+emptyFormulaValueAsBlank : boolean;
+```
+
+
+**Remarks**
+
+Generally user should make sure the formulas have been calculated before deleting operation with this property as true. Otherwise all newly cretaed formulas by normal apis such as [Cell.Formula](../cell.formula/) will be taken as blank and may be deleted because before calculation their calculated results are all null.
+
+### drawingsAsBlank {#drawingsAsBlank--}
+
+Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+
+```javascript
+drawingsAsBlank : boolean;
+```
+
+
+**Remarks**
+
+When setting this property as false, all rows/columns covered by drawing objects will not be taken as blank and will not be deleted.
+
+### mergedCellsShrinkType {#mergedCellsShrinkType--}
+
+Indicates how to process merged cells when deleting blank rows/columns.
+
+```javascript
+mergedCellsShrinkType : MergedCellsShrinkType;
+```
+
+
+**Remarks**
+
+For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br
+
+### startIndex {#startIndex--}
+
+Specifies the start row/column index of the range to check and delete blank rows/columns.
+
+```javascript
+startIndex : number;
+```
+
+
+### endIndex {#endIndex--}
+
+Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
+
+```javascript
+endIndex : number;
+```
+
+
+### updateReference {#updateReference--}
+
+Indicates if update references in other worksheets.
+
+```javascript
+updateReference : boolean;
+```
+
+
+### formulaChangeMonitor {#formulaChangeMonitor--}
+
+Gets/sets the monitor for tracking changes caused by the deletion.
+
+```javascript
+formulaChangeMonitor : AbstractFormulaChangeMonitor;
+```
+
+
+### getEmptyStringAsBlank() {#getEmptyStringAsBlank--}
+
+<b>@deprecated.</b> Please use the 'emptyStringAsBlank' property instead. Whether one cell will be taken as blank when its value is empty string. Default value is true.
 
 ```javascript
 getEmptyStringAsBlank() : boolean;
@@ -78,7 +175,7 @@ getEmptyStringAsBlank() : boolean;
 
 ### setEmptyStringAsBlank(boolean) {#setEmptyStringAsBlank-boolean-}
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+<b>@deprecated.</b> Please use the 'emptyStringAsBlank' property instead. Whether one cell will be taken as blank when its value is empty string. Default value is true.
 
 ```javascript
 setEmptyStringAsBlank(value: boolean) : void;
@@ -91,7 +188,7 @@ setEmptyStringAsBlank(value: boolean) : void;
 
 ### getEmptyFormulaValueAsBlank() {#getEmptyFormulaValueAsBlank--}
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+<b>@deprecated.</b> Please use the 'emptyFormulaValueAsBlank' property instead. Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
 
 ```javascript
 getEmptyFormulaValueAsBlank() : boolean;
@@ -104,7 +201,7 @@ Generally user should make sure the formulas have been calculated before deletin
 
 ### setEmptyFormulaValueAsBlank(boolean) {#setEmptyFormulaValueAsBlank-boolean-}
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+<b>@deprecated.</b> Please use the 'emptyFormulaValueAsBlank' property instead. Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
 
 ```javascript
 setEmptyFormulaValueAsBlank(value: boolean) : void;
@@ -121,7 +218,7 @@ Generally user should make sure the formulas have been calculated before deletin
 
 ### getDrawingsAsBlank() {#getDrawingsAsBlank--}
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+<b>@deprecated.</b> Please use the 'drawingsAsBlank' property instead. Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 ```javascript
 getDrawingsAsBlank() : boolean;
@@ -134,7 +231,7 @@ When setting this property as false, all rows/columns covered by drawing objects
 
 ### setDrawingsAsBlank(boolean) {#setDrawingsAsBlank-boolean-}
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+<b>@deprecated.</b> Please use the 'drawingsAsBlank' property instead. Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 ```javascript
 setDrawingsAsBlank(value: boolean) : void;
@@ -151,7 +248,7 @@ When setting this property as false, all rows/columns covered by drawing objects
 
 ### getMergedCellsShrinkType() {#getMergedCellsShrinkType--}
 
-Indicates how to process merged cells when deleting blank rows/columns.
+<b>@deprecated.</b> Please use the 'mergedCellsShrinkType' property instead. Indicates how to process merged cells when deleting blank rows/columns.
 
 ```javascript
 getMergedCellsShrinkType() : MergedCellsShrinkType;
@@ -168,7 +265,7 @@ For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderon
 
 ### setMergedCellsShrinkType(MergedCellsShrinkType) {#setMergedCellsShrinkType-mergedcellsshrinktype-}
 
-Indicates how to process merged cells when deleting blank rows/columns.
+<b>@deprecated.</b> Please use the 'mergedCellsShrinkType' property instead. Indicates how to process merged cells when deleting blank rows/columns.
 
 ```javascript
 setMergedCellsShrinkType(value: MergedCellsShrinkType) : void;
@@ -185,7 +282,7 @@ For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderon
 
 ### getStartIndex() {#getStartIndex--}
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Specifies the start row/column index of the range to check and delete blank rows/columns.
 
 ```javascript
 getStartIndex() : number;
@@ -194,7 +291,7 @@ getStartIndex() : number;
 
 ### setStartIndex(number) {#setStartIndex-number-}
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Specifies the start row/column index of the range to check and delete blank rows/columns.
 
 ```javascript
 setStartIndex(value: number) : void;
@@ -207,7 +304,7 @@ setStartIndex(value: number) : void;
 
 ### getEndIndex() {#getEndIndex--}
 
-Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
+<b>@deprecated.</b> Please use the 'endIndex' property instead. Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
 
 ```javascript
 getEndIndex() : number;
@@ -216,7 +313,7 @@ getEndIndex() : number;
 
 ### setEndIndex(number) {#setEndIndex-number-}
 
-Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
+<b>@deprecated.</b> Please use the 'endIndex' property instead. Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
 
 ```javascript
 setEndIndex(value: number) : void;
@@ -238,7 +335,7 @@ isNull() : boolean;
 
 ### getUpdateReference() {#getUpdateReference--}
 
-Indicates if update references in other worksheets.
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets.
 
 ```javascript
 getUpdateReference() : boolean;
@@ -247,7 +344,7 @@ getUpdateReference() : boolean;
 
 ### setUpdateReference(boolean) {#setUpdateReference-boolean-}
 
-Indicates if update references in other worksheets.
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets.
 
 ```javascript
 setUpdateReference(value: boolean) : void;
@@ -260,7 +357,7 @@ setUpdateReference(value: boolean) : void;
 
 ### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
 
-Gets/sets the monitor for tracking changes caused by the deletion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion.
 
 ```javascript
 getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
@@ -273,7 +370,7 @@ getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
 
 ### setFormulaChangeMonitor(AbstractFormulaChangeMonitor) {#setFormulaChangeMonitor-abstractformulachangemonitor-}
 
-Gets/sets the monitor for tracking changes caused by the deletion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the deletion.
 
 ```javascript
 setFormulaChangeMonitor(value: AbstractFormulaChangeMonitor) : void;

@@ -16,24 +16,51 @@ public override bool IsTextWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(labels.IsTextWrapped, false);
-public void DataLabels_Property_IsTextWrapped()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "FlexAnalysisReport+-+Unwrapped.xlsx");
-    DataLabels labels = workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels;
-    Assert.AreEqual(labels.IsTextWrapped, false);
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.NSeries[0].DataLabels.IsTextWrapped = false;
-    chart.NSeries[1].DataLabels.IsTextWrapped = false;
-    chart.NSeries[2].DataLabels.IsTextWrapped = false;
-    Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
-    Assert.AreEqual(chart.NSeries[1].DataLabels.IsTextWrapped, false);
-    Assert.AreEqual(chart.NSeries[2].DataLabels.IsTextWrapped, false);
+    public class DataLabelsPropertyIsTextWrappedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(120);
+            worksheet.Cells["B3"].PutValue(85);
+            worksheet.Cells["B4"].PutValue(65);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Access data labels
+            Aspose.Cells.Charts.DataLabels labels = chart.NSeries[0].DataLabels;
+            
+            // Show data labels
+            labels.ShowValue = true;
+            
+            // Demonstrate IsTextWrapped property
+            Console.WriteLine("Before setting IsTextWrapped: " + labels.IsTextWrapped);
+            labels.IsTextWrapped = true;
+            Console.WriteLine("After setting IsTextWrapped: " + labels.IsTextWrapped);
+
+            // Save the workbook
+            workbook.Save("DataLabels_IsTextWrapped_Demo.xlsx");
+        }
+    }
 }
 ```
 

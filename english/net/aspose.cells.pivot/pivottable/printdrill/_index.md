@@ -16,85 +16,53 @@ public bool PrintDrill { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.PrintDrill = false;
-public void PivotTable_Property_PrintDrill()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET45040_";
-
-    //License lic = new License();
-    //lic.SetLicense("Aspose.Total.lic");
-    Workbook workbook = new Workbook(filePath + @"template.xlsm");
-
-    Worksheet selectedSheet = workbook.Worksheets["Data"];
-    DataTable dt = new DataTable();
-    dt.ReadXml(filePath + @"example.xml");
-    if (dt.Rows.Count > 0) selectedSheet.Cells.ImportData(dt, 1, 0, new ImportTableOptions() { IsFieldNameShown = false });
-    string pivotFormula = "='Data'!A1:EP2806";
-
-    selectedSheet = workbook.Worksheets["Exposure"];
-    workbook.Worksheets.ActiveSheetIndex = selectedSheet.Index;
-    int iIndex = selectedSheet.PivotTables.Add(pivotFormula, "A7", "IRIS007_pivot");
-    PivotTable pivotTable = selectedSheet.PivotTables[iIndex];
-    pivotTable.PivotTableStyleType = PivotTableStyleType.None;
-    pivotTable.PreserveFormatting = true;
-    pivotTable.ManualUpdate = true;
-    pivotTable.IsAutoFormat = false;
-    pivotTable.RefreshDataOnOpeningFile = false; // important for the bug
-    pivotTable.MergeLabels = false;
-    pivotTable.AutoFormatType = PivotTableAutoFormatType.None;
-    pivotTable.PrintDrill = false;
-    pivotTable.ShowDrill = false;
-    Action<PivotField> setFieldSetting = (s) =>
+    public class PivotTablePropertyPrintDrillDemo
     {
-        s.ShowCompact = false;
-        s.IsRepeatItemLabels = false;
-        s.InsertBlankRow = false;
-        s.ShowAllItems = false;
-        s.ShowSubtotalAtTop = false;
-        s.ShowInOutlineForm = false;
-    };
-    iIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, "Expo Date Code");
-    PivotField selectedField = pivotTable.ColumnFields[iIndex];
-    selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-    selectedField.ShowAllItems = true;
-
-    Action<PivotField> hideEmpty = (s) =>
-    {
-        string[] items = s.Items;
-        for (int iItems = 0; iItems < s.ItemCount; iItems++)
+        public static void Run()
         {
-            if (String.IsNullOrWhiteSpace(items[iItems])) s.HideItem(iItems, true);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            var cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "Bikes";
+            cells["B2"].Value = 1000;
+            cells["A3"].Value = "Cars";
+            cells["B3"].Value = 2000;
+            cells["A4"].Value = "Bikes";
+            cells["B4"].Value = 1500;
+            cells["A5"].Value = "Cars";
+            cells["B5"].Value = 2500;
+
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Demonstrate PrintDrill property
+            pivotTable.PrintDrill = false; // Disable printing drill indicators
+            pivotTable.ShowDrill = true;   // Show drill indicators on screen
+            
+            // Refresh and calculate pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotTablePrintDrillDemo.xlsx");
         }
-    };
-    Action<string> addRow = (cell) =>
-    {
-        iIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, cell);
-        selectedField = pivotTable.RowFields[iIndex];
-        selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-        selectedField.IsAutoSort = true;
-        selectedField.IsAscendSort = true;
-        setFieldSetting(selectedField);
-    };
-    addRow("Product");
-    addRow("Series name");
-    addRow("Synth Trade Type");
-    addRow("Hedge");
-    addRow("Hedge Name");
-    addRow("Event Date");
-    addRow("Event Status");
-
-    iIndex = pivotTable.AddFieldToArea(PivotFieldType.Data, "Expo qty");
-    selectedField = pivotTable.DataFields[iIndex];
-    selectedField.Function = ConsolidationFunction.Sum;
-    selectedField.DisplayName = "Qty";
-    selectedField.NumberFormat = "#,##0;[Red]-#,##0";
-
-    pivotTable.RefreshData();
-    pivotTable.CalculateRange();
-    pivotTable.CalculateData();
-    selectedSheet.AutoFitColumns();
-    Assert.AreEqual(selectedSheet.Cells["D11"].StringValue, "2018285");
-    workbook.Save(CreateFolder(filePath) + @"out.xlsx");
+    }
 }
 ```
 

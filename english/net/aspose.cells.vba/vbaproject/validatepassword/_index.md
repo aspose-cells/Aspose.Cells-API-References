@@ -24,12 +24,25 @@ Whether password is the protection password of this VBA project
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
-public void VbaProject_Method_ValidatePassword()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
+    public class VbaProjectMethodValidatePasswordWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create workbook object from sample Excel file with VBA project
+            Workbook workbook = new Workbook("example.xlsm");
             
+            // Validate the VBA project password
+            bool isValid = workbook.VbaProject.ValidatePassword("test");
+            
+            // Output the validation result
+            Console.WriteLine("Password validation result: " + isValid);
+        }
+    }
 }
 ```
 

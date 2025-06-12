@@ -23,8 +23,34 @@ public class JsonConverter
 ### Examples
 
 ```csharp
-[C#]
-JsonConverter.Process("data.json", "res.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeClassJsonConverterDemo
+    {
+        public static void Run()
+        {
+            string jsonFilePath = "data.json";
+            string excelFilePath = "res.xlsx";
+
+            try
+            {
+                // Convert JSON to Excel using Aspose.Cells.LowCode.JsonConverter
+                JsonConverter.Process(jsonFilePath, excelFilePath);
+
+                Console.WriteLine("Conversion completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during conversion: {ex.Message}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

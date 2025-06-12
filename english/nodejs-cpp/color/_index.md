@@ -12,7 +12,7 @@ Represents an ARGB (alpha, red, green, blue) color.
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 | [constructor(number, number, number)](#constructor-number-number-number-)| Constructs a Color object from the specified 8-bit color values (red, green, and blue). |
@@ -21,12 +21,12 @@ Represents an ARGB (alpha, red, green, blue) color.
 
 ## Properties
 
-| Name | Description |
-| --- | --- |
-| a | Gets or sets the alpha component value of this Color class. |
-| r | Gets or sets the red component value of this Color class. |
-| g | Gets or sets the green component value of this Color class. |
-| b | Gets or sets the blue component value of this Color class. |
+| Property | Type | Description |
+| --- | --- | --- |
+| a | number | Gets or sets the alpha component value of this Color class. |
+| r | number | Gets or sets the red component value of this Color class. |
+| g | number | Gets or sets the green component value of this Color class. |
+| b | number | Gets or sets the blue component value of this Color class. |
 
 ## Methods
 

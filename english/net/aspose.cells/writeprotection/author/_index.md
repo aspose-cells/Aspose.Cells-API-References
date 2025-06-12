@@ -16,40 +16,30 @@ public string Author { get; set; }
 ### Examples
 
 ```csharp
-// Called: writeProtection.Author = "John Doe";
-public static void WriteProtection_Property_Author()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WriteProtectionPropertyAuthorDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Access the workbook's settings
             WorkbookSettings settings = workbook.Settings;
-
-            // Access the write protection settings
             WriteProtection writeProtection = settings.WriteProtection;
 
-            // Set the author of the write protection
+            // Demonstrate Author property usage
             writeProtection.Author = "John Doe";
-
-            // Set the password for write protection
             writeProtection.Password = "password123";
+            
+            Console.WriteLine("Write protection author: " + writeProtection.Author);
+            Console.WriteLine("Is write protected: " + writeProtection.IsWriteProtected);
 
-            // Set the recommend read-only option
-            writeProtection.RecommendReadOnly = true;
-
-            // Check if the workbook is write protected
-            bool isWriteProtected = writeProtection.IsWriteProtected;
-            Console.WriteLine("Is Write Protected: " + isWriteProtected);
-
-            // Validate the password
-            bool isValidPassword = writeProtection.ValidatePassword("password123");
-            Console.WriteLine("Is Valid Password: " + isValidPassword);
-
-            // Save the workbook
-            workbook.Save("WriteProtectionExample.xlsx");
-
-            return;
+            workbook.Save("WriteProtectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

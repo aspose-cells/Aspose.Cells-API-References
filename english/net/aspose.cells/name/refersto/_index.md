@@ -16,12 +16,34 @@ public string RefersTo { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=工作表1!$C:$D", book.Worksheets.Names[1].RefersTo);
-public void Name_Property_RefersTo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook(Constants.sourcePath + "example.ods");
-    Assert.AreEqual("=工作表1!$6:$8", book.Worksheets.Names[0].RefersTo);
-    Assert.AreEqual("=工作表1!$C:$D", book.Worksheets.Names[1].RefersTo);
+    public class NamePropertyRefersToDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Name = "Sheet1";
+
+            // Add named ranges with RefersTo
+            int index1 = workbook.Worksheets.Names.Add("NamedRange1");
+            workbook.Worksheets.Names[index1].RefersTo = "=Sheet1!$6:$8";
+            
+            int index2 = workbook.Worksheets.Names.Add("NamedRange2");
+            workbook.Worksheets.Names[index2].RefersTo = "=Sheet1!$C:$D";
+
+            // Display RefersTo property of named ranges
+            Console.WriteLine("NamedRange1 RefersTo: " + workbook.Worksheets.Names[0].RefersTo);
+            Console.WriteLine("NamedRange2 RefersTo: " + workbook.Worksheets.Names[1].RefersTo);
+        }
+    }
 }
 ```
 

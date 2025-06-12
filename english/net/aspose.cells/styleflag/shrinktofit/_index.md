@@ -16,56 +16,43 @@ public bool ShrinkToFit { get; set; }
 ### Examples
 
 ```csharp
-// Called: flagDataRange.ShrinkToFit = true;
-public void StyleFlag_Property_ShrinkToFit()
-{
-    Workbook workbook = new Workbook();
-    Color color = Color.FromArgb(255, 250, 223);
-    workbook.ChangePalette(color, 55);
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    int rows = 10000;
-    int numberOfColumns = 200;
-    //Fill Data in 10000 * 200 matrix.
-    for (int i = 0; i <= rows; i++)
-    {
-        for (int j = 0; j <= numberOfColumns; j++)
-        {
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            cells[i, j].PutValue(i.ToString() + "," + j.ToString());
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyShrinkToFitDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set sample data in a cell
+            cells["A1"].PutValue("This is a long text that needs to fit in the cell");
+            
+            // Create a style with ShrinkToFit enabled
+            Style style = workbook.CreateStyle();
+            style.ShrinkToFit = true;
+            
+            // Create style flag and enable ShrinkToFit flag
+            StyleFlag flag = new StyleFlag();
+            flag.ShrinkToFit = true;
+            
+            // Apply the style to the cell range (explicitly using Aspose.Cells.Range)
+            Aspose.Cells.Range range = cells.CreateRange("A1");
+            range.ApplyStyle(style, flag);
+            
+            // Set column width to demonstrate shrinking
+            worksheet.Cells.SetColumnWidth(0, 10);
+            
+            // Save the workbook
+            workbook.Save("ShrinkToFitDemo.xlsx");
         }
     }
-
-    //Apply to range style.
-    Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-    objRangeData.Name = "DataRange";
-    Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-    StyleDataRange.Font.Name = "Arial";
-    StyleDataRange.Font.Size = 8;
-    StyleDataRange.Font.Color = System.Drawing.Color.Black;
-    StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
-    StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
-    StyleDataRange.Pattern = BackgroundType.Solid;
-
-    //Define a style flag struct.
-    StyleFlag flagDataRange = new StyleFlag();
-    flagDataRange.CellShading = true;
-    flagDataRange.FontName = true;
-    flagDataRange.FontSize = true;
-    flagDataRange.FontColor = true;
-    flagDataRange.HorizontalAlignment = true;
-    flagDataRange.Borders = true;
-    flagDataRange.ShrinkToFit = true;
-    flagDataRange.WrapText = true;
-
-    objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
-    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions(SaveFormat.Csv);
-    saveOptions.CachedFileFolder = Constants.destPath;
-    workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
 }
 ```
 

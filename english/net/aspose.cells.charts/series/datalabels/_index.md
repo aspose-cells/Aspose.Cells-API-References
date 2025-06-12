@@ -16,28 +16,48 @@ public DataLabels DataLabels { get; }
 ### Examples
 
 ```csharp
-// Called: series.DataLabels.LinkedSource = null; // LinkedSource was null already before this.
-public void Series_Property_DataLabels()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook();
-    Worksheet chartSheet = workbook.Worksheets[workbook.Worksheets.Add(SheetType.Chart)];
-    Worksheet ws = workbook.Worksheets[0];
-    ws.Cells["A1"].PutValue("Products");
-    ws.Cells["B1"].PutValue("Users");
-    ws.Cells["A2"].PutValue("Aspose.Cells");
-    ws.Cells["B2"].PutValue(10000);
-    ws.Cells["A3"].PutValue("Aspose.Slides");
-    ws.Cells["B3"].PutValue(8000);
-    ws.Cells["A4"].PutValue("Aspose.Words");
-    ws.Cells["B4"].PutValue(12000);
+    public class SeriesPropertyDataLabelsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add sample data
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Cells["A1"].PutValue("Products");
+            dataSheet.Cells["B1"].PutValue("Users");
+            dataSheet.Cells["A2"].PutValue("Aspose.Cells");
+            dataSheet.Cells["B2"].PutValue(10000);
+            dataSheet.Cells["A3"].PutValue("Aspose.Slides");
+            dataSheet.Cells["B3"].PutValue(8000);
+            dataSheet.Cells["A4"].PutValue("Aspose.Words");
+            dataSheet.Cells["B4"].PutValue(12000);
 
-    Chart chart = chartSheet.Charts[chartSheet.Charts.Add(ChartType.Pie, 7, 0, 20, 6)];
+            // Add a chart sheet and create a pie chart
+            Worksheet chartSheet = workbook.Worksheets[workbook.Worksheets.Add(SheetType.Chart)];
+            Chart chart = chartSheet.Charts[chartSheet.Charts.Add(ChartType.Pie, 7, 0, 20, 6)];
 
-    Series series = chart.NSeries[chart.NSeries.Add("=Sheet1!$B$2:$B$4", true)];
-    series.XValues = "=Sheet1!$A$2:$A$4";
+            // Add series data and configure data labels
+            Series series = chart.NSeries[chart.NSeries.Add("=Sheet1!$B$2:$B$4", true)];
+            series.XValues = "=Sheet1!$A$2:$A$4";
+            
+            // Configure DataLabels properties
+            series.DataLabels.ShowValue = true;
+            series.DataLabels.ShowCategoryName = true;
+            series.DataLabels.ShowPercentage = true;
+            series.DataLabels.LinkedSource = null; // Explicitly set to null
 
-    series.DataLabels.LinkedSource = null; // LinkedSource was null already before this. 
-    Util.ReSave(workbook, SaveFormat.Xlsx); //here should not give exception when openning the resaved xlsx
+            // Save the workbook
+            workbook.Save("SeriesPropertyDataLabelsDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

@@ -16,64 +16,36 @@ public bool AutoLoad { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook2.Worksheets[0].OleObjects[oleNumber].AutoLoad = true;
-public void OleObject_Property_AutoLoad()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-
-    int upperLeftRow = 0;
-    int upperLeftColumn = 0;
-    int height = 0;
-    int width = 0;
-    byte[] imageData = null;
-    int x = 0;
-    int y = 0;
-    byte[] objData = null;
-    string progID = "";
-    string sourceFullName = "";
-    FileFormatType fileFormatType = FileFormatType.Unknown;
-
-
-    foreach (Worksheet sheet in workbook.Worksheets)
+    public class OleObjectPropertyAutoLoadDemo
     {
-        for (int i = sheet.OleObjects.Count - 1; i >= 0; --i)
+        public static void Run()
         {
-            OleObject frame = sheet.OleObjects[i];
-            if (frame == null)
-            {
-                continue;
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            upperLeftRow = frame.UpperLeftRow;
-            upperLeftColumn = frame.UpperLeftColumn;
-            height = frame.Height;
-            width = frame.Width;
-            imageData = frame.ImageData;
-            x = frame.X;
-            y = frame.Y;
-            objData = frame.ObjectData;
-            progID = frame.ProgID;
-            fileFormatType = frame.FileFormatType;
-            sourceFullName = frame.ObjectSourceFullName;
-            fileFormatType = frame.FileFormatType;
-            sheet.OleObjects.RemoveAt(i);
+            // Add an OleObject to the worksheet
+            int oleNumber = sheet.OleObjects.Add(10, 10, 200, 200, new byte[0]);
+            
+            // Set OleObject properties
+            OleObject ole = sheet.OleObjects[oleNumber];
+            ole.ProgID = "Excel.Sheet";
+            ole.ObjectData = new byte[0];
+            
+            // Demonstrate AutoLoad property
+            ole.AutoLoad = true; // Automatically load the OleObject when the workbook opens
+            
+            // Save the workbook
+            workbook.Save("OleObjectAutoLoadDemo.xlsx");
         }
     }
-
-    workbook.Save(Constants.destPath + "example.xls");
-    Workbook workbook2 = new Workbook(Constants.destPath + "example.xls");
-    int oleNumber = workbook2.Worksheets[0].OleObjects.Add(upperLeftRow, upperLeftColumn, height, width, imageData);
-    workbook2.Worksheets[0].OleObjects[oleNumber].X = x;
-    workbook2.Worksheets[0].OleObjects[oleNumber].Y = y;
-    workbook2.Worksheets[0].OleObjects[oleNumber].ObjectData = objData;
-    workbook2.Worksheets[0].OleObjects[oleNumber].ProgID = progID;
-    workbook2.Worksheets[0].OleObjects[oleNumber].FileFormatType = fileFormatType;
-    workbook2.Worksheets[0].OleObjects[oleNumber].ObjectSourceFullName = sourceFullName;
-
-    var fillFormat = workbook2.Worksheets[0].OleObjects[oleNumber].FillFormat;
-    fillFormat.ForeColor = Color.White;
-    workbook2.Worksheets[0].OleObjects[oleNumber].AutoLoad = true;
-    workbook2.Save(Constants.destPath + "example.xls"); 
 }
 ```
 

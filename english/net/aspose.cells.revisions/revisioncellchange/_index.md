@@ -35,60 +35,63 @@ public class RevisionCellChange : Revision
 ### Examples
 
 ```csharp
-// Called: RevisionCellChange rcc = (RevisionCellChange)rv;
-private void Revisions_Type_RevisionCellChange(string file)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
+{
+    public class RevisionsClassRevisionCellChangeDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(file);
-            foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)
+            // Create output directory if it doesn't exist
+            string outputDir = "output/";
+            System.IO.Directory.CreateDirectory(outputDir);
+            
+            string filePath = outputDir + "RevisionsClassRevisionCellChangeDemo_out.xlsx";
+
+            // Create initial workbook and enable sharing
+            Workbook workbook = new Workbook();
+            workbook.Settings.Shared = true;
+            workbook.Save(filePath, SaveFormat.Xlsx);
+
+            // Reopen workbook to make tracked changes
+            Workbook workbook2 = new Workbook(filePath);
+            Worksheet sheet = workbook2.Worksheets[0];
+            
+            // First revision: Set initial values
+            sheet.Cells["A1"].PutValue("Initial Value");
+            sheet.Cells["B2"].PutValue(100);
+            workbook2.Save(filePath, SaveFormat.Xlsx);
+            
+            // Second revision: Modify values
+            sheet.Cells["A1"].PutValue("Updated Value");
+            sheet.Cells["B2"].PutValue(200);
+            workbook2.Save(filePath, SaveFormat.Xlsx);
+
+            // Load workbook to access revision logs
+            Workbook workbook3 = new Workbook(filePath);
+            
+            // Process all revision logs
+            foreach (RevisionLog log in workbook3.Worksheets.RevisionLogs)
             {
-                RevisionCollection rvs = log.Revisions;
-                foreach (Revision rv in rvs)
+                foreach (Revision rev in log.Revisions)
                 {
-                    switch (rv.Type)
+                    if (rev.Type == RevisionType.ChangeCells)
                     {
-
-                        case RevisionType.InsertDelete:
-                            RevisionInsertDelete rrc = (RevisionInsertDelete)rv;
-                            Console.WriteLine(string.Format("ActionType :{0}; newArea : {1}.", rrc.ActionType, rrc.CellArea));
-                            Console.WriteLine(rrc.CellArea);
-                            break;
-                        case RevisionType.ChangeCells:
-                            RevisionCellChange rcc = (RevisionCellChange)rv;
-                            string str = string.Format("CellName :{0}; OldValue : {1} ;NewOld : {2}.", rcc.CellName, rcc.OldValue, rcc.NewValue);
-                            Console.WriteLine(str);
-                            break;
-                        case RevisionType.MoveCells:
-                            RevisionCellMove rm = (RevisionCellMove)rv;
-                            Console.WriteLine(string.Format("SourceArea :{0}; newArea : {1}.", rm.SourceArea, rm.DestinationArea));
-                            break;
-                        case RevisionType.CustomView:
-                            RevisionCustomView rcv = (RevisionCustomView)rv;
-                            Console.WriteLine(string.Format("ActionType :{0}; guid : {1}.", rcv.ActionType, rcv.Guid));
-                            break;
-                        case RevisionType.Format:
-                            RevisionFormat rfmt = (RevisionFormat)rv;
-                            Console.WriteLine(string.Format("worksheet :{0}; area : {1}.", rfmt.Worksheet.Name, rfmt.Areas[0]));
-                            break;
-                        case RevisionType.InsertSheet:
-                            RevisionInsertSheet ris = (RevisionInsertSheet)rv;
-                            Console.WriteLine(string.Format("newsheet :{0}; sheetPosition : {1}.", ris.Name, ris.SheetPosition));
-                            break;
-                        case RevisionType.DefinedName:
-                            RevisionDefinedName rdn = (RevisionDefinedName)rv;
-                            Console.WriteLine(string.Format("Test :{0}; oldFormula :{1};  newformula : {2}.", rdn.Text, rdn.OldFormula, rdn.NewFormula));
-
-                            break;
-                        case RevisionType.RenameSheet:
-                            RevisionRenameSheet rsnm = (RevisionRenameSheet)rv;
-                            Console.WriteLine(string.Format("OldName :{0}; newName :{1}.", rsnm.OldName, rsnm.NewName));
-                            break;
-                        default:
-                            Console.WriteLine(rv.Type);
-                            break;
+                        RevisionCellChange rcc = (RevisionCellChange)rev;
+                        Console.WriteLine($"Revision Type: {rev.Type}");
+                        Console.WriteLine($"Cell: {rcc.CellName} (Row: {rcc.Row}, Column: {rcc.Column})");
+                        Console.WriteLine($"Old Value: {rcc.OldValue ?? "null"}");
+                        Console.WriteLine($"New Value: {rcc.NewValue ?? "null"}");
+                        Console.WriteLine("------------------------------------");
                     }
                 }
             }
         }
+    }
+}
 ```
 
 ### See Also

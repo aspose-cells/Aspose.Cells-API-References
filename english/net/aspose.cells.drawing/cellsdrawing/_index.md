@@ -154,14 +154,12 @@ public class CellsDrawing : Shape
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System;
 using System.IO;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class CellsDrawingDemo
     {

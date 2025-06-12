@@ -35,10 +35,26 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Adds a AutoShape to the worksheet.
-Shape autoShape = shapes.AddAutoShape(AutoShapeType.Cube, 1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddAutoShapeWithAutoShapeTypeInt32Int32Int32InDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ShapeCollection shapes = worksheet.Shapes;
+            Shape autoShape = shapes.AddAutoShape(AutoShapeType.Cube, 1, 0, 1, 0, 100, 50);
+            
+            workbook.Save("AutoShapeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

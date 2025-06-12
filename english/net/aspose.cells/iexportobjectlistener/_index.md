@@ -21,51 +21,63 @@ public interface IExportObjectListener
 
 ### Examples
 
-The following example creates a Workbook, opens a file named designer.xls in it and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally sends the updated file to the client browser.
-
 ```csharp
-[C#]
-    //custom implementation of IExportObjectListener
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassIExportObjectListenerDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a sample picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(0, 0, "example.png");
+            Picture picture = worksheet.Pictures[pictureIndex];
+            
+            // Custom export listener implementation
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportObjectListener = new CustomExportObjectListener();
+            
+            // Save to HTML with custom listener
+            workbook.Save("output.html", saveOptions);
+        }
+    }
+
     class CustomExportObjectListener : IExportObjectListener
     {
         private int imgIdx = 0;
+        
         public object ExportObject(ExportObjectEvent e)
         {
-            Object source = e.GetSource();
+            object source = e.GetSource();
             if (source is Shape)
             {
                 Shape shape = (Shape)source;
-                string url = null;
-                switch (shape.MsoDrawingType)
+                if (shape.MsoDrawingType == MsoDrawingType.Picture)
                 {
-                    case MsoDrawingType.Picture:
-                    {
-                        url = SaveImage(((Picture)shape).Data, imgIdx, ((Picture)shape).ImageType);
-                        break;
-                     }
-                }
-                if (url != null)
-                {
+                    string url = SaveImage(((Picture)shape).Data, imgIdx, ((Picture)shape).ImageType);
                     imgIdx++;
+                    return url;
                 }
-                return url;
             }
             return null;
         }
+        
         private string SaveImage(byte[] data, int imgIdx, ImageType format)
         {
-            //here save the image to any location, then return the url(relative or absolute) that the generated html can get the image
-            return "temp1/temp2.png";
+            // In a real implementation, you would save the image to disk here
+            // For demo purposes, we just return a dummy path
+            return $"images/image_{imgIdx}.png";
         }
-     }
-     
-        //Save html file with custom listener
-        Workbook book = null; //build your workbook here
-        HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-        saveOptions.ExportObjectListener = new CustomExportObjectListener();
-        Stream stream = null; //build your stream here
-        book.Save("res.html", saveOptions); //or here you can build your out put stream and save the workbook to stream
-
+    }
+}
 ```
 
 ### See Also

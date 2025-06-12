@@ -20,31 +20,46 @@ public void CopyStyle(Range range)
 ### Examples
 
 ```csharp
-// Called: rangeDest.CopyStyle(rangeSrc);
-public void Range_Method_CopyStyle()
-{
-    caseName = "testRangeCopyStyle_Style_PatternSetting";
-    Workbook workbook = new Workbook(Constants.sourcePath + "Copy\\testPatternSetting.xls");
-    Worksheet sheetSrc = workbook.Worksheets[0];
-    Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-    sheetDest.Name = "sheetDest";
-    Cells cellsSrc = sheetSrc.Cells;
-    Cells cellsDest = sheetDest.Cells;
-    Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(1, 1, 11, 5);
-    Aspose.Cells.Range rangeDest = cellsDest.CreateRange(1, 1, 11, 5);
-    rangeDest.CopyStyle(rangeSrc);
+using System;
+using Aspose.Cells;
 
-    checkRangeCopyStyle_Style_PatternSetting(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
-    workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xls");
-    checkRangeCopyStyle_Style_PatternSetting(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyStyle.xlsx");
-    workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xlsx");
-    checkRangeCopyStyle_Style_PatternSetting(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyStyle.xml", SaveFormat.SpreadsheetML);
-     workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xml");
-    checkRangeCopyStyle_Style_FontSetting(workbook);
-    workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
+namespace AsposeCellsExamples
+{
+    public class RangeMethodCopyStyleWithRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheetSrc = workbook.Worksheets[0];
+            sheetSrc.Name = "Source";
+            
+            // Add some sample style to source range
+            Cells cellsSrc = sheetSrc.Cells;
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange("A1:D5");
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 14;
+            style.Font.IsBold = true;
+            style.ForegroundColor = System.Drawing.Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+            rangeSrc.SetStyle(style);
+            
+            // Create destination worksheet
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "Destination";
+            
+            // Create destination range and copy style
+            Cells cellsDest = sheetDest.Cells;
+            Aspose.Cells.Range rangeDest = cellsDest.CreateRange("A1:D5");
+            rangeDest.CopyStyle(rangeSrc);
+            
+            // Save the workbook
+            workbook.Save("RangeCopyStyleDemo.xlsx");
+        }
+    }
 }
 ```
 

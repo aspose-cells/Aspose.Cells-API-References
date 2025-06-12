@@ -16,38 +16,42 @@ public bool ExportDocumentStructure { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.ExportDocumentStructure = true;
-public void PdfSaveOptions_Property_ExportDocumentStructure()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-    htmlLoadOptions.AutoFitColsAndRows = true;
-
-    Workbook workbook = new Workbook(Constants.HtmlPath + "example.xls", htmlLoadOptions);
-    Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
-    // option to set all the columns of excel in one page.
-    pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-    pdfSaveOptions.MergeAreas = true;
-    /* Retain the structure of original excel */
-    pdfSaveOptions.ExportDocumentStructure = true;
-    /* Formula calculation for any digit formulla applied in excels */
-    /*it is best to call Workbook.CalculateFormula() just before rendering the spreadsheet to PDF. 
-   * This ensures  that the formula dependent values are recalculated, and the correct
-   * values are rendered in the PDF.*/
-    workbook.CalculateFormula();
-
-
-    foreach (Worksheet wks in workbook.Worksheets)
+    public class PdfSaveOptionsPropertyExportDocumentStructureDemo
     {
-        wks.PageSetup.PrintArea = "";
-        wks.PageSetup.BottomMargin = 1;
-        wks.PageSetup.LeftMargin = 1;
-        wks.PageSetup.RightMargin = 1;
-        wks.PageSetup.TopMargin = 1;
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    int maxDataRow = workbook.Worksheets[0].Cells.MaxDataRow;
-    Cell cell = workbook.Worksheets[0].Cells[maxDataRow - 2, 0];
-    Assert.AreEqual(0, cell.GetStyle().ForegroundArgbColor);
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create PDF save options
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            
+            // Set ExportDocumentStructure to true to retain document structure
+            pdfSaveOptions.ExportDocumentStructure = true;
+            
+            // Calculate formulas before saving
+            workbook.CalculateFormula();
+
+            // Save the workbook to PDF with the specified options
+            workbook.Save("output.pdf", pdfSaveOptions);
+
+            Console.WriteLine("PDF saved with document structure exported.");
+        }
+    }
 }
 ```
 

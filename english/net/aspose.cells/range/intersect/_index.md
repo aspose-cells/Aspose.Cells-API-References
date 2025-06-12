@@ -28,32 +28,28 @@ If the two ranges are not intersected, returns null.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-// Get the first Worksheet Cells.
-Cells cells = workbook.Worksheets[0].Cells;
-Range range1 = cells.CreateRange("A1:A5");
-Range range2 = cells.CreateRange("A3:A10");
-//Get intersected range of the two ranges.
-Range intersectRange = range1.Intersect(range2);
-//Save the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-Range range1 = cells.CreateRange("A1:A5")
-Range range2 = cells.CreateRange("A3:A10")
-'Get intersected range of the two ranges.
-Range intersectRange = range1.Intersect(range2)
-'Save the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class RangeMethodIntersectWithRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            Aspose.Cells.Range range1 = cells.CreateRange("A1:A5");
+            Aspose.Cells.Range range2 = cells.CreateRange("A3:A10");
+            
+            Aspose.Cells.Range intersectRange = range1.Intersect(range2);
+            
+            Console.WriteLine("Intersected range: " + intersectRange.Address);
+            workbook.Save("IntersectDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

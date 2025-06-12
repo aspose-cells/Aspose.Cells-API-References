@@ -20,34 +20,34 @@ Only for xlsx file.
 ### Examples
 
 ```csharp
-// Called: hTMLLoad.IgnoreNotPrinted = true;
-public void LoadOptions_Property_IgnoreNotPrinted()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET46447/";
-
-    string FileName = "example.html";
-    string inputfileName = filePath + FileName;
-    string outputfileName = CreateFolder(filePath) + "checkdatasa.xls";
-
-    Aspose.Cells.HtmlLoadOptions hTMLLoad = new Aspose.Cells.HtmlLoadOptions(LoadFormat.Html);
-    hTMLLoad.IgnoreNotPrinted = true;
-    hTMLLoad.AutoFitColsAndRows = true;
-
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(inputfileName, hTMLLoad);
-    Aspose.Cells.Worksheet worksheet = null;
-
-    if (workbook != null)
+    public class LoadOptionsPropertyIgnoreNotPrintedDemo
     {
-        worksheet = workbook.Worksheets[0];
-        worksheet.PageSetup.PrintTitleRows = "$1:$3";
-    }
-    //workbook.Save(outputfileName,SaveFormat.Xlsx); 
-    worksheet.PageSetup.Orientation = Aspose.Cells.PageOrientationType.Portrait;
+        public static void Run()
+        {
+            // Create HTML load options and set IgnoreNotPrinted
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            loadOptions.IgnoreNotPrinted = true;
+            loadOptions.AutoFitColsAndRows = true;
 
-    Assert.AreEqual(worksheet.Cells["B3"].GetStyle().ForegroundColor, Color.FromArgb(255, 244, 200, 66));
-    Assert.AreEqual(worksheet.Cells["B4"].GetStyle().ForegroundColor, Color.FromArgb(255, 218, 238, 243));
-    Assert.AreEqual(worksheet.Cells["B5"].GetStyle().ForegroundColor, Color.FromArgb(255, 142, 93, 39));
-    worksheet.Workbook.Save(outputfileName);
+            // Load HTML file with the specified options
+            Workbook workbook = new Workbook("example.html", loadOptions);
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Demonstrate the effect of IgnoreNotPrinted by checking cell styles
+            Console.WriteLine("B3 Cell Color: " + worksheet.Cells["B3"].GetStyle().ForegroundColor);
+            Console.WriteLine("B4 Cell Color: " + worksheet.Cells["B4"].GetStyle().ForegroundColor);
+            Console.WriteLine("B5 Cell Color: " + worksheet.Cells["B5"].GetStyle().ForegroundColor);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

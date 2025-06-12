@@ -16,13 +16,25 @@ public int GetWidthOfValue()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cell.GetWidthOfValue(), 89);
-public void Cell_Method_GetWidthOfValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cell cell = workbook.Worksheets[0].Cells["A1"];
-    cell.PutValue("CellsJava40307");
-    Assert.AreEqual(cell.GetWidthOfValue(), 89);
+    public class CellMethodGetWidthOfValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            
+            cell.PutValue("CellsJava40307");
+            int width = cell.GetWidthOfValue();
+            
+            Console.WriteLine("Width of the cell value: " + width);
+        }
+    }
 }
 ```
 

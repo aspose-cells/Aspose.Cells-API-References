@@ -16,26 +16,36 @@ public Range EntireRow { get; }
 ### Examples
 
 ```csharp
-// Called: var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
-public void Range_Property_EntireRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets["Sheet1"];
+    public class RangePropertyEntireRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    var oldMaxCol = sheet.Cells.MaxColumn;
+            // Fill some sample data in the first row
+            for (int col = 0; col < 5; col++)
+            {
+                sheet.Cells[0, col].PutValue($"Header {col + 1}");
+            }
 
-    var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
-    var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
+            // Get the entire first row using EntireRow property
+            Aspose.Cells.Range entireRow = sheet.Cells.CreateRange("A1").EntireRow;
 
-    sheet.Cells.InsertCutCells(
-        cutRange: cutRange,
-        row: pasteRange.FirstRow,
-        column: pasteRange.FirstColumn,
-        shiftType: ShiftType.Down);
+            // Copy the first row to the third row
+            Aspose.Cells.Range destination = sheet.Cells.CreateRange("A3").EntireRow;
+            destination.Copy(entireRow);
 
-    var newMaxCol = sheet.Cells.MaxColumn;
-
-    Assert.AreEqual(newMaxCol, oldMaxCol);
+            // Save the workbook
+            workbook.Save("EntireRowDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,23 +16,46 @@ public byte[] GraphicData { get; set; }
 ### Examples
 
 ```csharp
-// Called: b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
-public void OdsPageBackground_Property_GraphicData()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    OdsPageBackground b = ps.ODSPageBackground;
-    b.Type = OdsPageBackgroundType.Graphic;
-    b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
-    b.GraphicType = OdsPageBackgroundGraphicType.Area;
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-
-    ps = workbook.Worksheets[0].PageSetup;
-    b = ps.ODSPageBackground;
-    Assert.AreEqual(b.Type ,OdsPageBackgroundType.Graphic);
-    Assert.AreEqual(b.GraphicType, OdsPageBackgroundGraphicType.Area);
-
+    public class OdsPageBackgroundPropertyGraphicDataDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and its page setup
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Set ODS page background properties
+            OdsPageBackground background = pageSetup.ODSPageBackground;
+            background.Type = OdsPageBackgroundType.Graphic;
+            
+            // Load image data and set as background
+            string imagePath = "sample.png"; // Replace with actual image path
+            if (File.Exists(imagePath))
+            {
+                background.GraphicData = File.ReadAllBytes(imagePath);
+                background.GraphicType = OdsPageBackgroundGraphicType.Area;
+                
+                // Save the workbook
+                workbook.Save("output.ods");
+                
+                Console.WriteLine("ODS file with graphic background created successfully.");
+            }
+            else
+            {
+                Console.WriteLine("Image file not found: " + imagePath);
+            }
+        }
+    }
 }
 ```
 

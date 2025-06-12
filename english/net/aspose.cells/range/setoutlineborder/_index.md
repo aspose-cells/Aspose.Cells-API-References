@@ -23,29 +23,35 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle,
 ### Examples
 
 ```csharp
-// Called: range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
-public void Range_Method_SetOutlineBorder()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor color = workbook.CreateCellsColor();
-    color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+    public class RangeMethodSetOutlineBorderWithBorderTypeCellBorderTypeCellsCDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
+            // Create a CellsColor object
+            CellsColor color = workbook.CreateCellsColor();
+            color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-    Color resColor = color.Color;
-    Aspose.Cells.Range range = cells.CreateRange("A2:B3");
-    range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
-    Style style = range[0, 1].GetStyle();
+            // Create a range and set right border
+            Aspose.Cells.Range range = cells.CreateRange("A2:B3");
+            range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
 
-    Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
+            // Create another range and set all borders
+            range = cells.CreateRange("C6:F10");
+            range.SetOutlineBorders(CellBorderType.Thin, color);
 
-
-    range = cells.CreateRange("C6:F10");
-    range.SetOutlineBorders(CellBorderType.Thin, color);
-    style = range[0, 1].GetStyle();
-
-    Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
-    workbook.Save(Constants.destPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("SetOutlineBorderExample.xlsx");
+        }
+    }
 }
 ```
 
@@ -77,17 +83,33 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle, 
 ### Examples
 
 ```csharp
-// Called: row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
-public void Range_Method_SetOutlineBorder()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var ws = workbook.Worksheets[0];
-    var row = ws.Cells.CreateRange("21:21");
-    Assert.AreEqual(44,ws.Cells.MaxColumn); // print 44
-    row.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Double, Color.Black);
-    row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
-    Assert.AreEqual(44, ws.Cells.MaxColumn); // print 16383
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class RangeMethodSetOutlineBorderWithBorderTypeCellBorderTypeColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range of cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1:D5");
+
+            // Set outline borders with different border types and colors
+            range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Red);
+            range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.Blue);
+            range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Dashed, Color.Green);
+            range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
+
+            // Save the workbook
+            workbook.Save("RangeOutlineBorderDemo.xlsx");
+        }
+    }
 }
 ```
 

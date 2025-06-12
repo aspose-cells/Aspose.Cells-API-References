@@ -24,35 +24,50 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Charts.SparklineGroup group = ws.SparklineGroups[idx];
-//http://www.aspose.com/community/forums/thread/255758.aspx
-public void SparklineGroupCollection_Property_Item()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("SparklineGroupCollection_Property_Item()");
-    Workbook wb = new Workbook(FileFormatType.Xlsx); // specify the dest file type
-    wb.Worksheets.Clear();
+    public class SparklineGroupCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Add sample data
+            ws.Cells["A1"].PutValue(5);
+            ws.Cells["A2"].PutValue(3);
+            ws.Cells["A3"].PutValue(7);
+            ws.Cells["A4"].PutValue(2);
+            ws.Cells["A5"].PutValue(9);
 
-    Worksheet ws = wb.Worksheets.Add("New Sheet");
-    ws.Cells["A8"].PutValue(34);
-    ws.Cells["A9"].PutValue(50);
-    ws.Cells["A10"].PutValue(34);
+            // Define data range and location for sparklines
+            string dataRange = "'" + ws.Name + "'!A1:A5";
+            CellArea location = new CellArea();
+            location.StartRow = 0;
+            location.EndRow = 0;
+            location.StartColumn = 1;
+            location.EndColumn = 1;
 
-    CellArea ca = new CellArea();
-    ca.StartColumn = 0;
-    ca.EndColumn = 0;
-    ca.StartRow = 0;
-    ca.EndRow = 0;
+            // Add sparkline group
+            int index = ws.SparklineGroups.Add(SparklineType.Line, dataRange, false, location);
+            
+            // Access the sparkline group using Item property
+            SparklineGroup group = ws.SparklineGroups[index];
+            
+            // Customize the sparkline
+            CellsColor color = wb.CreateCellsColor();
+            color.Color = Color.Blue;
+            group.SeriesColor = color;
 
-    int idx = ws.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Column,
-     "'" + ws.Name + "'!A8:A10", true, ca);
-    Aspose.Cells.Charts.SparklineGroup group = ws.SparklineGroups[idx];
-
-    // change the color of the series if need
-    CellsColor clr = wb.CreateCellsColor();
-    clr.Color = Color.Orange;
-    group.SeriesColor = clr;
-    Util.ReSave(wb, SaveFormat.Xlsx);
-    //wb.Save(Constants.destPath + @"example.xlsx");
+            // Save the workbook
+            wb.Save("SparklineGroupCollectionPropertyItemDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

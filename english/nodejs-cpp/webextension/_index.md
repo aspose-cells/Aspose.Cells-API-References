@@ -15,24 +15,89 @@ class WebExtension;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [id](#id--)| string | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [isFrozen](#isFrozen--)| boolean | Indicates whether the user can interact with the Office Add-in or not. |
+| [reference](#reference--)| WebExtensionReference | Readonly. Get the primary reference to an Office Add-in. |
+| [alterReferences](#alterReferences--)| WebExtensionReferenceCollection | Readonly. Gets a list of alter references. |
+| [properties](#properties--)| WebExtensionPropertyCollection | Readonly. Gets all properties of web extension. |
+| [bindings](#bindings--)| WebExtensionBindingCollection | Readonly. Gets all bindings relationship between an Office Add-in and the data in the document. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--)| Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
-| [setId(string)](#setId-string-)| Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
-| [isFrozen()](#isFrozen--)| Indicates whether the user can interact with the Office Add-in or not. |
-| [setIsFrozen(boolean)](#setIsFrozen-boolean-)| Indicates whether the user can interact with the Office Add-in or not. |
-| [getReference()](#getReference--)| Get the primary reference to an Office Add-in. |
-| [getAlterReferences()](#getAlterReferences--)| Gets a list of alter references. |
-| [getProperties()](#getProperties--)| Gets all properties of web extension. |
-| [getBindings()](#getBindings--)| Gets all bindings relationship between an Office Add-in and the data in the document. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [setId(string)](#setId-string-)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [isFrozen()](#isFrozen--)| <b>@deprecated.</b> Please use the 'isFrozen' property instead. Indicates whether the user can interact with the Office Add-in or not. |
+| [setIsFrozen(boolean)](#setIsFrozen-boolean-)| <b>@deprecated.</b> Please use the 'isFrozen' property instead. Indicates whether the user can interact with the Office Add-in or not. |
+| [getReference()](#getReference--)| <b>@deprecated.</b> Please use the 'reference' property instead. Get the primary reference to an Office Add-in. |
+| [getAlterReferences()](#getAlterReferences--)| <b>@deprecated.</b> Please use the 'alterReferences' property instead. Gets a list of alter references. |
+| [getProperties()](#getProperties--)| <b>@deprecated.</b> Please use the 'properties' property instead. Gets all properties of web extension. |
+| [getBindings()](#getBindings--)| <b>@deprecated.</b> Please use the 'bindings' property instead. Gets all bindings relationship between an Office Add-in and the data in the document. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### id {#id--}
+
+Gets and sets the uniquely identifies the Office Add-in instance in the current document.
+
+```javascript
+id : string;
+```
+
+
+### isFrozen {#isFrozen--}
+
+Indicates whether the user can interact with the Office Add-in or not.
+
+```javascript
+isFrozen : boolean;
+```
+
+
+### reference {#reference--}
+
+Readonly. Get the primary reference to an Office Add-in.
+
+```javascript
+reference : WebExtensionReference;
+```
+
+
+### alterReferences {#alterReferences--}
+
+Readonly. Gets a list of alter references.
+
+```javascript
+alterReferences : WebExtensionReferenceCollection;
+```
+
+
+### properties {#properties--}
+
+Readonly. Gets all properties of web extension.
+
+```javascript
+properties : WebExtensionPropertyCollection;
+```
+
+
+### bindings {#bindings--}
+
+Readonly. Gets all bindings relationship between an Office Add-in and the data in the document.
+
+```javascript
+bindings : WebExtensionBindingCollection;
+```
 
 
 ### getId() {#getId--}
 
-Gets and sets the uniquely identifies the Office Add-in instance in the current document.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the uniquely identifies the Office Add-in instance in the current document.
 
 ```javascript
 getId() : string;
@@ -41,7 +106,7 @@ getId() : string;
 
 ### setId(string) {#setId-string-}
 
-Gets and sets the uniquely identifies the Office Add-in instance in the current document.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the uniquely identifies the Office Add-in instance in the current document.
 
 ```javascript
 setId(value: string) : void;
@@ -54,7 +119,7 @@ setId(value: string) : void;
 
 ### isFrozen() {#isFrozen--}
 
-Indicates whether the user can interact with the Office Add-in or not.
+<b>@deprecated.</b> Please use the 'isFrozen' property instead. Indicates whether the user can interact with the Office Add-in or not.
 
 ```javascript
 isFrozen() : boolean;
@@ -63,7 +128,7 @@ isFrozen() : boolean;
 
 ### setIsFrozen(boolean) {#setIsFrozen-boolean-}
 
-Indicates whether the user can interact with the Office Add-in or not.
+<b>@deprecated.</b> Please use the 'isFrozen' property instead. Indicates whether the user can interact with the Office Add-in or not.
 
 ```javascript
 setIsFrozen(value: boolean) : void;
@@ -76,7 +141,7 @@ setIsFrozen(value: boolean) : void;
 
 ### getReference() {#getReference--}
 
-Get the primary reference to an Office Add-in.
+<b>@deprecated.</b> Please use the 'reference' property instead. Get the primary reference to an Office Add-in.
 
 ```javascript
 getReference() : WebExtensionReference;
@@ -89,7 +154,7 @@ getReference() : WebExtensionReference;
 
 ### getAlterReferences() {#getAlterReferences--}
 
-Gets a list of alter references.
+<b>@deprecated.</b> Please use the 'alterReferences' property instead. Gets a list of alter references.
 
 ```javascript
 getAlterReferences() : WebExtensionReferenceCollection;
@@ -102,7 +167,7 @@ getAlterReferences() : WebExtensionReferenceCollection;
 
 ### getProperties() {#getProperties--}
 
-Gets all properties of web extension.
+<b>@deprecated.</b> Please use the 'properties' property instead. Gets all properties of web extension.
 
 ```javascript
 getProperties() : WebExtensionPropertyCollection;
@@ -115,7 +180,7 @@ getProperties() : WebExtensionPropertyCollection;
 
 ### getBindings() {#getBindings--}
 
-Gets all bindings relationship between an Office Add-in and the data in the document.
+<b>@deprecated.</b> Please use the 'bindings' property instead. Gets all bindings relationship between an Office Add-in and the data in the document.
 
 ```javascript
 getBindings() : WebExtensionBindingCollection;

@@ -20,15 +20,35 @@ public void Copy(Cell cell)
 ### Examples
 
 ```csharp
-// Called: cells["C5"].Copy(cells["C4"]);
-public void Cell_Method_Copy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["C5"].Copy(cells["C4"]);
-    string fml = "=IF(Table1[@Title]=$B5,FALSE, TRUE)";
-    Assert.AreEqual(cells["C5"].Formula,
-        workbook.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
+    public class CellMethodCopyWithCellDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set values and styles in source cell
+            Cell sourceCell = cells["A1"];
+            sourceCell.PutValue("Source Value");
+            sourceCell.GetStyle().Font.IsBold = true;
+
+            // Create destination cell
+            Cell destCell = cells["B1"];
+
+            // Copy from source to destination
+            destCell.Copy(sourceCell);
+
+            // Verify the copy
+            Console.WriteLine("Destination cell value: " + destCell.StringValue);
+            Console.WriteLine("Destination cell bold status: " + destCell.GetStyle().Font.IsBold);
+        }
+    }
 }
 ```
 

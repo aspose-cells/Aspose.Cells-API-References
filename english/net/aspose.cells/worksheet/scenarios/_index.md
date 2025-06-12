@@ -16,18 +16,43 @@ public ScenarioCollection Scenarios { get; }
 ### Examples
 
 ```csharp
-// Called: ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
-public void Worksheet_Property_Scenarios()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "ScenarioTest.xlsx");
-    ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
-    Assert.AreEqual(scenarios.Count, 2);
-    scenarios.Clear();
-    Assert.AreEqual(scenarios.Count, 0);
-    workbook.Save(Constants.destPath + "ScenarioClearTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "ScenarioClearTest.xlsx");
-    scenarios = workbook.Worksheets[0].Scenarios;
-    Assert.AreEqual(0, scenarios.Count);
+    public class WorksheetPropertyScenariosDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Initial Value");
+            worksheet.Cells["A2"].PutValue(100);
+            
+            // Add scenarios
+            ScenarioCollection scenarios = worksheet.Scenarios;
+            int scenarioIndex1 = scenarios.Add("Scenario1");
+            Scenario scenario1 = scenarios[scenarioIndex1];
+            scenario1.Comment = "First test scenario";
+            
+            int scenarioIndex2 = scenarios.Add("Scenario2");
+            Scenario scenario2 = scenarios[scenarioIndex2];
+            scenario2.Comment = "Second test scenario";
+            
+            // Save the workbook
+            workbook.Save("WorksheetPropertyScenariosDemo.xlsx");
+            
+            // Clear scenarios and save again
+            scenarios.Clear();
+            workbook.Save("WorksheetPropertyScenariosDemo_Cleared.xlsx");
+        }
+    }
 }
 ```
 

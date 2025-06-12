@@ -16,30 +16,38 @@ public string[] NumberFormats { get; set; }
 ### Examples
 
 ```csharp
-// Called: NumberFormats = new string[] { null, null, "h:mm AM/PM" },
-public void ImportTableOptions_Property_NumberFormats()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    DataTable table = new DataTable();
-    table.Columns.Add("ID");
-    table.Columns.Add("thelink");
-    table.Columns.Add("Start Time");
-    string[] addrow = { "1", "<p><a href=\"https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html\">CN Risk 3</a>&nbsp;</p>", "1:00 PM" };
-    table.Rows.Add(addrow);
-
-    var workbook = new Workbook();
-    var ws = workbook.Worksheets[0];
-    ws.Cells.ImportData(table, 0, 0, new ImportTableOptions
+    public class ImportTableOptionsPropertyNumberFormatsDemo
     {
-        IsFieldNameShown = true,
-        ConvertNumericData = true,
-        NumberFormats = new string[] { null, null, "h:mm AM/PM" },
-        IsHtmlString = true
+        public static void Run()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("ID");
+            table.Columns.Add("Description");
+            table.Columns.Add("TimeValue");
+            
+            table.Rows.Add(1, "Sample Item 1", DateTime.Parse("1:30 PM"));
+            table.Rows.Add(2, "Sample Item 2", DateTime.Parse("3:45 PM"));
 
+            var workbook = new Workbook();
+            var worksheet = workbook.Worksheets[0];
+            
+            var importOptions = new ImportTableOptions
+            {
+                IsFieldNameShown = true,
+                NumberFormats = new string[] { null, null, "h:mm AM/PM" }
+            };
 
-    });
-    Assert.AreEqual(ws.Hyperlinks.Count, 1);
-    workbook.Save(Constants.destPath + "example.xlsx");
-
+            worksheet.Cells.ImportData(table, 0, 0, importOptions);
+            
+            workbook.Save("NumberFormatsDemo.xlsx");
+        }
+    }
 }
 ```
 

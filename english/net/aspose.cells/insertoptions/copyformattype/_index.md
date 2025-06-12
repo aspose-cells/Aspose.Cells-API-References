@@ -14,30 +14,36 @@ public CopyFormatType CopyFormatType { get; set; }
 ### Examples
 
 ```csharp
-// Called: insertOptions.CopyFormatType = CopyFormatType.SameAsAbove;
-public static void InsertOptions_Property_CopyFormatType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class InsertOptionsPropertyCopyFormatTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data in the worksheet
-            worksheet.Cells["A1"].PutValue("Header1");
-            worksheet.Cells["A2"].PutValue("Data1");
-            worksheet.Cells["A3"].PutValue("Data2");
+            // Set values and formatting for demonstration
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A1"].GetStyle().Font.IsBold = true;
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["A3"].PutValue("Item2");
 
             // Create InsertOptions and set CopyFormatType
-            InsertOptions insertOptions = new InsertOptions();
-            insertOptions.CopyFormatType = CopyFormatType.SameAsAbove;
+            InsertOptions options = new InsertOptions();
+            options.CopyFormatType = CopyFormatType.SameAsAbove;
 
-            // Insert a row at the second position with the specified format type
-            worksheet.Cells.InsertRows(1, 1, insertOptions);
+            // Insert row with formatting from above
+            worksheet.Cells.InsertRows(2, 1, options);
 
-            // Save the workbook
-            workbook.Save("CopyFormatTypeExample.xlsx");
-            workbook.Save("CopyFormatTypeExample.pdf");
-            return;
+            // Save the result
+            workbook.Save("InsertWithFormatting.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

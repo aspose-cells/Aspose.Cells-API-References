@@ -16,14 +16,29 @@ public bool IsMultiEncoded { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.IsMultiEncoded = true;
-public void TxtLoadOptions_Property_IsMultiEncoded()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    TxtLoadOptions options = new TxtLoadOptions();
-    options.IsMultiEncoded = true;
-    Workbook workbook1 = new Workbook(Constants.sourcePath +  "example.csv", options);
-    Assert.AreEqual(workbook1.Worksheets[0].Cells["A2"].StringValue, "NBYPN-E");
-    Assert.AreEqual(workbook1.Worksheets[0].Cells["A3"].StringValue, "NBYPN-E");
+    public class TxtLoadOptionsPropertyIsMultiEncodedDemo
+    {
+        public static void Run()
+        {
+            // Create text load options
+            TxtLoadOptions options = new TxtLoadOptions();
+            
+            // Set IsMultiEncoded to true to handle multiple encodings
+            options.IsMultiEncoded = true;
+            
+            // Load workbook with the options
+            Workbook workbook = new Workbook("example.csv", options);
+            
+            // Display sample values from the loaded file
+            Console.WriteLine("A2 Cell Value: " + workbook.Worksheets[0].Cells["A2"].StringValue);
+            Console.WriteLine("A3 Cell Value: " + workbook.Worksheets[0].Cells["A3"].StringValue);
+        }
+    }
 }
 ```
 

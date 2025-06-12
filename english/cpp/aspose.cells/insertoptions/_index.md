@@ -4,7 +4,7 @@ linktitle: InsertOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::InsertOptions class. Represents the options of inserting in C++.'
 type: docs
-weight: 9100
+weight: 9200
 url: /cpp/aspose.cells/insertoptions/
 ---
 ## InsertOptions class

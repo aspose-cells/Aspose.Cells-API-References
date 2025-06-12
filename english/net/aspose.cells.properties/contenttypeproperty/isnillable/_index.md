@@ -16,29 +16,32 @@ public bool IsNillable { get; set; }
 ### Examples
 
 ```csharp
-// Called: property.IsNillable = true;
-public static void ContentTypeProperty_Property_IsNillable()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class ContentTypePropertyPropertyIsNillableDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Add a new content type property
-            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-
-            // Access the newly added property
-            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
             
-            // Setting properties
-            property.Name = "Admin";
-            property.Value = "Aspose";
-            property.Type = "text";
+            // Add a content type property
+            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
+            
+            // Access the property and set IsNillable
+            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
             property.IsNillable = true;
-
-            // Save the Excel file
-            workbook.Save("ContentTypePropertyExample.xlsx");
-            workbook.Save("ContentTypePropertyExample.pdf");
-            return;
+            
+            // Verify and output the IsNillable value
+            Console.WriteLine($"Property 'Admin' IsNillable: {property.IsNillable}");
+            
+            workbook.Save("ContentTypePropertyIsNillableDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

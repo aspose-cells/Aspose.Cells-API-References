@@ -16,24 +16,50 @@ public ShapeTextAlignment TextAlignment { get; }
 ### Examples
 
 ```csharp
-// Called: shape.TextBody.TextAlignment.RightMarginPt = 18;
-public void FontSettingCollection_Property_TextAlignment()
-{
-    var wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Shape shape = wb.Worksheets[0].Shapes[0];
-    Assert.IsFalse(shape.TextBody.TextAlignment.IsAutoMargin);
-    Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
-    Assert.AreEqual(72, shape.TextBody.TextAlignment.TopMarginPt);
-    Assert.AreEqual(72, shape.TextBody.TextAlignment.RightMarginPt);
-    Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
-    Assert.AreEqual(72, shape.TextBody.TextAlignment.LeftMarginPt);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    shape.TextBody.TextAlignment.BottomMarginPt = 36;
-    shape.TextBody.TextAlignment.RightMarginPt = 18;
-    shape.TextBody.TextAlignment.LeftMarginPt = 54;
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(36, shape.TextBody.TextAlignment.BottomMarginPt);
+namespace AsposeCellsExamples
+{
+    public class FontSettingCollectionPropertyTextAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to the worksheet
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            shape.Text = "Sample Text";
+
+            // Access and modify TextAlignment properties
+            var textAlignment = shape.TextBody.TextAlignment;
+            
+            Console.WriteLine("Default Margins (Points):");
+            Console.WriteLine($"AutoMargin: {textAlignment.IsAutoMargin}");
+            Console.WriteLine($"Top: {textAlignment.TopMarginPt}");
+            Console.WriteLine($"Bottom: {textAlignment.BottomMarginPt}");
+            Console.WriteLine($"Left: {textAlignment.LeftMarginPt}");
+            Console.WriteLine($"Right: {textAlignment.RightMarginPt}");
+
+            // Modify margins
+            textAlignment.TopMarginPt = 36;
+            textAlignment.BottomMarginPt = 36;
+            textAlignment.LeftMarginPt = 18;
+            textAlignment.RightMarginPt = 18;
+
+            // Save the workbook
+            workbook.Save("TextAlignmentDemo.xlsx");
+
+            Console.WriteLine("\nModified Margins (Points):");
+            Console.WriteLine($"Top: {textAlignment.TopMarginPt}");
+            Console.WriteLine($"Bottom: {textAlignment.BottomMarginPt}");
+            Console.WriteLine($"Left: {textAlignment.LeftMarginPt}");
+            Console.WriteLine($"Right: {textAlignment.RightMarginPt}");
+        }
+    }
 }
 ```
 

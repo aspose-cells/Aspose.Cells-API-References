@@ -4,7 +4,7 @@ linktitle: GetEncryptDocumentProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SaveOptions::GetEncryptDocumentProperties method. Indicates whether encrypt document properties when saving as .xls file. The default value is true in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells/saveoptions/getencryptdocumentproperties/
 ---
 ## SaveOptions::GetEncryptDocumentProperties method

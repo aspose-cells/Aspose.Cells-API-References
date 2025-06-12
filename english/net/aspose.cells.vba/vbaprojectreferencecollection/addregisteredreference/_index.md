@@ -21,13 +21,31 @@ public int AddRegisteredReference(string name, string libid)
 ### Examples
 
 ```csharp
-// Called: vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-public void VbaProjectReferenceCollection_Method_AddRegisteredReference()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    VbaProject vp = workbook.VbaProject;
-    vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-    workbook.Save(Constants.destPath + "example.xlsm");
+    public class VbaProjectReferenceCollectionMethodAddRegisteredReferenceWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add a registered reference to stdole
+            vbaProject.References.AddRegisteredReference(
+                "stdole", 
+                "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+            
+            // Save the workbook
+            workbook.Save("output.xlsm");
+        }
+    }
 }
 ```
 

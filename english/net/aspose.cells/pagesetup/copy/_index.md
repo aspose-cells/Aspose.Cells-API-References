@@ -21,15 +21,27 @@ public void Copy(PageSetup source, CopyOptions copyOptions)
 ### Examples
 
 ```csharp
-// Called: workbok.Worksheets[1].PageSetup.Copy(workbok.Worksheets[0].PageSetup,null);
-public void PageSetup_Method_Copy()
-{
-    Workbook workbok = new Workbook();
-    workbok.Worksheets.Add();
-    workbok.Worksheets[0].PageSetup.PaperSize = PaperSizeType.PaperA3;
-    workbok.Worksheets[1].PageSetup.Copy(workbok.Worksheets[0].PageSetup,null);
-    Assert.AreEqual(PaperSizeType.PaperA3, workbok.Worksheets[1].PageSetup.PaperSize);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class PageSetupMethodCopyWithPageSetupCopyOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            
+            // Set PageSetup properties for the first worksheet
+            workbook.Worksheets[0].PageSetup.PaperSize = PaperSizeType.PaperA3;
+            
+            // Copy PageSetup from first worksheet to second worksheet with CopyOptions
+            workbook.Worksheets[1].PageSetup.Copy(workbook.Worksheets[0].PageSetup, new CopyOptions());
+            
+            Console.WriteLine("Paper size of second worksheet: " + workbook.Worksheets[1].PageSetup.PaperSize);
+        }
+    }
 }
 ```
 

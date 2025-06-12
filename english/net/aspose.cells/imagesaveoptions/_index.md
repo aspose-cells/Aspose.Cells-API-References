@@ -24,7 +24,7 @@ public class ImageSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The folder for temporary files that may be used as data cache.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
@@ -43,19 +43,37 @@ public class ImageSaveOptions : SaveOptions
 ### Examples
 
 ```csharp
-// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
-public void Cells_Type_ImageSaveOptions()
-{
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-         
-    workbook.Save(Constants.destPath + "example.png");
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
-    saveOptions.StreamProvider = new StreamProvider();
-    workbook.Save(Constants.destPath + "example.png", saveOptions);
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+namespace AsposeCellsExamples
+{
+    public class CellsClassImageSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Image Export");
+
+            // Set the destination path
+            string destPath = "output.png";
+
+            // Create image save options
+            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+            
+            // Customize save options
+            saveOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+            saveOptions.ImageOrPrintOptions.OnlyArea = true;
+
+            // Save workbook with image options
+            workbook.Save(destPath, saveOptions);
+
+            Console.WriteLine("Image saved successfully to: " + destPath);
+        }
+    }
 }
 ```
 

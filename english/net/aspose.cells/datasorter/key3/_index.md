@@ -16,58 +16,57 @@ public int Key3 { get; set; }
 ### Examples
 
 ```csharp
-// Called: sorter.Key3 = 25;
-public void DataSorter_Property_Key3()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    DataSorter sorter = wb.DataSorter;
-    sorter.Order1 = SortOrder.Ascending;
-    sorter.Key1 = 4;
-    sorter.Order2 = SortOrder.Ascending;
-    sorter.Key2 = 5;
-    sorter.Order3 = SortOrder.Ascending;
-    sorter.Key3 = 6;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 4, 15, 6));
+    public class DataSorterPropertyKey3Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    sorter.Clear();
-    sorter.Order1 = SortOrder.Ascending;
-    sorter.Key1 = 11;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 9, 15, 11));
+            // Add sample data
+            cells["A1"].PutValue("Name");
+            cells["B1"].PutValue("Score");
+            cells["C1"].PutValue("Grade");
+            cells["A2"].PutValue("John");
+            cells["B2"].PutValue(85);
+            cells["C2"].PutValue("B");
+            cells["A3"].PutValue("Alice");
+            cells["B3"].PutValue(92);
+            cells["C3"].PutValue("A");
+            cells["A4"].PutValue("Bob");
+            cells["B4"].PutValue(78);
+            cells["C4"].PutValue("C");
+            cells["A5"].PutValue("Eve");
+            cells["B5"].PutValue(92);
+            cells["C5"].PutValue("A");
 
-    sorter.Clear();
-    sorter.Order1 = SortOrder.Descending;
-    sorter.Key1 = 15;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 13, 15, 15));
+            // Create data sorter
+            DataSorter sorter = workbook.DataSorter;
+            
+            // Sort by Score (descending), then by Name (ascending), then by Grade (descending)
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 1; // Column B (Score)
+            
+            sorter.Order2 = SortOrder.Ascending;
+            sorter.Key2 = 0; // Column A (Name)
+            
+            sorter.Order3 = SortOrder.Descending;
+            sorter.Key3 = 2; // Column C (Grade)
+            
+            // Sort data range
+            sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 5, 2));
 
-    sorter.Clear();
-    sorter.Order1 = SortOrder.Descending;
-    sorter.Key1 = 19;
-    sorter.Order2 = SortOrder.Descending;
-    sorter.Key2 = 18;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 17, 15, 19));
-
-    sorter.Clear();
-    sorter.Order1 = SortOrder.Descending;
-    sorter.Key1 = 23;
-    sorter.Order2 = SortOrder.Descending;
-    sorter.Key2 = 22;
-    sorter.Order3 = SortOrder.Descending;
-    sorter.Key3 = 21;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 21, 15, 23));
-
-    sorter.Clear();
-    sorter.Order1 = SortOrder.Descending;
-    sorter.Key1 = 27;
-    sorter.Order2 = SortOrder.Ascending;
-    sorter.Key2 = 26;
-    sorter.Order3 = SortOrder.Descending;
-    sorter.Key3 = 25;
-    sorter.Sort(cells, CellArea.CreateCellArea(7, 25, 15, 27));
-    wb.CalculateFormula();
-
-    Assert.IsTrue(cells[31, 1].BoolValue, "All matched for sorted result");
+            // Save the workbook
+            workbook.Save("SortedData.xlsx");
+        }
+    }
 }
 ```
 

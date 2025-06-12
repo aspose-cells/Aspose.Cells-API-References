@@ -22,36 +22,43 @@ public void Replace(string placeHolder, string newValue, ReplaceOptions options)
 ### Examples
 
 ```csharp
-// Called: c.Replace(c1.StringValue, c2.StringValue, options1);
-public void Cell_Method_Replace()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Workbook replaceW = new Workbook(Constants.sourcePath + "example.xlsm");
-    foreach (Row row in replaceW.Worksheets[0].Cells.Rows)
+    public class CellMethodReplaceWithStringStringReplaceOptionsDemo
     {
-        Cell c1 = row[0];
-        if (string.IsNullOrEmpty(c1.StringValue))
+        public static void Run()
         {
-            continue;
-        }
-        Cell c2 = row[1];
-        ReplaceOptions options1 = new ReplaceOptions();
-        options1.CaseSensitive = false;
-        options1.MatchEntireCellContents = false;
-        options1.FontSettings = c2.GetCharacters();
-        foreach (Cell c in workbook.Worksheets[0].Cells)
-        {
-            c.Replace(c1.StringValue, c2.StringValue, options1);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Hello World");
+            worksheet.Cells["A2"].PutValue("hello world");
+            worksheet.Cells["A3"].PutValue("HELLO WORLD");
+            worksheet.Cells["B1"].PutValue("Replaced");
+
+            // Create replace options
+            ReplaceOptions options = new ReplaceOptions();
+            options.CaseSensitive = false;
+            options.MatchEntireCellContents = false;
+
+            // Get font settings from cell B1 to apply to replacements
+            options.FontSettings = worksheet.Cells["B1"].GetCharacters();
+
+            // Replace all variations of "hello" with "Hi" using the options
+            foreach (Cell cell in worksheet.Cells)
+            {
+                cell.Replace("Hello", "Hi", options);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
         }
     }
-    Cell cell = workbook.Worksheets[0].Cells["D2"];
-    FontSetting[] fs = cell.GetCharacters();
-    Assert.AreEqual(74, fs[1].StartIndex);
-    Assert.AreEqual(FontUnderlineType.None, fs[1].Font.Underline);
-    Assert.AreEqual(86, fs[2].StartIndex);
-    Assert.AreEqual(FontUnderlineType.Single, fs[2].Font.Underline);
-    Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

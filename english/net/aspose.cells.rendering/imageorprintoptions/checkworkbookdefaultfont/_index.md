@@ -20,42 +20,52 @@ Default is true.
 ### Examples
 
 ```csharp
-// Called: options.CheckWorkbookDefaultFont = true;
-public void ImageOrPrintOptions_Property_CheckWorkbookDefaultFont()
+using System;
+using System.IO;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
-    int activeIndex = wb.Worksheets.ActiveSheetIndex;
-
-    CalculationOptions opts = new CalculationOptions();
-    opts.Recursive = true;
-    opts.IgnoreError = false;
-    wb.CalculateFormula(opts);
-    Worksheet sheet = wb.Worksheets[activeIndex];
-    sheet.CalculateFormula(opts, true);
-    sheet.Shapes.UpdateSelectedValue();
-
-    sheet.PageSetup.PrintArea = "A1:C1";
-    sheet.PageSetup.LeftMargin = 0;
-    sheet.PageSetup.RightMargin = 0;
-    sheet.PageSetup.TopMargin = 0;
-    sheet.PageSetup.BottomMargin = 0;
-
-    ImageOrPrintOptions options = new ImageOrPrintOptions();
-    options.OnePagePerSheet = true;
-    options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    options.PageCount = 1;
-    options.Transparent = true;
-    options.CheckWorkbookDefaultFont = true;
-    options.HorizontalResolution = 200;
-    options.VerticalResolution = 200;
-    options.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
-    options.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-    SheetRender sr = new SheetRender(sheet, options);
-    MemoryStream ms = new MemoryStream();
-    sr.ToImage(0, ms);
-    using (Bitmap img = (Bitmap)Image.FromStream(ms))
+    public class ImageOrPrintOptionsPropertyCheckWorkbookDefaultFontDemo
     {
-        Assert.IsTrue(img.GetPixel(1076, 32).B > 100);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Sample Text");
+            
+            // Set the default font for the workbook
+            workbook.DefaultStyle.Font.Name = "Arial";
+            workbook.DefaultStyle.Font.Size = 12;
+
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnePagePerSheet = true;
+            
+            // Enable checking workbook default font
+            options.CheckWorkbookDefaultFont = true;
+
+            // Render the worksheet to image
+            SheetRender renderer = new SheetRender(sheet, options);
+            using (MemoryStream stream = new MemoryStream())
+            {
+                renderer.ToImage(0, stream);
+                
+                // Save the image to file
+                using (FileStream file = new FileStream("output.png", FileMode.Create))
+                {
+                    stream.WriteTo(file);
+                }
+            }
+            
+            Console.WriteLine("Image generated with workbook default font check.");
+        }
     }
 }
 ```

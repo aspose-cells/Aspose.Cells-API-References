@@ -16,37 +16,39 @@ public int TableIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: TableIndex = 0,
-public static void HtmlTableLoadOption_Property_TableIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlTableLoadOptionPropertyTableIndexDemo
+    {
+        public static void Run()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();
 
-            // Create an instance of HtmlLoadOptions
+            // Create HTML load options
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-            // Create an instance of HtmlTableLoadOption
+            // Configure table load option with TableIndex = 0 (first table)
             HtmlTableLoadOption tableLoadOption = new HtmlTableLoadOption
             {
                 TableIndex = 0,
-                Id = "table1",
-                Name = "SampleTable",
-                OriginalSheetIndex = 0,
-                TargetSheetIndex = 0,
                 TableToListObject = true
             };
 
-            // Add the HtmlTableLoadOption to the HtmlLoadOptions
+            // Add the table load option
             loadOptions.TableLoadOptions.Add(tableLoadOption);
 
-            // Load the HTML file into the workbook with the specified load options
-            workbook = new Workbook("HtmlTableLoadOptionExample_original.html", loadOptions);
+            // Load HTML file (replace with actual path)
+            workbook = new Workbook("input.html", loadOptions);
 
-            // Save the workbook to an Excel file
-            workbook.Save("HtmlTableLoadOptionExample.xlsx");
-
-            return;
+            // Save as Excel file
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

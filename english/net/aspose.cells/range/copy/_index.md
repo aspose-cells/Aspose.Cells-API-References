@@ -21,26 +21,41 @@ public void Copy(Range range, PasteOptions options)
 ### Examples
 
 ```csharp
-// Called: range.Copy(source, options);
-public void Range_Method_Copy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class RangeMethodCopyWithRangePasteOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Create sample data in source range
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
 
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.InsertRows(32, 24, true);
+            // Create ranges with fully qualified type
+            Aspose.Cells.Range source = sheet.Cells.CreateRange(0, 0, 5, 5);
+            Aspose.Cells.Range destination = sheet.Cells.CreateRange(6, 0, 5, 5);
 
+            // Set paste options
+            PasteOptions options = new PasteOptions();
+            options.PasteType = PasteType.All;
 
-    Aspose.Cells.Range range = cells.CreateRange(32, 1, 24, 18);
-    Aspose.Cells.Range source = cells.CreateRange(8, 1, 24, 18);
+            // Copy with paste options
+            destination.Copy(source, options);
 
-    PasteOptions options = new PasteOptions();
-    options.PasteType = (PasteType.All);
-    range.Copy(source, options);
-
-    Assert.AreEqual(1, cells["G52"].GetFormatConditions().Length);
-    Assert.AreEqual(1, cells["G52"].GetFormatConditions()[0].Count);
-
-    wb.Save(Constants.destPath + "example.xlsx");
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -68,32 +83,35 @@ public void Copy(Range range)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-// Get the first Worksheet Cells.
-Cells cells = workbook.Worksheets[0].Cells;
-Range range1 = cells.CreateRange("A1:A5");
-Range range2 = cells.CreateRange("A6:A10");
-//Copy the range.
-range1.Copy(range2);
-//Save the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-Range range1 = cells.CreateRange("A1:A5")
-Range range2 = cells.CreateRange("A6:A10")
-//Copy the range
-range1.Copy(range2)
-'Save the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class RangeMethodCopyWithRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Create source and destination ranges
+            Aspose.Cells.Range sourceRange = cells.CreateRange("A1:A5");
+            Aspose.Cells.Range destRange = cells.CreateRange("A6:A10");
+            
+            // Fill source range with sample data
+            for (int i = 0; i < 5; i++)
+            {
+                sourceRange[i, 0].PutValue($"Data {i + 1}");
+            }
+            
+            // Copy source range to destination
+            sourceRange.Copy(destRange);
+            
+            workbook.Save("RangeCopyDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

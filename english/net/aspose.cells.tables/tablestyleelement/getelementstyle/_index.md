@@ -20,16 +20,61 @@ Returns the [`Style`](../../../aspose.cells/style/) object.
 ### Examples
 
 ```csharp
-// Called: Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
-public void TableStyleElement_Method_GetElementStyle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    //-2171174
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    TableStyle style = workbook.Worksheets.TableStyles[0];
-    Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
-    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].Color.ToArgb(), -2171174);
-    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].LineStyle, CellBorderType.Medium);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class TableStyleElementMethodGetElementStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(2.5);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(1.8);
+            
+            // Create a table
+            int index = worksheet.ListObjects.Add(0, 0, 2, 1, true);
+            ListObject table = worksheet.ListObjects[index];
+            
+            // Get the table style from workbook's table style collection
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            TableStyle style = tableStyles[0];
+            table.TableStyleName = style.Name;
+            
+            // Access the whole table style element
+            TableStyleElement element = style.TableStyleElements[TableStyleElementType.WholeTable];
+            
+            // Get the element style
+            Style tableStyle = element.GetElementStyle();
+            
+            // Modify the style properties
+            tableStyle.Font.Name = "Arial";
+            tableStyle.Font.Size = 12;
+            tableStyle.Font.IsBold = true;
+            tableStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
+            tableStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
+            tableStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            tableStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+            
+            // Set the modified style back
+            element.SetElementStyle(tableStyle);
+            
+            // Save the workbook
+            workbook.Save("TableStyleElementDemo.xlsx");
+        }
+    }
 }
 ```
 

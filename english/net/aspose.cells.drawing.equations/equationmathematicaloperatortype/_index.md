@@ -54,6 +54,50 @@ public enum EquationMathematicalOperatorType
 | NaryIntersection | `33` | "⋂" Unicode:\u22c2 |
 | NaryUnion | `34` | "⋃" Unicode:\u22c3 |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationsClassEquationMathematicalOperatorTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to insert mathematical operators
+            var textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 0, 0);
+            textBox.Text = "Mathematical Operators Demo:\n";
+
+            // Demonstrate various EquationMathematicalOperatorType values
+            textBox.Text += $"ForAll: {(char)0x2200}\n";
+            textBox.Text += $"Complement: {(char)0x2201}\n";
+            textBox.Text += $"PartialDifferential: {(char)0x2202}\n";
+            textBox.Text += $"Exists: {(char)0x2203}\n";
+            textBox.Text += $"NarySummation: {(char)0x2211}\n";
+            textBox.Text += $"LogicalAnd: {(char)0x2227}\n";
+            textBox.Text += $"LogicalOr: {(char)0x2228}\n";
+            textBox.Text += $"Integral: {(char)0x222B}\n";
+            textBox.Text += $"DoubleIntegral: {(char)0x222C}\n";
+            textBox.Text += $"NaryLogicalAnd: {(char)0x22C0}\n";
+
+            // Using the enum values directly
+            EquationMathematicalOperatorType operatorType = EquationMathematicalOperatorType.NarySummation;
+            textBox.Text += $"\nSelected operator via enum: {operatorType} ({(char)0x2211})";
+
+            // Save the result
+            workbook.Save("EquationMathematicalOperatorTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.Equations](../../aspose.cells.drawing.equations/)

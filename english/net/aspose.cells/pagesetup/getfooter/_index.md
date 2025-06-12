@@ -20,14 +20,30 @@ public string GetFooter(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
-public void PageSetup_Method_GetFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
-    workbook.Save(Constants.destPath + "example.xls");
+    public class PageSetupMethodGetFooterWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set different footer sections
+            worksheet.PageSetup.SetFooter(1, "odd");
+            worksheet.PageSetup.SetFirstPageFooter(1, "first");
+            worksheet.PageSetup.SetEvenFooter(1, "even");
+
+            // Get and display the footer sections
+            Console.WriteLine("First Page Footer: " + worksheet.PageSetup.GetFirstPageFooter(1));
+            Console.WriteLine("Even Page Footer: " + worksheet.PageSetup.GetEvenFooter(1));
+            Console.WriteLine("Odd Page Footer: " + worksheet.PageSetup.GetFooter(1));
+        }
+    }
 }
 ```
 

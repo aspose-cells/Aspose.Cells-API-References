@@ -16,16 +16,38 @@ public SolidFill SolidFill { get; }
 ### Examples
 
 ```csharp
-// Called: Color color = shape.Fill.SolidFill.Color;
-public void FillFormat_Property_SolidFill()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    Color color = shape.Fill.SolidFill.Color;
-    Assert.AreEqual(135, color.R);
-    Assert.AreEqual(222, color.G);
-    Assert.AreEqual(255, color.B);
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertySolidFillDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a rectangle shape
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
+            
+            // Set solid fill color for the shape
+            shape.Fill.SolidFill.Color = System.Drawing.Color.FromArgb(135, 222, 255);
+            
+            // Get and display the solid fill color
+            System.Drawing.Color fillColor = shape.Fill.SolidFill.Color;
+            Console.WriteLine("Solid Fill Color - R:{0}, G:{1}, B:{2}", 
+                fillColor.R, fillColor.G, fillColor.B);
+            
+            // Save the workbook
+            workbook.Save("SolidFillDemo.xlsx");
+        }
+    }
 }
 ```
 

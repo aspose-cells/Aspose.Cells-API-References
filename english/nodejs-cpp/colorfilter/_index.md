@@ -17,16 +17,22 @@ class ColorFilter;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [filterByFillColor](#filterByFillColor--)| boolean | Whether filter by the cell's fill color. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFilterByFillColor()](#getFilterByFillColor--)| Whether filter by the cell's fill color. |
-| [setFilterByFillColor(boolean)](#setFilterByFillColor-boolean-)| Whether filter by the cell's fill color. |
+| [getFilterByFillColor()](#getFilterByFillColor--)| <b>@deprecated.</b> Please use the 'filterByFillColor' property instead. Whether filter by the cell's fill color. |
+| [setFilterByFillColor(boolean)](#setFilterByFillColor-boolean-)| <b>@deprecated.</b> Please use the 'filterByFillColor' property instead. Whether filter by the cell's fill color. |
 | [getColor(WorksheetCollection)](#getColor-worksheetcollection-)| Gets the color of this filter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
@@ -45,9 +51,22 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
-### getFilterByFillColor() {#getFilterByFillColor--}
+### filterByFillColor {#filterByFillColor--}
 
 Whether filter by the cell's fill color.
+
+```javascript
+filterByFillColor : boolean;
+```
+
+
+**Remarks**
+
+True: cell's fill color; False: cell's font color.
+
+### getFilterByFillColor() {#getFilterByFillColor--}
+
+<b>@deprecated.</b> Please use the 'filterByFillColor' property instead. Whether filter by the cell's fill color.
 
 ```javascript
 getFilterByFillColor() : boolean;
@@ -60,7 +79,7 @@ True: cell's fill color; False: cell's font color.
 
 ### setFilterByFillColor(boolean) {#setFilterByFillColor-boolean-}
 
-Whether filter by the cell's fill color.
+<b>@deprecated.</b> Please use the 'filterByFillColor' property instead. Whether filter by the cell's fill color.
 
 ```javascript
 setFilterByFillColor(value: boolean) : void;

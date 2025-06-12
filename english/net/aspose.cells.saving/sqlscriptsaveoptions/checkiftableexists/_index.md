@@ -16,22 +16,43 @@ public bool CheckIfTableExists { get; set; }
 ### Examples
 
 ```csharp
-// Called: sqlSaveOptions.CheckIfTableExists = true;
-public void SqlScriptSaveOptions_Property_CheckIfTableExists()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(DateTime.Now);
-    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-    // sqlSaveOptions.IdName = "Id";
-    //sqlSaveOptions.Separator = '\n';
-    sqlSaveOptions.AddBlankLineBetweenRows = true;
-    sqlSaveOptions.CreateTable = true;
-    sqlSaveOptions.CheckIfTableExists = true;
-    // sqlSaveOptions.CheckAllDataForColumnType = true;
-    string text = SaveAsSql(wb, sqlSaveOptions);
-    Assert.IsTrue(text.IndexOf("CREATE TABLE IF NOT EXISTS Sheet1_2") != -1);
-    Assert.IsTrue(text.IndexOf("DELETE FROM Sheet1_2 WHERE First_name = 'Simon';") != -1);
+    public class SqlScriptSaveOptionsPropertyCheckIfTableExistsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Jane");
+
+            // Configure SQL save options
+            SqlScriptSaveOptions sqlOptions = new SqlScriptSaveOptions();
+            sqlOptions.CreateTable = true;
+            sqlOptions.CheckIfTableExists = true;
+            sqlOptions.OperatorType = SqlScriptOperatorType.Insert;
+
+            // Save to SQL script file
+            workbook.Save("output.sql", sqlOptions);
+
+            // Read and output the generated SQL
+            string sqlScript = System.IO.File.ReadAllText("output.sql");
+            Console.WriteLine("Generated SQL Script:");
+            Console.WriteLine(sqlScript);
+        }
+    }
 }
 ```
 

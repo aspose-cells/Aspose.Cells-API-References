@@ -20,12 +20,35 @@ public VbaModule this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Sheet6", workbook.VbaProject.Modules[6].Name);
-public void VbaModuleCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual("Sheet6", workbook.VbaProject.Modules[6].Name);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class VbaModuleCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook with VBA project
+            Workbook workbook = new Workbook("sample.xlsm");
+            
+            // Get existing VBA project (VbaProject is read-only)
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add a module to the VBA project
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "TestModule");
+            
+            // Access the module using Item property
+            VbaModule module = vbaProject.Modules[index];
+            
+            // Add some VBA code to the module
+            module.Codes = "Sub TestMacro()\n    MsgBox \"Hello from VBA!\"\nEnd Sub";
+            
+            // Save the workbook
+            workbook.Save("VbaModuleDemo.xlsm", SaveFormat.Xlsm);
+        }
+    }
 }
 ```
 
@@ -53,16 +76,42 @@ public VbaModule this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-public void VbaModuleCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var source = new Workbook(Constants.sourcePath + "example.xlsm");
-    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    VbaProject vbaProject = wb.VbaProject;
-   int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-    Assert.IsNotNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-    Assert.IsNotNull(vbaProject.Modules[x].Codes);
-    wb.Save(Constants.destPath + "example.xlsm");
+    public class VbaModuleCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add VBA module to the workbook
+            int moduleIndex = workbook.VbaProject.Modules.Add(worksheet);
+            
+            // Access the module using Item property by name
+            VbaModule module = workbook.VbaProject.Modules[worksheet.CodeName];
+            
+            // Set VBA code
+            module.Codes = "Sub Test()\r\n    MsgBox \"Hello World!\"\r\nEnd Sub";
+            
+            // Save the workbook
+            workbook.Save("output.xlsm", SaveFormat.Xlsm);
+            
+            // Verify by loading back
+            Workbook verifyWorkbook = new Workbook("output.xlsm");
+            VbaModule verifyModule = verifyWorkbook.VbaProject.Modules[worksheet.CodeName];
+            
+            Console.WriteLine("VBA Code in saved file:");
+            Console.WriteLine(verifyModule.Codes);
+        }
+    }
 }
 ```
 

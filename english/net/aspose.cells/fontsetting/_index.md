@@ -38,65 +38,47 @@ public class FontSetting
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Adding a new worksheet to the Excel object
+            workbook.Worksheets.Add();
 
-//Adding a new worksheet to the Excel object
-workbook.Worksheets.Add();
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[0];
+            // Accessing the "A1" cell from the worksheet
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Accessing the "A1" cell from the worksheet
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Adding some value to the "A1" cell
+            cell.PutValue("Visit Aspose!");
 
-//Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!");
+            // Getting character range
+            FontSetting character = cell.Characters(6, 7);
 
-//getting charactor
-FontSetting charactor = cell.Characters(6, 7);
+            // Setting the font of selected characters to bold
+            character.Font.IsBold = true;
 
-//Setting the font of selected characters to bold
-charactor.Font.IsBold = true;
+            // Setting the font color of selected characters to blue
+            character.Font.Color = Color.Blue;
 
-//Setting the font color of selected characters to blue
-charactor.Font.Color = Color.Blue;
+            // Saving the Excel file
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Saving the Excel file
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Adding a new worksheet to the Excel object
-workbook.Worksheets.Add()
-
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'getting charactor
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Setting the font of selected characters to bold
-charactor.Font.IsBold = True
-
-'Setting the font color of selected characters to blue
-charactor.Font.Color = Color.Blue
-
-'Saving the Excel file
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
 ### See Also

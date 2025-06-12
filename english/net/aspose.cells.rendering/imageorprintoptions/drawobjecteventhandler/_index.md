@@ -16,33 +16,55 @@ public DrawObjectEventHandler DrawObjectEventHandler { get; set; }
 ### Examples
 
 ```csharp
-// Called: imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
-        public void ImageOrPrintOptions_Property_DrawObjectEventHandler()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyDrawObjectEventHandlerDemo
+    {
+        public static void Run()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-            Worksheet sheet = wb.Worksheets["Sheet1"];
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["B2"].PutValue(456);
 
-            // Circumvents bug CELLSJAVA-42496
-            sheet.AutoFitRows(true);
+            // Create custom DrawObject event handler
+            var drawHandler = new CustomDrawObjectEventHandler();
 
-            // DrawObjectEventHandler
-            MyDrawObjectEventHandler drawHandler = new MyDrawObjectEventHandler();
+            // Set image options with the event handler
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.DrawObjectEventHandler = drawHandler;
 
-            ImageOrPrintOptions imgOrPrintOptions = new ImageOrPrintOptions();
-#if !NETCOREAPP2_0
-            imgOrPrintOptions.ImageType = ImageType.Png;
-#endif
-            imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
-
-            SheetRender render = new SheetRender(sheet, imgOrPrintOptions);
-
-            // trigger the DrawObjectEventHandler by rendering each page
-            for (int pg = 0, pages = render.PageCount; pg < pages; pg++)
+            // Render the worksheet to trigger the events
+            SheetRender render = new SheetRender(worksheet, options);
+            for (int pageIndex = 0; pageIndex < render.PageCount; pageIndex++)
             {
-                drawHandler.PageIndex = pg;
-                render.ToImage(pg, new MemoryStream());
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    render.ToImage(pageIndex, stream);
+                }
             }
         }
+    }
+
+    public class CustomDrawObjectEventHandler : DrawObjectEventHandler
+    {
+        public override void Draw(DrawObject drawObject, float x, float y, float width, float height)
+        {
+            // Example: Print information about the drawn object
+            Console.WriteLine($"Drawing {drawObject.Type} at ({x},{y}) with size {width}x{height}");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,13 +16,29 @@ public bool IsBlank()
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(r.IsBlank());
-public void Range_Method_IsBlank()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range r = cells.CreateRange("A1:C10");
-    Assert.IsTrue(r.IsBlank());
+    public class RangeMethodIsBlankDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a range and check if it's blank (should be true)
+            Aspose.Cells.Range range1 = cells.CreateRange("A1:C10");
+            Console.WriteLine("Range A1:C10 is blank: " + range1.IsBlank());
+
+            // Put a value in one cell and check again (should be false)
+            cells["B2"].PutValue("Test");
+            Aspose.Cells.Range range2 = cells.CreateRange("A1:C10");
+            Console.WriteLine("Range A1:C10 is blank after adding value: " + range2.IsBlank());
+        }
+    }
 }
 ```
 

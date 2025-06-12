@@ -16,15 +16,33 @@ public PrintCommentsType ExportCommentsType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportCommentsType = PrintCommentsType.PrintInPlace;
-public void HtmlSaveOptions_Property_ExportCommentsType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportCommentsType = PrintCommentsType.PrintInPlace;
-    workbook.Save(Constants.HtmlDestPath + "example.html", saveOptions);
-    string text = File.ReadAllText(Constants.HtmlDestPath + "example.html");
-    Assert.IsTrue(text.IndexOf("<br/>who am i<br/>") != -1);
+    public class HtmlSaveOptionsPropertyExportCommentsTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample comment using cell name
+            Comment comment = worksheet.Comments["A1"];
+            comment.Note = "This is a test comment";
+            
+            // Set HTML save options with ExportCommentsType
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportCommentsType = PrintCommentsType.PrintInPlace;
+            
+            // Save to HTML
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("HTML file with comments exported successfully.");
+        }
+    }
 }
 ```
 

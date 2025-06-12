@@ -4,7 +4,7 @@ linktitle: ScenarioCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioCollection class. Represents the list of scenarios in C++.'
 type: docs
-weight: 13000
+weight: 13400
 url: /cpp/aspose.cells/scenariocollection/
 ---
 ## ScenarioCollection class

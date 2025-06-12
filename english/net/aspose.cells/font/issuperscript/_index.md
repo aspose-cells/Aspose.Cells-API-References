@@ -16,13 +16,34 @@ public bool IsSuperscript { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(setting.Font.IsSuperscript);
-public void Font_Property_IsSuperscript()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = workbook.Worksheets[0].Cells["A1"];
-    FontSetting setting = cell.Characters(38, 1);
-    Assert.IsTrue(setting.Font.IsSuperscript);
+    public class FontPropertyIsSuperscriptDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add text to cell A1
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Normal Text Superscript Text");
+            
+            // Format part of the text as superscript
+            FontSetting setting = cell.Characters(12, 11);
+            setting.Font.IsSuperscript = true;
+            
+            // Save the workbook
+            workbook.Save("FontIsSuperscriptDemo.xlsx");
+            
+            // Verify the superscript setting
+            Console.WriteLine("IsSuperscript property: " + setting.Font.IsSuperscript);
+        }
+    }
 }
 ```
 

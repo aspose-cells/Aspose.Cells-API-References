@@ -17,66 +17,99 @@ class DBConnection extends ExternalConnection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ExternalConnection)](#constructor-externalconnection-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [classType](#classType--)| ExternalConnectionClassType | Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object. |
+| [connectionString](#connectionString--)| string | The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [connectionInfo](#connectionInfo--)| string | The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [powerQueryFormula](#powerQueryFormula--)| PowerQueryFormula | Readonly. Gets the definition of power query formula. |
+| [commandType](#commandType--)| OLEDBCommandType | Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
+| [command](#command--)| string | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [severCommand](#severCommand--)| string | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [secondCommand](#secondCommand--)| string | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [id](#id--)| number | Readonly. Gets the id of the connection. |
+| [connectionId](#connectionId--)| number | Readonly. Specifies The unique identifier of this connection. |
+| [sourceType](#sourceType--)| ConnectionDataSourceType | Gets or Sets the external connection DataSource type. |
+| [sSOId](#sSOId--)| string | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
+| [savePassword](#savePassword--)| boolean | True if the password is to be saved as part of the connection string; otherwise, False. |
+| [saveData](#saveData--)| boolean | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
+| [refreshOnLoad](#refreshOnLoad--)| boolean | True if this connection should be refreshed when opening the file; otherwise, false. |
+| [reconnectionMethodType](#reconnectionMethodType--)| ReConnectionMethodType | Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
+| [onlyUseConnectionFile](#onlyUseConnectionFile--)| boolean | Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
+| [odcFile](#odcFile--)| string | Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook. |
+| [sourceFile](#sourceFile--)| string | Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
+| [isNew](#isNew--)| boolean | True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning. |
+| [name](#name--)| string | Specifies the name of the connection. Each connection must have a unique name. |
+| [keepAlive](#keepAlive--)| boolean | True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information. |
+| [refreshInternal](#refreshInternal--)| number | Specifies the number of minutes between automatic refreshes of the connection. |
+| [connectionDescription](#connectionDescription--)| string | Specifies the user description for this connection |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false. |
+| [credentialsMethodType](#credentialsMethodType--)| CredentialsMethodType | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [backgroundRefresh](#backgroundRefresh--)| boolean | Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
+| [parameters](#parameters--)| ConnectionParameterCollection | Readonly. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getClassType()](#getClassType--)| Gets the type of this [ExternalConnection](../externalconnection/) object. |
-| [getConnectionString()](#getConnectionString--)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [setConnectionString(string)](#setConnectionString-string-)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [getConnectionInfo()](#getConnectionInfo--)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [setConnectionInfo(string)](#setConnectionInfo-string-)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
-| [getCommandType()](#getCommandType--)| Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
-| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
-| [getCommand()](#getCommand--)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [setCommand(string)](#setCommand-string-)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [getSeverCommand()](#getSeverCommand--)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [setSeverCommand(string)](#setSeverCommand-string-)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [getSecondCommand()](#getSecondCommand--)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [setSecondCommand(string)](#setSecondCommand-string-)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [getClassType()](#getClassType--)| <b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object. |
+| [getConnectionString()](#getConnectionString--)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [setConnectionString(string)](#setConnectionString-string-)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [getConnectionInfo()](#getConnectionInfo--)| <b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [setConnectionInfo(string)](#setConnectionInfo-string-)| <b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [getPowerQueryFormula()](#getPowerQueryFormula--)| <b>@deprecated.</b> Please use the 'powerQueryFormula' property instead. Gets the definition of power query formula. |
+| [getCommandType()](#getCommandType--)| <b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
+| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| <b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
+| [getCommand()](#getCommand--)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [setCommand(string)](#setCommand-string-)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [getSeverCommand()](#getSeverCommand--)| <b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [setSeverCommand(string)](#setSeverCommand-string-)| <b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [getSecondCommand()](#getSecondCommand--)| <b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [setSecondCommand(string)](#setSecondCommand-string-)| <b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getId()](#getId--)| Gets the id of the connection. |
-| [getConnectionId()](#getConnectionId--)| Specifies The unique identifier of this connection. |
-| [getSourceType()](#getSourceType--)| Gets or Sets the external connection DataSource type. |
-| [setSourceType(ConnectionDataSourceType)](#setSourceType-connectiondatasourcetype-)| Gets or Sets the external connection DataSource type. |
-| [getSSOId()](#getSSOId--)| Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
-| [setSSOId(string)](#setSSOId-string-)| Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
-| [getSavePassword()](#getSavePassword--)| True if the password is to be saved as part of the connection string; otherwise, False. |
-| [setSavePassword(boolean)](#setSavePassword-boolean-)| True if the password is to be saved as part of the connection string; otherwise, False. |
-| [getSaveData()](#getSaveData--)| True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
-| [setSaveData(boolean)](#setSaveData-boolean-)| True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
-| [getRefreshOnLoad()](#getRefreshOnLoad--)| True if this connection should be refreshed when opening the file; otherwise, false. |
-| [setRefreshOnLoad(boolean)](#setRefreshOnLoad-boolean-)| True if this connection should be refreshed when opening the file; otherwise, false. |
-| [getReconnectionMethodType()](#getReconnectionMethodType--)| Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
-| [setReconnectionMethodType(ReConnectionMethodType)](#setReconnectionMethodType-reconnectionmethodtype-)| Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
-| [getOnlyUseConnectionFile()](#getOnlyUseConnectionFile--)| Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
-| [setOnlyUseConnectionFile(boolean)](#setOnlyUseConnectionFile-boolean-)| Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
-| [getOdcFile()](#getOdcFile--)| Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook. |
-| [setOdcFile(string)](#setOdcFile-string-)| Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook. |
-| [getSourceFile()](#getSourceFile--)| Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
-| [setSourceFile(string)](#setSourceFile-string-)| Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
-| [isNew()](#isNew--)| True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning. |
-| [setIsNew(boolean)](#setIsNew-boolean-)| True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning. |
-| [getName()](#getName--)| Specifies the name of the connection. Each connection must have a unique name. |
-| [setName(string)](#setName-string-)| Specifies the name of the connection. Each connection must have a unique name. |
-| [getKeepAlive()](#getKeepAlive--)| True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information. |
-| [setKeepAlive(boolean)](#setKeepAlive-boolean-)| True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information. |
-| [getRefreshInternal()](#getRefreshInternal--)| Specifies the number of minutes between automatic refreshes of the connection. |
-| [setRefreshInternal(number)](#setRefreshInternal-number-)| Specifies the number of minutes between automatic refreshes of the connection. |
-| [getConnectionDescription()](#getConnectionDescription--)| Specifies the user description for this connection |
-| [setConnectionDescription(string)](#setConnectionDescription-string-)| Specifies the user description for this connection |
-| [isDeleted()](#isDeleted--)| Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false. |
-| [getCredentialsMethodType()](#getCredentialsMethodType--)| Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
-| [setCredentialsMethodType(CredentialsMethodType)](#setCredentialsMethodType-credentialsmethodtype-)| Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
-| [getBackgroundRefresh()](#getBackgroundRefresh--)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
-| [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
-| [getParameters()](#getParameters--)| Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the connection. |
+| [getConnectionId()](#getConnectionId--)| <b>@deprecated.</b> Please use the 'connectionId' property instead. Specifies The unique identifier of this connection. |
+| [getSourceType()](#getSourceType--)| <b>@deprecated.</b> Please use the 'sourceType' property instead. Gets or Sets the external connection DataSource type. |
+| [setSourceType(ConnectionDataSourceType)](#setSourceType-connectiondatasourcetype-)| <b>@deprecated.</b> Please use the 'sourceType' property instead. Gets or Sets the external connection DataSource type. |
+| [getSSOId()](#getSSOId--)| <b>@deprecated.</b> Please use the 'sSOId' property instead. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
+| [setSSOId(string)](#setSSOId-string-)| <b>@deprecated.</b> Please use the 'sSOId' property instead. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
+| [getSavePassword()](#getSavePassword--)| <b>@deprecated.</b> Please use the 'savePassword' property instead. True if the password is to be saved as part of the connection string; otherwise, False. |
+| [setSavePassword(boolean)](#setSavePassword-boolean-)| <b>@deprecated.</b> Please use the 'savePassword' property instead. True if the password is to be saved as part of the connection string; otherwise, False. |
+| [getSaveData()](#getSaveData--)| <b>@deprecated.</b> Please use the 'saveData' property instead. True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
+| [setSaveData(boolean)](#setSaveData-boolean-)| <b>@deprecated.</b> Please use the 'saveData' property instead. True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
+| [getRefreshOnLoad()](#getRefreshOnLoad--)| <b>@deprecated.</b> Please use the 'refreshOnLoad' property instead. True if this connection should be refreshed when opening the file; otherwise, false. |
+| [setRefreshOnLoad(boolean)](#setRefreshOnLoad-boolean-)| <b>@deprecated.</b> Please use the 'refreshOnLoad' property instead. True if this connection should be refreshed when opening the file; otherwise, false. |
+| [getReconnectionMethodType()](#getReconnectionMethodType--)| <b>@deprecated.</b> Please use the 'reconnectionMethodType' property instead. Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
+| [setReconnectionMethodType(ReConnectionMethodType)](#setReconnectionMethodType-reconnectionmethodtype-)| <b>@deprecated.</b> Please use the 'reconnectionMethodType' property instead. Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. |
+| [getOnlyUseConnectionFile()](#getOnlyUseConnectionFile--)| <b>@deprecated.</b> Please use the 'onlyUseConnectionFile' property instead. Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
+| [setOnlyUseConnectionFile(boolean)](#setOnlyUseConnectionFile-boolean-)| <b>@deprecated.</b> Please use the 'onlyUseConnectionFile' property instead. Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute |
+| [getOdcFile()](#getOdcFile--)| <b>@deprecated.</b> Please use the 'odcFile' property instead. Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook. |
+| [setOdcFile(string)](#setOdcFile-string-)| <b>@deprecated.</b> Please use the 'odcFile' property instead. Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook. |
+| [getSourceFile()](#getSourceFile--)| <b>@deprecated.</b> Please use the 'sourceFile' property instead. Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
+| [setSourceFile(string)](#setSourceFile-string-)| <b>@deprecated.</b> Please use the 'sourceFile' property instead. Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
+| [isNew()](#isNew--)| <b>@deprecated.</b> Please use the 'isNew' property instead. True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning. |
+| [setIsNew(boolean)](#setIsNew-boolean-)| <b>@deprecated.</b> Please use the 'isNew' property instead. True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Specifies the name of the connection. Each connection must have a unique name. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Specifies the name of the connection. Each connection must have a unique name. |
+| [getKeepAlive()](#getKeepAlive--)| <b>@deprecated.</b> Please use the 'keepAlive' property instead. True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information. |
+| [setKeepAlive(boolean)](#setKeepAlive-boolean-)| <b>@deprecated.</b> Please use the 'keepAlive' property instead. True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information. |
+| [getRefreshInternal()](#getRefreshInternal--)| <b>@deprecated.</b> Please use the 'refreshInternal' property instead. Specifies the number of minutes between automatic refreshes of the connection. |
+| [setRefreshInternal(number)](#setRefreshInternal-number-)| <b>@deprecated.</b> Please use the 'refreshInternal' property instead. Specifies the number of minutes between automatic refreshes of the connection. |
+| [getConnectionDescription()](#getConnectionDescription--)| <b>@deprecated.</b> Please use the 'connectionDescription' property instead. Specifies the user description for this connection |
+| [setConnectionDescription(string)](#setConnectionDescription-string-)| <b>@deprecated.</b> Please use the 'connectionDescription' property instead. Specifies the user description for this connection |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false. |
+| [getCredentialsMethodType()](#getCredentialsMethodType--)| <b>@deprecated.</b> Please use the 'credentialsMethodType' property instead. Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [setCredentialsMethodType(CredentialsMethodType)](#setCredentialsMethodType-credentialsmethodtype-)| <b>@deprecated.</b> Please use the 'credentialsMethodType' property instead. Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [getBackgroundRefresh()](#getBackgroundRefresh--)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
+| [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
+| [getParameters()](#getParameters--)| <b>@deprecated.</b> Please use the 'parameters' property instead. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
 | [getConnectionFile()](#getConnectionFile--)| Gets the connection file. |
 
 
@@ -93,9 +126,273 @@ constructor(obj: ExternalConnection);
 | --- | --- | --- |
 | obj | ExternalConnection | The parent object. |
 
+### classType {#classType--}
+
+Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object.
+
+```javascript
+classType : ExternalConnectionClassType;
+```
+
+
+### connectionString {#connectionString--}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+connectionString : string;
+```
+
+
+### connectionInfo {#connectionInfo--}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+connectionInfo : string;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.ConnectionString property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### powerQueryFormula {#powerQueryFormula--}
+
+Readonly. Gets the definition of power query formula.
+
+```javascript
+powerQueryFormula : PowerQueryFormula;
+```
+
+
+### commandType {#commandType--}
+
+Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+
+```javascript
+commandType : OLEDBCommandType;
+```
+
+
+### command {#command--}
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+```javascript
+command : string;
+```
+
+
+### severCommand {#severCommand--}
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+```javascript
+severCommand : string;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.SecondCommand property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### secondCommand {#secondCommand--}
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+```javascript
+secondCommand : string;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the id of the connection.
+
+```javascript
+id : number;
+```
+
+
+### connectionId {#connectionId--}
+
+Readonly. Specifies The unique identifier of this connection.
+
+```javascript
+connectionId : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.Id property. This property will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### sourceType {#sourceType--}
+
+Gets or Sets the external connection DataSource type.
+
+```javascript
+sourceType : ConnectionDataSourceType;
+```
+
+
+### sSOId {#sSOId--}
+
+Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
+
+```javascript
+sSOId : string;
+```
+
+
+### savePassword {#savePassword--}
+
+True if the password is to be saved as part of the connection string; otherwise, False.
+
+```javascript
+savePassword : boolean;
+```
+
+
+### saveData {#saveData--}
+
+True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
+
+```javascript
+saveData : boolean;
+```
+
+
+### refreshOnLoad {#refreshOnLoad--}
+
+True if this connection should be refreshed when opening the file; otherwise, false.
+
+```javascript
+refreshOnLoad : boolean;
+```
+
+
+### reconnectionMethodType {#reconnectionMethodType--}
+
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
+```javascript
+reconnectionMethodType : ReConnectionMethodType;
+```
+
+
+### onlyUseConnectionFile {#onlyUseConnectionFile--}
+
+Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
+
+```javascript
+onlyUseConnectionFile : boolean;
+```
+
+
+### odcFile {#odcFile--}
+
+Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
+
+```javascript
+odcFile : string;
+```
+
+
+### sourceFile {#sourceFile--}
+
+Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
+
+```javascript
+sourceFile : string;
+```
+
+
+### isNew {#isNew--}
+
+True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
+
+```javascript
+isNew : boolean;
+```
+
+
+### name {#name--}
+
+Specifies the name of the connection. Each connection must have a unique name.
+
+```javascript
+name : string;
+```
+
+
+### keepAlive {#keepAlive--}
+
+True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
+
+```javascript
+keepAlive : boolean;
+```
+
+
+### refreshInternal {#refreshInternal--}
+
+Specifies the number of minutes between automatic refreshes of the connection.
+
+```javascript
+refreshInternal : number;
+```
+
+
+### connectionDescription {#connectionDescription--}
+
+Specifies the user description for this connection
+
+```javascript
+connectionDescription : string;
+```
+
+
+### isDeleted {#isDeleted--}
+
+Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false.
+
+```javascript
+isDeleted : boolean;
+```
+
+
+### credentialsMethodType {#credentialsMethodType--}
+
+Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
+```javascript
+credentialsMethodType : CredentialsMethodType;
+```
+
+
+### backgroundRefresh {#backgroundRefresh--}
+
+Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
+
+```javascript
+backgroundRefresh : boolean;
+```
+
+
+### parameters {#parameters--}
+
+Readonly. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query.
+
+```javascript
+parameters : ConnectionParameterCollection;
+```
+
+
 ### getClassType() {#getClassType--}
 
-Gets the type of this [ExternalConnection](../externalconnection/) object.
+<b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object.
 
 ```javascript
 getClassType() : ExternalConnectionClassType;
@@ -108,7 +405,7 @@ getClassType() : ExternalConnectionClassType;
 
 ### getConnectionString() {#getConnectionString--}
 
-The connection information string is used to make contact with an OLE DB or ODBC data source.
+<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
 
 ```javascript
 getConnectionString() : string;
@@ -117,7 +414,7 @@ getConnectionString() : string;
 
 ### setConnectionString(string) {#setConnectionString-string-}
 
-The connection information string is used to make contact with an OLE DB or ODBC data source.
+<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
 
 ```javascript
 setConnectionString(value: string) : void;
@@ -130,7 +427,7 @@ setConnectionString(value: string) : void;
 
 ### getConnectionInfo() {#getConnectionInfo--}
 
-The connection information string is used to make contact with an OLE DB or ODBC data source.
+<b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
 
 ```javascript
 getConnectionInfo() : string;
@@ -143,7 +440,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Conn
 
 ### setConnectionInfo(string) {#setConnectionInfo-string-}
 
-The connection information string is used to make contact with an OLE DB or ODBC data source.
+<b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
 
 ```javascript
 setConnectionInfo(value: string) : void;
@@ -160,7 +457,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Conn
 
 ### getPowerQueryFormula() {#getPowerQueryFormula--}
 
-Gets the definition of power query formula.
+<b>@deprecated.</b> Please use the 'powerQueryFormula' property instead. Gets the definition of power query formula.
 
 ```javascript
 getPowerQueryFormula() : PowerQueryFormula;
@@ -173,7 +470,7 @@ getPowerQueryFormula() : PowerQueryFormula;
 
 ### getCommandType() {#getCommandType--}
 
-Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+<b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
 
 ```javascript
 getCommandType() : OLEDBCommandType;
@@ -186,7 +483,7 @@ getCommandType() : OLEDBCommandType;
 
 ### setCommandType(OLEDBCommandType) {#setCommandType-oledbcommandtype-}
 
-Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+<b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
 
 ```javascript
 setCommandType(value: OLEDBCommandType) : void;
@@ -199,7 +496,7 @@ setCommandType(value: OLEDBCommandType) : void;
 
 ### getCommand() {#getCommand--}
 
-The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
 
 ```javascript
 getCommand() : string;
@@ -208,7 +505,7 @@ getCommand() : string;
 
 ### setCommand(string) {#setCommand-string-}
 
-The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
 
 ```javascript
 setCommand(value: string) : void;
@@ -221,7 +518,7 @@ setCommand(value: string) : void;
 
 ### getSeverCommand() {#getSeverCommand--}
 
-Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+<b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
 
 ```javascript
 getSeverCommand() : string;
@@ -234,7 +531,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Seco
 
 ### setSeverCommand(string) {#setSeverCommand-string-}
 
-Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+<b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
 
 ```javascript
 setSeverCommand(value: string) : void;
@@ -251,7 +548,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Seco
 
 ### getSecondCommand() {#getSecondCommand--}
 
-Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+<b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
 
 ```javascript
 getSecondCommand() : string;
@@ -260,7 +557,7 @@ getSecondCommand() : string;
 
 ### setSecondCommand(string) {#setSecondCommand-string-}
 
-Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+<b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
 
 ```javascript
 setSecondCommand(value: string) : void;
@@ -282,7 +579,7 @@ isNull() : boolean;
 
 ### getId() {#getId--}
 
-Gets the id of the connection.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the connection.
 
 ```javascript
 getId() : number;
@@ -291,7 +588,7 @@ getId() : number;
 
 ### getConnectionId() {#getConnectionId--}
 
-Specifies The unique identifier of this connection.
+<b>@deprecated.</b> Please use the 'connectionId' property instead. Specifies The unique identifier of this connection.
 
 ```javascript
 getConnectionId() : number;
@@ -304,7 +601,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Id p
 
 ### getSourceType() {#getSourceType--}
 
-Gets or Sets the external connection DataSource type.
+<b>@deprecated.</b> Please use the 'sourceType' property instead. Gets or Sets the external connection DataSource type.
 
 ```javascript
 getSourceType() : ConnectionDataSourceType;
@@ -317,7 +614,7 @@ getSourceType() : ConnectionDataSourceType;
 
 ### setSourceType(ConnectionDataSourceType) {#setSourceType-connectiondatasourcetype-}
 
-Gets or Sets the external connection DataSource type.
+<b>@deprecated.</b> Please use the 'sourceType' property instead. Gets or Sets the external connection DataSource type.
 
 ```javascript
 setSourceType(value: ConnectionDataSourceType) : void;
@@ -330,7 +627,7 @@ setSourceType(value: ConnectionDataSourceType) : void;
 
 ### getSSOId() {#getSSOId--}
 
-Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
+<b>@deprecated.</b> Please use the 'sSOId' property instead. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
 
 ```javascript
 getSSOId() : string;
@@ -339,7 +636,7 @@ getSSOId() : string;
 
 ### setSSOId(string) {#setSSOId-string-}
 
-Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
+<b>@deprecated.</b> Please use the 'sSOId' property instead. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
 
 ```javascript
 setSSOId(value: string) : void;
@@ -352,7 +649,7 @@ setSSOId(value: string) : void;
 
 ### getSavePassword() {#getSavePassword--}
 
-True if the password is to be saved as part of the connection string; otherwise, False.
+<b>@deprecated.</b> Please use the 'savePassword' property instead. True if the password is to be saved as part of the connection string; otherwise, False.
 
 ```javascript
 getSavePassword() : boolean;
@@ -361,7 +658,7 @@ getSavePassword() : boolean;
 
 ### setSavePassword(boolean) {#setSavePassword-boolean-}
 
-True if the password is to be saved as part of the connection string; otherwise, False.
+<b>@deprecated.</b> Please use the 'savePassword' property instead. True if the password is to be saved as part of the connection string; otherwise, False.
 
 ```javascript
 setSavePassword(value: boolean) : void;
@@ -374,7 +671,7 @@ setSavePassword(value: boolean) : void;
 
 ### getSaveData() {#getSaveData--}
 
-True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
+<b>@deprecated.</b> Please use the 'saveData' property instead. True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
 
 ```javascript
 getSaveData() : boolean;
@@ -383,7 +680,7 @@ getSaveData() : boolean;
 
 ### setSaveData(boolean) {#setSaveData-boolean-}
 
-True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
+<b>@deprecated.</b> Please use the 'saveData' property instead. True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
 
 ```javascript
 setSaveData(value: boolean) : void;
@@ -396,7 +693,7 @@ setSaveData(value: boolean) : void;
 
 ### getRefreshOnLoad() {#getRefreshOnLoad--}
 
-True if this connection should be refreshed when opening the file; otherwise, false.
+<b>@deprecated.</b> Please use the 'refreshOnLoad' property instead. True if this connection should be refreshed when opening the file; otherwise, false.
 
 ```javascript
 getRefreshOnLoad() : boolean;
@@ -405,7 +702,7 @@ getRefreshOnLoad() : boolean;
 
 ### setRefreshOnLoad(boolean) {#setRefreshOnLoad-boolean-}
 
-True if this connection should be refreshed when opening the file; otherwise, false.
+<b>@deprecated.</b> Please use the 'refreshOnLoad' property instead. True if this connection should be refreshed when opening the file; otherwise, false.
 
 ```javascript
 setRefreshOnLoad(value: boolean) : void;
@@ -418,7 +715,7 @@ setRefreshOnLoad(value: boolean) : void;
 
 ### getReconnectionMethodType() {#getReconnectionMethodType--}
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+<b>@deprecated.</b> Please use the 'reconnectionMethodType' property instead. Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
 
 ```javascript
 getReconnectionMethodType() : ReConnectionMethodType;
@@ -431,7 +728,7 @@ getReconnectionMethodType() : ReConnectionMethodType;
 
 ### setReconnectionMethodType(ReConnectionMethodType) {#setReconnectionMethodType-reconnectionmethodtype-}
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+<b>@deprecated.</b> Please use the 'reconnectionMethodType' property instead. Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
 
 ```javascript
 setReconnectionMethodType(value: ReConnectionMethodType) : void;
@@ -444,7 +741,7 @@ setReconnectionMethodType(value: ReConnectionMethodType) : void;
 
 ### getOnlyUseConnectionFile() {#getOnlyUseConnectionFile--}
 
-Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
+<b>@deprecated.</b> Please use the 'onlyUseConnectionFile' property instead. Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
 
 ```javascript
 getOnlyUseConnectionFile() : boolean;
@@ -453,7 +750,7 @@ getOnlyUseConnectionFile() : boolean;
 
 ### setOnlyUseConnectionFile(boolean) {#setOnlyUseConnectionFile-boolean-}
 
-Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
+<b>@deprecated.</b> Please use the 'onlyUseConnectionFile' property instead. Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed.  If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
 
 ```javascript
 setOnlyUseConnectionFile(value: boolean) : void;
@@ -466,7 +763,7 @@ setOnlyUseConnectionFile(value: boolean) : void;
 
 ### getOdcFile() {#getOdcFile--}
 
-Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
+<b>@deprecated.</b> Please use the 'odcFile' property instead. Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
 
 ```javascript
 getOdcFile() : string;
@@ -475,7 +772,7 @@ getOdcFile() : string;
 
 ### setOdcFile(string) {#setOdcFile-string-}
 
-Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
+<b>@deprecated.</b> Please use the 'odcFile' property instead. Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
 
 ```javascript
 setOdcFile(value: string) : void;
@@ -488,7 +785,7 @@ setOdcFile(value: string) : void;
 
 ### getSourceFile() {#getSourceFile--}
 
-Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
+<b>@deprecated.</b> Please use the 'sourceFile' property instead. Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
 
 ```javascript
 getSourceFile() : string;
@@ -497,7 +794,7 @@ getSourceFile() : string;
 
 ### setSourceFile(string) {#setSourceFile-string-}
 
-Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
+<b>@deprecated.</b> Please use the 'sourceFile' property instead. Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
 
 ```javascript
 setSourceFile(value: string) : void;
@@ -510,7 +807,7 @@ setSourceFile(value: string) : void;
 
 ### isNew() {#isNew--}
 
-True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
+<b>@deprecated.</b> Please use the 'isNew' property instead. True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
 
 ```javascript
 isNew() : boolean;
@@ -519,7 +816,7 @@ isNew() : boolean;
 
 ### setIsNew(boolean) {#setIsNew-boolean-}
 
-True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
+<b>@deprecated.</b> Please use the 'isNew' property instead. True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
 
 ```javascript
 setIsNew(value: boolean) : void;
@@ -532,7 +829,7 @@ setIsNew(value: boolean) : void;
 
 ### getName() {#getName--}
 
-Specifies the name of the connection. Each connection must have a unique name.
+<b>@deprecated.</b> Please use the 'name' property instead. Specifies the name of the connection. Each connection must have a unique name.
 
 ```javascript
 getName() : string;
@@ -541,7 +838,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Specifies the name of the connection. Each connection must have a unique name.
+<b>@deprecated.</b> Please use the 'name' property instead. Specifies the name of the connection. Each connection must have a unique name.
 
 ```javascript
 setName(value: string) : void;
@@ -554,7 +851,7 @@ setName(value: string) : void;
 
 ### getKeepAlive() {#getKeepAlive--}
 
-True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
+<b>@deprecated.</b> Please use the 'keepAlive' property instead. True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
 
 ```javascript
 getKeepAlive() : boolean;
@@ -563,7 +860,7 @@ getKeepAlive() : boolean;
 
 ### setKeepAlive(boolean) {#setKeepAlive-boolean-}
 
-True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
+<b>@deprecated.</b> Please use the 'keepAlive' property instead. True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
 
 ```javascript
 setKeepAlive(value: boolean) : void;
@@ -576,7 +873,7 @@ setKeepAlive(value: boolean) : void;
 
 ### getRefreshInternal() {#getRefreshInternal--}
 
-Specifies the number of minutes between automatic refreshes of the connection.
+<b>@deprecated.</b> Please use the 'refreshInternal' property instead. Specifies the number of minutes between automatic refreshes of the connection.
 
 ```javascript
 getRefreshInternal() : number;
@@ -585,7 +882,7 @@ getRefreshInternal() : number;
 
 ### setRefreshInternal(number) {#setRefreshInternal-number-}
 
-Specifies the number of minutes between automatic refreshes of the connection.
+<b>@deprecated.</b> Please use the 'refreshInternal' property instead. Specifies the number of minutes between automatic refreshes of the connection.
 
 ```javascript
 setRefreshInternal(value: number) : void;
@@ -598,7 +895,7 @@ setRefreshInternal(value: number) : void;
 
 ### getConnectionDescription() {#getConnectionDescription--}
 
-Specifies the user description for this connection
+<b>@deprecated.</b> Please use the 'connectionDescription' property instead. Specifies the user description for this connection
 
 ```javascript
 getConnectionDescription() : string;
@@ -607,7 +904,7 @@ getConnectionDescription() : string;
 
 ### setConnectionDescription(string) {#setConnectionDescription-string-}
 
-Specifies the user description for this connection
+<b>@deprecated.</b> Please use the 'connectionDescription' property instead. Specifies the user description for this connection
 
 ```javascript
 setConnectionDescription(value: string) : void;
@@ -620,7 +917,7 @@ setConnectionDescription(value: string) : void;
 
 ### isDeleted() {#isDeleted--}
 
-Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false.
 
 ```javascript
 isDeleted() : boolean;
@@ -629,7 +926,7 @@ isDeleted() : boolean;
 
 ### setIsDeleted(boolean) {#setIsDeleted-boolean-}
 
-Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether the associated workbook connection has been deleted.  true if the connection has been deleted; otherwise, false.
 
 ```javascript
 setIsDeleted(value: boolean) : void;
@@ -642,7 +939,7 @@ setIsDeleted(value: boolean) : void;
 
 ### getCredentialsMethodType() {#getCredentialsMethodType--}
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+<b>@deprecated.</b> Please use the 'credentialsMethodType' property instead. Specifies the authentication method to be used when establishing (or re-establishing) the connection.
 
 ```javascript
 getCredentialsMethodType() : CredentialsMethodType;
@@ -655,7 +952,7 @@ getCredentialsMethodType() : CredentialsMethodType;
 
 ### setCredentialsMethodType(CredentialsMethodType) {#setCredentialsMethodType-credentialsmethodtype-}
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+<b>@deprecated.</b> Please use the 'credentialsMethodType' property instead. Specifies the authentication method to be used when establishing (or re-establishing) the connection.
 
 ```javascript
 setCredentialsMethodType(value: CredentialsMethodType) : void;
@@ -668,7 +965,7 @@ setCredentialsMethodType(value: CredentialsMethodType) : void;
 
 ### getBackgroundRefresh() {#getBackgroundRefresh--}
 
-Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
+<b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
 
 ```javascript
 getBackgroundRefresh() : boolean;
@@ -677,7 +974,7 @@ getBackgroundRefresh() : boolean;
 
 ### setBackgroundRefresh(boolean) {#setBackgroundRefresh-boolean-}
 
-Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
+<b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
 
 ```javascript
 setBackgroundRefresh(value: boolean) : void;
@@ -690,7 +987,7 @@ setBackgroundRefresh(value: boolean) : void;
 
 ### getParameters() {#getParameters--}
 
-Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query.
+<b>@deprecated.</b> Please use the 'parameters' property instead. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query.
 
 ```javascript
 getParameters() : ConnectionParameterCollection;

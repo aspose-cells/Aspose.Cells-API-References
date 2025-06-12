@@ -16,24 +16,46 @@ public SortOrder Order1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.DataSorter.Order1 = SortOrder.Ascending;
-public void DataSorter_Property_Order1()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class DataSorterPropertyOrder1Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Score");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(85);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(92);
+            worksheet.Cells["A4"].PutValue("Bob");
+            worksheet.Cells["B4"].PutValue(78);
 
-    wb.CalculateFormula();
-
-    wb.DataSorter.Order1 = SortOrder.Ascending;
-    wb.DataSorter.SortLeftToRight = true;
-
-    Worksheet ws = wb.Worksheets["Output"];
-
-    CellArea ca = CellArea.CreateCellArea("T1", "AK5000");
-
-    wb.DataSorter.Key1 = 12;
-    wb.DataSorter.Sort(ws.Cells, ca);
-    Assert.AreEqual(ws.Cells["Y1"].Formula, "=Y4");
-    wb.Save(Constants.destPath + "example.xlsx");
+            // Set data sorter properties
+            DataSorter sorter = workbook.DataSorter;
+            sorter.Order1 = SortOrder.Ascending;
+            sorter.Key1 = 1; // Sort by column B (Score)
+            
+            // Define sort range
+            CellArea area = CellArea.CreateCellArea("A1", "B4");
+            
+            // Perform the sort
+            sorter.Sort(worksheet.Cells, area);
+            
+            // Save the workbook
+            workbook.Save("SortedOutput.xlsx");
+        }
+    }
 }
 ```
 

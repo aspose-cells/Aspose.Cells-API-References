@@ -20,55 +20,38 @@ The default value is PixelFormat.Format32bppArgb.
 ### Examples
 
 ```csharp
-// Called: cellRenderoptions.PixelFormat = System.Drawing.Imaging.PixelFormat.Format32bppArgb;
-public void ImageOrPrintOptions_Property_PixelFormat()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    var selectedWS = wb.Worksheets[0];
-
-    Aspose.Cells.PageSetup setup = selectedWS.PageSetup;
-    setup.PaperSize = Aspose.Cells.PaperSizeType.PaperA4;
-    int horizDpi = 170;
-    int vertDpi = 170;
-    Aspose.Cells.Rendering.ImageOrPrintOptions cellRenderoptions = new Aspose.Cells.Rendering.ImageOrPrintOptions();
-
-    // Set Horizontal Resolution
-    cellRenderoptions.ImageType = ImageType.Tiff;
-    cellRenderoptions.TiffCompression = Aspose.Cells.Rendering.TiffCompression.CompressionCCITT3;
-
-    // Set Vertical Resolution
-    cellRenderoptions.VerticalResolution = vertDpi;
-    cellRenderoptions.HorizontalResolution = horizDpi;
-    cellRenderoptions.Quality = 100;
-    cellRenderoptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-    cellRenderoptions.PixelFormat = System.Drawing.Imaging.PixelFormat.Format32bppArgb;
-
-    // If you want entire sheet as a single image
-    cellRenderoptions.OnePagePerSheet = false;
-
-
-    // Render to image
-    Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(selectedWS, cellRenderoptions);
-    MemoryStream ms = new MemoryStream();
-    sr.ToTiff(ms);
-
-    int blackPointCount = 0;
-    using (Bitmap b = (Bitmap)Image.FromStream(ms))
+    public class ImageOrPrintOptionsPropertyPixelFormatDemo
     {
-        for (int i = 1002; i <= 1078; i++)
+        public static void Run()
         {
-            for (int j = 1593; j <= 1667; j++)
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("PixelFormat Demo");
+            
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            
+            // Create sheet render and save to image
+            SheetRender render = new SheetRender(worksheet, options);
+            using (MemoryStream stream = new MemoryStream())
             {
-                Color c = b.GetPixel(i, j);
-                if (c.R == 0 && c.G == 0 && c.B == 0)
-                {
-                    blackPointCount++;
-                }
+                render.ToImage(0, stream);
+                
+                // Verify the image format
+                stream.Position = 0;
+                Console.WriteLine($"Image saved successfully");
             }
         }
     }
-    Assert.IsTrue(blackPointCount > 1000);
 }
 ```
 

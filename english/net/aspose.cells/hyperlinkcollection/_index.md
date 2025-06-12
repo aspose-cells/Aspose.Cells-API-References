@@ -59,41 +59,52 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
+    public class HyperlinkCollectionDemo
+    {
+        public static void HyperlinkCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-[C#]
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Get Hyperlinks Collection
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[0];
+            // Adding a hyperlink to a URL at "A1" cell
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-//Get Hyperlinks Collection
-HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+            // Adding another hyperlink to a URL at "B1" cell
+            hyperlinks.Add("B1", 1, 1, "http://www.example.com");
 
-//Adding a hyperlink to a URL at "A1" cell
-hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+            // Adding a hyperlink with a range of cells
+            hyperlinks.Add("C1", 1, 2, "http://www.test.com");
 
-//Saving the Excel file
-workbook.Save("book1.xls");
+            // Adding a hyperlink with a specific text to display and screen tip
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
 
-[VB.NET]
+            // Removing the first hyperlink
+            hyperlinks.RemoveAt(0);
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
+            // Clearing all hyperlinks
+            hyperlinks.Clear();
 
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Adding a hyperlink again to demonstrate saving
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-'Get Hyperlinks Collection
-Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
-
-'Adding a hyperlink to a URL at "A1" cell
-hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
-
-'Saving the Excel file
-workbook.Save("book1.xls")
+            // Saving the Excel file
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+            workbook.Save("HyperlinkCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

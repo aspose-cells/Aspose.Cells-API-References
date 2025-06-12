@@ -43,15 +43,51 @@ public class ShapeTextAlignment
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+    public class ShapeTextAlignmentDemo
+    {
+        public static void ShapeTextAlignmentExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//do your business
+            // Adding a rectangle shape to the worksheet
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
 
+            // Accessing the ShapeTextAlignment object
+            ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+
+            // Setting properties
+            shapeTextAlignment.IsTextWrapped = true;
+            shapeTextAlignment.RotateTextWithShape = true;
+            shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.RotationAngle = 90;
+            shapeTextAlignment.TextVerticalType = TextVerticalType.Horizontal;
+            shapeTextAlignment.IsLockedText = false;
+            shapeTextAlignment.AutoSize = false;
+            shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
+            shapeTextAlignment.TopMarginPt = 2.0d;
+            shapeTextAlignment.BottomMarginPt = 2.0d;
+            shapeTextAlignment.LeftMarginPt = 2.0d;
+            shapeTextAlignment.RightMarginPt = 2.0d;
+            shapeTextAlignment.IsAutoMargin = true;
+            shapeTextAlignment.NumberOfColumns = 1;
+
+            // Saving the workbook
+            workbook.Save("ShapeTextAlignmentExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

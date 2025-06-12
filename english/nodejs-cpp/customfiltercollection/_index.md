@@ -17,19 +17,25 @@ class CustomFilterCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Constructs new instance. |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [and](#and--)| boolean | Indicates whether the two criteria have an "and" relationship. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the custom filter in the specific index. |
-| [getAnd()](#getAnd--)| Indicates whether the two criteria have an "and" relationship. |
-| [setAnd(boolean)](#setAnd-boolean-)| Indicates whether the two criteria have an "and" relationship. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getAnd()](#getAnd--)| <b>@deprecated.</b> Please use the 'and' property instead. Indicates whether the two criteria have an "and" relationship. |
+| [setAnd(boolean)](#setAnd-boolean-)| <b>@deprecated.</b> Please use the 'and' property instead. Indicates whether the two criteria have an "and" relationship. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -56,6 +62,15 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
+### and {#and--}
+
+Indicates whether the two criteria have an "and" relationship.
+
+```javascript
+and : boolean;
+```
+
+
 ### get(number) {#get-number-}
 
 Gets the custom filter in the specific index.
@@ -75,7 +90,7 @@ get(index: number) : CustomFilter;
 
 ### getAnd() {#getAnd--}
 
-Indicates whether the two criteria have an "and" relationship.
+<b>@deprecated.</b> Please use the 'and' property instead. Indicates whether the two criteria have an "and" relationship.
 
 ```javascript
 getAnd() : boolean;
@@ -84,7 +99,7 @@ getAnd() : boolean;
 
 ### setAnd(boolean) {#setAnd-boolean-}
 
-Indicates whether the two criteria have an "and" relationship.
+<b>@deprecated.</b> Please use the 'and' property instead. Indicates whether the two criteria have an "and" relationship.
 
 ```javascript
 setAnd(value: boolean) : void;
@@ -97,7 +112,7 @@ setAnd(value: boolean) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

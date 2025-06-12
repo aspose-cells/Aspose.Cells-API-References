@@ -24,19 +24,37 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
-public void HyperlinkCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-
-    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.baidu.com");
-    workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
-
-   AssertHelper.AreEqual(System.Drawing.Color.Blue, workbook.Worksheets[0].Cells["A1"].GetStyle().Font.Color);
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
-    Assert.AreEqual(20, workbook.Worksheets[0].Cells["B4"].GetStyle().Font.Size);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class HyperlinkCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a hyperlink to cell A1
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.example.com");
+            
+            // Access the first hyperlink using Item property and set display text
+            worksheet.Hyperlinks[0].TextToDisplay = "Click Here";
+            
+            // Set hyperlink style (blue underlined text)
+            Style style = worksheet.Cells["A1"].GetStyle();
+            style.Font.Color = System.Drawing.Color.Blue;
+            style.Font.Underline = FontUnderlineType.Single;
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,21 +16,35 @@ public bool DeleteRedundantSpaces { get; set; }
 ### Examples
 
 ```csharp
-// Called: opts.DeleteRedundantSpaces = true;
-public void HtmlLoadOptions_Property_DeleteRedundantSpaces()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42797/";
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
 
-    String html = "<p><i>Some text</i></p>";
-    HtmlLoadOptions opts = new HtmlLoadOptions();
-    opts.AutoFitColsAndRows = true;
-    opts.DeleteRedundantSpaces = true;
-    byte[] btsHtml = UTF8Encoding.UTF8.GetBytes(html);
-    MemoryStream stream = new MemoryStream(btsHtml);
-    // Create workbook from HTML string
-    Workbook wb = new Workbook(stream, opts);
-    Assert.AreEqual(wb.Worksheets[0].Cells["A1"].GetStyle().Font.IsItalic, true);
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
+namespace AsposeCellsExamples
+{
+    public class HtmlLoadOptionsPropertyDeleteRedundantSpacesDemo
+    {
+        public static void Run()
+        {
+            string html = "<p>   This    text   has   redundant   spaces   </p>";
+            
+            HtmlLoadOptions opts = new HtmlLoadOptions();
+            opts.DeleteRedundantSpaces = true;
+            
+            byte[] htmlBytes = Encoding.UTF8.GetBytes(html);
+            using (MemoryStream stream = new MemoryStream(htmlBytes))
+            {
+                Workbook workbook = new Workbook(stream, opts);
+                Worksheet worksheet = workbook.Worksheets[0];
+                
+                Console.WriteLine("Cell text after removing redundant spaces: " + 
+                    worksheet.Cells["A1"].StringValue);
+                
+                workbook.Save("output.xlsx");
+            }
+        }
+    }
 }
 ```
 

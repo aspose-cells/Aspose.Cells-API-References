@@ -28,7 +28,7 @@ Represents the options for saving html file.
 | [getAddTooltipText()](#getAddTooltipText--) | Indicates whether adding tooltip text when the data can't be fully displayed. |
 | [getAttachedFilesDirectory()](#getAttachedFilesDirectory--) | The directory that the attached files will be saved to. |
 | [getAttachedFilesUrlPrefix()](#getAttachedFilesUrlPrefix--) | Specify the Url prefix of attached files such as image in the html file. |
-| [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
 | [getCellCssPrefix()](#getCellCssPrefix--) | Gets the prefix of the css name,the default value is "". |
 | [getCellNameAttribute()](#getCellNameAttribute--) | Specifies the attribute that indicates the CellName to be written. |
@@ -116,7 +116,7 @@ Represents the options for saving html file.
 | [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | The directory that the attached files will be saved to. |
 | [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | Specify the Url prefix of attached files such as image in the html file. |
 | [setBorderCollapsed(boolean value)](#setBorderCollapsed-boolean-) | Indicates whether the table borders are collapsed. |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
 | [setCellNameAttribute(String value)](#setCellNameAttribute-java.lang.String-) | Specifies the attribute that indicates the CellName to be written. |
@@ -278,7 +278,7 @@ public String getCachedFileFolder()
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Returns:**
 java.lang.String
@@ -1249,7 +1249,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Parameters:**
 | Parameter | Type | Description |

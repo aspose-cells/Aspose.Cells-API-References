@@ -16,15 +16,33 @@ public bool ForRendering { get; set; }
 ### Examples
 
 ```csharp
-// Called: autoFitterOptions.ForRendering= true;
-public void AutoFitterOptions_Property_ForRendering()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
-    autoFitterOptions.ForRendering= true;
-    wb.Worksheets[0].AutoFitRows(autoFitterOptions);
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(247, wb.Worksheets[0].Cells.GetRowHeightPixel(0));
+namespace AsposeCellsExamples
+{
+    public class AutoFitterOptionsPropertyForRenderingDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data with long text
+            worksheet.Cells["A1"].PutValue("This is a long text that needs auto-fitting for rendering purposes.");
+            
+            // Create AutoFitterOptions and set ForRendering to true
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.ForRendering = true;
+
+            // Auto-fit the row with rendering considerations
+            worksheet.AutoFitRows(0, 0, options);
+
+            // Output the resulting row height in pixels
+            Console.WriteLine("Row height after auto-fitting (pixels): " + worksheet.Cells.GetRowHeightPixel(0));
+        }
+    }
 }
 ```
 

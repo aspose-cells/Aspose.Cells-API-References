@@ -16,16 +16,36 @@ public string Address { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("1:1", range.EntireRow.Address);
-public void Range_Property_Address()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange("A1");
-    Assert.AreEqual("A1", range.Address);
-    Assert.AreEqual("B2", range.GetOffset(1, 1).Address);
-    Assert.AreEqual("1:1", range.EntireRow.Address);
-    Assert.AreEqual("A:A", range.EntireColumn.Address);
+    public class RangePropertyAddressDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a range and demonstrate Address property
+            Aspose.Cells.Range range = cells.CreateRange("A1");
+            Console.WriteLine("Original range address: " + range.Address);
+
+            // Demonstrate GetOffset with Address
+            Aspose.Cells.Range offsetRange = range.GetOffset(1, 1);
+            Console.WriteLine("Offset range address: " + offsetRange.Address);
+
+            // Demonstrate EntireRow Address
+            Aspose.Cells.Range entireRow = range.EntireRow;
+            Console.WriteLine("Entire row address: " + entireRow.Address);
+
+            // Demonstrate EntireColumn Address
+            Aspose.Cells.Range entireColumn = range.EntireColumn;
+            Console.WriteLine("Entire column address: " + entireColumn.Address);
+        }
+    }
 }
 ```
 

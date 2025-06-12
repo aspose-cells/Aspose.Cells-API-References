@@ -16,18 +16,51 @@ public DataBar DataBar { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
-public void FormatCondition_Property_DataBar()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
-    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-    Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
-    Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-    Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
-    Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
+    public class FormatConditionPropertyDataBarDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells[i, 0].PutValue(i + 1);
+            }
+
+            // Add data bar conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+            
+            // Set the range for conditional formatting
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 9;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            fcs.AddArea(area);
+
+            // Add data bar condition and set properties
+            int conditionIndex = fcs.AddCondition(FormatConditionType.DataBar);
+            FormatCondition condition = fcs[conditionIndex];
+            
+            // Configure DataBar properties
+            DataBar dataBar = condition.DataBar;
+            dataBar.MinCfvo.Type = FormatConditionValueType.AutomaticMin;
+            dataBar.MaxCfvo.Type = FormatConditionValueType.AutomaticMax;
+            dataBar.Color = System.Drawing.Color.Green;
+
+            // Save the workbook
+            workbook.Save("DataBarExample.xlsx");
+        }
+    }
 }
 ```
 

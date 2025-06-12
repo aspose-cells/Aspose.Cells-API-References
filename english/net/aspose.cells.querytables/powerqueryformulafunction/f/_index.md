@@ -16,15 +16,40 @@ public string F { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
-public void PowerQueryFormulaFunction_Property_F()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
-    Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
-    Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
-    Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class PowerQueryFormulaFunctionPropertyFDemo
+    {
+        public static void Run()
+        {
+            // Load a workbook that contains existing Power Query formulas
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access Power Query formulas collection
+            PowerQueryFormulaCollection queryFormulas = workbook.DataMashup.PowerQueryFormulas;
+            
+            // Retrieve an existing function formula by name
+            PowerQueryFormula formula = queryFormulas["from_timestamp"];
+            
+            // Cast to PowerQueryFormulaFunction to access F property
+            if (formula is PowerQueryFormulaFunction function)
+            {
+                // Demonstrate getting the F property
+                Console.WriteLine("Original Function Definition: " + function.F);
+                
+                // Demonstrate setting the F property
+                function.F = "(x as number) as datetimezone => #datetimezone(1970,1,1,0,0,0,0,0) + #duration(0,0,0,x)";
+                Console.WriteLine("Updated Function Definition: " + function.F);
+            }
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

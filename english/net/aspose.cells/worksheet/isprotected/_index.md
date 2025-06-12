@@ -16,24 +16,34 @@ public bool IsProtected { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].IsProtected);
-public void Worksheet_Property_IsProtected()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Protect(ProtectionType.All, "abcd");
-    workbook.Worksheets[0].Protect(ProtectionType.All, "abcd", null);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    Assert.IsTrue(workbook.Worksheets[0].IsProtected);
-      workbook =  new Workbook(Constants.destPath + "example.xls");
-    Assert.IsTrue(workbook.Worksheets[0].IsProtected);
-      workbook =  new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].IsProtected);
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(workbook.Worksheets[0].IsProtected);
+    public class WorksheetPropertyIsProtectedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Protect the workbook and first worksheet
+            workbook.Protect(ProtectionType.All, "password");
+            workbook.Worksheets[0].Protect(ProtectionType.All, "password", null);
+
+            // Check if the worksheet is protected
+            bool isProtected = workbook.Worksheets[0].IsProtected;
+            Console.WriteLine($"Worksheet is protected: {isProtected}");
+
+            // Save the workbook
+            workbook.Save("protected_worksheet.xlsx");
+
+            // Load the saved workbook and verify protection
+            Workbook loadedWorkbook = new Workbook("protected_worksheet.xlsx");
+            Console.WriteLine($"Loaded worksheet is protected: {loadedWorkbook.Worksheets[0].IsProtected}");
+        }
+    }
 }
 ```
 

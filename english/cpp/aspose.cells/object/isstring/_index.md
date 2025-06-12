@@ -4,7 +4,7 @@ linktitle: IsString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::IsString method. Checks whether the object is a String value in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/object/isstring/
 ---
 ## Object::IsString method

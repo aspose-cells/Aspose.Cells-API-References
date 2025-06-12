@@ -13,6 +13,56 @@ Closes the current figure and starts a new figure. If the current figure contain
 public void Close()
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class ShapePathMethodCloseDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a new shape path
+                ShapePath shapePath = new ShapePath();
+
+                // Create a simple square path
+                shapePath.MoveTo(10.0f, 10.0f);
+                shapePath.LineTo(50.0f, 10.0f);
+                shapePath.LineTo(50.0f, 50.0f);
+                shapePath.LineTo(10.0f, 50.0f);
+                
+                // Close the path to complete the square
+                shapePath.Close();
+
+                // Add the shape to worksheet
+                var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 0, 0, 200, 200, 0, 0);
+                var paths = shape.Paths;
+                paths.Add();
+
+                Console.WriteLine("Close method called successfully to complete the shape path");
+                
+                // Save the workbook
+                workbook.Save("ShapePathMethodCloseDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling Close method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ShapePath](../)

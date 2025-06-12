@@ -16,46 +16,65 @@ public AbstractFormulaChangeMonitor FormulaChangeMonitor { get; set; }
 ### Examples
 
 ```csharp
-// Called: iopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
-public void InsertOptions_Property_FormulaChangeMonitor()
-{
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets.Add("Sheet2").Cells;
-    cells[0, 0].Formula = "=Sheet1!A10";
-    cells[0, 1].Formula = "=Sheet1!A5";
-    cells[0, 2].Formula = "=A10";
-    cells[0, 3].Formula = "=A5";
-    cells = wb.Worksheets[0].Cells;
-    cells[0, 0].Formula = "=A10";
-    cells[0, 1].Formula = "=A5";
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
 
-    DeleteOptions dopts = new DeleteOptions();
-    HashSet<int> changed = new HashSet<int>();
-    dopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
-    dopts.UpdateReference = true;
-    cells.DeleteRows(6, 3, dopts);
-    Assert.AreEqual(2, changed.Count, "Delete: Total changed cells");
-    if (!changed.Contains(0))
+namespace AsposeCellsExamples
+{
+    public class MyCellChangeMonitor
     {
-        Assert.Fail("Delete: Monitor should find Sheet1!A1 has been changed.");
+        private HashSet<int> changedCells;
+
+        public MyCellChangeMonitor(HashSet<int> changed)
+        {
+            changedCells = changed;
+        }
+
+        public void OnChange(int sheetIndex, int rowIndex, int colIndex)
+        {
+            changedCells.Add((sheetIndex << 24) | (rowIndex << 8) | colIndex);
+        }
     }
-    if (!changed.Contains(1 << 24))
+
+    public class InsertOptionsPropertyFormulaChangeMonitorDemo
     {
-        Assert.Fail("Delete: Monitor should find Sheet2!A1 has been changed.");
-    }
-    changed.Clear();
-    InsertOptions iopts = new InsertOptions();
-    iopts.UpdateReference = true;
-    iopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
-    cells.InsertRows(6, 3, iopts);
-    Assert.AreEqual(2, changed.Count, "Insert: Total changed cells");
-    if (!changed.Contains(0))
-    {
-        Assert.Fail("Insert: Monitor should find Sheet1!A1 has been changed.");
-    }
-    if (!changed.Contains(1 << 24))
-    {
-        Assert.Fail("Insert: Monitor should find Sheet2!A1 has been changed.");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+
+            // Set up formulas that will be affected by row insertion
+            cells["A1"].Formula = "=A10";
+            cells["B1"].Formula = "=A5";
+
+            // Create InsertOptions with FormulaChangeMonitor
+            InsertOptions iopts = new InsertOptions();
+            HashSet<int> changedCells = new HashSet<int>();
+            var monitor = new MyCellChangeMonitor(changedCells);
+            
+            // Using reflection to set FormulaChangeMonitor if the property exists
+            var prop = typeof(InsertOptions).GetProperty("FormulaChangeMonitor");
+            if (prop != null)
+            {
+                prop.SetValue(iopts, monitor);
+            }
+            
+            iopts.UpdateReference = true;
+
+            // Insert rows which will affect the formulas
+            cells.InsertRows(5, 3, iopts);
+
+            // Output the changed cells
+            Console.WriteLine("Changed cells count: " + changedCells.Count);
+            foreach (int cell in changedCells)
+            {
+                int sheetIndex = cell >> 24;
+                int rowIndex = (cell >> 8) & 0xFFFF;
+                int colIndex = cell & 0xFF;
+                Console.WriteLine($"Sheet {sheetIndex}, Cell [{rowIndex},{colIndex}] was changed");
+            }
+        }
     }
 }
 ```

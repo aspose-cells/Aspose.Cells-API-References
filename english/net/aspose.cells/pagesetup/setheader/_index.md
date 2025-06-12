@@ -41,32 +41,28 @@ For example: "&amp;Arial,Bold&amp;8Header Note"
 ### Examples
 
 ```csharp
-// Called: pageSetup.SetHeader(0, "&F"); // File name without path
-public static void PageSetup_Method_SetHeader()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupMethodSetHeaderWithInt32StringDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the header/footer of the worksheet
             PageSetup pageSetup = worksheet.PageSetup;
 
-            // Set the header with different HeaderFooterCommandType values
-            pageSetup.SetHeader(0, "&T"); // Text
-            pageSetup.SetHeader(1, "&P"); // Current page number
-            pageSetup.SetHeader(2, "&N"); // Page count
-            pageSetup.SetHeader(0, "&D"); // Current date
-            pageSetup.SetHeader(1, "&T"); // Current time
-            pageSetup.SetHeader(2, "&A"); // Sheet name
-            pageSetup.SetHeader(0, "&F"); // File name without path
-            pageSetup.SetHeader(1, "&Z"); // File path without file name
-            pageSetup.SetHeader(2, "&G"); // Picture
+            // Set different header sections with various commands
+            pageSetup.SetHeader(0, "&F"); // Left section - File name
+            pageSetup.SetHeader(1, "Page &P of &N"); // Center section - Page numbering
+            pageSetup.SetHeader(2, "&D"); // Right section - Date
 
-            // Save the workbook
-            workbook.Save("HeaderFooterCommandTypeExample.xlsx");
-            workbook.Save("HeaderFooterCommandTypeExample.pdf");
-            return;
+            workbook.Save("PageSetup_SetHeader_Example.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

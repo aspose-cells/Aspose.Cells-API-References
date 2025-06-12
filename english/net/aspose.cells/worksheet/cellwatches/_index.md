@@ -16,30 +16,35 @@ public CellWatchCollection CellWatches { get; }
 ### Examples
 
 ```csharp
-// Called: int watchIndex = sheet.CellWatches.Add("B2");
-public static void Worksheet_Property_CellWatches()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyCellWatchesDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            // Get the first Worksheet.
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add Cell Watch Item into the watch window
-            int watchIndex = sheet.CellWatches.Add("B2");
+            // Add sample data to cell B2
+            sheet.Cells["B2"].PutValue("Sample Data");
 
-            // Retrieve the CellWatch object
+            // Add Cell Watch for B2
+            int watchIndex = sheet.CellWatches.Add("B2");
             CellWatch cellWatch = sheet.CellWatches[watchIndex];
 
-            // Setting properties
-            cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
-            cellWatch.Column = 1; // B2 corresponds to column 1 (0-based index)
-            cellWatch.CellName = "B2";
+            // Display watch information
+            Console.WriteLine($"Cell Watch Added - Index: {watchIndex}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+            Console.WriteLine($"Row: {cellWatch.Row}, Column: {cellWatch.Column}");
 
             // Save the workbook
-            workbook.Save("CellWatchExample.xlsx");
-            workbook.Save("CellWatchExample.pdf");
-            return;
+            workbook.Save("CellWatchDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

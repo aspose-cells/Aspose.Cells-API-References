@@ -16,22 +16,34 @@ public bool IsOutlineShown { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-private void Worksheet_Property_IsOutlineShown(bool v)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyIsOutlineShownDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].IsOutlineShown = v;
-            Assert.AreEqual(v,workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + "dest.xlsx");
-            workbook = new Workbook(Constants.destPath + "dest.xlsx");
-            Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + "dest.xls");
-            workbook = new Workbook(Constants.destPath + "dest.xls");
-            Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + "dest.xlsb");
-            workbook = new Workbook(Constants.destPath + "dest.xlsb");
-            Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set outline to be shown
+            worksheet.IsOutlineShown = true;
+            Console.WriteLine("Outline shown: " + worksheet.IsOutlineShown);
+            
+            // Save and reload to demonstrate persistence
+            string filePath = "IsOutlineShownDemo.xlsx";
+            workbook.Save(filePath);
+            
+            Workbook loadedWorkbook = new Workbook(filePath);
+            Console.WriteLine("Reloaded - Outline shown: " + loadedWorkbook.Worksheets[0].IsOutlineShown);
         }
+    }
+}
 ```
 
 ### See Also

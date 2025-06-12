@@ -24,65 +24,38 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: ConditionalFormattingIcon cfIcon2 = cond.IconSet.CfIcons[2];
-public static void ConditionalFormattingIconCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ConditionalFormattingIconCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Get Conditional Formatting
             ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
-
-            // Adds an empty conditional formatting
             int index = cformattings.Add();
-
-            // Get newly added Conditional formatting
             FormatConditionCollection fcs = cformattings[index];
 
-            // Sets the conditional format range.
-            CellArea ca = new CellArea
-            {
-                StartRow = 0,
-                EndRow = 0,
-                StartColumn = 0,
-                EndColumn = 0
-            };
-            fcs.AddArea(ca);
+            fcs.AddArea(new CellArea { StartRow = 0, EndRow = 0, StartColumn = 0, EndColumn = 0 });
+            fcs.AddArea(new CellArea { StartRow = 1, EndRow = 1, StartColumn = 1, EndColumn = 1 });
 
-            ca = new CellArea
-            {
-                StartRow = 1,
-                EndRow = 1,
-                StartColumn = 1,
-                EndColumn = 1
-            };
-            fcs.AddArea(ca);
-
-            // Sets condition
-            int idx = fcs.AddCondition(FormatConditionType.IconSet);
-            FormatCondition cond = fcs[idx];
-
-            // Sets condition's type
+            int conditionIndex = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[conditionIndex];
             cond.IconSet.Type = IconSetType.ArrowsGray3;
 
-            // Add custom iconset condition.
-            ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
-            cfIcon.Type = IconSetType.Arrows3;
-            cfIcon.Index = 0;
+            // Demonstrate Item property usage
+            ConditionalFormattingIcon icon = cond.IconSet.CfIcons[0];
+            icon.Type = IconSetType.Arrows3;
+            icon.Index = 0;
 
-            ConditionalFormattingIcon cfIcon1 = cond.IconSet.CfIcons[1];
-            cfIcon1.Type = IconSetType.ArrowsGray3;
-            cfIcon1.Index = 1;
-
-            ConditionalFormattingIcon cfIcon2 = cond.IconSet.CfIcons[2];
-            cfIcon2.Type = IconSetType.Boxes5;
-            cfIcon2.Index = 2;
-
-            // Saving the Excel file
-            workbook.Save("outConditionalFormattingIconCollectionDemoput.xlsx");
-            workbook.Save("outConditionalFormattingIconCollectionDemoput.pdf");
+            workbook.Save("ConditionalFormattingIconCollectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

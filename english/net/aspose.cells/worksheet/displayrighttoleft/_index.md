@@ -16,14 +16,34 @@ public bool DisplayRightToLeft { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
-public void Worksheet_Property_DisplayRightToLeft()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
-    Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
+    public class WorksheetPropertyDisplayRightToLeftDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set display right to left
+            worksheet.DisplayRightToLeft = true;
+            
+            // Save the workbook
+            workbook.Save("output.ods");
+            
+            // Reload the workbook to verify the setting
+            Workbook loadedWorkbook = new Workbook("output.ods");
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            
+            Console.WriteLine("DisplayRightToLeft: " + loadedWorksheet.DisplayRightToLeft);
+        }
+    }
 }
 ```
 

@@ -20,36 +20,42 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportRowColumnHeadings = false;
-public void HtmlSaveOptions_Property_ExportRowColumnHeadings()
-{
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportPrintAreaOnly = true;
-    saveOptions.ExportActiveWorksheetOnly = true;
-    saveOptions.ExportImagesAsBase64 = true;
-    saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-    saveOptions.DefaultFontName = null;
-    saveOptions.IsExportComments = false;
-    saveOptions.ExportRowColumnHeadings = false;
-    saveOptions.ExportExtraHeadings = true;
-    saveOptions.ExportGridLines = false;
-    saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-    saveOptions.CellCssPrefix = "p1-65dd5c19f29-";
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
-    WorksheetCollection sheets = wb.Worksheets;
-    string destPath = _destFilesPath + "CELLSNET-56578";
-    if (!Directory.Exists(destPath))
-        Directory.CreateDirectory(destPath);
-    for (int i = 0; i < sheets.Count; i++)// sheets.Count is growing in trial mode
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportRowColumnHeadingsDemo
     {
-        Worksheet one = sheets[i];
-        saveOptions.TableCssId = "gdt-id-" + (i + 1).ToString();
-        one.IsSelected = true;
-        wb.Worksheets.ActiveSheetIndex = one.Index;
-        Console.WriteLine("Saving worksheet {0} - '{1}'", one.Index, one.Name);
-        string outputFilename = destPath + string.Format("example.html", one.Index, one.Name);
-        wb.Save(outputFilename, saveOptions); // exception here
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(15);
+
+            // Create HTML save options
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            
+            // Set ExportRowColumnHeadings to false (default is true)
+            saveOptions.ExportRowColumnHeadings = false;
+
+            // Save the workbook with headings disabled
+            workbook.Save("output_without_headings.html", saveOptions);
+
+            // Now enable headings and save again
+            saveOptions.ExportRowColumnHeadings = true;
+            workbook.Save("output_with_headings.html", saveOptions);
+
+            Console.WriteLine("HTML files saved with different heading visibility settings.");
+        }
     }
 }
 ```

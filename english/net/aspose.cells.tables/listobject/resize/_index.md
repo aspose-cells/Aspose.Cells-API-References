@@ -24,18 +24,39 @@ public void Resize(int startRow, int startColumn, int endRow, int endColumn, boo
 ### Examples
 
 ```csharp
-// Called: selectedTable.Resize(1, 1, 9, 2, true);
-public void ListObject_Method_Resize()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet selectedSheet = workbook.Worksheets["Rules"];
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    var selectedTable = selectedSheet.ListObjects["tab_commercial_role_list"];
-    selectedTable.Resize(1, 1, 9, 2, true);
-    Cell b9 = selectedSheet.Cells["B9"];
-    Style style = b9.GetStyle();
-    Assert.AreEqual(style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class ListObjectMethodResizeWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells[i, 0].PutValue("Item " + (i + 1));
+                worksheet.Cells[i, 1].PutValue(i * 10);
+            }
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 5, 1, true);
+            ListObject listObj = worksheet.ListObjects[index];
+            listObj.TableStyleType = TableStyleType.TableStyleLight2;
+
+            // Resize the list object
+            listObj.Resize(0, 0, 9, 1, true);
+
+            // Save the workbook
+            workbook.Save("ResizedListObject.xlsx");
+        }
+    }
 }
 ```
 

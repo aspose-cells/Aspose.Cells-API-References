@@ -16,12 +16,30 @@ public byte GroupLevel { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, workbook.Worksheets[0].Cells.Rows[4].GroupLevel);
-public void Row_Property_GroupLevel()
-{
-    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "CellsNet52159.mht");
-    Assert.AreEqual(1, workbook.Worksheets[0].Cells.Rows[4].GroupLevel);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class RowPropertyGroupLevelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Group rows 4-6 (hidden = false)
+            worksheet.Cells.GroupRows(3, 5, false);
+
+            // Access the group level of row 4
+            int groupLevel = worksheet.Cells.Rows[3].GroupLevel;
+            Console.WriteLine("Group level of row 4: " + groupLevel);
+
+            // Ungroup the rows
+            worksheet.Cells.UngroupRows(3, 5);
+        }
+    }
 }
 ```
 

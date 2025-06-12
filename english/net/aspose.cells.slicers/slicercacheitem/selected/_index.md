@@ -16,31 +16,66 @@ public bool Selected { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(slicerCacheItem.Selected);
-public void SlicerCacheItem_Property_Selected()
-{
-    string[] files = new string[] { "example.xlsx", "example.xlsx" };
-    for(int j = 0; j < files.Length;j++)
-    {
-        Workbook workbook = new Workbook(Constants.PivotTableSourcePath + files[j]);
-        workbook.Worksheets.RefreshAll();
-        var slicer = workbook.Worksheets
-                .SelectMany(x => x.Slicers)
-                .First();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-        for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
+namespace AsposeCellsExamples
+{
+    public class SlicerCacheItemPropertySelectedDemo
+    {
+        public static void Run()
         {
-            SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
-            if (i == 0)
-                Assert.IsTrue(slicerCacheItem.Selected);
-            else
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 300;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Add slicer
+            int slicerIndex = worksheet.Slicers.Add(pivotTable, "Fruit", "Slicer1");
+            Aspose.Cells.Slicers.Slicer slicer = worksheet.Slicers[slicerIndex];
+            slicer.StyleType = SlicerStyleType.SlicerStyleLight1;
+
+            // Access slicer cache items
+            for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
             {
-                Assert.IsFalse(slicerCacheItem.Selected);
+                SlicerCacheItem item = slicer.SlicerCache.SlicerCacheItems[i];
+                
+                // Select first item, deselect others
+                if (i == 0)
+                {
+                    item.Selected = true;
+                    Console.WriteLine($"Item '{item.Value}' is selected: {item.Selected}");
+                }
+                else
+                {
+                    item.Selected = false;
+                    Console.WriteLine($"Item '{item.Value}' is selected: {item.Selected}");
+                }
             }
+
+            // Save the workbook
+            workbook.Save("SlicerCacheItemSelectedDemo.xlsx");
         }
-        workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
     }
-          
 }
 ```
 

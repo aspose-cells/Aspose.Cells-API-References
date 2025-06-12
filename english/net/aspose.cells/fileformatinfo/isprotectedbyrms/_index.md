@@ -16,15 +16,24 @@ public bool IsProtectedByRMS { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "upload+simple+1.xls").IsProtectedByRMS);
-public void FileFormatInfo_Property_IsProtectedByRMS()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //Assert.IsTrue(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "DRMExcel+document.xls"));
-    //Assert.IsTrue(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "DRMExcel+document.xlsx"));
-    //Assert.IsFalse(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "upload+simple+1.xls"));
-    Assert.IsTrue(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "DRMExcel+document.xls").IsProtectedByRMS);
-    Assert.IsTrue(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "DRMExcel+document.xlsx").IsProtectedByRMS);
-    Assert.IsFalse(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "upload+simple+1.xls").IsProtectedByRMS);
+    public class FileFormatInfoPropertyIsProtectedByRMSDemo
+    {
+        public static void Run()
+        {
+            // Example 1: Check if RMS protected Excel file is protected
+            FileFormatInfo info1 = FileFormatUtil.DetectFileFormat("DRMExcel_document.xls");
+            Console.WriteLine("Is file protected by RMS: " + info1.IsProtectedByRMS);
+
+            // Example 2: Check if regular Excel file is protected
+            FileFormatInfo info2 = FileFormatUtil.DetectFileFormat("upload_simple_1.xls");
+            Console.WriteLine("Is file protected by RMS: " + info2.IsProtectedByRMS);
+        }
+    }
 }
 ```
 

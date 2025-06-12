@@ -16,15 +16,31 @@ public int Zoom { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(x, workbook.Worksheets[0].PageSetup.Zoom);
-public void PageSetup_Property_Zoom()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    int x = workbook.Worksheets[0].PageSetup.Zoom;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(x, workbook.Worksheets[0].PageSetup.Zoom);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyZoomDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set zoom level to 150%
+            worksheet.PageSetup.Zoom = 150;
+            
+            // Print current zoom level
+            Console.WriteLine("Current Zoom Level: " + worksheet.PageSetup.Zoom);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

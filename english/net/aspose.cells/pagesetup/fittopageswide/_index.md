@@ -20,42 +20,36 @@ You have to set FitToPagesTall as zero if you want to fit all columns on one pag
 ### Examples
 
 ```csharp
-// Called: excel.Worksheets[0].PageSetup.FitToPagesWide = 0;
-		public void PageSetup_Property_FitToPagesWide()
-		{
-			Workbook excel = new Workbook();
-			this.CreateStyle(excel);
-            Aspose.Cells.Style style = excel.CreateStyle();
-			//excel.ChangePalette(Color.Blue, 55); 
-			style.ForegroundColor = Color.Blue;
-			style.BackgroundColor = Color.Red;
-			style.Pattern = BackgroundType.DiagonalStripe; 
-			
-			style.Name = "Header5"; 
+using System;
+using Aspose.Cells;
 
-			style = excel.GetNamedStyle("Table");
-			excel.Worksheets[0].Cells["A1"].PutValue(12.3456);
-			excel.Worksheets[0].Cells["A1"].SetStyle(style);
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyFitToPagesWideDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-			//excel.Worksheets[0].Cells["A1"].Style.Number = 2;
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Sample Data 1");
+            worksheet.Cells["A2"].PutValue("Sample Data 2");
+            worksheet.Cells["B1"].PutValue("Sample Data 3");
+            worksheet.Cells["B2"].PutValue("Sample Data 4");
 
-			excel.Worksheets[0].Cells["B1"].SetStyle(excel.GetNamedStyle("Header5"));
+            // Set page setup properties
+            worksheet.PageSetup.FitToPagesWide = 1;  // Fit to 1 page wide
+            worksheet.PageSetup.FitToPagesTall = 0; // Let height adjust automatically
 
-
-			excel.Worksheets[0].Cells["c1"].SetStyle(excel.GetNamedStyle("Box"));
-
-			excel.Worksheets[0].Cells["d1"].SetStyle(excel.GetNamedStyle("H1"));
-			excel.Worksheets[0].Cells["d1"].PutValue("hello");
-
-			excel.Worksheets[0].Cells["e1"].SetStyle(excel.GetNamedStyle("H3"));
-			excel.Worksheets[0].Cells["e1"].PutValue("world");
-
-
-			excel.Worksheets[0].PageSetup.FitToPagesTall = 1;
-			excel.Worksheets[0].PageSetup.FitToPagesWide = 0;
-
-			excel.Save(Constants.destPath + "\\styles.xls");
-		}
+            // Save the workbook
+            workbook.Save("FitToPagesWideDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

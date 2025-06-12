@@ -20,19 +20,36 @@ The default type is Tiff.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-public void ImageSaveOptions_Constructor()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-    MemoryStream ms = new MemoryStream();
-    workbook.Save(ms, pngOptions);
-    byte x = ms.GetBuffer()[0];
-    Assert.AreEqual(0x89, x);
+    public class ImageSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sample Image Export");
+            
+            // Create ImageSaveOptions using constructor
+            ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png);
+            
+            // Set image options
+            pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+            
+            // Save to memory stream
+            MemoryStream stream = new MemoryStream();
+            workbook.Save(stream, pngOptions);
+            
+            // Verify the output (PNG magic number)
+            Console.WriteLine("First byte of PNG: 0x{0:X2}", stream.GetBuffer()[0]);
+        }
+    }
 }
 ```
 
@@ -55,6 +72,47 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It should be one of following types: Tiff, Svg, Bmp, Png, Jpg, Emf or Gif, otherwise the saved format will be set as Tiff automatically. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class ImageSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and add test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Aspose.Cells Image Save Demo");
+            
+            // Create ImageSaveOptions with SaveFormat.Tiff
+            try
+            {
+                ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff);
+                
+                // Configure image rendering options
+                saveOptions.ImageOrPrintOptions.HorizontalResolution = 300;
+                saveOptions.ImageOrPrintOptions.VerticalResolution = 300;
+
+                // Save workbook as multi-page TIFF
+                workbook.Save("WorksheetImage.tiff", saveOptions);
+                
+                Console.WriteLine("Workbook successfully saved as TIFF image with 300 DPI resolution.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during image save operation: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

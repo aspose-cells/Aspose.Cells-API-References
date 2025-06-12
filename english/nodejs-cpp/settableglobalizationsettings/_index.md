@@ -17,17 +17,25 @@ class SettableGlobalizationSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [listSeparator](#listSeparator--)| string | Readonly. Gets the separator for list, parameters of function, ...etc. |
+| [rowSeparatorOfFormulaArray](#rowSeparatorOfFormulaArray--)| string | Readonly. Gets the separator for rows in array data in formula. |
+| [columnSeparatorOfFormulaArray](#columnSeparatorOfFormulaArray--)| string | Readonly. Gets the separator for the items in array's row data in formula. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getListSeparator()](#getListSeparator--)| Gets the separator for list, parameters of function, ...etc. |
-| [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--)| Gets the separator for rows in array data in formula. |
-| [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--)| Gets the separator for the items in array's row data in formula. |
+| [getListSeparator()](#getListSeparator--)| <b>@deprecated.</b> Please use the 'listSeparator' property instead. Gets the separator for list, parameters of function, ...etc. |
+| [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--)| <b>@deprecated.</b> Please use the 'rowSeparatorOfFormulaArray' property instead. Gets the separator for rows in array data in formula. |
+| [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--)| <b>@deprecated.</b> Please use the 'columnSeparatorOfFormulaArray' property instead. Gets the separator for the items in array's row data in formula. |
 | [getTotalName(ConsolidationFunction)](#getTotalName-consolidationfunction-)| Gets the total name of specific function. |
 | [setTotalName(ConsolidationFunction, string)](#setTotalName-consolidationfunction-string-)| Sets the total name of specific function. |
 | [getGrandTotalName(ConsolidationFunction)](#getGrandTotalName-consolidationfunction-)| Gets the grand total name of the function. |
@@ -72,9 +80,36 @@ constructor();
 ```
 
 
+### listSeparator {#listSeparator--}
+
+Readonly. Gets the separator for list, parameters of function, ...etc.
+
+```javascript
+listSeparator : string;
+```
+
+
+### rowSeparatorOfFormulaArray {#rowSeparatorOfFormulaArray--}
+
+Readonly. Gets the separator for rows in array data in formula.
+
+```javascript
+rowSeparatorOfFormulaArray : string;
+```
+
+
+### columnSeparatorOfFormulaArray {#columnSeparatorOfFormulaArray--}
+
+Readonly. Gets the separator for the items in array's row data in formula.
+
+```javascript
+columnSeparatorOfFormulaArray : string;
+```
+
+
 ### getListSeparator() {#getListSeparator--}
 
-Gets the separator for list, parameters of function, ...etc.
+<b>@deprecated.</b> Please use the 'listSeparator' property instead. Gets the separator for list, parameters of function, ...etc.
 
 ```javascript
 getListSeparator() : string;
@@ -83,7 +118,7 @@ getListSeparator() : string;
 
 ### getRowSeparatorOfFormulaArray() {#getRowSeparatorOfFormulaArray--}
 
-Gets the separator for rows in array data in formula.
+<b>@deprecated.</b> Please use the 'rowSeparatorOfFormulaArray' property instead. Gets the separator for rows in array data in formula.
 
 ```javascript
 getRowSeparatorOfFormulaArray() : string;
@@ -92,7 +127,7 @@ getRowSeparatorOfFormulaArray() : string;
 
 ### getColumnSeparatorOfFormulaArray() {#getColumnSeparatorOfFormulaArray--}
 
-Gets the separator for the items in array's row data in formula.
+<b>@deprecated.</b> Please use the 'columnSeparatorOfFormulaArray' property instead. Gets the separator for the items in array's row data in formula.
 
 ```javascript
 getColumnSeparatorOfFormulaArray() : string;

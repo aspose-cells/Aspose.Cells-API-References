@@ -30,10 +30,29 @@ A GroupBox object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a group box
-GroupBox groupBox = shapes.AddGroupBox(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddGroupBoxWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a group box to the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
+            Aspose.Cells.Drawing.GroupBox groupBox = shapes.AddGroupBox(1, 0, 1, 0, 100, 50);
+
+            // Save the workbook
+            workbook.Save("GroupBoxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

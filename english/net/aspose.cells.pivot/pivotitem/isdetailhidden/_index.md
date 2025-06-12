@@ -16,59 +16,59 @@ public bool IsDetailHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.RowFields[0].PivotItems["State Apport. Factor"].IsDetailHidden = true;
-public void PivotItem_Property_IsDetailHidden()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET50356_";
-    string savePath = CreateFolder(filePath);
-
-    Workbook wb = new Workbook(filePath + "State Reconciliation.xlsx");
-    Worksheet worksheet = wb.Worksheets[0];
-    PivotTable pivotTable = worksheet.PivotTables[0];
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-
-    //Find the cell containing the row field text/label
-    Cell cell = worksheet.Cells.Find("State Apport. Factor", null);
-
-    //Create the style with your desired formatting
-    Style style = wb.CreateStyle();
-    style.Custom = "0.00%";
-    style.Font.Name = "Calibri";
-    style.Font.Size = 11;
-
-
-    //Get the row index
-    int row = cell.Row;
-
-    //Get the cell area based on pivot table range
-    CellArea area = pivotTable.TableRange1;
-    //Get the starting column index
-    int start = area.StartColumn;
-
-    //browse the relevant row upto last column in the pivot table report
-    //format each cell in the row to set percentage numbers formatting
-    for (int i = start; i <= area.EndColumn; i++)
+    public class PivotItemPropertyIsDetailHiddenDemo
     {
-        pivotTable.Format(row, i, style);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data for pivot table
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Fruit");
+            sheet.Cells["A3"].PutValue("Fruit");
+            sheet.Cells["A4"].PutValue("Vegetable");
+            sheet.Cells["A5"].PutValue("Vegetable");
+            sheet.Cells["B1"].PutValue("Item");
+            sheet.Cells["B2"].PutValue("Apple");
+            sheet.Cells["B3"].PutValue("Orange");
+            sheet.Cells["B4"].PutValue("Carrot");
+            sheet.Cells["B5"].PutValue("Potato");
+            sheet.Cells["C1"].PutValue("Amount");
+            sheet.Cells["C2"].PutValue(10);
+            sheet.Cells["C3"].PutValue(15);
+            sheet.Cells["C4"].PutValue(20);
+            sheet.Cells["C5"].PutValue(25);
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add row fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+            
+            // Refresh and calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Hide details for "Fruit" category
+            pivotTable.RowFields[0].PivotItems["Fruit"].IsDetailHidden = true;
+            
+            // Save the workbook
+            wb.Save("PivotItemIsDetailHiddenDemo.xlsx");
+        }
     }
-
-    //Change the state of PivotItem
-    pivotTable.RowFields[0].PivotItems["State Apport. Factor"].IsDetailHidden = false;
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    //After expanding the data, format it again
-    for (int i = start; i <= area.EndColumn; i++)
-    {
-        pivotTable.Format(row, i, style);
-    }
-    //Restore previous state
-    pivotTable.RowFields[0].PivotItems["State Apport. Factor"].IsDetailHidden = true;
-
-    wb.Save(savePath + "out.xlsx");
-
-    Assert.AreEqual(worksheet.Cells["C22"].StringValue, "100.00%");
-    Assert.AreEqual(worksheet.Cells["F22"].StringValue, "19.28%");
 }
 ```
 

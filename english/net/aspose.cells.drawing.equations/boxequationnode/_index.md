@@ -47,44 +47,43 @@ public class BoxEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: BoxEquationNode node2 = (BoxEquationNode)mathNode2.GetChild(0);
-public void Equations_Type_BoxEquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class EquationsClassBoxEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add an equation textbox to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the equation node from the textbox
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
 
-    BoxEquationNode node = (BoxEquationNode)mathNode.AddChild(EquationNodeType.Box);
-    //node.BarPosition = BarPositionType.Top;
+            // Add a Box equation node
+            BoxEquationNode boxNode = (BoxEquationNode)mathNode.AddChild(EquationNodeType.Box);
+            
+            // Add a base node to the box
+            EquationNode baseNode = boxNode.AddChild(EquationNodeType.Base);
+            
+            // Add text to the base node
+            TextRunEquationNode textNode = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+            textNode.Text = "==";
 
-    EquationNode subBase = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-    TR.Text = "==";
+            // Save the workbook
+            string outputFile = "BoxEquationDemo.xlsx";
+            workbook.Save(outputFile);
 
-    string resultFile = Constants.destPath + "BoxEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
-
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    BoxEquationNode node2 = (BoxEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationNodeType.Box, node2.EquationType);
-
-    EquationNode node3 = node2.GetChild(0);
-    Assert.AreNotEqual(null, node3);
-    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-
-    TR = (TextRunEquationNode)node3.GetChild(0);
-    Assert.AreNotEqual(null, TR);
-    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-    Assert.AreEqual("==", TR.Text);
-
+            Console.WriteLine("Equation with Box node created successfully. File saved to: " + outputFile);
+        }
+    }
 }
 ```
 

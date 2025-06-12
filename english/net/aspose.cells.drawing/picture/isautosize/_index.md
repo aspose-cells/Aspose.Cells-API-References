@@ -16,74 +16,41 @@ public bool IsAutoSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: picture.IsAutoSize = imageData.mIsAutoSize;
-public void Picture_Property_IsAutoSize()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class PicturePropertyIsAutoSizeDemo
     {
-           string path = Constants.sourcePath + "example.xls";
-        Workbook workbook = new Workbook(path, new LoadOptions(LoadFormat.Excel97To2003));
-     //   workbook.Worksheets[0].Pictures.Clear();
-        List<CellsImageData> list = new List<CellsImageData>();
-
-        for (int sheetNumber = 0; sheetNumber < workbook.Worksheets.Count; ++sheetNumber)
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets[sheetNumber];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            int numOfPictures = sheet.Pictures.Count;
+            // Add a picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(1, 1, "example.jpg");
+            Picture picture = worksheet.Pictures[pictureIndex];
 
-            for (int imageCounter = 0; imageCounter < numOfPictures; ++imageCounter)
-            {
-                Picture image = sheet.Pictures[imageCounter];
+            // Demonstrate IsAutoSize property
+            Console.WriteLine("Original IsAutoSize value: " + picture.IsAutoSize);
+            
+            // Set IsAutoSize to true - picture will automatically resize to fit its content
+            picture.IsAutoSize = true;
+            Console.WriteLine("After setting IsAutoSize to true: " + picture.IsAutoSize);
+            
+            // Set IsAutoSize to false - picture will maintain its original dimensions
+            picture.IsAutoSize = false;
+            Console.WriteLine("After setting IsAutoSize to false: " + picture.IsAutoSize);
 
-                list.Add(new CellsImageData(
-                                            sheetNumber,
-                                            image.BorderWeight,
-                                            image.Data,
-                                            image.DisplayAsIcon,
-                                            image.IsAutoSize,
-                                            image.IsDynamicDataExchange,
-                                            image.IsLink,
-                                            image.SignatureLine,
-                                            image.X,
-                                            image.Y,
-                                            image.UpperLeftRow,
-                                            image.UpperLeftColumn,
-                                            image.Height,
-                                            image.Width,
-                                            image.ZOrderPosition,
-                                            image.Formula,
-                                            image.Name));
-            }
-
-            sheet.Pictures.Clear();
+            // Save the workbook
+            workbook.Save("PicturePropertyIsAutoSizeDemo.xlsx", SaveFormat.Xlsx);
         }
-
-
-        workbook.Save(Constants.destPath + "example.xls");
-        Workbook newworkbook = new Workbook(Constants.destPath + "example.xls", new LoadOptions(LoadFormat.Excel97To2003));
-
-        foreach (CellsImageData imageData in list)
-        {
-            PictureCollection currentSheetPictureCollection = newworkbook.Worksheets[imageData.mSheetNumber].Pictures;
-            int newPictureNumber = currentSheetPictureCollection.Add(imageData.mUpperLeftRow, imageData.mUpperLeftColumn, new MemoryStream(imageData.mData));
-            Picture picture = newworkbook.Worksheets[imageData.mSheetNumber].Pictures[newPictureNumber];
-            picture.X = imageData.mX;
-            picture.Y = imageData.mY;
-            picture.Height = imageData.mHeight;
-            picture.Width = imageData.mWidth;
-            picture.Formula = imageData.mFormula;
-            picture.BorderWeight = imageData.mBorderWeight;
-            picture.DisplayAsIcon = imageData.mDisplayAsIcon;
-            picture.IsAutoSize = imageData.mIsAutoSize;
-            picture.IsDynamicDataExchange = imageData.mIsDynamicDataExchange;
-            picture.IsLink = imageData.mIsLink;
-            picture.SignatureLine = imageData.mSignatureLine;
-            picture.ZOrderPosition = imageData.mZOrderPosition;
-            picture.Name = imageData.mName;
-        }
-
-        Util.SaveManCheck(newworkbook, "Shape", "example.xls");
-     //   newworkbook.Save(path + "after.xlsafter.xls", Aspose.Cells.SaveFormat.Excel97To2003);
     }
+}
 ```
 
 ### See Also

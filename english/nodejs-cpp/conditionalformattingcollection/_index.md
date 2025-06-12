@@ -21,9 +21,9 @@ const { Workbook, CellArea, FormatConditionType, OperatorType, Color } = require
 
 //Instantiating a Workbook object
 var workbook = new Workbook();
-var sheet = workbook.getWorksheets().get(0);
+var sheet = workbook.worksheets.get(0);
 //Get Conditional Formattings
-var cformattings = sheet.getConditionalFormattings();
+var cformattings = sheet.conditionalFormattings;
 //Adds an empty conditional formatting
 var index = cformattings.add();
 //Get newly added Conditional formatting
@@ -47,7 +47,7 @@ var conditionIndex = fcs.addCondition(FormatConditionType.CellValue, OperatorTyp
 var conditionIndex2 = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 //Sets the background color.
 var fc = fcs.get(conditionIndex);
-fc.getStyle().setBackgroundColor(Color.Red);
+fc.style.backgroundColor = Color.Red;
 //Saving the Excel file
 workbook.save("output/ConditionalFormattingCollection.xls");
 ```
@@ -59,7 +59,7 @@ workbook.save("output/ConditionalFormattingCollection.xls");
 | [removeArea(number, number, number, number)](#removeArea-number-number-number-number-)| Remove all conditional formatting in the range. |
 | [copy(ConditionalFormattingCollection)](#copy-conditionalformattingcollection-)| Copies conditional formatting. |
 | [add()](#add--)| Adds a FormatConditions to the collection. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -124,7 +124,7 @@ FormatConditions object index.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

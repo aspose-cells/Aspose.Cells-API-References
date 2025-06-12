@@ -4,7 +4,7 @@ linktitle: JsonSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions class. Represents the options of saving the workbook as a json file in C++.'
 type: docs
-weight: 9500
+weight: 9600
 url: /cpp/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class
@@ -21,7 +21,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | Method | Description |
 | --- | --- |
 | [GetAlwaysExportAsJsonObject()](./getalwaysexportasjsonobject/) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
-| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -31,6 +31,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportEmptyCells()](./getexportemptycells/) | Indicates whether exporting empty cells as null. |
 | [GetExportHyperlinkType()](./getexporthyperlinktype/) | Represents the type of exporting hyperlink to json. |
 | [GetExportNestedStructure()](./getexportnestedstructure/) | Exported as parent-child hierarchy [Json](../../aspose.cells.json/) structure. |
+| [GetExportStylePool()](./getexportstylepool/) | Exporting style pool when converting to json struct. |
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
 | [GetIndent()](./getindent/) | Indicates the indent. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -56,8 +57,8 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SaveOptions(SaveOptions_Impl* impl)](../saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
 | [SetAlwaysExportAsJsonObject(bool value)](./setalwaysexportasjsonobject/) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
-| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -67,6 +68,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetExportEmptyCells(bool value)](./setexportemptycells/) | Indicates whether exporting empty cells as null. |
 | [SetExportHyperlinkType(JsonExportHyperlinkType value)](./setexporthyperlinktype/) | Represents the type of exporting hyperlink to json. |
 | [SetExportNestedStructure(bool value)](./setexportnestedstructure/) | Exported as parent-child hierarchy [Json](../../aspose.cells.json/) structure. |
+| [SetExportStylePool(bool value)](./setexportstylepool/) | Exporting style pool when converting to json struct. |
 | [SetHasHeaderRow(bool value)](./sethasheaderrow/) | Indicates whether the range contains header row. |
 | [SetIndent(const U16String\& value)](./setindent/) | Indicates the indent. |
 | [SetIndent(const char16_t* value)](./setindent/) | Indicates the indent. |

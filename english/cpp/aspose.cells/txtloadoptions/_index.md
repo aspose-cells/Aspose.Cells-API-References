@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtLoadOptions class. Represents the options for loading text file in C++.'
 type: docs
-weight: 14900
+weight: 15300
 url: /cpp/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -54,7 +54,7 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](../loadoptions/getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [GetRegion()](../loadoptions/getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [GetRegion()](../loadoptions/getregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [GetSeparator()](./getseparator/) | Gets and sets character separator of text file. |
 | [GetSeparatorString()](./getseparatorstring/) | Gets and sets a string value as separator. |
 | [GetTextQualifier()](./gettextqualifier/) | Specifies the text qualifier for cell values. Default qualifier is '"'. |
@@ -103,7 +103,7 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetPassword(const U16String\& value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPassword(const char16_t* value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](../loadoptions/setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [SetSeparator(char16_t value)](./setseparator/) | Gets and sets character separator of text file. |
 | [SetSeparatorString(const U16String\& value)](./setseparatorstring/) | Gets and sets a string value as separator. |
 | [SetSeparatorString(const char16_t* value)](./setseparatorstring/) | Gets and sets a string value as separator. |

@@ -16,10 +16,38 @@ public CheckValueType Value { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(activeXControl.Value == CheckValueType.UnChecked)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.Value = CheckValueType.Checked;
+    public class ToggleButtonActiveXControlPropertyValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ToggleButton ActiveX control
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 1, 1, 1, 100, 30);
+            ToggleButtonActiveXControl toggleButton = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Set initial value to Unchecked
+            toggleButton.Value = CheckValueType.UnChecked;
+
+            // Check and toggle the value if it's Unchecked
+            if (toggleButton.Value == CheckValueType.UnChecked)
+            {
+                toggleButton.Value = CheckValueType.Checked;
+            }
+
+            // Save the workbook
+            workbook.Save("ToggleButtonDemo.xlsx");
+        }
+    }
 }
 ```
 

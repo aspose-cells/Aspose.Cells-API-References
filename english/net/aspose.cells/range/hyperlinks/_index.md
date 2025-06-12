@@ -16,19 +16,43 @@ public Hyperlink[] Hyperlinks { get; }
 ### Examples
 
 ```csharp
-// Called: Hyperlink[] links = range.Hyperlinks;
-public void Range_Property_Hyperlinks()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.aspose.com");
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("A1");
-    Hyperlink[] links = range.Hyperlinks;
-    Assert.AreEqual(TargetModeType.External, links[0].LinkType);
-    if(links.Length != 0)
+    public class RangePropertyHyperlinksDemo
     {
-        links[0].Delete();
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a hyperlink to cell A1
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            
+            // Create a range containing A1
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1");
+            
+            // Get hyperlinks in the range
+            Hyperlink[] hyperlinks = range.Hyperlinks;
+            
+            // Display hyperlink information
+            if (hyperlinks.Length > 0)
+            {
+                Console.WriteLine("Hyperlink found:");
+                Console.WriteLine($"Address: {hyperlinks[0].Address}");
+                Console.WriteLine($"Link Type: {hyperlinks[0].LinkType}");
+                
+                // Delete the hyperlink
+                hyperlinks[0].Delete();
+                Console.WriteLine("Hyperlink deleted");
+            }
+            
+            // Verify hyperlink was removed
+            Console.WriteLine($"Total hyperlinks in worksheet: {worksheet.Hyperlinks.Count}");
+        }
     }
-    Assert.AreEqual(0, workbook.Worksheets[0].Hyperlinks.Count); 
 }
 ```
 

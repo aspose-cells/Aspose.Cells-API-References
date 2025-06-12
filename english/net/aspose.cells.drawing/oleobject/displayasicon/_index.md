@@ -16,22 +16,39 @@ public bool DisplayAsIcon { get; set; }
 ### Examples
 
 ```csharp
-// Called: newEmbeddedObject.DisplayAsIcon = false;
-public void OleObject_Property_DisplayAsIcon()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45834.Xls");
-    workbook.Worksheets[0].OleObjects.RemoveAt(0);
-    workbook.Worksheets[0].Pictures.RemoveAt(0);
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    //Add pdf
-    byte[] iconData = File.ReadAllBytes(Constants.sourcePath + @"CellsNet45834.Emf");
-    int newOleNumber = workbook.Worksheets[0].OleObjects.Add(10, 10, 533, 533, iconData);
-    OleObject newEmbeddedObject = workbook.Worksheets[0].OleObjects[newOleNumber];
-    newEmbeddedObject.ObjectData = File.ReadAllBytes(Constants.sourcePath + @"example.pdf");
-    newEmbeddedObject.ProgID = "AcroExch.Document.DC";
-    newEmbeddedObject.DisplayAsIcon = false;
-    newEmbeddedObject.FileFormatType = (FileFormatType)13; // pdf format.
-    Util.SaveManCheck(workbook, "Shape", "example.xls");
+namespace AsposeCellsExamples
+{
+    public class OleObjectPropertyDisplayAsIconDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an OLE object (PDF) to the worksheet
+            byte[] pdfData = File.ReadAllBytes("example.pdf");
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, pdfData);
+            
+            // Get the OLE object
+            Aspose.Cells.Drawing.OleObject oleObject = worksheet.OleObjects[oleIndex];
+            oleObject.ProgID = "AcroExch.Document.DC";
+            
+            // Demonstrate DisplayAsIcon property
+            oleObject.DisplayAsIcon = true; // Show as icon
+            // oleObject.DisplayAsIcon = false; // Show content if possible
+            
+            // Save the workbook
+            workbook.Save("OleObjectDisplayAsIconDemo.xlsx");
+        }
+    }
 }
 ```
 

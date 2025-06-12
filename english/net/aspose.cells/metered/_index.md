@@ -31,19 +31,40 @@ public class Metered
 
 ### Examples
 
-In this example, an attempt will be made to set metered public and private key
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-Metered matered = new Metered();
-matered.SetMeteredKey("PublicKey", "PrivateKey");
+    public class MeteredDemo
+    {
+        public static void MeteredExample()
+        {
+            // Create an instance of the Metered class
+            Metered metered = new Metered();
 
+            // Set the metered key
+            string publicKey = "YourPublicKey";
+            string privateKey = "YourPrivateKey";
+            metered.SetMeteredKey(publicKey, privateKey);
 
-[Visual Basic]
+            // Get and display the product name
+            string productName = metered.GetProductName();
+            Console.WriteLine("Product Name: " + productName);
 
-Dim matered As Metered = New Metered
-matered.SetMeteredKey("PublicKey", "PrivateKey")
+            // Additional code to demonstrate how the instance might be used
+            // For example, creating a workbook and saving it
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].PutValue("Hello, Aspose.Cells!");
+
+            workbook.Save("MeteredExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

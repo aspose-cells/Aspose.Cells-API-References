@@ -21,15 +21,37 @@ public static double GetDoubleFromDateTime(DateTime dateTime, bool date1904)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual((int)cells["A1"].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
-public void CellsHelper_Method_GetDoubleFromDateTime()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-  Workbook workbook = new Workbook();
-  Cells cells = workbook.Worksheets[0].Cells;
-  cells[0, 0].Formula = "=NOW(  )";
-  workbook.CalculateFormula();
-    Assert.AreEqual((int)cells["A1"].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
- // Console.WriteLine(cells[0, 0].DateTimeValue);
+    public class CellsHelperMethodGetDoubleFromDateTimeWithDateTimeBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook instance
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get current date and time
+            DateTime now = DateTime.Now;
+            
+            // Convert DateTime to double using CellsHelper
+            double dateDouble = CellsHelper.GetDoubleFromDateTime(now, false);
+            
+            // Set the value in cell A1
+            worksheet.Cells["A1"].PutValue(dateDouble);
+            
+            // Format the cell to display as date
+            Style style = worksheet.Cells["A1"].GetStyle();
+            style.Number = 14; // Date format
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("DateTimeConversionDemo.xlsx");
+        }
+    }
 }
 ```
 

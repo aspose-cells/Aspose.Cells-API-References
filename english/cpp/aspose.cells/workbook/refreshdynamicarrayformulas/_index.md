@@ -4,7 +4,7 @@ linktitle: RefreshDynamicArrayFormulas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::RefreshDynamicArrayFormulas method. Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/workbook/refreshdynamicarrayformulas/
 ---
 ## Workbook::RefreshDynamicArrayFormulas(bool) method

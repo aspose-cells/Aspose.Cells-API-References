@@ -4,7 +4,7 @@ linktitle: ImageOrPrintOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions class. Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells.rendering/imageorprintoptions/
 ---
 ## ImageOrPrintOptions class
@@ -22,6 +22,7 @@ class ImageOrPrintOptions
 | --- | --- |
 | [GetAllColumnsInOnePagePerSheet()](./getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [GetCheckWorkbookDefaultFont()](./getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
+| [GetCustomRenderSettings()](./getcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [GetDefaultEditLanguage()](./getdefaulteditlanguage/) | Gets or sets default edit language. |
 | [GetDefaultFont()](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](./getdrawobjecteventhandler/) | Implements this interface to get [DrawObject](../drawobject/) and Bound when rendering. |
@@ -60,6 +61,7 @@ class ImageOrPrintOptions
 | [operator=(const ImageOrPrintOptions\& src)](./operator_asm/) | operator= |
 | [SetAllColumnsInOnePagePerSheet(bool value)](./setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [SetCheckWorkbookDefaultFont(bool value)](./setcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
+| [SetCustomRenderSettings(const CustomRenderSettings\& value)](./setcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [SetDefaultEditLanguage(DefaultEditLanguage value)](./setdefaulteditlanguage/) | Gets or sets default edit language. |
 | [SetDefaultFont(const U16String\& value)](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [SetDefaultFont(const char16_t* value)](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |

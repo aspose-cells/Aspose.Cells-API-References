@@ -151,6 +151,47 @@ public class DialogBox : Shape
 | [ToImage](../../aspose.cells.drawing/shape/toimage/)(string, ImageOrPrintOptions) | Saves the shape to a file.(Inherited from [`Shape`](../shape/).) |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell.(Inherited from [`Shape`](../shape/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassDialogBoxDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a DialogBox to the worksheet
+            DialogBox dialogBox = (DialogBox)worksheet.Shapes.AddShape(MsoDrawingType.DialogBox, 10, 10, 200, 100, 0, 0);
+
+            // Set basic properties
+            dialogBox.Text = "Sample Dialog Box";
+            dialogBox.Placement = PlacementType.FreeFloating;
+            dialogBox.IsPrintable = false;
+            dialogBox.IsLocked = false;
+
+            // Add some text to the worksheet to show dialog box position
+            worksheet.Cells["A1"].PutValue("Dialog Box Demonstration");
+            worksheet.Cells["A3"].PutValue("The dialog box is positioned at:");
+            worksheet.Cells["B4"].PutValue("Top: " + dialogBox.Top);
+            worksheet.Cells["B5"].PutValue("Left: " + dialogBox.Left);
+            worksheet.Cells["B6"].PutValue("Width: " + dialogBox.Width);
+            worksheet.Cells["B7"].PutValue("Height: " + dialogBox.Height);
+
+            // Save the workbook
+            workbook.Save("DialogBoxDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Shape](../shape/)

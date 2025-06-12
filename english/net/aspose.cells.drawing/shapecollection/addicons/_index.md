@@ -28,15 +28,42 @@ public Picture AddIcons(int upperLeftRow, int top, int upperLeftColumn, int left
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add icon
-using (FileStream fs = new FileStream("icon.svg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    int len = (int)fs.Length;
-    byte[] imageData = new byte[len];
-    fs.Read(imageData, 0, len);
-    Picture picture = shapes.AddIcons(4, 0, 5, 0, -1, -1, imageData, null);
+    public class ShapeCollectionMethodAddIconsWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Create a sample icon file (in real usage, you would use an existing file)
+            string iconPath = "icon.svg";
+            File.WriteAllText(iconPath, "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' fill='red'/></svg>");
+
+            // Add icon to worksheet
+            using (FileStream fs = new FileStream(iconPath, FileMode.Open))
+            {
+                int len = (int)fs.Length;
+                byte[] imageData = new byte[len];
+                fs.Read(imageData, 0, len);
+                Picture picture = shapes.AddIcons(4, 0, 5, 0, -1, -1, imageData, null);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Clean up (optional)
+            File.Delete(iconPath);
+        }
+    }
 }
 ```
 

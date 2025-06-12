@@ -97,36 +97,48 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 ### Examples
 
 ```csharp
-[C#]
+using Aspose.Cells;
+using System;
 
-Workbook workbook = new Workbook();
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionDemo
+    {
+        public static void RunDemo()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            WorksheetCollection worksheets = workbook.Worksheets;
 
-WorksheetCollection sheets = workbook.Worksheets;
+            // Add a new worksheet to the collection
+            int newSheetIndex = worksheets.Add(SheetType.Worksheet);
+            Worksheet newSheet = worksheets[newSheetIndex];
+            newSheet.Name = "NewSheet";
 
-//Add a worksheet
-sheets.Add();
+            // Access an existing worksheet by index
+            Worksheet firstSheet = worksheets[0];
+            firstSheet.Name = "FirstSheet";
 
-//Change the name of a worksheet
-sheets[0].Name = "First Sheet";
+            // Access an existing worksheet by name
+            Worksheet retrievedSheet = worksheets["FirstSheet"];
 
-//Set the active sheet to the second worksheet
-sheets.ActiveSheetIndex = 1;
+            // Set the active sheet
+            worksheets.ActiveSheetIndex = newSheetIndex;
 
-	
-[Visual Basic]
+            // Set the active sheet name
+            worksheets.ActiveSheetName = "NewSheet";
 
-Dim excel as Workbook = new Workbook()
+            // Refresh all pivot tables in the workbook
+            worksheets.RefreshAll();
 
-Dim sheets as WorksheetCollection = excel.Worksheets
+            // Clear all pivot tables from the workbook
+            worksheets.ClearPivottables();
 
-'Add a worksheet
-sheets.Add()
-
-'Change the name of a worksheet
-sheets(0).Name = "First Sheet"
-
-'Set the active sheet to the second worksheet
-sheets.ActiveSheetIndex = 1
+            // Save the workbook
+            workbook.Save("WorksheetCollectionDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -34,6 +34,47 @@ public class GradientFill : Fill
 | [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient/#settwocolorgradient_1)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [SetTwoColorGradient](../../aspose.cells.drawing/gradientfill/settwocolorgradient/#settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System.Drawing;
+
+    public class DrawingClassGradientFillDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape to the worksheet with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(5, 5, 0, 0, 150, 100);
+
+            // Set fill type to gradient to access gradient fill properties
+            shape.Fill.FillType = FillType.Gradient;
+
+            // Get the existing gradient fill instance from the shape
+            GradientFill gradientFill = shape.Fill.GradientFill;
+
+            // Configure the gradient with two colors using the existing instance
+            gradientFill.SetTwoColorGradient(
+                Color.LightSkyBlue,  // First color
+                Color.DarkBlue,      // Second color
+                GradientStyleType.Horizontal, // Gradient style
+                1                    // Variant
+            );
+
+            // Save the workbook
+            workbook.Save("GradientFillDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Fill](../fill/)

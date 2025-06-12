@@ -28,15 +28,37 @@ public Picture AddSvg(int upperLeftRow, int top, int upperLeftColumn, int left, 
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// add a svg
-using (FileStream fs = new FileStream("image.svg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    int len = (int)fs.Length;
-    byte[] imageData = new byte[len];
-    fs.Read(imageData, 0, len);
-    Picture picture = shapes.AddSvg(4, 0, 5, 0, -1, -1, imageData, null);
+    public class ShapeCollectionMethodAddSvgWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Aspose.Cells.Drawing.ShapeCollection shapes = worksheet.Shapes;
+
+            // Load SVG file
+            using (FileStream fs = new FileStream("image.svg", FileMode.Open))
+            {
+                int len = (int)fs.Length;
+                byte[] imageData = new byte[len];
+                fs.Read(imageData, 0, len);
+                
+                // Add SVG to worksheet
+                Aspose.Cells.Drawing.Picture picture = shapes.AddSvg(4, 0, 5, 0, -1, -1, imageData, null);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

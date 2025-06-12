@@ -20,45 +20,50 @@ public object this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
-public void MultipleFilterCollection_Property_Item()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets["Sheet1"];
+using System;
+using Aspose.Cells;
 
-    Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
-    Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
-    sheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    sheet.AutoFilter.Refresh();
-   Assert.IsTrue(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsTrue(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    sheet = wb.Worksheets["Sheet1"];
-    AutoFilter filter = wb.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-    MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
-    DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
-    Assert.AreEqual(dateTimeGroupItem.Day, 7);
-    filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    Assert.AreEqual(m.Count, 0);
-    filter.RemoveFilter(1);
-    filter.Refresh(true);
-    Assert.IsFalse(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    filter.DynamicFilter(1, DynamicFilterType.September);
-    fc = filter.FilterColumns[1];
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
+namespace AsposeCellsExamples
+{
+    public class MultipleFilterCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Date");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue(new DateTime(2020, 1, 6));
+            sheet.Cells["B2"].PutValue(100);
+            sheet.Cells["A3"].PutValue(new DateTime(2020, 1, 7));
+            sheet.Cells["B3"].PutValue(200);
+            sheet.Cells["A4"].PutValue(new DateTime(2020, 1, 8));
+            sheet.Cells["B4"].PutValue(300);
+
+            // Apply auto filter
+            sheet.AutoFilter.Range = "A1:B4";
+            sheet.AutoFilter.AddDateFilter(0, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
+            sheet.AutoFilter.Refresh();
+
+            // Access the filter collection
+            FilterColumn fc = sheet.AutoFilter.FilterColumns[0];
+            MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
+            
+            // Demonstrate Item property usage
+            if (m.Count > 0)
+            {
+                DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
+                Console.WriteLine($"Filtered day: {dateTimeGroupItem.Day}");
+            }
+
+            // Remove filter
+            sheet.AutoFilter.RemoveFilter(0);
+            sheet.AutoFilter.Refresh();
+        }
+    }
 }
 ```
 

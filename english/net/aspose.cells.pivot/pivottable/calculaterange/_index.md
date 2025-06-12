@@ -20,34 +20,49 @@ If this method is not been called,maybe the pivottable range is not corrected.
 ### Examples
 
 ```csharp
-// Called: t.CalculateRange();
-private static void PivotTable_Method_CalculateRange(Workbook wb)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodCalculateRangeDemo
+    {
+        public static void Run()
         {
-            #region UPDATE pivot tables
-            //Before the populated excel file is saved, calculate all pivot tables and charts.
-            //Calculate formula has to be called before filtering to allow filters on calculated fields.
-            wb.CalculateFormula();
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                foreach (Aspose.Cells.Pivot.PivotTable t in sheet.PivotTables)
-                {
-                    if (t.DataSource != null)
-                    {
-                        t.RefreshData();
-                        //Range needs to be calculated before data is calculated to ensure that the record count is accounted for by the pivot table refresh.
-                        t.CalculateRange();
-                        t.CalculateData();
-                        t.RefreshDataOnOpeningFile = true;
-                    }
-                    else
-                    {
-                        throw new Exception("The source data for the '" + t.Name + "' pivot table is missing. Please edit the report and reconnect the Pivot table to its data");
-                    }
-                }
-            }
-            wb.CalculateFormula();
-            #endregion
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data to the first worksheet
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Cells["A1"].PutValue("Product");
+            dataSheet.Cells["B1"].PutValue("Sales");
+            dataSheet.Cells["A2"].PutValue("Apple");
+            dataSheet.Cells["B2"].PutValue(1000);
+            dataSheet.Cells["A3"].PutValue("Banana");
+            dataSheet.Cells["B3"].PutValue(2000);
+            dataSheet.Cells["A4"].PutValue("Orange");
+            dataSheet.Cells["B4"].PutValue(3000);
+
+            // Add a pivot table
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            int pivotIndex = pivotSheet.PivotTables.Add("A1", "A1:B4", "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotIndex];
+            
+            // Add row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Calculate range and refresh data
+            pivotTable.CalculateRange();
+            pivotTable.CalculateData();
+            pivotTable.RefreshData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableCalculateRangeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

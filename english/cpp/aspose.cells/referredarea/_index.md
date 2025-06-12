@@ -4,7 +4,7 @@ linktitle: ReferredArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea class. Represents a referred area by the formula in C++.'
 type: docs
-weight: 12600
+weight: 12700
 url: /cpp/aspose.cells/referredarea/
 ---
 ## ReferredArea class

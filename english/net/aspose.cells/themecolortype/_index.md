@@ -34,30 +34,45 @@ public enum ThemeColorType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ThemeColorType.Accent6, style.ForegroundThemeColor.ColorType);
-public void Cells_Type_ThemeColorType()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook work = new Workbook();
-    Cells cells = work.Worksheets[0].Cells;
-    Style style = cells["A1"].GetStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = Color.Red;
-    Assert.AreEqual(Color.Red.ToArgb(), style.ForegroundArgbColor);
-    style.Pattern = BackgroundType.Gray12;
-    style.ForegroundColor = Color.Blue;
-    style.BackgroundColor = Color.Yellow;
-
-    Assert.AreEqual(Color.Blue.ToArgb(), style.ForegroundArgbColor);
-    Assert.AreEqual(Color.Yellow.ToArgb(), style.BackgroundArgbColor);
-
-    ThemeColor c0 = new ThemeColor(ThemeColorType.Accent6, 0.5);
-    ThemeColor c1 = new ThemeColor(ThemeColorType.Accent2, 0.5);
-    style.Pattern = BackgroundType.Gray12;
-    style.ForegroundThemeColor = c0;
-    style.BackgroundThemeColor = c1;
-
-    Assert.AreEqual(ThemeColorType.Accent6, style.ForegroundThemeColor.ColorType);
-    Assert.AreEqual(ThemeColorType.Accent2, style.BackgroundThemeColor.ColorType);
+    public class CellsClassThemeColorTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Access cell A1 and get its style
+            Style style = cells["A1"].GetStyle();
+            
+            // Set solid pattern with red foreground color
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = Color.Red;
+            Console.WriteLine("Foreground ARGB Color: " + style.ForegroundArgbColor);
+            
+            // Set gray12 pattern with blue foreground and yellow background
+            style.Pattern = BackgroundType.Gray12;
+            style.ForegroundColor = Color.Blue;
+            style.BackgroundColor = Color.Yellow;
+            Console.WriteLine("Foreground ARGB Color: " + style.ForegroundArgbColor);
+            Console.WriteLine("Background ARGB Color: " + style.BackgroundArgbColor);
+            
+            // Set theme colors
+            ThemeColor foregroundTheme = new ThemeColor(ThemeColorType.Accent6, 0.5);
+            ThemeColor backgroundTheme = new ThemeColor(ThemeColorType.Accent2, 0.5);
+            style.ForegroundThemeColor = foregroundTheme;
+            style.BackgroundThemeColor = backgroundTheme;
+            
+            Console.WriteLine("Foreground Theme Color Type: " + style.ForegroundThemeColor.ColorType);
+            Console.WriteLine("Background Theme Color Type: " + style.BackgroundThemeColor.ColorType);
+        }
+    }
 }
 ```
 

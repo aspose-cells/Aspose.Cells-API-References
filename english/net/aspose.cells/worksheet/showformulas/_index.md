@@ -16,14 +16,30 @@ public bool ShowFormulas { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].ShowFormulas = true;
-public void Worksheet_Property_ShowFormulas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].ShowFormulas = true;
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    cell.PutValue(890.93485984659992);
-    Assert.AreEqual("890.9348598466", cell.DisplayStringValue);
+    public class WorksheetPropertyShowFormulasDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set formula in cell A1
+            worksheet.Cells["A1"].Formula = "=1+2+3";
+            
+            // Initially show calculated value
+            worksheet.ShowFormulas = false;
+            Console.WriteLine("ShowFormulas OFF: " + worksheet.Cells["A1"].StringValue);
+
+            // Toggle to show formula text
+            worksheet.ShowFormulas = true;
+            Console.WriteLine("ShowFormulas ON: " + worksheet.Cells["A1"].StringValue);
+        }
+    }
 }
 ```
 

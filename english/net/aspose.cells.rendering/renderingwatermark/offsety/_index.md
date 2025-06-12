@@ -16,50 +16,54 @@ public float OffsetY { get; set; }
 ### Examples
 
 ```csharp
-// Called: OffsetY = 0
-public static void RenderingWatermark_Property_OffsetY()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkPropertyOffsetYDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello World!");
+            // Add sample data
+            sheet.Cells["A1"].PutValue("OffsetY Demo");
 
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont("Arial", 12)
+            // Create watermark font
+            RenderingFont font = new RenderingFont("Arial", 24)
             {
-                Bold = true,
-                Italic = true,
-                Color = Color.Blue
+                Color = Color.Red,
+                Bold = true
             };
 
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
+            // Create watermark with different OffsetY values
+            RenderingWatermark watermark = new RenderingWatermark("VERTICAL OFFSET", font)
             {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
+                Rotation = 0,
+                Opacity = 0.3f,
                 IsBackground = true,
                 HAlignment = TextAlignmentType.Center,
                 VAlignment = TextAlignmentType.Center,
                 OffsetX = 0,
-                OffsetY = 0
+                OffsetY = 100 // Demonstrating OffsetY property
             };
 
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+            // Set save options with watermark
+            PdfSaveOptions options = new PdfSaveOptions
             {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
+                Watermark = watermark
             };
 
-            // Save the workbook to PDF with the watermark
-            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
+            // Save with watermark offset
+            workbook.Save("WatermarkOffsetYDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

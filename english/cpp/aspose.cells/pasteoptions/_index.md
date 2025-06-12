@@ -4,7 +4,7 @@ linktitle: PasteOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions class. Represents the paste special options in C++.'
 type: docs
-weight: 11300
+weight: 11600
 url: /cpp/aspose.cells/pasteoptions/
 ---
 ## PasteOptions class

@@ -26,43 +26,45 @@ public enum TiffCompression
 ### Examples
 
 ```csharp
-// Called: imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
-public void Rendering_Type_TiffCompression()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
+    public class RenderingClassTiffCompressionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            ws.Cells["A1"].PutValue("TIFF Compression Test");
+            ws.Cells["A2"].PutValue(DateTime.Now.ToString());
 
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-    imgOpt.HorizontalResolution = 300;
-    imgOpt.VerticalResolution = 300;
+            // Set image options
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.HorizontalResolution = 300;
+            imgOpt.VerticalResolution = 300;
+            imgOpt.ImageType = ImageType.Tiff;
 
-    //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
-    //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+            // Test different compression types
+            string outputPath = "output_compression_";
 
-    imgOpt.ImageType = ImageType.Tiff;
+            // LZW Compression
+            imgOpt.TiffCompression = TiffCompression.CompressionLZW;
+            new WorkbookRender(wb, imgOpt).ToImage(outputPath + "LZW.tiff");
 
-    WorkbookRender wbRender;
-    //please try the other tiff compressions.
-    imgOpt.TiffCompression = TiffCompression.CompressionNone;
-    //wbRender = new WorkbookRender(wb, imgOpt);
-    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
+            // CCITT3 Compression
+            imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
+            new WorkbookRender(wb, imgOpt).ToImage(outputPath + "CCITT3.tiff");
 
-    imgOpt.TiffCompression = TiffCompression.CompressionRle;
-    //wbRender = new WorkbookRender(wb, imgOpt);
-    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
-
-    imgOpt.TiffCompression = TiffCompression.CompressionLZW;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
-
-    imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
-
-    imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
-
-
+            // CCITT4 Compression
+            imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
+            new WorkbookRender(wb, imgOpt).ToImage(outputPath + "CCITT4.tiff");
+        }
+    }
 }
 ```
 

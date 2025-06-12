@@ -25,16 +25,49 @@ public enum TextCrossType
 ### Examples
 
 ```csharp
-// Called: _saveOptions.TextCrossType = TextCrossType.Default;
-private ImageOrPrintOptions Cells_Type_TextCrossType()
-        {
-            ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
-            _saveOptions.OnePagePerSheet = true;
-            _saveOptions.ImageType = ImageType.Png;
-            _saveOptions.TextCrossType = TextCrossType.Default;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-            return _saveOptions;
+namespace AsposeCellsExamples
+{
+    public class CellsClassTextCrossTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample text in a cell that might overflow
+            worksheet.Cells["A1"].PutValue("This is a long text that might overflow the cell");
+            
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            
+            // Demonstrate different TextCrossType settings
+            options.TextCrossType = TextCrossType.Default;
+            SaveToImage(workbook, options, "TextCrossType_Default.png");
+            
+            options.TextCrossType = TextCrossType.CrossKeep;
+            SaveToImage(workbook, options, "TextCrossType_CrossKeep.png");
+            
+            options.TextCrossType = TextCrossType.CrossOverride;
+            SaveToImage(workbook, options, "TextCrossType_CrossOverride.png");
+            
+            options.TextCrossType = TextCrossType.StrictInCell;
+            SaveToImage(workbook, options, "TextCrossType_StrictInCell.png");
         }
+        
+        private static void SaveToImage(Workbook workbook, ImageOrPrintOptions options, string fileName)
+        {
+            SheetRender sr = new SheetRender(workbook.Worksheets[0], options);
+            sr.ToImage(0, fileName);
+        }
+    }
+}
 ```
 
 ### See Also

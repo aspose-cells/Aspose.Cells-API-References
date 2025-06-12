@@ -32,14 +32,12 @@ public class RenderingFont
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Rendering;
 using System;
 using System.Drawing;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class RenderingFontDemo
     {

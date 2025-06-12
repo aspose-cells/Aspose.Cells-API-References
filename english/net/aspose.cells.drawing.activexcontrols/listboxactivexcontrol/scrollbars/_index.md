@@ -16,25 +16,36 @@ public ControlScrollBarType ScrollBars { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
-public static void ListBoxActiveXControl_Property_ScrollBars()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ListBoxActiveXControlPropertyScrollBarsDemo
+    {
+        public static void Run()
         {
-            // Initialize a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a ListBox ActiveX control to the worksheet
-            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 1, 0, 1, 0, 100, 50);
-            ListBoxActiveXControl listBoxControl = (ListBoxActiveXControl)shape.ActiveXControl;
+            Aspose.Cells.Drawing.Shape shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox, 1, 0, 1, 0, 100, 50);
+            Aspose.Cells.Drawing.ActiveXControls.ListBoxActiveXControl listBoxControl = (Aspose.Cells.Drawing.ActiveXControls.ListBoxActiveXControl)shape.ActiveXControl;
 
-            // Set the ScrollBars property to display both horizontal and vertical scroll bars
-            listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
+            // Add some items to make scrollbars visible
+            listBoxControl.ListFillRange = "A1:A20";
+            for (int i = 1; i <= 20; i++)
+            {
+                worksheet.Cells["A" + i].PutValue("Item " + i);
+            }
 
-            // Save the workbook
-            workbook.Save("ControlScrollBarTypeExample.xlsx");
-            workbook.Save("ControlScrollBarTypeExample.pdf");
-            return;
+            // Demonstrate ScrollBars property
+            listBoxControl.ScrollBars = Aspose.Cells.Drawing.ActiveXControls.ControlScrollBarType.BarsBoth;
+
+            workbook.Save("ListBoxScrollBarsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -28,21 +28,34 @@ Name cannot include spaces and cannot look like cell references.
 ### Examples
 
 ```csharp
-// Called: Name n = wb.Worksheets.Names[wb.Worksheets.Names.Add("REFERSTO")];
-public void NameCollection_Method_Add()
-{
-    Workbook wb = new Workbook(FileFormatType.Xlsx);
-    Name n = wb.Worksheets.Names[wb.Worksheets.Names.Add("REFERSTO")];
-    string fml = "=OFFSET(Sheet1!XEV1,0,0,ROW(Sheet1!XEV17)-ROW(Sheet1!XEV1)+1,COLUMN(Sheet1!XFC1)-COLUMN(Sheet1!XEV1)+1)";
-    n.RefersTo = fml;
-    Assert.AreEqual(fml, n.RefersTo, "RefersTo based on A1");
-    Aspose.Cells.Range r = n.GetRange(0, 0, 0);
-    Assert.AreEqual("XEV1:XFC17", r.Address, "Range.Address based on A1");
+using System;
+using Aspose.Cells;
 
-  //  Assert.AreEqual("=OFFSET(Sheet1!D7,0,0,ROW(Sheet1!D23)-ROW(Sheet1!D7)+1,COLUMN(Sheet1!K7)-COLUMN(Sheet1!D7)+1)",
-     //   n.GetRefersTo(false, false, 6, 12), "RefersTo based on M7");
- //   r = n.GetRange(0, 6, 12);
-  //  Assert.AreEqual("D7:K23", r.Address, "Range.Address based on M7");
+namespace AsposeCellsExamples
+{
+    public class NameCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook(FileFormatType.Xlsx);
+            Worksheet worksheet = wb.Worksheets[0];
+            
+            // Add a name with string reference
+            int index = wb.Worksheets.Names.Add("MyNamedRange");
+            Name namedRange = wb.Worksheets.Names[index];
+            
+            // Set the formula the name refers to
+            namedRange.RefersTo = "=Sheet1!$A$1:$B$10";
+            
+            // Verify and output the results
+            Console.WriteLine("Named Range RefersTo: " + namedRange.RefersTo);
+            Console.WriteLine("Named Range Index: " + index);
+            
+            // Get the range and display its address
+            Aspose.Cells.Range range = namedRange.GetRange();
+            Console.WriteLine("Range Address: " + range.Address);
+        }
+    }
 }
 ```
 

@@ -16,13 +16,32 @@ public bool ScaleCrop { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
-public void BuiltInDocumentPropertyCollection_Property_ScaleCrop()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
-    Assert.IsFalse(workbook.BuiltInDocumentProperties.LinksUpToDate);
-    Util.ReSave(workbook, SaveFormat.Xlsx);
+    public class BuiltInDocumentPropertyCollectionPropertyScaleCropDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access built-in document properties
+            BuiltInDocumentPropertyCollection properties = workbook.BuiltInDocumentProperties;
+            
+            // Set ScaleCrop property
+            properties.ScaleCrop = true;
+            
+            // Display the ScaleCrop property value
+            Console.WriteLine("ScaleCrop property value: " + properties.ScaleCrop);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

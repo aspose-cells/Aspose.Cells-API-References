@@ -25,18 +25,34 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-public void WorksheetCollection_Method_CreateUnionRange()
-{
-    Workbook workbook = new Workbook();
-    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-    Assert.IsTrue(r.HasRange);
-    r.Value = "ABCD";
-    Style style = workbook.CreateStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = System.Drawing.Color.Red;
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodCreateUnionRangeWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a union range from address strings
+            UnionRange unionRange = workbook.Worksheets.CreateUnionRange("A1:A5,B1:B5", 0);
+            
+            // Set value for the entire union range
+            unionRange.Value = "Test";
+            
+            // Apply styling to the union range
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            style.Font.IsBold = true;
+            unionRange.ApplyStyle(style, new StyleFlag { FontBold = true, FontColor = true });
+            
+            // Save the workbook
+            workbook.Save("UnionRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

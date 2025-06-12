@@ -20,8 +20,15 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: style.IsFontApplied = true;
-public static void Style_Property_IsFontApplied()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIsFontAppliedDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -31,46 +38,27 @@ public static void Style_Property_IsFontApplied()
             
             // Access a cell from the worksheet
             Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample Text");
             
             // Get the style of the cell
             Style style = cell.GetStyle();
             
-            // Set various properties of the style
+            // Apply font settings
             style.Font.Name = "Times New Roman";
+            style.Font.Size = 14;
             style.Font.Color = Color.Blue;
-            style.BackgroundColor = Color.Yellow;
-            style.ForegroundColor = Color.Red;
-            style.Pattern = BackgroundType.Solid;
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            style.VerticalAlignment = TextAlignmentType.Center;
-            style.IsTextWrapped = true;
-            style.IsLocked = true;
-            style.Number = 15; // Date format
-            style.IndentLevel = 2;
-            style.RotationAngle = 45;
-            style.IsFormulaHidden = true;
-            style.ShrinkToFit = true;
-            style.TextDirection = TextDirectionType.RightToLeft;
-            style.IsJustifyDistributed = true;
-            style.QuotePrefix = true;
-            style.IsGradient = true;
-            style.IsNumberFormatApplied = true;
-            style.IsFontApplied = true;
-            style.IsAlignmentApplied = true;
-            style.IsBorderApplied = true;
-            style.IsFillApplied = true;
-            style.IsProtectionApplied = true;
-            style.BackgroundArgbColor = Color.Yellow.ToArgb();
-            style.ForegroundArgbColor = Color.Red.ToArgb();
-            style.Custom = "0.00%";
-            style.CultureCustom = "0.00%";
             
-            // Set the style to the cell
+            // Enable font application
+            style.IsFontApplied = true;
+            
+            // Set the modified style back to the cell
             cell.SetStyle(style);
             
             // Save the workbook
-            workbook.Save("StyleExample.xlsx");
+            workbook.Save("FontAppliedDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -24,31 +24,54 @@ public enum SortOrder
 ### Examples
 
 ```csharp
-// Called: sorter.Order1 = SortOrder.Descending;
-public void Cells_Type_SortOrder()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    var sorter = workbook.DataSorter;
-
-    sorter.Order1 = SortOrder.Descending;
-    sorter.Key1 = 0;
-    sorter.Order2 = SortOrder.Ascending;
-    sorter.Key2 = 1;
-    var ca = new CellArea
+    public class CellsClassSortOrderDemo
     {
-        StartRow = 0,
-        StartColumn = 0,
-        EndRow = 20,
-        EndColumn = 2
-    };
-    sorter.Sort(workbook.Worksheets[0].Cells, ca);
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual(42005, cells["A4"].DoubleValue);
-    Assert.AreEqual("G", cells["B9"].StringValue);
-    Assert.AreEqual(41730, cells["A15"].DoubleValue);
-    Assert.AreEqual("D", cells["B21"].StringValue);
-    workbook.Save(Constants.destPath + "example.xlsx");
+        public static void Run()
+        {
+            // Create a new workbook
+            var workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to sort
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Score");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(85);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(92);
+            worksheet.Cells["A4"].PutValue("Bob");
+            worksheet.Cells["B4"].PutValue(78);
+            
+            // Create data sorter
+            var sorter = workbook.DataSorter;
+            
+            // Set sort order and keys
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 1; // Sort by column B (Score)
+            
+            // Define sort area
+            var sortArea = new CellArea
+            {
+                StartRow = 0,
+                StartColumn = 0,
+                EndRow = 3,
+                EndColumn = 1
+            };
+            
+            // Perform the sort
+            sorter.Sort(worksheet.Cells, sortArea);
+            
+            // Save the workbook
+            workbook.Save("SortedData.xlsx");
+        }
+    }
 }
 ```
 

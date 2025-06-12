@@ -29,7 +29,7 @@ class NameCollection;
 | [clear()](#clear--)| Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred, we only set Name.ReferTo as null and hide them. |
 | [removeDuplicateNames()](#removeDuplicateNames--)| Remove the duplicate defined names |
 | [sort()](#sort--)| Sorts defined names. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -182,7 +182,7 @@ If you create a large amount of named ranges in the Excel file, please call this
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

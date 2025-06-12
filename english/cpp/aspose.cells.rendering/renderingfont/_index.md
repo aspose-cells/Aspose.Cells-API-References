@@ -4,7 +4,7 @@ linktitle: RenderingFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::RenderingFont class. Font for rendering in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.rendering/renderingfont/
 ---
 ## RenderingFont class

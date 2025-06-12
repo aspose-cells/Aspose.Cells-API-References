@@ -16,14 +16,36 @@ public bool AllowFiltering { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
-public void Protection_Property_AllowFiltering()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
-    Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
-    workbook.Save(Constants.destPath + "example.xml");
-    workbook = new Workbook(Constants.destPath + "example.xml");
-    Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
+    public class ProtectionPropertyAllowFilteringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Enable worksheet protection
+            worksheet.Protect(ProtectionType.All);
+            
+            // Set AllowFiltering property to true
+            worksheet.Protection.AllowFiltering = true;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Verify the property was saved correctly
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("AllowFiltering: " + 
+                loadedWorkbook.Worksheets[0].Protection.AllowFiltering);
+        }
+    }
 }
 ```
 

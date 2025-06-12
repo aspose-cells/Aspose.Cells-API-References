@@ -17,20 +17,30 @@ class RevisionRenameSheet extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| RevisionType | Readonly. Represents the type of the revision. |
+| [oldName](#oldName--)| string | Readonly. Gets the old name of the worksheet. |
+| [newName](#newName--)| string | Readonly. Gets the new name of the worksheet. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of the revision. |
-| [getOldName()](#getOldName--)| Gets the old name of the worksheet. |
-| [getNewName()](#getNewName--)| Gets the new name of the worksheet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision. |
+| [getOldName()](#getOldName--)| <b>@deprecated.</b> Please use the 'oldName' property instead. Gets the old name of the worksheet. |
+| [getNewName()](#getNewName--)| <b>@deprecated.</b> Please use the 'newName' property instead. Gets the new name of the worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -46,9 +56,58 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
+### type {#type--}
+
+Readonly. Represents the type of the revision.
+
+```javascript
+type : RevisionType;
+```
+
+
+### oldName {#oldName--}
+
+Readonly. Gets the old name of the worksheet.
+
+```javascript
+oldName : string;
+```
+
+
+### newName {#newName--}
+
+Readonly. Gets the new name of the worksheet.
+
+```javascript
+newName : string;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getType() {#getType--}
 
-Represents the type of the revision.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision.
 
 ```javascript
 getType() : RevisionType;
@@ -61,7 +120,7 @@ getType() : RevisionType;
 
 ### getOldName() {#getOldName--}
 
-Gets the old name of the worksheet.
+<b>@deprecated.</b> Please use the 'oldName' property instead. Gets the old name of the worksheet.
 
 ```javascript
 getOldName() : string;
@@ -70,7 +129,7 @@ getOldName() : string;
 
 ### getNewName() {#getNewName--}
 
-Gets the new name of the worksheet.
+<b>@deprecated.</b> Please use the 'newName' property instead. Gets the new name of the worksheet.
 
 ```javascript
 getNewName() : string;
@@ -88,7 +147,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -101,7 +160,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

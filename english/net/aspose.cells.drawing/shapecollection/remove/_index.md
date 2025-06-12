@@ -20,19 +20,41 @@ public void Remove(Shape shape)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add first shape
-shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-//add second shape
-shapes.AddRectangle(6, 0, 2, 0, 30, 30);
-
-//get the shape
-Shape s = shapes["Rectangle 1"];// or shapes[0];
-if (s != null)
+namespace AsposeCellsExamples
 {
-    //remove 
-    shapes.Remove(s);
+    public class ShapeCollectionMethodRemoveWithShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add first rectangle shape
+            shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+            // Add second rectangle shape
+            shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+
+            // Get the first shape by name or index
+            Shape shapeToRemove = shapes["Rectangle 1"]; // or shapes[0];
+            
+            if (shapeToRemove != null)
+            {
+                // Remove the shape from the collection
+                shapes.Remove(shapeToRemove);
+            }
+
+            // Save the workbook
+            workbook.Save("ShapeRemoveDemo.xlsx");
+        }
+    }
 }
 ```
 

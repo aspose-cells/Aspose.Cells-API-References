@@ -4,7 +4,7 @@ linktitle: GetStringValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetStringValue method. Gets the string value by specific formatted strategy in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells/cell/getstringvalue/
 ---
 ## Cell::GetStringValue(CellValueFormatStrategy) method

@@ -16,24 +16,50 @@ public IPageSavingCallback PageSavingCallback { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.PageSavingCallback = new PageSavingCallbackDemo();
-public static void PaginatedSaveOptions_Property_PageSavingCallback()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyPageSavingCallbackDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["A2"].PutValue("World");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Page 1 Content");
+            worksheet.Cells["A2"].PutValue("This demonstrates PageSavingCallback");
 
-            // Create save options with a page saving callback
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
-            saveOptions.PageSavingCallback = new PageSavingCallbackDemo();
+            // Create save options with page saving callback
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            saveOptions.PageSavingCallback = new CustomPageSavingCallback();
 
-            // Save the workbook as a DOCX file
-            workbook.Save("PageSavingCallbackExample.docx", saveOptions);
+            // Save with callback
+            workbook.Save("PageSavingCallbackDemo.pdf", saveOptions);
         }
+    }
+
+    public class CustomPageSavingCallback : IPageSavingCallback
+    {
+        public void PageStartSaving(PageStartSavingArgs args)
+        {
+            Console.WriteLine($"Starting to save page {args.PageIndex + 1}");
+        }
+
+        public void PageEndSaving(PageEndSavingArgs args)
+        {
+            Console.WriteLine($"Finished saving page {args.PageIndex + 1}");
+            if (args.HasMorePages)
+            {
+                Console.WriteLine("More pages to follow...");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -21,31 +21,43 @@ public void AddExternalName(string text, string referTo)
 ### Examples
 
 ```csharp
-// Called: externalLink.AddExternalName("Test", "=Sheet1!$B$2");
-[Test, Category("Bug")]
-        public void ExternalLink_Method_AddExternalName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ExternalLinkMethodAddExternalNameWithStringStringDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            string fileName = Constants.sourcePath + "ExternalName.xls";
-            fileName = Path.GetFullPath(fileName);
-            Workbook externalWorkbook = new Workbook(fileName);
-            string[] sheetNames = new string[externalWorkbook.Worksheets.Count];
-            for (int i = 0; i < externalWorkbook.Worksheets.Count; i++)
-            {
-                sheetNames[i] = externalWorkbook.Worksheets[i].Name;
-            }
-            int index = workbook.Worksheets.ExternalLinks.Add(fileName, sheetNames);
+            
+            // Create a sample external workbook
+            Workbook externalWorkbook = new Workbook();
+            Worksheet externalSheet = externalWorkbook.Worksheets[0];
+            externalSheet.Cells["B2"].PutValue(67);
+            
+            // Add external link to the main workbook
+            string[] sheetNames = new string[] { externalSheet.Name };
+            int index = workbook.Worksheets.ExternalLinks.Add("ExternalWorkbook.xlsx", sheetNames);
             ExternalLink externalLink = workbook.Worksheets.ExternalLinks[index];
+            
+            // Add external name
             externalLink.AddExternalName("Test", "=Sheet1!$B$2");
-            workbook.Worksheets[0].Cells["A1"].Formula = "=[" + fileName + "]!Test";
-            workbook.UpdateLinkedDataSource(null);
+            
+            // Use the external name in a formula
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Cells["A1"].Formula = "=[ExternalWorkbook.xlsx]!Test";
+            
+            // Calculate the formula
             workbook.CalculateFormula();
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].DoubleValue, 67);
-            externalWorkbook.Worksheets["Sheet1"].Cells["B2"].PutValue("Hello");
-            workbook.UpdateLinkedDataSource(new Workbook[] { externalWorkbook });
-            workbook.CalculateFormula();
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Hello");
+            
+            // Output the result
+            Console.WriteLine("Value from external reference: " + sheet.Cells["A1"].DoubleValue);
         }
+    }
+}
 ```
 
 ### See Also

@@ -4,7 +4,7 @@ linktitle: ShapeLockType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeLockType enum. Represents type of the property to be locked in C++.'
 type: docs
-weight: 11300
+weight: 11500
 url: /cpp/aspose.cells.drawing/shapelocktype/
 ---
 ## ShapeLockType enum

@@ -4,7 +4,7 @@ linktitle: SetValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetValue method. Gets/sets the value contained in this cell in C++.'
 type: docs
-weight: 5600
+weight: 5700
 url: /cpp/aspose.cells/cell/setvalue/
 ---
 ## Cell::SetValue method

@@ -16,63 +16,57 @@ public bool ShowPivotStyleRowStripes { get; set; }
 ### Examples
 
 ```csharp
-// Called: ptable.ShowPivotStyleRowStripes = true;
-public void PivotTable_Property_ShowPivotStyleRowStripes()
+using System;
+using System.Data;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET43901_";
-    DataTable data = new DataTable();
-    data.Columns.Add(new DataColumn("Workspace_Id"));
-    data.Columns.Add(new DataColumn("Entity_Id"));
-    data.Columns.Add(new DataColumn("Vulnerability"));
-    data.Columns.Add(new DataColumn("Year"));
-    data.Columns.Add(new DataColumn("Number"));
-    data.Columns.Add(new DataColumn("OS Version"));
-
-    Random rand = new Random();
-
-    for (int i = 0; i < 5; i++)
+    public class PivotTablePropertyShowPivotStyleRowStripesDemo
     {
-        int randNumber = rand.Next(200, 1000);
-        int randVersion = rand.Next(5, 20);
-        int randWorkspace = rand.Next(28, 30);
-        int randEntity = rand.Next(30, 40);
-
-        DataRow row = data.NewRow();
-        row["Workspace_Id"] = randWorkspace;
-        row["Entity_Id"] = randEntity;
-        row["Vulnerability"] = RandomString43901(50);//Path.GetRandomFileName().Replace(".", "").Substring(0, 8); ;
-        row["Year"] = "2001";
-        row["Number"] = randNumber;
-        row["OS Version"] = randVersion;
-
-        data.Rows.Add(row);
-    }
-
-    Workbook wb_a = new Workbook(filePath + "wbA.xlsx");
-    Workbook wb_b = new Workbook(filePath + "wbB.xlsx");
-    wb_a.Combine(wb_b);
-    wb_a.Worksheets["SheetB"].Cells.ImportData(data, 7, 7, new ImportTableOptions()
-    {
-        IsFieldNameShown = false,
-        InsertRows = false,
-        ConvertNumericData = true,
-        TotalRows = 5,
-        TotalColumns = 6,
-        DateFormat = "mm/dd/yy hh:mm AM/PM"
-    });
-
-    foreach (Worksheet sheet in wb_a.Worksheets)
-    {
-        foreach (PivotTable ptable in sheet.PivotTables)
+        public static void Run()
         {
-            ptable.ShowPivotStyleRowHeader = false;
-            ptable.ShowPivotStyleRowStripes = true;
-            ptable.RefreshDataOnOpeningFile = true;
-            ptable.RefreshData();
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create sample data
+            DataTable data = new DataTable();
+            data.Columns.Add("Category", typeof(string));
+            data.Columns.Add("Product", typeof(string));
+            data.Columns.Add("Sales", typeof(int));
+
+            data.Rows.Add("Electronics", "Laptop", 1200);
+            data.Rows.Add("Electronics", "Phone", 800);
+            data.Rows.Add("Clothing", "Shirt", 50);
+            data.Rows.Add("Clothing", "Pants", 70);
+            data.Rows.Add("Furniture", "Chair", 150);
+            data.Rows.Add("Furniture", "Table", 300);
+
+            // Import data to worksheet
+            worksheet.Cells.ImportData(data, 0, 0, new ImportTableOptions());
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:C7", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add rows and columns
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 1); // Product
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales
+
+            // Enable row stripes
+            pivotTable.ShowPivotStyleRowStripes = true;
+
+            // Calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotTableWithRowStripes.xlsx");
         }
-        sheet.AutoFitRows();
     }
-    wb_a.Save(Constants.PIVOT_CHECK_FILE_PATH + @"example.xlsx");
 }
 ```
 

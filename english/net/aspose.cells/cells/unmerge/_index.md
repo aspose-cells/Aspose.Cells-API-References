@@ -23,18 +23,33 @@ public void UnMerge(int firstRow, int firstColumn, int totalRows, int totalColum
 ### Examples
 
 ```csharp
-// Called: cells.UnMerge(0, 16384, 2, 2);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_UnMerge()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodUnMergeWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
-            caseName = "testUnMerge_Exception_006";
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.UnMerge(0, 16384, 2, 2);
-            string msg = message + "cells.UnMerge(0, 16384, 2, 2)";
-            writeToExcel(caseName, msg);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Merge cells first
+            cells.Merge(0, 0, 2, 2);
+            
+            // Unmerge the previously merged cells
+            cells.UnMerge(0, 0, 2, 2);
+            
+            // Save the workbook
+            workbook.Save("UnMergeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

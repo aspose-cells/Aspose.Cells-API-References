@@ -22,13 +22,13 @@ const { Workbook } = require("aspose.cells.node");
 //Create a new Workbook.
 var workbook = new Workbook();
 //Get the first worksheet.
-var sheet = workbook.getWorksheets().get(0);
+var sheet = workbook.worksheets.get(0);
 //Get the worksheet cells collection.
-var cells = sheet.getCells();
+var cells = sheet.cells;
 //Input a value.
 cells.get("B3").putValue("Employee:");
 //Set it bold.
-cells.get("B3").getStyle().getFont().setIsBold(true);
+cells.get("B3").getStyle().font.isBold = true;
 //Input some values that denote the input range
 //for the combo box.
 cells.get("A2").putValue("Emp001");
@@ -39,16 +39,16 @@ cells.get("A6").putValue("Emp005");
 cells.get("A7").putValue("Emp006");
 
 //Add a new combo box.
-var comboBox = sheet.getShapes().addComboBox(2, 0, 2, 0, 22, 100);
+var comboBox = sheet.shapes.addComboBox(2, 0, 2, 0, 22, 100);
 //Set the linked cell;
-comboBox.setLinkedCell("A1");
+comboBox.linkedCell = "A1";
 //Set the input range.
-comboBox.setInputRange("A2:A7");
+comboBox.inputRange = "A2:A7";
 //Set no. of list lines displayed in the combo 
 //box's list portion.
-comboBox.setDropDownLines(5);
+comboBox.dropDownLines = 5;
 //Set the combo box with 3-D shading.
-comboBox.setShadow(true);
+comboBox.shadow = true;
 //AutoFit Columns
 sheet.autoFitColumns();
 //Saves the file.
@@ -56,190 +56,298 @@ workbook.save("output/DrawingComboBox.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Shape)](#constructor-shape-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [selectedIndex](#selectedIndex--)| number | Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based. |
+| [selectedValue](#selectedValue--)| string | Readonly. Gets the selected value of the combox box. |
+| [selectedCell](#selectedCell--)| Cell | Readonly. Gets the selected cell in the input range of the combo box. |
+| [shadow](#shadow--)| boolean | Indicates whether the combobox has 3-D shading. |
+| [dropDownLines](#dropDownLines--)| number | Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
+| [macroName](#macroName--)| string | Gets and sets the name of macro. |
+| [isEquation](#isEquation--)| boolean | Readonly. Indicates whether the shape only contains an equation. |
+| [isSmartArt](#isSmartArt--)| boolean | Readonly. Indicates whether the shape is a smart art. |
+| [zOrderPosition](#zOrderPosition--)| number | Returns the position of a shape in the z-order. |
+| [name](#name--)| string | Gets and sets the name of the shape. |
+| [alternativeText](#alternativeText--)| string | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
+| [title](#title--)| string | Specifies the title (caption) of the current shape object. |
+| [line](#line--)| LineFormat | Readonly. Gets line style |
+| [fill](#fill--)| FillFormat | Readonly. Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
+| [shadowEffect](#shadowEffect--)| ShadowEffect | Readonly. Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [reflection](#reflection--)| ReflectionEffect | Readonly. Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape. |
+| [glow](#glow--)| GlowEffect | Readonly. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [softEdges](#softEdges--)| number | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [threeDFormat](#threeDFormat--)| ThreeDFormat | Readonly. Gets and sets 3d format of the shape. |
+| [formatPicture](#formatPicture--)| MsoFormatPicture | Readonly. Gets and sets the options of the picture format. |
+| [isHidden](#isHidden--)| boolean | Indicates whether the object is visible. |
+| [isLockAspectRatio](#isLockAspectRatio--)| boolean | True means that aspect ratio of the shape is locked. |
+| [isAspectRatioLocked](#isAspectRatioLocked--)| boolean | True means that aspect ratio of the shape is locked. |
+| [rotationAngle](#rotationAngle--)| number | Gets and sets the rotation of the shape. |
+| [hyperlink](#hyperlink--)| Hyperlink | Readonly. Gets the hyperlink of the shape. |
+| [id](#id--)| number | Readonly. Gets the identifier of this shape. |
+| [spid](#spid--)| string | Readonly. Specifies an optional string identifier that an application can use to identify the particular shape. |
+| [spt](#spt--)| number | Readonly. Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape. |
+| [isGroup](#isGroup--)| boolean | Readonly. Indicates whether this shape is a group shape. |
+| [isInGroup](#isInGroup--)| boolean | Readonly. Indicates whether the shape is grouped. |
+| [isWordArt](#isWordArt--)| boolean | Readonly. Indicates whether this shape is a word art. |
+| [textEffect](#textEffect--)| TextEffectFormat | Readonly. Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
+| [isLocked](#isLocked--)| boolean | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [isPrintable](#isPrintable--)| boolean | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
+| [msoDrawingType](#msoDrawingType--)| MsoDrawingType | Readonly. Gets drawing type. |
+| [autoShapeType](#autoShapeType--)| AutoShapeType | Gets and sets the auto shape type. |
+| [anchorType](#anchorType--)| ShapeAnchorType | Gets and set the type of the shape anchor placeholder. |
+| [placement](#placement--)| PlacementType | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [upperLeftRow](#upperLeftRow--)| number | Represents the top row index. |
+| [upperDeltaY](#upperDeltaY--)| number | Gets or sets the shape's vertical offset from its upper left corner row. |
+| [upperLeftColumn](#upperLeftColumn--)| number | Represents upper left corner column index. |
+| [upperDeltaX](#upperDeltaX--)| number | Gets or sets the shape's horizontal offset from its upper left corner column. |
+| [lowerRightRow](#lowerRightRow--)| number | Represents lower right corner row index. |
+| [lowerDeltaY](#lowerDeltaY--)| number | Gets or sets the shape's vertical offset from its lower right corner row. |
+| [lowerRightColumn](#lowerRightColumn--)| number | Represents lower right corner column index. |
+| [lowerDeltaX](#lowerDeltaX--)| number | Gets or sets the shape's horizontal  offset from its lower right corner column. |
+| [right](#right--)| number | Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels. |
+| [bottom](#bottom--)| number | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [width](#width--)| number | Represents the width of shape, in unit of pixels. |
+| [widthInch](#widthInch--)| number | Represents the width of the shape, in unit of inch. |
+| [widthPt](#widthPt--)| number | Represents the width of the shape, in unit of point. |
+| [widthCM](#widthCM--)| number | Represents the width of the shape, in unit of centimeters. |
+| [height](#height--)| number | Represents the height of shape, in unit of pixel. |
+| [heightInch](#heightInch--)| number | Represents the height of the shape, in unit of inches. |
+| [heightPt](#heightPt--)| number | Represents the height of the shape, in unit of points. |
+| [heightCM](#heightCM--)| number | Represents the height of the shape, in unit of centimeters. |
+| [left](#left--)| number | Represents the horizontal offset of shape from its left column, in unit of pixels. |
+| [leftInch](#leftInch--)| number | Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [leftCM](#leftCM--)| number | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
+| [top](#top--)| number | Represents the vertical offset of shape from its top row, in unit of pixels. |
+| [topInch](#topInch--)| number | Represents the vertical offset of shape from its top row, in unit of inches. |
+| [topCM](#topCM--)| number | Represents the vertical offset of shape from its top row, in unit of centimeters. |
+| [topToCorner](#topToCorner--)| number | Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
+| [leftToCorner](#leftToCorner--)| number | Gets and sets the horizonal offset of shape from worksheet left border. |
+| [x](#x--)| number | Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
+| [y](#y--)| number | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [widthScale](#widthScale--)| number | Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
+| [heightScale](#heightScale--)| number | Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100; |
+| [topInShape](#topInShape--)| number | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
+| [leftInShape](#leftInShape--)| number | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
+| [widthInShape](#widthInShape--)| number | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
+| [heightInShape](#heightInShape--)| number | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
+| [group](#group--)| GroupShape | Readonly. Gets the group shape which contains this shape. |
+| [type](#type--)| AutoShapeType | Readonly. Gets the auto shape type. |
+| [hasLine](#hasLine--)| boolean | Gets and sets the line border of the shape is visible. |
+| [isFilled](#isFilled--)| boolean | Indicates whether the fill format is visible. |
+| [isFlippedHorizontally](#isFlippedHorizontally--)| boolean | Gets and sets whether shape is horizontally flipped . |
+| [isFlippedVertically](#isFlippedVertically--)| boolean | Gets and sets whether shape is vertically flipped . |
+| [actualLowerRightRow](#actualLowerRightRow--)| number | Readonly. Get the actual bottom row. |
+| [relativeToOriginalPictureSize](#relativeToOriginalPictureSize--)| boolean | Indicates whether shape is relative to original picture size. |
+| [linkedCell](#linkedCell--)| string | Gets or sets the worksheet range linked to the control's value. |
+| [inputRange](#inputRange--)| string | Gets or sets the worksheet range used to fill the specified combo box. |
+| [textShapeType](#textShapeType--)| AutoShapeType | Gets and sets the preset text shape type. |
+| [textBody](#textBody--)| FontSettingCollection | Readonly. Gets and sets the setting of the shape's text. |
+| [font](#font--)| Font | Represents the font of shape. |
+| [textOptions](#textOptions--)| TextOptions | Represents the text options of the shape. |
+| [text](#text--)| string | Gets and sets the text of this shape. |
+| [isRichText](#isRichText--)| boolean | Readonly. Whether or not the text is rich text. |
+| [htmlText](#htmlText--)| string | Gets and sets the html string which contains data and some formats in this textbox. |
+| [textVerticalOverflow](#textVerticalOverflow--)| TextOverflowType | Gets and sets the text vertical overflow type of the shape which contains text. |
+| [textHorizontalOverflow](#textHorizontalOverflow--)| TextOverflowType | Gets and sets the text horizontal overflow type of the shape which contains text. |
+| [isTextWrapped](#isTextWrapped--)| boolean | Gets and sets the text wrapped type of the shape which contains text. |
+| [textOrientationType](#textOrientationType--)| TextOrientationType | Gets and sets the text orientation type of the shape. |
+| [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment type of the shape. |
+| [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets and sets the text vertical alignment type of the shape. |
+| [textDirection](#textDirection--)| TextDirectionType | Gets/Sets the direction of the text flow for this object. |
+| [textBoxOptions](#textBoxOptions--)| TextBoxOptions | Readonly. Gets the text information in the shape |
+| [controlData](#controlData--)| Uint8Array | Readonly. Gets the data of control. |
+| [activeXControl](#activeXControl--)| ActiveXControl | Readonly. Gets the ActiveX control. |
+| [paths](#paths--)| ShapePathCollection | Readonly. Gets the paths of a custom geometric shape. |
+| [geometry](#geometry--)| Geometry | Readonly. Gets the geometry |
+| [isDecorative](#isDecorative--)| boolean | Indicates whether the object is decorative. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSelectedIndex()](#getSelectedIndex--)| Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based. |
-| [setSelectedIndex(number)](#setSelectedIndex-number-)| Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based. |
-| [getSelectedValue()](#getSelectedValue--)| Gets the selected value of the combox box. |
-| [getSelectedCell()](#getSelectedCell--)| Gets the selected cell in the input range of the combo box. |
-| [getShadow()](#getShadow--)| Indicates whether the combobox has 3-D shading. |
-| [setShadow(boolean)](#setShadow-boolean-)| Indicates whether the combobox has 3-D shading. |
-| [getDropDownLines()](#getDropDownLines--)| Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
-| [setDropDownLines(number)](#setDropDownLines-number-)| Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
+| [getSelectedIndex()](#getSelectedIndex--)| <b>@deprecated.</b> Please use the 'selectedIndex' property instead. Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based. |
+| [setSelectedIndex(number)](#setSelectedIndex-number-)| <b>@deprecated.</b> Please use the 'selectedIndex' property instead. Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based. |
+| [getSelectedValue()](#getSelectedValue--)| <b>@deprecated.</b> Please use the 'selectedValue' property instead. Gets the selected value of the combox box. |
+| [getSelectedCell()](#getSelectedCell--)| <b>@deprecated.</b> Please use the 'selectedCell' property instead. Gets the selected cell in the input range of the combo box. |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. Indicates whether the combobox has 3-D shading. |
+| [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. Indicates whether the combobox has 3-D shading. |
+| [getDropDownLines()](#getDropDownLines--)| <b>@deprecated.</b> Please use the 'dropDownLines' property instead. Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
+| [setDropDownLines(number)](#setDropDownLines-number-)| <b>@deprecated.</b> Please use the 'dropDownLines' property instead. Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
-| [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
-| [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
-| [isSmartArt()](#isSmartArt--)| Indicates whether the shape is a smart art. |
-| [getZOrderPosition()](#getZOrderPosition--)| Returns the position of a shape in the z-order. |
-| [setZOrderPosition(number)](#setZOrderPosition-number-)| Returns the position of a shape in the z-order. |
-| [getName()](#getName--)| Gets and sets the name of the shape. |
-| [setName(string)](#setName-string-)| Gets and sets the name of the shape. |
-| [getAlternativeText()](#getAlternativeText--)| Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
-| [setAlternativeText(string)](#setAlternativeText-string-)| Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
-| [getTitle()](#getTitle--)| Specifies the title (caption) of the current shape object. |
-| [setTitle(string)](#setTitle-string-)| Specifies the title (caption) of the current shape object. |
-| [getLine()](#getLine--)| Gets line style |
-| [getFill()](#getFill--)| Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
-| [getShadowEffect()](#getShadowEffect--)| Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape. |
-| [getReflection()](#getReflection--)| Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape. |
-| [getGlow()](#getGlow--)| Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
-| [getSoftEdges()](#getSoftEdges--)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [setSoftEdges(number)](#setSoftEdges-number-)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [getThreeDFormat()](#getThreeDFormat--)| Gets and sets 3d format of the shape. |
-| [getFormatPicture()](#getFormatPicture--)| Gets and sets the options of the picture format. |
-| [isHidden()](#isHidden--)| Indicates whether the object is visible. |
-| [setIsHidden(boolean)](#setIsHidden-boolean-)| Indicates whether the object is visible. |
-| [isLockAspectRatio()](#isLockAspectRatio--)| True means that aspect ratio of the shape is locked. |
-| [setIsLockAspectRatio(boolean)](#setIsLockAspectRatio-boolean-)| True means that aspect ratio of the shape is locked. |
-| [isAspectRatioLocked()](#isAspectRatioLocked--)| True means that aspect ratio of the shape is locked. |
-| [setIsAspectRatioLocked(boolean)](#setIsAspectRatioLocked-boolean-)| True means that aspect ratio of the shape is locked. |
-| [getRotationAngle()](#getRotationAngle--)| Gets and sets the rotation of the shape. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Gets and sets the rotation of the shape. |
-| [getHyperlink()](#getHyperlink--)| Gets the hyperlink of the shape. |
-| [getId()](#getId--)| Gets the identifier of this shape. |
-| [getSpid()](#getSpid--)| Specifies an optional string identifier that an application can use to identify the particular shape. |
-| [getSpt()](#getSpt--)| Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](../worksheet/) object which contains this shape. |
-| [isGroup()](#isGroup--)| Indicates whether this shape is a group shape. |
-| [isInGroup()](#isInGroup--)| Indicates whether the shape is grouped. |
-| [isWordArt()](#isWordArt--)| Indicates whether this shape is a word art. |
-| [getTextEffect()](#getTextEffect--)| Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
-| [isLocked()](#isLocked--)| True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
-| [setIsLocked(boolean)](#setIsLocked-boolean-)| True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
-| [isPrintable()](#isPrintable--)| Indicates whether the object is printable. If False, this shape will not be printed when printing. |
-| [setIsPrintable(boolean)](#setIsPrintable-boolean-)| Indicates whether the object is printable. If False, this shape will not be printed when printing. |
-| [getMsoDrawingType()](#getMsoDrawingType--)| Gets drawing type. |
-| [getAutoShapeType()](#getAutoShapeType--)| Gets and sets the auto shape type. |
-| [setAutoShapeType(AutoShapeType)](#setAutoShapeType-autoshapetype-)| Gets and sets the auto shape type. |
-| [getAnchorType()](#getAnchorType--)| Gets and set the type of the shape anchor placeholder. |
-| [setAnchorType(ShapeAnchorType)](#setAnchorType-shapeanchortype-)| Gets and set the type of the shape anchor placeholder. |
-| [getPlacement()](#getPlacement--)| Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
-| [setPlacement(PlacementType)](#setPlacement-placementtype-)| Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
-| [getUpperLeftRow()](#getUpperLeftRow--)| Represents the top row index. |
-| [setUpperLeftRow(number)](#setUpperLeftRow-number-)| Represents the top row index. |
-| [getUpperDeltaY()](#getUpperDeltaY--)| Gets or sets the shape's vertical offset from its upper left corner row. |
-| [setUpperDeltaY(number)](#setUpperDeltaY-number-)| Gets or sets the shape's vertical offset from its upper left corner row. |
-| [getUpperLeftColumn()](#getUpperLeftColumn--)| Represents upper left corner column index. |
-| [setUpperLeftColumn(number)](#setUpperLeftColumn-number-)| Represents upper left corner column index. |
-| [getUpperDeltaX()](#getUpperDeltaX--)| Gets or sets the shape's horizontal offset from its upper left corner column. |
-| [setUpperDeltaX(number)](#setUpperDeltaX-number-)| Gets or sets the shape's horizontal offset from its upper left corner column. |
-| [getLowerRightRow()](#getLowerRightRow--)| Represents lower right corner row index. |
-| [setLowerRightRow(number)](#setLowerRightRow-number-)| Represents lower right corner row index. |
-| [getLowerDeltaY()](#getLowerDeltaY--)| Gets or sets the shape's vertical offset from its lower right corner row. |
-| [setLowerDeltaY(number)](#setLowerDeltaY-number-)| Gets or sets the shape's vertical offset from its lower right corner row. |
-| [getLowerRightColumn()](#getLowerRightColumn--)| Represents lower right corner column index. |
-| [setLowerRightColumn(number)](#setLowerRightColumn-number-)| Represents lower right corner column index. |
-| [getLowerDeltaX()](#getLowerDeltaX--)| Gets or sets the shape's horizontal  offset from its lower right corner column. |
-| [setLowerDeltaX(number)](#setLowerDeltaX-number-)| Gets or sets the shape's horizontal  offset from its lower right corner column. |
-| [getRight()](#getRight--)| Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels. |
-| [setRight(number)](#setRight-number-)| Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels. |
-| [getBottom()](#getBottom--)| Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
-| [setBottom(number)](#setBottom-number-)| Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
-| [getWidth()](#getWidth--)| Represents the width of shape, in unit of pixels. |
-| [setWidth(number)](#setWidth-number-)| Represents the width of shape, in unit of pixels. |
-| [getWidthInch()](#getWidthInch--)| Represents the width of the shape, in unit of inch. |
-| [setWidthInch(number)](#setWidthInch-number-)| Represents the width of the shape, in unit of inch. |
-| [getWidthPt()](#getWidthPt--)| Represents the width of the shape, in unit of point. |
-| [setWidthPt(number)](#setWidthPt-number-)| Represents the width of the shape, in unit of point. |
-| [getWidthCM()](#getWidthCM--)| Represents the width of the shape, in unit of centimeters. |
-| [setWidthCM(number)](#setWidthCM-number-)| Represents the width of the shape, in unit of centimeters. |
-| [getHeight()](#getHeight--)| Represents the height of shape, in unit of pixel. |
-| [setHeight(number)](#setHeight-number-)| Represents the height of shape, in unit of pixel. |
-| [getHeightInch()](#getHeightInch--)| Represents the height of the shape, in unit of inches. |
-| [setHeightInch(number)](#setHeightInch-number-)| Represents the height of the shape, in unit of inches. |
-| [getHeightPt()](#getHeightPt--)| Represents the height of the shape, in unit of points. |
-| [setHeightPt(number)](#setHeightPt-number-)| Represents the height of the shape, in unit of points. |
-| [getHeightCM()](#getHeightCM--)| Represents the height of the shape, in unit of centimeters. |
-| [setHeightCM(number)](#setHeightCM-number-)| Represents the height of the shape, in unit of centimeters. |
-| [getLeft()](#getLeft--)| Represents the horizontal offset of shape from its left column, in unit of pixels. |
-| [setLeft(number)](#setLeft-number-)| Represents the horizontal offset of shape from its left column, in unit of pixels. |
-| [getLeftInch()](#getLeftInch--)| Represents the horizontal offset of shape from its left column, in unit of inches. |
-| [setLeftInch(number)](#setLeftInch-number-)| Represents the horizontal offset of shape from its left column, in unit of inches. |
-| [getLeftCM()](#getLeftCM--)| Represents the horizontal offset of shape from its left column, in unit of centimeters. |
-| [setLeftCM(number)](#setLeftCM-number-)| Represents the horizontal offset of shape from its left column, in unit of centimeters. |
-| [getTop()](#getTop--)| Represents the vertical offset of shape from its top row, in unit of pixels. |
-| [setTop(number)](#setTop-number-)| Represents the vertical offset of shape from its top row, in unit of pixels. |
-| [getTopInch()](#getTopInch--)| Represents the vertical offset of shape from its top row, in unit of inches. |
-| [setTopInch(number)](#setTopInch-number-)| Represents the vertical offset of shape from its top row, in unit of inches. |
-| [getTopCM()](#getTopCM--)| Represents the vertical offset of shape from its top row, in unit of centimeters. |
-| [setTopCM(number)](#setTopCM-number-)| Represents the vertical offset of shape from its top row, in unit of centimeters. |
-| [getTopToCorner()](#getTopToCorner--)| Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
-| [setTopToCorner(number)](#setTopToCorner-number-)| Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
-| [getLeftToCorner()](#getLeftToCorner--)| Gets and sets the horizonal offset of shape from worksheet left border. |
-| [setLeftToCorner(number)](#setLeftToCorner-number-)| Gets and sets the horizonal offset of shape from worksheet left border. |
-| [getX()](#getX--)| Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
-| [setX(number)](#setX-number-)| Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
-| [getY()](#getY--)| Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
-| [setY(number)](#setY-number-)| Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
-| [getWidthScale()](#getWidthScale--)| Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
-| [setWidthScale(number)](#setWidthScale-number-)| Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
-| [getHeightScale()](#getHeightScale--)| Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100; |
-| [setHeightScale(number)](#setHeightScale-number-)| Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100; |
-| [getTopInShape()](#getTopInShape--)| Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
-| [setTopInShape(number)](#setTopInShape-number-)| Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
-| [getLeftInShape()](#getLeftInShape--)| Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
-| [setLeftInShape(number)](#setLeftInShape-number-)| Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
-| [getWidthInShape()](#getWidthInShape--)| Represents the width of the shape, in unit of 1/4000 of the parent shape. |
-| [setWidthInShape(number)](#setWidthInShape-number-)| Represents the width of the shape, in unit of 1/4000 of the parent shape. |
-| [getHeightInShape()](#getHeightInShape--)| Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
-| [setHeightInShape(number)](#setHeightInShape-number-)| Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
-| [getGroup()](#getGroup--)| Gets the group shape which contains this shape. |
-| [getType()](#getType--)| Gets the auto shape type. |
-| [getHasLine()](#getHasLine--)| Gets and sets the line border of the shape is visible. |
-| [setHasLine(boolean)](#setHasLine-boolean-)| Gets and sets the line border of the shape is visible. |
-| [isFilled()](#isFilled--)| Indicates whether the fill format is visible. |
-| [setIsFilled(boolean)](#setIsFilled-boolean-)| Indicates whether the fill format is visible. |
-| [isFlippedHorizontally()](#isFlippedHorizontally--)| Gets and sets whether shape is horizontally flipped . |
-| [setIsFlippedHorizontally(boolean)](#setIsFlippedHorizontally-boolean-)| Gets and sets whether shape is horizontally flipped . |
-| [isFlippedVertically()](#isFlippedVertically--)| Gets and sets whether shape is vertically flipped . |
-| [setIsFlippedVertically(boolean)](#setIsFlippedVertically-boolean-)| Gets and sets whether shape is vertically flipped . |
-| [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
-| [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
-| [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
-| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
-| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
-| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
-| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
-| [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
-| [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
-| [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
-| [getFont()](#getFont--)| Represents the font of shape. |
-| [setFont(Font)](#setFont-font-)| Represents the font of shape. |
-| [getTextOptions()](#getTextOptions--)| Represents the text options of the shape. |
-| [setTextOptions(TextOptions)](#setTextOptions-textoptions-)| Represents the text options of the shape. |
-| [getText()](#getText--)| Gets and sets the text of this shape. |
-| [setText(string)](#setText-string-)| Gets and sets the text of this shape. |
-| [isRichText()](#isRichText--)| Whether or not the text is rich text. |
-| [getHtmlText()](#getHtmlText--)| Gets and sets the html string which contains data and some formats in this textbox. |
-| [setHtmlText(string)](#setHtmlText-string-)| Gets and sets the html string which contains data and some formats in this textbox. |
-| [getTextVerticalOverflow()](#getTextVerticalOverflow--)| Gets and sets the text vertical overflow type of the shape which contains text. |
-| [setTextVerticalOverflow(TextOverflowType)](#setTextVerticalOverflow-textoverflowtype-)| Gets and sets the text vertical overflow type of the shape which contains text. |
-| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--)| Gets and sets the text horizontal overflow type of the shape which contains text. |
-| [setTextHorizontalOverflow(TextOverflowType)](#setTextHorizontalOverflow-textoverflowtype-)| Gets and sets the text horizontal overflow type of the shape which contains text. |
-| [isTextWrapped()](#isTextWrapped--)| Gets and sets the text wrapped type of the shape which contains text. |
-| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets and sets the text wrapped type of the shape which contains text. |
-| [getTextOrientationType()](#getTextOrientationType--)| Gets and sets the text orientation type of the shape. |
-| [setTextOrientationType(TextOrientationType)](#setTextOrientationType-textorientationtype-)| Gets and sets the text orientation type of the shape. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| Gets and sets the text horizontal alignment type of the shape. |
-| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| Gets and sets the text horizontal alignment type of the shape. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| Gets and sets the text vertical alignment type of the shape. |
-| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the shape. |
-| [getTextDirection()](#getTextDirection--)| Gets/Sets the direction of the text flow for this object. |
-| [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Gets/Sets the direction of the text flow for this object. |
-| [getTextBoxOptions()](#getTextBoxOptions--)| Gets the text information in the shape |
-| [getControlData()](#getControlData--)| Gets the data of control. |
-| [getActiveXControl()](#getActiveXControl--)| Gets the ActiveX control. |
-| [getPaths()](#getPaths--)| Gets the paths of a custom geometric shape. |
-| [getGeometry()](#getGeometry--)| Gets the geometry |
-| [isDecorative()](#isDecorative--)| Indicates whether the object is decorative. |
-| [setIsDecorative(boolean)](#setIsDecorative-boolean-)| Indicates whether the object is decorative. |
+| [getMacroName()](#getMacroName--)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
+| [setMacroName(string)](#setMacroName-string-)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
+| [isEquation()](#isEquation--)| <b>@deprecated.</b> Please use the 'isEquation' property instead. Indicates whether the shape only contains an equation. |
+| [isSmartArt()](#isSmartArt--)| <b>@deprecated.</b> Please use the 'isSmartArt' property instead. Indicates whether the shape is a smart art. |
+| [getZOrderPosition()](#getZOrderPosition--)| <b>@deprecated.</b> Please use the 'zOrderPosition' property instead. Returns the position of a shape in the z-order. |
+| [setZOrderPosition(number)](#setZOrderPosition-number-)| <b>@deprecated.</b> Please use the 'zOrderPosition' property instead. Returns the position of a shape in the z-order. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape. |
+| [getAlternativeText()](#getAlternativeText--)| <b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
+| [setAlternativeText(string)](#setAlternativeText-string-)| <b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Specifies the title (caption) of the current shape object. |
+| [setTitle(string)](#setTitle-string-)| <b>@deprecated.</b> Please use the 'title' property instead. Specifies the title (caption) of the current shape object. |
+| [getLine()](#getLine--)| <b>@deprecated.</b> Please use the 'line' property instead. Gets line style |
+| [getFill()](#getFill--)| <b>@deprecated.</b> Please use the 'fill' property instead. Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
+| [getShadowEffect()](#getShadowEffect--)| <b>@deprecated.</b> Please use the 'shadowEffect' property instead. Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getReflection()](#getReflection--)| <b>@deprecated.</b> Please use the 'reflection' property instead. Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape. |
+| [getGlow()](#getGlow--)| <b>@deprecated.</b> Please use the 'glow' property instead. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [getSoftEdges()](#getSoftEdges--)| <b>@deprecated.</b> Please use the 'softEdges' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [setSoftEdges(number)](#setSoftEdges-number-)| <b>@deprecated.</b> Please use the 'softEdges' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [getThreeDFormat()](#getThreeDFormat--)| <b>@deprecated.</b> Please use the 'threeDFormat' property instead. Gets and sets 3d format of the shape. |
+| [getFormatPicture()](#getFormatPicture--)| <b>@deprecated.</b> Please use the 'formatPicture' property instead. Gets and sets the options of the picture format. |
+| [isHidden()](#isHidden--)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the object is visible. |
+| [setIsHidden(boolean)](#setIsHidden-boolean-)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the object is visible. |
+| [isLockAspectRatio()](#isLockAspectRatio--)| <b>@deprecated.</b> Please use the 'isLockAspectRatio' property instead. True means that aspect ratio of the shape is locked. |
+| [setIsLockAspectRatio(boolean)](#setIsLockAspectRatio-boolean-)| <b>@deprecated.</b> Please use the 'isLockAspectRatio' property instead. True means that aspect ratio of the shape is locked. |
+| [isAspectRatioLocked()](#isAspectRatioLocked--)| <b>@deprecated.</b> Please use the 'isAspectRatioLocked' property instead. True means that aspect ratio of the shape is locked. |
+| [setIsAspectRatioLocked(boolean)](#setIsAspectRatioLocked-boolean-)| <b>@deprecated.</b> Please use the 'isAspectRatioLocked' property instead. True means that aspect ratio of the shape is locked. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape. |
+| [getHyperlink()](#getHyperlink--)| <b>@deprecated.</b> Please use the 'hyperlink' property instead. Gets the hyperlink of the shape. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the identifier of this shape. |
+| [getSpid()](#getSpid--)| <b>@deprecated.</b> Please use the 'spid' property instead. Specifies an optional string identifier that an application can use to identify the particular shape. |
+| [getSpt()](#getSpt--)| <b>@deprecated.</b> Please use the 'spt' property instead. Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/) object which contains this shape. |
+| [isGroup()](#isGroup--)| <b>@deprecated.</b> Please use the 'isGroup' property instead. Indicates whether this shape is a group shape. |
+| [isInGroup()](#isInGroup--)| <b>@deprecated.</b> Please use the 'isInGroup' property instead. Indicates whether the shape is grouped. |
+| [isWordArt()](#isWordArt--)| <b>@deprecated.</b> Please use the 'isWordArt' property instead. Indicates whether this shape is a word art. |
+| [getTextEffect()](#getTextEffect--)| <b>@deprecated.</b> Please use the 'textEffect' property instead. Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
+| [isLocked()](#isLocked--)| <b>@deprecated.</b> Please use the 'isLocked' property instead. True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [setIsLocked(boolean)](#setIsLocked-boolean-)| <b>@deprecated.</b> Please use the 'isLocked' property instead. True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [isPrintable()](#isPrintable--)| <b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the object is printable. If False, this shape will not be printed when printing. |
+| [setIsPrintable(boolean)](#setIsPrintable-boolean-)| <b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the object is printable. If False, this shape will not be printed when printing. |
+| [getMsoDrawingType()](#getMsoDrawingType--)| <b>@deprecated.</b> Please use the 'msoDrawingType' property instead. Gets drawing type. |
+| [getAutoShapeType()](#getAutoShapeType--)| <b>@deprecated.</b> Please use the 'autoShapeType' property instead. Gets and sets the auto shape type. |
+| [setAutoShapeType(AutoShapeType)](#setAutoShapeType-autoshapetype-)| <b>@deprecated.</b> Please use the 'autoShapeType' property instead. Gets and sets the auto shape type. |
+| [getAnchorType()](#getAnchorType--)| <b>@deprecated.</b> Please use the 'anchorType' property instead. Gets and set the type of the shape anchor placeholder. |
+| [setAnchorType(ShapeAnchorType)](#setAnchorType-shapeanchortype-)| <b>@deprecated.</b> Please use the 'anchorType' property instead. Gets and set the type of the shape anchor placeholder. |
+| [getPlacement()](#getPlacement--)| <b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [setPlacement(PlacementType)](#setPlacement-placementtype-)| <b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [getUpperLeftRow()](#getUpperLeftRow--)| <b>@deprecated.</b> Please use the 'upperLeftRow' property instead. Represents the top row index. |
+| [setUpperLeftRow(number)](#setUpperLeftRow-number-)| <b>@deprecated.</b> Please use the 'upperLeftRow' property instead. Represents the top row index. |
+| [getUpperDeltaY()](#getUpperDeltaY--)| <b>@deprecated.</b> Please use the 'upperDeltaY' property instead. Gets or sets the shape's vertical offset from its upper left corner row. |
+| [setUpperDeltaY(number)](#setUpperDeltaY-number-)| <b>@deprecated.</b> Please use the 'upperDeltaY' property instead. Gets or sets the shape's vertical offset from its upper left corner row. |
+| [getUpperLeftColumn()](#getUpperLeftColumn--)| <b>@deprecated.</b> Please use the 'upperLeftColumn' property instead. Represents upper left corner column index. |
+| [setUpperLeftColumn(number)](#setUpperLeftColumn-number-)| <b>@deprecated.</b> Please use the 'upperLeftColumn' property instead. Represents upper left corner column index. |
+| [getUpperDeltaX()](#getUpperDeltaX--)| <b>@deprecated.</b> Please use the 'upperDeltaX' property instead. Gets or sets the shape's horizontal offset from its upper left corner column. |
+| [setUpperDeltaX(number)](#setUpperDeltaX-number-)| <b>@deprecated.</b> Please use the 'upperDeltaX' property instead. Gets or sets the shape's horizontal offset from its upper left corner column. |
+| [getLowerRightRow()](#getLowerRightRow--)| <b>@deprecated.</b> Please use the 'lowerRightRow' property instead. Represents lower right corner row index. |
+| [setLowerRightRow(number)](#setLowerRightRow-number-)| <b>@deprecated.</b> Please use the 'lowerRightRow' property instead. Represents lower right corner row index. |
+| [getLowerDeltaY()](#getLowerDeltaY--)| <b>@deprecated.</b> Please use the 'lowerDeltaY' property instead. Gets or sets the shape's vertical offset from its lower right corner row. |
+| [setLowerDeltaY(number)](#setLowerDeltaY-number-)| <b>@deprecated.</b> Please use the 'lowerDeltaY' property instead. Gets or sets the shape's vertical offset from its lower right corner row. |
+| [getLowerRightColumn()](#getLowerRightColumn--)| <b>@deprecated.</b> Please use the 'lowerRightColumn' property instead. Represents lower right corner column index. |
+| [setLowerRightColumn(number)](#setLowerRightColumn-number-)| <b>@deprecated.</b> Please use the 'lowerRightColumn' property instead. Represents lower right corner column index. |
+| [getLowerDeltaX()](#getLowerDeltaX--)| <b>@deprecated.</b> Please use the 'lowerDeltaX' property instead. Gets or sets the shape's horizontal  offset from its lower right corner column. |
+| [setLowerDeltaX(number)](#setLowerDeltaX-number-)| <b>@deprecated.</b> Please use the 'lowerDeltaX' property instead. Gets or sets the shape's horizontal  offset from its lower right corner column. |
+| [getRight()](#getRight--)| <b>@deprecated.</b> Please use the 'right' property instead. Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels. |
+| [setRight(number)](#setRight-number-)| <b>@deprecated.</b> Please use the 'right' property instead. Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels. |
+| [getBottom()](#getBottom--)| <b>@deprecated.</b> Please use the 'bottom' property instead. Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [setBottom(number)](#setBottom-number-)| <b>@deprecated.</b> Please use the 'bottom' property instead. Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Represents the width of shape, in unit of pixels. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Represents the width of shape, in unit of pixels. |
+| [getWidthInch()](#getWidthInch--)| <b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the shape, in unit of inch. |
+| [setWidthInch(number)](#setWidthInch-number-)| <b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the shape, in unit of inch. |
+| [getWidthPt()](#getWidthPt--)| <b>@deprecated.</b> Please use the 'widthPt' property instead. Represents the width of the shape, in unit of point. |
+| [setWidthPt(number)](#setWidthPt-number-)| <b>@deprecated.</b> Please use the 'widthPt' property instead. Represents the width of the shape, in unit of point. |
+| [getWidthCM()](#getWidthCM--)| <b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the shape, in unit of centimeters. |
+| [setWidthCM(number)](#setWidthCM-number-)| <b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the shape, in unit of centimeters. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Represents the height of shape, in unit of pixel. |
+| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Represents the height of shape, in unit of pixel. |
+| [getHeightInch()](#getHeightInch--)| <b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the shape, in unit of inches. |
+| [setHeightInch(number)](#setHeightInch-number-)| <b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the shape, in unit of inches. |
+| [getHeightPt()](#getHeightPt--)| <b>@deprecated.</b> Please use the 'heightPt' property instead. Represents the height of the shape, in unit of points. |
+| [setHeightPt(number)](#setHeightPt-number-)| <b>@deprecated.</b> Please use the 'heightPt' property instead. Represents the height of the shape, in unit of points. |
+| [getHeightCM()](#getHeightCM--)| <b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the shape, in unit of centimeters. |
+| [setHeightCM(number)](#setHeightCM-number-)| <b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the shape, in unit of centimeters. |
+| [getLeft()](#getLeft--)| <b>@deprecated.</b> Please use the 'left' property instead. Represents the horizontal offset of shape from its left column, in unit of pixels. |
+| [setLeft(number)](#setLeft-number-)| <b>@deprecated.</b> Please use the 'left' property instead. Represents the horizontal offset of shape from its left column, in unit of pixels. |
+| [getLeftInch()](#getLeftInch--)| <b>@deprecated.</b> Please use the 'leftInch' property instead. Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [setLeftInch(number)](#setLeftInch-number-)| <b>@deprecated.</b> Please use the 'leftInch' property instead. Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [getLeftCM()](#getLeftCM--)| <b>@deprecated.</b> Please use the 'leftCM' property instead. Represents the horizontal offset of shape from its left column, in unit of centimeters. |
+| [setLeftCM(number)](#setLeftCM-number-)| <b>@deprecated.</b> Please use the 'leftCM' property instead. Represents the horizontal offset of shape from its left column, in unit of centimeters. |
+| [getTop()](#getTop--)| <b>@deprecated.</b> Please use the 'top' property instead. Represents the vertical offset of shape from its top row, in unit of pixels. |
+| [setTop(number)](#setTop-number-)| <b>@deprecated.</b> Please use the 'top' property instead. Represents the vertical offset of shape from its top row, in unit of pixels. |
+| [getTopInch()](#getTopInch--)| <b>@deprecated.</b> Please use the 'topInch' property instead. Represents the vertical offset of shape from its top row, in unit of inches. |
+| [setTopInch(number)](#setTopInch-number-)| <b>@deprecated.</b> Please use the 'topInch' property instead. Represents the vertical offset of shape from its top row, in unit of inches. |
+| [getTopCM()](#getTopCM--)| <b>@deprecated.</b> Please use the 'topCM' property instead. Represents the vertical offset of shape from its top row, in unit of centimeters. |
+| [setTopCM(number)](#setTopCM-number-)| <b>@deprecated.</b> Please use the 'topCM' property instead. Represents the vertical offset of shape from its top row, in unit of centimeters. |
+| [getTopToCorner()](#getTopToCorner--)| <b>@deprecated.</b> Please use the 'topToCorner' property instead. Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
+| [setTopToCorner(number)](#setTopToCorner-number-)| <b>@deprecated.</b> Please use the 'topToCorner' property instead. Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
+| [getLeftToCorner()](#getLeftToCorner--)| <b>@deprecated.</b> Please use the 'leftToCorner' property instead. Gets and sets the horizonal offset of shape from worksheet left border. |
+| [setLeftToCorner(number)](#setLeftToCorner-number-)| <b>@deprecated.</b> Please use the 'leftToCorner' property instead. Gets and sets the horizonal offset of shape from worksheet left border. |
+| [getX()](#getX--)| <b>@deprecated.</b> Please use the 'x' property instead. Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
+| [setX(number)](#setX-number-)| <b>@deprecated.</b> Please use the 'x' property instead. Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
+| [getY()](#getY--)| <b>@deprecated.</b> Please use the 'y' property instead. Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [setY(number)](#setY-number-)| <b>@deprecated.</b> Please use the 'y' property instead. Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [getWidthScale()](#getWidthScale--)| <b>@deprecated.</b> Please use the 'widthScale' property instead. Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
+| [setWidthScale(number)](#setWidthScale-number-)| <b>@deprecated.</b> Please use the 'widthScale' property instead. Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
+| [getHeightScale()](#getHeightScale--)| <b>@deprecated.</b> Please use the 'heightScale' property instead. Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100; |
+| [setHeightScale(number)](#setHeightScale-number-)| <b>@deprecated.</b> Please use the 'heightScale' property instead. Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100; |
+| [getTopInShape()](#getTopInShape--)| <b>@deprecated.</b> Please use the 'topInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
+| [setTopInShape(number)](#setTopInShape-number-)| <b>@deprecated.</b> Please use the 'topInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
+| [getLeftInShape()](#getLeftInShape--)| <b>@deprecated.</b> Please use the 'leftInShape' property instead. Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
+| [setLeftInShape(number)](#setLeftInShape-number-)| <b>@deprecated.</b> Please use the 'leftInShape' property instead. Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
+| [getWidthInShape()](#getWidthInShape--)| <b>@deprecated.</b> Please use the 'widthInShape' property instead. Represents the width of the shape, in unit of 1/4000 of the parent shape. |
+| [setWidthInShape(number)](#setWidthInShape-number-)| <b>@deprecated.</b> Please use the 'widthInShape' property instead. Represents the width of the shape, in unit of 1/4000 of the parent shape. |
+| [getHeightInShape()](#getHeightInShape--)| <b>@deprecated.</b> Please use the 'heightInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
+| [setHeightInShape(number)](#setHeightInShape-number-)| <b>@deprecated.</b> Please use the 'heightInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
+| [getGroup()](#getGroup--)| <b>@deprecated.</b> Please use the 'group' property instead. Gets the group shape which contains this shape. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the auto shape type. |
+| [getHasLine()](#getHasLine--)| <b>@deprecated.</b> Please use the 'hasLine' property instead. Gets and sets the line border of the shape is visible. |
+| [setHasLine(boolean)](#setHasLine-boolean-)| <b>@deprecated.</b> Please use the 'hasLine' property instead. Gets and sets the line border of the shape is visible. |
+| [isFilled()](#isFilled--)| <b>@deprecated.</b> Please use the 'isFilled' property instead. Indicates whether the fill format is visible. |
+| [setIsFilled(boolean)](#setIsFilled-boolean-)| <b>@deprecated.</b> Please use the 'isFilled' property instead. Indicates whether the fill format is visible. |
+| [isFlippedHorizontally()](#isFlippedHorizontally--)| <b>@deprecated.</b> Please use the 'isFlippedHorizontally' property instead. Gets and sets whether shape is horizontally flipped . |
+| [setIsFlippedHorizontally(boolean)](#setIsFlippedHorizontally-boolean-)| <b>@deprecated.</b> Please use the 'isFlippedHorizontally' property instead. Gets and sets whether shape is horizontally flipped . |
+| [isFlippedVertically()](#isFlippedVertically--)| <b>@deprecated.</b> Please use the 'isFlippedVertically' property instead. Gets and sets whether shape is vertically flipped . |
+| [setIsFlippedVertically(boolean)](#setIsFlippedVertically-boolean-)| <b>@deprecated.</b> Please use the 'isFlippedVertically' property instead. Gets and sets whether shape is vertically flipped . |
+| [getActualLowerRightRow()](#getActualLowerRightRow--)| <b>@deprecated.</b> Please use the 'actualLowerRightRow' property instead. Get the actual bottom row. |
+| [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| <b>@deprecated.</b> Please use the 'relativeToOriginalPictureSize' property instead. Indicates whether shape is relative to original picture size. |
+| [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| <b>@deprecated.</b> Please use the 'relativeToOriginalPictureSize' property instead. Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| <b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| <b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| <b>@deprecated.</b> Please use the 'inputRange' property instead. Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| <b>@deprecated.</b> Please use the 'inputRange' property instead. Gets or sets the worksheet range used to fill the specified combo box. |
+| [getTextShapeType()](#getTextShapeType--)| <b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and sets the preset text shape type. |
+| [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| <b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and sets the preset text shape type. |
+| [getTextBody()](#getTextBody--)| <b>@deprecated.</b> Please use the 'textBody' property instead. Gets and sets the setting of the shape's text. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of shape. |
+| [setFont(Font)](#setFont-font-)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of shape. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Represents the text options of the shape. |
+| [setTextOptions(TextOptions)](#setTextOptions-textoptions-)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Represents the text options of the shape. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of this shape. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of this shape. |
+| [isRichText()](#isRichText--)| <b>@deprecated.</b> Please use the 'isRichText' property instead. Whether or not the text is rich text. |
+| [getHtmlText()](#getHtmlText--)| <b>@deprecated.</b> Please use the 'htmlText' property instead. Gets and sets the html string which contains data and some formats in this textbox. |
+| [setHtmlText(string)](#setHtmlText-string-)| <b>@deprecated.</b> Please use the 'htmlText' property instead. Gets and sets the html string which contains data and some formats in this textbox. |
+| [getTextVerticalOverflow()](#getTextVerticalOverflow--)| <b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the shape which contains text. |
+| [setTextVerticalOverflow(TextOverflowType)](#setTextVerticalOverflow-textoverflowtype-)| <b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the shape which contains text. |
+| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--)| <b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the shape which contains text. |
+| [setTextHorizontalOverflow(TextOverflowType)](#setTextHorizontalOverflow-textoverflowtype-)| <b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets and sets the text wrapped type of the shape which contains text. |
+| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets and sets the text wrapped type of the shape which contains text. |
+| [getTextOrientationType()](#getTextOrientationType--)| <b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the shape. |
+| [setTextOrientationType(TextOrientationType)](#setTextOrientationType-textorientationtype-)| <b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the shape. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the shape. |
+| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the shape. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the shape. |
+| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the shape. |
+| [getTextDirection()](#getTextDirection--)| <b>@deprecated.</b> Please use the 'textDirection' property instead. Gets/Sets the direction of the text flow for this object. |
+| [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| <b>@deprecated.</b> Please use the 'textDirection' property instead. Gets/Sets the direction of the text flow for this object. |
+| [getTextBoxOptions()](#getTextBoxOptions--)| <b>@deprecated.</b> Please use the 'textBoxOptions' property instead. Gets the text information in the shape |
+| [getControlData()](#getControlData--)| <b>@deprecated.</b> Please use the 'controlData' property instead. Gets the data of control. |
+| [getActiveXControl()](#getActiveXControl--)| <b>@deprecated.</b> Please use the 'activeXControl' property instead. Gets the ActiveX control. |
+| [getPaths()](#getPaths--)| <b>@deprecated.</b> Please use the 'paths' property instead. Gets the paths of a custom geometric shape. |
+| [getGeometry()](#getGeometry--)| <b>@deprecated.</b> Please use the 'geometry' property instead. Gets the geometry |
+| [isDecorative()](#isDecorative--)| <b>@deprecated.</b> Please use the 'isDecorative' property instead. Indicates whether the object is decorative. |
+| [setIsDecorative(boolean)](#setIsDecorative-boolean-)| <b>@deprecated.</b> Please use the 'isDecorative' property instead. Indicates whether the object is decorative. |
 | [toFrontOrBack(number)](#toFrontOrBack-number-)| Brings the shape to the front or sends the shape to back. |
 | [getLockedProperty(ShapeLockType)](#getLockedProperty-shapelocktype-)| Gets the value of locked property. |
 | [setLockedProperty(ShapeLockType, boolean)](#setLockedProperty-shapelocktype-boolean-)| Set the locked property. |
@@ -283,9 +391,996 @@ constructor(obj: Shape);
 | --- | --- | --- |
 | obj | Shape | The parent object. |
 
-### getSelectedIndex() {#getSelectedIndex--}
+### selectedIndex {#selectedIndex--}
 
 Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based.
+
+```javascript
+selectedIndex : number;
+```
+
+
+**Remarks**
+
+-1 presents no item is selected.
+
+### selectedValue {#selectedValue--}
+
+Readonly. Gets the selected value of the combox box.
+
+```javascript
+selectedValue : string;
+```
+
+
+### selectedCell {#selectedCell--}
+
+Readonly. Gets the selected cell in the input range of the combo box.
+
+```javascript
+selectedCell : Cell;
+```
+
+
+### shadow {#shadow--}
+
+Indicates whether the combobox has 3-D shading.
+
+```javascript
+shadow : boolean;
+```
+
+
+### dropDownLines {#dropDownLines--}
+
+Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
+
+```javascript
+dropDownLines : number;
+```
+
+
+### macroName {#macroName--}
+
+Gets and sets the name of macro.
+
+```javascript
+macroName : string;
+```
+
+
+### isEquation {#isEquation--}
+
+Readonly. Indicates whether the shape only contains an equation.
+
+```javascript
+isEquation : boolean;
+```
+
+
+### isSmartArt {#isSmartArt--}
+
+Readonly. Indicates whether the shape is a smart art.
+
+```javascript
+isSmartArt : boolean;
+```
+
+
+**Remarks**
+
+Only for ooxml file.
+
+### zOrderPosition {#zOrderPosition--}
+
+Returns the position of a shape in the z-order.
+
+```javascript
+zOrderPosition : number;
+```
+
+
+### name {#name--}
+
+Gets and sets the name of the shape.
+
+```javascript
+name : string;
+```
+
+
+### alternativeText {#alternativeText--}
+
+Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object.
+
+```javascript
+alternativeText : string;
+```
+
+
+### title {#title--}
+
+Specifies the title (caption) of the current shape object.
+
+```javascript
+title : string;
+```
+
+
+### line {#line--}
+
+Readonly. Gets line style
+
+```javascript
+line : LineFormat;
+```
+
+
+### fill {#fill--}
+
+Readonly. Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape.
+
+```javascript
+fill : FillFormat;
+```
+
+
+### shadowEffect {#shadowEffect--}
+
+Readonly. Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape.
+
+```javascript
+shadowEffect : ShadowEffect;
+```
+
+
+### reflection {#reflection--}
+
+Readonly. Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape.
+
+```javascript
+reflection : ReflectionEffect;
+```
+
+
+### glow {#glow--}
+
+Readonly. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
+
+```javascript
+glow : GlowEffect;
+```
+
+
+### softEdges {#softEdges--}
+
+Gets and sets the radius of blur to apply to the edges, in unit of points.
+
+```javascript
+softEdges : number;
+```
+
+
+### threeDFormat {#threeDFormat--}
+
+Readonly. Gets and sets 3d format of the shape.
+
+```javascript
+threeDFormat : ThreeDFormat;
+```
+
+
+### formatPicture {#formatPicture--}
+
+Readonly. Gets and sets the options of the picture format.
+
+```javascript
+formatPicture : MsoFormatPicture;
+```
+
+
+### isHidden {#isHidden--}
+
+Indicates whether the object is visible.
+
+```javascript
+isHidden : boolean;
+```
+
+
+### isLockAspectRatio {#isLockAspectRatio--}
+
+True means that aspect ratio of the shape is locked.
+
+```javascript
+isLockAspectRatio : boolean;
+```
+
+
+**Remarks**
+
+Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, please use Shape.IsAspectRatioLocked property. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAspectRatioLocked {#isAspectRatioLocked--}
+
+True means that aspect ratio of the shape is locked.
+
+```javascript
+isAspectRatioLocked : boolean;
+```
+
+
+**Remarks**
+
+Only for pictures and Ole Objects.
+
+### rotationAngle {#rotationAngle--}
+
+Gets and sets the rotation of the shape.
+
+```javascript
+rotationAngle : number;
+```
+
+
+### hyperlink {#hyperlink--}
+
+Readonly. Gets the hyperlink of the shape.
+
+```javascript
+hyperlink : Hyperlink;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the identifier of this shape.
+
+```javascript
+id : number;
+```
+
+
+### spid {#spid--}
+
+Readonly. Specifies an optional string identifier that an application can use to identify the particular shape.
+
+```javascript
+spid : string;
+```
+
+
+### spt {#spt--}
+
+Readonly. Specifies an optional number that an application can use to associate the particular shape with a defined shape type.
+
+```javascript
+spt : number;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### isGroup {#isGroup--}
+
+Readonly. Indicates whether this shape is a group shape.
+
+```javascript
+isGroup : boolean;
+```
+
+
+### isInGroup {#isInGroup--}
+
+Readonly. Indicates whether the shape is grouped.
+
+```javascript
+isInGroup : boolean;
+```
+
+
+### isWordArt {#isWordArt--}
+
+Readonly. Indicates whether this shape is a word art.
+
+```javascript
+isWordArt : boolean;
+```
+
+
+**Remarks**
+
+Only for the Legacy Shape of xls file.
+
+### textEffect {#textEffect--}
+
+Readonly. Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
+
+```javascript
+textEffect : TextEffectFormat;
+```
+
+
+### isLocked {#isLocked--}
+
+True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
+
+```javascript
+isLocked : boolean;
+```
+
+
+### isPrintable {#isPrintable--}
+
+Indicates whether the object is printable. If False, this shape will not be printed when printing.
+
+```javascript
+isPrintable : boolean;
+```
+
+
+### msoDrawingType {#msoDrawingType--}
+
+Readonly. Gets drawing type.
+
+```javascript
+msoDrawingType : MsoDrawingType;
+```
+
+
+### autoShapeType {#autoShapeType--}
+
+Gets and sets the auto shape type.
+
+```javascript
+autoShapeType : AutoShapeType;
+```
+
+
+### anchorType {#anchorType--}
+
+Gets and set the type of the shape anchor placeholder.
+
+```javascript
+anchorType : ShapeAnchorType;
+```
+
+
+### placement {#placement--}
+
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+
+```javascript
+placement : PlacementType;
+```
+
+
+### upperLeftRow {#upperLeftRow--}
+
+Represents the top row index.
+
+```javascript
+upperLeftRow : number;
+```
+
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+
+### upperDeltaY {#upperDeltaY--}
+
+Gets or sets the shape's vertical offset from its upper left corner row.
+
+```javascript
+upperDeltaY : number;
+```
+
+
+**Remarks**
+
+The range of value is 0 to 256.
+
+### upperLeftColumn {#upperLeftColumn--}
+
+Represents upper left corner column index.
+
+```javascript
+upperLeftColumn : number;
+```
+
+
+### upperDeltaX {#upperDeltaX--}
+
+Gets or sets the shape's horizontal offset from its upper left corner column.
+
+```javascript
+upperDeltaX : number;
+```
+
+
+**Remarks**
+
+The range of value is 0 to 1024.
+
+### lowerRightRow {#lowerRightRow--}
+
+Represents lower right corner row index.
+
+```javascript
+lowerRightRow : number;
+```
+
+
+### lowerDeltaY {#lowerDeltaY--}
+
+Gets or sets the shape's vertical offset from its lower right corner row.
+
+```javascript
+lowerDeltaY : number;
+```
+
+
+**Remarks**
+
+The range of value is 0 to 256.
+
+### lowerRightColumn {#lowerRightColumn--}
+
+Represents lower right corner column index.
+
+```javascript
+lowerRightColumn : number;
+```
+
+
+### lowerDeltaX {#lowerDeltaX--}
+
+Gets or sets the shape's horizontal  offset from its lower right corner column.
+
+```javascript
+lowerDeltaX : number;
+```
+
+
+**Remarks**
+
+The range of value is 0 to 1024.
+
+### right {#right--}
+
+Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
+
+```javascript
+right : number;
+```
+
+
+### bottom {#bottom--}
+
+Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+
+```javascript
+bottom : number;
+```
+
+
+### width {#width--}
+
+Represents the width of shape, in unit of pixels.
+
+```javascript
+width : number;
+```
+
+
+### widthInch {#widthInch--}
+
+Represents the width of the shape, in unit of inch.
+
+```javascript
+widthInch : number;
+```
+
+
+### widthPt {#widthPt--}
+
+Represents the width of the shape, in unit of point.
+
+```javascript
+widthPt : number;
+```
+
+
+### widthCM {#widthCM--}
+
+Represents the width of the shape, in unit of centimeters.
+
+```javascript
+widthCM : number;
+```
+
+
+### height {#height--}
+
+Represents the height of shape, in unit of pixel.
+
+```javascript
+height : number;
+```
+
+
+### heightInch {#heightInch--}
+
+Represents the height of the shape, in unit of inches.
+
+```javascript
+heightInch : number;
+```
+
+
+### heightPt {#heightPt--}
+
+Represents the height of the shape, in unit of points.
+
+```javascript
+heightPt : number;
+```
+
+
+### heightCM {#heightCM--}
+
+Represents the height of the shape, in unit of centimeters.
+
+```javascript
+heightCM : number;
+```
+
+
+### left {#left--}
+
+Represents the horizontal offset of shape from its left column, in unit of pixels.
+
+```javascript
+left : number;
+```
+
+
+### leftInch {#leftInch--}
+
+Represents the horizontal offset of shape from its left column, in unit of inches.
+
+```javascript
+leftInch : number;
+```
+
+
+### leftCM {#leftCM--}
+
+Represents the horizontal offset of shape from its left column, in unit of centimeters.
+
+```javascript
+leftCM : number;
+```
+
+
+### top {#top--}
+
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+```javascript
+top : number;
+```
+
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
+
+### topInch {#topInch--}
+
+Represents the vertical offset of shape from its top row, in unit of inches.
+
+```javascript
+topInch : number;
+```
+
+
+### topCM {#topCM--}
+
+Represents the vertical offset of shape from its top row, in unit of centimeters.
+
+```javascript
+topCM : number;
+```
+
+
+### topToCorner {#topToCorner--}
+
+Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
+
+```javascript
+topToCorner : number;
+```
+
+
+### leftToCorner {#leftToCorner--}
+
+Gets and sets the horizonal offset of shape from worksheet left border.
+
+```javascript
+leftToCorner : number;
+```
+
+
+### x {#x--}
+
+Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+
+```javascript
+x : number;
+```
+
+
+### y {#y--}
+
+Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+
+```javascript
+y : number;
+```
+
+
+### widthScale {#widthScale--}
+
+Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+
+```javascript
+widthScale : number;
+```
+
+
+### heightScale {#heightScale--}
+
+Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+
+```javascript
+heightScale : number;
+```
+
+
+### topInShape {#topInShape--}
+
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+
+```javascript
+topInShape : number;
+```
+
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
+
+### leftInShape {#leftInShape--}
+
+Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+
+```javascript
+leftInShape : number;
+```
+
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
+
+### widthInShape {#widthInShape--}
+
+Represents the width of the shape, in unit of 1/4000 of the parent shape.
+
+```javascript
+widthInShape : number;
+```
+
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
+
+### heightInShape {#heightInShape--}
+
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+
+```javascript
+heightInShape : number;
+```
+
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
+
+### group {#group--}
+
+Readonly. Gets the group shape which contains this shape.
+
+```javascript
+group : GroupShape;
+```
+
+
+### type {#type--}
+
+Readonly. Gets the auto shape type.
+
+```javascript
+type : AutoShapeType;
+```
+
+
+### hasLine {#hasLine--}
+
+Gets and sets the line border of the shape is visible.
+
+```javascript
+hasLine : boolean;
+```
+
+
+### isFilled {#isFilled--}
+
+Indicates whether the fill format is visible.
+
+```javascript
+isFilled : boolean;
+```
+
+
+### isFlippedHorizontally {#isFlippedHorizontally--}
+
+Gets and sets whether shape is horizontally flipped .
+
+```javascript
+isFlippedHorizontally : boolean;
+```
+
+
+### isFlippedVertically {#isFlippedVertically--}
+
+Gets and sets whether shape is vertically flipped .
+
+```javascript
+isFlippedVertically : boolean;
+```
+
+
+### actualLowerRightRow {#actualLowerRightRow--}
+
+Readonly. Get the actual bottom row.
+
+```javascript
+actualLowerRightRow : number;
+```
+
+
+### relativeToOriginalPictureSize {#relativeToOriginalPictureSize--}
+
+Indicates whether shape is relative to original picture size.
+
+```javascript
+relativeToOriginalPictureSize : boolean;
+```
+
+
+### linkedCell {#linkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+linkedCell : string;
+```
+
+
+### inputRange {#inputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+inputRange : string;
+```
+
+
+### textShapeType {#textShapeType--}
+
+Gets and sets the preset text shape type.
+
+```javascript
+textShapeType : AutoShapeType;
+```
+
+
+### textBody {#textBody--}
+
+Readonly. Gets and sets the setting of the shape's text.
+
+```javascript
+textBody : FontSettingCollection;
+```
+
+
+### font {#font--}
+
+Represents the font of shape.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Represents the text options of the shape.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
+### text {#text--}
+
+Gets and sets the text of this shape.
+
+```javascript
+text : string;
+```
+
+
+### isRichText {#isRichText--}
+
+Readonly. Whether or not the text is rich text.
+
+```javascript
+isRichText : boolean;
+```
+
+
+### htmlText {#htmlText--}
+
+Gets and sets the html string which contains data and some formats in this textbox.
+
+```javascript
+htmlText : string;
+```
+
+
+### textVerticalOverflow {#textVerticalOverflow--}
+
+Gets and sets the text vertical overflow type of the shape which contains text.
+
+```javascript
+textVerticalOverflow : TextOverflowType;
+```
+
+
+### textHorizontalOverflow {#textHorizontalOverflow--}
+
+Gets and sets the text horizontal overflow type of the shape which contains text.
+
+```javascript
+textHorizontalOverflow : TextOverflowType;
+```
+
+
+### isTextWrapped {#isTextWrapped--}
+
+Gets and sets the text wrapped type of the shape which contains text.
+
+```javascript
+isTextWrapped : boolean;
+```
+
+
+### textOrientationType {#textOrientationType--}
+
+Gets and sets the text orientation type of the shape.
+
+```javascript
+textOrientationType : TextOrientationType;
+```
+
+
+### textHorizontalAlignment {#textHorizontalAlignment--}
+
+Gets and sets the text horizontal alignment type of the shape.
+
+```javascript
+textHorizontalAlignment : TextAlignmentType;
+```
+
+
+### textVerticalAlignment {#textVerticalAlignment--}
+
+Gets and sets the text vertical alignment type of the shape.
+
+```javascript
+textVerticalAlignment : TextAlignmentType;
+```
+
+
+### textDirection {#textDirection--}
+
+Gets/Sets the direction of the text flow for this object.
+
+```javascript
+textDirection : TextDirectionType;
+```
+
+
+### textBoxOptions {#textBoxOptions--}
+
+Readonly. Gets the text information in the shape
+
+```javascript
+textBoxOptions : TextBoxOptions;
+```
+
+
+### controlData {#controlData--}
+
+Readonly. Gets the data of control.
+
+```javascript
+controlData : Uint8Array;
+```
+
+
+### activeXControl {#activeXControl--}
+
+Readonly. Gets the ActiveX control.
+
+```javascript
+activeXControl : ActiveXControl;
+```
+
+
+### paths {#paths--}
+
+Readonly. Gets the paths of a custom geometric shape.
+
+```javascript
+paths : ShapePathCollection;
+```
+
+
+### geometry {#geometry--}
+
+Readonly. Gets the geometry
+
+```javascript
+geometry : Geometry;
+```
+
+
+### isDecorative {#isDecorative--}
+
+Indicates whether the object is decorative.
+
+```javascript
+isDecorative : boolean;
+```
+
+
+### getSelectedIndex() {#getSelectedIndex--}
+
+<b>@deprecated.</b> Please use the 'selectedIndex' property instead. Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based.
 
 ```javascript
 getSelectedIndex() : number;
@@ -298,7 +1393,7 @@ getSelectedIndex() : number;
 
 ### setSelectedIndex(number) {#setSelectedIndex-number-}
 
-Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based.
+<b>@deprecated.</b> Please use the 'selectedIndex' property instead. Gets or sets the index number of the currently selected item in a list box or combo box. Zero-based.
 
 ```javascript
 setSelectedIndex(value: number) : void;
@@ -315,7 +1410,7 @@ setSelectedIndex(value: number) : void;
 
 ### getSelectedValue() {#getSelectedValue--}
 
-Gets the selected value of the combox box.
+<b>@deprecated.</b> Please use the 'selectedValue' property instead. Gets the selected value of the combox box.
 
 ```javascript
 getSelectedValue() : string;
@@ -324,7 +1419,7 @@ getSelectedValue() : string;
 
 ### getSelectedCell() {#getSelectedCell--}
 
-Gets the selected cell in the input range of the combo box.
+<b>@deprecated.</b> Please use the 'selectedCell' property instead. Gets the selected cell in the input range of the combo box.
 
 ```javascript
 getSelectedCell() : Cell;
@@ -337,7 +1432,7 @@ getSelectedCell() : Cell;
 
 ### getShadow() {#getShadow--}
 
-Indicates whether the combobox has 3-D shading.
+<b>@deprecated.</b> Please use the 'shadow' property instead. Indicates whether the combobox has 3-D shading.
 
 ```javascript
 getShadow() : boolean;
@@ -346,7 +1441,7 @@ getShadow() : boolean;
 
 ### setShadow(boolean) {#setShadow-boolean-}
 
-Indicates whether the combobox has 3-D shading.
+<b>@deprecated.</b> Please use the 'shadow' property instead. Indicates whether the combobox has 3-D shading.
 
 ```javascript
 setShadow(value: boolean) : void;
@@ -359,7 +1454,7 @@ setShadow(value: boolean) : void;
 
 ### getDropDownLines() {#getDropDownLines--}
 
-Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
+<b>@deprecated.</b> Please use the 'dropDownLines' property instead. Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
 
 ```javascript
 getDropDownLines() : number;
@@ -368,7 +1463,7 @@ getDropDownLines() : number;
 
 ### setDropDownLines(number) {#setDropDownLines-number-}
 
-Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
+<b>@deprecated.</b> Please use the 'dropDownLines' property instead. Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
 
 ```javascript
 setDropDownLines(value: number) : void;
@@ -390,7 +1485,7 @@ isNull() : boolean;
 
 ### getMacroName() {#getMacroName--}
 
-Gets and sets the name of macro.
+<b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro.
 
 ```javascript
 getMacroName() : string;
@@ -399,7 +1494,7 @@ getMacroName() : string;
 
 ### setMacroName(string) {#setMacroName-string-}
 
-Gets and sets the name of macro.
+<b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro.
 
 ```javascript
 setMacroName(value: string) : void;
@@ -412,7 +1507,7 @@ setMacroName(value: string) : void;
 
 ### isEquation() {#isEquation--}
 
-Indicates whether the shape only contains an equation.
+<b>@deprecated.</b> Please use the 'isEquation' property instead. Indicates whether the shape only contains an equation.
 
 ```javascript
 isEquation() : boolean;
@@ -421,7 +1516,7 @@ isEquation() : boolean;
 
 ### isSmartArt() {#isSmartArt--}
 
-Indicates whether the shape is a smart art.
+<b>@deprecated.</b> Please use the 'isSmartArt' property instead. Indicates whether the shape is a smart art.
 
 ```javascript
 isSmartArt() : boolean;
@@ -434,7 +1529,7 @@ Only for ooxml file.
 
 ### getZOrderPosition() {#getZOrderPosition--}
 
-Returns the position of a shape in the z-order.
+<b>@deprecated.</b> Please use the 'zOrderPosition' property instead. Returns the position of a shape in the z-order.
 
 ```javascript
 getZOrderPosition() : number;
@@ -443,7 +1538,7 @@ getZOrderPosition() : number;
 
 ### setZOrderPosition(number) {#setZOrderPosition-number-}
 
-Returns the position of a shape in the z-order.
+<b>@deprecated.</b> Please use the 'zOrderPosition' property instead. Returns the position of a shape in the z-order.
 
 ```javascript
 setZOrderPosition(value: number) : void;
@@ -456,7 +1551,7 @@ setZOrderPosition(value: number) : void;
 
 ### getName() {#getName--}
 
-Gets and sets the name of the shape.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape.
 
 ```javascript
 getName() : string;
@@ -465,7 +1560,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets and sets the name of the shape.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape.
 
 ```javascript
 setName(value: string) : void;
@@ -478,7 +1573,7 @@ setName(value: string) : void;
 
 ### getAlternativeText() {#getAlternativeText--}
 
-Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object.
+<b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object.
 
 ```javascript
 getAlternativeText() : string;
@@ -487,7 +1582,7 @@ getAlternativeText() : string;
 
 ### setAlternativeText(string) {#setAlternativeText-string-}
 
-Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object.
+<b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object.
 
 ```javascript
 setAlternativeText(value: string) : void;
@@ -500,7 +1595,7 @@ setAlternativeText(value: string) : void;
 
 ### getTitle() {#getTitle--}
 
-Specifies the title (caption) of the current shape object.
+<b>@deprecated.</b> Please use the 'title' property instead. Specifies the title (caption) of the current shape object.
 
 ```javascript
 getTitle() : string;
@@ -509,7 +1604,7 @@ getTitle() : string;
 
 ### setTitle(string) {#setTitle-string-}
 
-Specifies the title (caption) of the current shape object.
+<b>@deprecated.</b> Please use the 'title' property instead. Specifies the title (caption) of the current shape object.
 
 ```javascript
 setTitle(value: string) : void;
@@ -522,7 +1617,7 @@ setTitle(value: string) : void;
 
 ### getLine() {#getLine--}
 
-Gets line style
+<b>@deprecated.</b> Please use the 'line' property instead. Gets line style
 
 ```javascript
 getLine() : LineFormat;
@@ -535,7 +1630,7 @@ getLine() : LineFormat;
 
 ### getFill() {#getFill--}
 
-Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape.
+<b>@deprecated.</b> Please use the 'fill' property instead. Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape.
 
 ```javascript
 getFill() : FillFormat;
@@ -548,7 +1643,7 @@ getFill() : FillFormat;
 
 ### getShadowEffect() {#getShadowEffect--}
 
-Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'shadowEffect' property instead. Represents a [Drawing.ShadowEffect](../drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadowEffect() : ShadowEffect;
@@ -561,7 +1656,7 @@ getShadowEffect() : ShadowEffect;
 
 ### getReflection() {#getReflection--}
 
-Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'reflection' property instead. Represents a [ReflectionEffect](../reflectioneffect/) object that specifies reflection effect for the chart element or shape.
 
 ```javascript
 getReflection() : ReflectionEffect;
@@ -574,7 +1669,7 @@ getReflection() : ReflectionEffect;
 
 ### getGlow() {#getGlow--}
 
-Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'glow' property instead. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
 
 ```javascript
 getGlow() : GlowEffect;
@@ -587,7 +1682,7 @@ getGlow() : GlowEffect;
 
 ### getSoftEdges() {#getSoftEdges--}
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+<b>@deprecated.</b> Please use the 'softEdges' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points.
 
 ```javascript
 getSoftEdges() : number;
@@ -596,7 +1691,7 @@ getSoftEdges() : number;
 
 ### setSoftEdges(number) {#setSoftEdges-number-}
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+<b>@deprecated.</b> Please use the 'softEdges' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points.
 
 ```javascript
 setSoftEdges(value: number) : void;
@@ -609,7 +1704,7 @@ setSoftEdges(value: number) : void;
 
 ### getThreeDFormat() {#getThreeDFormat--}
 
-Gets and sets 3d format of the shape.
+<b>@deprecated.</b> Please use the 'threeDFormat' property instead. Gets and sets 3d format of the shape.
 
 ```javascript
 getThreeDFormat() : ThreeDFormat;
@@ -622,7 +1717,7 @@ getThreeDFormat() : ThreeDFormat;
 
 ### getFormatPicture() {#getFormatPicture--}
 
-Gets and sets the options of the picture format.
+<b>@deprecated.</b> Please use the 'formatPicture' property instead. Gets and sets the options of the picture format.
 
 ```javascript
 getFormatPicture() : MsoFormatPicture;
@@ -635,7 +1730,7 @@ getFormatPicture() : MsoFormatPicture;
 
 ### isHidden() {#isHidden--}
 
-Indicates whether the object is visible.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the object is visible.
 
 ```javascript
 isHidden() : boolean;
@@ -644,7 +1739,7 @@ isHidden() : boolean;
 
 ### setIsHidden(boolean) {#setIsHidden-boolean-}
 
-Indicates whether the object is visible.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether the object is visible.
 
 ```javascript
 setIsHidden(value: boolean) : void;
@@ -657,7 +1752,7 @@ setIsHidden(value: boolean) : void;
 
 ### isLockAspectRatio() {#isLockAspectRatio--}
 
-True means that aspect ratio of the shape is locked.
+<b>@deprecated.</b> Please use the 'isLockAspectRatio' property instead. True means that aspect ratio of the shape is locked.
 
 ```javascript
 isLockAspectRatio() : boolean;
@@ -670,7 +1765,7 @@ Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, p
 
 ### setIsLockAspectRatio(boolean) {#setIsLockAspectRatio-boolean-}
 
-True means that aspect ratio of the shape is locked.
+<b>@deprecated.</b> Please use the 'isLockAspectRatio' property instead. True means that aspect ratio of the shape is locked.
 
 ```javascript
 setIsLockAspectRatio(value: boolean) : void;
@@ -687,7 +1782,7 @@ Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, p
 
 ### isAspectRatioLocked() {#isAspectRatioLocked--}
 
-True means that aspect ratio of the shape is locked.
+<b>@deprecated.</b> Please use the 'isAspectRatioLocked' property instead. True means that aspect ratio of the shape is locked.
 
 ```javascript
 isAspectRatioLocked() : boolean;
@@ -700,7 +1795,7 @@ Only for pictures and Ole Objects.
 
 ### setIsAspectRatioLocked(boolean) {#setIsAspectRatioLocked-boolean-}
 
-True means that aspect ratio of the shape is locked.
+<b>@deprecated.</b> Please use the 'isAspectRatioLocked' property instead. True means that aspect ratio of the shape is locked.
 
 ```javascript
 setIsAspectRatioLocked(value: boolean) : void;
@@ -717,7 +1812,7 @@ Only for pictures and Ole Objects.
 
 ### getRotationAngle() {#getRotationAngle--}
 
-Gets and sets the rotation of the shape.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape.
 
 ```javascript
 getRotationAngle() : number;
@@ -726,7 +1821,7 @@ getRotationAngle() : number;
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-Gets and sets the rotation of the shape.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape.
 
 ```javascript
 setRotationAngle(value: number) : void;
@@ -739,7 +1834,7 @@ setRotationAngle(value: number) : void;
 
 ### getHyperlink() {#getHyperlink--}
 
-Gets the hyperlink of the shape.
+<b>@deprecated.</b> Please use the 'hyperlink' property instead. Gets the hyperlink of the shape.
 
 ```javascript
 getHyperlink() : Hyperlink;
@@ -752,7 +1847,7 @@ getHyperlink() : Hyperlink;
 
 ### getId() {#getId--}
 
-Gets the identifier of this shape.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the identifier of this shape.
 
 ```javascript
 getId() : number;
@@ -761,7 +1856,7 @@ getId() : number;
 
 ### getSpid() {#getSpid--}
 
-Specifies an optional string identifier that an application can use to identify the particular shape.
+<b>@deprecated.</b> Please use the 'spid' property instead. Specifies an optional string identifier that an application can use to identify the particular shape.
 
 ```javascript
 getSpid() : string;
@@ -770,7 +1865,7 @@ getSpid() : string;
 
 ### getSpt() {#getSpt--}
 
-Specifies an optional number that an application can use to associate the particular shape with a defined shape type.
+<b>@deprecated.</b> Please use the 'spt' property instead. Specifies an optional number that an application can use to associate the particular shape with a defined shape type.
 
 ```javascript
 getSpt() : number;
@@ -779,7 +1874,7 @@ getSpt() : number;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the [Worksheet](../worksheet/) object which contains this shape.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/) object which contains this shape.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -792,7 +1887,7 @@ getWorksheet() : Worksheet;
 
 ### isGroup() {#isGroup--}
 
-Indicates whether this shape is a group shape.
+<b>@deprecated.</b> Please use the 'isGroup' property instead. Indicates whether this shape is a group shape.
 
 ```javascript
 isGroup() : boolean;
@@ -801,7 +1896,7 @@ isGroup() : boolean;
 
 ### isInGroup() {#isInGroup--}
 
-Indicates whether the shape is grouped.
+<b>@deprecated.</b> Please use the 'isInGroup' property instead. Indicates whether the shape is grouped.
 
 ```javascript
 isInGroup() : boolean;
@@ -810,7 +1905,7 @@ isInGroup() : boolean;
 
 ### isWordArt() {#isWordArt--}
 
-Indicates whether this shape is a word art.
+<b>@deprecated.</b> Please use the 'isWordArt' property instead. Indicates whether this shape is a word art.
 
 ```javascript
 isWordArt() : boolean;
@@ -823,7 +1918,7 @@ Only for the Legacy Shape of xls file.
 
 ### getTextEffect() {#getTextEffect--}
 
-Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
+<b>@deprecated.</b> Please use the 'textEffect' property instead. Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
 
 ```javascript
 getTextEffect() : TextEffectFormat;
@@ -836,7 +1931,7 @@ getTextEffect() : TextEffectFormat;
 
 ### isLocked() {#isLocked--}
 
-True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
 
 ```javascript
 isLocked() : boolean;
@@ -845,7 +1940,7 @@ isLocked() : boolean;
 
 ### setIsLocked(boolean) {#setIsLocked-boolean-}
 
-True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
 
 ```javascript
 setIsLocked(value: boolean) : void;
@@ -858,7 +1953,7 @@ setIsLocked(value: boolean) : void;
 
 ### isPrintable() {#isPrintable--}
 
-Indicates whether the object is printable. If False, this shape will not be printed when printing.
+<b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the object is printable. If False, this shape will not be printed when printing.
 
 ```javascript
 isPrintable() : boolean;
@@ -867,7 +1962,7 @@ isPrintable() : boolean;
 
 ### setIsPrintable(boolean) {#setIsPrintable-boolean-}
 
-Indicates whether the object is printable. If False, this shape will not be printed when printing.
+<b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the object is printable. If False, this shape will not be printed when printing.
 
 ```javascript
 setIsPrintable(value: boolean) : void;
@@ -880,7 +1975,7 @@ setIsPrintable(value: boolean) : void;
 
 ### getMsoDrawingType() {#getMsoDrawingType--}
 
-Gets drawing type.
+<b>@deprecated.</b> Please use the 'msoDrawingType' property instead. Gets drawing type.
 
 ```javascript
 getMsoDrawingType() : MsoDrawingType;
@@ -893,7 +1988,7 @@ getMsoDrawingType() : MsoDrawingType;
 
 ### getAutoShapeType() {#getAutoShapeType--}
 
-Gets and sets the auto shape type.
+<b>@deprecated.</b> Please use the 'autoShapeType' property instead. Gets and sets the auto shape type.
 
 ```javascript
 getAutoShapeType() : AutoShapeType;
@@ -906,7 +2001,7 @@ getAutoShapeType() : AutoShapeType;
 
 ### setAutoShapeType(AutoShapeType) {#setAutoShapeType-autoshapetype-}
 
-Gets and sets the auto shape type.
+<b>@deprecated.</b> Please use the 'autoShapeType' property instead. Gets and sets the auto shape type.
 
 ```javascript
 setAutoShapeType(value: AutoShapeType) : void;
@@ -919,7 +2014,7 @@ setAutoShapeType(value: AutoShapeType) : void;
 
 ### getAnchorType() {#getAnchorType--}
 
-Gets and set the type of the shape anchor placeholder.
+<b>@deprecated.</b> Please use the 'anchorType' property instead. Gets and set the type of the shape anchor placeholder.
 
 ```javascript
 getAnchorType() : ShapeAnchorType;
@@ -932,7 +2027,7 @@ getAnchorType() : ShapeAnchorType;
 
 ### setAnchorType(ShapeAnchorType) {#setAnchorType-shapeanchortype-}
 
-Gets and set the type of the shape anchor placeholder.
+<b>@deprecated.</b> Please use the 'anchorType' property instead. Gets and set the type of the shape anchor placeholder.
 
 ```javascript
 setAnchorType(value: ShapeAnchorType) : void;
@@ -945,7 +2040,7 @@ setAnchorType(value: ShapeAnchorType) : void;
 
 ### getPlacement() {#getPlacement--}
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+<b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 ```javascript
 getPlacement() : PlacementType;
@@ -958,7 +2053,7 @@ getPlacement() : PlacementType;
 
 ### setPlacement(PlacementType) {#setPlacement-placementtype-}
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+<b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 ```javascript
 setPlacement(value: PlacementType) : void;
@@ -971,7 +2066,7 @@ setPlacement(value: PlacementType) : void;
 
 ### getUpperLeftRow() {#getUpperLeftRow--}
 
-Represents the top row index.
+<b>@deprecated.</b> Please use the 'upperLeftRow' property instead. Represents the top row index.
 
 ```javascript
 getUpperLeftRow() : number;
@@ -984,7 +2079,7 @@ If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 ### setUpperLeftRow(number) {#setUpperLeftRow-number-}
 
-Represents the top row index.
+<b>@deprecated.</b> Please use the 'upperLeftRow' property instead. Represents the top row index.
 
 ```javascript
 setUpperLeftRow(value: number) : void;
@@ -1001,7 +2096,7 @@ If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 ### getUpperDeltaY() {#getUpperDeltaY--}
 
-Gets or sets the shape's vertical offset from its upper left corner row.
+<b>@deprecated.</b> Please use the 'upperDeltaY' property instead. Gets or sets the shape's vertical offset from its upper left corner row.
 
 ```javascript
 getUpperDeltaY() : number;
@@ -1014,7 +2109,7 @@ The range of value is 0 to 256.
 
 ### setUpperDeltaY(number) {#setUpperDeltaY-number-}
 
-Gets or sets the shape's vertical offset from its upper left corner row.
+<b>@deprecated.</b> Please use the 'upperDeltaY' property instead. Gets or sets the shape's vertical offset from its upper left corner row.
 
 ```javascript
 setUpperDeltaY(value: number) : void;
@@ -1031,7 +2126,7 @@ The range of value is 0 to 256.
 
 ### getUpperLeftColumn() {#getUpperLeftColumn--}
 
-Represents upper left corner column index.
+<b>@deprecated.</b> Please use the 'upperLeftColumn' property instead. Represents upper left corner column index.
 
 ```javascript
 getUpperLeftColumn() : number;
@@ -1040,7 +2135,7 @@ getUpperLeftColumn() : number;
 
 ### setUpperLeftColumn(number) {#setUpperLeftColumn-number-}
 
-Represents upper left corner column index.
+<b>@deprecated.</b> Please use the 'upperLeftColumn' property instead. Represents upper left corner column index.
 
 ```javascript
 setUpperLeftColumn(value: number) : void;
@@ -1053,7 +2148,7 @@ setUpperLeftColumn(value: number) : void;
 
 ### getUpperDeltaX() {#getUpperDeltaX--}
 
-Gets or sets the shape's horizontal offset from its upper left corner column.
+<b>@deprecated.</b> Please use the 'upperDeltaX' property instead. Gets or sets the shape's horizontal offset from its upper left corner column.
 
 ```javascript
 getUpperDeltaX() : number;
@@ -1066,7 +2161,7 @@ The range of value is 0 to 1024.
 
 ### setUpperDeltaX(number) {#setUpperDeltaX-number-}
 
-Gets or sets the shape's horizontal offset from its upper left corner column.
+<b>@deprecated.</b> Please use the 'upperDeltaX' property instead. Gets or sets the shape's horizontal offset from its upper left corner column.
 
 ```javascript
 setUpperDeltaX(value: number) : void;
@@ -1083,7 +2178,7 @@ The range of value is 0 to 1024.
 
 ### getLowerRightRow() {#getLowerRightRow--}
 
-Represents lower right corner row index.
+<b>@deprecated.</b> Please use the 'lowerRightRow' property instead. Represents lower right corner row index.
 
 ```javascript
 getLowerRightRow() : number;
@@ -1092,7 +2187,7 @@ getLowerRightRow() : number;
 
 ### setLowerRightRow(number) {#setLowerRightRow-number-}
 
-Represents lower right corner row index.
+<b>@deprecated.</b> Please use the 'lowerRightRow' property instead. Represents lower right corner row index.
 
 ```javascript
 setLowerRightRow(value: number) : void;
@@ -1105,7 +2200,7 @@ setLowerRightRow(value: number) : void;
 
 ### getLowerDeltaY() {#getLowerDeltaY--}
 
-Gets or sets the shape's vertical offset from its lower right corner row.
+<b>@deprecated.</b> Please use the 'lowerDeltaY' property instead. Gets or sets the shape's vertical offset from its lower right corner row.
 
 ```javascript
 getLowerDeltaY() : number;
@@ -1118,7 +2213,7 @@ The range of value is 0 to 256.
 
 ### setLowerDeltaY(number) {#setLowerDeltaY-number-}
 
-Gets or sets the shape's vertical offset from its lower right corner row.
+<b>@deprecated.</b> Please use the 'lowerDeltaY' property instead. Gets or sets the shape's vertical offset from its lower right corner row.
 
 ```javascript
 setLowerDeltaY(value: number) : void;
@@ -1135,7 +2230,7 @@ The range of value is 0 to 256.
 
 ### getLowerRightColumn() {#getLowerRightColumn--}
 
-Represents lower right corner column index.
+<b>@deprecated.</b> Please use the 'lowerRightColumn' property instead. Represents lower right corner column index.
 
 ```javascript
 getLowerRightColumn() : number;
@@ -1144,7 +2239,7 @@ getLowerRightColumn() : number;
 
 ### setLowerRightColumn(number) {#setLowerRightColumn-number-}
 
-Represents lower right corner column index.
+<b>@deprecated.</b> Please use the 'lowerRightColumn' property instead. Represents lower right corner column index.
 
 ```javascript
 setLowerRightColumn(value: number) : void;
@@ -1157,7 +2252,7 @@ setLowerRightColumn(value: number) : void;
 
 ### getLowerDeltaX() {#getLowerDeltaX--}
 
-Gets or sets the shape's horizontal  offset from its lower right corner column.
+<b>@deprecated.</b> Please use the 'lowerDeltaX' property instead. Gets or sets the shape's horizontal  offset from its lower right corner column.
 
 ```javascript
 getLowerDeltaX() : number;
@@ -1170,7 +2265,7 @@ The range of value is 0 to 1024.
 
 ### setLowerDeltaX(number) {#setLowerDeltaX-number-}
 
-Gets or sets the shape's horizontal  offset from its lower right corner column.
+<b>@deprecated.</b> Please use the 'lowerDeltaX' property instead. Gets or sets the shape's horizontal  offset from its lower right corner column.
 
 ```javascript
 setLowerDeltaX(value: number) : void;
@@ -1187,7 +2282,7 @@ The range of value is 0 to 1024.
 
 ### getRight() {#getRight--}
 
-Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
+<b>@deprecated.</b> Please use the 'right' property instead. Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
 
 ```javascript
 getRight() : number;
@@ -1196,7 +2291,7 @@ getRight() : number;
 
 ### setRight(number) {#setRight-number-}
 
-Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
+<b>@deprecated.</b> Please use the 'right' property instead. Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
 
 ```javascript
 setRight(value: number) : void;
@@ -1209,7 +2304,7 @@ setRight(value: number) : void;
 
 ### getBottom() {#getBottom--}
 
-Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+<b>@deprecated.</b> Please use the 'bottom' property instead. Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
 
 ```javascript
 getBottom() : number;
@@ -1218,7 +2313,7 @@ getBottom() : number;
 
 ### setBottom(number) {#setBottom-number-}
 
-Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+<b>@deprecated.</b> Please use the 'bottom' property instead. Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
 
 ```javascript
 setBottom(value: number) : void;
@@ -1231,7 +2326,7 @@ setBottom(value: number) : void;
 
 ### getWidth() {#getWidth--}
 
-Represents the width of shape, in unit of pixels.
+<b>@deprecated.</b> Please use the 'width' property instead. Represents the width of shape, in unit of pixels.
 
 ```javascript
 getWidth() : number;
@@ -1240,7 +2335,7 @@ getWidth() : number;
 
 ### setWidth(number) {#setWidth-number-}
 
-Represents the width of shape, in unit of pixels.
+<b>@deprecated.</b> Please use the 'width' property instead. Represents the width of shape, in unit of pixels.
 
 ```javascript
 setWidth(value: number) : void;
@@ -1253,7 +2348,7 @@ setWidth(value: number) : void;
 
 ### getWidthInch() {#getWidthInch--}
 
-Represents the width of the shape, in unit of inch.
+<b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the shape, in unit of inch.
 
 ```javascript
 getWidthInch() : number;
@@ -1262,7 +2357,7 @@ getWidthInch() : number;
 
 ### setWidthInch(number) {#setWidthInch-number-}
 
-Represents the width of the shape, in unit of inch.
+<b>@deprecated.</b> Please use the 'widthInch' property instead. Represents the width of the shape, in unit of inch.
 
 ```javascript
 setWidthInch(value: number) : void;
@@ -1275,7 +2370,7 @@ setWidthInch(value: number) : void;
 
 ### getWidthPt() {#getWidthPt--}
 
-Represents the width of the shape, in unit of point.
+<b>@deprecated.</b> Please use the 'widthPt' property instead. Represents the width of the shape, in unit of point.
 
 ```javascript
 getWidthPt() : number;
@@ -1284,7 +2379,7 @@ getWidthPt() : number;
 
 ### setWidthPt(number) {#setWidthPt-number-}
 
-Represents the width of the shape, in unit of point.
+<b>@deprecated.</b> Please use the 'widthPt' property instead. Represents the width of the shape, in unit of point.
 
 ```javascript
 setWidthPt(value: number) : void;
@@ -1297,7 +2392,7 @@ setWidthPt(value: number) : void;
 
 ### getWidthCM() {#getWidthCM--}
 
-Represents the width of the shape, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the shape, in unit of centimeters.
 
 ```javascript
 getWidthCM() : number;
@@ -1306,7 +2401,7 @@ getWidthCM() : number;
 
 ### setWidthCM(number) {#setWidthCM-number-}
 
-Represents the width of the shape, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'widthCM' property instead. Represents the width of the shape, in unit of centimeters.
 
 ```javascript
 setWidthCM(value: number) : void;
@@ -1319,7 +2414,7 @@ setWidthCM(value: number) : void;
 
 ### getHeight() {#getHeight--}
 
-Represents the height of shape, in unit of pixel.
+<b>@deprecated.</b> Please use the 'height' property instead. Represents the height of shape, in unit of pixel.
 
 ```javascript
 getHeight() : number;
@@ -1328,7 +2423,7 @@ getHeight() : number;
 
 ### setHeight(number) {#setHeight-number-}
 
-Represents the height of shape, in unit of pixel.
+<b>@deprecated.</b> Please use the 'height' property instead. Represents the height of shape, in unit of pixel.
 
 ```javascript
 setHeight(value: number) : void;
@@ -1341,7 +2436,7 @@ setHeight(value: number) : void;
 
 ### getHeightInch() {#getHeightInch--}
 
-Represents the height of the shape, in unit of inches.
+<b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the shape, in unit of inches.
 
 ```javascript
 getHeightInch() : number;
@@ -1350,7 +2445,7 @@ getHeightInch() : number;
 
 ### setHeightInch(number) {#setHeightInch-number-}
 
-Represents the height of the shape, in unit of inches.
+<b>@deprecated.</b> Please use the 'heightInch' property instead. Represents the height of the shape, in unit of inches.
 
 ```javascript
 setHeightInch(value: number) : void;
@@ -1363,7 +2458,7 @@ setHeightInch(value: number) : void;
 
 ### getHeightPt() {#getHeightPt--}
 
-Represents the height of the shape, in unit of points.
+<b>@deprecated.</b> Please use the 'heightPt' property instead. Represents the height of the shape, in unit of points.
 
 ```javascript
 getHeightPt() : number;
@@ -1372,7 +2467,7 @@ getHeightPt() : number;
 
 ### setHeightPt(number) {#setHeightPt-number-}
 
-Represents the height of the shape, in unit of points.
+<b>@deprecated.</b> Please use the 'heightPt' property instead. Represents the height of the shape, in unit of points.
 
 ```javascript
 setHeightPt(value: number) : void;
@@ -1385,7 +2480,7 @@ setHeightPt(value: number) : void;
 
 ### getHeightCM() {#getHeightCM--}
 
-Represents the height of the shape, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the shape, in unit of centimeters.
 
 ```javascript
 getHeightCM() : number;
@@ -1394,7 +2489,7 @@ getHeightCM() : number;
 
 ### setHeightCM(number) {#setHeightCM-number-}
 
-Represents the height of the shape, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'heightCM' property instead. Represents the height of the shape, in unit of centimeters.
 
 ```javascript
 setHeightCM(value: number) : void;
@@ -1407,7 +2502,7 @@ setHeightCM(value: number) : void;
 
 ### getLeft() {#getLeft--}
 
-Represents the horizontal offset of shape from its left column, in unit of pixels.
+<b>@deprecated.</b> Please use the 'left' property instead. Represents the horizontal offset of shape from its left column, in unit of pixels.
 
 ```javascript
 getLeft() : number;
@@ -1416,7 +2511,7 @@ getLeft() : number;
 
 ### setLeft(number) {#setLeft-number-}
 
-Represents the horizontal offset of shape from its left column, in unit of pixels.
+<b>@deprecated.</b> Please use the 'left' property instead. Represents the horizontal offset of shape from its left column, in unit of pixels.
 
 ```javascript
 setLeft(value: number) : void;
@@ -1429,7 +2524,7 @@ setLeft(value: number) : void;
 
 ### getLeftInch() {#getLeftInch--}
 
-Represents the horizontal offset of shape from its left column, in unit of inches.
+<b>@deprecated.</b> Please use the 'leftInch' property instead. Represents the horizontal offset of shape from its left column, in unit of inches.
 
 ```javascript
 getLeftInch() : number;
@@ -1438,7 +2533,7 @@ getLeftInch() : number;
 
 ### setLeftInch(number) {#setLeftInch-number-}
 
-Represents the horizontal offset of shape from its left column, in unit of inches.
+<b>@deprecated.</b> Please use the 'leftInch' property instead. Represents the horizontal offset of shape from its left column, in unit of inches.
 
 ```javascript
 setLeftInch(value: number) : void;
@@ -1451,7 +2546,7 @@ setLeftInch(value: number) : void;
 
 ### getLeftCM() {#getLeftCM--}
 
-Represents the horizontal offset of shape from its left column, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'leftCM' property instead. Represents the horizontal offset of shape from its left column, in unit of centimeters.
 
 ```javascript
 getLeftCM() : number;
@@ -1460,7 +2555,7 @@ getLeftCM() : number;
 
 ### setLeftCM(number) {#setLeftCM-number-}
 
-Represents the horizontal offset of shape from its left column, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'leftCM' property instead. Represents the horizontal offset of shape from its left column, in unit of centimeters.
 
 ```javascript
 setLeftCM(value: number) : void;
@@ -1473,7 +2568,7 @@ setLeftCM(value: number) : void;
 
 ### getTop() {#getTop--}
 
-Represents the vertical offset of shape from its top row, in unit of pixels.
+<b>@deprecated.</b> Please use the 'top' property instead. Represents the vertical offset of shape from its top row, in unit of pixels.
 
 ```javascript
 getTop() : number;
@@ -1486,7 +2581,7 @@ If the shape is in the chart, represents the vertical offset of shape from its t
 
 ### setTop(number) {#setTop-number-}
 
-Represents the vertical offset of shape from its top row, in unit of pixels.
+<b>@deprecated.</b> Please use the 'top' property instead. Represents the vertical offset of shape from its top row, in unit of pixels.
 
 ```javascript
 setTop(value: number) : void;
@@ -1503,7 +2598,7 @@ If the shape is in the chart, represents the vertical offset of shape from its t
 
 ### getTopInch() {#getTopInch--}
 
-Represents the vertical offset of shape from its top row, in unit of inches.
+<b>@deprecated.</b> Please use the 'topInch' property instead. Represents the vertical offset of shape from its top row, in unit of inches.
 
 ```javascript
 getTopInch() : number;
@@ -1512,7 +2607,7 @@ getTopInch() : number;
 
 ### setTopInch(number) {#setTopInch-number-}
 
-Represents the vertical offset of shape from its top row, in unit of inches.
+<b>@deprecated.</b> Please use the 'topInch' property instead. Represents the vertical offset of shape from its top row, in unit of inches.
 
 ```javascript
 setTopInch(value: number) : void;
@@ -1525,7 +2620,7 @@ setTopInch(value: number) : void;
 
 ### getTopCM() {#getTopCM--}
 
-Represents the vertical offset of shape from its top row, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'topCM' property instead. Represents the vertical offset of shape from its top row, in unit of centimeters.
 
 ```javascript
 getTopCM() : number;
@@ -1534,7 +2629,7 @@ getTopCM() : number;
 
 ### setTopCM(number) {#setTopCM-number-}
 
-Represents the vertical offset of shape from its top row, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'topCM' property instead. Represents the vertical offset of shape from its top row, in unit of centimeters.
 
 ```javascript
 setTopCM(value: number) : void;
@@ -1547,7 +2642,7 @@ setTopCM(value: number) : void;
 
 ### getTopToCorner() {#getTopToCorner--}
 
-Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
+<b>@deprecated.</b> Please use the 'topToCorner' property instead. Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
 
 ```javascript
 getTopToCorner() : number;
@@ -1556,7 +2651,7 @@ getTopToCorner() : number;
 
 ### setTopToCorner(number) {#setTopToCorner-number-}
 
-Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
+<b>@deprecated.</b> Please use the 'topToCorner' property instead. Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels.
 
 ```javascript
 setTopToCorner(value: number) : void;
@@ -1569,7 +2664,7 @@ setTopToCorner(value: number) : void;
 
 ### getLeftToCorner() {#getLeftToCorner--}
 
-Gets and sets the horizonal offset of shape from worksheet left border.
+<b>@deprecated.</b> Please use the 'leftToCorner' property instead. Gets and sets the horizonal offset of shape from worksheet left border.
 
 ```javascript
 getLeftToCorner() : number;
@@ -1578,7 +2673,7 @@ getLeftToCorner() : number;
 
 ### setLeftToCorner(number) {#setLeftToCorner-number-}
 
-Gets and sets the horizonal offset of shape from worksheet left border.
+<b>@deprecated.</b> Please use the 'leftToCorner' property instead. Gets and sets the horizonal offset of shape from worksheet left border.
 
 ```javascript
 setLeftToCorner(value: number) : void;
@@ -1591,7 +2686,7 @@ setLeftToCorner(value: number) : void;
 
 ### getX() {#getX--}
 
-Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+<b>@deprecated.</b> Please use the 'x' property instead. Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
 
 ```javascript
 getX() : number;
@@ -1600,7 +2695,7 @@ getX() : number;
 
 ### setX(number) {#setX-number-}
 
-Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+<b>@deprecated.</b> Please use the 'x' property instead. Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
 
 ```javascript
 setX(value: number) : void;
@@ -1613,7 +2708,7 @@ setX(value: number) : void;
 
 ### getY() {#getY--}
 
-Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+<b>@deprecated.</b> Please use the 'y' property instead. Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
 
 ```javascript
 getY() : number;
@@ -1622,7 +2717,7 @@ getY() : number;
 
 ### setY(number) {#setY-number-}
 
-Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+<b>@deprecated.</b> Please use the 'y' property instead. Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
 
 ```javascript
 setY(value: number) : void;
@@ -1635,7 +2730,7 @@ setY(value: number) : void;
 
 ### getWidthScale() {#getWidthScale--}
 
-Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+<b>@deprecated.</b> Please use the 'widthScale' property instead. Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
 
 ```javascript
 getWidthScale() : number;
@@ -1644,7 +2739,7 @@ getWidthScale() : number;
 
 ### setWidthScale(number) {#setWidthScale-number-}
 
-Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+<b>@deprecated.</b> Please use the 'widthScale' property instead. Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
 
 ```javascript
 setWidthScale(value: number) : void;
@@ -1657,7 +2752,7 @@ setWidthScale(value: number) : void;
 
 ### getHeightScale() {#getHeightScale--}
 
-Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+<b>@deprecated.</b> Please use the 'heightScale' property instead. Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
 
 ```javascript
 getHeightScale() : number;
@@ -1666,7 +2761,7 @@ getHeightScale() : number;
 
 ### setHeightScale(number) {#setHeightScale-number-}
 
-Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+<b>@deprecated.</b> Please use the 'heightScale' property instead. Gets and sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
 
 ```javascript
 setHeightScale(value: number) : void;
@@ -1679,7 +2774,7 @@ setHeightScale(value: number) : void;
 
 ### getTopInShape() {#getTopInShape--}
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+<b>@deprecated.</b> Please use the 'topInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
 
 ```javascript
 getTopInShape() : number;
@@ -1692,7 +2787,7 @@ Only Applies when this shape in the group or chart.
 
 ### setTopInShape(number) {#setTopInShape-number-}
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+<b>@deprecated.</b> Please use the 'topInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
 
 ```javascript
 setTopInShape(value: number) : void;
@@ -1709,7 +2804,7 @@ Only Applies when this shape in the group or chart.
 
 ### getLeftInShape() {#getLeftInShape--}
 
-Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+<b>@deprecated.</b> Please use the 'leftInShape' property instead. Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
 
 ```javascript
 getLeftInShape() : number;
@@ -1722,7 +2817,7 @@ Only Applies when this shape in the group or chart.
 
 ### setLeftInShape(number) {#setLeftInShape-number-}
 
-Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+<b>@deprecated.</b> Please use the 'leftInShape' property instead. Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
 
 ```javascript
 setLeftInShape(value: number) : void;
@@ -1739,7 +2834,7 @@ Only Applies when this shape in the group or chart.
 
 ### getWidthInShape() {#getWidthInShape--}
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape.
+<b>@deprecated.</b> Please use the 'widthInShape' property instead. Represents the width of the shape, in unit of 1/4000 of the parent shape.
 
 ```javascript
 getWidthInShape() : number;
@@ -1752,7 +2847,7 @@ Only Applies when this shape in the group or chart.
 
 ### setWidthInShape(number) {#setWidthInShape-number-}
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape.
+<b>@deprecated.</b> Please use the 'widthInShape' property instead. Represents the width of the shape, in unit of 1/4000 of the parent shape.
 
 ```javascript
 setWidthInShape(value: number) : void;
@@ -1769,7 +2864,7 @@ Only Applies when this shape in the group or chart.
 
 ### getHeightInShape() {#getHeightInShape--}
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+<b>@deprecated.</b> Please use the 'heightInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
 
 ```javascript
 getHeightInShape() : number;
@@ -1782,7 +2877,7 @@ Only Applies when this shape in the group or chart.
 
 ### setHeightInShape(number) {#setHeightInShape-number-}
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+<b>@deprecated.</b> Please use the 'heightInShape' property instead. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
 
 ```javascript
 setHeightInShape(value: number) : void;
@@ -1799,7 +2894,7 @@ Only Applies when this shape in the group or chart.
 
 ### getGroup() {#getGroup--}
 
-Gets the group shape which contains this shape.
+<b>@deprecated.</b> Please use the 'group' property instead. Gets the group shape which contains this shape.
 
 ```javascript
 getGroup() : GroupShape;
@@ -1812,7 +2907,7 @@ getGroup() : GroupShape;
 
 ### getType() {#getType--}
 
-Gets the auto shape type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the auto shape type.
 
 ```javascript
 getType() : AutoShapeType;
@@ -1825,7 +2920,7 @@ getType() : AutoShapeType;
 
 ### getHasLine() {#getHasLine--}
 
-Gets and sets the line border of the shape is visible.
+<b>@deprecated.</b> Please use the 'hasLine' property instead. Gets and sets the line border of the shape is visible.
 
 ```javascript
 getHasLine() : boolean;
@@ -1834,7 +2929,7 @@ getHasLine() : boolean;
 
 ### setHasLine(boolean) {#setHasLine-boolean-}
 
-Gets and sets the line border of the shape is visible.
+<b>@deprecated.</b> Please use the 'hasLine' property instead. Gets and sets the line border of the shape is visible.
 
 ```javascript
 setHasLine(value: boolean) : void;
@@ -1847,7 +2942,7 @@ setHasLine(value: boolean) : void;
 
 ### isFilled() {#isFilled--}
 
-Indicates whether the fill format is visible.
+<b>@deprecated.</b> Please use the 'isFilled' property instead. Indicates whether the fill format is visible.
 
 ```javascript
 isFilled() : boolean;
@@ -1856,7 +2951,7 @@ isFilled() : boolean;
 
 ### setIsFilled(boolean) {#setIsFilled-boolean-}
 
-Indicates whether the fill format is visible.
+<b>@deprecated.</b> Please use the 'isFilled' property instead. Indicates whether the fill format is visible.
 
 ```javascript
 setIsFilled(value: boolean) : void;
@@ -1869,7 +2964,7 @@ setIsFilled(value: boolean) : void;
 
 ### isFlippedHorizontally() {#isFlippedHorizontally--}
 
-Gets and sets whether shape is horizontally flipped .
+<b>@deprecated.</b> Please use the 'isFlippedHorizontally' property instead. Gets and sets whether shape is horizontally flipped .
 
 ```javascript
 isFlippedHorizontally() : boolean;
@@ -1878,7 +2973,7 @@ isFlippedHorizontally() : boolean;
 
 ### setIsFlippedHorizontally(boolean) {#setIsFlippedHorizontally-boolean-}
 
-Gets and sets whether shape is horizontally flipped .
+<b>@deprecated.</b> Please use the 'isFlippedHorizontally' property instead. Gets and sets whether shape is horizontally flipped .
 
 ```javascript
 setIsFlippedHorizontally(value: boolean) : void;
@@ -1891,7 +2986,7 @@ setIsFlippedHorizontally(value: boolean) : void;
 
 ### isFlippedVertically() {#isFlippedVertically--}
 
-Gets and sets whether shape is vertically flipped .
+<b>@deprecated.</b> Please use the 'isFlippedVertically' property instead. Gets and sets whether shape is vertically flipped .
 
 ```javascript
 isFlippedVertically() : boolean;
@@ -1900,7 +2995,7 @@ isFlippedVertically() : boolean;
 
 ### setIsFlippedVertically(boolean) {#setIsFlippedVertically-boolean-}
 
-Gets and sets whether shape is vertically flipped .
+<b>@deprecated.</b> Please use the 'isFlippedVertically' property instead. Gets and sets whether shape is vertically flipped .
 
 ```javascript
 setIsFlippedVertically(value: boolean) : void;
@@ -1913,7 +3008,7 @@ setIsFlippedVertically(value: boolean) : void;
 
 ### getActualLowerRightRow() {#getActualLowerRightRow--}
 
-Get the actual bottom row.
+<b>@deprecated.</b> Please use the 'actualLowerRightRow' property instead. Get the actual bottom row.
 
 ```javascript
 getActualLowerRightRow() : number;
@@ -1922,7 +3017,7 @@ getActualLowerRightRow() : number;
 
 ### getRelativeToOriginalPictureSize() {#getRelativeToOriginalPictureSize--}
 
-Indicates whether shape is relative to original picture size.
+<b>@deprecated.</b> Please use the 'relativeToOriginalPictureSize' property instead. Indicates whether shape is relative to original picture size.
 
 ```javascript
 getRelativeToOriginalPictureSize() : boolean;
@@ -1931,7 +3026,7 @@ getRelativeToOriginalPictureSize() : boolean;
 
 ### setRelativeToOriginalPictureSize(boolean) {#setRelativeToOriginalPictureSize-boolean-}
 
-Indicates whether shape is relative to original picture size.
+<b>@deprecated.</b> Please use the 'relativeToOriginalPictureSize' property instead. Indicates whether shape is relative to original picture size.
 
 ```javascript
 setRelativeToOriginalPictureSize(value: boolean) : void;
@@ -1944,7 +3039,7 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 
 ### getLinkedCell() {#getLinkedCell--}
 
-Gets or sets the worksheet range linked to the control's value.
+<b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets or sets the worksheet range linked to the control's value.
 
 ```javascript
 getLinkedCell() : string;
@@ -1953,7 +3048,7 @@ getLinkedCell() : string;
 
 ### setLinkedCell(string) {#setLinkedCell-string-}
 
-Gets or sets the worksheet range linked to the control's value.
+<b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets or sets the worksheet range linked to the control's value.
 
 ```javascript
 setLinkedCell(value: string) : void;
@@ -1966,7 +3061,7 @@ setLinkedCell(value: string) : void;
 
 ### getInputRange() {#getInputRange--}
 
-Gets or sets the worksheet range used to fill the specified combo box.
+<b>@deprecated.</b> Please use the 'inputRange' property instead. Gets or sets the worksheet range used to fill the specified combo box.
 
 ```javascript
 getInputRange() : string;
@@ -1975,7 +3070,7 @@ getInputRange() : string;
 
 ### setInputRange(string) {#setInputRange-string-}
 
-Gets or sets the worksheet range used to fill the specified combo box.
+<b>@deprecated.</b> Please use the 'inputRange' property instead. Gets or sets the worksheet range used to fill the specified combo box.
 
 ```javascript
 setInputRange(value: string) : void;
@@ -1988,7 +3083,7 @@ setInputRange(value: string) : void;
 
 ### getTextShapeType() {#getTextShapeType--}
 
-Gets and sets the preset text shape type.
+<b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and sets the preset text shape type.
 
 ```javascript
 getTextShapeType() : AutoShapeType;
@@ -2001,7 +3096,7 @@ getTextShapeType() : AutoShapeType;
 
 ### setTextShapeType(AutoShapeType) {#setTextShapeType-autoshapetype-}
 
-Gets and sets the preset text shape type.
+<b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and sets the preset text shape type.
 
 ```javascript
 setTextShapeType(value: AutoShapeType) : void;
@@ -2014,7 +3109,7 @@ setTextShapeType(value: AutoShapeType) : void;
 
 ### getTextBody() {#getTextBody--}
 
-Gets and sets the setting of the shape's text.
+<b>@deprecated.</b> Please use the 'textBody' property instead. Gets and sets the setting of the shape's text.
 
 ```javascript
 getTextBody() : FontSettingCollection;
@@ -2027,7 +3122,7 @@ getTextBody() : FontSettingCollection;
 
 ### getFont() {#getFont--}
 
-Represents the font of shape.
+<b>@deprecated.</b> Please use the 'font' property instead. Represents the font of shape.
 
 ```javascript
 getFont() : Font;
@@ -2040,7 +3135,7 @@ getFont() : Font;
 
 ### setFont(Font) {#setFont-font-}
 
-Represents the font of shape.
+<b>@deprecated.</b> Please use the 'font' property instead. Represents the font of shape.
 
 ```javascript
 setFont(value: Font) : void;
@@ -2053,7 +3148,7 @@ setFont(value: Font) : void;
 
 ### getTextOptions() {#getTextOptions--}
 
-Represents the text options of the shape.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Represents the text options of the shape.
 
 ```javascript
 getTextOptions() : TextOptions;
@@ -2066,7 +3161,7 @@ getTextOptions() : TextOptions;
 
 ### setTextOptions(TextOptions) {#setTextOptions-textoptions-}
 
-Represents the text options of the shape.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Represents the text options of the shape.
 
 ```javascript
 setTextOptions(value: TextOptions) : void;
@@ -2079,7 +3174,7 @@ setTextOptions(value: TextOptions) : void;
 
 ### getText() {#getText--}
 
-Gets and sets the text of this shape.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of this shape.
 
 ```javascript
 getText() : string;
@@ -2088,7 +3183,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-Gets and sets the text of this shape.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets and sets the text of this shape.
 
 ```javascript
 setText(value: string) : void;
@@ -2101,7 +3196,7 @@ setText(value: string) : void;
 
 ### isRichText() {#isRichText--}
 
-Whether or not the text is rich text.
+<b>@deprecated.</b> Please use the 'isRichText' property instead. Whether or not the text is rich text.
 
 ```javascript
 isRichText() : boolean;
@@ -2110,7 +3205,7 @@ isRichText() : boolean;
 
 ### getHtmlText() {#getHtmlText--}
 
-Gets and sets the html string which contains data and some formats in this textbox.
+<b>@deprecated.</b> Please use the 'htmlText' property instead. Gets and sets the html string which contains data and some formats in this textbox.
 
 ```javascript
 getHtmlText() : string;
@@ -2119,7 +3214,7 @@ getHtmlText() : string;
 
 ### setHtmlText(string) {#setHtmlText-string-}
 
-Gets and sets the html string which contains data and some formats in this textbox.
+<b>@deprecated.</b> Please use the 'htmlText' property instead. Gets and sets the html string which contains data and some formats in this textbox.
 
 ```javascript
 setHtmlText(value: string) : void;
@@ -2132,7 +3227,7 @@ setHtmlText(value: string) : void;
 
 ### getTextVerticalOverflow() {#getTextVerticalOverflow--}
 
-Gets and sets the text vertical overflow type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the shape which contains text.
 
 ```javascript
 getTextVerticalOverflow() : TextOverflowType;
@@ -2145,7 +3240,7 @@ getTextVerticalOverflow() : TextOverflowType;
 
 ### setTextVerticalOverflow(TextOverflowType) {#setTextVerticalOverflow-textoverflowtype-}
 
-Gets and sets the text vertical overflow type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the shape which contains text.
 
 ```javascript
 setTextVerticalOverflow(value: TextOverflowType) : void;
@@ -2158,7 +3253,7 @@ setTextVerticalOverflow(value: TextOverflowType) : void;
 
 ### getTextHorizontalOverflow() {#getTextHorizontalOverflow--}
 
-Gets and sets the text horizontal overflow type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the shape which contains text.
 
 ```javascript
 getTextHorizontalOverflow() : TextOverflowType;
@@ -2171,7 +3266,7 @@ getTextHorizontalOverflow() : TextOverflowType;
 
 ### setTextHorizontalOverflow(TextOverflowType) {#setTextHorizontalOverflow-textoverflowtype-}
 
-Gets and sets the text horizontal overflow type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the shape which contains text.
 
 ```javascript
 setTextHorizontalOverflow(value: TextOverflowType) : void;
@@ -2184,7 +3279,7 @@ setTextHorizontalOverflow(value: TextOverflowType) : void;
 
 ### isTextWrapped() {#isTextWrapped--}
 
-Gets and sets the text wrapped type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets and sets the text wrapped type of the shape which contains text.
 
 ```javascript
 isTextWrapped() : boolean;
@@ -2193,7 +3288,7 @@ isTextWrapped() : boolean;
 
 ### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
 
-Gets and sets the text wrapped type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets and sets the text wrapped type of the shape which contains text.
 
 ```javascript
 setIsTextWrapped(value: boolean) : void;
@@ -2206,7 +3301,7 @@ setIsTextWrapped(value: boolean) : void;
 
 ### getTextOrientationType() {#getTextOrientationType--}
 
-Gets and sets the text orientation type of the shape.
+<b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the shape.
 
 ```javascript
 getTextOrientationType() : TextOrientationType;
@@ -2219,7 +3314,7 @@ getTextOrientationType() : TextOrientationType;
 
 ### setTextOrientationType(TextOrientationType) {#setTextOrientationType-textorientationtype-}
 
-Gets and sets the text orientation type of the shape.
+<b>@deprecated.</b> Please use the 'textOrientationType' property instead. Gets and sets the text orientation type of the shape.
 
 ```javascript
 setTextOrientationType(value: TextOrientationType) : void;
@@ -2232,7 +3327,7 @@ setTextOrientationType(value: TextOrientationType) : void;
 
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
 
-Gets and sets the text horizontal alignment type of the shape.
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the shape.
 
 ```javascript
 getTextHorizontalAlignment() : TextAlignmentType;
@@ -2245,7 +3340,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
-Gets and sets the text horizontal alignment type of the shape.
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment type of the shape.
 
 ```javascript
 setTextHorizontalAlignment(value: TextAlignmentType) : void;
@@ -2258,7 +3353,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
-Gets and sets the text vertical alignment type of the shape.
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the shape.
 
 ```javascript
 getTextVerticalAlignment() : TextAlignmentType;
@@ -2271,7 +3366,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
-Gets and sets the text vertical alignment type of the shape.
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets and sets the text vertical alignment type of the shape.
 
 ```javascript
 setTextVerticalAlignment(value: TextAlignmentType) : void;
@@ -2284,7 +3379,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 
 ### getTextDirection() {#getTextDirection--}
 
-Gets/Sets the direction of the text flow for this object.
+<b>@deprecated.</b> Please use the 'textDirection' property instead. Gets/Sets the direction of the text flow for this object.
 
 ```javascript
 getTextDirection() : TextDirectionType;
@@ -2297,7 +3392,7 @@ getTextDirection() : TextDirectionType;
 
 ### setTextDirection(TextDirectionType) {#setTextDirection-textdirectiontype-}
 
-Gets/Sets the direction of the text flow for this object.
+<b>@deprecated.</b> Please use the 'textDirection' property instead. Gets/Sets the direction of the text flow for this object.
 
 ```javascript
 setTextDirection(value: TextDirectionType) : void;
@@ -2310,7 +3405,7 @@ setTextDirection(value: TextDirectionType) : void;
 
 ### getTextBoxOptions() {#getTextBoxOptions--}
 
-Gets the text information in the shape
+<b>@deprecated.</b> Please use the 'textBoxOptions' property instead. Gets the text information in the shape
 
 ```javascript
 getTextBoxOptions() : TextBoxOptions;
@@ -2323,7 +3418,7 @@ getTextBoxOptions() : TextBoxOptions;
 
 ### getControlData() {#getControlData--}
 
-Gets the data of control.
+<b>@deprecated.</b> Please use the 'controlData' property instead. Gets the data of control.
 
 ```javascript
 getControlData() : Uint8Array;
@@ -2332,7 +3427,7 @@ getControlData() : Uint8Array;
 
 ### getActiveXControl() {#getActiveXControl--}
 
-Gets the ActiveX control.
+<b>@deprecated.</b> Please use the 'activeXControl' property instead. Gets the ActiveX control.
 
 ```javascript
 getActiveXControl() : ActiveXControl;
@@ -2345,7 +3440,7 @@ getActiveXControl() : ActiveXControl;
 
 ### getPaths() {#getPaths--}
 
-Gets the paths of a custom geometric shape.
+<b>@deprecated.</b> Please use the 'paths' property instead. Gets the paths of a custom geometric shape.
 
 ```javascript
 getPaths() : ShapePathCollection;
@@ -2358,7 +3453,7 @@ getPaths() : ShapePathCollection;
 
 ### getGeometry() {#getGeometry--}
 
-Gets the geometry
+<b>@deprecated.</b> Please use the 'geometry' property instead. Gets the geometry
 
 ```javascript
 getGeometry() : Geometry;
@@ -2371,7 +3466,7 @@ getGeometry() : Geometry;
 
 ### isDecorative() {#isDecorative--}
 
-Indicates whether the object is decorative.
+<b>@deprecated.</b> Please use the 'isDecorative' property instead. Indicates whether the object is decorative.
 
 ```javascript
 isDecorative() : boolean;
@@ -2380,7 +3475,7 @@ isDecorative() : boolean;
 
 ### setIsDecorative(boolean) {#setIsDecorative-boolean-}
 
-Indicates whether the object is decorative.
+<b>@deprecated.</b> Please use the 'isDecorative' property instead. Indicates whether the object is decorative.
 
 ```javascript
 setIsDecorative(value: boolean) : void;

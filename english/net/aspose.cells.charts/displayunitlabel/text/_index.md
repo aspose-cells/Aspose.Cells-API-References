@@ -16,21 +16,49 @@ public override string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "百", "DisplayUnitLabel");
-public void DisplayUnitLabel_Property_Text()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    int chartIndex = sheet.Charts.Add(ChartType.Scatter, 10, 2, 20, 10);
-    Chart chart = sheet.Charts[chartIndex];
-    int seriesIndex = chart.NSeries.Add("{10,20,30,40}", true);
-    chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
-    chart.ValueAxis.IsDisplayUnitLabelShown = true;
-    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "Hundreds", "DisplayUnitLabel");
-    wb.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
-    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "百", "DisplayUnitLabel");
-    chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
-    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "千", "DisplayUnitLabel");
+    public class DisplayUnitLabelPropertyTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(1000);
+            worksheet.Cells["A2"].PutValue(2000);
+            worksheet.Cells["A3"].PutValue(3000);
+            worksheet.Cells["A4"].PutValue(4000);
+            
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("A1:A4", true);
+            
+            // Configure display unit label
+            chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+            chart.ValueAxis.IsDisplayUnitLabelShown = true;
+            
+            // Access and modify the display unit label text
+            DisplayUnitLabel label = chart.ValueAxis.DisplayUnitLabel;
+            Console.WriteLine("Default Display Unit Label: " + label.Text);
+            
+            // Change the text
+            label.Text = "K Units";
+            Console.WriteLine("Modified Display Unit Label: " + label.Text);
+            
+            // Save the workbook
+            workbook.Save("DisplayUnitLabelDemo.xlsx");
+        }
+    }
 }
 ```
 

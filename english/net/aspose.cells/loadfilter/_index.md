@@ -39,25 +39,41 @@ User may specify the filter options or implement their own LoadFilter to specify
 
 ### Examples
 
-The following example shows how to determine the filter options according to worksheet's properties.
-
 ```csharp
-[C#]
-LoadOptions opts = new LoadOptions();
-opts.LoadFilter = new LoadFilterSheet();
-Workbook wb = new Workbook("template.xlsx", opts);
-//Custom LoadFilter implementation
-class LoadFilterSheet : LoadFilter
+namespace AsposeCellsExamples
 {
-    public override void StartSheet(Worksheet sheet) 
+    using Aspose.Cells;
+    using System;
+
+    public class LoadFilterDemo
     {
-        if (sheet.Name == "Sheet1")
+        public static void LoadFilterExample()
         {
-            LoadDataFilterOptions = LoadDataFilterOptions.All;
+            // Create LoadOptions and set LoadFilter
+            LoadOptions opts = new LoadOptions();
+            opts.LoadFilter = new CustomLoadFilter();
+
+            // Load the workbook with the specified LoadOptions
+            Workbook wb = new Workbook("LoadFilterExample_original.xlsx", opts);
+
+            // Save the workbook to see the effect of LoadFilter
+            wb.Save("LoadFilterExample.xlsx");
         }
-        else
+
+        // Custom LoadFilter implementation
+        public class CustomLoadFilter : LoadFilter
         {
-            LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+            public override void StartSheet(Worksheet sheet)
+            {
+                if (sheet.Name == "Sheet1")
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.All;
+                }
+                else
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+                }
+            }
         }
     }
 }

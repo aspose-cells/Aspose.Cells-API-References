@@ -20,16 +20,30 @@ For scenarios that user only needs to read some contents from template file and 
 ### Examples
 
 ```csharp
-// Called: options.KeepUnparsedData = (false);
-public void LoadOptions_Property_KeepUnparsedData()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.ParsingFormulaOnOpen = (false);
-    options.KeepUnparsedData = (false);
-    options.CheckDataValid = (false);
-    options.CheckExcelRestriction = (false);
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    wb.Save(Constants.destPath + "example.xls");
+    public class LoadOptionsPropertyKeepUnparsedDataDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set KeepUnparsedData to false
+            LoadOptions options = new LoadOptions();
+            options.KeepUnparsedData = false;
+
+            // Load workbook with options
+            Workbook workbook = new Workbook("example.xlsx", options);
+
+            // Access worksheet and demonstrate unparsed data is not kept
+            Worksheet worksheet = workbook.Worksheets[0];
+            Console.WriteLine("Cell A1 value: " + worksheet.Cells["A1"].Value);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

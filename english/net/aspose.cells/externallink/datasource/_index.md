@@ -16,11 +16,38 @@ public string DataSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets.ExternalLinks[1].DataSource.StartsWith(@"\\DEMO50\FileShare"));
-public void ExternalLink_Property_DataSource()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsFalse(workbook.Worksheets.ExternalLinks[1].DataSource.StartsWith(@"\\DEMO50\FileShare"));
+    public class ExternalLinkPropertyDataSourceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create an external link to another workbook
+            worksheet.Cells["A1"].Formula = "='[external.xlsx]Sheet1'!A1";
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to check external links
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            
+            // Access the external link's DataSource property
+            if (loadedWorkbook.Worksheets.ExternalLinks.Count > 0)
+            {
+                string dataSource = loadedWorkbook.Worksheets.ExternalLinks[0].DataSource;
+                Console.WriteLine("External link data source: " + dataSource);
+            }
+        }
+    }
 }
 ```
 

@@ -49,12 +49,13 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getChartImageType()](#getChartImageType--) | Indicate the chart imagetype when converting. |
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
+| [getCustomRenderSettings()](#getCustomRenderSettings--) | Gets custom settings during rendering. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafiles in source file. |
-| [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for generated images, in dots per inch. |
 | [getImageType()](#getImageType--) | Gets the format of the generated images. |
@@ -88,6 +89,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setCellAutoFit(boolean value)](#setCellAutoFit-boolean-) | Indicates whether the width and height of the cells is automatically fitted by cell value. |
 | [setChartImageType(ImageFormat value)](#setChartImageType-com.aspose.cells.ImageFormat-) | Indicate the chart imagetype when converting. |
 | [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
+| [setCustomRenderSettings(CustomRenderSettings value)](#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-) | Sets custom settings during rendering. |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDesiredSize(int desiredWidth, int desiredHeight)](#setDesiredSize-int-int-) | Sets desired width and height of image. |
@@ -96,7 +98,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafiles in source file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
-| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline color. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images, in dots per inch. |
 | [setImageType(int value)](#setImageType-int-) | Sets the format of the generated images. |
@@ -197,6 +199,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCustomRenderSettings() {#getCustomRenderSettings--}
+```
+public CustomRenderSettings getCustomRenderSettings()
+```
+
+
+Gets custom settings during rendering.
+
+**Returns:**
+[CustomRenderSettings](../../com.aspose.cells/customrendersettings)
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 ```
 public int getDefaultEditLanguage()
@@ -269,7 +281,7 @@ public Color getGridlineColor()
 ```
 
 
-Gets gridline color.
+Gets gridline colr.
 
 **Remarks**
 
@@ -754,6 +766,19 @@ Default is true.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setCustomRenderSettings(CustomRenderSettings value) {#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-}
+```
+public void setCustomRenderSettings(CustomRenderSettings value)
+```
+
+
+Sets custom settings during rendering.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CustomRenderSettings](../../com.aspose.cells/customrendersettings) |  |
+
 ### setDefaultEditLanguage(int value) {#setDefaultEditLanguage-int-}
 ```
 public void setDefaultEditLanguage(int value)
@@ -895,7 +920,7 @@ public void setGridlineColor(Color value)
 ```
 
 
-Sets gridline color.
+Sets gridline colr.
 
 **Remarks**
 

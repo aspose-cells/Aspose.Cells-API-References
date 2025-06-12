@@ -20,21 +20,45 @@ Even though the search key has been specified as regex, it may be refactored acc
 ### Examples
 
 ```csharp
-// Called: options.RegexKey = true;
-public void FindOptions_Property_RegexKey()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.sourcePath + "example.xlsx";
-    string testStr = "[hello], [list3], [another_example]. However";
-    string regEx = "\\[[a-zA-Z0-9_]+]";
-    Workbook workbook = new Workbook(filePath);
-    Worksheet worksheet = workbook.Worksheets[0];
-    FindOptions options = new FindOptions();
-    options.RegexKey = true;
-    options.LookInType = LookInType.Values;
-    options.LookAtType = LookAtType.Contains;
-    //Cells.Find method does not find any cell with regEx
-    Cell found = worksheet.Cells.Find(regEx, null, options);
-    Assert.AreEqual(found.Name, "A1");
+    public class FindOptionsPropertyRegexKeyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set test data with pattern matching strings
+            worksheet.Cells["A1"].PutValue("[hello]");
+            worksheet.Cells["A2"].PutValue("Regular text");
+            worksheet.Cells["A3"].PutValue("[another_example]");
+
+            // Create find options with regex enabled
+            FindOptions options = new FindOptions();
+            options.RegexKey = true;
+            options.LookInType = LookInType.Values;
+            options.LookAtType = LookAtType.Contains;
+
+            // Search for cells matching the regex pattern
+            string regEx = "\\[[a-zA-Z0-9_]+\\]";
+            Cell foundCell = worksheet.Cells.Find(regEx, null, options);
+
+            // Output the result
+            if (foundCell != null)
+            {
+                Console.WriteLine("Found cell: " + foundCell.Name + " with value: " + foundCell.StringValue);
+            }
+            else
+            {
+                Console.WriteLine("No matching cells found");
+            }
+        }
+    }
 }
 ```
 

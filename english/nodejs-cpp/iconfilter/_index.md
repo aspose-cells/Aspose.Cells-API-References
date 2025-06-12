@@ -17,18 +17,25 @@ class IconFilter;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [iconSetType](#iconSetType--)| IconSetType | Gets and sets which icon set is used in the filter criteria. |
+| [iconId](#iconId--)| number | Gets and sets Zero-based index of an icon in an icon set. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getIconSetType()](#getIconSetType--)| Gets and sets which icon set is used in the filter criteria. |
-| [setIconSetType(IconSetType)](#setIconSetType-iconsettype-)| Gets and sets which icon set is used in the filter criteria. |
-| [getIconId()](#getIconId--)| Gets and sets Zero-based index of an icon in an icon set. |
-| [setIconId(number)](#setIconId-number-)| Gets and sets Zero-based index of an icon in an icon set. |
+| [getIconSetType()](#getIconSetType--)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria. |
+| [setIconSetType(IconSetType)](#setIconSetType-iconsettype-)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria. |
+| [getIconId()](#getIconId--)| <b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set. |
+| [setIconId(number)](#setIconId-number-)| <b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -46,9 +53,27 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
-### getIconSetType() {#getIconSetType--}
+### iconSetType {#iconSetType--}
 
 Gets and sets which icon set is used in the filter criteria.
+
+```javascript
+iconSetType : IconSetType;
+```
+
+
+### iconId {#iconId--}
+
+Gets and sets Zero-based index of an icon in an icon set.
+
+```javascript
+iconId : number;
+```
+
+
+### getIconSetType() {#getIconSetType--}
+
+<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria.
 
 ```javascript
 getIconSetType() : IconSetType;
@@ -61,7 +86,7 @@ getIconSetType() : IconSetType;
 
 ### setIconSetType(IconSetType) {#setIconSetType-iconsettype-}
 
-Gets and sets which icon set is used in the filter criteria.
+<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria.
 
 ```javascript
 setIconSetType(value: IconSetType) : void;
@@ -74,7 +99,7 @@ setIconSetType(value: IconSetType) : void;
 
 ### getIconId() {#getIconId--}
 
-Gets and sets Zero-based index of an icon in an icon set.
+<b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set.
 
 ```javascript
 getIconId() : number;
@@ -83,7 +108,7 @@ getIconId() : number;
 
 ### setIconId(number) {#setIconId-number-}
 
-Gets and sets Zero-based index of an icon in an icon set.
+<b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set.
 
 ```javascript
 setIconId(value: number) : void;

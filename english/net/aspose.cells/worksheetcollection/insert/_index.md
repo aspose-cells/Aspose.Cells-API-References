@@ -25,15 +25,23 @@ Returns an inserted worksheet.
 ### Examples
 
 ```csharp
-// Called: Worksheet worksheet =  workbook.Worksheets.Insert(1, SheetType.Worksheet);
-[Test, Category("Bug")]
-        public void WorksheetCollection_Method_Insert()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodInsertWithInt32SheetTypeDemo
+    {
+        public static void Run()
         {
             Workbook workbook = new Workbook();
-           Worksheet worksheet =  workbook.Worksheets.Insert(1, SheetType.Worksheet);
-           worksheet.Name = "mm-mm";
-           workbook.Worksheets[0].Cells["A1"].Formula = "='mm-mm'!A1";
+            Worksheet worksheet = workbook.Worksheets.Insert(1, SheetType.Worksheet);
+            worksheet.Name = "InsertedSheet";
+            workbook.Worksheets[0].Cells["A1"].Value = "Referencing inserted sheet:";
+            workbook.Worksheets[0].Cells["A2"].Formula = "='InsertedSheet'!A1";
         }
+    }
+}
 ```
 
 ### See Also
@@ -67,19 +75,31 @@ Returns an inserted worksheet.
 ### Examples
 
 ```csharp
-// Called: book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
-//http://www.aspose.com/community/forums/thread/221542.aspx
-public void WorksheetCollection_Method_Insert()
-{
-    Console.WriteLine("WorksheetCollection_Method_Insert()");
-    string infn = path + "Test_CopyButtonWithMacro.xltm";
-    string outfn = Constants.destPath + "Test_CopyButtonWithMacro_out.xlsm";
+using System;
+using Aspose.Cells;
 
-    Workbook book = new Workbook(infn);
-    book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
-    Worksheet sheet = book.Worksheets[0];
-    sheet.Copy(book.Worksheets[1]);
-    book.Save(outfn);
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodInsertWithInt32SheetTypeStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Insert a new worksheet at index 0 with name "InsertedSheet"
+            workbook.Worksheets.Insert(0, SheetType.Worksheet, "InsertedSheet");
+            
+            // Access the inserted worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Put some data in cell A1 of the inserted sheet
+            worksheet.Cells["A1"].PutValue("This sheet was inserted using Insert method");
+            
+            // Save the workbook
+            workbook.Save("WorksheetInsertDemo.xlsx");
+        }
+    }
 }
 ```
 

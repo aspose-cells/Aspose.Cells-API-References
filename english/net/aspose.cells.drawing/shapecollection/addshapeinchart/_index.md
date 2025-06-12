@@ -24,6 +24,75 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 | bottom | Int32 | In unit of 1/4000 chart area height. |
 | imageData | Byte[] | If the shape is not a picture or ole object,imageData should be null. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo2
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data and create a chart
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(80);
+
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries.CategoryData = "B1:B3";
+
+            // Prepare image data
+            byte[] imageData = File.ReadAllBytes("sample.png");
+
+            try
+            {
+                // Call AddShapeInChart with specific parameters
+                Shape shape = chart.Shapes.AddShapeInChart(
+                    MsoDrawingType.Rectangle,    // Type
+                    PlacementType.Move,          // Placement
+                    100,                         // Left position
+                    100,                         // Top position
+                    200,                         // Right position
+                    200,                         // Bottom position
+                    imageData                    // Image data
+                );
+
+                // Set shape properties
+                shape.Name = "ChartRectangle";
+                shape.Text = "Shape in Chart";
+                shape.Fill.SolidFill.Color = System.Drawing.Color.LightBlue;
+                shape.Line.CompoundType = MsoLineStyle.ThickThin;
+                shape.Line.Weight = 2; // Medium weight (approximately 2 points)
+
+                Console.WriteLine("Shape added to chart successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding shape to chart: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("AddShapeInChartDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Shape](../../shape/)
@@ -56,19 +125,37 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 ### Examples
 
 ```csharp
-// Called: sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-public void ShapeCollection_Method_AddShapeInChart()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    int index = workbook.Worksheets.Add(SheetType.Chart);
-    Worksheet sheet = workbook.Worksheets[index];
-    sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
-    sheet.Charts[0].NSeries.Add("{1,2,3}", false);
-    sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-        PlacementType.Move, 400, 400, 1000, 600);
-    sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
-    int width = sheet.Charts[0].Shapes[0].Width;
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = sheet.Charts[chartIndex];
+            
+            // Add data to chart
+            chart.NSeries.Add("{1,2,3}", false);
+            
+            // Add shape to chart
+            chart.Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 100, 100, 200, 50);
+            
+            // Set shape text
+            chart.Shapes[0].Text = "Sample CheckBox";
+            
+            // Save workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

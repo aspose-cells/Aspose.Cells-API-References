@@ -16,26 +16,35 @@ public PageOrientationType Orientation { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
-public void PageSetup_Property_Orientation()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook document = new Workbook(Constants.sourcePath + "example.xlsx");
-    document.BuiltInDocumentProperties.Title = "defaultTitle";
-    document.BuiltInDocumentProperties.Author = "defaultAuthor";
-    document.BuiltInDocumentProperties.Subject = "defaultSubject";
-
-    foreach (Worksheet worksheet in document.Worksheets)
+    public class PageSetupPropertyOrientationDemo
     {
-        worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-        worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
-        worksheet.PageSetup.FirstPageNumber = 1;
-        worksheet.PageSetup.Zoom = 100;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set page orientation to Landscape
+            worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
+            
+            // Add some sample data to demonstrate the effect
+            worksheet.Cells["A1"].PutValue("Landscape Orientation Demo");
+            for (int i = 1; i <= 10; i++)
+            {
+                worksheet.Cells[$"A{i}"].PutValue($"Data Row {i}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PageOrientationDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-
-    var pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
-
-    document.Save(Constants.destPath + "example.pdf", pdfSaveOptions);//exception
 }
 ```
 

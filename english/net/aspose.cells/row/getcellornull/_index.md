@@ -24,29 +24,40 @@ Returns the cell object if the cell exists. Or returns null if the cell object d
 ### Examples
 
 ```csharp
-// Called: Cell c1 = row.GetCellOrNull(colIndex);
-public void Row_Method_GetCellOrNull()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    TxtLoadOptions opts = new TxtLoadOptions(LoadFormat.Auto);
-    //using (Workbook wb = new Workbook(Constants.TemplatePath + "Book_test_1.xlsx", opts))
-    using (Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/Book_test_1.xlsx"))
+    public class RowMethodGetCellOrNullWithInt32Demo
     {
-        Worksheet ws = wb.Worksheets[wb.Worksheets.ActiveSheetIndex];
-        Row row = ws.Cells.Rows[0];
-        string s;
-        for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
+        public static void Run()
         {
-            Cell c1 = row.GetCellOrNull(colIndex);
-            s = c1.StringValue;
-        }
-        object o;
-        for (int indexRow = 1; indexRow <= ws.Cells.MaxDataRow; indexRow++)
-        {
-            row = ws.Cells.Rows[indexRow];
-            for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+
+            // Add sample data
+            ws.Cells["A1"].PutValue("Header1");
+            ws.Cells["B1"].PutValue("Header2");
+            ws.Cells["A2"].PutValue(100);
+            ws.Cells["B2"].PutValue(200);
+
+            // Get the first row
+            Row row = ws.Cells.Rows[0];
+
+            // Demonstrate GetCellOrNull with Int32 parameter
+            for (int colIndex = 0; colIndex < 2; colIndex++)
             {
-                Cell c1 = row.GetCellOrNull(colIndex);
-                o = c1.Value;
+                Cell cell = row.GetCellOrNull(colIndex);
+                if (cell != null)
+                {
+                    Console.WriteLine($"Cell at column {colIndex}: {cell.StringValue}");
+                }
+                else
+                {
+                    Console.WriteLine($"Cell at column {colIndex} is null");
+                }
             }
         }
     }

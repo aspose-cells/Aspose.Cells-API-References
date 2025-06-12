@@ -20,14 +20,28 @@ public void HideRow(int row)
 ### Examples
 
 ```csharp
-// Called: excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
-public void Cells_Method_HideRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook excelDocument = new Workbook(Constants.sourcePath + "example.xlsx");
-     
-    excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
-    Assert.IsFalse(excelDocument.Worksheets["CSC T"].Cells.Rows[19].IsHeightMatched);
-    excelDocument.Save(Constants.destPath + "example.xlsx");
+    public class CellsMethodHideRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hide row 5
+            worksheet.Cells.HideRow(5);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

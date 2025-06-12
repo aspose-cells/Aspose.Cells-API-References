@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlLoadOptions class. Represents options when importing a html file in C++.'
 type: docs
-weight: 7700
+weight: 8000
 url: /cpp/aspose.cells/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -52,7 +52,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](../loadoptions/getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [GetProgId()](./getprogid/) | Gets the program id of creating the file. Only for MHT files. |
-| [GetRegion()](../loadoptions/getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [GetRegion()](../loadoptions/getregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [GetSupportDivTag()](./getsupportdivtag/) | Indicates whether support the layout of **<div>** tag when the html file contains it. The default value is false. |
 | [GetTableLoadOptions()](./gettableloadoptions/) | Get the [HtmlTableLoadOptionCollection](../htmltableloadoptioncollection/) instance. |
 | [GetWarningCallback()](../loadoptions/getwarningcallback/) | Gets or sets warning callback. |
@@ -98,7 +98,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetPassword(const U16String\& value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPassword(const char16_t* value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](../loadoptions/setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [SetSupportDivTag(bool value)](./setsupportdivtag/) | Indicates whether support the layout of **<div>** tag when the html file contains it. The default value is false. |
 | [SetWarningCallback(IWarningCallback* value)](../loadoptions/setwarningcallback/) | Gets or sets warning callback. |
 | [~AbstractTextLoadOptions()](../abstracttextloadoptions/~abstracttextloadoptions/) | Destructor. |

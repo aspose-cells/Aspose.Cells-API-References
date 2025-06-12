@@ -4,7 +4,7 @@ linktitle: TextureFill
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextureFill class. Encapsulates the object that represents texture fill format in C++.'
 type: docs
-weight: 6900
+weight: 7000
 url: /cpp/aspose.cells.drawing/texturefill/
 ---
 ## TextureFill class

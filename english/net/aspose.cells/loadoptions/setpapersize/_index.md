@@ -24,16 +24,26 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 ### Examples
 
 ```csharp
-// Called: options.SetPaperSize(PaperSizeType.PaperA5);
-public void LoadOptions_Method_SetPaperSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.SetPaperSize(PaperSizeType.PaperA5);
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", options);
-    Assert.AreEqual(PaperSizeType.PaperA5, workbook.Worksheets[0].PageSetup.PaperSize);
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Settings.PaperSize = PaperSizeType.PaperA5;
-    Assert.AreEqual(PaperSizeType.PaperA5, workbook.Worksheets[0].PageSetup.PaperSize);
+    public class LoadOptionsMethodSetPaperSizeWithPaperSizeTypeDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set paper size to A5
+            LoadOptions options = new LoadOptions();
+            options.SetPaperSize(PaperSizeType.PaperA5);
+
+            // Load workbook with the specified options
+            Workbook workbook = new Workbook("example.xlsx", options);
+            
+            // Verify the paper size is set correctly
+            Console.WriteLine("Paper size of first worksheet: " + workbook.Worksheets[0].PageSetup.PaperSize);
+        }
+    }
 }
 ```
 

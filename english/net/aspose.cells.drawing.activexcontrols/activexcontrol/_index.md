@@ -41,33 +41,48 @@ public abstract class ActiveXControl : ActiveXControlBase
 ### Examples
 
 ```csharp
-// Called: private void CheckRadioButtonActiveXControl(ActiveXControl c)
-private void ActiveXControls_Type_ActiveXControl(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlsClassActiveXControlDemo
+    {
+        public static void Run()
         {
-            RadioButtonActiveXControl control = (RadioButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.RadioButton, control.Type);
-            Assert.AreEqual("Sheet1", control.GroupName);
-            Assert.AreEqual(ControlCaptionAlignmentType.Left, control.Alignment);
-            Assert.AreEqual(true, control.IsWordWrapped);
-            Assert.AreEqual("OptionButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            //Assert.AreEqual(CheckValueType.UnChecked, control.Value);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(81.0141732283465, control.Width);
-            //Assert.AreEqual(42.7464566929134, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            //Assert.AreEqual(-2147483640, control.ForeOleColor);
-            //Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add RadioButton ActiveX control
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.RadioButton, 
+                1, 1,  // upper left row/column
+                1, 1,  // upper left row/column offsets
+                100, 30);  // width and height
+            RadioButtonActiveXControl radioButton = (RadioButtonActiveXControl)shape.ActiveXControl;
+
+            // Set properties
+            radioButton.GroupName = "Sheet1";
+            radioButton.Alignment = ControlCaptionAlignmentType.Left;
+            radioButton.IsWordWrapped = true;
+            radioButton.Caption = "OptionButton1";
+            radioButton.PicturePosition = ControlPicturePositionType.AboveCenter;
+            radioButton.SpecialEffect = ControlSpecialEffectType.Sunken;
+            radioButton.IsEnabled = true;
+            radioButton.IsTransparent = false;
+            radioButton.IsAutoSize = false;
+            radioButton.IMEMode = InputMethodEditorMode.NoControl;
+            radioButton.Font.Name = "Calibri";
+            radioButton.MousePointer = ControlMousePointerType.Default;
+
+            // Save the workbook
+            workbook.Save("ActiveXControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

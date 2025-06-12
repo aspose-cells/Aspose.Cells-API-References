@@ -33,7 +33,7 @@ public class EbookLoadOptions : HtmlLoadOptions
 | [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata/) { get; set; } | Gets or sets a value that indicates whether the string in text file is converted to date data.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
 | [ConvertFormulasData](../../aspose.cells/htmlloadoptions/convertformulasdata/) { get; set; } | (**Obsolete.**) if true, convert string to formula when string value starts with character '=',the default value is false.(Inherited from [`HtmlLoadOptions`](../htmlloadoptions/).) |
 | [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata/) { get; set; } | Gets or sets a value that indicates whether the string in text file is converted to numeric data.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
-| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Gets or sets the system culture info at the time the file was loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Gets or sets the regional settings used for the Workbook that will be loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [DeleteRedundantSpaces](../../aspose.cells/htmlloadoptions/deleteredundantspaces/) { get; set; } | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.(Inherited from [`HtmlLoadOptions`](../htmlloadoptions/).) |
 | [Encoding](../../aspose.cells/abstracttextloadoptions/encoding/) { get; set; } | Gets and sets the default encoding. Only applies for csv file.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
@@ -56,7 +56,7 @@ public class EbookLoadOptions : HtmlLoadOptions
 | [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Gets and set the password of the workbook.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [ProgId](../../aspose.cells/htmlloadoptions/progid/) { get; } | Gets the program id of creating the file. Only for MHT files.(Inherited from [`HtmlLoadOptions`](../htmlloadoptions/).) |
-| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Gets or sets the regional settings used for the Workbook that will be loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Obsolete.**) Sets the default standard font name(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Obsolete.**) Sets the default standard font size.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [StreamProvider](../../aspose.cells/htmlloadoptions/streamprovider/) { get; set; } | Gets or sets the StreamProviderImportHtmlFile for importing objects.(Inherited from [`HtmlLoadOptions`](../htmlloadoptions/).) |
@@ -73,9 +73,7 @@ public class EbookLoadOptions : HtmlLoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

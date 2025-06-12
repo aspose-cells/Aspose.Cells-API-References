@@ -17,16 +17,22 @@ class ShapeGuide extends BaseShapeGuide;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BaseShapeGuide)](#constructor-baseshapeguide-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [value](#value--)| number | Gets or sets value of this guide |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getValue()](#getValue--)| Gets or sets value of this guide |
-| [setValue(number)](#setValue-number-)| Gets or sets value of this guide |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets value of this guide |
+| [setValue(number)](#setValue-number-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets value of this guide |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +49,18 @@ constructor(obj: BaseShapeGuide);
 | --- | --- | --- |
 | obj | BaseShapeGuide | The parent object. |
 
-### getValue() {#getValue--}
+### value {#value--}
 
 Gets or sets value of this guide
+
+```javascript
+value : number;
+```
+
+
+### getValue() {#getValue--}
+
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets value of this guide
 
 ```javascript
 getValue() : number;
@@ -54,7 +69,7 @@ getValue() : number;
 
 ### setValue(number) {#setValue-number-}
 
-Gets or sets value of this guide
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets value of this guide
 
 ```javascript
 setValue(value: number) : void;

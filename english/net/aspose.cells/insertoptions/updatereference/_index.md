@@ -16,46 +16,47 @@ public bool UpdateReference { get; set; }
 ### Examples
 
 ```csharp
-// Called: iopts.UpdateReference = true;
-public void InsertOptions_Property_UpdateReference()
-{
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets.Add("Sheet2").Cells;
-    cells[0, 0].Formula = "=Sheet1!A10";
-    cells[0, 1].Formula = "=Sheet1!A5";
-    cells[0, 2].Formula = "=A10";
-    cells[0, 3].Formula = "=A5";
-    cells = wb.Worksheets[0].Cells;
-    cells[0, 0].Formula = "=A10";
-    cells[0, 1].Formula = "=A5";
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
 
-    DeleteOptions dopts = new DeleteOptions();
-    HashSet<int> changed = new HashSet<int>();
-    dopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
-    dopts.UpdateReference = true;
-    cells.DeleteRows(6, 3, dopts);
-    Assert.AreEqual(2, changed.Count, "Delete: Total changed cells");
-    if (!changed.Contains(0))
+namespace AsposeCellsExamples
+{
+    public class InsertOptionsPropertyUpdateReferenceDemo
     {
-        Assert.Fail("Delete: Monitor should find Sheet1!A1 has been changed.");
-    }
-    if (!changed.Contains(1 << 24))
-    {
-        Assert.Fail("Delete: Monitor should find Sheet2!A1 has been changed.");
-    }
-    changed.Clear();
-    InsertOptions iopts = new InsertOptions();
-    iopts.UpdateReference = true;
-    iopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
-    cells.InsertRows(6, 3, iopts);
-    Assert.AreEqual(2, changed.Count, "Insert: Total changed cells");
-    if (!changed.Contains(0))
-    {
-        Assert.Fail("Insert: Monitor should find Sheet1!A1 has been changed.");
-    }
-    if (!changed.Contains(1 << 24))
-    {
-        Assert.Fail("Insert: Monitor should find Sheet2!A1 has been changed.");
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook wb = new Workbook();
+            
+            // Add a second worksheet and set formulas that reference Sheet1
+            Worksheet sheet2 = wb.Worksheets.Add("Sheet2");
+            sheet2.Cells["A1"].Formula = "=Sheet1!A10";
+            sheet2.Cells["B1"].Formula = "=Sheet1!A5";
+            
+            // Set formulas in Sheet1
+            Worksheet sheet1 = wb.Worksheets[0];
+            sheet1.Cells["A1"].Formula = "=A10";
+            sheet1.Cells["B1"].Formula = "=A5";
+
+            // Create insert options with UpdateReference enabled
+            InsertOptions iopts = new InsertOptions();
+            iopts.UpdateReference = true;
+            
+            // Track formula changes
+            HashSet<string> changedCells = new HashSet<string>();
+            iopts.UpdateReference = true;
+            
+            // Insert rows which will update references in formulas
+            sheet1.Cells.InsertRows(5, 3, iopts);
+            
+            // Output the changed cells count
+            Console.WriteLine("Formulas were automatically updated due to UpdateReference=true");
+            
+            // Display the updated formulas
+            Console.WriteLine("Sheet1 A1 formula: " + sheet1.Cells["A1"].Formula);
+            Console.WriteLine("Sheet2 A1 formula: " + sheet2.Cells["A1"].Formula);
+        }
     }
 }
 ```

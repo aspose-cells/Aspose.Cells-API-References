@@ -16,46 +16,56 @@ public int BorderOleColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: imageControl.BorderOleColor = 0x000000; // Black border
-public static void ImageActiveXControl_Property_BorderOleColor()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyBorderOleColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an Image ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 0, 1, 1, 100, 100);
-            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
+            var shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.Image, 5, 0, 1, 1, 100, 100);
+            Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl imageControl = (Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the Image ActiveX control
-            imageControl.IsAutoSize = true;
-            imageControl.BorderOleColor = 0x000000; // Black border
-            imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
+            imageControl.BorderOleColor = 0x0000FF; // Blue border
+            imageControl.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.Single;
 
-            // Load an image from file and set it to the control
-            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
+            // Create a simple image in memory if demo file doesn't exist
+            byte[] imageData;
+            if (!File.Exists("demo.jpg"))
+            {
+                // Alternative image creation without System.Drawing
+                imageData = CreateSampleImage(100, 100);
+            }
+            else
+            {
+                imageData = File.ReadAllBytes("demo.jpg");
+            }
+
             imageControl.Picture = imageData;
+            workbook.Save("ImageActiveXControlBorderColorDemo.xlsx");
 
-            // Save the workbook
-            workbook.Save("ImageActiveXControlDemo.xlsx");
-            workbook.Save("ImageActiveXControlDemo.pdf");
-
-            // Output the results
-            Console.WriteLine("Image ActiveX Control added with the following properties:");
-            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
-            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
-            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
-            Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
-            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
-            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
-            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
+            Console.WriteLine($"Border color set to: {imageControl.BorderOleColor:X6}");
         }
+
+        private static byte[] CreateSampleImage(int width, int height)
+        {
+            // Create a simple grayscale image without System.Drawing
+            byte[] pixels = new byte[width * height * 3]; // RGB
+            for (int i = 0; i < pixels.Length; i++)
+            {
+                pixels[i] = 200; // Light gray color
+            }
+            return pixels;
+        }
+    }
+}
 ```
 
 ### See Also

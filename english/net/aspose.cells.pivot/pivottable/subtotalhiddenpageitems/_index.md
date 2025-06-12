@@ -16,49 +16,64 @@ public bool SubtotalHiddenPageItems { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ptableSrc.SubtotalHiddenPageItems, ptableDest.SubtotalHiddenPageItems, info + ".SubtotalHiddenPageItems");
-public static void PivotTable_Property_SubtotalHiddenPageItems(PivotTable ptableSrc, PivotTable ptableDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertySubtotalHiddenPageItemsDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(ptableSrc, ptableDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(ptableSrc.AutoFormatType, ptableDest.AutoFormatType, info + ".AutoFormatType");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.BaseFields, ptableDest.BaseFields, info + ".BaseFields");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.ColumnFields, ptableDest.ColumnFields, info + ".ColumnFields");
-            AssertHelper.AreEqual(ptableSrc.ShowColumnGrandTotals, ptableDest.ShowColumnGrandTotals, info + ".ColumnGrand");
-            CellAreaTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.ColumnRange, ptableDest.ColumnRange, info + ".ColumnRange");
-            CellAreaTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.DataBodyRange, ptableDest.DataBodyRange, info + ".DataBordyRange");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.DataField, ptableDest.DataField, info + ".DataField");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.DataFields, ptableDest.DataFields, info + ".DataFields");
-            AssertHelper.AreEqual(ptableSrc.DisplayErrorString, ptableDest.DisplayErrorString, info + ".DisplayErrorString");
-            AssertHelper.AreEqual(ptableSrc.DisplayImmediateItems, ptableDest.DisplayImmediateItems, info + ".DisplayImmediateItems");
-            AssertHelper.AreEqual(ptableSrc.DisplayNullString, ptableDest.DisplayNullString, info + ".DisplayNullString");
-            AssertHelper.AreEqual(ptableSrc.EnableDrilldown, ptableDest.EnableDrilldown, info + ".EnableDrilldown");
-            AssertHelper.AreEqual(ptableSrc.EnableFieldDialog, ptableDest.EnableFieldDialog, info + ".EnableFieldDialog");
-            AssertHelper.AreEqual(ptableSrc.EnableFieldList, ptableDest.EnableFieldList, info + ".EnableFieldList");
-            AssertHelper.AreEqual(ptableSrc.EnableWizard, ptableDest.EnableWizard, info + ".EnableWizard");
-            AssertHelper.AreEqual(ptableSrc.ErrorString, ptableDest.ErrorString, info + ".ErrorString");
-            AssertHelper.AreEqual(ptableSrc.IsAutoFormat, ptableDest.IsAutoFormat, info + ".IsAutoFormat");
-            AssertHelper.AreEqual(ptableSrc.IsSelected, ptableDest.IsSelected, info + ".IsSelected");
-            AssertHelper.AreEqual(ptableSrc.ManualUpdate, ptableDest.ManualUpdate, info + ".ManualUpdate");
-            AssertHelper.AreEqual(ptableSrc.MergeLabels, ptableDest.MergeLabels, info + ".MergeLabels");
-            AssertHelper.AreEqual(ptableSrc.Name, ptableDest.Name, info + ".Name");
-            AssertHelper.AreEqual(ptableSrc.NullString, ptableDest.NullString, info + ".NullString");
-            AssertHelper.AreEqual(ptableSrc.PageFieldOrder, ptableDest.PageFieldOrder, info + ".PageFieldOrder");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.PageFields, ptableDest.PageFields, info + ".PageFields");
-            AssertHelper.AreEqual(ptableSrc.PageFieldWrapCount, ptableDest.PageFieldWrapCount, info + ".PageFieldWrapCount");
-            AssertHelper.AreEqual(ptableSrc.PreserveFormatting, ptableDest.PreserveFormatting, info + ".PreserveFormatting");
-            AssertHelper.AreEqual(ptableSrc.PrintTitles, ptableDest.PrintTitles, info + ".PrintTitles");
-            PivotFieldsTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.RowFields, ptableDest.RowFields, info + ".RowFields");
-            AssertHelper.AreEqual(ptableSrc.ShowRowGrandTotals, ptableDest.ShowRowGrandTotals, info + ".RowGrand");
-            CellAreaTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.RowRange, ptableDest.RowRange, info + ".RowRange");
-            AssertHelper.AreEqual(ptableSrc.SaveData, ptableDest.SaveData, info + ".SaveData");
-            AssertHelper.AreEqual(ptableSrc.SubtotalHiddenPageItems, ptableDest.SubtotalHiddenPageItems, info + ".SubtotalHiddenPageItems");
-            CellAreaTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.TableRange1, ptableDest.TableRange1, info + ".TableRange1");
-            CellAreaTest.PivotTable_Property_SubtotalHiddenPageItems(ptableSrc.TableRange2, ptableDest.TableRange2, info + ".TableRange2");
-            AssertHelper.AreEqual(ptableSrc.Tag, ptableDest.Tag, info + ".Tag");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 2000;
+            
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = "North";
+            cells["C4"].Value = 1500;
+            
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = "South";
+            cells["C5"].Value = 1200;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Set SubtotalHiddenPageItems property
+            pivotTable.SubtotalHiddenPageItems = true;
+            Console.WriteLine("SubtotalHiddenPageItems set to: " + pivotTable.SubtotalHiddenPageItems);
+
+            // Refresh and calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotTable_SubtotalHiddenPageItemsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

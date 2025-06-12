@@ -16,45 +16,45 @@ public bool IslockedForViewing { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(vbaProject.IslockedForViewing);
-public void VbaProject_Property_IslockedForViewing()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    MemoryStream ms = new MemoryStream();
-    string path = Constants.sourcePath + "Vba/";
-    Workbook wb = new Workbook(path + "load.xlsm");
-    VbaProject vbaProject = wb.VbaProject;
+    public class VbaProjectPropertyIslockedForViewingDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with VBA project
+            Workbook wb = new Workbook();
+            // Create a new worksheet to ensure VBA project is created
+            wb.Worksheets.Add();
+            
+            // Demonstrate IslockedForViewing property
+            Console.WriteLine("Initial state:");
+            Console.WriteLine($"IsProtected: {wb.VbaProject.IsProtected}");
+            Console.WriteLine($"IslockedForViewing: {wb.VbaProject.IslockedForViewing}\n");
 
-    //protect, lock for view
-    vbaProject.Protect(true, "abc123");
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsTrue(vbaProject.IslockedForViewing);
-    wb.Save(ms, SaveFormat.Xlsm);
-    wb = new Workbook(ms);
-    vbaProject = wb.VbaProject;
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsTrue(vbaProject.IslockedForViewing);
+            // Protect and lock for viewing
+            wb.VbaProject.Protect(true, "password123");
+            Console.WriteLine("After protecting and locking for viewing:");
+            Console.WriteLine($"IsProtected: {wb.VbaProject.IsProtected}");
+            Console.WriteLine($"IslockedForViewing: {wb.VbaProject.IslockedForViewing}\n");
 
-    //only protect
-    vbaProject.Protect(false, "123456");
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
-    ms.SetLength(0);
-    wb.Save(ms, SaveFormat.Xlsm);
-    wb = new Workbook(ms);
-    vbaProject = wb.VbaProject;
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
+            // Protect without locking for viewing
+            wb.VbaProject.Protect(false, "password456");
+            Console.WriteLine("After protecting without locking for viewing:");
+            Console.WriteLine($"IsProtected: {wb.VbaProject.IsProtected}");
+            Console.WriteLine($"IslockedForViewing: {wb.VbaProject.IslockedForViewing}\n");
 
-    //clear protect
-    vbaProject.Protect(true, "");
-    Assert.IsFalse(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
-    ms.SetLength(0);
-    wb.Save(ms, SaveFormat.Xlsm);
-    wb = new Workbook(ms);
-    vbaProject = wb.VbaProject;
-    Assert.IsFalse(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
+            // Remove protection
+            wb.VbaProject.Protect(true, "");
+            Console.WriteLine("After removing protection:");
+            Console.WriteLine($"IsProtected: {wb.VbaProject.IsProtected}");
+            Console.WriteLine($"IslockedForViewing: {wb.VbaProject.IslockedForViewing}");
+        }
+    }
 }
 ```
 

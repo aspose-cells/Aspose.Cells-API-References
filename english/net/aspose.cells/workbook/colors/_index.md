@@ -20,24 +20,52 @@ The palette has 56 entries, each represented by an RGB value.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected.Colors, result.Colors, info + ".Colors");
-public static void Workbook_Property_Colors(Workbook expected, Workbook result, string info)
-        {
-            AssertHelper.AreEqual(expected.Colors, result.Colors, info + ".Colors");
-            StylesTest.Workbook_Property_Colors(expected.DefaultStyle, result.DefaultStyle, info + ".DefaultStyle");
-            Assert.AreEqual(expected.HasMacro, result.HasMacro);
-            Assert.AreEqual(expected.AbsolutePath, result.AbsolutePath);
-            AssertHelper.equals(expected.Colors, result.Colors, info + ".Colors");
-            WorksheetsTest.Workbook_Property_Colors(expected.Worksheets, result.Worksheets, info + ".Worksheets");
-            DataSorterTest.equals(expected.DataSorter, result.DataSorter, info + ".DataSorter");
-            Workbook_Property_Colors(expected.Settings, result.Settings, info);
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            Workbook_Property_Colors(expected.CustomDocumentProperties, result.CustomDocumentProperties, info + ".CustomDocumentProperties");
-           // Workbook_Property_Colors(expected.BuiltInDocumentProperties, result.BuiltInDocumentProperties, info + ".BuiltInDocumentProperties");
-            Workbook_Property_Colors(expected.DataConnections, result.DataConnections, info);
-            Workbook_Property_Colors(expected.ContentTypeProperties, result.ContentTypeProperties, info + ".ContentTypeProperties");
-            AssertHelper.AreEqual(expected.RibbonXml, result.RibbonXml, info + ".RibbonXml");
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyColorsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the default colors palette
+            Color[] colors = workbook.Colors;
+
+            // Modify some colors in the palette
+            colors[0] = System.Drawing.Color.Red;      // Modify first color to Red
+            colors[1] = System.Drawing.Color.Green;    // Modify second color to Green
+            colors[2] = System.Drawing.Color.Blue;    // Modify third color to Blue
+
+            // Create a worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Color Demo");
+            
+            // Apply the modified colors to cells
+            Style style1 = workbook.CreateStyle();
+            style1.ForegroundColor = colors[0];
+            style1.Pattern = BackgroundType.Solid;
+            worksheet.Cells["A2"].SetStyle(style1);
+            
+            Style style2 = workbook.CreateStyle();
+            style2.ForegroundColor = colors[1];
+            style2.Pattern = BackgroundType.Solid;
+            worksheet.Cells["B2"].SetStyle(style2);
+            
+            Style style3 = workbook.CreateStyle();
+            style3.ForegroundColor = colors[2];
+            style3.Pattern = BackgroundType.Solid;
+            worksheet.Cells["C2"].SetStyle(style3);
+
+            // Save the workbook
+            workbook.Save("WorkbookColorsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

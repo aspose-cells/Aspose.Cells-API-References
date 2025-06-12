@@ -31,19 +31,44 @@ public class ExportRangeToJsonOptions
 ### Examples
 
 ```csharp
-// Called: var exportOptions = new ExportRangeToJsonOptions();
-public void Utility_Type_ExportRangeToJsonOptions()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    var exportOptions = new ExportRangeToJsonOptions();
-    var jObject = new JObject();
-    var cells = worksheet.Cells;
-    var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
 
-    var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-    File.WriteAllText(Constants.destPath + "CELLSAPP367.txt", jsonData);
-    jObject.Add(worksheet.Name, JArray.Parse(jsonData));
+namespace AsposeCellsExamples
+{
+    public class UtilityClassExportRangeToJsonOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create export options
+            var exportOptions = new ExportRangeToJsonOptions();
+            
+            // Export range to JSON
+            var range = worksheet.Cells.CreateRange(0, 0, 3, 2);
+            string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
+
+            // Output the JSON
+            Console.WriteLine("Exported JSON:");
+            Console.WriteLine(jsonData);
+            
+            // Save to file (optional)
+            File.WriteAllText("exported_data.json", jsonData);
+        }
+    }
 }
 ```
 

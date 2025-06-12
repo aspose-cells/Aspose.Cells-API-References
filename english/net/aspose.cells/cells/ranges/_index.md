@@ -16,15 +16,28 @@ public RangeCollection Ranges { get; }
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.Ranges.Add(cellRange);
-public void Cells_Property_Ranges()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
-    Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
-    worksheet.Cells.Ranges.Add(cellRange);
-    worksheet.Cells.InsertRows(2, 2, true);
-    Assert.AreEqual(5, cellRange.RowCount);
+    public class CellsPropertyRangesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create and add a range to the Ranges collection
+            Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
+            worksheet.Cells.Ranges.Add(cellRange);
+            
+            // Insert rows and demonstrate the range expands
+            worksheet.Cells.InsertRows(2, 2, true);
+            
+            Console.WriteLine($"Range row count after insertion: {cellRange.RowCount}");
+        }
+    }
 }
 ```
 

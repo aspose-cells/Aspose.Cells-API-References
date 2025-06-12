@@ -16,38 +16,41 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 ### Examples
 
 ```csharp
-// Called: BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
-public static void WorkbookMetadata_Property_BuiltInDocumentProperties()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMetadataPropertyBuiltInDocumentPropertiesDemo
+    {
+        public static void Run()
         {
-            // Define the file path
-            string filePath = "MetadataTypeExample_original.xlsx";
-
-            // Create MetadataOptions for DocumentProperties
-            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-
-            // Load the workbook metadata
-            WorkbookMetadata metadata = new WorkbookMetadata(filePath, options);
-
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
             // Access built-in document properties
-            BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
-
-            // Access custom document properties
-            CustomDocumentPropertyCollection customProperties = metadata.CustomDocumentProperties;
-
-            // Display some built-in properties
-            Console.WriteLine("Title: " + builtInProperties["Title"]);
-            Console.WriteLine("Author: " + builtInProperties["Author"]);
-            Console.WriteLine("Company: " + builtInProperties["Company"]);
-
-            // Add a custom property
-            customProperties.Add("MyCustomProperty", "CustomValue");
-
-            // save to a different file
-            string newFilePath = "MetadataTypeExample.xlsx";
-            metadata.Save(newFilePath);
-
-            Console.WriteLine("Metadata updated and saved successfully.");
+            BuiltInDocumentPropertyCollection builtInProperties = workbook.BuiltInDocumentProperties;
+            
+            // Set some built-in properties using the proper methods
+            builtInProperties.Title = "Sample Workbook";
+            builtInProperties.Author = "John Doe";
+            builtInProperties.Company = "Aspose";
+            builtInProperties.Comments = "This demonstrates BuiltInDocumentProperties usage";
+            
+            // Display the properties
+            Console.WriteLine("Title: " + builtInProperties.Title);
+            Console.WriteLine("Author: " + builtInProperties.Author);
+            Console.WriteLine("Company: " + builtInProperties.Company);
+            Console.WriteLine("Comments: " + builtInProperties.Comments);
+            
+            // Save the workbook
+            workbook.Save("BuiltInDocumentPropertiesDemo.xlsx");
+            
+            Console.WriteLine("Workbook with built-in properties saved successfully.");
         }
+    }
+}
 ```
 
 ### See Also

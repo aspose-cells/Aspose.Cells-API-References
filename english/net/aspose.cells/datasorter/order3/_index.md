@@ -16,101 +16,73 @@ public SortOrder Order3 { get; set; }
 ### Examples
 
 ```csharp
-// Called: bool asending3 = sorter.Order3 == SortOrder.Ascending;
-public static string DataSorter_Property_Order3(DataSorter sorter, Cells cells, CellArea range)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DataSorterPropertyOrder3Demo
+    {
+        public static void Run()
         {
-            bool asending1 = sorter.Order1 == SortOrder.Ascending;
-            bool asending2 = sorter.Order2 == SortOrder.Ascending;
-            bool asending3 = sorter.Order3 == SortOrder.Ascending;
-            Cell prev = cells[range.StartRow, sorter.Key1];
-            string err = null;
-            for (int r = range.StartRow + 1; r <= range.EndRow; r++)
+            // Create a workbook and add sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data for sorting
+            cells["A1"].PutValue("Department");
+            cells["B1"].PutValue("Name");
+            cells["C1"].PutValue("Salary");
+            
+            cells["A2"].PutValue("HR");
+            cells["B2"].PutValue("John");
+            cells["C2"].PutValue(5000);
+            
+            cells["A3"].PutValue("IT");
+            cells["B3"].PutValue("Alice");
+            cells["C3"].PutValue(6000);
+            
+            cells["A4"].PutValue("HR");
+            cells["B4"].PutValue("Bob");
+            cells["C4"].PutValue(4500);
+            
+            cells["A5"].PutValue("IT");
+            cells["B5"].PutValue("Charlie");
+            cells["C5"].PutValue(7000);
+
+            // Create data sorter and set sorting keys and orders
+            DataSorter sorter = workbook.DataSorter;
+            sorter.Key1 = 0; // Sort by Department (column A)
+            sorter.Order1 = SortOrder.Ascending;
+            
+            sorter.Key2 = 1; // Then by Name (column B)
+            sorter.Order2 = SortOrder.Descending;
+            
+            sorter.Key3 = 2; // Finally by Salary (column C)
+            sorter.Order3 = SortOrder.Ascending;
+            
+            sorter.CaseSensitive = false;
+
+            // Define the range to sort (headers + 4 rows of data)
+            CellArea range = new CellArea();
+            range.StartRow = 0;
+            range.StartColumn = 0;
+            range.EndRow = 4;
+            range.EndColumn = 2;
+
+            // Perform the sort
+            sorter.Sort(cells, range);
+
+            // Output the sorted data
+            Console.WriteLine("Sorted Data:");
+            for (int row = 0; row <= 4; row++)
             {
-                Cell cur1 = cells[r, sorter.Key1];
-                int c = CheckSorted(prev, cur1, asending1, !sorter.CaseSensitive);
-                if (c == 0)
-                {
-                    continue;
-                }
-                if (c < 0)
-                {
-                    err = BuildErrorSorting(prev, cur1);
-                    break;
-                }
-                if (prev.Row + 1 == r)
-                {
-                    prev = cur1;
-                    continue;
-                }
-                int s1 = prev.Row;
-                prev = cells[s1, sorter.Key2];
-                for (s1++; s1 < r; s1++)
-                {
-                    Cell cur2 = cells[s1, sorter.Key2];
-                    c = CheckSorted(prev, cur2, asending2, !sorter.CaseSensitive);
-                    if (c == 0)
-                    {
-                        continue;
-                    }
-                    if (c < 0)
-                    {
-                        err = BuildErrorSorting(prev, cur2);
-                        break;
-                    }
-                    if (prev.Row + 1 == s1)
-                    {
-                        prev = cur2;
-                        continue;
-                    }
-                    int s2 = prev.Row;
-                    prev = cells[s2, sorter.Key3];
-                    for (s2++; s2 < s1; s2++)
-                    {
-                        Cell cur3 = cells[s2, sorter.Key3];
-                        c = CheckSorted(prev, cur3, asending3, !sorter.CaseSensitive);
-                        if (c == 0)
-                        {
-                            continue;
-                        }
-                        if (c < 0)
-                        {
-                            err = BuildErrorSorting(prev, cur3);
-                            break;
-                        }
-                        prev = cur3;
-                    }
-                    if (err != null)
-                    {
-                        break;
-                    }
-                    prev = cur2;
-                }
-                if (err != null)
-                {
-                    break;
-                }
-                prev = cur1;
+                Console.WriteLine($"{cells[row, 0].StringValue}, {cells[row, 1].StringValue}, {cells[row, 2].IntValue}");
             }
-            if (err == null)
-            {
-                return null;
-            }
-            StringBuilder sb = new StringBuilder();
-            sb.Append(err);
-            sb.Append("\nCode to reproduce the bug:\nWorkbook wb = new Workbook(\"SortErrorCheck.xlsx\");\nwb.DataSorter.Key1 = ");
-            sb.Append(sorter.Key1);
-            sb.Append(";\nwb.DataSorter.Order1 = SortOrder.").Append(asending1 ? "Ascending" : "Descending");
-            sb.Append(";\nwb.DataSorter.Key2 = ").Append(sorter.Key2);
-            sb.Append(";\nwb.DataSorter.Order2 = SortOrder.").Append(asending2 ? "Ascending" : "Descending");
-            sb.Append(";\nwb.DataSorter.Key3 = ").Append(sorter.Key3);
-            sb.Append(";\nwb.DataSorter.Order3 = SortOrder.").Append(asending3 ? "Ascending" : "Descending");
-            sb.Append(";\nwb.DataSorter.CaseSensitive = ").Append(sorter.CaseSensitive ? "true" : "false");
-            sb.Append(";\nCells sortedCells = wb.Worksheets[1].Cells;\nCellArea sortedRange = CellArea.CreateCellArea(");
-            sb.Append(range.StartRow).Append(',').Append(range.StartColumn).Append(',');
-            sb.Append(range.EndRow).Append(',').Append(range.EndColumn);
-            sb.Append(");\nwb.DataSorter.Sort(sortedCells, sortedRange);\nConsole.WriteLine(DataSorterTest.DataSorter_Property_Order3(wb.DataSorter, sortedCells, sortedRange));\n");
-            return sb.ToString();
         }
+    }
+}
 ```
 
 ### See Also

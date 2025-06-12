@@ -16,18 +16,40 @@ public bool EmbedStandardWindowsFonts { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.EmbedStandardWindowsFonts = false;
-public void PdfSaveOptions_Property_EmbedStandardWindowsFonts()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PdfSaveOptions options = new PdfSaveOptions();
-    options.EmbedStandardWindowsFonts = false;
-
-    using (MemoryStream ms = new MemoryStream())
+    public class PdfSaveOptionsPropertyEmbedStandardWindowsFontsDemo
     {
-        workbook.Save(ms, options);
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test PDF with embedded fonts");
 
-        Assert.IsTrue(ms.Length > 7 * 1024);
+            // Set PDF save options with EmbedStandardWindowsFonts property
+            PdfSaveOptions options = new PdfSaveOptions();
+            options.EmbedStandardWindowsFonts = true;
+
+            // Save to memory stream
+            using (MemoryStream ms = new MemoryStream())
+            {
+                workbook.Save(ms, options);
+                Console.WriteLine("PDF saved with embedded fonts: " + (ms.Length > 0));
+            }
+
+            // Demonstrate disabling font embedding
+            options.EmbedStandardWindowsFonts = false;
+            using (MemoryStream ms = new MemoryStream())
+            {
+                workbook.Save(ms, options);
+                Console.WriteLine("PDF saved without embedded fonts: " + (ms.Length > 0));
+            }
+        }
     }
 }
 ```

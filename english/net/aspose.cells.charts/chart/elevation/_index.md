@@ -20,91 +20,48 @@ The chart elevation is the height at which you view the chart, in degrees. The d
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(chartSrc.Elevation, chartDest.Elevation, info + ".Elevation");
-public static void Chart_Property_Elevation(Chart chartSrc, Chart chartDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyElevationDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(chartSrc, chartDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(chartSrc.Type, chartDest.Type, info + ".Type");
-            //=======================compare ChartArea======================//
-            ChartAreaTest.Chart_Property_Elevation(chartSrc.ChartArea, chartDest.ChartArea, info + ".ChartArea");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            //AssertHelper.AreEqual(chartSrc.PlotAreaWithoutTickLabels, chartDest.PlotAreaWithoutTickLabels, info + ".PlotAreaWithoutTickLabels");
-            AssertHelper.AreEqual(chartSrc.IsRectangularCornered, chartDest.IsRectangularCornered, info + ".IsRectangularCornered");
-            //=======================compare PlotArea======================//
-            ChartFrameTest.Chart_Property_Elevation(chartSrc.PlotArea, chartDest.PlotArea, info + ".PlotArea");
-            //=======================compare Legend======================//
-            AssertHelper.AreEqual(chartSrc.ShowLegend, chartDest.ShowLegend, info + ".ShowLegend");
-            if (chartSrc.ShowLegend && chartDest.ShowLegend)
-                LegendTest.Chart_Property_Elevation(chartSrc.Legend, chartDest.Legend, info + ".Legend");           
-           //=======================compare axis=========================//
-            AxisTest.Chart_Property_Elevation(chartSrc.CategoryAxis, chartDest.CategoryAxis, info + ".CategoryAxis");
-            AxisTest.Chart_Property_Elevation(chartSrc.ValueAxis, chartDest.ValueAxis, info + ".ValueAxis");
-            AxisTest.Chart_Property_Elevation(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
-            AxisTest.Chart_Property_Elevation(chartSrc.SecondCategoryAxis, chartDest.SecondCategoryAxis, info + ".SecondCategoryAxis");
-            AxisTest.Chart_Property_Elevation(chartSrc.SecondValueAxis, chartDest.SecondValueAxis, info + ".SecondValueAxis");
-            //=======================compare ASeries======================//
-            NSeriesTest.Chart_Property_Elevation(chartSrc.NSeries, chartDest.NSeries, info + ".NSeries");
-            //====================compare options===============//
-            //for column chart
-            AssertHelper.AreEqual(chartSrc.GapWidth, chartDest.GapWidth, info + ".GapWidth");
-            //for column3d chart
-            AssertHelper.AreEqual(chartSrc.GapDepth, chartDest.GapDepth, info + ".GapDepth");
-            AssertHelper.AreEqual(chartSrc.DepthPercent, chartDest.DepthPercent, info + ".DepthPercent");
-            //for pie chart
-            AssertHelper.AreEqual(chartSrc.FirstSliceAngle, chartDest.FirstSliceAngle, info + ".FirstSliceAngle");
-            //for Bubble chart
-            //AssertHelper.AreEqual(chartSrc.SizeRepresents, chartDest.SizeRepresents, info + ".SizeRepresents");
-            //AssertHelper.AreEqual(chartSrc.BubbleSizes, chartDest.BubbleSizes, info + ".BubbleSizes");
-            //AssertHelper.AreEqual(chartSrc.ShowNegativeBubbles, chartDest.ShowNegativeBubbles, info + ".ShowNegativeBubbles");
-            //=======================compare chart options======================//
-            TitleTest.Chart_Property_Elevation(chartSrc.Title, chartDest.Title, info + ".Title");
-            //compare axes
-            AssertHelper.AreEqual(chartSrc.CategoryAxis.CategoryType, chartDest.CategoryAxis.CategoryType, info + ".CategoryAxis.CategoryType");
-            AxisTest.Chart_Property_Elevation(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
-            //compare gridlines
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
-            //compare datatable
-            AssertHelper.AreEqual(chartSrc.ShowDataTable, chartDest.ShowDataTable, info + ".ShowDataTable");
-            if (chartSrc.ShowDataTable && chartDest.ShowDataTable)
-            {
-                ChartDataTableTest.Chart_Property_Elevation(chartSrc.ChartDataTable, chartDest.ChartDataTable, info + ".ChartDataTable");
-            }
-            //=================compare for 3d================================//            
-            AssertHelper.AreEqual(chartSrc.Elevation, chartDest.Elevation, info + ".Elevation");
-            AssertHelper.AreEqual(chartSrc.RotationAngle, chartDest.RotationAngle, info + ".RotationAngle");
-            AssertHelper.AreEqual(chartSrc.Perspective, chartDest.Perspective, info + ".Perspective");
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
-            AssertHelper.AreEqual(chartSrc.RightAngleAxes, chartDest.RightAngleAxes, info + ".RightAngleAxes");
-            AssertHelper.AreEqual(chartSrc.HeightPercent, chartDest.HeightPercent, info + ".HeightPercent");
-            WallsTest.Chart_Property_Elevation(chartSrc.Walls, chartDest.Walls, info + ".Walls");
-            FloorTest.Chart_Property_Elevation(chartSrc.Floor, chartDest.Floor, info + ".Floor");
-            
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
-            //=================compare other================================//          
-            
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
-            //ChartShapeTest.Chart_Property_Elevation(chartSrc.ChartObject, chartDest.ChartObject, info + ".ChartObject");  
-            //PageSetupTest.Chart_Property_Elevation(chartSrc.PageSetup, chartDest.PageSetup, info + ".PageSetup");
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
-            AssertHelper.AreEqual(chartSrc.Placement, chartDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
-            AssertHelper.AreEqual(chartSrc.PrintSize, chartDest.PrintSize, info + ".PrintSize");           
-            //ShapesTest.Chart_Property_Elevation(chartSrc.Shapes, chartDest.Shapes, info + ".Shapes");
-            AssertHelper.AreEqual(chartSrc.SizeWithWindow, chartDest.SizeWithWindow, info + ".SizeWithWindow");
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Q1");
+            worksheet.Cells["A3"].PutValue("Q2");
+            worksheet.Cells["A4"].PutValue("Q3");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1000);
+            worksheet.Cells["B3"].PutValue(2000);
+            worksheet.Cells["B4"].PutValue(3000);
 
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
-
-            //chartSrc.PageSetup
+            // Add a 3D column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
             
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set elevation property (angle in degrees)
+            chart.Elevation = 30;
+            
+            // Save the workbook
+            workbook.Save("ChartElevationDemo.xlsx");
+
+            Console.WriteLine("Chart created with elevation set to 30 degrees.");
         }
+    }
+}
 ```
 
 ### See Also

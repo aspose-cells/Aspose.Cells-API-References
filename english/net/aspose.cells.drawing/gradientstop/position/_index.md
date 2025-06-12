@@ -16,35 +16,51 @@ public double Position { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(69, ser.Area.FillFormat.GradientFill.GradientStops[2].Position);
-public void GradientStop_Property_Position()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
+    public class GradientStopPropertyPositionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    sheet.Cells["A2"].PutValue("カテゴリー1");
-    sheet.Cells["A3"].PutValue("カテゴリー2");
-    sheet.Cells["A4"].PutValue("カテゴリー3");
-    sheet.Cells["B1"].PutValue("列 1");
-    sheet.Cells["B2"].PutValue(4);
-    sheet.Cells["B3"].PutValue(20);
-    sheet.Cells["B4"].PutValue(50);
-    sheet.Cells["C1"].PutValue("列 2");
-    sheet.Cells["C2"].PutValue(50);
-    sheet.Cells["C3"].PutValue(100);
-    sheet.Cells["C4"].PutValue(150);
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
 
-    int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
-    Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", true);
 
-    chart.Title.Text = "マーケット";
-    chart.SetChartDataRange("A1:C4", true);
-    Series ser = chart.NSeries[0];
-    ser.Area.FillFormat.FillType = FillType.Gradient;
-    ser.Area.FillFormat.GradientFill.SetPresetThemeGradient(PresetThemeGradientType.RadialGradient, ThemeColorType.Accent1);
-    Assert.AreEqual(69, ser.Area.FillFormat.GradientFill.GradientStops[2].Position);
+            // Configure gradient fill for the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            series.Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Gradient;
+            series.Area.FillFormat.GradientFill.SetPresetThemeGradient(
+                Aspose.Cells.Drawing.PresetThemeGradientType.RadialGradient, 
+                ThemeColorType.Accent1);
 
-    wb.Save(Constants.destPath + "example.xlsx");
+            // Access and modify gradient stop positions
+            GradientStopCollection stops = series.Area.FillFormat.GradientFill.GradientStops;
+            stops[0].Position = 0;
+            stops[1].Position = 50;
+            stops[2].Position = 100;
+
+            // Save the workbook
+            workbook.Save("GradientStopPositionDemo.xlsx");
+        }
+    }
 }
 ```
 

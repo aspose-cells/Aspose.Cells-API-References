@@ -20,27 +20,28 @@ Only for .xlsx files.
 ### Examples
 
 ```csharp
-// Called: settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
-public static void WorkbookSettings_Property_Compliance()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyComplianceDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Access workbook settings
             WorkbookSettings settings = workbook.Settings;
-
-            // Set the OOXML compliance level to ISO/IEC 29500:2008 Strict
+            
+            // Set compliance to strict mode
             settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
-
-            // Add some data to the worksheet
+            
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue("Hello, World!");
-
-            // Save the workbook with the specified OOXML compliance level
-            workbook.Save("OoxmlComplianceExample.xlsx");
-
-            return;
+            worksheet.Cells["A1"].PutValue("Strict Compliance Demo");
+            
+            workbook.Save("WorkbookComplianceDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

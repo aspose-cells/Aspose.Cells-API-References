@@ -31,33 +31,42 @@ public interface ICellsDataTable
 ### Examples
 
 ```csharp
-// Called: ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
-public void Cells_Type_ICellsDataTable()
+using System;
+using System.Collections;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
+    public class CellsClassICellsDataTableDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
 
-    ArrayList dataLists = new ArrayList();
-    ArrayList list1 = new ArrayList();
-    list1.AddRange(new object[] { "Name", "Age", "Gender" });
-    ArrayList list2 = new ArrayList();
-    list2.AddRange(new object[] { "Alice", 30, "Female" });
-    ArrayList list3 = new ArrayList();
-    list3.AddRange(new object[] { "Bob", 25, "Male" });
-    ArrayList list4 = new ArrayList();
-    list4.AddRange(new object[] { "Charlie", 35, "Male" });
-    dataLists.Add(list1);
-    dataLists.Add(list2);
-    dataLists.Add(list3);
-    dataLists.Add(list4);
+            ArrayList dataLists = new ArrayList();
+            ArrayList list1 = new ArrayList();
+            list1.AddRange(new object[] { "Name", "Age", "Gender" });
+            ArrayList list2 = new ArrayList();
+            list2.AddRange(new object[] { "Alice", 30, "Female" });
+            ArrayList list3 = new ArrayList();
+            list3.AddRange(new object[] { "Bob", 25, "Male" });
+            ArrayList list4 = new ArrayList();
+            list4.AddRange(new object[] { "Charlie", 35, "Male" });
+            dataLists.Add(list1);
+            dataLists.Add(list2);
+            dataLists.Add(list3);
+            dataLists.Add(list4);
 
-    ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
-          
-    wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
-    Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
+            ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+            
+            wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+            Console.WriteLine("First worksheet A2 value: " + wb.Worksheets[0].Cells["A2"].StringValue);
 
-    wb.Worksheets.Add();
-      wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
-    Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
+            wb.Worksheets.Add();
+            wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+            Console.WriteLine("Second worksheet A3 value: " + wb.Worksheets[1].Cells["A3"].StringValue);
+        }
+    }
 }
 ```
 

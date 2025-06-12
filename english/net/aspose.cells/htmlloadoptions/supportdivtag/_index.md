@@ -16,19 +16,34 @@ public bool SupportDivTag { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlLoadOptions.SupportDivTag = true;
-public void HtmlLoadOptions_Property_SupportDivTag()
-{
-    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(LoadFormat.Html);
-    htmlLoadOptions.AutoFitColsAndRows = true;
-    htmlLoadOptions.ConvertNumericData = false;
-    htmlLoadOptions.SupportDivTag = true;
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", htmlLoadOptions);
-    wb.Save(Constants.destPath + "example.xlsx");
-    Cell cell = wb.Worksheets[0].Cells["A1"];
-    Assert.AreEqual("Sample caption", cell.StringValue);
-    Assert.IsTrue(cell.GetStyle().Font.IsBold);
+namespace AsposeCellsExamples
+{
+    public class HtmlLoadOptionsPropertySupportDivTagDemo
+    {
+        public static void Run()
+        {
+            // Create HTML load options with SupportDivTag enabled
+            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            htmlLoadOptions.SupportDivTag = true;
+
+            // Load HTML file with div tags
+            Workbook workbook = new Workbook("input.html", htmlLoadOptions);
+
+            // Access data from the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            
+            // Output cell value and style information
+            Console.WriteLine("Cell A1 value: " + cell.StringValue);
+            Console.WriteLine("Is bold: " + cell.GetStyle().Font.IsBold);
+
+            // Save as Excel file
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

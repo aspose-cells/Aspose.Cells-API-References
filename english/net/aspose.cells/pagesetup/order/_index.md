@@ -16,21 +16,36 @@ public PrintOrderType Order { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.Order = PrintOrderType.DownThenOver;
-public void PageSetup_Property_Order()
-{
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+using System;
+using Aspose.Cells;
 
-    checkPrintOrderType_DownThenOver(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkPrintOrderType_DownThenOver(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkPrintOrderType_DownThenOver(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkPrintOrderType_DownThenOver(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyOrderDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Set the print order to DownThenOver
+            sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+            Console.WriteLine("Print order set to: " + sheet.PageSetup.Order);
+
+            // Save the workbook in different formats
+            workbook.Save("output_DownThenOver.xlsx", SaveFormat.Xlsx);
+            workbook.Save("output_DownThenOver.xls", SaveFormat.Excel97To2003);
+
+            // Change the print order to OverThenDown
+            sheet.PageSetup.Order = PrintOrderType.OverThenDown;
+            Console.WriteLine("Print order changed to: " + sheet.PageSetup.Order);
+
+            // Save again with different formats
+            workbook.Save("output_OverThenDown.xlsx", SaveFormat.Xlsx);
+            workbook.Save("output_OverThenDown.xls", SaveFormat.Excel97To2003);
+        }
+    }
 }
 ```
 

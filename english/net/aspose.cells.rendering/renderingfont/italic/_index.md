@@ -16,50 +16,41 @@ public bool Italic { get; set; }
 ### Examples
 
 ```csharp
-// Called: Italic = true,
-public static void RenderingFont_Property_Italic()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingFontPropertyItalicDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello World!");
-
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont("Arial", 12)
+            // Create a RenderingFont with Italic property set
+            RenderingFont renderingFont = new RenderingFont("Arial", 16)
             {
-                Bold = true,
                 Italic = true,
-                Color = Color.Blue
+                Color = Color.Red
             };
 
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
-            {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
-                IsBackground = true,
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
-            };
+            // Apply the font to cell A1
+            sheet.Cells["A1"].PutValue("Italic Text Example");
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";  // Directly use the font name
+            style.Font.Size = (int)renderingFont.Size;  // Explicit cast to int
+            style.Font.IsItalic = renderingFont.Italic;
+            style.Font.Color = renderingFont.Color;
+            sheet.Cells["A1"].SetStyle(style);
 
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-            {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
-            };
-
-            // Save the workbook to PDF with the watermark
-            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
+            // Save the workbook
+            workbook.Save("ItalicFontExample.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

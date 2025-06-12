@@ -16,21 +16,35 @@ public bool ConvertNumericOrDate { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ConvertNumericOrDate = flag;
-public void XmlLoadOptions_Property_ConvertNumericOrDate()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    bool[] flags = {true, false};
-    foreach(bool flag in flags)
+    public class XmlLoadOptionsPropertyConvertNumericOrDateDemo
     {
-        XmlLoadOptions options = new XmlLoadOptions();
-        options.ConvertNumericOrDate = flag;
-        Workbook wb = new Workbook(Constants.sourcePath + "example.xml", options);
-        // wb.Worksheets.RefreshAll();
-        Cell cell = wb.Worksheets[0].Cells["E4"];
-       Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
-        wb.Save(Constants.destPath + "example.xlsx");
-    }
+        public static void Run()
+        {
+            // Create XML load options
+            XmlLoadOptions options = new XmlLoadOptions();
             
+            // Set ConvertNumericOrDate to true (default)
+            options.ConvertNumericOrDate = true;
+            Workbook wb1 = new Workbook("input.xml", options);
+            Cell cell1 = wb1.Worksheets[0].Cells["A1"];
+            Console.WriteLine("With conversion (true): " + cell1.Value + " is type: " + cell1.Type);
+            
+            // Set ConvertNumericOrDate to false
+            options.ConvertNumericOrDate = false;
+            Workbook wb2 = new Workbook("input.xml", options);
+            Cell cell2 = wb2.Worksheets[0].Cells["A1"];
+            Console.WriteLine("Without conversion (false): " + cell2.Value + " is type: " + cell2.Type);
+            
+            // Save results
+            wb1.Save("output_with_conversion.xlsx");
+            wb2.Save("output_without_conversion.xlsx");
+        }
+    }
 }
 ```
 

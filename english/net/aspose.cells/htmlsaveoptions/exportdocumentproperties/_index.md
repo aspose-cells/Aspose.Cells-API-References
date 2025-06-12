@@ -16,25 +16,36 @@ public bool ExportDocumentProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportDocumentProperties = false;
-public void HtmlSaveOptions_Property_ExportDocumentProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42495/";
-
-    Workbook workbook = new Workbook(filePath + "input.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    Worksheet sheet = workbook.Worksheets["Entry points"];
-    workbook.Worksheets.ActiveSheetIndex = sheet.Index;
-    options.ExportActiveWorksheetOnly = true;
-    options.ExportDocumentProperties = false;
-    options.ExportWorkbookProperties = false;
-    options.ExportWorksheetProperties = false;
-    workbook.Save(Constants.destPath + "example.html", options);
-
-    //simon
-    workbook = new Workbook(Constants.destPath + "example.html");
-    Style style = workbook.Worksheets[0].Cells["C3"].GetStyle();
-    Assert.IsTrue(style.IsTextWrapped);
+    public class HtmlSaveOptionsPropertyExportDocumentPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some document properties
+            workbook.BuiltInDocumentProperties.Author = "Test Author";
+            workbook.BuiltInDocumentProperties.Title = "Test Document";
+            
+            // Add sample cell data
+            worksheet.Cells["A1"].PutValue("Sample HTML Export");
+            
+            // Create HTML save options and set ExportDocumentProperties to false
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportDocumentProperties = false;
+            
+            // Save the workbook as HTML
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("HTML file saved with document properties export disabled.");
+        }
+    }
 }
 ```
 

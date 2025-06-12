@@ -4,7 +4,7 @@ linktitle: GradientFillType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::GradientFillType enum. Represents all Gradient fill type in C++.'
 type: docs
-weight: 8500
+weight: 8700
 url: /cpp/aspose.cells.drawing/gradientfilltype/
 ---
 ## GradientFillType enum

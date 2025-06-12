@@ -20,41 +20,45 @@ Calling this method after the monitored procedure can release the monitor thread
 ### Examples
 
 ```csharp
-// Called: monitor.FinishMonitor();
-public static void ThreadInterruptMonitor_Method_FinishMonitor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ThreadInterruptMonitorMethodFinishMonitorDemo
+    {
+        public static void Run()
         {
-            // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
+            // Create an instance of ThreadInterruptMonitor
             ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
 
-            // Create LoadOptions and set the InterruptMonitor to the created monitor
+            // Create LoadOptions and set the InterruptMonitor
             LoadOptions lopts = new LoadOptions();
             lopts.InterruptMonitor = monitor;
 
-            // Start the monitor with a time limit of 1000 milliseconds (1 second)
+            // Start monitoring with 1 second timeout
             monitor.StartMonitor(1000);
 
             try
             {
-                // Load a workbook with the specified LoadOptions
-                Workbook wb = new Workbook("Large.xlsx", lopts);
+                // Simulate a long-running operation
+                for (int i = 0; i < 5; i++)
+                {
+                    System.Threading.Thread.Sleep(200);
+                    Console.WriteLine($"Processing step {i + 1}");
+                }
 
-                // Finish the monitor for the loading procedure
+                // Finish monitoring the operation
                 monitor.FinishMonitor();
-
-                // Start the monitor again with a new time limit of 1500 milliseconds (1.5 seconds)
-                monitor.StartMonitor(1500);
-
-                // Save the workbook
-                wb.Save("result.xlsx");
-
-                // Finish the monitor for the saving procedure
-                monitor.FinishMonitor();
+                Console.WriteLine("Operation completed successfully");
             }
             catch (Exception ex)
             {
                 Console.WriteLine("An exception occurred: " + ex.Message);
             }
         }
+    }
+}
 ```
 
 ### See Also

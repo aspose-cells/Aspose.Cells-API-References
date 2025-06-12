@@ -35,6 +35,65 @@ Total number of rows imported.
 
 The custom objects should be the same type.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections.Generic;
+
+    public class CellsMethodImportCustomObjectsWithICollectionStringBooleanInt3Demo
+    {
+        public class Product
+        {
+            public string Name { get; set; }
+            public decimal Price { get; set; }
+            public int Stock { get; set; }
+            public DateTime Date { get; set; }
+        }
+
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            List<Product> products = new List<Product>
+            {
+                new Product { Name = "Apple", Price = 2.99m, Stock = 150, Date = new DateTime(2023, 12, 31) },
+                new Product { Name = "Orange", Price = 1.99m, Stock = 200, Date = new DateTime(2024, 1, 15) }
+            };
+
+            string[] propertyNames = { "Name", "Price", "Stock", "Date" };
+
+            try
+            {
+                int importedRows = worksheet.Cells.ImportCustomObjects(
+                    products,
+                    propertyNames,
+                    true,
+                    0,
+                    0,
+                    products.Count,
+                    true,
+                    "yyyy-MM-dd",
+                    true
+                );
+
+                Console.WriteLine($"Successfully imported {importedRows} rows");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportCustomObjects: {ex.Message}");
+            }
+
+            workbook.Save("ImportCustomObjectsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -70,35 +129,49 @@ The custom objects should be the same type.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-public void Cells_Method_ImportCustomObjects()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    List<Customer> customerList = new List<Customer>();
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using Aspose.Cells;
 
-    //Creating collection for test items
-    for (int i = 0; i < 5; i++)
+namespace AsposeCellsExamples
+{
+    public class Customer
     {
-        Customer customer = new Customer
-        {
-            CustomerId = i,
-            Name = "Customer" + i
-        };
-        customerList.Add(customer);
+        public int CustomerId { get; set; }
+        public string Name { get; set; }
     }
-    ImportTableOptions options = new ImportTableOptions();
-    options.IsFieldNameShown = false;
-    options.TotalRows = customerList.Count;
-    options.InsertRows = true;
-    options.DateFormat = "dd/mm/yyyy";
-    options.ConvertNumericData = true;
-    options.CheckMergedCells = true;
-    //Insert data to excell
-    wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-    Cell d4 = wb.Worksheets[0].Cells["D4"];
-    Assert.AreEqual(d4.StringValue, "Customer2");
-    Assert.IsTrue(d4.IsMerged);
-    wb.Save(Constants.destPath + "example.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+
+    public class CellsMethodImportCustomObjectsWithICollectionInt32Int32ImportTabDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            List<Customer> customerList = new List<Customer>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                customerList.Add(new Customer
+                {
+                    CustomerId = i,
+                    Name = "Customer" + i
+                });
+            }
+
+            ImportTableOptions options = new ImportTableOptions
+            {
+                IsFieldNameShown = false,
+                TotalRows = customerList.Count,
+                InsertRows = true,
+                DateFormat = "dd/mm/yyyy",
+                ConvertNumericData = true,
+                CheckMergedCells = true
+            };
+
+            wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
+            wb.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

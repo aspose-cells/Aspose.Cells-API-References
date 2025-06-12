@@ -16,17 +16,33 @@ public string ToJson()
 ### Examples
 
 ```csharp
-// Called: json = cell.ToJson();
-public void Cell_Method_ToJson()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells["B4"].GetStyle();
-    string json = style.ToJson();
-    Assert.IsTrue(json.IndexOf("\"backgroundColor\" : \"#FFFFFF00\"") != -1);
-    Cell cell = cells["B6"];
-    json = cell.ToJson();
-    Assert.IsTrue(json.IndexOf("\"formula\" : \"=A1\"") != -1);
+    public class CellMethodToJsonDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set sample data and styles
+            cells["A1"].PutValue(100);
+            cells["B6"].Formula = "=A1";
+            
+            // Get cell and convert to JSON
+            Cell cell = cells["B6"];
+            string json = cell.ToJson();
+            
+            // Output the JSON
+            Console.WriteLine("Cell JSON:");
+            Console.WriteLine(json);
+        }
+    }
 }
 ```
 

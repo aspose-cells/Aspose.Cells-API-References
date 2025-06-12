@@ -16,34 +16,37 @@ public TimePeriodType TimePeriod { get; set; }
 ### Examples
 
 ```csharp
-// Called: fc.TimePeriod = TimePeriodType.Today;
-public static void FormatCondition_Property_TimePeriod()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FormatConditionPropertyTimePeriodDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a conditional formatting rule
+            // Add sample date values to demonstrate time period formatting
+            worksheet.Cells["A1"].PutValue(DateTime.Now);
+            worksheet.Cells["A2"].PutValue(DateTime.Now.AddDays(-1));
+            worksheet.Cells["A3"].PutValue(DateTime.Now.AddDays(1));
+
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+            CellArea area = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(area);
 
-            // Define the cell area for the conditional formatting
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            fcs.AddArea(ca);
-
-            // Add a condition for the time period
             int conditionIndex = fcs.AddCondition(FormatConditionType.TimePeriod);
             FormatCondition fc = fcs[conditionIndex];
             fc.Style.BackgroundColor = System.Drawing.Color.LightBlue;
-
-            // Set the time period type
             fc.TimePeriod = TimePeriodType.Today;
 
-            // Save the workbook
-            workbook.Save("TimePeriodTypeExample.xlsx");
-
-            return;
+            workbook.Save("TimePeriodDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,32 +20,33 @@ Default value is Identity
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
-public void PdfSaveOptions_Property_FontEncoding()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    // workbook.Save(dir + "dest.pdf");
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Workbook pdfwb = new Workbook();
-
-    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    public class PdfSaveOptionsPropertyFontEncodingDemo
     {
-        pdfwb.Worksheets.RemoveAt(i - 1);
-    }
-    if (worksheet.IsVisible == true)
-    {
-        int s = pdfwb.Worksheets.Add();
-        pdfwb.Worksheets[s].Copy(worksheet);
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.OnePagePerSheet = true;
-    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
-    pdfSaveOptions.DefaultFont = "宋体";
-    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-    pdfSaveOptions.CheckWorkbookDefaultFont = true;
-    pdfwb.Save(Constants.destPath + "example.pdf");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Font Encoding Test");
+            worksheet.Cells["A2"].PutValue("This demonstrates PdfFontEncoding usage");
+
+            // Configure PDF save options with FontEncoding
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
+            pdfSaveOptions.DefaultFont = "Arial";
+
+            // Save the workbook to PDF
+            workbook.Save("output.pdf", pdfSaveOptions);
+        }
+    }
 }
 ```
 

@@ -25,17 +25,33 @@ public object GetValue(int rowOffset, int colOffset)
 ### Examples
 
 ```csharp
-// Called: v = ((ReferredArea)v).GetValue(0, 0);
-public override void ReferredArea_Method_GetValue(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValueWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].PutValue(5);
+            Cell cell = worksheet.Cells["C1"];
+            cell.Formula = "=A1";
+            
+            workbook.CalculateFormula();
+            
+            ReferredAreaCollection referredAreas = cell.GetPrecedents();
+            if (referredAreas.Count > 0)
             {
-                object v = data.GetParamValue(0);
-                if (v is ReferredArea)
-                {
-                    v = ((ReferredArea)v).GetValue(0, 0);
-                }
-                data.CalculatedValue = v;
-                calcCount++;
+                object value = referredAreas[0].GetValue(0, 0);
+                Console.WriteLine("Value at (0,0): " + value);
             }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -67,54 +83,32 @@ public object GetValue(int rowOffset, int colOffset, bool calculateFormulas)
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = ra.GetValue(0, 0, true);
-public override void ReferredArea_Method_GetValue(CalculationData data)
-            {
-                if (_inProcess)
-                {
-                    data.CalculatedValue = -_type;
-                    return;
-                }
-                _inProcess = true;
-                ReferredArea ra = (ReferredArea) data.GetParamValue(0);
-                switch (_type)
-                {
-                    case 1:
-                    {
-                        object res = ra.GetValues();
-                        data.CalculatedValue = res is object[] ? ((object[]) res)[0] : res;
-                        break;
-                    }
-                    case 2:
-                    {
-                        object res = ra.GetValues(true);
-                        data.CalculatedValue = res is object[] ? ((object[])res)[0] : res;
-                        break;
-                    }
-                    case 3:
-                    {
-                        object res = ra.GetValues(false);
-                        data.CalculatedValue = res is object[] ? ((object[])res)[0] : res;
-                        break;
-                    }
-                    case 4:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0);
-                        break;
-                    }
-                    case 5:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0, true);
-                        break;
-                    }
-                    case 6:
-                    {
-                        data.CalculatedValue = ra.GetValue(0, 0, false);
-                        break;
-                    }
-                }
-                _inProcess = false;
-            }
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValueWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            sheet.Cells["A1"].PutValue(100);
+            sheet.Cells["B1"].PutValue(200);
+
+            workbook.Worksheets.Names.Add("TestRange");
+            Name name = workbook.Worksheets.Names["TestRange"];
+            name.RefersTo = "=Sheet1!$A$1:$B$1";
+
+            ReferredArea ra = name.GetReferredAreas(true)[0];
+            object result = ra.GetValue(0, 0, true);
+
+            Console.WriteLine("Obtained value: " + result);
+        }
+    }
+}
 ```
 
 ### See Also

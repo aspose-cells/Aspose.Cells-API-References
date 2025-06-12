@@ -27,34 +27,30 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 ### Examples
 
 ```csharp
-// Called: var index = ws.CheckBoxes.Add(10, 2, 20, ws.Cells.GetColumnWidthPixel(1) + ws.Cells.GetColumnWidthPixel(3) - 5);
-public void CheckBoxCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Workbook wb = new Workbook();
-    wb.Worksheets.Clear();
-    int i = wb.Worksheets.Add();
-    var ws = wb.Worksheets[i];
-    ws.Name = "New";
+    public class CheckBoxCollectionMethodAddWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-
-    var index = ws.CheckBoxes.Add(10, 2, 20, ws.Cells.GetColumnWidthPixel(1) + ws.Cells.GetColumnWidthPixel(3) - 5);
-
-
-    Aspose.Cells.Drawing.CheckBox cb = ws.CheckBoxes[index];
-    cb.Text = "Location 1 ([%¤#!#%&!§§!#¤HELLO)";
-    cb.Font.Size = 10;
-    cb.TextVerticalAlignment = TextAlignmentType.Center;
-    var hideCell = "B" + (10 + 1).ToString();
-    ws.Cells[hideCell].PutValue("LnkCell");
-    cb.LinkedCell = hideCell;
-    cb.Value = true;
-    cb.LineFormat.ForeColor = Color.Orange;
-    cb.LineFormat.Style = Aspose.Cells.Drawing.MsoLineStyle.Single;
-    cb.LineFormat.Weight = 2;
-
-
-    wb.Save(Constants.destPath + "Result.xlsx", SaveFormat.Xlsx);
+            // Add checkbox using Int32 parameters (upperLeftRow, upperLeftColumn, height, width)
+            int index = worksheet.CheckBoxes.Add(10, 2, 20, 100);
+            
+            CheckBox checkBox = worksheet.CheckBoxes[index];
+            checkBox.Text = "Sample CheckBox";
+            checkBox.Value = true;
+            checkBox.LinkedCell = "B11";
+            
+            workbook.Save("CheckBoxDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

@@ -16,27 +16,34 @@ public int KeyLength { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.KeyLength = 256;
-public static void MetadataOptions_Property_KeyLength()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
+{
+    public class MetadataOptionsPropertyKeyLengthDemo
+    {
+        public static void Run()
         {
-            // Create an instance of MetadataOptions with a specific MetadataType
+            // Create metadata options with document properties type
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-
-            // Set properties
-            options.Password = "your_password";
-            options.KeyLength = 256;
-
-            // Load metadata from an existing workbook
-            WorkbookMetadata metadata = new WorkbookMetadata("MetadataOptionsExample_original.xlsx", options);
-
-            // Add a custom document property
-            metadata.CustomDocumentProperties.Add("Author", "John Doe");
-
-            // Save the metadata changes to a new file
-            metadata.Save("MetadataOptionsExample.xlsx");
-
-            return;
+            
+            // Set encryption properties including KeyLength
+            options.Password = "secure_password";
+            options.KeyLength = 256; // Using 256-bit encryption
+            
+            // Create metadata for a new workbook
+            WorkbookMetadata metadata = new WorkbookMetadata("sample.xlsx", options);
+            
+            // Add custom property
+            metadata.CustomDocumentProperties.Add("CreatedBy", "MetadataDemo");
+            
+            // Save with encryption
+            metadata.Save("encrypted_sample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

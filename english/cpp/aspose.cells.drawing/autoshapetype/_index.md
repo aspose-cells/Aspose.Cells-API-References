@@ -4,7 +4,7 @@ linktitle: AutoShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::AutoShapeType enum. Represents all built-in auto shape type in C++.'
 type: docs
-weight: 7400
+weight: 7600
 url: /cpp/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enum

@@ -20,15 +20,54 @@ Only used for external links.
 ### Examples
 
 ```csharp
-// Called: string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-public void Workbook_Property_AbsolutePath()
-{
-    Workbook sourceBook = new Workbook(Constants.sourcePath + "example.xlsx");
-    string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-    SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, "A1");
-    SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, "A1");
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    sourceBook.Save(Constants.destPath + "dest.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyAbsolutePathDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook sourceBook = new Workbook();
+            
+            // Add some worksheets
+            sourceBook.Worksheets.Add("Sheet1");
+            sourceBook.Worksheets.Add("Sheet2");
+
+            // Save the workbook to get a physical path
+            string sourcePath = Path.GetFullPath("output");
+            if (!Directory.Exists(sourcePath))
+            {
+                Directory.CreateDirectory(sourcePath);
+            }
+            string sourceFilePath = Path.Combine(sourcePath, "example.xlsx");
+            sourceBook.Save(sourceFilePath);
+
+            // Reopen the workbook to demonstrate AbsolutePath
+            Workbook reopenedBook = new Workbook(sourceFilePath);
+            
+            // Use AbsolutePath property to construct full path
+            string pathToBook = Path.Combine(reopenedBook.AbsolutePath, reopenedBook.FileName);
+            Console.WriteLine("Full path to workbook: " + pathToBook);
+
+            // Add hyperlinks using the path
+            SetHyperlink(reopenedBook.Worksheets[0], 0, pathToBook, reopenedBook.Worksheets[0].Name, "A1");
+            SetHyperlink(reopenedBook.Worksheets[0], 1, pathToBook, reopenedBook.Worksheets[1].Name, "B1");
+
+            // Save the modified workbook
+            string destPath = Path.Combine(sourcePath, "modified_example.xlsx");
+            reopenedBook.Save(destPath);
+        }
+
+        private static void SetHyperlink(Worksheet sheet, int linkIndex, string path, string sheetName, string cellRef)
+        {
+            HyperlinkCollection hyperlinks = sheet.Hyperlinks;
+            hyperlinks.Add(cellRef, 1, 1, path + "#" + sheetName + "!A1");
+        }
+    }
 }
 ```
 

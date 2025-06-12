@@ -16,23 +16,48 @@ public bool SortLeftToRight { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataSorter.SortLeftToRight = true;
-public void DataSorter_Property_SortLeftToRight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    DataSorter dataSorter = workbook.DataSorter;
+    public class DataSorterPropertySortLeftToRightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    dataSorter.Key1 = 0;
-    CellArea area = new CellArea();
-    area.StartRow = 0;
-    area.EndRow = 4;
-    area.StartColumn = 0;
-    area.EndColumn = 2;
-    dataSorter.SortLeftToRight = true;
-    dataSorter.Sort(workbook.Worksheets[0].Cells, area);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].DoubleValue, 4);
-    workbook.Save(Constants.destPath + "example.xls");
+            // Sample data (columns will be treated as rows when SortLeftToRight=true)
+            worksheet.Cells["A1"].PutValue(3);
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B1"].PutValue("C");
+            worksheet.Cells["B2"].PutValue("A");
+            worksheet.Cells["B3"].PutValue("B");
 
+            // Create data sorter and set to sort left to right
+            DataSorter sorter = workbook.DataSorter;
+            sorter.SortLeftToRight = true;
+
+            // Set sort key (column index becomes row index when sorting left-to-right)
+            sorter.Key1 = 0; // Sort by first "row" (originally column A)
+
+            // Define sort area (rows become columns when sorting left-to-right)
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 2;
+            area.StartColumn = 0;
+            area.EndColumn = 1;
+
+            // Perform the sort
+            sorter.Sort(worksheet.Cells, area);
+
+            // Save the result
+            workbook.Save("SortedLeftToRight.xlsx");
+        }
+    }
 }
 ```
 

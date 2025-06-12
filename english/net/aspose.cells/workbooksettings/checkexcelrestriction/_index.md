@@ -16,15 +16,33 @@ public bool CheckExcelRestriction { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.CheckExcelRestriction = false;
-public void WorkbookSettings_Property_CheckExcelRestriction()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Settings.CheckExcelRestriction = false;
-    workbook.Worksheets[0].Cells["A1"].PutValue(new string('a', 40000));
-    workbook = Util.ReSave(workbook, new TxtSaveOptions(),
-        new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
-    Assert.AreEqual(40000, workbook.Worksheets[0].Cells["A1"].StringValue.Length, "Long string exceeds liimit");
+    public class WorkbookSettingsPropertyCheckExcelRestrictionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Disable Excel restriction checking
+            workbook.Settings.CheckExcelRestriction = false;
+            
+            // Insert a string that exceeds normal Excel limits
+            string longString = new string('a', 40000);
+            workbook.Worksheets[0].Cells["A1"].PutValue(longString);
+            
+            // Save and reload to verify the restriction is bypassed
+            string tempFile = Guid.NewGuid().ToString() + ".txt";
+            workbook.Save(tempFile, new TxtSaveOptions());
+            
+            Workbook loadedWorkbook = new Workbook(tempFile, new LoadOptions { CheckExcelRestriction = false });
+            Console.WriteLine("String length: " + loadedWorkbook.Worksheets[0].Cells["A1"].StringValue.Length);
+        }
+    }
 }
 ```
 

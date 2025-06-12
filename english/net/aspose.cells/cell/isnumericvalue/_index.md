@@ -20,15 +20,43 @@ Also applies to formula cell to check the calculated result
 ### Examples
 
 ```csharp
-// Called: if (!c.IsNumericValue)
-public static void Cell_Property_IsNumericValue(double v, Cell c, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellPropertyIsNumericValueDemo
+    {
+        public static void Run()
         {
-            if (!c.IsNumericValue)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add different types of data to cells
+            Cell cell1 = worksheet.Cells["A1"];
+            cell1.PutValue(123.45); // Numeric value
+
+            Cell cell2 = worksheet.Cells["A2"];
+            cell2.PutValue("Hello World"); // String value
+
+            // Check if cells contain numeric values
+            Console.WriteLine("Cell A1 IsNumericValue: " + cell1.IsNumericValue);
+            Console.WriteLine("Cell A2 IsNumericValue: " + cell2.IsNumericValue);
+
+            // Demonstrate usage with conditional logic
+            if (cell1.IsNumericValue)
             {
-                Assert.Fail(info + " Double value was required but actual was " + c.Value);
+                Console.WriteLine("Cell A1 contains a numeric value: " + cell1.DoubleValue);
             }
-            Assert.AreEqual(v, c.IntValue, info);
+
+            if (!cell2.IsNumericValue)
+            {
+                Console.WriteLine("Cell A2 does not contain a numeric value");
+            }
         }
+    }
+}
 ```
 
 ### See Also

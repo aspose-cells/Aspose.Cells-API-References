@@ -16,14 +16,26 @@ public LoadDataFilterOptions LoadDataFilterOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: option.LoadFilter.LoadDataFilterOptions = LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames;
-public void LoadFilter_Property_LoadDataFilterOptions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions option = new LoadOptions();
-    option.LoadFilter.LoadDataFilterOptions = LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", option);
-    //workbook.LoadData(Constants.sourcePath + "example.xls");
-    workbook.Save(Constants.destPath + "example.xls");
+    public class LoadFilterPropertyLoadDataFilterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set filter options
+            LoadOptions options = new LoadOptions();
+            options.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames);
+
+            // Load workbook with the specified options
+            Workbook workbook = new Workbook("input.xlsx", options);
+
+            // Save the workbook (demonstrates successful load with specified filters)
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

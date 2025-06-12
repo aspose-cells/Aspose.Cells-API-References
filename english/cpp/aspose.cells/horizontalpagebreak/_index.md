@@ -4,7 +4,7 @@ linktitle: HorizontalPageBreak
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HorizontalPageBreak class. Encapsulates the object that represents a horizontal page break in C++.'
 type: docs
-weight: 7500
+weight: 7800
 url: /cpp/aspose.cells/horizontalpagebreak/
 ---
 ## HorizontalPageBreak class

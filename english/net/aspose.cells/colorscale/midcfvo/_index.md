@@ -16,16 +16,39 @@ public ConditionalFormattingValue MidCfvo { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
-public void ColorScale_Property_MidCfvo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = workbook.Worksheets[4];
-           
-    Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ColorScalePropertyMidCfvoDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            for (int i = 0; i < 10; i++)
+            {
+                sheet.Cells[i, 0].PutValue(i * 10);
+            }
+
+            // Add a color scale conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sheet.ConditionalFormattings[index];
+            int conditionIndex = fcc.AddCondition(FormatConditionType.ColorScale);
+            
+            // Set the mid point value for the color scale
+            ColorScale colorScale = fcc[conditionIndex].ColorScale;
+            colorScale.MidCfvo.Type = FormatConditionValueType.Number;
+            colorScale.MidCfvo.Value = 50;
+
+            // Save the workbook
+            workbook.Save("ColorScalePropertyMidCfvoDemo.xlsx");
+        }
+    }
 }
 ```
 

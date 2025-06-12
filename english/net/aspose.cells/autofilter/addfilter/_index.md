@@ -25,16 +25,46 @@ MS Excel 2007 supports multiple selection in a filter column.
 ### Examples
 
 ```csharp
-// Called: filter.AddFilter(0, "a");
-public void AutoFilter_Method_AddFilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var filter = workbook.Worksheets[0].ListObjects[0].AutoFilter;
-    filter.AddFilter(0, "a");
-    filter.AddFilter(0, "e");
-    filter.Refresh(true);
-    Assert.IsFalse(workbook.Worksheets[0].Cells.Rows[6].IsHidden);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+    public class AutoFilterMethodAddFilterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Fruits");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
+            worksheet.Cells["A5"].PutValue("Date");
+            worksheet.Cells["A6"].PutValue("Elderberry");
+            
+            // Create auto filter range
+            worksheet.AutoFilter.Range = "A1:A6";
+            
+            // Get the auto filter
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Add filters for values starting with 'A' and 'E'
+            filter.AddFilter(0, "A*");
+            filter.AddFilter(0, "E*");
+            
+            // Refresh the filter
+            filter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("AutoFilterAddFilterDemo.xlsx");
+        }
+    }
 }
 ```
 

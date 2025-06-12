@@ -16,51 +16,54 @@ public bool RefreshCharts { get; set; }
 ### Examples
 
 ```csharp
-// Called: RefreshCharts = true,
-public static void PivotTableCalculateOption_Property_RefreshCharts()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Pivot;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class PivotTableCalculateOptionPropertyRefreshChartsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(150);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(180);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D1", "SalesPivot");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-            // Add a PivotTable to the worksheet
-            int pivotTableIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
-            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+            // Create a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.PivotSource = "SalesPivot";
+            chart.SetChartDataRange("D1:E4", true);
 
-            // Add fields to the PivotTable
-            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
-
-            // Set the ReserveMissingPivotItemType option
-            PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
+            // Calculate with RefreshCharts option
+            PivotTableCalculateOption options = new PivotTableCalculateOption
             {
                 RefreshData = true,
-                RefreshCharts = true,
-                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
+                RefreshCharts = true
             };
+            pivotTable.CalculateData(options);
 
-            // Calculate the PivotTable with the specified options
-            pivotTable.CalculateData(calculateOption);
-
-            // Refresh the PivotTable
-            pivotTable.RefreshData();
-
-            // Save the workbook
-            workbook.Save("ReserveMissingPivotItemTypeExample.xlsx");
+            workbook.Save("PivotTableRefreshChartsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

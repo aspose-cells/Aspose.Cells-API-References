@@ -16,13 +16,32 @@ public string Comments { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
-public void BuiltInDocumentPropertyCollection_Property_Comments()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    BuiltInDocumentPropertyCollection builtInDocumentProperties = workbook.BuiltInDocumentProperties;
-    Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class BuiltInDocumentPropertyCollectionPropertyCommentsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access built-in document properties
+            BuiltInDocumentPropertyCollection properties = workbook.BuiltInDocumentProperties;
+            
+            // Set the Comments property
+            properties.Comments = "This is a sample comment for demonstration.";
+            
+            // Display the Comments property
+            Console.WriteLine("Document Comments: " + properties.Comments);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

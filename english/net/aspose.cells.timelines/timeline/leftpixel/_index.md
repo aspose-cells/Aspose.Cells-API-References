@@ -10,77 +10,63 @@ url: /net/aspose.cells.timelines/timeline/leftpixel/
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
 
 ```csharp
+[Obsolete("Use Shape.Left property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int LeftPixel { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
 ```csharp
-// Called: timelineObj.LeftPixel = 100;
-public static void Timeline_Property_LeftPixel()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Timelines;
+
+namespace AsposeCellsExamples
+{
+    public class TimelinePropertyLeftPixelDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and get the first worksheet
-            Workbook book = new Workbook();
-            Worksheet sheet = book.Worksheets[0];
-            Cells cells = sheet.Cells;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Populate the worksheet with sample data
-            cells[0, 0].Value = "fruit";
-            cells[1, 0].Value = "grape";
-            cells[2, 0].Value = "blueberry";
-            cells[3, 0].Value = "kiwi";
-            cells[4, 0].Value = "cherry";
+            // Add sample data
+            sheet.Cells["A1"].Value = "Date";
+            sheet.Cells["A2"].Value = new DateTime(2023, 1, 1);
+            sheet.Cells["A3"].Value = new DateTime(2023, 2, 1);
+            sheet.Cells["B1"].Value = "Sales";
+            sheet.Cells["B2"].Value = 1000;
+            sheet.Cells["B3"].Value = 2000;
 
-            // Create date style
-            Style dateStyle = new CellsFactory().CreateStyle();
-            dateStyle.Custom = "m/d/yyyy";
-            cells[0, 1].Value = "date";
-            cells[1, 1].Value = new DateTime(2021, 2, 5);
-            cells[2, 1].Value = new DateTime(2022, 3, 8);
-            cells[3, 1].Value = new DateTime(2023, 4, 10);
-            cells[4, 1].Value = new DateTime(2024, 5, 16);
-            // Set date style
-            cells[1, 1].SetStyle(dateStyle);
-            cells[2, 1].SetStyle(dateStyle);
-            cells[3, 1].SetStyle(dateStyle);
-            cells[4, 1].SetStyle(dateStyle);
-
-            cells[0, 2].Value = "amount";
-            cells[1, 2].Value = 50;
-            cells[2, 2].Value = 60;
-            cells[3, 2].Value = 70;
-            cells[4, 2].Value = 80;
-
-            // Add a PivotTable
-            PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "date");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
-            // Refresh PivotTable data
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B3", "D1", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Sales");
             pivot.RefreshData();
-            pivot.CalculateData();
 
-            // Add a new Timeline using PivotTable as data source
-            sheet.Timelines.Add(pivot, 10, 5, "date");
+            // Add timeline and get it from the collection
+            int timelineIndex = sheet.Timelines.Add(pivot, 0, 0, "Date");
+            Timeline timeline = sheet.Timelines[timelineIndex];
+            
+            // Demonstrate LeftPixel property
+            timeline.LeftPixel = 150;
+            timeline.TopPixel = 50;
+            timeline.WidthPixel = 200;
+            timeline.HeightPixel = 80;
 
-            // Get Timeline object
-            Timeline timelineObj = sheet.Timelines[0];
-
-            // Set properties of the Timeline
-            timelineObj.Caption = "timeline caption test";
-            timelineObj.Name = "timeline name test";
-            timelineObj.LeftPixel = 100;
-            timelineObj.TopPixel = 50;
-            timelineObj.WidthPixel = 300;
-            timelineObj.HeightPixel = 100;
-
-            // Save the workbook
-            book.Save("TimelineExample.xlsx");
+            // Save workbook
+            workbook.Save("TimelineLeftPixelDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

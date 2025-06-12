@@ -16,47 +16,44 @@ public int BorderOleColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-public static void ComboBoxActiveXControl_Property_BorderOleColor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyBorderOleColorDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
 
-            // Add a new worksheet to the workbook
+            // Get the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 
+                1, 1, 100, 20, 100, 20);
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl comboBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox ActiveX control
-            comboBox.MaxLength = 100;
-            comboBox.ListWidth = 150;
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-            comboBox.ColumnCount = 1;
-            comboBox.ListRows = 5;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete;
-            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
-            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
-            comboBox.ListStyle = ControlListStyle.Plain;
-            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
-            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            comboBox.IsEditable = true;
-            comboBox.ShowColumnHeads = false;
-            comboBox.IsDragBehaviorEnabled = false;
-            comboBox.EnterFieldBehavior = true;
-            comboBox.IsAutoWordSelected = false;
-            comboBox.SelectionMargin = false;
-            comboBox.Value = "Sample Text";
-            comboBox.HideSelection = true;
-            comboBox.ColumnWidths = 100;
+            // Configure basic properties
+            comboBox.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.Single;
+            
+            // Demonstrate BorderOleColor property
+            comboBox.BorderOleColor = ColorTranslator.ToOle(Color.Red); // Set border color to red
+            
+            // Set some sample text
+            comboBox.Value = "Border Color Demo";
 
             // Save the workbook
-            workbook.Save("ControlBorderTypeExample.xlsx");
-            workbook.Save("ControlBorderTypeExample.pdf");
+            workbook.Save("ComboBoxBorderColorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

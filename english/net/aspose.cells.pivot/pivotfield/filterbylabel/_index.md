@@ -22,26 +22,51 @@ public PivotFilter FilterByLabel(PivotFilterType type, string label1, string lab
 ### Examples
 
 ```csharp
-// Called: field.FilterByLabel(PivotFilterType.CaptionNotContains, "(blank)", "");
-public void PivotField_Method_FilterByLabel()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook();
-    PivotTable pivot = CreateWithBlank(book);
-    PivotField field = pivot.ColumnFields[0];
-    field.FilterByLabel(PivotFilterType.CaptionNotEqual, "", "");
+    public class PivotFieldMethodFilterByLabelWithPivotFilterTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["A4"].PutValue("");
+            sheet.Cells["A5"].PutValue("C");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(30);
+            sheet.Cells["B5"].PutValue(40);
 
-    pivot.RefreshData();
-    pivot.CalculateData();
-    pivot.RefreshDataOnOpeningFile = false;
-    Assert.AreEqual("(blank)", book.Worksheets[0].Cells["D13"].StringValue);
-
-    field.FilterByLabel(PivotFilterType.CaptionNotEqual, "(blank)", "");
-    pivot.CalculateData();
-    Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
-
-    field.FilterByLabel(PivotFilterType.CaptionNotContains, "(blank)", "");
-    pivot.CalculateData();
-    Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
+            // Create pivot table with correct parameters
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            
+            pivot.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Get the pivot field
+            PivotField field = pivot.RowFields[0];
+            
+            // Apply filters
+            field.FilterByLabel(PivotFilterType.CaptionNotEqual, "(blank)", "");
+            pivot.RefreshData();
+            pivot.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotFilterByLabelDemo.xlsx");
+        }
+    }
 }
 ```
 

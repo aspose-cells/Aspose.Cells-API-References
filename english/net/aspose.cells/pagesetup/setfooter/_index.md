@@ -41,21 +41,25 @@ For example: "&amp;Arial,Bold&amp;8Footer Note"
 ### Examples
 
 ```csharp
-// Called: worksheet.PageSetup.SetFooter(1, "������");
-public void PageSetup_Method_SetFooter()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.PageSetup.SetHeader(0, "������");
-    worksheet.PageSetup.SetHeader(2, "9/14");
-    worksheet.PageSetup.SetFooter(1, "������");
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    worksheet = workbook.Worksheets[0];
-    Assert.AreEqual(worksheet.PageSetup.GetHeader(0), "������");
-    Assert.AreEqual(worksheet.PageSetup.GetHeader(1), "&A");
-    Assert.AreEqual(worksheet.PageSetup.GetHeader(2), "9/14");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class PageSetupMethodSetFooterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.PageSetup.SetFooter(0, "Page &P");
+            worksheet.PageSetup.SetFooter(1, "&D");
+            worksheet.PageSetup.SetFooter(2, "&A");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

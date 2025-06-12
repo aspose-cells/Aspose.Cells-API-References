@@ -20,22 +20,36 @@ The max length of sheet name is 31. And you cannot assign same name(case insensi
 ### Examples
 
 ```csharp
-// Called: Masterbook.Worksheets.Add(ws.Name);
-public void Worksheet_Property_Name()
-{
-    string filePath = Constants.openPivottablePath + "source(1).xlsx";
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(filePath);
-    WorksheetCollection wrksheets = workbook.Worksheets;
-    //copy the workseets of the First work book to another workbook
-    Workbook Masterbook = new Workbook();
-    foreach (Worksheet ws in wrksheets)
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyNameDemo
     {
-        Masterbook.Worksheets.Add(ws.Name);
-        Masterbook.Worksheets[ws.Name].Copy(ws);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and set its name
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Name = "DataSheet";
+            
+            // Add a new worksheet with a specific name
+            Worksheet newSheet = workbook.Worksheets.Add("ReportSheet");
+            
+            // Output the names of all worksheets
+            Console.WriteLine("Worksheet Names:");
+            foreach (Worksheet ws in workbook.Worksheets)
+            {
+                Console.WriteLine(ws.Name);
+            }
+            
+            // Save the workbook
+            workbook.Save("WorksheetNamesDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-    // saving the second work book to see how it is looking here RowHeaderCaption and ColumnHeaderCaption went back to the default.
-    Masterbook.Save(Constants.savePivottablePath + "example.xlsx", SaveFormat.Xlsx);
 }
 ```
 

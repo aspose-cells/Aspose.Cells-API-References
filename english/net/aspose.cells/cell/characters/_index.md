@@ -29,19 +29,27 @@ This method only works on cell with string value.
 ### Examples
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-cells["A1"].PutValue("Helloworld");
-cells["A1"].Characters(5, 5).Font.IsBold = true;
-cells["A1"].Characters(5, 5).Font.Color = Color.Blue;
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-[Visual Basic]
-Dim excel as Workbook = new Workbook()
-Dim cells as Cells = exce.Worksheets(0).Cells
-cells("A1").PutValue("Helloworld")
-cells("A1").Characters(5, 5).Font.IsBold = True
-cells("A1").Characters(5, 5).Font.Color = Color.Blue
+namespace AsposeCellsExamples
+{
+    public class CellMethodCharactersWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            cells["A1"].PutValue("Helloworld");
+            cells["A1"].Characters(5, 5).Font.IsBold = true;
+            cells["A1"].Characters(5, 5).Font.Color = Color.Blue;
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

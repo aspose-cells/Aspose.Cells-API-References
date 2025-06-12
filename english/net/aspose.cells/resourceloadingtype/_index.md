@@ -24,13 +24,11 @@ public enum ResourceLoadingType
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 using System.IO;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class ResourceLoadingTypeDemo
     {

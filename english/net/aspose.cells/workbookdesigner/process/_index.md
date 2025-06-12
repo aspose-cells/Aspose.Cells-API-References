@@ -21,28 +21,47 @@ public void Process(Range range, bool isPreserved)
 ### Examples
 
 ```csharp
-// Called: designer.Process(range, true);
-public void WorkbookDesigner_Method_Process()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
-    WorkbookDesigner designer = new WorkbookDesigner();
-    designer.LineByLine = (false);
-    designer.Workbook = (wb);
-    designer.SetJsonDataSource("RootData", File.ReadAllText(Constants.sourcePath + @"example.json"));
-    Aspose.Cells.Range range = wb.Worksheets[0].Cells.CreateRange("A24:H28");
-    range.Name = "_CellsSmartMarkers";
-    designer.Process(range, true);
-
-    range = wb.Worksheets[0].Cells.CreateRange("A18:D19");
-    range.Name = "_CellsSmartMarkers";
-    designer.Process(range, true);
-
-    range = wb.Worksheets[0].Cells.CreateRange("A2:H15");
-    range.Name = "_CellsSmartMarkers";
-    designer.Process(range, true);
-    Assert.AreEqual("director last 2", wb.Worksheets[0].Cells["D38"].StringValue);
-    Assert.AreEqual("fff department", wb.Worksheets[0].Cells["H61"].StringValue);
-    wb.Save(Constants.destPath + @"example.xlsx");
+    public class WorkbookDesignerMethodProcessWithRangeBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Create sample data in cells
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue("&=$Name");
+            sheet.Cells["B2"].PutValue("&=$Value");
+            
+            // Create workbook designer
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = wb;
+            
+            // Create JSON data source
+            string jsonData = "{'Name':'Test Product','Value':100.50}";
+            designer.SetJsonDataSource("Data", jsonData);
+            
+            // Process specific range with smart markers
+            Aspose.Cells.Range range = sheet.Cells.CreateRange("A2:B2");
+            range.Name = "_CellsSmartMarkers";
+            
+            // Process the range (true = process only this range)
+            designer.Process(range, true);
+            
+            // Save the result
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -66,21 +85,53 @@ public void Process()
 ### Examples
 
 ```csharp
-// Called: d.Process();
-public void WorkbookDesigner_Method_Process()
+using System;
+using System.Collections;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    WorkbookDesigner d = new WorkbookDesigner(workbook);
-    ArrayList list = new ArrayList();
-    Person p = new Person("abc", 1);
-    p.FOTO = File.ReadAllBytes(Constants.sourcePath + "1.jpg");
-    list.Add(p);
-    p = new Person("abc", 1);
-    p.FOTO = File.ReadAllBytes(Constants.sourcePath + "1.jpg");
-    list.Add(p);
-    d.SetDataSource("Datos", list);
-    d.Process();
-    Assert.AreEqual(workbook.Worksheets[0].Pictures.Count, 2);
+    public class WorkbookDesignerMethodProcessDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from template file
+            Workbook workbook = new Workbook("example.xlsx");
+            WorkbookDesigner designer = new WorkbookDesigner(workbook);
+
+            // Prepare data source
+            ArrayList persons = new ArrayList();
+            
+            Person person1 = new Person("John Doe", 30);
+            person1.FOTO = File.ReadAllBytes("1.jpg");
+            persons.Add(person1);
+
+            Person person2 = new Person("Jane Smith", 28);
+            person2.FOTO = File.ReadAllBytes("1.jpg");
+            persons.Add(person2);
+
+            // Set data source and process
+            designer.SetDataSource("Datos", persons);
+            designer.Process();
+
+            // Save the result
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public byte[] FOTO { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
 }
 ```
 
@@ -107,29 +158,62 @@ public void Process(bool isPreserved)
 ### Examples
 
 ```csharp
-// Called: designer.Process(true);
-public void WorkbookDesigner_Method_Process()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    JsonSerializer serializer = new JsonSerializer();
-    // TextReader rdr = new StringReader(dir + "t (2).json");
-    // ABC_1_Data p1 = (ABC_1_Data)serializer.Deserialize(new JsonTextReader(rdr), typeof(ABC_1_Data));
-    ABC_1_Data res = (ABC_1_Data)JsonConvert.DeserializeObject(File.ReadAllText(Constants.sourcePath + "example.json"), typeof(ABC_1_Data));
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
 
-    //		
-    wb.Worksheets[0].Cells.CreateRange("A13:K19").Name = ("_CellsSmartMarkers");
-    //		// Load the data from the input json file
-    List<ABC_1_Data> listFormData = new List<ABC_1_Data>();
-    listFormData.Add(res);
-    WorkbookDesigner designer = new WorkbookDesigner();
-    designer.LineByLine = (false);
-    designer.Workbook = (wb);
-    designer.SetDataSource("RootData", listFormData);
-    designer.SetDataSource("Directors", res.Directors);
-    designer.Process(true);
-    wb.Save(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("DRFNAME2", wb.Worksheets[0].Cells["G31"].StringValue);
-           
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodProcessWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Initialize workbook and load template
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Create sample data directly instead of loading from JSON
+            ABC_1_Data data = new ABC_1_Data
+            {
+                Directors = new List<Director>
+                {
+                    new Director { DRFNAME2 = "DRFNAME2" }
+                }
+            };
+
+            // Set up smart markers
+            workbook.Worksheets[0].Cells.CreateRange("A13:K19").Name = "_CellsSmartMarkers";
+
+            // Prepare data sources
+            List<ABC_1_Data> listData = new List<ABC_1_Data> { data };
+
+            // Process workbook designer
+            WorkbookDesigner designer = new WorkbookDesigner
+            {
+                Workbook = workbook,
+                LineByLine = false
+            };
+            
+            designer.SetDataSource("RootData", listData);
+            designer.SetDataSource("Directors", data.Directors);
+            
+            // Process with boolean parameter
+            designer.Process(true);
+            
+            // Save result
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    // Sample data classes
+    public class ABC_1_Data
+    {
+        public List<Director> Directors { get; set; }
+    }
+
+    public class Director
+    {
+        public string DRFNAME2 { get; set; }
+    }
 }
 ```
 
@@ -161,27 +245,43 @@ This method works on worksheet level.
 ### Examples
 
 ```csharp
-// Called: designer.Process(0, true);
-public void WorkbookDesigner_Method_Process()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook(Constants.sourcePath + "example.xlsx");
-    var table = book.Worksheets["Data"].Cells.ExportDataTable(0, 0, book.Worksheets["Data"].Cells.MaxDataRow, book.Worksheets["Data"].Cells.MaxDataColumn + 1, new ExportTableOptions() { CheckMixedValueType = true, ExportColumnName = true });
-    table.TableName = "Table";
+    public class WorkbookDesignerMethodProcessWithInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Export data from worksheet to DataTable
+            Worksheet worksheet = workbook.Worksheets["Data"];
+            DataTable dataTable = worksheet.Cells.ExportDataTable(
+                0, 0, 
+                worksheet.Cells.MaxDataRow, 
+                worksheet.Cells.MaxDataColumn + 1, 
+                new ExportTableOptions { 
+                    CheckMixedValueType = true, 
+                    ExportColumnName = true 
+                });
+            dataTable.TableName = "Table";
 
-    var designer = new WorkbookDesigner();
+            // Create workbook designer and set data source
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = workbook;
+            designer.SetDataSource(dataTable);
 
-    //Assign the Workbook property to the instance of Workbook created in first step
-    designer.Workbook = book;
+            // Process the designer with parameters (Int32, Boolean)
+            designer.Process(0, true);
 
-    //Set the data source
-    designer.SetDataSource(table);
-
-    //Call Process method to populate data
-    designer.Process(0, true);
-
-    designer.Workbook.Save(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("=SUM(E3:E9)/SUM(B3:B9)", book.Worksheets[0].Cells["E10"].Formula);
-    Assert.AreEqual("1594", book.Worksheets[0].Cells["C9"].StringValue);
+            // Save the result
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

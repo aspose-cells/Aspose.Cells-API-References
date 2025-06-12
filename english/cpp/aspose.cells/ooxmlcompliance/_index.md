@@ -4,7 +4,7 @@ linktitle: OoxmlCompliance
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlCompliance enum. Allows to specify which OOXML specification will be used when saving in the Xlsx format in C++.'
 type: docs
-weight: 23000
+weight: 24200
 url: /cpp/aspose.cells/ooxmlcompliance/
 ---
 ## OoxmlCompliance enum

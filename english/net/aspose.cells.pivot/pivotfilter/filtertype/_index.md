@@ -16,19 +16,39 @@ public PivotFilterType FilterType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PivotFilterType.ValueLessThan,filter.FilterType);//,
-public void PivotFilter_Property_FilterType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    pt.BaseFields[0].FilterByValue(0, PivotFilterType.ValueLessThan, 2, 0);
-    // pt.CalculateData();
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    pt = workbook.Worksheets[0].PivotTables[0];
-    PivotFilter filter = pt.BaseFields[0].GetFilters()[0];
-    Assert.AreEqual(PivotFilterType.ValueLessThan,filter.FilterType);//, 
-    Assert.AreEqual(2 ,filter.GetNumberValues()[0]);
+    public class PivotFilterPropertyFilterTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access first worksheet and pivot table
+            Worksheet worksheet = workbook.Worksheets[0];
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Apply value filter (less than 2) to first base field
+            pivotTable.BaseFields[0].FilterByValue(0, PivotFilterType.ValueLessThan, 2, 0);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Reload the workbook to verify the filter
+            Workbook verifyWorkbook = new Workbook("output.xlsx");
+            PivotTable verifyPivotTable = verifyWorkbook.Worksheets[0].PivotTables[0];
+            
+            // Get the applied filter and demonstrate FilterType property
+            PivotFilter filter = verifyPivotTable.BaseFields[0].GetFilters()[0];
+            Console.WriteLine("Filter Type: " + filter.FilterType); // Should output ValueLessThan
+            Console.WriteLine("Filter Value: " + filter.GetNumberValues()[0]); // Should output 2
+        }
+    }
 }
 ```
 

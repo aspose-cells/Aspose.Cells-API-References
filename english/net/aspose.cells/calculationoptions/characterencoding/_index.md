@@ -16,17 +16,29 @@ public Encoding CharacterEncoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
-public void CalculationOptions_Property_CharacterEncoding()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    wb.Settings.Region = CountryCode.Japan;
-    CalculationOptions copts = new CalculationOptions();
-    copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
-    string fml = "=TRIM(1)";
-    Assert.AreEqual("1", sheet.CalculateFormula(fml, copts));
+    public class CalculationOptionsPropertyCharacterEncodingDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            wb.Settings.Region = CountryCode.Japan;
+            
+            CalculationOptions copts = new CalculationOptions();
+            copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
+            
+            string formula = "=TRIM(1)";
+            string result = (string)sheet.CalculateFormula(formula, copts);
+            
+            Console.WriteLine("Calculation result: " + result);
+        }
+    }
 }
 ```
 

@@ -24,11 +24,22 @@ Column index.
 ### Examples
 
 ```csharp
-// Called: int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
-public void CellsHelper_Method_ColumnNameToIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
-    Assert.AreEqual(CellsHelper.ColumnIndexToName(columnIndex), "BAA");
+    public class CellsHelperMethodColumnNameToIndexWithStringDemo
+    {
+        public static void Run()
+        {
+            int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
+            string columnName = CellsHelper.ColumnIndexToName(columnIndex);
+            
+            Console.WriteLine("Column Name: " + columnName);
+            Console.WriteLine("Column Index: " + columnIndex);
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: IsHtmlString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::IsHtmlString method. Indicates whether the value contains html tags in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.cells/importtableoptions/ishtmlstring/
 ---
 ## ImportTableOptions::IsHtmlString method

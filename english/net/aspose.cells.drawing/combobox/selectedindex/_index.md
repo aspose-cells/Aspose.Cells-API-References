@@ -20,22 +20,46 @@ public int SelectedIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(box.SelectedIndex, 4);
-public void ComboBox_Property_SelectedIndex()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "ComboBoxCopyTest.xlsx");
-    Workbook dest = new Workbook();
-    dest.Copy(workbook);
-     ComboBox box = null;
-     Worksheet worksheet = dest.Worksheets[0];
-    foreach (Shape shape in worksheet.Shapes)
+    public class ComboBoxPropertySelectedIndexDemo
     {
-        box = shape as ComboBox;
-        if (box != null) break;
-    }
-    if (box != null)
-    {
-        Assert.AreEqual(box.SelectedIndex, 4);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the combo box
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+            worksheet.Cells["A4"].PutValue("Item 4");
+            worksheet.Cells["A5"].PutValue("Item 5");
+
+            // Add a combo box to the worksheet
+            Shape shape = worksheet.Shapes.AddComboBox(1, 0, 1, 0, 100, 20);
+            ComboBox comboBox = (ComboBox)shape;
+
+            // Set the input range for the combo box
+            comboBox.InputRange = "A1:A5";
+            comboBox.DropDownLines = 5;
+
+            // Set and display the selected index
+            comboBox.SelectedIndex = 2; // Selects "Item 3" (zero-based index)
+            Console.WriteLine("Selected Index: " + comboBox.SelectedIndex);
+            Console.WriteLine("Selected Value: " + comboBox.SelectedValue);
+
+            // Change the selected index and display again
+            comboBox.SelectedIndex = 4; // Selects "Item 5"
+            Console.WriteLine("\nAfter changing selection:");
+            Console.WriteLine("Selected Index: " + comboBox.SelectedIndex);
+            Console.WriteLine("Selected Value: " + comboBox.SelectedValue);
+        }
     }
 }
 ```

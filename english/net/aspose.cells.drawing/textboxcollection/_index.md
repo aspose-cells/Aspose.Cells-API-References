@@ -57,21 +57,49 @@ public class TextBoxCollection : CollectionBase<TextBox>
 ### Examples
 
 ```csharp
-
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//get collection object
-TextBoxCollection textBoxCollection = workbook.Worksheets[0].TextBoxes;
-//add a textbox
-textBoxCollection.Add(1, 1, 50, 100);
-foreach(TextBox tbox in textBoxCollection)
+namespace AsposeCellsExamples
 {
-    //do what you want
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class TextBoxCollectionDemo
+    {
+        public static void TextBoxCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the TextBoxCollection object
+            TextBoxCollection textBoxCollection = worksheet.TextBoxes;
+            
+            // Add a TextBox to the collection
+            int textBoxIndex = textBoxCollection.Add(1, 1, 50, 100);
+            
+            // Access the added TextBox
+            TextBox textBox = textBoxCollection[textBoxIndex];
+            
+            // Set some properties of the TextBox
+            textBox.Text = "Hello, Aspose!";
+            textBox.Font.Name = "Arial";
+            textBox.Font.Size = 12;
+            textBox.Font.IsBold = true;
+            
+            // Iterate through all TextBoxes in the collection
+            foreach (TextBox tbox in textBoxCollection)
+            {
+                // Perform operations on each TextBox
+                Console.WriteLine(tbox.Text);
+            }
+            
+            // Save the workbook
+            workbook.Save("TextBoxCollectionExample.xlsx");
+        }
+    }
 }
-
-//do your business
-
 ```
 
 ### See Also

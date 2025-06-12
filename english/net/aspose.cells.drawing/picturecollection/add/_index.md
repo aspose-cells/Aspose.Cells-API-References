@@ -29,12 +29,30 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//add a picture
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, 5, 5, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture from stream
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, 200, 200, fs);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -70,10 +88,26 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a picture
-pictures.Add(1, 1, 5, 5, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, 5, 5, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -105,12 +139,30 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//add a picture
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs);
+    public class PictureCollectionMethodAddWithInt32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture from stream
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(1, 1, fs);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -143,10 +195,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//add a picture
-pictures.Add(1, 1, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -181,12 +248,30 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthSc
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//add a picture
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs, 50, 50);
+    public class PictureCollectionMethodAddWithInt32Int32StreamInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture from stream with specified position and size
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, fs, 100, 100);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -222,10 +307,26 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a picture
-pictures.Add(1, 1, "image.jpg", 50, 50);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

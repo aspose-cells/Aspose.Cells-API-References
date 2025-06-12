@@ -4,7 +4,7 @@ linktitle: SetRuleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotConditionalFormat::SetRuleType method. Get and set rule type for the pivot table condition format  in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivotconditionalformat/setruletype/
 ---
 ## PivotConditionalFormat::SetRuleType method

@@ -25,27 +25,52 @@ public Cell this[int rowOffset, int columnOffset] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(rng[0,0].StringValue, "Id");
-public void Range_Property_Item()
+using System;
+using System.Data;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class RangePropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    DataTable dt = CreateValidTable1();
+            // Create sample data
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Id", typeof(int));
+            dt.Columns.Add("Name", typeof(string));
+            dt.Rows.Add(1001, "Item 1");
+            dt.Rows.Add(1002, "Item 2");
 
-    Aspose.Cells.Range rng = GetRange(workbook, "Fact_ContractId", true);
-    InsertRange_1(workbook, rng, dt);
-
-    Assert.AreEqual(rng[0,0].StringValue, "Id");
-    rng = GetRange(workbook, "Fact_MeasureValue", true);
-    InsertRange_1(workbook, rng, dt);
-    string output = Constants.destPath + "example.xlsx";
-    workbook.Save(output);
-    Assert.AreEqual(workbook.Worksheets["Facts"].Cells["A6"].StringValue, "Id");
-    Assert.AreEqual(workbook.Worksheets["Facts"].Cells["A7"].StringValue, "1001");
-   AssertHelper.AreEqual(workbook.Worksheets["Facts"].Cells["A3"].GetStyle().ForegroundColor, Color.Red);
-   AssertHelper.AreEqual(workbook.Worksheets["Facts"].Cells["A6"].GetStyle().ForegroundColor, Color.FromArgb(0,176,80));
-           
+            // Create a range and demonstrate Item property
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "B3");
             
+            // Set headers using Item property
+            range[0, 0].PutValue("Id");
+            range[0, 1].PutValue("Name");
+
+            // Fill data using Item property
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                range[i + 1, 0].PutValue(dt.Rows[i]["Id"]);
+                range[i + 1, 1].PutValue(dt.Rows[i]["Name"]);
+            }
+
+            // Format header row using Item property
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = Color.FromArgb(0, 176, 80);
+            range[0, 0].SetStyle(style);
+            range[0, 1].SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("RangePropertyItemDemo.xlsx");
+        }
+    }
 }
 ```
 

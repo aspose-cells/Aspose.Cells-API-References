@@ -17,24 +17,33 @@ class LowCodePdfSaveOptions extends LowCodeSaveOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(LowCodeSaveOptions)](#constructor-lowcodesaveoptions-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [saveFormat](#saveFormat--)| SaveFormat | The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/). |
+| [pdfOptions](#pdfOptions--)| PdfSaveOptions | The options for saving Pdf file. |
+| [outputFile](#outputFile--)| string | Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [outputStream](#outputStream--)| Uint8Array | Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSaveFormat()](#getSaveFormat--)| The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/). |
-| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/). |
-| [getPdfOptions()](#getPdfOptions--)| The options for saving Pdf file. |
-| [setPdfOptions(PdfSaveOptions)](#setPdfOptions-pdfsaveoptions-)| The options for saving Pdf file. |
+| [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/). |
+| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/). |
+| [getPdfOptions()](#getPdfOptions--)| <b>@deprecated.</b> Please use the 'pdfOptions' property instead. The options for saving Pdf file. |
+| [setPdfOptions(PdfSaveOptions)](#setPdfOptions-pdfsaveoptions-)| <b>@deprecated.</b> Please use the 'pdfOptions' property instead. The options for saving Pdf file. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getOutputFile()](#getOutputFile--)| Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
-| [setOutputFile(string)](#setOutputFile-string-)| Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
-| [getOutputStream()](#getOutputStream--)| Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
-| [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [getOutputFile()](#getOutputFile--)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [setOutputFile(string)](#setOutputFile-string-)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
+| [getOutputStream()](#getOutputStream--)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 
 
 ### constructor(LowCodeSaveOptions) {#constructor-lowcodesaveoptions-}
@@ -59,9 +68,45 @@ constructor();
 ```
 
 
-### getSaveFormat() {#getSaveFormat--}
+### saveFormat {#saveFormat--}
 
 The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/).
+
+```javascript
+saveFormat : SaveFormat;
+```
+
+
+### pdfOptions {#pdfOptions--}
+
+The options for saving Pdf file.
+
+```javascript
+pdfOptions : PdfSaveOptions;
+```
+
+
+### outputFile {#outputFile--}
+
+Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+
+```javascript
+outputFile : string;
+```
+
+
+### outputStream {#outputStream--}
+
+Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+
+```javascript
+outputStream : Uint8Array;
+```
+
+
+### getSaveFormat() {#getSaveFormat--}
+
+<b>@deprecated.</b> Please use the 'saveFormat' property instead. The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/).
 
 ```javascript
 getSaveFormat() : SaveFormat;
@@ -74,7 +119,7 @@ getSaveFormat() : SaveFormat;
 
 ### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
 
-The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/).
+<b>@deprecated.</b> Please use the 'saveFormat' property instead. The save format for the output. For converting to pdf, it can only be [SaveFormat.Pdf](../saveformat.pdf/).
 
 ```javascript
 setSaveFormat(value: SaveFormat) : void;
@@ -87,7 +132,7 @@ setSaveFormat(value: SaveFormat) : void;
 
 ### getPdfOptions() {#getPdfOptions--}
 
-The options for saving Pdf file.
+<b>@deprecated.</b> Please use the 'pdfOptions' property instead. The options for saving Pdf file.
 
 ```javascript
 getPdfOptions() : PdfSaveOptions;
@@ -100,7 +145,7 @@ getPdfOptions() : PdfSaveOptions;
 
 ### setPdfOptions(PdfSaveOptions) {#setPdfOptions-pdfsaveoptions-}
 
-The options for saving Pdf file.
+<b>@deprecated.</b> Please use the 'pdfOptions' property instead. The options for saving Pdf file.
 
 ```javascript
 setPdfOptions(value: PdfSaveOptions) : void;
@@ -122,7 +167,7 @@ isNull() : boolean;
 
 ### getOutputFile() {#getOutputFile--}
 
-Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
 
 ```javascript
 getOutputFile() : string;
@@ -131,7 +176,7 @@ getOutputFile() : string;
 
 ### setOutputFile(string) {#setOutputFile-string-}
 
-Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored.
 
 ```javascript
 setOutputFile(value: string) : void;
@@ -144,7 +189,7 @@ setOutputFile(value: string) : void;
 
 ### getOutputStream() {#getOutputStream--}
 
-Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
 
 ```javascript
 getOutputStream() : Uint8Array;
@@ -153,7 +198,7 @@ getOutputStream() : Uint8Array;
 
 ### setOutputStream(Uint8Array) {#setOutputStream-uint8array-}
 
-Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
+<b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored.
 
 ```javascript
 setOutputStream(value: Uint8Array) : void;

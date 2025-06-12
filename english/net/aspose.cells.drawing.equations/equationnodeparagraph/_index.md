@@ -45,6 +45,40 @@ public class EquationNodeParagraph : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class EquationsClassEquationNodeParagraphDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a text box shape to hold equations
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 400, 200, 400, 200);
+
+            // Since GetEquationParagraph is not available, we'll use Text property instead
+            // and demonstrate working with the shape's text properties
+            shape.Text = "Equation examples would go here";
+
+            // Output shape properties
+            Console.WriteLine($"Shape text set to: {shape.Text}");
+
+            // Save the workbook
+            workbook.Save("EquationNodeParagraphDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)

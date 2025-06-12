@@ -51,19 +51,35 @@ public enum MsoPresetTextEffect
 ### Examples
 
 ```csharp
-// Called: Shape shape = wb.Worksheets[0].Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1,
-public void Drawing_Type_MsoPresetTextEffect()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Shape shape = wb.Worksheets[0].Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1,
-        "CONFIDENTIAL", "Arial Black", 50, false, true
-        , 0, 0, 0, 0, 130, 800);
-    shape.Font.Underline = FontUnderlineType.Single;
-    shape.Font.Color = Color.Red;
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(FontUnderlineType.Single,wb.Worksheets[0].Shapes[0].Font.Underline);
-           
+    public class DrawingClassMsoPresetTextEffectDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            Shape shape = sheet.Shapes.AddTextEffect(
+                MsoPresetTextEffect.TextEffect1,
+                "CONFIDENTIAL", 
+                "Arial Black", 
+                50, 
+                false, 
+                true,
+                0, 0, 0, 0, 130, 800);
+                
+            shape.Font.Underline = FontUnderlineType.Single;
+            shape.Font.Color = System.Drawing.Color.Red;
+            
+            wb.Save("MsoPresetTextEffectDemo.xlsx");
+        }
+    }
 }
 ```
 

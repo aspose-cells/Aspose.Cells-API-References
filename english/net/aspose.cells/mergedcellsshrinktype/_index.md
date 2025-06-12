@@ -24,51 +24,76 @@ public enum MergedCellsShrinkType
 ### Examples
 
 ```csharp
-// Called: dopts.MergedCellsShrinkType = MergedCellsShrinkType.None;
-public void Cells_Type_MergedCellsShrinkType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Style s = wb.DefaultStyle;
-    s.Font.Name = "Arial";
-    s.Font.Size = 10;
-    wb.DefaultStyle = s;
-    Cells cells = wb.Worksheets[0].Cells;
+    public class CellsClassMergedCellsShrinkTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            Cells cells = ws.Cells;
 
-    CELLSNET56128InitCol(cells);
-    cells.DeleteBlankColumns();
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "WithouOption-A1");
-    AssertHelper.AssertNonEmptyCell(cells, 0, 1, "WithouOption-B1");
-    AssertHelper.AssertEmptyCell(cells, 0, 2, "WithouOption-C1");
+            // Initialize sample data with merged cells
+            cells.Merge(0, 0, 1, 2);
+            cells[0, 0].PutValue("Merged Header");
+            cells[1, 2].PutValue("Data 1");
+            cells[2, 2].PutValue("Data 2");
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitCol(cells);
-    DeleteBlankOptions dopts = new DeleteBlankOptions();
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
-    cells.DeleteBlankColumns(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkHeader-A1");
-    AssertHelper.AssertNonEmptyCell(cells, 0, 1, "ShrinkHeader-B1");
-    AssertHelper.AssertEmptyCell(cells, 0, 2, "ShrinkHeader-C1");
+            Console.WriteLine("Original worksheet:");
+            PrintCellValues(cells);
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitCol(cells);
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.None;
-    cells.DeleteBlankColumns(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkNone-A1");
-    AssertHelper.AssertEmptyCell(cells, 0, 1, "ShrinkNone-B1");
-    AssertHelper.AssertEmptyCell(cells, 0, 2, "ShrinkNone-C1");
-    AssertHelper.AssertNonEmptyCell(cells, 0, 3, "ShrinkNone-D1");
+            // Option 1: KeepHeaderOnly
+            DeleteBlankOptions opts1 = new DeleteBlankOptions();
+            opts1.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
+            cells.DeleteBlankColumns(opts1);
+            Console.WriteLine("\nAfter DeleteBlankColumns with KeepHeaderOnly:");
+            PrintCellValues(cells);
 
-    cells.Clear();
-    cells.UnMerge(0, 0, 10, 1);
-    CELLSNET56128InitCol(cells);
-    dopts.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
-    cells.DeleteBlankColumns(dopts);
-    AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkFit-A1");
-    AssertHelper.AssertEmptyCell(cells, 0, 1, "ShrinkFit-B1");
-    AssertHelper.AssertNonEmptyCell(cells, 0, 2, "ShrinkFit-C1");
-    AssertHelper.AssertEmptyCell(cells, 0, 3, "ShrinkFit-D1");
+            // Reset worksheet
+            cells.ClearContents(0, 0, cells.MaxDataRow, cells.MaxDataColumn);
+            cells.Merge(0, 0, 1, 2);
+            cells[0, 0].PutValue("Merged Header");
+            cells[1, 2].PutValue("Data 1");
+            cells[2, 2].PutValue("Data 2");
+
+            // Option 2: None
+            DeleteBlankOptions opts2 = new DeleteBlankOptions();
+            opts2.MergedCellsShrinkType = MergedCellsShrinkType.None;
+            cells.DeleteBlankColumns(opts2);
+            Console.WriteLine("\nAfter DeleteBlankColumns with None:");
+            PrintCellValues(cells);
+
+            // Reset worksheet
+            cells.ClearContents(0, 0, cells.MaxDataRow, cells.MaxDataColumn);
+            cells.Merge(0, 0, 1, 2);
+            cells[0, 0].PutValue("Merged Header");
+            cells[1, 2].PutValue("Data 1");
+            cells[2, 2].PutValue("Data 2");
+
+            // Option 3: ShrinkToFit
+            DeleteBlankOptions opts3 = new DeleteBlankOptions();
+            opts3.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
+            cells.DeleteBlankColumns(opts3);
+            Console.WriteLine("\nAfter DeleteBlankColumns with ShrinkToFit:");
+            PrintCellValues(cells);
+        }
+
+        private static void PrintCellValues(Cells cells)
+        {
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    Console.Write($"({row},{col}): {cells[row, col].Value ?? "empty"} | ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 

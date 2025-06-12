@@ -17,21 +17,32 @@ class RevisionInsertDelete extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
+| [cellArea](#cellArea--)| CellArea | Readonly. Gets the inserting/deleting range. |
+| [actionType](#actionType--)| RevisionActionType | Readonly. Gets the action type of this revision. |
+| [revisions](#revisions--)| RevisionCollection | Readonly. Gets revision list by this operation. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of revision. |
-| [getCellArea()](#getCellArea--)| Gets the inserting/deleting range. |
-| [getActionType()](#getActionType--)| Gets the action type of this revision. |
-| [getRevisions()](#getRevisions--)| Gets revision list by this operation. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
+| [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the inserting/deleting range. |
+| [getActionType()](#getActionType--)| <b>@deprecated.</b> Please use the 'actionType' property instead. Gets the action type of this revision. |
+| [getRevisions()](#getRevisions--)| <b>@deprecated.</b> Please use the 'revisions' property instead. Gets revision list by this operation. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -47,9 +58,67 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
+### type {#type--}
+
+Readonly. Represents the type of revision.
+
+```javascript
+type : RevisionType;
+```
+
+
+### cellArea {#cellArea--}
+
+Readonly. Gets the inserting/deleting range.
+
+```javascript
+cellArea : CellArea;
+```
+
+
+### actionType {#actionType--}
+
+Readonly. Gets the action type of this revision.
+
+```javascript
+actionType : RevisionActionType;
+```
+
+
+### revisions {#revisions--}
+
+Readonly. Gets revision list by this operation.
+
+```javascript
+revisions : RevisionCollection;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getType() {#getType--}
 
-Represents the type of revision.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
 
 ```javascript
 getType() : RevisionType;
@@ -62,7 +131,7 @@ getType() : RevisionType;
 
 ### getCellArea() {#getCellArea--}
 
-Gets the inserting/deleting range.
+<b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the inserting/deleting range.
 
 ```javascript
 getCellArea() : CellArea;
@@ -75,7 +144,7 @@ getCellArea() : CellArea;
 
 ### getActionType() {#getActionType--}
 
-Gets the action type of this revision.
+<b>@deprecated.</b> Please use the 'actionType' property instead. Gets the action type of this revision.
 
 ```javascript
 getActionType() : RevisionActionType;
@@ -88,7 +157,7 @@ getActionType() : RevisionActionType;
 
 ### getRevisions() {#getRevisions--}
 
-Gets revision list by this operation.
+<b>@deprecated.</b> Please use the 'revisions' property instead. Gets revision list by this operation.
 
 ```javascript
 getRevisions() : RevisionCollection;
@@ -110,7 +179,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -123,7 +192,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

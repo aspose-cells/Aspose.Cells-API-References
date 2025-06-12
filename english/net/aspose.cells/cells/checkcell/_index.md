@@ -25,33 +25,44 @@ Return Cell object if a Cell object exists. Return null if the cell does not exi
 ### Examples
 
 ```csharp
-// Called: Cell cellDest = cellsDest.CheckCell(cellSrc.Row, cellSrc.Column);
-private void Cells_Method_CheckCell(Workbook wb, TxtSaveOptions tso, TxtLoadOptions tlo, string csvTxt)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodCheckCellWithInt32Int32Demo
+    {
+        public static void Run()
         {
-            string csvResult = SaveAsCsv(wb, tso);
-            if (csvTxt != null)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set values in cells
+            cells[0, 0].PutValue("Hello");
+            cells[1, 1].PutValue(123);
+            cells[2, 2].PutValue(DateTime.Now);
+
+            // Check cells using CheckCell method with Int32 parameters
+            Cell cell1 = cells.CheckCell(0, 0);
+            Console.WriteLine("Cell A1 value: " + cell1.StringValue);
+
+            Cell cell2 = cells.CheckCell(1, 1);
+            Console.WriteLine("Cell B2 value: " + cell2.StringValue);
+
+            Cell cell3 = cells.CheckCell(2, 2);
+            Console.WriteLine("Cell C3 value: " + cell3.StringValue);
+
+            // Check non-existent cell (will return null)
+            Cell cell4 = cells.CheckCell(10, 10);
+            if (cell4 == null)
             {
-                Assert.AreEqual(csvTxt, csvResult);
-            }
-            Workbook wb1 = LoadAsCsv(csvResult, tlo);
-            Cells cellsSrc = wb.Worksheets[wb.Worksheets.ActiveSheetIndex].Cells;
-            Cells cellsDest = wb1.Worksheets[0].Cells;
-            IEnumerator en = cellsSrc.GetEnumerator();
-            while (en.MoveNext())
-            {
-                Cell cellSrc = (Cell)en.Current;
-                string sv = cellSrc.StringValue;
-                if (sv != null)
-                {
-                    Cell cellDest = cellsDest.CheckCell(cellSrc.Row, cellSrc.Column);
-                    if (cellDest == null)
-                    {
-                        Assert.Fail("Lost cell " + cellSrc.Name + ": " + sv);
-                    }
-                    Assert.AreEqual(sv, cellDest.StringValue, cellSrc.Name);
-                }
+                Console.WriteLine("Cell K11 doesn't exist (as expected)");
             }
         }
+    }
+}
 ```
 
 ### See Also

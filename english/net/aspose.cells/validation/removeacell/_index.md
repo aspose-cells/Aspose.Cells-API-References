@@ -21,12 +21,33 @@ public void RemoveACell(int row, int column)
 ### Examples
 
 ```csharp
-// Called: cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
-public void Validation_Method_RemoveACell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-    cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
+    public class ValidationMethodRemoveACellWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add data validation to first cell
+            Validation validation = worksheet.Validations[0];
+            validation.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 0, EndColumn = 0 });
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "1,2,3";
+            
+            // Add another cell to the validation
+            validation.AddArea(new CellArea { StartRow = 1, StartColumn = 1, EndRow = 1, EndColumn = 1 });
+            
+            // Remove the second cell from validation
+            validation.RemoveACell(1, 1);
+            
+            Console.WriteLine("Cell removed from validation successfully.");
+        }
+    }
 }
 ```
 

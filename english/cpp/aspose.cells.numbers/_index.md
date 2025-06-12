@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Numbers
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Numbers namespace in C++.'
 type: docs
-weight: 1200
+weight: 1700
 url: /cpp/aspose.cells.numbers/
 ---
 

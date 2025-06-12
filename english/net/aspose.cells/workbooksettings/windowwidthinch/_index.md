@@ -16,44 +16,32 @@ public double WindowWidthInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected.WindowWidthInch, result.WindowWidthInch, delta, info + ".WindowWidthInch");
-private static void WorkbookSettings_Property_WindowWidthInch(WorkbookSettings expected, WorkbookSettings result, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyWindowWidthInchDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(expected.Date1904, result.Date1904, info + ".Settings.Date1904");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + ".Settings.DisplayDrawingObjects");
+            // Access workbook settings
+            WorkbookSettings settings = workbook.Settings;
 
-            AssertHelper.AreEqual(expected.IsHScrollBarVisible, result.IsHScrollBarVisible, info + ".Settings.IsHScrollBarVisible");
-            AssertHelper.AreEqual(expected.IsProtected, result.IsProtected, info + ".Settings.IsProtected");
-            AssertHelper.AreEqual(expected.IsVScrollBarVisible, result.IsVScrollBarVisible, info + ".Settings.IsVScrollBarVisible");
-            AssertHelper.AreEqual(expected.LanguageCode, result.LanguageCode, info + ".Settings.LanguageCode");
-            AssertHelper.AreEqual(expected.Password, result.Password, info + ".Settings.Password");
-            AssertHelper.AreEqual(expected.Region, result.Region, info + ".Settings.Region");
-            AssertHelper.AreEqual(expected.Shared, result.Shared, info + ".Settings.Shared");
-            AssertHelper.AreEqual(expected.ShowTabs, result.ShowTabs, info + ".Settings.ShowTabs");
-            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + ".Settings.DisplayDrawingObjects");
-            AssertHelper.AreEqual(expected.SheetTabBarWidth, result.SheetTabBarWidth, info + ".SheetTabBarWidth");
-            AssertHelper.AreEqual(expected.WindowHeightCM, result.WindowHeightCM, delta, info + ".WindowHeightCM");
-            AssertHelper.AreEqual(expected.WindowHeightInch, result.WindowHeightInch, delta, info + ".WindowHeightInch");
-            AssertHelper.AreEqual(expected.WindowLeftCM, result.WindowLeftCM, delta, info + ".WindowLeftCM");
-            AssertHelper.AreEqual(expected.WindowLeftInch, result.WindowLeftInch, delta, info + ".WindowLeftInch");
-            AssertHelper.AreEqual(expected.WindowTopCM, result.WindowTopCM, delta, info + ".WindowTopCM");
-            AssertHelper.AreEqual(expected.WindowTopInch, result.WindowTopInch, delta, info + ".WindowTopInch");
-            AssertHelper.AreEqual(expected.WindowWidthCM, result.WindowWidthCM, delta, info + ".WindowWidthCM");
-            AssertHelper.AreEqual(expected.WindowWidthInch, result.WindowWidthInch, delta, info + ".WindowWidthInch");
-            FormulaSettings fsExpected = expected.FormulaSettings;
-            FormulaSettings fsResult = expected.FormulaSettings;
-            AssertHelper.AreEqual(fsExpected.CalculateOnOpen, fsResult.CalculateOnOpen,
-                info + ".Settings.FormulaSettings.ReCalculateOnOpen");
-            AssertHelper.AreEqual(fsExpected.CalculationMode, fsResult.CalculationMode,
-                info + ".Settings.FormulaSettings.CalculationMode");
-            AssertHelper.AreEqual(fsExpected.EnableIterativeCalculation, fsResult.EnableIterativeCalculation,
-                info + ".Settings.FormulaSettings.EnableIterativeCalculation");
-            AssertHelper.AreEqual(fsExpected.MaxChange, fsResult.MaxChange, delta,
-                info + ".Settings.FormulaSettings.MaxChange");
-            AssertHelper.AreEqual(fsExpected.MaxIteration, fsResult.MaxIteration,
-                info + ".Settings.FormulaSettings.MaxIteration");
+            // Set window width in inches
+            settings.WindowWidthInch = 10.5;
+
+            // Display the window width in inches
+            Console.WriteLine("Window Width in Inches: " + settings.WindowWidthInch);
+
+            // Save the workbook
+            workbook.Save("WindowWidthInchDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

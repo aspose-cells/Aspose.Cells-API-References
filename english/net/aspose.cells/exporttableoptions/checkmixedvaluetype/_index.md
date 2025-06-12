@@ -16,27 +16,49 @@ public bool CheckMixedValueType { get; set; }
 ### Examples
 
 ```csharp
-// Called: CheckMixedValueType = true,
-public void ExportTableOptions_Property_CheckMixedValueType()
-{
-    Workbook excel = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = excel.Worksheets[0];
-    int maxRow = sheet.Cells.MaxDataRow + 1;
-    int maxCol = sheet.Cells.MaxDataColumn + 1;
+using System;
+using System.Data;
+using Aspose.Cells;
 
-    var opts = new ExportTableOptions
+namespace AsposeCellsExamples
+{
+    public class ExportTableOptionsPropertyCheckMixedValueTypeDemo
     {
-        CheckMixedValueType = true,
-        ExportColumnName = true,
-        AllowDBNull = true
-    };
-    DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
-    Assert.AreEqual(2, table.Columns.Count);
-    Assert.AreEqual(5, table.Rows.Count);
-    Assert.IsTrue(table.Columns.Contains("id"));
-    Assert.AreEqual("System.Double", table.Columns["id"].DataType.FullName);
-    Assert.IsTrue(table.Columns.Contains("value date"));
-    Assert.AreEqual("System.DateTime", table.Columns["value date"].DataType.FullName);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add headers
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Value Date");
+
+            // Add sample data with mixed types
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(DateTime.Now);
+            worksheet.Cells["A3"].PutValue(2.5);
+            worksheet.Cells["B3"].PutValue("2023-01-15");
+            worksheet.Cells["A4"].PutValue("3");
+            worksheet.Cells["B4"].PutValue(DateTime.Now.AddDays(1));
+
+            // Create export options with CheckMixedValueType enabled
+            ExportTableOptions options = new ExportTableOptions
+            {
+                CheckMixedValueType = true,
+                ExportColumnName = true
+            };
+
+            // Export data to DataTable
+            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 4, 2, options);
+
+            // Display results
+            Console.WriteLine("Columns: " + dataTable.Columns.Count);
+            Console.WriteLine("Rows: " + dataTable.Rows.Count);
+            Console.WriteLine("ID column type: " + dataTable.Columns["ID"].DataType);
+            Console.WriteLine("Value Date column type: " + dataTable.Columns["Value Date"].DataType);
+        }
+    }
 }
 ```
 

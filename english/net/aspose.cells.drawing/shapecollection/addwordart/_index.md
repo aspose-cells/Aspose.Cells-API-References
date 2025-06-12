@@ -28,10 +28,40 @@ public Shape AddWordArt(PresetWordArtStyle style, string text, int upperLeftRow,
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a WordArt
-Shape wordArt2 = shapes.AddWordArt(PresetWordArtStyle.WordArtStyle1, "WordArt", 3, 0, 3, 0, 50, 200);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddWordArtWithPresetWordArtStyleStringInt32IDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a WordArt with specified parameters
+            Shape wordArt = shapes.AddWordArt(
+                PresetWordArtStyle.WordArtStyle1, 
+                "Sample WordArt", 
+                10,  // left
+                10,  // top
+                200, // width
+                50,  // height
+                100, // rotation
+                200  // z-order
+            );
+
+            // Save the workbook
+            workbook.Save("WordArtDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

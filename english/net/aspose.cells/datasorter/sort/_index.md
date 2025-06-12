@@ -28,27 +28,43 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: sorter.Sort(cells, 0, 0, 5, 0);
-public void DataSorter_Method_Sort()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DataSorterMethodSortWithCellsInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
+            
+            // Populate sample data
             for (int i = 0; i < 6; i++)
             {
                 cells[i, 0].PutValue(6 - i);
             }
+            
+            // Hide a row to demonstrate sorting with hidden rows
             cells.Rows[1].IsHidden = true;
+            
+            // Create and configure sorter
             DataSorter sorter = wb.DataSorter;
             sorter.AddKey(0, SortOrder.Ascending);
+            
+            // Demonstrate Sort method with Cells and Int32 parameters
             sorter.Sort(cells, 0, 0, 5, 0);
-            Assert.AreEqual(1, cells[0, 0].IntValue, "A1");
-            Assert.AreEqual(5, cells[1, 0].IntValue, "A2");
-            Assert.IsTrue(cells.Rows[1].IsHidden, "The second row should be hidden and should not be sorted");
-            Assert.AreEqual(2, cells[2, 0].IntValue, "A3");
-            Assert.AreEqual(3, cells[3, 0].IntValue, "A4");
-            Assert.AreEqual(4, cells[4, 0].IntValue, "A5");
-            Assert.AreEqual(6, cells[5, 0].IntValue, "A6");
+            
+            // Output results to console
+            for (int i = 0; i < 6; i++)
+            {
+                Console.WriteLine($"Cell A{i+1}: {cells[i, 0].IntValue}");
+            }
+            Console.WriteLine($"Is row 2 hidden? {cells.Rows[1].IsHidden}");
         }
+    }
+}
 ```
 
 ### See Also
@@ -80,34 +96,51 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
-public void DataSorter_Method_Sort()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    public class DataSorterMethodSortWithCellsCellAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Year");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue(1995);
+            worksheet.Cells["B2"].PutValue(10000);
+            worksheet.Cells["A3"].PutValue(1996);
+            worksheet.Cells["B3"].PutValue(15000);
+            worksheet.Cells["A4"].PutValue(1997);
+            worksheet.Cells["B4"].PutValue(12000);
+            worksheet.Cells["A5"].PutValue(1998);
+            worksheet.Cells["B5"].PutValue(18000);
 
-    workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
+            // Create data sorter
+            DataSorter dataSorter = workbook.DataSorter;
+            dataSorter.HasHeaders = true;
+            dataSorter.Key1 = 0; // Sort by first column (Year)
+            dataSorter.Order1 = SortOrder.Descending;
 
-    DataSorter dataSorter = workbook.DataSorter;
-    dataSorter.HasHeaders = true;
+            // Define sort area
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 4;
+            area.EndColumn = 1;
 
-    CellArea ca = new CellArea();
+            // Perform sort
+            dataSorter.Sort(worksheet.Cells, area);
 
-    dataSorter.Key1 = 0;
-
-    dataSorter.Order1 = Aspose.Cells.SortOrder.Descending;
-
-    ca.StartRow = 0;
-
-    ca.StartColumn = 0;
-
-    ca.EndColumn = 1;
-
-    ca.EndRow = 12;
-
-    dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A10"].StringValue, "1996");
-
-    workbook.Save(Constants.destPath + "example.xls");
+            // Save the workbook
+            workbook.Save("SortedData.xlsx");
+        }
+    }
 }
 ```
 
@@ -136,15 +169,41 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: tableList.AutoFilter.Sorter.Sort();
-public void DataSorter_Method_Sort()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "Sort/SortDataTemplate.xltx");
-    Worksheet currentSheet = workbook.Worksheets[0];
-    Aspose.Cells.Tables.ListObject tableList = currentSheet.ListObjects["Table1"];
-    tableList.AutoFilter.Sorter.Sort();
-    Assert.IsTrue(currentSheet.Cells["C3"].IsFormula);
-    Util.ReSave(workbook, SaveFormat.Xlsx);
+    public class DataSorterMethodSortDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to sort
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("C");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("A");
+            worksheet.Cells["B3"].PutValue(10);
+            worksheet.Cells["A4"].PutValue("B");
+            worksheet.Cells["B4"].PutValue(20);
+
+            // Create a table/list object
+            int index = worksheet.ListObjects.Add(0, 0, 3, 1, true);
+            Aspose.Cells.Tables.ListObject table = worksheet.ListObjects[index];
+            table.ShowTotals = true;
+
+            // Sort the data by the first column
+            table.AutoFilter.Sorter.Sort();
+
+            // Save the workbook
+            workbook.Save("SortedData.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

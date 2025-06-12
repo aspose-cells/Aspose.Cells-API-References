@@ -27,51 +27,35 @@ public int AddThreadedComment(int row, int column, string text, ThreadedCommentA
 ### Examples
 
 ```csharp
-// Called: comments.AddThreadedComment(2, 2, "This is a threaded comment.", author);
-public static void CommentCollection_Method_AddThreadedComment()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CommentCollectionMethodAddThreadedCommentWithInt32Int32StringThreadedCommenDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the comments collection of the worksheet
             CommentCollection comments = worksheet.Comments;
-
-            // Add a comment to cell A1
-            int commentIndex1 = comments.Add(0, 0);
-            Comment comment1 = comments[commentIndex1];
-            comment1.Note = "First note.";
-            comment1.Author = "Author1";
-            comment1.Font.Name = "Times New Roman";
-
-            // Add a comment to cell B2
-            comments.Add("B2");
-            Comment comment2 = comments["B2"];
-            comment2.Note = "Second note.";
-            comment2.Author = "Author2";
-
-            // Add a threaded comment to cell C3
-            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Author3", "user3", "provider3");
+            
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Demo Author", "demoUser", "testProvider");
             ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
-            comments.AddThreadedComment(2, 2, "This is a threaded comment.", author);
-
-            // Retrieve threaded comments from cell C3
-            var threadedComments = comments.GetThreadedComments(2, 2);
-            foreach (var threadedComment in threadedComments)
+            
+            comments.AddThreadedComment(1, 1, "This is a threaded comment demo.", author);
+            
+            var threadedComments = comments.GetThreadedComments(1, 1);
+            foreach (var comment in threadedComments)
             {
-                Console.WriteLine(threadedComment.Notes);
+                Console.WriteLine(comment.Notes);
             }
 
-            // Remove the comment at cell A1
-            comments.RemoveAt(0, 0);
-
-            // Clear all comments
-            comments.Clear();
-
-            // Save the workbook
-            workbook.Save("CommentCollectionExample.xlsx");
-            workbook.Save("CommentCollectionExample.pdf");
+            workbook.Save("ThreadedCommentDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -104,15 +88,27 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 ### Examples
 
 ```csharp
-// Called: comments.AddThreadedComment("B3", "Test1", null);
-public void CommentCollection_Method_AddThreadedComment()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    CommentCollection comments = workbook.Worksheets[0].Comments;
-    comments.AddThreadedComment("B3", "Test1", null);
-    comments.AddThreadedComment("B3", "Test2", null);
-    comments.AddThreadedComment("B3", "Test3", null);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CommentCollectionMethodAddThreadedCommentWithStringStringThreadedCommentDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("John Doe", "JD", "");
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+            
+            CommentCollection comments = worksheet.Comments;
+            comments.AddThreadedComment("B3", "Initial comment text", author);
+            comments.AddThreadedComment("C5", "Follow-up comment", author);
+            
+            workbook.Save("ThreadedCommentsOutput.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,18 +20,44 @@ After loading workbook from template file with this option, [`PreservePaddingSpa
 ### Examples
 
 ```csharp
-// Called: new LoadOptions(LoadFormat.Xlsx) { PreservePaddingSpacesInFormula = true } );
-public void LoadOptions_Property_PreservePaddingSpacesInFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.FormulaSettings.PreservePaddingSpaces = true;
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    string fml = "= IF(1 <>2,2,1)";
-    cell.Formula = fml;
-    Assert.AreEqual(fml, cell.Formula, "Parsed formula");
-    wb = Util.ReSave(wb, new OoxmlSaveOptions(SaveFormat.Xlsx),
-        new LoadOptions(LoadFormat.Xlsx) { PreservePaddingSpacesInFormula = true } );
-    Assert.AreEqual(fml, wb.Worksheets[0].Cells[0, 0].Formula, "Reloaded formula");
+    public class LoadOptionsPropertyPreservePaddingSpacesInFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Enable preserving padding spaces in formulas
+            workbook.Settings.FormulaSettings.PreservePaddingSpaces = true;
+            
+            // Access first worksheet and set a formula with padding spaces
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            string formulaWithSpaces = "= IF(1 <>2, 2, 1)";
+            cell.Formula = formulaWithSpaces;
+            
+            // Save and reload the workbook with PreservePaddingSpacesInFormula option
+            string outputPath = "output.xlsx";
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+            
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx)
+            {
+                PreservePaddingSpacesInFormula = true
+            };
+            
+            Workbook reloadedWorkbook = new Workbook(outputPath, loadOptions);
+            Worksheet reloadedWorksheet = reloadedWorkbook.Worksheets[0];
+            
+            // Verify the formula preserved spaces after reloading
+            Console.WriteLine("Original formula: " + formulaWithSpaces);
+            Console.WriteLine("Reloaded formula: " + reloadedWorksheet.Cells["A1"].Formula);
+        }
+    }
 }
 ```
 

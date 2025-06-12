@@ -4,7 +4,7 @@ linktitle: GradientPresetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::GradientPresetType enum. Represents gradient preset color type in C++.'
 type: docs
-weight: 8600
+weight: 8800
 url: /cpp/aspose.cells.drawing/gradientpresettype/
 ---
 ## GradientPresetType enum

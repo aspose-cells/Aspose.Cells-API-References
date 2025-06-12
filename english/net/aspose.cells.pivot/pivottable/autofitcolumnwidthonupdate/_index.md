@@ -16,19 +16,37 @@ public bool AutofitColumnWidthOnUpdate { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(pt.AutofitColumnWidthOnUpdate );
-public void PivotTable_Property_AutofitColumnWidthOnUpdate()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    Worksheet worksheet = wb.Worksheets["PIVOT"];
-    PivotTable pt = worksheet.PivotTables[0];
-    pt.AutofitColumnWidthOnUpdate = false;
-    worksheet.RefreshPivotTables();
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    worksheet = wb.Worksheets["PIVOT"];
-    pt = worksheet.PivotTables[0];
-    Assert.IsFalse(pt.AutofitColumnWidthOnUpdate );
+    public class PivotTablePropertyAutofitColumnWidthOnUpdateDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the worksheet containing the pivot table
+            Worksheet worksheet = workbook.Worksheets["PIVOT"];
+            
+            // Access the pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Disable autofit column width on update
+            pivotTable.AutofitColumnWidthOnUpdate = false;
+            
+            // Refresh the pivot table to apply changes
+            worksheet.RefreshPivotTables();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("PivotTable AutofitColumnWidthOnUpdate property set successfully.");
+        }
+    }
 }
 ```
 

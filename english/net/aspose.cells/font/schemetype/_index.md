@@ -16,34 +16,29 @@ public FontSchemeType SchemeType { get; set; }
 ### Examples
 
 ```csharp
-// Called: font.SchemeType = FontSchemeType.Major;
-public static void Font_Property_SchemeType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FontPropertySchemeTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Obtain the reference of the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
-            // Accessing the "A1" cell from the worksheet
             Cell cell = worksheet.Cells["A1"];
-            // Adding some value to the "A1" cell
-            cell.PutValue("Hello Aspose!");
+            cell.PutValue("Sample Text");
 
-            // Access the font of the cell style
-            Aspose.Cells.Font font = cell.GetStyle().Font;
+            Font font = cell.GetStyle().Font;
+            font.SchemeType = FontSchemeType.Minor;
+            font.Name = "Calibri";
+            font.Size = 12;
 
-            // Setting the font scheme type to Major
-            font.SchemeType = FontSchemeType.Major;
-
-            // Setting other font properties for demonstration
-            font.Name = "Arial";
-            font.Size = 14;
-            font.Color = System.Drawing.Color.Blue;
-
-            // Save the workbook
-            workbook.Save("FontSchemeTypeExample.xlsx");
-            workbook.Save("FontSchemeTypeExample.pdf");
-            return;
+            workbook.Save("FontSchemeTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

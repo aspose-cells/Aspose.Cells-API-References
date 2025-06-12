@@ -16,34 +16,30 @@ public static string AltStartPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-public static void CellsHelper_Property_AltStartPath()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperPropertyAltStartPathDemo
+    {
+        public static void Run()
         {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
+            // Set the alternate startup path
             CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
-            CellsHelper.IsCloudPlatform = true;
-
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
-
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
-            Console.WriteLine("DPI: " + CellsHelper.DPI);
-            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
+            
+            // Also set other relevant properties for demonstration
+            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
+            
+            // Display the paths to demonstrate the property usage
+            Console.WriteLine("Main Startup Path: " + CellsHelper.StartupPath);
             Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
-            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
-            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
-
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
-
-            return;
+            
+            // Example of how these paths might be used
+            Console.WriteLine("\nWhen resources aren't found in main path, system will check: " + CellsHelper.AltStartPath);
         }
+    }
+}
 ```
 
 ### See Also

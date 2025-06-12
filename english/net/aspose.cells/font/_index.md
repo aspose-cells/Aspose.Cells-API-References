@@ -46,62 +46,64 @@ public class Font
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontDemo
+    {
+        public static void FontExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[0];
+            // Accessing the "A1" cell from the worksheet
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Accessing the "A1" cell from the worksheet
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Adding some value to the "A1" cell
+            cell.PutValue("Hello Aspose!");
 
-//Adding some value to the "A1" cell
-cell.PutValue("Hello Aspose!");
+            // Accessing the font object of the cell style
+            Aspose.Cells.Font font = cell.GetStyle().Font;
 
-Aspose.Cells.Font font = cell.GetStyle().Font;
+            // Setting the font name to "Times New Roman"
+            font.Name = "Times New Roman";
 
-//Setting the font name to "Times New Roman"
-font.Name = "Times New Roman";
+            // Setting font size to 14
+            font.Size = 14;
 
-//Setting font size to 14
-font.Size = 14;
+            // Setting font color as Red
+            font.Color = Color.Red;
 
-//setting font color as Red
-font.Color = System.Drawing.Color.Red;           
+            // Setting additional font properties
+            font.IsBold = true;
+            font.IsItalic = true;
+            font.Underline = FontUnderlineType.Single;
+            font.IsStrikeout = false;
+            font.IsSuperscript = false;
+            font.IsSubscript = false;
+            font.Charset = 1;
+            font.CapsType = TextCapsType.None;
+            font.StrikeType = TextStrikeType.None;
+            font.ScriptOffset = 0;
+            font.DoubleSize = 14.0;
+            font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            font.ArgbColor = Color.Red.ToArgb();
+            font.IsNormalizeHeights = false;
+            font.SchemeType = FontSchemeType.None;
 
-//Saving the Excel file
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Hello Aspose!")
-
-Dim font As Aspose.Cells.Font = cell.GetStyle().Font
-
-'Setting the font name to "Times New Roman"
-font.Name = "Times New Roman"
-
-'Setting font size to 14
-font.Size = 14
-
-'setting font color as Red
-font.Color = System.Drawing.Color.Red
-
-'Saving the Excel file
-workbook.Save("dest.xls")
+            // Saving the Excel file
+            workbook.Save("FontExample.xlsx");
+            workbook.Save("FontExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

@@ -24,29 +24,49 @@ Only applies when the cell's formula is an array formula
 ### Examples
 
 ```csharp
-// Called: AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
-public void Cell_Method_GetArrayRange()
-{
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    string fml = "=MAP(SEQUENCE(10), LAMBDA(x, SUM(MAP(SEQUENCE(x), LAMBDA(x, x * x)))))";
-    cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), false);
-    wb.CalculateFormula();
-    CellArea expected = CellArea.CreateCellArea(0, 0, 9, 0);
-    AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
-    DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "");
-    DynamicFormulaTest.CheckResult(
-        new string[] { "1", "5", "14", "30", "55", "91", "140", "204", "285", "385", },
-        cells, expected, fml);
+using System;
+using Aspose.Cells;
 
-    fml = "=MAP(SEQUENCE(10), LAMBDA(x, SUM(MAP(MAP(SEQUENCE(x), LAMBDA(y, y * y)), LAMBDA(y, y+1)))))";
-    cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
-    AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
-    DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "");
-    DynamicFormulaTest.CheckResult(
-        new string[] { "2", "7", "17", "34", "60", "97", "147", "212", "294", "395", },
-        cells, expected, fml);
+namespace AsposeCellsExamples
+{
+    public class CellMethodGetArrayRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            
+            // Set a dynamic array formula in cell A1
+            Cell cell = cells[0, 0];
+            string formula = "=SEQUENCE(3,2)";
+            cell.SetDynamicArrayFormula(formula, new FormulaParseOptions(), false);
+            
+            // Calculate formulas
+            wb.CalculateFormula();
+            
+            // Get the array range of the dynamic formula
+            CellArea arrayRange = cell.GetArrayRange();
+            
+            // Output the array range information
+            Console.WriteLine("Array range for dynamic formula:");
+            Console.WriteLine($"Start row: {arrayRange.StartRow}");
+            Console.WriteLine($"Start column: {arrayRange.StartColumn}");
+            Console.WriteLine($"End row: {arrayRange.EndRow}");
+            Console.WriteLine($"End column: {arrayRange.EndColumn}");
+            
+            // Print the values in the array range
+            Console.WriteLine("\nValues in the array range:");
+            for (int r = arrayRange.StartRow; r <= arrayRange.EndRow; r++)
+            {
+                for (int c = arrayRange.StartColumn; c <= arrayRange.EndColumn; c++)
+                {
+                    Console.Write(cells[r, c].Value + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 

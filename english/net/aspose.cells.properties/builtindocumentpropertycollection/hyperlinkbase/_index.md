@@ -16,18 +16,35 @@ public string HyperlinkBase { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
-public void BuiltInDocumentPropertyCollection_Property_HyperlinkBase()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
-    hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
+    public class BuiltInDocumentPropertyCollectionPropertyHyperlinkBaseDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-    var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
-    title.Value = "SomeTitle"; // This sets the Title.
+            // Set the HyperlinkBase property
+            workbook.BuiltInDocumentProperties.HyperlinkBase = "http://www.example.com";
 
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
+            // Set some other property for demonstration
+            workbook.BuiltInDocumentProperties.Title = "Sample Workbook";
+
+            // Save the workbook
+            workbook.Save("HyperlinkBaseDemo.xlsx", SaveFormat.Xlsx);
+
+            // Load the saved workbook to verify properties
+            Workbook loadedWorkbook = new Workbook("HyperlinkBaseDemo.xlsx");
+            
+            // Output the properties to console
+            Console.WriteLine("HyperlinkBase: " + loadedWorkbook.BuiltInDocumentProperties.HyperlinkBase);
+            Console.WriteLine("Title: " + loadedWorkbook.BuiltInDocumentProperties.Title);
+        }
+    }
 }
 ```
 

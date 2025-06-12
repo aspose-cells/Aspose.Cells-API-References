@@ -16,30 +16,30 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
-public static void PdfSaveOptions_Property_CustomPropertiesExport()
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSaveOptionsPropertyCustomPropertiesExportDemo
+    {
+        public static void Run()
         {
-            // Create a workbook and add some data
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Cells["A1"].PutValue("Hello Aspose");
-            worksheet.Cells["A2"].PutValue("This is a sample document");
+            worksheet.Cells["A2"].PutValue("Sample PDF Export");
 
-            // Set some custom properties
-            workbook.Worksheets.CustomDocumentProperties.Add("Author", "John Doe");
-            workbook.Worksheets.CustomDocumentProperties.Add("Subject", "Sample PDF Export");
+            workbook.CustomDocumentProperties.Add("Author", "John Doe");
+            workbook.CustomDocumentProperties.Add("Subject", "Aspose.Cells Example");
 
-            // Create PDF save options
             PdfSaveOptions saveOptions = new PdfSaveOptions();
-            
-            // Set the custom properties export option
             saveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
 
-            // Save the workbook to PDF
-            workbook.Save("PdfCustomPropertiesExportExample.pdf", saveOptions);
-
-            return;
+            workbook.Save("PdfCustomPropertiesExportDemo.pdf", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

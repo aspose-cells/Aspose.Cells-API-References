@@ -53,6 +53,74 @@ public class DataModelTableCollection : CollectionBase<DataModelTable>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DataModelTable, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.DataModels;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class DataModelsClassDataModelTableCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create sample data for first table
+            worksheet.Cells["A1"].PutValue("OrderID");
+            worksheet.Cells["B1"].PutValue("Customer");
+            worksheet.Cells["A2"].PutValue(1001);
+            worksheet.Cells["B2"].PutValue("Company A");
+            worksheet.Cells["A3"].PutValue(1002);
+            worksheet.Cells["B3"].PutValue("Company B");
+
+            // Create first table
+            int firstTableIndex = worksheet.ListObjects.Add(0, 0, 2, 1, true);
+            ListObject firstTable = worksheet.ListObjects[firstTableIndex];
+            firstTable.DisplayName = "OrdersTable";
+
+            // Create sample data for second table
+            worksheet.Cells["D1"].PutValue("ProductID");
+            worksheet.Cells["E1"].PutValue("ProductName");
+            worksheet.Cells["D2"].PutValue(101);
+            worksheet.Cells["E2"].PutValue("Laptop");
+            worksheet.Cells["D3"].PutValue(102);
+            worksheet.Cells["E3"].PutValue("Monitor");
+
+            // Create second table
+            int secondTableIndex = worksheet.ListObjects.Add(3, 0, 2, 1, true);
+            ListObject secondTable = worksheet.ListObjects[secondTableIndex];
+            secondTable.DisplayName = "ProductsTable";
+
+            // Access the DataModelTableCollection
+            DataModelTableCollection dataModelTables = workbook.DataModel.Tables;
+
+            // Demonstrate accessing tables by index
+            Console.WriteLine("Tables accessed by index:");
+            for (int i = 0; i < dataModelTables.Count; i++)
+            {
+                Console.WriteLine($"Table {i}: {dataModelTables[i].Name}");
+            }
+
+            // Demonstrate accessing tables by name
+            Console.WriteLine("\nTables accessed by name:");
+            DataModelTable ordersTable = dataModelTables["OrdersTable"];
+            DataModelTable productsTable = dataModelTables["ProductsTable"];
+            Console.WriteLine($"Orders table exists: {ordersTable != null}");
+            Console.WriteLine($"Products table exists: {productsTable != null}");
+
+            // Save the workbook
+            workbook.Save("DataModelTableCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -4,7 +4,7 @@ linktitle: DateTimeGroupingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupingType enum. Specifies how to group dateTime values in C++.'
 type: docs
-weight: 19500
+weight: 19900
 url: /cpp/aspose.cells/datetimegroupingtype/
 ---
 ## DateTimeGroupingType enum

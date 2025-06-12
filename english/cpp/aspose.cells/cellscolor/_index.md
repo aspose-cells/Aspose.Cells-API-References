@@ -4,7 +4,7 @@ linktitle: CellsColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsColor class. Represents all types of color in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.cells/cellscolor/
 ---
 ## CellsColor class

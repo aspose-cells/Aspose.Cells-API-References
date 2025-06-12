@@ -16,16 +16,42 @@ public int RowCount { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(256, range.RowCount, caseName);
-private void Range_Property_RowCount(Workbook workbook,int maxColumn)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class RangePropertyRowCountDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data in cells A1:B10
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 2; col++)
+                {
+                    worksheet.Cells[row, col].Value = $"Row{row + 1}Col{col + 1}";
+                }
+            }
+
+            // Create a named range covering A1:B10
+            worksheet.Cells.CreateRange("A1", "B10").Name = "testRange";
+            
+            // Get the named range
             Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("testRange");
-            testAreEqual(0, range.FirstRow, caseName);
-            testAreEqual(256, range.RowCount, caseName);
-            testAreEqual(0, range.FirstColumn, caseName);
-            testAreEqual(maxColumn, range.ColumnCount, caseName);          
+            
+            // Demonstrate RowCount property
+            Console.WriteLine($"Range starts at row: {range.FirstRow}");
+            Console.WriteLine($"Range row count: {range.RowCount}");
+            Console.WriteLine($"Range starts at column: {range.FirstColumn}");
+            Console.WriteLine($"Range column count: {range.ColumnCount}");
         }
+    }
+}
 ```
 
 ### See Also

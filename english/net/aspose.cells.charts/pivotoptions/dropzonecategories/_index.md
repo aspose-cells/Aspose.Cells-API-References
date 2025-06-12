@@ -16,14 +16,43 @@ public bool DropZoneCategories { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(options.DropZoneCategories);
-public void PivotOptions_Property_DropZoneCategories()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    PivotOptions options = workbook.Worksheets[0].Charts[1].PivotOptions;
-    Assert.IsFalse(options.DropZoneCategories);
-    Assert.IsFalse(options.DropZoneData);
-    Assert.IsFalse(options.DropZoneSeries);
+    public class PivotOptionsPropertyDropZoneCategoriesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            
+            // Add a chart that uses pivot data
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Access pivot options from the chart
+            PivotOptions options = chart.PivotOptions;
+            
+            // Demonstrate DropZoneCategories property
+            options.DropZoneCategories = true;
+            Console.WriteLine("DropZoneCategories enabled: " + options.DropZoneCategories);
+            
+            // Save the workbook
+            workbook.Save("PivotOptionsDemo.xlsx");
+        }
+    }
 }
 ```
 

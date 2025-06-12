@@ -23,9 +23,7 @@ public enum PdfOptimizationType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

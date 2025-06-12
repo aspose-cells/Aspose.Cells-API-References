@@ -16,47 +16,39 @@ public int Column { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
-public static void OdsCellField_Property_Column()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class OdsCellFieldPropertyColumnDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create an OdsCellFieldCollection
             OdsCellFieldCollection odsCellFields = worksheet.Cells.OdsCellFields;
 
-            // Add a new OdsCellField for the current date
-            int rowIndex = 0;
-            int columnIndex = 0;
-            string customFormat = "yyyy-mm-dd";
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Date, customFormat);
+            // Add fields with different types and demonstrate Column property
+            odsCellFields.Add(0, 2, OdsCellFieldType.Date, "yyyy-mm-dd");
+            odsCellFields.Add(1, 3, OdsCellFieldType.SheetName, null);
+            odsCellFields.Add(2, 4, OdsCellFieldType.Title, null);
 
-            // Add another OdsCellField for the sheet name
-            rowIndex = 1;
-            columnIndex = 0;
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.SheetName, null);
-
-            // Add another OdsCellField for the title
-            rowIndex = 2;
-            columnIndex = 0;
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Title, null);
-
-            // Update the fields value to the cells
-            odsCellFields.UpdateFieldsValue();
-
-            // Output the values in the console
-            for (int i = 0; i < odsCellFields.Count; i++)
+            // Access and display Column property
+            Console.WriteLine("Field Columns:");
+            foreach (OdsCellField field in odsCellFields)
             {
-                OdsCellField field = odsCellFields[i];
-                worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
+                Console.WriteLine($"Type: {field.FieldType}, Column: {field.Column}");
+                worksheet.Cells[field.Row, field.Column].PutValue($"Column: {field.Column}");
             }
 
-            // Save the workbook
-            workbook.Save("OdsCellFieldTypeExample.ods");
+            odsCellFields.UpdateFieldsValue();
+            workbook.Save("OdsCellFieldColumnDemo.ods");
         }
+    }
+}
 ```
 
 ### See Also

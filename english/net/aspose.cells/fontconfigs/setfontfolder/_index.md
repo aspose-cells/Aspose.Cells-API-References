@@ -21,14 +21,37 @@ public static void SetFontFolder(string fontFolder, bool recursive)
 ### Examples
 
 ```csharp
-// Called: FontConfigs.SetFontFolder("Fonts", true);
-public void FontConfigs_Method_SetFontFolder()
-{
-    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE31/";
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(path + "example.xlsx");
-    FontConfigs.SetFontFolder("Fonts", true);
-    wb.Save(destPathNetCore + "example.pdf", SaveFormat.Pdf);//Error occurs here
+namespace AsposeCellsExamples
+{
+    public class FontConfigsMethodSetFontFolderWithStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some text to cell A1
+            worksheet.Cells["A1"].PutValue("Sample Text with Custom Font");
+            
+            // Set custom font folder and specify whether to include subfolders
+            FontConfigs.SetFontFolder("Fonts", true);
+            
+            // Apply a font style that might use fonts from the custom folder
+            Style style = worksheet.Cells["A1"].GetStyle();
+            style.Font.Name = "CustomFont"; // Assuming "CustomFont" exists in the Fonts folder
+            style.Font.Size = 14;
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Save the workbook to PDF
+            workbook.Save("output.pdf", SaveFormat.Pdf);
+        }
+    }
 }
 ```
 

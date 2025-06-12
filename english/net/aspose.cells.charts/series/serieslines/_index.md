@@ -16,26 +16,50 @@ public Line SeriesLines { get; }
 ### Examples
 
 ```csharp
-// Called: serie.SeriesLines.Weight = Aspose.Cells.Drawing.WeightType.SingleLine;
-public void Series_Property_SeriesLines()
-{
-    Workbook book = new Workbook();
-    Worksheet sheet = book.Worksheets[0];
-    int chartIndex = sheet.Charts.Add(ChartType.Scatter, 10, 2, 20, 10);
-    Chart chart = sheet.Charts[chartIndex];
-    int seriesIndex = chart.NSeries.Add("{10,20,30,40}", true);
-    Series serie = chart.NSeries[seriesIndex];
-    serie.Smooth = true;
-    serie.Type = ChartType.Line;
-    serie.SeriesLines.Color = Color.Red;
-    serie.SeriesLines.Weight = Aspose.Cells.Drawing.WeightType.SingleLine;
-    book.Save(Constants.destPath + "example.xlsx");
-    book.Dispose();
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    chart = book.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.NSeries[0].Type, ChartType.Line, "ChartType");
-    Assert.AreEqual(chart.NSeries[0].Marker.MarkerStyle, ChartMarkerType.None, "ChartType");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class SeriesPropertySeriesLinesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("X");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["A4"].PutValue(3);
+            worksheet.Cells["A5"].PutValue(4);
+            
+            worksheet.Cells["B1"].PutValue("Y");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 5, 0, 20, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add series
+            chart.NSeries.Add("B2:B5", true);
+            chart.NSeries.CategoryData = "A2:A5";
+            
+            // Customize series lines
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            series.SeriesLines.Color = Color.Red;
+            series.SeriesLines.Weight = Aspose.Cells.Drawing.WeightType.SingleLine;
+            
+            // Save the workbook
+            workbook.Save("SeriesLinesDemo.xlsx");
+        }
+    }
 }
 ```
 

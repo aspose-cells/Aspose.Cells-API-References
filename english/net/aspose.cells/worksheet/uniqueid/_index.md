@@ -16,15 +16,35 @@ public string UniqueId { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(id, workbook.Worksheets[0].UniqueId);
-public void Worksheet_Property_UniqueId()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string id = "{" + Guid.NewGuid().ToString() + "}";
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].UniqueId = id;
-    workbook.Save(Constants.destPath + "SheetUniqueId.xlsx");
-    workbook = new Workbook(Constants.destPath + "SheetUniqueId.xlsx");
-    Assert.AreEqual(id, workbook.Worksheets[0].UniqueId);
+    public class WorksheetPropertyUniqueIdDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Generate a unique ID for the worksheet
+            string uniqueId = "{" + Guid.NewGuid().ToString() + "}";
+            
+            // Set the UniqueId property of the first worksheet
+            workbook.Worksheets[0].UniqueId = uniqueId;
+            
+            // Save the workbook
+            string outputPath = "SheetUniqueIdDemo.xlsx";
+            workbook.Save(outputPath);
+            
+            // Reload the workbook to verify the UniqueId persists
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            
+            // Output the UniqueId to demonstrate functionality
+            Console.WriteLine("Worksheet UniqueId: " + loadedWorkbook.Worksheets[0].UniqueId);
+        }
+    }
 }
 ```
 

@@ -16,13 +16,37 @@ public int NumberOfColumns { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
-public void ShapeTextAlignment_Property_NumberOfColumns()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
+    public class ShapeTextAlignmentPropertyNumberOfColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to the worksheet
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 200, 50);
+            
+            // Set text for the shape
+            shape.Text = "This is sample text\nin multiple columns";
+            
+            // Access text alignment and set number of columns
+            shape.TextBody.TextAlignment.NumberOfColumns = 2;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Verify the property
+            Console.WriteLine("Number of columns: " + 
+                worksheet.Shapes[0].TextBody.TextAlignment.NumberOfColumns);
+        }
+    }
 }
 ```
 

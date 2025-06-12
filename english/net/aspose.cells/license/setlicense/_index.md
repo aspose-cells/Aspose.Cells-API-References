@@ -35,22 +35,24 @@ Tries to find the license in the following locations:
 
 ### Examples
 
-In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-License license = new License();
-license.SetLicense("MyLicense.lic");
-
-
-[Visual Basic]
-
-Dim license As License = New License
-license.SetLicense("MyLicense.lic")
+namespace AsposeCellsExamples
+{
+    public class LicenseMethodSetLicenseWithStringDemo
+    {
+        public static void Run()
+        {
+            License license = new License();
+            license.SetLicense("MyLicense.lic");
+            
+            Console.WriteLine("License set successfully.");
+        }
+    }
+}
 ```
-
-Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode.
 
 ### See Also
 
@@ -79,16 +81,27 @@ Use this method to load a license from a stream.
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using System.IO;
+using Aspose.Cells;
 
-License license = new License();
-license.SetLicense(myStream);
-
-
-[Visual Basic]
-
-Dim license as License = new License
-license.SetLicense(myStream)
+namespace AsposeCellsExamples
+{
+    public class LicenseMethodSetLicenseWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a memory stream with license file content
+            byte[] licenseBytes = File.ReadAllBytes("Aspose.Cells.lic");
+            using (MemoryStream myStream = new MemoryStream(licenseBytes))
+            {
+                License license = new License();
+                license.SetLicense(myStream);
+                Console.WriteLine("License set successfully.");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

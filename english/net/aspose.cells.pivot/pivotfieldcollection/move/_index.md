@@ -21,18 +21,55 @@ public void Move(int currPos, int destPos)
 ### Examples
 
 ```csharp
-// Called: pt.RowFields.Move(1, 2);
-public void PivotFieldCollection_Method_Move()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA42604_";
-    Workbook workbook = new Workbook(filePath + "pivot.xlsx");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    pt.AddFieldToArea(PivotFieldType.Row, 1);
-    pt.AddFieldToArea(PivotFieldType.Row, 2);
-    pt.AddFieldToArea(PivotFieldType.Row, 3);
-    string str = pt.RowFields[1].Name;
-    pt.RowFields.Move(1, 2);
-    Assert.AreEqual(str, pt.RowFields[2].Name);
+    public class PivotFieldCollectionMethodMoveWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Create sample data
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 10;
+            cells["B3"].Value = 15;
+            cells["B4"].Value = 20;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add fields to row area
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
+            
+            Console.WriteLine("Before move:");
+            for (int i = 0; i < pivotTable.RowFields.Count; i++)
+            {
+                Console.WriteLine($"Field {i}: {pivotTable.RowFields[i].Name}");
+            }
+            
+            // Move the first field to position 1
+            pivotTable.RowFields.Move(0, 1);
+            
+            Console.WriteLine("\nAfter move:");
+            for (int i = 0; i < pivotTable.RowFields.Count; i++)
+            {
+                Console.WriteLine($"Field {i}: {pivotTable.RowFields[i].Name}");
+            }
+        }
+    }
 }
 ```
 

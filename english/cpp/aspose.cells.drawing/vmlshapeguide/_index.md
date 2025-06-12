@@ -4,7 +4,7 @@ linktitle: VmlShapeGuide
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::VmlShapeGuide class. just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape in C++.'
 type: docs
-weight: 7200
+weight: 7400
 url: /cpp/aspose.cells.drawing/vmlshapeguide/
 ---
 ## VmlShapeGuide class

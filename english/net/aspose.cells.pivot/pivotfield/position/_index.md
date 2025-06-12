@@ -16,29 +16,34 @@ public int Position { get; }
 ### Examples
 
 ```csharp
-// Called: pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
-public void PivotField_Property_Position()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46429_";
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPage(pt.PageFields[0]);
-    pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
-    pt.ShowReportFilterPageByName(pt.PageFields[0].Name);
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    Assert.AreEqual(wb.Worksheets.Count, 17);
-    Assert.AreEqual(wb.Worksheets[15].Name.EndsWith("(5)"), true);
-    Assert.AreEqual(wb.Worksheets[12].Name.EndsWith("(4)"), true);
-    Assert.AreEqual(wb.Worksheets[9].Name.EndsWith("(3)"), true);
-    Assert.AreEqual(wb.Worksheets[6].Name.EndsWith("(2)"), true);
-
-    Assert.AreEqual("18", wb.Worksheets[1].Cells["A4"].StringValue);
-    Assert.AreEqual("22", wb.Worksheets[2].Cells["A4"].StringValue);
-    Assert.AreEqual("18", wb.Worksheets[3].Cells["A4"].StringValue);
-
-
+    public class PivotFieldPropertyPositionDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook wb = new Workbook("NET46429_a.xlsx");
+            
+            // Access first worksheet and its pivot table
+            Worksheet ws = wb.Worksheets[0];
+            PivotTable pt = ws.PivotTables[0];
+            
+            // Demonstrate Position property usage
+            int position = pt.PageFields[0].Position;
+            Console.WriteLine("Position of first page field: " + position);
+            
+            // Use position to show report filter pages
+            pt.ShowReportFilterPageByIndex(position);
+            
+            // Save the workbook
+            wb.Save("PivotFieldPropertyPositionDemo_out.xlsx");
+        }
+    }
 }
 ```
 

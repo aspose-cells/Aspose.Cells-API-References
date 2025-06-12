@@ -4,7 +4,7 @@ linktitle: FillType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::FillType enum. Fill format type in C++.'
 type: docs
-weight: 8100
+weight: 8300
 url: /cpp/aspose.cells.drawing/filltype/
 ---
 ## FillType enum

@@ -16,14 +16,46 @@ public FillPattern Pattern { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
-public void PatternFill_Property_Pattern()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Chart chart = workbook.Worksheets[0].Charts[6];
-    Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
-    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.FillType, FillType.Pattern);
-    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
+    public class PatternFillPropertyPatternDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+            
+            // Set fill pattern for first series
+            chart.NSeries[0].Area.FillFormat.FillType = FillType.Pattern;
+            chart.NSeries[0].Area.FillFormat.PatternFill.Pattern = FillPattern.WideDownwardDiagonal;
+            
+            // Save the workbook
+            workbook.Save("PatternFillDemo.xlsx");
+        }
+    }
 }
 ```
 

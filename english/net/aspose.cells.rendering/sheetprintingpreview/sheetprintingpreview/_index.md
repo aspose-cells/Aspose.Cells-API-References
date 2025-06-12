@@ -21,23 +21,40 @@ public SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: SheetPrintingPreview srp = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
-public void SheetPrintingPreview_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
+    public class SheetPrintingPreviewMethodctorWithWorksheetImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to worksheet
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
 
-    PageSetup pageSetup = wb.Worksheets[0].PageSetup;
-    pageSetup.PrintArea = "1:59";
-    pageSetup.SetFitToPages(0, 1);
+            // Create image/print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.PrintingPage = PrintingPageType.Default;
 
-    SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
-    int zoom = (int)(sr.PageScale * 100 + 0.5);
-    Assert.AreEqual(64, zoom);
-
-    pageSetup.Zoom = zoom;
-    pageSetup.PrintArea = null;
-    SheetPrintingPreview srp = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
-    Assert.AreEqual(6, srp.EvaluatedPageCount);
+            // Create sheet printing preview
+            SheetPrintingPreview preview = new SheetPrintingPreview(worksheet, options);
+            
+            // Output the evaluated page count
+            Console.WriteLine($"Evaluated page count: {preview.EvaluatedPageCount}");
+        }
+    }
 }
 ```
 

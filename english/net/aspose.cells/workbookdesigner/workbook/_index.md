@@ -16,21 +16,60 @@ public Workbook Workbook { get; set; }
 ### Examples
 
 ```csharp
-// Called: designer.Workbook = new Workbook(Constants.sourcePath + "example.xls");
-public void WorkbookDesigner_Property_Workbook()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    WorkbookDesigner designer = new WorkbookDesigner();
-    //designer.Open(Constants.sourcePath + "example.xls");
-    designer.Workbook = new Workbook(Constants.sourcePath + "example.xls");
-    System.Collections.Generic.ICollection<Person> list = new System.Collections.Generic.List<Person>();
-    list.Add(new Person("simon", 30));
-    list.Add(new Person("Johnson", 33));
-    designer.SetDataSource("Person", list);
-    designer.Process(false);
-    Cells cells = designer.Workbook.Worksheets["CustomObjects"].Cells;
-    Assert.AreEqual(cells["A2"].StringValue, "simon");
-    Assert.AreEqual(cells["A3"].StringValue, "Johnson");
-    designer.Workbook.Save(Constants.destPath + "example.xls");
+    public class Person1
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public Person1(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+
+    public class WorkbookDesignerPropertyWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook designer
+            WorkbookDesigner designer = new WorkbookDesigner();
+            
+            // Set the workbook property with a new workbook
+            designer.Workbook = new Workbook();
+            
+            // Add a worksheet and some template markers
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("&Person.Name");
+            worksheet.Cells["B1"].PutValue("&Person.Age");
+
+            // Create data source
+            List<Person1> persons = new List<Person1>
+            {
+                new Person1("John", 25),
+                new Person1("Mary", 30)
+            };
+
+            // Set data source and process
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            // Output results
+            Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue); // Should output "John"
+            Console.WriteLine("B2: " + worksheet.Cells["B2"].IntValue);   // Should output 25
+            Console.WriteLine("A3: " + worksheet.Cells["A3"].StringValue); // Should output "Mary"
+            Console.WriteLine("B3: " + worksheet.Cells["B3"].IntValue);   // Should output 30
+
+            // Save the workbook
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

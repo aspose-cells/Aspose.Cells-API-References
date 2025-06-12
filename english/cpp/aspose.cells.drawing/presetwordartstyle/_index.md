@@ -4,7 +4,7 @@ linktitle: PresetWordArtStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PresetWordArtStyle enum. Represents the preset WordArt styles in C++.'
 type: docs
-weight: 10800
+weight: 11000
 url: /cpp/aspose.cells.drawing/presetwordartstyle/
 ---
 ## PresetWordArtStyle enum

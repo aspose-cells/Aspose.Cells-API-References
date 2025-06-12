@@ -16,15 +16,32 @@ public int FirstVisibleColumnOfRightPane { get; set; }
 ### Examples
 
 ```csharp
-// Called: panes.FirstVisibleColumnOfRightPane = 1;
-public void PaneCollection_Property_FirstVisibleColumnOfRightPane()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
-    PaneCollection panes = sheet.GetPanes();
-    panes.FirstVisibleRowOfBottomPane = 5;
-    panes.FirstVisibleColumnOfRightPane = 1;
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
+    public class PaneCollectionPropertyFirstVisibleColumnOfRightPaneDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Freeze panes by specifying row and column indices (5, 3)
+            sheet.FreezePanes(5, 3, 5, 3);
+            
+            // Get the panes collection
+            PaneCollection panes = sheet.GetPanes();
+            
+            // Set the first visible column of the right pane
+            panes.FirstVisibleColumnOfRightPane = 1;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

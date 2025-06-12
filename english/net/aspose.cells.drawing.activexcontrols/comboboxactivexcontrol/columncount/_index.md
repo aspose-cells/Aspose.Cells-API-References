@@ -16,55 +16,42 @@ public int ColumnCount { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.ColumnCount = 1;
-public static void ComboBoxActiveXControl_Property_ColumnCount()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyColumnCountDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Item");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Fruits");
             worksheet.Cells["A2"].PutValue("Apple");
             worksheet.Cells["A3"].PutValue("Banana");
             worksheet.Cells["A4"].PutValue("Cherry");
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Add ComboBox ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 1, 0, 1, 0, 100, 20);
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl comboBox = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
-            comboBox.ListRows = 3;
+            // Set ColumnCount property and other properties
             comboBox.ColumnCount = 1;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Set the MatchEntry type to Complete
-            comboBox.IsEditable = true;
-
-            // Add items to the ComboBox
+            comboBox.ListWidth = 100;
             comboBox.Value = "Apple;Banana;Cherry";
 
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the ListBox
-            listBox.ListWidth = 100;
-            listBox.ColumnCount = 1;
-            listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
-            listBox.SelectionType = SelectionType.Single;
-
-            // Add items to the ListBox
-            listBox.Value = "Apple;Banana;Cherry";
-
             // Save the workbook
-            workbook.Save("ControlMatchEntryTypeExample.xlsx");
-            workbook.Save("ControlMatchEntryTypeExample.pdf");
+            workbook.Save("ComboBoxColumnCountDemo.xlsx");
 
-            // Output the results
-            Console.WriteLine("ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx");
+            Console.WriteLine("ComboBox with ColumnCount=1 has been created and saved.");
         }
+    }
+}
 ```
 
 ### See Also

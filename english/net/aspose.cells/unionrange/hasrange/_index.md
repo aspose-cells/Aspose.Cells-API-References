@@ -16,18 +16,38 @@ public bool HasRange { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(r.HasRange);
-public void UnionRange_Property_HasRange()
-{
-    Workbook workbook = new Workbook();
-    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-    Assert.IsTrue(r.HasRange);
-    r.Value = "ABCD";
-    Style style = workbook.CreateStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = System.Drawing.Color.Red;
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class UnionRangePropertyHasRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a union range using the correct API
+            UnionRange unionRange = workbook.Worksheets.CreateUnionRange("A1:A5,B1:B5", 0);
+            
+            // Check if the union range has valid ranges
+            Console.WriteLine("UnionRange has ranges: " + unionRange.HasRange);
+            
+            // Set value and style only if the range is valid
+            if (unionRange.HasRange)
+            {
+                unionRange.Value = "Test Value";
+                
+                Style style = workbook.CreateStyle();
+                style.Pattern = BackgroundType.Solid;
+                style.ForegroundColor = System.Drawing.Color.LightBlue;
+                unionRange.ApplyStyle(style, new StyleFlag { All = true });
+            }
+            
+            workbook.Save("UnionRangeHasRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

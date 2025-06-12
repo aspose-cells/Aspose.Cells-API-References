@@ -16,29 +16,39 @@ public void AutoFitRows()
 ### Examples
 
 ```csharp
-// Called: ws.AutoFitRows();
-public void Worksheet_Method_AutoFitRows()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47882/";
-    string savePath = CreateFolder(filePath);
-
-    string bgresult = System.IO.File.ReadAllText(filePath + "HtmlPage9.html");
-    using (MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(bgresult)))
+    public class WorksheetMethodAutoFitRowsDemo
     {
-        HtmlLoadOptions options = new HtmlLoadOptions(LoadFormat.Html);
-        options.AutoFitColsAndRows = true;//IF WE COMMENT THIS LINE, THE CODE WORKS FINE
-
-        Workbook wb = new Workbook(stream, options);
-
-        Worksheet ws = wb.Worksheets[0];
-        ws.Name = "Test";
-        ws.AutoFitRows();
-        ws.AutoFitColumns();
-
-        PageSetup pageSetup = ws.PageSetup;
-        pageSetup.SetHeader(1, string.Format("&\"Times New Roman,Bold\"Title: {0} {1} {2}", "Test BillingGuide Name", "Enabled", DateTime.Now.ToString("yyyy-mm-dd")));
-
-        wb.Save(savePath + "HtmlPage9.xlsx", SaveFormat.Xlsx);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("This is a test string for AutoFitRows demonstration");
+            worksheet.Cells["A2"].PutValue("Another line of text\nwith line break to show row height adjustment");
+            worksheet.Cells["B1"].PutValue("Column B content");
+            
+            // AutoFit the rows
+            worksheet.AutoFitRows();
+            
+            // AutoFit the columns for better visibility
+            worksheet.AutoFitColumns();
+            
+            // Save the workbook
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "AutoFitRowsDemo.xlsx");
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+            
+            Console.WriteLine("Worksheet with AutoFitRows saved to: " + outputPath);
+        }
     }
 }
 ```
@@ -66,12 +76,32 @@ public void AutoFitRows(bool onlyAuto)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[1].AutoFitRows(true);
-public void Worksheet_Method_AutoFitRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "new_fangled_spreadsheet.xls");
-    workbook.Worksheets[1].AutoFitRows(true);
-    Assert.AreEqual(workbook.Worksheets[1].Cells.GetRowHeight(131), 276.1);
+    public class WorksheetMethodAutoFitRowsWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample text to cells to demonstrate row autofit
+            worksheet.Cells["A1"].PutValue("This is a sample text that will demonstrate AutoFitRows functionality");
+            worksheet.Cells["A2"].PutValue("Another line of text\nwith line breaks\nto show multi-line row adjustment");
+            
+            // AutoFit rows with auto-merge consideration
+            worksheet.AutoFitRows(true);
+            
+            // Save the workbook
+            workbook.Save("AutoFitRowsDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -98,17 +128,41 @@ public void AutoFitRows(AutoFitterOptions options)
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFitRows(new AutoFitterOptions
-private static void Worksheet_Method_AutoFitRows(Worksheet worksheet)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitRowsWithAutoFitterOptionsDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data and formatting
+            worksheet.Cells["A1"].PutValue("This is a long text that will need auto-fitting");
+            worksheet.Cells["A2"].PutValue("Another long text\nwith multiple lines\nfor demonstration");
+            
+            // Merge cells to demonstrate merged cell auto-fitting
+            worksheet.Cells.Merge(3, 0, 2, 1);
+            worksheet.Cells["A3"].PutValue("Merged cells text that needs to fit");
+
+            // AutoFit rows with specific options
             worksheet.AutoFitRows(new AutoFitterOptions
             {
                 AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
                 AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = int.MaxValue,
+                MaxRowHeight = 100,  // Set reasonable max height
                 OnlyAuto = true
             });
+
+            // Save the workbook
+            workbook.Save("AutoFitRowsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -136,58 +190,43 @@ public void AutoFitRows(int startRow, int endRow)
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFitRows(0, 8);
-public void Worksheet_Method_AutoFitRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Cells cells = sheet.Cells;
-    Cell testCell = cells[0, 0];
-    testCell.Value = "text";
-    Style cellStyle = testCell.GetStyle();
-    cellStyle.SetBorder(BorderType.BottomBorder, CellBorderType.Double, System.Drawing.Color.Black);
-    testCell.SetStyle(cellStyle);
+    public class WorksheetMethodAutoFitRowsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-    testCell = cells[1, 1];
-    testCell.Value = "text";
-    cellStyle = testCell.GetStyle();
-    cellStyle.SetBorder(BorderType.BottomBorder, CellBorderType.MediumDashDot, System.Drawing.Color.Black);
-    testCell.SetStyle(cellStyle);
+            // Populate cells with sample data and styles
+            for (int i = 0; i <= 8; i++)
+            {
+                Cell cell = cells[i, i];
+                cell.Value = "Sample text for row " + i;
+                
+                if (i % 2 == 0)
+                {
+                    Style style = cell.GetStyle();
+                    style.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, System.Drawing.Color.Black);
+                    cell.SetStyle(style);
+                }
+            }
 
-    testCell = cells[2, 2];
-    testCell.Value = "text";
+            // Auto-fit rows from index 0 to 8
+            sheet.AutoFitRows(0, 8);
 
-    testCell = cells[4, 4];
-    testCell.Value = "text";
-
-    testCell = cells[5, 5];
-    testCell.Value = "text";
-    cellStyle = testCell.GetStyle();
-    cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Thick, System.Drawing.Color.Black);
-    testCell.SetStyle(cellStyle);
-
-    testCell = cells[7, 7];
-    testCell.Value = "text";
-    cellStyle = testCell.GetStyle();
-    cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Thick, System.Drawing.Color.Black);
-    testCell.SetStyle(cellStyle);
-
-    testCell = cells[8, 8];
-    testCell.Value = "text";
-    cellStyle = testCell.GetStyle();
-    cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Medium, System.Drawing.Color.Black);
-    testCell.SetStyle(cellStyle);
-
-    sheet.AutoFitRows(0, 8);
-    Assert.AreEqual(18, cells.GetRowHeightPixel(0), "Height of row(0) with ThickBottom border");
-    Assert.AreEqual(19, cells.GetRowHeightPixel(1), "Height of row(1) with ThickTop&MediumBottom border");
-    Assert.AreEqual(17, cells.GetRowHeightPixel(2), "Height of row(2) with MediumTop border");
-    Assert.AreEqual(17, cells.GetRowHeightPixel(3), "Height of row(3) without instance");
-    Assert.AreEqual(18, cells.GetRowHeightPixel(4), "Height of row(4) with ThickBottom border");
-    Assert.AreEqual(18, cells.GetRowHeightPixel(5), "Height of row(5) with ThickTop border");
-    Assert.AreEqual(17, cells.GetRowHeightPixel(6), "Height of row(6) withithout instance");
-    Assert.AreEqual(19, cells.GetRowHeightPixel(7), "Height of row(7) with ThickTop&MidiumBottom border");
-    Assert.AreEqual(17, cells.GetRowHeightPixel(8), "Height of row(8) with MediumTop border");
+            // Output the resulting row heights
+            for (int i = 0; i <= 8; i++)
+            {
+                Console.WriteLine($"Row {i} height: {cells.GetRowHeightPixel(i)} pixels");
+            }
+        }
+    }
 }
 ```
 
@@ -216,27 +255,37 @@ public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFitRows(6, 6, autoFitterOptions);
-        public void Worksheet_Method_AutoFitRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitRowsWithInt32Int32AutoFitterOptionsDemo
+    {
+        public static void Run()
         {
-            AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
-            autoFitterOptions.OnlyAuto = true;
-
-            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsCloud_1.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             
-
-            Worksheet sheet = wb.Worksheets["ICE Trip Ticket5"];
-
-            Assert.AreEqual(15,sheet.Cells.GetRowHeight(6));
-            sheet.AutoFitRows(6, 6, autoFitterOptions);
-            Assert.AreEqual(15, sheet.Cells.GetRowHeight(6));
-
-            wb = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsCloud_2.xlsx");
-            wb.Worksheets[0].AutoFitRows();
-#if !NETCOREAPP2_0
-            Assert.AreEqual(42.75, wb.Worksheets[0].Cells.GetRowHeight(0));
-#endif
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("This is a test string for auto-fit row height demonstration");
+            worksheet.Cells["A2"].PutValue("Another line\nwith multiple lines\nof text");
+            
+            // Create auto fitter options
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.OnlyAuto = true;
+            
+            // Auto fit rows 0 to 1 with options
+            worksheet.AutoFitRows(0, 1, options);
+            
+            // Save the workbook
+            workbook.Save("AutoFitRowsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

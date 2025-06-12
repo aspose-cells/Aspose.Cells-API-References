@@ -16,15 +16,32 @@ public byte GroupLevel { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
-public void Column_Property_GroupLevel()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdfsdf");
-    workbook.Worksheets[0].AutoFitColumns();
-    workbook.Save(Constants.destPath + "GroupLevel0.xlsx");
-    workbook = new Workbook(Constants.destPath + "GroupLevel0.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
+    public class ColumnPropertyGroupLevelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Group columns (isHidden parameter set to false)
+            worksheet.Cells.GroupColumns(0, 2, false);
+            
+            // Get the group level of the first column
+            int groupLevel = worksheet.Cells.Columns[0].GroupLevel;
+            
+            // Output the group level
+            Console.WriteLine("Group level of first column: " + groupLevel);
+            
+            // Save the workbook
+            workbook.Save("GroupLevelDemo.xlsx");
+        }
+    }
 }
 ```
 

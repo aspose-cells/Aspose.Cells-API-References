@@ -16,20 +16,36 @@ public bool IsBlank { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(rowSrc.IsBlank, rowDest.IsBlank, info + ".IsBlank");
-public static void Row_Property_IsBlank(Row rowSrc, Row rowDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class RowPropertyIsBlankDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(rowSrc, rowDest, info))
-            {
-                return;
-            }
-            //AssertHelper.AreEqual(rowSrc.EndHere, rowDest.EndHere, info + ".EndHere");
-            AssertHelper.AreEqual(rowSrc.IsBlank, rowDest.IsBlank, info + ".IsBlank");
-            AssertHelper.AreEqual(rowSrc.IsHeightMatched, rowDest.IsHeightMatched, info + ".IsHeightMatched");
-            //AssertHelper.AreEqual(rowSrc.IsHidden, rowDest.IsHidden, info + ".IsHidden");
-            //AssertHelper.AreEqual(rowSrc.OutlineLevel, rowDest.OutlineLevel, info + ".OutlineLevel");
-            StylesTest.Check(rowSrc.GetStyle(), rowDest.GetStyle(), info + ".Style");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get first row (initially blank)
+            Row row1 = worksheet.Cells.Rows[0];
+            Console.WriteLine("Row 1 IsBlank: " + row1.IsBlank); // True
+            
+            // Add data to first row
+            worksheet.Cells["A1"].PutValue("Test");
+            Console.WriteLine("Row 1 IsBlank after adding data: " + row1.IsBlank); // False
+            
+            // Create another blank row
+            Row row2 = worksheet.Cells.Rows[1];
+            Console.WriteLine("Row 2 IsBlank: " + row2.IsBlank); // True
+            
+            // Compare row blank status
+            Console.WriteLine("Rows have same IsBlank status: " + (row1.IsBlank == row2.IsBlank)); // False
         }
+    }
+}
 ```
 
 ### See Also

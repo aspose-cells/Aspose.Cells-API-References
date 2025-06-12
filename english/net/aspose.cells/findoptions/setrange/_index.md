@@ -20,18 +20,40 @@ public void SetRange(CellArea ca)
 ### Examples
 
 ```csharp
-// Called: rangeOptions.SetRange(cellarea);
-private void FindOptions_Method_SetRange(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellArea cellarea = common.setCellArea(1, 1, 3, 3);
-             rangeOptions.SetRange(cellarea);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class FindOptionsMethodSetRangeWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some data
+            worksheet.Cells["A1"].PutValue("abc");
+            worksheet.Cells["B2"].PutValue("def");
+            worksheet.Cells["C3"].PutValue("abc");
+            
+            // Create FindOptions and set search range
+            FindOptions rangeOptions = new FindOptions();
+            CellArea cellarea = new CellArea();
+            cellarea.StartRow = 1;
+            cellarea.StartColumn = 1;
+            cellarea.EndRow = 3;
+            cellarea.EndColumn = 3;
+            rangeOptions.SetRange(cellarea);
+            
+            // Search within the specified range
             rangeOptions.SearchBackward = false;
-            Cell cell = cells.Find("abc", null,  rangeOptions);
-            testAreEqual(1, cell.Row, caseName);
-            testAreEqual(3, cell.Column, caseName);
+            Cell foundCell = worksheet.Cells.Find("abc", null, rangeOptions);
+            
+            Console.WriteLine("Found 'abc' at row: " + foundCell.Row + ", column: " + foundCell.Column);
         }
+    }
+}
 ```
 
 ### See Also

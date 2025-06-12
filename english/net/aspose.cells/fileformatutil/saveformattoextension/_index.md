@@ -24,28 +24,43 @@ The returned extension is a lower-case string with a leading dot.
 ### Examples
 
 ```csharp
-// Called: string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
-private void FileFormatUtil_Method_SaveFormatToExtension(string plugin, SaveOptions saveOptions)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FileFormatUtilMethodSaveFormatToExtensionWithSaveFormatDemo
+    {
+        public static void Run()
         {
-            string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
-            string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? "Water marker" : "Extra eval sheet";
-            Workbook wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value BEFORE calculation\".");
-            Stream streamExcluded = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-            wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + " should NOT be added. Next line should be \"Value BEFORE calculation\".");
-            Stream streamLicensed = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-            wb.Dispose();
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test content");
 
-            SetExclude(plugin);
-            LicenseTest.CountLimit(false);
-            ProcessLowCode(streamExcluded, saveOptions, plugin + "Excluded" + ext);
-            streamExcluded = null;
+            // Demonstrate SaveFormatToExtension with different formats
+            SaveOptions[] saveOptions = {
+                new PdfSaveOptions(),
+                new XlsSaveOptions(SaveFormat.Excel97To2003),
+                new OoxmlSaveOptions(SaveFormat.Xlsx),
+                new OdsSaveOptions()
+            };
 
-            SetLicense(plugin);
-            ProcessLowCode(streamLicensed, saveOptions, plugin + "Licensed" + ext);
-            streamLicensed = null;
+            foreach (var options in saveOptions)
+            {
+                string extension = FileFormatUtil.SaveFormatToExtension(options.SaveFormat);
+                Console.WriteLine($"SaveFormat: {options.SaveFormat} -> Extension: {extension}");
+                
+                // Save with the detected extension
+                string fileName = $"output{extension}";
+                workbook.Save(fileName, options);
+                Console.WriteLine($"Saved file: {fileName}");
+            }
+
+            workbook.Dispose();
         }
+    }
+}
 ```
 
 ### See Also

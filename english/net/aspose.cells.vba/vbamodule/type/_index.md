@@ -16,21 +16,35 @@ public VbaModuleType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(lModules[i].Type);
-public void VbaModule_Property_Type()
- {
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
 
-     Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-     VbaProject lVbaProject = wb.VbaProject;
-     VbaModuleCollection lModules = lVbaProject.Modules;
-     for (int i = 0; i < lModules.Count; i++)
-     {
-        string name = lModules[i].Name;
-         Console.WriteLine(lModules[i].Type);
-         string codes = lModules[i].Codes;
-     }
-     wb.Save(Constants.destPath + "example.xlsm");
- }
+namespace AsposeCellsExamples
+{
+    public class VbaModulePropertyTypeDemo
+    {
+        public static void Run()
+        {
+            // Create workbook with sample macro-enabled file
+            Workbook wb = new Workbook("example.xlsm");
+            
+            // Access VBA project and modules
+            VbaProject vbaProject = wb.VbaProject;
+            VbaModuleCollection modules = vbaProject.Modules;
+            
+            // Display module types and names
+            for (int i = 0; i < modules.Count; i++)
+            {
+                Console.WriteLine($"Module Name: {modules[i].Name}");
+                Console.WriteLine($"Module Type: {modules[i].Type}");
+                Console.WriteLine();
+            }
+            
+            wb.Save("output.xlsm");
+        }
+    }
+}
 ```
 
 ### See Also

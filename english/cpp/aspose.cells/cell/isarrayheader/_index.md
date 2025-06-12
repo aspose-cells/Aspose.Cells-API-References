@@ -4,7 +4,7 @@ linktitle: IsArrayHeader
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsArrayHeader method. Indicates the cell''s formula is an array formula and it is the first cell of the array in C++.'
 type: docs
-weight: 4500
+weight: 4600
 url: /cpp/aspose.cells/cell/isarrayheader/
 ---
 ## Cell::IsArrayHeader method

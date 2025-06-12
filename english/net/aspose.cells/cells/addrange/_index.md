@@ -20,20 +20,36 @@ public void AddRange(Range rangeObject)
 ### Examples
 
 ```csharp
-// Called: cells.AddRange(range);
-public void Cells_Method_AddRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange("A1", "B2");
-    cells.AddRange(range);
-    range.Name = "TestNamedRange";
-    cells.InsertColumn(1);
-    cells.InsertRow(1);
-    Assert.AreEqual(range.RowCount, 3);
-    Assert.AreEqual(range.ColumnCount, 3);
-    cells.InsertColumns(1, 4);
-    Assert.AreEqual(range.ColumnCount, 7);
+    public class CellsMethodAddRangeWithRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set some sample data in the range
+            cells["A1"].PutValue("A1");
+            cells["A2"].PutValue("A2");
+            cells["B1"].PutValue("B1");
+            cells["B2"].PutValue("B2");
+
+            // Create a range and add it using AddRange
+            Aspose.Cells.Range range = cells.CreateRange("A1", "B2");
+            cells.AddRange(range);
+
+            // Modify the worksheet to demonstrate range expansion
+            cells.InsertRow(1);
+            cells.InsertColumn(1);
+
+            Console.WriteLine($"Range now has {range.RowCount} rows and {range.ColumnCount} columns");
+        }
+    }
 }
 ```
 

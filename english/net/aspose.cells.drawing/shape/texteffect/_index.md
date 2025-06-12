@@ -16,11 +16,37 @@ public TextEffectFormat TextEffect { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if(shape.IsWordArt)
+namespace AsposeCellsExamples
 {
-    Aspose.Cells.Drawing.TextEffectFormat textEffectFormat = shape.TextEffect;
+    public class ShapePropertyTextEffectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a WordArt shape with correct parameters
+            Shape shape = worksheet.Shapes.AddWordArt(PresetWordArtStyle.WordArtStyle1, "Sample Text", 10, 10, 200, 50, 0, 0);
+
+            // Check if it's WordArt and access TextEffect properties
+            if (shape.IsWordArt)
+            {
+                TextEffectFormat textEffectFormat = shape.TextEffect;
+                textEffectFormat.FontBold = true;
+                textEffectFormat.FontItalic = true;
+                textEffectFormat.FontName = "Arial";
+                textEffectFormat.FontSize = 14;
+            }
+
+            // Save the workbook
+            workbook.Save("TextEffectDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,31 +16,51 @@ public StyleFlag[] StyleFlags { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.StyleFlags = new StyleFlag[] { styleFlag };
-public void ReplaceOptions_Property_StyleFlags()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    string ReplacementText = "wrongstyle";
-    FontSetting setting = new FontSetting(0, ReplacementText.Length, workbook.Worksheets);
-    StyleFlag styleFlag = new StyleFlag();
-    #region Set Up Options
-    ReplaceOptions options = new ReplaceOptions();
-    options.MatchEntireCellContents = false;
-    options.CaseSensitive = false;
+    public class ReplaceOptionsPropertyStyleFlagsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample text to cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("test text");
 
+            // Create replacement options
+            ReplaceOptions options = new ReplaceOptions();
+            options.MatchEntireCellContents = false;
+            options.CaseSensitive = false;
 
-    setting.Font.Color = Color.Red;
-    styleFlag.FontColor = true;
-    options.FontSettings = new FontSetting[] { setting };
-    options.StyleFlags = new StyleFlag[] { styleFlag };
-    #endregion
+            // Create font setting and style flag
+            string replacementText = "new text";
+            FontSetting setting = new FontSetting(0, replacementText.Length, workbook.Worksheets);
+            StyleFlag styleFlag = new StyleFlag();
+            
+            // Configure font and style
+            setting.Font.Color = Color.Red;
+            setting.Font.Underline = FontUnderlineType.Single;
+            styleFlag.FontColor = true;
+            styleFlag.FontUnderline = true;
 
-    // Replace Text
-    workbook.Replace("test", ReplacementText, options);
-    Cell cell = workbook.Worksheets[0].Cells["C3"];
-    Assert.AreEqual(FontUnderlineType.Single, cell.Characters(0, "wrongstyle".Length).Font.Underline);
-           
-    workbook.Save(Constants.destPath + "example.xlsx");
+            // Apply settings to options
+            options.FontSettings = new FontSetting[] { setting };
+            options.StyleFlags = new StyleFlag[] { styleFlag };
+
+            // Perform replacement
+            workbook.Replace("test", replacementText, options);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

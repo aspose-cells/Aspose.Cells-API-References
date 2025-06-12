@@ -16,31 +16,44 @@ public bool IsLink { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (!ole.IsLink)
-public void OleObject_Property_IsLink()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath  + "example.xlsm");
+using System;
+using Aspose.Cells;
 
-    foreach (Worksheet worksheet in workbook.Worksheets)
+namespace AsposeCellsExamples
+{
+    public class OleObjectPropertyIsLinkDemo
     {
-        foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
+        public static void Run()
         {
-            if (!ole.IsLink)
+            // Load the source workbook
+            Workbook workbook = new Workbook("example.xlsm");
+
+            // Process each worksheet
+            foreach (Worksheet worksheet in workbook.Worksheets)
             {
-                continue;
+                // Process each OLE object in the worksheet
+                foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
+                {
+                    // Skip if the OLE object is not linked
+                    if (!ole.IsLink)
+                    {
+                        Console.WriteLine("Skipping embedded OLE object");
+                        continue;
+                    }
+
+                    // Display and modify the linked file path
+                    Console.WriteLine("Original linked file: " + ole.ObjectSourceFullName);
+                    string newPath = ole.ObjectSourceFullName.Replace("C:", "D:");
+                    ole.ObjectSourceFullName = newPath;
+                    Console.WriteLine("Modified linked file: " + ole.ObjectSourceFullName);
+                }
             }
 
-            Console.WriteLine("OLD ObjectSourceFullName: " + ole.ObjectSourceFullName);
-            string newName = ole.ObjectSourceFullName.Replace("C:", "D:");
-            ole.ObjectSourceFullName = newName;
-            Console.WriteLine("NEW ObjectSourceFullName: " + ole.ObjectSourceFullName);
+            // Save the modified workbook
+            workbook.Save("modified_example.xlsm");
+            Console.WriteLine("File saved with updated OLE links.");
         }
-    }//foreach
-
-    workbook.Save(Constants.destPath + "example.xlsm");
-    workbook = new Workbook(Constants.destPath + "example.xlsm");
-    Assert.AreEqual(workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName, @"D:\_Work\annual business plan review.docx");
-
+    }
 }
 ```
 

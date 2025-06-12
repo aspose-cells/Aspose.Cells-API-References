@@ -16,27 +16,45 @@ public bool ShowHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: tbl.ShowHeaderRow = false;
-public void ListObject_Property_ShowHeaderRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add();
-    Worksheet ws = wb.Worksheets[0];
+    public class ListObjectPropertyShowHeaderRowDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    ws.Cells[0, 0].PutValue("TITLE"); // Not in table
-    ws.Cells[1, 0].PutValue("COLHEADER"); // header Row
-    ws.Cells[2, 0].PutValue("ROW1");
-    ws.Cells[3, 0].PutValue("ROW1");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
 
-    int index = ws.ListObjects.Add(1, 0, 3, 0, true);
-    Aspose.Cells.Tables.ListObject tbl = ws.ListObjects[index];
-    tbl.DisplayName = "TABLE";
-    tbl.TableStyleType = Aspose.Cells.Tables.TableStyleType.None;
-    tbl.UpdateColumnName();
-           
-    tbl.ShowHeaderRow = false;
-    Assert.AreEqual(ws.Cells[1, 0].StringValue, "");
+            // Create a list object/table
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 3, 0, true);
+            ListObject table = worksheet.ListObjects[tableIndex];
+            table.TableStyleType = TableStyleType.TableStyleMedium2;
+            table.ShowHeaderRow = true; // Header row is visible by default
 
+            Console.WriteLine("Header row is visible: " + table.ShowHeaderRow);
+            Console.WriteLine("Header cell value: " + worksheet.Cells["A1"].StringValue);
+
+            // Hide the header row
+            table.ShowHeaderRow = false;
+            Console.WriteLine("\nAfter setting ShowHeaderRow to false:");
+            Console.WriteLine("Header row is visible: " + table.ShowHeaderRow);
+            Console.WriteLine("Header cell value: " + worksheet.Cells["A1"].StringValue);
+
+            // Save the workbook
+            workbook.Save("ListObjectShowHeaderRowDemo.xlsx");
+        }
+    }
 }
 ```
 

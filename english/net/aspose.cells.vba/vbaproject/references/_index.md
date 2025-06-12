@@ -16,31 +16,37 @@ public VbaProjectReferenceCollection References { get; }
 ### Examples
 
 ```csharp
-// Called: targetwb.VbaProject.References.Clear();
-public void VbaProject_Property_References()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var targetwb = new Workbook();
-    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
-    targetwb.VbaProject.References.Clear();
-    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    public class VbaProjectPropertyReferencesDemo
     {
-        switch (x.Type.ToString())
+        public static void Run()
         {
-            case "Registered":
-                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                break;
+            // Create a workbook (VBA project is created automatically for .xlsm files)
+            Workbook workbook = new Workbook();
+            
+            // Access the VBA project references (only available if workbook has VBA project)
+            if (workbook.VbaProject != null)
+            {
+                VbaProjectReferenceCollection references = workbook.VbaProject.References;
+                
+                // Add different types of references
+                references.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+                references.AddControlRefrernce("MSForms", "*\\G{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0#C:\\Windows\\system32\\FM20.DLL#Microsoft Forms 2.0 Object Library", "", "");
+                references.AddProjectRefrernce("MyProject", "C:\\Projects\\MyProject.xlam", "..\\MyProject.xlam");
 
-            case "Control":
-                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
+                // Display reference count
+                Console.WriteLine($"Total references: {references.Count}");
+            }
 
-                break;
-            default: break;
+            // Save as macro-enabled workbook
+            workbook.Save("VbaProjectWithReferences.xlsm", SaveFormat.Xlsm);
         }
-
     }
-    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-    targetwb.Save(Constants.destPath + "example.xlsm");
-
 }
 ```
 

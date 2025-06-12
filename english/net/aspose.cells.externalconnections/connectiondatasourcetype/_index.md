@@ -35,24 +35,42 @@ public enum ConnectionDataSourceType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
-public void ExternalConnections_Type_ConnectionDataSourceType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    public class ExternalConnectionsClassConnectionDataSourceTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data to worksheet
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["B1"].PutValue("Sales");
+            sheet.Cells["A2"].PutValue("Item1");
+            sheet.Cells["B2"].PutValue(1000);
+            sheet.Cells["A3"].PutValue("Item2");
+            sheet.Cells["B3"].PutValue(2000);
 
-    ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
-    Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
-   Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
-   Assert.IsNull(conn.ConnectionFile);
-    Assert.IsNull(conn.ConnectionString);
-
-    Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
-
-
-    conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("Data3",conn.Command);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Create a pivot table using the worksheet data
+            var pivotTable = sheet.PivotTables.Add("A1:B3", "D1", "PivotTable1");
+            
+            // Get the connection and demonstrate ConnectionDataSourceType
+            var conn = sheet.PivotTables[0].GetSourceDataConnections()[0];
+            Console.WriteLine("Connection Name: " + conn.Name);
+            Console.WriteLine("Class Type: " + conn.ClassType);
+            Console.WriteLine("Source Type: " + conn.SourceType);
+            Console.WriteLine("Command: " + conn.Command);
+            
+            // Save the workbook
+            workbook.Save("ExternalConnectionDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -29,9 +29,37 @@ This method only works on shape with title.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-Aspose.Cells.FontSetting fontSetting = shape.Characters(0, 4);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodCharactersWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape with text
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+            shape.Text = "Sample Text";
+
+            // Get characters from index 0 with length 4
+            FontSetting fontSetting = shape.Characters(0, 4);
+            
+            // Modify the font settings
+            fontSetting.Font.Color = System.Drawing.Color.Red;
+            fontSetting.Font.Size = 14;
+            fontSetting.Font.IsBold = true;
+
+            // Save the workbook
+            workbook.Save("ShapeCharactersDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,32 +16,32 @@ public string DefaultFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.DefaultFont = "宋体";
-public void PaginatedSaveOptions_Property_DefaultFont()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    // workbook.Save(dir + "dest.pdf");
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Workbook pdfwb = new Workbook();
-
-    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    public class PaginatedSaveOptionsPropertyDefaultFontDemo
     {
-        pdfwb.Worksheets.RemoveAt(i - 1);
-    }
-    if (worksheet.IsVisible == true)
-    {
-        int s = pdfwb.Worksheets.Add();
-        pdfwb.Worksheets[s].Copy(worksheet);
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.OnePagePerSheet = true;
-    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
-    pdfSaveOptions.DefaultFont = "宋体";
-    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-    pdfSaveOptions.CheckWorkbookDefaultFont = true;
-    pdfwb.Save(Constants.destPath + "example.pdf");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("This text will use the default font");
+            worksheet.Cells["A2"].PutValue("如果默认字体支持中文，这将显示正确");
+
+            // Configure PDF save options with default font
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.DefaultFont = "宋体";
+            pdfSaveOptions.CheckWorkbookDefaultFont = true;
+
+            // Save to PDF
+            workbook.Save("output.pdf", pdfSaveOptions);
+        }
+    }
 }
 ```
 

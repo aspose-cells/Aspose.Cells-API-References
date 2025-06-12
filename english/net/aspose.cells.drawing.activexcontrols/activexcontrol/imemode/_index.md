@@ -16,30 +16,43 @@ public InputMethodEditorMode IMEMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-private void ActiveXControl_Property_IMEMode(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlPropertyIMEModeDemo
+    {
+        public static void Run()
         {
-            ToggleButtonActiveXControl control = (ToggleButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.ToggleButton, control.Type);
-            Assert.AreEqual("ToggleButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(CheckValueType.UnChecked, control.Value);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(66.755905511811, control.Width);
-            //Assert.AreEqual(41.244094488189, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            //Assert.AreEqual(-2147483640, control.ForeOleColor);
-            //Assert.AreEqual(-2147483635, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ToggleButton ActiveX control with proper coordinates
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.ToggleButton, 
+                1, 1,  // Upper-left row/column
+                1, 1,  // Upper-left row/column offsets
+                100, 50);  // Width and height
+            ToggleButtonActiveXControl toggleButton = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Set properties including IMEMode
+            toggleButton.Caption = "ToggleButton1";
+            toggleButton.PicturePosition = ControlPicturePositionType.AboveCenter;
+            toggleButton.SpecialEffect = ControlSpecialEffectType.Sunken;
+            toggleButton.IMEMode = InputMethodEditorMode.NoControl;
+
+            // Verify and output the IMEMode property
+            Console.WriteLine("ToggleButton IMEMode: " + toggleButton.IMEMode);
+
+            // Save the workbook
+            workbook.Save("ActiveXControlIMEModeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

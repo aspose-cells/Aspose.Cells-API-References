@@ -34,20 +34,52 @@ Returns a Shape object that represents the new WordArt object.
 ### Examples
 
 ```csharp
-// Called: Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
-public void ShapeCollection_Method_AddTextEffectInChart()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "ReportTest.xls");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
-        "CONFIDENTIAL", "Arial Black", 66, false, false
-         , 1200, 500, 2000, 3000);
-    MsoFillFormat wordArtFormat = wordart.FillFormat;
-    //fillFormat.ForeColor = System.Drawing.Color.Black;
-    wordArtFormat.Transparency = 0.9;
-    MsoLineFormat lineFormat = wordart.LineFormat;
-    lineFormat.IsVisible = false;
-    workbook.Save(Constants.destPath + "Test_WordArt.xls");
+    public class ShapeCollectionMethodAddTextEffectInChartWithMsoPresetTextEffectStringStrinDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
+            
+            // Add WordArt to the chart
+            Shape wordart = chart.Shapes.AddTextEffectInChart(
+                MsoPresetTextEffect.TextEffect2,
+                "SAMPLE TEXT", 
+                "Arial Black", 
+                36, 
+                false, 
+                false,
+                100,  // Left position
+                100,  // Top position
+                300,  // Width
+                200); // Height
+                
+            // Customize the WordArt appearance
+            wordart.FillFormat.Transparency = 0.7;
+            wordart.LineFormat.IsVisible = false;
+            
+            // Save the workbook
+            workbook.Save("WordArtInChart.xlsx");
+        }
+    }
 }
 ```
 

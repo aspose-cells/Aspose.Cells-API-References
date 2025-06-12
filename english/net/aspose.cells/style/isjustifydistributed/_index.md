@@ -20,13 +20,35 @@ This is typical for East Asian alignments but not typical in other contexts.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
-public void Style_Property_IsJustifyDistributed()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
+    public class StylePropertyIsJustifyDistributedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access cell B3 and set its text
+            Cell cell = worksheet.Cells["B3"];
+            cell.PutValue("Sample Text");
+
+            // Get the cell's style and set IsJustifyDistributed to true
+            Style style = cell.GetStyle();
+            style.IsJustifyDistributed = true;
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Verify the property
+            Console.WriteLine("IsJustifyDistributed: " + cell.GetStyle().IsJustifyDistributed);
+        }
+    }
 }
 ```
 

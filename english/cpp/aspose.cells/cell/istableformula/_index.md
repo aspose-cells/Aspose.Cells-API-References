@@ -4,7 +4,7 @@ linktitle: IsTableFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsTableFormula method. Indicates whether this cell is part of table formula in C++.'
 type: docs
-weight: 5000
+weight: 5100
 url: /cpp/aspose.cells/cell/istableformula/
 ---
 ## Cell::IsTableFormula method

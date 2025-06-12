@@ -16,19 +16,36 @@ public bool SheetNameAsElementName { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SheetNameAsElementName = false;
-public void XmlSaveOptions_Property_SheetNameAsElementName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    XmlSaveOptions saveOptions = new XmlSaveOptions();
-    saveOptions.SheetNameAsElementName = false;
-    workbook.Save(Constants.destPath + "example.xml", saveOptions);
-    XmlLoadOptions loadOptions = new XmlLoadOptions();
-    loadOptions.ContainsMultipleWorksheets = true;
-    workbook = new Workbook(Constants.destPath + "example.xml", loadOptions);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("Firstname", workbook.Worksheets[0].Cells["C3"].StringValue);
-            
+    public class XmlSaveOptionsPropertySheetNameAsElementNameDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Name = "EmployeeData";
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John Doe");
+
+            // Save with SheetNameAsElementName = true (default)
+            XmlSaveOptions saveOptions = new XmlSaveOptions();
+            saveOptions.SheetNameAsElementName = true;
+            workbook.Save("output_with_sheetname.xml", saveOptions);
+
+            // Save with SheetNameAsElementName = false
+            saveOptions.SheetNameAsElementName = false;
+            workbook.Save("output_without_sheetname.xml", saveOptions);
+
+            Console.WriteLine("XML files created successfully with different SheetNameAsElementName settings.");
+        }
+    }
 }
 ```
 

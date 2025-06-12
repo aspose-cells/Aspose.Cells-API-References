@@ -16,17 +16,31 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
-public void TextEffectFormat_Property_Text()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet sheet = workbook.Worksheets[2];
-    sheet.Cells["M10"].PutValue("Opps!");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    workbook.CalculateFormula();
-    sheet.Shapes.UpdateSelectedValue();
-    Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
-           
+namespace AsposeCellsExamples
+{
+    public class TextEffectFormatPropertyTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a text effect shape and set its text
+            Shape shape = sheet.Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Sample Text", 
+                "Arial", 14, false, false, 0, 0, 0, 0, 100, 100);
+
+            // Access and modify the text effect's text property
+            shape.TextEffect.Text = "Updated Text";
+
+            // Verify the text was updated
+            Console.WriteLine("Text Effect Content: " + shape.TextEffect.Text);
+        }
+    }
 }
 ```
 

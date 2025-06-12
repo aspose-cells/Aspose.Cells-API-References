@@ -36,28 +36,38 @@ All objects provided by this class are for "read" purpose only. User should not 
 ### Examples
 
 ```csharp
-// Called: CalculationCell cc = (CalculationCell)circularCellsData.Current;
-public static void Cells_Type_CalculationCell(IEnumerator circularCellsData, TextWriter writer)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassCalculationCellDemo
+    {
+        public static void Run()
         {
-            circularCellsData.MoveNext();
-            CalculationCell cc = (CalculationCell)circularCellsData.Current;
-            Worksheet sheet = cc.Worksheet;
-            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-            writer.Flush();
-            while (circularCellsData.MoveNext())
-            {
-                writer.Write("->");
-                cc = (CalculationCell)circularCellsData.Current;
-                if (cc.Worksheet != sheet)
-                {
-                    sheet = cc.Worksheet;
-                    writer.Write(sheet.Name + "!");
-                }
-                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-                writer.Flush();
-            }
-            writer.WriteLine();
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue("=A1+A2");
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Get cell reference for A3
+            Cell cell = worksheet.Cells["A3"];
+
+            // Output cell information
+            Console.WriteLine($"Worksheet: {worksheet.Name}");
+            Console.WriteLine($"Cell: A3");
+            Console.WriteLine($"Value: {cell.Value}");
+            Console.WriteLine($"Calculated Value: {cell.StringValue}");
         }
+    }
+}
 ```
 
 ### See Also

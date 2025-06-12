@@ -27,10 +27,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//add a TextBox
-int index2 = textBoxCollection.Add(1, 1, 50, 100);
+namespace AsposeCellsExamples
+{
+    public class TextBoxCollectionMethodAddWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            int index = worksheet.TextBoxes.Add(1, 1, 50, 100);
+            Console.WriteLine("TextBox added at index: " + index);
+        }
+    }
+}
 ```
 
 ### See Also

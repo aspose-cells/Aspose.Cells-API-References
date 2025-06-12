@@ -2,7 +2,7 @@
 title: Aspose::Cells::PaginatedSaveOptions::GetGridlineColor method
 linktitle: GetGridlineColor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PaginatedSaveOptions::GetGridlineColor method. Gets or sets gridline colr in C++.'
+description: 'Aspose::Cells::PaginatedSaveOptions::GetGridlineColor method. Gets or sets gridline color in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.cells/paginatedsaveoptions/getgridlinecolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/paginatedsaveoptions/getgridlinecolor/
 ## PaginatedSaveOptions::GetGridlineColor method
 
 
-Gets or sets gridline colr.
+Gets or sets gridline color.
 
 ```cpp
 Aspose::Cells::Color Aspose::Cells::PaginatedSaveOptions::GetGridlineColor()

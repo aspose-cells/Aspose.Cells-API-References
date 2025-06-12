@@ -16,32 +16,48 @@ public AbstractInterruptMonitor InterruptMonitor { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.InterruptMonitor = monitor;
-public void Workbook_Property_InterruptMonitor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA42341_";
-
-    DateTime start = DateTime.Now;
-    Workbook workbook = new Workbook(filePath + "example.xlsx");
-
-    InterruptMonitor monitor = new InterruptMonitor();
-    workbook.InterruptMonitor = monitor;
-    try
+    public class WorkbookPropertyInterruptMonitorDemo
     {
-        Console.WriteLine("Now convert");
-        monitor.Interrupt();
-        workbook.Save(CreateFolder(filePath) + "out.pdf", SaveFormat.Pdf);
-        Console.WriteLine("Converted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
-    }
-    catch (CellsException e)
-    {
-        if (e.Code == ExceptionType.Interrupted)
+        public static void Run()
         {
-            Console.WriteLine("The save thread interrupted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
-        }
-        else
-        {
-            throw e;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some data to the worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            
+            // Create and assign interrupt monitor
+            InterruptMonitor monitor = new InterruptMonitor();
+            workbook.InterruptMonitor = monitor;
+            
+            try
+            {
+                Console.WriteLine("Starting save operation...");
+                
+                // Simulate a long-running operation by interrupting immediately
+                monitor.Interrupt();
+                
+                // Attempt to save - should be interrupted
+                workbook.Save("output.pdf", SaveFormat.Pdf);
+                Console.WriteLine("Save completed successfully.");
+            }
+            catch (CellsException e)
+            {
+                if (e.Code == ExceptionType.Interrupted)
+                {
+                    Console.WriteLine("Operation was successfully interrupted.");
+                }
+                else
+                {
+                    Console.WriteLine($"Error occurred: {e.Message}");
+                }
+            }
         }
     }
 }

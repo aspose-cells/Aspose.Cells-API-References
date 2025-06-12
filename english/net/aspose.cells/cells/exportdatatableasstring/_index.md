@@ -32,14 +32,51 @@ All data in the [`Cells`](../) collection are converted to strings.
 ### Examples
 
 ```csharp
-// Called: DataTable datatable = cells.ExportDataTableAsString(0, 0, 65536, 256);
-private void Cells_Method_ExportDataTableAsString(Workbook workbook)
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableAsStringWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable datatable = cells.ExportDataTableAsString(0, 0, 65536, 256);
-            testAreEqual(65536, datatable.Rows.Count, caseName);
-            testAreEqual(256, datatable.Columns.Count, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data to cells
+            cells["A1"].PutValue("Column1");
+            cells["B1"].PutValue("Column2");
+            cells["A2"].PutValue("Value1");
+            cells["B2"].PutValue("Value2");
+
+            // Export data to DataTable as strings
+            DataTable dataTable = cells.ExportDataTableAsString(0, 0, 2, 2);
+
+            // Display the exported data
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataColumn column in dataTable.Columns)
+            {
+                Console.Write(column.ColumnName + "\t");
+            }
+            Console.WriteLine();
+            
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (var item in row.ItemArray)
+                {
+                    Console.Write(item.ToString() + "\t");
+                }
+                Console.WriteLine();
+            }
         }
+    }
+}
 ```
 
 ### See Also
@@ -78,17 +115,44 @@ All data in the [`Cells`](../) collection are converted to strings.
 ### Examples
 
 ```csharp
-// Called: dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
-public void Cells_Method_ExportDataTableAsString()
-{
-    Workbook book = new Workbook(Constants.sourcePath + "example.xls");
-    DataTable dt = new DataTable();
-    DataSet ds = new DataSet();
-    int column = book.Worksheets[0].Cells.MaxDataColumn + 1;
-    int row = book.Worksheets[0].Cells.MaxDataRow + 1;
-    dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
-    ds.Tables.Add(dt);
+using System;
+using System.Data;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableAsStringWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Export data to DataTable
+            int maxRow = worksheet.Cells.MaxDataRow + 1;
+            int maxCol = worksheet.Cells.MaxDataColumn + 1;
+            DataTable dataTable = worksheet.Cells.ExportDataTableAsString(0, 0, maxRow, maxCol, true);
+
+            // Display the exported data
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (DataColumn col in dataTable.Columns)
+                {
+                    Console.Write(row[col] + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 

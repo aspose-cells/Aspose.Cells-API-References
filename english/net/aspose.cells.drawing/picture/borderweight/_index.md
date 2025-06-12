@@ -16,21 +16,30 @@ public double BorderWeight { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
-//Get the inserted picture object
-Picture pic = worksheet.Pictures[imgIndex];
-//Set the border color of the picture
-pic.BorderLineColor = Color.Red;
-//Set the border width of the picture
-pic.BorderWeight = 3;
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PicturePropertyBorderWeightDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
+            Aspose.Cells.Drawing.Picture pic = worksheet.Pictures[imgIndex];
+            
+            pic.BorderLineColor = Color.Red;
+            pic.BorderWeight = 3;
+            
+            workbook.Save("result.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

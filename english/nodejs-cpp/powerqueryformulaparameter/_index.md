@@ -17,25 +17,37 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(PowerQueryFormula)](#constructor-powerqueryformula-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| PowerQueryFormulaType | Readonly. Gets the type of power query formula. |
+| [value](#value--)| string | Gets the value of parameter. |
+| [formulaDefinition](#formulaDefinition--)| string | Readonly. Gets the definition of the parameter. |
+| [groupName](#groupName--)| string | Readonly. Gets the name of group which contains this power query formula. |
+| [name](#name--)| string | Gets and sets the name of the power query formula. |
+| [description](#description--)| string | Gets and sets the description of the power query formula. |
+| [powerQueryFormulaItems](#powerQueryFormulaItems--)| PowerQueryFormulaItemCollection | Readonly. Gets all items of power query formula. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of power query formula. |
-| [getValue()](#getValue--)| Gets the value of parameter. |
-| [setValue(string)](#setValue-string-)| Gets the value of parameter. |
-| [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the parameter. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter. |
+| [getFormulaDefinition()](#getFormulaDefinition--)| <b>@deprecated.</b> Please use the 'formulaDefinition' property instead. Gets the definition of the parameter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getGroupName()](#getGroupName--)| Gets the name of group which contains this power query formula. |
-| [getName()](#getName--)| Gets and sets the name of the power query formula. |
-| [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
-| [getDescription()](#getDescription--)| Gets and sets the description of the power query formula. |
-| [setDescription(string)](#setDescription-string-)| Gets and sets the description of the power query formula. |
-| [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
+| [getGroupName()](#getGroupName--)| <b>@deprecated.</b> Please use the 'groupName' property instead. Gets the name of group which contains this power query formula. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the power query formula. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the power query formula. |
+| [getDescription()](#getDescription--)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
+| [setDescription(string)](#setDescription-string-)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
+| [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| <b>@deprecated.</b> Please use the 'powerQueryFormulaItems' property instead. Gets all items of power query formula. |
 
 
 ### constructor(PowerQueryFormula) {#constructor-powerqueryformula-}
@@ -51,9 +63,72 @@ constructor(obj: PowerQueryFormula);
 | --- | --- | --- |
 | obj | PowerQueryFormula | The parent object. |
 
+### type {#type--}
+
+Readonly. Gets the type of power query formula.
+
+```javascript
+type : PowerQueryFormulaType;
+```
+
+
+### value {#value--}
+
+Gets the value of parameter.
+
+```javascript
+value : string;
+```
+
+
+### formulaDefinition {#formulaDefinition--}
+
+Readonly. Gets the definition of the parameter.
+
+```javascript
+formulaDefinition : string;
+```
+
+
+### groupName {#groupName--}
+
+Readonly. Gets the name of group which contains this power query formula.
+
+```javascript
+groupName : string;
+```
+
+
+### name {#name--}
+
+Gets and sets the name of the power query formula.
+
+```javascript
+name : string;
+```
+
+
+### description {#description--}
+
+Gets and sets the description of the power query formula.
+
+```javascript
+description : string;
+```
+
+
+### powerQueryFormulaItems {#powerQueryFormulaItems--}
+
+Readonly. Gets all items of power query formula.
+
+```javascript
+powerQueryFormulaItems : PowerQueryFormulaItemCollection;
+```
+
+
 ### getType() {#getType--}
 
-Gets the type of power query formula.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula.
 
 ```javascript
 getType() : PowerQueryFormulaType;
@@ -66,7 +141,7 @@ getType() : PowerQueryFormulaType;
 
 ### getValue() {#getValue--}
 
-Gets the value of parameter.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter.
 
 ```javascript
 getValue() : string;
@@ -75,7 +150,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Gets the value of parameter.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter.
 
 ```javascript
 setValue(value: string) : void;
@@ -88,7 +163,7 @@ setValue(value: string) : void;
 
 ### getFormulaDefinition() {#getFormulaDefinition--}
 
-Gets the definition of the parameter.
+<b>@deprecated.</b> Please use the 'formulaDefinition' property instead. Gets the definition of the parameter.
 
 ```javascript
 getFormulaDefinition() : string;
@@ -106,7 +181,7 @@ isNull() : boolean;
 
 ### getGroupName() {#getGroupName--}
 
-Gets the name of group which contains this power query formula.
+<b>@deprecated.</b> Please use the 'groupName' property instead. Gets the name of group which contains this power query formula.
 
 ```javascript
 getGroupName() : string;
@@ -115,7 +190,7 @@ getGroupName() : string;
 
 ### getName() {#getName--}
 
-Gets and sets the name of the power query formula.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the power query formula.
 
 ```javascript
 getName() : string;
@@ -124,7 +199,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets and sets the name of the power query formula.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the power query formula.
 
 ```javascript
 setName(value: string) : void;
@@ -137,7 +212,7 @@ setName(value: string) : void;
 
 ### getDescription() {#getDescription--}
 
-Gets and sets the description of the power query formula.
+<b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula.
 
 ```javascript
 getDescription() : string;
@@ -146,7 +221,7 @@ getDescription() : string;
 
 ### setDescription(string) {#setDescription-string-}
 
-Gets and sets the description of the power query formula.
+<b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula.
 
 ```javascript
 setDescription(value: string) : void;
@@ -159,7 +234,7 @@ setDescription(value: string) : void;
 
 ### getPowerQueryFormulaItems() {#getPowerQueryFormulaItems--}
 
-Gets all items of power query formula.
+<b>@deprecated.</b> Please use the 'powerQueryFormulaItems' property instead. Gets all items of power query formula.
 
 ```javascript
 getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;

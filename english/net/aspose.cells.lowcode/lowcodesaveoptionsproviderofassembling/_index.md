@@ -41,6 +41,53 @@ public class LowCodeSaveOptionsProviderOfAssembling : AbstractLowCodeSaveOptions
 | virtual [Finish](../../aspose.cells.lowcode/abstractlowcodesaveoptionsprovider/finish/)(LowCodeSaveOptions) | Releases resources after processing currently split part.(Inherited from [`AbstractLowCodeSaveOptionsProvider`](../abstractlowcodesaveoptionsprovider/).) |
 | override [GetSaveOptions](../../aspose.cells.lowcode/lowcodesaveoptionsproviderofassembling/getsaveoptions/)(SplitPartInfo) | Gets the save options from which to get the output settings for currently split part. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using Aspose.Cells.Saving;
+
+    public class LowCodeClassLowCodeSaveOptionsProviderOfAssemblingDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            for (int i = 0; i < 100; i++)
+            {
+                worksheet.Cells[i, 0].Value = $"Data {i + 1}";
+            }
+
+            // Initialize and configure the save options provider
+            LowCodeSaveOptionsProviderOfAssembling provider = new LowCodeSaveOptionsProviderOfAssembling
+            {
+                PathHeader = "SplitOutput/",
+                PathTail = "_Part.xlsx",
+                UseSheetName = true,
+                SheetPrefix = "SHEET-",
+                SplitPartPrefix = "PART-",
+                BuildPathWithSheetAlways = true,
+                BuildPathWithSplitPartAlways = true,
+                SaveOptionsTemplate = new LowCodeSaveOptions { SaveFormat = SaveFormat.Xlsx }
+            };
+
+            // Configure XLSX save options with splitting using LowCodeSaveOptions
+            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions
+            {
+                SaveFormat = SaveFormat.Xlsx
+            };
+
+            // Save workbook with provider-enabled options using correct save format
+            workbook.Save("LowCodeSaveOptionsProviderOfAssemblingDemo_Output.xlsx", saveOptions.SaveFormat);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractLowCodeSaveOptionsProvider](../abstractlowcodesaveoptionsprovider/)

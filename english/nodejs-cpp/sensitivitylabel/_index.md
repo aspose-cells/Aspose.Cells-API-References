@@ -15,28 +15,93 @@ class SensitivityLabel;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [id](#id--)| string | Gets and sets the id of sensitivity label. |
+| [isEnabled](#isEnabled--)| boolean | Indicates whether the sensitivity label is enabled |
+| [assignmentType](#assignmentType--)| SensitivityLabelAssignmentType | Gets and sets the assignment method for the sensitivity label. |
+| [siteId](#siteId--)| string | Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
+| [contentMarkType](#contentMarkType--)| SensitivityLabelMarkType | Gets and sets the types of content marking that ought to be applied to a file. |
+| [isRemoved](#isRemoved--)| boolean | Indicates whether the sensitivity label was removed. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--)| Gets and sets the id of sensitivity label. |
-| [setId(string)](#setId-string-)| Gets and sets the id of sensitivity label. |
-| [isEnabled()](#isEnabled--)| Indicates whether the sensitivity label is enabled |
-| [setIsEnabled(boolean)](#setIsEnabled-boolean-)| Indicates whether the sensitivity label is enabled |
-| [getAssignmentType()](#getAssignmentType--)| Gets and sets the assignment method for the sensitivity label. |
-| [setAssignmentType(SensitivityLabelAssignmentType)](#setAssignmentType-sensitivitylabelassignmenttype-)| Gets and sets the assignment method for the sensitivity label. |
-| [getSiteId()](#getSiteId--)| Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
-| [setSiteId(string)](#setSiteId-string-)| Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
-| [getContentMarkType()](#getContentMarkType--)| Gets and sets the types of content marking that ought to be applied to a file. |
-| [setContentMarkType(SensitivityLabelMarkType)](#setContentMarkType-sensitivitylabelmarktype-)| Gets and sets the types of content marking that ought to be applied to a file. |
-| [isRemoved()](#isRemoved--)| Indicates whether the sensitivity label was removed. |
-| [setIsRemoved(boolean)](#setIsRemoved-boolean-)| Indicates whether the sensitivity label was removed. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the id of sensitivity label. |
+| [setId(string)](#setId-string-)| <b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the id of sensitivity label. |
+| [isEnabled()](#isEnabled--)| <b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the sensitivity label is enabled |
+| [setIsEnabled(boolean)](#setIsEnabled-boolean-)| <b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the sensitivity label is enabled |
+| [getAssignmentType()](#getAssignmentType--)| <b>@deprecated.</b> Please use the 'assignmentType' property instead. Gets and sets the assignment method for the sensitivity label. |
+| [setAssignmentType(SensitivityLabelAssignmentType)](#setAssignmentType-sensitivitylabelassignmenttype-)| <b>@deprecated.</b> Please use the 'assignmentType' property instead. Gets and sets the assignment method for the sensitivity label. |
+| [getSiteId()](#getSiteId--)| <b>@deprecated.</b> Please use the 'siteId' property instead. Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
+| [setSiteId(string)](#setSiteId-string-)| <b>@deprecated.</b> Please use the 'siteId' property instead. Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
+| [getContentMarkType()](#getContentMarkType--)| <b>@deprecated.</b> Please use the 'contentMarkType' property instead. Gets and sets the types of content marking that ought to be applied to a file. |
+| [setContentMarkType(SensitivityLabelMarkType)](#setContentMarkType-sensitivitylabelmarktype-)| <b>@deprecated.</b> Please use the 'contentMarkType' property instead. Gets and sets the types of content marking that ought to be applied to a file. |
+| [isRemoved()](#isRemoved--)| <b>@deprecated.</b> Please use the 'isRemoved' property instead. Indicates whether the sensitivity label was removed. |
+| [setIsRemoved(boolean)](#setIsRemoved-boolean-)| <b>@deprecated.</b> Please use the 'isRemoved' property instead. Indicates whether the sensitivity label was removed. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### id {#id--}
+
+Gets and sets the id of sensitivity label.
+
+```javascript
+id : string;
+```
+
+
+### isEnabled {#isEnabled--}
+
+Indicates whether the sensitivity label is enabled
+
+```javascript
+isEnabled : boolean;
+```
+
+
+### assignmentType {#assignmentType--}
+
+Gets and sets the assignment method for the sensitivity label.
+
+```javascript
+assignmentType : SensitivityLabelAssignmentType;
+```
+
+
+### siteId {#siteId--}
+
+Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label.
+
+```javascript
+siteId : string;
+```
+
+
+### contentMarkType {#contentMarkType--}
+
+Gets and sets the types of content marking that ought to be applied to a file.
+
+```javascript
+contentMarkType : SensitivityLabelMarkType;
+```
+
+
+### isRemoved {#isRemoved--}
+
+Indicates whether the sensitivity label was removed.
+
+```javascript
+isRemoved : boolean;
+```
 
 
 ### getId() {#getId--}
 
-Gets and sets the id of sensitivity label.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the id of sensitivity label.
 
 ```javascript
 getId() : string;
@@ -45,7 +110,7 @@ getId() : string;
 
 ### setId(string) {#setId-string-}
 
-Gets and sets the id of sensitivity label.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets and sets the id of sensitivity label.
 
 ```javascript
 setId(value: string) : void;
@@ -58,7 +123,7 @@ setId(value: string) : void;
 
 ### isEnabled() {#isEnabled--}
 
-Indicates whether the sensitivity label is enabled
+<b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the sensitivity label is enabled
 
 ```javascript
 isEnabled() : boolean;
@@ -67,7 +132,7 @@ isEnabled() : boolean;
 
 ### setIsEnabled(boolean) {#setIsEnabled-boolean-}
 
-Indicates whether the sensitivity label is enabled
+<b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the sensitivity label is enabled
 
 ```javascript
 setIsEnabled(value: boolean) : void;
@@ -80,7 +145,7 @@ setIsEnabled(value: boolean) : void;
 
 ### getAssignmentType() {#getAssignmentType--}
 
-Gets and sets the assignment method for the sensitivity label.
+<b>@deprecated.</b> Please use the 'assignmentType' property instead. Gets and sets the assignment method for the sensitivity label.
 
 ```javascript
 getAssignmentType() : SensitivityLabelAssignmentType;
@@ -93,7 +158,7 @@ getAssignmentType() : SensitivityLabelAssignmentType;
 
 ### setAssignmentType(SensitivityLabelAssignmentType) {#setAssignmentType-sensitivitylabelassignmenttype-}
 
-Gets and sets the assignment method for the sensitivity label.
+<b>@deprecated.</b> Please use the 'assignmentType' property instead. Gets and sets the assignment method for the sensitivity label.
 
 ```javascript
 setAssignmentType(value: SensitivityLabelAssignmentType) : void;
@@ -106,7 +171,7 @@ setAssignmentType(value: SensitivityLabelAssignmentType) : void;
 
 ### getSiteId() {#getSiteId--}
 
-Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label.
+<b>@deprecated.</b> Please use the 'siteId' property instead. Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label.
 
 ```javascript
 getSiteId() : string;
@@ -115,7 +180,7 @@ getSiteId() : string;
 
 ### setSiteId(string) {#setSiteId-string-}
 
-Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label.
+<b>@deprecated.</b> Please use the 'siteId' property instead. Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label.
 
 ```javascript
 setSiteId(value: string) : void;
@@ -128,7 +193,7 @@ setSiteId(value: string) : void;
 
 ### getContentMarkType() {#getContentMarkType--}
 
-Gets and sets the types of content marking that ought to be applied to a file.
+<b>@deprecated.</b> Please use the 'contentMarkType' property instead. Gets and sets the types of content marking that ought to be applied to a file.
 
 ```javascript
 getContentMarkType() : SensitivityLabelMarkType;
@@ -141,7 +206,7 @@ getContentMarkType() : SensitivityLabelMarkType;
 
 ### setContentMarkType(SensitivityLabelMarkType) {#setContentMarkType-sensitivitylabelmarktype-}
 
-Gets and sets the types of content marking that ought to be applied to a file.
+<b>@deprecated.</b> Please use the 'contentMarkType' property instead. Gets and sets the types of content marking that ought to be applied to a file.
 
 ```javascript
 setContentMarkType(value: SensitivityLabelMarkType) : void;
@@ -154,7 +219,7 @@ setContentMarkType(value: SensitivityLabelMarkType) : void;
 
 ### isRemoved() {#isRemoved--}
 
-Indicates whether the sensitivity label was removed.
+<b>@deprecated.</b> Please use the 'isRemoved' property instead. Indicates whether the sensitivity label was removed.
 
 ```javascript
 isRemoved() : boolean;
@@ -163,7 +228,7 @@ isRemoved() : boolean;
 
 ### setIsRemoved(boolean) {#setIsRemoved-boolean-}
 
-Indicates whether the sensitivity label was removed.
+<b>@deprecated.</b> Please use the 'isRemoved' property instead. Indicates whether the sensitivity label was removed.
 
 ```javascript
 setIsRemoved(value: boolean) : void;

@@ -16,19 +16,36 @@ public bool NonAutoSortDefault { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pivotField.NonAutoSortDefault);
-public void PivotField_Property_NonAutoSortDefault()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    PivotField pivotField = null;
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");           
-    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-    Assert.IsTrue(pivotField.NonAutoSortDefault);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsb);
-    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-    Assert.IsTrue(pivotField.NonAutoSortDefault);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-    Assert.IsTrue(pivotField.NonAutoSortDefault);
+    public class PivotFieldPropertyNonAutoSortDefaultDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the first worksheet and pivot table
+            Worksheet worksheet = workbook.Worksheets[0];
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Access the first row field in the pivot table
+            PivotField pivotField = pivotTable.RowFields[0];
+            
+            // Set NonAutoSortDefault property to true
+            pivotField.NonAutoSortDefault = true;
+            
+            // Output the property value
+            Console.WriteLine("NonAutoSortDefault property value: " + pivotField.NonAutoSortDefault);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

@@ -20,18 +20,43 @@ public SubtotalSetting RetrieveSubtotalSetting(CellArea ca)
 ### Examples
 
 ```csharp
-// Called: s = workbook.Worksheets[1].Cells.RetrieveSubtotalSetting(ca);
-public void Cells_Method_RetrieveSubtotalSetting()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea ca = CellArea.CreateCellArea("A2", "C24");
-    SubtotalSetting s = workbook.Worksheets[0].Cells.RetrieveSubtotalSetting(ca);
-    Assert.AreEqual(s.TotalList[0], 2);
-    ca = CellArea.CreateCellArea("A2", "C30");
-    s = workbook.Worksheets[1].Cells.RetrieveSubtotalSetting(ca);
-    Assert.IsFalse(s.SummaryBelowData);
-    Assert.AreEqual(1, s.GroupBy);
-    Assert.AreEqual(ConsolidationFunction.Sum, s.SubtotalFunction);
+    public class CellsMethodRetrieveSubtotalSettingWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for subtotals
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells["A" + i].PutValue(i % 2 == 0 ? "Group1" : "Group2");
+                worksheet.Cells["B" + i].PutValue(i * 100);
+            }
+
+            // Create subtotals
+            CellArea area = CellArea.CreateCellArea("A1", "B10");
+            worksheet.Cells.Subtotal(area, 0, ConsolidationFunction.Sum, new int[] { 1 });
+
+            // Retrieve subtotal settings
+            SubtotalSetting setting = worksheet.Cells.RetrieveSubtotalSetting(area);
+
+            // Output settings
+            Console.WriteLine("GroupBy: " + setting.GroupBy);
+            Console.WriteLine("Function: " + setting.SubtotalFunction);
+            Console.WriteLine("SummaryBelowData: " + setting.SummaryBelowData);
+            Console.WriteLine("TotalList: " + string.Join(",", setting.TotalList));
+        }
+    }
 }
 ```
 

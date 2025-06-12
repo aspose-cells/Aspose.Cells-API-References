@@ -16,38 +16,37 @@ public int ScaleToPagePercent { get; set; }
 ### Examples
 
 ```csharp
-// Called: watermark.ScaleToPagePercent = 50;
-public static void RenderingWatermark_Property_ScaleToPagePercent()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkPropertyScaleToPagePercentDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
+            worksheet.Cells["A1"].PutValue("Sample worksheet with watermark");
 
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont("Calibri", 68);
-            font.Italic = true;
+            RenderingFont font = new RenderingFont("Arial", 72);
             font.Bold = true;
-            font.Color = Color.Blue;
+            font.Color = Color.LightBlue;
 
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
-
-            // Set properties for the watermark
-            watermark.HAlignment = TextAlignmentType.Center;
-            watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
+            RenderingWatermark watermark = new RenderingWatermark("CONFIDENTIAL", font);
+            watermark.ScaleToPagePercent = 75;
+            watermark.Opacity = 0.3f;
             watermark.IsBackground = true;
 
-            // Specify watermark for rendering to PDF
             PdfSaveOptions options = new PdfSaveOptions();
             options.Watermark = watermark;
 
-            // Save the workbook as a PDF with the watermark
-            workbook.Save("output_watermark.pdf", options);
+            workbook.Save("WatermarkDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,14 +16,41 @@ public XmlMapCollection XmlMaps { get; set; }
 ### Examples
 
 ```csharp
-// Called: XmlMap map = wb.Worksheets.XmlMaps[0];
-//Exception
-public void WorksheetCollection_Property_XmlMaps()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    // Load sample Excel file having XML Map
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    XmlMap map = wb.Worksheets.XmlMaps[0];
-    wb.ExportXml(map.Name, Constants.destPath + "example.xml");
+    public class WorksheetCollectionPropertyXmlMapsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a sample XML map
+            string xmlSchema = @"<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+                                <xs:element name='Root'>
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name='Item' type='xs:string'/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:schema>";
+            
+            // Add XML map to the workbook
+            int mapIndex = workbook.Worksheets.XmlMaps.Add(xmlSchema);
+            
+            // Access the XML map
+            XmlMap map = workbook.Worksheets.XmlMaps[mapIndex];
+            
+            // Export XML data (demonstrates XmlMaps property usage)
+            workbook.ExportXml(map.Name, "output.xml");
+            
+            Console.WriteLine("XML exported successfully using XmlMaps property.");
+        }
+    }
 }
 ```
 

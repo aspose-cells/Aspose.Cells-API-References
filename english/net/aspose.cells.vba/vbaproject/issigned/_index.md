@@ -16,16 +16,30 @@ public bool IsSigned { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wb.VbaProject.IsSigned);
-public void VbaProject_Property_IsSigned()
-{
-    Workbook wb = new Workbook(vbaDir + "example.xls");
-    Assert.IsTrue(wb.VbaProject.IsSigned);
-    Assert.IsTrue(wb.VbaProject.IsValidSigned);
+using System;
+using Aspose.Cells;
 
-    Workbook wb2 = new Workbook(vbaDir + "example.xlsb");
-    Assert.IsTrue(wb2.VbaProject.IsSigned);
-    Assert.IsTrue(wb2.VbaProject.IsValidSigned);
+namespace AsposeCellsExamples
+{
+    public class VbaProjectPropertyIsSignedDemo
+    {
+        public static void Run()
+        {
+            // Load a sample Excel file with VBA project
+            Workbook workbook = new Workbook("example.xlsm");
+            
+            // Check if the VBA project is signed
+            if (workbook.VbaProject.IsSigned)
+            {
+                Console.WriteLine("VBA project is signed.");
+                Console.WriteLine("Signature is valid: " + workbook.VbaProject.IsValidSigned);
+            }
+            else
+            {
+                Console.WriteLine("VBA project is not signed.");
+            }
+        }
+    }
 }
 ```
 

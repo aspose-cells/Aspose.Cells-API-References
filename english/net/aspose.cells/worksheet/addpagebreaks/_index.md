@@ -20,14 +20,28 @@ public void AddPageBreaks(string cellName)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AddPageBreaks("B2");
-public void Worksheet_Method_AddPageBreaks()
-{
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].AddPageBreaks("B10");
+using System;
+using Aspose.Cells;
 
-    workbook.Worksheets[0].AddPageBreaks("B2");
-    Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 1);
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAddPageBreaksWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add horizontal page break at row 1 (B2)
+            worksheet.AddPageBreaks("B2");
+
+            // Add horizontal page break at row 9 (B10)
+            worksheet.AddPageBreaks("B10");
+
+            // Verify the first page break was added at row 1
+            Console.WriteLine("First page break row: " + worksheet.HorizontalPageBreaks[0].Row);
+        }
+    }
 }
 ```
 

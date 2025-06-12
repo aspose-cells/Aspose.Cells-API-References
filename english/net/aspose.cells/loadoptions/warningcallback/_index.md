@@ -16,17 +16,41 @@ public IWarningCallback WarningCallback { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.WarningCallback = warningCallback;
-public void LoadOptions_Property_WarningCallback()
-{
-    DefaultWarningCallback warningCallback = new DefaultWarningCallback();
-    LoadOptions options = new LoadOptions();
-    options.IgnoreUselessShapes = true;
-    options.WarningCallback = warningCallback;
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    wb.Save(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("APRIL2", wb.Worksheets["REGULAR"].Cells["D1"].StringValue);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CustomWarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine($"Warning: {warningInfo.Description}");
+        }
+    }
+
+    public class LoadOptionsPropertyWarningCallbackDemo
+    {
+        public static void Run()
+        {
+            // Create a custom warning callback
+            IWarningCallback warningCallback = new CustomWarningCallback();
+
+            // Initialize load options with warning callback
+            LoadOptions options = new LoadOptions();
+            options.WarningCallback = warningCallback;
+            options.IgnoreUselessShapes = true;
+
+            // Load workbook with options
+            Workbook workbook = new Workbook("example.xlsx", options);
+
+            // Demonstrate warning callback usage by accessing a cell
+            Console.WriteLine($"Cell value: {workbook.Worksheets[0].Cells["A1"].StringValue}");
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

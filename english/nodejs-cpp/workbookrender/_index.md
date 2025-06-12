@@ -17,15 +17,21 @@ class WorkbookRender;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Workbook, ImageOrPrintOptions)](#constructor-workbook-imageorprintoptions-)| The construct of WorkbookRender |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pageCount](#pageCount--)| number | Readonly. Gets the total page count of workbook. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageCount()](#getPageCount--)| Gets the total page count of workbook. |
+| [getPageCount()](#getPageCount--)| <b>@deprecated.</b> Please use the 'pageCount' property instead. Gets the total page count of workbook. |
 | [getPageSizeInch(number)](#getPageSizeInch-number-)| Get page size in inch of output image. |
 | [toImage()](#toImage--)| Render whole workbook as Tiff Image to stream. |
 | [toImage(string)](#toImage-string-)| Render whole workbook as Tiff Image to a file. |
@@ -49,9 +55,18 @@ constructor(workbook: Workbook, options: ImageOrPrintOptions);
 | workbook | [Workbook](../workbook/) | Indicate which workbook to be rendered. |
 | options | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
 
+### pageCount {#pageCount--}
+
+Readonly. Gets the total page count of workbook.
+
+```javascript
+pageCount : number;
+```
+
+
 ### getPageCount() {#getPageCount--}
 
-Gets the total page count of workbook.
+<b>@deprecated.</b> Please use the 'pageCount' property instead. Gets the total page count of workbook.
 
 ```javascript
 getPageCount() : number;

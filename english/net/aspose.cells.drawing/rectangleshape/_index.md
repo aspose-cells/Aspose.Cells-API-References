@@ -154,20 +154,23 @@ public class RectangleShape : Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-
-//get ShapeCollection
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-
-//add a rectangle
-RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-
-//do your business
-
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class DrawingClassRectangleShapeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+            workbook.Save("result.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

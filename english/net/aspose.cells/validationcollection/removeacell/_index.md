@@ -21,28 +21,35 @@ public void RemoveACell(int row, int column)
 ### Examples
 
 ```csharp
-// Called: cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
-public void ValidationCollection_Method_RemoveACell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet ws = workbook.Worksheets[0];
-    var cell = ws.Cells[0, 0];
-    ValidationCollection validations = ws.Validations;
-    CellArea cellArea = new CellArea
+    public class ValidationCollectionMethodRemoveACellWithInt32Int32Demo
     {
-        StartRow = 0,
-        StartColumn = 0,
-        EndRow = 0,
-        EndColumn = 0
-    };
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add validation to cell A1 (row 0, column 0)
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 0;
+            area.EndColumn = 0;
+            
+            Validation validation = worksheet.Validations[worksheet.Validations.Add(area)];
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "Item1,Item2,Item3";
 
-    Validation validation = validations[validations.Add(cellArea)];
-    validation.Type = ValidationType.List;
-    validation.Formula1 = null;
+            // Remove validation from cell A1
+            worksheet.Validations.RemoveACell(0, 0);
 
-    cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
-    Assert.AreEqual(0, cell.Worksheet.Validations.Count);
-    workbook.Save(Constants.destPath + "example.xlsx");
+            Console.WriteLine("Validations count after removal: " + worksheet.Validations.Count);
+        }
+    }
 }
 ```
 

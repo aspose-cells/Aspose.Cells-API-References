@@ -16,56 +16,47 @@ public string PivotTableStyleName { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.PivotTableStyleName = "MSDPivotStyle";
-        public void PivotTable_Property_PivotTableStyleName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using System.Data;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyPivotTableStyleNameDemo
+    {
+        public static void Run()
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET46793_";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1000);
+            worksheet.Cells["B3"].PutValue(2000);
+            worksheet.Cells["B4"].PutValue(3000);
 
-            Workbook workbook = null;
-            workbook = new Workbook(filePath + "Template.xlsx");
-#if NETCOREAPP2_0
-            workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");
-#endif
-
-            //Copy MSD Styles sheet to template file
-            Workbook workbookStyle = null;
-            workbookStyle = new Workbook(filePath + "MSDStylesAspose.xlsx");
-
-            // Copy the first sheet of the first book into second book.
-            var wsStyle = workbook.Worksheets.Add();
-            workbook.Worksheets[wsStyle].Copy(workbookStyle.Worksheets["MSDStyles"]);
-
-            var tblName = "tblOpenPositions";
-            var dataSet = new DataSet();
-            dataSet.ReadXml(filePath + "MyDataset.xml", XmlReadMode.ReadSchema);
-            dataSet.Tables[0].TableName = tblName;
-
-
-            var designer = new WorkbookDesigner { Workbook = workbook };
-            designer.SetDataSource(dataSet.Tables[0]);
-            // Process the smart markers
-            designer.Process(true);
-
-            var pivotWorksheet = workbook.Worksheets["PivotOpenPositions"];
-            var pivotTables = pivotWorksheet.PivotTables;
-            var pivotTable = pivotTables[tblName];
-
-            workbook.CalculateFormula();
-
-            pivotTable.PivotTableStyleName = "MSDPivotStyle";
-            pivotTable.RefreshDataOnOpeningFile = false;
-
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-
-            Cells cells = pivotWorksheet.Cells;
-            Assert.AreEqual(cells["E2"].StringValue, "321,800,298 ");
-            Assert.AreEqual(cells["E4"].StringValue, "101,576,039 ");
-            Assert.AreEqual(cells["E13"].StringValue, "30,261,123 ");
-            Assert.AreEqual(cells["E18"].StringValue, "(9,284,040)");
-
-            workbook.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
+            // Add a pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Apply a built-in pivot table style
+            pivotTable.PivotTableStyleName = "PivotStyleLight16";
+            
+            // Save the workbook
+            workbook.Save("PivotTableStyleDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

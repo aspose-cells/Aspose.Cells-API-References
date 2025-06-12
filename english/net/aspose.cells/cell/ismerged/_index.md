@@ -16,20 +16,34 @@ public bool IsMerged { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["A6"].IsMerged);
-public void Cell_Property_IsMerged()
-{
-    Workbook data = new Workbook(Constants.sourcePath + "example.xlsx");
-    DataTable dt = data.Worksheets[0].Cells.ExportDataTable(0, 0, 7, 5, true);
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    WorkbookDesigner designer = new WorkbookDesigner(workbook);
-    dt.TableName = "Level";
-    designer.SetDataSource(dt);
-    designer.Process();
-    Assert.IsTrue(workbook.Worksheets[0].Cells["A6"].IsMerged);
-    Assert.AreEqual(3, workbook.Worksheets[0].ConditionalFormattings[0].RangeCount);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class CellPropertyIsMergedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Merge cells A1 to B2
+            worksheet.Cells.Merge(0, 0, 2, 2);
+
+            // Check if cell A1 is merged
+            bool isMerged = worksheet.Cells["A1"].IsMerged;
+            Console.WriteLine("Is cell A1 merged? " + isMerged);
+
+            // Check if cell C1 is merged (should be false)
+            isMerged = worksheet.Cells["C1"].IsMerged;
+            Console.WriteLine("Is cell C1 merged? " + isMerged);
+
+            // Save the workbook
+            workbook.Save("MergedCellsDemo.xlsx");
+        }
+    }
 }
 ```
 

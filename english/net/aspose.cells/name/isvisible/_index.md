@@ -16,18 +16,42 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(nameSrc.IsVisible, nameDest.IsVisible, info + ".IsVisible");
-public static void Name_Property_IsVisible(Name nameSrc, Name nameDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class NamePropertyIsVisibleDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(nameSrc, nameDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(nameSrc.IsReferred, nameDest.IsReferred, info + ".IsReferred");
-            AssertHelper.AreEqual(nameSrc.IsVisible, nameDest.IsVisible, info + ".IsVisible");
-            AssertHelper.AreEqual(nameSrc.RefersTo, nameDest.RefersTo, info + ".RefersTo");
-            AssertHelper.AreEqual(nameSrc.Text, nameDest.Text, info + ".Text");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a visible named range
+            int visibleIndex = workbook.Worksheets.Names.Add("VisibleRange");
+            Name visibleName = workbook.Worksheets.Names[visibleIndex];
+            visibleName.RefersTo = "=Sheet1!$A$1:$B$2";
+            visibleName.IsVisible = true;
+            
+            // Create a hidden named range
+            int hiddenIndex = workbook.Worksheets.Names.Add("HiddenRange");
+            Name hiddenName = workbook.Worksheets.Names[hiddenIndex];
+            hiddenName.RefersTo = "=Sheet1!$C$1:$D$2";
+            hiddenName.IsVisible = false;
+            
+            // Demonstrate IsVisible property
+            Console.WriteLine("VisibleRange IsVisible: " + visibleName.IsVisible);
+            Console.WriteLine("HiddenRange IsVisible: " + hiddenName.IsVisible);
+            
+            // Save the workbook
+            workbook.Save("NameVisibilityDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

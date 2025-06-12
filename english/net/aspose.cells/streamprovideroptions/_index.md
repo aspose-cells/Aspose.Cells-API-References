@@ -32,15 +32,42 @@ public class StreamProviderOptions
 ### Examples
 
 ```csharp
-// Called: public void CloseStream(StreamProviderOptions options)
-public void Cells_Type_StreamProviderOptions(StreamProviderOptions options)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassStreamProviderOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create StreamProviderOptions
+            StreamProviderOptions options = new StreamProviderOptions();
+            
+            // Set a memory stream for demonstration
+            options.Stream = new MemoryStream();
+            
+            // Use the stream (example: save workbook to the stream)
+            workbook.Save(options.Stream, SaveFormat.Xlsx);
+            
+            // Demonstrate closing the stream
+            CloseStream(options);
+        }
+
+        public static void CloseStream(StreamProviderOptions options)
+        {
+            if (options.Stream != null)
             {
-                if (options.Stream != null)
-                {
-                    options.Stream.Close();
-                    options.Stream = null;
-                }
+                options.Stream.Close();
+                options.Stream = null;
             }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -19,17 +19,42 @@ public void SetJsonDataSource(string variable, string data)
 ### Examples
 
 ```csharp
-// Called: designer.SetJsonDataSource("c8", jsonData);
-public void WorkbookDesigner_Method_SetJsonDataSource()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
-    WorkbookDesigner designer = new WorkbookDesigner();
-    designer.Workbook = wb;
-    String jsonData = File.ReadAllText(Constants.sourcePath + @"example.json");
-    designer.SetJsonDataSource("c8", jsonData);
-    designer.Process();
-    wb.Save(Constants.destPath + @"example.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetJsonDataSourceWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample marker in cell A1
+            worksheet.Cells["A1"].PutValue("&=$DataSource.Name");
+            
+            // Create workbook designer
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = workbook;
+            
+            // Sample JSON data
+            string jsonData = "{\"Name\":\"John Doe\",\"Age\":30,\"City\":\"New York\"}";
+            
+            // Set JSON data source
+            designer.SetJsonDataSource("DataSource", jsonData);
+            
+            // Process the markers
+            designer.Process();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

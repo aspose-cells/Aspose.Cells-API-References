@@ -59,79 +59,62 @@ public class ConditionalFormattingCollection : CollectionBase<FormatConditionCol
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ConditionalFormattingCollectionDemo
+    {
+        public static void ConditionalFormattingCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+            // Get Conditional Formatting
+            ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
-//Get Conditional Formatting
-ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
-//Adds an empty conditional formatting
-int index = cformattings.Add();
-//Get newly added Conditional formatting
-FormatConditionCollection fcs = cformattings[index];
+            // Adds an empty conditional formatting
+            int index = cformattings.Add();
 
-//Sets the conditional format range.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
+            // Get newly added Conditional formatting
+            FormatConditionCollection fcs = cformattings[index];
 
-//Add condition.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-//Add condition.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-//Sets the background color.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-//Saving the Excel file
-workbook.Save("output.xls");
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 0,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-[VB.NET]
+            ca = new CellArea
+            {
+                StartRow = 1,
+                EndRow = 1,
+                StartColumn = 1,
+                EndColumn = 1
+            };
+            fcs.AddArea(ca);
 
-'Instantiating a Workbook object
-DDim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
-'Get Conditional Formatting
-Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
+            // Add condition.
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-'Adds an empty conditional formatting
-Dim index As Integer = cformattings.Add()
-'Get newly added Conditional formatting
-Dim fcs As FormatConditionCollection = cformattings(index)
-'Sets the conditional format range.
-Dim ca As New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
+            // Sets the background color.
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
 
-'Add condition.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Add condition.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Sets the background color.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-'Saving the Excel file
-workbook.Save("output.xls")
+            // Saving the Excel file
+            workbook.Save("ConditionalFormattingCollectionDemo.xlsx");
+            workbook.Save("ConditionalFormattingCollectionDemo.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

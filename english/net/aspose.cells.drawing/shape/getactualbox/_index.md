@@ -24,46 +24,37 @@ Note:The interface is not fully functional, especially the location information 
 ### Examples
 
 ```csharp
-// Called: float[] box = rect.GetActualBox();
-public void Shape_Method_GetActualBox()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    ShapeCollection shapes = wb.Worksheets[0].Shapes;
+    public class ShapeMethodGetActualBoxDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Shape rect = shapes["Rectangle 1"];
-    rect.AddHyperlink("www.aspose.com");
-    Assert.AreEqual(rect.Hyperlink.Address, "www.aspose.com");
+            // Add a rectangle shape
+            Shape rectangle = worksheet.Shapes.AddRectangle(10, 10, 100, 80, 0, 0);
 
-    rect.RemoveHyperlink();
-    Assert.AreEqual(null, rect.Hyperlink);
+            // Get the actual box dimensions of the shape
+            float[] box = rectangle.GetActualBox();
 
-    rect.SetInputRange("=A2", false, true);
-    String inputRange = rect.GetInputRange(false, true);
-    Assert.AreEqual("A2", inputRange);
-    Assert.AreEqual("A2", rect.InputRange);
+            // Output the box dimensions
+            Console.WriteLine("Actual Box Dimensions:");
+            Console.WriteLine($"Left: {box[0]}");
+            Console.WriteLine($"Top: {box[1]}");
+            Console.WriteLine($"Right: {box[2]}");
+            Console.WriteLine($"Bottom: {box[3]}");
 
-    float[] box = rect.GetActualBox();
-    Assert.AreEqual(4, (int)box[0]);
-    Assert.AreEqual(10, (int)box[1]);
-    Assert.AreEqual(110, (int)box[2]);
-    Assert.AreEqual(92, (int)box[3]);
-
-    rect.SetLinkedCell("=A3", false, true);
-    string linkCell = rect.GetLinkedCell(false, true);
-    Assert.AreEqual("A3", linkCell);
-    Assert.AreEqual("A3", rect.LinkedCell);
-
-    CellArea shapesArea = CellArea.CreateCellArea("C5", "H20");
-    shapes.CopyInRange(shapes, shapesArea, 5, 12, false);
-    Assert.AreEqual(8, shapes.Count);
-
-    CellArea commentsArea = CellArea.CreateCellArea("C5", "G10");
-    shapes.CopyCommentsInRange(shapes, commentsArea, 5, 12);
-
-    Assert.AreEqual(12, shapes.Count);
-
-    shapes.DeleteInRange(shapesArea);
-    Assert.AreEqual(10, shapes.Count);
+            // Save the workbook
+            workbook.Save("ShapeGetActualBoxDemo.xlsx");
+        }
+    }
 }
 ```
 

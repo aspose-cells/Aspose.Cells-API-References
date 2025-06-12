@@ -16,21 +16,53 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: item.IsHidden = item.Name != "债券借贷";
-public void PivotItem_Property_IsHidden()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    var worksheet = wb.Worksheets[0];
-    var pivotTable = worksheet.PivotTables[0];
-    var field = pivotTable.ColumnFields[1];
-
-    foreach (PivotItem item in field.PivotItems)
+    public class PivotItemPropertyIsHiddenDemo
     {
-        item.IsHidden = item.Name != "债券借贷";
-    }
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Category";
+            worksheet.Cells["A2"].Value = "债券借贷";
+            worksheet.Cells["A3"].Value = "股票";
+            worksheet.Cells["A4"].Value = "基金";
+            worksheet.Cells["B1"].Value = "Value";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["B4"].Value = 3000;
 
-    // Aspose.Cells.CellsException:“Cells in range D2:D3 cannot be merged because cells in range B2:H2 have already been merged.”
-    worksheet.RefreshPivotTables();
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "D3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+
+            // Access pivot field and items
+            PivotField field = pivotTable.RowFields[0];
+            
+            // Set IsHidden property to show only "债券借贷"
+            foreach (PivotItem item in field.PivotItems)
+            {
+                item.IsHidden = (item.Name != "债券借贷");
+            }
+
+            // Refresh pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotItemIsHiddenDemo.xlsx");
+        }
+    }
 }
 ```
 

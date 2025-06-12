@@ -16,32 +16,58 @@ public int EndColumn;
 ### Examples
 
 ```csharp
-// Called: for (int i = area.StartColumn; i <= area.EndColumn; i++)
-private void CellArea_Field_EndColumn(string cellAreaName, Color color, Worksheet _sheet)
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class CellAreaFieldEndColumnDemo
+    {
+        public static void Run()
         {
-            CellArea area = GetCellAreaByName(cellAreaName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create a cell area from A1 to C3
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 2;
+
+            // Process the cell area using EndColumn
+            ProcessCellArea(area, Color.LightBlue, sheet);
+
+            // Save the workbook
+            workbook.Save("CellAreaFieldEndColumnDemo_output.xlsx");
+        }
+
+        private static void ProcessCellArea(CellArea area, Color color, Worksheet sheet)
+        {
             int k = 0;
-            for (int i = area.StartColumn; i <= area.EndColumn; i++)
+            for (int col = area.StartColumn; col <= area.EndColumn; col++)
             {
-                for (int j = area.StartRow; j <= area.EndRow; j++)
+                for (int row = area.StartRow; row <= area.EndRow; row++)
                 {
-                    Cell c = _sheet.Cells[j, i];
+                    Cell cell = sheet.Cells[row, col];
+                    
                     if (!color.IsEmpty)
                     {
-
-                        Style s = c.GetStyle();
-                        s.ForegroundColor = color;
-                        s.Pattern = BackgroundType.Solid;
-                        c.SetStyle(s);
+                        Style style = cell.GetStyle();
+                        style.ForegroundColor = color;
+                        style.Pattern = BackgroundType.Solid;
+                        cell.SetStyle(style);
                     }
-                    //Set some random values to the cells in the cellarea range
-                    int value = j + i + k;
-                    c.PutValue(value);
+                    
+                    cell.PutValue(row + col + k);
                     k++;
                 }
             }
-
         }
+    }
+}
 ```
 
 ### See Also

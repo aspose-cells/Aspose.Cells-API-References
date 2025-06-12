@@ -16,9 +16,30 @@ public MsoArrowheadLength EndArrowheadLength { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyEndArrowheadLengthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape and get the shape object directly
+            LineShape line = (LineShape)worksheet.Shapes.AddLine(5, 5, 100, 5, 10, 10);
+
+            // Set end arrowhead length
+            line.Line.EndArrowheadLength = MsoArrowheadLength.Long;
+
+            // Save the workbook
+            workbook.Save("LineFormatPropertyEndArrowheadLengthDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

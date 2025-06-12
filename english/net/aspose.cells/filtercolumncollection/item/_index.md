@@ -24,27 +24,48 @@ Returns [`FilterColumn`](../../filtercolumn/) object.
 ### Examples
 
 ```csharp
-// Called: c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
-public void FilterColumnCollection_Property_Item()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    AutoFilter filter = wb.Worksheets[0].AutoFilter;
-    CustomFilter c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
-    Assert.AreEqual(FilterOperatorType.Contains, c.FilterOperatorType);
-    Assert.AreEqual("e", (string)c.Criteria);
-    c.FilterOperatorType = FilterOperatorType.EndsWith;
-    Assert.AreEqual("e", (string)c.Criteria);
-    Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    filter.Custom(0, FilterOperatorType.NotContains, "e");
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
-    Assert.AreEqual(FilterOperatorType.NotContains, c.FilterOperatorType);
-    Assert.AreEqual("e", (string)c.Criteria);
+namespace AsposeCellsExamples
+{
+    public class FilterColumnCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Header");
+            sheet.Cells["A2"].PutValue("Apple");
+            sheet.Cells["A3"].PutValue("Banana");
+            sheet.Cells["A4"].PutValue("Cherry");
+            sheet.Cells["A5"].PutValue("Date");
+
+            // Apply auto filter
+            sheet.AutoFilter.Range = "A1:A5";
+            sheet.AutoFilter.Custom(0, FilterOperatorType.Contains, "e");
+
+            // Access filter using Item property
+            AutoFilter filter = sheet.AutoFilter;
+            FilterColumn filterColumn = filter.FilterColumns[0]; // Using Item property
+            CustomFilterCollection customFilters = (CustomFilterCollection)filterColumn.Filter;
+            CustomFilter firstFilter = customFilters[0];
+
+            // Display filter properties
+            Console.WriteLine("Filter Operator Type: " + firstFilter.FilterOperatorType);
+            Console.WriteLine("Filter Criteria: " + firstFilter.Criteria);
+
+            // Modify filter
+            firstFilter.FilterOperatorType = FilterOperatorType.EndsWith;
+            Console.WriteLine("\nModified Filter Operator Type: " + firstFilter.FilterOperatorType);
+
+            // Save the workbook
+            wb.Save("FilterExample.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

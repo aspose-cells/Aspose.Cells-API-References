@@ -16,12 +16,20 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
-public void VbaProject_Property_Name()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class VbaProjectPropertyNameDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Console.WriteLine("VBA Project Name: " + workbook.VbaProject.Name);
+            workbook.Save("example.xlsx");
+        }
+    }
 }
 ```
 

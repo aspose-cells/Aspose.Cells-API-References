@@ -4,7 +4,7 @@ linktitle: RectangleAlignmentType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::RectangleAlignmentType enum. Represents how to position two rectangles relative to each other in C++.'
 type: docs
-weight: 10900
+weight: 11100
 url: /cpp/aspose.cells.drawing/rectanglealignmenttype/
 ---
 ## RectangleAlignmentType enum

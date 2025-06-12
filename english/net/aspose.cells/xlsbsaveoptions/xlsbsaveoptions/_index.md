@@ -16,19 +16,25 @@ public XlsbSaveOptions()
 ### Examples
 
 ```csharp
-// Called: XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-public void XlsbSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("A1");
-    cells["B1"].PutValue("B1");
-    cells["C1"].PutValue("C1");
-    XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-    saveOptions.ExportAllColumnIndexes = true;
-    workbook.Save(Constants.destPath + "example.xlsb", saveOptions);
-    saveOptions.ExportAllColumnIndexes = false;
-    workbook.Save(Constants.destPath + "example.xlsb", saveOptions);
+    public class XlsbSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["A1"].PutValue("Test Value");
+
+            XlsbSaveOptions saveOptions = new XlsbSaveOptions();
+            saveOptions.ExportAllColumnIndexes = true;
+
+            workbook.Save("output.xlsb", saveOptions);
+        }
+    }
 }
 ```
 
@@ -57,6 +63,49 @@ public XlsbSaveOptions(SaveFormat saveFormat)
 ### Remarks
 
 NOTE: This constructor is now obsolete. Instead, please use XlsbSaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XlsbSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to worksheet
+            worksheet.Cells["A1"].PutValue("Sample XLSB Save Options Demo");
+            worksheet.Cells["A2"].PutValue(DateTime.Now.ToString());
+            
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                XlsbSaveOptions saveOptions = new XlsbSaveOptions(SaveFormat.Xlsb);
+                
+                // Set additional properties
+                saveOptions.CompressionType = OoxmlCompressionType.Level6;
+                saveOptions.ExportAllColumnIndexes = true;
+                
+                Console.WriteLine("XlsbSaveOptions constructor executed successfully with SaveFormat.Xlsb");
+                
+                // Save the workbook with the specified options
+                workbook.Save("XlsbSaveOptionsDemo.xlsb", saveOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing XlsbSaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -154,71 +154,55 @@ public class Button : Shape
 ### Examples
 
 ```csharp
-[C#]
- 
- //Create a new Workbook.
- Workbook workbook = new Workbook();
- 
- //Get the first worksheet in the workbook.
- Worksheet sheet = workbook.Worksheets[0];
- 
- //Add a new button to the worksheet.
- Aspose.Cells.Drawing.Button button = sheet.Shapes.AddButton(2, 0, 2, 0, 28, 80);
- 
- //Set the caption of the button.
- button.Text = "Aspose";
- 
- //Set the Placement Type, the way the
- //button is attached to the cells.
- button.Placement = PlacementType.FreeFloating;
- 
- //Set the font name.
- button.Font.Name = "Tahoma";
- 
- //Set the caption string bold.
- button.Font.IsBold = true;
- 
- //Set the color to blue.
- button.Font.Color = Color.Blue;
- 
- //Set the hyperlink for the button.
- button.AddHyperlink("http://www.aspose.com/");
- 
- //Saves the file.
- workbook.Save(@"tstbutton.xls");
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System;
 
- [VB.NET]
- 
- 'Create a new Workbook.
- Dim workbook As Workbook = New Workbook()
- 
- 'Get the first worksheet in the workbook.
- Dim sheet As Worksheet = workbook.Worksheets(0)
- 
- 'Add a new button to the worksheet.
- Dim button As Aspose.Cells.Drawing.Button = sheet.Shapes.AddButton(2, 0, 2, 0, 28, 80)
- 
- 'Set the caption of the button.
- button.Text = "Aspose"
- 
- 'Set the Placement Type, the way the
- 'button is attached to the cells.
- button.Placement = PlacementType.FreeFloating
- 
- 'Set the font name.
- button.Font.Name = "Tahoma"
- 
- 'Set the caption string bold.
- button.Font.IsBold = True
- 
- 'Set the color to blue.
- button.Font.Color = Color.Blue
- 
- 'Set the hyperlink for the button.
- button.AddHyperlink("http://www.aspose.com/")
- 
- 'Saves the file.
- workbook.Save("tstbutton.xls")
+namespace AsposeCellsExamples
+{
+    public class ButtonDemo
+    {
+        public static void RunDemo()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a button to the worksheet
+            Button button  = sheet.Shapes.AddButton(1, 1, 1, 1, 100, 30);
+
+
+            // Set properties of the button
+            button.Name = "MyButton";
+            button.Text = "Click Me";
+            button.MacroName = "ButtonClickMacro";
+            button.AlternativeText = "This is a button";
+            button.Title = "Button Title";
+            button.ZOrderPosition = 1;
+            button.IsHidden = false;
+            button.IsLocked = true;
+            button.IsPrintable = true;
+            button.AutoShapeType = AutoShapeType.Rectangle;
+            button.Placement = PlacementType.FreeFloating;
+            button.UpperLeftRow = 1;
+            button.UpperLeftColumn = 1;
+            button.LowerRightRow = 2;
+            button.LowerRightColumn = 2;
+            button.Width = 100;
+            button.Height = 30;
+            button.RotationAngle = 0;
+            button.IsAspectRatioLocked = true;
+            button.TextHorizontalAlignment = TextAlignmentType.Center;
+            button.TextVerticalAlignment = TextAlignmentType.Center;
+            button.TextOrientationType = TextOrientationType.NoRotation;
+            button.TextDirection = TextDirectionType.LeftToRight;
+
+            // Save the workbook
+            workbook.Save("ButtonDemo.xlsx");
+            workbook.Save("ButtonDemo.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

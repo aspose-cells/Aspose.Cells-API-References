@@ -16,19 +16,41 @@ public bool ExportExtraHeadings { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportExtraHeadings = true;
-public void HtmlSaveOptions_Property_ExportExtraHeadings()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47674/";
-    string savePath = CreateFolder(filePath);
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(filePath + "sample.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportDataOptions = HtmlExportDataOptions.All;
-    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-    options.ExportHeadings = true;
-    options.ExportExtraHeadings = true;
-    wb.Save(savePath + "out.html", options);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportExtraHeadingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and extra headings
+            worksheet.Cells["A1"].PutValue("Main Heading");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+            worksheet.Cells["A3"].PutValue("Data3");
+            worksheet.Cells["B3"].PutValue("Data4");
+            
+            // Set extra headings (rows and columns)
+            worksheet.Cells["Z1"].PutValue("Extra Column Heading");
+            worksheet.Cells["A100"].PutValue("Extra Row Heading");
+
+            // Configure HTML save options with ExportExtraHeadings
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportHeadings = true;
+            saveOptions.ExportExtraHeadings = true;
+
+            // Save to HTML
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("HTML exported with extra headings.");
+        }
+    }
 }
 ```
 

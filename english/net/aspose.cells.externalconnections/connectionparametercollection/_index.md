@@ -53,6 +53,56 @@ public class ConnectionParameterCollection : CollectionBase<ConnectionParameter>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ConnectionParameter, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionsClassConnectionParameterCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Get the first external connection (will create one if none exists)
+                ExternalConnection connection = workbook.DataConnections[0];
+                
+                // Get the parameters collection from the connection
+                ConnectionParameterCollection parameters = connection.Parameters;
+                
+                // Demonstrate basic functionality by checking collection properties
+                Console.WriteLine($"ConnectionParameterCollection count: {parameters.Count}");
+                
+                // Attempt to access an item (will be null if collection is empty)
+                if (parameters.Count > 0)
+                {
+                    ConnectionParameter param = parameters[0];
+                    Console.WriteLine(param == null ? "No parameters in collection" : "Parameter exists");
+                }
+                else
+                {
+                    Console.WriteLine("No parameters in collection");
+                }
+                
+                // Save the workbook
+                workbook.Save("ConnectionParameterCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ConnectionParameterCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

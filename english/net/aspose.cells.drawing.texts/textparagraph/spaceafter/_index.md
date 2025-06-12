@@ -16,28 +16,46 @@ public double SpaceAfter { get; set; }
 ### Examples
 
 ```csharp
-// Called: p.SpaceAfter = 3;
-public void TextParagraph_Property_SpaceAfter()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    shape.Text = "abc\nefg";
-    TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-    TextParagraph p = paragraphs[1];
-    p.LineSpaceSizeType = LineSpaceSizeType.Points;
-    p.LineSpace = 2;
-    p.SpaceAfter = 3;
-    p.SpaceBefore = 4;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
-    Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(2, p.LineSpace);
-    Assert.AreEqual(3, p.SpaceAfter);
-    Assert.AreEqual(4, p.SpaceBefore);
+    public class TextParagraphPropertySpaceAfterDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add text box and set text
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            shape.Text = "First paragraph\nSecond paragraph";
+            
+            // Get paragraphs
+            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            
+            // Configure second paragraph spacing
+            TextParagraph p = paragraphs[1];
+            p.LineSpaceSizeType = LineSpaceSizeType.Points;
+            p.LineSpace = 2;
+            p.SpaceAfter = 3; // Demonstrate SpaceAfter property
+            p.SpaceBefore = 4;
+            
+            // Save and verify
+            workbook.Save("TextParagraphPropertySpaceAfterDemo.xlsx");
+            
+            // Reload to verify settings
+            Workbook loadedWorkbook = new Workbook("TextParagraphPropertySpaceAfterDemo.xlsx");
+            TextParagraph loadedPara = loadedWorkbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
+            
+            Console.WriteLine("SpaceAfter: " + loadedPara.SpaceAfter);
+            Console.WriteLine("SpaceBefore: " + loadedPara.SpaceBefore);
+            Console.WriteLine("LineSpace: " + loadedPara.LineSpace);
+        }
+    }
 }
 ```
 

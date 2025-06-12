@@ -48,35 +48,37 @@ public class ThreeDFormat
 ### Examples
 
 ```csharp
-// Called: ThreeDFormat threeDFormat = shape.ThreeDFormat;
-public static void Drawing_Type_ThreeDFormat()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassThreeDFormatDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to the worksheet
-            var shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 100);
-
-            // Access the 3D format of the shape
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 210, 210, 200, 200);
             ThreeDFormat threeDFormat = shape.ThreeDFormat;
 
-            // Set the top bevel type and dimensions
             threeDFormat.TopBevelType = BevelType.SoftRound;
             threeDFormat.TopBevelWidth = 10;
             threeDFormat.TopBevelHeight = 10;
 
-            // Set the bottom bevel type and dimensions
             threeDFormat.BottomBevelType = BevelType.Divot;
             threeDFormat.BottomBevelWidth = 5;
             threeDFormat.BottomBevelHeight = 5;
 
-            // Save the workbook
-            workbook.Save("BevelTypeExample.xlsx");
-            workbook.Save("BevelTypeExample.pdf");
+            threeDFormat.ExtrusionColor.Color = System.Drawing.Color.Blue;
+            threeDFormat.ExtrusionHeight = 20;
 
-            return;
+            workbook.Save("ThreeDFormatDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

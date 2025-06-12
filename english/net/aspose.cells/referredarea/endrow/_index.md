@@ -16,46 +16,50 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-public void ReferredArea_Property_EndRow()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-     Workbook workbook = new Workbook();
-     Cells cells = workbook.Worksheets[0].Cells;
-     cells["A1"].Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1";
-      ReferredAreaCollection areas = cells["A1"].GetPrecedents();
-     for (int i = 0; i < areas.Count; i++)
-     {
-         ReferredArea area = areas[i];
-          StringBuilder stringBuilder = new StringBuilder();
-          if (area.IsExternalLink)
-          {
-              stringBuilder.Append("[");
-               stringBuilder.Append(area.ExternalFileName);
-               stringBuilder.Append("]");
-           }
-           stringBuilder.Append(area.SheetName);
-           stringBuilder.Append("!");
-           stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-           if (area.IsArea)
+    public class ReferredAreaPropertyEndRowDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Set formula with multiple references
+            cells["A1"].Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1";
+            
+            // Get all precedent areas
+            ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+            
+            // Process each reference
+            foreach (ReferredArea area in areas)
             {
-                stringBuilder.Append(":");
-                stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+                StringBuilder sb = new StringBuilder();
+                
+                if (area.IsExternalLink)
+                {
+                    sb.Append($"[{area.ExternalFileName}]");
+                }
+                
+                sb.Append($"{area.SheetName}!");
+                sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                
+                // Demonstrate EndRow usage for range references
+                if (area.IsArea)
+                {
+                    sb.Append($":{CellsHelper.CellIndexToName(area.EndRow, area.EndColumn)}");
+                }
+                
+                Console.WriteLine(sb.ToString());
             }
-            switch (i)
-            {
-                case 0:
-                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!B1");
-                    break;
-                case 1:
-                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!B1:B10");
-                    break;
-                case 2:
-                    Assert.AreEqual(stringBuilder.ToString().ToUpper(), "[Book1.xls]Sheet1!A1".ToUpper());
-                    break;
-            }
-                   
-         }
-         workbook.Save(Constants.destPath + "example.xls");
+            
+            workbook.Save("ReferredAreaExample.xlsx");
+        }
+    }
 }
 ```
 

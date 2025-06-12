@@ -16,58 +16,45 @@ public bool IntegralHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.IntegralHeight = true;
-public static void ListBoxActiveXControl_Property_IntegralHeight()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ListBoxActiveXControlPropertyIntegralHeightDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a ListBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,
+                10,  // left
+                10,  // top
+                200, // width
+                100, // height
+                0,   // imageWidth (required parameter)
+                0    // imageHeight (required parameter)
+            );
+            Aspose.Cells.Drawing.ActiveXControls.ListBoxActiveXControl listBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.ListBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ListBox
-            listBox.ListWidth = 100;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
-            listBox.ColumnCount = 2;
-            listBox.MatchEntry = ControlMatchEntryType.Complete;
-            listBox.ListStyle = ControlListStyle.Plain;
-            listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = "Item1";
-            listBox.BorderOleColor = 0x000000; // Black color
-            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            listBox.ShowColumnHeads = true;
+            // Demonstrate IntegralHeight property
             listBox.IntegralHeight = true;
-            listBox.ColumnWidths = 50;
+            Console.WriteLine("ListBox IntegralHeight set to: " + listBox.IntegralHeight);
 
-            // Set additional properties inherited from ActiveXControl
-            listBox.IsEnabled = true;
-            listBox.IsLocked = false;
-            listBox.IsTransparent = false;
-            listBox.IsAutoSize = false;
-            listBox.IMEMode = InputMethodEditorMode.NoControl;
-            listBox.TextAlign = TextAlignmentType.Left;
-            listBox.IsVisible = true;
-            listBox.Shadow = false;
-            listBox.LinkedCell = "A1";
-            listBox.ListFillRange = "A2:A5";
+            // Add sample items
+            listBox.ListFillRange = "A1:A3";
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Orange");
 
-            // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells["A2"].PutValue("Item1");
-            worksheet.Cells["A3"].PutValue("Item2");
-            worksheet.Cells["A4"].PutValue("Item3");
-            worksheet.Cells["A5"].PutValue("Item4");
-
-            // Save the workbook
-            workbook.Save("ListBoxActiveXControlDemo.xlsx");
-
-            // Output the results
-            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
+            workbook.Save("ListBoxIntegralHeightDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

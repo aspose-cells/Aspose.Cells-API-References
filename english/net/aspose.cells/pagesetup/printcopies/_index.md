@@ -16,11 +16,31 @@ public int PrintCopies { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
-public void PageSetup_Property_PrintCopies()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
+    public class PageSetupPropertyPrintCopiesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set the number of print copies to 3
+            worksheet.PageSetup.PrintCopies = 3;
+            
+            // Display the current print copies setting
+            Console.WriteLine("Print Copies: " + worksheet.PageSetup.PrintCopies);
+            
+            // Save the workbook
+            workbook.Save("PageSetup_PrintCopies_Output.xlsx");
+        }
+    }
 }
 ```
 

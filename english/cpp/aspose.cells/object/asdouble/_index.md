@@ -4,7 +4,7 @@ linktitle: AsDouble
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::AsDouble method. Converts the object to a double value, if object is number type in C++.'
 type: docs
-weight: 2800
+weight: 3200
 url: /cpp/aspose.cells/object/asdouble/
 ---
 ## Object::AsDouble method

@@ -37,14 +37,51 @@ public class WorkbookMetadata
 
 ### Examples
 
-The following example creates a WorkbookMetadata.
-
 ```csharp
-[C#]
-  MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-  WorkbookMetadata meta = new WorkbookMetadata("book1.xlsx", options);
-  meta.CustomDocumentProperties.Add("test", "test");
-  meta.Save("book2.xlsx");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+    using Aspose.Cells.Properties;
+    using System;
+    using System.IO;
+
+    public class WorkbookMetadataDemo
+    {
+        public static void WorkbookMetadataExample()
+        {
+            // Create MetadataOptions instance
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            // Create WorkbookMetadata instance with a file name and options
+            WorkbookMetadata meta = new WorkbookMetadata("WorkbookMetadataExample_original.xlsx", options);
+
+            // Add a custom document property
+            meta.CustomDocumentProperties.Add("test", "test");
+
+            // Save the metadata to a new file
+            meta.Save("WorkbookMetadataExample.xlsx");
+
+            // Demonstrate accessing built-in document properties
+            BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
+            Console.WriteLine("Author: " + builtInProps.Author);
+            Console.WriteLine("Title: " + builtInProps.Title);
+
+            // Demonstrate accessing custom document properties
+            CustomDocumentPropertyCollection customProps = meta.CustomDocumentProperties;
+            foreach (DocumentProperty prop in customProps)
+            {
+                Console.WriteLine("Custom Property - Name: " + prop.Name + ", Value: " + prop.Value);
+            }
+
+            // Save the metadata to a stream
+            using (FileStream stream = new FileStream("WorkbookMetadataExample2.xlsx", FileMode.Create, FileAccess.Write))
+            {
+                meta.Save(stream);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -24,38 +24,37 @@ public enum SelectionType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(SelectionType.Single, control.SelectionType);
-private void Drawing_Type_SelectionType(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassSelectionTypeDemo
+    {
+        public static void Run()
         {
-            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ListBox, control.Type);
-           // Assert.AreEqual(0, control.MaxLength);
-            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(SelectionType.Single, control.SelectionType);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(true, control.IntegralHeight);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(67.4929133858268, control.Width);
-            //Assert.AreEqual(21.7417322834646, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a list box to the worksheet
+            ListBox listBox = worksheet.Shapes.AddListBox(1, 0, 1, 1, 5, 10);
+
+            // Set the selection type to Single
+            listBox.SelectionType = SelectionType.Single;
+
+            // Add items to the list box
+            listBox.SetInputRange("A1:A5", false, false);
+
+            // Verify the selection type
+            Console.WriteLine("ListBox SelectionType: " + listBox.SelectionType);
+
+            // Save the workbook
+            workbook.Save("SelectionTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

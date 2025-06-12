@@ -20,91 +20,48 @@ The value of this property must be from 0 to 360, except for 3-D bar charts, whe
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(chartSrc.RotationAngle, chartDest.RotationAngle, info + ".RotationAngle");
-public static void Chart_Property_RotationAngle(Chart chartSrc, Chart chartDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyRotationAngleDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(chartSrc, chartDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(chartSrc.Type, chartDest.Type, info + ".Type");
-            //=======================compare ChartArea======================//
-            ChartAreaTest.Chart_Property_RotationAngle(chartSrc.ChartArea, chartDest.ChartArea, info + ".ChartArea");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            //AssertHelper.AreEqual(chartSrc.PlotAreaWithoutTickLabels, chartDest.PlotAreaWithoutTickLabels, info + ".PlotAreaWithoutTickLabels");
-            AssertHelper.AreEqual(chartSrc.IsRectangularCornered, chartDest.IsRectangularCornered, info + ".IsRectangularCornered");
-            //=======================compare PlotArea======================//
-            ChartFrameTest.Chart_Property_RotationAngle(chartSrc.PlotArea, chartDest.PlotArea, info + ".PlotArea");
-            //=======================compare Legend======================//
-            AssertHelper.AreEqual(chartSrc.ShowLegend, chartDest.ShowLegend, info + ".ShowLegend");
-            if (chartSrc.ShowLegend && chartDest.ShowLegend)
-                LegendTest.Chart_Property_RotationAngle(chartSrc.Legend, chartDest.Legend, info + ".Legend");           
-           //=======================compare axis=========================//
-            AxisTest.Chart_Property_RotationAngle(chartSrc.CategoryAxis, chartDest.CategoryAxis, info + ".CategoryAxis");
-            AxisTest.Chart_Property_RotationAngle(chartSrc.ValueAxis, chartDest.ValueAxis, info + ".ValueAxis");
-            AxisTest.Chart_Property_RotationAngle(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
-            AxisTest.Chart_Property_RotationAngle(chartSrc.SecondCategoryAxis, chartDest.SecondCategoryAxis, info + ".SecondCategoryAxis");
-            AxisTest.Chart_Property_RotationAngle(chartSrc.SecondValueAxis, chartDest.SecondValueAxis, info + ".SecondValueAxis");
-            //=======================compare ASeries======================//
-            NSeriesTest.Chart_Property_RotationAngle(chartSrc.NSeries, chartDest.NSeries, info + ".NSeries");
-            //====================compare options===============//
-            //for column chart
-            AssertHelper.AreEqual(chartSrc.GapWidth, chartDest.GapWidth, info + ".GapWidth");
-            //for column3d chart
-            AssertHelper.AreEqual(chartSrc.GapDepth, chartDest.GapDepth, info + ".GapDepth");
-            AssertHelper.AreEqual(chartSrc.DepthPercent, chartDest.DepthPercent, info + ".DepthPercent");
-            //for pie chart
-            AssertHelper.AreEqual(chartSrc.FirstSliceAngle, chartDest.FirstSliceAngle, info + ".FirstSliceAngle");
-            //for Bubble chart
-            //AssertHelper.AreEqual(chartSrc.SizeRepresents, chartDest.SizeRepresents, info + ".SizeRepresents");
-            //AssertHelper.AreEqual(chartSrc.BubbleSizes, chartDest.BubbleSizes, info + ".BubbleSizes");
-            //AssertHelper.AreEqual(chartSrc.ShowNegativeBubbles, chartDest.ShowNegativeBubbles, info + ".ShowNegativeBubbles");
-            //=======================compare chart options======================//
-            TitleTest.Chart_Property_RotationAngle(chartSrc.Title, chartDest.Title, info + ".Title");
-            //compare axes
-            AssertHelper.AreEqual(chartSrc.CategoryAxis.CategoryType, chartDest.CategoryAxis.CategoryType, info + ".CategoryAxis.CategoryType");
-            AxisTest.Chart_Property_RotationAngle(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
-            //compare gridlines
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
-            //compare datatable
-            AssertHelper.AreEqual(chartSrc.ShowDataTable, chartDest.ShowDataTable, info + ".ShowDataTable");
-            if (chartSrc.ShowDataTable && chartDest.ShowDataTable)
-            {
-                ChartDataTableTest.Chart_Property_RotationAngle(chartSrc.ChartDataTable, chartDest.ChartDataTable, info + ".ChartDataTable");
-            }
-            //=================compare for 3d================================//            
-            AssertHelper.AreEqual(chartSrc.Elevation, chartDest.Elevation, info + ".Elevation");
-            AssertHelper.AreEqual(chartSrc.RotationAngle, chartDest.RotationAngle, info + ".RotationAngle");
-            AssertHelper.AreEqual(chartSrc.Perspective, chartDest.Perspective, info + ".Perspective");
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
-            AssertHelper.AreEqual(chartSrc.RightAngleAxes, chartDest.RightAngleAxes, info + ".RightAngleAxes");
-            AssertHelper.AreEqual(chartSrc.HeightPercent, chartDest.HeightPercent, info + ".HeightPercent");
-            WallsTest.Chart_Property_RotationAngle(chartSrc.Walls, chartDest.Walls, info + ".Walls");
-            FloorTest.Chart_Property_RotationAngle(chartSrc.Floor, chartDest.Floor, info + ".Floor");
-            
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
-            //=================compare other================================//          
-            
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
-            //ChartShapeTest.Chart_Property_RotationAngle(chartSrc.ChartObject, chartDest.ChartObject, info + ".ChartObject");  
-            //PageSetupTest.Chart_Property_RotationAngle(chartSrc.PageSetup, chartDest.PageSetup, info + ".PageSetup");
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
-            AssertHelper.AreEqual(chartSrc.Placement, chartDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
-            AssertHelper.AreEqual(chartSrc.PrintSize, chartDest.PrintSize, info + ".PrintSize");           
-            //ShapesTest.Chart_Property_RotationAngle(chartSrc.Shapes, chartDest.Shapes, info + ".Shapes");
-            AssertHelper.AreEqual(chartSrc.SizeWithWindow, chartDest.SizeWithWindow, info + ".SizeWithWindow");
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
+            // Add a 3D column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            //chartSrc.PageSetup
-            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set rotation angle to 45 degrees
+            chart.RotationAngle = 45;
+
+            // Save the workbook
+            workbook.Save("ChartRotationAngleDemo.xlsx");
+
+            Console.WriteLine("Chart with rotation angle created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

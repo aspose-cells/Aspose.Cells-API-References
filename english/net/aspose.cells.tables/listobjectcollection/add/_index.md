@@ -28,32 +28,42 @@ The index of the new ListObject
 ### Examples
 
 ```csharp
-// Called: worksheet.ListObjects.Add(firstRow, firstColumn, endRow, endColumn, true);
-public void ListObjectCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook();
-    var worksheet = workbook.Worksheets[0];
-
-    // Populate range            
-    var range = worksheet.Cells.CreateRange("B3:D4");
-    range.Value = new object[,]
+    public class ListObjectCollectionMethodAddWithInt32Int32Int32Int32BooleanDemo
     {
-        {"Col1","Col2","Col3" },
-        {100,200,300 },
-    };
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // Create ListObject
-    var firstRow = range.FirstRow;
-    var endRow = firstRow + range.RowCount - 1;
-    var firstColumn = range.FirstColumn;
-    var endColumn = firstColumn + range.ColumnCount - 1;
-    worksheet.ListObjects.Add(firstRow, firstColumn, endRow, endColumn, true);
+            // Populate data in a range
+            var range = worksheet.Cells.CreateRange("B3:D4");
+            range.Value = new object[,]
+            {
+                {"Col1", "Col2", "Col3"},
+                {100, 200, 300}
+            };
 
-    // Show totals
-    worksheet.ListObjects[0].ShowTotals = true;
-    Assert.AreEqual("=SUBTOTAL(109,[Col3])", worksheet.Cells["D5"].Formula);
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            // Add ListObject using Add method with Int32 parameters
+            int firstRow = range.FirstRow;
+            int firstColumn = range.FirstColumn;
+            int endRow = firstRow + range.RowCount - 1;
+            int endColumn = firstColumn + range.ColumnCount - 1;
+            worksheet.ListObjects.Add(firstRow, firstColumn, endRow, endColumn, true);
+
+            // Enable totals and set formula for one column
+            worksheet.ListObjects[0].ShowTotals = true;
+            worksheet.Cells["D5"].Formula = "=SUBTOTAL(109,[Col3])";
+
+            // Save the workbook
+            workbook.Save("ListObjectAddDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -86,23 +96,34 @@ The index of the new ListObject
 ### Examples
 
 ```csharp
-// Called: listObjects.Add("A1", "B4", false);
-public void ListObjectCollection_Method_Add()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue("a");
-    cells[1, 0].PutValue(1);
-    cells[2, 0].PutValue(2);
-    cells[3, 0].PutValue(3);
-    cells[0, 1].PutValue("b");
-    cells[1, 1].PutValue(4);
-    cells[2, 1].PutValue(5);
-    cells[3, 1].PutValue(6);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
-    listObjects.Add("A1", "B4", false);
-    workbook.Save(Constants.destPath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class ListObjectCollectionMethodAddWithStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate sample data
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
+            worksheet.Cells["B3"].PutValue(4);
+
+            // Add list object using string range references
+            ListObjectCollection listObjects = worksheet.ListObjects;
+            listObjects.Add("A1", "B3", true);
+            
+            workbook.Save("ListObjectExample.xlsx");
+        }
+    }
 }
 ```
 

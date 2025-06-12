@@ -16,38 +16,38 @@ public bool ModifyDocumentPermission { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSecurityOptions.ModifyDocumentPermission = false;
-public static void PdfSecurityOptions_Property_ModifyDocumentPermission()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsPropertyModifyDocumentPermissionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
+            // Create a new workbook with sample data
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+            workbook.Worksheets[0].Cells["A1"].Value = "Test PDF Security";
 
-            // Create PdfSaveOptions
+            // Configure PDF save options with security settings
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            PdfSecurityOptions securityOptions = new PdfSecurityOptions();
 
-            // Create PdfSecurityOptions
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
+            // Set passwords and permissions
+            securityOptions.OwnerPassword = "owner123";
+            securityOptions.UserPassword = "user123";
+            securityOptions.ModifyDocumentPermission = false; // Core property demonstration
+            securityOptions.PrintPermission = true;
 
-            // Set security options
-            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-            pdfSecurityOptions.UserPassword = "YourUserPassword";
-            pdfSecurityOptions.PrintPermission = true;
-            pdfSecurityOptions.ModifyDocumentPermission = false;
-            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-            pdfSecurityOptions.AnnotationsPermission = true;
-            pdfSecurityOptions.FillFormsPermission = true;
-            pdfSecurityOptions.ExtractContentPermission = false;
-            pdfSecurityOptions.AccessibilityExtractContent = true;
-            pdfSecurityOptions.AssembleDocumentPermission = false;
-            pdfSecurityOptions.FullQualityPrintPermission = true;
+            // Apply security options and save
+            pdfSaveOptions.SecurityOptions = securityOptions;
+            workbook.Save("SecuredDocument.pdf", pdfSaveOptions);
 
-            // Assign security options to PdfSaveOptions
-            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
-
-            // Save the workbook as a PDF with the specified security options
-            workbook.Save("output.pdf", pdfSaveOptions);
+            Console.WriteLine("PDF created with ModifyDocumentPermission set to false");
         }
+    }
+}
 ```
 
 ### See Also

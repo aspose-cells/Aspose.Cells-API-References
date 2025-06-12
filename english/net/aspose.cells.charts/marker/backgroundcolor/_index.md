@@ -16,30 +16,43 @@ public Color BackgroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: aseries.Marker.BackgroundColor = Color.Yellow;
-		public void Marker_Property_BackgroundColor()
-		{
-			Workbook excel = new Workbook();
-			Cells cells = excel.Worksheets[0].Cells;
-			cells["A1"].PutValue(1);
-			cells["A2"].PutValue(2);
-			cells["A3"].PutValue(3);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-			int chartIndex = excel.Worksheets[0].Charts.Add(ChartType.LineWithDataMarkers,  4, 4, 15, 10);
-			Chart chart = excel.Worksheets[0].Charts[chartIndex];
-			chart.NSeries.Add("A1:A3", true);
+namespace AsposeCellsExamples
+{
+    public class MarkerPropertyBackgroundColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
 
-			for(int i = 0; i < chart.NSeries.Count; i ++)
-			{
-				Series aseries = chart.NSeries[i];
-				aseries.Marker.MarkerStyle = ChartMarkerType.SquarePlus;
-				aseries.Marker.MarkerSize = 10;
-				aseries.Marker.Border.Color = Color.Red;
-				aseries.Marker.BackgroundColor = Color.Yellow;
-			}
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
 
-            excel.Save(Constants.destPath + "chartmarker.xls");
-		}
+            // Customize marker appearance
+            foreach (Series series in chart.NSeries)
+            {
+                series.Marker.MarkerStyle = ChartMarkerType.Circle;
+                series.Marker.MarkerSize = 12;
+                series.Marker.Border.Color = System.Drawing.Color.Blue;
+                series.Marker.BackgroundColor = System.Drawing.Color.LightGreen; // Demonstrating BackgroundColor property
+            }
+
+            workbook.Save("MarkerBackgroundColorDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

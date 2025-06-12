@@ -16,28 +16,40 @@ public double SpaceBefore { get; set; }
 ### Examples
 
 ```csharp
-// Called: p.SpaceBefore = 4;
-public void TextParagraph_Property_SpaceBefore()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    shape.Text = "abc\nefg";
-    TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-    TextParagraph p = paragraphs[1];
-    p.LineSpaceSizeType = LineSpaceSizeType.Points;
-    p.LineSpace = 2;
-    p.SpaceAfter = 3;
-    p.SpaceBefore = 4;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
-    Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(2, p.LineSpace);
-    Assert.AreEqual(3, p.SpaceAfter);
-    Assert.AreEqual(4, p.SpaceBefore);
+    public class TextParagraphPropertySpaceBeforeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add text box and set text
+            Aspose.Cells.Drawing.Shape shape = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            shape.Text = "First paragraph\nSecond paragraph";
+            
+            // Get paragraphs
+            Aspose.Cells.Drawing.Texts.TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            
+            // Configure second paragraph spacing
+            Aspose.Cells.Drawing.Texts.TextParagraph p = paragraphs[1];
+            p.LineSpaceSizeType = Aspose.Cells.Drawing.Texts.LineSpaceSizeType.Points;
+            p.LineSpace = 2;
+            p.SpaceAfter = 3;
+            p.SpaceBefore = 4; // Demonstrate SpaceBefore property
+            
+            // Save and verify
+            string outputPath = "output_SpaceBeforeDemo.xlsx";
+            workbook.Save(outputPath);
+            
+            Console.WriteLine("Demo completed. File saved: " + outputPath);
+        }
+    }
 }
 ```
 

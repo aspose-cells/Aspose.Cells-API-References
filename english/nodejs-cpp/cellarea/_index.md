@@ -25,18 +25,18 @@ ca.endColumn = 0;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
 ## Properties
 
-| Name | Description |
-| --- | --- |
-| startRow | Gets or sets the start row of this area. |
-| endRow | Gets or sets the end row of this area. |
-| startColumn | Gets or sets the start column of this area. |
-| endColumn | Gets or sets the end column of this area. |
+| Property | Type | Description |
+| --- | --- | --- |
+| startRow | number | Gets or sets the start row of this area. |
+| endRow | number | Gets or sets the end row of this area. |
+| startColumn | number | Gets or sets the start column of this area. |
+| endColumn | number | Gets or sets the end column of this area. |
 
 ## Methods
 

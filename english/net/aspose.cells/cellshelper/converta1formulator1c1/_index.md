@@ -32,10 +32,20 @@ NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaR
 ### Examples
 
 ```csharp
-// Called: string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1);
-public void CellsHelper_Method_ConvertA1FormulaToR1C1()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1); 
+    public class CellsHelperMethodConvertA1FormulaToR1C1WithStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Convert A1 style formula to R1C1 style
+            string r1c1Formula = CellsHelper.ConvertA1FormulaToR1C1("=A1+B2", 0, 0);
+            Console.WriteLine("R1C1 Formula: " + r1c1Formula);
+        }
+    }
 }
 ```
 

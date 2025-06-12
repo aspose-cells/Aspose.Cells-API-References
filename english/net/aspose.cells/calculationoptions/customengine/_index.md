@@ -16,27 +16,55 @@ public AbstractCalculationEngine CustomEngine { get; set; }
 ### Examples
 
 ```csharp
-// Called: copts.CustomEngine = cffh;
-public void CalculationOptions_Property_CustomEngine()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    cell.Formula = "=HYPERLINK(\"http://localhost:9090\",\"Target\")";
-    CustomEngineForHyperlink cffh = new CustomEngineForHyperlink(true);
-    CalculationOptions copts = new CalculationOptions();
-    copts.CustomEngine = cffh;
-    wb.CalculateFormula(copts);
-    if (!cffh.Invoked)
+    public class CalculationOptionsPropertyCustomEngineDemo
     {
-        Assert.Fail("HYPERLINK in custom engine should be called");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Set HYPERLINK formula in cell A1
+            sheet.Cells["A1"].Formula = "=HYPERLINK(\"http://example.com\",\"Click Here\")";
+            
+            // Create custom engine that processes HYPERLINK function
+            CustomEngineForHyperlink customEngine = new CustomEngineForHyperlink(true);
+            
+            // Set calculation options with custom engine
+            CalculationOptions options = new CalculationOptions();
+            options.CustomEngine = customEngine;
+            
+            // Calculate formulas with custom engine
+            wb.CalculateFormula(options);
+            
+            Console.WriteLine("Custom engine invoked: " + customEngine.Invoked);
+        }
     }
-    cffh = new CustomEngineForHyperlink(false);
-    copts = new CalculationOptions();
-    copts.CustomEngine = cffh;
-    wb.CalculateFormula(copts);
-    if (cffh.Invoked)
+
+    public class CustomEngineForHyperlink : AbstractCalculationEngine
     {
-        Assert.Fail("HYPERLINK in custom engine should not be called");
+        public bool Invoked { get; private set; }
+        private readonly bool _shouldProcess;
+
+        public CustomEngineForHyperlink(bool shouldProcess)
+        {
+            _shouldProcess = shouldProcess;
+        }
+
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName == "HYPERLINK" && _shouldProcess)
+            {
+                Invoked = true;
+                data.CalculatedValue = "[Custom Processed] " + data.GetParamText(1);
+            }
+            // Don't call base.Calculate() as it's abstract
+            // Just let the default calculation happen for other functions
+        }
     }
 }
 ```

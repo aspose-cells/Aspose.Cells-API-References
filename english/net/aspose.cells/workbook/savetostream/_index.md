@@ -24,37 +24,50 @@ This method provides same function as Save method and only save the workbook as 
 ### Examples
 
 ```csharp
-// Called: Workbook workbook = new Workbook(start.SaveToStream());
-public void Workbook_Method_SaveToStream()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
- //   Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41525");
-    Workbook start = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class WorkbookMethodSaveToStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook start = new Workbook();
+            
+            // Access first worksheet and add some sample data
+            Worksheet worksheet = start.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
 
-    Workbook workbook = new Workbook(start.SaveToStream());
+            // Save workbook to memory stream
+            MemoryStream stream = start.SaveToStream();
 
-    //Accessing the first worksheet in the Excel file
-    Worksheet worksheet = workbook.Worksheets[0];
+            // Create new workbook from the stream
+            Workbook workbook = new Workbook(stream);
 
-    var area = CellArea.CreateCellArea(3, 0, 3, 1);
+            // Modify the new workbook
+            Worksheet newWorksheet = workbook.Worksheets[0];
+            var area = CellArea.CreateCellArea(3, 0, 3, 1);
+            newWorksheet.Cells.InsertRange(area, 3, ShiftType.Down, true);
 
-    worksheet.Cells.InsertRange(area, 3, ShiftType.Down, true);
+            newWorksheet.Cells["A4"].PutValue("D");
+            newWorksheet.Cells["B4"].PutValue(40);
+            newWorksheet.Cells["A5"].PutValue("E");
+            newWorksheet.Cells["B5"].PutValue(50);
+            newWorksheet.Cells["A6"].PutValue("F");
+            newWorksheet.Cells["B6"].PutValue(60);
 
-    worksheet.Cells["A4"].PutValue("D");
-    worksheet.Cells["B4"].PutValue(40);
-
-    worksheet.Cells["A5"].PutValue("E");
-    worksheet.Cells["B5"].PutValue(50);
-
-    worksheet.Cells["A6"].PutValue("F");
-    worksheet.Cells["B6"].PutValue(60);
-
-
-    workbook.Worksheets[0].Charts[0].Calculate();
-
-
-    //Saving the modified Excel file
-    Assert.AreEqual(workbook.Worksheets[1].Charts[0].NSeries[0].Values, "=Sheet1!$B$2:$B$7");
-
+            // Save the modified workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

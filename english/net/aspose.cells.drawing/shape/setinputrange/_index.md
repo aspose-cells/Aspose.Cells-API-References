@@ -22,30 +22,41 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
-
-for (int i = 0; i< 10; ++i)
+namespace AsposeCellsExamples
 {
-    Cell cell = book.Worksheets[0].Cells[i, 0];
-    cell.Value = i + 1;
+    public class ShapeMethodSetInputRangeWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook object
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells A1:A10
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells[i, 0].Value = i + 1;
+            }
+
+            // Add a list box shape
+            Aspose.Cells.Drawing.Shape listBox = worksheet.Shapes.AddListBox(2, 0, 2, 0, 130, 130);
+
+            // Set input range for the list box (using String, Boolean, Boolean parameters)
+            listBox.SetInputRange("$A$1:$A$6", false, false);
+
+            // Set linked cell for the list box
+            listBox.SetLinkedCell("$A$12", false, true);
+
+            // Save the workbook
+            workbook.Save("SetInputRangeDemo.xlsx");
+        }
+    }
 }
-   
-//Create a ListBox object
-
-//ActiveX Controls
-//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
-
-//Form Controls
-Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
-
-//Sets the range used to fill the control.
-listBox.SetInputRange("$A$1:$A$6", false, false);
-
-//Sets the range linked to the control's value.
-listBox.SetLinkedCell("$A$12", false, true);
-
 ```
 
 ### See Also

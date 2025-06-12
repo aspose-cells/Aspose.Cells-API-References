@@ -16,58 +16,37 @@ public virtual bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.IsVisible = true;
-public static void ActiveXControlBase_Property_IsVisible()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlBasePropertyIsVisibleDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a ListBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+            // Add a ListBox ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox, 5, 0, 1, 1, 100, 100);
+            var listBox = shape.ActiveXControl;
 
-            // Set properties for the ListBox
-            listBox.ListWidth = 100;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
-            listBox.ColumnCount = 2;
-            listBox.MatchEntry = ControlMatchEntryType.Complete;
-            listBox.ListStyle = ControlListStyle.Plain;
-            listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = "Item1";
-            listBox.BorderOleColor = 0x000000; // Black color
-            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            listBox.ShowColumnHeads = true;
-            listBox.IntegralHeight = true;
-            listBox.ColumnWidths = 50;
-
-            // Set additional properties inherited from ActiveXControl
-            listBox.IsEnabled = true;
-            listBox.IsLocked = false;
-            listBox.IsTransparent = false;
-            listBox.IsAutoSize = false;
-            listBox.IMEMode = InputMethodEditorMode.NoControl;
-            listBox.TextAlign = TextAlignmentType.Left;
+            // Configure basic properties
+            listBox.IsVisible = true; // Demonstrate IsVisible property
+            Console.WriteLine("Initial visibility: " + listBox.IsVisible);
+            listBox.IsVisible = false;
+            Console.WriteLine("After setting to false: " + listBox.IsVisible);
             listBox.IsVisible = true;
-            listBox.Shadow = false;
-            listBox.LinkedCell = "A1";
-            listBox.ListFillRange = "A2:A5";
-
-            // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells["A2"].PutValue("Item1");
-            worksheet.Cells["A3"].PutValue("Item2");
-            worksheet.Cells["A4"].PutValue("Item3");
-            worksheet.Cells["A5"].PutValue("Item4");
+            Console.WriteLine("After setting to true: " + listBox.IsVisible);
 
             // Save the workbook
-            workbook.Save("ListBoxActiveXControlDemo.xlsx");
-
-            // Output the results
-            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
+            workbook.Save("ActiveXControlVisibilityDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

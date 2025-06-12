@@ -16,20 +16,34 @@ public OdsPageBackground ODSPageBackground { get; }
 ### Examples
 
 ```csharp
-// Called: OdsPageBackground b = ps.ODSPageBackground;
-public void PageSetup_Property_ODSPageBackground()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    OdsPageBackground b = ps.ODSPageBackground;
-    b.Type = OdsPageBackgroundType.Color;
-    b.Color = Color.Red;
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    ps = workbook.Worksheets[0].PageSetup;
-    b = ps.ODSPageBackground;
-    Assert.AreEqual(b.Type, OdsPageBackgroundType.Color);
-   AssertHelper.AreEqual(Color.Red, b.Color);
+    public class PageSetupPropertyODSPageBackgroundDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            OdsPageBackground background = sheet.PageSetup.ODSPageBackground;
+            
+            // Set color background
+            background.Type = OdsPageBackgroundType.Color;
+            background.Color = Color.LightGreen;
+            
+            // Alternatively, set graphic background
+            background.Type = OdsPageBackgroundType.Graphic;
+            background.GraphicType = OdsPageBackgroundGraphicType.Tile;
+            background.GraphicPositionType = OdsPageBackgroundGraphicPositionType.TopLeft;
+            
+            workbook.Save("ODSPageBackgroundDemo.ods");
+        }
+    }
 }
 ```
 

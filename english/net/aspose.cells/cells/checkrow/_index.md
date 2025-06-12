@@ -24,15 +24,35 @@ Returns [`Row`](../../row/) object If the row object does exist, otherwise retur
 ### Examples
 
 ```csharp
-// Called: Assert.IsNotNull(cells.CheckRow(2));
-public void Cells_Method_CheckRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["B3"].PutValue("4");
-    cells.Columns[4].IsHidden = true;
-    Assert.IsNotNull(cells.CheckColumn(4));
-    Assert.IsNotNull(cells.CheckRow(2));
+    public class CellsMethodCheckRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Populate some data
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue(100);
+            cells["A3"].PutValue(200);
+            
+            // Check if row exists and get row object
+            Row row = cells.CheckRow(1);
+            if (row != null)
+            {
+                Console.WriteLine("Row 1 exists with height: " + row.Height);
+            }
+            
+            // Check non-existent row
+            Row nonExistentRow = cells.CheckRow(100);
+            Console.WriteLine("Row 100 exists: " + (nonExistentRow != null));
+        }
+    }
 }
 ```
 

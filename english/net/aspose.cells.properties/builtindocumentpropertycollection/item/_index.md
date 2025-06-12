@@ -28,14 +28,32 @@ If you request a property that is not present in the document and the name is no
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
-public void BuiltInDocumentPropertyCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+    public class BuiltInDocumentPropertyCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set a built-in document property using the proper method
+            workbook.BuiltInDocumentProperties["Version"].Value = "15.0300";
+            
+            // Access and print the property value
+            Console.WriteLine("Version: " + workbook.BuiltInDocumentProperties["Version"].Value);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook and verify the property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("Loaded Version: " + loadedWorkbook.BuiltInDocumentProperties["Version"].Value);
+        }
+    }
 }
 ```
 

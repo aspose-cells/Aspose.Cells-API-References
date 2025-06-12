@@ -4,7 +4,7 @@ linktitle: GetDataSorter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetDataSorter method. Gets a DataSorter object to sort data in C++.'
 type: docs
-weight: 4800
+weight: 4900
 url: /cpp/aspose.cells/workbook/getdatasorter/
 ---
 ## Workbook::GetDataSorter method

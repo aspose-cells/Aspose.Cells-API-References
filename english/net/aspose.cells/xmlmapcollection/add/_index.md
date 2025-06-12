@@ -23,20 +23,28 @@ public int Add(string url)
 
 ### Examples
 
-The following code adds two XmlMaps by a xsd file and a xml file.
-
 ```csharp
-Workbook wb = new Workbook();
+using System;
+using Aspose.Cells;
 
-XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
-
-//Add a XmlMap by a xsd file.
-xmlMapCollection.Add("schema.xsd");
-
-//Add a XmlMap by a xml file.
-xmlMapCollection.Add("xml.xml");
-
-wb.Save("twoXmlMaps.xlsx");
+namespace AsposeCellsExamples
+{
+    public class XmlMapCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            
+            XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
+            
+            // Add XML maps using schema and XML files
+            xmlMapCollection.Add("schema.xsd");
+            xmlMapCollection.Add("xml.xml");
+            
+            wb.Save("twoXmlMaps.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,13 +16,37 @@ public bool IsTableFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
-public void Cell_Property_IsTableFormula()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsm");
-    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
-    wb = Util.ReSave(wb, SaveFormat.Xlsm);
-    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after resave and open");
+    public class CellPropertyIsTableFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a table
+            int index = worksheet.ListObjects.Add(0, 0, 5, 3, true);
+            ListObject table = worksheet.ListObjects[index];
+            
+            // Add table formula to cell D2
+            Cell cell = worksheet.Cells["D2"];
+            cell.Formula = "=SUM(Table1[[#This Row],[Column1]:[Column3]])";
+            
+            // Check if the cell contains a table formula
+            Console.WriteLine("Is table formula: " + cell.IsTableFormula);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

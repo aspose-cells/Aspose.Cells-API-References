@@ -21,28 +21,64 @@ public byte[] ToImage(Cell cell, ImageOrPrintOptions imgOpts)
 ### Examples
 
 ```csharp
-// Called: byte[] img = bar.ToImage(cell, imgOpts);
-public void DataBar_Method_ToImage()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
-    Cell cell = workbook.Worksheets[0].Cells["C3"];// mergecell, toimage only one column width.
-    ConditionalFormattingResult result = cell.GetConditionalFormattingResult();
-    if (result != null)
+    public class DataBarMethodToImageWithCellImageOrPrintOptionsDemo
     {
-        DataBar bar = result.ConditionalFormattingDataBar;
-        if (bar != null)
+        public static void Run()
         {
-            //  imgOpts.SetDesiredSize(600, 28);// not work
-            byte[] img = bar.ToImage(cell, imgOpts);
-            File.WriteAllBytes(Constants.destPath + "example.png", img);
-            using (Image image = Image.FromStream(new MemoryStream(img)))
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and conditional formatting
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+            
+            // Add data bar conditional formatting
+            int idx = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[idx];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 3;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
+            
+            idx = fcc.AddCondition(FormatConditionType.DataBar);
+            FormatCondition cond = fcc[idx];
+            cond.DataBar.MinCfvo.Type = FormatConditionValueType.Min;
+            cond.DataBar.MaxCfvo.Type = FormatConditionValueType.Max;
+            
+            // Get the cell with conditional formatting
+            Cell cell = worksheet.Cells["A1"];
+            ConditionalFormattingResult result = cell.GetConditionalFormattingResult();
+            
+            if (result != null && result.ConditionalFormattingDataBar != null)
             {
-               Assert.AreEqual(602,image.Width);
+                DataBar bar = result.ConditionalFormattingDataBar;
+                ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
+                
+                // Convert data bar to image
+                byte[] img = bar.ToImage(cell, imgOpts);
+                
+                // Save the image
+                string outputPath = "DataBarImage.png";
+                File.WriteAllBytes(outputPath, img);
+                
+                // For image verification, you would need to add System.Drawing.Common package
+                // and use System.Drawing.Image if needed
+                Console.WriteLine($"Data bar image saved to {outputPath}");
             }
         }
     }
-    workbook.Save(Constants.destPath + "example.html");
 }
 ```
 

@@ -16,43 +16,51 @@ public PivotPageFields()
 ### Examples
 
 ```csharp
-// Called: PivotPageFields page = new PivotPageFields();
-public void PivotPageFields_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.openPivottablePath + "PivotSource.xls");
+    public class PivotPageFieldsMethodSharpctorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Worksheet ws = workbook.Worksheets[0];
-    PivotTableCollection pivottables = ws.PivotTables;
-    string[] src = { "=Sheet1!A1:C8", "=Sheet2!A1:C8" };
-    PivotPageFields page = new PivotPageFields();
-    string[] items = new string[2];
-    items[0] = "item1";
-    items[1] = "item2";
-    page.AddPageField(items);
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Region");
+            worksheet.Cells["C1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue("East");
+            worksheet.Cells["C2"].PutValue(1000);
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue("West");
+            worksheet.Cells["C3"].PutValue(2000);
 
-    items = new string[2];
-    items[0] = "item3";
-    items[1] = "item4";
-    page.AddPageField(items);
+            // Create pivot page fields using constructor
+            PivotPageFields pageFields = new PivotPageFields();
+            
+            // Add page fields
+            string[] items = { "Item1", "Item2" };
+            pageFields.AddPageField(items);
+            
+            // Add identification
+            int[] itemIndexes = { 0, 1 };
+            pageFields.AddIdentify(0, itemIndexes);
 
-    int[] tb = new int[2];
-    tb[0] = 0;
-    tb[1] = 1;
+            // Add pivot table with correct parameters
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            string sourceData = "A1:C3";
+            int index = pivotTables.Add(sourceData, "E5", "PivotTable1");
 
-    page.AddIdentify(0, tb);
-
-    tb = new int[2];
-    tb[0] = 1;
-    tb[1] = -1;
-    page.AddIdentify(1, tb);
-
-    int index = pivottables.Add(src, false, page, "E3", "PivotTable1");
-
-
-    //workbook.Save("D:\\c.xls", FileFormatType.Excel97To2003);
-    workbook.Save(Constants.savePivottablePath + "c.xlsx");
-
-
+            // Save the workbook
+            workbook.Save("PivotPageFieldsDemo.xlsx");
+        }
+    }
 }
 ```
 

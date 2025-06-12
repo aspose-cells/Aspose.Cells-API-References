@@ -16,14 +16,21 @@ public bool DropZonesVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotOptions.DropZonesVisible = true;
-public static void PivotOptions_Property_DropZonesVisible()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotOptionsPropertyDropZonesVisibleDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data for the pivot table
+            // Sample data for pivot table
             worksheet.Cells["A1"].PutValue("Category");
             worksheet.Cells["B1"].PutValue("Value");
             worksheet.Cells["A2"].PutValue("A");
@@ -35,32 +42,25 @@ public static void PivotOptions_Property_DropZonesVisible()
             worksheet.Cells["A5"].PutValue("B");
             worksheet.Cells["B5"].PutValue(40);
 
-            // Add a pivot table
+            // Create pivot table
             int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
             pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Add a chart
+            // Create chart linked to pivot table
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 7, 0, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
             chart.PivotSource = "PivotTable1";
 
-            // Access the PivotOptions of the chart
+            // Configure pivot options with DropZonesVisible
             PivotOptions pivotOptions = chart.PivotOptions;
-
-            // Set properties of PivotOptions
-            pivotOptions.DropZoneFilter = true;
-            pivotOptions.DropZoneCategories = true;
-            pivotOptions.DropZoneData = true;
-            pivotOptions.DropZoneSeries = true;
             pivotOptions.DropZonesVisible = true;
 
-            // Save the workbook
-            workbook.Save("PivotOptionsExample.xlsx");
-
-            return;
+            workbook.Save("PivotOptionsDropZonesVisibleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

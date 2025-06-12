@@ -25,23 +25,47 @@ public class Top10Filter
 ### Examples
 
 ```csharp
-// Called: Top10Filter f = worksheet.AutoFilter.FilterColumns[5].Filter as Top10Filter;
-public void Cells_Type_Top10Filter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K10";
-    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-    Top10Filter f = worksheet.AutoFilter.FilterColumns[5].Filter as Top10Filter;
-    Assert.IsNotNull(f);
-    Assert.IsTrue(f.IsTop);
-    Assert.IsFalse(f.IsPercent);
-    worksheet.AutoFilter.Refresh();
-    Cells cells = worksheet.Cells;
-    for (int i = 6; i < 30; i++)
+    public class CellsClassTop10FilterDemo
     {
-        Assert.AreEqual(i != 7 && i != 8 && i != 11 && i != 12 && i != 16,
-            cells.IsRowHidden(i), "Row(0 based).Hidden-" + i);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["B6"].PutValue("Value");
+            for (int i = 7; i <= 16; i++)
+            {
+                worksheet.Cells["B" + i].PutValue(20 - i);
+                worksheet.Cells["C" + i].PutValue("Item " + (i-6));
+            }
+            
+            // Apply auto filter and top 10 filter
+            worksheet.AutoFilter.Range = "B6:C16";
+            worksheet.AutoFilter.FilterTop10(0, true, false, 5); // Filter top 5 values in column B
+            
+            // Get the Top10Filter and verify its properties
+            Top10Filter filter = worksheet.AutoFilter.FilterColumns[0].Filter as Top10Filter;
+            Console.WriteLine("IsTop: " + filter.IsTop);
+            Console.WriteLine("IsPercent: " + filter.IsPercent);
+            Console.WriteLine("Items: " + filter.Items);
+            
+            // Refresh the filter and check hidden rows
+            worksheet.AutoFilter.Refresh();
+            for (int i = 6; i <= 16; i++)
+            {
+                Console.WriteLine($"Row {i} hidden: {worksheet.Cells.IsRowHidden(i)}");
+            }
+            
+            // Save the workbook
+            workbook.Save("Top10FilterDemo.xlsx");
+        }
     }
 }
 ```

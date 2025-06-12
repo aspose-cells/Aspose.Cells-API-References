@@ -4,7 +4,7 @@ linktitle: CopyRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::CopyRows method. Copies data and formats of some whole rows in C++.'
 type: docs
-weight: 9600
+weight: 9700
 url: /cpp/aspose.cells/cells/copyrows/
 ---
 ## Cells::CopyRows(const Cells\&, int32_t, int32_t, int32_t) method

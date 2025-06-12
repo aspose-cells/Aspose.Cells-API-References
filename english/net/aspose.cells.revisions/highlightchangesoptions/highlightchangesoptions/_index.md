@@ -21,28 +21,37 @@ public HighlightChangesOptions(bool highlightOnScreen, bool listOnNewSheet)
 ### Examples
 
 ```csharp
-// Called: HighlightChangesOptions options = new HighlightChangesOptions(true, true);
-public static void HighlightChangesOptions_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
+{
+    public class HighlightChangesOptionsMethodCtorWithBooleanBooleanDemo
+    {
+        public static void Run()
         {
-            // Instantiate a Workbook object
-            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
-
-            // Get the revision logs
-            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-
-            // Set the number of days to preserve the history
-            revisionLogs.DaysPreservingHistory = 30;
-
-            // Create HighlightChangesOptions
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Original Value");
+            worksheet.Cells["A2"].PutValue(100);
+            
+            // Create HighlightChangesOptions with boolean parameters
             HighlightChangesOptions options = new HighlightChangesOptions(true, true);
-
-            // Highlight changes
-            revisionLogs.HighlightChanges(options);
-
-            // Save the workbook with highlighted changes
-            workbook.Save("HighlightedChangesWorkbook.xlsx");
-            workbook.Save("HighlightedChangesWorkbook.pdf");
+            
+            // Simulate tracking changes (normally you'd have actual revisions)
+            Console.WriteLine("HighlightChangesOptions created with:");
+            Console.WriteLine($"First parameter (show changes): {true}");
+            Console.WriteLine($"Second parameter (changes on new sheet): {true}");
+            
+            // Save the workbook
+            workbook.Save("HighlightChangesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

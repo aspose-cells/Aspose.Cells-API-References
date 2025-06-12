@@ -16,18 +16,27 @@ public string ProgId { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(options.ProgId, "Excel.Sheet");
-        public void HtmlLoadOptions_Property_ProgId()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlLoadOptionsPropertyProgIdDemo
+    {
+        public static void Run()
         {
+            // Create HTML load options with MHTML format
             HtmlLoadOptions options = new HtmlLoadOptions(LoadFormat.MHtml);
-            Workbook workbook = new Workbook(Constants.MhtmlPath + "CellsNet46544excel.mht", options);
-            Assert.AreEqual(options.ProgId, "Excel.Sheet");
-            options = new HtmlLoadOptions(LoadFormat.MHtml);
-#if !LINUX_TEST
-            workbook = new Workbook(Constants.MhtmlPath + "CellsNet46544word.mht", options);
-            Assert.AreEqual(options.ProgId, "Word.Document");
-#endif
+            
+            // Get the ProgId property
+            Console.WriteLine("ProgId is: " + options.ProgId);
+
+            // Create another instance and get its ProgId
+            HtmlLoadOptions wordOptions = new HtmlLoadOptions(LoadFormat.MHtml);
+            Console.WriteLine("ProgId is: " + wordOptions.ProgId);
         }
+    }
+}
 ```
 
 ### See Also

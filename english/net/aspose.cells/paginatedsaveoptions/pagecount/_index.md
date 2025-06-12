@@ -19,22 +19,33 @@ Default is System.Int32.MaxValue which means all pages will be rendered..
 
 ### Examples
 
-The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
-
 ```csharp
-//Open an Excel file
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-PdfSaveOptions options = new PdfSaveOptions();
-
-//Print only Page 3 and Page 4 in the output PDF
-//Starting page index (0-based index)
-options.PageIndex = 3;
-//Number of pages to be printed
-options.PageCount = 2;
-
-//Save the PDF file
-wb.Save("output.pdf", options);
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyPageCountDemo
+    {
+        public static void Run()
+        {
+            // Open an Excel file
+            Workbook wb = new Workbook("Book1.xlsx");
+            
+            // Initialize PDF save options
+            PdfSaveOptions options = new PdfSaveOptions();
+            
+            // Set to print only 2 pages starting from page 4 (0-based index 3)
+            options.PageIndex = 3;
+            options.PageCount = 2;
+            
+            // Save the PDF file
+            wb.Save("output.pdf", options);
+            
+            Console.WriteLine("PDF saved with selected pages.");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -4,7 +4,7 @@ linktitle: ToDate
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToDate method. Gets the Date value in C++.'
 type: docs
-weight: 3000
+weight: 3400
 url: /cpp/aspose.cells/object/todate/
 ---
 ## Object::ToDate method

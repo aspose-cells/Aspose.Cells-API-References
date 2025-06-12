@@ -16,31 +16,36 @@ public string SelectedValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(comboBox.SelectedValue, "d");
-public void ComboBox_Property_SelectedValue()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-    for (int i = 0; i < shapes.Count; i++)
-    {
-        if (shapes[i].MsoDrawingType == MsoDrawingType.ComboBox)
-        {
-            ComboBox comboBox = (ComboBox)shapes[i];
-            Assert.AreEqual(comboBox.SelectedValue, "d");
-            break;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-        }
-    }
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    shapes = workbook.Worksheets[0].Shapes;
-    for (int i = 0; i < shapes.Count; i++)
+namespace AsposeCellsExamples
+{
+    public class ComboBoxPropertySelectedValueDemo
     {
-        if (shapes[i].MsoDrawingType == MsoDrawingType.ComboBox)
+        public static void Run()
         {
-            ComboBox comboBox = (ComboBox)shapes[i];
-            Assert.AreEqual(comboBox.SelectedValue, "d");
-            break;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a ComboBox and add items
+            Aspose.Cells.Drawing.ComboBox comboBox = (Aspose.Cells.Drawing.ComboBox)worksheet.Shapes.AddComboBox(1, 0, 1, 0, 100, 50);
+            comboBox.LinkedCell = "A1";
+            comboBox.SetInputRange("B1:B4", false, false);
+            
+            // Set values in the input range
+            worksheet.Cells["B1"].PutValue("a");
+            worksheet.Cells["B2"].PutValue("b");
+            worksheet.Cells["B3"].PutValue("c");
+            worksheet.Cells["B4"].PutValue("d");
+
+            // Demonstrate SelectedValue (read-only property)
+            Console.WriteLine("SelectedValue: " + comboBox.SelectedValue);
+
+            // Save the workbook
+            workbook.Save("ComboBoxDemo.xlsx");
         }
     }
 }

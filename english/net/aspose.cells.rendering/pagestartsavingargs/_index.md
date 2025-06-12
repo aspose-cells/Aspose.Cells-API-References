@@ -24,11 +24,42 @@ public class PageStartSavingArgs : PageSavingArgs
 ### Examples
 
 ```csharp
-// Called: public void PageStartSaving(PageStartSavingArgs args)
-public void Rendering_Type_PageStartSavingArgs(PageStartSavingArgs args)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingClassPageStartSavingArgsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Hello World");
+            
+            PdfSaveOptions options = new PdfSaveOptions();
+            options.PageSavingCallback = new CustomPageSavingCallback();
+            
+            workbook.Save("output.pdf", options);
+        }
+    }
+    
+    public class CustomPageSavingCallback : IPageSavingCallback
+    {
+        public void PageStartSaving(PageStartSavingArgs args)
         {
             Console.WriteLine($"Starting to save page {args.PageIndex}");
         }
+        
+        public void PageEndSaving(PageEndSavingArgs args)
+        {
+            // Optional implementation
+        }
+    }
+}
 ```
 
 ### See Also

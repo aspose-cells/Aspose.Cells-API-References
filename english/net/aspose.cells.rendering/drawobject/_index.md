@@ -28,13 +28,11 @@ public class DrawObject
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Rendering;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     // Custom implementation of DrawObjectEventHandler
     public class CustomDrawObjectEventHandler : DrawObjectEventHandler

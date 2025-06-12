@@ -13,17 +13,6 @@ Gets and sets the name of the user making the revision.
 public string UserName { get; set; }
 ```
 
-### Examples
-
-```csharp
-// Called: Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-public void RevisionHeader_Property_UserName()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-   Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-}
-```
-
 ### See Also
 
 * class [RevisionHeader](../)

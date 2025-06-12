@@ -4,7 +4,7 @@ linktitle: FileFormatInfo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFormatInfo class. Contains data returned by FileFormatUtil file format detection methods in C++.'
 type: docs
-weight: 5900
+weight: 6100
 url: /cpp/aspose.cells/fileformatinfo/
 ---
 ## FileFormatInfo class

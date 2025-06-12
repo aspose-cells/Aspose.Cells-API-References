@@ -4,7 +4,7 @@ linktitle: GetAllowSelectingUnlockedCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection::GetAllowSelectingUnlockedCell method. Represents if the user is allowed to select unlocked cells on a protected worksheet in C++.'
 type: docs
-weight: 4200
+weight: 3700
 url: /cpp/aspose.cells/protection/getallowselectingunlockedcell/
 ---
 ## Protection::GetAllowSelectingUnlockedCell method

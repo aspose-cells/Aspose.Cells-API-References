@@ -22,7 +22,7 @@ class TableStyleElementCollection;
 | [get(number)](#get-number-)| Gets an element of the table style by the index. |
 | [get(TableStyleElementType)](#get-tablestyleelementtype-)| Gets the element of the table style by the element type. |
 | [add(TableStyleElementType)](#add-tablestyleelementtype-)| Adds an element. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -79,7 +79,7 @@ Returns the index of the element in the list.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

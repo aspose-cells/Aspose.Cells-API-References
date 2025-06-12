@@ -25,57 +25,44 @@ public enum EquationFractionType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationFractionType.Skewed, node2.FractionType);
-public void Equations_Type_EquationFractionType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class EquationsClassEquationFractionTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add equation shape
+            TextBox textBox = worksheet.Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get math node and add fraction
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            FractionEquationNode fractionNode = (FractionEquationNode)mathNode.AddChild(EquationNodeType.Fraction);
+            fractionNode.FractionType = EquationFractionType.Skewed;
 
-    //test insert Fraction
-    FractionEquationNode node = (FractionEquationNode)mathNode.AddChild(EquationNodeType.Fraction);
-    node.FractionType = EquationFractionType.Skewed;
+            // Add numerator
+            EquationComponentNode numerator = (EquationComponentNode)fractionNode.AddChild(EquationNodeType.Numerator);
+            TextRunEquationNode numeratorText = (TextRunEquationNode)numerator.AddChild(EquationNodeType.Text);
+            numeratorText.Text = "A";
 
-    string str1 = "A";
-    EquationComponentNode numerator = (EquationComponentNode)node.AddChild(EquationNodeType.Numerator);
-    TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
-    TR.Text = str1;
+            // Add denominator
+            EquationComponentNode denominator = (EquationComponentNode)fractionNode.AddChild(EquationNodeType.Denominator);
+            TextRunEquationNode denominatorText = (TextRunEquationNode)denominator.AddChild(EquationNodeType.Text);
+            denominatorText.Text = "B";
 
-    string str2 = "B";
-    EquationComponentNode denominator = (EquationComponentNode)node.AddChild(EquationNodeType.Denominator);
-    TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
-    TR.Text = str2;
-
-    workbook.Save(Constants.destPath + "FractionEquationTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "FractionEquationTest.xlsx");
-
-    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    FractionEquationNode node2 = (FractionEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationFractionType.Skewed, node2.FractionType);
-
-    EquationComponentNode numerator2 = (EquationComponentNode)node2.GetChild(0);
-    Assert.AreNotEqual(null, numerator2);
-    Assert.AreEqual(EquationNodeType.Numerator, numerator2.EquationType);
-
-    EquationComponentNode denominator2 = (EquationComponentNode)node2.GetChild(1);
-    Assert.AreNotEqual(null, denominator2);
-    Assert.AreEqual(EquationNodeType.Denominator, denominator2.EquationType);
-
-    TextRunEquationNode TR1 = (TextRunEquationNode)numerator2.GetChild(0);
-    Assert.AreNotEqual(null, TR1);
-    Assert.AreEqual(str1, TR1.Text);
-
-    TextRunEquationNode TR2 = (TextRunEquationNode)denominator2.GetChild(0);
-    Assert.AreNotEqual(null, TR2);
-    Assert.AreEqual(str2, TR2.Text);
-
+            // Save and verify
+            workbook.Save("EquationFractionTypeDemo.xlsx");
+            
+            Console.WriteLine("Equation with skewed fraction created successfully.");
+        }
+    }
 }
 ```
 

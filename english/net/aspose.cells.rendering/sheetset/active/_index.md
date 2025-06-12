@@ -16,41 +16,40 @@ public static SheetSet Active { get; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.SheetSet = SheetSet.Active;
-public static void SheetSet_Property_Active()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class SheetSetPropertyActiveDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
+            // Create a new workbook with two worksheets
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.Worksheets.Add();
+            
+            // Set the second worksheet as active
+            workbook.Worksheets.ActiveSheetIndex = 1;
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Sample Data");
-            worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["A3"].PutValue(456);
+            // Add data to both worksheets
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sheet1 Data");
+            workbook.Worksheets[1].Cells["A1"].PutValue("Active Sheet Data");
 
-            // Create a PdfSaveOptions object
+            // Create PDF save options
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-            // Set the SheetSet property to include only the active sheet
+            
+            // Save only the active sheet
             pdfSaveOptions.SheetSet = SheetSet.Active;
+            workbook.Save("ActiveSheetOnly.pdf", pdfSaveOptions);
 
-            // Save the workbook to a PDF file
-            workbook.Save("SheetSetExample_ActiveSheet.pdf", pdfSaveOptions);
-
-            // Set the SheetSet property to include all visible sheets
-            pdfSaveOptions.SheetSet = SheetSet.Visible;
-
-            // Save the workbook to a PDF file
-            workbook.Save("SheetSetExample_VisibleSheets.pdf", pdfSaveOptions);
-
-            // Set the SheetSet property to include all sheets
+            // Save all sheets for comparison
             pdfSaveOptions.SheetSet = SheetSet.All;
-
-            // Save the workbook to a PDF file
-            workbook.Save("SheetSetExample_AllSheets.pdf", pdfSaveOptions);
-
-            return;
+            workbook.Save("AllSheets.pdf", pdfSaveOptions);
         }
+    }
+}
 ```
 
 ### See Also

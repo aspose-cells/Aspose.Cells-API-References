@@ -25,24 +25,38 @@ public class ContentTypeProperty
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+    using System;
 
-[C#]
+    public class ContentTypePropertyDemo
+    {
+        public static void ContentTypePropertyExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Add a new property.
- workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-//Save the Excel file
-workbook.Save("book1.xlsm");
+            // Add a new content type property
+            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
 
- [Visual Basic]
+            // Access the newly added property
+            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
+            
+            // Setting properties
+            property.Name = "Admin";
+            property.Value = "Aspose";
+            property.Type = "text";
+            property.IsNillable = true;
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Add a new property.
- workbook.ContentTypeProperties.Add("Admin", "Aspose", "text")
-'Save the Excel file
-workbook.Save("book1.xlsm")
+            // Save the Excel file
+            workbook.Save("ContentTypePropertyExample.xlsx");
+            workbook.Save("ContentTypePropertyExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

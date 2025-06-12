@@ -4,7 +4,7 @@ linktitle: FontSourceType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontSourceType enum. Specifies the type of a font source in C++.'
 type: docs
-weight: 21000
+weight: 21700
 url: /cpp/aspose.cells/fontsourcetype/
 ---
 ## FontSourceType enum

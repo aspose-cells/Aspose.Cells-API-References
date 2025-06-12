@@ -25,29 +25,48 @@ public enum PivotLineType
 ### Examples
 
 ```csharp
-// Called: pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
-public void Pivot_Type_PivotLineType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
-    Worksheet ws = book.Worksheets[1];
-    var pTable = ws.PivotTables[0];
+    public class PivotClassPivotLineTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(300);
 
-    pTable.RowFields[0].IsAutoSort = true;
-    pTable.RowFields[0].IsAscendSort = false;
-    pTable.RowFields[0].AutoSortField = pTable.DataFields.Count - 1;
-
-    //How can I sort with the row field by values in certain Column field. 
-    // example - something like below comments. 
-    //pTable.RowFields[0].IsAutoSort = true;
-    //pTable.RowFields[0].IsAscendSort = false;
-    //pTable.RowFields[0].AutoSortField = pTable.ColumnFields.Items[1];
-    pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
-
-    pTable.RefreshDataOnOpeningFile = true;
-    // pTable.RefreshData();
-    pTable.CalculateData();
-    Assert.AreEqual(83000, ws.Cells["C3"].DoubleValue);
-    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Sort row field by values in descending order
+            pivotTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "B2");
+            
+            // Calculate pivot table data
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotLineTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

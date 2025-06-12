@@ -16,25 +16,62 @@ public PivotFieldCollection RowFields { get; }
 ### Examples
 
 ```csharp
-// Called: var rowName = pivotTable1.RowFields[0].Name;
-public void PivotTable_Property_RowFields()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.PivotTableSourcePath  + @"example.xlsx");
+    public class PivotTablePropertyRowFieldsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Bike";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            
+            cells["A3"].Value = "Bike";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 800;
+            
+            cells["A4"].Value = "Car";
+            cells["B4"].Value = "North";
+            cells["C4"].Value = 1500;
+            
+            cells["A5"].Value = "Car";
+            cells["B5"].Value = "South";
+            cells["C5"].Value = 1200;
 
-    var pivotTable1 = workbook.Worksheets["Sheet3"].PivotTables[0];
-    var pivotTable2 = workbook.Worksheets["Sheet4"].PivotTables[0];
-
-    var dataSource = pivotTable1.DataSource;
-    // actual: null
-    // expected: Sheet3!$B$2:$C$114
-    Assert.AreEqual("Sheet3!$B$2:$C$114",dataSource[0]);
-
-    var rowName = pivotTable1.RowFields[0].Name;
-    // actual: [Table2].[Date].[Date]
-    // expected: Date
-    Assert.AreEqual("[Table2].[Date].[Date]", rowName);
-           
-    Assert.AreEqual(1, pivotTable2.PageFields.Count);
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            
+            // Add row fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Region");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Demonstrate RowFields property
+            Console.WriteLine("Row Fields Count: " + pivotTable.RowFields.Count);
+            Console.WriteLine("First Row Field Name: " + pivotTable.RowFields[0].Name);
+            Console.WriteLine("Second Row Field Name: " + pivotTable.RowFields[1].Name);
+            
+            // Save the workbook
+            workbook.Save("PivotTableRowFieldsDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,21 +16,38 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
-public void TextureFill_Property_ImageData()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx")))
+    public class TextureFillPropertyImageDataDemo
     {
-        var worksheet = workbook.Worksheets[0];
-        var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "example.png"));
-        foreach (Chart chart in worksheet.Charts)
+        public static void Run()
         {
-            if (chart.ChartArea.Area.FillFormat.FillType == FillType.Texture)
-            {
-                chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 5, 15, 15);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set texture fill type
+            chart.ChartArea.Area.FillFormat.FillType = FillType.Texture;
+
+            // Load image data
+            byte[] imageData = File.ReadAllBytes("texture.png");
+
+            // Set image data for texture fill
+            chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+
+            // Save the workbook
+            workbook.Save("TextureFillDemo.xlsx");
         }
-        Util.SaveManCheck(workbook, "Shape", "example.xlsx");
     }
 }
 ```

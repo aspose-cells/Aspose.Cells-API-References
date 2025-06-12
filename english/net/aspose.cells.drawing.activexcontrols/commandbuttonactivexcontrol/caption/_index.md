@@ -16,43 +16,32 @@ public string Caption { get; set; }
 ### Examples
 
 ```csharp
-// Called: commandButton.Caption = "Click Me";
-public static void CommandButtonActiveXControl_Property_Caption()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class CommandButtonActiveXControlPropertyCaptionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a CommandButton ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 2, 2,2,2, 100, 30);
-            CommandButtonActiveXControl commandButton = (CommandButtonActiveXControl)shape.ActiveXControl;
+            var shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.CommandButton, 2, 2, 2, 2, 100, 30);
+            Aspose.Cells.Drawing.ActiveXControls.CommandButtonActiveXControl commandButton = (Aspose.Cells.Drawing.ActiveXControls.CommandButtonActiveXControl)shape.ActiveXControl;
 
-            // Set properties of the CommandButton ActiveX control
+            // Demonstrate Caption property usage
             commandButton.Caption = "Click Me";
-            commandButton.PicturePosition = ControlPicturePositionType.Center;
-            commandButton.Accelerator = 'C';
-            commandButton.TakeFocusOnClick = true;
-            commandButton.IsWordWrapped = true;
-            commandButton.IsEnabled = true;
-            commandButton.IsLocked = false;
-            commandButton.IsTransparent = false;
-            commandButton.IsAutoSize = false;
-            commandButton.IMEMode = InputMethodEditorMode.NoControl;
-            commandButton.TextAlign = TextAlignmentType.Center;
             commandButton.Width = 150;
             commandButton.Height = 50;
-            commandButton.MousePointer = ControlMousePointerType.Default;
             commandButton.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
-            commandButton.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
-            commandButton.IsVisible = true;
-            commandButton.Shadow = true;
-            commandButton.LinkedCell = "A1";
-            commandButton.ListFillRange = "A2:A10";
 
-            // Save the workbook
-            workbook.Save("CommandButtonActiveXControlExample.xlsx");
-            workbook.Save("CommandButtonActiveXControlExample.pdf");
+            workbook.Save("CommandButtonCaptionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

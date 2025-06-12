@@ -24,9 +24,7 @@ public enum DisplayDrawingObjects
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

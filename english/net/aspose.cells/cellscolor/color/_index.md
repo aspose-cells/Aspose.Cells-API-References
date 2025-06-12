@@ -16,22 +16,35 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: color.Color = Color.Red;
-public void CellsColor_Property_Color()
-{
-    Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B5:F10");
-    CellsColor color = workbook.CreateCellsColor();
-    color.Color = Color.Red;
-    range.SetInsideBorders(BorderType.Horizontal | BorderType.Vertical, CellBorderType.Thin, color);
-    Cell cell = workbook.Worksheets[0].Cells["F5"];
-    Style style = cell.GetStyle();
-    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.LeftBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.RightBorder].LineStyle);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class CellsColorPropertyColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range and set colored borders
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B5:F10");
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = Color.Red;
+            range.SetInsideBorders(BorderType.Horizontal | BorderType.Vertical, CellBorderType.Thin, color);
+
+            // Verify the border settings in a cell
+            Cell cell = worksheet.Cells["F5"];
+            Style style = cell.GetStyle();
+            Console.WriteLine("Left Border: " + style.Borders[BorderType.LeftBorder].LineStyle);
+            Console.WriteLine("Bottom Border: " + style.Borders[BorderType.BottomBorder].LineStyle);
+
+            // Save the workbook
+            workbook.Save("CellsColorPropertyColorDemo.xlsx");
+        }
+    }
 }
 ```
 

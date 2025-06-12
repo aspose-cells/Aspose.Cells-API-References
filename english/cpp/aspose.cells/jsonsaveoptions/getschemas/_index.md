@@ -4,7 +4,7 @@ linktitle: GetSchemas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::GetSchemas method. The original json schema of each worksheet in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells/jsonsaveoptions/getschemas/
 ---
 ## JsonSaveOptions::GetSchemas method

@@ -30,10 +30,40 @@ A ComboBox object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a combo box
-ComboBox comboBox = shapes.AddComboBox(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddComboBoxWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a combo box with specified parameters
+            Aspose.Cells.Drawing.ComboBox comboBox = shapes.AddComboBox(1, 0, 1, 0, 100, 50);
+
+            // Add items to the combo box by setting cell values
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+
+            // Set the input range for the combo box
+            comboBox.InputRange = "A1:A3";
+            comboBox.DropDownLines = 3;
+
+            // Save the workbook
+            workbook.Save("AddComboBoxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

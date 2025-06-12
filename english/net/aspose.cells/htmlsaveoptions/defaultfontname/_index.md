@@ -16,14 +16,32 @@ public string DefaultFontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.DefaultFontName = "aaaaa";
-public void HtmlSaveOptions_Property_DefaultFontName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44561/";
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.DefaultFontName = "aaaaa";
-    wb.Save(CreateFolder(filePath) + "out.html", options);
+    public class HtmlSaveOptionsPropertyDefaultFontNameDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample Text");
+            
+            // Set HTML save options with custom default font
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.DefaultFontName = "Courier New";
+            
+            // Save to HTML with the specified font
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("HTML file saved with default font: " + saveOptions.DefaultFontName);
+        }
+    }
 }
 ```
 

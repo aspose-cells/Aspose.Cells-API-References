@@ -23,8 +23,32 @@ public class SpreadsheetConverter
 ### Examples
 
 ```csharp
-[C#]
-SpreadsheetConverter.Process("template.xlsx", "template.xlsb");
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeClassSpreadsheetConverterDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Initialize workbook with template file
+                Workbook workbook = new Workbook("template.xlsx");
+                
+                // Save in XLSB format
+                workbook.Save("template.xlsb", SaveFormat.Xlsb);
+                
+                Console.WriteLine("Conversion completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error during conversion: " + ex.Message);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

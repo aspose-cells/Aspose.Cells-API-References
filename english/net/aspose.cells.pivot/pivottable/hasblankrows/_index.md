@@ -16,47 +16,50 @@ public bool HasBlankRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.HasBlankRows = false;
-public void PivotTable_Property_HasBlankRows()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add();
-
-    Worksheet data = wb.Worksheets[0];
-    int row = 0;
-
-    data.Cells[row, 0].PutValue("Customer");
-    data.Cells[row, 1].PutValue("Sku");
-    data.Cells[row, 2].PutValue("Qty");
-    Random r = new Random();
-    for (row = 1; row < 50; row++)
+    public class PivotTablePropertyHasBlankRowsDemo
     {
-        data.Cells[row, 0].PutValue(r.Next(3) > 1 ? "Customer A" : "Customer B");
-        data.Cells[row, 1].PutValue(r.Next(3) > 1 ? "Sku A" : "Sku B");
-        data.Cells[row, 2].PutValue(r.Next(1, 100));
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet dataSheet = wb.Worksheets[0];
+            
+            // Create sample data
+            dataSheet.Cells[0, 0].PutValue("Category");
+            dataSheet.Cells[0, 1].PutValue("Product");
+            dataSheet.Cells[0, 2].PutValue("Sales");
+            
+            Random rnd = new Random();
+            for (int i = 1; i <= 10; i++)
+            {
+                dataSheet.Cells[i, 0].PutValue(rnd.Next(2) == 0 ? "Electronics" : "Furniture");
+                dataSheet.Cells[i, 1].PutValue("Product " + rnd.Next(1, 4));
+                dataSheet.Cells[i, 2].PutValue(rnd.Next(100, 1000));
+            }
+
+            // Add pivot table
+            Worksheet pivotSheet = wb.Worksheets.Add("PivotTable");
+            int pivotIndex = pivotSheet.PivotTables.Add(
+                "=Sheet1!A1:C11", "A1", "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotIndex];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 1); // Product
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales
+            
+            // Demonstrate HasBlankRows property
+            pivotTable.HasBlankRows = false; // Remove blank lines between items
+            
+            // Save the workbook
+            wb.Save("PivotTableHasBlankRowsDemo.xlsx");
+        }
     }
-
-    Worksheet pivot = wb.Worksheets[1];
-
-    PivotTable pt = pivot.PivotTables[pivot.PivotTables.Add("=Sheet1!A1:C50", 0, 0, "Test pivot")];
-
-
-    pt.EnableWizard = true;
-
-    pt.AddFieldToArea(PivotFieldType.Row, 0);
-    pt.RowFields[0].IsAutoSubtotals = false;
-
-    pt.AddFieldToArea(PivotFieldType.Row, 1);
-    pt.RowFields[1].IsAutoSubtotals = false;
-
-    pt.AddFieldToArea(PivotFieldType.Data, 2);
-
-    pt.IsAutoFormat = true;
-    pt.AutoFormatType = PivotTableAutoFormatType.Report5;
-    pt.HasBlankRows = false;
-
-
-    wb.Save(Constants.PivotTableDestPath + "example.xls");
 }
 ```
 

@@ -20,19 +20,44 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(style.IsProtectionApplied);
-public void Style_Property_IsProtectionApplied()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook asposeWorkbook;
-    LoadOptions options = new LoadOptions();
-    asposeWorkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    Style style = asposeWorkbook.GetNamedStyle("TestStyle");
-    Assert.IsTrue(style.IsNumberFormatApplied);
-    Assert.IsFalse(style.IsAlignmentApplied);
-    Assert.IsFalse(style.IsFontApplied);
-    Assert.IsFalse(style.IsBorderApplied);
-    Assert.IsFalse(style.IsFillApplied);
-    Assert.IsFalse(style.IsProtectionApplied);
+    public class StylePropertyIsProtectionAppliedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style object
+            Style style = workbook.CreateStyle();
+            
+            // Set protection properties
+            style.IsLocked = true;
+            style.IsFormulaHidden = true;
+            style.IsProtectionApplied = true;
+            
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            
+            // Verify protection settings
+            Console.WriteLine("IsProtectionApplied: " + style.IsProtectionApplied);
+            Console.WriteLine("IsLocked: " + style.IsLocked);
+            Console.WriteLine("IsFormulaHidden: " + style.IsFormulaHidden);
+            
+            // Modify protection settings
+            style.IsProtectionApplied = false;
+            Console.WriteLine("\nAfter changing IsProtectionApplied to false:");
+            Console.WriteLine("IsProtectionApplied: " + style.IsProtectionApplied);
+        }
+    }
 }
 ```
 

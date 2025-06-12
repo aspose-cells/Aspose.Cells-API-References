@@ -16,23 +16,47 @@ public string Name { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("G16", inputCell.Name);
-private void ScenarioInputCell_Property_Name(ScenarioCollection scenarios)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioInputCellPropertyNameDemo
+    {
+        public static void Run()
         {
-            Assert.AreEqual(scenarios.Count, 2);
-            Assert.AreEqual(1, scenarios.ActiveIndex);
-            Assert.AreEqual(1, scenarios.LastSelected);
-            Scenario scenario = scenarios[0];
-            Assert.AreEqual("test", scenario.Name);
-            Assert.AreEqual(true, scenario.IsLocked);
-            Assert.AreEqual(false, scenario.IsHidden);
-            Assert.AreEqual("Simon", scenario.User);
-            Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-            Assert.AreEqual(scenario.InputCells.Count, 4);
-            ScenarioInputCell inputCell = scenario.InputCells[0];
-            Assert.AreEqual("G16", inputCell.Name);
-            Assert.AreEqual("1", inputCell.Value);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a scenario
+            ScenarioCollection scenarios = worksheet.Scenarios;
+            int scenarioIndex = scenarios.Add("TestScenario");
+
+            // Get the scenario
+            Scenario scenario = scenarios[scenarioIndex];
+
+            // Add input cells to the scenario
+            ScenarioInputCellCollection inputCells = scenario.InputCells;
+            inputCells.Add(6, 15, "1"); // G16 is row 6, column 15 (0-based)
+            inputCells.Add(7, 15, "2"); // H16 is row 7, column 15 (0-based)
+
+            // Get the input cells
+            ScenarioInputCell inputCell1 = inputCells[0];
+            ScenarioInputCell inputCell2 = inputCells[1];
+
+            // Demonstrate Name property usage
+            Console.WriteLine("First input cell name: " + inputCell1.Name);
+            Console.WriteLine("Second input cell name: " + inputCell2.Name);
+
+            // Verify the names match expected values
+            if (inputCell1.Name != "G16" || inputCell2.Name != "H16")
+            {
+                throw new Exception("Input cell names don't match expected values");
+            }
         }
+    }
+}
 ```
 
 ### See Also

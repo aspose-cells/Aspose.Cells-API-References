@@ -16,54 +16,54 @@ public SqlScriptColumnTypeMap ColumnTypeMap { get; set; }
 ### Examples
 
 ```csharp
-// Called: ColumnTypeMap = new SqlScriptColumnTypeMap(),
-public static void SqlScriptSaveOptions_Property_ColumnTypeMap()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
+{
+    public class SqlScriptSaveOptionsPropertyColumnTypeMapDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Fill worksheet with some data
-            worksheet.Cells[0, 0].PutValue("ID");
-            worksheet.Cells[0, 1].PutValue("Name");
-            worksheet.Cells[1, 0].PutValue(1);
-            worksheet.Cells[1, 1].PutValue("John Doe");
-            worksheet.Cells[2, 0].PutValue(2);
-            worksheet.Cells[2, 1].PutValue("Jane Doe");
-
-            // Create an instance of SqlScriptSaveOptions
+            // Create a custom column type map
+            SqlScriptColumnTypeMap customTypeMap = new SqlScriptColumnTypeMap();
+            
+            // Create SQL save options
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
-                CheckIfTableExists = true,
-                ColumnTypeMap = new SqlScriptColumnTypeMap(),
-                CheckAllDataForColumnType = true,
-                AddBlankLineBetweenRows = false,
-                Separator = ';',
-                OperatorType = SqlScriptOperatorType.Insert,
-                PrimaryKey = 0,
+                TableName = "Employees",
                 CreateTable = true,
-                IdName = "ID",
-                StartId = 1,
-                TableName = "MyTable",
-                ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                HasHeaderRow = true,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                WarningCallback = null,
-                UpdateSmartArt = false
+                ColumnTypeMap = customTypeMap,
+                CheckIfTableExists = true,
+                ExportAsString = false
             };
 
-            // Save the workbook as SQL script
-            workbook.Save("MyTable.sql", saveOptions);
+            // Create sample workbook with data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add headers
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["C1"].PutValue("Salary");
+            
+            // Add data rows
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John Smith");
+            worksheet.Cells["C2"].PutValue(5000.50);
+            
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Jane Doe");
+            worksheet.Cells["C3"].PutValue(6500.75);
 
-            return;
+            // Save as SQL script
+            workbook.Save("EmployeeData.sql", saveOptions);
+            
+            Console.WriteLine("SQL script generated successfully with custom column type mapping.");
         }
+    }
+}
 ```
 
 ### See Also

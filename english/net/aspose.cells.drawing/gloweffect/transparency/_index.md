@@ -16,18 +16,29 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: shape.Glow.Transparency = 0.6;
-public void GlowEffect_Property_Transparency()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsx");// Please use both samples
+    public class GlowEffectPropertyTransparencyDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
 
-    Shape shape = wb1.Worksheets[0].Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 0, 0, 0, 100, 100);
-    shape.Glow.Size = 8;
-    shape.Glow.Transparency = 0.6;
-    CellsColor cColor = shape.Glow.Color;
-    cColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+            Shape shape = sheet.Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 10, 0, 10, 200, 100);
+            shape.Glow.Size = 8;
+            shape.Glow.Transparency = 0.6;
+            
+            CellsColor glowColor = shape.Glow.Color;
+            glowColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-    wb1.Save(Constants.destPath + "example.xlsx");
+            wb.Save("output/glow_transparency_demo.xlsx");
+        }
+    }
 }
 ```
 

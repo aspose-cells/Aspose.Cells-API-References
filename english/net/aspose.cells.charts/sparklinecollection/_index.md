@@ -58,26 +58,60 @@ public class SparklineCollection : CollectionBase<Sparkline>
 ### Examples
 
 ```csharp
-[C#]
-Workbook book = new Workbook(); 
-Worksheet sheet = book.Worksheets[0];
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
 
-sheet.Cells["A1"].PutValue(5);
-sheet.Cells["B1"].PutValue(2);
-sheet.Cells["C1"].PutValue(1);
-sheet.Cells["D1"].PutValue(3);
+    public class SparklineCollectionDemo
+    {
+        public static void SparklineCollectionExample()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// Define the CellArea
-CellArea ca = new CellArea();
-ca.StartColumn = 4;
-ca.EndColumn = 4;
-ca.StartRow = 0;
-ca.EndRow = 0;
+            // Insert sample data into the worksheet
+            worksheet.Cells["A1"].PutValue(5);
+            worksheet.Cells["B1"].PutValue(2);
+            worksheet.Cells["C1"].PutValue(1);
+            worksheet.Cells["D1"].PutValue(3);
 
-int idx = sheet.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
-SparklineGroup group = sheet.SparklineGroups[idx];
-group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
-book.Save("output.xlsx", SaveFormat.Xlsx);
+            // Define the CellArea where the sparklines will be added
+            CellArea cellArea = new CellArea { StartColumn = 4, EndColumn = 4, StartRow = 0, EndRow = 0 };
+
+            // Add a new SparklineGroup to the worksheet
+            int sparklineGroupIndex = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, cellArea);
+            SparklineGroup sparklineGroup = worksheet.SparklineGroups[sparklineGroupIndex];
+
+            // Add sparklines to the SparklineGroup
+            sparklineGroup.Sparklines.Add("A1:D1", 0, 4);
+
+            // Set various properties for the SparklineGroup
+            sparklineGroup.ShowHighPoint = true;
+            sparklineGroup.ShowLowPoint = true;
+
+            // Set colors for high and low points
+            CellsColor highPointColor = workbook.CreateCellsColor();
+            highPointColor.Color = System.Drawing.Color.Green;
+            sparklineGroup.HighPointColor = highPointColor;
+
+            CellsColor lowPointColor = workbook.CreateCellsColor();
+            lowPointColor.Color = System.Drawing.Color.Red;
+            sparklineGroup.LowPointColor = lowPointColor;
+
+            // Set the series color and line weight
+            CellsColor seriesColor = workbook.CreateCellsColor();
+            seriesColor.Color = System.Drawing.Color.Orange;
+            sparklineGroup.SeriesColor = seriesColor;
+            sparklineGroup.LineWeight = 1.0;
+
+            // Save the workbook
+            workbook.Save("SparklineCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

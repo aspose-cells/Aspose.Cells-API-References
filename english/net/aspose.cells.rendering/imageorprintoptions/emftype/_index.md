@@ -16,29 +16,45 @@ public EmfType EmfType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.EmfType = System.Drawing.Imaging.EmfType.EmfOnly;
-public void ImageOrPrintOptions_Property_EmfType()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    sheet.Cells["A1"].PutValue("Test output Emf Type");
+    public class ImageOrPrintOptionsPropertyEmfTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and add test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("EMF Type Demonstration");
 
-    var options = new ImageOrPrintOptions();
-    options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
-    options.OnlyArea = true;
+            // Initialize image options for EMF output
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
+            options.OnlyArea = true;
 
-    MemoryStream ms = new MemoryStream();
-    SheetRender sr1 = new SheetRender(sheet, options);
-    sr1.ToImage(0, ms);
-    int emfPlusDualLength = ms.ToArray().Length;
+            // First render with default EmfType
+            MemoryStream stream1 = new MemoryStream();
+            SheetRender renderer1 = new SheetRender(worksheet, options);
+            renderer1.ToImage(0, stream1);
+            Console.WriteLine($"Default EMF size: {stream1.Length} bytes");
 
-    ms = new MemoryStream();
-    options.EmfType = System.Drawing.Imaging.EmfType.EmfOnly;
-    SheetRender sr2 = new SheetRender(sheet, options);
-    sr2.ToImage(0, ms);
-    int emfOnlyLength = ms.ToArray().Length;
+            // Second render with EmfOnly type
+            options.EmfRenderSetting = EmfRenderSetting.EmfOnly;
+            MemoryStream stream2 = new MemoryStream();
+            SheetRender renderer2 = new SheetRender(worksheet, options);
+            renderer2.ToImage(0, stream2);
+            Console.WriteLine($"EMF-only size: {stream2.Length} bytes");
 
-    Assert.IsTrue(emfOnlyLength < emfPlusDualLength);
+            // Clean up
+            stream1.Dispose();
+            stream2.Dispose();
+        }
+    }
 }
 ```
 

@@ -31,18 +31,47 @@ public enum ErrorCellValueType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-public void Cells_Type_ErrorCellValueType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook w = new Workbook();
-    w.Worksheets[0].Copy(wb.Worksheets[0]);
-    CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-    w.Save(Constants.destPath + "example.xlsx");
-    w = new Workbook(Constants.destPath + "example.xlsx");
-    c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+    public class CellsClassErrorCellValueTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set a formula that will result in a spill error
+            worksheet.Cells["A1"].Formula = "=UNIQUE({1,2,3;1,2,3})";
+            
+            try
+            {
+                // Calculate formulas to trigger the error
+                workbook.CalculateFormula();
+            }
+            catch (Exception)
+            {
+                // Expected spill error
+            }
+            
+            // Get the cell's rich value
+            CellRichValue richValue = worksheet.Cells["A1"].GetRichValue();
+            
+            // Check the error type
+            if (richValue.ErrorValue == ErrorCellValueType.Spill)
+            {
+                Console.WriteLine("Cell contains a spill error as expected");
+            }
+            
+            // Save the workbook
+            workbook.Save("ErrorCellValueTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

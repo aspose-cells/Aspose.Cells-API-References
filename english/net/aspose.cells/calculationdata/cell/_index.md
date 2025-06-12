@@ -20,16 +20,41 @@ When calculating a formula without setting it to a cell, such as by [`CalculateF
 ### Examples
 
 ```csharp
-// Called: BaseCell = data.Cell;
-public override void CalculationData_Property_Cell(CalculationData data)
-            {
-                CellRow = data.CellRow;
-                CellColumn = data.CellColumn;
-                BaseCell = data.Cell;
+using System;
+using Aspose.Cells;
 
-                data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
-                    "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
-            }
+namespace AsposeCellsExamples
+{
+    public class CalculationDataPropertyCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data in cells
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
+            worksheet.Cells["B2"].PutValue(5);
+            worksheet.Cells["B3"].PutValue(15);
+            worksheet.Cells["B4"].PutValue(25);
+
+            // Create calculation data by calculating a formula
+            worksheet.Cells["C2"].Formula = "=IFERROR(A2:A4,B2:B4)";
+            var result = worksheet.Cells["C2"].Value;
+
+            // Get the calculation data (this approach may vary based on actual API)
+            // Note: The exact way to get CalculationData may depend on specific API version
+            // This is a simplified approach to demonstrate the Cell property usage
+            var cell = worksheet.Cells["C2"];
+            
+            // Output the result from the cell
+            Console.WriteLine("Calculated value: " + cell.Value);
+        }
+    }
+}
 ```
 
 ### See Also

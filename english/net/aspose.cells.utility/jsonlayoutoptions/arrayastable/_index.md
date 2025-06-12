@@ -16,18 +16,41 @@ public bool ArrayAsTable { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ArrayAsTable = true;
-public void JsonLayoutOptions_Property_ArrayAsTable()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    JsonLayoutOptions options = new JsonLayoutOptions();
-    options.ArrayAsTable = true;
-    options.IgnoreTitle = true;// **
-    string jsonData = File.ReadAllText(Constants.sourcePath + "example.json");
-    JsonUtility.ImportData(jsonData, sheet.Cells, 0, 0, options);
-    Assert.AreEqual(2,workbook.Worksheets[0].Cells.Rows.Count);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class JsonLayoutOptionsPropertyArrayAsTableDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create JSON layout options and set ArrayAsTable to true
+            JsonLayoutOptions options = new JsonLayoutOptions();
+            options.ArrayAsTable = true;
+            options.IgnoreTitle = true;
+
+            // Sample JSON data (simplified for demonstration)
+            string jsonData = @"{
+                ""products"": [
+                    {""id"":1, ""name"":""Laptop"", ""price"":999.99},
+                    {""id"":2, ""name"":""Phone"", ""price"":599.99}
+                ]
+            }";
+
+            // Import JSON data to worksheet
+            JsonUtility.ImportData(jsonData, sheet.Cells, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

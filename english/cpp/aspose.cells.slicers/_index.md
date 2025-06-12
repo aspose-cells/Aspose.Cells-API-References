@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Slicers
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Slicers namespace in C++.'
 type: docs
-weight: 2200
+weight: 2700
 url: /cpp/aspose.cells.slicers/
 ---
 

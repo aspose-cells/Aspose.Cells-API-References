@@ -19,7 +19,7 @@ NOTE: This class is now obsolete. Instead, please use PowerQueryFormulaCollectio
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -29,7 +29,7 @@ NOTE: This class is now obsolete. Instead, please use PowerQueryFormulaCollectio
 | --- | --- |
 | [get(number)](#get-number-)| Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the index in the list. |
 | [get(string)](#get-string-)| Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the name of the item. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -78,7 +78,7 @@ get(name: string) : PowerQueryFormulaParameter;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

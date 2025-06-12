@@ -49,14 +49,14 @@ Represents options when importing an ebook file.
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
 | [getLoadFormulas()](#getLoadFormulas--) | Indicates whether importing formulas if the original html file contains formulas |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [getLocale()](#getLocale--) | Gets the Locale used for workbook at the time the file was loaded. |
+| [getLocale()](#getLocale--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [getProgId()](#getProgId--) | Gets the program id of creating the file. |
-| [getRegion()](#getRegion--) | Gets the system regional settings based on CountryCode at the time the file was loaded. |
+| [getRegion()](#getRegion--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
@@ -90,14 +90,14 @@ Represents options when importing an ebook file.
 | [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | The filter to denote how to load data. |
 | [setLoadFormulas(boolean value)](#setLoadFormulas-boolean-) | Indicates whether importing formulas if the original html file contains formulas |
 | [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used for workbook at the time the file was loaded. |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
 | [setPreservePaddingSpacesInFormula(boolean value)](#setPreservePaddingSpacesInFormula-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
-| [setRegion(int value)](#setRegion-int-) | Sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [setRegion(int value)](#setRegion-int-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the StreamProviderImportHtmlFile for importing objects. |
@@ -433,9 +433,11 @@ public Locale getLocale()
 ```
 
 
-Gets the Locale used for workbook at the time the file was loaded.
+Gets the regional settings used for the Workbook that will be loaded.
 
 **Remarks**
+
+This property has the same effect with [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--) for setting regional settings.
 
 **Returns:**
 java.util.Locale
@@ -519,13 +521,13 @@ public int getRegion()
 ```
 
 
-Gets the system regional settings based on CountryCode at the time the file was loaded.
+Gets the regional settings used for the Workbook that will be loaded.
 
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**
 
-If you do not want to use the region saved in the file, please reset it after reading the file.
+The regional settings may be used for initializing some features for the workbook such as fonts, themes, and so on. For text based file formats, such as CSV, HTML, ..., the regional setting also will be used to detect number formats and parse text values to numeric or datetime values for cells. This setting will be kept for the instantiated workbook later, that is, [WorkbookSettings.getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) of the workbook will use the same region with this property.
 
 **Returns:**
 int
@@ -970,9 +972,11 @@ public void setLocale(Locale value)
 ```
 
 
-Sets the Locale used for workbook at the time the file was loaded.
+Sets the regional settings used for the Workbook that will be loaded.
 
 **Remarks**
+
+This property has the same effect with [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--) for setting regional settings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1081,13 +1085,13 @@ public void setRegion(int value)
 ```
 
 
-Sets the system regional settings based on CountryCode at the time the file was loaded.
+Sets the regional settings used for the Workbook that will be loaded.
 
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**
 
-If you do not want to use the region saved in the file, please reset it after reading the file.
+The regional settings may be used for initializing some features for the workbook such as fonts, themes, and so on. For text based file formats, such as CSV, HTML, ..., the regional setting also will be used to detect number formats and parse text values to numeric or datetime values for cells. This setting will be kept for the instantiated workbook later, that is, [WorkbookSettings.getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) of the workbook will use the same region with this property.
 
 **Parameters:**
 | Parameter | Type | Description |

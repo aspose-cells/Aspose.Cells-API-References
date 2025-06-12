@@ -20,7 +20,7 @@ class CommentCollection;
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var comments = workbook.getWorksheets().get(0).getComments();
+var comments = workbook.worksheets.get(0).comments;
 ```
 ## Methods
 
@@ -38,7 +38,7 @@ var comments = workbook.getWorksheets().get(0).getComments();
 | [removeAt(string)](#removeAt-string-)| Removes the comment of the specific cell. |
 | [removeAt(number, number)](#removeAt-number-number-)| Removes the comment of the specific cell. |
 | [clear()](#clear--)| Removes all comments; |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -241,7 +241,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

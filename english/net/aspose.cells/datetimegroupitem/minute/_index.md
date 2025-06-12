@@ -16,48 +16,46 @@ public int Minute { get; set; }
 ### Examples
 
 ```csharp
-// Called: dateTimeGroupItem.Minute = 15;
-public static void DateTimeGroupItem_Property_Minute()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertyMinuteDemo
+    {
+        public static void Run()
         {
-            // Create an instance of DateTimeGroupItem
+            // Create a DateTimeGroupItem with initial values
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
-                DateTimeGroupingType.Year, // Group by Year
-                2023,                      // Year
-                10,                        // Month
-                5,                         // Day
-                14,                        // Hour
-                30,                        // Minute
-                45                         // Second
+                DateTimeGroupingType.Year,
+                2023,
+                10,
+                5,
+                14,
+                30,
+                45
             );
 
-            // Accessing properties
-            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+            // Display initial minute value
+            Console.WriteLine("Initial Minute: " + dateTimeGroupItem.Minute);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
-            dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
+            // Change the minute value
             dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
 
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
+            // Display modified minute value
             Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+
+            // Create a new DateTimeGroupItem with only minute grouping
+            DateTimeGroupItem minuteGroup = new DateTimeGroupItem(
+                DateTimeGroupingType.Minute,
+                0, 0, 0, 0, 45, 0
+            );
+
+            // Display minute from minute grouping
+            Console.WriteLine("Minute from Minute Grouping: " + minuteGroup.Minute);
         }
+    }
+}
 ```
 
 ### See Also

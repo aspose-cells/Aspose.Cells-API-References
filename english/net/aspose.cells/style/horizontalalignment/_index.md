@@ -16,18 +16,44 @@ public TextAlignmentType HorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
-public void Style_Property_HorizontalAlignment()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42110AndNET45000/";
-    Workbook wb = new Workbook(filePath + "a.html");
-    Cells cells = wb.Worksheets[0].Cells;
-    Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
-    Assert.AreEqual(cells["A1"].GetStyle().Font.Color, Color.FromArgb(255, 255, 0, 0));
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(cells["A2"].GetStyle().HorizontalAlignment, TextAlignmentType.Center);
-    Assert.AreEqual(cells["A2"].GetStyle().Font.Color, Color.FromArgb(255, 0, 128, 0));
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
+namespace AsposeCellsExamples
+{
+    public class StylePropertyHorizontalAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set text in cells
+            cells["A1"].PutValue("Left Aligned");
+            cells["A2"].PutValue("Center Aligned");
+            cells["A3"].PutValue("Right Aligned");
+
+            // Get style objects
+            Style styleLeft = cells["A1"].GetStyle();
+            Style styleCenter = cells["A2"].GetStyle();
+            Style styleRight = cells["A3"].GetStyle();
+
+            // Set horizontal alignment
+            styleLeft.HorizontalAlignment = TextAlignmentType.Left;
+            styleCenter.HorizontalAlignment = TextAlignmentType.Center;
+            styleRight.HorizontalAlignment = TextAlignmentType.Right;
+
+            // Apply styles to cells
+            cells["A1"].SetStyle(styleLeft);
+            cells["A2"].SetStyle(styleCenter);
+            cells["A3"].SetStyle(styleRight);
+
+            // Save the workbook
+            workbook.Save("HorizontalAlignmentDemo.xlsx");
+        }
+    }
 }
 ```
 

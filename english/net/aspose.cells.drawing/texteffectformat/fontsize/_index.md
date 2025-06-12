@@ -16,17 +16,44 @@ public int FontSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
-public static void TextEffectFormat_Property_FontSize(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class TextEffectFormatPropertyFontSizeDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
-            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");
-            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
-            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
-            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
-            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            int textboxIndex = worksheet.TextBoxes.Add(5, 5, 200, 100);
+            Aspose.Cells.Drawing.TextBox textBox = worksheet.TextBoxes[textboxIndex];
+            
+            // Set text and format
+            textBox.Text = "Sample Text Effect";
+            
+            // Get the text effect format
+            Shape shape = textBox;
+            TextEffectFormat effectFormat = shape.TextEffect;
+            
+            // Set font properties including FontSize
+            effectFormat.FontName = "Arial";
+            effectFormat.FontBold = true;
+            effectFormat.FontItalic = false;
+            effectFormat.FontSize = 18; // Demonstrating FontSize property
+            
+            // Save the workbook
+            workbook.Save("TextEffectFontSizeDemo.xlsx");
+            
+            Console.WriteLine("Text effect with font size 18 created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,8 +16,14 @@ public bool IsRulerVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.IsRulerVisible = true;
-public static void Worksheet_Property_IsRulerVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyIsRulerVisibleDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -25,50 +31,20 @@ public static void Worksheet_Property_IsRulerVisible()
             // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Set worksheet properties
-            worksheet.Name = "DemoSheet";
-            worksheet.IsGridlinesVisible = true;
-            worksheet.IsRowColumnHeadersVisible = true;
-            worksheet.DisplayZeros = true;
-            worksheet.DisplayRightToLeft = false;
-            worksheet.IsOutlineShown = true;
-            worksheet.IsSelected = true;
-            worksheet.FirstVisibleRow = 0;
-            worksheet.FirstVisibleColumn = 0;
-            worksheet.Zoom = 100;
+            // Set the worksheet to PageLayoutView where ruler is visible
             worksheet.ViewType = ViewType.PageLayoutView;
-            worksheet.IsPageBreakPreview = false;
+
+            // Toggle ruler visibility
             worksheet.IsRulerVisible = true;
-            worksheet.TabColor = System.Drawing.Color.Blue;
-            worksheet.CodeName = "Sheet1";
-            worksheet.ActiveCell = "A1";
 
-            // Add a hyperlink in Cell A1
-            worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-
-            // Freeze panes at "C3" with 3 row and 3 column
-            worksheet.FreezePanes("C3", 3, 3);
-
-            // Add a conditional formatting rule
-            int index = worksheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            fcs.AddArea(ca);
-
-            int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
-
-            // Setting properties for AboveAverage rule
-            fc.AboveAverage.IsAboveAverage = true;
-            fc.AboveAverage.IsEqualAverage = false;
-            fc.AboveAverage.StdDev = 2;
+            // Output the current ruler visibility state
+            Console.WriteLine("Worksheet ruler is visible: " + worksheet.IsRulerVisible);
 
             // Save the workbook
-            workbook.Save("WorksheetExample.xlsx");
-
-            return;
+            workbook.Save("WorksheetRulerVisibilityDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,12 +16,30 @@ public string Theme { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Theme, "Office");
-public void Workbook_Property_Theme()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Assert.AreEqual(workbook.Theme, "Office");
-    workbook.SetThemeColor(ThemeColorType.Accent1, Color.Black);
+    public class WorkbookPropertyThemeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Demonstrate getting the default theme
+            Console.WriteLine("Default theme: " + workbook.Theme);
+            
+            // Change theme color and verify
+            workbook.SetThemeColor(ThemeColorType.Accent1, Color.Blue);
+            Color accent1 = workbook.GetThemeColor(ThemeColorType.Accent1);
+            Console.WriteLine("Modified Accent1 color: " + accent1);
+            
+            // Save the workbook to demonstrate theme persistence
+            workbook.Save("ThemeDemo.xlsx");
+        }
+    }
 }
 ```
 

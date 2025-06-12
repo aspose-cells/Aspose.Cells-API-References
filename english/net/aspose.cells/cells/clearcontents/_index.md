@@ -20,23 +20,58 @@ public void ClearContents(CellArea range)
 ### Examples
 
 ```csharp
-// Called: cells.ClearContents(ca);
-private void Cells_Method_ClearContents(Worksheet sheet, string fml, CellArea expected, string[] res)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodClearContentsWithCellAreaDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
             Cells cells = sheet.Cells;
-            Cell cell = cells[expected.StartRow, expected.StartColumn];
-            CellArea ca = cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
-            AssertHelper.checkCellArea(expected, ca, fml);
-            CheckArrayFormula(fml, cells, ca, "");
-            CheckResult(res, cells, ca, fml);
-            cells.ClearContents(ca);
-            ca = cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), false);
-            AssertHelper.checkCellArea(expected, ca, fml);
-            CheckArrayFormula(fml, cells, ca, "");
-            sheet.Workbook.CalculateFormula();
-            CheckResult(res, cells, ca, fml);
-            cells.ClearContents(ca);
+
+            // Populate some data in a cell area
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 2;
+
+            for (int row = area.StartRow; row <= area.EndRow; row++)
+            {
+                for (int col = area.StartColumn; col <= area.EndColumn; col++)
+                {
+                    cells[row, col].PutValue($"Data_{row}_{col}");
+                }
+            }
+
+            Console.WriteLine("Before ClearContents:");
+            PrintCellAreaContents(cells, area);
+
+            // Clear contents of the cell area
+            cells.ClearContents(area);
+
+            Console.WriteLine("\nAfter ClearContents:");
+            PrintCellAreaContents(cells, area);
         }
+
+        private static void PrintCellAreaContents(Cells cells, CellArea area)
+        {
+            for (int row = area.StartRow; row <= area.EndRow; row++)
+            {
+                for (int col = area.StartColumn; col <= area.EndColumn; col++)
+                {
+                    Console.Write(cells[row, col].StringValue + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -66,26 +101,47 @@ public void ClearContents(int startRow, int startColumn, int endRow, int endColu
 ### Examples
 
 ```csharp
-// Called: cells.ClearContents(1048575, 16383, 1048575, 16383);
-public void Cells_Method_ClearContents()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testClearContents_Excel2007_002";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue(1);
-    cells[0, 16383].PutValue(2);
-    cells[1048575, 0].PutValue(3);
-    cells[1048575, 16383].PutValue(4);
+    public class CellsMethodClearContentsWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    cells.ClearContents(1048575, 16383, 1048575, 16383);
+            // Populate some cells with values
+            cells[0, 0].PutValue("Value A1");
+            cells[0, 1].PutValue("Value B1");
+            cells[1, 0].PutValue("Value A2");
+            cells[1, 1].PutValue("Value B2");
 
-    checkClearContents_Excel2007_002(workbook);
-    workbook.Save(Constants.destPath + "testClearContents.xlsx");
-    workbook = new Workbook(Constants.destPath + "testClearContents.xlsx");
-    checkClearContents_Excel2007_002(workbook);
-    workbook.Save(Constants.destPath + "testClearContents.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testClearContents.xml");
-    workbook.Save(Constants.destPath + "testClearContents.xls");
+            // Display original values
+            Console.WriteLine("Before ClearContents:");
+            Console.WriteLine("A1: " + cells[0, 0].StringValue);
+            Console.WriteLine("B1: " + cells[0, 1].StringValue);
+            Console.WriteLine("A2: " + cells[1, 0].StringValue);
+            Console.WriteLine("B2: " + cells[1, 1].StringValue);
+
+            // Clear contents of cells in range (0,1) to (1,1)
+            cells.ClearContents(0, 1, 1, 1);
+
+            // Display values after clearing
+            Console.WriteLine("\nAfter ClearContents(0, 1, 1, 1):");
+            Console.WriteLine("A1: " + cells[0, 0].StringValue);
+            Console.WriteLine("B1: " + cells[0, 1].StringValue);
+            Console.WriteLine("A2: " + cells[1, 0].StringValue);
+            Console.WriteLine("B2: " + cells[1, 1].StringValue);
+
+            // Save the workbook
+            workbook.Save("ClearContentsDemo.xlsx");
+        }
+    }
 }
 ```
 

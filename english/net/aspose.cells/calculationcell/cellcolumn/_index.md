@@ -16,28 +16,48 @@ public int CellColumn { get; }
 ### Examples
 
 ```csharp
-// Called: writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-public static void CalculationCell_Property_CellColumn(IEnumerator circularCellsData, TextWriter writer)
+using System;
+using Aspose.Cells;
+using System.IO;
+using System.Collections;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationCellPropertyCellColumnDemo
+    {
+        public static void Run()
         {
-            circularCellsData.MoveNext();
-            CalculationCell cc = (CalculationCell)circularCellsData.Current;
-            Worksheet sheet = cc.Worksheet;
-            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-            writer.Flush();
-            while (circularCellsData.MoveNext())
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].Formula = "=SUM(A1:A2)";
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Get the calculation chain
+            IEnumerator enumerator = workbook.Worksheets.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                writer.Write("->");
-                cc = (CalculationCell)circularCellsData.Current;
-                if (cc.Worksheet != sheet)
+                Worksheet ws = (Worksheet)enumerator.Current;
+                foreach (Cell cell in ws.Cells)
                 {
-                    sheet = cc.Worksheet;
-                    writer.Write(sheet.Name + "!");
+                    if (cell.IsFormula)
+                    {
+                        // Demonstrate CellColumn property usage
+                        string cellAddress = CellsHelper.ColumnIndexToName(cell.Column) + (cell.Row + 1);
+                        Console.WriteLine($"Calculated cell at {cellAddress} in sheet '{ws.Name}'");
+                        Console.WriteLine($"Value: {cell.Value}");
+                    }
                 }
-                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-                writer.Flush();
             }
-            writer.WriteLine();
         }
+    }
+}
 ```
 
 ### See Also

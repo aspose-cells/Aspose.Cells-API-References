@@ -21,33 +21,33 @@ public void SetFitToPages(int wide, int tall)
 ### Examples
 
 ```csharp
-// Called: setup.SetFitToPages(2, 3);
-public void PageSetup_Method_SetFitToPages()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-    setup.SetFitToPages(2, 3);
-    Assert.IsFalse(setup.IsPercentScale);
-    Assert.AreEqual(2, setup.FitToPagesWide);
-    Assert.AreEqual(3, setup.FitToPagesTall);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.IsFalse(setup.IsPercentScale);
-    Assert.AreEqual(2, setup.FitToPagesWide);
-    Assert.AreEqual(3, setup.FitToPagesTall);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.IsFalse(setup.IsPercentScale);
-    Assert.AreEqual(2, setup.FitToPagesWide);
-    Assert.AreEqual(3, setup.FitToPagesTall);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.IsFalse(setup.IsPercentScale);
-    Assert.AreEqual(2, setup.FitToPagesWide);
-    Assert.AreEqual(3, setup.FitToPagesTall);
+    public class PageSetupMethodSetFitToPagesWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet's PageSetup
+            PageSetup setup = workbook.Worksheets[0].PageSetup;
+            
+            // Set the fit to pages settings
+            setup.SetFitToPages(2, 3);
+            
+            // Verify and output the settings
+            Console.WriteLine("IsPercentScale: " + setup.IsPercentScale);
+            Console.WriteLine("FitToPagesWide: " + setup.FitToPagesWide);
+            Console.WriteLine("FitToPagesTall: " + setup.FitToPagesTall);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

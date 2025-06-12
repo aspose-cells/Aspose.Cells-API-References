@@ -24,37 +24,46 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType gr
 ### Examples
 
 ```csharp
-// Called: fc.Style.SetTwoColorGradient(Color.Green, Color.Red, GradientStyleType.Vertical, 1);
-public void Style_Method_SetTwoColorGradient()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
-    FormatConditionCollection fcc = cfc[cfc.Add()];
-    fcc.AddArea(CellArea.CreateCellArea(0, 0, 0, 0));
-    FormatCondition fc = fcc[fcc.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "1", null)];
-    fc.Style.Font.Size = 26;
-    fc.Style.SetTwoColorGradient(Color.Green, Color.Red, GradientStyleType.Vertical, 1);
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    cell.PutValue(2);
-    Style ds = cell.GetDisplayStyle();
-    Assert.AreEqual(26, ds.Font.Size, "A1.DisplayStyle.Font with one condition");
-    Color c1, c2;
-    GradientStyleType gst;
-    int sv;
-    ds.GetTwoColorGradient(out c1, out c2, out gst, out sv);
-    AssertHelper.AreEqual(Color.Green, c1, "A1.DisplayStyle.Color1 with one condition");
-    AssertHelper.AreEqual(Color.Red, c2, "A1.DisplayStyle.Color2 with one condition");
-    AssertHelper.AreEqual(GradientStyleType.Vertical, gst, "A1.DisplayStyle.GradientStyleType with one condition");
-    AssertHelper.AreEqual(1, sv, "A1.DisplayStyle.Variant with one condition");
-    fc = fcc[fcc.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "0", null)];
-    fc.Style.SetTwoColorGradient(Color.Blue, Color.Gray, GradientStyleType.Horizontal, 2);
-    ds = cell.GetDisplayStyle();
-    Assert.AreEqual(26, ds.Font.Size, "A1.DisplayStyle.Font with two conditions");
-    ds.GetTwoColorGradient(out c1, out c2, out gst, out sv);
-    AssertHelper.AreEqual(Color.Blue, c1, "A1.DisplayStyle.Color1 with two conditions");
-    AssertHelper.AreEqual(Color.Gray, c2, "A1.DisplayStyle.Color2 with two conditions");
-    AssertHelper.AreEqual(GradientStyleType.Horizontal, gst, "A1.DisplayStyle.GradientStyleType with two conditions");
-    AssertHelper.AreEqual(2, sv, "A1.DisplayStyle.Variant with two conditions");
+    public class StyleMethodSetTwoColorGradientWithColorColorGradientStyleTypeIntDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a style object
+            Style style = workbook.CreateStyle();
+
+            // Set two color gradient for the style
+            style.SetTwoColorGradient(Color.Green, Color.Red, GradientStyleType.Vertical, 1);
+
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            cell.PutValue("Gradient Style Demo");
+
+            // Verify the gradient settings
+            Color color1, color2;
+            GradientStyleType gradientStyle;
+            int variant;
+            style.GetTwoColorGradient(out color1, out color2, out gradientStyle, out variant);
+
+            Console.WriteLine("Color1: " + color1);
+            Console.WriteLine("Color2: " + color2);
+            Console.WriteLine("Gradient Style: " + gradientStyle);
+            Console.WriteLine("Variant: " + variant);
+
+            // Save the workbook
+            workbook.Save("TwoColorGradientDemo.xlsx");
+        }
+    }
 }
 ```
 

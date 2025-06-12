@@ -16,21 +16,36 @@ public Color ForeColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(book.Worksheets[0].Shapes[0].LineFormat.ForeColor.ToArgb() & 0xFFFFFF, Color.Red.ToArgb() & 0xffffff);
-public void MsoLineFormat_Property_ForeColor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook(); 
-    Worksheet sheet = book.Worksheets[0]; 
-    Aspose.Cells.Drawing.TextBox t = sheet.Shapes.AddTextBox(1, 0, 1, 0, 200, 200);
-    t.LineFormat.ForeColor = Color.Red; 
-    t.LineFormat.Style = MsoLineStyle.Single;
-    t.LineFormat.IsVisible = true;
-    t.LineFormat.Weight = 2;
-    book.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(book.Worksheets[0].Shapes[0].LineFormat.ForeColor.ToArgb() & 0xFFFFFF, Color.Red.ToArgb() & 0xffffff);
+    public class MsoLineFormatPropertyForeColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            TextBox textBox = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 200, 100);
+            
+            // Set line format properties including ForeColor
+            textBox.LineFormat.ForeColor = Color.Red;
+            textBox.LineFormat.Style = MsoLineStyle.Single;
+            textBox.LineFormat.IsVisible = true;
+            textBox.LineFormat.Weight = 2;
 
-
+            workbook.Save("MsoLineFormatForeColorDemo.xlsx", SaveFormat.Xlsx);
+            
+            // Verify the saved color
+            Workbook loadedWorkbook = new Workbook("MsoLineFormatForeColorDemo.xlsx");
+            Shape loadedShape = loadedWorkbook.Worksheets[0].Shapes[0];
+            Console.WriteLine("Line ForeColor: " + loadedShape.LineFormat.ForeColor.ToString());
+        }
+    }
 }
 ```
 

@@ -16,21 +16,45 @@ public bool ShowInput { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(true, validation.ShowInput, foldName, className, caseName);
-private void Validation_Property_ShowInput(Validation validation)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyShowInputDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual("Yes,No", validation.Formula1, foldName, className, caseName);
-            AssertHelper.AreEqual(ValidationType.List, validation.Type, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.IgnoreBlank, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.InCellDropDown, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.ShowInput, foldName, className, caseName);
-            AssertHelper.AreEqual(null, validation.InputTitle, foldName, className, caseName);
-            AssertHelper.AreEqual(null, validation.InputMessage, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.ShowError, foldName, className, caseName);
-            AssertHelper.AreEqual(ValidationAlertType.Stop, validation.AlertStyle, foldName, className, caseName);
-            AssertHelper.AreEqual(null, validation.ErrorTitle, foldName, className, caseName);
-            AssertHelper.AreEqual(null, validation.ErrorMessage, foldName, className, caseName);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a validation area
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 0;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+
+            // Add validation
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "Yes,No";
+            validation.IgnoreBlank = true;
+            validation.InCellDropDown = true;
+            
+            // Set ShowInput property
+            validation.ShowInput = true;
+            validation.InputTitle = "Selection";
+            validation.InputMessage = "Please select Yes or No";
+
+            validation.AddArea(area);
+
+            // Save the workbook
+            workbook.Save("ValidationPropertyShowInputDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

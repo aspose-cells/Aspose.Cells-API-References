@@ -17,21 +17,32 @@ class RevisionCellMove extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
+| [sourceArea](#sourceArea--)| CellArea | Readonly. Gets the source area. |
+| [destinationArea](#destinationArea--)| CellArea | Readonly. Gets the destination area. |
+| [sourceWorksheet](#sourceWorksheet--)| Worksheet | Readonly. Gets the source worksheet. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of revision. |
-| [getSourceArea()](#getSourceArea--)| Gets the source area. |
-| [getDestinationArea()](#getDestinationArea--)| Gets the destination area. |
-| [getSourceWorksheet()](#getSourceWorksheet--)| Gets the source worksheet. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
+| [getSourceArea()](#getSourceArea--)| <b>@deprecated.</b> Please use the 'sourceArea' property instead. Gets the source area. |
+| [getDestinationArea()](#getDestinationArea--)| <b>@deprecated.</b> Please use the 'destinationArea' property instead. Gets the destination area. |
+| [getSourceWorksheet()](#getSourceWorksheet--)| <b>@deprecated.</b> Please use the 'sourceWorksheet' property instead. Gets the source worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -47,9 +58,67 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
+### type {#type--}
+
+Readonly. Represents the type of revision.
+
+```javascript
+type : RevisionType;
+```
+
+
+### sourceArea {#sourceArea--}
+
+Readonly. Gets the source area.
+
+```javascript
+sourceArea : CellArea;
+```
+
+
+### destinationArea {#destinationArea--}
+
+Readonly. Gets the destination area.
+
+```javascript
+destinationArea : CellArea;
+```
+
+
+### sourceWorksheet {#sourceWorksheet--}
+
+Readonly. Gets the source worksheet.
+
+```javascript
+sourceWorksheet : Worksheet;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
+
 ### getType() {#getType--}
 
-Represents the type of revision.
+<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
 
 ```javascript
 getType() : RevisionType;
@@ -62,7 +131,7 @@ getType() : RevisionType;
 
 ### getSourceArea() {#getSourceArea--}
 
-Gets the source area.
+<b>@deprecated.</b> Please use the 'sourceArea' property instead. Gets the source area.
 
 ```javascript
 getSourceArea() : CellArea;
@@ -75,7 +144,7 @@ getSourceArea() : CellArea;
 
 ### getDestinationArea() {#getDestinationArea--}
 
-Gets the destination area.
+<b>@deprecated.</b> Please use the 'destinationArea' property instead. Gets the destination area.
 
 ```javascript
 getDestinationArea() : CellArea;
@@ -88,7 +157,7 @@ getDestinationArea() : CellArea;
 
 ### getSourceWorksheet() {#getSourceWorksheet--}
 
-Gets the source worksheet.
+<b>@deprecated.</b> Please use the 'sourceWorksheet' property instead. Gets the source worksheet.
 
 ```javascript
 getSourceWorksheet() : Worksheet;
@@ -110,7 +179,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -123,7 +192,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;

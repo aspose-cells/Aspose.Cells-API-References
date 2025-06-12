@@ -20,40 +20,40 @@ The default value is true. If the value is false, it will reduce the size of the
 ### Examples
 
 ```csharp
-// Called: saveOptions.IsIndentedFormatting = true;
-public static void SpreadsheetML2003SaveOptions_Property_IsIndentedFormatting()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SpreadsheetML2003SaveOptionsPropertyIsIndentedFormattingDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data into the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
-            worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["B2"].PutValue(456);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(100);
 
-            // Create an instance of SpreadsheetML2003SaveOptions
-            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+            // Configure save options with indented formatting
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions
+            {
+                IsIndentedFormatting = true
+            };
 
-            // Set properties
-            saveOptions.IsIndentedFormatting = true;
-            saveOptions.LimitAsXls = false;
-            saveOptions.ExportColumnIndexOfCell = true;
-            saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = @"C:\Temp";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = true;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
+            // Save with indented XML formatting
+            workbook.Save("output_indented.xml", saveOptions);
 
-            // Save the workbook with the specified save options
-            workbook.Save("example.xml", saveOptions);
-
-            return;
+            // Save without indented formatting for comparison
+            saveOptions.IsIndentedFormatting = false;
+            workbook.Save("output_not_indented.xml", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

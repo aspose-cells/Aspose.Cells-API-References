@@ -16,17 +16,38 @@ public bool RemovePersonalInformation { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-public void WorkbookSettings_Property_RemovePersonalInformation()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
+    public class WorkbookSettingsPropertyRemovePersonalInformationDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set RemovePersonalInformation to true
+            workbook.Settings.RemovePersonalInformation = true;
+            
+            // Add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Email");
+            worksheet.Cells["A2"].PutValue("John Doe");
+            worksheet.Cells["B2"].PutValue("john@example.com");
+            
+            // Save the workbook
+            string outputPath = "output_with_personal_info_removed.xlsx";
+            workbook.Save(outputPath);
+            
+            // Load the saved workbook to verify the setting
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            Console.WriteLine("RemovePersonalInformation setting: " + 
+                loadedWorkbook.Settings.RemovePersonalInformation);
+        }
+    }
 }
 ```
 

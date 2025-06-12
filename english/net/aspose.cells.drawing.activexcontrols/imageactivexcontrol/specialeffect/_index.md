@@ -16,46 +16,38 @@ public ControlSpecialEffectType SpecialEffect { get; set; }
 ### Examples
 
 ```csharp
-// Called: imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-public static void ImageActiveXControl_Property_SpecialEffect()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertySpecialEffectDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an Image ActiveX control to the worksheet
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 0, 1, 1, 100, 100);
             ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the Image ActiveX control
-            imageControl.IsAutoSize = true;
-            imageControl.BorderOleColor = 0x000000; // Black border
+            // Demonstrate SpecialEffect property
+            imageControl.SpecialEffect = ControlSpecialEffectType.Raised;
+            
+            // Set other required properties
             imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
-
-            // Load an image from file and set it to the control
-            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
+            byte[] imageData = File.ReadAllBytes("demo.jpg");
             imageControl.Picture = imageData;
 
-            // Save the workbook
-            workbook.Save("ImageActiveXControlDemo.xlsx");
-            workbook.Save("ImageActiveXControlDemo.pdf");
-
-            // Output the results
-            Console.WriteLine("Image ActiveX Control added with the following properties:");
-            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
-            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
-            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
-            Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
-            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
-            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
-            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
+            workbook.Save("ImageActiveXControlSpecialEffectDemo.xlsx");
+            
+            Console.WriteLine($"SpecialEffect set to: {imageControl.SpecialEffect}");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,19 +20,42 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(style.IsFillApplied);
-public void Style_Property_IsFillApplied()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook asposeWorkbook;
-    LoadOptions options = new LoadOptions();
-    asposeWorkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    Style style = asposeWorkbook.GetNamedStyle("TestStyle");
-    Assert.IsTrue(style.IsNumberFormatApplied);
-    Assert.IsFalse(style.IsAlignmentApplied);
-    Assert.IsFalse(style.IsFontApplied);
-    Assert.IsFalse(style.IsBorderApplied);
-    Assert.IsFalse(style.IsFillApplied);
-    Assert.IsFalse(style.IsProtectionApplied);
+    public class StylePropertyIsFillAppliedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style
+            Style style = workbook.CreateStyle();
+            
+            // Initially, IsFillApplied should be false
+            Console.WriteLine("IsFillApplied (initial): " + style.IsFillApplied);
+            
+            // Apply fill settings
+            style.ForegroundColor = Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+            
+            // After setting fill properties, IsFillApplied should be true
+            Console.WriteLine("IsFillApplied (after setting fill): " + style.IsFillApplied);
+            
+            // Apply the style to a cell
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("IsFillAppliedDemo.xlsx");
+        }
+    }
 }
 ```
 

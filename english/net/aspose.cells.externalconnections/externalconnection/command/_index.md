@@ -16,14 +16,49 @@ public virtual string Command { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("テーブル3", conns[0].Command);
-public void ExternalConnection_Property_Command()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    ExternalConnection[] conns = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections();
-    Assert.AreEqual("WorksheetConnection_pivot.xlsx!テーブル3", conns[0].Name);
-    Assert.AreEqual("テーブル3", conns[0].Command);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+    public class ExternalConnectionPropertyCommandDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(150);
+            
+            // Create a table range
+            var range = worksheet.Cells.CreateRange("A1:B3");
+            
+            // Create a pivot table using the range as source
+            int index = worksheet.PivotTables.Add("D1", "A1:B3", "PivotTable1");
+            var pivotTable = worksheet.PivotTables[index];
+            
+            // Get the external connections
+            ExternalConnection[] connections = pivotTable.GetSourceDataConnections();
+            
+            // Display the Command property of the connection
+            if (connections.Length > 0)
+            {
+                Console.WriteLine("Connection Command: " + connections[0].Command);
+            }
+            
+            // Save the workbook
+            workbook.Save("ExternalConnectionCommandDemo.xlsx");
+        }
+    }
 }
 ```
 

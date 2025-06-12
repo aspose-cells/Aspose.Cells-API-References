@@ -16,18 +16,50 @@ public ConditionalFormattingIcon ConditionalFormattingIcon { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(formattingResult == null || formattingResult.ConditionalFormattingIcon == null,true);
-public void ConditionalFormattingResult_Property_ConditionalFormattingIcon()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class ConditionalFormattingResultPropertyConditionalFormattingIconDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    workbook.CalculateFormula();
+            // Add sample data and conditional formatting
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
 
-    Cell cell = worksheet.Cells["A1"];
-    ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
+            // Add icon set conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
 
-    Assert.AreEqual(formattingResult == null || formattingResult.ConditionalFormattingIcon == null,true);
+            int conditionIndex = fcc.AddCondition(FormatConditionType.IconSet);
+            FormatCondition condition = fcc[conditionIndex];
+            condition.IconSet.Type = IconSetType.TrafficLights31;
+
+            // Calculate formulas and get conditional formatting result
+            workbook.CalculateFormula();
+            ConditionalFormattingResult result = worksheet.Cells["A1"].GetConditionalFormattingResult();
+
+            // Demonstrate ConditionalFormattingIcon property
+            if (result != null && result.ConditionalFormattingIcon != null)
+            {
+                Console.WriteLine("Icon Type: " + result.ConditionalFormattingIcon.Type);
+                Console.WriteLine("Icon Index: " + result.ConditionalFormattingIcon.Index);
+            }
+        }
+    }
 }
 ```
 

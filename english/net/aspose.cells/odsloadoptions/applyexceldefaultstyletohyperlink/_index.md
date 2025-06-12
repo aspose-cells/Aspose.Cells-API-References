@@ -16,45 +16,35 @@ public bool ApplyExcelDefaultStyleToHyperlink { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-public static void OdsLoadOptions_Property_ApplyExcelDefaultStyleToHyperlink()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class OdsLoadOptionsPropertyApplyExcelDefaultStyleToHyperlinkDemo
+    {
+        public static void Run()
         {
             // Create an instance of OdsLoadOptions
             OdsLoadOptions loadOptions = new OdsLoadOptions();
 
-            // Setting properties
+            // Set ApplyExcelDefaultStyleToHyperlink property
             loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-            loadOptions.RefreshPivotTables = true;
-            loadOptions.Password = "your_password";
-            loadOptions.ParsingFormulaOnOpen = true;
-            loadOptions.ParsingPivotCachedRecords = false;
-            loadOptions.LanguageCode = CountryCode.USA;
-            loadOptions.Region = CountryCode.USA;
-            loadOptions.CultureInfo = new System.Globalization.CultureInfo("en-US");
-            loadOptions.StandardFont = "Arial";
-            loadOptions.StandardFontSize = 10.5;
-            loadOptions.IgnoreNotPrinted = true;
-            loadOptions.CheckDataValid = true;
-            loadOptions.CheckExcelRestriction = true;
-            loadOptions.KeepUnparsedData = true;
-            loadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.All);
-            loadOptions.LightCellsDataHandler = new CustomLightCellsDataHandler();
-            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-            loadOptions.WarningCallback = new CustomWarningCallback();
-            loadOptions.AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true };
-            loadOptions.AutoFilter = true;
-            loadOptions.FontConfigs = new IndividualFontConfigs();
-            loadOptions.IgnoreUselessShapes = true;
-            loadOptions.PreservePaddingSpacesInFormula = false;
 
             // Load an ODS file with the specified options
-            Workbook workbook = new Workbook("OdsLoadOptionsExample_original.ods", loadOptions);
+            Workbook workbook = new Workbook("sample.ods", loadOptions);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a hyperlink to demonstrate the style application
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
 
             // Save the workbook to a new file
-            workbook.Save("OdsLoadOptionsExample.xlsx");
-
-            return;
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

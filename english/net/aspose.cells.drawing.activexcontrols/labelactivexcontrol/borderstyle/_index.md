@@ -16,60 +16,33 @@ public ControlBorderType BorderStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Label Border Style: " + label.BorderStyle);
-public static void LabelActiveXControl_Property_BorderStyle()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class LabelActiveXControlPropertyBorderStyleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a Label ActiveX control to the worksheet
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.Label, 5, 0, 1, 1, 100, 20);
             LabelActiveXControl label = (LabelActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the Label
-            label.Caption = "Hello, Aspose!";
-            label.PicturePosition = ControlPicturePositionType.Center;
-            label.BorderOleColor = 0x000000; // Black color
+            label.Caption = "Border Style Demo";
             label.BorderStyle = ControlBorderType.Single;
-            label.SpecialEffect = ControlSpecialEffectType.Flat;
-            label.Accelerator = 'H';
-            label.IsWordWrapped = true;
-            label.IsEnabled = true;
-            label.IsLocked = false;
-            label.IsTransparent = false;
-            label.IsAutoSize = true;
-            label.IMEMode = InputMethodEditorMode.NoControl;
-            label.TextAlign = TextAlignmentType.Center;
-            label.ForeOleColor = 0x000000; // Black color
-            label.BackOleColor = 0xFFFFFF; // White color
-            label.IsVisible = true;
-            label.Shadow = false;
+            label.BorderOleColor = 0xFF0000; // Red border
 
-            // Save the workbook
-            workbook.Save("LabelActiveXControlDemo.xlsx");
-
-            // Output the results
-            Console.WriteLine("Label Caption: " + label.Caption);
-            Console.WriteLine("Label Picture Position: " + label.PicturePosition);
-            Console.WriteLine("Label Border Color: " + label.BorderOleColor);
             Console.WriteLine("Label Border Style: " + label.BorderStyle);
-            Console.WriteLine("Label Special Effect: " + label.SpecialEffect);
-            Console.WriteLine("Label Accelerator: " + label.Accelerator);
-            Console.WriteLine("Label Is Word Wrapped: " + label.IsWordWrapped);
-            Console.WriteLine("Label Is Enabled: " + label.IsEnabled);
-            Console.WriteLine("Label Is Locked: " + label.IsLocked);
-            Console.WriteLine("Label Is Transparent: " + label.IsTransparent);
-            Console.WriteLine("Label Is Auto Size: " + label.IsAutoSize);
-            Console.WriteLine("Label IME Mode: " + label.IMEMode);
-            Console.WriteLine("Label Text Align: " + label.TextAlign);
-            Console.WriteLine("Label Fore Color: " + label.ForeOleColor);
-            Console.WriteLine("Label Back Color: " + label.BackOleColor);
-            Console.WriteLine("Label Is Visible: " + label.IsVisible);
-            Console.WriteLine("Label Shadow: " + label.Shadow);
+            Console.WriteLine("Label Border Color: " + label.BorderOleColor);
+
+            workbook.Save("LabelBorderStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

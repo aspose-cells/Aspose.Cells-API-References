@@ -16,27 +16,44 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-// Called: if (cell.Row != sn || cell.Column != sn)
-private void Cell_Property_Column(Workbook wb, string info, int styleCount)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellPropertyColumnDemo
+    {
+        public static void Run()
         {
-            IEnumerator enCell = wb.Worksheets[0].Cells.GetEnumerator();
-            int sn = 0;
-            while (enCell.MoveNext())
-            {
-                Cell cell = (Cell)enCell.Current;
-                if (cell.Row != sn || cell.Column != sn)
-                {
-                    Assert.Fail(info + "Extra cell-" + cell.Name);
-                }
-                StyleProcessCell(cell, false, info);
-                sn++;
-            }
-            if (wb.CountOfStylesInPool > styleCount)
-            {
-                Assert.Fail(info + "Extra styles, original count is " + styleCount + ", current is " + wb.CountOfStylesInPool);
-            }
-            //check string pool in debug mode here.
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access cells and demonstrate Column property
+            Cell cell1 = worksheet.Cells["A1"];
+            Cell cell2 = worksheet.Cells["B2"];
+            Cell cell3 = worksheet.Cells["C3"];
+
+            // Set values and styles
+            cell1.PutValue("Cell A1");
+            cell2.PutValue("Cell B2");
+            cell3.PutValue("Cell C3");
+
+            // Demonstrate Column property usage
+            Console.WriteLine("Cell A1 is in column: " + cell1.Column);
+            Console.WriteLine("Cell B2 is in column: " + cell2.Column);
+            Console.WriteLine("Cell C3 is in column: " + cell3.Column);
+
+            // Modify column width using Column property
+            worksheet.Cells.Columns[cell1.Column].Width = 20;
+            worksheet.Cells.Columns[cell2.Column].Width = 25;
+            worksheet.Cells.Columns[cell3.Column].Width = 30;
+
+            // Save the workbook
+            workbook.Save("ColumnPropertyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

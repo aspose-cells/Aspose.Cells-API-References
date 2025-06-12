@@ -16,27 +16,48 @@ public string SeparatorString { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SeparatorString = " ";
-public void TxtSaveOptions_Property_SeparatorString()
-{
-    string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
-    Workbook workbook = new Workbook(FileName);
-    TxtSaveOptions saveOptions = new TxtSaveOptions();
-    saveOptions.TrimLeadingBlankRowAndColumn = false;
-    saveOptions.SeparatorString = " ";
-    workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
+using System;
+using Aspose.Cells;
 
-    TxtLoadOptions loadOptions = new TxtLoadOptions();
-    loadOptions.SeparatorString = " ";
-    workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
-    Cells cells = workbook.Worksheets[0].Cells;
-    //Console.WriteLine(cells.Count);
-    //foreach (Cell cell in cells)
-    //{
-    //    Console.WriteLine(cell.Name + " : " + cell.Value);
-    //}
-    Assert.AreEqual("Tabelle1", cells[1, 1].StringValue);
-    Assert.AreEqual(3, cells[3, 1].IntValue);
+namespace AsposeCellsExamples
+{
+    public class TxtSaveOptionsPropertySeparatorStringDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add test data
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["B1"].PutValue("Column2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+            worksheet.Cells["A3"].PutValue(1);
+            worksheet.Cells["B3"].PutValue(2);
+
+            // Save with space separator
+            TxtSaveOptions saveOptions = new TxtSaveOptions();
+            saveOptions.SeparatorString = " ";
+            workbook.Save("output_space.txt", saveOptions);
+
+            // Save with pipe separator
+            saveOptions.SeparatorString = "|";
+            workbook.Save("output_pipe.txt", saveOptions);
+
+            // Load the space-separated file to verify
+            TxtLoadOptions loadOptions = new TxtLoadOptions();
+            loadOptions.SeparatorString = " ";
+            Workbook loadedWorkbook = new Workbook("output_space.txt", loadOptions);
+            Cells cells = loadedWorkbook.Worksheets[0].Cells;
+
+            Console.WriteLine("Space-separated values:");
+            Console.WriteLine($"{cells["A1"].StringValue} {cells["B1"].StringValue}");
+            Console.WriteLine($"{cells["A2"].StringValue} {cells["B2"].StringValue}");
+            Console.WriteLine($"{cells["A3"].IntValue} {cells["B3"].IntValue}");
+        }
+    }
 }
 ```
 

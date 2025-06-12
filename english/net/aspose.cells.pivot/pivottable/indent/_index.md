@@ -16,11 +16,43 @@ public int Indent { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
-public void PivotTable_Property_Indent()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
+    public class PivotTablePropertyIndentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Set indent property
+            pivotTable.Indent = 3;
+            Console.WriteLine("Pivot Table Indent: " + pivotTable.Indent);
+
+            // Save the workbook
+            workbook.Save("PivotTableIndentDemo.xlsx");
+        }
+    }
 }
 ```
 

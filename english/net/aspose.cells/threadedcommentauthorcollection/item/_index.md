@@ -20,25 +20,38 @@ public ThreadedCommentAuthor this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: authors.CurrentPerson = authors[0];
-public void ThreadedCommentAuthorCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
-    authors.Add("Aspose", "S::johnson.shi@asposenj.onmicrosoft.com::bd07c1a8-5f37-4ecf-bd20-1f831c9015ce", "AD");
-    authors.CurrentPerson = authors[0];
+    public class ThreadedCommentAuthorCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+            
+            // Add authors and demonstrate Item property usage
+            authors.Add("John Doe", "john.doe@example.com", "JD");
+            authors.Add("Jane Smith", "jane.smith@example.com", "JS");
+            
+            // Access author using Item property
+            ThreadedCommentAuthor firstAuthor = authors[0];
+            Console.WriteLine($"First author: {firstAuthor.Name}, {firstAuthor.UserId}");
+            
+            // Set current person using Item property
+            authors.CurrentPerson = authors[1];
+            Console.WriteLine($"Current person: {authors.CurrentPerson.Name}");
 
+            // Add threaded comments
+            CommentCollection comments = workbook.Worksheets[0].Comments;
+            comments.AddThreadedComment("A1", "Comment from " + authors[0].Name, authors[0]);
+            comments.AddThreadedComment("A1", "Reply from " + authors[1].Name, authors[1]);
 
-    CommentCollection comments = workbook.Worksheets[0].Comments;
-    comments.AddThreadedComment("B3", "Test1", null);
-    comments.AddThreadedComment("B3", "Test2", null);
-    comments.AddThreadedComment("B3", "Test3", null);
-    workbook.Worksheets.Add();
-    comments = workbook.Worksheets[1].Comments;
-    comments.AddThreadedComment("B3", "Test11", null);
-    comments.AddThreadedComment("B3", "Test12", null);
-    comments.AddThreadedComment("B3", "Test13", null);
-    workbook.Save(Constants.destPath + "example.xlsx");
+            workbook.Save("ThreadedCommentAuthorsDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -62,6 +75,50 @@ public ThreadedCommentAuthor this[string name] { get; }
 | Parameter | Description |
 | --- | --- |
 | name | The name of the author. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ThreadedCommentAuthorCollectionPropertyItemDemo2
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the threaded comment authors collection
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+
+            // Add a new author
+            int index = authors.Add("John Doe", "john.doe", "provider1");
+
+            // Access the author using the Item property (indexer)
+            ThreadedCommentAuthor author = authors[index];
+
+            // Display the author's name
+            Console.WriteLine("Author name: " + author.Name);
+
+            // Add another author
+            authors.Add("Jane Smith", "jane.smith", "provider2");
+
+            // Iterate through all authors using the Item property
+            for (int i = 0; i < authors.Count; i++)
+            {
+                Console.WriteLine($"Author {i + 1}: {authors[i].Name}");
+            }
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentAuthorsDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

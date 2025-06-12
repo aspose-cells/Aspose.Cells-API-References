@@ -16,16 +16,36 @@ public void Split()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Split();
-[Test, Category("Bug")]
-        public void Worksheet_Method_Split()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodSplitDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Split();
-            workbook.Save(Constants.destPath + "example.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "example.xml");
-            // Assert.AreEqual(workbook.Worksheets[0].pa
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to demonstrate split
+            worksheet.Cells["A1"].PutValue("Header");
+            for (int i = 1; i <= 50; i++)
+            {
+                worksheet.Cells["A" + (i + 1)].PutValue("Data " + i);
+            }
+            
+            // Split the worksheet (no parameters needed)
+            worksheet.Split();
+            
+            // Save the workbook
+            workbook.Save("WorksheetSplitDemo.xml", SaveFormat.SpreadsheetML);
         }
+    }
+}
 ```
 
 ### See Also

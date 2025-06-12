@@ -22,7 +22,7 @@ class XmlMapCollection;
 | [get(number)](#get-number-)| Gets the xml map by the specific index. |
 | [add(string)](#add-string-)| Add a [XmlMap](../xmlmap/) by the url/path of a xml/xsd file. |
 | [clear()](#clear--)| Removes all XmlMaps. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -71,7 +71,7 @@ clear() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

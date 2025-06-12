@@ -44,6 +44,46 @@ public class UnknownControl : ActiveXControl
 | --- | --- |
 | [GetRelationshipData](../../aspose.cells.drawing.activexcontrols/unknowncontrol/getrelationshipdata/)(string) | Gets the related data. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples
+    using Aspose.Cells.Drawing.ActiveXControls;
+    using System;
+
+    public class ActiveXControlsClassUnknownControlDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an Unknown ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.Unknown,
+                0,  // topRow
+                0,  // top
+                0,  // leftColumn
+                0,  // left
+                100,// width
+                50  // height
+            );
+
+            // Get the UnknownControl instance from the shape
+            UnknownControl unknownControl = (UnknownControl)shape.ActiveXControl;
+            unknownControl.IsVisible = true;
+
+            // Save the workbook
+            workbook.Save("UnknownControlDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ActiveXControl](../activexcontrol/)

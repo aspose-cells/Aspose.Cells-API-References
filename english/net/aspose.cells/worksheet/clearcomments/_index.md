@@ -16,38 +16,44 @@ public void ClearComments()
 ### Examples
 
 ```csharp
-// Called: _worksheet.ClearComments();
-public void Worksheet_Method_ClearComments()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-
-    Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
-    loadOptions.CheckExcelRestriction = false;
-    Aspose.Cells.Workbook document = new Workbook(Constants.sourcePath + "example.xlsx", loadOptions);
-
-    Worksheet worksheet = document.Worksheets[0];
-
-    worksheet.IsSelected = true;
-    worksheet.Workbook.Worksheets.ActiveSheetIndex = 0;
-    worksheet.PageSetup.PrintArea = "A1:Z40";
-
-    foreach (Worksheet _worksheet in document.Worksheets)
+    public class WorksheetMethodClearCommentsDemo
     {
-        _worksheet.ClearComments();
-        _worksheet.PageSetup.ClearHeaderFooter();
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample comments to cells using cell references
+            int comment1 = worksheet.Comments.Add("A1");
+            worksheet.Comments[comment1].Note = "This is comment 1";
+            
+            int comment2 = worksheet.Comments.Add("B3");
+            worksheet.Comments[comment2].Note = "This is comment 2";
+            
+            int comment3 = worksheet.Comments.Add("C5");
+            worksheet.Comments[comment3].Note = "This is comment 3";
+
+            // Display comment count before clearing
+            Console.WriteLine($"Comments count before ClearComments(): {worksheet.Comments.Count}");
+
+            // Clear all comments from the worksheet
+            worksheet.ClearComments();
+
+            // Display comment count after clearing
+            Console.WriteLine($"Comments count after ClearComments(): {worksheet.Comments.Count}");
+
+            // Save the workbook
+            workbook.Save("ClearCommentsDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-
-    worksheet.Workbook.Save(_destFilesPath + "example.html", SaveFormat.Html);
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    Assert.IsTrue(text.IndexOf("z-index:13;margin-left:7px;margin-top:15px;width:128px;height:67px'>") != -1);
-    worksheet.Workbook.Save(_destFilesPath + "example.pdf", SaveFormat.Pdf);
-
-    SheetRender sheetRendererToPng = new SheetRender(worksheet, GetSaveOptionsForPng());
-    Console.WriteLine("pageScale " + sheetRendererToPng.PageScale);
-    sheetRendererToPng.ToImage(0, _destFilesPath + "example.png");
-
-    SheetRender sheetRendererToJpg = new SheetRender(worksheet, GetSaveOptionsForJpg());
-    sheetRendererToJpg.ToImage(0, _destFilesPath + "example.jpg");
 }
 ```
 

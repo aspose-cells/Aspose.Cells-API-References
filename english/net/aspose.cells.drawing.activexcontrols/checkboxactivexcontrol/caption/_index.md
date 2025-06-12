@@ -16,43 +16,34 @@ public string Caption { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBoxControl.Caption = "Example CheckBox";
-public static void CheckBoxActiveXControl_Property_Caption()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class CheckBoxActiveXControlPropertyCaptionDemo
+    {
+        public static void Run()
         {
             // Initialize a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add a CheckBox ActiveX control
-            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 1, 0, 1, 0, 100, 50);
+            Shape shape = worksheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.CheckBox, 1, 0, 1, 0, 100, 50);
             CheckBoxActiveXControl checkBoxControl = (CheckBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties of the CheckBox ActiveX control
-            checkBoxControl.Caption = "Example CheckBox";
-            checkBoxControl.SpecialEffect = ControlSpecialEffectType.Raised;
-
-            // Add a ComboBox ActiveX control
-            shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 3, 0, 3, 0, 100, 50);
-            ComboBoxActiveXControl comboBoxControl = (ComboBoxActiveXControl)shape.ActiveXControl;
-
-            // Set properties of the ComboBox ActiveX control
-            comboBoxControl.SpecialEffect = ControlSpecialEffectType.Sunken;
-            comboBoxControl.ListWidth = 100;
-            comboBoxControl.ListRows = 5;
-
-            // Add a TextBox ActiveX control
-            shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 5, 0, 5, 0, 100, 50);
-            TextBoxActiveXControl textBoxControl = (TextBoxActiveXControl)shape.ActiveXControl;
-
-            // Set properties of the TextBox ActiveX control
-            textBoxControl.Text = "Example TextBox";
-            textBoxControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            // Set and demonstrate the Caption property
+            checkBoxControl.Caption = "Sample CheckBox Caption";
+            checkBoxControl.Value = CheckValueType.Checked;  // Fixed: Using correct enum value
 
             // Save the workbook
-            workbook.Save("ControlSpecialEffectTypeExample.xlsx");
-            workbook.Save("ControlSpecialEffectTypeExample.pdf");
-            return;
+            workbook.Save("CheckBoxCaptionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

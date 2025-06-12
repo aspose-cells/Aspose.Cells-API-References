@@ -16,22 +16,39 @@ public string OriginalDataSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
-public void ExternalLink_Property_OriginalDataSource()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+    public class ExternalLinkPropertyOriginalDataSourceDemo
     {
-        string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
-        NewLink = NewLink.Replace(@"https://arcusventures.sharepoint.com/Fund II/", @"/sites/shared/shared documents/Fund II/");
-        workbook.Worksheets.ExternalLinks[i].OriginalDataSource = NewLink;
-    }
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
-    {
-        string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
-      Assert.IsTrue(NewLink.IndexOf("/")!= -1);
+        public static void Run()
+        {
+            // Create a workbook with external links
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add external link
+            worksheet.Cells["A1"].Formula = "='https://arcusventures.sharepoint.com/Fund II/[example.xlsx]Sheet1'!A1";
+            
+            // Modify external link paths
+            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+            {
+                string originalLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
+                string modifiedLink = originalLink.Replace(
+                    @"https://arcusventures.sharepoint.com/Fund II/", 
+                    @"/sites/shared/shared documents/Fund II/");
+                
+                workbook.Worksheets.ExternalLinks[i].OriginalDataSource = modifiedLink;
+            }
+            
+            // Verify the changes
+            foreach (ExternalLink link in workbook.Worksheets.ExternalLinks)
+            {
+                Console.WriteLine("Modified Link: " + link.OriginalDataSource);
+            }
+        }
     }
 }
 ```

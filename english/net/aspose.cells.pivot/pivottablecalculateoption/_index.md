@@ -30,13 +30,11 @@ public class PivotTableCalculateOption
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class PivotTableCalculateOptionDemo
     {

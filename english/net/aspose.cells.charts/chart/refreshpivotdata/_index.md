@@ -20,23 +20,48 @@ We will gather data from pivot data source to the pivot table report. This metho
 ### Examples
 
 ```csharp
-// Called: chart.RefreshPivotData();
-public void Chart_Method_RefreshPivotData()
-{
-    string filePath = Constants.PivotTableSourcePath + @"JAVA41851_";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    //Instantiating an Workbook object 
-    Workbook workbook = new Workbook(filePath + "foo.xlsx");
-    //Adding a column chart 
-    int chartIndex = workbook.Worksheets["Pivot"].Charts.Add(ChartType.Column, 10, 6, 28, 16);
-    Chart chart = workbook.Worksheets["Pivot"].Charts[chartIndex];
-    //Setting the pivot chart data source 
-    chart.PivotSource = "Pivot!IF_Pivot";
-    chart.HidePivotFieldButtons = true;
-    chart.RefreshPivotData();
-    //Saving the Excel file 
-    chart.PivotSource = null;
-    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class ChartMethodRefreshPivotDataDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data to the first worksheet
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Cells["A1"].PutValue("Product");
+            dataSheet.Cells["B1"].PutValue("Sales");
+            dataSheet.Cells["A2"].PutValue("A");
+            dataSheet.Cells["B2"].PutValue(100);
+            dataSheet.Cells["A3"].PutValue("B");
+            dataSheet.Cells["B3"].PutValue(200);
+            dataSheet.Cells["A4"].PutValue("C");
+            dataSheet.Cells["B4"].PutValue(300);
+
+            // Create a pivot table
+            Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
+            pivotSheet.PivotTables.Add("A1", dataSheet.Cells["A1:B4"].Name, "PivotTable1");
+
+            // Add a chart
+            int chartIndex = pivotSheet.Charts.Add(ChartType.Column, 5, 0, 15, 8);
+            Aspose.Cells.Charts.Chart chart = pivotSheet.Charts[chartIndex];
+            
+            // Set pivot chart data source
+            chart.PivotSource = "Pivot!PivotTable1";
+            
+            // Refresh pivot data in the chart
+            chart.RefreshPivotData();
+            
+            // Save the workbook
+            workbook.Save("PivotChartWithRefresh.xlsx");
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: SetStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetStyle method. Sets the cell style in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/cell/setstyle/
 ---
 ## Cell::SetStyle(const Style\&) method

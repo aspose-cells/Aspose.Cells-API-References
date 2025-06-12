@@ -16,27 +16,32 @@ public bool ExportWorksheetCSSSeparately { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportWorksheetCSSSeparately = true;
-public void HtmlSaveOptions_Property_ExportWorksheetCSSSeparately()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47092/";
-
-    string savePath = CreateFolder(filePath);
-    Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
-
-    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
-    htmlSaveOptions.ExportWorksheetCSSSeparately = true;
-    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-    htmlSaveOptions.StreamProvider = new ExportStreamProvider(savePath);
-    htmlSaveOptions.DisableDownlevelRevealedComments = true;
-    htmlSaveOptions.ExportImagesAsBase64 = false;//it is not working anyway!!!
-
-    htmlSaveOptions.ExportActiveWorksheetOnly = true;
-    wb.Worksheets.ActiveSheetIndex = 0;
-
-
-    wb.Save(savePath + "out.html", htmlSaveOptions);
+    public class HtmlSaveOptionsPropertyExportWorksheetCSSSeparatelyDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
+            
+            // Set HTML save options with ExportWorksheetCSSSeparately
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportWorksheetCSSSeparately = true;
+            
+            // Save the workbook as HTML
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "output.html");
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("HTML file with separate CSS saved to: " + outputPath);
+        }
+    }
 }
 ```
 

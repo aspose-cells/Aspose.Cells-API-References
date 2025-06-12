@@ -33,7 +33,7 @@ public class Cells : IDisposable, IEnumerable
 | [MemorySetting](../../aspose.cells/cells/memorysetting/) { get; set; } | Gets or sets the memory usage option for this cells. |
 | [MergedCells](../../aspose.cells/cells/mergedcells/) { get; } | (**Obsolete.**) Gets the collection of merged cells. |
 | [MinColumn](../../aspose.cells/cells/mincolumn/) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [MinDataColumn](../../aspose.cells/cells/mindatacolumn/) { get; } | Minimum column index of cell which contains data. |
+| [MinDataColumn](../../aspose.cells/cells/mindatacolumn/) { get; } |  |
 | [MinDataRow](../../aspose.cells/cells/mindatarow/) { get; } | Minimum row index of cell which contains data. |
 | [MinRow](../../aspose.cells/cells/minrow/) { get; } | Minimum row index of cell which contains data or style. |
 | [MultiThreadReading](../../aspose.cells/cells/multithreadreading/) { get; set; } | Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
@@ -232,53 +232,64 @@ public class Cells : IDisposable, IEnumerable
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections;
 
-[C#]
+    public class CellsDemo
+    {
+        public static void CellsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
+            // Set default row height
+            cells.StandardHeight = 20;
+            // Set row height
+            cells.SetRowHeight(2, 20.5);
 
-//Set default row height
-cells.StandardHeight = 20;
-//Set row height
-cells.SetRowHeight(2, 20.5);
+            // Set default column width
+            cells.StandardWidth = 15;
+            // Set column width
+            cells.SetColumnWidth(3, 12.57);
 
-//Set default colum width
-cells.StandardWidth = 15;
-//Set column width
-cells.SetColumnWidth(3, 12.57);
+            // Merge cells
+            cells.Merge(5, 4, 2, 2);
 
-//Merge cells
-cells.Merge(5, 4, 2, 2);
+            // Put values to cells
+            cells[0, 0].PutValue(true);
+            cells[0, 1].PutValue(1);
+            cells[0, 2].PutValue("abc");
 
-//Put values to cells
-cells[0, 0].PutValue(true);
-cells[0, 1].PutValue(1);
-cells[0, 2].PutValue("abc");
+            // Export data
+            object[,] arr = cells.ExportArray(0, 0, 10, 10);
 
-//Export data
-object[,] arr = cells.ExportArray(0, 0, 10, 10);
+            // Demonstrate some properties
+            Console.WriteLine("Total Cells Count: " + cells.Count);
+            Console.WriteLine("Total Cells Count (Large): " + cells.CountLarge);
+            Console.WriteLine("Min Row with Data: " + cells.MinDataRow);
+            Console.WriteLine("Max Row with Data: " + cells.MaxDataRow);
+            Console.WriteLine("Min Column with Data: " + cells.MinDataColumn);
+            Console.WriteLine("Max Column with Data: " + cells.MaxDataColumn);
 
-[Visual Basic]
+            // Iterate through cells
+            IEnumerator enumerator = cells.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                Cell cell = (Cell)enumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-Dim excel as Workbook = new Workbook()
-Dim cells as Cells = excel.Worksheets(0).Cells
-
-'Set default row height
-cells.StandardHeight = 20
-'Set row height
-cells.SetRowHeight(2, 20.5)
-
-'Set default colum width
-cells.StandardWidth = 15
-'Set column width
-cells.SetColumnWidth(3, 12.57)
-
-'Merge cells
-cells.Merge(5, 4, 2, 2)
-
-'Export data
-Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
+            // Save the workbook
+            workbook.Save("CellsExample.xlsx");
+            workbook.Save("CellsExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

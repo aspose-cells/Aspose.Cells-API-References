@@ -15,21 +15,56 @@ class GradientStop;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [position](#position--)| number | The position of the stop. |
+| [cellsColor](#cellsColor--)| CellsColor | Readonly. Gets the color of this gradient stop. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPosition()](#getPosition--)| The position of the stop. |
-| [setPosition(number)](#setPosition-number-)| The position of the stop. |
-| [getCellsColor()](#getCellsColor--)| Gets the color of this gradient stop. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. The position of the stop. |
+| [setPosition(number)](#setPosition-number-)| <b>@deprecated.</b> Please use the 'position' property instead. The position of the stop. |
+| [getCellsColor()](#getCellsColor--)| <b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets the color of this gradient stop. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### position {#position--}
+
+The position of the stop.
+
+```javascript
+position : number;
+```
+
+
+### cellsColor {#cellsColor--}
+
+Readonly. Gets the color of this gradient stop.
+
+```javascript
+cellsColor : CellsColor;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
 
 
 ### getPosition() {#getPosition--}
 
-The position of the stop.
+<b>@deprecated.</b> Please use the 'position' property instead. The position of the stop.
 
 ```javascript
 getPosition() : number;
@@ -38,7 +73,7 @@ getPosition() : number;
 
 ### setPosition(number) {#setPosition-number-}
 
-The position of the stop.
+<b>@deprecated.</b> Please use the 'position' property instead. The position of the stop.
 
 ```javascript
 setPosition(value: number) : void;
@@ -51,7 +86,7 @@ setPosition(value: number) : void;
 
 ### getCellsColor() {#getCellsColor--}
 
-Gets the color of this gradient stop.
+<b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets the color of this gradient stop.
 
 ```javascript
 getCellsColor() : CellsColor;
@@ -64,7 +99,7 @@ getCellsColor() : CellsColor;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -73,7 +108,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;

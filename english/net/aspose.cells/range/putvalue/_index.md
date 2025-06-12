@@ -22,14 +22,23 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ### Examples
 
 ```csharp
-// Called: range.PutValue("123", true, false);
-public void Range_Method_PutValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange("A1:B10");
-    range.PutValue("123", true, false);
-    Assert.AreEqual(cells["A5"].DoubleValue, 123);
+    public class RangeMethodPutValueWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range range = cells.CreateRange("A1:B10");
+            range.PutValue("123", true, false);
+            
+            Console.WriteLine("Value at A5: " + cells["A5"].DoubleValue);
+        }
+    }
 }
 ```
 

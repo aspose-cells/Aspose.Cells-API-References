@@ -16,30 +16,47 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("MS Sans Serif", control.Font.Name);
-private void ActiveXControl_Property_Font(ActiveXControl c)
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlPropertyFontDemo
+    {
+        public static void Run()
         {
-            ScrollBarActiveXControl control = (ScrollBarActiveXControl)c;
-            Assert.AreEqual(ControlType.ScrollBar, control.Type);
-            Assert.AreEqual(1, control.LargeChange);
-            Assert.AreEqual(0, control.Min);
-            Assert.AreEqual(32767, control.Max);
-            Assert.AreEqual(0, control.Position);
-            Assert.AreEqual(1, control.SmallChange);
-            Assert.AreEqual(ControlScrollOrientation.Auto, control.Orientation);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("MS Sans Serif", control.Font.Name);
-            //Assert.AreEqual(45.7511811023622, control.Width);
-            //Assert.AreEqual(34.4976377952756, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a scroll bar shape which will create the ActiveX control
+            ScrollBar scrollBar = worksheet.Shapes.AddScrollBar(1, 1, 100, 30, 100, 30);
+            
+            // Get the ActiveX control properties
+            var control = scrollBar.ActiveXControl as Aspose.Cells.Drawing.ActiveXControls.ScrollBarActiveXControl;
+            
+            // Set control properties
+            control.LargeChange = 1;
+            control.Min = 0;
+            control.Max = 32767;
+            control.Position = 0;
+            control.SmallChange = 1;
+            
+            // Set font properties through the Shape's Font property
+            scrollBar.Font.Name = "MS Sans Serif";
+            scrollBar.Font.Size = 8;
+            
+            // Save the workbook
+            workbook.Save("ActiveXControlFontDemo.xlsx");
+            
+            Console.WriteLine("ActiveX control with font property set successfully.");
         }
+    }
+}
 ```
 
 ### See Also

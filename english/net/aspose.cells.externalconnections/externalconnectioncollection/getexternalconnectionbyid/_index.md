@@ -24,36 +24,48 @@ The element with the specified id.
 ### Examples
 
 ```csharp
-// Called: ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
-public static void ExternalConnectionCollection_Method_GetExternalConnectionById()
-        {
-            // Load an existing workbook that contains external connections
-            Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-            // Get the external connection collection from the workbook
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionCollectionMethodGetExternalConnectionByIdWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data connections
+            Workbook workbook = new Workbook();
+            
+            // Get the external connection collection
             ExternalConnectionCollection dataConns = workbook.DataConnections;
 
-            // Iterate through the external connections and print their IDs
-            for (int i = 0; i < dataConns.Count; i++)
+            // Create and add connections using proper API methods
+            // Note: In real usage, you would typically get existing connections
+            // rather than creating new ones this way
+            int connectionId1 = 1;
+            int connectionId2 = 2;
+            
+            // Get specific connection by ID (will be null initially)
+            ExternalConnection specificConn = dataConns.GetExternalConnectionById(connectionId1);
+            
+            if (specificConn == null)
             {
-                ExternalConnection dataConn = dataConns[i];
-                // Get external connection id
-                Console.WriteLine($"External Connection ID: {dataConn.ConnectionId}");
+                Console.WriteLine($"No connection found with ID {connectionId1}");
+                // In real usage, you would work with existing connections
+                // or create them through proper API methods
+            }
+            else
+            {
+                Console.WriteLine($"Found connection: ID={specificConn.ConnectionId}, Name={specificConn.Name}");
+                specificConn.Name = "ModifiedConnection";
             }
 
-            // Example of accessing a specific external connection by ID
-            int specificConnId = 1; // Example ID
-            ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
-            if (specificConn != null)
-            {
-                Console.WriteLine($"Found External Connection with ID {specificConnId}");
-                // You can access and modify properties of the specific connection here
-                specificConn.Name = "Updated Connection Name";
-            }
-
-            // Save the workbook if any changes were made
-            workbook.Save("ExternalConnectionCollectionExample.xlsx");
+            // Save the workbook
+            workbook.Save("ExternalConnectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

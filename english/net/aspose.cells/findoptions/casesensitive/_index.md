@@ -16,14 +16,38 @@ public bool CaseSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: ContainsFindOptions.CaseSensitive = true;
-private void FindOptions_Property_CaseSensitive(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FindOptionsPropertyCaseSensitiveDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            ContainsFindOptions.CaseSensitive = true;
-            Cell cell = cells.Find("bc", null, ContainsFindOptions);
-            testAreEqual(null, cell, caseName);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data
+            worksheet.Cells["A1"].PutValue("ABC");
+            worksheet.Cells["A2"].PutValue("abc");
+            worksheet.Cells["A3"].PutValue("BcD");
+
+            FindOptions options = new FindOptions();
+            options.CaseSensitive = true;
+            
+            // Search for "bc" with case sensitivity
+            Cell cell = worksheet.Cells.Find("bc", null, options);
+            
+            Console.WriteLine(cell == null ? "Not found (case sensitive)" : $"Found at: {cell.Name}");
+            
+            options.CaseSensitive = false;
+            cell = worksheet.Cells.Find("bc", null, options);
+            
+            Console.WriteLine(cell == null ? "Not found" : $"Found at: {cell.Name}");
         }
+    }
+}
 ```
 
 ### See Also

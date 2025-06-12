@@ -16,20 +16,58 @@ public PivotFilter[] GetFilters()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, pt.BaseFields[1].GetFilters().Length);
-public void PivotField_Method_GetFilters()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    pt.BaseFields[1].FilterByDate(PivotFilterType.DateBetween, DateTime.Now, DateTime.Now.AddDays(1));
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    pt = workbook.Worksheets[0].PivotTables[0];
-    Assert.AreEqual(1, pt.BaseFields[1].GetFilters().Length);
-    PivotFilter filter = pt.BaseFields[1].GetFilters()[0];
-    Assert.AreEqual(PivotFilterType.DateBetween, filter.FilterType);
-    Assert.AreEqual(DateTime.Now.Day, filter.GetDateTimeValues()[0].Day);
-    Assert.AreEqual(DateTime.Now.AddDays(1).Day, filter.GetDateTimeValues()[1].Day);
+    public class PivotFieldMethodGetFiltersDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Date";
+            worksheet.Cells["B1"].Value = "Sales";
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells[$"A{i}"].Value = DateTime.Now.AddDays(i-2);
+                worksheet.Cells[$"B{i}"].Value = i * 100;
+            }
+
+            // Create pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int index = pivotTables.Add("A1:B10", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Apply date filter
+            PivotField dateField = pivotTable.RowFields[0];
+            DateTime startDate = DateTime.Now;
+            DateTime endDate = DateTime.Now.AddDays(5);
+            dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
+            
+            // Get and display filters
+            PivotFilter[] filters = dateField.GetFilters();
+            Console.WriteLine($"Number of filters applied: {filters.Length}");
+            if (filters.Length > 0)
+            {
+                Console.WriteLine($"Filter type: {filters[0].FilterType}");
+                Console.WriteLine($"Start date: {filters[0].GetDateTimeValues()[0]}");
+                Console.WriteLine($"End date: {filters[0].GetDateTimeValues()[1]}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotFieldGetFiltersDemo.xlsx");
+        }
+    }
 }
 ```
 

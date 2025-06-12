@@ -20,13 +20,21 @@ public static string CreateSafeSheetName(string nameProposal)
 ### Examples
 
 ```csharp
-// Called: string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
-public static void CellsHelper_Method_CreateSafeSheetName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
-    Assert.AreEqual("sheet  test   #", name);
-    name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
-    Assert.AreEqual("sheetAAtestAAA#", name);
+    public class CellsHelperMethodCreateSafeSheetNameWithStringDemo
+    {
+        public static void Run()
+        {
+            string unsafeName = "sheet*/test*/?#";
+            string safeName = CellsHelper.CreateSafeSheetName(unsafeName);
+            Console.WriteLine("Original name: " + unsafeName);
+            Console.WriteLine("Safe name: " + safeName);
+        }
+    }
 }
 ```
 
@@ -54,13 +62,24 @@ public static string CreateSafeSheetName(string nameProposal, char replaceChar)
 ### Examples
 
 ```csharp
-// Called: name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
-public static void CellsHelper_Method_CreateSafeSheetName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
-    Assert.AreEqual("sheet  test   #", name);
-    name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
-    Assert.AreEqual("sheetAAtestAAA#", name);
+    public class CellsHelperMethodCreateSafeSheetNameWithStringCharDemo
+    {
+        public static void Run()
+        {
+            // Example 1: Create safe sheet name with default replacement character
+            string name1 = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
+            Console.WriteLine("Safe sheet name (default replacement): " + name1);
+
+            // Example 2: Create safe sheet name with custom replacement character 'A'
+            string name2 = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
+            Console.WriteLine("Safe sheet name (custom replacement): " + name2);
+        }
+    }
 }
 ```
 

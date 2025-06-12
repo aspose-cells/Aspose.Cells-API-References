@@ -16,10 +16,35 @@ public int Left { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if (shape.Left == 3)
-    shape.Left = 1;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyLeftDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to demonstrate Left property
+            Shape shape = worksheet.Shapes.AddRectangle(10, 10, 100, 100, 0, 0);
+
+            // Set initial Left position
+            shape.Left = 200;
+            Console.WriteLine("Shape Left position: " + shape.Left);
+
+            // Modify Left position conditionally
+            if (shape.Left == 200)
+            {
+                shape.Left = 150;
+                Console.WriteLine("Adjusted Shape Left position: " + shape.Left);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

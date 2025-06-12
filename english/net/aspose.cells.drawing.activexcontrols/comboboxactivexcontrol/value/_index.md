@@ -16,15 +16,45 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
-public void ComboBoxActiveXControl_Property_Value()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet1 = wb.Worksheets["sheet1"];
-    Shape shape = sheet1.Shapes[0];
-    sheet1.Cells["B2"].PutValue("a");
-    sheet1.Shapes.UpdateSelectedValue();
-   Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+    public class ComboBoxActiveXControlPropertyValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ComboBox ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 1, 1, 0, 0, 100, 20);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.Value = "Initial Value";
+            comboBox.ListFillRange = "A1:A3";
+            
+            // Add some sample data to the list range
+            worksheet.Cells["A1"].PutValue("Option 1");
+            worksheet.Cells["A2"].PutValue("Option 2");
+            worksheet.Cells["A3"].PutValue("Option 3");
+
+            // Update the selected value from linked cell
+            worksheet.Cells["B1"].PutValue("Option 2");
+            worksheet.Shapes.UpdateSelectedValue();
+
+            // Demonstrate getting the Value property
+            Console.WriteLine("ComboBox Value: " + comboBox.Value);
+
+            // Save the workbook
+            workbook.Save("ComboBoxActiveXControlDemo.xlsx");
+        }
+    }
 }
 ```
 

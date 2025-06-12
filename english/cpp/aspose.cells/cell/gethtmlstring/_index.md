@@ -4,7 +4,7 @@ linktitle: GetHtmlString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetHtmlString method. Gets and sets the html string which contains data and some formats in this cell in C++.'
 type: docs
-weight: 6700
+weight: 6800
 url: /cpp/aspose.cells/cell/gethtmlstring/
 ---
 ## Cell::GetHtmlString() method

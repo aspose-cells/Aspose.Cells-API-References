@@ -16,61 +16,58 @@ public void RemoveFormulas()
 ### Examples
 
 ```csharp
-// Called: wkb.Worksheets[0].Cells.RemoveFormulas();
-public void Cells_Method_RemoveFormulas()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    DataSet ds = new DataSet();
+    public class CellsMethodRemoveFormulasDemo
+    {
+        public static void Run()
+        {
+            // Create a sample dataset
+            DataSet ds = new DataSet();
 
-    DataTable dtMaster = new DataTable("Master");
-    DataColumn dtcol1 = new DataColumn("ACCOUNT");
-    DataColumn dtcol2 = new DataColumn("ACCOUNT_CREATEDBY_NAME");
-    dtMaster.Columns.Add(dtcol1);
-    dtMaster.Columns.Add(dtcol2);
-    DataRow dr = dtMaster.NewRow();
-    dr["ACCOUNT"] = "Test_Account";
-    dr["ACCOUNT_CREATEDBY_NAME"] = "Test_user";
-    dtMaster.Rows.Add(dr);
-    ds.Tables.Add(dtMaster);
+            // Create and populate Master table
+            DataTable dtMaster = new DataTable("Master");
+            dtMaster.Columns.Add("ACCOUNT", typeof(string));
+            dtMaster.Columns.Add("ACCOUNT_CREATEDBY_NAME", typeof(string));
+            dtMaster.Rows.Add("Test_Account", "Test_user");
+            ds.Tables.Add(dtMaster);
 
-    DataTable lineIteams = new DataTable("OppLineItems");
-    DataColumn lineIteamscol1 = new DataColumn("Id");
-    lineIteamscol1.DataType = typeof(Int32);
-    DataColumn lineIteamscol2 = new DataColumn("Name");
-    DataColumn lineIteamscol3 = new DataColumn("SALESPRICE");
-    lineIteamscol3.DataType = typeof(Int32);
-    lineIteams.Columns.Add(lineIteamscol1);
-    lineIteams.Columns.Add(lineIteamscol2);
-    lineIteams.Columns.Add(lineIteamscol3);
-    DataRow drlineIteams = lineIteams.NewRow();
-    drlineIteams["Id"] = 1;
-    drlineIteams["Name"] = "lineIteam1";
-    drlineIteams["SALESPRICE"] = 10;
-    lineIteams.Rows.Add(drlineIteams);
+            // Create and populate OppLineItems table
+            DataTable lineItems = new DataTable("OppLineItems");
+            lineItems.Columns.Add("Id", typeof(int));
+            lineItems.Columns.Add("Name", typeof(string));
+            lineItems.Columns.Add("SALESPRICE", typeof(int));
+            lineItems.Rows.Add(1, "lineItem1", 10);
+            lineItems.Rows.Add(2, "lineItem2", 20);
+            ds.Tables.Add(lineItems);
 
-    DataRow drlineIteams2 = lineIteams.NewRow();
-    drlineIteams2["Id"] = 2;
-    drlineIteams2["Name"] = "lineIteam2";
-    drlineIteams2["SALESPRICE"] = 20;
-    lineIteams.Rows.Add(drlineIteams2);
-    ds.Tables.Add(lineIteams);
-    ds.AcceptChanges();
+            // Create a new workbook
+            Workbook wkb = new Workbook();
+            
+            // Use WorkbookDesigner to bind data
+            WorkbookDesigner designer = new WorkbookDesigner { Workbook = wkb };
+            designer.SetDataSource(ds);
+            designer.Process(false);
 
+            // Add a formula to demonstrate removal
+            wkb.Worksheets[0].Cells["A10"].Formula = "=SUM(C2:C3)";
+            
+            // Calculate formulas first
+            wkb.CalculateFormula();
 
-    Console.WriteLine($"Start.....");
-    Workbook wkb = new Workbook(Constants.sourcePath + @"example.xlsx");
-    WorkbookDesigner _designer = new WorkbookDesigner { Workbook = wkb };
-    _designer.SetDataSource(ds);
-    _designer.Process(false);
+            // Remove all formulas from the worksheet
+            wkb.Worksheets[0].Cells.RemoveFormulas();
 
-
-    //var dt = new DataTable("Empty");
-    //_designer.SetDataSource(dt);
-    //_designer.Process(false);
-
-    wkb.CalculateFormula(true);
-    wkb.Worksheets[0].Cells.RemoveFormulas();
-    Assert.AreEqual("", wkb.Worksheets[0].Cells["A18"].StringValue);
-    wkb.Save(Constants.destPath + @"example.xlsx");
+            // Save the workbook
+            wkb.Save("output.xlsx");
+            
+            Console.WriteLine("Formulas removed and workbook saved successfully.");
+        }
+    }
 }
 ```
 

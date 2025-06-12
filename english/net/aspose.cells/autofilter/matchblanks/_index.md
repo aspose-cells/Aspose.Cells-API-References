@@ -20,28 +20,47 @@ public void MatchBlanks(int fieldIndex)
 ### Examples
 
 ```csharp
-// Called: filter.MatchBlanks(2);
-public void AutoFilter_Method_MatchBlanks()
-   {
-       Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-       AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-       filter.MatchBlanks(2);
-       filter.MatchNonBlanks(1);
-       filter.Refresh();
-       Cells cells = workbook.Worksheets[0].Cells;
-       Assert.IsTrue(cells.IsRowHidden(1));
-       Assert.IsTrue(cells.IsRowHidden(2));
-       Assert.IsTrue(cells.IsRowHidden(3));
-       Assert.IsFalse(cells.IsRowHidden(4));
-       //workbook.Save(Constants.destPath + "FiterTest.xlsx");
-       workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+using System;
+using Aspose.Cells;
 
-       filter = workbook.Worksheets[0].AutoFilter;
-       FilterColumn fc = filter.FilterColumns[2];
-       Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-       MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-       Assert.IsTrue(fs.MatchBlank);
-   }
+namespace AsposeCellsExamples
+{
+    public class AutoFilterMethodMatchBlanksWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data with some blank cells
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["B1"].PutValue("Column2");
+            worksheet.Cells["C1"].PutValue("Column3");
+            
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+            // Leave C2 blank
+            
+            worksheet.Cells["A3"].PutValue("Data3");
+            // Leave B3 blank
+            worksheet.Cells["C3"].PutValue("Data6");
+            
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:C3";
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Filter to show only rows with blanks in column 3 (C)
+            filter.MatchBlanks(2); // Column index is 0-based
+            
+            // Refresh the filter
+            filter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("AutoFilterMatchBlanksDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

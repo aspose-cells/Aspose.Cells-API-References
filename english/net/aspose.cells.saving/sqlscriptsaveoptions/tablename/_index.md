@@ -16,22 +16,40 @@ public string TableName { get; set; }
 ### Examples
 
 ```csharp
-// Called: sqlSaveOptions.TableName = "";
-public void SqlScriptSaveOptions_Property_TableName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(DateTime.Now);
-    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Insert;
-    sqlSaveOptions.IdName = "";
-    sqlSaveOptions.TableName = "";
-    sqlSaveOptions.Separator = '\n';
-    sqlSaveOptions.AddBlankLineBetweenRows = true;
-    sqlSaveOptions.CreateTable = true;
-    sqlSaveOptions.CheckAllDataForColumnType = true;
-    string text = SaveAsSql(wb, sqlSaveOptions);
-    //Assert.IsTrue(text.IndexOf("INSERT INTO Sheet1_2 (First_name,Last_name,agesdf,Column_4,tax,safs)") != -1);
-    Assert.IsTrue(text.IndexOf("Id int,") == -1);
+    public class SqlScriptSaveOptionsPropertyTableNameDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Configure SQL save options with custom table name
+            SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions();
+            saveOptions.TableName = "Employees"; // Demonstrating TableName property
+            saveOptions.CreateTable = true;
+            saveOptions.OperatorType = SqlScriptOperatorType.Insert;
+
+            // Save as SQL script
+            workbook.Save("output.sql", saveOptions);
+
+            Console.WriteLine("SQL Script generated with table name 'Employees'");
+        }
+    }
 }
 ```
 

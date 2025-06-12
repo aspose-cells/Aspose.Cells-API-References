@@ -57,25 +57,50 @@ public class Validation
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-ValidationCollection validations = workbook.Worksheets[0].Validations;
-CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
-Validation validation = validations[validations.Add(area)];
-validation.Type = Aspose.Cells.ValidationType.WholeNumber;
-validation.Operator = OperatorType.Between;
-validation.Formula1 = "3";
-validation.Formula2 = "1234";
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[Visual Basic]
-Dim workbook as Workbook = new Workbook()
-Dim validations as ValidationCollection  = workbook.Worksheets(0).Validations
-Dim area as CellArea = CellArea.CreateCellArea(0, 0, 1, 1);
-Dim validation as Validation = validations(validations.Add(area))
-validation.Type = ValidationType.WholeNumber
-validation.Operator = OperatorType.Between
-validation.Formula1 = "3"
-validation.Formula2 = "1234"
+    public class ValidationDemo
+    {
+        public static void ValidationExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Define a cell area for the validation
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+
+            // Access the validations collection
+            ValidationCollection validations = worksheet.Validations;
+
+            // Add a new validation to the collection
+            int validationIndex = validations.Add(area);
+            Validation validation = validations[validationIndex];
+
+            // Set validation properties
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "3";
+            validation.Formula2 = "1234";
+            validation.InputMessage = "Please enter a whole number between 3 and 1234.";
+            validation.InputTitle = "Whole Number Validation";
+            validation.ErrorMessage = "The value must be a whole number between 3 and 1234.";
+            validation.ErrorTitle = "Invalid Input";
+            validation.ShowInput = true;
+            validation.ShowError = true;
+            validation.IgnoreBlank = true;
+            validation.InCellDropDown = true;
+
+            // Save the workbook
+            workbook.Save("ValidationExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

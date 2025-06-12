@@ -26,61 +26,65 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 ### Examples
 
 ```csharp
-// Called: Shape shape = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Rectangle, PlacementType.Move,
-public void ShapeCollection_Method_AddShapeInChartByScale()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    //a test file contains a chart without any shapes (Such as bubbles, squares, and so on)
-    Workbook book = new Workbook(Constants.sourcePath + "Column_Stacked+bubble.xlsx");
-    Chart chart = book.Worksheets[1].Charts[0];
-    //First, calculate data
-    chart.Calculate();
-
-    //1, Title
-    Title title = chart.Title;
-    //double title_x = title.X * chart.ChartObject.Width / 4000;
-    //double title_y = title.Y * chart.ChartObject.Height / 4000;
-    //double title_width = title.Width * chart.ChartObject.Width / 4000;
-    double title_height = title.Height * chart.ChartObject.Height / 4000; //pixel
-    //Add a circle after Title, Diameter = TitleHeight, 1/4000 unit
-    Shape shape_title = chart.Shapes.AddShapeInChart(MsoDrawingType.Oval, PlacementType.Move,
-        title.X + title.Width,
-        title.Y,
-        title.X + title.Width + (int)(title_height / chart.ChartObject.Width * 4000),
-        title.Y + title.Height);
-    shape_title.Fill.SolidFill.Color = Color.Green;
-    Assert.AreEqual(chart.Shapes.Count, 1);
-
-    //2, CategoryAxis
-    Axis axis = chart.CategoryAxis;
-    TickLabelItem[] items = axis.TickLabels.TickLabelItems;
-    for (int i = 0; i < items.Length; i++)
+    public class ShapeCollectionMethodAddShapeInChartByScaleWithMsoDrawingTypePlacementTypeDouDemo
     {
-        TickLabelItem item = items[i];
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-        //Add a Rectangle on CategoryAxis, scale unit
-        Shape shape = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Rectangle, PlacementType.Move,
-            item.X,
-            item.Y,
-            item.Width + item.X,
-            item.Height + item.Y);
-        shape.Fill.SolidFill.Transparency = 1;
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].X - item.X * chart.ChartObject.Width - chart.ChartObject.X < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Y - item.Y * chart.ChartObject.Height - chart.ChartObject.Y < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Width - item.Width * chart.ChartObject.Width < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Height - item.Height * chart.ChartObject.Height < 1);
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-        //Add a circle after CategoryAxis, Diameter = AxisHeight, scale unit
-        Shape shape2 = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Oval, PlacementType.Move,
-            item.Width + item.X,
-            item.Y,
-            item.Width + item.X + item.Height * chart.ActualChartSize.Height / chart.ActualChartSize.Width,
-            item.Height + item.Y);
-        shape2.Fill.SolidFill.Color = Color.Red;
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
 
+            // Calculate chart
+            chart.Calculate();
 
+            // Add a rectangle shape to the chart using scale coordinates
+            Shape rectangle = chart.Shapes.AddShapeInChartByScale(
+                MsoDrawingType.Rectangle, 
+                PlacementType.Move,
+                0.2,  // x1 (20% from left)
+                0.2,  // y1 (20% from top)
+                0.4,  // x2 (40% from left)
+                0.4); // y2 (40% from top)
+            rectangle.Fill.SolidFill.Color = Color.Blue;
+            rectangle.Line.SolidFill.Color = Color.Black;
+
+            // Add an oval shape to the chart using scale coordinates
+            Shape oval = chart.Shapes.AddShapeInChartByScale(
+                MsoDrawingType.Oval,
+                PlacementType.Move,
+                0.6,  // x1 (60% from left)
+                0.6,  // y1 (60% from top)
+                0.8,  // x2 (80% from left)
+                0.8); // y2 (80% from top)
+            oval.Fill.SolidFill.Color = Color.Red;
+            oval.Line.SolidFill.Color = Color.Black;
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    //Save result file, chart with shapes (Such as bubbles, squares)
-    book.Save(Constants.destPath + "example.xlsx");
 }
 ```
 
@@ -113,6 +117,73 @@ public Shape AddShapeInChartByScale(MsoDrawingType type, PlacementType placement
 | right | Double | Unit is percent scale of chart area width. |
 | bottom | Double | Unit is percent scale of chart area height. |
 | imageData | Byte[] | If the shape is not a picture or ole object,imageData should be null. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class ShapeCollectionMethodAddShapeInChartByScaleWithMsoDrawingTypePlacementTypeDouDemo2
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Prepare image data
+            byte[] imageData = File.ReadAllBytes("example.png");
+
+            try
+            {
+                // Call AddShapeInChartByScale method
+                Shape shape = chart.Shapes.AddShapeInChartByScale(
+                    MsoDrawingType.Rectangle,    // Type
+                    PlacementType.Move,           // Placement
+                    0.1,                          // Left (10% of chart width)
+                    0.1,                         // Top (10% of chart height)
+                    0.3,                          // Right (30% of chart width)
+                    0.3,                         // Bottom (30% of chart height)
+                    imageData);                   // Image data
+
+                // Set shape properties
+                shape.Name = "ChartRectangle";
+                shape.Text = "Sample Shape in Chart";
+                shape.Fill.Transparency = 0.5;
+
+                Console.WriteLine("Shape added successfully to chart");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding shape to chart: {ex.Message}");
+            }
+
+            workbook.Save("AddShapeInChartByScaleDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -25,15 +25,45 @@ public enum GradientColorType
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
-private void Drawing_Type_GradientColorType(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassGradientColorTypeDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            sheet.Cells["A1"].PutValue(50);
+            sheet.Cells["A2"].PutValue(100);
+            sheet.Cells["A3"].PutValue(150);
+
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = sheet.Charts[0];
-            //Series aseries = chart.NSeries[2];
-            ChartPoint point = chart.NSeries[0].Points[2];
-            AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
+
+            // Set chart data range
+            chart.NSeries.Add("A1:A3", true);
+
+            // Get first point in first series
+            ChartPoint point = chart.NSeries[0].Points[0];
+
+            // Set gradient fill with preset colors
+            point.Area.FillFormat.SetTwoColorGradient(Color.Red, Color.Blue, GradientStyleType.Horizontal, 1);
+            
+            // Save the workbook
+            workbook.Save("GradientColorTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

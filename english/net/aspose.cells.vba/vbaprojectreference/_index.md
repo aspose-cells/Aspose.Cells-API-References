@@ -33,28 +33,32 @@ public class VbaProjectReference
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
- // Init VBA project.
-VbaProject vbaProject = workbook.VbaProject;
-// Add vba project reference
-vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-//Saving the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Init VBA project.
-Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add vba project reference
-vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-'Saving the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class VbaClassVbaProjectReferenceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Initialize VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add registered reference to VBA project
+            vbaProject.References.AddRegisteredReference(
+                "stdole", 
+                "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+            
+            // Save the workbook with VBA project
+            workbook.Save("output.xlsm", SaveFormat.Xlsm);
+        }
+    }
+}
 ```
 
 ### See Also

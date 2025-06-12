@@ -22,23 +22,34 @@ const { Workbook } = require("aspose.cells.node");
 //Instantiate a Workbook object
 var workbook = new Workbook("input/CustomProperties.xlsx");
 //Retrieve a list of all custom document properties of the Excel file
-var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+var customProperties = workbook.worksheets.customDocumentProperties;
 //Accessng a custom document property by using the property index
 var customProperty1 = customProperties.get(3);
 //Accessng a custom document property by using the property name
 var customProperty2 = customProperties.get("Owner");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Readonly. Returns the name of the property. |
+| [value](#value--)| Object | Gets or sets the value of the property. |
+| [isLinkedToContent](#isLinkedToContent--)| boolean | Readonly. Indicates whether this property is linked to content |
+| [source](#source--)| string | Readonly. The linked content source. |
+| [type](#type--)| PropertyType | Readonly. Gets the data type of the property. |
+| [isGeneratedName](#isGeneratedName--)| boolean | Readonly. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Returns the name of the property. |
-| [getValue()](#getValue--)| Gets or sets the value of the property. |
-| [setValue(Object)](#setValue-object-)| Gets or sets the value of the property. |
-| [isLinkedToContent()](#isLinkedToContent--)| Indicates whether this property is linked to content |
-| [getSource()](#getSource--)| The linked content source. |
-| [getType()](#getType--)| Gets the data type of the property. |
-| [isGeneratedName()](#isGeneratedName--)| Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the property. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the value of the property. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the value of the property. |
+| [isLinkedToContent()](#isLinkedToContent--)| <b>@deprecated.</b> Please use the 'isLinkedToContent' property instead. Indicates whether this property is linked to content |
+| [getSource()](#getSource--)| <b>@deprecated.</b> Please use the 'source' property instead. The linked content source. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the data type of the property. |
+| [isGeneratedName()](#isGeneratedName--)| <b>@deprecated.</b> Please use the 'isGeneratedName' property instead. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
 | [toString()](#toString--)| Returns the property value as a string. |
 | [toInt()](#toInt--)| Returns the property value as integer. |
 | [toDouble()](#toDouble--)| Returns the property value as double. |
@@ -47,9 +58,63 @@ var customProperty2 = customProperties.get("Owner");
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### name {#name--}
+
+Readonly. Returns the name of the property.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Gets or sets the value of the property.
+
+```javascript
+value : Object;
+```
+
+
+### isLinkedToContent {#isLinkedToContent--}
+
+Readonly. Indicates whether this property is linked to content
+
+```javascript
+isLinkedToContent : boolean;
+```
+
+
+### source {#source--}
+
+Readonly. The linked content source.
+
+```javascript
+source : string;
+```
+
+
+### type {#type--}
+
+Readonly. Gets the data type of the property.
+
+```javascript
+type : PropertyType;
+```
+
+
+### isGeneratedName {#isGeneratedName--}
+
+Readonly. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API.
+
+```javascript
+isGeneratedName : boolean;
+```
+
+
 ### getName() {#getName--}
 
-Returns the name of the property.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the property.
 
 ```javascript
 getName() : string;
@@ -58,7 +123,7 @@ getName() : string;
 
 ### getValue() {#getValue--}
 
-Gets or sets the value of the property.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the value of the property.
 
 ```javascript
 getValue() : Object;
@@ -67,7 +132,7 @@ getValue() : Object;
 
 ### setValue(Object) {#setValue-object-}
 
-Gets or sets the value of the property.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the value of the property.
 
 ```javascript
 setValue(value: Object) : void;
@@ -80,7 +145,7 @@ setValue(value: Object) : void;
 
 ### isLinkedToContent() {#isLinkedToContent--}
 
-Indicates whether this property is linked to content
+<b>@deprecated.</b> Please use the 'isLinkedToContent' property instead. Indicates whether this property is linked to content
 
 ```javascript
 isLinkedToContent() : boolean;
@@ -89,7 +154,7 @@ isLinkedToContent() : boolean;
 
 ### getSource() {#getSource--}
 
-The linked content source.
+<b>@deprecated.</b> Please use the 'source' property instead. The linked content source.
 
 ```javascript
 getSource() : string;
@@ -98,7 +163,7 @@ getSource() : string;
 
 ### getType() {#getType--}
 
-Gets the data type of the property.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the data type of the property.
 
 ```javascript
 getType() : PropertyType;
@@ -111,7 +176,7 @@ getType() : PropertyType;
 
 ### isGeneratedName() {#isGeneratedName--}
 
-Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API.
+<b>@deprecated.</b> Please use the 'isGeneratedName' property instead. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API.
 
 ```javascript
 isGeneratedName() : boolean;

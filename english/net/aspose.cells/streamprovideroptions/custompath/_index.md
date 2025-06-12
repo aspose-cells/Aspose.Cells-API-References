@@ -16,26 +16,64 @@ public string CustomPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(File.Exists(Path.Combine(streamProvider._outputDirectory, streamProvider.streamProviderOptions.CustomPath)));
-public void StreamProviderOptions_Property_CustomPath()
-{
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
-    wb.Worksheets.ActiveSheetIndex = 0;
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportActiveWorksheetOnly = true;
-    options.ExportDataOptions = HtmlExportDataOptions.All;
-    HtmlWithExternalResourcesProvider streamProvider = new HtmlWithExternalResourcesProvider(_destFilesPath);
-    options.StreamProvider = streamProvider;
-    options.IsExpImageToTempDir = false;
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    string outputFile = Path.Combine(_destFilesPath, "example.html");
-    using (FileStream fs = new FileStream(outputFile, FileMode.Create))
+namespace AsposeCellsExamples
+{
+    public class StreamProviderOptionsPropertyCustomPathDemo
     {
-        wb.Save(fs, options);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
+
+            // Set up HTML save options with custom stream provider
+            string outputDir = "output";
+            Directory.CreateDirectory(outputDir);
+            
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportActiveWorksheetOnly = true;
+            
+            // Create custom stream provider with CustomPath
+            HtmlWithExternalResourcesProvider streamProvider = new HtmlWithExternalResourcesProvider(outputDir);
+            streamProvider.streamProviderOptions.CustomPath = "resources";
+            options.StreamProvider = streamProvider;
+
+            // Save the workbook
+            string outputFile = Path.Combine(outputDir, "output.html");
+            workbook.Save(outputFile, options);
+
+            // Verify the custom path was used
+            string resourcePath = Path.Combine(outputDir, streamProvider.streamProviderOptions.CustomPath);
+            Console.WriteLine($"Resources should be saved to: {resourcePath}");
+        }
     }
-    string text = File.ReadAllText(outputFile);
-    Assert.IsTrue(text.IndexOf("width:113px;height:45px'><img width='113' height='45'") > -1);
-    Assert.IsTrue(File.Exists(Path.Combine(streamProvider._outputDirectory, streamProvider.streamProviderOptions.CustomPath)));
+
+    // Simplified custom stream provider implementation
+    public class HtmlWithExternalResourcesProvider : IStreamProvider
+    {
+        public StreamProviderOptions streamProviderOptions = new StreamProviderOptions();
+        public string _outputDirectory;
+
+        public HtmlWithExternalResourcesProvider(string outputDirectory)
+        {
+            _outputDirectory = outputDirectory;
+        }
+
+        public void InitStream(StreamProviderOptions options)
+        {
+            // Implementation would go here
+        }
+
+        public void CloseStream(StreamProviderOptions options)
+        {
+            // Implementation would go here
+        }
+    }
 }
 ```
 

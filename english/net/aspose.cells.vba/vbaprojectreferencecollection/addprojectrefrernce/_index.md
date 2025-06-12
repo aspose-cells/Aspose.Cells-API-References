@@ -22,41 +22,33 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 ### Examples
 
 ```csharp
-// Called: vbaProject.References.AddProjectRefrernce("MyProject", "absoluteLibid", "relativeLibid");
-public static void VbaProjectReferenceCollection_Method_AddProjectRefrernce()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
+{
+    public class VbaProjectReferenceCollectionMethodAddProjectRefrernceWithStringStringStringDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
             
-            // Init VBA project
+            // Initialize VBA project
             VbaProject vbaProject = workbook.VbaProject;
             
-            // Add VBA project reference
-            vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-            
-            // Add another VBA project reference
-            vbaProject.References.AddControlRefrernce("MSForms", "*\\G{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0#C:\\Windows\\system32\\FM20.DLL#Microsoft Forms 2.0 Object Library", "twiddledLibid", "extendedLibid");
-            
-            // Add project reference
+            // Add a project reference with absolute and relative libids
             vbaProject.References.AddProjectRefrernce("MyProject", "absoluteLibid", "relativeLibid");
             
-            // Accessing the references collection
-            VbaProjectReferenceCollection references = vbaProject.References;
+            // Display reference count
+            Console.WriteLine("Total References: " + vbaProject.References.Count);
             
-            // Displaying the count of references
-            Console.WriteLine("Total References: " + references.Count);
-            
-            // Accessing a specific reference
-            VbaProjectReference reference = references[0];
-            Console.WriteLine("First Reference Name: " + reference.Name);
-            
-            // Copying references from another collection (assuming anotherVbaProjectReferences is another VbaProjectReferenceCollection)
-            // VbaProjectReferenceCollection anotherVbaProjectReferences = ...;
-            // references.Copy(anotherVbaProjectReferences);
-            
-            // Saving the Excel file
-            workbook.Save("VbaProjectReferenceCollectionExample.xlsm");
+            // Save the workbook
+            workbook.Save("VbaProjectReferenceExample.xlsm");
         }
+    }
+}
 ```
 
 ### See Also

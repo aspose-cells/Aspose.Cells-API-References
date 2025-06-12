@@ -16,14 +16,28 @@ public CellsDataTableFactory CellsDataTableFactory { get; }
 ### Examples
 
 ```csharp
-// Called: CellsDataTableFactory factory = workbook.CellsDataTableFactory;
-public static void Workbook_Property_CellsDataTableFactory()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CustomData
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+
+    public class WorkbookPropertyCellsDataTableFactoryDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
+            // Add sample data
             List<CustomData> dataList = new List<CustomData>
             {
                 new CustomData { Id = 1, Name = "John Doe", Age = 30 },
@@ -31,19 +45,20 @@ public static void Workbook_Property_CellsDataTableFactory()
                 new CustomData { Id = 3, Name = "Sam Brown", Age = 35 }
             };
 
-            // Get the CellsDataTableFactory instance from the workbook
+            // Get CellsDataTableFactory from workbook property
             CellsDataTableFactory factory = workbook.CellsDataTableFactory;
 
-            // Create an ICellsDataTable instance from the custom data list
+            // Create data table from list
             ICellsDataTable dataTable = factory.GetInstance(dataList);
 
-            // Import the data table into the worksheet starting at cell A1
+            // Import data to worksheet
             sheet.Cells.ImportData(dataTable, 0, 0, new ImportTableOptions());
 
-            // Save the workbook
+            // Save outputs
             workbook.Save("CellsDataTableFactoryDemo.xlsx");
-            workbook.Save("CellsDataTableFactoryDemo.pdf");
         }
+    }
+}
 ```
 
 ### See Also

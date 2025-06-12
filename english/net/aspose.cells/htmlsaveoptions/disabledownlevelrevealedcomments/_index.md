@@ -16,14 +16,31 @@ public bool DisableDownlevelRevealedComments { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.DisableDownlevelRevealedComments = true;
-public void HtmlSaveOptions_Property_DisableDownlevelRevealedComments()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45357/";
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.DisableDownlevelRevealedComments = true;
-    wb.Save(CreateFolder(filePath) + "out.html", options);
+    public class HtmlSaveOptionsPropertyDisableDownlevelRevealedCommentsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with a comment
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Comment comment = worksheet.Comments[worksheet.Comments.Add("A1")];
+            comment.Note = "This is a test comment";
+
+            // Set HTML save options with DisableDownlevelRevealedComments
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.DisableDownlevelRevealedComments = true;
+
+            // Save the workbook with HTML options
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("Workbook saved with DisableDownlevelRevealedComments=true");
+        }
+    }
 }
 ```
 

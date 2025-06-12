@@ -23,29 +23,94 @@ const { Workbook } = require("aspose.cells.node");
 var workbook = new Workbook("input/Externlink.xls");
 
 //Get External Link 
-var externalLink = workbook.getWorksheets().getExternalLinks().get(0);
+var externalLink = workbook.worksheets.externalLinks.get(0);
 //Change External Link's Data Source
-externalLink.setDataSource("input/Book1.xls");
+externalLink.dataSource = "input/Book1.xls";
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| ExternalLinkType | Readonly. Gets the type of external link. |
+| [pathType](#pathType--)| string | Readonly. Get the path type of this external link |
+| [originalDataSource](#originalDataSource--)| string | Represents stored data source of the external link. |
+| [dataSource](#dataSource--)| string | Represents data source of the external link. |
+| [isReferred](#isReferred--)| boolean | Readonly. Indicates whether this external link is referenced by others. |
+| [isVisible](#isVisible--)| boolean | Readonly. Indicates whether this external link is visible in MS Excel. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of external link. |
-| [getPathType()](#getPathType--)| Get the path type of this external link |
-| [getOriginalDataSource()](#getOriginalDataSource--)| Represents stored data source of the external link. |
-| [setOriginalDataSource(string)](#setOriginalDataSource-string-)| Represents stored data source of the external link. |
-| [getDataSource()](#getDataSource--)| Represents data source of the external link. |
-| [setDataSource(string)](#setDataSource-string-)| Represents data source of the external link. |
-| [isReferred()](#isReferred--)| Indicates whether this external link is referenced by others. |
-| [isVisible()](#isVisible--)| Indicates whether this external link is visible in MS Excel. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of external link. |
+| [getPathType()](#getPathType--)| <b>@deprecated.</b> Please use the 'pathType' property instead. Get the path type of this external link |
+| [getOriginalDataSource()](#getOriginalDataSource--)| <b>@deprecated.</b> Please use the 'originalDataSource' property instead. Represents stored data source of the external link. |
+| [setOriginalDataSource(string)](#setOriginalDataSource-string-)| <b>@deprecated.</b> Please use the 'originalDataSource' property instead. Represents stored data source of the external link. |
+| [getDataSource()](#getDataSource--)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Represents data source of the external link. |
+| [setDataSource(string)](#setDataSource-string-)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Represents data source of the external link. |
+| [isReferred()](#isReferred--)| <b>@deprecated.</b> Please use the 'isReferred' property instead. Indicates whether this external link is referenced by others. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether this external link is visible in MS Excel. |
 | [addExternalName(string, string)](#addExternalName-string-string-)| Adds an external name. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### type {#type--}
+
+Readonly. Gets the type of external link.
+
+```javascript
+type : ExternalLinkType;
+```
+
+
+### pathType {#pathType--}
+
+Readonly. Get the path type of this external link
+
+```javascript
+pathType : string;
+```
+
+
+### originalDataSource {#originalDataSource--}
+
+Represents stored data source of the external link.
+
+```javascript
+originalDataSource : string;
+```
+
+
+### dataSource {#dataSource--}
+
+Represents data source of the external link.
+
+```javascript
+dataSource : string;
+```
+
+
+### isReferred {#isReferred--}
+
+Readonly. Indicates whether this external link is referenced by others.
+
+```javascript
+isReferred : boolean;
+```
+
+
+### isVisible {#isVisible--}
+
+Readonly. Indicates whether this external link is visible in MS Excel.
+
+```javascript
+isVisible : boolean;
+```
+
+
 ### getType() {#getType--}
 
-Gets the type of external link.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of external link.
 
 ```javascript
 getType() : ExternalLinkType;
@@ -58,7 +123,7 @@ getType() : ExternalLinkType;
 
 ### getPathType() {#getPathType--}
 
-Get the path type of this external link
+<b>@deprecated.</b> Please use the 'pathType' property instead. Get the path type of this external link
 
 ```javascript
 getPathType() : string;
@@ -67,7 +132,7 @@ getPathType() : string;
 
 ### getOriginalDataSource() {#getOriginalDataSource--}
 
-Represents stored data source of the external link.
+<b>@deprecated.</b> Please use the 'originalDataSource' property instead. Represents stored data source of the external link.
 
 ```javascript
 getOriginalDataSource() : string;
@@ -76,7 +141,7 @@ getOriginalDataSource() : string;
 
 ### setOriginalDataSource(string) {#setOriginalDataSource-string-}
 
-Represents stored data source of the external link.
+<b>@deprecated.</b> Please use the 'originalDataSource' property instead. Represents stored data source of the external link.
 
 ```javascript
 setOriginalDataSource(value: string) : void;
@@ -89,7 +154,7 @@ setOriginalDataSource(value: string) : void;
 
 ### getDataSource() {#getDataSource--}
 
-Represents data source of the external link.
+<b>@deprecated.</b> Please use the 'dataSource' property instead. Represents data source of the external link.
 
 ```javascript
 getDataSource() : string;
@@ -98,7 +163,7 @@ getDataSource() : string;
 
 ### setDataSource(string) {#setDataSource-string-}
 
-Represents data source of the external link.
+<b>@deprecated.</b> Please use the 'dataSource' property instead. Represents data source of the external link.
 
 ```javascript
 setDataSource(value: string) : void;
@@ -111,7 +176,7 @@ setDataSource(value: string) : void;
 
 ### isReferred() {#isReferred--}
 
-Indicates whether this external link is referenced by others.
+<b>@deprecated.</b> Please use the 'isReferred' property instead. Indicates whether this external link is referenced by others.
 
 ```javascript
 isReferred() : boolean;
@@ -120,7 +185,7 @@ isReferred() : boolean;
 
 ### isVisible() {#isVisible--}
 
-Indicates whether this external link is visible in MS Excel.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether this external link is visible in MS Excel.
 
 ```javascript
 isVisible() : boolean;

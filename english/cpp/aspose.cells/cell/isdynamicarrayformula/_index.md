@@ -4,7 +4,7 @@ linktitle: IsDynamicArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsDynamicArrayFormula method. Indicates whether the cell''s formula is dynamic array formula(true) or legacy array formula(false) in C++.'
 type: docs
-weight: 4600
+weight: 4700
 url: /cpp/aspose.cells/cell/isdynamicarrayformula/
 ---
 ## Cell::IsDynamicArrayFormula method

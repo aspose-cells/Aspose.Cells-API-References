@@ -16,21 +16,47 @@ public Color BackgroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(wb.Worksheets[0].Charts[0].CategoryAxis.Area.BackgroundColor);
-         //http://www.aspose.com/community/forums/thread/338075/how-to-set-color-to-category-axis.aspx
-         public void Area_Property_BackgroundColor()
-         {
-             Console.WriteLine("testCELLSNET_40009()");
-             string infn = path + @"example.xlsm";
-             string outfn = destpath + @"tmp.out.xlsm";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-             Workbook wb = new Workbook(infn);
-             Console.WriteLine(wb.Worksheets[0].Charts[0].CategoryAxis.Area.BackgroundColor);
-             wb.Save(outfn);
-#if WTEST
-            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
-#endif
-         }
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyBackgroundColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Set background color for category axis area
+            chart.CategoryAxis.Area.BackgroundColor = System.Drawing.Color.Red;
+
+            // Display the background color
+            Console.WriteLine("Category Axis Background Color: " + chart.CategoryAxis.Area.BackgroundColor);
+
+            // Save the workbook
+            workbook.Save("AreaPropertyBackgroundColorDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

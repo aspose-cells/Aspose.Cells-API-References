@@ -61,6 +61,57 @@ public class WebExtensionPropertyCollection : CollectionBase<WebExtensionPropert
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 | [RemoveAt](../../aspose.cells.webextensions/webextensionpropertycollection/removeat/#removeat_1)(string) | Remove the property by the name. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.WebExtensions;
+    using System;
+
+    public class WebExtensionsClassWebExtensionPropertyCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Create an instance of WebExtensionPropertyCollection
+                WebExtensionPropertyCollection properties = new WebExtensionPropertyCollection();
+                
+                // Add properties to the collection
+                int index1 = properties.Add("Color", "Blue");
+                int index2 = properties.Add("Size", "Medium");
+                
+                // Access properties using indexer
+                Console.WriteLine("Property 1: {0} = {1}", 
+                    properties[index1].Name, properties[index1].Value);
+                Console.WriteLine("Property 2: {0} = {1}", 
+                    properties[index2].Name, properties[index2].Value);
+                
+                // Access property by name
+                WebExtensionProperty sizeProperty = properties["Size"];
+                Console.WriteLine("Accessed by name: Size = {0}", sizeProperty.Value);
+                
+                // Remove a property
+                properties.RemoveAt("Color");
+                Console.WriteLine("After removal - Count: {0}", properties.Count);
+                
+                // Save the workbook
+                workbook.Save("WebExtensionPropertyCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionPropertyCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -30,9 +30,7 @@ public class JsonUtility
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.Utility;
     using System;

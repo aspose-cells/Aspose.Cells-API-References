@@ -15,21 +15,46 @@ class CustomFilter;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [filterOperatorType](#filterOperatorType--)| FilterOperatorType | Gets and sets the filter operator type. |
+| [criteria](#criteria--)| Object | Gets and sets the criteria. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFilterOperatorType()](#getFilterOperatorType--)| Gets and sets the filter operator type. |
-| [setFilterOperatorType(FilterOperatorType)](#setFilterOperatorType-filteroperatortype-)| Gets and sets the filter operator type. |
-| [getCriteria()](#getCriteria--)| Gets and sets the criteria. |
-| [setCriteria(Object)](#setCriteria-object-)| Gets and sets the criteria. |
+| [getFilterOperatorType()](#getFilterOperatorType--)| <b>@deprecated.</b> Please use the 'filterOperatorType' property instead. Gets and sets the filter operator type. |
+| [setFilterOperatorType(FilterOperatorType)](#setFilterOperatorType-filteroperatortype-)| <b>@deprecated.</b> Please use the 'filterOperatorType' property instead. Gets and sets the filter operator type. |
+| [getCriteria()](#getCriteria--)| <b>@deprecated.</b> Please use the 'criteria' property instead. Gets and sets the criteria. |
+| [setCriteria(Object)](#setCriteria-object-)| <b>@deprecated.</b> Please use the 'criteria' property instead. Gets and sets the criteria. |
 | [setCriteria(FilterOperatorType, Object)](#setCriteria-filteroperatortype-object-)| Sets the filter criteria. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getFilterOperatorType() {#getFilterOperatorType--}
+### filterOperatorType {#filterOperatorType--}
 
 Gets and sets the filter operator type.
+
+```javascript
+filterOperatorType : FilterOperatorType;
+```
+
+
+### criteria {#criteria--}
+
+Gets and sets the criteria.
+
+```javascript
+criteria : Object;
+```
+
+
+### getFilterOperatorType() {#getFilterOperatorType--}
+
+<b>@deprecated.</b> Please use the 'filterOperatorType' property instead. Gets and sets the filter operator type.
 
 ```javascript
 getFilterOperatorType() : FilterOperatorType;
@@ -42,7 +67,7 @@ getFilterOperatorType() : FilterOperatorType;
 
 ### setFilterOperatorType(FilterOperatorType) {#setFilterOperatorType-filteroperatortype-}
 
-Gets and sets the filter operator type.
+<b>@deprecated.</b> Please use the 'filterOperatorType' property instead. Gets and sets the filter operator type.
 
 ```javascript
 setFilterOperatorType(value: FilterOperatorType) : void;
@@ -55,7 +80,7 @@ setFilterOperatorType(value: FilterOperatorType) : void;
 
 ### getCriteria() {#getCriteria--}
 
-Gets and sets the criteria.
+<b>@deprecated.</b> Please use the 'criteria' property instead. Gets and sets the criteria.
 
 ```javascript
 getCriteria() : Object;
@@ -64,7 +89,7 @@ getCriteria() : Object;
 
 ### setCriteria(Object) {#setCriteria-object-}
 
-Gets and sets the criteria.
+<b>@deprecated.</b> Please use the 'criteria' property instead. Gets and sets the criteria.
 
 ```javascript
 setCriteria(value: Object) : void;

@@ -16,14 +16,19 @@ public SortOrder Order { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Key Order: " + key.Order);
-public static void DataSorterKey_Property_Order()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DataSorterKeyPropertyOrderDemo
+    {
+        public static void Run()
         {
-            // Instantiate a new Workbook object
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
+            // Sample data
             worksheet.Cells["A1"].PutValue("Name");
             worksheet.Cells["B1"].PutValue("Score");
             worksheet.Cells["A2"].PutValue("John");
@@ -33,16 +38,11 @@ public static void DataSorterKey_Property_Order()
             worksheet.Cells["A4"].PutValue("Doe");
             worksheet.Cells["B4"].PutValue(80);
 
-            // Get the workbook's DataSorter object
             DataSorter sorter = workbook.DataSorter;
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 1; // Sort by Score column
 
-            // Set the first order for the DataSorter object
-            sorter.Order1 = Aspose.Cells.SortOrder.Descending;
-            // Define the first key
-            sorter.Key1 = 1; // Sorting by the second column (Score)
-
-            // Create a cells area (range)
-            CellArea ca = new CellArea
+            CellArea area = new CellArea
             {
                 StartRow = 1,
                 StartColumn = 0,
@@ -50,25 +50,16 @@ public static void DataSorterKey_Property_Order()
                 EndColumn = 1
             };
 
-            // Sort data in the specified data range (A2:B4)
-            sorter.Sort(worksheet.Cells, ca);
+            sorter.Sort(worksheet.Cells, area);
 
-            // Access the DataSorterKeyCollection
-            DataSorterKeyCollection keys = sorter.Keys;
-
-            // Display the count of keys
-            Console.WriteLine("Number of keys: " + keys.Count);
-
-            // Access the first key and display its properties
-            DataSorterKey key = keys[0];
-            Console.WriteLine("Key Index: " + key.Index);
+            // Demonstrate Order property usage
+            DataSorterKey key = sorter.Keys[0];
             Console.WriteLine("Key Order: " + key.Order);
 
-            // Save the workbook
-            workbook.Save("DataSorterKeyCollectionExample.xlsx");
-            workbook.Save("DataSorterKeyCollectionExample.pdf");
-            return;
+            workbook.Save("DataSorterKeyOrderDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

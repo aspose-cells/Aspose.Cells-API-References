@@ -32,25 +32,41 @@ public enum ReflectionEffectType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ReflectionEffectType.None, relection.Type);
-public void Drawing_Type_ReflectionEffectType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook();
-    book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-    ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.None, relection.Type);
-
-    Console.WriteLine(relection.Type);
-    relection.Type = ReflectionEffectType.HalfReflectionTouching;
-
-    book.Save(Constants.destPath + "TestRelection2.xlsx");
-    book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-    ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 0);
+    public class DrawingClassReflectionEffectTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a rectangle shape
+            Shape rectangle = worksheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            
+            // Get the reflection effect
+            ReflectionEffect reflection = rectangle.Reflection;
+            
+            // Set reflection properties
+            reflection.Type = ReflectionEffectType.HalfReflectionTouching;
+            reflection.Transparency = 0.5;
+            reflection.Size = 55;
+            reflection.Blur = 0.5;
+            reflection.Distance = 0;
+            
+            // Save the workbook
+            workbook.Save("DrawingClassReflectionEffectTypeDemo.xlsx");
+            
+            Console.WriteLine("Reflection effect demo completed successfully.");
+        }
+    }
 }
 ```
 

@@ -16,28 +16,53 @@ public Font[] GetFonts()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(count, workbook.GetFonts().Length);
-public void Workbook_Method_GetFonts()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine("initial fonts " + workbook.GetFonts().Length);
-    int count = workbook.GetFonts().Length;
+    public class WorkbookMethodGetFontsDemo
     {
-        MemoryStream ms = new MemoryStream();
-        workbook.Save(ms, new OoxmlSaveOptions(SaveFormat.Xlsx));
-        byte[] bytes = ms.ToArray();
-        workbook = new Workbook(new MemoryStream(bytes));
-        Assert.AreEqual(count, workbook.GetFonts().Length);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create cells with different fonts
+            worksheet.Cells["A1"].PutValue("Sample Text 1");
+            worksheet.Cells["A2"].PutValue("Sample Text 2");
+            
+            // Get and modify fonts
+            Font font1 = worksheet.Cells["A1"].GetStyle().Font;
+            font1.Name = "Arial";
+            font1.Size = 12;
+            
+            Font font2 = worksheet.Cells["A2"].GetStyle().Font;
+            font2.Name = "Times New Roman";
+            font2.Size = 14;
+            font2.IsBold = true;
 
+            // Get all fonts used in the workbook
+            Font[] fonts = workbook.GetFonts();
+            Console.WriteLine("Total fonts in workbook: " + fonts.Length);
+            
+            // Display font information
+            foreach (Font font in fonts)
+            {
+                Console.WriteLine($"Font: {font.Name}, Size: {font.Size}, Bold: {font.IsBold}");
+            }
+            
+            // Save and reload to demonstrate persistence
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, SaveFormat.Xlsx);
+                Workbook loadedWorkbook = new Workbook(stream);
+                Console.WriteLine("Fonts after save/load: " + loadedWorkbook.GetFonts().Length);
+            }
+        }
     }
-    {
-        MemoryStream ms = new MemoryStream();
-        workbook.Save(ms, new OoxmlSaveOptions(SaveFormat.Xlsx));
-        byte[] bytes = ms.ToArray();
-        workbook = new Workbook(new MemoryStream(bytes));
-        Assert.AreEqual(count,workbook.GetFonts().Length);
-
-    } 
 }
 ```
 

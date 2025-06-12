@@ -16,45 +16,41 @@ public bool ConvertGridStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: ConvertGridStyle = true,
-public static void ImportTableOptions_Property_ConvertGridStyle()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ImportTableOptionsPropertyConvertGridStyleDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create a DataTable to import
-            DataTable dataTable = new DataTable("SampleData");
+            // Create sample data
+            DataTable dataTable = new DataTable("Products");
             dataTable.Columns.Add("ID", typeof(int));
-            dataTable.Columns.Add("Name", typeof(string));
-            dataTable.Columns.Add("Date", typeof(DateTime));
-            dataTable.Rows.Add(1, "John Doe", DateTime.Now);
-            dataTable.Rows.Add(2, "Jane Smith", DateTime.Now.AddDays(1));
+            dataTable.Columns.Add("Product", typeof(string));
+            dataTable.Columns.Add("Price", typeof(decimal));
+            dataTable.Rows.Add(101, "Laptop", 999.99m);
+            dataTable.Rows.Add(102, "Monitor", 249.50m);
 
-            // Create an instance of ImportTableOptions
-            ImportTableOptions importOptions = new ImportTableOptions
-            {
-                ConvertGridStyle = true,
-                ConvertNumericData = true,
-                InsertRows = true,
-                ShiftFirstRowDown = false,
-                IsFieldNameShown = true,
-                ExportCaptionAsFieldName = false,
-                DateFormat = "yyyy-MM-dd",
-                TotalRows = -1, // Import all rows
-                TotalColumns = -1, // Import all columns
-                IsHtmlString = false,
-                CheckMergedCells = false
-            };
+            // Set import options with ConvertGridStyle enabled
+            ImportTableOptions options = new ImportTableOptions();
+            options.ConvertGridStyle = true; // This will apply grid styling to the imported data
+            options.IsFieldNameShown = true;
 
-            // Import the DataTable into the worksheet
-            worksheet.Cells.ImportData(dataTable, 0, 0, importOptions);
+            // Import data with styling
+            worksheet.Cells.ImportData(dataTable, 0, 0, options);
 
-            // Save the workbook
-            workbook.Save("ImportTableOptionsExample.xlsx");
-            workbook.Save("ImportTableOptionsExample.pdf");
-            return;
+            // Save the result
+            workbook.Save("ImportWithGridStyle.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

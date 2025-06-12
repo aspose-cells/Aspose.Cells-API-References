@@ -20,17 +20,38 @@ Generally those spaces and line breaks are jsut for visual purpose, Preserving t
 ### Examples
 
 ```csharp
-// Called: excel.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
-public void FormulaSettings_Property_PreservePaddingSpaces()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook excel = new Workbook(Constants.sourcePath + "example.xlsx");
-    excel.Worksheets[1].Cells.DeleteColumn(0, true) ;
-    excel.Worksheets[1].Cells.DeleteRows(0, 1, true);
-    string fml = "=SUM(IF(Data!B2:B6=\"A\", Data!C2:C5, 0))";
-    Assert.AreEqual(excel.Worksheets[0].Cells["C3"].Formula,
-        excel.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
-    Assert.AreEqual(excel.Worksheets[1].AutoFilter.Range, "B1:C1");
-    excel.Save(Constants.destPath + "example.xlsx");
+    public class FormulaSettingsPropertyPreservePaddingSpacesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set formula with padding spaces
+            string formulaWithSpaces = "=SUM( IF( A1:A5 > 10, B1:B5, 0 ) )";
+            worksheet.Cells["C1"].Formula = formulaWithSpaces;
+            
+            // Default behavior (PreservePaddingSpaces is true)
+            Console.WriteLine("Formula with spaces preserved: " + worksheet.Cells["C1"].Formula);
+            
+            // Change setting to remove padding spaces
+            workbook.Settings.FormulaSettings.PreservePaddingSpaces = false;
+            worksheet.Cells["C2"].Formula = formulaWithSpaces;
+            
+            Console.WriteLine("Formula with spaces removed: " + worksheet.Cells["C2"].Formula);
+            
+            // Save the workbook
+            workbook.Save("FormulaSpacesDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,30 +16,57 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.MemorySetting = MemorySetting.Normal;
-internal void Cells_Property_MemorySetting()
+using System;
+using System.Threading;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyMemorySettingDemo
+    {
+        private static Workbook workbook;
+        private static Cells cells;
+
+        private static void ThreadLoop()
+        {
+            for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("Testing MultiThreadReading for Normal model...");
-                cells.MemorySetting = MemorySetting.Normal;
-                Thread myThread1 = new Thread(new ThreadStart(ThreadLoop));
-                Thread myThread2 = new Thread(new ThreadStart(ThreadLoop));
-
-                myThread1.Start();
-                myThread2.Start();
-                myThread1.Join();
-                myThread2.Join();
-                Console.WriteLine("Finished.");
-
-                Console.WriteLine("Testing MultiThreadReading for Memory model...");
-                cells.MemorySetting = MemorySetting.MemoryPreference;
-                myThread1 = new Thread(new ThreadStart(ThreadLoop));
-                myThread2 = new Thread(new ThreadStart(ThreadLoop));
-                myThread1.Start();
-                myThread2.Start();
-                myThread1.Join();
-                myThread2.Join();
-                Console.WriteLine("Finished.");
+                cells[i, 0].PutValue($"Thread {Thread.CurrentThread.ManagedThreadId} - {i}");
             }
+        }
+
+        public static void Run()
+        {
+            workbook = new Workbook();
+            cells = workbook.Worksheets[0].Cells;
+
+            Console.WriteLine("Testing MultiThreadReading with Normal memory setting...");
+            cells.MemorySetting = MemorySetting.Normal;
+            
+            Thread thread1 = new Thread(ThreadLoop);
+            Thread thread2 = new Thread(ThreadLoop);
+            
+            thread1.Start();
+            thread2.Start();
+            thread1.Join();
+            thread2.Join();
+
+            Console.WriteLine("Testing MultiThreadReading with MemoryPreference setting...");
+            cells.MemorySetting = MemorySetting.MemoryPreference;
+            
+            thread1 = new Thread(ThreadLoop);
+            thread2 = new Thread(ThreadLoop);
+            
+            thread1.Start();
+            thread2.Start();
+            thread1.Join();
+            thread2.Join();
+
+            Console.WriteLine("Demo finished. Workbook saved to output.xlsx");
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

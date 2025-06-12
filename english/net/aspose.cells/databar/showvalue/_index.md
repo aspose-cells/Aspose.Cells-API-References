@@ -16,67 +16,54 @@ public bool ShowValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: bool showValue = fc.DataBar.ShowValue;
-public void DataBar_Property_ShowValue()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    String sfilePath = Constants.sourcePath + "ConditionalFormattings\\TestDataBarCopy.xlsx";
-    String dfilePath = Constants.destPath + "TestDataBarCopy2.xlsx";
+    public class DataBarPropertyShowValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(sfilePath);
-    ConditionalFormattingCollection cfs = book.Worksheets[0].ConditionalFormattings;
-    book.Worksheets[1].ConditionalFormattings.Copy(cfs);
-    book.Save(dfilePath);
-    Workbook newbook = new Workbook(dfilePath);
-    ConditionalFormattingCollection newcfs = newbook.Worksheets[1].ConditionalFormattings;
-    FormatConditionCollection fcs = newcfs[0];
-    FormatCondition fc = fcs[0];
+            // Add sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+            sheet.Cells["A4"].PutValue(40);
 
-    FormatConditionValueType minType = fc.DataBar.MinCfvo.Type;
-    FormatConditionValueType maxType = fc.DataBar.MaxCfvo.Type;
-    Color databarColor = fc.DataBar.Color;
-    bool showValue = fc.DataBar.ShowValue;
+            // Add data bar conditional formatting
+            int idx = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sheet.ConditionalFormattings[idx];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 3;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
 
-    DataBarBorderType barborder = fc.DataBar.BarBorder.Type;
-    Color borderColor = fc.DataBar.BarBorder.Color;
-
-    DataBarFillType barFilltype = fc.DataBar.BarFillType;
-
-    Color axisColor = fc.DataBar.AxisColor;
-    DataBarAxisPosition axisPosition = fc.DataBar.AxisPosition;
-
-    DataBarNegativeColorType negColorType = fc.DataBar.NegativeBarFormat.ColorType;
-    Color negColor = fc.DataBar.NegativeBarFormat.Color;
-
-    DataBarNegativeColorType negBorderColorType = fc.DataBar.NegativeBarFormat.BorderColorType;
-    Color negBorderColor = fc.DataBar.NegativeBarFormat.BorderColor;
-
-    string sqref = GetCellAreaName(fcs.GetCellArea(0));
-
-    Assert.AreEqual(minType, FormatConditionValueType.AutomaticMin);
-    Assert.AreEqual(maxType, FormatConditionValueType.AutomaticMax);
-
-   AssertHelper.AreEqual(databarColor, Color.FromArgb(255, 0, 0));//Color.Orange);
-
-    Assert.AreEqual(showValue, true);
-
-    Assert.AreEqual(barborder, DataBarBorderType.Solid);
-
-   AssertHelper.AreEqual(borderColor, Color.FromArgb(0, 0, 0));
-
-    Assert.AreEqual(barFilltype, DataBarFillType.Gradient);
-
-   AssertHelper.AreEqual(axisColor, Color.FromArgb(0, 0, 0));
-
-    Assert.AreEqual(axisPosition, DataBarAxisPosition.Midpoint);
-    Assert.AreEqual(negColorType, DataBarNegativeColorType.SameAsPositive);
-
-   AssertHelper.AreEqual(negColor, Color.FromArgb(255, 0, 0));
-
-    Assert.AreEqual(negBorderColorType, DataBarNegativeColorType.Color);
-
-   AssertHelper.AreEqual(negBorderColor, Color.FromArgb(228, 108, 10));
-
-    Assert.AreEqual(sqref, "A1:C1");
+            // Add data bar condition
+            int conditionIndex = fcc.AddCondition(FormatConditionType.DataBar);
+            FormatCondition fc = fcc[conditionIndex];
+            
+            // Set data bar properties
+            fc.DataBar.MinCfvo.Type = FormatConditionValueType.Min;
+            fc.DataBar.MaxCfvo.Type = FormatConditionValueType.Max;
+            fc.DataBar.Color = Color.Green;
+            
+            // Demonstrate ShowValue property
+            fc.DataBar.ShowValue = true; // Show cell values along with data bars
+            
+            // Save the workbook
+            workbook.Save("DataBarShowValueDemo.xlsx");
+            
+            Console.WriteLine("DataBar ShowValue demo completed. Output file: DataBarShowValueDemo.xlsx");
+        }
+    }
 }
 ```
 

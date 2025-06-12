@@ -20,97 +20,145 @@ class PageSetup;
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var sheet = workbook.getWorksheets().get(0);
-sheet.getPageSetup().setPrintArea("D1:K13");
-sheet.getPageSetup().setPrintTitleRows("$5:$7");
-sheet.getPageSetup().setPrintTitleColumns("$A:$B");
+var sheet = workbook.worksheets.get(0);
+sheet.pageSetup.printArea = "D1:K13";
+sheet.pageSetup.printTitleRows = "$5:$7";
+sheet.pageSetup.printTitleColumns = "$A:$B";
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [oDSPageBackground](#oDSPageBackground--)| OdsPageBackground | Readonly. Gets the background of ODS. |
+| [printArea](#printArea--)| string | Represents the range to be printed. |
+| [printTitleColumns](#printTitleColumns--)| string | Represents the columns that contain the cells to be repeated on the left side of each page. |
+| [printTitleRows](#printTitleRows--)| string | Represents the rows that contain the cells to be repeated at the top of each page. |
+| [blackAndWhite](#blackAndWhite--)| boolean | Represents if elements of the document will be printed in black and white. |
+| [centerHorizontally](#centerHorizontally--)| boolean | Represent if the sheet is printed centered horizontally. |
+| [centerVertically](#centerVertically--)| boolean | Represent if the sheet is printed centered vertically. |
+| [printDraft](#printDraft--)| boolean | Represents if the sheet will be printed without graphics. |
+| [footerMargin](#footerMargin--)| number | Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
+| [footerMarginInch](#footerMarginInch--)| number | Represents the distance from the bottom of the page to the footer, in unit of inches. |
+| [headerMargin](#headerMargin--)| number | Represents the distance from the top of the page to the header, in unit of centimeters. |
+| [headerMarginInch](#headerMarginInch--)| number | Represents the distance from the top of the page to the header, in unit of inches. |
+| [printerSettings](#printerSettings--)| Uint8Array | Gets and sets the settings of the default printer. |
+| [leftMargin](#leftMargin--)| number | Represents the size of the left margin, in unit of centimeters. |
+| [leftMarginInch](#leftMarginInch--)| number | Represents the size of the left margin, in unit of inches. |
+| [rightMargin](#rightMargin--)| number | Represents the size of the right margin, in unit of centimeters. |
+| [rightMarginInch](#rightMarginInch--)| number | Represents the size of the right margin, in unit of inches. |
+| [topMargin](#topMargin--)| number | Represents the size of the top margin, in unit of centimeters. |
+| [topMarginInch](#topMarginInch--)| number | Represents the size of the top margin, in unit of inches. |
+| [bottomMargin](#bottomMargin--)| number | Represents the size of the bottom margin, in unit of centimeters. |
+| [bottomMarginInch](#bottomMarginInch--)| number | Represents the size of the bottom margin, in unit of inches. |
+| [firstPageNumber](#firstPageNumber--)| number | Represents the first page number that will be used when this sheet is printed. |
+| [fitToPagesTall](#fitToPagesTall--)| number | Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. |
+| [fitToPagesWide](#fitToPagesWide--)| number | Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. |
+| [isPercentScale](#isPercentScale--)| boolean | If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
+| [order](#order--)| PrintOrderType | Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
+| [isAutomaticPaperSize](#isAutomaticPaperSize--)| boolean | Readonly. Indicates whether the paper size is automatic. |
+| [paperSize](#paperSize--)| PaperSizeType | Represents the size of the paper. |
+| [paperWidth](#paperWidth--)| number | Readonly. Gets the width of the paper in unit of inches, considered page orientation. |
+| [paperHeight](#paperHeight--)| number | Readonly. Gets the height of the paper in unit of inches , considered page orientation. |
+| [orientation](#orientation--)| PageOrientationType | Represents page print orientation. |
+| [printComments](#printComments--)| PrintCommentsType | Represents the way comments are printed with the sheet. |
+| [printErrors](#printErrors--)| PrintErrorsType | Specifies the type of print error displayed. |
+| [printHeadings](#printHeadings--)| boolean | Represents if row and column headings are printed with this page. |
+| [printGridlines](#printGridlines--)| boolean | Represents if cell gridlines are printed on the page. |
+| [zoom](#zoom--)| number | Represents the scaling factor in percent. It should be between 10 and 400. |
+| [isAutoFirstPageNumber](#isAutoFirstPageNumber--)| boolean | Indicates whether the first the page number is automatically assigned. |
+| [printQuality](#printQuality--)| number | Represents the print quality. |
+| [printCopies](#printCopies--)| number | Get and sets number of copies to print. |
+| [isHFDiffOddEven](#isHFDiffOddEven--)| boolean | True means that the header/footer of the odd pages is different with odd pages. |
+| [isHFDiffFirst](#isHFDiffFirst--)| boolean | True means that the header/footer of the first page is different with other pages. |
+| [isHFScaleWithDoc](#isHFScaleWithDoc--)| boolean | Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
+| [isHFAlignMargins](#isHFAlignMargins--)| boolean | Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getODSPageBackground()](#getODSPageBackground--)| Gets the background of ODS. |
-| [getPrintArea()](#getPrintArea--)| Represents the range to be printed. |
-| [setPrintArea(string)](#setPrintArea-string-)| Represents the range to be printed. |
-| [getPrintTitleColumns()](#getPrintTitleColumns--)| Represents the columns that contain the cells to be repeated on the left side of each page. |
-| [setPrintTitleColumns(string)](#setPrintTitleColumns-string-)| Represents the columns that contain the cells to be repeated on the left side of each page. |
-| [getPrintTitleRows()](#getPrintTitleRows--)| Represents the rows that contain the cells to be repeated at the top of each page. |
-| [setPrintTitleRows(string)](#setPrintTitleRows-string-)| Represents the rows that contain the cells to be repeated at the top of each page. |
-| [getBlackAndWhite()](#getBlackAndWhite--)| Represents if elements of the document will be printed in black and white. |
-| [setBlackAndWhite(boolean)](#setBlackAndWhite-boolean-)| Represents if elements of the document will be printed in black and white. |
-| [getCenterHorizontally()](#getCenterHorizontally--)| Represent if the sheet is printed centered horizontally. |
-| [setCenterHorizontally(boolean)](#setCenterHorizontally-boolean-)| Represent if the sheet is printed centered horizontally. |
-| [getCenterVertically()](#getCenterVertically--)| Represent if the sheet is printed centered vertically. |
-| [setCenterVertically(boolean)](#setCenterVertically-boolean-)| Represent if the sheet is printed centered vertically. |
-| [getPrintDraft()](#getPrintDraft--)| Represents if the sheet will be printed without graphics. |
-| [setPrintDraft(boolean)](#setPrintDraft-boolean-)| Represents if the sheet will be printed without graphics. |
-| [getFooterMargin()](#getFooterMargin--)| Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
-| [setFooterMargin(number)](#setFooterMargin-number-)| Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
-| [getFooterMarginInch()](#getFooterMarginInch--)| Represents the distance from the bottom of the page to the footer, in unit of inches. |
-| [setFooterMarginInch(number)](#setFooterMarginInch-number-)| Represents the distance from the bottom of the page to the footer, in unit of inches. |
-| [getHeaderMargin()](#getHeaderMargin--)| Represents the distance from the top of the page to the header, in unit of centimeters. |
-| [setHeaderMargin(number)](#setHeaderMargin-number-)| Represents the distance from the top of the page to the header, in unit of centimeters. |
-| [getHeaderMarginInch()](#getHeaderMarginInch--)| Represents the distance from the top of the page to the header, in unit of inches. |
-| [setHeaderMarginInch(number)](#setHeaderMarginInch-number-)| Represents the distance from the top of the page to the header, in unit of inches. |
-| [getPrinterSettings()](#getPrinterSettings--)| Gets and sets the settings of the default printer. |
-| [setPrinterSettings(Uint8Array)](#setPrinterSettings-uint8array-)| Gets and sets the settings of the default printer. |
-| [getLeftMargin()](#getLeftMargin--)| Represents the size of the left margin, in unit of centimeters. |
-| [setLeftMargin(number)](#setLeftMargin-number-)| Represents the size of the left margin, in unit of centimeters. |
-| [getLeftMarginInch()](#getLeftMarginInch--)| Represents the size of the left margin, in unit of inches. |
-| [setLeftMarginInch(number)](#setLeftMarginInch-number-)| Represents the size of the left margin, in unit of inches. |
-| [getRightMargin()](#getRightMargin--)| Represents the size of the right margin, in unit of centimeters. |
-| [setRightMargin(number)](#setRightMargin-number-)| Represents the size of the right margin, in unit of centimeters. |
-| [getRightMarginInch()](#getRightMarginInch--)| Represents the size of the right margin, in unit of inches. |
-| [setRightMarginInch(number)](#setRightMarginInch-number-)| Represents the size of the right margin, in unit of inches. |
-| [getTopMargin()](#getTopMargin--)| Represents the size of the top margin, in unit of centimeters. |
-| [setTopMargin(number)](#setTopMargin-number-)| Represents the size of the top margin, in unit of centimeters. |
-| [getTopMarginInch()](#getTopMarginInch--)| Represents the size of the top margin, in unit of inches. |
-| [setTopMarginInch(number)](#setTopMarginInch-number-)| Represents the size of the top margin, in unit of inches. |
-| [getBottomMargin()](#getBottomMargin--)| Represents the size of the bottom margin, in unit of centimeters. |
-| [setBottomMargin(number)](#setBottomMargin-number-)| Represents the size of the bottom margin, in unit of centimeters. |
-| [getBottomMarginInch()](#getBottomMarginInch--)| Represents the size of the bottom margin, in unit of inches. |
-| [setBottomMarginInch(number)](#setBottomMarginInch-number-)| Represents the size of the bottom margin, in unit of inches. |
-| [getFirstPageNumber()](#getFirstPageNumber--)| Represents the first page number that will be used when this sheet is printed. |
-| [setFirstPageNumber(number)](#setFirstPageNumber-number-)| Represents the first page number that will be used when this sheet is printed. |
-| [getFitToPagesTall()](#getFitToPagesTall--)| Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. |
-| [setFitToPagesTall(number)](#setFitToPagesTall-number-)| Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. |
-| [getFitToPagesWide()](#getFitToPagesWide--)| Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. |
-| [setFitToPagesWide(number)](#setFitToPagesWide-number-)| Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. |
-| [isPercentScale()](#isPercentScale--)| If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
-| [setIsPercentScale(boolean)](#setIsPercentScale-boolean-)| If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
-| [getOrder()](#getOrder--)| Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
-| [setOrder(PrintOrderType)](#setOrder-printordertype-)| Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
-| [isAutomaticPaperSize()](#isAutomaticPaperSize--)| Indicates whether the paper size is automatic. |
-| [getPaperSize()](#getPaperSize--)| Represents the size of the paper. |
-| [setPaperSize(PaperSizeType)](#setPaperSize-papersizetype-)| Represents the size of the paper. |
-| [getPaperWidth()](#getPaperWidth--)| Gets the width of the paper in unit of inches, considered page orientation. |
-| [getPaperHeight()](#getPaperHeight--)| Gets the height of the paper in unit of inches , considered page orientation. |
-| [getOrientation()](#getOrientation--)| Represents page print orientation. |
-| [setOrientation(PageOrientationType)](#setOrientation-pageorientationtype-)| Represents page print orientation. |
-| [getPrintComments()](#getPrintComments--)| Represents the way comments are printed with the sheet. |
-| [setPrintComments(PrintCommentsType)](#setPrintComments-printcommentstype-)| Represents the way comments are printed with the sheet. |
-| [getPrintErrors()](#getPrintErrors--)| Specifies the type of print error displayed. |
-| [setPrintErrors(PrintErrorsType)](#setPrintErrors-printerrorstype-)| Specifies the type of print error displayed. |
-| [getPrintHeadings()](#getPrintHeadings--)| Represents if row and column headings are printed with this page. |
-| [setPrintHeadings(boolean)](#setPrintHeadings-boolean-)| Represents if row and column headings are printed with this page. |
-| [getPrintGridlines()](#getPrintGridlines--)| Represents if cell gridlines are printed on the page. |
-| [setPrintGridlines(boolean)](#setPrintGridlines-boolean-)| Represents if cell gridlines are printed on the page. |
-| [getZoom()](#getZoom--)| Represents the scaling factor in percent. It should be between 10 and 400. |
-| [setZoom(number)](#setZoom-number-)| Represents the scaling factor in percent. It should be between 10 and 400. |
-| [isAutoFirstPageNumber()](#isAutoFirstPageNumber--)| Indicates whether the first the page number is automatically assigned. |
-| [setIsAutoFirstPageNumber(boolean)](#setIsAutoFirstPageNumber-boolean-)| Indicates whether the first the page number is automatically assigned. |
-| [getPrintQuality()](#getPrintQuality--)| Represents the print quality. |
-| [setPrintQuality(number)](#setPrintQuality-number-)| Represents the print quality. |
-| [getPrintCopies()](#getPrintCopies--)| Get and sets number of copies to print. |
-| [setPrintCopies(number)](#setPrintCopies-number-)| Get and sets number of copies to print. |
-| [isHFDiffOddEven()](#isHFDiffOddEven--)| True means that the header/footer of the odd pages is different with odd pages. |
-| [setIsHFDiffOddEven(boolean)](#setIsHFDiffOddEven-boolean-)| True means that the header/footer of the odd pages is different with odd pages. |
-| [isHFDiffFirst()](#isHFDiffFirst--)| True means that the header/footer of the first page is different with other pages. |
-| [setIsHFDiffFirst(boolean)](#setIsHFDiffFirst-boolean-)| True means that the header/footer of the first page is different with other pages. |
-| [isHFScaleWithDoc()](#isHFScaleWithDoc--)| Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
-| [setIsHFScaleWithDoc(boolean)](#setIsHFScaleWithDoc-boolean-)| Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
-| [isHFAlignMargins()](#isHFAlignMargins--)| Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default. |
-| [setIsHFAlignMargins(boolean)](#setIsHFAlignMargins-boolean-)| Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default. |
+| [getODSPageBackground()](#getODSPageBackground--)| <b>@deprecated.</b> Please use the 'oDSPageBackground' property instead. Gets the background of ODS. |
+| [getPrintArea()](#getPrintArea--)| <b>@deprecated.</b> Please use the 'printArea' property instead. Represents the range to be printed. |
+| [setPrintArea(string)](#setPrintArea-string-)| <b>@deprecated.</b> Please use the 'printArea' property instead. Represents the range to be printed. |
+| [getPrintTitleColumns()](#getPrintTitleColumns--)| <b>@deprecated.</b> Please use the 'printTitleColumns' property instead. Represents the columns that contain the cells to be repeated on the left side of each page. |
+| [setPrintTitleColumns(string)](#setPrintTitleColumns-string-)| <b>@deprecated.</b> Please use the 'printTitleColumns' property instead. Represents the columns that contain the cells to be repeated on the left side of each page. |
+| [getPrintTitleRows()](#getPrintTitleRows--)| <b>@deprecated.</b> Please use the 'printTitleRows' property instead. Represents the rows that contain the cells to be repeated at the top of each page. |
+| [setPrintTitleRows(string)](#setPrintTitleRows-string-)| <b>@deprecated.</b> Please use the 'printTitleRows' property instead. Represents the rows that contain the cells to be repeated at the top of each page. |
+| [getBlackAndWhite()](#getBlackAndWhite--)| <b>@deprecated.</b> Please use the 'blackAndWhite' property instead. Represents if elements of the document will be printed in black and white. |
+| [setBlackAndWhite(boolean)](#setBlackAndWhite-boolean-)| <b>@deprecated.</b> Please use the 'blackAndWhite' property instead. Represents if elements of the document will be printed in black and white. |
+| [getCenterHorizontally()](#getCenterHorizontally--)| <b>@deprecated.</b> Please use the 'centerHorizontally' property instead. Represent if the sheet is printed centered horizontally. |
+| [setCenterHorizontally(boolean)](#setCenterHorizontally-boolean-)| <b>@deprecated.</b> Please use the 'centerHorizontally' property instead. Represent if the sheet is printed centered horizontally. |
+| [getCenterVertically()](#getCenterVertically--)| <b>@deprecated.</b> Please use the 'centerVertically' property instead. Represent if the sheet is printed centered vertically. |
+| [setCenterVertically(boolean)](#setCenterVertically-boolean-)| <b>@deprecated.</b> Please use the 'centerVertically' property instead. Represent if the sheet is printed centered vertically. |
+| [getPrintDraft()](#getPrintDraft--)| <b>@deprecated.</b> Please use the 'printDraft' property instead. Represents if the sheet will be printed without graphics. |
+| [setPrintDraft(boolean)](#setPrintDraft-boolean-)| <b>@deprecated.</b> Please use the 'printDraft' property instead. Represents if the sheet will be printed without graphics. |
+| [getFooterMargin()](#getFooterMargin--)| <b>@deprecated.</b> Please use the 'footerMargin' property instead. Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
+| [setFooterMargin(number)](#setFooterMargin-number-)| <b>@deprecated.</b> Please use the 'footerMargin' property instead. Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
+| [getFooterMarginInch()](#getFooterMarginInch--)| <b>@deprecated.</b> Please use the 'footerMarginInch' property instead. Represents the distance from the bottom of the page to the footer, in unit of inches. |
+| [setFooterMarginInch(number)](#setFooterMarginInch-number-)| <b>@deprecated.</b> Please use the 'footerMarginInch' property instead. Represents the distance from the bottom of the page to the footer, in unit of inches. |
+| [getHeaderMargin()](#getHeaderMargin--)| <b>@deprecated.</b> Please use the 'headerMargin' property instead. Represents the distance from the top of the page to the header, in unit of centimeters. |
+| [setHeaderMargin(number)](#setHeaderMargin-number-)| <b>@deprecated.</b> Please use the 'headerMargin' property instead. Represents the distance from the top of the page to the header, in unit of centimeters. |
+| [getHeaderMarginInch()](#getHeaderMarginInch--)| <b>@deprecated.</b> Please use the 'headerMarginInch' property instead. Represents the distance from the top of the page to the header, in unit of inches. |
+| [setHeaderMarginInch(number)](#setHeaderMarginInch-number-)| <b>@deprecated.</b> Please use the 'headerMarginInch' property instead. Represents the distance from the top of the page to the header, in unit of inches. |
+| [getPrinterSettings()](#getPrinterSettings--)| <b>@deprecated.</b> Please use the 'printerSettings' property instead. Gets and sets the settings of the default printer. |
+| [setPrinterSettings(Uint8Array)](#setPrinterSettings-uint8array-)| <b>@deprecated.</b> Please use the 'printerSettings' property instead. Gets and sets the settings of the default printer. |
+| [getLeftMargin()](#getLeftMargin--)| <b>@deprecated.</b> Please use the 'leftMargin' property instead. Represents the size of the left margin, in unit of centimeters. |
+| [setLeftMargin(number)](#setLeftMargin-number-)| <b>@deprecated.</b> Please use the 'leftMargin' property instead. Represents the size of the left margin, in unit of centimeters. |
+| [getLeftMarginInch()](#getLeftMarginInch--)| <b>@deprecated.</b> Please use the 'leftMarginInch' property instead. Represents the size of the left margin, in unit of inches. |
+| [setLeftMarginInch(number)](#setLeftMarginInch-number-)| <b>@deprecated.</b> Please use the 'leftMarginInch' property instead. Represents the size of the left margin, in unit of inches. |
+| [getRightMargin()](#getRightMargin--)| <b>@deprecated.</b> Please use the 'rightMargin' property instead. Represents the size of the right margin, in unit of centimeters. |
+| [setRightMargin(number)](#setRightMargin-number-)| <b>@deprecated.</b> Please use the 'rightMargin' property instead. Represents the size of the right margin, in unit of centimeters. |
+| [getRightMarginInch()](#getRightMarginInch--)| <b>@deprecated.</b> Please use the 'rightMarginInch' property instead. Represents the size of the right margin, in unit of inches. |
+| [setRightMarginInch(number)](#setRightMarginInch-number-)| <b>@deprecated.</b> Please use the 'rightMarginInch' property instead. Represents the size of the right margin, in unit of inches. |
+| [getTopMargin()](#getTopMargin--)| <b>@deprecated.</b> Please use the 'topMargin' property instead. Represents the size of the top margin, in unit of centimeters. |
+| [setTopMargin(number)](#setTopMargin-number-)| <b>@deprecated.</b> Please use the 'topMargin' property instead. Represents the size of the top margin, in unit of centimeters. |
+| [getTopMarginInch()](#getTopMarginInch--)| <b>@deprecated.</b> Please use the 'topMarginInch' property instead. Represents the size of the top margin, in unit of inches. |
+| [setTopMarginInch(number)](#setTopMarginInch-number-)| <b>@deprecated.</b> Please use the 'topMarginInch' property instead. Represents the size of the top margin, in unit of inches. |
+| [getBottomMargin()](#getBottomMargin--)| <b>@deprecated.</b> Please use the 'bottomMargin' property instead. Represents the size of the bottom margin, in unit of centimeters. |
+| [setBottomMargin(number)](#setBottomMargin-number-)| <b>@deprecated.</b> Please use the 'bottomMargin' property instead. Represents the size of the bottom margin, in unit of centimeters. |
+| [getBottomMarginInch()](#getBottomMarginInch--)| <b>@deprecated.</b> Please use the 'bottomMarginInch' property instead. Represents the size of the bottom margin, in unit of inches. |
+| [setBottomMarginInch(number)](#setBottomMarginInch-number-)| <b>@deprecated.</b> Please use the 'bottomMarginInch' property instead. Represents the size of the bottom margin, in unit of inches. |
+| [getFirstPageNumber()](#getFirstPageNumber--)| <b>@deprecated.</b> Please use the 'firstPageNumber' property instead. Represents the first page number that will be used when this sheet is printed. |
+| [setFirstPageNumber(number)](#setFirstPageNumber-number-)| <b>@deprecated.</b> Please use the 'firstPageNumber' property instead. Represents the first page number that will be used when this sheet is printed. |
+| [getFitToPagesTall()](#getFitToPagesTall--)| <b>@deprecated.</b> Please use the 'fitToPagesTall' property instead. Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. |
+| [setFitToPagesTall(number)](#setFitToPagesTall-number-)| <b>@deprecated.</b> Please use the 'fitToPagesTall' property instead. Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. |
+| [getFitToPagesWide()](#getFitToPagesWide--)| <b>@deprecated.</b> Please use the 'fitToPagesWide' property instead. Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. |
+| [setFitToPagesWide(number)](#setFitToPagesWide-number-)| <b>@deprecated.</b> Please use the 'fitToPagesWide' property instead. Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. |
+| [isPercentScale()](#isPercentScale--)| <b>@deprecated.</b> Please use the 'isPercentScale' property instead. If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
+| [setIsPercentScale(boolean)](#setIsPercentScale-boolean-)| <b>@deprecated.</b> Please use the 'isPercentScale' property instead. If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
+| [getOrder()](#getOrder--)| <b>@deprecated.</b> Please use the 'order' property instead. Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
+| [setOrder(PrintOrderType)](#setOrder-printordertype-)| <b>@deprecated.</b> Please use the 'order' property instead. Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
+| [isAutomaticPaperSize()](#isAutomaticPaperSize--)| <b>@deprecated.</b> Please use the 'isAutomaticPaperSize' property instead. Indicates whether the paper size is automatic. |
+| [getPaperSize()](#getPaperSize--)| <b>@deprecated.</b> Please use the 'paperSize' property instead. Represents the size of the paper. |
+| [setPaperSize(PaperSizeType)](#setPaperSize-papersizetype-)| <b>@deprecated.</b> Please use the 'paperSize' property instead. Represents the size of the paper. |
+| [getPaperWidth()](#getPaperWidth--)| <b>@deprecated.</b> Please use the 'paperWidth' property instead. Gets the width of the paper in unit of inches, considered page orientation. |
+| [getPaperHeight()](#getPaperHeight--)| <b>@deprecated.</b> Please use the 'paperHeight' property instead. Gets the height of the paper in unit of inches , considered page orientation. |
+| [getOrientation()](#getOrientation--)| <b>@deprecated.</b> Please use the 'orientation' property instead. Represents page print orientation. |
+| [setOrientation(PageOrientationType)](#setOrientation-pageorientationtype-)| <b>@deprecated.</b> Please use the 'orientation' property instead. Represents page print orientation. |
+| [getPrintComments()](#getPrintComments--)| <b>@deprecated.</b> Please use the 'printComments' property instead. Represents the way comments are printed with the sheet. |
+| [setPrintComments(PrintCommentsType)](#setPrintComments-printcommentstype-)| <b>@deprecated.</b> Please use the 'printComments' property instead. Represents the way comments are printed with the sheet. |
+| [getPrintErrors()](#getPrintErrors--)| <b>@deprecated.</b> Please use the 'printErrors' property instead. Specifies the type of print error displayed. |
+| [setPrintErrors(PrintErrorsType)](#setPrintErrors-printerrorstype-)| <b>@deprecated.</b> Please use the 'printErrors' property instead. Specifies the type of print error displayed. |
+| [getPrintHeadings()](#getPrintHeadings--)| <b>@deprecated.</b> Please use the 'printHeadings' property instead. Represents if row and column headings are printed with this page. |
+| [setPrintHeadings(boolean)](#setPrintHeadings-boolean-)| <b>@deprecated.</b> Please use the 'printHeadings' property instead. Represents if row and column headings are printed with this page. |
+| [getPrintGridlines()](#getPrintGridlines--)| <b>@deprecated.</b> Please use the 'printGridlines' property instead. Represents if cell gridlines are printed on the page. |
+| [setPrintGridlines(boolean)](#setPrintGridlines-boolean-)| <b>@deprecated.</b> Please use the 'printGridlines' property instead. Represents if cell gridlines are printed on the page. |
+| [getZoom()](#getZoom--)| <b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percent. It should be between 10 and 400. |
+| [setZoom(number)](#setZoom-number-)| <b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percent. It should be between 10 and 400. |
+| [isAutoFirstPageNumber()](#isAutoFirstPageNumber--)| <b>@deprecated.</b> Please use the 'isAutoFirstPageNumber' property instead. Indicates whether the first the page number is automatically assigned. |
+| [setIsAutoFirstPageNumber(boolean)](#setIsAutoFirstPageNumber-boolean-)| <b>@deprecated.</b> Please use the 'isAutoFirstPageNumber' property instead. Indicates whether the first the page number is automatically assigned. |
+| [getPrintQuality()](#getPrintQuality--)| <b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality. |
+| [setPrintQuality(number)](#setPrintQuality-number-)| <b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality. |
+| [getPrintCopies()](#getPrintCopies--)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print. |
+| [setPrintCopies(number)](#setPrintCopies-number-)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print. |
+| [isHFDiffOddEven()](#isHFDiffOddEven--)| <b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages. |
+| [setIsHFDiffOddEven(boolean)](#setIsHFDiffOddEven-boolean-)| <b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages. |
+| [isHFDiffFirst()](#isHFDiffFirst--)| <b>@deprecated.</b> Please use the 'isHFDiffFirst' property instead. True means that the header/footer of the first page is different with other pages. |
+| [setIsHFDiffFirst(boolean)](#setIsHFDiffFirst-boolean-)| <b>@deprecated.</b> Please use the 'isHFDiffFirst' property instead. True means that the header/footer of the first page is different with other pages. |
+| [isHFScaleWithDoc()](#isHFScaleWithDoc--)| <b>@deprecated.</b> Please use the 'isHFScaleWithDoc' property instead. Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
+| [setIsHFScaleWithDoc(boolean)](#setIsHFScaleWithDoc-boolean-)| <b>@deprecated.</b> Please use the 'isHFScaleWithDoc' property instead. Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
+| [isHFAlignMargins()](#isHFAlignMargins--)| <b>@deprecated.</b> Please use the 'isHFAlignMargins' property instead. Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default. |
+| [setIsHFAlignMargins(boolean)](#setIsHFAlignMargins-boolean-)| <b>@deprecated.</b> Please use the 'isHFAlignMargins' property instead. Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default. |
 | [copy(PageSetup, CopyOptions)](#copy-pagesetup-copyoptions-)| Copies the setting of the page setup. |
 | [setFitToPages(number, number)](#setFitToPages-number-number-)| Sets the number of pages the worksheet will be scaled to when it's printed. |
 | [customPaperSize(number, number)](#customPaperSize-number-number-)| Sets the custom paper size, in unit of inches. |
@@ -136,9 +184,404 @@ sheet.getPageSetup().setPrintTitleColumns("$A:$B");
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### oDSPageBackground {#oDSPageBackground--}
+
+Readonly. Gets the background of ODS.
+
+```javascript
+oDSPageBackground : OdsPageBackground;
+```
+
+
+### printArea {#printArea--}
+
+Represents the range to be printed.
+
+```javascript
+printArea : string;
+```
+
+
+### printTitleColumns {#printTitleColumns--}
+
+Represents the columns that contain the cells to be repeated on the left side of each page.
+
+```javascript
+printTitleColumns : string;
+```
+
+
+### printTitleRows {#printTitleRows--}
+
+Represents the rows that contain the cells to be repeated at the top of each page.
+
+```javascript
+printTitleRows : string;
+```
+
+
+### blackAndWhite {#blackAndWhite--}
+
+Represents if elements of the document will be printed in black and white.
+
+```javascript
+blackAndWhite : boolean;
+```
+
+
+### centerHorizontally {#centerHorizontally--}
+
+Represent if the sheet is printed centered horizontally.
+
+```javascript
+centerHorizontally : boolean;
+```
+
+
+### centerVertically {#centerVertically--}
+
+Represent if the sheet is printed centered vertically.
+
+```javascript
+centerVertically : boolean;
+```
+
+
+### printDraft {#printDraft--}
+
+Represents if the sheet will be printed without graphics.
+
+```javascript
+printDraft : boolean;
+```
+
+
+### footerMargin {#footerMargin--}
+
+Represents the distance from the bottom of the page to the footer, in unit of centimeters.
+
+```javascript
+footerMargin : number;
+```
+
+
+### footerMarginInch {#footerMarginInch--}
+
+Represents the distance from the bottom of the page to the footer, in unit of inches.
+
+```javascript
+footerMarginInch : number;
+```
+
+
+### headerMargin {#headerMargin--}
+
+Represents the distance from the top of the page to the header, in unit of centimeters.
+
+```javascript
+headerMargin : number;
+```
+
+
+### headerMarginInch {#headerMarginInch--}
+
+Represents the distance from the top of the page to the header, in unit of inches.
+
+```javascript
+headerMarginInch : number;
+```
+
+
+### printerSettings {#printerSettings--}
+
+Gets and sets the settings of the default printer.
+
+```javascript
+printerSettings : Uint8Array;
+```
+
+
+### leftMargin {#leftMargin--}
+
+Represents the size of the left margin, in unit of centimeters.
+
+```javascript
+leftMargin : number;
+```
+
+
+### leftMarginInch {#leftMarginInch--}
+
+Represents the size of the left margin, in unit of inches.
+
+```javascript
+leftMarginInch : number;
+```
+
+
+### rightMargin {#rightMargin--}
+
+Represents the size of the right margin, in unit of centimeters.
+
+```javascript
+rightMargin : number;
+```
+
+
+### rightMarginInch {#rightMarginInch--}
+
+Represents the size of the right margin, in unit of inches.
+
+```javascript
+rightMarginInch : number;
+```
+
+
+### topMargin {#topMargin--}
+
+Represents the size of the top margin, in unit of centimeters.
+
+```javascript
+topMargin : number;
+```
+
+
+### topMarginInch {#topMarginInch--}
+
+Represents the size of the top margin, in unit of inches.
+
+```javascript
+topMarginInch : number;
+```
+
+
+### bottomMargin {#bottomMargin--}
+
+Represents the size of the bottom margin, in unit of centimeters.
+
+```javascript
+bottomMargin : number;
+```
+
+
+### bottomMarginInch {#bottomMarginInch--}
+
+Represents the size of the bottom margin, in unit of inches.
+
+```javascript
+bottomMarginInch : number;
+```
+
+
+### firstPageNumber {#firstPageNumber--}
+
+Represents the first page number that will be used when this sheet is printed.
+
+```javascript
+firstPageNumber : number;
+```
+
+
+### fitToPagesTall {#fitToPagesTall--}
+
+Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
+
+```javascript
+fitToPagesTall : number;
+```
+
+
+**Remarks**
+
+You have to set FitToPagesWide as zero if you want to fit all rows on one page.
+
+### fitToPagesWide {#fitToPagesWide--}
+
+Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
+
+```javascript
+fitToPagesWide : number;
+```
+
+
+**Remarks**
+
+You have to set FitToPagesTall as zero if you want to fit all columns on one page.
+
+### isPercentScale {#isPercentScale--}
+
+If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
+
+```javascript
+isPercentScale : boolean;
+```
+
+
+### order {#order--}
+
+Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+
+```javascript
+order : PrintOrderType;
+```
+
+
+### isAutomaticPaperSize {#isAutomaticPaperSize--}
+
+Readonly. Indicates whether the paper size is automatic.
+
+```javascript
+isAutomaticPaperSize : boolean;
+```
+
+
+### paperSize {#paperSize--}
+
+Represents the size of the paper.
+
+```javascript
+paperSize : PaperSizeType;
+```
+
+
+### paperWidth {#paperWidth--}
+
+Readonly. Gets the width of the paper in unit of inches, considered page orientation.
+
+```javascript
+paperWidth : number;
+```
+
+
+### paperHeight {#paperHeight--}
+
+Readonly. Gets the height of the paper in unit of inches , considered page orientation.
+
+```javascript
+paperHeight : number;
+```
+
+
+### orientation {#orientation--}
+
+Represents page print orientation.
+
+```javascript
+orientation : PageOrientationType;
+```
+
+
+### printComments {#printComments--}
+
+Represents the way comments are printed with the sheet.
+
+```javascript
+printComments : PrintCommentsType;
+```
+
+
+### printErrors {#printErrors--}
+
+Specifies the type of print error displayed.
+
+```javascript
+printErrors : PrintErrorsType;
+```
+
+
+### printHeadings {#printHeadings--}
+
+Represents if row and column headings are printed with this page.
+
+```javascript
+printHeadings : boolean;
+```
+
+
+### printGridlines {#printGridlines--}
+
+Represents if cell gridlines are printed on the page.
+
+```javascript
+printGridlines : boolean;
+```
+
+
+### zoom {#zoom--}
+
+Represents the scaling factor in percent. It should be between 10 and 400.
+
+```javascript
+zoom : number;
+```
+
+
+### isAutoFirstPageNumber {#isAutoFirstPageNumber--}
+
+Indicates whether the first the page number is automatically assigned.
+
+```javascript
+isAutoFirstPageNumber : boolean;
+```
+
+
+### printQuality {#printQuality--}
+
+Represents the print quality.
+
+```javascript
+printQuality : number;
+```
+
+
+### printCopies {#printCopies--}
+
+Get and sets number of copies to print.
+
+```javascript
+printCopies : number;
+```
+
+
+### isHFDiffOddEven {#isHFDiffOddEven--}
+
+True means that the header/footer of the odd pages is different with odd pages.
+
+```javascript
+isHFDiffOddEven : boolean;
+```
+
+
+### isHFDiffFirst {#isHFDiffFirst--}
+
+True means that the header/footer of the first page is different with other pages.
+
+```javascript
+isHFDiffFirst : boolean;
+```
+
+
+### isHFScaleWithDoc {#isHFScaleWithDoc--}
+
+Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
+
+```javascript
+isHFScaleWithDoc : boolean;
+```
+
+
+### isHFAlignMargins {#isHFAlignMargins--}
+
+Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
+
+```javascript
+isHFAlignMargins : boolean;
+```
+
+
 ### getODSPageBackground() {#getODSPageBackground--}
 
-Gets the background of ODS.
+<b>@deprecated.</b> Please use the 'oDSPageBackground' property instead. Gets the background of ODS.
 
 ```javascript
 getODSPageBackground() : OdsPageBackground;
@@ -151,7 +594,7 @@ getODSPageBackground() : OdsPageBackground;
 
 ### getPrintArea() {#getPrintArea--}
 
-Represents the range to be printed.
+<b>@deprecated.</b> Please use the 'printArea' property instead. Represents the range to be printed.
 
 ```javascript
 getPrintArea() : string;
@@ -160,7 +603,7 @@ getPrintArea() : string;
 
 ### setPrintArea(string) {#setPrintArea-string-}
 
-Represents the range to be printed.
+<b>@deprecated.</b> Please use the 'printArea' property instead. Represents the range to be printed.
 
 ```javascript
 setPrintArea(value: string) : void;
@@ -173,7 +616,7 @@ setPrintArea(value: string) : void;
 
 ### getPrintTitleColumns() {#getPrintTitleColumns--}
 
-Represents the columns that contain the cells to be repeated on the left side of each page.
+<b>@deprecated.</b> Please use the 'printTitleColumns' property instead. Represents the columns that contain the cells to be repeated on the left side of each page.
 
 ```javascript
 getPrintTitleColumns() : string;
@@ -182,7 +625,7 @@ getPrintTitleColumns() : string;
 
 ### setPrintTitleColumns(string) {#setPrintTitleColumns-string-}
 
-Represents the columns that contain the cells to be repeated on the left side of each page.
+<b>@deprecated.</b> Please use the 'printTitleColumns' property instead. Represents the columns that contain the cells to be repeated on the left side of each page.
 
 ```javascript
 setPrintTitleColumns(value: string) : void;
@@ -195,7 +638,7 @@ setPrintTitleColumns(value: string) : void;
 
 ### getPrintTitleRows() {#getPrintTitleRows--}
 
-Represents the rows that contain the cells to be repeated at the top of each page.
+<b>@deprecated.</b> Please use the 'printTitleRows' property instead. Represents the rows that contain the cells to be repeated at the top of each page.
 
 ```javascript
 getPrintTitleRows() : string;
@@ -204,7 +647,7 @@ getPrintTitleRows() : string;
 
 ### setPrintTitleRows(string) {#setPrintTitleRows-string-}
 
-Represents the rows that contain the cells to be repeated at the top of each page.
+<b>@deprecated.</b> Please use the 'printTitleRows' property instead. Represents the rows that contain the cells to be repeated at the top of each page.
 
 ```javascript
 setPrintTitleRows(value: string) : void;
@@ -217,7 +660,7 @@ setPrintTitleRows(value: string) : void;
 
 ### getBlackAndWhite() {#getBlackAndWhite--}
 
-Represents if elements of the document will be printed in black and white.
+<b>@deprecated.</b> Please use the 'blackAndWhite' property instead. Represents if elements of the document will be printed in black and white.
 
 ```javascript
 getBlackAndWhite() : boolean;
@@ -226,7 +669,7 @@ getBlackAndWhite() : boolean;
 
 ### setBlackAndWhite(boolean) {#setBlackAndWhite-boolean-}
 
-Represents if elements of the document will be printed in black and white.
+<b>@deprecated.</b> Please use the 'blackAndWhite' property instead. Represents if elements of the document will be printed in black and white.
 
 ```javascript
 setBlackAndWhite(value: boolean) : void;
@@ -239,7 +682,7 @@ setBlackAndWhite(value: boolean) : void;
 
 ### getCenterHorizontally() {#getCenterHorizontally--}
 
-Represent if the sheet is printed centered horizontally.
+<b>@deprecated.</b> Please use the 'centerHorizontally' property instead. Represent if the sheet is printed centered horizontally.
 
 ```javascript
 getCenterHorizontally() : boolean;
@@ -248,7 +691,7 @@ getCenterHorizontally() : boolean;
 
 ### setCenterHorizontally(boolean) {#setCenterHorizontally-boolean-}
 
-Represent if the sheet is printed centered horizontally.
+<b>@deprecated.</b> Please use the 'centerHorizontally' property instead. Represent if the sheet is printed centered horizontally.
 
 ```javascript
 setCenterHorizontally(value: boolean) : void;
@@ -261,7 +704,7 @@ setCenterHorizontally(value: boolean) : void;
 
 ### getCenterVertically() {#getCenterVertically--}
 
-Represent if the sheet is printed centered vertically.
+<b>@deprecated.</b> Please use the 'centerVertically' property instead. Represent if the sheet is printed centered vertically.
 
 ```javascript
 getCenterVertically() : boolean;
@@ -270,7 +713,7 @@ getCenterVertically() : boolean;
 
 ### setCenterVertically(boolean) {#setCenterVertically-boolean-}
 
-Represent if the sheet is printed centered vertically.
+<b>@deprecated.</b> Please use the 'centerVertically' property instead. Represent if the sheet is printed centered vertically.
 
 ```javascript
 setCenterVertically(value: boolean) : void;
@@ -283,7 +726,7 @@ setCenterVertically(value: boolean) : void;
 
 ### getPrintDraft() {#getPrintDraft--}
 
-Represents if the sheet will be printed without graphics.
+<b>@deprecated.</b> Please use the 'printDraft' property instead. Represents if the sheet will be printed without graphics.
 
 ```javascript
 getPrintDraft() : boolean;
@@ -292,7 +735,7 @@ getPrintDraft() : boolean;
 
 ### setPrintDraft(boolean) {#setPrintDraft-boolean-}
 
-Represents if the sheet will be printed without graphics.
+<b>@deprecated.</b> Please use the 'printDraft' property instead. Represents if the sheet will be printed without graphics.
 
 ```javascript
 setPrintDraft(value: boolean) : void;
@@ -305,7 +748,7 @@ setPrintDraft(value: boolean) : void;
 
 ### getFooterMargin() {#getFooterMargin--}
 
-Represents the distance from the bottom of the page to the footer, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'footerMargin' property instead. Represents the distance from the bottom of the page to the footer, in unit of centimeters.
 
 ```javascript
 getFooterMargin() : number;
@@ -314,7 +757,7 @@ getFooterMargin() : number;
 
 ### setFooterMargin(number) {#setFooterMargin-number-}
 
-Represents the distance from the bottom of the page to the footer, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'footerMargin' property instead. Represents the distance from the bottom of the page to the footer, in unit of centimeters.
 
 ```javascript
 setFooterMargin(value: number) : void;
@@ -327,7 +770,7 @@ setFooterMargin(value: number) : void;
 
 ### getFooterMarginInch() {#getFooterMarginInch--}
 
-Represents the distance from the bottom of the page to the footer, in unit of inches.
+<b>@deprecated.</b> Please use the 'footerMarginInch' property instead. Represents the distance from the bottom of the page to the footer, in unit of inches.
 
 ```javascript
 getFooterMarginInch() : number;
@@ -336,7 +779,7 @@ getFooterMarginInch() : number;
 
 ### setFooterMarginInch(number) {#setFooterMarginInch-number-}
 
-Represents the distance from the bottom of the page to the footer, in unit of inches.
+<b>@deprecated.</b> Please use the 'footerMarginInch' property instead. Represents the distance from the bottom of the page to the footer, in unit of inches.
 
 ```javascript
 setFooterMarginInch(value: number) : void;
@@ -349,7 +792,7 @@ setFooterMarginInch(value: number) : void;
 
 ### getHeaderMargin() {#getHeaderMargin--}
 
-Represents the distance from the top of the page to the header, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'headerMargin' property instead. Represents the distance from the top of the page to the header, in unit of centimeters.
 
 ```javascript
 getHeaderMargin() : number;
@@ -358,7 +801,7 @@ getHeaderMargin() : number;
 
 ### setHeaderMargin(number) {#setHeaderMargin-number-}
 
-Represents the distance from the top of the page to the header, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'headerMargin' property instead. Represents the distance from the top of the page to the header, in unit of centimeters.
 
 ```javascript
 setHeaderMargin(value: number) : void;
@@ -371,7 +814,7 @@ setHeaderMargin(value: number) : void;
 
 ### getHeaderMarginInch() {#getHeaderMarginInch--}
 
-Represents the distance from the top of the page to the header, in unit of inches.
+<b>@deprecated.</b> Please use the 'headerMarginInch' property instead. Represents the distance from the top of the page to the header, in unit of inches.
 
 ```javascript
 getHeaderMarginInch() : number;
@@ -380,7 +823,7 @@ getHeaderMarginInch() : number;
 
 ### setHeaderMarginInch(number) {#setHeaderMarginInch-number-}
 
-Represents the distance from the top of the page to the header, in unit of inches.
+<b>@deprecated.</b> Please use the 'headerMarginInch' property instead. Represents the distance from the top of the page to the header, in unit of inches.
 
 ```javascript
 setHeaderMarginInch(value: number) : void;
@@ -393,7 +836,7 @@ setHeaderMarginInch(value: number) : void;
 
 ### getPrinterSettings() {#getPrinterSettings--}
 
-Gets and sets the settings of the default printer.
+<b>@deprecated.</b> Please use the 'printerSettings' property instead. Gets and sets the settings of the default printer.
 
 ```javascript
 getPrinterSettings() : Uint8Array;
@@ -402,7 +845,7 @@ getPrinterSettings() : Uint8Array;
 
 ### setPrinterSettings(Uint8Array) {#setPrinterSettings-uint8array-}
 
-Gets and sets the settings of the default printer.
+<b>@deprecated.</b> Please use the 'printerSettings' property instead. Gets and sets the settings of the default printer.
 
 ```javascript
 setPrinterSettings(value: Uint8Array) : void;
@@ -415,7 +858,7 @@ setPrinterSettings(value: Uint8Array) : void;
 
 ### getLeftMargin() {#getLeftMargin--}
 
-Represents the size of the left margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'leftMargin' property instead. Represents the size of the left margin, in unit of centimeters.
 
 ```javascript
 getLeftMargin() : number;
@@ -424,7 +867,7 @@ getLeftMargin() : number;
 
 ### setLeftMargin(number) {#setLeftMargin-number-}
 
-Represents the size of the left margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'leftMargin' property instead. Represents the size of the left margin, in unit of centimeters.
 
 ```javascript
 setLeftMargin(value: number) : void;
@@ -437,7 +880,7 @@ setLeftMargin(value: number) : void;
 
 ### getLeftMarginInch() {#getLeftMarginInch--}
 
-Represents the size of the left margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'leftMarginInch' property instead. Represents the size of the left margin, in unit of inches.
 
 ```javascript
 getLeftMarginInch() : number;
@@ -446,7 +889,7 @@ getLeftMarginInch() : number;
 
 ### setLeftMarginInch(number) {#setLeftMarginInch-number-}
 
-Represents the size of the left margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'leftMarginInch' property instead. Represents the size of the left margin, in unit of inches.
 
 ```javascript
 setLeftMarginInch(value: number) : void;
@@ -459,7 +902,7 @@ setLeftMarginInch(value: number) : void;
 
 ### getRightMargin() {#getRightMargin--}
 
-Represents the size of the right margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'rightMargin' property instead. Represents the size of the right margin, in unit of centimeters.
 
 ```javascript
 getRightMargin() : number;
@@ -468,7 +911,7 @@ getRightMargin() : number;
 
 ### setRightMargin(number) {#setRightMargin-number-}
 
-Represents the size of the right margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'rightMargin' property instead. Represents the size of the right margin, in unit of centimeters.
 
 ```javascript
 setRightMargin(value: number) : void;
@@ -481,7 +924,7 @@ setRightMargin(value: number) : void;
 
 ### getRightMarginInch() {#getRightMarginInch--}
 
-Represents the size of the right margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'rightMarginInch' property instead. Represents the size of the right margin, in unit of inches.
 
 ```javascript
 getRightMarginInch() : number;
@@ -490,7 +933,7 @@ getRightMarginInch() : number;
 
 ### setRightMarginInch(number) {#setRightMarginInch-number-}
 
-Represents the size of the right margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'rightMarginInch' property instead. Represents the size of the right margin, in unit of inches.
 
 ```javascript
 setRightMarginInch(value: number) : void;
@@ -503,7 +946,7 @@ setRightMarginInch(value: number) : void;
 
 ### getTopMargin() {#getTopMargin--}
 
-Represents the size of the top margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'topMargin' property instead. Represents the size of the top margin, in unit of centimeters.
 
 ```javascript
 getTopMargin() : number;
@@ -512,7 +955,7 @@ getTopMargin() : number;
 
 ### setTopMargin(number) {#setTopMargin-number-}
 
-Represents the size of the top margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'topMargin' property instead. Represents the size of the top margin, in unit of centimeters.
 
 ```javascript
 setTopMargin(value: number) : void;
@@ -525,7 +968,7 @@ setTopMargin(value: number) : void;
 
 ### getTopMarginInch() {#getTopMarginInch--}
 
-Represents the size of the top margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'topMarginInch' property instead. Represents the size of the top margin, in unit of inches.
 
 ```javascript
 getTopMarginInch() : number;
@@ -534,7 +977,7 @@ getTopMarginInch() : number;
 
 ### setTopMarginInch(number) {#setTopMarginInch-number-}
 
-Represents the size of the top margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'topMarginInch' property instead. Represents the size of the top margin, in unit of inches.
 
 ```javascript
 setTopMarginInch(value: number) : void;
@@ -547,7 +990,7 @@ setTopMarginInch(value: number) : void;
 
 ### getBottomMargin() {#getBottomMargin--}
 
-Represents the size of the bottom margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'bottomMargin' property instead. Represents the size of the bottom margin, in unit of centimeters.
 
 ```javascript
 getBottomMargin() : number;
@@ -556,7 +999,7 @@ getBottomMargin() : number;
 
 ### setBottomMargin(number) {#setBottomMargin-number-}
 
-Represents the size of the bottom margin, in unit of centimeters.
+<b>@deprecated.</b> Please use the 'bottomMargin' property instead. Represents the size of the bottom margin, in unit of centimeters.
 
 ```javascript
 setBottomMargin(value: number) : void;
@@ -569,7 +1012,7 @@ setBottomMargin(value: number) : void;
 
 ### getBottomMarginInch() {#getBottomMarginInch--}
 
-Represents the size of the bottom margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'bottomMarginInch' property instead. Represents the size of the bottom margin, in unit of inches.
 
 ```javascript
 getBottomMarginInch() : number;
@@ -578,7 +1021,7 @@ getBottomMarginInch() : number;
 
 ### setBottomMarginInch(number) {#setBottomMarginInch-number-}
 
-Represents the size of the bottom margin, in unit of inches.
+<b>@deprecated.</b> Please use the 'bottomMarginInch' property instead. Represents the size of the bottom margin, in unit of inches.
 
 ```javascript
 setBottomMarginInch(value: number) : void;
@@ -591,7 +1034,7 @@ setBottomMarginInch(value: number) : void;
 
 ### getFirstPageNumber() {#getFirstPageNumber--}
 
-Represents the first page number that will be used when this sheet is printed.
+<b>@deprecated.</b> Please use the 'firstPageNumber' property instead. Represents the first page number that will be used when this sheet is printed.
 
 ```javascript
 getFirstPageNumber() : number;
@@ -600,7 +1043,7 @@ getFirstPageNumber() : number;
 
 ### setFirstPageNumber(number) {#setFirstPageNumber-number-}
 
-Represents the first page number that will be used when this sheet is printed.
+<b>@deprecated.</b> Please use the 'firstPageNumber' property instead. Represents the first page number that will be used when this sheet is printed.
 
 ```javascript
 setFirstPageNumber(value: number) : void;
@@ -613,7 +1056,7 @@ setFirstPageNumber(value: number) : void;
 
 ### getFitToPagesTall() {#getFitToPagesTall--}
 
-Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
+<b>@deprecated.</b> Please use the 'fitToPagesTall' property instead. Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
 
 ```javascript
 getFitToPagesTall() : number;
@@ -626,7 +1069,7 @@ You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
 ### setFitToPagesTall(number) {#setFitToPagesTall-number-}
 
-Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
+<b>@deprecated.</b> Please use the 'fitToPagesTall' property instead. Represents  the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
 
 ```javascript
 setFitToPagesTall(value: number) : void;
@@ -643,7 +1086,7 @@ You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
 ### getFitToPagesWide() {#getFitToPagesWide--}
 
-Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
+<b>@deprecated.</b> Please use the 'fitToPagesWide' property instead. Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
 
 ```javascript
 getFitToPagesWide() : number;
@@ -656,7 +1099,7 @@ You have to set FitToPagesTall as zero if you want to fit all columns on one pag
 
 ### setFitToPagesWide(number) {#setFitToPagesWide-number-}
 
-Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
+<b>@deprecated.</b> Please use the 'fitToPagesWide' property instead. Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
 
 ```javascript
 setFitToPagesWide(value: number) : void;
@@ -673,7 +1116,7 @@ You have to set FitToPagesTall as zero if you want to fit all columns on one pag
 
 ### isPercentScale() {#isPercentScale--}
 
-If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
+<b>@deprecated.</b> Please use the 'isPercentScale' property instead. If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
 
 ```javascript
 isPercentScale() : boolean;
@@ -682,7 +1125,7 @@ isPercentScale() : boolean;
 
 ### setIsPercentScale(boolean) {#setIsPercentScale-boolean-}
 
-If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
+<b>@deprecated.</b> Please use the 'isPercentScale' property instead. If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
 
 ```javascript
 setIsPercentScale(value: boolean) : void;
@@ -695,7 +1138,7 @@ setIsPercentScale(value: boolean) : void;
 
 ### getOrder() {#getOrder--}
 
-Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+<b>@deprecated.</b> Please use the 'order' property instead. Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
 
 ```javascript
 getOrder() : PrintOrderType;
@@ -708,7 +1151,7 @@ getOrder() : PrintOrderType;
 
 ### setOrder(PrintOrderType) {#setOrder-printordertype-}
 
-Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+<b>@deprecated.</b> Please use the 'order' property instead. Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
 
 ```javascript
 setOrder(value: PrintOrderType) : void;
@@ -721,7 +1164,7 @@ setOrder(value: PrintOrderType) : void;
 
 ### isAutomaticPaperSize() {#isAutomaticPaperSize--}
 
-Indicates whether the paper size is automatic.
+<b>@deprecated.</b> Please use the 'isAutomaticPaperSize' property instead. Indicates whether the paper size is automatic.
 
 ```javascript
 isAutomaticPaperSize() : boolean;
@@ -730,7 +1173,7 @@ isAutomaticPaperSize() : boolean;
 
 ### getPaperSize() {#getPaperSize--}
 
-Represents the size of the paper.
+<b>@deprecated.</b> Please use the 'paperSize' property instead. Represents the size of the paper.
 
 ```javascript
 getPaperSize() : PaperSizeType;
@@ -743,7 +1186,7 @@ getPaperSize() : PaperSizeType;
 
 ### setPaperSize(PaperSizeType) {#setPaperSize-papersizetype-}
 
-Represents the size of the paper.
+<b>@deprecated.</b> Please use the 'paperSize' property instead. Represents the size of the paper.
 
 ```javascript
 setPaperSize(value: PaperSizeType) : void;
@@ -756,7 +1199,7 @@ setPaperSize(value: PaperSizeType) : void;
 
 ### getPaperWidth() {#getPaperWidth--}
 
-Gets the width of the paper in unit of inches, considered page orientation.
+<b>@deprecated.</b> Please use the 'paperWidth' property instead. Gets the width of the paper in unit of inches, considered page orientation.
 
 ```javascript
 getPaperWidth() : number;
@@ -765,7 +1208,7 @@ getPaperWidth() : number;
 
 ### getPaperHeight() {#getPaperHeight--}
 
-Gets the height of the paper in unit of inches , considered page orientation.
+<b>@deprecated.</b> Please use the 'paperHeight' property instead. Gets the height of the paper in unit of inches , considered page orientation.
 
 ```javascript
 getPaperHeight() : number;
@@ -774,7 +1217,7 @@ getPaperHeight() : number;
 
 ### getOrientation() {#getOrientation--}
 
-Represents page print orientation.
+<b>@deprecated.</b> Please use the 'orientation' property instead. Represents page print orientation.
 
 ```javascript
 getOrientation() : PageOrientationType;
@@ -787,7 +1230,7 @@ getOrientation() : PageOrientationType;
 
 ### setOrientation(PageOrientationType) {#setOrientation-pageorientationtype-}
 
-Represents page print orientation.
+<b>@deprecated.</b> Please use the 'orientation' property instead. Represents page print orientation.
 
 ```javascript
 setOrientation(value: PageOrientationType) : void;
@@ -800,7 +1243,7 @@ setOrientation(value: PageOrientationType) : void;
 
 ### getPrintComments() {#getPrintComments--}
 
-Represents the way comments are printed with the sheet.
+<b>@deprecated.</b> Please use the 'printComments' property instead. Represents the way comments are printed with the sheet.
 
 ```javascript
 getPrintComments() : PrintCommentsType;
@@ -813,7 +1256,7 @@ getPrintComments() : PrintCommentsType;
 
 ### setPrintComments(PrintCommentsType) {#setPrintComments-printcommentstype-}
 
-Represents the way comments are printed with the sheet.
+<b>@deprecated.</b> Please use the 'printComments' property instead. Represents the way comments are printed with the sheet.
 
 ```javascript
 setPrintComments(value: PrintCommentsType) : void;
@@ -826,7 +1269,7 @@ setPrintComments(value: PrintCommentsType) : void;
 
 ### getPrintErrors() {#getPrintErrors--}
 
-Specifies the type of print error displayed.
+<b>@deprecated.</b> Please use the 'printErrors' property instead. Specifies the type of print error displayed.
 
 ```javascript
 getPrintErrors() : PrintErrorsType;
@@ -839,7 +1282,7 @@ getPrintErrors() : PrintErrorsType;
 
 ### setPrintErrors(PrintErrorsType) {#setPrintErrors-printerrorstype-}
 
-Specifies the type of print error displayed.
+<b>@deprecated.</b> Please use the 'printErrors' property instead. Specifies the type of print error displayed.
 
 ```javascript
 setPrintErrors(value: PrintErrorsType) : void;
@@ -852,7 +1295,7 @@ setPrintErrors(value: PrintErrorsType) : void;
 
 ### getPrintHeadings() {#getPrintHeadings--}
 
-Represents if row and column headings are printed with this page.
+<b>@deprecated.</b> Please use the 'printHeadings' property instead. Represents if row and column headings are printed with this page.
 
 ```javascript
 getPrintHeadings() : boolean;
@@ -861,7 +1304,7 @@ getPrintHeadings() : boolean;
 
 ### setPrintHeadings(boolean) {#setPrintHeadings-boolean-}
 
-Represents if row and column headings are printed with this page.
+<b>@deprecated.</b> Please use the 'printHeadings' property instead. Represents if row and column headings are printed with this page.
 
 ```javascript
 setPrintHeadings(value: boolean) : void;
@@ -874,7 +1317,7 @@ setPrintHeadings(value: boolean) : void;
 
 ### getPrintGridlines() {#getPrintGridlines--}
 
-Represents if cell gridlines are printed on the page.
+<b>@deprecated.</b> Please use the 'printGridlines' property instead. Represents if cell gridlines are printed on the page.
 
 ```javascript
 getPrintGridlines() : boolean;
@@ -883,7 +1326,7 @@ getPrintGridlines() : boolean;
 
 ### setPrintGridlines(boolean) {#setPrintGridlines-boolean-}
 
-Represents if cell gridlines are printed on the page.
+<b>@deprecated.</b> Please use the 'printGridlines' property instead. Represents if cell gridlines are printed on the page.
 
 ```javascript
 setPrintGridlines(value: boolean) : void;
@@ -896,7 +1339,7 @@ setPrintGridlines(value: boolean) : void;
 
 ### getZoom() {#getZoom--}
 
-Represents the scaling factor in percent. It should be between 10 and 400.
+<b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percent. It should be between 10 and 400.
 
 ```javascript
 getZoom() : number;
@@ -905,7 +1348,7 @@ getZoom() : number;
 
 ### setZoom(number) {#setZoom-number-}
 
-Represents the scaling factor in percent. It should be between 10 and 400.
+<b>@deprecated.</b> Please use the 'zoom' property instead. Represents the scaling factor in percent. It should be between 10 and 400.
 
 ```javascript
 setZoom(value: number) : void;
@@ -918,7 +1361,7 @@ setZoom(value: number) : void;
 
 ### isAutoFirstPageNumber() {#isAutoFirstPageNumber--}
 
-Indicates whether the first the page number is automatically assigned.
+<b>@deprecated.</b> Please use the 'isAutoFirstPageNumber' property instead. Indicates whether the first the page number is automatically assigned.
 
 ```javascript
 isAutoFirstPageNumber() : boolean;
@@ -927,7 +1370,7 @@ isAutoFirstPageNumber() : boolean;
 
 ### setIsAutoFirstPageNumber(boolean) {#setIsAutoFirstPageNumber-boolean-}
 
-Indicates whether the first the page number is automatically assigned.
+<b>@deprecated.</b> Please use the 'isAutoFirstPageNumber' property instead. Indicates whether the first the page number is automatically assigned.
 
 ```javascript
 setIsAutoFirstPageNumber(value: boolean) : void;
@@ -940,7 +1383,7 @@ setIsAutoFirstPageNumber(value: boolean) : void;
 
 ### getPrintQuality() {#getPrintQuality--}
 
-Represents the print quality.
+<b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality.
 
 ```javascript
 getPrintQuality() : number;
@@ -949,7 +1392,7 @@ getPrintQuality() : number;
 
 ### setPrintQuality(number) {#setPrintQuality-number-}
 
-Represents the print quality.
+<b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality.
 
 ```javascript
 setPrintQuality(value: number) : void;
@@ -962,7 +1405,7 @@ setPrintQuality(value: number) : void;
 
 ### getPrintCopies() {#getPrintCopies--}
 
-Get and sets number of copies to print.
+<b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print.
 
 ```javascript
 getPrintCopies() : number;
@@ -971,7 +1414,7 @@ getPrintCopies() : number;
 
 ### setPrintCopies(number) {#setPrintCopies-number-}
 
-Get and sets number of copies to print.
+<b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print.
 
 ```javascript
 setPrintCopies(value: number) : void;
@@ -984,7 +1427,7 @@ setPrintCopies(value: number) : void;
 
 ### isHFDiffOddEven() {#isHFDiffOddEven--}
 
-True means that the header/footer of the odd pages is different with odd pages.
+<b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages.
 
 ```javascript
 isHFDiffOddEven() : boolean;
@@ -993,7 +1436,7 @@ isHFDiffOddEven() : boolean;
 
 ### setIsHFDiffOddEven(boolean) {#setIsHFDiffOddEven-boolean-}
 
-True means that the header/footer of the odd pages is different with odd pages.
+<b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages.
 
 ```javascript
 setIsHFDiffOddEven(value: boolean) : void;
@@ -1006,7 +1449,7 @@ setIsHFDiffOddEven(value: boolean) : void;
 
 ### isHFDiffFirst() {#isHFDiffFirst--}
 
-True means that the header/footer of the first page is different with other pages.
+<b>@deprecated.</b> Please use the 'isHFDiffFirst' property instead. True means that the header/footer of the first page is different with other pages.
 
 ```javascript
 isHFDiffFirst() : boolean;
@@ -1015,7 +1458,7 @@ isHFDiffFirst() : boolean;
 
 ### setIsHFDiffFirst(boolean) {#setIsHFDiffFirst-boolean-}
 
-True means that the header/footer of the first page is different with other pages.
+<b>@deprecated.</b> Please use the 'isHFDiffFirst' property instead. True means that the header/footer of the first page is different with other pages.
 
 ```javascript
 setIsHFDiffFirst(value: boolean) : void;
@@ -1028,7 +1471,7 @@ setIsHFDiffFirst(value: boolean) : void;
 
 ### isHFScaleWithDoc() {#isHFScaleWithDoc--}
 
-Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
+<b>@deprecated.</b> Please use the 'isHFScaleWithDoc' property instead. Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
 
 ```javascript
 isHFScaleWithDoc() : boolean;
@@ -1037,7 +1480,7 @@ isHFScaleWithDoc() : boolean;
 
 ### setIsHFScaleWithDoc(boolean) {#setIsHFScaleWithDoc-boolean-}
 
-Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
+<b>@deprecated.</b> Please use the 'isHFScaleWithDoc' property instead. Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
 
 ```javascript
 setIsHFScaleWithDoc(value: boolean) : void;
@@ -1050,7 +1493,7 @@ setIsHFScaleWithDoc(value: boolean) : void;
 
 ### isHFAlignMargins() {#isHFAlignMargins--}
 
-Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
+<b>@deprecated.</b> Please use the 'isHFAlignMargins' property instead. Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
 
 ```javascript
 isHFAlignMargins() : boolean;
@@ -1059,7 +1502,7 @@ isHFAlignMargins() : boolean;
 
 ### setIsHFAlignMargins(boolean) {#setIsHFAlignMargins-boolean-}
 
-Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
+<b>@deprecated.</b> Please use the 'isHFAlignMargins' property instead. Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
 
 ```javascript
 setIsHFAlignMargins(value: boolean) : void;

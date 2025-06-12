@@ -16,9 +16,29 @@ public int Height { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-comment1.Height = 10;
+namespace AsposeCellsExamples
+{
+    public class CommentPropertyHeightDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            comment.Note = "Sample comment";
+            
+            // Demonstrate Height property
+            comment.Height = 100;
+            
+            Console.WriteLine("Comment height set to: " + comment.Height);
+        }
+    }
+}
 ```
 
 ### See Also

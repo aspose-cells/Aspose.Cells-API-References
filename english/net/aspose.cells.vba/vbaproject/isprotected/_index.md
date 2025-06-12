@@ -16,24 +16,35 @@ public bool IsProtected { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(vbaProject.IsProtected);
-public void VbaProject_Property_IsProtected()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "Vba/";
-    Workbook wb = new Workbook(path + "load.xlsm");
-    VbaProject vbaProject = wb.VbaProject;
-    Assert.IsFalse(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
+    public class VbaProjectPropertyIsProtectedDemo
+    {
+        public static void Run()
+        {
+            // Load a sample Excel file with unprotected VBA project
+            Workbook wb = new Workbook("load.xlsm");
+            VbaProject vbaProject = wb.VbaProject;
+            Console.WriteLine("Is VBA Project Protected (load.xlsm): " + vbaProject.IsProtected);
+            Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IslockedForViewing);
 
-    wb = new Workbook(path + "load_protected.xlsm");
-    vbaProject = wb.VbaProject;
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsFalse(vbaProject.IslockedForViewing);
+            // Load a sample Excel file with protected VBA project
+            wb = new Workbook("load_protected.xlsm");
+            vbaProject = wb.VbaProject;
+            Console.WriteLine("Is VBA Project Protected (load_protected.xlsm): " + vbaProject.IsProtected);
+            Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IslockedForViewing);
 
-    wb = new Workbook(path + "load_protected_lockedForView.xlsm");
-    vbaProject = wb.VbaProject;
-    Assert.IsTrue(vbaProject.IsProtected);
-    Assert.IsTrue(vbaProject.IslockedForViewing);
+            // Load a sample Excel file with protected and locked VBA project
+            wb = new Workbook("load_protected_lockedForView.xlsm");
+            vbaProject = wb.VbaProject;
+            Console.WriteLine("Is VBA Project Protected (load_protected_lockedForView.xlsm): " + vbaProject.IsProtected);
+            Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IslockedForViewing);
+        }
+    }
 }
 ```
 

@@ -20,40 +20,50 @@ It should be between 1 and 48. Return -1 if it's not be set.
 ### Examples
 
 ```csharp
-// Called: ch.Style = sh.Charts[0].Style;
-         //http://www.aspose.com/community/forums/thread/344750/copying-charts.aspx
-         public void Chart_Property_Style()
-         {
-             Console.WriteLine("testCELLSNET_40128()");
-             string infn = path + @"example.xlsx";
-             string outfn = destpath + @"example.png";
-             string outfn1 = destpath + @"example.xlsx";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-             Workbook wb1 = new Workbook(infn);
-             Workbook wb2 = new Workbook();
-             Worksheet sh = wb1.Worksheets["Sheet1"];
-             wb2.Worksheets.Add();
-             wb2.Worksheets[0].Copy(sh);
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-             sh = wb1.Worksheets["Chart1"];
-             wb2.Worksheets.Add();
-             Int32 i = 1;
-             wb2.Worksheets[i].Copy(sh);
-             Aspose.Cells.Charts.Chart ch = wb2.Worksheets[i].Charts[0];
-             ch.NSeries.Clear();
-             ch.NSeries.Add("Sheet1!B2:C3", false);
-             ch.NSeries.CategoryData = "Sheet1!B1:C1";
-             ch.Style = sh.Charts[0].Style;
-             for (int j = 0; j < ch.NSeries.Count; j++)
-             {
-                 ch.NSeries[j].Name = "=Sheet1!" + CellsHelper.CellIndexToName(1 + j, 0);
-             }
-             wb2.Save(outfn1);
-             wb2.Worksheets[1].Charts[0].ToImage(outfn);
-#if WTEST
-             Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
-#endif
-         }
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart1 = worksheet.Charts[chartIndex];
+            chart1.NSeries.Add("B2:B4", false);
+            chart1.NSeries.CategoryData = "A2:A4";
+
+            // Create another chart and copy the style from first chart
+            chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 10, 20, 18);
+            Aspose.Cells.Charts.Chart chart2 = worksheet.Charts[chartIndex];
+            chart2.NSeries.Add("B2:B4", false);
+            chart2.NSeries.CategoryData = "A2:A4";
+            
+            // Demonstrate Style property usage
+            chart2.Style = chart1.Style;
+
+            // Save the workbook
+            workbook.Save("ChartStyleDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

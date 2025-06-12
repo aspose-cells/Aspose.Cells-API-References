@@ -30,10 +30,34 @@ A ListBox object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a list box
-ListBox listBox = shapes.AddListBox(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddListBoxWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a list box to the worksheet
+            Aspose.Cells.Drawing.ListBox listBox = worksheet.Shapes.AddListBox(1, 0, 1, 0, 100, 50);
+
+            // Add items to the list box
+            listBox.SetInputRange("A1:A3", false, false);
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+
+            // Save the workbook
+            workbook.Save("ListBoxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

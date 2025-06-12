@@ -49,80 +49,60 @@ public class FormatCondition
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Adds an empty conditional formatting
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- 
-//Sets the conditional format range.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
- 
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
- 
-//Adds condition.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
- 
-//Adds condition.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
- 
-//Sets the background color.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
- 
-//Saving the Excel file
-workbook.Save("output.xls");
+    public class FormatConditionDemo
+    {
+        public static void FormatConditionExample()
+        {
+            // Create a new Workbook.
+            Workbook workbook = new Workbook();
 
-[VB.NET]
+            // Get the first worksheet.
+            Worksheet sheet = workbook.Worksheets[0];
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-' Adds an empty conditional formatting
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
- 
-'Sets the conditional format range.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
- 
-'Adds condition.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
- 
-'Adds condition.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
- 
-'Sets the background color.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
- 
-'Saving the Excel file
-workbook.Save("output.xls")
+            // Adds an empty conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 10,
+                StartColumn = 0,
+                EndColumn = 10
+            };
+            fcs.AddArea(ca);
+
+            // Adds condition.
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            FormatCondition fc = fcs[conditionIndex];
+
+            // Setting properties
+            fc.Formula1 = "=A2";
+            fc.Formula2 = "100";
+            fc.Operator = OperatorType.Between;
+            fc.StopIfTrue = true;
+            fc.Priority = 1;
+            fc.Style.BackgroundColor = Color.Red;
+            fc.Type = FormatConditionType.CellValue;
+
+            // Demonstrating other properties
+            fc.Text = "Sample Text";
+            fc.TimePeriod = TimePeriodType.Today;
+
+            // Saving the Excel file
+            workbook.Save("FormatConditionExample.xlsx");
+            workbook.Save("FormatConditionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

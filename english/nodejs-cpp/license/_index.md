@@ -21,7 +21,7 @@ license.setLicense("input/Aspose.Cells.lic");
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Initializes a new instance of this class. |
 

@@ -21,24 +21,35 @@ public void Copy(Picture source, CopyOptions options)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//insert first picture
-int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
-//Get the inserted picture object
-Picture pic1 = worksheet.Pictures[imgIndex1];
-//insert second picture
-int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
-//Get the inserted picture object
-Picture pic2 = worksheet.Pictures[imgIndex2];
-//Copy picture 1 to picture 2.You'll get two picture 1 objects that are superimposed on top of each other.
-CopyOptions opt = new CopyOptions();
-pic2.Copy(pic1, opt);
-//Save the excel file.
-workbook.Save("result.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PictureMethodCopyWithPictureCopyOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Insert first picture (using a sample image path)
+            int imgIndex1 = worksheet.Pictures.Add(1, 1, "sample1.png");
+            Picture pic1 = worksheet.Pictures[imgIndex1];
+            
+            // Insert second picture (using a sample image path)
+            int imgIndex2 = worksheet.Pictures.Add(1, 9, "sample2.jpg");
+            Picture pic2 = worksheet.Pictures[imgIndex2];
+            
+            // Copy picture 1 to picture 2 with CopyOptions
+            CopyOptions options = new CopyOptions();
+            pic2.Copy(pic1, options);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

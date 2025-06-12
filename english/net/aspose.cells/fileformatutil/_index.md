@@ -33,13 +33,26 @@ public class FileFormatUtil
 ### Examples
 
 ```csharp
-// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlt");
-public void Cells_Type_FileFormatUtil()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlt");
-    Assert.AreEqual(FileFormatType.Xlt, info.FileFormatType);
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlt");
-    Assert.AreEqual(FileFormatType.Xlt, workbook.FileFormat);
+    public class CellsClassFileFormatUtilDemo
+    {
+        public static void Run()
+        {
+            string filePath = "example.xlt";
+            
+            // Detect file format
+            FileFormatInfo info = FileFormatUtil.DetectFileFormat(filePath);
+            Console.WriteLine("Detected file format: " + info.FileFormatType);
+            
+            // Verify file format with Workbook
+            Workbook workbook = new Workbook(filePath);
+            Console.WriteLine("Workbook file format: " + workbook.FileFormat);
+        }
+    }
 }
 ```
 

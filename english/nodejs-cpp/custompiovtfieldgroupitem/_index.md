@@ -17,7 +17,7 @@ class CustomPiovtFieldGroupItem;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(string, number[])](#constructor-string-numberarray-)| The constructor of custom group item of pivot field. |
 

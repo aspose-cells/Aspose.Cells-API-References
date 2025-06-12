@@ -21,11 +21,25 @@ public void CustomPaperSize(double width, double height)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
-public void PageSetup_Method_CustomPaperSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
+    public class PageSetupMethodCustomPaperSizeWithDoubleDoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set custom paper size (width: 1.5 inches, height: 1.5 inches)
+            worksheet.PageSetup.CustomPaperSize(1.5, 1.5);
+            
+            // Save the workbook to demonstrate the effect
+            workbook.Save("CustomPaperSizeDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,31 +16,45 @@ public bool HasHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.HasHeaderRow = false;
-public void JsonSaveOptions_Property_HasHeaderRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    public class JsonSaveOptionsPropertyHasHeaderRowDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add header row
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            
+            // Add data rows
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
 
+            // Create range (A1:B3)
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 0, 3, 2);
 
-    int firstRow = 0;
-    int firstCol = 0;
-    int lastRow = 3;
-    int lastCol = 2;
+            // Export to JSON with HasHeaderRow = true (default)
+            JsonSaveOptions options1 = new JsonSaveOptions();
+            options1.HasHeaderRow = true;
+            string jsonWithHeaders = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options1);
+            Console.WriteLine("JSON with headers:\n" + jsonWithHeaders);
 
-    // Calculate Total Rows / Columns 
-    int totalRows = lastRow - firstRow;
-    int totalCols = lastCol - firstCol;
-
-    Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
-    options.ExportEmptyCells = true;
-    options.HasHeaderRow = false;
-    options.ExportNestedStructure = false;
-
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
-    string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
-   Assert.IsTrue(output.IndexOf("{") == -1);
+            // Export to JSON with HasHeaderRow = false
+            JsonSaveOptions options2 = new JsonSaveOptions();
+            options2.HasHeaderRow = false;
+            string jsonWithoutHeaders = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options2);
+            Console.WriteLine("\nJSON without headers:\n" + jsonWithoutHeaders);
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: AsInt32
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::AsInt32 method. Converts the object to an int32_t value, if object is number type in C++.'
 type: docs
-weight: 2700
+weight: 3100
 url: /cpp/aspose.cells/object/asint32/
 ---
 ## Object::AsInt32 method

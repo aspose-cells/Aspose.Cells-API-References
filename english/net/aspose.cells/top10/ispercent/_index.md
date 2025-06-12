@@ -16,44 +16,48 @@ public bool IsPercent { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + ".Top10.IsPercent");
-public static void Top10_Property_IsPercent(FormatCondition formatSrc, FormatCondition formatDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class Top10PropertyIsPercentDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(formatSrc, formatDest, info))
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int i = 0; i < 10; i++)
             {
-                return;
+                worksheet.Cells[i, 0].PutValue(i + 1);
             }
-            AssertHelper.AreEqual(formatSrc.Type, formatDest.Type, info + ".Type");
-            AssertHelper.AreEqual(formatSrc.Operator, formatDest.Operator, info + ".Operator");
-            AssertHelper.AreEqual(formatSrc.Style, formatDest.Style, info + ".Style");
 
-            switch (formatSrc.Type)
-            {
-                case FormatConditionType.AboveAverage:
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsAboveAverage, formatDest.AboveAverage.IsAboveAverage, info + ".AboveAverage.IsAboveAverage");
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsEqualAverage, formatDest.AboveAverage.IsEqualAverage, info + ".AboveAverage.IsEqualAverage");
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.StdDev, formatDest.AboveAverage.StdDev, info + ".AboveAverage.StdDev");
-                    break;
-                case FormatConditionType.ColorScale:
-                    equals(formatSrc.ColorScale, formatDest.ColorScale, info + ".ColorScale");
-                    break;
-                case FormatConditionType.DataBar:
-                    equals(formatSrc.DataBar, formatDest.DataBar, info + ".DataBar");
-                    break;
-                case FormatConditionType.IconSet:
-                    equals(formatSrc.IconSet, formatDest.IconSet, info + ".IconSet");
-                    break;
-                case FormatConditionType.TimePeriod:
-                    AssertHelper.AreEqual(formatSrc.TimePeriod, formatDest.TimePeriod, info + ".TimePeriod");
-                    break;
-                case FormatConditionType.Top10:
-                    AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + ".Top10.IsBottom");
-                    AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + ".Top10.IsPercent");
-                    AssertHelper.AreEqual(formatSrc.Top10.Rank, formatDest.Top10.Rank, info + ".Top10.Rank");
-                    break;               
-            }            
+            // Add a Top10 conditional formatting rule
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            fcc.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);
 
+            // Get the Top10 format condition
+            FormatCondition fc = fcc[0];
+            
+            // Set Top10 properties
+            fc.Top10.IsPercent = true;  // Demonstrate IsPercent property
+            fc.Top10.IsBottom = false;
+            fc.Top10.Rank = 3;
+
+            // Apply formatting style
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            fc.Style = style;
+
+            // Save the workbook
+            workbook.Save("Top10IsPercentDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

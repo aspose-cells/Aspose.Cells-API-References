@@ -16,14 +16,40 @@ public TextDirectionType TextDirection { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(TextDirectionType.RightToLeft, cells[2, 0].GetStyle().TextDirection, caseName);
-private void Style_Property_TextDirection(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyTextDirectionDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
-            testAreEqual(TextDirectionType.LeftToRight, cells[1, 0].GetStyle().TextDirection, caseName);
-            testAreEqual(TextDirectionType.RightToLeft, cells[2, 0].GetStyle().TextDirection, caseName);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set different text directions
+            Style style1 = cells["A1"].GetStyle();
+            style1.TextDirection = TextDirectionType.Context;
+            cells["A1"].SetStyle(style1);
+            cells["A1"].PutValue("Context Direction");
+
+            Style style2 = cells["A2"].GetStyle();
+            style2.TextDirection = TextDirectionType.LeftToRight;
+            cells["A2"].SetStyle(style2);
+            cells["A2"].PutValue("LeftToRight Direction");
+
+            Style style3 = cells["A3"].GetStyle();
+            style3.TextDirection = TextDirectionType.RightToLeft;
+            cells["A3"].SetStyle(style3);
+            cells["A3"].PutValue("RightToLeft Direction");
+
+            // Save the workbook
+            workbook.Save("TextDirectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

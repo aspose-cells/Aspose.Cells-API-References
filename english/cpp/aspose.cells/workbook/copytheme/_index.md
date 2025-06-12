@@ -4,7 +4,7 @@ linktitle: CopyTheme
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CopyTheme method. Copies the theme from another workbook in C++.'
 type: docs
-weight: 5300
+weight: 5400
 url: /cpp/aspose.cells/workbook/copytheme/
 ---
 ## Workbook::CopyTheme method

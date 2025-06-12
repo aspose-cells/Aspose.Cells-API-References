@@ -35,20 +35,54 @@ public class ExternalLinkCollection : IEnumerable
 ### Examples
 
 ```csharp
-[C#]
-//Open a file with external links
-Workbook workbook = new Workbook("book1.xls");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-//Change external link data source
-workbook.Worksheets.ExternalLinks[0].DataSource = "d:\\link.xls";
+    public class ExternalLinkCollectionDemo
+    {
+        public static void ExternalLinkCollectionExample()
+        {
+            // Open a file with external links
+            Workbook workbook = new Workbook("ExternalLinkCollectionExample_original.xlsx");
 
+            // Get the external links collection
+            ExternalLinkCollection externalLinks = workbook.Worksheets.ExternalLinks;
 
-[Visual Basic]
-'Open a file with external links
-Dim workbook As Workbook =  New Workbook("book1.xls")
+            // Display the count of external links
+            Console.WriteLine("Number of external links: " + externalLinks.Count);
 
-'Change external link data source
-workbook.Worksheets.ExternalLinks(0).DataSource = "d:\\link.xls"
+            // Iterate through the external links and display their data sources
+            for (int i = 0; i < externalLinks.Count; i++)
+            {
+                ExternalLink link = externalLinks[i];
+                Console.WriteLine("External Link " + i + " Data Source: " + link.DataSource);
+            }
+
+            // Add a new external link
+            int newLinkIndex = externalLinks.Add("newLink.xls", new[] { "Sheet1" });
+            Console.WriteLine("Added new external link at index: " + newLinkIndex);
+
+            // Change the data source of the first external link
+            if (externalLinks.Count > 0)
+            {
+                externalLinks[0].DataSource = "d:\\link.xlsx";
+                Console.WriteLine("Updated data source of the first external link.");
+            }
+
+            // Save the workbook
+            workbook.Save("ExternalLinkCollectionExample.xlsx");
+
+            // Clear all external links
+            externalLinks.Clear();
+            Console.WriteLine("Cleared all external links.");
+
+            // Save the workbook after clearing external links
+            workbook.Save("ExternalLinkCollectionExample2.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

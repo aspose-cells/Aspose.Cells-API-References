@@ -16,13 +16,36 @@ public int SheetIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
-public void Name_Property_SheetIndex()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xls");
-    Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class NamePropertySheetIndexDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
+
+            // Create a named range in Sheet2
+            Worksheet sheet2 = workbook.Worksheets["Sheet2"];
+            int index = workbook.Worksheets.Names.Add("MyNamedRange");
+            Name name = workbook.Worksheets.Names[index];
+            name.RefersTo = "=Sheet2!$A$1:$B$10";
+            
+            // Display the sheet index of the named range
+            Console.WriteLine("Sheet index of named range: " + name.SheetIndex);
+            
+            // Save the workbook
+            workbook.Save("NamedRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

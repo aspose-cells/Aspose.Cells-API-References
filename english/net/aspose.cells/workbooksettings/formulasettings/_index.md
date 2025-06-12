@@ -16,14 +16,31 @@ public FormulaSettings FormulaSettings { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, "Copied CalcMode");
-public void WorkbookSettings_Property_FormulaSettings()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
-    Workbook wb1 = new Workbook();
-    wb1.Copy(wb);
-    Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, "Copied CalcMode");
+    public class WorkbookSettingsPropertyFormulaSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access and modify FormulaSettings
+            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 100;
+            workbook.Settings.FormulaSettings.MaxChange = 0.001;
+
+            // Display the settings
+            Console.WriteLine("Calculation Mode: " + workbook.Settings.FormulaSettings.CalculationMode);
+            Console.WriteLine("Iterative Calculation Enabled: " + workbook.Settings.FormulaSettings.EnableIterativeCalculation);
+            Console.WriteLine("Max Iterations: " + workbook.Settings.FormulaSettings.MaxIteration);
+            Console.WriteLine("Max Change: " + workbook.Settings.FormulaSettings.MaxChange);
+        }
+    }
 }
 ```
 

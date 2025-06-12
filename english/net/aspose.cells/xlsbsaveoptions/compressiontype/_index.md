@@ -20,34 +20,28 @@ The default value is OoxmlCompressionType.Level6.
 ### Examples
 
 ```csharp
-// Called: CompressionType = OoxmlCompressionType.Level6,
-public static void XlsbSaveOptions_Property_CompressionType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XlsbSaveOptionsPropertyCompressionTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Hello World");
+            worksheet.Cells["A1"].PutValue("Compression Test");
 
-            // Create an instance of XlsbSaveOptions
             XlsbSaveOptions saveOptions = new XlsbSaveOptions
             {
-                CompressionType = OoxmlCompressionType.Level6,
-                ExportAllColumnIndexes = true,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
+                CompressionType = OoxmlCompressionType.Level6
             };
 
-            // Save the workbook as XLSB file with the specified options
-            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
-
-            return;
+            workbook.Save("XlsbWithCompression.xlsb", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

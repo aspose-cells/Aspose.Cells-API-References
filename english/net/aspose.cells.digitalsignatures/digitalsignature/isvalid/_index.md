@@ -16,16 +16,55 @@ public bool IsValid { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(sign.IsValid);
-public void DigitalSignature_Property_IsValid()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+using System.IO;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(dir + "example.xlsx");
-
-    DigitalSignatureCollection signs = wb.GetDigitalSignature();
-
-    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
+    public class DigitalSignaturePropertyIsValidDemo
     {
-        Assert.IsTrue(sign.IsValid);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some data to the worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Digital Signature");
+            
+            // Save the workbook first
+            string outputPath = "signed_example.xlsx";
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+
+            // Create a digital signature collection
+            DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+            
+            // Create a digital signature (in real scenario, use proper certificate)
+            // First parameter should be byte[] of certificate data
+            byte[] certificateData = File.ReadAllBytes("test.pfx");
+            DigitalSignature signature = new DigitalSignature(
+                certificateData, 
+                "test123", 
+                "Test Signature", 
+                DateTime.Now);
+                
+            signatures.Add(signature);
+            
+            // Sign the workbook
+            workbook.SetDigitalSignature(signatures);
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+
+            // Verify the signature
+            Workbook signedWorkbook = new Workbook(outputPath);
+            DigitalSignatureCollection loadedSignatures = signedWorkbook.GetDigitalSignature();
+            
+            foreach (DigitalSignature sig in loadedSignatures)
+            {
+                Console.WriteLine("Signature is valid: " + sig.IsValid);
+            }
+        }
     }
 }
 ```

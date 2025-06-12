@@ -16,25 +16,43 @@ public SlicerCollection Slicers { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Slicers.Add(listObject, listObject.ListColumns[0], 7, 8);
-public void Worksheet_Property_Slicers()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET47524_";
-    string savePath = CreateFolder(filePath);
+    public class WorksheetPropertySlicersDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(filePath + "Table.xlsx");
-    Worksheet sheet = wb.Worksheets[0];
-    ListObject listObject = sheet.ListObjects[0];
+            // Create sample data for the table
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(30);
 
-    sheet.Slicers.Add(listObject, listObject.ListColumns[0], 7, 8);
-    sheet.Slicers.Add(listObject, 1, "B11");
-    sheet.Slicers.Add(listObject, listObject.ListColumns[2], "E16");
-    Assert.AreEqual(sheet.Slicers.Count, 3);
-    wb.Save(savePath + "out.xlsx");
-    wb.Save(savePath + "out.xlsb");
+            // Add a table
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 3, 1, true);
+            ListObject table = worksheet.ListObjects[tableIndex];
 
-    Workbook wb2 = new Workbook(savePath + "out.xlsx");
-    Assert.AreEqual(wb2.Worksheets[0].Slicers.Count, 3);
+            // Add slicers to the worksheet
+            worksheet.Slicers.Add(table, table.ListColumns[0], 1, 3);
+            worksheet.Slicers.Add(table, 1, "D1");
+            worksheet.Slicers.Add(table, table.ListColumns[0], "G1");
+
+            // Save the workbook
+            workbook.Save("SlicersDemo.xlsx");
+        }
+    }
 }
 ```
 

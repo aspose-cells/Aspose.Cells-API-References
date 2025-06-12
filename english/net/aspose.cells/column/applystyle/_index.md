@@ -21,32 +21,34 @@ public void ApplyStyle(Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
-public void Column_Method_ApplyStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(); // Creating a Workbook object
+    public class ColumnMethodApplyStyleWithStyleStyleFlagDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Worksheet sheet = workbook.Worksheets[0];
+            // Set multi-line text in column 2
+            sheet.Cells[0, 1].Value = "Line1\nLine2";
+            sheet.Cells[1, 1].Value = "Text with\nmultiple lines";
+            sheet.Cells[2, 1].Value = "Another\nmulti-line\ntext";
 
-    sheet.Cells[2, 2].Value = "Use";
-    sheet.Cells[2, 2].Value += "\n with word wrap on to create a new line";
+            // Create style with wrap text enabled
+            Style style = workbook.CreateStyle();
+            style.IsTextWrapped = true;
 
-    sheet.Cells[3, 2].Value = "Use";
-    sheet.Cells[3, 2].Value += "\n with word wrap on to create a new line";
+            // Apply style only to wrap text property of column 2
+            sheet.Cells.Columns[1].ApplyStyle(style, new StyleFlag() { WrapText = true });
 
-    sheet.Cells[4, 2].Value = "Use";
-    sheet.Cells[4, 2].Value += "\n with word wrap on to create a new line";
-
-    Style style = workbook.CreateStyle();
-
-    //Set Text Wrap property to true
-    style.IsTextWrapped = true;
-
-    //Set Cell's Style
-    sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
-
-    workbook.Save(Constants.destPath + "example.xlsx");//It formats text properly with wrap text
-    workbook.Save(Constants.destPath + "example.ods");//Wrap text does not work properly
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,18 +24,42 @@ The web extension.
 ### Examples
 
 ```csharp
-// Called: WebExtension webExt = webExtensions[index];
-public void WebExtensionCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.WebExtensions;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-    int index = webExtensions.AddWebVideoPlayer("https://www.youtube.com/watch?v=z0hFbzPPfm8", true, 0, 0);
-    WebExtension webExt = webExtensions[index];
-    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-    shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 410, 730);
-    WebExtensionShape wShape = (WebExtensionShape)shapes[0];
-    wShape.WebExtension = webExt;
-    workbook.Save(Constants.destPath + "InsertYoutubeToExcel.xlsx");
+    public class WebExtensionCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get the web extensions collection
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            
+            // Add a web video player extension
+            int index = webExtensions.Add();
+            WebExtension webExt = webExtensions[index];
+            webExt.Reference.Id = "youtube";
+            webExt.Reference.StoreName = "youtube.com";
+            webExt.Properties.Add("videoUrl", "https://www.youtube.com/watch?v=z0hFbzPPfm8");
+            
+            // Add a shape to hold the web extension
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 410, 730, 0, 0);
+            
+            // Assign the web extension to the shape
+            WebExtensionShape wShape = (WebExtensionShape)shapes[0];
+            wShape.WebExtension = webExt;
+            
+            // Save the workbook
+            workbook.Save("WebExtensionDemo.xlsx");
+        }
+    }
 }
 ```
 

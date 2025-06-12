@@ -24,14 +24,12 @@ public class Bevel
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class BevelDemo
     {

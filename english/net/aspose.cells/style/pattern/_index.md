@@ -16,13 +16,35 @@ public BackgroundType Pattern { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(BackgroundType.Gray50, style.Pattern, "style.Pattern");
-private void Style_Property_Pattern(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyPatternDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = cells[1, 1].GetStyle();
-            AssertHelper.AreEqual(BackgroundType.Gray50, style.Pattern, "style.Pattern");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Access cell and get its style
+            Cell cell = cells[0, 0];
+            Style style = cell.GetStyle();
+            
+            // Set pattern and foreground color
+            style.Pattern = BackgroundType.Gray50;
+            style.ForegroundColor = System.Drawing.Color.LightGray;
+            
+            // Apply the style to the cell
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("PatternPropertyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

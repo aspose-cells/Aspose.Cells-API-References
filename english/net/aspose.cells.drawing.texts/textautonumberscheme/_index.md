@@ -60,6 +60,60 @@ public enum TextAutonumberScheme
 | ThaiNumParenR | `40` | Thai numerical parentheses - right |
 | ThaiNumPeriod | `41` | Thai numerical period |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class TextsClassTextAutonumberSchemeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
+            Aspose.Cells.Drawing.TextBox textbox = worksheet.TextBoxes[textboxIndex];
+            
+            // Set text with different autonumber schemes
+            textbox.Text = "Autonumber Scheme Examples:\n\n";
+
+            // Demonstrate various TextAutonumberScheme values
+            textbox.Text += GetAutonumberExample(TextAutonumberScheme.AlphaLcParenBoth, "Lowercase alpha with both parentheses");
+            textbox.Text += GetAutonumberExample(TextAutonumberScheme.AlphaUcPeriod, "Uppercase alpha with period");
+            textbox.Text += GetAutonumberExample(TextAutonumberScheme.ArabicParenR, "Arabic numbers with right parenthesis");
+            textbox.Text += GetAutonumberExample(TextAutonumberScheme.RomanLcPeriod, "Lowercase roman numerals with period");
+            textbox.Text += GetAutonumberExample(TextAutonumberScheme.CircleNumDbPlain, "Double-byte circle numbers");
+
+            // Set paragraph with autonumber scheme
+            TextParagraphCollection paragraphs = textbox.TextBody.TextParagraphs;
+            TextParagraph paragraph = paragraphs[paragraphs.Count - 1];
+            paragraph.Bullet.Type = BulletType.AutoNumbered;
+            ((AutoNumberedBulletValue)paragraph.Bullet.BulletValue).AutonumberScheme = TextAutonumberScheme.AlphaUcParenR;
+            ((AutoNumberedBulletValue)paragraph.Bullet.BulletValue).StartAt = 1;
+
+            // Save the workbook
+            workbook.Save("TextAutonumberSchemeDemo.xlsx");
+        }
+
+        private static string GetAutonumberExample(TextAutonumberScheme scheme, string description)
+        {
+            return $"{scheme.ToString()} ({description}):\n" +
+                   "1. First item\n" +
+                   "2. Second item\n" +
+                   "3. Third item\n\n";
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)

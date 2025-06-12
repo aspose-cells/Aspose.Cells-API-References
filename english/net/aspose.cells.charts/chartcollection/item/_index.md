@@ -24,15 +24,50 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Chart chart = workbook.Worksheets[0].Charts[0];
-public void ChartCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(TextAlignmentType.Left, chart.Title.TextHorizontalAlignment);
+namespace AsposeCellsExamples
+{
+    public class ChartCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            
+            // Access the chart using Item property
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source and title
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            chart.Title.Text = "Sample Chart";
+            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("Chart created successfully with Item property access.");
+        }
+    }
 }
 ```
 
@@ -68,11 +103,51 @@ The default chart name is null. So you have to explicitly set the name of the ch
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
-public void ChartCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
+    public class ChartCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set chart title using Item property
+            chart.Title.Text = "Sample Chart";
+            
+            // Access first series using Item property
+            Series series = chart.NSeries[0];
+            series.HasLeaderLines = false;
+            
+            // Save the workbook
+            workbook.Save("ChartCollectionPropertyItemDemo_out.xlsx");
+        }
+    }
 }
 ```
 

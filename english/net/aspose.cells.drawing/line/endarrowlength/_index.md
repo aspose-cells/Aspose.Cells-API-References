@@ -16,47 +16,38 @@ public MsoArrowheadLength EndArrowLength { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("End Arrowhead Length: " + line.EndArrowLength);
-public static void Line_Property_EndArrowLength()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class LinePropertyEndArrowLengthDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
 
-            // Add a new worksheet to the workbook
+            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Add a line shape to the worksheet
+            LineShape lineShape = worksheet.Shapes.AddLine(1, 0, 1, 100, 100, 100);
+            LineFormat lineFormat = lineShape.Line;
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+            // Set line properties with arrowheads
+            lineFormat.EndArrowheadStyle = MsoArrowheadStyle.Arrow;
+            lineFormat.EndArrowheadLength = MsoArrowheadLength.Long;
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Create a line shape for the chart
-            Line line = chart.Line;
-
-            // Set the arrowhead lengths
-            line.BeginArrowLength = MsoArrowheadLength.Medium;
-            line.EndArrowLength = MsoArrowheadLength.Long;
-
-            // Output the arrowhead lengths
-            Console.WriteLine("Begin Arrowhead Length: " + line.BeginArrowLength);
-            Console.WriteLine("End Arrowhead Length: " + line.EndArrowLength);
+            // Output the end arrow length
+            Console.WriteLine("End Arrowhead Length: " + lineFormat.EndArrowheadLength);
 
             // Save the workbook
-            workbook.Save("MsoArrowheadLengthExample.xlsx");
+            workbook.Save("LineEndArrowLengthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

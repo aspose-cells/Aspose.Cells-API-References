@@ -25,6 +25,82 @@ whether this cell needs to be kept in cells model of current sheet. Commonly it 
 
 It will be called after one cell's data has been read.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class LightCellsDataHandlerMethodProcessCellWithCellDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create temporary data file
+                File.WriteAllText("input.txt", "A,B,C\n10,20,30\n40,50,60");
+
+                // Create load options with custom light cells handler
+                LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
+                var handler = new CustomLightCellsDataHandler();
+                loadOptions.LightCellsDataHandler = handler;
+
+                // Load workbook with custom handler
+                Workbook workbook = new Workbook("input.txt", loadOptions);
+
+                // Save processed results
+                workbook.Save("output.xlsx");
+                Console.WriteLine("ProcessCell executed successfully. Check output.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ProcessCell: {ex.Message}");
+            }
+        }
+
+        private class CustomLightCellsDataHandler : LightCellsDataHandler
+        {
+            public bool StartSheet(Worksheet sheet)
+            {
+                return true; // Process all sheets
+            }
+
+            public bool StartRow(int rowIndex)
+            {
+                return true; // Process all rows
+            }
+
+            public bool StartCell(int columnIndex)
+            {
+                return true; // Process all cells
+            }
+
+            public bool ProcessCell(Cell cell)
+            {
+                // Double numeric values and mark strings
+                if (cell.IsNumericValue)
+                {
+                    cell.PutValue(cell.DoubleValue * 2);
+                }
+                else if (cell.Type == CellValueType.IsString)
+                {
+                    cell.PutValue($"TEXT: {cell.StringValue}");
+                }
+                return true;
+            }
+
+            public bool ProcessRow(Row row)
+            {
+                return true; // Continue processing
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

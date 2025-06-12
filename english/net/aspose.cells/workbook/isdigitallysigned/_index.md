@@ -16,29 +16,37 @@ public bool IsDigitallySigned { get; }
 ### Examples
 
 ```csharp
-// Called: bool bOutF2 = book.IsDigitallySigned;
-// http://www.aspose.com/community/forums/thread/255140.aspx
-public void Workbook_Property_IsDigitallySigned()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Workbook_Property_IsDigitallySigned()");
-    string infn = path + "Test_DigiSign.xlsx";
-    string outfn1 = Constants.destPath + "Test_DigiSign_out_keep.xlsx";
-    string outfn2 = Constants.destPath + "Test_DigiSign_out_removed.xlsx";
+    public class WorkbookPropertyIsDigitallySignedDemo
+    {
+        public static void Run()
+        {
+            // Load a digitally signed workbook
+            Workbook book = new Workbook("Test_DigiSign.xlsx");
+            
+            // Check if the workbook is digitally signed
+            bool isSigned = book.IsDigitallySigned;
+            Console.WriteLine("Workbook is digitally signed: " + isSigned);
 
-    Workbook book = new Workbook(infn);
-    bool bInF = book.IsDigitallySigned;
-    book.Save(outfn1);
-
-    book = new Workbook(outfn1);
-    bool bOutF1 = book.IsDigitallySigned;
-    book.RemoveDigitalSignature();
-    book.Save(outfn2);
-
-    book = new Workbook(outfn2);
-    bool bOutF2 = book.IsDigitallySigned;
-
-    if (!bInF || !bOutF1 || bOutF2)
-        throw new Exception("Workbook_Property_IsDigitallySigned() failed!");
+            if (isSigned)
+            {
+                // Save a copy (signature will be preserved)
+                book.Save("SignedCopy.xlsx");
+                
+                // Remove the digital signature
+                book.RemoveDigitalSignature();
+                book.Save("UnsignedCopy.xlsx");
+                
+                // Verify signature was removed
+                Workbook unsignedBook = new Workbook("UnsignedCopy.xlsx");
+                Console.WriteLine("After removal, workbook is signed: " + unsignedBook.IsDigitallySigned);
+            }
+        }
+    }
 }
 ```
 

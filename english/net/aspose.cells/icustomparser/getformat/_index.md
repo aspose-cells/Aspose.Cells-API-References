@@ -20,21 +20,44 @@ The returned formatting pattern may be used to format corresponding cell(set to 
 ### Examples
 
 ```csharp
-// Called: string format = customParser.GetFormat();
-public static void ICustomParser_Method_GetFormat()
-        {
-            // Custom parser implementation
-            ICustomParser customParser = new CustomParser();
+using Aspose.Cells;
+using System;
 
-            // Example usage of ParseObject method
+namespace AsposeCellsExamples
+{
+   
+    public class CustomParser2 : ICustomParser
+    {
+        public object ParseObject(string s)
+        {
+            if (double.TryParse(s, out double result))
+            {
+                return result;
+            }
+            return s;
+        }
+
+        public string GetFormat()
+        {
+            return "Standard numeric format";
+        }
+    }
+
+    public class ICustomParser1MethodGetFormatDemo
+    {
+        public static void Run()
+        {
+            ICustomParser customParser = new CustomParser2();
+
             string valueToParse = "123.45";
             object parsedValue = customParser.ParseObject(valueToParse);
             Console.WriteLine($"Parsed Value: {parsedValue}");
 
-            // Example usage of GetFormat method
             string format = customParser.GetFormat();
             Console.WriteLine($"Format: {format}");
         }
+    }
+}
 ```
 
 ### See Also

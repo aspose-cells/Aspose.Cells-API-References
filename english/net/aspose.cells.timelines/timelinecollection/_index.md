@@ -62,53 +62,75 @@ public class TimelineCollection : CollectionBase<Timeline>
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using Aspose.Cells.Timelines;
+    using System;
 
-[C#]
-Workbook book = new Workbook();
-Worksheet sheet = book.Worksheets[0];
-Cells cells = sheet.Cells;
-cells[0, 0].Value = "fruit";
-cells[1, 0].Value = "grape";
-cells[2, 0].Value = "blueberry";
-cells[3, 0].Value = "kiwi";
-cells[4, 0].Value = "cherry";
+    public class TimelineCollectionDemo
+    {
+        public static void TimelineCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-//Create date style
-Style dateStyle = new CellsFactory().CreateStyle();
-dateStyle.Custom = "m/d/yyyy";
-cells[0, 1].Value = "date";
-cells[1, 1].Value = new DateTime(2021, 2, 5);
-cells[2, 1].Value = new DateTime(2022, 3, 8);
-cells[3, 1].Value = new DateTime(2023, 4, 10);
-cells[4, 1].Value = new DateTime(2024, 5, 16);
-//Set date style
-cells[1, 1].SetStyle(dateStyle);
-cells[2, 1].SetStyle(dateStyle);
-cells[3, 1].SetStyle(dateStyle);
-cells[4, 1].SetStyle(dateStyle);
+            // Populate the worksheet with sample data
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
 
-cells[0, 2].Value = "amount";
-cells[1, 2].Value = 50;
-cells[2, 2].Value = 60;
-cells[3, 2].Value = 70;
-cells[4, 2].Value = 80;
+            // Create date style
+            Style dateStyle = new CellsFactory().CreateStyle();
+            dateStyle.Custom = "m/d/yyyy";
+            cells[0, 1].Value = "date";
+            cells[1, 1].Value = new DateTime(2021, 2, 5);
+            cells[2, 1].Value = new DateTime(2022, 3, 8);
+            cells[3, 1].Value = new DateTime(2023, 4, 10);
+            cells[4, 1].Value = new DateTime(2024, 5, 16);
 
-PivotTableCollection pivots = sheet.PivotTables;
-//Add a PivotTable
-int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
-PivotTable pivot = pivots[pivotIndex];
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-pivot.AddFieldToArea(PivotFieldType.Column, "date");
-pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            // Set date style
+            cells[1, 1].SetStyle(dateStyle);
+            cells[2, 1].SetStyle(dateStyle);
+            cells[3, 1].SetStyle(dateStyle);
+            cells[4, 1].SetStyle(dateStyle);
 
-//Refresh PivotTable data
-pivot.RefreshData();
-pivot.CalculateData();
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
 
-//do your business
-book.Save("out.xlsx");
+            // Add a PivotTable
+            PivotTableCollection pivots = sheet.PivotTables;
+            int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "date");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
+            // Refresh PivotTable data
+            pivot.RefreshData();
+            pivot.CalculateData();
+
+            // Add a Timeline to the worksheet
+            TimelineCollection timelines = sheet.Timelines;
+            int timelineIndex = timelines.Add(pivot, "A20", "date");
+
+            // Access the added Timeline
+            Timeline timeline = timelines[timelineIndex];
+
+            // Save the workbook
+            workbook.Save("TimelineCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

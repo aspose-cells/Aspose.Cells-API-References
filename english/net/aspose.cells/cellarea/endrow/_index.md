@@ -16,18 +16,47 @@ public int EndRow;
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(10, pt.TableRange2.EndRow);
-public void CellArea_Field_EndRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + @"example.xls");
-    workbook.Save(Constants.PivotTableDestPath + "example.ods");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.ods");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    Assert.AreEqual(10, pt.TableRange2.EndRow);
-    Assert.AreEqual(ConsolidationFunction.Count, pt.DataFields[0].Function);
-    workbook.Worksheets.RefreshAll();
-    Assert.AreEqual("Count of b", workbook.Worksheets[0].Cells["F8"].StringValue);
-          
+    public class CellAreaFieldEndRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(150);
+            
+            // Add pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Demonstrate EndRow usage
+            Console.WriteLine("Pivot table ends at row: " + pivotTable.TableRange2.EndRow);
+            
+            // Save the workbook
+            workbook.Save("PivotTable_EndRow_Demo.xlsx");
+        }
+    }
 }
 ```
 

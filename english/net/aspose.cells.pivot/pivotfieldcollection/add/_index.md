@@ -24,59 +24,38 @@ the index of the PivotField Object in this PivotFields.
 ### Examples
 
 ```csharp
-// Called: pt.ColumnFields.Add(pt.DataField);
-public void PivotFieldCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-
-    Workbook wb = new Workbook(Constants.openPivottablePath + "test(2).xlsx");
-    Worksheet m_currentWorksheet = wb.Worksheets["Data"];
-
-    int startYear = 2009;
-    for (int i = 1; i <= 5; i++)
+    public class PivotFieldCollectionMethodAddWithPivotFieldDemo
     {
-        Cell c = m_currentWorksheet.Cells.Find("LD>>YEAR_" + i, null,null);
-        if (c != null)
-            c.Value = startYear + (i - 1);
-    }
-
-    Random rand = new Random();
-    int numRecs = rand.Next(5, 30);
-    //int numRecs = 2;
-    int templateRow = m_currentWorksheet.Cells.Find("LD>>NAME", null, null).Row;
-    for (int j = 0; j < numRecs; j++)
-    {
-        m_currentWorksheet.Cells.InsertRow(templateRow++);
-        m_currentWorksheet.Cells.CopyRow(m_currentWorksheet.Cells, templateRow, templateRow - 1);
-
-        Cell c = m_currentWorksheet.Cells.Find("LD>>NAME", null, null);
-        if (c != null)
-            c.Value = "Name_" + j;
-
-        for (int k = 1; k <= 5; k++)
+        public static void Run()
         {
-            Cell cost = m_currentWorksheet.Cells.Find("LD>>COST_YEAR_" + k, c, null);
-            if (cost != null)
-                cost.Value = rand.NextDouble() * 10000;
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("sample_pivot_table.xlsx");
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the first pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Refresh pivot table data
+            pivotTable.RefreshData();
+            
+            // Add data field to column fields area using Add method
+            pivotTable.ColumnFields.Add(pivotTable.DataField);
+            
+            // Calculate pivot table data
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("output_pivot_table.xlsx");
         }
     }
-
-    m_currentWorksheet.Cells.DeleteRow(templateRow);
-
-    m_currentWorksheet = wb.Worksheets["Pivot"];
-    PivotTable pt = m_currentWorksheet.PivotTables[0];
-    pt.RefreshData();
-    //pt.RefreshDataOnOpeningFile = true;
-    for (int m = 0; m < 4; m++)
-    {
-        PivotField field = pt.BaseFields[(startYear + m).ToString()];
-        field.SetSubtotals(PivotFieldSubtotalType.Sum, true);
-        pt.AddFieldToArea(PivotFieldType.Data, field);
-    }
-    pt.ColumnFields.Add(pt.DataField);
-    pt.CalculateData();
-    wb.Save(Constants.savePivottablePath +"example.xlsx");
-
-
 }
 ```
 

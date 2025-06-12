@@ -20,12 +20,32 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.FormulaSettings.CalculationMode, "workbook.CalcMode");
-private void FormulaSettings_Property_CalculationMode(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FormulaSettingsPropertyCalculationModeDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(CalcModeType.AutomaticExceptTable,
-                workbook.Settings.FormulaSettings.CalculationMode, "workbook.CalcMode");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Set calculation mode to AutomaticExceptTable
+            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.AutomaticExceptTable;
+            Console.WriteLine("Calculation Mode: " + workbook.Settings.FormulaSettings.CalculationMode);
+
+            // Change calculation mode to Manual
+            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+            Console.WriteLine("Calculation Mode: " + workbook.Settings.FormulaSettings.CalculationMode);
+
+            // Reset to default Automatic mode
+            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Automatic;
+            Console.WriteLine("Calculation Mode: " + workbook.Settings.FormulaSettings.CalculationMode);
         }
+    }
+}
 ```
 
 ### See Also

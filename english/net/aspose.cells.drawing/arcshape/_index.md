@@ -160,105 +160,78 @@ public class ArcShape : Shape
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Instantiate a new Workbook.
-orkbook excelbook = new Workbook();
+    public class ArcShapeDemo
+    {
+        public static void ArcShapeExample()
+        {
+            // Instantiate a new Workbook.
+            Workbook workbook = new Workbook();
 
-//Add an arc shape.
-spose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
+            // Add an arc shape.
+            ArcShape arc1 = workbook.Worksheets[0].Shapes.AddArc(10, 0, 2, 0, 130, 130);
 
-//Set the placement of the arc.
-rc1.Placement = PlacementType.FreeFloating;
+            // Set the placement of the arc.
+            arc1.Placement = PlacementType.FreeFloating;
 
-//Set the fill format.
-arc1.Fill.FillType = FillType.Solid;
-arc1.Fill.SolidFill.Color = Color.Blue;
+            // Set the fill format.
+            arc1.Fill.FillType = FillType.Solid;
+            arc1.Fill.SolidFill.Color = Color.Blue;
 
-//Set the line style.
-arc1.Line.CompoundType = MsoLineStyle.Single;
+            // Set the line style.
+            arc1.Line.CompoundType = MsoLineStyle.Single;
 
-//Set the line weight.
-arc1.Line.Weight = 2;
+            // Set the line weight.
+            arc1.Line.Weight = 2;
 
-//Set the color of the arc line.
-arc1.Line.FillType = FillType.Solid;
-arc1.Line.SolidFill.Color = Color.Red;
+            // Set the color of the arc line.
+            arc1.Line.FillType = FillType.Solid;
+            arc1.Line.SolidFill.Color = Color.Red;
 
-//Set the dash style of the arc.
-arc1.Line.DashStyle = MsoLineDashStyle.Solid;
+            // Set the dash style of the arc.
+            arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 
-//Add another arc shape.
-Aspose.Cells.Drawing.ArcShape arc2 = excelbook.Worksheets[0].Shapes.AddArc(9, 0, 2, 0, 130, 130);
+            // Set additional properties
+            arc1.Name = "ArcShape1";
+            arc1.AlternativeText = "This is an arc shape.";
+            arc1.Title = "Arc Shape Title";
+            arc1.ZOrderPosition = 1;
+            arc1.MacroName = "DoWork()";
+            arc1.SoftEdges = 0.5d;
+            arc1.IsHidden = false;
+            arc1.IsAspectRatioLocked = true;
+            arc1.RotationAngle = 45;
+            arc1.IsPrintable = true;
+            arc1.AutoShapeType = AutoShapeType.Arc;
+            arc1.AnchorType = ShapeAnchorType.OneCellAnchor;
+            arc1.UpperLeftRow = 10;
+            arc1.UpperLeftColumn = 2;
+            arc1.Width = 100;
+            arc1.Height = 50;
+            arc1.Left = 10;
+            arc1.Top = 10;
+            arc1.Text = "Arc Shape Text";
+            arc1.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+            arc1.TextVerticalOverflow = TextOverflowType.Overflow;
+            arc1.TextHorizontalOverflow = TextOverflowType.Overflow;
+            arc1.IsTextWrapped = true;
+            arc1.TextOrientationType = TextOrientationType.TopToBottom;
+            arc1.TextHorizontalAlignment = TextAlignmentType.Center;
+            arc1.TextVerticalAlignment = TextAlignmentType.Center;
+            arc1.TextDirection = TextDirectionType.LeftToRight;
 
-//Set the placement of the arc.
-arc2.Placement = PlacementType.FreeFloating;
-
-//Set the line style.
-arc2.Line.CompoundType = MsoLineStyle.Single;
-
-//Set the line weight.
-arc2.Line.Weight = 1;
-
-//Set the color of the arc line.
-arc2.Line.FillType = FillType.Solid;
-arc2.Line.SolidFill.Color = Color.Blue;
-
-//Set the dash style of the arc.
-arc2.Line.DashStyle = MsoLineDashStyle.Solid;
-
-//Save the excel file.
-excelbook.Save("tstarcs.xls");
-
-[VB..NET]
-
-Instantiate a new Workbook.
-im excelbook As Workbook = New Workbook()
-
-Add an arc shape.
-im arc1 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(2, 0, 2, 0, 130, 130)
-
-Set the placement of the arc.
-rc1.Placement = PlacementType.FreeFloating
-
-Set the fill format.
-rc1.Fill.FillType = FillType.Solid
-rc1.Fill.SolidFill.Color = Color.Blue
-
-Set the line style.
-rc1.Line.CompoundType = MsoLineStyle.Single
-
-Set the line weight.
-rc1.Line.Weight = 2
-
-Set the color of the arc line.
-rc1.Line.FillType = FillType.Solid
-rc1.Line.SolidFill.Color = Color.Red
-
-Set the dash style of the arc.
-rc1.Line.DashStyle = MsoLineDashStyle.Solid
-
-Add another arc shape.
-im arc2 As Aspose.Cells.Drawing.ArcShape = excelbook.Worksheets(0).Shapes.AddArc(9, 0, 2, 0, 130, 130)
-
-Set the placement of the arc.
-rc2.Placement = PlacementType.FreeFloating
-
-Set the line style.
-rc2.Line.CompoundType = MsoLineStyle.Single
-
-Set the line weight.
-rc2.Line.Weight = 1
-
-Set the color of the arc line.
-rc2.Line.FillType = FillType.Solid
-rc2.Line.SolidFill.Color = Color.Blue
-
-Set the dash style of the arc.
-rc2.Line.DashStyle = MsoLineDashStyle.Solid
-
-Save the excel file.
-xcelbook.Save("tstarcs.xls")
+            // Save the workbook
+            workbook.Save("ArcShapeExample.xlsx");
+            workbook.Save("ArcShapeExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

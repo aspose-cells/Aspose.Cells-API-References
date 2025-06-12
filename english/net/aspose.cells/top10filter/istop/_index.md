@@ -16,23 +16,42 @@ public bool IsTop { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(f.IsTop);
-public void Top10Filter_Property_IsTop()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K10";
-    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-    Top10Filter f = worksheet.AutoFilter.FilterColumns[5].Filter as Top10Filter;
-    Assert.IsNotNull(f);
-    Assert.IsTrue(f.IsTop);
-    Assert.IsFalse(f.IsPercent);
-    worksheet.AutoFilter.Refresh();
-    Cells cells = worksheet.Cells;
-    for (int i = 6; i < 30; i++)
+    public class Top10FilterPropertyIsTopDemo
     {
-        Assert.AreEqual(i != 7 && i != 8 && i != 11 && i != 12 && i != 16,
-            cells.IsRowHidden(i), "Row(0 based).Hidden-" + i);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["B6"].PutValue("Value");
+            for (int i = 7; i <= 16; i++)
+            {
+                worksheet.Cells["B" + i].PutValue(20 - i);
+            }
+
+            // Apply top 5 filter
+            worksheet.AutoFilter.Range = "B6:B16";
+            worksheet.AutoFilter.FilterTop10(0, true, false, 5);
+            
+            // Get the filter and check IsTop property
+            Top10Filter filter = worksheet.AutoFilter.FilterColumns[0].Filter as Top10Filter;
+            Console.WriteLine("IsTop: " + filter.IsTop); // Should output "True"
+            Console.WriteLine("IsPercent: " + filter.IsPercent); // Should output "False"
+            
+            // Refresh filter and check hidden rows
+            worksheet.AutoFilter.Refresh();
+            for (int i = 6; i <= 16; i++)
+            {
+                Console.WriteLine($"Row {i} hidden: {worksheet.Cells.IsRowHidden(i)}");
+            }
+        }
     }
 }
 ```

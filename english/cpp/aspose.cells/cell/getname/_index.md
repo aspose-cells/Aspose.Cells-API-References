@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetName method. Gets the name of the cell in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/cell/getname/
 ---
 ## Cell::GetName method

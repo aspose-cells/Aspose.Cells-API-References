@@ -16,39 +16,33 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: lineFmt.Transparency = 0.5;
-public static void FillFormat_Property_Transparency()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyTransparencyDemo
+    {
+        public static void Run()
         {
-            // Instantiate a new Workbook
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            ShapeCollection shapes = worksheet.Shapes;
 
-            // Add a rectangle shape to the worksheet
-            Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-            LineFormat lineFmt = shape.Line;
+            // Add a shape to demonstrate transparency
+            Shape shape = worksheet.Shapes.AddRectangle(10, 10, 200, 100, 50, 50);
 
-            // Set various properties of the LineFormat
-            lineFmt.CompoundType = MsoLineStyle.Single;
-            lineFmt.DashStyle = MsoLineDashStyle.Solid;
-            lineFmt.CapType = LineCapType.Flat;
-            lineFmt.JoinType = LineJoinType.Round;
-            lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
-            lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;
-            lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
-            lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
-            lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
-            lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
-            lineFmt.Weight = 2.0d;
-
-            // Set fill properties
-            lineFmt.FillType = FillType.Solid;
-            lineFmt.Transparency = 0.5;
+            // Set fill properties with transparency
+            shape.Fill.FillType = FillType.Solid;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            shape.Fill.Transparency = 0.3; // 30% transparent
 
             // Save the workbook
-            workbook.Save("LineFormatExample.xlsx");
-            workbook.Save("LineFormatExample.pdf");
+            workbook.Save("FillFormatTransparencyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

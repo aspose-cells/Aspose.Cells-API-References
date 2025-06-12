@@ -57,6 +57,53 @@ public enum SqlDataType
 | SqlIntervalHourToSecond | `112` | sql interval hour to second |
 | SqlIntervalMinuteToSecond | `113` | sql interval minute to second |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionsClassSqlDataTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Demonstrate SqlDataType enum values
+            worksheet.Cells["A1"].PutValue("SQL Data Type Examples");
+            worksheet.Cells["A2"].PutValue("SqlChar:");
+            worksheet.Cells["B2"].PutValue(SqlDataType.SqlChar.ToString());
+            
+            worksheet.Cells["A3"].PutValue("SqlDecimal:");
+            worksheet.Cells["B3"].PutValue(SqlDataType.SqlDecimal.ToString());
+            
+            worksheet.Cells["A4"].PutValue("SqlInteger:");
+            worksheet.Cells["B4"].PutValue(SqlDataType.SqlInteger.ToString());
+            
+            worksheet.Cells["A5"].PutValue("SqlTypeDate:");
+            worksheet.Cells["B5"].PutValue(SqlDataType.SqlTypeDate.ToString());
+            
+            worksheet.Cells["A6"].PutValue("SqlVarChar:");
+            worksheet.Cells["B6"].PutValue(SqlDataType.SqlVarChar.ToString());
+            
+            worksheet.Cells["A7"].PutValue("SqlBigInt:");
+            worksheet.Cells["B7"].PutValue(SqlDataType.SqlBigInt.ToString());
+
+            // Auto-fit columns for better visibility
+            worksheet.AutoFitColumns();
+
+            // Save the workbook
+            workbook.Save("SqlDataTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)

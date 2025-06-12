@@ -25,18 +25,43 @@ The formula of this list column.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
-public void ListColumn_Method_GetCustomTotalsRowFormula()
- {
-     Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-     ListObject lo = workbook.Worksheets[0].ListObjects[0];
-     lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
-     lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
-     workbook.Save(Constants.destPath + "example.xlsx");
-     workbook = new Workbook(Constants.destPath + "example.xlsx");
-     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].Cells["A4"].Formula);
-     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
- }
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class ListColumnMethodGetCustomTotalsRowFormulaWithBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 2, 0, true);
+            ListObject listObject = worksheet.ListObjects[index];
+
+            // Set custom totals formula
+            ListColumn listColumn = listObject.ListColumns[0];
+            listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Custom;
+            listColumn.SetCustomTotalsRowFormula("=SUM([Column1])", false, false);
+
+            // Get and display the custom totals formula
+            string formula = listColumn.GetCustomTotalsRowFormula(false, true);
+            Console.WriteLine("Custom Totals Formula: " + formula);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

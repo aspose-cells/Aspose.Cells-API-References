@@ -10,77 +10,66 @@ url: /net/aspose.cells.timelines/timeline/toppixel/
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
 ```csharp
+[Obsolete("Use Shape.Top property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int TopPixel { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
 ```csharp
-// Called: timelineObj.TopPixel = 50;
-public static void Timeline_Property_TopPixel()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Timelines;
+
+namespace AsposeCellsExamples
+{
+    public class TimelinePropertyTopPixelDemo
+    {
+        public static void Run()
         {
             // Create a new workbook and get the first worksheet
             Workbook book = new Workbook();
             Worksheet sheet = book.Worksheets[0];
             Cells cells = sheet.Cells;
 
-            // Populate the worksheet with sample data
-            cells[0, 0].Value = "fruit";
-            cells[1, 0].Value = "grape";
-            cells[2, 0].Value = "blueberry";
-            cells[3, 0].Value = "kiwi";
-            cells[4, 0].Value = "cherry";
+            // Populate sample data
+            cells["A1"].Value = "Date";
+            cells["A2"].Value = new DateTime(2023, 1, 1);
+            cells["A3"].Value = new DateTime(2023, 2, 1);
+            cells["A4"].Value = new DateTime(2023, 3, 1);
+            cells["B1"].Value = "Sales";
+            cells["B2"].Value = 1000;
+            cells["B3"].Value = 2000;
+            cells["B4"].Value = 3000;
 
-            // Create date style
-            Style dateStyle = new CellsFactory().CreateStyle();
-            dateStyle.Custom = "m/d/yyyy";
-            cells[0, 1].Value = "date";
-            cells[1, 1].Value = new DateTime(2021, 2, 5);
-            cells[2, 1].Value = new DateTime(2022, 3, 8);
-            cells[3, 1].Value = new DateTime(2023, 4, 10);
-            cells[4, 1].Value = new DateTime(2024, 5, 16);
-            // Set date style
-            cells[1, 1].SetStyle(dateStyle);
-            cells[2, 1].SetStyle(dateStyle);
-            cells[3, 1].SetStyle(dateStyle);
-            cells[4, 1].SetStyle(dateStyle);
-
-            cells[0, 2].Value = "amount";
-            cells[1, 2].Value = 50;
-            cells[2, 2].Value = 60;
-            cells[3, 2].Value = 70;
-            cells[4, 2].Value = 80;
-
-            // Add a PivotTable
-            PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add("=Sheet1!A1:C5", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "date");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
-            // Refresh PivotTable data
+            // Add PivotTable
+            int pivotIndex = sheet.PivotTables.Add("=A1:B4", "D1", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Sales");
             pivot.RefreshData();
             pivot.CalculateData();
 
-            // Add a new Timeline using PivotTable as data source
-            sheet.Timelines.Add(pivot, 10, 5, "date");
+            // Add Timeline
+            int timelineIndex = sheet.Timelines.Add(pivot, 0, 0, "Date");
+            Timeline timeline = sheet.Timelines[timelineIndex];
 
-            // Get Timeline object
-            Timeline timelineObj = sheet.Timelines[0];
-
-            // Set properties of the Timeline
-            timelineObj.Caption = "timeline caption test";
-            timelineObj.Name = "timeline name test";
-            timelineObj.LeftPixel = 100;
-            timelineObj.TopPixel = 50;
-            timelineObj.WidthPixel = 300;
-            timelineObj.HeightPixel = 100;
+            // Set Timeline properties including TopPixel
+            timeline.TopPixel = 50;
+            timeline.HeightPixel = 100;
+            timeline.WidthPixel = 300;
 
             // Save the workbook
-            book.Save("TimelineExample.xlsx");
+            book.Save("TimelineTopPixelDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

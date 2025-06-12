@@ -16,10 +16,38 @@ public bool HideSelection { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.HideSelection)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.HideSelection = true;
+    public class TextBoxActiveXControlPropertyHideSelectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an ActiveX TextBox control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 1, 1, 1, 1, 100, 50);
+            var textBox = (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate HideSelection property
+            Console.WriteLine("Initial HideSelection value: " + textBox.HideSelection);
+            
+            // Set HideSelection to true if it's false
+            if (!textBox.HideSelection)
+            {
+                textBox.HideSelection = true;
+                Console.WriteLine("HideSelection set to: " + textBox.HideSelection);
+            }
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlHideSelectionDemo.xlsx");
+        }
+    }
 }
 ```
 

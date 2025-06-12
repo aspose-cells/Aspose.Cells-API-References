@@ -20,83 +20,46 @@ Default value is false. The value must be false when PDF/A compliance is set or 
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.EmbedAttachments = true;
-public static void PdfSaveOptions_Property_EmbedAttachments()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System.Drawing;
+using System.IO;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSaveOptionsPropertyEmbedAttachmentsDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Aspose.Cells PDF Save Options Example");
+            worksheet.Cells["A1"].PutValue("PDF with Embedded Attachments Example");
 
-            // Create an instance of PdfSaveOptions
+            // Create a sample file to embed
+            string sampleFile = "sample.docx";
+            File.WriteAllText(sampleFile, "This is a sample document");
+
+            // Add an attachment (OLE object) to the worksheet
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, File.ReadAllBytes(sampleFile));
+            worksheet.OleObjects[oleIndex].FileFormatType = FileFormatType.Docx;
+            worksheet.OleObjects[oleIndex].DisplayAsIcon = true;
+
+            // Create PDF save options
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-            // Set various properties
-            pdfSaveOptions.EmbedStandardWindowsFonts = true;
-            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
-            pdfSaveOptions.CalculateFormula = true;
-            pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate;
-            pdfSaveOptions.CreatedTime = DateTime.Now;
-            pdfSaveOptions.Producer = "Aspose.Cells";
-            pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
-            pdfSaveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
-            pdfSaveOptions.ExportDocumentStructure = true;
-            pdfSaveOptions.DisplayDocTitle = true;
-            pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
+            
+            // Set the EmbedAttachments property to true
             pdfSaveOptions.EmbedAttachments = true;
-            pdfSaveOptions.DefaultFont = "Arial";
-            pdfSaveOptions.CheckWorkbookDefaultFont = true;
-            pdfSaveOptions.CheckFontCompatibility = true;
-            pdfSaveOptions.IsFontSubstitutionCharGranularity = true;
-            pdfSaveOptions.OnePagePerSheet = true;
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.IgnoreError = true;
-            pdfSaveOptions.OutputBlankPageWhenNothingToPrint = true;
-            pdfSaveOptions.PageIndex = 0;
-            pdfSaveOptions.PageCount = 1;
-            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            pdfSaveOptions.GridlineType = GridlineType.Dotted;
-            pdfSaveOptions.TextCrossType = TextCrossType.CrossKeep;
-            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
-            pdfSaveOptions.SheetSet = SheetSet.Visible;
-            pdfSaveOptions.ClearData = true;
-            pdfSaveOptions.CachedFileFolder = "C:\\Temp";
-            pdfSaveOptions.ValidateMergedAreas = true;
-            pdfSaveOptions.MergeAreas = true;
-            pdfSaveOptions.SortNames = true;
-            pdfSaveOptions.SortExternalNames = true;
-            pdfSaveOptions.RefreshChartCache = true;
 
-            // Set security options
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions
-            {
-                OwnerPassword = "OwnerPassword",
-                UserPassword = "UserPassword",
-                PrintPermission = true,
-                FullQualityPrintPermission = true
-            };
-            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+            // Save the workbook as PDF with embedded attachments
+            workbook.Save("PdfWithEmbeddedAttachments.pdf", pdfSaveOptions);
 
-            // Set watermark
-            RenderingFont font = new RenderingFont("Calibri", 68)
-            {
-                Italic = true,
-                Bold = true,
-                Color = Color.Blue
-            };
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font)
-            {
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                Rotation = 30,
-                Opacity = 0.6f,
-                ScaleToPagePercent = 50
-            };
-            pdfSaveOptions.Watermark = watermark;
-
-            // Save the workbook as a PDF file
-            workbook.Save("PdfSaveOptionsExample.pdf", pdfSaveOptions);
+            // Clean up
+            File.Delete(sampleFile);
         }
+    }
+}
 ```
 
 ### See Also

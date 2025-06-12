@@ -16,12 +16,45 @@ public string GetFormula()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=ABS('ns1:TRN_AMOUNT')", fields[fields.Count - 1].GetFormula());
-public void PivotField_Method_GetFormula()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotFieldCollection fields = workbook.Worksheets[1].PivotTables[0].BaseFields;
-    Assert.AreEqual("=ABS('ns1:TRN_AMOUNT')", fields[fields.Count - 1].GetFormula());
+    public class PivotFieldMethodGetFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["A2"].Value = "Bike";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["A3"].Value = "Car";
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["A4"].Value = "Bike";
+            worksheet.Cells["B4"].Value = 1500;
+            
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add calculated field with formula
+            pivotTable.AddCalculatedField("=ABS('Sales')", "Absolute Sales");
+            
+            // Get the formula from the calculated field
+            PivotFieldCollection fields = pivotTable.DataFields;
+            string formula = fields[fields.Count - 1].GetFormula();
+            
+            // Output the formula
+            Console.WriteLine("Calculated field formula: " + formula);
+        }
+    }
 }
 ```
 

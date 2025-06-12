@@ -20,25 +20,45 @@ Please add all areas before setting formula. For setting formula for this condit
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
-public void FormatCondition_Property_Formula2()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
-    FormatConditionCollection fcc = cfc[cfc.Add()];
-    fcc.Add(CellArea.CreateCellArea(0, 0, 1, 1),
-        FormatConditionType.CellValue, OperatorType.Between, "abc def", "=\"a\"&\"b\"");
-    FormatCondition fc = fcc[0];
-    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
-    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    fc = wb.Worksheets[0].ConditionalFormattings[0][0];
-    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
-    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
-    wb = Util.ReSave(wb, SaveFormat.SpreadsheetML);
-    fc = wb.Worksheets[0].ConditionalFormattings[0][0];
-    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
-    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
+    public class FormatConditionPropertyFormula2Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add conditional formatting
+            ConditionalFormattingCollection conditionalFormattings = worksheet.ConditionalFormattings;
+            int index = conditionalFormattings.Add();
+            FormatConditionCollection formatConditions = conditionalFormattings[index];
+            
+            // Define the cell range
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+            
+            // Add format condition with Formula2
+            formatConditions.Add(area, 
+                FormatConditionType.CellValue, 
+                OperatorType.Between, 
+                "=\"abc def\"", 
+                "=\"a\"&\"b\"");
+
+            // Get the format condition
+            FormatCondition formatCondition = formatConditions[0];
+
+            // Output the formulas
+            Console.WriteLine("Formula1: " + formatCondition.Formula1);
+            Console.WriteLine("Formula2: " + formatCondition.Formula2);
+
+            // Save the workbook
+            workbook.Save("FormatConditionFormula2Demo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

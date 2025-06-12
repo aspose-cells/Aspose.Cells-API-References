@@ -4,7 +4,7 @@ linktitle: ToArray2D
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToArray2D method. Gets the two-dimensional array value in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.cells/object/toarray2d/
 ---
 ## Object::ToArray2D method

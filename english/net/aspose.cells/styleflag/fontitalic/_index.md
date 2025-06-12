@@ -16,121 +16,58 @@ public bool FontItalic { get; set; }
 ### Examples
 
 ```csharp
-// Called: flag.FontItalic = true;
-		public void StyleFlag_Property_FontItalic()
-		{
-			Workbook excel = new Workbook();
-			string designerFile = sourcePath + "Northwind.xls";
-			
-            excel = new Workbook(designerFile);
-			
-			ReadCategory();
-			DataTable dataTable2 = new DataTable();
-			
-			Worksheet sheet = excel.Worksheets["Sheet2"];
-			sheet.Name = "Catalog";
-			Cells cells = sheet.Cells;
+using System;
+using System.Data;
+using System.Drawing;
+using Aspose.Cells;
 
-			int currentRow = 55;
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyFontItalicDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-			//Add LightGray color to color palette
-			excel.ChangePalette(Color.LightGray, 55);
+            // Create sample data
+            cells["A1"].PutValue("Product Name");
+            cells["B1"].PutValue("Price");
+            cells["A2"].PutValue("Laptop");
+            cells["B2"].PutValue(1200);
+            cells["A3"].PutValue("Monitor");
+            cells["B3"].PutValue(250);
 
+            // Create styles
+            Style headerStyle = workbook.CreateStyle();
+            headerStyle.Font.IsBold = true;
+            headerStyle.Font.IsItalic = true;
+            headerStyle.ForegroundColor = Color.LightGray;
+            headerStyle.Pattern = BackgroundType.Solid;
 
-            //Set CategoryName style
+            Style italicStyle = workbook.CreateStyle();
+            italicStyle.Font.IsItalic = true;
 
-            Style styleCategoryName = excel.CreateStyle();
+            // Apply styles with StyleFlag
+            Aspose.Cells.Range headerRange = cells.CreateRange(0, 0, 1, 2);
+            StyleFlag headerFlag = new StyleFlag();
+            headerFlag.FontBold = true;
+            headerFlag.FontItalic = true;
+            headerFlag.CellShading = true;
+            headerRange.ApplyStyle(headerStyle, headerFlag);
 
-            styleCategoryName.Font.Size = 14;
-			styleCategoryName.Font.Color = Color.Blue;
-			styleCategoryName.Font.IsBold = true;
-			styleCategoryName.Font.Name = "Times New Roman";
+            Aspose.Cells.Range dataRange = cells.CreateRange(1, 0, 2, 1);
+            StyleFlag italicFlag = new StyleFlag();
+            italicFlag.FontItalic = true;
+            dataRange.ApplyStyle(italicStyle, italicFlag);
 
-	
-			Style styleDescription = excel.CreateStyle();
-            styleDescription.Font.Name = "Times New Roman";
-			styleDescription.Font.Color = Color.Blue;
-			styleDescription.Font.IsItalic = true;
-
-
-			Style styleProductName = excel.CreateStyle();
-            styleProductName.Font.IsBold = true;
-
-
-			Style styleTitle = excel.CreateStyle();
-            styleTitle.Font.IsBold = true;
-			styleTitle.Font.IsItalic = true;
-			styleTitle.ForegroundColor = Color.LightGray;
-			styleTitle.Pattern = BackgroundType.Solid;
-
-
-			Style styleNumber = excel.CreateStyle();
-            styleNumber.Font.Name = "Times New Roman";
-			styleNumber.Number = 8;
-
-
-            HorizontalPageBreakCollection hPageBreaks = sheet.HorizontalPageBreaks;
-			
-			string cmdText = "SELECT ProductName, ProductID, QuantityPerUnit, " +
-				"UnitPrice FROM Products";
-			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
-			{
-				currentRow += 2;
-				cells.SetRowHeight(currentRow, 20);
-				cells[currentRow, 1].SetStyle(styleCategoryName);
-				DataRow categoriesRow = this.dataTable1.Rows[i];
-				
-				//Write CategoryName
-				cells[currentRow, 1].PutValue((string)categoriesRow["CategoryName"]);
-
-				//Write Description
-				currentRow ++;
-				cells[currentRow, 1].PutValue((string)categoriesRow["Description"]);
-				cells[currentRow, 1].SetStyle(styleDescription);
-
-				dataTable2.Clear();
-				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +" where categoryid = " 
-					+ categoriesRow["CategoryID"].ToString();
-				oleDbDataAdapter2.Fill(dataTable2);
-
-				currentRow += 2;
-				cells.ImportDataTable(dataTable2, true, currentRow, 1);
-				
-				Aspose.Cells.Range range = cells.CreateRange(currentRow, 1, 1, 4);
-
-				StyleFlag flag = new StyleFlag();
-				flag.CellShading = true;
-				flag.FontBold = true;
-				flag.FontItalic = true;
-				range.ApplyStyle(styleTitle, flag);
-				
-				range = cells.CreateRange(currentRow + 1, 1, dataTable2.Rows.Count, 1);
-				flag = new StyleFlag();
-				flag.FontBold = true;
-				range.ApplyStyle(styleProductName, flag);
-				
-				range = cells.CreateRange(currentRow + 1, 4, dataTable2.Rows.Count, 1);
-				flag = new StyleFlag();
-				flag.FontName = true;
-				flag.NumberFormat = true;
-				range.ApplyStyle(styleNumber, flag);
-			
-				currentRow += dataTable2.Rows.Count;
-				hPageBreaks.Add(currentRow, 0);
-			}
-
-			for(int i = 0; i < excel.Worksheets.Count ; i ++)
-			{
-				sheet = excel.Worksheets[i];
-				if(sheet.Name != "Catalog")
-				{
-					excel.Worksheets.RemoveAt(i);
-					i --;
-				}
-
-			}
-			excel.Save(destPath + "Catalog.xls");
-		}
+            // Save the workbook
+            workbook.Save("FontItalicDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

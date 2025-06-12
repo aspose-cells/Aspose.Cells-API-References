@@ -24,7 +24,7 @@ Represents the options of saving sql.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAddBlankLineBetweenRows()](#getAddBlankLineBetweenRows--) | Insert blank line between each data. |
-| [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCheckAllDataForColumnType()](#getCheckAllDataForColumnType--) | Check all data to find columns' data type. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckIfTableExists()](#getCheckIfTableExists--) | Check if the table name exists before creating |
@@ -56,7 +56,7 @@ Represents the options of saving sql.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | Insert blank line between each data. |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | Check all data to find columns' data type. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | Check if the table name exists before creating |
@@ -129,7 +129,7 @@ public String getCachedFileFolder()
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Returns:**
 java.lang.String
@@ -492,7 +492,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Parameters:**
 | Parameter | Type | Description |

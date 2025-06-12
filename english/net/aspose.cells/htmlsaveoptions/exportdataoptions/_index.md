@@ -16,27 +16,37 @@ public HtmlExportDataOptions ExportDataOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-public void HtmlSaveOptions_Property_ExportDataOptions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44088/";
+    public class HtmlSaveOptionsPropertyExportDataOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
 
-    string savePath = CreateFolder(filePath);
-    Aspose.Cells.Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
-    wb.Save(savePath + "out.pdf");
+            // Create HTML save options and set ExportDataOptions
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+            htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
 
-    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-    wb.Save(savePath + "out.html", htmlSaveOptions);
+            // Save as HTML with all data export options
+            workbook.Save("output.html", htmlSaveOptions);
 
-    wb = new Workbook(filePath + "a2.xlsx");
-    wb.Save(savePath + "a2_out.html", htmlSaveOptions);
-    wb.Save(savePath + "a2_out.pdf");
-
-    wb = new Workbook(filePath + "a3.xlsx");
-    wb.Save(savePath + "a3_out.html", htmlSaveOptions);
-    wb.Save(savePath + "a3_out.pdf");
+            Console.WriteLine("HTML file saved with ExportDataOptions.All");
+        }
+    }
 }
 ```
 

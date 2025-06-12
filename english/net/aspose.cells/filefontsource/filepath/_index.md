@@ -16,36 +16,34 @@ public string FilePath { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Font File Path: " + fontSource.FilePath);
-public static void FileFontSource_Property_FilePath()
-        {
-            // Specify the path to the TrueType font file
-            string fontFilePath = "C:\\Fonts\\CustomFont.ttf";
+using System;
+using Aspose.Cells;
 
-            // Create a FileFontSource instance
+namespace AsposeCellsExamples
+{
+    public class FileFontSourcePropertyFilePathDemo
+    {
+        public static void Run()
+        {
+            string fontFilePath = "C:\\Fonts\\CustomFont.ttf";
             FileFontSource fontSource = new FileFontSource(fontFilePath);
 
-            // Display the font source type and file path
-            Console.WriteLine("Font Source Type: " + fontSource.Type);
             Console.WriteLine("Font File Path: " + fontSource.FilePath);
 
-            // Create a Workbook object
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-
-            // Set a cell value
+            
             Cell cell = sheet.Cells["A1"];
-            cell.PutValue("Hello, Aspose!");
+            cell.PutValue("Test with custom font");
 
-            // Apply the custom font to the cell
             Style style = cell.GetStyle();
-            style.Font.Name = "CustomFont"; // Use the name of the font
+            style.Font.Name = "CustomFont";
             cell.SetStyle(style);
 
-            // Save the workbook
             workbook.Save("FileFontSourceExample.xlsx");
-            workbook.Save("FileFontSourceExample.pdf");
         }
+    }
+}
 ```
 
 ### See Also

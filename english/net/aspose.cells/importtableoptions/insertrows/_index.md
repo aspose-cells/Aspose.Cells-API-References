@@ -16,32 +16,47 @@ public bool InsertRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.InsertRows = true;
-public void ImportTableOptions_Property_InsertRows()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testImportDataColumn_001";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    DataTable datatable = getDataTable();
-    cells[0, 0].PutValue(1);
-    ImportTableOptions options = new ImportTableOptions();
-    options.ColumnIndexes = new int[] { 2 };
-    options.InsertRows = true;
-    options.IsFieldNameShown = true;
+    public class ImportTableOptionsPropertyInsertRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    cells.ImportData(datatable, 0,0,options);
+            // Create sample data table
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Product", typeof(string));
+            dataTable.Columns.Add("Price", typeof(decimal));
+            
+            dataTable.Rows.Add(1, "Laptop", 999.99);
+            dataTable.Rows.Add(2, "Monitor", 249.99);
+            dataTable.Rows.Add(3, "Keyboard", 49.99);
 
-    checkImportDataColumn_001(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xls");            
-    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xls");
-    checkImportDataColumn_001(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xlsx");
-    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xlsx");
-    checkImportDataColumn_001(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xml");
-    checkImportDataColumn_001(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xls"); 
+            // Add existing data to worksheet (will be shifted down by insert)
+            cells["A1"].PutValue("Existing Data");
+            cells["A2"].PutValue(100);
+
+            // Set import options with InsertRows = true
+            ImportTableOptions options = new ImportTableOptions();
+            options.InsertRows = true; // This will insert new rows instead of overwriting
+            options.IsFieldNameShown = true;
+
+            // Import data starting at row 1 (will insert rows below existing data)
+            cells.ImportData(dataTable, 1, 0, options);
+
+            // Save the workbook
+            workbook.Save("InsertRowsDemo.xlsx");
+        }
+    }
 }
 ```
 

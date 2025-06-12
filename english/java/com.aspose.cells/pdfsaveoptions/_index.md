@@ -25,7 +25,7 @@ Represents the options for saving pdf file.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
 | [getBookmark()](#getBookmark--) | Gets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
-| [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving pdf file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
@@ -36,6 +36,7 @@ Represents the options for saving pdf file.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreatedTime()](#getCreatedTime--) | Gets the time of generating the pdf document. |
 | [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
+| [getCustomRenderSettings()](#getCustomRenderSettings--) | Gets custom settings during rendering. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--) | Indicates whether the window's title bar should display the document title. |
@@ -46,7 +47,7 @@ Represents the options for saving pdf file.
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
 | [getFontEncoding()](#getFontEncoding--) | Gets embedded font encoding in pdf. |
-| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getImageType()](#getImageType--) | Represents the image type when converting the chart and shape . |
@@ -77,7 +78,7 @@ Represents the options for saving pdf file.
 | [notifyAll()](#notifyAll--) |  |
 | [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
 | [setBookmark(PdfBookmarkEntry value)](#setBookmark-com.aspose.cells.PdfBookmarkEntry-) | Sets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving pdf file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
@@ -87,6 +88,7 @@ Represents the options for saving pdf file.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Sets the time of generating the pdf document. |
 | [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | Sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
+| [setCustomRenderSettings(CustomRenderSettings value)](#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-) | Sets custom settings during rendering. |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | Indicates whether the window's title bar should display the document title. |
@@ -98,7 +100,7 @@ Represents the options for saving pdf file.
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Indicates whether to export document structure. |
 | [setFontEncoding(int value)](#setFontEncoding-int-) | Sets embedded font encoding in pdf. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
-| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline color. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
 | [setImageResample(int desiredPPI, int jpegQuality)](#setImageResample-int-int-) | Sets desired PPI(pixels per inch) of resample images and jpeg quality. |
@@ -176,7 +178,7 @@ public String getCachedFileFolder()
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Returns:**
 java.lang.String
@@ -308,6 +310,16 @@ See [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport
 
 **Returns:**
 int
+### getCustomRenderSettings() {#getCustomRenderSettings--}
+```
+public CustomRenderSettings getCustomRenderSettings()
+```
+
+
+Gets custom settings during rendering.
+
+**Returns:**
+[CustomRenderSettings](../../com.aspose.cells/customrendersettings)
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 ```
 public int getDefaultEditLanguage()
@@ -444,7 +456,7 @@ public Color getGridlineColor()
 ```
 
 
-Gets gridline colr.
+Gets gridline color.
 
 **Remarks**
 
@@ -970,7 +982,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1121,6 +1133,19 @@ See [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setCustomRenderSettings(CustomRenderSettings value) {#setCustomRenderSettings-com.aspose.cells.CustomRenderSettings-}
+```
+public void setCustomRenderSettings(CustomRenderSettings value)
+```
+
+
+Sets custom settings during rendering.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CustomRenderSettings](../../com.aspose.cells/customrendersettings) |  |
 
 ### setDefaultEditLanguage(int value) {#setDefaultEditLanguage-int-}
 ```
@@ -1305,7 +1330,7 @@ public void setGridlineColor(Color value)
 ```
 
 
-Sets gridline colr.
+Sets gridline color.
 
 **Remarks**
 

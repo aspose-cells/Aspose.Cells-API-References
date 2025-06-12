@@ -16,14 +16,36 @@ public bool IsRefreshAllConnections { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected.IsRefreshAllConnections,result.IsRefreshAllConnections, info + ".IsRefreshAllConnections");
-private static void WorksheetCollection_Property_IsRefreshAllConnections(WorksheetCollection expected, WorksheetCollection result, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyIsRefreshAllConnectionsDemo
+    {
+        public static void Run()
         {
-            AssertHelper.AreEqual(expected.ActiveSheetIndex, result.ActiveSheetIndex, info + ".ActiveSheetIndex");
-            // AssertHelper.AreEqual(arrsheetSrc.EnableHTTPCompression, arrsheetDest.EnableHTTPCompression, info + ".EnableHTTPCompression");
-          
-           AssertHelper.AreEqual(expected.IsRefreshAllConnections,result.IsRefreshAllConnections, info + ".IsRefreshAllConnections");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the worksheet collection
+            WorksheetCollection worksheets = workbook.Worksheets;
+            
+            // Add some sample worksheets
+            worksheets.Add("Sheet1");
+            worksheets.Add("Sheet2");
+            
+            // Set IsRefreshAllConnections property
+            worksheets.IsRefreshAllConnections = true;
+            
+            // Display the current value of IsRefreshAllConnections
+            Console.WriteLine("IsRefreshAllConnections: " + worksheets.IsRefreshAllConnections);
+            
+            // Save the workbook
+            workbook.Save("WorksheetCollectionPropertyIsRefreshAllConnectionsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

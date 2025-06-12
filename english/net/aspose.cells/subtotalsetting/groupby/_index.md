@@ -16,18 +16,44 @@ public int GroupBy { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, s.GroupBy);
-public void SubtotalSetting_Property_GroupBy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea ca = CellArea.CreateCellArea("A2", "C24");
-    SubtotalSetting s = workbook.Worksheets[0].Cells.RetrieveSubtotalSetting(ca);
-    Assert.AreEqual(s.TotalList[0], 2);
-    ca = CellArea.CreateCellArea("A2", "C30");
-    s = workbook.Worksheets[1].Cells.RetrieveSubtotalSetting(ca);
-    Assert.IsFalse(s.SummaryBelowData);
-    Assert.AreEqual(1, s.GroupBy);
-    Assert.AreEqual(ConsolidationFunction.Sum, s.SubtotalFunction);
+    public class SubtotalSettingPropertyGroupByDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+
+            // Create subtotal setting by retrieving existing settings
+            CellArea area = CellArea.CreateCellArea("A1", "B5");
+            SubtotalSetting subtotal = worksheet.Cells.RetrieveSubtotalSetting(area);
+            
+            // Configure subtotal settings through the proper API
+            // Note: GroupBy and SubtotalFunction are read from the setting, not set directly
+            // We apply subtotals directly to the worksheet
+            worksheet.Cells.Subtotal(area, 0, ConsolidationFunction.Sum, new int[] { 1 });
+
+            // Save the workbook
+            workbook.Save("SubtotalDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,50 +16,47 @@ public int FieldIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Filter applied on column index: " + filterColumn.FieldIndex);
-public static void FilterColumn_Property_FieldIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FilterColumnPropertyFieldIndexDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to filter
-            worksheet.Cells["A1"].PutValue("Name");
-            worksheet.Cells["B1"].PutValue("Age");
-            worksheet.Cells["A2"].PutValue("John");
-            worksheet.Cells["B2"].PutValue(25);
-            worksheet.Cells["A3"].PutValue("Jane");
-            worksheet.Cells["B3"].PutValue(30);
-            worksheet.Cells["A4"].PutValue("Doe");
-            worksheet.Cells["B4"].PutValue(22);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Department");
+            worksheet.Cells["B1"].PutValue("Employees");
+            worksheet.Cells["A2"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(15);
+            worksheet.Cells["A3"].PutValue("Marketing");
+            worksheet.Cells["B3"].PutValue(8);
+            worksheet.Cells["A4"].PutValue("IT");
+            worksheet.Cells["B4"].PutValue(12);
 
-            // Create an AutoFilter
+            // Apply auto filter
             worksheet.AutoFilter.Range = "A1:B4";
+            
+            // Add filter to first column (Department)
+            worksheet.AutoFilter.AddFilter(0, "Sales");
 
-            // Get the FilterColumnCollection
-            FilterColumnCollection filterColumns = worksheet.AutoFilter.FilterColumns;
-
-            // Add a filter to the second column (Age)
-            worksheet.AutoFilter.AddFilter(1, "25");
-
-            // Apply the filter
+            // Get the filter column
+            FilterColumn filterColumn = worksheet.AutoFilter.FilterColumns[0];
+            
+            // Demonstrate FieldIndex property
+            Console.WriteLine("Filter is applied on column index: " + filterColumn.FieldIndex);
+            
+            // Refresh and save
             worksheet.AutoFilter.Refresh();
-
-            // Access and manipulate the FilterColumnCollection
-            Console.WriteLine("Number of filters applied: " + filterColumns.Count);
-
-            // Get the first filter column
-            FilterColumn filterColumn = filterColumns.GetByIndex(0);
-            Console.WriteLine("Filter applied on column index: " + filterColumn.FieldIndex);
-
-            // Remove the filter
-            filterColumns.RemoveAt(0);
-            worksheet.AutoFilter.Refresh();
-
-            // Save the workbook
-            workbook.Save("FilterColumnCollectionExample.xlsx");
-            workbook.Save("FilterColumnCollectionExample.pdf");
+            workbook.Save("FilterColumnFieldIndexDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

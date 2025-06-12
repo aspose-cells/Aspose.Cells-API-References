@@ -17,19 +17,26 @@ class FontConfigs;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| static [defaultFontName](#defaultFontName--)| string | Gets or sets the default font name. |
+| static [preferSystemFontSubstitutes](#preferSystemFontSubstitutes--)| boolean | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| static [getDefaultFontName()](#getDefaultFontName--)| Gets or sets the default font name. |
-| static [setDefaultFontName(string)](#setDefaultFontName-string-)| Gets or sets the default font name. |
-| static [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--)| Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
-| static [setPreferSystemFontSubstitutes(boolean)](#setPreferSystemFontSubstitutes-boolean-)| Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
+| static [getDefaultFontName()](#getDefaultFontName--)| <b>@deprecated.</b> Please use the 'defaultFontName' property instead. Gets or sets the default font name. |
+| static [setDefaultFontName(string)](#setDefaultFontName-string-)| <b>@deprecated.</b> Please use the 'defaultFontName' property instead. Gets or sets the default font name. |
+| static [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--)| <b>@deprecated.</b> Please use the 'preferSystemFontSubstitutes' property instead. Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
+| static [setPreferSystemFontSubstitutes(boolean)](#setPreferSystemFontSubstitutes-boolean-)| <b>@deprecated.</b> Please use the 'preferSystemFontSubstitutes' property instead. Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
 | static [isFontAvailable(string)](#isFontAvailable-string-)| Indicate whether the font is available. |
 | static [getFontFileDataInfo(string, boolean, boolean, boolean)](#getFontFileDataInfo-string-boolean-boolean-boolean-)| Get data infomation of font file data. |
 | static [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-stringarray-)| Font substitute names for given original font name. |
@@ -49,6 +56,24 @@ constructor();
 ```
 
 
+### defaultFontName {#defaultFontName--}
+
+Gets or sets the default font name.
+
+```javascript
+static defaultFontName : string;
+```
+
+
+### preferSystemFontSubstitutes {#preferSystemFontSubstitutes--}
+
+Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
+
+```javascript
+static preferSystemFontSubstitutes : boolean;
+```
+
+
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -60,7 +85,7 @@ isNull() : boolean;
 
 ### getDefaultFontName() {#getDefaultFontName--}
 
-Gets or sets the default font name.
+<b>@deprecated.</b> Please use the 'defaultFontName' property instead. Gets or sets the default font name.
 
 ```javascript
 static getDefaultFontName() : string;
@@ -69,7 +94,7 @@ static getDefaultFontName() : string;
 
 ### setDefaultFontName(string) {#setDefaultFontName-string-}
 
-Gets or sets the default font name.
+<b>@deprecated.</b> Please use the 'defaultFontName' property instead. Gets or sets the default font name.
 
 ```javascript
 static setDefaultFontName(value: string) : void;
@@ -82,7 +107,7 @@ static setDefaultFontName(value: string) : void;
 
 ### getPreferSystemFontSubstitutes() {#getPreferSystemFontSubstitutes--}
 
-Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
+<b>@deprecated.</b> Please use the 'preferSystemFontSubstitutes' property instead. Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
 
 ```javascript
 static getPreferSystemFontSubstitutes() : boolean;
@@ -91,7 +116,7 @@ static getPreferSystemFontSubstitutes() : boolean;
 
 ### setPreferSystemFontSubstitutes(boolean) {#setPreferSystemFontSubstitutes-boolean-}
 
-Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
+<b>@deprecated.</b> Please use the 'preferSystemFontSubstitutes' property instead. Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
 
 ```javascript
 static setPreferSystemFontSubstitutes(value: boolean) : void;

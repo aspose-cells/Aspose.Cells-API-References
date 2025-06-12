@@ -30,12 +30,31 @@ NOTE: This member is now obsolete. Instead, please use CheckCell(int row, int co
 ### Examples
 
 ```csharp
-// Called: var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-public void Cells_Method_GetCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-    cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
+    public class CellsMethodGetCellWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell at row 1, column 2 (0-based index)
+            Cell cell = worksheet.Cells.GetCell(1, 2);
+            
+            // Set value and style for demonstration
+            cell.PutValue("Test Value");
+            Style style = cell.GetStyle();
+            style.Font.IsBold = true;
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("GetCellDemo.xlsx");
+        }
+    }
 }
 ```
 

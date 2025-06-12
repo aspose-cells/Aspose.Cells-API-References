@@ -16,32 +16,47 @@ public bool PreserveFormatting { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.PreserveFormatting = true;
-private void PivotTable_Property_PreserveFormatting(string file, string filePath)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyPreserveFormattingDemo
+    {
+        public static void Run()
         {
-            var book = new Workbook(filePath + file);
-            string sheetName = "Pivot";
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
-                pt.RefreshData();
-
-                PivotField pf = pt.RowFields["Bucket"];
-                //Should Hide the item detail for Rates_Carry_Value.
-                PivotItem pi = pf.PivotItems["Rates_Carry_Value"];
-                pf.HideItemDetail(pi.Index, true);
-
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
-            }
-
-            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A85"].StringValue, "Rates_Carry_Value");
-
-            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx");
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("source.xlsx");
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the first pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Enable preserving formatting during refresh
+            pivotTable.PreserveFormatting = true;
+            
+            // Apply some formatting to pivot table data area
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 10;
+            style.ForegroundColor = System.Drawing.Color.LightBlue;
+            style.Pattern = BackgroundType.Solid;
+            
+            // Format the pivot table data area
+            pivotTable.FormatAll(style);
+            
+            // Refresh and calculate pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

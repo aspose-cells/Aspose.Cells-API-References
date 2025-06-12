@@ -20,34 +20,33 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: ExportAllColumnIndexes = true,
-public static void XlsbSaveOptions_Property_ExportAllColumnIndexes()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XlsbSaveOptionsPropertyExportAllColumnIndexesDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Hello World");
+            
+            // Populate some data
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(2);
+            worksheet.Cells["C2"].PutValue(3);
 
-            // Create an instance of XlsbSaveOptions
             XlsbSaveOptions saveOptions = new XlsbSaveOptions
             {
-                CompressionType = OoxmlCompressionType.Level6,
-                ExportAllColumnIndexes = true,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
+                ExportAllColumnIndexes = true // Demonstrate the property usage
             };
 
-            // Save the workbook as XLSB file with the specified options
-            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
-
-            return;
+            workbook.Save("XlsbExportAllColumnIndexes.xlsb", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

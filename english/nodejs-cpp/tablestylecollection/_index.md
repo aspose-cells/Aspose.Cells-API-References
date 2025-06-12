@@ -15,21 +15,46 @@ class TableStyleCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [defaultTableStyleName](#defaultTableStyleName--)| string | Gets and sets the default style name of the table. |
+| [defaultPivotStyleName](#defaultPivotStyleName--)| string | Gets and sets the  default style name of pivot table . |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the table style by the index. |
 | [get(string)](#get-string-)| Gets the table style by the name. |
-| [getDefaultTableStyleName()](#getDefaultTableStyleName--)| Gets and sets the default style name of the table. |
-| [setDefaultTableStyleName(string)](#setDefaultTableStyleName-string-)| Gets and sets the default style name of the table. |
-| [getDefaultPivotStyleName()](#getDefaultPivotStyleName--)| Gets and sets the  default style name of pivot table . |
-| [setDefaultPivotStyleName(string)](#setDefaultPivotStyleName-string-)| Gets and sets the  default style name of pivot table . |
+| [getDefaultTableStyleName()](#getDefaultTableStyleName--)| <b>@deprecated.</b> Please use the 'defaultTableStyleName' property instead. Gets and sets the default style name of the table. |
+| [setDefaultTableStyleName(string)](#setDefaultTableStyleName-string-)| <b>@deprecated.</b> Please use the 'defaultTableStyleName' property instead. Gets and sets the default style name of the table. |
+| [getDefaultPivotStyleName()](#getDefaultPivotStyleName--)| <b>@deprecated.</b> Please use the 'defaultPivotStyleName' property instead. Gets and sets the  default style name of pivot table . |
+| [setDefaultPivotStyleName(string)](#setDefaultPivotStyleName-string-)| <b>@deprecated.</b> Please use the 'defaultPivotStyleName' property instead. Gets and sets the  default style name of pivot table . |
 | [addTableStyle(string)](#addTableStyle-string-)| Adds a custom table style. |
 | [addPivotTableStyle(string)](#addPivotTableStyle-string-)| Adds a custom pivot table style. |
 | [getBuiltinTableStyle(TableStyleType)](#getBuiltinTableStyle-tablestyletype-)| Gets the builtin table style |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### defaultTableStyleName {#defaultTableStyleName--}
+
+Gets and sets the default style name of the table.
+
+```javascript
+defaultTableStyleName : string;
+```
+
+
+### defaultPivotStyleName {#defaultPivotStyleName--}
+
+Gets and sets the  default style name of pivot table .
+
+```javascript
+defaultPivotStyleName : string;
+```
 
 
 ### get(number) {#get-number-}
@@ -68,7 +93,7 @@ The table style object.
 
 ### getDefaultTableStyleName() {#getDefaultTableStyleName--}
 
-Gets and sets the default style name of the table.
+<b>@deprecated.</b> Please use the 'defaultTableStyleName' property instead. Gets and sets the default style name of the table.
 
 ```javascript
 getDefaultTableStyleName() : string;
@@ -77,7 +102,7 @@ getDefaultTableStyleName() : string;
 
 ### setDefaultTableStyleName(string) {#setDefaultTableStyleName-string-}
 
-Gets and sets the default style name of the table.
+<b>@deprecated.</b> Please use the 'defaultTableStyleName' property instead. Gets and sets the default style name of the table.
 
 ```javascript
 setDefaultTableStyleName(value: string) : void;
@@ -90,7 +115,7 @@ setDefaultTableStyleName(value: string) : void;
 
 ### getDefaultPivotStyleName() {#getDefaultPivotStyleName--}
 
-Gets and sets the  default style name of pivot table .
+<b>@deprecated.</b> Please use the 'defaultPivotStyleName' property instead. Gets and sets the  default style name of pivot table .
 
 ```javascript
 getDefaultPivotStyleName() : string;
@@ -99,7 +124,7 @@ getDefaultPivotStyleName() : string;
 
 ### setDefaultPivotStyleName(string) {#setDefaultPivotStyleName-string-}
 
-Gets and sets the  default style name of pivot table .
+<b>@deprecated.</b> Please use the 'defaultPivotStyleName' property instead. Gets and sets the  default style name of pivot table .
 
 ```javascript
 setDefaultPivotStyleName(value: string) : void;
@@ -163,7 +188,7 @@ getBuiltinTableStyle(type: TableStyleType) : TableStyle;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

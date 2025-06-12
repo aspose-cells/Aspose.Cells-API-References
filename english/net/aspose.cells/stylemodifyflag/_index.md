@@ -76,9 +76,7 @@ Combinations of multiple properties are defined for user's convenience. When che
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,84 +16,50 @@ public bool HasDropLines { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.HasDropLines = false;
-public static void Series_Property_HasDropLines()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesPropertyHasDropLinesDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["A4"].PutValue(200);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
-            worksheet.Cells["B4"].PutValue(40);
-            worksheet.Cells["C1"].PutValue("Q1");
-            worksheet.Cells["C2"].PutValue("Q2");
-            worksheet.Cells["C3"].PutValue("Y1");
-            worksheet.Cells["C4"].PutValue("Y2");
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a line chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-            int seriesIndex = chart.NSeries.Add("A1:B4", true);
-            // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = "C1:C4";
 
-            // Accessing the series
-            Series series = chart.NSeries[seriesIndex];
+            // Add series data
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-            // Setting the values of the series
-            series.Values = "=B1:B4";
-            // Changing the chart type of the series
-            series.Type = ChartType.Line;
-            // Setting marker properties
-            series.Marker.MarkerStyle = ChartMarkerType.Circle;
-            series.Marker.ForegroundColorSetType = FormattingType.Automatic;
-            series.Marker.ForegroundColor = System.Drawing.Color.Black;
-            series.Marker.BackgroundColorSetType = FormattingType.Automatic;
+            // Get the first series
+            Series series = chart.NSeries[0];
 
-            // Setting additional properties
-            series.Name = "First Series";
-            series.IsFiltered = false;
-            series.ValuesFormatCode = "0.00";
-            series.XValues = "=A1:A4";
-            series.BubbleSizes = "=B1:B4";
-            series.Smooth = true;
-            series.Shadow = true;
-            series.Has3DEffect = true;
-            series.Bar3DShapeType = Bar3DShapeType.Cylinder;
-            series.PlotOnSecondAxis = false;
-            series.HasHiLoLines = false;
-            series.HasSeriesLines = false;
-            series.HasDropLines = false;
-            series.HasUpDownBars = false;
-            series.IsColorVaried = false;
-            series.GapWidth = 150;
-            series.FirstSliceAngle = 45;
-            series.Overlap = 0;
-            series.SecondPlotSize = 100;
-            series.SplitType = ChartSplitType.Position;
-            series.SplitValue = 10.0;
-            series.BubbleScale = 100;
-            series.SizeRepresents = BubbleSizeRepresents.SizeIsArea;
-            series.ShowNegativeBubbles = true;
-            series.DoughnutHoleSize = 50;
-            series.Explosion = 10;
-            series.HasRadarAxisLabels = false;
-            series.HasLeaderLines = true;
+            // Demonstrate HasDropLines property
+            series.HasDropLines = true; // Enable drop lines
+            series.Type = ChartType.Line; // Ensure it's a line chart for drop lines to be visible
 
-            // Saving the Excel file
-            workbook.Save("SeriesExample.xlsx");
+            // Save the workbook
+            workbook.Save("SeriesHasDropLinesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,26 +20,32 @@ public void Remove(string name)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.CustomDocumentProperties.Remove("_PID_HLINKS");
-// http://www.aspose.com/community/forums/thread/289649.aspx
-// Document corruption after opening Excel 2007 file with Aspose Cells 4.8.2.15 and resaving the filestream as a new file
-public void DocumentPropertyCollection_Method_Remove()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("DocumentPropertyCollection_Method_Remove()");
-    string infn = path + @"example.xlsx";
-    string outfn = Constants.destPath + @"example.xlsm";
+    public class DocumentPropertyCollectionMethodRemoveWithStringDemo
+    {
+        public static void Run()
+        {
+            string inputPath = "example.xlsx";
+            string outputPath = "output.xlsm";
 
-           
-    FileStream fstream = new FileStream(infn, FileMode.Open); /*docfile is path to xlsm file*/
-    Workbook workbook = new Workbook(fstream);
+            using (FileStream stream = new FileStream(inputPath, FileMode.Open))
+            {
+                Workbook workbook = new Workbook(stream);
+                
+                if (workbook.Worksheets.CustomDocumentProperties.Contains("_PID_HLINKS"))
+                {
+                    workbook.Worksheets.CustomDocumentProperties.Remove("_PID_HLINKS");
+                }
 
-    //To avoid aspose workbook corrupte file so close filestream
-    fstream.Dispose();
-
-    if (workbook.Worksheets.CustomDocumentProperties.Contains("_PID_HLINKS"))
-        workbook.Worksheets.CustomDocumentProperties.Remove("_PID_HLINKS");
-
-    workbook.Save(outfn, SaveFormat.Xlsm);
+                workbook.Save(outputPath, SaveFormat.Xlsm);
+            }
+        }
+    }
 }
 ```
 

@@ -16,18 +16,34 @@ public CellRichValue GetRichValue()
 ### Examples
 
 ```csharp
-// Called: CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-public void Cell_Method_GetRichValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook w = new Workbook();
-    w.Worksheets[0].Copy(wb.Worksheets[0]);
-    CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-    w.Save(Constants.destPath + "example.xlsx");
-    w = new Workbook(Constants.destPath + "example.xlsx");
-    c = w.Worksheets[0].Cells["A1"].GetRichValue();
-    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+    public class CellMethodGetRichValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access first worksheet
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Set a rich text value in cell A1
+            ws.Cells["A1"].PutValue("This is rich text");
+            
+            // Get the rich value from cell A1
+            CellRichValue richValue = ws.Cells["A1"].GetRichValue();
+            
+            // Display the rich text value
+            Console.WriteLine("Rich Text Value: " + ws.Cells["A1"].StringValue);
+            
+            // Save the workbook
+            wb.Save("RichValueDemo.xlsx");
+        }
+    }
 }
 ```
 

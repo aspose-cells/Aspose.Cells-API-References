@@ -16,17 +16,37 @@ public bool R1C1Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: new FormulaParseOptions() { R1C1Style = true });
-public void FormulaParseOptions_Property_R1C1Style()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[7, 4].SetArrayFormula("=TREND(RC[-1]:R[2]C[-1],RC[-2]:R[2]C[-2])", 3, 1,
-        new FormulaParseOptions() { R1C1Style = true });
-    for (int i = 7; i < 10; i++)
+    public class FormulaParseOptionsPropertyR1C1StyleDemo
     {
-        Assert.AreEqual("=TREND(RC[-1]:R[2]C[-1],RC[-2]:R[2]C[-2])", cells[i, 4].R1C1Formula,
-            "A" + (i + 1) + ".R1C1Formula(in arrayformula of E8:E10)");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            Cells cells = ws.Cells;
+
+            // Set values for referenced cells
+            cells["D7"].PutValue(10);
+            cells["D8"].PutValue(20);
+            cells["D9"].PutValue(30);
+            cells["C7"].PutValue(1);
+            cells["C8"].PutValue(2);
+            cells["C9"].PutValue(3);
+
+            // Set array formula using R1C1 style
+            cells[7, 4].SetArrayFormula("=TREND(RC[-1]:R[2]C[-1],RC[-2]:R[2]C[-2])", 3, 1,
+                new FormulaParseOptions() { R1C1Style = true });
+
+            // Output the R1C1 formulas
+            for (int i = 7; i < 10; i++)
+            {
+                Console.WriteLine($"Cell E{i + 1} R1C1 formula: {cells[i, 4].R1C1Formula}");
+            }
+        }
     }
 }
 ```

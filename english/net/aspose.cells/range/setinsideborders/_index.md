@@ -23,22 +23,36 @@ public void SetInsideBorders(BorderType borderEdge, CellBorderType lineStyle,
 ### Examples
 
 ```csharp
-// Called: range.SetInsideBorders(BorderType.Vertical, CellBorderType.Thin, color);
-public void Range_Method_SetInsideBorders()
-{
-    Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B5:F10");
-    CellsColor color = workbook.CreateCellsColor();
-    color.Color = Color.Red;
-    range.SetInsideBorders(BorderType.Vertical, CellBorderType.Thin, color);
-    Cell cell = workbook.Worksheets[0].Cells["F5"];
-    Style style = cell.GetStyle();
-    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.LeftBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.BottomBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
-    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.RightBorder].LineStyle);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class RangeMethodSetInsideBordersWithBorderTypeCellBorderTypeCellsCDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range and set inside borders
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B5:F10");
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = Color.Red;
+            range.SetInsideBorders(BorderType.Vertical, CellBorderType.Thin, color);
+
+            // Verify the borders in a cell within the range
+            Cell cell = worksheet.Cells["C6"];
+            Style style = cell.GetStyle();
+            Console.WriteLine("Left Border: " + style.Borders[BorderType.LeftBorder].LineStyle);
+            Console.WriteLine("Right Border: " + style.Borders[BorderType.RightBorder].LineStyle);
+            Console.WriteLine("Top Border: " + style.Borders[BorderType.TopBorder].LineStyle);
+            Console.WriteLine("Bottom Border: " + style.Borders[BorderType.BottomBorder].LineStyle);
+
+            workbook.Save("SetInsideBordersExample.xlsx");
+        }
+    }
 }
 ```
 

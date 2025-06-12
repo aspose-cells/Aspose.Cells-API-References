@@ -24,19 +24,39 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: checkBox = workbook.Worksheets[0].CheckBoxes[0];
-public void CheckBoxCollection_Property_Item()
-    {
-    Workbook workbook = new Workbook();
-    Worksheet ws = workbook.Worksheets[0];
-    int idxCheckBox = ws.CheckBoxes.Add(0, 1, 17, 17);
-    CheckBox checkBox = ws.CheckBoxes[idxCheckBox];
-    checkBox.Name = ("Importer_Ligne_" + (0 + 1));
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    checkBox = workbook.Worksheets[0].CheckBoxes[0];
-    Assert.AreEqual(("Importer_Ligne_" + (0 + 1)), checkBox.Name);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class CheckBoxCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a checkbox to the worksheet
+            int index = worksheet.CheckBoxes.Add(10, 10, 100, 20);
+            
+            // Access the checkbox using Item property (indexer)
+            Aspose.Cells.Drawing.CheckBox checkBox = worksheet.CheckBoxes[index];
+            checkBox.Text = "Sample CheckBox";
+            checkBox.Name = "CheckBox1";
+            
+            // Access the checkbox using index (Item property)
+            Aspose.Cells.Drawing.CheckBox checkBoxByName = worksheet.CheckBoxes[0];
+            
+            // Output the checkbox properties
+            Console.WriteLine("CheckBox Name: " + checkBoxByName.Name);
+            Console.WriteLine("CheckBox Text: " + checkBoxByName.Text);
+            
+            // Save the workbook
+            workbook.Save("CheckBoxExample.xlsx");
+        }
+    }
 }
 ```
 

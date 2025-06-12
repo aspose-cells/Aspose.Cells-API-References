@@ -16,19 +16,36 @@ public float FloatValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(grid.Cells[12, 2].FloatValue, 1);
-[Test, Category("Bug")]
-        public void Cell_Property_FloatValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellPropertyFloatValueDemo
+    {
+        public static void Run()
         {
             Workbook workbook = new Workbook();
-            Worksheet grid = workbook.Worksheets[0];
-            Aspose.Cells.Cell cell = grid.Cells[0, 2];
-            cell.Formula = "=3-2";
-            grid.Workbook.CalculateFormula(false);
-            cell.SetSharedFormula(cell.Formula, 13, 1);
-            grid.Workbook.CalculateFormula(false);
-            Assert.AreEqual(grid.Cells[12, 2].FloatValue, 1);
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set numeric value directly
+            worksheet.Cells["A1"].PutValue(3.14f);
+            Console.WriteLine("FloatValue of A1: " + worksheet.Cells["A1"].FloatValue);
+            
+            // Set formula that returns float
+            worksheet.Cells["A2"].Formula = "=3.5*2";
+            workbook.CalculateFormula();
+            Console.WriteLine("FloatValue of A2: " + worksheet.Cells["A2"].FloatValue);
+            
+            // Demonstrate FloatValue with shared formula
+            worksheet.Cells["B1"].Formula = "=5-2";
+            workbook.CalculateFormula();
+            worksheet.Cells["B1"].SetSharedFormula("=5-2", 3, 1);
+            workbook.CalculateFormula();
+            Console.WriteLine("FloatValue of B3: " + worksheet.Cells["B3"].FloatValue);
         }
+    }
+}
 ```
 
 ### See Also

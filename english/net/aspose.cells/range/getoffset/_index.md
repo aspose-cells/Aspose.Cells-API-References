@@ -21,16 +21,28 @@ public Range GetOffset(int rowOffset, int columnOffset)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("B2", range.GetOffset(1, 1).Address);
-public void Range_Method_GetOffset()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange("A1");
-    Assert.AreEqual("A1", range.Address);
-    Assert.AreEqual("B2", range.GetOffset(1, 1).Address);
-    Assert.AreEqual("1:1", range.EntireRow.Address);
-    Assert.AreEqual("A:A", range.EntireColumn.Address);
+    public class RangeMethodGetOffsetWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Create initial range
+            Aspose.Cells.Range originalRange = cells.CreateRange("A1");
+            Console.WriteLine("Original Range Address: " + originalRange.Address);
+            
+            // Get offset range
+            Aspose.Cells.Range offsetRange = originalRange.GetOffset(1, 1);
+            Console.WriteLine("Offset Range Address: " + offsetRange.Address);
+        }
+    }
 }
 ```
 

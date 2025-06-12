@@ -16,25 +16,39 @@ public bool Borders { get; set; }
 ### Examples
 
 ```csharp
-// Called: sflag.Borders = true;
-public void StyleFlag_Property_Borders()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testApplyStyle_002";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = getStyle(workbook);
-    StyleFlag sflag = new StyleFlag();
-    sflag.Borders = true;
+    public class StyleFlagPropertyBordersDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    cells.ApplyStyle(style, sflag);
+            // Create a style with border settings
+            Style style = workbook.CreateStyle();
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.TopBorder].Color = System.Drawing.Color.Red;
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.BottomBorder].Color = System.Drawing.Color.Blue;
 
-    checkApplyStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyStyle.xlsx");
-    workbook = new Workbook(Constants.destPath + "testApplyStyle.xlsx");
-    checkApplyStyle_001(workbook);
-    workbook.Save(Constants.destPath + "testApplyStyle.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testApplyStyle.xml");
-    workbook.Save(Constants.destPath + "testApplyStyle.xls");
+            // Create a style flag and enable borders
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.Borders = true;
+
+            // Apply the style to cell A1 with borders only
+            cells["A1"].PutValue("Borders Demo");
+            cells["A1"].SetStyle(style, styleFlag);
+
+            // Save the workbook
+            workbook.Save("BordersDemo.xlsx");
+        }
+    }
 }
 ```
 

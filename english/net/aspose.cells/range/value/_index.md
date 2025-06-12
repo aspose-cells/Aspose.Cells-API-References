@@ -20,15 +20,29 @@ If the range contains multiple cells, the returned/applied object should be a tw
 ### Examples
 
 ```csharp
-// Called: r.Value = new int[3, 3];
-public void Range_Property_Value()
-{
-    Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
 
-    Aspose.Cells.Range r = workbook.Worksheets[0].Cells.CreateRange("A1");
-    r.Value = new int[3, 3];
-    Assert.AreEqual(workbook.Worksheets[0].Cells["B2"].IntValue, 0);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class RangePropertyValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range starting from A1 covering 3x3 cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1:C3");
+
+            // Set a 2D array as the value for the range
+            int[,] values = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            range.Value = values;
+
+            // Save the workbook
+            workbook.Save("RangePropertyValueDemo.xlsx");
+        }
+    }
 }
 ```
 

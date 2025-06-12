@@ -16,24 +16,45 @@ public abstract ExternalConnectionClassType ClassType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
-public void ExternalConnection_Property_ClassType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    public class ExternalConnectionPropertyClassTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["B1"].PutValue("Sales");
+            for (int i = 2; i <= 10; i++)
+            {
+                sheet.Cells[$"A{i}"].PutValue($"Product {i-1}");
+                sheet.Cells[$"B{i}"].PutValue(i * 100);
+            }
 
-    ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
-    Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
-   Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
-   Assert.IsNull(conn.ConnectionFile);
-    Assert.IsNull(conn.ConnectionString);
+            // Create a pivot table with Data Model connection
+            int pivotIndex = sheet.PivotTables.Add("A1:B10", "C1", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-    Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
+            // Get the external connection and demonstrate ClassType property
+            ExternalConnection conn = pivotTable.GetSourceDataConnections()[0];
+            Console.WriteLine($"Connection ClassType: {conn.ClassType}");
+            Console.WriteLine($"Expected ClassType: {ExternalConnectionClassType.DataModel}");
 
-
-    conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("Data3",conn.Command);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("ExternalConnectionClassTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

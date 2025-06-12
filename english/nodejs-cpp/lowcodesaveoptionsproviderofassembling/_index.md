@@ -17,35 +17,50 @@ class LowCodeSaveOptionsProviderOfAssembling extends AbstractLowCodeSaveOptionsP
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(AbstractLowCodeSaveOptionsProvider)](#constructor-abstractlowcodesaveoptionsprovider-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pathHeader](#pathHeader--)| string | Header part(before added content of sheet and split part) of file path. |
+| [pathTail](#pathTail--)| string | Tailing part(after sequence numbers) of file path. It should include extension of file name. |
+| [useSheetName](#useSheetName--)| boolean | Whether builds the file path with sheet name instead of sheet index. Default value is false. |
+| [sheetPrefix](#sheetPrefix--)| string | Prefix for the index of worksheet. |
+| [splitPartPrefix](#splitPartPrefix--)| string | Prefix for the index of split part. |
+| [sheetIndexOffset](#sheetIndexOffset--)| number | Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)). |
+| [splitPartIndexOffset](#splitPartIndexOffset--)| number | Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)). |
+| [buildPathWithSheetAlways](#buildPathWithSheetAlways--)| boolean | Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path. |
+| [buildPathWithSplitPartAlways](#buildPathWithSplitPartAlways--)| boolean | Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
+| [saveOptionsTemplate](#saveOptionsTemplate--)| LowCodeSaveOptions | The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPathHeader()](#getPathHeader--)| Header part(before added content of sheet and split part) of file path. |
-| [setPathHeader(string)](#setPathHeader-string-)| Header part(before added content of sheet and split part) of file path. |
-| [getPathTail()](#getPathTail--)| Tailing part(after sequence numbers) of file path. It should include extension of file name. |
-| [setPathTail(string)](#setPathTail-string-)| Tailing part(after sequence numbers) of file path. It should include extension of file name. |
-| [getUseSheetName()](#getUseSheetName--)| Whether builds the file path with sheet name instead of sheet index. Default value is false. |
-| [setUseSheetName(boolean)](#setUseSheetName-boolean-)| Whether builds the file path with sheet name instead of sheet index. Default value is false. |
-| [getSheetPrefix()](#getSheetPrefix--)| Prefix for the index of worksheet. |
-| [setSheetPrefix(string)](#setSheetPrefix-string-)| Prefix for the index of worksheet. |
-| [getSplitPartPrefix()](#getSplitPartPrefix--)| Prefix for the index of split part. |
-| [setSplitPartPrefix(string)](#setSplitPartPrefix-string-)| Prefix for the index of split part. |
-| [getSheetIndexOffset()](#getSheetIndexOffset--)| Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)). |
-| [setSheetIndexOffset(number)](#setSheetIndexOffset-number-)| Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)). |
-| [getSplitPartIndexOffset()](#getSplitPartIndexOffset--)| Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)). |
-| [setSplitPartIndexOffset(number)](#setSplitPartIndexOffset-number-)| Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)). |
-| [getBuildPathWithSheetAlways()](#getBuildPathWithSheetAlways--)| Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path. |
-| [setBuildPathWithSheetAlways(boolean)](#setBuildPathWithSheetAlways-boolean-)| Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path. |
-| [getBuildPathWithSplitPartAlways()](#getBuildPathWithSplitPartAlways--)| Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
-| [setBuildPathWithSplitPartAlways(boolean)](#setBuildPathWithSplitPartAlways-boolean-)| Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
-| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--)| The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
-| [setSaveOptionsTemplate(LowCodeSaveOptions)](#setSaveOptionsTemplate-lowcodesaveoptions-)| The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
+| [getPathHeader()](#getPathHeader--)| <b>@deprecated.</b> Please use the 'pathHeader' property instead. Header part(before added content of sheet and split part) of file path. |
+| [setPathHeader(string)](#setPathHeader-string-)| <b>@deprecated.</b> Please use the 'pathHeader' property instead. Header part(before added content of sheet and split part) of file path. |
+| [getPathTail()](#getPathTail--)| <b>@deprecated.</b> Please use the 'pathTail' property instead. Tailing part(after sequence numbers) of file path. It should include extension of file name. |
+| [setPathTail(string)](#setPathTail-string-)| <b>@deprecated.</b> Please use the 'pathTail' property instead. Tailing part(after sequence numbers) of file path. It should include extension of file name. |
+| [getUseSheetName()](#getUseSheetName--)| <b>@deprecated.</b> Please use the 'useSheetName' property instead. Whether builds the file path with sheet name instead of sheet index. Default value is false. |
+| [setUseSheetName(boolean)](#setUseSheetName-boolean-)| <b>@deprecated.</b> Please use the 'useSheetName' property instead. Whether builds the file path with sheet name instead of sheet index. Default value is false. |
+| [getSheetPrefix()](#getSheetPrefix--)| <b>@deprecated.</b> Please use the 'sheetPrefix' property instead. Prefix for the index of worksheet. |
+| [setSheetPrefix(string)](#setSheetPrefix-string-)| <b>@deprecated.</b> Please use the 'sheetPrefix' property instead. Prefix for the index of worksheet. |
+| [getSplitPartPrefix()](#getSplitPartPrefix--)| <b>@deprecated.</b> Please use the 'splitPartPrefix' property instead. Prefix for the index of split part. |
+| [setSplitPartPrefix(string)](#setSplitPartPrefix-string-)| <b>@deprecated.</b> Please use the 'splitPartPrefix' property instead. Prefix for the index of split part. |
+| [getSheetIndexOffset()](#getSheetIndexOffset--)| <b>@deprecated.</b> Please use the 'sheetIndexOffset' property instead. Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)). |
+| [setSheetIndexOffset(number)](#setSheetIndexOffset-number-)| <b>@deprecated.</b> Please use the 'sheetIndexOffset' property instead. Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)). |
+| [getSplitPartIndexOffset()](#getSplitPartIndexOffset--)| <b>@deprecated.</b> Please use the 'splitPartIndexOffset' property instead. Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)). |
+| [setSplitPartIndexOffset(number)](#setSplitPartIndexOffset-number-)| <b>@deprecated.</b> Please use the 'splitPartIndexOffset' property instead. Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)). |
+| [getBuildPathWithSheetAlways()](#getBuildPathWithSheetAlways--)| <b>@deprecated.</b> Please use the 'buildPathWithSheetAlways' property instead. Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path. |
+| [setBuildPathWithSheetAlways(boolean)](#setBuildPathWithSheetAlways-boolean-)| <b>@deprecated.</b> Please use the 'buildPathWithSheetAlways' property instead. Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path. |
+| [getBuildPathWithSplitPartAlways()](#getBuildPathWithSplitPartAlways--)| <b>@deprecated.</b> Please use the 'buildPathWithSplitPartAlways' property instead. Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
+| [setBuildPathWithSplitPartAlways(boolean)](#setBuildPathWithSplitPartAlways-boolean-)| <b>@deprecated.</b> Please use the 'buildPathWithSplitPartAlways' property instead. Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
+| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
+| [setSaveOptionsTemplate(LowCodeSaveOptions)](#setSaveOptionsTemplate-lowcodesaveoptions-)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
 | [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [finish(LowCodeSaveOptions)](#finish-lowcodesaveoptions-)| Releases resources after processing currently split part. |
@@ -73,9 +88,119 @@ constructor();
 ```
 
 
-### getPathHeader() {#getPathHeader--}
+### pathHeader {#pathHeader--}
 
 Header part(before added content of sheet and split part) of file path.
+
+```javascript
+pathHeader : string;
+```
+
+
+### pathTail {#pathTail--}
+
+Tailing part(after sequence numbers) of file path. It should include extension of file name.
+
+```javascript
+pathTail : string;
+```
+
+
+### useSheetName {#useSheetName--}
+
+Whether builds the file path with sheet name instead of sheet index. Default value is false.
+
+```javascript
+useSheetName : boolean;
+```
+
+
+**Remarks**
+
+The sheet name will never be rebuilt automatically. So when set it to true, please make sure there is no special sheet name that can cause invalid file path or name.
+
+### sheetPrefix {#sheetPrefix--}
+
+Prefix for the index of worksheet.
+
+```javascript
+sheetPrefix : string;
+```
+
+
+**Remarks**
+
+If there is only one worksheet and [BuildPathWithSheetAlways](../buildpathwithsheetalways/) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
+
+### splitPartPrefix {#splitPartPrefix--}
+
+Prefix for the index of split part.
+
+```javascript
+splitPartPrefix : string;
+```
+
+
+**Remarks**
+
+If there is only one split part and [BuildPathWithSplitPartAlways](../buildpathwithsplitpartalways/) is false, then this prefix and the split part index(0) will not be added to the resultant file path.
+
+### sheetIndexOffset {#sheetIndexOffset--}
+
+Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)).
+
+```javascript
+sheetIndexOffset : number;
+```
+
+
+**Remarks**
+
+Only takes effect when [UseSheetName](../usesheetname/) is false.
+
+### splitPartIndexOffset {#splitPartIndexOffset--}
+
+Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)).
+
+```javascript
+splitPartIndexOffset : number;
+```
+
+
+### buildPathWithSheetAlways {#buildPathWithSheetAlways--}
+
+Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path.
+
+```javascript
+buildPathWithSheetAlways : boolean;
+```
+
+
+### buildPathWithSplitPartAlways {#buildPathWithSplitPartAlways--}
+
+Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path.
+
+```javascript
+buildPathWithSplitPartAlways : boolean;
+```
+
+
+### saveOptionsTemplate {#saveOptionsTemplate--}
+
+The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
+
+```javascript
+saveOptionsTemplate : LowCodeSaveOptions;
+```
+
+
+**Remarks**
+
+If the template has been specified, then the created instance will copy all setting from it and update the output file accordingly.
+
+### getPathHeader() {#getPathHeader--}
+
+<b>@deprecated.</b> Please use the 'pathHeader' property instead. Header part(before added content of sheet and split part) of file path.
 
 ```javascript
 getPathHeader() : string;
@@ -84,7 +209,7 @@ getPathHeader() : string;
 
 ### setPathHeader(string) {#setPathHeader-string-}
 
-Header part(before added content of sheet and split part) of file path.
+<b>@deprecated.</b> Please use the 'pathHeader' property instead. Header part(before added content of sheet and split part) of file path.
 
 ```javascript
 setPathHeader(value: string) : void;
@@ -97,7 +222,7 @@ setPathHeader(value: string) : void;
 
 ### getPathTail() {#getPathTail--}
 
-Tailing part(after sequence numbers) of file path. It should include extension of file name.
+<b>@deprecated.</b> Please use the 'pathTail' property instead. Tailing part(after sequence numbers) of file path. It should include extension of file name.
 
 ```javascript
 getPathTail() : string;
@@ -106,7 +231,7 @@ getPathTail() : string;
 
 ### setPathTail(string) {#setPathTail-string-}
 
-Tailing part(after sequence numbers) of file path. It should include extension of file name.
+<b>@deprecated.</b> Please use the 'pathTail' property instead. Tailing part(after sequence numbers) of file path. It should include extension of file name.
 
 ```javascript
 setPathTail(value: string) : void;
@@ -119,7 +244,7 @@ setPathTail(value: string) : void;
 
 ### getUseSheetName() {#getUseSheetName--}
 
-Whether builds the file path with sheet name instead of sheet index. Default value is false.
+<b>@deprecated.</b> Please use the 'useSheetName' property instead. Whether builds the file path with sheet name instead of sheet index. Default value is false.
 
 ```javascript
 getUseSheetName() : boolean;
@@ -132,7 +257,7 @@ The sheet name will never be rebuilt automatically. So when set it to true, plea
 
 ### setUseSheetName(boolean) {#setUseSheetName-boolean-}
 
-Whether builds the file path with sheet name instead of sheet index. Default value is false.
+<b>@deprecated.</b> Please use the 'useSheetName' property instead. Whether builds the file path with sheet name instead of sheet index. Default value is false.
 
 ```javascript
 setUseSheetName(value: boolean) : void;
@@ -149,7 +274,7 @@ The sheet name will never be rebuilt automatically. So when set it to true, plea
 
 ### getSheetPrefix() {#getSheetPrefix--}
 
-Prefix for the index of worksheet.
+<b>@deprecated.</b> Please use the 'sheetPrefix' property instead. Prefix for the index of worksheet.
 
 ```javascript
 getSheetPrefix() : string;
@@ -162,7 +287,7 @@ If there is only one worksheet and [BuildPathWithSheetAlways](../buildpathwithsh
 
 ### setSheetPrefix(string) {#setSheetPrefix-string-}
 
-Prefix for the index of worksheet.
+<b>@deprecated.</b> Please use the 'sheetPrefix' property instead. Prefix for the index of worksheet.
 
 ```javascript
 setSheetPrefix(value: string) : void;
@@ -179,7 +304,7 @@ If there is only one worksheet and [BuildPathWithSheetAlways](../buildpathwithsh
 
 ### getSplitPartPrefix() {#getSplitPartPrefix--}
 
-Prefix for the index of split part.
+<b>@deprecated.</b> Please use the 'splitPartPrefix' property instead. Prefix for the index of split part.
 
 ```javascript
 getSplitPartPrefix() : string;
@@ -192,7 +317,7 @@ If there is only one split part and [BuildPathWithSplitPartAlways](../buildpathw
 
 ### setSplitPartPrefix(string) {#setSplitPartPrefix-string-}
 
-Prefix for the index of split part.
+<b>@deprecated.</b> Please use the 'splitPartPrefix' property instead. Prefix for the index of split part.
 
 ```javascript
 setSplitPartPrefix(value: string) : void;
@@ -209,7 +334,7 @@ If there is only one split part and [BuildPathWithSplitPartAlways](../buildpathw
 
 ### getSheetIndexOffset() {#getSheetIndexOffset--}
 
-Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)).
+<b>@deprecated.</b> Please use the 'sheetIndexOffset' property instead. Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)).
 
 ```javascript
 getSheetIndexOffset() : number;
@@ -222,7 +347,7 @@ Only takes effect when [UseSheetName](../usesheetname/) is false.
 
 ### setSheetIndexOffset(number) {#setSheetIndexOffset-number-}
 
-Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)).
+<b>@deprecated.</b> Please use the 'sheetIndexOffset' property instead. Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.SheetIndex](../splitpartinfo.sheetindex/)).
 
 ```javascript
 setSheetIndexOffset(value: number) : void;
@@ -239,7 +364,7 @@ Only takes effect when [UseSheetName](../usesheetname/) is false.
 
 ### getSplitPartIndexOffset() {#getSplitPartIndexOffset--}
 
-Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)).
+<b>@deprecated.</b> Please use the 'splitPartIndexOffset' property instead. Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)).
 
 ```javascript
 getSplitPartIndexOffset() : number;
@@ -248,7 +373,7 @@ getSplitPartIndexOffset() : number;
 
 ### setSplitPartIndexOffset(number) {#setSplitPartIndexOffset-number-}
 
-Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)).
+<b>@deprecated.</b> Please use the 'splitPartIndexOffset' property instead. Offset of split part's index between what used in file path and its actual value([SplitPartInfo.PartIndex](../splitpartinfo.partindex/)).
 
 ```javascript
 setSplitPartIndexOffset(value: number) : void;
@@ -261,7 +386,7 @@ setSplitPartIndexOffset(value: number) : void;
 
 ### getBuildPathWithSheetAlways() {#getBuildPathWithSheetAlways--}
 
-Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path.
+<b>@deprecated.</b> Please use the 'buildPathWithSheetAlways' property instead. Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path.
 
 ```javascript
 getBuildPathWithSheetAlways() : boolean;
@@ -270,7 +395,7 @@ getBuildPathWithSheetAlways() : boolean;
 
 ### setBuildPathWithSheetAlways(boolean) {#setBuildPathWithSheetAlways-boolean-}
 
-Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path.
+<b>@deprecated.</b> Please use the 'buildPathWithSheetAlways' property instead. Whether add sheet index or name to file path always. Default value is false, that is, when there is only one sheet, the sheet index(or name) and corresponding prefix will not be added to the file path.
 
 ```javascript
 setBuildPathWithSheetAlways(value: boolean) : void;
@@ -283,7 +408,7 @@ setBuildPathWithSheetAlways(value: boolean) : void;
 
 ### getBuildPathWithSplitPartAlways() {#getBuildPathWithSplitPartAlways--}
 
-Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path.
+<b>@deprecated.</b> Please use the 'buildPathWithSplitPartAlways' property instead. Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path.
 
 ```javascript
 getBuildPathWithSplitPartAlways() : boolean;
@@ -292,7 +417,7 @@ getBuildPathWithSplitPartAlways() : boolean;
 
 ### setBuildPathWithSplitPartAlways(boolean) {#setBuildPathWithSplitPartAlways-boolean-}
 
-Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path.
+<b>@deprecated.</b> Please use the 'buildPathWithSplitPartAlways' property instead. Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path.
 
 ```javascript
 setBuildPathWithSplitPartAlways(value: boolean) : void;
@@ -305,7 +430,7 @@ setBuildPathWithSplitPartAlways(value: boolean) : void;
 
 ### getSaveOptionsTemplate() {#getSaveOptionsTemplate--}
 
-The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
+<b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
 
 ```javascript
 getSaveOptionsTemplate() : LowCodeSaveOptions;
@@ -322,7 +447,7 @@ If the template has been specified, then the created instance will copy all sett
 
 ### setSaveOptionsTemplate(LowCodeSaveOptions) {#setSaveOptionsTemplate-lowcodesaveoptions-}
 
-The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
+<b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
 
 ```javascript
 setSaveOptionsTemplate(value: LowCodeSaveOptions) : void;

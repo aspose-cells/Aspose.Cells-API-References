@@ -16,11 +16,37 @@ public bool IsLine { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if(s.IsLine)
+namespace AsposeCellsExamples
 {
-    //Is line.
+    public class SignatureLinePropertyIsLineDemo
+    {
+        public static void Run()
+        {
+            // Create a signature line instance
+            SignatureLine signature = new SignatureLine();
+            
+            // Set IsLine to true
+            signature.IsLine = true;
+            
+            // Check and demonstrate IsLine usage
+            if (signature.IsLine)
+            {
+                Console.WriteLine("Signature line is active.");
+            }
+            
+            // Toggle IsLine state
+            signature.IsLine = false;
+            
+            if (!signature.IsLine)
+            {
+                Console.WriteLine("Signature line is now inactive.");
+            }
+        }
+    }
 }
 ```
 

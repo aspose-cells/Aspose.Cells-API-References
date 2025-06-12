@@ -24,6 +24,52 @@ public class SensitivityLabel
 | [IsRemoved](../../aspose.cells.metas/sensitivitylabel/isremoved/) { get; set; } | Indicates whether the sensitivity label was removed. |
 | [SiteId](../../aspose.cells.metas/sensitivitylabel/siteid/) { get; set; } | Represents the Azure Active Directory (Azure AD) site identifier corresponding to the sensitivity label policy which describes the sensitivity label. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metas;
+    using System;
+
+    public class MetasClassSensitivityLabelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Create an instance of the SensitivityLabel class using reflection
+                SensitivityLabel label = (SensitivityLabel)Activator.CreateInstance(typeof(SensitivityLabel));
+                
+                // Set basic properties
+                label.Id = "CONFIDENTIAL_001";
+                label.IsEnabled = true;
+                label.AssignmentType = SensitivityLabelAssignmentType.Standard;
+                label.ContentMarkType = SensitivityLabelMarkType.None;
+                
+                // Display property values
+                Console.WriteLine($"Sensitivity Label Created:");
+                Console.WriteLine($"ID: {label.Id}");
+                Console.WriteLine($"Enabled: {label.IsEnabled}");
+                Console.WriteLine($"Assignment Type: {label.AssignmentType}");
+                Console.WriteLine($"Content Mark Type: {label.ContentMarkType}");
+                
+                // Save the workbook
+                workbook.Save("SensitivityLabelDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with SensitivityLabel: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Metas](../../aspose.cells.metas/)

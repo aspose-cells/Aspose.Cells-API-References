@@ -28,15 +28,27 @@ If the column is not grouped, returns zero.
 ### Examples
 
 ```csharp
-// Called: int m = mWorksheet.Cells.GetGroupedColumnOutlineLevel(0);
-public void Cells_Method_GetGroupedColumnOutlineLevel()
-{
-    Workbook workbook = new Workbook();
-    Worksheet mWorksheet = workbook.Worksheets["Sheet1"];
+using System;
+using Aspose.Cells;
 
-mWorksheet.Cells[0, 0].Formula = "='C:\\book1.xls'!SomeNamedRange";
-mWorksheet.Cells[1, 0].Formula = "='[C:\\book1.xls]'!SomeNamedRange";
-int m = mWorksheet.Cells.GetGroupedColumnOutlineLevel(0);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGetGroupedColumnOutlineLevelWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Group columns (first 3 columns) without hiding them
+            worksheet.Cells.GroupColumns(0, 2, false);
+            
+            // Get outline level of first column
+            int outlineLevel = worksheet.Cells.GetGroupedColumnOutlineLevel(0);
+            
+            Console.WriteLine("Outline level of column 0: " + outlineLevel);
+        }
+    }
 }
 ```
 

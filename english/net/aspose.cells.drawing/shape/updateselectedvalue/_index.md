@@ -16,54 +16,57 @@ public void UpdateSelectedValue()
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-Cell cell = null;
-for (int i = 0; i< 10; ++i)
+namespace AsposeCellsExamples
 {
-    cell = book.Worksheets[0].Cells[i, 0];
-    cell.Value = i + 1;
+    public class ShapeMethodUpdateSelectedValueDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some sample data
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells[i, 0].Value = i + 1;
+            }
+
+            // Create a ListBox shape
+            Shape listBoxShape = worksheet.Shapes.AddListBox(2, 0, 2, 0, 130, 130);
+            
+            // Set input range and linked cell
+            listBoxShape.SetInputRange("$A$1:$A$6", false, false);
+            listBoxShape.SetLinkedCell("$A$12", false, true);
+
+            // Get the ListBox object
+            ListBox listBox = (ListBox)listBoxShape;
+
+            // Set initial value in linked cell and update selection
+            worksheet.Cells["A12"].Value = 3;
+            listBoxShape.UpdateSelectedValue();
+
+            // Verify selection
+            if (listBox.IsSelected(2))
+            {
+                Console.WriteLine("Option 3 is selected");
+            }
+
+            // Change value and update selection again
+            worksheet.Cells["A12"].Value = 4;
+            listBoxShape.UpdateSelectedValue();
+
+            if (listBox.IsSelected(3))
+            {
+                Console.WriteLine("Option 4 is selected");
+            }
+        }
+    }
 }
-   
-//Create a ListBox object
-
-//ActiveX Controls
-//Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ListBox,2, 0, 2, 0, 130, 130);
-
-//Form Controls
-Aspose.Cells.Drawing.Shape listBox = book.Worksheets[0].Shapes.AddListBox(2, 0, 2, 0, 130, 130);
-
-//Sets the range used to fill the control.
-listBox.SetInputRange("$A$1:$A$6", false, false);
-
-//Sets the range linked to the control's value.
-listBox.SetLinkedCell("$A$12", false, true);
-
-ListBox listbx = (ListBox)listBox;
-
-//Set the value of cell A12
-cell = book.Worksheets[0].Cells[11, 0];
-cell.Value = 3;
-
-//Update the selected value by the value of the linked cell.
-listBox.UpdateSelectedValue();
-
-//-1 default, no option selected
-if(listbx.IsSelected(2))
-{
-    //Option 3 of the ListBox is selected
-}
-
-//Change the value of a linked cell
-cell.Value = 4;
-
-//Update the selected value by the value of the linked cell.
-listBox.UpdateSelectedValue();
-if(listbx.IsSelected(3))
-{
-    //Option 4 of the ListBox is selected
-}
-
 ```
 
 ### See Also

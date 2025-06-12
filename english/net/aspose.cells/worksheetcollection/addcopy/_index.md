@@ -30,32 +30,39 @@ public int AddCopy(string sheetName)
 ### Examples
 
 ```csharp
-// Called: int iDesign = wb.Worksheets.AddCopy("Designer");
-         //http://www.aspose.com/community/forums/thread/347146.aspx
-         public void WorksheetCollection_Method_AddCopy()
-         {
-             Console.WriteLine("testCELLSNET_40157 ()");
-             string infn = path + @"example.xlsx";
-             string outfn = destpath + @"template.out.xlsx";
+using System;
+using Aspose.Cells;
 
-             string infn1 = path + @"example.xls";
-             string outfn1 = destpath + @"template.out1.xlsx";
-
-
-             Workbook wb = new Workbook(infn);
-             int iDesign = wb.Worksheets.AddCopy("Designer");
-             Worksheet wsDesigner = wb.Worksheets[iDesign];
-             wsDesigner.Name = "Copy";
-             wb.Save(outfn);
-#if WTEST
-             Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
-#endif
-             wb = new Workbook(infn1);
-             wb.Save(outfn1);
-#if WTEST
-             Process.Start("explorer.exe", string.Format("\"{0}\"", outfn1));
-#endif
-         }
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodAddCopyWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet named "Original" to the workbook
+            Worksheet originalSheet = workbook.Worksheets.Add("Original");
+            
+            // Add some data to the original worksheet
+            originalSheet.Cells["A1"].PutValue("This is the original sheet");
+            
+            // Make a copy of the "Original" worksheet
+            int copiedIndex = workbook.Worksheets.AddCopy("Original");
+            Worksheet copiedSheet = workbook.Worksheets[copiedIndex];
+            copiedSheet.Name = "CopiedSheet";
+            
+            // Modify the copied sheet to demonstrate it's a separate copy
+            copiedSheet.Cells["A1"].PutValue("This is the copied sheet");
+            
+            // Save the workbook
+            workbook.Save("WorksheetCopyDemo.xlsx");
+            
+            Console.WriteLine("Worksheet copied successfully. Output file: WorksheetCopyDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -85,18 +92,33 @@ public int AddCopy(int sheetIndex)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.AddCopy(0);
-public void WorksheetCollection_Method_AddCopy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook a = new Workbook();
-    a.Copy(wb);
-    Assert.IsTrue(a.Worksheets[0].Cells["B6"].EmbeddedImage != null);
-    a.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    wb.Worksheets.AddCopy(0);
-    Assert.IsTrue(wb.Worksheets[1].Cells["B6"].EmbeddedImage != null);
-    wb.Save(Constants.destPath + "example.html");
+    public class WorksheetCollectionMethodAddCopyWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Original Worksheet");
+            
+            // Add a copy of the first worksheet
+            workbook.Worksheets.AddCopy(0);
+            
+            // Verify the copy was created
+            Worksheet copiedWorksheet = workbook.Worksheets[1];
+            copiedWorksheet.Cells["A1"].PutValue("Copied Worksheet");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -120,6 +142,69 @@ public void AddCopy(Worksheet[] source, string[] destSheetNames)
 | --- | --- | --- |
 | source | Worksheet[] | The source worksheets. |
 | destSheetNames | String[] | The names of the copied sheets. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetCollectionMethodAddCopyWithWorksheetStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some sample worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Populate some data in the worksheets
+            workbook.Worksheets["Sheet1"].Cells["A1"].PutValue("Original Sheet1 Data");
+            workbook.Worksheets["Sheet2"].Cells["A1"].PutValue("Original Sheet2 Data");
+
+            // Prepare source worksheets array
+            Worksheet[] sourceSheets = new Worksheet[]
+            {
+                workbook.Worksheets["Sheet1"],
+                workbook.Worksheets["Sheet2"]
+            };
+
+            // Prepare destination sheet names array
+            string[] destSheetNames = new string[]
+            {
+                "CopyOfSheet1",
+                "CopyOfSheet2"
+            };
+
+            try
+            {
+                // Call the AddCopy method with (Worksheet[], String[]) parameters
+                workbook.Worksheets.AddCopy(sourceSheets, destSheetNames);
+                
+                Console.WriteLine("AddCopy method executed successfully with parameters (Worksheet[], String[])");
+                
+                // Verify the copies were created
+                Console.WriteLine($"Total worksheets after copy: {workbook.Worksheets.Count}");
+                foreach (Worksheet sheet in workbook.Worksheets)
+                {
+                    Console.WriteLine($"Worksheet name: {sheet.Name}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AddCopy method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("WorksheetCollectionMethodAddCopyDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

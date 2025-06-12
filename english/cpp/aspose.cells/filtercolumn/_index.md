@@ -4,7 +4,7 @@ linktitle: FilterColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterColumn class. Represents a filter for a single column. The Filter object is a member of the Filters collection in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class

@@ -16,8 +16,36 @@ public ControlScrollBarType ScrollBars { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.ScrollBars = Aspose.Cells.Drawing.ActiveXControls.ControlScrollBarType.BarsVertical;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class TextBoxActiveXControlPropertyScrollBarsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a new shape collection and add ActiveX control
+            ShapeCollection shapes = worksheet.Shapes;
+            Shape shape = shapes.AddActiveXControl(ControlType.TextBox, 1, 1, 1, 1, 200, 100);
+            TextBoxActiveXControl textBox = (TextBoxActiveXControl)shape.ActiveXControl;
+            
+            // Set the ScrollBars property to vertical
+            textBox.ScrollBars = ControlScrollBarType.BarsVertical;
+            
+            // Save the workbook
+            workbook.Save("TextBoxScrollBarsDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

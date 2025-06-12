@@ -16,52 +16,44 @@ public int ArgbColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor & 0xFFFFFFFF);
-public void Font_Property_ArgbColor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string sourcePath = Constants.sourcePath + "CELLSNET-49610/";
-    Workbook wb = new Workbook(sourcePath + "Template.xlsx");
-
-    wb.ImportXml(sourcePath + "xml.xml", "Sheet1", 0, 0);
-
-    using (MemoryStream ms = new MemoryStream())
+    public class FontPropertyArgbColorDemo
     {
-        wb.Save(ms, SaveFormat.Xlsx);
-        ms.Position = 0;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cells and set values with different font colors
+            Cell cell1 = worksheet.Cells["A1"];
+            cell1.PutValue("Red Text");
+            Style style1 = cell1.GetStyle();
+            style1.Font.ArgbColor = unchecked((int)0xFFFF0000); // Red
+            cell1.SetStyle(style1);
 
-        Workbook reloadWb = new Workbook(ms);
-        Worksheet sheet = reloadWb.Worksheets[0];
-        Assert.AreEqual(148, sheet.ListObjects[0].EndRow + 1);
+            Cell cell2 = worksheet.Cells["A2"];
+            cell2.PutValue("Blue Text");
+            Style style2 = cell2.GetStyle();
+            style2.Font.ArgbColor = unchecked((int)0xFF0000FF); // Blue
+            cell2.SetStyle(style2);
 
-        Cells cells = sheet.Cells;
-        Cell cell = cells["A148"];
-        Assert.AreEqual("AGR/SB/WATERGANG3078", cell.DisplayStringValue);
-        Assert.AreEqual(0xFFFFFF00, cell.GetDisplayStyle().ForegroundArgbColor & 0xFFFFFFFF);
+            Cell cell3 = worksheet.Cells["A3"];
+            cell3.PutValue("Green Text");
+            Style style3 = cell3.GetStyle();
+            style3.Font.ArgbColor = unchecked((int)0xFF00FF00); // Green
+            cell3.SetStyle(style3);
 
-        cell = cells["J148"];
-        Assert.AreEqual("Bellville", cell.DisplayStringValue);
-        Assert.AreEqual(0xFF4472C4, cell.GetDisplayStyle().ForegroundArgbColor & 0xFFFFFFFF);
-
-        cell = cells["F148"];
-        Assert.AreEqual("29 January 2021", cell.DisplayStringValue);
-        Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor & 0xFFFFFFFF);
-
-
-        //TODO:
-        //Assert.AreEqual("04228958007", cells["C148"].DisplayStringValue);
-        //Assert.AreEqual("Domestic Low 01", cells["D148"].DisplayStringValue);
-        //Assert.AreEqual("Cape Town", cells["H148"].DisplayStringValue);
-        //Assert.AreEqual("NP_TEST", cells["G148"].DisplayStringValue);
-
-        //Assert.IsTrue(string.IsNullOrEmpty(cells["C25"].DisplayStringValue));
-        //Assert.IsTrue(string.IsNullOrEmpty(cells["D25"].DisplayStringValue));
-
-        //Assert.IsTrue(string.IsNullOrEmpty(cells["H39"].DisplayStringValue));
-        //Assert.IsTrue(string.IsNullOrEmpty(cells["I39"].DisplayStringValue));
-
-
+            // Verify and output the colors
+            Console.WriteLine("Cell A1 Font Color: 0x{0:X8}", worksheet.Cells["A1"].GetStyle().Font.ArgbColor);
+            Console.WriteLine("Cell A2 Font Color: 0x{0:X8}", worksheet.Cells["A2"].GetStyle().Font.ArgbColor);
+            Console.WriteLine("Cell A3 Font Color: 0x{0:X8}", worksheet.Cells["A3"].GetStyle().Font.ArgbColor);
+        }
     }
-
 }
 ```
 

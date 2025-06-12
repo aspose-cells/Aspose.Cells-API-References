@@ -16,15 +16,37 @@ public bool IsAutoSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
-public void OleObject_Property_IsAutoSize()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
-    workbook.Worksheets[0].OleObjects[0].IsAutoSize = false;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsFalse(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
+    public class OleObjectPropertyIsAutoSizeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an OLE object (using file data as byte array)
+            byte[] oleData = System.IO.File.ReadAllBytes(@"C:\example\test.docx");
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, oleData);
+            Aspose.Cells.Drawing.OleObject oleObject = worksheet.OleObjects[oleIndex];
+
+            // Set and demonstrate IsAutoSize property
+            oleObject.IsAutoSize = true;
+            Console.WriteLine("OLE Object AutoSize initially: " + oleObject.IsAutoSize);
+
+            // Change the property
+            oleObject.IsAutoSize = false;
+            Console.WriteLine("OLE Object AutoSize after change: " + oleObject.IsAutoSize);
+
+            // Save the workbook
+            workbook.Save("OleObjectIsAutoSizeDemo.xlsx");
+        }
+    }
 }
 ```
 

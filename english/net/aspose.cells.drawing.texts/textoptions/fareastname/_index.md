@@ -16,17 +16,35 @@ public string FarEastName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(shape.TextOptions.FarEastName, "宋体");
-public void TextOptions_Property_FarEastName()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Shape shape = workbook.Worksheets[0].Shapes[0];
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    shape.TextOptions.FarEastName = "宋体";
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    shape = workbook.Worksheets[0].Shapes[0];
-    Assert.AreEqual(shape.TextOptions.FarEastName, "宋体");
+namespace AsposeCellsExamples
+{
+    public class TextOptionsPropertyFarEastNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape and set FarEastName font
+            Aspose.Cells.Drawing.Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 100);
+            shape.Text = "Sample Text";
+            shape.TextOptions.FarEastName = "宋体";
+
+            // Save and reload to verify
+            string outputPath = "output_FarEastName.xlsx";
+            workbook.Save(outputPath);
+
+            // Reload to verify
+            Workbook verifyWorkbook = new Workbook(outputPath);
+            Aspose.Cells.Drawing.Shape verifyShape = verifyWorkbook.Worksheets[0].Shapes[0];
+            Console.WriteLine("FarEastName: " + verifyShape.TextOptions.FarEastName);
+        }
+    }
 }
 ```
 

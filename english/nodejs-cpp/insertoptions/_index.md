@@ -17,20 +17,28 @@ class InsertOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [copyFormatType](#copyFormatType--)| CopyFormatType |  |
+| [updateReference](#updateReference--)| boolean | Indicates if references in other worksheets will be updated. |
+| [formulaChangeMonitor](#formulaChangeMonitor--)| AbstractFormulaChangeMonitor | Gets/sets the monitor for tracking changes caused by the insertion. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCopyFormatType()](#getCopyFormatType--)|  |
-| [setCopyFormatType(CopyFormatType)](#setCopyFormatType-copyformattype-)|  |
-| [getUpdateReference()](#getUpdateReference--)| Indicates if references in other worksheets will be updated. |
-| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if references in other worksheets will be updated. |
-| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| Gets/sets the monitor for tracking changes caused by the insertion. |
-| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| Gets/sets the monitor for tracking changes caused by the insertion. |
+| [getCopyFormatType()](#getCopyFormatType--)| <b>@deprecated.</b> Please use the 'copyFormatType' property instead. |
+| [setCopyFormatType(CopyFormatType)](#setCopyFormatType-copyformattype-)| <b>@deprecated.</b> Please use the 'copyFormatType' property instead. |
+| [getUpdateReference()](#getUpdateReference--)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated. |
+| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,36 @@ constructor();
 ```
 
 
+### copyFormatType {#copyFormatType--}
+
+
+
+```javascript
+copyFormatType : CopyFormatType;
+```
+
+
+### updateReference {#updateReference--}
+
+Indicates if references in other worksheets will be updated.
+
+```javascript
+updateReference : boolean;
+```
+
+
+### formulaChangeMonitor {#formulaChangeMonitor--}
+
+Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+formulaChangeMonitor : AbstractFormulaChangeMonitor;
+```
+
+
 ### getCopyFormatType() {#getCopyFormatType--}
 
-
+<b>@deprecated.</b> Please use the 'copyFormatType' property instead.
 
 ```javascript
 getCopyFormatType() : CopyFormatType;
@@ -58,7 +93,7 @@ getCopyFormatType() : CopyFormatType;
 
 ### setCopyFormatType(CopyFormatType) {#setCopyFormatType-copyformattype-}
 
-
+<b>@deprecated.</b> Please use the 'copyFormatType' property instead.
 
 ```javascript
 setCopyFormatType(value: CopyFormatType) : void;
@@ -71,7 +106,7 @@ setCopyFormatType(value: CopyFormatType) : void;
 
 ### getUpdateReference() {#getUpdateReference--}
 
-Indicates if references in other worksheets will be updated.
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated.
 
 ```javascript
 getUpdateReference() : boolean;
@@ -80,7 +115,7 @@ getUpdateReference() : boolean;
 
 ### setUpdateReference(boolean) {#setUpdateReference-boolean-}
 
-Indicates if references in other worksheets will be updated.
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated.
 
 ```javascript
 setUpdateReference(value: boolean) : void;
@@ -93,7 +128,7 @@ setUpdateReference(value: boolean) : void;
 
 ### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
 
-Gets/sets the monitor for tracking changes caused by the insertion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion.
 
 ```javascript
 getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
@@ -106,7 +141,7 @@ getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
 
 ### setFormulaChangeMonitor(AbstractFormulaChangeMonitor) {#setFormulaChangeMonitor-abstractformulachangemonitor-}
 
-Gets/sets the monitor for tracking changes caused by the insertion.
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion.
 
 ```javascript
 setFormulaChangeMonitor(value: AbstractFormulaChangeMonitor) : void;

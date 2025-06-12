@@ -20,13 +20,26 @@ Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical s
 ### Examples
 
 ```csharp
-// Called: options.IgnoreUselessShapes = true;
-public void LoadOptions_Property_IgnoreUselessShapes()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.IgnoreUselessShapes = true;
-    var workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx"), options);
-    Assert.AreEqual(2, workbook.Worksheets[0].Shapes.Count);
+    public class LoadOptionsPropertyIgnoreUselessShapesDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set IgnoreUselessShapes to true
+            LoadOptions options = new LoadOptions();
+            options.IgnoreUselessShapes = true;
+
+            // Load workbook with the options
+            Workbook workbook = new Workbook("example.xlsx", options);
+
+            // Output the count of shapes in the first worksheet
+            Console.WriteLine("Shapes count: " + workbook.Worksheets[0].Shapes.Count);
+        }
+    }
 }
 ```
 

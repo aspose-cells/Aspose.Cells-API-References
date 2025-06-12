@@ -28,20 +28,31 @@ public enum SheetType
 ### Examples
 
 ```csharp
-// Called: loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
-public void Cells_Type_SheetType()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET46587_";
+using System;
+using Aspose.Cells;
 
-    Workbook loOrigWB = new Workbook(filePath + @"Orig.xlsx");
-    Worksheet loOrigWS = loOrigWB.Worksheets["Sheet1"];
-    loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
-    var loNewWS = loOrigWB.Worksheets["Sheet2"];
-    loNewWS.Cells.DeleteRows(0, 3);
-    loNewWS.Cells.DeleteColumns(0, 3, true);
-    loNewWS.RefreshPivotTables();
-    loNewWS.Charts[0].RefreshPivotData();
-    loOrigWB.Save(Constants.PIVOT_CHECK_FILE_PATH + @"example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class CellsClassSheetTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Insert a new worksheet of type Worksheet at index 0
+            Worksheet newWorksheet = workbook.Worksheets.Insert(0, SheetType.Worksheet);
+            
+            // Set the name of the new worksheet
+            newWorksheet.Name = "InsertedSheet";
+            
+            // Access cells in the new worksheet and add some data
+            newWorksheet.Cells["A1"].PutValue("This is a new worksheet");
+            
+            // Save the workbook
+            workbook.Save("SheetTypeDemoOutput.xlsx");
+        }
+    }
 }
 ```
 
