@@ -4,7 +4,7 @@ linktitle: BevelPresetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::BevelPresetType enum. Represents a preset for a type of bevel which can be applied to a shape in 3D in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.cells.drawing/bevelpresettype/
 ---
 ## BevelPresetType enum

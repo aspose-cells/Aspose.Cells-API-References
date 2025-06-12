@@ -4,7 +4,7 @@ linktitle: SetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetType method. Represents worksheet type in C++.'
 type: docs
-weight: 1600
+weight: 1500
 url: /cpp/aspose.cells/worksheet/settype/
 ---
 ## Worksheet::SetType method

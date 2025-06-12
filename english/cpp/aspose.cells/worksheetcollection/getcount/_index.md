@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use GetCount method of Aspose::Cells::WorksheetCollection class in C++.'
 type: docs
-weight: 4400
+weight: 4500
 url: /cpp/aspose.cells/worksheetcollection/getcount/
 ---
 ## WorksheetCollection::GetCount method

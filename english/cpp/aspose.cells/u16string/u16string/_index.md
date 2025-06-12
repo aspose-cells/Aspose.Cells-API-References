@@ -24,7 +24,7 @@ Aspose::Cells::U16String::U16String()
 ## U16String::U16String(const char*) constructor
 
 
-Constructs from an const char* string.
+Constructs from a const char* string.
 
 ```cpp
 Aspose::Cells::U16String::U16String(const char *str)
@@ -39,7 +39,7 @@ Aspose::Cells::U16String::U16String(const char *str)
 ## U16String::U16String(const char16_t*) constructor
 
 
-Constructs from an const char16_t* string.
+Constructs from a const char16_t* string.
 
 ```cpp
 Aspose::Cells::U16String::U16String(const char16_t *ustr)
@@ -54,7 +54,7 @@ Aspose::Cells::U16String::U16String(const char16_t *ustr)
 ## U16String::U16String(const char16_t*, int32_t) constructor
 
 
-Constructs from const char16_t* string with specified length.
+Constructs from a const char16_t* string with specified length.
 
 ```cpp
 Aspose::Cells::U16String::U16String(const char16_t *ustr, int32_t len)

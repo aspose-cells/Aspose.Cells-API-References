@@ -4,7 +4,7 @@ linktitle: GetSortAsNumber
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::GetSortAsNumber method. Indicates whether sorting anything that looks like a number in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells/datasorter/getsortasnumber/
 ---
 ## DataSorter::GetSortAsNumber method

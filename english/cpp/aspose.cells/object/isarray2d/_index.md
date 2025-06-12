@@ -4,7 +4,7 @@ linktitle: IsArray2D
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::IsArray2D method. Checks whether the object is a two-dimensional array in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells/object/isarray2d/
 ---
 ## Object::IsArray2D method

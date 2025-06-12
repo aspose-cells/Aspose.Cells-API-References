@@ -4,7 +4,7 @@ linktitle: VerifyPassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection::VerifyPassword method. Verifies password in C++.'
 type: docs
-weight: 3900
+weight: 4200
 url: /cpp/aspose.cells/protection/verifypassword/
 ---
 ## Protection::VerifyPassword(const U16String\&) method

@@ -2,15 +2,15 @@
 title: Aspose::Cells::MemorySetting enum
 linktitle: MemorySetting
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MemorySetting enum. Memory usage options in C++.'
+description: 'Aspose::Cells::MemorySetting enum. Memory usage modes for cells data model in C++.'
 type: docs
-weight: 22600
+weight: 23500
 url: /cpp/aspose.cells/memorysetting/
 ---
 ## MemorySetting enum
 
 
-Memory usage options.
+Memory usage modes for cells data model.
 
 ```cpp
 enum class MemorySetting
@@ -20,8 +20,8 @@ enum class MemorySetting
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | 0 | <br>Default option for cells model. |
-| MemoryPreference | 1 | <br>Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases. |
+| Normal | 0 | <br>Default mode for cells model. |
+| MemoryPreference | 1 | <br>Memory performance preferrable. |
 
 ## See Also
 

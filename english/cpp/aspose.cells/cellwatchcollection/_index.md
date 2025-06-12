@@ -4,7 +4,7 @@ linktitle: CellWatchCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellWatchCollection class. Represents the collection of cells on this worksheet being watched in the ''watch window'' in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.cells/cellwatchcollection/
 ---
 ## CellWatchCollection class

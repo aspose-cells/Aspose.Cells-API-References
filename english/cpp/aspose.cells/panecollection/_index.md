@@ -4,7 +4,7 @@ linktitle: PaneCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaneCollection class. Represents all Pane objects shown in the specified window in C++.'
 type: docs
-weight: 11200
+weight: 11500
 url: /cpp/aspose.cells/panecollection/
 ---
 ## PaneCollection class

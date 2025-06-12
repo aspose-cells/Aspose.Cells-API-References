@@ -4,22 +4,22 @@ linktitle: EndCellInColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::EndCellInColumn method. Gets the last cell in this column in C++.'
 type: docs
-weight: 12800
+weight: 13000
 url: /cpp/aspose.cells/cells/endcellincolumn/
 ---
-## Cells::EndCellInColumn(int16_t) method
+## Cells::EndCellInColumn(int32_t) method
 
 
 Gets the last cell in this column.
 
 ```cpp
-Cell Aspose::Cells::Cells::EndCellInColumn(int16_t columnIndex)
+Cell Aspose::Cells::Cells::EndCellInColumn(int32_t columnIndex)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | int16_t | [Column](../../column/) index. |
+| columnIndex | int32_t | [Column](../../column/) index. |
 
 ## ReturnValue
 
@@ -32,13 +32,13 @@ Cell Aspose::Cells::Cells::EndCellInColumn(int16_t columnIndex)
 * Class [Cells](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## Cells::EndCellInColumn(int32_t, int32_t, int16_t, int16_t) method
+## Cells::EndCellInColumn(int32_t, int32_t, int32_t, int32_t) method
 
 
 Gets the last cell with maximum column index in this range.
 
 ```cpp
-Cell Aspose::Cells::Cells::EndCellInColumn(int32_t startRow, int32_t endRow, int16_t startColumn, int16_t endColumn)
+Cell Aspose::Cells::Cells::EndCellInColumn(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)
 ```
 
 
@@ -46,8 +46,8 @@ Cell Aspose::Cells::Cells::EndCellInColumn(int32_t startRow, int32_t endRow, int
 | --- | --- | --- |
 | startRow | int32_t | Start row index. |
 | endRow | int32_t | End row index. |
-| startColumn | int16_t | Start column index. |
-| endColumn | int16_t | End column index. |
+| startColumn | int32_t | Start column index. |
+| endColumn | int32_t | End column index. |
 
 ## ReturnValue
 

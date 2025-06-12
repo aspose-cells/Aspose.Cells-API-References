@@ -4,7 +4,7 @@ linktitle: SetCharacters
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetCharacters method. Sets rich text format of the cell in C++.'
 type: docs
-weight: 6300
+weight: 6400
 url: /cpp/aspose.cells/cell/setcharacters/
 ---
 ## Cell::SetCharacters method

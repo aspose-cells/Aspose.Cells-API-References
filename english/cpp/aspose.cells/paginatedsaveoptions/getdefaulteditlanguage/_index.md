@@ -4,7 +4,7 @@ linktitle: GetDefaultEditLanguage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions::GetDefaultEditLanguage method. Gets or sets default edit language in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells/paginatedsaveoptions/getdefaulteditlanguage/
 ---
 ## PaginatedSaveOptions::GetDefaultEditLanguage method

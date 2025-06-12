@@ -4,7 +4,7 @@ linktitle: PresetShadowType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PresetShadowType enum. Represents preset shadow type in C++.'
 type: docs
-weight: 10600
+weight: 10800
 url: /cpp/aspose.cells.drawing/presetshadowtype/
 ---
 ## PresetShadowType enum

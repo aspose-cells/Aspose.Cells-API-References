@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetName method. Gets or sets the name of the worksheet in C++.'
 type: docs
-weight: 1700
+weight: 1600
 url: /cpp/aspose.cells/worksheet/getname/
 ---
 ## Worksheet::GetName method

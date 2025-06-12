@@ -4,7 +4,7 @@ linktitle: SetSharedFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetSharedFormula method. Sets shared formulas to a range of cells in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells/cell/setsharedformula/
 ---
 ## Cell::SetSharedFormula(const U16String\&, int32_t, int32_t) method

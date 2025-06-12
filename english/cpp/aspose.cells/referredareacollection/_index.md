@@ -4,7 +4,7 @@ linktitle: ReferredAreaCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredAreaCollection class. Represents all referred cells and areas in C++.'
 type: docs
-weight: 12400
+weight: 12800
 url: /cpp/aspose.cells/referredareacollection/
 ---
 ## ReferredAreaCollection class

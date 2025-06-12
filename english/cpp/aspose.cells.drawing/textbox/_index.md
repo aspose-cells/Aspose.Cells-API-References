@@ -4,7 +4,7 @@ linktitle: TextBox
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextBox class. Encapsulates the object that represents a textbox in a spreadsheet in C++.'
 type: docs
-weight: 6600
+weight: 6700
 url: /cpp/aspose.cells.drawing/textbox/
 ---
 ## TextBox class

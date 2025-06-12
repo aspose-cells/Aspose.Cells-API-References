@@ -4,7 +4,7 @@ linktitle: IconFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IconFilter class. Represents icon filter in C++.'
 type: docs
-weight: 8300
+weight: 8600
 url: /cpp/aspose.cells/iconfilter/
 ---
 ## IconFilter class

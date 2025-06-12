@@ -4,7 +4,7 @@ linktitle: Object
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object class. Object class in C++.'
 type: docs
-weight: 10600
+weight: 10800
 url: /cpp/aspose.cells/object/
 ---
 ## Object class

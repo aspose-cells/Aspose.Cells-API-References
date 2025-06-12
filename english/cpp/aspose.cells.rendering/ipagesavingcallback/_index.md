@@ -4,7 +4,7 @@ linktitle: IPageSavingCallback
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::IPageSavingCallback class. Control/Indicate progress of page saving process in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.cells.rendering/ipagesavingcallback/
 ---
 ## IPageSavingCallback class

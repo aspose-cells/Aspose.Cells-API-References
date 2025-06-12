@@ -4,7 +4,7 @@ linktitle: SystemTimeInterruptMonitor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SystemTimeInterruptMonitor class. Simple implementation of AbstractInterruptMonitor by checking and comparing current system time with user specified limit in C++.'
 type: docs
-weight: 14000
+weight: 14400
 url: /cpp/aspose.cells/systemtimeinterruptmonitor/
 ---
 ## SystemTimeInterruptMonitor class

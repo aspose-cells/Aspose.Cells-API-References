@@ -4,7 +4,7 @@ linktitle: GetEmfRenderSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions::GetEmfRenderSetting method. Setting for rendering Emf metafile in C++.'
 type: docs
-weight: 4000
+weight: 4200
 url: /cpp/aspose.cells/paginatedsaveoptions/getemfrendersetting/
 ---
 ## PaginatedSaveOptions::GetEmfRenderSetting method

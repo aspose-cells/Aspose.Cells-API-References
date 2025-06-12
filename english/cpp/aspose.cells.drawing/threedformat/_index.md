@@ -4,7 +4,7 @@ linktitle: ThreeDFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ThreeDFormat class. Represents a shape''s three-dimensional formatting in C++.'
 type: docs
-weight: 7000
+weight: 7100
 url: /cpp/aspose.cells.drawing/threedformat/
 ---
 ## ThreeDFormat class

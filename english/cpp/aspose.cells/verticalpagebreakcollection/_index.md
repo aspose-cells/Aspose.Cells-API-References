@@ -4,7 +4,7 @@ linktitle: VerticalPageBreakCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::VerticalPageBreakCollection class. Encapsulates a collection of VerticalPageBreak objects in C++.'
 type: docs
-weight: 15700
+weight: 16100
 url: /cpp/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class

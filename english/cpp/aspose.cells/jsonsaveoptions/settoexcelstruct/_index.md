@@ -4,7 +4,7 @@ linktitle: SetToExcelStruct
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::SetToExcelStruct method. Indicates whether converting to json struct of the Excel file in C++.'
 type: docs
-weight: 2900
+weight: 3100
 url: /cpp/aspose.cells/jsonsaveoptions/settoexcelstruct/
 ---
 ## JsonSaveOptions::SetToExcelStruct method

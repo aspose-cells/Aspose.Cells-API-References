@@ -4,7 +4,7 @@ linktitle: LineCapType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineCapType enum. Represents the caps of a line in C++.'
 type: docs
-weight: 9100
+weight: 9300
 url: /cpp/aspose.cells.drawing/linecaptype/
 ---
 ## LineCapType enum

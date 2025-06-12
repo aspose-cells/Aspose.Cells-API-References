@@ -4,7 +4,7 @@ linktitle: GetDefaultFontName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs::GetDefaultFontName method. Gets or sets the default font name in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells/fontconfigs/getdefaultfontname/
 ---
 ## FontConfigs::GetDefaultFontName method

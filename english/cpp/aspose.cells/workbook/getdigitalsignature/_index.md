@@ -4,7 +4,7 @@ linktitle: GetDigitalSignature
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetDigitalSignature method. Gets digital signature from file in C++.'
 type: docs
-weight: 7400
+weight: 7600
 url: /cpp/aspose.cells/workbook/getdigitalsignature/
 ---
 ## Workbook::GetDigitalSignature method

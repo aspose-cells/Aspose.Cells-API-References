@@ -4,7 +4,7 @@ linktitle: SetAllowSelectingLockedCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection::SetAllowSelectingLockedCell method. Represents if the user is allowed to select locked cells on a protected worksheet in C++.'
 type: docs
-weight: 4100
+weight: 3600
 url: /cpp/aspose.cells/protection/setallowselectinglockedcell/
 ---
 ## Protection::SetAllowSelectingLockedCell method

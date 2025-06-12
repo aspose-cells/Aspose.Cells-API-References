@@ -4,7 +4,7 @@ linktitle: EncodingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::EncodingType enum. Enums supported encoding types in C++.'
 type: docs
-weight: 20100
+weight: 20500
 url: /cpp/aspose.cells/encodingtype/
 ---
 ## EncodingType enum

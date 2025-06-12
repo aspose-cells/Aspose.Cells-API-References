@@ -4,7 +4,7 @@ linktitle: SetTextCrossType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetTextCrossType method. Gets or sets displaying text type when the text width is larger than cell width in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells.rendering/imageorprintoptions/settextcrosstype/
 ---
 ## ImageOrPrintOptions::SetTextCrossType method

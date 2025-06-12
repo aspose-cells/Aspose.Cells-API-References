@@ -4,7 +4,7 @@ linktitle: ProtectedRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ProtectedRange class. A specified range to be allowed to edit when the sheet protection is ON in C++.'
 type: docs
-weight: 11600
+weight: 12000
 url: /cpp/aspose.cells/protectedrange/
 ---
 ## ProtectedRange class

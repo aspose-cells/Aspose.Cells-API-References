@@ -4,7 +4,7 @@ linktitle: SqlScriptSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::SqlScriptSaveOptions class. Represents the options of saving sql in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions class
@@ -21,7 +21,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | Method | Description |
 | --- | --- |
 | [GetAddBlankLineBetweenRows()](./getaddblanklinebetweenrows/) | Insert blank line between each data. |
-| [GetCachedFileFolder()](../../aspose.cells/saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../../aspose.cells/saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCheckAllDataForColumnType()](./getcheckalldataforcolumntype/) | Check all data to find columns' data type. |
 | [GetCheckExcelRestriction()](../../aspose.cells/saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckIfTableExists()](./getcheckiftableexists/) | Check if the table name exists before creating. |
@@ -55,8 +55,8 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [SaveOptions(SaveOptions_Impl* impl)](../../aspose.cells/saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../../aspose.cells/saveoptions/saveoptions/) | Copy constructor. |
 | [SetAddBlankLineBetweenRows(bool value)](./setaddblanklinebetweenrows/) | Insert blank line between each data. |
-| [SetCachedFileFolder(const U16String\& value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCheckAllDataForColumnType(bool value)](./setcheckalldataforcolumntype/) | Check all data to find columns' data type. |
 | [SetCheckExcelRestriction(bool value)](../../aspose.cells/saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetCheckIfTableExists(bool value)](./setcheckiftableexists/) | Check if the table name exists before creating. |

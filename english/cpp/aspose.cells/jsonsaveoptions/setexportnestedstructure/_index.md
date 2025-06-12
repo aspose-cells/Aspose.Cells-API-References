@@ -4,7 +4,7 @@ linktitle: SetExportNestedStructure
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::SetExportNestedStructure method. Exported as parent-child hierarchy Json structure in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/jsonsaveoptions/setexportnestedstructure/
 ---
 ## JsonSaveOptions::SetExportNestedStructure method

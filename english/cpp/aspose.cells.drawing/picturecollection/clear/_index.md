@@ -4,7 +4,7 @@ linktitle: Clear
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PictureCollection::Clear method. Clear all pictures in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.drawing/picturecollection/clear/
 ---
 ## PictureCollection::Clear method

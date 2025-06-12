@@ -4,7 +4,7 @@ linktitle: GradientColorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::GradientColorType enum. Represents the gradient color type for the specified fill in C++.'
 type: docs
-weight: 8300
+weight: 8500
 url: /cpp/aspose.cells.drawing/gradientcolortype/
 ---
 ## GradientColorType enum

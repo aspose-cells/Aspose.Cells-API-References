@@ -4,7 +4,7 @@ linktitle: MsoPresetTextEffect
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoPresetTextEffect enum. Represents preset text effect type of WordArt in C++.'
 type: docs
-weight: 10100
+weight: 10300
 url: /cpp/aspose.cells.drawing/msopresettexteffect/
 ---
 ## MsoPresetTextEffect enum

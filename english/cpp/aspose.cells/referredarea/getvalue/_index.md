@@ -4,7 +4,7 @@ linktitle: GetValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea::GetValue method. Gets cell value with given offset from the top-left of this area in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells/referredarea/getvalue/
 ---
 ## ReferredArea::GetValue(int32_t, int32_t) method

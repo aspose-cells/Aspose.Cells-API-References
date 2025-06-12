@@ -4,7 +4,7 @@ linktitle: TextBoxCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextBoxCollection class. Encapsulates a collection of TextBox objects in C++.'
 type: docs
-weight: 6700
+weight: 6800
 url: /cpp/aspose.cells.drawing/textboxcollection/
 ---
 ## TextBoxCollection class

@@ -4,7 +4,7 @@ linktitle: ReplaceOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReplaceOptions class. Represent the replace options in C++.'
 type: docs
-weight: 12800
+weight: 12900
 url: /cpp/aspose.cells/replaceoptions/
 ---
 ## ReplaceOptions class

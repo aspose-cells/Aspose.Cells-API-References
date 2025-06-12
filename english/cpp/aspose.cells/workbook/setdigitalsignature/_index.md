@@ -4,7 +4,7 @@ linktitle: SetDigitalSignature
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetDigitalSignature method. Sets digital signature to an spreadsheet file (Excel2007 and later) in C++.'
 type: docs
-weight: 7200
+weight: 7400
 url: /cpp/aspose.cells/workbook/setdigitalsignature/
 ---
 ## Workbook::SetDigitalSignature method

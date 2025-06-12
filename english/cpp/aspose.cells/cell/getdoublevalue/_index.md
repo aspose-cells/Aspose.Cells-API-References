@@ -4,7 +4,7 @@ linktitle: GetDoubleValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetDoubleValue method. Gets the double value contained in the cell in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells/cell/getdoublevalue/
 ---
 ## Cell::GetDoubleValue method

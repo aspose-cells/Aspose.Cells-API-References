@@ -4,7 +4,7 @@ linktitle: GetKey2
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::GetKey2 method. Represents second sorted column index(absolute position, column A is 0, B is 1, ...) in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/datasorter/getkey2/
 ---
 ## DataSorter::GetKey2 method

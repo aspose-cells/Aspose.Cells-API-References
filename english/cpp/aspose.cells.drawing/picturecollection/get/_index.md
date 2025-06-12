@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PictureCollection::Get method. Gets the Picture element at the specified index in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.drawing/picturecollection/get/
 ---
 ## PictureCollection::Get method

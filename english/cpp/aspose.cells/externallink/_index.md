@@ -4,7 +4,7 @@ linktitle: ExternalLink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLink class. Represents an external link in a workbook in C++.'
 type: docs
-weight: 5600
+weight: 5800
 url: /cpp/aspose.cells/externallink/
 ---
 ## ExternalLink class

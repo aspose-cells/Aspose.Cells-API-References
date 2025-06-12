@@ -4,7 +4,7 @@ linktitle: FormulaParseOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FormulaParseOptions class. Represents options when parsing formula in C++.'
 type: docs
-weight: 7100
+weight: 7400
 url: /cpp/aspose.cells/formulaparseoptions/
 ---
 ## FormulaParseOptions class

@@ -4,7 +4,7 @@ linktitle: GetDrawObjectEventHandler
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::GetDrawObjectEventHandler method. Implements this interface to get DrawObject and Bound when rendering in C++.'
 type: docs
-weight: 2800
+weight: 2600
 url: /cpp/aspose.cells.rendering/imageorprintoptions/getdrawobjecteventhandler/
 ---
 ## ImageOrPrintOptions::GetDrawObjectEventHandler method

@@ -23,6 +23,7 @@ class PivotGlobalizationSettings
 | virtual [GetShortTextOf12Months()](./getshorttextof12months/) | Gets all short formatted string of 12 months. |
 | virtual [GetTextOf4Quaters()](./gettextof4quaters/) | Gets the local text of 4 Quaters. |
 | virtual [GetTextOfAll()](./gettextofall/) | Gets the text of "(All)" label in the PivotTable. |
+| virtual [GetTextOfAllPeriods()](./gettextofallperiods/) | Gets the local text of "All Periods". |
 | virtual [GetTextOfColumnLabels()](./gettextofcolumnlabels/) | Gets the text of "Column Labels" label in the PivotTable. |
 | virtual [GetTextOfDataFieldHeader()](./gettextofdatafieldheader/) | Gets the the text of the value area field header in the PivotTable. |
 | virtual [GetTextOfDays()](./gettextofdays/) | Gets the local text of "Days". |

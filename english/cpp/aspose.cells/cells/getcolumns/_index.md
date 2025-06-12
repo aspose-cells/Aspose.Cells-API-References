@@ -4,7 +4,7 @@ linktitle: GetColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumns method. Gets the collection of Column objects that represents the individual columns in this worksheet in C++.'
 type: docs
-weight: 8900
+weight: 9000
 url: /cpp/aspose.cells/cells/getcolumns/
 ---
 ## Cells::GetColumns method

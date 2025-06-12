@@ -4,7 +4,7 @@ linktitle: AddPrinterFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PclSaveOptions::AddPrinterFont method. Adds information about font that is already added to the printer by manufacturer in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.cells/pclsaveoptions/addprinterfont/
 ---
 ## PclSaveOptions::AddPrinterFont(const U16String\&, const U16String\&) method

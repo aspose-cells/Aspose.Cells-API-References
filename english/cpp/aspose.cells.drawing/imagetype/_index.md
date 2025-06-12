@@ -4,7 +4,7 @@ linktitle: ImageType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ImageType enum. Specifies the type (format) of an image in C++.'
 type: docs
-weight: 8800
+weight: 9000
 url: /cpp/aspose.cells.drawing/imagetype/
 ---
 ## ImageType enum

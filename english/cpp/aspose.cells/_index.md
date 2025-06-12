@@ -258,7 +258,7 @@ url: /cpp/aspose.cells/
 | [LoadFormat](./loadformat/) | Represents the load file format. |
 | [LookAtType](./lookattype/) | Represents look at type. |
 | [LookInType](./lookintype/) | Represents look in type. |
-| [MemorySetting](./memorysetting/) | Memory usage options. |
+| [MemorySetting](./memorysetting/) | Memory usage modes for cells data model. |
 | [MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. |
 | [NameScopeType](./namescopetype/) | Represents the scope type of defined names. |

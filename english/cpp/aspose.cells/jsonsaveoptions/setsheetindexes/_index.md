@@ -4,7 +4,7 @@ linktitle: SetSheetIndexes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::SetSheetIndexes method. Represents the indexes of exported sheets in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells/jsonsaveoptions/setsheetindexes/
 ---
 ## JsonSaveOptions::SetSheetIndexes method

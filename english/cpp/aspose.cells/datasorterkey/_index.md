@@ -4,7 +4,7 @@ linktitle: DataSorterKey
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorterKey class. Represents the key of the data sorter in C++.'
 type: docs
-weight: 4200
+weight: 4400
 url: /cpp/aspose.cells/datasorterkey/
 ---
 ## DataSorterKey class

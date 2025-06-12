@@ -4,7 +4,7 @@ linktitle: GetParamCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationData::GetParamCount method. Gets the count of parameters in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells/calculationdata/getparamcount/
 ---
 ## CalculationData::GetParamCount method

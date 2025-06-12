@@ -4,7 +4,7 @@ linktitle: ToReferredArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToReferredArea method. Gets the ReferredArea value in C++.'
 type: docs
-weight: 3100
+weight: 3700
 url: /cpp/aspose.cells/object/toreferredarea/
 ---
 ## Object::ToReferredArea method

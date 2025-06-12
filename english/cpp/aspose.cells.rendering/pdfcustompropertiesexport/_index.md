@@ -4,7 +4,7 @@ linktitle: PdfCustomPropertiesExport
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfCustomPropertiesExport enum. Specifies the way CustomDocumentPropertyCollection are exported to PDF file in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.cells.rendering/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enum

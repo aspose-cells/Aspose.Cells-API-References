@@ -4,7 +4,7 @@ linktitle: CommentTitleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::CommentTitleType enum. Represents comment title type while rendering when comment is set to display at end of sheet in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells.rendering/commenttitletype/
 ---
 ## CommentTitleType enum

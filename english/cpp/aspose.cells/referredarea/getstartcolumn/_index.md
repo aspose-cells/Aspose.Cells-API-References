@@ -4,7 +4,7 @@ linktitle: GetStartColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea::GetStartColumn method. The start column of the area in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/referredarea/getstartcolumn/
 ---
 ## ReferredArea::GetStartColumn method

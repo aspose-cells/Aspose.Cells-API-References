@@ -4,7 +4,7 @@ linktitle: DefaultStyleSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DefaultStyleSettings class. Settings for the default values of workbook''s style properties in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells/defaultstylesettings/
 ---
 ## DefaultStyleSettings class

@@ -4,7 +4,7 @@ linktitle: ClearContents
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ClearContents method. Clears contents of a range in C++.'
 type: docs
-weight: 12100
+weight: 12200
 url: /cpp/aspose.cells/cells/clearcontents/
 ---
 ## Cells::ClearContents(const CellArea\&) method

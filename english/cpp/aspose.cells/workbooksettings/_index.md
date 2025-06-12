@@ -4,7 +4,7 @@ linktitle: WorkbookSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings class. Represents all settings of the workbook in C++.'
 type: docs
-weight: 16200
+weight: 16400
 url: /cpp/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class

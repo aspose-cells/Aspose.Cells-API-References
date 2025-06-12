@@ -22,7 +22,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | --- | --- |
 | [GetAllColumnsInOnePagePerSheet()](../paginatedsaveoptions/getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
 | [GetBookmark()](./getbookmark/) | Gets and sets the [PdfBookmarkEntry](../) object. |
-| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. |
 | [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckFontCompatibility()](../paginatedsaveoptions/getcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
@@ -32,6 +32,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCreatedTime()](./getcreatedtime/) | Gets and sets the time of generating the pdf document. |
 | [GetCustomPropertiesExport()](./getcustompropertiesexport/) | Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None. |
+| [GetCustomRenderSettings()](../paginatedsaveoptions/getcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [GetDefaultEditLanguage()](../paginatedsaveoptions/getdefaulteditlanguage/) | Gets or sets default edit language. |
 | [GetDefaultFont()](../paginatedsaveoptions/getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [GetDisplayDocTitle()](./getdisplaydoctitle/) | Indicates whether the window's title bar should display the document title. |
@@ -42,7 +43,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportDocumentStructure()](./getexportdocumentstructure/) | Indicates whether to export document structure. |
 | [GetFontEncoding()](./getfontencoding/) | Gets or sets embedded font encoding in pdf. |
-| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline colr. |
+| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline color. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -83,8 +84,8 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
 | [SetAllColumnsInOnePagePerSheet(bool value)](../paginatedsaveoptions/setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
 | [SetBookmark(const PdfBookmarkEntry\& value)](./setbookmark/) | Gets and sets the [PdfBookmarkEntry](../) object. |
-| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. |
 | [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetCheckFontCompatibility(bool value)](../paginatedsaveoptions/setcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
@@ -94,6 +95,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCreatedTime(const Date\& value)](./setcreatedtime/) | Gets and sets the time of generating the pdf document. |
 | [SetCustomPropertiesExport(PdfCustomPropertiesExport value)](./setcustompropertiesexport/) | Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None. |
+| [SetCustomRenderSettings(const CustomRenderSettings\& value)](../paginatedsaveoptions/setcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [SetDefaultEditLanguage(DefaultEditLanguage value)](../paginatedsaveoptions/setdefaulteditlanguage/) | Gets or sets default edit language. |
 | [SetDefaultFont(const U16String\& value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDefaultFont(const char16_t* value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
@@ -105,7 +107,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportDocumentStructure(bool value)](./setexportdocumentstructure/) | Indicates whether to export document structure. |
 | [SetFontEncoding(PdfFontEncoding value)](./setfontencoding/) | Gets or sets embedded font encoding in pdf. |
-| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline colr. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline color. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetImageResample(int32_t desiredPPI, int32_t jpegQuality)](./setimageresample/) | Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled. |

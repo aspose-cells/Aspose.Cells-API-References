@@ -4,7 +4,7 @@ linktitle: HeaderFooterCommand
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HeaderFooterCommand class. Represents the command of header/footer in C++.'
 type: docs
-weight: 7400
+weight: 7700
 url: /cpp/aspose.cells/headerfootercommand/
 ---
 ## HeaderFooterCommand class

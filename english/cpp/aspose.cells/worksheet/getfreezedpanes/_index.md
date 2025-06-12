@@ -4,7 +4,7 @@ linktitle: GetFreezedPanes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetFreezedPanes method. Gets the freeze panes in C++.'
 type: docs
-weight: 3500
+weight: 3400
 url: /cpp/aspose.cells/worksheet/getfreezedpanes/
 ---
 ## Worksheet::GetFreezedPanes method

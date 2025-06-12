@@ -4,7 +4,7 @@ linktitle: HtmlOfficeMathOutputType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlOfficeMathOutputType enum. Represents how export OfficeMath to HTML in C++.'
 type: docs
-weight: 22100
+weight: 22800
 url: /cpp/aspose.cells/htmlofficemathoutputtype/
 ---
 ## HtmlOfficeMathOutputType enum

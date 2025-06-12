@@ -4,7 +4,7 @@ linktitle: SvgImageOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::SvgImageOptions class. Options for generating Svg image in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.rendering/svgimageoptions/
 ---
 ## SvgImageOptions class
@@ -23,6 +23,7 @@ class SvgImageOptions : public Aspose::Cells::Rendering::ImageOrPrintOptions
 | [GetAllColumnsInOnePagePerSheet()](../imageorprintoptions/getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [GetCheckWorkbookDefaultFont()](../imageorprintoptions/getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [GetCssPrefix()](./getcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [GetCustomRenderSettings()](../imageorprintoptions/getcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [GetDefaultEditLanguage()](../imageorprintoptions/getdefaulteditlanguage/) | Gets or sets default edit language. |
 | [GetDefaultFont()](../imageorprintoptions/getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](../imageorprintoptions/getdrawobjecteventhandler/) | Implements this interface to get [DrawObject](../drawobject/) and Bound when rendering. |
@@ -66,6 +67,7 @@ class SvgImageOptions : public Aspose::Cells::Rendering::ImageOrPrintOptions
 | [SetCheckWorkbookDefaultFont(bool value)](../imageorprintoptions/setcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [SetCssPrefix(const U16String\& value)](./setcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
 | [SetCssPrefix(const char16_t* value)](./setcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [SetCustomRenderSettings(const CustomRenderSettings\& value)](../imageorprintoptions/setcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [SetDefaultEditLanguage(DefaultEditLanguage value)](../imageorprintoptions/setdefaulteditlanguage/) | Gets or sets default edit language. |
 | [SetDefaultFont(const U16String\& value)](../imageorprintoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [SetDefaultFont(const char16_t* value)](../imageorprintoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |

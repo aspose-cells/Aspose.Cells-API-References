@@ -4,7 +4,7 @@ linktitle: ApplyStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ApplyStyle method. Applies formats for a whole worksheet in C++.'
 type: docs
-weight: 9200
+weight: 9300
 url: /cpp/aspose.cells/cells/applystyle/
 ---
 ## Cells::ApplyStyle method

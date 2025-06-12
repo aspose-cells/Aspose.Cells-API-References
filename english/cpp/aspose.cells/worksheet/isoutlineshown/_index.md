@@ -4,7 +4,7 @@ linktitle: IsOutlineShown
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::IsOutlineShown method. Indicates whether to show outline in C++.'
 type: docs
-weight: 3000
+weight: 2900
 url: /cpp/aspose.cells/worksheet/isoutlineshown/
 ---
 ## Worksheet::IsOutlineShown method

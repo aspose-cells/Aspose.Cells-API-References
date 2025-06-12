@@ -4,7 +4,7 @@ linktitle: CellWatch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellWatch class. Represents Cell Watch Item in the ''watch window'' in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells/cellwatch/
 ---
 ## CellWatch class

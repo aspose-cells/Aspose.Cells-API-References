@@ -4,7 +4,7 @@ linktitle: RangeCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RangeCollection class. Encapsulates a collection of Range objects in C++.'
 type: docs
-weight: 12200
+weight: 12600
 url: /cpp/aspose.cells/rangecollection/
 ---
 ## RangeCollection class

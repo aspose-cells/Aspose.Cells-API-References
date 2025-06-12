@@ -4,7 +4,7 @@ linktitle: GetComment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetComment method. Gets the comment of this cell in C++.'
 type: docs
-weight: 6600
+weight: 6700
 url: /cpp/aspose.cells/cell/getcomment/
 ---
 ## Cell::GetComment method

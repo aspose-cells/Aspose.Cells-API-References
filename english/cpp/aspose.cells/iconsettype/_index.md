@@ -4,7 +4,7 @@ linktitle: IconSetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IconSetType enum. Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible in C++.'
 type: docs
-weight: 22100
+weight: 23000
 url: /cpp/aspose.cells/iconsettype/
 ---
 ## IconSetType enum

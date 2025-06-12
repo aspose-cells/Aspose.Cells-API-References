@@ -4,7 +4,7 @@ linktitle: GlobalizationSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::GlobalizationSettings class. Represents the globalization settings in C++.'
 type: docs
-weight: 7300
+weight: 7600
 url: /cpp/aspose.cells/globalizationsettings/
 ---
 ## GlobalizationSettings class

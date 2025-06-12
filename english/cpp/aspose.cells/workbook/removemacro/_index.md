@@ -4,7 +4,7 @@ linktitle: RemoveMacro
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::RemoveMacro method. Removes VBA/macro from this spreadsheet in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells/workbook/removemacro/
 ---
 ## Workbook::RemoveMacro method

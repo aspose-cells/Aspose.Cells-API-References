@@ -4,7 +4,7 @@ linktitle: Scenario
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Scenario class. Represents an individual scenario in C++.'
 type: docs
-weight: 12900
+weight: 13300
 url: /cpp/aspose.cells/scenario/
 ---
 ## Scenario class

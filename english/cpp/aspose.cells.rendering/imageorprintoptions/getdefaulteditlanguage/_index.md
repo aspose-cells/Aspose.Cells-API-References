@@ -4,7 +4,7 @@ linktitle: GetDefaultEditLanguage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::GetDefaultEditLanguage method. Gets or sets default edit language in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells.rendering/imageorprintoptions/getdefaulteditlanguage/
 ---
 ## ImageOrPrintOptions::GetDefaultEditLanguage method

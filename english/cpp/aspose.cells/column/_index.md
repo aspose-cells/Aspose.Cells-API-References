@@ -4,7 +4,7 @@ linktitle: Column
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Column class. Represents a single column in a worksheet in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells/column/
 ---
 ## Column class

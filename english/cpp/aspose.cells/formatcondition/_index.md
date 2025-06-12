@@ -4,7 +4,7 @@ linktitle: FormatCondition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FormatCondition class. Represents conditional formatting condition in C++.'
 type: docs
-weight: 6900
+weight: 7200
 url: /cpp/aspose.cells/formatcondition/
 ---
 ## FormatCondition class

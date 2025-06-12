@@ -4,7 +4,7 @@ linktitle: RenderingWatermark
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::RenderingWatermark class. Watermark for rendering in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.rendering/renderingwatermark/
 ---
 ## RenderingWatermark class

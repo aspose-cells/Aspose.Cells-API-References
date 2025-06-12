@@ -4,7 +4,7 @@ linktitle: SolidFill
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SolidFill class. Encapsulates the object that represents solid fill format in C++.'
 type: docs
-weight: 6400
+weight: 6500
 url: /cpp/aspose.cells.drawing/solidfill/
 ---
 ## SolidFill class

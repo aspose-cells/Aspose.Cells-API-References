@@ -4,7 +4,7 @@ linktitle: DataSorter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter class. Summary description for DataSorter in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells/datasorter/
 ---
 ## DataSorter class

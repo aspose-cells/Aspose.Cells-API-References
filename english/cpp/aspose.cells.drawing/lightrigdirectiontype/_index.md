@@ -4,7 +4,7 @@ linktitle: LightRigDirectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LightRigDirectionType enum. Represents the light rig direction type in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells.drawing/lightrigdirectiontype/
 ---
 ## LightRigDirectionType enum

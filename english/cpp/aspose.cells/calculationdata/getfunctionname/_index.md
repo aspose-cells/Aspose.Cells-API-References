@@ -4,7 +4,7 @@ linktitle: GetFunctionName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationData::GetFunctionName method. Gets the function name to be calculated in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells/calculationdata/getfunctionname/
 ---
 ## CalculationData::GetFunctionName method

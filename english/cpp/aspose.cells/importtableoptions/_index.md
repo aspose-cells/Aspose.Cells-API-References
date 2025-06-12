@@ -4,7 +4,7 @@ linktitle: ImportTableOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions class. Represents the options of importing data into cells in C++.'
 type: docs
-weight: 8700
+weight: 9000
 url: /cpp/aspose.cells/importtableoptions/
 ---
 ## ImportTableOptions class

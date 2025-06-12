@@ -4,7 +4,7 @@ linktitle: PrintErrorsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintErrorsType enum. Represents print errors constants in C++.'
 type: docs
-weight: 24100
+weight: 25300
 url: /cpp/aspose.cells/printerrorstype/
 ---
 ## PrintErrorsType enum

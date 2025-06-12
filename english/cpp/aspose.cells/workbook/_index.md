@@ -81,6 +81,7 @@ class Workbook
 | [IsLicensed()](./islicensed/) | Indicates whether license is set. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsWorkbookProtectedWithPassword()](./isworkbookprotectedwithpassword/) | Indicates whether structure or window is protected with password. |
+| [MergeNamedStyles(const Workbook\& source)](./mergenamedstyles/) | Merges named styles from the other Excel file. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Workbook\& src)](./operator_asm/) | operator= |
 | [ParseFormulas(bool ignoreError)](./parseformulas/) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |

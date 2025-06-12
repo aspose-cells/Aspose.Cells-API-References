@@ -4,7 +4,7 @@ linktitle: GetFileFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetFileFormat method. Gets and sets the file format in C++.'
 type: docs
-weight: 5800
+weight: 5900
 url: /cpp/aspose.cells/workbook/getfileformat/
 ---
 ## Workbook::GetFileFormat method

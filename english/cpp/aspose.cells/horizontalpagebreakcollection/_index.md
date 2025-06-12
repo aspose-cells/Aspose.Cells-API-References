@@ -4,7 +4,7 @@ linktitle: HorizontalPageBreakCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HorizontalPageBreakCollection class. Encapsulates a collection of HorizontalPageBreak objects in C++.'
 type: docs
-weight: 7600
+weight: 7900
 url: /cpp/aspose.cells/horizontalpagebreakcollection/
 ---
 ## HorizontalPageBreakCollection class

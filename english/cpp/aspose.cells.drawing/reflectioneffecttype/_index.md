@@ -4,7 +4,7 @@ linktitle: ReflectionEffectType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ReflectionEffectType enum. Represents the effect type of reflection in C++.'
 type: docs
-weight: 11000
+weight: 11200
 url: /cpp/aspose.cells.drawing/reflectioneffecttype/
 ---
 ## ReflectionEffectType enum

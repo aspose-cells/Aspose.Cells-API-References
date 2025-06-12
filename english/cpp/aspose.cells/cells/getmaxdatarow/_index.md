@@ -19,7 +19,7 @@ int32_t Aspose::Cells::Cells::GetMaxDataRow()
 ## Remarks
 
 
-Return -1 if there is no cell which contains data. 
+Return -1 if there is no cell which contains data. This property needs to iterate and check cells and rows dynamically, so it is a time-consumed progress and should not be invoked repeatedly, such as using it directly as condition in a loop. 
 ## See Also
 
 * Class [Vector](../../vector/)

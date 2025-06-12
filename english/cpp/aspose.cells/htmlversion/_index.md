@@ -4,7 +4,7 @@ linktitle: HtmlVersion
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlVersion enum. Indicates the version of HTML is used when saving to Html formats in C++.'
 type: docs
-weight: 22700
+weight: 22900
 url: /cpp/aspose.cells/htmlversion/
 ---
 ## HtmlVersion enum

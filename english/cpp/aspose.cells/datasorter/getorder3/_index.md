@@ -4,7 +4,7 @@ linktitle: GetOrder3
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::GetOrder3 method. Represents sort order of the third key in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells/datasorter/getorder3/
 ---
 ## DataSorter::GetOrder3 method

@@ -4,7 +4,7 @@ linktitle: TimePeriodType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TimePeriodType enum. Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods, which change based on the date the conditional formatting is refreshed / applied in C++.'
 type: docs
-weight: 26200
+weight: 27400
 url: /cpp/aspose.cells/timeperiodtype/
 ---
 ## TimePeriodType enum

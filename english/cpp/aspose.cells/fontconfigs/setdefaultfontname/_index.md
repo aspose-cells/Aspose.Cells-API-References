@@ -4,7 +4,7 @@ linktitle: SetDefaultFontName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs::SetDefaultFontName method. Gets or sets the default font name in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/fontconfigs/setdefaultfontname/
 ---
 ## FontConfigs::SetDefaultFontName(const U16String\&) method

@@ -4,7 +4,7 @@ linktitle: SetStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetStyleType method. Specify the type of Built-in slicer style the default type is SlicerStyleLight1 in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.slicers/slicer/setstyletype/
 ---
 ## Slicer::SetStyleType method

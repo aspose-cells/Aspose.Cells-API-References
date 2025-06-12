@@ -4,7 +4,7 @@ linktitle: GetNumberCategoryType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetNumberCategoryType method. Represents the category type of this cell''s number formatting in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells/cell/getnumbercategorytype/
 ---
 ## Cell::GetNumberCategoryType method

@@ -28,7 +28,7 @@ void Aspose::Cells::WorksheetCollection::RefreshPivotTables()
 Refreshes all the PivotTables in the Excel file.
 
 ```cpp
-void Aspose::Cells::WorksheetCollection::RefreshPivotTables(const PivotTableRefreshOption &option)
+bool Aspose::Cells::WorksheetCollection::RefreshPivotTables(const PivotTableRefreshOption &option)
 ```
 
 

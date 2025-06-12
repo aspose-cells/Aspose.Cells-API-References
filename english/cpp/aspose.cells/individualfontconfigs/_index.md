@@ -4,7 +4,7 @@ linktitle: IndividualFontConfigs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IndividualFontConfigs class. Font configs for each Workbook object in C++.'
 type: docs
-weight: 8800
+weight: 9100
 url: /cpp/aspose.cells/individualfontconfigs/
 ---
 ## IndividualFontConfigs class

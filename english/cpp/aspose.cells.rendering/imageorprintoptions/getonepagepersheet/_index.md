@@ -4,7 +4,7 @@ linktitle: GetOnePagePerSheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::GetOnePagePerSheet method. If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect in C++.'
 type: docs
-weight: 2400
+weight: 2200
 url: /cpp/aspose.cells.rendering/imageorprintoptions/getonepagepersheet/
 ---
 ## ImageOrPrintOptions::GetOnePagePerSheet method

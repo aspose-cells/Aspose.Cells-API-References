@@ -4,7 +4,7 @@ linktitle: MsoArrowheadWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoArrowheadWidth enum. Enumerates the line end width of the shape border line in C++.'
 type: docs
-weight: 9700
+weight: 9900
 url: /cpp/aspose.cells.drawing/msoarrowheadwidth/
 ---
 ## MsoArrowheadWidth enum

@@ -4,7 +4,7 @@ linktitle: Outline
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Outline class. Represents an outline on a worksheet in C++.'
 type: docs
-weight: 10900
+weight: 11200
 url: /cpp/aspose.cells/outline/
 ---
 ## Outline class

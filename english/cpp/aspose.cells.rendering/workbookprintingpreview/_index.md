@@ -4,7 +4,7 @@ linktitle: WorkbookPrintingPreview
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::WorkbookPrintingPreview class. Workbook printing preview in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.rendering/workbookprintingpreview/
 ---
 ## WorkbookPrintingPreview class

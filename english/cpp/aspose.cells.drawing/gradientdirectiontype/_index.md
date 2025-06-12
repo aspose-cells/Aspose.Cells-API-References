@@ -4,7 +4,7 @@ linktitle: GradientDirectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::GradientDirectionType enum. Represents all direction type of gradient in C++.'
 type: docs
-weight: 8400
+weight: 8600
 url: /cpp/aspose.cells.drawing/gradientdirectiontype/
 ---
 ## GradientDirectionType enum

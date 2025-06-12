@@ -4,7 +4,7 @@ linktitle: GetDataConnections
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetDataConnections method. Gets the ExternalConnection collection in C++.'
 type: docs
-weight: 6900
+weight: 7100
 url: /cpp/aspose.cells/workbook/getdataconnections/
 ---
 ## Workbook::GetDataConnections method

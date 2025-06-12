@@ -4,7 +4,7 @@ linktitle: ToDouble
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToDouble method. Gets the double value in C++.'
 type: docs
-weight: 2600
+weight: 3000
 url: /cpp/aspose.cells/object/todouble/
 ---
 ## Object::ToDouble method

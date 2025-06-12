@@ -4,7 +4,7 @@ linktitle: Enumerator
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Enumerator class. Enumeration template class, provides a simple way to iterate over a collection in C++.'
 type: docs
-weight: 5300
+weight: 5500
 url: /cpp/aspose.cells/enumerator/
 ---
 ## Enumerator class

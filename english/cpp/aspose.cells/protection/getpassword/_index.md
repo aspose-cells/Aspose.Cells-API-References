@@ -4,7 +4,7 @@ linktitle: GetPassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection::GetPassword method. Represents the password to protect the worksheet in C++.'
 type: docs
-weight: 3500
+weight: 3900
 url: /cpp/aspose.cells/protection/getpassword/
 ---
 ## Protection::GetPassword method

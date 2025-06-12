@@ -4,7 +4,7 @@ linktitle: CalculationOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationOptions class. Represents options for calculation in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/calculationoptions/
 ---
 ## CalculationOptions class

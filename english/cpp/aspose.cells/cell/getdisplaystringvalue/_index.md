@@ -4,7 +4,7 @@ linktitle: GetDisplayStringValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetDisplayStringValue method. Gets the formatted string value of this cell by cell''s display style in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells/cell/getdisplaystringvalue/
 ---
 ## Cell::GetDisplayStringValue method

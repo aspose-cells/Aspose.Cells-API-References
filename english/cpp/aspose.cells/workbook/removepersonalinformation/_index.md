@@ -4,7 +4,7 @@ linktitle: RemovePersonalInformation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::RemovePersonalInformation method. Removes personal information in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.cells/workbook/removepersonalinformation/
 ---
 ## Workbook::RemovePersonalInformation method
