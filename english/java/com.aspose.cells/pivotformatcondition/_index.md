@@ -16,7 +16,7 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
 
 **Remarks**
 
-NOTE: This class is now obsolete. Instead, please use PivotConditional class. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This class is now obsolete. Instead, please use [PivotConditionalFormat](../../com.aspose.cells/pivotconditionalformat) class. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Example**
 

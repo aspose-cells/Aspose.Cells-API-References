@@ -215,6 +215,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [insertRows(int rowIndex, int totalRows, InsertOptions options)](#insertRows-int-int-com.aspose.cells.InsertOptions-) | Inserts multiple rows into the worksheet. |
 | [isBlankColumn(int columnIndex)](#isBlankColumn-int-) | Checks whether given column is blank(does not contain any data). |
 | [isColumnHidden(int columnIndex)](#isColumnHidden-int-) | Checks whether a column at given index is hidden. |
+| [isDefaultColumnHidden()](#isDefaultColumnHidden--) |  |
 | [isDefaultRowHeightMatched()](#isDefaultRowHeightMatched--) | Indicates that row height and default font height matches |
 | [isDefaultRowHidden()](#isDefaultRowHidden--) | Indicates whether the row is default hidden. |
 | [isDeletingRangeEnabled(int startRow, int startColumn, int totalRows, int totalColumns)](#isDeletingRangeEnabled-int-int-int-int-) | Check whether the range could be deleted. |
@@ -235,6 +236,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [setColumnWidth(int column, double width)](#setColumnWidth-int-double-) | Sets the width of the specified column in normal view. |
 | [setColumnWidthInch(int column, double inches)](#setColumnWidthInch-int-double-) | Sets column width in unit of inches in normal view. |
 | [setColumnWidthPixel(int column, int pixels)](#setColumnWidthPixel-int-int-) | Sets column width in unit of pixels in normal view. |
+| [setDefaultColumnHidden(boolean value)](#setDefaultColumnHidden-boolean-) |  |
 | [setDefaultRowHeightMatched(boolean value)](#setDefaultRowHeightMatched-boolean-) | Indicates that row height and default font height matches |
 | [setDefaultRowHidden(boolean value)](#setDefaultRowHidden-boolean-) | Indicates whether the row is default hidden. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage option for this cells. |
@@ -2754,6 +2756,16 @@ Checks whether a column at given index is hidden.
 
 **Returns:**
 boolean - true if the column is hidden.
+### isDefaultColumnHidden() {#isDefaultColumnHidden--}
+```
+public boolean isDefaultColumnHidden()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isDefaultRowHeightMatched() {#isDefaultRowHeightMatched--}
 ```
 public boolean isDefaultRowHeightMatched()
@@ -3055,6 +3067,19 @@ Sets column width in unit of pixels in normal view.
 | --- | --- | --- |
 | column | int | Column index. |
 | pixels | int | Number of pixels. |
+
+### setDefaultColumnHidden(boolean value) {#setDefaultColumnHidden-boolean-}
+```
+public void setDefaultColumnHidden(boolean value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDefaultRowHeightMatched(boolean value) {#setDefaultRowHeightMatched-boolean-}
 ```

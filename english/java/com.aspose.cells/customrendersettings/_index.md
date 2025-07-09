@@ -23,7 +23,7 @@ Represents custom settings during rendering.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCellBorderWidth(int borderType)](#getCellBorderWidth-int-) | Get cell border width according to border type. |
+| [getCellBorderWidth(int borderType)](#getCellBorderWidth-int-) | Specifies cell border width according to border type. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -61,7 +61,7 @@ public float getCellBorderWidth(int borderType)
 ```
 
 
-Get cell border width according to border type.
+Specifies cell border width according to border type.
 
 **Remarks**
 

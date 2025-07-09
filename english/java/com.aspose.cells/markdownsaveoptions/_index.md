@@ -24,6 +24,7 @@ Represents the save options for markdown.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
+| [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -50,6 +51,7 @@ Represents the save options for markdown.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -104,8 +106,26 @@ public String getCachedFileFolder()
 
 The folder for temporary files that may be used as data cache.
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
+
 **Returns:**
 java.lang.String
+### getCalculateFormula() {#getCalculateFormula--}
+```
+public boolean getCalculateFormula()
+```
+
+
+Indicates whether to calculate formulas before saving html file.
+
+**Remarks**
+
+The default value is false.
+
+**Returns:**
+boolean
 ### getCheckExcelRestriction() {#getCheckExcelRestriction--}
 ```
 public boolean getCheckExcelRestriction()
@@ -394,10 +414,31 @@ public void setCachedFileFolder(String value)
 
 The folder for temporary files that may be used as data cache.
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCalculateFormula(boolean value) {#setCalculateFormula-boolean-}
+```
+public void setCalculateFormula(boolean value)
+```
+
+
+Indicates whether to calculate formulas before saving html file.
+
+**Remarks**
+
+The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
 ```

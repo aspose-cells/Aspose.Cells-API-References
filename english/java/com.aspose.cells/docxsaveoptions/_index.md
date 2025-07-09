@@ -25,6 +25,7 @@ Represents options of saving .docx file.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
+| [getAsNormalView()](#getAsNormalView--) | Exporting Excel file to docx fiel as normal view. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
@@ -64,6 +65,7 @@ Represents options of saving .docx file.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
+| [setAsNormalView(boolean value)](#setAsNormalView-boolean-) | Exporting Excel file to docx fiel as normal view. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
@@ -147,6 +149,16 @@ If AllColumnsInOnePagePerSheet is true , all column content of one sheet will ou
 
 **Returns:**
 boolean
+### getAsNormalView() {#getAsNormalView--}
+```
+public boolean getAsNormalView()
+```
+
+
+Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false.
+
+**Returns:**
+boolean
 ### getCachedFileFolder() {#getCachedFileFolder--}
 ```
 public String getCachedFileFolder()
@@ -154,6 +166,10 @@ public String getCachedFileFolder()
 
 
 The folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
 
 **Returns:**
 java.lang.String
@@ -696,6 +712,19 @@ If AllColumnsInOnePagePerSheet is true , all column content of one sheet will ou
 | --- | --- | --- |
 | value | boolean |  |
 
+### setAsNormalView(boolean value) {#setAsNormalView-boolean-}
+```
+public void setAsNormalView(boolean value)
+```
+
+
+Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
 ```
 public void setCachedFileFolder(String value)
@@ -703,6 +732,10 @@ public void setCachedFileFolder(String value)
 
 
 The folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
 
 **Parameters:**
 | Parameter | Type | Description |
