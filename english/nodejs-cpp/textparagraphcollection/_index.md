@@ -15,14 +15,29 @@ class TextParagraphCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the count of text paragraphs. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [TextParagraph](../textparagraph/) object at specific index. |
-| [getCount()](#getCount--)| Gets the count of text paragraphs. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of text paragraphs. |
 | [getEnumerator()](#getEnumerator--)| Gets the enumerator of the paragraphs. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the count of text paragraphs.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -44,7 +59,7 @@ get(index: number) : TextParagraph;
 
 ### getCount() {#getCount--}
 
-Gets the count of text paragraphs.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of text paragraphs.
 
 ```javascript
 getCount() : number;

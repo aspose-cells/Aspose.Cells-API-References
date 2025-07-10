@@ -4,7 +4,7 @@ linktitle: HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlHiddenRowDisplayType enum. Represents two types of showing the hidden rows in html in C++.'
 type: docs
-weight: 21900
+weight: 22600
 url: /cpp/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 ## HtmlHiddenRowDisplayType enum

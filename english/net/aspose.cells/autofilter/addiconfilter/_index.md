@@ -47,12 +47,24 @@ namespace AsposeCellsExamples
             worksheet.Cells["A4"].PutValue(30);
             worksheet.Cells["A5"].PutValue(40);
             worksheet.Cells["A6"].PutValue(50);
+            cell = worksheet.Cells["B1"];
+            cell.PutValue("Values2");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+            worksheet.Cells["B6"].PutValue(50);
+
+            ConditionalFormattingCollection cfs = worksheet.ConditionalFormattings;
+            FormatConditionCollection fcs = cfs[cfs.Add()];
+            fcs.AddArea(CellArea.CreateCellArea(1, 0, 5, 1));
+            FormatCondition fc = fcs[fcs.AddCondition(FormatConditionType.IconSet)];
 
             // Get auto filter instance
             AutoFilter autoFilter = worksheet.AutoFilter;
             
             // Set autofilter range (A1:A6) using startRow, startColumn, endRow
-            autoFilter.SetRange(0, 0, 5);
+            autoFilter.SetRange(0, 0, 1);
 
             try
             {
@@ -72,7 +84,7 @@ namespace AsposeCellsExamples
             }
 
             // Save the modified workbook
-            workbook.Save("AddIconFilterDemo.xlsx");
+            workbook.Save("AutoFilterMethodAddIconFilterWithInt32IconSetTypeInt32Demo.xlsx");
         }
     }
 }

@@ -15,16 +15,25 @@ class PivotConditionalFormat;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pivotAreas](#pivotAreas--)| PivotAreaCollection | Readonly. Gets all pivot areas. |
+| [formatConditions](#formatConditions--)| FormatConditionCollection | Readonly. Get conditions for the pivot table conditional format . |
+| [scopeType](#scopeType--)| PivotConditionFormatScopeType | Get and set scope type for the pivot table conditional format . |
+| [ruleType](#ruleType--)| PivotConditionFormatRuleType | Get and set rule type for the pivot table condition format . |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPivotAreas()](#getPivotAreas--)| Gets all pivot areas. |
-| [getFormatConditions()](#getFormatConditions--)| Get conditions for the pivot table conditional format . |
-| [getScopeType()](#getScopeType--)| Get and set scope type for the pivot table conditional format . |
-| [setScopeType(PivotConditionFormatScopeType)](#setScopeType-pivotconditionformatscopetype-)| Get and set scope type for the pivot table conditional format . |
-| [getRuleType()](#getRuleType--)| Get and set rule type for the pivot table condition format . |
-| [setRuleType(PivotConditionFormatRuleType)](#setRuleType-pivotconditionformatruletype-)| Get and set rule type for the pivot table condition format . |
+| [getPivotAreas()](#getPivotAreas--)| <b>@deprecated.</b> Please use the 'pivotAreas' property instead. Gets all pivot areas. |
+| [getFormatConditions()](#getFormatConditions--)| <b>@deprecated.</b> Please use the 'formatConditions' property instead. Get conditions for the pivot table conditional format . |
+| [getScopeType()](#getScopeType--)| <b>@deprecated.</b> Please use the 'scopeType' property instead. Get and set scope type for the pivot table conditional format . |
+| [setScopeType(PivotConditionFormatScopeType)](#setScopeType-pivotconditionformatscopetype-)| <b>@deprecated.</b> Please use the 'scopeType' property instead. Get and set scope type for the pivot table conditional format . |
+| [getRuleType()](#getRuleType--)| <b>@deprecated.</b> Please use the 'ruleType' property instead. Get and set rule type for the pivot table condition format . |
+| [setRuleType(PivotConditionFormatRuleType)](#setRuleType-pivotconditionformatruletype-)| <b>@deprecated.</b> Please use the 'ruleType' property instead. Get and set rule type for the pivot table condition format . |
 | [getCellAreas()](#getCellAreas--)| Gets all cell areas where this conditional format applies to. |
 | [addCellArea(CellArea)](#addCellArea-cellarea-)| Adds an area based on pivot table view. |
 | [applyTo(number, number, PivotConditionFormatScopeType)](#applyTo-number-number-pivotconditionformatscopetype-)| Applies the conditional format to range. Only for the data region. |
@@ -33,9 +42,45 @@ class PivotConditionalFormat;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### pivotAreas {#pivotAreas--}
+
+Readonly. Gets all pivot areas.
+
+```javascript
+pivotAreas : PivotAreaCollection;
+```
+
+
+### formatConditions {#formatConditions--}
+
+Readonly. Get conditions for the pivot table conditional format .
+
+```javascript
+formatConditions : FormatConditionCollection;
+```
+
+
+### scopeType {#scopeType--}
+
+Get and set scope type for the pivot table conditional format .
+
+```javascript
+scopeType : PivotConditionFormatScopeType;
+```
+
+
+### ruleType {#ruleType--}
+
+Get and set rule type for the pivot table condition format .
+
+```javascript
+ruleType : PivotConditionFormatRuleType;
+```
+
+
 ### getPivotAreas() {#getPivotAreas--}
 
-Gets all pivot areas.
+<b>@deprecated.</b> Please use the 'pivotAreas' property instead. Gets all pivot areas.
 
 ```javascript
 getPivotAreas() : PivotAreaCollection;
@@ -48,7 +93,7 @@ getPivotAreas() : PivotAreaCollection;
 
 ### getFormatConditions() {#getFormatConditions--}
 
-Get conditions for the pivot table conditional format .
+<b>@deprecated.</b> Please use the 'formatConditions' property instead. Get conditions for the pivot table conditional format .
 
 ```javascript
 getFormatConditions() : FormatConditionCollection;
@@ -61,7 +106,7 @@ getFormatConditions() : FormatConditionCollection;
 
 ### getScopeType() {#getScopeType--}
 
-Get and set scope type for the pivot table conditional format .
+<b>@deprecated.</b> Please use the 'scopeType' property instead. Get and set scope type for the pivot table conditional format .
 
 ```javascript
 getScopeType() : PivotConditionFormatScopeType;
@@ -74,7 +119,7 @@ getScopeType() : PivotConditionFormatScopeType;
 
 ### setScopeType(PivotConditionFormatScopeType) {#setScopeType-pivotconditionformatscopetype-}
 
-Get and set scope type for the pivot table conditional format .
+<b>@deprecated.</b> Please use the 'scopeType' property instead. Get and set scope type for the pivot table conditional format .
 
 ```javascript
 setScopeType(value: PivotConditionFormatScopeType) : void;
@@ -87,7 +132,7 @@ setScopeType(value: PivotConditionFormatScopeType) : void;
 
 ### getRuleType() {#getRuleType--}
 
-Get and set rule type for the pivot table condition format .
+<b>@deprecated.</b> Please use the 'ruleType' property instead. Get and set rule type for the pivot table condition format .
 
 ```javascript
 getRuleType() : PivotConditionFormatRuleType;
@@ -100,7 +145,7 @@ getRuleType() : PivotConditionFormatRuleType;
 
 ### setRuleType(PivotConditionFormatRuleType) {#setRuleType-pivotconditionformatruletype-}
 
-Get and set rule type for the pivot table condition format .
+<b>@deprecated.</b> Please use the 'ruleType' property instead. Get and set rule type for the pivot table condition format .
 
 ```javascript
 setRuleType(value: PivotConditionFormatRuleType) : void;

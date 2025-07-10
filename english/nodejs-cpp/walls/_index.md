@@ -17,41 +17,63 @@ class Walls extends Floor;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Floor)](#constructor-floor-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [centerX](#centerX--)| number | Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [centerY](#centerY--)| number | Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
+| [width](#width--)| number | Readonly. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [depth](#depth--)| number | Readonly. Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [height](#height--)| number | Readonly. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
+| [centerXPx](#centerXPx--)| number | Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
+| [centerYPx](#centerYPx--)| number | Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
+| [widthPx](#widthPx--)| number | Readonly. Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
+| [depthPx](#depthPx--)| number | Readonly. Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
+| [heightPx](#heightPx--)| number | Readonly. Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
+| [backgroundColor](#backgroundColor--)| Color | Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [foregroundColor](#foregroundColor--)| Color | Gets or sets the foreground [Color](../color/). |
+| [formatting](#formatting--)| FormattingType | Represents the formatting of the area. |
+| [invertIfNegative](#invertIfNegative--)| boolean | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [fillFormat](#fillFormat--)| FillFormat | Readonly. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [border](#border--)| Line | Gets or sets the border [Line](../line/). |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCenterX()](#getCenterX--)| Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getCenterY()](#getCenterY--)| Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [getWidth()](#getWidth--)| Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getDepth()](#getDepth--)| Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getHeight()](#getHeight--)| Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [getCenterXPx()](#getCenterXPx--)| Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
-| [getCenterYPx()](#getCenterYPx--)| Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
-| [getWidthPx()](#getWidthPx--)| Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
-| [getDepthPx()](#getDepthPx--)| Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
-| [getHeightPx()](#getHeightPx--)| Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
+| [getCenterX()](#getCenterX--)| <b>@deprecated.</b> Please use the 'centerX' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [getCenterY()](#getCenterY--)| <b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [getDepth()](#getDepth--)| <b>@deprecated.</b> Please use the 'depth' property instead. Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
+| [getCenterXPx()](#getCenterXPx--)| <b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
+| [getCenterYPx()](#getCenterYPx--)| <b>@deprecated.</b> Please use the 'centerYPx' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
+| [getWidthPx()](#getWidthPx--)| <b>@deprecated.</b> Please use the 'widthPx' property instead. Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
+| [getDepthPx()](#getDepthPx--)| <b>@deprecated.</b> Please use the 'depthPx' property instead. Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
+| [getHeightPx()](#getHeightPx--)| <b>@deprecated.</b> Please use the 'heightPx' property instead. Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
 | [getCubePointCount()](#getCubePointCount--)| Gets the number of cube points after calls Chart.Calculate() method. |
 | [getCubePointXPx(number)](#getCubePointXPx-number-)| Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight |
 | [getCubePointYPx(number)](#getCubePointYPx-number-)| Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [Color](../color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [Color](../color/). |
-| [getFormatting()](#getFormatting--)| Represents the formatting of the area. |
-| [setFormatting(FormattingType)](#setFormatting-formattingtype-)| Represents the formatting of the area. |
-| [getInvertIfNegative()](#getInvertIfNegative--)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
-| [setInvertIfNegative(boolean)](#setInvertIfNegative-boolean-)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
-| [getFillFormat()](#getFillFormat--)| Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getBorder()](#getBorder--)| Gets or sets the border [Line](../line/). |
-| [setBorder(Line)](#setBorder-line-)| Gets or sets the border [Line](../line/). |
+| [getBackgroundColor()](#getBackgroundColor--)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [getFormatting()](#getFormatting--)| <b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area. |
+| [setFormatting(FormattingType)](#setFormatting-formattingtype-)| <b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area. |
+| [getInvertIfNegative()](#getInvertIfNegative--)| <b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [setInvertIfNegative(boolean)](#setInvertIfNegative-boolean-)| <b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [getFillFormat()](#getFillFormat--)| <b>@deprecated.</b> Please use the 'fillFormat' property instead. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/). |
+| [setBorder(Line)](#setBorder-line-)| <b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/). |
 
 
 ### constructor(Floor) {#constructor-floor-}
@@ -67,9 +89,162 @@ constructor(obj: Floor);
 | --- | --- | --- |
 | obj | Floor | The parent object. |
 
+### centerX {#centerX--}
+
+Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+
+```javascript
+centerX : number;
+```
+
+
+### centerY {#centerY--}
+
+Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+
+```javascript
+centerY : number;
+```
+
+
+### width {#width--}
+
+Readonly. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+
+```javascript
+width : number;
+```
+
+
+### depth {#depth--}
+
+Readonly. Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+
+```javascript
+depth : number;
+```
+
+
+### height {#height--}
+
+Readonly. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+
+```javascript
+height : number;
+```
+
+
+### centerXPx {#centerXPx--}
+
+Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+
+```javascript
+centerXPx : number;
+```
+
+
+### centerYPx {#centerYPx--}
+
+Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+
+```javascript
+centerYPx : number;
+```
+
+
+### widthPx {#widthPx--}
+
+Readonly. Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
+
+```javascript
+widthPx : number;
+```
+
+
+### depthPx {#depthPx--}
+
+Readonly. Gets the depth front to back in units of pixels after calls Chart.Calculate() method.
+
+```javascript
+depthPx : number;
+```
+
+
+### heightPx {#heightPx--}
+
+Readonly. Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+
+```javascript
+heightPx : number;
+```
+
+
+### backgroundColor {#backgroundColor--}
+
+Gets or sets the background [Color](../color/) of the [Area](../area/).
+
+```javascript
+backgroundColor : Color;
+```
+
+
+### foregroundColor {#foregroundColor--}
+
+Gets or sets the foreground [Color](../color/).
+
+```javascript
+foregroundColor : Color;
+```
+
+
+### formatting {#formatting--}
+
+Represents the formatting of the area.
+
+```javascript
+formatting : FormattingType;
+```
+
+
+### invertIfNegative {#invertIfNegative--}
+
+If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+
+```javascript
+invertIfNegative : boolean;
+```
+
+
+### fillFormat {#fillFormat--}
+
+Readonly. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
+
+```javascript
+fillFormat : FillFormat;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
+
+
+### border {#border--}
+
+Gets or sets the border [Line](../line/).
+
+```javascript
+border : Line;
+```
+
+
 ### getCenterX() {#getCenterX--}
 
-Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerX' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method.
 
 ```javascript
 getCenterX() : number;
@@ -78,7 +253,7 @@ getCenterX() : number;
 
 ### getCenterY() {#getCenterY--}
 
-Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method.
 
 ```javascript
 getCenterY() : number;
@@ -87,7 +262,7 @@ getCenterY() : number;
 
 ### getWidth() {#getWidth--}
 
-Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method.
 
 ```javascript
 getWidth() : number;
@@ -96,7 +271,7 @@ getWidth() : number;
 
 ### getDepth() {#getDepth--}
 
-Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'depth' property instead. Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method.
 
 ```javascript
 getDepth() : number;
@@ -105,7 +280,7 @@ getDepth() : number;
 
 ### getHeight() {#getHeight--}
 
-Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method.
 
 ```javascript
 getHeight() : number;
@@ -114,7 +289,7 @@ getHeight() : number;
 
 ### getCenterXPx() {#getCenterXPx--}
 
-Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
 
 ```javascript
 getCenterXPx() : number;
@@ -123,7 +298,7 @@ getCenterXPx() : number;
 
 ### getCenterYPx() {#getCenterYPx--}
 
-Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerYPx' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
 
 ```javascript
 getCenterYPx() : number;
@@ -132,7 +307,7 @@ getCenterYPx() : number;
 
 ### getWidthPx() {#getWidthPx--}
 
-Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'widthPx' property instead. Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
 
 ```javascript
 getWidthPx() : number;
@@ -141,7 +316,7 @@ getWidthPx() : number;
 
 ### getDepthPx() {#getDepthPx--}
 
-Gets the depth front to back in units of pixels after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'depthPx' property instead. Gets the depth front to back in units of pixels after calls Chart.Calculate() method.
 
 ```javascript
 getDepthPx() : number;
@@ -150,7 +325,7 @@ getDepthPx() : number;
 
 ### getHeightPx() {#getHeightPx--}
 
-Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'heightPx' property instead. Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
 
 ```javascript
 getHeightPx() : number;
@@ -203,7 +378,7 @@ isNull() : boolean;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -216,7 +391,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -229,7 +404,7 @@ setBackgroundColor(value: Color) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -242,7 +417,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -255,7 +430,7 @@ setForegroundColor(value: Color) : void;
 
 ### getFormatting() {#getFormatting--}
 
-Represents the formatting of the area.
+<b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area.
 
 ```javascript
 getFormatting() : FormattingType;
@@ -268,7 +443,7 @@ getFormatting() : FormattingType;
 
 ### setFormatting(FormattingType) {#setFormatting-formattingtype-}
 
-Represents the formatting of the area.
+<b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area.
 
 ```javascript
 setFormatting(value: FormattingType) : void;
@@ -281,7 +456,7 @@ setFormatting(value: FormattingType) : void;
 
 ### getInvertIfNegative() {#getInvertIfNegative--}
 
-If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+<b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
 
 ```javascript
 getInvertIfNegative() : boolean;
@@ -290,7 +465,7 @@ getInvertIfNegative() : boolean;
 
 ### setInvertIfNegative(boolean) {#setInvertIfNegative-boolean-}
 
-If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+<b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
 
 ```javascript
 setInvertIfNegative(value: boolean) : void;
@@ -303,7 +478,7 @@ setInvertIfNegative(value: boolean) : void;
 
 ### getFillFormat() {#getFillFormat--}
 
-Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
+<b>@deprecated.</b> Please use the 'fillFormat' property instead. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
 
 ```javascript
 getFillFormat() : FillFormat;
@@ -316,7 +491,7 @@ getFillFormat() : FillFormat;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -325,7 +500,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;
@@ -338,7 +513,7 @@ setTransparency(value: number) : void;
 
 ### getBorder() {#getBorder--}
 
-Gets or sets the border [Line](../line/).
+<b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/).
 
 ```javascript
 getBorder() : Line;
@@ -351,7 +526,7 @@ getBorder() : Line;
 
 ### setBorder(Line) {#setBorder-line-}
 
-Gets or sets the border [Line](../line/).
+<b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/).
 
 ```javascript
 setBorder(value: Line) : void;

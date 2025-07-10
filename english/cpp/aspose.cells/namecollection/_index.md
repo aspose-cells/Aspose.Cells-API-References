@@ -4,7 +4,7 @@ linktitle: NameCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NameCollection class. Represents a collection of all the Name objects in the spreadsheet in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells/namecollection/
 ---
 ## NameCollection class

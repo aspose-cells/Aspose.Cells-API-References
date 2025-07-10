@@ -24,22 +24,40 @@ literal text of the parameter
 ### Examples
 
 ```csharp
-// Called: data.GetParamText(0), sn + ": INDIRECT's parameter");
-public override void CalculationData_Method_GetParamText(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataMethodGetParamTextWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            sheet.Cells["A1"].Formula = "=SUM(INDIRECT(\"'Book2.xlsx'!Table1[#All]\"))";
+            CalculationOptions options = new CalculationOptions();
+            options.CustomEngine = new CustomCalcEngine();
+            workbook.CalculateFormula(options);
+        }
+    }
+
+    class CustomCalcEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName == "SUM")
             {
-                sn++;
-                if (data.FunctionName == "SUM")
-                {
-                    Assert.AreEqual(sn == 1 ? "Book2.xlsx!Table1[#All]"
-                        : "INDIRECT(\"'Book2.xlsx'!Table1[#All]\")",
-                        data.GetParamText(0), sn + ": SUM's parameter");
-                }
-                else if (data.FunctionName == "INDIRECT")
-                {
-                    Assert.AreEqual("\"'Book2.xlsx'!Table1[#All]\"",
-                        data.GetParamText(0), sn + ": INDIRECT's parameter");
-                }
+                Console.WriteLine("SUM parameter: " + data.GetParamText(0));
             }
+            else if (data.FunctionName == "INDIRECT")
+            {
+                Console.WriteLine("INDIRECT parameter: " + data.GetParamText(0));
+            }
+        }
+    }
+}
 ```
 
 ### See Also

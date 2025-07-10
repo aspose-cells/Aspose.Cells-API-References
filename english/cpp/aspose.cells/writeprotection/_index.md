@@ -4,7 +4,7 @@ linktitle: WriteProtection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WriteProtection class. Specifies write protection settings for a workbook in C++.'
 type: docs
-weight: 16600
+weight: 16700
 url: /cpp/aspose.cells/writeprotection/
 ---
 ## WriteProtection class

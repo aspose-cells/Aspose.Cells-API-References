@@ -26,33 +26,39 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            cells["A2"].Value = "Sales";
+            cells["A3"].Value = "Finance";
+            cells["A4"].Value = "MIS";
+            cells["A5"].Value = "R&D";
+            cells["A6"].Value = "Marketing";
+            cells["A7"].Value = "HRA";
 
-            // Add a TextBox ActiveX control with correct parameters
-            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 0, 0, 100, 100, 0, 0); // Added missing width and height parameters
-            ActiveXControl control = shape.ActiveXControl;
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 5, 0, 100, 200);
+            shape.Name = "MyList";
+            ListBoxActiveXControl list = (ListBoxActiveXControl)shape.ActiveXControl;
 
-            // Initialize text content
-            if (control is TextBoxActiveXControl textBox)
-            {
-                textBox.Text = "Initial Value";
-            }
+            list.ListFillRange = ("A3:A7");
+            list.Value = ("Apple");
+            list.LinkedCell = ("A1");
+            list.ListStyle = (ControlListStyle.Option);
+            list.SelectionType = (SelectionType.Multi);
+            list.IsVisible = true;
 
-            // Display initial data length
-            Console.WriteLine("Initial Data Length: " + BitConverter.ToString(control.Data).Replace("-", ""));
+            // Display initial Data property information
+            Console.WriteLine("Initial Data length: " + list.Data.Length);
 
-            // Modify control properties
-            if (control is TextBoxActiveXControl modifiedTextBox)
-            {
-                modifiedTextBox.Text = "Modified Value";
-                modifiedTextBox.IsAutoSize = true;
-            }
+            // Modify control properties that affect Data
+            list.BackOleColor = 0xFF0000; 
+            list.ListWidth = 200; // Increase list width
 
-            // Display updated data length
-            Console.WriteLine("Updated Data Length: " + BitConverter.ToString(control.Data).Replace("-", ""));
+            // Display updated Data property information
+            Console.WriteLine("Modified Data length: " + list.Data.Length);
 
-            workbook.Save("ActiveXControlDataDemo.xlsx");
+            workbook.Save("ActiveXControlPropertyDataDemo.xlsx");
         }
     }
 }

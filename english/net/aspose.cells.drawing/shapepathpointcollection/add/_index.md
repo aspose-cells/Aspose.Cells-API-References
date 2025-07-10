@@ -41,14 +41,16 @@ namespace AsposeCellsExamples
             try
             {
                 // Call the Add method with (Int32, Int32) parameters
-                int index1 = pathPoints.Add(1000, 2000);
-                int index2 = pathPoints.Add(3000, 4000);
-
-                Console.WriteLine($"First point added at index: {index1}");
-                Console.WriteLine($"Second point added at index: {index2}");
+                pathPoints.Add(50, 10);
+                pathPoints.Add(50, 50);
+                pathPoints.Add(10, 50);
 
                 // Create a shape path and add the points
                 ShapePath path = new ShapePath();
+
+                // Move to starting point
+                path.MoveTo(10, 10);
+
                 foreach (ShapePathPoint point in pathPoints)
                 {
                     path.LineTo(point.X, point.Y);
@@ -57,12 +59,12 @@ namespace AsposeCellsExamples
 
                 // Add freeform shape with the configured path
                 Shape shape = worksheet.Shapes.AddFreeform(
-                    upperLeftRow: 1,
-                    top: 1,
-                    upperLeftColumn: 0,
+                    upperLeftRow: 2,
+                    top: 0,
+                    upperLeftColumn: 2,
                     left: 0,
-                    height: 5000,
-                    width: 5000,
+                    height: 200,
+                    width: 200,
                     paths: new ShapePath[] { path }
                 );
 

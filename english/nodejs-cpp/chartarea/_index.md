@@ -22,44 +22,79 @@ const { Workbook, ChartType, Color } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the first worksheet
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(60);
+worksheet.cells.get("B1").putValue(60);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(32);
+worksheet.cells.get("B2").putValue(32);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 15, 5);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.getNSeries().add("A1:B3", true);
+chart.nSeries.add("A1:B3", true);
 //Getting Chart Area
-var chartArea = chart.getChartArea();
+var chartArea = chart.chartArea;
 //Setting the foreground color of the chart area
-chartArea.getArea().setForegroundColor(Color.Yellow);
+chartArea.getArea().foregroundColor = Color.Yellow;
 //Setting Chart Area Shadow
-chartArea.setShadow(true);
+chartArea.shadow = true;
 //Saving the Excel file
 workbook.save("output/ChartsChartArea.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ChartFrame)](#constructor-chartframe-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [shadow](#shadow--)| boolean | True if the frame has a shadow. |
+| [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [getDefaultX()](#getDefaultX--)| <b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area. |
+| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area. |
+| [getDefaultWidth()](#getDefaultWidth--)| <b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area. |
+| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
 | [getX()](#getX--)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
 | [setX(number)](#setX-number-)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
 | [getY()](#getY--)| Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
@@ -77,23 +112,6 @@ workbook.save("output/ChartsChartArea.xls");
 | [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
 | [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
 | [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified chartarea object. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getShadow()](#getShadow--)| True if the frame has a shadow. |
-| [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [getDefaultX()](#getDefaultX--)| Represents x of default position in units of 1/4000 of the chart area. |
-| [getDefaultY()](#getDefaultY--)| Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultWidth()](#getDefaultWidth--)| Represents width of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeight()](#getDefaultHeight--)| Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
-| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -124,6 +142,340 @@ constructor(obj: ChartFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartFrame | The parent object. |
+
+### isInnerMode {#isInnerMode--}
+
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### shadow {#shadow--}
+
+True if the frame has a shadow.
+
+```javascript
+shadow : boolean;
+```
+
+
+### shapeProperties {#shapeProperties--}
+
+Readonly. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+shapeProperties : ShapePropertyCollection;
+```
+
+
+### isDefaultPosBeSet {#isDefaultPosBeSet--}
+
+Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet : boolean;
+```
+
+
+### defaultX {#defaultX--}
+
+Readonly. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultX : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultY {#defaultY--}
+
+Readonly. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultY : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultWidth {#defaultWidth--}
+
+Readonly. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultWidth : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultHeight {#defaultHeight--}
+
+Readonly. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultHeight : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultXRatioToChart {#defaultXRatioToChart--}
+
+Readonly. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+defaultXRatioToChart : number;
+```
+
+
+### defaultYRatioToChart {#defaultYRatioToChart--}
+
+Readonly. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+defaultYRatioToChart : number;
+```
+
+
+### defaultWidthRatioToChart {#defaultWidthRatioToChart--}
+
+Readonly. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+defaultWidthRatioToChart : number;
+```
+
+
+### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
+
+Readonly. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+defaultHeightRatioToChart : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### isInnerMode() {#isInnerMode--}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode() : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+setIsInnerMode(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for Xlsx file.
+
+### getBackgroundMode() {#getBackgroundMode--}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+getBackgroundMode() : BackgroundMode;
+```
+
+
+**Returns**
+
+[BackgroundMode](../backgroundmode/)
+
+### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+setBackgroundMode(value: BackgroundMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
+
+### getShadow() {#getShadow--}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+getShadow() : boolean;
+```
+
+
+### setShadow(boolean) {#setShadow-boolean-}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+setShadow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShapeProperties() {#getShapeProperties--}
+
+<b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+getShapeProperties() : ShapePropertyCollection;
+```
+
+
+**Returns**
+
+[ShapePropertyCollection](../shapepropertycollection/)
+
+### isDefaultPosBeSet() {#isDefaultPosBeSet--}
+
+<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet() : boolean;
+```
+
+
+### getDefaultX() {#getDefaultX--}
+
+<b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultX() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultY() {#getDefaultY--}
+
+<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultY() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultWidth() {#getDefaultWidth--}
+
+<b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultWidth() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultHeight() {#getDefaultHeight--}
+
+<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultHeight() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultXRatioToChart() : number;
+```
+
+
+### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultYRatioToChart() : number;
+```
+
+
+### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultWidthRatioToChart() : number;
+```
+
+
+### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultHeightRatioToChart() : number;
+```
+
 
 ### getX() {#getX--}
 
@@ -345,203 +697,6 @@ getFont() : Font;
 **Returns**
 
 [Font](../font/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
-
-### isInnerMode() {#isInnerMode--}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-isInnerMode() : boolean;
-```
-
-
-**Remarks**
-
-Only for Xlsx file.
-
-### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-setIsInnerMode(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-Only for Xlsx file.
-
-### getBackgroundMode() {#getBackgroundMode--}
-
-Gets and sets the display mode of the background
-
-```javascript
-getBackgroundMode() : BackgroundMode;
-```
-
-
-**Returns**
-
-[BackgroundMode](../backgroundmode/)
-
-### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
-
-Gets and sets the display mode of the background
-
-```javascript
-setBackgroundMode(value: BackgroundMode) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [BackgroundMode](../backgroundmode/) | The value to set. |
-
-### getShadow() {#getShadow--}
-
-True if the frame has a shadow.
-
-```javascript
-getShadow() : boolean;
-```
-
-
-### setShadow(boolean) {#setShadow-boolean-}
-
-True if the frame has a shadow.
-
-```javascript
-setShadow(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShapeProperties() {#getShapeProperties--}
-
-Gets the [ShapeProperties](../shapeproperties/) object.
-
-```javascript
-getShapeProperties() : ShapePropertyCollection;
-```
-
-
-**Returns**
-
-[ShapePropertyCollection](../shapepropertycollection/)
-
-### isDefaultPosBeSet() {#isDefaultPosBeSet--}
-
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
-
-```javascript
-isDefaultPosBeSet() : boolean;
-```
-
-
-### getDefaultX() {#getDefaultX--}
-
-Represents x of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultX() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultY() {#getDefaultY--}
-
-Represents y of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultY() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultWidth() {#getDefaultWidth--}
-
-Represents width of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultWidth() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultHeight() {#getDefaultHeight--}
-
-Represents height of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultHeight() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
-
-Represents x of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultXRatioToChart() : number;
-```
-
-
-### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
-
-Represents y of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultYRatioToChart() : number;
-```
-
-
-### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
-
-Represents width of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultWidthRatioToChart() : number;
-```
-
-
-### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
-
-Represents height of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultHeightRatioToChart() : number;
-```
-
 
 ### getBorder() {#getBorder--}
 

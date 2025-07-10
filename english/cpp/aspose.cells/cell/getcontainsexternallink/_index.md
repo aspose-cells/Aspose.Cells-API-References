@@ -4,7 +4,7 @@ linktitle: GetContainsExternalLink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetContainsExternalLink method. Indicates whether this cell contains an external link. Only applies when the cell is a formula cell in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells/cell/getcontainsexternallink/
 ---
 ## Cell::GetContainsExternalLink method

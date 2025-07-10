@@ -4,7 +4,7 @@ linktitle: ToUInt8
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToUInt8 method. Gets the uint8_t value in C++.'
 type: docs
-weight: 1800
+weight: 2200
 url: /cpp/aspose.cells/object/touint8/
 ---
 ## Object::ToUInt8 method

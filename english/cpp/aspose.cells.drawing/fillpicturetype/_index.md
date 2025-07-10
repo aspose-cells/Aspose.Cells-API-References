@@ -4,7 +4,7 @@ linktitle: FillPictureType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::FillPictureType enum. Represents the picture fill type in C++.'
 type: docs
-weight: 8000
+weight: 8200
 url: /cpp/aspose.cells.drawing/fillpicturetype/
 ---
 ## FillPictureType enum

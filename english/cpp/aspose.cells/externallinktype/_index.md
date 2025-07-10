@@ -4,7 +4,7 @@ linktitle: ExternalLinkType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLinkType enum. Represents the type of external link in C++.'
 type: docs
-weight: 20500
+weight: 21000
 url: /cpp/aspose.cells/externallinktype/
 ---
 ## ExternalLinkType enum

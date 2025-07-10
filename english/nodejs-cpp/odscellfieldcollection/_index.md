@@ -23,7 +23,7 @@ class OdsCellFieldCollection;
 | [get(number, number)](#get-number-number-)| Gets the field by row and column index. |
 | [add(number, number, OdsCellFieldType, string)](#add-number-number-odscellfieldtype-string-)| Adds a field. |
 | [updateFieldsValue()](#updateFieldsValue--)| Update fields value to the cells. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -89,7 +89,7 @@ updateFieldsValue() : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

@@ -88,15 +88,27 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 ### Examples
 
 ```csharp
-// Called: comments.AddThreadedComment("B3", "Test1", null);
-public void CommentCollection_Method_AddThreadedComment()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    CommentCollection comments = workbook.Worksheets[0].Comments;
-    comments.AddThreadedComment("B3", "Test1", null);
-    comments.AddThreadedComment("B3", "Test2", null);
-    comments.AddThreadedComment("B3", "Test3", null);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CommentCollectionMethodAddThreadedCommentWithStringStringThreadedCommentDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("John Doe", "JD", "");
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+            
+            CommentCollection comments = worksheet.Comments;
+            comments.AddThreadedComment("B3", "Initial comment text", author);
+            comments.AddThreadedComment("C5", "Follow-up comment", author);
+            
+            workbook.Save("ThreadedCommentsOutput.xlsx");
+        }
+    }
 }
 ```
 

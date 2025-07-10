@@ -17,17 +17,23 @@ class PivotDiscreteGroupSettings extends PivotFieldGroupSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(PivotFieldGroupSettings)](#constructor-pivotfieldgroupsettings-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [items](#items--)| CustomPiovtFieldGroupItem[] | Readonly. Gets the discrete items. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the group type. |
-| [getItems()](#getItems--)| Gets the discrete items. |
+| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Gets the discrete items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the group type. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -43,22 +49,18 @@ constructor(obj: PivotFieldGroupSettings);
 | --- | --- | --- |
 | obj | PivotFieldGroupSettings | The parent object. |
 
-### getType() {#getType--}
+### items {#items--}
 
-Gets the group type.
+Readonly. Gets the discrete items.
 
 ```javascript
-getType() : PivotFieldGroupType;
+items : CustomPiovtFieldGroupItem[];
 ```
 
 
-**Returns**
-
-[PivotFieldGroupType](../pivotfieldgrouptype/)
-
 ### getItems() {#getItems--}
 
-Gets the discrete items.
+<b>@deprecated.</b> Please use the 'items' property instead. Gets the discrete items.
 
 ```javascript
 getItems() : CustomPiovtFieldGroupItem[];
@@ -77,5 +79,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the group type.
+
+```javascript
+getType() : PivotFieldGroupType;
+```
+
+
+**Returns**
+
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 

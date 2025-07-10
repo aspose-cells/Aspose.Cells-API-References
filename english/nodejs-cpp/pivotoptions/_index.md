@@ -15,26 +15,81 @@ class PivotOptions;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [dropZoneFilter](#dropZoneFilter--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [dropZoneCategories](#dropZoneCategories--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [dropZoneData](#dropZoneData--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [dropZoneSeries](#dropZoneSeries--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [dropZonesVisible](#dropZonesVisible--)| boolean | Specifies whether any pivot controls can appear on the pivot chart. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDropZoneFilter()](#getDropZoneFilter--)| Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [setDropZoneFilter(boolean)](#setDropZoneFilter-boolean-)| Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [getDropZoneCategories()](#getDropZoneCategories--)| Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [setDropZoneCategories(boolean)](#setDropZoneCategories-boolean-)| Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [getDropZoneData()](#getDropZoneData--)| Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [setDropZoneData(boolean)](#setDropZoneData-boolean-)| Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [getDropZoneSeries()](#getDropZoneSeries--)| Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [setDropZoneSeries(boolean)](#setDropZoneSeries-boolean-)| Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
-| [getDropZonesVisible()](#getDropZonesVisible--)| Specifies whether any pivot controls can appear on the pivot chart. |
-| [setDropZonesVisible(boolean)](#setDropZonesVisible-boolean-)| Specifies whether any pivot controls can appear on the pivot chart. |
+| [getDropZoneFilter()](#getDropZoneFilter--)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneFilter(boolean)](#setDropZoneFilter-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [getDropZoneCategories()](#getDropZoneCategories--)| <b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneCategories(boolean)](#setDropZoneCategories-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [getDropZoneData()](#getDropZoneData--)| <b>@deprecated.</b> Please use the 'dropZoneData' property instead. Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneData(boolean)](#setDropZoneData-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneData' property instead. Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [getDropZoneSeries()](#getDropZoneSeries--)| <b>@deprecated.</b> Please use the 'dropZoneSeries' property instead. Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneSeries(boolean)](#setDropZoneSeries-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneSeries' property instead. Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [getDropZonesVisible()](#getDropZonesVisible--)| <b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart. |
+| [setDropZonesVisible(boolean)](#setDropZonesVisible-boolean-)| <b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### dropZoneFilter {#dropZoneFilter--}
+
+Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+
+```javascript
+dropZoneFilter : boolean;
+```
+
+
+### dropZoneCategories {#dropZoneCategories--}
+
+Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+
+```javascript
+dropZoneCategories : boolean;
+```
+
+
+### dropZoneData {#dropZoneData--}
+
+Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+
+```javascript
+dropZoneData : boolean;
+```
+
+
+### dropZoneSeries {#dropZoneSeries--}
+
+Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+
+```javascript
+dropZoneSeries : boolean;
+```
+
+
+### dropZonesVisible {#dropZonesVisible--}
+
+Specifies whether any pivot controls can appear on the pivot chart.
+
+```javascript
+dropZonesVisible : boolean;
+```
 
 
 ### getDropZoneFilter() {#getDropZoneFilter--}
 
-Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 getDropZoneFilter() : boolean;
@@ -43,7 +98,7 @@ getDropZoneFilter() : boolean;
 
 ### setDropZoneFilter(boolean) {#setDropZoneFilter-boolean-}
 
-Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 setDropZoneFilter(value: boolean) : void;
@@ -56,7 +111,7 @@ setDropZoneFilter(value: boolean) : void;
 
 ### getDropZoneCategories() {#getDropZoneCategories--}
 
-Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 getDropZoneCategories() : boolean;
@@ -65,7 +120,7 @@ getDropZoneCategories() : boolean;
 
 ### setDropZoneCategories(boolean) {#setDropZoneCategories-boolean-}
 
-Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 setDropZoneCategories(value: boolean) : void;
@@ -78,7 +133,7 @@ setDropZoneCategories(value: boolean) : void;
 
 ### getDropZoneData() {#getDropZoneData--}
 
-Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneData' property instead. Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 getDropZoneData() : boolean;
@@ -87,7 +142,7 @@ getDropZoneData() : boolean;
 
 ### setDropZoneData(boolean) {#setDropZoneData-boolean-}
 
-Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneData' property instead. Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 setDropZoneData(value: boolean) : void;
@@ -100,7 +155,7 @@ setDropZoneData(value: boolean) : void;
 
 ### getDropZoneSeries() {#getDropZoneSeries--}
 
-Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneSeries' property instead. Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 getDropZoneSeries() : boolean;
@@ -109,7 +164,7 @@ getDropZoneSeries() : boolean;
 
 ### setDropZoneSeries(boolean) {#setDropZoneSeries-boolean-}
 
-Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
+<b>@deprecated.</b> Please use the 'dropZoneSeries' property instead. Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 ```javascript
 setDropZoneSeries(value: boolean) : void;
@@ -122,7 +177,7 @@ setDropZoneSeries(value: boolean) : void;
 
 ### getDropZonesVisible() {#getDropZonesVisible--}
 
-Specifies whether any pivot controls can appear on the pivot chart.
+<b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart.
 
 ```javascript
 getDropZonesVisible() : boolean;
@@ -131,7 +186,7 @@ getDropZonesVisible() : boolean;
 
 ### setDropZonesVisible(boolean) {#setDropZonesVisible-boolean-}
 
-Specifies whether any pivot controls can appear on the pivot chart.
+<b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart.
 
 ```javascript
 setDropZonesVisible(value: boolean) : void;

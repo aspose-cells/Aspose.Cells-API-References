@@ -20,31 +20,35 @@ Only for control reference.
 ### Examples
 
 ```csharp
-// Called: targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
-public void VbaProjectReference_Property_Twiddledlibid()
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var targetwb = new Workbook();
-    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
-    targetwb.VbaProject.References.Clear();
-    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    public class VbaProjectReferencePropertyTwiddledlibidDemo
     {
-        switch (x.Type.ToString())
+        public static void Run()
         {
-            case "Registered":
-                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                break;
-
-            case "Control":
-                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
-
-                break;
-            default: break;
+            Workbook sourceWorkbook = new Workbook("source.xlsm");
+            Workbook targetWorkbook = new Workbook();
+            
+            targetWorkbook.VbaProject.References.Clear();
+            
+            foreach (VbaProjectReference refSrc in sourceWorkbook.VbaProject.References)
+            {
+                if (refSrc.Type == VbaProjectReferenceType.Control)
+                {
+                    targetWorkbook.VbaProject.References.AddControlRefrernce(
+                        refSrc.Name,
+                        refSrc.Libid,
+                        refSrc.Twiddledlibid,
+                        refSrc.ExtendedLibid);
+                }
+            }
+            
+            targetWorkbook.Save("output.xlsm");
         }
-
     }
-    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-    targetwb.Save(Constants.destPath + "example.xlsm");
-
 }
 ```
 

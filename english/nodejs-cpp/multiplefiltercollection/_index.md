@@ -17,20 +17,26 @@ class MultipleFilterCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Constructs one new instance. |
 | [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [matchBlank](#matchBlank--)| boolean | Indicates whether to filter by blank. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| DateTimeGroupItem or a simple object. |
-| [getMatchBlank()](#getMatchBlank--)| Indicates whether to filter by blank. |
-| [setMatchBlank(boolean)](#setMatchBlank-boolean-)| Indicates whether to filter by blank. |
+| [getMatchBlank()](#getMatchBlank--)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
+| [setMatchBlank(boolean)](#setMatchBlank-boolean-)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
 | [add(string)](#add-string-)| Adds string filter. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -57,6 +63,15 @@ constructor(obj: Object);
 | --- | --- | --- |
 | obj | Object | The object. |
 
+### matchBlank {#matchBlank--}
+
+Indicates whether to filter by blank.
+
+```javascript
+matchBlank : boolean;
+```
+
+
 ### get(number) {#get-number-}
 
 DateTimeGroupItem or a simple object.
@@ -72,7 +87,7 @@ get(index: number) : Object;
 
 ### getMatchBlank() {#getMatchBlank--}
 
-Indicates whether to filter by blank.
+<b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank.
 
 ```javascript
 getMatchBlank() : boolean;
@@ -81,7 +96,7 @@ getMatchBlank() : boolean;
 
 ### setMatchBlank(boolean) {#setMatchBlank-boolean-}
 
-Indicates whether to filter by blank.
+<b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank.
 
 ```javascript
 setMatchBlank(value: boolean) : void;
@@ -107,7 +122,7 @@ add(filter: string) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

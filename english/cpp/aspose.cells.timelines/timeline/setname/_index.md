@@ -4,7 +4,7 @@ linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Timelines::Timeline::SetName method. Returns or sets the name of the specified Timeline in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.timelines/timeline/setname/
 ---
 ## Timeline::SetName(const U16String\&) method

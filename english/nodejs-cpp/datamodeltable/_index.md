@@ -15,19 +15,54 @@ class DataModelTable;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [id](#id--)| string | Readonly. Gets the id of the data model table. |
+| [name](#name--)| string | Readonly. Gets the name of the data model table. |
+| [connectionName](#connectionName--)| string | Readonly. Gets the connection name of the data model table. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--)| Gets the id of the data model table. |
-| [getName()](#getName--)| Gets the name of the data model table. |
-| [getConnectionName()](#getConnectionName--)| Gets the connection name of the data model table. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the data model table. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the data model table. |
+| [getConnectionName()](#getConnectionName--)| <b>@deprecated.</b> Please use the 'connectionName' property instead. Gets the connection name of the data model table. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### id {#id--}
+
+Readonly. Gets the id of the data model table.
+
+```javascript
+id : string;
+```
+
+
+### name {#name--}
+
+Readonly. Gets the name of the data model table.
+
+```javascript
+name : string;
+```
+
+
+### connectionName {#connectionName--}
+
+Readonly. Gets the connection name of the data model table.
+
+```javascript
+connectionName : string;
+```
 
 
 ### getId() {#getId--}
 
-Gets the id of the data model table.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the data model table.
 
 ```javascript
 getId() : string;
@@ -36,7 +71,7 @@ getId() : string;
 
 ### getName() {#getName--}
 
-Gets the name of the data model table.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the data model table.
 
 ```javascript
 getName() : string;
@@ -45,7 +80,7 @@ getName() : string;
 
 ### getConnectionName() {#getConnectionName--}
 
-Gets the connection name of the data model table.
+<b>@deprecated.</b> Please use the 'connectionName' property instead. Gets the connection name of the data model table.
 
 ```javascript
 getConnectionName() : string;

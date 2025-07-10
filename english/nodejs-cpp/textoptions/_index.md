@@ -17,67 +17,98 @@ class TextOptions extends Font;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Font)](#constructor-font-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [languageCode](#languageCode--)| CountryCode | Gets and sets the user interface language. |
+| [latinName](#latinName--)| string | Gets and sets the latin name. |
+| [farEastName](#farEastName--)| string | Gets and sets the FarEast name. |
+| [fill](#fill--)| FillFormat | Readonly. Represents the fill format of the text. |
+| [outline](#outline--)| LineFormat | Readonly. Represents the outline format of the text. |
+| [shadow](#shadow--)| ShadowEffect | Readonly. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [underlineColor](#underlineColor--)| CellsColor | Gets or sets the color of underline. |
+| [kerning](#kerning--)| number | Specifies the minimum font size at which character kerning will occur for this text run. |
+| [spacing](#spacing--)| number | Specifies the spacing between characters within a text run. |
+| [charset](#charset--)| number | Represent the character set. |
+| [isItalic](#isItalic--)| boolean | Gets or sets a value indicating whether the font is italic. |
+| [isBold](#isBold--)| boolean | Gets or sets a value indicating whether the font is bold. |
+| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
+| [strikeType](#strikeType--)| TextStrikeType | Gets the strike type of the text. |
+| [isStrikeout](#isStrikeout--)| boolean | Gets or sets a value indicating whether the font is single strikeout. |
+| [scriptOffset](#scriptOffset--)| number | Gets and sets the script offset,in unit of percentage |
+| [isSuperscript](#isSuperscript--)| boolean | Gets or sets a value indicating whether the font is super script. |
+| [isSubscript](#isSubscript--)| boolean | Gets or sets a value indicating whether the font is subscript. |
+| [underline](#underline--)| FontUnderlineType | Gets or sets the font underline type. |
+| [doubleSize](#doubleSize--)| number | Gets and sets the double size of the font. |
+| [size](#size--)| number | Gets or sets the size of the font. |
+| [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color. |
+| [color](#color--)| Color | Gets or sets the [Color](../color/) of the font. |
+| [argbColor](#argbColor--)| number | Gets and sets the color with a 32-bit ARGB value. |
+| [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
+| [schemeType](#schemeType--)| FontSchemeType | Gets and sets the scheme type of the font. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getLanguageCode()](#getLanguageCode--)| <b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language. |
+| [setLanguageCode(CountryCode)](#setLanguageCode-countrycode-)| <b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language. |
+| [getLatinName()](#getLatinName--)| <b>@deprecated.</b> Please use the 'latinName' property instead. Gets and sets the latin name. |
+| [setLatinName(string)](#setLatinName-string-)| <b>@deprecated.</b> Please use the 'latinName' property instead. Gets and sets the latin name. |
+| [getFarEastName()](#getFarEastName--)| <b>@deprecated.</b> Please use the 'farEastName' property instead. Gets and sets the FarEast name. |
+| [setFarEastName(string)](#setFarEastName-string-)| <b>@deprecated.</b> Please use the 'farEastName' property instead. Gets and sets the FarEast name. |
+| [getFill()](#getFill--)| <b>@deprecated.</b> Please use the 'fill' property instead. Represents the fill format of the text. |
+| [getOutline()](#getOutline--)| <b>@deprecated.</b> Please use the 'outline' property instead. Represents the outline format of the text. |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getUnderlineColor()](#getUnderlineColor--)| <b>@deprecated.</b> Please use the 'underlineColor' property instead. Gets or sets the color of underline. |
+| [setUnderlineColor(CellsColor)](#setUnderlineColor-cellscolor-)| <b>@deprecated.</b> Please use the 'underlineColor' property instead. Gets or sets the color of underline. |
+| [getKerning()](#getKerning--)| <b>@deprecated.</b> Please use the 'kerning' property instead. Specifies the minimum font size at which character kerning will occur for this text run. |
+| [setKerning(number)](#setKerning-number-)| <b>@deprecated.</b> Please use the 'kerning' property instead. Specifies the minimum font size at which character kerning will occur for this text run. |
+| [getSpacing()](#getSpacing--)| <b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run. |
+| [setSpacing(number)](#setSpacing-number-)| <b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getCharset()](#getCharset--)| <b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set. |
+| [setCharset(number)](#setCharset-number-)| <b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set. |
+| [isItalic()](#isItalic--)| <b>@deprecated.</b> Please use the 'isItalic' property instead. Gets or sets a value indicating whether the font is italic. |
+| [setIsItalic(boolean)](#setIsItalic-boolean-)| <b>@deprecated.</b> Please use the 'isItalic' property instead. Gets or sets a value indicating whether the font is italic. |
+| [isBold()](#isBold--)| <b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold. |
+| [setIsBold(boolean)](#setIsBold-boolean-)| <b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold. |
+| [getCapsType()](#getCapsType--)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
+| [setCapsType(TextCapsType)](#setCapsType-textcapstype-)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
+| [getStrikeType()](#getStrikeType--)| <b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text. |
+| [setStrikeType(TextStrikeType)](#setStrikeType-textstriketype-)| <b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text. |
+| [isStrikeout()](#isStrikeout--)| <b>@deprecated.</b> Please use the 'isStrikeout' property instead. Gets or sets a value indicating whether the font is single strikeout. |
+| [setIsStrikeout(boolean)](#setIsStrikeout-boolean-)| <b>@deprecated.</b> Please use the 'isStrikeout' property instead. Gets or sets a value indicating whether the font is single strikeout. |
+| [getScriptOffset()](#getScriptOffset--)| <b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage |
+| [setScriptOffset(number)](#setScriptOffset-number-)| <b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage |
+| [isSuperscript()](#isSuperscript--)| <b>@deprecated.</b> Please use the 'isSuperscript' property instead. Gets or sets a value indicating whether the font is super script. |
+| [setIsSuperscript(boolean)](#setIsSuperscript-boolean-)| <b>@deprecated.</b> Please use the 'isSuperscript' property instead. Gets or sets a value indicating whether the font is super script. |
+| [isSubscript()](#isSubscript--)| <b>@deprecated.</b> Please use the 'isSubscript' property instead. Gets or sets a value indicating whether the font is subscript. |
+| [setIsSubscript(boolean)](#setIsSubscript-boolean-)| <b>@deprecated.</b> Please use the 'isSubscript' property instead. Gets or sets a value indicating whether the font is subscript. |
+| [getUnderline()](#getUnderline--)| <b>@deprecated.</b> Please use the 'underline' property instead. Gets or sets the font underline type. |
+| [setUnderline(FontUnderlineType)](#setUnderline-fontunderlinetype-)| <b>@deprecated.</b> Please use the 'underline' property instead. Gets or sets the font underline type. |
+| [getDoubleSize()](#getDoubleSize--)| <b>@deprecated.</b> Please use the 'doubleSize' property instead. Gets and sets the double size of the font. |
+| [setDoubleSize(number)](#setDoubleSize-number-)| <b>@deprecated.</b> Please use the 'doubleSize' property instead. Gets and sets the double size of the font. |
+| [getSize()](#getSize--)| <b>@deprecated.</b> Please use the 'size' property instead. Gets or sets the size of the font. |
+| [setSize(number)](#setSize-number-)| <b>@deprecated.</b> Please use the 'size' property instead. Gets or sets the size of the font. |
+| [getThemeColor()](#getThemeColor--)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the font. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the font. |
+| [getArgbColor()](#getArgbColor--)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
+| [setArgbColor(number)](#setArgbColor-number-)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
+| [isNormalizeHeights()](#isNormalizeHeights--)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
+| [setIsNormalizeHeights(boolean)](#setIsNormalizeHeights-boolean-)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
+| [getSchemeType()](#getSchemeType--)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
+| [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
+| [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [getName()](#getName--)| Gets and sets the name of the shape. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the shape. |
-| [getLanguageCode()](#getLanguageCode--)| Gets and sets the user interface language. |
-| [setLanguageCode(CountryCode)](#setLanguageCode-countrycode-)| Gets and sets the user interface language. |
-| [getLatinName()](#getLatinName--)| Gets and sets the latin name. |
-| [setLatinName(string)](#setLatinName-string-)| Gets and sets the latin name. |
-| [getFarEastName()](#getFarEastName--)| Gets and sets the FarEast name. |
-| [setFarEastName(string)](#setFarEastName-string-)| Gets and sets the FarEast name. |
-| [getFill()](#getFill--)| Represents the fill format of the text. |
-| [getOutline()](#getOutline--)| Represents the outline format of the text. |
-| [getShadow()](#getShadow--)| Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
-| [getUnderlineColor()](#getUnderlineColor--)| Gets or sets the color of underline. |
-| [setUnderlineColor(CellsColor)](#setUnderlineColor-cellscolor-)| Gets or sets the color of underline. |
-| [getKerning()](#getKerning--)| Specifies the minimum font size at which character kerning will occur for this text run. |
-| [setKerning(number)](#setKerning-number-)| Specifies the minimum font size at which character kerning will occur for this text run. |
-| [getSpacing()](#getSpacing--)| Specifies the spacing between characters within a text run. |
-| [setSpacing(number)](#setSpacing-number-)| Specifies the spacing between characters within a text run. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getCharset()](#getCharset--)| Represent the character set. |
-| [setCharset(number)](#setCharset-number-)| Represent the character set. |
-| [isItalic()](#isItalic--)| Gets or sets a value indicating whether the font is italic. |
-| [setIsItalic(boolean)](#setIsItalic-boolean-)| Gets or sets a value indicating whether the font is italic. |
-| [isBold()](#isBold--)| Gets or sets a value indicating whether the font is bold. |
-| [setIsBold(boolean)](#setIsBold-boolean-)| Gets or sets a value indicating whether the font is bold. |
-| [getCapsType()](#getCapsType--)| Gets and sets the text caps type. |
-| [setCapsType(TextCapsType)](#setCapsType-textcapstype-)| Gets and sets the text caps type. |
-| [getStrikeType()](#getStrikeType--)| Gets the strike type of the text. |
-| [setStrikeType(TextStrikeType)](#setStrikeType-textstriketype-)| Gets the strike type of the text. |
-| [isStrikeout()](#isStrikeout--)| Gets or sets a value indicating whether the font is single strikeout. |
-| [setIsStrikeout(boolean)](#setIsStrikeout-boolean-)| Gets or sets a value indicating whether the font is single strikeout. |
-| [getScriptOffset()](#getScriptOffset--)| Gets and sets the script offset,in unit of percentage |
-| [setScriptOffset(number)](#setScriptOffset-number-)| Gets and sets the script offset,in unit of percentage |
-| [isSuperscript()](#isSuperscript--)| Gets or sets a value indicating whether the font is super script. |
-| [setIsSuperscript(boolean)](#setIsSuperscript-boolean-)| Gets or sets a value indicating whether the font is super script. |
-| [isSubscript()](#isSubscript--)| Gets or sets a value indicating whether the font is subscript. |
-| [setIsSubscript(boolean)](#setIsSubscript-boolean-)| Gets or sets a value indicating whether the font is subscript. |
-| [getUnderline()](#getUnderline--)| Gets or sets the font underline type. |
-| [setUnderline(FontUnderlineType)](#setUnderline-fontunderlinetype-)| Gets or sets the font underline type. |
-| [getDoubleSize()](#getDoubleSize--)| Gets and sets the double size of the font. |
-| [setDoubleSize(number)](#setDoubleSize-number-)| Gets and sets the double size of the font. |
-| [getSize()](#getSize--)| Gets or sets the size of the font. |
-| [setSize(number)](#setSize-number-)| Gets or sets the size of the font. |
-| [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
-| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Gets or sets the [Color](../color/) of the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/) of the font. |
-| [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
-| [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
-| [isNormalizeHeights()](#isNormalizeHeights--)| Indicates whether the normalization of height that is to be applied to the text run. |
-| [setIsNormalizeHeights(boolean)](#setIsNormalizeHeights-boolean-)| Indicates whether the normalization of height that is to be applied to the text run. |
-| [getSchemeType()](#getSchemeType--)| Gets and sets the scheme type of the font. |
-| [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| Gets and sets the scheme type of the font. |
-| [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 
 
@@ -94,31 +125,247 @@ constructor(obj: Font);
 | --- | --- | --- |
 | obj | Font | The parent object. |
 
-### getName() {#getName--}
+### languageCode {#languageCode--}
 
-Gets and sets the name of the shape.
+Gets and sets the user interface language.
 
 ```javascript
-getName() : string;
+languageCode : CountryCode;
 ```
 
 
-### setName(string) {#setName-string-}
+### latinName {#latinName--}
 
-Gets and sets the name of the shape.
+Gets and sets the latin name.
 
 ```javascript
-setName(value: string) : void;
+latinName : string;
 ```
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
+
+### farEastName {#farEastName--}
+
+Gets and sets the FarEast name.
+
+```javascript
+farEastName : string;
+```
+
+
+### fill {#fill--}
+
+Readonly. Represents the fill format of the text.
+
+```javascript
+fill : FillFormat;
+```
+
+
+### outline {#outline--}
+
+Readonly. Represents the outline format of the text.
+
+```javascript
+outline : LineFormat;
+```
+
+
+### shadow {#shadow--}
+
+Readonly. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
+
+```javascript
+shadow : ShadowEffect;
+```
+
+
+### underlineColor {#underlineColor--}
+
+Gets or sets the color of underline.
+
+```javascript
+underlineColor : CellsColor;
+```
+
+
+### kerning {#kerning--}
+
+Specifies the minimum font size at which character kerning will occur for this text run.
+
+```javascript
+kerning : number;
+```
+
+
+### spacing {#spacing--}
+
+Specifies the spacing between characters within a text run.
+
+```javascript
+spacing : number;
+```
+
+
+### charset {#charset--}
+
+Represent the character set.
+
+```javascript
+charset : number;
+```
+
+
+### isItalic {#isItalic--}
+
+Gets or sets a value indicating whether the font is italic.
+
+```javascript
+isItalic : boolean;
+```
+
+
+### isBold {#isBold--}
+
+Gets or sets a value indicating whether the font is bold.
+
+```javascript
+isBold : boolean;
+```
+
+
+### capsType {#capsType--}
+
+Gets and sets the text caps type.
+
+```javascript
+capsType : TextCapsType;
+```
+
+
+### strikeType {#strikeType--}
+
+Gets the strike type of the text.
+
+```javascript
+strikeType : TextStrikeType;
+```
+
+
+### isStrikeout {#isStrikeout--}
+
+Gets or sets a value indicating whether the font is single strikeout.
+
+```javascript
+isStrikeout : boolean;
+```
+
+
+### scriptOffset {#scriptOffset--}
+
+Gets and sets the script offset,in unit of percentage
+
+```javascript
+scriptOffset : number;
+```
+
+
+### isSuperscript {#isSuperscript--}
+
+Gets or sets a value indicating whether the font is super script.
+
+```javascript
+isSuperscript : boolean;
+```
+
+
+### isSubscript {#isSubscript--}
+
+Gets or sets a value indicating whether the font is subscript.
+
+```javascript
+isSubscript : boolean;
+```
+
+
+### underline {#underline--}
+
+Gets or sets the font underline type.
+
+```javascript
+underline : FontUnderlineType;
+```
+
+
+### doubleSize {#doubleSize--}
+
+Gets and sets the double size of the font.
+
+```javascript
+doubleSize : number;
+```
+
+
+### size {#size--}
+
+Gets or sets the size of the font.
+
+```javascript
+size : number;
+```
+
+
+### themeColor {#themeColor--}
+
+Gets and sets the theme color.
+
+```javascript
+themeColor : ThemeColor;
+```
+
+
+**Remarks**
+
+If the font color is not a theme color, NULL will be returned.
+
+### color {#color--}
+
+Gets or sets the [Color](../color/) of the font.
+
+```javascript
+color : Color;
+```
+
+
+### argbColor {#argbColor--}
+
+Gets and sets the color with a 32-bit ARGB value.
+
+```javascript
+argbColor : number;
+```
+
+
+### isNormalizeHeights {#isNormalizeHeights--}
+
+Indicates whether the normalization of height that is to be applied to the text run.
+
+```javascript
+isNormalizeHeights : boolean;
+```
+
+
+### schemeType {#schemeType--}
+
+Gets and sets the scheme type of the font.
+
+```javascript
+schemeType : FontSchemeType;
+```
+
 
 ### getLanguageCode() {#getLanguageCode--}
 
-Gets and sets the user interface language.
+<b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language.
 
 ```javascript
 getLanguageCode() : CountryCode;
@@ -131,7 +378,7 @@ getLanguageCode() : CountryCode;
 
 ### setLanguageCode(CountryCode) {#setLanguageCode-countrycode-}
 
-Gets and sets the user interface language.
+<b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language.
 
 ```javascript
 setLanguageCode(value: CountryCode) : void;
@@ -144,7 +391,7 @@ setLanguageCode(value: CountryCode) : void;
 
 ### getLatinName() {#getLatinName--}
 
-Gets and sets the latin name.
+<b>@deprecated.</b> Please use the 'latinName' property instead. Gets and sets the latin name.
 
 ```javascript
 getLatinName() : string;
@@ -153,7 +400,7 @@ getLatinName() : string;
 
 ### setLatinName(string) {#setLatinName-string-}
 
-Gets and sets the latin name.
+<b>@deprecated.</b> Please use the 'latinName' property instead. Gets and sets the latin name.
 
 ```javascript
 setLatinName(value: string) : void;
@@ -166,7 +413,7 @@ setLatinName(value: string) : void;
 
 ### getFarEastName() {#getFarEastName--}
 
-Gets and sets the FarEast name.
+<b>@deprecated.</b> Please use the 'farEastName' property instead. Gets and sets the FarEast name.
 
 ```javascript
 getFarEastName() : string;
@@ -175,7 +422,7 @@ getFarEastName() : string;
 
 ### setFarEastName(string) {#setFarEastName-string-}
 
-Gets and sets the FarEast name.
+<b>@deprecated.</b> Please use the 'farEastName' property instead. Gets and sets the FarEast name.
 
 ```javascript
 setFarEastName(value: string) : void;
@@ -188,7 +435,7 @@ setFarEastName(value: string) : void;
 
 ### getFill() {#getFill--}
 
-Represents the fill format of the text.
+<b>@deprecated.</b> Please use the 'fill' property instead. Represents the fill format of the text.
 
 ```javascript
 getFill() : FillFormat;
@@ -201,7 +448,7 @@ getFill() : FillFormat;
 
 ### getOutline() {#getOutline--}
 
-Represents the outline format of the text.
+<b>@deprecated.</b> Please use the 'outline' property instead. Represents the outline format of the text.
 
 ```javascript
 getOutline() : LineFormat;
@@ -214,7 +461,7 @@ getOutline() : LineFormat;
 
 ### getShadow() {#getShadow--}
 
-Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'shadow' property instead. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadow() : ShadowEffect;
@@ -227,7 +474,7 @@ getShadow() : ShadowEffect;
 
 ### getUnderlineColor() {#getUnderlineColor--}
 
-Gets or sets the color of underline.
+<b>@deprecated.</b> Please use the 'underlineColor' property instead. Gets or sets the color of underline.
 
 ```javascript
 getUnderlineColor() : CellsColor;
@@ -240,7 +487,7 @@ getUnderlineColor() : CellsColor;
 
 ### setUnderlineColor(CellsColor) {#setUnderlineColor-cellscolor-}
 
-Gets or sets the color of underline.
+<b>@deprecated.</b> Please use the 'underlineColor' property instead. Gets or sets the color of underline.
 
 ```javascript
 setUnderlineColor(value: CellsColor) : void;
@@ -253,7 +500,7 @@ setUnderlineColor(value: CellsColor) : void;
 
 ### getKerning() {#getKerning--}
 
-Specifies the minimum font size at which character kerning will occur for this text run.
+<b>@deprecated.</b> Please use the 'kerning' property instead. Specifies the minimum font size at which character kerning will occur for this text run.
 
 ```javascript
 getKerning() : number;
@@ -262,7 +509,7 @@ getKerning() : number;
 
 ### setKerning(number) {#setKerning-number-}
 
-Specifies the minimum font size at which character kerning will occur for this text run.
+<b>@deprecated.</b> Please use the 'kerning' property instead. Specifies the minimum font size at which character kerning will occur for this text run.
 
 ```javascript
 setKerning(value: number) : void;
@@ -275,7 +522,7 @@ setKerning(value: number) : void;
 
 ### getSpacing() {#getSpacing--}
 
-Specifies the spacing between characters within a text run.
+<b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run.
 
 ```javascript
 getSpacing() : number;
@@ -284,7 +531,7 @@ getSpacing() : number;
 
 ### setSpacing(number) {#setSpacing-number-}
 
-Specifies the spacing between characters within a text run.
+<b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run.
 
 ```javascript
 setSpacing(value: number) : void;
@@ -306,7 +553,7 @@ isNull() : boolean;
 
 ### getCharset() {#getCharset--}
 
-Represent the character set.
+<b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set.
 
 ```javascript
 getCharset() : number;
@@ -315,7 +562,7 @@ getCharset() : number;
 
 ### setCharset(number) {#setCharset-number-}
 
-Represent the character set.
+<b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set.
 
 ```javascript
 setCharset(value: number) : void;
@@ -328,7 +575,7 @@ setCharset(value: number) : void;
 
 ### isItalic() {#isItalic--}
 
-Gets or sets a value indicating whether the font is italic.
+<b>@deprecated.</b> Please use the 'isItalic' property instead. Gets or sets a value indicating whether the font is italic.
 
 ```javascript
 isItalic() : boolean;
@@ -337,7 +584,7 @@ isItalic() : boolean;
 
 ### setIsItalic(boolean) {#setIsItalic-boolean-}
 
-Gets or sets a value indicating whether the font is italic.
+<b>@deprecated.</b> Please use the 'isItalic' property instead. Gets or sets a value indicating whether the font is italic.
 
 ```javascript
 setIsItalic(value: boolean) : void;
@@ -350,7 +597,7 @@ setIsItalic(value: boolean) : void;
 
 ### isBold() {#isBold--}
 
-Gets or sets a value indicating whether the font is bold.
+<b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold.
 
 ```javascript
 isBold() : boolean;
@@ -359,7 +606,7 @@ isBold() : boolean;
 
 ### setIsBold(boolean) {#setIsBold-boolean-}
 
-Gets or sets a value indicating whether the font is bold.
+<b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold.
 
 ```javascript
 setIsBold(value: boolean) : void;
@@ -372,7 +619,7 @@ setIsBold(value: boolean) : void;
 
 ### getCapsType() {#getCapsType--}
 
-Gets and sets the text caps type.
+<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
 
 ```javascript
 getCapsType() : TextCapsType;
@@ -385,7 +632,7 @@ getCapsType() : TextCapsType;
 
 ### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
 
-Gets and sets the text caps type.
+<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
 
 ```javascript
 setCapsType(value: TextCapsType) : void;
@@ -398,7 +645,7 @@ setCapsType(value: TextCapsType) : void;
 
 ### getStrikeType() {#getStrikeType--}
 
-Gets the strike type of the text.
+<b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text.
 
 ```javascript
 getStrikeType() : TextStrikeType;
@@ -411,7 +658,7 @@ getStrikeType() : TextStrikeType;
 
 ### setStrikeType(TextStrikeType) {#setStrikeType-textstriketype-}
 
-Gets the strike type of the text.
+<b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text.
 
 ```javascript
 setStrikeType(value: TextStrikeType) : void;
@@ -424,7 +671,7 @@ setStrikeType(value: TextStrikeType) : void;
 
 ### isStrikeout() {#isStrikeout--}
 
-Gets or sets a value indicating whether the font is single strikeout.
+<b>@deprecated.</b> Please use the 'isStrikeout' property instead. Gets or sets a value indicating whether the font is single strikeout.
 
 ```javascript
 isStrikeout() : boolean;
@@ -433,7 +680,7 @@ isStrikeout() : boolean;
 
 ### setIsStrikeout(boolean) {#setIsStrikeout-boolean-}
 
-Gets or sets a value indicating whether the font is single strikeout.
+<b>@deprecated.</b> Please use the 'isStrikeout' property instead. Gets or sets a value indicating whether the font is single strikeout.
 
 ```javascript
 setIsStrikeout(value: boolean) : void;
@@ -446,7 +693,7 @@ setIsStrikeout(value: boolean) : void;
 
 ### getScriptOffset() {#getScriptOffset--}
 
-Gets and sets the script offset,in unit of percentage
+<b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage
 
 ```javascript
 getScriptOffset() : number;
@@ -455,7 +702,7 @@ getScriptOffset() : number;
 
 ### setScriptOffset(number) {#setScriptOffset-number-}
 
-Gets and sets the script offset,in unit of percentage
+<b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage
 
 ```javascript
 setScriptOffset(value: number) : void;
@@ -468,7 +715,7 @@ setScriptOffset(value: number) : void;
 
 ### isSuperscript() {#isSuperscript--}
 
-Gets or sets a value indicating whether the font is super script.
+<b>@deprecated.</b> Please use the 'isSuperscript' property instead. Gets or sets a value indicating whether the font is super script.
 
 ```javascript
 isSuperscript() : boolean;
@@ -477,7 +724,7 @@ isSuperscript() : boolean;
 
 ### setIsSuperscript(boolean) {#setIsSuperscript-boolean-}
 
-Gets or sets a value indicating whether the font is super script.
+<b>@deprecated.</b> Please use the 'isSuperscript' property instead. Gets or sets a value indicating whether the font is super script.
 
 ```javascript
 setIsSuperscript(value: boolean) : void;
@@ -490,7 +737,7 @@ setIsSuperscript(value: boolean) : void;
 
 ### isSubscript() {#isSubscript--}
 
-Gets or sets a value indicating whether the font is subscript.
+<b>@deprecated.</b> Please use the 'isSubscript' property instead. Gets or sets a value indicating whether the font is subscript.
 
 ```javascript
 isSubscript() : boolean;
@@ -499,7 +746,7 @@ isSubscript() : boolean;
 
 ### setIsSubscript(boolean) {#setIsSubscript-boolean-}
 
-Gets or sets a value indicating whether the font is subscript.
+<b>@deprecated.</b> Please use the 'isSubscript' property instead. Gets or sets a value indicating whether the font is subscript.
 
 ```javascript
 setIsSubscript(value: boolean) : void;
@@ -512,7 +759,7 @@ setIsSubscript(value: boolean) : void;
 
 ### getUnderline() {#getUnderline--}
 
-Gets or sets the font underline type.
+<b>@deprecated.</b> Please use the 'underline' property instead. Gets or sets the font underline type.
 
 ```javascript
 getUnderline() : FontUnderlineType;
@@ -525,7 +772,7 @@ getUnderline() : FontUnderlineType;
 
 ### setUnderline(FontUnderlineType) {#setUnderline-fontunderlinetype-}
 
-Gets or sets the font underline type.
+<b>@deprecated.</b> Please use the 'underline' property instead. Gets or sets the font underline type.
 
 ```javascript
 setUnderline(value: FontUnderlineType) : void;
@@ -538,7 +785,7 @@ setUnderline(value: FontUnderlineType) : void;
 
 ### getDoubleSize() {#getDoubleSize--}
 
-Gets and sets the double size of the font.
+<b>@deprecated.</b> Please use the 'doubleSize' property instead. Gets and sets the double size of the font.
 
 ```javascript
 getDoubleSize() : number;
@@ -547,7 +794,7 @@ getDoubleSize() : number;
 
 ### setDoubleSize(number) {#setDoubleSize-number-}
 
-Gets and sets the double size of the font.
+<b>@deprecated.</b> Please use the 'doubleSize' property instead. Gets and sets the double size of the font.
 
 ```javascript
 setDoubleSize(value: number) : void;
@@ -560,7 +807,7 @@ setDoubleSize(value: number) : void;
 
 ### getSize() {#getSize--}
 
-Gets or sets the size of the font.
+<b>@deprecated.</b> Please use the 'size' property instead. Gets or sets the size of the font.
 
 ```javascript
 getSize() : number;
@@ -569,7 +816,7 @@ getSize() : number;
 
 ### setSize(number) {#setSize-number-}
 
-Gets or sets the size of the font.
+<b>@deprecated.</b> Please use the 'size' property instead. Gets or sets the size of the font.
 
 ```javascript
 setSize(value: number) : void;
@@ -582,7 +829,7 @@ setSize(value: number) : void;
 
 ### getThemeColor() {#getThemeColor--}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 getThemeColor() : ThemeColor;
@@ -599,7 +846,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 setThemeColor(value: ThemeColor) : void;
@@ -616,7 +863,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Gets or sets the [Color](../color/) of the font.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 getColor() : Color;
@@ -629,7 +876,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [Color](../color/) of the font.
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 setColor(value: Color) : void;
@@ -642,7 +889,7 @@ setColor(value: Color) : void;
 
 ### getArgbColor() {#getArgbColor--}
 
-Gets and sets the color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 getArgbColor() : number;
@@ -651,7 +898,7 @@ getArgbColor() : number;
 
 ### setArgbColor(number) {#setArgbColor-number-}
 
-Gets and sets the color with a 32-bit ARGB value.
+<b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 setArgbColor(value: number) : void;
@@ -664,7 +911,7 @@ setArgbColor(value: number) : void;
 
 ### isNormalizeHeights() {#isNormalizeHeights--}
 
-Indicates whether the normalization of height that is to be applied to the text run.
+<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
 
 ```javascript
 isNormalizeHeights() : boolean;
@@ -673,7 +920,7 @@ isNormalizeHeights() : boolean;
 
 ### setIsNormalizeHeights(boolean) {#setIsNormalizeHeights-boolean-}
 
-Indicates whether the normalization of height that is to be applied to the text run.
+<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
 
 ```javascript
 setIsNormalizeHeights(value: boolean) : void;
@@ -686,7 +933,7 @@ setIsNormalizeHeights(value: boolean) : void;
 
 ### getSchemeType() {#getSchemeType--}
 
-Gets and sets the scheme type of the font.
+<b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font.
 
 ```javascript
 getSchemeType() : FontSchemeType;
@@ -699,7 +946,7 @@ getSchemeType() : FontSchemeType;
 
 ### setSchemeType(FontSchemeType) {#setSchemeType-fontschemetype-}
 
-Gets and sets the scheme type of the font.
+<b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font.
 
 ```javascript
 setSchemeType(value: FontSchemeType) : void;
@@ -726,6 +973,28 @@ equals(font: Font) : boolean;
 **Returns**
 
 True if equal to the compared font object.
+
+### getName() {#getName--}
+
+Gets and sets the name of the shape.
+
+```javascript
+getName() : string;
+```
+
+
+### setName(string) {#setName-string-}
+
+Gets and sets the name of the shape.
+
+```javascript
+setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### toString() {#toString--}
 

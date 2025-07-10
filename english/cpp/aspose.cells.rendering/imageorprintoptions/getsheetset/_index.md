@@ -4,7 +4,7 @@ linktitle: GetSheetSet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::GetSheetSet method. Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells.rendering/imageorprintoptions/getsheetset/
 ---
 ## ImageOrPrintOptions::GetSheetSet method

@@ -1,13 +1,13 @@
 ---
 title: Enum MemorySetting
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.MemorySetting enum. Memory usage options
+description: Aspose.Cells.MemorySetting enum. Memory usage modes for cells data model
 type: docs
 url: /net/aspose.cells/memorysetting/
 ---
 ## MemorySetting enumeration
 
-Memory usage options.
+Memory usage modes for cells data model.
 
 ```csharp
 public enum MemorySetting
@@ -17,8 +17,9 @@ public enum MemorySetting
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | `0` | Default option for cells model. |
-| MemoryPreference | `1` | Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases. |
+| Normal | `0` | Default mode for cells model. |
+| MemoryPreference | `1` | Memory performance preferrable. |
+| FileCache | `2` | Memory performance preferrable and using file instead of memory to maintain the cells data. |
 
 ### Examples
 

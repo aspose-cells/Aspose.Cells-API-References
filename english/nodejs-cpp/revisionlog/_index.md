@@ -15,18 +15,43 @@ class RevisionLog;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [metadataTable](#metadataTable--)| RevisionHeader | Readonly. Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
+| [revisions](#revisions--)| RevisionCollection | Readonly. Gets all revisions in this log. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMetadataTable()](#getMetadataTable--)| Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
-| [getRevisions()](#getRevisions--)| Gets all revisions in this log. |
+| [getMetadataTable()](#getMetadataTable--)| <b>@deprecated.</b> Please use the 'metadataTable' property instead. Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
+| [getRevisions()](#getRevisions--)| <b>@deprecated.</b> Please use the 'revisions' property instead. Gets all revisions in this log. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### metadataTable {#metadataTable--}
+
+Readonly. Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
+
+```javascript
+metadataTable : RevisionHeader;
+```
+
+
+### revisions {#revisions--}
+
+Readonly. Gets all revisions in this log.
+
+```javascript
+revisions : RevisionCollection;
+```
 
 
 ### getMetadataTable() {#getMetadataTable--}
 
-Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
+<b>@deprecated.</b> Please use the 'metadataTable' property instead. Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
 
 ```javascript
 getMetadataTable() : RevisionHeader;
@@ -39,7 +64,7 @@ getMetadataTable() : RevisionHeader;
 
 ### getRevisions() {#getRevisions--}
 
-Gets all revisions in this log.
+<b>@deprecated.</b> Please use the 'revisions' property instead. Gets all revisions in this log.
 
 ```javascript
 getRevisions() : RevisionCollection;

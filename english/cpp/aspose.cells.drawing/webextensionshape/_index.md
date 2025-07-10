@@ -4,7 +4,7 @@ linktitle: WebExtensionShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::WebExtensionShape class. Represents the shape of web extension in C++.'
 type: docs
-weight: 7300
+weight: 7500
 url: /cpp/aspose.cells.drawing/webextensionshape/
 ---
 ## WebExtensionShape class

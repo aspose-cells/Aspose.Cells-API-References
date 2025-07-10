@@ -17,7 +17,7 @@ class InterruptMonitor;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -25,9 +25,9 @@ class InterruptMonitor;
 
 | Method | Description |
 | --- | --- |
-| [isInterruptionRequested()](#isInterruptionRequested--)| Mark the monitor as requesting interruption |
 | [interrupt()](#interrupt--)| Interrupt the current operator. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [isInterruptionRequested()](#isInterruptionRequested--)| Mark the monitor as requesting interruption |
 
 
 ### constructor() {#constructor--}
@@ -36,15 +36,6 @@ Default Constructor.
 
 ```javascript
 constructor();
-```
-
-
-### isInterruptionRequested() {#isInterruptionRequested--}
-
-Mark the monitor as requesting interruption
-
-```javascript
-isInterruptionRequested() : boolean;
 ```
 
 
@@ -63,6 +54,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### isInterruptionRequested() {#isInterruptionRequested--}
+
+Mark the monitor as requesting interruption
+
+```javascript
+isInterruptionRequested() : boolean;
 ```
 
 

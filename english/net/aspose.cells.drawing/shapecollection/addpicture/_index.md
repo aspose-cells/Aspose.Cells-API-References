@@ -93,29 +93,12 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, 
 ### Examples
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
 
-namespace AsposeCellsExamples
+[C#]
+//add a picture
+using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
-    public class ShapeCollectionMethodAddPictureWithInt32Int32StreamInt32Int32Demo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            ShapeCollection shapes = worksheet.Shapes;
-
-            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
-            {
-                Aspose.Cells.Drawing.Picture picture = shapes.AddPicture(1, 1, fs, 50, 60);
-            }
-
-            workbook.Save("output.xlsx");
-        }
-    }
+    Picture picture = shapes.AddPicture(1, 1, fs, 50, 60);
 }
 ```
 

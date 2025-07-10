@@ -17,17 +17,24 @@ class CustomGeometry extends Geometry;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Geometry)](#constructor-geometry-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [paths](#paths--)| ShapePathCollection | Readonly. Gets path collection information when shape is a NotPrimitive autoshape |
+| [shapeAdjustValues](#shapeAdjustValues--)| ShapeGuideCollection | Readonly. Gets a collection of shape adjust value |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPaths()](#getPaths--)| Gets path collection information when shape is a NotPrimitive autoshape |
+| [getPaths()](#getPaths--)| <b>@deprecated.</b> Please use the 'paths' property instead. Gets path collection information when shape is a NotPrimitive autoshape |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getShapeAdjustValues()](#getShapeAdjustValues--)| Gets a collection of shape adjust value |
+| [getShapeAdjustValues()](#getShapeAdjustValues--)| <b>@deprecated.</b> Please use the 'shapeAdjustValues' property instead. Gets a collection of shape adjust value |
 
 
 ### constructor(Geometry) {#constructor-geometry-}
@@ -43,9 +50,27 @@ constructor(obj: Geometry);
 | --- | --- | --- |
 | obj | Geometry | The parent object. |
 
+### paths {#paths--}
+
+Readonly. Gets path collection information when shape is a NotPrimitive autoshape
+
+```javascript
+paths : ShapePathCollection;
+```
+
+
+### shapeAdjustValues {#shapeAdjustValues--}
+
+Readonly. Gets a collection of shape adjust value
+
+```javascript
+shapeAdjustValues : ShapeGuideCollection;
+```
+
+
 ### getPaths() {#getPaths--}
 
-Gets path collection information when shape is a NotPrimitive autoshape
+<b>@deprecated.</b> Please use the 'paths' property instead. Gets path collection information when shape is a NotPrimitive autoshape
 
 ```javascript
 getPaths() : ShapePathCollection;
@@ -67,7 +92,7 @@ isNull() : boolean;
 
 ### getShapeAdjustValues() {#getShapeAdjustValues--}
 
-Gets a collection of shape adjust value
+<b>@deprecated.</b> Please use the 'shapeAdjustValues' property instead. Gets a collection of shape adjust value
 
 ```javascript
 getShapeAdjustValues() : ShapeGuideCollection;

@@ -17,24 +17,34 @@ class FormulaParseOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [localeDependent](#localeDependent--)| boolean | Whether the formula is locale formatted. Default is false. |
+| [r1C1Style](#r1C1Style--)| boolean | Whether the formula is R1C1 reference style. Default is false. |
+| [checkAddIn](#checkAddIn--)| boolean | Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin). |
+| [parse](#parse--)| boolean | Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
+| [customFunctionDefinition](#customFunctionDefinition--)| CustomFunctionDefinition | Definition for parsing custom functions. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLocaleDependent()](#getLocaleDependent--)| Whether the formula is locale formatted. Default is false. |
-| [setLocaleDependent(boolean)](#setLocaleDependent-boolean-)| Whether the formula is locale formatted. Default is false. |
-| [getR1C1Style()](#getR1C1Style--)| Whether the formula is R1C1 reference style. Default is false. |
-| [setR1C1Style(boolean)](#setR1C1Style-boolean-)| Whether the formula is R1C1 reference style. Default is false. |
-| [getCheckAddIn()](#getCheckAddIn--)| Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin). |
-| [setCheckAddIn(boolean)](#setCheckAddIn-boolean-)| Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin). |
-| [getParse()](#getParse--)| Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
-| [setParse(boolean)](#setParse-boolean-)| Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
-| [getCustomFunctionDefinition()](#getCustomFunctionDefinition--)| Definition for parsing custom functions. |
-| [setCustomFunctionDefinition(CustomFunctionDefinition)](#setCustomFunctionDefinition-customfunctiondefinition-)| Definition for parsing custom functions. |
+| [getLocaleDependent()](#getLocaleDependent--)| <b>@deprecated.</b> Please use the 'localeDependent' property instead. Whether the formula is locale formatted. Default is false. |
+| [setLocaleDependent(boolean)](#setLocaleDependent-boolean-)| <b>@deprecated.</b> Please use the 'localeDependent' property instead. Whether the formula is locale formatted. Default is false. |
+| [getR1C1Style()](#getR1C1Style--)| <b>@deprecated.</b> Please use the 'r1C1Style' property instead. Whether the formula is R1C1 reference style. Default is false. |
+| [setR1C1Style(boolean)](#setR1C1Style-boolean-)| <b>@deprecated.</b> Please use the 'r1C1Style' property instead. Whether the formula is R1C1 reference style. Default is false. |
+| [getCheckAddIn()](#getCheckAddIn--)| <b>@deprecated.</b> Please use the 'checkAddIn' property instead. Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin). |
+| [setCheckAddIn(boolean)](#setCheckAddIn-boolean-)| <b>@deprecated.</b> Please use the 'checkAddIn' property instead. Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin). |
+| [getParse()](#getParse--)| <b>@deprecated.</b> Please use the 'parse' property instead. Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
+| [setParse(boolean)](#setParse-boolean-)| <b>@deprecated.</b> Please use the 'parse' property instead. Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
+| [getCustomFunctionDefinition()](#getCustomFunctionDefinition--)| <b>@deprecated.</b> Please use the 'customFunctionDefinition' property instead. Definition for parsing custom functions. |
+| [setCustomFunctionDefinition(CustomFunctionDefinition)](#setCustomFunctionDefinition-customfunctiondefinition-)| <b>@deprecated.</b> Please use the 'customFunctionDefinition' property instead. Definition for parsing custom functions. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -47,9 +57,58 @@ constructor();
 ```
 
 
-### getLocaleDependent() {#getLocaleDependent--}
+### localeDependent {#localeDependent--}
 
 Whether the formula is locale formatted. Default is false.
+
+```javascript
+localeDependent : boolean;
+```
+
+
+### r1C1Style {#r1C1Style--}
+
+Whether the formula is R1C1 reference style. Default is false.
+
+```javascript
+r1C1Style : boolean;
+```
+
+
+### checkAddIn {#checkAddIn--}
+
+Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
+
+```javascript
+checkAddIn : boolean;
+```
+
+
+### parse {#parse--}
+
+Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
+
+```javascript
+parse : boolean;
+```
+
+
+### customFunctionDefinition {#customFunctionDefinition--}
+
+Definition for parsing custom functions.
+
+```javascript
+customFunctionDefinition : CustomFunctionDefinition;
+```
+
+
+**Remarks**
+
+For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](../workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
+
+### getLocaleDependent() {#getLocaleDependent--}
+
+<b>@deprecated.</b> Please use the 'localeDependent' property instead. Whether the formula is locale formatted. Default is false.
 
 ```javascript
 getLocaleDependent() : boolean;
@@ -58,7 +117,7 @@ getLocaleDependent() : boolean;
 
 ### setLocaleDependent(boolean) {#setLocaleDependent-boolean-}
 
-Whether the formula is locale formatted. Default is false.
+<b>@deprecated.</b> Please use the 'localeDependent' property instead. Whether the formula is locale formatted. Default is false.
 
 ```javascript
 setLocaleDependent(value: boolean) : void;
@@ -71,7 +130,7 @@ setLocaleDependent(value: boolean) : void;
 
 ### getR1C1Style() {#getR1C1Style--}
 
-Whether the formula is R1C1 reference style. Default is false.
+<b>@deprecated.</b> Please use the 'r1C1Style' property instead. Whether the formula is R1C1 reference style. Default is false.
 
 ```javascript
 getR1C1Style() : boolean;
@@ -80,7 +139,7 @@ getR1C1Style() : boolean;
 
 ### setR1C1Style(boolean) {#setR1C1Style-boolean-}
 
-Whether the formula is R1C1 reference style. Default is false.
+<b>@deprecated.</b> Please use the 'r1C1Style' property instead. Whether the formula is R1C1 reference style. Default is false.
 
 ```javascript
 setR1C1Style(value: boolean) : void;
@@ -93,7 +152,7 @@ setR1C1Style(value: boolean) : void;
 
 ### getCheckAddIn() {#getCheckAddIn--}
 
-Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
+<b>@deprecated.</b> Please use the 'checkAddIn' property instead. Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
 
 ```javascript
 getCheckAddIn() : boolean;
@@ -102,7 +161,7 @@ getCheckAddIn() : boolean;
 
 ### setCheckAddIn(boolean) {#setCheckAddIn-boolean-}
 
-Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
+<b>@deprecated.</b> Please use the 'checkAddIn' property instead. Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
 
 ```javascript
 setCheckAddIn(value: boolean) : void;
@@ -115,7 +174,7 @@ setCheckAddIn(value: boolean) : void;
 
 ### getParse() {#getParse--}
 
-Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
+<b>@deprecated.</b> Please use the 'parse' property instead. Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
 
 ```javascript
 getParse() : boolean;
@@ -124,7 +183,7 @@ getParse() : boolean;
 
 ### setParse(boolean) {#setParse-boolean-}
 
-Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
+<b>@deprecated.</b> Please use the 'parse' property instead. Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
 
 ```javascript
 setParse(value: boolean) : void;
@@ -137,7 +196,7 @@ setParse(value: boolean) : void;
 
 ### getCustomFunctionDefinition() {#getCustomFunctionDefinition--}
 
-Definition for parsing custom functions.
+<b>@deprecated.</b> Please use the 'customFunctionDefinition' property instead. Definition for parsing custom functions.
 
 ```javascript
 getCustomFunctionDefinition() : CustomFunctionDefinition;
@@ -154,7 +213,7 @@ For some special requirements, such as when calculating custom function in user'
 
 ### setCustomFunctionDefinition(CustomFunctionDefinition) {#setCustomFunctionDefinition-customfunctiondefinition-}
 
-Definition for parsing custom functions.
+<b>@deprecated.</b> Please use the 'customFunctionDefinition' property instead. Definition for parsing custom functions.
 
 ```javascript
 setCustomFunctionDefinition(value: CustomFunctionDefinition) : void;

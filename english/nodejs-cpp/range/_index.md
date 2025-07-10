@@ -17,34 +17,58 @@ class Range;
 ### Remarks
 The Range class denotes a region of Excel spreadsheet. With this, you can format and set value of the range. And you can simply copy range of Excel too.
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [currentRegion](#currentRegion--)| Range | Readonly. Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
+| [hyperlinks](#hyperlinks--)| Hyperlink[] | Readonly. Gets all hyperlink in the range. |
+| [rowCount](#rowCount--)| number | Readonly. Gets the count of rows in the range. |
+| [columnCount](#columnCount--)| number | Readonly. Gets the count of columns in the range. |
+| [name](#name--)| string | Gets or sets the name of the range. |
+| [refersTo](#refersTo--)| string | Readonly. Gets the range's refers to. |
+| [address](#address--)| string | Readonly. Gets address of the range. |
+| [left](#left--)| number | Readonly. Gets the distance, in points, from the left edge of column A to the left edge of the range. |
+| [top](#top--)| number | Readonly. Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
+| [width](#width--)| number | Readonly. Gets the width of a range in points. |
+| [height](#height--)| number | Readonly. Gets the width of a range in points. |
+| [firstRow](#firstRow--)| number | Readonly. Gets the index of the first row of the range. |
+| [firstColumn](#firstColumn--)| number | Readonly. Gets the index of the first column of the range. |
+| [value](#value--)| Object | Gets and sets the value of the range. |
+| [columnWidth](#columnWidth--)| number | Sets or gets the column width of this range |
+| [rowHeight](#rowHeight--)| number | Sets or gets the height of rows in this range |
+| [entireColumn](#entireColumn--)| Range | Readonly. Gets a Range object that represents the entire column (or columns) that contains the specified range. |
+| [entireRow](#entireRow--)| Range | Readonly. Gets a Range object that represents the entire row (or rows) that contains the specified range. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Worksheet](../worksheet/)object which contains this range. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number, number)](#get-number-number-)| Gets [Cell](../cell/) object in this range. |
-| [getCurrentRegion()](#getCurrentRegion--)| Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
-| [getHyperlinks()](#getHyperlinks--)| Gets all hyperlink in the range. |
-| [getRowCount()](#getRowCount--)| Gets the count of rows in the range. |
-| [getColumnCount()](#getColumnCount--)| Gets the count of columns in the range. |
-| [getName()](#getName--)| Gets or sets the name of the range. |
-| [setName(string)](#setName-string-)| Gets or sets the name of the range. |
-| [getRefersTo()](#getRefersTo--)| Gets the range's refers to. |
-| [getAddress()](#getAddress--)| Gets address of the range. |
-| [getLeft()](#getLeft--)| Gets the distance, in points, from the left edge of column A to the left edge of the range. |
-| [getTop()](#getTop--)| Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
-| [getWidth()](#getWidth--)| Gets the width of a range in points. |
-| [getHeight()](#getHeight--)| Gets the width of a range in points. |
-| [getFirstRow()](#getFirstRow--)| Gets the index of the first row of the range. |
-| [getFirstColumn()](#getFirstColumn--)| Gets the index of the first column of the range. |
-| [getValue()](#getValue--)| Gets and sets the value of the range. |
-| [setValue(Object)](#setValue-object-)| Gets and sets the value of the range. |
-| [getColumnWidth()](#getColumnWidth--)| Sets or gets the column width of this range |
-| [setColumnWidth(number)](#setColumnWidth-number-)| Sets or gets the column width of this range |
-| [getRowHeight()](#getRowHeight--)| Sets or gets the height of rows in this range |
-| [setRowHeight(number)](#setRowHeight-number-)| Sets or gets the height of rows in this range |
-| [getEntireColumn()](#getEntireColumn--)| Gets a Range object that represents the entire column (or columns) that contains the specified range. |
-| [getEntireRow()](#getEntireRow--)| Gets a Range object that represents the entire row (or rows) that contains the specified range. |
-| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](../worksheet/)object which contains this range. |
+| [getCurrentRegion()](#getCurrentRegion--)| <b>@deprecated.</b> Please use the 'currentRegion' property instead. Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
+| [getHyperlinks()](#getHyperlinks--)| <b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets all hyperlink in the range. |
+| [getRowCount()](#getRowCount--)| <b>@deprecated.</b> Please use the 'rowCount' property instead. Gets the count of rows in the range. |
+| [getColumnCount()](#getColumnCount--)| <b>@deprecated.</b> Please use the 'columnCount' property instead. Gets the count of columns in the range. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range. |
+| [getRefersTo()](#getRefersTo--)| <b>@deprecated.</b> Please use the 'refersTo' property instead. Gets the range's refers to. |
+| [getAddress()](#getAddress--)| <b>@deprecated.</b> Please use the 'address' property instead. Gets address of the range. |
+| [getLeft()](#getLeft--)| <b>@deprecated.</b> Please use the 'left' property instead. Gets the distance, in points, from the left edge of column A to the left edge of the range. |
+| [getTop()](#getTop--)| <b>@deprecated.</b> Please use the 'top' property instead. Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets the width of a range in points. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets the width of a range in points. |
+| [getFirstRow()](#getFirstRow--)| <b>@deprecated.</b> Please use the 'firstRow' property instead. Gets the index of the first row of the range. |
+| [getFirstColumn()](#getFirstColumn--)| <b>@deprecated.</b> Please use the 'firstColumn' property instead. Gets the index of the first column of the range. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the range. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the range. |
+| [getColumnWidth()](#getColumnWidth--)| <b>@deprecated.</b> Please use the 'columnWidth' property instead. Sets or gets the column width of this range |
+| [setColumnWidth(number)](#setColumnWidth-number-)| <b>@deprecated.</b> Please use the 'columnWidth' property instead. Sets or gets the column width of this range |
+| [getRowHeight()](#getRowHeight--)| <b>@deprecated.</b> Please use the 'rowHeight' property instead. Sets or gets the height of rows in this range |
+| [setRowHeight(number)](#setRowHeight-number-)| <b>@deprecated.</b> Please use the 'rowHeight' property instead. Sets or gets the height of rows in this range |
+| [getEntireColumn()](#getEntireColumn--)| <b>@deprecated.</b> Please use the 'entireColumn' property instead. Gets a Range object that represents the entire column (or columns) that contains the specified range. |
+| [getEntireRow()](#getEntireRow--)| <b>@deprecated.</b> Please use the 'entireRow' property instead. Gets a Range object that represents the entire row (or rows) that contains the specified range. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/)object which contains this range. |
 | [autoFill(Range)](#autoFill-range-)| Automaticall fill the target range. |
 | [autoFill(Range, AutoFillType)](#autoFill-range-autofilltype-)| Automaticall fill the target range. |
 | [addHyperlink(string, string, string)](#addHyperlink-string-string-string-)| Adds a hyperlink to a specified cell or a range of cells. |
@@ -75,7 +99,6 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [transpose()](#transpose--)| Transpose (rotate) data from rows to columns or vice versa. |
 | [getCellOrNull(number, number)](#getCellOrNull-number-number-)| Gets [Cell](../cell/) object or null in this range. |
 | [getOffset(number, number)](#getOffset-number-number-)| Gets [Range](../range/) range by offset. |
-| [toString()](#toString--)| Returns a string represents the current Range object. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts the range to image. |
 | [toJson(JsonSaveOptions)](#toJson-jsonsaveoptions-)| Convert the range to JSON value. |
 | [toHtml(HtmlSaveOptions)](#toHtml-htmlsaveoptions-)| Convert the range to html . |
@@ -85,6 +108,186 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [clearComments()](#clearComments--)| Clears the comments of this range. |
 | [clearHyperlinks(boolean)](#clearHyperlinks-boolean-)| Only removes hyperlinks. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Range object. |
+
+
+### currentRegion {#currentRegion--}
+
+Readonly. Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns.
+
+```javascript
+currentRegion : Range;
+```
+
+
+### hyperlinks {#hyperlinks--}
+
+Readonly. Gets all hyperlink in the range.
+
+```javascript
+hyperlinks : Hyperlink[];
+```
+
+
+### rowCount {#rowCount--}
+
+Readonly. Gets the count of rows in the range.
+
+```javascript
+rowCount : number;
+```
+
+
+### columnCount {#columnCount--}
+
+Readonly. Gets the count of columns in the range.
+
+```javascript
+columnCount : number;
+```
+
+
+### name {#name--}
+
+Gets or sets the name of the range.
+
+```javascript
+name : string;
+```
+
+
+**Remarks**
+
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
+
+### refersTo {#refersTo--}
+
+Readonly. Gets the range's refers to.
+
+```javascript
+refersTo : string;
+```
+
+
+### address {#address--}
+
+Readonly. Gets address of the range.
+
+```javascript
+address : string;
+```
+
+
+### left {#left--}
+
+Readonly. Gets the distance, in points, from the left edge of column A to the left edge of the range.
+
+```javascript
+left : number;
+```
+
+
+### top {#top--}
+
+Readonly. Gets the distance, in points, from the top edge of row 1 to the top edge of the range.
+
+```javascript
+top : number;
+```
+
+
+### width {#width--}
+
+Readonly. Gets the width of a range in points.
+
+```javascript
+width : number;
+```
+
+
+### height {#height--}
+
+Readonly. Gets the width of a range in points.
+
+```javascript
+height : number;
+```
+
+
+### firstRow {#firstRow--}
+
+Readonly. Gets the index of the first row of the range.
+
+```javascript
+firstRow : number;
+```
+
+
+### firstColumn {#firstColumn--}
+
+Readonly. Gets the index of the first column of the range.
+
+```javascript
+firstColumn : number;
+```
+
+
+### value {#value--}
+
+Gets and sets the value of the range.
+
+```javascript
+value : Object;
+```
+
+
+**Remarks**
+
+If the range contains multiple cells, the returned/applied object should be a two-dimension [Array](../array/) object.
+
+### columnWidth {#columnWidth--}
+
+Sets or gets the column width of this range
+
+```javascript
+columnWidth : number;
+```
+
+
+### rowHeight {#rowHeight--}
+
+Sets or gets the height of rows in this range
+
+```javascript
+rowHeight : number;
+```
+
+
+### entireColumn {#entireColumn--}
+
+Readonly. Gets a Range object that represents the entire column (or columns) that contains the specified range.
+
+```javascript
+entireColumn : Range;
+```
+
+
+### entireRow {#entireRow--}
+
+Readonly. Gets a Range object that represents the entire row (or rows) that contains the specified range.
+
+```javascript
+entireRow : Range;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the [Worksheet](../worksheet/)object which contains this range.
+
+```javascript
+worksheet : Worksheet;
+```
 
 
 ### get(number, number) {#get-number-number-}
@@ -107,7 +310,7 @@ get(rowOffset: number, columnOffset: number) : Cell;
 
 ### getCurrentRegion() {#getCurrentRegion--}
 
-Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns.
+<b>@deprecated.</b> Please use the 'currentRegion' property instead. Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns.
 
 ```javascript
 getCurrentRegion() : Range;
@@ -120,7 +323,7 @@ getCurrentRegion() : Range;
 
 ### getHyperlinks() {#getHyperlinks--}
 
-Gets all hyperlink in the range.
+<b>@deprecated.</b> Please use the 'hyperlinks' property instead. Gets all hyperlink in the range.
 
 ```javascript
 getHyperlinks() : Hyperlink[];
@@ -133,7 +336,7 @@ getHyperlinks() : Hyperlink[];
 
 ### getRowCount() {#getRowCount--}
 
-Gets the count of rows in the range.
+<b>@deprecated.</b> Please use the 'rowCount' property instead. Gets the count of rows in the range.
 
 ```javascript
 getRowCount() : number;
@@ -142,7 +345,7 @@ getRowCount() : number;
 
 ### getColumnCount() {#getColumnCount--}
 
-Gets the count of columns in the range.
+<b>@deprecated.</b> Please use the 'columnCount' property instead. Gets the count of columns in the range.
 
 ```javascript
 getColumnCount() : number;
@@ -151,7 +354,7 @@ getColumnCount() : number;
 
 ### getName() {#getName--}
 
-Gets or sets the name of the range.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range.
 
 ```javascript
 getName() : string;
@@ -164,7 +367,7 @@ Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### setName(string) {#setName-string-}
 
-Gets or sets the name of the range.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the range.
 
 ```javascript
 setName(value: string) : void;
@@ -181,7 +384,7 @@ Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### getRefersTo() {#getRefersTo--}
 
-Gets the range's refers to.
+<b>@deprecated.</b> Please use the 'refersTo' property instead. Gets the range's refers to.
 
 ```javascript
 getRefersTo() : string;
@@ -190,7 +393,7 @@ getRefersTo() : string;
 
 ### getAddress() {#getAddress--}
 
-Gets address of the range.
+<b>@deprecated.</b> Please use the 'address' property instead. Gets address of the range.
 
 ```javascript
 getAddress() : string;
@@ -199,7 +402,7 @@ getAddress() : string;
 
 ### getLeft() {#getLeft--}
 
-Gets the distance, in points, from the left edge of column A to the left edge of the range.
+<b>@deprecated.</b> Please use the 'left' property instead. Gets the distance, in points, from the left edge of column A to the left edge of the range.
 
 ```javascript
 getLeft() : number;
@@ -208,7 +411,7 @@ getLeft() : number;
 
 ### getTop() {#getTop--}
 
-Gets the distance, in points, from the top edge of row 1 to the top edge of the range.
+<b>@deprecated.</b> Please use the 'top' property instead. Gets the distance, in points, from the top edge of row 1 to the top edge of the range.
 
 ```javascript
 getTop() : number;
@@ -217,7 +420,7 @@ getTop() : number;
 
 ### getWidth() {#getWidth--}
 
-Gets the width of a range in points.
+<b>@deprecated.</b> Please use the 'width' property instead. Gets the width of a range in points.
 
 ```javascript
 getWidth() : number;
@@ -226,7 +429,7 @@ getWidth() : number;
 
 ### getHeight() {#getHeight--}
 
-Gets the width of a range in points.
+<b>@deprecated.</b> Please use the 'height' property instead. Gets the width of a range in points.
 
 ```javascript
 getHeight() : number;
@@ -235,7 +438,7 @@ getHeight() : number;
 
 ### getFirstRow() {#getFirstRow--}
 
-Gets the index of the first row of the range.
+<b>@deprecated.</b> Please use the 'firstRow' property instead. Gets the index of the first row of the range.
 
 ```javascript
 getFirstRow() : number;
@@ -244,7 +447,7 @@ getFirstRow() : number;
 
 ### getFirstColumn() {#getFirstColumn--}
 
-Gets the index of the first column of the range.
+<b>@deprecated.</b> Please use the 'firstColumn' property instead. Gets the index of the first column of the range.
 
 ```javascript
 getFirstColumn() : number;
@@ -253,7 +456,7 @@ getFirstColumn() : number;
 
 ### getValue() {#getValue--}
 
-Gets and sets the value of the range.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the range.
 
 ```javascript
 getValue() : Object;
@@ -266,7 +469,7 @@ If the range contains multiple cells, the returned/applied object should be a tw
 
 ### setValue(Object) {#setValue-object-}
 
-Gets and sets the value of the range.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the range.
 
 ```javascript
 setValue(value: Object) : void;
@@ -283,7 +486,7 @@ If the range contains multiple cells, the returned/applied object should be a tw
 
 ### getColumnWidth() {#getColumnWidth--}
 
-Sets or gets the column width of this range
+<b>@deprecated.</b> Please use the 'columnWidth' property instead. Sets or gets the column width of this range
 
 ```javascript
 getColumnWidth() : number;
@@ -292,7 +495,7 @@ getColumnWidth() : number;
 
 ### setColumnWidth(number) {#setColumnWidth-number-}
 
-Sets or gets the column width of this range
+<b>@deprecated.</b> Please use the 'columnWidth' property instead. Sets or gets the column width of this range
 
 ```javascript
 setColumnWidth(value: number) : void;
@@ -305,7 +508,7 @@ setColumnWidth(value: number) : void;
 
 ### getRowHeight() {#getRowHeight--}
 
-Sets or gets the height of rows in this range
+<b>@deprecated.</b> Please use the 'rowHeight' property instead. Sets or gets the height of rows in this range
 
 ```javascript
 getRowHeight() : number;
@@ -314,7 +517,7 @@ getRowHeight() : number;
 
 ### setRowHeight(number) {#setRowHeight-number-}
 
-Sets or gets the height of rows in this range
+<b>@deprecated.</b> Please use the 'rowHeight' property instead. Sets or gets the height of rows in this range
 
 ```javascript
 setRowHeight(value: number) : void;
@@ -327,7 +530,7 @@ setRowHeight(value: number) : void;
 
 ### getEntireColumn() {#getEntireColumn--}
 
-Gets a Range object that represents the entire column (or columns) that contains the specified range.
+<b>@deprecated.</b> Please use the 'entireColumn' property instead. Gets a Range object that represents the entire column (or columns) that contains the specified range.
 
 ```javascript
 getEntireColumn() : Range;
@@ -340,7 +543,7 @@ getEntireColumn() : Range;
 
 ### getEntireRow() {#getEntireRow--}
 
-Gets a Range object that represents the entire row (or rows) that contains the specified range.
+<b>@deprecated.</b> Please use the 'entireRow' property instead. Gets a Range object that represents the entire row (or rows) that contains the specified range.
 
 ```javascript
 getEntireRow() : Range;
@@ -353,7 +556,7 @@ getEntireRow() : Range;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the [Worksheet](../worksheet/)object which contains this range.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/)object which contains this range.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -814,15 +1017,6 @@ getOffset(rowOffset: number, columnOffset: number) : Range;
 
 [Range](../range/)
 
-### toString() {#toString--}
-
-Returns a string represents the current Range object.
-
-```javascript
-toString() : string;
-```
-
-
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
 Converts the range to image.
@@ -917,6 +1111,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### toString() {#toString--}
+
+Returns a string represents the current Range object.
+
+```javascript
+toString() : string;
 ```
 
 

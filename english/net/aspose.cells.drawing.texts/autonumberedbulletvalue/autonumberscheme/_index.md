@@ -19,6 +19,7 @@ public TextAutonumberScheme AutonumberScheme { get; set; }
 namespace AsposeCellsExamples
 {
     using Aspose.Cells;
+    using Aspose.Cells.Drawing;
     using Aspose.Cells.Drawing.Texts;
     using System;
 
@@ -43,8 +44,9 @@ namespace AsposeCellsExamples
                 Worksheet worksheet = workbook.Worksheets[0];
 
                 // Create a shape with text that will use the bullet style
-                var shape = worksheet.Shapes.AddTextBox(1, 0, 1, 100, 300, 100);
+                TextBox shape = worksheet.Shapes.AddTextBox(1, 0, 1, 100, 300, 100);
                 shape.TextBody.Text = "Sample text with bullet formatting";
+
 
                 // Note: Actual application of bullet style to text would require additional API calls
                 // not shown in the reflection. We'll just save the workbook as demonstration.

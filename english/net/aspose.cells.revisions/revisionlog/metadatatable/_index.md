@@ -16,39 +16,51 @@ public RevisionHeader MetadataTable { get; }
 ### Examples
 
 ```csharp
-// Called: RevisionHeader metadataTable = revisionLog.MetadataTable;
-public static void RevisionLog_Property_MetadataTable()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
+
+namespace AsposeCellsExamples
+{
+    public class RevisionLogPropertyMetadataTableDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Make some changes to create revision history
+            worksheet.Cells["A1"].PutValue("Original Value");
+            workbook.Save("RevisionDemo.xlsx", SaveFormat.Xlsx);
+            
+            // Modify the cell to create a revision
+            worksheet.Cells["A1"].PutValue("Modified Value");
+            workbook.Save("RevisionDemo_modified.xlsx", SaveFormat.Xlsx);
 
-            // Access the revision logs of the workbook
+            // Reopen the modified workbook to access revision logs
+            workbook = new Workbook("RevisionDemo_modified.xlsx");
+            
+            // Access revision logs
             RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-
-            // Check if there are any revision logs
+            
             if (revisionLogs.Count > 0)
             {
-                // Access the first revision log
                 RevisionLog revisionLog = revisionLogs[0];
-
-                // Access the metadata table of the revision log
-                RevisionHeader metadataTable = revisionLog.MetadataTable;
-
-                // Access the revisions in the revision log
-                RevisionCollection revisions = revisionLog.Revisions;
-
-                // Display some information about the revisions
-                Console.WriteLine("Number of revisions: " + revisions.Count);
-                Console.WriteLine("Metadata Table: " + metadataTable.ToString());
+                RevisionHeader metadata = revisionLog.MetadataTable;
+                
+                Console.WriteLine("Revision Metadata:");
+                Console.WriteLine("Saved Time: " + metadata.SavedTime);
+                Console.WriteLine("Modified By: " + metadata.UserName);
+                Console.WriteLine("Number of Revisions: " + revisionLog.Revisions.Count);
             }
             else
             {
-                Console.WriteLine("No revision logs found.");
+                Console.WriteLine("No revision history found");
             }
-
-            // Save the workbook
-            workbook.Save("RevisionLogExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

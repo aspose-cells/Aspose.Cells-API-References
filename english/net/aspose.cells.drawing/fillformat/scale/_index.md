@@ -16,45 +16,32 @@ public double Scale { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(fillformatSrc.Scale, fillformatDest.Scale, info + ".Scale");
-public static void FillFormat_Property_Scale(FillFormat fillformatSrc, FillFormat fillformatDest, string info)
-        {
-            if (AssertHelper.checkNull(fillformatSrc, fillformatDest, info))
-            {
-                return;
-            }
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            AssertHelper.AreEqual(fillformatSrc.FillType, fillformatDest.FillType, info + ".SetType");
-            switch (fillformatSrc.FillType)
-            {
-                case FillType.None:
-                    break;
-                case FillType.Gradient://Gradient Fill
-                    AssertHelper.AreEqual(fillformatSrc.PresetColor, fillformatDest.PresetColor, info + ".PresetColor");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.FillType, fillformatDest.GradientFill.FillType, info + ".GradientFill.FillType");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.Angle, fillformatDest.GradientFill.Angle, info + ".GradientFill.Angle");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.GradientStops, fillformatDest.GradientFill.GradientStops, info + ".GradientFill.GradientStops");
-                    break;
-                case FillType.Pattern:
-                    break;
-                case FillType.Texture:
-                    AssertHelper.AreEqual(fillformatSrc.Texture, fillformatDest.Texture, info + ".Texture");
-                    AssertHelper.AreEqual(fillformatSrc.PictureFormatType, fillformatDest.PictureFormatType, info + ".PictureFormatType");
-                    AssertHelper.FillFormat_Property_Scale(fillformatSrc.ImageData, fillformatDest.ImageData, info + ".ImageData");                   
-                    break;
-            }
-            AssertHelper.FillFormat_Property_Scale(fillformatSrc.GradientColor1, fillformatDest.GradientColor1, info + ".GradientColor1");
-            AssertHelper.FillFormat_Property_Scale(fillformatSrc.GradientColor2, fillformatDest.GradientColor2, info + ".GradientColor2");
-            AssertHelper.AreEqual(fillformatSrc.GradientColorType, fillformatDest.GradientColorType, info + ".GradientColorType");           
-            AssertHelper.AreEqual(fillformatSrc.GradientDegree, fillformatDest.GradientDegree, 0.01, info + ".GradientDegree");
-            AssertHelper.AreEqual(fillformatSrc.GradientStyle, fillformatDest.GradientStyle, info + ".GradientStyle");          
-            AssertHelper.AreEqual(fillformatSrc.GradientVariant, fillformatDest.GradientVariant, info + ".GradientVariant");
-            AssertHelper.AreEqual(fillformatSrc.Pattern, fillformatDest.Pattern, info + ".Pattern");    
-            
-            
-            AssertHelper.AreEqual(fillformatSrc.Scale, fillformatDest.Scale, info + ".Scale");
-            
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyScaleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            RectangleShape shape1 = worksheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 150);
+            shape1.Fill.FillType = FillType.Texture;
+            shape1.Fill.Texture = TextureType.Denim;
+            shape1.Fill.Scale = 50;
+
+            RectangleShape shape2 = worksheet.Shapes.AddRectangle(0, 0, 2, 0, 100, 150);
+            shape2.Fill.FillType = FillType.Texture;
+            shape2.Fill.Texture = TextureType.Denim;
+            shape2.Fill.Scale = 150;
+
+            workbook.Save("FillFormatScaleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

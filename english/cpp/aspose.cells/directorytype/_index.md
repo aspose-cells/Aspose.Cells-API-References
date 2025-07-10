@@ -4,7 +4,7 @@ linktitle: DirectoryType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DirectoryType enum. Represents the directory type of the file name in C++.'
 type: docs
-weight: 19700
+weight: 20100
 url: /cpp/aspose.cells/directorytype/
 ---
 ## DirectoryType enum

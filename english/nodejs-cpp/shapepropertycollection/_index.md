@@ -15,15 +15,24 @@ class ShapePropertyCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [glowEffect](#glowEffect--)| GlowEffect | Readonly. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [format3D](#format3D--)| Format3D | Readonly. Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape. |
+| [softEdgeRadius](#softEdgeRadius--)| number | Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [shadowEffect](#shadowEffect--)| ShadowEffect | Readonly. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getGlowEffect()](#getGlowEffect--)| Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
-| [getFormat3D()](#getFormat3D--)| Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape. |
-| [getSoftEdgeRadius()](#getSoftEdgeRadius--)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [setSoftEdgeRadius(number)](#setSoftEdgeRadius-number-)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [getShadowEffect()](#getShadowEffect--)| Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getGlowEffect()](#getGlowEffect--)| <b>@deprecated.</b> Please use the 'glowEffect' property instead. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [getFormat3D()](#getFormat3D--)| <b>@deprecated.</b> Please use the 'format3D' property instead. Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape. |
+| [getSoftEdgeRadius()](#getSoftEdgeRadius--)| <b>@deprecated.</b> Please use the 'softEdgeRadius' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [setSoftEdgeRadius(number)](#setSoftEdgeRadius-number-)| <b>@deprecated.</b> Please use the 'softEdgeRadius' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points. |
+| [getShadowEffect()](#getShadowEffect--)| <b>@deprecated.</b> Please use the 'shadowEffect' property instead. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [clearGlowEffect()](#clearGlowEffect--)| Clears the glow effect of the shape. |
 | [hasGlowEffect()](#hasGlowEffect--)| Indicates if the shape has glow effect data. |
 | [hasFormat3D()](#hasFormat3D--)| Indicates if the shape has 3d format data. |
@@ -33,9 +42,45 @@ class ShapePropertyCollection;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### glowEffect {#glowEffect--}
+
+Readonly. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
+
+```javascript
+glowEffect : GlowEffect;
+```
+
+
+### format3D {#format3D--}
+
+Readonly. Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape.
+
+```javascript
+format3D : Format3D;
+```
+
+
+### softEdgeRadius {#softEdgeRadius--}
+
+Gets and sets the radius of blur to apply to the edges, in unit of points.
+
+```javascript
+softEdgeRadius : number;
+```
+
+
+### shadowEffect {#shadowEffect--}
+
+Readonly. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
+
+```javascript
+shadowEffect : ShadowEffect;
+```
+
+
 ### getGlowEffect() {#getGlowEffect--}
 
-Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'glowEffect' property instead. Represents a [GlowEffect](../gloweffect/) object that specifies glow effect for the chart element or shape.
 
 ```javascript
 getGlowEffect() : GlowEffect;
@@ -48,7 +93,7 @@ getGlowEffect() : GlowEffect;
 
 ### getFormat3D() {#getFormat3D--}
 
-Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape.
+<b>@deprecated.</b> Please use the 'format3D' property instead. Represents a [Format3D](../format3d/) object that specifies 3D shape properties for the chart element or shape.
 
 ```javascript
 getFormat3D() : Format3D;
@@ -61,7 +106,7 @@ getFormat3D() : Format3D;
 
 ### getSoftEdgeRadius() {#getSoftEdgeRadius--}
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+<b>@deprecated.</b> Please use the 'softEdgeRadius' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points.
 
 ```javascript
 getSoftEdgeRadius() : number;
@@ -70,7 +115,7 @@ getSoftEdgeRadius() : number;
 
 ### setSoftEdgeRadius(number) {#setSoftEdgeRadius-number-}
 
-Gets and sets the radius of blur to apply to the edges, in unit of points.
+<b>@deprecated.</b> Please use the 'softEdgeRadius' property instead. Gets and sets the radius of blur to apply to the edges, in unit of points.
 
 ```javascript
 setSoftEdgeRadius(value: number) : void;
@@ -83,7 +128,7 @@ setSoftEdgeRadius(value: number) : void;
 
 ### getShadowEffect() {#getShadowEffect--}
 
-Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
+<b>@deprecated.</b> Please use the 'shadowEffect' property instead. Represents a [ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadowEffect() : ShadowEffect;

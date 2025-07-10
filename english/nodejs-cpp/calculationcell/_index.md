@@ -17,22 +17,77 @@ class CalculationCell;
 ### Remarks
 All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [workbook](#workbook--)| Workbook | Readonly. Gets the Workbook object. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the Worksheet object where the cell is in. |
+| [cellRow](#cellRow--)| number | Readonly. Gets the row index of the cell. |
+| [cellColumn](#cellColumn--)| number | Readonly. Gets the column index of the cell. |
+| [cell](#cell--)| Cell | Readonly. Gets the Cell object which is being calculated. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWorkbook()](#getWorkbook--)| Gets the Workbook object. |
-| [getWorksheet()](#getWorksheet--)| Gets the Worksheet object where the cell is in. |
-| [getCellRow()](#getCellRow--)| Gets the row index of the cell. |
-| [getCellColumn()](#getCellColumn--)| Gets the column index of the cell. |
-| [getCell()](#getCell--)| Gets the Cell object which is being calculated. |
+| [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the cell is in. |
+| [getCellRow()](#getCellRow--)| <b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell. |
+| [getCellColumn()](#getCellColumn--)| <b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell. |
+| [getCell()](#getCell--)| <b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object which is being calculated. |
 | [setCalculatedValue(Object)](#setCalculatedValue-object-)| Sets the calculated value for the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### workbook {#workbook--}
+
+Readonly. Gets the Workbook object.
+
+```javascript
+workbook : Workbook;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the Worksheet object where the cell is in.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### cellRow {#cellRow--}
+
+Readonly. Gets the row index of the cell.
+
+```javascript
+cellRow : number;
+```
+
+
+### cellColumn {#cellColumn--}
+
+Readonly. Gets the column index of the cell.
+
+```javascript
+cellColumn : number;
+```
+
+
+### cell {#cell--}
+
+Readonly. Gets the Cell object which is being calculated.
+
+```javascript
+cell : Cell;
+```
+
+
 ### getWorkbook() {#getWorkbook--}
 
-Gets the Workbook object.
+<b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -45,7 +100,7 @@ getWorkbook() : Workbook;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the Worksheet object where the cell is in.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the cell is in.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -58,7 +113,7 @@ getWorksheet() : Worksheet;
 
 ### getCellRow() {#getCellRow--}
 
-Gets the row index of the cell.
+<b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell.
 
 ```javascript
 getCellRow() : number;
@@ -67,7 +122,7 @@ getCellRow() : number;
 
 ### getCellColumn() {#getCellColumn--}
 
-Gets the column index of the cell.
+<b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell.
 
 ```javascript
 getCellColumn() : number;
@@ -76,7 +131,7 @@ getCellColumn() : number;
 
 ### getCell() {#getCell--}
 
-Gets the Cell object which is being calculated.
+<b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object which is being calculated.
 
 ```javascript
 getCell() : Cell;

@@ -4,7 +4,7 @@ linktitle: ToBool
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToBool method. Gets the bool value in C++.'
 type: docs
-weight: 1600
+weight: 2000
 url: /cpp/aspose.cells/object/tobool/
 ---
 ## Object::ToBool method

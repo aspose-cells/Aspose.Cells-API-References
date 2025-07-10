@@ -30,45 +30,6 @@ public class MsoFillFormatHelper
 | --- | --- |
 | [SetOneColorGradient](../../aspose.cells.drawing/msofillformathelper/setonecolorgradient/)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Drawing;
-    using System.Drawing;
-
-    public class DrawingClassMsoFillFormatHelperDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a shape to demonstrate fill formatting
-            Shape shape = worksheet.Shapes.AddRectangle(0, 0, 10, 10, 200, 150);
-
-            // Get MsoFillFormat instance from the shape
-            MsoFillFormat fillFormat = shape.FillFormat;
-
-            // Configure solid fill properties
-            fillFormat.ForeColor = Color.LightBlue;
-            fillFormat.BackColor = Color.DarkBlue;
-            fillFormat.Transparency = 0.3; // Fixed property name
-            fillFormat.IsVisible = true;
-
-            // Apply gradient fill
-            fillFormat.SetOneColorGradient(Color.Green, 0.8, GradientStyleType.DiagonalUp, 2);
-
-            // Save the modified workbook
-            workbook.Save("MsoFillFormatHelperDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

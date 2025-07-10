@@ -16,23 +16,50 @@ public DateTime End { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(string.Format("End: {0}", columnRange.End));//@"End: {columnRange?.End}");
-private static void PivotDateTimeRangeGroupSettings_Property_End(string header, PivotTable pivotTable)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotDateTimeRangeGroupSettingsPropertyEndDemo
+    {
+        public static void Run()
         {
-            PivotDateTimeRangeGroupSettings columnRange =(PivotDateTimeRangeGroupSettings) pivotTable.ColumnFields[0].GroupSettings;
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Console.WriteLine(@"=============== {header} ================");
-            if (columnRange != null)
-            {
+            worksheet.Cells["A1"].PutValue("Date");
+            Style style = workbook.CreateStyle();
+            style.Number = 14;
+            worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1));
+            worksheet.Cells["A2"].SetStyle(style);
+            worksheet.Cells["A3"].PutValue(new DateTime(2023, 2, 1));
+            worksheet.Cells["A3"].SetStyle(style);
+            worksheet.Cells["A4"].PutValue(new DateTime(2023, 3, 1));
+            worksheet.Cells["A4"].SetStyle(style);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-                Console.WriteLine(string.Format("Start: {0}", columnRange.Start));//"Start: {columnRange?.Start}");
-                Console.WriteLine(string.Format("End: {0}", columnRange.End));//@"End: {columnRange?.End}");
-                Console.WriteLine(string.Format("By: {0}", columnRange.Interval));//@"By: {columnRange?.By}");
-                Console.WriteLine(string.Format("Types:{0}", String.Join(", ", columnRange.GroupByTypes)));//"Types: {String.Join(", ", columnRange?.GroupByTypes)}");
-            }
-            Console.WriteLine(@"=============== {header} DONE ===========");
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            PivotField dateField = pivotTable.RowFields[0];
+            DateTime endDate = new DateTime(2023, 12, 31);
+            dateField.GroupBy(new DateTime(2023, 1, 1), endDate, new PivotGroupByType[] { PivotGroupByType.Months }, 1, false);
+
+            PivotDateTimeRangeGroupSettings groupSettings = (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
+            Console.WriteLine("End Date: " + groupSettings.End);
+
+            workbook.Save("PivotDateTimeRangeGroupSettingsEndDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

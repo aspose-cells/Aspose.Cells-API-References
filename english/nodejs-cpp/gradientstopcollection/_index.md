@@ -23,7 +23,7 @@ class GradientStopCollection;
 | [set(GradientStop, number)](#set-gradientstop-number-)| Gets the gradient stop by the index. |
 | [add(number, CellsColor, number)](#add-number-cellscolor-number-)| Add a gradient stop. |
 | [add(number, Color, number)](#add-number-color-number-)| Add a gradient stop. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -94,7 +94,7 @@ add(position: number, color: Color, alpha: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

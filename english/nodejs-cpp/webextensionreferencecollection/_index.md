@@ -17,7 +17,7 @@ class WebExtensionReferenceCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -27,7 +27,7 @@ class WebExtensionReferenceCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets web extension by the specific index. |
 | [add()](#add--)| Adds an empty reference of web extension. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -68,7 +68,7 @@ add() : number;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

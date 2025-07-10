@@ -4,7 +4,7 @@ linktitle: SheetSet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::SheetSet class. Describes a set of sheets in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.rendering/sheetset/
 ---
 ## SheetSet class

@@ -4,7 +4,7 @@ linktitle: LightRigType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LightRigType enum. Represents a preset light right that can be applied to a shape in C++.'
 type: docs
-weight: 9000
+weight: 9200
 url: /cpp/aspose.cells.drawing/lightrigtype/
 ---
 ## LightRigType enum

@@ -11,6 +11,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 
 | Class | Description |
 | --- | --- |
+| [CustomRenderSettings](./customrendersettings/) | Represents custom settings during rendering. |
 | [DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
 | [DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get DrawObject and Bound when rendering. |
 | [ImageOrPrintOptions](./imageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |

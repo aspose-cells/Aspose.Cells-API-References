@@ -4,7 +4,7 @@ linktitle: ToFloat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::ToFloat method. Gets the float value in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells/object/tofloat/
 ---
 ## Object::ToFloat method

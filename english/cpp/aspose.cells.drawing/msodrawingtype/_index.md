@@ -4,7 +4,7 @@ linktitle: MsoDrawingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoDrawingType enum. Represents office drawing objects type in C++.'
 type: docs
-weight: 9800
+weight: 10000
 url: /cpp/aspose.cells.drawing/msodrawingtype/
 ---
 ## MsoDrawingType enum

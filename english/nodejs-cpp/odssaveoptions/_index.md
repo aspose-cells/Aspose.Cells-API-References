@@ -17,50 +17,72 @@ class OdsSaveOptions extends SaveOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Creates the options of saving ods file. |
 | [constructor(SaveOptions)](#constructor-saveoptions-)| Constructs from a parent object convertible to this. |
 | [constructor(SaveFormat)](#constructor-saveformat-)| Creates the options of saving ods file. |
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [generatorType](#generatorType--)| OdsGeneratorType | Gets and sets the generator of the ods file. |
+| [isStrictSchema11](#isStrictSchema11--)| boolean | Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [odfStrictVersion](#odfStrictVersion--)| OpenDocumentFormatVersionType | Gets and sets the ODF version. |
+| [ignorePivotTables](#ignorePivotTables--)| boolean | Indicates whether saving pivot tables. |
+| [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
+| [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
+| [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
+| [validateMergedAreas](#validateMergedAreas--)| boolean | Indicates whether validate merged cells before saving the file. |
+| [mergeAreas](#mergeAreas--)| boolean | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [createDirectory](#createDirectory--)| boolean | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [sortNames](#sortNames--)| boolean | Indicates whether sorting defined names before saving file. |
+| [sortExternalNames](#sortExternalNames--)| boolean | Indicates whether sorting external defined names before saving file. |
+| [refreshChartCache](#refreshChartCache--)| boolean | Indicates whether refreshing chart cache data |
+| [warningCallback](#warningCallback--)| IWarningCallback | Gets or sets warning callback. |
+| [checkExcelRestriction](#checkExcelRestriction--)| boolean | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
+| [updateSmartArt](#updateSmartArt--)| boolean | Indicates whether updating smart art setting. The default value is false. |
+| [encryptDocumentProperties](#encryptDocumentProperties--)| boolean | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getGeneratorType()](#getGeneratorType--)| Gets and sets the generator of the ods file. |
-| [setGeneratorType(OdsGeneratorType)](#setGeneratorType-odsgeneratortype-)| Gets and sets the generator of the ods file. |
-| [isStrictSchema11()](#isStrictSchema11--)| Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
-| [setIsStrictSchema11(boolean)](#setIsStrictSchema11-boolean-)| Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
-| [getOdfStrictVersion()](#getOdfStrictVersion--)| Gets and sets the ODF version. |
-| [setOdfStrictVersion(OpenDocumentFormatVersionType)](#setOdfStrictVersion-opendocumentformatversiontype-)| Gets and sets the ODF version. |
-| [getIgnorePivotTables()](#getIgnorePivotTables--)| Indicates whether saving pivot tables. |
-| [setIgnorePivotTables(boolean)](#setIgnorePivotTables-boolean-)| Indicates whether saving pivot tables. |
+| [getGeneratorType()](#getGeneratorType--)| <b>@deprecated.</b> Please use the 'generatorType' property instead. Gets and sets the generator of the ods file. |
+| [setGeneratorType(OdsGeneratorType)](#setGeneratorType-odsgeneratortype-)| <b>@deprecated.</b> Please use the 'generatorType' property instead. Gets and sets the generator of the ods file. |
+| [isStrictSchema11()](#isStrictSchema11--)| <b>@deprecated.</b> Please use the 'isStrictSchema11' property instead. Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [setIsStrictSchema11(boolean)](#setIsStrictSchema11-boolean-)| <b>@deprecated.</b> Please use the 'isStrictSchema11' property instead. Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [getOdfStrictVersion()](#getOdfStrictVersion--)| <b>@deprecated.</b> Please use the 'odfStrictVersion' property instead. Gets and sets the ODF version. |
+| [setOdfStrictVersion(OpenDocumentFormatVersionType)](#setOdfStrictVersion-opendocumentformatversiontype-)| <b>@deprecated.</b> Please use the 'odfStrictVersion' property instead. Gets and sets the ODF version. |
+| [getIgnorePivotTables()](#getIgnorePivotTables--)| <b>@deprecated.</b> Please use the 'ignorePivotTables' property instead. Indicates whether saving pivot tables. |
+| [setIgnorePivotTables(boolean)](#setIgnorePivotTables-boolean-)| <b>@deprecated.</b> Please use the 'ignorePivotTables' property instead. Indicates whether saving pivot tables. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
-| [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
-| [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
-| [getCachedFileFolder()](#getCachedFileFolder--)| The cached file folder is used to store some large data. |
-| [setCachedFileFolder(string)](#setCachedFileFolder-string-)| The cached file folder is used to store some large data. |
-| [getValidateMergedAreas()](#getValidateMergedAreas--)| Indicates whether validate merged cells before saving the file. |
-| [setValidateMergedAreas(boolean)](#setValidateMergedAreas-boolean-)| Indicates whether validate merged cells before saving the file. |
-| [getMergeAreas()](#getMergeAreas--)| Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [setMergeAreas(boolean)](#setMergeAreas-boolean-)| Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getCreateDirectory()](#getCreateDirectory--)| If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [setCreateDirectory(boolean)](#setCreateDirectory-boolean-)| If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getSortNames()](#getSortNames--)| Indicates whether sorting defined names before saving file. |
-| [setSortNames(boolean)](#setSortNames-boolean-)| Indicates whether sorting defined names before saving file. |
-| [getSortExternalNames()](#getSortExternalNames--)| Indicates whether sorting external defined names before saving file. |
-| [setSortExternalNames(boolean)](#setSortExternalNames-boolean-)| Indicates whether sorting external defined names before saving file. |
-| [getRefreshChartCache()](#getRefreshChartCache--)| Indicates whether refreshing chart cache data |
-| [setRefreshChartCache(boolean)](#setRefreshChartCache-boolean-)| Indicates whether refreshing chart cache data |
-| [setWarningCallback(IWarningCallback)](#setWarningCallback-iwarningcallback-)| Gets or sets warning callback. |
-| [getWarningCallback()](#getWarningCallback--)| Gets or sets warning callback. |
-| [getCheckExcelRestriction()](#getCheckExcelRestriction--)| Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
-| [setCheckExcelRestriction(boolean)](#setCheckExcelRestriction-boolean-)| Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
-| [getUpdateSmartArt()](#getUpdateSmartArt--)| Indicates whether updating smart art setting. The default value is false. |
-| [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
-| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
+| [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
+| [setClearData(boolean)](#setClearData-boolean-)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
+| [getCachedFileFolder()](#getCachedFileFolder--)| <b>@deprecated.</b> Please use the 'cachedFileFolder' property instead. The folder for temporary files that may be used as data cache. |
+| [setCachedFileFolder(string)](#setCachedFileFolder-string-)| <b>@deprecated.</b> Please use the 'cachedFileFolder' property instead. The folder for temporary files that may be used as data cache. |
+| [getValidateMergedAreas()](#getValidateMergedAreas--)| <b>@deprecated.</b> Please use the 'validateMergedAreas' property instead. Indicates whether validate merged cells before saving the file. |
+| [setValidateMergedAreas(boolean)](#setValidateMergedAreas-boolean-)| <b>@deprecated.</b> Please use the 'validateMergedAreas' property instead. Indicates whether validate merged cells before saving the file. |
+| [getMergeAreas()](#getMergeAreas--)| <b>@deprecated.</b> Please use the 'mergeAreas' property instead. Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setMergeAreas(boolean)](#setMergeAreas-boolean-)| <b>@deprecated.</b> Please use the 'mergeAreas' property instead. Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [getCreateDirectory()](#getCreateDirectory--)| <b>@deprecated.</b> Please use the 'createDirectory' property instead. If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setCreateDirectory(boolean)](#setCreateDirectory-boolean-)| <b>@deprecated.</b> Please use the 'createDirectory' property instead. If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [getSortNames()](#getSortNames--)| <b>@deprecated.</b> Please use the 'sortNames' property instead. Indicates whether sorting defined names before saving file. |
+| [setSortNames(boolean)](#setSortNames-boolean-)| <b>@deprecated.</b> Please use the 'sortNames' property instead. Indicates whether sorting defined names before saving file. |
+| [getSortExternalNames()](#getSortExternalNames--)| <b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file. |
+| [setSortExternalNames(boolean)](#setSortExternalNames-boolean-)| <b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file. |
+| [getRefreshChartCache()](#getRefreshChartCache--)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean)](#setRefreshChartCache-boolean-)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data |
+| [setWarningCallback(IWarningCallback)](#setWarningCallback-iwarningcallback-)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--)| <b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
+| [setCheckExcelRestriction(boolean)](#setCheckExcelRestriction-boolean-)| <b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
+| [getUpdateSmartArt()](#getUpdateSmartArt--)| <b>@deprecated.</b> Please use the 'updateSmartArt' property instead. Indicates whether updating smart art setting. The default value is false. |
+| [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| <b>@deprecated.</b> Please use the 'updateSmartArt' property instead. Indicates whether updating smart art setting. The default value is false. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| <b>@deprecated.</b> Please use the 'encryptDocumentProperties' property instead. Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| <b>@deprecated.</b> Please use the 'encryptDocumentProperties' property instead. Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 
 
 ### constructor() {#constructor--}
@@ -98,9 +120,194 @@ constructor(saveFormat: SaveFormat);
 | --- | --- | --- |
 | saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Ods](../saveformat.ods/), [SaveFormat.Ots](../saveformat.ots/),         /// [SaveFormat.Fods](../saveformat.fods/) or [SaveFormat.Sxc](../saveformat.sxc/),         /// otherwise the saved format will be set as [SaveFormat.Ods](../saveformat.ods/) automatically. |
 
-### getGeneratorType() {#getGeneratorType--}
+### generatorType {#generatorType--}
 
 Gets and sets the generator of the ods file.
+
+```javascript
+generatorType : OdsGeneratorType;
+```
+
+
+### isStrictSchema11 {#isStrictSchema11--}
+
+Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
+
+```javascript
+isStrictSchema11 : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictVersion property. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### odfStrictVersion {#odfStrictVersion--}
+
+Gets and sets the ODF version.
+
+```javascript
+odfStrictVersion : OpenDocumentFormatVersionType;
+```
+
+
+### ignorePivotTables {#ignorePivotTables--}
+
+Indicates whether saving pivot tables.
+
+```javascript
+ignorePivotTables : boolean;
+```
+
+
+**Remarks**
+
+The pivot table feature of OpenOffice has fewer settings compared to Excel, so their results of pivot table have many differences. Sometimes it's better to ingore these pivot tables when saving .ods file.
+
+### saveFormat {#saveFormat--}
+
+Readonly. Gets the save file format.
+
+```javascript
+saveFormat : SaveFormat;
+```
+
+
+### clearData {#clearData--}
+
+Make the workbook empty after saving the file.
+
+```javascript
+clearData : boolean;
+```
+
+
+### cachedFileFolder {#cachedFileFolder--}
+
+The folder for temporary files that may be used as data cache.
+
+```javascript
+cachedFileFolder : string;
+```
+
+
+**Remarks**
+
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
+
+### validateMergedAreas {#validateMergedAreas--}
+
+Indicates whether validate merged cells before saving the file.
+
+```javascript
+validateMergedAreas : boolean;
+```
+
+
+**Remarks**
+
+The default value is false.
+
+### mergeAreas {#mergeAreas--}
+
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+```javascript
+mergeAreas : boolean;
+```
+
+
+**Remarks**
+
+The default value is false.
+
+### createDirectory {#createDirectory--}
+
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+```javascript
+createDirectory : boolean;
+```
+
+
+**Remarks**
+
+The default value is false.
+
+### sortNames {#sortNames--}
+
+Indicates whether sorting defined names before saving file.
+
+```javascript
+sortNames : boolean;
+```
+
+
+### sortExternalNames {#sortExternalNames--}
+
+Indicates whether sorting external defined names before saving file.
+
+```javascript
+sortExternalNames : boolean;
+```
+
+
+### refreshChartCache {#refreshChartCache--}
+
+Indicates whether refreshing chart cache data
+
+```javascript
+refreshChartCache : boolean;
+```
+
+
+### warningCallback {#warningCallback--}
+
+Gets or sets warning callback.
+
+```javascript
+warningCallback : IWarningCallback;
+```
+
+
+### checkExcelRestriction {#checkExcelRestriction--}
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+```javascript
+checkExcelRestriction : boolean;
+```
+
+
+### updateSmartArt {#updateSmartArt--}
+
+Indicates whether updating smart art setting. The default value is false.
+
+```javascript
+updateSmartArt : boolean;
+```
+
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+
+### encryptDocumentProperties {#encryptDocumentProperties--}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+encryptDocumentProperties : boolean;
+```
+
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+### getGeneratorType() {#getGeneratorType--}
+
+<b>@deprecated.</b> Please use the 'generatorType' property instead. Gets and sets the generator of the ods file.
 
 ```javascript
 getGeneratorType() : OdsGeneratorType;
@@ -113,7 +320,7 @@ getGeneratorType() : OdsGeneratorType;
 
 ### setGeneratorType(OdsGeneratorType) {#setGeneratorType-odsgeneratortype-}
 
-Gets and sets the generator of the ods file.
+<b>@deprecated.</b> Please use the 'generatorType' property instead. Gets and sets the generator of the ods file.
 
 ```javascript
 setGeneratorType(value: OdsGeneratorType) : void;
@@ -126,7 +333,7 @@ setGeneratorType(value: OdsGeneratorType) : void;
 
 ### isStrictSchema11() {#isStrictSchema11--}
 
-Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
+<b>@deprecated.</b> Please use the 'isStrictSchema11' property instead. Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
 
 ```javascript
 isStrictSchema11() : boolean;
@@ -139,7 +346,7 @@ NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictV
 
 ### setIsStrictSchema11(boolean) {#setIsStrictSchema11-boolean-}
 
-Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
+<b>@deprecated.</b> Please use the 'isStrictSchema11' property instead. Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
 
 ```javascript
 setIsStrictSchema11(value: boolean) : void;
@@ -156,7 +363,7 @@ NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictV
 
 ### getOdfStrictVersion() {#getOdfStrictVersion--}
 
-Gets and sets the ODF version.
+<b>@deprecated.</b> Please use the 'odfStrictVersion' property instead. Gets and sets the ODF version.
 
 ```javascript
 getOdfStrictVersion() : OpenDocumentFormatVersionType;
@@ -169,7 +376,7 @@ getOdfStrictVersion() : OpenDocumentFormatVersionType;
 
 ### setOdfStrictVersion(OpenDocumentFormatVersionType) {#setOdfStrictVersion-opendocumentformatversiontype-}
 
-Gets and sets the ODF version.
+<b>@deprecated.</b> Please use the 'odfStrictVersion' property instead. Gets and sets the ODF version.
 
 ```javascript
 setOdfStrictVersion(value: OpenDocumentFormatVersionType) : void;
@@ -182,7 +389,7 @@ setOdfStrictVersion(value: OpenDocumentFormatVersionType) : void;
 
 ### getIgnorePivotTables() {#getIgnorePivotTables--}
 
-Indicates whether saving pivot tables.
+<b>@deprecated.</b> Please use the 'ignorePivotTables' property instead. Indicates whether saving pivot tables.
 
 ```javascript
 getIgnorePivotTables() : boolean;
@@ -195,7 +402,7 @@ The pivot table feature of OpenOffice has fewer settings compared to Excel, so t
 
 ### setIgnorePivotTables(boolean) {#setIgnorePivotTables-boolean-}
 
-Indicates whether saving pivot tables.
+<b>@deprecated.</b> Please use the 'ignorePivotTables' property instead. Indicates whether saving pivot tables.
 
 ```javascript
 setIgnorePivotTables(value: boolean) : void;
@@ -221,7 +428,7 @@ isNull() : boolean;
 
 ### getSaveFormat() {#getSaveFormat--}
 
-Gets the save file format.
+<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format.
 
 ```javascript
 getSaveFormat() : SaveFormat;
@@ -234,7 +441,7 @@ getSaveFormat() : SaveFormat;
 
 ### getClearData() {#getClearData--}
 
-Make the workbook empty after saving the file.
+<b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file.
 
 ```javascript
 getClearData() : boolean;
@@ -243,7 +450,7 @@ getClearData() : boolean;
 
 ### setClearData(boolean) {#setClearData-boolean-}
 
-Make the workbook empty after saving the file.
+<b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file.
 
 ```javascript
 setClearData(value: boolean) : void;
@@ -256,16 +463,20 @@ setClearData(value: boolean) : void;
 
 ### getCachedFileFolder() {#getCachedFileFolder--}
 
-The cached file folder is used to store some large data.
+<b>@deprecated.</b> Please use the 'cachedFileFolder' property instead. The folder for temporary files that may be used as data cache.
 
 ```javascript
 getCachedFileFolder() : string;
 ```
 
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
+
 ### setCachedFileFolder(string) {#setCachedFileFolder-string-}
 
-The cached file folder is used to store some large data.
+<b>@deprecated.</b> Please use the 'cachedFileFolder' property instead. The folder for temporary files that may be used as data cache.
 
 ```javascript
 setCachedFileFolder(value: string) : void;
@@ -276,9 +487,13 @@ setCachedFileFolder(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
+
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
 
-Indicates whether validate merged cells before saving the file.
+<b>@deprecated.</b> Please use the 'validateMergedAreas' property instead. Indicates whether validate merged cells before saving the file.
 
 ```javascript
 getValidateMergedAreas() : boolean;
@@ -291,7 +506,7 @@ The default value is false.
 
 ### setValidateMergedAreas(boolean) {#setValidateMergedAreas-boolean-}
 
-Indicates whether validate merged cells before saving the file.
+<b>@deprecated.</b> Please use the 'validateMergedAreas' property instead. Indicates whether validate merged cells before saving the file.
 
 ```javascript
 setValidateMergedAreas(value: boolean) : void;
@@ -308,7 +523,7 @@ The default value is false.
 
 ### getMergeAreas() {#getMergeAreas--}
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file.
+<b>@deprecated.</b> Please use the 'mergeAreas' property instead. Indicates whether merge the areas of conditional formatting and validation before saving the file.
 
 ```javascript
 getMergeAreas() : boolean;
@@ -321,7 +536,7 @@ The default value is false.
 
 ### setMergeAreas(boolean) {#setMergeAreas-boolean-}
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file.
+<b>@deprecated.</b> Please use the 'mergeAreas' property instead. Indicates whether merge the areas of conditional formatting and validation before saving the file.
 
 ```javascript
 setMergeAreas(value: boolean) : void;
@@ -338,7 +553,7 @@ The default value is false.
 
 ### getCreateDirectory() {#getCreateDirectory--}
 
-If true and the directory does not exist, the directory will be automatically created before saving the file.
+<b>@deprecated.</b> Please use the 'createDirectory' property instead. If true and the directory does not exist, the directory will be automatically created before saving the file.
 
 ```javascript
 getCreateDirectory() : boolean;
@@ -351,7 +566,7 @@ The default value is false.
 
 ### setCreateDirectory(boolean) {#setCreateDirectory-boolean-}
 
-If true and the directory does not exist, the directory will be automatically created before saving the file.
+<b>@deprecated.</b> Please use the 'createDirectory' property instead. If true and the directory does not exist, the directory will be automatically created before saving the file.
 
 ```javascript
 setCreateDirectory(value: boolean) : void;
@@ -368,7 +583,7 @@ The default value is false.
 
 ### getSortNames() {#getSortNames--}
 
-Indicates whether sorting defined names before saving file.
+<b>@deprecated.</b> Please use the 'sortNames' property instead. Indicates whether sorting defined names before saving file.
 
 ```javascript
 getSortNames() : boolean;
@@ -377,7 +592,7 @@ getSortNames() : boolean;
 
 ### setSortNames(boolean) {#setSortNames-boolean-}
 
-Indicates whether sorting defined names before saving file.
+<b>@deprecated.</b> Please use the 'sortNames' property instead. Indicates whether sorting defined names before saving file.
 
 ```javascript
 setSortNames(value: boolean) : void;
@@ -390,7 +605,7 @@ setSortNames(value: boolean) : void;
 
 ### getSortExternalNames() {#getSortExternalNames--}
 
-Indicates whether sorting external defined names before saving file.
+<b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file.
 
 ```javascript
 getSortExternalNames() : boolean;
@@ -399,7 +614,7 @@ getSortExternalNames() : boolean;
 
 ### setSortExternalNames(boolean) {#setSortExternalNames-boolean-}
 
-Indicates whether sorting external defined names before saving file.
+<b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file.
 
 ```javascript
 setSortExternalNames(value: boolean) : void;
@@ -412,7 +627,7 @@ setSortExternalNames(value: boolean) : void;
 
 ### getRefreshChartCache() {#getRefreshChartCache--}
 
-Indicates whether refreshing chart cache data
+<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data
 
 ```javascript
 getRefreshChartCache() : boolean;
@@ -421,7 +636,7 @@ getRefreshChartCache() : boolean;
 
 ### setRefreshChartCache(boolean) {#setRefreshChartCache-boolean-}
 
-Indicates whether refreshing chart cache data
+<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data
 
 ```javascript
 setRefreshChartCache(value: boolean) : void;
@@ -434,7 +649,7 @@ setRefreshChartCache(value: boolean) : void;
 
 ### setWarningCallback(IWarningCallback) {#setWarningCallback-iwarningcallback-}
 
-Gets or sets warning callback.
+<b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback.
 
 ```javascript
 setWarningCallback(value: IWarningCallback) : void;
@@ -447,7 +662,7 @@ setWarningCallback(value: IWarningCallback) : void;
 
 ### getWarningCallback() {#getWarningCallback--}
 
-Gets or sets warning callback.
+<b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback.
 
 ```javascript
 getWarningCallback() : IWarningCallback;
@@ -460,7 +675,7 @@ getWarningCallback() : IWarningCallback;
 
 ### getCheckExcelRestriction() {#getCheckExcelRestriction--}
 
-Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+<b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 ```javascript
 getCheckExcelRestriction() : boolean;
@@ -469,7 +684,7 @@ getCheckExcelRestriction() : boolean;
 
 ### setCheckExcelRestriction(boolean) {#setCheckExcelRestriction-boolean-}
 
-Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+<b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 ```javascript
 setCheckExcelRestriction(value: boolean) : void;
@@ -482,7 +697,7 @@ setCheckExcelRestriction(value: boolean) : void;
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 
-Indicates whether updating smart art setting. The default value is false.
+<b>@deprecated.</b> Please use the 'updateSmartArt' property instead. Indicates whether updating smart art setting. The default value is false.
 
 ```javascript
 getUpdateSmartArt() : boolean;
@@ -495,7 +710,7 @@ Only effects after calling Shape.GetResultOfSmartArt() method and the cached sha
 
 ### setUpdateSmartArt(boolean) {#setUpdateSmartArt-boolean-}
 
-Indicates whether updating smart art setting. The default value is false.
+<b>@deprecated.</b> Please use the 'updateSmartArt' property instead. Indicates whether updating smart art setting. The default value is false.
 
 ```javascript
 setUpdateSmartArt(value: boolean) : void;
@@ -512,7 +727,7 @@ Only effects after calling Shape.GetResultOfSmartArt() method and the cached sha
 
 ### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
 
-Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+<b>@deprecated.</b> Please use the 'encryptDocumentProperties' property instead. Indicates whether encrypt document properties when saving as .xls file. The default value is true.
 
 ```javascript
 getEncryptDocumentProperties() : boolean;
@@ -525,7 +740,7 @@ Only for .xls,xlsx,xlsb and xlsm file.
 
 ### setEncryptDocumentProperties(boolean) {#setEncryptDocumentProperties-boolean-}
 
-Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+<b>@deprecated.</b> Please use the 'encryptDocumentProperties' property instead. Indicates whether encrypt document properties when saving as .xls file. The default value is true.
 
 ```javascript
 setEncryptDocumentProperties(value: boolean) : void;

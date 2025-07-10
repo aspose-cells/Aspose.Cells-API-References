@@ -21,36 +21,36 @@ const { Workbook, ChartType, LabelPositionType } = require("aspose.cells.node");
 
 var workbook = new Workbook();
 //Adding a new worksheet to the Excel object
-var sheetIndex = workbook.getWorksheets().add();
+var sheetIndex = workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(sheetIndex);
+var worksheet = workbook.worksheets.get(sheetIndex);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(4);
+worksheet.cells.get("B1").putValue(4);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(20);
+worksheet.cells.get("B2").putValue(20);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 5);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Set the DataLabels in the chart
 var datalabels;
-for (var i = 0; i < chart.getNSeries().getCount(); i++) {
-    datalabels = chart.getNSeries().get(i).getDataLabels();
+for (var i = 0; i < chart.nSeries.count; i++) {
+    datalabels = chart.nSeries.get(i).dataLabels;
     //Set the position of DataLabels
-    datalabels.setPosition(LabelPositionType.InsideBase);
+    datalabels.position = LabelPositionType.InsideBase;
     //Show the category name in the DataLabels
     datalabels.setCategoryNameShown(true);
     //Show the value in the DataLabels
-    datalabels.setShowValue(true);
+    datalabels.showValue = true;
     //Not show the percentage in the DataLabels
     datalabels.setPercentageShown(false);
     //Not show the legend key.
@@ -59,14 +59,116 @@ for (var i = 0; i < chart.getNSeries().getCount(); i++) {
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ChartTextFrame)](#constructor-charttextframe-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [showValue](#showValue--)| boolean | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
+| [showCellRange](#showCellRange--)| boolean | Indicates whether showing cell range as the data labels. |
+| [showPercentage](#showPercentage--)| boolean | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [showBubbleSize](#showBubbleSize--)| boolean | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [showCategoryName](#showCategoryName--)| boolean | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
+| [showSeriesName](#showSeriesName--)| boolean | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [showLegendKey](#showLegendKey--)| boolean | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
+| [numberFormat](#numberFormat--)| string | Represents the format string for the DataLabels object. |
+| [number](#number--)| number | Gets and sets the built-in number format. |
+| [numberFormatLinked](#numberFormatLinked--)| boolean | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [separatorType](#separatorType--)| DataLabelsSeparatorType | Gets or sets the separator type used for the data labels on a chart. |
+| [separatorValue](#separatorValue--)| string | Gets or sets the separator value used for the data labels on a chart. |
+| [position](#position--)| LabelPositionType | Represents the position of the data label. |
+| [isNeverOverlap](#isNeverOverlap--)| boolean | Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [shapeType](#shapeType--)| DataLabelShapeType | Gets or sets  shape type of data label. |
+| [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [shadow](#shadow--)| boolean | True if the frame has a shadow. |
+| [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels is deleted. |
+| [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
+| [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle. |
+| [isAutomaticRotation](#isAutomaticRotation--)| boolean | Readonly. Indicates whether the text of the chart is automatically rotated. |
+| [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
+| [isResizeShapeToFitText](#isResizeShapeToFitText--)| boolean | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getShowValue()](#getShowValue--)| <b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
+| [setShowValue(boolean)](#setShowValue-boolean-)| <b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
+| [getShowCellRange()](#getShowCellRange--)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels. |
+| [setShowCellRange(boolean)](#setShowCellRange-boolean-)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels. |
+| [getShowPercentage()](#getShowPercentage--)| <b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [setShowPercentage(boolean)](#setShowPercentage-boolean-)| <b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [getShowBubbleSize()](#getShowBubbleSize--)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [setShowBubbleSize(boolean)](#setShowBubbleSize-boolean-)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [getShowCategoryName()](#getShowCategoryName--)| <b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
+| [setShowCategoryName(boolean)](#setShowCategoryName-boolean-)| <b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
+| [getShowSeriesName()](#getShowSeriesName--)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [setShowSeriesName(boolean)](#setShowSeriesName-boolean-)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [getShowLegendKey()](#getShowLegendKey--)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
+| [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
+| [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the DataLabels object. |
+| [setNumberFormat(string)](#setNumberFormat-string-)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the DataLabels object. |
+| [getNumber()](#getNumber--)| <b>@deprecated.</b> Please use the 'number' property instead. Gets and sets the built-in number format. |
+| [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Gets and sets the built-in number format. |
+| [getNumberFormatLinked()](#getNumberFormatLinked--)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [getSeparatorType()](#getSeparatorType--)| <b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart. |
+| [setSeparatorType(DataLabelsSeparatorType)](#setSeparatorType-datalabelsseparatortype-)| <b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart. |
+| [getSeparatorValue()](#getSeparatorValue--)| <b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart. |
+| [setSeparatorValue(string)](#setSeparatorValue-string-)| <b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart. |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label. |
+| [setPosition(LabelPositionType)](#setPosition-labelpositiontype-)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label. |
+| [isNeverOverlap()](#isNeverOverlap--)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [setIsNeverOverlap(boolean)](#setIsNeverOverlap-boolean-)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [getShapeType()](#getShapeType--)| <b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label. |
+| [setShapeType(DataLabelShapeType)](#setShapeType-datalabelshapetype-)| <b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label. |
+| [applyFont()](#applyFont--)| Apply the font of the datalabels to all child nodes. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [getDefaultX()](#getDefaultX--)| <b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area. |
+| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area. |
+| [getDefaultWidth()](#getDefaultWidth--)| <b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area. |
+| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
+| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
+| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the text of the chart is automatically rotated. |
+| [getReadingOrder()](#getReadingOrder--)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [isResizeShapeToFitText()](#isResizeShapeToFitText--)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
+| [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
+| [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [isAutoText()](#isAutoText--)| Indicates the text is auto generated. |
@@ -77,69 +179,7 @@ for (var i = 0; i < chart.getNSeries().getCount(); i++) {
 | [setText(string)](#setText-string-)| Gets or sets the text of data label. |
 | [isTextWrapped()](#isTextWrapped--)| Gets or sets a value indicating whether the text is wrapped. |
 | [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets a value indicating whether the text is wrapped. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getShowValue()](#getShowValue--)| Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [setShowValue(boolean)](#setShowValue-boolean-)| Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [getShowCellRange()](#getShowCellRange--)| Indicates whether showing cell range as the data labels. |
-| [setShowCellRange(boolean)](#setShowCellRange-boolean-)| Indicates whether showing cell range as the data labels. |
-| [getShowPercentage()](#getShowPercentage--)| Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [setShowPercentage(boolean)](#setShowPercentage-boolean-)| Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [getShowBubbleSize()](#getShowBubbleSize--)| Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [setShowBubbleSize(boolean)](#setShowBubbleSize-boolean-)| Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [getShowCategoryName()](#getShowCategoryName--)| Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [setShowCategoryName(boolean)](#setShowCategoryName-boolean-)| Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [getShowSeriesName()](#getShowSeriesName--)| Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
-| [setShowSeriesName(boolean)](#setShowSeriesName-boolean-)| Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
-| [getShowLegendKey()](#getShowLegendKey--)| Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
-| [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
-| [get_NumberFormat()](#get_NumberFormat--)| Represents the format string for the DataLabels object. |
-| [setNumberFormat(string)](#setNumberFormat-string-)| Represents the format string for the DataLabels object. |
-| [getNumber()](#getNumber--)| Gets and sets the built-in number format. |
-| [setNumber(number)](#setNumber-number-)| Gets and sets the built-in number format. |
-| [getNumberFormatLinked()](#getNumberFormatLinked--)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getFont()](#getFont--)| Gets the font of the DataLabels; |
-| [getSeparatorType()](#getSeparatorType--)| Gets or sets the separator type used for the data labels on a chart. |
-| [setSeparatorType(DataLabelsSeparatorType)](#setSeparatorType-datalabelsseparatortype-)| Gets or sets the separator type used for the data labels on a chart. |
-| [getSeparatorValue()](#getSeparatorValue--)| Gets or sets the separator value used for the data labels on a chart. |
-| [setSeparatorValue(string)](#setSeparatorValue-string-)| Gets or sets the separator value used for the data labels on a chart. |
-| [getPosition()](#getPosition--)| Represents the position of the data label. |
-| [setPosition(LabelPositionType)](#setPosition-labelpositiontype-)| Represents the position of the data label. |
-| [isNeverOverlap()](#isNeverOverlap--)| Indicates whether the datalabels display never overlap. (For Pie chart) |
-| [setIsNeverOverlap(boolean)](#setIsNeverOverlap-boolean-)| Indicates whether the datalabels display never overlap. (For Pie chart) |
-| [getShapeType()](#getShapeType--)| Gets or sets  shape type of data label. |
-| [setShapeType(DataLabelShapeType)](#setShapeType-datalabelshapetype-)| Gets or sets  shape type of data label. |
-| [applyFont()](#applyFont--)| Apply the font of the datalabels to all child nodes. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [getShadow()](#getShadow--)| True if the frame has a shadow. |
-| [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [getDefaultX()](#getDefaultX--)| Represents x of default position in units of 1/4000 of the chart area. |
-| [getDefaultY()](#getDefaultY--)| Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultWidth()](#getDefaultWidth--)| Represents width of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeight()](#getDefaultHeight--)| Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
-| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
-| [isDeleted()](#isDeleted--)| Indicates whether this data labels is deleted. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether this data labels is deleted. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| Gets and sets the text horizontal alignment. |
-| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| Gets and sets the text horizontal alignment. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| Gets or sets the text vertical alignment of text. |
-| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets or sets the text vertical alignment of text. |
-| [getRotationAngle()](#getRotationAngle--)| Represents text rotation angle. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Represents text rotation angle. |
-| [isAutomaticRotation()](#isAutomaticRotation--)| Indicates whether the text of the chart is automatically rotated. |
-| [getReadingOrder()](#getReadingOrder--)| Represents text reading order. |
-| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| Represents text reading order. |
-| [isResizeShapeToFitText()](#isResizeShapeToFitText--)| Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
-| [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
-| [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
@@ -186,6 +226,1084 @@ constructor(obj: ChartTextFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartTextFrame | The parent object. |
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### showValue {#showValue--}
+
+Represents a specified chart's data label values display behavior. True displays the values. False to hide.
+
+```javascript
+showValue : boolean;
+```
+
+
+### showCellRange {#showCellRange--}
+
+Indicates whether showing cell range as the data labels.
+
+```javascript
+showCellRange : boolean;
+```
+
+
+### showPercentage {#showPercentage--}
+
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+showPercentage : boolean;
+```
+
+
+### showBubbleSize {#showBubbleSize--}
+
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+showBubbleSize : boolean;
+```
+
+
+### showCategoryName {#showCategoryName--}
+
+Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
+
+```javascript
+showCategoryName : boolean;
+```
+
+
+### showSeriesName {#showSeriesName--}
+
+Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+
+```javascript
+showSeriesName : boolean;
+```
+
+
+### showLegendKey {#showLegendKey--}
+
+Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible.
+
+```javascript
+showLegendKey : boolean;
+```
+
+
+### numberFormat {#numberFormat--}
+
+Represents the format string for the DataLabels object.
+
+```javascript
+numberFormat : string;
+```
+
+
+### number {#number--}
+
+Gets and sets the built-in number format.
+
+```javascript
+number : number;
+```
+
+
+### numberFormatLinked {#numberFormatLinked--}
+
+True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+
+```javascript
+numberFormatLinked : boolean;
+```
+
+
+### separatorType {#separatorType--}
+
+Gets or sets the separator type used for the data labels on a chart.
+
+```javascript
+separatorType : DataLabelsSeparatorType;
+```
+
+
+**Remarks**
+
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
+
+### separatorValue {#separatorValue--}
+
+Gets or sets the separator value used for the data labels on a chart.
+
+```javascript
+separatorValue : string;
+```
+
+
+### position {#position--}
+
+Represents the position of the data label.
+
+```javascript
+position : LabelPositionType;
+```
+
+
+### isNeverOverlap {#isNeverOverlap--}
+
+Indicates whether the datalabels display never overlap. (For Pie chart)
+
+```javascript
+isNeverOverlap : boolean;
+```
+
+
+### shapeType {#shapeType--}
+
+Gets or sets  shape type of data label.
+
+```javascript
+shapeType : DataLabelShapeType;
+```
+
+
+### isInnerMode {#isInnerMode--}
+
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### shadow {#shadow--}
+
+True if the frame has a shadow.
+
+```javascript
+shadow : boolean;
+```
+
+
+### shapeProperties {#shapeProperties--}
+
+Readonly. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+shapeProperties : ShapePropertyCollection;
+```
+
+
+### isDefaultPosBeSet {#isDefaultPosBeSet--}
+
+Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet : boolean;
+```
+
+
+### defaultX {#defaultX--}
+
+Readonly. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultX : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultY {#defaultY--}
+
+Readonly. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultY : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultWidth {#defaultWidth--}
+
+Readonly. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultWidth : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultHeight {#defaultHeight--}
+
+Readonly. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultHeight : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultXRatioToChart {#defaultXRatioToChart--}
+
+Readonly. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+defaultXRatioToChart : number;
+```
+
+
+### defaultYRatioToChart {#defaultYRatioToChart--}
+
+Readonly. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+defaultYRatioToChart : number;
+```
+
+
+### defaultWidthRatioToChart {#defaultWidthRatioToChart--}
+
+Readonly. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+defaultWidthRatioToChart : number;
+```
+
+
+### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
+
+Readonly. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+defaultHeightRatioToChart : number;
+```
+
+
+### isDeleted {#isDeleted--}
+
+Indicates whether this data labels is deleted.
+
+```javascript
+isDeleted : boolean;
+```
+
+
+### textHorizontalAlignment {#textHorizontalAlignment--}
+
+Gets and sets the text horizontal alignment.
+
+```javascript
+textHorizontalAlignment : TextAlignmentType;
+```
+
+
+### textVerticalAlignment {#textVerticalAlignment--}
+
+Gets or sets the text vertical alignment of text.
+
+```javascript
+textVerticalAlignment : TextAlignmentType;
+```
+
+
+### rotationAngle {#rotationAngle--}
+
+Represents text rotation angle.
+
+```javascript
+rotationAngle : number;
+```
+
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### isAutomaticRotation {#isAutomaticRotation--}
+
+Readonly. Indicates whether the text of the chart is automatically rotated.
+
+```javascript
+isAutomaticRotation : boolean;
+```
+
+
+### readingOrder {#readingOrder--}
+
+Represents text reading order.
+
+```javascript
+readingOrder : TextDirectionType;
+```
+
+
+### isResizeShapeToFitText {#isResizeShapeToFitText--}
+
+Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+isResizeShapeToFitText : boolean;
+```
+
+
+### getBackgroundMode() {#getBackgroundMode--}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+getBackgroundMode() : BackgroundMode;
+```
+
+
+**Returns**
+
+[BackgroundMode](../backgroundmode/)
+
+### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+setBackgroundMode(value: BackgroundMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
+
+### getShowValue() {#getShowValue--}
+
+<b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide.
+
+```javascript
+getShowValue() : boolean;
+```
+
+
+### setShowValue(boolean) {#setShowValue-boolean-}
+
+<b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide.
+
+```javascript
+setShowValue(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowCellRange() {#getShowCellRange--}
+
+<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels.
+
+```javascript
+getShowCellRange() : boolean;
+```
+
+
+### setShowCellRange(boolean) {#setShowCellRange-boolean-}
+
+<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels.
+
+```javascript
+setShowCellRange(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowPercentage() {#getShowPercentage--}
+
+<b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+getShowPercentage() : boolean;
+```
+
+
+### setShowPercentage(boolean) {#setShowPercentage-boolean-}
+
+<b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+setShowPercentage(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowBubbleSize() {#getShowBubbleSize--}
+
+<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+getShowBubbleSize() : boolean;
+```
+
+
+### setShowBubbleSize(boolean) {#setShowBubbleSize-boolean-}
+
+<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+
+```javascript
+setShowBubbleSize(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowCategoryName() {#getShowCategoryName--}
+
+<b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
+
+```javascript
+getShowCategoryName() : boolean;
+```
+
+
+### setShowCategoryName(boolean) {#setShowCategoryName-boolean-}
+
+<b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
+
+```javascript
+setShowCategoryName(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowSeriesName() {#getShowSeriesName--}
+
+<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+
+```javascript
+getShowSeriesName() : boolean;
+```
+
+
+### setShowSeriesName(boolean) {#setShowSeriesName-boolean-}
+
+<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+
+```javascript
+setShowSeriesName(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowLegendKey() {#getShowLegendKey--}
+
+<b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible.
+
+```javascript
+getShowLegendKey() : boolean;
+```
+
+
+### setShowLegendKey(boolean) {#setShowLegendKey-boolean-}
+
+<b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible.
+
+```javascript
+setShowLegendKey(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### get_NumberFormat() {#get_NumberFormat--}
+
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the DataLabels object.
+
+```javascript
+get_NumberFormat() : string;
+```
+
+
+### setNumberFormat(string) {#setNumberFormat-string-}
+
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the DataLabels object.
+
+```javascript
+setNumberFormat(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getNumber() {#getNumber--}
+
+<b>@deprecated.</b> Please use the 'number' property instead. Gets and sets the built-in number format.
+
+```javascript
+getNumber() : number;
+```
+
+
+### setNumber(number) {#setNumber-number-}
+
+<b>@deprecated.</b> Please use the 'number' property instead. Gets and sets the built-in number format.
+
+```javascript
+setNumber(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getNumberFormatLinked() {#getNumberFormatLinked--}
+
+<b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+
+```javascript
+getNumberFormatLinked() : boolean;
+```
+
+
+### setNumberFormatLinked(boolean) {#setNumberFormatLinked-boolean-}
+
+<b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
+
+```javascript
+setNumberFormatLinked(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getSeparatorType() {#getSeparatorType--}
+
+<b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart.
+
+```javascript
+getSeparatorType() : DataLabelsSeparatorType;
+```
+
+
+**Returns**
+
+[DataLabelsSeparatorType](../datalabelsseparatortype/)
+
+**Remarks**
+
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
+
+### setSeparatorType(DataLabelsSeparatorType) {#setSeparatorType-datalabelsseparatortype-}
+
+<b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart.
+
+```javascript
+setSeparatorType(value: DataLabelsSeparatorType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DataLabelsSeparatorType](../datalabelsseparatortype/) | The value to set. |
+
+**Remarks**
+
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
+
+### getSeparatorValue() {#getSeparatorValue--}
+
+<b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart.
+
+```javascript
+getSeparatorValue() : string;
+```
+
+
+### setSeparatorValue(string) {#setSeparatorValue-string-}
+
+<b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart.
+
+```javascript
+setSeparatorValue(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getPosition() {#getPosition--}
+
+<b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label.
+
+```javascript
+getPosition() : LabelPositionType;
+```
+
+
+**Returns**
+
+[LabelPositionType](../labelpositiontype/)
+
+### setPosition(LabelPositionType) {#setPosition-labelpositiontype-}
+
+<b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label.
+
+```javascript
+setPosition(value: LabelPositionType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [LabelPositionType](../labelpositiontype/) | The value to set. |
+
+### isNeverOverlap() {#isNeverOverlap--}
+
+<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether the datalabels display never overlap. (For Pie chart)
+
+```javascript
+isNeverOverlap() : boolean;
+```
+
+
+### setIsNeverOverlap(boolean) {#setIsNeverOverlap-boolean-}
+
+<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether the datalabels display never overlap. (For Pie chart)
+
+```javascript
+setIsNeverOverlap(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShapeType() {#getShapeType--}
+
+<b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label.
+
+```javascript
+getShapeType() : DataLabelShapeType;
+```
+
+
+**Returns**
+
+[DataLabelShapeType](../datalabelshapetype/)
+
+### setShapeType(DataLabelShapeType) {#setShapeType-datalabelshapetype-}
+
+<b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label.
+
+```javascript
+setShapeType(value: DataLabelShapeType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DataLabelShapeType](../datalabelshapetype/) | The value to set. |
+
+### applyFont() {#applyFont--}
+
+Apply the font of the datalabels to all child nodes.
+
+```javascript
+applyFont() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### isInnerMode() {#isInnerMode--}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode() : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+setIsInnerMode(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for Xlsx file.
+
+### getShadow() {#getShadow--}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+getShadow() : boolean;
+```
+
+
+### setShadow(boolean) {#setShadow-boolean-}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+setShadow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShapeProperties() {#getShapeProperties--}
+
+<b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+getShapeProperties() : ShapePropertyCollection;
+```
+
+
+**Returns**
+
+[ShapePropertyCollection](../shapepropertycollection/)
+
+### isDefaultPosBeSet() {#isDefaultPosBeSet--}
+
+<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet() : boolean;
+```
+
+
+### getDefaultX() {#getDefaultX--}
+
+<b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultX() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultY() {#getDefaultY--}
+
+<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultY() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultWidth() {#getDefaultWidth--}
+
+<b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultWidth() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultHeight() {#getDefaultHeight--}
+
+<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultHeight() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultXRatioToChart() : number;
+```
+
+
+### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultYRatioToChart() : number;
+```
+
+
+### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultWidthRatioToChart() : number;
+```
+
+
+### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultHeightRatioToChart() : number;
+```
+
+
+### isDeleted() {#isDeleted--}
+
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+
+```javascript
+isDeleted() : boolean;
+```
+
+
+### setIsDeleted(boolean) {#setIsDeleted-boolean-}
+
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+
+```javascript
+setIsDeleted(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
+
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment.
+
+```javascript
+getTextHorizontalAlignment() : TextAlignmentType;
+```
+
+
+**Returns**
+
+[TextAlignmentType](../textalignmenttype/)
+
+### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
+
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment.
+
+```javascript
+setTextHorizontalAlignment(value: TextAlignmentType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### getTextVerticalAlignment() {#getTextVerticalAlignment--}
+
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text.
+
+```javascript
+getTextVerticalAlignment() : TextAlignmentType;
+```
+
+
+**Returns**
+
+[TextAlignmentType](../textalignmenttype/)
+
+### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
+
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text.
+
+```javascript
+setTextVerticalAlignment(value: TextAlignmentType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### getRotationAngle() {#getRotationAngle--}
+
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+
+```javascript
+getRotationAngle() : number;
+```
+
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### setRotationAngle(number) {#setRotationAngle-number-}
+
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+
+```javascript
+setRotationAngle(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### isAutomaticRotation() {#isAutomaticRotation--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the text of the chart is automatically rotated.
+
+```javascript
+isAutomaticRotation() : boolean;
+```
+
+
+### getReadingOrder() {#getReadingOrder--}
+
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
+
+```javascript
+getReadingOrder() : TextDirectionType;
+```
+
+
+**Returns**
+
+[TextDirectionType](../textdirectiontype/)
+
+### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
+
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
+
+```javascript
+setReadingOrder(value: TextDirectionType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### isResizeShapeToFitText() {#isResizeShapeToFitText--}
+
+<b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+isResizeShapeToFitText() : boolean;
+```
+
+
+### setIsResizeShapeToFitText(boolean) {#setIsResizeShapeToFitText-boolean-}
+
+<b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+setIsResizeShapeToFitText(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### characters(number, number) {#characters-number-number-}
+
+Returns a Characters object that represents a range of characters within the text.
+
+```javascript
+characters(startIndex: number, length: number) : FontSetting;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | number | The index of the start of the character. |
+| length | number | The number of characters. |
+
+**Returns**
+
+Characters object.
 
 ### getBorder() {#getBorder--}
 
@@ -305,252 +1423,6 @@ setIsTextWrapped(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getBackgroundMode() {#getBackgroundMode--}
-
-Gets and sets the display mode of the background
-
-```javascript
-getBackgroundMode() : BackgroundMode;
-```
-
-
-**Returns**
-
-[BackgroundMode](../backgroundmode/)
-
-### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
-
-Gets and sets the display mode of the background
-
-```javascript
-setBackgroundMode(value: BackgroundMode) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [BackgroundMode](../backgroundmode/) | The value to set. |
-
-### getShowValue() {#getShowValue--}
-
-Represents a specified chart's data label values display behavior. True displays the values. False to hide.
-
-```javascript
-getShowValue() : boolean;
-```
-
-
-### setShowValue(boolean) {#setShowValue-boolean-}
-
-Represents a specified chart's data label values display behavior. True displays the values. False to hide.
-
-```javascript
-setShowValue(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowCellRange() {#getShowCellRange--}
-
-Indicates whether showing cell range as the data labels.
-
-```javascript
-getShowCellRange() : boolean;
-```
-
-
-### setShowCellRange(boolean) {#setShowCellRange-boolean-}
-
-Indicates whether showing cell range as the data labels.
-
-```javascript
-setShowCellRange(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowPercentage() {#getShowPercentage--}
-
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
-
-```javascript
-getShowPercentage() : boolean;
-```
-
-
-### setShowPercentage(boolean) {#setShowPercentage-boolean-}
-
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
-
-```javascript
-setShowPercentage(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowBubbleSize() {#getShowBubbleSize--}
-
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
-
-```javascript
-getShowBubbleSize() : boolean;
-```
-
-
-### setShowBubbleSize(boolean) {#setShowBubbleSize-boolean-}
-
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
-
-```javascript
-setShowBubbleSize(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowCategoryName() {#getShowCategoryName--}
-
-Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
-
-```javascript
-getShowCategoryName() : boolean;
-```
-
-
-### setShowCategoryName(boolean) {#setShowCategoryName-boolean-}
-
-Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide.
-
-```javascript
-setShowCategoryName(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowSeriesName() {#getShowSeriesName--}
-
-Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
-
-```javascript
-getShowSeriesName() : boolean;
-```
-
-
-### setShowSeriesName(boolean) {#setShowSeriesName-boolean-}
-
-Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
-
-```javascript
-setShowSeriesName(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShowLegendKey() {#getShowLegendKey--}
-
-Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible.
-
-```javascript
-getShowLegendKey() : boolean;
-```
-
-
-### setShowLegendKey(boolean) {#setShowLegendKey-boolean-}
-
-Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible.
-
-```javascript
-setShowLegendKey(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### get_NumberFormat() {#get_NumberFormat--}
-
-Represents the format string for the DataLabels object.
-
-```javascript
-get_NumberFormat() : string;
-```
-
-
-### setNumberFormat(string) {#setNumberFormat-string-}
-
-Represents the format string for the DataLabels object.
-
-```javascript
-setNumberFormat(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getNumber() {#getNumber--}
-
-Gets and sets the built-in number format.
-
-```javascript
-getNumber() : number;
-```
-
-
-### setNumber(number) {#setNumber-number-}
-
-Gets and sets the built-in number format.
-
-```javascript
-setNumber(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getNumberFormatLinked() {#getNumberFormatLinked--}
-
-True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
-
-```javascript
-getNumberFormatLinked() : boolean;
-```
-
-
-### setNumberFormatLinked(boolean) {#setNumberFormatLinked-boolean-}
-
-True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
-
-```javascript
-setNumberFormatLinked(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
 ### getFont() {#getFont--}
 
 Gets the font of the DataLabels;
@@ -563,495 +1435,6 @@ getFont() : Font;
 **Returns**
 
 [Font](../font/)
-
-### getSeparatorType() {#getSeparatorType--}
-
-Gets or sets the separator type used for the data labels on a chart.
-
-```javascript
-getSeparatorType() : DataLabelsSeparatorType;
-```
-
-
-**Returns**
-
-[DataLabelsSeparatorType](../datalabelsseparatortype/)
-
-**Remarks**
-
-To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
-
-### setSeparatorType(DataLabelsSeparatorType) {#setSeparatorType-datalabelsseparatortype-}
-
-Gets or sets the separator type used for the data labels on a chart.
-
-```javascript
-setSeparatorType(value: DataLabelsSeparatorType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [DataLabelsSeparatorType](../datalabelsseparatortype/) | The value to set. |
-
-**Remarks**
-
-To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
-
-### getSeparatorValue() {#getSeparatorValue--}
-
-Gets or sets the separator value used for the data labels on a chart.
-
-```javascript
-getSeparatorValue() : string;
-```
-
-
-### setSeparatorValue(string) {#setSeparatorValue-string-}
-
-Gets or sets the separator value used for the data labels on a chart.
-
-```javascript
-setSeparatorValue(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getPosition() {#getPosition--}
-
-Represents the position of the data label.
-
-```javascript
-getPosition() : LabelPositionType;
-```
-
-
-**Returns**
-
-[LabelPositionType](../labelpositiontype/)
-
-### setPosition(LabelPositionType) {#setPosition-labelpositiontype-}
-
-Represents the position of the data label.
-
-```javascript
-setPosition(value: LabelPositionType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [LabelPositionType](../labelpositiontype/) | The value to set. |
-
-### isNeverOverlap() {#isNeverOverlap--}
-
-Indicates whether the datalabels display never overlap. (For Pie chart)
-
-```javascript
-isNeverOverlap() : boolean;
-```
-
-
-### setIsNeverOverlap(boolean) {#setIsNeverOverlap-boolean-}
-
-Indicates whether the datalabels display never overlap. (For Pie chart)
-
-```javascript
-setIsNeverOverlap(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShapeType() {#getShapeType--}
-
-Gets or sets  shape type of data label.
-
-```javascript
-getShapeType() : DataLabelShapeType;
-```
-
-
-**Returns**
-
-[DataLabelShapeType](../datalabelshapetype/)
-
-### setShapeType(DataLabelShapeType) {#setShapeType-datalabelshapetype-}
-
-Gets or sets  shape type of data label.
-
-```javascript
-setShapeType(value: DataLabelShapeType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [DataLabelShapeType](../datalabelshapetype/) | The value to set. |
-
-### applyFont() {#applyFont--}
-
-Apply the font of the datalabels to all child nodes.
-
-```javascript
-applyFont() : void;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
-
-### isInnerMode() {#isInnerMode--}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-isInnerMode() : boolean;
-```
-
-
-**Remarks**
-
-Only for Xlsx file.
-
-### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-setIsInnerMode(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-Only for Xlsx file.
-
-### getShadow() {#getShadow--}
-
-True if the frame has a shadow.
-
-```javascript
-getShadow() : boolean;
-```
-
-
-### setShadow(boolean) {#setShadow-boolean-}
-
-True if the frame has a shadow.
-
-```javascript
-setShadow(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShapeProperties() {#getShapeProperties--}
-
-Gets the [ShapeProperties](../shapeproperties/) object.
-
-```javascript
-getShapeProperties() : ShapePropertyCollection;
-```
-
-
-**Returns**
-
-[ShapePropertyCollection](../shapepropertycollection/)
-
-### isDefaultPosBeSet() {#isDefaultPosBeSet--}
-
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
-
-```javascript
-isDefaultPosBeSet() : boolean;
-```
-
-
-### getDefaultX() {#getDefaultX--}
-
-Represents x of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultX() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultY() {#getDefaultY--}
-
-Represents y of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultY() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultWidth() {#getDefaultWidth--}
-
-Represents width of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultWidth() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultHeight() {#getDefaultHeight--}
-
-Represents height of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultHeight() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
-
-Represents x of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultXRatioToChart() : number;
-```
-
-
-### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
-
-Represents y of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultYRatioToChart() : number;
-```
-
-
-### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
-
-Represents width of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultWidthRatioToChart() : number;
-```
-
-
-### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
-
-Represents height of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultHeightRatioToChart() : number;
-```
-
-
-### isDeleted() {#isDeleted--}
-
-Indicates whether this data labels is deleted.
-
-```javascript
-isDeleted() : boolean;
-```
-
-
-### setIsDeleted(boolean) {#setIsDeleted-boolean-}
-
-Indicates whether this data labels is deleted.
-
-```javascript
-setIsDeleted(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
-
-Gets and sets the text horizontal alignment.
-
-```javascript
-getTextHorizontalAlignment() : TextAlignmentType;
-```
-
-
-**Returns**
-
-[TextAlignmentType](../textalignmenttype/)
-
-### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
-
-Gets and sets the text horizontal alignment.
-
-```javascript
-setTextHorizontalAlignment(value: TextAlignmentType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
-
-### getTextVerticalAlignment() {#getTextVerticalAlignment--}
-
-Gets or sets the text vertical alignment of text.
-
-```javascript
-getTextVerticalAlignment() : TextAlignmentType;
-```
-
-
-**Returns**
-
-[TextAlignmentType](../textalignmenttype/)
-
-### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
-
-Gets or sets the text vertical alignment of text.
-
-```javascript
-setTextVerticalAlignment(value: TextAlignmentType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
-
-### getRotationAngle() {#getRotationAngle--}
-
-Represents text rotation angle.
-
-```javascript
-getRotationAngle() : number;
-```
-
-
-**Remarks**
-
-br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
-
-### setRotationAngle(number) {#setRotationAngle-number-}
-
-Represents text rotation angle.
-
-```javascript
-setRotationAngle(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
-
-### isAutomaticRotation() {#isAutomaticRotation--}
-
-Indicates whether the text of the chart is automatically rotated.
-
-```javascript
-isAutomaticRotation() : boolean;
-```
-
-
-### getReadingOrder() {#getReadingOrder--}
-
-Represents text reading order.
-
-```javascript
-getReadingOrder() : TextDirectionType;
-```
-
-
-**Returns**
-
-[TextDirectionType](../textdirectiontype/)
-
-### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
-
-Represents text reading order.
-
-```javascript
-setReadingOrder(value: TextDirectionType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
-
-### isResizeShapeToFitText() {#isResizeShapeToFitText--}
-
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
-
-```javascript
-isResizeShapeToFitText() : boolean;
-```
-
-
-### setIsResizeShapeToFitText(boolean) {#setIsResizeShapeToFitText-boolean-}
-
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
-
-```javascript
-setIsResizeShapeToFitText(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### characters(number, number) {#characters-number-number-}
-
-Returns a Characters object that represents a range of characters within the text.
-
-```javascript
-characters(startIndex: number, length: number) : FontSetting;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startIndex | number | The index of the start of the character. |
-| length | number | The number of characters. |
-
-**Returns**
-
-Characters object.
 
 ### getTextOptions() {#getTextOptions--}
 

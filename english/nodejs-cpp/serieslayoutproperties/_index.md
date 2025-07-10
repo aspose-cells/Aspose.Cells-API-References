@@ -17,36 +17,52 @@ class SeriesLayoutProperties;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether showing connector lines between data points. |
+| [showMeanLine](#showMeanLine--)| boolean | Indicates whether showing the line connecting all mean points. |
+| [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether showing outlier data points. |
+| [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether showing markers denoting the mean. |
+| [showInnerPoints](#showInnerPoints--)| boolean | Indicates whether showing non-outlier data points. |
+| [subtotals](#subtotals--)| number[] | Represents the index of a subtotal data point. |
+| [quartileCalculation](#quartileCalculation--)| QuartileCalculationType | Represents the statistical properties for the series. |
+| [mapLabelLayout](#mapLabelLayout--)| MapChartLabelLayout | Gets and sets the layout of map labels. |
+| [isIntervalLeftClosed](#isIntervalLeftClosed--)| boolean | Indicates whether the interval is closed on the left side. |
+| [mapChartRegionType](#mapChartRegionType--)| MapChartRegionType | Gets and sets the region type of the map. |
+| [mapChartProjectionType](#mapChartProjectionType--)| MapChartProjectionType | Gets and sets the projection type of the map. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getShowConnectorLines()](#getShowConnectorLines--)| Indicates whether showing connector lines between data points. |
-| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| Indicates whether showing connector lines between data points. |
-| [getShowMeanLine()](#getShowMeanLine--)| Indicates whether showing the line connecting all mean points. |
-| [setShowMeanLine(boolean)](#setShowMeanLine-boolean-)| Indicates whether showing the line connecting all mean points. |
-| [getShowOutlierPoints()](#getShowOutlierPoints--)| Indicates whether showing outlier data points. |
-| [setShowOutlierPoints(boolean)](#setShowOutlierPoints-boolean-)| Indicates whether showing outlier data points. |
-| [getShowMeanMarker()](#getShowMeanMarker--)| Indicates whether showing markers denoting the mean. |
-| [setShowMeanMarker(boolean)](#setShowMeanMarker-boolean-)| Indicates whether showing markers denoting the mean. |
-| [getShowInnerPoints()](#getShowInnerPoints--)| Indicates whether showing non-outlier data points. |
-| [setShowInnerPoints(boolean)](#setShowInnerPoints-boolean-)| Indicates whether showing non-outlier data points. |
-| [getSubtotals()](#getSubtotals--)| Represents the index of a subtotal data point. |
-| [setSubtotals(number[])](#setSubtotals-numberarray-)| Represents the index of a subtotal data point. |
-| [getQuartileCalculation()](#getQuartileCalculation--)| Represents the statistical properties for the series. |
-| [setQuartileCalculation(QuartileCalculationType)](#setQuartileCalculation-quartilecalculationtype-)| Represents the statistical properties for the series. |
-| [getMapLabelLayout()](#getMapLabelLayout--)| Gets and sets the layout of map labels. |
-| [setMapLabelLayout(MapChartLabelLayout)](#setMapLabelLayout-mapchartlabellayout-)| Gets and sets the layout of map labels. |
-| [isIntervalLeftClosed()](#isIntervalLeftClosed--)| Indicates whether the interval is closed on the left side. |
-| [setIsIntervalLeftClosed(boolean)](#setIsIntervalLeftClosed-boolean-)| Indicates whether the interval is closed on the left side. |
-| [getMapChartRegionType()](#getMapChartRegionType--)| Gets and sets the region type of the map. |
-| [setMapChartRegionType(MapChartRegionType)](#setMapChartRegionType-mapchartregiontype-)| Gets and sets the region type of the map. |
-| [getMapChartProjectionType()](#getMapChartProjectionType--)| Gets and sets the projection type of the map. |
-| [setMapChartProjectionType(MapChartProjectionType)](#setMapChartProjectionType-mapchartprojectiontype-)| Gets and sets the projection type of the map. |
+| [getShowConnectorLines()](#getShowConnectorLines--)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points. |
+| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points. |
+| [getShowMeanLine()](#getShowMeanLine--)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points. |
+| [setShowMeanLine(boolean)](#setShowMeanLine-boolean-)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points. |
+| [getShowOutlierPoints()](#getShowOutlierPoints--)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points. |
+| [setShowOutlierPoints(boolean)](#setShowOutlierPoints-boolean-)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points. |
+| [getShowMeanMarker()](#getShowMeanMarker--)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean. |
+| [setShowMeanMarker(boolean)](#setShowMeanMarker-boolean-)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean. |
+| [getShowInnerPoints()](#getShowInnerPoints--)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points. |
+| [setShowInnerPoints(boolean)](#setShowInnerPoints-boolean-)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points. |
+| [getSubtotals()](#getSubtotals--)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point. |
+| [setSubtotals(number[])](#setSubtotals-numberarray-)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point. |
+| [getQuartileCalculation()](#getQuartileCalculation--)| <b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series. |
+| [setQuartileCalculation(QuartileCalculationType)](#setQuartileCalculation-quartilecalculationtype-)| <b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series. |
+| [getMapLabelLayout()](#getMapLabelLayout--)| <b>@deprecated.</b> Please use the 'mapLabelLayout' property instead. Gets and sets the layout of map labels. |
+| [setMapLabelLayout(MapChartLabelLayout)](#setMapLabelLayout-mapchartlabellayout-)| <b>@deprecated.</b> Please use the 'mapLabelLayout' property instead. Gets and sets the layout of map labels. |
+| [isIntervalLeftClosed()](#isIntervalLeftClosed--)| <b>@deprecated.</b> Please use the 'isIntervalLeftClosed' property instead. Indicates whether the interval is closed on the left side. |
+| [setIsIntervalLeftClosed(boolean)](#setIsIntervalLeftClosed-boolean-)| <b>@deprecated.</b> Please use the 'isIntervalLeftClosed' property instead. Indicates whether the interval is closed on the left side. |
+| [getMapChartRegionType()](#getMapChartRegionType--)| <b>@deprecated.</b> Please use the 'mapChartRegionType' property instead. Gets and sets the region type of the map. |
+| [setMapChartRegionType(MapChartRegionType)](#setMapChartRegionType-mapchartregiontype-)| <b>@deprecated.</b> Please use the 'mapChartRegionType' property instead. Gets and sets the region type of the map. |
+| [getMapChartProjectionType()](#getMapChartProjectionType--)| <b>@deprecated.</b> Please use the 'mapChartProjectionType' property instead. Gets and sets the projection type of the map. |
+| [setMapChartProjectionType(MapChartProjectionType)](#setMapChartProjectionType-mapchartprojectiontype-)| <b>@deprecated.</b> Please use the 'mapChartProjectionType' property instead. Gets and sets the projection type of the map. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -59,9 +75,108 @@ constructor();
 ```
 
 
-### getShowConnectorLines() {#getShowConnectorLines--}
+### showConnectorLines {#showConnectorLines--}
 
 Indicates whether showing connector lines between data points.
+
+```javascript
+showConnectorLines : boolean;
+```
+
+
+### showMeanLine {#showMeanLine--}
+
+Indicates whether showing the line connecting all mean points.
+
+```javascript
+showMeanLine : boolean;
+```
+
+
+### showOutlierPoints {#showOutlierPoints--}
+
+Indicates whether showing outlier data points.
+
+```javascript
+showOutlierPoints : boolean;
+```
+
+
+### showMeanMarker {#showMeanMarker--}
+
+Indicates whether showing markers denoting the mean.
+
+```javascript
+showMeanMarker : boolean;
+```
+
+
+### showInnerPoints {#showInnerPoints--}
+
+Indicates whether showing non-outlier data points.
+
+```javascript
+showInnerPoints : boolean;
+```
+
+
+### subtotals {#subtotals--}
+
+Represents the index of a subtotal data point.
+
+```javascript
+subtotals : number[];
+```
+
+
+### quartileCalculation {#quartileCalculation--}
+
+Represents the statistical properties for the series.
+
+```javascript
+quartileCalculation : QuartileCalculationType;
+```
+
+
+### mapLabelLayout {#mapLabelLayout--}
+
+Gets and sets the layout of map labels.
+
+```javascript
+mapLabelLayout : MapChartLabelLayout;
+```
+
+
+### isIntervalLeftClosed {#isIntervalLeftClosed--}
+
+Indicates whether the interval is closed on the left side.
+
+```javascript
+isIntervalLeftClosed : boolean;
+```
+
+
+### mapChartRegionType {#mapChartRegionType--}
+
+Gets and sets the region type of the map.
+
+```javascript
+mapChartRegionType : MapChartRegionType;
+```
+
+
+### mapChartProjectionType {#mapChartProjectionType--}
+
+Gets and sets the projection type of the map.
+
+```javascript
+mapChartProjectionType : MapChartProjectionType;
+```
+
+
+### getShowConnectorLines() {#getShowConnectorLines--}
+
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points.
 
 ```javascript
 getShowConnectorLines() : boolean;
@@ -70,7 +185,7 @@ getShowConnectorLines() : boolean;
 
 ### setShowConnectorLines(boolean) {#setShowConnectorLines-boolean-}
 
-Indicates whether showing connector lines between data points.
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points.
 
 ```javascript
 setShowConnectorLines(value: boolean) : void;
@@ -83,7 +198,7 @@ setShowConnectorLines(value: boolean) : void;
 
 ### getShowMeanLine() {#getShowMeanLine--}
 
-Indicates whether showing the line connecting all mean points.
+<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points.
 
 ```javascript
 getShowMeanLine() : boolean;
@@ -92,7 +207,7 @@ getShowMeanLine() : boolean;
 
 ### setShowMeanLine(boolean) {#setShowMeanLine-boolean-}
 
-Indicates whether showing the line connecting all mean points.
+<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points.
 
 ```javascript
 setShowMeanLine(value: boolean) : void;
@@ -105,7 +220,7 @@ setShowMeanLine(value: boolean) : void;
 
 ### getShowOutlierPoints() {#getShowOutlierPoints--}
 
-Indicates whether showing outlier data points.
+<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points.
 
 ```javascript
 getShowOutlierPoints() : boolean;
@@ -114,7 +229,7 @@ getShowOutlierPoints() : boolean;
 
 ### setShowOutlierPoints(boolean) {#setShowOutlierPoints-boolean-}
 
-Indicates whether showing outlier data points.
+<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points.
 
 ```javascript
 setShowOutlierPoints(value: boolean) : void;
@@ -127,7 +242,7 @@ setShowOutlierPoints(value: boolean) : void;
 
 ### getShowMeanMarker() {#getShowMeanMarker--}
 
-Indicates whether showing markers denoting the mean.
+<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean.
 
 ```javascript
 getShowMeanMarker() : boolean;
@@ -136,7 +251,7 @@ getShowMeanMarker() : boolean;
 
 ### setShowMeanMarker(boolean) {#setShowMeanMarker-boolean-}
 
-Indicates whether showing markers denoting the mean.
+<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean.
 
 ```javascript
 setShowMeanMarker(value: boolean) : void;
@@ -149,7 +264,7 @@ setShowMeanMarker(value: boolean) : void;
 
 ### getShowInnerPoints() {#getShowInnerPoints--}
 
-Indicates whether showing non-outlier data points.
+<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points.
 
 ```javascript
 getShowInnerPoints() : boolean;
@@ -158,7 +273,7 @@ getShowInnerPoints() : boolean;
 
 ### setShowInnerPoints(boolean) {#setShowInnerPoints-boolean-}
 
-Indicates whether showing non-outlier data points.
+<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points.
 
 ```javascript
 setShowInnerPoints(value: boolean) : void;
@@ -171,7 +286,7 @@ setShowInnerPoints(value: boolean) : void;
 
 ### getSubtotals() {#getSubtotals--}
 
-Represents the index of a subtotal data point.
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point.
 
 ```javascript
 getSubtotals() : number[];
@@ -184,7 +299,7 @@ number[]
 
 ### setSubtotals(number[]) {#setSubtotals-numberarray-}
 
-Represents the index of a subtotal data point.
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point.
 
 ```javascript
 setSubtotals(value: number[]) : void;
@@ -197,7 +312,7 @@ setSubtotals(value: number[]) : void;
 
 ### getQuartileCalculation() {#getQuartileCalculation--}
 
-Represents the statistical properties for the series.
+<b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series.
 
 ```javascript
 getQuartileCalculation() : QuartileCalculationType;
@@ -210,7 +325,7 @@ getQuartileCalculation() : QuartileCalculationType;
 
 ### setQuartileCalculation(QuartileCalculationType) {#setQuartileCalculation-quartilecalculationtype-}
 
-Represents the statistical properties for the series.
+<b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series.
 
 ```javascript
 setQuartileCalculation(value: QuartileCalculationType) : void;
@@ -223,7 +338,7 @@ setQuartileCalculation(value: QuartileCalculationType) : void;
 
 ### getMapLabelLayout() {#getMapLabelLayout--}
 
-Gets and sets the layout of map labels.
+<b>@deprecated.</b> Please use the 'mapLabelLayout' property instead. Gets and sets the layout of map labels.
 
 ```javascript
 getMapLabelLayout() : MapChartLabelLayout;
@@ -236,7 +351,7 @@ getMapLabelLayout() : MapChartLabelLayout;
 
 ### setMapLabelLayout(MapChartLabelLayout) {#setMapLabelLayout-mapchartlabellayout-}
 
-Gets and sets the layout of map labels.
+<b>@deprecated.</b> Please use the 'mapLabelLayout' property instead. Gets and sets the layout of map labels.
 
 ```javascript
 setMapLabelLayout(value: MapChartLabelLayout) : void;
@@ -249,7 +364,7 @@ setMapLabelLayout(value: MapChartLabelLayout) : void;
 
 ### isIntervalLeftClosed() {#isIntervalLeftClosed--}
 
-Indicates whether the interval is closed on the left side.
+<b>@deprecated.</b> Please use the 'isIntervalLeftClosed' property instead. Indicates whether the interval is closed on the left side.
 
 ```javascript
 isIntervalLeftClosed() : boolean;
@@ -258,7 +373,7 @@ isIntervalLeftClosed() : boolean;
 
 ### setIsIntervalLeftClosed(boolean) {#setIsIntervalLeftClosed-boolean-}
 
-Indicates whether the interval is closed on the left side.
+<b>@deprecated.</b> Please use the 'isIntervalLeftClosed' property instead. Indicates whether the interval is closed on the left side.
 
 ```javascript
 setIsIntervalLeftClosed(value: boolean) : void;
@@ -271,7 +386,7 @@ setIsIntervalLeftClosed(value: boolean) : void;
 
 ### getMapChartRegionType() {#getMapChartRegionType--}
 
-Gets and sets the region type of the map.
+<b>@deprecated.</b> Please use the 'mapChartRegionType' property instead. Gets and sets the region type of the map.
 
 ```javascript
 getMapChartRegionType() : MapChartRegionType;
@@ -284,7 +399,7 @@ getMapChartRegionType() : MapChartRegionType;
 
 ### setMapChartRegionType(MapChartRegionType) {#setMapChartRegionType-mapchartregiontype-}
 
-Gets and sets the region type of the map.
+<b>@deprecated.</b> Please use the 'mapChartRegionType' property instead. Gets and sets the region type of the map.
 
 ```javascript
 setMapChartRegionType(value: MapChartRegionType) : void;
@@ -297,7 +412,7 @@ setMapChartRegionType(value: MapChartRegionType) : void;
 
 ### getMapChartProjectionType() {#getMapChartProjectionType--}
 
-Gets and sets the projection type of the map.
+<b>@deprecated.</b> Please use the 'mapChartProjectionType' property instead. Gets and sets the projection type of the map.
 
 ```javascript
 getMapChartProjectionType() : MapChartProjectionType;
@@ -310,7 +425,7 @@ getMapChartProjectionType() : MapChartProjectionType;
 
 ### setMapChartProjectionType(MapChartProjectionType) {#setMapChartProjectionType-mapchartprojectiontype-}
 
-Gets and sets the projection type of the map.
+<b>@deprecated.</b> Please use the 'mapChartProjectionType' property instead. Gets and sets the projection type of the map.
 
 ```javascript
 setMapChartProjectionType(value: MapChartProjectionType) : void;

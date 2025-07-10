@@ -17,35 +17,49 @@ class DelimiterEquationNode extends EquationNode;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(EquationNode)](#constructor-equationnode-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [beginChar](#beginChar--)| string | Delimiter beginning character. |
+| [endChar](#endChar--)| string | Delimiter ending character. |
+| [naryGrow](#naryGrow--)| boolean |  |
+| [separatorChar](#separatorChar--)| string | Delimiter separator character. |
+| [delimiterShape](#delimiterShape--)| EquationDelimiterShapeType | Specifies the shape of delimiters in the delimiter object. |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
+| [parentNode](#parentNode--)| EquationNode | Specifies the parent node of the current node |
+| [equationType](#equationType--)| EquationNodeType | Readonly. Get the equation type of the current node |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBeginChar()](#getBeginChar--)| Delimiter beginning character. |
-| [setBeginChar(string)](#setBeginChar-string-)| Delimiter beginning character. |
-| [getEndChar()](#getEndChar--)| Delimiter ending character. |
-| [setEndChar(string)](#setEndChar-string-)| Delimiter ending character. |
-| [getNaryGrow()](#getNaryGrow--)|  |
-| [setNaryGrow(boolean)](#setNaryGrow-boolean-)|  |
-| [getSeparatorChar()](#getSeparatorChar--)| Delimiter separator character. |
-| [setSeparatorChar(string)](#setSeparatorChar-string-)| Delimiter separator character. |
-| [getDelimiterShape()](#getDelimiterShape--)| Specifies the shape of delimiters in the delimiter object. |
-| [setDelimiterShape(EquationDelimiterShapeType)](#setDelimiterShape-equationdelimitershapetype-)| Specifies the shape of delimiters in the delimiter object. |
-| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [getBeginChar()](#getBeginChar--)| <b>@deprecated.</b> Please use the 'beginChar' property instead. Delimiter beginning character. |
+| [setBeginChar(string)](#setBeginChar-string-)| <b>@deprecated.</b> Please use the 'beginChar' property instead. Delimiter beginning character. |
+| [getEndChar()](#getEndChar--)| <b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character. |
+| [setEndChar(string)](#setEndChar-string-)| <b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character. |
+| [getNaryGrow()](#getNaryGrow--)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. |
+| [setNaryGrow(boolean)](#setNaryGrow-boolean-)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. |
+| [getSeparatorChar()](#getSeparatorChar--)| <b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character. |
+| [setSeparatorChar(string)](#setSeparatorChar-string-)| <b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character. |
+| [getDelimiterShape()](#getDelimiterShape--)| <b>@deprecated.</b> Please use the 'delimiterShape' property instead. Specifies the shape of delimiters in the delimiter object. |
+| [setDelimiterShape(EquationDelimiterShapeType)](#setDelimiterShape-equationdelimitershapetype-)| <b>@deprecated.</b> Please use the 'delimiterShape' property instead. Specifies the shape of delimiters in the delimiter object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
-| [getParentNode()](#getParentNode--)| Specifies the parent node of the current node |
-| [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
-| [getType()](#getType--)| Represents the type of the node. |
-| [getEquationType()](#getEquationType--)| Get the equation type of the current node |
+| [getParentNode()](#getParentNode--)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [setParentNode(EquationNode)](#setParentNode-equationnode-)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [getEquationType()](#getEquationType--)| <b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node |
 | [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
 | [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
@@ -59,6 +73,8 @@ class DelimiterEquationNode extends EquationNode;
 | [removeChild(number)](#removeChild-number-)| Removes the node at the specified index from the current node's children. |
 | [removeAllChildren()](#removeAllChildren--)| Removes all the child nodes of the current node. |
 | static [createNode(EquationNodeType, Workbook, EquationNode)](#createNode-equationnodetype-workbook-equationnode-)| Create a node of the specified type. |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [getType()](#getType--)| Represents the type of the node. |
 
 
 ### constructor(EquationNode) {#constructor-equationnode-}
@@ -74,9 +90,120 @@ constructor(obj: EquationNode);
 | --- | --- | --- |
 | obj | EquationNode | The parent object. |
 
-### getBeginChar() {#getBeginChar--}
+### beginChar {#beginChar--}
 
 Delimiter beginning character.
+
+```javascript
+beginChar : string;
+```
+
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+
+### endChar {#endChar--}
+
+Delimiter ending character.
+
+```javascript
+endChar : string;
+```
+
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+
+### naryGrow {#naryGrow--}
+
+
+
+```javascript
+naryGrow : boolean;
+```
+
+
+### separatorChar {#separatorChar--}
+
+Delimiter separator character.
+
+```javascript
+separatorChar : string;
+```
+
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+
+### delimiterShape {#delimiterShape--}
+
+Specifies the shape of delimiters in the delimiter object.
+
+```javascript
+delimiterShape : EquationDelimiterShapeType;
+```
+
+
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
+### parentNode {#parentNode--}
+
+Specifies the parent node of the current node
+
+```javascript
+parentNode : EquationNode;
+```
+
+
+### equationType {#equationType--}
+
+Readonly. Get the equation type of the current node
+
+```javascript
+equationType : EquationNodeType;
+```
+
+
+### getBeginChar() {#getBeginChar--}
+
+<b>@deprecated.</b> Please use the 'beginChar' property instead. Delimiter beginning character.
 
 ```javascript
 getBeginChar() : string;
@@ -89,7 +216,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### setBeginChar(string) {#setBeginChar-string-}
 
-Delimiter beginning character.
+<b>@deprecated.</b> Please use the 'beginChar' property instead. Delimiter beginning character.
 
 ```javascript
 setBeginChar(value: string) : void;
@@ -106,7 +233,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getEndChar() {#getEndChar--}
 
-Delimiter ending character.
+<b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character.
 
 ```javascript
 getEndChar() : string;
@@ -119,7 +246,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### setEndChar(string) {#setEndChar-string-}
 
-Delimiter ending character.
+<b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character.
 
 ```javascript
 setEndChar(value: string) : void;
@@ -136,7 +263,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getNaryGrow() {#getNaryGrow--}
 
-
+<b>@deprecated.</b> Please use the 'naryGrow' property instead.
 
 ```javascript
 getNaryGrow() : boolean;
@@ -145,7 +272,7 @@ getNaryGrow() : boolean;
 
 ### setNaryGrow(boolean) {#setNaryGrow-boolean-}
 
-
+<b>@deprecated.</b> Please use the 'naryGrow' property instead.
 
 ```javascript
 setNaryGrow(value: boolean) : void;
@@ -158,7 +285,7 @@ setNaryGrow(value: boolean) : void;
 
 ### getSeparatorChar() {#getSeparatorChar--}
 
-Delimiter separator character.
+<b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character.
 
 ```javascript
 getSeparatorChar() : string;
@@ -171,7 +298,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### setSeparatorChar(string) {#setSeparatorChar-string-}
 
-Delimiter separator character.
+<b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character.
 
 ```javascript
 setSeparatorChar(value: string) : void;
@@ -188,7 +315,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getDelimiterShape() {#getDelimiterShape--}
 
-Specifies the shape of delimiters in the delimiter object.
+<b>@deprecated.</b> Please use the 'delimiterShape' property instead. Specifies the shape of delimiters in the delimiter object.
 
 ```javascript
 getDelimiterShape() : EquationDelimiterShapeType;
@@ -201,7 +328,7 @@ getDelimiterShape() : EquationDelimiterShapeType;
 
 ### setDelimiterShape(EquationDelimiterShapeType) {#setDelimiterShape-equationdelimitershapetype-}
 
-Specifies the shape of delimiters in the delimiter object.
+<b>@deprecated.</b> Please use the 'delimiterShape' property instead. Specifies the shape of delimiters in the delimiter object.
 
 ```javascript
 setDelimiterShape(value: EquationDelimiterShapeType) : void;
@@ -211,19 +338,6 @@ setDelimiterShape(value: EquationDelimiterShapeType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [EquationDelimiterShapeType](../equationdelimitershapetype/) | The value to set. |
-
-### equals(Object) {#equals-object-}
-
-Determine whether the current equation node is equal to the specified node
-
-```javascript
-equals(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 
@@ -236,7 +350,7 @@ isNull() : boolean;
 
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -245,7 +359,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -254,7 +368,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -267,7 +381,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;
@@ -297,7 +411,7 @@ Only for the text of shape/chart.
 
 ### getParentNode() {#getParentNode--}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 getParentNode() : EquationNode;
@@ -310,7 +424,7 @@ getParentNode() : EquationNode;
 
 ### setParentNode(EquationNode) {#setParentNode-equationnode-}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 setParentNode(value: EquationNode) : void;
@@ -321,22 +435,9 @@ setParentNode(value: EquationNode) : void;
 | --- | --- | --- |
 | value | [EquationNode](../equationnode/) | The value to set. |
 
-### getType() {#getType--}
-
-Represents the type of the node.
-
-```javascript
-getType() : TextNodeType;
-```
-
-
-**Returns**
-
-[TextNodeType](../textnodetype/)
-
 ### getEquationType() {#getEquationType--}
 
-Get the equation type of the current node
+<b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node
 
 ```javascript
 getEquationType() : EquationNodeType;
@@ -526,5 +627,31 @@ static createNode(equationType: EquationNodeType, workbook: Workbook, parent: Eq
 **Returns**
 
 If the specified type exists, the corresponding node is returned, and if the type does not exist, a node of unknown type is returned.
+
+### equals(Object) {#equals-object-}
+
+Determine whether the current equation node is equal to the specified node
+
+```javascript
+equals(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The specified node |
+
+### getType() {#getType--}
+
+Represents the type of the node.
+
+```javascript
+getType() : TextNodeType;
+```
+
+
+**Returns**
+
+[TextNodeType](../textnodetype/)
 
 

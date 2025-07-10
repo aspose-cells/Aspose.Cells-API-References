@@ -20,11 +20,35 @@ It's typically the CLSID of the provider com add-in.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells.Drawing;
 
-[C#]
-// Create signature line object
-SignatureLine s2 = new SignatureLine();
-s2.ProviderId = new Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx");//The GUID should be obtained from the documentation shipped with the provider.
+namespace AsposeCellsExamples
+{
+    public class SignatureLinePropertyProviderIdDemo
+    {
+        public static void Run()
+        {
+            // Create a new signature line
+            SignatureLine signatureLine = new SignatureLine();
+            
+            // Set signature line properties
+            signatureLine.Signer = "John Doe";
+            signatureLine.Title = "Software Developer";
+            signatureLine.Email = "john.doe@example.com";
+            signatureLine.IsLine = true;
+            
+            // Set provider ID (example GUID - should be replaced with actual provider GUID)
+            signatureLine.ProviderId = new Guid("000CD6A4-0000-0000-C000-000000000046");
+            
+            // Set signature type (this should match the provider ID)
+            signatureLine.SignatureLineType = SignatureType.Stamp;
+            
+            // Output the provider ID to demonstrate usage
+            Console.WriteLine("Signature Line Provider ID: " + signatureLine.ProviderId);
+        }
+    }
+}
 ```
 
 ### See Also

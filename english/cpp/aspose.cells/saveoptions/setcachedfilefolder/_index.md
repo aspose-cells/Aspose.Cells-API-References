@@ -2,7 +2,7 @@
 title: Aspose::Cells::SaveOptions::SetCachedFileFolder method
 linktitle: SetCachedFileFolder
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::SaveOptions::SetCachedFileFolder method. The cached file folder is used to store some large data in C++.'
+description: 'Aspose::Cells::SaveOptions::SetCachedFileFolder method. The folder for temporary files that may be used as data cache in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells/saveoptions/setcachedfilefolder/
@@ -10,12 +10,16 @@ url: /cpp/aspose.cells/saveoptions/setcachedfilefolder/
 ## SaveOptions::SetCachedFileFolder(const U16String\&) method
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 ```cpp
 void Aspose::Cells::SaveOptions::SetCachedFileFolder(const U16String &value)
 ```
 
+## Remarks
+
+
+If the folder has not been specified, the default value for it is CellsHelper.GetCacheFolder(). If it is empty, then no cache file will be used when saving the workbook. 
 ## See Also
 
 * Class [Vector](../../vector/)
@@ -26,12 +30,16 @@ void Aspose::Cells::SaveOptions::SetCachedFileFolder(const U16String &value)
 ## SaveOptions::SetCachedFileFolder(const char16_t*) method
 
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 ```cpp
 void Aspose::Cells::SaveOptions::SetCachedFileFolder(const char16_t *value)
 ```
 
+## Remarks
+
+
+If the folder has not been specified, the default value for it is CellsHelper.GetCacheFolder(). If it is empty, then no cache file will be used when saving the workbook. 
 ## See Also
 
 * Class [Vector](../../vector/)

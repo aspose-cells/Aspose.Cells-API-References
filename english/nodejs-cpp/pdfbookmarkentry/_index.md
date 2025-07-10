@@ -17,24 +17,34 @@ class PdfBookmarkEntry;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [text](#text--)| string | Title of a bookmark. |
+| [destination](#destination--)| Cell | The cell to which the bookmark link. |
+| [destinationName](#destinationName--)| string | Gets or sets name of destination. |
+| [isOpen](#isOpen--)| boolean | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
+| [isCollapse](#isCollapse--)| boolean | When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--)| Title of a bookmark. |
-| [setText(string)](#setText-string-)| Title of a bookmark. |
-| [getDestination()](#getDestination--)| The cell to which the bookmark link. |
-| [setDestination(Cell)](#setDestination-cell-)| The cell to which the bookmark link. |
-| [getDestinationName()](#getDestinationName--)| Gets or sets name of destination. |
-| [setDestinationName(string)](#setDestinationName-string-)| Gets or sets name of destination. |
-| [isOpen()](#isOpen--)| When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
-| [setIsOpen(boolean)](#setIsOpen-boolean-)| When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
-| [isCollapse()](#isCollapse--)| When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
-| [setIsCollapse(boolean)](#setIsCollapse-boolean-)| When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Title of a bookmark. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Title of a bookmark. |
+| [getDestination()](#getDestination--)| <b>@deprecated.</b> Please use the 'destination' property instead. The cell to which the bookmark link. |
+| [setDestination(Cell)](#setDestination-cell-)| <b>@deprecated.</b> Please use the 'destination' property instead. The cell to which the bookmark link. |
+| [getDestinationName()](#getDestinationName--)| <b>@deprecated.</b> Please use the 'destinationName' property instead. Gets or sets name of destination. |
+| [setDestinationName(string)](#setDestinationName-string-)| <b>@deprecated.</b> Please use the 'destinationName' property instead. Gets or sets name of destination. |
+| [isOpen()](#isOpen--)| <b>@deprecated.</b> Please use the 'isOpen' property instead. When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
+| [setIsOpen(boolean)](#setIsOpen-boolean-)| <b>@deprecated.</b> Please use the 'isOpen' property instead. When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
+| [isCollapse()](#isCollapse--)| <b>@deprecated.</b> Please use the 'isCollapse' property instead. When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
+| [setIsCollapse(boolean)](#setIsCollapse-boolean-)| <b>@deprecated.</b> Please use the 'isCollapse' property instead. When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -47,9 +57,58 @@ constructor();
 ```
 
 
-### getText() {#getText--}
+### text {#text--}
 
 Title of a bookmark.
+
+```javascript
+text : string;
+```
+
+
+### destination {#destination--}
+
+The cell to which the bookmark link.
+
+```javascript
+destination : Cell;
+```
+
+
+### destinationName {#destinationName--}
+
+Gets or sets name of destination.
+
+```javascript
+destinationName : string;
+```
+
+
+**Remarks**
+
+If destination name is set, the destination will be defined as a named destination with this name.
+
+### isOpen {#isOpen--}
+
+When this property is true, the bookmarkentry will expand, otherwise it will collapse.
+
+```javascript
+isOpen : boolean;
+```
+
+
+### isCollapse {#isCollapse--}
+
+When this property is true, the bookmarkentry will collapse, otherwise it will expand.
+
+```javascript
+isCollapse : boolean;
+```
+
+
+### getText() {#getText--}
+
+<b>@deprecated.</b> Please use the 'text' property instead. Title of a bookmark.
 
 ```javascript
 getText() : string;
@@ -58,7 +117,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-Title of a bookmark.
+<b>@deprecated.</b> Please use the 'text' property instead. Title of a bookmark.
 
 ```javascript
 setText(value: string) : void;
@@ -71,7 +130,7 @@ setText(value: string) : void;
 
 ### getDestination() {#getDestination--}
 
-The cell to which the bookmark link.
+<b>@deprecated.</b> Please use the 'destination' property instead. The cell to which the bookmark link.
 
 ```javascript
 getDestination() : Cell;
@@ -84,7 +143,7 @@ getDestination() : Cell;
 
 ### setDestination(Cell) {#setDestination-cell-}
 
-The cell to which the bookmark link.
+<b>@deprecated.</b> Please use the 'destination' property instead. The cell to which the bookmark link.
 
 ```javascript
 setDestination(value: Cell) : void;
@@ -97,7 +156,7 @@ setDestination(value: Cell) : void;
 
 ### getDestinationName() {#getDestinationName--}
 
-Gets or sets name of destination.
+<b>@deprecated.</b> Please use the 'destinationName' property instead. Gets or sets name of destination.
 
 ```javascript
 getDestinationName() : string;
@@ -110,7 +169,7 @@ If destination name is set, the destination will be defined as a named destinati
 
 ### setDestinationName(string) {#setDestinationName-string-}
 
-Gets or sets name of destination.
+<b>@deprecated.</b> Please use the 'destinationName' property instead. Gets or sets name of destination.
 
 ```javascript
 setDestinationName(value: string) : void;
@@ -127,7 +186,7 @@ If destination name is set, the destination will be defined as a named destinati
 
 ### isOpen() {#isOpen--}
 
-When this property is true, the bookmarkentry will expand, otherwise it will collapse.
+<b>@deprecated.</b> Please use the 'isOpen' property instead. When this property is true, the bookmarkentry will expand, otherwise it will collapse.
 
 ```javascript
 isOpen() : boolean;
@@ -136,7 +195,7 @@ isOpen() : boolean;
 
 ### setIsOpen(boolean) {#setIsOpen-boolean-}
 
-When this property is true, the bookmarkentry will expand, otherwise it will collapse.
+<b>@deprecated.</b> Please use the 'isOpen' property instead. When this property is true, the bookmarkentry will expand, otherwise it will collapse.
 
 ```javascript
 setIsOpen(value: boolean) : void;
@@ -149,7 +208,7 @@ setIsOpen(value: boolean) : void;
 
 ### isCollapse() {#isCollapse--}
 
-When this property is true, the bookmarkentry will collapse, otherwise it will expand.
+<b>@deprecated.</b> Please use the 'isCollapse' property instead. When this property is true, the bookmarkentry will collapse, otherwise it will expand.
 
 ```javascript
 isCollapse() : boolean;
@@ -158,7 +217,7 @@ isCollapse() : boolean;
 
 ### setIsCollapse(boolean) {#setIsCollapse-boolean-}
 
-When this property is true, the bookmarkentry will collapse, otherwise it will expand.
+<b>@deprecated.</b> Please use the 'isCollapse' property instead. When this property is true, the bookmarkentry will collapse, otherwise it will expand.
 
 ```javascript
 setIsCollapse(value: boolean) : void;

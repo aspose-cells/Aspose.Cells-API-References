@@ -21,8 +21,8 @@ const { Workbook } = require("aspose.cells.node");
 
 var excel = new Workbook();
 //Add a pagebreak at G5
-excel.getWorksheets().get(0).getHorizontalPageBreaks().add("G5");
-excel.getWorksheets().get(0).getVerticalPageBreaks().add("G5");
+excel.worksheets.get(0).horizontalPageBreaks.add("G5");
+excel.worksheets.get(0).verticalPageBreaks.add("G5");
 ```
 ## Methods
 
@@ -35,7 +35,7 @@ excel.getWorksheets().get(0).getVerticalPageBreaks().add("G5");
 | [add(number, number)](#add-number-number-)| Adds a horizontal page break to the collection. |
 | [add(string)](#add-string-)| Adds a horizontal page break to the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes the HPageBreak element at a specified name. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -175,7 +175,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

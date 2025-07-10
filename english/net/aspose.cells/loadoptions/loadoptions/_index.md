@@ -13,34 +13,6 @@ Creates an options of loading the file.
 public LoadOptions()
 ```
 
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class LoadOptionsMethodCtorDemo
-    {
-        public static void Run()
-        {
-            // Create LoadOptions using constructor with LoadFormat
-            LoadOptions options = new LoadOptions(LoadFormat.Excel97To2003);
-            
-            // Set properties
-            options.CheckDataValid = true;
-            
-            // Load workbook with options
-            Workbook workbook = new Workbook("example.xls", options);
-            
-            // Save to PDF
-            workbook.Save("example.pdf");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [LoadOptions](../)

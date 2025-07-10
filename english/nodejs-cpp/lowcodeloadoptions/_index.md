@@ -17,18 +17,25 @@ class LowCodeLoadOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [inputFile](#inputFile--)| string | Gets and sets the file(with path if needed) of the template. |
+| [inputStream](#inputStream--)| Uint8Array | Gets and sets the Stream of the template. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getInputFile()](#getInputFile--)| Gets and sets the file(with path if needed) of the template. |
-| [setInputFile(string)](#setInputFile-string-)| Gets and sets the file(with path if needed) of the template. |
-| [getInputStream()](#getInputStream--)| Gets and sets the Stream of the template. |
-| [setInputStream(Uint8Array)](#setInputStream-uint8array-)| Gets and sets the Stream of the template. |
+| [getInputFile()](#getInputFile--)| <b>@deprecated.</b> Please use the 'inputFile' property instead. Gets and sets the file(with path if needed) of the template. |
+| [setInputFile(string)](#setInputFile-string-)| <b>@deprecated.</b> Please use the 'inputFile' property instead. Gets and sets the file(with path if needed) of the template. |
+| [getInputStream()](#getInputStream--)| <b>@deprecated.</b> Please use the 'inputStream' property instead. Gets and sets the Stream of the template. |
+| [setInputStream(Uint8Array)](#setInputStream-uint8array-)| <b>@deprecated.</b> Please use the 'inputStream' property instead. Gets and sets the Stream of the template. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,9 +48,35 @@ constructor();
 ```
 
 
-### getInputFile() {#getInputFile--}
+### inputFile {#inputFile--}
 
 Gets and sets the file(with path if needed) of the template.
+
+```javascript
+inputFile : string;
+```
+
+
+**Remarks**
+
+When setting a non-null and non-empty path to this property, the previously set value for [InputStream](../inputstream/) will be ignored.
+
+### inputStream {#inputStream--}
+
+Gets and sets the Stream of the template.
+
+```javascript
+inputStream : Uint8Array;
+```
+
+
+**Remarks**
+
+When setting a non-null Stream to this property, the previously set value for [InputFile](../inputfile/) will be ignored.
+
+### getInputFile() {#getInputFile--}
+
+<b>@deprecated.</b> Please use the 'inputFile' property instead. Gets and sets the file(with path if needed) of the template.
 
 ```javascript
 getInputFile() : string;
@@ -56,7 +89,7 @@ When setting a non-null and non-empty path to this property, the previously set 
 
 ### setInputFile(string) {#setInputFile-string-}
 
-Gets and sets the file(with path if needed) of the template.
+<b>@deprecated.</b> Please use the 'inputFile' property instead. Gets and sets the file(with path if needed) of the template.
 
 ```javascript
 setInputFile(value: string) : void;
@@ -73,7 +106,7 @@ When setting a non-null and non-empty path to this property, the previously set 
 
 ### getInputStream() {#getInputStream--}
 
-Gets and sets the Stream of the template.
+<b>@deprecated.</b> Please use the 'inputStream' property instead. Gets and sets the Stream of the template.
 
 ```javascript
 getInputStream() : Uint8Array;
@@ -86,7 +119,7 @@ When setting a non-null Stream to this property, the previously set value for [I
 
 ### setInputStream(Uint8Array) {#setInputStream-uint8array-}
 
-Gets and sets the Stream of the template.
+<b>@deprecated.</b> Please use the 'inputStream' property instead. Gets and sets the Stream of the template.
 
 ```javascript
 setInputStream(value: Uint8Array) : void;

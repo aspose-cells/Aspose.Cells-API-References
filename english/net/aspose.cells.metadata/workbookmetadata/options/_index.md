@@ -56,10 +56,8 @@ namespace AsposeCellsExamples
             MetadataOptions newOptions = new MetadataOptions(MetadataType.Encryption);
             newOptions.Password = "newpassword";
             newOptions.KeyLength = 256;
-
-            // Note: Since Options is read-only, we can't assign newOptions directly
-            // Instead we create a new WorkbookMetadata instance with the new options
-            WorkbookMetadata encryptedMetadata = new WorkbookMetadata("output.xlsx", newOptions);
+            
+            WorkbookMetadata encryptedMetadata = new WorkbookMetadata("sample.xlsx", newOptions);
             encryptedMetadata.Save("encrypted_output.xlsx");
         }
     }

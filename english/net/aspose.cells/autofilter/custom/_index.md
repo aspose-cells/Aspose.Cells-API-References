@@ -43,7 +43,7 @@ namespace AsposeCellsExamples
             }
 
             // Set autofilter range (A1:A11)
-            worksheet.AutoFilter.Range = "A1:A11";
+            worksheet.AutoFilter.SetRange(0, 0, 0);
 
             try
             {
@@ -61,7 +61,7 @@ namespace AsposeCellsExamples
             }
             
             // Save the filtered workbook
-            workbook.Save("AutoFilterCustomMethodDemo.xlsx");
+            workbook.Save("AutoFilterMethodCustomWithInt32FilterOperatorTypeObjectDemo.xlsx");
         }
     }
 }
@@ -109,7 +109,7 @@ namespace AsposeCellsExamples
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            
+
             // Populate sample data
             worksheet.Cells["A1"].PutValue("Product ID");
             worksheet.Cells["A2"].PutValue(85);
@@ -121,17 +121,17 @@ namespace AsposeCellsExamples
 
             // Set auto filter range (A1:A7)
             AutoFilter autoFilter = worksheet.AutoFilter;
-            autoFilter.SetRange(0, 6, 0); // Start row: 0 (A1), End row: 6 (A7), Column: 0 (A)
+            autoFilter.SetRange(0, 0, 0); // Start row: 0 (A1), strartt column: 0 (A), end Column: 0 (A)
 
             try
             {
                 // Apply custom filter: Greater than or equal to 50 AND Less than or equal to 100
                 autoFilter.Custom(
                     0, // Field index (column A)
-                    FilterOperatorType.GreaterOrEqual, 
+                    FilterOperatorType.GreaterOrEqual,
                     50, // First criteria
                     true, // AND combination
-                    FilterOperatorType.LessOrEqual, 
+                    FilterOperatorType.LessOrEqual,
                     100 // Second criteria
                 );
 
@@ -147,7 +147,7 @@ namespace AsposeCellsExamples
             }
 
             // Save the filtered workbook
-            workbook.Save("AutoFilterCustomMethodDemo.xlsx");
+            workbook.Save("AutoFilterMethodCustomWithInt32FilterOperatorTypeObjectBDemo.xlsx");
         }
     }
 }

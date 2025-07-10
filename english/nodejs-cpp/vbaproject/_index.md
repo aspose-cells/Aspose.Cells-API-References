@@ -15,21 +15,35 @@ class VbaProject;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isValidSigned](#isValidSigned--)| boolean | Readonly. Indicates whether the signature of VBA project is valid or not. |
+| [certRawData](#certRawData--)| Uint8Array | Readonly. Gets certificate raw data if this VBA project is signed. |
+| [encoding](#encoding--)| EncodingType | Gets and sets the encoding of VBA project. |
+| [name](#name--)| string | Gets and sets the name of the VBA project. |
+| [isSigned](#isSigned--)| boolean | Readonly. Indicates whether VBAcode is signed or not. |
+| [isProtected](#isProtected--)| boolean | Readonly. Indicates whether this VBA project is protected. |
+| [islockedForViewing](#islockedForViewing--)| boolean | Readonly. Indicates whether this VBA project is locked for viewing. |
+| [modules](#modules--)| VbaModuleCollection | Readonly. Gets all [VbaModule](../vbamodule/) objects. |
+| [references](#references--)| VbaProjectReferenceCollection | Readonly. Gets all references of VBA project. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isValidSigned()](#isValidSigned--)| Indicates whether the signature of VBA project is valid or not. |
-| [getCertRawData()](#getCertRawData--)| Gets certificate raw data if this VBA project is signed. |
-| [getEncoding()](#getEncoding--)| Gets and sets the encoding of VBA project. |
-| [setEncoding(EncodingType)](#setEncoding-encodingtype-)| Gets and sets the encoding of VBA project. |
-| [getName()](#getName--)| Gets and sets the name of the VBA project. |
-| [setName(string)](#setName-string-)| Gets and sets the name of the VBA project. |
-| [isSigned()](#isSigned--)| Indicates whether VBAcode is signed or not. |
-| [isProtected()](#isProtected--)| Indicates whether this VBA project is protected. |
-| [getIslockedForViewing()](#getIslockedForViewing--)| Indicates whether this VBA project is locked for viewing. |
-| [getModules()](#getModules--)| Gets all [VbaModule](../vbamodule/) objects. |
-| [getReferences()](#getReferences--)| Gets all references of VBA project. |
+| [isValidSigned()](#isValidSigned--)| <b>@deprecated.</b> Please use the 'isValidSigned' property instead. Indicates whether the signature of VBA project is valid or not. |
+| [getCertRawData()](#getCertRawData--)| <b>@deprecated.</b> Please use the 'certRawData' property instead. Gets certificate raw data if this VBA project is signed. |
+| [getEncoding()](#getEncoding--)| <b>@deprecated.</b> Please use the 'encoding' property instead. Gets and sets the encoding of VBA project. |
+| [setEncoding(EncodingType)](#setEncoding-encodingtype-)| <b>@deprecated.</b> Please use the 'encoding' property instead. Gets and sets the encoding of VBA project. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the VBA project. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the VBA project. |
+| [isSigned()](#isSigned--)| <b>@deprecated.</b> Please use the 'isSigned' property instead. Indicates whether VBAcode is signed or not. |
+| [isProtected()](#isProtected--)| <b>@deprecated.</b> Please use the 'isProtected' property instead. Indicates whether this VBA project is protected. |
+| [getIslockedForViewing()](#getIslockedForViewing--)| <b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for viewing. |
+| [getModules()](#getModules--)| <b>@deprecated.</b> Please use the 'modules' property instead. Gets all [VbaModule](../vbamodule/) objects. |
+| [getReferences()](#getReferences--)| <b>@deprecated.</b> Please use the 'references' property instead. Gets all references of VBA project. |
 | [sign(DigitalSignature)](#sign-digitalsignature-)| Sign this VBA project by a DigitalSignature |
 | [protect(boolean, string)](#protect-boolean-string-)| Protects or unprotects this VBA project. |
 | [copy(VbaProject)](#copy-vbaproject-)| Copy VBA project from other file. |
@@ -37,9 +51,90 @@ class VbaProject;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### isValidSigned {#isValidSigned--}
+
+Readonly. Indicates whether the signature of VBA project is valid or not.
+
+```javascript
+isValidSigned : boolean;
+```
+
+
+### certRawData {#certRawData--}
+
+Readonly. Gets certificate raw data if this VBA project is signed.
+
+```javascript
+certRawData : Uint8Array;
+```
+
+
+### encoding {#encoding--}
+
+Gets and sets the encoding of VBA project.
+
+```javascript
+encoding : EncodingType;
+```
+
+
+### name {#name--}
+
+Gets and sets the name of the VBA project.
+
+```javascript
+name : string;
+```
+
+
+### isSigned {#isSigned--}
+
+Readonly. Indicates whether VBAcode is signed or not.
+
+```javascript
+isSigned : boolean;
+```
+
+
+### isProtected {#isProtected--}
+
+Readonly. Indicates whether this VBA project is protected.
+
+```javascript
+isProtected : boolean;
+```
+
+
+### islockedForViewing {#islockedForViewing--}
+
+Readonly. Indicates whether this VBA project is locked for viewing.
+
+```javascript
+islockedForViewing : boolean;
+```
+
+
+### modules {#modules--}
+
+Readonly. Gets all [VbaModule](../vbamodule/) objects.
+
+```javascript
+modules : VbaModuleCollection;
+```
+
+
+### references {#references--}
+
+Readonly. Gets all references of VBA project.
+
+```javascript
+references : VbaProjectReferenceCollection;
+```
+
+
 ### isValidSigned() {#isValidSigned--}
 
-Indicates whether the signature of VBA project is valid or not.
+<b>@deprecated.</b> Please use the 'isValidSigned' property instead. Indicates whether the signature of VBA project is valid or not.
 
 ```javascript
 isValidSigned() : boolean;
@@ -48,7 +143,7 @@ isValidSigned() : boolean;
 
 ### getCertRawData() {#getCertRawData--}
 
-Gets certificate raw data if this VBA project is signed.
+<b>@deprecated.</b> Please use the 'certRawData' property instead. Gets certificate raw data if this VBA project is signed.
 
 ```javascript
 getCertRawData() : Uint8Array;
@@ -57,7 +152,7 @@ getCertRawData() : Uint8Array;
 
 ### getEncoding() {#getEncoding--}
 
-Gets and sets the encoding of VBA project.
+<b>@deprecated.</b> Please use the 'encoding' property instead. Gets and sets the encoding of VBA project.
 
 ```javascript
 getEncoding() : EncodingType;
@@ -70,7 +165,7 @@ getEncoding() : EncodingType;
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
-Gets and sets the encoding of VBA project.
+<b>@deprecated.</b> Please use the 'encoding' property instead. Gets and sets the encoding of VBA project.
 
 ```javascript
 setEncoding(value: EncodingType) : void;
@@ -83,7 +178,7 @@ setEncoding(value: EncodingType) : void;
 
 ### getName() {#getName--}
 
-Gets and sets the name of the VBA project.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the VBA project.
 
 ```javascript
 getName() : string;
@@ -92,7 +187,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets and sets the name of the VBA project.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the VBA project.
 
 ```javascript
 setName(value: string) : void;
@@ -105,7 +200,7 @@ setName(value: string) : void;
 
 ### isSigned() {#isSigned--}
 
-Indicates whether VBAcode is signed or not.
+<b>@deprecated.</b> Please use the 'isSigned' property instead. Indicates whether VBAcode is signed or not.
 
 ```javascript
 isSigned() : boolean;
@@ -114,7 +209,7 @@ isSigned() : boolean;
 
 ### isProtected() {#isProtected--}
 
-Indicates whether this VBA project is protected.
+<b>@deprecated.</b> Please use the 'isProtected' property instead. Indicates whether this VBA project is protected.
 
 ```javascript
 isProtected() : boolean;
@@ -123,7 +218,7 @@ isProtected() : boolean;
 
 ### getIslockedForViewing() {#getIslockedForViewing--}
 
-Indicates whether this VBA project is locked for viewing.
+<b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for viewing.
 
 ```javascript
 getIslockedForViewing() : boolean;
@@ -132,7 +227,7 @@ getIslockedForViewing() : boolean;
 
 ### getModules() {#getModules--}
 
-Gets all [VbaModule](../vbamodule/) objects.
+<b>@deprecated.</b> Please use the 'modules' property instead. Gets all [VbaModule](../vbamodule/) objects.
 
 ```javascript
 getModules() : VbaModuleCollection;
@@ -145,7 +240,7 @@ getModules() : VbaModuleCollection;
 
 ### getReferences() {#getReferences--}
 
-Gets all references of VBA project.
+<b>@deprecated.</b> Please use the 'references' property instead. Gets all references of VBA project.
 
 ```javascript
 getReferences() : VbaProjectReferenceCollection;

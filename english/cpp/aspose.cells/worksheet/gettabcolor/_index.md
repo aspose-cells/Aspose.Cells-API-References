@@ -4,7 +4,7 @@ linktitle: GetTabColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetTabColor method. Represents worksheet tab color in C++.'
 type: docs
-weight: 10100
+weight: 10200
 url: /cpp/aspose.cells/worksheet/gettabcolor/
 ---
 ## Worksheet::GetTabColor method

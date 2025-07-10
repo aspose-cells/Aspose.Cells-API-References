@@ -24,7 +24,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetAddTooltipText()](./getaddtooltiptext/) | Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false. |
 | [GetAttachedFilesDirectory()](./getattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [GetAttachedFilesUrlPrefix()](./getattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
-| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [GetCellCssPrefix()](./getcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [GetCellNameAttribute()](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
@@ -117,8 +117,8 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetAttachedFilesDirectory(const char16_t* value)](./setattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [SetAttachedFilesUrlPrefix(const U16String\& value)](./setattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
 | [SetAttachedFilesUrlPrefix(const char16_t* value)](./setattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
-| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [SetCellCssPrefix(const U16String\& value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [SetCellCssPrefix(const char16_t* value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |

@@ -17,9 +17,15 @@ class ThreadedCommentAuthorCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [currentPerson](#currentPerson--)| ThreadedCommentAuthor | Gets and sets the current user. |
 
 ## Methods
 
@@ -27,11 +33,11 @@ class ThreadedCommentAuthorCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the person who create threaded comments. |
 | [get(string)](#get-string-)| Gets the person who create threaded comments. |
-| [getCurrentPerson()](#getCurrentPerson--)| Gets and sets the current user. |
-| [setCurrentPerson(ThreadedCommentAuthor)](#setCurrentPerson-threadedcommentauthor-)| Gets and sets the current user. |
+| [getCurrentPerson()](#getCurrentPerson--)| <b>@deprecated.</b> Please use the 'currentPerson' property instead. Gets and sets the current user. |
+| [setCurrentPerson(ThreadedCommentAuthor)](#setCurrentPerson-threadedcommentauthor-)| <b>@deprecated.</b> Please use the 'currentPerson' property instead. Gets and sets the current user. |
 | [indexOf(ThreadedCommentAuthor)](#indexOf-threadedcommentauthor-)| Gets the index of ThreadedCommentAuthor object |
 | [add(string, string, string)](#add-string-string-string-)| Adds one thread comment person. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,6 +47,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### currentPerson {#currentPerson--}
+
+Gets and sets the current user.
+
+```javascript
+currentPerson : ThreadedCommentAuthor;
 ```
 
 
@@ -80,7 +95,7 @@ get(name: string) : ThreadedCommentAuthor;
 
 ### getCurrentPerson() {#getCurrentPerson--}
 
-Gets and sets the current user.
+<b>@deprecated.</b> Please use the 'currentPerson' property instead. Gets and sets the current user.
 
 ```javascript
 getCurrentPerson() : ThreadedCommentAuthor;
@@ -93,7 +108,7 @@ getCurrentPerson() : ThreadedCommentAuthor;
 
 ### setCurrentPerson(ThreadedCommentAuthor) {#setCurrentPerson-threadedcommentauthor-}
 
-Gets and sets the current user.
+<b>@deprecated.</b> Please use the 'currentPerson' property instead. Gets and sets the current user.
 
 ```javascript
 setCurrentPerson(value: ThreadedCommentAuthor) : void;
@@ -138,7 +153,7 @@ add(name: string, userId: string, providerId: string) : number;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

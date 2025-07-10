@@ -15,20 +15,45 @@ class WebExtensionProperty;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Gets and set a custom property name. |
+| [value](#value--)| string | Gets and sets a custom property value. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets and set a custom property name. |
-| [setName(string)](#setName-string-)| Gets and set a custom property name. |
-| [getValue()](#getValue--)| Gets and sets a custom property value. |
-| [setValue(string)](#setValue-string-)| Gets and sets a custom property value. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and set a custom property name. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and set a custom property name. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets a custom property value. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets a custom property value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### name {#name--}
+
+Gets and set a custom property name.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Gets and sets a custom property value.
+
+```javascript
+value : string;
+```
 
 
 ### getName() {#getName--}
 
-Gets and set a custom property name.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and set a custom property name.
 
 ```javascript
 getName() : string;
@@ -37,7 +62,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets and set a custom property name.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and set a custom property name.
 
 ```javascript
 setName(value: string) : void;
@@ -50,7 +75,7 @@ setName(value: string) : void;
 
 ### getValue() {#getValue--}
 
-Gets and sets a custom property value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets a custom property value.
 
 ```javascript
 getValue() : string;
@@ -59,7 +84,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Gets and sets a custom property value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets a custom property value.
 
 ```javascript
 setValue(value: string) : void;

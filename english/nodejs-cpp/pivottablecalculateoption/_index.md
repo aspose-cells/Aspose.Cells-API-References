@@ -17,20 +17,28 @@ class PivotTableCalculateOption;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [refreshData](#refreshData--)| boolean | Indicates whether refreshing data source of the pivottable. |
+| [refreshCharts](#refreshCharts--)| boolean | Indicates whether refreshing charts are based on this pivot table. |
+| [reserveMissingPivotItemType](#reserveMissingPivotItemType--)| ReserveMissingPivotItemType | Represents how to reserve missing pivot items. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRefreshData()](#getRefreshData--)| Indicates whether refreshing data source of the pivottable. |
-| [setRefreshData(boolean)](#setRefreshData-boolean-)| Indicates whether refreshing data source of the pivottable. |
-| [getRefreshCharts()](#getRefreshCharts--)| Indicates whether refreshing charts are based on this pivot table. |
-| [setRefreshCharts(boolean)](#setRefreshCharts-boolean-)| Indicates whether refreshing charts are based on this pivot table. |
-| [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| Represents how to reserve missing pivot items. |
-| [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| Represents how to reserve missing pivot items. |
+| [getRefreshData()](#getRefreshData--)| <b>@deprecated.</b> Please use the 'refreshData' property instead. Indicates whether refreshing data source of the pivottable. |
+| [setRefreshData(boolean)](#setRefreshData-boolean-)| <b>@deprecated.</b> Please use the 'refreshData' property instead. Indicates whether refreshing data source of the pivottable. |
+| [getRefreshCharts()](#getRefreshCharts--)| <b>@deprecated.</b> Please use the 'refreshCharts' property instead. Indicates whether refreshing charts are based on this pivot table. |
+| [setRefreshCharts(boolean)](#setRefreshCharts-boolean-)| <b>@deprecated.</b> Please use the 'refreshCharts' property instead. Indicates whether refreshing charts are based on this pivot table. |
+| [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
+| [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,40 @@ constructor();
 ```
 
 
-### getRefreshData() {#getRefreshData--}
+### refreshData {#refreshData--}
 
 Indicates whether refreshing data source of the pivottable.
+
+```javascript
+refreshData : boolean;
+```
+
+
+### refreshCharts {#refreshCharts--}
+
+Indicates whether refreshing charts are based on this pivot table.
+
+```javascript
+refreshCharts : boolean;
+```
+
+
+### reserveMissingPivotItemType {#reserveMissingPivotItemType--}
+
+Represents how to reserve missing pivot items.
+
+```javascript
+reserveMissingPivotItemType : ReserveMissingPivotItemType;
+```
+
+
+**Remarks**
+
+Only works when [RefreshData](../refreshdata/) is true.
+
+### getRefreshData() {#getRefreshData--}
+
+<b>@deprecated.</b> Please use the 'refreshData' property instead. Indicates whether refreshing data source of the pivottable.
 
 ```javascript
 getRefreshData() : boolean;
@@ -54,7 +93,7 @@ getRefreshData() : boolean;
 
 ### setRefreshData(boolean) {#setRefreshData-boolean-}
 
-Indicates whether refreshing data source of the pivottable.
+<b>@deprecated.</b> Please use the 'refreshData' property instead. Indicates whether refreshing data source of the pivottable.
 
 ```javascript
 setRefreshData(value: boolean) : void;
@@ -67,7 +106,7 @@ setRefreshData(value: boolean) : void;
 
 ### getRefreshCharts() {#getRefreshCharts--}
 
-Indicates whether refreshing charts are based on this pivot table.
+<b>@deprecated.</b> Please use the 'refreshCharts' property instead. Indicates whether refreshing charts are based on this pivot table.
 
 ```javascript
 getRefreshCharts() : boolean;
@@ -76,7 +115,7 @@ getRefreshCharts() : boolean;
 
 ### setRefreshCharts(boolean) {#setRefreshCharts-boolean-}
 
-Indicates whether refreshing charts are based on this pivot table.
+<b>@deprecated.</b> Please use the 'refreshCharts' property instead. Indicates whether refreshing charts are based on this pivot table.
 
 ```javascript
 setRefreshCharts(value: boolean) : void;
@@ -89,7 +128,7 @@ setRefreshCharts(value: boolean) : void;
 
 ### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
 
-Represents how to reserve missing pivot items.
+<b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items.
 
 ```javascript
 getReserveMissingPivotItemType() : ReserveMissingPivotItemType;
@@ -106,7 +145,7 @@ Only works when [RefreshData](../refreshdata/) is true.
 
 ### setReserveMissingPivotItemType(ReserveMissingPivotItemType) {#setReserveMissingPivotItemType-reservemissingpivotitemtype-}
 
-Represents how to reserve missing pivot items.
+<b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items.
 
 ```javascript
 setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;

@@ -4,7 +4,7 @@ linktitle: IsSharedFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsSharedFormula method. Indicates whether the cell formula is part of shared formula in C++.'
 type: docs
-weight: 4900
+weight: 5000
 url: /cpp/aspose.cells/cell/issharedformula/
 ---
 ## Cell::IsSharedFormula method

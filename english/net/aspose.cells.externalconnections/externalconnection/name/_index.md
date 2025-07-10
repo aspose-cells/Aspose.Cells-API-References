@@ -16,19 +16,26 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("connection: " + externalConnection.Name);
-public void ExternalConnection_Property_Name()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-    for (int i = 0; i < workbook.DataConnections.Count; i++)
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionPropertyNameDemo
     {
-        Aspose.Cells.ExternalConnections.ExternalConnection externalConnection = workbook.DataConnections[i];
-        Console.WriteLine("connection: " + externalConnection.Name);
-        PrintTables(workbook, externalConnection);
-        Console.WriteLine();
+        public static void Run()
+        {
+            Workbook workbook = new Workbook("example.xlsm");
+
+            foreach (ExternalConnection connection in workbook.DataConnections)
+            {
+                Console.WriteLine("Connection Name: " + connection.Name);
+            }
+
+            workbook.Save("output.xlsm");
+        }
     }
-    workbook.Save(Constants.destPath + "example.xlsm");
 }
 ```
 

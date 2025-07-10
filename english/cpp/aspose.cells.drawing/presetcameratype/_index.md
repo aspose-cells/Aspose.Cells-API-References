@@ -4,7 +4,7 @@ linktitle: PresetCameraType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PresetCameraType enum. Represent different algorithmic methods for setting all camera properties, including position in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells.drawing/presetcameratype/
 ---
 ## PresetCameraType enum

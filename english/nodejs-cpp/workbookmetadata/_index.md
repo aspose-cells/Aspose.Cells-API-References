@@ -17,18 +17,26 @@ class WorkbookMetadata;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(string, MetadataOptions)](#constructor-string-metadataoptions-)| Create the meta data object. |
 | [constructor(Uint8Array, MetadataOptions)](#constructor-uint8array-metadataoptions-)| Create the meta data object. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [options](#options--)| MetadataOptions | Readonly. Gets the options of the metadata. |
+| [builtInDocumentProperties](#builtInDocumentProperties--)| BuiltInDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet. |
+| [customDocumentProperties](#customDocumentProperties--)| CustomDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getOptions()](#getOptions--)| Gets the options of the metadata. |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getOptions()](#getOptions--)| <b>@deprecated.</b> Please use the 'options' property instead. Gets the options of the metadata. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| <b>@deprecated.</b> Please use the 'builtInDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| <b>@deprecated.</b> Please use the 'customDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [save(string)](#save-string-)| Save the modified metadata to the file. |
 | [save(Uint8Array)](#save-uint8array-)| Save the modified metadata to the stream. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -62,9 +70,36 @@ constructor(stream: Uint8Array, options: MetadataOptions);
 | stream | Uint8Array |  |
 | options | [MetadataOptions](../metadataoptions/) |  |
 
+### options {#options--}
+
+Readonly. Gets the options of the metadata.
+
+```javascript
+options : MetadataOptions;
+```
+
+
+### builtInDocumentProperties {#builtInDocumentProperties--}
+
+Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet.
+
+```javascript
+builtInDocumentProperties : BuiltInDocumentPropertyCollection;
+```
+
+
+### customDocumentProperties {#customDocumentProperties--}
+
+Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+
+```javascript
+customDocumentProperties : CustomDocumentPropertyCollection;
+```
+
+
 ### getOptions() {#getOptions--}
 
-Gets the options of the metadata.
+<b>@deprecated.</b> Please use the 'options' property instead. Gets the options of the metadata.
 
 ```javascript
 getOptions() : MetadataOptions;
@@ -77,7 +112,7 @@ getOptions() : MetadataOptions;
 
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 
-Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet.
+<b>@deprecated.</b> Please use the 'builtInDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the  built-in document properties of the spreadsheet.
 
 ```javascript
 getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
@@ -90,7 +125,7 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
-Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+<b>@deprecated.</b> Please use the 'customDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
 
 ```javascript
 getCustomDocumentProperties() : CustomDocumentPropertyCollection;

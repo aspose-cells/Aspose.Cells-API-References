@@ -22,46 +22,42 @@ NOTE: This property is now obsolete. Instead, please use DataMashup.PowerQueryFo
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
-public static void DataMashup_Property_PowerQueryFormulaParameters()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
+{
+    public class DataMashupPropertyPowerQueryFormulaParametersDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
-
-            // Access the DataMashup property of the workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the DataMashup property
             DataMashup dataMashup = workbook.DataMashup;
 
             if (dataMashup != null)
             {
-                // Access the PowerQueryFormulas property
-                PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
+                // Access PowerQueryFormulaParameters
+                PowerQueryFormulaParameterCollection parameters = dataMashup.PowerQueryFormulaParameters;
 
-                // Access the PowerQueryFormulaParameters property
-                PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
+                // Display parameter count
+                Console.WriteLine($"Number of parameters: {parameters.Count}");
 
-                // Example usage: Iterate through PowerQueryFormulas
-                foreach (PowerQueryFormula formula in powerQueryFormulas)
+                // Iterate through parameters if any exist
+                foreach (PowerQueryFormulaParameter parameter in parameters)
                 {
-                    Console.WriteLine(formula.Name);
-                }
-
-                // Example usage: Iterate through PowerQueryFormulaParameters
-                foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
-                {
-                    // Display the parameter details
-                    Console.WriteLine("Parameter Name: " + para.Name);
-                    Console.WriteLine("Parameter Value: " + para.Value);
-
-                    Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
+                    Console.WriteLine($"Parameter Name: {parameter.Name}, Value: {parameter.Value}");
                 }
             }
-            
 
             // Save the workbook
-            workbook.Save("PowerQueryFormulaParameterExample.xlsx");
-
-            return;
+            workbook.Save("DataMashupDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

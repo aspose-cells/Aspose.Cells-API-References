@@ -4,7 +4,7 @@ linktitle: CalculationCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationCell class. Represents the calculation relevant data about one cell which is being calculated in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/calculationcell/
 ---
 ## CalculationCell class

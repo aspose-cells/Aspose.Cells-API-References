@@ -4,7 +4,7 @@ linktitle: GetSharedStyleIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetSharedStyleIndex method. Gets cell''s shared style index in the style pool in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells/cell/getsharedstyleindex/
 ---
 ## Cell::GetSharedStyleIndex method

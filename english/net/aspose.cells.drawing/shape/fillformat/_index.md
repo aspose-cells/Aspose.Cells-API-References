@@ -19,48 +19,6 @@ public MsoFillFormat FillFormat { get; }
 
 NOTE: This member is now obsolete. Instead, please use Shape.Fill property. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-
-namespace AsposeCellsExamples
-{
-    public class ShapePropertyFillFormatDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a rectangle shape
-            Shape rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 150, 200);
-
-            // Set fill format properties
-            FillFormat fillFormat = rectangle.Fill;
-            fillFormat.Pattern = FillPattern.Solid;
-            fillFormat.SolidFill.Color = System.Drawing.Color.Red;
-            fillFormat.Transparency = 0.5;
-
-            // Add another shape with gradient fill
-            Shape oval = worksheet.Shapes.AddOval(1, 0, 200, 100, 150, 200);
-            FillFormat gradientFill = oval.Fill;
-            gradientFill.SetTwoColorGradient(
-                System.Drawing.Color.Blue,
-                System.Drawing.Color.Green,
-                GradientStyleType.Horizontal,
-                1);
-
-            // Save the workbook
-            workbook.Save("ShapeFillFormatDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [MsoFillFormat](../../msofillformat/)

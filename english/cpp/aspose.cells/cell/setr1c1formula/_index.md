@@ -4,7 +4,7 @@ linktitle: SetR1C1Formula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetR1C1Formula method. Gets or sets a R1C1 formula of the Cell in C++.'
 type: docs
-weight: 3700
+weight: 3800
 url: /cpp/aspose.cells/cell/setr1c1formula/
 ---
 ## Cell::SetR1C1Formula(const U16String\&) method

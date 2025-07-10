@@ -4,7 +4,7 @@ linktitle: UpdateLinkedDataSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::UpdateLinkedDataSource method. If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources in C++.'
 type: docs
-weight: 5500
+weight: 5600
 url: /cpp/aspose.cells/workbook/updatelinkeddatasource/
 ---
 ## Workbook::UpdateLinkedDataSource method

@@ -15,24 +15,69 @@ class FilterColumn;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isDropdownVisible](#isDropdownVisible--)| boolean | Indicates whether the AutoFilter button for this column is visible. |
+| [filter](#filter--)| Object | Gets and sets the condition of filtering data. |
+| [filterType](#filterType--)| FilterType | Gets and sets the type fo filtering data. |
+| [fieldIndex](#fieldIndex--)| number | Gets and sets the column offset in the range. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isDropdownVisible()](#isDropdownVisible--)| Indicates whether the AutoFilter button for this column is visible. |
-| [setIsDropdownVisible(boolean)](#setIsDropdownVisible-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
-| [getFilter()](#getFilter--)| Gets and sets the condition of filtering data. |
-| [setFilter(Object)](#setFilter-object-)| Gets and sets the condition of filtering data. |
-| [getFilterType()](#getFilterType--)| Gets and sets the type fo filtering data. |
-| [setFilterType(FilterType)](#setFilterType-filtertype-)| Gets and sets the type fo filtering data. |
-| [getFieldIndex()](#getFieldIndex--)| Gets and sets the column offset in the range. |
-| [setFieldIndex(number)](#setFieldIndex-number-)| Gets and sets the column offset in the range. |
+| [isDropdownVisible()](#isDropdownVisible--)| <b>@deprecated.</b> Please use the 'isDropdownVisible' property instead. Indicates whether the AutoFilter button for this column is visible. |
+| [setIsDropdownVisible(boolean)](#setIsDropdownVisible-boolean-)| <b>@deprecated.</b> Please use the 'isDropdownVisible' property instead. Indicates whether the AutoFilter button for this column is visible. |
+| [getFilter()](#getFilter--)| <b>@deprecated.</b> Please use the 'filter' property instead. Gets and sets the condition of filtering data. |
+| [setFilter(Object)](#setFilter-object-)| <b>@deprecated.</b> Please use the 'filter' property instead. Gets and sets the condition of filtering data. |
+| [getFilterType()](#getFilterType--)| <b>@deprecated.</b> Please use the 'filterType' property instead. Gets and sets the type fo filtering data. |
+| [setFilterType(FilterType)](#setFilterType-filtertype-)| <b>@deprecated.</b> Please use the 'filterType' property instead. Gets and sets the type fo filtering data. |
+| [getFieldIndex()](#getFieldIndex--)| <b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets and sets the column offset in the range. |
+| [setFieldIndex(number)](#setFieldIndex-number-)| <b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets and sets the column offset in the range. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### isDropdownVisible {#isDropdownVisible--}
+
+Indicates whether the AutoFilter button for this column is visible.
+
+```javascript
+isDropdownVisible : boolean;
+```
+
+
+### filter {#filter--}
+
+Gets and sets the condition of filtering data.
+
+```javascript
+filter : Object;
+```
+
+
+### filterType {#filterType--}
+
+Gets and sets the type fo filtering data.
+
+```javascript
+filterType : FilterType;
+```
+
+
+### fieldIndex {#fieldIndex--}
+
+Gets and sets the column offset in the range.
+
+```javascript
+fieldIndex : number;
+```
 
 
 ### isDropdownVisible() {#isDropdownVisible--}
 
-Indicates whether the AutoFilter button for this column is visible.
+<b>@deprecated.</b> Please use the 'isDropdownVisible' property instead. Indicates whether the AutoFilter button for this column is visible.
 
 ```javascript
 isDropdownVisible() : boolean;
@@ -41,7 +86,7 @@ isDropdownVisible() : boolean;
 
 ### setIsDropdownVisible(boolean) {#setIsDropdownVisible-boolean-}
 
-Indicates whether the AutoFilter button for this column is visible.
+<b>@deprecated.</b> Please use the 'isDropdownVisible' property instead. Indicates whether the AutoFilter button for this column is visible.
 
 ```javascript
 setIsDropdownVisible(value: boolean) : void;
@@ -54,7 +99,7 @@ setIsDropdownVisible(value: boolean) : void;
 
 ### getFilter() {#getFilter--}
 
-Gets and sets the condition of filtering data.
+<b>@deprecated.</b> Please use the 'filter' property instead. Gets and sets the condition of filtering data.
 
 ```javascript
 getFilter() : Object;
@@ -63,7 +108,7 @@ getFilter() : Object;
 
 ### setFilter(Object) {#setFilter-object-}
 
-Gets and sets the condition of filtering data.
+<b>@deprecated.</b> Please use the 'filter' property instead. Gets and sets the condition of filtering data.
 
 ```javascript
 setFilter(value: Object) : void;
@@ -76,7 +121,7 @@ setFilter(value: Object) : void;
 
 ### getFilterType() {#getFilterType--}
 
-Gets and sets the type fo filtering data.
+<b>@deprecated.</b> Please use the 'filterType' property instead. Gets and sets the type fo filtering data.
 
 ```javascript
 getFilterType() : FilterType;
@@ -89,7 +134,7 @@ getFilterType() : FilterType;
 
 ### setFilterType(FilterType) {#setFilterType-filtertype-}
 
-Gets and sets the type fo filtering data.
+<b>@deprecated.</b> Please use the 'filterType' property instead. Gets and sets the type fo filtering data.
 
 ```javascript
 setFilterType(value: FilterType) : void;
@@ -102,7 +147,7 @@ setFilterType(value: FilterType) : void;
 
 ### getFieldIndex() {#getFieldIndex--}
 
-Gets and sets the column offset in the range.
+<b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets and sets the column offset in the range.
 
 ```javascript
 getFieldIndex() : number;
@@ -111,7 +156,7 @@ getFieldIndex() : number;
 
 ### setFieldIndex(number) {#setFieldIndex-number-}
 
-Gets and sets the column offset in the range.
+<b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets and sets the column offset in the range.
 
 ```javascript
 setFieldIndex(value: number) : void;

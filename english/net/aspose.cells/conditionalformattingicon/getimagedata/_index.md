@@ -24,17 +24,32 @@ Returns the image data of icon.
 ### Examples
 
 ```csharp
-// Called: byte[] d = icon.GetImageData(wb.Worksheets[0].Cells["E1"]);
-public void ConditionalFormattingIcon_Method_GetImageData()
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    ConditionalFormattingIcon icon = wb.Worksheets[0].ConditionalFormattings[0][0].IconSet.CfIcons[0];
-    byte[] d = icon.GetImageData(wb.Worksheets[0].Cells["E1"]);
-    Assert.AreEqual(13,Image.FromStream(new MemoryStream(d)).Width);
-    //d = icon.GetImageData(wb.Worksheets[0].Cells["F1"]);
-    //File.WriteAllBytes(dir + "F1.png", d);
-    d = icon.GetImageData(wb.Worksheets[0].Cells["G1"]);
-    Assert.AreEqual(24,Image.FromStream(new MemoryStream(d)).Width);
+    public class ConditionalFormattingIconMethodGetImageDataWithCellDemo
+    {
+        public static void Run()
+        {
+            string outputDir = "Output/";
+            Directory.CreateDirectory(outputDir);
+
+            Workbook workbook = new Workbook("example.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ConditionalFormattingIcon icon = worksheet.ConditionalFormattings[0][0].IconSet.CfIcons[0];
+            
+            Cell targetCell = worksheet.Cells["E1"];
+            byte[] imageData = icon.GetImageData(targetCell);
+            File.WriteAllBytes(Path.Combine(outputDir, "E1_icon.png"), imageData);
+            
+            targetCell = worksheet.Cells["G1"];
+            imageData = icon.GetImageData(targetCell);
+            File.WriteAllBytes(Path.Combine(outputDir, "G1_icon.png"), imageData);
+        }
+    }
 }
 ```
 

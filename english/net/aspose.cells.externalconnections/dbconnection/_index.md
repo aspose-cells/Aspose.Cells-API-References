@@ -50,35 +50,6 @@ public class DBConnection : ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 
-### Examples
-
-```csharp
-// Called: DBConnection conn = (DBConnection)workbook.DataConnections[0];
-public void ExternalConnections_Type_DBConnection()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET51180_";
-    string savePath = CreateFolder(filePath);
-
-    Workbook workbook = new Workbook(filePath + "PivotTables_SourceFile.xls");
-
-    DBConnection conn = (DBConnection)workbook.DataConnections[0];
-    string command = conn.Command;
-    string connectionInfo = conn.ConnectionInfo;
-    Assert.Greater(command.Length, 5);
-    Assert.Greater(connectionInfo.Length, 20);
-
-    workbook.Save(savePath + "example.xlsm", Aspose.Cells.SaveFormat.Xlsm);
-
-    string cacheXml = GetEntryText(savePath + "example.xlsm", @"xl/pivotCache/pivotCacheDefinition1.xml");
-    Assert.AreNotEqual(cacheXml.IndexOf("type=\"external\""), -1);
-
-    Workbook wb = new Workbook(savePath + "example.xlsm");
-    conn = (DBConnection)wb.DataConnections[0];
-    Assert.AreEqual(conn.Command, command);
-    Assert.AreEqual(conn.ConnectionInfo, connectionInfo);
-}
-```
-
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

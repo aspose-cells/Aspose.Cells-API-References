@@ -15,65 +15,345 @@ class Slicer;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [title](#title--)| string | Specifies the title of the current Slicer object. |
+| [alternativeText](#alternativeText--)| string | Returns or sets the descriptive (alternative) text string of the Slicer object. |
+| [isPrintable](#isPrintable--)| boolean | Indicates whether the slicer object is printable. |
+| [isLocked](#isLocked--)| boolean | Indicates whether the slicer shape is locked. |
+| [placement](#placement--)| PlacementType | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [lockedAspectRatio](#lockedAspectRatio--)| boolean | Indicates whether locking aspect ratio. |
+| [lockedPosition](#lockedPosition--)| boolean | Indicates whether the specified slicer can be moved or resized by using the user interface. |
+| [shape](#shape--)| SlicerShape | Readonly. Returns the Shape object associated with the specified slicer. Read-only. |
+| [slicerCache](#slicerCache--)| SlicerCache | Readonly. Returns the SlicerCache object associated with the slicer. Read-only. |
+| [parent](#parent--)| Worksheet | Readonly. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only. |
+| [styleType](#styleType--)| SlicerStyleType | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [name](#name--)| string | Returns or sets the name of the specified slicer |
+| [caption](#caption--)| string | Returns or sets the caption of the specified slicer. |
+| [captionVisible](#captionVisible--)| boolean | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [numberOfColumns](#numberOfColumns--)| number | Returns or sets the number of columns in the specified slicer. |
+| [leftPixel](#leftPixel--)| number | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
+| [topPixel](#topPixel--)| number | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
+| [width](#width--)| number | Returns or sets the width of the specified slicer, in points. |
+| [widthPixel](#widthPixel--)| number | Returns or sets the width of the specified slicer, in pixels. |
+| [height](#height--)| number | Returns or sets the height of the specified slicer, in points. |
+| [heightPixel](#heightPixel--)| number | Returns or sets the height of the specified slicer, in pixels. |
+| [columnWidthPixel](#columnWidthPixel--)| number | Gets or sets the width of each column in the slicer, in unit of pixels. |
+| [columnWidth](#columnWidth--)| number | Returns or sets the width, in points, of each column in the slicer. |
+| [rowHeightPixel](#rowHeightPixel--)| number | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [rowHeight](#rowHeight--)| number | Returns or sets the height, in points, of each row in the specified slicer. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getTitle()](#getTitle--)| Specifies the title of the current Slicer object. |
-| [setTitle(string)](#setTitle-string-)| Specifies the title of the current Slicer object. |
-| [getAlternativeText()](#getAlternativeText--)| Returns or sets the descriptive (alternative) text string of the Slicer object. |
-| [setAlternativeText(string)](#setAlternativeText-string-)| Returns or sets the descriptive (alternative) text string of the Slicer object. |
-| [isPrintable()](#isPrintable--)| Indicates whether the slicer object is printable. |
-| [setIsPrintable(boolean)](#setIsPrintable-boolean-)| Indicates whether the slicer object is printable. |
-| [isLocked()](#isLocked--)| Indicates whether the slicer shape is locked. |
-| [setIsLocked(boolean)](#setIsLocked-boolean-)| Indicates whether the slicer shape is locked. |
-| [getPlacement()](#getPlacement--)| Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
-| [setPlacement(PlacementType)](#setPlacement-placementtype-)| Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
-| [getLockedAspectRatio()](#getLockedAspectRatio--)| Indicates whether locking aspect ratio. |
-| [setLockedAspectRatio(boolean)](#setLockedAspectRatio-boolean-)| Indicates whether locking aspect ratio. |
-| [getLockedPosition()](#getLockedPosition--)| Indicates whether the specified slicer can be moved or resized by using the user interface. |
-| [setLockedPosition(boolean)](#setLockedPosition-boolean-)| Indicates whether the specified slicer can be moved or resized by using the user interface. |
-| [getSlicerCache()](#getSlicerCache--)| Returns the SlicerCache object associated with the slicer. Read-only. |
-| [getParent()](#getParent--)| Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only. |
-| [getStyleType()](#getStyleType--)| Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
-| [setStyleType(SlicerStyleType)](#setStyleType-slicerstyletype-)| Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
-| [getName()](#getName--)| Returns or sets the name of the specified slicer |
-| [setName(string)](#setName-string-)| Returns or sets the name of the specified slicer |
-| [getCaption()](#getCaption--)| Returns or sets the caption of the specified slicer. |
-| [setCaption(string)](#setCaption-string-)| Returns or sets the caption of the specified slicer. |
-| [getCaptionVisible()](#getCaptionVisible--)| Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
-| [setCaptionVisible(boolean)](#setCaptionVisible-boolean-)| Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
-| [getNumberOfColumns()](#getNumberOfColumns--)| Returns or sets the number of columns in the specified slicer. |
-| [setNumberOfColumns(number)](#setNumberOfColumns-number-)| Returns or sets the number of columns in the specified slicer. |
-| [getLeftPixel()](#getLeftPixel--)| Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
-| [setLeftPixel(number)](#setLeftPixel-number-)| Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
-| [getTopPixel()](#getTopPixel--)| Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
-| [setTopPixel(number)](#setTopPixel-number-)| Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
-| [getWidth()](#getWidth--)| Returns or sets the width of the specified slicer, in points. |
-| [setWidth(number)](#setWidth-number-)| Returns or sets the width of the specified slicer, in points. |
-| [getWidthPixel()](#getWidthPixel--)| Returns or sets the width of the specified slicer, in pixels. |
-| [setWidthPixel(number)](#setWidthPixel-number-)| Returns or sets the width of the specified slicer, in pixels. |
-| [getHeight()](#getHeight--)| Returns or sets the height of the specified slicer, in points. |
-| [setHeight(number)](#setHeight-number-)| Returns or sets the height of the specified slicer, in points. |
-| [getHeightPixel()](#getHeightPixel--)| Returns or sets the height of the specified slicer, in pixels. |
-| [setHeightPixel(number)](#setHeightPixel-number-)| Returns or sets the height of the specified slicer, in pixels. |
-| [getColumnWidthPixel()](#getColumnWidthPixel--)| Gets or sets the width in unit of pixels for each column of the slicer. |
-| [setColumnWidthPixel(number)](#setColumnWidthPixel-number-)| Gets or sets the width in unit of pixels for each column of the slicer. |
-| [getColumnWidth()](#getColumnWidth--)| Returns or sets the width, in points, of each column in the slicer. |
-| [setColumnWidth(number)](#setColumnWidth-number-)| Returns or sets the width, in points, of each column in the slicer. |
-| [getRowHeightPixel()](#getRowHeightPixel--)| Returns or sets the height, in pixels, of each row in the specified slicer. |
-| [setRowHeightPixel(number)](#setRowHeightPixel-number-)| Returns or sets the height, in pixels, of each row in the specified slicer. |
-| [getRowHeight()](#getRowHeight--)| Returns or sets the height, in points, of each row in the specified slicer. |
-| [setRowHeight(number)](#setRowHeight-number-)| Returns or sets the height, in points, of each row in the specified slicer. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Specifies the title of the current Slicer object. |
+| [setTitle(string)](#setTitle-string-)| <b>@deprecated.</b> Please use the 'title' property instead. Specifies the title of the current Slicer object. |
+| [getAlternativeText()](#getAlternativeText--)| <b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the Slicer object. |
+| [setAlternativeText(string)](#setAlternativeText-string-)| <b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the Slicer object. |
+| [isPrintable()](#isPrintable--)| <b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the slicer object is printable. |
+| [setIsPrintable(boolean)](#setIsPrintable-boolean-)| <b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the slicer object is printable. |
+| [isLocked()](#isLocked--)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether the slicer shape is locked. |
+| [setIsLocked(boolean)](#setIsLocked-boolean-)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether the slicer shape is locked. |
+| [getPlacement()](#getPlacement--)| <b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [setPlacement(PlacementType)](#setPlacement-placementtype-)| <b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [getLockedAspectRatio()](#getLockedAspectRatio--)| <b>@deprecated.</b> Please use the 'lockedAspectRatio' property instead. Indicates whether locking aspect ratio. |
+| [setLockedAspectRatio(boolean)](#setLockedAspectRatio-boolean-)| <b>@deprecated.</b> Please use the 'lockedAspectRatio' property instead. Indicates whether locking aspect ratio. |
+| [getLockedPosition()](#getLockedPosition--)| <b>@deprecated.</b> Please use the 'lockedPosition' property instead. Indicates whether the specified slicer can be moved or resized by using the user interface. |
+| [setLockedPosition(boolean)](#setLockedPosition-boolean-)| <b>@deprecated.</b> Please use the 'lockedPosition' property instead. Indicates whether the specified slicer can be moved or resized by using the user interface. |
+| [getShape()](#getShape--)| <b>@deprecated.</b> Please use the 'shape' property instead. Returns the Shape object associated with the specified slicer. Read-only. |
+| [getSlicerCache()](#getSlicerCache--)| <b>@deprecated.</b> Please use the 'slicerCache' property instead. Returns the SlicerCache object associated with the slicer. Read-only. |
+| [getParent()](#getParent--)| <b>@deprecated.</b> Please use the 'parent' property instead. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only. |
+| [getStyleType()](#getStyleType--)| <b>@deprecated.</b> Please use the 'styleType' property instead. Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [setStyleType(SlicerStyleType)](#setStyleType-slicerstyletype-)| <b>@deprecated.</b> Please use the 'styleType' property instead. Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified slicer |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified slicer |
+| [getCaption()](#getCaption--)| <b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified slicer. |
+| [setCaption(string)](#setCaption-string-)| <b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified slicer. |
+| [getCaptionVisible()](#getCaptionVisible--)| <b>@deprecated.</b> Please use the 'captionVisible' property instead. Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [setCaptionVisible(boolean)](#setCaptionVisible-boolean-)| <b>@deprecated.</b> Please use the 'captionVisible' property instead. Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [getNumberOfColumns()](#getNumberOfColumns--)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Returns or sets the number of columns in the specified slicer. |
+| [setNumberOfColumns(number)](#setNumberOfColumns-number-)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Returns or sets the number of columns in the specified slicer. |
+| [getLeftPixel()](#getLeftPixel--)| <b>@deprecated.</b> Please use the 'leftPixel' property instead. Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
+| [setLeftPixel(number)](#setLeftPixel-number-)| <b>@deprecated.</b> Please use the 'leftPixel' property instead. Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
+| [getTopPixel()](#getTopPixel--)| <b>@deprecated.</b> Please use the 'topPixel' property instead. Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
+| [setTopPixel(number)](#setTopPixel-number-)| <b>@deprecated.</b> Please use the 'topPixel' property instead. Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Returns or sets the width of the specified slicer, in points. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Returns or sets the width of the specified slicer, in points. |
+| [getWidthPixel()](#getWidthPixel--)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Returns or sets the width of the specified slicer, in pixels. |
+| [setWidthPixel(number)](#setWidthPixel-number-)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Returns or sets the width of the specified slicer, in pixels. |
+| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Returns or sets the height of the specified slicer, in points. |
+| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Returns or sets the height of the specified slicer, in points. |
+| [getHeightPixel()](#getHeightPixel--)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified slicer, in pixels. |
+| [setHeightPixel(number)](#setHeightPixel-number-)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified slicer, in pixels. |
+| [getColumnWidthPixel()](#getColumnWidthPixel--)| <b>@deprecated.</b> Please use the 'columnWidthPixel' property instead. Gets or sets the width of each column in the slicer, in unit of pixels. |
+| [setColumnWidthPixel(number)](#setColumnWidthPixel-number-)| <b>@deprecated.</b> Please use the 'columnWidthPixel' property instead. Gets or sets the width of each column in the slicer, in unit of pixels. |
+| [getColumnWidth()](#getColumnWidth--)| <b>@deprecated.</b> Please use the 'columnWidth' property instead. Returns or sets the width, in points, of each column in the slicer. |
+| [setColumnWidth(number)](#setColumnWidth-number-)| <b>@deprecated.</b> Please use the 'columnWidth' property instead. Returns or sets the width, in points, of each column in the slicer. |
+| [getRowHeightPixel()](#getRowHeightPixel--)| <b>@deprecated.</b> Please use the 'rowHeightPixel' property instead. Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [setRowHeightPixel(number)](#setRowHeightPixel-number-)| <b>@deprecated.</b> Please use the 'rowHeightPixel' property instead. Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [getRowHeight()](#getRowHeight--)| <b>@deprecated.</b> Please use the 'rowHeight' property instead. Returns or sets the height, in points, of each row in the specified slicer. |
+| [setRowHeight(number)](#setRowHeight-number-)| <b>@deprecated.</b> Please use the 'rowHeight' property instead. Returns or sets the height, in points, of each row in the specified slicer. |
 | [addPivotConnection(PivotTable)](#addPivotConnection-pivottable-)| Adds PivotTable connection. |
 | [removePivotConnection(PivotTable)](#removePivotConnection-pivottable-)| Removes PivotTable connection. |
 | [refresh()](#refresh--)| Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getTitle() {#getTitle--}
+### title {#title--}
 
 Specifies the title of the current Slicer object.
+
+```javascript
+title : string;
+```
+
+
+### alternativeText {#alternativeText--}
+
+Returns or sets the descriptive (alternative) text string of the Slicer object.
+
+```javascript
+alternativeText : string;
+```
+
+
+### isPrintable {#isPrintable--}
+
+Indicates whether the slicer object is printable.
+
+```javascript
+isPrintable : boolean;
+```
+
+
+### isLocked {#isLocked--}
+
+Indicates whether the slicer shape is locked.
+
+```javascript
+isLocked : boolean;
+```
+
+
+### placement {#placement--}
+
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+
+```javascript
+placement : PlacementType;
+```
+
+
+### lockedAspectRatio {#lockedAspectRatio--}
+
+Indicates whether locking aspect ratio.
+
+```javascript
+lockedAspectRatio : boolean;
+```
+
+
+### lockedPosition {#lockedPosition--}
+
+Indicates whether the specified slicer can be moved or resized by using the user interface.
+
+```javascript
+lockedPosition : boolean;
+```
+
+
+### shape {#shape--}
+
+Readonly. Returns the Shape object associated with the specified slicer. Read-only.
+
+```javascript
+shape : SlicerShape;
+```
+
+
+### slicerCache {#slicerCache--}
+
+Readonly. Returns the SlicerCache object associated with the slicer. Read-only.
+
+```javascript
+slicerCache : SlicerCache;
+```
+
+
+### parent {#parent--}
+
+Readonly. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only.
+
+```javascript
+parent : Worksheet;
+```
+
+
+### styleType {#styleType--}
+
+Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+
+```javascript
+styleType : SlicerStyleType;
+```
+
+
+### name {#name--}
+
+Returns or sets the name of the specified slicer
+
+```javascript
+name : string;
+```
+
+
+### caption {#caption--}
+
+Returns or sets the caption of the specified slicer.
+
+```javascript
+caption : string;
+```
+
+
+### captionVisible {#captionVisible--}
+
+Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+
+```javascript
+captionVisible : boolean;
+```
+
+
+### numberOfColumns {#numberOfColumns--}
+
+Returns or sets the number of columns in the specified slicer.
+
+```javascript
+numberOfColumns : number;
+```
+
+
+### leftPixel {#leftPixel--}
+
+Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+
+```javascript
+leftPixel : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### topPixel {#topPixel--}
+
+Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+
+```javascript
+topPixel : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### width {#width--}
+
+Returns or sets the width of the specified slicer, in points.
+
+```javascript
+width : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### widthPixel {#widthPixel--}
+
+Returns or sets the width of the specified slicer, in pixels.
+
+```javascript
+widthPixel : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### height {#height--}
+
+Returns or sets the height of the specified slicer, in points.
+
+```javascript
+height : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.HeightPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### heightPixel {#heightPixel--}
+
+Returns or sets the height of the specified slicer, in pixels.
+
+```javascript
+heightPixel : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### columnWidthPixel {#columnWidthPixel--}
+
+Gets or sets the width of each column in the slicer, in unit of pixels.
+
+```javascript
+columnWidthPixel : number;
+```
+
+
+### columnWidth {#columnWidth--}
+
+Returns or sets the width, in points, of each column in the slicer.
+
+```javascript
+columnWidth : number;
+```
+
+
+### rowHeightPixel {#rowHeightPixel--}
+
+Returns or sets the height, in pixels, of each row in the specified slicer.
+
+```javascript
+rowHeightPixel : number;
+```
+
+
+### rowHeight {#rowHeight--}
+
+Returns or sets the height, in points, of each row in the specified slicer.
+
+```javascript
+rowHeight : number;
+```
+
+
+### getTitle() {#getTitle--}
+
+<b>@deprecated.</b> Please use the 'title' property instead. Specifies the title of the current Slicer object.
 
 ```javascript
 getTitle() : string;
@@ -82,7 +362,7 @@ getTitle() : string;
 
 ### setTitle(string) {#setTitle-string-}
 
-Specifies the title of the current Slicer object.
+<b>@deprecated.</b> Please use the 'title' property instead. Specifies the title of the current Slicer object.
 
 ```javascript
 setTitle(value: string) : void;
@@ -95,7 +375,7 @@ setTitle(value: string) : void;
 
 ### getAlternativeText() {#getAlternativeText--}
 
-Returns or sets the descriptive (alternative) text string of the Slicer object.
+<b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the Slicer object.
 
 ```javascript
 getAlternativeText() : string;
@@ -104,7 +384,7 @@ getAlternativeText() : string;
 
 ### setAlternativeText(string) {#setAlternativeText-string-}
 
-Returns or sets the descriptive (alternative) text string of the Slicer object.
+<b>@deprecated.</b> Please use the 'alternativeText' property instead. Returns or sets the descriptive (alternative) text string of the Slicer object.
 
 ```javascript
 setAlternativeText(value: string) : void;
@@ -117,7 +397,7 @@ setAlternativeText(value: string) : void;
 
 ### isPrintable() {#isPrintable--}
 
-Indicates whether the slicer object is printable.
+<b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the slicer object is printable.
 
 ```javascript
 isPrintable() : boolean;
@@ -126,7 +406,7 @@ isPrintable() : boolean;
 
 ### setIsPrintable(boolean) {#setIsPrintable-boolean-}
 
-Indicates whether the slicer object is printable.
+<b>@deprecated.</b> Please use the 'isPrintable' property instead. Indicates whether the slicer object is printable.
 
 ```javascript
 setIsPrintable(value: boolean) : void;
@@ -139,7 +419,7 @@ setIsPrintable(value: boolean) : void;
 
 ### isLocked() {#isLocked--}
 
-Indicates whether the slicer shape is locked.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether the slicer shape is locked.
 
 ```javascript
 isLocked() : boolean;
@@ -148,7 +428,7 @@ isLocked() : boolean;
 
 ### setIsLocked(boolean) {#setIsLocked-boolean-}
 
-Indicates whether the slicer shape is locked.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether the slicer shape is locked.
 
 ```javascript
 setIsLocked(value: boolean) : void;
@@ -161,7 +441,7 @@ setIsLocked(value: boolean) : void;
 
 ### getPlacement() {#getPlacement--}
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+<b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 ```javascript
 getPlacement() : PlacementType;
@@ -174,7 +454,7 @@ getPlacement() : PlacementType;
 
 ### setPlacement(PlacementType) {#setPlacement-placementtype-}
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+<b>@deprecated.</b> Please use the 'placement' property instead. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 ```javascript
 setPlacement(value: PlacementType) : void;
@@ -187,7 +467,7 @@ setPlacement(value: PlacementType) : void;
 
 ### getLockedAspectRatio() {#getLockedAspectRatio--}
 
-Indicates whether locking aspect ratio.
+<b>@deprecated.</b> Please use the 'lockedAspectRatio' property instead. Indicates whether locking aspect ratio.
 
 ```javascript
 getLockedAspectRatio() : boolean;
@@ -196,7 +476,7 @@ getLockedAspectRatio() : boolean;
 
 ### setLockedAspectRatio(boolean) {#setLockedAspectRatio-boolean-}
 
-Indicates whether locking aspect ratio.
+<b>@deprecated.</b> Please use the 'lockedAspectRatio' property instead. Indicates whether locking aspect ratio.
 
 ```javascript
 setLockedAspectRatio(value: boolean) : void;
@@ -209,7 +489,7 @@ setLockedAspectRatio(value: boolean) : void;
 
 ### getLockedPosition() {#getLockedPosition--}
 
-Indicates whether the specified slicer can be moved or resized by using the user interface.
+<b>@deprecated.</b> Please use the 'lockedPosition' property instead. Indicates whether the specified slicer can be moved or resized by using the user interface.
 
 ```javascript
 getLockedPosition() : boolean;
@@ -218,7 +498,7 @@ getLockedPosition() : boolean;
 
 ### setLockedPosition(boolean) {#setLockedPosition-boolean-}
 
-Indicates whether the specified slicer can be moved or resized by using the user interface.
+<b>@deprecated.</b> Please use the 'lockedPosition' property instead. Indicates whether the specified slicer can be moved or resized by using the user interface.
 
 ```javascript
 setLockedPosition(value: boolean) : void;
@@ -229,9 +509,22 @@ setLockedPosition(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getShape() {#getShape--}
+
+<b>@deprecated.</b> Please use the 'shape' property instead. Returns the Shape object associated with the specified slicer. Read-only.
+
+```javascript
+getShape() : SlicerShape;
+```
+
+
+**Returns**
+
+[SlicerShape](../slicershape/)
+
 ### getSlicerCache() {#getSlicerCache--}
 
-Returns the SlicerCache object associated with the slicer. Read-only.
+<b>@deprecated.</b> Please use the 'slicerCache' property instead. Returns the SlicerCache object associated with the slicer. Read-only.
 
 ```javascript
 getSlicerCache() : SlicerCache;
@@ -244,7 +537,7 @@ getSlicerCache() : SlicerCache;
 
 ### getParent() {#getParent--}
 
-Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only.
+<b>@deprecated.</b> Please use the 'parent' property instead. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only.
 
 ```javascript
 getParent() : Worksheet;
@@ -257,7 +550,7 @@ getParent() : Worksheet;
 
 ### getStyleType() {#getStyleType--}
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+<b>@deprecated.</b> Please use the 'styleType' property instead. Specify the type of Built-in slicer style the default type is SlicerStyleLight1
 
 ```javascript
 getStyleType() : SlicerStyleType;
@@ -270,7 +563,7 @@ getStyleType() : SlicerStyleType;
 
 ### setStyleType(SlicerStyleType) {#setStyleType-slicerstyletype-}
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+<b>@deprecated.</b> Please use the 'styleType' property instead. Specify the type of Built-in slicer style the default type is SlicerStyleLight1
 
 ```javascript
 setStyleType(value: SlicerStyleType) : void;
@@ -283,7 +576,7 @@ setStyleType(value: SlicerStyleType) : void;
 
 ### getName() {#getName--}
 
-Returns or sets the name of the specified slicer
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified slicer
 
 ```javascript
 getName() : string;
@@ -292,7 +585,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Returns or sets the name of the specified slicer
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified slicer
 
 ```javascript
 setName(value: string) : void;
@@ -305,7 +598,7 @@ setName(value: string) : void;
 
 ### getCaption() {#getCaption--}
 
-Returns or sets the caption of the specified slicer.
+<b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified slicer.
 
 ```javascript
 getCaption() : string;
@@ -314,7 +607,7 @@ getCaption() : string;
 
 ### setCaption(string) {#setCaption-string-}
 
-Returns or sets the caption of the specified slicer.
+<b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified slicer.
 
 ```javascript
 setCaption(value: string) : void;
@@ -327,7 +620,7 @@ setCaption(value: string) : void;
 
 ### getCaptionVisible() {#getCaptionVisible--}
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+<b>@deprecated.</b> Please use the 'captionVisible' property instead. Returns or sets whether the header that displays the slicer Caption is visible the default value is true
 
 ```javascript
 getCaptionVisible() : boolean;
@@ -336,7 +629,7 @@ getCaptionVisible() : boolean;
 
 ### setCaptionVisible(boolean) {#setCaptionVisible-boolean-}
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+<b>@deprecated.</b> Please use the 'captionVisible' property instead. Returns or sets whether the header that displays the slicer Caption is visible the default value is true
 
 ```javascript
 setCaptionVisible(value: boolean) : void;
@@ -349,7 +642,7 @@ setCaptionVisible(value: boolean) : void;
 
 ### getNumberOfColumns() {#getNumberOfColumns--}
 
-Returns or sets the number of columns in the specified slicer.
+<b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Returns or sets the number of columns in the specified slicer.
 
 ```javascript
 getNumberOfColumns() : number;
@@ -358,7 +651,7 @@ getNumberOfColumns() : number;
 
 ### setNumberOfColumns(number) {#setNumberOfColumns-number-}
 
-Returns or sets the number of columns in the specified slicer.
+<b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Returns or sets the number of columns in the specified slicer.
 
 ```javascript
 setNumberOfColumns(value: number) : void;
@@ -371,16 +664,20 @@ setNumberOfColumns(value: number) : void;
 
 ### getLeftPixel() {#getLeftPixel--}
 
-Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+<b>@deprecated.</b> Please use the 'leftPixel' property instead. Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
 
 ```javascript
 getLeftPixel() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setLeftPixel(number) {#setLeftPixel-number-}
 
-Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+<b>@deprecated.</b> Please use the 'leftPixel' property instead. Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
 
 ```javascript
 setLeftPixel(value: number) : void;
@@ -391,18 +688,26 @@ setLeftPixel(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getTopPixel() {#getTopPixel--}
 
-Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+<b>@deprecated.</b> Please use the 'topPixel' property instead. Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 
 ```javascript
 getTopPixel() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setTopPixel(number) {#setTopPixel-number-}
 
-Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+<b>@deprecated.</b> Please use the 'topPixel' property instead. Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 
 ```javascript
 setTopPixel(value: number) : void;
@@ -413,18 +718,26 @@ setTopPixel(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getWidth() {#getWidth--}
 
-Returns or sets the width of the specified slicer, in points.
+<b>@deprecated.</b> Please use the 'width' property instead. Returns or sets the width of the specified slicer, in points.
 
 ```javascript
 getWidth() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setWidth(number) {#setWidth-number-}
 
-Returns or sets the width of the specified slicer, in points.
+<b>@deprecated.</b> Please use the 'width' property instead. Returns or sets the width of the specified slicer, in points.
 
 ```javascript
 setWidth(value: number) : void;
@@ -435,18 +748,26 @@ setWidth(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getWidthPixel() {#getWidthPixel--}
 
-Returns or sets the width of the specified slicer, in pixels.
+<b>@deprecated.</b> Please use the 'widthPixel' property instead. Returns or sets the width of the specified slicer, in pixels.
 
 ```javascript
 getWidthPixel() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setWidthPixel(number) {#setWidthPixel-number-}
 
-Returns or sets the width of the specified slicer, in pixels.
+<b>@deprecated.</b> Please use the 'widthPixel' property instead. Returns or sets the width of the specified slicer, in pixels.
 
 ```javascript
 setWidthPixel(value: number) : void;
@@ -457,18 +778,26 @@ setWidthPixel(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getHeight() {#getHeight--}
 
-Returns or sets the height of the specified slicer, in points.
+<b>@deprecated.</b> Please use the 'height' property instead. Returns or sets the height of the specified slicer, in points.
 
 ```javascript
 getHeight() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.HeightPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setHeight(number) {#setHeight-number-}
 
-Returns or sets the height of the specified slicer, in points.
+<b>@deprecated.</b> Please use the 'height' property instead. Returns or sets the height of the specified slicer, in points.
 
 ```javascript
 setHeight(value: number) : void;
@@ -479,18 +808,26 @@ setHeight(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.HeightPt property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getHeightPixel() {#getHeightPixel--}
 
-Returns or sets the height of the specified slicer, in pixels.
+<b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified slicer, in pixels.
 
 ```javascript
 getHeightPixel() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setHeightPixel(number) {#setHeightPixel-number-}
 
-Returns or sets the height of the specified slicer, in pixels.
+<b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified slicer, in pixels.
 
 ```javascript
 setHeightPixel(value: number) : void;
@@ -501,9 +838,13 @@ setHeightPixel(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getColumnWidthPixel() {#getColumnWidthPixel--}
 
-Gets or sets the width in unit of pixels for each column of the slicer.
+<b>@deprecated.</b> Please use the 'columnWidthPixel' property instead. Gets or sets the width of each column in the slicer, in unit of pixels.
 
 ```javascript
 getColumnWidthPixel() : number;
@@ -512,7 +853,7 @@ getColumnWidthPixel() : number;
 
 ### setColumnWidthPixel(number) {#setColumnWidthPixel-number-}
 
-Gets or sets the width in unit of pixels for each column of the slicer.
+<b>@deprecated.</b> Please use the 'columnWidthPixel' property instead. Gets or sets the width of each column in the slicer, in unit of pixels.
 
 ```javascript
 setColumnWidthPixel(value: number) : void;
@@ -525,7 +866,7 @@ setColumnWidthPixel(value: number) : void;
 
 ### getColumnWidth() {#getColumnWidth--}
 
-Returns or sets the width, in points, of each column in the slicer.
+<b>@deprecated.</b> Please use the 'columnWidth' property instead. Returns or sets the width, in points, of each column in the slicer.
 
 ```javascript
 getColumnWidth() : number;
@@ -534,7 +875,7 @@ getColumnWidth() : number;
 
 ### setColumnWidth(number) {#setColumnWidth-number-}
 
-Returns or sets the width, in points, of each column in the slicer.
+<b>@deprecated.</b> Please use the 'columnWidth' property instead. Returns or sets the width, in points, of each column in the slicer.
 
 ```javascript
 setColumnWidth(value: number) : void;
@@ -547,7 +888,7 @@ setColumnWidth(value: number) : void;
 
 ### getRowHeightPixel() {#getRowHeightPixel--}
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+<b>@deprecated.</b> Please use the 'rowHeightPixel' property instead. Returns or sets the height, in pixels, of each row in the specified slicer.
 
 ```javascript
 getRowHeightPixel() : number;
@@ -556,7 +897,7 @@ getRowHeightPixel() : number;
 
 ### setRowHeightPixel(number) {#setRowHeightPixel-number-}
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+<b>@deprecated.</b> Please use the 'rowHeightPixel' property instead. Returns or sets the height, in pixels, of each row in the specified slicer.
 
 ```javascript
 setRowHeightPixel(value: number) : void;
@@ -569,7 +910,7 @@ setRowHeightPixel(value: number) : void;
 
 ### getRowHeight() {#getRowHeight--}
 
-Returns or sets the height, in points, of each row in the specified slicer.
+<b>@deprecated.</b> Please use the 'rowHeight' property instead. Returns or sets the height, in points, of each row in the specified slicer.
 
 ```javascript
 getRowHeight() : number;
@@ -578,7 +919,7 @@ getRowHeight() : number;
 
 ### setRowHeight(number) {#setRowHeight-number-}
 
-Returns or sets the height, in points, of each row in the specified slicer.
+<b>@deprecated.</b> Please use the 'rowHeight' property instead. Returns or sets the height, in points, of each row in the specified slicer.
 
 ```javascript
 setRowHeight(value: number) : void;

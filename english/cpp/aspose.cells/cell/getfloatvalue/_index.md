@@ -4,7 +4,7 @@ linktitle: GetFloatValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetFloatValue method. Gets the float value contained in the cell in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells/cell/getfloatvalue/
 ---
 ## Cell::GetFloatValue method

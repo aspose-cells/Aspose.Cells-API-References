@@ -4,7 +4,7 @@ linktitle: CellsUnitType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsUnitType enum. Specifies the unit of measurement in C++.'
 type: docs
-weight: 18300
+weight: 18700
 url: /cpp/aspose.cells/cellsunittype/
 ---
 ## CellsUnitType enum

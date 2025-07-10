@@ -23,18 +23,20 @@ class PclSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [AddPrinterFont(const U16String\& fontFullName, const U16String\& fontPclName)](./addprinterfont/) | Adds information about font that is already added to the printer by manufacturer. |
 | [AddPrinterFont(const char16_t* fontFullName, const char16_t* fontPclName)](./addprinterfont/) | Adds information about font that is already added to the printer by manufacturer. |
 | [GetAllColumnsInOnePagePerSheet()](../paginatedsaveoptions/getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
-| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckFontCompatibility()](../paginatedsaveoptions/getcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
 | [GetCheckWorkbookDefaultFont()](../paginatedsaveoptions/getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetCustomRenderSettings()](../paginatedsaveoptions/getcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [GetDefaultEditLanguage()](../paginatedsaveoptions/getdefaulteditlanguage/) | Gets or sets default edit language. |
 | [GetDefaultFont()](../paginatedsaveoptions/getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](../paginatedsaveoptions/getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
+| [GetEmbedFont()](./getembedfont/) | Indicates whether to embed font into the output Pcl file. |
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline colr. |
+| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline color. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -69,20 +71,22 @@ class PclSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SaveOptions(SaveOptions_Impl* impl)](../saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
 | [SetAllColumnsInOnePagePerSheet(bool value)](../paginatedsaveoptions/setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
-| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
-| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
+| [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
+| [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetCheckFontCompatibility(bool value)](../paginatedsaveoptions/setcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
 | [SetCheckWorkbookDefaultFont(bool value)](../paginatedsaveoptions/setcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetCustomRenderSettings(const CustomRenderSettings\& value)](../paginatedsaveoptions/setcustomrendersettings/) | Gets or sets custom settings during rendering. |
 | [SetDefaultEditLanguage(DefaultEditLanguage value)](../paginatedsaveoptions/setdefaulteditlanguage/) | Gets or sets default edit language. |
 | [SetDefaultFont(const U16String\& value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDefaultFont(const char16_t* value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](../paginatedsaveoptions/setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
+| [SetEmbedFont(bool value)](./setembedfont/) | Indicates whether to embed font into the output Pcl file. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline colr. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline color. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](../paginatedsaveoptions/setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |

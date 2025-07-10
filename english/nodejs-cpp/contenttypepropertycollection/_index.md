@@ -23,7 +23,7 @@ class ContentTypePropertyCollection;
 | [get(string)](#get-string-)| Gets the content type property by the property name. |
 | [add(string, string)](#add-string-string-)| Adds content type property information. |
 | [add(string, string, string)](#add-string-string-string-)| Adds content type property information. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -92,7 +92,7 @@ add(name: string, value: string, type: string) : number;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

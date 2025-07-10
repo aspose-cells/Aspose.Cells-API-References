@@ -17,19 +17,27 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(PivotFieldGroupSettings)](#constructor-pivotfieldgroupsettings-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [start](#start--)| number | Readonly. Gets the start number of the group. |
+| [end](#end--)| number | Readonly. Gets the end number of the group. |
+| [interval](#interval--)| number | Readonly. Gets the interval of the group. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the group type. |
-| [getStart()](#getStart--)| Gets the start number of the group. |
-| [getEnd()](#getEnd--)| Gets the end number of the group. |
-| [getInterval()](#getInterval--)| Gets the interval of the group. |
+| [getStart()](#getStart--)| <b>@deprecated.</b> Please use the 'start' property instead. Gets the start number of the group. |
+| [getEnd()](#getEnd--)| <b>@deprecated.</b> Please use the 'end' property instead. Gets the end number of the group. |
+| [getInterval()](#getInterval--)| <b>@deprecated.</b> Please use the 'interval' property instead. Gets the interval of the group. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the group type. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -45,22 +53,36 @@ constructor(obj: PivotFieldGroupSettings);
 | --- | --- | --- |
 | obj | PivotFieldGroupSettings | The parent object. |
 
-### getType() {#getType--}
+### start {#start--}
 
-Gets the group type.
+Readonly. Gets the start number of the group.
 
 ```javascript
-getType() : PivotFieldGroupType;
+start : number;
 ```
 
 
-**Returns**
+### end {#end--}
 
-[PivotFieldGroupType](../pivotfieldgrouptype/)
+Readonly. Gets the end number of the group.
+
+```javascript
+end : number;
+```
+
+
+### interval {#interval--}
+
+Readonly. Gets the interval of the group.
+
+```javascript
+interval : number;
+```
+
 
 ### getStart() {#getStart--}
 
-Gets the start number of the group.
+<b>@deprecated.</b> Please use the 'start' property instead. Gets the start number of the group.
 
 ```javascript
 getStart() : number;
@@ -69,7 +91,7 @@ getStart() : number;
 
 ### getEnd() {#getEnd--}
 
-Gets the end number of the group.
+<b>@deprecated.</b> Please use the 'end' property instead. Gets the end number of the group.
 
 ```javascript
 getEnd() : number;
@@ -78,7 +100,7 @@ getEnd() : number;
 
 ### getInterval() {#getInterval--}
 
-Gets the interval of the group.
+<b>@deprecated.</b> Please use the 'interval' property instead. Gets the interval of the group.
 
 ```javascript
 getInterval() : number;
@@ -93,5 +115,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the group type.
+
+```javascript
+getType() : PivotFieldGroupType;
+```
+
+
+**Returns**
+
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 

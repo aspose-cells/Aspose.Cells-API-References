@@ -4,7 +4,7 @@ linktitle: SetCaseSensitive
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::SetCaseSensitive method. Gets and sets whether case sensitive when comparing string in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells/datasorter/setcasesensitive/
 ---
 ## DataSorter::SetCaseSensitive method

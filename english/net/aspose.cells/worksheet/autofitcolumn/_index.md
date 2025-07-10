@@ -46,13 +46,14 @@ namespace AsposeCellsExamples
             
             try
             {
+
+                Console.WriteLine($"Column width before: {worksheet.Cells.GetColumnWidth(0)}");
                 // Call AutoFitColumn on column A (index 0) for rows 0 to 2 (zero-based)
                 worksheet.AutoFitColumn(0, 0, 2);
                 
                 Console.WriteLine("AutoFitColumn method executed successfully on column A for rows 1-3");
                 
-                // Display the effect by showing the column width before and after
-                Console.WriteLine($"Column width before: {worksheet.Cells.GetColumnWidth(0)}");
+                // Display the effect by showing the column width before and after                
                 Console.WriteLine($"Column width after: {worksheet.Cells.GetColumnWidth(0)}");
             }
             catch (Exception ex)

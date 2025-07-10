@@ -4,7 +4,7 @@ linktitle: ErrorCellValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ErrorCellValueType enum. Represents a cell value which contains an error in C++.'
 type: docs
-weight: 20500
+weight: 20700
 url: /cpp/aspose.cells/errorcellvaluetype/
 ---
 ## ErrorCellValueType enum

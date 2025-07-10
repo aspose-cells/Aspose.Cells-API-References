@@ -4,7 +4,7 @@ linktitle: DrawObject
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::DrawObject class. DrawObject will be initialized and returned when rendering in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.cells.rendering/drawobject/
 ---
 ## DrawObject class

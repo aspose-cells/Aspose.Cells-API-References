@@ -159,25 +159,25 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             
             // Add some sample worksheets
-            workbook.Worksheets.Add("Sheet1");
             workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
             
             // Populate some data in the worksheets
-            workbook.Worksheets["Sheet1"].Cells["A1"].PutValue("Original Sheet1 Data");
-            workbook.Worksheets["Sheet2"].Cells["A1"].PutValue("Original Sheet2 Data");
+            workbook.Worksheets["Sheet2"].Cells["A1"].PutValue("Original Sheet1 Data");
+            workbook.Worksheets["Sheet3"].Cells["A1"].PutValue("Original Sheet2 Data");
 
             // Prepare source worksheets array
             Worksheet[] sourceSheets = new Worksheet[]
             {
-                workbook.Worksheets["Sheet1"],
-                workbook.Worksheets["Sheet2"]
+                workbook.Worksheets["Sheet2"],
+                workbook.Worksheets["Sheet3"]
             };
 
             // Prepare destination sheet names array
             string[] destSheetNames = new string[]
             {
-                "CopyOfSheet1",
-                "CopyOfSheet2"
+                "CopyOfSheet2",
+                "CopyOfSheet3"
             };
 
             try

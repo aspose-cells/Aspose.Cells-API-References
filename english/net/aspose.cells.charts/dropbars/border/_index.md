@@ -13,21 +13,6 @@ Gets the border [`Line`](../../../aspose.cells.drawing/line/).
 public Line Border { get; }
 ```
 
-### Examples
-
-```csharp
-// Called: LineTest.equals(dropbarsSrc.Border, dropbarsDest.Border, info + ".Border");
-public static void DropBars_Property_Border(DropBars dropbarsSrc, DropBars dropbarsDest, string info)
-        {
-            if (AssertHelper.checkNull(dropbarsSrc, dropbarsDest, info))
-            {
-                return;
-            }
-            LineTest.DropBars_Property_Border(dropbarsSrc.Border, dropbarsDest.Border, info + ".Border");
-            AreaTest.DropBars_Property_Border(dropbarsSrc.Area, dropbarsDest.Area, info + ".Area");
-        }
-```
-
 ### See Also
 
 * class [Line](../../../aspose.cells.drawing/line/)

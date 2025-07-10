@@ -16,26 +16,45 @@ public ExceptionType Type { get; }
 ### Examples
 
 ```csharp
-// Called: switch (warningInfo.Type)
-public void WarningInfo_Property_Type(WarningInfo warningInfo)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WarningInfoPropertyTypeDemo
+    {
+        private class CustomWarningCallback : IWarningCallback
         {
-            switch (warningInfo.Type)
+            public void Warning(WarningInfo warningInfo)
             {
-                case ExceptionType.DefinedName:
+                if (warningInfo.Type == ExceptionType.DefinedName)
+                {
                     warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
-                    return;
-                case ExceptionType.Font:
-                // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
-                case ExceptionType.FileFormat:
-                // throw new CellsException(ExceptionType.UnsupportedStream, "Unsupported file format.");
-                case ExceptionType.IO:
-                case ExceptionType.InvalidData:
-                case ExceptionType.Limitation:
-                    return;
-                default:
-                    break;
+                    Console.WriteLine($"Corrected object: {warningInfo.CorrectedObject}");
+                }
             }
         }
+
+        public static void Run()
+        {
+            using (var workbook = new Workbook())
+            {
+                workbook.Worksheets.Add("Sheet1");
+                int nameIndex = workbook.Worksheets.Names.Add("TestName");
+                Name name = workbook.Worksheets.Names[nameIndex];
+                name.RefersTo = "=Sheet1!$A$1";
+                
+                using (var stream = new MemoryStream())
+                {
+                    workbook.Save(stream, SaveFormat.Xlsx);
+                    var loadOptions = new LoadOptions { WarningCallback = new CustomWarningCallback() };
+                    new Workbook(stream, loadOptions);
+                }
+            }
+        }
+    }
+}
 ```
 
 ### See Also

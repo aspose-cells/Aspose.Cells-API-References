@@ -4,7 +4,7 @@ linktitle: GetPrintingPageBreaks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetPrintingPageBreaks method. Gets automatic page breaks in C++.'
 type: docs
-weight: 11100
+weight: 11400
 url: /cpp/aspose.cells/worksheet/getprintingpagebreaks/
 ---
 ## Worksheet::GetPrintingPageBreaks method

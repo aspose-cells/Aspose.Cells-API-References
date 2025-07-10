@@ -4,7 +4,7 @@ linktitle: Dispose
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Dispose method of Aspose::Cells::Cell class in C++.'
 type: docs
-weight: 8200
+weight: 8300
 url: /cpp/aspose.cells/cell/dispose/
 ---
 ## Cell::Dispose method

@@ -16,44 +16,45 @@ public DataLabelShapeType ShapeType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(DataLabelShapeType.Rect, db00.ShapeType);
-public void DataLabels_Property_ShapeType()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/BarChart.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    SeriesCollection sc = chart.NSeries;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-    DataLabels db00 = sc[0].DataLabels;
-    Assert.AreEqual(false, db00.IsAutomaticRotation);
-    Assert.AreEqual(true, db00.IsAutomaticSize);
-    Assert.AreEqual(true, db00.IsAutoText);
-    Assert.AreEqual(false, db00.IsDefaultPosBeSet);
-    Assert.AreEqual(false, db00.IsDeleted);
-    Assert.AreEqual(false, db00.IsInnerMode);
-    Assert.AreEqual(false, db00.IsNeverOverlap);
-    Assert.AreEqual(false, db00.IsResizeShapeToFitText);
-    Assert.AreEqual(true, db00.IsTextWrapped);
-    Assert.AreEqual(null, db00.LinkedSource);
-    Assert.AreEqual(0, db00.Number);
-    Assert.AreEqual("_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)", db00.NumberFormat);
-    Assert.AreEqual(true, db00.NumberFormatLinked);
-    Assert.AreEqual(LabelPositionType.Center, db00.Position);
-    Assert.AreEqual(TextDirectionType.LeftToRight, db00.ReadingOrder);
-    Assert.AreEqual(0, db00.RotationAngle);
-    Assert.AreEqual(DataLabelsSeparatorType.Auto, db00.SeparatorType);
-    Assert.AreEqual("", db00.SeparatorValue);
-    Assert.AreEqual(false, db00.Shadow);
-    Assert.AreEqual(DataLabelShapeType.Rect, db00.ShapeType);
-    Assert.AreEqual(false, db00.ShowBubbleSize);
-    Assert.AreEqual(true, db00.ShowCategoryName);
-    Assert.AreEqual(false, db00.ShowCellRange);
-    Assert.AreEqual(false, db00.ShowLegendKey);
-    Assert.AreEqual(false, db00.ShowPercentage);
-    Assert.AreEqual(false, db00.ShowSeriesName);
-    Assert.AreEqual(true, db00.ShowValue);
-    Assert.AreEqual(null, db00.Text);
-    Assert.AreEqual(TextAlignmentType.Center, db00.TextHorizontalAlignment);
-    Assert.AreEqual(TextAlignmentType.Center, db00.TextVerticalAlignment);
+namespace AsposeCellsExamples
+{
+    public class DataLabelsPropertyShapeTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            int chartIndex = worksheet.Charts.Add(ChartType.Bar, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            Series series = chart.NSeries[0];
+            series.DataLabels.ShowValue = true;
+            
+            DataLabels dataLabels = series.DataLabels;
+            dataLabels.ShapeType = DataLabelShapeType.Rect;
+            
+            Console.WriteLine("ShapeType set to: " + dataLabels.ShapeType);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

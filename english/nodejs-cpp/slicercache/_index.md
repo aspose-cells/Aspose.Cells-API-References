@@ -15,22 +15,77 @@ class SlicerCache;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [crossFilterType](#crossFilterType--)| SlicerCacheCrossFilterType | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
+| [list](#list--)| boolean | Readonly. Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only |
+| [slicerCacheItems](#slicerCacheItems--)| SlicerCacheItemCollection | Readonly. Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
+| [name](#name--)| string | Readonly. Returns the name of the slicer cache. |
+| [sourceName](#sourceName--)| string | Readonly. Returns the name of this slicer cache. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCrossFilterType()](#getCrossFilterType--)| Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
-| [setCrossFilterType(SlicerCacheCrossFilterType)](#setCrossFilterType-slicercachecrossfiltertype-)| Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
-| [getList()](#getList--)| Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only |
-| [getSlicerCacheItems()](#getSlicerCacheItems--)| Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
-| [getName()](#getName--)| Returns the name of the slicer cache. |
-| [getSourceName()](#getSourceName--)| Returns the name of this slicer cache. |
+| [getCrossFilterType()](#getCrossFilterType--)| <b>@deprecated.</b> Please use the 'crossFilterType' property instead. Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
+| [setCrossFilterType(SlicerCacheCrossFilterType)](#setCrossFilterType-slicercachecrossfiltertype-)| <b>@deprecated.</b> Please use the 'crossFilterType' property instead. Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
+| [getList()](#getList--)| <b>@deprecated.</b> Please use the 'list' property instead. Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only |
+| [getSlicerCacheItems()](#getSlicerCacheItems--)| <b>@deprecated.</b> Please use the 'slicerCacheItems' property instead. Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the slicer cache. |
+| [getSourceName()](#getSourceName--)| <b>@deprecated.</b> Please use the 'sourceName' property instead. Returns the name of this slicer cache. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### crossFilterType {#crossFilterType--}
+
+Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+
+```javascript
+crossFilterType : SlicerCacheCrossFilterType;
+```
+
+
+### list {#list--}
+
+Readonly. Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+
+```javascript
+list : boolean;
+```
+
+
+### slicerCacheItems {#slicerCacheItems--}
+
+Readonly. Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
+
+```javascript
+slicerCacheItems : SlicerCacheItemCollection;
+```
+
+
+### name {#name--}
+
+Readonly. Returns the name of the slicer cache.
+
+```javascript
+name : string;
+```
+
+
+### sourceName {#sourceName--}
+
+Readonly. Returns the name of this slicer cache.
+
+```javascript
+sourceName : string;
+```
 
 
 ### getCrossFilterType() {#getCrossFilterType--}
 
-Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+<b>@deprecated.</b> Please use the 'crossFilterType' property instead. Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
 
 ```javascript
 getCrossFilterType() : SlicerCacheCrossFilterType;
@@ -43,7 +98,7 @@ getCrossFilterType() : SlicerCacheCrossFilterType;
 
 ### setCrossFilterType(SlicerCacheCrossFilterType) {#setCrossFilterType-slicercachecrossfiltertype-}
 
-Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+<b>@deprecated.</b> Please use the 'crossFilterType' property instead. Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
 
 ```javascript
 setCrossFilterType(value: SlicerCacheCrossFilterType) : void;
@@ -56,7 +111,7 @@ setCrossFilterType(value: SlicerCacheCrossFilterType) : void;
 
 ### getList() {#getList--}
 
-Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+<b>@deprecated.</b> Please use the 'list' property instead. Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
 
 ```javascript
 getList() : boolean;
@@ -65,7 +120,7 @@ getList() : boolean;
 
 ### getSlicerCacheItems() {#getSlicerCacheItems--}
 
-Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
+<b>@deprecated.</b> Please use the 'slicerCacheItems' property instead. Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
 
 ```javascript
 getSlicerCacheItems() : SlicerCacheItemCollection;
@@ -78,7 +133,7 @@ getSlicerCacheItems() : SlicerCacheItemCollection;
 
 ### getName() {#getName--}
 
-Returns the name of the slicer cache.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the slicer cache.
 
 ```javascript
 getName() : string;
@@ -87,7 +142,7 @@ getName() : string;
 
 ### getSourceName() {#getSourceName--}
 
-Returns the name of this slicer cache.
+<b>@deprecated.</b> Please use the 'sourceName' property instead. Returns the name of this slicer cache.
 
 ```javascript
 getSourceName() : string;

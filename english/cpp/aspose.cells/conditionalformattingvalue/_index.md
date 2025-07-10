@@ -4,7 +4,7 @@ linktitle: ConditionalFormattingValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConditionalFormattingValue class. Describes the values of the interpolation points in a gradient scale, dataBar or iconSet in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.cells/conditionalformattingvalue/
 ---
 ## ConditionalFormattingValue class

@@ -33,62 +33,69 @@ public class IndividualFontConfigs
 ### Examples
 
 ```csharp
-// Called: FontConfigs = new IndividualFontConfigs(),
-public static void Cells_Type_IndividualFontConfigs()
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassIndividualFontConfigsDemo
+    {
+        public static void Run()
         {
-            // Create an instance of TxtLoadOptions
-            TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+            // Create temporary directories for font sources
+            string tempFontFolder1 = Path.Combine(Path.GetTempPath(), "FontFolder1_" + Guid.NewGuid().ToString());
+            string tempFontFolder2 = Path.Combine(Path.GetTempPath(), "FontFolder2_" + Guid.NewGuid().ToString());
+            Directory.CreateDirectory(tempFontFolder1);
+            Directory.CreateDirectory(tempFontFolder2);
+
+            // Create sample CSV file
+            string csvFilePath = "sample_data.csv";
+            File.WriteAllText(csvFilePath, "Name,Age\nJohn,30\nAlice,25", Encoding.UTF8);
+
+            try
             {
-                Separator = ',',
-                SeparatorString = ",",
-                IsMultiEncoded = false,
-                HasFormula = true,
-                HasTextQualifier = true,
-                TextQualifier = '\"',
-                TreatConsecutiveDelimitersAsOne = true,
-                TreatQuotePrefixAsValue = true,
-                ExtendToNextSheet = false,
-                HeaderRowsCount = 1,
-                HeaderColumnsCount = 1,
-                MaxRowCount = 1000,
-                MaxColumnCount = 50,
-                Encoding = Encoding.UTF8,
-                LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn,
-                ConvertNumericData = true,
-                ConvertDateTimeData = true,
-                KeepPrecision = true,
-                Password = "password",
-                ParsingFormulaOnOpen = true,
-                ParsingPivotCachedRecords = true,
-                LanguageCode = CountryCode.USA,
-                Region = CountryCode.USA,
-                CultureInfo = new System.Globalization.CultureInfo("en-US"),
-                StandardFont = "Arial",
-                StandardFontSize = 10.5,
-                InterruptMonitor = new InterruptMonitor(),
-                IgnoreNotPrinted = true,
-                CheckDataValid = true,
-                CheckExcelRestriction = true,
-                KeepUnparsedData = true,
-                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
-                LightCellsDataHandler = new LightCellsDataHandler(),
-                MemorySetting = MemorySetting.MemoryPreference,
-                WarningCallback = new WarningCallback(),
-                AutoFitterOptions = new AutoFitterOptions(),
-                AutoFilter = true,
-                FontConfigs = new IndividualFontConfigs(),
-                IgnoreUselessShapes = true,
-                PreservePaddingSpacesInFormula = true
-            };
+                // Initialize font configuration
+                IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 
-            // Load a CSV file with the specified options
-            Workbook workbook = new Workbook("TxtLoadOptionsExample_original.csv", loadOptions);
+                // Set font substitutes for Arial
+                fontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Verdana" });
 
-            // Save the workbook to an Excel file
-            workbook.Save("TxtLoadOptionsExample.xlsx");
+                // Configure font directories
+                fontConfigs.SetFontFolder(tempFontFolder1, false);
+                fontConfigs.SetFontFolders(new string[] { tempFontFolder1, tempFontFolder2 }, true);
 
-            return;
+                // Configure font sources
+                FontSourceBase[] fontSources = {
+                    new FolderFontSource(tempFontFolder1, false),
+                    new FolderFontSource(tempFontFolder2, true)
+                };
+                fontConfigs.SetFontSources(fontSources);
+
+                // Create text loading options with font configurations
+                TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+                {
+                    FontConfigs = fontConfigs
+                };
+
+                // Load workbook with configured options
+                using (Workbook workbook = new Workbook(csvFilePath, loadOptions))
+                {
+                    // Save as Excel file
+                    workbook.Save("output_with_font_config.xlsx");
+                }
+            }
+            finally
+            {
+                // Cleanup temporary resources
+                if (Directory.Exists(tempFontFolder1)) Directory.Delete(tempFontFolder1, true);
+                if (Directory.Exists(tempFontFolder2)) Directory.Delete(tempFontFolder2, true);
+                if (File.Exists(csvFilePath)) File.Delete(csvFilePath);
+            }
         }
+    }
+}
 ```
 
 ### See Also

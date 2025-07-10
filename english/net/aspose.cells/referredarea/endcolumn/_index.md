@@ -16,23 +16,31 @@ public int EndColumn { get; }
 ### Examples
 
 ```csharp
-// Called: && rd.EndRow - rd.StartRow + 1 == rs.RowCount && rd.EndColumn - rd.StartColumn == rs.ColumnCount
-public bool ReferredArea_Property_EndColumn(object src, object comparedDest)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaPropertyEndColumnDemo
+    {
+        public static void Run()
         {
-            if (comparedDest == null)
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            Cell cell = worksheet.Cells["B2"];
+            cell.Formula = "=SUM(A1:C3)";
+            
+            ReferredAreaCollection referredAreas = cell.GetPrecedents();
+            foreach (ReferredArea area in referredAreas)
             {
-                return src == null;
+                Console.WriteLine($"StartColumn: {area.StartColumn}");
+                Console.WriteLine($"EndColumn: {area.EndColumn}");
+                Console.WriteLine($"Columns spanned: {area.EndColumn - area.StartColumn + 1}");
             }
-            ReferredArea rd = (ReferredArea)comparedDest;
-            if (rd.IsExternalLink || src is string)
-            {
-                return rd.ToString().Equals(src);
-            }
-            Aspose.Cells.Range rs = (Aspose.Cells.Range)src;
-            return rd.StartRow == rs.FirstRow && rd.StartColumn == rs.FirstColumn
-                && rd.EndRow - rd.StartRow + 1 == rs.RowCount && rd.EndColumn - rd.StartColumn == rs.ColumnCount
-                && rs.Worksheet.Name.Equals(rd.SheetName);
         }
+    }
+}
 ```
 
 ### See Also

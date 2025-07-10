@@ -13,17 +13,6 @@ Gets the color of this gradient stop.
 public CellsColor CellsColor { get; }
 ```
 
-### Examples
-
-```csharp
-// Called: CellsColorTest.equals(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
-public static void GradientStop_Property_CellsColor(GradientStop gsSrc, GradientStop gsDest, string info)
-        {
-            CellsColorTest.GradientStop_Property_CellsColor(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
-            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + ".Position");
-        }
-```
-
 ### See Also
 
 * class [CellsColor](../../../aspose.cells/cellscolor/)

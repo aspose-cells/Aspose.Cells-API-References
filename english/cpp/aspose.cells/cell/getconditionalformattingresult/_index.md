@@ -4,7 +4,7 @@ linktitle: GetConditionalFormattingResult
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetConditionalFormattingResult method. Get the result of the conditional formatting in C++.'
 type: docs
-weight: 7300
+weight: 7400
 url: /cpp/aspose.cells/cell/getconditionalformattingresult/
 ---
 ## Cell::GetConditionalFormattingResult method

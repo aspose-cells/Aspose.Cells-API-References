@@ -4,7 +4,7 @@ linktitle: GetCellDisplayStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetCellDisplayStyle method. Get the display style of given cell in C++.'
 type: docs
-weight: 14400
+weight: 14500
 url: /cpp/aspose.cells/cells/getcelldisplaystyle/
 ---
 ## Cells::GetCellDisplayStyle(int32_t, int32_t) method

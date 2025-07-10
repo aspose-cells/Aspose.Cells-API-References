@@ -4,7 +4,7 @@ linktitle: TextureType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextureType enum. Represents the preset texture type in C++.'
 type: docs
-weight: 11700
+weight: 11900
 url: /cpp/aspose.cells.drawing/texturetype/
 ---
 ## TextureType enum

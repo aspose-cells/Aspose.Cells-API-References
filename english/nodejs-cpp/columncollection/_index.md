@@ -22,26 +22,26 @@ const { Workbook, Color, BackgroundType, StyleFlag } = require("aspose.cells.nod
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Obtaining the reference of the first worksheet
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Add new Style to Workbook
 var style = workbook.createStyle();
 //Setting the background color to Blue
-style.setForegroundColor(Color.Blue);
+style.foregroundColor = Color.Blue;
 //setting Background Pattern
-style.setPattern(BackgroundType.Solid);
+style.pattern = BackgroundType.Solid;
 //New Style Flag
 var styleFlag = new StyleFlag();
 //Set All Styles
-styleFlag.setAll(true);
+styleFlag.all = true;
 
 //Change the default width of first ten columns
 for (var i = 0; i < 10; i++) {
-    worksheet.getCells().getColumns().get(i).setWidth(20);
+    worksheet.cells.columns.get(i).width = 20;
 }
 
 //Get the Column with non default formatting
-var columns = worksheet.getCells().getColumns();
-var count = columns.getCount();
+var columns = worksheet.cells.columns;
+var count = columns.count;
 for (var i = 0; i < count; i++) {
     var column = columns.getColumnByIndex(i);
     //Apply Style to first ten Columns
@@ -57,7 +57,7 @@ workbook.save("output/ColumnCollection.xls");
 | --- | --- |
 | [get(number)](#get-number-)| Gets a [Column](../column/) object by column index. The Column object of given column index will be instantiated if it does not exist before. |
 | [getColumnByIndex(number)](#getColumnByIndex-number-)| Gets the [Column](../column/) object by the position in the list. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -97,7 +97,7 @@ Returns the column object.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

@@ -4,7 +4,7 @@ linktitle: MirrorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MirrorType enum. Represents mirror type of texture fill in C++.'
 type: docs
-weight: 9400
+weight: 9600
 url: /cpp/aspose.cells.drawing/mirrortype/
 ---
 ## MirrorType enum

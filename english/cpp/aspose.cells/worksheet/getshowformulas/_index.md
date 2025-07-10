@@ -4,7 +4,7 @@ linktitle: GetShowFormulas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetShowFormulas method. Indicates whether to show formulas or their results in C++.'
 type: docs
-weight: 1900
+weight: 1800
 url: /cpp/aspose.cells/worksheet/getshowformulas/
 ---
 ## Worksheet::GetShowFormulas method

@@ -4,7 +4,7 @@ linktitle: IsSelected
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::IsSelected method. Indicates whether this worksheet is selected when the workbook is opened in C++.'
 type: docs
-weight: 3200
+weight: 3100
 url: /cpp/aspose.cells/worksheet/isselected/
 ---
 ## Worksheet::IsSelected method

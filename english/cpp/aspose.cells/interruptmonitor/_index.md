@@ -4,7 +4,7 @@ linktitle: InterruptMonitor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::InterruptMonitor class. Represents all operator about the interrupt in C++.'
 type: docs
-weight: 9000
+weight: 9300
 url: /cpp/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class

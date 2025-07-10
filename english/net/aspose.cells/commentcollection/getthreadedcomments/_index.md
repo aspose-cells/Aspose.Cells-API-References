@@ -55,13 +55,36 @@ public ThreadedCommentCollection GetThreadedComments(string cellName)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-ThreadedCommentCollection threadedComments2 = comments.GetThreadedComments("B2");
-for (int i = 0; i < threadedComments2.Count; ++i)
+namespace AsposeCellsExamples
 {
-    ThreadedComment tc = threadedComments2[i];
-    string note = tc.Notes;
+    public class CommentCollectionMethodGetThreadedCommentsWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a threaded comment author and get the author by index
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("John Doe", "JD", "1");
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+
+            // Add a threaded comment to cell B2
+            worksheet.Comments.AddThreadedComment("B2", "Initial comment", author);
+
+            // Get all threaded comments for cell B2
+            ThreadedCommentCollection threadedComments = worksheet.Comments.GetThreadedComments("B2");
+
+            // Display the threaded comments
+            foreach (ThreadedComment comment in threadedComments)
+            {
+                Console.WriteLine($"Comment by {comment.Author.Name}: {comment.Notes}");
+            }
+        }
+    }
 }
 ```
 

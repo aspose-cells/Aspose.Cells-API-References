@@ -4,7 +4,7 @@ linktitle: SvgEmbeddedFontType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::SvgEmbeddedFontType enum. Represents the embedded font type in Svg image in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.rendering/svgembeddedfonttype/
 ---
 ## SvgEmbeddedFontType enum

@@ -4,7 +4,7 @@ linktitle: GetWorksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationData::GetWorksheet method. Gets the Worksheet object where the function is in in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells/calculationdata/getworksheet/
 ---
 ## CalculationData::GetWorksheet method

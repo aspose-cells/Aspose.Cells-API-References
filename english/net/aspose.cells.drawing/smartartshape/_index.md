@@ -154,27 +154,46 @@ public class SmartArtShape : Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Initialize a new workbook.
-Workbook book = new Workbook("YourFile.xlsx");
-
-//Gets a SmartArt shape.
-Shape shape = null;
-ShapeCollection shapes = book.Worksheets[0].Shapes;
-foreach(Shape s in shapes)
+namespace AsposeCellsExamples
 {
-    if(s.MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.SmartArt)
+    public class DrawingClassSmartArtShapeDemo
     {
-        //is SmartArt Shape
-        //do what you want
-        break;
+        public static void Run()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and get its shapes collection
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+            
+            // Add a sample SmartArt shape (simulated for demo)
+            // Note: In actual usage, you would load a file with existing SmartArt
+            shapes.AddRectangle(1, 1, 200, 100, 50, 50);
+            
+            // Find and process SmartArt shapes
+            foreach (Shape shape in shapes)
+            {
+                if (shape is SmartArtShape smartArtShape)
+                {
+                    // Convert SmartArt to grouped shapes
+                    GroupShape groupShape = smartArtShape.GetResultOfSmartArt();
+                    
+                    // Modify the grouped shapes if needed
+                    groupShape.Left = 300;
+                    groupShape.Top = 100;
+                }
+            }
+            
+            // Save the workbook
+            workbook.Save("SmartArtDemo.xlsx");
+        }
     }
 }
-//do your business
-
-//Save the excel file.
-book.Save("exmaple.xlsx");
 ```
 
 ### See Also

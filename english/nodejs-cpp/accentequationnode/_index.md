@@ -17,29 +17,40 @@ class AccentEquationNode extends EquationNode;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(EquationNode)](#constructor-equationnode-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [accentCharacter](#accentCharacter--)| string | This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [accentCharacterType](#accentCharacterType--)| EquationCombiningCharacterType | Specify combining characters by type value. |
+| [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
+| [length](#length--)| number | Readonly. Gets the length of the characters. |
+| [font](#font--)| Font | Readonly. Returns the font of this object. |
+| [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
+| [parentNode](#parentNode--)| EquationNode | Specifies the parent node of the current node |
+| [equationType](#equationType--)| EquationNodeType | Readonly. Get the equation type of the current node |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAccentCharacter()](#getAccentCharacter--)| This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
-| [setAccentCharacter(string)](#setAccentCharacter-string-)| This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
-| [getAccentCharacterType()](#getAccentCharacterType--)| Specify combining characters by type value. |
-| [setAccentCharacterType(EquationCombiningCharacterType)](#setAccentCharacterType-equationcombiningcharactertype-)| Specify combining characters by type value. |
-| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [getAccentCharacter()](#getAccentCharacter--)| <b>@deprecated.</b> Please use the 'accentCharacter' property instead. This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [setAccentCharacter(string)](#setAccentCharacter-string-)| <b>@deprecated.</b> Please use the 'accentCharacter' property instead. This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
+| [getAccentCharacterType()](#getAccentCharacterType--)| <b>@deprecated.</b> Please use the 'accentCharacterType' property instead. Specify combining characters by type value. |
+| [setAccentCharacterType(EquationCombiningCharacterType)](#setAccentCharacterType-equationcombiningcharactertype-)| <b>@deprecated.</b> Please use the 'accentCharacterType' property instead. Specify combining characters by type value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
-| [getLength()](#getLength--)| Gets the length of the characters. |
-| [getFont()](#getFont--)| Returns the font of this object. |
-| [getTextOptions()](#getTextOptions--)| Returns the text options. |
+| [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
+| [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
+| [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
-| [getParentNode()](#getParentNode--)| Specifies the parent node of the current node |
-| [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
-| [getType()](#getType--)| Represents the type of the node. |
-| [getEquationType()](#getEquationType--)| Get the equation type of the current node |
+| [getParentNode()](#getParentNode--)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [setParentNode(EquationNode)](#setParentNode-equationnode-)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
+| [getEquationType()](#getEquationType--)| <b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node |
 | [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
 | [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
@@ -53,6 +64,8 @@ class AccentEquationNode extends EquationNode;
 | [removeChild(number)](#removeChild-number-)| Removes the node at the specified index from the current node's children. |
 | [removeAllChildren()](#removeAllChildren--)| Removes all the child nodes of the current node. |
 | static [createNode(EquationNodeType, Workbook, EquationNode)](#createNode-equationnodetype-workbook-equationnode-)| Create a node of the specified type. |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [getType()](#getType--)| Represents the type of the node. |
 
 
 ### constructor(EquationNode) {#constructor-equationnode-}
@@ -68,9 +81,85 @@ constructor(obj: EquationNode);
 | --- | --- | --- |
 | obj | EquationNode | The parent object. |
 
-### getAccentCharacter() {#getAccentCharacter--}
+### accentCharacter {#accentCharacter--}
 
 This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
+
+```javascript
+accentCharacter : string;
+```
+
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+
+### accentCharacterType {#accentCharacterType--}
+
+Specify combining characters by type value.
+
+```javascript
+accentCharacterType : EquationCombiningCharacterType;
+```
+
+
+### startIndex {#startIndex--}
+
+Readonly. Gets the start index of the characters.
+
+```javascript
+startIndex : number;
+```
+
+
+### length {#length--}
+
+Readonly. Gets the length of the characters.
+
+```javascript
+length : number;
+```
+
+
+### font {#font--}
+
+Readonly. Returns the font of this object.
+
+```javascript
+font : Font;
+```
+
+
+### textOptions {#textOptions--}
+
+Readonly. Returns the text options.
+
+```javascript
+textOptions : TextOptions;
+```
+
+
+### parentNode {#parentNode--}
+
+Specifies the parent node of the current node
+
+```javascript
+parentNode : EquationNode;
+```
+
+
+### equationType {#equationType--}
+
+Readonly. Get the equation type of the current node
+
+```javascript
+equationType : EquationNodeType;
+```
+
+
+### getAccentCharacter() {#getAccentCharacter--}
+
+<b>@deprecated.</b> Please use the 'accentCharacter' property instead. This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
 
 ```javascript
 getAccentCharacter() : string;
@@ -83,7 +172,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### setAccentCharacter(string) {#setAccentCharacter-string-}
 
-This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
+<b>@deprecated.</b> Please use the 'accentCharacter' property instead. This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
 
 ```javascript
 setAccentCharacter(value: string) : void;
@@ -100,7 +189,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getAccentCharacterType() {#getAccentCharacterType--}
 
-Specify combining characters by type value.
+<b>@deprecated.</b> Please use the 'accentCharacterType' property instead. Specify combining characters by type value.
 
 ```javascript
 getAccentCharacterType() : EquationCombiningCharacterType;
@@ -113,7 +202,7 @@ getAccentCharacterType() : EquationCombiningCharacterType;
 
 ### setAccentCharacterType(EquationCombiningCharacterType) {#setAccentCharacterType-equationcombiningcharactertype-}
 
-Specify combining characters by type value.
+<b>@deprecated.</b> Please use the 'accentCharacterType' property instead. Specify combining characters by type value.
 
 ```javascript
 setAccentCharacterType(value: EquationCombiningCharacterType) : void;
@@ -123,19 +212,6 @@ setAccentCharacterType(value: EquationCombiningCharacterType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [EquationCombiningCharacterType](../equationcombiningcharactertype/) | The value to set. |
-
-### equals(Object) {#equals-object-}
-
-Determine whether the current equation node is equal to the specified node
-
-```javascript
-equals(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 
@@ -148,7 +224,7 @@ isNull() : boolean;
 
 ### getStartIndex() {#getStartIndex--}
 
-Gets the start index of the characters.
+<b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters.
 
 ```javascript
 getStartIndex() : number;
@@ -157,7 +233,7 @@ getStartIndex() : number;
 
 ### getLength() {#getLength--}
 
-Gets the length of the characters.
+<b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters.
 
 ```javascript
 getLength() : number;
@@ -166,7 +242,7 @@ getLength() : number;
 
 ### getFont() {#getFont--}
 
-Returns the font of this object.
+<b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object.
 
 ```javascript
 getFont() : Font;
@@ -179,7 +255,7 @@ getFont() : Font;
 
 ### getTextOptions() {#getTextOptions--}
 
-Returns the text options.
+<b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options.
 
 ```javascript
 getTextOptions() : TextOptions;
@@ -209,7 +285,7 @@ Only for the text of shape/chart.
 
 ### getParentNode() {#getParentNode--}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 getParentNode() : EquationNode;
@@ -222,7 +298,7 @@ getParentNode() : EquationNode;
 
 ### setParentNode(EquationNode) {#setParentNode-equationnode-}
 
-Specifies the parent node of the current node
+<b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node
 
 ```javascript
 setParentNode(value: EquationNode) : void;
@@ -233,22 +309,9 @@ setParentNode(value: EquationNode) : void;
 | --- | --- | --- |
 | value | [EquationNode](../equationnode/) | The value to set. |
 
-### getType() {#getType--}
-
-Represents the type of the node.
-
-```javascript
-getType() : TextNodeType;
-```
-
-
-**Returns**
-
-[TextNodeType](../textnodetype/)
-
 ### getEquationType() {#getEquationType--}
 
-Get the equation type of the current node
+<b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node
 
 ```javascript
 getEquationType() : EquationNodeType;
@@ -438,5 +501,31 @@ static createNode(equationType: EquationNodeType, workbook: Workbook, parent: Eq
 **Returns**
 
 If the specified type exists, the corresponding node is returned, and if the type does not exist, a node of unknown type is returned.
+
+### equals(Object) {#equals-object-}
+
+Determine whether the current equation node is equal to the specified node
+
+```javascript
+equals(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The specified node |
+
+### getType() {#getType--}
+
+Represents the type of the node.
+
+```javascript
+getType() : TextNodeType;
+```
+
+
+**Returns**
+
+[TextNodeType](../textnodetype/)
 
 

@@ -4,7 +4,7 @@ linktitle: MsoLineStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoLineStyle enum. Represents style of drawing lines in C++.'
 type: docs
-weight: 10000
+weight: 10200
 url: /cpp/aspose.cells.drawing/msolinestyle/
 ---
 ## MsoLineStyle enum

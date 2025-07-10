@@ -17,26 +17,37 @@ class PicFormatOption;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [type](#type--)| FillPictureType | Gets or sets the picture fill type. |
+| [scale](#scale--)| number | Gets or sets how many the picture stack and scale with. |
+| [left](#left--)| number | Gets or sets the left offset for stretching picture. |
+| [top](#top--)| number | Gets or sets the top offset for stretching picture. |
+| [bottom](#bottom--)| number | Gets or sets the bottom offset for stretching picture. |
+| [right](#right--)| number | Gets or sets the right offset for stretching picture. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets or sets the picture fill type. |
-| [setType(FillPictureType)](#setType-fillpicturetype-)| Gets or sets the picture fill type. |
-| [getScale()](#getScale--)| Gets or sets how many the picture stack and scale with. |
-| [setScale(number)](#setScale-number-)| Gets or sets how many the picture stack and scale with. |
-| [getLeft()](#getLeft--)| Gets or sets the left offset for stretching picture. |
-| [setLeft(number)](#setLeft-number-)| Gets or sets the left offset for stretching picture. |
-| [getTop()](#getTop--)| Gets or sets the top offset for stretching picture. |
-| [setTop(number)](#setTop-number-)| Gets or sets the top offset for stretching picture. |
-| [getBottom()](#getBottom--)| Gets or sets the bottom offset for stretching picture. |
-| [setBottom(number)](#setBottom-number-)| Gets or sets the bottom offset for stretching picture. |
-| [getRight()](#getRight--)| Gets or sets the right offset for stretching picture. |
-| [setRight(number)](#setRight-number-)| Gets or sets the right offset for stretching picture. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the picture fill type. |
+| [setType(FillPictureType)](#setType-fillpicturetype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the picture fill type. |
+| [getScale()](#getScale--)| <b>@deprecated.</b> Please use the 'scale' property instead. Gets or sets how many the picture stack and scale with. |
+| [setScale(number)](#setScale-number-)| <b>@deprecated.</b> Please use the 'scale' property instead. Gets or sets how many the picture stack and scale with. |
+| [getLeft()](#getLeft--)| <b>@deprecated.</b> Please use the 'left' property instead. Gets or sets the left offset for stretching picture. |
+| [setLeft(number)](#setLeft-number-)| <b>@deprecated.</b> Please use the 'left' property instead. Gets or sets the left offset for stretching picture. |
+| [getTop()](#getTop--)| <b>@deprecated.</b> Please use the 'top' property instead. Gets or sets the top offset for stretching picture. |
+| [setTop(number)](#setTop-number-)| <b>@deprecated.</b> Please use the 'top' property instead. Gets or sets the top offset for stretching picture. |
+| [getBottom()](#getBottom--)| <b>@deprecated.</b> Please use the 'bottom' property instead. Gets or sets the bottom offset for stretching picture. |
+| [setBottom(number)](#setBottom-number-)| <b>@deprecated.</b> Please use the 'bottom' property instead. Gets or sets the bottom offset for stretching picture. |
+| [getRight()](#getRight--)| <b>@deprecated.</b> Please use the 'right' property instead. Gets or sets the right offset for stretching picture. |
+| [setRight(number)](#setRight-number-)| <b>@deprecated.</b> Please use the 'right' property instead. Gets or sets the right offset for stretching picture. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -49,9 +60,63 @@ constructor();
 ```
 
 
-### getType() {#getType--}
+### type {#type--}
 
 Gets or sets the picture fill type.
+
+```javascript
+type : FillPictureType;
+```
+
+
+### scale {#scale--}
+
+Gets or sets how many the picture stack and scale with.
+
+```javascript
+scale : number;
+```
+
+
+### left {#left--}
+
+Gets or sets the left offset for stretching picture.
+
+```javascript
+left : number;
+```
+
+
+### top {#top--}
+
+Gets or sets the top offset for stretching picture.
+
+```javascript
+top : number;
+```
+
+
+### bottom {#bottom--}
+
+Gets or sets the bottom offset for stretching picture.
+
+```javascript
+bottom : number;
+```
+
+
+### right {#right--}
+
+Gets or sets the right offset for stretching picture.
+
+```javascript
+right : number;
+```
+
+
+### getType() {#getType--}
+
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the picture fill type.
 
 ```javascript
 getType() : FillPictureType;
@@ -64,7 +129,7 @@ getType() : FillPictureType;
 
 ### setType(FillPictureType) {#setType-fillpicturetype-}
 
-Gets or sets the picture fill type.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the picture fill type.
 
 ```javascript
 setType(value: FillPictureType) : void;
@@ -77,7 +142,7 @@ setType(value: FillPictureType) : void;
 
 ### getScale() {#getScale--}
 
-Gets or sets how many the picture stack and scale with.
+<b>@deprecated.</b> Please use the 'scale' property instead. Gets or sets how many the picture stack and scale with.
 
 ```javascript
 getScale() : number;
@@ -86,7 +151,7 @@ getScale() : number;
 
 ### setScale(number) {#setScale-number-}
 
-Gets or sets how many the picture stack and scale with.
+<b>@deprecated.</b> Please use the 'scale' property instead. Gets or sets how many the picture stack and scale with.
 
 ```javascript
 setScale(value: number) : void;
@@ -99,7 +164,7 @@ setScale(value: number) : void;
 
 ### getLeft() {#getLeft--}
 
-Gets or sets the left offset for stretching picture.
+<b>@deprecated.</b> Please use the 'left' property instead. Gets or sets the left offset for stretching picture.
 
 ```javascript
 getLeft() : number;
@@ -108,7 +173,7 @@ getLeft() : number;
 
 ### setLeft(number) {#setLeft-number-}
 
-Gets or sets the left offset for stretching picture.
+<b>@deprecated.</b> Please use the 'left' property instead. Gets or sets the left offset for stretching picture.
 
 ```javascript
 setLeft(value: number) : void;
@@ -121,7 +186,7 @@ setLeft(value: number) : void;
 
 ### getTop() {#getTop--}
 
-Gets or sets the top offset for stretching picture.
+<b>@deprecated.</b> Please use the 'top' property instead. Gets or sets the top offset for stretching picture.
 
 ```javascript
 getTop() : number;
@@ -130,7 +195,7 @@ getTop() : number;
 
 ### setTop(number) {#setTop-number-}
 
-Gets or sets the top offset for stretching picture.
+<b>@deprecated.</b> Please use the 'top' property instead. Gets or sets the top offset for stretching picture.
 
 ```javascript
 setTop(value: number) : void;
@@ -143,7 +208,7 @@ setTop(value: number) : void;
 
 ### getBottom() {#getBottom--}
 
-Gets or sets the bottom offset for stretching picture.
+<b>@deprecated.</b> Please use the 'bottom' property instead. Gets or sets the bottom offset for stretching picture.
 
 ```javascript
 getBottom() : number;
@@ -152,7 +217,7 @@ getBottom() : number;
 
 ### setBottom(number) {#setBottom-number-}
 
-Gets or sets the bottom offset for stretching picture.
+<b>@deprecated.</b> Please use the 'bottom' property instead. Gets or sets the bottom offset for stretching picture.
 
 ```javascript
 setBottom(value: number) : void;
@@ -165,7 +230,7 @@ setBottom(value: number) : void;
 
 ### getRight() {#getRight--}
 
-Gets or sets the right offset for stretching picture.
+<b>@deprecated.</b> Please use the 'right' property instead. Gets or sets the right offset for stretching picture.
 
 ```javascript
 getRight() : number;
@@ -174,7 +239,7 @@ getRight() : number;
 
 ### setRight(number) {#setRight-number-}
 
-Gets or sets the right offset for stretching picture.
+<b>@deprecated.</b> Please use the 'right' property instead. Gets or sets the right offset for stretching picture.
 
 ```javascript
 setRight(value: number) : void;

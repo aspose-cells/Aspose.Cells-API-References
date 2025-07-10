@@ -4,7 +4,7 @@ linktitle: GetBoolValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetBoolValue method. Gets the boolean value contained in the cell in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells/cell/getboolvalue/
 ---
 ## Cell::GetBoolValue method

@@ -21,32 +21,39 @@ const { Workbook, ThemeColor, ThemeColorType, BackgroundType } = require("aspose
 
 //Instantiating a Workbook object
 var workbook = new Workbook();
-var cells = workbook.getWorksheets().get(0).getCells();
+var cells = workbook.worksheets.get(0).cells;
 cells.get("A1").putValue("Hello World");
 var style = cells.get("A1").getStyle();
 //Set ThemeColorType.Text2 color type with 40% lighten as the font color.
-style.getFont().setThemeColor(new ThemeColor(ThemeColorType.Text2, 0.4));
-style.setPattern(BackgroundType.Solid);
+style.font.themeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
+style.pattern = BackgroundType.Solid;
 //Set ThemeColorType.Background2 color type with 75% darken as the foreground color
-style.setForegroundThemeColor(new ThemeColor(ThemeColorType.Background2, -0.75));
+style.foregroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
 cells.get("A1").setStyle(style);
 //Saving the Excel file
 workbook.save("output/ThemeColor.xlsx");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ThemeColorType, number)](#constructor-themecolortype-number-)|  |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [colorType](#colorType--)| ThemeColorType | Gets and sets the theme type. |
+| [tint](#tint--)| number | Gets and sets the tint value. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getColorType()](#getColorType--)| Gets and sets the theme type. |
-| [setColorType(ThemeColorType)](#setColorType-themecolortype-)| Gets and sets the theme type. |
-| [getTint()](#getTint--)| Gets and sets the tint value. |
-| [setTint(number)](#setTint-number-)| Gets and sets the tint value. |
+| [getColorType()](#getColorType--)| <b>@deprecated.</b> Please use the 'colorType' property instead. Gets and sets the theme type. |
+| [setColorType(ThemeColorType)](#setColorType-themecolortype-)| <b>@deprecated.</b> Please use the 'colorType' property instead. Gets and sets the theme type. |
+| [getTint()](#getTint--)| <b>@deprecated.</b> Please use the 'tint' property instead. Gets and sets the tint value. |
+| [setTint(number)](#setTint-number-)| <b>@deprecated.</b> Please use the 'tint' property instead. Gets and sets the tint value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -64,9 +71,31 @@ constructor(type: ThemeColorType, tint: number);
 | type | [ThemeColorType](../themecolortype/) | The theme type. |
 | tint | number | The tint value. |
 
-### getColorType() {#getColorType--}
+### colorType {#colorType--}
 
 Gets and sets the theme type.
+
+```javascript
+colorType : ThemeColorType;
+```
+
+
+### tint {#tint--}
+
+Gets and sets the tint value.
+
+```javascript
+tint : number;
+```
+
+
+**Remarks**
+
+The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+
+### getColorType() {#getColorType--}
+
+<b>@deprecated.</b> Please use the 'colorType' property instead. Gets and sets the theme type.
 
 ```javascript
 getColorType() : ThemeColorType;
@@ -79,7 +108,7 @@ getColorType() : ThemeColorType;
 
 ### setColorType(ThemeColorType) {#setColorType-themecolortype-}
 
-Gets and sets the theme type.
+<b>@deprecated.</b> Please use the 'colorType' property instead. Gets and sets the theme type.
 
 ```javascript
 setColorType(value: ThemeColorType) : void;
@@ -92,7 +121,7 @@ setColorType(value: ThemeColorType) : void;
 
 ### getTint() {#getTint--}
 
-Gets and sets the tint value.
+<b>@deprecated.</b> Please use the 'tint' property instead. Gets and sets the tint value.
 
 ```javascript
 getTint() : number;
@@ -105,7 +134,7 @@ The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% dar
 
 ### setTint(number) {#setTint-number-}
 
-Gets and sets the tint value.
+<b>@deprecated.</b> Please use the 'tint' property instead. Gets and sets the tint value.
 
 ```javascript
 setTint(value: number) : void;

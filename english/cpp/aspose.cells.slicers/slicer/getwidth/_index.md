@@ -4,7 +4,7 @@ linktitle: GetWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetWidth method. Returns or sets the width of the specified slicer, in points in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells.slicers/slicer/getwidth/
 ---
 ## Slicer::GetWidth method
@@ -12,20 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/getwidth/
 
 Returns or sets the width of the specified slicer, in points.
 
+
+>Deprecated
+>
+>Use Shape.WidthPt property instead. 
 ```cpp
 double Aspose::Cells::Slicers::Slicer::GetWidth()
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Shape.WidthPt property. This property will be removed 12 months later since May 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetWidth() != 100)
-{
-    slicer.SetWidth(100);
-}
-```
 
 ## See Also
 

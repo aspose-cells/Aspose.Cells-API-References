@@ -4,7 +4,7 @@ linktitle: GetHasRevisions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetHasRevisions method. Gets if the workbook has any tracked changes in C++.'
 type: docs
-weight: 4500
+weight: 4600
 url: /cpp/aspose.cells/workbook/gethasrevisions/
 ---
 ## Workbook::GetHasRevisions method

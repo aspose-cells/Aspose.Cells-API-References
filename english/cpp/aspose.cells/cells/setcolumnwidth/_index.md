@@ -20,12 +20,12 @@ void Aspose::Cells::Cells::SetColumnWidth(int32_t column, double width)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | int32_t | [Column](../../column/) index. |
-| width | double | Width of column.Column width must be between 0 and 255. |
+| width | double | Width of column in unit of characters.Column width must be between 0 and 255. |
 ## Remarks
 
 
 
-To hide a column, sets column width to zero.
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font. 
 ## See Also
 
 * Class [Vector](../../vector/)

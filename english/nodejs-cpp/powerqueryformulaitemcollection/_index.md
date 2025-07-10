@@ -21,7 +21,7 @@ class PowerQueryFormulaItemCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets [ PowerQueryFormulaItem](../ powerqueryformulaitem/) by the index in the list. |
 | [get(string)](#get-string-)| Gets [ PowerQueryFormulaItem](../ powerqueryformulaitem/) by the name of the item. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -61,7 +61,7 @@ get(name: string) : PowerQueryFormulaItem;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

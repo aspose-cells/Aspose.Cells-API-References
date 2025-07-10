@@ -4,7 +4,7 @@ linktitle: ImageBinarizationMethod
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageBinarizationMethod enum. Specifies the method used to binarize image in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells.rendering/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enum

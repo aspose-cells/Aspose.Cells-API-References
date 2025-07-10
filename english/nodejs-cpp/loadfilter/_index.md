@@ -19,17 +19,23 @@ User may specify the filter options or implement their own LoadFilter to specify
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 | [constructor(LoadDataFilterOptions)](#constructor-loaddatafilteroptions-)| Constructs one LoadFilter with given filter options. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [loadDataFilterOptions](#loadDataFilterOptions--)| LoadDataFilterOptions | The filter options to denote what data should be loaded. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLoadDataFilterOptions()](#getLoadDataFilterOptions--)| The filter options to denote what data should be loaded. |
-| [setLoadDataFilterOptions(LoadDataFilterOptions)](#setLoadDataFilterOptions-loaddatafilteroptions-)| The filter options to denote what data should be loaded. |
+| [getLoadDataFilterOptions()](#getLoadDataFilterOptions--)| <b>@deprecated.</b> Please use the 'loadDataFilterOptions' property instead. The filter options to denote what data should be loaded. |
+| [setLoadDataFilterOptions(LoadDataFilterOptions)](#setLoadDataFilterOptions-loaddatafilteroptions-)| <b>@deprecated.</b> Please use the 'loadDataFilterOptions' property instead. The filter options to denote what data should be loaded. |
 | abstract [getSheetsInLoadingOrder()](#getSheetsInLoadingOrder--)| Specifies the sheets(indices) and order to be loaded. Default is null, that denotes to load all sheets in the default order in template file. If not null and some sheet's index is not in the returned array, then the sheet will not be loaded. |
 | abstract [startSheet(Worksheet)](#startSheet-worksheet-)| Prepares filter options before loading given worksheet. User's implementation of LoadFilter can change the LoadDataFilterOptions here to denote how to load data for this worksheet. |
 
@@ -56,9 +62,18 @@ constructor(opts: LoadDataFilterOptions);
 | --- | --- | --- |
 | opts | [LoadDataFilterOptions](../loaddatafilteroptions/) | The default filter options. |
 
-### getLoadDataFilterOptions() {#getLoadDataFilterOptions--}
+### loadDataFilterOptions {#loadDataFilterOptions--}
 
 The filter options to denote what data should be loaded.
+
+```javascript
+loadDataFilterOptions : LoadDataFilterOptions;
+```
+
+
+### getLoadDataFilterOptions() {#getLoadDataFilterOptions--}
+
+<b>@deprecated.</b> Please use the 'loadDataFilterOptions' property instead. The filter options to denote what data should be loaded.
 
 ```javascript
 getLoadDataFilterOptions() : LoadDataFilterOptions;
@@ -71,7 +86,7 @@ getLoadDataFilterOptions() : LoadDataFilterOptions;
 
 ### setLoadDataFilterOptions(LoadDataFilterOptions) {#setLoadDataFilterOptions-loaddatafilteroptions-}
 
-The filter options to denote what data should be loaded.
+<b>@deprecated.</b> Please use the 'loadDataFilterOptions' property instead. The filter options to denote what data should be loaded.
 
 ```javascript
 setLoadDataFilterOptions(value: LoadDataFilterOptions) : void;

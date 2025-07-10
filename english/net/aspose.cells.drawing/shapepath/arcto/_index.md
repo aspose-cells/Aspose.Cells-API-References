@@ -15,10 +15,10 @@ public void ArcTo(float wR, float hR, float stAng, float swAng)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wR | Single | The half-width of the rectangular area of ​​the ellipse that draws the arc. |
-| hR | Single | The half-height of the rectangular area of ​​the ellipse that draws the arc. |
-| stAng | Single | The starting angle of the arc, measured in degrees clockwise from the x-axis. |
-| swAng | Single | The angle between startAngle and the end of the arc. |
+| wR | Single | The half-width of the rectangular area of ​​the ellipse that draws the arc(Unit: Pixel). |
+| hR | Single | The half-height of the rectangular area of ​​the ellipse that draws the arc(Unit: Pixel). |
+| stAng | Single | The starting angle of the arc, measured in degrees clockwise from the x-axis(Unit: Degree). |
+| swAng | Single | The angle between startAngle and the end of the arc.(Unit: Degree) |
 
 ### Examples
 
@@ -33,38 +33,38 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a shape to the worksheet
-            var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 200, 200, 0, 0);
-            
-            // Get the shape's path
+            //Create a new shape path
             ShapePath shapePath = new ShapePath();
-            
-            try
-            {
-                // Move to starting point
-                shapePath.MoveTo(50, 50);
-                
-                // Call ArcTo with parameters: (widthRadius, heightRadius, startAngle, sweepAngle)
-                shapePath.ArcTo(30.0f, 20.0f, 0.0f, 90.0f);
-                
-                // Close the path
-                shapePath.Close();
-                
-                // Set the path to the shape
-                var paths = shape.Paths;
-                paths.Add();
-                
-                Console.WriteLine("ArcTo method executed successfully with parameters (Single, Single, Single, Single)");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing ArcTo method: {ex.Message}");
-            }
-            
+            shapePath.MoveTo(60, 45);
+            shapePath.ArcTo(25, 25, 0, 270);
+            shapePath.Close();
+
+            shapePath.MoveTo(60, 20);
+            shapePath.LineTo(110, 70);
+            shapePath.LineTo(125, 155.5f);
+            shapePath.ArcTo(35.5f, 35.5f, 0, 270);
+            shapePath.Close();
+
+            shapePath.MoveTo(150, 45);
+            shapePath.ArcTo(25, 25, 0, 270);
+
+            //Create a new shape path
+            ShapePath shapePath1 = new ShapePath();
+            shapePath1.MoveTo(0, 0);
+            shapePath1.CubicBezierTo(48.24997f, 0.6844f,
+                        96.5f, -7.148871f,
+                        130, 11.517795f);
+            shapePath1.CubicBezierTo(163.5f, 30.18446f,
+                        182.24997f, 75.351f,
+                        201, 120.517795f);
+            shapePath1.MoveTo(150, 70);
+            shapePath1.ArcTo(25, 25, 0, 270);
+
+            Workbook workbook = new Workbook();
+
+            //add free form
+            workbook.Worksheets[0].Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { shapePath, shapePath1 });
+
             // Save the result
             workbook.Save("ShapePathMethodArcToDemo.xlsx");
         }

@@ -24,35 +24,84 @@ This method can be used for some special scenarios. For example, if user needs s
 ### Examples
 
 ```csharp
-// Called: wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
-public void Workbook_Method_UpdateCustomFunctionDefinition()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells[0, 1].PutValue(1);
-    cells[0, 2].PutValue(2);
-    cells[1, 1].PutValue(4);
-    cells[1, 2].PutValue(8);
-    ArrayModeParamEngine ce = new ArrayModeParamEngine();
-    CalculationOptions copts = new CalculationOptions();
-    copts.CustomEngine = ce;
-    FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ValueMode");
-    ce._arrayMode = true;
-    FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ArrayMode");
+    public class WorkbookMethodUpdateCustomFunctionDefinitionWithCustomFunctionDDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["B1"].PutValue(1);
+            sheet.Cells["C1"].PutValue(2);
+            sheet.Cells["B2"].PutValue(4);
+            sheet.Cells["C2"].PutValue(8);
 
-    FormulaParseOptions popts = new FormulaParseOptions();
-    popts.CustomFunctionDefinition = new MyCustomFunctionDefinition();
-    ce._arrayMode = false;
-    ce._autoMode = true;
-    FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
-        popts, copts, 0, 0, null), "Parsed ArrayMode");
+            // Create custom calculation engine
+            var customEngine = new MyCustomCalculationEngine();
+            
+            // Set calculation options with custom engine
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = customEngine
+            };
 
-    Cell cell = cells[0, 0];
-    cell.Formula = "=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)";
-    wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
-    wb.CalculateFormula(copts);
-    FormulaCaseUtil.AssertInt(48, cell.Value, "Updated ArrayMode");
+            // Update the custom function definition
+            wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
+
+            // Set formula using custom function
+            sheet.Cells["A1"].Formula = "=MYFUNC(B:B+C:C)";
+            
+            // Calculate formulas
+            wb.CalculateFormula(options);
+
+            // Output the result
+            Console.WriteLine("Custom function result: " + sheet.Cells["A1"].Value);
+        }
+    }
+
+    public class MyCustomFunctionDefinition : CustomFunctionDefinition
+    {
+        public override int[] GetArrayModeParameters(string functionName)
+        {
+            // Return parameter indices that should be processed in array mode
+            return new int[] { 0 }; // First parameter is array mode
+        }
+    }
+
+    public class MyCustomCalculationEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName == "MYFUNC")
+            {
+                double sum = 0;
+                var paramValue = data.GetParamValue(0);
+                
+                if (paramValue is object[,] arrayValue)
+                {
+                    foreach (var val in arrayValue)
+                    {
+                        if (val != null)
+                        {
+                            sum += Convert.ToDouble(val);
+                        }
+                    }
+                }
+                else
+                {
+                    sum += Convert.ToDouble(paramValue);
+                }
+                data.CalculatedValue = sum * 2; // Custom calculation logic
+            }
+        }
+    }
 }
 ```
 

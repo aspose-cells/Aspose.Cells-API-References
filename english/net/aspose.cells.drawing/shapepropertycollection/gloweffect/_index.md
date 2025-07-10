@@ -21,47 +21,55 @@ namespace AsposeCellsExamples
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
     using System;
+    using System.Drawing;
 
     public class ShapePropertyCollectionPropertyGlowEffectDemo
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to the worksheet
-            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            try
-            {
-                // Access the GlowEffect property (read-only)
-                GlowEffect glowEffect = shape.Glow;
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
 
-                // Display glow effect properties if it exists
-                if (glowEffect != null)
-                {
-                    Console.WriteLine("Glow Effect Properties:");
-                    Console.WriteLine($"Color: {glowEffect.Color}");
-                    Console.WriteLine($"Size: {glowEffect.Size}");
-                    Console.WriteLine($"Transparency: {glowEffect.Transparency}");
-                }
-                else
-                {
-                    Console.WriteLine("No glow effect is currently applied");
-                }
+            chart.NSeries.Add("B1:B2", true);
+            chart.NSeries.CategoryData = "A1:A2";
 
-                // Demonstrate checking if shape has glow effect
-                bool hasGlow = shape.Glow != null;
-                Console.WriteLine($"Shape has glow effect: {hasGlow}");
+            // Access shape properties of the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-                // Save the workbook
-                workbook.Save("GlowEffectDemo.xlsx");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            // Configure 3D format and bevel
+            Format3D format3D = shapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
+
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Height = 2;
+            topBevel.Width = 5;
+
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 20;
+
+            GlowEffect glowEffect = shapeProperties.GlowEffect;
+            glowEffect.Size = 30;
+            glowEffect.Color.Color = Color.Red;
+
+            // Set series colors
+            series.Area.BackgroundColor = Color.Blue;
+            series.Area.ForegroundColor = Color.Blue;
+            series.Border.Color = Color.Blue;
+
+            // Save the workbook
+            workbook.Save("GlowEffectDemo.xlsx");            
         }
     }
 }

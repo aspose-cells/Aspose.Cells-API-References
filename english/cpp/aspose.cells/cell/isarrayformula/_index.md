@@ -4,7 +4,7 @@ linktitle: IsArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsArrayFormula method. Indicates whether the cell formula is an array formula in C++.'
 type: docs
-weight: 4800
+weight: 4900
 url: /cpp/aspose.cells/cell/isarrayformula/
 ---
 ## Cell::IsArrayFormula method

@@ -4,7 +4,7 @@ linktitle: SetFontFolder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs::SetFontFolder method. Sets the fonts folder in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/fontconfigs/setfontfolder/
 ---
 ## FontConfigs::SetFontFolder(const U16String\&, bool) method

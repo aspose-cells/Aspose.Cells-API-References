@@ -16,11 +16,11 @@ public void SetColumnWidth(int column, double width)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | Int32 | Column index. |
-| width | Double | Width of column.Column width must be between 0 and 255. |
+| width | Double | Width of column in unit of characters.Column width must be between 0 and 255. |
 
 ### Remarks
 
-To hide a column, sets column width to zero.
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 ### Examples
 

@@ -20,17 +20,17 @@ Represents the paste special type.
 | [ALL](#ALL) | Copies all data of the range. |
 | [ALL_EXCEPT_BORDERS](#ALL-EXCEPT-BORDERS) | Copies all data of the range without the range. |
 | [COLUMN_WIDTHS](#COLUMN-WIDTHS) | Only copies the widths of the range. |
-| [COMMENTS](#COMMENTS) |  |
+| [COMMENTS](#COMMENTS) | Only copies comments in the range. |
 | [DEFAULT](#DEFAULT) | It works as "All" behavior of MS Excel. |
 | [DEFAULT_EXCEPT_BORDERS](#DEFAULT-EXCEPT-BORDERS) | It works as "All except borders" behavior of MS Excel. |
-| [FORMATS](#FORMATS) |  |
-| [FORMULAS](#FORMULAS) |  |
-| [FORMULAS_AND_NUMBER_FORMATS](#FORMULAS-AND-NUMBER-FORMATS) |  |
+| [FORMATS](#FORMATS) | Only copies formats in the range. |
+| [FORMULAS](#FORMULAS) | Only copies formulas in the range. |
+| [FORMULAS_AND_NUMBER_FORMATS](#FORMULAS-AND-NUMBER-FORMATS) | Only copies formulas and number formats in the range. |
 | [ROW_HEIGHTS](#ROW-HEIGHTS) | Only copies the heights of the range. |
-| [VALIDATION](#VALIDATION) |  |
-| [VALUES](#VALUES) |  |
-| [VALUES_AND_FORMATS](#VALUES-AND-FORMATS) |  |
-| [VALUES_AND_NUMBER_FORMATS](#VALUES-AND-NUMBER-FORMATS) |  |
+| [VALIDATION](#VALIDATION) | Only copies validations in the range. |
+| [VALUES](#VALUES) | Only copies values in the range. |
+| [VALUES_AND_FORMATS](#VALUES-AND-FORMATS) | Only copies values and formats in the range. |
+| [VALUES_AND_NUMBER_FORMATS](#VALUES-AND-NUMBER-FORMATS) | Only copies values and number formats in the range. |
 ## Methods
 
 | Method | Description |
@@ -74,7 +74,7 @@ public static final int COMMENTS
 ```
 
 
-
+Only copies comments in the range.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -98,7 +98,7 @@ public static final int FORMATS
 ```
 
 
-
+Only copies formats in the range.
 
 ### FORMULAS {#FORMULAS}
 ```
@@ -106,7 +106,7 @@ public static final int FORMULAS
 ```
 
 
-
+Only copies formulas in the range.
 
 ### FORMULAS_AND_NUMBER_FORMATS {#FORMULAS-AND-NUMBER-FORMATS}
 ```
@@ -114,7 +114,7 @@ public static final int FORMULAS_AND_NUMBER_FORMATS
 ```
 
 
-
+Only copies formulas and number formats in the range.
 
 ### ROW_HEIGHTS {#ROW-HEIGHTS}
 ```
@@ -130,7 +130,7 @@ public static final int VALIDATION
 ```
 
 
-
+Only copies validations in the range.
 
 ### VALUES {#VALUES}
 ```
@@ -138,7 +138,7 @@ public static final int VALUES
 ```
 
 
-
+Only copies values in the range.
 
 ### VALUES_AND_FORMATS {#VALUES-AND-FORMATS}
 ```
@@ -146,7 +146,7 @@ public static final int VALUES_AND_FORMATS
 ```
 
 
-
+Only copies values and formats in the range.
 
 ### VALUES_AND_NUMBER_FORMATS {#VALUES-AND-NUMBER-FORMATS}
 ```
@@ -154,7 +154,7 @@ public static final int VALUES_AND_NUMBER_FORMATS
 ```
 
 
-
+Only copies values and number formats in the range.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

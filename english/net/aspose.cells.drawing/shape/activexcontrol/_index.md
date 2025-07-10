@@ -16,13 +16,30 @@ public ActiveXControl ActiveXControl { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-[C#]
-if(shape.ActiveXControl != null)
+namespace AsposeCellsExamples
 {
-    CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
-    //The font name of CheckBox
-    string fontName = checkBox1.Font.Name;
+    public class ShapePropertyActiveXControlDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 0, 0, 0, 0, 100, 30);
+
+            if (shape.ActiveXControl != null)
+            {
+                CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
+                string fontName = checkBox.Font.Name;
+                Console.WriteLine($"CheckBox Font: {fontName}");
+            }
+        }
+    }
 }
 ```
 

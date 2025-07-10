@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style class. Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties in C++.'
 type: docs
-weight: 13700
+weight: 14100
 url: /cpp/aspose.cells/style/
 ---
 ## Style class

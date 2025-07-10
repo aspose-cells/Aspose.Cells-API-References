@@ -15,18 +15,33 @@ class RowCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the number of rows in this collection. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets a [Row](../row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
-| [getCount()](#getCount--)| Gets the number of rows in this collection. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of rows in this collection. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator that iterates rows through this collection |
 | [getEnumerator(boolean, boolean)](#getEnumerator-boolean-boolean-)| Gets an enumerator that iterates rows through this collection |
 | [getRowByIndex(number)](#getRowByIndex-number-)| Gets the row object by the position in the list. |
 | [clear()](#clear--)| Clear all rows and cells. |
 | [removeAt(number)](#removeAt-number-)| Remove the row item at the specified index(position) in this collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the number of rows in this collection.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -48,7 +63,7 @@ get(rowIndex: number) : Row;
 
 ### getCount() {#getCount--}
 
-Gets the number of rows in this collection.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of rows in this collection.
 
 ```javascript
 getCount() : number;

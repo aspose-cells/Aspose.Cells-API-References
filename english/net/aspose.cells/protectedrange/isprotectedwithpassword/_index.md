@@ -16,14 +16,34 @@ public bool IsProtectedWithPassword { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(r.IsProtectedWithPassword);
-public void ProtectedRange_Property_IsProtectedWithPassword()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-    Assert.IsTrue(r.IsProtectedWithPassword);
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class ProtectedRangePropertyIsProtectedWithPasswordDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create protected ranges and get their indices
+            int protectedIndex = worksheet.AllowEditRanges.Add("PasswordProtected", 0, 0, 5, 5);
+            ProtectedRange protectedWithPassword = worksheet.AllowEditRanges[protectedIndex];
+            protectedWithPassword.Password = "test123";
+            
+            int unprotectedIndex = worksheet.AllowEditRanges.Add("Unprotected", 6, 0, 11, 5);
+            ProtectedRange unprotected = worksheet.AllowEditRanges[unprotectedIndex];
+            
+            // Protect worksheet to enforce restrictions
+            worksheet.Protect(ProtectionType.All);
+            
+            // Verify password protection status
+            Console.WriteLine($"Range '{protectedWithPassword.Name}' password protected: {protectedWithPassword.IsProtectedWithPassword}");
+            Console.WriteLine($"Range '{unprotected.Name}' password protected: {unprotected.IsProtectedWithPassword}");
+        }
+    }
 }
 ```
 

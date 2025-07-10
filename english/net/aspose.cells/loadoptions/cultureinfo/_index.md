@@ -1,17 +1,21 @@
 ---
 title: LoadOptions.CultureInfo
 second_title: Aspose.Cells for .NET API Reference
-description: LoadOptions property. Gets or sets the system culture info at the time the file was loaded
+description: LoadOptions property. Gets or sets the regional settings used for the Workbook that will be loaded
 type: docs
 url: /net/aspose.cells/loadoptions/cultureinfo/
 ---
 ## LoadOptions.CultureInfo property
 
-Gets or sets the system culture info at the time the file was loaded.
+Gets or sets the regional settings used for the Workbook that will be loaded.
 
 ```csharp
 public CultureInfo CultureInfo { get; set; }
 ```
+
+### Remarks
+
+This property has the same effect with [`Region`](../region/) for setting regional settings.
 
 ### Examples
 

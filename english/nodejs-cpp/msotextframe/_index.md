@@ -15,30 +15,105 @@ class MsoTextFrame;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [autoSize](#autoSize--)| boolean | Indicates if size of shape is adjusted automatically according to its content. |
+| [isAutoMargin](#isAutoMargin--)| boolean | Indicates whether the margin is auto calculated. |
+| [rotateTextWithShape](#rotateTextWithShape--)| boolean | Indicates whether rotating text with shape. |
+| [leftMarginPt](#leftMarginPt--)| number | Returns the left margin in unit of Points |
+| [rightMarginPt](#rightMarginPt--)| number | Returns the right margin in unit of Points |
+| [topMarginPt](#topMarginPt--)| number | Returns the top margin in unit of Points |
+| [bottomMarginPt](#bottomMarginPt--)| number | Returns the bottom margin in unit of Points |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAutoSize()](#getAutoSize--)| Indicates if size of shape is adjusted automatically according to its content. |
-| [setAutoSize(boolean)](#setAutoSize-boolean-)| Indicates if size of shape is adjusted automatically according to its content. |
-| [isAutoMargin()](#isAutoMargin--)| Indicates whether the margin is auto calculated. |
-| [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| Indicates whether the margin is auto calculated. |
-| [getRotateTextWithShape()](#getRotateTextWithShape--)| Indicates whether rotating text with shape. |
-| [setRotateTextWithShape(boolean)](#setRotateTextWithShape-boolean-)| Indicates whether rotating text with shape. |
-| [getLeftMarginPt()](#getLeftMarginPt--)| Returns the left margin in unit of Points |
-| [setLeftMarginPt(number)](#setLeftMarginPt-number-)| Returns the left margin in unit of Points |
-| [getRightMarginPt()](#getRightMarginPt--)| Returns the right margin in unit of Points |
-| [setRightMarginPt(number)](#setRightMarginPt-number-)| Returns the right margin in unit of Points |
-| [getTopMarginPt()](#getTopMarginPt--)| Returns the top margin in unit of Points |
-| [setTopMarginPt(number)](#setTopMarginPt-number-)| Returns the top margin in unit of Points |
-| [getBottomMarginPt()](#getBottomMarginPt--)| Returns the bottom margin in unit of Points |
-| [setBottomMarginPt(number)](#setBottomMarginPt-number-)| Returns the bottom margin in unit of Points |
+| [getAutoSize()](#getAutoSize--)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content. |
+| [setAutoSize(boolean)](#setAutoSize-boolean-)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content. |
+| [isAutoMargin()](#isAutoMargin--)| <b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin is auto calculated. |
+| [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| <b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin is auto calculated. |
+| [getRotateTextWithShape()](#getRotateTextWithShape--)| <b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape. |
+| [setRotateTextWithShape(boolean)](#setRotateTextWithShape-boolean-)| <b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape. |
+| [getLeftMarginPt()](#getLeftMarginPt--)| <b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points |
+| [setLeftMarginPt(number)](#setLeftMarginPt-number-)| <b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points |
+| [getRightMarginPt()](#getRightMarginPt--)| <b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points |
+| [setRightMarginPt(number)](#setRightMarginPt-number-)| <b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points |
+| [getTopMarginPt()](#getTopMarginPt--)| <b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points |
+| [setTopMarginPt(number)](#setTopMarginPt-number-)| <b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points |
+| [getBottomMarginPt()](#getBottomMarginPt--)| <b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points |
+| [setBottomMarginPt(number)](#setBottomMarginPt-number-)| <b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### autoSize {#autoSize--}
+
+Indicates if size of shape is adjusted automatically according to its content.
+
+```javascript
+autoSize : boolean;
+```
+
+
+### isAutoMargin {#isAutoMargin--}
+
+Indicates whether the margin is auto calculated.
+
+```javascript
+isAutoMargin : boolean;
+```
+
+
+### rotateTextWithShape {#rotateTextWithShape--}
+
+Indicates whether rotating text with shape.
+
+```javascript
+rotateTextWithShape : boolean;
+```
+
+
+### leftMarginPt {#leftMarginPt--}
+
+Returns the left margin in unit of Points
+
+```javascript
+leftMarginPt : number;
+```
+
+
+### rightMarginPt {#rightMarginPt--}
+
+Returns the right margin in unit of Points
+
+```javascript
+rightMarginPt : number;
+```
+
+
+### topMarginPt {#topMarginPt--}
+
+Returns the top margin in unit of Points
+
+```javascript
+topMarginPt : number;
+```
+
+
+### bottomMarginPt {#bottomMarginPt--}
+
+Returns the bottom margin in unit of Points
+
+```javascript
+bottomMarginPt : number;
+```
 
 
 ### getAutoSize() {#getAutoSize--}
 
-Indicates if size of shape is adjusted automatically according to its content.
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content.
 
 ```javascript
 getAutoSize() : boolean;
@@ -47,7 +122,7 @@ getAutoSize() : boolean;
 
 ### setAutoSize(boolean) {#setAutoSize-boolean-}
 
-Indicates if size of shape is adjusted automatically according to its content.
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content.
 
 ```javascript
 setAutoSize(value: boolean) : void;
@@ -60,7 +135,7 @@ setAutoSize(value: boolean) : void;
 
 ### isAutoMargin() {#isAutoMargin--}
 
-Indicates whether the margin is auto calculated.
+<b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin is auto calculated.
 
 ```javascript
 isAutoMargin() : boolean;
@@ -69,7 +144,7 @@ isAutoMargin() : boolean;
 
 ### setIsAutoMargin(boolean) {#setIsAutoMargin-boolean-}
 
-Indicates whether the margin is auto calculated.
+<b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin is auto calculated.
 
 ```javascript
 setIsAutoMargin(value: boolean) : void;
@@ -82,7 +157,7 @@ setIsAutoMargin(value: boolean) : void;
 
 ### getRotateTextWithShape() {#getRotateTextWithShape--}
 
-Indicates whether rotating text with shape.
+<b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape.
 
 ```javascript
 getRotateTextWithShape() : boolean;
@@ -91,7 +166,7 @@ getRotateTextWithShape() : boolean;
 
 ### setRotateTextWithShape(boolean) {#setRotateTextWithShape-boolean-}
 
-Indicates whether rotating text with shape.
+<b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape.
 
 ```javascript
 setRotateTextWithShape(value: boolean) : void;
@@ -104,7 +179,7 @@ setRotateTextWithShape(value: boolean) : void;
 
 ### getLeftMarginPt() {#getLeftMarginPt--}
 
-Returns the left margin in unit of Points
+<b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points
 
 ```javascript
 getLeftMarginPt() : number;
@@ -113,7 +188,7 @@ getLeftMarginPt() : number;
 
 ### setLeftMarginPt(number) {#setLeftMarginPt-number-}
 
-Returns the left margin in unit of Points
+<b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points
 
 ```javascript
 setLeftMarginPt(value: number) : void;
@@ -126,7 +201,7 @@ setLeftMarginPt(value: number) : void;
 
 ### getRightMarginPt() {#getRightMarginPt--}
 
-Returns the right margin in unit of Points
+<b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points
 
 ```javascript
 getRightMarginPt() : number;
@@ -135,7 +210,7 @@ getRightMarginPt() : number;
 
 ### setRightMarginPt(number) {#setRightMarginPt-number-}
 
-Returns the right margin in unit of Points
+<b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points
 
 ```javascript
 setRightMarginPt(value: number) : void;
@@ -148,7 +223,7 @@ setRightMarginPt(value: number) : void;
 
 ### getTopMarginPt() {#getTopMarginPt--}
 
-Returns the top margin in unit of Points
+<b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points
 
 ```javascript
 getTopMarginPt() : number;
@@ -157,7 +232,7 @@ getTopMarginPt() : number;
 
 ### setTopMarginPt(number) {#setTopMarginPt-number-}
 
-Returns the top margin in unit of Points
+<b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points
 
 ```javascript
 setTopMarginPt(value: number) : void;
@@ -170,7 +245,7 @@ setTopMarginPt(value: number) : void;
 
 ### getBottomMarginPt() {#getBottomMarginPt--}
 
-Returns the bottom margin in unit of Points
+<b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points
 
 ```javascript
 getBottomMarginPt() : number;
@@ -179,7 +254,7 @@ getBottomMarginPt() : number;
 
 ### setBottomMarginPt(number) {#setBottomMarginPt-number-}
 
-Returns the bottom margin in unit of Points
+<b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points
 
 ```javascript
 setBottomMarginPt(value: number) : void;

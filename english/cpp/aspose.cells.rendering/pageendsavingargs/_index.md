@@ -4,7 +4,7 @@ linktitle: PageEndSavingArgs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PageEndSavingArgs class. Info for a page ends saving process in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells.rendering/pageendsavingargs/
 ---
 ## PageEndSavingArgs class

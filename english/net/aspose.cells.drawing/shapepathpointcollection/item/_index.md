@@ -40,9 +40,9 @@ namespace AsposeCellsExamples
 
             // Create a shape path point collection and add points
             ShapePathPointCollection pathPoints = new ShapePathPointCollection();
-            pathPoints.Add(1000, 2000);
-            pathPoints.Add(3000, 4000);
-            pathPoints.Add(5000, 2000);
+            pathPoints.Add(50, 10);
+            pathPoints.Add(50, 50);
+            pathPoints.Add(10, 50);
 
             // Access points using Item property
             Console.WriteLine("First point coordinates:");
@@ -58,6 +58,10 @@ namespace AsposeCellsExamples
 
             // Create a shape path using the points
             ShapePath path = new ShapePath();
+
+            // Move to starting point
+            path.MoveTo(10, 10);
+
             foreach (ShapePathPoint point in pathPoints)
             {
                 path.LineTo(point.X, point.Y);
@@ -66,14 +70,14 @@ namespace AsposeCellsExamples
 
             // Add freeform shape with the configured path
             Shape shape = worksheet.Shapes.AddFreeform(
-                upperLeftRow: 1,
-                top: 1,
-                upperLeftColumn: 0,
-                left: 0,
-                height: 6000,
-                width: 6000,
-                paths: new ShapePath[] { path }
-            );
+                    upperLeftRow: 2,
+                    top: 0,
+                    upperLeftColumn: 2,
+                    left: 0,
+                    height: 200,
+                    width: 200,
+                    paths: new ShapePath[] { path }
+                );
 
             // Save the result
             workbook.Save("ShapePathPointCollectionPropertyItemDemo.xlsx");

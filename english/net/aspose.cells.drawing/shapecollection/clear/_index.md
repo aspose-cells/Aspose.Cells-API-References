@@ -13,6 +13,17 @@ Clear all shapes in the worksheet.
 public void Clear()
 ```
 
+### Examples
+
+```csharp
+
+[C#]
+if (shapes.Count > 0)
+{
+    shapes.Clear();
+}
+```
+
 ### See Also
 
 * class [ShapeCollection](../)

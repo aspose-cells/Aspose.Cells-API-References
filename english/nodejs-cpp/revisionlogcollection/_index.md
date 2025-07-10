@@ -15,16 +15,31 @@ class RevisionLogCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [daysPreservingHistory](#daysPreservingHistory--)| number | Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets [RevisionLog](../revisionlog/) by index. |
-| [getDaysPreservingHistory()](#getDaysPreservingHistory--)| Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
-| [setDaysPreservingHistory(number)](#setDaysPreservingHistory-number-)| Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
+| [getDaysPreservingHistory()](#getDaysPreservingHistory--)| <b>@deprecated.</b> Please use the 'daysPreservingHistory' property instead. Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
+| [setDaysPreservingHistory(number)](#setDaysPreservingHistory-number-)| <b>@deprecated.</b> Please use the 'daysPreservingHistory' property instead. Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [highlightChanges(HighlightChangesOptions)](#highlightChanges-highlightchangesoptions-)| Highlights changes of shared workbook. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### daysPreservingHistory {#daysPreservingHistory--}
+
+Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
+
+```javascript
+daysPreservingHistory : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -46,7 +61,7 @@ Returns [RevisionLog](../revisionlog/) object.
 
 ### getDaysPreservingHistory() {#getDaysPreservingHistory--}
 
-Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
+<b>@deprecated.</b> Please use the 'daysPreservingHistory' property instead. Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
 
 ```javascript
 getDaysPreservingHistory() : number;
@@ -55,7 +70,7 @@ getDaysPreservingHistory() : number;
 
 ### setDaysPreservingHistory(number) {#setDaysPreservingHistory-number-}
 
-Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
+<b>@deprecated.</b> Please use the 'daysPreservingHistory' property instead. Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
 
 ```javascript
 setDaysPreservingHistory(value: number) : void;
@@ -81,7 +96,7 @@ highlightChanges(options: HighlightChangesOptions) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

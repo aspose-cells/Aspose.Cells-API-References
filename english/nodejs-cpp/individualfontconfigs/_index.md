@@ -17,7 +17,7 @@ class IndividualFontConfigs;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Ctor. |
 

@@ -30,24 +30,46 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a rectangle shape with corrected parameters
-            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 10, 10, 200, 200);
+            // Create a shape path point collection and add points
+            ShapePathPointCollection pathPoints = new ShapePathPointCollection();
+            pathPoints.Add(50, 10);
+            pathPoints.Add(50, 50);
+            pathPoints.Add(10, 50);
 
-            // Access the geometry of the shape and cast to CustomGeometry
-            CustomGeometry customGeometry = (CustomGeometry)shape.Geometry;
+            // Access points using Item property
+            Console.WriteLine("First point coordinates:");
+            ShapePathPoint firstPoint = pathPoints[0];
+            Console.WriteLine($"X: {firstPoint.X}, Y: {firstPoint.Y}");
 
-            // Get the first shape path containing path points
-            ShapePath shapePath = customGeometry.Paths[0]; // Fixed from ShapePaths to Paths
+            Console.WriteLine("\nAll points in collection:");
+            for (int i = 0; i < pathPoints.Count; i++)
+            {
+                ShapePathPoint point = pathPoints[i];
+                Console.WriteLine($"Point {i}: X={point.X}, Y={point.Y}");
+            }
 
-            // Access the first path segment (adjust as needed for correct point access)
-            // Note: PathSegementList contains ShapeSegmentPath, not ShapePathPoint.
-            // This line is adjusted to compile but may require further changes for functionality.
-            ShapeSegmentPath segment = shapePath.PathSegementList[0];
+            // Create a shape path using the points
+            ShapePath path = new ShapePath();
 
-            // The following line is commented out as PathPoints isn't available.
-            // ShapePathPoint pathPoint = shapePath.PathPoints[0];
-            // Console.WriteLine("Original Y coordinate: " + pathPoint.Y);
-            // pathPoint.Y += 50000;
+            // Move to starting point
+            path.MoveTo(10, 10);
+
+            foreach (ShapePathPoint point in pathPoints)
+            {
+                path.LineTo(point.X, point.Y);
+            }
+            path.Close();
+
+            // Add freeform shape with the configured path
+            Shape shape = worksheet.Shapes.AddFreeform(
+                    upperLeftRow: 2,
+                    top: 0,
+                    upperLeftColumn: 2,
+                    left: 0,
+                    height: 200,
+                    width: 200,
+                    paths: new ShapePath[] { path }
+                );
 
             // Save the modified workbook
             workbook.Save("ShapePathPointYDemo.xlsx");

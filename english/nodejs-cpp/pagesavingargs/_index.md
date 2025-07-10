@@ -15,18 +15,43 @@ class PageSavingArgs;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pageIndex](#pageIndex--)| number | Readonly. Current page index, zero based. |
+| [pageCount](#pageCount--)| number | Readonly. Total page count. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageIndex()](#getPageIndex--)| Current page index, zero based. |
-| [getPageCount()](#getPageCount--)| Total page count. |
+| [getPageIndex()](#getPageIndex--)| <b>@deprecated.</b> Please use the 'pageIndex' property instead. Current page index, zero based. |
+| [getPageCount()](#getPageCount--)| <b>@deprecated.</b> Please use the 'pageCount' property instead. Total page count. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### pageIndex {#pageIndex--}
+
+Readonly. Current page index, zero based.
+
+```javascript
+pageIndex : number;
+```
+
+
+### pageCount {#pageCount--}
+
+Readonly. Total page count.
+
+```javascript
+pageCount : number;
+```
 
 
 ### getPageIndex() {#getPageIndex--}
 
-Current page index, zero based.
+<b>@deprecated.</b> Please use the 'pageIndex' property instead. Current page index, zero based.
 
 ```javascript
 getPageIndex() : number;
@@ -35,7 +60,7 @@ getPageIndex() : number;
 
 ### getPageCount() {#getPageCount--}
 
-Total page count.
+<b>@deprecated.</b> Please use the 'pageCount' property instead. Total page count.
 
 ```javascript
 getPageCount() : number;

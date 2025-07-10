@@ -4,7 +4,7 @@ linktitle: ShowGroupDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ShowGroupDetail method. Expands the grouped rows/columns in C++.'
 type: docs
-weight: 10100
+weight: 10200
 url: /cpp/aspose.cells/cells/showgroupdetail/
 ---
 ## Cells::ShowGroupDetail method

@@ -4,7 +4,7 @@ linktitle: WorkbookRender
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::WorkbookRender class. Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.rendering/workbookrender/
 ---
 ## WorkbookRender class

@@ -4,7 +4,7 @@ linktitle: TextEffectFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextEffectFormat class. Contains properties and methods that apply to WordArt objects in C++.'
 type: docs
-weight: 6800
+weight: 6900
 url: /cpp/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class

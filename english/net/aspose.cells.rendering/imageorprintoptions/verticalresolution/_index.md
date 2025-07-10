@@ -21,22 +21,49 @@ Setting [`HorizontalResolution`](../horizontalresolution/) and `VerticalResoluti
 
 ### Examples
 
-The following code sets resolution to 192, the width and height of the generated image is twice of the one with resolution left as the default value 96.
-
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
 
-ImageOrPrintOptions opts = new ImageOrPrintOptions();
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyVerticalResolutionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and create a chart
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B3"].PutValue(200);
+            
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
 
-//Set output image type: png.
-opts.ImageType = ImageType.Png;
+            // Create image options with specific vertical resolution
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = ImageType.Png;
+            options.VerticalResolution = 300; // Setting vertical resolution to 300 DPI
+            options.HorizontalResolution = 300; // For consistency, setting horizontal resolution too
 
-//Set resolution to 192.
-opts.HorizontalResolution = 192;
-opts.VerticalResolution = 192;
-
-//Render Chart to image.
-wb.Worksheets[0].Charts[0].ToImage("Chart.png", opts);
+            // Save chart as image with specified resolution
+            chart.ToImage("output_chart.png", options);
+            
+            Console.WriteLine("Chart saved as image with vertical resolution of 300 DPI.");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -4,7 +4,7 @@ linktitle: SheetRender
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::SheetRender class. Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.rendering/sheetrender/
 ---
 ## SheetRender class

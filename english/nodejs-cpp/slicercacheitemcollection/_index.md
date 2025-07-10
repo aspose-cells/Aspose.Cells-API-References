@@ -15,13 +15,28 @@ class SlicerCacheItemCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the count of the SlicerCacheItem. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the SlicerCacheItem object by index. |
-| [getCount()](#getCount--)| Gets the count of the SlicerCacheItem. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the SlicerCacheItem. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the count of the SlicerCacheItem.
+
+```javascript
+count : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -43,7 +58,7 @@ get(index: number) : SlicerCacheItem;
 
 ### getCount() {#getCount--}
 
-Gets the count of the SlicerCacheItem.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the SlicerCacheItem.
 
 ```javascript
 getCount() : number;

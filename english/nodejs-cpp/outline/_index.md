@@ -15,20 +15,45 @@ class Outline;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [summaryRowBelow](#summaryRowBelow--)| boolean | Indicates if the summary row will be positioned below the detail rows in the outline. |
+| [summaryColumnRight](#summaryColumnRight--)| boolean | Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSummaryRowBelow()](#getSummaryRowBelow--)| Indicates if the summary row will be positioned below the detail rows in the outline. |
-| [setSummaryRowBelow(boolean)](#setSummaryRowBelow-boolean-)| Indicates if the summary row will be positioned below the detail rows in the outline. |
-| [getSummaryColumnRight()](#getSummaryColumnRight--)| Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
-| [setSummaryColumnRight(boolean)](#setSummaryColumnRight-boolean-)| Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+| [getSummaryRowBelow()](#getSummaryRowBelow--)| <b>@deprecated.</b> Please use the 'summaryRowBelow' property instead. Indicates if the summary row will be positioned below the detail rows in the outline. |
+| [setSummaryRowBelow(boolean)](#setSummaryRowBelow-boolean-)| <b>@deprecated.</b> Please use the 'summaryRowBelow' property instead. Indicates if the summary row will be positioned below the detail rows in the outline. |
+| [getSummaryColumnRight()](#getSummaryColumnRight--)| <b>@deprecated.</b> Please use the 'summaryColumnRight' property instead. Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+| [setSummaryColumnRight(boolean)](#setSummaryColumnRight-boolean-)| <b>@deprecated.</b> Please use the 'summaryColumnRight' property instead. Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### summaryRowBelow {#summaryRowBelow--}
+
+Indicates if the summary row will be positioned below the detail rows in the outline.
+
+```javascript
+summaryRowBelow : boolean;
+```
+
+
+### summaryColumnRight {#summaryColumnRight--}
+
+Indicates if the summary column will be positioned to the right of the detail columns in the outline.
+
+```javascript
+summaryColumnRight : boolean;
+```
 
 
 ### getSummaryRowBelow() {#getSummaryRowBelow--}
 
-Indicates if the summary row will be positioned below the detail rows in the outline.
+<b>@deprecated.</b> Please use the 'summaryRowBelow' property instead. Indicates if the summary row will be positioned below the detail rows in the outline.
 
 ```javascript
 getSummaryRowBelow() : boolean;
@@ -37,7 +62,7 @@ getSummaryRowBelow() : boolean;
 
 ### setSummaryRowBelow(boolean) {#setSummaryRowBelow-boolean-}
 
-Indicates if the summary row will be positioned below the detail rows in the outline.
+<b>@deprecated.</b> Please use the 'summaryRowBelow' property instead. Indicates if the summary row will be positioned below the detail rows in the outline.
 
 ```javascript
 setSummaryRowBelow(value: boolean) : void;
@@ -50,7 +75,7 @@ setSummaryRowBelow(value: boolean) : void;
 
 ### getSummaryColumnRight() {#getSummaryColumnRight--}
 
-Indicates if the summary column will be positioned to the right of the detail columns in the outline.
+<b>@deprecated.</b> Please use the 'summaryColumnRight' property instead. Indicates if the summary column will be positioned to the right of the detail columns in the outline.
 
 ```javascript
 getSummaryColumnRight() : boolean;
@@ -59,7 +84,7 @@ getSummaryColumnRight() : boolean;
 
 ### setSummaryColumnRight(boolean) {#setSummaryColumnRight-boolean-}
 
-Indicates if the summary column will be positioned to the right of the detail columns in the outline.
+<b>@deprecated.</b> Please use the 'summaryColumnRight' property instead. Indicates if the summary column will be positioned to the right of the detail columns in the outline.
 
 ```javascript
 setSummaryColumnRight(value: boolean) : void;

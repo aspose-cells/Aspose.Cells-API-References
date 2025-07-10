@@ -4,7 +4,7 @@ linktitle: GetCheckMergedCells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::GetCheckMergedCells method. Indicates whether checking merged cells in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells/importtableoptions/getcheckmergedcells/
 ---
 ## ImportTableOptions::GetCheckMergedCells method

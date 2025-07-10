@@ -4,7 +4,7 @@ linktitle: ContentDisposition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ContentDisposition enum. The content disposition type in C++.'
 type: docs
-weight: 18800
+weight: 19200
 url: /cpp/aspose.cells/contentdisposition/
 ---
 ## ContentDisposition enum

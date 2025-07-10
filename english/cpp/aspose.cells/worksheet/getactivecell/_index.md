@@ -4,7 +4,7 @@ linktitle: GetActiveCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetActiveCell method. Gets or sets the active cell in the worksheet in C++.'
 type: docs
-weight: 10800
+weight: 11100
 url: /cpp/aspose.cells/worksheet/getactivecell/
 ---
 ## Worksheet::GetActiveCell method

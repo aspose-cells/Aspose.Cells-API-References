@@ -21,48 +21,55 @@ namespace AsposeCellsExamples
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
     using System;
+    using System.Drawing;
 
     public class ShapePropertyCollectionMethodClearFormat3DDemo
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape with 3D formatting
-            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
-            shape.ThreeDFormat.TopBevelType = BevelType.Circle;
-            shape.ThreeDFormat.TopBevelWidth = 10;
-            shape.ThreeDFormat.TopBevelHeight = 10;
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            try
-            {
-                // Check if shape has 3D format before clearing
-                if (shape.ThreeDFormat.TopBevelWidth > 0 || shape.ThreeDFormat.TopBevelHeight > 0)
-                {
-                    Console.WriteLine("Shape has 3D format before clearing");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
 
-                    // Cannot set ThreeDFormat directly as it's read-only
-                    // Instead, reset all 3D properties to default values
-                    shape.ThreeDFormat.TopBevelType = BevelType.None;
-                    shape.ThreeDFormat.TopBevelWidth = 0;
-                    shape.ThreeDFormat.TopBevelHeight = 0;
+            chart.NSeries.Add("B1:B2", true);
+            chart.NSeries.CategoryData = "A1:A2";
 
-                    // Verify the 3D format was cleared
-                    if (shape.ThreeDFormat.TopBevelWidth == 0 && shape.ThreeDFormat.TopBevelHeight == 0)
-                    {
-                        Console.WriteLine("3D format successfully cleared");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing ClearFormat3D method: {ex.Message}");
-            }
+            // Access shape properties of the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-            // Save the result
-            workbook.Save("MethodClearFormat3DDemo.xlsx");
+            // Configure 3D format and bevel
+            Format3D format3D = shapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
+
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Height = 2;
+            topBevel.Width = 5;
+
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 20;
+
+            // Set series colors
+            series.Area.BackgroundColor = Color.Blue;
+            series.Area.ForegroundColor = Color.Blue;
+            series.Border.Color = Color.Blue;
+
+            // Save the workbook
+            workbook.Save("ShapePropertyCollectionMethodClearFormat3DDemo.xlsx", SaveFormat.Xlsx);
+
+            shapeProperties.ClearFormat3D();
+            workbook.Save("ShapePropertyCollectionMethodClearFormat3DDemo2.xlsx", SaveFormat.Xlsx);
+
         }
     }
 }

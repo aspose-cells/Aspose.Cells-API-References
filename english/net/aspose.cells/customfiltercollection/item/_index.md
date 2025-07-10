@@ -17,23 +17,6 @@ public CustomFilter this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
-### Examples
-
-```csharp
-// Called: CustomFilter cf = ((CustomFilterCollection)fc.Filter)[0];
-public void CustomFilterCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "example.xls");
-    workbook.Save(Constants.HtmlDestPath + "example.html");
-    workbook = new Workbook(Constants.HtmlDestPath + "example.html");
-    AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = autoFilter.FilterColumns[2];
-    CustomFilter cf = ((CustomFilterCollection)fc.Filter)[0];
-    Assert.AreEqual(fc.FilterType, FilterType.CustomFilters);
-    Console.WriteLine(cf.Criteria.ToString(), "7");
-}
-```
-
 ### See Also
 
 * class [CustomFilter](../../customfilter/)

@@ -17,30 +17,43 @@ class SignatureLine;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [signer](#signer--)| string | Gets or sets the signer. |
+| [title](#title--)| string | Gets or sets the title of singer. |
+| [email](#email--)| string | Gets or sets the email of singer. |
+| [isLine](#isLine--)| boolean | Indicates whether it is a signature line. |
+| [allowComments](#allowComments--)| boolean | Indicates whether comments could be attached. |
+| [showSignedDate](#showSignedDate--)| boolean | Indicates whether show signed date. |
+| [instructions](#instructions--)| string | Gets or sets the text shown to user at signing time. |
+| [signatureLineType](#signatureLineType--)| SignatureType | Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSigner()](#getSigner--)| Gets or sets the signer. |
-| [setSigner(string)](#setSigner-string-)| Gets or sets the signer. |
-| [getTitle()](#getTitle--)| Gets or sets the title of singer. |
-| [setTitle(string)](#setTitle-string-)| Gets or sets the title of singer. |
-| [getEmail()](#getEmail--)| Gets or sets the email of singer. |
-| [setEmail(string)](#setEmail-string-)| Gets or sets the email of singer. |
-| [isLine()](#isLine--)| Indicates whether it is a signature line. |
-| [setIsLine(boolean)](#setIsLine-boolean-)| Indicates whether it is a signature line. |
-| [getAllowComments()](#getAllowComments--)| Indicates whether comments could be attached. |
-| [setAllowComments(boolean)](#setAllowComments-boolean-)| Indicates whether comments could be attached. |
-| [getShowSignedDate()](#getShowSignedDate--)| Indicates whether show signed date. |
-| [setShowSignedDate(boolean)](#setShowSignedDate-boolean-)| Indicates whether show signed date. |
-| [getInstructions()](#getInstructions--)| Gets or sets the text shown to user at signing time. |
-| [setInstructions(string)](#setInstructions-string-)| Gets or sets the text shown to user at signing time. |
-| [getSignatureLineType()](#getSignatureLineType--)| Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider. |
-| [setSignatureLineType(SignatureType)](#setSignatureLineType-signaturetype-)| Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider. |
+| [getSigner()](#getSigner--)| <b>@deprecated.</b> Please use the 'signer' property instead. Gets or sets the signer. |
+| [setSigner(string)](#setSigner-string-)| <b>@deprecated.</b> Please use the 'signer' property instead. Gets or sets the signer. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of singer. |
+| [setTitle(string)](#setTitle-string-)| <b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of singer. |
+| [getEmail()](#getEmail--)| <b>@deprecated.</b> Please use the 'email' property instead. Gets or sets the email of singer. |
+| [setEmail(string)](#setEmail-string-)| <b>@deprecated.</b> Please use the 'email' property instead. Gets or sets the email of singer. |
+| [isLine()](#isLine--)| <b>@deprecated.</b> Please use the 'isLine' property instead. Indicates whether it is a signature line. |
+| [setIsLine(boolean)](#setIsLine-boolean-)| <b>@deprecated.</b> Please use the 'isLine' property instead. Indicates whether it is a signature line. |
+| [getAllowComments()](#getAllowComments--)| <b>@deprecated.</b> Please use the 'allowComments' property instead. Indicates whether comments could be attached. |
+| [setAllowComments(boolean)](#setAllowComments-boolean-)| <b>@deprecated.</b> Please use the 'allowComments' property instead. Indicates whether comments could be attached. |
+| [getShowSignedDate()](#getShowSignedDate--)| <b>@deprecated.</b> Please use the 'showSignedDate' property instead. Indicates whether show signed date. |
+| [setShowSignedDate(boolean)](#setShowSignedDate-boolean-)| <b>@deprecated.</b> Please use the 'showSignedDate' property instead. Indicates whether show signed date. |
+| [getInstructions()](#getInstructions--)| <b>@deprecated.</b> Please use the 'instructions' property instead. Gets or sets the text shown to user at signing time. |
+| [setInstructions(string)](#setInstructions-string-)| <b>@deprecated.</b> Please use the 'instructions' property instead. Gets or sets the text shown to user at signing time. |
+| [getSignatureLineType()](#getSignatureLineType--)| <b>@deprecated.</b> Please use the 'signatureLineType' property instead. Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider. |
+| [setSignatureLineType(SignatureType)](#setSignatureLineType-signaturetype-)| <b>@deprecated.</b> Please use the 'signatureLineType' property instead. Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -53,9 +66,81 @@ constructor();
 ```
 
 
-### getSigner() {#getSigner--}
+### signer {#signer--}
 
 Gets or sets the signer.
+
+```javascript
+signer : string;
+```
+
+
+### title {#title--}
+
+Gets or sets the title of singer.
+
+```javascript
+title : string;
+```
+
+
+### email {#email--}
+
+Gets or sets the email of singer.
+
+```javascript
+email : string;
+```
+
+
+### isLine {#isLine--}
+
+Indicates whether it is a signature line.
+
+```javascript
+isLine : boolean;
+```
+
+
+### allowComments {#allowComments--}
+
+Indicates whether comments could be attached.
+
+```javascript
+allowComments : boolean;
+```
+
+
+### showSignedDate {#showSignedDate--}
+
+Indicates whether show signed date.
+
+```javascript
+showSignedDate : boolean;
+```
+
+
+### instructions {#instructions--}
+
+Gets or sets the text shown to user at signing time.
+
+```javascript
+instructions : string;
+```
+
+
+### signatureLineType {#signatureLineType--}
+
+Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+
+```javascript
+signatureLineType : SignatureType;
+```
+
+
+### getSigner() {#getSigner--}
+
+<b>@deprecated.</b> Please use the 'signer' property instead. Gets or sets the signer.
 
 ```javascript
 getSigner() : string;
@@ -64,7 +149,7 @@ getSigner() : string;
 
 ### setSigner(string) {#setSigner-string-}
 
-Gets or sets the signer.
+<b>@deprecated.</b> Please use the 'signer' property instead. Gets or sets the signer.
 
 ```javascript
 setSigner(value: string) : void;
@@ -77,7 +162,7 @@ setSigner(value: string) : void;
 
 ### getTitle() {#getTitle--}
 
-Gets or sets the title of singer.
+<b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of singer.
 
 ```javascript
 getTitle() : string;
@@ -86,7 +171,7 @@ getTitle() : string;
 
 ### setTitle(string) {#setTitle-string-}
 
-Gets or sets the title of singer.
+<b>@deprecated.</b> Please use the 'title' property instead. Gets or sets the title of singer.
 
 ```javascript
 setTitle(value: string) : void;
@@ -99,7 +184,7 @@ setTitle(value: string) : void;
 
 ### getEmail() {#getEmail--}
 
-Gets or sets the email of singer.
+<b>@deprecated.</b> Please use the 'email' property instead. Gets or sets the email of singer.
 
 ```javascript
 getEmail() : string;
@@ -108,7 +193,7 @@ getEmail() : string;
 
 ### setEmail(string) {#setEmail-string-}
 
-Gets or sets the email of singer.
+<b>@deprecated.</b> Please use the 'email' property instead. Gets or sets the email of singer.
 
 ```javascript
 setEmail(value: string) : void;
@@ -121,7 +206,7 @@ setEmail(value: string) : void;
 
 ### isLine() {#isLine--}
 
-Indicates whether it is a signature line.
+<b>@deprecated.</b> Please use the 'isLine' property instead. Indicates whether it is a signature line.
 
 ```javascript
 isLine() : boolean;
@@ -130,7 +215,7 @@ isLine() : boolean;
 
 ### setIsLine(boolean) {#setIsLine-boolean-}
 
-Indicates whether it is a signature line.
+<b>@deprecated.</b> Please use the 'isLine' property instead. Indicates whether it is a signature line.
 
 ```javascript
 setIsLine(value: boolean) : void;
@@ -143,7 +228,7 @@ setIsLine(value: boolean) : void;
 
 ### getAllowComments() {#getAllowComments--}
 
-Indicates whether comments could be attached.
+<b>@deprecated.</b> Please use the 'allowComments' property instead. Indicates whether comments could be attached.
 
 ```javascript
 getAllowComments() : boolean;
@@ -152,7 +237,7 @@ getAllowComments() : boolean;
 
 ### setAllowComments(boolean) {#setAllowComments-boolean-}
 
-Indicates whether comments could be attached.
+<b>@deprecated.</b> Please use the 'allowComments' property instead. Indicates whether comments could be attached.
 
 ```javascript
 setAllowComments(value: boolean) : void;
@@ -165,7 +250,7 @@ setAllowComments(value: boolean) : void;
 
 ### getShowSignedDate() {#getShowSignedDate--}
 
-Indicates whether show signed date.
+<b>@deprecated.</b> Please use the 'showSignedDate' property instead. Indicates whether show signed date.
 
 ```javascript
 getShowSignedDate() : boolean;
@@ -174,7 +259,7 @@ getShowSignedDate() : boolean;
 
 ### setShowSignedDate(boolean) {#setShowSignedDate-boolean-}
 
-Indicates whether show signed date.
+<b>@deprecated.</b> Please use the 'showSignedDate' property instead. Indicates whether show signed date.
 
 ```javascript
 setShowSignedDate(value: boolean) : void;
@@ -187,7 +272,7 @@ setShowSignedDate(value: boolean) : void;
 
 ### getInstructions() {#getInstructions--}
 
-Gets or sets the text shown to user at signing time.
+<b>@deprecated.</b> Please use the 'instructions' property instead. Gets or sets the text shown to user at signing time.
 
 ```javascript
 getInstructions() : string;
@@ -196,7 +281,7 @@ getInstructions() : string;
 
 ### setInstructions(string) {#setInstructions-string-}
 
-Gets or sets the text shown to user at signing time.
+<b>@deprecated.</b> Please use the 'instructions' property instead. Gets or sets the text shown to user at signing time.
 
 ```javascript
 setInstructions(value: string) : void;
@@ -209,7 +294,7 @@ setInstructions(value: string) : void;
 
 ### getSignatureLineType() {#getSignatureLineType--}
 
-Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+<b>@deprecated.</b> Please use the 'signatureLineType' property instead. Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
 
 ```javascript
 getSignatureLineType() : SignatureType;
@@ -222,7 +307,7 @@ getSignatureLineType() : SignatureType;
 
 ### setSignatureLineType(SignatureType) {#setSignatureLineType-signaturetype-}
 
-Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+<b>@deprecated.</b> Please use the 'signatureLineType' property instead. Gets or sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
 
 ```javascript
 setSignatureLineType(value: SignatureType) : void;

@@ -4,7 +4,7 @@ linktitle: DataLabelShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::DataLabelShapeType enum. Specifies the preset shape geometry that is to be used for a chart in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.cells.drawing/datalabelshapetype/
 ---
 ## DataLabelShapeType enum

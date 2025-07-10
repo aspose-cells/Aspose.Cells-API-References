@@ -17,20 +17,28 @@ class LowCodeSplitOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [loadOptions](#loadOptions--)| LowCodeLoadOptions | Load options for loading the spreadsheet that will be split. |
+| [saveOptions](#saveOptions--)| LowCodeSaveOptions | Save options for saving the split parts. |
+| [saveOptionsProvider](#saveOptionsProvider--)| AbstractLowCodeSaveOptionsProvider | Provider of save options for saving the split parts. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLoadOptions()](#getLoadOptions--)| Load options for loading the spreadsheet that will be split. |
-| [setLoadOptions(LowCodeLoadOptions)](#setLoadOptions-lowcodeloadoptions-)| Load options for loading the spreadsheet that will be split. |
-| [getSaveOptions()](#getSaveOptions--)| Save options for saving the split parts. |
-| [setSaveOptions(LowCodeSaveOptions)](#setSaveOptions-lowcodesaveoptions-)| Save options for saving the split parts. |
-| [getSaveOptionsProvider()](#getSaveOptionsProvider--)| Provider of save options for saving the split parts. |
-| [setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider)](#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-)| Provider of save options for saving the split parts. |
+| [getLoadOptions()](#getLoadOptions--)| <b>@deprecated.</b> Please use the 'loadOptions' property instead. Load options for loading the spreadsheet that will be split. |
+| [setLoadOptions(LowCodeLoadOptions)](#setLoadOptions-lowcodeloadoptions-)| <b>@deprecated.</b> Please use the 'loadOptions' property instead. Load options for loading the spreadsheet that will be split. |
+| [getSaveOptions()](#getSaveOptions--)| <b>@deprecated.</b> Please use the 'saveOptions' property instead. Save options for saving the split parts. |
+| [setSaveOptions(LowCodeSaveOptions)](#setSaveOptions-lowcodesaveoptions-)| <b>@deprecated.</b> Please use the 'saveOptions' property instead. Save options for saving the split parts. |
+| [getSaveOptionsProvider()](#getSaveOptionsProvider--)| <b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving the split parts. |
+| [setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider)](#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-)| <b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving the split parts. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,9 +51,40 @@ constructor();
 ```
 
 
-### getLoadOptions() {#getLoadOptions--}
+### loadOptions {#loadOptions--}
 
 Load options for loading the spreadsheet that will be split.
+
+```javascript
+loadOptions : LowCodeLoadOptions;
+```
+
+
+### saveOptions {#saveOptions--}
+
+Save options for saving the split parts.
+
+```javascript
+saveOptions : LowCodeSaveOptions;
+```
+
+
+### saveOptionsProvider {#saveOptionsProvider--}
+
+Provider of save options for saving the split parts.
+
+```javascript
+saveOptionsProvider : AbstractLowCodeSaveOptionsProvider;
+```
+
+
+**Remarks**
+
+If this property is specified, [SaveOptions](../saveoptions/) takes no effect because the output of every split part will be specified by the provider.
+
+### getLoadOptions() {#getLoadOptions--}
+
+<b>@deprecated.</b> Please use the 'loadOptions' property instead. Load options for loading the spreadsheet that will be split.
 
 ```javascript
 getLoadOptions() : LowCodeLoadOptions;
@@ -58,7 +97,7 @@ getLoadOptions() : LowCodeLoadOptions;
 
 ### setLoadOptions(LowCodeLoadOptions) {#setLoadOptions-lowcodeloadoptions-}
 
-Load options for loading the spreadsheet that will be split.
+<b>@deprecated.</b> Please use the 'loadOptions' property instead. Load options for loading the spreadsheet that will be split.
 
 ```javascript
 setLoadOptions(value: LowCodeLoadOptions) : void;
@@ -71,7 +110,7 @@ setLoadOptions(value: LowCodeLoadOptions) : void;
 
 ### getSaveOptions() {#getSaveOptions--}
 
-Save options for saving the split parts.
+<b>@deprecated.</b> Please use the 'saveOptions' property instead. Save options for saving the split parts.
 
 ```javascript
 getSaveOptions() : LowCodeSaveOptions;
@@ -84,7 +123,7 @@ getSaveOptions() : LowCodeSaveOptions;
 
 ### setSaveOptions(LowCodeSaveOptions) {#setSaveOptions-lowcodesaveoptions-}
 
-Save options for saving the split parts.
+<b>@deprecated.</b> Please use the 'saveOptions' property instead. Save options for saving the split parts.
 
 ```javascript
 setSaveOptions(value: LowCodeSaveOptions) : void;
@@ -97,7 +136,7 @@ setSaveOptions(value: LowCodeSaveOptions) : void;
 
 ### getSaveOptionsProvider() {#getSaveOptionsProvider--}
 
-Provider of save options for saving the split parts.
+<b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving the split parts.
 
 ```javascript
 getSaveOptionsProvider() : AbstractLowCodeSaveOptionsProvider;
@@ -114,7 +153,7 @@ If this property is specified, [SaveOptions](../saveoptions/) takes no effect be
 
 ### setSaveOptionsProvider(AbstractLowCodeSaveOptionsProvider) {#setSaveOptionsProvider-abstractlowcodesaveoptionsprovider-}
 
-Provider of save options for saving the split parts.
+<b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving the split parts.
 
 ```javascript
 setSaveOptionsProvider(value: AbstractLowCodeSaveOptionsProvider) : void;

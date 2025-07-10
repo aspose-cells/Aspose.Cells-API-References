@@ -17,67 +17,97 @@ class ListBoxActiveXControl extends ActiveXControl;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ActiveXControl)](#constructor-activexcontrol-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [scrollBars](#scrollBars--)| ControlScrollBarType | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
+| [listWidth](#listWidth--)| number | Gets and set the width in unit of points. |
+| [boundColumn](#boundColumn--)| number | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
+| [textColumn](#textColumn--)| number | Represents the column in a ComboBox or ListBox to display to the user. |
+| [columnCount](#columnCount--)| number | Represents the number of columns to display in a ComboBox or ListBox. |
+| [matchEntry](#matchEntry--)| ControlMatchEntryType | Indicates how a ListBox or ComboBox searches its list as the user types. |
+| [listStyle](#listStyle--)| ControlListStyle | Gets and sets the visual appearance. |
+| [selectionType](#selectionType--)| SelectionType | Indicates whether the control permits multiple selections. |
+| [value](#value--)| string | Gets and sets the value of the control. |
+| [borderStyle](#borderStyle--)| ControlBorderType | Gets and set the type of border used by the control. |
+| [borderOleColor](#borderOleColor--)| number | Gets and sets the ole color of the background. |
+| [specialEffect](#specialEffect--)| ControlSpecialEffectType | Gets and sets the special effect of the control. |
+| [showColumnHeads](#showColumnHeads--)| boolean | Indicates whether column headings are displayed. |
+| [integralHeight](#integralHeight--)| boolean | Indicates whether the control will only show complete lines of text without showing any partial lines. |
+| [columnWidths](#columnWidths--)| number | Gets and sets the width of the column. |
+| [workbook](#workbook--)| Workbook | Readonly. Gets the [Workbook](../workbook/) object. |
+| [mouseIcon](#mouseIcon--)| Uint8Array | Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [mousePointer](#mousePointer--)| ControlMousePointerType | Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [linkedCell](#linkedCell--)| string | Gets and sets the linked cell. |
+| [listFillRange](#listFillRange--)| string | Gets and sets the list fill range. |
+| [isEnabled](#isEnabled--)| boolean | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [isLocked](#isLocked--)| boolean | Indicates whether data in the control is locked for editing. |
+| [isTransparent](#isTransparent--)| boolean | Indicates whether the control is transparent. |
+| [iMEMode](#iMEMode--)| InputMethodEditorMode | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [font](#font--)| Font | Readonly. Represents the font of the control. |
+| [textAlign](#textAlign--)| TextAlignmentType | Represents how to align the text used by the control. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the ActiveX control. |
-| [getScrollBars()](#getScrollBars--)| Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
-| [setScrollBars(ControlScrollBarType)](#setScrollBars-controlscrollbartype-)| Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
-| [getListWidth()](#getListWidth--)| Gets and set the width in unit of points. |
-| [setListWidth(number)](#setListWidth-number-)| Gets and set the width in unit of points. |
-| [getBoundColumn()](#getBoundColumn--)| Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
-| [setBoundColumn(number)](#setBoundColumn-number-)| Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
-| [getTextColumn()](#getTextColumn--)| Represents the column in a ComboBox or ListBox to display to the user. |
-| [setTextColumn(number)](#setTextColumn-number-)| Represents the column in a ComboBox or ListBox to display to the user. |
-| [getColumnCount()](#getColumnCount--)| Represents the number of columns to display in a ComboBox or ListBox. |
-| [setColumnCount(number)](#setColumnCount-number-)| Represents the number of columns to display in a ComboBox or ListBox. |
-| [getMatchEntry()](#getMatchEntry--)| Indicates how a ListBox or ComboBox searches its list as the user types. |
-| [setMatchEntry(ControlMatchEntryType)](#setMatchEntry-controlmatchentrytype-)| Indicates how a ListBox or ComboBox searches its list as the user types. |
-| [getListStyle()](#getListStyle--)| Gets and sets the visual appearance. |
-| [setListStyle(ControlListStyle)](#setListStyle-controlliststyle-)| Gets and sets the visual appearance. |
-| [getSelectionType()](#getSelectionType--)| Indicates whether the control permits multiple selections. |
-| [setSelectionType(SelectionType)](#setSelectionType-selectiontype-)| Indicates whether the control permits multiple selections. |
-| [getValue()](#getValue--)| Gets and sets the value of the control. |
-| [setValue(string)](#setValue-string-)| Gets and sets the value of the control. |
-| [getBorderStyle()](#getBorderStyle--)| Gets and set the type of border used by the control. |
-| [setBorderStyle(ControlBorderType)](#setBorderStyle-controlbordertype-)| Gets and set the type of border used by the control. |
-| [getBorderOleColor()](#getBorderOleColor--)| Gets and sets the ole color of the background. |
-| [setBorderOleColor(number)](#setBorderOleColor-number-)| Gets and sets the ole color of the background. |
-| [getSpecialEffect()](#getSpecialEffect--)| Gets and sets the special effect of the control. |
-| [setSpecialEffect(ControlSpecialEffectType)](#setSpecialEffect-controlspecialeffecttype-)| Gets and sets the special effect of the control. |
-| [getShowColumnHeads()](#getShowColumnHeads--)| Indicates whether column headings are displayed. |
-| [setShowColumnHeads(boolean)](#setShowColumnHeads-boolean-)| Indicates whether column headings are displayed. |
-| [getIntegralHeight()](#getIntegralHeight--)| Indicates whether the control will only show complete lines of text without showing any partial lines. |
-| [setIntegralHeight(boolean)](#setIntegralHeight-boolean-)| Indicates whether the control will only show complete lines of text without showing any partial lines. |
-| [getColumnWidths()](#getColumnWidths--)| Gets and sets the width of the column. |
-| [setColumnWidths(number)](#setColumnWidths-number-)| Gets and sets the width of the column. |
+| [getScrollBars()](#getScrollBars--)| <b>@deprecated.</b> Please use the 'scrollBars' property instead. Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
+| [setScrollBars(ControlScrollBarType)](#setScrollBars-controlscrollbartype-)| <b>@deprecated.</b> Please use the 'scrollBars' property instead. Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
+| [getListWidth()](#getListWidth--)| <b>@deprecated.</b> Please use the 'listWidth' property instead. Gets and set the width in unit of points. |
+| [setListWidth(number)](#setListWidth-number-)| <b>@deprecated.</b> Please use the 'listWidth' property instead. Gets and set the width in unit of points. |
+| [getBoundColumn()](#getBoundColumn--)| <b>@deprecated.</b> Please use the 'boundColumn' property instead. Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
+| [setBoundColumn(number)](#setBoundColumn-number-)| <b>@deprecated.</b> Please use the 'boundColumn' property instead. Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
+| [getTextColumn()](#getTextColumn--)| <b>@deprecated.</b> Please use the 'textColumn' property instead. Represents the column in a ComboBox or ListBox to display to the user. |
+| [setTextColumn(number)](#setTextColumn-number-)| <b>@deprecated.</b> Please use the 'textColumn' property instead. Represents the column in a ComboBox or ListBox to display to the user. |
+| [getColumnCount()](#getColumnCount--)| <b>@deprecated.</b> Please use the 'columnCount' property instead. Represents the number of columns to display in a ComboBox or ListBox. |
+| [setColumnCount(number)](#setColumnCount-number-)| <b>@deprecated.</b> Please use the 'columnCount' property instead. Represents the number of columns to display in a ComboBox or ListBox. |
+| [getMatchEntry()](#getMatchEntry--)| <b>@deprecated.</b> Please use the 'matchEntry' property instead. Indicates how a ListBox or ComboBox searches its list as the user types. |
+| [setMatchEntry(ControlMatchEntryType)](#setMatchEntry-controlmatchentrytype-)| <b>@deprecated.</b> Please use the 'matchEntry' property instead. Indicates how a ListBox or ComboBox searches its list as the user types. |
+| [getListStyle()](#getListStyle--)| <b>@deprecated.</b> Please use the 'listStyle' property instead. Gets and sets the visual appearance. |
+| [setListStyle(ControlListStyle)](#setListStyle-controlliststyle-)| <b>@deprecated.</b> Please use the 'listStyle' property instead. Gets and sets the visual appearance. |
+| [getSelectionType()](#getSelectionType--)| <b>@deprecated.</b> Please use the 'selectionType' property instead. Indicates whether the control permits multiple selections. |
+| [setSelectionType(SelectionType)](#setSelectionType-selectiontype-)| <b>@deprecated.</b> Please use the 'selectionType' property instead. Indicates whether the control permits multiple selections. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the control. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the control. |
+| [getBorderStyle()](#getBorderStyle--)| <b>@deprecated.</b> Please use the 'borderStyle' property instead. Gets and set the type of border used by the control. |
+| [setBorderStyle(ControlBorderType)](#setBorderStyle-controlbordertype-)| <b>@deprecated.</b> Please use the 'borderStyle' property instead. Gets and set the type of border used by the control. |
+| [getBorderOleColor()](#getBorderOleColor--)| <b>@deprecated.</b> Please use the 'borderOleColor' property instead. Gets and sets the ole color of the background. |
+| [setBorderOleColor(number)](#setBorderOleColor-number-)| <b>@deprecated.</b> Please use the 'borderOleColor' property instead. Gets and sets the ole color of the background. |
+| [getSpecialEffect()](#getSpecialEffect--)| <b>@deprecated.</b> Please use the 'specialEffect' property instead. Gets and sets the special effect of the control. |
+| [setSpecialEffect(ControlSpecialEffectType)](#setSpecialEffect-controlspecialeffecttype-)| <b>@deprecated.</b> Please use the 'specialEffect' property instead. Gets and sets the special effect of the control. |
+| [getShowColumnHeads()](#getShowColumnHeads--)| <b>@deprecated.</b> Please use the 'showColumnHeads' property instead. Indicates whether column headings are displayed. |
+| [setShowColumnHeads(boolean)](#setShowColumnHeads-boolean-)| <b>@deprecated.</b> Please use the 'showColumnHeads' property instead. Indicates whether column headings are displayed. |
+| [getIntegralHeight()](#getIntegralHeight--)| <b>@deprecated.</b> Please use the 'integralHeight' property instead. Indicates whether the control will only show complete lines of text without showing any partial lines. |
+| [setIntegralHeight(boolean)](#setIntegralHeight-boolean-)| <b>@deprecated.</b> Please use the 'integralHeight' property instead. Indicates whether the control will only show complete lines of text without showing any partial lines. |
+| [getColumnWidths()](#getColumnWidths--)| <b>@deprecated.</b> Please use the 'columnWidths' property instead. Gets and sets the width of the column. |
+| [setColumnWidths(number)](#setColumnWidths-number-)| <b>@deprecated.</b> Please use the 'columnWidths' property instead. Gets and sets the width of the column. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
-| [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(Uint8Array)](#setMouseIcon-uint8array-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
-| [setLinkedCell(string)](#setLinkedCell-string-)| Gets and sets the linked cell. |
-| [getListFillRange()](#getListFillRange--)| Gets and sets the list fill range. |
-| [setListFillRange(string)](#setListFillRange-string-)| Gets and sets the list fill range. |
-| [isEnabled()](#isEnabled--)| Indicates whether the control can receive the focus and respond to user-generated events. |
-| [setIsEnabled(boolean)](#setIsEnabled-boolean-)| Indicates whether the control can receive the focus and respond to user-generated events. |
-| [isLocked()](#isLocked--)| Indicates whether data in the control is locked for editing. |
-| [setIsLocked(boolean)](#setIsLocked-boolean-)| Indicates whether data in the control is locked for editing. |
-| [isTransparent()](#isTransparent--)| Indicates whether the control is transparent. |
-| [setIsTransparent(boolean)](#setIsTransparent-boolean-)| Indicates whether the control is transparent. |
-| [getIMEMode()](#getIMEMode--)| Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [setIMEMode(InputMethodEditorMode)](#setIMEMode-inputmethodeditormode-)| Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getFont()](#getFont--)| Represents the font of the control. |
-| [getTextAlign()](#getTextAlign--)| Represents how to align the text used by the control. |
-| [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| Represents how to align the text used by the control. |
-| [getData()](#getData--)| Gets and sets the binary data of the control. |
+| [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the [Workbook](../workbook/) object. |
+| [getMouseIcon()](#getMouseIcon--)| <b>@deprecated.</b> Please use the 'mouseIcon' property instead. Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(Uint8Array)](#setMouseIcon-uint8array-)| <b>@deprecated.</b> Please use the 'mouseIcon' property instead. Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--)| <b>@deprecated.</b> Please use the 'mousePointer' property instead. Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| <b>@deprecated.</b> Please use the 'mousePointer' property instead. Gets and sets the type of icon displayed as the mouse pointer for the control. |
+| [getLinkedCell()](#getLinkedCell--)| <b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets and sets the linked cell. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| <b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets and sets the linked cell. |
+| [getListFillRange()](#getListFillRange--)| <b>@deprecated.</b> Please use the 'listFillRange' property instead. Gets and sets the list fill range. |
+| [setListFillRange(string)](#setListFillRange-string-)| <b>@deprecated.</b> Please use the 'listFillRange' property instead. Gets and sets the list fill range. |
+| [isEnabled()](#isEnabled--)| <b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setIsEnabled(boolean)](#setIsEnabled-boolean-)| <b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the control can receive the focus and respond to user-generated events. |
+| [isLocked()](#isLocked--)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether data in the control is locked for editing. |
+| [setIsLocked(boolean)](#setIsLocked-boolean-)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether data in the control is locked for editing. |
+| [isTransparent()](#isTransparent--)| <b>@deprecated.</b> Please use the 'isTransparent' property instead. Indicates whether the control is transparent. |
+| [setIsTransparent(boolean)](#setIsTransparent-boolean-)| <b>@deprecated.</b> Please use the 'isTransparent' property instead. Indicates whether the control is transparent. |
+| [getIMEMode()](#getIMEMode--)| <b>@deprecated.</b> Please use the 'iMEMode' property instead. Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setIMEMode(InputMethodEditorMode)](#setIMEMode-inputmethodeditormode-)| <b>@deprecated.</b> Please use the 'iMEMode' property instead. Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
+| [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
+| [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
+| [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
 | [getHeight()](#getHeight--)| Gets and sets the height of the control in unit of points. |
@@ -92,6 +122,7 @@ class ListBoxActiveXControl extends ActiveXControl;
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether to show a shadow. |
 | [isAutoSize()](#isAutoSize--)| Indicates whether the control will automatically resize to display its entire contents. |
 | [setIsAutoSize(boolean)](#setIsAutoSize-boolean-)| Indicates whether the control will automatically resize to display its entire contents. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
 
 
 ### constructor(ActiveXControl) {#constructor-activexcontrol-}
@@ -107,22 +138,247 @@ constructor(obj: ActiveXControl);
 | --- | --- | --- |
 | obj | ActiveXControl | The parent object. |
 
-### getType() {#getType--}
+### scrollBars {#scrollBars--}
 
-Gets the type of the ActiveX control.
+Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
 
 ```javascript
-getType() : ControlType;
+scrollBars : ControlScrollBarType;
 ```
 
 
-**Returns**
+### listWidth {#listWidth--}
 
-[ControlType](../controltype/)
+Gets and set the width in unit of points.
+
+```javascript
+listWidth : number;
+```
+
+
+### boundColumn {#boundColumn--}
+
+Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
+
+```javascript
+boundColumn : number;
+```
+
+
+### textColumn {#textColumn--}
+
+Represents the column in a ComboBox or ListBox to display to the user.
+
+```javascript
+textColumn : number;
+```
+
+
+### columnCount {#columnCount--}
+
+Represents the number of columns to display in a ComboBox or ListBox.
+
+```javascript
+columnCount : number;
+```
+
+
+### matchEntry {#matchEntry--}
+
+Indicates how a ListBox or ComboBox searches its list as the user types.
+
+```javascript
+matchEntry : ControlMatchEntryType;
+```
+
+
+### listStyle {#listStyle--}
+
+Gets and sets the visual appearance.
+
+```javascript
+listStyle : ControlListStyle;
+```
+
+
+### selectionType {#selectionType--}
+
+Indicates whether the control permits multiple selections.
+
+```javascript
+selectionType : SelectionType;
+```
+
+
+### value {#value--}
+
+Gets and sets the value of the control.
+
+```javascript
+value : string;
+```
+
+
+**Remarks**
+
+Only effects when [ListBoxActiveXControl.SelectionType](../listboxactivexcontrol.selectiontype/) is SelectionType.Single;
+
+### borderStyle {#borderStyle--}
+
+Gets and set the type of border used by the control.
+
+```javascript
+borderStyle : ControlBorderType;
+```
+
+
+### borderOleColor {#borderOleColor--}
+
+Gets and sets the ole color of the background.
+
+```javascript
+borderOleColor : number;
+```
+
+
+### specialEffect {#specialEffect--}
+
+Gets and sets the special effect of the control.
+
+```javascript
+specialEffect : ControlSpecialEffectType;
+```
+
+
+### showColumnHeads {#showColumnHeads--}
+
+Indicates whether column headings are displayed.
+
+```javascript
+showColumnHeads : boolean;
+```
+
+
+### integralHeight {#integralHeight--}
+
+Indicates whether the control will only show complete lines of text without showing any partial lines.
+
+```javascript
+integralHeight : boolean;
+```
+
+
+### columnWidths {#columnWidths--}
+
+Gets and sets the width of the column.
+
+```javascript
+columnWidths : number;
+```
+
+
+### workbook {#workbook--}
+
+Readonly. Gets the [Workbook](../workbook/) object.
+
+```javascript
+workbook : Workbook;
+```
+
+
+### mouseIcon {#mouseIcon--}
+
+Gets and sets a custom icon to display as the mouse pointer for the control.
+
+```javascript
+mouseIcon : Uint8Array;
+```
+
+
+### mousePointer {#mousePointer--}
+
+Gets and sets the type of icon displayed as the mouse pointer for the control.
+
+```javascript
+mousePointer : ControlMousePointerType;
+```
+
+
+### linkedCell {#linkedCell--}
+
+Gets and sets the linked cell.
+
+```javascript
+linkedCell : string;
+```
+
+
+### listFillRange {#listFillRange--}
+
+Gets and sets the list fill range.
+
+```javascript
+listFillRange : string;
+```
+
+
+### isEnabled {#isEnabled--}
+
+Indicates whether the control can receive the focus and respond to user-generated events.
+
+```javascript
+isEnabled : boolean;
+```
+
+
+### isLocked {#isLocked--}
+
+Indicates whether data in the control is locked for editing.
+
+```javascript
+isLocked : boolean;
+```
+
+
+### isTransparent {#isTransparent--}
+
+Indicates whether the control is transparent.
+
+```javascript
+isTransparent : boolean;
+```
+
+
+### iMEMode {#iMEMode--}
+
+Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+
+```javascript
+iMEMode : InputMethodEditorMode;
+```
+
+
+### font {#font--}
+
+Readonly. Represents the font of the control.
+
+```javascript
+font : Font;
+```
+
+
+### textAlign {#textAlign--}
+
+Represents how to align the text used by the control.
+
+```javascript
+textAlign : TextAlignmentType;
+```
+
 
 ### getScrollBars() {#getScrollBars--}
 
-Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+<b>@deprecated.</b> Please use the 'scrollBars' property instead. Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
 
 ```javascript
 getScrollBars() : ControlScrollBarType;
@@ -135,7 +391,7 @@ getScrollBars() : ControlScrollBarType;
 
 ### setScrollBars(ControlScrollBarType) {#setScrollBars-controlscrollbartype-}
 
-Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+<b>@deprecated.</b> Please use the 'scrollBars' property instead. Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
 
 ```javascript
 setScrollBars(value: ControlScrollBarType) : void;
@@ -148,7 +404,7 @@ setScrollBars(value: ControlScrollBarType) : void;
 
 ### getListWidth() {#getListWidth--}
 
-Gets and set the width in unit of points.
+<b>@deprecated.</b> Please use the 'listWidth' property instead. Gets and set the width in unit of points.
 
 ```javascript
 getListWidth() : number;
@@ -157,7 +413,7 @@ getListWidth() : number;
 
 ### setListWidth(number) {#setListWidth-number-}
 
-Gets and set the width in unit of points.
+<b>@deprecated.</b> Please use the 'listWidth' property instead. Gets and set the width in unit of points.
 
 ```javascript
 setListWidth(value: number) : void;
@@ -170,7 +426,7 @@ setListWidth(value: number) : void;
 
 ### getBoundColumn() {#getBoundColumn--}
 
-Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
+<b>@deprecated.</b> Please use the 'boundColumn' property instead. Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
 
 ```javascript
 getBoundColumn() : number;
@@ -179,7 +435,7 @@ getBoundColumn() : number;
 
 ### setBoundColumn(number) {#setBoundColumn-number-}
 
-Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
+<b>@deprecated.</b> Please use the 'boundColumn' property instead. Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
 
 ```javascript
 setBoundColumn(value: number) : void;
@@ -192,7 +448,7 @@ setBoundColumn(value: number) : void;
 
 ### getTextColumn() {#getTextColumn--}
 
-Represents the column in a ComboBox or ListBox to display to the user.
+<b>@deprecated.</b> Please use the 'textColumn' property instead. Represents the column in a ComboBox or ListBox to display to the user.
 
 ```javascript
 getTextColumn() : number;
@@ -201,7 +457,7 @@ getTextColumn() : number;
 
 ### setTextColumn(number) {#setTextColumn-number-}
 
-Represents the column in a ComboBox or ListBox to display to the user.
+<b>@deprecated.</b> Please use the 'textColumn' property instead. Represents the column in a ComboBox or ListBox to display to the user.
 
 ```javascript
 setTextColumn(value: number) : void;
@@ -214,7 +470,7 @@ setTextColumn(value: number) : void;
 
 ### getColumnCount() {#getColumnCount--}
 
-Represents the number of columns to display in a ComboBox or ListBox.
+<b>@deprecated.</b> Please use the 'columnCount' property instead. Represents the number of columns to display in a ComboBox or ListBox.
 
 ```javascript
 getColumnCount() : number;
@@ -223,7 +479,7 @@ getColumnCount() : number;
 
 ### setColumnCount(number) {#setColumnCount-number-}
 
-Represents the number of columns to display in a ComboBox or ListBox.
+<b>@deprecated.</b> Please use the 'columnCount' property instead. Represents the number of columns to display in a ComboBox or ListBox.
 
 ```javascript
 setColumnCount(value: number) : void;
@@ -236,7 +492,7 @@ setColumnCount(value: number) : void;
 
 ### getMatchEntry() {#getMatchEntry--}
 
-Indicates how a ListBox or ComboBox searches its list as the user types.
+<b>@deprecated.</b> Please use the 'matchEntry' property instead. Indicates how a ListBox or ComboBox searches its list as the user types.
 
 ```javascript
 getMatchEntry() : ControlMatchEntryType;
@@ -249,7 +505,7 @@ getMatchEntry() : ControlMatchEntryType;
 
 ### setMatchEntry(ControlMatchEntryType) {#setMatchEntry-controlmatchentrytype-}
 
-Indicates how a ListBox or ComboBox searches its list as the user types.
+<b>@deprecated.</b> Please use the 'matchEntry' property instead. Indicates how a ListBox or ComboBox searches its list as the user types.
 
 ```javascript
 setMatchEntry(value: ControlMatchEntryType) : void;
@@ -262,7 +518,7 @@ setMatchEntry(value: ControlMatchEntryType) : void;
 
 ### getListStyle() {#getListStyle--}
 
-Gets and sets the visual appearance.
+<b>@deprecated.</b> Please use the 'listStyle' property instead. Gets and sets the visual appearance.
 
 ```javascript
 getListStyle() : ControlListStyle;
@@ -275,7 +531,7 @@ getListStyle() : ControlListStyle;
 
 ### setListStyle(ControlListStyle) {#setListStyle-controlliststyle-}
 
-Gets and sets the visual appearance.
+<b>@deprecated.</b> Please use the 'listStyle' property instead. Gets and sets the visual appearance.
 
 ```javascript
 setListStyle(value: ControlListStyle) : void;
@@ -288,7 +544,7 @@ setListStyle(value: ControlListStyle) : void;
 
 ### getSelectionType() {#getSelectionType--}
 
-Indicates whether the control permits multiple selections.
+<b>@deprecated.</b> Please use the 'selectionType' property instead. Indicates whether the control permits multiple selections.
 
 ```javascript
 getSelectionType() : SelectionType;
@@ -301,7 +557,7 @@ getSelectionType() : SelectionType;
 
 ### setSelectionType(SelectionType) {#setSelectionType-selectiontype-}
 
-Indicates whether the control permits multiple selections.
+<b>@deprecated.</b> Please use the 'selectionType' property instead. Indicates whether the control permits multiple selections.
 
 ```javascript
 setSelectionType(value: SelectionType) : void;
@@ -314,7 +570,7 @@ setSelectionType(value: SelectionType) : void;
 
 ### getValue() {#getValue--}
 
-Gets and sets the value of the control.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the control.
 
 ```javascript
 getValue() : string;
@@ -327,7 +583,7 @@ Only effects when [ListBoxActiveXControl.SelectionType](../listboxactivexcontrol
 
 ### setValue(string) {#setValue-string-}
 
-Gets and sets the value of the control.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the value of the control.
 
 ```javascript
 setValue(value: string) : void;
@@ -344,7 +600,7 @@ Only effects when [ListBoxActiveXControl.SelectionType](../listboxactivexcontrol
 
 ### getBorderStyle() {#getBorderStyle--}
 
-Gets and set the type of border used by the control.
+<b>@deprecated.</b> Please use the 'borderStyle' property instead. Gets and set the type of border used by the control.
 
 ```javascript
 getBorderStyle() : ControlBorderType;
@@ -357,7 +613,7 @@ getBorderStyle() : ControlBorderType;
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
-Gets and set the type of border used by the control.
+<b>@deprecated.</b> Please use the 'borderStyle' property instead. Gets and set the type of border used by the control.
 
 ```javascript
 setBorderStyle(value: ControlBorderType) : void;
@@ -370,7 +626,7 @@ setBorderStyle(value: ControlBorderType) : void;
 
 ### getBorderOleColor() {#getBorderOleColor--}
 
-Gets and sets the ole color of the background.
+<b>@deprecated.</b> Please use the 'borderOleColor' property instead. Gets and sets the ole color of the background.
 
 ```javascript
 getBorderOleColor() : number;
@@ -379,7 +635,7 @@ getBorderOleColor() : number;
 
 ### setBorderOleColor(number) {#setBorderOleColor-number-}
 
-Gets and sets the ole color of the background.
+<b>@deprecated.</b> Please use the 'borderOleColor' property instead. Gets and sets the ole color of the background.
 
 ```javascript
 setBorderOleColor(value: number) : void;
@@ -392,7 +648,7 @@ setBorderOleColor(value: number) : void;
 
 ### getSpecialEffect() {#getSpecialEffect--}
 
-Gets and sets the special effect of the control.
+<b>@deprecated.</b> Please use the 'specialEffect' property instead. Gets and sets the special effect of the control.
 
 ```javascript
 getSpecialEffect() : ControlSpecialEffectType;
@@ -405,7 +661,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
-Gets and sets the special effect of the control.
+<b>@deprecated.</b> Please use the 'specialEffect' property instead. Gets and sets the special effect of the control.
 
 ```javascript
 setSpecialEffect(value: ControlSpecialEffectType) : void;
@@ -418,7 +674,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 
 ### getShowColumnHeads() {#getShowColumnHeads--}
 
-Indicates whether column headings are displayed.
+<b>@deprecated.</b> Please use the 'showColumnHeads' property instead. Indicates whether column headings are displayed.
 
 ```javascript
 getShowColumnHeads() : boolean;
@@ -427,7 +683,7 @@ getShowColumnHeads() : boolean;
 
 ### setShowColumnHeads(boolean) {#setShowColumnHeads-boolean-}
 
-Indicates whether column headings are displayed.
+<b>@deprecated.</b> Please use the 'showColumnHeads' property instead. Indicates whether column headings are displayed.
 
 ```javascript
 setShowColumnHeads(value: boolean) : void;
@@ -440,7 +696,7 @@ setShowColumnHeads(value: boolean) : void;
 
 ### getIntegralHeight() {#getIntegralHeight--}
 
-Indicates whether the control will only show complete lines of text without showing any partial lines.
+<b>@deprecated.</b> Please use the 'integralHeight' property instead. Indicates whether the control will only show complete lines of text without showing any partial lines.
 
 ```javascript
 getIntegralHeight() : boolean;
@@ -449,7 +705,7 @@ getIntegralHeight() : boolean;
 
 ### setIntegralHeight(boolean) {#setIntegralHeight-boolean-}
 
-Indicates whether the control will only show complete lines of text without showing any partial lines.
+<b>@deprecated.</b> Please use the 'integralHeight' property instead. Indicates whether the control will only show complete lines of text without showing any partial lines.
 
 ```javascript
 setIntegralHeight(value: boolean) : void;
@@ -462,7 +718,7 @@ setIntegralHeight(value: boolean) : void;
 
 ### getColumnWidths() {#getColumnWidths--}
 
-Gets and sets the width of the column.
+<b>@deprecated.</b> Please use the 'columnWidths' property instead. Gets and sets the width of the column.
 
 ```javascript
 getColumnWidths() : number;
@@ -471,7 +727,7 @@ getColumnWidths() : number;
 
 ### setColumnWidths(number) {#setColumnWidths-number-}
 
-Gets and sets the width of the column.
+<b>@deprecated.</b> Please use the 'columnWidths' property instead. Gets and sets the width of the column.
 
 ```javascript
 setColumnWidths(value: number) : void;
@@ -493,7 +749,7 @@ isNull() : boolean;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](../workbook/) object.
+<b>@deprecated.</b> Please use the 'workbook' property instead. Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -506,7 +762,7 @@ getWorkbook() : Workbook;
 
 ### getMouseIcon() {#getMouseIcon--}
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+<b>@deprecated.</b> Please use the 'mouseIcon' property instead. Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
 getMouseIcon() : Uint8Array;
@@ -515,7 +771,7 @@ getMouseIcon() : Uint8Array;
 
 ### setMouseIcon(Uint8Array) {#setMouseIcon-uint8array-}
 
-Gets and sets a custom icon to display as the mouse pointer for the control.
+<b>@deprecated.</b> Please use the 'mouseIcon' property instead. Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
 setMouseIcon(value: Uint8Array) : void;
@@ -528,7 +784,7 @@ setMouseIcon(value: Uint8Array) : void;
 
 ### getMousePointer() {#getMousePointer--}
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+<b>@deprecated.</b> Please use the 'mousePointer' property instead. Gets and sets the type of icon displayed as the mouse pointer for the control.
 
 ```javascript
 getMousePointer() : ControlMousePointerType;
@@ -541,7 +797,7 @@ getMousePointer() : ControlMousePointerType;
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
-Gets and sets the type of icon displayed as the mouse pointer for the control.
+<b>@deprecated.</b> Please use the 'mousePointer' property instead. Gets and sets the type of icon displayed as the mouse pointer for the control.
 
 ```javascript
 setMousePointer(value: ControlMousePointerType) : void;
@@ -554,7 +810,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 
 ### getLinkedCell() {#getLinkedCell--}
 
-Gets and sets the linked cell.
+<b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets and sets the linked cell.
 
 ```javascript
 getLinkedCell() : string;
@@ -563,7 +819,7 @@ getLinkedCell() : string;
 
 ### setLinkedCell(string) {#setLinkedCell-string-}
 
-Gets and sets the linked cell.
+<b>@deprecated.</b> Please use the 'linkedCell' property instead. Gets and sets the linked cell.
 
 ```javascript
 setLinkedCell(value: string) : void;
@@ -576,7 +832,7 @@ setLinkedCell(value: string) : void;
 
 ### getListFillRange() {#getListFillRange--}
 
-Gets and sets the list fill range.
+<b>@deprecated.</b> Please use the 'listFillRange' property instead. Gets and sets the list fill range.
 
 ```javascript
 getListFillRange() : string;
@@ -585,7 +841,7 @@ getListFillRange() : string;
 
 ### setListFillRange(string) {#setListFillRange-string-}
 
-Gets and sets the list fill range.
+<b>@deprecated.</b> Please use the 'listFillRange' property instead. Gets and sets the list fill range.
 
 ```javascript
 setListFillRange(value: string) : void;
@@ -598,7 +854,7 @@ setListFillRange(value: string) : void;
 
 ### isEnabled() {#isEnabled--}
 
-Indicates whether the control can receive the focus and respond to user-generated events.
+<b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the control can receive the focus and respond to user-generated events.
 
 ```javascript
 isEnabled() : boolean;
@@ -607,7 +863,7 @@ isEnabled() : boolean;
 
 ### setIsEnabled(boolean) {#setIsEnabled-boolean-}
 
-Indicates whether the control can receive the focus and respond to user-generated events.
+<b>@deprecated.</b> Please use the 'isEnabled' property instead. Indicates whether the control can receive the focus and respond to user-generated events.
 
 ```javascript
 setIsEnabled(value: boolean) : void;
@@ -620,7 +876,7 @@ setIsEnabled(value: boolean) : void;
 
 ### isLocked() {#isLocked--}
 
-Indicates whether data in the control is locked for editing.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether data in the control is locked for editing.
 
 ```javascript
 isLocked() : boolean;
@@ -629,7 +885,7 @@ isLocked() : boolean;
 
 ### setIsLocked(boolean) {#setIsLocked-boolean-}
 
-Indicates whether data in the control is locked for editing.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether data in the control is locked for editing.
 
 ```javascript
 setIsLocked(value: boolean) : void;
@@ -642,7 +898,7 @@ setIsLocked(value: boolean) : void;
 
 ### isTransparent() {#isTransparent--}
 
-Indicates whether the control is transparent.
+<b>@deprecated.</b> Please use the 'isTransparent' property instead. Indicates whether the control is transparent.
 
 ```javascript
 isTransparent() : boolean;
@@ -651,7 +907,7 @@ isTransparent() : boolean;
 
 ### setIsTransparent(boolean) {#setIsTransparent-boolean-}
 
-Indicates whether the control is transparent.
+<b>@deprecated.</b> Please use the 'isTransparent' property instead. Indicates whether the control is transparent.
 
 ```javascript
 setIsTransparent(value: boolean) : void;
@@ -664,7 +920,7 @@ setIsTransparent(value: boolean) : void;
 
 ### getIMEMode() {#getIMEMode--}
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+<b>@deprecated.</b> Please use the 'iMEMode' property instead. Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 ```javascript
 getIMEMode() : InputMethodEditorMode;
@@ -677,7 +933,7 @@ getIMEMode() : InputMethodEditorMode;
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
-Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+<b>@deprecated.</b> Please use the 'iMEMode' property instead. Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 ```javascript
 setIMEMode(value: InputMethodEditorMode) : void;
@@ -690,7 +946,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 
 ### getFont() {#getFont--}
 
-Represents the font of the control.
+<b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control.
 
 ```javascript
 getFont() : Font;
@@ -703,7 +959,7 @@ getFont() : Font;
 
 ### getTextAlign() {#getTextAlign--}
 
-Represents how to align the text used by the control.
+<b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control.
 
 ```javascript
 getTextAlign() : TextAlignmentType;
@@ -716,7 +972,7 @@ getTextAlign() : TextAlignmentType;
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
-Represents how to align the text used by the control.
+<b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control.
 
 ```javascript
 setTextAlign(value: TextAlignmentType) : void;
@@ -727,14 +983,18 @@ setTextAlign(value: TextAlignmentType) : void;
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
-### getData() {#getData--}
+### getType() {#getType--}
 
-Gets and sets the binary data of the control.
+Gets the type of the ActiveX control.
 
 ```javascript
-getData() : Uint8Array;
+getType() : ControlType;
 ```
 
+
+**Returns**
+
+[ControlType](../controltype/)
 
 ### getWidth() {#getWidth--}
 
@@ -897,5 +1157,14 @@ setIsAutoSize(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
 
 

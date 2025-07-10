@@ -22,95 +22,120 @@ const { Workbook, ChartType, DisplayUnitType } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Adding a new worksheet to the Excel object
-var sheetIndex = workbook.getWorksheets().add();
+var sheetIndex = workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(sheetIndex);
+var worksheet = workbook.worksheets.get(sheetIndex);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "A4" cell
-worksheet.getCells().get("A4").putValue(200);
+worksheet.cells.get("A4").putValue(200);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(60);
+worksheet.cells.get("B1").putValue(60);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(32);
+worksheet.cells.get("B2").putValue(32);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 //Adding a sample value to "B4" cell
-worksheet.getCells().get("B4").putValue(40);
+worksheet.cells.get("B4").putValue(40);
 //Adding a sample value to "C1" cell as category data
-worksheet.getCells().get("C1").putValue("Q1");
+worksheet.cells.get("C1").putValue("Q1");
 //Adding a sample value to "C2" cell as category data
-worksheet.getCells().get("C2").putValue("Q2");
+worksheet.cells.get("C2").putValue("Q2");
 //Adding a sample value to "C3" cell as category data
-worksheet.getCells().get("C3").putValue("Y1");
+worksheet.cells.get("C3").putValue("Y1");
 //Adding a sample value to "C4" cell as category data
-worksheet.getCells().get("C4").putValue("Y2");
+worksheet.cells.get("C4").putValue("Y2");
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 15, 5);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-chart.getNSeries().add("A1:B4", true);
+chart.nSeries.add("A1:B4", true);
 //Setting the data source for the category data of NSeries
-chart.getNSeries().setCategoryData("C1:C4");
+chart.nSeries.categoryData = "C1:C4";
 //Setting the display unit of value(Y) axis.
-chart.getValueAxis().setDisplayUnit(DisplayUnitType.Hundreds);
-var displayUnitLabel = chart.getValueAxis().getDisplayUnitLabel();
+chart.valueAxis.sisplayUnit = DisplayUnitType.Hundreds;
+var displayUnitLabel = chart.valueAxis.displayUnitLabel;
 //Setting the custom display unit label
-displayUnitLabel.setText("100");
+displayUnitLabel.text = "100";
 //Saving the Excel file
 workbook.save("output/ChartsDisplayUnitLabel.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(ChartTextFrame)](#constructor-charttextframe-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [shadow](#shadow--)| boolean | True if the frame has a shadow. |
+| [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels is deleted. |
+| [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
+| [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle. |
+| [isAutomaticRotation](#isAutomaticRotation--)| boolean | Readonly. Indicates whether the text of the chart is automatically rotated. |
+| [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
+| [isResizeShapeToFitText](#isResizeShapeToFitText--)| boolean | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
+| [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
+| [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [getDefaultX()](#getDefaultX--)| <b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area. |
+| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area. |
+| [getDefaultWidth()](#getDefaultWidth--)| <b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area. |
+| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
+| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
+| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the text of the chart is automatically rotated. |
+| [getReadingOrder()](#getReadingOrder--)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
+| [isResizeShapeToFitText()](#isResizeShapeToFitText--)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
+| [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
+| [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getText()](#getText--)| Gets or sets the text of display unit label. |
 | [setText(string)](#setText-string-)| Gets or sets the text of display unit label. |
 | [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified ChartFrame object. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
-| [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
-| [getShadow()](#getShadow--)| True if the frame has a shadow. |
-| [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [getDefaultX()](#getDefaultX--)| Represents x of default position in units of 1/4000 of the chart area. |
-| [getDefaultY()](#getDefaultY--)| Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultWidth()](#getDefaultWidth--)| Represents width of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeight()](#getDefaultHeight--)| Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
-| [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
-| [isDeleted()](#isDeleted--)| Indicates whether this data labels is deleted. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether this data labels is deleted. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| Gets and sets the text horizontal alignment. |
-| [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| Gets and sets the text horizontal alignment. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--)| Gets or sets the text vertical alignment of text. |
-| [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets or sets the text vertical alignment of text. |
-| [getRotationAngle()](#getRotationAngle--)| Represents text rotation angle. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Represents text rotation angle. |
-| [isAutomaticRotation()](#isAutomaticRotation--)| Indicates whether the text of the chart is automatically rotated. |
-| [getReadingOrder()](#getReadingOrder--)| Represents text reading order. |
-| [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| Represents text reading order. |
-| [isResizeShapeToFitText()](#isResizeShapeToFitText--)| Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
-| [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
-| [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -163,6 +188,586 @@ constructor(obj: ChartTextFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartTextFrame | The parent object. |
+
+### isInnerMode {#isInnerMode--}
+
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### backgroundMode {#backgroundMode--}
+
+Gets and sets the display mode of the background
+
+```javascript
+backgroundMode : BackgroundMode;
+```
+
+
+### shadow {#shadow--}
+
+True if the frame has a shadow.
+
+```javascript
+shadow : boolean;
+```
+
+
+### shapeProperties {#shapeProperties--}
+
+Readonly. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+shapeProperties : ShapePropertyCollection;
+```
+
+
+### isDefaultPosBeSet {#isDefaultPosBeSet--}
+
+Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet : boolean;
+```
+
+
+### defaultX {#defaultX--}
+
+Readonly. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultX : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultY {#defaultY--}
+
+Readonly. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultY : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultWidth {#defaultWidth--}
+
+Readonly. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultWidth : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultHeight {#defaultHeight--}
+
+Readonly. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+defaultHeight : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### defaultXRatioToChart {#defaultXRatioToChart--}
+
+Readonly. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+defaultXRatioToChart : number;
+```
+
+
+### defaultYRatioToChart {#defaultYRatioToChart--}
+
+Readonly. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+defaultYRatioToChart : number;
+```
+
+
+### defaultWidthRatioToChart {#defaultWidthRatioToChart--}
+
+Readonly. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+defaultWidthRatioToChart : number;
+```
+
+
+### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
+
+Readonly. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+defaultHeightRatioToChart : number;
+```
+
+
+### isDeleted {#isDeleted--}
+
+Indicates whether this data labels is deleted.
+
+```javascript
+isDeleted : boolean;
+```
+
+
+### textHorizontalAlignment {#textHorizontalAlignment--}
+
+Gets and sets the text horizontal alignment.
+
+```javascript
+textHorizontalAlignment : TextAlignmentType;
+```
+
+
+### textVerticalAlignment {#textVerticalAlignment--}
+
+Gets or sets the text vertical alignment of text.
+
+```javascript
+textVerticalAlignment : TextAlignmentType;
+```
+
+
+### rotationAngle {#rotationAngle--}
+
+Represents text rotation angle.
+
+```javascript
+rotationAngle : number;
+```
+
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### isAutomaticRotation {#isAutomaticRotation--}
+
+Readonly. Indicates whether the text of the chart is automatically rotated.
+
+```javascript
+isAutomaticRotation : boolean;
+```
+
+
+### readingOrder {#readingOrder--}
+
+Represents text reading order.
+
+```javascript
+readingOrder : TextDirectionType;
+```
+
+
+### isResizeShapeToFitText {#isResizeShapeToFitText--}
+
+Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+isResizeShapeToFitText : boolean;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### isInnerMode() {#isInnerMode--}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+isInnerMode() : boolean;
+```
+
+
+**Remarks**
+
+Only for Xlsx file.
+
+### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
+
+<b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+```javascript
+setIsInnerMode(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for Xlsx file.
+
+### getBackgroundMode() {#getBackgroundMode--}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+getBackgroundMode() : BackgroundMode;
+```
+
+
+**Returns**
+
+[BackgroundMode](../backgroundmode/)
+
+### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
+
+<b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
+
+```javascript
+setBackgroundMode(value: BackgroundMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
+
+### getShadow() {#getShadow--}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+getShadow() : boolean;
+```
+
+
+### setShadow(boolean) {#setShadow-boolean-}
+
+<b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow.
+
+```javascript
+setShadow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShapeProperties() {#getShapeProperties--}
+
+<b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object.
+
+```javascript
+getShapeProperties() : ShapePropertyCollection;
+```
+
+
+**Returns**
+
+[ShapePropertyCollection](../shapepropertycollection/)
+
+### isDefaultPosBeSet() {#isDefaultPosBeSet--}
+
+<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+
+```javascript
+isDefaultPosBeSet() : boolean;
+```
+
+
+### getDefaultX() {#getDefaultX--}
+
+<b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultX() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultY() {#getDefaultY--}
+
+<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultY() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultWidth() {#getDefaultWidth--}
+
+<b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultWidth() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultHeight() {#getDefaultHeight--}
+
+<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area.
+
+```javascript
+getDefaultHeight() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultXRatioToChart() : number;
+```
+
+
+### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultYRatioToChart() : number;
+```
+
+
+### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultWidthRatioToChart() : number;
+```
+
+
+### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
+
+<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area.
+
+```javascript
+getDefaultHeightRatioToChart() : number;
+```
+
+
+### isDeleted() {#isDeleted--}
+
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+
+```javascript
+isDeleted() : boolean;
+```
+
+
+### setIsDeleted(boolean) {#setIsDeleted-boolean-}
+
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+
+```javascript
+setIsDeleted(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
+
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment.
+
+```javascript
+getTextHorizontalAlignment() : TextAlignmentType;
+```
+
+
+**Returns**
+
+[TextAlignmentType](../textalignmenttype/)
+
+### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
+
+<b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment.
+
+```javascript
+setTextHorizontalAlignment(value: TextAlignmentType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### getTextVerticalAlignment() {#getTextVerticalAlignment--}
+
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text.
+
+```javascript
+getTextVerticalAlignment() : TextAlignmentType;
+```
+
+
+**Returns**
+
+[TextAlignmentType](../textalignmenttype/)
+
+### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
+
+<b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text.
+
+```javascript
+setTextVerticalAlignment(value: TextAlignmentType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### getRotationAngle() {#getRotationAngle--}
+
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+
+```javascript
+getRotationAngle() : number;
+```
+
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### setRotationAngle(number) {#setRotationAngle-number-}
+
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+
+```javascript
+setRotationAngle(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
+
+### isAutomaticRotation() {#isAutomaticRotation--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the text of the chart is automatically rotated.
+
+```javascript
+isAutomaticRotation() : boolean;
+```
+
+
+### getReadingOrder() {#getReadingOrder--}
+
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
+
+```javascript
+getReadingOrder() : TextDirectionType;
+```
+
+
+**Returns**
+
+[TextDirectionType](../textdirectiontype/)
+
+### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
+
+<b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order.
+
+```javascript
+setReadingOrder(value: TextDirectionType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### isResizeShapeToFitText() {#isResizeShapeToFitText--}
+
+<b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+isResizeShapeToFitText() : boolean;
+```
+
+
+### setIsResizeShapeToFitText(boolean) {#setIsResizeShapeToFitText-boolean-}
+
+<b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+
+```javascript
+setIsResizeShapeToFitText(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### characters(number, number) {#characters-number-number-}
+
+Returns a Characters object that represents a range of characters within the text.
+
+```javascript
+characters(startIndex: number, length: number) : FontSetting;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | number | The index of the start of the character. |
+| length | number | The number of characters. |
+
+**Returns**
+
+Characters object.
 
 ### getText() {#getText--}
 
@@ -220,382 +825,6 @@ setAutoScaleFont(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
-
-### isInnerMode() {#isInnerMode--}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-isInnerMode() : boolean;
-```
-
-
-**Remarks**
-
-Only for Xlsx file.
-
-### setIsInnerMode(boolean) {#setIsInnerMode-boolean-}
-
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
-
-```javascript
-setIsInnerMode(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-Only for Xlsx file.
-
-### getBackgroundMode() {#getBackgroundMode--}
-
-Gets and sets the display mode of the background
-
-```javascript
-getBackgroundMode() : BackgroundMode;
-```
-
-
-**Returns**
-
-[BackgroundMode](../backgroundmode/)
-
-### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
-
-Gets and sets the display mode of the background
-
-```javascript
-setBackgroundMode(value: BackgroundMode) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [BackgroundMode](../backgroundmode/) | The value to set. |
-
-### getShadow() {#getShadow--}
-
-True if the frame has a shadow.
-
-```javascript
-getShadow() : boolean;
-```
-
-
-### setShadow(boolean) {#setShadow-boolean-}
-
-True if the frame has a shadow.
-
-```javascript
-setShadow(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getShapeProperties() {#getShapeProperties--}
-
-Gets the [ShapeProperties](../shapeproperties/) object.
-
-```javascript
-getShapeProperties() : ShapePropertyCollection;
-```
-
-
-**Returns**
-
-[ShapePropertyCollection](../shapepropertycollection/)
-
-### isDefaultPosBeSet() {#isDefaultPosBeSet--}
-
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
-
-```javascript
-isDefaultPosBeSet() : boolean;
-```
-
-
-### getDefaultX() {#getDefaultX--}
-
-Represents x of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultX() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultY() {#getDefaultY--}
-
-Represents y of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultY() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultWidth() {#getDefaultWidth--}
-
-Represents width of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultWidth() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultHeight() {#getDefaultHeight--}
-
-Represents height of default position in units of 1/4000 of the chart area.
-
-```javascript
-getDefaultHeight() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
-
-Represents x of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultXRatioToChart() : number;
-```
-
-
-### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
-
-Represents y of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultYRatioToChart() : number;
-```
-
-
-### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
-
-Represents width of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultWidthRatioToChart() : number;
-```
-
-
-### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
-
-Represents height of default position in units of Fraction of the chart area.
-
-```javascript
-getDefaultHeightRatioToChart() : number;
-```
-
-
-### isDeleted() {#isDeleted--}
-
-Indicates whether this data labels is deleted.
-
-```javascript
-isDeleted() : boolean;
-```
-
-
-### setIsDeleted(boolean) {#setIsDeleted-boolean-}
-
-Indicates whether this data labels is deleted.
-
-```javascript
-setIsDeleted(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
-
-Gets and sets the text horizontal alignment.
-
-```javascript
-getTextHorizontalAlignment() : TextAlignmentType;
-```
-
-
-**Returns**
-
-[TextAlignmentType](../textalignmenttype/)
-
-### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
-
-Gets and sets the text horizontal alignment.
-
-```javascript
-setTextHorizontalAlignment(value: TextAlignmentType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
-
-### getTextVerticalAlignment() {#getTextVerticalAlignment--}
-
-Gets or sets the text vertical alignment of text.
-
-```javascript
-getTextVerticalAlignment() : TextAlignmentType;
-```
-
-
-**Returns**
-
-[TextAlignmentType](../textalignmenttype/)
-
-### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
-
-Gets or sets the text vertical alignment of text.
-
-```javascript
-setTextVerticalAlignment(value: TextAlignmentType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
-
-### getRotationAngle() {#getRotationAngle--}
-
-Represents text rotation angle.
-
-```javascript
-getRotationAngle() : number;
-```
-
-
-**Remarks**
-
-br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
-
-### setRotationAngle(number) {#setRotationAngle-number-}
-
-Represents text rotation angle.
-
-```javascript
-setRotationAngle(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
-
-### isAutomaticRotation() {#isAutomaticRotation--}
-
-Indicates whether the text of the chart is automatically rotated.
-
-```javascript
-isAutomaticRotation() : boolean;
-```
-
-
-### getReadingOrder() {#getReadingOrder--}
-
-Represents text reading order.
-
-```javascript
-getReadingOrder() : TextDirectionType;
-```
-
-
-**Returns**
-
-[TextDirectionType](../textdirectiontype/)
-
-### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
-
-Represents text reading order.
-
-```javascript
-setReadingOrder(value: TextDirectionType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
-
-### isResizeShapeToFitText() {#isResizeShapeToFitText--}
-
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
-
-```javascript
-isResizeShapeToFitText() : boolean;
-```
-
-
-### setIsResizeShapeToFitText(boolean) {#setIsResizeShapeToFitText-boolean-}
-
-Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
-
-```javascript
-setIsResizeShapeToFitText(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### characters(number, number) {#characters-number-number-}
-
-Returns a Characters object that represents a range of characters within the text.
-
-```javascript
-characters(startIndex: number, length: number) : FontSetting;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startIndex | number | The index of the start of the character. |
-| length | number | The number of characters. |
-
-**Returns**
-
-Characters object.
 
 ### getBorder() {#getBorder--}
 

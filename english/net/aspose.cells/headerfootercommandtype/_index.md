@@ -27,45 +27,6 @@ public enum HeaderFooterCommandType
 | FilePath | `7` | File path without file name |
 | Picture | `8` | Picture |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-
-    public class HeaderFooterCommandTypeDemo
-    {
-        public static void HeaderFooterCommandTypeExample()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the header/footer of the worksheet
-            PageSetup pageSetup = worksheet.PageSetup;
-
-            // Set the header with different HeaderFooterCommandType values
-            pageSetup.SetHeader(0, "&T"); // Text
-            pageSetup.SetHeader(1, "&P"); // Current page number
-            pageSetup.SetHeader(2, "&N"); // Page count
-            pageSetup.SetHeader(0, "&D"); // Current date
-            pageSetup.SetHeader(1, "&T"); // Current time
-            pageSetup.SetHeader(2, "&A"); // Sheet name
-            pageSetup.SetHeader(0, "&F"); // File name without path
-            pageSetup.SetHeader(1, "&Z"); // File path without file name
-            pageSetup.SetHeader(2, "&G"); // Picture
-
-            // Save the workbook
-            workbook.Save("HeaderFooterCommandTypeExample.xlsx");
-            workbook.Save("HeaderFooterCommandTypeExample.pdf");
-            return;
-        }
-    }
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

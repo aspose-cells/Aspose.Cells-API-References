@@ -16,16 +16,38 @@ public LineFormat Outline { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
-public void TextOptions_Property_Outline()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    shape.Text = ("NEW TEXT");
-    workbook.Save(Constants.destPath + "dest.xlsx");
-    workbook = new Workbook(Constants.destPath + "dest.xlsx");
-    shape = workbook.Worksheets[0].Shapes[0];
-    Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
+    public class TextOptionsPropertyOutlineDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape with text
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 200, 100);
+            shape.Text = "Sample Text";
+
+            // Access text options
+            TextOptions textOptions = shape.TextOptions;
+
+            // Configure outline properties
+            LineFormat outline = textOptions.Outline;
+            outline.Weight = 2.48; // Set outline weight
+            outline.DashStyle = MsoLineDashStyle.Solid; // Set line style
+            outline.CompoundType = MsoLineStyle.Single; // Set compound type
+
+            // Save the workbook
+            workbook.Save("TextOutlineDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: TextToColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::TextToColumns method. Splits content in specified column into multiple columns in C++.'
 type: docs
-weight: 4400
+weight: 4300
 url: /cpp/aspose.cells/cells/texttocolumns/
 ---
 ## Cells::TextToColumns method

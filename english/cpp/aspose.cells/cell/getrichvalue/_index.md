@@ -4,7 +4,7 @@ linktitle: GetRichValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetRichValue method. Gets rich value of the cell in C++.'
 type: docs
-weight: 7900
+weight: 8000
 url: /cpp/aspose.cells/cell/getrichvalue/
 ---
 ## Cell::GetRichValue method

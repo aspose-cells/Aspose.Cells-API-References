@@ -4,7 +4,7 @@ linktitle: SelectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SelectionType enum. The selection type of list box in C++.'
 type: docs
-weight: 11100
+weight: 11300
 url: /cpp/aspose.cells.drawing/selectiontype/
 ---
 ## SelectionType enum

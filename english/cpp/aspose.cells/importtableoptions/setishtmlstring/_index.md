@@ -4,7 +4,7 @@ linktitle: SetIsHtmlString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::SetIsHtmlString method. Indicates whether the value contains html tags in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells/importtableoptions/setishtmlstring/
 ---
 ## ImportTableOptions::SetIsHtmlString method

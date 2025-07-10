@@ -4,7 +4,7 @@ linktitle: CopyOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CopyOptions class. Represents the copy options in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.cells/copyoptions/
 ---
 ## CopyOptions class

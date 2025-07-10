@@ -4,7 +4,7 @@ linktitle: SetRowHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetRowHeightPixel method. Returns or sets the height, in pixels, of each row in the specified slicer in C++.'
 type: docs
-weight: 5200
+weight: 5300
 url: /cpp/aspose.cells.slicers/slicer/setrowheightpixel/
 ---
 ## Slicer::SetRowHeightPixel method

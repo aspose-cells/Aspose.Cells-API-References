@@ -21,7 +21,7 @@ class ConditionalFormattingValueCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Get the CFValueObject element at the specified index. |
 | [add(FormatConditionValueType, string)](#add-formatconditionvaluetype-string-)| Adds [ConditionalFormattingValue](../conditionalformattingvalue/) object. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -62,7 +62,7 @@ Returns the index of new object in the list.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

@@ -4,7 +4,7 @@ linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PictureCollection::Add method. Adds a picture to the collection in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.drawing/picturecollection/add/
 ---
 ## PictureCollection::Add(int32_t, int32_t, int32_t, int32_t, const Vector \<uint8_t\>\&) method

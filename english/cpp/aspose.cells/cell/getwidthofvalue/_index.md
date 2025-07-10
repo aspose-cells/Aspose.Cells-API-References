@@ -4,7 +4,7 @@ linktitle: GetWidthOfValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetWidthOfValue method. Gets the width of the value in unit of pixels in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells/cell/getwidthofvalue/
 ---
 ## Cell::GetWidthOfValue method

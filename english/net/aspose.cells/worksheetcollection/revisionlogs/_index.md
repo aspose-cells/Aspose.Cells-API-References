@@ -16,15 +16,26 @@ public RevisionLogCollection RevisionLogs { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-public void WorksheetCollection_Property_RevisionLogs()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
 
-    workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-    Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
-    workbook.Save(Constants.destPath + "dest.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyRevisionLogsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Settings.Shared = true;
+
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Original");
+            sheet.Cells["A1"].PutValue("Revised");
+
+            workbook.Worksheets.RevisionLogs.HighlightChanges(new HighlightChangesOptions(true, true));
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

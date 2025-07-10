@@ -17,18 +17,24 @@ class FileFontSource extends FontSourceBase;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(FontSourceBase)](#constructor-fontsourcebase-)| Constructs from a parent object convertible to this. |
 | [constructor(string)](#constructor-string-)| Ctor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [filePath](#filePath--)| string | Readonly. Path to font file. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFilePath()](#getFilePath--)| Path to font file. |
-| [getType()](#getType--)| Returns the type of the font source. |
+| [getFilePath()](#getFilePath--)| <b>@deprecated.</b> Please use the 'filePath' property instead. Path to font file. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Returns the type of the font source. |
 
 
 ### constructor(FontSourceBase) {#constructor-fontsourcebase-}
@@ -57,12 +63,30 @@ constructor(filePath: string);
 | --- | --- | --- |
 | filePath | string | path to font file |
 
+### filePath {#filePath--}
+
+Readonly. Path to font file.
+
+```javascript
+filePath : string;
+```
+
+
 ### getFilePath() {#getFilePath--}
 
-Path to font file.
+<b>@deprecated.</b> Please use the 'filePath' property instead. Path to font file.
 
 ```javascript
 getFilePath() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 
@@ -78,14 +102,5 @@ getType() : FontSourceType;
 **Returns**
 
 [FontSourceType](../fontsourcetype/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

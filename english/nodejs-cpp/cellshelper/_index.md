@@ -15,22 +15,33 @@ class CellsHelper;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| static [significantDigits](#significantDigits--)| number | Gets and sets the number of significant digits. The default value is 17. |
+| static [dPI](#dPI--)| number | Gets the DPI of the machine. |
+| static [startupPath](#startupPath--)| string | Gets or sets the startup path, which is referred to by some external formula references. |
+| static [altStartPath](#altStartPath--)| string | Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| static [libraryPath](#libraryPath--)| string | Gets or sets the library path which is referred to by some external formula references. |
+| static [isCloudPlatform](#isCloudPlatform--)| boolean | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| static [getSignificantDigits()](#getSignificantDigits--)| Gets and sets the number of significant digits. The default value is 17. |
-| static [setSignificantDigits(number)](#setSignificantDigits-number-)| Gets and sets the number of significant digits. The default value is 17. |
-| static [getDPI()](#getDPI--)| Gets the DPI of the machine. |
-| static [setDPI(number)](#setDPI-number-)| Gets the DPI of the machine. |
-| static [getStartupPath()](#getStartupPath--)| Gets or sets the startup path, which is referred to by some external formula references. |
-| static [setStartupPath(string)](#setStartupPath-string-)| Gets or sets the startup path, which is referred to by some external formula references. |
-| static [getAltStartPath()](#getAltStartPath--)| Gets or sets the alternate startup path, which is referred to by some external formula references. |
-| static [setAltStartPath(string)](#setAltStartPath-string-)| Gets or sets the alternate startup path, which is referred to by some external formula references. |
-| static [getLibraryPath()](#getLibraryPath--)| Gets or sets the library path which is referred to by some external formula references. |
-| static [setLibraryPath(string)](#setLibraryPath-string-)| Gets or sets the library path which is referred to by some external formula references. |
-| static [isCloudPlatform()](#isCloudPlatform--)| Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
-| static [setIsCloudPlatform(boolean)](#setIsCloudPlatform-boolean-)| Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
+| static [getSignificantDigits()](#getSignificantDigits--)| <b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17. |
+| static [setSignificantDigits(number)](#setSignificantDigits-number-)| <b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17. |
+| static [getDPI()](#getDPI--)| <b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine. |
+| static [setDPI(number)](#setDPI-number-)| <b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine. |
+| static [getStartupPath()](#getStartupPath--)| <b>@deprecated.</b> Please use the 'startupPath' property instead. Gets or sets the startup path, which is referred to by some external formula references. |
+| static [setStartupPath(string)](#setStartupPath-string-)| <b>@deprecated.</b> Please use the 'startupPath' property instead. Gets or sets the startup path, which is referred to by some external formula references. |
+| static [getAltStartPath()](#getAltStartPath--)| <b>@deprecated.</b> Please use the 'altStartPath' property instead. Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| static [setAltStartPath(string)](#setAltStartPath-string-)| <b>@deprecated.</b> Please use the 'altStartPath' property instead. Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| static [getLibraryPath()](#getLibraryPath--)| <b>@deprecated.</b> Please use the 'libraryPath' property instead. Gets or sets the library path which is referred to by some external formula references. |
+| static [setLibraryPath(string)](#setLibraryPath-string-)| <b>@deprecated.</b> Please use the 'libraryPath' property instead. Gets or sets the library path which is referred to by some external formula references. |
+| static [isCloudPlatform()](#isCloudPlatform--)| <b>@deprecated.</b> Please use the 'isCloudPlatform' property instead. Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
+| static [setIsCloudPlatform(boolean)](#setIsCloudPlatform-boolean-)| <b>@deprecated.</b> Please use the 'isCloudPlatform' property instead. Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
 | static [getTextWidth(string, Font, number)](#getTextWidth-string-font-number-)| Get width of text in unit of points. |
 | static [getVersion()](#getVersion--)| Get the release version. |
 | static [cellNameToIndex(string)](#cellNameToIndex-string-)| Gets the cell row and column indexes according to its name. |
@@ -43,13 +54,73 @@ class CellsHelper;
 | static [getDoubleFromDateTime(Date, boolean)](#getDoubleFromDateTime-date-boolean-)| Convert the date time to double value. |
 | static [getUsedColors(Workbook)](#getUsedColors-workbook-)| Gets all used colors in the workbook. |
 | static [mergeFiles(string[], string, string)](#mergeFiles-stringarray-string-string-)| Merges some large xls files to a xls file. |
+| static [getCacheFolder()](#getCacheFolder--)| Gets the folder for temporary files that may be used as data cache. |
+| static [setCacheFolder(string)](#setCacheFolder-string-)| Sets the folder for temporary files that may be used as data cache. |
 | static [createSafeSheetName(string)](#createSafeSheetName-string-)| Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value. |
 | static [needQuoteInFormula(string)](#needQuoteInFormula-string-)| Indicates whether the name of the sheet should be enclosed in single quotes |
 
 
-### getSignificantDigits() {#getSignificantDigits--}
+### significantDigits {#significantDigits--}
 
 Gets and sets the number of significant digits. The default value is 17.
+
+```javascript
+static significantDigits : number;
+```
+
+
+**Remarks**
+
+Only could be 15 or 17 now.
+
+### dPI {#dPI--}
+
+Gets the DPI of the machine.
+
+```javascript
+static dPI : number;
+```
+
+
+### startupPath {#startupPath--}
+
+Gets or sets the startup path, which is referred to by some external formula references.
+
+```javascript
+static startupPath : string;
+```
+
+
+### altStartPath {#altStartPath--}
+
+Gets or sets the alternate startup path, which is referred to by some external formula references.
+
+```javascript
+static altStartPath : string;
+```
+
+
+### libraryPath {#libraryPath--}
+
+Gets or sets the library path which is referred to by some external formula references.
+
+```javascript
+static libraryPath : string;
+```
+
+
+### isCloudPlatform {#isCloudPlatform--}
+
+Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
+
+```javascript
+static isCloudPlatform : boolean;
+```
+
+
+### getSignificantDigits() {#getSignificantDigits--}
+
+<b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17.
 
 ```javascript
 static getSignificantDigits() : number;
@@ -62,7 +133,7 @@ Only could be 15 or 17 now.
 
 ### setSignificantDigits(number) {#setSignificantDigits-number-}
 
-Gets and sets the number of significant digits. The default value is 17.
+<b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17.
 
 ```javascript
 static setSignificantDigits(value: number) : void;
@@ -79,7 +150,7 @@ Only could be 15 or 17 now.
 
 ### getDPI() {#getDPI--}
 
-Gets the DPI of the machine.
+<b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine.
 
 ```javascript
 static getDPI() : number;
@@ -88,7 +159,7 @@ static getDPI() : number;
 
 ### setDPI(number) {#setDPI-number-}
 
-Gets the DPI of the machine.
+<b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine.
 
 ```javascript
 static setDPI(value: number) : void;
@@ -101,7 +172,7 @@ static setDPI(value: number) : void;
 
 ### getStartupPath() {#getStartupPath--}
 
-Gets or sets the startup path, which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'startupPath' property instead. Gets or sets the startup path, which is referred to by some external formula references.
 
 ```javascript
 static getStartupPath() : string;
@@ -110,7 +181,7 @@ static getStartupPath() : string;
 
 ### setStartupPath(string) {#setStartupPath-string-}
 
-Gets or sets the startup path, which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'startupPath' property instead. Gets or sets the startup path, which is referred to by some external formula references.
 
 ```javascript
 static setStartupPath(value: string) : void;
@@ -123,7 +194,7 @@ static setStartupPath(value: string) : void;
 
 ### getAltStartPath() {#getAltStartPath--}
 
-Gets or sets the alternate startup path, which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'altStartPath' property instead. Gets or sets the alternate startup path, which is referred to by some external formula references.
 
 ```javascript
 static getAltStartPath() : string;
@@ -132,7 +203,7 @@ static getAltStartPath() : string;
 
 ### setAltStartPath(string) {#setAltStartPath-string-}
 
-Gets or sets the alternate startup path, which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'altStartPath' property instead. Gets or sets the alternate startup path, which is referred to by some external formula references.
 
 ```javascript
 static setAltStartPath(value: string) : void;
@@ -145,7 +216,7 @@ static setAltStartPath(value: string) : void;
 
 ### getLibraryPath() {#getLibraryPath--}
 
-Gets or sets the library path which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'libraryPath' property instead. Gets or sets the library path which is referred to by some external formula references.
 
 ```javascript
 static getLibraryPath() : string;
@@ -154,7 +225,7 @@ static getLibraryPath() : string;
 
 ### setLibraryPath(string) {#setLibraryPath-string-}
 
-Gets or sets the library path which is referred to by some external formula references.
+<b>@deprecated.</b> Please use the 'libraryPath' property instead. Gets or sets the library path which is referred to by some external formula references.
 
 ```javascript
 static setLibraryPath(value: string) : void;
@@ -167,7 +238,7 @@ static setLibraryPath(value: string) : void;
 
 ### isCloudPlatform() {#isCloudPlatform--}
 
-Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
+<b>@deprecated.</b> Please use the 'isCloudPlatform' property instead. Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
 
 ```javascript
 static isCloudPlatform() : boolean;
@@ -176,7 +247,7 @@ static isCloudPlatform() : boolean;
 
 ### setIsCloudPlatform(boolean) {#setIsCloudPlatform-boolean-}
 
-Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
+<b>@deprecated.</b> Please use the 'isCloudPlatform' property instead. Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
 
 ```javascript
 static setIsCloudPlatform(value: boolean) : void;
@@ -381,6 +452,40 @@ static mergeFiles(files: string[], cachedFile: string, destFile: string) : void;
 **Remarks**
 
 This method only supports merging data, style and formulas to the new file. The cached file is used to store some temporary data.
+
+### getCacheFolder() {#getCacheFolder--}
+
+Gets the folder for temporary files that may be used as data cache.
+
+```javascript
+static getCacheFolder() : string;
+```
+
+
+**Returns**
+
+Folder for cache files that has been specified. If it has not been specified, null will be returned and system's temporary path will be used when needed.
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
+
+### setCacheFolder(string) {#setCacheFolder-string-}
+
+Sets the folder for temporary files that may be used as data cache.
+
+```javascript
+static setCacheFolder(cache: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cache | string | Folder for for temporary files that may be used as data cache. |
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
 
 ### createSafeSheetName(string) {#createSafeSheetName-string-}
 

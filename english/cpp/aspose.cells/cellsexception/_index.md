@@ -4,7 +4,7 @@ linktitle: CellsException
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsException class. The exception that is thrown when Aspose.Cells specified error occurs in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells/cellsexception/
 ---
 ## CellsException class

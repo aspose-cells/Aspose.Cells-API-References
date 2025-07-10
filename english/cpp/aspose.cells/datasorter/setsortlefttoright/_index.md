@@ -4,7 +4,7 @@ linktitle: SetSortLeftToRight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter::SetSortLeftToRight method. True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells/datasorter/setsortlefttoright/
 ---
 ## DataSorter::SetSortLeftToRight method

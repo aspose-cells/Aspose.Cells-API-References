@@ -16,39 +16,50 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(gboxSrc.Shadow, gboxDest.Shadow, info + ".Shadow");
-public static void GroupBox_Property_Shadow(GroupBox gboxSrc, GroupBox gboxDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class GroupBoxPropertyShadowDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(gboxSrc, gboxDest, info))
-            {
-                return;
-            }
-            //================properties are supported in excel 2003 format=================//
-            AssertHelper.AreEqual(gboxSrc.AutoShapeType, gboxDest.AutoShapeType, info + ".AutoShapeType");
-            AssertHelper.AreEqual(gboxSrc.MsoDrawingType, gboxDest.MsoDrawingType, info + ".MsoDrawingType");           
-            AssertHelper.AreEqual(gboxSrc.UpperLeftRow, gboxDest.UpperLeftRow, info + ".UpperLeftRow");
-            AssertHelper.AreEqual(gboxSrc.UpperLeftColumn, gboxDest.UpperLeftColumn, info + ".UpperLeftColumn");
-            AssertHelper.AreEqual(gboxSrc.LowerRightRow, gboxDest.LowerRightRow, info + ".LowerRightRow");
-            AssertHelper.AreEqual(gboxSrc.LowerRightColumn, gboxDest.LowerRightColumn, info + ".LowerRightColumn");     
-            //===size===//
-            AssertHelper.AreEqual(gboxSrc.HeightCM, gboxDest.HeightCM, info + ".HeightCM");
-            AssertHelper.AreEqual(gboxSrc.WidthCM, gboxDest.WidthCM, info + ".WidthCM");
-            AssertHelper.AreEqual(gboxSrc.HeightScale, gboxDest.HeightScale, info + ".HeightScale");
-            AssertHelper.AreEqual(gboxSrc.WidthScale, gboxDest.WidthScale, info + ".WidthScale");
-            AssertHelper.AreEqual(gboxSrc.IsLockAspectRatio, gboxDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
-            //===protection===//
-            AssertHelper.AreEqual(gboxSrc.IsLocked, gboxDest.IsLocked, info + ".IsLocked");
-            //===properties===//
-            AssertHelper.AreEqual(gboxSrc.Placement, gboxDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(gboxSrc.IsPrintable, gboxDest.IsPrintable, info + ".IsPrintable");
-            //===web===//
-            AssertHelper.AreEqual(gboxSrc.AlternativeText, gboxDest.AlternativeText, info + ".AlternativeText");
-            //===control===//
-            AssertHelper.AreEqual(gboxSrc.Shadow, gboxDest.Shadow, info + ".Shadow");
-            //other
-            AssertHelper.AreEqual(gboxSrc.IsHidden, gboxDest.IsHidden, info + ".IsHidden");
-            AssertHelper.AreEqual(gboxSrc.IsGroup, gboxDest.IsGroup, info + ".IsGroup");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a group box with shadow
+            GroupBox groupBoxWithShadow = worksheet.Shapes.AddGroupBox(1, 0, 1, 0, 200, 150);
+            groupBoxWithShadow.Shadow = true;
+            groupBoxWithShadow.Text = "GroupBox with Shadow";
+            
+            // Add a group box without shadow
+            GroupBox groupBoxWithoutShadow = worksheet.Shapes.AddGroupBox(1, 2, 1, 0, 200, 150);
+            groupBoxWithoutShadow.Shadow = false;
+            groupBoxWithoutShadow.Text = "GroupBox without Shadow";
+            
+            // Add radio buttons inside the group boxes to demonstrate grouping
+            RadioButton radio1 = worksheet.Shapes.AddRadioButton(3, 0, 2, 0, 30, 100);
+            radio1.Text = "Option 1";
+            radio1.LinkedCell = "A1";
+            
+            RadioButton radio2 = worksheet.Shapes.AddRadioButton(6, 0, 2, 0, 30, 100);
+            radio2.Text = "Option 2";
+            radio2.LinkedCell = "A1";
+            
+            // Group the shapes
+            Shape[] shapes = { groupBoxWithShadow, radio1, radio2 };
+            worksheet.Shapes.Group(shapes);
+            
+            // Save the workbook
+            workbook.Save("GroupBoxShadowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -44,60 +44,6 @@ public class LimLowUppEquationNode : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Drawing;
-    using Aspose.Cells.Drawing.Equations;
-    using System;
-
-    public class EquationsClassLimLowUppEquationNodeDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Create a shape to hold the equation
-            var shape = worksheet.Shapes.AddEquation(0, 0, 200, 50, 0, 0);
-
-            // Create equation nodes
-            var equation = shape.GetEquationParagraph();
-            var limNode = equation.AddChild(EquationNodeType.LowerLimit);
-
-            // Configure the limit equation
-            var baseNode = limNode.AddChild(EquationNodeType.Base);
-            var baseText = baseNode.AddChild(EquationNodeType.Text);
-            baseText.ToLaTeX(); // Workaround to access text content
-
-            var lowerLimit = limNode.AddChild(EquationNodeType.Limit);
-            var lowerText = lowerLimit.AddChild(EquationNodeType.Text);
-            lowerText.ToLaTeX(); // Workaround to access text content
-
-            var upperLimit = limNode.AddChild(EquationNodeType.UpperLimit);
-            var upperText = upperLimit.AddChild(EquationNodeType.Text);
-            upperText.ToLaTeX(); // Workaround to access text content
-
-            var content = limNode.AddChild(EquationNodeType.FunctionName);
-            var contentText = content.AddChild(EquationNodeType.Text);
-            contentText.ToLaTeX(); // Workaround to access text content
-
-            // Demonstrate Equals method
-            var limNode2 = equation.AddChild(EquationNodeType.LowerLimit);
-            bool areEqual = limNode.Equals(limNode2);
-            Console.WriteLine($"Are limit nodes equal? {areEqual}");
-
-            // Save the workbook
-            workbook.Save("LimLowUppEquationNodeDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [EquationNode](../equationnode/)

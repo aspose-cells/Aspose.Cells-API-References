@@ -15,24 +15,59 @@ class SolidFill;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [color](#color--)| Color | Gets or sets the [Color](../color/). |
+| [cellsColor](#cellsColor--)| CellsColor | Gets and sets the [CellsColor](../cellscolor/) object. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getColor()](#getColor--)| Gets or sets the [Color](../color/). |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/). |
-| [getCellsColor()](#getCellsColor--)| Gets and sets the [CellsColor](../cellscolor/) object. |
-| [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| Gets and sets the [CellsColor](../cellscolor/) object. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/). |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/). |
+| [getCellsColor()](#getCellsColor--)| <b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets and sets the [CellsColor](../cellscolor/) object. |
+| [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| <b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets and sets the [CellsColor](../cellscolor/) object. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
 | [equals(Object)](#equals-object-)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### color {#color--}
+
+Gets or sets the [Color](../color/).
+
+```javascript
+color : Color;
+```
+
+
+### cellsColor {#cellsColor--}
+
+Gets and sets the [CellsColor](../cellscolor/) object.
+
+```javascript
+cellsColor : CellsColor;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
 
 
 ### getColor() {#getColor--}
 
-Gets or sets the [Color](../color/).
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/).
 
 ```javascript
 getColor() : Color;
@@ -45,7 +80,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [Color](../color/).
+<b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/).
 
 ```javascript
 setColor(value: Color) : void;
@@ -58,7 +93,7 @@ setColor(value: Color) : void;
 
 ### getCellsColor() {#getCellsColor--}
 
-Gets and sets the [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets and sets the [CellsColor](../cellscolor/) object.
 
 ```javascript
 getCellsColor() : CellsColor;
@@ -71,7 +106,7 @@ getCellsColor() : CellsColor;
 
 ### setCellsColor(CellsColor) {#setCellsColor-cellscolor-}
 
-Gets and sets the [CellsColor](../cellscolor/) object.
+<b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets and sets the [CellsColor](../cellscolor/) object.
 
 ```javascript
 setCellsColor(value: CellsColor) : void;
@@ -84,7 +119,7 @@ setCellsColor(value: CellsColor) : void;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -93,7 +128,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;
@@ -103,6 +138,15 @@ setTransparency(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getHashCode() {#getHashCode--}
 
@@ -125,14 +169,5 @@ equals(obj: Object) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Object |  |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

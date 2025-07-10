@@ -21,29 +21,6 @@ public ExternalConnection this[int index] { get; set; }
 
 The element at the specified index.
 
-### Examples
-
-```csharp
-// Called: connection = workbook.DataConnections[1];
-public void ExternalConnectionCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var connection = workbook.DataConnections[0];
-    PowerQueryFormula formula = connection.PowerQueryFormula;
-    Assert.AreEqual("AnwenderName", formula.Name); // error: null, expected: end_time
-    Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-
-
-    connection = workbook.DataConnections[1];
-    formula = connection.PowerQueryFormula;
-
-    Assert.AreEqual("ApproxPauseFun", formula.Name); // error: null, expected: end_time
-    Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-    workbook.Save(Constants.destPath + "example.xlsx");
-
-}
-```
-
 ### See Also
 
 * class [ExternalConnection](../../externalconnection/)

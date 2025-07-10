@@ -15,48 +15,207 @@ class ShapeTextAlignment;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isTextWrapped](#isTextWrapped--)| boolean | Gets or sets the text wrapped type of the shape which contains text. |
+| [rotateTextWithShape](#rotateTextWithShape--)| boolean | Indicates whether rotating text with shape. |
+| [textVerticalOverflow](#textVerticalOverflow--)| TextOverflowType | Gets and sets the text vertical overflow type of the text box. |
+| [textHorizontalOverflow](#textHorizontalOverflow--)| TextOverflowType | Gets and sets the text horizontal overflow type of the text box. |
+| [rotationAngle](#rotationAngle--)| number | Gets and sets the rotation of the shape. |
+| [textVerticalType](#textVerticalType--)| TextVerticalType | Gets and sets the text direction. |
+| [isLockedText](#isLockedText--)| boolean | Indicates whether the shape is locked when worksheet is protected. |
+| [autoSize](#autoSize--)| boolean | Indicates if size of shape is adjusted automatically according to its content. |
+| [textShapeType](#textShapeType--)| AutoShapeType | Gets and set the transform type of text. |
+| [topMarginPt](#topMarginPt--)| number | Returns the top margin in unit of Points |
+| [bottomMarginPt](#bottomMarginPt--)| number | Returns the bottom margin in unit of Points |
+| [leftMarginPt](#leftMarginPt--)| number | Returns the left margin in unit of Points |
+| [rightMarginPt](#rightMarginPt--)| number | Returns the right margin in unit of Points |
+| [isAutoMargin](#isAutoMargin--)| boolean | Indicates whether the margin of the text frame is automatic. |
+| [numberOfColumns](#numberOfColumns--)| number | Gets and sets the number of columns of text in the bounding rectangle. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isTextWrapped()](#isTextWrapped--)| Gets or sets the text wrapped type of the shape which contains text. |
-| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets the text wrapped type of the shape which contains text. |
-| [getRotateTextWithShape()](#getRotateTextWithShape--)| Indicates whether rotating text with shape. |
-| [setRotateTextWithShape(boolean)](#setRotateTextWithShape-boolean-)| Indicates whether rotating text with shape. |
-| [getTextVerticalOverflow()](#getTextVerticalOverflow--)| Gets and sets the text vertical overflow type of the text box. |
-| [setTextVerticalOverflow(TextOverflowType)](#setTextVerticalOverflow-textoverflowtype-)| Gets and sets the text vertical overflow type of the text box. |
-| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--)| Gets and sets the text horizontal overflow type of the text box. |
-| [setTextHorizontalOverflow(TextOverflowType)](#setTextHorizontalOverflow-textoverflowtype-)| Gets and sets the text horizontal overflow type of the text box. |
-| [getRotationAngle()](#getRotationAngle--)| Gets and sets the rotation of the shape. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| Gets and sets the rotation of the shape. |
-| [getTextVerticalType()](#getTextVerticalType--)| Gets and sets the text direction. |
-| [setTextVerticalType(TextVerticalType)](#setTextVerticalType-textverticaltype-)| Gets and sets the text direction. |
-| [isLockedText()](#isLockedText--)| Indicates whether the shape is locked when worksheet is protected. |
-| [setIsLockedText(boolean)](#setIsLockedText-boolean-)| Indicates whether the shape is locked when worksheet is protected. |
-| [getAutoSize()](#getAutoSize--)| Indicates if size of shape is adjusted automatically according to its content. |
-| [setAutoSize(boolean)](#setAutoSize-boolean-)| Indicates if size of shape is adjusted automatically according to its content. |
-| [getTextShapeType()](#getTextShapeType--)| Gets and set the transform type of text. |
-| [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and set the transform type of text. |
-| [getTopMarginPt()](#getTopMarginPt--)| Returns the top margin in unit of Points |
-| [setTopMarginPt(number)](#setTopMarginPt-number-)| Returns the top margin in unit of Points |
-| [getBottomMarginPt()](#getBottomMarginPt--)| Returns the bottom margin in unit of Points |
-| [setBottomMarginPt(number)](#setBottomMarginPt-number-)| Returns the bottom margin in unit of Points |
-| [getLeftMarginPt()](#getLeftMarginPt--)| Returns the left margin in unit of Points |
-| [setLeftMarginPt(number)](#setLeftMarginPt-number-)| Returns the left margin in unit of Points |
-| [getRightMarginPt()](#getRightMarginPt--)| Returns the right margin in unit of Points |
-| [setRightMarginPt(number)](#setRightMarginPt-number-)| Returns the right margin in unit of Points |
-| [isAutoMargin()](#isAutoMargin--)| Indicates whether the margin of the text frame is automatic. |
-| [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| Indicates whether the margin of the text frame is automatic. |
-| [getNumberOfColumns()](#getNumberOfColumns--)| Gets and sets the number of columns of text in the bounding rectangle. |
-| [setNumberOfColumns(number)](#setNumberOfColumns-number-)| Gets and sets the number of columns of text in the bounding rectangle. |
+| [isTextWrapped()](#isTextWrapped--)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets the text wrapped type of the shape which contains text. |
+| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets the text wrapped type of the shape which contains text. |
+| [getRotateTextWithShape()](#getRotateTextWithShape--)| <b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape. |
+| [setRotateTextWithShape(boolean)](#setRotateTextWithShape-boolean-)| <b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape. |
+| [getTextVerticalOverflow()](#getTextVerticalOverflow--)| <b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the text box. |
+| [setTextVerticalOverflow(TextOverflowType)](#setTextVerticalOverflow-textoverflowtype-)| <b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the text box. |
+| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--)| <b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the text box. |
+| [setTextHorizontalOverflow(TextOverflowType)](#setTextHorizontalOverflow-textoverflowtype-)| <b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the text box. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape. |
+| [getTextVerticalType()](#getTextVerticalType--)| <b>@deprecated.</b> Please use the 'textVerticalType' property instead. Gets and sets the text direction. |
+| [setTextVerticalType(TextVerticalType)](#setTextVerticalType-textverticaltype-)| <b>@deprecated.</b> Please use the 'textVerticalType' property instead. Gets and sets the text direction. |
+| [isLockedText()](#isLockedText--)| <b>@deprecated.</b> Please use the 'isLockedText' property instead. Indicates whether the shape is locked when worksheet is protected. |
+| [setIsLockedText(boolean)](#setIsLockedText-boolean-)| <b>@deprecated.</b> Please use the 'isLockedText' property instead. Indicates whether the shape is locked when worksheet is protected. |
+| [getAutoSize()](#getAutoSize--)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content. |
+| [setAutoSize(boolean)](#setAutoSize-boolean-)| <b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content. |
+| [getTextShapeType()](#getTextShapeType--)| <b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and set the transform type of text. |
+| [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| <b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and set the transform type of text. |
+| [getTopMarginPt()](#getTopMarginPt--)| <b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points |
+| [setTopMarginPt(number)](#setTopMarginPt-number-)| <b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points |
+| [getBottomMarginPt()](#getBottomMarginPt--)| <b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points |
+| [setBottomMarginPt(number)](#setBottomMarginPt-number-)| <b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points |
+| [getLeftMarginPt()](#getLeftMarginPt--)| <b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points |
+| [setLeftMarginPt(number)](#setLeftMarginPt-number-)| <b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points |
+| [getRightMarginPt()](#getRightMarginPt--)| <b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points |
+| [setRightMarginPt(number)](#setRightMarginPt-number-)| <b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points |
+| [isAutoMargin()](#isAutoMargin--)| <b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin of the text frame is automatic. |
+| [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| <b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin of the text frame is automatic. |
+| [getNumberOfColumns()](#getNumberOfColumns--)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle. |
+| [setNumberOfColumns(number)](#setNumberOfColumns-number-)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object. |
 | [getHashCode()](#getHashCode--)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### isTextWrapped {#isTextWrapped--}
+
+Gets or sets the text wrapped type of the shape which contains text.
+
+```javascript
+isTextWrapped : boolean;
+```
+
+
+### rotateTextWithShape {#rotateTextWithShape--}
+
+Indicates whether rotating text with shape.
+
+```javascript
+rotateTextWithShape : boolean;
+```
+
+
+### textVerticalOverflow {#textVerticalOverflow--}
+
+Gets and sets the text vertical overflow type of the text box.
+
+```javascript
+textVerticalOverflow : TextOverflowType;
+```
+
+
+### textHorizontalOverflow {#textHorizontalOverflow--}
+
+Gets and sets the text horizontal overflow type of the text box.
+
+```javascript
+textHorizontalOverflow : TextOverflowType;
+```
+
+
+### rotationAngle {#rotationAngle--}
+
+Gets and sets the rotation of the shape.
+
+```javascript
+rotationAngle : number;
+```
+
+
+### textVerticalType {#textVerticalType--}
+
+Gets and sets the text direction.
+
+```javascript
+textVerticalType : TextVerticalType;
+```
+
+
+### isLockedText {#isLockedText--}
+
+Indicates whether the shape is locked when worksheet is protected.
+
+```javascript
+isLockedText : boolean;
+```
+
+
+**Remarks**
+
+Only works when worksheet is protected.
+
+### autoSize {#autoSize--}
+
+Indicates if size of shape is adjusted automatically according to its content.
+
+```javascript
+autoSize : boolean;
+```
+
+
+### textShapeType {#textShapeType--}
+
+Gets and set the transform type of text.
+
+```javascript
+textShapeType : AutoShapeType;
+```
+
+
+### topMarginPt {#topMarginPt--}
+
+Returns the top margin in unit of Points
+
+```javascript
+topMarginPt : number;
+```
+
+
+### bottomMarginPt {#bottomMarginPt--}
+
+Returns the bottom margin in unit of Points
+
+```javascript
+bottomMarginPt : number;
+```
+
+
+### leftMarginPt {#leftMarginPt--}
+
+Returns the left margin in unit of Points
+
+```javascript
+leftMarginPt : number;
+```
+
+
+### rightMarginPt {#rightMarginPt--}
+
+Returns the right margin in unit of Points
+
+```javascript
+rightMarginPt : number;
+```
+
+
+### isAutoMargin {#isAutoMargin--}
+
+Indicates whether the margin of the text frame is automatic.
+
+```javascript
+isAutoMargin : boolean;
+```
+
+
+### numberOfColumns {#numberOfColumns--}
+
+Gets and sets the number of columns of text in the bounding rectangle.
+
+```javascript
+numberOfColumns : number;
+```
 
 
 ### isTextWrapped() {#isTextWrapped--}
 
-Gets or sets the text wrapped type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets the text wrapped type of the shape which contains text.
 
 ```javascript
 isTextWrapped() : boolean;
@@ -65,7 +224,7 @@ isTextWrapped() : boolean;
 
 ### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
 
-Gets or sets the text wrapped type of the shape which contains text.
+<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets the text wrapped type of the shape which contains text.
 
 ```javascript
 setIsTextWrapped(value: boolean) : void;
@@ -78,7 +237,7 @@ setIsTextWrapped(value: boolean) : void;
 
 ### getRotateTextWithShape() {#getRotateTextWithShape--}
 
-Indicates whether rotating text with shape.
+<b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape.
 
 ```javascript
 getRotateTextWithShape() : boolean;
@@ -87,7 +246,7 @@ getRotateTextWithShape() : boolean;
 
 ### setRotateTextWithShape(boolean) {#setRotateTextWithShape-boolean-}
 
-Indicates whether rotating text with shape.
+<b>@deprecated.</b> Please use the 'rotateTextWithShape' property instead. Indicates whether rotating text with shape.
 
 ```javascript
 setRotateTextWithShape(value: boolean) : void;
@@ -100,7 +259,7 @@ setRotateTextWithShape(value: boolean) : void;
 
 ### getTextVerticalOverflow() {#getTextVerticalOverflow--}
 
-Gets and sets the text vertical overflow type of the text box.
+<b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the text box.
 
 ```javascript
 getTextVerticalOverflow() : TextOverflowType;
@@ -113,7 +272,7 @@ getTextVerticalOverflow() : TextOverflowType;
 
 ### setTextVerticalOverflow(TextOverflowType) {#setTextVerticalOverflow-textoverflowtype-}
 
-Gets and sets the text vertical overflow type of the text box.
+<b>@deprecated.</b> Please use the 'textVerticalOverflow' property instead. Gets and sets the text vertical overflow type of the text box.
 
 ```javascript
 setTextVerticalOverflow(value: TextOverflowType) : void;
@@ -126,7 +285,7 @@ setTextVerticalOverflow(value: TextOverflowType) : void;
 
 ### getTextHorizontalOverflow() {#getTextHorizontalOverflow--}
 
-Gets and sets the text horizontal overflow type of the text box.
+<b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the text box.
 
 ```javascript
 getTextHorizontalOverflow() : TextOverflowType;
@@ -139,7 +298,7 @@ getTextHorizontalOverflow() : TextOverflowType;
 
 ### setTextHorizontalOverflow(TextOverflowType) {#setTextHorizontalOverflow-textoverflowtype-}
 
-Gets and sets the text horizontal overflow type of the text box.
+<b>@deprecated.</b> Please use the 'textHorizontalOverflow' property instead. Gets and sets the text horizontal overflow type of the text box.
 
 ```javascript
 setTextHorizontalOverflow(value: TextOverflowType) : void;
@@ -152,7 +311,7 @@ setTextHorizontalOverflow(value: TextOverflowType) : void;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-Gets and sets the rotation of the shape.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape.
 
 ```javascript
 getRotationAngle() : number;
@@ -161,7 +320,7 @@ getRotationAngle() : number;
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-Gets and sets the rotation of the shape.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Gets and sets the rotation of the shape.
 
 ```javascript
 setRotationAngle(value: number) : void;
@@ -174,7 +333,7 @@ setRotationAngle(value: number) : void;
 
 ### getTextVerticalType() {#getTextVerticalType--}
 
-Gets and sets the text direction.
+<b>@deprecated.</b> Please use the 'textVerticalType' property instead. Gets and sets the text direction.
 
 ```javascript
 getTextVerticalType() : TextVerticalType;
@@ -187,7 +346,7 @@ getTextVerticalType() : TextVerticalType;
 
 ### setTextVerticalType(TextVerticalType) {#setTextVerticalType-textverticaltype-}
 
-Gets and sets the text direction.
+<b>@deprecated.</b> Please use the 'textVerticalType' property instead. Gets and sets the text direction.
 
 ```javascript
 setTextVerticalType(value: TextVerticalType) : void;
@@ -200,7 +359,7 @@ setTextVerticalType(value: TextVerticalType) : void;
 
 ### isLockedText() {#isLockedText--}
 
-Indicates whether the shape is locked when worksheet is protected.
+<b>@deprecated.</b> Please use the 'isLockedText' property instead. Indicates whether the shape is locked when worksheet is protected.
 
 ```javascript
 isLockedText() : boolean;
@@ -213,7 +372,7 @@ Only works when worksheet is protected.
 
 ### setIsLockedText(boolean) {#setIsLockedText-boolean-}
 
-Indicates whether the shape is locked when worksheet is protected.
+<b>@deprecated.</b> Please use the 'isLockedText' property instead. Indicates whether the shape is locked when worksheet is protected.
 
 ```javascript
 setIsLockedText(value: boolean) : void;
@@ -230,7 +389,7 @@ Only works when worksheet is protected.
 
 ### getAutoSize() {#getAutoSize--}
 
-Indicates if size of shape is adjusted automatically according to its content.
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content.
 
 ```javascript
 getAutoSize() : boolean;
@@ -239,7 +398,7 @@ getAutoSize() : boolean;
 
 ### setAutoSize(boolean) {#setAutoSize-boolean-}
 
-Indicates if size of shape is adjusted automatically according to its content.
+<b>@deprecated.</b> Please use the 'autoSize' property instead. Indicates if size of shape is adjusted automatically according to its content.
 
 ```javascript
 setAutoSize(value: boolean) : void;
@@ -252,7 +411,7 @@ setAutoSize(value: boolean) : void;
 
 ### getTextShapeType() {#getTextShapeType--}
 
-Gets and set the transform type of text.
+<b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and set the transform type of text.
 
 ```javascript
 getTextShapeType() : AutoShapeType;
@@ -265,7 +424,7 @@ getTextShapeType() : AutoShapeType;
 
 ### setTextShapeType(AutoShapeType) {#setTextShapeType-autoshapetype-}
 
-Gets and set the transform type of text.
+<b>@deprecated.</b> Please use the 'textShapeType' property instead. Gets and set the transform type of text.
 
 ```javascript
 setTextShapeType(value: AutoShapeType) : void;
@@ -278,7 +437,7 @@ setTextShapeType(value: AutoShapeType) : void;
 
 ### getTopMarginPt() {#getTopMarginPt--}
 
-Returns the top margin in unit of Points
+<b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points
 
 ```javascript
 getTopMarginPt() : number;
@@ -287,7 +446,7 @@ getTopMarginPt() : number;
 
 ### setTopMarginPt(number) {#setTopMarginPt-number-}
 
-Returns the top margin in unit of Points
+<b>@deprecated.</b> Please use the 'topMarginPt' property instead. Returns the top margin in unit of Points
 
 ```javascript
 setTopMarginPt(value: number) : void;
@@ -300,7 +459,7 @@ setTopMarginPt(value: number) : void;
 
 ### getBottomMarginPt() {#getBottomMarginPt--}
 
-Returns the bottom margin in unit of Points
+<b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points
 
 ```javascript
 getBottomMarginPt() : number;
@@ -309,7 +468,7 @@ getBottomMarginPt() : number;
 
 ### setBottomMarginPt(number) {#setBottomMarginPt-number-}
 
-Returns the bottom margin in unit of Points
+<b>@deprecated.</b> Please use the 'bottomMarginPt' property instead. Returns the bottom margin in unit of Points
 
 ```javascript
 setBottomMarginPt(value: number) : void;
@@ -322,7 +481,7 @@ setBottomMarginPt(value: number) : void;
 
 ### getLeftMarginPt() {#getLeftMarginPt--}
 
-Returns the left margin in unit of Points
+<b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points
 
 ```javascript
 getLeftMarginPt() : number;
@@ -331,7 +490,7 @@ getLeftMarginPt() : number;
 
 ### setLeftMarginPt(number) {#setLeftMarginPt-number-}
 
-Returns the left margin in unit of Points
+<b>@deprecated.</b> Please use the 'leftMarginPt' property instead. Returns the left margin in unit of Points
 
 ```javascript
 setLeftMarginPt(value: number) : void;
@@ -344,7 +503,7 @@ setLeftMarginPt(value: number) : void;
 
 ### getRightMarginPt() {#getRightMarginPt--}
 
-Returns the right margin in unit of Points
+<b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points
 
 ```javascript
 getRightMarginPt() : number;
@@ -353,7 +512,7 @@ getRightMarginPt() : number;
 
 ### setRightMarginPt(number) {#setRightMarginPt-number-}
 
-Returns the right margin in unit of Points
+<b>@deprecated.</b> Please use the 'rightMarginPt' property instead. Returns the right margin in unit of Points
 
 ```javascript
 setRightMarginPt(value: number) : void;
@@ -366,7 +525,7 @@ setRightMarginPt(value: number) : void;
 
 ### isAutoMargin() {#isAutoMargin--}
 
-Indicates whether the margin of the text frame is automatic.
+<b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin of the text frame is automatic.
 
 ```javascript
 isAutoMargin() : boolean;
@@ -375,7 +534,7 @@ isAutoMargin() : boolean;
 
 ### setIsAutoMargin(boolean) {#setIsAutoMargin-boolean-}
 
-Indicates whether the margin of the text frame is automatic.
+<b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin of the text frame is automatic.
 
 ```javascript
 setIsAutoMargin(value: boolean) : void;
@@ -388,7 +547,7 @@ setIsAutoMargin(value: boolean) : void;
 
 ### getNumberOfColumns() {#getNumberOfColumns--}
 
-Gets and sets the number of columns of text in the bounding rectangle.
+<b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle.
 
 ```javascript
 getNumberOfColumns() : number;
@@ -397,7 +556,7 @@ getNumberOfColumns() : number;
 
 ### setNumberOfColumns(number) {#setNumberOfColumns-number-}
 
-Gets and sets the number of columns of text in the bounding rectangle.
+<b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle.
 
 ```javascript
 setNumberOfColumns(value: number) : void;
@@ -407,6 +566,15 @@ setNumberOfColumns(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### equals(Object) {#equals-object-}
 
@@ -431,15 +599,6 @@ true if the value of the obj parameter is the same as the value of this instance
 
 ```javascript
 getHashCode() : number;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
 ```
 
 

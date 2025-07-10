@@ -23,7 +23,7 @@ const { Workbook } = require("aspose.cells.node");
 var workbook = new Workbook("input/CustomProperties.xlsx");
 
 //Retrieve a list of all custom document properties of the Excel file
-var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+var customProperties = workbook.worksheets.customDocumentProperties;
 
 //Accessng a custom document property by using the property index
 var customProperty1 = customProperties.get(3);
@@ -31,7 +31,7 @@ var customProperty1 = customProperties.get(3);
 //Accessng a custom document property by using the property name
 var customProperty2 = customProperties.get("rox_Meta1");
 
-console.log("Custom Properties: " + customProperties.getCount());
+console.log("Custom Properties: " + customProperties.count);
 ```
 ## Methods
 
@@ -42,7 +42,7 @@ console.log("Custom Properties: " + customProperties.getCount());
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
@@ -126,7 +126,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

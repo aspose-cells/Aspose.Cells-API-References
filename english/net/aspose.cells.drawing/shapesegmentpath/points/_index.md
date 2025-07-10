@@ -25,24 +25,23 @@ namespace AsposeCellsExamples
     public class ShapeSegmentPathPropertyPointsDemo
     {
         public static void Run()
-        {
-            // Create a new workbook
+        {// Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a freeform shape with a custom path
-            Shape shape = worksheet.Shapes.AddFreeform(0, 0, 0, 0, 400, 400, new ShapePath[] { new ShapePath() });
+            ShapePath path = new ShapePath();
 
-            // Get the geometry path of the shape
-            CustomGeometry geometry = shape.Geometry as CustomGeometry;
-            ShapePath shapePath = geometry.Paths[0];
+            // Start a new path
+            path.MoveTo(10, 10);
 
-            // Create line segment paths using Add method with LineTo type
-            shapePath.PathSegementList.Add(ShapePathType.LineTo);
-            shapePath.PathSegementList.Add(ShapePathType.LineTo);
+            // Draw a line segment
+            path.LineTo(100, 100);
+
+            // Access the PathSegementList property
+            ShapeSegmentPathCollection segmentPaths = path.PathSegementList;
 
             // Access the first segment path
-            ShapeSegmentPath segmentPath = shapePath.PathSegementList[0];
+            ShapeSegmentPath segmentPath = segmentPaths[1];
 
             // Display points information
             Console.WriteLine("Number of points in segment: " + segmentPath.Points.Count);
@@ -50,20 +49,10 @@ namespace AsposeCellsExamples
             foreach (ShapePathPoint point in segmentPath.Points)
             {
                 Console.WriteLine($"X: {point.X}, Y: {point.Y}");
-            }
+            }          
 
-            // Add a new point to the segment (since Points is read-only, we need to modify through the collection)
-            ShapePathPointCollection points = segmentPath.Points;
-            int newPointIndex = points.Add(150, 150);
-            Console.WriteLine($"Added new point at index {newPointIndex}");
-
-            // Display updated points information
-            Console.WriteLine("\nUpdated points after addition:");
-            for (int i = 0; i < points.Count; i++)
-            {
-                ShapePathPoint point = points[i];
-                Console.WriteLine($"Point {i}: X={point.X}, Y={point.Y}");
-            }
+            //add free form
+            worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { path });
 
             // Save the workbook
             workbook.Save("ShapeSegmentPathPointsDemo.xlsx");

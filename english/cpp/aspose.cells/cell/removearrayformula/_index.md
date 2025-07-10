@@ -4,7 +4,7 @@ linktitle: RemoveArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::RemoveArrayFormula method. Remove array formula in C++.'
 type: docs
-weight: 5300
+weight: 5400
 url: /cpp/aspose.cells/cell/removearrayformula/
 ---
 ## Cell::RemoveArrayFormula method

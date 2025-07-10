@@ -4,7 +4,7 @@ linktitle: GetIntValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetIntValue method. Gets the integer value contained in the cell in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells/cell/getintvalue/
 ---
 ## Cell::GetIntValue method

@@ -4,7 +4,7 @@ linktitle: AddDigitalSignature
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::AddDigitalSignature method. Adds digital signature to an OOXML spreadsheet file (Excel2007 and later) in C++.'
 type: docs
-weight: 7300
+weight: 7500
 url: /cpp/aspose.cells/workbook/adddigitalsignature/
 ---
 ## Workbook::AddDigitalSignature method

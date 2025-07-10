@@ -4,7 +4,7 @@ linktitle: Border
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Border class. Encapsulates the object that represents the cell border in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/border/
 ---
 ## Border class

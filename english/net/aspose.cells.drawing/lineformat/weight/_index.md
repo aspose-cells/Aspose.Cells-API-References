@@ -16,30 +16,9 @@ public double Weight { get; set; }
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
 
-namespace AsposeCellsExamples
-{
-    public class LineFormatPropertyWeightDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a line shape
-            LineShape line = worksheet.Shapes.AddLine(5, 5, 100, 5, 200, 0);
-
-            // Set the line weight
-            line.LineFormat.Weight = 2.0d;
-
-            // Save the workbook
-            workbook.Save("LineFormatWeightDemo.xlsx");
-        }
-    }
-}
+[C#]
+lineFmt.Weight = 2.0d;
 ```
 
 ### See Also

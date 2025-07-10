@@ -17,26 +17,37 @@ class DigitalSignature;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Uint8Array, string, string, Date)](#constructor-uint8array-string-string-date-)| Constructor of DigitalSignature. |
 | [constructor(string, string, string, Date)](#constructor-string-string-string-date-)| Constructor of DigitalSignature. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [comments](#comments--)| string | The purpose to signature. |
+| [signTime](#signTime--)| Date | The time when the document was signed. |
+| [text](#text--)| string | Specifies the text of actual signature in the digital signature. Default value is Empty. |
+| [image](#image--)| Uint8Array | Specifies an image for the digital signature. Default value is null. |
+| [isValid](#isValid--)| boolean | Readonly. If this digital signature is valid and the document has not been tampered with, this value will be true. |
+| [xAdESType](#xAdESType--)| XAdESType | XAdES type. Default value is None(XAdES is off). |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getComments()](#getComments--)| The purpose to signature. |
-| [setComments(string)](#setComments-string-)| The purpose to signature. |
-| [getSignTime()](#getSignTime--)| The time when the document was signed. |
-| [setSignTime(Date)](#setSignTime-date-)| The time when the document was signed. |
-| [getText()](#getText--)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
-| [setText(string)](#setText-string-)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
-| [getImage()](#getImage--)| Specifies an image for the digital signature. Default value is null. |
-| [setImage(Uint8Array)](#setImage-uint8array-)| Specifies an image for the digital signature. Default value is null. |
-| [isValid()](#isValid--)| If this digital signature is valid and the document has not been tampered with, this value will be true. |
-| [getXAdESType()](#getXAdESType--)| XAdES type. Default value is None(XAdES is off). |
-| [setXAdESType(XAdESType)](#setXAdESType-xadestype-)| XAdES type. Default value is None(XAdES is off). |
+| [getComments()](#getComments--)| <b>@deprecated.</b> Please use the 'comments' property instead. The purpose to signature. |
+| [setComments(string)](#setComments-string-)| <b>@deprecated.</b> Please use the 'comments' property instead. The purpose to signature. |
+| [getSignTime()](#getSignTime--)| <b>@deprecated.</b> Please use the 'signTime' property instead. The time when the document was signed. |
+| [setSignTime(Date)](#setSignTime-date-)| <b>@deprecated.</b> Please use the 'signTime' property instead. The time when the document was signed. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Specifies the text of actual signature in the digital signature. Default value is Empty. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Specifies the text of actual signature in the digital signature. Default value is Empty. |
+| [getImage()](#getImage--)| <b>@deprecated.</b> Please use the 'image' property instead. Specifies an image for the digital signature. Default value is null. |
+| [setImage(Uint8Array)](#setImage-uint8array-)| <b>@deprecated.</b> Please use the 'image' property instead. Specifies an image for the digital signature. Default value is null. |
+| [isValid()](#isValid--)| <b>@deprecated.</b> Please use the 'isValid' property instead. If this digital signature is valid and the document has not been tampered with, this value will be true. |
+| [getXAdESType()](#getXAdESType--)| <b>@deprecated.</b> Please use the 'xAdESType' property instead. XAdES type. Default value is None(XAdES is off). |
+| [setXAdESType(XAdESType)](#setXAdESType-xadestype-)| <b>@deprecated.</b> Please use the 'xAdESType' property instead. XAdES type. Default value is None(XAdES is off). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -72,9 +83,63 @@ constructor(fileName: string, password: string, comments: string, signTime: Date
 | comments | string | The purpose to signature. |
 | signTime | Date | The utc time when the document was signed. |
 
-### getComments() {#getComments--}
+### comments {#comments--}
 
 The purpose to signature.
+
+```javascript
+comments : string;
+```
+
+
+### signTime {#signTime--}
+
+The time when the document was signed.
+
+```javascript
+signTime : Date;
+```
+
+
+### text {#text--}
+
+Specifies the text of actual signature in the digital signature. Default value is Empty.
+
+```javascript
+text : string;
+```
+
+
+### image {#image--}
+
+Specifies an image for the digital signature. Default value is null.
+
+```javascript
+image : Uint8Array;
+```
+
+
+### isValid {#isValid--}
+
+Readonly. If this digital signature is valid and the document has not been tampered with, this value will be true.
+
+```javascript
+isValid : boolean;
+```
+
+
+### xAdESType {#xAdESType--}
+
+XAdES type. Default value is None(XAdES is off).
+
+```javascript
+xAdESType : XAdESType;
+```
+
+
+### getComments() {#getComments--}
+
+<b>@deprecated.</b> Please use the 'comments' property instead. The purpose to signature.
 
 ```javascript
 getComments() : string;
@@ -83,7 +148,7 @@ getComments() : string;
 
 ### setComments(string) {#setComments-string-}
 
-The purpose to signature.
+<b>@deprecated.</b> Please use the 'comments' property instead. The purpose to signature.
 
 ```javascript
 setComments(value: string) : void;
@@ -96,7 +161,7 @@ setComments(value: string) : void;
 
 ### getSignTime() {#getSignTime--}
 
-The time when the document was signed.
+<b>@deprecated.</b> Please use the 'signTime' property instead. The time when the document was signed.
 
 ```javascript
 getSignTime() : Date;
@@ -105,7 +170,7 @@ getSignTime() : Date;
 
 ### setSignTime(Date) {#setSignTime-date-}
 
-The time when the document was signed.
+<b>@deprecated.</b> Please use the 'signTime' property instead. The time when the document was signed.
 
 ```javascript
 setSignTime(value: Date) : void;
@@ -118,7 +183,7 @@ setSignTime(value: Date) : void;
 
 ### getText() {#getText--}
 
-Specifies the text of actual signature in the digital signature. Default value is Empty.
+<b>@deprecated.</b> Please use the 'text' property instead. Specifies the text of actual signature in the digital signature. Default value is Empty.
 
 ```javascript
 getText() : string;
@@ -127,7 +192,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-Specifies the text of actual signature in the digital signature. Default value is Empty.
+<b>@deprecated.</b> Please use the 'text' property instead. Specifies the text of actual signature in the digital signature. Default value is Empty.
 
 ```javascript
 setText(value: string) : void;
@@ -140,7 +205,7 @@ setText(value: string) : void;
 
 ### getImage() {#getImage--}
 
-Specifies an image for the digital signature. Default value is null.
+<b>@deprecated.</b> Please use the 'image' property instead. Specifies an image for the digital signature. Default value is null.
 
 ```javascript
 getImage() : Uint8Array;
@@ -149,7 +214,7 @@ getImage() : Uint8Array;
 
 ### setImage(Uint8Array) {#setImage-uint8array-}
 
-Specifies an image for the digital signature. Default value is null.
+<b>@deprecated.</b> Please use the 'image' property instead. Specifies an image for the digital signature. Default value is null.
 
 ```javascript
 setImage(value: Uint8Array) : void;
@@ -162,7 +227,7 @@ setImage(value: Uint8Array) : void;
 
 ### isValid() {#isValid--}
 
-If this digital signature is valid and the document has not been tampered with, this value will be true.
+<b>@deprecated.</b> Please use the 'isValid' property instead. If this digital signature is valid and the document has not been tampered with, this value will be true.
 
 ```javascript
 isValid() : boolean;
@@ -171,7 +236,7 @@ isValid() : boolean;
 
 ### getXAdESType() {#getXAdESType--}
 
-XAdES type. Default value is None(XAdES is off).
+<b>@deprecated.</b> Please use the 'xAdESType' property instead. XAdES type. Default value is None(XAdES is off).
 
 ```javascript
 getXAdESType() : XAdESType;
@@ -184,7 +249,7 @@ getXAdESType() : XAdESType;
 
 ### setXAdESType(XAdESType) {#setXAdESType-xadestype-}
 
-XAdES type. Default value is None(XAdES is off).
+<b>@deprecated.</b> Please use the 'xAdESType' property instead. XAdES type. Default value is None(XAdES is off).
 
 ```javascript
 setXAdESType(value: XAdESType) : void;

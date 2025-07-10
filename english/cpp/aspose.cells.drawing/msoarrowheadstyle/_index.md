@@ -4,7 +4,7 @@ linktitle: MsoArrowheadStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::MsoArrowheadStyle enum. Enumerates the line end type of the shape border line in C++.'
 type: docs
-weight: 9600
+weight: 9800
 url: /cpp/aspose.cells.drawing/msoarrowheadstyle/
 ---
 ## MsoArrowheadStyle enum

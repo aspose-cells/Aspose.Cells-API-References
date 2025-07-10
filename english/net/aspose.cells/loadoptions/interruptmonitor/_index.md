@@ -16,15 +16,38 @@ public AbstractInterruptMonitor InterruptMonitor { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
-public void LoadOptions_Property_InterruptMonitor()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Model.RandomFill(wb.Worksheets[0].Cells, 1000, 20, false);
-    MemoryStream ms = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-    ms.Seek(0, SeekOrigin.Begin);
-    wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
-    Util.ReSave(wb, SaveFormat.Xlsx);
+    public class LoadOptionsPropertyInterruptMonitorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
+            
+            MemoryStream stream = new MemoryStream();
+            workbook.Save(stream, SaveFormat.Xlsx);
+            stream.Seek(0, SeekOrigin.Begin);
+
+            Workbook loadedWorkbook = new Workbook(stream, new LoadOptions { 
+                InterruptMonitor = new CustomInterruptMonitor() 
+            });
+
+            loadedWorkbook.Save("Output.xlsx");
+        }
+    }
+
+    public class CustomInterruptMonitor : AbstractInterruptMonitor
+    {
+        public override bool IsInterruptionRequested 
+        { 
+            get { return false; }
+        }
+    }
 }
 ```
 

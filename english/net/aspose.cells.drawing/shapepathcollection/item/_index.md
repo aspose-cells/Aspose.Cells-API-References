@@ -24,37 +24,41 @@ Returns [`ShapePath`](../../shapepath/) object.
 ### Examples
 
 ```csharp
-// Called: ShapePath newPath = shapePaths[pathIndex];
-public static void ShapePathCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ShapePathCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-
-
-
-            // Instantiate a new Workbook
-            Workbook workbook = new Workbook("ShapePathCollectionExample_original.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            Shape customShape = worksheet.Shapes[0];
-            
-            // Access the ShapePathCollection of the arc shape
+            // Add a custom shape (non-primitive shape) with correct parameters
+            Shape customShape = worksheet.Shapes.AddAutoShape(AutoShapeType.NotPrimitive, 10, 10, 200, 200, 0, 0);
+
+            // Access the ShapePathCollection
             ShapePathCollection shapePaths = customShape.Paths;
 
-            if (shapePaths != null)
-            {
-                // Add a new path to the ShapePathCollection
-                int pathIndex = shapePaths.Add();
+            // Add a new path
+            int pathIndex = shapePaths.Add();
 
-                // Access the newly added ShapePath
-                ShapePath newPath = shapePaths[pathIndex];
+            // Access the path using Item property
+            ShapePath newPath = shapePaths[pathIndex];
 
-                // Display the count of paths in the ShapePathCollection
-                Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
-            }
-            
+            // Output information
+            Console.WriteLine("Path count: " + shapePaths.Count);
+            Console.WriteLine("Path segment count: " + newPath.PathSegementList.Count);
 
             // Save the workbook
-            workbook.Save("ShapePathCollectionExample.xlsx");
+            workbook.Save("ShapePathCollectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

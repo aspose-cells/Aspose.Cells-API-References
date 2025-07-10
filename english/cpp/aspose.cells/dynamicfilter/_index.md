@@ -4,7 +4,7 @@ linktitle: DynamicFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DynamicFilter class. Represents the dynamic filter in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells/dynamicfilter/
 ---
 ## DynamicFilter class

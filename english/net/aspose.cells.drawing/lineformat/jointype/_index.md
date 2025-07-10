@@ -16,7 +16,6 @@ public LineJoinType JoinType { get; set; }
 ### Examples
 
 ```csharp
-using System;
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 

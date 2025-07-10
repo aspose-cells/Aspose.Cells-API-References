@@ -186,35 +186,45 @@ The formula will be calculated just like it has been set to the specified base c
 ### Examples
 
 ```csharp
-// Called: FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
-public void Worksheet_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells[0, 1].PutValue(1);
-    cells[0, 2].PutValue(2);
-    cells[1, 1].PutValue(4);
-    cells[1, 2].PutValue(8);
-    ArrayModeParamEngine ce = new ArrayModeParamEngine();
-    CalculationOptions copts = new CalculationOptions();
-    copts.CustomEngine = ce;
-    FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ValueMode");
-    ce._arrayMode = true;
-    FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ArrayMode");
+    public class WorksheetMethodCalculateFormulaWithStringFormulaParseOptCalculati169472Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate sample data
+            worksheet.Cells["B1"].PutValue(5);
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["C1"].PutValue(2);
+            worksheet.Cells["C2"].PutValue(4);
 
-    FormulaParseOptions popts = new FormulaParseOptions();
-    popts.CustomFunctionDefinition = new MyCustomFunctionDefinition();
-    ce._arrayMode = false;
-    ce._autoMode = true;
-    FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
-        popts, copts, 0, 0, null), "Parsed ArrayMode");
+            // Define calculation options
+            CalculationOptions calculationOptions = new CalculationOptions();
+            
+            // Define formula parse options
+            FormulaParseOptions formulaParseOptions = new FormulaParseOptions();
+            
+            // Calculate formula with all parameters
+            object result = worksheet.CalculateFormula(
+                "=SUM(B1:B2, C1:C2)",  // formula
+                formulaParseOptions,   // parse options
+                calculationOptions,    // calculation options
+                0,                     // base cell row
+                0,                     // base cell column
+                null                   // calculation data
+            );
 
-    Cell cell = cells[0, 0];
-    cell.Formula = "=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)";
-    wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
-    wb.CalculateFormula(copts);
-    FormulaCaseUtil.AssertInt(48, cell.Value, "Updated ArrayMode");
+            // Output the result
+            Console.WriteLine("Calculation result: " + result);
+        }
+    }
 }
 ```
 

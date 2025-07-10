@@ -4,7 +4,7 @@ linktitle: GetHasMacro
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetHasMacro method. Indicates if this spreadsheet contains macro/VBA in C++.'
 type: docs
-weight: 4400
+weight: 4500
 url: /cpp/aspose.cells/workbook/gethasmacro/
 ---
 ## Workbook::GetHasMacro method

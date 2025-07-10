@@ -17,17 +17,23 @@ class HtmlTableLoadOptionCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [tableToListObject](#tableToListObject--)| boolean | Indicates whether generate list objects from imported tables. The default value is false. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [HtmlTableLoadOption](../htmltableloadoption/) element at the specified index. |
-| [getTableToListObject()](#getTableToListObject--)| Indicates whether generate list objects from imported tables. The default value is false. |
-| [setTableToListObject(boolean)](#setTableToListObject-boolean-)| Indicates whether generate list objects from imported tables. The default value is false. |
+| [getTableToListObject()](#getTableToListObject--)| <b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported tables. The default value is false. |
+| [setTableToListObject(boolean)](#setTableToListObject-boolean-)| <b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported tables. The default value is false. |
 | [add(HtmlTableLoadOption)](#add-htmltableloadoption-)| Adds one HtmlTableLoadOption into this collection. |
 | [add(number)](#add-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(string)](#add-string-)| Add a HtmlTableLoadOption to the list. |
@@ -35,7 +41,7 @@ class HtmlTableLoadOptionCollection;
 | [add(string, number)](#add-string-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(number, number, number)](#add-number-number-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(string, number, number)](#add-string-number-number-)| Add a HtmlTableLoadOption to the list. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -45,6 +51,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### tableToListObject {#tableToListObject--}
+
+Indicates whether generate list objects from imported tables. The default value is false.
+
+```javascript
+tableToListObject : boolean;
 ```
 
 
@@ -67,7 +82,7 @@ The element at the specified index.
 
 ### getTableToListObject() {#getTableToListObject--}
 
-Indicates whether generate list objects from imported tables. The default value is false.
+<b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported tables. The default value is false.
 
 ```javascript
 getTableToListObject() : boolean;
@@ -76,7 +91,7 @@ getTableToListObject() : boolean;
 
 ### setTableToListObject(boolean) {#setTableToListObject-boolean-}
 
-Indicates whether generate list objects from imported tables. The default value is false.
+<b>@deprecated.</b> Please use the 'tableToListObject' property instead. Indicates whether generate list objects from imported tables. The default value is false.
 
 ```javascript
 setTableToListObject(value: boolean) : void;
@@ -190,7 +205,7 @@ add(tableId: string, targetSheetIndex: number, originalSheetIndex: number) : num
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

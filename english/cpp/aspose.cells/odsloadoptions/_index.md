@@ -4,7 +4,7 @@ linktitle: OdsLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OdsLoadOptions class. Represents the options of loading ods file in C++.'
 type: docs
-weight: 10600
+weight: 10900
 url: /cpp/aspose.cells/odsloadoptions/
 ---
 ## OdsLoadOptions class
@@ -41,7 +41,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](../loadoptions/getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [GetRefreshPivotTables()](./getrefreshpivottables/) | Indicates whether refresh pivot tables when loading file. |
-| [GetRegion()](../loadoptions/getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [GetRegion()](../loadoptions/getregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [GetWarningCallback()](../loadoptions/getwarningcallback/) | Gets or sets warning callback. |
 | [IsClassicPivotTable()](./isclassicpivottable/) | Indicates whether the pivot table is classic. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -79,7 +79,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [SetPassword(const char16_t* value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](../loadoptions/setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [SetRefreshPivotTables(bool value)](./setrefreshpivottables/) | Indicates whether refresh pivot tables when loading file. |
-| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [SetRegion(CountryCode value)](../loadoptions/setregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [SetWarningCallback(IWarningCallback* value)](../loadoptions/setwarningcallback/) | Gets or sets warning callback. |
 | [~LoadOptions()](../loadoptions/~loadoptions/) | Destructor. |
 | [~OdsLoadOptions()](./~odsloadoptions/) | Destructor. |

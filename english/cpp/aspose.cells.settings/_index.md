@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Settings
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Settings namespace in C++.'
 type: docs
-weight: 2100
+weight: 2600
 url: /cpp/aspose.cells.settings/
 ---
 

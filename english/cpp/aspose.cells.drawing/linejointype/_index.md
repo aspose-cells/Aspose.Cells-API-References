@@ -4,7 +4,7 @@ linktitle: LineJoinType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineJoinType enum. Represents the join styles of a line in C++.'
 type: docs
-weight: 9200
+weight: 9400
 url: /cpp/aspose.cells.drawing/linejointype/
 ---
 ## LineJoinType enum

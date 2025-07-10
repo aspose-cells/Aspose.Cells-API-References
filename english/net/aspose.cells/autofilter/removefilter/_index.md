@@ -52,7 +52,7 @@ namespace AsposeCellsExamples
             worksheet.Cells["C4"].PutValue(599.99);
 
             // Set auto filter range (headers + 3 data rows)
-            worksheet.AutoFilter.Range = "A1:C4";
+            worksheet.AutoFilter.SetRange(0, 0, 2);
 
             try
             {
@@ -61,7 +61,7 @@ namespace AsposeCellsExamples
                 // Apply filter on Category column (fieldIndex 1) for "Electronics"
                 autoFilter.AddFilter(1, "Electronics");
                 autoFilter.Refresh(); // Apply filter to hide non-matching rows
-
+                
                 // Remove the specific filter from Category column
                 autoFilter.RemoveFilter(1, "Electronics");
                 autoFilter.Refresh(); // Re-apply filter (now shows all rows)
@@ -74,7 +74,7 @@ namespace AsposeCellsExamples
             }
 
             // Save the modified workbook
-            workbook.Save("RemoveFilterDemo.xlsx");
+            workbook.Save("AutoFilterMethodRemoveFilterWithInt32StringDemo.xlsx");
         }
     }
 }

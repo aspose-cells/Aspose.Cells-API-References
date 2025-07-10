@@ -16,35 +16,32 @@ public bool ExportAsString { get; set; }
 ### Examples
 
 ```csharp
-// Called: exportOptions.ExportAsString = true;
-public void JsonSaveOptions_Property_ExportAsString()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    string str = File.ReadAllText(Constants.sourcePath + "example.json");
-    Cells cells = wb.Worksheets[0].Cells;
-    JsonLayoutOptions importOptions = new JsonLayoutOptions();
-    importOptions.ConvertNumericOrDate = true;
-    importOptions.ArrayAsTable = true;
-    JsonUtility.ImportData(str, cells, 0, 0, importOptions);
-    wb.Save(Constants.destPath + "example.csv");
-    Aspose.Cells.Range range = cells.MaxDisplayRange;
-    JsonSaveOptions exportOptions = new JsonSaveOptions();
-    exportOptions.ExportAsString = true;
+    public class JsonSaveOptionsPropertyExportAsStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
             
-    string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-    Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
-    TxtLoadOptions textLoadOptions = new TxtLoadOptions();
-    textLoadOptions.Separator = ',';
+            // Create sample data with numeric values
+            cells["A1"].PutValue("Age");
+            cells["B1"].PutValue("Score");
+            cells["A2"].PutValue(30);
+            cells["B2"].PutValue(95.5);
 
+            JsonSaveOptions exportOptions = new JsonSaveOptions();
+            exportOptions.ExportAsString = true;
 
-    wb = new Workbook(Constants.sourcePath + "example.csv", textLoadOptions);
-    cells = wb.Worksheets[0].Cells;
-    range = cells.MaxDisplayRange;
-    exportOptions = new JsonSaveOptions();
-    exportOptions.ExportAsString = true;
-
-    ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-    Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
+            string jsonOutput = JsonUtility.ExportRangeToJson(cells.CreateRange("A1:B2"), exportOptions);
+            Console.WriteLine("Exported JSON with ExportAsString=true:\n" + jsonOutput);
+        }
+    }
 }
 ```
 

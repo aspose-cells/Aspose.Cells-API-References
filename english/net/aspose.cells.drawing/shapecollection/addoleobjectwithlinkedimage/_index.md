@@ -44,7 +44,7 @@ namespace AsposeCellsExamples
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Path to the image file to be linked
-            string imagePath = "linked_image.png";
+            string imagePath = "example.jpg";
 
             try
             {

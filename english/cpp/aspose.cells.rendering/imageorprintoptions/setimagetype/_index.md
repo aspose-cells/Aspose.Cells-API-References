@@ -4,7 +4,7 @@ linktitle: SetImageType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetImageType method. Gets or sets the format of the generated images. default value: PNG in C++.'
 type: docs
-weight: 2300
+weight: 7200
 url: /cpp/aspose.cells.rendering/imageorprintoptions/setimagetype/
 ---
 ## ImageOrPrintOptions::SetImageType method

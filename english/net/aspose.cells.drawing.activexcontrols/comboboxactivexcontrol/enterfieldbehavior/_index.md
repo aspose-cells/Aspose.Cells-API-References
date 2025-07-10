@@ -16,40 +16,50 @@ public bool EnterFieldBehavior { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, control.EnterFieldBehavior);
-private void ComboBoxActiveXControl_Property_EnterFieldBehavior(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyEnterFieldBehaviorDemo
+    {
+        public static void Run()
         {
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ComboBox, control.Type);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(8, control.ListRows);
-            Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(true, control.IsEditable);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(false, control.IsDragBehaviorEnabled);
-            Assert.AreEqual(false, control.EnterFieldBehavior);
-            Assert.AreEqual(false, control.IsAutoWordSelected);
-            Assert.AreEqual(true, control.SelectionMargin);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(82.488188976378, control.Width);
-            //Assert.AreEqual(32.9952755905512, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add first ComboBox ActiveX Control
+            Shape shape1 = worksheet.Shapes.AddActiveXControl(
+                ControlType.ComboBox, 
+                1, 0, 1, 0, 100, 50
+            );
+            ComboBoxActiveXControl combo1 = (ComboBoxActiveXControl)shape1.ActiveXControl;
+            combo1.EnterFieldBehavior = false; // Default behavior (select all text on entry)
+            combo1.Value = "Select Option";
+            combo1.BorderStyle = ControlBorderType.Single;
+            
+            // Add second ComboBox ActiveX Control
+            Shape shape2 = worksheet.Shapes.AddActiveXControl(
+                ControlType.ComboBox, 
+                1, 0, 2, 0, 100, 50
+            );
+            ComboBoxActiveXControl combo2 = (ComboBoxActiveXControl)shape2.ActiveXControl;
+            combo2.EnterFieldBehavior = true; // Preserve previous selection
+            combo2.Value = "Edit Value";
+            combo2.BorderStyle = ControlBorderType.Single;
+            
+            // Save the workbook
+            workbook.Save("ComboBoxActiveXControlDemo.xlsm", SaveFormat.Xlsm);
+            
+            // Verify property settings
+            Console.WriteLine("Combo1 EnterFieldBehavior: " + combo1.EnterFieldBehavior);
+            Console.WriteLine("Combo2 EnterFieldBehavior: " + combo2.EnterFieldBehavior);
         }
+    }
+}
 ```
 
 ### See Also

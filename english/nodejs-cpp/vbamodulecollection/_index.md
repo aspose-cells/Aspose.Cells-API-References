@@ -28,7 +28,7 @@ class VbaModuleCollection;
 | [addUserForm(string, string, Uint8Array)](#addUserForm-string-string-uint8array-)| Inser user form into VBA Project. |
 | [remove(Worksheet)](#remove-worksheet-)| Removes module for a worksheet. |
 | [remove(string)](#remove-string-)| Remove the module by the name |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -167,7 +167,7 @@ remove(name: string) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

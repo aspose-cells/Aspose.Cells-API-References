@@ -26,57 +26,69 @@ license.setLicense("input/Aspose.Cells.lic");
 //Instantiate the workbook object
 var workbook = new Workbook();
 //Get cells collection
-var cells = workbook.getWorksheets().get(0).getCells();
+var cells = workbook.worksheets.get(0).cells;
 //Put values in cells
 cells.get("A1").putValue(1);
 cells.get("A2").putValue(2);
 cells.get("A3").putValue(3);
 
 //get charts colletion
-var charts = workbook.getWorksheets().get(0).getCharts();
+var charts = workbook.worksheets.get(0).charts;
 //add a new chart 
 var index = charts.add(ChartType.Column3DStacked, 5, 0, 15, 5);
 //get the newly added chart
 var chart = charts.get(index);
 //set charts nseries
-chart.getNSeries().add("A1:A3", true);
+chart.nSeries.add("A1:A3", true);
 //Show data labels
-chart.getNSeries().get(0).getDataLabels().setShowValue(true);
+chart.nSeries.get(0).dataLabels.showValue = true;
 
 //Get chart's floor
-var floor = chart.getFloor();
+var floor = chart.floor;
 //set floor's border as red
-floor.getBorder().setColor(new Color("red"));
+floor.border.color = new Color("red");
 //set fill format
-floor.getFillFormat().setPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
+floor.fillFormat.setPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
 //save the file
 workbook.save("output/ChartsFloor.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Area)](#constructor-area-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [border](#border--)| Line | Gets or sets the border [Line](../line/). |
+| [backgroundColor](#backgroundColor--)| Color | Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [foregroundColor](#foregroundColor--)| Color | Gets or sets the foreground [Color](../color/). |
+| [formatting](#formatting--)| FormattingType | Represents the formatting of the area. |
+| [invertIfNegative](#invertIfNegative--)| boolean | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [fillFormat](#fillFormat--)| FillFormat | Readonly. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBorder()](#getBorder--)| Gets or sets the border [Line](../line/). |
-| [setBorder(Line)](#setBorder-line-)| Gets or sets the border [Line](../line/). |
+| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/). |
+| [setBorder(Line)](#setBorder-line-)| <b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [Color](../color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [Color](../color/). |
-| [getFormatting()](#getFormatting--)| Represents the formatting of the area. |
-| [setFormatting(FormattingType)](#setFormatting-formattingtype-)| Represents the formatting of the area. |
-| [getInvertIfNegative()](#getInvertIfNegative--)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
-| [setInvertIfNegative(boolean)](#setInvertIfNegative-boolean-)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
-| [getFillFormat()](#getFillFormat--)| Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getBackgroundColor()](#getBackgroundColor--)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/). |
+| [getFormatting()](#getFormatting--)| <b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area. |
+| [setFormatting(FormattingType)](#setFormatting-formattingtype-)| <b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area. |
+| [getInvertIfNegative()](#getInvertIfNegative--)| <b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [setInvertIfNegative(boolean)](#setInvertIfNegative-boolean-)| <b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [getFillFormat()](#getFillFormat--)| <b>@deprecated.</b> Please use the 'fillFormat' property instead. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 
 
 ### constructor(Area) {#constructor-area-}
@@ -92,9 +104,72 @@ constructor(obj: Area);
 | --- | --- | --- |
 | obj | Area | The parent object. |
 
-### getBorder() {#getBorder--}
+### border {#border--}
 
 Gets or sets the border [Line](../line/).
+
+```javascript
+border : Line;
+```
+
+
+### backgroundColor {#backgroundColor--}
+
+Gets or sets the background [Color](../color/) of the [Area](../area/).
+
+```javascript
+backgroundColor : Color;
+```
+
+
+### foregroundColor {#foregroundColor--}
+
+Gets or sets the foreground [Color](../color/).
+
+```javascript
+foregroundColor : Color;
+```
+
+
+### formatting {#formatting--}
+
+Represents the formatting of the area.
+
+```javascript
+formatting : FormattingType;
+```
+
+
+### invertIfNegative {#invertIfNegative--}
+
+If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+
+```javascript
+invertIfNegative : boolean;
+```
+
+
+### fillFormat {#fillFormat--}
+
+Readonly. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
+
+```javascript
+fillFormat : FillFormat;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
+
+
+### getBorder() {#getBorder--}
+
+<b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/).
 
 ```javascript
 getBorder() : Line;
@@ -107,7 +182,7 @@ getBorder() : Line;
 
 ### setBorder(Line) {#setBorder-line-}
 
-Gets or sets the border [Line](../line/).
+<b>@deprecated.</b> Please use the 'border' property instead. Gets or sets the border [Line](../line/).
 
 ```javascript
 setBorder(value: Line) : void;
@@ -129,7 +204,7 @@ isNull() : boolean;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -142,7 +217,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [Color](../color/) of the [Area](../area/).
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -155,7 +230,7 @@ setBackgroundColor(value: Color) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -168,7 +243,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [Color](../color/).
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Gets or sets the foreground [Color](../color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -181,7 +256,7 @@ setForegroundColor(value: Color) : void;
 
 ### getFormatting() {#getFormatting--}
 
-Represents the formatting of the area.
+<b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area.
 
 ```javascript
 getFormatting() : FormattingType;
@@ -194,7 +269,7 @@ getFormatting() : FormattingType;
 
 ### setFormatting(FormattingType) {#setFormatting-formattingtype-}
 
-Represents the formatting of the area.
+<b>@deprecated.</b> Please use the 'formatting' property instead. Represents the formatting of the area.
 
 ```javascript
 setFormatting(value: FormattingType) : void;
@@ -207,7 +282,7 @@ setFormatting(value: FormattingType) : void;
 
 ### getInvertIfNegative() {#getInvertIfNegative--}
 
-If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+<b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
 
 ```javascript
 getInvertIfNegative() : boolean;
@@ -216,7 +291,7 @@ getInvertIfNegative() : boolean;
 
 ### setInvertIfNegative(boolean) {#setInvertIfNegative-boolean-}
 
-If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+<b>@deprecated.</b> Please use the 'invertIfNegative' property instead. If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
 
 ```javascript
 setInvertIfNegative(value: boolean) : void;
@@ -229,7 +304,7 @@ setInvertIfNegative(value: boolean) : void;
 
 ### getFillFormat() {#getFillFormat--}
 
-Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
+<b>@deprecated.</b> Please use the 'fillFormat' property instead. Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.
 
 ```javascript
 getFillFormat() : FillFormat;
@@ -242,7 +317,7 @@ getFillFormat() : FillFormat;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -251,7 +326,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;

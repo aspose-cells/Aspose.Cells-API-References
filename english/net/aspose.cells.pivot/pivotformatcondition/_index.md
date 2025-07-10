@@ -8,7 +8,7 @@ url: /net/aspose.cells.pivot/pivotformatcondition/
 ## PivotFormatCondition class
 
 ```csharp
-[Obsolete("Use PivotConditional class instead.")]
+[Obsolete("Use PivotConditionalFormat class instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public class PivotFormatCondition
 ```

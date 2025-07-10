@@ -4,7 +4,7 @@ linktitle: Refresh
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFilter::Refresh method. Refresh auto filters to hide or unhide the rows in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells/autofilter/refresh/
 ---
 ## AutoFilter::Refresh() method

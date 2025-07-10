@@ -16,30 +16,30 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, control.IsWordWrapped);
-private void CommandButtonActiveXControl_Property_IsWordWrapped(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class CommandButtonActiveXControlPropertyIsWordWrappedDemo
+    {
+        public static void Run()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 0, 0, 2, 2, 150, 30);
+            CommandButtonActiveXControl button = (CommandButtonActiveXControl)shape.ActiveXControl;
+
+            button.Caption = "Click to demonstrate word wrapping in caption";
+            button.IsWordWrapped = true;
+
+            workbook.Save("CommandButtonIsWordWrappedDemo.xlsm");
         }
+    }
+}
 ```
 
 ### See Also

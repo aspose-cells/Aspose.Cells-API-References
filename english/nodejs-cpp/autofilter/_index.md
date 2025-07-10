@@ -22,26 +22,35 @@ const { Workbook } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook("input/AutoFilter.xlsx");
 //Accessing the first worksheet in the Excel file
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Creating AutoFilter by giving the cells range of the heading row
-worksheet.getAutoFilter().setRange("A1:C1");
+worksheet.autoFilter.range = "A1:C1";
 //Filtering columns with specified values
-worksheet.getAutoFilter().filter(2, "present");
+worksheet.autoFilter.filter(2, "present");
 // Refreshing auto filters to hide or unhide the rows.
-worksheet.getAutoFilter().refresh();
+worksheet.autoFilter.refresh();
 //Saving the modified Excel file.
 workbook.save("output/AutoFilter.xlsx");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [sorter](#sorter--)| DataSorter | Readonly. Gets the data sorter. |
+| [range](#range--)| string | Represents the range to which the specified AutoFilter applies. |
+| [showFilterButton](#showFilterButton--)| boolean | Indicates whether the AutoFilter button for this column is visible. |
+| [filterColumns](#filterColumns--)| FilterColumnCollection | Readonly. Gets the collection of the filter columns. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSorter()](#getSorter--)| Gets the data sorter. |
-| [getRange()](#getRange--)| Represents the range to which the specified AutoFilter applies. |
-| [setRange(string)](#setRange-string-)| Represents the range to which the specified AutoFilter applies. |
-| [getShowFilterButton()](#getShowFilterButton--)| Indicates whether the AutoFilter button for this column is visible. |
-| [setShowFilterButton(boolean)](#setShowFilterButton-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
-| [getFilterColumns()](#getFilterColumns--)| Gets the collection of the filter columns. |
+| [getSorter()](#getSorter--)| <b>@deprecated.</b> Please use the 'sorter' property instead. Gets the data sorter. |
+| [getRange()](#getRange--)| <b>@deprecated.</b> Please use the 'range' property instead. Represents the range to which the specified AutoFilter applies. |
+| [setRange(string)](#setRange-string-)| <b>@deprecated.</b> Please use the 'range' property instead. Represents the range to which the specified AutoFilter applies. |
+| [getShowFilterButton()](#getShowFilterButton--)| <b>@deprecated.</b> Please use the 'showFilterButton' property instead. Indicates whether the AutoFilter button for this column is visible. |
+| [setShowFilterButton(boolean)](#setShowFilterButton-boolean-)| <b>@deprecated.</b> Please use the 'showFilterButton' property instead. Indicates whether the AutoFilter button for this column is visible. |
+| [getFilterColumns()](#getFilterColumns--)| <b>@deprecated.</b> Please use the 'filterColumns' property instead. Gets the collection of the filter columns. |
 | [setRange(number, number, number)](#setRange-number-number-number-)| Sets the range to which the specified AutoFilter applies. |
 | [getCellArea()](#getCellArea--)| Gets the [CellArea](../cellarea/) where the this AutoFilter applies to. |
 | [getCellArea(boolean)](#getCellArea-boolean-)| Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to. |
@@ -66,9 +75,45 @@ workbook.save("output/AutoFilter.xlsx");
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### sorter {#sorter--}
+
+Readonly. Gets the data sorter.
+
+```javascript
+sorter : DataSorter;
+```
+
+
+### range {#range--}
+
+Represents the range to which the specified AutoFilter applies.
+
+```javascript
+range : string;
+```
+
+
+### showFilterButton {#showFilterButton--}
+
+Indicates whether the AutoFilter button for this column is visible.
+
+```javascript
+showFilterButton : boolean;
+```
+
+
+### filterColumns {#filterColumns--}
+
+Readonly. Gets the collection of the filter columns.
+
+```javascript
+filterColumns : FilterColumnCollection;
+```
+
+
 ### getSorter() {#getSorter--}
 
-Gets the data sorter.
+<b>@deprecated.</b> Please use the 'sorter' property instead. Gets the data sorter.
 
 ```javascript
 getSorter() : DataSorter;
@@ -81,7 +126,7 @@ getSorter() : DataSorter;
 
 ### getRange() {#getRange--}
 
-Represents the range to which the specified AutoFilter applies.
+<b>@deprecated.</b> Please use the 'range' property instead. Represents the range to which the specified AutoFilter applies.
 
 ```javascript
 getRange() : string;
@@ -90,7 +135,7 @@ getRange() : string;
 
 ### setRange(string) {#setRange-string-}
 
-Represents the range to which the specified AutoFilter applies.
+<b>@deprecated.</b> Please use the 'range' property instead. Represents the range to which the specified AutoFilter applies.
 
 ```javascript
 setRange(value: string) : void;
@@ -103,7 +148,7 @@ setRange(value: string) : void;
 
 ### getShowFilterButton() {#getShowFilterButton--}
 
-Indicates whether the AutoFilter button for this column is visible.
+<b>@deprecated.</b> Please use the 'showFilterButton' property instead. Indicates whether the AutoFilter button for this column is visible.
 
 ```javascript
 getShowFilterButton() : boolean;
@@ -112,7 +157,7 @@ getShowFilterButton() : boolean;
 
 ### setShowFilterButton(boolean) {#setShowFilterButton-boolean-}
 
-Indicates whether the AutoFilter button for this column is visible.
+<b>@deprecated.</b> Please use the 'showFilterButton' property instead. Indicates whether the AutoFilter button for this column is visible.
 
 ```javascript
 setShowFilterButton(value: boolean) : void;
@@ -125,7 +170,7 @@ setShowFilterButton(value: boolean) : void;
 
 ### getFilterColumns() {#getFilterColumns--}
 
-Gets the collection of the filter columns.
+<b>@deprecated.</b> Please use the 'filterColumns' property instead. Gets the collection of the filter columns.
 
 ```javascript
 getFilterColumns() : FilterColumnCollection;

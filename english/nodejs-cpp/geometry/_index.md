@@ -15,17 +15,32 @@ class Geometry;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [shapeAdjustValues](#shapeAdjustValues--)| ShapeGuideCollection | Readonly. Gets a collection of shape adjust value |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getShapeAdjustValues()](#getShapeAdjustValues--)| Gets a collection of shape adjust value |
+| [getShapeAdjustValues()](#getShapeAdjustValues--)| <b>@deprecated.</b> Please use the 'shapeAdjustValues' property instead. Gets a collection of shape adjust value |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### shapeAdjustValues {#shapeAdjustValues--}
+
+Readonly. Gets a collection of shape adjust value
+
+```javascript
+shapeAdjustValues : ShapeGuideCollection;
+```
 
 
 ### getShapeAdjustValues() {#getShapeAdjustValues--}
 
-Gets a collection of shape adjust value
+<b>@deprecated.</b> Please use the 'shapeAdjustValues' property instead. Gets a collection of shape adjust value
 
 ```javascript
 getShapeAdjustValues() : ShapeGuideCollection;

@@ -4,7 +4,7 @@ linktitle: RemoveSplit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::RemoveSplit method. Removes split window in C++.'
 type: docs
-weight: 3800
+weight: 3700
 url: /cpp/aspose.cells/worksheet/removesplit/
 ---
 ## Worksheet::RemoveSplit method

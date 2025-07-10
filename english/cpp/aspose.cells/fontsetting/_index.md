@@ -4,7 +4,7 @@ linktitle: FontSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontSetting class. Represents a range of characters within the cell text in C++.'
 type: docs
-weight: 6700
+weight: 7000
 url: /cpp/aspose.cells/fontsetting/
 ---
 ## FontSetting class

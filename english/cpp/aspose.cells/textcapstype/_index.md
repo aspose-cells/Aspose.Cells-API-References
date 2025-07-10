@@ -4,7 +4,7 @@ linktitle: TextCapsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextCapsType enum. This type specifies the cap types of the text in C++.'
 type: docs
-weight: 25600
+weight: 26800
 url: /cpp/aspose.cells/textcapstype/
 ---
 ## TextCapsType enum

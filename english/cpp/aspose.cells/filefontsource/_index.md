@@ -4,7 +4,7 @@ linktitle: FileFontSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFontSource class. Represents the single TrueType font file stored in the file system in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells/filefontsource/
 ---
 ## FileFontSource class

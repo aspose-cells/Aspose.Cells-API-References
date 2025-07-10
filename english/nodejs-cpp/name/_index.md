@@ -22,36 +22,48 @@ const { Workbook } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Accessing the first worksheet in the Excel file
-var worksheet = workbook.getWorksheets().get(0);
+var worksheet = workbook.worksheets.get(0);
 //Creating a named range
-var range = worksheet.getCells().createRange("B4", "G14");
+var range = worksheet.cells.createRange("B4", "G14");
 //Setting the name of the named range
 range.setName("TestRange");
 //Saving the modified Excel file in default (that is Excel 2000) format
 workbook.save("output/Name.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [comment](#comment--)| string | Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
+| [text](#text--)| string | Gets the name text of the object. |
+| [fullText](#fullText--)| string | Readonly. Gets the name  full text of the object with the scope setting. |
+| [refersTo](#refersTo--)| string | Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [r1C1RefersTo](#r1C1RefersTo--)| string | Gets or sets a R1C1 reference of the [Name](../name/). |
+| [isReferred](#isReferred--)| boolean | Readonly. Indicates whether this name is referred by other formulas. |
+| [isVisible](#isVisible--)| boolean | Indicates whether the name is visible. |
+| [sheetIndex](#sheetIndex--)| number | Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getComment()](#getComment--)| Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
-| [setComment(string)](#setComment-string-)| Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
-| [getText()](#getText--)| Gets the name text of the object. |
-| [setText(string)](#setText-string-)| Gets the name text of the object. |
-| [getFullText()](#getFullText--)| Gets the name  full text of the object with the scope setting. |
-| [getRefersTo()](#getRefersTo--)| Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
-| [setRefersTo(string)](#setRefersTo-string-)| Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
-| [getR1C1RefersTo()](#getR1C1RefersTo--)| Gets or sets a R1C1 reference of the [Name](../name/). |
-| [setR1C1RefersTo(string)](#setR1C1RefersTo-string-)| Gets or sets a R1C1 reference of the [Name](../name/). |
-| [isReferred()](#isReferred--)| Indicates whether this name is referred by other formulas. |
-| [isVisible()](#isVisible--)| Indicates whether the name is visible. |
-| [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether the name is visible. |
-| [getSheetIndex()](#getSheetIndex--)| Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
-| [setSheetIndex(number)](#setSheetIndex-number-)| Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+| [getComment()](#getComment--)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
+| [setComment(string)](#setComment-string-)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
+| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets the name text of the object. |
+| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets the name text of the object. |
+| [getFullText()](#getFullText--)| <b>@deprecated.</b> Please use the 'fullText' property instead. Gets the name  full text of the object with the scope setting. |
+| [getRefersTo()](#getRefersTo--)| <b>@deprecated.</b> Please use the 'refersTo' property instead. Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [setRefersTo(string)](#setRefersTo-string-)| <b>@deprecated.</b> Please use the 'refersTo' property instead. Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [getR1C1RefersTo()](#getR1C1RefersTo--)| <b>@deprecated.</b> Please use the 'r1C1RefersTo' property instead. Gets or sets a R1C1 reference of the [Name](../name/). |
+| [setR1C1RefersTo(string)](#setR1C1RefersTo-string-)| <b>@deprecated.</b> Please use the 'r1C1RefersTo' property instead. Gets or sets a R1C1 reference of the [Name](../name/). |
+| [isReferred()](#isReferred--)| <b>@deprecated.</b> Please use the 'isReferred' property instead. Indicates whether this name is referred by other formulas. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether the name is visible. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether the name is visible. |
+| [getSheetIndex()](#getSheetIndex--)| <b>@deprecated.</b> Please use the 'sheetIndex' property instead. Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+| [setSheetIndex(number)](#setSheetIndex-number-)| <b>@deprecated.</b> Please use the 'sheetIndex' property instead. Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
 | [getRefersTo(boolean, boolean)](#getRefersTo-boolean-boolean-)| Get the reference of this Name. |
 | [getRefersTo(boolean, boolean, number, number)](#getRefersTo-boolean-boolean-number-number-)| Get the reference of this Name based on specified cell. |
 | [setRefersTo(string, boolean, boolean)](#setRefersTo-string-boolean-boolean-)| Set the reference of this Name. |
-| [toString()](#toString--)| Returns a string represents the current Range object. |
 | [getRanges()](#getRanges--)| Gets all ranges referred by this name. |
 | [getRanges(boolean)](#getRanges-boolean-)| Gets all ranges referred by this name. |
 | [getReferredAreas(boolean)](#getReferredAreas-boolean-)| Gets all references referred by this name. |
@@ -59,11 +71,84 @@ workbook.save("output/Name.xls");
 | [getRange(boolean)](#getRange-boolean-)| Gets the range if this name refers to a range |
 | [getRange(number, number, number)](#getRange-number-number-number-)| Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Range object. |
+
+
+### comment {#comment--}
+
+Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions.
+
+```javascript
+comment : string;
+```
+
+
+### text {#text--}
+
+Gets the name text of the object.
+
+```javascript
+text : string;
+```
+
+
+### fullText {#fullText--}
+
+Readonly. Gets the name  full text of the object with the scope setting.
+
+```javascript
+fullText : string;
+```
+
+
+### refersTo {#refersTo--}
+
+Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
+
+```javascript
+refersTo : string;
+```
+
+
+### r1C1RefersTo {#r1C1RefersTo--}
+
+Gets or sets a R1C1 reference of the [Name](../name/).
+
+```javascript
+r1C1RefersTo : string;
+```
+
+
+### isReferred {#isReferred--}
+
+Readonly. Indicates whether this name is referred by other formulas.
+
+```javascript
+isReferred : boolean;
+```
+
+
+### isVisible {#isVisible--}
+
+Indicates whether the name is visible.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### sheetIndex {#sheetIndex--}
+
+Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
+
+```javascript
+sheetIndex : number;
+```
 
 
 ### getComment() {#getComment--}
 
-Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions.
+<b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions.
 
 ```javascript
 getComment() : string;
@@ -72,7 +157,7 @@ getComment() : string;
 
 ### setComment(string) {#setComment-string-}
 
-Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions.
+<b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions.
 
 ```javascript
 setComment(value: string) : void;
@@ -85,7 +170,7 @@ setComment(value: string) : void;
 
 ### getText() {#getText--}
 
-Gets the name text of the object.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets the name text of the object.
 
 ```javascript
 getText() : string;
@@ -94,7 +179,7 @@ getText() : string;
 
 ### setText(string) {#setText-string-}
 
-Gets the name text of the object.
+<b>@deprecated.</b> Please use the 'text' property instead. Gets the name text of the object.
 
 ```javascript
 setText(value: string) : void;
@@ -107,7 +192,7 @@ setText(value: string) : void;
 
 ### getFullText() {#getFullText--}
 
-Gets the name  full text of the object with the scope setting.
+<b>@deprecated.</b> Please use the 'fullText' property instead. Gets the name  full text of the object with the scope setting.
 
 ```javascript
 getFullText() : string;
@@ -116,7 +201,7 @@ getFullText() : string;
 
 ### getRefersTo() {#getRefersTo--}
 
-Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
+<b>@deprecated.</b> Please use the 'refersTo' property instead. Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
 
 ```javascript
 getRefersTo() : string;
@@ -125,7 +210,7 @@ getRefersTo() : string;
 
 ### setRefersTo(string) {#setRefersTo-string-}
 
-Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
+<b>@deprecated.</b> Please use the 'refersTo' property instead. Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
 
 ```javascript
 setRefersTo(value: string) : void;
@@ -138,7 +223,7 @@ setRefersTo(value: string) : void;
 
 ### getR1C1RefersTo() {#getR1C1RefersTo--}
 
-Gets or sets a R1C1 reference of the [Name](../name/).
+<b>@deprecated.</b> Please use the 'r1C1RefersTo' property instead. Gets or sets a R1C1 reference of the [Name](../name/).
 
 ```javascript
 getR1C1RefersTo() : string;
@@ -147,7 +232,7 @@ getR1C1RefersTo() : string;
 
 ### setR1C1RefersTo(string) {#setR1C1RefersTo-string-}
 
-Gets or sets a R1C1 reference of the [Name](../name/).
+<b>@deprecated.</b> Please use the 'r1C1RefersTo' property instead. Gets or sets a R1C1 reference of the [Name](../name/).
 
 ```javascript
 setR1C1RefersTo(value: string) : void;
@@ -160,7 +245,7 @@ setR1C1RefersTo(value: string) : void;
 
 ### isReferred() {#isReferred--}
 
-Indicates whether this name is referred by other formulas.
+<b>@deprecated.</b> Please use the 'isReferred' property instead. Indicates whether this name is referred by other formulas.
 
 ```javascript
 isReferred() : boolean;
@@ -169,7 +254,7 @@ isReferred() : boolean;
 
 ### isVisible() {#isVisible--}
 
-Indicates whether the name is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether the name is visible.
 
 ```javascript
 isVisible() : boolean;
@@ -178,7 +263,7 @@ isVisible() : boolean;
 
 ### setIsVisible(boolean) {#setIsVisible-boolean-}
 
-Indicates whether the name is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Indicates whether the name is visible.
 
 ```javascript
 setIsVisible(value: boolean) : void;
@@ -191,7 +276,7 @@ setIsVisible(value: boolean) : void;
 
 ### getSheetIndex() {#getSheetIndex--}
 
-Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
+<b>@deprecated.</b> Please use the 'sheetIndex' property instead. Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
 
 ```javascript
 getSheetIndex() : number;
@@ -200,7 +285,7 @@ getSheetIndex() : number;
 
 ### setSheetIndex(number) {#setSheetIndex-number-}
 
-Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
+<b>@deprecated.</b> Please use the 'sheetIndex' property instead. Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
 
 ```javascript
 setSheetIndex(value: number) : void;
@@ -255,15 +340,6 @@ setRefersTo(refersTo: string, isR1C1: boolean, isLocal: boolean) : void;
 | refersTo | string | The reference. |
 | isR1C1 | boolean | Whether the reference is R1C1 format. |
 | isLocal | boolean | Whether the reference is locale formatted. |
-
-### toString() {#toString--}
-
-Returns a string represents the current Range object.
-
-```javascript
-toString() : string;
-```
-
 
 ### getRanges() {#getRanges--}
 
@@ -367,6 +443,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### toString() {#toString--}
+
+Returns a string represents the current Range object.
+
+```javascript
+toString() : string;
 ```
 
 

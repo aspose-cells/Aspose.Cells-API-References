@@ -4,7 +4,7 @@ linktitle: SetFormulaLocal
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetFormulaLocal method. Get the locale formatted formula of the cell in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells/cell/setformulalocal/
 ---
 ## Cell::SetFormulaLocal(const U16String\&) method

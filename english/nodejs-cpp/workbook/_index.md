@@ -26,8 +26,8 @@ const { Workbook, XlsSaveOptions } = require("aspose.cells.node");
 var workbook = new Workbook("input/Book1.xls");
 
 //Set scroll bars
-workbook.getSettings().setIsHScrollBarVisible(false);
-workbook.getSettings().setIsVScrollBarVisible(false);
+workbook.settings.isHScrollBarVisible = false;
+workbook.settings.isVScrollBarVisible = false;
 
 //Replace the placeholder string with new values
 workbook.replace("OldInt", 100);
@@ -39,7 +39,7 @@ workbook.save("output/result.xls", saveOptions);
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | [constructor(FileFormatType)](#constructor-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
@@ -48,42 +48,73 @@ workbook.save("output/result.xls", saveOptions);
 | [constructor(string, LoadOptions)](#constructor-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | [constructor(Uint8Array, LoadOptions)](#constructor-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [settings](#settings--)| WorkbookSettings | Readonly. Represents the workbook settings. |
+| [worksheets](#worksheets--)| WorksheetCollection | Readonly. Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet. |
+| [isLicensed](#isLicensed--)| boolean | Readonly. Indicates whether license is set. |
+| [colors](#colors--)| Color[] | Readonly. Returns colors in the palette for the spreadsheet. |
+| [countOfStylesInPool](#countOfStylesInPool--)| number | Readonly. Gets number of the styles in the style pool. |
+| [defaultStyle](#defaultStyle--)| Style | Gets or sets the default [Style](../style/) object of the workbook. |
+| [isDigitallySigned](#isDigitallySigned--)| boolean | Readonly. Indicates if this spreadsheet is digitally signed. |
+| [isWorkbookProtectedWithPassword](#isWorkbookProtectedWithPassword--)| boolean | Readonly. Indicates whether structure or window is protected with password. |
+| [vbaProject](#vbaProject--)| VbaProject | Readonly. Gets the [VbaProject](../vbaproject/) in a spreadsheet. |
+| [hasMacro](#hasMacro--)| boolean | Readonly. Indicates if this spreadsheet contains macro/VBA. |
+| [hasRevisions](#hasRevisions--)| boolean | Readonly. Gets if the workbook has any tracked changes |
+| [fileName](#fileName--)| string | Gets and sets the current file name. |
+| [dataSorter](#dataSorter--)| DataSorter | Readonly. Gets a DataSorter object to sort data. |
+| [theme](#theme--)| string | Readonly. Gets the theme name. |
+| [builtInDocumentProperties](#builtInDocumentProperties--)| BuiltInDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
+| [customDocumentProperties](#customDocumentProperties--)| CustomDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [fileFormat](#fileFormat--)| FileFormatType | Gets and sets the file format. |
+| [hasCustomFunction](#hasCustomFunction--)| boolean | Readonly. Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
+| [interruptMonitor](#interruptMonitor--)| AbstractInterruptMonitor | Gets and sets the interrupt monitor. |
+| [contentTypeProperties](#contentTypeProperties--)| ContentTypePropertyCollection | Readonly. Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
+| [customXmlParts](#customXmlParts--)| CustomXmlPartCollection | Readonly. Represents a Custom XML Data Storage Part (custom XML data within a package). |
+| [dataMashup](#dataMashup--)| DataMashup | Readonly. Gets mashup data. |
+| [ribbonXml](#ribbonXml--)| string | Gets and sets the XML file that defines the Ribbon UI. |
+| [absolutePath](#absolutePath--)| string | Gets and sets the absolute path of the file. |
+| [dataConnections](#dataConnections--)| ExternalConnectionCollection | Readonly. Gets the [ExternalConnection](../externalconnection/) collection. |
+| [dataModel](#dataModel--)| DataModel | Readonly. Gets data model in the workbook. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSettings()](#getSettings--)| Represents the workbook settings. |
-| [getWorksheets()](#getWorksheets--)| Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet. |
-| [isLicensed()](#isLicensed--)| Indicates whether license is set. |
-| [getColors()](#getColors--)| Returns colors in the palette for the spreadsheet. |
-| [getCountOfStylesInPool()](#getCountOfStylesInPool--)| Gets number of the styles in the style pool. |
-| [getDefaultStyle()](#getDefaultStyle--)| Gets or sets the default [Style](../style/) object of the workbook. |
-| [setDefaultStyle(Style)](#setDefaultStyle-style-)| Gets or sets the default [Style](../style/) object of the workbook. |
-| [isDigitallySigned()](#isDigitallySigned--)| Indicates if this spreadsheet is digitally signed. |
-| [isWorkbookProtectedWithPassword()](#isWorkbookProtectedWithPassword--)| Indicates whether structure or window is protected with password. |
-| [getVbaProject()](#getVbaProject--)| Gets the [VbaProject](../vbaproject/) in a spreadsheet. |
-| [getHasMacro()](#getHasMacro--)| Indicates if this spreadsheet contains macro/VBA. |
-| [getHasRevisions()](#getHasRevisions--)| Gets if the workbook has any tracked changes |
-| [getFileName()](#getFileName--)| Gets and sets the current file name. |
-| [setFileName(string)](#setFileName-string-)| Gets and sets the current file name. |
-| [getDataSorter()](#getDataSorter--)| Gets a DataSorter object to sort data. |
-| [getTheme()](#getTheme--)| Gets the theme name. |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
-| [getFileFormat()](#getFileFormat--)| Gets and sets the file format. |
-| [setFileFormat(FileFormatType)](#setFileFormat-fileformattype-)| Gets and sets the file format. |
-| [getHasCustomFunction()](#getHasCustomFunction--)| Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
-| [getInterruptMonitor()](#getInterruptMonitor--)| Gets and sets the interrupt monitor. |
-| [setInterruptMonitor(AbstractInterruptMonitor)](#setInterruptMonitor-abstractinterruptmonitor-)| Gets and sets the interrupt monitor. |
-| [getContentTypeProperties()](#getContentTypeProperties--)| Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
-| [getCustomXmlParts()](#getCustomXmlParts--)| Represents a Custom XML Data Storage Part (custom XML data within a package). |
-| [getDataMashup()](#getDataMashup--)| Gets mashup data. |
-| [getRibbonXml()](#getRibbonXml--)| Gets and sets the XML file that defines the Ribbon UI. |
-| [setRibbonXml(string)](#setRibbonXml-string-)| Gets and sets the XML file that defines the Ribbon UI. |
-| [getAbsolutePath()](#getAbsolutePath--)| Gets and sets the absolute path of the file. |
-| [setAbsolutePath(string)](#setAbsolutePath-string-)| Gets and sets the absolute path of the file. |
-| [getDataConnections()](#getDataConnections--)| Gets the [ExternalConnection](../externalconnection/) collection. |
-| [getDataModel()](#getDataModel--)| Gets data model in the workbook. |
+| [getSettings()](#getSettings--)| <b>@deprecated.</b> Please use the 'settings' property instead. Represents the workbook settings. |
+| [getWorksheets()](#getWorksheets--)| <b>@deprecated.</b> Please use the 'worksheets' property instead. Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet. |
+| [isLicensed()](#isLicensed--)| <b>@deprecated.</b> Please use the 'isLicensed' property instead. Indicates whether license is set. |
+| [getColors()](#getColors--)| <b>@deprecated.</b> Please use the 'colors' property instead. Returns colors in the palette for the spreadsheet. |
+| [getCountOfStylesInPool()](#getCountOfStylesInPool--)| <b>@deprecated.</b> Please use the 'countOfStylesInPool' property instead. Gets number of the styles in the style pool. |
+| [getDefaultStyle()](#getDefaultStyle--)| <b>@deprecated.</b> Please use the 'defaultStyle' property instead. Gets or sets the default [Style](../style/) object of the workbook. |
+| [setDefaultStyle(Style)](#setDefaultStyle-style-)| <b>@deprecated.</b> Please use the 'defaultStyle' property instead. Gets or sets the default [Style](../style/) object of the workbook. |
+| [isDigitallySigned()](#isDigitallySigned--)| <b>@deprecated.</b> Please use the 'isDigitallySigned' property instead. Indicates if this spreadsheet is digitally signed. |
+| [isWorkbookProtectedWithPassword()](#isWorkbookProtectedWithPassword--)| <b>@deprecated.</b> Please use the 'isWorkbookProtectedWithPassword' property instead. Indicates whether structure or window is protected with password. |
+| [getVbaProject()](#getVbaProject--)| <b>@deprecated.</b> Please use the 'vbaProject' property instead. Gets the [VbaProject](../vbaproject/) in a spreadsheet. |
+| [getHasMacro()](#getHasMacro--)| <b>@deprecated.</b> Please use the 'hasMacro' property instead. Indicates if this spreadsheet contains macro/VBA. |
+| [getHasRevisions()](#getHasRevisions--)| <b>@deprecated.</b> Please use the 'hasRevisions' property instead. Gets if the workbook has any tracked changes |
+| [getFileName()](#getFileName--)| <b>@deprecated.</b> Please use the 'fileName' property instead. Gets and sets the current file name. |
+| [setFileName(string)](#setFileName-string-)| <b>@deprecated.</b> Please use the 'fileName' property instead. Gets and sets the current file name. |
+| [getDataSorter()](#getDataSorter--)| <b>@deprecated.</b> Please use the 'dataSorter' property instead. Gets a DataSorter object to sort data. |
+| [getTheme()](#getTheme--)| <b>@deprecated.</b> Please use the 'theme' property instead. Gets the theme name. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| <b>@deprecated.</b> Please use the 'builtInDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| <b>@deprecated.</b> Please use the 'customDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getFileFormat()](#getFileFormat--)| <b>@deprecated.</b> Please use the 'fileFormat' property instead. Gets and sets the file format. |
+| [setFileFormat(FileFormatType)](#setFileFormat-fileformattype-)| <b>@deprecated.</b> Please use the 'fileFormat' property instead. Gets and sets the file format. |
+| [getHasCustomFunction()](#getHasCustomFunction--)| <b>@deprecated.</b> Please use the 'hasCustomFunction' property instead. Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
+| [getInterruptMonitor()](#getInterruptMonitor--)| <b>@deprecated.</b> Please use the 'interruptMonitor' property instead. Gets and sets the interrupt monitor. |
+| [setInterruptMonitor(AbstractInterruptMonitor)](#setInterruptMonitor-abstractinterruptmonitor-)| <b>@deprecated.</b> Please use the 'interruptMonitor' property instead. Gets and sets the interrupt monitor. |
+| [getContentTypeProperties()](#getContentTypeProperties--)| <b>@deprecated.</b> Please use the 'contentTypeProperties' property instead. Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
+| [getCustomXmlParts()](#getCustomXmlParts--)| <b>@deprecated.</b> Please use the 'customXmlParts' property instead. Represents a Custom XML Data Storage Part (custom XML data within a package). |
+| [getDataMashup()](#getDataMashup--)| <b>@deprecated.</b> Please use the 'dataMashup' property instead. Gets mashup data. |
+| [getRibbonXml()](#getRibbonXml--)| <b>@deprecated.</b> Please use the 'ribbonXml' property instead. Gets and sets the XML file that defines the Ribbon UI. |
+| [setRibbonXml(string)](#setRibbonXml-string-)| <b>@deprecated.</b> Please use the 'ribbonXml' property instead. Gets and sets the XML file that defines the Ribbon UI. |
+| [getAbsolutePath()](#getAbsolutePath--)| <b>@deprecated.</b> Please use the 'absolutePath' property instead. Gets and sets the absolute path of the file. |
+| [setAbsolutePath(string)](#setAbsolutePath-string-)| <b>@deprecated.</b> Please use the 'absolutePath' property instead. Gets and sets the absolute path of the file. |
+| [getDataConnections()](#getDataConnections--)| <b>@deprecated.</b> Please use the 'dataConnections' property instead. Gets the [ExternalConnection](../externalconnection/) collection. |
+| [getDataModel()](#getDataModel--)| <b>@deprecated.</b> Please use the 'dataModel' property instead. Gets data model in the workbook. |
 | [parseFormulas(boolean)](#parseFormulas-boolean-)| Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access data. |
 | [closeAccessCache(AccessCacheOptions)](#closeAccessCache-accesscacheoptions-)| Closes the session that uses caches to access data. |
@@ -119,6 +150,7 @@ workbook.save("output/result.xls", saveOptions);
 | [getStyleInPool(number)](#getStyleInPool-number-)| Gets the style in the style pool. All styles in the workbook will be gathered into a pool. There is only a simple reference index in the cells. |
 | [getFonts()](#getFonts--)| Gets all fonts in the style pool. |
 | [getNamedStyle(string)](#getNamedStyle-string-)| Gets the named style in the style pool. |
+| [mergeNamedStyles(Workbook)](#mergeNamedStyles-workbook-)| Merges named styles from the other Excel file. |
 | [changePalette(Color, number)](#changePalette-color-number-)| Changes the palette for the spreadsheet in the specified index. |
 | [isColorInPalette(Color)](#isColorInPalette-color-)| Checks if a color is in the palette for the spreadsheet. |
 | [calculateFormula()](#calculateFormula--)| Calculates the result of formulas. |
@@ -267,9 +299,297 @@ constructor(stream: Uint8Array, loadOptions: LoadOptions);
 | stream | Uint8Array | The stream. |
 | loadOptions | [LoadOptions](../loadoptions/) | The load options |
 
+### settings {#settings--}
+
+Readonly. Represents the workbook settings.
+
+```javascript
+settings : WorkbookSettings;
+```
+
+
+### worksheets {#worksheets--}
+
+Readonly. Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet.
+
+```javascript
+worksheets : WorksheetCollection;
+```
+
+
+**Returns**
+
+[WorksheetCollection](../worksheetcollection/) collection
+
+### isLicensed {#isLicensed--}
+
+Readonly. Indicates whether license is set.
+
+```javascript
+isLicensed : boolean;
+```
+
+
+### colors {#colors--}
+
+Readonly. Returns colors in the palette for the spreadsheet.
+
+```javascript
+colors : Color[];
+```
+
+
+**Remarks**
+
+The palette has 56 entries, each represented by an RGB value.
+
+### countOfStylesInPool {#countOfStylesInPool--}
+
+Readonly. Gets number of the styles in the style pool.
+
+```javascript
+countOfStylesInPool : number;
+```
+
+
+### defaultStyle {#defaultStyle--}
+
+Gets or sets the default [Style](../style/) object of the workbook.
+
+```javascript
+defaultStyle : Style;
+```
+
+
+**Remarks**
+
+The DefaultStyle property is useful to implement a Style for the whole Workbook.
+
+**Example**
+
+The following code creates and instantiates a new Workbook and sets a default Style to it.
+
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var defaultStyle = workbook.defaultStyle;
+defaultStyle.font.setName("Tahoma");
+workbook.defaultStyle = defaultStyle;
+```
+
+### isDigitallySigned {#isDigitallySigned--}
+
+Readonly. Indicates if this spreadsheet is digitally signed.
+
+```javascript
+isDigitallySigned : boolean;
+```
+
+
+### isWorkbookProtectedWithPassword {#isWorkbookProtectedWithPassword--}
+
+Readonly. Indicates whether structure or window is protected with password.
+
+```javascript
+isWorkbookProtectedWithPassword : boolean;
+```
+
+
+### vbaProject {#vbaProject--}
+
+Readonly. Gets the [VbaProject](../vbaproject/) in a spreadsheet.
+
+```javascript
+vbaProject : VbaProject;
+```
+
+
+### hasMacro {#hasMacro--}
+
+Readonly. Indicates if this spreadsheet contains macro/VBA.
+
+```javascript
+hasMacro : boolean;
+```
+
+
+### hasRevisions {#hasRevisions--}
+
+Readonly. Gets if the workbook has any tracked changes
+
+```javascript
+hasRevisions : boolean;
+```
+
+
+### fileName {#fileName--}
+
+Gets and sets the current file name.
+
+```javascript
+fileName : string;
+```
+
+
+**Remarks**
+
+If the file is opened by stream and there are some external formula references, please set the file name.
+
+### dataSorter {#dataSorter--}
+
+Readonly. Gets a DataSorter object to sort data.
+
+```javascript
+dataSorter : DataSorter;
+```
+
+
+### theme {#theme--}
+
+Readonly. Gets the theme name.
+
+```javascript
+theme : string;
+```
+
+
+### builtInDocumentProperties {#builtInDocumentProperties--}
+
+Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
+
+```javascript
+builtInDocumentProperties : BuiltInDocumentPropertyCollection;
+```
+
+
+**Remarks**
+
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var doc = workbook.builtInDocumentProperties.get("Author");
+doc.value = "John Smith";
+```
+
+### customDocumentProperties {#customDocumentProperties--}
+
+Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+
+```javascript
+customDocumentProperties : CustomDocumentPropertyCollection;
+```
+
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+excel.customDocumentProperties.add("Checked by", "Jane");
+```
+
+### fileFormat {#fileFormat--}
+
+Gets and sets the file format.
+
+```javascript
+fileFormat : FileFormatType;
+```
+
+
+### hasCustomFunction {#hasCustomFunction--}
+
+Readonly. Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names...
+
+```javascript
+hasCustomFunction : boolean;
+```
+
+
+### interruptMonitor {#interruptMonitor--}
+
+Gets and sets the interrupt monitor.
+
+```javascript
+interruptMonitor : AbstractInterruptMonitor;
+```
+
+
+### contentTypeProperties {#contentTypeProperties--}
+
+Readonly. Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook.
+
+```javascript
+contentTypeProperties : ContentTypePropertyCollection;
+```
+
+
+### customXmlParts {#customXmlParts--}
+
+Readonly. Represents a Custom XML Data Storage Part (custom XML data within a package).
+
+```javascript
+customXmlParts : CustomXmlPartCollection;
+```
+
+
+### dataMashup {#dataMashup--}
+
+Readonly. Gets mashup data.
+
+```javascript
+dataMashup : DataMashup;
+```
+
+
+### ribbonXml {#ribbonXml--}
+
+Gets and sets the XML file that defines the Ribbon UI.
+
+```javascript
+ribbonXml : string;
+```
+
+
+### absolutePath {#absolutePath--}
+
+Gets and sets the absolute path of the file.
+
+```javascript
+absolutePath : string;
+```
+
+
+**Remarks**
+
+Only used for external links.
+
+### dataConnections {#dataConnections--}
+
+Readonly. Gets the [ExternalConnection](../externalconnection/) collection.
+
+```javascript
+dataConnections : ExternalConnectionCollection;
+```
+
+
+### dataModel {#dataModel--}
+
+Readonly. Gets data model in the workbook.
+
+```javascript
+dataModel : DataModel;
+```
+
+
 ### getSettings() {#getSettings--}
 
-Represents the workbook settings.
+<b>@deprecated.</b> Please use the 'settings' property instead. Represents the workbook settings.
 
 ```javascript
 getSettings() : WorkbookSettings;
@@ -282,7 +602,7 @@ getSettings() : WorkbookSettings;
 
 ### getWorksheets() {#getWorksheets--}
 
-Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet.
+<b>@deprecated.</b> Please use the 'worksheets' property instead. Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet.
 
 ```javascript
 getWorksheets() : WorksheetCollection;
@@ -295,7 +615,7 @@ getWorksheets() : WorksheetCollection;
 
 ### isLicensed() {#isLicensed--}
 
-Indicates whether license is set.
+<b>@deprecated.</b> Please use the 'isLicensed' property instead. Indicates whether license is set.
 
 ```javascript
 isLicensed() : boolean;
@@ -304,7 +624,7 @@ isLicensed() : boolean;
 
 ### getColors() {#getColors--}
 
-Returns colors in the palette for the spreadsheet.
+<b>@deprecated.</b> Please use the 'colors' property instead. Returns colors in the palette for the spreadsheet.
 
 ```javascript
 getColors() : Color[];
@@ -321,7 +641,7 @@ The palette has 56 entries, each represented by an RGB value.
 
 ### getCountOfStylesInPool() {#getCountOfStylesInPool--}
 
-Gets number of the styles in the style pool.
+<b>@deprecated.</b> Please use the 'countOfStylesInPool' property instead. Gets number of the styles in the style pool.
 
 ```javascript
 getCountOfStylesInPool() : number;
@@ -330,7 +650,7 @@ getCountOfStylesInPool() : number;
 
 ### getDefaultStyle() {#getDefaultStyle--}
 
-Gets or sets the default [Style](../style/) object of the workbook.
+<b>@deprecated.</b> Please use the 'defaultStyle' property instead. Gets or sets the default [Style](../style/) object of the workbook.
 
 ```javascript
 getDefaultStyle() : Style;
@@ -347,7 +667,7 @@ The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 ### setDefaultStyle(Style) {#setDefaultStyle-style-}
 
-Gets or sets the default [Style](../style/) object of the workbook.
+<b>@deprecated.</b> Please use the 'defaultStyle' property instead. Gets or sets the default [Style](../style/) object of the workbook.
 
 ```javascript
 setDefaultStyle(value: Style) : void;
@@ -362,22 +682,9 @@ setDefaultStyle(value: Style) : void;
 
 The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
-**Example**
-
-The following code creates and instantiates a new Workbook and sets a default Style to it.
-
-```javascript
-const { Workbook } = require("aspose.cells.node");
-
-var workbook = new Workbook();
-var defaultStyle = workbook.getDefaultStyle();
-defaultStyle.getFont().setName("Tahoma");
-workbook.setDefaultStyle(defaultStyle);
-```
-
 ### isDigitallySigned() {#isDigitallySigned--}
 
-Indicates if this spreadsheet is digitally signed.
+<b>@deprecated.</b> Please use the 'isDigitallySigned' property instead. Indicates if this spreadsheet is digitally signed.
 
 ```javascript
 isDigitallySigned() : boolean;
@@ -386,7 +693,7 @@ isDigitallySigned() : boolean;
 
 ### isWorkbookProtectedWithPassword() {#isWorkbookProtectedWithPassword--}
 
-Indicates whether structure or window is protected with password.
+<b>@deprecated.</b> Please use the 'isWorkbookProtectedWithPassword' property instead. Indicates whether structure or window is protected with password.
 
 ```javascript
 isWorkbookProtectedWithPassword() : boolean;
@@ -395,7 +702,7 @@ isWorkbookProtectedWithPassword() : boolean;
 
 ### getVbaProject() {#getVbaProject--}
 
-Gets the [VbaProject](../vbaproject/) in a spreadsheet.
+<b>@deprecated.</b> Please use the 'vbaProject' property instead. Gets the [VbaProject](../vbaproject/) in a spreadsheet.
 
 ```javascript
 getVbaProject() : VbaProject;
@@ -408,7 +715,7 @@ getVbaProject() : VbaProject;
 
 ### getHasMacro() {#getHasMacro--}
 
-Indicates if this spreadsheet contains macro/VBA.
+<b>@deprecated.</b> Please use the 'hasMacro' property instead. Indicates if this spreadsheet contains macro/VBA.
 
 ```javascript
 getHasMacro() : boolean;
@@ -417,7 +724,7 @@ getHasMacro() : boolean;
 
 ### getHasRevisions() {#getHasRevisions--}
 
-Gets if the workbook has any tracked changes
+<b>@deprecated.</b> Please use the 'hasRevisions' property instead. Gets if the workbook has any tracked changes
 
 ```javascript
 getHasRevisions() : boolean;
@@ -426,7 +733,7 @@ getHasRevisions() : boolean;
 
 ### getFileName() {#getFileName--}
 
-Gets and sets the current file name.
+<b>@deprecated.</b> Please use the 'fileName' property instead. Gets and sets the current file name.
 
 ```javascript
 getFileName() : string;
@@ -439,7 +746,7 @@ If the file is opened by stream and there are some external formula references, 
 
 ### setFileName(string) {#setFileName-string-}
 
-Gets and sets the current file name.
+<b>@deprecated.</b> Please use the 'fileName' property instead. Gets and sets the current file name.
 
 ```javascript
 setFileName(value: string) : void;
@@ -456,7 +763,7 @@ If the file is opened by stream and there are some external formula references, 
 
 ### getDataSorter() {#getDataSorter--}
 
-Gets a DataSorter object to sort data.
+<b>@deprecated.</b> Please use the 'dataSorter' property instead. Gets a DataSorter object to sort data.
 
 ```javascript
 getDataSorter() : DataSorter;
@@ -469,7 +776,7 @@ getDataSorter() : DataSorter;
 
 ### getTheme() {#getTheme--}
 
-Gets the theme name.
+<b>@deprecated.</b> Please use the 'theme' property instead. Gets the theme name.
 
 ```javascript
 getTheme() : string;
@@ -478,7 +785,7 @@ getTheme() : string;
 
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 
-Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
+<b>@deprecated.</b> Please use the 'builtInDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
 
 ```javascript
 getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
@@ -493,18 +800,9 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips
 
-**Example**
-```javascript
-const { Workbook } = require("aspose.cells.node");
-
-var workbook = new Workbook();
-var doc = workbook.getBuiltInDocumentProperties().get("Author");
-doc.setValue("John Smith");
-```
-
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
-Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+<b>@deprecated.</b> Please use the 'customDocumentProperties' property instead. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
 
 ```javascript
 getCustomDocumentProperties() : CustomDocumentPropertyCollection;
@@ -515,17 +813,9 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 [CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
 
-**Example**
-```javascript
-const { Workbook } = require("aspose.cells.node");
-
-var excel = new Workbook();
-excel.getCustomDocumentProperties().add("Checked by", "Jane");
-```
-
 ### getFileFormat() {#getFileFormat--}
 
-Gets and sets the file format.
+<b>@deprecated.</b> Please use the 'fileFormat' property instead. Gets and sets the file format.
 
 ```javascript
 getFileFormat() : FileFormatType;
@@ -538,7 +828,7 @@ getFileFormat() : FileFormatType;
 
 ### setFileFormat(FileFormatType) {#setFileFormat-fileformattype-}
 
-Gets and sets the file format.
+<b>@deprecated.</b> Please use the 'fileFormat' property instead. Gets and sets the file format.
 
 ```javascript
 setFileFormat(value: FileFormatType) : void;
@@ -551,7 +841,7 @@ setFileFormat(value: FileFormatType) : void;
 
 ### getHasCustomFunction() {#getHasCustomFunction--}
 
-Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names...
+<b>@deprecated.</b> Please use the 'hasCustomFunction' property instead. Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names...
 
 ```javascript
 getHasCustomFunction() : boolean;
@@ -560,7 +850,7 @@ getHasCustomFunction() : boolean;
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
 
-Gets and sets the interrupt monitor.
+<b>@deprecated.</b> Please use the 'interruptMonitor' property instead. Gets and sets the interrupt monitor.
 
 ```javascript
 getInterruptMonitor() : AbstractInterruptMonitor;
@@ -573,7 +863,7 @@ getInterruptMonitor() : AbstractInterruptMonitor;
 
 ### setInterruptMonitor(AbstractInterruptMonitor) {#setInterruptMonitor-abstractinterruptmonitor-}
 
-Gets and sets the interrupt monitor.
+<b>@deprecated.</b> Please use the 'interruptMonitor' property instead. Gets and sets the interrupt monitor.
 
 ```javascript
 setInterruptMonitor(value: AbstractInterruptMonitor) : void;
@@ -586,7 +876,7 @@ setInterruptMonitor(value: AbstractInterruptMonitor) : void;
 
 ### getContentTypeProperties() {#getContentTypeProperties--}
 
-Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook.
+<b>@deprecated.</b> Please use the 'contentTypeProperties' property instead. Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook.
 
 ```javascript
 getContentTypeProperties() : ContentTypePropertyCollection;
@@ -599,7 +889,7 @@ getContentTypeProperties() : ContentTypePropertyCollection;
 
 ### getCustomXmlParts() {#getCustomXmlParts--}
 
-Represents a Custom XML Data Storage Part (custom XML data within a package).
+<b>@deprecated.</b> Please use the 'customXmlParts' property instead. Represents a Custom XML Data Storage Part (custom XML data within a package).
 
 ```javascript
 getCustomXmlParts() : CustomXmlPartCollection;
@@ -612,7 +902,7 @@ getCustomXmlParts() : CustomXmlPartCollection;
 
 ### getDataMashup() {#getDataMashup--}
 
-Gets mashup data.
+<b>@deprecated.</b> Please use the 'dataMashup' property instead. Gets mashup data.
 
 ```javascript
 getDataMashup() : DataMashup;
@@ -625,7 +915,7 @@ getDataMashup() : DataMashup;
 
 ### getRibbonXml() {#getRibbonXml--}
 
-Gets and sets the XML file that defines the Ribbon UI.
+<b>@deprecated.</b> Please use the 'ribbonXml' property instead. Gets and sets the XML file that defines the Ribbon UI.
 
 ```javascript
 getRibbonXml() : string;
@@ -634,7 +924,7 @@ getRibbonXml() : string;
 
 ### setRibbonXml(string) {#setRibbonXml-string-}
 
-Gets and sets the XML file that defines the Ribbon UI.
+<b>@deprecated.</b> Please use the 'ribbonXml' property instead. Gets and sets the XML file that defines the Ribbon UI.
 
 ```javascript
 setRibbonXml(value: string) : void;
@@ -647,7 +937,7 @@ setRibbonXml(value: string) : void;
 
 ### getAbsolutePath() {#getAbsolutePath--}
 
-Gets and sets the absolute path of the file.
+<b>@deprecated.</b> Please use the 'absolutePath' property instead. Gets and sets the absolute path of the file.
 
 ```javascript
 getAbsolutePath() : string;
@@ -660,7 +950,7 @@ Only used for external links.
 
 ### setAbsolutePath(string) {#setAbsolutePath-string-}
 
-Gets and sets the absolute path of the file.
+<b>@deprecated.</b> Please use the 'absolutePath' property instead. Gets and sets the absolute path of the file.
 
 ```javascript
 setAbsolutePath(value: string) : void;
@@ -677,7 +967,7 @@ Only used for external links.
 
 ### getDataConnections() {#getDataConnections--}
 
-Gets the [ExternalConnection](../externalconnection/) collection.
+<b>@deprecated.</b> Please use the 'dataConnections' property instead. Gets the [ExternalConnection](../externalconnection/) collection.
 
 ```javascript
 getDataConnections() : ExternalConnectionCollection;
@@ -690,7 +980,7 @@ getDataConnections() : ExternalConnectionCollection;
 
 ### getDataModel() {#getDataModel--}
 
-Gets data model in the workbook.
+<b>@deprecated.</b> Please use the 'dataModel' property instead. Gets data model in the workbook.
 
 ```javascript
 getDataModel() : DataModel;
@@ -763,8 +1053,8 @@ save(fileName: string, saveFormat: SaveFormat) : void;
 const { Workbook, SaveFormat } = require("aspose.cells.node");
 
 var workbook = new Workbook();
-var sheets = workbook.getWorksheets();
-var cells = sheets.get(0).getCells();
+var sheets = workbook.worksheets;
+var cells = sheets.get(0).cells;
 cells.get("A1").putValue("Hello world!");
 workbook.save("output/WorkbookSaveFileFormatType.xls", SaveFormat.Excel97To2003);
 ```
@@ -1324,6 +1614,19 @@ getNamedStyle(name: string) : Style;
 **Returns**
 
 named style, maybe null.
+
+### mergeNamedStyles(Workbook) {#mergeNamedStyles-workbook-}
+
+Merges named styles from the other Excel file.
+
+```javascript
+mergeNamedStyles(source: Workbook) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | [Workbook](../workbook/) | The other file |
 
 ### changePalette(Color, number) {#changePalette-color-number-}
 

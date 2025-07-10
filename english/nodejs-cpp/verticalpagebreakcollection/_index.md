@@ -26,7 +26,7 @@ class VerticalPageBreakCollection;
 | [add(number, number)](#add-number-number-)| Adds a vertical page break to the collection. |
 | [add(string)](#add-string-)| Adds a vertical page break to the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes the VPageBreak element at a specified name. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -166,7 +166,7 @@ removeAt(index: number) : void;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

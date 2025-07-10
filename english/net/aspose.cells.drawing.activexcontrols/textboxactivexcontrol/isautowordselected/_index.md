@@ -16,10 +16,33 @@ public virtual bool IsAutoWordSelected { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.IsAutoWordSelected)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.IsAutoWordSelected = true;
+    public class TextBoxActiveXControlPropertyIsAutoWordSelectedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape textBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 0, 0, 1, 1, 200, 30);
+            TextBoxActiveXControl textBoxControl = (TextBoxActiveXControl)textBoxShape.ActiveXControl;
+
+            Console.WriteLine("Initial IsAutoWordSelected: " + textBoxControl.IsAutoWordSelected);
+
+            if (!textBoxControl.IsAutoWordSelected)
+            {
+                textBoxControl.IsAutoWordSelected = true;
+            }
+
+            Console.WriteLine("Final IsAutoWordSelected: " + textBoxControl.IsAutoWordSelected);
+        }
+    }
 }
 ```
 

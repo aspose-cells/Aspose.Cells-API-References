@@ -19,40 +19,6 @@ An array of Range objects. If the defined Name's reference is external or has mu
 
 Returns null if the named range does not exist.
 
-### Examples
-
-```csharp
-// Called: wb.Worksheets.GetNamedRanges();
-public void WorksheetCollection_Method_GetNamedRanges()
-{
-    StringBuilder sb = null;
-    for (int i = 1; i < 4; i++)
-    {
-        Workbook wb = new Workbook(Constants.sourcePath + "N42536_" + i + ".xlsx");
-        try
-        {
-            wb.Worksheets.GetNamedRanges();
-        }
-        catch (Exception e)
-        {
-            if (sb == null)
-            {
-                sb = new StringBuilder();
-                sb.Append("N42536_");
-            }
-            sb.Append(i);
-            sb.Append(':');
-            sb.Append(e.Message);
-            sb.Append(';');
-        }
-    }
-    if (sb != null)
-    {
-        AssertHelper.Fail(sb.ToString());
-    }
-}
-```
-
 ### See Also
 
 * class [Range](../../range/)

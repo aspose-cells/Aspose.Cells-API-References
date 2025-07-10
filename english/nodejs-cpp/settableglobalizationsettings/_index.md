@@ -17,7 +17,7 @@ class SettableGlobalizationSettings;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -25,42 +25,42 @@ class SettableGlobalizationSettings;
 
 | Method | Description |
 | --- | --- |
-| [getListSeparator()](#getListSeparator--)| Gets the separator for list, parameters of function, ...etc. |
-| [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--)| Gets the separator for rows in array data in formula. |
-| [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--)| Gets the separator for the items in array's row data in formula. |
-| [getTotalName(ConsolidationFunction)](#getTotalName-consolidationfunction-)| Gets the total name of specific function. |
 | [setTotalName(ConsolidationFunction, string)](#setTotalName-consolidationfunction-string-)| Sets the total name of specific function. |
-| [getGrandTotalName(ConsolidationFunction)](#getGrandTotalName-consolidationfunction-)| Gets the grand total name of the function. |
 | [setGrandTotalName(ConsolidationFunction, string)](#setGrandTotalName-consolidationfunction-string-)| Sets the grand total name of specific function. |
-| [getTableRowTypeOfHeaders()](#getTableRowTypeOfHeaders--)| Gets the type name of table rows that consists of the table header. Default is "Headers", so in formula "#Headers" represents the table header. |
 | [setTableRowTypeOfHeaders(string)](#setTableRowTypeOfHeaders-string-)| Sets the type name of table rows that consists of the table header. |
-| [getTableRowTypeOfData()](#getTableRowTypeOfData--)| Gets the type name of table rows that consists of data region of referenced table. Default is "Data", so in formula "#Data" represents the data region of the table. |
 | [setTableRowTypeOfData(string)](#setTableRowTypeOfData-string-)| Sets the type name of table rows that consists of data region of referenced table. |
-| [getTableRowTypeOfAll()](#getTableRowTypeOfAll--)| Gets the type name of table rows that consists of all rows in referenced table. |
 | [setTableRowTypeOfAll(string)](#setTableRowTypeOfAll-string-)| Sets the type name of table rows that consists of all rows in referenced table. |
-| [getTableRowTypeOfTotals()](#getTableRowTypeOfTotals--)| Gets the type name of table rows that consists of the total row of referenced table. |
 | [setTableRowTypeOfTotals(string)](#setTableRowTypeOfTotals-string-)| Sets the type name of table rows that consists of the total row of referenced table. |
-| [getTableRowTypeOfCurrent()](#getTableRowTypeOfCurrent--)| Gets the type name of table rows that consists of the current row in referenced table. |
 | [setTableRowTypeOfCurrent(string)](#setTableRowTypeOfCurrent-string-)| Sets the type name of table rows that consists of the current row in referenced table. |
-| [getErrorValueString(string)](#getErrorValueString-string-)| Gets the display string value for cell's error value |
-| [getBooleanValueString(boolean)](#getBooleanValueString-boolean-)| Gets the display string value for cell's boolean value |
 | [setBooleanValueString(boolean, string)](#setBooleanValueString-boolean-string-)| Sets the display string value for cell's boolean value |
-| [getLocalFunctionName(string)](#getLocalFunctionName-string-)| Gets the locale dependent function name according to given standard function name. |
 | [setLocalFunctionName(string, string, boolean)](#setLocalFunctionName-string-string-boolean-)| Sets the locale dependent function name corresponding to given standard function name. |
-| [getStandardFunctionName(string)](#getStandardFunctionName-string-)| Gets the standard function name according to given locale dependent function name. |
 | [setStandardFunctionName(string, string, boolean)](#setStandardFunctionName-string-string-boolean-)| Sets the locale dependent function name according to given standard function name. |
-| [getLocalBuiltInName(string)](#getLocalBuiltInName-string-)| Gets the locale dependent text for built-in Name according to given standard text. |
 | [setLocalBuiltInName(string, string, boolean)](#setLocalBuiltInName-string-string-boolean-)| Sets the locale dependent text for the built-in name with given standard name text. |
-| [getStandardBuiltInName(string)](#getStandardBuiltInName-string-)| Gets the standard text of built-in Name according to given locale dependent text. |
 | [setStandardBuiltInName(string, string, boolean)](#setStandardBuiltInName-string-string-boolean-)| Sets the locale dependent function name according to given standard function name. |
 | [setListSeparator(string)](#setListSeparator-string-)| Sets the separator for list, parameters of function, ...etc. |
 | [setRowSeparatorOfFormulaArray(string)](#setRowSeparatorOfFormulaArray-string-)| Sets the separator for rows in array data in formula. |
 | [setColumnSeparatorOfFormulaArray(string)](#setColumnSeparatorOfFormulaArray-string-)| Sets the separator for the items in array's row data in formula. |
-| [getStandardHeaderFooterFontStyleName(string)](#getStandardHeaderFooterFontStyleName-string-)| Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name. |
 | [setStandardHeaderFooterFontStyleName(string, string)](#setStandardHeaderFooterFontStyleName-string-string-)| Sets the locale dependent function name according to given standard function name. |
-| [getCommentTitleName(CommentTitleType)](#getCommentTitleName-commenttitletype-)| Gets the locale dependent comment title name according to comment title type. |
 | [setCommentTitleName(CommentTitleType, string)](#setCommentTitleName-commenttitletype-string-)| Gets the locale dependent comment title name according to comment title type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getListSeparator()](#getListSeparator--)| Gets the separator for list, parameters of function, ...etc. |
+| [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--)| Gets the separator for rows in array data in formula. |
+| [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--)| Gets the separator for the items in array's row data in formula. |
+| [getTotalName(ConsolidationFunction)](#getTotalName-consolidationfunction-)| Gets the total name of specific function. |
+| [getGrandTotalName(ConsolidationFunction)](#getGrandTotalName-consolidationfunction-)| Gets the grand total name of the function. |
+| [getTableRowTypeOfHeaders()](#getTableRowTypeOfHeaders--)| Gets the type name of table rows that consists of the table header. Default is "Headers", so in formula "#Headers" represents the table header. |
+| [getTableRowTypeOfData()](#getTableRowTypeOfData--)| Gets the type name of table rows that consists of data region of referenced table. Default is "Data", so in formula "#Data" represents the data region of the table. |
+| [getTableRowTypeOfAll()](#getTableRowTypeOfAll--)| Gets the type name of table rows that consists of all rows in referenced table. |
+| [getTableRowTypeOfTotals()](#getTableRowTypeOfTotals--)| Gets the type name of table rows that consists of the total row of referenced table. |
+| [getTableRowTypeOfCurrent()](#getTableRowTypeOfCurrent--)| Gets the type name of table rows that consists of the current row in referenced table. |
+| [getErrorValueString(string)](#getErrorValueString-string-)| Gets the display string value for cell's error value |
+| [getBooleanValueString(boolean)](#getBooleanValueString-boolean-)| Gets the display string value for cell's boolean value |
+| [getLocalFunctionName(string)](#getLocalFunctionName-string-)| Gets the locale dependent function name according to given standard function name. |
+| [getStandardFunctionName(string)](#getStandardFunctionName-string-)| Gets the standard function name according to given locale dependent function name. |
+| [getLocalBuiltInName(string)](#getLocalBuiltInName-string-)| Gets the locale dependent text for built-in Name according to given standard text. |
+| [getStandardBuiltInName(string)](#getStandardBuiltInName-string-)| Gets the standard text of built-in Name according to given locale dependent text. |
+| [getStandardHeaderFooterFontStyleName(string)](#getStandardHeaderFooterFontStyleName-string-)| Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name. |
+| [getCommentTitleName(CommentTitleType)](#getCommentTitleName-commenttitletype-)| Gets the locale dependent comment title name according to comment title type. |
 
 
 ### constructor() {#constructor--}
@@ -71,50 +71,6 @@ Default Constructor.
 constructor();
 ```
 
-
-### getListSeparator() {#getListSeparator--}
-
-Gets the separator for list, parameters of function, ...etc.
-
-```javascript
-getListSeparator() : string;
-```
-
-
-### getRowSeparatorOfFormulaArray() {#getRowSeparatorOfFormulaArray--}
-
-Gets the separator for rows in array data in formula.
-
-```javascript
-getRowSeparatorOfFormulaArray() : string;
-```
-
-
-### getColumnSeparatorOfFormulaArray() {#getColumnSeparatorOfFormulaArray--}
-
-Gets the separator for the items in array's row data in formula.
-
-```javascript
-getColumnSeparatorOfFormulaArray() : string;
-```
-
-
-### getTotalName(ConsolidationFunction) {#getTotalName-consolidationfunction-}
-
-Gets the total name of specific function.
-
-```javascript
-getTotalName(functionType: ConsolidationFunction) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
-
-**Returns**
-
-The total name of the function.
 
 ### setTotalName(ConsolidationFunction, string) {#setTotalName-consolidationfunction-string-}
 
@@ -130,23 +86,6 @@ setTotalName(functionType: ConsolidationFunction, name: string) : void;
 | functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 | name | string | The total name of the function. |
 
-### getGrandTotalName(ConsolidationFunction) {#getGrandTotalName-consolidationfunction-}
-
-Gets the grand total name of the function.
-
-```javascript
-getGrandTotalName(functionType: ConsolidationFunction) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
-
-**Returns**
-
-The grand total name of the function.
-
 ### setGrandTotalName(ConsolidationFunction, string) {#setGrandTotalName-consolidationfunction-string-}
 
 Sets the grand total name of specific function.
@@ -161,19 +100,6 @@ setGrandTotalName(functionType: ConsolidationFunction, name: string) : void;
 | functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 | name | string | The grand total name of the function. |
 
-### getTableRowTypeOfHeaders() {#getTableRowTypeOfHeaders--}
-
-Gets the type name of table rows that consists of the table header. Default is "Headers", so in formula "#Headers" represents the table header.
-
-```javascript
-getTableRowTypeOfHeaders() : string;
-```
-
-
-**Returns**
-
-the type name of table rows
-
 ### setTableRowTypeOfHeaders(string) {#setTableRowTypeOfHeaders-string-}
 
 Sets the type name of table rows that consists of the table header.
@@ -186,19 +112,6 @@ setTableRowTypeOfHeaders(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | the type name of table rows |
-
-### getTableRowTypeOfData() {#getTableRowTypeOfData--}
-
-Gets the type name of table rows that consists of data region of referenced table. Default is "Data", so in formula "#Data" represents the data region of the table.
-
-```javascript
-getTableRowTypeOfData() : string;
-```
-
-
-**Returns**
-
-the type name of table rows
 
 ### setTableRowTypeOfData(string) {#setTableRowTypeOfData-string-}
 
@@ -213,19 +126,6 @@ setTableRowTypeOfData(name: string) : void;
 | --- | --- | --- |
 | name | string | the type name of table rows |
 
-### getTableRowTypeOfAll() {#getTableRowTypeOfAll--}
-
-Gets the type name of table rows that consists of all rows in referenced table.
-
-```javascript
-getTableRowTypeOfAll() : string;
-```
-
-
-**Returns**
-
-the type name of table rows
-
 ### setTableRowTypeOfAll(string) {#setTableRowTypeOfAll-string-}
 
 Sets the type name of table rows that consists of all rows in referenced table.
@@ -238,19 +138,6 @@ setTableRowTypeOfAll(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | the type name of table rows |
-
-### getTableRowTypeOfTotals() {#getTableRowTypeOfTotals--}
-
-Gets the type name of table rows that consists of the total row of referenced table.
-
-```javascript
-getTableRowTypeOfTotals() : string;
-```
-
-
-**Returns**
-
-the type name of table rows
 
 ### setTableRowTypeOfTotals(string) {#setTableRowTypeOfTotals-string-}
 
@@ -265,19 +152,6 @@ setTableRowTypeOfTotals(name: string) : void;
 | --- | --- | --- |
 | name | string | the type name of table rows |
 
-### getTableRowTypeOfCurrent() {#getTableRowTypeOfCurrent--}
-
-Gets the type name of table rows that consists of the current row in referenced table.
-
-```javascript
-getTableRowTypeOfCurrent() : string;
-```
-
-
-**Returns**
-
-the type name of table rows
-
 ### setTableRowTypeOfCurrent(string) {#setTableRowTypeOfCurrent-string-}
 
 Sets the type name of table rows that consists of the current row in referenced table.
@@ -290,40 +164,6 @@ setTableRowTypeOfCurrent(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | the type name of table rows |
-
-### getErrorValueString(string) {#getErrorValueString-string-}
-
-Gets the display string value for cell's error value
-
-```javascript
-getErrorValueString(err: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| err | string | error values such as #VALUE!,#NAME? |
-
-**Returns**
-
-By default returns the error value itself
-
-### getBooleanValueString(boolean) {#getBooleanValueString-boolean-}
-
-Gets the display string value for cell's boolean value
-
-```javascript
-getBooleanValueString(bv: boolean) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bv | boolean | boolean value |
-
-**Returns**
-
-By default returns "TRUE" for true value and "FALSE" for false value.
 
 ### setBooleanValueString(boolean, string) {#setBooleanValueString-boolean-string-}
 
@@ -338,23 +178,6 @@ setBooleanValueString(bv: boolean, name: string) : void;
 | --- | --- | --- |
 | bv | boolean | boolean value |
 | name | string | string value of the boolean value |
-
-### getLocalFunctionName(string) {#getLocalFunctionName-string-}
-
-Gets the locale dependent function name according to given standard function name.
-
-```javascript
-getLocalFunctionName(standardName: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| standardName | string | Standard(en-US locale) function name. |
-
-**Returns**
-
-Locale dependent function name. The locale was specified by the Workbook for which this settings is used.
 
 ### setLocalFunctionName(string, string, boolean) {#setLocalFunctionName-string-string-boolean-}
 
@@ -371,23 +194,6 @@ setLocalFunctionName(standardName: string, localName: string, bidirectional: boo
 | localName | string | Locale dependent function name |
 | bidirectional | boolean | Whether map the local function name to standard function name automatically.         /// If true, the local name will be mapped to standard name automatically         /// so user does not need to call [SetStandardFunctionName(string, string, bool)](../setstandardfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
 
-### getStandardFunctionName(string) {#getStandardFunctionName-string-}
-
-Gets the standard function name according to given locale dependent function name.
-
-```javascript
-getStandardFunctionName(localName: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| localName | string | Locale dependent function name. The locale was specified by the Workbook for which this settings is used. |
-
-**Returns**
-
-Standard(en-US locale) function name.
-
 ### setStandardFunctionName(string, string, boolean) {#setStandardFunctionName-string-string-boolean-}
 
 Sets the locale dependent function name according to given standard function name.
@@ -403,23 +209,6 @@ setStandardFunctionName(localName: string, standardName: string, bidirectional: 
 | standardName | string | Standard(en-US locale) function name. |
 | bidirectional | boolean | Whether map the standard function name to local function name automatically.         /// If true, the standar name will be mapped to local name automatically         /// so user does not need to call [SetLocalFunctionName(string, string, bool)](../setlocalfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
 
-### getLocalBuiltInName(string) {#getLocalBuiltInName-string-}
-
-Gets the locale dependent text for built-in Name according to given standard text.
-
-```javascript
-getLocalBuiltInName(standardName: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| standardName | string | Standard(en-US locale) text of built-in Name. |
-
-**Returns**
-
-Locale dependent text. The locale was specified by the Workbook for which this settings is used.
-
 ### setLocalBuiltInName(string, string, boolean) {#setLocalBuiltInName-string-string-boolean-}
 
 Sets the locale dependent text for the built-in name with given standard name text.
@@ -434,23 +223,6 @@ setLocalBuiltInName(standardName: string, localName: string, bidirectional: bool
 | standardName | string | Standard(en-US locale) name text of built-in name. |
 | localName | string | Locale dependent name text |
 | bidirectional | boolean | Whether map the local name text to standard name text automatically.         /// If true, the local name text will be mapped to standard name text automatically         /// so user does not need to call [SetStandardBuiltInName(string, string, bool)](../setstandardbuiltinname(string, string, bool)/) again         /// for the same standard and local names pair |
-
-### getStandardBuiltInName(string) {#getStandardBuiltInName-string-}
-
-Gets the standard text of built-in Name according to given locale dependent text.
-
-```javascript
-getStandardBuiltInName(localName: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| localName | string | Locale dependent text of built-in Name. The locale was specified by the Workbook for which this settings is used. |
-
-**Returns**
-
-Standard(en-US locale) text.
 
 ### setStandardBuiltInName(string, string, boolean) {#setStandardBuiltInName-string-string-boolean-}
 
@@ -506,23 +278,6 @@ setColumnSeparatorOfFormulaArray(c: string) : void;
 | --- | --- | --- |
 | c | string | the specified separator |
 
-### getStandardHeaderFooterFontStyleName(string) {#getStandardHeaderFooterFontStyleName-string-}
-
-Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name.
-
-```javascript
-getStandardHeaderFooterFontStyleName(localfontStyleName: string) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| localfontStyleName | string | Locale font style name for Header/Footer. |
-
-**Returns**
-
-Standard English font style name(Regular, Bold, Italic)
-
 ### setStandardHeaderFooterFontStyleName(string, string) {#setStandardHeaderFooterFontStyleName-string-string-}
 
 Sets the locale dependent function name according to given standard function name.
@@ -536,23 +291,6 @@ setStandardHeaderFooterFontStyleName(localfontStyleName: string, standardName: s
 | --- | --- | --- |
 | localfontStyleName | string | Locale font style name for Header/Footer. |
 | standardName | string | Standard(en-US locale) function name. |
-
-### getCommentTitleName(CommentTitleType) {#getCommentTitleName-commenttitletype-}
-
-Gets the locale dependent comment title name according to comment title type.
-
-```javascript
-getCommentTitleName(type: CommentTitleType) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | [CommentTitleType](../commenttitletype/) | type of comment title |
-
-**Returns**
-
-locale dependent comment title name
 
 ### setCommentTitleName(CommentTitleType, string) {#setCommentTitleName-commenttitletype-string-}
 
@@ -576,5 +314,267 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getListSeparator() {#getListSeparator--}
+
+Gets the separator for list, parameters of function, ...etc.
+
+```javascript
+getListSeparator() : string;
+```
+
+
+### getRowSeparatorOfFormulaArray() {#getRowSeparatorOfFormulaArray--}
+
+Gets the separator for rows in array data in formula.
+
+```javascript
+getRowSeparatorOfFormulaArray() : string;
+```
+
+
+### getColumnSeparatorOfFormulaArray() {#getColumnSeparatorOfFormulaArray--}
+
+Gets the separator for the items in array's row data in formula.
+
+```javascript
+getColumnSeparatorOfFormulaArray() : string;
+```
+
+
+### getTotalName(ConsolidationFunction) {#getTotalName-consolidationfunction-}
+
+Gets the total name of specific function.
+
+```javascript
+getTotalName(functionType: ConsolidationFunction) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
+
+**Returns**
+
+The total name of the function.
+
+### getGrandTotalName(ConsolidationFunction) {#getGrandTotalName-consolidationfunction-}
+
+Gets the grand total name of the function.
+
+```javascript
+getGrandTotalName(functionType: ConsolidationFunction) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
+
+**Returns**
+
+The grand total name of the function.
+
+### getTableRowTypeOfHeaders() {#getTableRowTypeOfHeaders--}
+
+Gets the type name of table rows that consists of the table header. Default is "Headers", so in formula "#Headers" represents the table header.
+
+```javascript
+getTableRowTypeOfHeaders() : string;
+```
+
+
+**Returns**
+
+the type name of table rows
+
+### getTableRowTypeOfData() {#getTableRowTypeOfData--}
+
+Gets the type name of table rows that consists of data region of referenced table. Default is "Data", so in formula "#Data" represents the data region of the table.
+
+```javascript
+getTableRowTypeOfData() : string;
+```
+
+
+**Returns**
+
+the type name of table rows
+
+### getTableRowTypeOfAll() {#getTableRowTypeOfAll--}
+
+Gets the type name of table rows that consists of all rows in referenced table.
+
+```javascript
+getTableRowTypeOfAll() : string;
+```
+
+
+**Returns**
+
+the type name of table rows
+
+### getTableRowTypeOfTotals() {#getTableRowTypeOfTotals--}
+
+Gets the type name of table rows that consists of the total row of referenced table.
+
+```javascript
+getTableRowTypeOfTotals() : string;
+```
+
+
+**Returns**
+
+the type name of table rows
+
+### getTableRowTypeOfCurrent() {#getTableRowTypeOfCurrent--}
+
+Gets the type name of table rows that consists of the current row in referenced table.
+
+```javascript
+getTableRowTypeOfCurrent() : string;
+```
+
+
+**Returns**
+
+the type name of table rows
+
+### getErrorValueString(string) {#getErrorValueString-string-}
+
+Gets the display string value for cell's error value
+
+```javascript
+getErrorValueString(err: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| err | string | error values such as #VALUE!,#NAME? |
+
+**Returns**
+
+By default returns the error value itself
+
+### getBooleanValueString(boolean) {#getBooleanValueString-boolean-}
+
+Gets the display string value for cell's boolean value
+
+```javascript
+getBooleanValueString(bv: boolean) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bv | boolean | boolean value |
+
+**Returns**
+
+By default returns "TRUE" for true value and "FALSE" for false value.
+
+### getLocalFunctionName(string) {#getLocalFunctionName-string-}
+
+Gets the locale dependent function name according to given standard function name.
+
+```javascript
+getLocalFunctionName(standardName: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| standardName | string | Standard(en-US locale) function name. |
+
+**Returns**
+
+Locale dependent function name. The locale was specified by the Workbook for which this settings is used.
+
+### getStandardFunctionName(string) {#getStandardFunctionName-string-}
+
+Gets the standard function name according to given locale dependent function name.
+
+```javascript
+getStandardFunctionName(localName: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| localName | string | Locale dependent function name. The locale was specified by the Workbook for which this settings is used. |
+
+**Returns**
+
+Standard(en-US locale) function name.
+
+### getLocalBuiltInName(string) {#getLocalBuiltInName-string-}
+
+Gets the locale dependent text for built-in Name according to given standard text.
+
+```javascript
+getLocalBuiltInName(standardName: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| standardName | string | Standard(en-US locale) text of built-in Name. |
+
+**Returns**
+
+Locale dependent text. The locale was specified by the Workbook for which this settings is used.
+
+### getStandardBuiltInName(string) {#getStandardBuiltInName-string-}
+
+Gets the standard text of built-in Name according to given locale dependent text.
+
+```javascript
+getStandardBuiltInName(localName: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| localName | string | Locale dependent text of built-in Name. The locale was specified by the Workbook for which this settings is used. |
+
+**Returns**
+
+Standard(en-US locale) text.
+
+### getStandardHeaderFooterFontStyleName(string) {#getStandardHeaderFooterFontStyleName-string-}
+
+Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name.
+
+```javascript
+getStandardHeaderFooterFontStyleName(localfontStyleName: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| localfontStyleName | string | Locale font style name for Header/Footer. |
+
+**Returns**
+
+Standard English font style name(Regular, Bold, Italic)
+
+### getCommentTitleName(CommentTitleType) {#getCommentTitleName-commenttitletype-}
+
+Gets the locale dependent comment title name according to comment title type.
+
+```javascript
+getCommentTitleName(type: CommentTitleType) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [CommentTitleType](../commenttitletype/) | type of comment title |
+
+**Returns**
+
+locale dependent comment title name
 
 

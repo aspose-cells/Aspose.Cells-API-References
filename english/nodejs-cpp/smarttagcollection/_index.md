@@ -15,16 +15,41 @@ class SmartTagCollection;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [row](#row--)| number | Readonly. Gets the row of the cell smart tags. |
+| [column](#column--)| number | Readonly. Gets the column of the cell smart tags. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets a [SmartTag](../smarttag/) object at the specific index |
-| [getRow()](#getRow--)| Gets the row of the cell smart tags. |
-| [getColumn()](#getColumn--)| Gets the column of the cell smart tags. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row of the cell smart tags. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column of the cell smart tags. |
 | [add(string, string)](#add-string-string-)| Adds a smart tag. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### row {#row--}
+
+Readonly. Gets the row of the cell smart tags.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Readonly. Gets the column of the cell smart tags.
+
+```javascript
+column : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -46,7 +71,7 @@ returns a [SmartTag](../smarttag/) object.
 
 ### getRow() {#getRow--}
 
-Gets the row of the cell smart tags.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets the row of the cell smart tags.
 
 ```javascript
 getRow() : number;
@@ -55,7 +80,7 @@ getRow() : number;
 
 ### getColumn() {#getColumn--}
 
-Gets the column of the cell smart tags.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets the column of the cell smart tags.
 
 ```javascript
 getColumn() : number;
@@ -82,7 +107,7 @@ The index of smart tag in the list.
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

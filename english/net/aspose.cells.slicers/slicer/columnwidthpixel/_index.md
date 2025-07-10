@@ -1,13 +1,13 @@
 ---
 title: Slicer.ColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Gets or sets the width in unit of pixels for each column of the slicer
+description: Slicer property. Gets or sets the width of each column in the slicer in unit of pixels
 type: docs
 url: /net/aspose.cells.slicers/slicer/columnwidthpixel/
 ---
 ## Slicer.ColumnWidthPixel property
 
-Gets or sets the width in unit of pixels for each column of the slicer.
+Gets or sets the width of each column in the slicer, in unit of pixels.
 
 ```csharp
 public int ColumnWidthPixel { get; set; }

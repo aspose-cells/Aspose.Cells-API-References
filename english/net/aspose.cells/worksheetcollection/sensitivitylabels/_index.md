@@ -16,16 +16,39 @@ public SensitivityLabelCollection SensitivityLabels { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("{7e848398-70bd-400c-b8cf-2ab6f30d1b60}", workbook.Worksheets.SensitivityLabels[0].SiteId);
-public void WorksheetCollection_Property_SensitivityLabels()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metas;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    MemoryStream ms = Util.SaveAsBuffer(workbook, SaveFormat.Xlsx);
-    Assert.IsFalse(ManualFileUtil.ManualCheckStringInZip(ms,
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    //Assert.IsFalse(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsx",
-        "docMetadata/LabelInfo.xml", new string[] { "<clbl:label" }, false));
-    Assert.AreEqual("{7e848398-70bd-400c-b8cf-2ab6f30d1b60}", workbook.Worksheets.SensitivityLabels[0].SiteId);
+    public class WorksheetCollectionPropertySensitivityLabelsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the worksheet collection
+            WorksheetCollection worksheets = workbook.Worksheets;
+            
+            // Add a sensitivity label
+            int index = worksheets.SensitivityLabels.Add(
+                "{7e848398-70bd-400c-b8cf-2ab6f30d1b60}", // ID
+                true,                                       // IsEnabled
+                SensitivityLabelAssignmentType.Standard,     // AssignmentType
+                "contoso-site",                             // SiteId
+                SensitivityLabelMarkType.Header              // MarkType
+            );
+            
+            // Verify the added label
+            SensitivityLabel label = worksheets.SensitivityLabels[index];
+            Console.WriteLine($"Label added - ID: {label.Id}, SiteID: {label.SiteId}");
+            
+            // Save the workbook
+            workbook.Save("SensitivityLabelsDemo.xlsx");
+        }
+    }
 }
 ```
 

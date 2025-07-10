@@ -4,7 +4,7 @@ linktitle: SmartArtShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SmartArtShape class. Represents the smart art in C++.'
 type: docs
-weight: 6300
+weight: 6400
 url: /cpp/aspose.cells.drawing/smartartshape/
 ---
 ## SmartArtShape class

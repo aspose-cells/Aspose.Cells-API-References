@@ -75,14 +75,7 @@ namespace AsposeCellsExamples
 
             // Get the UnknownControl instance from the shape
             UnknownControl unknownControl = (UnknownControl)shape.ActiveXControl;
-
-            // Demonstrate accessing read-only properties
-            Console.WriteLine("Control Type: " + unknownControl.Type);
-            Console.WriteLine("Data Length: " + (unknownControl.Data == null ? 0 : unknownControl.Data.Length));
-
-            // Demonstrate calling GetRelationshipData method
-            byte[] relationshipData = unknownControl.GetRelationshipData("relId");
-            Console.WriteLine("Relationship Data Length: " + (relationshipData == null ? 0 : relationshipData.Length));
+            unknownControl.IsVisible = true;
 
             // Save the workbook
             workbook.Save("UnknownControlDemo.xlsx");

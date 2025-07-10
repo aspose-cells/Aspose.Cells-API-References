@@ -15,26 +15,91 @@ class Scenario;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [comment](#comment--)| string | Gets and sets the comment of scenario. |
+| [name](#name--)| string | Gets and sets the name of scenario. |
+| [user](#user--)| string | Readonly. Gets name of user who last changed the scenario. |
+| [isHidden](#isHidden--)| boolean | Indicates whether scenario is hidden. |
+| [isLocked](#isLocked--)| boolean | Indicates whether scenario is locked for editing when the sheet is protected. |
+| [inputCells](#inputCells--)| ScenarioInputCellCollection | Readonly. Gets the input cells of scenario. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getComment()](#getComment--)| Gets and sets the comment of scenario. |
-| [setComment(string)](#setComment-string-)| Gets and sets the comment of scenario. |
-| [getName()](#getName--)| Gets and sets the name of scenario. |
-| [setName(string)](#setName-string-)| Gets and sets the name of scenario. |
-| [getUser()](#getUser--)| Gets name of user who last changed the scenario. |
-| [isHidden()](#isHidden--)| Indicates whether scenario is hidden. |
-| [setIsHidden(boolean)](#setIsHidden-boolean-)| Indicates whether scenario is hidden. |
-| [isLocked()](#isLocked--)| Indicates whether scenario is locked for editing when the sheet is protected. |
-| [setIsLocked(boolean)](#setIsLocked-boolean-)| Indicates whether scenario is locked for editing when the sheet is protected. |
-| [getInputCells()](#getInputCells--)| Gets the input cells of scenario. |
+| [getComment()](#getComment--)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of scenario. |
+| [setComment(string)](#setComment-string-)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of scenario. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of scenario. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of scenario. |
+| [getUser()](#getUser--)| <b>@deprecated.</b> Please use the 'user' property instead. Gets name of user who last changed the scenario. |
+| [isHidden()](#isHidden--)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether scenario is hidden. |
+| [setIsHidden(boolean)](#setIsHidden-boolean-)| <b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether scenario is hidden. |
+| [isLocked()](#isLocked--)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether scenario is locked for editing when the sheet is protected. |
+| [setIsLocked(boolean)](#setIsLocked-boolean-)| <b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether scenario is locked for editing when the sheet is protected. |
+| [getInputCells()](#getInputCells--)| <b>@deprecated.</b> Please use the 'inputCells' property instead. Gets the input cells of scenario. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### comment {#comment--}
+
+Gets and sets the comment of scenario.
+
+```javascript
+comment : string;
+```
+
+
+### name {#name--}
+
+Gets and sets the name of scenario.
+
+```javascript
+name : string;
+```
+
+
+### user {#user--}
+
+Readonly. Gets name of user who last changed the scenario.
+
+```javascript
+user : string;
+```
+
+
+### isHidden {#isHidden--}
+
+Indicates whether scenario is hidden.
+
+```javascript
+isHidden : boolean;
+```
+
+
+### isLocked {#isLocked--}
+
+Indicates whether scenario is locked for editing when the sheet is protected.
+
+```javascript
+isLocked : boolean;
+```
+
+
+### inputCells {#inputCells--}
+
+Readonly. Gets the input cells of scenario.
+
+```javascript
+inputCells : ScenarioInputCellCollection;
+```
 
 
 ### getComment() {#getComment--}
 
-Gets and sets the comment of scenario.
+<b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of scenario.
 
 ```javascript
 getComment() : string;
@@ -43,7 +108,7 @@ getComment() : string;
 
 ### setComment(string) {#setComment-string-}
 
-Gets and sets the comment of scenario.
+<b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of scenario.
 
 ```javascript
 setComment(value: string) : void;
@@ -56,7 +121,7 @@ setComment(value: string) : void;
 
 ### getName() {#getName--}
 
-Gets and sets the name of scenario.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of scenario.
 
 ```javascript
 getName() : string;
@@ -65,7 +130,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets and sets the name of scenario.
+<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of scenario.
 
 ```javascript
 setName(value: string) : void;
@@ -78,7 +143,7 @@ setName(value: string) : void;
 
 ### getUser() {#getUser--}
 
-Gets name of user who last changed the scenario.
+<b>@deprecated.</b> Please use the 'user' property instead. Gets name of user who last changed the scenario.
 
 ```javascript
 getUser() : string;
@@ -87,7 +152,7 @@ getUser() : string;
 
 ### isHidden() {#isHidden--}
 
-Indicates whether scenario is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether scenario is hidden.
 
 ```javascript
 isHidden() : boolean;
@@ -96,7 +161,7 @@ isHidden() : boolean;
 
 ### setIsHidden(boolean) {#setIsHidden-boolean-}
 
-Indicates whether scenario is hidden.
+<b>@deprecated.</b> Please use the 'isHidden' property instead. Indicates whether scenario is hidden.
 
 ```javascript
 setIsHidden(value: boolean) : void;
@@ -109,7 +174,7 @@ setIsHidden(value: boolean) : void;
 
 ### isLocked() {#isLocked--}
 
-Indicates whether scenario is locked for editing when the sheet is protected.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether scenario is locked for editing when the sheet is protected.
 
 ```javascript
 isLocked() : boolean;
@@ -118,7 +183,7 @@ isLocked() : boolean;
 
 ### setIsLocked(boolean) {#setIsLocked-boolean-}
 
-Indicates whether scenario is locked for editing when the sheet is protected.
+<b>@deprecated.</b> Please use the 'isLocked' property instead. Indicates whether scenario is locked for editing when the sheet is protected.
 
 ```javascript
 setIsLocked(value: boolean) : void;
@@ -131,7 +196,7 @@ setIsLocked(value: boolean) : void;
 
 ### getInputCells() {#getInputCells--}
 
-Gets the input cells of scenario.
+<b>@deprecated.</b> Please use the 'inputCells' property instead. Gets the input cells of scenario.
 
 ```javascript
 getInputCells() : ScenarioInputCellCollection;

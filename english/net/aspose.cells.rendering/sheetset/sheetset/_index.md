@@ -113,6 +113,10 @@ namespace AsposeCellsExamples
             workbook.Worksheets.Add("Second");
             workbook.Worksheets.Add("Third");
 
+            workbook.Worksheets["First"].Cells["A1"].PutValue("This is Sheet 1");
+            workbook.Worksheets["Second"].Cells["A1"].PutValue("This is Sheet 2");
+            workbook.Worksheets["Third"].Cells["A1"].PutValue("This is Sheet 3");
+
             // Prepare sheet names for SheetSet
             string[] selectedSheets = { "First", "Third" };
 

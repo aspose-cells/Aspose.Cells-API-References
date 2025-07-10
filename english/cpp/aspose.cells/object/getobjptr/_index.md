@@ -4,7 +4,7 @@ linktitle: GetObjPtr
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object::GetObjPtr method. Internal use in C++.'
 type: docs
-weight: 3200
+weight: 4000
 url: /cpp/aspose.cells/object/getobjptr/
 ---
 ## Object::GetObjPtr method

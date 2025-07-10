@@ -4,7 +4,7 @@ linktitle: GetSheetSet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions::GetSheetSet method. Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible in C++.'
 type: docs
-weight: 3400
+weight: 3600
 url: /cpp/aspose.cells/paginatedsaveoptions/getsheetset/
 ---
 ## PaginatedSaveOptions::GetSheetSet method

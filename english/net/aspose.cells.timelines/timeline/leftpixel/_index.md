@@ -10,8 +10,14 @@ url: /net/aspose.cells.timelines/timeline/leftpixel/
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
 
 ```csharp
+[Obsolete("Use Shape.Left property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int LeftPixel { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

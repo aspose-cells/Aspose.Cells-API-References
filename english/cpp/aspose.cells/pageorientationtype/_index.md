@@ -4,7 +4,7 @@ linktitle: PageOrientationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PageOrientationType enum. Represents print orientation constants in C++.'
 type: docs
-weight: 23400
+weight: 24600
 url: /cpp/aspose.cells/pageorientationtype/
 ---
 ## PageOrientationType enum

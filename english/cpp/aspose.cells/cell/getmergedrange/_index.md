@@ -4,7 +4,7 @@ linktitle: GetMergedRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetMergedRange method. Returns a Range object which represents a merged range in C++.'
 type: docs
-weight: 6500
+weight: 6600
 url: /cpp/aspose.cells/cell/getmergedrange/
 ---
 ## Cell::GetMergedRange method

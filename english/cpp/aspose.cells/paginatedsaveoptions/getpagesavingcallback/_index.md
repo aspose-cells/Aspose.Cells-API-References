@@ -4,7 +4,7 @@ linktitle: GetPageSavingCallback
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions::GetPageSavingCallback method. Control/Indicate progress of page saving process in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells/paginatedsaveoptions/getpagesavingcallback/
 ---
 ## PaginatedSaveOptions::GetPageSavingCallback method

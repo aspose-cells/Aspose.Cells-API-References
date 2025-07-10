@@ -4,7 +4,7 @@ linktitle: Spinner
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Spinner class. Represents the Forms control: Spinner in C++.'
 type: docs
-weight: 6500
+weight: 6600
 url: /cpp/aspose.cells.drawing/spinner/
 ---
 ## Spinner class

@@ -30,29 +30,40 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to access its path (fixed by adding all required parameters)
-            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 200, 200, 0, 0);
-            
-            // Get the shape's geometry path (fixed by using Paths instead of ShapePaths)
-            ShapePath shapePath = ((CustomGeometry)shape.Geometry).Paths[0];
-            
-            // Clear existing segments and create a custom path
-            shapePath.MoveTo(10, 10);
-            shapePath.LineTo(100, 10);
-            shapePath.LineTo(100, 100);
-            shapePath.LineTo(10, 100);
-            shapePath.Close();
-
-            // Access the PathSegementList property
-            ShapeSegmentPathCollection segmentList = shapePath.PathSegementList;
-            
-            // Display the count of path segments
-            Console.WriteLine("Number of path segments: " + segmentList.Count);
-            
-            // Iterate through each segment and display its type
-            foreach (ShapeSegmentPath segment in segmentList)
+            try
             {
-                Console.WriteLine("Segment type: " + segment.Type);
+                //Create a new shape path
+                ShapePath shapePath = new ShapePath();
+
+                // Move to starting point
+                shapePath.MoveTo(10, 10);
+
+                // Call LineTo method with (Single, Single) parameters
+                shapePath.LineTo(50.5f, 10.5f);
+                shapePath.LineTo(50.5f, 50.5f);
+                shapePath.LineTo(10.5f, 50.5f);
+                shapePath.Close();
+
+                // Access the PathSegementList property
+                ShapeSegmentPathCollection segmentList = shapePath.PathSegementList;
+
+                // Display the count of path segments
+                Console.WriteLine("Number of path segments: " + segmentList.Count);
+
+                // Iterate through each segment and display its type
+                foreach (ShapeSegmentPath segment in segmentList)
+                {
+                    Console.WriteLine("Segment type: " + segment.Type);
+                }
+
+                //add free form
+                worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { shapePath });
+
+                Console.WriteLine("MoveTo method executed successfully with parameters (Single, Single)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing LineTo method: {ex.Message}");
             }
 
             // Save the workbook

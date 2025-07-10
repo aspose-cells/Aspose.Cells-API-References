@@ -16,27 +16,36 @@ public OpenDocumentFormatVersionType OdfStrictVersion { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
-public static void OdsSaveOptions_Property_OdfStrictVersion()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
+{
+    public class OdsSaveOptionsPropertyOdfStrictVersionDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("ODF Version Demo");
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Sample Data");
-            worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["A3"].PutValue(456);
-
-            // Create OdsSaveOptions and set the ODF version
+            // Create ODS save options
             OdsSaveOptions saveOptions = new OdsSaveOptions();
+            
+            // Set ODF version to 1.2
             saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
 
-            // Save the workbook in ODS format with the specified ODF version
-            workbook.Save("OpenDocumentFormatVersionTypeExample.ods", saveOptions);
+            // Save with specified ODF version
+            workbook.Save("OdfVersion12.ods", saveOptions);
 
-            Console.WriteLine("Workbook saved successfully with ODF version 1.2.");
+            // Change to ODF version 1.3
+            saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf13;
+            workbook.Save("OdfVersion13.ods", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

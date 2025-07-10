@@ -15,32 +15,127 @@ class Marker;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [border](#border--)| Line | Readonly. Gets the <see cref="Line">border</see>. |
+| [area](#area--)| Area | Readonly. Gets the <see cref="Area">area</see>. |
+| [markerStyle](#markerStyle--)| ChartMarkerType | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [markerSize](#markerSize--)| number | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
+| [markerSizePx](#markerSizePx--)| number | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [foregroundColor](#foregroundColor--)| Color | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
+| [foregroundColorSetType](#foregroundColorSetType--)| FormattingType | Gets or sets the marker foreground color set type. |
+| [backgroundColor](#backgroundColor--)| Color | Represents the marker background color in a line chart, scatter chart, or radar chart. |
+| [backgroundColorSetType](#backgroundColorSetType--)| FormattingType | Gets or sets the marker background color set type. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
-| [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
-| [getMarkerStyle()](#getMarkerStyle--)| Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
-| [setMarkerStyle(ChartMarkerType)](#setMarkerStyle-chartmarkertype-)| Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
-| [getMarkerSize()](#getMarkerSize--)| Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [setMarkerSize(number)](#setMarkerSize-number-)| Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [getMarkerSizePx()](#getMarkerSizePx--)| Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [setMarkerSizePx(number)](#setMarkerSizePx-number-)| Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [getForegroundColor()](#getForegroundColor--)| Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
-| [getForegroundColorSetType()](#getForegroundColorSetType--)| Gets or sets the marker foreground color set type. |
-| [setForegroundColorSetType(FormattingType)](#setForegroundColorSetType-formattingtype-)| Gets or sets the marker foreground color set type. |
-| [getBackgroundColor()](#getBackgroundColor--)| Represents the marker background color in a line chart, scatter chart, or radar chart. |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Represents the marker background color in a line chart, scatter chart, or radar chart. |
-| [getBackgroundColorSetType()](#getBackgroundColorSetType--)| Gets or sets the marker background color set type. |
-| [setBackgroundColorSetType(FormattingType)](#setBackgroundColorSetType-formattingtype-)| Gets or sets the marker background color set type. |
+| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Gets the <see cref="Line">border</see>. |
+| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Gets the <see cref="Area">area</see>. |
+| [getMarkerStyle()](#getMarkerStyle--)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [setMarkerStyle(ChartMarkerType)](#setMarkerStyle-chartmarkertype-)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [getMarkerSize()](#getMarkerSize--)| <b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
+| [setMarkerSize(number)](#setMarkerSize-number-)| <b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
+| [getMarkerSizePx()](#getMarkerSizePx--)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [setMarkerSizePx(number)](#setMarkerSizePx-number-)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
+| [getForegroundColorSetType()](#getForegroundColorSetType--)| <b>@deprecated.</b> Please use the 'foregroundColorSetType' property instead. Gets or sets the marker foreground color set type. |
+| [setForegroundColorSetType(FormattingType)](#setForegroundColorSetType-formattingtype-)| <b>@deprecated.</b> Please use the 'foregroundColorSetType' property instead. Gets or sets the marker foreground color set type. |
+| [getBackgroundColor()](#getBackgroundColor--)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Represents the marker background color in a line chart, scatter chart, or radar chart. |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| <b>@deprecated.</b> Please use the 'backgroundColor' property instead. Represents the marker background color in a line chart, scatter chart, or radar chart. |
+| [getBackgroundColorSetType()](#getBackgroundColorSetType--)| <b>@deprecated.</b> Please use the 'backgroundColorSetType' property instead. Gets or sets the marker background color set type. |
+| [setBackgroundColorSetType(FormattingType)](#setBackgroundColorSetType-formattingtype-)| <b>@deprecated.</b> Please use the 'backgroundColorSetType' property instead. Gets or sets the marker background color set type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### border {#border--}
+
+Readonly. Gets the <see cref="Line">border</see>.
+
+```javascript
+border : Line;
+```
+
+
+### area {#area--}
+
+Readonly. Gets the <see cref="Area">area</see>.
+
+```javascript
+area : Area;
+```
+
+
+### markerStyle {#markerStyle--}
+
+Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+
+```javascript
+markerStyle : ChartMarkerType;
+```
+
+
+### markerSize {#markerSize--}
+
+Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
+
+```javascript
+markerSize : number;
+```
+
+
+### markerSizePx {#markerSizePx--}
+
+Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+
+```javascript
+markerSizePx : number;
+```
+
+
+### foregroundColor {#foregroundColor--}
+
+Represents the marker foreground color in a line chart, scatter chart, or radar chart.
+
+```javascript
+foregroundColor : Color;
+```
+
+
+### foregroundColorSetType {#foregroundColorSetType--}
+
+Gets or sets the marker foreground color set type.
+
+```javascript
+foregroundColorSetType : FormattingType;
+```
+
+
+### backgroundColor {#backgroundColor--}
+
+Represents the marker background color in a line chart, scatter chart, or radar chart.
+
+```javascript
+backgroundColor : Color;
+```
+
+
+### backgroundColorSetType {#backgroundColorSetType--}
+
+Gets or sets the marker background color set type.
+
+```javascript
+backgroundColorSetType : FormattingType;
+```
 
 
 ### getBorder() {#getBorder--}
 
-Gets the <see cref="Line">border</see>.
+<b>@deprecated.</b> Please use the 'border' property instead. Gets the <see cref="Line">border</see>.
 
 ```javascript
 getBorder() : Line;
@@ -53,7 +148,7 @@ getBorder() : Line;
 
 ### getArea() {#getArea--}
 
-Gets the <see cref="Area">area</see>.
+<b>@deprecated.</b> Please use the 'area' property instead. Gets the <see cref="Area">area</see>.
 
 ```javascript
 getArea() : Area;
@@ -66,7 +161,7 @@ getArea() : Area;
 
 ### getMarkerStyle() {#getMarkerStyle--}
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 getMarkerStyle() : ChartMarkerType;
@@ -79,7 +174,7 @@ getMarkerStyle() : ChartMarkerType;
 
 ### setMarkerStyle(ChartMarkerType) {#setMarkerStyle-chartmarkertype-}
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 setMarkerStyle(value: ChartMarkerType) : void;
@@ -92,7 +187,7 @@ setMarkerStyle(value: ChartMarkerType) : void;
 
 ### getMarkerSize() {#getMarkerSize--}
 
-Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 getMarkerSize() : number;
@@ -101,7 +196,7 @@ getMarkerSize() : number;
 
 ### setMarkerSize(number) {#setMarkerSize-number-}
 
-Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 setMarkerSize(value: number) : void;
@@ -114,7 +209,7 @@ setMarkerSize(value: number) : void;
 
 ### getMarkerSizePx() {#getMarkerSizePx--}
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 getMarkerSizePx() : number;
@@ -123,7 +218,7 @@ getMarkerSizePx() : number;
 
 ### setMarkerSizePx(number) {#setMarkerSizePx-number-}
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
 
 ```javascript
 setMarkerSizePx(value: number) : void;
@@ -136,7 +231,7 @@ setMarkerSizePx(value: number) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Represents the marker foreground color in a line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart.
 
 ```javascript
 getForegroundColor() : Color;
@@ -149,7 +244,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Represents the marker foreground color in a line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart.
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -162,7 +257,7 @@ setForegroundColor(value: Color) : void;
 
 ### getForegroundColorSetType() {#getForegroundColorSetType--}
 
-Gets or sets the marker foreground color set type.
+<b>@deprecated.</b> Please use the 'foregroundColorSetType' property instead. Gets or sets the marker foreground color set type.
 
 ```javascript
 getForegroundColorSetType() : FormattingType;
@@ -175,7 +270,7 @@ getForegroundColorSetType() : FormattingType;
 
 ### setForegroundColorSetType(FormattingType) {#setForegroundColorSetType-formattingtype-}
 
-Gets or sets the marker foreground color set type.
+<b>@deprecated.</b> Please use the 'foregroundColorSetType' property instead. Gets or sets the marker foreground color set type.
 
 ```javascript
 setForegroundColorSetType(value: FormattingType) : void;
@@ -188,7 +283,7 @@ setForegroundColorSetType(value: FormattingType) : void;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Represents the marker background color in a line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Represents the marker background color in a line chart, scatter chart, or radar chart.
 
 ```javascript
 getBackgroundColor() : Color;
@@ -201,7 +296,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Represents the marker background color in a line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'backgroundColor' property instead. Represents the marker background color in a line chart, scatter chart, or radar chart.
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -214,7 +309,7 @@ setBackgroundColor(value: Color) : void;
 
 ### getBackgroundColorSetType() {#getBackgroundColorSetType--}
 
-Gets or sets the marker background color set type.
+<b>@deprecated.</b> Please use the 'backgroundColorSetType' property instead. Gets or sets the marker background color set type.
 
 ```javascript
 getBackgroundColorSetType() : FormattingType;
@@ -227,7 +322,7 @@ getBackgroundColorSetType() : FormattingType;
 
 ### setBackgroundColorSetType(FormattingType) {#setBackgroundColorSetType-formattingtype-}
 
-Gets or sets the marker background color set type.
+<b>@deprecated.</b> Please use the 'backgroundColorSetType' property instead. Gets or sets the marker background color set type.
 
 ```javascript
 setBackgroundColorSetType(value: FormattingType) : void;

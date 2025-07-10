@@ -4,7 +4,7 @@ linktitle: SetFontSubstitutes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs::SetFontSubstitutes method. Font substitute names for given original font name in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells/fontconfigs/setfontsubstitutes/
 ---
 ## FontConfigs::SetFontSubstitutes(const U16String\&, const Vector \<U16String\>\&) method

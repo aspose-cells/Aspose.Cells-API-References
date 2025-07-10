@@ -4,7 +4,7 @@ linktitle: QueryTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTable class. Represents QueryTable information in C++.'
 type: docs
-weight: 11900
+weight: 12300
 url: /cpp/aspose.cells/querytable/
 ---
 ## QueryTable class

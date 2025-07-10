@@ -15,15 +15,24 @@ class GradientFill;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [gradientStops](#gradientStops--)| GradientStopCollection | Readonly. Represents the gradient stop collection. |
+| [fillType](#fillType--)| GradientFillType | Readonly. Gets the gradient fill type. |
+| [directionType](#directionType--)| GradientDirectionType | Readonly. Gets the gradient direction type. |
+| [angle](#angle--)| number | The angle of linear fill. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getGradientStops()](#getGradientStops--)| Represents the gradient stop collection. |
-| [getFillType()](#getFillType--)| Gets the gradient fill type. |
-| [getDirectionType()](#getDirectionType--)| Gets the gradient direction type. |
-| [getAngle()](#getAngle--)| The angle of linear fill. |
-| [setAngle(number)](#setAngle-number-)| The angle of linear fill. |
+| [getGradientStops()](#getGradientStops--)| <b>@deprecated.</b> Please use the 'gradientStops' property instead. Represents the gradient stop collection. |
+| [getFillType()](#getFillType--)| <b>@deprecated.</b> Please use the 'fillType' property instead. Gets the gradient fill type. |
+| [getDirectionType()](#getDirectionType--)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets the gradient direction type. |
+| [getAngle()](#getAngle--)| <b>@deprecated.</b> Please use the 'angle' property instead. The angle of linear fill. |
+| [setAngle(number)](#setAngle-number-)| <b>@deprecated.</b> Please use the 'angle' property instead. The angle of linear fill. |
 | [setGradient(GradientFillType, number, GradientDirectionType)](#setGradient-gradientfilltype-number-gradientdirectiontype-)| Set the gradient fill type and direction. |
 | [setPresetThemeGradient(PresetThemeGradientType, ThemeColorType)](#setPresetThemeGradient-presetthemegradienttype-themecolortype-)| Sets preset theme gradient fill. |
 | [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
@@ -32,9 +41,45 @@ class GradientFill;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### gradientStops {#gradientStops--}
+
+Readonly. Represents the gradient stop collection.
+
+```javascript
+gradientStops : GradientStopCollection;
+```
+
+
+### fillType {#fillType--}
+
+Readonly. Gets the gradient fill type.
+
+```javascript
+fillType : GradientFillType;
+```
+
+
+### directionType {#directionType--}
+
+Readonly. Gets the gradient direction type.
+
+```javascript
+directionType : GradientDirectionType;
+```
+
+
+### angle {#angle--}
+
+The angle of linear fill.
+
+```javascript
+angle : number;
+```
+
+
 ### getGradientStops() {#getGradientStops--}
 
-Represents the gradient stop collection.
+<b>@deprecated.</b> Please use the 'gradientStops' property instead. Represents the gradient stop collection.
 
 ```javascript
 getGradientStops() : GradientStopCollection;
@@ -47,7 +92,7 @@ getGradientStops() : GradientStopCollection;
 
 ### getFillType() {#getFillType--}
 
-Gets the gradient fill type.
+<b>@deprecated.</b> Please use the 'fillType' property instead. Gets the gradient fill type.
 
 ```javascript
 getFillType() : GradientFillType;
@@ -60,7 +105,7 @@ getFillType() : GradientFillType;
 
 ### getDirectionType() {#getDirectionType--}
 
-Gets the gradient direction type.
+<b>@deprecated.</b> Please use the 'directionType' property instead. Gets the gradient direction type.
 
 ```javascript
 getDirectionType() : GradientDirectionType;
@@ -73,7 +118,7 @@ getDirectionType() : GradientDirectionType;
 
 ### getAngle() {#getAngle--}
 
-The angle of linear fill.
+<b>@deprecated.</b> Please use the 'angle' property instead. The angle of linear fill.
 
 ```javascript
 getAngle() : number;
@@ -82,7 +127,7 @@ getAngle() : number;
 
 ### setAngle(number) {#setAngle-number-}
 
-The angle of linear fill.
+<b>@deprecated.</b> Please use the 'angle' property instead. The angle of linear fill.
 
 ```javascript
 setAngle(value: number) : void;

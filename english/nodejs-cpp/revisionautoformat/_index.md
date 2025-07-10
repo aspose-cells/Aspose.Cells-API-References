@@ -17,19 +17,27 @@ class RevisionAutoFormat extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [cellArea](#cellArea--)| CellArea | Readonly. Gets the location where the formatting was applied. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the revision. |
-| [getCellArea()](#getCellArea--)| Gets the location where the formatting was applied. |
+| [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location where the formatting was applied. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Gets the type of the revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -45,22 +53,40 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
-### getType() {#getType--}
+### cellArea {#cellArea--}
 
-Gets the type of the revision.
+Readonly. Gets the location where the formatting was applied.
 
 ```javascript
-getType() : RevisionType;
+cellArea : CellArea;
 ```
 
 
-**Returns**
+### worksheet {#worksheet--}
 
-[RevisionType](../revisiontype/)
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
 
 ### getCellArea() {#getCellArea--}
 
-Gets the location where the formatting was applied.
+<b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location where the formatting was applied.
 
 ```javascript
 getCellArea() : CellArea;
@@ -82,7 +108,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -95,7 +121,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;
@@ -105,5 +131,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Gets the type of the revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

@@ -40,28 +40,36 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
+            Cells cells = worksheet.Cells;
+            cells["A2"].Value = "Sales";
+            cells["A3"].Value = "Finance";
+            cells["A4"].Value = "MIS";
+            cells["A5"].Value = "R&D";
+            cells["A6"].Value = "Marketing";
+            cells["A7"].Value = "HRA";
+
             // Add different ActiveX controls to demonstrate various persistence types
-            AddControlWithPersistenceType(worksheet, ControlType.CommandButton, ActiveXPersistenceType.PropertyBag, 0, 0);
-            AddControlWithPersistenceType(worksheet, ControlType.TextBox, ActiveXPersistenceType.Storage, 2, 0);
-            AddControlWithPersistenceType(worksheet, ControlType.CheckBox, ActiveXPersistenceType.Stream, 4, 0);
-            AddControlWithPersistenceType(worksheet, ControlType.ComboBox, ActiveXPersistenceType.StreamInit, 6, 0);
+            AddControlWithPersistenceType(worksheet, ControlType.CommandButton, ActiveXPersistenceType.PropertyBag, 0, 2);
+            AddControlWithPersistenceType(worksheet, ControlType.TextBox, ActiveXPersistenceType.Storage, 4, 2);
+            AddControlWithPersistenceType(worksheet, ControlType.CheckBox, ActiveXPersistenceType.Stream, 8, 2);
+            AddControlWithPersistenceType(worksheet, ControlType.ComboBox, ActiveXPersistenceType.StreamInit, 12, 2);
 
             // Save the workbook with all ActiveX controls
             workbook.Save("ActiveXPersistenceTypeDemo.xlsx");
         }
 
-        private static void AddControlWithPersistenceType(Worksheet worksheet, ControlType controlType, 
+        private static void AddControlWithPersistenceType(Worksheet worksheet, ControlType controlType,
             ActiveXPersistenceType persistenceType, int row, int column)
         {
             // Add an ActiveX control
             Shape shape = worksheet.Shapes.AddActiveXControl(
                 controlType,
-                column,
                 row,
-                1500,
-                1500,
-                2000,
-                500
+                15,
+                column,
+                15,
+                200,
+                50
             );
 
             // Configure control based on type
@@ -69,23 +77,28 @@ namespace AsposeCellsExamples
             {
                 case ControlType.CommandButton:
                     var button = (CommandButtonActiveXControl)shape.ActiveXControl;
+                    button.IsVisible = true;
+                    
                     button.Caption = $"{persistenceType} Button";
                     break;
-                    
+
                 case ControlType.TextBox:
                     var textBox = (TextBoxActiveXControl)shape.ActiveXControl;
+                    textBox.IsVisible = true;
                     textBox.Text = $"{persistenceType} TextBox";
                     break;
-                    
+
                 case ControlType.CheckBox:
                     var checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
+                    checkBox.IsVisible = true;
                     checkBox.Caption = $"{persistenceType} CheckBox";
                     checkBox.Value = CheckValueType.Checked;
                     break;
-                    
+
                 case ControlType.ComboBox:
                     var comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
-                    comboBox.ListFillRange = $"A{row+1}:A{row+5}";
+                    comboBox.IsVisible = true;
+                    comboBox.ListFillRange = $"A3:A7";
                     break;
             }
 

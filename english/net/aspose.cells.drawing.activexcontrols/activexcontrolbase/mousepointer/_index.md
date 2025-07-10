@@ -16,30 +16,29 @@ public ControlMousePointerType MousePointer { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-private void ActiveXControlBase_Property_MousePointer(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlBasePropertyMousePointerDemo
+    {
+        public static void Run()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            Workbook workbook = new Workbook();
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.CommandButton, 1, 0, 1, 0, 100, 50);
+            CommandButtonActiveXControl button = (CommandButtonActiveXControl)shape.ActiveXControl;
+
+            button.Caption = "Click Me";
+            button.MousePointer = ControlMousePointerType.Help;
+            button.MouseIcon = new byte[] { }; // Empty byte array for custom icon (when MousePointer is Custom)
+            
+            workbook.Save("ActiveXControlMousePointerDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

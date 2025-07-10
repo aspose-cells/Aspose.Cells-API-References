@@ -17,21 +17,28 @@ class AutoNumberedBulletValue extends BulletValue;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BulletValue)](#constructor-bulletvalue-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [startAt](#startAt--)| number | Gets and sets the starting number of the bullet. |
+| [autonumberScheme](#autonumberScheme--)| TextAutonumberScheme | Represents the scheme of automatic number. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the bullet. |
-| [getStartAt()](#getStartAt--)| Gets and sets the starting number of the bullet. |
-| [setStartAt(number)](#setStartAt-number-)| Gets and sets the starting number of the bullet. |
-| [getAutonumberScheme()](#getAutonumberScheme--)| Represents the scheme of automatic number. |
-| [setAutonumberScheme(TextAutonumberScheme)](#setAutonumberScheme-textautonumberscheme-)| Represents the scheme of automatic number. |
+| [getStartAt()](#getStartAt--)| <b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet. |
+| [setStartAt(number)](#setStartAt-number-)| <b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet. |
+| [getAutonumberScheme()](#getAutonumberScheme--)| <b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number. |
+| [setAutonumberScheme(TextAutonumberScheme)](#setAutonumberScheme-textautonumberscheme-)| <b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the type of the bullet. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -56,22 +63,27 @@ constructor();
 ```
 
 
-### getType() {#getType--}
+### startAt {#startAt--}
 
-Gets the type of the bullet.
+Gets and sets the starting number of the bullet.
 
 ```javascript
-getType() : BulletType;
+startAt : number;
 ```
 
 
-**Returns**
+### autonumberScheme {#autonumberScheme--}
 
-[BulletType](../bullettype/)
+Represents the scheme of automatic number.
+
+```javascript
+autonumberScheme : TextAutonumberScheme;
+```
+
 
 ### getStartAt() {#getStartAt--}
 
-Gets and sets the starting number of the bullet.
+<b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet.
 
 ```javascript
 getStartAt() : number;
@@ -80,7 +92,7 @@ getStartAt() : number;
 
 ### setStartAt(number) {#setStartAt-number-}
 
-Gets and sets the starting number of the bullet.
+<b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet.
 
 ```javascript
 setStartAt(value: number) : void;
@@ -93,7 +105,7 @@ setStartAt(value: number) : void;
 
 ### getAutonumberScheme() {#getAutonumberScheme--}
 
-Represents the scheme of automatic number.
+<b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number.
 
 ```javascript
 getAutonumberScheme() : TextAutonumberScheme;
@@ -106,7 +118,7 @@ getAutonumberScheme() : TextAutonumberScheme;
 
 ### setAutonumberScheme(TextAutonumberScheme) {#setAutonumberScheme-textautonumberscheme-}
 
-Represents the scheme of automatic number.
+<b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number.
 
 ```javascript
 setAutonumberScheme(value: TextAutonumberScheme) : void;
@@ -125,5 +137,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the type of the bullet.
+
+```javascript
+getType() : BulletType;
+```
+
+
+**Returns**
+
+[BulletType](../bullettype/)
 
 

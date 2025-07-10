@@ -20,27 +20,49 @@ It may display/render different layouts for text paragraph when different edit l
 ### Examples
 
 ```csharp
-// Called: imageOrPrintOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-public void ImageOrPrintOptions_Property_DefaultEditLanguage()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
+    public class ImageOrPrintOptionsPropertyDefaultEditLanguageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Set the workbook's default font to one that supports CJK characters
+            workbook.DefaultStyle.Font.Name = "MS Gothic";
+            
+            // Set Japanese text that will require proper wrapping
+            string japaneseText = "日本語のテキストサンプル：これは折り返し表示のテストです。長いテキストをセル内で適切に表示するか確認します。";
+            sheet.Cells["A1"].Value = japaneseText;
+            
+            // Configure cell formatting - fixed using correct property name
+            Cell cell = sheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            style.IsTextWrapped = true;  // Correct property name for text wrapping
+            cell.SetStyle(style);
+            
+            sheet.Cells.SetColumnWidth(0, 15);
+            sheet.Cells.SetRowHeight(0, 60);
 
-    ImageOrPrintOptions imageOrPrintOptions = new ImageOrPrintOptions();
-    imageOrPrintOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-    imageOrPrintOptions.ImageType = ImageType.Png;
-    SheetRender sr = new SheetRender(wb.Worksheets["Sheet1"], imageOrPrintOptions);
+            // Create image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.CheckWorkbookDefaultFont = true;
 
-    MemoryStream ms = new MemoryStream();
-    sr.ToImage(0, ms);
-    ms.Position = 0;
-
-    Bitmap expectedImage = (Bitmap)Image.FromFile(Constants.TemplatePath + "example.png");
-    Bitmap generatedImage = (Bitmap)Image.FromStream(ms);
-
-    int diffCount = ImageCompareUtil.CompareImage(expectedImage, generatedImage);
-
-    Assert.Less(diffCount, 10);
-
+            // Render the worksheet to image
+            SheetRender renderer = new SheetRender(sheet, options);
+            renderer.ToImage(0, "CJK_Text_Rendering.png");
+            
+            Console.WriteLine("Generated image with CJK text rendering.");
+        }
+    }
 }
 ```
 

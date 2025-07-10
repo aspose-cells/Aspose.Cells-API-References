@@ -22,127 +22,166 @@ const { Workbook, ChartType, TrendlineType } = require("aspose.cells.node");
 //Instantiating a Workbook object
 var workbook = new Workbook();
 //Adding a new worksheet to the Excel object
-var sheetIndex = workbook.getWorksheets().add();
+var sheetIndex = workbook.worksheets.add();
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-var worksheet = workbook.getWorksheets().get(sheetIndex);
+var worksheet = workbook.worksheets.get(sheetIndex);
 //Adding a sample value to "A1" cell
-worksheet.getCells().get("A1").putValue(50);
+worksheet.cells.get("A1").putValue(50);
 //Adding a sample value to "A2" cell
-worksheet.getCells().get("A2").putValue(100);
+worksheet.cells.get("A2").putValue(100);
 //Adding a sample value to "A3" cell
-worksheet.getCells().get("A3").putValue(150);
+worksheet.cells.get("A3").putValue(150);
 //Adding a sample value to "A4" cell
-worksheet.getCells().get("A4").putValue(200);
+worksheet.cells.get("A4").putValue(200);
 //Adding a sample value to "B1" cell
-worksheet.getCells().get("B1").putValue(60);
+worksheet.cells.get("B1").putValue(60);
 //Adding a sample value to "B2" cell
-worksheet.getCells().get("B2").putValue(32);
+worksheet.cells.get("B2").putValue(32);
 //Adding a sample value to "B3" cell
-worksheet.getCells().get("B3").putValue(50);
+worksheet.cells.get("B3").putValue(50);
 //Adding a sample value to "B4" cell
-worksheet.getCells().get("B4").putValue(40);
+worksheet.cells.get("B4").putValue(40);
 //Adding a sample value to "C1" cell as category data
-worksheet.getCells().get("C1").putValue("Q1");
+worksheet.cells.get("C1").putValue("Q1");
 //Adding a sample value to "C2" cell as category data
-worksheet.getCells().get("C2").putValue("Q2");
+worksheet.cells.get("C2").putValue("Q2");
 //Adding a sample value to "C3" cell as category data
-worksheet.getCells().get("C3").putValue("Y1");
+worksheet.cells.get("C3").putValue("Y1");
 //Adding a sample value to "C4" cell as category data
-worksheet.getCells().get("C4").putValue("Y2");
+worksheet.cells.get("C4").putValue("Y2");
 //Adding a chart to the worksheet
-var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 15, 5);
 //Accessing the instance of the newly added chart
-var chart = worksheet.getCharts().get(chartIndex);
+var chart = worksheet.charts.get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-chart.getNSeries().add("A1:B4", true);
+chart.nSeries.add("A1:B4", true);
 //Setting the data source for the category data of NSeries
-chart.getNSeries().setCategoryData("C1:C4");
+chart.nSeries.categoryData = "C1:C4";
 //adding a linear trendline
-var index = chart.getNSeries().get(0).getTrendLines().add(TrendlineType.Linear);
-var trendline = chart.getNSeries().get(0).getTrendLines().get(index);
+var index = chart.nSeries.get(0).trendLines.add(TrendlineType.Linear);
+var trendline = chart.nSeries.get(0).trendLines.get(index);
 //Setting the custom name of the trendline.
-trendline.setName("Linear");
+trendline.name = "Linear";
 //Displaying the equation on chart
-trendline.setDisplayEquation(true);
+trendline.displayEquation = true;
 //Displaying the R-Squared value on chart
-trendline.setDisplayRSquared(true);
+trendline.displayRSquared = true;
 //Saving the Excel file
 workbook.save("output/ChartsTrendline.xls");
 ```
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Line)](#constructor-line-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isNameAuto](#isNameAuto--)| boolean | Returns if Microsoft Excel automatically determines the name of the trendline. |
+| [type](#type--)| TrendlineType | Readonly. Returns the trendline type. |
+| [name](#name--)| string | Returns the name of the trendline. |
+| [order](#order--)| number | Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
+| [period](#period--)| number | Returns or sets the period for the moving-average trendline. |
+| [forward](#forward--)| number | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
+| [backward](#backward--)| number | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [displayEquation](#displayEquation--)| boolean | Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
+| [displayRSquared](#displayRSquared--)| boolean | Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
+| [intercept](#intercept--)| number | Returns or sets the point where the trendline crosses the value axis. |
+| [dataLabels](#dataLabels--)| DataLabels | Readonly. Represents the DataLabels object for the specified series. |
+| [legendEntry](#legendEntry--)| LegendEntry | Readonly. Gets the legend entry according to this trendline |
+| [compoundType](#compoundType--)| MsoLineStyle | Specifies the compound line type |
+| [dashType](#dashType--)| MsoLineDashStyle | Specifies the dash line type |
+| [capType](#capType--)| LineCapType | Specifies the ending caps. |
+| [joinType](#joinType--)| LineJoinType | Specifies the joining caps. |
+| [beginType](#beginType--)| MsoArrowheadStyle | Specifies an arrowhead for the begin of a line. |
+| [endType](#endType--)| MsoArrowheadStyle | Specifies an arrowhead for the end of a line. |
+| [beginArrowLength](#beginArrowLength--)| MsoArrowheadLength | Specifies the length of the arrowhead for the begin of a line. |
+| [endArrowLength](#endArrowLength--)| MsoArrowheadLength | Specifies the length of the arrowhead for the end of a line. |
+| [beginArrowWidth](#beginArrowWidth--)| MsoArrowheadWidth | Specifies the width of the arrowhead for the begin of a line. |
+| [endArrowWidth](#endArrowWidth--)| MsoArrowheadWidth | Specifies the width of the arrowhead for the end of a line. |
+| [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color. |
+| [color](#color--)| Color | Represents the [Color](../color/) of the line. |
+| [transparency](#transparency--)| number | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [style](#style--)| LineType | Represents the style of the line. |
+| [weight](#weight--)| WeightType | Gets or sets the [WeightType](../weighttype/) of the line. |
+| [weightPt](#weightPt--)| number | Gets or sets the weight of the line in unit of points. |
+| [weightPx](#weightPx--)| number | Gets or sets the weight of the line in unit of pixels. |
+| [formattingType](#formattingType--)| ChartLineFormattingType | Gets or sets format type. |
+| [isAutomaticColor](#isAutomaticColor--)| boolean | Readonly. Indicates whether the color of line is automatic assigned. |
+| [isVisible](#isVisible--)| boolean | Represents whether the line is visible. |
+| [isAuto](#isAuto--)| boolean | Indicates whether this line style is auto assigned. |
+| [gradientFill](#gradientFill--)| GradientFill | Readonly. Represents gradient fill. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isNameAuto()](#isNameAuto--)| Returns if Microsoft Excel automatically determines the name of the trendline. |
-| [setIsNameAuto(boolean)](#setIsNameAuto-boolean-)| Returns if Microsoft Excel automatically determines the name of the trendline. |
-| [getType()](#getType--)| Returns the trendline type. |
-| [getName()](#getName--)| Returns the name of the trendline. |
-| [setName(string)](#setName-string-)| Returns the name of the trendline. |
-| [getOrder()](#getOrder--)| Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
-| [setOrder(number)](#setOrder-number-)| Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
-| [getPeriod()](#getPeriod--)| Returns or sets the period for the moving-average trendline. |
-| [setPeriod(number)](#setPeriod-number-)| Returns or sets the period for the moving-average trendline. |
-| [getForward()](#getForward--)| Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
-| [setForward(number)](#setForward-number-)| Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
-| [getBackward()](#getBackward--)| Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
-| [setBackward(number)](#setBackward-number-)| Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
-| [getDisplayEquation()](#getDisplayEquation--)| Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
-| [setDisplayEquation(boolean)](#setDisplayEquation-boolean-)| Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
-| [getDisplayRSquared()](#getDisplayRSquared--)| Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
-| [setDisplayRSquared(boolean)](#setDisplayRSquared-boolean-)| Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
-| [getIntercept()](#getIntercept--)| Returns or sets the point where the trendline crosses the value axis. |
-| [setIntercept(number)](#setIntercept-number-)| Returns or sets the point where the trendline crosses the value axis. |
-| [getDataLabels()](#getDataLabels--)| Represents the DataLabels object for the specified series. |
-| [getLegendEntry()](#getLegendEntry--)| Gets the legend entry according to this trendline |
+| [isNameAuto()](#isNameAuto--)| <b>@deprecated.</b> Please use the 'isNameAuto' property instead. Returns if Microsoft Excel automatically determines the name of the trendline. |
+| [setIsNameAuto(boolean)](#setIsNameAuto-boolean-)| <b>@deprecated.</b> Please use the 'isNameAuto' property instead. Returns if Microsoft Excel automatically determines the name of the trendline. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Returns the trendline type. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the trendline. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the trendline. |
+| [getOrder()](#getOrder--)| <b>@deprecated.</b> Please use the 'order' property instead. Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
+| [setOrder(number)](#setOrder-number-)| <b>@deprecated.</b> Please use the 'order' property instead. Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
+| [getPeriod()](#getPeriod--)| <b>@deprecated.</b> Please use the 'period' property instead. Returns or sets the period for the moving-average trendline. |
+| [setPeriod(number)](#setPeriod-number-)| <b>@deprecated.</b> Please use the 'period' property instead. Returns or sets the period for the moving-average trendline. |
+| [getForward()](#getForward--)| <b>@deprecated.</b> Please use the 'forward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
+| [setForward(number)](#setForward-number-)| <b>@deprecated.</b> Please use the 'forward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
+| [getBackward()](#getBackward--)| <b>@deprecated.</b> Please use the 'backward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [setBackward(number)](#setBackward-number-)| <b>@deprecated.</b> Please use the 'backward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [getDisplayEquation()](#getDisplayEquation--)| <b>@deprecated.</b> Please use the 'displayEquation' property instead. Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
+| [setDisplayEquation(boolean)](#setDisplayEquation-boolean-)| <b>@deprecated.</b> Please use the 'displayEquation' property instead. Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
+| [getDisplayRSquared()](#getDisplayRSquared--)| <b>@deprecated.</b> Please use the 'displayRSquared' property instead. Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
+| [setDisplayRSquared(boolean)](#setDisplayRSquared-boolean-)| <b>@deprecated.</b> Please use the 'displayRSquared' property instead. Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
+| [getIntercept()](#getIntercept--)| <b>@deprecated.</b> Please use the 'intercept' property instead. Returns or sets the point where the trendline crosses the value axis. |
+| [setIntercept(number)](#setIntercept-number-)| <b>@deprecated.</b> Please use the 'intercept' property instead. Returns or sets the point where the trendline crosses the value axis. |
+| [getDataLabels()](#getDataLabels--)| <b>@deprecated.</b> Please use the 'dataLabels' property instead. Represents the DataLabels object for the specified series. |
+| [getLegendEntry()](#getLegendEntry--)| <b>@deprecated.</b> Please use the 'legendEntry' property instead. Gets the legend entry according to this trendline |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getCompoundType()](#getCompoundType--)| Specifies the compound line type |
-| [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| Specifies the compound line type |
-| [getDashType()](#getDashType--)| Specifies the dash line type |
-| [setDashType(MsoLineDashStyle)](#setDashType-msolinedashstyle-)| Specifies the dash line type |
-| [getCapType()](#getCapType--)| Specifies the ending caps. |
-| [setCapType(LineCapType)](#setCapType-linecaptype-)| Specifies the ending caps. |
-| [getJoinType()](#getJoinType--)| Specifies the joining caps. |
-| [setJoinType(LineJoinType)](#setJoinType-linejointype-)| Specifies the joining caps. |
-| [getBeginType()](#getBeginType--)| Specifies an arrowhead for the begin of a line. |
-| [setBeginType(MsoArrowheadStyle)](#setBeginType-msoarrowheadstyle-)| Specifies an arrowhead for the begin of a line. |
-| [getEndType()](#getEndType--)| Specifies an arrowhead for the end of a line. |
-| [setEndType(MsoArrowheadStyle)](#setEndType-msoarrowheadstyle-)| Specifies an arrowhead for the end of a line. |
-| [getBeginArrowLength()](#getBeginArrowLength--)| Specifies the length of the arrowhead for the begin of a line. |
-| [setBeginArrowLength(MsoArrowheadLength)](#setBeginArrowLength-msoarrowheadlength-)| Specifies the length of the arrowhead for the begin of a line. |
-| [getEndArrowLength()](#getEndArrowLength--)| Specifies the length of the arrowhead for the end of a line. |
-| [setEndArrowLength(MsoArrowheadLength)](#setEndArrowLength-msoarrowheadlength-)| Specifies the length of the arrowhead for the end of a line. |
-| [getBeginArrowWidth()](#getBeginArrowWidth--)| Specifies the width of the arrowhead for the begin of a line. |
-| [setBeginArrowWidth(MsoArrowheadWidth)](#setBeginArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the begin of a line. |
-| [getEndArrowWidth()](#getEndArrowWidth--)| Specifies the width of the arrowhead for the end of a line. |
-| [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
-| [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
-| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [Color](../color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [Color](../color/) of the line. |
-| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getStyle()](#getStyle--)| Represents the style of the line. |
-| [setStyle(LineType)](#setStyle-linetype-)| Represents the style of the line. |
-| [getWeight()](#getWeight--)| Gets or sets the [WeightType](../weighttype/) of the line. |
-| [setWeight(WeightType)](#setWeight-weighttype-)| Gets or sets the [WeightType](../weighttype/) of the line. |
-| [getWeightPt()](#getWeightPt--)| Gets or sets the weight of the line in unit of points. |
-| [setWeightPt(number)](#setWeightPt-number-)| Gets or sets the weight of the line in unit of points. |
-| [getWeightPx()](#getWeightPx--)| Gets or sets the weight of the line in unit of pixels. |
-| [setWeightPx(number)](#setWeightPx-number-)| Gets or sets the weight of the line in unit of pixels. |
-| [getFormattingType()](#getFormattingType--)| Gets or sets format type. |
-| [setFormattingType(ChartLineFormattingType)](#setFormattingType-chartlineformattingtype-)| Gets or sets format type. |
-| [isAutomaticColor()](#isAutomaticColor--)| Indicates whether the color of line is automatic assigned. |
-| [isVisible()](#isVisible--)| Represents whether the line is visible. |
-| [setIsVisible(boolean)](#setIsVisible-boolean-)| Represents whether the line is visible. |
-| [isAuto()](#isAuto--)| Indicates whether this line style is auto assigned. |
-| [setIsAuto(boolean)](#setIsAuto-boolean-)| Indicates whether this line style is auto assigned. |
-| [getGradientFill()](#getGradientFill--)| Represents gradient fill. |
+| [getCompoundType()](#getCompoundType--)| <b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type |
+| [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| <b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type |
+| [getDashType()](#getDashType--)| <b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type |
+| [setDashType(MsoLineDashStyle)](#setDashType-msolinedashstyle-)| <b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type |
+| [getCapType()](#getCapType--)| <b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps. |
+| [setCapType(LineCapType)](#setCapType-linecaptype-)| <b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps. |
+| [getJoinType()](#getJoinType--)| <b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps. |
+| [setJoinType(LineJoinType)](#setJoinType-linejointype-)| <b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps. |
+| [getBeginType()](#getBeginType--)| <b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line. |
+| [setBeginType(MsoArrowheadStyle)](#setBeginType-msoarrowheadstyle-)| <b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line. |
+| [getEndType()](#getEndType--)| <b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line. |
+| [setEndType(MsoArrowheadStyle)](#setEndType-msoarrowheadstyle-)| <b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line. |
+| [getBeginArrowLength()](#getBeginArrowLength--)| <b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line. |
+| [setBeginArrowLength(MsoArrowheadLength)](#setBeginArrowLength-msoarrowheadlength-)| <b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line. |
+| [getEndArrowLength()](#getEndArrowLength--)| <b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line. |
+| [setEndArrowLength(MsoArrowheadLength)](#setEndArrowLength-msoarrowheadlength-)| <b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line. |
+| [getBeginArrowWidth()](#getBeginArrowWidth--)| <b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line. |
+| [setBeginArrowWidth(MsoArrowheadWidth)](#setBeginArrowWidth-msoarrowheadwidth-)| <b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line. |
+| [getEndArrowWidth()](#getEndArrowWidth--)| <b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line. |
+| [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| <b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line. |
+| [getThemeColor()](#getThemeColor--)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| <b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color. |
+| [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line. |
+| [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line. |
+| [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getStyle()](#getStyle--)| <b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line. |
+| [setStyle(LineType)](#setStyle-linetype-)| <b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line. |
+| [getWeight()](#getWeight--)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line. |
+| [setWeight(WeightType)](#setWeight-weighttype-)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line. |
+| [getWeightPt()](#getWeightPt--)| <b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points. |
+| [setWeightPt(number)](#setWeightPt-number-)| <b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points. |
+| [getWeightPx()](#getWeightPx--)| <b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels. |
+| [setWeightPx(number)](#setWeightPx-number-)| <b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels. |
+| [getFormattingType()](#getFormattingType--)| <b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type. |
+| [setFormattingType(ChartLineFormattingType)](#setFormattingType-chartlineformattingtype-)| <b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type. |
+| [isAutomaticColor()](#isAutomaticColor--)| <b>@deprecated.</b> Please use the 'isAutomaticColor' property instead. Indicates whether the color of line is automatic assigned. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible. |
+| [isAuto()](#isAuto--)| <b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned. |
+| [setIsAuto(boolean)](#setIsAuto-boolean-)| <b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned. |
+| [getGradientFill()](#getGradientFill--)| <b>@deprecated.</b> Please use the 'gradientFill' property instead. Represents gradient fill. |
 
 
 ### constructor(Line) {#constructor-line-}
@@ -158,9 +197,323 @@ constructor(obj: Line);
 | --- | --- | --- |
 | obj | Line | The parent object. |
 
-### isNameAuto() {#isNameAuto--}
+### isNameAuto {#isNameAuto--}
 
 Returns if Microsoft Excel automatically determines the name of the trendline.
+
+```javascript
+isNameAuto : boolean;
+```
+
+
+### type {#type--}
+
+Readonly. Returns the trendline type.
+
+```javascript
+type : TrendlineType;
+```
+
+
+### name {#name--}
+
+Returns the name of the trendline.
+
+```javascript
+name : string;
+```
+
+
+### order {#order--}
+
+Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
+
+```javascript
+order : number;
+```
+
+
+### period {#period--}
+
+Returns or sets the period for the moving-average trendline.
+
+```javascript
+period : number;
+```
+
+
+**Remarks**
+
+This value should be between 2 and 255. And it must be less than the number of the chart points in the series
+
+### forward {#forward--}
+
+Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
+
+```javascript
+forward : number;
+```
+
+
+### backward {#backward--}
+
+Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
+
+```javascript
+backward : number;
+```
+
+
+### displayEquation {#displayEquation--}
+
+Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
+
+```javascript
+displayEquation : boolean;
+```
+
+
+### displayRSquared {#displayRSquared--}
+
+Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
+
+```javascript
+displayRSquared : boolean;
+```
+
+
+### intercept {#intercept--}
+
+Returns or sets the point where the trendline crosses the value axis.
+
+```javascript
+intercept : number;
+```
+
+
+### dataLabels {#dataLabels--}
+
+Readonly. Represents the DataLabels object for the specified series.
+
+```javascript
+dataLabels : DataLabels;
+```
+
+
+### legendEntry {#legendEntry--}
+
+Readonly. Gets the legend entry according to this trendline
+
+```javascript
+legendEntry : LegendEntry;
+```
+
+
+### compoundType {#compoundType--}
+
+Specifies the compound line type
+
+```javascript
+compoundType : MsoLineStyle;
+```
+
+
+### dashType {#dashType--}
+
+Specifies the dash line type
+
+```javascript
+dashType : MsoLineDashStyle;
+```
+
+
+### capType {#capType--}
+
+Specifies the ending caps.
+
+```javascript
+capType : LineCapType;
+```
+
+
+### joinType {#joinType--}
+
+Specifies the joining caps.
+
+```javascript
+joinType : LineJoinType;
+```
+
+
+### beginType {#beginType--}
+
+Specifies an arrowhead for the begin of a line.
+
+```javascript
+beginType : MsoArrowheadStyle;
+```
+
+
+### endType {#endType--}
+
+Specifies an arrowhead for the end of a line.
+
+```javascript
+endType : MsoArrowheadStyle;
+```
+
+
+### beginArrowLength {#beginArrowLength--}
+
+Specifies the length of the arrowhead for the begin of a line.
+
+```javascript
+beginArrowLength : MsoArrowheadLength;
+```
+
+
+### endArrowLength {#endArrowLength--}
+
+Specifies the length of the arrowhead for the end of a line.
+
+```javascript
+endArrowLength : MsoArrowheadLength;
+```
+
+
+### beginArrowWidth {#beginArrowWidth--}
+
+Specifies the width of the arrowhead for the begin of a line.
+
+```javascript
+beginArrowWidth : MsoArrowheadWidth;
+```
+
+
+### endArrowWidth {#endArrowWidth--}
+
+Specifies the width of the arrowhead for the end of a line.
+
+```javascript
+endArrowWidth : MsoArrowheadWidth;
+```
+
+
+### themeColor {#themeColor--}
+
+Gets and sets the theme color.
+
+```javascript
+themeColor : ThemeColor;
+```
+
+
+**Remarks**
+
+If the foreground color is not a theme color, NULL will be returned.
+
+### color {#color--}
+
+Represents the [Color](../color/) of the line.
+
+```javascript
+color : Color;
+```
+
+
+### transparency {#transparency--}
+
+Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+transparency : number;
+```
+
+
+### style {#style--}
+
+Represents the style of the line.
+
+```javascript
+style : LineType;
+```
+
+
+### weight {#weight--}
+
+Gets or sets the [WeightType](../weighttype/) of the line.
+
+```javascript
+weight : WeightType;
+```
+
+
+### weightPt {#weightPt--}
+
+Gets or sets the weight of the line in unit of points.
+
+```javascript
+weightPt : number;
+```
+
+
+### weightPx {#weightPx--}
+
+Gets or sets the weight of the line in unit of pixels.
+
+```javascript
+weightPx : number;
+```
+
+
+### formattingType {#formattingType--}
+
+Gets or sets format type.
+
+```javascript
+formattingType : ChartLineFormattingType;
+```
+
+
+### isAutomaticColor {#isAutomaticColor--}
+
+Readonly. Indicates whether the color of line is automatic assigned.
+
+```javascript
+isAutomaticColor : boolean;
+```
+
+
+### isVisible {#isVisible--}
+
+Represents whether the line is visible.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### isAuto {#isAuto--}
+
+Indicates whether this line style is auto assigned.
+
+```javascript
+isAuto : boolean;
+```
+
+
+### gradientFill {#gradientFill--}
+
+Readonly. Represents gradient fill.
+
+```javascript
+gradientFill : GradientFill;
+```
+
+
+### isNameAuto() {#isNameAuto--}
+
+<b>@deprecated.</b> Please use the 'isNameAuto' property instead. Returns if Microsoft Excel automatically determines the name of the trendline.
 
 ```javascript
 isNameAuto() : boolean;
@@ -169,7 +522,7 @@ isNameAuto() : boolean;
 
 ### setIsNameAuto(boolean) {#setIsNameAuto-boolean-}
 
-Returns if Microsoft Excel automatically determines the name of the trendline.
+<b>@deprecated.</b> Please use the 'isNameAuto' property instead. Returns if Microsoft Excel automatically determines the name of the trendline.
 
 ```javascript
 setIsNameAuto(value: boolean) : void;
@@ -182,7 +535,7 @@ setIsNameAuto(value: boolean) : void;
 
 ### getType() {#getType--}
 
-Returns the trendline type.
+<b>@deprecated.</b> Please use the 'type' property instead. Returns the trendline type.
 
 ```javascript
 getType() : TrendlineType;
@@ -195,7 +548,7 @@ getType() : TrendlineType;
 
 ### getName() {#getName--}
 
-Returns the name of the trendline.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the trendline.
 
 ```javascript
 getName() : string;
@@ -204,7 +557,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Returns the name of the trendline.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns the name of the trendline.
 
 ```javascript
 setName(value: string) : void;
@@ -217,7 +570,7 @@ setName(value: string) : void;
 
 ### getOrder() {#getOrder--}
 
-Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
+<b>@deprecated.</b> Please use the 'order' property instead. Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
 
 ```javascript
 getOrder() : number;
@@ -226,7 +579,7 @@ getOrder() : number;
 
 ### setOrder(number) {#setOrder-number-}
 
-Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
+<b>@deprecated.</b> Please use the 'order' property instead. Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
 
 ```javascript
 setOrder(value: number) : void;
@@ -239,7 +592,7 @@ setOrder(value: number) : void;
 
 ### getPeriod() {#getPeriod--}
 
-Returns or sets the period for the moving-average trendline.
+<b>@deprecated.</b> Please use the 'period' property instead. Returns or sets the period for the moving-average trendline.
 
 ```javascript
 getPeriod() : number;
@@ -252,7 +605,7 @@ This value should be between 2 and 255. And it must be less than the number of t
 
 ### setPeriod(number) {#setPeriod-number-}
 
-Returns or sets the period for the moving-average trendline.
+<b>@deprecated.</b> Please use the 'period' property instead. Returns or sets the period for the moving-average trendline.
 
 ```javascript
 setPeriod(value: number) : void;
@@ -269,7 +622,7 @@ This value should be between 2 and 255. And it must be less than the number of t
 
 ### getForward() {#getForward--}
 
-Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
+<b>@deprecated.</b> Please use the 'forward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
 
 ```javascript
 getForward() : number;
@@ -278,7 +631,7 @@ getForward() : number;
 
 ### setForward(number) {#setForward-number-}
 
-Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
+<b>@deprecated.</b> Please use the 'forward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
 
 ```javascript
 setForward(value: number) : void;
@@ -291,7 +644,7 @@ setForward(value: number) : void;
 
 ### getBackward() {#getBackward--}
 
-Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
+<b>@deprecated.</b> Please use the 'backward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
 
 ```javascript
 getBackward() : number;
@@ -300,7 +653,7 @@ getBackward() : number;
 
 ### setBackward(number) {#setBackward-number-}
 
-Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
+<b>@deprecated.</b> Please use the 'backward' property instead. Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
 
 ```javascript
 setBackward(value: number) : void;
@@ -313,7 +666,7 @@ setBackward(value: number) : void;
 
 ### getDisplayEquation() {#getDisplayEquation--}
 
-Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
+<b>@deprecated.</b> Please use the 'displayEquation' property instead. Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
 
 ```javascript
 getDisplayEquation() : boolean;
@@ -322,7 +675,7 @@ getDisplayEquation() : boolean;
 
 ### setDisplayEquation(boolean) {#setDisplayEquation-boolean-}
 
-Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
+<b>@deprecated.</b> Please use the 'displayEquation' property instead. Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
 
 ```javascript
 setDisplayEquation(value: boolean) : void;
@@ -335,7 +688,7 @@ setDisplayEquation(value: boolean) : void;
 
 ### getDisplayRSquared() {#getDisplayRSquared--}
 
-Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
+<b>@deprecated.</b> Please use the 'displayRSquared' property instead. Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
 
 ```javascript
 getDisplayRSquared() : boolean;
@@ -344,7 +697,7 @@ getDisplayRSquared() : boolean;
 
 ### setDisplayRSquared(boolean) {#setDisplayRSquared-boolean-}
 
-Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
+<b>@deprecated.</b> Please use the 'displayRSquared' property instead. Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
 
 ```javascript
 setDisplayRSquared(value: boolean) : void;
@@ -357,7 +710,7 @@ setDisplayRSquared(value: boolean) : void;
 
 ### getIntercept() {#getIntercept--}
 
-Returns or sets the point where the trendline crosses the value axis.
+<b>@deprecated.</b> Please use the 'intercept' property instead. Returns or sets the point where the trendline crosses the value axis.
 
 ```javascript
 getIntercept() : number;
@@ -366,7 +719,7 @@ getIntercept() : number;
 
 ### setIntercept(number) {#setIntercept-number-}
 
-Returns or sets the point where the trendline crosses the value axis.
+<b>@deprecated.</b> Please use the 'intercept' property instead. Returns or sets the point where the trendline crosses the value axis.
 
 ```javascript
 setIntercept(value: number) : void;
@@ -379,7 +732,7 @@ setIntercept(value: number) : void;
 
 ### getDataLabels() {#getDataLabels--}
 
-Represents the DataLabels object for the specified series.
+<b>@deprecated.</b> Please use the 'dataLabels' property instead. Represents the DataLabels object for the specified series.
 
 ```javascript
 getDataLabels() : DataLabels;
@@ -392,7 +745,7 @@ getDataLabels() : DataLabels;
 
 ### getLegendEntry() {#getLegendEntry--}
 
-Gets the legend entry according to this trendline
+<b>@deprecated.</b> Please use the 'legendEntry' property instead. Gets the legend entry according to this trendline
 
 ```javascript
 getLegendEntry() : LegendEntry;
@@ -414,7 +767,7 @@ isNull() : boolean;
 
 ### getCompoundType() {#getCompoundType--}
 
-Specifies the compound line type
+<b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type
 
 ```javascript
 getCompoundType() : MsoLineStyle;
@@ -427,7 +780,7 @@ getCompoundType() : MsoLineStyle;
 
 ### setCompoundType(MsoLineStyle) {#setCompoundType-msolinestyle-}
 
-Specifies the compound line type
+<b>@deprecated.</b> Please use the 'compoundType' property instead. Specifies the compound line type
 
 ```javascript
 setCompoundType(value: MsoLineStyle) : void;
@@ -440,7 +793,7 @@ setCompoundType(value: MsoLineStyle) : void;
 
 ### getDashType() {#getDashType--}
 
-Specifies the dash line type
+<b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type
 
 ```javascript
 getDashType() : MsoLineDashStyle;
@@ -453,7 +806,7 @@ getDashType() : MsoLineDashStyle;
 
 ### setDashType(MsoLineDashStyle) {#setDashType-msolinedashstyle-}
 
-Specifies the dash line type
+<b>@deprecated.</b> Please use the 'dashType' property instead. Specifies the dash line type
 
 ```javascript
 setDashType(value: MsoLineDashStyle) : void;
@@ -466,7 +819,7 @@ setDashType(value: MsoLineDashStyle) : void;
 
 ### getCapType() {#getCapType--}
 
-Specifies the ending caps.
+<b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps.
 
 ```javascript
 getCapType() : LineCapType;
@@ -479,7 +832,7 @@ getCapType() : LineCapType;
 
 ### setCapType(LineCapType) {#setCapType-linecaptype-}
 
-Specifies the ending caps.
+<b>@deprecated.</b> Please use the 'capType' property instead. Specifies the ending caps.
 
 ```javascript
 setCapType(value: LineCapType) : void;
@@ -492,7 +845,7 @@ setCapType(value: LineCapType) : void;
 
 ### getJoinType() {#getJoinType--}
 
-Specifies the joining caps.
+<b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps.
 
 ```javascript
 getJoinType() : LineJoinType;
@@ -505,7 +858,7 @@ getJoinType() : LineJoinType;
 
 ### setJoinType(LineJoinType) {#setJoinType-linejointype-}
 
-Specifies the joining caps.
+<b>@deprecated.</b> Please use the 'joinType' property instead. Specifies the joining caps.
 
 ```javascript
 setJoinType(value: LineJoinType) : void;
@@ -518,7 +871,7 @@ setJoinType(value: LineJoinType) : void;
 
 ### getBeginType() {#getBeginType--}
 
-Specifies an arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line.
 
 ```javascript
 getBeginType() : MsoArrowheadStyle;
@@ -531,7 +884,7 @@ getBeginType() : MsoArrowheadStyle;
 
 ### setBeginType(MsoArrowheadStyle) {#setBeginType-msoarrowheadstyle-}
 
-Specifies an arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginType' property instead. Specifies an arrowhead for the begin of a line.
 
 ```javascript
 setBeginType(value: MsoArrowheadStyle) : void;
@@ -544,7 +897,7 @@ setBeginType(value: MsoArrowheadStyle) : void;
 
 ### getEndType() {#getEndType--}
 
-Specifies an arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line.
 
 ```javascript
 getEndType() : MsoArrowheadStyle;
@@ -557,7 +910,7 @@ getEndType() : MsoArrowheadStyle;
 
 ### setEndType(MsoArrowheadStyle) {#setEndType-msoarrowheadstyle-}
 
-Specifies an arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endType' property instead. Specifies an arrowhead for the end of a line.
 
 ```javascript
 setEndType(value: MsoArrowheadStyle) : void;
@@ -570,7 +923,7 @@ setEndType(value: MsoArrowheadStyle) : void;
 
 ### getBeginArrowLength() {#getBeginArrowLength--}
 
-Specifies the length of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line.
 
 ```javascript
 getBeginArrowLength() : MsoArrowheadLength;
@@ -583,7 +936,7 @@ getBeginArrowLength() : MsoArrowheadLength;
 
 ### setBeginArrowLength(MsoArrowheadLength) {#setBeginArrowLength-msoarrowheadlength-}
 
-Specifies the length of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowLength' property instead. Specifies the length of the arrowhead for the begin of a line.
 
 ```javascript
 setBeginArrowLength(value: MsoArrowheadLength) : void;
@@ -596,7 +949,7 @@ setBeginArrowLength(value: MsoArrowheadLength) : void;
 
 ### getEndArrowLength() {#getEndArrowLength--}
 
-Specifies the length of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line.
 
 ```javascript
 getEndArrowLength() : MsoArrowheadLength;
@@ -609,7 +962,7 @@ getEndArrowLength() : MsoArrowheadLength;
 
 ### setEndArrowLength(MsoArrowheadLength) {#setEndArrowLength-msoarrowheadlength-}
 
-Specifies the length of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowLength' property instead. Specifies the length of the arrowhead for the end of a line.
 
 ```javascript
 setEndArrowLength(value: MsoArrowheadLength) : void;
@@ -622,7 +975,7 @@ setEndArrowLength(value: MsoArrowheadLength) : void;
 
 ### getBeginArrowWidth() {#getBeginArrowWidth--}
 
-Specifies the width of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line.
 
 ```javascript
 getBeginArrowWidth() : MsoArrowheadWidth;
@@ -635,7 +988,7 @@ getBeginArrowWidth() : MsoArrowheadWidth;
 
 ### setBeginArrowWidth(MsoArrowheadWidth) {#setBeginArrowWidth-msoarrowheadwidth-}
 
-Specifies the width of the arrowhead for the begin of a line.
+<b>@deprecated.</b> Please use the 'beginArrowWidth' property instead. Specifies the width of the arrowhead for the begin of a line.
 
 ```javascript
 setBeginArrowWidth(value: MsoArrowheadWidth) : void;
@@ -648,7 +1001,7 @@ setBeginArrowWidth(value: MsoArrowheadWidth) : void;
 
 ### getEndArrowWidth() {#getEndArrowWidth--}
 
-Specifies the width of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line.
 
 ```javascript
 getEndArrowWidth() : MsoArrowheadWidth;
@@ -661,7 +1014,7 @@ getEndArrowWidth() : MsoArrowheadWidth;
 
 ### setEndArrowWidth(MsoArrowheadWidth) {#setEndArrowWidth-msoarrowheadwidth-}
 
-Specifies the width of the arrowhead for the end of a line.
+<b>@deprecated.</b> Please use the 'endArrowWidth' property instead. Specifies the width of the arrowhead for the end of a line.
 
 ```javascript
 setEndArrowWidth(value: MsoArrowheadWidth) : void;
@@ -674,7 +1027,7 @@ setEndArrowWidth(value: MsoArrowheadWidth) : void;
 
 ### getThemeColor() {#getThemeColor--}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 getThemeColor() : ThemeColor;
@@ -691,7 +1044,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
-Gets and sets the theme color.
+<b>@deprecated.</b> Please use the 'themeColor' property instead. Gets and sets the theme color.
 
 ```javascript
 setThemeColor(value: ThemeColor) : void;
@@ -708,7 +1061,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [Color](../color/) of the line.
+<b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -721,7 +1074,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [Color](../color/) of the line.
+<b>@deprecated.</b> Please use the 'color' property instead. Represents the [Color](../color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;
@@ -734,7 +1087,7 @@ setColor(value: Color) : void;
 
 ### getTransparency() {#getTransparency--}
 
-Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 getTransparency() : number;
@@ -743,7 +1096,7 @@ getTransparency() : number;
 
 ### setTransparency(number) {#setTransparency-number-}
 
-Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
+<b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 ```javascript
 setTransparency(value: number) : void;
@@ -756,7 +1109,7 @@ setTransparency(value: number) : void;
 
 ### getStyle() {#getStyle--}
 
-Represents the style of the line.
+<b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line.
 
 ```javascript
 getStyle() : LineType;
@@ -769,7 +1122,7 @@ getStyle() : LineType;
 
 ### setStyle(LineType) {#setStyle-linetype-}
 
-Represents the style of the line.
+<b>@deprecated.</b> Please use the 'style' property instead. Represents the style of the line.
 
 ```javascript
 setStyle(value: LineType) : void;
@@ -782,7 +1135,7 @@ setStyle(value: LineType) : void;
 
 ### getWeight() {#getWeight--}
 
-Gets or sets the [WeightType](../weighttype/) of the line.
+<b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line.
 
 ```javascript
 getWeight() : WeightType;
@@ -795,7 +1148,7 @@ getWeight() : WeightType;
 
 ### setWeight(WeightType) {#setWeight-weighttype-}
 
-Gets or sets the [WeightType](../weighttype/) of the line.
+<b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the [WeightType](../weighttype/) of the line.
 
 ```javascript
 setWeight(value: WeightType) : void;
@@ -808,7 +1161,7 @@ setWeight(value: WeightType) : void;
 
 ### getWeightPt() {#getWeightPt--}
 
-Gets or sets the weight of the line in unit of points.
+<b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points.
 
 ```javascript
 getWeightPt() : number;
@@ -817,7 +1170,7 @@ getWeightPt() : number;
 
 ### setWeightPt(number) {#setWeightPt-number-}
 
-Gets or sets the weight of the line in unit of points.
+<b>@deprecated.</b> Please use the 'weightPt' property instead. Gets or sets the weight of the line in unit of points.
 
 ```javascript
 setWeightPt(value: number) : void;
@@ -830,7 +1183,7 @@ setWeightPt(value: number) : void;
 
 ### getWeightPx() {#getWeightPx--}
 
-Gets or sets the weight of the line in unit of pixels.
+<b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels.
 
 ```javascript
 getWeightPx() : number;
@@ -839,7 +1192,7 @@ getWeightPx() : number;
 
 ### setWeightPx(number) {#setWeightPx-number-}
 
-Gets or sets the weight of the line in unit of pixels.
+<b>@deprecated.</b> Please use the 'weightPx' property instead. Gets or sets the weight of the line in unit of pixels.
 
 ```javascript
 setWeightPx(value: number) : void;
@@ -852,7 +1205,7 @@ setWeightPx(value: number) : void;
 
 ### getFormattingType() {#getFormattingType--}
 
-Gets or sets format type.
+<b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type.
 
 ```javascript
 getFormattingType() : ChartLineFormattingType;
@@ -865,7 +1218,7 @@ getFormattingType() : ChartLineFormattingType;
 
 ### setFormattingType(ChartLineFormattingType) {#setFormattingType-chartlineformattingtype-}
 
-Gets or sets format type.
+<b>@deprecated.</b> Please use the 'formattingType' property instead. Gets or sets format type.
 
 ```javascript
 setFormattingType(value: ChartLineFormattingType) : void;
@@ -878,7 +1231,7 @@ setFormattingType(value: ChartLineFormattingType) : void;
 
 ### isAutomaticColor() {#isAutomaticColor--}
 
-Indicates whether the color of line is automatic assigned.
+<b>@deprecated.</b> Please use the 'isAutomaticColor' property instead. Indicates whether the color of line is automatic assigned.
 
 ```javascript
 isAutomaticColor() : boolean;
@@ -887,7 +1240,7 @@ isAutomaticColor() : boolean;
 
 ### isVisible() {#isVisible--}
 
-Represents whether the line is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible.
 
 ```javascript
 isVisible() : boolean;
@@ -896,7 +1249,7 @@ isVisible() : boolean;
 
 ### setIsVisible(boolean) {#setIsVisible-boolean-}
 
-Represents whether the line is visible.
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the line is visible.
 
 ```javascript
 setIsVisible(value: boolean) : void;
@@ -909,7 +1262,7 @@ setIsVisible(value: boolean) : void;
 
 ### isAuto() {#isAuto--}
 
-Indicates whether this line style is auto assigned.
+<b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned.
 
 ```javascript
 isAuto() : boolean;
@@ -918,7 +1271,7 @@ isAuto() : boolean;
 
 ### setIsAuto(boolean) {#setIsAuto-boolean-}
 
-Indicates whether this line style is auto assigned.
+<b>@deprecated.</b> Please use the 'isAuto' property instead. Indicates whether this line style is auto assigned.
 
 ```javascript
 setIsAuto(value: boolean) : void;
@@ -931,7 +1284,7 @@ setIsAuto(value: boolean) : void;
 
 ### getGradientFill() {#getGradientFill--}
 
-Represents gradient fill.
+<b>@deprecated.</b> Please use the 'gradientFill' property instead. Represents gradient fill.
 
 ```javascript
 getGradientFill() : GradientFill;

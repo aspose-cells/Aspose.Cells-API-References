@@ -4,7 +4,7 @@ linktitle: HtmlCrossType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlCrossType enum. Represents five types of html cross string in C++.'
 type: docs
-weight: 21600
+weight: 22300
 url: /cpp/aspose.cells/htmlcrosstype/
 ---
 ## HtmlCrossType enum

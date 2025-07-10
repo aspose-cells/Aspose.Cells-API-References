@@ -15,24 +15,69 @@ class OdsCellField;
 ```
 
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [customFormat](#customFormat--)| string | Represents the custom format of the field's value. |
+| [fieldType](#fieldType--)| OdsCellFieldType | Gets and sets the type of the field. |
+| [row](#row--)| number | Get and sets the row index of the cell. |
+| [column](#column--)| number | Get and sets the column index of the cell. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCustomFormat()](#getCustomFormat--)| Represents the custom format of the field's value. |
-| [setCustomFormat(string)](#setCustomFormat-string-)| Represents the custom format of the field's value. |
-| [getFieldType()](#getFieldType--)| Gets and sets the type of the field. |
-| [setFieldType(OdsCellFieldType)](#setFieldType-odscellfieldtype-)| Gets and sets the type of the field. |
-| [getRow()](#getRow--)| Get and sets the row index of the cell. |
-| [setRow(number)](#setRow-number-)| Get and sets the row index of the cell. |
-| [getColumn()](#getColumn--)| Get and sets the column index of the cell. |
-| [setColumn(number)](#setColumn-number-)| Get and sets the column index of the cell. |
+| [getCustomFormat()](#getCustomFormat--)| <b>@deprecated.</b> Please use the 'customFormat' property instead. Represents the custom format of the field's value. |
+| [setCustomFormat(string)](#setCustomFormat-string-)| <b>@deprecated.</b> Please use the 'customFormat' property instead. Represents the custom format of the field's value. |
+| [getFieldType()](#getFieldType--)| <b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field. |
+| [setFieldType(OdsCellFieldType)](#setFieldType-odscellfieldtype-)| <b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell. |
+| [setRow(number)](#setRow-number-)| <b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell. |
+| [setColumn(number)](#setColumn-number-)| <b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### customFormat {#customFormat--}
+
+Represents the custom format of the field's value.
+
+```javascript
+customFormat : string;
+```
+
+
+### fieldType {#fieldType--}
+
+Gets and sets the type of the field.
+
+```javascript
+fieldType : OdsCellFieldType;
+```
+
+
+### row {#row--}
+
+Get and sets the row index of the cell.
+
+```javascript
+row : number;
+```
+
+
+### column {#column--}
+
+Get and sets the column index of the cell.
+
+```javascript
+column : number;
+```
 
 
 ### getCustomFormat() {#getCustomFormat--}
 
-Represents the custom format of the field's value.
+<b>@deprecated.</b> Please use the 'customFormat' property instead. Represents the custom format of the field's value.
 
 ```javascript
 getCustomFormat() : string;
@@ -41,7 +86,7 @@ getCustomFormat() : string;
 
 ### setCustomFormat(string) {#setCustomFormat-string-}
 
-Represents the custom format of the field's value.
+<b>@deprecated.</b> Please use the 'customFormat' property instead. Represents the custom format of the field's value.
 
 ```javascript
 setCustomFormat(value: string) : void;
@@ -54,7 +99,7 @@ setCustomFormat(value: string) : void;
 
 ### getFieldType() {#getFieldType--}
 
-Gets and sets the type of the field.
+<b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field.
 
 ```javascript
 getFieldType() : OdsCellFieldType;
@@ -67,7 +112,7 @@ getFieldType() : OdsCellFieldType;
 
 ### setFieldType(OdsCellFieldType) {#setFieldType-odscellfieldtype-}
 
-Gets and sets the type of the field.
+<b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field.
 
 ```javascript
 setFieldType(value: OdsCellFieldType) : void;
@@ -80,7 +125,7 @@ setFieldType(value: OdsCellFieldType) : void;
 
 ### getRow() {#getRow--}
 
-Get and sets the row index of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell.
 
 ```javascript
 getRow() : number;
@@ -89,7 +134,7 @@ getRow() : number;
 
 ### setRow(number) {#setRow-number-}
 
-Get and sets the row index of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell.
 
 ```javascript
 setRow(value: number) : void;
@@ -102,7 +147,7 @@ setRow(value: number) : void;
 
 ### getColumn() {#getColumn--}
 
-Get and sets the column index of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell.
 
 ```javascript
 getColumn() : number;
@@ -111,7 +156,7 @@ getColumn() : number;
 
 ### setColumn(number) {#setColumn-number-}
 
-Get and sets the column index of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell.
 
 ```javascript
 setColumn(value: number) : void;

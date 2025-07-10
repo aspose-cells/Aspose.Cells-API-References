@@ -17,18 +17,25 @@ class CustomProperty;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [name](#name--)| string | Returns or sets the name of the object. |
+| [value](#value--)| string | Returns or sets the value of the custom property. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Returns or sets the name of the object. |
-| [setName(string)](#setName-string-)| Returns or sets the name of the object. |
-| [getValue()](#getValue--)| Returns or sets the value of the custom property. |
-| [setValue(string)](#setValue-string-)| Returns or sets the value of the custom property. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the custom property. |
+| [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the custom property. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -41,9 +48,27 @@ constructor();
 ```
 
 
-### getName() {#getName--}
+### name {#name--}
 
 Returns or sets the name of the object.
+
+```javascript
+name : string;
+```
+
+
+### value {#value--}
+
+Returns or sets the value of the custom property.
+
+```javascript
+value : string;
+```
+
+
+### getName() {#getName--}
+
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object.
 
 ```javascript
 getName() : string;
@@ -52,7 +77,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Returns or sets the name of the object.
+<b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the object.
 
 ```javascript
 setName(value: string) : void;
@@ -65,7 +90,7 @@ setName(value: string) : void;
 
 ### getValue() {#getValue--}
 
-Returns or sets the value of the custom property.
+<b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the custom property.
 
 ```javascript
 getValue() : string;
@@ -74,7 +99,7 @@ getValue() : string;
 
 ### setValue(string) {#setValue-string-}
 
-Returns or sets the value of the custom property.
+<b>@deprecated.</b> Please use the 'value' property instead. Returns or sets the value of the custom property.
 
 ```javascript
 setValue(value: string) : void;

@@ -58,12 +58,9 @@ namespace AsposeCellsExamples
                 Console.WriteLine($"Comparing same array equation: {result2}");
 
                 // Call Equals with null
-                bool result3 = arrayEquation1.Equals(null);
-                Console.WriteLine($"Comparing with null: {result3}");
-
-                // Call Equals with different type object
-                bool result4 = arrayEquation1.Equals("string object");
-                Console.WriteLine($"Comparing with different type: {result4}");
+                bool result4 = arrayEquation1.Equals(null);
+                Console.WriteLine($"Comparing with null: {result4}");
+                
             }
             catch (Exception ex)
             {

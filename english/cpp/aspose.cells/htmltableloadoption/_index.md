@@ -4,7 +4,7 @@ linktitle: HtmlTableLoadOption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlTableLoadOption class. Represents the option when import table from html in C++.'
 type: docs
-weight: 7900
+weight: 8200
 url: /cpp/aspose.cells/htmltableloadoption/
 ---
 ## HtmlTableLoadOption class

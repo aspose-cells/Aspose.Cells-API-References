@@ -1,17 +1,21 @@
 ---
 title: SaveOptions.CachedFileFolder
 second_title: Aspose.Cells for .NET API Reference
-description: SaveOptions property. The cached file folder is used to store some large data
+description: SaveOptions property. The folder for temporary files that may be used as data cache
 type: docs
 url: /net/aspose.cells/saveoptions/cachedfilefolder/
 ---
 ## SaveOptions.CachedFileFolder property
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 ```csharp
 public string CachedFileFolder { get; set; }
 ```
+
+### Remarks
+
+If the folder has not been specified, the default value for it is [`GetCacheFolder`](../../cellshelper/getcachefolder/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### Examples
 

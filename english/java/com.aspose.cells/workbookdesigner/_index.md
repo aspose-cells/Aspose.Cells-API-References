@@ -44,6 +44,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | Method | Description |
 | --- | --- |
 | [clearDataSource()](#clearDataSource--) | Clears all data sources. |
+| [containsVariables()](#containsVariables--) | Indicates whether the first worksheet contains custom variables. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether formulas should be calculated. |
 | [getCallBack()](#getCallBack--) | Gets callback interface of processing smartmarker. |
@@ -63,6 +64,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [process(int sheetIndex, boolean isPreserved)](#process-int-boolean-) | Processes the smart markers and populates the data source values. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether formulas should be calculated. |
 | [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | Sets callback interface of processing smartmarker. |
+| [setContainsVariables(boolean value)](#setContainsVariables-boolean-) | Indicates whether the first worksheet contains custom variables. |
 | [setDataSource(String dataSource, ICellsDataTable cellsDataTable)](#setDataSource-java.lang.String-com.aspose.cells.ICellsDataTable-) | Sets data source of a [ICellsDataTable](../../com.aspose.cells/icellsdatatable) object. |
 | [setDataSource(String variable, Object data)](#setDataSource-java.lang.String-java.lang.Object-) | Sets data binding to a variable. |
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
@@ -107,6 +109,16 @@ public void clearDataSource()
 
 Clears all data sources.
 
+### containsVariables() {#containsVariables--}
+```
+public boolean containsVariables()
+```
+
+
+Indicates whether the first worksheet contains custom variables.
+
+**Returns:**
+boolean
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -324,6 +336,19 @@ Sets callback interface of processing smartmarker.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISmartMarkerCallBack](../../com.aspose.cells/ismartmarkercallback) |  |
+
+### setContainsVariables(boolean value) {#setContainsVariables-boolean-}
+```
+public void setContainsVariables(boolean value)
+```
+
+
+Indicates whether the first worksheet contains custom variables.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDataSource(String dataSource, ICellsDataTable cellsDataTable) {#setDataSource-java.lang.String-com.aspose.cells.ICellsDataTable-}
 ```

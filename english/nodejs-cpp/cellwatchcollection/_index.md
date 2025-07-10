@@ -17,7 +17,7 @@ class CellWatchCollection;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
@@ -29,7 +29,7 @@ class CellWatchCollection;
 | [get(string)](#get-string-)| Gets and sets [CellWatch](../cellwatch/) by the name of the cell. |
 | [add(number, number)](#add-number-number-)| Adds [CellWatch](../cellwatch/) with row and column. |
 | [add(string)](#add-string-)| Adds [CellWatch](../cellwatch/) with the name the of cell. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -109,7 +109,7 @@ add(cellName: string) : number;
 
 ### getCount() {#getCount--}
 
-Gets the number of elements contained in.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;

@@ -183,7 +183,6 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [WriteProtection](./writeprotection/) | Specifies write protection settings for a workbook. |
 | [XlsbSaveOptions](./xlsbsaveoptions/) | Represents the options for saving xlsb file. |
 | [XlsSaveOptions](./xlssaveoptions/) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
-| [XmlColumnProperty](./xmlcolumnproperty/) | Represents Xml Data Binding information. |
 | [XmlDataBinding](./xmldatabinding/) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](./xmlloadoptions/) | Represents the options of loading xml. |
 | [XmlMap](./xmlmap/) | Represents Xml map information. |
@@ -269,7 +268,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [LoadFormat](./loadformat/) | Represents the load file format. |
 | [LookAtType](./lookattype/) | Represents look at type. |
 | [LookInType](./lookintype/) | Represents look in type. |
-| [MemorySetting](./memorysetting/) | Memory usage options. |
+| [MemorySetting](./memorysetting/) | Memory usage modes for cells data model. |
 | [MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. |
 | [NameScopeType](./namescopetype/) | Represents the scope type of defined names. |

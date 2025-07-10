@@ -16,9 +16,26 @@ public Hyperlink Hyperlink { get; }
 ### Examples
 
 ```csharp
+using Aspose.Cells;
 
-[C#]
-Aspose.Cells.Hyperlink hyperlink = shape.Hyperlink;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyHyperlinkDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.Shape shape = sheet.Shapes.AddRectangle(0, 0, 10, 10, 100, 150);
+            Hyperlink hyperlink = shape.Hyperlink;
+            hyperlink.Address = "https://www.aspose.com";
+            hyperlink.ScreenTip = "Click to open Aspose website";
+
+            workbook.Save("ShapeHyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

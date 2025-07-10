@@ -17,20 +17,29 @@ class RevisionQueryTable extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [cellArea](#cellArea--)| CellArea | Readonly. Gets the location of the affected query table. |
+| [fieldId](#fieldId--)| number | Readonly. Gets ID of the specific query table field that was removed. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Represents the type of the revision. |
-| [getCellArea()](#getCellArea--)| Gets the location of the affected query table. |
-| [getFieldId()](#getFieldId--)| Gets ID of the specific query table field that was removed. |
+| [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location of the affected query table. |
+| [getFieldId()](#getFieldId--)| <b>@deprecated.</b> Please use the 'fieldId' property instead. Gets ID of the specific query table field that was removed. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Represents the type of the revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -46,22 +55,49 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
-### getType() {#getType--}
+### cellArea {#cellArea--}
 
-Represents the type of the revision.
+Readonly. Gets the location of the affected query table.
 
 ```javascript
-getType() : RevisionType;
+cellArea : CellArea;
 ```
 
 
-**Returns**
+### fieldId {#fieldId--}
 
-[RevisionType](../revisiontype/)
+Readonly. Gets ID of the specific query table field that was removed.
+
+```javascript
+fieldId : number;
+```
+
+
+### worksheet {#worksheet--}
+
+Readonly. Gets the worksheet.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
+### id {#id--}
+
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
 
 ### getCellArea() {#getCellArea--}
 
-Gets the location of the affected query table.
+<b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location of the affected query table.
 
 ```javascript
 getCellArea() : CellArea;
@@ -74,7 +110,7 @@ getCellArea() : CellArea;
 
 ### getFieldId() {#getFieldId--}
 
-Gets ID of the specific query table field that was removed.
+<b>@deprecated.</b> Please use the 'fieldId' property instead. Gets ID of the specific query table field that was removed.
 
 ```javascript
 getFieldId() : number;
@@ -92,7 +128,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -105,7 +141,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;
@@ -115,5 +151,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Represents the type of the revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

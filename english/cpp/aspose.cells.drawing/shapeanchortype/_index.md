@@ -4,7 +4,7 @@ linktitle: ShapeAnchorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeAnchorType enum. Represents the anchor type in C++.'
 type: docs
-weight: 11200
+weight: 11400
 url: /cpp/aspose.cells.drawing/shapeanchortype/
 ---
 ## ShapeAnchorType enum

@@ -4,7 +4,7 @@ linktitle: SetPassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection::SetPassword method. Represents the password to protect the worksheet in C++.'
 type: docs
-weight: 3600
+weight: 4000
 url: /cpp/aspose.cells/protection/setpassword/
 ---
 ## Protection::SetPassword(const U16String\&) method

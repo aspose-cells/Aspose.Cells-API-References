@@ -54,20 +54,6 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(GradientStop, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Examples
-
-```csharp
-// Called: public static void equals(GradientStopCollection gsCollectionSrc, GradientStopCollection gsCollectionDest, string info)
-public static void Drawing_Type_GradientStopCollection(GradientStopCollection gsCollectionSrc, GradientStopCollection gsCollectionDest, string info)
-        {
-            AssertHelper.AreEqual(gsCollectionSrc.Count, gsCollectionDest.Count, info + ".Count");
-            for (int i = 0; i < gsCollectionSrc.Count; i++)
-            {
-                Drawing_Type_GradientStopCollection(gsCollectionSrc[i], gsCollectionDest[i], info + "[" + i + "]");
-            }
-        }
-```
-
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

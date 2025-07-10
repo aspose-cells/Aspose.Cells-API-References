@@ -21,6 +21,7 @@ public class Cells : IDisposable, IEnumerable
 | [Count](../../aspose.cells/cells/count/) { get; } | Gets the total count of instantiated Cell objects. |
 | [CountLarge](../../aspose.cells/cells/countlarge/) { get; } | Gets the total count of instantiated Cell objects. |
 | [FirstCell](../../aspose.cells/cells/firstcell/) { get; } | Gets the first cell in this worksheet. |
+| [IsDefaultColumnHidden](../../aspose.cells/cells/isdefaultcolumnhidden/) { get; set; } |  |
 | [IsDefaultRowHeightMatched](../../aspose.cells/cells/isdefaultrowheightmatched/) { get; set; } | Indicates that row height and default font height matches |
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden/) { get; set; } | Indicates whether the row is default hidden. |
 | [Item](../../aspose.cells/cells/item/) { get; } | Gets the [`Cell`](../cell/) element at the specified cell row index and column index. (2 indexers) |

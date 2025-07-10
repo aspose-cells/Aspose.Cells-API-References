@@ -806,7 +806,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [XAdESType](../com.aspose.cells/xadestype) | Type of XML Advanced Electronic Signature (XAdES). |
 | [XlsSaveOptions](../com.aspose.cells/xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
 | [XlsbSaveOptions](../com.aspose.cells/xlsbsaveoptions) | Represents the options for saving xlsb file. |
-| [XmlColumnProperty](../com.aspose.cells/xmlcolumnproperty) | Represents Xml Data Binding information. |
 | [XmlDataBinding](../com.aspose.cells/xmldatabinding) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](../com.aspose.cells/xmlloadoptions) | Represents the options of loading xml. |
 | [XmlMap](../com.aspose.cells/xmlmap) | Represents Xml map information. |

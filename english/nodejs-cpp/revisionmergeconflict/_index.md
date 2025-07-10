@@ -17,18 +17,25 @@ class RevisionMergeConflict extends Revision;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(Revision)](#constructor-revision-)| Constructs from a parent object convertible to this. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
+| [id](#id--)| number | Readonly. Gets the number of this revision. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of revision. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
-| [getId()](#getId--)| Gets the number of this revision. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
+| [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Gets the type of revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -44,18 +51,27 @@ constructor(obj: Revision);
 | --- | --- | --- |
 | obj | Revision | The parent object. |
 
-### getType() {#getType--}
+### worksheet {#worksheet--}
 
-Gets the type of revision.
+Readonly. Gets the worksheet.
 
 ```javascript
-getType() : RevisionType;
+worksheet : Worksheet;
 ```
 
 
-**Returns**
+### id {#id--}
 
-[RevisionType](../revisiontype/)
+Readonly. Gets the number of this revision.
+
+```javascript
+id : number;
+```
+
+
+**Remarks**
+
+Zero means this revision does not contains id.
 
 ### isNull() {#isNull--}
 
@@ -68,7 +84,7 @@ isNull() : boolean;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the worksheet.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -81,7 +97,7 @@ getWorksheet() : Worksheet;
 
 ### getId() {#getId--}
 
-Gets the number of this revision.
+<b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision.
 
 ```javascript
 getId() : number;
@@ -91,5 +107,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Gets the type of revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

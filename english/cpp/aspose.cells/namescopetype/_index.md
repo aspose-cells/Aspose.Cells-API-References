@@ -4,7 +4,7 @@ linktitle: NameScopeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NameScopeType enum. Represents the scope type of defined names in C++.'
 type: docs
-weight: 22800
+weight: 23800
 url: /cpp/aspose.cells/namescopetype/
 ---
 ## NameScopeType enum

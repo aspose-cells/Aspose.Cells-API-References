@@ -17,16 +17,22 @@ class ChartCalculateOptions;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Creates the options for calculating chart. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [updateAllPoints](#updateAllPoints--)| boolean | Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getUpdateAllPoints()](#getUpdateAllPoints--)| Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger. |
-| [setUpdateAllPoints(boolean)](#setUpdateAllPoints-boolean-)| Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger. |
+| [getUpdateAllPoints()](#getUpdateAllPoints--)| <b>@deprecated.</b> Please use the 'updateAllPoints' property instead. Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger. |
+| [setUpdateAllPoints(boolean)](#setUpdateAllPoints-boolean-)| <b>@deprecated.</b> Please use the 'updateAllPoints' property instead. Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -39,9 +45,18 @@ constructor();
 ```
 
 
-### getUpdateAllPoints() {#getUpdateAllPoints--}
+### updateAllPoints {#updateAllPoints--}
 
 Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger.
+
+```javascript
+updateAllPoints : boolean;
+```
+
+
+### getUpdateAllPoints() {#getUpdateAllPoints--}
+
+<b>@deprecated.</b> Please use the 'updateAllPoints' property instead. Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger.
 
 ```javascript
 getUpdateAllPoints() : boolean;
@@ -50,7 +65,7 @@ getUpdateAllPoints() : boolean;
 
 ### setUpdateAllPoints(boolean) {#setUpdateAllPoints-boolean-}
 
-Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger.
+<b>@deprecated.</b> Please use the 'updateAllPoints' property instead. Whether update all data points when performing the chart calculation. Default: False. When you want to get the value for each data point in the chart specifically, set it to true. If this parameter is set to True, the new data points may be generated when chart is calculated. This could make the Excel file larger.
 
 ```javascript
 setUpdateAllPoints(value: boolean) : void;

@@ -17,19 +17,25 @@ class CharacterBulletValue extends BulletValue;
 
 ## Constructors
 
-| Name | Description |
+| Constructor | Description |
 | --- | --- |
 | [constructor(BulletValue)](#constructor-bulletvalue-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [character](#character--)| string | Gets and sets character of the bullet. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| Gets the type of the bullet. |
-| [getCharacter()](#getCharacter--)| Gets and sets character of the bullet. |
-| [setCharacter(string)](#setCharacter-string-)| Gets and sets character of the bullet. |
+| [getCharacter()](#getCharacter--)| <b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet. |
+| [setCharacter(string)](#setCharacter-string-)| <b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the type of the bullet. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -54,22 +60,18 @@ constructor();
 ```
 
 
-### getType() {#getType--}
+### character {#character--}
 
-Gets the type of the bullet.
+Gets and sets character of the bullet.
 
 ```javascript
-getType() : BulletType;
+character : string;
 ```
 
 
-**Returns**
-
-[BulletType](../bullettype/)
-
 ### getCharacter() {#getCharacter--}
 
-Gets and sets character of the bullet.
+<b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet.
 
 ```javascript
 getCharacter() : string;
@@ -78,7 +80,7 @@ getCharacter() : string;
 
 ### setCharacter(string) {#setCharacter-string-}
 
-Gets and sets character of the bullet.
+<b>@deprecated.</b> Please use the 'character' property instead. Gets and sets character of the bullet.
 
 ```javascript
 setCharacter(value: string) : void;
@@ -97,5 +99,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the type of the bullet.
+
+```javascript
+getType() : BulletType;
+```
+
+
+**Returns**
+
+[BulletType](../bullettype/)
 
 

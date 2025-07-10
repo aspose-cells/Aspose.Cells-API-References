@@ -21,9 +21,9 @@ const { Workbook, CellArea, FormatConditionType, OperatorType, Color } = require
 
 //Adds an empty conditional formatting
 var workbook = new Workbook();
-var sheet = workbook.getWorksheets().get(0);
-var index = sheet.getConditionalFormattings().add();
-var fcs = sheet.getConditionalFormattings().get(index);
+var sheet = workbook.worksheets.get(0);
+var index = sheet.conditionalFormattings.add();
+var fcs = sheet.conditionalFormattings.get(index);
 //Sets the conditional format range.
 var ca = new CellArea();
 ca.startRow = 0;
@@ -43,17 +43,24 @@ var conditionIndex = fcs.addCondition(FormatConditionType.CellValue, OperatorTyp
 var conditionIndex2 = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 //Sets the background color.
 var fc = fcs.get(conditionIndex);
-fc.getStyle().setBackgroundColor(Color.Red);
+fc.style.backgroundColor = Color.Red;
 //Saving the Excel file
 workbook.save("output/FormatConditionCollection.xls");
 ```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the count of the conditions. |
+| [rangeCount](#rangeCount--)| number | Readonly. Gets count of conditionally formatted ranges. |
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the formatting condition by index. |
-| [getCount()](#getCount--)| Gets the count of the conditions. |
-| [getRangeCount()](#getRangeCount--)| Gets count of conditionally formatted ranges. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the conditions. |
+| [getRangeCount()](#getRangeCount--)| <b>@deprecated.</b> Please use the 'rangeCount' property instead. Gets count of conditionally formatted ranges. |
 | [add(CellArea, FormatConditionType, OperatorType, string, string)](#add-cellarea-formatconditiontype-operatortype-string-string-)| Adds a formatting condition and effected cell rang to the FormatConditions The FormatConditions can contain up to three conditional formats. References to the other sheets are not allowed in the formulas of conditional formatting. |
 | [addArea(CellArea)](#addArea-cellarea-)| Adds a conditional formatted cell range. |
 | [addCondition(FormatConditionType, OperatorType, string, string)](#addCondition-formatconditiontype-operatortype-string-string-)| Adds a formatting condition. |
@@ -63,6 +70,24 @@ workbook.save("output/FormatConditionCollection.xls");
 | [removeArea(number, number, number, number)](#removeArea-number-number-number-number-)| Remove conditional formatting int the range. |
 | [removeCondition(number)](#removeCondition-number-)| Removes the formatting condition by index. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### count {#count--}
+
+Readonly. Gets the count of the conditions.
+
+```javascript
+count : number;
+```
+
+
+### rangeCount {#rangeCount--}
+
+Readonly. Gets count of conditionally formatted ranges.
+
+```javascript
+rangeCount : number;
+```
 
 
 ### get(number) {#get-number-}
@@ -84,7 +109,7 @@ the formatting condition
 
 ### getCount() {#getCount--}
 
-Gets the count of the conditions.
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the conditions.
 
 ```javascript
 getCount() : number;
@@ -93,7 +118,7 @@ getCount() : number;
 
 ### getRangeCount() {#getRangeCount--}
 
-Gets count of conditionally formatted ranges.
+<b>@deprecated.</b> Please use the 'rangeCount' property instead. Gets count of conditionally formatted ranges.
 
 ```javascript
 getRangeCount() : number;

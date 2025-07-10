@@ -16,32 +16,37 @@ public string Caption { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Label1aaaa", control.Caption);
-private void LabelActiveXControl_Property_Caption(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class LabelActiveXControlPropertyCaptionDemo
+    {
+        public static void Run()
         {
-            LabelActiveXControl control = (LabelActiveXControl)c;
-            Assert.AreEqual(ControlType.Label, control.Type);
-            Assert.AreEqual("Label1aaaa", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.LeftTop, control.PicturePosition);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(true, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(73.5023622047244, control.Width);
-            //Assert.AreEqual(33.7606299212598, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Cross, control.MousePointer);
-            Assert.AreEqual(-2147483640, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add Label ActiveX Control
+            Shape shape = sheet.Shapes.AddActiveXControl(ControlType.Label, 0, 0, 0, 0, 100, 30);
+            LabelActiveXControl label = (LabelActiveXControl)shape.ActiveXControl;
+
+            // Set and demonstrate Caption property
+            label.Caption = "Label1aaaa";
+            
+            // Save and reload to verify persistence
+            string path = "LabelActiveXDemo.xlsm";
+            workbook.Save(path, SaveFormat.Xlsm);
+
+            Workbook reopened = new Workbook(path);
+            LabelActiveXControl reloadedLabel = (LabelActiveXControl)reopened.Worksheets[0].Shapes[0].ActiveXControl;
+            Console.WriteLine("Caption: " + reloadedLabel.Caption);
         }
+    }
+}
 ```
 
 ### See Also

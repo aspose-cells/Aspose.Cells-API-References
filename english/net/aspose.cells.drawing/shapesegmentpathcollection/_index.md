@@ -60,41 +60,6 @@ public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapeSegmentPath, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Drawing;
-    using System;
-
-    public class DrawingClassShapeSegmentPathCollectionDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Create and configure the main shape path
-            ShapePath shapePath = new ShapePath();
-            shapePath.MoveTo(0, 0);
-            shapePath.LineTo(100, 0);
-            shapePath.LineTo(100, 100);
-            shapePath.LineTo(0, 100);
-            shapePath.Close();
-
-            // Create path array
-            ShapePath[] shapePaths = new ShapePath[] { shapePath };
-
-            // Add freeform shape using valid constructor with required parameters
-            var shape = worksheet.Shapes.AddFreeform(100, 100, 200, 200, 0, 0, shapePaths);
-            workbook.Save("ShapeSegmentPathCollectionDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

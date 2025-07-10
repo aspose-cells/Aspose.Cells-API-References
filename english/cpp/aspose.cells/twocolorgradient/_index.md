@@ -4,7 +4,7 @@ linktitle: TwoColorGradient
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TwoColorGradient class. Represents two color gradient in C++.'
 type: docs
-weight: 14800
+weight: 15200
 url: /cpp/aspose.cells/twocolorgradient/
 ---
 ## TwoColorGradient class

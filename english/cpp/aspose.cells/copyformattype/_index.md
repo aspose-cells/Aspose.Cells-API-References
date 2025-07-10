@@ -4,7 +4,7 @@ linktitle: CopyFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CopyFormatType enum. Represents type of copying format when inserting rows in C++.'
 type: docs
-weight: 18900
+weight: 19300
 url: /cpp/aspose.cells/copyformattype/
 ---
 ## CopyFormatType enum

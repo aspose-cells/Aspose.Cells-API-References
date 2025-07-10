@@ -38,15 +38,15 @@ namespace AsposeCellsExamples
             cells["A1"].PutValue("Product");
             cells["B1"].PutValue("Category");
             cells["C1"].PutValue("Price");
-            
+
             cells["A2"].PutValue("Apple");
             cells["B2"].PutValue("Fruit");
             cells["C2"].PutValue(2.5);
-            
+
             cells["A3"].PutValue("Carrot");
             cells["B3"].PutValue("Vegetable");
             cells["C3"].PutValue(1.2);
-            
+
             cells["A4"].PutValue("Banana");
             cells["B4"].PutValue("Fruit");
             cells["C4"].PutValue(3.1);
@@ -59,7 +59,7 @@ namespace AsposeCellsExamples
             {
                 // Get the CellArea where AutoFilter is applied
                 CellArea result = autoFilter.GetCellArea();
-                
+
                 // Output the AutoFilter range coordinates
                 Console.WriteLine("AutoFilter applied to cell area:");
                 Console.WriteLine($"Start Row: {result.StartRow}");
@@ -69,6 +69,7 @@ namespace AsposeCellsExamples
 
                 // Apply a simple filter to demonstrate functionality (optional)
                 autoFilter.Filter(1, "Fruit"); // Filter "Category" column (index 1) for "Fruit"
+                autoFilter.Refresh();
             }
             catch (Exception ex)
             {
@@ -130,7 +131,7 @@ namespace AsposeCellsExamples
             worksheet.Cells["A4"].PutValue("Data3");
 
             // Set AutoFilter range (row 0 to 3, column 0)
-            worksheet.AutoFilter.SetRange(0, 0, 3);
+            worksheet.AutoFilter.SetRange(0, 0, 0);
 
             try
             {
@@ -150,7 +151,7 @@ namespace AsposeCellsExamples
             }
 
             // Save the modified workbook
-            workbook.Save("AutoFilterGetCellAreaDemo.xlsx");
+            workbook.Save("AutoFilterMethodGetCellAreaWithBooleanDemo.xlsx");
         }
     }
 }

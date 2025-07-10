@@ -4,7 +4,7 @@ linktitle: HtmlExportDataOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlExportDataOptions enum. Represents the options for exporting html data in C++.'
 type: docs
-weight: 21700
+weight: 22400
 url: /cpp/aspose.cells/htmlexportdataoptions/
 ---
 ## HtmlExportDataOptions enum

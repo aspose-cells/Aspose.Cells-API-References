@@ -16,14 +16,38 @@ public SparklineGroupCollection SparklineGroups { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
-public void Worksheet_Property_SparklineGroups()
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
-    Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
+    public class WorksheetPropertySparklineGroupsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Populate test data
+            Cells cells = sheet.Cells;
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    cells[i, j].Value = (i + 1) * (j + 1);
+                }
+            }
+
+            // Add sparkline group
+            int groupIndex = sheet.SparklineGroups.Add(
+                0, // Line sparkline type code
+                "A1:D4", 
+                false, 
+                CellArea.CreateCellArea("F1", "F4")
+            );
+
+            workbook.Save("output_sparklines.xlsx");
+        }
+    }
 }
 ```
 

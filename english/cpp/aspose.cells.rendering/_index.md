@@ -14,6 +14,7 @@ url: /cpp/aspose.cells.rendering/
 
 | Class | Description |
 | --- | --- |
+| [CustomRenderSettings](./customrendersettings/) | Represents custom settings during rendering. |
 | [DrawObject](./drawobject/) | [DrawObject](./drawobject/) will be initialized and returned when rendering. |
 | [DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get [DrawObject](./drawobject/) and Bound when rendering. |
 | [ImageOrPrintOptions](./imageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |

@@ -16,23 +16,40 @@ public string ID { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("2F087CB2-7CA8-43DA-B048-2E2F61F4936F",part.ID);
-public void CustomXmlPart_Property_ID()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //for (int i = 0; i < workbook.CustomXmlParts.Count; i++)
-    //{
-    //    Console.WriteLine(workbook.CustomXmlParts[i].ID);
-    //}
-    CustomXmlPart part = workbook.CustomXmlParts.SelectByID("2F087CB2-7CA8-43DA-B048-2E2F61F4936F");
-    Assert.AreEqual("2F087CB2-7CA8-43DA-B048-2E2F61F4936F",part.ID);
-    string x = "2F087CB2-7CA8-43DA-B048-2E2F61F0000F";
-    part.ID = x;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    part = workbook.CustomXmlParts.SelectByID(x);
-    Assert.AreEqual(x, part.ID);
+using System;
+using System.Text;
+using Aspose.Cells;
+using Aspose.Cells.Markup;
 
+namespace AsposeCellsExamples
+{
+    public class CustomXmlPartPropertyIDDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            int partIndex = workbook.CustomXmlParts.Add(
+                Encoding.UTF8.GetBytes("<root><data>Sample</data></root>"), 
+                null);
+            CustomXmlPart part = workbook.CustomXmlParts[partIndex];
+            
+            string originalId = "2F087CB2-7CA8-43DA-B048-2E2F61F4936F";
+            part.ID = originalId;
+            workbook.Save("CustomXmlPartDemo.xlsx");
+
+            Workbook reloadedWorkbook = new Workbook("CustomXmlPartDemo.xlsx");
+            CustomXmlPart reloadedPart = reloadedWorkbook.CustomXmlParts.SelectByID(originalId);
+            Console.WriteLine("Original ID: " + reloadedPart.ID);
+
+            string newId = "2F087CB2-7CA8-43DA-B048-2E2F61F0000F";
+            reloadedPart.ID = newId;
+            reloadedWorkbook.Save("CustomXmlPartDemo_Updated.xlsx");
+
+            Workbook finalWorkbook = new Workbook("CustomXmlPartDemo_Updated.xlsx");
+            CustomXmlPart finalPart = finalWorkbook.CustomXmlParts.SelectByID(newId);
+            Console.WriteLine("New ID: " + finalPart.ID);
+        }
+    }
 }
 ```
 

@@ -4,7 +4,7 @@ linktitle: LineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineType enum. Enumerates the type of Picture border or Chart line in C++.'
 type: docs
-weight: 9300
+weight: 9500
 url: /cpp/aspose.cells.drawing/linetype/
 ---
 ## LineType enum

@@ -4,7 +4,7 @@ linktitle: LoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadOptions class. Represents the options of loading the file in C++.'
 type: docs
-weight: 10000
+weight: 10100
 url: /cpp/aspose.cells/loadoptions/
 ---
 ## LoadOptions class
@@ -39,7 +39,7 @@ class LoadOptions
 | [GetParsingPivotCachedRecords()](./getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](./getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](./getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [GetRegion()](./getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [GetRegion()](./getregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [GetWarningCallback()](./getwarningcallback/) | Gets or sets warning callback. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [LoadOptions()](./loadoptions/) | Creates an options of loading the file. |
@@ -67,7 +67,7 @@ class LoadOptions
 | [SetPassword(const U16String\& value)](./setpassword/) | Gets and set the password of the workbook. |
 | [SetPassword(const char16_t* value)](./setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](./setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [SetRegion(CountryCode value)](./setregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [SetRegion(CountryCode value)](./setregion/) | Gets or sets the regional settings used for the [Workbook](../workbook/) that will be loaded. |
 | [SetWarningCallback(IWarningCallback* value)](./setwarningcallback/) | Gets or sets warning callback. |
 | [~LoadOptions()](./~loadoptions/) | Destructor. |
 ## Fields
