@@ -55,6 +55,8 @@ type Cells struct  {
 |[Clear](./clear/) | Clears all data of the worksheet. | 
 |[GetStyle](./getstyle/) | Gets and sets the default style of the worksheet. | 
 |[SetStyle](./setstyle/) | Gets and sets the default style of the worksheet. | 
+|[IsDefaultColumnHidden](./isdefaultcolumnhidden/) |  | 
+|[SetIsDefaultColumnHidden](./setisdefaultcolumnhidden/) |  | 
 |[GetStandardWidthInch](./getstandardwidthinch/) | Gets or sets the default column width in the worksheet, in unit of inches. | 
 |[SetStandardWidthInch](./setstandardwidthinch/) | Gets or sets the default column width in the worksheet, in unit of inches. | 
 |[GetStandardWidthPixels](./getstandardwidthpixels/) | Gets or sets the default column width in the worksheet, in unit of pixels. | 

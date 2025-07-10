@@ -30,4 +30,4 @@ type CustomRenderSettings struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetCellBorderWidth](./getcellborderwidth/) | Get cell border width according to border type. | 
+|[GetCellBorderWidth](./getcellborderwidth/) | Specifies cell border width according to border type. | 

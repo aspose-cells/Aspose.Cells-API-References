@@ -10,7 +10,7 @@ url: /go-cpp/jsonsaveoptions/getexportstylepool/
 
 ## GetExportStylePool function
 
-Exporting style pool when converting to json struct.
+Indicates whether to export styles collectively or individually to each cell.
 
 ```go
 

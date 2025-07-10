@@ -44,6 +44,8 @@ type MarkdownSaveOptions struct  {
 |[GetImageOptions](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting | 
 |[GetExportImagesAsBase64](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
 |[SetExportImagesAsBase64](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
+|[GetCalculateFormula](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. | 
+|[SetCalculateFormula](./setcalculateformula/) | Indicates whether to calculate formulas before saving html file. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

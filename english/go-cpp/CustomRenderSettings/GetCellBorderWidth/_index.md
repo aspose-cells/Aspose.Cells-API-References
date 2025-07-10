@@ -10,7 +10,7 @@ url: /go-cpp/customrendersettings/getcellborderwidth/
 
 ## GetCellBorderWidth function
 
-Get cell border width according to border type.
+Specifies cell border width according to border type.
 
 ```go
 

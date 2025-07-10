@@ -31,8 +31,8 @@ type JsonSaveOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetExportStylePool](./getexportstylepool/) | Exporting style pool when converting to json struct. | 
-|[SetExportStylePool](./setexportstylepool/) | Exporting style pool when converting to json struct. | 
+|[GetExportStylePool](./getexportstylepool/) | Indicates whether to export styles collectively or individually to each cell. | 
+|[SetExportStylePool](./setexportstylepool/) | Indicates whether to export styles collectively or individually to each cell. | 
 |[GetExportHyperlinkType](./getexporthyperlinktype/) | Represents the type of exporting hyperlink to json. | 
 |[SetExportHyperlinkType](./setexporthyperlinktype/) | Represents the type of exporting hyperlink to json. | 
 |[GetSkipEmptyRows](./getskipemptyrows/) | Indicates whether skipping emtpy rows. | 

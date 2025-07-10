@@ -25,3 +25,4 @@ type MemorySetting int32
 | --- | --- |
 |[Normal](./normal/) | Default mode for cells model. | 
 |[MemoryPreference](./memorypreference/) | Memory performance preferrable. | 
+|[FileCache](./filecache/) | Memory performance preferrable and using file instead of memoryto maintain the cells data. | 
