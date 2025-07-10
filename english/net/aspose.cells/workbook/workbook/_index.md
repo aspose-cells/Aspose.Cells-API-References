@@ -177,66 +177,6 @@ public Workbook(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-    using System.IO;
-
-    public class WorkbookMethodCtorWithStreamDemo
-    {
-        public static void Run()
-        {
-            // Create a temporary Excel file to use as stream source
-            string tempFile = Path.GetTempFileName() + ".xlsx";
-            try
-            {
-                // Create sample workbook and save to temp file
-                using (Workbook tempWorkbook = new Workbook())
-                {
-                    tempWorkbook.Worksheets[0].Cells["A1"].PutValue("Test Stream Loading");
-                    tempWorkbook.Save(tempFile);
-                }
-
-                // Create file stream from the temp file
-                using (FileStream stream = new FileStream(tempFile, FileMode.Open))
-                {
-                    try
-                    {
-                        // Call the #ctor method with Stream parameter
-                        Workbook workbook = new Workbook(stream);
-                        
-                        // Display success message
-                        Console.WriteLine("Workbook loaded successfully from stream");
-                        
-                        // Show effect by displaying first cell value
-                        Console.WriteLine($"First cell value: {workbook.Worksheets[0].Cells["A1"].StringValue}");
-                        
-                        // Save the loaded workbook
-                        workbook.Save("StreamLoadedWorkbook.xlsx");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Error loading workbook from stream: {ex.Message}");
-                    }
-                }
-            }
-            finally
-            {
-                // Clean up temp file
-                if (File.Exists(tempFile))
-                {
-                    File.Delete(tempFile);
-                }
-            }
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [Workbook](../)
@@ -304,54 +244,6 @@ public Workbook(Stream stream, LoadOptions loadOptions)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 | loadOptions | LoadOptions | The load options |
-
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-    using System.IO;
-
-    public class WorkbookMethodCtorWithStreamLoadOptionsDemo
-    {
-        public static void Run()
-        {
-            try
-            {
-                // Create a sample Excel file to use as input stream
-                MemoryStream inputStream = new MemoryStream();
-                using (Workbook tempWorkbook = new Workbook())
-                {
-                    tempWorkbook.Worksheets[0].Cells["A1"].PutValue("Test Value");
-                    tempWorkbook.Save(inputStream, SaveFormat.Xlsx);
-                }
-                inputStream.Position = 0; // Reset stream position
-
-                // Create load options (for example, setting password if needed)
-                LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
-                // loadOptions.Password = "password"; // Uncomment if needed
-
-                // Call the #ctor method with (Stream, LoadOptions) parameters
-                using (Workbook workbook = new Workbook(inputStream, loadOptions))
-                {
-                    // Show the effect of loading the workbook
-                    Console.WriteLine("Workbook loaded successfully with parameters (Stream, LoadOptions)");
-                    Console.WriteLine($"First cell value: {workbook.Worksheets[0].Cells["A1"].StringValue}");
-
-                    // Save the result
-                    workbook.Save("WorkbookCtorWithStreamLoadOptionsDemo.xlsx");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing #ctor method: {ex.Message}");
-            }
-        }
-    }
-}
-```
 
 ### See Also
 

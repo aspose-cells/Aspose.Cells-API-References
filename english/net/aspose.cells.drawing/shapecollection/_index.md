@@ -126,24 +126,24 @@ namespace AsposeCellsExamples
 
             // Add a rectangle shape to the worksheet
             int upperLeftRow = 2;
-            int top = 50;
+            int top = 0;
             int upperLeftColumn = 2;
-            int left = 50;
+            int left = 0;
             int height = 100;
             int width = 200;
             shapes.AddRectangle(upperLeftRow, top, upperLeftColumn, left, height, width);
 
             // Add a textbox to the worksheet
-            shapes.AddTextBox(upperLeftRow, top + 150, upperLeftColumn, left, height, width);
+            shapes.AddTextBox(upperLeftRow, top, upperLeftColumn + 5, left, height, width);
 
             // Add a picture to the worksheet
-            using (FileStream fs = new FileStream("ShapeCollectionExample_original.jpg", FileMode.Open, FileAccess.Read))
+            using (FileStream fs = new FileStream("example.jpg", FileMode.Open, FileAccess.Read))
             {
-                shapes.AddPicture(upperLeftRow + 5, upperLeftColumn, fs, 100, 100);
+                shapes.AddPicture(upperLeftRow + 7, upperLeftColumn, fs, 100, 100);
             }
 
             // Add a button to the worksheet
-            shapes.AddButton(upperLeftRow + 10, top, upperLeftColumn, left, height, width);
+            shapes.AddButton(upperLeftRow + 12, top, upperLeftColumn, left, height, width);
 
             // Save the workbook
             workbook.Save("ShapeCollectionExample.xlsx");

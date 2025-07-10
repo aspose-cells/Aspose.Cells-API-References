@@ -24,57 +24,6 @@ public int ImportDataGridAsString(DataGrid dataGrid, int firstRow, int firstColu
 
 Total number of rows imported
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-    using System.Data;
-
-    public class CellsMethodImportDataGridAsStringWithDataGridInt32Int32BooleanDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Create and populate DataTable
-            DataTable table = new DataTable();
-            table.Columns.Add("Name", typeof(string));
-            table.Columns.Add("Age", typeof(int));
-            table.Rows.Add("John Doe", 30);
-            table.Rows.Add("Jane Smith", 28);
-
-            try
-            {
-                // Create ImportTableOptions with required settings
-                ImportTableOptions options = new ImportTableOptions
-                {
-                    IsFieldNameShown = true,
-                    ConvertNumericData = true // Corrected property name
-                };
-
-                // Call ImportData with parameters: DataTable, row=0, column=0, options
-                int importedRows = worksheet.Cells.ImportData(table, 0, 0, options);
-
-                Console.WriteLine($"Successfully imported {importedRows} rows from DataTable");
-                Console.WriteLine($"Data starts at: A1");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing ImportData: {ex.Message}");
-            }
-
-            // Save the result
-            workbook.Save("ImportDataGridAsStringDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [Cells](../)

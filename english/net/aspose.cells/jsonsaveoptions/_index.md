@@ -34,7 +34,7 @@ public class JsonSaveOptions : SaveOptions
 | [ExportEmptyCells](../../aspose.cells/jsonsaveoptions/exportemptycells/) { get; set; } | Indicates whether exporting empty cells as null. |
 | [ExportHyperlinkType](../../aspose.cells/jsonsaveoptions/exporthyperlinktype/) { get; set; } | Represents the type of exporting hyperlink to json. |
 | [ExportNestedStructure](../../aspose.cells/jsonsaveoptions/exportnestedstructure/) { get; set; } | Exported as parent-child hierarchy Json structure. |
-| [ExportStylePool](../../aspose.cells/jsonsaveoptions/exportstylepool/) { get; set; } | Exporting style pool when converting to json struct. |
+| [ExportStylePool](../../aspose.cells/jsonsaveoptions/exportstylepool/) { get; set; } | Indicates whether to export styles collectively or individually to each cell. |
 | [HasHeaderRow](../../aspose.cells/jsonsaveoptions/hasheaderrow/) { get; set; } | Indicates whether the range contains header row. |
 | [Indent](../../aspose.cells/jsonsaveoptions/indent/) { get; set; } | Indicates the indent. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |

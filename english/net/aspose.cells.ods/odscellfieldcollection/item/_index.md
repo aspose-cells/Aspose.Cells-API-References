@@ -81,50 +81,6 @@ public OdsCellField this[int row, int column] { get; }
 | row | The row index. |
 | column | The column index. |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Ods;
-    using System;
-
-    public class OdsCellFieldCollectionPropertyItemDemo2
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Get the OdsCellFieldCollection from the worksheet
-            OdsCellFieldCollection fieldCollection = worksheet.Cells.OdsCellFields;
-
-            // Add fields to the collection
-            int index1 = fieldCollection.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
-            int index2 = fieldCollection.Add(1, 1, OdsCellFieldType.Title, "$#,##0.00");
-
-            // Access items using the Item property
-            OdsCellField field1 = fieldCollection[index1];
-            OdsCellField field2 = fieldCollection[index2];
-
-            // Display field information
-            Console.WriteLine("Field 1 - Row: {0}, Column: {1}, Type: {2}, Format: {3}", 
-                field1.Row, field1.Column, field1.FieldType, field1.CustomFormat);
-            Console.WriteLine("Field 2 - Row: {0}, Column: {1}, Type: {2}, Format: {3}", 
-                field2.Row, field2.Column, field2.FieldType, field2.CustomFormat);
-
-            // Update fields value to the cells
-            fieldCollection.UpdateFieldsValue();
-
-            // Save the result
-            workbook.Save("OdsCellFieldCollectionDemo.ods");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [OdsCellField](../../odscellfield/)

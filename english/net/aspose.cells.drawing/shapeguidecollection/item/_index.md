@@ -35,19 +35,22 @@ namespace AsposeCellsExamples
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add a shape that uses adjustment guides
-            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 0, 0, 0, 0, 100, 100);
-            shape.AutoShapeType = AutoShapeType.Rectangle;
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RightArrowCallout, 2, 0, 2, 0, 200, 150);
 
             // Access the shape's adjustment guides collection via Geometry
-            ShapeGuideCollection guides = shape.Geometry.ShapeAdjustValues;
+            ShapeGuideCollection shapeGuides = shape.Geometry.ShapeAdjustValues;
 
             // Add new guides to the collection
-            guides.Add("WidthGuide", 50.0);
-            guides.Add("HeightGuide", 75.0);
+            shapeGuides.Add("adj1", 25.5);
+            shapeGuides.Add("adj2", 30);
+            shapeGuides.Add("adj3", 25.5);
+            shapeGuides.Add("adj4", 35);
 
             // Demonstrate reading guide values (Name property not available in provided definition)
-            Console.WriteLine("First guide value: " + guides[0].Value);
-            Console.WriteLine("\nSecond guide value: " + guides[1].Value);
+            Console.WriteLine("First guide value: " + shapeGuides[0].Value);
+            Console.WriteLine("Second guide value: " + shapeGuides[1].Value);
+            Console.WriteLine("third guide value: " + shapeGuides[2].Value);
+            Console.WriteLine("fourth guide value: " + shapeGuides[3].Value);
 
             // Save the modified workbook
             workbook.Save("ShapeGuideCollectionPropertyItemDemo.xlsx");

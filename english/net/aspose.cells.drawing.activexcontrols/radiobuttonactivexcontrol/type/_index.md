@@ -16,40 +16,10 @@ public override ControlType Type { get; }
 ### Examples
 
 ```csharp
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-using Aspose.Cells.Drawing.ActiveXControls;
-
-namespace AsposeCellsExamples
+[C#]
+if(activeXControl.Type == Aspose.Cells.Drawing.ActiveXControls.ControlType.RadioButton)
 {
-    public class RadioButtonActiveXControlPropertyTypeDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            var radioShape = worksheet.Shapes.AddActiveXControl(
-                ControlType.RadioButton, 
-                0, // topRow
-                1, // top
-                0, // leftColumn
-                1, // left
-                100, // width
-                30 // height
-            );
-            var activeXControl = radioShape.ActiveXControl;
-
-            if (activeXControl.Type == ControlType.RadioButton)
-            {
-                RadioButtonActiveXControl radio = (RadioButtonActiveXControl)activeXControl;
-                radio.Caption = "Option 1";
-                radio.Value = CheckValueType.Checked;
-            }
-
-            workbook.Save("RadioButtonDemo.xlsx");
-        }
-    }
+    //do something
 }
 ```
 

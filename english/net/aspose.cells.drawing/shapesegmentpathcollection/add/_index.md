@@ -37,28 +37,33 @@ namespace AsposeCellsExamples
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Create a Shape to access its segment paths
-            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 0, 0, 0, 0, 100, 100);
-            
-            try
+
+            ShapePath path = new ShapePath();
+
+            // Start a new path
+            path.MoveTo(10, 10);
+
+            // Draw a line segment
+            path.LineTo(100, 100);
+
+            // Access the PathSegementList property
+            ShapeSegmentPathCollection segmentList = path.PathSegementList;
+
+            segmentList.Add(ShapePathType.Close);
+
+            // Display the count of path segments
+            Console.WriteLine("Number of path segments: " + segmentList.Count);
+
+            // Iterate through each segment and display its type
+            foreach (ShapeSegmentPath segment in segmentList)
             {
-                // Get the ShapeSegmentPathCollection instance
-                ShapeSegmentPathCollection segmentPaths = shape.Paths[0].PathSegementList;
-                
-                // Call Add method with ShapePathType.LineTo
-                int index = segmentPaths.Add(ShapePathType.LineTo);
-                
-                Console.WriteLine($"Segment added at index: {index}");
-                
-                // Additional segment for demonstration
-                segmentPaths.Add(ShapePathType.MoveTo);
+                Console.WriteLine("Segment type: " + segment.Type);
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing Add method: {ex.Message}");
-            }
-            
+
+           
+            //add free form
+            worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { path });
+
             // Save the workbook to observe the shape modifications
             workbook.Save("ShapeSegmentPathCollectionAddDemo.xlsx");
         }

@@ -53,13 +53,13 @@ namespace AsposeCellsExamples
             worksheet.Cells["B3"].PutValue(50);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 15, 10);
             Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("A1:A3", true);
             chart.NSeries.CategoryData = "B1:B3";
 
             // Create a memory stream with image data
-            byte[] imageData = File.ReadAllBytes("example.png");
+            byte[] imageData = File.ReadAllBytes("example.jpg");
             MemoryStream stream = new MemoryStream(imageData);
 
             try

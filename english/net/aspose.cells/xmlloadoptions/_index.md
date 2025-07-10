@@ -91,8 +91,7 @@ namespace AsposeCellsExamples
             options.LanguageCode = CountryCode.USA;
             options.Region = CountryCode.USA;
             options.CultureInfo = new System.Globalization.CultureInfo("en-US");
-            options.StandardFont = "Arial";
-            options.StandardFontSize = 10.5;
+            
             options.InterruptMonitor = null; // Assuming no interrupt monitor is set
             options.IgnoreNotPrinted = true;
             options.CheckDataValid = true;
@@ -110,7 +109,9 @@ namespace AsposeCellsExamples
 
             // Load an XML file into a Workbook using the specified options
             Workbook workbook = new Workbook("XmlLoadOptionsExample_original.xml", options);
-
+            workbook.DefaultStyle.Font.Name = "Arial";  
+            workbook.DefaultStyle.Font.Size = 10;
+            
             // Save the workbook to a new file
             workbook.Save("XmlLoadOptionsExample.xlsx");
 

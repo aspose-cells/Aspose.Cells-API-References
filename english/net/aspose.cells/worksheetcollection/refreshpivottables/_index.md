@@ -108,21 +108,19 @@ namespace AsposeCellsExamples
             PivotTable pivotTable = pivotTables[index];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
             pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
-            pivotTable.RefreshData();
-
-            cells["B2"].Value = 2000;
 
             PivotTableRefreshOption option = new PivotTableRefreshOption();
 
-            try
-            {
-                bool success = workbook.Worksheets.RefreshPivotTables(option);
-                Console.WriteLine($"Pivot tables refreshed: {success}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error refreshing pivot tables: {ex.Message}");
-            }
+            workbook.Worksheets.RefreshPivotTables(option);
+
+            Console.WriteLine(cells["F8"].StringValue);
+
+            cells["B2"].Value = 2000;
+
+            workbook.Worksheets.RefreshPivotTables(option);
+            Console.WriteLine(cells["F8"].StringValue);
+                       
+
 
             workbook.Save("WorksheetCollectionMethodRefreshPivotTablesWithPivotTableRefreshOptionDemo.xlsx");
         }

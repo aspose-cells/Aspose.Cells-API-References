@@ -30,37 +30,18 @@ public class TextBoxOptions
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
 
-namespace AsposeCellsExamples
-{
-    public class TextsClassTextBoxOptionsDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            int index = worksheet.TextBoxes.Add(0, 0, 350, 350);
-            Aspose.Cells.Drawing.TextBox textBox = worksheet.TextBoxes[index];
-            textBox.Text = "Sample TextBox with Options";
-            
-            // Set TextBox options
-            textBox.TextOptions.IsItalic = true;
-            textBox.TextOptions.IsBold = true;
-            textBox.TextOptions.Size = 14;
-            
-            // Correct way to set fill format
-            textBox.FillFormat.SetOneColorGradient(System.Drawing.Color.LightBlue, 1, GradientStyleType.Horizontal, 1);
-            
-            textBox.LineFormat.Weight = 2;
-            
-            workbook.Save("TextBoxOptionsDemo.xlsx");
-        }
-    }
-}
+[C#]
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+int index = workbook.Worksheets[0].TextBoxes.Add(0, 0, 350, 350);
+Shape shape = workbook.Worksheets[0].TextBoxes[index];
+shape.Text = "This is test.";
+
+//do your business
+
+//Save the excel file.
+workbook.Save("exmaple.xlsx");
 ```
 
 ### See Also

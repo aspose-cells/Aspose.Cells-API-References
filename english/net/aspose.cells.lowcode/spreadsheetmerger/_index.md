@@ -23,40 +23,8 @@ public class SpreadsheetMerger
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class SpreadsheetMerger
-    {
-        public static void Process(string[] inputFiles, string outputFile)
-        {
-            Workbook outputWorkbook = new Workbook();
-            outputWorkbook.Worksheets.Clear();
-
-            foreach (string file in inputFiles)
-            {
-                Workbook sourceWorkbook = new Workbook(file);
-                foreach (Worksheet sourceSheet in sourceWorkbook.Worksheets)
-                {
-                    Worksheet outputSheet = outputWorkbook.Worksheets.Add(sourceSheet.Name);
-                    outputSheet.Copy(sourceSheet);
-                }
-            }
-
-            outputWorkbook.Save(outputFile);
-        }
-    }
-
-    public class LowCodeClassSpreadsheetMergerDemo
-    {
-        public static void Run()
-        {
-            SpreadsheetMerger.Process(new string[] { "template2.xlsx", "template2.xlsx" }, "res.xlsx");
-        }
-    }
-}
+[C#]
+SpreadsheetMerger.Process(new string[] { "template2.xlsx", "template2.xlsx", }, "res.xlsx");
 ```
 
 ### See Also

@@ -17,46 +17,6 @@ public string ExtendedLibid { get; set; }
 
 Only for control reference.
 
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class VbaProjectReferencePropertyExtendedLibidDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook targetWorkbook = new Workbook();
-            
-            // Clear existing references
-            targetWorkbook.VbaProject.References.Clear();
-
-            // Add a control reference with ExtendedLibid
-            string name = "ExampleControl";
-            string libid = "{00000000-0000-0000-0000-000000000000}";
-            string twiddledLibid = "{11111111-1111-1111-1111-111111111111}";
-            string extendedLibid = "ExtendedID123";
-
-            targetWorkbook.VbaProject.References.AddControlRefrernce(
-                name, 
-                libid, 
-                twiddledLibid, 
-                extendedLibid);
-
-            // Verify and output the reference count
-            Console.WriteLine($"References count: {targetWorkbook.VbaProject.References.Count}");
-            
-            // Save the workbook
-            targetWorkbook.Save("output.xlsm");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [VbaProjectReference](../)

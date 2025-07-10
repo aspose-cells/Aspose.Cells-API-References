@@ -17,56 +17,6 @@ public void RemoveChild(EquationNode node)
 | --- | --- | --- |
 | node | EquationNode | Node to be deleted. |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Drawing.Equations;
-    using System;
-
-    public class EquationNodeMethodRemoveChildWithEquationNodeDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Create a shape to hold the equation
-            var shape = worksheet.Shapes.AddEquation(0, 0, 200, 50, 200, 50);
-
-            // Get the equation node
-            var equationNode = shape.GetEquationParagraph();
-
-            // Create parent and child nodes
-            var parentNode = equationNode.AddChild(EquationNodeType.Fraction);
-            var childNode1 = parentNode.AddChild(EquationNodeType.Numerator);
-            var childNode2 = parentNode.AddChild(EquationNodeType.Denominator);
-
-            try
-            {
-                // Call RemoveChild with EquationNode parameter
-                parentNode.RemoveChild(childNode1);
-
-                Console.WriteLine("Child node removed successfully");
-                
-                // Removed the GetChildCount check since the method doesn't exist
-                Console.WriteLine("Parent node's children were modified");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing RemoveChild method: {ex.Message}");
-            }
-
-            // Save the result
-            workbook.Save("EquationNodeRemoveChildDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [EquationNode](../)

@@ -26,6 +26,7 @@ public class WorkbookDesigner
 | --- | --- |
 | [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula/) { get; set; } | Indicates whether formulas should be calculated. |
 | [CallBack](../../aspose.cells/workbookdesigner/callback/) { get; set; } | Gets and sets callback interface of processing smartmarker. |
+| [ContainsVariables](../../aspose.cells/workbookdesigner/containsvariables/) { get; set; } | Indicates whether the first worksheet contains custom variables. |
 | [LineByLine](../../aspose.cells/workbookdesigner/linebyline/) { get; set; } | Indicates whether processing the smart marker line by line. |
 | [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal/) { get; set; } | Indicates whether repeating formulas with subtotal row. |
 | [UpdateEmptyStringAsNull](../../aspose.cells/workbookdesigner/updateemptystringasnull/) { get; set; } | If TRUE, Null will be inserted if the value is ""; |

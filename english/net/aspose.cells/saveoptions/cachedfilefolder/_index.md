@@ -15,7 +15,7 @@ public string CachedFileFolder { get; set; }
 
 ### Remarks
 
-If the folder has not been specified, the default value for it is GetCacheFolder. If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [`GetCacheFolder`](../../cellshelper/getcachefolder/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### Examples
 

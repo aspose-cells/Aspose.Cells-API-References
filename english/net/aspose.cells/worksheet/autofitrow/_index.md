@@ -35,7 +35,10 @@ namespace AsposeCellsExamples
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            
+
+            RowCollection rows = worksheet.Cells.Rows;
+            rows[0].Height = 20;
+            rows[1].Height = 20;
             // Add sample data to cells to demonstrate row autofit
             worksheet.Cells["A1"].PutValue("This is a long text that will demonstrate row autofit");
             worksheet.Cells["B1"].PutValue("Additional column with text");
@@ -44,6 +47,9 @@ namespace AsposeCellsExamples
             
             try
             {
+                Console.WriteLine($"Row 1 height before autofit: {worksheet.Cells.Rows[0].Height}");
+                Console.WriteLine($"Row 2 height before autofit: {worksheet.Cells.Rows[1].Height}");
+
                 // Call AutoFitRow with parameters: startRow, endRow, startColumn, endColumn
                 worksheet.AutoFitRow(0, 1, 0, 1);
                 

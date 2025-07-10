@@ -33,43 +33,6 @@ public class CalculationCell
 
 All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class CellsClassCalculationCellDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add sample data
-            worksheet.Cells["A1"].PutValue(10);
-            worksheet.Cells["A2"].PutValue(20);
-            worksheet.Cells["A3"].PutValue("=A1+A2");
-
-            // Calculate formulas
-            workbook.CalculateFormula();
-
-            // Get cell reference for A3
-            Cell cell = worksheet.Cells["A3"];
-
-            // Output cell information
-            Console.WriteLine($"Worksheet: {worksheet.Name}");
-            Console.WriteLine($"Cell: A3");
-            Console.WriteLine($"Value: {cell.Value}");
-            Console.WriteLine($"Calculated Value: {cell.StringValue}");
-        }
-    }
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -26,7 +26,7 @@ public class PivotGlobalizationSettings
 | virtual [GetShortTextOf12Months](../../aspose.cells.settings/pivotglobalizationsettings/getshorttextof12months/)() | Gets all short formatted string of 12 months. |
 | virtual [GetTextOf4Quaters](../../aspose.cells.settings/pivotglobalizationsettings/gettextof4quaters/)() | Gets the local text of 4 Quaters. |
 | virtual [GetTextOfAll](../../aspose.cells.settings/pivotglobalizationsettings/gettextofall/)() | Gets the text of "(All)" label in the PivotTable. |
-| virtual [GetTextOfAllPeriods](../../aspose.cells.settings/pivotglobalizationsettings/gettextofallperiods/)() | Gets the local text of "All Periods" |
+| virtual [GetTextOfAllPeriods](../../aspose.cells.settings/pivotglobalizationsettings/gettextofallperiods/)() | Gets the localized text of "All Periods". |
 | virtual [GetTextOfColumnLabels](../../aspose.cells.settings/pivotglobalizationsettings/gettextofcolumnlabels/)() | Gets the text of "Column Labels" label in the PivotTable. |
 | virtual [GetTextOfDataFieldHeader](../../aspose.cells.settings/pivotglobalizationsettings/gettextofdatafieldheader/)() | Gets the the text of the value area field header in the PivotTable. |
 | virtual [GetTextOfDays](../../aspose.cells.settings/pivotglobalizationsettings/gettextofdays/)() | Gets the local text of "Days". |

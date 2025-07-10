@@ -38,47 +38,6 @@ public class CalculationData
 
 All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-
-    public class CalculationDataDemo
-    {
-        public static void CalculationDataExample()
-        {
-            // Create a workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add some sample data
-            worksheet.Cells["A1"].PutValue(10);
-            worksheet.Cells["A2"].PutValue(20);
-            worksheet.Cells["A3"].PutValue(30);
-            worksheet.Cells["B1"].PutValue(5);
-            worksheet.Cells["B2"].PutValue(15);
-            worksheet.Cells["B3"].PutValue(25);
-
-            // Add a formula to a cell
-            Cell cell = worksheet.Cells["C1"];
-            cell.Formula = "=SUM(A1:A3)";
-
-            // Calculate the formula
-            workbook.CalculateFormula();
-
-
-
-            // Save the workbook
-            workbook.Save("CalculationDataExample.xlsx");
-            workbook.Save("CalculationDataExample.pdf");
-        }
-    }
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

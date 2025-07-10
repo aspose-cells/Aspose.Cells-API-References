@@ -60,61 +60,6 @@ public class ShapePathPointCollection : CollectionBase<ShapePathPoint>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapePathPoint, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Drawing;
-    using System;
-
-    public class DrawingClassShapePathPointCollectionDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Create and configure the shape path using drawing commands
-            ShapePath path = new ShapePath();
-            path.MoveTo(0, 0);
-            path.LineTo(4000, 0);
-            path.LineTo(4000, 1000);
-            path.LineTo(2000, 1500);
-            path.LineTo(0, 1000);
-            path.LineTo(0, 0);
-            path.Close();
-            
-            // Add freeform shape with the configured path
-            Shape shape = worksheet.Shapes.AddFreeform( // Corrected method name
-                upperLeftRow: 10,
-                top: 10,
-                upperLeftColumn: 0,
-                left: 0,
-                height: 2000,
-                width: 2000,
-                paths: new ShapePath[] { path }
-            );
-            
-            // Access geometry configuration through the shape
-            CustomGeometry geometry = shape.Geometry as CustomGeometry;
-            
-            // Demonstrate collection properties
-            Console.WriteLine($"Total paths in shape: {geometry?.Paths.Count ?? 0}");
-            if (geometry?.Paths.Count > 0)
-            {
-                Console.WriteLine($"Path segment count: {geometry.Paths[0].PathSegementList.Count}");
-            }
-            
-            // Save the modified workbook
-            workbook.Save("ShapePathPointCollectionDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

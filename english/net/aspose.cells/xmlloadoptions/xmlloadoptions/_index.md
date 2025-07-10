@@ -90,7 +90,7 @@ namespace AsposeCellsExamples
                 xmlLoadOptions.ConvertNumericOrDate = true;
 
                 // Create a workbook using the load options
-                Workbook workbook = new Workbook("input.xml", xmlLoadOptions);
+                Workbook workbook = new Workbook("sample.xml", xmlLoadOptions);
 
                 // Access the first worksheet
                 Worksheet worksheet = workbook.Worksheets[0];

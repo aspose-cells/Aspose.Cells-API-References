@@ -42,10 +42,8 @@ namespace AsposeCellsExamples
                 shapePath.LineTo(100, 200);
                 shapePath.Close();
 
-                // Create a shape and add the path
-                var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 300, 300, 0, 0);
-                var paths = shape.Paths;
-                paths.Add();
+                //add free form
+                worksheet.Shapes.AddFreeform(1, 0, 1, 0, 200, 200, new ShapePath[] { shapePath });
 
                 Console.WriteLine("ShapePath created and added to worksheet successfully");
             }

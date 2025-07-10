@@ -73,7 +73,7 @@ namespace AsposeCellsExamples
             XmlMapCollection xmlMaps = workbook.Worksheets.XmlMaps;
 
             // Add a new XmlMap to the collection
-            int xmlMapIndex = xmlMaps.Add("XmlMapCollectionExample.xsd");
+            int xmlMapIndex = xmlMaps.Add("sample.xml");
 
             // Access the newly added XmlMap
             XmlMap xmlMap = xmlMaps[xmlMapIndex];

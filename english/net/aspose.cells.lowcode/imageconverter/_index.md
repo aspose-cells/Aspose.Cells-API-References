@@ -24,40 +24,8 @@ public class ImageConverter
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Rendering;
-using Aspose.Cells.Drawing;
-
-namespace AsposeCellsExamples
-{
-    public class ImageConverter
-    {
-        public static void Process(string templatePath, string outputImagePath)
-        {
-            Workbook workbook = new Workbook(templatePath);
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            ImageOrPrintOptions options = new ImageOrPrintOptions
-            {
-                OnePagePerSheet = true,
-                ImageType = ImageType.Png
-            };
-            
-            SheetRender render = new SheetRender(worksheet, options);
-            render.ToImage(0, outputImagePath);
-        }
-    }
-
-    public class LowCodeClassImageConverterDemo
-    {
-        public static void Run()
-        {
-            ImageConverter.Process("template.xlsx", "res.png");
-            Console.WriteLine("Image conversion completed successfully.");
-        }
-    }
-}
+[C#]
+ImageConverter.Process("template.xlsx", "res.png");
 ```
 
 ### See Also

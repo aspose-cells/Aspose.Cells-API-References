@@ -58,7 +58,7 @@ namespace AsposeCellsExamples
             worksheet.Cells["B4"].PutValue(3000);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
             chart.SetChartDataRange("A1:B4", true);
 

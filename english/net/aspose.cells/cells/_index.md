@@ -21,6 +21,7 @@ public class Cells : IDisposable, IEnumerable
 | [Count](../../aspose.cells/cells/count/) { get; } | Gets the total count of instantiated Cell objects. |
 | [CountLarge](../../aspose.cells/cells/countlarge/) { get; } | Gets the total count of instantiated Cell objects. |
 | [FirstCell](../../aspose.cells/cells/firstcell/) { get; } | Gets the first cell in this worksheet. |
+| [IsDefaultColumnHidden](../../aspose.cells/cells/isdefaultcolumnhidden/) { get; set; } |  |
 | [IsDefaultRowHeightMatched](../../aspose.cells/cells/isdefaultrowheightmatched/) { get; set; } | Indicates that row height and default font height matches |
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden/) { get; set; } | Indicates whether the row is default hidden. |
 | [Item](../../aspose.cells/cells/item/) { get; } | Gets the [`Cell`](../cell/) element at the specified cell row index and column index. (2 indexers) |
@@ -33,7 +34,7 @@ public class Cells : IDisposable, IEnumerable
 | [MemorySetting](../../aspose.cells/cells/memorysetting/) { get; set; } | Gets or sets the memory usage option for this cells. |
 | [MergedCells](../../aspose.cells/cells/mergedcells/) { get; } | (**Obsolete.**) Gets the collection of merged cells. |
 | [MinColumn](../../aspose.cells/cells/mincolumn/) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [MinDataColumn](../../aspose.cells/cells/mindatacolumn/) { get; } |  |
+| [MinDataColumn](../../aspose.cells/cells/mindatacolumn/) { get; } | Minimum column index of cell which contains data. |
 | [MinDataRow](../../aspose.cells/cells/mindatarow/) { get; } | Minimum row index of cell which contains data. |
 | [MinRow](../../aspose.cells/cells/minrow/) { get; } | Minimum row index of cell which contains data or style. |
 | [MultiThreadReading](../../aspose.cells/cells/multithreadreading/) { get; set; } | Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |

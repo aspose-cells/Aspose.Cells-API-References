@@ -30,21 +30,41 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a freeform shape with a simple path
-            Shape shape = worksheet.Shapes.AddFreeform(0, 0, 0, 0, 200, 200, new ShapePath[] { new ShapePath() });
-
-            // Get the geometry path of the shape
-            CustomGeometry geometry = shape.Geometry as CustomGeometry;
-            ShapePath shapePath = geometry.Paths[0];
-
-            // Add different segment types to demonstrate the Type property
-            // Note: Since ShapeSegmentPath has no parameterless constructor and its properties are read-only,
-            // we'll need to use the actual segments from the shape path
-            Console.WriteLine("\nAll segment types in the path:");
-            foreach (ShapeSegmentPath segment in shapePath.PathSegementList)
+            try
             {
-                Console.WriteLine(segment.Type);
+                //Create a new shape path
+                ShapePath shapePath = new ShapePath();
+
+                // Move to starting point
+                shapePath.MoveTo(10, 10);
+
+                // Call LineTo method with (Single, Single) parameters
+                shapePath.LineTo(50.5f, 10.5f);
+                shapePath.LineTo(50.5f, 50.5f);
+                shapePath.LineTo(10.5f, 50.5f);
+                shapePath.Close();
+
+                // Access the PathSegementList property
+                ShapeSegmentPathCollection segmentList = shapePath.PathSegementList;
+
+                // Display the count of path segments
+                Console.WriteLine("Number of path segments: " + segmentList.Count);
+
+                // Iterate through each segment and display its type
+                foreach (ShapeSegmentPath segment in segmentList)
+                {
+                    Console.WriteLine("Segment type: " + segment.Type);
+                }
+
+                //add free form
+                worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { shapePath });
+
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing LineTo method: {ex.Message}");
+            }
+
 
             // Save the workbook
             workbook.Save("ShapeSegmentPathTypeDemo.xlsx");

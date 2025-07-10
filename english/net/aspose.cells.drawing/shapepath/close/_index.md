@@ -32,22 +32,24 @@ namespace AsposeCellsExamples
 
             try
             {
-                // Create a new shape path
+                //Create a new shape path
                 ShapePath shapePath = new ShapePath();
+                shapePath.MoveTo(60, 45);
+                shapePath.ArcTo(25, 25, 0, 270);
 
-                // Create a simple square path
-                shapePath.MoveTo(10.0f, 10.0f);
-                shapePath.LineTo(50.0f, 10.0f);
-                shapePath.LineTo(50.0f, 50.0f);
-                shapePath.LineTo(10.0f, 50.0f);
-                
-                // Close the path to complete the square
+                // Close the path 
                 shapePath.Close();
 
-                // Add the shape to worksheet
-                var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 0, 0, 200, 200, 0, 0);
-                var paths = shape.Paths;
-                paths.Add();
+                shapePath.MoveTo(60, 20);
+                shapePath.LineTo(110, 70);
+                shapePath.LineTo(125, 155.5f);
+                shapePath.ArcTo(35.5f, 35.5f, 0, 270);
+
+                // Close the path 
+                shapePath.Close();
+
+                //add free form
+                worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { shapePath });
 
                 Console.WriteLine("Close method called successfully to complete the shape path");
                 

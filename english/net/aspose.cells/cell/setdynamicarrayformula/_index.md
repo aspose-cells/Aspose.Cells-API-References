@@ -116,9 +116,18 @@ namespace AsposeCellsExamples
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            Cell cell = cells["A1"];
+            cell.PutValue(10);
+            cell = cells["A2"];
+            cell.PutValue(20);
+            cell = cells["B1"];
+            cell.PutValue(60);
+            cell = cells["B2"];
+            cell.PutValue(80);
 
             // Get cell C1 where the dynamic array formula will be set
-            Cell cell = worksheet.Cells["C1"];
+            cell = worksheet.Cells["C1"];
 
             // Define the dynamic array formula
             string formula = "=A1:B2 * 2";
@@ -221,8 +230,8 @@ namespace AsposeCellsExamples
             worksheet.Cells["A5"].PutValue(40);
             worksheet.Cells["B5"].PutValue(70);
 
-            // Get target cell A1
-            Cell cellA1 = worksheet.Cells["A1"];
+            // Get target cell D1
+            Cell cellD1 = worksheet.Cells["D1"];
 
             try
             {
@@ -235,7 +244,7 @@ namespace AsposeCellsExamples
                 CalculationOptions calcOptions = new CalculationOptions { Recursive = true };
 
                 // Call SetDynamicArrayFormula with specific parameters
-                CellArea spillRange = cellA1.SetDynamicArrayFormula(
+                CellArea spillRange = cellD1.SetDynamicArrayFormula(
                     formula,
                     options,
                     values,

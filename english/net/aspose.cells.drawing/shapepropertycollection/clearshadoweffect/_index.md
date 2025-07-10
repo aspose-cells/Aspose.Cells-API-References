@@ -21,51 +21,60 @@ namespace AsposeCellsExamples
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
     using System;
+    using System.Drawing;
 
     public class ShapePropertyCollectionMethodClearShadowEffectDemo
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape with shadow effect
-            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
-            shape.ShadowEffect.Angle = 45;
-            shape.ShadowEffect.Distance = 10;
-            shape.ShadowEffect.Blur = 5;
-            shape.ShadowEffect.Transparency = 0.5;
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            try
-            {
-                // Check if shape has shadow effect before clearing
-                bool hasShadowBefore = shape.ShadowEffect != null && shape.ShadowEffect.Distance > 0;
-                Console.WriteLine($"Shape has shadow effect before clearing: {hasShadowBefore}");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
 
-                // Clear the shadow effect by resetting its properties
-                shape.ShadowEffect.Angle = 0;
-                shape.ShadowEffect.Distance = 0;
-                shape.ShadowEffect.Blur = 0;
-                shape.ShadowEffect.Transparency = 0;
+            chart.NSeries.Add("B1:B2", true);
+            chart.NSeries.CategoryData = "A1:A2";
 
-                // Verify shadow effect was cleared
-                bool hasShadowAfter = shape.ShadowEffect != null && shape.ShadowEffect.Distance > 0;
-                Console.WriteLine($"Shape has shadow effect after clearing: {hasShadowAfter}");
+            // Access shape properties of the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-                // Additional verification by checking shadow properties
-                if (shape.ShadowEffect.Distance == 0 && shape.ShadowEffect.Blur == 0)
-                {
-                    Console.WriteLine("Shadow effect successfully cleared");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing ClearShadowEffect method: {ex.Message}");
-            }
+            // Configure 3D format and bevel
+            Format3D format3D = shapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
+
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Height = 2;
+            topBevel.Width = 5;
+
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 20;
+
+            ShadowEffect shadowEffect = shapeProperties.ShadowEffect;
+            shadowEffect.Size = 1.5;
+            shadowEffect.Color.Color = Color.Red;
+            shadowEffect.Angle = 180;
+
+            // Set series colors
+            series.Area.BackgroundColor = Color.Blue;
+            series.Area.ForegroundColor = Color.Blue;
+            series.Border.Color = Color.Blue;
+
+            workbook.Save("ShapePropertyCollectionMethodClearShadowEffectDemo.xlsx");
+
+            shapeProperties.ClearShadowEffect();
 
             // Save the result
-            workbook.Save("MethodClearShadowEffectDemo.xlsx");
+            workbook.Save("ShapePropertyCollectionMethodClearShadowEffectDemo2.xlsx");
         }
     }
 }

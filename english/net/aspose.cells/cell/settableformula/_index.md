@@ -38,18 +38,23 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Set initial values for input cells
-            worksheet.Cells["B1"].PutValue(2);  // Row input cell
-            worksheet.Cells["B2"].PutValue(3);  // Column input cell
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[1, 1].Formula = "=A1+A2";
+
+            cells[1, 2].PutValue(2);
+            cells[1, 3].PutValue(3);
+            cells[2, 1].PutValue(2);
+            cells[3, 1].PutValue(3);
+            cells[4, 1].PutValue(4);
 
             // Target cell where table formula will be set
-            Cell targetCell = worksheet.Cells["D1"];
+            Cell targetCell = worksheet.Cells["C3"];
 
             // Prepare parameters for SetTableFormula
             int rowNumber = 3;
             int columnNumber = 2;
-            string rowInputCell = "B1";
-            string columnInputCell = "B2";
+            string rowInputCell = "A1";
+            string columnInputCell = "A2";
             object[][] values = new object[][]
             {
                 new object[] { 1, 2 },    // Row 1 data
@@ -120,37 +125,35 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Setup base values for PMT calculation
-            worksheet.Cells["B1"].PutValue(100000);  // Loan amount
-            worksheet.Cells["B2"].PutValue(0.05);    // Annual interest rate
-            worksheet.Cells["B3"].PutValue(360);     // Term in months
+            Cells cells = worksheet.Cells;
+            cells[1, 1].Formula = "=A1+A2";
 
-            // Create PMT formula in B4
-            Cell formulaCell = worksheet.Cells["B4"];
-            formulaCell.Formula = "=PMT(B2/12, B3, B1)";
+            cells[1, 2].PutValue(100000);
+            cells[1, 3].PutValue(0.05);
+            cells[1, 4].PutValue(2);
+            cells[2, 1].PutValue(360);
+            cells[3, 1].PutValue(30);
+            cells[4, 1].PutValue(40);
             
             try
             {
                 // Prepare parameters for SetTableFormula
-                int rowCount = 5;
-                int colCount = 1;
+                int rowCount = 3;
+                int colCount = 3;
                 object[][] inputValues = new object[][] 
                 {
-                    new object[] { 0.04 },
-                    new object[] { 0.045 },
-                    new object[] { 0.05 },
-                    new object[] { 0.055 },
-                    new object[] { 0.06 }
+                    new object[] { 0.05, 0.06, 0.07 },
+                    new object[] { 1000, 2000, 3000 },
+                    new object[] { 100, 200, 300 }
                 };
 
-                // Get target cell for data table (D1)
-                Cell tableCell = worksheet.Cells["D1"];
-                
+                // Get target cell for data table (C3)
+                Cell tableCell = worksheet.Cells["C3"];
                 // Call SetTableFormula with interest rate variations
                 tableCell.SetTableFormula(
                     rowNumber: rowCount,
                     columnNumber: colCount,
-                    inputCell: "B2",
+                    inputCell: "A1",
                     isRowInput: true,
                     values: inputValues
                 );
@@ -213,16 +216,23 @@ namespace AsposeCellsExamples
         public static void Run()
         {
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[1, 1].Formula = "=A1+A2";
 
-            // Setup base formula and input cells
-            Cell formulaCell = worksheet.Cells["B2"];
-            formulaCell.Formula = "=PMT(B1/12, 60, A2)";
+            cells[1, 2].PutValue(2);
+            cells[1, 3].PutValue(3);
+            cells[1, 4].PutValue(4);
+            cells[2, 1].PutValue(2);
+            cells[3, 1].PutValue(3);
+            cells[4, 1].PutValue(4);
+            
+            Cell formulaCell = cells[2, 2];
 
             // Prepare input values for data table (interest rates and loan amounts)
-            object[][] tableValues = new object[2][];
-            tableValues[0] = new object[] { 0.05, 0.06, 0.07 };  // Row input values
-            tableValues[1] = new object[] { 10000, 20000, 30000 }; // Column input values
+            object[][] tableValues = new object[3][];
+            tableValues[0] = new object[] { 0.05, 0.06, 0.07 };
+            tableValues[1] = new object[] { 1000, 2000, 3000 };
+            tableValues[2] = new object[] { 100, 200, 300 };
 
             try
             {
@@ -230,13 +240,14 @@ namespace AsposeCellsExamples
                 formulaCell.SetTableFormula(
                     rowNumber: 3,
                     columnNumber: 3,
-                    rowIndexOfRowInputCell: -1,  // B1 (1 row above formula cell)
-                    columnIndexOfRowInputCell: 0,   // Same column as formula cell
-                    rowIndexOfColumnInputCell: 0,   // Same row as formula cell
-                    columnIndexOfColumnInputCell: -1, // A2 (1 column left of formula cell)
+                    rowIndexOfRowInputCell: 0,  
+                    columnIndexOfRowInputCell: 0,   
+                    rowIndexOfColumnInputCell: 1,   
+                    columnIndexOfColumnInputCell: 0, 
                     values: tableValues
                 );
 
+                workbook.CalculateFormula();
                 Console.WriteLine("Data table formula set successfully. Check B2:D4 in output.");
             }
             catch (Exception ex)
@@ -292,8 +303,14 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Set base value in input cell (A1)
-            worksheet.Cells["A1"].PutValue(50);
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[1, 1].Formula = "=A1+A2";
+
+            cells[1, 2].PutValue(20);
+            cells[1, 3].PutValue(30);            
+            cells[2, 1].PutValue(20);
+            cells[3, 1].PutValue(30);
+            cells[4, 1].PutValue(40);
 
             // Create sample data array for table formula parameters
             object[][] inputValues = new object[][]
@@ -304,7 +321,7 @@ namespace AsposeCellsExamples
             };
 
             // Get target cell to apply table formula
-            Cell formulaCell = worksheet.Cells["C7"];
+            Cell formulaCell = worksheet.Cells[2, 2];
 
             try
             {
@@ -320,8 +337,9 @@ namespace AsposeCellsExamples
                     values: inputValues
                 );
 
+                workbook.CalculateFormula();
                 Console.WriteLine("Table formula applied successfully. " + 
-                    "Saved workbook with 3x2 table formula at C7.");
+                    "Saved workbook with 3x2 table formula at C3.");
             }
             catch (Exception ex)
             {

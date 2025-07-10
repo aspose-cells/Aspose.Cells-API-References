@@ -71,6 +71,7 @@ namespace AsposeCellsExamples
             // Setting properties
             saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 };
             saveOptions.HasHeaderRow = true;
+            saveOptions.SheetIndexes = new int[] { 0 };
             saveOptions.XmlMapName = "MyXmlMap";
             saveOptions.SheetNameAsElementName = true;
             saveOptions.DataAsAttribute = false;

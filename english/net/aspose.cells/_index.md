@@ -183,7 +183,6 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [WriteProtection](./writeprotection/) | Specifies write protection settings for a workbook. |
 | [XlsbSaveOptions](./xlsbsaveoptions/) | Represents the options for saving xlsb file. |
 | [XlsSaveOptions](./xlssaveoptions/) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
-| [XmlColumnProperty](./xmlcolumnproperty/) | Represents Xml Data Binding information. |
 | [XmlDataBinding](./xmldatabinding/) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](./xmlloadoptions/) | Represents the options of loading xml. |
 | [XmlMap](./xmlmap/) | Represents Xml map information. |

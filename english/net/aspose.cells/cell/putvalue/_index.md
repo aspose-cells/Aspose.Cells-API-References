@@ -343,31 +343,20 @@ Setting a DateTime value for a cell dose not means the cell will be formatted as
 
 ### Examples
 
+This example shows how to set DateTime value to a cell and make it be displayed as date time.
+
 ```csharp
-using System;
-using Aspose.Cells;
+[C#]
 
-namespace AsposeCellsExamples
-{
-    public class CellMethodPutValueWithDateTimeDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+Workbook excel = new Workbook();
+Cells cells = excel.Worksheets[0].Cells;
 
-            Cell cell = cells["A1"];
-            cell.PutValue(new DateTime(2023, 5, 15));
-            
-            Style style = cell.GetStyle();
-            style.Number = 14;
-            cell.SetStyle(style);
-            
-            workbook.Save("output.xlsx", SaveFormat.Xlsx);
-        }
-    }
-}
+//Put date time into a cell
+Cell cell = cells[0, 0];
+cell.PutValue(new DateTime(2023, 5, 15));
+Style style = cell.GetStyle(false);
+style.Number = 14;
+cell.SetStyle(style);
 ```
 
 ### See Also

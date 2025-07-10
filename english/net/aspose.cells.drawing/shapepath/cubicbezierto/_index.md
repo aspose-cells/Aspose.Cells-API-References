@@ -16,12 +16,12 @@ public void CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, fl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ctrX1 | Single | The x-coordinate of the first control point for the curve. |
-| ctrY1 | Single | The y-coordinate of the first control point for the curve. |
-| ctrX2 | Single | The x-coordinate of the second control point for the curve. |
-| ctrY2 | Single | The y-coordinate of the second control point for the curve. |
-| endX | Single | The x-coordinate of the endpoint of the curve. |
-| endY | Single | The y-coordinate of the endpoint of the curve. |
+| ctrX1 | Single | The x-coordinate of the first control point for the curve(Unit: Pixel). |
+| ctrY1 | Single | The y-coordinate of the first control point for the curve(Unit: Pixel). |
+| ctrX2 | Single | The x-coordinate of the second control point for the curve(Unit: Pixel). |
+| ctrY2 | Single | The y-coordinate of the second control point for the curve(Unit: Pixel). |
+| endX | Single | The x-coordinate of the endpoint of the curve(Unit: Pixel). |
+| endY | Single | The y-coordinate of the endpoint of the curve(Unit: Pixel). |
 
 ### Examples
 
@@ -40,29 +40,22 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to the worksheet
-            var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 10, 200, 200, 200);
-            
-            // Get the shape's path
-            ShapePathCollection shapePaths = shape.Paths;
-            ShapePath shapePath = shapePaths[0];
-            
-            try
-            {
-                // Move to starting point
-                shapePath.MoveTo(10f, 10f);
-                
-                // Draw a cubic bezier curve with control points (30,30), (50,50) and end point (100,100)
-                shapePath.CubicBezierTo(30f, 30f, 50f, 50f, 100f, 100f);
-                
-                // No need to assign back as we modified the existing path collection
-                Console.WriteLine("CubicBezierTo method executed successfully with parameters (Single, Single, Single, Single, Single, Single)");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing CubicBezierTo method: {ex.Message}");
-            }
-            
+            //Create a new shape path
+            ShapePath shapePath1 = new ShapePath();
+            shapePath1.MoveTo(0, 0);
+            shapePath1.CubicBezierTo(48.24997f, 0.6844f,
+                        96.5f, -7.148871f,
+                        130, 11.517795f);
+            shapePath1.CubicBezierTo(163.5f, 30.18446f,
+                        182.24997f, 75.351f,
+                        201, 120.517795f);
+            shapePath1.MoveTo(150, 70);
+            shapePath1.ArcTo(25, 25, 0, 270);
+
+
+            //add free form
+            worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { shapePath1 });
+
             // Save the result
             workbook.Save("ShapePathMethodCubicBezierToDemo.xlsx");
         }
