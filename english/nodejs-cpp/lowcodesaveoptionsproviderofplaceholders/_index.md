@@ -55,8 +55,8 @@ class LowCodeSaveOptionsProviderOfPlaceHolders extends AbstractLowCodeSaveOption
 | [setSplitPartPrefix(string)](#setSplitPartPrefix-string-)| <b>@deprecated.</b> Please use the 'splitPartPrefix' property instead. Prefix for the index of split part. |
 | [getSaveOptionsTemplate()](#getSaveOptionsTemplate--)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
 | [setSaveOptionsTemplate(LowCodeSaveOptions)](#setSaveOptionsTemplate-lowcodesaveoptions-)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
-| [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. |
 | [finish(LowCodeSaveOptions)](#finish-lowcodesaveoptions-)| Releases resources after processing currently split part. |
 
 
@@ -390,6 +390,15 @@ setSaveOptionsTemplate(value: LowCodeSaveOptions) : void;
 
 If the template has been specified, then the created instance will copy all setting from it and update the output file accordingly.
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getSaveOptions(SplitPartInfo) {#getSaveOptions-splitpartinfo-}
 
 Gets the save options from which to get the output settings for currently split part.
@@ -406,15 +415,6 @@ getSaveOptions(part: SplitPartInfo) : LowCodeSaveOptions;
 **Returns**
 
 [LowCodeSaveOptions](../lowcodesaveoptions/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 ### finish(LowCodeSaveOptions) {#finish-lowcodesaveoptions-}
 

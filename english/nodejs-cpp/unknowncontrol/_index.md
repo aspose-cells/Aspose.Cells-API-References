@@ -25,8 +25,6 @@ class UnknownControl extends ActiveXControl;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [data](#data--)| Uint8Array | Readonly. Gets and sets the binary data of the control. |
-| [type](#type--)| ControlType | Readonly. Gets the type of the ActiveX control. |
 | [workbook](#workbook--)| Workbook | Readonly. Gets the [Workbook](../workbook/) object. |
 | [mouseIcon](#mouseIcon--)| Uint8Array | Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [mousePointer](#mousePointer--)| ControlMousePointerType | Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -43,8 +41,6 @@ class UnknownControl extends ActiveXControl;
 
 | Method | Description |
 | --- | --- |
-| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control. |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control. |
 | [getRelationshipData(string)](#getRelationshipData-string-)| Gets the related data. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the [Workbook](../workbook/) object. |
@@ -67,6 +63,8 @@ class UnknownControl extends ActiveXControl;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
 | [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
 | [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
+| [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
 | [getHeight()](#getHeight--)| Gets and sets the height of the control in unit of points. |
@@ -95,24 +93,6 @@ constructor(obj: ActiveXControl);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ActiveXControl | The parent object. |
-
-### data {#data--}
-
-Readonly. Gets and sets the binary data of the control.
-
-```javascript
-data : Uint8Array;
-```
-
-
-### type {#type--}
-
-Readonly. Gets the type of the ActiveX control.
-
-```javascript
-type : ControlType;
-```
-
 
 ### workbook {#workbook--}
 
@@ -212,28 +192,6 @@ Represents how to align the text used by the control.
 textAlign : TextAlignmentType;
 ```
 
-
-### getData() {#getData--}
-
-<b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control.
-
-```javascript
-getData() : Uint8Array;
-```
-
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control.
-
-```javascript
-getType() : ControlType;
-```
-
-
-**Returns**
-
-[ControlType](../controltype/)
 
 ### getRelationshipData(string) {#getRelationshipData-string-}
 
@@ -496,6 +454,28 @@ setTextAlign(value: TextAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
+
+### getType() {#getType--}
+
+Gets the type of the ActiveX control.
+
+```javascript
+getType() : ControlType;
+```
+
+
+**Returns**
+
+[ControlType](../controltype/)
 
 ### getWidth() {#getWidth--}
 

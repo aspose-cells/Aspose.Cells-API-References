@@ -50,12 +50,12 @@ var customProperty2 = customProperties.get("Owner");
 | [getSource()](#getSource--)| <b>@deprecated.</b> Please use the 'source' property instead. The linked content source. |
 | [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the data type of the property. |
 | [isGeneratedName()](#isGeneratedName--)| <b>@deprecated.</b> Please use the 'isGeneratedName' property instead. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
-| [toString()](#toString--)| Returns the property value as a string. |
 | [toInt()](#toInt--)| Returns the property value as integer. |
 | [toDouble()](#toDouble--)| Returns the property value as double. |
 | [toDateTime()](#toDateTime--)| Returns the property value as DateTime in local timezone. |
 | [toBool()](#toBool--)| Returns the property value as bool. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns the property value as a string. |
 
 
 ### name {#name--}
@@ -183,19 +183,6 @@ isGeneratedName() : boolean;
 ```
 
 
-### toString() {#toString--}
-
-Returns the property value as a string.
-
-```javascript
-toString() : string;
-```
-
-
-**Remarks**
-
-Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
-
 ### toInt() {#toInt--}
 
 Returns the property value as integer.
@@ -256,5 +243,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### toString() {#toString--}
+
+Returns the property value as a string.
+
+```javascript
+toString() : string;
+```
+
+
+**Remarks**
+
+Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
 
 

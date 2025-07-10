@@ -21,19 +21,13 @@ class InterruptMonitor;
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
-## Properties
-
-| Property | Type | Description |
-| --- | --- | --- |
-| [isInterruptionRequested](#isInterruptionRequested--)| boolean | Readonly. Mark the monitor as requesting interruption |
-
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isInterruptionRequested()](#isInterruptionRequested--)| <b>@deprecated.</b> Please use the 'isInterruptionRequested' property instead. Mark the monitor as requesting interruption |
 | [interrupt()](#interrupt--)| Interrupt the current operator. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [isInterruptionRequested()](#isInterruptionRequested--)| Mark the monitor as requesting interruption |
 
 
 ### constructor() {#constructor--}
@@ -42,24 +36,6 @@ Default Constructor.
 
 ```javascript
 constructor();
-```
-
-
-### isInterruptionRequested {#isInterruptionRequested--}
-
-Readonly. Mark the monitor as requesting interruption
-
-```javascript
-isInterruptionRequested : boolean;
-```
-
-
-### isInterruptionRequested() {#isInterruptionRequested--}
-
-<b>@deprecated.</b> Please use the 'isInterruptionRequested' property instead. Mark the monitor as requesting interruption
-
-```javascript
-isInterruptionRequested() : boolean;
 ```
 
 
@@ -78,6 +54,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### isInterruptionRequested() {#isInterruptionRequested--}
+
+Mark the monitor as requesting interruption
+
+```javascript
+isInterruptionRequested() : boolean;
 ```
 
 

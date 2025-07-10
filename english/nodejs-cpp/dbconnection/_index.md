@@ -25,14 +25,8 @@ class DBConnection extends ExternalConnection;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [classType](#classType--)| ExternalConnectionClassType | Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object. |
-| [connectionString](#connectionString--)| string | The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [connectionInfo](#connectionInfo--)| string | The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [powerQueryFormula](#powerQueryFormula--)| PowerQueryFormula | Readonly. Gets the definition of power query formula. |
-| [commandType](#commandType--)| OLEDBCommandType | Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
-| [command](#command--)| string | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
 | [severCommand](#severCommand--)| string | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [secondCommand](#secondCommand--)| string | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [id](#id--)| number | Readonly. Gets the id of the connection. |
 | [connectionId](#connectionId--)| number | Readonly. Specifies The unique identifier of this connection. |
 | [sourceType](#sourceType--)| ConnectionDataSourceType | Gets or Sets the external connection DataSource type. |
@@ -58,20 +52,10 @@ class DBConnection extends ExternalConnection;
 
 | Method | Description |
 | --- | --- |
-| [getClassType()](#getClassType--)| <b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object. |
-| [getConnectionString()](#getConnectionString--)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [setConnectionString(string)](#setConnectionString-string-)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [getConnectionInfo()](#getConnectionInfo--)| <b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [setConnectionInfo(string)](#setConnectionInfo-string-)| <b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [getPowerQueryFormula()](#getPowerQueryFormula--)| <b>@deprecated.</b> Please use the 'powerQueryFormula' property instead. Gets the definition of power query formula. |
-| [getCommandType()](#getCommandType--)| <b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
-| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| <b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
-| [getCommand()](#getCommand--)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [setCommand(string)](#setCommand-string-)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
 | [getSeverCommand()](#getSeverCommand--)| <b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [setSeverCommand(string)](#setSeverCommand-string-)| <b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [getSecondCommand()](#getSecondCommand--)| <b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
-| [setSecondCommand(string)](#setSecondCommand-string-)| <b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the connection. |
 | [getConnectionId()](#getConnectionId--)| <b>@deprecated.</b> Please use the 'connectionId' property instead. Specifies The unique identifier of this connection. |
@@ -110,6 +94,16 @@ class DBConnection extends ExternalConnection;
 | [getBackgroundRefresh()](#getBackgroundRefresh--)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [getParameters()](#getParameters--)| <b>@deprecated.</b> Please use the 'parameters' property instead. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
+| [getClassType()](#getClassType--)| Gets the type of this [ExternalConnection](../externalconnection/) object. |
+| [getConnectionString()](#getConnectionString--)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [setConnectionString(string)](#setConnectionString-string-)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
+| [getCommandType()](#getCommandType--)| Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
+| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
+| [getCommand()](#getCommand--)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [setCommand(string)](#setCommand-string-)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [getSecondCommand()](#getSecondCommand--)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [setSecondCommand(string)](#setSecondCommand-string-)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [getConnectionFile()](#getConnectionFile--)| Gets the connection file. |
 
 
@@ -126,24 +120,6 @@ constructor(obj: ExternalConnection);
 | --- | --- | --- |
 | obj | ExternalConnection | The parent object. |
 
-### classType {#classType--}
-
-Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-classType : ExternalConnectionClassType;
-```
-
-
-### connectionString {#connectionString--}
-
-The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-connectionString : string;
-```
-
-
 ### connectionInfo {#connectionInfo--}
 
 The connection information string is used to make contact with an OLE DB or ODBC data source.
@@ -157,33 +133,6 @@ connectionInfo : string;
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.ConnectionString property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
-### powerQueryFormula {#powerQueryFormula--}
-
-Readonly. Gets the definition of power query formula.
-
-```javascript
-powerQueryFormula : PowerQueryFormula;
-```
-
-
-### commandType {#commandType--}
-
-Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
-
-```javascript
-commandType : OLEDBCommandType;
-```
-
-
-### command {#command--}
-
-The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-command : string;
-```
-
-
 ### severCommand {#severCommand--}
 
 Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
@@ -196,15 +145,6 @@ severCommand : string;
 **Remarks**
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.SecondCommand property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### secondCommand {#secondCommand--}
-
-Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
-
-```javascript
-secondCommand : string;
-```
-
 
 ### id {#id--}
 
@@ -390,41 +330,6 @@ parameters : ConnectionParameterCollection;
 ```
 
 
-### getClassType() {#getClassType--}
-
-<b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-getClassType() : ExternalConnectionClassType;
-```
-
-
-**Returns**
-
-[ExternalConnectionClassType](../externalconnectionclasstype/)
-
-### getConnectionString() {#getConnectionString--}
-
-<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-getConnectionString() : string;
-```
-
-
-### setConnectionString(string) {#setConnectionString-string-}
-
-<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-setConnectionString(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
 ### getConnectionInfo() {#getConnectionInfo--}
 
 <b>@deprecated.</b> Please use the 'connectionInfo' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
@@ -455,67 +360,6 @@ setConnectionInfo(value: string) : void;
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.ConnectionString property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
-### getPowerQueryFormula() {#getPowerQueryFormula--}
-
-<b>@deprecated.</b> Please use the 'powerQueryFormula' property instead. Gets the definition of power query formula.
-
-```javascript
-getPowerQueryFormula() : PowerQueryFormula;
-```
-
-
-**Returns**
-
-[PowerQueryFormula](../powerqueryformula/)
-
-### getCommandType() {#getCommandType--}
-
-<b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
-
-```javascript
-getCommandType() : OLEDBCommandType;
-```
-
-
-**Returns**
-
-[OLEDBCommandType](../oledbcommandtype/)
-
-### setCommandType(OLEDBCommandType) {#setCommandType-oledbcommandtype-}
-
-<b>@deprecated.</b> Please use the 'commandType' property instead. Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
-
-```javascript
-setCommandType(value: OLEDBCommandType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [OLEDBCommandType](../oledbcommandtype/) | The value to set. |
-
-### getCommand() {#getCommand--}
-
-<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-getCommand() : string;
-```
-
-
-### setCommand(string) {#setCommand-string-}
-
-<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-setCommand(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
 ### getSeverCommand() {#getSeverCommand--}
 
 <b>@deprecated.</b> Please use the 'severCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
@@ -545,28 +389,6 @@ setSeverCommand(value: string) : void;
 **Remarks**
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.SecondCommand property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### getSecondCommand() {#getSecondCommand--}
-
-<b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
-
-```javascript
-getSecondCommand() : string;
-```
-
-
-### setSecondCommand(string) {#setSecondCommand-string-}
-
-<b>@deprecated.</b> Please use the 'secondCommand' property instead. Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
-
-```javascript
-setSecondCommand(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
 
 ### isNull() {#isNull--}
 
@@ -997,6 +819,124 @@ getParameters() : ConnectionParameterCollection;
 **Returns**
 
 [ConnectionParameterCollection](../connectionparametercollection/)
+
+### getClassType() {#getClassType--}
+
+Gets the type of this [ExternalConnection](../externalconnection/) object.
+
+```javascript
+getClassType() : ExternalConnectionClassType;
+```
+
+
+**Returns**
+
+[ExternalConnectionClassType](../externalconnectionclasstype/)
+
+### getConnectionString() {#getConnectionString--}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+getConnectionString() : string;
+```
+
+
+### setConnectionString(string) {#setConnectionString-string-}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+setConnectionString(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getPowerQueryFormula() {#getPowerQueryFormula--}
+
+Gets the definition of power query formula.
+
+```javascript
+getPowerQueryFormula() : PowerQueryFormula;
+```
+
+
+**Returns**
+
+[PowerQueryFormula](../powerqueryformula/)
+
+### getCommandType() {#getCommandType--}
+
+Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+
+```javascript
+getCommandType() : OLEDBCommandType;
+```
+
+
+**Returns**
+
+[OLEDBCommandType](../oledbcommandtype/)
+
+### setCommandType(OLEDBCommandType) {#setCommandType-oledbcommandtype-}
+
+Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+
+```javascript
+setCommandType(value: OLEDBCommandType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [OLEDBCommandType](../oledbcommandtype/) | The value to set. |
+
+### getCommand() {#getCommand--}
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+```javascript
+getCommand() : string;
+```
+
+
+### setCommand(string) {#setCommand-string-}
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+```javascript
+setCommand(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getSecondCommand() {#getSecondCommand--}
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+```javascript
+getSecondCommand() : string;
+```
+
+
+### setSecondCommand(string) {#setSecondCommand-string-}
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+```javascript
+setSecondCommand(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getConnectionFile() {#getConnectionFile--}
 

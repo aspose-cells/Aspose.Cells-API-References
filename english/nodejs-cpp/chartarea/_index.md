@@ -60,15 +60,6 @@ workbook.save("output/ChartsChartArea.xls");
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [x](#x--)| number | Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
-| [y](#y--)| number | Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [height](#height--)| number | Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [width](#width--)| number | Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
-| [xRatioToChart](#xRatioToChart--)| number | Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
-| [yRatioToChart](#yRatioToChart--)| number | Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
-| [heightRatioToChart](#heightRatioToChart--)| number | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
-| [widthRatioToChart](#widthRatioToChart--)| number | Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [font](#font--)| Font | Readonly. Gets a [Font](../font/) object of the specified chartarea object. |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
@@ -87,23 +78,6 @@ workbook.save("output/ChartsChartArea.xls");
 
 | Method | Description |
 | --- | --- |
-| [getX()](#getX--)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
-| [setX(number)](#setX-number-)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
-| [getY()](#getY--)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [setY(number)](#setY-number-)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [setHeight(number)](#setHeight-number-)| <b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
-| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
-| [getXRatioToChart()](#getXRatioToChart--)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
-| [setXRatioToChart(number)](#setXRatioToChart-number-)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
-| [getYRatioToChart()](#getYRatioToChart--)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
-| [setYRatioToChart(number)](#setYRatioToChart-number-)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
-| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| <b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
-| [getWidthRatioToChart()](#getWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| <b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object of the specified chartarea object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
@@ -121,6 +95,23 @@ workbook.save("output/ChartsChartArea.xls");
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
+| [getX()](#getX--)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [setX(number)](#setX-number-)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [getY()](#getY--)| Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
+| [setY(number)](#setY-number-)| Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--)| Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
+| [setHeight(number)](#setHeight-number-)| Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
+| [getWidth()](#getWidth--)| Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
+| [setWidth(number)](#setWidth-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--)| Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [getYRatioToChart()](#getYRatioToChart--)| Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
+| [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--)| Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
+| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
+| [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
+| [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified chartarea object. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -151,103 +142,6 @@ constructor(obj: ChartFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartFrame | The parent object. |
-
-### x {#x--}
-
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
-
-```javascript
-x : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, instead. X = XRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### y {#y--}
-
-Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area.
-
-```javascript
-y : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### height {#height--}
-
-Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
-
-```javascript
-height : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### width {#width--}
-
-Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
-
-```javascript
-width : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### xRatioToChart {#xRatioToChart--}
-
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
-
-```javascript
-xRatioToChart : number;
-```
-
-
-### yRatioToChart {#yRatioToChart--}
-
-Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area.
-
-```javascript
-yRatioToChart : number;
-```
-
-
-### heightRatioToChart {#heightRatioToChart--}
-
-Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area.
-
-```javascript
-heightRatioToChart : number;
-```
-
-
-### widthRatioToChart {#widthRatioToChart--}
-
-Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area.
-
-```javascript
-widthRatioToChart : number;
-```
-
-
-### font {#font--}
-
-Readonly. Gets a [Font](../font/) object of the specified chartarea object.
-
-```javascript
-font : Font;
-```
-
 
 ### isInnerMode {#isInnerMode--}
 
@@ -385,227 +279,6 @@ Readonly. Represents height of default position in units of Fraction of the char
 defaultHeightRatioToChart : number;
 ```
 
-
-### getX() {#getX--}
-
-<b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
-
-```javascript
-getX() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, instead. X = XRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setX(number) {#setX-number-}
-
-<b>@deprecated.</b> Please use the 'x' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
-
-```javascript
-setX(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, instead. X = XRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getY() {#getY--}
-
-<b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area.
-
-```javascript
-getY() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setY(number) {#setY-number-}
-
-<b>@deprecated.</b> Please use the 'y' property instead. Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area.
-
-```javascript
-setY(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getHeight() {#getHeight--}
-
-<b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
-
-```javascript
-getHeight() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setHeight(number) {#setHeight-number-}
-
-<b>@deprecated.</b> Please use the 'height' property instead. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
-
-```javascript
-setHeight(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getWidth() {#getWidth--}
-
-<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
-
-```javascript
-getWidth() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setWidth(number) {#setWidth-number-}
-
-<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
-
-```javascript
-setWidth(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getXRatioToChart() {#getXRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
-
-```javascript
-getXRatioToChart() : number;
-```
-
-
-### setXRatioToChart(number) {#setXRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
-
-```javascript
-setXRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getYRatioToChart() {#getYRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area.
-
-```javascript
-getYRatioToChart() : number;
-```
-
-
-### setYRatioToChart(number) {#setYRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area.
-
-```javascript
-setYRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getHeightRatioToChart() {#getHeightRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area.
-
-```javascript
-getHeightRatioToChart() : number;
-```
-
-
-### setHeightRatioToChart(number) {#setHeightRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'heightRatioToChart' property instead. Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area.
-
-```javascript
-setHeightRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getWidthRatioToChart() {#getWidthRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area.
-
-```javascript
-getWidthRatioToChart() : number;
-```
-
-
-### setWidthRatioToChart(number) {#setWidthRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'widthRatioToChart' property instead. Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area.
-
-```javascript
-setWidthRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getFont() {#getFont--}
-
-<b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object of the specified chartarea object.
-
-```javascript
-getFont() : Font;
-```
-
-
-**Returns**
-
-[Font](../font/)
 
 ### isNull() {#isNull--}
 
@@ -803,6 +476,227 @@ getDefaultWidthRatioToChart() : number;
 getDefaultHeightRatioToChart() : number;
 ```
 
+
+### getX() {#getX--}
+
+Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+
+```javascript
+getX() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, instead. X = XRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setX(number) {#setX-number-}
+
+Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+
+```javascript
+setX(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, instead. X = XRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getY() {#getY--}
+
+Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area.
+
+```javascript
+getY() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setY(number) {#setY-number-}
+
+Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area.
+
+```javascript
+setY(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getHeight() {#getHeight--}
+
+Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+
+```javascript
+getHeight() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setHeight(number) {#setHeight-number-}
+
+Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+
+```javascript
+setHeight(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getWidth() {#getWidth--}
+
+Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
+
+```javascript
+getWidth() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setWidth(number) {#setWidth-number-}
+
+Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
+
+```javascript
+setWidth(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getXRatioToChart() {#getXRatioToChart--}
+
+Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+
+```javascript
+getXRatioToChart() : number;
+```
+
+
+### setXRatioToChart(number) {#setXRatioToChart-number-}
+
+Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+
+```javascript
+setXRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getYRatioToChart() {#getYRatioToChart--}
+
+Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area.
+
+```javascript
+getYRatioToChart() : number;
+```
+
+
+### setYRatioToChart(number) {#setYRatioToChart-number-}
+
+Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area.
+
+```javascript
+setYRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getHeightRatioToChart() {#getHeightRatioToChart--}
+
+Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area.
+
+```javascript
+getHeightRatioToChart() : number;
+```
+
+
+### setHeightRatioToChart(number) {#setHeightRatioToChart-number-}
+
+Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area.
+
+```javascript
+setHeightRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getWidthRatioToChart() {#getWidthRatioToChart--}
+
+Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area.
+
+```javascript
+getWidthRatioToChart() : number;
+```
+
+
+### setWidthRatioToChart(number) {#setWidthRatioToChart-number-}
+
+Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area.
+
+```javascript
+setWidthRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getFont() {#getFont--}
+
+Gets a [Font](../font/) object of the specified chartarea object.
+
+```javascript
+getFont() : Font;
+```
+
+
+**Returns**
+
+[Font](../font/)
 
 ### getBorder() {#getBorder--}
 

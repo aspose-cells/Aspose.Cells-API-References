@@ -25,7 +25,6 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| ControlType | Readonly. Gets the type of the ActiveX control. |
 | [groupName](#groupName--)| string | Gets and sets the group's name. |
 | [alignment](#alignment--)| ControlCaptionAlignmentType | Gets and set the position of the Caption relative to the control. |
 | [isWordWrapped](#isWordWrapped--)| boolean | Indicates whether the contents of the control automatically wrap at the end of a line. |
@@ -40,7 +39,6 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 | [iMEMode](#iMEMode--)| InputMethodEditorMode | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [font](#font--)| Font | Readonly. Represents the font of the control. |
 | [textAlign](#textAlign--)| TextAlignmentType | Represents how to align the text used by the control. |
-| [data](#data--)| Uint8Array | Readonly. Gets and sets the binary data of the control. |
 | [caption](#caption--)| string | Gets and set the descriptive text that appears on a control. |
 | [picturePosition](#picturePosition--)| ControlPicturePositionType | Gets and set the location of the control's picture relative to its caption. |
 | [specialEffect](#specialEffect--)| ControlSpecialEffectType | Gets and sets the special effect of the control. |
@@ -53,7 +51,6 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control. |
 | [getGroupName()](#getGroupName--)| <b>@deprecated.</b> Please use the 'groupName' property instead. Gets and sets the group's name. |
 | [setGroupName(string)](#setGroupName-string-)| <b>@deprecated.</b> Please use the 'groupName' property instead. Gets and sets the group's name. |
 | [getAlignment()](#getAlignment--)| <b>@deprecated.</b> Please use the 'alignment' property instead. Gets and set the position of the Caption relative to the control. |
@@ -81,7 +78,6 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
 | [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
 | [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
-| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control. |
 | [getCaption()](#getCaption--)| <b>@deprecated.</b> Please use the 'caption' property instead. Gets and set the descriptive text that appears on a control. |
 | [setCaption(string)](#setCaption-string-)| <b>@deprecated.</b> Please use the 'caption' property instead. Gets and set the descriptive text that appears on a control. |
 | [getPicturePosition()](#getPicturePosition--)| <b>@deprecated.</b> Please use the 'picturePosition' property instead. Gets and set the location of the control's picture relative to its caption. |
@@ -96,6 +92,7 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 | [setValue(CheckValueType)](#setValue-checkvaluetype-)| <b>@deprecated.</b> Please use the 'value' property instead. Indicates if the control is checked or not. |
 | [isTripleState()](#isTripleState--)| <b>@deprecated.</b> Please use the 'isTripleState' property instead. Indicates how the specified control will display Null values. |
 | [setIsTripleState(boolean)](#setIsTripleState-boolean-)| <b>@deprecated.</b> Please use the 'isTripleState' property instead. Indicates how the specified control will display Null values. |
+| [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
 | [getHeight()](#getHeight--)| Gets and sets the height of the control in unit of points. |
@@ -110,6 +107,7 @@ class RadioButtonActiveXControl extends ToggleButtonActiveXControl;
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether to show a shadow. |
 | [isAutoSize()](#isAutoSize--)| Indicates whether the control will automatically resize to display its entire contents. |
 | [setIsAutoSize(boolean)](#setIsAutoSize-boolean-)| Indicates whether the control will automatically resize to display its entire contents. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
 
 
 ### constructor(ToggleButtonActiveXControl) {#constructor-togglebuttonactivexcontrol-}
@@ -124,15 +122,6 @@ constructor(obj: ToggleButtonActiveXControl);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ToggleButtonActiveXControl | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of the ActiveX control.
-
-```javascript
-type : ControlType;
-```
-
 
 ### groupName {#groupName--}
 
@@ -260,15 +249,6 @@ textAlign : TextAlignmentType;
 ```
 
 
-### data {#data--}
-
-Readonly. Gets and sets the binary data of the control.
-
-```javascript
-data : Uint8Array;
-```
-
-
 ### caption {#caption--}
 
 Gets and set the descriptive text that appears on a control.
@@ -335,19 +315,6 @@ isTripleState : boolean;
 **Remarks**
 
 list type="table"> <listheader> <description>Setting</description> <description>Description</description> </listheader> <item> <description>True</description> <description>The control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null.</description> </item> <item> <description>False</description> <description>(Default) The control will cycle through states for Yes and No values. Null values display as if they were No values.</description> </item> </list
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control.
-
-```javascript
-getType() : ControlType;
-```
-
-
-**Returns**
-
-[ControlType](../controltype/)
 
 ### getGroupName() {#getGroupName--}
 
@@ -664,15 +631,6 @@ setTextAlign(value: TextAlignmentType) : void;
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
-### getData() {#getData--}
-
-<b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control.
-
-```javascript
-getData() : Uint8Array;
-```
-
-
 ### getCaption() {#getCaption--}
 
 <b>@deprecated.</b> Please use the 'caption' property instead. Gets and set the descriptive text that appears on a control.
@@ -847,6 +805,19 @@ setIsTripleState(value: boolean) : void;
 
 list type="table"> <listheader> <description>Setting</description> <description>Description</description> </listheader> <item> <description>True</description> <description>The control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null.</description> </item> <item> <description>False</description> <description>(Default) The control will cycle through states for Yes and No values. Null values display as if they were No values.</description> </item> </list
 
+### getType() {#getType--}
+
+Gets the type of the ActiveX control.
+
+```javascript
+getType() : ControlType;
+```
+
+
+**Returns**
+
+[ControlType](../controltype/)
+
 ### getWidth() {#getWidth--}
 
 Gets and sets the width of the control in unit of points.
@@ -1008,5 +979,14 @@ setIsAutoSize(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
 
 

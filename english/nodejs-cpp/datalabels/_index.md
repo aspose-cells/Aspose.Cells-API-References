@@ -67,12 +67,6 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [border](#border--)| Line | Readonly. Gets the <see cref="Line">border</see>. |
-| [area](#area--)| Area | Readonly. Gets the <see cref="Area">area</see>. |
-| [isAutoText](#isAutoText--)| boolean | Indicates the text is auto generated. |
-| [directionType](#directionType--)| ChartTextDirectionType | Gets and sets the direction of text. |
-| [text](#text--)| string | Gets or sets the text of data label. |
-| [isTextWrapped](#isTextWrapped--)| boolean | Gets or sets a value indicating whether the text is wrapped. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
 | [showValue](#showValue--)| boolean | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | [showCellRange](#showCellRange--)| boolean | Indicates whether showing cell range as the data labels. |
@@ -84,7 +78,6 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [numberFormat](#numberFormat--)| string | Represents the format string for the DataLabels object. |
 | [number](#number--)| number | Gets and sets the built-in number format. |
 | [numberFormatLinked](#numberFormatLinked--)| boolean | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [font](#font--)| Font | Readonly. Gets the font of the DataLabels; |
 | [separatorType](#separatorType--)| DataLabelsSeparatorType | Gets or sets the separator type used for the data labels on a chart. |
 | [separatorValue](#separatorValue--)| string | Gets or sets the separator value used for the data labels on a chart. |
 | [position](#position--)| LabelPositionType | Represents the position of the data label. |
@@ -114,16 +107,6 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 
 | Method | Description |
 | --- | --- |
-| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Gets the <see cref="Line">border</see>. |
-| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Gets the <see cref="Area">area</see>. |
-| [isAutoText()](#isAutoText--)| <b>@deprecated.</b> Please use the 'isAutoText' property instead. Indicates the text is auto generated. |
-| [setIsAutoText(boolean)](#setIsAutoText-boolean-)| <b>@deprecated.</b> Please use the 'isAutoText' property instead. Indicates the text is auto generated. |
-| [getDirectionType()](#getDirectionType--)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text. |
-| [setDirectionType(ChartTextDirectionType)](#setDirectionType-charttextdirectiontype-)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text. |
-| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of data label. |
-| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of data label. |
-| [isTextWrapped()](#isTextWrapped--)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text is wrapped. |
-| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| <b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text is wrapped. |
 | [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
 | [getShowValue()](#getShowValue--)| <b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
@@ -146,7 +129,6 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Gets and sets the built-in number format. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets the font of the DataLabels; |
 | [getSeparatorType()](#getSeparatorType--)| <b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart. |
 | [setSeparatorType(DataLabelsSeparatorType)](#setSeparatorType-datalabelsseparatortype-)| <b>@deprecated.</b> Please use the 'separatorType' property instead. Gets or sets the separator type used for the data labels on a chart. |
 | [getSeparatorValue()](#getSeparatorValue--)| <b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart. |
@@ -187,6 +169,17 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
+| [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
+| [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
+| [isAutoText()](#isAutoText--)| Indicates the text is auto generated. |
+| [setIsAutoText(boolean)](#setIsAutoText-boolean-)| Indicates the text is auto generated. |
+| [getDirectionType()](#getDirectionType--)| Gets and sets the direction of text. |
+| [setDirectionType(ChartTextDirectionType)](#setDirectionType-charttextdirectiontype-)| Gets and sets the direction of text. |
+| [getText()](#getText--)| Gets or sets the text of data label. |
+| [setText(string)](#setText-string-)| Gets or sets the text of data label. |
+| [isTextWrapped()](#isTextWrapped--)| Gets or sets a value indicating whether the text is wrapped. |
+| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets a value indicating whether the text is wrapped. |
+| [getFont()](#getFont--)| Gets the font of the DataLabels; |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
@@ -233,60 +226,6 @@ constructor(obj: ChartTextFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartTextFrame | The parent object. |
-
-### border {#border--}
-
-Readonly. Gets the <see cref="Line">border</see>.
-
-```javascript
-border : Line;
-```
-
-
-### area {#area--}
-
-Readonly. Gets the <see cref="Area">area</see>.
-
-```javascript
-area : Area;
-```
-
-
-### isAutoText {#isAutoText--}
-
-Indicates the text is auto generated.
-
-```javascript
-isAutoText : boolean;
-```
-
-
-### directionType {#directionType--}
-
-Gets and sets the direction of text.
-
-```javascript
-directionType : ChartTextDirectionType;
-```
-
-
-### text {#text--}
-
-Gets or sets the text of data label.
-
-```javascript
-text : string;
-```
-
-
-### isTextWrapped {#isTextWrapped--}
-
-Gets or sets a value indicating whether the text is wrapped.
-
-```javascript
-isTextWrapped : boolean;
-```
-
 
 ### backgroundMode {#backgroundMode--}
 
@@ -384,15 +323,6 @@ True if the number format is linked to the cells (so that the number format chan
 
 ```javascript
 numberFormatLinked : boolean;
-```
-
-
-### font {#font--}
-
-Readonly. Gets the font of the DataLabels;
-
-```javascript
-font : Font;
 ```
 
 
@@ -640,124 +570,6 @@ isResizeShapeToFitText : boolean;
 ```
 
 
-### getBorder() {#getBorder--}
-
-<b>@deprecated.</b> Please use the 'border' property instead. Gets the <see cref="Line">border</see>.
-
-```javascript
-getBorder() : Line;
-```
-
-
-**Returns**
-
-[Line](../line/)
-
-### getArea() {#getArea--}
-
-<b>@deprecated.</b> Please use the 'area' property instead. Gets the <see cref="Area">area</see>.
-
-```javascript
-getArea() : Area;
-```
-
-
-**Returns**
-
-[Area](../area/)
-
-### isAutoText() {#isAutoText--}
-
-<b>@deprecated.</b> Please use the 'isAutoText' property instead. Indicates the text is auto generated.
-
-```javascript
-isAutoText() : boolean;
-```
-
-
-### setIsAutoText(boolean) {#setIsAutoText-boolean-}
-
-<b>@deprecated.</b> Please use the 'isAutoText' property instead. Indicates the text is auto generated.
-
-```javascript
-setIsAutoText(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getDirectionType() {#getDirectionType--}
-
-<b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text.
-
-```javascript
-getDirectionType() : ChartTextDirectionType;
-```
-
-
-**Returns**
-
-[ChartTextDirectionType](../charttextdirectiontype/)
-
-### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
-
-<b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text.
-
-```javascript
-setDirectionType(value: ChartTextDirectionType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ChartTextDirectionType](../charttextdirectiontype/) | The value to set. |
-
-### getText() {#getText--}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of data label.
-
-```javascript
-getText() : string;
-```
-
-
-### setText(string) {#setText-string-}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of data label.
-
-```javascript
-setText(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### isTextWrapped() {#isTextWrapped--}
-
-<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text is wrapped.
-
-```javascript
-isTextWrapped() : boolean;
-```
-
-
-### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
-
-<b>@deprecated.</b> Please use the 'isTextWrapped' property instead. Gets or sets a value indicating whether the text is wrapped.
-
-```javascript
-setIsTextWrapped(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
 ### getBackgroundMode() {#getBackgroundMode--}
 
 <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background
@@ -1003,19 +815,6 @@ setNumberFormatLinked(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
-
-### getFont() {#getFont--}
-
-<b>@deprecated.</b> Please use the 'font' property instead. Gets the font of the DataLabels;
-
-```javascript
-getFont() : Font;
-```
-
-
-**Returns**
-
-[Font](../font/)
 
 ### getSeparatorType() {#getSeparatorType--}
 
@@ -1505,6 +1304,137 @@ characters(startIndex: number, length: number) : FontSetting;
 **Returns**
 
 Characters object.
+
+### getBorder() {#getBorder--}
+
+Gets the <see cref="Line">border</see>.
+
+```javascript
+getBorder() : Line;
+```
+
+
+**Returns**
+
+[Line](../line/)
+
+### getArea() {#getArea--}
+
+Gets the <see cref="Area">area</see>.
+
+```javascript
+getArea() : Area;
+```
+
+
+**Returns**
+
+[Area](../area/)
+
+### isAutoText() {#isAutoText--}
+
+Indicates the text is auto generated.
+
+```javascript
+isAutoText() : boolean;
+```
+
+
+### setIsAutoText(boolean) {#setIsAutoText-boolean-}
+
+Indicates the text is auto generated.
+
+```javascript
+setIsAutoText(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDirectionType() {#getDirectionType--}
+
+Gets and sets the direction of text.
+
+```javascript
+getDirectionType() : ChartTextDirectionType;
+```
+
+
+**Returns**
+
+[ChartTextDirectionType](../charttextdirectiontype/)
+
+### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
+
+Gets and sets the direction of text.
+
+```javascript
+setDirectionType(value: ChartTextDirectionType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ChartTextDirectionType](../charttextdirectiontype/) | The value to set. |
+
+### getText() {#getText--}
+
+Gets or sets the text of data label.
+
+```javascript
+getText() : string;
+```
+
+
+### setText(string) {#setText-string-}
+
+Gets or sets the text of data label.
+
+```javascript
+setText(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### isTextWrapped() {#isTextWrapped--}
+
+Gets or sets a value indicating whether the text is wrapped.
+
+```javascript
+isTextWrapped() : boolean;
+```
+
+
+### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
+
+Gets or sets a value indicating whether the text is wrapped.
+
+```javascript
+setIsTextWrapped(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getFont() {#getFont--}
+
+Gets the font of the DataLabels;
+
+```javascript
+getFont() : Font;
+```
+
+
+**Returns**
+
+[Font](../font/)
 
 ### getTextOptions() {#getTextOptions--}
 

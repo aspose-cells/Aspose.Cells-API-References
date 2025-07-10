@@ -25,7 +25,6 @@ class RevisionCellComment extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Gets the type of revision. |
 | [row](#row--)| number | Readonly. Gets the row index of the which contains a comment. |
 | [column](#column--)| number | Readonly. Gets the column index of the which contains a comment. |
 | [cellName](#cellName--)| string | Gets the name of the cell. |
@@ -40,7 +39,6 @@ class RevisionCellComment extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of revision. |
 | [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets the row index of the which contains a comment. |
 | [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets the column index of the which contains a comment. |
 | [getCellName()](#getCellName--)| <b>@deprecated.</b> Please use the 'cellName' property instead. Gets the name of the cell. |
@@ -52,6 +50,7 @@ class RevisionCellComment extends Revision;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Gets the type of revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -66,15 +65,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### row {#row--}
 
@@ -160,19 +150,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getRow() {#getRow--}
 
@@ -288,5 +265,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Gets the type of revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

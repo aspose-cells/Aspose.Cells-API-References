@@ -69,9 +69,9 @@ class ShapeTextAlignment;
 | [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| <b>@deprecated.</b> Please use the 'isAutoMargin' property instead. Indicates whether the margin of the text frame is automatic. |
 | [getNumberOfColumns()](#getNumberOfColumns--)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle. |
 | [setNumberOfColumns(number)](#setNumberOfColumns-number-)| <b>@deprecated.</b> Please use the 'numberOfColumns' property instead. Gets and sets the number of columns of text in the bounding rectangle. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object. |
 | [getHashCode()](#getHashCode--)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isTextWrapped {#isTextWrapped--}
@@ -567,6 +567,15 @@ setNumberOfColumns(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### equals(Object) {#equals-object-}
 
 Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object.
@@ -590,15 +599,6 @@ true if the value of the obj parameter is the same as the value of this instance
 
 ```javascript
 getHashCode() : number;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
 ```
 
 

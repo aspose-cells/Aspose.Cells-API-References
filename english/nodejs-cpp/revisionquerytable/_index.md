@@ -25,7 +25,6 @@ class RevisionQueryTable extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Represents the type of the revision. |
 | [cellArea](#cellArea--)| CellArea | Readonly. Gets the location of the affected query table. |
 | [fieldId](#fieldId--)| number | Readonly. Gets ID of the specific query table field that was removed. |
 | [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
@@ -35,12 +34,12 @@ class RevisionQueryTable extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision. |
 | [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location of the affected query table. |
 | [getFieldId()](#getFieldId--)| <b>@deprecated.</b> Please use the 'fieldId' property instead. Gets ID of the specific query table field that was removed. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Represents the type of the revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -55,15 +54,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Represents the type of the revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### cellArea {#cellArea--}
 
@@ -104,19 +94,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getCellArea() {#getCellArea--}
 
@@ -174,5 +151,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Represents the type of the revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

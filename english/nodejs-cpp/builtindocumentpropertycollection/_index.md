@@ -61,7 +61,6 @@ Provides access to [DocumentProperty](../documentproperty/) objects by their nam
 
 | Method | Description |
 | --- | --- |
-| [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [getLanguage()](#getLanguage--)| <b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language. |
 | [setLanguage(string)](#setLanguage-string-)| <b>@deprecated.</b> Please use the 'language' property instead. Gets or sets the document's language. |
@@ -127,6 +126,7 @@ Provides access to [DocumentProperty](../documentproperty/) objects by their nam
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
+| [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
 
 ### constructor(DocumentPropertyCollection) {#constructor-documentpropertycollection-}
@@ -434,27 +434,6 @@ Represents an estimate of the number of words in the document.
 words : number;
 ```
 
-
-### get(string) {#get-string-}
-
-Returns a [DocumentProperty](../documentproperty/) object by the name of the property.
-
-```javascript
-get(name: string) : DocumentProperty;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | string | The case-insensitive name of the property to retrieve. |
-
-**Returns**
-
-[DocumentProperty](../documentproperty/)
-
-**Remarks**
-
-The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
 
 ### get(number) {#get-number-}
 
@@ -1252,5 +1231,26 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The zero based index. |
+
+### get(string) {#get-string-}
+
+Returns a [DocumentProperty](../documentproperty/) object by the name of the property.
+
+```javascript
+get(name: string) : DocumentProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The case-insensitive name of the property to retrieve. |
+
+**Returns**
+
+[DocumentProperty](../documentproperty/)
+
+**Remarks**
+
+The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
 
 

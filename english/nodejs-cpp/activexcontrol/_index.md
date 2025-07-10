@@ -31,7 +31,6 @@ class ActiveXControl extends ActiveXControlBase;
 | [iMEMode](#iMEMode--)| InputMethodEditorMode | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [font](#font--)| Font | Readonly. Represents the font of the control. |
 | [textAlign](#textAlign--)| TextAlignmentType | Represents how to align the text used by the control. |
-| [data](#data--)| Uint8Array | Readonly. Gets and sets the binary data of the control. |
 | [workbook](#workbook--)| Workbook | Readonly. Gets the [Workbook](../workbook/) object. |
 | [mouseIcon](#mouseIcon--)| Uint8Array | Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [mousePointer](#mousePointer--)| ControlMousePointerType | Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -53,7 +52,6 @@ class ActiveXControl extends ActiveXControlBase;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
 | [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
 | [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
-| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| <b>@deprecated.</b> Please use the 'mouseIcon' property instead. Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -66,6 +64,7 @@ class ActiveXControl extends ActiveXControlBase;
 | [setListFillRange(string)](#setListFillRange-string-)| <b>@deprecated.</b> Please use the 'listFillRange' property instead. Gets and sets the list fill range. |
 | [isAutoSize()](#isAutoSize--)| Indicates whether the control will automatically resize to display its entire contents. |
 | [setIsAutoSize(boolean)](#setIsAutoSize-boolean-)| Indicates whether the control will automatically resize to display its entire contents. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
 | [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
@@ -145,15 +144,6 @@ Represents how to align the text used by the control.
 
 ```javascript
 textAlign : TextAlignmentType;
-```
-
-
-### data {#data--}
-
-Readonly. Gets and sets the binary data of the control.
-
-```javascript
-data : Uint8Array;
 ```
 
 
@@ -333,15 +323,6 @@ setTextAlign(value: TextAlignmentType) : void;
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
-### getData() {#getData--}
-
-<b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control.
-
-```javascript
-getData() : Uint8Array;
-```
-
-
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -477,6 +458,15 @@ setIsAutoSize(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
 
 ### getType() {#getType--}
 

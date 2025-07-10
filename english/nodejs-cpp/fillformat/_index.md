@@ -84,9 +84,9 @@ chart.nSeries.get(1).area.fillFormat.setOneColorGradient(Color.Lime, 1, Gradient
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, number, Color, number, GradientStyleType, number)](#setTwoColorGradient-color-number-color-number-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setPresetColorGradient(GradientPresetType, GradientStyleType, number)](#setPresetColorGradient-gradientpresettype-gradientstyletype-number-)| Sets the specified fill to a preset-color gradient. Only applies for Excel 2007. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [equals(Object)](#equals-object-)|  |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### fillType {#fillType--}
@@ -657,6 +657,15 @@ setPresetColorGradient(presetColor: GradientPresetType, style: GradientStyleType
 | style | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### equals(Object) {#equals-object-}
 
 
@@ -676,15 +685,6 @@ Gets the hash code.
 
 ```javascript
 getHashCode() : number;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
 ```
 
 

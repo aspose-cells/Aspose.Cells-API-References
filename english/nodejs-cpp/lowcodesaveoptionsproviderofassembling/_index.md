@@ -61,8 +61,8 @@ class LowCodeSaveOptionsProviderOfAssembling extends AbstractLowCodeSaveOptionsP
 | [setBuildPathWithSplitPartAlways(boolean)](#setBuildPathWithSplitPartAlways-boolean-)| <b>@deprecated.</b> Please use the 'buildPathWithSplitPartAlways' property instead. Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix will not be added to the file path. |
 | [getSaveOptionsTemplate()](#getSaveOptionsTemplate--)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
 | [setSaveOptionsTemplate(LowCodeSaveOptions)](#setSaveOptionsTemplate-lowcodesaveoptions-)| <b>@deprecated.</b> Please use the 'saveOptionsTemplate' property instead. The template for creating instance of save options in [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/). |
-| [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. |
 | [finish(LowCodeSaveOptions)](#finish-lowcodesaveoptions-)| Releases resources after processing currently split part. |
 
 
@@ -462,6 +462,15 @@ setSaveOptionsTemplate(value: LowCodeSaveOptions) : void;
 
 If the template has been specified, then the created instance will copy all setting from it and update the output file accordingly.
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getSaveOptions(SplitPartInfo) {#getSaveOptions-splitpartinfo-}
 
 Gets the save options from which to get the output settings for currently split part.
@@ -478,15 +487,6 @@ getSaveOptions(part: SplitPartInfo) : LowCodeSaveOptions;
 **Returns**
 
 [LowCodeSaveOptions](../lowcodesaveoptions/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 ### finish(LowCodeSaveOptions) {#finish-lowcodesaveoptions-}
 

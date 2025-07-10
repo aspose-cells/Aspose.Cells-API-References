@@ -26,7 +26,6 @@ class TextParagraph extends FontSetting;
 | Property | Type | Description |
 | --- | --- | --- |
 | [bullet](#bullet--)| Bullet | Readonly. Gets the bullet. |
-| [type](#type--)| TextNodeType | Readonly. Gets the type of text node. |
 | [lineSpaceSizeType](#lineSpaceSizeType--)| LineSpaceSizeType | Gets and sets the amount of vertical white space that will be used within a paragraph. |
 | [lineSpace](#lineSpace--)| number | Gets and sets the amount of vertical white space that will be used within a paragraph. |
 | [spaceAfterSizeType](#spaceAfterSizeType--)| LineSpaceSizeType | Gets and sets the amount of vertical white space that will be present after a paragraph. |
@@ -54,7 +53,6 @@ class TextParagraph extends FontSetting;
 | Method | Description |
 | --- | --- |
 | [getBullet()](#getBullet--)| <b>@deprecated.</b> Please use the 'bullet' property instead. Gets the bullet. |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of text node. |
 | [getLineSpaceSizeType()](#getLineSpaceSizeType--)| <b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
 | [setLineSpaceSizeType(LineSpaceSizeType)](#setLineSpaceSizeType-linespacesizetype-)| <b>@deprecated.</b> Please use the 'lineSpaceSizeType' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
 | [getLineSpace()](#getLineSpace--)| <b>@deprecated.</b> Please use the 'lineSpace' property instead. Gets and sets the amount of vertical white space that will be used within a paragraph. |
@@ -93,6 +91,7 @@ class TextParagraph extends FontSetting;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Returns the font of this object. |
 | [getTextOptions()](#getTextOptions--)| <b>@deprecated.</b> Please use the 'textOptions' property instead. Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
+| [getType()](#getType--)| Gets the type of text node. |
 
 
 ### constructor(FontSetting) {#constructor-fontsetting-}
@@ -114,15 +113,6 @@ Readonly. Gets the bullet.
 
 ```javascript
 bullet : Bullet;
-```
-
-
-### type {#type--}
-
-Readonly. Gets the type of text node.
-
-```javascript
-type : TextNodeType;
 ```
 
 
@@ -327,19 +317,6 @@ getBullet() : Bullet;
 **Returns**
 
 [Bullet](../bullet/)
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of text node.
-
-```javascript
-getType() : TextNodeType;
-```
-
-
-**Returns**
-
-[TextNodeType](../textnodetype/)
 
 ### getLineSpaceSizeType() {#getLineSpaceSizeType--}
 
@@ -786,5 +763,18 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Remarks**
 
 Only for the text of shape/chart.
+
+### getType() {#getType--}
+
+Gets the type of text node.
+
+```javascript
+getType() : TextNodeType;
+```
+
+
+**Returns**
+
+[TextNodeType](../textnodetype/)
 
 

@@ -75,9 +75,6 @@ workbook.save("output/ChartsDisplayUnitLabel.xls");
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [text](#text--)| string | Gets or sets the text of display unit label. |
-| [font](#font--)| Font | Readonly. Gets a [Font](../font/) object of the specified ChartFrame object. |
-| [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
@@ -103,11 +100,6 @@ workbook.save("output/ChartsDisplayUnitLabel.xls");
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label. |
-| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label. |
-| [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object of the specified ChartFrame object. |
-| [getAutoScaleFont()](#getAutoScaleFont--)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
-| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [isInnerMode()](#isInnerMode--)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| <b>@deprecated.</b> Please use the 'isInnerMode' property instead. Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
@@ -139,6 +131,11 @@ workbook.save("output/ChartsDisplayUnitLabel.xls");
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
+| [getText()](#getText--)| Gets or sets the text of display unit label. |
+| [setText(string)](#setText-string-)| Gets or sets the text of display unit label. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified ChartFrame object. |
+| [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
+| [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -191,33 +188,6 @@ constructor(obj: ChartTextFrame);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ChartTextFrame | The parent object. |
-
-### text {#text--}
-
-Gets or sets the text of display unit label.
-
-```javascript
-text : string;
-```
-
-
-### font {#font--}
-
-Readonly. Gets a [Font](../font/) object of the specified ChartFrame object.
-
-```javascript
-font : Font;
-```
-
-
-### autoScaleFont {#autoScaleFont--}
-
-True if the text in the object changes font size when the object size changes. The default value is True.
-
-```javascript
-autoScaleFont : boolean;
-```
-
 
 ### isInnerMode {#isInnerMode--}
 
@@ -422,63 +392,6 @@ Gets or sets whether a shape should be auto-fit to fully contain the text descri
 isResizeShapeToFitText : boolean;
 ```
 
-
-### getText() {#getText--}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label.
-
-```javascript
-getText() : string;
-```
-
-
-### setText(string) {#setText-string-}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label.
-
-```javascript
-setText(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getFont() {#getFont--}
-
-<b>@deprecated.</b> Please use the 'font' property instead. Gets a [Font](../font/) object of the specified ChartFrame object.
-
-```javascript
-getFont() : Font;
-```
-
-
-**Returns**
-
-[Font](../font/)
-
-### getAutoScaleFont() {#getAutoScaleFont--}
-
-<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
-
-```javascript
-getAutoScaleFont() : boolean;
-```
-
-
-### setAutoScaleFont(boolean) {#setAutoScaleFont-boolean-}
-
-<b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True.
-
-```javascript
-setAutoScaleFont(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
 
 ### isNull() {#isNull--}
 
@@ -855,6 +768,63 @@ characters(startIndex: number, length: number) : FontSetting;
 **Returns**
 
 Characters object.
+
+### getText() {#getText--}
+
+Gets or sets the text of display unit label.
+
+```javascript
+getText() : string;
+```
+
+
+### setText(string) {#setText-string-}
+
+Gets or sets the text of display unit label.
+
+```javascript
+setText(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getFont() {#getFont--}
+
+Gets a [Font](../font/) object of the specified ChartFrame object.
+
+```javascript
+getFont() : Font;
+```
+
+
+**Returns**
+
+[Font](../font/)
+
+### getAutoScaleFont() {#getAutoScaleFont--}
+
+True if the text in the object changes font size when the object size changes. The default value is True.
+
+```javascript
+getAutoScaleFont() : boolean;
+```
+
+
+### setAutoScaleFont(boolean) {#setAutoScaleFont-boolean-}
+
+True if the text in the object changes font size when the object size changes. The default value is True.
+
+```javascript
+setAutoScaleFont(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getBorder() {#getBorder--}
 

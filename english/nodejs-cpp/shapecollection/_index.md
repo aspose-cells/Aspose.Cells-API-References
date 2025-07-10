@@ -1122,16 +1122,20 @@ addFreeform(upperLeftRow: number, top: number, upperLeftColumn: number, left: nu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | number | Upper left row index. |
-| top | number | Represents the vertical  offset of Polygon from its left row, in unit of pixel. |
+| top | number | Represents the vertical  offset of freeform shape from its left row, in unit of pixel. |
 | upperLeftColumn | number | Upper left column index. |
-| left | number | Represents the horizontal offset of Polygon from its left column, in unit of pixel. |
-| height | number | Represents the height of Polygon, in unit of pixel. |
-| width | number | Represents the width of Polygon, in unit of pixel. |
+| left | number | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
+| height | number | Represents the height of freeform shape, in unit of pixel. |
+| width | number | Represents the width of freeform shape, in unit of pixel. |
 | paths | [ShapePath](../shapepath/)[] | Represents a user-defined path |
 
 **Returns**
 
 A freeform shape.
+
+**Remarks**
+
+Notice: That the width and height in the parameters can be any positive integer values, not the total width and height of the ShapePath array specified by ’paths'. The relationship between them is a scale-fill relationship, that is, each ShapePath object will be scaled according to the width and height. Therefore, when there are multiple objects in the 'paths', each ShapePath object needs to be designed reasonably to meet expectations. When there is only one ShapePath object and there are no other requirements, passing the object's width and height as parameter values ​​is a good solution.
 
 ### addSignatureLine(number, number, SignatureLine) {#addSignatureLine-number-number-signatureline-}
 

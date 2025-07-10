@@ -25,7 +25,6 @@ class RevisionInsertSheet extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Gets the type of revision. |
 | [actionType](#actionType--)| RevisionActionType | Readonly. Gets the action type of the revision. |
 | [name](#name--)| string | Readonly. Gets the name of the worksheet. |
 | [sheetPosition](#sheetPosition--)| number | Readonly. Gets the zero based position of the new sheet in the sheet tab bar. |
@@ -36,13 +35,13 @@ class RevisionInsertSheet extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of revision. |
 | [getActionType()](#getActionType--)| <b>@deprecated.</b> Please use the 'actionType' property instead. Gets the action type of the revision. |
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of the worksheet. |
 | [getSheetPosition()](#getSheetPosition--)| <b>@deprecated.</b> Please use the 'sheetPosition' property instead. Gets the zero based position of the new sheet in the sheet tab bar. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Gets the type of revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -57,15 +56,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### actionType {#actionType--}
 
@@ -115,19 +105,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getActionType() {#getActionType--}
 
@@ -194,5 +171,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Gets the type of revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

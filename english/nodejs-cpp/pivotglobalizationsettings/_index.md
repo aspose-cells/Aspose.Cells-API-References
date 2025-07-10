@@ -44,7 +44,7 @@ class PivotGlobalizationSettings;
 | abstract [getTextOfMinutes()](#getTextOfMinutes--)| Gets the local text of "Minutes". |
 | abstract [getTextOfSeconds()](#getTextOfSeconds--)| Gets the local text of "Seconds" |
 | abstract [getTextOfRange()](#getTextOfRange--)| Gets the local text of "Range" |
-| abstract [getTextOfAllPeriods()](#getTextOfAllPeriods--)| Gets the local text of "All Periods" |
+| abstract [getTextOfAllPeriods()](#getTextOfAllPeriods--)| Gets the localized text of "All Periods". |
 | abstract [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
 
 
@@ -282,7 +282,7 @@ abstract getTextOfRange() : string;
 
 ### getTextOfAllPeriods() {#getTextOfAllPeriods--}
 
-Gets the local text of "All Periods"
+Gets the localized text of "All Periods".
 
 ```javascript
 abstract getTextOfAllPeriods() : string;

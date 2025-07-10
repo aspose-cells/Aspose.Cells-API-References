@@ -44,10 +44,10 @@ class FontSettingCollection;
 | [deleteText(number, number)](#deleteText-number-number-)| Delete some characters. |
 | [format(number, number, Font, StyleFlag)](#format-number-number-font-styleflag-)| Format the text with font setting. |
 | [clear()](#clear--)| Clear all setting. |
-| [equals(Object)](#equals-object-)|  |
-| [getHashCode()](#getHashCode--)|  |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [equals(Object)](#equals-object-)|  |
+| [getHashCode()](#getHashCode--)|  |
 
 
 ### textAlignment {#textAlignment--}
@@ -294,6 +294,24 @@ clear() : void;
 ```
 
 
+### getCount() {#getCount--}
+
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### equals(Object) {#equals-object-}
 
 
@@ -313,24 +331,6 @@ equals(obj: Object) : boolean;
 
 ```javascript
 getHashCode() : number;
-```
-
-
-### getCount() {#getCount--}
-
-<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
-
-```javascript
-getCount() : number;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
 ```
 
 

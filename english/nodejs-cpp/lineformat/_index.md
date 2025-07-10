@@ -81,8 +81,6 @@ class LineFormat extends FillFormat;
 | [setEndArrowheadLength(MsoArrowheadLength)](#setEndArrowheadLength-msoarrowheadlength-)| <b>@deprecated.</b> Please use the 'endArrowheadLength' property instead. Gets and sets the end arrow length type of the line. |
 | [getWeight()](#getWeight--)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the weight of the line in unit of points. |
 | [setWeight(number)](#setWeight-number-)| <b>@deprecated.</b> Please use the 'weight' property instead. Gets or sets the weight of the line in unit of points. |
-| [getHashCode()](#getHashCode--)| Gets the hash code. |
-| [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getFillType()](#getFillType--)| <b>@deprecated.</b> Please use the 'fillType' property instead. Gets and sets fill type |
 | [setFillType(FillType)](#setFillType-filltype-)| <b>@deprecated.</b> Please use the 'fillType' property instead. Gets and sets fill type |
@@ -113,6 +111,8 @@ class LineFormat extends FillFormat;
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, number, Color, number, GradientStyleType, number)](#setTwoColorGradient-color-number-color-number-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setPresetColorGradient(GradientPresetType, GradientStyleType, number)](#setPresetColorGradient-gradientpresettype-gradientstyletype-number-)| Sets the specified fill to a preset-color gradient. Only applies for Excel 2007. |
+| [getHashCode()](#getHashCode--)| Gets the hash code. |
+| [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object. |
 
 
 ### constructor(FillFormat) {#constructor-fillformat-}
@@ -687,32 +687,6 @@ setWeight(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
-### getHashCode() {#getHashCode--}
-
-Gets the hash code.
-
-```javascript
-getHashCode() : number;
-```
-
-
-### equals(Object) {#equals-object-}
-
-Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object.
-
-```javascript
-equals(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The [LineFormat](../lineformat/) object to compare with this instance. |
-
-**Returns**
-
-true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
-
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -1111,5 +1085,31 @@ setPresetColorGradient(presetColor: GradientPresetType, style: GradientStyleType
 | presetColor | [GradientPresetType](../gradientpresettype/) | Preset color type |
 | style | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
+
+### getHashCode() {#getHashCode--}
+
+Gets the hash code.
+
+```javascript
+getHashCode() : number;
+```
+
+
+### equals(Object) {#equals-object-}
+
+Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object.
+
+```javascript
+equals(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [LineFormat](../lineformat/) object to compare with this instance. |
+
+**Returns**
+
+true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
 
 

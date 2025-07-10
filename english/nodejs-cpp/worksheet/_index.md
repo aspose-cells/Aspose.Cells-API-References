@@ -241,7 +241,6 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [replace(string, string)](#replace-string-string-)| Replaces all cells' text with a new string. |
 | [getSelectedAreas()](#getSelectedAreas--)| Gets selected ranges of cells in the designer spreadsheet. |
 | [getPrintingPageBreaks(ImageOrPrintOptions)](#getPrintingPageBreaks-imageorprintoptions-)| Gets automatic page breaks. |
-| [toString()](#toString--)| Returns a string represents the current Worksheet object. |
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access the data in this worksheet. |
 | [closeAccessCache(AccessCacheOptions)](#closeAccessCache-accesscacheoptions-)| Closes the session that uses caches to access the data in this worksheet. |
 | [convertFormulaReferenceStyle(string, boolean, number, number)](#convertFormulaReferenceStyle-string-boolean-number-number-)| Converts the formula reference style. |
@@ -264,6 +263,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [refreshPivotTablesAsync()](#refreshPivotTablesAsync--)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTablesAsync(PivotTableRefreshOption)](#refreshPivotTablesAsync-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Worksheet object. |
 
 
 ### protection {#protection--}
@@ -2870,15 +2870,6 @@ The automatic page breaks areas.
 
 Each cell area represents a paper.
 
-### toString() {#toString--}
-
-Returns a string represents the current Worksheet object.
-
-```javascript
-toString() : string;
-```
-
-
 ### startAccessCache(AccessCacheOptions) {#startAccessCache-accesscacheoptions-}
 
 Starts the session that uses caches to access the data in this worksheet.
@@ -3289,6 +3280,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### toString() {#toString--}
+
+Returns a string represents the current Worksheet object.
+
+```javascript
+toString() : string;
 ```
 
 

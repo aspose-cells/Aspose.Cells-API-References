@@ -25,7 +25,6 @@ class ComboBoxActiveXControl extends ActiveXControl;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| ControlType | Readonly. Gets the type of the ActiveX control. |
 | [maxLength](#maxLength--)| number | Gets and sets the maximum number of characters |
 | [listWidth](#listWidth--)| number | Gets and set the width in unit of points. |
 | [boundColumn](#boundColumn--)| number | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
@@ -58,13 +57,11 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [iMEMode](#iMEMode--)| InputMethodEditorMode | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [font](#font--)| Font | Readonly. Represents the font of the control. |
 | [textAlign](#textAlign--)| TextAlignmentType | Represents how to align the text used by the control. |
-| [data](#data--)| Uint8Array | Readonly. Gets and sets the binary data of the control. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control. |
 | [getMaxLength()](#getMaxLength--)| <b>@deprecated.</b> Please use the 'maxLength' property instead. Gets and sets the maximum number of characters |
 | [setMaxLength(number)](#setMaxLength-number-)| <b>@deprecated.</b> Please use the 'maxLength' property instead. Gets and sets the maximum number of characters |
 | [getListWidth()](#getListWidth--)| <b>@deprecated.</b> Please use the 'listWidth' property instead. Gets and set the width in unit of points. |
@@ -128,7 +125,7 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
 | [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
 | [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
-| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control. |
+| [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [isAutoWordSelected()](#isAutoWordSelected--)| Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word. |
 | [setIsAutoWordSelected(boolean)](#setIsAutoWordSelected-boolean-)| Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
@@ -145,6 +142,7 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether to show a shadow. |
 | [isAutoSize()](#isAutoSize--)| Indicates whether the control will automatically resize to display its entire contents. |
 | [setIsAutoSize(boolean)](#setIsAutoSize-boolean-)| Indicates whether the control will automatically resize to display its entire contents. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
 
 
 ### constructor(ActiveXControl) {#constructor-activexcontrol-}
@@ -159,15 +157,6 @@ constructor(obj: ActiveXControl);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ActiveXControl | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of the ActiveX control.
-
-```javascript
-type : ControlType;
-```
-
 
 ### maxLength {#maxLength--}
 
@@ -456,28 +445,6 @@ Represents how to align the text used by the control.
 textAlign : TextAlignmentType;
 ```
 
-
-### data {#data--}
-
-Readonly. Gets and sets the binary data of the control.
-
-```javascript
-data : Uint8Array;
-```
-
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control.
-
-```javascript
-getType() : ControlType;
-```
-
-
-**Returns**
-
-[ControlType](../controltype/)
 
 ### getMaxLength() {#getMaxLength--}
 
@@ -1210,14 +1177,18 @@ setTextAlign(value: TextAlignmentType) : void;
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
-### getData() {#getData--}
+### getType() {#getType--}
 
-<b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control.
+Gets the type of the ActiveX control.
 
 ```javascript
-getData() : Uint8Array;
+getType() : ControlType;
 ```
 
+
+**Returns**
+
+[ControlType](../controltype/)
 
 ### isAutoWordSelected() {#isAutoWordSelected--}
 
@@ -1402,5 +1373,14 @@ setIsAutoSize(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
 
 

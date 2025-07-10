@@ -54,6 +54,8 @@ class CellsHelper;
 | static [getDoubleFromDateTime(Date, boolean)](#getDoubleFromDateTime-date-boolean-)| Convert the date time to double value. |
 | static [getUsedColors(Workbook)](#getUsedColors-workbook-)| Gets all used colors in the workbook. |
 | static [mergeFiles(string[], string, string)](#mergeFiles-stringarray-string-string-)| Merges some large xls files to a xls file. |
+| static [getCacheFolder()](#getCacheFolder--)| Gets the folder for temporary files that may be used as data cache. |
+| static [setCacheFolder(string)](#setCacheFolder-string-)| Sets the folder for temporary files that may be used as data cache. |
 | static [createSafeSheetName(string)](#createSafeSheetName-string-)| Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value. |
 | static [needQuoteInFormula(string)](#needQuoteInFormula-string-)| Indicates whether the name of the sheet should be enclosed in single quotes |
 
@@ -450,6 +452,40 @@ static mergeFiles(files: string[], cachedFile: string, destFile: string) : void;
 **Remarks**
 
 This method only supports merging data, style and formulas to the new file. The cached file is used to store some temporary data.
+
+### getCacheFolder() {#getCacheFolder--}
+
+Gets the folder for temporary files that may be used as data cache.
+
+```javascript
+static getCacheFolder() : string;
+```
+
+
+**Returns**
+
+Folder for cache files that has been specified. If it has not been specified, null will be returned and system's temporary path will be used when needed.
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
+
+### setCacheFolder(string) {#setCacheFolder-string-}
+
+Sets the folder for temporary files that may be used as data cache.
+
+```javascript
+static setCacheFolder(cache: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cache | string | Folder for for temporary files that may be used as data cache. |
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
 
 ### createSafeSheetName(string) {#createSafeSheetName-string-}
 

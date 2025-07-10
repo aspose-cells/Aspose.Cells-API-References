@@ -33,9 +33,9 @@ class SolidFill;
 | [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| <b>@deprecated.</b> Please use the 'cellsColor' property instead. Gets and sets the [CellsColor](../cellscolor/) object. |
 | [getTransparency()](#getTransparency--)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| <b>@deprecated.</b> Please use the 'transparency' property instead. Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
 | [equals(Object)](#equals-object-)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### color {#color--}
@@ -139,6 +139,15 @@ setTransparency(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getHashCode() {#getHashCode--}
 
 Gets the hash code.
@@ -160,14 +169,5 @@ equals(obj: Object) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Object |  |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

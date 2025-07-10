@@ -151,8 +151,6 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [copy(Style)](#copy-style-)| Copies data from another style object |
 | [update()](#update--)| Apply the named style to the styles of the cells which use this named style. It works like clicking the "ok" button after you finished modifying the style. Only applies for named style. |
 | [isModified(StyleModifyFlag)](#isModified-stylemodifyflag-)| Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
-| [equals(Object)](#equals-object-)| Determines whether two Style instances are equal. |
-| [getHashCode()](#getHashCode--)| Serves as a hash function for a Style object. |
 | [setBorder(BorderType, CellBorderType, Color)](#setBorder-bordertype-cellbordertype-color-)| Sets the borders of the style. |
 | [setBorder(BorderType, CellBorderType, CellsColor)](#setBorder-bordertype-cellbordertype-cellscolor-)| Sets the borders of the style. |
 | [setCustom(string, boolean)](#setCustom-string-boolean-)| Sets the Custom number format string of a cell. |
@@ -160,6 +158,8 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [getTwoColorGradientSetting()](#getTwoColorGradientSetting--)| Get the two-color gradient setting. |
 | [toJson()](#toJson--)| Convert [Style](../style/) to JSON struct data. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [equals(Object)](#equals-object-)| Determines whether two Style instances are equal. |
+| [getHashCode()](#getHashCode--)| Serves as a hash function for a Style object. |
 
 
 ### backgroundThemeColor {#backgroundThemeColor--}
@@ -1501,40 +1501,6 @@ isModified(modifyFlag: StyleModifyFlag) : boolean;
 
 true if the specified properties have been modified
 
-### equals(Object) {#equals-object-}
-
-Determines whether two Style instances are equal.
-
-```javascript
-equals(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The Style object to compare with the current Style object. |
-
-**Returns**
-
-true if the specified Object is equal to the current Object; otherwise, false.
-
-### getHashCode() {#getHashCode--}
-
-Serves as a hash function for a Style object.
-
-```javascript
-getHashCode() : number;
-```
-
-
-**Returns**
-
-A hash code for the current Object.
-
-**Remarks**
-
-This method is only for internal use.
-
 ### setBorder(BorderType, CellBorderType, Color) {#setBorder-bordertype-cellbordertype-color-}
 
 Sets the borders of the style.
@@ -1633,5 +1599,39 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### equals(Object) {#equals-object-}
+
+Determines whether two Style instances are equal.
+
+```javascript
+equals(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Style object to compare with the current Style object. |
+
+**Returns**
+
+true if the specified Object is equal to the current Object; otherwise, false.
+
+### getHashCode() {#getHashCode--}
+
+Serves as a hash function for a Style object.
+
+```javascript
+getHashCode() : number;
+```
+
+
+**Returns**
+
+A hash code for the current Object.
+
+**Remarks**
+
+This method is only for internal use.
 
 

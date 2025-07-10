@@ -26,7 +26,7 @@ class CustomRenderSettings;
 | Method | Description |
 | --- | --- |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getCellBorderWidth(CellBorderType)](#getCellBorderWidth-cellbordertype-)| Get cell border width according to border type. |
+| [getCellBorderWidth(CellBorderType)](#getCellBorderWidth-cellbordertype-)| Specifies cell border width according to border type. |
 
 
 ### constructor() {#constructor--}
@@ -49,7 +49,7 @@ isNull() : boolean;
 
 ### getCellBorderWidth(CellBorderType) {#getCellBorderWidth-cellbordertype-}
 
-Get cell border width according to border type.
+Specifies cell border width according to border type.
 
 ```javascript
 getCellBorderWidth(borderType: CellBorderType) : number;

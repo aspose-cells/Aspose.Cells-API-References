@@ -50,8 +50,8 @@ class ReferredArea;
 | [getValues(boolean)](#getValues-boolean-)| Gets cell values in this area. |
 | [getValue(number, number)](#getValue-number-number-)| Gets cell value with given offset from the top-left of this area. |
 | [getValue(number, number, boolean)](#getValue-number-number-boolean-)| Gets cell value with given offset from the top-left of this area. |
-| [toString()](#toString--)| Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
 
 
 ### isExternalLink {#isExternalLink--}
@@ -339,6 +339,15 @@ getValue(rowOffset: number, colOffset: number, calculateFormulas: boolean) : Obj
 
 "#REF!" if this area is invalid; "#N/A" if given offset out of this area; Otherwise return the cell value at given position.
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### toString() {#toString--}
 
 Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3".
@@ -351,14 +360,5 @@ toString() : string;
 **Returns**
 
 the reference address of this area.
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

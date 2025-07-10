@@ -29,6 +29,7 @@ class DocxSaveOptions extends PaginatedSaveOptions;
 | --- | --- | --- |
 | [saveAsEditableShaps](#saveAsEditableShaps--)| boolean | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [saveAsEditableShapes](#saveAsEditableShapes--)| boolean | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
+| [asNormalView](#asNormalView--)| boolean | Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -71,6 +72,8 @@ class DocxSaveOptions extends PaginatedSaveOptions;
 | [setSaveAsEditableShaps(boolean)](#setSaveAsEditableShaps-boolean-)| <b>@deprecated.</b> Please use the 'saveAsEditableShaps' property instead. Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [getSaveAsEditableShapes()](#getSaveAsEditableShapes--)| <b>@deprecated.</b> Please use the 'saveAsEditableShapes' property instead. Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [setSaveAsEditableShapes(boolean)](#setSaveAsEditableShapes-boolean-)| <b>@deprecated.</b> Please use the 'saveAsEditableShapes' property instead. Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
+| [getAsNormalView()](#getAsNormalView--)| <b>@deprecated.</b> Please use the 'asNormalView' property instead. Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false. |
+| [setAsNormalView(boolean)](#setAsNormalView-boolean-)| <b>@deprecated.</b> Please use the 'asNormalView' property instead. Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -200,6 +203,15 @@ saveAsEditableShapes : boolean;
 
 Only for charts.
 
+### asNormalView {#asNormalView--}
+
+Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false.
+
+```javascript
+asNormalView : boolean;
+```
+
+
 ### saveFormat {#saveFormat--}
 
 Readonly. Gets the save file format.
@@ -229,7 +241,7 @@ cachedFileFolder : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### validateMergedAreas {#validateMergedAreas--}
 
@@ -625,6 +637,28 @@ setSaveAsEditableShapes(value: boolean) : void;
 
 Only for charts.
 
+### getAsNormalView() {#getAsNormalView--}
+
+<b>@deprecated.</b> Please use the 'asNormalView' property instead. Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false.
+
+```javascript
+getAsNormalView() : boolean;
+```
+
+
+### setAsNormalView(boolean) {#setAsNormalView-boolean-}
+
+<b>@deprecated.</b> Please use the 'asNormalView' property instead. Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false.
+
+```javascript
+setAsNormalView(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -680,7 +714,7 @@ getCachedFileFolder() : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### setCachedFileFolder(string) {#setCachedFileFolder-string-}
 
@@ -697,7 +731,7 @@ setCachedFileFolder(value: string) : void;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
 

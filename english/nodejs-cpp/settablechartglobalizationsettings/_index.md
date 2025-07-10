@@ -25,23 +25,23 @@ class SettableChartGlobalizationSettings;
 
 | Method | Description |
 | --- | --- |
-| [getSeriesName()](#getSeriesName--)| Gets the name of Series in the Chart. |
 | [setSeriesName(string)](#setSeriesName-string-)| Sets the name of Series in the Chart. |
-| [getChartTitleName()](#getChartTitleName--)| Gets the name of Chart Title. |
 | [setChartTitleName(string)](#setChartTitleName-string-)| Sets the name of Chart Title. |
-| [getLegendIncreaseName()](#getLegendIncreaseName--)| Gets the name of increase for Legend. |
 | [setLegendIncreaseName(string)](#setLegendIncreaseName-string-)| Sets the name of increase for Legend. |
-| [getLegendDecreaseName()](#getLegendDecreaseName--)| Gets the name of Decrease for Legend. |
 | [setLegendDecreaseName(string)](#setLegendDecreaseName-string-)| Sets the name of Decrease for Legend. |
-| [getLegendTotalName()](#getLegendTotalName--)| Gets the name of Total for Legend. |
 | [setLegendTotalName(string)](#setLegendTotalName-string-)| Sets the name of Total for Legend. |
-| [getAxisTitleName()](#getAxisTitleName--)| Gets the name of Title for Axis. |
 | [setAxisTitleName(string)](#setAxisTitleName-string-)| Sets the name of Title for Axis. |
-| [getOtherName()](#getOtherName--)| Gets the name of "Other" labels for Chart. |
 | [setOtherName(string)](#setOtherName-string-)| Sets the name of "Other" labels for Chart. |
-| [getAxisUnitName(DisplayUnitType)](#getAxisUnitName-displayunittype-)| Gets the Name of Axis Unit. |
 | [setAxisUnitName(DisplayUnitType, string)](#setAxisUnitName-displayunittype-string-)| Sets the Name of Axis Unit. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getSeriesName()](#getSeriesName--)| Gets the name of Series in the Chart. |
+| [getChartTitleName()](#getChartTitleName--)| Gets the name of Chart Title. |
+| [getLegendIncreaseName()](#getLegendIncreaseName--)| Gets the name of increase for Legend. |
+| [getLegendDecreaseName()](#getLegendDecreaseName--)| Gets the name of Decrease for Legend. |
+| [getLegendTotalName()](#getLegendTotalName--)| Gets the name of Total for Legend. |
+| [getAxisTitleName()](#getAxisTitleName--)| Gets the name of Title for Axis. |
+| [getOtherName()](#getOtherName--)| Gets the name of "Other" labels for Chart. |
+| [getAxisUnitName(DisplayUnitType)](#getAxisUnitName-displayunittype-)| Gets the Name of Axis Unit. |
 
 
 ### constructor() {#constructor--}
@@ -50,15 +50,6 @@ Default Constructor.
 
 ```javascript
 constructor();
-```
-
-
-### getSeriesName() {#getSeriesName--}
-
-Gets the name of Series in the Chart.
-
-```javascript
-getSeriesName() : string;
 ```
 
 
@@ -75,15 +66,6 @@ setSeriesName(name: string) : void;
 | --- | --- | --- |
 | name | string | local dependent name |
 
-### getChartTitleName() {#getChartTitleName--}
-
-Gets the name of Chart Title.
-
-```javascript
-getChartTitleName() : string;
-```
-
-
 ### setChartTitleName(string) {#setChartTitleName-string-}
 
 Sets the name of Chart Title.
@@ -96,15 +78,6 @@ setChartTitleName(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | local dependent name |
-
-### getLegendIncreaseName() {#getLegendIncreaseName--}
-
-Gets the name of increase for Legend.
-
-```javascript
-getLegendIncreaseName() : string;
-```
-
 
 ### setLegendIncreaseName(string) {#setLegendIncreaseName-string-}
 
@@ -119,15 +92,6 @@ setLegendIncreaseName(name: string) : void;
 | --- | --- | --- |
 | name | string | local dependent name |
 
-### getLegendDecreaseName() {#getLegendDecreaseName--}
-
-Gets the name of Decrease for Legend.
-
-```javascript
-getLegendDecreaseName() : string;
-```
-
-
 ### setLegendDecreaseName(string) {#setLegendDecreaseName-string-}
 
 Sets the name of Decrease for Legend.
@@ -140,15 +104,6 @@ setLegendDecreaseName(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | local dependent name |
-
-### getLegendTotalName() {#getLegendTotalName--}
-
-Gets the name of Total for Legend.
-
-```javascript
-getLegendTotalName() : string;
-```
-
 
 ### setLegendTotalName(string) {#setLegendTotalName-string-}
 
@@ -163,15 +118,6 @@ setLegendTotalName(name: string) : void;
 | --- | --- | --- |
 | name | string | local dependent name |
 
-### getAxisTitleName() {#getAxisTitleName--}
-
-Gets the name of Title for Axis.
-
-```javascript
-getAxisTitleName() : string;
-```
-
-
 ### setAxisTitleName(string) {#setAxisTitleName-string-}
 
 Sets the name of Title for Axis.
@@ -185,15 +131,6 @@ setAxisTitleName(name: string) : void;
 | --- | --- | --- |
 | name | string | local dependent name |
 
-### getOtherName() {#getOtherName--}
-
-Gets the name of "Other" labels for Chart.
-
-```javascript
-getOtherName() : string;
-```
-
-
 ### setOtherName(string) {#setOtherName-string-}
 
 Sets the name of "Other" labels for Chart.
@@ -206,19 +143,6 @@ setOtherName(name: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | local dependent name |
-
-### getAxisUnitName(DisplayUnitType) {#getAxisUnitName-displayunittype-}
-
-Gets the Name of Axis Unit.
-
-```javascript
-getAxisUnitName(type: DisplayUnitType) : string;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | [DisplayUnitType](../displayunittype/) |  |
 
 ### setAxisUnitName(DisplayUnitType, string) {#setAxisUnitName-displayunittype-string-}
 
@@ -242,5 +166,81 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getSeriesName() {#getSeriesName--}
+
+Gets the name of Series in the Chart.
+
+```javascript
+getSeriesName() : string;
+```
+
+
+### getChartTitleName() {#getChartTitleName--}
+
+Gets the name of Chart Title.
+
+```javascript
+getChartTitleName() : string;
+```
+
+
+### getLegendIncreaseName() {#getLegendIncreaseName--}
+
+Gets the name of increase for Legend.
+
+```javascript
+getLegendIncreaseName() : string;
+```
+
+
+### getLegendDecreaseName() {#getLegendDecreaseName--}
+
+Gets the name of Decrease for Legend.
+
+```javascript
+getLegendDecreaseName() : string;
+```
+
+
+### getLegendTotalName() {#getLegendTotalName--}
+
+Gets the name of Total for Legend.
+
+```javascript
+getLegendTotalName() : string;
+```
+
+
+### getAxisTitleName() {#getAxisTitleName--}
+
+Gets the name of Title for Axis.
+
+```javascript
+getAxisTitleName() : string;
+```
+
+
+### getOtherName() {#getOtherName--}
+
+Gets the name of "Other" labels for Chart.
+
+```javascript
+getOtherName() : string;
+```
+
+
+### getAxisUnitName(DisplayUnitType) {#getAxisUnitName-displayunittype-}
+
+Gets the Name of Axis Unit.
+
+```javascript
+getAxisUnitName(type: DisplayUnitType) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [DisplayUnitType](../displayunittype/) |  |
 
 

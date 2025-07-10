@@ -190,11 +190,9 @@ cell.setStyle(style);
 | [setCharacters(FontSetting[])](#setCharacters-fontsettingarray-)| Sets rich text format of the cell. |
 | [getMergedRange()](#getMergedRange--)| Returns a [Range](../range/) object which represents a merged range. |
 | [getHtmlString(boolean)](#getHtmlString-boolean-)| Gets the html string which contains data and some formats in this cell. |
-| [toString()](#toString--)| Returns a string represents the current Cell object. |
 | [toJson()](#toJson--)| Convert [Cell](../cell/) to JSON struct data. |
 | [equals(Object)](#equals-object-)| Checks whether this object refers to the same cell with another. |
 | [equals(Cell)](#equals-cell-)| Checks whether this object refers to the same cell with another cell object. |
-| [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
 | [getConditionalFormattingResult()](#getConditionalFormattingResult--)| Get the result of the conditional formatting. |
 | [getValidation()](#getValidation--)| Gets the validation applied to this cell. |
 | [getValidationValue()](#getValidationValue--)| Gets the value of validation which applied to this cell. |
@@ -202,6 +200,8 @@ cell.setStyle(style);
 | [getRichValue()](#getRichValue--)| Gets rich value of the cell. |
 | [dispose()](#dispose--)|  |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Cell object. |
+| [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
 
 
 ### worksheet {#worksheet--}
@@ -1907,15 +1907,6 @@ getHtmlString(html5: boolean) : string;
 | --- | --- | --- |
 | html5 | boolean | Indicates whether the value is compatible for html5 |
 
-### toString() {#toString--}
-
-Returns a string represents the current Cell object.
-
-```javascript
-toString() : string;
-```
-
-
 ### toJson() {#toJson--}
 
 Convert [Cell](../cell/) to JSON struct data.
@@ -1958,19 +1949,6 @@ equals(cell: Cell) : boolean;
 **Returns**
 
 true if two cell objects refers to the same cell.
-
-### getHashCode() {#getHashCode--}
-
-Serves as a hash function for a particular type.
-
-```javascript
-getHashCode() : number;
-```
-
-
-**Returns**
-
-A hash code for current Cell object.
 
 ### getConditionalFormattingResult() {#getConditionalFormattingResult--}
 
@@ -2054,5 +2032,27 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### toString() {#toString--}
+
+Returns a string represents the current Cell object.
+
+```javascript
+toString() : string;
+```
+
+
+### getHashCode() {#getHashCode--}
+
+Serves as a hash function for a particular type.
+
+```javascript
+getHashCode() : number;
+```
+
+
+**Returns**
+
+A hash code for current Cell object.
 
 

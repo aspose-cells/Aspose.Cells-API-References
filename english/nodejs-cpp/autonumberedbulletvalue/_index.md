@@ -26,7 +26,6 @@ class AutoNumberedBulletValue extends BulletValue;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| BulletType | Readonly. Gets the type of the bullet. |
 | [startAt](#startAt--)| number | Gets and sets the starting number of the bullet. |
 | [autonumberScheme](#autonumberScheme--)| TextAutonumberScheme | Represents the scheme of automatic number. |
 
@@ -34,12 +33,12 @@ class AutoNumberedBulletValue extends BulletValue;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet. |
 | [getStartAt()](#getStartAt--)| <b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet. |
 | [setStartAt(number)](#setStartAt-number-)| <b>@deprecated.</b> Please use the 'startAt' property instead. Gets and sets the starting number of the bullet. |
 | [getAutonumberScheme()](#getAutonumberScheme--)| <b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number. |
 | [setAutonumberScheme(TextAutonumberScheme)](#setAutonumberScheme-textautonumberscheme-)| <b>@deprecated.</b> Please use the 'autonumberScheme' property instead. Represents the scheme of automatic number. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the type of the bullet. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -64,15 +63,6 @@ constructor();
 ```
 
 
-### type {#type--}
-
-Readonly. Gets the type of the bullet.
-
-```javascript
-type : BulletType;
-```
-
-
 ### startAt {#startAt--}
 
 Gets and sets the starting number of the bullet.
@@ -90,19 +80,6 @@ Represents the scheme of automatic number.
 autonumberScheme : TextAutonumberScheme;
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet.
-
-```javascript
-getType() : BulletType;
-```
-
-
-**Returns**
-
-[BulletType](../bullettype/)
 
 ### getStartAt() {#getStartAt--}
 
@@ -160,5 +137,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the type of the bullet.
+
+```javascript
+getType() : BulletType;
+```
+
+
+**Returns**
+
+[BulletType](../bullettype/)
 
 

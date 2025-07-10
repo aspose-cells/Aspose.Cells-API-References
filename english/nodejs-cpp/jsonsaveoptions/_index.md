@@ -26,7 +26,7 @@ class JsonSaveOptions extends SaveOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [exportStylePool](#exportStylePool--)| boolean | Exporting style pool when converting to json struct. |
+| [exportStylePool](#exportStylePool--)| boolean | Indicates whether to export styles collectively or individually to each cell. |
 | [exportHyperlinkType](#exportHyperlinkType--)| JsonExportHyperlinkType | Represents the type of exporting hyperlink to json. |
 | [skipEmptyRows](#skipEmptyRows--)| boolean | Indicates whether skipping emtpy rows. |
 | [sheetIndexes](#sheetIndexes--)| number[] | Represents the indexes of exported sheets. |
@@ -57,8 +57,8 @@ class JsonSaveOptions extends SaveOptions;
 
 | Method | Description |
 | --- | --- |
-| [getExportStylePool()](#getExportStylePool--)| <b>@deprecated.</b> Please use the 'exportStylePool' property instead. Exporting style pool when converting to json struct. |
-| [setExportStylePool(boolean)](#setExportStylePool-boolean-)| <b>@deprecated.</b> Please use the 'exportStylePool' property instead. Exporting style pool when converting to json struct. |
+| [getExportStylePool()](#getExportStylePool--)| <b>@deprecated.</b> Please use the 'exportStylePool' property instead. Indicates whether to export styles collectively or individually to each cell. |
+| [setExportStylePool(boolean)](#setExportStylePool-boolean-)| <b>@deprecated.</b> Please use the 'exportStylePool' property instead. Indicates whether to export styles collectively or individually to each cell. |
 | [getExportHyperlinkType()](#getExportHyperlinkType--)| <b>@deprecated.</b> Please use the 'exportHyperlinkType' property instead. Represents the type of exporting hyperlink to json. |
 | [setExportHyperlinkType(JsonExportHyperlinkType)](#setExportHyperlinkType-jsonexporthyperlinktype-)| <b>@deprecated.</b> Please use the 'exportHyperlinkType' property instead. Represents the type of exporting hyperlink to json. |
 | [getSkipEmptyRows()](#getSkipEmptyRows--)| <b>@deprecated.</b> Please use the 'skipEmptyRows' property instead. Indicates whether skipping emtpy rows. |
@@ -135,7 +135,7 @@ constructor(obj: SaveOptions);
 
 ### exportStylePool {#exportStylePool--}
 
-Exporting style pool when converting to json struct.
+Indicates whether to export styles collectively or individually to each cell.
 
 ```javascript
 exportStylePool : boolean;
@@ -291,7 +291,7 @@ cachedFileFolder : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### validateMergedAreas {#validateMergedAreas--}
 
@@ -405,7 +405,7 @@ Only for .xls,xlsx,xlsb and xlsm file.
 
 ### getExportStylePool() {#getExportStylePool--}
 
-<b>@deprecated.</b> Please use the 'exportStylePool' property instead. Exporting style pool when converting to json struct.
+<b>@deprecated.</b> Please use the 'exportStylePool' property instead. Indicates whether to export styles collectively or individually to each cell.
 
 ```javascript
 getExportStylePool() : boolean;
@@ -414,7 +414,7 @@ getExportStylePool() : boolean;
 
 ### setExportStylePool(boolean) {#setExportStylePool-boolean-}
 
-<b>@deprecated.</b> Please use the 'exportStylePool' property instead. Exporting style pool when converting to json struct.
+<b>@deprecated.</b> Please use the 'exportStylePool' property instead. Indicates whether to export styles collectively or individually to each cell.
 
 ```javascript
 setExportStylePool(value: boolean) : void;
@@ -784,7 +784,7 @@ getCachedFileFolder() : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### setCachedFileFolder(string) {#setCachedFileFolder-string-}
 
@@ -801,7 +801,7 @@ setCachedFileFolder(value: string) : void;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
 
