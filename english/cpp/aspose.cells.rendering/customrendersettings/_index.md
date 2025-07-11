@@ -23,7 +23,7 @@ class CustomRenderSettings
 | [CustomRenderSettings()](./customrendersettings/) | Ctor. |
 | [CustomRenderSettings(CustomRenderSettings_Impl* impl)](./customrendersettings/) | Constructs from an implementation object. |
 | [CustomRenderSettings(const CustomRenderSettings\& src)](./customrendersettings/) | Copy constructor. |
-| [GetCellBorderWidth(CellBorderType borderType)](./getcellborderwidth/) | Get cell border width according to border type. |
+| [GetCellBorderWidth(CellBorderType borderType)](./getcellborderwidth/) | Specifies cell border width according to border type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomRenderSettings\& src)](./operator_asm/) | operator= |
