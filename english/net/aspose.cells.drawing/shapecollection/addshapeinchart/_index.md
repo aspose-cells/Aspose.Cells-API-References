@@ -51,13 +51,13 @@ namespace AsposeCellsExamples
             worksheet.Cells["B2"].PutValue(32);
             worksheet.Cells["B3"].PutValue(80);
 
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 1, 15, 10);
             Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("A1:A3", true);
             chart.NSeries.CategoryData = "B1:B3";
 
             // Prepare image data
-            byte[] imageData = File.ReadAllBytes("sample.png");
+            byte[] imageData = File.ReadAllBytes("example.jpg");
 
             try
             {
@@ -67,8 +67,8 @@ namespace AsposeCellsExamples
                     PlacementType.Move,          // Placement
                     100,                         // Left position
                     100,                         // Top position
-                    200,                         // Right position
-                    200,                         // Bottom position
+                    1000,                         // Right position
+                    1000,                         // Bottom position
                     imageData                    // Image data
                 );
 
@@ -87,7 +87,7 @@ namespace AsposeCellsExamples
             }
 
             // Save the result
-            workbook.Save("AddShapeInChartDemo.xlsx");
+            workbook.Save("AddShapeInChartWithMsoDrawingType2.xlsx");
         }
     }
 }
@@ -137,23 +137,32 @@ namespace AsposeCellsExamples
         public static void Run()
         {
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            
-            // Add chart
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
-            Chart chart = sheet.Charts[chartIndex];
-            
-            // Add data to chart
-            chart.NSeries.Add("{1,2,3}", false);
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
             
             // Add shape to chart
-            chart.Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 100, 100, 200, 50);
+            chart.Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 100, 100, 1000, 1000);
             
             // Set shape text
             chart.Shapes[0].Text = "Sample CheckBox";
             
             // Save workbook
-            workbook.Save("output.xlsx");
+            workbook.Save("AddShapeInChartWithMsoDrawingType.xlsx");
         }
     }
 }

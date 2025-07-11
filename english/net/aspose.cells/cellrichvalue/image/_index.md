@@ -37,7 +37,8 @@ namespace AsposeCellsExamples
 
             // Get cell rich value containing the image
             Cell cell = worksheet.Cells[0, 0];
-            cell.PutValue(picture.Data);
+            cell.PutValue("test data");
+            cell.EmbeddedImage = picture.Data;
 
             // Access the rich value
             CellRichValue richValue = cell.GetRichValue();

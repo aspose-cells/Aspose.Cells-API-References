@@ -13,37 +13,6 @@ Gets the texture fill type.
 public TextureType Texture { get; }
 ```
 
-### Examples
-
-```csharp
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-using System;
-
-namespace AsposeCellsExamples
-{
-    public class MsoFillFormatPropertyTextureDemo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            Shape sourceShape = worksheet.Shapes.AddRectangle(0, 0, 100, 100, 200, 300);
-            sourceShape.Fill.Texture = TextureType.BlueTissuePaper;
-
-            Shape destShape = worksheet.Shapes.AddRectangle(0, 4, 100, 200, 300, 400);
-            destShape.Fill.Texture = sourceShape.Fill.Texture;
-
-            Console.WriteLine($"Source texture: {sourceShape.Fill.Texture}");
-            Console.WriteLine($"Destination texture: {destShape.Fill.Texture}");
-
-            workbook.Save("TextureDemoOutput.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * enum [TextureType](../../texturetype/)

@@ -17,12 +17,12 @@ Represents the paste special type.
 | DefaultExceptBorders | `3` | It works as "All except borders" behavior of MS Excel. |
 | ColumnWidths | `4` | Only copies the widths of the range. |
 | RowHeights | `5` | Only copies the heights of the range. |
-| Comments | `6` |  |
-| Formats | `7` |  |
-| Formulas | `8` |  |
-| FormulasAndNumberFormats | `9` |  |
-| Validation | `10` |  |
-| Values | `11` |  |
-| ValuesAndFormats | `12` |  |
-| ValuesAndNumberFormats | `13` |  |
+| Comments | `6` | Only copies comments in the range. |
+| Formats | `7` | Only copies formats in the range. |
+| Formulas | `8` | Only copies formulas in the range. |
+| FormulasAndNumberFormats | `9` | Only copies formulas and number formats in the range. |
+| Validation | `10` | Only copies validations in the range. |
+| Values | `11` | Only copies values in the range. |
+| ValuesAndFormats | `12` | Only copies values and formats in the range. |
+| ValuesAndNumberFormats | `13` | Only copies values and number formats in the range. |
 

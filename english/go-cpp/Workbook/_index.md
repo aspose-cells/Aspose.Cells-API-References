@@ -69,6 +69,7 @@ type Workbook struct  {
 |[GetCountOfStylesInPool](./getcountofstylesinpool/) | Gets number of the styles in the style pool. | 
 |[GetFonts](./getfonts/) | Gets all fonts in the style pool. | 
 |[GetNamedStyle](./getnamedstyle/) | Gets the named style in the style pool. | 
+|[MergeNamedStyles](./mergenamedstyles/) | Merges named styles from the other Excel file. | 
 |[ChangePalette](./changepalette/) | Changes the palette for the spreadsheet in the specified index. | 
 |[IsColorInPalette](./iscolorinpalette/) | Checks if a color is in the palette for the spreadsheet. | 
 |[CalculateFormula](./calculateformula/) | Calculates the result of formulas. | 

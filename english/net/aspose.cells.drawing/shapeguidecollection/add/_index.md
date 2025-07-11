@@ -36,7 +36,7 @@ namespace AsposeCellsExamples
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Create a shape that uses adjustment guides
-            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RightArrowCallout, 5, 5, 0, 0, 200, 150);
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RightArrowCallout, 2, 0, 2, 0, 200, 150);
 
             try
             {
@@ -44,9 +44,11 @@ namespace AsposeCellsExamples
                 ShapeGuideCollection shapeGuides = shape.Geometry.ShapeAdjustValues;
 
                 // Call Add method with (String, Double) parameters
-                int guideIndex = shapeGuides.Add("WidthAdjustment", 25.5);
+                shapeGuides.Add("adj1", 25.5);
+                shapeGuides.Add("adj2", 25.5);
+                shapeGuides.Add("adj3", 25.5);
+                shapeGuides.Add("adj4", 25.5);
 
-                Console.WriteLine($"Added guide index: {guideIndex}");
                 Console.WriteLine($"Total guides after addition: {shapeGuides.Count}");
             }
             catch (Exception ex)

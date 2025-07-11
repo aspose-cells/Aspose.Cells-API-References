@@ -196,7 +196,7 @@ namespace AsposeCellsExamples
             Console.WriteLine("Is Workbook Protected With Password: " + workbook.IsWorkbookProtectedWithPassword);
 
             // Check if the workbook contains external links
-            Console.WriteLine("Has External Links: " + workbook.HasExernalLinks());
+            Console.WriteLine("Has External Links: " + (workbook.Worksheets.ExternalLinks.Count > 0));
 
             // Dispose the workbook
             workbook.Dispose();

@@ -20,17 +20,21 @@ Shape Aspose::Cells::Drawing::ShapeCollection::AddFreeform(int32_t upperLeftRow,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int32_t | Upper left row index. |
-| top | int32_t | Represents the vertical offset of Polygon from its left row, in unit of pixel. |
+| top | int32_t | Represents the vertical offset of freeform shape from its left row, in unit of pixel. |
 | upperLeftColumn | int32_t | Upper left column index. |
-| left | int32_t | Represents the horizontal offset of Polygon from its left column, in unit of pixel. |
-| height | int32_t | Represents the height of Polygon, in unit of pixel. |
-| width | int32_t | Represents the width of Polygon, in unit of pixel. |
+| left | int32_t | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
+| height | int32_t | Represents the height of freeform shape, in unit of pixel. |
+| width | int32_t | Represents the width of freeform shape, in unit of pixel. |
 | paths | const Vector \<ShapePath\>\& | Represents a user-defined path |
 
 ## ReturnValue
 
 A freeform shape.
+## Remarks
 
+
+
+Notice: That the width and height in the parameters can be any positive integer values, not the total width and height of the [ShapePath](../../shapepath/) array specified by ’paths'. The relationship between them is a scale-fill relationship, that is, each [ShapePath](../../shapepath/) object will be scaled according to the width and height. Therefore, when there are multiple objects in the 'paths', each [ShapePath](../../shapepath/) object needs to be designed reasonably to meet expectations. When there is only one [ShapePath](../../shapepath/) object and there are no other requirements, passing the object's width and height as parameter values ​​is a good solution.
 
 ## Examples
 
@@ -51,6 +55,9 @@ shapePath.Close();
 shapePath.MoveTo(150, 45);
 shapePath.ArcTo(25, 25, 0, 270);
 
+int shapePathW = shapePath.GetWidthPixel();
+int shapePathH = shapePath.GetHeightPixel();
+
 ShapePath shapePath1;
 shapePath1.MoveTo(0, 0);
 shapePath1.CubicBezierTo(48.24997f, 0.6844f,
@@ -62,8 +69,20 @@ shapePath1.CubicBezierTo(163.5f, 30.18446f,
 shapePath1.MoveTo(150, 80);
 shapePath1.ArcTo(25, 25, 0, 270);
 
+if (shapePath1.GetWidthPixel() > shapePathW)
+{
+    shapePathW = shapePath1.GetWidthPixel();
+}
+
+if (shapePath1.GetHeightPixel() > shapePathH)
+{
+    shapePathH = shapePath1.GetHeightPixel();
+}
+
+//Notice: shapePathH and shapePathH can be any positive integer values, here we just simply set them.
+
 //Insert custom figure into worksheet
-shapes.AddFreeform(1, 0, 1, 0, 200, 200, Vector<ShapePath>{ shapePath, shapePath1 });
+shapes.AddFreeform(1, 0, 1, 0, shapePathH, shapePathW, Vector<ShapePath>{ shapePath, shapePath1 });
 ```
 
 ## See Also

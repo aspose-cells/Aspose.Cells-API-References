@@ -37,53 +37,34 @@ public class DocumentProperty
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Properties;
-    using System;
 
-    public class DocumentPropertyDemo
-    {
-        public static void DocumentPropertyExample()
-        {
-            //// Instantiate a Workbook object
-            //Workbook workbook = new Workbook("DocumentProperty_original.xlsx");
+[C#]
 
-            //// Retrieve a list of all custom document properties of the Excel file
-            //DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+//Instantiate a Workbook object
+Workbook workbook = new Workbook("book1.xls");
+ 
+//Retrieve a list of all custom document properties of the Excel file
+DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+ 
+//Accessng a custom document property by using the property index
+DocumentProperty customProperty1 = customProperties[3];
+ 
+//Accessng a custom document property by using the property name
+DocumentProperty customProperty2 = customProperties["Owner"];
 
-            //// Accessing a custom document property by using the property index
-            //DocumentProperty customProperty1 = customProperties[3];
+[VB.NET]
 
-            //// Accessing a custom document property by using the property name
-            //DocumentProperty customProperty2 = customProperties["Owner"];
-
-            //// Displaying properties of the custom document property
-            //Console.WriteLine("Property Name: " + customProperty2.Name);
-            //Console.WriteLine("Property Value: " + customProperty2.Value);
-            //Console.WriteLine("Is Linked To Content: " + customProperty2.IsLinkedToContent);
-            //Console.WriteLine("Source: " + customProperty2.Source);
-            //Console.WriteLine("Type: " + customProperty2.Type);
-            //Console.WriteLine("Is Generated Name: " + customProperty2.IsGeneratedName);
-
-            //// Using methods to get property values in different formats
-            //Console.WriteLine("Property Value as String: " + customProperty2.ToString());
-            //Console.WriteLine("Property Value as Integer: " + customProperty2.ToInt());
-            //Console.WriteLine("Property Value as Double: " + customProperty2.ToDouble());
-            //Console.WriteLine("Property Value as DateTime: " + customProperty2.ToDateTime());
-            //Console.WriteLine("Property Value as Boolean: " + customProperty2.ToBool());
-
-            //// Setting a new value to the custom property
-            //customProperty2.Value = "New Owner";
-
-            //// Save the workbook
-            //workbook.Save("DocumentPropertyExample.xlsx");
-            //workbook.Save("DocumentPropertyExample.pdf");
-            return;
-        }
-    }
-}
+'Instantiate a Workbook object
+Dim workbook As Workbook = New Workbook("book1.xls")
+ 
+'Retrieve a list of all custom document properties of the Excel file
+Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
+ 
+'Accessng a custom document property by using the property index
+Dim customProperty1 As DocumentProperty = customProperties(3)
+ 
+'Accessng a custom document property by using the property name
+Dim customProperty2 As DocumentProperty = customProperties("Owner")
 ```
 
 ### See Also

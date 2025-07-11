@@ -399,6 +399,10 @@ public Shape addFreeform(int upperLeftRow, int top, int upperLeftColumn, int lef
 
 Adds a freeform shape to the worksheet.
 
+**Remarks**
+
+Notice: That the width and height in the parameters can be any positive integer values, not the total width and height of the ShapePath array specified by \\u9225\\u6a96aths'. The relationship between them is a scale-fill relationship, that is, each ShapePath object will be scaled according to the width and height. Therefore, when there are multiple objects in the 'paths', each ShapePath object needs to be designed reasonably to meet expectations. When there is only one ShapePath object and there are no other requirements, passing the object's width and height as parameter values \\u9225\\u5b27\\u20ac\\u5a94s a good solution.
+
 **Example**
 
 ```
@@ -417,6 +421,9 @@ Adds a freeform shape to the worksheet.
          shapePath.moveTo(150, 45);
          shapePath.arcTo(25, 25, 0, 270);
  
+         int shapePathW = shapePath.getWidthPixel();
+         int shapePathH = shapePath.getHeightPixel();
+ 
          ShapePath shapePath1 = new ShapePath();
          shapePath1.moveTo(0, 0);
          shapePath1.cubicBezierTo(48.24997f, 0.6844f,
@@ -428,19 +435,31 @@ Adds a freeform shape to the worksheet.
          shapePath1.moveTo(150, 80);
          shapePath1.arcTo(25, 25, 0, 270);
  
+         if (shapePath1.getWidthPixel() > shapePathW)
+             {
+         shapePathW = shapePath1.getWidthPixel();
+         }
+ 
+         if (shapePath1.getHeightPixel() > shapePathH)
+         {
+         shapePathH = shapePath1.getHeightPixel();
+         }
+ 
+         //Notice: shapePathH and shapePathH can be any positive integer values, here we just simply set them.
+ 
          //Insert custom figure into worksheet
-         shapes.addFreeform(1, 0, 1, 0, 200, 200, new ShapePath[] { shapePath, shapePath1});
+         shapes.addFreeform(1, 0, 1, 0, shapePathH, shapePathW, new ShapePath[] { shapePath, shapePath1});
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
-| top | int | Represents the vertical offset of Polygon from its left row, in unit of pixel. |
+| top | int | Represents the vertical offset of freeform shape from its left row, in unit of pixel. |
 | upperLeftColumn | int | Upper left column index. |
-| left | int | Represents the horizontal offset of Polygon from its left column, in unit of pixel. |
-| height | int | Represents the height of Polygon, in unit of pixel. |
-| width | int | Represents the width of Polygon, in unit of pixel. |
+| left | int | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
+| height | int | Represents the height of freeform shape, in unit of pixel. |
+| width | int | Represents the width of freeform shape, in unit of pixel. |
 | paths | [ShapePath\[\]](../../com.aspose.cells/shapepath) | Represents a user-defined path |
 
 **Returns:**

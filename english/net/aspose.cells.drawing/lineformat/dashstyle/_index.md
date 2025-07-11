@@ -16,34 +16,9 @@ public MsoLineDashStyle DashStyle { get; set; }
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
 
-namespace AsposeCellsExamples
-{
-    public class LineFormatPropertyDashStyleDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a line shape to demonstrate DashStyle
-            LineShape line = worksheet.Shapes.AddLine(5, 5, 100, 5, 10, 100);
-
-            // Set different dash styles for the line
-            line.LineFormat.DashStyle = MsoLineDashStyle.Solid;
-            line.LineFormat.DashStyle = MsoLineDashStyle.Dash;
-            line.LineFormat.DashStyle = MsoLineDashStyle.DashDot;
-            line.LineFormat.DashStyle = MsoLineDashStyle.DashDotDot;
-
-            // Save the workbook
-            workbook.Save("LineFormatDashStyleDemo.xlsx");
-        }
-    }
-}
+[C#]
+lineFmt.DashStyle = MsoLineDashStyle.Solid;
 ```
 
 ### See Also

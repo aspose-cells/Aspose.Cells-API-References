@@ -23,35 +23,8 @@ public class HtmlConverter
 ### Examples
 
 ```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class LowCodeClassHtmlConverterDemo
-    {
-        public static void Run()
-        {
-            // Initialize workbook with sample data
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add sample data
-            worksheet.Cells["A1"].PutValue("Product");
-            worksheet.Cells["B1"].PutValue("Price");
-            worksheet.Cells["A2"].PutValue("Laptop");
-            worksheet.Cells["B2"].PutValue(999.99);
-            worksheet.Cells["A3"].PutValue("Phone");
-            worksheet.Cells["B3"].PutValue(699.99);
-
-            // Save as HTML
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            workbook.Save("res.html", options);
-            
-            Console.WriteLine("HTML conversion completed successfully.");
-        }
-    }
-}
+[C#]
+HtmlConverter.Process("Template.xlsx", "res.html");
 ```
 
 ### See Also

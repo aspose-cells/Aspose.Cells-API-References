@@ -25,7 +25,6 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| ControlType | Readonly. Gets the type of the ActiveX control. |
 | [largeChange](#largeChange--)| number | Gets and sets the amount by which the Position property changes |
 | [workbook](#workbook--)| Workbook | Readonly. Gets the [Workbook](../workbook/) object. |
 | [mouseIcon](#mouseIcon--)| Uint8Array | Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -38,7 +37,6 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 | [iMEMode](#iMEMode--)| InputMethodEditorMode | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [font](#font--)| Font | Readonly. Represents the font of the control. |
 | [textAlign](#textAlign--)| TextAlignmentType | Represents how to align the text used by the control. |
-| [data](#data--)| Uint8Array | Readonly. Gets and sets the binary data of the control. |
 | [min](#min--)| number | Gets and sets the minimum acceptable value. |
 | [max](#max--)| number | Gets and sets the maximum acceptable value. |
 | [position](#position--)| number | Gets and sets the value. |
@@ -49,7 +47,6 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control. |
 | [getLargeChange()](#getLargeChange--)| <b>@deprecated.</b> Please use the 'largeChange' property instead. Gets and sets the amount by which the Position property changes |
 | [setLargeChange(number)](#setLargeChange-number-)| <b>@deprecated.</b> Please use the 'largeChange' property instead. Gets and sets the amount by which the Position property changes |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -73,7 +70,6 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 | [getFont()](#getFont--)| <b>@deprecated.</b> Please use the 'font' property instead. Represents the font of the control. |
 | [getTextAlign()](#getTextAlign--)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
 | [setTextAlign(TextAlignmentType)](#setTextAlign-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textAlign' property instead. Represents how to align the text used by the control. |
-| [getData()](#getData--)| <b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control. |
 | [getMin()](#getMin--)| <b>@deprecated.</b> Please use the 'min' property instead. Gets and sets the minimum acceptable value. |
 | [setMin(number)](#setMin-number-)| <b>@deprecated.</b> Please use the 'min' property instead. Gets and sets the minimum acceptable value. |
 | [getMax()](#getMax--)| <b>@deprecated.</b> Please use the 'max' property instead. Gets and sets the maximum acceptable value. |
@@ -84,6 +80,7 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 | [setSmallChange(number)](#setSmallChange-number-)| <b>@deprecated.</b> Please use the 'smallChange' property instead. Gets and sets the amount by which the Position property changes |
 | [getOrientation()](#getOrientation--)| <b>@deprecated.</b> Please use the 'orientation' property instead. Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 | [setOrientation(ControlScrollOrientation)](#setOrientation-controlscrollorientation-)| <b>@deprecated.</b> Please use the 'orientation' property instead. Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
+| [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
 | [getHeight()](#getHeight--)| Gets and sets the height of the control in unit of points. |
@@ -98,6 +95,7 @@ class ScrollBarActiveXControl extends SpinButtonActiveXControl;
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether to show a shadow. |
 | [isAutoSize()](#isAutoSize--)| Indicates whether the control will automatically resize to display its entire contents. |
 | [setIsAutoSize(boolean)](#setIsAutoSize-boolean-)| Indicates whether the control will automatically resize to display its entire contents. |
+| [getData()](#getData--)| Gets and sets the binary data of the control. |
 
 
 ### constructor(SpinButtonActiveXControl) {#constructor-spinbuttonactivexcontrol-}
@@ -112,15 +110,6 @@ constructor(obj: SpinButtonActiveXControl);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | SpinButtonActiveXControl | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of the ActiveX control.
-
-```javascript
-type : ControlType;
-```
-
 
 ### largeChange {#largeChange--}
 
@@ -230,15 +219,6 @@ textAlign : TextAlignmentType;
 ```
 
 
-### data {#data--}
-
-Readonly. Gets and sets the binary data of the control.
-
-```javascript
-data : Uint8Array;
-```
-
-
 ### min {#min--}
 
 Gets and sets the minimum acceptable value.
@@ -283,19 +263,6 @@ Gets and sets whether the SpinButton or ScrollBar is oriented vertically or hori
 orientation : ControlScrollOrientation;
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the ActiveX control.
-
-```javascript
-getType() : ControlType;
-```
-
-
-**Returns**
-
-[ControlType](../controltype/)
 
 ### getLargeChange() {#getLargeChange--}
 
@@ -564,15 +531,6 @@ setTextAlign(value: TextAlignmentType) : void;
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
-### getData() {#getData--}
-
-<b>@deprecated.</b> Please use the 'data' property instead. Gets and sets the binary data of the control.
-
-```javascript
-getData() : Uint8Array;
-```
-
-
 ### getMin() {#getMin--}
 
 <b>@deprecated.</b> Please use the 'min' property instead. Gets and sets the minimum acceptable value.
@@ -686,6 +644,19 @@ setOrientation(value: ControlScrollOrientation) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ControlScrollOrientation](../controlscrollorientation/) | The value to set. |
+
+### getType() {#getType--}
+
+Gets the type of the ActiveX control.
+
+```javascript
+getType() : ControlType;
+```
+
+
+**Returns**
+
+[ControlType](../controltype/)
 
 ### getWidth() {#getWidth--}
 
@@ -848,5 +819,14 @@ setIsAutoSize(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getData() {#getData--}
+
+Gets and sets the binary data of the control.
+
+```javascript
+getData() : Uint8Array;
+```
+
 
 

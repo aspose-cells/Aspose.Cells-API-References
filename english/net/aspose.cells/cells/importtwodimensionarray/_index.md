@@ -5,6 +5,20 @@ description: Cells method.
 type: docs
 url: /net/aspose.cells/cells/importtwodimensionarray/
 ---
+## ImportTwoDimensionArray(object[], int, int) {#importtwodimensionarray}
+
+```csharp
+public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstColumn)
+```
+
+### See Also
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ImportTwoDimensionArray(object[], int, int, bool) {#importtwodimensionarray_1}
 
 ```csharp
@@ -45,20 +59,6 @@ public void ImportTwoDimensionArray(object[] objArray, object[] styles, int firs
 ### See Also
 
 * class [TxtLoadOptions](../../txtloadoptions/)
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportTwoDimensionArray(object[], int, int) {#importtwodimensionarray}
-
-```csharp
-public void ImportTwoDimensionArray(object[] objArray, int firstRow, int firstColumn)
-```
-
-### See Also
-
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

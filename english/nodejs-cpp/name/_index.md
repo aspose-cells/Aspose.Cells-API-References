@@ -64,7 +64,6 @@ workbook.save("output/Name.xls");
 | [getRefersTo(boolean, boolean)](#getRefersTo-boolean-boolean-)| Get the reference of this Name. |
 | [getRefersTo(boolean, boolean, number, number)](#getRefersTo-boolean-boolean-number-number-)| Get the reference of this Name based on specified cell. |
 | [setRefersTo(string, boolean, boolean)](#setRefersTo-string-boolean-boolean-)| Set the reference of this Name. |
-| [toString()](#toString--)| Returns a string represents the current Range object. |
 | [getRanges()](#getRanges--)| Gets all ranges referred by this name. |
 | [getRanges(boolean)](#getRanges-boolean-)| Gets all ranges referred by this name. |
 | [getReferredAreas(boolean)](#getReferredAreas-boolean-)| Gets all references referred by this name. |
@@ -72,6 +71,7 @@ workbook.save("output/Name.xls");
 | [getRange(boolean)](#getRange-boolean-)| Gets the range if this name refers to a range |
 | [getRange(number, number, number)](#getRange-number-number-number-)| Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Range object. |
 
 
 ### comment {#comment--}
@@ -341,15 +341,6 @@ setRefersTo(refersTo: string, isR1C1: boolean, isLocal: boolean) : void;
 | isR1C1 | boolean | Whether the reference is R1C1 format. |
 | isLocal | boolean | Whether the reference is locale formatted. |
 
-### toString() {#toString--}
-
-Returns a string represents the current Range object.
-
-```javascript
-toString() : string;
-```
-
-
 ### getRanges() {#getRanges--}
 
 Gets all ranges referred by this name.
@@ -452,6 +443,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### toString() {#toString--}
+
+Returns a string represents the current Range object.
+
+```javascript
+toString() : string;
 ```
 
 

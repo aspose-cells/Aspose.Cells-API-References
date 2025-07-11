@@ -31,9 +31,9 @@ namespace AsposeCellsExamples
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some shapes with all required parameters (upperLeftRow, upperLeftColumn, height, width, imageWidth, imageHeight)
-            Shape shape1 = worksheet.Shapes.AddRectangle(1, 0, 100, 100, 0, 0);
-            Shape shape2 = worksheet.Shapes.AddRectangle(1, 0, 100, 100, 0, 0);
-            Shape shape3 = worksheet.Shapes.AddRectangle(1, 0, 100, 100, 0, 0);
+            Shape shape1 = worksheet.Shapes.AddRectangle(2, 0, 2, 0, 50, 100);
+            Shape shape2 = worksheet.Shapes.AddRectangle(6, 0, 2, 0, 50, 100);
+            Shape shape3 = worksheet.Shapes.AddRectangle(3, 0, 5, 0, 50, 100);
 
             // Group the shapes with correct parameters
             GroupShape group = worksheet.Shapes.Group(new Shape[] { shape1, shape2, shape3 });
@@ -42,11 +42,14 @@ namespace AsposeCellsExamples
             Console.WriteLine("Shape1 IsInGroup: " + shape1.IsInGroup);
             Console.WriteLine("Shape2 IsInGroup: " + shape2.IsInGroup);
             Console.WriteLine("Shape3 IsInGroup: " + shape3.IsInGroup);
-            Console.WriteLine("Group IsInGroup: " + group.IsInGroup);
+            Console.WriteLine("GroupShape IsInGroup: " + group.IsInGroup);
 
             // Add an ungrouped shape
-            Shape ungroupedShape = worksheet.Shapes.AddRectangle(1, 0, 100, 100, 0, 0);
+            Shape ungroupedShape = worksheet.Shapes.AddRectangle(10, 0, 2, 0, 50, 100);
             Console.WriteLine("Ungrouped shape IsInGroup: " + ungroupedShape.IsInGroup);
+
+            // Save the result
+            workbook.Save("ShapePropertyIsInGroupDemo.xlsx");
 
             // Ungroup the shapes and get the ungrouped shapes from the group
             group.Ungroup();
@@ -55,7 +58,7 @@ namespace AsposeCellsExamples
             Console.WriteLine("After ungrouping, shape3 IsInGroup: " + shape3.IsInGroup);
 
             // Save the result
-            workbook.Save("ShapePropertyIsInGroupDemo.xlsx");
+            workbook.Save("ShapePropertyIsInGroupDemo2.xlsx");
         }
     }
 }

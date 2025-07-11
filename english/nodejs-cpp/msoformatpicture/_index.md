@@ -69,9 +69,9 @@ class MsoFormatPicture;
 | [setIsBiLevel(boolean)](#setIsBiLevel-boolean-)| <b>@deprecated.</b> Please use the 'isBiLevel' property instead. Indicates whether this picture should display in two-color black and white. |
 | [isGray()](#isGray--)| <b>@deprecated.</b> Please use the 'isGray' property instead. Indicates whether this picture should display in grayscale. |
 | [setIsGray(boolean)](#setIsGray-boolean-)| <b>@deprecated.</b> Please use the 'isGray' property instead. Indicates whether this picture should display in grayscale. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
 | [equals(Object)](#equals-object-)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### topCropInch {#topCropInch--}
@@ -567,6 +567,15 @@ setIsGray(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getHashCode() {#getHashCode--}
 
 Gets the hash code.
@@ -588,14 +597,5 @@ equals(obj: Object) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Object |  |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

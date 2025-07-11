@@ -19,7 +19,7 @@ void Aspose::Cells::SaveOptions::SetCachedFileFolder(const U16String &value)
 ## Remarks
 
 
-If the folder has not been specified, the default value for it is CellsHelper.GetCacheFolder(). If it is empty, then no cache file will be used when saving the workbook. 
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../../cellshelper/getcachefolder/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook. 
 ## See Also
 
 * Class [Vector](../../vector/)
@@ -39,7 +39,7 @@ void Aspose::Cells::SaveOptions::SetCachedFileFolder(const char16_t *value)
 ## Remarks
 
 
-If the folder has not been specified, the default value for it is CellsHelper.GetCacheFolder(). If it is empty, then no cache file will be used when saving the workbook. 
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../../cellshelper/getcachefolder/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook. 
 ## See Also
 
 * Class [Vector](../../vector/)

@@ -25,7 +25,6 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| PivotFieldGroupType | Readonly. Gets the group type. |
 | [start](#start--)| number | Readonly. Gets the start number of the group. |
 | [end](#end--)| number | Readonly. Gets the end number of the group. |
 | [interval](#interval--)| number | Readonly. Gets the interval of the group. |
@@ -34,11 +33,11 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the group type. |
 | [getStart()](#getStart--)| <b>@deprecated.</b> Please use the 'start' property instead. Gets the start number of the group. |
 | [getEnd()](#getEnd--)| <b>@deprecated.</b> Please use the 'end' property instead. Gets the end number of the group. |
 | [getInterval()](#getInterval--)| <b>@deprecated.</b> Please use the 'interval' property instead. Gets the interval of the group. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the group type. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -53,15 +52,6 @@ constructor(obj: PivotFieldGroupSettings);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | PivotFieldGroupSettings | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the group type.
-
-```javascript
-type : PivotFieldGroupType;
-```
-
 
 ### start {#start--}
 
@@ -89,19 +79,6 @@ Readonly. Gets the interval of the group.
 interval : number;
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the group type.
-
-```javascript
-getType() : PivotFieldGroupType;
-```
-
-
-**Returns**
-
-[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 ### getStart() {#getStart--}
 
@@ -138,5 +115,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the group type.
+
+```javascript
+getType() : PivotFieldGroupType;
+```
+
+
+**Returns**
+
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 

@@ -151,55 +151,6 @@ public class CellsDrawing : Shape
 | [ToImage](../../aspose.cells.drawing/shape/toimage/)(string, ImageOrPrintOptions) | Saves the shape to a file.(Inherited from [`Shape`](../shape/).) |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell.(Inherited from [`Shape`](../shape/).) |
 
-### Examples
-
-```csharp
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-using System;
-using System.IO;
-
-namespace AsposeCellsExamples
-{
-    public class CellsDrawingDemo
-    {
-        public static void RunDemo()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello");
-            sheet.Cells["A2"].PutValue("World");
-
-            // Add a shape to the worksheet
-            RectangleShape shape = (RectangleShape)sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 1, 0, 1, 0, 100, 200);
-
-            // Set properties of the shape
-            shape.Name = "MyShape";
-            shape.AlternativeText = "This is a sample shape";
-            shape.Title = "Sample Shape";
-            shape.ZOrderPosition = 1;
-            shape.IsHidden = false;
-            shape.RotationAngle = 45;
-            shape.Width = 150;
-            shape.Height = 100;
-            shape.Left = 50;
-            shape.Top = 50;
-            shape.IsFilled = true;
-            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
-            shape.Line.Weight = 2;
-            shape.Line.DashStyle = MsoLineDashStyle.Solid;
-
-            // Save the workbook
-            workbook.Save("CellsDrawingDemo.xlsx");
-            workbook.Save("CellsDrawingDemo.pdf");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [Shape](../shape/)

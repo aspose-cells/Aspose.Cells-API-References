@@ -31,7 +31,6 @@ class TextRunEquationNode extends EquationNode;
 | [font](#font--)| Font | Readonly. Returns the font of this object. |
 | [textOptions](#textOptions--)| TextOptions | Readonly. Returns the text options. |
 | [parentNode](#parentNode--)| EquationNode | Specifies the parent node of the current node |
-| [type](#type--)| TextNodeType | Readonly. Represents the type of the node. |
 | [equationType](#equationType--)| EquationNodeType | Readonly. Get the equation type of the current node |
 
 ## Methods
@@ -40,7 +39,6 @@ class TextRunEquationNode extends EquationNode;
 | --- | --- |
 | [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Set the content of the text node(Usually a node object per character). |
 | [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Set the content of the text node(Usually a node object per character). |
-| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| <b>@deprecated.</b> Please use the 'startIndex' property instead. Gets the start index of the characters. |
 | [getLength()](#getLength--)| <b>@deprecated.</b> Please use the 'length' property instead. Gets the length of the characters. |
@@ -49,7 +47,6 @@ class TextRunEquationNode extends EquationNode;
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
 | [getParentNode()](#getParentNode--)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
 | [setParentNode(EquationNode)](#setParentNode-equationnode-)| <b>@deprecated.</b> Please use the 'parentNode' property instead. Specifies the parent node of the current node |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node. |
 | [getEquationType()](#getEquationType--)| <b>@deprecated.</b> Please use the 'equationType' property instead. Get the equation type of the current node |
 | [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
 | [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
@@ -64,6 +61,8 @@ class TextRunEquationNode extends EquationNode;
 | [removeChild(number)](#removeChild-number-)| Removes the node at the specified index from the current node's children. |
 | [removeAllChildren()](#removeAllChildren--)| Removes all the child nodes of the current node. |
 | static [createNode(EquationNodeType, Workbook, EquationNode)](#createNode-equationnodetype-workbook-equationnode-)| Create a node of the specified type. |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [getType()](#getType--)| Represents the type of the node. |
 
 
 ### constructor(EquationNode) {#constructor-equationnode-}
@@ -133,15 +132,6 @@ parentNode : EquationNode;
 ```
 
 
-### type {#type--}
-
-Readonly. Represents the type of the node.
-
-```javascript
-type : TextNodeType;
-```
-
-
 ### equationType {#equationType--}
 
 Readonly. Get the equation type of the current node
@@ -172,19 +162,6 @@ setText(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
-
-### equals(Object) {#equals-object-}
-
-Determine whether the current equation node is equal to the specified node
-
-```javascript
-equals(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 
@@ -281,19 +258,6 @@ setParentNode(value: EquationNode) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [EquationNode](../equationnode/) | The value to set. |
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the node.
-
-```javascript
-getType() : TextNodeType;
-```
-
-
-**Returns**
-
-[TextNodeType](../textnodetype/)
 
 ### getEquationType() {#getEquationType--}
 
@@ -487,5 +451,31 @@ static createNode(equationType: EquationNodeType, workbook: Workbook, parent: Eq
 **Returns**
 
 If the specified type exists, the corresponding node is returned, and if the type does not exist, a node of unknown type is returned.
+
+### equals(Object) {#equals-object-}
+
+Determine whether the current equation node is equal to the specified node
+
+```javascript
+equals(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The specified node |
+
+### getType() {#getType--}
+
+Represents the type of the node.
+
+```javascript
+getType() : TextNodeType;
+```
+
+
+**Returns**
+
+[TextNodeType](../textnodetype/)
 
 

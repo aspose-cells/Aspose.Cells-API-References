@@ -25,7 +25,6 @@ class PivotDateTimeRangeGroupSettings extends PivotFieldGroupSettings;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| PivotFieldGroupType | Readonly. Gets the data time group type. |
 | [start](#start--)| Date | Readonly. Gets the start date time of the group. |
 | [end](#end--)| Date | Readonly. Gets the end date time of the group. |
 | [interval](#interval--)| number | Readonly. Gets the internal of the group. |
@@ -35,13 +34,13 @@ class PivotDateTimeRangeGroupSettings extends PivotFieldGroupSettings;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the data time group type. |
 | [getStart()](#getStart--)| <b>@deprecated.</b> Please use the 'start' property instead. Gets the start date time of the group. |
 | [getEnd()](#getEnd--)| <b>@deprecated.</b> Please use the 'end' property instead. Gets the end date time of the group. |
 | [getInterval()](#getInterval--)| <b>@deprecated.</b> Please use the 'interval' property instead. Gets the internal of the group. |
 | [getGroupByTypes()](#getGroupByTypes--)| <b>@deprecated.</b> Please use the 'groupByTypes' property instead. Gets the types of grouping by date time. |
 | [isGroupedBy(PivotGroupByType)](#isGroupedBy-pivotgroupbytype-)| Check whether the field is grouped by the type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the data time group type. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -56,15 +55,6 @@ constructor(obj: PivotFieldGroupSettings);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | PivotFieldGroupSettings | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the data time group type.
-
-```javascript
-type : PivotFieldGroupType;
-```
-
 
 ### start {#start--}
 
@@ -101,19 +91,6 @@ Readonly. Gets the types of grouping by date time.
 groupByTypes : PivotGroupByType[];
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the data time group type.
-
-```javascript
-getType() : PivotFieldGroupType;
-```
-
-
-**Returns**
-
-[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 ### getStart() {#getStart--}
 
@@ -176,5 +153,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the data time group type.
+
+```javascript
+getType() : PivotFieldGroupType;
+```
+
+
+**Returns**
+
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 

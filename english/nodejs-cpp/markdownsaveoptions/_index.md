@@ -34,6 +34,7 @@ class MarkdownSaveOptions extends SaveOptions;
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [imageOptions](#imageOptions--)| ImageOrPrintOptions | Readonly. Get the ImageOrPrintOptions object before exporting |
 | [exportImagesAsBase64](#exportImagesAsBase64--)| boolean | Specifies whether images are saved in Base64 format to Markdown. |
+| [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving html file. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -67,6 +68,8 @@ class MarkdownSaveOptions extends SaveOptions;
 | [getImageOptions()](#getImageOptions--)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. Get the ImageOrPrintOptions object before exporting |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. |
 | [setExportImagesAsBase64(boolean)](#setExportImagesAsBase64-boolean-)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. |
+| [getCalculateFormula()](#getCalculateFormula--)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file. |
+| [setCalculateFormula(boolean)](#setCalculateFormula-boolean-)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -197,6 +200,19 @@ exportImagesAsBase64 : boolean;
 
 When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
+### calculateFormula {#calculateFormula--}
+
+Indicates whether to calculate formulas before saving html file.
+
+```javascript
+calculateFormula : boolean;
+```
+
+
+**Remarks**
+
+The default value is false.
+
 ### saveFormat {#saveFormat--}
 
 Readonly. Gets the save file format.
@@ -226,7 +242,7 @@ cachedFileFolder : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### validateMergedAreas {#validateMergedAreas--}
 
@@ -541,6 +557,36 @@ setExportImagesAsBase64(value: boolean) : void;
 
 When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
+### getCalculateFormula() {#getCalculateFormula--}
+
+<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file.
+
+```javascript
+getCalculateFormula() : boolean;
+```
+
+
+**Remarks**
+
+The default value is false.
+
+### setCalculateFormula(boolean) {#setCalculateFormula-boolean-}
+
+<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file.
+
+```javascript
+setCalculateFormula(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+The default value is false.
+
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -596,7 +642,7 @@ getCachedFileFolder() : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### setCachedFileFolder(string) {#setCachedFileFolder-string-}
 
@@ -613,7 +659,7 @@ setCachedFileFolder(value: string) : void;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
 

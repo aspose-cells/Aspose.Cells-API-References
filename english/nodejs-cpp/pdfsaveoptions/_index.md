@@ -396,7 +396,7 @@ cachedFileFolder : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### validateMergedAreas {#validateMergedAreas--}
 
@@ -1227,7 +1227,7 @@ getCachedFileFolder() : string;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### setCachedFileFolder(string) {#setCachedFileFolder-string-}
 
@@ -1244,7 +1244,7 @@ setCachedFileFolder(value: string) : void;
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If it is empty, then no cache file will be used when saving the workbook.
+If the folder has not been specified, the default value for it is [CellsHelper.GetCacheFolder()](../cellshelper.getcachefolder()/). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
 

@@ -80,44 +80,6 @@ public static void Process(LowCodeMergeOptions options)
 | --- | --- | --- |
 | options | LowCodeMergeOptions | Options for merging files |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells.LowCode;
-    using System;
-    using System.IO;
-
-    public class SpreadsheetMergerMethodProcessWithLowCodeMergeOptionsDemo
-    {
-        public static void Run()
-        {
-            try
-            {
-                string[] templateFiles = new string[] { "Template1.xlsx", "Template2.xlsx" };
-                string resultFile = "MergedSpreadsheet.xlsx";
-
-                // Execute merge process directly using static method
-                SpreadsheetMerger.Process(templateFiles, resultFile);
-
-                Console.WriteLine($"Successfully merged {templateFiles.Length} files into {resultFile}");
-
-                // Verify output file creation
-                if (File.Exists(resultFile))
-                {
-                    Console.WriteLine($"Output file size: {new FileInfo(resultFile).Length} bytes");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Merge failed: {ex.Message}");
-            }
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [LowCodeMergeOptions](../../lowcodemergeoptions/)

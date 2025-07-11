@@ -25,7 +25,6 @@ class RevisionRenameSheet extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Represents the type of the revision. |
 | [oldName](#oldName--)| string | Readonly. Gets the old name of the worksheet. |
 | [newName](#newName--)| string | Readonly. Gets the new name of the worksheet. |
 | [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
@@ -35,12 +34,12 @@ class RevisionRenameSheet extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision. |
 | [getOldName()](#getOldName--)| <b>@deprecated.</b> Please use the 'oldName' property instead. Gets the old name of the worksheet. |
 | [getNewName()](#getNewName--)| <b>@deprecated.</b> Please use the 'newName' property instead. Gets the new name of the worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Represents the type of the revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -55,15 +54,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Represents the type of the revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### oldName {#oldName--}
 
@@ -104,19 +94,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of the revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getOldName() {#getOldName--}
 
@@ -170,5 +147,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Represents the type of the revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

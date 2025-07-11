@@ -10,7 +10,7 @@ url: /go-cpp/dbfloadoptions/getregion/
 
 ## GetRegion function
 
-Gets or sets the system regional settings based on CountryCode at the time the file was loaded.
+Gets or sets the regional settings used for the Workbook that will be loaded.
 
 ```go
 

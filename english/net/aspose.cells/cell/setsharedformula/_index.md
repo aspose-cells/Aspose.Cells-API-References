@@ -43,15 +43,15 @@ namespace AsposeCellsExamples
             // Create a new workbook and access first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-
+            Cells cells = worksheet.Cells;
             // Populate sample data in column A
             for (int row = 0; row < 5; row++)
             {
-                worksheet.Cells[row, 0].Value = row + 1; // A1-A5: 1-5
+                cells[row, 0].Value = row + 1; // A1-A5: 1-5
             }
 
             // Get target cell B1 to set shared formula
-            Cell targetCell = worksheet.Cells[0, 1]; // B1
+            Cell targetCell = cells[0, 1]; // B1
 
             try
             {
@@ -63,10 +63,15 @@ namespace AsposeCellsExamples
 
                 // Verify formula propagation
                 Console.WriteLine($"B1 formula: {targetCell.Formula}");
-                Console.WriteLine($"B5 formula: {worksheet.Cells[4, 1].Formula}");
+                Console.WriteLine($"B5 formula: {cells[4, 1].Formula}");
 
                 // Calculate workbook to refresh formula results
                 workbook.CalculateFormula();
+
+                Console.WriteLine($"A1 value: {cells["A1"].Value}");
+                Console.WriteLine($"A5 value: {cells["A5"].Value}");
+                Console.WriteLine($"B1 value: {targetCell.Value}");
+                Console.WriteLine($"B5 value: {cells[4, 1].Value}");
             }
             catch (Exception ex)
             {
@@ -201,6 +206,11 @@ namespace AsposeCellsExamples
                 Console.WriteLine("Shared formula set successfully for B1:C3 range");
                 Console.WriteLine("B1 formula: " + worksheet.Cells["B1"].Formula);
                 Console.WriteLine("C3 formula: " + worksheet.Cells["C3"].Formula);
+
+                workbook.CalculateFormula();
+                Console.WriteLine("B3 value: " + worksheet.Cells["B3"].Value);
+                Console.WriteLine("B1 value: " + worksheet.Cells["B1"].Value);
+                Console.WriteLine("C3 value: " + worksheet.Cells["C3"].Value);
             }
             catch (Exception ex)
             {
@@ -247,6 +257,7 @@ namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
+    using System.Collections;
 
     public class CellMethodSetSharedFormulaWithStringInt32Int32FormulaParseOpDemo1
     {
@@ -279,6 +290,15 @@ namespace AsposeCellsExamples
                 cell.SetSharedFormula(formula, totalRows, totalColumns, parseOptions, presetValues);
 
                 Console.WriteLine("Shared formula set successfully. Cells B2:C3 contain values 10");
+                workbook.CalculateFormula();
+                Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2", "C3");
+                IEnumerator iter = range.GetEnumerator();
+                while(iter.MoveNext()) 
+                {
+                    Cell temp = (Cell)iter.Current;
+                    Console.WriteLine(temp.Name + "  " + temp.Value);
+                }
+
             }
             catch (Exception ex)
             {

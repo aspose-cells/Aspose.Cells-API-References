@@ -100,10 +100,10 @@ workbook.save("output/Font.xls");
 | [getSchemeType()](#getSchemeType--)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
-| [toString()](#toString--)| Returns a string represents the current Cell object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getName()](#getName--)| Gets  or sets the name of the [Font](../font/). |
 | [setName(string)](#setName-string-)| Gets  or sets the name of the [Font](../font/). |
+| [toString()](#toString--)| Returns a string represents the current Cell object. |
 
 
 ### charset {#charset--}
@@ -686,15 +686,6 @@ equals(font: Font) : boolean;
 
 True if equal to the compared font object.
 
-### toString() {#toString--}
-
-Returns a string represents the current Cell object.
-
-```javascript
-toString() : string;
-```
-
-
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -742,5 +733,14 @@ var font = style.font;
 font.setName("Times New Roman");
 cell.setStyle(style);
 ```
+
+### toString() {#toString--}
+
+Returns a string represents the current Cell object.
+
+```javascript
+toString() : string;
+```
+
 
 

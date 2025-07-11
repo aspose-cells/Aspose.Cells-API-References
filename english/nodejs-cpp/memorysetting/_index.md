@@ -13,4 +13,5 @@ Memory usage modes for cells data model.
 | --- | --- | --- |
 | Normal | `0` | Default mode for cells model. |
 | MemoryPreference | `1` | Memory performance preferrable. |
+| FileCache | `2` | Memory performance preferrable and using file instead of memory to maintain the cells data. |
 

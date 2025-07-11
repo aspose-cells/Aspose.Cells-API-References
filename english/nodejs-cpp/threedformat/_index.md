@@ -84,9 +84,9 @@ class ThreeDFormat;
 | [setRotationZ(number)](#setRotationZ-number-)| <b>@deprecated.</b> Please use the 'rotationZ' property instead. Gets and sets the rotation of the extruded shape around the z-axis in degrees. |
 | [getPresetCameraType()](#getPresetCameraType--)| <b>@deprecated.</b> Please use the 'presetCameraType' property instead. Gets and sets the extrusion preset camera type. |
 | [setPresetCameraType(PresetCameraType)](#setPresetCameraType-presetcameratype-)| <b>@deprecated.</b> Please use the 'presetCameraType' property instead. Gets and sets the extrusion preset camera type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getHashCode()](#getHashCode--)| Gets hashcode. |
 | [equals(Object)](#equals-object-)|  |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### bottomBevelWidth {#bottomBevelWidth--}
@@ -741,6 +741,15 @@ setPresetCameraType(value: PresetCameraType) : void;
 | --- | --- | --- |
 | value | [PresetCameraType](../presetcameratype/) | The value to set. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getHashCode() {#getHashCode--}
 
 Gets hashcode.
@@ -762,14 +771,5 @@ equals(obj: Object) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Object |  |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

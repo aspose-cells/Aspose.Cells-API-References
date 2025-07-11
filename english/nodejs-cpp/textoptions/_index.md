@@ -25,7 +25,6 @@ class TextOptions extends Font;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [name](#name--)| string | Gets and sets the name of the shape. |
 | [languageCode](#languageCode--)| CountryCode | Gets and sets the user interface language. |
 | [latinName](#latinName--)| string | Gets and sets the latin name. |
 | [farEastName](#farEastName--)| string | Gets and sets the FarEast name. |
@@ -57,8 +56,6 @@ class TextOptions extends Font;
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape. |
-| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape. |
 | [getLanguageCode()](#getLanguageCode--)| <b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language. |
 | [setLanguageCode(CountryCode)](#setLanguageCode-countrycode-)| <b>@deprecated.</b> Please use the 'languageCode' property instead. Gets and sets the user interface language. |
 | [getLatinName()](#getLatinName--)| <b>@deprecated.</b> Please use the 'latinName' property instead. Gets and sets the latin name. |
@@ -110,6 +107,8 @@ class TextOptions extends Font;
 | [getSchemeType()](#getSchemeType--)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
+| [getName()](#getName--)| Gets and sets the name of the shape. |
+| [setName(string)](#setName-string-)| Gets and sets the name of the shape. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 
 
@@ -125,15 +124,6 @@ constructor(obj: Font);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Font | The parent object. |
-
-### name {#name--}
-
-Gets and sets the name of the shape.
-
-```javascript
-name : string;
-```
-
 
 ### languageCode {#languageCode--}
 
@@ -372,28 +362,6 @@ Gets and sets the scheme type of the font.
 schemeType : FontSchemeType;
 ```
 
-
-### getName() {#getName--}
-
-<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape.
-
-```javascript
-getName() : string;
-```
-
-
-### setName(string) {#setName-string-}
-
-<b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the shape.
-
-```javascript
-setName(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
 
 ### getLanguageCode() {#getLanguageCode--}
 
@@ -1005,6 +973,28 @@ equals(font: Font) : boolean;
 **Returns**
 
 True if equal to the compared font object.
+
+### getName() {#getName--}
+
+Gets and sets the name of the shape.
+
+```javascript
+getName() : string;
+```
+
+
+### setName(string) {#setName-string-}
+
+Gets and sets the name of the shape.
+
+```javascript
+setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### toString() {#toString--}
 

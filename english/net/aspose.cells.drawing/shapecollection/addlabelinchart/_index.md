@@ -53,18 +53,14 @@ namespace AsposeCellsExamples
             worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
-
-            // Get the shape collection of the chart
-            ShapeCollection shapes = chart.Shapes;
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];            
+            chart.SetChartDataRange("A1:B4", true);
 
             try
             {
                 // Call AddLabelInChart method with parameters (top, left, height, width)
-                Label label = shapes.AddLabelInChart(100, 100, 200, 50);
+                Label label = chart.Shapes.AddLabelInChart(100, 100, 200, 200);
                 
                 // Set label properties
                 label.Text = "Sample Chart Label";

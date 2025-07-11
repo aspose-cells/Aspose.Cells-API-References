@@ -81,27 +81,16 @@ Use this method to load a license from a stream.
 ### Examples
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
+[C#]
 
-namespace AsposeCellsExamples
-{
-    public class LicenseMethodSetLicenseWithStreamDemo
-    {
-        public static void Run()
-        {
-            // Create a memory stream with license file content
-            byte[] licenseBytes = File.ReadAllBytes("Aspose.Cells.lic");
-            using (MemoryStream myStream = new MemoryStream(licenseBytes))
-            {
-                License license = new License();
-                license.SetLicense(myStream);
-                Console.WriteLine("License set successfully.");
-            }
-        }
-    }
-}
+License license = new License();
+license.SetLicense(myStream);
+
+
+[Visual Basic]
+
+Dim license as License = new License
+license.SetLicense(myStream)
 ```
 
 ### See Also

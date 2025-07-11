@@ -20,47 +20,54 @@ namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
+    using System.Drawing;
     using System;
 
     public class ShapePropertyCollectionMethodHasGlowEffectDemo
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to test glow effects
-            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 1, 100, 200);
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            try
-            {
-                // Check if shape has glow effect before any modifications
-                bool hasGlowBefore = shape.Glow != null && shape.Glow.Size > 0;
-                Console.WriteLine($"Shape has glow effect before: {hasGlowBefore}");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
 
-                // Apply glow effect
-                shape.Glow.Size = 10;
-                shape.Glow.Transparency = 0.5;
+            chart.NSeries.Add("B1:B2", true);
+            chart.NSeries.CategoryData = "A1:A2";
 
-                // Check if shape has glow effect after modification
-                bool hasGlowAfter = shape.Glow != null && shape.Glow.Size > 0;
-                Console.WriteLine($"Shape has glow effect after: {hasGlowAfter}");
+            // Access shape properties of the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-                // Clear glow effect by setting size to 0
-                shape.Glow.Size = 0;
+            // Configure 3D format and bevel
+            Format3D format3D = shapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
 
-                // Verify glow effect is cleared
-                bool hasGlowCleared = shape.Glow != null && shape.Glow.Size > 0;
-                Console.WriteLine($"Shape has glow effect after clear: {hasGlowCleared}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing HasGlowEffect method: {ex.Message}");
-            }
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Height = 2;
+            topBevel.Width = 5;
+
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 20;
+
+            GlowEffect glowEffect = shapeProperties.GlowEffect;
+            glowEffect.Size = 30;
+            glowEffect.Color.Color = Color.Red;
+
+            Console.WriteLine("Shape has glow effect: " + shapeProperties.HasGlowEffect());
+                       
 
             // Save the result
-            workbook.Save("MethodHasGlowEffectDemo.xlsx");
+            workbook.Save("ShapePropertyCollectionMethodHasGlowEffectDemo.xlsx");
         }
     }
 }

@@ -28,6 +28,7 @@ Provides helper functions.
 | [createSafeSheetName(String nameProposal, char replaceChar)](#createSafeSheetName-java.lang.String-char-) | Checks given sheet name and create a valid one when needed. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAltStartPath()](#getAltStartPath--) | Gets the alternate startup path, which is referred to by some external formula references. |
+| [getCacheFolder()](#getCacheFolder--) | Gets the folder for temporary files that may be used as data cache. |
 | [getClass()](#getClass--) |  |
 | [getCustomImplementationFactory()](#getCustomImplementationFactory--) | Gets the factory for creating instances with special implementation. |
 | [getDPI()](#getDPI--) | Gets the DPI of the machine. |
@@ -48,6 +49,7 @@ Provides helper functions.
 | [rowIndexToName(int row)](#rowIndexToName-int-) | Gets row name according to row index. |
 | [rowNameToIndex(String rowName)](#rowNameToIndex-java.lang.String-) | Gets row index according to row name. |
 | [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | Sets the alternate startup path, which is referred to by some external formula references. |
+| [setCacheFolder(String cache)](#setCacheFolder-java.lang.String-) | Sets the folder for temporary files that may be used as data cache. |
 | [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
 | [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | Sets the factory for creating instances with special implementation. |
 | [setDPI(double value)](#setDPI-double-) | Gets the DPI of the machine. |
@@ -238,6 +240,20 @@ Gets the alternate startup path, which is referred to by some external formula r
 
 **Returns:**
 java.lang.String
+### getCacheFolder() {#getCacheFolder--}
+```
+public static String getCacheFolder()
+```
+
+
+Gets the folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
+
+**Returns:**
+java.lang.String - Folder for cache files that has been specified. If it has not been specified, null will be returned and system's temporary path will be used when needed.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -490,6 +506,23 @@ Sets the alternate startup path, which is referred to by some external formula r
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCacheFolder(String cache) {#setCacheFolder-java.lang.String-}
+```
+public static void setCacheFolder(String cache)
+```
+
+
+Sets the folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+Cache files are used generally for some features for memory performance consideration, such as saving large data set to xls file, or using memory mode with file cache for cells model.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cache | java.lang.String | Folder for for temporary files that may be used as data cache. |
 
 ### setCloudPlatform(boolean value) {#setCloudPlatform-boolean-}
 ```

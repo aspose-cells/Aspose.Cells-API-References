@@ -94,32 +94,24 @@ namespace AsposeCellsExamples
             pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
             pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
 
+            worksheet.RefreshPivotTables();
+
+            int preCount = pivotTable.RowFields[0].PivotItems.Count;
+
+
             // Modify source data
-            worksheet.Cells["B2"].Value = 25;
-            worksheet.Cells["B3"].Value = 30;
-            worksheet.Cells["B4"].Value = 35;
+            worksheet.Cells["A2"].Value = "test2";
+            worksheet.Cells["A3"].Value = "test3";
 
-            try
+            // Create refresh options
+            PivotTableRefreshOption options = new PivotTableRefreshOption
             {
-                // Create refresh options
-                PivotTableRefreshOption options = new PivotTableRefreshOption
-                {
-                    ReserveMissingPivotItemType = ReserveMissingPivotItemType.All // Fixed: Changed ReserveAll to All
-                };
-
-                // Call the RefreshPivotTables method with options
-                bool result = worksheet.RefreshPivotTables(options);
-
-                Console.WriteLine($"Pivot tables refreshed successfully: {result}");
-                
-                // Access pivot table values through proper methods
-                var dataBodyRange = pivotTable.DataBodyRange;
-                Console.WriteLine($"Pivot table values after refresh: {worksheet.Cells[dataBodyRange.StartRow, dataBodyRange.StartColumn].Value}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing RefreshPivotTables method: {ex.Message}");
-            }
+                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All // Fixed: Changed ReserveAll to All
+            };
+            worksheet.RefreshPivotTables(options);
+            int nowCount = pivotTable.RowFields[0].PivotItems.Count;
+            Console.WriteLine(nowCount > preCount);
+                        
 
             // Save the result
             workbook.Save("WorksheetMethodRefreshPivotTablesWithPivotTableRefreshOptionDemo.xlsx");

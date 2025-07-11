@@ -22,18 +22,12 @@ class NoneBulletValue extends BulletValue;
 | [constructor(BulletValue)](#constructor-bulletvalue-)| Constructs from a parent object convertible to this. |
 | [constructor()](#constructor--)| Default Constructor. |
 
-## Properties
-
-| Property | Type | Description |
-| --- | --- | --- |
-| [type](#type--)| BulletType | Readonly. Gets the type of the bullet's value. |
-
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the type of the bullet's value. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -58,18 +52,18 @@ constructor();
 ```
 
 
-### type {#type--}
+### isNull() {#isNull--}
 
-Readonly. Gets the type of the bullet's value.
+Checks whether the implementation object is null.
 
 ```javascript
-type : BulletType;
+isNull() : boolean;
 ```
 
 
 ### getType() {#getType--}
 
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value.
+Gets the type of the bullet's value.
 
 ```javascript
 getType() : BulletType;
@@ -79,14 +73,5 @@ getType() : BulletType;
 **Returns**
 
 [BulletType](../bullettype/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

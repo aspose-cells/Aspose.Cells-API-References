@@ -25,7 +25,6 @@ class RevisionCellMove extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
 | [sourceArea](#sourceArea--)| CellArea | Readonly. Gets the source area. |
 | [destinationArea](#destinationArea--)| CellArea | Readonly. Gets the destination area. |
 | [sourceWorksheet](#sourceWorksheet--)| Worksheet | Readonly. Gets the source worksheet. |
@@ -36,13 +35,13 @@ class RevisionCellMove extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
 | [getSourceArea()](#getSourceArea--)| <b>@deprecated.</b> Please use the 'sourceArea' property instead. Gets the source area. |
 | [getDestinationArea()](#getDestinationArea--)| <b>@deprecated.</b> Please use the 'destinationArea' property instead. Gets the destination area. |
 | [getSourceWorksheet()](#getSourceWorksheet--)| <b>@deprecated.</b> Please use the 'sourceWorksheet' property instead. Gets the source worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Represents the type of revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -57,15 +56,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Represents the type of revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### sourceArea {#sourceArea--}
 
@@ -115,19 +105,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getSourceArea() {#getSourceArea--}
 
@@ -202,5 +179,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Represents the type of revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

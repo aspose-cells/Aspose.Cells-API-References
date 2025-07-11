@@ -50,6 +50,8 @@ type CellsHelper struct  {
 |[CellsHelper_SetLibraryPath](./cellshelper_setlibrarypath/) | Gets or sets the library path which is referred to by some external formula references. | 
 |[CellsHelper_GetUsedColors](./cellshelper_getusedcolors/) | Gets all used colors in the workbook. | 
 |[CellsHelper_MergeFiles](./cellshelper_mergefiles/) | Merges some large xls files to a xls file. | 
+|[CellsHelper_GetCacheFolder](./cellshelper_getcachefolder/) | Gets the folder for temporary files that may be used as data cache. | 
+|[CellsHelper_SetCacheFolder](./cellshelper_setcachefolder/) | Sets the folder for temporary files that may be used as data cache. | 
 |[CellsHelper_CreateSafeSheetName_String](./cellshelper_createsafesheetname_string/) | Checks given sheet name and create a valid one when needed.If given sheet name conforms to the rules of excel sheet name, then return it.Otherwise string will be truncated if length exceeds the limitand invalid characters will be replaced with ' ', then return the rebuilt string value. | 
 |[CellsHelper_CreateSafeSheetName_String_Char](./cellshelper_createsafesheetname_string_char/) | Checks given sheet name and create a valid one when needed.If given sheet name conforms to the rules of excel sheet name, then return it.Otherwise string will be truncated if length exceeds the limitand invalid characters will be replaced with given character, then return the rebuilt string value. | 
 |[CellsHelper_NeedQuoteInFormula](./cellshelper_needquoteinformula/) | Indicates whether the name of the sheet should be enclosed in single quotes | 

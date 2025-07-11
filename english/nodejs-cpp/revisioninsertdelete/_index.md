@@ -25,7 +25,6 @@ class RevisionInsertDelete extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Represents the type of revision. |
 | [cellArea](#cellArea--)| CellArea | Readonly. Gets the inserting/deleting range. |
 | [actionType](#actionType--)| RevisionActionType | Readonly. Gets the action type of this revision. |
 | [revisions](#revisions--)| RevisionCollection | Readonly. Gets revision list by this operation. |
@@ -36,13 +35,13 @@ class RevisionInsertDelete extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision. |
 | [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the inserting/deleting range. |
 | [getActionType()](#getActionType--)| <b>@deprecated.</b> Please use the 'actionType' property instead. Gets the action type of this revision. |
 | [getRevisions()](#getRevisions--)| <b>@deprecated.</b> Please use the 'revisions' property instead. Gets revision list by this operation. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Represents the type of revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -57,15 +56,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Represents the type of revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### cellArea {#cellArea--}
 
@@ -115,19 +105,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Represents the type of revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getCellArea() {#getCellArea--}
 
@@ -202,5 +179,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Represents the type of revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

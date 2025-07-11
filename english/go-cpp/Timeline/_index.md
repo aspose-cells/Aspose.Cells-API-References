@@ -31,13 +31,6 @@ type Timeline struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetCaption](./getcaption/) | Returns or sets the caption of the specified Timeline. | 
 |[SetCaption](./setcaption/) | Returns or sets the caption of the specified Timeline. | 
+|[GetShape](./getshape/) | Returns the TimelineShape object associated with this Timeline. Read-only. | 
 |[GetName](./getname/) | Returns or sets the name of the specified Timeline | 
 |[SetName](./setname/) | Returns or sets the name of the specified Timeline | 
-|[GetLeftPixel](./getleftpixel/) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. | 
-|[SetLeftPixel](./setleftpixel/) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. | 
-|[GetTopPixel](./gettoppixel/) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. | 
-|[SetTopPixel](./settoppixel/) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. | 
-|[GetWidthPixel](./getwidthpixel/) | Returns or sets the width of the specified timeline, in pixels. | 
-|[SetWidthPixel](./setwidthpixel/) | Returns or sets the width of the specified timeline, in pixels. | 
-|[GetHeightPixel](./getheightpixel/) | Returns or sets the height of the specified timeline, in pixels. | 
-|[SetHeightPixel](./setheightpixel/) | Returns or sets the height of the specified timeline, in pixels. | 

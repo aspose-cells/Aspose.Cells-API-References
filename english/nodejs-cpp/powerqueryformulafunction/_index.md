@@ -25,7 +25,6 @@ class PowerQueryFormulaFunction extends PowerQueryFormula;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| PowerQueryFormulaType | Readonly. Gets the type of power query formula. |
 | [f](#f--)| string | Gets and sets the definition of function. |
 | [groupName](#groupName--)| string | Readonly. Gets the name of group which contains this power query formula. |
 | [name](#name--)| string | Gets and sets the name of the power query formula. |
@@ -36,7 +35,6 @@ class PowerQueryFormulaFunction extends PowerQueryFormula;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula. |
 | [getF()](#getF--)| <b>@deprecated.</b> Please use the 'f' property instead. Gets and sets the definition of function. |
 | [setF(string)](#setF-string-)| <b>@deprecated.</b> Please use the 'f' property instead. Gets and sets the definition of function. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -46,6 +44,7 @@ class PowerQueryFormulaFunction extends PowerQueryFormula;
 | [getDescription()](#getDescription--)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
 | [setDescription(string)](#setDescription-string-)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| <b>@deprecated.</b> Please use the 'powerQueryFormulaItems' property instead. Gets all items of power query formula. |
+| [getType()](#getType--)| Gets the type of power query formula. |
 | [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the power query formula. |
 
 
@@ -61,15 +60,6 @@ constructor(obj: PowerQueryFormula);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | PowerQueryFormula | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of power query formula.
-
-```javascript
-type : PowerQueryFormulaType;
-```
-
 
 ### f {#f--}
 
@@ -115,19 +105,6 @@ Readonly. Gets all items of power query formula.
 powerQueryFormulaItems : PowerQueryFormulaItemCollection;
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula.
-
-```javascript
-getType() : PowerQueryFormulaType;
-```
-
-
-**Returns**
-
-[PowerQueryFormulaType](../powerqueryformulatype/)
 
 ### getF() {#getF--}
 
@@ -225,6 +202,19 @@ getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;
 **Returns**
 
 [PowerQueryFormulaItemCollection](../powerqueryformulaitemcollection/)
+
+### getType() {#getType--}
+
+Gets the type of power query formula.
+
+```javascript
+getType() : PowerQueryFormulaType;
+```
+
+
+**Returns**
+
+[PowerQueryFormulaType](../powerqueryformulatype/)
 
 ### getFormulaDefinition() {#getFormulaDefinition--}
 

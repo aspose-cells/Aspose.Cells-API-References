@@ -10,7 +10,7 @@ url: /go-cpp/sqlscriptsaveoptions/getcachedfilefolder/
 
 ## GetCachedFileFolder function
 
-The cached file folder is used to store some large data.
+The folder for temporary files that may be used as data cache.
 
 ```go
 

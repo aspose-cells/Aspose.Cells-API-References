@@ -46,6 +46,7 @@ type Slicer struct  {
 |[GetLockedPosition](./getlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. | 
 |[SetLockedPosition](./setlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. | 
 |[Refresh](./refresh/) | Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. | 
+|[GetShape](./getshape/) | Returns the Shape object associated with the specified slicer. Read-only. | 
 |[GetSlicerCache](./getslicercache/) | Returns the SlicerCache object associated with the slicer. Read-only. | 
 |[GetParent](./getparent/) | Returns the Worksheet object which contains this slicer. Read-only. | 
 |[GetStyleType](./getstyletype/) | Specify the type of Built-in slicer stylethe default type is SlicerStyleLight1 | 
@@ -58,20 +59,8 @@ type Slicer struct  {
 |[SetCaptionVisible](./setcaptionvisible/) | Returns or sets whether the header that displays the slicer Caption is visiblethe default value is true | 
 |[GetNumberOfColumns](./getnumberofcolumns/) | Returns or sets the number of columns in the specified slicer. | 
 |[SetNumberOfColumns](./setnumberofcolumns/) | Returns or sets the number of columns in the specified slicer. | 
-|[GetLeftPixel](./getleftpixel/) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. | 
-|[SetLeftPixel](./setleftpixel/) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. | 
-|[GetTopPixel](./gettoppixel/) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. | 
-|[SetTopPixel](./settoppixel/) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. | 
-|[GetWidth](./getwidth/) | Returns or sets the width of the specified slicer, in points. | 
-|[SetWidth](./setwidth/) | Returns or sets the width of the specified slicer, in points. | 
-|[GetWidthPixel](./getwidthpixel/) | Returns or sets the width of the specified slicer, in pixels. | 
-|[SetWidthPixel](./setwidthpixel/) | Returns or sets the width of the specified slicer, in pixels. | 
-|[GetHeight](./getheight/) | Returns or sets the height of the specified slicer, in points. | 
-|[SetHeight](./setheight/) | Returns or sets the height of the specified slicer, in points. | 
-|[GetHeightPixel](./getheightpixel/) | Returns or sets the height of the specified slicer, in pixels. | 
-|[SetHeightPixel](./setheightpixel/) | Returns or sets the height of the specified slicer, in pixels. | 
-|[GetColumnWidthPixel](./getcolumnwidthpixel/) | Gets or sets the width in unit of pixels for each column of the slicer. | 
-|[SetColumnWidthPixel](./setcolumnwidthpixel/) | Gets or sets the width in unit of pixels for each column of the slicer. | 
+|[GetColumnWidthPixel](./getcolumnwidthpixel/) | Gets or sets the width of each column in the slicer, in unit of pixels. | 
+|[SetColumnWidthPixel](./setcolumnwidthpixel/) | Gets or sets the width of each column in the slicer, in unit of pixels. | 
 |[GetColumnWidth](./getcolumnwidth/) | Returns or sets the width, in points, of each column in the slicer. | 
 |[SetColumnWidth](./setcolumnwidth/) | Returns or sets the width, in points, of each column in the slicer. | 
 |[GetRowHeightPixel](./getrowheightpixel/) | Returns or sets the height, in pixels, of each row in the specified slicer. | 

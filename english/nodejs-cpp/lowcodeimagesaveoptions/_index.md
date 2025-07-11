@@ -26,7 +26,6 @@ class LowCodeImageSaveOptions extends LowCodeSaveOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [saveFormat](#saveFormat--)| SaveFormat | Gets or sets the save format. |
 | [imageOptions](#imageOptions--)| ImageOrPrintOptions | The options for rendering images. |
 | [saveOptionsProvider](#saveOptionsProvider--)| AbstractLowCodeSaveOptionsProvider | Provider of save options for saving generated images. |
 | [outputFile](#outputFile--)| string | Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
@@ -36,8 +35,6 @@ class LowCodeImageSaveOptions extends LowCodeSaveOptions;
 
 | Method | Description |
 | --- | --- |
-| [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format. |
-| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format. |
 | [getImageOptions()](#getImageOptions--)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images. |
 | [setImageOptions(ImageOrPrintOptions)](#setImageOptions-imageorprintoptions-)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. The options for rendering images. |
 | [getSaveOptionsProvider()](#getSaveOptionsProvider--)| <b>@deprecated.</b> Please use the 'saveOptionsProvider' property instead. Provider of save options for saving generated images. |
@@ -47,6 +44,8 @@ class LowCodeImageSaveOptions extends LowCodeSaveOptions;
 | [setOutputFile(string)](#setOutputFile-string-)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
 | [getOutputStream()](#getOutputStream--)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 | [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [getSaveFormat()](#getSaveFormat--)| Gets or sets the save format. |
+| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| Gets or sets the save format. |
 
 
 ### constructor(LowCodeSaveOptions) {#constructor-lowcodesaveoptions-}
@@ -70,19 +69,6 @@ Default Constructor.
 constructor();
 ```
 
-
-### saveFormat {#saveFormat--}
-
-Gets or sets the save format.
-
-```javascript
-saveFormat : SaveFormat;
-```
-
-
-**Remarks**
-
-If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
 
 ### imageOptions {#imageOptions--}
 
@@ -127,40 +113,6 @@ Gets and sets the Stream for writing the generated data to. When setting this pr
 outputStream : Uint8Array;
 ```
 
-
-### getSaveFormat() {#getSaveFormat--}
-
-<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format.
-
-```javascript
-getSaveFormat() : SaveFormat;
-```
-
-
-**Returns**
-
-[SaveFormat](../saveformat/)
-
-**Remarks**
-
-If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
-
-### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
-
-<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets or sets the save format.
-
-```javascript
-setSaveFormat(value: SaveFormat) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [SaveFormat](../saveformat/) | The value to set. |
-
-**Remarks**
-
-If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
 
 ### getImageOptions() {#getImageOptions--}
 
@@ -282,5 +234,39 @@ setOutputStream(value: Uint8Array) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | Uint8Array | The value to set. |
+
+### getSaveFormat() {#getSaveFormat--}
+
+Gets or sets the save format.
+
+```javascript
+getSaveFormat() : SaveFormat;
+```
+
+
+**Returns**
+
+[SaveFormat](../saveformat/)
+
+**Remarks**
+
+If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
+
+### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
+
+Gets or sets the save format.
+
+```javascript
+setSaveFormat(value: SaveFormat) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SaveFormat](../saveformat/) | The value to set. |
+
+**Remarks**
+
+If [ImageOptions](../imageoptions/) has been specified, setting this property will also change the [ImageOrPrintOptions.ImageType](../imageorprintoptions.imagetype/) value of it.
 
 

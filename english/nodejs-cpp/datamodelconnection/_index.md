@@ -25,10 +25,6 @@ class DataModelConnection extends ExternalConnection;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [classType](#classType--)| ExternalConnectionClassType | Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object. |
-| [command](#command--)| string | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [commandType](#commandType--)| OLEDBCommandType | Returns [OLEDBCommandType](../oledbcommandtype/) type. |
-| [connectionString](#connectionString--)| string | The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [id](#id--)| number | Readonly. Gets the id of the connection. |
 | [connectionId](#connectionId--)| number | Readonly. Specifies The unique identifier of this connection. |
 | [sourceType](#sourceType--)| ConnectionDataSourceType | Gets or Sets the external connection DataSource type. |
@@ -54,13 +50,6 @@ class DataModelConnection extends ExternalConnection;
 
 | Method | Description |
 | --- | --- |
-| [getClassType()](#getClassType--)| <b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object. |
-| [getCommand()](#getCommand--)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [setCommand(string)](#setCommand-string-)| <b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
-| [getCommandType()](#getCommandType--)| <b>@deprecated.</b> Please use the 'commandType' property instead. Returns [OLEDBCommandType](../oledbcommandtype/) type. |
-| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| <b>@deprecated.</b> Please use the 'commandType' property instead. Returns [OLEDBCommandType](../oledbcommandtype/) type. |
-| [getConnectionString()](#getConnectionString--)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
-| [setConnectionString(string)](#setConnectionString-string-)| <b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the id of the connection. |
 | [getConnectionId()](#getConnectionId--)| <b>@deprecated.</b> Please use the 'connectionId' property instead. Specifies The unique identifier of this connection. |
@@ -99,6 +88,13 @@ class DataModelConnection extends ExternalConnection;
 | [getBackgroundRefresh()](#getBackgroundRefresh--)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [getParameters()](#getParameters--)| <b>@deprecated.</b> Please use the 'parameters' property instead. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
+| [getClassType()](#getClassType--)| Gets the type of this [ExternalConnection](../externalconnection/) object. |
+| [getCommand()](#getCommand--)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [setCommand(string)](#setCommand-string-)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [getCommandType()](#getCommandType--)| Returns [OLEDBCommandType](../oledbcommandtype/) type. |
+| [setCommandType(OLEDBCommandType)](#setCommandType-oledbcommandtype-)| Returns [OLEDBCommandType](../oledbcommandtype/) type. |
+| [getConnectionString()](#getConnectionString--)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
+| [setConnectionString(string)](#setConnectionString-string-)| The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
 | [getConnectionFile()](#getConnectionFile--)| Gets the connection file. |
 | [getSecondCommand()](#getSecondCommand--)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
@@ -117,42 +113,6 @@ constructor(obj: ExternalConnection);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ExternalConnection | The parent object. |
-
-### classType {#classType--}
-
-Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-classType : ExternalConnectionClassType;
-```
-
-
-### command {#command--}
-
-The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-command : string;
-```
-
-
-### commandType {#commandType--}
-
-Returns [OLEDBCommandType](../oledbcommandtype/) type.
-
-```javascript
-commandType : OLEDBCommandType;
-```
-
-
-### connectionString {#connectionString--}
-
-The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-connectionString : string;
-```
-
 
 ### id {#id--}
 
@@ -337,89 +297,6 @@ Readonly. Gets [ConnectionParameterCollection](../connectionparametercollection/
 parameters : ConnectionParameterCollection;
 ```
 
-
-### getClassType() {#getClassType--}
-
-<b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-getClassType() : ExternalConnectionClassType;
-```
-
-
-**Returns**
-
-[ExternalConnectionClassType](../externalconnectionclasstype/)
-
-### getCommand() {#getCommand--}
-
-<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-getCommand() : string;
-```
-
-
-### setCommand(string) {#setCommand-string-}
-
-<b>@deprecated.</b> Please use the 'command' property instead. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
-
-```javascript
-setCommand(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getCommandType() {#getCommandType--}
-
-<b>@deprecated.</b> Please use the 'commandType' property instead. Returns [OLEDBCommandType](../oledbcommandtype/) type.
-
-```javascript
-getCommandType() : OLEDBCommandType;
-```
-
-
-**Returns**
-
-[OLEDBCommandType](../oledbcommandtype/)
-
-### setCommandType(OLEDBCommandType) {#setCommandType-oledbcommandtype-}
-
-<b>@deprecated.</b> Please use the 'commandType' property instead. Returns [OLEDBCommandType](../oledbcommandtype/) type.
-
-```javascript
-setCommandType(value: OLEDBCommandType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [OLEDBCommandType](../oledbcommandtype/) | The value to set. |
-
-### getConnectionString() {#getConnectionString--}
-
-<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-getConnectionString() : string;
-```
-
-
-### setConnectionString(string) {#setConnectionString-string-}
-
-<b>@deprecated.</b> Please use the 'connectionString' property instead. The connection information string is used to make contact with an OLE DB or ODBC data source.
-
-```javascript
-setConnectionString(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
 
 ### isNull() {#isNull--}
 
@@ -850,6 +727,89 @@ getParameters() : ConnectionParameterCollection;
 **Returns**
 
 [ConnectionParameterCollection](../connectionparametercollection/)
+
+### getClassType() {#getClassType--}
+
+Gets the type of this [ExternalConnection](../externalconnection/) object.
+
+```javascript
+getClassType() : ExternalConnectionClassType;
+```
+
+
+**Returns**
+
+[ExternalConnectionClassType](../externalconnectionclasstype/)
+
+### getCommand() {#getCommand--}
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+```javascript
+getCommand() : string;
+```
+
+
+### setCommand(string) {#setCommand-string-}
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+```javascript
+setCommand(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getCommandType() {#getCommandType--}
+
+Returns [OLEDBCommandType](../oledbcommandtype/) type.
+
+```javascript
+getCommandType() : OLEDBCommandType;
+```
+
+
+**Returns**
+
+[OLEDBCommandType](../oledbcommandtype/)
+
+### setCommandType(OLEDBCommandType) {#setCommandType-oledbcommandtype-}
+
+Returns [OLEDBCommandType](../oledbcommandtype/) type.
+
+```javascript
+setCommandType(value: OLEDBCommandType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [OLEDBCommandType](../oledbcommandtype/) | The value to set. |
+
+### getConnectionString() {#getConnectionString--}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+getConnectionString() : string;
+```
+
+
+### setConnectionString(string) {#setConnectionString-string-}
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+```javascript
+setConnectionString(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getPowerQueryFormula() {#getPowerQueryFormula--}
 

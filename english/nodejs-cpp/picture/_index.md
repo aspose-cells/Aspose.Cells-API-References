@@ -191,7 +191,6 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [copy(Picture, CopyOptions)](#copy-picture-copyoptions-)| Copy the picture. |
 | [move(number, number)](#move-number-number-)| Moves the picture to a specified location. |
 | [placeInCell()](#placeInCell--)| Place this picture in the cell |
-| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
@@ -386,6 +385,7 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
+| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getResultOfSmartArt()](#getResultOfSmartArt--)| Converting smart art to grouped shapes. |
 
 
@@ -1836,19 +1836,6 @@ Place this picture in the cell
 placeInCell() : void;
 ```
 
-
-### isSameSetting(Object) {#isSameSetting-object-}
-
-Returns whether the shape is same.
-
-```javascript
-isSameSetting(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object |  |
 
 ### isNull() {#isNull--}
 
@@ -4256,6 +4243,19 @@ Recalculate a text area suitable for displaying all text content.
 fitToTextSize() : void;
 ```
 
+
+### isSameSetting(Object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object |  |
 
 ### getResultOfSmartArt() {#getResultOfSmartArt--}
 

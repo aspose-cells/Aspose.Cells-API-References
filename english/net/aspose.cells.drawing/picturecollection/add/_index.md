@@ -248,30 +248,12 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthSc
 ### Examples
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
 
-namespace AsposeCellsExamples
+[C#]
+//add a picture
+using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
-    public class PictureCollectionMethodAddWithInt32Int32StreamInt32Int32Demo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a picture from stream with specified position and size
-            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
-            {
-                worksheet.Pictures.Add(10, 10, fs, 100, 100);
-            }
-
-            // Save the workbook
-            workbook.Save("output.xlsx");
-        }
-    }
+    pictures.Add(1, 1, fs, 50, 50);
 }
 ```
 

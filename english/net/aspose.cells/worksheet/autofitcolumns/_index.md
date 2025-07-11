@@ -209,7 +209,7 @@ namespace AsposeCellsExamples
 
             // Create AutoFitterOptions with specific settings
             AutoFitterOptions options = new AutoFitterOptions();
-            options.AutoFitMergedCells = true;
+            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
             options.IgnoreHidden = false;
             options.OnlyAuto = false;
 
@@ -349,7 +349,7 @@ namespace AsposeCellsExamples
 
             // Create AutoFitterOptions with specific settings
             AutoFitterOptions options = new AutoFitterOptions();
-            options.AutoFitMergedCells = true;
+            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
             options.IgnoreHidden = false;
             options.OnlyAuto = false;
 

@@ -99,7 +99,6 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [transpose()](#transpose--)| Transpose (rotate) data from rows to columns or vice versa. |
 | [getCellOrNull(number, number)](#getCellOrNull-number-number-)| Gets [Cell](../cell/) object or null in this range. |
 | [getOffset(number, number)](#getOffset-number-number-)| Gets [Range](../range/) range by offset. |
-| [toString()](#toString--)| Returns a string represents the current Range object. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts the range to image. |
 | [toJson(JsonSaveOptions)](#toJson-jsonsaveoptions-)| Convert the range to JSON value. |
 | [toHtml(HtmlSaveOptions)](#toHtml-htmlsaveoptions-)| Convert the range to html . |
@@ -109,6 +108,7 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [clearComments()](#clearComments--)| Clears the comments of this range. |
 | [clearHyperlinks(boolean)](#clearHyperlinks-boolean-)| Only removes hyperlinks. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toString()](#toString--)| Returns a string represents the current Range object. |
 
 
 ### currentRegion {#currentRegion--}
@@ -1017,15 +1017,6 @@ getOffset(rowOffset: number, columnOffset: number) : Range;
 
 [Range](../range/)
 
-### toString() {#toString--}
-
-Returns a string represents the current Range object.
-
-```javascript
-toString() : string;
-```
-
-
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
 Converts the range to image.
@@ -1120,6 +1111,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### toString() {#toString--}
+
+Returns a string represents the current Range object.
+
+```javascript
+toString() : string;
 ```
 
 

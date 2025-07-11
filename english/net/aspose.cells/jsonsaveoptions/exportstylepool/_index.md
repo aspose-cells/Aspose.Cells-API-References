@@ -1,13 +1,13 @@
 ---
 title: JsonSaveOptions.ExportStylePool
 second_title: Aspose.Cells for .NET API Reference
-description: JsonSaveOptions property. Exporting style pool when converting to json struct
+description: JsonSaveOptions property. Indicates whether to export styles collectively or individually to each cell
 type: docs
 url: /net/aspose.cells/jsonsaveoptions/exportstylepool/
 ---
 ## JsonSaveOptions.ExportStylePool property
 
-Exporting style pool when converting to json struct.
+Indicates whether to export styles collectively or individually to each cell.
 
 ```csharp
 public bool ExportStylePool { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: CustomRenderSettings.GetCellBorderWidth
 second_title: Aspose.Cells for .NET API Reference
-description: CustomRenderSettings method. Get cell border width according to border type
+description: CustomRenderSettings method. Specifies cell border width according to border type
 type: docs
 url: /net/aspose.cells.rendering/customrendersettings/getcellborderwidth/
 ---
 ## CustomRenderSettings.GetCellBorderWidth method
 
-Get cell border width according to border type.
+Specifies cell border width according to border type.
 
 ```csharp
 public virtual float GetCellBorderWidth(CellBorderType borderType)

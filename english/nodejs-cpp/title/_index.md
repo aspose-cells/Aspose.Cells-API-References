@@ -43,12 +43,7 @@ chart.valueAxis.title.text = "Value";
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [text](#text--)| string | Gets or sets the text of display unit label. |
 | [isVisible](#isVisible--)| boolean | Represents whether the title is visible. |
-| [x](#x--)| number | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [y](#y--)| number | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [xRatioToChart](#xRatioToChart--)| number | Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width; |
-| [yRatioToChart](#yRatioToChart--)| number | Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width; |
 | [overLay](#overLay--)| boolean | Represents overlay centered title on chart without resizing chart. |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
@@ -75,18 +70,8 @@ chart.valueAxis.title.text = "Value";
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label. |
-| [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label. |
 | [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the title is visible. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the title is visible. |
-| [getX()](#getX--)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [setX(number)](#setX-number-)| <b>@deprecated.</b> Please use the 'x' property instead. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getY()](#getY--)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [setY(number)](#setY-number-)| <b>@deprecated.</b> Please use the 'y' property instead. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getXRatioToChart()](#getXRatioToChart--)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width; |
-| [setXRatioToChart(number)](#setXRatioToChart-number-)| <b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width; |
-| [getYRatioToChart()](#getYRatioToChart--)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width; |
-| [setYRatioToChart(number)](#setYRatioToChart-number-)| <b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width; |
 | [getOverLay()](#getOverLay--)| <b>@deprecated.</b> Please use the 'overLay' property instead. Represents overlay centered title on chart without resizing chart. |
 | [setOverLay(boolean)](#setOverLay-boolean-)| <b>@deprecated.</b> Please use the 'overLay' property instead. Represents overlay centered title on chart without resizing chart. |
 | [characters()](#characters--)| Gets rich text formatting of this Title. |
@@ -121,6 +106,16 @@ chart.valueAxis.title.text = "Value";
 | [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [setIsResizeShapeToFitText(boolean)](#setIsResizeShapeToFitText-boolean-)| <b>@deprecated.</b> Please use the 'isResizeShapeToFitText' property instead. Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
+| [getText()](#getText--)| Gets or sets the text of display unit label. |
+| [setText(string)](#setText-string-)| Gets or sets the text of display unit label. |
+| [getX()](#getX--)| Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [setX(number)](#setX-number-)| Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getY()](#getY--)| Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [setY(number)](#setY-number-)| Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--)| Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width; |
+| [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width; |
+| [getYRatioToChart()](#getYRatioToChart--)| Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width; |
+| [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width; |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -169,65 +164,12 @@ constructor(obj: ChartTextFrame);
 | --- | --- | --- |
 | obj | ChartTextFrame | The parent object. |
 
-### text {#text--}
-
-Gets or sets the text of display unit label.
-
-```javascript
-text : string;
-```
-
-
 ### isVisible {#isVisible--}
 
 Represents whether the title is visible.
 
 ```javascript
 isVisible : boolean;
-```
-
-
-### x {#x--}
-
-Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-x : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### y {#y--}
-
-Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-y : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### xRatioToChart {#xRatioToChart--}
-
-Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-xRatioToChart : number;
-```
-
-
-### yRatioToChart {#yRatioToChart--}
-
-Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-yRatioToChart : number;
 ```
 
 
@@ -444,28 +386,6 @@ isResizeShapeToFitText : boolean;
 ```
 
 
-### getText() {#getText--}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label.
-
-```javascript
-getText() : string;
-```
-
-
-### setText(string) {#setText-string-}
-
-<b>@deprecated.</b> Please use the 'text' property instead. Gets or sets the text of display unit label.
-
-```javascript
-setText(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
 ### isVisible() {#isVisible--}
 
 <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents whether the title is visible.
@@ -487,110 +407,6 @@ setIsVisible(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
-
-### getX() {#getX--}
-
-<b>@deprecated.</b> Please use the 'x' property instead. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-getX() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setX(number) {#setX-number-}
-
-<b>@deprecated.</b> Please use the 'x' property instead. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-setX(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getY() {#getY--}
-
-<b>@deprecated.</b> Please use the 'y' property instead. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-getY() : number;
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### setY(number) {#setY-number-}
-
-<b>@deprecated.</b> Please use the 'y' property instead. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
-
-```javascript
-setY(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
-
-### getXRatioToChart() {#getXRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-getXRatioToChart() : number;
-```
-
-
-### setXRatioToChart(number) {#setXRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'xRatioToChart' property instead. Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-setXRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-### getYRatioToChart() {#getYRatioToChart--}
-
-<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-getYRatioToChart() : number;
-```
-
-
-### setYRatioToChart(number) {#setYRatioToChart-number-}
-
-<b>@deprecated.</b> Please use the 'yRatioToChart' property instead. Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
-
-```javascript
-setYRatioToChart(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
 
 ### getOverLay() {#getOverLay--}
 
@@ -1002,6 +818,132 @@ setIsResizeShapeToFitText(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getText() {#getText--}
+
+Gets or sets the text of display unit label.
+
+```javascript
+getText() : string;
+```
+
+
+### setText(string) {#setText-string-}
+
+Gets or sets the text of display unit label.
+
+```javascript
+setText(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getX() {#getX--}
+
+Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+
+```javascript
+getX() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setX(number) {#setX-number-}
+
+Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+
+```javascript
+setX(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getY() {#getY--}
+
+Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
+
+```javascript
+getY() : number;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setY(number) {#setY-number-}
+
+Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
+
+```javascript
+setY(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getXRatioToChart() {#getXRatioToChart--}
+
+Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
+
+```javascript
+getXRatioToChart() : number;
+```
+
+
+### setXRatioToChart(number) {#setXRatioToChart-number-}
+
+Gets or sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
+
+```javascript
+setXRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getYRatioToChart() {#getYRatioToChart--}
+
+Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
+
+```javascript
+getYRatioToChart() : number;
+```
+
+
+### setYRatioToChart(number) {#setYRatioToChart-number-}
+
+Gets or sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
+
+```javascript
+setYRatioToChart(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
 
 ### getBorder() {#getBorder--}
 

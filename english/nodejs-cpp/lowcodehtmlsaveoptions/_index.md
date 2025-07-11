@@ -26,7 +26,6 @@ class LowCodeHtmlSaveOptions extends LowCodeSaveOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [saveFormat](#saveFormat--)| SaveFormat | Gets and sets the format of spreadsheet. |
 | [htmlOptions](#htmlOptions--)| HtmlSaveOptions | The general options for saving html. |
 | [outputFile](#outputFile--)| string | Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
 | [outputStream](#outputStream--)| Uint8Array | Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
@@ -35,8 +34,6 @@ class LowCodeHtmlSaveOptions extends LowCodeSaveOptions;
 
 | Method | Description |
 | --- | --- |
-| [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets and sets the format of spreadsheet. |
-| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets and sets the format of spreadsheet. |
 | [getHtmlOptions()](#getHtmlOptions--)| <b>@deprecated.</b> Please use the 'htmlOptions' property instead. The general options for saving html. |
 | [setHtmlOptions(HtmlSaveOptions)](#setHtmlOptions-htmlsaveoptions-)| <b>@deprecated.</b> Please use the 'htmlOptions' property instead. The general options for saving html. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -44,6 +41,8 @@ class LowCodeHtmlSaveOptions extends LowCodeSaveOptions;
 | [setOutputFile(string)](#setOutputFile-string-)| <b>@deprecated.</b> Please use the 'outputFile' property instead. Gets and sets the file(with path if needed) for saving the generated data. When setting this property with value other than null or empty string, [OutputStream](../outputstream/) will be ignored. |
 | [getOutputStream()](#getOutputStream--)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
 | [setOutputStream(Uint8Array)](#setOutputStream-uint8array-)| <b>@deprecated.</b> Please use the 'outputStream' property instead. Gets and sets the Stream for writing the generated data to. When setting this property with value other than null, [OutputFile](../outputfile/) will be ignored. |
+| [getSaveFormat()](#getSaveFormat--)| Gets and sets the format of spreadsheet. |
+| [setSaveFormat(SaveFormat)](#setSaveFormat-saveformat-)| Gets and sets the format of spreadsheet. |
 
 
 ### constructor(LowCodeSaveOptions) {#constructor-lowcodesaveoptions-}
@@ -67,19 +66,6 @@ Default Constructor.
 constructor();
 ```
 
-
-### saveFormat {#saveFormat--}
-
-Gets and sets the format of spreadsheet.
-
-```javascript
-saveFormat : SaveFormat;
-```
-
-
-**Remarks**
-
-When changing this property, the save format specified by [HtmlOptions](../htmloptions/) will be ignored(if it had been specified before).
 
 ### htmlOptions {#htmlOptions--}
 
@@ -111,40 +97,6 @@ Gets and sets the Stream for writing the generated data to. When setting this pr
 outputStream : Uint8Array;
 ```
 
-
-### getSaveFormat() {#getSaveFormat--}
-
-<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets and sets the format of spreadsheet.
-
-```javascript
-getSaveFormat() : SaveFormat;
-```
-
-
-**Returns**
-
-[SaveFormat](../saveformat/)
-
-**Remarks**
-
-When changing this property, the save format specified by [HtmlOptions](../htmloptions/) will be ignored(if it had been specified before).
-
-### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
-
-<b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets and sets the format of spreadsheet.
-
-```javascript
-setSaveFormat(value: SaveFormat) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [SaveFormat](../saveformat/) | The value to set. |
-
-**Remarks**
-
-When changing this property, the save format specified by [HtmlOptions](../htmloptions/) will be ignored(if it had been specified before).
 
 ### getHtmlOptions() {#getHtmlOptions--}
 
@@ -232,5 +184,39 @@ setOutputStream(value: Uint8Array) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | Uint8Array | The value to set. |
+
+### getSaveFormat() {#getSaveFormat--}
+
+Gets and sets the format of spreadsheet.
+
+```javascript
+getSaveFormat() : SaveFormat;
+```
+
+
+**Returns**
+
+[SaveFormat](../saveformat/)
+
+**Remarks**
+
+When changing this property, the save format specified by [HtmlOptions](../htmloptions/) will be ignored(if it had been specified before).
+
+### setSaveFormat(SaveFormat) {#setSaveFormat-saveformat-}
+
+Gets and sets the format of spreadsheet.
+
+```javascript
+setSaveFormat(value: SaveFormat) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SaveFormat](../saveformat/) | The value to set. |
+
+**Remarks**
+
+When changing this property, the save format specified by [HtmlOptions](../htmloptions/) will be ignored(if it had been specified before).
 
 

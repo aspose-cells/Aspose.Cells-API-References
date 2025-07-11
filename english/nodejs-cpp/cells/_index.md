@@ -43,6 +43,7 @@ cells.merge(5, 4, 2, 2);
 | [multiThreadReading](#multiThreadReading--)| boolean | Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
 | [memorySetting](#memorySetting--)| MemorySetting | Gets or sets the memory usage option for this cells. |
 | [style](#style--)| Style | Gets and sets the default style of the worksheet. |
+| [isDefaultColumnHidden](#isDefaultColumnHidden--)| boolean |  |
 | [standardWidthInch](#standardWidthInch--)| number | Gets or sets the default column width in the worksheet, in unit of inches. |
 | [standardWidthPixels](#standardWidthPixels--)| number | Gets or sets the default column width in the worksheet, in unit of pixels. |
 | [standardWidth](#standardWidth--)| number | Gets or sets the default column width in the worksheet, in unit of characters. |
@@ -82,6 +83,8 @@ cells.merge(5, 4, 2, 2);
 | [setMemorySetting(MemorySetting)](#setMemorySetting-memorysetting-)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells. |
 | [getStyle()](#getStyle--)| <b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet. |
 | [setStyle(Style)](#setStyle-style-)| <b>@deprecated.</b> Please use the 'style' property instead. Gets and sets the default style of the worksheet. |
+| [isDefaultColumnHidden()](#isDefaultColumnHidden--)| <b>@deprecated.</b> Please use the 'isDefaultColumnHidden' property instead. |
+| [setIsDefaultColumnHidden(boolean)](#setIsDefaultColumnHidden-boolean-)| <b>@deprecated.</b> Please use the 'isDefaultColumnHidden' property instead. |
 | [getStandardWidthInch()](#getStandardWidthInch--)| <b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches. |
 | [setStandardWidthInch(number)](#setStandardWidthInch-number-)| <b>@deprecated.</b> Please use the 'standardWidthInch' property instead. Gets or sets the default column width in the worksheet, in unit of inches. |
 | [getStandardWidthPixels()](#getStandardWidthPixels--)| <b>@deprecated.</b> Please use the 'standardWidthPixels' property instead. Gets or sets the default column width in the worksheet, in unit of pixels. |
@@ -324,6 +327,15 @@ Gets and sets the default style of the worksheet.
 
 ```javascript
 style : Style;
+```
+
+
+### isDefaultColumnHidden {#isDefaultColumnHidden--}
+
+
+
+```javascript
+isDefaultColumnHidden : boolean;
 ```
 
 
@@ -747,6 +759,28 @@ setStyle(value: Style) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Style](../style/) | The value to set. |
+
+### isDefaultColumnHidden() {#isDefaultColumnHidden--}
+
+<b>@deprecated.</b> Please use the 'isDefaultColumnHidden' property instead.
+
+```javascript
+isDefaultColumnHidden() : boolean;
+```
+
+
+### setIsDefaultColumnHidden(boolean) {#setIsDefaultColumnHidden-boolean-}
+
+<b>@deprecated.</b> Please use the 'isDefaultColumnHidden' property instead.
+
+```javascript
+setIsDefaultColumnHidden(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getStandardWidthInch() {#getStandardWidthInch--}
 

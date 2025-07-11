@@ -174,7 +174,6 @@ is_root: true
 |[WriteProtection](./writeprotection/) | Specifies write protection settings for a workbook. |
 |[XlsbSaveOptions](./xlsbsaveoptions/) | Represents the options for saving xlsb file. |
 |[XlsSaveOptions](./xlssaveoptions/) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
-|[XmlColumnProperty](./xmlcolumnproperty/) | Represents Xml Data Binding information. |
 |[XmlDataBinding](./xmldatabinding/) | Represents Xml Data Binding information. |
 |[XmlLoadOptions](./xmlloadoptions/) | Represents the options of loading xml. |
 |[XmlMap](./xmlmap/) | Represents Xml map information. |
@@ -299,6 +298,7 @@ is_root: true
 |[ShapeSegmentPath](./shapesegmentpath/) | Represents a segment path in a path of the freeform. |
 |[ShapeSegmentPathCollection](./shapesegmentpathcollection/) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 |[SignatureLine](./signatureline/) | Represent the signature line. |
+|[SlicerShape](./slicershape/) | Represents the slicer shape. |
 |[SmartArtShape](./smartartshape/) | Represents the smart art. |
 |[SolidFill](./solidfill/) | Encapsulates the object that represents solid fill format |
 |[Spinner](./spinner/) | Represents the Forms control: Spinner. |
@@ -308,6 +308,7 @@ is_root: true
 |[TextureFill](./texturefill/) | Encapsulates the object that represents texture fill format |
 |[ThreeDFormat](./threedformat/) | Represents a shape's three-dimensional formatting. |
 |[TilePicOption](./tilepicoption/) | Represents tile picture as texture. |
+|[TimelineShape](./timelineshape/) | Represents the Timeline msodrawing object. |
 |[VmlShapeGuide](./vmlshapeguide/) | just for vmlEncapsulates a shape guide specifies the presence of a shapeguide that will be used to govern the geometry of the specified shape |
 |[WebExtensionShape](./webextensionshape/) | Represents the shape of web extension. |
 |[AutoNumberedBulletValue](./autonumberedbulletvalue/) | Represents automatic numbered bullet. |
@@ -407,6 +408,22 @@ is_root: true
 |[PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 |[PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
 |[PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
+|[CustomRenderSettings](./customrendersettings/) | Represents custom settings during rendering. |
+|[DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
+|[DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get DrawObject and Bound when rendering. |
+|[ImageOrPrintOptions](./imageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
+|[PageEndSavingArgs](./pageendsavingargs/) | Info for a page ends saving process. |
+|[PageSavingArgs](./pagesavingargs/) | Info for a page saving process. |
+|[PageStartSavingArgs](./pagestartsavingargs/) | Info for a page starts saving process. |
+|[PdfBookmarkEntry](./pdfbookmarkentry/) | PdfBookmarkEntry is an entry in pdf bookmark.if Text property of current instance is null or "",current instance will be hidden and children will be inserted on current level. |
+|[RenderingFont](./renderingfont/) | Font for rendering. |
+|[RenderingWatermark](./renderingwatermark/) | Watermark for rendering. |
+|[SheetPrintingPreview](./sheetprintingpreview/) | Worksheet printing preview. |
+|[SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..)The constructor of this class , must be used after modification of pagesetup, cell style. |
+|[SheetSet](./sheetset/) | Describes a set of sheets. |
+|[SvgImageOptions](./svgimageoptions/) | Options for generating Svg image. |
+|[WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
+|[WorkbookRender](./workbookrender/) | Represents a Workbook render.The constructor of this class , must be used after modification of pagesetup, cell style. |
 |[CustomXmlPart](./customxmlpart/) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 |[CustomXmlPartCollection](./customxmlpartcollection/) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 |[SmartTag](./smarttag/) | Represents a smart tag. |
@@ -436,21 +453,6 @@ is_root: true
 |[SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |
 |[DigitalSignature](./digitalsignature/) | Signature in file. |
 |[DigitalSignatureCollection](./digitalsignaturecollection/) | Provides a collection of digital signatures attached to a document. |
-|[DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
-|[DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get DrawObject and Bound when rendering. |
-|[ImageOrPrintOptions](./imageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
-|[PageEndSavingArgs](./pageendsavingargs/) | Info for a page ends saving process. |
-|[PageSavingArgs](./pagesavingargs/) | Info for a page saving process. |
-|[PageStartSavingArgs](./pagestartsavingargs/) | Info for a page starts saving process. |
-|[PdfBookmarkEntry](./pdfbookmarkentry/) | PdfBookmarkEntry is an entry in pdf bookmark.if Text property of current instance is null or "",current instance will be hidden and children will be inserted on current level. |
-|[RenderingFont](./renderingfont/) | Font for rendering. |
-|[RenderingWatermark](./renderingwatermark/) | Watermark for rendering. |
-|[SheetPrintingPreview](./sheetprintingpreview/) | Worksheet printing preview. |
-|[SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..)The constructor of this class , must be used after modification of pagesetup, cell style. |
-|[SheetSet](./sheetset/) | Describes a set of sheets. |
-|[SvgImageOptions](./svgimageoptions/) | Options for generating Svg image. |
-|[WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
-|[WorkbookRender](./workbookrender/) | Represents a Workbook render.The constructor of this class , must be used after modification of pagesetup, cell style. |
 |[HighlightChangesOptions](./highlightchangesoptions/) | Represents options of highlighting revsions or changes of shared Excel files. |
 |[Revision](./revision/) | Represents the revision. |
 |[RevisionAutoFormat](./revisionautoformat/) | represents a revision record of information about a formatting change. |
@@ -572,7 +574,7 @@ is_root: true
 |[LoadFormat](./loadformat/) | Represents the load file format. | 
 |[LookAtType](./lookattype/) | Represents look at type. | 
 |[LookInType](./lookintype/) | Represents look in type. | 
-|[MemorySetting](./memorysetting/) | Memory usage options. | 
+|[MemorySetting](./memorysetting/) | Memory usage modes for cells data model. | 
 |[MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. | 
 |[MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. | 
 |[NameScopeType](./namescopetype/) | Represents the scope type of defined names. | 
@@ -757,10 +759,6 @@ is_root: true
 |[PivotTableSourceType](./pivottablesourcetype/) | Represents data source type of the pivot table. | 
 |[PivotTableStyleType](./pivottablestyletype/) | Represents the pivot table style type. | 
 |[ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. | 
-|[SmartTagShowType](./smarttagshowtype/) | Represents the show type of the smart tag. | 
-|[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
-|[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
-|[XAdESType](./xadestype/) | Type of XML Advanced Electronic Signature (XAdES). | 
 |[ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. | 
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
@@ -772,6 +770,10 @@ is_root: true
 |[PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. | 
 |[SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. | 
 |[TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. | 
+|[SmartTagShowType](./smarttagshowtype/) | Represents the show type of the smart tag. | 
+|[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
+|[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
+|[XAdESType](./xadestype/) | Type of XML Advanced Electronic Signature (XAdES). | 
 |[RevisionActionType](./revisionactiontype/) | Represents the type of revision action. | 
 |[RevisionType](./revisiontype/) | Represents the revision type. | 
 |[TableDataSourceType](./tabledatasourcetype/) | Represents the table's data source type. | 

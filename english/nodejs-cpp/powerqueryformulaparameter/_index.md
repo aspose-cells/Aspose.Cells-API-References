@@ -25,9 +25,7 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| PowerQueryFormulaType | Readonly. Gets the type of power query formula. |
 | [value](#value--)| string | Gets the value of parameter. |
-| [formulaDefinition](#formulaDefinition--)| string | Readonly. Gets the definition of the parameter. |
 | [groupName](#groupName--)| string | Readonly. Gets the name of group which contains this power query formula. |
 | [name](#name--)| string | Gets and sets the name of the power query formula. |
 | [description](#description--)| string | Gets and sets the description of the power query formula. |
@@ -37,10 +35,8 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula. |
 | [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter. |
 | [setValue(string)](#setValue-string-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter. |
-| [getFormulaDefinition()](#getFormulaDefinition--)| <b>@deprecated.</b> Please use the 'formulaDefinition' property instead. Gets the definition of the parameter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getGroupName()](#getGroupName--)| <b>@deprecated.</b> Please use the 'groupName' property instead. Gets the name of group which contains this power query formula. |
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the power query formula. |
@@ -48,6 +44,8 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 | [getDescription()](#getDescription--)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
 | [setDescription(string)](#setDescription-string-)| <b>@deprecated.</b> Please use the 'description' property instead. Gets and sets the description of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| <b>@deprecated.</b> Please use the 'powerQueryFormulaItems' property instead. Gets all items of power query formula. |
+| [getType()](#getType--)| Gets the type of power query formula. |
+| [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the parameter. |
 
 
 ### constructor(PowerQueryFormula) {#constructor-powerqueryformula-}
@@ -63,30 +61,12 @@ constructor(obj: PowerQueryFormula);
 | --- | --- | --- |
 | obj | PowerQueryFormula | The parent object. |
 
-### type {#type--}
-
-Readonly. Gets the type of power query formula.
-
-```javascript
-type : PowerQueryFormulaType;
-```
-
-
 ### value {#value--}
 
 Gets the value of parameter.
 
 ```javascript
 value : string;
-```
-
-
-### formulaDefinition {#formulaDefinition--}
-
-Readonly. Gets the definition of the parameter.
-
-```javascript
-formulaDefinition : string;
 ```
 
 
@@ -126,19 +106,6 @@ powerQueryFormulaItems : PowerQueryFormulaItemCollection;
 ```
 
 
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of power query formula.
-
-```javascript
-getType() : PowerQueryFormulaType;
-```
-
-
-**Returns**
-
-[PowerQueryFormulaType](../powerqueryformulatype/)
-
 ### getValue() {#getValue--}
 
 <b>@deprecated.</b> Please use the 'value' property instead. Gets the value of parameter.
@@ -160,15 +127,6 @@ setValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
-
-### getFormulaDefinition() {#getFormulaDefinition--}
-
-<b>@deprecated.</b> Please use the 'formulaDefinition' property instead. Gets the definition of the parameter.
-
-```javascript
-getFormulaDefinition() : string;
-```
-
 
 ### isNull() {#isNull--}
 
@@ -244,5 +202,27 @@ getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;
 **Returns**
 
 [PowerQueryFormulaItemCollection](../powerqueryformulaitemcollection/)
+
+### getType() {#getType--}
+
+Gets the type of power query formula.
+
+```javascript
+getType() : PowerQueryFormulaType;
+```
+
+
+**Returns**
+
+[PowerQueryFormulaType](../powerqueryformulatype/)
+
+### getFormulaDefinition() {#getFormulaDefinition--}
+
+Gets the definition of the parameter.
+
+```javascript
+getFormulaDefinition() : string;
+```
+
 
 

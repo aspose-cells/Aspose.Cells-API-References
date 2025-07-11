@@ -23,7 +23,7 @@ public class CustomRenderSettings
 
 | Name | Description |
 | --- | --- |
-| virtual [GetCellBorderWidth](../../aspose.cells.rendering/customrendersettings/getcellborderwidth/)(CellBorderType) | Get cell border width according to border type. |
+| virtual [GetCellBorderWidth](../../aspose.cells.rendering/customrendersettings/getcellborderwidth/)(CellBorderType) | Specifies cell border width according to border type. |
 
 ### See Also
 

@@ -23,7 +23,9 @@ public class ShapePath
 
 | Name | Description |
 | --- | --- |
+| [HeightPixel](../../aspose.cells.drawing/shapepath/heightpixel/) { get; set; } | Gets the height of this path in unit of pixels. |
 | [PathSegementList](../../aspose.cells.drawing/shapepath/pathsegementlist/) { get; } | Gets [`ShapeSegmentPathCollection`](../shapesegmentpathcollection/) list |
+| [WidthPixel](../../aspose.cells.drawing/shapepath/widthpixel/) { get; set; } | Gets the width of this path in unit of pixels. |
 
 ## Methods
 

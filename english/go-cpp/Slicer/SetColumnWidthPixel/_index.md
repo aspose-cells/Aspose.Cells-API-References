@@ -10,7 +10,7 @@ url: /go-cpp/slicer/setcolumnwidthpixel/
 
 ## SetColumnWidthPixel function
 
-Gets or sets the width in unit of pixels for each column of the slicer.
+Gets or sets the width of each column in the slicer, in unit of pixels.
 
 ```go
 

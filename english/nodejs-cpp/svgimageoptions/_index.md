@@ -26,7 +26,6 @@ class SvgImageOptions extends ImageOrPrintOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [imageType](#imageType--)| ImageType | Gets or sets the format of the generated images. default value: PNG. |
 | [fitToViewPort](#fitToViewPort--)| boolean | if this property is true, the generated svg will fit to view port. |
 | [cssPrefix](#cssPrefix--)| string | Gets and sets the prefix of the css name in svg,the default value is empty string. |
 | [embeddedFontType](#embeddedFontType--)| SvgEmbeddedFontType | Gets or sets the type of font that embedded in Svg. |
@@ -67,8 +66,6 @@ class SvgImageOptions extends ImageOrPrintOptions;
 
 | Method | Description |
 | --- | --- |
-| [getImageType()](#getImageType--)| <b>@deprecated.</b> Please use the 'imageType' property instead. Gets or sets the format of the generated images. default value: PNG. |
-| [setImageType(ImageType)](#setImageType-imagetype-)| <b>@deprecated.</b> Please use the 'imageType' property instead. Gets or sets the format of the generated images. default value: PNG. |
 | [getFitToViewPort()](#getFitToViewPort--)| <b>@deprecated.</b> Please use the 'fitToViewPort' property instead. if this property is true, the generated svg will fit to view port. |
 | [setFitToViewPort(boolean)](#setFitToViewPort-boolean-)| <b>@deprecated.</b> Please use the 'fitToViewPort' property instead. if this property is true, the generated svg will fit to view port. |
 | [getCssPrefix()](#getCssPrefix--)| <b>@deprecated.</b> Please use the 'cssPrefix' property instead. Gets and sets the prefix of the css name in svg,the default value is empty string. |
@@ -141,6 +138,8 @@ class SvgImageOptions extends ImageOrPrintOptions;
 | [getCustomRenderSettings()](#getCustomRenderSettings--)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
 | [setCustomRenderSettings(CustomRenderSettings)](#setCustomRenderSettings-customrendersettings-)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
 | [setDesiredSize(number, number, boolean)](#setDesiredSize-number-number-boolean-)| Sets desired width and height of image. |
+| [getImageType()](#getImageType--)| Gets or sets the format of the generated images. default value: PNG. |
+| [setImageType(ImageType)](#setImageType-imagetype-)| Gets or sets the format of the generated images. default value: PNG. |
 
 
 ### constructor() {#constructor--}
@@ -164,15 +163,6 @@ constructor(obj: ImageOrPrintOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ImageOrPrintOptions | The parent object. |
-
-### imageType {#imageType--}
-
-Gets or sets the format of the generated images. default value: PNG.
-
-```javascript
-imageType : ImageType;
-```
-
 
 ### fitToViewPort {#fitToViewPort--}
 
@@ -576,32 +566,6 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
-
-### getImageType() {#getImageType--}
-
-<b>@deprecated.</b> Please use the 'imageType' property instead. Gets or sets the format of the generated images. default value: PNG.
-
-```javascript
-getImageType() : ImageType;
-```
-
-
-**Returns**
-
-[ImageType](../imagetype/)
-
-### setImageType(ImageType) {#setImageType-imagetype-}
-
-<b>@deprecated.</b> Please use the 'imageType' property instead. Gets or sets the format of the generated images. default value: PNG.
-
-```javascript
-setImageType(value: ImageType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ImageType](../imagetype/) | The value to set. |
 
 ### getFitToViewPort() {#getFitToViewPort--}
 
@@ -1636,5 +1600,31 @@ setDesiredSize(desiredWidth: number, desiredHeight: number, keepAspectRatio: boo
 **Remarks**
 
 ara>The width and height of the output image in pixels will be only based on the set desired width and height.</para> <para>The [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) will not effect the width and height of the output image in this case.</para
+
+### getImageType() {#getImageType--}
+
+Gets or sets the format of the generated images. default value: PNG.
+
+```javascript
+getImageType() : ImageType;
+```
+
+
+**Returns**
+
+[ImageType](../imagetype/)
+
+### setImageType(ImageType) {#setImageType-imagetype-}
+
+Gets or sets the format of the generated images. default value: PNG.
+
+```javascript
+setImageType(value: ImageType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ImageType](../imagetype/) | The value to set. |
 
 

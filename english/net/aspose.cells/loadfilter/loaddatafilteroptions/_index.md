@@ -13,32 +13,6 @@ The filter options to denote what data should be loaded.
 public LoadDataFilterOptions LoadDataFilterOptions { get; set; }
 ```
 
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class LoadFilterPropertyLoadDataFilterOptionsDemo
-    {
-        public static void Run()
-        {
-            // Create load options and set filter options
-            LoadOptions options = new LoadOptions();
-            options.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames);
-
-            // Load workbook with the specified options
-            Workbook workbook = new Workbook("input.xlsx", options);
-
-            // Save the workbook (demonstrates successful load with specified filters)
-            workbook.Save("output.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * enum [LoadDataFilterOptions](../../loaddatafilteroptions/)

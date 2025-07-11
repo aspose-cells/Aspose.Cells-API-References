@@ -27,7 +27,7 @@ Represents the globalization settings for pivot tables.
 | [getShortTextOf12Months()](#getShortTextOf12Months--) | Gets all short formatted string of 12 months. |
 | [getTextOf4Quaters()](#getTextOf4Quaters--) | Gets the local text of 4 Quaters. |
 | [getTextOfAll()](#getTextOfAll--) | Gets the text of "(All)" label in the PivotTable. |
-| [getTextOfAllPeriods()](#getTextOfAllPeriods--) | Gets the local text of "All Periods" |
+| [getTextOfAllPeriods()](#getTextOfAllPeriods--) | Gets the localized text of "All Periods". |
 | [getTextOfColumnLabels()](#getTextOfColumnLabels--) | Gets the text of "Column Labels" label in the PivotTable. |
 | [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--) | Gets the the text of the value area field header in the PivotTable. |
 | [getTextOfDays()](#getTextOfDays--) | Gets the local text of "Days". |
@@ -120,7 +120,7 @@ public String getTextOfAllPeriods()
 ```
 
 
-Gets the local text of "All Periods"
+Gets the localized text of "All Periods".
 
 **Returns:**
 java.lang.String - 

@@ -31,7 +31,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportEmptyCells()](./getexportemptycells/) | Indicates whether exporting empty cells as null. |
 | [GetExportHyperlinkType()](./getexporthyperlinktype/) | Represents the type of exporting hyperlink to json. |
 | [GetExportNestedStructure()](./getexportnestedstructure/) | Exported as parent-child hierarchy [Json](../../aspose.cells.json/) structure. |
-| [GetExportStylePool()](./getexportstylepool/) | Exporting style pool when converting to json struct. |
+| [GetExportStylePool()](./getexportstylepool/) | Indicates whether to export styles collectively or individually to each cell. |
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
 | [GetIndent()](./getindent/) | Indicates the indent. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -68,7 +68,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetExportEmptyCells(bool value)](./setexportemptycells/) | Indicates whether exporting empty cells as null. |
 | [SetExportHyperlinkType(JsonExportHyperlinkType value)](./setexporthyperlinktype/) | Represents the type of exporting hyperlink to json. |
 | [SetExportNestedStructure(bool value)](./setexportnestedstructure/) | Exported as parent-child hierarchy [Json](../../aspose.cells.json/) structure. |
-| [SetExportStylePool(bool value)](./setexportstylepool/) | Exporting style pool when converting to json struct. |
+| [SetExportStylePool(bool value)](./setexportstylepool/) | Indicates whether to export styles collectively or individually to each cell. |
 | [SetHasHeaderRow(bool value)](./sethasheaderrow/) | Indicates whether the range contains header row. |
 | [SetIndent(const U16String\& value)](./setindent/) | Indicates the indent. |
 | [SetIndent(const char16_t* value)](./setindent/) | Indicates the indent. |

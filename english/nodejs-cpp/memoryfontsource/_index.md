@@ -27,15 +27,14 @@ class MemoryFontSource extends FontSourceBase;
 | Property | Type | Description |
 | --- | --- | --- |
 | [fontData](#fontData--)| Uint8Array | Readonly. Binary font data. |
-| [type](#type--)| FontSourceType | Readonly. Returns the type of the font source. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFontData()](#getFontData--)| <b>@deprecated.</b> Please use the 'fontData' property instead. Binary font data. |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Returns the type of the font source. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Returns the type of the font source. |
 
 
 ### constructor(FontSourceBase) {#constructor-fontsourcebase-}
@@ -73,15 +72,6 @@ fontData : Uint8Array;
 ```
 
 
-### type {#type--}
-
-Readonly. Returns the type of the font source.
-
-```javascript
-type : FontSourceType;
-```
-
-
 ### getFontData() {#getFontData--}
 
 <b>@deprecated.</b> Please use the 'fontData' property instead. Binary font data.
@@ -91,9 +81,18 @@ getFontData() : Uint8Array;
 ```
 
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### getType() {#getType--}
 
-<b>@deprecated.</b> Please use the 'type' property instead. Returns the type of the font source.
+Returns the type of the font source.
 
 ```javascript
 getType() : FontSourceType;
@@ -103,14 +102,5 @@ getType() : FontSourceType;
 **Returns**
 
 [FontSourceType](../fontsourcetype/)
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

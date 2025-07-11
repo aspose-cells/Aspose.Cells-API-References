@@ -35,7 +35,7 @@ Represents the options of saving the workbook as a json file.
 | [getExportEmptyCells()](#getExportEmptyCells--) | Indicates whether exporting empty cells as null. |
 | [getExportHyperlinkType()](#getExportHyperlinkType--) | Represents the type of exporting hyperlink to json. |
 | [getExportNestedStructure()](#getExportNestedStructure--) | Exported as parent-child hierarchy Json structure. |
-| [getExportStylePool()](#getExportStylePool--) | Exporting style pool when converting to json struct. |
+| [getExportStylePool()](#getExportStylePool--) | Indicates whether to export styles collectively or individually to each cell. |
 | [getIndent()](#getIndent--) | Indicates the indent. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -64,7 +64,7 @@ Represents the options of saving the workbook as a json file.
 | [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | Indicates whether exporting empty cells as null. |
 | [setExportHyperlinkType(int value)](#setExportHyperlinkType-int-) | Represents the type of exporting hyperlink to json. |
 | [setExportNestedStructure(boolean value)](#setExportNestedStructure-boolean-) | Exported as parent-child hierarchy Json structure. |
-| [setExportStylePool(boolean value)](#setExportStylePool-boolean-) | Exporting style pool when converting to json struct. |
+| [setExportStylePool(boolean value)](#setExportStylePool-boolean-) | Indicates whether to export styles collectively or individually to each cell. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setIndent(String value)](#setIndent-java.lang.String-) | Indicates the indent. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -122,6 +122,10 @@ public String getCachedFileFolder()
 
 
 The folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
 
 **Returns:**
 java.lang.String
@@ -247,7 +251,7 @@ public boolean getExportStylePool()
 ```
 
 
-Exporting style pool when converting to json struct.
+Indicates whether to export styles collectively or individually to each cell.
 
 **Returns:**
 boolean
@@ -460,6 +464,10 @@ public void setCachedFileFolder(String value)
 
 The folder for temporary files that may be used as data cache.
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -604,7 +612,7 @@ public void setExportStylePool(boolean value)
 ```
 
 
-Exporting style pool when converting to json struct.
+Indicates whether to export styles collectively or individually to each cell.
 
 **Parameters:**
 | Parameter | Type | Description |

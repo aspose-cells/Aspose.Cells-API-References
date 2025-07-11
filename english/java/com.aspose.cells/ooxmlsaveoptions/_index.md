@@ -115,6 +115,10 @@ public String getCachedFileFolder()
 
 The folder for temporary files that may be used as data cache.
 
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
+
 **Returns:**
 java.lang.String
 ### getCheckExcelRestriction() {#getCheckExcelRestriction--}
@@ -386,6 +390,10 @@ public void setCachedFileFolder(String value)
 
 
 The folder for temporary files that may be used as data cache.
+
+**Remarks**
+
+If the folder has not been specified, the default value for it is void
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -39,7 +39,7 @@ class SpreadsheetMerger
 
 
 ```cpp
-SpreadsheetMerger::Process(new string[]{ u"template2.xlsx", u"template2.xlsx", }, u"res.xlsx");
+SpreadsheetMerger::Process(Vector<U16String>{ u"template2.xlsx", u"template2.xlsx", }, u"res.xlsx");
 ```
 
 ## See Also

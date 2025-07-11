@@ -59,11 +59,14 @@ namespace AsposeCellsExamples
             pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
             // Add a slicer to the worksheet
-            int slicerIndex = worksheet.Slicers.Add(pivotTable, "A1", "Category");
+            int slicerIndex = worksheet.Slicers.Add(pivotTable, "C10", "Category");
             Slicer slicer = worksheet.Slicers[slicerIndex];
 
             // Set the cross filter type for the slicer cache
             slicer.SlicerCache.CrossFilterType = SlicerCacheCrossFilterType.ShowItemsWithDataAtTop;
+
+            worksheet.Cells["A3"].PutValue("");
+            worksheet.RefreshPivotTables();
 
             // Output the cross filter type
             Console.WriteLine("Slicer Cache Cross Filter Type: " + slicer.SlicerCache.CrossFilterType);

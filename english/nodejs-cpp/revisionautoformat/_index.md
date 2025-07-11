@@ -25,7 +25,6 @@ class RevisionAutoFormat extends Revision;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| RevisionType | Readonly. Gets the type of the revision. |
 | [cellArea](#cellArea--)| CellArea | Readonly. Gets the location where the formatting was applied. |
 | [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet. |
 | [id](#id--)| number | Readonly. Gets the number of this revision. |
@@ -34,11 +33,11 @@ class RevisionAutoFormat extends Revision;
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the revision. |
 | [getCellArea()](#getCellArea--)| <b>@deprecated.</b> Please use the 'cellArea' property instead. Gets the location where the formatting was applied. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the worksheet. |
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the number of this revision. |
+| [getType()](#getType--)| Gets the type of the revision. |
 
 
 ### constructor(Revision) {#constructor-revision-}
@@ -53,15 +52,6 @@ constructor(obj: Revision);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Revision | The parent object. |
-
-### type {#type--}
-
-Readonly. Gets the type of the revision.
-
-```javascript
-type : RevisionType;
-```
-
 
 ### cellArea {#cellArea--}
 
@@ -93,19 +83,6 @@ id : number;
 **Remarks**
 
 Zero means this revision does not contains id.
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the revision.
-
-```javascript
-getType() : RevisionType;
-```
-
-
-**Returns**
-
-[RevisionType](../revisiontype/)
 
 ### getCellArea() {#getCellArea--}
 
@@ -154,5 +131,18 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### getType() {#getType--}
+
+Gets the type of the revision.
+
+```javascript
+getType() : RevisionType;
+```
+
+
+**Returns**
+
+[RevisionType](../revisiontype/)
 
 

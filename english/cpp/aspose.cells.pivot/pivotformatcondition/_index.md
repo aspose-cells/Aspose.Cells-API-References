@@ -53,7 +53,7 @@ class PivotFormatCondition
 ## Remarks
 
 
-NOTE: This class is now obsolete. Instead, please use PivotConditionalFormat class. This method will be removed 12 months later since December 2024. **Aspose** apologizes for any inconvenience you may have experienced. 
+NOTE: This class is now obsolete. Instead, please use [PivotConditionalFormat](../pivotconditionalformat/) class. This method will be removed 12 months later since December 2024. **Aspose** apologizes for any inconvenience you may have experienced. 
 
 
 ## See Also

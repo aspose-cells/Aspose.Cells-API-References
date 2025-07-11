@@ -26,17 +26,16 @@ class PictureBulletValue extends BulletValue;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| BulletType | Readonly. Gets the type of the bullet's value. |
 | [imageData](#imageData--)| Uint8Array | Gets and sets image data of the bullet. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value. |
 | [getImageData()](#getImageData--)| <b>@deprecated.</b> Please use the 'imageData' property instead. Gets and sets image data of the bullet. |
 | [setImageData(Uint8Array)](#setImageData-uint8array-)| <b>@deprecated.</b> Please use the 'imageData' property instead. Gets and sets image data of the bullet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getType()](#getType--)| Gets the type of the bullet's value. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -61,15 +60,6 @@ constructor();
 ```
 
 
-### type {#type--}
-
-Readonly. Gets the type of the bullet's value.
-
-```javascript
-type : BulletType;
-```
-
-
 ### imageData {#imageData--}
 
 Gets and sets image data of the bullet.
@@ -78,19 +68,6 @@ Gets and sets image data of the bullet.
 imageData : Uint8Array;
 ```
 
-
-### getType() {#getType--}
-
-<b>@deprecated.</b> Please use the 'type' property instead. Gets the type of the bullet's value.
-
-```javascript
-getType() : BulletType;
-```
-
-
-**Returns**
-
-[BulletType](../bullettype/)
 
 ### getImageData() {#getImageData--}
 
@@ -122,5 +99,18 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getType() {#getType--}
+
+Gets the type of the bullet's value.
+
+```javascript
+getType() : BulletType;
+```
+
+
+**Returns**
+
+[BulletType](../bullettype/)
 
 

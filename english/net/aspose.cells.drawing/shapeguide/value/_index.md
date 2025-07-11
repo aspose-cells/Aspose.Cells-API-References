@@ -30,25 +30,38 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a rounded rectangle shape with default adjustments
-            var shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 0, 100, 200, 100, 200);
+            // Create a shape that uses adjustment guides
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RightArrowCallout, 2, 0, 2, 0, 200, 150);
 
-            // Access the shape's geometry adjustment guides
-            if (shape.Geometry.ShapeAdjustValues.Count > 0)
-            {
-                ShapeGuide guide = shape.Geometry.ShapeAdjustValues[0];
+            
+            // Access the shape's adjustment guides collection via Geometry
+            ShapeGuideCollection shapeGuides = shape.Geometry.ShapeAdjustValues;
 
-                // Display current guide value (controls corner roundness percentage)
-                Console.WriteLine("Initial adjustment value: " + guide.Value);
+            // Add new guides to the collection
+            shapeGuides.Add("adj1", 25.5);
+            shapeGuides.Add("adj2", 30);
+            shapeGuides.Add("adj3", 25.5);
+            shapeGuides.Add("adj4", 35);
 
-                // Modify the adjustment value to create sharper corners
-                guide.Value = 0.1;  // 10% roundness
-                Console.WriteLine("Updated adjustment value: " + guide.Value);
+            // Demonstrate reading guide values (Name property not available in provided definition)
+            Console.WriteLine("First guide value: " + shapeGuides[0].Value);
+            Console.WriteLine("Second guide value: " + shapeGuides[1].Value);
+            Console.WriteLine("third guide value: " + shapeGuides[2].Value);
+            Console.WriteLine("fourth guide value: " + shapeGuides[3].Value);
 
-                // Add another shape to compare with original settings
-                var comparisonShape = worksheet.Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 120, 100, 200, 100, 200);
-            }
 
+            Console.WriteLine("Updated adjustment values");
+
+            shapeGuides[0].Value = 25.5;
+            shapeGuides[1].Value = 25.5;
+            shapeGuides[2].Value = 25.5;
+            shapeGuides[3].Value = 25.5;            
+
+            Console.WriteLine("First guide value: " + shapeGuides[0].Value);
+            Console.WriteLine("Second guide value: " + shapeGuides[1].Value);
+            Console.WriteLine("third guide value: " + shapeGuides[2].Value);
+            Console.WriteLine("fourth guide value: " + shapeGuides[3].Value);
+            
             // Save the modified workbook
             workbook.Save("ShapeGuideValueDemo.xlsx");
         }

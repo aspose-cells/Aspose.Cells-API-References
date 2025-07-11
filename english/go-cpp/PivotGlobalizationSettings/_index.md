@@ -49,4 +49,5 @@ type PivotGlobalizationSettings struct  {
 |[GetTextOfMinutes](./gettextofminutes/) | Gets the local text of "Minutes". | 
 |[GetTextOfSeconds](./gettextofseconds/) | Gets the local text of "Seconds" | 
 |[GetTextOfRange](./gettextofrange/) | Gets the local text of "Range" | 
+|[GetTextOfAllPeriods](./gettextofallperiods/) | Gets the local text of "All Periods" | 
 |[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of PivotFieldSubtotalType type in the PivotTable. | 

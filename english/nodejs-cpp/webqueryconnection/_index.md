@@ -25,12 +25,10 @@ class WebQueryConnection extends ExternalConnection;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [classType](#classType--)| ExternalConnectionClassType | Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object. |
 | [isXml](#isXml--)| boolean | true if the web query source is XML (versus HTML), otherwise false. |
 | [isXl97](#isXl97--)| boolean | This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was created in Microsoft Excel 97. This is an optional attribute that can be ignored. |
 | [isXl2000](#isXl2000--)| boolean | This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was refreshed in a spreadsheet application newer than or equal to Microsoft Excel 2000. This is an optional attribute that can be ignored. |
 | [url](#url--)| string | URL to use to refresh external data. |
-| [connectionFile](#connectionFile--)| string | Readonly. Gets the connection file. |
 | [isTextDates](#isTextDates--)| boolean | Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates. |
 | [isXmlSourceData](#isXmlSourceData--)| boolean | Flag indicating that XML source data should be imported instead of the HTML table itself. |
 | [post](#post--)| string | Returns or sets the string used with the post method of inputting data into a web server to return data from a web query. |
@@ -65,7 +63,6 @@ class WebQueryConnection extends ExternalConnection;
 
 | Method | Description |
 | --- | --- |
-| [getClassType()](#getClassType--)| <b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object. |
 | [isXml()](#isXml--)| <b>@deprecated.</b> Please use the 'isXml' property instead. true if the web query source is XML (versus HTML), otherwise false. |
 | [setIsXml(boolean)](#setIsXml-boolean-)| <b>@deprecated.</b> Please use the 'isXml' property instead. true if the web query source is XML (versus HTML), otherwise false. |
 | [isXl97()](#isXl97--)| <b>@deprecated.</b> Please use the 'isXl97' property instead. This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was created in Microsoft Excel 97. This is an optional attribute that can be ignored. |
@@ -74,7 +71,6 @@ class WebQueryConnection extends ExternalConnection;
 | [setIsXl2000(boolean)](#setIsXl2000-boolean-)| <b>@deprecated.</b> Please use the 'isXl2000' property instead. This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was refreshed in a spreadsheet application newer than or equal to Microsoft Excel 2000. This is an optional attribute that can be ignored. |
 | [getUrl()](#getUrl--)| <b>@deprecated.</b> Please use the 'url' property instead. URL to use to refresh external data. |
 | [setUrl(string)](#setUrl-string-)| <b>@deprecated.</b> Please use the 'url' property instead. URL to use to refresh external data. |
-| [getConnectionFile()](#getConnectionFile--)| <b>@deprecated.</b> Please use the 'connectionFile' property instead. Gets the connection file. |
 | [isTextDates()](#isTextDates--)| <b>@deprecated.</b> Please use the 'isTextDates' property instead. Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates. |
 | [setIsTextDates(boolean)](#setIsTextDates-boolean-)| <b>@deprecated.</b> Please use the 'isTextDates' property instead. Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates. |
 | [isXmlSourceData()](#isXmlSourceData--)| <b>@deprecated.</b> Please use the 'isXmlSourceData' property instead. Flag indicating that XML source data should be imported instead of the HTML table itself. |
@@ -131,6 +127,8 @@ class WebQueryConnection extends ExternalConnection;
 | [getBackgroundRefresh()](#getBackgroundRefresh--)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| <b>@deprecated.</b> Please use the 'backgroundRefresh' property instead. Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [getParameters()](#getParameters--)| <b>@deprecated.</b> Please use the 'parameters' property instead. Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
+| [getClassType()](#getClassType--)| Gets the type of this [ExternalConnection](../externalconnection/) object. |
+| [getConnectionFile()](#getConnectionFile--)| Gets the connection file. |
 | [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
 | [getCommand()](#getCommand--)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
 | [setCommand(string)](#setCommand-string-)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
@@ -154,15 +152,6 @@ constructor(obj: ExternalConnection);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ExternalConnection | The parent object. |
-
-### classType {#classType--}
-
-Readonly. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-classType : ExternalConnectionClassType;
-```
-
 
 ### isXml {#isXml--}
 
@@ -197,15 +186,6 @@ URL to use to refresh external data.
 
 ```javascript
 url : string;
-```
-
-
-### connectionFile {#connectionFile--}
-
-Readonly. Gets the connection file.
-
-```javascript
-connectionFile : string;
 ```
 
 
@@ -474,19 +454,6 @@ parameters : ConnectionParameterCollection;
 ```
 
 
-### getClassType() {#getClassType--}
-
-<b>@deprecated.</b> Please use the 'classType' property instead. Gets the type of this [ExternalConnection](../externalconnection/) object.
-
-```javascript
-getClassType() : ExternalConnectionClassType;
-```
-
-
-**Returns**
-
-[ExternalConnectionClassType](../externalconnectionclasstype/)
-
 ### isXml() {#isXml--}
 
 <b>@deprecated.</b> Please use the 'isXml' property instead. true if the web query source is XML (versus HTML), otherwise false.
@@ -574,15 +541,6 @@ setUrl(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
-
-### getConnectionFile() {#getConnectionFile--}
-
-<b>@deprecated.</b> Please use the 'connectionFile' property instead. Gets the connection file.
-
-```javascript
-getConnectionFile() : string;
-```
-
 
 ### isTextDates() {#isTextDates--}
 
@@ -1215,6 +1173,28 @@ getParameters() : ConnectionParameterCollection;
 **Returns**
 
 [ConnectionParameterCollection](../connectionparametercollection/)
+
+### getClassType() {#getClassType--}
+
+Gets the type of this [ExternalConnection](../externalconnection/) object.
+
+```javascript
+getClassType() : ExternalConnectionClassType;
+```
+
+
+**Returns**
+
+[ExternalConnectionClassType](../externalconnectionclasstype/)
+
+### getConnectionFile() {#getConnectionFile--}
+
+Gets the connection file.
+
+```javascript
+getConnectionFile() : string;
+```
+
 
 ### getPowerQueryFormula() {#getPowerQueryFormula--}
 

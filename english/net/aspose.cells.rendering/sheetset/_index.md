@@ -48,7 +48,20 @@ namespace AsposeCellsExamples
             // Add some data to the worksheet
             worksheet.Cells["A1"].PutValue("Sample Data");
             worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["A3"].PutValue(456);
+            worksheet.Cells["A3"].PutValue(456);   
+
+            worksheet = workbook.Worksheets.Add("test1");
+            worksheet.Cells["A1"].PutValue("test Data");
+            worksheet.Cells["A2"].PutValue(234);
+            worksheet.Cells["A3"].PutValue(333);
+            worksheet.IsVisible = false;
+
+            worksheet = workbook.Worksheets.Add("test2");
+            worksheet.Cells["A1"].PutValue("test Data222");
+            worksheet.Cells["A2"].PutValue(234444);
+            worksheet.Cells["A3"].PutValue(333555);
+
+            workbook.Worksheets.ActiveSheetIndex = 0;
 
             // Create a PdfSaveOptions object
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();

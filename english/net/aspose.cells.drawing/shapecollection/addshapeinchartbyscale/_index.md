@@ -52,7 +52,7 @@ namespace AsposeCellsExamples
             worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 1, 20, 10);
             Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
             chart.SetChartDataRange("A1:B4", true);
 
@@ -82,7 +82,7 @@ namespace AsposeCellsExamples
             oval.Line.SolidFill.Color = Color.Black;
 
             // Save the workbook
-            workbook.Save("output.xlsx");
+            workbook.Save("AddShapeInChartByScaleWithMsoDrawingType.xlsx");
         }
     }
 }
@@ -147,13 +147,13 @@ namespace AsposeCellsExamples
             worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 1, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
 
             // Prepare image data
-            byte[] imageData = File.ReadAllBytes("example.png");
+            byte[] imageData = File.ReadAllBytes("example.jpg");
 
             try
             {
@@ -179,7 +179,7 @@ namespace AsposeCellsExamples
                 Console.WriteLine($"Error adding shape to chart: {ex.Message}");
             }
 
-            workbook.Save("AddShapeInChartByScaleDemo.xlsx");
+            workbook.Save("AddShapeInChartByScaleWithMsoDrawingType2.xlsx");
         }
     }
 }

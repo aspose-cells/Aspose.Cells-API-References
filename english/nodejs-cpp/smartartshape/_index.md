@@ -128,7 +128,6 @@ class SmartArtShape extends Shape;
 
 | Method | Description |
 | --- | --- |
-| [getResultOfSmartArt()](#getResultOfSmartArt--)| Converting smart art to grouped shapes. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| <b>@deprecated.</b> Please use the 'macroName' property instead. Gets and sets the name of macro. |
@@ -323,6 +322,7 @@ class SmartArtShape extends Shape;
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
+| [getResultOfSmartArt()](#getResultOfSmartArt--)| Converting smart art to grouped shapes. |
 | [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 
 
@@ -1276,19 +1276,6 @@ Indicates whether the object is decorative.
 isDecorative : boolean;
 ```
 
-
-### getResultOfSmartArt() {#getResultOfSmartArt--}
-
-Converting smart art to grouped shapes.
-
-```javascript
-getResultOfSmartArt() : GroupShape;
-```
-
-
-**Returns**
-
-[GroupShape](../groupshape/)
 
 ### isNull() {#isNull--}
 
@@ -3696,6 +3683,19 @@ Recalculate a text area suitable for displaying all text content.
 fitToTextSize() : void;
 ```
 
+
+### getResultOfSmartArt() {#getResultOfSmartArt--}
+
+Converting smart art to grouped shapes.
+
+```javascript
+getResultOfSmartArt() : GroupShape;
+```
+
+
+**Returns**
+
+[GroupShape](../groupshape/)
 
 ### isSameSetting(Object) {#isSameSetting-object-}
 
