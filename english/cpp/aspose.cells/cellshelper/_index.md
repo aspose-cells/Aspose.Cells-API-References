@@ -31,6 +31,7 @@ class CellsHelper
 | static [CreateSafeSheetName(const U16String\& nameProposal, char16_t replaceChar)](./createsafesheetname/) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with given character, then return the rebuilt string value. |
 | static [CreateSafeSheetName(const char16_t* nameProposal, char16_t replaceChar)](./createsafesheetname/) | Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with given character, then return the rebuilt string value. |
 | static [GetAltStartPath()](./getaltstartpath/) | Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| static [GetCacheFolder()](./getcachefolder/) | Gets the folder for temporary files that may be used as data cache. |
 | static [GetDateTimeFromDouble(double doubleValue, bool date1904)](./getdatetimefromdouble/) | Convert the double value to the date time value. |
 | static [GetDoubleFromDateTime(const Date\& dateTime, bool date1904)](./getdoublefromdatetime/) | Convert the date time to double value. |
 | static [GetDPI()](./getdpi/) | Gets the DPI of the machine. |
@@ -51,6 +52,8 @@ class CellsHelper
 | static [RowNameToIndex(const char16_t* rowName)](./rownametoindex/) | Gets row index according to row name. |
 | static [SetAltStartPath(const U16String\& value)](./setaltstartpath/) | Gets or sets the alternate startup path, which is referred to by some external formula references. |
 | static [SetAltStartPath(const char16_t* value)](./setaltstartpath/) | Gets or sets the alternate startup path, which is referred to by some external formula references. |
+| static [SetCacheFolder(const U16String\& cache)](./setcachefolder/) | Sets the folder for temporary files that may be used as data cache. |
+| static [SetCacheFolder(const char16_t* cache)](./setcachefolder/) | Sets the folder for temporary files that may be used as data cache. |
 | static [SetDPI(double value)](./setdpi/) | Gets the DPI of the machine. |
 | static [SetIsCloudPlatform(bool value)](./setiscloudplatform/) | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,. |
 | static [SetLibraryPath(const U16String\& value)](./setlibrarypath/) | Gets or sets the library path which is referred to by some external formula references. |

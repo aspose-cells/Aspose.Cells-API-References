@@ -166,6 +166,7 @@ class Cells
 | [InsertRows(int32_t rowIndex, int32_t totalRows)](./insertrows/) | Inserts multiple rows into the worksheet. |
 | [IsBlankColumn(int32_t columnIndex)](./isblankcolumn/) | Checks whether given column is blank(does not contain any data). |
 | [IsColumnHidden(int32_t columnIndex)](./iscolumnhidden/) | Checks whether a column at given index is hidden. |
+| [IsDefaultColumnHidden()](./isdefaultcolumnhidden/) |  |
 | [IsDefaultRowHeightMatched()](./isdefaultrowheightmatched/) | Indicates that row height and default font height matches. |
 | [IsDefaultRowHidden()](./isdefaultrowhidden/) | Indicates whether the row is default hidden. |
 | [IsDeletingRangeEnabled(int32_t startRow, int32_t startColumn, int32_t totalRows, int32_t totalColumns)](./isdeletingrangeenabled/) | Check whether the range could be deleted. |
@@ -187,6 +188,7 @@ class Cells
 | [SetColumnWidth(int32_t column, double width)](./setcolumnwidth/) | Sets the width of the specified column in normal view. |
 | [SetColumnWidthInch(int32_t column, double inches)](./setcolumnwidthinch/) | Sets column width in unit of inches in normal view. |
 | [SetColumnWidthPixel(int32_t column, int32_t pixels)](./setcolumnwidthpixel/) | Sets column width in unit of pixels in normal view. |
+| [SetIsDefaultColumnHidden(bool value)](./setisdefaultcolumnhidden/) |  |
 | [SetIsDefaultRowHeightMatched(bool value)](./setisdefaultrowheightmatched/) | Indicates that row height and default font height matches. |
 | [SetIsDefaultRowHidden(bool value)](./setisdefaultrowhidden/) | Indicates whether the row is default hidden. |
 | [SetMemorySetting(MemorySetting value)](./setmemorysetting/) | Gets or sets the memory usage option for this cells. |

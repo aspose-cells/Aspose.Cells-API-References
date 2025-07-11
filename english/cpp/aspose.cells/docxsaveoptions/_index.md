@@ -26,6 +26,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [DocxSaveOptions(const DocxSaveOptions\& src)](./docxsaveoptions/) | Copy constructor. |
 | [DocxSaveOptions(const PaginatedSaveOptions\& src)](./docxsaveoptions/) | Constructs from a parent object. |
 | [GetAllColumnsInOnePagePerSheet()](../paginatedsaveoptions/getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
+| [GetAsNormalView()](./getasnormalview/) | Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false. |
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckFontCompatibility()](../paginatedsaveoptions/getcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
@@ -71,6 +72,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SaveOptions(SaveOptions_Impl* impl)](../saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
 | [SetAllColumnsInOnePagePerSheet(bool value)](../paginatedsaveoptions/setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
+| [SetAsNormalView(bool value)](./setasnormalview/) | Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false. |
 | [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
