@@ -1,0 +1,39 @@
+﻿---
+title: HighlightChangesOptions
+second_title: Aspose.Cells for JavaScript via C++ API Reference
+description: Represents options of highlighting revsions or changes of shared Excel files.
+type: docs
+url: /javascript-cpp/highlightchangesoptions/
+---
+
+## HighlightChangesOptions class
+
+Represents options of highlighting revsions or changes of shared Excel files.
+
+```javascript
+class HighlightChangesOptions;
+```
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [constructor(boolean, boolean)](#constructor-boolean-boolean-)| Represents options of highlighting revsions or changes of shared Excel files. |
+
+
+### constructor(boolean, boolean) {#constructor-boolean-boolean-}
+
+Represents options of highlighting revsions or changes of shared Excel files.
+
+```javascript
+constructor(highlightOnScreen: boolean, listOnNewSheet: boolean);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| highlightOnScreen | boolean | Indicates whether highlighting changes on screen. |
+| listOnNewSheet | boolean | Indicates whether listing changes on a new worksheet. |
+
+
