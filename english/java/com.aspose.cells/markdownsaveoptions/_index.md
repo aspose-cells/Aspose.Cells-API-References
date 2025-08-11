@@ -24,7 +24,7 @@ Represents the save options for markdown.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
-| [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
+| [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving markdown file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -51,7 +51,7 @@ Represents the save options for markdown.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
-| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving markdown file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -118,7 +118,7 @@ public boolean getCalculateFormula()
 ```
 
 
-Indicates whether to calculate formulas before saving html file.
+Indicates whether to calculate formulas before saving markdown file.
 
 **Remarks**
 
@@ -200,7 +200,7 @@ public boolean getExportImagesAsBase64()
 ```
 
 
-Specifies whether images are saved in Base64 format to Markdown.
+Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 **Remarks**
 
@@ -326,7 +326,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets the IStreamProvider for exporting objects.
+Gets the IStreamProvider for exporting objects. If `null`, the exported objects will be saved to the same directory as the output file.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -429,7 +429,7 @@ public void setCalculateFormula(boolean value)
 ```
 
 
-Indicates whether to calculate formulas before saving html file.
+Indicates whether to calculate formulas before saving markdown file.
 
 **Remarks**
 
@@ -519,7 +519,7 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-Specifies whether images are saved in Base64 format to Markdown.
+Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 **Remarks**
 
@@ -650,7 +650,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Sets the IStreamProvider for exporting objects.
+Sets the IStreamProvider for exporting objects. If `null`, the exported objects will be saved to the same directory as the output file.
 
 **Parameters:**
 | Parameter | Type | Description |

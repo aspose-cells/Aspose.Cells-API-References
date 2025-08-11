@@ -1,41 +1,36 @@
 ---
-title: EbookLoadOptions
+title: MarkdownLoadOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents options when importing an ebook file.
+description: Represents the options for loading markdown document.
 type: docs
-url: /java/com.aspose.cells/ebookloadoptions/
+url: /java/com.aspose.cells/markdownloadoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.cells.LoadOptions](../../com.aspose.cells/loadoptions), [com.aspose.cells.AbstractTextLoadOptions](../../com.aspose.cells/abstracttextloadoptions), [com.aspose.cells.HtmlLoadOptions](../../com.aspose.cells/htmlloadoptions)
+java.lang.Object, [com.aspose.cells.LoadOptions](../../com.aspose.cells/loadoptions), [com.aspose.cells.AbstractTextLoadOptions](../../com.aspose.cells/abstracttextloadoptions)
 ```
-public class EbookLoadOptions extends HtmlLoadOptions
+public class MarkdownLoadOptions extends AbstractTextLoadOptions
 ```
 
-Represents options when importing an ebook file.
+Represents the options for loading markdown document.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EbookLoadOptions()](#EbookLoadOptions--) | Creates an options of loading the ebook file. |
-| [EbookLoadOptions(int loadFormat)](#EbookLoadOptions-int-) | Creates an options of loading the ebook file. |
+| [MarkdownLoadOptions()](#MarkdownLoadOptions--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttachedFilesDirectory()](#getAttachedFilesDirectory--) | The directory that the attached files will be saved to. |
 | [getAutoFilter()](#getAutoFilter--) | Indicates whether auto filtering the data when loading the files. |
-| [getAutoFitColsAndRows()](#getAutoFitColsAndRows--) | Indicates whether auto-fit columns and rows. |
 | [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets the auto fitter options |
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getConvertDateTimeData()](#getConvertDateTimeData--) | Gets a value that indicates whether the string in text file is converted to date data. |
-| [getConvertFormulasData()](#getConvertFormulasData--) | if true, convert string to formula when string value starts with character '=',the default value is false. |
 | [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string in text file is converted to numeric data. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
-| [getDeleteRedundantSpaces()](#getDeleteRedundantSpaces--) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
@@ -47,7 +42,6 @@ Represents options when importing an ebook file.
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--) | The data handler for processing cells data when reading template file. |
 | [getLoadFilter()](#getLoadFilter--) | The filter to denote how to load data. |
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
-| [getLoadFormulas()](#getLoadFormulas--) | Indicates whether importing formulas if the original html file contains formulas |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [getLocale()](#getLocale--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory mode for loaded workbook. |
@@ -55,28 +49,20 @@ Represents options when importing an ebook file.
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
-| [getProgId()](#getProgId--) | Gets the program id of creating the file. |
 | [getRegion()](#getRegion--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
-| [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
-| [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of `<div>` tag when the html file contains it. |
-| [getTableLoadOptions()](#getTableLoadOptions--) | Get the HtmlTableLoadOptionCollection instance |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | The directory that the attached files will be saved to. |
 | [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | Indicates whether auto filtering the data when loading the files. |
-| [setAutoFitColsAndRows(boolean value)](#setAutoFitColsAndRows-boolean-) | Indicates whether auto-fit columns and rows. |
 | [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Sets the auto fitter options |
 | [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Sets a value that indicates whether the string in text file is converted to date data. |
-| [setConvertFormulasData(boolean value)](#setConvertFormulasData-boolean-) | if true, convert string to formula when string value starts with character '=',the default value is false. |
 | [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether the string in text file is converted to numeric data. |
-| [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
@@ -88,7 +74,6 @@ Represents options when importing an ebook file.
 | [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | The data handler for processing cells data when reading template file. |
 | [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | The filter to denote how to load data. |
-| [setLoadFormulas(boolean value)](#setLoadFormulas-boolean-) | Indicates whether importing formulas if the original html file contains formulas |
 | [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory mode for loaded workbook. |
@@ -100,33 +85,16 @@ Represents options when importing an ebook file.
 | [setRegion(int value)](#setRegion-int-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the StreamProviderImportHtmlFile for importing objects. |
-| [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | Indicates whether support the layout of `<div>` tag when the html file contains it. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### EbookLoadOptions() {#EbookLoadOptions--}
+### MarkdownLoadOptions() {#MarkdownLoadOptions--}
 ```
-public EbookLoadOptions()
-```
-
-
-Creates an options of loading the ebook file.
-
-### EbookLoadOptions(int loadFormat) {#EbookLoadOptions-int-}
-```
-public EbookLoadOptions(int loadFormat)
+public MarkdownLoadOptions()
 ```
 
-
-Creates an options of loading the ebook file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadFormat | int | [LoadFormat](../../com.aspose.cells/loadformat). The loading format |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -143,20 +111,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAttachedFilesDirectory() {#getAttachedFilesDirectory--}
-```
-public String getAttachedFilesDirectory()
-```
-
-
-The directory that the attached files will be saved to.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use HtmlLoadOptions.StreamProvider property. This property will be removed 12 months later since December 2014. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-java.lang.String
 ### getAutoFilter() {#getAutoFilter--}
 ```
 public boolean getAutoFilter()
@@ -168,16 +122,6 @@ Indicates whether auto filtering the data when loading the files.
 **Remarks**
 
 Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
-
-**Returns:**
-boolean
-### getAutoFitColsAndRows() {#getAutoFitColsAndRows--}
-```
-public boolean getAutoFitColsAndRows()
-```
-
-
-Indicates whether auto-fit columns and rows. The default value is false.
 
 **Returns:**
 boolean
@@ -235,20 +179,6 @@ Gets a value that indicates whether the string in text file is converted to date
 
 **Returns:**
 boolean
-### getConvertFormulasData() {#getConvertFormulasData--}
-```
-public boolean getConvertFormulasData()
-```
-
-
-if true, convert string to formula when string value starts with character '=',the default value is false.
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.HasFormula property. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getConvertNumericData() {#getConvertNumericData--}
 ```
 public boolean getConvertNumericData()
@@ -269,16 +199,6 @@ Gets the default style settings for initializing styles of the workbook
 
 **Returns:**
 [DefaultStyleSettings](../../com.aspose.cells/defaultstylesettings)
-### getDeleteRedundantSpaces() {#getDeleteRedundantSpaces--}
-```
-public boolean getDeleteRedundantSpaces()
-```
-
-
-Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
-
-**Returns:**
-boolean
 ### getEncoding() {#getEncoding--}
 ```
 public Encoding getEncoding()
@@ -405,16 +325,6 @@ See [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int
-### getLoadFormulas() {#getLoadFormulas--}
-```
-public boolean getLoadFormulas()
-```
-
-
-Indicates whether importing formulas if the original html file contains formulas
-
-**Returns:**
-boolean
 ### getLoadStyleStrategy() {#getLoadStyleStrategy--}
 ```
 public int getLoadStyleStrategy()
@@ -509,16 +419,6 @@ After loading workbook from template file with this option, [FormulaSettings.get
 
 **Returns:**
 boolean
-### getProgId() {#getProgId--}
-```
-public String getProgId()
-```
-
-
-Gets the program id of creating the file. Only for MHT files.
-
-**Returns:**
-java.lang.String
 ### getRegion() {#getRegion--}
 ```
 public int getRegion()
@@ -563,36 +463,6 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 
 **Returns:**
 double
-### getStreamProvider() {#getStreamProvider--}
-```
-public IStreamProvider getStreamProvider()
-```
-
-
-Gets the StreamProviderImportHtmlFile for importing objects.
-
-**Returns:**
-[IStreamProvider](../../com.aspose.cells/istreamprovider)
-### getSupportDivTag() {#getSupportDivTag--}
-```
-public boolean getSupportDivTag()
-```
-
-
-Indicates whether support the layout of `<div>` tag when the html file contains it. The default value is false.
-
-**Returns:**
-boolean
-### getTableLoadOptions() {#getTableLoadOptions--}
-```
-public HtmlTableLoadOptionCollection getTableLoadOptions()
-```
-
-
-Get the HtmlTableLoadOptionCollection instance
-
-**Returns:**
-[HtmlTableLoadOptionCollection](../../com.aspose.cells/htmltableloadoptioncollection)
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
@@ -639,23 +509,6 @@ public final native void notifyAll()
 
 
 
-### setAttachedFilesDirectory(String value) {#setAttachedFilesDirectory-java.lang.String-}
-```
-public void setAttachedFilesDirectory(String value)
-```
-
-
-The directory that the attached files will be saved to.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use HtmlLoadOptions.StreamProvider property. This property will be removed 12 months later since December 2014. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
 ### setAutoFilter(boolean value) {#setAutoFilter-boolean-}
 ```
 public void setAutoFilter(boolean value)
@@ -667,19 +520,6 @@ Indicates whether auto filtering the data when loading the files.
 **Remarks**
 
 Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setAutoFitColsAndRows(boolean value) {#setAutoFitColsAndRows-boolean-}
-```
-public void setAutoFitColsAndRows(boolean value)
-```
-
-
-Indicates whether auto-fit columns and rows. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,23 +582,6 @@ Sets a value that indicates whether the string in text file is converted to date
 | --- | --- | --- |
 | value | boolean |  |
 
-### setConvertFormulasData(boolean value) {#setConvertFormulasData-boolean-}
-```
-public void setConvertFormulasData(boolean value)
-```
-
-
-if true, convert string to formula when string value starts with character '=',the default value is false.
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.HasFormula property. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setConvertNumericData(boolean value) {#setConvertNumericData-boolean-}
 ```
 public void setConvertNumericData(boolean value)
@@ -766,19 +589,6 @@ public void setConvertNumericData(boolean value)
 
 
 Sets a value that indicates whether the string in text file is converted to numeric data.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setDeleteRedundantSpaces(boolean value) {#setDeleteRedundantSpaces-boolean-}
-```
-public void setDeleteRedundantSpaces(boolean value)
-```
-
-
-Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -941,19 +751,6 @@ The filter to denote how to load data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [LoadFilter](../../com.aspose.cells/loadfilter) |  |
-
-### setLoadFormulas(boolean value) {#setLoadFormulas-boolean-}
-```
-public void setLoadFormulas(boolean value)
-```
-
-
-Indicates whether importing formulas if the original html file contains formulas
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setLoadStyleStrategy(int value) {#setLoadStyleStrategy-int-}
 ```
@@ -1139,32 +936,6 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-
-### setStreamProvider(IStreamProvider value) {#setStreamProvider-com.aspose.cells.IStreamProvider-}
-```
-public void setStreamProvider(IStreamProvider value)
-```
-
-
-Sets the StreamProviderImportHtmlFile for importing objects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [IStreamProvider](../../com.aspose.cells/istreamprovider) |  |
-
-### setSupportDivTag(boolean value) {#setSupportDivTag-boolean-}
-```
-public void setSupportDivTag(boolean value)
-```
-
-
-Indicates whether support the layout of `<div>` tag when the html file contains it. The default value is false.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.cells.IWarningCallback-}
 ```

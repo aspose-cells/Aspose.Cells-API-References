@@ -50,7 +50,7 @@ Represents options when importing a html file.
 | [getLoadFormulas()](#getLoadFormulas--) | Indicates whether importing formulas if the original html file contains formulas |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [getLocale()](#getLocale--) | Gets the regional settings used for the Workbook that will be loaded. |
-| [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
+| [getMemorySetting()](#getMemorySetting--) | Gets the memory mode for loaded workbook. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
@@ -91,7 +91,7 @@ Represents options when importing a html file.
 | [setLoadFormulas(boolean value)](#setLoadFormulas-boolean-) | Indicates whether importing formulas if the original html file contains formulas |
 | [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the regional settings used for the Workbook that will be loaded. |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory mode for loaded workbook. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
@@ -447,9 +447,13 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options.
+Gets the memory mode for loaded workbook.
 
 See [MemorySetting](../../com.aspose.cells/memorysetting).
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--).
 
 **Returns:**
 int
@@ -989,9 +993,13 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options.
+Sets the memory mode for loaded workbook.
 
 See [MemorySetting](../../com.aspose.cells/memorysetting).
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,7 +18,7 @@ Settings for the default values of workbook's style properties.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBuiltInPreference()](#getBuiltInPreference--) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. |
+| [getBuiltInPreference()](#getBuiltInPreference--) | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. |
 | [getClass()](#getClass--) |  |
 | [getFontName()](#getFontName--) | Gets the default font name for the workbook |
 | [getFontSize()](#getFontSize--) | Gets the default standard font size for the workbook. |
@@ -27,7 +27,7 @@ Settings for the default values of workbook's style properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBuiltInPreference(boolean value)](#setBuiltInPreference-boolean-) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. |
+| [setBuiltInPreference(boolean value)](#setBuiltInPreference-boolean-) | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. |
 | [setFontName(String value)](#setFontName-java.lang.String-) | Sets the default font name for the workbook |
 | [setFontSize(double value)](#setFontSize-double-) | Sets the default standard font size for the workbook. |
 | [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Sets the default value for horizontal alignment |
@@ -57,7 +57,7 @@ public boolean getBuiltInPreference()
 ```
 
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 **Remarks**
 
@@ -151,7 +151,7 @@ public void setBuiltInPreference(boolean value)
 ```
 
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 **Remarks**
 

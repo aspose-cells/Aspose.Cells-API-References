@@ -16,6 +16,7 @@ Reprensents the basic operation apis interface used in controller actions.
 | --- | --- |
 | [addImage(String p, String uid, InputStream filestream)](#addImage-java.lang.String-java.lang.String-java.io.InputStream-) | Applies the add image from local file operation. |
 | [addImageByURL(String p, String uid, InputStream filestream, String imageurl)](#addImageByURL-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-) | Applies the add image from remote URL operation. |
+| [checkAndSyncForCollaborative(String uid)](#checkAndSyncForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache and need to sync with history operations .this method is apply for Collaborative mode only. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [copyImage(String p, String uid)](#copyImage-java.lang.String-java.lang.String-) | Applies the copy image operation. |
 | [detailFileJsonWithUid(String filePath, String uid)](#detailFileJsonWithUid-java.lang.String-java.lang.String-) | Gets JSON string for the file by the specified unique id. . |
@@ -65,6 +66,19 @@ Applies the add image from remote URL operation.
 
 **Returns:**
 java.lang.String
+### checkAndSyncForCollaborative(String uid) {#checkAndSyncForCollaborative-java.lang.String-}
+```
+public abstract void checkAndSyncForCollaborative(String uid)
+```
+
+
+Check wether workbook instance is in memory cache and need to sync with history operations .this method is apply for Collaborative mode only.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String |  |
+
 ### checkInCacheForCollaborative(String uid) {#checkInCacheForCollaborative-java.lang.String-}
 ```
 public abstract boolean checkInCacheForCollaborative(String uid)

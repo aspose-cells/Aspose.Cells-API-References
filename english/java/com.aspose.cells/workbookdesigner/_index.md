@@ -52,6 +52,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [getLineByLine()](#getLineByLine--) | Indicates whether processing the smart marker line by line. |
 | [getRepeatFormulasWithSubtotal()](#getRepeatFormulasWithSubtotal--) | Indicates whether repeating formulas with subtotal row. |
 | [getSmartMarkers()](#getSmartMarkers--) | Returns a collection of smart markers in a spreadsheet. |
+| [getSortDataSource()](#getSortDataSource--) | Indicates whether sorting data source. |
 | [getUpdateEmptyStringAsNull()](#getUpdateEmptyStringAsNull--) | If TRUE, Null will be inserted if the value is ""; |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
@@ -70,9 +71,10 @@ Encapsulates the object that represents a designer spreadsheet.
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
 | [setDataSource(String dataSource, ResultSet rs, int rowCount)](#setDataSource-java.lang.String-java.sql.ResultSet-int-) | Set the data source. |
 | [setDataSource(ResultSet rs)](#setDataSource-java.sql.ResultSet-) | Set the data source. |
-| [setJsonDataSource(String variable, String data)](#setJsonDataSource-java.lang.String-java.lang.String-) |  |
+| [setJsonDataSource(String name, String json)](#setJsonDataSource-java.lang.String-java.lang.String-) | Set json string value as data source of smart markers. |
 | [setLineByLine(boolean value)](#setLineByLine-boolean-) | Indicates whether processing the smart marker line by line. |
 | [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | Indicates whether repeating formulas with subtotal row. |
+| [setSortDataSource(boolean value)](#setSortDataSource-boolean-) | Indicates whether sorting data source. |
 | [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | If TRUE, Null will be inserted if the value is ""; |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
 | [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Sets the [Workbook](../../com.aspose.cells/workbook) object. |
@@ -174,7 +176,7 @@ Indicates whether processing the smart marker line by line.
 
 **Remarks**
 
-The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
+NOTE: This class is now obsolete. Instead, please use range smart markers. This property will be removed 12 months later since July 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -202,6 +204,20 @@ A string array is created on every call. The array is sorted and duplicated valu
 
 **Returns:**
 java.lang.String[] - A collection of smart markers
+### getSortDataSource() {#getSortDataSource--}
+```
+public boolean getSortDataSource()
+```
+
+
+Indicates whether sorting data source.
+
+**Remarks**
+
+Only for JSON data source.
+
+**Returns:**
+boolean
 ### getUpdateEmptyStringAsNull() {#getUpdateEmptyStringAsNull--}
 ```
 public boolean getUpdateEmptyStringAsNull()
@@ -286,6 +302,10 @@ public void process(Range range, boolean isPreserved)
 
 
 Processes the smart markers and populates the data source values.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Range smart markers. This property will be removed 12 months later since July 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,19 +440,19 @@ Set the data source.
 | --- | --- | --- |
 | rs | java.sql.ResultSet | The result set. |
 
-### setJsonDataSource(String variable, String data) {#setJsonDataSource-java.lang.String-java.lang.String-}
+### setJsonDataSource(String name, String json) {#setJsonDataSource-java.lang.String-java.lang.String-}
 ```
-public void setJsonDataSource(String variable, String data)
+public void setJsonDataSource(String name, String json)
 ```
 
 
-
+Set json string value as data source of smart markers.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| variable | java.lang.String |  |
-| data | java.lang.String |  |
+| name | java.lang.String | The name of the table. If the value of JSON represents an object,it coult be null. |
+| json | java.lang.String | The value of Json string. |
 
 ### setLineByLine(boolean value) {#setLineByLine-boolean-}
 ```
@@ -444,7 +464,7 @@ Indicates whether processing the smart marker line by line.
 
 **Remarks**
 
-The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
+NOTE: This class is now obsolete. Instead, please use range smart markers. This property will be removed 12 months later since July 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -458,6 +478,23 @@ public void setRepeatFormulasWithSubtotal(boolean value)
 
 
 Indicates whether repeating formulas with subtotal row.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSortDataSource(boolean value) {#setSortDataSource-boolean-}
+```
+public void setSortDataSource(boolean value)
+```
+
+
+Indicates whether sorting data source.
+
+**Remarks**
+
+Only for JSON data source.
 
 **Parameters:**
 | Parameter | Type | Description |
