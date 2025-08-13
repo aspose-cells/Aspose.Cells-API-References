@@ -19,7 +19,7 @@ Enumerator<Row> Aspose::Cells::RowCollection::GetEnumerator()
 
 ## ReturnValue
 
-enumerator
+The row enumerator which will traverse all existing rows in this collection.
 
 
 ## Examples
@@ -63,7 +63,7 @@ Enumerator<Row> Aspose::Cells::RowCollection::GetEnumerator(bool reversed, bool 
 
 ## ReturnValue
 
-The row enumerator
+The row enumerator which will traverse all existing rows in this collection.
 ## Remarks
 
 

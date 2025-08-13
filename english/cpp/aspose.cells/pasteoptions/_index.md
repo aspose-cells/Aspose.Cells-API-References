@@ -4,7 +4,7 @@ linktitle: PasteOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions class. Represents the paste special options in C++.'
 type: docs
-weight: 11600
+weight: 11700
 url: /cpp/aspose.cells/pasteoptions/
 ---
 ## PasteOptions class
@@ -21,6 +21,7 @@ class PasteOptions
 | Method | Description |
 | --- | --- |
 | [GetIgnoreLinksToOriginalFile()](./getignorelinkstooriginalfile/) | Ingore links to the original file. |
+| [GetKeepOldTables()](./getkeepoldtables/) | Keeps the tables in the destination range. |
 | [GetOnlyVisibleCells()](./getonlyvisiblecells/) | True means only copying visible cells. |
 | [GetOperationType()](./getoperationtype/) | Gets and sets the operation type when pasting range. |
 | [GetPasteType()](./getpastetype/) | The paste special type. |
@@ -33,6 +34,7 @@ class PasteOptions
 | [PasteOptions(PasteOptions_Impl* impl)](./pasteoptions/) | Constructs from an implementation object. |
 | [PasteOptions(const PasteOptions\& src)](./pasteoptions/) | Copy constructor. |
 | [SetIgnoreLinksToOriginalFile(bool value)](./setignorelinkstooriginalfile/) | Ingore links to the original file. |
+| [SetKeepOldTables(bool value)](./setkeepoldtables/) | Keeps the tables in the destination range. |
 | [SetOnlyVisibleCells(bool value)](./setonlyvisiblecells/) | True means only copying visible cells. |
 | [SetOperationType(PasteOperationType value)](./setoperationtype/) | Gets and sets the operation type when pasting range. |
 | [SetPasteType(PasteType value)](./setpastetype/) | The paste special type. |

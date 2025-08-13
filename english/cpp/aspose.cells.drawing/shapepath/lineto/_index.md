@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::ShapePath::LineTo method
 linktitle: LineTo
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::ShapePath::LineTo method. Appends a line segment to the current figure. The starting point is the end point of the current figure in C++.'
+description: 'Aspose::Cells::Drawing::ShapePath::LineTo method. Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.drawing/shapepath/lineto/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shapepath/lineto/
 ## ShapePath::LineTo method
 
 
-Appends a line segment to the current figure. The starting point is the end point of the current figure.
+Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```cpp
 void Aspose::Cells::Drawing::ShapePath::LineTo(float x, float y)

@@ -4,7 +4,7 @@ linktitle: WorkbookSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings class. Represents all settings of the workbook in C++.'
 type: docs
-weight: 16400
+weight: 16500
 url: /cpp/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class
@@ -60,6 +60,7 @@ class WorkbookSettings
 | [GetSheetTabBarWidth()](./getsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [GetShowTabs()](./getshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
 | [GetSignificantDigits()](./getsignificantdigits/) | Gets and sets the number of significant digits. The default value is CellsHelper.SignificantDigits. |
+| [GetSmartTagOptions()](./getsmarttagoptions/) | Gets the options of the smart tag. |
 | [GetThemeFont(FontSchemeType type)](./getthemefont/) | Gets the default theme font name. |
 | [GetUpdateAdjacentCellsBorder()](./getupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. |
 | [GetUpdateLinksType()](./getupdatelinkstype/) | Gets and sets how updates external links when the workbook is opened. |

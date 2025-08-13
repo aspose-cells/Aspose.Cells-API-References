@@ -38,7 +38,7 @@ class DbfLoadOptions : public Aspose::Cells::LoadOptions
 | [GetLightCellsDataHandler()](../../aspose.cells/loadoptions/getlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [GetLoadFilter()](../../aspose.cells/loadoptions/getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](../../aspose.cells/loadoptions/getloadformat/) | Gets the load format. |
-| [GetMemorySetting()](../../aspose.cells/loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](../../aspose.cells/loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetParsingFormulaOnOpen()](../../aspose.cells/loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../../aspose.cells/loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../../aspose.cells/loadoptions/getpassword/) | Gets and set the password of the workbook. |
@@ -65,7 +65,7 @@ class DbfLoadOptions : public Aspose::Cells::LoadOptions
 | [SetLanguageCode(CountryCode value)](../../aspose.cells/loadoptions/setlanguagecode/) | Gets or sets the user interface language of the [Workbook](../../aspose.cells/workbook/) version based on CountryCode that has saved the file. |
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../../aspose.cells/loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](../../aspose.cells/loadoptions/setloadfilter/) | The filter to denote how to load data. |
-| [SetMemorySetting(MemorySetting value)](../../aspose.cells/loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](../../aspose.cells/loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](../../aspose.cells/loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../../aspose.cells/loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](../../aspose.cells/loadoptions/setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |

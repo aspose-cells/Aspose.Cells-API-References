@@ -115,6 +115,7 @@ url: /cpp/aspose.cells/
 | [LightCellsDataProvider](./lightcellsdataprovider/) | Represents Data provider for saving large spreadsheet files in light weight mode. |
 | [LoadFilter](./loadfilter/) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions/) | Represents the options of loading the file. |
+| [MarkdownLoadOptions](./markdownloadoptions/) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Represents the save options for markdown. |
 | [MemoryFontSource](./memoryfontsource/) | Represents the single TrueType font file stored in memory. |
 | [MultipleFilterCollection](./multiplefiltercollection/) | Represents the multiple filter collection. |

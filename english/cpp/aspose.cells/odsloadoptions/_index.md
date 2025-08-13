@@ -4,7 +4,7 @@ linktitle: OdsLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OdsLoadOptions class. Represents the options of loading ods file in C++.'
 type: docs
-weight: 10900
+weight: 11000
 url: /cpp/aspose.cells/odsloadoptions/
 ---
 ## OdsLoadOptions class
@@ -35,7 +35,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [GetLightCellsDataHandler()](../loadoptions/getlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [GetLoadFilter()](../loadoptions/getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](../loadoptions/getloadformat/) | Gets the load format. |
-| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
@@ -71,7 +71,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [SetLanguageCode(CountryCode value)](../loadoptions/setlanguagecode/) | Gets or sets the user interface language of the [Workbook](../workbook/) version based on CountryCode that has saved the file. |
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](../loadoptions/setloadfilter/) | The filter to denote how to load data. |
-| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](../loadoptions/setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |

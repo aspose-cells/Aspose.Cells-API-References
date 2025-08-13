@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MarkdownSaveOptions class. Represents the save options for markdown in C++.'
 type: docs
-weight: 10200
+weight: 10300
 url: /cpp/aspose.cells/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -21,13 +21,13 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | Method | Description |
 | --- | --- |
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
-| [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
+| [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. |
 | [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncoding()](./getencoding/) | Gets and sets the default encoding. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [GetExportImagesAsBase64()](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). |
+| [GetExportImagesAsBase64()](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). The default value is true. |
 | [GetFormatStrategy()](./getformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [GetImageOptions()](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
@@ -54,13 +54,13 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
 | [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The folder for temporary files that may be used as data cache. |
-| [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
+| [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. |
 | [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncoding(EncodingType value)](./setencoding/) | Gets and sets the default encoding. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [SetExportImagesAsBase64(bool value)](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). |
+| [SetExportImagesAsBase64(bool value)](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). The default value is true. |
 | [SetFormatStrategy(CellValueFormatStrategy value)](./setformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [SetLineSeparator(const U16String\& value)](./setlineseparator/) | Gets and sets the line separator. |

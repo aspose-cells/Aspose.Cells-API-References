@@ -59,6 +59,7 @@ url: /cpp/aspose.cells.charts/
 | [Bar3DShapeType](./bar3dshapetype/) | Represents the shape used with the 3-D bar or column chart. |
 | [BubbleSizeRepresents](./bubblesizerepresents/) | Represents what the bubble size represents on a bubble chart. |
 | [CategoryType](./categorytype/) | Represents the category axis type. |
+| [ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in Excel chart. |
 | [ChartLineFormattingType](./chartlineformattingtype/) | Represents line format type of chart line. |
 | [ChartMarkerType](./chartmarkertype/) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartSplitType](./chartsplittype/) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. |
