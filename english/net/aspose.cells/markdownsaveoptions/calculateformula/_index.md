@@ -1,13 +1,13 @@
 ---
 title: MarkdownSaveOptions.CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
-description: MarkdownSaveOptions property. Indicates whether to calculate formulas before saving html file
+description: MarkdownSaveOptions property. Indicates whether to calculate formulas before saving markdown file
 type: docs
 url: /net/aspose.cells/markdownsaveoptions/calculateformula/
 ---
 ## MarkdownSaveOptions.CalculateFormula property
 
-Indicates whether to calculate formulas before saving html file.
+Indicates whether to calculate formulas before saving markdown file.
 
 ```csharp
 public bool CalculateFormula { get; set; }

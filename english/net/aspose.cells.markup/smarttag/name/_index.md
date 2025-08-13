@@ -26,28 +26,29 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            try
-            {
-                // Create a smart tag instance using reflection (since constructor isn't public)
-                Type smartTagType = typeof(SmartTag);
-                SmartTag smartTag = (SmartTag)Activator.CreateInstance(smartTagType, nonPublic: true);
-                
-                // Initialize the smart tag with sample values
-                smartTag.SetLink("http://example.com/smarttags", "SampleSmartTag");
-                
-                // Demonstrate the Name property (read-only operation)
-                Console.WriteLine("SmartTag Name: " + smartTag.Name);
-                
-                // Save the workbook
-                workbook.Save("SmartTagNameDemo.xlsx");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            Worksheet sheet = workbook.Worksheets[0];
+
+            sheet.Cells["A1"].PutValue("Aspose");
+            sheet.Cells["A2"].PutValue("Cells");
+
+            SmartTagSetting smartTagSetting = sheet.SmartTagSetting;
+            int smartTagIndex = smartTagSetting.Add(0, 0);
+            SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
+
+            smartTags.Add("http://docs.aspose.com", "docs");
+            SmartTag smartTag = smartTags[0];
+            smartTag.SetLink("http://www.aspose.com", "AsposeLink");
+
+            SmartTagPropertyCollection properties = smartTag.Properties;
+            properties.Add("Author", "Aspose");
+            properties.Add("Description", "Aspose.Cells SmartTag");
+
+            // Demonstrate the Name property (read-only operation)
+            Console.WriteLine("SmartTag Name: " + smartTag.Name);
+
+            // Save the workbook
+            workbook.Save("SmartTagNameDemo.xlsx");
         }
     }
 }

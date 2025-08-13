@@ -1,17 +1,21 @@
 ---
 title: LoadOptions.MemorySetting
 second_title: Aspose.Cells for .NET API Reference
-description: LoadOptions property. Gets or sets the memory usage options
+description: LoadOptions property. Gets or sets the memory mode for loaded workbook
 type: docs
 url: /net/aspose.cells/loadoptions/memorysetting/
 ---
 ## LoadOptions.MemorySetting property
 
-Gets or sets the memory usage options.
+Gets or sets the memory mode for loaded workbook.
 
 ```csharp
 public MemorySetting MemorySetting { get; set; }
 ```
+
+### Remarks
+
+For more details about memory mode, please see [`MemorySetting`](../../cells/memorysetting/).
 
 ### Examples
 

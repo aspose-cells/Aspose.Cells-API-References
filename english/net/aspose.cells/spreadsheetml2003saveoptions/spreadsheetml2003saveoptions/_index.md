@@ -99,7 +99,7 @@ namespace AsposeCellsExamples
             try
             {
                 // Call the #ctor method with SaveFormat parameter
-                SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions(SaveFormat.SpreadsheetML);
+                SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
 
                 // Set some properties of the save options
                 saveOptions.IsIndentedFormatting = true;

@@ -35,6 +35,8 @@ namespace AsposeCellsExamples
             smartTagOptions.EmbedSmartTags = true;
             // The SmartTagOptions is now properly used if required by the API, though assignment to workbook.Settings isn't valid
 
+            Console.WriteLine("after setting value: Current EmbedSmartTags value: " + smartTagOptions.EmbedSmartTags);
+
             Cell cell = worksheet.Cells["A1"];
             cell.PutValue("New York");
 

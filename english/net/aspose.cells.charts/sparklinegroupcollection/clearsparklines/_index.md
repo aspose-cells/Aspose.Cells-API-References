@@ -32,25 +32,30 @@ namespace AsposeCellsExamples
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data for sparklines
-            worksheet.Cells["A1"].PutValue(5);
-            worksheet.Cells["A2"].PutValue(3);
-            worksheet.Cells["A3"].PutValue(6);
-            worksheet.Cells["A4"].PutValue(4);
-            worksheet.Cells["A5"].PutValue(7);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
-            // Create a sparkline group
-            int groupIndex = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:A5", false, CellArea.CreateCellArea(0, 1, 4, 1));
+            // Define the CellArea for the sparkline
+            CellArea ca = new CellArea
+            {
+                StartColumn = 4,
+                EndColumn = 4,
+                StartRow = 0,
+                EndRow = 0
+            };
 
-            // Create CellArea parameter for ClearSparklines method
-            CellArea cellArea = CellArea.CreateCellArea(0, 1, 4, 1);
+            // Add a sparkline group to the worksheet
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
 
             try
             {
                 // Call ClearSparklines method with CellArea parameter
-                worksheet.SparklineGroups.ClearSparklines(cellArea);
+                sheet.SparklineGroups.ClearSparklines(ca);
                 
                 Console.WriteLine("Sparklines cleared successfully from the specified area.");
             }

@@ -28,6 +28,7 @@ namespace AsposeCellsExamples
     using Aspose.Cells.Drawing;
     using Aspose.Cells.Rendering;
     using System;
+    using System.Drawing.Imaging;
 
     public class PdfSaveOptionsPropertyImageTypeDemo
     {
@@ -48,13 +49,13 @@ namespace AsposeCellsExamples
             Console.WriteLine("Current ImageType value: " + pdfSaveOptions.ImageType);
 
             // Set the image type to JPEG for PDF conversion
-            pdfSaveOptions.ImageType = ImageType.Jpeg;
+            pdfSaveOptions.ImageType = ImageFormat.Jpeg;
 
             // Demonstrate the effect by saving to PDF
             workbook.Save("PropertyImageTypeDemo.pdf", pdfSaveOptions);
 
             // Change the image type to PNG and save again
-            pdfSaveOptions.ImageType = ImageType.Png;
+            pdfSaveOptions.ImageType = ImageFormat.Png;
             workbook.Save("PropertyImageTypeDemo_Png.pdf", pdfSaveOptions);
         }
     }

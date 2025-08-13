@@ -15,7 +15,7 @@ public IEnumerator GetEnumerator()
 
 ### Return Value
 
-The cells enumerator
+The cells enumerator which will traverse all existing cells in this row.
 
 ### Examples
 
@@ -77,7 +77,7 @@ public IEnumerator GetEnumerator(bool reversed, bool sync)
 
 ### Return Value
 
-The cell enumerator
+The cells enumerator which will traverse all existing cells in this row.
 
 ### Remarks
 

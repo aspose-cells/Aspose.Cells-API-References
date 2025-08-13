@@ -1,0 +1,26 @@
+---
+title: WorkbookDesigner.SortDataSource
+second_title: Aspose.Cells for .NET API Reference
+description: WorkbookDesigner property. Indicates whether sorting data source
+type: docs
+url: /net/aspose.cells/workbookdesigner/sortdatasource/
+---
+## WorkbookDesigner.SortDataSource property
+
+Indicates whether sorting data source.
+
+```csharp
+public bool SortDataSource { get; set; }
+```
+
+### Remarks
+
+Only for JSON data source.
+
+### See Also
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

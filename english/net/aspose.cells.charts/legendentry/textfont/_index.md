@@ -63,7 +63,7 @@ namespace AsposeCellsExamples
 
             // Access first legend entry and modify its TextFont properties
             LegendEntry legendEntry = legend.LegendEntries[0];
-            Font font = legendEntry.TextFont;
+            Aspose.Cells.Font font = legendEntry.TextFont;
             
             // Set various font properties
             font.Name = "Arial";

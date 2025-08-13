@@ -25,6 +25,7 @@ public class GridJsService : IGridJsService
 | --- | --- |
 | [AddImage](../../aspose.cells.gridjs/gridjsservice/addimage/)(string, string, string, IFormFileCollection) | Applies the add image from local file operation. |
 | [AddImageByURL](../../aspose.cells.gridjs/gridjsservice/addimagebyurl/)(string, string, string) | Applies the add image from remote URL operation. |
+| [CheckAndSyncForCollaborative](../../aspose.cells.gridjs/gridjsservice/checkandsyncforcollaborative/)(string) | Check wether workbook instance is in memory cache and need to sync with history operations .this method is apply for Collaborative mode only. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [CopyImage](../../aspose.cells.gridjs/gridjsservice/copyimage/)(string, string) | Applies the copy image operation. |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid_1)(string, string) | Gets JSON string for the file by the specified unique id. . |
