@@ -19,7 +19,7 @@ class DefaultStyleSettings;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [builtInPreference](#builtInPreference--)| boolean | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [builtInPreference](#builtInPreference--)| boolean | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
 | [fontName](#fontName--)| string | Gets/Sets the default font name for the workbook |
 | [fontSize](#fontSize--)| number | Gets/Sets the default standard font size for the workbook. |
 | [horizontalAlignment](#horizontalAlignment--)| TextAlignmentType | Gets/Sets the default value for horizontal alignment |
@@ -28,7 +28,7 @@ class DefaultStyleSettings;
 
 ### builtInPreference {#builtInPreference--}
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 builtInPreference : boolean;
