@@ -1,17 +1,17 @@
 ﻿---
-title: TxtLoadOptions
+title: MarkdownLoadOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the options for loading text file.
+description: Represents the options for loading markdown document.
 type: docs
-url: /nodejs-cpp/txtloadoptions/
+url: /nodejs-cpp/markdownloadoptions/
 ---
 
-## TxtLoadOptions class
+## MarkdownLoadOptions class
 
-Represents the options for loading text file.
+Represents the options for loading markdown document.
 
 ```javascript
-class TxtLoadOptions extends AbstractTextLoadOptions;
+class MarkdownLoadOptions extends AbstractTextLoadOptions;
 ```
 
 
@@ -19,27 +19,14 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 
 | Constructor | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates the options for loading text file. |
 | [constructor(AbstractTextLoadOptions)](#constructor-abstracttextloadoptions-)| Constructs from a parent object convertible to this. |
-| [constructor(LoadFormat)](#constructor-loadformat-)| Creates the options for loading text file. |
+| [constructor()](#constructor--)| Default Constructor. |
 
 ## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [separator](#separator--)| string | Gets and sets character separator of text file. |
-| [separatorString](#separatorString--)| string | Gets and sets a string value as separator. |
-| [isMultiEncoded](#isMultiEncoded--)| boolean | True means that the file contains several encoding. |
 | [hasFormula](#hasFormula--)| boolean | Indicates whether the text is formula if it starts with "=". |
-| [hasTextQualifier](#hasTextQualifier--)| boolean | Whether there is text qualifier for cell value. Default is true. |
-| [textQualifier](#textQualifier--)| string | Specifies the text qualifier for cell values. Default qualifier is '"'. |
-| [treatConsecutiveDelimitersAsOne](#treatConsecutiveDelimitersAsOne--)| boolean | Whether consecutive delimiters should be treated as one. |
-| [treatQuotePrefixAsValue](#treatQuotePrefixAsValue--)| boolean | Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell. |
-| [extendToNextSheet](#extendToNextSheet--)| boolean | Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
-| [headerRowsCount](#headerRowsCount--)| number | The count of header rows to be repeated for extended sheets. |
-| [headerColumnsCount](#headerColumnsCount--)| number | The count of header columns to be repeated for extended sheets. |
-| [maxRowCount](#maxRowCount--)| number | The maximum count of rows to be imported for one sheet. |
-| [maxColumnCount](#maxColumnCount--)| number | The maximum count of columns to be imported for one sheet. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
 | [parsingFormulaOnOpen](#parsingFormulaOnOpen--)| boolean | Indicates whether parsing the formula when reading the file. |
@@ -71,32 +58,8 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 
 | Method | Description |
 | --- | --- |
-| [getSeparator()](#getSeparator--)| <b>@deprecated.</b> Please use the 'separator' property instead. Gets and sets character separator of text file. |
-| [setSeparator(string)](#setSeparator-string-)| <b>@deprecated.</b> Please use the 'separator' property instead. Gets and sets character separator of text file. |
-| [getSeparatorString()](#getSeparatorString--)| <b>@deprecated.</b> Please use the 'separatorString' property instead. Gets and sets a string value as separator. |
-| [setSeparatorString(string)](#setSeparatorString-string-)| <b>@deprecated.</b> Please use the 'separatorString' property instead. Gets and sets a string value as separator. |
-| [isMultiEncoded()](#isMultiEncoded--)| <b>@deprecated.</b> Please use the 'isMultiEncoded' property instead. True means that the file contains several encoding. |
-| [setIsMultiEncoded(boolean)](#setIsMultiEncoded-boolean-)| <b>@deprecated.</b> Please use the 'isMultiEncoded' property instead. True means that the file contains several encoding. |
 | [getHasFormula()](#getHasFormula--)| <b>@deprecated.</b> Please use the 'hasFormula' property instead. Indicates whether the text is formula if it starts with "=". |
 | [setHasFormula(boolean)](#setHasFormula-boolean-)| <b>@deprecated.</b> Please use the 'hasFormula' property instead. Indicates whether the text is formula if it starts with "=". |
-| [getHasTextQualifier()](#getHasTextQualifier--)| <b>@deprecated.</b> Please use the 'hasTextQualifier' property instead. Whether there is text qualifier for cell value. Default is true. |
-| [setHasTextQualifier(boolean)](#setHasTextQualifier-boolean-)| <b>@deprecated.</b> Please use the 'hasTextQualifier' property instead. Whether there is text qualifier for cell value. Default is true. |
-| [getTextQualifier()](#getTextQualifier--)| <b>@deprecated.</b> Please use the 'textQualifier' property instead. Specifies the text qualifier for cell values. Default qualifier is '"'. |
-| [setTextQualifier(string)](#setTextQualifier-string-)| <b>@deprecated.</b> Please use the 'textQualifier' property instead. Specifies the text qualifier for cell values. Default qualifier is '"'. |
-| [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--)| <b>@deprecated.</b> Please use the 'treatConsecutiveDelimitersAsOne' property instead. Whether consecutive delimiters should be treated as one. |
-| [setTreatConsecutiveDelimitersAsOne(boolean)](#setTreatConsecutiveDelimitersAsOne-boolean-)| <b>@deprecated.</b> Please use the 'treatConsecutiveDelimitersAsOne' property instead. Whether consecutive delimiters should be treated as one. |
-| [getTreatQuotePrefixAsValue()](#getTreatQuotePrefixAsValue--)| <b>@deprecated.</b> Please use the 'treatQuotePrefixAsValue' property instead. Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell. |
-| [setTreatQuotePrefixAsValue(boolean)](#setTreatQuotePrefixAsValue-boolean-)| <b>@deprecated.</b> Please use the 'treatQuotePrefixAsValue' property instead. Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell. |
-| [getExtendToNextSheet()](#getExtendToNextSheet--)| <b>@deprecated.</b> Please use the 'extendToNextSheet' property instead. Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
-| [setExtendToNextSheet(boolean)](#setExtendToNextSheet-boolean-)| <b>@deprecated.</b> Please use the 'extendToNextSheet' property instead. Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
-| [getHeaderRowsCount()](#getHeaderRowsCount--)| <b>@deprecated.</b> Please use the 'headerRowsCount' property instead. The count of header rows to be repeated for extended sheets. |
-| [setHeaderRowsCount(number)](#setHeaderRowsCount-number-)| <b>@deprecated.</b> Please use the 'headerRowsCount' property instead. The count of header rows to be repeated for extended sheets. |
-| [getHeaderColumnsCount()](#getHeaderColumnsCount--)| <b>@deprecated.</b> Please use the 'headerColumnsCount' property instead. The count of header columns to be repeated for extended sheets. |
-| [setHeaderColumnsCount(number)](#setHeaderColumnsCount-number-)| <b>@deprecated.</b> Please use the 'headerColumnsCount' property instead. The count of header columns to be repeated for extended sheets. |
-| [getMaxRowCount()](#getMaxRowCount--)| <b>@deprecated.</b> Please use the 'maxRowCount' property instead. The maximum count of rows to be imported for one sheet. |
-| [setMaxRowCount(number)](#setMaxRowCount-number-)| <b>@deprecated.</b> Please use the 'maxRowCount' property instead. The maximum count of rows to be imported for one sheet. |
-| [getMaxColumnCount()](#getMaxColumnCount--)| <b>@deprecated.</b> Please use the 'maxColumnCount' property instead. The maximum count of columns to be imported for one sheet. |
-| [setMaxColumnCount(number)](#setMaxColumnCount-number-)| <b>@deprecated.</b> Please use the 'maxColumnCount' property instead. The maximum count of columns to be imported for one sheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| <b>@deprecated.</b> Please use the 'loadFormat' property instead. Gets the load format. |
 | [getPassword()](#getPassword--)| <b>@deprecated.</b> Please use the 'password' property instead. Gets and set the password of the workbook. |
@@ -151,19 +114,6 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [setKeepPrecision(boolean)](#setKeepPrecision-boolean-)| <b>@deprecated.</b> Please use the 'keepPrecision' property instead. Indicates whether not parsing a string value if the length is 15. |
 
 
-### constructor() {#constructor--}
-
-Creates the options for loading text file.
-
-```javascript
-constructor();
-```
-
-
-**Remarks**
-
-The default load file type is CSV .
-
 ### constructor(AbstractTextLoadOptions) {#constructor-abstracttextloadoptions-}
 
 Constructs from a parent object convertible to this.
@@ -177,43 +127,12 @@ constructor(obj: AbstractTextLoadOptions);
 | --- | --- | --- |
 | obj | AbstractTextLoadOptions | The parent object. |
 
-### constructor(LoadFormat) {#constructor-loadformat-}
+### constructor() {#constructor--}
 
-Creates the options for loading text file.
-
-```javascript
-constructor(loadFormat: LoadFormat);
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadFormat | [LoadFormat](../loadformat/) | The loading format |
-
-### separator {#separator--}
-
-Gets and sets character separator of text file.
+Default Constructor.
 
 ```javascript
-separator : string;
-```
-
-
-### separatorString {#separatorString--}
-
-Gets and sets a string value as separator.
-
-```javascript
-separatorString : string;
-```
-
-
-### isMultiEncoded {#isMultiEncoded--}
-
-True means that the file contains several encoding.
-
-```javascript
-isMultiEncoded : boolean;
+constructor();
 ```
 
 
@@ -225,111 +144,6 @@ Indicates whether the text is formula if it starts with "=".
 hasFormula : boolean;
 ```
 
-
-### hasTextQualifier {#hasTextQualifier--}
-
-Whether there is text qualifier for cell value. Default is true.
-
-```javascript
-hasTextQualifier : boolean;
-```
-
-
-### textQualifier {#textQualifier--}
-
-Specifies the text qualifier for cell values. Default qualifier is '"'.
-
-```javascript
-textQualifier : string;
-```
-
-
-**Remarks**
-
-When setting this property, [HasTextQualifier](../hastextqualifier/) will become true automatically.
-
-### treatConsecutiveDelimitersAsOne {#treatConsecutiveDelimitersAsOne--}
-
-Whether consecutive delimiters should be treated as one.
-
-```javascript
-treatConsecutiveDelimitersAsOne : boolean;
-```
-
-
-### treatQuotePrefixAsValue {#treatQuotePrefixAsValue--}
-
-Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell.
-
-```javascript
-treatQuotePrefixAsValue : boolean;
-```
-
-
-### extendToNextSheet {#extendToNextSheet--}
-
-Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false.
-
-```javascript
-extendToNextSheet : boolean;
-```
-
-
-**Remarks**
-
-If this property is true, extra data will be put into next sheet behind current one (if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeding limit will be ignored.
-
-### headerRowsCount {#headerRowsCount--}
-
-The count of header rows to be repeated for extended sheets.
-
-```javascript
-headerRowsCount : number;
-```
-
-
-**Remarks**
-
-The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### headerColumnsCount {#headerColumnsCount--}
-
-The count of header columns to be repeated for extended sheets.
-
-```javascript
-headerColumnsCount : number;
-```
-
-
-**Remarks**
-
-The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### maxRowCount {#maxRowCount--}
-
-The maximum count of rows to be imported for one sheet.
-
-```javascript
-maxRowCount : number;
-```
-
-
-**Remarks**
-
-Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header rows([HeaderRowsCount](../headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
-
-### maxColumnCount {#maxColumnCount--}
-
-The maximum count of columns to be imported for one sheet.
-
-```javascript
-maxColumnCount : number;
-```
-
-
-**Remarks**
-
-Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### loadFormat {#loadFormat--}
 
@@ -605,72 +419,6 @@ keepPrecision : boolean;
 ```
 
 
-### getSeparator() {#getSeparator--}
-
-<b>@deprecated.</b> Please use the 'separator' property instead. Gets and sets character separator of text file.
-
-```javascript
-getSeparator() : string;
-```
-
-
-### setSeparator(string) {#setSeparator-string-}
-
-<b>@deprecated.</b> Please use the 'separator' property instead. Gets and sets character separator of text file.
-
-```javascript
-setSeparator(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getSeparatorString() {#getSeparatorString--}
-
-<b>@deprecated.</b> Please use the 'separatorString' property instead. Gets and sets a string value as separator.
-
-```javascript
-getSeparatorString() : string;
-```
-
-
-### setSeparatorString(string) {#setSeparatorString-string-}
-
-<b>@deprecated.</b> Please use the 'separatorString' property instead. Gets and sets a string value as separator.
-
-```javascript
-setSeparatorString(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### isMultiEncoded() {#isMultiEncoded--}
-
-<b>@deprecated.</b> Please use the 'isMultiEncoded' property instead. True means that the file contains several encoding.
-
-```javascript
-isMultiEncoded() : boolean;
-```
-
-
-### setIsMultiEncoded(boolean) {#setIsMultiEncoded-boolean-}
-
-<b>@deprecated.</b> Please use the 'isMultiEncoded' property instead. True means that the file contains several encoding.
-
-```javascript
-setIsMultiEncoded(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
 ### getHasFormula() {#getHasFormula--}
 
 <b>@deprecated.</b> Please use the 'hasFormula' property instead. Indicates whether the text is formula if it starts with "=".
@@ -692,252 +440,6 @@ setHasFormula(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
-
-### getHasTextQualifier() {#getHasTextQualifier--}
-
-<b>@deprecated.</b> Please use the 'hasTextQualifier' property instead. Whether there is text qualifier for cell value. Default is true.
-
-```javascript
-getHasTextQualifier() : boolean;
-```
-
-
-### setHasTextQualifier(boolean) {#setHasTextQualifier-boolean-}
-
-<b>@deprecated.</b> Please use the 'hasTextQualifier' property instead. Whether there is text qualifier for cell value. Default is true.
-
-```javascript
-setHasTextQualifier(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getTextQualifier() {#getTextQualifier--}
-
-<b>@deprecated.</b> Please use the 'textQualifier' property instead. Specifies the text qualifier for cell values. Default qualifier is '"'.
-
-```javascript
-getTextQualifier() : string;
-```
-
-
-**Remarks**
-
-When setting this property, [HasTextQualifier](../hastextqualifier/) will become true automatically.
-
-### setTextQualifier(string) {#setTextQualifier-string-}
-
-<b>@deprecated.</b> Please use the 'textQualifier' property instead. Specifies the text qualifier for cell values. Default qualifier is '"'.
-
-```javascript
-setTextQualifier(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-**Remarks**
-
-When setting this property, [HasTextQualifier](../hastextqualifier/) will become true automatically.
-
-### getTreatConsecutiveDelimitersAsOne() {#getTreatConsecutiveDelimitersAsOne--}
-
-<b>@deprecated.</b> Please use the 'treatConsecutiveDelimitersAsOne' property instead. Whether consecutive delimiters should be treated as one.
-
-```javascript
-getTreatConsecutiveDelimitersAsOne() : boolean;
-```
-
-
-### setTreatConsecutiveDelimitersAsOne(boolean) {#setTreatConsecutiveDelimitersAsOne-boolean-}
-
-<b>@deprecated.</b> Please use the 'treatConsecutiveDelimitersAsOne' property instead. Whether consecutive delimiters should be treated as one.
-
-```javascript
-setTreatConsecutiveDelimitersAsOne(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getTreatQuotePrefixAsValue() {#getTreatQuotePrefixAsValue--}
-
-<b>@deprecated.</b> Please use the 'treatQuotePrefixAsValue' property instead. Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell.
-
-```javascript
-getTreatQuotePrefixAsValue() : boolean;
-```
-
-
-### setTreatQuotePrefixAsValue(boolean) {#setTreatQuotePrefixAsValue-boolean-}
-
-<b>@deprecated.</b> Please use the 'treatQuotePrefixAsValue' property instead. Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell.
-
-```javascript
-setTreatQuotePrefixAsValue(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getExtendToNextSheet() {#getExtendToNextSheet--}
-
-<b>@deprecated.</b> Please use the 'extendToNextSheet' property instead. Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false.
-
-```javascript
-getExtendToNextSheet() : boolean;
-```
-
-
-**Remarks**
-
-If this property is true, extra data will be put into next sheet behind current one (if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeding limit will be ignored.
-
-### setExtendToNextSheet(boolean) {#setExtendToNextSheet-boolean-}
-
-<b>@deprecated.</b> Please use the 'extendToNextSheet' property instead. Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false.
-
-```javascript
-setExtendToNextSheet(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-If this property is true, extra data will be put into next sheet behind current one (if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeding limit will be ignored.
-
-### getHeaderRowsCount() {#getHeaderRowsCount--}
-
-<b>@deprecated.</b> Please use the 'headerRowsCount' property instead. The count of header rows to be repeated for extended sheets.
-
-```javascript
-getHeaderRowsCount() : number;
-```
-
-
-**Remarks**
-
-The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### setHeaderRowsCount(number) {#setHeaderRowsCount-number-}
-
-<b>@deprecated.</b> Please use the 'headerRowsCount' property instead. The count of header rows to be repeated for extended sheets.
-
-```javascript
-setHeaderRowsCount(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### getHeaderColumnsCount() {#getHeaderColumnsCount--}
-
-<b>@deprecated.</b> Please use the 'headerColumnsCount' property instead. The count of header columns to be repeated for extended sheets.
-
-```javascript
-getHeaderColumnsCount() : number;
-```
-
-
-**Remarks**
-
-The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### setHeaderColumnsCount(number) {#setHeaderColumnsCount-number-}
-
-<b>@deprecated.</b> Please use the 'headerColumnsCount' property instead. The count of header columns to be repeated for extended sheets.
-
-```javascript
-setHeaderColumnsCount(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
-
-### getMaxRowCount() {#getMaxRowCount--}
-
-<b>@deprecated.</b> Please use the 'maxRowCount' property instead. The maximum count of rows to be imported for one sheet.
-
-```javascript
-getMaxRowCount() : number;
-```
-
-
-**Remarks**
-
-Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header rows([HeaderRowsCount](../headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
-
-### setMaxRowCount(number) {#setMaxRowCount-number-}
-
-<b>@deprecated.</b> Please use the 'maxRowCount' property instead. The maximum count of rows to be imported for one sheet.
-
-```javascript
-setMaxRowCount(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header rows([HeaderRowsCount](../headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
-
-### getMaxColumnCount() {#getMaxColumnCount--}
-
-<b>@deprecated.</b> Please use the 'maxColumnCount' property instead. The maximum count of columns to be imported for one sheet.
-
-```javascript
-getMaxColumnCount() : number;
-```
-
-
-**Remarks**
-
-Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
-
-### setMaxColumnCount(number) {#setMaxColumnCount-number-}
-
-<b>@deprecated.</b> Please use the 'maxColumnCount' property instead. The maximum count of columns to be imported for one sheet.
-
-```javascript
-setMaxColumnCount(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### isNull() {#isNull--}
 

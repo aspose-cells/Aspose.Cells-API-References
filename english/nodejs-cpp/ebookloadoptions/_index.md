@@ -41,7 +41,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [keepUnparsedData](#keepUnparsedData--)| boolean | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. |
 | [loadFilter](#loadFilter--)| LoadFilter | The filter to denote how to load data. |
 | [lightCellsDataHandler](#lightCellsDataHandler--)| LightCellsDataHandler | The data handler for processing cells data when reading template file. |
-| [memorySetting](#memorySetting--)| MemorySetting | Gets or sets the memory usage options. |
+| [memorySetting](#memorySetting--)| MemorySetting | Gets or sets the memory mode for loaded workbook. |
 | [warningCallback](#warningCallback--)| IWarningCallback | Gets or sets warning callback. |
 | [autoFitterOptions](#autoFitterOptions--)| AutoFitterOptions | Gets and sets the auto fitter options |
 | [autoFilter](#autoFilter--)| boolean | Indicates whether auto filtering the data when loading the files. |
@@ -92,8 +92,8 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [setLoadFilter(LoadFilter)](#setLoadFilter-loadfilter-)| <b>@deprecated.</b> Please use the 'loadFilter' property instead. The filter to denote how to load data. |
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--)| <b>@deprecated.</b> Please use the 'lightCellsDataHandler' property instead. The data handler for processing cells data when reading template file. |
 | [setLightCellsDataHandler(LightCellsDataHandler)](#setLightCellsDataHandler-lightcellsdatahandler-)| <b>@deprecated.</b> Please use the 'lightCellsDataHandler' property instead. The data handler for processing cells data when reading template file. |
-| [getMemorySetting()](#getMemorySetting--)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage options. |
-| [setMemorySetting(MemorySetting)](#setMemorySetting-memorysetting-)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage options. |
+| [getMemorySetting()](#getMemorySetting--)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory mode for loaded workbook. |
+| [setMemorySetting(MemorySetting)](#setMemorySetting-memorysetting-)| <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory mode for loaded workbook. |
 | [setWarningCallback(IWarningCallback)](#setWarningCallback-iwarningcallback-)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
 | [getWarningCallback()](#getWarningCallback--)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
 | [getAutoFitterOptions()](#getAutoFitterOptions--)| <b>@deprecated.</b> Please use the 'autoFitterOptions' property instead. Gets and sets the auto fitter options |
@@ -314,12 +314,16 @@ lightCellsDataHandler : LightCellsDataHandler;
 
 ### memorySetting {#memorySetting--}
 
-Gets or sets the memory usage options.
+Gets or sets the memory mode for loaded workbook.
 
 ```javascript
 memorySetting : MemorySetting;
 ```
 
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
 
 ### warningCallback {#warningCallback--}
 
@@ -860,7 +864,7 @@ setLightCellsDataHandler(value: LightCellsDataHandler) : void;
 
 ### getMemorySetting() {#getMemorySetting--}
 
-<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage options.
+<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory mode for loaded workbook.
 
 ```javascript
 getMemorySetting() : MemorySetting;
@@ -871,9 +875,13 @@ getMemorySetting() : MemorySetting;
 
 [MemorySetting](../memorysetting/)
 
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
+
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
-<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage options.
+<b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory mode for loaded workbook.
 
 ```javascript
 setMemorySetting(value: MemorySetting) : void;
@@ -883,6 +891,10 @@ setMemorySetting(value: MemorySetting) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MemorySetting](../memorysetting/) | The value to set. |
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
 
 ### setWarningCallback(IWarningCallback) {#setWarningCallback-iwarningcallback-}
 

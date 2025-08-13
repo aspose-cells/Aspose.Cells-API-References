@@ -425,7 +425,7 @@ getEnumerator() : CellEnumerator;
 
 **Returns**
 
-The cells enumerator
+The cells enumerator which will traverse all existing cells in this row.
 
 ### getEnumerator(boolean, boolean) {#getEnumerator-boolean-boolean-}
 
@@ -443,7 +443,7 @@ getEnumerator(reversed: boolean, sync: boolean) : CellEnumerator;
 
 **Returns**
 
-The cell enumerator
+The cells enumerator which will traverse all existing cells in this row.
 
 **Remarks**
 

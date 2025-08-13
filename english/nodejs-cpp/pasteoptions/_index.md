@@ -27,6 +27,7 @@ class PasteOptions;
 | --- | --- | --- |
 | [pasteType](#pasteType--)| PasteType | The paste special type. |
 | [skipBlanks](#skipBlanks--)| boolean | Indicates whether skips blank cells. |
+| [keepOldTables](#keepOldTables--)| boolean | Keeps the tables in the destination range. |
 | [onlyVisibleCells](#onlyVisibleCells--)| boolean | True means only copying visible cells. |
 | [transpose](#transpose--)| boolean | True to transpose rows and columns when the range is pasted. The default value is False. |
 | [operationType](#operationType--)| PasteOperationType | Gets and sets the operation type when pasting range. |
@@ -40,6 +41,8 @@ class PasteOptions;
 | [setPasteType(PasteType)](#setPasteType-pastetype-)| <b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type. |
 | [getSkipBlanks()](#getSkipBlanks--)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
 | [setSkipBlanks(boolean)](#setSkipBlanks-boolean-)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
+| [getKeepOldTables()](#getKeepOldTables--)| <b>@deprecated.</b> Please use the 'keepOldTables' property instead. Keeps the tables in the destination range. |
+| [setKeepOldTables(boolean)](#setKeepOldTables-boolean-)| <b>@deprecated.</b> Please use the 'keepOldTables' property instead. Keeps the tables in the destination range. |
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--)| <b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells. |
 | [setOnlyVisibleCells(boolean)](#setOnlyVisibleCells-boolean-)| <b>@deprecated.</b> Please use the 'onlyVisibleCells' property instead. True means only copying visible cells. |
 | [getTranspose()](#getTranspose--)| <b>@deprecated.</b> Please use the 'transpose' property instead. True to transpose rows and columns when the range is pasted. The default value is False. |
@@ -75,6 +78,15 @@ Indicates whether skips blank cells.
 
 ```javascript
 skipBlanks : boolean;
+```
+
+
+### keepOldTables {#keepOldTables--}
+
+Keeps the tables in the destination range.
+
+```javascript
+keepOldTables : boolean;
 ```
 
 
@@ -155,6 +167,28 @@ getSkipBlanks() : boolean;
 
 ```javascript
 setSkipBlanks(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getKeepOldTables() {#getKeepOldTables--}
+
+<b>@deprecated.</b> Please use the 'keepOldTables' property instead. Keeps the tables in the destination range.
+
+```javascript
+getKeepOldTables() : boolean;
+```
+
+
+### setKeepOldTables(boolean) {#setKeepOldTables-boolean-}
+
+<b>@deprecated.</b> Please use the 'keepOldTables' property instead. Keeps the tables in the destination range.
+
+```javascript
+setKeepOldTables(value: boolean) : void;
 ```
 
 **Parameters:**

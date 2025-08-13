@@ -38,9 +38,9 @@ class ShapePath;
 | [setWidthPixel(number)](#setWidthPixel-number-)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Gets the width of this path in unit of pixels. |
 | [getHeightPixel()](#getHeightPixel--)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Gets the height of this path in unit of pixels. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Gets the height of this path in unit of pixels. |
-| [moveTo(number, number)](#moveTo-number-number-)| Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. |
-| [lineTo(number, number)](#lineTo-number-number-)| Appends a line segment to the current figure. The starting point is the end point of the current figure. |
-| [cubicBezierTo(number, number, number, number, number, number)](#cubicBezierTo-number-number-number-number-number-number-)| Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure. |
+| [moveTo(number, number)](#moveTo-number-number-)| Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel. |
+| [lineTo(number, number)](#lineTo-number-number-)| Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |
+| [cubicBezierTo(number, number, number, number, number, number)](#cubicBezierTo-number-number-number-number-number-number-)| Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |
 | [arcTo(number, number, number, number)](#arcTo-number-number-number-number-)| Appends an elliptical arc to the current figure. The starting point is the end point of the current figure. |
 | [close()](#close--)| Closes the current figure and starts a new figure. If the current figure contains a sequence of connected lines and curves, the method closes the loop by connecting a line from the endpoint to the starting point. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -141,7 +141,7 @@ setHeightPixel(value: number) : void;
 
 ### moveTo(number, number) {#moveTo-number-number-}
 
-Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.
+Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel.
 
 ```javascript
 moveTo(x: number, y: number) : void;
@@ -155,7 +155,7 @@ moveTo(x: number, y: number) : void;
 
 ### lineTo(number, number) {#lineTo-number-number-}
 
-Appends a line segment to the current figure. The starting point is the end point of the current figure.
+Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```javascript
 lineTo(x: number, y: number) : void;
@@ -169,7 +169,7 @@ lineTo(x: number, y: number) : void;
 
 ### cubicBezierTo(number, number, number, number, number, number) {#cubicBezierTo-number-number-number-number-number-number-}
 
-Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.
+Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```javascript
 cubicBezierTo(ctrX1: number, ctrY1: number, ctrX2: number, ctrY2: number, endX: number, endY: number) : void;
@@ -198,8 +198,8 @@ arcTo(wR: number, hR: number, stAng: number, swAng: number) : void;
 | --- | --- | --- |
 | wR | number | The half-width of the rectangular area of ​​the ellipse that draws the arc(Unit: Pixel). |
 | hR | number | The half-height of the rectangular area of ​​the ellipse that draws the arc(Unit: Pixel). |
-| stAng | number | The starting angle of the arc, measured in degrees clockwise from the x-axis(Unit: Degree). |
-| swAng | number | The angle between startAngle and the end of the arc.(Unit: Degree) |
+| stAng | number | The starting angle of the arc, measured in degrees clockwise from the x-axis(Unit: Degree). This angle will specify what angle along the supposed circle path will be used as the start position for drawing the arc. This start angle will be locked to the last known pen position in the shape path. Thus guaranteeing a continuos shape path. |
+| swAng | number | The swing angle for an arc. This angle will specify how far angle-wise along the supposed cicle path the arc will be extended. The extension from the start angle will always be in the clockwise direction around the supposed circle.(Unit: Degree) |
 
 ### close() {#close--}
 

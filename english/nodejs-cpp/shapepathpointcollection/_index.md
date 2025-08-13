@@ -26,7 +26,7 @@ class ShapePathPointCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets shape path point by index. |
-| [add(number, number)](#add-number-number-)| Adds a path point. |
+| [add(number, number)](#add-number-number-)| Adds a path point in unit of EMUs. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -59,7 +59,7 @@ Returns [ShapePathPoint](../shapepathpoint/) object
 
 ### add(number, number) {#add-number-number-}
 
-Adds a path point.
+Adds a path point in unit of EMUs.
 
 ```javascript
 add(x: number, y: number) : number;
@@ -70,6 +70,10 @@ add(x: number, y: number) : number;
 | --- | --- | --- |
 | x | number | The x coordinate. |
 | y | number | The y coordinate. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use the MoveTo,LineTo,CubicBezierTo and ArcTo methods in ShapePath. This method will be removed 12 months later since August 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getCount() {#getCount--}
 

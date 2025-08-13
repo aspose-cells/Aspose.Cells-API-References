@@ -19,7 +19,7 @@ class DefaultStyleSettings;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [builtInPreference](#builtInPreference--)| boolean | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [builtInPreference](#builtInPreference--)| boolean | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
 | [fontName](#fontName--)| string | Gets/Sets the default font name for the workbook |
 | [fontSize](#fontSize--)| number | Gets/Sets the default standard font size for the workbook. |
 | [horizontalAlignment](#horizontalAlignment--)| TextAlignmentType | Gets/Sets the default value for horizontal alignment |
@@ -29,8 +29,8 @@ class DefaultStyleSettings;
 
 | Method | Description |
 | --- | --- |
-| [getBuiltInPreference()](#getBuiltInPreference--)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
-| [setBuiltInPreference(boolean)](#setBuiltInPreference-boolean-)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [getBuiltInPreference()](#getBuiltInPreference--)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
+| [setBuiltInPreference(boolean)](#setBuiltInPreference-boolean-)| <b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
 | [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook |
 | [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets/Sets the default font name for the workbook |
 | [getFontSize()](#getFontSize--)| <b>@deprecated.</b> Please use the 'fontSize' property instead. Gets/Sets the default standard font size for the workbook. |
@@ -44,7 +44,7 @@ class DefaultStyleSettings;
 
 ### builtInPreference {#builtInPreference--}
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 builtInPreference : boolean;
@@ -93,7 +93,7 @@ verticalAlignment : TextAlignmentType;
 
 ### getBuiltInPreference() {#getBuiltInPreference--}
 
-<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 getBuiltInPreference() : boolean;
@@ -106,7 +106,7 @@ When loading workbook from existing template file, maybe both built-in number an
 
 ### setBuiltInPreference(boolean) {#setBuiltInPreference-boolean-}
 
-<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+<b>@deprecated.</b> Please use the 'builtInPreference' property instead. Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```javascript
 setBuiltInPreference(value: boolean) : void;
