@@ -10,7 +10,7 @@ url: /go-cpp/xmlloadoptions/setmemorysetting/
 
 ## SetMemorySetting function
 
-Gets or sets the memory usage options.
+Gets or sets the memory mode for loaded workbook.
 
 ```go
 

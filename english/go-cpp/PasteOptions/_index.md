@@ -34,6 +34,8 @@ type PasteOptions struct  {
 |[SetPasteType](./setpastetype/) | The paste special type. | 
 |[GetSkipBlanks](./getskipblanks/) | Indicates whether skips blank cells. | 
 |[SetSkipBlanks](./setskipblanks/) | Indicates whether skips blank cells. | 
+|[GetKeepOldTables](./getkeepoldtables/) | Keeps the tables in the destination range. | 
+|[SetKeepOldTables](./setkeepoldtables/) | Keeps the tables in the destination range. | 
 |[GetOnlyVisibleCells](./getonlyvisiblecells/) | True means only copying visible cells. | 
 |[SetOnlyVisibleCells](./setonlyvisiblecells/) | True means only copying visible cells. | 
 |[GetTranspose](./gettranspose/) | True to transpose rows and columns when the range is pasted. The default value is False. | 

@@ -10,7 +10,7 @@ url: /go-cpp/shapepath/cubicbezierto/
 
 ## CubicBezierTo function
 
-Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.
+Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```go
 

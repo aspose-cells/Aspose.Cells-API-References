@@ -44,4 +44,5 @@ type SeriesCollection struct  {
 |[IsColorVaried](./iscolorvaried/) | Represents if the color of points is varied. | 
 |[SetIsColorVaried](./setiscolorvaried/) | Represents if the color of points is varied. | 
 |[Clear](./clear/) | Clears the collection | 
+|[ChangeColors](./changecolors/) | Set Monochromatic Palette for chart series. | 
 |[GetCount](./getcount/) |  | 

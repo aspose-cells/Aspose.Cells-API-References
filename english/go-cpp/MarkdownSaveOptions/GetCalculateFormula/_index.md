@@ -10,7 +10,7 @@ url: /go-cpp/markdownsaveoptions/getcalculateformula/
 
 ## GetCalculateFormula function
 
-Indicates whether to calculate formulas before saving html file.
+Indicates whether to calculate formulas before saving markdown file.
 
 ```go
 

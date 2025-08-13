@@ -31,5 +31,4 @@ type ShapePathPointCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets shape path point by index. | 
-|[Add](./add/) | Adds a path point. | 
 |[GetCount](./getcount/) |  | 

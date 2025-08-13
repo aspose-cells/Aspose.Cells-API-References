@@ -86,6 +86,7 @@ type WorkbookSettings struct  {
 |[SetPageOrientationType](./setpageorientationtype/) | Set the type of  print orientation for the whole workbook. | 
 |[GetMaxRow](./getmaxrow/) | Gets the max row index, zero-based. | 
 |[GetMaxColumn](./getmaxcolumn/) | Gets the max column index, zero-based. | 
+|[GetSmartTagOptions](./getsmarttagoptions/) | Gets the options of the smart tag. | 
 |[GetDefaultStyleSettings](./getdefaultstylesettings/) | Gets the settings for default values of style-related properties for this workbook. | 
 |[GetWindowLeft](./getwindowleft/) | The distance from the left edge of the client area to the left edge of the window, in unit of point. | 
 |[SetWindowLeft](./setwindowleft/) | The distance from the left edge of the client area to the left edge of the window, in unit of point. | 

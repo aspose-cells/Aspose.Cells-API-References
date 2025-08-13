@@ -42,10 +42,10 @@ type MarkdownSaveOptions struct  {
 |[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. | 
 |[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. | 
 |[GetImageOptions](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting | 
-|[GetExportImagesAsBase64](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
-|[SetExportImagesAsBase64](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
-|[GetCalculateFormula](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. | 
-|[SetCalculateFormula](./setcalculateformula/) | Indicates whether to calculate formulas before saving html file. | 
+|[GetExportImagesAsBase64](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown.The default value is true. | 
+|[SetExportImagesAsBase64](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown.The default value is true. | 
+|[GetCalculateFormula](./getcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. | 
+|[SetCalculateFormula](./setcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 
