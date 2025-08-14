@@ -32,7 +32,7 @@ public class ShapePathPointCollection : CollectionBase<ShapePathPoint>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/shapepathpointcollection/add/)(int, int) | Adds a path point. |
+| [Add](../../aspose.cells.drawing/shapepathpointcollection/add/)(int, int) | (**Obsolete.**) Adds a path point in unit of EMUs. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ShapePathPoint) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ShapePathPoint, IComparer&lt;ShapePathPoint&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, ShapePathPoint, IComparer&lt;ShapePathPoint&gt;) |  |

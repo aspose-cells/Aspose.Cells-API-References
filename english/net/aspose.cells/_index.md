@@ -113,6 +113,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [License](./license/) | Provides methods to license the component. |
 | [LoadFilter](./loadfilter/) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions/) | Represents the options of loading the file. |
+| [MarkdownLoadOptions](./markdownloadoptions/) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Represents the save options for markdown. |
 | [MemoryFontSource](./memoryfontsource/) | Represents the single TrueType font file stored in memory. |
 | [Metered](./metered/) | Provides methods to set metered key. |

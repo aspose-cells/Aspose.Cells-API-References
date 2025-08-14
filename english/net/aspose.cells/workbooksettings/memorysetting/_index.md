@@ -13,6 +13,10 @@ Gets or sets the memory usage options. The new option will be taken as the defau
 public MemorySetting MemorySetting { get; set; }
 ```
 
+### Remarks
+
+For more details about memory mode, please see [`MemorySetting`](../../cells/memorysetting/).
+
 ### Examples
 
 ```csharp

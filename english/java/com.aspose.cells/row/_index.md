@@ -380,7 +380,7 @@ Gets the cells enumerator
 ```
 
 **Returns:**
-java.util.Iterator - The cells enumerator
+java.util.Iterator - The cells enumerator which will traverse all existing cells in this row.
 ### iterator(boolean reversed, boolean sync) {#iterator-boolean-boolean-}
 ```
 public Iterator iterator(boolean reversed, boolean sync)
@@ -400,7 +400,7 @@ If the row will be modified(by operations that may cause new Cell be instantiate
 | sync | boolean | whether the returned enumerator should check the modification of cells in this row and keep synchronized with it. |
 
 **Returns:**
-java.util.Iterator - The cell enumerator
+java.util.Iterator - The cells enumerator which will traverse all existing cells in this row.
 ### notify() {#notify--}
 ```
 public final native void notify()

@@ -1,17 +1,23 @@
 ---
 title: ShapePathPoint.Y
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePathPoint property. Gets y coordinate for this position coordinate
+description: ShapePathPoint property. Gets y coordinate for this position coordinate. Unit EMUs
 type: docs
 url: /net/aspose.cells.drawing/shapepathpoint/y/
 ---
 ## ShapePathPoint.Y property
 
-Gets y coordinate for this position coordinate.
+Gets y coordinate for this position coordinate. Unit EMUs.
 
 ```csharp
+[Obsolete("Use ShapePathPoint.YPixel and ShapePathPoint.YAngle properties instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Y { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use ShapePathPoint.YPixel and ShapePathPoint.YAngle properties. This property will be removed 12 months later since August 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

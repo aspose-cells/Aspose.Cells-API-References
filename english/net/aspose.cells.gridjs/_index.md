@@ -24,6 +24,7 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | [GridReferredArea](./gridreferredarea/) | Represents a referred area by the formula. |
 | [GridUpdateMonitor](./gridupdatemonitor/) | Monitor for user to track the change of update operation. |
 | [GridWorkbookSettings](./gridworkbooksettings/) | Represents the settings of the workbook. |
+| [OprMessageService](./oprmessageservice/) | This class provide all the operations for messages sync in Collaborative mode . |
 ## Interfaces
 
 | Interface | Description |

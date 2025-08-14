@@ -26,37 +26,32 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            try
-            {
-                // Create a smart tag property collection
-                SmartTagPropertyCollection properties = new SmartTagPropertyCollection();
-                
-                // Create a smart tag instance (using reflection since constructor isn't public)
-                Type smartTagType = typeof(SmartTag);
-                SmartTag smartTag = (SmartTag)Activator.CreateInstance(smartTagType, nonPublic: true);
-                
-                // Set properties using available methods
-                smartTag.SetLink("http://example.com/smarttags", "SampleSmartTag");
-                
-                // Display the Uri property value (read-only operation)
-                Console.WriteLine("SmartTag Uri: " + smartTag.Uri);
-                
-                // Demonstrate other properties
-                Console.WriteLine("SmartTag Name: " + smartTag.Name);
-                
-                // Save the workbook
-                workbook.Save("SmartTagUriDemo.xlsx");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            Worksheet sheet = workbook.Worksheets[0];
+
+            sheet.Cells["A1"].PutValue("Aspose");
+            sheet.Cells["A2"].PutValue("Cells");
+
+            SmartTagSetting smartTagSetting = sheet.SmartTagSetting;
+            int smartTagIndex = smartTagSetting.Add(0, 0);
+            SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
+
+            smartTags.Add("http://docs.aspose.com", "docs");
+            SmartTag smartTag = smartTags[0];
+            smartTag.SetLink("http://www.aspose.com", "AsposeLink");
+
+            SmartTagPropertyCollection properties = smartTag.Properties;
+            properties.Add("Author", "Aspose");
+            properties.Add("Description", "Aspose.Cells SmartTag");
+
+            // Display the Uri property value (read-only operation)
+            Console.WriteLine("SmartTag Uri: " + smartTag.Uri);
+
+            // Demonstrate other properties
+            Console.WriteLine("SmartTag Name: " + smartTag.Name);
+
+            // Save the workbook
+            workbook.Save("SmartTagUriDemo.xlsx");
         }
     }
 }

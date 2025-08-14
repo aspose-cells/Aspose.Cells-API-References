@@ -2,7 +2,7 @@
 title: Aspose::Cells::MarkdownSaveOptions::SetExportImagesAsBase64 method
 linktitle: SetExportImagesAsBase64
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MarkdownSaveOptions::SetExportImagesAsBase64 method. Specifies whether images are saved in Base64 format to Markdown in C++.'
+description: 'Aspose::Cells::MarkdownSaveOptions::SetExportImagesAsBase64 method. Specifies whether images are saved in Base64 format to Markdown. The default value is true in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.cells/markdownsaveoptions/setexportimagesasbase64/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/markdownsaveoptions/setexportimagesasbase64/
 ## MarkdownSaveOptions::SetExportImagesAsBase64 method
 
 
-Specifies whether images are saved in Base64 format to [Markdown](../../../aspose.cells.markdown/).
+Specifies whether images are saved in Base64 format to [Markdown](../../../aspose.cells.markdown/). The default value is true.
 
 ```cpp
 void Aspose::Cells::MarkdownSaveOptions::SetExportImagesAsBase64(bool value)

@@ -10,7 +10,7 @@ url: /go-cpp/shapepath/lineto/
 
 ## LineTo function
 
-Appends a line segment to the current figure.The starting point is the end point of the current figure.
+Appends a line segment to the current figure.The starting point is the end point of the current figure.Unit: Pixel.
 
 ```go
 

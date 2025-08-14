@@ -36,7 +36,7 @@ class JsonLoadOptions : public Aspose::Cells::LoadOptions
 | [GetLightCellsDataHandler()](../loadoptions/getlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [GetLoadFilter()](../loadoptions/getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](../loadoptions/getloadformat/) | Gets the load format. |
-| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetMultipleWorksheets()](./getmultipleworksheets/) | Indicates whether importing each attribute of JsonObject object as one worksheet when all child nodes are array nodes. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
@@ -71,7 +71,7 @@ class JsonLoadOptions : public Aspose::Cells::LoadOptions
 | [SetLayoutOptions(const JsonLayoutOptions\& value)](./setlayoutoptions/) | The options of import json. |
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](../loadoptions/setloadfilter/) | The filter to denote how to load data. |
-| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetMultipleWorksheets(bool value)](./setmultipleworksheets/) | Indicates whether importing each attribute of JsonObject object as one worksheet when all child nodes are array nodes. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |

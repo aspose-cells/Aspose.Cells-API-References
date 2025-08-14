@@ -66,6 +66,7 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [add(String area, boolean isVertical)](#add-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [add(String area, boolean isVertical, boolean checkLabels)](#add-java.lang.String-boolean-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [addR1C1(String area, boolean isVertical)](#addR1C1-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
+| [changeColors(int type)](#changeColors-int-) | Set Monochromatic Palette for chart series. |
 | [changeSeriesOrder(int sourceIndex, int destIndex)](#changeSeriesOrder-int-int-) | Directly changes the orders of the two series. |
 | [clear()](#clear--) | Clears the collection |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -180,6 +181,19 @@ If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1
 
 **Returns:**
 int - Return the first index of the added ASeries in the NSeries.
+### changeColors(int type) {#changeColors-int-}
+```
+public void changeColors(int type)
+```
+
+
+Set Monochromatic Palette for chart series.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [ChartColorPaletteType](../../com.aspose.cells/chartcolorpalettetype). The Monochromatic Type. |
+
 ### changeSeriesOrder(int sourceIndex, int destIndex) {#changeSeriesOrder-int-int-}
 ```
 public void changeSeriesOrder(int sourceIndex, int destIndex)

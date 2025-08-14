@@ -44,7 +44,7 @@ namespace AsposeCellsExamples
             comment.Note = "This is a sample comment with formatted text.";
 
             // Create a font for formatting - need to get it from workbook's style
-            Font font = workbook.CreateStyle().Font;
+            Aspose.Cells.Font font = workbook.CreateStyle().Font;
             font.IsBold = true;
             font.Color = Color.Red;
             font.Size = 14;

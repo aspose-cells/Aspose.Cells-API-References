@@ -10,6 +10,8 @@ url: /net/aspose.cells/workbookdesigner/process/
 Processes the smart markers and populates the data source values.
 
 ```csharp
+[Obsolete("Use Range smart markers instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void Process(Range range, bool isPreserved)
 ```
 
@@ -17,6 +19,10 @@ public void Process(Range range, bool isPreserved)
 | --- | --- | --- |
 | range | Range | The range to be processed |
 | isPreserved | Boolean | True if the unrecognized smart marker is preserved. |
+
+### Remarks
+
+NOTE: This class is now obsolete. Instead, please use Range smart markers. This property will be removed 12 months later since July 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

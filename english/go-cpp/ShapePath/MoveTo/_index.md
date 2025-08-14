@@ -10,7 +10,7 @@ url: /go-cpp/shapepath/moveto/
 
 ## MoveTo function
 
-Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.
+Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel.
 
 ```go
 

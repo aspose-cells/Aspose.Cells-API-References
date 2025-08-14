@@ -1,13 +1,13 @@
 ---
 title: MarkdownSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Cells for .NET API Reference
-description: MarkdownSaveOptions property. Specifies whether images are saved in Base64 format to Markdown
+description: MarkdownSaveOptions property. Specifies whether images are saved in Base64 format to Markdown. The default value is true
 type: docs
 url: /net/aspose.cells/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-Specifies whether images are saved in Base64 format to Markdown.
+Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }

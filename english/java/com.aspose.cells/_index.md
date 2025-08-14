@@ -93,6 +93,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ChartArea](../com.aspose.cells/chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
 | [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating chart. |
 | [ChartCollection](../com.aspose.cells/chartcollection) | Encapsulates a collection of [Chart](../com.aspose.cells/chart) objects. |
+| [ChartColorPaletteType](../com.aspose.cells/chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in Excel chart. |
 | [ChartDataTable](../com.aspose.cells/chartdatatable) | Represents a chart data table. |
 | [ChartFrame](../com.aspose.cells/chartframe) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](../com.aspose.cells/chartglobalizationsettings) | Represents the globalization settings for chart. |
@@ -391,6 +392,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MapChartLabelLayout](../com.aspose.cells/mapchartlabellayout) | Represents the layout of map chart's labels. |
 | [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
+| [MarkdownLoadOptions](../com.aspose.cells/markdownloadoptions) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](../com.aspose.cells/markdownsaveoptions) | Represents the save options for markdown. |
 | [MarkdownTableHeaderType](../com.aspose.cells/markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [Marker](../com.aspose.cells/marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
@@ -622,8 +624,9 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShapeLockType](../com.aspose.cells/shapelocktype) | Represents type of the property to be locked. |
 | [ShapePath](../com.aspose.cells/shapepath) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 | [ShapePathCollection](../com.aspose.cells/shapepathcollection) | Represents path collection information in NotPrimitive autoshape |
-| [ShapePathPoint](../com.aspose.cells/shapepathpoint) | Represents an x-y coordinate within the path coordinate space. |
+| [ShapePathPoint](../com.aspose.cells/shapepathpoint) | Specify position coordinates or angle markers. |
 | [ShapePathPointCollection](../com.aspose.cells/shapepathpointcollection) | Represents all shape path points. |
+| [ShapePathPointValueType](../com.aspose.cells/shapepathpointvaluetype) | Specifies the value type of [ShapePathPoint](../com.aspose.cells/shapepathpoint) object |
 | [ShapePathType](../com.aspose.cells/shapepathtype) | Represents path segment type. |
 | [ShapePropertyCollection](../com.aspose.cells/shapepropertycollection) | This class specifies the visual shape properties for a chart element or shape. |
 | [ShapeSegmentPath](../com.aspose.cells/shapesegmentpath) | Represents a segment path in a path of the freeform. |

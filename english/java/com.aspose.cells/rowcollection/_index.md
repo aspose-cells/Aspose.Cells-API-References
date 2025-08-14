@@ -154,7 +154,7 @@ Gets an enumerator that iterates rows through this collection
 ```
 
 **Returns:**
-java.util.Iterator - enumerator
+java.util.Iterator - The row enumerator which will traverse all existing rows in this collection.
 ### iterator(boolean reversed, boolean sync) {#iterator-boolean-boolean-}
 ```
 public Iterator iterator(boolean reversed, boolean sync)
@@ -174,7 +174,7 @@ If the row collection will be modified(by operations that may cause new Row be i
 | sync | boolean | whether the returned enumerator should check the modification of row collection and keep synchronized with it. |
 
 **Returns:**
-java.util.Iterator - The row enumerator
+java.util.Iterator - The row enumerator which will traverse all existing rows in this collection.
 ### notify() {#notify--}
 ```
 public final native void notify()

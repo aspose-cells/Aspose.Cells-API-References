@@ -33,8 +33,8 @@ class MarkdownSaveOptions extends SaveOptions;
 | [tableHeaderType](#tableHeaderType--)| MarkdownTableHeaderType | Gets and sets how set the header of the table. |
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [imageOptions](#imageOptions--)| ImageOrPrintOptions | Readonly. Get the ImageOrPrintOptions object before exporting |
-| [exportImagesAsBase64](#exportImagesAsBase64--)| boolean | Specifies whether images are saved in Base64 format to Markdown. |
-| [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving html file. |
+| [exportImagesAsBase64](#exportImagesAsBase64--)| boolean | Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
+| [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving markdown file. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -66,10 +66,10 @@ class MarkdownSaveOptions extends SaveOptions;
 | [getSheetSet()](#getSheetSet--)| <b>@deprecated.</b> Please use the 'sheetSet' property instead. Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| <b>@deprecated.</b> Please use the 'sheetSet' property instead. Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [getImageOptions()](#getImageOptions--)| <b>@deprecated.</b> Please use the 'imageOptions' property instead. Get the ImageOrPrintOptions object before exporting |
-| [getExportImagesAsBase64()](#getExportImagesAsBase64--)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. |
-| [setExportImagesAsBase64(boolean)](#setExportImagesAsBase64-boolean-)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. |
-| [getCalculateFormula()](#getCalculateFormula--)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file. |
-| [setCalculateFormula(boolean)](#setCalculateFormula-boolean-)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file. |
+| [getExportImagesAsBase64()](#getExportImagesAsBase64--)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
+| [setExportImagesAsBase64(boolean)](#setExportImagesAsBase64-boolean-)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
+| [getCalculateFormula()](#getCalculateFormula--)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file. |
+| [setCalculateFormula(boolean)](#setCalculateFormula-boolean-)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -189,7 +189,7 @@ imageOptions : ImageOrPrintOptions;
 
 ### exportImagesAsBase64 {#exportImagesAsBase64--}
 
-Specifies whether images are saved in Base64 format to Markdown.
+Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 ```javascript
 exportImagesAsBase64 : boolean;
@@ -202,7 +202,7 @@ When this property is set to true image data is exported directly on the img ele
 
 ### calculateFormula {#calculateFormula--}
 
-Indicates whether to calculate formulas before saving html file.
+Indicates whether to calculate formulas before saving markdown file.
 
 ```javascript
 calculateFormula : boolean;
@@ -529,7 +529,7 @@ getImageOptions() : ImageOrPrintOptions;
 
 ### getExportImagesAsBase64() {#getExportImagesAsBase64--}
 
-<b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown.
+<b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 ```javascript
 getExportImagesAsBase64() : boolean;
@@ -542,7 +542,7 @@ When this property is set to true image data is exported directly on the img ele
 
 ### setExportImagesAsBase64(boolean) {#setExportImagesAsBase64-boolean-}
 
-<b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown.
+<b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. The default value is true.
 
 ```javascript
 setExportImagesAsBase64(value: boolean) : void;
@@ -559,7 +559,7 @@ When this property is set to true image data is exported directly on the img ele
 
 ### getCalculateFormula() {#getCalculateFormula--}
 
-<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file.
+<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file.
 
 ```javascript
 getCalculateFormula() : boolean;
@@ -572,7 +572,7 @@ The default value is false.
 
 ### setCalculateFormula(boolean) {#setCalculateFormula-boolean-}
 
-<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving html file.
+<b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file.
 
 ```javascript
 setCalculateFormula(value: boolean) : void;

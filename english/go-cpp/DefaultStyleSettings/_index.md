@@ -29,8 +29,8 @@ type DefaultStyleSettings struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetBuiltInPreference](./getbuiltinpreference/) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern.Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. | 
-|[SetBuiltInPreference](./setbuiltinpreference/) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern.Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. | 
+|[GetBuiltInPreference](./getbuiltinpreference/) | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern.Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. | 
+|[SetBuiltInPreference](./setbuiltinpreference/) | Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern.Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. | 
 |[GetFontName](./getfontname/) | Gets/Sets the default font name for the workbook | 
 |[SetFontName](./setfontname/) | Gets/Sets the default font name for the workbook | 
 |[GetFontSize](./getfontsize/) | Gets/Sets the default standard font size for the workbook. | 

@@ -31,22 +31,7 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create template workbook and save to file
-            Workbook templateWorkbook = new Workbook();
-            templateWorkbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-            templateWorkbook.Save("template.xlsx", SaveFormat.Xlsx);
-
-            try
-            {
-                // Convert template.xlsx to result.xlsb
-                SpreadsheetConverter.Process("template.xlsx", "result.xlsb");
-                
-                Console.WriteLine("Process method completed successfully. File converted to XLSB format.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error during conversion: {ex.Message}");
-            }
+            SpreadsheetConverter.Process("file1.xlsx", "SpreadsheetConverterMethodProcessWithStringStringDemo.xlsb");
         }
     }
 }
@@ -86,32 +71,16 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a sample input file
-            using (Workbook workbook = new Workbook())
-            {
-                workbook.Worksheets[0].Cells["A1"].PutValue("Process Method Demo");
-                workbook.Save("LowCodeInput.xlsx");
-            }
+            // Create load options with input file
+            LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
+            loadOptions.InputFile = "file1.xlsx";
 
-            try
-            {
-                // Create load options with input file
-                LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
-                typeof(LowCodeLoadOptions).GetProperty("FileName").SetValue(loadOptions, "LowCodeInput.xlsx");
+            // Create save options with output file
+            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
+            saveOptions.OutputFile = "SpreadsheetConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo.xlsx";
 
-                // Create save options with output file
-                LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
-                typeof(LowCodeSaveOptions).GetProperty("FileName").SetValue(saveOptions, "LowCodeOutput.xlsb");
-
-                // Execute conversion
-                SpreadsheetConverter.Process(loadOptions, saveOptions);
-
-                Console.WriteLine("Process method executed. Output saved to LowCodeOutput.xlsb");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing Process method: {ex.Message}");
-            }
+            // Execute conversion
+            SpreadsheetConverter.Process(loadOptions, saveOptions);
         }
     }
 }

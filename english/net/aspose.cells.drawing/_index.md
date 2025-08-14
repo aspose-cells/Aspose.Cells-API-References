@@ -68,7 +68,7 @@ The **Aspose.Cells.Drawing** namespace provides classes that allow to create and
 | [ShapeGuideCollection](./shapeguidecollection/) | Encapsulates a collection of shape guide |
 | [ShapePath](./shapepath/) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 | [ShapePathCollection](./shapepathcollection/) | Represents path collection information in NotPrimitive autoshape |
-| [ShapePathPoint](./shapepathpoint/) | Represents an x-y coordinate within the path coordinate space. |
+| [ShapePathPoint](./shapepathpoint/) | Specify position coordinates or angle markers. Position coordinates represent the coordinates of a path in a coordinate space (e.g. X/Y). Angle markers indicate angular changes in a path (e.g. the start and swing angles of an arc). |
 | [ShapePathPointCollection](./shapepathpointcollection/) | Represents all shape path points. |
 | [ShapePropertyCollection](./shapepropertycollection/) | This class specifies the visual shape properties for a chart element or shape. |
 | [ShapeSegmentPath](./shapesegmentpath/) | Represents a segment path in a path of the freeform. |
@@ -131,6 +131,7 @@ The **Aspose.Cells.Drawing** namespace provides classes that allow to create and
 | [SelectionType](./selectiontype/) | The selection type of list box. |
 | [ShapeAnchorType](./shapeanchortype/) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype/) | Represents type of the property to be locked. |
+| [ShapePathPointValueType](./shapepathpointvaluetype/) | Specifies the value type of [`ShapePathPoint`](../aspose.cells.drawing/shapepathpoint/) object |
 | [ShapePathType](./shapepathtype/) | Represents path segment type. |
 | [SignatureType](./signaturetype/) | Specifies the signature type. |
 | [TextOverflowType](./textoverflowtype/) | Represents the way the text vertical or horizontal overflow. |

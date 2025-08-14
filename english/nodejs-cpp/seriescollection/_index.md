@@ -88,6 +88,7 @@ workbook.save("output/ChartsSeriesCollection.xls");
 | [add(string, boolean)](#add-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [add(string, boolean, boolean)](#add-string-boolean-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [clear()](#clear--)| Clears the collection |
+| [changeColors(ChartColorPaletteType)](#changeColors-chartcolorpalettetype-)| Set Monochromatic Palette for chart series. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -358,6 +359,19 @@ Clears the collection
 clear() : void;
 ```
 
+
+### changeColors(ChartColorPaletteType) {#changeColors-chartcolorpalettetype-}
+
+Set Monochromatic Palette for chart series.
+
+```javascript
+changeColors(type: ChartColorPaletteType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [ChartColorPaletteType](../chartcolorpalettetype/) | The Monochromatic Type. |
 
 ### getCount() {#getCount--}
 

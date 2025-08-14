@@ -241,6 +241,7 @@ is_root: true
 | [LowCodeSaveOptionsProviderOfAssembling](./lowcodesaveoptionsproviderofassembling) | Implementation to provide save options which save split parts to files and the path of resultant file are named as(it may contains directories): [PathHeader](../nodejs-cpp/pathheader/)+[SheetPrefix](../nodejs-cpp/sheetprefix/)+SheetIndex(or SheetName) +[SplitPartPrefix](../nodejs-cpp/splitpartprefix/)+SplitPartIndex+[PathTail](../nodejs-cpp/pathtail/). |
 | [LowCodeSaveOptionsProviderOfPlaceHolders](./lowcodesaveoptionsproviderofplaceholders) | Implementation to provide save options which save split parts to files and the path of resultant file are defined with placeholders. |
 | [LowCodeSplitOptions](./lowcodesplitoptions) | Options for splitting spreadsheet. |
+| [MarkdownLoadOptions](./markdownloadoptions) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Represents the save options for markdown. |
 | [Marker](./marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
 | [MathematicalEquationNode](./mathematicalequationnode) | This class specifies an equation or mathematical expression. All mathematical text of equations or mathematical expressions are contained by this class. |
@@ -385,7 +386,7 @@ is_root: true
 | [ShapeGuideCollection](./shapeguidecollection) | Encapsulates a collection of shape guide |
 | [ShapePath](./shapepath) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 | [ShapePathCollection](./shapepathcollection) | Represents path collection information in NotPrimitive autoshape |
-| [ShapePathPoint](./shapepathpoint) | Represents an x-y coordinate within the path coordinate space. |
+| [ShapePathPoint](./shapepathpoint) | Specify position coordinates or angle markers. Position coordinates represent the coordinates of a path in a coordinate space (e.g. X/Y). Angle markers indicate angular changes in a path (e.g. the start and swing angles of an arc). |
 | [ShapePathPointCollection](./shapepathpointcollection) | Represents all shape path points. |
 | [ShapePropertyCollection](./shapepropertycollection) | This class specifies the visual shape properties for a chart element or shape. |
 | [ShapeSegmentPath](./shapesegmentpath) | Represents a segment path in a path of the freeform. |
@@ -550,6 +551,7 @@ is_root: true
 | [CellsUnitType](./cellsunittype) | Specifies the unit of measurement. |
 | [CellValueFormatStrategy](./cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](./cellvaluetype) | Specifies a cell value type. |
+| [ChartColorPaletteType](./chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in Excel chart. |
 | [ChartLineFormattingType](./chartlineformattingtype) | Represents line format type of chart line. |
 | [ChartMarkerType](./chartmarkertype) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartSplitType](./chartsplittype) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. |
@@ -751,6 +753,7 @@ is_root: true
 | [SensitivityLabelMarkType](./sensitivitylabelmarktype) | Represents the types of content marking that ought to be applied to a file. |
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |
+| [ShapePathPointValueType](./shapepathpointvaluetype) | Specifies the value type of [ShapePathPoint](../nodejs-cpp/shapepathpoint/) object |
 | [ShapePathType](./shapepathtype) | Represents path segment type. |
 | [ShapeTextVerticalAlignmentType](./shapetextverticalalignmenttype) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. |
 | [SheetType](./sheettype) | Specifies the worksheet type. |

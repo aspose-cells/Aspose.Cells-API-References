@@ -63,8 +63,8 @@ type OdsLoadOptions struct  {
 |[SetKeepUnparsedData](./setkeepunparseddata/) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. | 
 |[GetLoadFilter](./getloadfilter/) | The filter to denote how to load data. | 
 |[SetLoadFilter](./setloadfilter/) | The filter to denote how to load data. | 
-|[GetMemorySetting](./getmemorysetting/) | Gets or sets the memory usage options. | 
-|[SetMemorySetting](./setmemorysetting/) | Gets or sets the memory usage options. | 
+|[GetMemorySetting](./getmemorysetting/) | Gets or sets the memory mode for loaded workbook. | 
+|[SetMemorySetting](./setmemorysetting/) | Gets or sets the memory mode for loaded workbook. | 
 |[GetAutoFitterOptions](./getautofitteroptions/) | Gets and sets the auto fitter options | 
 |[SetAutoFitterOptions](./setautofitteroptions/) | Gets and sets the auto fitter options | 
 |[GetAutoFilter](./getautofilter/) | Indicates whether auto filtering the data when loading the files. | 

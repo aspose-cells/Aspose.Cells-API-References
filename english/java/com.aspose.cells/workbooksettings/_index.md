@@ -71,6 +71,7 @@ Represents all settings of the workbook.
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [getShowTabs()](#getShowTabs--) | Gets a value whether the Workbook tabs are displayed. |
 | [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
+| [getSmartTagOptions()](#getSmartTagOptions--) | Gets the options of the smart tag. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the stream provider for external resource. |
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--) | Indicates whether update adjacent cells' border. |
@@ -492,6 +493,10 @@ Gets the memory usage options. The new option will be taken as the default optio
 
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
+**Remarks**
+
+For more details about memory mode, please see [Cells.getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--).
+
 **Returns:**
 int
 ### getNumberDecimalSeparator() {#getNumberDecimalSeparator--}
@@ -681,6 +686,16 @@ Only could be 15 or 17 now.
 
 **Returns:**
 int
+### getSmartTagOptions() {#getSmartTagOptions--}
+```
+public SmartTagOptions getSmartTagOptions()
+```
+
+
+Gets the options of the smart tag.
+
+**Returns:**
+[SmartTagOptions](../../com.aspose.cells/smarttagoptions)
 ### getStreamProvider() {#getStreamProvider--}
 ```
 public IStreamProvider getStreamProvider()
@@ -1361,6 +1376,10 @@ public void setMemorySetting(int value)
 Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
 
 See [MemorySetting](../../com.aspose.cells/memorysetting).
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--).
 
 **Parameters:**
 | Parameter | Type | Description |

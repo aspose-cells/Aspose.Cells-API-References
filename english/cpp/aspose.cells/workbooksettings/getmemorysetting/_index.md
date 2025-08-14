@@ -4,7 +4,7 @@ linktitle: GetMemorySetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetMemorySetting method. Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets in C++.'
 type: docs
-weight: 10600
+weight: 10700
 url: /cpp/aspose.cells/workbooksettings/getmemorysetting/
 ---
 ## WorkbookSettings::GetMemorySetting method
@@ -16,6 +16,10 @@ Gets or sets the memory usage options. The new option will be taken as the defau
 MemorySetting Aspose::Cells::WorkbookSettings::GetMemorySetting()
 ```
 
+## Remarks
+
+
+For more details about memory mode, please see [Cells.MemorySetting](../../memorysetting/). 
 ## See Also
 
 * Enum [MemorySetting](../../memorysetting/)

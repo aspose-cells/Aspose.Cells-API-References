@@ -2,7 +2,7 @@
 title: Aspose::Cells::DefaultStyleSettings::SetBuiltInPreference method
 linktitle: SetBuiltInPreference
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::DefaultStyleSettings::SetBuiltInPreference method. Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style in C++.'
+description: 'Aspose::Cells::DefaultStyleSettings::SetBuiltInPreference method. Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells/defaultstylesettings/setbuiltinpreference/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/defaultstylesettings/setbuiltinpreference/
 ## DefaultStyleSettings::SetBuiltInPreference method
 
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```cpp
 void Aspose::Cells::DefaultStyleSettings::SetBuiltInPreference(bool value)

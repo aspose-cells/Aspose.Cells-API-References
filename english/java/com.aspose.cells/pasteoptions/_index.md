@@ -25,6 +25,7 @@ Represents the paste special options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIgnoreLinksToOriginalFile()](#getIgnoreLinksToOriginalFile--) | Ingore links to the original file. |
+| [getKeepOldTables()](#getKeepOldTables--) | Keeps the tables in the destination range. |
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--) | True means only copying visible cells. |
 | [getOperationType()](#getOperationType--) | Gets the operation type when pasting range. |
 | [getPasteType()](#getPasteType--) | The paste special type. |
@@ -34,6 +35,7 @@ Represents the paste special options.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setIgnoreLinksToOriginalFile(boolean value)](#setIgnoreLinksToOriginalFile-boolean-) | Ingore links to the original file. |
+| [setKeepOldTables(boolean value)](#setKeepOldTables-boolean-) | Keeps the tables in the destination range. |
 | [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | True means only copying visible cells. |
 | [setOperationType(int value)](#setOperationType-int-) | Sets the operation type when pasting range. |
 | [setPasteType(int value)](#setPasteType-int-) | The paste special type. |
@@ -81,6 +83,16 @@ public boolean getIgnoreLinksToOriginalFile()
 
 
 Ingore links to the original file.
+
+**Returns:**
+boolean
+### getKeepOldTables() {#getKeepOldTables--}
+```
+public boolean getKeepOldTables()
+```
+
+
+Keeps the tables in the destination range.
 
 **Returns:**
 boolean
@@ -171,6 +183,19 @@ public void setIgnoreLinksToOriginalFile(boolean value)
 
 
 Ingore links to the original file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setKeepOldTables(boolean value) {#setKeepOldTables-boolean-}
+```
+public void setKeepOldTables(boolean value)
+```
+
+
+Keeps the tables in the destination range.
 
 **Parameters:**
 | Parameter | Type | Description |

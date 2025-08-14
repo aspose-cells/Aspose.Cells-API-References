@@ -321,6 +321,10 @@ memorySetting : MemorySetting;
 ```
 
 
+**Remarks**
+
+Notable limits and recommended operations for some modes: <list type="table"> <listheader> <description>Mode</description> <description>Remarks</description> <description>Supported</description> </listheader> <item> <description>[MemorySetting.MemoryPreference](../memorysetting.memorypreference/)</description> <description>Cells data will be maintained in compact format to decrease the memory cost. On other hand, the compact data also may cause higher time cost, especially when updating the cells data, or accessing cells/rows randomly</description> <description>v8.0.0</description> </item> <item> <description>[MemorySetting.FileCache](../memorysetting.filecache/)</description> <description> When this mode is used for any worksheet in one workbook, [Workbook.Dispose()](../workbook.dispose()/) should be called at the end of work to release all resources such as the temporary files. <br></br> Randomly accessing cells will give poor performance because data needs to be read/updated randomly and repeatedly(so the pointer in the file will be changed accordingly and IO operations will be required repeatedly). If possible, please always access the data sequentially(row by row). <br></br> When the data of one row/cell be changed, data of other cells/rows may also be influenced(such as the data be shifted/moved to other places to allocated enough spaces for the changed data). So every change of every data requires synchronization of other existing objects( such as Row or Cell object). So, to get better performance, please do not maintain multiple Rows/Cells at the same time. Processing them one by one will reduce the data synchronization for them so the performance can be improved a bit. </description> <description>v25.7</description> </item> </list
+
 ### style {#style--}
 
 Gets and sets the default style of the worksheet.
@@ -721,6 +725,10 @@ getMemorySetting() : MemorySetting;
 
 [MemorySetting](../memorysetting/)
 
+**Remarks**
+
+Notable limits and recommended operations for some modes: <list type="table"> <listheader> <description>Mode</description> <description>Remarks</description> <description>Supported</description> </listheader> <item> <description>[MemorySetting.MemoryPreference](../memorysetting.memorypreference/)</description> <description>Cells data will be maintained in compact format to decrease the memory cost. On other hand, the compact data also may cause higher time cost, especially when updating the cells data, or accessing cells/rows randomly</description> <description>v8.0.0</description> </item> <item> <description>[MemorySetting.FileCache](../memorysetting.filecache/)</description> <description> When this mode is used for any worksheet in one workbook, [Workbook.Dispose()](../workbook.dispose()/) should be called at the end of work to release all resources such as the temporary files. <br></br> Randomly accessing cells will give poor performance because data needs to be read/updated randomly and repeatedly(so the pointer in the file will be changed accordingly and IO operations will be required repeatedly). If possible, please always access the data sequentially(row by row). <br></br> When the data of one row/cell be changed, data of other cells/rows may also be influenced(such as the data be shifted/moved to other places to allocated enough spaces for the changed data). So every change of every data requires synchronization of other existing objects( such as Row or Cell object). So, to get better performance, please do not maintain multiple Rows/Cells at the same time. Processing them one by one will reduce the data synchronization for them so the performance can be improved a bit. </description> <description>v25.7</description> </item> </list
+
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
 <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage option for this cells.
@@ -733,6 +741,10 @@ setMemorySetting(value: MemorySetting) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MemorySetting](../memorysetting/) | The value to set. |
+
+**Remarks**
+
+Notable limits and recommended operations for some modes: <list type="table"> <listheader> <description>Mode</description> <description>Remarks</description> <description>Supported</description> </listheader> <item> <description>[MemorySetting.MemoryPreference](../memorysetting.memorypreference/)</description> <description>Cells data will be maintained in compact format to decrease the memory cost. On other hand, the compact data also may cause higher time cost, especially when updating the cells data, or accessing cells/rows randomly</description> <description>v8.0.0</description> </item> <item> <description>[MemorySetting.FileCache](../memorysetting.filecache/)</description> <description> When this mode is used for any worksheet in one workbook, [Workbook.Dispose()](../workbook.dispose()/) should be called at the end of work to release all resources such as the temporary files. <br></br> Randomly accessing cells will give poor performance because data needs to be read/updated randomly and repeatedly(so the pointer in the file will be changed accordingly and IO operations will be required repeatedly). If possible, please always access the data sequentially(row by row). <br></br> When the data of one row/cell be changed, data of other cells/rows may also be influenced(such as the data be shifted/moved to other places to allocated enough spaces for the changed data). So every change of every data requires synchronization of other existing objects( such as Row or Cell object). So, to get better performance, please do not maintain multiple Rows/Cells at the same time. Processing them one by one will reduce the data synchronization for them so the performance can be improved a bit. </description> <description>v25.7</description> </item> </list
 
 ### getStyle() {#getStyle--}
 

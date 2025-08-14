@@ -56,7 +56,7 @@ namespace AsposeCellsExamples
             ChartArea chartArea = chart.ChartArea;
             
             // Set chart area font properties
-            Font font = chartArea.Font;
+            Aspose.Cells.Font font = chartArea.Font;
             font.Name = "Tahoma";
             font.Size = 10;
             font.Color = Color.Blue;

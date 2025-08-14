@@ -1,13 +1,13 @@
 ---
 title: ShapePath.LineTo
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePath method. Appends a line segment to the current figure. The starting point is the end point of the current figure
+description: ShapePath method. Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit Pixel
 type: docs
 url: /net/aspose.cells.drawing/shapepath/lineto/
 ---
 ## ShapePath.LineTo method
 
-Appends a line segment to the current figure. The starting point is the end point of the current figure.
+Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```csharp
 public void LineTo(float x, float y)

@@ -10,12 +10,16 @@ url: /net/aspose.cells/workbookdesigner/linebyline/
 Indicates whether processing the smart marker line by line.
 
 ```csharp
+[Obsolete("Use range smart markers instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool LineByLine { get; set; }
 ```
 
 ### Remarks
 
 The default value is true. If False, the template file must contain a range which is named as "_CellsSmartMarkers".
+
+NOTE: This class is now obsolete. Instead, please use range smart markers. This property will be removed 12 months later since July 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

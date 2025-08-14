@@ -1,13 +1,13 @@
 ---
 title: ShapePath.CubicBezierTo
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePath method. Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure
+description: ShapePath method. Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit Pixel
 type: docs
 url: /net/aspose.cells.drawing/shapepath/cubicbezierto/
 ---
 ## ShapePath.CubicBezierTo method
 
-Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.
+Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```csharp
 public void CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, float endX, 

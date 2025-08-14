@@ -10,7 +10,7 @@ url: /go-cpp/markdownsaveoptions/getexportimagesasbase64/
 
 ## GetExportImagesAsBase64 function
 
-Specifies whether images are saved in Base64 format to Markdown.
+Specifies whether images are saved in Base64 format to Markdown.The default value is true.
 
 ```go
 

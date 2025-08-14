@@ -1,0 +1,27 @@
+---
+title: GetHasFormula Method 
+linktitle: GetHasFormula
+second_title: Aspose.Cells for Go via C++ API Reference
+description: 'GetHasFormula method. Encapsulates the function that represents gethasformula in Go.'
+type: docs
+weight: 200
+url: /go-cpp/markdownloadoptions/gethasformula/
+---
+
+## GetHasFormula function
+
+Indicates whether the text is formula if it starts with "=".
+
+```go
+
+func (instance *MarkdownLoadOptions) GetHasFormula()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [MarkdownLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

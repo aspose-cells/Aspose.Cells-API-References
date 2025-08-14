@@ -4,7 +4,7 @@ linktitle: SetCrashSave
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetCrashSave method. indicates whether the application last saved the workbook file after a crash in C++.'
 type: docs
-weight: 9900
+weight: 10000
 url: /cpp/aspose.cells/workbooksettings/setcrashsave/
 ---
 ## WorkbookSettings::SetCrashSave method

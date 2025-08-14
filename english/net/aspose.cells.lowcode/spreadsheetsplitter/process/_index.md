@@ -37,9 +37,11 @@ namespace AsposeCellsExamples
         {
             // Create a new workbook with multiple worksheets
             Workbook templateWorkbook = new Workbook();
-            templateWorkbook.Worksheets.Add("SalesData");
-            templateWorkbook.Worksheets.Add("Inventory");
-            
+            Worksheet sheet1 = templateWorkbook.Worksheets.Add("SalesData");
+            sheet1.Cells["A1"].PutValue("Product");
+            Worksheet sheet2 = templateWorkbook.Worksheets.Add("Inventory");
+            sheet2.Cells["A1"].PutValue("test data");
+
             // Save as template file
             string templatePath = "SplitterTemplate.xlsx";
             templateWorkbook.Save(templatePath, SaveFormat.Xlsx);
@@ -98,22 +100,12 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create source workbook with multiple worksheets
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.Add("SalesData");
-            workbook.Worksheets.Add("Inventory");
-            string sourcePath = "source_split.xlsx";
-            workbook.Save(sourcePath);
-
-            // Configure output directory
-            string outputDir = "split_output";
-            Directory.CreateDirectory(outputDir);
 
             // Initialize split options
             LowCodeSplitOptions splitOptions = new LowCodeSplitOptions
             {
-                LoadOptions = new LowCodeLoadOptions { /* Set source file through load options if available */ },
-                SaveOptions = new LowCodeSaveOptions { /* Set output directory through save options if available */ }
+                LoadOptions = new LowCodeLoadOptions { InputFile = "split.xlsx" },
+                SaveOptionsProvider = new CustomLowCodeSaveOptionsProvider()
             };
 
             try
@@ -121,12 +113,35 @@ namespace AsposeCellsExamples
                 // Execute spreadsheet splitting using static method
                 SpreadsheetSplitter.Process(splitOptions);
                 
-                Console.WriteLine($"Spreadsheet split successfully. Check directory: {Path.GetFullPath(outputDir)}");
+                Console.WriteLine($"Spreadsheet split successfully.");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Split operation failed: {ex.Message}");
             }
+        }
+    }
+
+    // Concrete implementation of AbstractLowCodeSaveOptionsProvider
+    public class CustomLowCodeSaveOptionsProvider : AbstractLowCodeSaveOptionsProvider
+    {
+        public override void Finish(LowCodeSaveOptions part)
+        {
+            base.Finish(part);
+        }
+        // Implement the required abstract method
+        public override LowCodeSaveOptions GetSaveOptions(SplitPartInfo partInfo)
+        {
+            if (partInfo == null)
+            {
+                throw new ArgumentNullException(nameof(partInfo));
+            }
+
+            LowCodeSaveOptions result = new LowCodeSaveOptions();
+            result.SaveFormat = SaveFormat.Xlsx;
+            result.OutputFile = partInfo.SheetName + "_split.xlsx";
+            Console.WriteLine(result.OutputFile);
+            return result;
         }
     }
 }

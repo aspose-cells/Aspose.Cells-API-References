@@ -1,15 +1,17 @@
 ---
 title: ShapePathPointCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePathPointCollection method. Adds a path point
+description: ShapePathPointCollection method. Adds a path point in unit of EMUs
 type: docs
 url: /net/aspose.cells.drawing/shapepathpointcollection/add/
 ---
 ## ShapePathPointCollection.Add method
 
-Adds a path point.
+Adds a path point in unit of EMUs.
 
 ```csharp
+[Obsolete("Use the MoveTo,LineTo,CubicBezierTo and ArcTo methods in ShapePath instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(int x, int y)
 ```
 
@@ -17,6 +19,10 @@ public int Add(int x, int y)
 | --- | --- | --- |
 | x | Int32 | The x coordinate. |
 | y | Int32 | The y coordinate. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use the MoveTo,LineTo,CubicBezierTo and ArcTo methods in ShapePath. This method will be removed 12 months later since August 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

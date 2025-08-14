@@ -33,9 +33,9 @@ public class ShapePath
 | --- | --- |
 | [ArcTo](../../aspose.cells.drawing/shapepath/arcto/)(float, float, float, float) | Appends an elliptical arc to the current figure. The starting point is the end point of the current figure. |
 | [Close](../../aspose.cells.drawing/shapepath/close/)() | Closes the current figure and starts a new figure. If the current figure contains a sequence of connected lines and curves, the method closes the loop by connecting a line from the endpoint to the starting point. |
-| [CubicBezierTo](../../aspose.cells.drawing/shapepath/cubicbezierto/)(float, float, float, float, float, float) | Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure. |
-| [LineTo](../../aspose.cells.drawing/shapepath/lineto/)(float, float) | Appends a line segment to the current figure. The starting point is the end point of the current figure. |
-| [MoveTo](../../aspose.cells.drawing/shapepath/moveto/)(float, float) | Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. |
+| [CubicBezierTo](../../aspose.cells.drawing/shapepath/cubicbezierto/)(float, float, float, float, float, float) | Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |
+| [LineTo](../../aspose.cells.drawing/shapepath/lineto/)(float, float) | Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |
+| [MoveTo](../../aspose.cells.drawing/shapepath/moveto/)(float, float) | Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel. |
 
 ### Examples
 

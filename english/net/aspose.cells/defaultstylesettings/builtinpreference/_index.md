@@ -1,13 +1,13 @@
 ---
 title: DefaultStyleSettings.BuiltInPreference
 second_title: Aspose.Cells for .NET API Reference
-description: DefaultStyleSettings property. Indicates whether property for number format is preferrable when the style defines both builtin number and custom pattern. Default value is false that means by default custom pattern will be used to format values as long as it is not empty for one style
+description: DefaultStyleSettings property. Indicates whether property for number format is preferable when the style defines both builtin number and custom pattern. Default value is false that means by default custom pattern will be used to format values as long as it is not empty for one style
 type: docs
 url: /net/aspose.cells/defaultstylesettings/builtinpreference/
 ---
 ## DefaultStyleSettings.BuiltInPreference property
 
-Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+Indicates whether property for number format is preferable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
 
 ```csharp
 public bool BuiltInPreference { get; set; }

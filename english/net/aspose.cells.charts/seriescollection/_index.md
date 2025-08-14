@@ -35,6 +35,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series, IComparer&lt;Series&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Series, IComparer&lt;Series&gt;) |  |
+| [ChangeColors](../../aspose.cells.charts/seriescollection/changecolors/)(ChartColorPaletteType) | Set Monochromatic Palette for chart series. |
 | [ChangeSeriesOrder](../../aspose.cells.charts/seriescollection/changeseriesorder/)(int, int) | (**Obsolete.**) Directly changes the orders of the two series. |
 | [Clear](../../aspose.cells.charts/seriescollection/clear/#clear)() | Clears the collection (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(Series) |  |

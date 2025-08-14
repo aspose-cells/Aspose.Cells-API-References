@@ -27,8 +27,9 @@ public class WorkbookDesigner
 | [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula/) { get; set; } | Indicates whether formulas should be calculated. |
 | [CallBack](../../aspose.cells/workbookdesigner/callback/) { get; set; } | Gets and sets callback interface of processing smartmarker. |
 | [ContainsVariables](../../aspose.cells/workbookdesigner/containsvariables/) { get; set; } | Indicates whether the first worksheet contains custom variables. |
-| [LineByLine](../../aspose.cells/workbookdesigner/linebyline/) { get; set; } | Indicates whether processing the smart marker line by line. |
+| [LineByLine](../../aspose.cells/workbookdesigner/linebyline/) { get; set; } | (**Obsolete.**) Indicates whether processing the smart marker line by line. |
 | [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal/) { get; set; } | Indicates whether repeating formulas with subtotal row. |
+| [SortDataSource](../../aspose.cells/workbookdesigner/sortdatasource/) { get; set; } | Indicates whether sorting data source. |
 | [UpdateEmptyStringAsNull](../../aspose.cells/workbookdesigner/updateemptystringasnull/) { get; set; } | If TRUE, Null will be inserted if the value is ""; |
 | [UpdateReference](../../aspose.cells/workbookdesigner/updatereference/) { get; set; } | Indicates if references in other worksheets will be updated. |
 | [Workbook](../../aspose.cells/workbookdesigner/workbook/) { get; set; } | Gets and sets the [`Workbook`](./workbook/) object. |
@@ -42,7 +43,7 @@ public class WorkbookDesigner
 | [Process](../../aspose.cells/workbookdesigner/process/#process)() | Processes the smart markers and populates the data source values. |
 | [Process](../../aspose.cells/workbookdesigner/process/#process_2)(bool) | Processes the smart markers and populates the data source values. |
 | [Process](../../aspose.cells/workbookdesigner/process/#process_3)(int, bool) | Processes the smart markers and populates the data source values. |
-| [Process](../../aspose.cells/workbookdesigner/process/#process_1)(Range, bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process/#process_1)(Range, bool) | (**Obsolete.**) Processes the smart markers and populates the data source values. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource)(DataSet) | Sets data source of a DataSet object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_1)(DataTable) | Sets data source of a DataTable object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_2)(DataView) | Sets data source of a DataView object. |
@@ -52,7 +53,7 @@ public class WorkbookDesigner
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_5)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable/) object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_8)(string, object) | Sets data binding to a variable. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_7)(string, IDataReader, int) | Sets data source of a IDataReader object. |
-| [SetJsonDataSource](../../aspose.cells/workbookdesigner/setjsondatasource/)(string, string) |  |
+| [SetJsonDataSource](../../aspose.cells/workbookdesigner/setjsondatasource/)(string, string) | Set json string value as data source of smart markers. |
 
 ### Examples
 

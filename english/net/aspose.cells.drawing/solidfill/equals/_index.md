@@ -32,8 +32,8 @@ namespace AsposeCellsExamples
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            Shape shape1 = worksheet.Shapes.AddRectangle(0, 0, 100, 100, 200, 200);
-            Shape shape2 = worksheet.Shapes.AddRectangle(0, 0, 100, 100, 200, 200);
+            Shape shape1 = worksheet.Shapes.AddRectangle(3, 0, 3, 0, 200, 200);
+            Shape shape2 = worksheet.Shapes.AddRectangle(3, 0, 3, 0, 200, 200);
 
             try
             {

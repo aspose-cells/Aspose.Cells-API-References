@@ -32,24 +32,36 @@ namespace AsposeCellsExamples
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sparklines to the worksheet
-            SparklineGroupCollection sparklineGroups = worksheet.SparklineGroups;
-            int groupIndex = sparklineGroups.Add(SparklineType.Line, "A1:A5", false, CellArea.CreateCellArea(0, 0, 4, 0));
-            
-            // Create cell area to clear sparkline groups
-            CellArea cellArea = CellArea.CreateCellArea(0, 0, 4, 0);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
+
+            // Define the CellArea for the sparkline
+            CellArea ca = new CellArea
+            {
+                StartColumn = 4,
+                EndColumn = 4,
+                StartRow = 0,
+                EndRow = 0
+            };
+
+            // Add a sparkline group to the worksheet
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
+
 
             try
             {
                 // Call the ClearSparklineGroups method with CellArea parameter
-                sparklineGroups.ClearSparklineGroups(cellArea);
+                sheet.SparklineGroups.ClearSparklineGroups(ca);
                 
                 Console.WriteLine("Sparkline groups cleared successfully for the specified cell area.");
                 
                 // Verify the sparkline groups count after clearing
-                Console.WriteLine($"Remaining sparkline groups count: {sparklineGroups.Count}");
+                Console.WriteLine($"Remaining sparkline groups count: {sheet.SparklineGroups.Count}");
             }
             catch (Exception ex)
             {

@@ -1,17 +1,23 @@
 ---
 title: ShapePathPoint.X
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePathPoint property. Gets and sets x coordinate for this position coordinate
+description: ShapePathPoint property. Gets and sets x coordinate for this position coordinate. Unit EMUs
 type: docs
 url: /net/aspose.cells.drawing/shapepathpoint/x/
 ---
 ## ShapePathPoint.X property
 
-Gets and sets x coordinate for this position coordinate.
+Gets and sets x coordinate for this position coordinate. Unit EMUs.
 
 ```csharp
+[Obsolete("Use ShapePathPoint.XPixel and ShapePathPoint.XAngle properties instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int X { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use ShapePathPoint.XPixel and ShapePathPoint.XAngle properties. This property will be removed 12 months later since August 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

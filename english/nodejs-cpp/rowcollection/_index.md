@@ -81,7 +81,7 @@ getEnumerator() : RowEnumerator;
 
 **Returns**
 
-enumerator
+The row enumerator which will traverse all existing rows in this collection.
 
 ### getEnumerator(boolean, boolean) {#getEnumerator-boolean-boolean-}
 
@@ -99,7 +99,7 @@ getEnumerator(reversed: boolean, sync: boolean) : RowEnumerator;
 
 **Returns**
 
-The row enumerator
+The row enumerator which will traverse all existing rows in this collection.
 
 **Remarks**
 

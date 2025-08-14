@@ -77,6 +77,7 @@ namespace AsposeCellsExamples
             worksheet.Cells["B1"].PutValue(2);
             worksheet.Cells["C1"].PutValue(1);
             worksheet.Cells["D1"].PutValue(3);
+            
 
             // Define the CellArea where the sparklines will be added
             CellArea cellArea = new CellArea { StartColumn = 4, EndColumn = 4, StartRow = 0, EndRow = 0 };
@@ -85,8 +86,13 @@ namespace AsposeCellsExamples
             int sparklineGroupIndex = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, cellArea);
             SparklineGroup sparklineGroup = worksheet.SparklineGroups[sparklineGroupIndex];
 
+            SparklineCollection sparklineCollection = sparklineGroup.Sparklines;
+            Console.WriteLine("Sparkline count: " + sparklineCollection.Count);
+
             // Add sparklines to the SparklineGroup
-            sparklineGroup.Sparklines.Add("A1:D1", 0, 4);
+            sparklineCollection.Add("A1:D1", 0, 5);
+
+            Console.WriteLine("Sparkline count: " + sparklineCollection.Count);
 
             // Set various properties for the SparklineGroup
             sparklineGroup.ShowHighPoint = true;

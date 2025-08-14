@@ -22,7 +22,7 @@ Represents all shape path points.
 
 | Method | Description |
 | --- | --- |
-| [add(int x, int y)](#add-int-int-) | Adds a path point. |
+| [add(int x, int y)](#add-int-int-) | Adds a path point in unit of EMUs. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -52,7 +52,11 @@ public int add(int x, int y)
 ```
 
 
-Adds a path point.
+Adds a path point in unit of EMUs.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use the MoveTo,LineTo,CubicBezierTo and ArcTo methods in ShapePath. This method will be removed 12 months later since August 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

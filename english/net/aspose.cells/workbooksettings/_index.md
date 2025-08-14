@@ -65,6 +65,7 @@ public class WorkbookSettings : IDisposable
 | [SheetTabBarWidth](../../aspose.cells/workbooksettings/sheettabbarwidth/) { get; set; } | Width of worksheet tab bar (in 1/1000 of window width). |
 | [ShowTabs](../../aspose.cells/workbooksettings/showtabs/) { get; set; } | Get or sets a value whether the Workbook tabs are displayed. |
 | [SignificantDigits](../../aspose.cells/workbooksettings/significantdigits/) { get; set; } | Gets and sets the number of significant digits. The default value is [`SignificantDigits`](../cellshelper/significantdigits/). |
+| [SmartTagOptions](../../aspose.cells/workbooksettings/smarttagoptions/) { get; } | Gets the options of the smart tag. |
 | [StreamProvider](../../aspose.cells/workbooksettings/streamprovider/) { get; set; } | (**Obsolete.**) Gets and sets the stream provider for external resource. |
 | [UpdateAdjacentCellsBorder](../../aspose.cells/workbooksettings/updateadjacentcellsborder/) { get; set; } | Indicates whether update adjacent cells' border. |
 | [UpdateLinksType](../../aspose.cells/workbooksettings/updatelinkstype/) { get; set; } | Gets and sets how updates external links when the workbook is opened. |

@@ -49,6 +49,7 @@ class WorkbookSettings;
 | [updateLinksType](#updateLinksType--)| UpdateLinksType | Gets and sets how updates external links when the workbook is opened. |
 | [maxRow](#maxRow--)| number | Readonly. Gets the max row index, zero-based. |
 | [maxColumn](#maxColumn--)| number | Readonly. Gets the max column index, zero-based. |
+| [smartTagOptions](#smartTagOptions--)| SmartTagOptions | Readonly. Gets the options of the smart tag. |
 | [defaultStyleSettings](#defaultStyleSettings--)| DefaultStyleSettings | Readonly. Gets the settings for default values of style-related properties for this workbook. |
 | [windowLeft](#windowLeft--)| number | The distance from the left edge of the client area to the left edge of the window, in unit of point. |
 | [windowLeftInch](#windowLeftInch--)| number | The distance from the left edge of the client area to the left edge of the window. In unit of inch. |
@@ -140,6 +141,7 @@ class WorkbookSettings;
 | [setUpdateLinksType(UpdateLinksType)](#setUpdateLinksType-updatelinkstype-)| <b>@deprecated.</b> Please use the 'updateLinksType' property instead. Gets and sets how updates external links when the workbook is opened. |
 | [getMaxRow()](#getMaxRow--)| <b>@deprecated.</b> Please use the 'maxRow' property instead. Gets the max row index, zero-based. |
 | [getMaxColumn()](#getMaxColumn--)| <b>@deprecated.</b> Please use the 'maxColumn' property instead. Gets the max column index, zero-based. |
+| [getSmartTagOptions()](#getSmartTagOptions--)| <b>@deprecated.</b> Please use the 'smartTagOptions' property instead. Gets the options of the smart tag. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--)| <b>@deprecated.</b> Please use the 'defaultStyleSettings' property instead. Gets the settings for default values of style-related properties for this workbook. |
 | [getWindowLeft()](#getWindowLeft--)| <b>@deprecated.</b> Please use the 'windowLeft' property instead. The distance from the left edge of the client area to the left edge of the window, in unit of point. |
 | [setWindowLeft(number)](#setWindowLeft-number-)| <b>@deprecated.</b> Please use the 'windowLeft' property instead. The distance from the left edge of the client area to the left edge of the window, in unit of point. |
@@ -554,6 +556,15 @@ maxColumn : number;
 
 Returns 255 if the file format is Excel97-2003;
 
+### smartTagOptions {#smartTagOptions--}
+
+Readonly. Gets the options of the smart tag.
+
+```javascript
+smartTagOptions : SmartTagOptions;
+```
+
+
 ### defaultStyleSettings {#defaultStyleSettings--}
 
 Readonly. Gets the settings for default values of style-related properties for this workbook.
@@ -772,6 +783,10 @@ Gets or sets the memory usage options. The new option will be taken as the defau
 memorySetting : MemorySetting;
 ```
 
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
 
 ### paperSize {#paperSize--}
 
@@ -1548,6 +1563,19 @@ getMaxColumn() : number;
 
 Returns 255 if the file format is Excel97-2003;
 
+### getSmartTagOptions() {#getSmartTagOptions--}
+
+<b>@deprecated.</b> Please use the 'smartTagOptions' property instead. Gets the options of the smart tag.
+
+```javascript
+getSmartTagOptions() : SmartTagOptions;
+```
+
+
+**Returns**
+
+[SmartTagOptions](../smarttagoptions/)
+
 ### getDefaultStyleSettings() {#getDefaultStyleSettings--}
 
 <b>@deprecated.</b> Please use the 'defaultStyleSettings' property instead. Gets the settings for default values of style-related properties for this workbook.
@@ -2060,6 +2088,10 @@ getMemorySetting() : MemorySetting;
 
 [MemorySetting](../memorysetting/)
 
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
+
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
 <b>@deprecated.</b> Please use the 'memorySetting' property instead. Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
@@ -2072,6 +2104,10 @@ setMemorySetting(value: MemorySetting) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MemorySetting](../memorysetting/) | The value to set. |
+
+**Remarks**
+
+For more details about memory mode, please see [Cells.MemorySetting](../cells.memorysetting/).
 
 ### getPaperSize() {#getPaperSize--}
 

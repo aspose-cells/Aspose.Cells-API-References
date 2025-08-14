@@ -34,7 +34,7 @@ class LoadOptions
 | [GetLightCellsDataHandler()](./getlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [GetLoadFilter()](./getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](./getloadformat/) | Gets the load format. |
-| [GetMemorySetting()](./getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](./getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetParsingFormulaOnOpen()](./getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](./getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](./getpassword/) | Gets and set the password of the workbook. |
@@ -60,7 +60,7 @@ class LoadOptions
 | [SetLanguageCode(CountryCode value)](./setlanguagecode/) | Gets or sets the user interface language of the [Workbook](../workbook/) version based on CountryCode that has saved the file. |
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](./setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](./setloadfilter/) | The filter to denote how to load data. |
-| [SetMemorySetting(MemorySetting value)](./setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](./setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](./setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](./setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](./setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |

@@ -42,7 +42,7 @@ class AbstractTextLoadOptions : public Aspose::Cells::LoadOptions
 | [GetLoadFilter()](../loadoptions/getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](../loadoptions/getloadformat/) | Gets the load format. |
 | [GetLoadStyleStrategy()](./getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
@@ -74,7 +74,7 @@ class AbstractTextLoadOptions : public Aspose::Cells::LoadOptions
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](../loadoptions/setloadfilter/) | The filter to denote how to load data. |
 | [SetLoadStyleStrategy(TxtLoadStyleStrategy value)](./setloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](../loadoptions/setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |

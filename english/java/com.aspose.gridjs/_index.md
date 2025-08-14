@@ -28,6 +28,7 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | [GridReferredArea](../com.aspose.gridjs/gridreferredarea) | Represents a referred area by the formula. |
 | [GridUpdateMonitor](../com.aspose.gridjs/gridupdatemonitor) | Monitor for user to track the change of update operation. |
 | [GridWorkbookSettings](../com.aspose.gridjs/gridworkbooksettings) | Represents the settings of the workbook. |
+| [OprMessageService](../com.aspose.gridjs/oprmessageservice) | This class provide all the operations for messages sync in Collaborative mode . |
 
 ## Interfaces
 

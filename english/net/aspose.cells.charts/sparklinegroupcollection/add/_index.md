@@ -55,7 +55,7 @@ namespace AsposeCellsExamples
 
                 // Configure the sparkline group
                 SparklineGroup group = sparklineGroups[index];
-                group.SparklineCollection.Add("A1:A5", 0, 0);
+                group.Sparklines.Add("A1:A5", 5, 0);
 
                 Console.WriteLine("Sparkline group added successfully with type: Line");
             }

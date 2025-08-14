@@ -24,6 +24,7 @@ public class PasteOptions
 | Name | Description |
 | --- | --- |
 | [IgnoreLinksToOriginalFile](../../aspose.cells/pasteoptions/ignorelinkstooriginalfile/) { get; set; } | Ingore links to the original file. |
+| [KeepOldTables](../../aspose.cells/pasteoptions/keepoldtables/) { get; set; } | Keeps the tables in the destination range. |
 | [OnlyVisibleCells](../../aspose.cells/pasteoptions/onlyvisiblecells/) { get; set; } | True means only copying visible cells. |
 | [OperationType](../../aspose.cells/pasteoptions/operationtype/) { get; set; } | Gets and sets the operation type when pasting range. |
 | [PasteType](../../aspose.cells/pasteoptions/pastetype/) { get; set; } | The paste special type. |

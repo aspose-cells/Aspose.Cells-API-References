@@ -1,20 +1,22 @@
 ---
 title: WorkbookDesigner.SetJsonDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: WorkbookDesigner method. 
+description: WorkbookDesigner method. Set json string value as data source of smart markers
 type: docs
 url: /net/aspose.cells/workbookdesigner/setjsondatasource/
 ---
 ## WorkbookDesigner.SetJsonDataSource method
 
+Set json string value as data source of smart markers.
+
 ```csharp
-public void SetJsonDataSource(string variable, string data)
+public void SetJsonDataSource(string name, string json)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| variable | String |  |
-| data | String |  |
+| name | String | The name of the table. If the value of JSON represents an object,it coult be null. |
+| json | String | The value of Json string. |
 
 ### Examples
 

@@ -20,7 +20,7 @@ class ShapePathPointCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t x, int32_t y)](./add/) | Adds a path point. |
+| [Add(int32_t x, int32_t y)](./add/) |  **(Deprecated)** Adds a path point in unit of EMUs. |
 | [Get(int32_t index)](./get/) | Gets shape path point by index. |
 | [GetCount()](./getcount/) |  |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

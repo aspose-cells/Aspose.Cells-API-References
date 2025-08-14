@@ -1,13 +1,13 @@
 ---
 title: ShapePath.MoveTo
 second_title: Aspose.Cells for .NET API Reference
-description: ShapePath method. Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure
+description: ShapePath method. Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit Pixel
 type: docs
 url: /net/aspose.cells.drawing/shapepath/moveto/
 ---
 ## ShapePath.MoveTo method
 
-Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.
+Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel.
 
 ```csharp
 public void MoveTo(float x, float y)

@@ -68,7 +68,7 @@ namespace AsposeCellsExamples
             SparklineGroup group = sheet.SparklineGroups[idx];
 
             // Add a sparkline to the group
-            idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
+            idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 5);
             Sparkline line = group.Sparklines[idx];
 
             // Output sparkline details

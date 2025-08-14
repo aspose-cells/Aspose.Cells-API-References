@@ -34,23 +34,32 @@ namespace AsposeCellsExamples
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data for sparklines
-            worksheet.Cells["A1"].PutValue(5);
-            worksheet.Cells["A2"].PutValue(3);
-            worksheet.Cells["A3"].PutValue(7);
-            worksheet.Cells["A4"].PutValue(2);
-            worksheet.Cells["A5"].PutValue(9);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
-            // Create a sparkline group
-            int groupIndex = worksheet.SparklineGroups.Add(SparklineType.Line);
-            SparklineGroup group = worksheet.SparklineGroups[groupIndex];
+            // Define the CellArea for the sparkline
+            CellArea ca = new CellArea
+            {
+                StartColumn = 4,
+                EndColumn = 4,
+                StartRow = 0,
+                EndRow = 0
+            };
+
+            // Add a sparkline group to the worksheet
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
+
+            SparklineGroup group = sheet.SparklineGroups[idx];
 
             // Prepare parameters for ResetRanges
-            string dataRange = "A1:A5";
-            bool isVertical = true;
-            CellArea locationRange = CellArea.CreateCellArea(0, 1, 4, 1); // B1:B5
+            string dataRange = "A1:D1";
+            bool isVertical = false;
+            CellArea locationRange = CellArea.CreateCellArea(6, 5, 6, 5);
 
             try
             {
@@ -59,11 +68,7 @@ namespace AsposeCellsExamples
 
                 Console.WriteLine("ResetRanges method executed successfully with parameters (String, Boolean, CellArea)");
                 
-                // Add sparklines to visualize the effect
-                for (int i = 0; i < 5; i++)
-                {
-                    worksheet.Cells[0 + i, 1].PutValue("Sparkline");
-                }
+                
             }
             catch (Exception ex)
             {

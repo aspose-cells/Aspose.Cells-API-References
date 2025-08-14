@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtLoadOptions class. Represents the options for loading text file in C++.'
 type: docs
-weight: 15300
+weight: 15400
 url: /cpp/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -49,7 +49,7 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetLoadStyleStrategy()](../abstracttextloadoptions/getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [GetMaxColumnCount()](./getmaxcolumncount/) | The maximum count of columns to be imported for one sheet. |
 | [GetMaxRowCount()](./getmaxrowcount/) | The maximum count of rows to be imported for one sheet. |
-| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
+| [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
@@ -96,7 +96,7 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetLoadStyleStrategy(TxtLoadStyleStrategy value)](../abstracttextloadoptions/setloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [SetMaxColumnCount(int32_t value)](./setmaxcolumncount/) | The maximum count of columns to be imported for one sheet. |
 | [SetMaxRowCount(int32_t value)](./setmaxrowcount/) | The maximum count of rows to be imported for one sheet. |
-| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
+| [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](../loadoptions/setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |

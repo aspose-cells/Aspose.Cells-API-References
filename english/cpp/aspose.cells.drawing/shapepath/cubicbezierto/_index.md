@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::ShapePath::CubicBezierTo method
 linktitle: CubicBezierTo
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::ShapePath::CubicBezierTo method. Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure in C++.'
+description: 'Aspose::Cells::Drawing::ShapePath::CubicBezierTo method. Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells.drawing/shapepath/cubicbezierto/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shapepath/cubicbezierto/
 ## ShapePath::CubicBezierTo method
 
 
-Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.
+Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel.
 
 ```cpp
 void Aspose::Cells::Drawing::ShapePath::CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, float endX, float endY)

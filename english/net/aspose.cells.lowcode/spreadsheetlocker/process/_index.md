@@ -34,13 +34,8 @@ namespace AsposeCellsExamples
     public class SpreadsheetLockerMethodProcessWithStringStringStringStringDemo
     {
         public static void Run()
-        {
-            // Create and save a template workbook
-            Workbook templateWorkbook = new Workbook();
-            templateWorkbook.Worksheets[0].Cells["A1"].Value = "Confidential Data";
-            string templatePath = "template.xlsx";
-            templateWorkbook.Save(templatePath);
-
+        {           
+            string templatePath = "template.xlsx";            
             // Prepare result file path
             string resultPath = "secured_spreadsheet.xlsx";
 
@@ -110,13 +105,10 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a sample input stream (in-memory for demo)
-            byte[] data = new byte[100];
-            MemoryStream stream = new MemoryStream(data);
             
             // Process the spreadsheet with lock/unlock passwords
             SpreadsheetLocker.Process(
-                new LowCodeLoadOptions() { InputStream = stream },
+                new LowCodeLoadOptions() { InputFile = "input.xlsx" },
                 new LowCodeSaveOptions() 
                 { 
                     OutputFile = "output_locked.xlsx" 
@@ -171,7 +163,9 @@ namespace AsposeCellsExamples
         {
             // Create LowCodeLoadOptions and LowCodeSaveOptions instances
             LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
+            loadOptions.InputFile = "input.xlsx";
             LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
+            saveOptions.OutputFile = "output.xlsx";
 
             // Define protection parameters
             string openPassword = "userOpen123";
@@ -238,17 +232,15 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Sample Data");
-
+           
             // Prepare LowCodeLoadOptions
             LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
+            loadOptions.InputFile = "input.xlsx";
 
             // Prepare LowCodeSaveOptions
             LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
             saveOptions.SaveFormat = SaveFormat.Xlsx;
+            saveOptions.OutputFile = "output.xlsx";
 
             // Create a custom protection provider
             CustomProtectionProvider provider = new CustomProtectionProvider();
@@ -265,8 +257,6 @@ namespace AsposeCellsExamples
                 Console.WriteLine($"Error processing spreadsheet: {ex.Message}");
             }
 
-            // Save the result
-            workbook.Save("ProcessWithLowCodeOptionsDemo.xlsx");
         }
 
         private class CustomProtectionProvider : AbstractLowCodeProtectionProvider
