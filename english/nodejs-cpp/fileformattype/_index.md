@@ -80,6 +80,7 @@ Represents the file format types.
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
 | Dbf | `515` | Xbase Data file |
+| FlatOpc | `516` | Flat opc file |
 | XHtml | `771` | Rrepesents XHtml file. |
 | OneNote | `772` | Rrepesents One Note file. |
 | MicrosoftCabinet | `773` | Rrepesents Microsoft Cabinet file. |
