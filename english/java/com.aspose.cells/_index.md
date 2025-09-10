@@ -315,6 +315,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HorizontalPageBreakCollection](../com.aspose.cells/horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../com.aspose.cells/horizontalpagebreak) objects. |
 | [HtmlConverter](../com.aspose.cells/htmlconverter) | Converter for conversion between html files(html or mht) and other spreadsheet file formats. |
 | [HtmlCrossType](../com.aspose.cells/htmlcrosstype) | Represents five types of html cross string. |
+| [HtmlEmbeddedFontType](../com.aspose.cells/htmlembeddedfonttype) | Represents the embedded font type in html. |
 | [HtmlExportDataOptions](../com.aspose.cells/htmlexportdataoptions) | Represents the options for exporting html data. |
 | [HtmlFormatHandlingType](../com.aspose.cells/htmlformathandlingtype) | Specifies how to handle formatting from the HTML source |
 | [HtmlHiddenColDisplayType](../com.aspose.cells/htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
@@ -596,6 +597,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [RevisionType](../com.aspose.cells/revisiontype) | Represents the revision type. |
 | [Row](../com.aspose.cells/row) | Represents a single row in a worksheet. |
 | [RowCollection](../com.aspose.cells/rowcollection) | Collects the [Row](../com.aspose.cells/row) objects that represent the individual rows in a worksheet. |
+| [SaveElementType](../com.aspose.cells/saveelementtype) | Represents what kind of elements should be saved. |
 | [SaveFormat](../com.aspose.cells/saveformat) | Represents the format in which the workbook is saved. |
 | [SaveOptions](../com.aspose.cells/saveoptions) | Represents all save options |
 | [Scenario](../com.aspose.cells/scenario) | Represents an individual scenario. |

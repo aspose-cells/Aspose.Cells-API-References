@@ -40,6 +40,7 @@ Represents the options for saving html file.
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [getEmbeddedFontType()](#getEmbeddedFontType--) | Gets the type of font that embedded in html. |
 | [getEnableCssCustomProperties()](#getEnableCssCustomProperties--) | Optimize the output of html by using CSS custom properties. |
 | [getEncodeEntityAsCode()](#getEncodeEntityAsCode--) | Indicates whether the html character entities are replaced with decimal code. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -127,6 +128,7 @@ Represents the options for saving html file.
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [setEmbeddedFontType(int value)](#setEmbeddedFontType-int-) | Sets the type of font that embedded in html. |
 | [setEnableCssCustomProperties(boolean value)](#setEnableCssCustomProperties-boolean-) | Optimize the output of html by using CSS custom properties. |
 | [setEncodeEntityAsCode(boolean value)](#setEncodeEntityAsCode-boolean-) | Indicates whether the html character entities are replaced with decimal code. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -404,6 +406,18 @@ Indicates if disable Downlevel-revealed conditional comments when exporting file
 
 **Returns:**
 boolean
+### getEmbeddedFontType() {#getEmbeddedFontType--}
+```
+public int getEmbeddedFontType()
+```
+
+
+Gets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that it will not embed font in html.
+
+See [HtmlEmbeddedFontType](../../com.aspose.cells/htmlembeddedfonttype).
+
+**Returns:**
+int
 ### getEnableCssCustomProperties() {#getEnableCssCustomProperties--}
 ```
 public boolean getEnableCssCustomProperties()
@@ -1401,6 +1415,21 @@ Indicates if disable Downlevel-revealed conditional comments when exporting file
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setEmbeddedFontType(int value) {#setEmbeddedFontType-int-}
+```
+public void setEmbeddedFontType(int value)
+```
+
+
+Sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that it will not embed font in html.
+
+See [HtmlEmbeddedFontType](../../com.aspose.cells/htmlembeddedfonttype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setEnableCssCustomProperties(boolean value) {#setEnableCssCustomProperties-boolean-}
 ```

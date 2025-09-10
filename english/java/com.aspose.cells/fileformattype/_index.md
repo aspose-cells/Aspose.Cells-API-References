@@ -35,6 +35,7 @@ Represents the file format types.
 | [EXCEL_4](#EXCEL-4) | Represents an Excel4.0 xls file. |
 | [EXCEL_95](#EXCEL-95) | Represents an Excel95 xls file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Excel97-2003 spreadsheet file. |
+| [FLAT_OPC](#FLAT-OPC) | Flat opc file |
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | [GIF](#GIF) | Gif |
 | [GRAPH_CHART](#GRAPH-CHART) | Represents embedded graph chart. |
@@ -287,6 +288,14 @@ public static final int EXCEL_97_TO_2003
 
 
 Excel97-2003 spreadsheet file.
+
+### FLAT_OPC {#FLAT-OPC}
+```
+public static final int FLAT_OPC
+```
+
+
+Flat opc file
 
 ### FODS {#FODS}
 ```
