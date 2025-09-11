@@ -4,7 +4,7 @@ linktitle: GetAdjustFontSizeForRowType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PptxSaveOptions::GetAdjustFontSizeForRowType method. Represents what type of line needs to be adjusted size of font if height of row is small in C++.'
 type: docs
-weight: 800
+weight: 1200
 url: /cpp/aspose.cells/pptxsaveoptions/getadjustfontsizeforrowtype/
 ---
 ## PptxSaveOptions::GetAdjustFontSizeForRowType method

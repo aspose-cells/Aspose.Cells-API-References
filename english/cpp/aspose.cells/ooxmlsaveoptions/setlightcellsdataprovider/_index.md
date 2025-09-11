@@ -4,7 +4,7 @@ linktitle: SetLightCellsDataProvider
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions::SetLightCellsDataProvider method. The data provider for saving workbook in light mode in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells/ooxmlsaveoptions/setlightcellsdataprovider/
 ---
 ## OoxmlSaveOptions::SetLightCellsDataProvider method
