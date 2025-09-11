@@ -90,6 +90,7 @@ type FileFormatType int32
 |[Json](./json/) | Json | 
 |[SqlScript](./sqlscript/) | Sql | 
 |[Dbf](./dbf/) | Xbase Data file | 
+|[FlatOpc](./flatopc/) | Flat opc file | 
 |[XHtml](./xhtml/) | Rrepesents XHtml file. | 
 |[OneNote](./onenote/) | Rrepesents One Note file. | 
 |[MicrosoftCabinet](./microsoftcabinet/) | Rrepesents Microsoft Cabinet file. | 
