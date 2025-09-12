@@ -47,9 +47,9 @@ namespace AsposeCellsExamples
             cell.SetStyle(style, styleFlag);
 
             // Display the current alignment settings
-            Console.WriteLine("Horizontal Alignment: " + style.HorizontalAlignment);
-            Console.WriteLine("Vertical Alignment: " + style.VerticalAlignment);
-            Console.WriteLine("Rotation: " + style.RotationAngle);
+            Console.WriteLine("Horizontal Alignment: " + cell.GetStyle().HorizontalAlignment);
+            Console.WriteLine("Vertical Alignment: " + cell.GetStyle().VerticalAlignment);
+            Console.WriteLine("Rotation: " + cell.GetStyle().RotationAngle);
 
             // Modify the style flag to disable alignment properties
             styleFlag.Alignments = false;

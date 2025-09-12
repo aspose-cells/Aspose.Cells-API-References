@@ -23,6 +23,7 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
+| [AlignColumnPadding](../../aspose.cells/markdownsaveoptions/aligncolumnpadding/) { get; set; } | Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The folder for temporary files that may be used as data cache.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CalculateFormula](../../aspose.cells/markdownsaveoptions/calculateformula/) { get; set; } | Indicates whether to calculate formulas before saving markdown file. |
 | [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.(Inherited from [`SaveOptions`](../saveoptions/).) |
@@ -30,6 +31,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Encoding](../../aspose.cells/markdownsaveoptions/encoding/) { get; set; } | Gets and sets the default encoding. |
 | [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [ExportHyperlinkAsReference](../../aspose.cells/markdownsaveoptions/exporthyperlinkasreference/) { get; set; } | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
 | [ExportImagesAsBase64](../../aspose.cells/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
 | [FormatStrategy](../../aspose.cells/markdownsaveoptions/formatstrategy/) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
 | [ImageOptions](../../aspose.cells/markdownsaveoptions/imageoptions/) { get; } | Get the ImageOrPrintOptions object before exporting |

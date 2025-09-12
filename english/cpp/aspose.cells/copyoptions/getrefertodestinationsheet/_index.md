@@ -19,7 +19,8 @@ bool Aspose::Cells::CopyOptions::GetReferToDestinationSheet()
 ## Remarks
 
 
-The default value is false, it works as MS Excel. 
+The default value is false, it works as MS Excel. For example: if copying a chart with the data source "sheet1!A1:B10" from worksheet "sheet1 to other worksheet "sheet2",
+The data source will be changed as "sheet2!A1:B10" 
 ## See Also
 
 * Class [Vector](../../vector/)

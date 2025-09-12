@@ -19,6 +19,7 @@ The **Aspose.Cells.Saving** namespace provides options classes of saving files.
 
 | Enumeration | Description |
 | --- | --- |
+| [SaveElementType](./saveelementtype/) | Represents what kind of elements should be saved. |
 | [SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. |
 
 

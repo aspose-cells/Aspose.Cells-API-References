@@ -45,7 +45,7 @@ namespace AsposeCellsExamples
             cell.SetStyle(style, flag);
 
             // Display the current QuotePrefix value
-            Console.WriteLine("Current QuotePrefix value: " + style.QuotePrefix);
+            Console.WriteLine("Current QuotePrefix value: " + cell.GetStyle().QuotePrefix);
 
             // Save the workbook to see the effect (the value will be treated as text in Excel)
             workbook.Save("PropertyQuotePrefixDemo.xlsx");
@@ -54,6 +54,7 @@ namespace AsposeCellsExamples
             style.QuotePrefix = false;
             cell.SetStyle(style, flag);
 
+            Console.WriteLine("Current QuotePrefix value: " + cell.GetStyle().QuotePrefix);
             // Save again with different name to compare
             workbook.Save("PropertyQuotePrefixDemo_WithoutPrefix.xlsx");
         }

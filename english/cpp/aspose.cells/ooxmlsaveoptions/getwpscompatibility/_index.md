@@ -4,7 +4,7 @@ linktitle: GetWpsCompatibility
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions::GetWpsCompatibility method. Indicates whether to make the xls more compatible with WPS in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells/ooxmlsaveoptions/getwpscompatibility/
 ---
 ## OoxmlSaveOptions::GetWpsCompatibility method

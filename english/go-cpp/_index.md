@@ -765,6 +765,7 @@ is_root: true
 |[ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. | 
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
+|[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
 |[ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. | 
 |[PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility | 
 |[PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. | 
@@ -775,6 +776,7 @@ is_root: true
 |[TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. | 
 |[SmartTagShowType](./smarttagshowtype/) | Represents the show type of the smart tag. | 
 |[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
+|[SaveElementType](./saveelementtype/) | Represents what kind of elements should be saved. | 
 |[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
 |[XAdESType](./xadestype/) | Type of XML Advanced Electronic Signature (XAdES). | 
 |[RevisionActionType](./revisionactiontype/) | Represents the type of revision action. | 

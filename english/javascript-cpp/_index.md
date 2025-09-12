@@ -638,6 +638,7 @@ is_root: true
 | [GridlineType](./gridlinetype) | Enumerates grid line Type. |
 | [HeaderFooterCommandType](./headerfootercommandtype) | Represents the command type of header and footer. |
 | [HtmlCrossType](./htmlcrosstype) | Represents five types of html cross string. |
+| [HtmlEmbeddedFontType](./htmlembeddedfonttype) | Represents the embedded font type in html. |
 | [HtmlExportDataOptions](./htmlexportdataoptions) | Represents the options for exporting html data. |
 | [HtmlFormatHandlingType](./htmlformathandlingtype) | Specifies how to handle formatting from the HTML source |
 | [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
@@ -747,6 +748,7 @@ is_root: true
 | [ResourceLoadingType](./resourceloadingtype) | Represents how to loading the linked resource. |
 | [RevisionActionType](./revisionactiontype) | Represents the type of revision action. |
 | [RevisionType](./revisiontype) | Represents the revision type. |
+| [SaveElementType](./saveelementtype) | Represents what kind of elements should be saved. |
 | [SaveFormat](./saveformat) | Represents the format in which the workbook is saved. |
 | [SelectionType](./selectiontype) | The selection type of list box. |
 | [SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |

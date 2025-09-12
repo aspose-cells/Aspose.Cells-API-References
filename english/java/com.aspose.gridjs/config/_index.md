@@ -36,6 +36,7 @@ Represents all the static settings for GridJs
 | [getMaxShapeOrImageCount()](#getMaxShapeOrImageCount--) | Gets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [getMaxShapeOrImageWidthOrHeight()](#getMaxShapeOrImageWidthOrHeight--) | Gets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
 | [getMaxTotalShapeOrImageCount()](#getMaxTotalShapeOrImageCount--) | Gets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. |
+| [getMessageTopic()](#getMessageTopic--) | Gets the websocket destinations prefixed with "/topic". the default is "/topic/opr".used in collaborative mode only. |
 | [getPictureCacheDirectory()](#getPictureCacheDirectory--) | Gets the cache directory for pictures. |
 | [getSameImageDetecting()](#getSameImageDetecting--) | Gets whether to check if images have same source,the default is true the default value is true. |
 | [getSaveHtmlAsZip()](#getSaveHtmlAsZip--) | Gets whether to save html file as zip archive,the default is false. |
@@ -61,6 +62,7 @@ Represents all the static settings for GridJs
 | [setMaxShapeOrImageCount(int value)](#setMaxShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [setMaxShapeOrImageWidthOrHeight(int value)](#setMaxShapeOrImageWidthOrHeight-int-) | Sets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
 | [setMaxTotalShapeOrImageCount(int value)](#setMaxTotalShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. |
+| [setMessageTopic(String value)](#setMessageTopic-java.lang.String-) | Sets the websocket destinations prefixed with "/topic". the default is "/topic/opr".used in collaborative mode only. |
 | [setPictureCacheDirectory(String value)](#setPictureCacheDirectory-java.lang.String-) | Sets the cache directory for pictures. |
 | [setSameImageDetecting(boolean value)](#setSameImageDetecting-boolean-) | Sets whether to check if images have same source,the default is true the default value is true. |
 | [setSaveHtmlAsZip(boolean value)](#setSaveHtmlAsZip-boolean-) | Sets whether to save html file as zip archive,the default is false. |
@@ -222,6 +224,16 @@ Gets the total count of the display shapes or images in the workbook,it takes ef
 
 **Returns:**
 int
+### getMessageTopic() {#getMessageTopic--}
+```
+public static String getMessageTopic()
+```
+
+
+Gets the websocket destinations prefixed with "/topic". the default is "/topic/opr".used in collaborative mode only.
+
+**Returns:**
+java.lang.String
 ### getPictureCacheDirectory() {#getPictureCacheDirectory--}
 ```
 public static String getPictureCacheDirectory()
@@ -514,6 +526,19 @@ Sets the total count of the display shapes or images in the workbook,it takes ef
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setMessageTopic(String value) {#setMessageTopic-java.lang.String-}
+```
+public static void setMessageTopic(String value)
+```
+
+
+Sets the websocket destinations prefixed with "/topic". the default is "/topic/opr".used in collaborative mode only.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setPictureCacheDirectory(String value) {#setPictureCacheDirectory-java.lang.String-}
 ```

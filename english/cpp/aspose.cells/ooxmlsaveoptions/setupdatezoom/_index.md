@@ -4,7 +4,7 @@ linktitle: SetUpdateZoom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions::SetUpdateZoom method. Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells/ooxmlsaveoptions/setupdatezoom/
 ---
 ## OoxmlSaveOptions::SetUpdateZoom method

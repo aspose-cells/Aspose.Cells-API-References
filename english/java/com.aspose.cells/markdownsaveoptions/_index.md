@@ -23,6 +23,7 @@ Represents the save options for markdown.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAlignColumnPadding()](#getAlignColumnPadding--) | Indicates whether column alignment is enabled for generated Markdown tables. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving markdown file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
@@ -31,6 +32,7 @@ Represents the save options for markdown.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
+| [getExportHyperlinkAsReference()](#getExportHyperlinkAsReference--) | Exports hyperlink using reference definitions instead of inline format. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to Markdown. |
 | [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
@@ -50,6 +52,7 @@ Represents the save options for markdown.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAlignColumnPadding(char value)](#setAlignColumnPadding-char-) | Indicates whether column alignment is enabled for generated Markdown tables. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The folder for temporary files that may be used as data cache. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving markdown file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
@@ -57,6 +60,7 @@ Represents the save options for markdown.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
+| [setExportHyperlinkAsReference(boolean value)](#setExportHyperlinkAsReference-boolean-) | Exports hyperlink using reference definitions instead of inline format. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to Markdown. |
 | [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
 | [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
@@ -98,6 +102,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAlignColumnPadding() {#getAlignColumnPadding--}
+```
+public char getAlignColumnPadding()
+```
+
+
+Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\\0' to disable column alignment (default).
+
+**Returns:**
+char
 ### getCachedFileFolder() {#getCachedFileFolder--}
 ```
 public String getCachedFileFolder()
@@ -191,6 +205,16 @@ Indicates whether encrypt document properties when saving as .xls file. The defa
 **Remarks**
 
 Only for .xls,xlsx,xlsb and xlsm file.
+
+**Returns:**
+boolean
+### getExportHyperlinkAsReference() {#getExportHyperlinkAsReference--}
+```
+public boolean getExportHyperlinkAsReference()
+```
+
+
+Exports hyperlink using reference definitions instead of inline format. The default value is false.
 
 **Returns:**
 boolean
@@ -406,6 +430,19 @@ public final native void notifyAll()
 
 
 
+### setAlignColumnPadding(char value) {#setAlignColumnPadding-char-}
+```
+public void setAlignColumnPadding(char value)
+```
+
+
+Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\\0' to disable column alignment (default).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | char |  |
+
 ### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
 ```
 public void setCachedFileFolder(String value)
@@ -507,6 +544,19 @@ Indicates whether encrypt document properties when saving as .xls file. The defa
 **Remarks**
 
 Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setExportHyperlinkAsReference(boolean value) {#setExportHyperlinkAsReference-boolean-}
+```
+public void setExportHyperlinkAsReference(boolean value)
+```
+
+
+Exports hyperlink using reference definitions instead of inline format. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

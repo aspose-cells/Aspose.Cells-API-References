@@ -45,11 +45,13 @@ namespace AsposeCellsExamples
             cell.SetStyle(style, styleFlag);
 
             // Display current text direction
-            Console.WriteLine("Current TextDirection value: " + style.TextDirection);
+            Console.WriteLine("Current TextDirection value: " + cell.GetStyle().TextDirection);
 
             // Change text direction and apply again
             style.TextDirection = TextDirectionType.LeftToRight;
             cell.SetStyle(style, styleFlag);
+
+            Console.WriteLine("Current TextDirection value: " + cell.GetStyle().TextDirection);
 
             // Save the workbook
             workbook.Save("TextDirectionDemo.xlsx");

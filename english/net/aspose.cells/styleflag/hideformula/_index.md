@@ -28,10 +28,10 @@ namespace AsposeCellsExamples
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-
+            Cell a1 = worksheet.Cells["A1"];
             // Add a formula to cell A1
-            worksheet.Cells["A1"].Formula = "=1+2";
-            worksheet.Cells["A1"].Value = 3; // Display value
+            a1.Formula = "=1+2";
+            a1.Value = 3; // Display value
 
             // Create a style flag with HideFormula set to true
             StyleFlag styleFlag = new StyleFlag();
@@ -42,7 +42,7 @@ namespace AsposeCellsExamples
             style.IsFormulaHidden = true;
 
             // Apply the style to cell A1 with the style flag
-            worksheet.Cells["A1"].SetStyle(style, styleFlag);
+            a1.SetStyle(style, styleFlag);
 
             // Protect the worksheet to see the effect of HideFormula
             worksheet.Protection.AllowEditingObject = true;
@@ -53,8 +53,8 @@ namespace AsposeCellsExamples
             workbook.Save("PropertyHideFormulaDemo.xlsx");
 
             // Verify the formula is hidden
-            Console.WriteLine("Formula in A1: " + worksheet.Cells["A1"].Formula);
-            Console.WriteLine("Is formula hidden? " + style.IsFormulaHidden);
+            Console.WriteLine("Formula in A1: " + a1.Formula);
+            Console.WriteLine("Is formula hidden? " + a1.GetStyle().IsFormulaHidden);
         }
     }
 }

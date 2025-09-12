@@ -55,6 +55,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [getSortDataSource()](#getSortDataSource--) | Indicates whether sorting data source. |
 | [getUpdateEmptyStringAsNull()](#getUpdateEmptyStringAsNull--) | If TRUE, Null will be inserted if the value is ""; |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
+| [getVariablesWorksheetName()](#getVariablesWorksheetName--) | Gets the name of the worksheet which contains variables smart marker. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -77,6 +78,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [setSortDataSource(boolean value)](#setSortDataSource-boolean-) | Indicates whether sorting data source. |
 | [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | If TRUE, Null will be inserted if the value is ""; |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
+| [setVariablesWorksheetName(String value)](#setVariablesWorksheetName-java.lang.String-) | Sets the name of the worksheet which contains variables smart marker. |
 | [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Sets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -118,6 +120,10 @@ public boolean containsVariables()
 
 
 Indicates whether the first worksheet contains custom variables.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookDesigner.VariablesWorksheetName property, instead. This property will be removed 3 months later since September 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -238,6 +244,16 @@ Indicates if references in other worksheets will be updated.
 
 **Returns:**
 boolean
+### getVariablesWorksheetName() {#getVariablesWorksheetName--}
+```
+public String getVariablesWorksheetName()
+```
+
+
+Gets the name of the worksheet which contains variables smart marker.
+
+**Returns:**
+java.lang.String
 ### getWorkbook() {#getWorkbook--}
 ```
 public Workbook getWorkbook()
@@ -364,6 +380,10 @@ public void setContainsVariables(boolean value)
 
 
 Indicates whether the first worksheet contains custom variables.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookDesigner.VariablesWorksheetName property, instead. This property will be removed 3 months later since September 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -526,6 +546,19 @@ Indicates if references in other worksheets will be updated.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setVariablesWorksheetName(String value) {#setVariablesWorksheetName-java.lang.String-}
+```
+public void setVariablesWorksheetName(String value)
+```
+
+
+Sets the name of the worksheet which contains variables smart marker.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setWorkbook(Workbook value) {#setWorkbook-com.aspose.cells.Workbook-}
 ```

@@ -89,6 +89,7 @@ enum class FileFormatType
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |
 | SqlScript | 514 | <br>Sql. |
 | Dbf | 515 | <br>Xbase Data file. |
+| FlatOpc | 516 | <br>Flat opc file. |
 | XHtml | 771 | <br>Rrepesents XHtml file. |
 | OneNote | 772 | <br>Rrepesents One Note file. |
 | MicrosoftCabinet | 773 | <br>Rrepesents Microsoft Cabinet file. |

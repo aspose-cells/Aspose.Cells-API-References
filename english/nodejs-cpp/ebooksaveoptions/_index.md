@@ -107,6 +107,7 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [enableCssCustomProperties](#enableCssCustomProperties--)| boolean | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [htmlVersion](#htmlVersion--)| HtmlVersion | Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
+| [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html. |
 
 ## Methods
 
@@ -271,6 +272,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setHtmlVersion(HtmlVersion)](#setHtmlVersion-htmlversion-)| <b>@deprecated.</b> Please use the 'htmlVersion' property instead. Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [getSheetSet()](#getSheetSet--)| <b>@deprecated.</b> Please use the 'sheetSet' property instead. Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| <b>@deprecated.</b> Please use the 'sheetSet' property instead. Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
+| [getEmbeddedFontType()](#getEmbeddedFontType--)| <b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html. |
+| [setEmbeddedFontType(HtmlEmbeddedFontType)](#setEmbeddedFontType-htmlembeddedfonttype-)| <b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html. |
 
 
 ### constructor() {#constructor--}
@@ -1081,6 +1084,15 @@ Gets or sets the sheets to render. Default is all visible sheets in the workbook
 
 ```javascript
 sheetSet : SheetSet;
+```
+
+
+### embeddedFontType {#embeddedFontType--}
+
+Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html.
+
+```javascript
+embeddedFontType : HtmlEmbeddedFontType;
 ```
 
 
@@ -3002,5 +3014,31 @@ setSheetSet(value: SheetSet) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SheetSet](../sheetset/) | The value to set. |
+
+### getEmbeddedFontType() {#getEmbeddedFontType--}
+
+<b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html.
+
+```javascript
+getEmbeddedFontType() : HtmlEmbeddedFontType;
+```
+
+
+**Returns**
+
+[HtmlEmbeddedFontType](../htmlembeddedfonttype/)
+
+### setEmbeddedFontType(HtmlEmbeddedFontType) {#setEmbeddedFontType-htmlembeddedfonttype-}
+
+<b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that it will not embed font in html.
+
+```javascript
+setEmbeddedFontType(value: HtmlEmbeddedFontType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlEmbeddedFontType](../htmlembeddedfonttype/) | The value to set. |
 
 

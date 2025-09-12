@@ -46,6 +46,10 @@ type MarkdownSaveOptions struct  {
 |[SetExportImagesAsBase64](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown.The default value is true. | 
 |[GetCalculateFormula](./getcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. | 
 |[SetCalculateFormula](./setcalculateformula/) | Indicates whether to calculate formulas before saving markdown file. | 
+|[GetExportHyperlinkAsReference](./getexporthyperlinkasreference/) | Exports hyperlink using reference definitions instead of inline format.The default value is false. | 
+|[SetExportHyperlinkAsReference](./setexporthyperlinkasreference/) | Exports hyperlink using reference definitions instead of inline format.The default value is false. | 
+|[GetAlignColumnPadding](./getaligncolumnpadding/) | Indicates whether column alignment is enabled for generated Markdown tables.When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces).Set to '\0' to disable column alignment (default). | 
+|[SetAlignColumnPadding](./setaligncolumnpadding/) | Indicates whether column alignment is enabled for generated Markdown tables.When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces).Set to '\0' to disable column alignment (default). | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

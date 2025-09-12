@@ -4,7 +4,7 @@ linktitle: SetEmbedOoxmlAsOleObject
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions::SetEmbedOoxmlAsOleObject method. Indicates whether embedding Ooxml files of OleObject as ole object in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells/ooxmlsaveoptions/setembedooxmlasoleobject/
 ---
 ## OoxmlSaveOptions::SetEmbedOoxmlAsOleObject method

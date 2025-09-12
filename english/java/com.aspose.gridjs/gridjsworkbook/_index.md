@@ -24,6 +24,7 @@ Represents the main entry class for GridJs
 | --- | --- |
 | [CacheImp](#CacheImp) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. |
 | [CalculateEngine](#CalculateEngine) | Custom implemention for calculation engine ,If you want to do custom calculation, you need to set and implement it. |
+| [PICTURE_TYPE](#PICTURE-TYPE) | const value for the type of the image |
 | [UpdateMonitor](#UpdateMonitor) | Gets/Sets the update monitor to track update operation |
 ## Methods
 
@@ -100,6 +101,14 @@ public static GridAbstractCalculationEngine CalculateEngine
 
 
 Custom implemention for calculation engine ,If you want to do custom calculation, you need to set and implement it.
+
+### PICTURE_TYPE {#PICTURE-TYPE}
+```
+public static final String PICTURE_TYPE
+```
+
+
+const value for the type of the image
 
 ### UpdateMonitor {#UpdateMonitor}
 ```

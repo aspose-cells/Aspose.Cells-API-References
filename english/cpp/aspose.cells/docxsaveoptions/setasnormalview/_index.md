@@ -4,7 +4,7 @@ linktitle: SetAsNormalView
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DocxSaveOptions::SetAsNormalView method. Exporting Excel file to docx fiel as normal view. If this property is true , one Area will be output, and no scale will take effect. The default value is false in C++.'
 type: docs
-weight: 1100
+weight: 1700
 url: /cpp/aspose.cells/docxsaveoptions/setasnormalview/
 ---
 ## DocxSaveOptions::SetAsNormalView method
