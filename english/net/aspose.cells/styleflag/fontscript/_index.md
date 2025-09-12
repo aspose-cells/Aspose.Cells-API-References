@@ -49,11 +49,12 @@ namespace AsposeCellsExamples
 
             // Change font script to superscript
             style.Font.IsSubscript = false;
-            style.Font.IsSuperscript = true;
+            style.Font.IsSuperscript = false;
             cell.SetStyle(style, styleFlag);
 
             // Display the updated font script status
             Console.WriteLine("Font is superscript: " + cell.GetStyle().Font.IsSuperscript);
+            Console.WriteLine("Font is subscript: " + cell.GetStyle().Font.IsSubscript);
 
             // Save the workbook
             workbook.Save("StyleFlagPropertyFontScriptDemo.xlsx");

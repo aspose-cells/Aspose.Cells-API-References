@@ -45,11 +45,13 @@ namespace AsposeCellsExamples
             cell.SetStyle(style, styleFlag);
 
             // Display current underline status
-            Console.WriteLine("Current FontUnderline status: " + style.Font.Underline);
+            Console.WriteLine("Current FontUnderline status: " + cell.GetStyle().Font.Underline);
 
             // Change the underline type to double
             style.Font.Underline = FontUnderlineType.Double;
             cell.SetStyle(style, styleFlag);
+
+            Console.WriteLine("Current FontUnderline status: " + cell.GetStyle().Font.Underline);
 
             // Save the workbook
             workbook.Save("FontUnderlineDemo.xlsx");

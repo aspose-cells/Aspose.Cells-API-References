@@ -19,6 +19,7 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | [GridInterruptMonitor](./gridinterruptmonitor/) | Represents all operator about the calculation interrupt. |
 | [GridJsControllerBase](./gridjscontrollerbase/) |  |
 | [GridJsOptions](./gridjsoptions/) | Represents all the load options for GridJs |
+| [GridJsPermissionException](./gridjspermissionexception/) | represents permission exception in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [GridJsService](./gridjsservice/) | Provides the basic operation apis used in controller actions. |
 | [GridJsWorkbook](./gridjsworkbook/) | Represents the main entry class for GridJs |
 | [GridReferredArea](./gridreferredarea/) | Represents a referred area by the formula. |
@@ -29,11 +30,14 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 
 | Interface | Description |
 | --- | --- |
+| [CoWorkUserProvider](./coworkuserprovider/) | Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. Customer application can implement this interface to provide the user information. |
 | [IGridJsService](./igridjsservice/) | Reprensents the basic operation apis interface used in controller actions. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
+| [CoWorkOperationType](./coworkoperationtype/) | Represents the action operation type in collabration mode.only available in java version now, will be available in .net/python version in future. |
+| [CoWorkUserPermission](./coworkuserpermission/) | represent the user permission in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [GridExceptionType](./gridexceptiontype/) | Represents custom exception code for GridJs. |
 | [GridLoadFormat](./gridloadformat/) | Represents the load file format. |
 

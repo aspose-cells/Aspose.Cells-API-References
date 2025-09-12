@@ -24,41 +24,36 @@ public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath
 namespace AsposeCellsExamples
 {
     using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Microsoft.VisualBasic;
     using System;
 
     public class StreamProviderOptionsMethodCtorWithResourceLoadingTypeStringDemo
     {
         public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            try
+            Workbook workbook = new Workbook("file1.xlsx");
+            workbook.Settings.ResourceProvider = new StreamProvider();
+            foreach (Shape shape in workbook.Worksheets[0].Shapes)
             {
-                // Call the #ctor method with ResourceLoadingType.Default and a default path
-                StreamProviderOptions options = new StreamProviderOptions(ResourceLoadingType.Default, "output_files/");
+                shape.ToImage("out.png", null);
+            }            
+        }
+    }
 
-                // Display the properties set by the constructor
-                Console.WriteLine($"ResourceLoadingType: {options.ResourceLoadingType}");
-                Console.WriteLine($"DefaultPath: {options.DefaultPath}");
-
-                // Set additional properties
-                options.CustomPath = "custom_output/";
-                options.Stream = null; // Can be set to a specific stream if needed
-
-                // Use the options when saving (example with HTML save options)
-                HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-                saveOptions.StreamProvider = (IStreamProvider)options;
-
-                // Save the workbook to demonstrate the effect
-                workbook.Save("StreamProviderOptionsDemo.html", saveOptions);
-
-                Console.WriteLine("Workbook saved with StreamProviderOptions settings.");
-            }
-            catch (Exception ex)
+    class StreamProvider : IStreamProvider
+    {
+        public void InitStream(StreamProviderOptions options)
+        {
+            options.Stream = File.OpenRead("example.jpg");
+            options.ResourceLoadingType = ResourceLoadingType.UserProvided;
+        }
+        public void CloseStream(StreamProviderOptions options)
+        {
+            if (options.Stream != null)
             {
-                Console.WriteLine($"Error executing #ctor method: {ex.Message}");
+                options.Stream.Close();
+                options.Stream = null;
             }
         }
     }
@@ -88,6 +83,7 @@ public StreamProviderOptions()
 namespace AsposeCellsExamples
 {
     using Aspose.Cells;
+    using Aspose.Cells.Drawing;
     using System;
     using System.IO;
 
@@ -98,30 +94,18 @@ namespace AsposeCellsExamples
             try
             {
                 // Demonstrate parameterless constructor
-                StreamProviderOptions options1 = new StreamProviderOptions();
+                StreamProviderOptions options = new StreamProviderOptions();
                 Console.WriteLine("Parameterless constructor:");
-                Console.WriteLine($"ResourceLoadingType: {options1.ResourceLoadingType}");
-                Console.WriteLine($"DefaultPath: {options1.DefaultPath}");
-
-                // Demonstrate constructor with parameters
-                StreamProviderOptions options2 = new StreamProviderOptions(
-                    ResourceLoadingType.Default, 
-                    "output_files/");
-                
-                Console.WriteLine("\nConstructor with parameters:");
-                Console.WriteLine($"ResourceLoadingType: {options2.ResourceLoadingType}");
-                Console.WriteLine($"DefaultPath: {options2.DefaultPath}");
-
-                // Set additional properties
-                options2.CustomPath = "custom_path/";
-                options2.Stream = new MemoryStream();
+                Console.WriteLine($"ResourceLoadingType: {options.ResourceLoadingType}");
+                Console.WriteLine($"DefaultPath: {options.DefaultPath}");
 
                 // Create a workbook and save with stream options
                 Workbook workbook = new Workbook();
                 workbook.Worksheets[0].Cells["A1"].PutValue("StreamProviderOptions Demo");
                 
                 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-                saveOptions.StreamProvider = (IStreamProvider)options2;
+                string outputDir = "custom_path/";
+                saveOptions.StreamProvider = new ExportStreamProvider(outputDir);
                 
                 workbook.Save("StreamProviderOptionsDemo.html", saveOptions);
                 Console.WriteLine("\nWorkbook saved with custom stream options");
@@ -129,6 +113,39 @@ namespace AsposeCellsExamples
             catch (Exception ex)
             {
                 Console.WriteLine($"Error executing StreamProviderOptions constructor demo: {ex.Message}");
+            }
+        }
+    }
+
+    internal class ExportStreamProvider : IStreamProvider
+    {
+        private string outputDir;
+
+        public ExportStreamProvider(string dir)
+        {
+            outputDir = dir;
+        }
+
+        public void InitStream(StreamProviderOptions options)
+        {
+            if (options.DefaultPath == null)
+            {
+                options.Stream = new MemoryStream();
+            }
+            else
+            {
+                string path = outputDir + Path.GetFileName(options.DefaultPath);
+                options.CustomPath = path;
+                Directory.CreateDirectory(Path.GetDirectoryName(path));
+                options.Stream = File.Create(path);
+            }
+        }
+
+        public void CloseStream(StreamProviderOptions options)
+        {
+            if (options != null && options.Stream != null)
+            {
+                options.Stream.Close();
             }
         }
     }

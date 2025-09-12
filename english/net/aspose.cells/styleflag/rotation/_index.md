@@ -34,13 +34,13 @@ namespace AsposeCellsExamples
             cell.PutValue("Rotated Text");
 
             // Get the style of the cell
-            Style style = cell.GetStyle();
-
-            // Display current rotation value
-            Console.WriteLine("Current Rotation value: " + style.RotationAngle);
+            Style style = workbook.CreateStyle();
 
             // Set new rotation value (45 degrees)
             style.RotationAngle = 45;
+
+            // Display current rotation value
+            Console.WriteLine("Current Rotation value: " + cell.GetStyle().RotationAngle);            
 
             // Create a style flag and enable rotation flag
             StyleFlag styleFlag = new StyleFlag();
@@ -49,9 +49,8 @@ namespace AsposeCellsExamples
             // Apply the style with rotation to the cell
             cell.SetStyle(style, styleFlag);
 
-            // Auto-fit the column to see the rotated text properly
-            worksheet.AutoFitColumn(0);
-
+            Console.WriteLine("after setting style, rotation value: " + cell.GetStyle().RotationAngle);
+           
             // Save the result
             workbook.Save("PropertyRotationDemo.xlsx");
         }

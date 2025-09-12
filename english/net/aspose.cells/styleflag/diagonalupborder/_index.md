@@ -36,8 +36,8 @@ namespace AsposeCellsExamples
 
             // Create a style object and set diagonal up border
             Style style = workbook.CreateStyle();
-            style.Borders.DiagonalStyle = CellBorderType.MediumDashDot;
-            style.Borders.DiagonalColor = Color.Red;
+            style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.Thick;
+            style.Borders[BorderType.DiagonalUp].Color = Color.FromArgb(255, 0, 0, 255);
 
             // Create a style flag and enable diagonal up border flag
             StyleFlag styleFlag = new StyleFlag();
@@ -52,8 +52,8 @@ namespace AsposeCellsExamples
 
             // Create a different style for comparison
             Style style2 = workbook.CreateStyle();
-            style2.Borders.DiagonalStyle = CellBorderType.Thick;
-            style2.Borders.DiagonalColor = Color.Blue;
+            style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.DiagonalUp].Color = Color.FromArgb(255, 0, 255, 0);
 
             // Apply the second style with the same flag
             cell2.SetStyle(style2, styleFlag);

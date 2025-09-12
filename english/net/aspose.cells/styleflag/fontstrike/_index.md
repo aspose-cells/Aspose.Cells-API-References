@@ -45,11 +45,15 @@ namespace AsposeCellsExamples
             cell.SetStyle(style, styleFlag);
 
             // Display the current FontStrike status
-            Console.WriteLine("FontStrike applied: " + style.Font.IsStrikeout);
+            Console.WriteLine("FontStrike applied: " + cell.GetStyle().Font.IsStrikeout);
 
             // Create another cell to demonstrate non-strikethrough text
             Cell cell2 = worksheet.Cells["A2"];
             cell2.PutValue("Normal Text");
+            styleFlag.FontStrike = false;
+
+            cell2.SetStyle(style, styleFlag);
+            Console.WriteLine("FontStrike applied: " + cell2.GetStyle().Font.IsStrikeout);
 
             // Save the workbook to see the effects
             workbook.Save("PropertyFontStrikeDemo.xlsx");
