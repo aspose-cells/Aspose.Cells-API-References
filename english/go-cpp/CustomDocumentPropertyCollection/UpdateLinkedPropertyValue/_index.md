@@ -10,7 +10,7 @@ url: /go-cpp/customdocumentpropertycollection/updatelinkedpropertyvalue/
 
 ## UpdateLinkedPropertyValue function
 
-Update custom document property value which links to content.
+Updates values of all custom properties that are linked to content(usecell value of linked range to update value of custom property).
 
 ```go
 

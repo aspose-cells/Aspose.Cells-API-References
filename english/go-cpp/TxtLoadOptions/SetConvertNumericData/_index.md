@@ -10,7 +10,7 @@ url: /go-cpp/txtloadoptions/setconvertnumericdata/
 
 ## SetConvertNumericData function
 
-Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+Gets or sets a value that indicates whether the string in text file is converted to numeric data.Default value is true.
 
 ```go
 
