@@ -27,8 +27,8 @@ class AbstractTextLoadOptions extends LoadOptions;
 | --- | --- | --- |
 | [encoding](#encoding--)| EncodingType | Gets and sets the default encoding. Only applies for csv file. |
 | [loadStyleStrategy](#loadStyleStrategy--)| TxtLoadStyleStrategy | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [convertNumericData](#convertNumericData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
-| [convertDateTimeData](#convertDateTimeData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to date data. |
+| [convertNumericData](#convertNumericData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
+| [convertDateTimeData](#convertDateTimeData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
 | [keepPrecision](#keepPrecision--)| boolean | Indicates whether not parsing a string value if the length is 15. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
@@ -92,7 +92,7 @@ loadStyleStrategy : TxtLoadStyleStrategy;
 
 ### convertNumericData {#convertNumericData--}
 
-Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 ```javascript
 convertNumericData : boolean;
@@ -101,7 +101,7 @@ convertNumericData : boolean;
 
 ### convertDateTimeData {#convertDateTimeData--}
 
-Gets or sets a value that indicates whether the string in text file is converted to date data.
+Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 ```javascript
 convertDateTimeData : boolean;
