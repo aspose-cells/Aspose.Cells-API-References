@@ -2,7 +2,7 @@
 title: Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedRange method
 linktitle: UpdateLinkedRange
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedRange method. Update custom document property value to linked range in C++.'
+description: 'Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedRange method. Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range) in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.properties/customdocumentpropertycollection/updatelinkedr
 ## CustomDocumentPropertyCollection::UpdateLinkedRange method
 
 
-Update custom document property value to linked range.
+Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range).
 
 ```cpp
 void Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedRange()
