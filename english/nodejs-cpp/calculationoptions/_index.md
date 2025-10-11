@@ -27,6 +27,8 @@ class CalculationOptions;
 | --- | --- | --- |
 | [ignoreError](#ignoreError--)| boolean | Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true. |
 | [recursive](#recursive--)| boolean | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
+| [userSpecifiedRefreshDynamicArrayFormula](#userSpecifiedRefreshDynamicArrayFormula--)| boolean | Readonly. Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas. |
+| [refreshDynamicArrayFormula](#refreshDynamicArrayFormula--)| boolean | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
 | [customEngine](#customEngine--)| AbstractCalculationEngine | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [calcStackSize](#calcStackSize--)| number | The stack size for calculating cells recursively. Default value is 200. |
 | [precisionStrategy](#precisionStrategy--)| CalculationPrecisionStrategy | Specifies the strategy for processing precision of calculation. |
@@ -41,6 +43,9 @@ class CalculationOptions;
 | [setIgnoreError(boolean)](#setIgnoreError-boolean-)| <b>@deprecated.</b> Please use the 'ignoreError' property instead. Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true. |
 | [getRecursive()](#getRecursive--)| <b>@deprecated.</b> Please use the 'recursive' property instead. Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
 | [setRecursive(boolean)](#setRecursive-boolean-)| <b>@deprecated.</b> Please use the 'recursive' property instead. Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
+| [getUserSpecifiedRefreshDynamicArrayFormula()](#getUserSpecifiedRefreshDynamicArrayFormula--)| <b>@deprecated.</b> Please use the 'userSpecifiedRefreshDynamicArrayFormula' property instead. Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas. |
+| [getRefreshDynamicArrayFormula()](#getRefreshDynamicArrayFormula--)| <b>@deprecated.</b> Please use the 'refreshDynamicArrayFormula' property instead. Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
+| [setRefreshDynamicArrayFormula(boolean)](#setRefreshDynamicArrayFormula-boolean-)| <b>@deprecated.</b> Please use the 'refreshDynamicArrayFormula' property instead. Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
 | [getCustomEngine()](#getCustomEngine--)| <b>@deprecated.</b> Please use the 'customEngine' property instead. The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomEngine(AbstractCalculationEngine)](#setCustomEngine-abstractcalculationengine-)| <b>@deprecated.</b> Please use the 'customEngine' property instead. The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCalcStackSize()](#getCalcStackSize--)| <b>@deprecated.</b> Please use the 'calcStackSize' property instead. The stack size for calculating cells recursively. Default value is 200. |
@@ -80,6 +85,28 @@ Indicates whether calculate the dependent cells recursively when calculating one
 recursive : boolean;
 ```
 
+
+### userSpecifiedRefreshDynamicArrayFormula {#userSpecifiedRefreshDynamicArrayFormula--}
+
+Readonly. Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas.
+
+```javascript
+userSpecifiedRefreshDynamicArrayFormula : boolean;
+```
+
+
+### refreshDynamicArrayFormula {#refreshDynamicArrayFormula--}
+
+Indicates whether dynamic array formulas should be refreshed before calculating formulas.
+
+```javascript
+refreshDynamicArrayFormula : boolean;
+```
+
+
+**Remarks**
+
+If this property has been specified explicitly, then the specified value will be used to determine whether refresh dynamic array formulas. Otherwise([UserSpecifiedRefreshDynamicArrayFormula](../userspecifiedrefreshdynamicarrayformula/) is flase), the default value of it depends on what kind of formulas need to be calculated: For calculating formulas for the workbook, such as [Workbook.CalculateFormula(CalculationOptions)](../workbook.calculateformula(calculationoptions)/), this property will be taken as true. For other cases, such as [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/) or [Worksheet.CalculateFormula(CalculationOptions, bool)](../worksheet.calculateformula(calculationoptions, bool)/), this property will be taken as false.
 
 ### customEngine {#customEngine--}
 
@@ -177,6 +204,45 @@ setRecursive(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getUserSpecifiedRefreshDynamicArrayFormula() {#getUserSpecifiedRefreshDynamicArrayFormula--}
+
+<b>@deprecated.</b> Please use the 'userSpecifiedRefreshDynamicArrayFormula' property instead. Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas.
+
+```javascript
+getUserSpecifiedRefreshDynamicArrayFormula() : boolean;
+```
+
+
+### getRefreshDynamicArrayFormula() {#getRefreshDynamicArrayFormula--}
+
+<b>@deprecated.</b> Please use the 'refreshDynamicArrayFormula' property instead. Indicates whether dynamic array formulas should be refreshed before calculating formulas.
+
+```javascript
+getRefreshDynamicArrayFormula() : boolean;
+```
+
+
+**Remarks**
+
+If this property has been specified explicitly, then the specified value will be used to determine whether refresh dynamic array formulas. Otherwise([UserSpecifiedRefreshDynamicArrayFormula](../userspecifiedrefreshdynamicarrayformula/) is flase), the default value of it depends on what kind of formulas need to be calculated: For calculating formulas for the workbook, such as [Workbook.CalculateFormula(CalculationOptions)](../workbook.calculateformula(calculationoptions)/), this property will be taken as true. For other cases, such as [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/) or [Worksheet.CalculateFormula(CalculationOptions, bool)](../worksheet.calculateformula(calculationoptions, bool)/), this property will be taken as false.
+
+### setRefreshDynamicArrayFormula(boolean) {#setRefreshDynamicArrayFormula-boolean-}
+
+<b>@deprecated.</b> Please use the 'refreshDynamicArrayFormula' property instead. Indicates whether dynamic array formulas should be refreshed before calculating formulas.
+
+```javascript
+setRefreshDynamicArrayFormula(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+If this property has been specified explicitly, then the specified value will be used to determine whether refresh dynamic array formulas. Otherwise([UserSpecifiedRefreshDynamicArrayFormula](../userspecifiedrefreshdynamicarrayformula/) is flase), the default value of it depends on what kind of formulas need to be calculated: For calculating formulas for the workbook, such as [Workbook.CalculateFormula(CalculationOptions)](../workbook.calculateformula(calculationoptions)/), this property will be taken as true. For other cases, such as [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/) or [Worksheet.CalculateFormula(CalculationOptions, bool)](../worksheet.calculateformula(calculationoptions, bool)/), this property will be taken as false.
 
 ### getCustomEngine() {#getCustomEngine--}
 

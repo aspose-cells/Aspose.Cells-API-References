@@ -1815,6 +1815,10 @@ getMatchingColor(rawColor: Color) : Color;
 
 Best matching color.
 
+**Remarks**
+
+There are only 56 colors in the color palette in Excel 97-2003. If the color is not in the palette, the similar color will be set.
+
 ### setEncryptionOptions(EncryptionType, number) {#setEncryptionOptions-encryptiontype-number-}
 
 Set Encryption Options.

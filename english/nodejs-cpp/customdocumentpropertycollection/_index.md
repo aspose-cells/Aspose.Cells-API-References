@@ -43,8 +43,8 @@ var customProperties = workbook.worksheets.customDocumentProperties;
 | [add(string, boolean)](#add-string-boolean-)| Creates a new custom document property of the <b>PropertyType.Boolean</b> data type. |
 | [add(string, number)](#add-string-number-)| Creates a new custom document property of the <b>PropertyType.Float</b> data type. |
 | [addLinkToContent(string, string)](#addLinkToContent-string-string-)| Creates a new custom document property which links to content. |
-| [updateLinkedPropertyValue()](#updateLinkedPropertyValue--)| Update custom document property value which links to content. |
-| [updateLinkedRange()](#updateLinkedRange--)| Update custom document property value to linked range. |
+| [updateLinkedPropertyValue()](#updateLinkedPropertyValue--)| Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property). |
+| [updateLinkedRange()](#updateLinkedRange--)| Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range). |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
@@ -178,7 +178,7 @@ The newly created property object.
 
 ### updateLinkedPropertyValue() {#updateLinkedPropertyValue--}
 
-Update custom document property value which links to content.
+Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property).
 
 ```javascript
 updateLinkedPropertyValue() : void;
@@ -187,7 +187,7 @@ updateLinkedPropertyValue() : void;
 
 ### updateLinkedRange() {#updateLinkedRange--}
 
-Update custom document property value to linked range.
+Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range).
 
 ```javascript
 updateLinkedRange() : void;
