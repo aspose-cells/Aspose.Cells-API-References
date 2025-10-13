@@ -22,6 +22,8 @@ public override bool Equals(object obj)
 ```csharp
 namespace AsposeCellsExamples
 {
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
     using Aspose.Cells.Drawing.Equations;
     using System;
 
@@ -29,29 +31,32 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
-            try
-            {
-                // Create two EquationComponentNode instances for comparison
-                // Since EquationComponentNode doesn't have a parameterless constructor,
-                // we'll use the base class's constructor or create them differently
-                EquationComponentNode node1 = null;
-                EquationComponentNode node2 = null;
-                
-                // Compare the nodes using Equals method
-                bool areEqual = node1?.Equals((object)node2) ?? false;
-                
-                // Display the comparison result
-                Console.WriteLine($"Nodes are equal: {areEqual}");
-                
-                // Compare with a different object type
-                object nonNodeObject = new object();
-                bool areEqualWithObject = node1?.Equals(nonNodeObject) ?? false;
-                Console.WriteLine($"Node equals generic object: {areEqualWithObject}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error in Equals comparison: {ex.Message}");
-            }
+            Workbook workbook = new Workbook();
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+            //test get mathnode
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+
+            //test insert Fraction
+            FractionEquationNode node = (FractionEquationNode)mathNode.AddChild(EquationNodeType.Fraction);
+            node.FractionType = EquationFractionType.Skewed;
+
+            string str1 = "A";
+            EquationComponentNode numerator = (EquationComponentNode)node.AddChild(EquationNodeType.Numerator);
+            TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
+            TR.Text = str1;
+
+            string str2 = "B";
+            EquationComponentNode denominator = (EquationComponentNode)node.AddChild(EquationNodeType.Denominator);
+            TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
+            TR.Text = str2;
+
+            // Compare the nodes using Equals method
+            bool areEqual = numerator?.Equals((object)denominator) ?? false;
+
+            // Display the comparison result
+            Console.WriteLine($"Nodes are equal: {areEqual}");
+            workbook.Save("EquationComponentNodeMethodEqualsWithObjectDemo.xlsx");
         }
     }
 }

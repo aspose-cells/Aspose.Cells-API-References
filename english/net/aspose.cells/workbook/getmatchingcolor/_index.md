@@ -21,6 +21,10 @@ public Color GetMatchingColor(Color rawColor)
 
 Best matching color.
 
+### Remarks
+
+There are only 56 colors in the color palette in Excel 97-2003. If the color is not in the palette, the similar color will be set.
+
 ### Examples
 
 ```csharp

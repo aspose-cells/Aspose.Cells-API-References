@@ -10,12 +10,14 @@ url: /net/aspose.cells/cellshelper/significantdigits/
 Gets and sets the number of significant digits. The default value is 17.
 
 ```csharp
+[Obsolete("Use SignificantDigitsType property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public static int SignificantDigits { get; set; }
 ```
 
 ### Remarks
 
-Only could be 15 or 17 now.
+Only could be 15 or 17 now. NOTE: This member is now obsolete. Instead, please use [`SignificantDigitsType`](../significantdigitstype/). This property will be removed 12 months later since June 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

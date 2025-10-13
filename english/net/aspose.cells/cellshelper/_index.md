@@ -22,7 +22,8 @@ public class CellsHelper
 | static [DPI](../../aspose.cells/cellshelper/dpi/) { get; set; } | Gets the DPI of the machine. |
 | static [IsCloudPlatform](../../aspose.cells/cellshelper/iscloudplatform/) { get; set; } | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
 | static [LibraryPath](../../aspose.cells/cellshelper/librarypath/) { get; set; } | Gets or sets the library path which is referred to by some external formula references. |
-| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits/) { get; set; } | Gets and sets the number of significant digits. The default value is 17. |
+| static [SignificantDigits](../../aspose.cells/cellshelper/significantdigits/) { get; set; } | (**Obsolete.**) Gets and sets the number of significant digits. The default value is 17. |
+| static [SignificantDigitsType](../../aspose.cells/cellshelper/significantdigitstype/) { get; set; } | Gets and sets the default type of significant digits for outputing numeric values. Default value is G17. |
 | static [StartupPath](../../aspose.cells/cellshelper/startuppath/) { get; set; } | Gets or sets the startup path, which is referred to by some external formula references. |
 
 ## Methods

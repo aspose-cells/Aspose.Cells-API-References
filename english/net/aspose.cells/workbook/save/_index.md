@@ -222,6 +222,10 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 | contentDisposition | ContentDisposition | The content disposition type. |
 | saveOptions | SaveOptions | The save options. |
 
+### Remarks
+
+This method is avaiable for net4.x versions only.
+
 ### See Also
 
 * enum [ContentDisposition](../../contentdisposition/)
@@ -248,6 +252,10 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 | contentDisposition | ContentDisposition | The content disposition type. |
 | saveOptions | SaveOptions | The save options. |
 | enableHttpCompression | Boolean | whether http compression is to be used |
+
+### Remarks
+
+This method is avaiable for net4.x versions only.
 
 ### See Also
 
