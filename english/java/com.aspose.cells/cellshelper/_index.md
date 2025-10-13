@@ -36,6 +36,7 @@ Provides helper functions.
 | [getDoubleFromDateTime(DateTime dateTime, boolean date1904)](#getDoubleFromDateTime-com.aspose.cells.DateTime-boolean-) | Convert the date time to double value. |
 | [getLibraryPath()](#getLibraryPath--) | Gets the library path which is referred to by some external formula references. |
 | [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
+| [getSignificantDigitsType()](#getSignificantDigitsType--) | Gets the default type of significant digits for outputing numeric values. |
 | [getStartupPath()](#getStartupPath--) | Gets the startup path, which is referred to by some external formula references. |
 | [getTextWidth(String text, Font font, double scaling)](#getTextWidth-java.lang.String-com.aspose.cells.Font-double-) | Get width of text in unit of points. |
 | [getUsedColors(Workbook workbook)](#getUsedColors-com.aspose.cells.Workbook-) | Gets all used colors in the workbook. |
@@ -55,6 +56,7 @@ Provides helper functions.
 | [setDPI(double value)](#setDPI-double-) | Gets the DPI of the machine. |
 | [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | Sets the library path which is referred to by some external formula references. |
 | [setSignificantDigits(int value)](#setSignificantDigits-int-) | Sets the number of significant digits. |
+| [setSignificantDigitsType(int value)](#setSignificantDigitsType-int-) | Sets the default type of significant digits for outputing numeric values. |
 | [setStartupPath(String value)](#setStartupPath-java.lang.String-) | Sets the startup path, which is referred to by some external formula references. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -338,7 +340,19 @@ Gets the number of significant digits. The default value is 17.
 
 **Remarks**
 
-Only could be 15 or 17 now.
+Only could be 15 or 17 now. NOTE: This member is now obsolete. Instead, please use [WorkbookSettings.getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--). This property will be removed 12 months later since June 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+int
+### getSignificantDigitsType() {#getSignificantDigitsType--}
+```
+public static int getSignificantDigitsType()
+```
+
+
+Gets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G\_17](../../com.aspose.cells/significantdigitstype\#G-17).
+
+See [WorkbookSettings.getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
 
 **Returns:**
 int
@@ -588,7 +602,22 @@ Sets the number of significant digits. The default value is 17.
 
 **Remarks**
 
-Only could be 15 or 17 now.
+Only could be 15 or 17 now. NOTE: This member is now obsolete. Instead, please use [WorkbookSettings.getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--). This property will be removed 12 months later since June 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSignificantDigitsType(int value) {#setSignificantDigitsType-int-}
+```
+public static void setSignificantDigitsType(int value)
+```
+
+
+Sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G\_17](../../com.aspose.cells/significantdigitstype\#G-17).
+
+See [WorkbookSettings.getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
 
 **Parameters:**
 | Parameter | Type | Description |

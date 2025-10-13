@@ -32,7 +32,7 @@ Represents the save options for markdown.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
-| [getExportHyperlinkAsReference()](#getExportHyperlinkAsReference--) | Exports hyperlink using reference definitions instead of inline format. |
+| [getExportHyperlinkAsReference()](#getExportHyperlinkAsReference--) | Indicates whether to export hyperlink using reference definitions instead of inline format. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to Markdown. |
 | [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
@@ -44,6 +44,7 @@ Represents the save options for markdown.
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
+| [getSplitTablesByBlankRow()](#getSplitTablesByBlankRow--) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the IStreamProvider for exporting objects. |
 | [getTableHeaderType()](#getTableHeaderType--) | Gets how set the header of the table. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
@@ -60,7 +61,7 @@ Represents the save options for markdown.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
-| [setExportHyperlinkAsReference(boolean value)](#setExportHyperlinkAsReference-boolean-) | Exports hyperlink using reference definitions instead of inline format. |
+| [setExportHyperlinkAsReference(boolean value)](#setExportHyperlinkAsReference-boolean-) | Indicates whether to export hyperlink using reference definitions instead of inline format. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to Markdown. |
 | [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
 | [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
@@ -70,6 +71,7 @@ Represents the save options for markdown.
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setSplitTablesByBlankRow(boolean value)](#setSplitTablesByBlankRow-boolean-) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the IStreamProvider for exporting objects. |
 | [setTableHeaderType(int value)](#setTableHeaderType-int-) | Sets how set the header of the table. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
@@ -214,7 +216,7 @@ public boolean getExportHyperlinkAsReference()
 ```
 
 
-Exports hyperlink using reference definitions instead of inline format. The default value is false.
+Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 **Returns:**
 boolean
@@ -341,6 +343,16 @@ public boolean getSortNames()
 
 
 Indicates whether sorting defined names before saving file.
+
+**Returns:**
+boolean
+### getSplitTablesByBlankRow() {#getSplitTablesByBlankRow--}
+```
+public boolean getSplitTablesByBlankRow()
+```
+
+
+Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
 
 **Returns:**
 boolean
@@ -556,7 +568,7 @@ public void setExportHyperlinkAsReference(boolean value)
 ```
 
 
-Exports hyperlink using reference definitions instead of inline format. The default value is false.
+Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -688,6 +700,19 @@ public void setSortNames(boolean value)
 
 
 Indicates whether sorting defined names before saving file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSplitTablesByBlankRow(boolean value) {#setSplitTablesByBlankRow-boolean-}
+```
+public void setSplitTablesByBlankRow(boolean value)
+```
+
+
+Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

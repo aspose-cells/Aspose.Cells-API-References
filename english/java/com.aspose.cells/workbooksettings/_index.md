@@ -55,6 +55,7 @@ Represents all settings of the workbook.
 | [getMaxColumn()](#getMaxColumn--) | Gets the max column index, zero-based. |
 | [getMaxRow()](#getMaxRow--) | Gets the max row index, zero-based. |
 | [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | Gets the max row number of shared formula. |
+| [getMaxUniqueItemsPerField()](#getMaxUniqueItemsPerField--) | Gets the limitation of unique items per field |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
 | [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
 | [getNumberGroupSeparator()](#getNumberGroupSeparator--) | Gets the character that separates groups of digits to the left of the decimal in numeric values. |
@@ -71,6 +72,7 @@ Represents all settings of the workbook.
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [getShowTabs()](#getShowTabs--) | Gets a value whether the Workbook tabs are displayed. |
 | [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
+| [getSignificantDigitsType()](#getSignificantDigitsType--) | Gets the type of significant digits for outputing numeric values in this workbook. |
 | [getSmartTagOptions()](#getSmartTagOptions--) | Gets the options of the smart tag. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the stream provider for external resource. |
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
@@ -124,6 +126,7 @@ Represents all settings of the workbook.
 | [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used by this workbook. |
 | [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) | Sets the max row number of shared formula. |
+| [setMaxUniqueItemsPerField(int value)](#setMaxUniqueItemsPerField-int-) | Sets the limitation of unique items per field |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
 | [setMinimized(boolean value)](#setMinimized-boolean-) | Represents whether the generated spreadsheet will be opened Minimized. |
 | [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Sets the decimal separator for formatting/parsing numeric values. |
@@ -141,6 +144,7 @@ Represents all settings of the workbook.
 | [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [setShowTabs(boolean value)](#setShowTabs-boolean-) | Sets a value whether the Workbook tabs are displayed. |
 | [setSignificantDigits(int value)](#setSignificantDigits-int-) | Sets the number of significant digits. |
+| [setSignificantDigitsType(int value)](#setSignificantDigitsType-int-) | Sets the type of significant digits for outputing numeric values in this workbook. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the stream provider for external resource. |
 | [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | Indicates whether update adjacent cells' border. |
 | [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | Sets how updates external links when the workbook is opened. |
@@ -483,6 +487,18 @@ If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Returns:**
 int
+### getMaxUniqueItemsPerField() {#getMaxUniqueItemsPerField--}
+```
+public int getMaxUniqueItemsPerField()
+```
+
+
+Gets the limitation of unique items per field
+
+**Remarks**
+
+**Returns:**
+int
 ### getMemorySetting() {#getMemorySetting--}
 ```
 public int getMemorySetting()
@@ -682,7 +698,19 @@ Gets the number of significant digits. The default value is [CellsHelper.getSign
 
 **Remarks**
 
-Only could be 15 or 17 now.
+Only could be 15 or 17 now. NOTE: This member is now obsolete. Instead, please use [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--). This property will be removed 12 months later since June 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+int
+### getSignificantDigitsType() {#getSignificantDigitsType--}
+```
+public int getSignificantDigitsType()
+```
+
+
+Gets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
+
+See [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
 
 **Returns:**
 int
@@ -1367,6 +1395,21 @@ If the number is too large, the autofilter works very slow in MS Excel 2013.
 | --- | --- | --- |
 | value | int |  |
 
+### setMaxUniqueItemsPerField(int value) {#setMaxUniqueItemsPerField-int-}
+```
+public void setMaxUniqueItemsPerField(int value)
+```
+
+
+Sets the limitation of unique items per field
+
+**Remarks**
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setMemorySetting(int value) {#setMemorySetting-int-}
 ```
 public void setMemorySetting(int value)
@@ -1613,7 +1656,22 @@ Sets the number of significant digits. The default value is [CellsHelper.getSign
 
 **Remarks**
 
-Only could be 15 or 17 now.
+Only could be 15 or 17 now. NOTE: This member is now obsolete. Instead, please use [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--). This property will be removed 12 months later since June 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSignificantDigitsType(int value) {#setSignificantDigitsType-int-}
+```
+public void setSignificantDigitsType(int value)
+```
+
+
+Sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
+
+See [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
 
 **Parameters:**
 | Parameter | Type | Description |

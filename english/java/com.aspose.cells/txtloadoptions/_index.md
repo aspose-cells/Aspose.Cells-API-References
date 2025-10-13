@@ -221,7 +221,7 @@ public boolean getConvertDateTimeData()
 ```
 
 
-Gets a value that indicates whether the string in text file is converted to date data.
+Gets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 **Returns:**
 boolean
@@ -231,7 +231,7 @@ public boolean getConvertNumericData()
 ```
 
 
-Gets a value that indicates whether the string in text file is converted to numeric data.
+Gets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 **Returns:**
 boolean
@@ -779,7 +779,7 @@ public void setConvertDateTimeData(boolean value)
 ```
 
 
-Sets a value that indicates whether the string in text file is converted to date data.
+Sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-Sets a value that indicates whether the string in text file is converted to numeric data.
+Sets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

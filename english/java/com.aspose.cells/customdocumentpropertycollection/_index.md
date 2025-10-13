@@ -55,8 +55,8 @@ Each  object represents a custom property of a container document.
 | [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
 | [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
 | [toString()](#toString--) |  |
-| [updateLinkedPropertyValue()](#updateLinkedPropertyValue--) | Update custom document property value which links to content. |
-| [updateLinkedRange()](#updateLinkedRange--) | Update custom document property value to linked range. |
+| [updateLinkedPropertyValue()](#updateLinkedPropertyValue--) | Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property). |
+| [updateLinkedRange()](#updateLinkedRange--) | Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -386,7 +386,7 @@ public void updateLinkedPropertyValue()
 ```
 
 
-Update custom document property value which links to content.
+Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property).
 
 ### updateLinkedRange() {#updateLinkedRange--}
 ```
@@ -394,7 +394,7 @@ public void updateLinkedRange()
 ```
 
 
-Update custom document property value to linked range.
+Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range).
 
 ### wait() {#wait--}
 ```

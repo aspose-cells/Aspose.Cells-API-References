@@ -1000,6 +1000,7 @@ Gets the worksheet range linked to the control's value.
 ```
          if (shape.getLinkedCell().equals("$B$6"))
              shape.setLinkedCell("A1");
+         shape.updateSelectedValue();
 ```
 
 **Returns:**

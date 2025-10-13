@@ -126,22 +126,22 @@ Represents all built-in auto shape type.
 | [LEFT_UP_ARROW](#LEFT-UP-ARROW) |  |
 | [LIGHTNING_BOLT](#LIGHTNING-BOLT) |  |
 | [LINE](#LINE) |  |
-| [LINE_CALLOUT_NO_BORDER_1](#LINE-CALLOUT-NO-BORDER-1) |  |
-| [LINE_CALLOUT_NO_BORDER_2](#LINE-CALLOUT-NO-BORDER-2) |  |
-| [LINE_CALLOUT_NO_BORDER_3](#LINE-CALLOUT-NO-BORDER-3) |  |
-| [LINE_CALLOUT_NO_BORDER_4](#LINE-CALLOUT-NO-BORDER-4) |  |
-| [LINE_CALLOUT_WITH_ACCENT_BAR_1](#LINE-CALLOUT-WITH-ACCENT-BAR-1) |  |
-| [LINE_CALLOUT_WITH_ACCENT_BAR_2](#LINE-CALLOUT-WITH-ACCENT-BAR-2) |  |
-| [LINE_CALLOUT_WITH_ACCENT_BAR_3](#LINE-CALLOUT-WITH-ACCENT-BAR-3) |  |
-| [LINE_CALLOUT_WITH_ACCENT_BAR_4](#LINE-CALLOUT-WITH-ACCENT-BAR-4) |  |
-| [LINE_CALLOUT_WITH_BORDER_1](#LINE-CALLOUT-WITH-BORDER-1) |  |
-| [LINE_CALLOUT_WITH_BORDER_2](#LINE-CALLOUT-WITH-BORDER-2) |  |
-| [LINE_CALLOUT_WITH_BORDER_3](#LINE-CALLOUT-WITH-BORDER-3) |  |
-| [LINE_CALLOUT_WITH_BORDER_4](#LINE-CALLOUT-WITH-BORDER-4) |  |
-| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_1](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-1) |  |
-| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_2](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-2) |  |
-| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_3](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-3) |  |
-| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_4](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-4) |  |
+| [LINE_CALLOUT_NO_BORDER_1](#LINE-CALLOUT-NO-BORDER-1) | Specifies the "Line Callout 1(No Border)" type of the Ms Excel 97-2003 version. |
+| [LINE_CALLOUT_NO_BORDER_2](#LINE-CALLOUT-NO-BORDER-2) | Specifies the "Line Callout 2(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Line with No Border" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_NO_BORDER_3](#LINE-CALLOUT-NO-BORDER-3) | Specifies the "Line Callout 3(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with No Border" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_NO_BORDER_4](#LINE-CALLOUT-NO-BORDER-4) | Specifies the "Line Callout 4(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with No Border" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR_1](#LINE-CALLOUT-WITH-ACCENT-BAR-1) | Specifies the "Line Callout 1(Accent Bar)" type of the Ms Excel 97-2003 version. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR_2](#LINE-CALLOUT-WITH-ACCENT-BAR-2) | Specifies the "Line Callout 2(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Line with Accent Bar" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR_3](#LINE-CALLOUT-WITH-ACCENT-BAR-3) | Specifies the "Line Callout 3(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with Accent Bar" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR_4](#LINE-CALLOUT-WITH-ACCENT-BAR-4) | Specifies the "Line Callout 4(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with Accent Bar" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_1](#LINE-CALLOUT-WITH-BORDER-1) | Specifies the "Line Callout 1" type of the Ms Excel 97-2003 version. |
+| [LINE_CALLOUT_WITH_BORDER_2](#LINE-CALLOUT-WITH-BORDER-2) | Specifies the "Line Callout 2" type of the Ms Excel 97-2003 version or the "Callout: Line" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_3](#LINE-CALLOUT-WITH-BORDER-3) | Specifies the "Line Callout 3" type of the Ms Excel 97-2003 version or the "Callout: Bent Line" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_4](#LINE-CALLOUT-WITH-BORDER-4) | Specifies the "Line Callout 4" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_1](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-1) | Specifies the "Line Callout 1(Border and Accent Bar)" type of the Ms Excel 97-2003 version. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_2](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-2) | Specifies the "Line Callout 2(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Line with Border and Accent Bar" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_3](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-3) | Specifies the "Line Callout 3(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with Border and Accent Bar" type of the Ms Excel 2007 version. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_4](#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-4) | Specifies the "Line Callout 4(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with Border and Accent Bar" type of the Ms Excel 2007 version. |
 | [LINE_INV](#LINE-INV) |  |
 | [L_SHAPE](#L-SHAPE) |  |
 | [MATH_DIVIDE](#MATH-DIVIDE) |  |
@@ -1162,7 +1162,7 @@ public static final int LINE_CALLOUT_NO_BORDER_1
 ```
 
 
-
+Specifies the "Line Callout 1(No Border)" type of the Ms Excel 97-2003 version.
 
 ### LINE_CALLOUT_NO_BORDER_2 {#LINE-CALLOUT-NO-BORDER-2}
 ```
@@ -1170,7 +1170,7 @@ public static final int LINE_CALLOUT_NO_BORDER_2
 ```
 
 
-
+Specifies the "Line Callout 2(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Line with No Border" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_NO_BORDER_3 {#LINE-CALLOUT-NO-BORDER-3}
 ```
@@ -1178,7 +1178,7 @@ public static final int LINE_CALLOUT_NO_BORDER_3
 ```
 
 
-
+Specifies the "Line Callout 3(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with No Border" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_NO_BORDER_4 {#LINE-CALLOUT-NO-BORDER-4}
 ```
@@ -1186,7 +1186,7 @@ public static final int LINE_CALLOUT_NO_BORDER_4
 ```
 
 
-
+Specifies the "Line Callout 4(No Border)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with No Border" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_ACCENT_BAR_1 {#LINE-CALLOUT-WITH-ACCENT-BAR-1}
 ```
@@ -1194,7 +1194,7 @@ public static final int LINE_CALLOUT_WITH_ACCENT_BAR_1
 ```
 
 
-
+Specifies the "Line Callout 1(Accent Bar)" type of the Ms Excel 97-2003 version.
 
 ### LINE_CALLOUT_WITH_ACCENT_BAR_2 {#LINE-CALLOUT-WITH-ACCENT-BAR-2}
 ```
@@ -1202,7 +1202,7 @@ public static final int LINE_CALLOUT_WITH_ACCENT_BAR_2
 ```
 
 
-
+Specifies the "Line Callout 2(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Line with Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_ACCENT_BAR_3 {#LINE-CALLOUT-WITH-ACCENT-BAR-3}
 ```
@@ -1210,7 +1210,7 @@ public static final int LINE_CALLOUT_WITH_ACCENT_BAR_3
 ```
 
 
-
+Specifies the "Line Callout 3(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_ACCENT_BAR_4 {#LINE-CALLOUT-WITH-ACCENT-BAR-4}
 ```
@@ -1218,7 +1218,7 @@ public static final int LINE_CALLOUT_WITH_ACCENT_BAR_4
 ```
 
 
-
+Specifies the "Line Callout 4(Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_1 {#LINE-CALLOUT-WITH-BORDER-1}
 ```
@@ -1226,7 +1226,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_1
 ```
 
 
-
+Specifies the "Line Callout 1" type of the Ms Excel 97-2003 version.
 
 ### LINE_CALLOUT_WITH_BORDER_2 {#LINE-CALLOUT-WITH-BORDER-2}
 ```
@@ -1234,7 +1234,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_2
 ```
 
 
-
+Specifies the "Line Callout 2" type of the Ms Excel 97-2003 version or the "Callout: Line" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_3 {#LINE-CALLOUT-WITH-BORDER-3}
 ```
@@ -1242,7 +1242,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_3
 ```
 
 
-
+Specifies the "Line Callout 3" type of the Ms Excel 97-2003 version or the "Callout: Bent Line" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_4 {#LINE-CALLOUT-WITH-BORDER-4}
 ```
@@ -1250,7 +1250,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_4
 ```
 
 
-
+Specifies the "Line Callout 4" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_1 {#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-1}
 ```
@@ -1258,7 +1258,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_1
 ```
 
 
-
+Specifies the "Line Callout 1(Border and Accent Bar)" type of the Ms Excel 97-2003 version.
 
 ### LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_2 {#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-2}
 ```
@@ -1266,7 +1266,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_2
 ```
 
 
-
+Specifies the "Line Callout 2(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Line with Border and Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_3 {#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-3}
 ```
@@ -1274,7 +1274,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_3
 ```
 
 
-
+Specifies the "Line Callout 3(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Bent Line with Border and Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_4 {#LINE-CALLOUT-WITH-BORDER-AND-ACCENT-BAR-4}
 ```
@@ -1282,7 +1282,7 @@ public static final int LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR_4
 ```
 
 
-
+Specifies the "Line Callout 4(Border and Accent Bar)" type of the Ms Excel 97-2003 version or the "Callout: Double Bent Line with Border and Accent Bar" type of the Ms Excel 2007 version.
 
 ### LINE_INV {#LINE-INV}
 ```
