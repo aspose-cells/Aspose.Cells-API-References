@@ -2,7 +2,7 @@
 title: Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedPropertyValue method
 linktitle: UpdateLinkedPropertyValue
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedPropertyValue method. Update custom document property value which links to content in C++.'
+description: 'Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedPropertyValue method. Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property) in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.properties/customdocumentpropertycollection/updatelinkedp
 ## CustomDocumentPropertyCollection::UpdateLinkedPropertyValue method
 
 
-Update custom document property value which links to content.
+Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property).
 
 ```cpp
 void Aspose::Cells::Properties::CustomDocumentPropertyCollection::UpdateLinkedPropertyValue()

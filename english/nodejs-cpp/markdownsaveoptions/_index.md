@@ -35,8 +35,9 @@ class MarkdownSaveOptions extends SaveOptions;
 | [imageOptions](#imageOptions--)| ImageOrPrintOptions | Readonly. Get the ImageOrPrintOptions object before exporting |
 | [exportImagesAsBase64](#exportImagesAsBase64--)| boolean | Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
 | [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving markdown file. |
-| [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [alignColumnPadding](#alignColumnPadding--)| string | Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
+| [splitTablesByBlankRow](#splitTablesByBlankRow--)| boolean | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -72,10 +73,12 @@ class MarkdownSaveOptions extends SaveOptions;
 | [setExportImagesAsBase64(boolean)](#setExportImagesAsBase64-boolean-)| <b>@deprecated.</b> Please use the 'exportImagesAsBase64' property instead. Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
 | [getCalculateFormula()](#getCalculateFormula--)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file. |
 | [setCalculateFormula(boolean)](#setCalculateFormula-boolean-)| <b>@deprecated.</b> Please use the 'calculateFormula' property instead. Indicates whether to calculate formulas before saving markdown file. |
-| [getExportHyperlinkAsReference()](#getExportHyperlinkAsReference--)| <b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Exports hyperlink using reference definitions instead of inline format. The default value is false. |
-| [setExportHyperlinkAsReference(boolean)](#setExportHyperlinkAsReference-boolean-)| <b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [getExportHyperlinkAsReference()](#getExportHyperlinkAsReference--)| <b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
+| [setExportHyperlinkAsReference(boolean)](#setExportHyperlinkAsReference-boolean-)| <b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [getAlignColumnPadding()](#getAlignColumnPadding--)| <b>@deprecated.</b> Please use the 'alignColumnPadding' property instead. Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
 | [setAlignColumnPadding(string)](#setAlignColumnPadding-string-)| <b>@deprecated.</b> Please use the 'alignColumnPadding' property instead. Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
+| [getSplitTablesByBlankRow()](#getSplitTablesByBlankRow--)| <b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
+| [setSplitTablesByBlankRow(boolean)](#setSplitTablesByBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -221,7 +224,7 @@ The default value is false.
 
 ### exportHyperlinkAsReference {#exportHyperlinkAsReference--}
 
-Exports hyperlink using reference definitions instead of inline format. The default value is false.
+Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 ```javascript
 exportHyperlinkAsReference : boolean;
@@ -234,6 +237,15 @@ Indicates whether column alignment is enabled for generated Markdown tables. Whe
 
 ```javascript
 alignColumnPadding : string;
+```
+
+
+### splitTablesByBlankRow {#splitTablesByBlankRow--}
+
+Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
+
+```javascript
+splitTablesByBlankRow : boolean;
 ```
 
 
@@ -613,7 +625,7 @@ The default value is false.
 
 ### getExportHyperlinkAsReference() {#getExportHyperlinkAsReference--}
 
-<b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Exports hyperlink using reference definitions instead of inline format. The default value is false.
+<b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 ```javascript
 getExportHyperlinkAsReference() : boolean;
@@ -622,7 +634,7 @@ getExportHyperlinkAsReference() : boolean;
 
 ### setExportHyperlinkAsReference(boolean) {#setExportHyperlinkAsReference-boolean-}
 
-<b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Exports hyperlink using reference definitions instead of inline format. The default value is false.
+<b>@deprecated.</b> Please use the 'exportHyperlinkAsReference' property instead. Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 ```javascript
 setExportHyperlinkAsReference(value: boolean) : void;
@@ -654,6 +666,28 @@ setAlignColumnPadding(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### getSplitTablesByBlankRow() {#getSplitTablesByBlankRow--}
+
+<b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
+
+```javascript
+getSplitTablesByBlankRow() : boolean;
+```
+
+
+### setSplitTablesByBlankRow(boolean) {#setSplitTablesByBlankRow-boolean-}
+
+<b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
+
+```javascript
+setSplitTablesByBlankRow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### isNull() {#isNull--}
 

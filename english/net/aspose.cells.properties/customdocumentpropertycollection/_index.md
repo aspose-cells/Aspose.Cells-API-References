@@ -62,8 +62,8 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty, int, int) |  |
 | [Remove](../../aspose.cells.properties/documentpropertycollection/remove/)(string) | Removes a property with the specified name from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection/).) |
 | [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat/)(int) | Removes a property at the specified index. (2 methods) |
-| [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue/)() | Update custom document property value which links to content. |
-| [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange/)() | Update custom document property value to linked range. |
+| [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue/)() | Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property). |
+| [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange/)() | Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range). |
 
 ### Remarks
 

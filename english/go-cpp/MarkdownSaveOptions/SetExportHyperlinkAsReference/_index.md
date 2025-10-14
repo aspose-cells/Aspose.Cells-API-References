@@ -10,7 +10,7 @@ url: /go-cpp/markdownsaveoptions/setexporthyperlinkasreference/
 
 ## SetExportHyperlinkAsReference function
 
-Exports hyperlink using reference definitions instead of inline format.The default value is false.
+Indicates whether to export hyperlink using reference definitions instead of inline format.The default value is false.
 
 ```go
 

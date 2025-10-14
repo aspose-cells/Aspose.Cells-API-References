@@ -762,6 +762,7 @@ is_root: true
 | [ShiftType](./shifttype) | Represent the shift options when deleting a range of cells. |
 | [ShowDropButtonType](./showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureType](./signaturetype) | Specifies the signature type. |
+| [SignificantDigitsType](./significantdigitstype) | Represents the type of significant digits for outputing numeric values. |
 | [SlicerCacheCrossFilterType](./slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
 | [SlicerCacheItemSortType](./slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerStyleType](./slicerstyletype) | Specify the style of slicer view |

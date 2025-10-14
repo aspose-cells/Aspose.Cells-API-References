@@ -82,6 +82,8 @@ Encapsulates the object that represents a single data series in a chart.
 | [getBubbleScale()](#getBubbleScale--) | Gets the scale factor for bubbles in the specified chart group. |
 | [getBubbleSizeRepresents()](#getBubbleSizeRepresents--) | Gets what the bubble size represents on a bubble chart. |
 | [getBubbleSizes()](#getBubbleSizes--) | Gets the bubble sizes values of the chart series. |
+| [getCachedCategoryValues()](#getCachedCategoryValues--) | Gets the cached category values for the series |
+| [getCachedValues()](#getCachedValues--) | Gets the cached values for the series |
 | [getClass()](#getClass--) |  |
 | [getCountOfDataValues()](#getCountOfDataValues--) | Gets the number of the data values. |
 | [getDataLabels()](#getDataLabels--) | Represents the DataLabels object for the specified ASeries. |
@@ -253,6 +255,34 @@ Gets the bubble sizes values of the chart series.
 
 **Returns:**
 java.lang.String
+### getCachedCategoryValues() {#getCachedCategoryValues--}
+```
+public ArrayList getCachedCategoryValues()
+```
+
+
+Gets the cached category values for the series
+
+**Remarks**
+
+NOTE: This property is currently for internal use only. It will be changed or removed in next version.
+
+**Returns:**
+java.util.ArrayList
+### getCachedValues() {#getCachedValues--}
+```
+public ArrayList getCachedValues()
+```
+
+
+Gets the cached values for the series
+
+**Remarks**
+
+NOTE: This property is currently for internal use only. It will be changed or removed in next version.
+
+**Returns:**
+java.util.ArrayList
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

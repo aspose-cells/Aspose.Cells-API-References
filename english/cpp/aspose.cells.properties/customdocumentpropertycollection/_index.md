@@ -52,8 +52,8 @@ class CustomDocumentPropertyCollection : public Aspose::Cells::Properties::Docum
 | [Remove(const U16String\& name)](../documentpropertycollection/remove/) | Removes a property with the specified name from the collection. |
 | [Remove(const char16_t* name)](../documentpropertycollection/remove/) | Removes a property with the specified name from the collection. |
 | [RemoveAt(int32_t index)](../documentpropertycollection/removeat/) | Removes a property at the specified index. |
-| [UpdateLinkedPropertyValue()](./updatelinkedpropertyvalue/) | Update custom document property value which links to content. |
-| [UpdateLinkedRange()](./updatelinkedrange/) | Update custom document property value to linked range. |
+| [UpdateLinkedPropertyValue()](./updatelinkedpropertyvalue/) | Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property). |
+| [UpdateLinkedRange()](./updatelinkedrange/) | Updates all ranges that are linked to custom properties(use the value of custom document property to update cell value of linked range). |
 | [~CustomDocumentPropertyCollection()](./~customdocumentpropertycollection/) | Destructor. |
 | [~DocumentPropertyCollection()](../documentpropertycollection/~documentpropertycollection/) | Destructor. |
 ## Fields

@@ -4,7 +4,7 @@ linktitle: GetCrashSave
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetCrashSave method. indicates whether the application last saved the workbook file after a crash in C++.'
 type: docs
-weight: 9800
+weight: 10100
 url: /cpp/aspose.cells/workbooksettings/getcrashsave/
 ---
 ## WorkbookSettings::GetCrashSave method

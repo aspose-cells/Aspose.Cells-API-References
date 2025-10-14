@@ -19,7 +19,7 @@ class CellsHelper;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| static [significantDigits](#significantDigits--)| number | Gets and sets the number of significant digits. The default value is 17. |
+| static [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/). |
 | static [dPI](#dPI--)| number | Gets the DPI of the machine. |
 | static [startupPath](#startupPath--)| string | Gets or sets the startup path, which is referred to by some external formula references. |
 | static [altStartPath](#altStartPath--)| string | Gets or sets the alternate startup path, which is referred to by some external formula references. |
@@ -30,8 +30,8 @@ class CellsHelper;
 
 | Method | Description |
 | --- | --- |
-| static [getSignificantDigits()](#getSignificantDigits--)| <b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17. |
-| static [setSignificantDigits(number)](#setSignificantDigits-number-)| <b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17. |
+| static [getSignificantDigitsType()](#getSignificantDigitsType--)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/). |
+| static [setSignificantDigitsType(SignificantDigitsType)](#setSignificantDigitsType-significantdigitstype-)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/). |
 | static [getDPI()](#getDPI--)| <b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine. |
 | static [setDPI(number)](#setDPI-number-)| <b>@deprecated.</b> Please use the 'dPI' property instead. Gets the DPI of the machine. |
 | static [getStartupPath()](#getStartupPath--)| <b>@deprecated.</b> Please use the 'startupPath' property instead. Gets or sets the startup path, which is referred to by some external formula references. |
@@ -60,18 +60,14 @@ class CellsHelper;
 | static [needQuoteInFormula(string)](#needQuoteInFormula-string-)| Indicates whether the name of the sheet should be enclosed in single quotes |
 
 
-### significantDigits {#significantDigits--}
+### significantDigitsType {#significantDigitsType--}
 
-Gets and sets the number of significant digits. The default value is 17.
+Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/).
 
 ```javascript
-static significantDigits : number;
+static significantDigitsType : SignificantDigitsType;
 ```
 
-
-**Remarks**
-
-Only could be 15 or 17 now.
 
 ### dPI {#dPI--}
 
@@ -118,35 +114,31 @@ static isCloudPlatform : boolean;
 ```
 
 
-### getSignificantDigits() {#getSignificantDigits--}
+### getSignificantDigitsType() {#getSignificantDigitsType--}
 
-<b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17.
+<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/).
 
 ```javascript
-static getSignificantDigits() : number;
+static getSignificantDigitsType() : SignificantDigitsType;
 ```
 
 
-**Remarks**
+**Returns**
 
-Only could be 15 or 17 now.
+[SignificantDigitsType](../significantdigitstype/)
 
-### setSignificantDigits(number) {#setSignificantDigits-number-}
+### setSignificantDigitsType(SignificantDigitsType) {#setSignificantDigitsType-significantdigitstype-}
 
-<b>@deprecated.</b> Please use the 'significantDigits' property instead. Gets and sets the number of significant digits. The default value is 17.
+<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/).
 
 ```javascript
-static setSignificantDigits(value: number) : void;
+static setSignificantDigitsType(value: SignificantDigitsType) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-Only could be 15 or 17 now.
+| value | [SignificantDigitsType](../significantdigitstype/) | The value to set. |
 
 ### getDPI() {#getDPI--}
 

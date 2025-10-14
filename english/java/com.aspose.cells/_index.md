@@ -643,6 +643,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShowDropButtonType](../com.aspose.cells/showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureLine](../com.aspose.cells/signatureline) | Represent the signature line. |
 | [SignatureType](../com.aspose.cells/signaturetype) | Specifies the signature type. |
+| [SignificantDigitsType](../com.aspose.cells/significantdigitstype) | Represents the type of significant digits for outputing numeric values. |
 | [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View |
 | [SlicerCache](../com.aspose.cells/slicercache) | Represent summary description of slicer cache |
 | [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |

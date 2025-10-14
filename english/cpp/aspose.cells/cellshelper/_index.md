@@ -36,7 +36,7 @@ class CellsHelper
 | static [GetDoubleFromDateTime(const Date\& dateTime, bool date1904)](./getdoublefromdatetime/) | Convert the date time to double value. |
 | static [GetDPI()](./getdpi/) | Gets the DPI of the machine. |
 | static [GetLibraryPath()](./getlibrarypath/) | Gets or sets the library path which is referred to by some external formula references. |
-| static [GetSignificantDigits()](./getsignificantdigits/) | Gets and sets the number of significant digits. The default value is 17. |
+| static [GetSignificantDigitsType()](./getsignificantdigitstype/) | Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype/). |
 | static [GetStartupPath()](./getstartuppath/) | Gets or sets the startup path, which is referred to by some external formula references. |
 | static [GetTextWidth(const U16String\& text, const Aspose::Cells::Font\& font, double scaling)](./gettextwidth/) | Get width of text in unit of points. |
 | static [GetTextWidth(const char16_t* text, const Aspose::Cells::Font\& font, double scaling)](./gettextwidth/) | Get width of text in unit of points. |
@@ -58,7 +58,7 @@ class CellsHelper
 | static [SetIsCloudPlatform(bool value)](./setiscloudplatform/) | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,. |
 | static [SetLibraryPath(const U16String\& value)](./setlibrarypath/) | Gets or sets the library path which is referred to by some external formula references. |
 | static [SetLibraryPath(const char16_t* value)](./setlibrarypath/) | Gets or sets the library path which is referred to by some external formula references. |
-| static [SetSignificantDigits(int32_t value)](./setsignificantdigits/) | Gets and sets the number of significant digits. The default value is 17. |
+| static [SetSignificantDigitsType(SignificantDigitsType value)](./setsignificantdigitstype/) | Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype/). |
 | static [SetStartupPath(const U16String\& value)](./setstartuppath/) | Gets or sets the startup path, which is referred to by some external formula references. |
 | static [SetStartupPath(const char16_t* value)](./setstartuppath/) | Gets or sets the startup path, which is referred to by some external formula references. |
 ## See Also

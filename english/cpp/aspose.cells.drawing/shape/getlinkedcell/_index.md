@@ -22,7 +22,10 @@ U16String Aspose::Cells::Drawing::Shape::GetLinkedCell()
 
 ```cpp
 if (shape.GetLinkedCell() == u"$B$6")
+{
     shape.SetLinkedCell(u"A1");
+}
+shape.UpdateSelectedValue();
 ```
 
 ## See Also

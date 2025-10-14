@@ -925,6 +925,10 @@ public Color getMatchingColor(Color rawColor)
 
 Find best matching Color in current palette.
 
+**Remarks**
+
+There are only 56 colors in the color palette in Excel 97-2003. If the color is not in the palette, the similar color will be set.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

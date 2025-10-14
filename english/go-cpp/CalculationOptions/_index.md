@@ -34,6 +34,9 @@ type CalculationOptions struct  {
 |[SetIgnoreError](./setignoreerror/) | Indicates whether errors encountered while calculating formulas should be ignored.The error may be unsupported function, external links, etc.The default value is true. | 
 |[GetRecursive](./getrecursive/) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.The default value is true. | 
 |[SetRecursive](./setrecursive/) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.The default value is true. | 
+|[GetUserSpecifiedRefreshDynamicArrayFormula](./getuserspecifiedrefreshdynamicarrayformula/) | Indicates whether user has explicitly specified the behavior ofrefreshing dynamic array formulas before calculating specified formulas. | 
+|[GetRefreshDynamicArrayFormula](./getrefreshdynamicarrayformula/) | Indicates whether dynamic array formulas should be refreshedbefore calculating formulas. | 
+|[SetRefreshDynamicArrayFormula](./setrefreshdynamicarrayformula/) | Indicates whether dynamic array formulas should be refreshedbefore calculating formulas. | 
 |[GetCustomEngine](./getcustomengine/) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. | 
 |[SetCustomEngine](./setcustomengine/) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. | 
 |[GetCalcStackSize](./getcalcstacksize/) | The stack size for calculating cells recursively. Default value is 200. | 

@@ -31,7 +31,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Encoding](../../aspose.cells/markdownsaveoptions/encoding/) { get; set; } | Gets and sets the default encoding. |
 | [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
-| [ExportHyperlinkAsReference](../../aspose.cells/markdownsaveoptions/exporthyperlinkasreference/) { get; set; } | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [ExportHyperlinkAsReference](../../aspose.cells/markdownsaveoptions/exporthyperlinkasreference/) { get; set; } | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [ExportImagesAsBase64](../../aspose.cells/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
 | [FormatStrategy](../../aspose.cells/markdownsaveoptions/formatstrategy/) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
 | [ImageOptions](../../aspose.cells/markdownsaveoptions/imageoptions/) { get; } | Get the ImageOrPrintOptions object before exporting |
@@ -43,6 +43,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [SheetSet](../../aspose.cells/markdownsaveoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Active`](../../aspose.cells.rendering/sheetset/active/). |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [SplitTablesByBlankRow](../../aspose.cells/markdownsaveoptions/splittablesbyblankrow/) { get; set; } | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
 | [StreamProvider](../../aspose.cells/markdownsaveoptions/streamprovider/) { get; set; } | Gets or sets the IStreamProvider for exporting objects. If `null`, the exported objects will be saved to the same directory as the output file. |
 | [TableHeaderType](../../aspose.cells/markdownsaveoptions/tableheadertype/) { get; set; } | Gets and sets how set the header of the table. |
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions/).) |

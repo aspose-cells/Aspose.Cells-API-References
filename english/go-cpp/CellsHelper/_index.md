@@ -28,8 +28,8 @@ type CellsHelper struct  {
 
 | Method | Description |
 | --- | --- |
-|[CellsHelper_GetSignificantDigits](./cellshelper_getsignificantdigits/) | Gets and sets the number of significant digits.The default value is 17. | 
-|[CellsHelper_SetSignificantDigits](./cellshelper_setsignificantdigits/) | Gets and sets the number of significant digits.The default value is 17. | 
+|[CellsHelper_GetSignificantDigitsType](./cellshelper_getsignificantdigitstype/) | Gets and sets the default type of significant digits for outputing numeric values.Default value is SignificantDigitsType.G17. | 
+|[CellsHelper_SetSignificantDigitsType](./cellshelper_setsignificantdigitstype/) | Gets and sets the default type of significant digits for outputing numeric values.Default value is SignificantDigitsType.G17. | 
 |[CellsHelper_GetDPI](./cellshelper_getdpi/) | Gets the DPI of the machine. | 
 |[CellsHelper_SetDPI](./cellshelper_setdpi/) | Gets the DPI of the machine. | 
 |[CellsHelper_GetTextWidth](./cellshelper_gettextwidth/) | Get width of text in unit of points. | 

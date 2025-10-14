@@ -31,6 +31,8 @@ public class CalculationOptions
 | [LinkedDataSources](../../aspose.cells/calculationoptions/linkeddatasources/) { get; set; } | Specifies the data sources for external links used in formulas. |
 | [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy/) { get; set; } | Specifies the strategy for processing precision of calculation. |
 | [Recursive](../../aspose.cells/calculationoptions/recursive/) { get; set; } | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
+| [RefreshDynamicArrayFormula](../../aspose.cells/calculationoptions/refreshdynamicarrayformula/) { get; set; } | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
+| [UserSpecifiedRefreshDynamicArrayFormula](../../aspose.cells/calculationoptions/userspecifiedrefreshdynamicarrayformula/) { get; } | Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas. |
 
 ### Examples
 

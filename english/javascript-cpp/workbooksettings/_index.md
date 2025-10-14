@@ -46,6 +46,7 @@ class WorkbookSettings;
 | [autoCompressPictures](#autoCompressPictures--)| boolean | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [removePersonalInformation](#removePersonalInformation--)| boolean | True if personal information can be removed from the specified workbook. |
 | [hidePivotFieldList](#hidePivotFieldList--)| boolean | Gets and sets whether hide the field list for the PivotTable. |
+| [maxUniqueItemsPerField](#maxUniqueItemsPerField--)| number | Gets and set the limitation of unique items per field |
 | [updateLinksType](#updateLinksType--)| UpdateLinksType | Gets and sets how updates external links when the workbook is opened. |
 | [maxRow](#maxRow--)| number | Readonly. Gets the max row index, zero-based. |
 | [maxColumn](#maxColumn--)| number | Readonly. Gets the max column index, zero-based. |
@@ -64,7 +65,7 @@ class WorkbookSettings;
 | [windowHeightInch](#windowHeightInch--)| number | The height of the window, in unit of inch. |
 | [windowHeightCM](#windowHeightCM--)| number | The height of the window, in unit of centimeter. |
 | [updateAdjacentCellsBorder](#updateAdjacentCellsBorder--)| boolean | Indicates whether update adjacent cells' border. |
-| [significantDigits](#significantDigits--)| number | Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/). |
+| [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
 | [checkCompatibility](#checkCompatibility--)| boolean | Indicates whether check compatibility with earlier versions when saving workbook. |
 | [checkExcelRestriction](#checkExcelRestriction--)| boolean | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
 | [autoRecover](#autoRecover--)| boolean | Indicates whether the file is marked for auto-recovery. |
@@ -403,6 +404,15 @@ hidePivotFieldList : boolean;
 ```
 
 
+### maxUniqueItemsPerField {#maxUniqueItemsPerField--}
+
+Gets and set the limitation of unique items per field
+
+```javascript
+maxUniqueItemsPerField : number;
+```
+
+
 ### updateLinksType {#updateLinksType--}
 
 Gets and sets how updates external links when the workbook is opened.
@@ -577,18 +587,14 @@ updateAdjacentCellsBorder : boolean;
 
 The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
 
-### significantDigits {#significantDigits--}
+### significantDigitsType {#significantDigitsType--}
 
-Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/).
+Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
 
 ```javascript
-significantDigits : number;
+significantDigitsType : SignificantDigitsType;
 ```
 
-
-**Remarks**
-
-Only could be 15 or 17 now.
 
 ### checkCompatibility {#checkCompatibility--}
 

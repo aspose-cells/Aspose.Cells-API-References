@@ -62,10 +62,10 @@ type TxtLoadOptions struct  {
 |[SetEncoding](./setencoding/) | Gets and sets the default encoding. Only applies for csv file. | 
 |[GetLoadStyleStrategy](./getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. | 
 |[SetLoadStyleStrategy](./setloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. | 
-|[GetConvertNumericData](./getconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. | 
-|[SetConvertNumericData](./setconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. | 
-|[GetConvertDateTimeData](./getconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data. | 
-|[SetConvertDateTimeData](./setconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data. | 
+|[GetConvertNumericData](./getconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data.Default value is true. | 
+|[SetConvertNumericData](./setconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data.Default value is true. | 
+|[GetConvertDateTimeData](./getconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data.Default value is true. | 
+|[SetConvertDateTimeData](./setconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data.Default value is true. | 
 |[GetKeepPrecision](./getkeepprecision/) | Indicates whether not parsing a string value if the length is 15. | 
 |[SetKeepPrecision](./setkeepprecision/) | Indicates whether not parsing a string value if the length is 15. | 
 |[GetLoadFormat](./getloadformat/) | Gets the load format. | 

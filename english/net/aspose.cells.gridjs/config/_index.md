@@ -25,6 +25,7 @@ public class Config
 | --- | --- |
 | static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Gets/Sets whether to automatically optimize the load performance for worksheet with large cells. it will ignore some style /borders to reduce the load time. the default value is true. |
 | static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Gets/Sets the base route name for GridJs controller URL. the default is "/GridJs2". |
+| static [CustomPdfSaveOptions](../../aspose.cells.gridjs/config/custompdfsaveoptions/) { get; set; } | Gets/Sets the custom PdfSaveOptions for PDF export. If set, this will be used instead of the default options. the default value is null. |
 | static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol/) { get; set; } | Gets/Sets default max column for an empty worksheet. the default value is 15. |
 | static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow/) { get; set; } | Gets/Sets default max row for an empty worksheet. the default value is 12. |
 | static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory/) { get; set; } | Gets/Sets the cache directory for storing spreadsheet file. We need to set it to a specific path before we use GridJs. |

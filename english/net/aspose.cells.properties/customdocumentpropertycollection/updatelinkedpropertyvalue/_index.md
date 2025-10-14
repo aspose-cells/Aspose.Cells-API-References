@@ -1,13 +1,13 @@
 ---
 title: CustomDocumentPropertyCollection.UpdateLinkedPropertyValue
 second_title: Aspose.Cells for .NET API Reference
-description: CustomDocumentPropertyCollection method. Update custom document property value which links to content
+description: CustomDocumentPropertyCollection method. Updates values of all custom properties that are linked to contentuse cell value of linked range to update value of custom property
 type: docs
 url: /net/aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue/
 ---
 ## CustomDocumentPropertyCollection.UpdateLinkedPropertyValue method
 
-Update custom document property value which links to content.
+Updates values of all custom properties that are linked to content(use cell value of linked range to update value of custom property).
 
 ```csharp
 public void UpdateLinkedPropertyValue()

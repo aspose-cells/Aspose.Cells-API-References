@@ -36,8 +36,8 @@ type CustomDocumentPropertyCollection struct  {
 |[Add_String_Bool](./add_string_bool/) | Creates a new custom document property of the <b>PropertyType.Boolean</b> data type. | 
 |[Add_String_Double](./add_string_double/) | Creates a new custom document property of the <b>PropertyType.Float</b> data type. | 
 |[AddLinkToContent](./addlinktocontent/) | Creates a new custom document property which links to content. | 
-|[UpdateLinkedPropertyValue](./updatelinkedpropertyvalue/) | Update custom document property value which links to content. | 
-|[UpdateLinkedRange](./updatelinkedrange/) | Update custom document property value to linked range. | 
+|[UpdateLinkedPropertyValue](./updatelinkedpropertyvalue/) | Updates values of all custom properties that are linked to content(usecell value of linked range to update value of custom property). | 
+|[UpdateLinkedRange](./updatelinkedrange/) | Updates all ranges that are linked to custom properties(use the value ofcustom document property to update cell value of linked range). | 
 |[Get_Int](./get_int/) | Returns a DocumentProperty object by index. | 
 |[Contains](./contains/) | Returns true if a property with the specified name exists in the collection. | 
 |[IndexOf](./indexof/) | Gets the index of a property by name. | 

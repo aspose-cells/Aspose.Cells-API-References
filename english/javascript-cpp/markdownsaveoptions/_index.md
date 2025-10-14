@@ -35,8 +35,9 @@ class MarkdownSaveOptions extends SaveOptions;
 | [imageOptions](#imageOptions--)| ImageOrPrintOptions | Readonly. Get the ImageOrPrintOptions object before exporting |
 | [exportImagesAsBase64](#exportImagesAsBase64--)| boolean | Specifies whether images are saved in Base64 format to Markdown. The default value is true. |
 | [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving markdown file. |
-| [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [alignColumnPadding](#alignColumnPadding--)| string | Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
+| [splitTablesByBlankRow](#splitTablesByBlankRow--)| boolean | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -169,7 +170,7 @@ The default value is false.
 
 ### exportHyperlinkAsReference {#exportHyperlinkAsReference--}
 
-Exports hyperlink using reference definitions instead of inline format. The default value is false.
+Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false.
 
 ```javascript
 exportHyperlinkAsReference : boolean;
@@ -182,6 +183,15 @@ Indicates whether column alignment is enabled for generated Markdown tables. Whe
 
 ```javascript
 alignColumnPadding : string;
+```
+
+
+### splitTablesByBlankRow {#splitTablesByBlankRow--}
+
+Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false.
+
+```javascript
+splitTablesByBlankRow : boolean;
 ```
 
 

@@ -10,7 +10,7 @@ url: /go-cpp/txtloadoptions/setconvertdatetimedata/
 
 ## SetConvertDateTimeData function
 
-Gets or sets a value that indicates whether the string in text file is converted to date data.
+Gets or sets a value that indicates whether the string in text file is converted to date data.Default value is true.
 
 ```go
 

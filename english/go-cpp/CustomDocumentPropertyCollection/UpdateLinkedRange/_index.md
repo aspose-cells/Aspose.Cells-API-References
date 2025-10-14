@@ -10,7 +10,7 @@ url: /go-cpp/customdocumentpropertycollection/updatelinkedrange/
 
 ## UpdateLinkedRange function
 
-Update custom document property value to linked range.
+Updates all ranges that are linked to custom properties(use the value ofcustom document property to update cell value of linked range).
 
 ```go
 

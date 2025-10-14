@@ -45,6 +45,7 @@ class WorkbookSettings
 | [GetMaxColumn()](./getmaxcolumn/) | Gets the max column index, zero-based. |
 | [GetMaxRow()](./getmaxrow/) | Gets the max row index, zero-based. |
 | [GetMaxRowsOfSharedFormula()](./getmaxrowsofsharedformula/) | Gets and sets the max row number of shared formula. |
+| [GetMaxUniqueItemsPerField()](./getmaxuniqueitemsperfield/) | Gets and set the limitation of unique items per field. |
 | [GetMemorySetting()](./getmemorysetting/) | Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. |
 | [GetNumberDecimalSeparator()](./getnumberdecimalseparator/) | Gets or sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region. |
 | [GetNumberGroupSeparator()](./getnumbergroupseparator/) | Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region. |
@@ -59,7 +60,7 @@ class WorkbookSettings
 | [GetShared()](./getshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [GetSheetTabBarWidth()](./getsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [GetShowTabs()](./getshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
-| [GetSignificantDigits()](./getsignificantdigits/) | Gets and sets the number of significant digits. The default value is CellsHelper.SignificantDigits. |
+| [GetSignificantDigitsType()](./getsignificantdigitstype/) | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
 | [GetSmartTagOptions()](./getsmarttagoptions/) | Gets the options of the smart tag. |
 | [GetThemeFont(FontSchemeType type)](./getthemefont/) | Gets the default theme font name. |
 | [GetUpdateAdjacentCellsBorder()](./getupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. |
@@ -115,6 +116,7 @@ class WorkbookSettings
 | [SetIsVScrollBarVisible(bool value)](./setisvscrollbarvisible/) | Gets or sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
 | [SetLanguageCode(CountryCode value)](./setlanguagecode/) | Gets or sets the user interface language of the [Workbook](../workbook/) version based on CountryCode that has saved the file. |
 | [SetMaxRowsOfSharedFormula(int32_t value)](./setmaxrowsofsharedformula/) | Gets and sets the max row number of shared formula. |
+| [SetMaxUniqueItemsPerField(int32_t value)](./setmaxuniqueitemsperfield/) | Gets and set the limitation of unique items per field. |
 | [SetMemorySetting(MemorySetting value)](./setmemorysetting/) | Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. |
 | [SetNumberDecimalSeparator(char16_t value)](./setnumberdecimalseparator/) | Gets or sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region. |
 | [SetNumberGroupSeparator(char16_t value)](./setnumbergroupseparator/) | Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region. |
@@ -130,7 +132,7 @@ class WorkbookSettings
 | [SetShared(bool value)](./setshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [SetSheetTabBarWidth(int32_t value)](./setsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [SetShowTabs(bool value)](./setshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
-| [SetSignificantDigits(int32_t value)](./setsignificantdigits/) | Gets and sets the number of significant digits. The default value is CellsHelper.SignificantDigits. |
+| [SetSignificantDigitsType(SignificantDigitsType value)](./setsignificantdigitstype/) | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
 | [SetUpdateAdjacentCellsBorder(bool value)](./setupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. |
 | [SetUpdateLinksType(UpdateLinksType value)](./setupdatelinkstype/) | Gets and sets how updates external links when the workbook is opened. |
 | [SetWarningCallback(IWarningCallback* value)](./setwarningcallback/) | Gets or sets warning callback. |

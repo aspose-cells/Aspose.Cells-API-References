@@ -32,6 +32,8 @@ Represents options for calculation.
 | [getLinkedDataSources()](#getLinkedDataSources--) | Specifies the data sources for external links used in formulas. |
 | [getPrecisionStrategy()](#getPrecisionStrategy--) | Specifies the strategy for processing precision of calculation. |
 | [getRecursive()](#getRecursive--) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
+| [getRefreshDynamicArrayFormula()](#getRefreshDynamicArrayFormula--) | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
+| [getUserSpecifiedRefreshDynamicArrayFormula()](#getUserSpecifiedRefreshDynamicArrayFormula--) | Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -43,6 +45,7 @@ Represents options for calculation.
 | [setLinkedDataSources(Workbook[] value)](#setLinkedDataSources-com.aspose.cells.Workbook---) | Specifies the data sources for external links used in formulas. |
 | [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Specifies the strategy for processing precision of calculation. |
 | [setRecursive(boolean value)](#setRecursive-boolean-) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
+| [setRefreshDynamicArrayFormula(boolean value)](#setRefreshDynamicArrayFormula-boolean-) | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -165,6 +168,30 @@ public boolean getRecursive()
 
 
 Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true.
+
+**Returns:**
+boolean
+### getRefreshDynamicArrayFormula() {#getRefreshDynamicArrayFormula--}
+```
+public boolean getRefreshDynamicArrayFormula()
+```
+
+
+Indicates whether dynamic array formulas should be refreshed before calculating formulas.
+
+**Remarks**
+
+If this property has been specified explicitly, then the specified value will be used to determine whether refresh dynamic array formulas. Otherwise([getUserSpecifiedRefreshDynamicArrayFormula()](../../com.aspose.cells/calculationoptions\#getUserSpecifiedRefreshDynamicArrayFormula--) is flase), the default value of it depends on what kind of formulas need to be calculated: For calculating formulas for the workbook, such as [Workbook.calculateFormula(CalculationOptions)](../../com.aspose.cells/workbook\#calculateFormula-CalculationOptions-), this property will be taken as true. For other cases, such as [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-) or [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), this property will be taken as false.
+
+**Returns:**
+boolean
+### getUserSpecifiedRefreshDynamicArrayFormula() {#getUserSpecifiedRefreshDynamicArrayFormula--}
+```
+public boolean getUserSpecifiedRefreshDynamicArrayFormula()
+```
+
+
+Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas.
 
 **Returns:**
 boolean
@@ -302,6 +329,23 @@ public void setRecursive(boolean value)
 
 
 Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRefreshDynamicArrayFormula(boolean value) {#setRefreshDynamicArrayFormula-boolean-}
+```
+public void setRefreshDynamicArrayFormula(boolean value)
+```
+
+
+Indicates whether dynamic array formulas should be refreshed before calculating formulas.
+
+**Remarks**
+
+If this property has been specified explicitly, then the specified value will be used to determine whether refresh dynamic array formulas. Otherwise([getUserSpecifiedRefreshDynamicArrayFormula()](../../com.aspose.cells/calculationoptions\#getUserSpecifiedRefreshDynamicArrayFormula--) is flase), the default value of it depends on what kind of formulas need to be calculated: For calculating formulas for the workbook, such as [Workbook.calculateFormula(CalculationOptions)](../../com.aspose.cells/workbook\#calculateFormula-CalculationOptions-), this property will be taken as true. For other cases, such as [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-) or [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), this property will be taken as false.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -30,6 +30,8 @@ class CalculationOptions
 | [GetLinkedDataSources()](./getlinkeddatasources/) | Specifies the data sources for external links used in formulas. |
 | [GetPrecisionStrategy()](./getprecisionstrategy/) | Specifies the strategy for processing precision of calculation. |
 | [GetRecursive()](./getrecursive/) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
+| [GetRefreshDynamicArrayFormula()](./getrefreshdynamicarrayformula/) | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
+| [GetUserSpecifiedRefreshDynamicArrayFormula()](./getuserspecifiedrefreshdynamicarrayformula/) | Indicates whether user has explicitly specified the behavior of refreshing dynamic array formulas before calculating specified formulas. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CalculationOptions\& src)](./operator_asm/) | operator= |
@@ -40,6 +42,7 @@ class CalculationOptions
 | [SetLinkedDataSources(const Vector \<Workbook\>\& value)](./setlinkeddatasources/) | Specifies the data sources for external links used in formulas. |
 | [SetPrecisionStrategy(CalculationPrecisionStrategy value)](./setprecisionstrategy/) | Specifies the strategy for processing precision of calculation. |
 | [SetRecursive(bool value)](./setrecursive/) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true. |
+| [SetRefreshDynamicArrayFormula(bool value)](./setrefreshdynamicarrayformula/) | Indicates whether dynamic array formulas should be refreshed before calculating formulas. |
 | [~CalculationOptions()](./~calculationoptions/) | Destructor. |
 ## Fields
 

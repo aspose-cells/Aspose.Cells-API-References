@@ -286,6 +286,7 @@ url: /cpp/aspose.cells/
 | [SaveFormat](./saveformat/) | Represents the format in which the workbook is saved. |
 | [SheetType](./sheettype/) | Specifies the worksheet type. |
 | [ShiftType](./shifttype/) | Represent the shift options when deleting a range of cells. |
+| [SignificantDigitsType](./significantdigitstype/) | Represents the type of significant digits for outputing numeric values. |
 | [SortOnType](./sortontype/) | Sorted value type. |
 | [SortOrder](./sortorder/) | Represents sort order for the data range. |
 | [StyleModifyFlag](./stylemodifyflag/) | The style modified flags. |

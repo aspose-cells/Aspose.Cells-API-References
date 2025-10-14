@@ -63,8 +63,8 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [preservePaddingSpacesInFormula](#preservePaddingSpacesInFormula--)| boolean | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [encoding](#encoding--)| EncodingType | Gets and sets the default encoding. Only applies for csv file. |
 | [loadStyleStrategy](#loadStyleStrategy--)| TxtLoadStyleStrategy | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [convertNumericData](#convertNumericData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
-| [convertDateTimeData](#convertDateTimeData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to date data. |
+| [convertNumericData](#convertNumericData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
+| [convertDateTimeData](#convertDateTimeData--)| boolean | Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
 | [keepPrecision](#keepPrecision--)| boolean | Indicates whether not parsing a string value if the length is 15. |
 
 ## Methods
@@ -143,10 +143,10 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [setEncoding(EncodingType)](#setEncoding-encodingtype-)| <b>@deprecated.</b> Please use the 'encoding' property instead. Gets and sets the default encoding. Only applies for csv file. |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--)| <b>@deprecated.</b> Please use the 'loadStyleStrategy' property instead. Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [setLoadStyleStrategy(TxtLoadStyleStrategy)](#setLoadStyleStrategy-txtloadstylestrategy-)| <b>@deprecated.</b> Please use the 'loadStyleStrategy' property instead. Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
-| [getConvertNumericData()](#getConvertNumericData--)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
-| [setConvertNumericData(boolean)](#setConvertNumericData-boolean-)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
-| [getConvertDateTimeData()](#getConvertDateTimeData--)| <b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. |
-| [setConvertDateTimeData(boolean)](#setConvertDateTimeData-boolean-)| <b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. |
+| [getConvertNumericData()](#getConvertNumericData--)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
+| [setConvertNumericData(boolean)](#setConvertNumericData-boolean-)| <b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
+| [getConvertDateTimeData()](#getConvertDateTimeData--)| <b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
+| [setConvertDateTimeData(boolean)](#setConvertDateTimeData-boolean-)| <b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
 | [getKeepPrecision()](#getKeepPrecision--)| <b>@deprecated.</b> Please use the 'keepPrecision' property instead. Indicates whether not parsing a string value if the length is 15. |
 | [setKeepPrecision(boolean)](#setKeepPrecision-boolean-)| <b>@deprecated.</b> Please use the 'keepPrecision' property instead. Indicates whether not parsing a string value if the length is 15. |
 
@@ -580,7 +580,7 @@ loadStyleStrategy : TxtLoadStyleStrategy;
 
 ### convertNumericData {#convertNumericData--}
 
-Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 ```javascript
 convertNumericData : boolean;
@@ -589,7 +589,7 @@ convertNumericData : boolean;
 
 ### convertDateTimeData {#convertDateTimeData--}
 
-Gets or sets a value that indicates whether the string in text file is converted to date data.
+Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 ```javascript
 convertDateTimeData : boolean;
@@ -1579,7 +1579,7 @@ setLoadStyleStrategy(value: TxtLoadStyleStrategy) : void;
 
 ### getConvertNumericData() {#getConvertNumericData--}
 
-<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 ```javascript
 getConvertNumericData() : boolean;
@@ -1588,7 +1588,7 @@ getConvertNumericData() : boolean;
 
 ### setConvertNumericData(boolean) {#setConvertNumericData-boolean-}
 
-<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data.
+<b>@deprecated.</b> Please use the 'convertNumericData' property instead. Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true.
 
 ```javascript
 setConvertNumericData(value: boolean) : void;
@@ -1601,7 +1601,7 @@ setConvertNumericData(value: boolean) : void;
 
 ### getConvertDateTimeData() {#getConvertDateTimeData--}
 
-<b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data.
+<b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 ```javascript
 getConvertDateTimeData() : boolean;
@@ -1610,7 +1610,7 @@ getConvertDateTimeData() : boolean;
 
 ### setConvertDateTimeData(boolean) {#setConvertDateTimeData-boolean-}
 
-<b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data.
+<b>@deprecated.</b> Please use the 'convertDateTimeData' property instead. Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 ```javascript
 setConvertDateTimeData(value: boolean) : void;

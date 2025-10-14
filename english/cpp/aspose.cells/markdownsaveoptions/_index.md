@@ -28,7 +28,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncoding()](./getencoding/) | Gets and sets the default encoding. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [GetExportHyperlinkAsReference()](./getexporthyperlinkasreference/) | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [GetExportHyperlinkAsReference()](./getexporthyperlinkasreference/) | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [GetExportImagesAsBase64()](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). The default value is true. |
 | [GetFormatStrategy()](./getformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [GetImageOptions()](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
@@ -40,6 +40,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
+| [GetSplitTablesByBlankRow()](./getsplittablesbyblankrow/) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to [Markdown](../../aspose.cells.markdown/). The default value is false. |
 | [GetTableHeaderType()](./gettableheadertype/) | Gets and sets how set the header of the table. |
 | [GetUpdateSmartArt()](../saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
@@ -63,7 +64,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncoding(EncodingType value)](./setencoding/) | Gets and sets the default encoding. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
-| [SetExportHyperlinkAsReference(bool value)](./setexporthyperlinkasreference/) | Exports hyperlink using reference definitions instead of inline format. The default value is false. |
+| [SetExportHyperlinkAsReference(bool value)](./setexporthyperlinkasreference/) | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [SetExportImagesAsBase64(bool value)](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). The default value is true. |
 | [SetFormatStrategy(CellValueFormatStrategy value)](./setformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
@@ -74,6 +75,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
+| [SetSplitTablesByBlankRow(bool value)](./setsplittablesbyblankrow/) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to [Markdown](../../aspose.cells.markdown/). The default value is false. |
 | [SetTableHeaderType(MarkdownTableHeaderType value)](./settableheadertype/) | Gets and sets how set the header of the table. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |

@@ -1,13 +1,13 @@
 ---
 title: AbstractTextLoadOptions.ConvertDateTimeData
 second_title: Aspose.Cells for .NET API Reference
-description: AbstractTextLoadOptions property. Gets or sets a value that indicates whether the string in text file is converted to date data
+description: AbstractTextLoadOptions property. Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true
 type: docs
 url: /net/aspose.cells/abstracttextloadoptions/convertdatetimedata/
 ---
 ## AbstractTextLoadOptions.ConvertDateTimeData property
 
-Gets or sets a value that indicates whether the string in text file is converted to date data.
+Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true.
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

@@ -24,7 +24,11 @@ Aspose::Cells::Color Aspose::Cells::Workbook::GetMatchingColor(const Aspose::Cel
 ## ReturnValue
 
 Best matching color.
+## Remarks
 
+
+
+There are only 56 colors in the color palette in Excel 97-2003. If the color is not in the palette, the similar color will be set. 
 ## See Also
 
 * Class [Vector](../../vector/)
