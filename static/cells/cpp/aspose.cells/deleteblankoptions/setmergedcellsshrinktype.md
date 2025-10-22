@@ -1,0 +1,17 @@
+##Aspose::Cells::DeleteBlankOptions::SetMergedCellsShrinkType method
+'Aspose::Cells::DeleteBlankOptions::SetMergedCellsShrinkType method. Indicates how to process merged cells when deleting blank rows/columns in C++.'
+## DeleteBlankOptions::SetMergedCellsShrinkType method
+Indicates how to process merged cells when deleting blank rows/columns.
+```cpp
+void Aspose::Cells::DeleteBlankOptions::SetMergedCellsShrinkType(MergedCellsShrinkType value)
+```
+## Remarks
+For [MergedCellsShrinkType.KeepHeaderOnly](../../mergedcellsshrinktype/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.
+For [MergedCellsShrinkType.None](../../mergedcellsshrinktype/), all cells in it will be taken as non-blank.
+For [MergedCellsShrinkType.ShrinkToFit](../../mergedcellsshrinktype/), all cells outside the content display area will be taken as blank.
+## See Also
+* Class [Vector](../../vector/)
+* Enum [MergedCellsShrinkType](../../mergedcellsshrinktype/)
+* Class [DeleteBlankOptions](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)

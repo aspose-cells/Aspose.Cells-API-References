@@ -1,0 +1,12 @@
+##primary_key_column property
+## primary_key_column property
+Gets the name of the primary key table column for this relationship.
+### Definition:
+```python
+@property
+def primary_key_column(self):
+...
+```
+### See Also
+* module [`aspose.cells.datamodels`](../../)
+* class [`DataModelRelationship`](/cells/python-net/aspose.cells.datamodels/datamodelrelationship)

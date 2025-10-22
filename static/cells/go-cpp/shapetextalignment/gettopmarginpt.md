@@ -1,0 +1,11 @@
+##GetTopMarginPt Method
+'GetTopMarginPt method. Encapsulates the function that represents gettopmarginpt in Go.'
+## GetTopMarginPt function
+Returns the top margin in unit of Points
+```go
+func (instance *ShapeTextAlignment) GetTopMarginPt()  (float64,  error)
+```
+## Remarks
+## See Also
+* Class [ShapeTextAlignment](../)
+* Library [Aspose.Cells for Go](../../)
