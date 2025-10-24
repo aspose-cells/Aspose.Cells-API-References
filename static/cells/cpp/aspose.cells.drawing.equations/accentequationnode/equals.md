@@ -1,0 +1,16 @@
+##Aspose::Cells::Drawing::Equations::AccentEquationNode::Equals method
+'Aspose::Cells::Drawing::Equations::AccentEquationNode::Equals method. Determine whether the current equation node is equal to the specified node in C++.'
+## AccentEquationNode::Equals method
+Determine whether the current equation node is equal to the specified node.
+```cpp
+bool Aspose::Cells::Drawing::Equations::AccentEquationNode::Equals(const Aspose::Cells::Object &obj)
+```
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | const Aspose::Cells::Object\& | The specified node |
+## ReturnValue
+## See Also
+* Class [Object](../../../aspose.cells/object/)
+* Class [AccentEquationNode](../)
+* Namespace [Aspose::Cells::Drawing::Equations](../../)
+* Library [Aspose.Cells for C++](../../../)

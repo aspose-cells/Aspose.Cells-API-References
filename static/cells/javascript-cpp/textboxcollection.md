@@ -1,0 +1,65 @@
+##TextBoxCollection
+Encapsulates a collection of TextBox..textbox objects.
+## TextBoxCollection class
+Encapsulates a collection of [TextBox](../textbox/) objects.
+```javascript
+class TextBoxCollection;
+```
+## Methods
+| Method | Description |
+| --- | --- |
+| [get(number)](#get-number-)| Gets the [TextBox](../textbox/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [TextBox](../textbox/) element by the name. |
+| [add(number, number, number, number)](#add-number-number-number-number-)| Adds a textbox to the collection. |
+| [removeAt(number)](#removeAt-number-)| Remove a text box from the file. |
+| [clear()](#clear--)| Clear all text boxes. |
+### get(number) {#get-number-}
+Gets the [TextBox](../textbox/) element at the specified index.
+```javascript
+get(index: number) : TextBox;
+```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The zero based index of the element. |
+**Returns**
+The element at the specified index.
+### get(string) {#get-string-}
+Gets the [TextBox](../textbox/) element by the name.
+```javascript
+get(name: string) : TextBox;
+```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the text box. |
+**Returns**
+[TextBox](../textbox/)
+### add(number, number, number, number) {#add-number-number-number-number-}
+Adds a textbox to the collection.
+```javascript
+add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number) : number;
+```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | number | Upper left row index. |
+| upperLeftColumn | number | Upper left column index. |
+| height | number | Height of textbox, in unit of pixel. |
+| width | number | Width of textbox, in unit of pixel. |
+**Returns**
+[TextBox](../textbox/) object index.
+### removeAt(number) {#removeAt-number-}
+Remove a text box from the file.
+```javascript
+removeAt(index: number) : void;
+```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The text box index. |
+### clear() {#clear--}
+Clear all text boxes.
+```javascript
+clear() : void;
+```

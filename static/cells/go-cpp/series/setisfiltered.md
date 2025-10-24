@@ -1,0 +1,11 @@
+##SetIsFiltered Method
+'SetIsFiltered method. Encapsulates the function that represents setisfiltered in Go.'
+## SetIsFiltered function
+Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+```go
+func (instance *Series) SetIsFiltered(value bool)  error
+```
+## Remarks
+## See Also
+* Class [Series](../)
+* Library [Aspose.Cells for Go](../../)

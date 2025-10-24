@@ -1,0 +1,11 @@
+##GetWorksheet Method
+'GetWorksheet method. Encapsulates the function that represents getworksheet in Go.'
+## GetWorksheet function
+Gets the Worksheet object which contains this shape.
+```go
+func (instance *CommentShape) GetWorksheet()  (*Worksheet,  error)
+```
+## Remarks
+## See Also
+* Class [CommentShape](../)
+* Library [Aspose.Cells for Go](../../)

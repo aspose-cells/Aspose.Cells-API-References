@@ -1,0 +1,11 @@
+##Worksheet.Dispose
+Worksheet method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+## Worksheet.Dispose method
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+```csharp
+public void Dispose()
+```
+### See Also
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)

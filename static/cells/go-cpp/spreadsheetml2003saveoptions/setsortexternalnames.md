@@ -1,0 +1,11 @@
+##SetSortExternalNames Method
+'SetSortExternalNames method. Encapsulates the function that represents setsortexternalnames in Go.'
+## SetSortExternalNames function
+Indicates whether sorting external defined names before saving file.
+```go
+func (instance *SpreadsheetML2003SaveOptions) SetSortExternalNames(value bool)  error
+```
+## Remarks
+## See Also
+* Class [SpreadsheetML2003SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

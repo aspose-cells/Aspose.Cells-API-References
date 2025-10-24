@@ -1,0 +1,11 @@
+##ImportCSV_String_TxtLoadOptions_Int_Int Method
+'ImportCSV_String_TxtLoadOptions_Int_Int method. Encapsulates the function that represents importcsv in Go.'
+## ImportCSV_String_TxtLoadOptions_Int_Int function
+Import a CSV file to the cells.
+```go
+func (instance *Cells) ImportCSV_String_TxtLoadOptions_Int_Int(filename string, options *TxtLoadOptions, firstrow int32, firstcolumn int32)  error
+```
+## Remarks
+## See Also
+* Class [Cells](../)
+* Library [Aspose.Cells for Go](../../)

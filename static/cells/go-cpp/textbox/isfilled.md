@@ -1,0 +1,11 @@
+##IsFilled Method
+'IsFilled method. Encapsulates the function that represents isfilled in Go.'
+## IsFilled function
+Indicates whether the fill format is visible.
+```go
+func (instance *TextBox) IsFilled()  (bool,  error)
+```
+## Remarks
+## See Also
+* Class [TextBox](../)
+* Library [Aspose.Cells for Go](../../)
