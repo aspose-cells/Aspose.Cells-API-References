@@ -34,6 +34,7 @@ Represents the options of importing data into cells.
 | [getInsertRows()](#getInsertRows--) | Indicates whether new rows should be added for importing data records. |
 | [getNumberFormats()](#getNumberFormats--) | Gets the number formats |
 | [getShiftFirstRowDown()](#getShiftFirstRowDown--) | Indicates whether shifting the first row down when inserting rows. |
+| [getStyles()](#getStyles--) | Gets the styles for each column of the table. |
 | [getTotalColumns()](#getTotalColumns--) | Gets total column count to import from data source. -1 means all rows of given data source. |
 | [getTotalRows()](#getTotalRows--) | Gets total row count to import from data source. -1 means all rows of given data source. |
 | [hashCode()](#hashCode--) |  |
@@ -55,6 +56,7 @@ Represents the options of importing data into cells.
 | [setInsertRows(boolean value)](#setInsertRows-boolean-) | Indicates whether new rows should be added for importing data records. |
 | [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | Sets the number formats |
 | [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | Indicates whether shifting the first row down when inserting rows. |
+| [setStyles(Style[] value)](#setStyles-com.aspose.cells.Style---) | Sets the styles for each column of the table. |
 | [setTotalColumns(int value)](#setTotalColumns-int-) | Sets total column count to import from data source. -1 means all rows of given data source. |
 | [setTotalRows(int value)](#setTotalRows-int-) | Sets total row count to import from data source. -1 means all rows of given data source. |
 | [toString()](#toString--) |  |
@@ -198,6 +200,16 @@ Indicates whether shifting the first row down when inserting rows.
 
 **Returns:**
 boolean
+### getStyles() {#getStyles--}
+```
+public Style[] getStyles()
+```
+
+
+Gets the styles for each column of the table.
+
+**Returns:**
+com.aspose.cells.Style[]
 ### getTotalColumns() {#getTotalColumns--}
 ```
 public int getTotalColumns()
@@ -446,6 +458,19 @@ Indicates whether shifting the first row down when inserting rows.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setStyles(Style[] value) {#setStyles-com.aspose.cells.Style---}
+```
+public void setStyles(Style[] value)
+```
+
+
+Sets the styles for each column of the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Style\[\]](../../com.aspose.cells/style) |  |
 
 ### setTotalColumns(int value) {#setTotalColumns-int-}
 ```

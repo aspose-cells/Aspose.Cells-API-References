@@ -18,20 +18,30 @@ Represents the load file format.
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | Represents recognizing the format automatically. |
-| [CSV](#CSV) | Represents Comma-Separated Values(CSV) text file. |
-| [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents Excel97-2003 xls file. |
+| [AZW_3](#AZW-3) | Represents an AZW3 file. |
+| [CHM](#CHM) | Represents a CHM file. |
+| [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
+| [DBF](#DBF) | Xbase Data file |
+| [DIF](#DIF) | Data Interchange Format. |
+| [EPUB](#EPUB) | Reprents an EPUB file. |
+| [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
-| [HTML](#HTML) | Represents html file. |
-| [M_HTML](#M-HTML) | Represents mhtml file. |
-| [NUMBERS](#NUMBERS) | Represents numbers file. |
-| [ODS](#ODS) | Represents Open Document Sheet(ODS) file. |
-| [SPREADSHEET_ML](#SPREADSHEET-ML) | Represents Excel 2003 xml file. |
+| [HTML](#HTML) | Represents a html file. |
+| [IMAGE](#IMAGE) | Image |
+| [JSON](#JSON) | Json |
+| [MARKDOWN](#MARKDOWN) | Represents a Markdown file. |
+| [M_HTML](#M-HTML) | Represents a mhtml file. |
+| [NUMBERS](#NUMBERS) | Represents a numbers file. |
+| [ODS](#ODS) | Open Document Sheet(ODS) file. |
+| [OTS](#OTS) | Open Document Template Sheet(OTS) file. |
+| [SPREADSHEET_ML](#SPREADSHEET-ML) | Represents an Excel 2003 xml file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Represents tab delimited text file, same with [TSV](../../com.aspose.gridjs/gridloadformat\#TSV). |
-| [TSV](#TSV) | Represents TSV(tab-separated values file) file. |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with [TSV](../../com.aspose.gridjs/gridloadformat\#TSV). |
+| [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
-| [XLSB](#XLSB) | Represents xlsb file. |
+| [XLSB](#XLSB) | Represents an xlsb file. |
 | [XLSX](#XLSX) | Represents Office Open XML spreadsheetML workbook or template, with or without macros. |
+| [XML](#XML) | Represents a simple xml file. |
 ## Methods
 
 | Method | Description |
@@ -53,13 +63,53 @@ public static final int AUTO
 
 Represents recognizing the format automatically.
 
+### AZW_3 {#AZW-3}
+```
+public static final int AZW_3
+```
+
+
+Represents an AZW3 file.
+
+### CHM {#CHM}
+```
+public static final int CHM
+```
+
+
+Represents a CHM file.
+
 ### CSV {#CSV}
 ```
 public static final int CSV
 ```
 
 
-Represents Comma-Separated Values(CSV) text file.
+Comma-Separated Values(CSV) text file.
+
+### DBF {#DBF}
+```
+public static final int DBF
+```
+
+
+Xbase Data file
+
+### DIF {#DIF}
+```
+public static final int DIF
+```
+
+
+Data Interchange Format.
+
+### EPUB {#EPUB}
+```
+public static final int EPUB
+```
+
+
+Reprents an EPUB file.
 
 ### EXCEL_97_TO_2003 {#EXCEL-97-TO-2003}
 ```
@@ -67,7 +117,7 @@ public static final int EXCEL_97_TO_2003
 ```
 
 
-Represents Excel97-2003 xls file.
+Represents an Excel97-2003 xls file.
 
 ### FODS {#FODS}
 ```
@@ -83,7 +133,31 @@ public static final int HTML
 ```
 
 
-Represents html file.
+Represents a html file.
+
+### IMAGE {#IMAGE}
+```
+public static final int IMAGE
+```
+
+
+Image
+
+### JSON {#JSON}
+```
+public static final int JSON
+```
+
+
+Json
+
+### MARKDOWN {#MARKDOWN}
+```
+public static final int MARKDOWN
+```
+
+
+Represents a Markdown file.
 
 ### M_HTML {#M-HTML}
 ```
@@ -91,7 +165,7 @@ public static final int M_HTML
 ```
 
 
-Represents mhtml file.
+Represents a mhtml file.
 
 ### NUMBERS {#NUMBERS}
 ```
@@ -99,7 +173,7 @@ public static final int NUMBERS
 ```
 
 
-Represents numbers file.
+Represents a numbers file.
 
 ### ODS {#ODS}
 ```
@@ -107,7 +181,15 @@ public static final int ODS
 ```
 
 
-Represents Open Document Sheet(ODS) file.
+Open Document Sheet(ODS) file.
+
+### OTS {#OTS}
+```
+public static final int OTS
+```
+
+
+Open Document Template Sheet(OTS) file.
 
 ### SPREADSHEET_ML {#SPREADSHEET-ML}
 ```
@@ -115,7 +197,7 @@ public static final int SPREADSHEET_ML
 ```
 
 
-Represents Excel 2003 xml file.
+Represents an Excel 2003 xml file.
 
 ### SXC {#SXC}
 ```
@@ -131,7 +213,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Represents tab delimited text file, same with [TSV](../../com.aspose.gridjs/gridloadformat\#TSV).
+Represents a tab delimited text file, same with [TSV](../../com.aspose.gridjs/gridloadformat\#TSV).
 
 ### TSV {#TSV}
 ```
@@ -139,7 +221,7 @@ public static final int TSV
 ```
 
 
-Represents TSV(tab-separated values file) file.
+Tab-Separated Values(TSV) text file.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -155,7 +237,7 @@ public static final int XLSB
 ```
 
 
-Represents xlsb file.
+Represents an xlsb file.
 
 ### XLSX {#XLSX}
 ```
@@ -164,6 +246,14 @@ public static final int XLSX
 
 
 Represents Office Open XML spreadsheetML workbook or template, with or without macros.
+
+### XML {#XML}
+```
+public static final int XML
+```
+
+
+Represents a simple xml file.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

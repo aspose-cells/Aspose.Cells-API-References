@@ -113,7 +113,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CollectionBase](../com.aspose.cells/collectionbase) | Provides the abstract base class for a strongly typed collection. |
 | [Color](../com.aspose.cells/color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [ColorDepth](../com.aspose.cells/colordepth) | Enumerates Bit Depth Type for tiff image. |
-| [ColorFilter](../com.aspose.cells/colorfilter) | Represents filtering the range by color. |
+| [ColorFilter](../com.aspose.cells/colorfilter) | Represents setting for filtering the range by color. |
 | [ColorHelper](../com.aspose.cells/colorhelper) | Provides helper functions about color. |
 | [ColorScale](../com.aspose.cells/colorscale) | Describe the ColorScale conditional formatting rule. |
 | [ColorType](../com.aspose.cells/colortype) | Represents all color type |
@@ -164,7 +164,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CustomGeometry](../com.aspose.cells/customgeometry) | Represents a custom geometric shape. |
 | [CustomImplementationFactory](../com.aspose.cells/customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
 | [CustomPiovtFieldGroupItem](../com.aspose.cells/custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
-| [CustomProperty](../com.aspose.cells/customproperty) | Represents identifier information. |
+| [CustomProperty](../com.aspose.cells/customproperty) | Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet. |
 | [CustomPropertyCollection](../com.aspose.cells/custompropertycollection) | A collection of [CustomProperty](../com.aspose.cells/customproperty) objects that represent additional information. |
 | [CustomRenderSettings](../com.aspose.cells/customrendersettings) | Represents custom settings during rendering. |
 | [CustomXmlPart](../com.aspose.cells/customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
@@ -320,6 +320,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlFormatHandlingType](../com.aspose.cells/htmlformathandlingtype) | Specifies how to handle formatting from the HTML source |
 | [HtmlHiddenColDisplayType](../com.aspose.cells/htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
 | [HtmlHiddenRowDisplayType](../com.aspose.cells/htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
+| [HtmlLayoutMode](../com.aspose.cells/htmllayoutmode) | Represents the layout mode for HTML rendering. |
 | [HtmlLinkTargetType](../com.aspose.cells/htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
 | [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
@@ -371,8 +372,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ListBox](../com.aspose.cells/listbox) | Represents a list box object. |
 | [ListBoxActiveXControl](../com.aspose.cells/listboxactivexcontrol) | Represents a ListBox ActiveX control. |
 | [ListColumn](../com.aspose.cells/listcolumn) | Represents a column in a Table. |
-| [ListColumnCollection](../com.aspose.cells/listcolumncollection) | Represents A collection of all the [ListColumn](../com.aspose.cells/listcolumn) objects in the specified ListObject object. |
-| [ListObject](../com.aspose.cells/listobject) | Represents a list object on a worksheet. |
+| [ListColumnCollection](../com.aspose.cells/listcolumncollection) | Represents a list of all the [ListColumn](../com.aspose.cells/listcolumn) objects in the table. |
+| [ListObject](../com.aspose.cells/listobject) | Represents a table in a worksheet. |
 | [ListObjectCollection](../com.aspose.cells/listobjectcollection) | Represents a collection of [ListObject](../com.aspose.cells/listobject) objects in the worksheet. |
 | [LoadDataFilterOptions](../com.aspose.cells/loaddatafilteroptions) | Represents the options to filter data when loading workbook from template. |
 | [LoadFilter](../com.aspose.cells/loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
@@ -496,12 +497,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotFieldDataDisplayFormat](../com.aspose.cells/pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
 | [PivotFieldGroupSettings](../com.aspose.cells/pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldGroupType](../com.aspose.cells/pivotfieldgrouptype) | Represents the group type of pivot field. |
-| [PivotFieldSortSetting](../com.aspose.cells/pivotfieldsortsetting) | Represents the setting of sorting pivot fields. |
+| [PivotFieldSortSetting](../com.aspose.cells/pivotfieldsortsetting) | Represents the setting for sorting pivot fields. |
 | [PivotFieldSubtotalType](../com.aspose.cells/pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](../com.aspose.cells/pivotfieldtype) | Represents PivotTable field type. |
 | [PivotFilter](../com.aspose.cells/pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
-| [PivotFilterCollection](../com.aspose.cells/pivotfiltercollection) | Represents a collection of all the PivotFilter objects |
-| [PivotFilterType](../com.aspose.cells/pivotfiltertype) | Represents PivotTable Filter type. |
+| [PivotFilterCollection](../com.aspose.cells/pivotfiltercollection) | Represents a collection of all the PivotFilters. |
+| [PivotFilterType](../com.aspose.cells/pivotfiltertype) | Represents the filter type of the pivot table. |
 | [PivotFormatCondition](../com.aspose.cells/pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotFormatConditionCollection](../com.aspose.cells/pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
 | [PivotGlobalizationSettings](../com.aspose.cells/pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
@@ -514,12 +515,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
-| [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. |
+| [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page items if the pivot table data source is consolidation ranges. |
 | [PivotRefreshState](../com.aspose.cells/pivotrefreshstate) | The state for refreshing pivot tables. |
 | [PivotShowValuesSetting](../com.aspose.cells/pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
-| [PivotTableCalculateOption](../com.aspose.cells/pivottablecalculateoption) | Rerepsents the options of calcuating the pivot table. |
+| [PivotTableCalculateOption](../com.aspose.cells/pivottablecalculateoption) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](../com.aspose.cells/pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
@@ -696,7 +697,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SxRng](../com.aspose.cells/sxrng) | Represents Group Range in a PivotField. |
 | [SystemTimeInterruptMonitor](../com.aspose.cells/systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by checking and comparing current system time with user specified limit. |
 | [TableDataSourceType](../com.aspose.cells/tabledatasourcetype) | Represents the table's data source type. |
-| [TableStyle](../com.aspose.cells/tablestyle) | Represents the table style. |
+| [TableStyle](../com.aspose.cells/tablestyle) | Represents the style of the table. |
 | [TableStyleCollection](../com.aspose.cells/tablestylecollection) | Represents all custom table styles. |
 | [TableStyleElement](../com.aspose.cells/tablestyleelement) | Represents the element of the table style. |
 | [TableStyleElementCollection](../com.aspose.cells/tablestyleelementcollection) | Represents all elements of the table style. |
@@ -753,7 +754,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Title](../com.aspose.cells/title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](../com.aspose.cells/togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |
 | [Top10](../com.aspose.cells/top10) | Describe the Top10 conditional formatting rule. |
-| [Top10Filter](../com.aspose.cells/top10filter) | Represents the top 10 filter. |
+| [Top10Filter](../com.aspose.cells/top10filter) | Represents the top N (percent or number of items) to filter by. |
 | [TotalsCalculation](../com.aspose.cells/totalscalculation) | Determines the type of calculation in the Totals row of the list column. |
 | [Trendline](../com.aspose.cells/trendline) | Represents a trendline in a chart. |
 | [TrendlineCollection](../com.aspose.cells/trendlinecollection) | Represents a collection of all the [Trendline](../com.aspose.cells/trendline) objects for the specified data series. |

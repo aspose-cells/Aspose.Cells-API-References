@@ -1,7 +1,7 @@
 ---
 title: TableStyle
 second_title: Aspose.Cells for Java API Reference
-description: Represents the table style.
+description: Represents the style of the table.
 type: docs
 url: /java/com.aspose.cells/tablestyle/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class TableStyle
 ```
 
-Represents the table style.
+Represents the style of the table.
 
 **Example**
 

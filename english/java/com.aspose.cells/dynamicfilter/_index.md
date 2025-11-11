@@ -19,13 +19,13 @@ Represents the dynamic filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDynamicFilterType()](#getDynamicFilterType--) | Gets the dynamic filter type. |
+| [getDynamicFilterType()](#getDynamicFilterType--) | Gets the type of this dynamic filter. |
 | [getMaxValue()](#getMaxValue--) | Gets the dynamic filter max value. |
 | [getValue()](#getValue--) | Gets the dynamic filter value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | Sets the dynamic filter type. |
+| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | Sets the type of this dynamic filter. |
 | [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | Sets the dynamic filter max value. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Sets the dynamic filter value. |
 | [toString()](#toString--) |  |
@@ -63,7 +63,7 @@ public int getDynamicFilterType()
 ```
 
 
-Gets the dynamic filter type.
+Gets the type of this dynamic filter.
 
 See [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
 
@@ -121,7 +121,7 @@ public void setDynamicFilterType(int value)
 ```
 
 
-Sets the dynamic filter type.
+Sets the type of this dynamic filter.
 
 See [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
 

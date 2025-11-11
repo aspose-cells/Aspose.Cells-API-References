@@ -39,6 +39,7 @@ Represents the save options for markdown.
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
 | [getLineSeparator()](#getLineSeparator--) | Gets the line separator. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [getOfficeMathOutputType()](#getOfficeMathOutputType--) | Indicates how export OfficeMath objects to Markdown, Default value is Image. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
@@ -67,6 +68,7 @@ Represents the save options for markdown.
 | [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
 | [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | Sets the line separator. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setOfficeMathOutputType(int value)](#setOfficeMathOutputType-int-) | Indicates how export OfficeMath objects to Markdown, Default value is Image. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -290,6 +292,18 @@ The default value is false.
 
 **Returns:**
 boolean
+### getOfficeMathOutputType() {#getOfficeMathOutputType--}
+```
+public int getOfficeMathOutputType()
+```
+
+
+Indicates how export OfficeMath objects to Markdown, Default value is Image.
+
+See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
+
+**Returns:**
+int
 ### getRefreshChartCache() {#getRefreshChartCache--}
 ```
 public boolean getRefreshChartCache()
@@ -649,6 +663,21 @@ The default value is false.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setOfficeMathOutputType(int value) {#setOfficeMathOutputType-int-}
+```
+public void setOfficeMathOutputType(int value)
+```
+
+
+Indicates how export OfficeMath objects to Markdown, Default value is Image.
+
+See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
 ```

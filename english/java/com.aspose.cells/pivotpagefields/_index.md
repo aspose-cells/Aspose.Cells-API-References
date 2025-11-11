@@ -1,7 +1,7 @@
 ---
 title: PivotPageFields
 second_title: Aspose.Cells for Java API Reference
-description: Represents the pivot page field items  if the pivot table data source is consolidation ranges.
+description: Represents the pivot page items  if the pivot table data source is consolidation ranges.
 type: docs
 url: /java/com.aspose.cells/pivotpagefields/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class PivotPageFields
 ```
 
-Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
+Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items.
 ## Constructors
 
 | Constructor | Description |

@@ -24,6 +24,7 @@ Implementation of PivotGlobalizationSettings that supports user to set/change pr
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getNameOfDataField(int function, String name)](#getNameOfDataField-int-java.lang.String-) | Gets the display name of data pivot field. |
 | [getShortTextOf12Months()](#getShortTextOf12Months--) | Gets all short formatted string of 12 months. |
 | [getTextOf4Quaters()](#getTextOf4Quaters--) | Gets the local text of 4 Quaters. |
 | [getTextOfAll()](#getTextOfAll--) | Gets the text of "(All)" label in the PivotTable. |
@@ -94,6 +95,22 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getNameOfDataField(int function, String name) {#getNameOfDataField-int-java.lang.String-}
+```
+public String getNameOfDataField(int function, String name)
+```
+
+
+Gets the display name of data pivot field. The default format is "Sum Of Field".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| function | int | [ConsolidationFunction](../../com.aspose.cells/consolidationfunction). The function is used to summarize values of pivot field. |
+| name | java.lang.String | The original name of the pivot field. |
+
+**Returns:**
+java.lang.String - 
 ### getShortTextOf12Months() {#getShortTextOf12Months--}
 ```
 public String[] getShortTextOf12Months()

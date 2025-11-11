@@ -1,7 +1,7 @@
 ---
 title: ListColumnCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents A collection of all the  objects in the specified ListObject object.
+description: Represents a list of all the  objects in the table.
 type: docs
 url: /java/com.aspose.cells/listcolumncollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class ListColumnCollection extends CollectionBase
 ```
 
-Represents A collection of all the [ListColumn](../../com.aspose.cells/listcolumn) objects in the specified ListObject object.
+Represents a list of all the [ListColumn](../../com.aspose.cells/listcolumn) objects in the table.
 ## Methods
 
 | Method | Description |

@@ -1,7 +1,7 @@
 ---
 title: ColorFilter
 second_title: Aspose.Cells for Java API Reference
-description: Represents filtering the range by color.
+description: Represents setting for filtering the range by color.
 type: docs
 url: /java/com.aspose.cells/colorfilter/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ColorFilter
 ```
 
-Represents filtering the range by color.
+Represents setting for filtering the range by color.
 ## Methods
 
 | Method | Description |

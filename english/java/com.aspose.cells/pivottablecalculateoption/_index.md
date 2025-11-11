@@ -1,7 +1,7 @@
 ---
 title: PivotTableCalculateOption
 second_title: Aspose.Cells for Java API Reference
-description: Rerepsents the options of calcuating the pivot table.
+description: Rerepsents the options of calculating data of the pivot table.
 type: docs
 url: /java/com.aspose.cells/pivottablecalculateoption/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class PivotTableCalculateOption
 ```
 
-Rerepsents the options of calcuating the pivot table.
+Rerepsents the options of calculating data of the pivot table.
 ## Constructors
 
 | Constructor | Description |
@@ -86,6 +86,10 @@ public boolean getRefreshData()
 
 Indicates whether refreshing data source of the pivottable.
 
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+
 **Returns:**
 boolean
 ### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
@@ -150,6 +154,10 @@ public void setRefreshData(boolean value)
 
 
 Indicates whether refreshing data source of the pivottable.
+
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 **Parameters:**
 | Parameter | Type | Description |

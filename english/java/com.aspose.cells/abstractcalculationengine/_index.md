@@ -70,6 +70,7 @@ User should not modify any part of the Workbook directly in this implementation(
 | [isParamLiteralRequired()](#isParamLiteralRequired--) | Indicates whether this engine needs the literal text of parameter while doing calculation. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [skipCalculation()](#skipCalculation--) | Skips the calculation for the entire formula that references to the function currently under evaluation. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -208,6 +209,18 @@ public final native void notifyAll()
 
 
 
+
+### skipCalculation() {#skipCalculation--}
+```
+public void skipCalculation()
+```
+
+
+Skips the calculation for the entire formula that references to the function currently under evaluation.
+
+**Remarks**
+
+This method can be invoked in the implementation of [calculate(CalculationData)](../../com.aspose.cells/abstractcalculationengine\#calculate-CalculationData-) to skip the calculation for the entire formula and the original value of the formula will be kept without change.
 
 ### toString() {#toString--}
 ```
