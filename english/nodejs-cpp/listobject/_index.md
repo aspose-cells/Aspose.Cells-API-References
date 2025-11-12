@@ -1,14 +1,14 @@
 ﻿---
 title: ListObject
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+description: Represents a table in a worksheet.
 type: docs
 url: /nodejs-cpp/listobject/
 ---
 
 ## ListObject class
 
-Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+Represents a table in a worksheet.
 
 ```javascript
 class ListObject;
@@ -44,19 +44,20 @@ workbook.save("output/Book1.xlsx");
 | [startColumn](#startColumn--)| number | Readonly. Gets the start column of the range. |
 | [endRow](#endRow--)| number | Readonly. Gets the end  row of the range. |
 | [endColumn](#endColumn--)| number | Readonly. Gets the end column of the range. |
-| [listColumns](#listColumns--)| ListColumnCollection | Readonly. Gets ListColumns of the ListObject. |
-| [showHeaderRow](#showHeaderRow--)| boolean | Gets and sets whether this ListObject show header row. |
-| [showTotals](#showTotals--)| boolean | Gets and sets whether this ListObject show total row. |
-| [dataRange](#dataRange--)| Range | Readonly. Gets the data range of the ListObject. |
+| [listColumns](#listColumns--)| ListColumnCollection | Readonly. Gets the [ListColumn](../listcolumn/) list of this table. |
+| [showHeaderRow](#showHeaderRow--)| boolean | Gets and sets whether this Table shows header row. |
+| [showTotals](#showTotals--)| boolean | Gets and sets whether this TAble shows total row. |
+| [dataRange](#dataRange--)| Range | Readonly. Gets the data range of the Table. |
 | [queryTable](#queryTable--)| QueryTable | Readonly. Gets the linked QueryTable. |
 | [dataSourceType](#dataSourceType--)| TableDataSourceType | Readonly. Gets the data source type of the table. |
-| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets auto filter. |
-| [displayName](#displayName--)| string | Gets and sets the display name. |
+| [hasAutoFilter](#hasAutoFilter--)| boolean | Indicates whether auto filter is applied to this table. |
+| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets auto filter of this table. |
+| [displayName](#displayName--)| string | Gets and sets the display name of the table. |
 | [comment](#comment--)| string | Gets and sets the comment of the table. |
-| [showTableStyleFirstColumn](#showTableStyleFirstColumn--)| boolean | Indicates whether the first column in the table should have the style applied. |
-| [showTableStyleLastColumn](#showTableStyleLastColumn--)| boolean | Indicates whether the last column in the table should have the style applied. |
-| [showTableStyleRowStripes](#showTableStyleRowStripes--)| boolean | Indicates whether row stripe formatting is applied. |
-| [showTableStyleColumnStripes](#showTableStyleColumnStripes--)| boolean | Indicates whether column stripe formatting is applied. |
+| [showTableStyleFirstColumn](#showTableStyleFirstColumn--)| boolean | Indicates whether the first column in the table is the style applied to. |
+| [showTableStyleLastColumn](#showTableStyleLastColumn--)| boolean | Indicates whether the last column in the table is the style applied to. |
+| [showTableStyleRowStripes](#showTableStyleRowStripes--)| boolean | Indicates whether row stripe formatting is applied to. |
+| [showTableStyleColumnStripes](#showTableStyleColumnStripes--)| boolean | Indicates whether column stripe formatting is applied to. |
 | [tableStyleType](#tableStyleType--)| TableStyleType | Gets and the built-in table style. |
 | [tableStyleName](#tableStyleName--)| string | Gets and sets the table style name. |
 | [xmlMap](#xmlMap--)| XmlMap | Readonly. Gets an [XmlMap](../xmlmap/) used for this list. |
@@ -71,27 +72,29 @@ workbook.save("output/Book1.xlsx");
 | [getStartColumn()](#getStartColumn--)| <b>@deprecated.</b> Please use the 'startColumn' property instead. Gets the start column of the range. |
 | [getEndRow()](#getEndRow--)| <b>@deprecated.</b> Please use the 'endRow' property instead. Gets the end  row of the range. |
 | [getEndColumn()](#getEndColumn--)| <b>@deprecated.</b> Please use the 'endColumn' property instead. Gets the end column of the range. |
-| [getListColumns()](#getListColumns--)| <b>@deprecated.</b> Please use the 'listColumns' property instead. Gets ListColumns of the ListObject. |
-| [getShowHeaderRow()](#getShowHeaderRow--)| <b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this ListObject show header row. |
-| [setShowHeaderRow(boolean)](#setShowHeaderRow-boolean-)| <b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this ListObject show header row. |
-| [getShowTotals()](#getShowTotals--)| <b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this ListObject show total row. |
-| [setShowTotals(boolean)](#setShowTotals-boolean-)| <b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this ListObject show total row. |
-| [getDataRange()](#getDataRange--)| <b>@deprecated.</b> Please use the 'dataRange' property instead. Gets the data range of the ListObject. |
+| [getListColumns()](#getListColumns--)| <b>@deprecated.</b> Please use the 'listColumns' property instead. Gets the [ListColumn](../listcolumn/) list of this table. |
+| [getShowHeaderRow()](#getShowHeaderRow--)| <b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this Table shows header row. |
+| [setShowHeaderRow(boolean)](#setShowHeaderRow-boolean-)| <b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this Table shows header row. |
+| [getShowTotals()](#getShowTotals--)| <b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this TAble shows total row. |
+| [setShowTotals(boolean)](#setShowTotals-boolean-)| <b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this TAble shows total row. |
+| [getDataRange()](#getDataRange--)| <b>@deprecated.</b> Please use the 'dataRange' property instead. Gets the data range of the Table. |
 | [getQueryTable()](#getQueryTable--)| <b>@deprecated.</b> Please use the 'queryTable' property instead. Gets the linked QueryTable. |
 | [getDataSourceType()](#getDataSourceType--)| <b>@deprecated.</b> Please use the 'dataSourceType' property instead. Gets the data source type of the table. |
-| [getAutoFilter()](#getAutoFilter--)| <b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets auto filter. |
-| [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name. |
-| [setDisplayName(string)](#setDisplayName-string-)| <b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name. |
+| [getHasAutoFilter()](#getHasAutoFilter--)| <b>@deprecated.</b> Please use the 'hasAutoFilter' property instead. Indicates whether auto filter is applied to this table. |
+| [setHasAutoFilter(boolean)](#setHasAutoFilter-boolean-)| <b>@deprecated.</b> Please use the 'hasAutoFilter' property instead. Indicates whether auto filter is applied to this table. |
+| [getAutoFilter()](#getAutoFilter--)| <b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets auto filter of this table. |
+| [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name of the table. |
+| [setDisplayName(string)](#setDisplayName-string-)| <b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name of the table. |
 | [getComment()](#getComment--)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the table. |
 | [setComment(string)](#setComment-string-)| <b>@deprecated.</b> Please use the 'comment' property instead. Gets and sets the comment of the table. |
-| [getShowTableStyleFirstColumn()](#getShowTableStyleFirstColumn--)| <b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table should have the style applied. |
-| [setShowTableStyleFirstColumn(boolean)](#setShowTableStyleFirstColumn-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table should have the style applied. |
-| [getShowTableStyleLastColumn()](#getShowTableStyleLastColumn--)| <b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table should have the style applied. |
-| [setShowTableStyleLastColumn(boolean)](#setShowTableStyleLastColumn-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table should have the style applied. |
-| [getShowTableStyleRowStripes()](#getShowTableStyleRowStripes--)| <b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied. |
-| [setShowTableStyleRowStripes(boolean)](#setShowTableStyleRowStripes-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied. |
-| [getShowTableStyleColumnStripes()](#getShowTableStyleColumnStripes--)| <b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied. |
-| [setShowTableStyleColumnStripes(boolean)](#setShowTableStyleColumnStripes-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied. |
+| [getShowTableStyleFirstColumn()](#getShowTableStyleFirstColumn--)| <b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table is the style applied to. |
+| [setShowTableStyleFirstColumn(boolean)](#setShowTableStyleFirstColumn-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table is the style applied to. |
+| [getShowTableStyleLastColumn()](#getShowTableStyleLastColumn--)| <b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table is the style applied to. |
+| [setShowTableStyleLastColumn(boolean)](#setShowTableStyleLastColumn-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table is the style applied to. |
+| [getShowTableStyleRowStripes()](#getShowTableStyleRowStripes--)| <b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied to. |
+| [setShowTableStyleRowStripes(boolean)](#setShowTableStyleRowStripes-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied to. |
+| [getShowTableStyleColumnStripes()](#getShowTableStyleColumnStripes--)| <b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied to. |
+| [setShowTableStyleColumnStripes(boolean)](#setShowTableStyleColumnStripes-boolean-)| <b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied to. |
 | [getTableStyleType()](#getTableStyleType--)| <b>@deprecated.</b> Please use the 'tableStyleType' property instead. Gets and the built-in table style. |
 | [setTableStyleType(TableStyleType)](#setTableStyleType-tablestyletype-)| <b>@deprecated.</b> Please use the 'tableStyleType' property instead. Gets and the built-in table style. |
 | [getTableStyleName()](#getTableStyleName--)| <b>@deprecated.</b> Please use the 'tableStyleName' property instead. Gets and sets the table style name. |
@@ -106,7 +109,8 @@ workbook.save("output/Book1.xlsx");
 | [putCellValue(number, number, Object, boolean)](#putCellValue-number-number-object-boolean-)| Put the value to the cell. |
 | [putCellFormula(number, number, string)](#putCellFormula-number-number-string-)| Put the formula to the cell in the table. |
 | [putCellFormula(number, number, string, boolean)](#putCellFormula-number-number-string-boolean-)| Put the formula to the cell in the table. |
-| [updateColumnName()](#updateColumnName--)| Updates all list columns' name from the worksheet. |
+| [updateColumnName()](#updateColumnName--)| Updates all list columns' name to cells in the table. |
+| [removeAutoFilter()](#removeAutoFilter--)| Removes auto filter which is applied to this table. |
 | [filter()](#filter--)| Filter the table. |
 | [applyStyleToRange()](#applyStyleToRange--)| Apply the table style to the range. |
 | [convertToRange()](#convertToRange--)| Convert the table to range. |
@@ -152,7 +156,7 @@ endColumn : number;
 
 ### listColumns {#listColumns--}
 
-Readonly. Gets ListColumns of the ListObject.
+Readonly. Gets the [ListColumn](../listcolumn/) list of this table.
 
 ```javascript
 listColumns : ListColumnCollection;
@@ -161,7 +165,7 @@ listColumns : ListColumnCollection;
 
 ### showHeaderRow {#showHeaderRow--}
 
-Gets and sets whether this ListObject show header row.
+Gets and sets whether this Table shows header row.
 
 ```javascript
 showHeaderRow : boolean;
@@ -170,7 +174,7 @@ showHeaderRow : boolean;
 
 ### showTotals {#showTotals--}
 
-Gets and sets whether this ListObject show total row.
+Gets and sets whether this TAble shows total row.
 
 ```javascript
 showTotals : boolean;
@@ -179,7 +183,7 @@ showTotals : boolean;
 
 ### dataRange {#dataRange--}
 
-Readonly. Gets the data range of the ListObject.
+Readonly. Gets the data range of the Table.
 
 ```javascript
 dataRange : Range;
@@ -204,18 +208,31 @@ dataSourceType : TableDataSourceType;
 ```
 
 
+### hasAutoFilter {#hasAutoFilter--}
+
+Indicates whether auto filter is applied to this table.
+
+```javascript
+hasAutoFilter : boolean;
+```
+
+
 ### autoFilter {#autoFilter--}
 
-Readonly. Gets auto filter.
+Readonly. Gets auto filter of this table.
 
 ```javascript
 autoFilter : AutoFilter;
 ```
 
 
+**Remarks**
+
+It works only when [HasAutoFilter](../hasautofilter/) is false.
+
 ### displayName {#displayName--}
 
-Gets and sets the display name.
+Gets and sets the display name of the table.
 
 ```javascript
 displayName : string;
@@ -233,7 +250,7 @@ comment : string;
 
 ### showTableStyleFirstColumn {#showTableStyleFirstColumn--}
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 ```javascript
 showTableStyleFirstColumn : boolean;
@@ -242,7 +259,7 @@ showTableStyleFirstColumn : boolean;
 
 ### showTableStyleLastColumn {#showTableStyleLastColumn--}
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 ```javascript
 showTableStyleLastColumn : boolean;
@@ -251,7 +268,7 @@ showTableStyleLastColumn : boolean;
 
 ### showTableStyleRowStripes {#showTableStyleRowStripes--}
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 ```javascript
 showTableStyleRowStripes : boolean;
@@ -260,7 +277,7 @@ showTableStyleRowStripes : boolean;
 
 ### showTableStyleColumnStripes {#showTableStyleColumnStripes--}
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 ```javascript
 showTableStyleColumnStripes : boolean;
@@ -350,7 +367,7 @@ getEndColumn() : number;
 
 ### getListColumns() {#getListColumns--}
 
-<b>@deprecated.</b> Please use the 'listColumns' property instead. Gets ListColumns of the ListObject.
+<b>@deprecated.</b> Please use the 'listColumns' property instead. Gets the [ListColumn](../listcolumn/) list of this table.
 
 ```javascript
 getListColumns() : ListColumnCollection;
@@ -363,7 +380,7 @@ getListColumns() : ListColumnCollection;
 
 ### getShowHeaderRow() {#getShowHeaderRow--}
 
-<b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this ListObject show header row.
+<b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this Table shows header row.
 
 ```javascript
 getShowHeaderRow() : boolean;
@@ -372,7 +389,7 @@ getShowHeaderRow() : boolean;
 
 ### setShowHeaderRow(boolean) {#setShowHeaderRow-boolean-}
 
-<b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this ListObject show header row.
+<b>@deprecated.</b> Please use the 'showHeaderRow' property instead. Gets and sets whether this Table shows header row.
 
 ```javascript
 setShowHeaderRow(value: boolean) : void;
@@ -385,7 +402,7 @@ setShowHeaderRow(value: boolean) : void;
 
 ### getShowTotals() {#getShowTotals--}
 
-<b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this ListObject show total row.
+<b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this TAble shows total row.
 
 ```javascript
 getShowTotals() : boolean;
@@ -394,7 +411,7 @@ getShowTotals() : boolean;
 
 ### setShowTotals(boolean) {#setShowTotals-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this ListObject show total row.
+<b>@deprecated.</b> Please use the 'showTotals' property instead. Gets and sets whether this TAble shows total row.
 
 ```javascript
 setShowTotals(value: boolean) : void;
@@ -407,7 +424,7 @@ setShowTotals(value: boolean) : void;
 
 ### getDataRange() {#getDataRange--}
 
-<b>@deprecated.</b> Please use the 'dataRange' property instead. Gets the data range of the ListObject.
+<b>@deprecated.</b> Please use the 'dataRange' property instead. Gets the data range of the Table.
 
 ```javascript
 getDataRange() : Range;
@@ -444,9 +461,31 @@ getDataSourceType() : TableDataSourceType;
 
 [TableDataSourceType](../tabledatasourcetype/)
 
+### getHasAutoFilter() {#getHasAutoFilter--}
+
+<b>@deprecated.</b> Please use the 'hasAutoFilter' property instead. Indicates whether auto filter is applied to this table.
+
+```javascript
+getHasAutoFilter() : boolean;
+```
+
+
+### setHasAutoFilter(boolean) {#setHasAutoFilter-boolean-}
+
+<b>@deprecated.</b> Please use the 'hasAutoFilter' property instead. Indicates whether auto filter is applied to this table.
+
+```javascript
+setHasAutoFilter(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### getAutoFilter() {#getAutoFilter--}
 
-<b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets auto filter.
+<b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets auto filter of this table.
 
 ```javascript
 getAutoFilter() : AutoFilter;
@@ -457,9 +496,13 @@ getAutoFilter() : AutoFilter;
 
 [AutoFilter](../autofilter/)
 
+**Remarks**
+
+It works only when [HasAutoFilter](../hasautofilter/) is false.
+
 ### getDisplayName() {#getDisplayName--}
 
-<b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name.
+<b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name of the table.
 
 ```javascript
 getDisplayName() : string;
@@ -468,7 +511,7 @@ getDisplayName() : string;
 
 ### setDisplayName(string) {#setDisplayName-string-}
 
-<b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name.
+<b>@deprecated.</b> Please use the 'displayName' property instead. Gets and sets the display name of the table.
 
 ```javascript
 setDisplayName(value: string) : void;
@@ -503,7 +546,7 @@ setComment(value: string) : void;
 
 ### getShowTableStyleFirstColumn() {#getShowTableStyleFirstColumn--}
 
-<b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table should have the style applied.
+<b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table is the style applied to.
 
 ```javascript
 getShowTableStyleFirstColumn() : boolean;
@@ -512,7 +555,7 @@ getShowTableStyleFirstColumn() : boolean;
 
 ### setShowTableStyleFirstColumn(boolean) {#setShowTableStyleFirstColumn-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table should have the style applied.
+<b>@deprecated.</b> Please use the 'showTableStyleFirstColumn' property instead. Indicates whether the first column in the table is the style applied to.
 
 ```javascript
 setShowTableStyleFirstColumn(value: boolean) : void;
@@ -525,7 +568,7 @@ setShowTableStyleFirstColumn(value: boolean) : void;
 
 ### getShowTableStyleLastColumn() {#getShowTableStyleLastColumn--}
 
-<b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table should have the style applied.
+<b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table is the style applied to.
 
 ```javascript
 getShowTableStyleLastColumn() : boolean;
@@ -534,7 +577,7 @@ getShowTableStyleLastColumn() : boolean;
 
 ### setShowTableStyleLastColumn(boolean) {#setShowTableStyleLastColumn-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table should have the style applied.
+<b>@deprecated.</b> Please use the 'showTableStyleLastColumn' property instead. Indicates whether the last column in the table is the style applied to.
 
 ```javascript
 setShowTableStyleLastColumn(value: boolean) : void;
@@ -547,7 +590,7 @@ setShowTableStyleLastColumn(value: boolean) : void;
 
 ### getShowTableStyleRowStripes() {#getShowTableStyleRowStripes--}
 
-<b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied to.
 
 ```javascript
 getShowTableStyleRowStripes() : boolean;
@@ -556,7 +599,7 @@ getShowTableStyleRowStripes() : boolean;
 
 ### setShowTableStyleRowStripes(boolean) {#setShowTableStyleRowStripes-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showTableStyleRowStripes' property instead. Indicates whether row stripe formatting is applied to.
 
 ```javascript
 setShowTableStyleRowStripes(value: boolean) : void;
@@ -569,7 +612,7 @@ setShowTableStyleRowStripes(value: boolean) : void;
 
 ### getShowTableStyleColumnStripes() {#getShowTableStyleColumnStripes--}
 
-<b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied to.
 
 ```javascript
 getShowTableStyleColumnStripes() : boolean;
@@ -578,7 +621,7 @@ getShowTableStyleColumnStripes() : boolean;
 
 ### setShowTableStyleColumnStripes(boolean) {#setShowTableStyleColumnStripes-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied.
+<b>@deprecated.</b> Please use the 'showTableStyleColumnStripes' property instead. Indicates whether column stripe formatting is applied to.
 
 ```javascript
 setShowTableStyleColumnStripes(value: boolean) : void;
@@ -775,7 +818,7 @@ putCellFormula(rowOffset: number, columnOffset: number, formula: string, isTotal
 
 ### updateColumnName() {#updateColumnName--}
 
-Updates all list columns' name from the worksheet.
+Updates all list columns' name to cells in the table.
 
 ```javascript
 updateColumnName() : void;
@@ -785,6 +828,15 @@ updateColumnName() : void;
 **Remarks**
 
 The value of the cells in the header row of the table must be same as the name of the ListColumn; Cell.PutValue do not auto modify the name of the ListColumn for performance.
+
+### removeAutoFilter() {#removeAutoFilter--}
+
+Removes auto filter which is applied to this table.
+
+```javascript
+removeAutoFilter() : void;
+```
+
 
 ### filter() {#filter--}
 
@@ -798,6 +850,10 @@ filter() : AutoFilter;
 **Returns**
 
 [AutoFilter](../autofilter/)
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set ListObject.HasAutoFilter property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### applyStyleToRange() {#applyStyleToRange--}
 

@@ -1,14 +1,14 @@
 ﻿---
 title: PivotPageFields
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
+description: Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items.
 type: docs
 url: /nodejs-cpp/pivotpagefields/
 ---
 
 ## PivotPageFields class
 
-Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
+Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items.
 
 ```javascript
 class PivotPageFields;

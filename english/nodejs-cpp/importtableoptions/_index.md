@@ -33,6 +33,7 @@ class ImportTableOptions;
 | [exportCaptionAsFieldName](#exportCaptionAsFieldName--)| boolean | Indicates whether exporting caption as field name |
 | [dateFormat](#dateFormat--)| string | Gets or sets date format string for cells with imported datetime values. |
 | [numberFormats](#numberFormats--)| string[] | Gets or sets the number formats |
+| [styles](#styles--)| Style[] | Gets and sets the styles for each column of the table. |
 | [isFormulas](#isFormulas--)| boolean[] | Indicates whether the data are formulas. |
 | [totalRows](#totalRows--)| number | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [totalColumns](#totalColumns--)| number | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
@@ -61,6 +62,8 @@ class ImportTableOptions;
 | [setDateFormat(string)](#setDateFormat-string-)| <b>@deprecated.</b> Please use the 'dateFormat' property instead. Gets or sets date format string for cells with imported datetime values. |
 | [getNumberFormats()](#getNumberFormats--)| <b>@deprecated.</b> Please use the 'numberFormats' property instead. Gets or sets the number formats |
 | [setNumberFormats(string[])](#setNumberFormats-stringarray-)| <b>@deprecated.</b> Please use the 'numberFormats' property instead. Gets or sets the number formats |
+| [getStyles()](#getStyles--)| <b>@deprecated.</b> Please use the 'styles' property instead. Gets and sets the styles for each column of the table. |
+| [setStyles(Style[])](#setStyles-stylearray-)| <b>@deprecated.</b> Please use the 'styles' property instead. Gets and sets the styles for each column of the table. |
 | [getIsFormulas()](#getIsFormulas--)| <b>@deprecated.</b> Please use the 'isFormulas' property instead. Indicates whether the data are formulas. |
 | [setIsFormulas(boolean[])](#setIsFormulas-booleanarray-)| <b>@deprecated.</b> Please use the 'isFormulas' property instead. Indicates whether the data are formulas. |
 | [getTotalRows()](#getTotalRows--)| <b>@deprecated.</b> Please use the 'totalRows' property instead. Gets or sets total row count to import from data source. -1 means all rows of given data source. |
@@ -160,6 +163,15 @@ Gets or sets the number formats
 
 ```javascript
 numberFormats : string[];
+```
+
+
+### styles {#styles--}
+
+Gets and sets the styles for each column of the table.
+
+```javascript
+styles : Style[];
 ```
 
 
@@ -413,6 +425,32 @@ setNumberFormats(value: string[]) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string[] | The value to set. |
+
+### getStyles() {#getStyles--}
+
+<b>@deprecated.</b> Please use the 'styles' property instead. Gets and sets the styles for each column of the table.
+
+```javascript
+getStyles() : Style[];
+```
+
+
+**Returns**
+
+[Style](../style/)[]
+
+### setStyles(Style[]) {#setStyles-stylearray-}
+
+<b>@deprecated.</b> Please use the 'styles' property instead. Gets and sets the styles for each column of the table.
+
+```javascript
+setStyles(value: Style[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Style](../style/)[] | The value to set. |
 
 ### getIsFormulas() {#getIsFormulas--}
 

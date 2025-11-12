@@ -21,12 +21,26 @@ User should not modify any part of the Workbook directly in this implementation(
 
 | Method | Description |
 | --- | --- |
+| [skipCalculation()](#skipCalculation--)| Skips the calculation for the entire formula that references to the function currently under evaluation. |
 | abstract [isParamLiteralRequired()](#isParamLiteralRequired--)| Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. |
 | abstract [isParamArrayModeRequired()](#isParamArrayModeRequired--)| Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](../calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](../workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true. |
 | abstract [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--)| Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. |
 | abstract [calculate(CalculationData)](#calculate-calculationdata-)| Calculates one function with given data. |
 | abstract [forceRecalculate(string)](#forceRecalculate-string-)| Whether force given function to be recalculated always when calculating shared formulas. |
 
+
+### skipCalculation() {#skipCalculation--}
+
+Skips the calculation for the entire formula that references to the function currently under evaluation.
+
+```javascript
+skipCalculation() : void;
+```
+
+
+**Remarks**
+
+This method can be invoked in the implementation of [Calculate(CalculationData)](../calculate(calculationdata)/) to skip the calculation for the entire formula and the original value of the formula will be kept without change.
 
 ### isParamLiteralRequired() {#isParamLiteralRequired--}
 
