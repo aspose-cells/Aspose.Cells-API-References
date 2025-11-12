@@ -38,6 +38,7 @@ class MarkdownSaveOptions extends SaveOptions;
 | [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [alignColumnPadding](#alignColumnPadding--)| string | Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
 | [splitTablesByBlankRow](#splitTablesByBlankRow--)| boolean | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
+| [officeMathOutputType](#officeMathOutputType--)| HtmlOfficeMathOutputType | Indicates how export OfficeMath objects to Markdown, Default value is Image. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -192,6 +193,15 @@ Indicates whether blank rows in the worksheet should be treated as table separat
 
 ```javascript
 splitTablesByBlankRow : boolean;
+```
+
+
+### officeMathOutputType {#officeMathOutputType--}
+
+Indicates how export OfficeMath objects to Markdown, Default value is Image.
+
+```javascript
+officeMathOutputType : HtmlOfficeMathOutputType;
 ```
 
 

@@ -96,7 +96,7 @@ isMissing : boolean;
 
 **Remarks**
 
-True means this value has benn removed from the data source.
+True means this value has been removed from the data source.
 
 ### value {#value--}
 

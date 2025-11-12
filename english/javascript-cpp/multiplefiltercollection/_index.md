@@ -32,8 +32,9 @@ class MultipleFilterCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| DateTimeGroupItem or a simple object. |
-| [add(string)](#add-string-)| Adds string filter. |
+| [get(number)](#get-number-)| Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
+| [add(string)](#add-string-)| Adds a label filter. |
+| [add(DateTimeGroupingType, number, number, number)](#add-datetimegroupingtype-number-number-number-)| Adds a date filter criteria value. |
 | [toVObject()](#toVObject--)| Gets the VObject. |
 
 
@@ -70,7 +71,7 @@ matchBlank : boolean;
 
 ### get(number) {#get-number-}
 
-DateTimeGroupItem or a simple object.
+Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value.
 
 ```javascript
 get(index: number) : VObject;
@@ -83,7 +84,7 @@ get(index: number) : VObject;
 
 ### add(string) {#add-string-}
 
-Adds string filter.
+Adds a label filter.
 
 ```javascript
 add(filter: string) : void;
@@ -93,6 +94,22 @@ add(filter: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filter | string | The filter data. |
+
+### add(DateTimeGroupingType, number, number, number) {#add-datetimegroupingtype-number-number-number-}
+
+Adds a date filter criteria value.
+
+```javascript
+add(type: DateTimeGroupingType, year: number, month: number, day: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [DateTimeGroupingType](../datetimegroupingtype/) | The type of date filter. |
+| year | number | The year. |
+| month | number | The month. |
+| day | number | The day. |
 
 ### toVObject() {#toVObject--}
 

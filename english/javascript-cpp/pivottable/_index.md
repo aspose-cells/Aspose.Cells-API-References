@@ -29,6 +29,7 @@ class PivotTable;
 | [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as page fields. |
 | [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
 | [dataField](#dataField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
+| [valuesField](#valuesField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
 | [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
@@ -70,29 +71,29 @@ class PivotTable;
 | [showEmptyCol](#showEmptyCol--)| boolean | Indicates whether to include empty columns in the table |
 | [showEmptyRow](#showEmptyRow--)| boolean | Indicates whether to include empty rows in the table. |
 | [fieldListSortAscending](#fieldListSortAscending--)| boolean | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
-| [printDrill](#printDrill--)| boolean | Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
+| [printDrill](#printDrill--)| boolean | Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable. |
 | [altTextTitle](#altTextTitle--)| string | Gets and sets the title of the alter text. |
 | [altTextDescription](#altTextDescription--)| string | Gets the description of the alt text. |
 | [name](#name--)| string | Gets the name of the PivotTable |
-| [columnHeaderCaption](#columnHeaderCaption--)| string | Gets the Column Header Caption of the PivotTable. |
+| [columnHeaderCaption](#columnHeaderCaption--)| string | Gets and sets the custom Caption of the Column Header of the PivotTable. |
 | [indent](#indent--)| number | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [rowHeaderCaption](#rowHeaderCaption--)| string | Gets the Row Header Caption of the PivotTable. |
+| [rowHeaderCaption](#rowHeaderCaption--)| string | Gets and sets custom caption of the Row Header in this PivotTable. |
 | [showRowHeaderCaption](#showRowHeaderCaption--)| boolean | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [customListSort](#customListSort--)| boolean | Indicates whether consider built-in custom list when sort data |
 | [pivotFormatConditions](#pivotFormatConditions--)| PivotFormatConditionCollection | Readonly. Gets the Format Conditions of the pivot table. |
 | [conditionalFormats](#conditionalFormats--)| PivotConditionalFormatCollection | Readonly. Gets the conditional formats of the pivot table. |
 | [pageFieldOrder](#pageFieldOrder--)| PrintOrderType | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [pageFieldWrapCount](#pageFieldWrapCount--)| number | Gets the number of page fields in each column or row in the PivotTable report. |
-| [tag](#tag--)| string | Gets a string saved with the PivotTable report. |
+| [tag](#tag--)| string | Gets and sets a user-defined string that is associated with this PivotTable view. |
 | [saveData](#saveData--)| boolean | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [refreshDataOnOpeningFile](#refreshDataOnOpeningFile--)| boolean | Indicates whether Refresh Data when Opening File. |
 | [refreshDataFlag](#refreshDataFlag--)| boolean | Indicates whether Refreshing Data or not. |
 | [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
 | [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
 | [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
-| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets the collection of formats applied to PivotTable. |
+| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets all formats applied to PivotTable. |
 | [itemPrintTitles](#itemPrintTitles--)| boolean | Indicates whether PivotItem names should be repeated at the top of each printed page. |
-| [repeatItemsOnEachPrintedPage](#repeatItemsOnEachPrintedPage--)| boolean | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
+| [repeatItemsOnEachPrintedPage](#repeatItemsOnEachPrintedPage--)| boolean | Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [printTitles](#printTitles--)| boolean | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
 | [displayImmediateItems](#displayImmediateItems--)| boolean | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
 | [isSelected](#isSelected--)| boolean | Indicates whether this PivotTable is selected. |
@@ -125,25 +126,25 @@ class PivotTable;
 | [moveTo(number, number)](#moveTo-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(string)](#moveTo-string-)| Moves the PivotTable to a different location in the worksheet. |
 | [getSourceDataConnections()](#getSourceDataConnections--)| Gets the external connection data sources. |
-| [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the name of external source data connections. |
-| [changeDataSource(string[])](#changeDataSource-stringarray-)| Set pivottable's source data. |
-| [getSource()](#getSource--)| Get pivottable's source data. |
-| [getSource(boolean)](#getSource-boolean-)| Get pivottable's source data. |
+| [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the names of external source data connections. |
+| [changeDataSource(string[])](#changeDataSource-stringarray-)| Change data source of the pivottable. |
+| [getSource()](#getSource--)| Get the data source of this pivottable. |
+| [getSource(boolean)](#getSource-boolean-)| Get the data source of this pivottable. |
 | [refreshData()](#refreshData--)| Refreshes pivottable's data and setting from it's data source. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
-| [calculateData()](#calculateData--)| Calculates pivottable's data to cells. |
-| [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculating pivot tables with options |
-| [clearData()](#clearData--)| Clear PivotTable's data and formatting |
+| [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
+| [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
+| [clearData()](#clearData--)| Clear data and formatting of PivotTable view. |
 | [calculateRange()](#calculateRange--)| Calculates pivottable's range. |
 | [formatAll(Style)](#formatAll-style-)| Format all the cell in the pivottable area |
 | [formatRow(number, Style)](#formatRow-number-style-)| Format the row data in the pivottable area |
 | [format(PivotArea, Style)](#format-pivotarea-style-)| Formats selected area of the PivotTable. |
 | [format(CellArea, Style)](#format-cellarea-style-)| Formats selected area of the PivotTable. |
-| [format(number, number, Style)](#format-number-number-style-)| Format the cell in the pivottable area |
+| [format(number, number, Style)](#format-number-number-style-)| Formats the cell in the pivottable area |
 | [selectArea(CellArea)](#selectArea-cellarea-)| Select an area of pivot table view. |
 | [showDetail(number, number, boolean, number, number)](#showDetail-number-number-boolean-number-number-)| Show the detail of one item in the data region to a new Table. |
 | [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| Gets horizontal page breaks of this pivot table. |
-| [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable in compact form. |
+| [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable view in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
 | [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
@@ -237,6 +238,19 @@ Readonly. Gets a [PivotField](../pivotfield/) object that represents all the dat
 
 ```javascript
 dataField : PivotField;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.ValuesField property. This method will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### valuesField {#valuesField--}
+
+Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
+
+```javascript
+valuesField : PivotField;
 ```
 
 
@@ -623,7 +637,7 @@ fieldListSortAscending : boolean;
 
 ### printDrill {#printDrill--}
 
-Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable.
+Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable.
 
 ```javascript
 printDrill : boolean;
@@ -659,7 +673,7 @@ name : string;
 
 ### columnHeaderCaption {#columnHeaderCaption--}
 
-Gets the Column Header Caption of the PivotTable.
+Gets and sets the custom Caption of the Column Header of the PivotTable.
 
 ```javascript
 columnHeaderCaption : string;
@@ -677,7 +691,7 @@ indent : number;
 
 ### rowHeaderCaption {#rowHeaderCaption--}
 
-Gets the Row Header Caption of the PivotTable.
+Gets and sets custom caption of the Row Header in this PivotTable.
 
 ```javascript
 rowHeaderCaption : string;
@@ -744,7 +758,7 @@ pageFieldWrapCount : number;
 
 ### tag {#tag--}
 
-Gets a string saved with the PivotTable report.
+Gets and sets a user-defined string that is associated with this PivotTable view.
 
 ```javascript
 tag : string;
@@ -815,7 +829,7 @@ dataSource : string[];
 
 ### pivotFormats {#pivotFormats--}
 
-Readonly. Gets the collection of formats applied to PivotTable.
+Readonly. Gets all formats applied to PivotTable.
 
 ```javascript
 pivotFormats : PivotTableFormatCollection;
@@ -837,7 +851,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsO
 
 ### repeatItemsOnEachPrintedPage {#repeatItemsOnEachPrintedPage--}
 
-Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form.
 
 ```javascript
 repeatItemsOnEachPrintedPage : boolean;
@@ -1196,7 +1210,7 @@ getSourceDataConnections() : ExternalConnection[];
 
 ### getNamesOfSourceDataConnections() {#getNamesOfSourceDataConnections--}
 
-Gets the name of external source data connections.
+Gets the names of external source data connections.
 
 ```javascript
 getNamesOfSourceDataConnections() : string[];
@@ -1209,7 +1223,7 @@ string[]
 
 ### changeDataSource(string[]) {#changeDataSource-stringarray-}
 
-Set pivottable's source data.
+Change data source of the pivottable.
 
 ```javascript
 changeDataSource(source: string[]) : void;
@@ -1222,7 +1236,7 @@ changeDataSource(source: string[]) : void;
 
 ### getSource() {#getSource--}
 
-Get pivottable's source data.
+Get the data source of this pivottable.
 
 ```javascript
 getSource() : string[];
@@ -1235,7 +1249,7 @@ string[]
 
 ### getSource(boolean) {#getSource-boolean-}
 
-Get pivottable's source data.
+Get the data source of this pivottable.
 
 ```javascript
 getSource(isOriginal: boolean) : string[];
@@ -1244,7 +1258,7 @@ getSource(isOriginal: boolean) : string[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isOriginal | boolean | Indicates whether to return original or display data source |
+| isOriginal | boolean | Indicates whether to return original or display data source. |
 
 **Returns**
 
@@ -1286,7 +1300,7 @@ refreshData(option: PivotTableRefreshOption) : PivotRefreshState;
 
 ### calculateData() {#calculateData--}
 
-Calculates pivottable's data to cells.
+Calculates data of pivottable to cells.
 
 ```javascript
 calculateData() : void;
@@ -1299,7 +1313,7 @@ Cell.Value in the pivot range could not return the correct result if the method 
 
 ### calculateData(PivotTableCalculateOption) {#calculateData-pivottablecalculateoption-}
 
-Calculating pivot tables with options
+Calculates pivot table with options.
 
 ```javascript
 calculateData(option: PivotTableCalculateOption) : void;
@@ -1308,11 +1322,15 @@ calculateData(option: PivotTableCalculateOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | [PivotTableCalculateOption](../pivottablecalculateoption/) |  |
+| option | [PivotTableCalculateOption](../pivottablecalculateoption/) | The options for calculating the pivot table |
+
+**Remarks**
+
+If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 ### clearData() {#clearData--}
 
-Clear PivotTable's data and formatting
+Clear data and formatting of PivotTable view.
 
 ```javascript
 clearData() : void;
@@ -1393,7 +1411,7 @@ format(ca: CellArea, style: Style) : void;
 
 ### format(number, number, Style) {#format-number-number-style-}
 
-Format the cell in the pivottable area
+Formats the cell in the pivottable area
 
 ```javascript
 format(row: number, column: number, style: Style) : void;
@@ -1455,7 +1473,7 @@ number[]
 
 ### showInCompactForm() {#showInCompactForm--}
 
-Layouts the PivotTable in compact form.
+Layouts the PivotTable view in compact form.
 
 ```javascript
 showInCompactForm() : void;

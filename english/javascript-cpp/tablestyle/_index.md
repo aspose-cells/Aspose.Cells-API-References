@@ -1,14 +1,14 @@
 ﻿---
 title: TableStyle
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the table style.
+description: Represents the style of the table.
 type: docs
 url: /javascript-cpp/tablestyle/
 ---
 
 ## TableStyle class
 
-Represents the table style.
+Represents the style of the table.
 
 ```javascript
 class TableStyle;

@@ -19,9 +19,9 @@ class PivotFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [useWholeDay](#useWholeDay--)| boolean | Indicates whether uses whole days in its filtering criteria. |
+| [useWholeDay](#useWholeDay--)| boolean | Indicates whether to use whole days in its date filtering criteria. |
 | [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets the autofilter of the pivot filter. |
-| [filterType](#filterType--)| PivotFilterType | Readonly. Gets the autofilter type of the pivot filter. |
+| [filterType](#filterType--)| PivotFilterType | Readonly. Gets the filter type of the pivot filter. |
 | [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of source field which this pivot filter is applied to. |
 | [filterCategory](#filterCategory--)| FilterCategory | Readonly. Gets the category of this filter. |
 | [value1](#value1--)| string | Gets the string value1 of the label pivot filter. |
@@ -45,7 +45,7 @@ class PivotFilter;
 
 ### useWholeDay {#useWholeDay--}
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 ```javascript
 useWholeDay : boolean;
@@ -67,7 +67,7 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 ### filterType {#filterType--}
 
-Readonly. Gets the autofilter type of the pivot filter.
+Readonly. Gets the filter type of the pivot filter.
 
 ```javascript
 filterType : PivotFilterType;

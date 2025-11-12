@@ -21,45 +21,45 @@ class PivotField;
 | --- | --- | --- |
 | [pivotItems](#pivotItems--)| PivotItemCollection | Readonly. Gets the pivot items of the pivot field |
 | [groupSettings](#groupSettings--)| PivotFieldGroupSettings | Readonly. Gets the group settings of the pivot field. |
-| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the specified PivotTable field is calculated field. |
-| [isValueFields](#isValueFields--)| boolean | Readonly. Indicates whether this field represents values fields. |
-| [baseIndex](#baseIndex--)| number | Represents the PivotField index in the base PivotFields. |
+| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the this pivot field is calculated field. |
+| [isValuesField](#isValuesField--)| boolean | Readonly. Indicates whether this field represents values field. |
+| [baseIndex](#baseIndex--)| number | Represents the index in the source pivot fields. |
 | [position](#position--)| number | Readonly. Represents the index of [PivotField](../pivotfield/) in the region. |
 | [regionType](#regionType--)| PivotFieldType | Readonly. Specifies the region of the PivotTable that this field is displayed. |
 | [name](#name--)| string | Represents the name of PivotField. |
-| [displayName](#displayName--)| string | Represents the PivotField display name. |
+| [displayName](#displayName--)| string | Represents the display name of pivot field in the pivot table view. |
 | [isAutoSubtotals](#isAutoSubtotals--)| boolean | Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [dragToColumn](#dragToColumn--)| boolean | Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [dragToHide](#dragToHide--)| boolean | Indicates whether the specified field can be dragged to the hide position. The default value is true. |
-| [dragToRow](#dragToRow--)| boolean | Indicates whether the specified field can be dragged to the row position. The default value is true. |
+| [dragToHide](#dragToHide--)| boolean | Indicates whether the specified field can be dragged to the hide region. The default value is true. |
+| [dragToRow](#dragToRow--)| boolean | Indicates whether the specified field can be dragged to the row region. The default value is true. |
 | [dragToPage](#dragToPage--)| boolean | Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the data position. The default value is true. |
-| [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether repeating labels of the field in the region. The default value is false. |
-| [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether including new items to the field in manual filter. The default value is false. |
-| [isInsertPageBreaksBetweenItems](#isInsertPageBreaksBetweenItems--)| boolean | Indicates whether inserting page breaks after each item. The default value is false. |
-| [showAllItems](#showAllItems--)| boolean | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
+| [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | Indicates whether multiple items could be selected in the page field. The default value is false. |
+| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether to repeat labels of the field in the region. The default value is false. |
+| [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [isInsertPageBreaksBetweenItems](#isInsertPageBreaksBetweenItems--)| boolean | Indicates whether to insert page breaks after each item. The default value is false. |
+| [showAllItems](#showAllItems--)| boolean | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false. |
 | [nonAutoSortDefault](#nonAutoSortDefault--)| boolean | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
-| [isAutoSort](#isAutoSort--)| boolean | Indicates whether the specified PivotTable field is automatically sorted. |
-| [isAscendSort](#isAscendSort--)| boolean | Indicates whether the specified PivotTable field is autosorted ascending. |
+| [isAutoSort](#isAutoSort--)| boolean | Indicates whether the items of this PivotTable field are automatically sorted. |
+| [isAscendSort](#isAscendSort--)| boolean | Indicates whether the items of this pivot field is autosorted ascending. |
 | [sortSetting](#sortSetting--)| PivotFieldSortSetting | Readonly. Gets all settings of auto sorting |
 | [autoSortField](#autoSortField--)| number | Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
-| [isAutoShow](#isAutoShow--)| boolean | Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [isAutoShow](#isAutoShow--)| boolean | Indicates whether the specified PivotTable field is automatically shown. |
 | [isAscendShow](#isAscendShow--)| boolean | Indicates whether the specified PivotTable field is autoshown ascending. |
 | [autoShowCount](#autoShowCount--)| number | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
 | [autoShowField](#autoShowField--)| number | Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
-| [function](#function--)| ConsolidationFunction | Represents the function used to summarize the PivotTable data field. |
+| [function](#function--)| ConsolidationFunction | Represents the function used to summarize this PivotTable data field. |
 | [showValuesSetting](#showValuesSetting--)| PivotShowValuesSetting | Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
-| [currentPageItem](#currentPageItem--)| number | Represents the current page item showing for the page field (valid only for page fields). |
+| [currentPageItem](#currentPageItem--)| number | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
+| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether to insert a blank line after each item. |
+| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
+| [showInOutlineForm](#showInOutlineForm--)| boolean | Indicates whether to layout this field in outline form on the Pivot Table view. |
 | [number](#number--)| number | Represents the built-in display format of numbers and dates. |
-| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether inserting blank line after each item. |
-| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [showInOutlineForm](#showInOutlineForm--)| boolean | Indicates whether layout this field in outline form on the Pivot Table view |
 | [numberFormat](#numberFormat--)| string | Represents the custom display format of numbers and dates. |
 | [items](#items--)| string[] | Readonly. Get all labels of pivot items in this field. |
 | [originalItems](#originalItems--)| string[] | Readonly. Get the original base items; |
 | [itemCount](#itemCount--)| number | Readonly. Gets the count of the base items in this pivot field. |
-| [showCompact](#showCompact--)| boolean | Indicates whether display labels from the next field in the same column on the Pivot Table view |
+| [showCompact](#showCompact--)| boolean | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
 
 ## Methods
 
@@ -72,24 +72,24 @@ class PivotField;
 | [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
 | [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
-| [getFilters()](#getFilters--)| Gets all pivot filters of this pivot field. |
+| [getFilters()](#getFilters--)| Gets all pivot filters applied for this pivot field. |
 | [clearFilter()](#clearFilter--)| Clears filter setting on this pivot field. |
 | [filterTop10(number, PivotFilterType, boolean, number)](#filterTop10-number-pivotfiltertype-boolean-number-)| Filters by values of data pivot field. |
 | [filterByValue(number, PivotFilterType, number, number)](#filterByValue-number-pivotfiltertype-number-number-)| Filters by values of data pivot field. |
 | [filterByLabel(PivotFilterType, string, string)](#filterByLabel-pivotfiltertype-string-string-)| Filters by captions of row or column pivot field. |
-| [filterByDate(PivotFilterType, Date, Date)](#filterByDate-pivotfiltertype-date-date-)| Filters by date setting of row or column pivot field. |
-| [getFormula()](#getFormula--)| Gets formula of the calculated field . |
-| [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets whether the specified field shows that subtotals. |
-| [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether showing specified subtotal. |
+| [filterByDate(PivotFilterType, Date, Date)](#filterByDate-pivotfiltertype-date-date-)| Filters by date values of row or column pivot field. |
+| [getFormula()](#getFormula--)| Gets the formula of the calculated field . Only works for calculated field. |
+| [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets how to subtotal the specified field. |
+| [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether to show specified subtotal for this pivot field. |
 | [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
 | [sortBy(SortOrder, number, PivotLineType, string)](#sortBy-sortorder-number-pivotlinetype-string-)| Sorts this pivot field. |
 | [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [isHiddenItem(number)](#isHiddenItem-number-)| Gets whether the specific PivotItem is hidden. |
 | [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItem(string, boolean)](#hideItem-string-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
-| [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Gets whether hidding the detail of  the specific PivotItem.. |
+| [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Gets whether to hide the detail of the specific PivotItem.. |
 | [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
-| [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
+| [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
 
 
@@ -117,25 +117,29 @@ If this field is not grouped, Null will be returned.
 
 ### isCalculatedField {#isCalculatedField--}
 
-Readonly. Indicates whether the specified PivotTable field is calculated field.
+Readonly. Indicates whether the this pivot field is calculated field.
 
 ```javascript
 isCalculatedField : boolean;
 ```
 
 
-### isValueFields {#isValueFields--}
+### isValuesField {#isValuesField--}
 
-Readonly. Indicates whether this field represents values fields.
+Readonly. Indicates whether this field represents values field.
 
 ```javascript
-isValueFields : boolean;
+isValuesField : boolean;
 ```
 
 
+**Remarks**
+
+Only works when there are two or more data fields in the pivot table view.
+
 ### baseIndex {#baseIndex--}
 
-Represents the PivotField index in the base PivotFields.
+Represents the index in the source pivot fields.
 
 ```javascript
 baseIndex : number;
@@ -171,7 +175,7 @@ name : string;
 
 ### displayName {#displayName--}
 
-Represents the PivotField display name.
+Represents the display name of pivot field in the pivot table view.
 
 ```javascript
 displayName : string;
@@ -198,7 +202,7 @@ dragToColumn : boolean;
 
 ### dragToHide {#dragToHide--}
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+Indicates whether the specified field can be dragged to the hide region. The default value is true.
 
 ```javascript
 dragToHide : boolean;
@@ -207,7 +211,7 @@ dragToHide : boolean;
 
 ### dragToRow {#dragToRow--}
 
-Indicates whether the specified field can be dragged to the row position. The default value is true.
+Indicates whether the specified field can be dragged to the row region. The default value is true.
 
 ```javascript
 dragToRow : boolean;
@@ -225,7 +229,7 @@ dragToPage : boolean;
 
 ### dragToData {#dragToData--}
 
-Indicates whether the specified field can be dragged to the data position. The default value is true.
+Indicates whether the specified field can be dragged to the values region. The default value is true.
 
 ```javascript
 dragToData : boolean;
@@ -234,7 +238,7 @@ dragToData : boolean;
 
 ### isMultipleItemSelectionAllowed {#isMultipleItemSelectionAllowed--}
 
-indicates whether the field can have multiple items selected in the page field The default value is false.
+Indicates whether multiple items could be selected in the page field. The default value is false.
 
 ```javascript
 isMultipleItemSelectionAllowed : boolean;
@@ -243,7 +247,7 @@ isMultipleItemSelectionAllowed : boolean;
 
 ### isRepeatItemLabels {#isRepeatItemLabels--}
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the region. The default value is false.
 
 ```javascript
 isRepeatItemLabels : boolean;
@@ -252,7 +256,7 @@ isRepeatItemLabels : boolean;
 
 ### isIncludeNewItemsInFilter {#isIncludeNewItemsInFilter--}
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+Indicates whether to include new items to the field in manual filter. The default value is false.
 
 ```javascript
 isIncludeNewItemsInFilter : boolean;
@@ -261,7 +265,7 @@ isIncludeNewItemsInFilter : boolean;
 
 ### isInsertPageBreaksBetweenItems {#isInsertPageBreaksBetweenItems--}
 
-Indicates whether inserting page breaks after each item. The default value is false.
+Indicates whether to insert page breaks after each item. The default value is false.
 
 ```javascript
 isInsertPageBreaksBetweenItems : boolean;
@@ -270,7 +274,7 @@ isInsertPageBreaksBetweenItems : boolean;
 
 ### showAllItems {#showAllItems--}
 
-Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
 
 ```javascript
 showAllItems : boolean;
@@ -288,7 +292,7 @@ nonAutoSortDefault : boolean;
 
 ### isAutoSort {#isAutoSort--}
 
-Indicates whether the specified PivotTable field is automatically sorted.
+Indicates whether the items of this PivotTable field are automatically sorted.
 
 ```javascript
 isAutoSort : boolean;
@@ -297,7 +301,7 @@ isAutoSort : boolean;
 
 ### isAscendSort {#isAscendSort--}
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+Indicates whether the items of this pivot field is autosorted ascending.
 
 ```javascript
 isAscendSort : boolean;
@@ -324,12 +328,16 @@ autoSortField : number;
 
 ### isAutoShow {#isAutoShow--}
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+Indicates whether the specified PivotTable field is automatically shown.
 
 ```javascript
 isAutoShow : boolean;
 ```
 
+
+**Remarks**
+
+Only valid for excel 2003.
 
 ### isAscendShow {#isAscendShow--}
 
@@ -360,7 +368,7 @@ autoShowField : number;
 
 ### function {#function--}
 
-Represents the function used to summarize the PivotTable data field.
+Represents the function used to summarize this PivotTable data field.
 
 ```javascript
 function : ConsolidationFunction;
@@ -378,25 +386,16 @@ showValuesSetting : PivotShowValuesSetting;
 
 ### currentPageItem {#currentPageItem--}
 
-Represents the current page item showing for the page field (valid only for page fields).
+Represents the current selected page item of the page field to filter data. Only valid for page fields.
 
 ```javascript
 currentPageItem : number;
 ```
 
 
-### number {#number--}
-
-Represents the built-in display format of numbers and dates.
-
-```javascript
-number : number;
-```
-
-
 ### insertBlankRow {#insertBlankRow--}
 
-Indicates whether inserting blank line after each item.
+Indicates whether to insert a blank line after each item.
 
 ```javascript
 insertBlankRow : boolean;
@@ -405,7 +404,7 @@ insertBlankRow : boolean;
 
 ### showSubtotalAtTop {#showSubtotalAtTop--}
 
-when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
 
 ```javascript
 showSubtotalAtTop : boolean;
@@ -418,10 +417,19 @@ Only works when ShowInOutlineForm is true.
 
 ### showInOutlineForm {#showInOutlineForm--}
 
-Indicates whether layout this field in outline form on the Pivot Table view
+Indicates whether to layout this field in outline form on the Pivot Table view.
 
 ```javascript
 showInOutlineForm : boolean;
+```
+
+
+### number {#number--}
+
+Represents the built-in display format of numbers and dates.
+
+```javascript
+number : number;
 ```
 
 
@@ -463,7 +471,7 @@ itemCount : number;
 
 ### showCompact {#showCompact--}
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view
 
 ```javascript
 showCompact : boolean;
@@ -580,7 +588,7 @@ getPivotFilterByType(type: PivotFilterType) : PivotFilter;
 
 ### getFilters() {#getFilters--}
 
-Gets all pivot filters of this pivot field.
+Gets all pivot filters applied for this pivot field.
 
 ```javascript
 getFilters() : PivotFilter[];
@@ -661,7 +669,7 @@ filterByLabel(type: PivotFilterType, label1: string, label2: string) : PivotFilt
 
 ### filterByDate(PivotFilterType, Date, Date) {#filterByDate-pivotfiltertype-date-date-}
 
-Filters by date setting of row or column pivot field.
+Filters by date values of row or column pivot field.
 
 ```javascript
 filterByDate(type: PivotFilterType, dateTime1: Date, dateTime2: Date) : PivotFilter;
@@ -680,7 +688,7 @@ filterByDate(type: PivotFilterType, dateTime1: Date, dateTime2: Date) : PivotFil
 
 ### getFormula() {#getFormula--}
 
-Gets formula of the calculated field .
+Gets the formula of the calculated field . Only works for calculated field.
 
 ```javascript
 getFormula() : string;
@@ -689,7 +697,7 @@ getFormula() : string;
 
 ### setSubtotals(PivotFieldSubtotalType, boolean) {#setSubtotals-pivotfieldsubtotaltype-boolean-}
 
-Sets whether the specified field shows that subtotals.
+Sets how to subtotal the specified field.
 
 ```javascript
 setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
@@ -698,12 +706,12 @@ setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | subtotals type. |
-| shown | boolean | whether the specified field shows that subtotals. |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) |
+| shown | boolean | Whether the specified field shows that subtotals. |
 
 ### getSubtotals(PivotFieldSubtotalType) {#getSubtotals-pivotfieldsubtotaltype-}
 
-Indicates whether showing specified subtotal.
+Indicates whether to show specified subtotal for this pivot field.
 
 ```javascript
 getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
@@ -712,7 +720,7 @@ getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | subtotal type. |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | Subtotal type. |
 
 **Returns**
 
@@ -810,12 +818,12 @@ hideItem(itemValue: string, isHidden: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| itemValue | string | the value of the pivotItem in the pivotField. |
-| isHidden | boolean | whether the specific PivotItem is hidden |
+| itemValue | string | The name of the pivotItem in the pivotField. |
+| isHidden | boolean | Whether the specific PivotItem is hidden |
 
 ### isHiddenItemDetail(number) {#isHiddenItemDetail-number-}
 
-Gets whether hidding the detail of  the specific PivotItem..
+Gets whether to hide the detail of the specific PivotItem..
 
 ```javascript
 isHiddenItemDetail(index: number) : boolean;
@@ -846,7 +854,7 @@ hideItemDetail(index: number, isHiddenDetail: boolean) : void;
 
 ### hideDetail(boolean) {#hideDetail-boolean-}
 
-Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
+Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
 ```javascript
 hideDetail(isHiddenDetail: boolean) : void;

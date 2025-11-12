@@ -1,14 +1,14 @@
 ﻿---
 title: PivotTableCalculateOption
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Rerepsents the options of calcuating the pivot table.
+description: Rerepsents the options of calculating data of the pivot table.
 type: docs
 url: /javascript-cpp/pivottablecalculateoption/
 ---
 
 ## PivotTableCalculateOption class
 
-Rerepsents the options of calcuating the pivot table.
+Rerepsents the options of calculating data of the pivot table.
 
 ```javascript
 class PivotTableCalculateOption;
@@ -47,6 +47,10 @@ Indicates whether refreshing data source of the pivottable.
 refreshData : boolean;
 ```
 
+
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 ### refreshCharts {#refreshCharts--}
 
