@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotFilter::GetFilterType method
 linktitle: GetFilterType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFilter::GetFilterType method. Gets the autofilter type of the pivot filter in C++.'
+description: 'Aspose::Cells::Pivot::PivotFilter::GetFilterType method. Gets the filter type of the pivot filter in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.pivot/pivotfilter/getfiltertype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfilter/getfiltertype/
 ## PivotFilter::GetFilterType method
 
 
-Gets the autofilter type of the pivot filter.
+Gets the filter type of the pivot filter.
 
 ```cpp
 PivotFilterType Aspose::Cells::Pivot::PivotFilter::GetFilterType()

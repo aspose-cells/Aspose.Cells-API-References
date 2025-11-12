@@ -4,7 +4,7 @@ linktitle: GetCustomCalculatedFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::GetCustomCalculatedFormula method. Gets the formula of this list column in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.tables/listcolumn/getcustomcalculatedformula/
 ---
 ## ListColumn::GetCustomCalculatedFormula method

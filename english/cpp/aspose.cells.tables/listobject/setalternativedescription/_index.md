@@ -4,7 +4,7 @@ linktitle: SetAlternativeDescription
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::SetAlternativeDescription method. Gets and sets the alternative description in C++.'
 type: docs
-weight: 4600
+weight: 4900
 url: /cpp/aspose.cells.tables/listobject/setalternativedescription/
 ---
 ## ListObject::SetAlternativeDescription(const U16String\&) method

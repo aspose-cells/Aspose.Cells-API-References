@@ -2,7 +2,7 @@
 title: Aspose::Cells::MultipleFilterCollection::Get method
 linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MultipleFilterCollection::Get method. DateTimeGroupItem or a simple object in C++.'
+description: 'Aspose::Cells::MultipleFilterCollection::Get method. Gets DateTimeGroupItem or a string value in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells/multiplefiltercollection/get/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/multiplefiltercollection/get/
 ## MultipleFilterCollection::Get method
 
 
-[DateTimeGroupItem](../../datetimegroupitem/) or a simple object.
+Gets [DateTimeGroupItem](../../datetimegroupitem/) or a string value.
 
 ```cpp
 Aspose::Cells::Object Aspose::Cells::MultipleFilterCollection::Get(int32_t index)

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Equations::DelimiterEquationNode::GetNaryGrow method
 linktitle: GetNaryGrow
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetNaryGrow method of Aspose::Cells::Drawing::Equations::DelimiterEquationNode class in C++.'
+description: 'Aspose::Cells::Drawing::Equations::DelimiterEquationNode::GetNaryGrow method. Specifies whether the delimiter should automatically expand and contract with the height of the formula in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.drawing.equations/delimiterequationnode/getnarygrow/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing.equations/delimiterequationnode/getnarygrow/
 ## DelimiterEquationNode::GetNaryGrow method
 
 
-
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```cpp
 bool Aspose::Cells::Drawing::Equations::DelimiterEquationNode::GetNaryGrow()

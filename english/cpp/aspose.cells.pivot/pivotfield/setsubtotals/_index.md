@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::SetSubtotals method
 linktitle: SetSubtotals
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::SetSubtotals method. Sets whether the specified field shows that subtotals in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::SetSubtotals method. Sets how to subtotal the specified field in C++.'
 type: docs
 weight: 2900
 url: /cpp/aspose.cells.pivot/pivotfield/setsubtotals/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/setsubtotals/
 ## PivotField::SetSubtotals method
 
 
-Sets whether the specified field shows that subtotals.
+Sets how to subtotal the specified field.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
@@ -19,12 +19,9 @@ void Aspose::Cells::Pivot::PivotField::SetSubtotals(PivotFieldSubtotalType subto
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | PivotFieldSubtotalType | subtotals type. |
-| shown | bool | whether the specified field shows that subtotals. |
-## Remarks
+| subtotalType | PivotFieldSubtotalType | [PivotFieldSubtotalType](../../pivotfieldsubtotaltype/) |
+| shown | bool | Whether the specified field shows that subtotals. |
 
-
-[PivotFieldSubtotalType](../../pivotfieldsubtotaltype/)
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

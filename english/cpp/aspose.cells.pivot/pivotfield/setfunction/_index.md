@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::SetFunction method
 linktitle: SetFunction
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::SetFunction method. Represents the function used to summarize the PivotTable data field in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::SetFunction method. Represents the function used to summarize this PivotTable data field in C++.'
 type: docs
 weight: 7200
 url: /cpp/aspose.cells.pivot/pivotfield/setfunction/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/setfunction/
 ## PivotField::SetFunction method
 
 
-Represents the function used to summarize the [PivotTable](../../pivottable/) data field.
+Represents the function used to summarize this [PivotTable](../../pivottable/) data field.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::SetFunction(ConsolidationFunction value)

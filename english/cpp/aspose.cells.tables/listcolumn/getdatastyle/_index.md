@@ -4,7 +4,7 @@ linktitle: GetDataStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::GetDataStyle method. Gets the style of the data in this column of the table in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.tables/listcolumn/getdatastyle/
 ---
 ## ListColumn::GetDataStyle method

@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/filtercolumn/getfilter/
 
 Gets and sets the condition of filtering data.
 
+
+>Deprecated
+>
+>Use FilterColumn.MultipleFilters,CustomFilters and so on... property, instead. 
 ```cpp
 Aspose::Cells::Object Aspose::Cells::FilterColumn::GetFilter()
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead,please use FilterColumn.MultipleFilters,CustomFilters and so on... property according to differnt type of filter This property will be removed 12 months later since October 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

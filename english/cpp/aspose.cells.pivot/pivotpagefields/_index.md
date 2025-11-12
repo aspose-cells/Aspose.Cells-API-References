@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotPageFields class
 linktitle: PivotPageFields
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotPageFields class. Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields in C++.'
+description: 'Aspose::Cells::Pivot::PivotPageFields class. Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.cells.pivot/pivotpagefields/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotpagefields/
 ## PivotPageFields class
 
 
-Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
+Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items.
 
 ```cpp
 class PivotPageFields

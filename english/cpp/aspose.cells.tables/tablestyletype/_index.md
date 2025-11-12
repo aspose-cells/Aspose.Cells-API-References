@@ -20,8 +20,8 @@ enum class TableStyleType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | <br> |
-| TableStyleLight1 | 1 | <br> |
+| None | 0 | <br>No style. |
+| TableStyleLight1 | 1 | <br>Table [Style](../../aspose.cells/style/) Light 1. |
 | TableStyleLight2 | 2 | <br> |
 | TableStyleLight3 | 3 | <br> |
 | TableStyleLight4 | 4 | <br> |
