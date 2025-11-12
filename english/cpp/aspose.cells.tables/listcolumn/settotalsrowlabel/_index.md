@@ -4,7 +4,7 @@ linktitle: SetTotalsRowLabel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::SetTotalsRowLabel method. Gets and sets the display labels of total row in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells.tables/listcolumn/settotalsrowlabel/
 ---
 ## ListColumn::SetTotalsRowLabel(const U16String\&) method

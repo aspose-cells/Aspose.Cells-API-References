@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Equations::DelimiterEquationNode::SetNaryGrow method
 linktitle: SetNaryGrow
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use SetNaryGrow method of Aspose::Cells::Drawing::Equations::DelimiterEquationNode class in C++.'
+description: 'Aspose::Cells::Drawing::Equations::DelimiterEquationNode::SetNaryGrow method. Specifies whether the delimiter should automatically expand and contract with the height of the formula in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.drawing.equations/delimiterequationnode/setnarygrow/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing.equations/delimiterequationnode/setnarygrow/
 ## DelimiterEquationNode::SetNaryGrow method
 
 
-
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```cpp
 void Aspose::Cells::Drawing::Equations::DelimiterEquationNode::SetNaryGrow(bool value)

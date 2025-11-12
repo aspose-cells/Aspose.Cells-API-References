@@ -23,7 +23,7 @@ class PivotField
 | [AddCalculatedItem(const U16String\& name, const U16String\& formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
 | [AddCalculatedItem(const char16_t* name, const char16_t* formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
 | [ClearFilter()](./clearfilter/) | Clears filter setting on this pivot field. |
-| [FilterByDate(PivotFilterType type, const Date\& dateTime1, const Date\& dateTime2)](./filterbydate/) | Filters by date setting of row or column pivot field. |
+| [FilterByDate(PivotFilterType type, const Date\& dateTime1, const Date\& dateTime2)](./filterbydate/) | Filters by date values of row or column pivot field. |
 | [FilterByLabel(PivotFilterType type, const U16String\& label1, const U16String\& label2)](./filterbylabel/) | Filters by captions of row or column pivot field. |
 | [FilterByLabel(PivotFilterType type, const char16_t* label1, const char16_t* label2)](./filterbylabel/) | Filters by captions of row or column pivot field. |
 | [FilterByValue(int32_t valueFieldIndex, PivotFilterType type, double value1, double value2)](./filterbyvalue/) | Filters by values of data pivot field. |
@@ -32,19 +32,19 @@ class PivotField
 | [GetAutoShowCount()](./getautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
 | [GetAutoSortField()](./getautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [GetBaseIndex()](./getbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [GetDisplayName()](./getdisplayname/) | Represents the [PivotField](./) display name. |
+| [GetBaseIndex()](./getbaseindex/) | Represents the index in the source pivot fields. |
+| [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
+| [GetDisplayName()](./getdisplayname/) | Represents the display name of pivot field in the pivot table view. |
 | [GetDragToColumn()](./getdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [GetDragToData()](./getdragtodata/) | Indicates whether the specified field can be dragged to the data position. The default value is true. |
-| [GetDragToHide()](./getdragtohide/) | Indicates whether the specified field can be dragged to the hide position. The default value is true. |
+| [GetDragToData()](./getdragtodata/) | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [GetDragToHide()](./getdragtohide/) | Indicates whether the specified field can be dragged to the hide region. The default value is true. |
 | [GetDragToPage()](./getdragtopage/) | Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [GetDragToRow()](./getdragtorow/) | Indicates whether the specified field can be dragged to the row position. The default value is true. |
-| [GetFilters()](./getfilters/) | Gets all pivot filters of this pivot field. |
-| [GetFormula()](./getformula/) | Gets formula of the calculated field . |
-| [GetFunction()](./getfunction/) | Represents the function used to summarize the [PivotTable](../pivottable/) data field. |
+| [GetDragToRow()](./getdragtorow/) | Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [GetFilters()](./getfilters/) | Gets all pivot filters applied for this pivot field. |
+| [GetFormula()](./getformula/) | Gets the formula of the calculated field . Only works for calculated field. |
+| [GetFunction()](./getfunction/) | Represents the function used to summarize this [PivotTable](../pivottable/) data field. |
 | [GetGroupSettings()](./getgroupsettings/) | Gets the group settings of the pivot field. |
-| [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether inserting blank line after each item. |
+| [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether to insert a blank line after each item. |
 | [GetItemCount()](./getitemcount/) | Gets the count of the base items in this pivot field. |
 | [GetItems()](./getitems/) | Get all labels of pivot items in this field. |
 | [GetName()](./getname/) | Represents the name of [PivotField](./). |
@@ -55,37 +55,37 @@ class PivotField
 | [GetPivotItems()](./getpivotitems/) | Gets the pivot items of the pivot field. |
 | [GetPosition()](./getposition/) | Represents the index of [PivotField](./) in the region. |
 | [GetRegionType()](./getregiontype/) | Specifies the region of the [PivotTable](../pivottable/) that this field is displayed. |
-| [GetShowAllItems()](./getshowallitems/) | Indicates whether all items displays in the [PivotTable](../pivottable/) report, even if they don't contain summary data. show items with no data The default value is false. |
-| [GetShowCompact()](./getshowcompact/) | Indicates whether display labels from the next field in the same column on the [Pivot](../) Table view. |
-| [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
-| [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [GetShowAllItems()](./getshowallitems/) | Indicates whether to display all items in the [PivotTable](../pivottable/) view, even if they don't contain summary data. The default value is false. |
+| [GetShowCompact()](./getshowcompact/) | Indicates whether to display labels of the next field in the same column on the [Pivot](../) Table view. |
+| [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether to layout this field in outline form on the [Pivot](../) Table view. |
+| [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then. |
 | [GetShowValuesSetting()](./getshowvaluessetting/) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [GetSortSetting()](./getsortsetting/) | Gets all settings of auto sorting. |
-| [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether showing specified subtotal. |
+| [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether to show specified subtotal for this pivot field. |
 | [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
 | [GroupBy(double start, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
 | [GroupBy(const Vector \<CustomPiovtFieldGroupItem\>\& customGroupItems, bool newField)](./groupby/) | Custom group the field. |
-| [HideDetail(bool isHiddenDetail)](./hidedetail/) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
+| [HideDetail(bool isHiddenDetail)](./hidedetail/) | Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [HideItem(int32_t index, bool isHidden)](./hideitem/) | Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItem(const U16String\& itemValue, bool isHidden)](./hideitem/) | Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItem(const char16_t* itemValue, bool isHidden)](./hideitem/) | Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItemDetail(int32_t index, bool isHiddenDetail)](./hideitemdetail/) | Sets whether the specific [PivotItem](../pivotitem/) in a pivot field is hidden detail. |
 | [InitPivotItems()](./initpivotitems/) | Init the pivot items of the pivot field. |
 | [IsAscendShow()](./isascendshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
-| [IsAscendSort()](./isascendsort/) | Indicates whether the specified [PivotTable](../pivottable/) field is autosorted ascending. |
-| [IsAutoShow()](./isautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown,only valid for excel 2003. |
-| [IsAutoSort()](./isautosort/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically sorted. |
+| [IsAscendSort()](./isascendsort/) | Indicates whether the items of this pivot field is autosorted ascending. |
+| [IsAutoShow()](./isautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
+| [IsAutoSort()](./isautosort/) | Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
 | [IsAutoSubtotals()](./isautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [IsCalculatedField()](./iscalculatedfield/) | Indicates whether the specified [PivotTable](../pivottable/) field is calculated field. |
+| [IsCalculatedField()](./iscalculatedfield/) | Indicates whether the this pivot field is calculated field. |
 | [IsHiddenItem(int32_t index)](./ishiddenitem/) | Gets whether the specific [PivotItem](../pivotitem/) is hidden. |
-| [IsHiddenItemDetail(int32_t index)](./ishiddenitemdetail/) | Gets whether hidding the detail of the specific [PivotItem](../pivotitem/).. |
-| [IsIncludeNewItemsInFilter()](./isincludenewitemsinfilter/) | Indicates whether including new items to the field in manual filter. The default value is false. |
-| [IsInsertPageBreaksBetweenItems()](./isinsertpagebreaksbetweenitems/) | Indicates whether inserting page breaks after each item. The default value is false. |
-| [IsMultipleItemSelectionAllowed()](./ismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [IsHiddenItemDetail(int32_t index)](./ishiddenitemdetail/) | Gets whether to hide the detail of the specific [PivotItem](../pivotitem/).. |
+| [IsIncludeNewItemsInFilter()](./isincludenewitemsinfilter/) | Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [IsInsertPageBreaksBetweenItems()](./isinsertpagebreaksbetweenitems/) | Indicates whether to insert page breaks after each item. The default value is false. |
+| [IsMultipleItemSelectionAllowed()](./ismultipleitemselectionallowed/) | Indicates whether multiple items could be selected in the page field. The default value is false. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsRepeatItemLabels()](./isrepeatitemlabels/) | Indicates whether repeating labels of the field in the region. The default value is false. |
-| [IsValueFields()](./isvaluefields/) | Indicates whether this field represents values fields. |
+| [IsRepeatItemLabels()](./isrepeatitemlabels/) | Indicates whether to repeat labels of the field in the region. The default value is false. |
+| [IsValuesField()](./isvaluesfield/) | Indicates whether this field represents values field. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotField\& src)](./operator_asm/) | operator= |
 | [PivotField(PivotField_Impl* impl)](./pivotfield/) | Constructs from an implementation object. |
@@ -93,37 +93,37 @@ class PivotField
 | [SetAutoShowCount(int32_t value)](./setautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [SetAutoShowField(int32_t value)](./setautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
 | [SetAutoSortField(int32_t value)](./setautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [SetBaseIndex(int32_t value)](./setbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [SetCurrentPageItem(int16_t value)](./setcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [SetDisplayName(const U16String\& value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
-| [SetDisplayName(const char16_t* value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
+| [SetBaseIndex(int32_t value)](./setbaseindex/) | Represents the index in the source pivot fields. |
+| [SetCurrentPageItem(int16_t value)](./setcurrentpageitem/) | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
+| [SetDisplayName(const U16String\& value)](./setdisplayname/) | Represents the display name of pivot field in the pivot table view. |
+| [SetDisplayName(const char16_t* value)](./setdisplayname/) | Represents the display name of pivot field in the pivot table view. |
 | [SetDragToColumn(bool value)](./setdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [SetDragToData(bool value)](./setdragtodata/) | Indicates whether the specified field can be dragged to the data position. The default value is true. |
-| [SetDragToHide(bool value)](./setdragtohide/) | Indicates whether the specified field can be dragged to the hide position. The default value is true. |
+| [SetDragToData(bool value)](./setdragtodata/) | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [SetDragToHide(bool value)](./setdragtohide/) | Indicates whether the specified field can be dragged to the hide region. The default value is true. |
 | [SetDragToPage(bool value)](./setdragtopage/) | Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [SetDragToRow(bool value)](./setdragtorow/) | Indicates whether the specified field can be dragged to the row position. The default value is true. |
-| [SetFunction(ConsolidationFunction value)](./setfunction/) | Represents the function used to summarize the [PivotTable](../pivottable/) data field. |
-| [SetInsertBlankRow(bool value)](./setinsertblankrow/) | Indicates whether inserting blank line after each item. |
+| [SetDragToRow(bool value)](./setdragtorow/) | Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [SetFunction(ConsolidationFunction value)](./setfunction/) | Represents the function used to summarize this [PivotTable](../pivottable/) data field. |
+| [SetInsertBlankRow(bool value)](./setinsertblankrow/) | Indicates whether to insert a blank line after each item. |
 | [SetIsAscendShow(bool value)](./setisascendshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
-| [SetIsAscendSort(bool value)](./setisascendsort/) | Indicates whether the specified [PivotTable](../pivottable/) field is autosorted ascending. |
-| [SetIsAutoShow(bool value)](./setisautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown,only valid for excel 2003. |
-| [SetIsAutoSort(bool value)](./setisautosort/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically sorted. |
+| [SetIsAscendSort(bool value)](./setisascendsort/) | Indicates whether the items of this pivot field is autosorted ascending. |
+| [SetIsAutoShow(bool value)](./setisautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
+| [SetIsAutoSort(bool value)](./setisautosort/) | Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
 | [SetIsAutoSubtotals(bool value)](./setisautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [SetIsIncludeNewItemsInFilter(bool value)](./setisincludenewitemsinfilter/) | Indicates whether including new items to the field in manual filter. The default value is false. |
-| [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | Indicates whether inserting page breaks after each item. The default value is false. |
-| [SetIsMultipleItemSelectionAllowed(bool value)](./setismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | Indicates whether repeating labels of the field in the region. The default value is false. |
+| [SetIsIncludeNewItemsInFilter(bool value)](./setisincludenewitemsinfilter/) | Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | Indicates whether to insert page breaks after each item. The default value is false. |
+| [SetIsMultipleItemSelectionAllowed(bool value)](./setismultipleitemselectionallowed/) | Indicates whether multiple items could be selected in the page field. The default value is false. |
+| [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | Indicates whether to repeat labels of the field in the region. The default value is false. |
 | [SetName(const U16String\& value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetName(const char16_t* value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetNonAutoSortDefault(bool value)](./setnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [SetNumber(int32_t value)](./setnumber/) | Represents the built-in display format of numbers and dates. |
 | [SetNumberFormat(const U16String\& value)](./setnumberformat/) | Represents the custom display format of numbers and dates. |
 | [SetNumberFormat(const char16_t* value)](./setnumberformat/) | Represents the custom display format of numbers and dates. |
-| [SetShowAllItems(bool value)](./setshowallitems/) | Indicates whether all items displays in the [PivotTable](../pivottable/) report, even if they don't contain summary data. show items with no data The default value is false. |
-| [SetShowCompact(bool value)](./setshowcompact/) | Indicates whether display labels from the next field in the same column on the [Pivot](../) Table view. |
-| [SetShowInOutlineForm(bool value)](./setshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
-| [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets whether the specified field shows that subtotals. |
+| [SetShowAllItems(bool value)](./setshowallitems/) | Indicates whether to display all items in the [PivotTable](../pivottable/) view, even if they don't contain summary data. The default value is false. |
+| [SetShowCompact(bool value)](./setshowcompact/) | Indicates whether to display labels of the next field in the same column on the [Pivot](../) Table view. |
+| [SetShowInOutlineForm(bool value)](./setshowinoutlineform/) | Indicates whether to layout this field in outline form on the [Pivot](../) Table view. |
+| [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then. |
+| [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets how to subtotal the specified field. |
 | [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [SortBy(SortOrder sortType, int32_t fieldSortedBy)](./sortby/) | Sorts this pivot field. |
 | [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const U16String\& cellName)](./sortby/) | Sorts this pivot field. |

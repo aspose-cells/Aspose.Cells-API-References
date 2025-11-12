@@ -4,7 +4,7 @@ linktitle: Worksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet class. Encapsulates the object that represents a single worksheet in C++.'
 type: docs
-weight: 16500
+weight: 16600
 url: /cpp/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -61,6 +61,7 @@ class Worksheet
 | [Copy(const Worksheet\& sourceSheet)](./copy/) | Copies contents and formats from another worksheet. |
 | [Copy(const Worksheet\& sourceSheet, const CopyOptions\& copyOptions)](./copy/) | Copies contents and formats from another worksheet. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Filter(const CellArea\& ca)](./filter/) | Filters the range. |
 | [FreezePanes(int32_t row, int32_t column, int32_t freezedRows, int32_t freezedColumns)](./freezepanes/) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes(const U16String\& cellName, int32_t freezedRows, int32_t freezedColumns)](./freezepanes/) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes(const char16_t* cellName, int32_t freezedRows, int32_t freezedColumns)](./freezepanes/) | Freezes panes at the specified cell in the worksheet. |

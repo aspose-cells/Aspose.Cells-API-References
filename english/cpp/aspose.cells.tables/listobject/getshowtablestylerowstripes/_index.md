@@ -2,15 +2,15 @@
 title: Aspose::Cells::Tables::ListObject::GetShowTableStyleRowStripes method
 linktitle: GetShowTableStyleRowStripes
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Tables::ListObject::GetShowTableStyleRowStripes method. Indicates whether row stripe formatting is applied in C++.'
+description: 'Aspose::Cells::Tables::ListObject::GetShowTableStyleRowStripes method. Indicates whether row stripe formatting is applied to in C++.'
 type: docs
-weight: 3200
+weight: 3500
 url: /cpp/aspose.cells.tables/listobject/getshowtablestylerowstripes/
 ---
 ## ListObject::GetShowTableStyleRowStripes method
 
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 ```cpp
 bool Aspose::Cells::Tables::ListObject::GetShowTableStyleRowStripes()

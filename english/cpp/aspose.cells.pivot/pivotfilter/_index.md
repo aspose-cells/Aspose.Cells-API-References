@@ -25,7 +25,7 @@ class PivotFilter
 | [GetEvaluationOrder()](./getevaluationorder/) | Gets the Evaluation Order of the pivot filter. |
 | [GetFieldIndex()](./getfieldindex/) | Gets the index of source field which this pivot filter is applied to. |
 | [GetFilterCategory()](./getfiltercategory/) | Gets the category of this filter. |
-| [GetFilterType()](./getfiltertype/) | Gets the autofilter type of the pivot filter. |
+| [GetFilterType()](./getfiltertype/) | Gets the filter type of the pivot filter. |
 | [GetLabels()](./getlabels/) | Gets labels of the caption filter. |
 | [GetMeasureCubeFieldIndex()](./getmeasurecubefieldindex/) | Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
 | [GetMeasureFldIndex()](./getmeasurefldindex/) |  **(Deprecated)** Gets the measure field index of the pivot filter. |
@@ -33,7 +33,7 @@ class PivotFilter
 | [GetName()](./getname/) | Gets the name of the pivot filter. |
 | [GetNumberValues()](./getnumbervalues/) | Gets values of the number filter. |
 | [GetTop10Value()](./gettop10value/) | Gets top 10 setting of the filter. |
-| [GetUseWholeDay()](./getusewholeday/) | Indicates whether uses whole days in its filtering criteria. |
+| [GetUseWholeDay()](./getusewholeday/) | Indicates whether to use whole days in its date filtering criteria. |
 | [GetValue1()](./getvalue1/) | Gets the string value1 of the label pivot filter. |
 | [GetValue2()](./getvalue2/) | Gets the string value2 of the label pivot filter. |
 | [GetValueFieldIndex()](./getvaluefieldindex/) | Gets the index of value field in the value region. |
@@ -47,7 +47,7 @@ class PivotFilter
 | [SetMemberPropertyFieldIndex(int32_t value)](./setmemberpropertyfieldindex/) | Gets the member property field index of the pivot filter. |
 | [SetName(const U16String\& value)](./setname/) | Gets the name of the pivot filter. |
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the pivot filter. |
-| [SetUseWholeDay(bool value)](./setusewholeday/) | Indicates whether uses whole days in its filtering criteria. |
+| [SetUseWholeDay(bool value)](./setusewholeday/) | Indicates whether to use whole days in its date filtering criteria. |
 | [SetValue1(const U16String\& value)](./setvalue1/) | Gets the string value1 of the label pivot filter. |
 | [SetValue1(const char16_t* value)](./setvalue1/) | Gets the string value1 of the label pivot filter. |
 | [SetValue2(const U16String\& value)](./setvalue2/) | Gets the string value2 of the label pivot filter. |

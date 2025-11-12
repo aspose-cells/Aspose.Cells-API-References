@@ -31,6 +31,7 @@ class ImportTableOptions
 | [GetIsFormulas()](./getisformulas/) | Indicates whether the data are formulas. |
 | [GetNumberFormats()](./getnumberformats/) | Gets or sets the number formats. |
 | [GetShiftFirstRowDown()](./getshiftfirstrowdown/) | Indicates whether shifting the first row down when inserting rows. |
+| [GetStyles()](./getstyles/) | Gets and sets the styles for each column of the table. |
 | [GetTotalColumns()](./gettotalcolumns/) | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [GetTotalRows()](./gettotalrows/) | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [ImportTableOptions()](./importtableoptions/) | Creates the default importing options. |
@@ -55,6 +56,7 @@ class ImportTableOptions
 | [SetIsHtmlString(bool value)](./setishtmlstring/) | Indicates whether the value contains html tags. |
 | [SetNumberFormats(const Vector \<U16String\>\& value)](./setnumberformats/) | Gets or sets the number formats. |
 | [SetShiftFirstRowDown(bool value)](./setshiftfirstrowdown/) | Indicates whether shifting the first row down when inserting rows. |
+| [SetStyles(const Vector \<Style\>\& value)](./setstyles/) | Gets and sets the styles for each column of the table. |
 | [SetTotalColumns(int32_t value)](./settotalcolumns/) | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [SetTotalRows(int32_t value)](./settotalrows/) | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [~ImportTableOptions()](./~importtableoptions/) | Destructor. |

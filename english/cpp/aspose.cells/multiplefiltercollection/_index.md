@@ -4,7 +4,7 @@ linktitle: MultipleFilterCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection class. Represents the multiple filter collection in C++.'
 type: docs
-weight: 10400
+weight: 10500
 url: /cpp/aspose.cells/multiplefiltercollection/
 ---
 ## MultipleFilterCollection class
@@ -20,9 +20,10 @@ class MultipleFilterCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const U16String\& filter)](./add/) | Adds string filter. |
-| [Add(const char16_t* filter)](./add/) | Adds string filter. |
-| [Get(int32_t index)](./get/) | [DateTimeGroupItem](../datetimegroupitem/) or a simple object. |
+| [Add(const U16String\& filter)](./add/) | Adds a label filter. |
+| [Add(const char16_t* filter)](./add/) | Adds a label filter. |
+| [Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day)](./add/) | Adds a date filter criteria value. |
+| [Get(int32_t index)](./get/) | Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
 | [GetCount()](./getcount/) |  |
 | [GetMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

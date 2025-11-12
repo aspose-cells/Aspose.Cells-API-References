@@ -4,7 +4,7 @@ linktitle: SetFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::SetFormula method. Gets and sets the formula of the list column in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.tables/listcolumn/setformula/
 ---
 ## ListColumn::SetFormula(const U16String\&) method

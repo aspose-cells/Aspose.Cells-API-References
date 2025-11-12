@@ -16,6 +16,10 @@ Indicates whether refreshing data source of the pivottable.
 void Aspose::Cells::Pivot::PivotTableCalculateOption::SetRefreshData(bool value)
 ```
 
+## Remarks
+
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

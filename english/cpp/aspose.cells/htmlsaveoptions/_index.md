@@ -35,7 +35,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetDefaultFontName()](./getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [GetDisableCss()](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [GetDisableDownlevelRevealedComments()](./getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
-| [GetEmbeddedFontType()](./getembeddedfonttype/) | Gets or sets the type of font that embedded in html. Default value is HtmlEmbeddedFontType.None which indicates that it will not embed font in html. |
+| [GetEmbeddedFontType()](./getembeddedfonttype/) | Gets or sets the type of embedding font file into html file. Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. |
 | [GetEnableCssCustomProperties()](./getenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [GetEncodeEntityAsCode()](./getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [GetEncoding()](./getencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -73,6 +73,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetIgnoreInvisibleShapes()](./getignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [GetImageOptions()](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
 | [GetImageScalable()](./getimagescalable/) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true. |
+| [GetLayoutMode()](./getlayoutmode/) | Gets or sets the layout mode when saving to HTML. The default value is HtmlLayoutMode.Normal |
 | [GetLinkTargetType()](./getlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../htmllinktargettype/). |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetMergeEmptyTdForcely()](./getmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
@@ -134,7 +135,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetDefaultFontName(const char16_t* value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDisableCss(bool value)](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [SetDisableDownlevelRevealedComments(bool value)](./setdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
-| [SetEmbeddedFontType(HtmlEmbeddedFontType value)](./setembeddedfonttype/) | Gets or sets the type of font that embedded in html. Default value is HtmlEmbeddedFontType.None which indicates that it will not embed font in html. |
+| [SetEmbeddedFontType(HtmlEmbeddedFontType value)](./setembeddedfonttype/) | Gets or sets the type of embedding font file into html file. Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. |
 | [SetEnableCssCustomProperties(bool value)](./setenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [SetEncodeEntityAsCode(bool value)](./setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [SetEncoding(EncodingType value)](./setencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -178,6 +179,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetIsIECompatible(bool value)](./setisiecompatible/) | Indicating whether the output HTML is compatible with IE browser. The defalut value is false. |
 | [SetIsJsBrowserCompatible(bool value)](./setisjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
 | [SetIsMobileCompatible(bool value)](./setismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
+| [SetLayoutMode(HtmlLayoutMode value)](./setlayoutmode/) | Gets or sets the layout mode when saving to HTML. The default value is HtmlLayoutMode.Normal |
 | [SetLinkTargetType(HtmlLinkTargetType value)](./setlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../htmllinktargettype/). |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](./setmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
