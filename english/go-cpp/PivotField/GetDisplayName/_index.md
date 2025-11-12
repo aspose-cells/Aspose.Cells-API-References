@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getdisplayname/
 
 ## GetDisplayName function
 
-Represents the PivotField display name.
+Represents the display name of pivot field in the pivot table view.
 
 ```go
 

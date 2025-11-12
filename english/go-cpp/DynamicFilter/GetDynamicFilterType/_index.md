@@ -10,7 +10,7 @@ url: /go-cpp/dynamicfilter/getdynamicfiltertype/
 
 ## GetDynamicFilterType function
 
-Gets and sets the dynamic filter type.
+Gets and sets the type of this dynamic filter.
 
 ```go
 

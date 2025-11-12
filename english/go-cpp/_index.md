@@ -36,7 +36,7 @@ is_root: true
 |[CellValue](./cellvalue/) | Represents the cell value and corresponding type. |
 |[CellWatch](./cellwatch/) | Represents Cell Watch Item in the 'watch window'. |
 |[CellWatchCollection](./cellwatchcollection/) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
-|[ColorFilter](./colorfilter/) | Represents filtering the range by color. |
+|[ColorFilter](./colorfilter/) | Represents setting for filtering the range by color. |
 |[ColorScale](./colorscale/) | Describe the ColorScale conditional formatting rule.This conditional formatting rule creates a gradated color scale on the cells. |
 |[Column](./column/) | Represents a single column in a worksheet. |
 |[ColumnCollection](./columncollection/) | Collection of the <see cref="Column"/> objects that represent the individual column(setting)s in a worksheet.The Column object only represents the settings such as column width, styles, .etc. for the whole column,has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column.And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection,has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
@@ -73,7 +73,7 @@ is_root: true
 |[FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. |
 |[FileFormatInfo](./fileformatinfo/) | Contains data returned by <see cref="FileFormatUtil"/> file format detection methods. |
 |[FileFormatUtil](./fileformatutil/) | Provides utility methods for converting file format enums to strings or file extensions and back. |
-|[FilterColumn](./filtercolumn/) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
+|[FilterColumn](./filtercolumn/) | Represents a filter for a single column. |
 |[FilterColumnCollection](./filtercolumncollection/) | A collection of Filter objects that represents all the filters in an autofiltered range. |
 |[FindOptions](./findoptions/) | Represents find options. |
 |[FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
@@ -158,7 +158,7 @@ is_root: true
 |[ThreadedCommentAuthorCollection](./threadedcommentauthorcollection/) | Represents all persons who . |
 |[ThreadedCommentCollection](./threadedcommentcollection/) | Represents the list of threaded comments. |
 |[Top10](./top10/) | Describe the Top10 conditional formatting rule.This conditional formatting rule highlights cells whosevalues fall in the top N or bottom N bracket, as specified. |
-|[Top10Filter](./top10filter/) | Represents the top 10 filter. |
+|[Top10Filter](./top10filter/) | Represents the top N (percent or number of items) to filter by. |
 |[TwoColorGradient](./twocolorgradient/) | Represents two color gradient. |
 |[TxtLoadOptions](./txtloadoptions/) | Represents the options for loading text file. |
 |[TxtSaveOptions](./txtsaveoptions/) | Represents the save options for csv/tab delimited/other text format. |
@@ -366,7 +366,7 @@ is_root: true
 |[ContentTypeProperty](./contenttypeproperty/) | Represents identifier information. |
 |[ContentTypePropertyCollection](./contenttypepropertycollection/) | A collection of <see cref="ContentTypeProperty"/> objects that represent additional information. |
 |[CustomDocumentPropertyCollection](./customdocumentpropertycollection/) | A collection of custom document properties. |
-|[CustomProperty](./customproperty/) | Represents identifier information. |
+|[CustomProperty](./customproperty/) | Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet. |
 |[CustomPropertyCollection](./custompropertycollection/) | A collection of <see cref="CustomProperty"/> objects that represent additional information. |
 |[DocumentProperty](./documentproperty/) | Represents a custom or built-in document property. |
 |[DocumentPropertyCollection](./documentpropertycollection/) | Base class for <see cref="BuiltInDocumentPropertyCollection"/> and <see cref="CustomDocumentPropertyCollection"/> collections. |
@@ -393,18 +393,18 @@ is_root: true
 |[PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
 |[PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objectsin the PivotTable's specific PivotFields type. |
 |[PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
-|[PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting of sorting pivot fields. |
+|[PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
 |[PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
-|[PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilter objects |
+|[PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 |[PivotFormatCondition](./pivotformatcondition/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 |[PivotFormatConditionCollection](./pivotformatconditioncollection/) | Represents PivotTable Format Conditions. |
 |[PivotItem](./pivotitem/) | Represents a item in a PivotField report. |
 |[PivotItemCollection](./pivotitemcollection/) | Represents all the <see cref="PivotItem"/> objects in the PivotField. |
 |[PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
-|[PivotPageFields](./pivotpagefields/) | Represents the pivot page field itemsif the pivot table data source is consolidation ranges.It only can contain up to 4 fields. |
+|[PivotPageFields](./pivotpagefields/) | Represents the pivot page itemsif the pivot table data source is consolidation ranges.It only can contain up to 4 items. |
 |[PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 |[PivotTable](./pivottable/) | Summary description for PivotTable. |
-|[PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calcuating the pivot table. |
+|[PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 |[PivotTableCollection](./pivottablecollection/) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 |[PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 |[PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
@@ -473,10 +473,10 @@ is_root: true
 |[RevisionQueryTable](./revisionquerytable/) | Represents a revision of a query table field change. |
 |[RevisionRenameSheet](./revisionrenamesheet/) | Represents a revision of renaming sheet. |
 |[ListColumn](./listcolumn/) | Represents a column in a Table. |
-|[ListColumnCollection](./listcolumncollection/) | Represents A collection of all the <see cref="ListColumn"/> objects in the specified ListObject object. |
-|[ListObject](./listobject/) | Represents a list object on a worksheet.The ListObject object is a member of the ListObjects collection.The ListObjects collection contains all the list objects on a worksheet. |
+|[ListColumnCollection](./listcolumncollection/) | Represents a list of all the <see cref="ListColumn"/> objects in the table. |
+|[ListObject](./listobject/) | Represents a table in a worksheet. |
 |[ListObjectCollection](./listobjectcollection/) | Represents a collection of <see cref="ListObject"/> objects in the worksheet. |
-|[TableStyle](./tablestyle/) | Represents the table style. |
+|[TableStyle](./tablestyle/) | Represents the style of the table. |
 |[TableStyleCollection](./tablestylecollection/) | Represents all custom table styles. |
 |[TableStyleElement](./tablestyleelement/) | Represents the element of the table style. |
 |[TableStyleElementCollection](./tablestyleelementcollection/) | Represents all elements of the table style. |
@@ -751,7 +751,7 @@ is_root: true
 |[PivotFieldGroupType](./pivotfieldgrouptype/) | Represents the group type of pivot field. | 
 |[PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | Summary description for PivotFieldSubtotalType. | 
 |[PivotFieldType](./pivotfieldtype/) | Represents PivotTable field type. | 
-|[PivotFilterType](./pivotfiltertype/) | Represents PivotTable Filter type. | 
+|[PivotFilterType](./pivotfiltertype/) | Represents the filter type of the pivot table. | 
 |[PivotGroupByType](./pivotgroupbytype/) | Represents group by type. | 
 |[PivotItemPosition](./pivotitemposition/) | Represents base item Next/Previous/All position in the base field . | 
 |[PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. | 
@@ -767,6 +767,7 @@ is_root: true
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
 |[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
+|[HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. | 
 |[ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. | 
 |[PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility | 
 |[PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. | 

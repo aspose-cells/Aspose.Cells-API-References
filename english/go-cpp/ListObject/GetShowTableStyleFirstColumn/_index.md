@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getshowtablestylefirstcolumn/
 
 ## GetShowTableStyleFirstColumn function
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 ```go
 

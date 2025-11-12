@@ -23,8 +23,8 @@ type TableStyleType int32
 
 | Field | Description |
 | --- | --- |
-|[None](./none/) |  | 
-|[TableStyleLight1](./tablestylelight1/) |  | 
+|[None](./none/) | No style. | 
+|[TableStyleLight1](./tablestylelight1/) | Table Style Light 1 | 
 |[TableStyleLight2](./tablestylelight2/) |  | 
 |[TableStyleLight3](./tablestylelight3/) |  | 
 |[TableStyleLight4](./tablestylelight4/) |  | 

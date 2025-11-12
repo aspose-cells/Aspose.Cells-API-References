@@ -10,7 +10,7 @@ url: /go-cpp/pivotfiltercollection/
 
 ## PivotFilterCollection class
 
-Represents a collection of all the PivotFilter objects
+Represents a collection of all the PivotFilters.
 
 ```go
 

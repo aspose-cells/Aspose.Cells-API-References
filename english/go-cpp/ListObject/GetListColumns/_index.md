@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getlistcolumns/
 
 ## GetListColumns function
 
-Gets ListColumns of the ListObject.
+Gets the ListColumn list of this table.
 
 ```go
 

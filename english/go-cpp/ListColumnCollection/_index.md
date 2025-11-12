@@ -10,7 +10,7 @@ url: /go-cpp/listcolumncollection/
 
 ## ListColumnCollection class
 
-Represents A collection of all the <see cref="ListColumn"/> objects in the specified ListObject object.
+Represents a list of all the <see cref="ListColumn"/> objects in the table.
 
 ```go
 

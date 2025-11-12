@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/ishiddenitemdetail/
 
 ## IsHiddenItemDetail function
 
-Gets whether hidding the detail of  the specific PivotItem..
+Gets whether to hide the detail of the specific PivotItem..
 
 ```go
 

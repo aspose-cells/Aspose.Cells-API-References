@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getfilters/
 
 ## GetFilters function
 
-Gets all pivot filters of this pivot field.
+Gets all pivot filters applied for this pivot field.
 
 ```go
 

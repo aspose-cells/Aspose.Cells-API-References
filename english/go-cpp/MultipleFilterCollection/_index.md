@@ -34,6 +34,7 @@ type MultipleFilterCollection struct  {
 |[ToObject](./toobject/) | Gets the Object. | 
 |[GetMatchBlank](./getmatchblank/) | Indicates whether to filter by blank. | 
 |[SetMatchBlank](./setmatchblank/) | Indicates whether to filter by blank. | 
-|[Get](./get/) | DateTimeGroupItem or a simple object. | 
-|[Add](./add/) | Adds string filter. | 
+|[Get](./get/) | Gets DateTimeGroupItem or a string value. | 
+|[Add_String](./add_string/) | Adds a label filter. | 
+|[Add_DateTimeGroupingType_Int_Int_Int](./add_datetimegroupingtype_int_int_int/) | Adds a date filter criteria value. | 
 |[GetCount](./getcount/) |  | 

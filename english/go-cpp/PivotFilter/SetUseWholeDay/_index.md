@@ -10,7 +10,7 @@ url: /go-cpp/pivotfilter/setusewholeday/
 
 ## SetUseWholeDay function
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 ```go
 

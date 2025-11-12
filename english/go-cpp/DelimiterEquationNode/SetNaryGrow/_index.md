@@ -10,6 +10,7 @@ url: /go-cpp/delimiterequationnode/setnarygrow/
 
 ## SetNaryGrow function
 
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```go
 

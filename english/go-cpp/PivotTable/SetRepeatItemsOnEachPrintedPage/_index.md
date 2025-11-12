@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setrepeatitemsoneachprintedpage/
 
 ## SetRepeatItemsOnEachPrintedPage function
 
-Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form.
 
 ```go
 

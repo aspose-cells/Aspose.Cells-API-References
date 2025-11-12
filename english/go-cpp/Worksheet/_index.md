@@ -91,6 +91,7 @@ type Worksheet struct  {
 |[AutoFitRow_Int](./autofitrow_int/) | Autofits the row height. | 
 |[GetPageSetup](./getpagesetup/) | Represents the page setup description in this sheet. | 
 |[GetAutoFilter](./getautofilter/) | Represents auto filter for the specified worksheet. | 
+|[Filter](./filter/) | Filters the range. | 
 |[GetAdvancedFilter](./getadvancedfilter/) | Gets the settings of advanced filter. | 
 |[Advanced_Filter](./advanced_filter/) | Filters data using complex criteria. | 
 |[RemoveAutoFilter](./removeautofilter/) | Removes the auto filter of the worksheet. | 

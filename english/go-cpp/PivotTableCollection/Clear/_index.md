@@ -10,7 +10,7 @@ url: /go-cpp/pivottablecollection/clear/
 
 ## Clear function
 
-Clear all pivot tables.
+Clears all pivot tables.
 
 ```go
 

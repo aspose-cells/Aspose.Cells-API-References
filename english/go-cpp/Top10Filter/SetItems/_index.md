@@ -10,7 +10,7 @@ url: /go-cpp/top10filter/setitems/
 
 ## SetItems function
 
-Gets and sets the items of the filter.
+Gets and sets top or bottom value to use as the filter criteria.
 
 ```go
 

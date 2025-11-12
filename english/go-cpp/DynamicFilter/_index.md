@@ -31,8 +31,8 @@ type DynamicFilter struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[ToObject](./toobject/) | Gets the Object. | 
-|[GetDynamicFilterType](./getdynamicfiltertype/) | Gets and sets the dynamic filter type. | 
-|[SetDynamicFilterType](./setdynamicfiltertype/) | Gets and sets the dynamic filter type. | 
+|[GetDynamicFilterType](./getdynamicfiltertype/) | Gets and sets the type of this dynamic filter. | 
+|[SetDynamicFilterType](./setdynamicfiltertype/) | Gets and sets the type of this dynamic filter. | 
 |[GetValue](./getvalue/) | Gets and sets the dynamic filter value. | 
 |[SetValue](./setvalue/) | Gets and sets the dynamic filter value. | 
 |[GetMaxValue](./getmaxvalue/) | Gets and sets the dynamic filter max value. | 

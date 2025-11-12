@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setfunction/
 
 ## SetFunction function
 
-Represents the function used to summarize the PivotTable data field.
+Represents the function used to summarize this PivotTable data field.
 
 ```go
 

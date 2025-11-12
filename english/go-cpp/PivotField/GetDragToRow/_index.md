@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getdragtorow/
 
 ## GetDragToRow function
 
-Indicates whether the specified field can be dragged to the row position.The default value is true.
+Indicates whether the specified field can be dragged to the row region.The default value is true.
 
 ```go
 

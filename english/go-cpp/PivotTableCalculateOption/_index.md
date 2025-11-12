@@ -10,7 +10,7 @@ url: /go-cpp/pivottablecalculateoption/
 
 ## PivotTableCalculateOption class
 
-Rerepsents the options of calcuating the pivot table.
+Rerepsents the options of calculating data of the pivot table.
 
 ```go
 

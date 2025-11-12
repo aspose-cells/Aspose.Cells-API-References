@@ -29,9 +29,9 @@ type PivotFilter struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetUseWholeDay](./getusewholeday/) | Indicates whether uses whole days in its filtering criteria. | 
-|[SetUseWholeDay](./setusewholeday/) | Indicates whether uses whole days in its filtering criteria. | 
-|[GetFilterType](./getfiltertype/) | Gets the autofilter type of the pivot filter. | 
+|[GetUseWholeDay](./getusewholeday/) | Indicates whether to use whole days in its date filtering criteria. | 
+|[SetUseWholeDay](./setusewholeday/) | Indicates whether to use whole days in its date filtering criteria. | 
+|[GetFilterType](./getfiltertype/) | Gets the filter type of the pivot filter. | 
 |[GetFieldIndex](./getfieldindex/) | Gets the index of source field which this pivot filter is applied to. | 
 |[GetTop10Value](./gettop10value/) | Gets top 10 setting of the filter. | 
 |[GetLabels](./getlabels/) | Gets labels of the caption filter. | 

@@ -10,7 +10,7 @@ url: /go-cpp/pivotfilter/getfiltertype/
 
 ## GetFilterType function
 
-Gets the autofilter type of the pivot filter.
+Gets the filter type of the pivot filter.
 
 ```go
 

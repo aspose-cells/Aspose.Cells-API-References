@@ -10,7 +10,7 @@ url: /go-cpp/pivotfieldsortsetting/issortbylabels/
 
 ## IsSortByLabels function
 
-Indicates whether sorting the field by itself or data field.
+Indicates whether to sort the field by itself or data field.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/listobject/updatecolumnname/
 
 ## UpdateColumnName function
 
-Updates all list columns' name from the worksheet.
+Updates all list columns' name to cells in the table.
 
 ```go
 

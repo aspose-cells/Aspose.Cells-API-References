@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setshowcompact/
 
 ## SetShowCompact function
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view
 
 ```go
 

@@ -34,8 +34,8 @@ type DelimiterEquationNode struct  {
 |[SetBeginChar](./setbeginchar/) | Delimiter beginning character. | 
 |[GetEndChar](./getendchar/) | Delimiter ending character. | 
 |[SetEndChar](./setendchar/) | Delimiter ending character. | 
-|[GetNaryGrow](./getnarygrow/) |  | 
-|[SetNaryGrow](./setnarygrow/) |  | 
+|[GetNaryGrow](./getnarygrow/) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. | 
+|[SetNaryGrow](./setnarygrow/) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. | 
 |[GetSeparatorChar](./getseparatorchar/) | Delimiter separator character. | 
 |[SetSeparatorChar](./setseparatorchar/) | Delimiter separator character. | 
 |[GetDelimiterShape](./getdelimitershape/) | Specifies the shape of delimiters in the delimiter object. | 

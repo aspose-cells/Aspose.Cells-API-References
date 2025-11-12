@@ -10,7 +10,7 @@ url: /go-cpp/top10filter/setistop/
 
 ## SetIsTop function
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 ```go
 

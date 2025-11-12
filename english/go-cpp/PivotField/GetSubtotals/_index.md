@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getsubtotals/
 
 ## GetSubtotals function
 
-Indicates whether showing specified subtotal.
+Indicates whether to show specified subtotal for this pivot field.
 
 ```go
 

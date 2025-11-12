@@ -10,7 +10,7 @@ url: /go-cpp/iconfilter/seticonsettype/
 
 ## SetIconSetType function
 
-Gets and sets which icon set is used in the filter criteria.
+Gets and sets which icon set is used for this filter criteria.
 
 ```go
 

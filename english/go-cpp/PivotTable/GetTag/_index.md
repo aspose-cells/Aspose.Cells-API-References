@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/gettag/
 
 ## GetTag function
 
-Gets a string saved with the PivotTable report.
+Gets and sets a user-defined string that is associated with this PivotTable view.
 
 ```go
 

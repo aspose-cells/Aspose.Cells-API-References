@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/isrepeatitemlabels/
 
 ## IsRepeatItemLabels function
 
-Indicates whether repeating labels of the field in the region.The default value is false.
+Indicates whether to repeat labels of the field in the region.The default value is false.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setshowinoutlineform/
 
 ## SetShowInOutlineForm function
 
-Indicates whether layout this field in outline form on the Pivot Table view
+Indicates whether to layout this field in outline form on the Pivot Table view.
 
 ```go
 

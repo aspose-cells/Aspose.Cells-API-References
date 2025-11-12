@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getshowtotals/
 
 ## GetShowTotals function
 
-Gets and sets whether this ListObject show total row.
+Gets and sets whether this TAble shows total row.
 
 ```go
 

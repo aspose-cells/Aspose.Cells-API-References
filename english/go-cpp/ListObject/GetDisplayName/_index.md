@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getdisplayname/
 
 ## GetDisplayName function
 
-Gets and sets the display name.
+Gets and sets the display name of the table.
 
 ```go
 

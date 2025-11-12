@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/calculatedata_pivottablecalculateoption/
 
 ## CalculateData_PivotTableCalculateOption function
 
-Calculating pivot tables with options
+Calculates pivot table with options.
 
 ```go
 

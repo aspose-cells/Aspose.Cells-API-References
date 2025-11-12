@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getshowtablestylecolumnstripes/
 
 ## GetShowTableStyleColumnStripes function
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 ```go
 

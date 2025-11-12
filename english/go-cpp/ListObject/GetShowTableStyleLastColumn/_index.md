@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getshowtablestylelastcolumn/
 
 ## GetShowTableStyleLastColumn function
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 ```go
 

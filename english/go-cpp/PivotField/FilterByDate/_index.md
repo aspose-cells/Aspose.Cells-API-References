@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/filterbydate/
 
 ## FilterByDate function
 
-Filters by date setting of row or column pivot field.
+Filters by date values of row or column pivot field.
 
 ```go
 

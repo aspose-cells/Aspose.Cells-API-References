@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setsubtotals/
 
 ## SetSubtotals function
 
-Sets whether the specified field shows that subtotals.
+Sets how to subtotal the specified field.
 
 ```go
 
