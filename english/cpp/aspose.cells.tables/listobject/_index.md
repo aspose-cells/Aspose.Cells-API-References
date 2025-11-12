@@ -2,7 +2,7 @@
 title: Aspose::Cells::Tables::ListObject class
 linktitle: ListObject
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Tables::ListObject class. Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet in C++.'
+description: 'Aspose::Cells::Tables::ListObject class. Represents a table in a worksheet in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.cells.tables/listobject/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.tables/listobject/
 ## ListObject class
 
 
-Represents a list object on a worksheet. The [ListObject](./) object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+Represents a table in a worksheet.
 
 ```cpp
 class ListObject
@@ -23,24 +23,25 @@ class ListObject
 | [ApplyStyleToRange()](./applystyletorange/) | Apply the table style to the range. |
 | [ConvertToRange()](./converttorange/) | Convert the table to range. |
 | [ConvertToRange(const TableToRangeOptions\& options)](./converttorange/) | Convert the table to range. |
-| [Filter()](./filter/) | Filter the table. |
+| [Filter()](./filter/) |  **(Deprecated)** Filter the table. |
 | [GetAlternativeDescription()](./getalternativedescription/) | Gets and sets the alternative description. |
 | [GetAlternativeText()](./getalternativetext/) | Gets and sets the alternative text. |
-| [GetAutoFilter()](./getautofilter/) | Gets auto filter. |
+| [GetAutoFilter()](./getautofilter/) | Gets auto filter of this table. |
 | [GetComment()](./getcomment/) | Gets and sets the comment of the table. |
-| [GetDataRange()](./getdatarange/) | Gets the data range of the [ListObject](./). |
+| [GetDataRange()](./getdatarange/) | Gets the data range of the Table. |
 | [GetDataSourceType()](./getdatasourcetype/) | Gets the data source type of the table. |
-| [GetDisplayName()](./getdisplayname/) | Gets and sets the display name. |
+| [GetDisplayName()](./getdisplayname/) | Gets and sets the display name of the table. |
 | [GetEndColumn()](./getendcolumn/) | Gets the end column of the range. |
 | [GetEndRow()](./getendrow/) | Gets the end row of the range. |
-| [GetListColumns()](./getlistcolumns/) | Gets ListColumns of the [ListObject](./). |
+| [GetHasAutoFilter()](./gethasautofilter/) | Indicates whether auto filter is applied to this table. |
+| [GetListColumns()](./getlistcolumns/) | Gets the [ListColumn](../listcolumn/) list of this table. |
 | [GetQueryTable()](./getquerytable/) | Gets the linked [QueryTable](../../aspose.cells/querytable/). |
-| [GetShowHeaderRow()](./getshowheaderrow/) | Gets and sets whether this [ListObject](./) show header row. |
-| [GetShowTableStyleColumnStripes()](./getshowtablestylecolumnstripes/) | Indicates whether column stripe formatting is applied. |
-| [GetShowTableStyleFirstColumn()](./getshowtablestylefirstcolumn/) | Indicates whether the first column in the table should have the style applied. |
-| [GetShowTableStyleLastColumn()](./getshowtablestylelastcolumn/) | Indicates whether the last column in the table should have the style applied. |
-| [GetShowTableStyleRowStripes()](./getshowtablestylerowstripes/) | Indicates whether row stripe formatting is applied. |
-| [GetShowTotals()](./getshowtotals/) | Gets and sets whether this [ListObject](./) show total row. |
+| [GetShowHeaderRow()](./getshowheaderrow/) | Gets and sets whether this Table shows header row. |
+| [GetShowTableStyleColumnStripes()](./getshowtablestylecolumnstripes/) | Indicates whether column stripe formatting is applied to. |
+| [GetShowTableStyleFirstColumn()](./getshowtablestylefirstcolumn/) | Indicates whether the first column in the table is the style applied to. |
+| [GetShowTableStyleLastColumn()](./getshowtablestylelastcolumn/) | Indicates whether the last column in the table is the style applied to. |
+| [GetShowTableStyleRowStripes()](./getshowtablestylerowstripes/) | Indicates whether row stripe formatting is applied to. |
+| [GetShowTotals()](./getshowtotals/) | Gets and sets whether this TAble shows total row. |
 | [GetStartColumn()](./getstartcolumn/) | Gets the start column of the range. |
 | [GetStartRow()](./getstartrow/) | Gets the start row of the range. |
 | [GetTableStyleName()](./gettablestylename/) | Gets and sets the table style name. |
@@ -57,6 +58,7 @@ class ListObject
 | [PutCellFormula(int32_t rowOffset, int32_t columnOffset, const char16_t* formula, bool isTotalsRowFormula)](./putcellformula/) | Put the formula to the cell in the table. |
 | [PutCellValue(int32_t rowOffset, int32_t columnOffset, const Aspose::Cells::Object\& value)](./putcellvalue/) | Put the value to the cell. |
 | [PutCellValue(int32_t rowOffset, int32_t columnOffset, const Aspose::Cells::Object\& value, bool isTotalsRowLabel)](./putcellvalue/) | Put the value to the cell. |
+| [RemoveAutoFilter()](./removeautofilter/) | Removes auto filter which is applied to this table. |
 | [Resize(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn, bool hasHeaders)](./resize/) | Resize the range of the list object. |
 | [SetAlternativeDescription(const U16String\& value)](./setalternativedescription/) | Gets and sets the alternative description. |
 | [SetAlternativeDescription(const char16_t* value)](./setalternativedescription/) | Gets and sets the alternative description. |
@@ -64,18 +66,19 @@ class ListObject
 | [SetAlternativeText(const char16_t* value)](./setalternativetext/) | Gets and sets the alternative text. |
 | [SetComment(const U16String\& value)](./setcomment/) | Gets and sets the comment of the table. |
 | [SetComment(const char16_t* value)](./setcomment/) | Gets and sets the comment of the table. |
-| [SetDisplayName(const U16String\& value)](./setdisplayname/) | Gets and sets the display name. |
-| [SetDisplayName(const char16_t* value)](./setdisplayname/) | Gets and sets the display name. |
-| [SetShowHeaderRow(bool value)](./setshowheaderrow/) | Gets and sets whether this [ListObject](./) show header row. |
-| [SetShowTableStyleColumnStripes(bool value)](./setshowtablestylecolumnstripes/) | Indicates whether column stripe formatting is applied. |
-| [SetShowTableStyleFirstColumn(bool value)](./setshowtablestylefirstcolumn/) | Indicates whether the first column in the table should have the style applied. |
-| [SetShowTableStyleLastColumn(bool value)](./setshowtablestylelastcolumn/) | Indicates whether the last column in the table should have the style applied. |
-| [SetShowTableStyleRowStripes(bool value)](./setshowtablestylerowstripes/) | Indicates whether row stripe formatting is applied. |
-| [SetShowTotals(bool value)](./setshowtotals/) | Gets and sets whether this [ListObject](./) show total row. |
+| [SetDisplayName(const U16String\& value)](./setdisplayname/) | Gets and sets the display name of the table. |
+| [SetDisplayName(const char16_t* value)](./setdisplayname/) | Gets and sets the display name of the table. |
+| [SetHasAutoFilter(bool value)](./sethasautofilter/) | Indicates whether auto filter is applied to this table. |
+| [SetShowHeaderRow(bool value)](./setshowheaderrow/) | Gets and sets whether this Table shows header row. |
+| [SetShowTableStyleColumnStripes(bool value)](./setshowtablestylecolumnstripes/) | Indicates whether column stripe formatting is applied to. |
+| [SetShowTableStyleFirstColumn(bool value)](./setshowtablestylefirstcolumn/) | Indicates whether the first column in the table is the style applied to. |
+| [SetShowTableStyleLastColumn(bool value)](./setshowtablestylelastcolumn/) | Indicates whether the last column in the table is the style applied to. |
+| [SetShowTableStyleRowStripes(bool value)](./setshowtablestylerowstripes/) | Indicates whether row stripe formatting is applied to. |
+| [SetShowTotals(bool value)](./setshowtotals/) | Gets and sets whether this TAble shows total row. |
 | [SetTableStyleName(const U16String\& value)](./settablestylename/) | Gets and sets the table style name. |
 | [SetTableStyleName(const char16_t* value)](./settablestylename/) | Gets and sets the table style name. |
 | [SetTableStyleType(TableStyleType value)](./settablestyletype/) | Gets and the built-in table style. |
-| [UpdateColumnName()](./updatecolumnname/) | Updates all list columns' name from the worksheet. |
+| [UpdateColumnName()](./updatecolumnname/) | Updates all list columns' name to cells in the table. |
 | [~ListObject()](./~listobject/) | Destructor. |
 ## Fields
 

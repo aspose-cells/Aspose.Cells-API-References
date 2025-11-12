@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption method
 linktitle: SetColumnHeaderCaption
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption method. Gets the Column Header Caption of the PivotTable in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption method. Gets and sets the custom Caption of the Column Header of the PivotTable in C++.'
 type: docs
-weight: 11400
+weight: 11500
 url: /cpp/aspose.cells.pivot/pivottable/setcolumnheadercaption/
 ---
 ## PivotTable::SetColumnHeaderCaption(const U16String\&) method
 
 
-Gets the [Column](../../../aspose.cells/column/) Header Caption of the [PivotTable](../).
+Gets and sets the custom Caption of the [Column](../../../aspose.cells/column/) Header of the [PivotTable](../).
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption(const U16String &value)
@@ -26,7 +26,7 @@ void Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption(const U16String &v
 ## PivotTable::SetColumnHeaderCaption(const char16_t*) method
 
 
-Gets the [Column](../../../aspose.cells/column/) Header Caption of the [PivotTable](../).
+Gets and sets the custom Caption of the [Column](../../../aspose.cells/column/) Header of the [PivotTable](../).
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetColumnHeaderCaption(const char16_t *value)

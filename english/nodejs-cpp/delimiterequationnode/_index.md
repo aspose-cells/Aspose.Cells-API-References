@@ -27,7 +27,7 @@ class DelimiterEquationNode extends EquationNode;
 | --- | --- | --- |
 | [beginChar](#beginChar--)| string | Delimiter beginning character. |
 | [endChar](#endChar--)| string | Delimiter ending character. |
-| [naryGrow](#naryGrow--)| boolean |  |
+| [naryGrow](#naryGrow--)| boolean | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [separatorChar](#separatorChar--)| string | Delimiter separator character. |
 | [delimiterShape](#delimiterShape--)| EquationDelimiterShapeType | Specifies the shape of delimiters in the delimiter object. |
 | [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
@@ -45,8 +45,8 @@ class DelimiterEquationNode extends EquationNode;
 | [setBeginChar(string)](#setBeginChar-string-)| <b>@deprecated.</b> Please use the 'beginChar' property instead. Delimiter beginning character. |
 | [getEndChar()](#getEndChar--)| <b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character. |
 | [setEndChar(string)](#setEndChar-string-)| <b>@deprecated.</b> Please use the 'endChar' property instead. Delimiter ending character. |
-| [getNaryGrow()](#getNaryGrow--)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. |
-| [setNaryGrow(boolean)](#setNaryGrow-boolean-)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. |
+| [getNaryGrow()](#getNaryGrow--)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
+| [setNaryGrow(boolean)](#setNaryGrow-boolean-)| <b>@deprecated.</b> Please use the 'naryGrow' property instead. Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [getSeparatorChar()](#getSeparatorChar--)| <b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character. |
 | [setSeparatorChar(string)](#setSeparatorChar-string-)| <b>@deprecated.</b> Please use the 'separatorChar' property instead. Delimiter separator character. |
 | [getDelimiterShape()](#getDelimiterShape--)| <b>@deprecated.</b> Please use the 'delimiterShape' property instead. Specifies the shape of delimiters in the delimiter object. |
@@ -118,12 +118,16 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### naryGrow {#naryGrow--}
 
-
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```javascript
 naryGrow : boolean;
 ```
 
+
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 ### separatorChar {#separatorChar--}
 
@@ -263,16 +267,20 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getNaryGrow() {#getNaryGrow--}
 
-<b>@deprecated.</b> Please use the 'naryGrow' property instead.
+<b>@deprecated.</b> Please use the 'naryGrow' property instead. Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```javascript
 getNaryGrow() : boolean;
 ```
 
 
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
+
 ### setNaryGrow(boolean) {#setNaryGrow-boolean-}
 
-<b>@deprecated.</b> Please use the 'naryGrow' property instead.
+<b>@deprecated.</b> Please use the 'naryGrow' property instead. Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```javascript
 setNaryGrow(value: boolean) : void;
@@ -282,6 +290,10 @@ setNaryGrow(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 ### getSeparatorChar() {#getSeparatorChar--}
 

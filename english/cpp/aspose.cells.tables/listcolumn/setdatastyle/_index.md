@@ -4,7 +4,7 @@ linktitle: SetDataStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::SetDataStyle method. Sets the style of the data in this column of the table in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.tables/listcolumn/setdatastyle/
 ---
 ## ListColumn::SetDataStyle method

@@ -33,7 +33,7 @@ class PivotTableCollection;
 | [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Adds a new PivotTable based on another PivotTable. |
 | [add(string[], boolean, PivotPageFields, string, string)](#add-stringarray-boolean-pivotpagefields-string-string-)| Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [add(string[], boolean, PivotPageFields, number, number, string)](#add-stringarray-boolean-pivotpagefields-number-number-string-)| Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [clear()](#clear--)| Clear all pivot tables. |
+| [clear()](#clear--)| Clears all pivot tables. |
 | [remove(PivotTable)](#remove-pivottable-)| Deletes the specified PivotTable and delete the PivotTable data |
 | [remove(PivotTable, boolean)](#remove-pivottable-boolean-)| Deletes the specified PivotTable |
 | [removeAt(number)](#removeAt-number-)| Deletes the PivotTable at the specified index and delete the PivotTable data |
@@ -308,7 +308,7 @@ The new added PivotTable index.
 
 ### clear() {#clear--}
 
-Clear all pivot tables.
+Clears all pivot tables.
 
 ```javascript
 clear() : void;

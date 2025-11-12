@@ -27,7 +27,7 @@ class DelimiterEquationNode extends EquationNode;
 | --- | --- | --- |
 | [beginChar](#beginChar--)| string | Delimiter beginning character. |
 | [endChar](#endChar--)| string | Delimiter ending character. |
-| [naryGrow](#naryGrow--)| boolean |  |
+| [naryGrow](#naryGrow--)| boolean | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [separatorChar](#separatorChar--)| string | Delimiter separator character. |
 | [delimiterShape](#delimiterShape--)| EquationDelimiterShapeType | Specifies the shape of delimiters in the delimiter object. |
 | [startIndex](#startIndex--)| number | Readonly. Gets the start index of the characters. |
@@ -100,12 +100,16 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### naryGrow {#naryGrow--}
 
-
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
 ```javascript
 naryGrow : boolean;
 ```
 
+
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 ### separatorChar {#separatorChar--}
 

@@ -40,7 +40,7 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [GetEquationType()](../equationnode/getequationtype/) | Get the equation type of the current node. |
 | [GetFont()](../../aspose.cells/fontsetting/getfont/) | Returns the font of this object. |
 | [GetLength()](../../aspose.cells/fontsetting/getlength/) | Gets the length of the characters. |
-| [GetNaryGrow()](./getnarygrow/) |  |
+| [GetNaryGrow()](./getnarygrow/) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [GetParentNode()](../equationnode/getparentnode/) | Specifies the parent node of the current node. |
 | [GetSeparatorChar()](./getseparatorchar/) | Delimiter separator character. |
 | [GetStartIndex()](../../aspose.cells/fontsetting/getstartindex/) | Gets the start index of the characters. |
@@ -63,7 +63,7 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [SetDelimiterShape(EquationDelimiterShapeType value)](./setdelimitershape/) | Specifies the shape of delimiters in the delimiter object. |
 | [SetEndChar(const U16String\& value)](./setendchar/) | Delimiter ending character. |
 | [SetEndChar(const char16_t* value)](./setendchar/) | Delimiter ending character. |
-| [SetNaryGrow(bool value)](./setnarygrow/) |  |
+| [SetNaryGrow(bool value)](./setnarygrow/) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetSeparatorChar(const U16String\& value)](./setseparatorchar/) | Delimiter separator character. |
 | [SetSeparatorChar(const char16_t* value)](./setseparatorchar/) | Delimiter separator character. |

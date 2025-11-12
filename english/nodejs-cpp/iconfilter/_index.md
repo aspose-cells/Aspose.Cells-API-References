@@ -25,15 +25,15 @@ class IconFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [iconSetType](#iconSetType--)| IconSetType | Gets and sets which icon set is used in the filter criteria. |
+| [iconSetType](#iconSetType--)| IconSetType | Gets and sets which icon set is used for this filter criteria. |
 | [iconId](#iconId--)| number | Gets and sets Zero-based index of an icon in an icon set. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getIconSetType()](#getIconSetType--)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria. |
-| [setIconSetType(IconSetType)](#setIconSetType-iconsettype-)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria. |
+| [getIconSetType()](#getIconSetType--)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used for this filter criteria. |
+| [setIconSetType(IconSetType)](#setIconSetType-iconsettype-)| <b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used for this filter criteria. |
 | [getIconId()](#getIconId--)| <b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set. |
 | [setIconId(number)](#setIconId-number-)| <b>@deprecated.</b> Please use the 'iconId' property instead. Gets and sets Zero-based index of an icon in an icon set. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -55,7 +55,7 @@ constructor(obj: Object);
 
 ### iconSetType {#iconSetType--}
 
-Gets and sets which icon set is used in the filter criteria.
+Gets and sets which icon set is used for this filter criteria.
 
 ```javascript
 iconSetType : IconSetType;
@@ -73,7 +73,7 @@ iconId : number;
 
 ### getIconSetType() {#getIconSetType--}
 
-<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria.
+<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used for this filter criteria.
 
 ```javascript
 getIconSetType() : IconSetType;
@@ -86,7 +86,7 @@ getIconSetType() : IconSetType;
 
 ### setIconSetType(IconSetType) {#setIconSetType-iconsettype-}
 
-<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used in the filter criteria.
+<b>@deprecated.</b> Please use the 'iconSetType' property instead. Gets and sets which icon set is used for this filter criteria.
 
 ```javascript
 setIconSetType(value: IconSetType) : void;

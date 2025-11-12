@@ -25,7 +25,7 @@ class DynamicFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [dynamicFilterType](#dynamicFilterType--)| DynamicFilterType | Gets and sets the dynamic filter type. |
+| [dynamicFilterType](#dynamicFilterType--)| DynamicFilterType | Gets and sets the type of this dynamic filter. |
 | [value](#value--)| VObject | Gets and sets the dynamic filter value. |
 | [maxValue](#maxValue--)| VObject | Gets and sets the dynamic filter max value. |
 
@@ -51,7 +51,7 @@ constructor(vobj: VObject);
 
 ### dynamicFilterType {#dynamicFilterType--}
 
-Gets and sets the dynamic filter type.
+Gets and sets the type of this dynamic filter.
 
 ```javascript
 dynamicFilterType : DynamicFilterType;

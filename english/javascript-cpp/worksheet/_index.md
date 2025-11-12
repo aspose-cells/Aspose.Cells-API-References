@@ -140,6 +140,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [autoFitRows(AutoFitterOptions)](#autoFitRows-autofitteroptions-)| Autofits all rows in this worksheet. |
 | [autoFitRows(number, number)](#autoFitRows-number-number-)| Autofits row height in a range. |
 | [autoFitRows(number, number, AutoFitterOptions)](#autoFitRows-number-number-autofitteroptions-)| Autofits row height in a range. |
+| [filter(CellArea)](#filter-cellarea-)| Filters the range. |
 | [getAdvancedFilter()](#getAdvancedFilter--)| Gets the settings of advanced filter. |
 | [advanced_Filter(boolean, string, string, string, boolean)](#advanced_Filter-boolean-string-string-string-boolean-)| Filters data using complex criteria. |
 | [removeAutoFilter()](#removeAutoFilter--)| Removes the auto filter of the worksheet. |
@@ -1499,6 +1500,19 @@ autoFitRows(startRow: number, endRow: number, options: AutoFitterOptions) : void
 | startRow | number | Start row index. |
 | endRow | number | End row index. |
 | options | [AutoFitterOptions](../autofitteroptions/) | The options of auto fitter. |
+
+### filter(CellArea) {#filter-cellarea-}
+
+Filters the range.
+
+```javascript
+filter(ca: CellArea) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The range |
 
 ### getAdvancedFilter() {#getAdvancedFilter--}
 

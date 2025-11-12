@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::GetRepeatItemsOnEachPrintedPage method
 linktitle: GetRepeatItemsOnEachPrintedPage
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetRepeatItemsOnEachPrintedPage method. Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetRepeatItemsOnEachPrintedPage method. Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form in C++.'
 type: docs
-weight: 15700
+weight: 15800
 url: /cpp/aspose.cells.pivot/pivottable/getrepeatitemsoneachprintedpage/
 ---
 ## PivotTable::GetRepeatItemsOnEachPrintedPage method
 
 
-Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotTable::GetRepeatItemsOnEachPrintedPage()

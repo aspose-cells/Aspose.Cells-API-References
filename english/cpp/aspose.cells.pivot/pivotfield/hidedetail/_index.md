@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::HideDetail method
 linktitle: HideDetail
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::HideDetail method. Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::HideDetail method. Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field in C++.'
 type: docs
 weight: 9100
 url: /cpp/aspose.cells.pivot/pivotfield/hidedetail/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/hidedetail/
 ## PivotField::HideDetail method
 
 
-Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
+Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::HideDetail(bool isHiddenDetail)

@@ -25,7 +25,7 @@ class IconFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [iconSetType](#iconSetType--)| IconSetType | Gets and sets which icon set is used in the filter criteria. |
+| [iconSetType](#iconSetType--)| IconSetType | Gets and sets which icon set is used for this filter criteria. |
 | [iconId](#iconId--)| number | Gets and sets Zero-based index of an icon in an icon set. |
 
 ## Methods
@@ -50,7 +50,7 @@ constructor(vobj: VObject);
 
 ### iconSetType {#iconSetType--}
 
-Gets and sets which icon set is used in the filter criteria.
+Gets and sets which icon set is used for this filter criteria.
 
 ```javascript
 iconSetType : IconSetType;

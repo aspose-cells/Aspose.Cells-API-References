@@ -226,6 +226,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [autoFitRowsAsync(AutoFitterOptions)](#autoFitRowsAsync-autofitteroptions-)| Autofits all rows in this worksheet. |
 | [autoFitRowsAsync(number, number)](#autoFitRowsAsync-number-number-)| Autofits row height in a range. |
 | [autoFitRowsAsync(number, number, AutoFitterOptions)](#autoFitRowsAsync-number-number-autofitteroptions-)| Autofits row height in a range. |
+| [filter(CellArea)](#filter-cellarea-)| Filters the range. |
 | [getAdvancedFilter()](#getAdvancedFilter--)| Gets the settings of advanced filter. |
 | [advanced_Filter(boolean, string, string, string, boolean)](#advanced_Filter-boolean-string-string-string-boolean-)| Filters data using complex criteria. |
 | [removeAutoFilter()](#removeAutoFilter--)| Removes the auto filter of the worksheet. |
@@ -2640,6 +2641,19 @@ autoFitRowsAsync(startRow: number, endRow: number, options: AutoFitterOptions) :
 **Returns**
 
 [Promise<void>](../promise<void>/)
+
+### filter(CellArea) {#filter-cellarea-}
+
+Filters the range.
+
+```javascript
+filter(ca: CellArea) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The range |
 
 ### getAdvancedFilter() {#getAdvancedFilter--}
 

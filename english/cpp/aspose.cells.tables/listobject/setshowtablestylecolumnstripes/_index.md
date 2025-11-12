@@ -2,15 +2,15 @@
 title: Aspose::Cells::Tables::ListObject::SetShowTableStyleColumnStripes method
 linktitle: SetShowTableStyleColumnStripes
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Tables::ListObject::SetShowTableStyleColumnStripes method. Indicates whether column stripe formatting is applied in C++.'
+description: 'Aspose::Cells::Tables::ListObject::SetShowTableStyleColumnStripes method. Indicates whether column stripe formatting is applied to in C++.'
 type: docs
-weight: 3500
+weight: 3800
 url: /cpp/aspose.cells.tables/listobject/setshowtablestylecolumnstripes/
 ---
 ## ListObject::SetShowTableStyleColumnStripes method
 
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 ```cpp
 void Aspose::Cells::Tables::ListObject::SetShowTableStyleColumnStripes(bool value)

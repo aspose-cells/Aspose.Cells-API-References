@@ -1,14 +1,14 @@
 ﻿---
 title: PivotFilterCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the PivotFilter objects
+description: Represents a collection of all the PivotFilters.
 type: docs
 url: /nodejs-cpp/pivotfiltercollection/
 ---
 
 ## PivotFilterCollection class
 
-Represents a collection of all the PivotFilter objects
+Represents a collection of all the PivotFilters.
 
 ```javascript
 class PivotFilterCollection;

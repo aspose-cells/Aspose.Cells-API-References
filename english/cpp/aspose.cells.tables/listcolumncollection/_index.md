@@ -2,7 +2,7 @@
 title: Aspose::Cells::Tables::ListColumnCollection class
 linktitle: ListColumnCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Tables::ListColumnCollection class. Represents A collection of all the ListColumn objects in the specified ListObject object in C++.'
+description: 'Aspose::Cells::Tables::ListColumnCollection class. Represents a list of all the ListColumn objects in the table in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.cells.tables/listcolumncollection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.tables/listcolumncollection/
 ## ListColumnCollection class
 
 
-Represents A collection of all the [ListColumn](../listcolumn/) objects in the specified [ListObject](../listobject/) object.
+Represents a list of all the [ListColumn](../listcolumn/) objects in the table.
 
 ```cpp
 class ListColumnCollection

@@ -1,14 +1,14 @@
 ﻿---
 title: PivotTableCalculateOption
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Rerepsents the options of calcuating the pivot table.
+description: Rerepsents the options of calculating data of the pivot table.
 type: docs
 url: /nodejs-cpp/pivottablecalculateoption/
 ---
 
 ## PivotTableCalculateOption class
 
-Rerepsents the options of calcuating the pivot table.
+Rerepsents the options of calculating data of the pivot table.
 
 ```javascript
 class PivotTableCalculateOption;
@@ -60,6 +60,10 @@ refreshData : boolean;
 ```
 
 
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+
 ### refreshCharts {#refreshCharts--}
 
 Indicates whether refreshing charts are based on this pivot table.
@@ -91,6 +95,10 @@ getRefreshData() : boolean;
 ```
 
 
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+
 ### setRefreshData(boolean) {#setRefreshData-boolean-}
 
 <b>@deprecated.</b> Please use the 'refreshData' property instead. Indicates whether refreshing data source of the pivottable.
@@ -103,6 +111,10 @@ setRefreshData(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 ### getRefreshCharts() {#getRefreshCharts--}
 

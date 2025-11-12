@@ -1,14 +1,14 @@
 ﻿---
 title: PivotFieldSortSetting
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the setting of sorting pivot fields.
+description: Represents the setting for sorting pivot fields.
 type: docs
 url: /javascript-cpp/pivotfieldsortsetting/
 ---
 
 ## PivotFieldSortSetting class
 
-Represents the setting of sorting pivot fields.
+Represents the setting for sorting pivot fields.
 
 ```javascript
 class PivotFieldSortSetting;
@@ -20,7 +20,7 @@ class PivotFieldSortSetting;
 | Property | Type | Description |
 | --- | --- | --- |
 | [sortType](#sortType--)| SortOrder | Readonly. Represents the [SortOrder](../sortorder/). |
-| [isSortByLabels](#isSortByLabels--)| boolean | Readonly. Indicates whether sorting the field by itself or data field. |
+| [isSortByLabels](#isSortByLabels--)| boolean | Readonly. Indicates whether to sort the field by itself or data field. |
 | [fieldIndex](#fieldIndex--)| number | Readonly. Represents the index of the field sorted by. -1 means sorting the PivotField by the labels,others means sorting by the data field. |
 | [lineTypeSortedBy](#lineTypeSortedBy--)| PivotLineType | Readonly. The pivot line type sorted by. |
 | [isSimpleSort](#isSimpleSort--)| boolean | Readonly. Indicates whether a simple data sort operation will be applied. |
@@ -38,7 +38,7 @@ sortType : SortOrder;
 
 ### isSortByLabels {#isSortByLabels--}
 
-Readonly. Indicates whether sorting the field by itself or data field.
+Readonly. Indicates whether to sort the field by itself or data field.
 
 ```javascript
 isSortByLabels : boolean;

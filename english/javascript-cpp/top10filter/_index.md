@@ -1,14 +1,14 @@
 ﻿---
 title: Top10Filter
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the top 10 filter.
+description: Represents the top N percent or number of items to filter by.
 type: docs
 url: /javascript-cpp/top10filter/
 ---
 
 ## Top10Filter class
 
-Represents the top 10 filter.
+Represents the top N (percent or number of items) to filter by.
 
 ```javascript
 class Top10Filter;
@@ -25,10 +25,10 @@ class Top10Filter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isTop](#isTop--)| boolean | Indicates whether it's top filter. |
-| [isPercent](#isPercent--)| boolean | Indicates whether the items is percent. |
-| [items](#items--)| number | Gets and sets the items of the filter. |
-| [criteria](#criteria--)| VObject |  |
+| [isTop](#isTop--)| boolean | Indicates whether or not to filter by top order |
+| [isPercent](#isPercent--)| boolean | Indicates whether or not to filter by percent value of the column |
+| [items](#items--)| number | Gets and sets top or bottom value to use as the filter criteria. |
+| [criteria](#criteria--)| VObject | The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process. |
 
 ## Methods
 
@@ -52,7 +52,7 @@ constructor(vobj: VObject);
 
 ### isTop {#isTop--}
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 ```javascript
 isTop : boolean;
@@ -61,7 +61,7 @@ isTop : boolean;
 
 ### isPercent {#isPercent--}
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 ```javascript
 isPercent : boolean;
@@ -70,7 +70,7 @@ isPercent : boolean;
 
 ### items {#items--}
 
-Gets and sets the items of the filter.
+Gets and sets top or bottom value to use as the filter criteria.
 
 ```javascript
 items : number;
@@ -79,12 +79,16 @@ items : number;
 
 ### criteria {#criteria--}
 
-
+The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
 ```javascript
 criteria : VObject;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### toVObject() {#toVObject--}
 

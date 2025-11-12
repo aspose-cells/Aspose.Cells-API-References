@@ -2,7 +2,7 @@
 title: Aspose::Cells::Tables::TableStyle class
 linktitle: TableStyle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Tables::TableStyle class. Represents the table style in C++.'
+description: 'Aspose::Cells::Tables::TableStyle class. Represents the style of the table in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.cells.tables/tablestyle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.tables/tablestyle/
 ## TableStyle class
 
 
-Represents the table style.
+Represents the style of the table.
 
 ```cpp
 class TableStyle

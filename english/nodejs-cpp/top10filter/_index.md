@@ -1,14 +1,14 @@
 ﻿---
 title: Top10Filter
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the top 10 filter.
+description: Represents the top N percent or number of items to filter by.
 type: docs
 url: /nodejs-cpp/top10filter/
 ---
 
 ## Top10Filter class
 
-Represents the top 10 filter.
+Represents the top N (percent or number of items) to filter by.
 
 ```javascript
 class Top10Filter;
@@ -25,23 +25,23 @@ class Top10Filter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isTop](#isTop--)| boolean | Indicates whether it's top filter. |
-| [isPercent](#isPercent--)| boolean | Indicates whether the items is percent. |
-| [items](#items--)| number | Gets and sets the items of the filter. |
-| [criteria](#criteria--)| Object |  |
+| [isTop](#isTop--)| boolean | Indicates whether or not to filter by top order |
+| [isPercent](#isPercent--)| boolean | Indicates whether or not to filter by percent value of the column |
+| [items](#items--)| number | Gets and sets top or bottom value to use as the filter criteria. |
+| [criteria](#criteria--)| Object | The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isTop()](#isTop--)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter. |
-| [setIsTop(boolean)](#setIsTop-boolean-)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter. |
-| [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent. |
-| [setIsPercent(boolean)](#setIsPercent-boolean-)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent. |
-| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter. |
-| [setItems(number)](#setItems-number-)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter. |
-| [getCriteria()](#getCriteria--)| <b>@deprecated.</b> Please use the 'criteria' property instead. |
-| [setCriteria(Object)](#setCriteria-object-)| <b>@deprecated.</b> Please use the 'criteria' property instead. |
+| [isTop()](#isTop--)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether or not to filter by top order |
+| [setIsTop(boolean)](#setIsTop-boolean-)| <b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether or not to filter by top order |
+| [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether or not to filter by percent value of the column |
+| [setIsPercent(boolean)](#setIsPercent-boolean-)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether or not to filter by percent value of the column |
+| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets top or bottom value to use as the filter criteria. |
+| [setItems(number)](#setItems-number-)| <b>@deprecated.</b> Please use the 'items' property instead. Gets and sets top or bottom value to use as the filter criteria. |
+| [getCriteria()](#getCriteria--)| <b>@deprecated.</b> Please use the 'criteria' property instead. The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process. |
+| [setCriteria(Object)](#setCriteria-object-)| <b>@deprecated.</b> Please use the 'criteria' property instead. The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -61,7 +61,7 @@ constructor(obj: Object);
 
 ### isTop {#isTop--}
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 ```javascript
 isTop : boolean;
@@ -70,7 +70,7 @@ isTop : boolean;
 
 ### isPercent {#isPercent--}
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 ```javascript
 isPercent : boolean;
@@ -79,7 +79,7 @@ isPercent : boolean;
 
 ### items {#items--}
 
-Gets and sets the items of the filter.
+Gets and sets top or bottom value to use as the filter criteria.
 
 ```javascript
 items : number;
@@ -88,16 +88,20 @@ items : number;
 
 ### criteria {#criteria--}
 
-
+The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
 ```javascript
 criteria : Object;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### isTop() {#isTop--}
 
-<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter.
+<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether or not to filter by top order
 
 ```javascript
 isTop() : boolean;
@@ -106,7 +110,7 @@ isTop() : boolean;
 
 ### setIsTop(boolean) {#setIsTop-boolean-}
 
-<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether it's top filter.
+<b>@deprecated.</b> Please use the 'isTop' property instead. Indicates whether or not to filter by top order
 
 ```javascript
 setIsTop(value: boolean) : void;
@@ -119,7 +123,7 @@ setIsTop(value: boolean) : void;
 
 ### isPercent() {#isPercent--}
 
-<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether or not to filter by percent value of the column
 
 ```javascript
 isPercent() : boolean;
@@ -128,7 +132,7 @@ isPercent() : boolean;
 
 ### setIsPercent(boolean) {#setIsPercent-boolean-}
 
-<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the items is percent.
+<b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether or not to filter by percent value of the column
 
 ```javascript
 setIsPercent(value: boolean) : void;
@@ -141,7 +145,7 @@ setIsPercent(value: boolean) : void;
 
 ### getItems() {#getItems--}
 
-<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter.
+<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets top or bottom value to use as the filter criteria.
 
 ```javascript
 getItems() : number;
@@ -150,7 +154,7 @@ getItems() : number;
 
 ### setItems(number) {#setItems-number-}
 
-<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets the items of the filter.
+<b>@deprecated.</b> Please use the 'items' property instead. Gets and sets top or bottom value to use as the filter criteria.
 
 ```javascript
 setItems(value: number) : void;
@@ -163,16 +167,20 @@ setItems(value: number) : void;
 
 ### getCriteria() {#getCriteria--}
 
-<b>@deprecated.</b> Please use the 'criteria' property instead.
+<b>@deprecated.</b> Please use the 'criteria' property instead. The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
 ```javascript
 getCriteria() : Object;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setCriteria(Object) {#setCriteria-object-}
 
-<b>@deprecated.</b> Please use the 'criteria' property instead.
+<b>@deprecated.</b> Please use the 'criteria' property instead. The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
 ```javascript
 setCriteria(value: Object) : void;
@@ -182,6 +190,10 @@ setCriteria(value: Object) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | Object | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isNull() {#isNull--}
 

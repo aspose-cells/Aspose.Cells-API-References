@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/style/style/
 Constructs from an implementation object.
 
 ```cpp
-Aspose::Cells::Style::Style(Style_Impl *impl)
+Aspose::Cells::Style::Style(Style_Impl *impl=nullptr)
 ```
 
 ## See Also

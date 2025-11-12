@@ -1,13 +1,13 @@
 ﻿---
 title: PivotFilterType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents PivotTable Filter type.
+description: Represents the filter type of the pivot table.
 type: docs
 url: /javascript-cpp/pivotfiltertype/
 ---
 
 ## PivotFilterType enumeration
-Represents PivotTable Filter type.
+Represents the filter type of the pivot table.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |
