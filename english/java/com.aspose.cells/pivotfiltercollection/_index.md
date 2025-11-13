@@ -1,7 +1,7 @@
 ---
 title: PivotFilterCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents a collection of all the PivotFilter objects
+description: Represents a collection of all the PivotFilters.
 type: docs
 url: /java/com.aspose.cells/pivotfiltercollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class PivotFilterCollection extends CollectionBase
 ```
 
-Represents a collection of all the PivotFilter objects
+Represents a collection of all the PivotFilters.
 ## Methods
 
 | Method | Description |

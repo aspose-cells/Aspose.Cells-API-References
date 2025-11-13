@@ -1,13 +1,13 @@
 ---
 title: Class TableStyle
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Tables.TableStyle class. Represents the table style
+description: Aspose.Cells.Tables.TableStyle class. Represents the style of the table
 type: docs
 url: /net/aspose.cells.tables/tablestyle/
 ---
 ## TableStyle class
 
-Represents the table style.
+Represents the style of the table.
 
 ```csharp
 public class TableStyle

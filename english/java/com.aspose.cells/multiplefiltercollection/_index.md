@@ -22,12 +22,13 @@ Represents the multiple filter collection.
 
 | Method | Description |
 | --- | --- |
+| [add(int type, int year, int month, int day)](#add-int-int-int-int-) | Adds a date filter criteria value. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String filter)](#add-java.lang.String-) | Adds string filter. |
+| [add(String filter)](#add-java.lang.String-) | Adds a label filter. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | DateTimeGroupItem or a simple object. |
+| [get(int index)](#get-int-) | Gets [DateTimeGroupItem](../../com.aspose.cells/datetimegroupitem) or a string value. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [getMatchBlank()](#getMatchBlank--) | Indicates whether to filter by blank. |
@@ -50,6 +51,22 @@ public MultipleFilterCollection()
 
 Constructs one new instance.
 
+### add(int type, int year, int month, int day) {#add-int-int-int-int-}
+```
+public void add(int type, int year, int month, int day)
+```
+
+
+Adds a date filter criteria value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype). The type of date filter. |
+| year | int | The year. |
+| month | int | The month. |
+| day | int | The day. |
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -71,7 +88,7 @@ public void add(String filter)
 ```
 
 
-Adds string filter.
+Adds a label filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -122,7 +139,7 @@ public Object get(int index)
 ```
 
 
-DateTimeGroupItem or a simple object.
+Gets [DateTimeGroupItem](../../com.aspose.cells/datetimegroupitem) or a string value.
 
 **Parameters:**
 | Parameter | Type | Description |

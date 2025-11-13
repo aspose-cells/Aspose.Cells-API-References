@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/cleardata/
 
 ## ClearData function
 
-Clear PivotTable's data and formatting
+Clear data and formatting of PivotTable view.
 
 ```go
 

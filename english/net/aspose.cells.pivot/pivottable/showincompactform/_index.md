@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowInCompactForm
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Layouts the PivotTable in compact form
+description: PivotTable method. Layouts the PivotTable view in compact form
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showincompactform/
 ---
 ## PivotTable.ShowInCompactForm method
 
-Layouts the PivotTable in compact form.
+Layouts the PivotTable view in compact form.
 
 ```csharp
 public void ShowInCompactForm()

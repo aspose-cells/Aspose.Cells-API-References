@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setisincludenewitemsinfilter/
 
 ## SetIsIncludeNewItemsInFilter function
 
-Indicates whether including new items to the field in manual filter.The default value is false.
+Indicates whether to include new items to the field in manual filter.The default value is false.
 
 ```go
 

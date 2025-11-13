@@ -10,7 +10,7 @@ url: /go-cpp/pivotfiltertype/
 
 ## PivotFilterType Enum
 
-Represents PivotTable Filter type.
+Represents the filter type of the pivot table.
 
 ```go
 

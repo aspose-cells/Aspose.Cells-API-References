@@ -1,13 +1,13 @@
 ---
 title: PivotFilter.FilterType
 second_title: Aspose.Cells for .NET API Reference
-description: PivotFilter property. Gets the autofilter type of the pivot filter
+description: PivotFilter property. Gets the filter type of the pivot filter
 type: docs
 url: /net/aspose.cells.pivot/pivotfilter/filtertype/
 ---
 ## PivotFilter.FilterType property
 
-Gets the autofilter type of the pivot filter.
+Gets the filter type of the pivot filter.
 
 ```csharp
 public PivotFilterType FilterType { get; }

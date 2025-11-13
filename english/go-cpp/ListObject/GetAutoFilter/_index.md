@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getautofilter/
 
 ## GetAutoFilter function
 
-Gets auto filter.
+Gets auto filter of this table.
 
 ```go
 

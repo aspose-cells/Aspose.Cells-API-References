@@ -1,14 +1,14 @@
 ﻿---
 title: ColorFilter
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents filtering the range by color.
+description: Represents setting for filtering the range by color.
 type: docs
 url: /nodejs-cpp/colorfilter/
 ---
 
 ## ColorFilter class
 
-Represents filtering the range by color.
+Represents setting for filtering the range by color.
 
 ```javascript
 class ColorFilter;

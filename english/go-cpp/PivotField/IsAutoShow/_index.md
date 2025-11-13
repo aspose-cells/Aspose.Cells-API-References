@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/isautoshow/
 
 ## IsAutoShow function
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+Indicates whether the specified PivotTable field is automatically shown.
 
 ```go
 

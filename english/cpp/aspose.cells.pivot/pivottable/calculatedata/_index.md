@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::CalculateData method
 linktitle: CalculateData
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::CalculateData method. Calculates pivottable''s data to cells in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::CalculateData method. Calculates data of pivottable to cells in C++.'
 type: docs
-weight: 14600
+weight: 14700
 url: /cpp/aspose.cells.pivot/pivottable/calculatedata/
 ---
 ## PivotTable::CalculateData() method
 
 
-Calculates pivottable's data to cells.
+Calculates data of pivottable to cells.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::CalculateData()
@@ -29,7 +29,7 @@ Cell.Value in the pivot range could not return the correct result if the method 
 ## PivotTable::CalculateData(const PivotTableCalculateOption\&) method
 
 
-Calculating pivot tables with options.
+Calculates pivot table with options.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::CalculateData(const PivotTableCalculateOption &option)
@@ -38,8 +38,12 @@ void Aspose::Cells::Pivot::PivotTable::CalculateData(const PivotTableCalculateOp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | const PivotTableCalculateOption\& |  |
+| option | const PivotTableCalculateOption\& | The options for calculating the pivot table |
+## Remarks
 
+
+
+If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

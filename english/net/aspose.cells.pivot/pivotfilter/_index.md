@@ -21,12 +21,12 @@ public class PivotFilter
 | [EvaluationOrder](../../aspose.cells.pivot/pivotfilter/evaluationorder/) { get; set; } | Gets the Evaluation Order of the pivot filter. |
 | [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex/) { get; } | Gets the index of source field which this pivot filter is applied to. |
 | [FilterCategory](../../aspose.cells.pivot/pivotfilter/filtercategory/) { get; } | Gets the category of this filter. |
-| [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype/) { get; } | Gets the autofilter type of the pivot filter. |
+| [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype/) { get; } | Gets the filter type of the pivot filter. |
 | [MeasureCubeFieldIndex](../../aspose.cells.pivot/pivotfilter/measurecubefieldindex/) { get; } | Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
 | [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex/) { get; set; } | (**Obsolete.**) Gets the measure field index of the pivot filter. |
 | [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex/) { get; set; } | Gets the member property field index of the pivot filter. |
 | [Name](../../aspose.cells.pivot/pivotfilter/name/) { get; set; } | Gets the name of the pivot filter. |
-| [UseWholeDay](../../aspose.cells.pivot/pivotfilter/usewholeday/) { get; set; } | Indicates whether uses whole days in its filtering criteria. |
+| [UseWholeDay](../../aspose.cells.pivot/pivotfilter/usewholeday/) { get; set; } | Indicates whether to use whole days in its date filtering criteria. |
 | [Value1](../../aspose.cells.pivot/pivotfilter/value1/) { get; set; } | Gets the string value1 of the label pivot filter. |
 | [Value2](../../aspose.cells.pivot/pivotfilter/value2/) { get; set; } | Gets the string value2 of the label pivot filter. |
 | [ValueFieldIndex](../../aspose.cells.pivot/pivotfilter/valuefieldindex/) { get; set; } | Gets the index of value field in the value region. |

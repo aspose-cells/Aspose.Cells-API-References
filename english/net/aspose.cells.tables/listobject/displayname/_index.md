@@ -1,13 +1,13 @@
 ---
 title: ListObject.DisplayName
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets and sets the display name
+description: ListObject property. Gets and sets the display name of the table
 type: docs
 url: /net/aspose.cells.tables/listobject/displayname/
 ---
 ## ListObject.DisplayName property
 
-Gets and sets the display name.
+Gets and sets the display name of the table.
 
 ```csharp
 public string DisplayName { get; set; }

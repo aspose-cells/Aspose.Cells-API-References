@@ -1,13 +1,13 @@
 ---
 title: ListObject.DataRange
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets the data range of the ListObject
+description: ListObject property. Gets the data range of the Table
 type: docs
 url: /net/aspose.cells.tables/listobject/datarange/
 ---
 ## ListObject.DataRange property
 
-Gets the data range of the ListObject.
+Gets the data range of the Table.
 
 ```csharp
 public Range DataRange { get; }

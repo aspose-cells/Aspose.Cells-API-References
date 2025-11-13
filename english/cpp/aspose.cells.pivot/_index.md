@@ -26,18 +26,18 @@ url: /cpp/aspose.cells.pivot/
 | [PivotField](./pivotfield/) | Represents a field in a [PivotTable](./pivottable/) report. |
 | [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the [PivotField](./pivotfield/) objects in the [PivotTable](./pivottable/)'s specific PivotFields type. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
-| [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting of sorting pivot fields. |
+| [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a [PivotFilter](./pivotfilter/) in [PivotFilter](./pivotfilter/) Collection. |
-| [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the [PivotFilter](./pivotfilter/) objects. |
+| [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition/) |  **(Deprecated)** Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
 | [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  **(Deprecated)** Represents [PivotTable](./pivottable/) Format Conditions. |
 | [PivotItem](./pivotitem/) | Represents a item in a [PivotField](./pivotfield/) report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [PivotItem](./pivotitem/) objects in the [PivotField](./pivotfield/). |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
-| [PivotPageFields](./pivotpagefields/) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
+| [PivotPageFields](./pivotpagefields/) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable/) | Summary description for [PivotTable](./pivottable/). |
-| [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calcuating the pivot table. |
+| [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the [PivotTable](./pivottable/) objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the [PivotTable](./pivottable/). |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to [PivotTable](./pivottable/). |
@@ -53,7 +53,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotFieldGroupType](./pivotfieldgrouptype/) | Represents the group type of pivot field. |
 | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](./pivotfieldtype/) | Represents [PivotTable](./pivottable/) field type. |
-| [PivotFilterType](./pivotfiltertype/) | Represents [PivotTable](./pivottable/) Filter type. |
+| [PivotFilterType](./pivotfiltertype/) | Represents the filter type of the pivot table. |
 | [PivotGroupByType](./pivotgroupbytype/) | Represents group by type. |
 | [PivotItemPosition](./pivotitemposition/) |  **(Deprecated)** Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |

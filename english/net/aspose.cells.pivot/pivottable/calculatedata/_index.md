@@ -1,13 +1,13 @@
 ---
 title: PivotTable.CalculateData
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Calculates pivottables data to cells
+description: PivotTable method. Calculates data of pivottable to cells
 type: docs
 url: /net/aspose.cells.pivot/pivottable/calculatedata/
 ---
 ## CalculateData() {#calculatedata}
 
-Calculates pivottable's data to cells.
+Calculates data of pivottable to cells.
 
 ```csharp
 public void CalculateData()
@@ -78,7 +78,7 @@ namespace AsposeCellsExamples
 
 ## CalculateData(PivotTableCalculateOption) {#calculatedata_1}
 
-Calculating pivot tables with options
+Calculates pivot table with options.
 
 ```csharp
 public void CalculateData(PivotTableCalculateOption option)
@@ -86,7 +86,11 @@ public void CalculateData(PivotTableCalculateOption option)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | PivotTableCalculateOption |  |
+| option | PivotTableCalculateOption | The options for calculating the pivot table |
+
+### Remarks
+
+If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 ### Examples
 

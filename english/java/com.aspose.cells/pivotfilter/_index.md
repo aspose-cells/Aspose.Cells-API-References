@@ -81,7 +81,7 @@ Represents a PivotFilter in PivotFilter Collection.
 | [getEvaluationOrder()](#getEvaluationOrder--) | Gets the Evaluation Order of the pivot filter. |
 | [getFieldIndex()](#getFieldIndex--) | Gets the index of source field which this pivot filter is applied to. |
 | [getFilterCategory()](#getFilterCategory--) | Gets the category of this filter. |
-| [getFilterType()](#getFilterType--) | Gets the autofilter type of the pivot filter. |
+| [getFilterType()](#getFilterType--) | Gets the filter type of the pivot filter. |
 | [getLabels()](#getLabels--) | Gets labels of the caption filter. |
 | [getMeasureCubeFieldIndex()](#getMeasureCubeFieldIndex--) | Specifies the index of the measure cube field. |
 | [getMeasureFldIndex()](#getMeasureFldIndex--) | Gets the measure field index of the pivot filter. |
@@ -89,7 +89,7 @@ Represents a PivotFilter in PivotFilter Collection.
 | [getName()](#getName--) | Gets the name of the pivot filter. |
 | [getNumberValues()](#getNumberValues--) | Gets values of the number filter. |
 | [getTop10Value()](#getTop10Value--) | Gets top 10 setting of the filter. |
-| [getUseWholeDay()](#getUseWholeDay--) | Indicates whether uses whole days in its filtering criteria. |
+| [getUseWholeDay()](#getUseWholeDay--) | Indicates whether to use whole days in its date filtering criteria. |
 | [getValue1()](#getValue1--) | Gets the string value1 of the label pivot filter. |
 | [getValue2()](#getValue2--) | Gets the string value2 of the label pivot filter. |
 | [getValueFieldIndex()](#getValueFieldIndex--) | Gets the index of value field in the value region. |
@@ -100,7 +100,7 @@ Represents a PivotFilter in PivotFilter Collection.
 | [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | Gets the measure field index of the pivot filter. |
 | [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | Gets the member property field index of the pivot filter. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the pivot filter. |
-| [setUseWholeDay(boolean value)](#setUseWholeDay-boolean-) | Indicates whether uses whole days in its filtering criteria. |
+| [setUseWholeDay(boolean value)](#setUseWholeDay-boolean-) | Indicates whether to use whole days in its date filtering criteria. |
 | [setValue1(String value)](#setValue1-java.lang.String-) | Gets the string value1 of the label pivot filter. |
 | [setValue2(String value)](#setValue2-java.lang.String-) | Gets the string value2 of the label pivot filter. |
 | [setValueFieldIndex(int value)](#setValueFieldIndex-int-) | Gets the index of value field in the value region. |
@@ -195,7 +195,7 @@ public int getFilterType()
 ```
 
 
-Gets the autofilter type of the pivot filter.
+Gets the filter type of the pivot filter.
 
 See [PivotFilterType](../../com.aspose.cells/pivotfiltertype).
 
@@ -281,7 +281,7 @@ public boolean getUseWholeDay()
 ```
 
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 **Returns:**
 boolean
@@ -403,7 +403,7 @@ public void setUseWholeDay(boolean value)
 ```
 
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 **Parameters:**
 | Parameter | Type | Description |

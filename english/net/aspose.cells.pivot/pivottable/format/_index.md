@@ -198,7 +198,7 @@ namespace AsposeCellsExamples
 
 ## Format(int, int, Style) {#format_2}
 
-Format the cell in the pivottable area
+Formats the cell in the pivottable area
 
 ```csharp
 public void Format(int row, int column, Style style)

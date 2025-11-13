@@ -29,7 +29,7 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [getEquationType()](#getEquationType--) | Get the equation type of the current node |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
-| [getNaryGrow()](#getNaryGrow--) |  |
+| [getNaryGrow()](#getNaryGrow--) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
 | [getSeparatorChar()](#getSeparatorChar--) | Delimiter separator character. |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
@@ -48,7 +48,7 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [setBeginChar(String value)](#setBeginChar-java.lang.String-) | Delimiter beginning character. |
 | [setDelimiterShape(int value)](#setDelimiterShape-int-) | Specifies the shape of delimiters in the delimiter object. |
 | [setEndChar(String value)](#setEndChar-java.lang.String-) | Delimiter ending character. |
-| [setNaryGrow(boolean value)](#setNaryGrow-boolean-) |  |
+| [setNaryGrow(boolean value)](#setNaryGrow-boolean-) | Specifies whether the delimiter should automatically expand and contract with the height of the formula. |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setSeparatorChar(String value)](#setSeparatorChar-java.lang.String-) | Delimiter separator character. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
@@ -221,7 +221,11 @@ public boolean getNaryGrow()
 ```
 
 
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 **Returns:**
 boolean
@@ -450,7 +454,11 @@ public void setNaryGrow(boolean value)
 ```
 
 
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
 
+**Remarks**
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 **Parameters:**
 | Parameter | Type | Description |

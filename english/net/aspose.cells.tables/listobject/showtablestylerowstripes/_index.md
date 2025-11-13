@@ -1,13 +1,13 @@
 ---
 title: ListObject.ShowTableStyleRowStripes
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Indicates whether row stripe formatting is applied
+description: ListObject property. Indicates whether row stripe formatting is applied to
 type: docs
 url: /net/aspose.cells.tables/listobject/showtablestylerowstripes/
 ---
 ## ListObject.ShowTableStyleRowStripes property
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 ```csharp
 public bool ShowTableStyleRowStripes { get; set; }

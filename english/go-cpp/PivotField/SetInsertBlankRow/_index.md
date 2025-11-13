@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setinsertblankrow/
 
 ## SetInsertBlankRow function
 
-Indicates whether inserting blank line after each item.
+Indicates whether to insert a blank line after each item.
 
 ```go
 

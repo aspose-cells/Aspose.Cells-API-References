@@ -10,7 +10,7 @@ url: /go-cpp/listobject/setshowheaderrow/
 
 ## SetShowHeaderRow function
 
-Gets and sets whether this ListObject show header row.
+Gets and sets whether this Table shows header row.
 
 ```go
 

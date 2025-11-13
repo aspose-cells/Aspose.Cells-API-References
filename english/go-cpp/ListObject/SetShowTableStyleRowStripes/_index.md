@@ -10,7 +10,7 @@ url: /go-cpp/listobject/setshowtablestylerowstripes/
 
 ## SetShowTableStyleRowStripes function
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 ```go
 

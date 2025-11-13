@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/isascendsort/
 
 ## IsAscendSort function
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+Indicates whether the items of this pivot field is autosorted ascending.
 
 ```go
 

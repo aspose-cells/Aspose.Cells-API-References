@@ -10,7 +10,7 @@ url: /go-cpp/pivotpagefields/
 
 ## PivotPageFields class
 
-Represents the pivot page field itemsif the pivot table data source is consolidation ranges.It only can contain up to 4 fields.
+Represents the pivot page itemsif the pivot table data source is consolidation ranges.It only can contain up to 4 items.
 
 ```go
 

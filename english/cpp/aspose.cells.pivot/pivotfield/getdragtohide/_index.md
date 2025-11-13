@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::GetDragToHide method
 linktitle: GetDragToHide
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GetDragToHide method. Indicates whether the specified field can be dragged to the hide position. The default value is true in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GetDragToHide method. Indicates whether the specified field can be dragged to the hide region. The default value is true in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.cells.pivot/pivotfield/getdragtohide/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/getdragtohide/
 ## PivotField::GetDragToHide method
 
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+Indicates whether the specified field can be dragged to the hide region. The default value is true.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GetDragToHide()

@@ -43,7 +43,7 @@ type PivotTableCollection struct  {
 |[Get_Int](./get_int/) | Gets the PivotTable report by index. | 
 |[Get_String](./get_string/) | Gets the PivotTable report by pivottable's name. | 
 |[Get_Int_Int](./get_int_int/) | Gets the PivotTable report by pivottable's position. | 
-|[Clear](./clear/) | Clear all pivot tables. | 
+|[Clear](./clear/) | Clears all pivot tables. | 
 |[Remove_PivotTable](./remove_pivottable/) | Deletes the specified PivotTable and delete the PivotTable data | 
 |[Remove_PivotTable_Bool](./remove_pivottable_bool/) | Deletes the specified PivotTable | 
 |[RemoveAt_Int](./removeat_int/) | Deletes the PivotTable at the specified index and delete the PivotTable data | 

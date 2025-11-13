@@ -1,7 +1,7 @@
 ---
 title: PivotFieldSortSetting
 second_title: Aspose.Cells for Java API Reference
-description: Represents the setting of sorting pivot fields.
+description: Represents the setting for sorting pivot fields.
 type: docs
 url: /java/com.aspose.cells/pivotfieldsortsetting/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class PivotFieldSortSetting
 ```
 
-Represents the setting of sorting pivot fields.
+Represents the setting for sorting pivot fields.
 ## Methods
 
 | Method | Description |
@@ -25,7 +25,7 @@ Represents the setting of sorting pivot fields.
 | [getSortType()](#getSortType--) | Represents the [SortOrder](../../com.aspose.cells/sortorder). |
 | [hashCode()](#hashCode--) |  |
 | [isSimpleSort()](#isSimpleSort--) | Indicates whether a simple data sort operation will be applied. |
-| [isSortByLabels()](#isSortByLabels--) | Indicates whether sorting the field by itself or data field. |
+| [isSortByLabels()](#isSortByLabels--) | Indicates whether to sort the field by itself or data field. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -135,7 +135,7 @@ public boolean isSortByLabels()
 ```
 
 
-Indicates whether sorting the field by itself or data field.
+Indicates whether to sort the field by itself or data field.
 
 **Returns:**
 boolean

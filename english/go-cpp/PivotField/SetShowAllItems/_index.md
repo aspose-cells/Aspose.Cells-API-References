@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setshowallitems/
 
 ## SetShowAllItems function
 
-Indicates whether all items displays in the PivotTable report,even if they don't contain summary data.show items with no dataThe default value is false.
+Indicates whether to display all items in the PivotTable view,even if they don't contain summary data.The default value is false.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getbaseindex/
 
 ## GetBaseIndex function
 
-Represents the PivotField index in the base PivotFields.
+Represents the index in the source pivot fields.
 
 ```go
 

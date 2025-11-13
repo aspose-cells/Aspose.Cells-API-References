@@ -19,6 +19,12 @@ public class GridJsService : IGridJsService
 | --- | --- |
 | [GridJsService](gridjsservice/)(IOptions&lt;GridJsOptions&gt;) | The default constructor for GridJsService |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Settings](../../aspose.cells.gridjs/gridjsservice/settings/) { get; set; } | Represents the workbook settings. |
+
 ## Methods
 
 | Name | Description |

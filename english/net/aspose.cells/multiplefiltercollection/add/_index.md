@@ -1,13 +1,13 @@
 ---
 title: MultipleFilterCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: MultipleFilterCollection method. Adds string filter
+description: MultipleFilterCollection method. Adds a label filter
 type: docs
 url: /net/aspose.cells/multiplefiltercollection/add/
 ---
-## MultipleFilterCollection.Add method
+## Add(string) {#add_1}
 
-Adds string filter.
+Adds a label filter.
 
 ```csharp
 public void Add(string filter)
@@ -68,6 +68,30 @@ namespace AsposeCellsExamples
 
 ### See Also
 
+* class [MultipleFilterCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(DateTimeGroupingType, int, int, int) {#add}
+
+Adds a date filter criteria value.
+
+```csharp
+public void Add(DateTimeGroupingType type, int year, int month, int day)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | DateTimeGroupingType | The type of date filter. |
+| year | Int32 | The year. |
+| month | Int32 | The month. |
+| day | Int32 | The day. |
+
+### See Also
+
+* enum [DateTimeGroupingType](../../datetimegroupingtype/)
 * class [MultipleFilterCollection](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

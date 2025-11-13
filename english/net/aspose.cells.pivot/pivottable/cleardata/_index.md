@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ClearData
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Clear PivotTables data and formatting
+description: PivotTable method. Clear data and formatting of PivotTable view
 type: docs
 url: /net/aspose.cells.pivot/pivottable/cleardata/
 ---
 ## PivotTable.ClearData method
 
-Clear PivotTable's data and formatting
+Clear data and formatting of PivotTable view.
 
 ```csharp
 public void ClearData()

@@ -1,13 +1,13 @@
 ---
 title: ListObject.ListColumns
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets ListColumns of the ListObject
+description: ListObject property. Gets the ListColumn list of this table
 type: docs
 url: /net/aspose.cells.tables/listobject/listcolumns/
 ---
 ## ListObject.ListColumns property
 
-Gets ListColumns of the ListObject.
+Gets the [`ListColumn`](../../listcolumn/) list of this table.
 
 ```csharp
 public ListColumnCollection ListColumns { get; }

@@ -10,7 +10,7 @@ url: /go-cpp/tablestyle/
 
 ## TableStyle class
 
-Represents the table style.
+Represents the style of the table.
 
 ```go
 

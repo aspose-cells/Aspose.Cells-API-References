@@ -40,8 +40,8 @@ void Aspose::Cells::Pivot::PivotField::HideItem(const U16String &itemValue, bool
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| itemValue | const U16String\& | the value of the pivotItem in the pivotField. |
-| isHidden | bool | whether the specific [PivotItem](../../pivotitem/) is hidden |
+| itemValue | const U16String\& | The name of the pivotItem in the pivotField. |
+| isHidden | bool | Whether the specific [PivotItem](../../pivotitem/) is hidden |
 
 ## See Also
 
@@ -62,8 +62,8 @@ void Aspose::Cells::Pivot::PivotField::HideItem(const char16_t *itemValue, bool 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| itemValue | const char16_t* | the value of the pivotItem in the pivotField. |
-| isHidden | bool | whether the specific [PivotItem](../../pivotitem/) is hidden |
+| itemValue | const char16_t* | The name of the pivotItem in the pivotField. |
+| isHidden | bool | Whether the specific [PivotItem](../../pivotitem/) is hidden |
 
 ## See Also
 

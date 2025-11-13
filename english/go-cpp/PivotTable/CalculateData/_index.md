@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/calculatedata/
 
 ## CalculateData function
 
-Calculates pivottable's data to cells.
+Calculates data of pivottable to cells.
 
 ```go
 

@@ -18,7 +18,7 @@ Represents the built-in table style type.
 | Field | Description |
 | --- | --- |
 | [CUSTOM](#CUSTOM) |  |
-| [NONE](#NONE) |  |
+| [NONE](#NONE) | No style. |
 | [TABLE_STYLE_DARK_1](#TABLE-STYLE-DARK-1) |  |
 | [TABLE_STYLE_DARK_10](#TABLE-STYLE-DARK-10) |  |
 | [TABLE_STYLE_DARK_11](#TABLE-STYLE-DARK-11) |  |
@@ -30,7 +30,7 @@ Represents the built-in table style type.
 | [TABLE_STYLE_DARK_7](#TABLE-STYLE-DARK-7) |  |
 | [TABLE_STYLE_DARK_8](#TABLE-STYLE-DARK-8) |  |
 | [TABLE_STYLE_DARK_9](#TABLE-STYLE-DARK-9) |  |
-| [TABLE_STYLE_LIGHT_1](#TABLE-STYLE-LIGHT-1) |  |
+| [TABLE_STYLE_LIGHT_1](#TABLE-STYLE-LIGHT-1) | Table Style Light 1 |
 | [TABLE_STYLE_LIGHT_10](#TABLE-STYLE-LIGHT-10) |  |
 | [TABLE_STYLE_LIGHT_11](#TABLE-STYLE-LIGHT-11) |  |
 | [TABLE_STYLE_LIGHT_12](#TABLE-STYLE-LIGHT-12) |  |
@@ -106,7 +106,7 @@ public static final int NONE
 ```
 
 
-
+No style.
 
 ### TABLE_STYLE_DARK_1 {#TABLE-STYLE-DARK-1}
 ```
@@ -202,7 +202,7 @@ public static final int TABLE_STYLE_LIGHT_1
 ```
 
 
-
+Table Style Light 1
 
 ### TABLE_STYLE_LIGHT_10 {#TABLE-STYLE-LIGHT-10}
 ```

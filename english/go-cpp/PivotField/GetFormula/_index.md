@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getformula/
 
 ## GetFormula function
 
-Gets formula of the calculated field .
+Gets the formula of the calculated field .Only works for calculated field.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/iscalculatedfield/
 
 ## IsCalculatedField function
 
-Indicates whether the specified PivotTable field is calculated field.
+Indicates whether the this pivot field is calculated field.
 
 ```go
 

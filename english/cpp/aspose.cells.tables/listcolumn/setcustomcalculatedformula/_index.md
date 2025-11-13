@@ -4,7 +4,7 @@ linktitle: SetCustomCalculatedFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::SetCustomCalculatedFormula method. Sets the formula for this list column in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells.tables/listcolumn/setcustomcalculatedformula/
 ---
 ## ListColumn::SetCustomCalculatedFormula(const U16String\&, bool, bool) method

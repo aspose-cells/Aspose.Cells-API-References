@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getnamesofsourcedataconnections/
 
 ## GetNamesOfSourceDataConnections function
 
-Gets the name of external source data connections.
+Gets the names of external source data connections.
 
 ```go
 

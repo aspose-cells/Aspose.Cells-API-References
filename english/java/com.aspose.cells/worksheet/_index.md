@@ -66,6 +66,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [copy(Worksheet sourceSheet, CopyOptions copyOptions)](#copy-com.aspose.cells.Worksheet-com.aspose.cells.CopyOptions-) | Copies contents and formats from another worksheet. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [filter(CellArea ca)](#filter-com.aspose.cells.CellArea-) | Filters the range. |
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [getActiveCell()](#getActiveCell--) | Gets the active cell in the worksheet. |
@@ -715,6 +716,19 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### filter(CellArea ca) {#filter-com.aspose.cells.CellArea-}
+```
+public void filter(CellArea ca)
+```
+
+
+Filters the range.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../../com.aspose.cells/cellarea) | The range |
+
 ### freezePanes(int row, int column, int freezedRows, int freezedColumns) {#freezePanes-int-int-int-int-}
 ```
 public void freezePanes(int row, int column, int freezedRows, int freezedColumns)

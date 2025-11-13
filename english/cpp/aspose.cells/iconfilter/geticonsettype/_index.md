@@ -2,7 +2,7 @@
 title: Aspose::Cells::IconFilter::GetIconSetType method
 linktitle: GetIconSetType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::IconFilter::GetIconSetType method. Gets and sets which icon set is used in the filter criteria in C++.'
+description: 'Aspose::Cells::IconFilter::GetIconSetType method. Gets and sets which icon set is used for this filter criteria in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells/iconfilter/geticonsettype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/iconfilter/geticonsettype/
 ## IconFilter::GetIconSetType method
 
 
-Gets and sets which icon set is used in the filter criteria.
+Gets and sets which icon set is used for this filter criteria.
 
 ```cpp
 IconSetType Aspose::Cells::IconFilter::GetIconSetType()

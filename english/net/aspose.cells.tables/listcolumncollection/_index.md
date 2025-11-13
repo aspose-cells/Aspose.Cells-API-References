@@ -1,13 +1,13 @@
 ---
 title: Class ListColumnCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Tables.ListColumnCollection class. Represents A collection of all the ListColumn objects in the specified ListObject object
+description: Aspose.Cells.Tables.ListColumnCollection class. Represents a list of all the ListColumn objects in the table
 type: docs
 url: /net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class
 
-Represents A collection of all the [`ListColumn`](../listcolumn/) objects in the specified ListObject object.
+Represents a list of all the [`ListColumn`](../listcolumn/) objects in the table.
 
 ```csharp
 public class ListColumnCollection : CollectionBase<ListColumn>

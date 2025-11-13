@@ -73,7 +73,7 @@ is_root: true
 | [CheckBoxActiveXControl](./checkboxactivexcontrol) | Represents a CheckBox ActiveX control. |
 | [CheckBoxCollection](./checkboxcollection) | Represents a collection of [CheckBox](../javascript-cpp/checkbox/) objects in a worksheet. |
 | [Color](./color) | Represents an ARGB (alpha, red, green, blue) color. |
-| [ColorFilter](./colorfilter) | Represents filtering the range by color. |
+| [ColorFilter](./colorfilter) | Represents setting for filtering the range by color. |
 | [ColorHelper](./colorhelper) | Provides helper functions about color. |
 | [ColorScale](./colorscale) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
 | [Column](./column) | Represents a single column in a worksheet. |
@@ -102,7 +102,7 @@ is_root: true
 | [CustomFunctionDefinition](./customfunctiondefinition) | Definition of custom function for calculating with user's custom engine. |
 | [CustomGeometry](./customgeometry) | Represents a custom geometric shape. |
 | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
-| [CustomProperty](./customproperty) | Represents identifier information. |
+| [CustomProperty](./customproperty) | Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet. |
 | [CustomPropertyCollection](./custompropertycollection) | A collection of [CustomProperty](../javascript-cpp/customproperty/) objects that represent additional information. |
 | [CustomRenderSettings](./customrendersettings) | Represents custom settings during rendering. |
 | [CustomXmlPart](./customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
@@ -160,7 +160,7 @@ is_root: true
 | [FileFormatInfo](./fileformatinfo) | Contains data returned by [FileFormatUtil](../javascript-cpp/fileformatutil/) file format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
 | [FillFormat](./fillformat) | Encapsulates the object that represents fill formatting for a shape. |
-| [FilterColumn](./filtercolumn) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
+| [FilterColumn](./filtercolumn) | Represents a filter for a single column. |
 | [FilterColumnCollection](./filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
 | [FindOptions](./findoptions) | Represents find options. |
 | [Floor](./floor) | Encapsulates the object that represents the floor of a 3-D chart. |
@@ -227,8 +227,8 @@ is_root: true
 | [ListBox](./listbox) | Represents a list box object. |
 | [ListBoxActiveXControl](./listboxactivexcontrol) | Represents a ListBox ActiveX control. |
 | [ListColumn](./listcolumn) | Represents a column in a Table. |
-| [ListColumnCollection](./listcolumncollection) | Represents A collection of all the [ListColumn](../javascript-cpp/listcolumn/) objects in the specified ListObject object. |
-| [ListObject](./listobject) | Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet. |
+| [ListColumnCollection](./listcolumncollection) | Represents a list of all the [ListColumn](../javascript-cpp/listcolumn/) objects in the table. |
+| [ListObject](./listobject) | Represents a table in a worksheet. |
 | [ListObjectCollection](./listobjectcollection) | Represents a collection of [ListObject](../javascript-cpp/listobject/) objects in the worksheet. |
 | [LoadFilter](./loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions) | Represents the options of loading the file. |
@@ -301,9 +301,9 @@ is_root: true
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings) | Represents the group setting of pivot field. |
-| [PivotFieldSortSetting](./pivotfieldsortsetting) | Represents the setting of sorting pivot fields. |
+| [PivotFieldSortSetting](./pivotfieldsortsetting) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
-| [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilter objects |
+| [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotFormatConditionCollection](./pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
 | [PivotGlobalizationSettings](./pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
@@ -311,10 +311,10 @@ is_root: true
 | [PivotItemCollection](./pivotitemcollection) | Represents all the [PivotItem](../javascript-cpp/pivotitem/) objects in the PivotField. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](./pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
-| [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
+| [PivotPageFields](./pivotpagefields) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable) | Summary description for PivotTable. |
-| [PivotTableCalculateOption](./pivottablecalculateoption) | Rerepsents the options of calcuating the pivot table. |
+| [PivotTableCalculateOption](./pivottablecalculateoption) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
@@ -430,7 +430,7 @@ is_root: true
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
 | [SvgImageOptions](./svgimageoptions) | Options for generating Svg image. |
 | [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../javascript-cpp/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
-| [TableStyle](./tablestyle) | Represents the table style. |
+| [TableStyle](./tablestyle) | Represents the style of the table. |
 | [TableStyleCollection](./tablestylecollection) | Represents all custom table styles. |
 | [TableStyleElement](./tablestyleelement) | Represents the element of the table style. |
 | [TableStyleElementCollection](./tablestyleelementcollection) | Represents all elements of the table style. |
@@ -463,7 +463,7 @@ is_root: true
 | [Title](./title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](./togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |
 | [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
-| [Top10Filter](./top10filter) | Represents the top 10 filter. |
+| [Top10Filter](./top10filter) | Represents the top N (percent or number of items) to filter by. |
 | [Trendline](./trendline) | Represents a trendline in a chart. |
 | [TrendlineCollection](./trendlinecollection) | Represents a collection of all the [Trendline](../javascript-cpp/trendline/) objects for the specified data series. |
 | [TwoColorGradient](./twocolorgradient) | Represents two color gradient. |
@@ -643,6 +643,7 @@ is_root: true
 | [HtmlFormatHandlingType](./htmlformathandlingtype) | Specifies how to handle formatting from the HTML source |
 | [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
+| [HtmlLayoutMode](./htmllayoutmode) | Represents the layout mode for HTML rendering. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
 | [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
@@ -712,7 +713,7 @@ is_root: true
 | [PivotFieldGroupType](./pivotfieldgrouptype) | Represents the group type of pivot field. |
 | [PivotFieldSubtotalType](./pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](./pivotfieldtype) | Represents PivotTable field type. |
-| [PivotFilterType](./pivotfiltertype) | Represents PivotTable Filter type. |
+| [PivotFilterType](./pivotfiltertype) | Represents the filter type of the pivot table. |
 | [PivotGroupByType](./pivotgroupbytype) | Represents group by type. |
 | [PivotItemPosition](./pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |

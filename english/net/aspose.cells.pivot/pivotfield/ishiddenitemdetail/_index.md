@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsHiddenItemDetail
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Gets whether hidding the detail of the specific PivotItem
+description: PivotField method. Gets whether to hide the detail of the specific PivotItem
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/ishiddenitemdetail/
 ---
 ## PivotField.IsHiddenItemDetail method
 
-Gets whether hidding the detail of the specific PivotItem..
+Gets whether to hide the detail of the specific PivotItem..
 
 ```csharp
 public bool IsHiddenItemDetail(int index)

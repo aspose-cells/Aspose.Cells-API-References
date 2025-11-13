@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setisautosort/
 
 ## SetIsAutoSort function
 
-Indicates whether the specified PivotTable field is automatically sorted.
+Indicates whether the items of this PivotTable field are automatically sorted.
 
 ```go
 

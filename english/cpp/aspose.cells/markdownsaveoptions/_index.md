@@ -35,6 +35,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [GetLineSeparator()](./getlineseparator/) | Gets and sets the line separator. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [GetOfficeMathOutputType()](./getofficemathoutputtype/) | Indicates how export OfficeMath objects to [Markdown](../../aspose.cells.markdown/), Default value is Image. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
@@ -71,6 +72,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetLineSeparator(const U16String\& value)](./setlineseparator/) | Gets and sets the line separator. |
 | [SetLineSeparator(const char16_t* value)](./setlineseparator/) | Gets and sets the line separator. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [SetOfficeMathOutputType(HtmlOfficeMathOutputType value)](./setofficemathoutputtype/) | Indicates how export OfficeMath objects to [Markdown](../../aspose.cells.markdown/), Default value is Image. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

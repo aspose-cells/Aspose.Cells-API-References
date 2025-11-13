@@ -46,6 +46,8 @@ type ImportTableOptions struct  {
 |[SetDateFormat](./setdateformat/) | Gets or sets date format string for cells with imported datetime values. | 
 |[GetNumberFormats](./getnumberformats/) | Gets or sets the number formats | 
 |[SetNumberFormats](./setnumberformats/) | Gets or sets the number formats | 
+|[GetStyles](./getstyles/) | Gets and sets the styles for each column of the table. | 
+|[SetStyles](./setstyles/) | Gets and sets the styles for each column of the table. | 
 |[GetIsFormulas](./getisformulas/) | Indicates whether the data are formulas. | 
 |[SetIsFormulas](./setisformulas/) | Indicates whether the data are formulas. | 
 |[GetTotalRows](./gettotalrows/) | Gets or sets total row count to import from data source. -1 means all rows of given data source. | 

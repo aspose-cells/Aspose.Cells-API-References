@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getpivotformats/
 
 ## GetPivotFormats function
 
-Gets the collection of formats applied to PivotTable.
+Gets all formats applied to PivotTable.
 
 ```go
 

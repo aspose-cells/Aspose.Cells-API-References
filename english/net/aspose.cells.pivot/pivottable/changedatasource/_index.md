@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ChangeDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Set pivottables source data
+description: PivotTable method. Change data source of the pivottable
 type: docs
 url: /net/aspose.cells.pivot/pivottable/changedatasource/
 ---
 ## PivotTable.ChangeDataSource method
 
-Set pivottable's source data.
+Change data source of the pivottable.
 
 ```csharp
 public void ChangeDataSource(string[] source)

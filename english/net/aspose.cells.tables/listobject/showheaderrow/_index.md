@@ -1,13 +1,13 @@
 ---
 title: ListObject.ShowHeaderRow
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets and sets whether this ListObject show header row
+description: ListObject property. Gets and sets whether this Table shows header row
 type: docs
 url: /net/aspose.cells.tables/listobject/showheaderrow/
 ---
 ## ListObject.ShowHeaderRow property
 
-Gets and sets whether this ListObject show header row.
+Gets and sets whether this Table shows header row.
 
 ```csharp
 public bool ShowHeaderRow { get; set; }

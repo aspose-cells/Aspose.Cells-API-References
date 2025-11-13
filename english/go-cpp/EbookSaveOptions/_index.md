@@ -161,8 +161,10 @@ type EbookSaveOptions struct  {
 |[SetHtmlVersion](./sethtmlversion/) | Specifies version of HTML standard that should be used when saving the HTML format.Default value is HtmlVersion.Default. | 
 |[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
-|[GetEmbeddedFontType](./getembeddedfonttype/) | Gets or sets the type of font that embedded in html.Default value is HtmlEmbeddedFontType.None which indicates that it will not embed font in html. | 
-|[SetEmbeddedFontType](./setembeddedfonttype/) | Gets or sets the type of font that embedded in html.Default value is HtmlEmbeddedFontType.None which indicates that it will not embed font in html. | 
+|[GetLayoutMode](./getlayoutmode/) | Gets or sets the layout mode when saving to HTML.The default value is HtmlLayoutMode.Normal | 
+|[SetLayoutMode](./setlayoutmode/) | Gets or sets the layout mode when saving to HTML.The default value is HtmlLayoutMode.Normal | 
+|[GetEmbeddedFontType](./getembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
+|[SetEmbeddedFontType](./setembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

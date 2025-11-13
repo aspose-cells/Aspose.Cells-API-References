@@ -38,7 +38,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CellWatch](./cellwatch/) | Represents Cell Watch Item in the 'watch window'. |
 | [CellWatchCollection](./cellwatchcollection/) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
 | [CollectionBase&lt;T&gt;](./collectionbase-1/) | Provides the abstract base class for a strongly typed collection. |
-| [ColorFilter](./colorfilter/) | Represents filtering the range by color. |
+| [ColorFilter](./colorfilter/) | Represents setting for filtering the range by color. |
 | [ColorScale](./colorscale/) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
 | [Column](./column/) | Represents a single column in a worksheet. |
 | [ColumnCollection](./columncollection/) | Collection of the [`Column`](../aspose.cells/column/) objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
@@ -78,7 +78,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. |
 | [FileFormatInfo](./fileformatinfo/) | Contains data returned by [`FileFormatUtil`](../aspose.cells/fileformatutil/) file format detection methods. |
 | [FileFormatUtil](./fileformatutil/) | Provides utility methods for converting file format enums to strings or file extensions and back. |
-| [FilterColumn](./filtercolumn/) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
+| [FilterColumn](./filtercolumn/) | Represents a filter for a single column. |
 | [FilterColumnCollection](./filtercolumncollection/) | A collection of Filter objects that represents all the filters in an autofiltered range. |
 | [FindOptions](./findoptions/) | Represents find options. |
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
@@ -166,7 +166,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [ThreadedCommentCollection](./threadedcommentcollection/) | Represents the list of threaded comments. |
 | [ThreadInterruptMonitor](./threadinterruptmonitor/) | Simple implementation of [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) by starting another thread to require the interruption after sleeping user specified limit. |
 | [Top10](./top10/) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
-| [Top10Filter](./top10filter/) | Represents the top 10 filter. |
+| [Top10Filter](./top10filter/) | Represents the top N (percent or number of items) to filter by. |
 | [TwoColorGradient](./twocolorgradient/) | Represents two color gradient. |
 | [TxtLoadOptions](./txtloadoptions/) | Represents the options for loading text file. |
 | [TxtSaveOptions](./txtsaveoptions/) | Represents the save options for csv/tab delimited/other text format. |

@@ -1,13 +1,13 @@
 ---
 title: PivotField.DisplayName
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Represents the PivotField display name
+description: PivotField property. Represents the display name of pivot field in the pivot table view
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/displayname/
 ---
 ## PivotField.DisplayName property
 
-Represents the PivotField display name.
+Represents the display name of pivot field in the pivot table view.
 
 ```csharp
 public string DisplayName { get; set; }

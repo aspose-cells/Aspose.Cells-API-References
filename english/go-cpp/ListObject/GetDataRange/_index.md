@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getdatarange/
 
 ## GetDataRange function
 
-Gets the data range of the ListObject.
+Gets the data range of the Table.
 
 ```go
 

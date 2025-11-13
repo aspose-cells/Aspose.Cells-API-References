@@ -4,7 +4,7 @@ linktitle: Format
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::Format method. Formats selected area of the PivotTable in C++.'
 type: docs
-weight: 15100
+weight: 15200
 url: /cpp/aspose.cells.pivot/pivottable/format/
 ---
 ## PivotTable::Format(const PivotArea\&, const Style\&) method
@@ -56,7 +56,7 @@ void Aspose::Cells::Pivot::PivotTable::Format(const CellArea &ca, const Style &s
 ## PivotTable::Format(int32_t, int32_t, const Style\&) method
 
 
-Format the cell in the pivottable area.
+Formats the cell in the pivottable area.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::Format(int32_t row, int32_t column, const Style &style)

@@ -102,7 +102,7 @@ Represents the collection of all the PivotTable objects on the specified workshe
 | [add(String sourceData, String cell, String tableName, boolean useSameSource, boolean isXlsClassic)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-boolean-) | Adds a new PivotTable. |
 | [add(String[] sourceData, boolean isAutoPage, PivotPageFields pageFields, int row, int column, String tableName)](#add-java.lang.String---boolean-com.aspose.cells.PivotPageFields-int-int-java.lang.String-) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [add(String[] sourceData, boolean isAutoPage, PivotPageFields pageFields, String destCellName, String tableName)](#add-java.lang.String---boolean-com.aspose.cells.PivotPageFields-java.lang.String-java.lang.String-) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [clear()](#clear--) | Clear all pivot tables. |
+| [clear()](#clear--) | Clears all pivot tables. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -330,7 +330,7 @@ public void clear()
 ```
 
 
-Clear all pivot tables.
+Clears all pivot tables.
 
 ### contains(Object o) {#contains-java.lang.Object-}
 ```

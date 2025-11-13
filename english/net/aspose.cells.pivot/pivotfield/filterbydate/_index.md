@@ -1,13 +1,13 @@
 ---
 title: PivotField.FilterByDate
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Filters by date setting of row or column pivot field
+description: PivotField method. Filters by date values of row or column pivot field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/filterbydate/
 ---
 ## PivotField.FilterByDate method
 
-Filters by date setting of row or column pivot field.
+Filters by date values of row or column pivot field.
 
 ```csharp
 public PivotFilter FilterByDate(PivotFilterType type, DateTime dateTime1, DateTime dateTime2)

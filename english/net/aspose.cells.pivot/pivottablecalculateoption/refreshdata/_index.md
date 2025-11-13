@@ -13,6 +13,10 @@ Indicates whether refreshing data source of the pivottable.
 public bool RefreshData { get; set; }
 ```
 
+### Remarks
+
+If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+
 ### Examples
 
 ```csharp

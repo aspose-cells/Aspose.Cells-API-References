@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/showincompactform/
 
 ## ShowInCompactForm function
 
-Layouts the PivotTable in compact form.
+Layouts the PivotTable view in compact form.
 
 ```go
 

@@ -4,7 +4,7 @@ linktitle: GetTotalsRowLabel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListColumn::GetTotalsRowLabel method. Gets and sets the display labels of total row in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.tables/listcolumn/gettotalsrowlabel/
 ---
 ## ListColumn::GetTotalsRowLabel method

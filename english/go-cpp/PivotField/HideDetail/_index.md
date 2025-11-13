@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/hidedetail/
 
 ## HideDetail function
 
-Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
+Sets whether the detail of all PivotItems in a pivot field are hidden.That is collapse/expand this field.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/top10filter/ispercent/
 
 ## IsPercent function
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 ```go
 

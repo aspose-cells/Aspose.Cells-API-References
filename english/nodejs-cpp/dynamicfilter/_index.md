@@ -25,7 +25,7 @@ class DynamicFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [dynamicFilterType](#dynamicFilterType--)| DynamicFilterType | Gets and sets the dynamic filter type. |
+| [dynamicFilterType](#dynamicFilterType--)| DynamicFilterType | Gets and sets the type of this dynamic filter. |
 | [value](#value--)| Object | Gets and sets the dynamic filter value. |
 | [maxValue](#maxValue--)| Object | Gets and sets the dynamic filter max value. |
 
@@ -33,8 +33,8 @@ class DynamicFilter;
 
 | Method | Description |
 | --- | --- |
-| [getDynamicFilterType()](#getDynamicFilterType--)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type. |
-| [setDynamicFilterType(DynamicFilterType)](#setDynamicFilterType-dynamicfiltertype-)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type. |
+| [getDynamicFilterType()](#getDynamicFilterType--)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the type of this dynamic filter. |
+| [setDynamicFilterType(DynamicFilterType)](#setDynamicFilterType-dynamicfiltertype-)| <b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the type of this dynamic filter. |
 | [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value. |
 | [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets and sets the dynamic filter value. |
 | [getMaxValue()](#getMaxValue--)| <b>@deprecated.</b> Please use the 'maxValue' property instead. Gets and sets the dynamic filter max value. |
@@ -58,7 +58,7 @@ constructor(obj: Object);
 
 ### dynamicFilterType {#dynamicFilterType--}
 
-Gets and sets the dynamic filter type.
+Gets and sets the type of this dynamic filter.
 
 ```javascript
 dynamicFilterType : DynamicFilterType;
@@ -85,7 +85,7 @@ maxValue : Object;
 
 ### getDynamicFilterType() {#getDynamicFilterType--}
 
-<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type.
+<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the type of this dynamic filter.
 
 ```javascript
 getDynamicFilterType() : DynamicFilterType;
@@ -98,7 +98,7 @@ getDynamicFilterType() : DynamicFilterType;
 
 ### setDynamicFilterType(DynamicFilterType) {#setDynamicFilterType-dynamicfiltertype-}
 
-<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the dynamic filter type.
+<b>@deprecated.</b> Please use the 'dynamicFilterType' property instead. Gets and sets the type of this dynamic filter.
 
 ```javascript
 setDynamicFilterType(value: DynamicFilterType) : void;

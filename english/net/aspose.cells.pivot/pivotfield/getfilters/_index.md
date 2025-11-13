@@ -1,13 +1,13 @@
 ---
 title: PivotField.GetFilters
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Gets all pivot filters of this pivot field
+description: PivotField method. Gets all pivot filters applied for this pivot field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/getfilters/
 ---
 ## PivotField.GetFilters method
 
-Gets all pivot filters of this pivot field.
+Gets all pivot filters applied for this pivot field.
 
 ```csharp
 public PivotFilter[] GetFilters()

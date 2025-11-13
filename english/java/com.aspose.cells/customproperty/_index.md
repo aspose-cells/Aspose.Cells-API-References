@@ -1,7 +1,7 @@
 ---
 title: CustomProperty
 second_title: Aspose.Cells for Java API Reference
-description: Represents identifier information.
+description: Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet.
 type: docs
 url: /java/com.aspose.cells/customproperty/
 ---
@@ -12,17 +12,13 @@ java.lang.Object
 public class CustomProperty
 ```
 
-Represents identifier information.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomProperty()](#CustomProperty--) |  |
+Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBinaryValue()](#getBinaryValue--) | Gets the binary value of the custom property. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Returns or sets the name of the object. |
 | [getStringValue()](#getStringValue--) | Returns or sets the value of the custom property. |
@@ -30,6 +26,7 @@ Represents identifier information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBinaryValue(byte[] value)](#setBinaryValue-byte---) | Sets the binary value of the custom property. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the object. |
 | [setStringValue(String value)](#setStringValue-java.lang.String-) | Returns or sets the value of the custom property. |
 | [setValue(String value)](#setValue-java.lang.String-) | Returns or sets the value of the custom property. |
@@ -37,12 +34,6 @@ Represents identifier information.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CustomProperty() {#CustomProperty--}
-```
-public CustomProperty()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -58,6 +49,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBinaryValue() {#getBinaryValue--}
+```
+public byte[] getBinaryValue()
+```
+
+
+Gets the binary value of the custom property.
+
+**Returns:**
+byte[]
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -127,6 +128,19 @@ public final native void notifyAll()
 
 
 
+
+### setBinaryValue(byte[] value) {#setBinaryValue-byte---}
+```
+public void setBinaryValue(byte[] value)
+```
+
+
+Sets the binary value of the custom property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte[] |  |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```

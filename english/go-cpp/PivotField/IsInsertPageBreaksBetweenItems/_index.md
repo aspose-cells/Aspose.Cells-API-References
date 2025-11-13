@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/isinsertpagebreaksbetweenitems/
 
 ## IsInsertPageBreaksBetweenItems function
 
-Indicates whether inserting page breaks after each item.The default value is false.
+Indicates whether to insert page breaks after each item.The default value is false.
 
 ```go
 

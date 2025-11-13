@@ -1,7 +1,7 @@
 ---
 title: PivotFilterType
 second_title: Aspose.Cells for Java API Reference
-description: Represents PivotTable Filter type.
+description: Represents the filter type of the pivot table.
 type: docs
 url: /java/com.aspose.cells/pivotfiltertype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class PivotFilterType
 ```
 
-Represents PivotTable Filter type.
+Represents the filter type of the pivot table.
 ## Fields
 
 | Field | Description |

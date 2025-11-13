@@ -1,13 +1,13 @@
 ---
 title: PivotField.ShowCompact
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether display labels from the next field in the same column on the Pivot Table view
+description: PivotField property. Indicates whether to display labels of the next field in the same column on the Pivot Table view
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showcompact/
 ---
 ## PivotField.ShowCompact property
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view
 
 ```csharp
 public bool ShowCompact { get; set; }

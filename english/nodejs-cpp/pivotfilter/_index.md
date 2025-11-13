@@ -19,9 +19,9 @@ class PivotFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [useWholeDay](#useWholeDay--)| boolean | Indicates whether uses whole days in its filtering criteria. |
+| [useWholeDay](#useWholeDay--)| boolean | Indicates whether to use whole days in its date filtering criteria. |
 | [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets the autofilter of the pivot filter. |
-| [filterType](#filterType--)| PivotFilterType | Readonly. Gets the autofilter type of the pivot filter. |
+| [filterType](#filterType--)| PivotFilterType | Readonly. Gets the filter type of the pivot filter. |
 | [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of source field which this pivot filter is applied to. |
 | [filterCategory](#filterCategory--)| FilterCategory | Readonly. Gets the category of this filter. |
 | [value1](#value1--)| string | Gets the string value1 of the label pivot filter. |
@@ -37,10 +37,10 @@ class PivotFilter;
 
 | Method | Description |
 | --- | --- |
-| [getUseWholeDay()](#getUseWholeDay--)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria. |
-| [setUseWholeDay(boolean)](#setUseWholeDay-boolean-)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria. |
+| [getUseWholeDay()](#getUseWholeDay--)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether to use whole days in its date filtering criteria. |
+| [setUseWholeDay(boolean)](#setUseWholeDay-boolean-)| <b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether to use whole days in its date filtering criteria. |
 | [getAutoFilter()](#getAutoFilter--)| <b>@deprecated.</b> Please use the 'autoFilter' property instead. Gets the autofilter of the pivot filter. |
-| [getFilterType()](#getFilterType--)| <b>@deprecated.</b> Please use the 'filterType' property instead. Gets the autofilter type of the pivot filter. |
+| [getFilterType()](#getFilterType--)| <b>@deprecated.</b> Please use the 'filterType' property instead. Gets the filter type of the pivot filter. |
 | [getFieldIndex()](#getFieldIndex--)| <b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets the index of source field which this pivot filter is applied to. |
 | [getFilterCategory()](#getFilterCategory--)| <b>@deprecated.</b> Please use the 'filterCategory' property instead. Gets the category of this filter. |
 | [getValue1()](#getValue1--)| <b>@deprecated.</b> Please use the 'value1' property instead. Gets the string value1 of the label pivot filter. |
@@ -67,7 +67,7 @@ class PivotFilter;
 
 ### useWholeDay {#useWholeDay--}
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 ```javascript
 useWholeDay : boolean;
@@ -89,7 +89,7 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 ### filterType {#filterType--}
 
-Readonly. Gets the autofilter type of the pivot filter.
+Readonly. Gets the filter type of the pivot filter.
 
 ```javascript
 filterType : PivotFilterType;
@@ -192,7 +192,7 @@ evaluationOrder : number;
 
 ### getUseWholeDay() {#getUseWholeDay--}
 
-<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria.
+<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether to use whole days in its date filtering criteria.
 
 ```javascript
 getUseWholeDay() : boolean;
@@ -201,7 +201,7 @@ getUseWholeDay() : boolean;
 
 ### setUseWholeDay(boolean) {#setUseWholeDay-boolean-}
 
-<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether uses whole days in its filtering criteria.
+<b>@deprecated.</b> Please use the 'useWholeDay' property instead. Indicates whether to use whole days in its date filtering criteria.
 
 ```javascript
 setUseWholeDay(value: boolean) : void;
@@ -231,7 +231,7 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 ### getFilterType() {#getFilterType--}
 
-<b>@deprecated.</b> Please use the 'filterType' property instead. Gets the autofilter type of the pivot filter.
+<b>@deprecated.</b> Please use the 'filterType' property instead. Gets the filter type of the pivot filter.
 
 ```javascript
 getFilterType() : PivotFilterType;

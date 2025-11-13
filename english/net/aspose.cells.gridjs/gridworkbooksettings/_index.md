@@ -24,7 +24,8 @@ public class GridWorkbookSettings
 | Name | Description |
 | --- | --- |
 | [Author](../../aspose.cells.gridjs/gridworkbooksettings/author/) { get; set; } | Gets/sets the author of the file. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Indicates whether checking custom number format when setting Style.Custom. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Indicates whether checking custom number format when setting Style.Custom, default is false. |
+| [CheckExcelRestriction](../../aspose.cells.gridjs/gridworkbooksettings/checkexcelrestriction/) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. default is false. |
 | [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain/) { get; set; } | Indicates whether create calculated formulas chain. Default is false. |
 | [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904/) { get; set; } | Gets or sets a value which represents if the workbook uses the 1904 date system. |
 | [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros/) { get; set; } | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |

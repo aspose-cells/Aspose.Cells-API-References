@@ -20,12 +20,12 @@ Represents icon filter.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIconId()](#getIconId--) | Gets Zero-based index of an icon in an icon set. |
-| [getIconSetType()](#getIconSetType--) | Gets which icon set is used in the filter criteria. |
+| [getIconSetType()](#getIconSetType--) | Gets which icon set is used for this filter criteria. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setIconId(int value)](#setIconId-int-) | Sets Zero-based index of an icon in an icon set. |
-| [setIconSetType(int value)](#setIconSetType-int-) | Sets which icon set is used in the filter criteria. |
+| [setIconSetType(int value)](#setIconSetType-int-) | Sets which icon set is used for this filter criteria. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public int getIconSetType()
 ```
 
 
-Gets which icon set is used in the filter criteria.
+Gets which icon set is used for this filter criteria.
 
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
@@ -122,7 +122,7 @@ public void setIconSetType(int value)
 ```
 
 
-Sets which icon set is used in the filter criteria.
+Sets which icon set is used for this filter criteria.
 
 See [IconSetType](../../com.aspose.cells/iconsettype).
 

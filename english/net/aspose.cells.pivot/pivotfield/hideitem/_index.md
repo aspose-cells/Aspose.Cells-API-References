@@ -95,8 +95,8 @@ public void HideItem(string itemValue, bool isHidden)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| itemValue | String | the value of the pivotItem in the pivotField. |
-| isHidden | Boolean | whether the specific PivotItem is hidden |
+| itemValue | String | The name of the pivotItem in the pivotField. |
+| isHidden | Boolean | Whether the specific PivotItem is hidden |
 
 ### Examples
 

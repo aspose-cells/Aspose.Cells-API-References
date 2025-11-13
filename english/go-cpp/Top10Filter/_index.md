@@ -10,7 +10,7 @@ url: /go-cpp/top10filter/
 
 ## Top10Filter class
 
-Represents the top 10 filter.
+Represents the top N (percent or number of items) to filter by.
 
 ```go
 
@@ -31,11 +31,9 @@ type Top10Filter struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[ToObject](./toobject/) | Gets the Object. | 
-|[IsTop](./istop/) | Indicates whether it's top filter. | 
-|[SetIsTop](./setistop/) | Indicates whether it's top filter. | 
-|[IsPercent](./ispercent/) | Indicates whether the items is percent. | 
-|[SetIsPercent](./setispercent/) | Indicates whether the items is percent. | 
-|[GetItems](./getitems/) | Gets and sets the items of the filter. | 
-|[SetItems](./setitems/) | Gets and sets the items of the filter. | 
-|[GetCriteria](./getcriteria/) |  | 
-|[SetCriteria](./setcriteria/) |  | 
+|[IsTop](./istop/) | Indicates whether or not to filter by top order | 
+|[SetIsTop](./setistop/) | Indicates whether or not to filter by top order | 
+|[IsPercent](./ispercent/) | Indicates whether or not to filter by percent value of the column | 
+|[SetIsPercent](./setispercent/) | Indicates whether or not to filter by percent value of the column | 
+|[GetItems](./getitems/) | Gets and sets top or bottom value to use as the filter criteria. | 
+|[SetItems](./setitems/) | Gets and sets top or bottom value to use as the filter criteria. | 

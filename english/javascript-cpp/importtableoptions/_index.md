@@ -33,6 +33,7 @@ class ImportTableOptions;
 | [exportCaptionAsFieldName](#exportCaptionAsFieldName--)| boolean | Indicates whether exporting caption as field name |
 | [dateFormat](#dateFormat--)| string | Gets or sets date format string for cells with imported datetime values. |
 | [numberFormats](#numberFormats--)| string[] | Gets or sets the number formats |
+| [styles](#styles--)| Style[] | Gets and sets the styles for each column of the table. |
 | [isFormulas](#isFormulas--)| boolean[] | Indicates whether the data are formulas. |
 | [totalRows](#totalRows--)| number | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [totalColumns](#totalColumns--)| number | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
@@ -124,6 +125,15 @@ Gets or sets the number formats
 
 ```javascript
 numberFormats : string[];
+```
+
+
+### styles {#styles--}
+
+Gets and sets the styles for each column of the table.
+
+```javascript
+styles : Style[];
 ```
 
 

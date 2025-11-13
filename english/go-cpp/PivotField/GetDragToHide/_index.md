@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getdragtohide/
 
 ## GetDragToHide function
 
-Indicates whether the specified field can be dragged to the hide position.The default value is true.
+Indicates whether the specified field can be dragged to the hide region.The default value is true.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getcolumnheadercaption/
 
 ## GetColumnHeaderCaption function
 
-Gets the Column Header Caption of the PivotTable.
+Gets and sets the custom Caption of the Column Header of the PivotTable.
 
 ```go
 

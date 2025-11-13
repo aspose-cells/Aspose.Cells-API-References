@@ -1,13 +1,13 @@
 ---
 title: DynamicFilter.DynamicFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: DynamicFilter property. Gets and sets the dynamic filter type
+description: DynamicFilter property. Gets and sets the type of this dynamic filter
 type: docs
 url: /net/aspose.cells/dynamicfilter/dynamicfiltertype/
 ---
 ## DynamicFilter.DynamicFilterType property
 
-Gets and sets the dynamic filter type.
+Gets and sets the type of this dynamic filter.
 
 ```csharp
 public DynamicFilterType DynamicFilterType { get; set; }

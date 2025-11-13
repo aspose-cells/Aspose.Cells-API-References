@@ -35,7 +35,8 @@ Represents the settings of the workbook.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | Gets the author of the file. |
-| [getCheckCustomNumberFormat()](#getCheckCustomNumberFormat--) | Indicates whether checking custom number format when setting Style.Custom. |
+| [getCheckCustomNumberFormat()](#getCheckCustomNumberFormat--) | Indicates whether checking custom number format when setting Style.Custom, default is false. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getCreateCalcChain()](#getCreateCalcChain--) | Indicates whether create calculated formulas chain. |
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
@@ -49,7 +50,8 @@ Represents the settings of the workbook.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of the file. |
-| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Indicates whether checking custom number format when setting Style.Custom. |
+| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Indicates whether checking custom number format when setting Style.Custom, default is false. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | Indicates whether create calculated formulas chain. |
 | [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
 | [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
@@ -99,7 +101,17 @@ public boolean getCheckCustomNumberFormat()
 ```
 
 
-Indicates whether checking custom number format when setting Style.Custom.
+Indicates whether checking custom number format when setting Style.Custom, default is false.
+
+**Returns:**
+boolean
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. default is false.
 
 **Returns:**
 boolean
@@ -238,7 +250,20 @@ public void setCheckCustomNumberFormat(boolean value)
 ```
 
 
-Indicates whether checking custom number format when setting Style.Custom.
+Indicates whether checking custom number format when setting Style.Custom, default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. default is false.
 
 **Parameters:**
 | Parameter | Type | Description |

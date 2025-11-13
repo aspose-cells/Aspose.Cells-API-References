@@ -1,7 +1,7 @@
 ---
 title: ListObject
 second_title: Aspose.Cells for Java API Reference
-description: Represents a list object on a worksheet.
+description: Represents a table in a worksheet.
 type: docs
 url: /java/com.aspose.cells/listobject/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ListObject
 ```
 
-Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+Represents a table in a worksheet.
 
 **Example**
 
@@ -48,27 +48,28 @@ Represents a list object on a worksheet. The ListObject object is a member of th
 | [filter()](#filter--) | Filter the table. |
 | [getAlternativeDescription()](#getAlternativeDescription--) | Gets the alternative description. |
 | [getAlternativeText()](#getAlternativeText--) | Gets the alternative text. |
-| [getAutoFilter()](#getAutoFilter--) | Gets auto filter. |
+| [getAutoFilter()](#getAutoFilter--) | Gets auto filter of this table. |
 | [getClass()](#getClass--) |  |
 | [getComment()](#getComment--) | Gets the comment of the table. |
-| [getDataRange()](#getDataRange--) | Gets the data range of the ListObject. |
+| [getDataRange()](#getDataRange--) | Gets the data range of the Table. |
 | [getDataSourceType()](#getDataSourceType--) | Gets the data source type of the table. |
-| [getDisplayName()](#getDisplayName--) | Gets the display name. |
+| [getDisplayName()](#getDisplayName--) | Gets the display name of the table. |
 | [getEndColumn()](#getEndColumn--) | Gets the end column of the range. |
 | [getEndRow()](#getEndRow--) | Gets the end row of the range. |
-| [getListColumns()](#getListColumns--) | Gets ListColumns of the ListObject. |
+| [getListColumns()](#getListColumns--) | Gets the [ListColumn](../../com.aspose.cells/listcolumn) list of this table. |
 | [getQueryTable()](#getQueryTable--) | Gets the linked QueryTable. |
-| [getShowHeaderRow()](#getShowHeaderRow--) | Gets whether this ListObject show header row. |
-| [getShowTableStyleColumnStripes()](#getShowTableStyleColumnStripes--) | Indicates whether column stripe formatting is applied. |
-| [getShowTableStyleFirstColumn()](#getShowTableStyleFirstColumn--) | Indicates whether the first column in the table should have the style applied. |
-| [getShowTableStyleLastColumn()](#getShowTableStyleLastColumn--) | Indicates whether the last column in the table should have the style applied. |
-| [getShowTableStyleRowStripes()](#getShowTableStyleRowStripes--) | Indicates whether row stripe formatting is applied. |
-| [getShowTotals()](#getShowTotals--) | Gets whether this ListObject show total row. |
+| [getShowHeaderRow()](#getShowHeaderRow--) | Gets whether this Table shows header row. |
+| [getShowTableStyleColumnStripes()](#getShowTableStyleColumnStripes--) | Indicates whether column stripe formatting is applied to. |
+| [getShowTableStyleFirstColumn()](#getShowTableStyleFirstColumn--) | Indicates whether the first column in the table is the style applied to. |
+| [getShowTableStyleLastColumn()](#getShowTableStyleLastColumn--) | Indicates whether the last column in the table is the style applied to. |
+| [getShowTableStyleRowStripes()](#getShowTableStyleRowStripes--) | Indicates whether row stripe formatting is applied to. |
+| [getShowTotals()](#getShowTotals--) | Gets whether this TAble shows total row. |
 | [getStartColumn()](#getStartColumn--) | Gets the start column of the range. |
 | [getStartRow()](#getStartRow--) | Gets the start row of the range. |
 | [getTableStyleName()](#getTableStyleName--) | Gets the table style name. |
 | [getTableStyleType()](#getTableStyleType--) | Gets and the built-in table style. |
 | [getXmlMap()](#getXmlMap--) | Gets an [getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) used for this list. |
+| [hasAutoFilter()](#hasAutoFilter--) | Indicates whether auto filter is applied to this table. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -76,21 +77,23 @@ Represents a list object on a worksheet. The ListObject object is a member of th
 | [putCellFormula(int rowOffset, int columnOffset, String formula, boolean isTotalsRowFormula)](#putCellFormula-int-int-java.lang.String-boolean-) | Put the formula to the cell in the table. |
 | [putCellValue(int rowOffset, int columnOffset, Object value)](#putCellValue-int-int-java.lang.Object-) | Put the value to the cell. |
 | [putCellValue(int rowOffset, int columnOffset, Object value, boolean isTotalsRowLabel)](#putCellValue-int-int-java.lang.Object-boolean-) | Put the value to the cell. |
+| [removeAutoFilter()](#removeAutoFilter--) | Removes auto filter which is applied to this table. |
 | [resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)](#resize-int-int-int-int-boolean-) | Resize the range of the list object. |
 | [setAlternativeDescription(String value)](#setAlternativeDescription-java.lang.String-) | Sets the alternative description. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Sets the alternative text. |
 | [setComment(String value)](#setComment-java.lang.String-) | Sets the comment of the table. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name. |
-| [setShowHeaderRow(boolean value)](#setShowHeaderRow-boolean-) | Sets whether this ListObject show header row. |
-| [setShowTableStyleColumnStripes(boolean value)](#setShowTableStyleColumnStripes-boolean-) | Indicates whether column stripe formatting is applied. |
-| [setShowTableStyleFirstColumn(boolean value)](#setShowTableStyleFirstColumn-boolean-) | Indicates whether the first column in the table should have the style applied. |
-| [setShowTableStyleLastColumn(boolean value)](#setShowTableStyleLastColumn-boolean-) | Indicates whether the last column in the table should have the style applied. |
-| [setShowTableStyleRowStripes(boolean value)](#setShowTableStyleRowStripes-boolean-) | Indicates whether row stripe formatting is applied. |
-| [setShowTotals(boolean value)](#setShowTotals-boolean-) | Sets whether this ListObject show total row. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name of the table. |
+| [setHasAutoFilter(boolean value)](#setHasAutoFilter-boolean-) | Indicates whether auto filter is applied to this table. |
+| [setShowHeaderRow(boolean value)](#setShowHeaderRow-boolean-) | Sets whether this Table shows header row. |
+| [setShowTableStyleColumnStripes(boolean value)](#setShowTableStyleColumnStripes-boolean-) | Indicates whether column stripe formatting is applied to. |
+| [setShowTableStyleFirstColumn(boolean value)](#setShowTableStyleFirstColumn-boolean-) | Indicates whether the first column in the table is the style applied to. |
+| [setShowTableStyleLastColumn(boolean value)](#setShowTableStyleLastColumn-boolean-) | Indicates whether the last column in the table is the style applied to. |
+| [setShowTableStyleRowStripes(boolean value)](#setShowTableStyleRowStripes-boolean-) | Indicates whether row stripe formatting is applied to. |
+| [setShowTotals(boolean value)](#setShowTotals-boolean-) | Sets whether this TAble shows total row. |
 | [setTableStyleName(String value)](#setTableStyleName-java.lang.String-) | Sets the table style name. |
 | [setTableStyleType(int value)](#setTableStyleType-int-) | Gets and the built-in table style. |
 | [toString()](#toString--) |  |
-| [updateColumnName()](#updateColumnName--) | Updates all list columns' name from the worksheet. |
+| [updateColumnName()](#updateColumnName--) | Updates all list columns' name to cells in the table. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -146,6 +149,10 @@ public AutoFilter filter()
 
 Filter the table.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set ListObject.HasAutoFilter property./// This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 [AutoFilter](../../com.aspose.cells/autofilter)
 ### getAlternativeDescription() {#getAlternativeDescription--}
@@ -174,7 +181,11 @@ public AutoFilter getAutoFilter()
 ```
 
 
-Gets auto filter.
+Gets auto filter of this table.
+
+**Remarks**
+
+It works only when [hasAutoFilter()](../../com.aspose.cells/listobject\#hasAutoFilter--) is false.
 
 **Returns:**
 [AutoFilter](../../com.aspose.cells/autofilter)
@@ -204,7 +215,7 @@ public Range getDataRange()
 ```
 
 
-Gets the data range of the ListObject.
+Gets the data range of the Table.
 
 **Returns:**
 [Range](../../com.aspose.cells/range)
@@ -226,7 +237,7 @@ public String getDisplayName()
 ```
 
 
-Gets the display name.
+Gets the display name of the table.
 
 **Returns:**
 java.lang.String
@@ -256,7 +267,7 @@ public ListColumnCollection getListColumns()
 ```
 
 
-Gets ListColumns of the ListObject.
+Gets the [ListColumn](../../com.aspose.cells/listcolumn) list of this table.
 
 **Returns:**
 [ListColumnCollection](../../com.aspose.cells/listcolumncollection)
@@ -276,7 +287,7 @@ public boolean getShowHeaderRow()
 ```
 
 
-Gets whether this ListObject show header row.
+Gets whether this Table shows header row.
 
 **Returns:**
 boolean
@@ -286,7 +297,7 @@ public boolean getShowTableStyleColumnStripes()
 ```
 
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 **Returns:**
 boolean
@@ -296,7 +307,7 @@ public boolean getShowTableStyleFirstColumn()
 ```
 
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 **Returns:**
 boolean
@@ -306,7 +317,7 @@ public boolean getShowTableStyleLastColumn()
 ```
 
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 **Returns:**
 boolean
@@ -316,7 +327,7 @@ public boolean getShowTableStyleRowStripes()
 ```
 
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 **Returns:**
 boolean
@@ -326,7 +337,7 @@ public boolean getShowTotals()
 ```
 
 
-Gets whether this ListObject show total row.
+Gets whether this TAble shows total row.
 
 **Returns:**
 boolean
@@ -393,6 +404,16 @@ Gets an [getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) used for t
 
 **Returns:**
 [XmlMap](../../com.aspose.cells/xmlmap)
+### hasAutoFilter() {#hasAutoFilter--}
+```
+public boolean hasAutoFilter()
+```
+
+
+Indicates whether auto filter is applied to this table.
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -481,6 +502,14 @@ Put the value to the cell.
 | value | java.lang.Object | The cell value. |
 | isTotalsRowLabel | boolean | Indicates whether it is a label for total row,only works for total row. If False and this row is total row, a new row will be inserted. |
 
+### removeAutoFilter() {#removeAutoFilter--}
+```
+public void removeAutoFilter()
+```
+
+
+Removes auto filter which is applied to this table.
+
 ### resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders) {#resize-int-int-int-int-boolean-}
 ```
 public void resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)
@@ -543,12 +572,25 @@ public void setDisplayName(String value)
 ```
 
 
-Sets the display name.
+Sets the display name of the table.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setHasAutoFilter(boolean value) {#setHasAutoFilter-boolean-}
+```
+public void setHasAutoFilter(boolean value)
+```
+
+
+Indicates whether auto filter is applied to this table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setShowHeaderRow(boolean value) {#setShowHeaderRow-boolean-}
 ```
@@ -556,7 +598,7 @@ public void setShowHeaderRow(boolean value)
 ```
 
 
-Sets whether this ListObject show header row.
+Sets whether this Table shows header row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -569,7 +611,7 @@ public void setShowTableStyleColumnStripes(boolean value)
 ```
 
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -582,7 +624,7 @@ public void setShowTableStyleFirstColumn(boolean value)
 ```
 
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -595,7 +637,7 @@ public void setShowTableStyleLastColumn(boolean value)
 ```
 
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,7 +650,7 @@ public void setShowTableStyleRowStripes(boolean value)
 ```
 
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,7 +663,7 @@ public void setShowTotals(boolean value)
 ```
 
 
-Sets whether this ListObject show total row.
+Sets whether this TAble shows total row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -672,7 +714,7 @@ public void updateColumnName()
 ```
 
 
-Updates all list columns' name from the worksheet.
+Updates all list columns' name to cells in the table.
 
 **Remarks**
 

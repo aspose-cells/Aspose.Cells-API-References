@@ -10,8 +10,14 @@ url: /net/aspose.cells.tables/listobject/filter/
 Filter the table.
 
 ```csharp
+[Obsolete("Use set ListObject.HasAutoFilter property")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public AutoFilter Filter()
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead,please set ListObject.HasAutoFilter property./// This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

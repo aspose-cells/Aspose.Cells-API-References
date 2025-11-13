@@ -23,13 +23,13 @@ class DynamicFilter
 | [DynamicFilter(DynamicFilter_Impl* impl)](./dynamicfilter/) | Constructs from an implementation object. |
 | [DynamicFilter(const Aspose::Cells::Object\& obj)](./dynamicfilter/) | Constructs from an [Object](../object/) convertible to this. |
 | [DynamicFilter(const DynamicFilter\& src)](./dynamicfilter/) | Copy constructor. |
-| [GetDynamicFilterType()](./getdynamicfiltertype/) | Gets and sets the dynamic filter type. |
+| [GetDynamicFilterType()](./getdynamicfiltertype/) | Gets and sets the type of this dynamic filter. |
 | [GetMaxValue()](./getmaxvalue/) | Gets and sets the dynamic filter max value. |
 | [GetValue()](./getvalue/) | Gets and sets the dynamic filter value. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DynamicFilter\& src)](./operator_asm/) | operator= |
-| [SetDynamicFilterType(DynamicFilterType value)](./setdynamicfiltertype/) | Gets and sets the dynamic filter type. |
+| [SetDynamicFilterType(DynamicFilterType value)](./setdynamicfiltertype/) | Gets and sets the type of this dynamic filter. |
 | [SetMaxValue(const Aspose::Cells::Object\& value)](./setmaxvalue/) | Gets and sets the dynamic filter max value. |
 | [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Gets and sets the dynamic filter value. |
 | [ToObject()](./toobject/) | Gets the [Object](../object/). |

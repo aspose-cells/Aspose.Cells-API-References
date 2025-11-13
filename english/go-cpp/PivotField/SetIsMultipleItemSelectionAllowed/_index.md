@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setismultipleitemselectionallowed/
 
 ## SetIsMultipleItemSelectionAllowed function
 
-indicates whether the field can have multiple itemsselected in the page fieldThe default value is false.
+Indicates whether multiple items could be selected in the page field.The default value is false.
 
 ```go
 

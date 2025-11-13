@@ -1,13 +1,13 @@
 ---
 title: ListObject.ShowTableStyleLastColumn
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Indicates whether the last column in the table should have the style applied
+description: ListObject property. Indicates whether the last column in the table is the style applied to
 type: docs
 url: /net/aspose.cells.tables/listobject/showtablestylelastcolumn/
 ---
 ## ListObject.ShowTableStyleLastColumn property
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 ```csharp
 public bool ShowTableStyleLastColumn { get; set; }

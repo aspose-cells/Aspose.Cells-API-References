@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/setdragtodata/
 
 ## SetDragToData function
 
-Indicates whether the specified field can be dragged to the data position.The default value is true.
+Indicates whether the specified field can be dragged to the values region.The default value is true.
 
 ```go
 

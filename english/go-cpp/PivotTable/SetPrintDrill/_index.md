@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setprintdrill/
 
 ## SetPrintDrill function
 
-Specifies a boolean value that indicates whether drill indicators should be printed.print expand/collapse buttons when displayed on pivottable.
+Specifies a boolean value that indicates whether drill indicators should be printed.Print expand/collapse buttons when displayed on pivottable.
 
 ```go
 

@@ -1,13 +1,13 @@
 ---
 title: MultipleFilterCollection.Item
 second_title: Aspose.Cells for .NET API Reference
-description: MultipleFilterCollection property. DateTimeGroupItem or a simple object
+description: MultipleFilterCollection property. Gets DateTimeGroupItem or a string value
 type: docs
 url: /net/aspose.cells/multiplefiltercollection/item/
 ---
 ## MultipleFilterCollection indexer
 
-DateTimeGroupItem or a simple object.
+Gets [`DateTimeGroupItem`](../../datetimegroupitem/) or a string value.
 
 ```csharp
 public object this[int index] { get; }

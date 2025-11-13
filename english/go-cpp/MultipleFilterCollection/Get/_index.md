@@ -10,7 +10,7 @@ url: /go-cpp/multiplefiltercollection/get/
 
 ## Get function
 
-DateTimeGroupItem or a simple object.
+Gets DateTimeGroupItem or a string value.
 
 ```go
 

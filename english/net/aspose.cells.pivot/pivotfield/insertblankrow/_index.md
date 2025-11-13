@@ -1,13 +1,13 @@
 ---
 title: PivotField.InsertBlankRow
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether inserting blank line after each item
+description: PivotField property. Indicates whether to insert a blank line after each item
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/insertblankrow/
 ---
 ## PivotField.InsertBlankRow property
 
-Indicates whether inserting blank line after each item.
+Indicates whether to insert a blank line after each item.
 
 ```csharp
 public bool InsertBlankRow { get; set; }

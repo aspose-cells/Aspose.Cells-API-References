@@ -1,14 +1,14 @@
 ﻿---
 title: ListObject
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+description: Represents a table in a worksheet.
 type: docs
 url: /javascript-cpp/listobject/
 ---
 
 ## ListObject class
 
-Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+Represents a table in a worksheet.
 
 ```javascript
 class ListObject;
@@ -44,19 +44,20 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [startColumn](#startColumn--)| number | Readonly. Gets the start column of the range. |
 | [endRow](#endRow--)| number | Readonly. Gets the end  row of the range. |
 | [endColumn](#endColumn--)| number | Readonly. Gets the end column of the range. |
-| [listColumns](#listColumns--)| ListColumnCollection | Readonly. Gets ListColumns of the ListObject. |
-| [showHeaderRow](#showHeaderRow--)| boolean | Gets and sets whether this ListObject show header row. |
-| [showTotals](#showTotals--)| boolean | Gets and sets whether this ListObject show total row. |
-| [dataRange](#dataRange--)| Range | Readonly. Gets the data range of the ListObject. |
+| [listColumns](#listColumns--)| ListColumnCollection | Readonly. Gets the [ListColumn](../listcolumn/) list of this table. |
+| [showHeaderRow](#showHeaderRow--)| boolean | Gets and sets whether this Table shows header row. |
+| [showTotals](#showTotals--)| boolean | Gets and sets whether this TAble shows total row. |
+| [dataRange](#dataRange--)| Range | Readonly. Gets the data range of the Table. |
 | [queryTable](#queryTable--)| QueryTable | Readonly. Gets the linked QueryTable. |
 | [dataSourceType](#dataSourceType--)| TableDataSourceType | Readonly. Gets the data source type of the table. |
-| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets auto filter. |
-| [displayName](#displayName--)| string | Gets and sets the display name. |
+| [hasAutoFilter](#hasAutoFilter--)| boolean | Indicates whether auto filter is applied to this table. |
+| [autoFilter](#autoFilter--)| AutoFilter | Readonly. Gets auto filter of this table. |
+| [displayName](#displayName--)| string | Gets and sets the display name of the table. |
 | [comment](#comment--)| string | Gets and sets the comment of the table. |
-| [showTableStyleFirstColumn](#showTableStyleFirstColumn--)| boolean | Indicates whether the first column in the table should have the style applied. |
-| [showTableStyleLastColumn](#showTableStyleLastColumn--)| boolean | Indicates whether the last column in the table should have the style applied. |
-| [showTableStyleRowStripes](#showTableStyleRowStripes--)| boolean | Indicates whether row stripe formatting is applied. |
-| [showTableStyleColumnStripes](#showTableStyleColumnStripes--)| boolean | Indicates whether column stripe formatting is applied. |
+| [showTableStyleFirstColumn](#showTableStyleFirstColumn--)| boolean | Indicates whether the first column in the table is the style applied to. |
+| [showTableStyleLastColumn](#showTableStyleLastColumn--)| boolean | Indicates whether the last column in the table is the style applied to. |
+| [showTableStyleRowStripes](#showTableStyleRowStripes--)| boolean | Indicates whether row stripe formatting is applied to. |
+| [showTableStyleColumnStripes](#showTableStyleColumnStripes--)| boolean | Indicates whether column stripe formatting is applied to. |
 | [tableStyleType](#tableStyleType--)| TableStyleType | Gets and the built-in table style. |
 | [tableStyleName](#tableStyleName--)| string | Gets and sets the table style name. |
 | [xmlMap](#xmlMap--)| XmlMap | Readonly. Gets an [XmlMap](../xmlmap/) used for this list. |
@@ -72,7 +73,8 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [putCellValue(number, number, VObject, boolean)](#putCellValue-number-number-vobject-boolean-)| Put the value to the cell. |
 | [putCellFormula(number, number, string)](#putCellFormula-number-number-string-)| Put the formula to the cell in the table. |
 | [putCellFormula(number, number, string, boolean)](#putCellFormula-number-number-string-boolean-)| Put the formula to the cell in the table. |
-| [updateColumnName()](#updateColumnName--)| Updates all list columns' name from the worksheet. |
+| [updateColumnName()](#updateColumnName--)| Updates all list columns' name to cells in the table. |
+| [removeAutoFilter()](#removeAutoFilter--)| Removes auto filter which is applied to this table. |
 | [filter()](#filter--)| Filter the table. |
 | [applyStyleToRange()](#applyStyleToRange--)| Apply the table style to the range. |
 | [convertToRange()](#convertToRange--)| Convert the table to range. |
@@ -117,7 +119,7 @@ endColumn : number;
 
 ### listColumns {#listColumns--}
 
-Readonly. Gets ListColumns of the ListObject.
+Readonly. Gets the [ListColumn](../listcolumn/) list of this table.
 
 ```javascript
 listColumns : ListColumnCollection;
@@ -126,7 +128,7 @@ listColumns : ListColumnCollection;
 
 ### showHeaderRow {#showHeaderRow--}
 
-Gets and sets whether this ListObject show header row.
+Gets and sets whether this Table shows header row.
 
 ```javascript
 showHeaderRow : boolean;
@@ -135,7 +137,7 @@ showHeaderRow : boolean;
 
 ### showTotals {#showTotals--}
 
-Gets and sets whether this ListObject show total row.
+Gets and sets whether this TAble shows total row.
 
 ```javascript
 showTotals : boolean;
@@ -144,7 +146,7 @@ showTotals : boolean;
 
 ### dataRange {#dataRange--}
 
-Readonly. Gets the data range of the ListObject.
+Readonly. Gets the data range of the Table.
 
 ```javascript
 dataRange : Range;
@@ -169,18 +171,31 @@ dataSourceType : TableDataSourceType;
 ```
 
 
+### hasAutoFilter {#hasAutoFilter--}
+
+Indicates whether auto filter is applied to this table.
+
+```javascript
+hasAutoFilter : boolean;
+```
+
+
 ### autoFilter {#autoFilter--}
 
-Readonly. Gets auto filter.
+Readonly. Gets auto filter of this table.
 
 ```javascript
 autoFilter : AutoFilter;
 ```
 
 
+**Remarks**
+
+It works only when [HasAutoFilter](../hasautofilter/) is false.
+
 ### displayName {#displayName--}
 
-Gets and sets the display name.
+Gets and sets the display name of the table.
 
 ```javascript
 displayName : string;
@@ -198,7 +213,7 @@ comment : string;
 
 ### showTableStyleFirstColumn {#showTableStyleFirstColumn--}
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 ```javascript
 showTableStyleFirstColumn : boolean;
@@ -207,7 +222,7 @@ showTableStyleFirstColumn : boolean;
 
 ### showTableStyleLastColumn {#showTableStyleLastColumn--}
 
-Indicates whether the last column in the table should have the style applied.
+Indicates whether the last column in the table is the style applied to.
 
 ```javascript
 showTableStyleLastColumn : boolean;
@@ -216,7 +231,7 @@ showTableStyleLastColumn : boolean;
 
 ### showTableStyleRowStripes {#showTableStyleRowStripes--}
 
-Indicates whether row stripe formatting is applied.
+Indicates whether row stripe formatting is applied to.
 
 ```javascript
 showTableStyleRowStripes : boolean;
@@ -225,7 +240,7 @@ showTableStyleRowStripes : boolean;
 
 ### showTableStyleColumnStripes {#showTableStyleColumnStripes--}
 
-Indicates whether column stripe formatting is applied.
+Indicates whether column stripe formatting is applied to.
 
 ```javascript
 showTableStyleColumnStripes : boolean;
@@ -358,7 +373,7 @@ putCellFormula(rowOffset: number, columnOffset: number, formula: string, isTotal
 
 ### updateColumnName() {#updateColumnName--}
 
-Updates all list columns' name from the worksheet.
+Updates all list columns' name to cells in the table.
 
 ```javascript
 updateColumnName() : void;
@@ -368,6 +383,15 @@ updateColumnName() : void;
 **Remarks**
 
 The value of the cells in the header row of the table must be same as the name of the ListColumn; Cell.PutValue do not auto modify the name of the ListColumn for performance.
+
+### removeAutoFilter() {#removeAutoFilter--}
+
+Removes auto filter which is applied to this table.
+
+```javascript
+removeAutoFilter() : void;
+```
+
 
 ### filter() {#filter--}
 
@@ -381,6 +405,10 @@ filter() : AutoFilter;
 **Returns**
 
 [AutoFilter](../autofilter/)
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set ListObject.HasAutoFilter property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### applyStyleToRange() {#applyStyleToRange--}
 

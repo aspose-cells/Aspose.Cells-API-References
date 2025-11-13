@@ -1,28 +1,23 @@
 ---
 title: Class CustomProperty
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Properties.CustomProperty class. Represents identifier information
+description: Aspose.Cells.Properties.CustomProperty class. Represents a custom property which store name and value pairs of arbitrary userdefined data for worksheet
 type: docs
 url: /net/aspose.cells.properties/customproperty/
 ---
 ## CustomProperty class
 
-Represents identifier information.
+Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet.
 
 ```csharp
 public class CustomProperty
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [CustomProperty](customproperty/)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [BinaryValue](../../aspose.cells.properties/customproperty/binaryvalue/) { get; set; } | Gets and sets the binary value of the custom property. |
 | [Name](../../aspose.cells.properties/customproperty/name/) { get; set; } | Returns or sets the name of the object. |
 | [StringValue](../../aspose.cells.properties/customproperty/stringvalue/) { get; set; } | (**Obsolete.**) Returns or sets the value of the custom property. |
 | [Value](../../aspose.cells.properties/customproperty/value/) { get; set; } | Returns or sets the value of the custom property. |

@@ -1,7 +1,7 @@
 ---
 title: Top10Filter
 second_title: Aspose.Cells for Java API Reference
-description: Represents the top 10 filter.
+description: Represents the top N percent or number of items to filter by.
 type: docs
 url: /java/com.aspose.cells/top10filter/
 ---
@@ -12,24 +12,24 @@ java.lang.Object
 public class Top10Filter
 ```
 
-Represents the top 10 filter.
+Represents the top N (percent or number of items) to filter by.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCriteria()](#getCriteria--) |  |
-| [getItems()](#getItems--) | Gets the items of the filter. |
+| [getCriteria()](#getCriteria--) | The actual cell value in the range which is used to perform the comparison for this filter. |
+| [getItems()](#getItems--) | Gets top or bottom value to use as the filter criteria. |
 | [hashCode()](#hashCode--) |  |
-| [isPercent()](#isPercent--) | Indicates whether the items is percent. |
-| [isTop()](#isTop--) | Indicates whether it's top filter. |
+| [isPercent()](#isPercent--) | Indicates whether or not to filter by percent value of the column |
+| [isTop()](#isTop--) | Indicates whether or not to filter by top order |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) |  |
-| [setItems(int value)](#setItems-int-) | Sets the items of the filter. |
-| [setPercent(boolean value)](#setPercent-boolean-) | Indicates whether the items is percent. |
-| [setTop(boolean value)](#setTop-boolean-) | Indicates whether it's top filter. |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | The actual cell value in the range which is used to perform the comparison for this filter. |
+| [setItems(int value)](#setItems-int-) | Sets top or bottom value to use as the filter criteria. |
+| [setPercent(boolean value)](#setPercent-boolean-) | Indicates whether or not to filter by percent value of the column |
+| [setTop(boolean value)](#setTop-boolean-) | Indicates whether or not to filter by top order |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,11 @@ public Object getCriteria()
 ```
 
 
+The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.Object
@@ -75,7 +79,7 @@ public int getItems()
 ```
 
 
-Gets the items of the filter.
+Gets top or bottom value to use as the filter criteria.
 
 **Returns:**
 int
@@ -95,7 +99,7 @@ public boolean isPercent()
 ```
 
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 **Returns:**
 boolean
@@ -105,7 +109,7 @@ public boolean isTop()
 ```
 
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 **Returns:**
 boolean
@@ -131,7 +135,11 @@ public void setCriteria(Object value)
 ```
 
 
+The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please ignore this property. This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +152,7 @@ public void setItems(int value)
 ```
 
 
-Sets the items of the filter.
+Sets top or bottom value to use as the filter criteria.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +165,7 @@ public void setPercent(boolean value)
 ```
 
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +178,7 @@ public void setTop(boolean value)
 ```
 
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 **Parameters:**
 | Parameter | Type | Description |

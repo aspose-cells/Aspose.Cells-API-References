@@ -78,7 +78,7 @@ Represents a field in a PivotTable report.
 | [addCalculatedItem(String name, String formula)](#addCalculatedItem-java.lang.String-java.lang.String-) | Add a calculated formula item to the pivot field. |
 | [clearFilter()](#clearFilter--) | Clears filter setting on this pivot field. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [filterByDate(int type, DateTime dateTime1, DateTime dateTime2)](#filterByDate-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-) | Filters by date setting of row or column pivot field. |
+| [filterByDate(int type, DateTime dateTime1, DateTime dateTime2)](#filterByDate-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-) | Filters by date values of row or column pivot field. |
 | [filterByLabel(int type, String label1, String label2)](#filterByLabel-int-java.lang.String-java.lang.String-) | Filters by captions of row or column pivot field. |
 | [filterByValue(int valueFieldIndex, int type, double value1, double value2)](#filterByValue-int-int-double-double-) | Filters by values of data pivot field. |
 | [filterTop10(int valueFieldIndex, int type, boolean isTop, int itemCount)](#filterTop10-int-int-boolean-int-) | Filters by values of data pivot field. |
@@ -86,24 +86,24 @@ Represents a field in a PivotTable report.
 | [getAutoShowField()](#getAutoShowField--) | Represents auto show field index. -1 means PivotField itself. |
 | [getAutoSortField()](#getAutoSortField--) | Represents the index of field which is auto sorted |
 | [getBaseFieldIndex()](#getBaseFieldIndex--) | Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
-| [getBaseIndex()](#getBaseIndex--) | Represents the PivotField index in the base PivotFields. |
+| [getBaseIndex()](#getBaseIndex--) | Represents the index in the source pivot fields. |
 | [getBaseItemIndex()](#getBaseItemIndex--) | Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [getBaseItemPosition()](#getBaseItemPosition--) | Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [getCalculatedFieldFormula()](#getCalculatedFieldFormula--) | Get the formula string of the specified calculated field . |
 | [getClass()](#getClass--) |  |
-| [getCurrentPageItem()](#getCurrentPageItem--) | Represents the current page item showing for the page field (valid only for page fields). |
+| [getCurrentPageItem()](#getCurrentPageItem--) | Represents the current selected page item of the page field to filter data. |
 | [getDataDisplayFormat()](#getDataDisplayFormat--) | Represents how to display the values in a data field of the pivot report. |
-| [getDisplayName()](#getDisplayName--) | Represents the PivotField display name. |
+| [getDisplayName()](#getDisplayName--) | Represents the display name of pivot field in the pivot table view. |
 | [getDragToColumn()](#getDragToColumn--) | Indicates whether the specified field can be dragged to the column position. |
-| [getDragToData()](#getDragToData--) | Indicates whether the specified field can be dragged to the data position. |
-| [getDragToHide()](#getDragToHide--) | Indicates whether the specified field can be dragged to the hide position. |
+| [getDragToData()](#getDragToData--) | Indicates whether the specified field can be dragged to the values region. |
+| [getDragToHide()](#getDragToHide--) | Indicates whether the specified field can be dragged to the hide region. |
 | [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page position. |
-| [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row position. |
-| [getFilters()](#getFilters--) | Gets all pivot filters of this pivot field. |
-| [getFormula()](#getFormula--) | Gets formula of the calculated field . |
-| [getFunction()](#getFunction--) | Represents the function used to summarize the PivotTable data field. |
+| [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row region. |
+| [getFilters()](#getFilters--) | Gets all pivot filters applied for this pivot field. |
+| [getFormula()](#getFormula--) | Gets the formula of the calculated field . |
+| [getFunction()](#getFunction--) | Represents the function used to summarize this PivotTable data field. |
 | [getGroupSettings()](#getGroupSettings--) | Gets the group settings of the pivot field. |
-| [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether inserting blank line after each item. |
+| [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether to insert a blank line after each item. |
 | [getItemCount()](#getItemCount--) | Gets the count of the base items in this pivot field. |
 | [getItems()](#getItems--) | Get all labels of pivot items in this field. |
 | [getName()](#getName--) | Represents the name of PivotField. |
@@ -115,75 +115,75 @@ Represents a field in a PivotTable report.
 | [getPivotFilters()](#getPivotFilters--) | Gets the pivot filters of the pivot field |
 | [getPivotItems()](#getPivotItems--) | Gets the pivot items of the pivot field |
 | [getPosition()](#getPosition--) | Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region. |
-| [getRange()](#getRange--) | Gets the group range of the pivot field |
 | [getRegionType()](#getRegionType--) | Specifies the region of the PivotTable that this field is displayed. |
-| [getShowAllItems()](#getShowAllItems--) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
-| [getShowCompact()](#getShowCompact--) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
-| [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
-| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [getShowAllItems()](#getShowAllItems--) | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. |
+| [getShowCompact()](#getShowCompact--) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
+| [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether to layout this field in outline form on the Pivot Table view. |
+| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
 | [getShowValuesSetting()](#getShowValuesSetting--) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
-| [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether showing specified subtotal. |
+| [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether to show specified subtotal for this pivot field. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [hashCode()](#hashCode--) |  |
-| [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
+| [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the detail of all PivotItems in a pivot field are hidden. |
 | [hideItem(int index, boolean isHidden)](#hideItem-int-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItem(String itemValue, boolean isHidden)](#hideItem-java.lang.String-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItemDetail(int index, boolean isHiddenDetail)](#hideItemDetail-int-boolean-) | Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [initPivotItems()](#initPivotItems--) | Init the pivot items of the pivot field |
 | [isAscendShow()](#isAscendShow--) | Indicates whether the specified PivotTable field is autoshown ascending. |
-| [isAscendSort()](#isAscendSort--) | Indicates whether the specified PivotTable field is autosorted ascending. |
-| [isAutoShow()](#isAutoShow--) | Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
-| [isAutoSort()](#isAutoSort--) | Indicates whether the specified PivotTable field is automatically sorted. |
+| [isAscendSort()](#isAscendSort--) | Indicates whether the items of this pivot field is autosorted ascending. |
+| [isAutoShow()](#isAutoShow--) | Indicates whether the specified PivotTable field is automatically shown. |
+| [isAutoSort()](#isAutoSort--) | Indicates whether the items of this PivotTable field are automatically sorted. |
 | [isAutoSubtotals()](#isAutoSubtotals--) | Indicates whether the specified field shows automatic subtotals. |
-| [isCalculatedField()](#isCalculatedField--) | Indicates whether the specified PivotTable field is calculated field. |
+| [isCalculatedField()](#isCalculatedField--) | Indicates whether the this pivot field is calculated field. |
 | [isHiddenItem(int index)](#isHiddenItem-int-) | Gets whether the specific PivotItem is hidden. |
-| [isHiddenItemDetail(int index)](#isHiddenItemDetail-int-) | Gets whether hidding the detail of the specific PivotItem.. |
-| [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--) | Indicates whether including new items to the field in manual filter. |
-| [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--) | Indicates whether inserting page breaks after each item. |
-| [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--) | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [isRepeatItemLabels()](#isRepeatItemLabels--) | Indicates whether repeating labels of the field in the region. |
+| [isHiddenItemDetail(int index)](#isHiddenItemDetail-int-) | Gets whether to hide the detail of the specific PivotItem.. |
+| [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--) | Indicates whether to include new items to the field in manual filter. |
+| [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--) | Indicates whether to insert page breaks after each item. |
+| [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--) | Indicates whether multiple items could be selected in the page field. |
+| [isRepeatItemLabels()](#isRepeatItemLabels--) | Indicates whether to repeat labels of the field in the region. |
 | [isValueFields()](#isValueFields--) | Indicates whether this field represents values fields. |
+| [isValuesField()](#isValuesField--) | Indicates whether this field represents values field. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAscendShow(boolean value)](#setAscendShow-boolean-) | Indicates whether the specified PivotTable field is autoshown ascending. |
-| [setAscendSort(boolean value)](#setAscendSort-boolean-) | Indicates whether the specified PivotTable field is autosorted ascending. |
-| [setAutoShow(boolean value)](#setAutoShow-boolean-) | Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [setAscendSort(boolean value)](#setAscendSort-boolean-) | Indicates whether the items of this pivot field is autosorted ascending. |
+| [setAutoShow(boolean value)](#setAutoShow-boolean-) | Indicates whether the specified PivotTable field is automatically shown. |
 | [setAutoShowCount(int value)](#setAutoShowCount-int-) | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
 | [setAutoShowField(int value)](#setAutoShowField-int-) | Represents auto show field index. -1 means PivotField itself. |
-| [setAutoSort(boolean value)](#setAutoSort-boolean-) | Indicates whether the specified PivotTable field is automatically sorted. |
+| [setAutoSort(boolean value)](#setAutoSort-boolean-) | Indicates whether the items of this PivotTable field are automatically sorted. |
 | [setAutoSortField(int value)](#setAutoSortField-int-) | Represents the index of field which is auto sorted |
 | [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | Indicates whether the specified field shows automatic subtotals. |
 | [setBaseFieldIndex(int value)](#setBaseFieldIndex-int-) | Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
-| [setBaseIndex(int value)](#setBaseIndex-int-) | Represents the PivotField index in the base PivotFields. |
+| [setBaseIndex(int value)](#setBaseIndex-int-) | Represents the index in the source pivot fields. |
 | [setBaseItemIndex(int value)](#setBaseItemIndex-int-) | Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [setBaseItemPosition(int value)](#setBaseItemPosition-int-) | Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. |
-| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Represents the current page item showing for the page field (valid only for page fields). |
+| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Represents the current selected page item of the page field to filter data. |
 | [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | Represents how to display the values in a data field of the pivot report. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the PivotField display name. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the display name of pivot field in the pivot table view. |
 | [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | Indicates whether the specified field can be dragged to the column position. |
-| [setDragToData(boolean value)](#setDragToData-boolean-) | Indicates whether the specified field can be dragged to the data position. |
-| [setDragToHide(boolean value)](#setDragToHide-boolean-) | Indicates whether the specified field can be dragged to the hide position. |
+| [setDragToData(boolean value)](#setDragToData-boolean-) | Indicates whether the specified field can be dragged to the values region. |
+| [setDragToHide(boolean value)](#setDragToHide-boolean-) | Indicates whether the specified field can be dragged to the hide region. |
 | [setDragToPage(boolean value)](#setDragToPage-boolean-) | Indicates whether the specified field can be dragged to the page position. |
-| [setDragToRow(boolean value)](#setDragToRow-boolean-) | Indicates whether the specified field can be dragged to the row position. |
-| [setFunction(int value)](#setFunction-int-) | Represents the function used to summarize the PivotTable data field. |
-| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | Indicates whether including new items to the field in manual filter. |
-| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | Indicates whether inserting blank line after each item. |
-| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | Indicates whether inserting page breaks after each item. |
-| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [setDragToRow(boolean value)](#setDragToRow-boolean-) | Indicates whether the specified field can be dragged to the row region. |
+| [setFunction(int value)](#setFunction-int-) | Represents the function used to summarize this PivotTable data field. |
+| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | Indicates whether to include new items to the field in manual filter. |
+| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | Indicates whether to insert a blank line after each item. |
+| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | Indicates whether to insert page breaks after each item. |
+| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | Indicates whether multiple items could be selected in the page field. |
 | [setName(String value)](#setName-java.lang.String-) | Represents the name of PivotField. |
 | [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
-| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | Indicates whether repeating labels of the field in the region. |
-| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
-| [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
-| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether layout this field in outline form on the Pivot Table view |
-| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
+| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | Indicates whether to repeat labels of the field in the region. |
+| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. |
+| [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
+| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether to layout this field in outline form on the Pivot Table view. |
+| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
+| [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets how to subtotal the specified field. |
 | [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [sortBy(int sortType, int fieldSortedBy)](#sortBy-int-int-) | Sorts this pivot field. |
 | [sortBy(int sortType, int fieldSortedBy, int dataType, String cellName)](#sortBy-int-int-int-java.lang.String-) | Sorts this pivot field. |
@@ -239,7 +239,7 @@ public PivotFilter filterByDate(int type, DateTime dateTime1, DateTime dateTime2
 ```
 
 
-Filters by date setting of row or column pivot field.
+Filters by date values of row or column pivot field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public int getBaseIndex()
 ```
 
 
-Represents the PivotField index in the base PivotFields.
+Represents the index in the source pivot fields.
 
 **Returns:**
 int
@@ -417,7 +417,7 @@ public short getCurrentPageItem()
 ```
 
 
-Represents the current page item showing for the page field (valid only for page fields).
+Represents the current selected page item of the page field to filter data. Only valid for page fields.
 
 **Returns:**
 short
@@ -443,7 +443,7 @@ public String getDisplayName()
 ```
 
 
-Represents the PivotField display name.
+Represents the display name of pivot field in the pivot table view.
 
 **Returns:**
 java.lang.String
@@ -463,7 +463,7 @@ public boolean getDragToData()
 ```
 
 
-Indicates whether the specified field can be dragged to the data position. The default value is true.
+Indicates whether the specified field can be dragged to the values region. The default value is true.
 
 **Returns:**
 boolean
@@ -473,7 +473,7 @@ public boolean getDragToHide()
 ```
 
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+Indicates whether the specified field can be dragged to the hide region. The default value is true.
 
 **Returns:**
 boolean
@@ -493,7 +493,7 @@ public boolean getDragToRow()
 ```
 
 
-Indicates whether the specified field can be dragged to the row position. The default value is true.
+Indicates whether the specified field can be dragged to the row region. The default value is true.
 
 **Returns:**
 boolean
@@ -503,7 +503,7 @@ public PivotFilter[] getFilters()
 ```
 
 
-Gets all pivot filters of this pivot field.
+Gets all pivot filters applied for this pivot field.
 
 **Returns:**
 com.aspose.cells.PivotFilter[]
@@ -513,7 +513,7 @@ public String getFormula()
 ```
 
 
-Gets formula of the calculated field .
+Gets the formula of the calculated field . Only works for calculated field.
 
 **Returns:**
 java.lang.String
@@ -523,7 +523,7 @@ public int getFunction()
 ```
 
 
-Represents the function used to summarize the PivotTable data field.
+Represents the function used to summarize this PivotTable data field.
 
 See [ConsolidationFunction](../../com.aspose.cells/consolidationfunction).
 
@@ -549,7 +549,7 @@ public boolean getInsertBlankRow()
 ```
 
 
-Indicates whether inserting blank line after each item.
+Indicates whether to insert a blank line after each item.
 
 **Returns:**
 boolean
@@ -672,20 +672,6 @@ Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the r
 
 **Returns:**
 int
-### getRange() {#getRange--}
-```
-public SxRng getRange()
-```
-
-
-Gets the group range of the pivot field
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings property. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[SxRng](../../com.aspose.cells/sxrng)
 ### getRegionType() {#getRegionType--}
 ```
 public int getRegionType()
@@ -704,7 +690,7 @@ public boolean getShowAllItems()
 ```
 
 
-Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
 
 **Returns:**
 boolean
@@ -714,7 +700,7 @@ public boolean getShowCompact()
 ```
 
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view
 
 **Returns:**
 boolean
@@ -724,7 +710,7 @@ public boolean getShowInOutlineForm()
 ```
 
 
-Indicates whether layout this field in outline form on the Pivot Table view
+Indicates whether to layout this field in outline form on the Pivot Table view.
 
 **Returns:**
 boolean
@@ -734,7 +720,7 @@ public boolean getShowSubtotalAtTop()
 ```
 
 
-when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
 
 **Remarks**
 
@@ -768,12 +754,12 @@ public boolean getSubtotals(int subtotalType)
 ```
 
 
-Indicates whether showing specified subtotal.
+Indicates whether to show specified subtotal for this pivot field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). subtotal type. |
+| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). Subtotal type. |
 
 **Returns:**
 boolean - Returns whether showing specified subtotal.
@@ -860,7 +846,7 @@ public void hideDetail(boolean isHiddenDetail)
 ```
 
 
-Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
+Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,8 +878,8 @@ Sets whether the specific PivotItem in a data field is hidden.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| itemValue | java.lang.String | the value of the pivotItem in the pivotField. |
-| isHidden | boolean | whether the specific PivotItem is hidden |
+| itemValue | java.lang.String | The name of the pivotItem in the pivotField. |
+| isHidden | boolean | Whether the specific PivotItem is hidden |
 
 ### hideItemDetail(int index, boolean isHiddenDetail) {#hideItemDetail-int-boolean-}
 ```
@@ -933,7 +919,7 @@ public boolean isAscendSort()
 ```
 
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+Indicates whether the items of this pivot field is autosorted ascending.
 
 **Returns:**
 boolean
@@ -943,7 +929,11 @@ public boolean isAutoShow()
 ```
 
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+Indicates whether the specified PivotTable field is automatically shown.
+
+**Remarks**
+
+Only valid for excel 2003.
 
 **Returns:**
 boolean
@@ -953,7 +943,7 @@ public boolean isAutoSort()
 ```
 
 
-Indicates whether the specified PivotTable field is automatically sorted.
+Indicates whether the items of this PivotTable field are automatically sorted.
 
 **Returns:**
 boolean
@@ -973,7 +963,7 @@ public boolean isCalculatedField()
 ```
 
 
-Indicates whether the specified PivotTable field is calculated field.
+Indicates whether the this pivot field is calculated field.
 
 **Returns:**
 boolean
@@ -998,7 +988,7 @@ public boolean isHiddenItemDetail(int index)
 ```
 
 
-Gets whether hidding the detail of the specific PivotItem..
+Gets whether to hide the detail of the specific PivotItem..
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1013,7 +1003,7 @@ public boolean isIncludeNewItemsInFilter()
 ```
 
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+Indicates whether to include new items to the field in manual filter. The default value is false.
 
 **Returns:**
 boolean
@@ -1023,7 +1013,7 @@ public boolean isInsertPageBreaksBetweenItems()
 ```
 
 
-Indicates whether inserting page breaks after each item. The default value is false.
+Indicates whether to insert page breaks after each item. The default value is false.
 
 **Returns:**
 boolean
@@ -1033,7 +1023,7 @@ public boolean isMultipleItemSelectionAllowed()
 ```
 
 
-indicates whether the field can have multiple items selected in the page field The default value is false.
+Indicates whether multiple items could be selected in the page field. The default value is false.
 
 **Returns:**
 boolean
@@ -1043,7 +1033,7 @@ public boolean isRepeatItemLabels()
 ```
 
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the region. The default value is false.
 
 **Returns:**
 boolean
@@ -1054,6 +1044,24 @@ public boolean isValueFields()
 
 
 Indicates whether this field represents values fields.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.IsValuesField property. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### isValuesField() {#isValuesField--}
+```
+public boolean isValuesField()
+```
+
+
+Indicates whether this field represents values field.
+
+**Remarks**
+
+Only works when there are two or more data fields in the pivot table view.
 
 **Returns:**
 boolean
@@ -1092,7 +1100,7 @@ public void setAscendSort(boolean value)
 ```
 
 
-Indicates whether the specified PivotTable field is autosorted ascending.
+Indicates whether the items of this pivot field is autosorted ascending.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1105,7 +1113,11 @@ public void setAutoShow(boolean value)
 ```
 
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+Indicates whether the specified PivotTable field is automatically shown.
+
+**Remarks**
+
+Only valid for excel 2003.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1144,7 +1156,7 @@ public void setAutoSort(boolean value)
 ```
 
 
-Indicates whether the specified PivotTable field is automatically sorted.
+Indicates whether the items of this PivotTable field are automatically sorted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1200,7 +1212,7 @@ public void setBaseIndex(int value)
 ```
 
 
-Represents the PivotField index in the base PivotFields.
+Represents the index in the source pivot fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1249,7 +1261,7 @@ public void setCurrentPageItem(short value)
 ```
 
 
-Represents the current page item showing for the page field (valid only for page fields).
+Represents the current selected page item of the page field to filter data. Only valid for page fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1281,7 +1293,7 @@ public void setDisplayName(String value)
 ```
 
 
-Represents the PivotField display name.
+Represents the display name of pivot field in the pivot table view.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1307,7 +1319,7 @@ public void setDragToData(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the data position. The default value is true.
+Indicates whether the specified field can be dragged to the values region. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1320,7 +1332,7 @@ public void setDragToHide(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the hide position. The default value is true.
+Indicates whether the specified field can be dragged to the hide region. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1346,7 +1358,7 @@ public void setDragToRow(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the row position. The default value is true.
+Indicates whether the specified field can be dragged to the row region. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1359,7 +1371,7 @@ public void setFunction(int value)
 ```
 
 
-Represents the function used to summarize the PivotTable data field.
+Represents the function used to summarize this PivotTable data field.
 
 See [ConsolidationFunction](../../com.aspose.cells/consolidationfunction).
 
@@ -1374,7 +1386,7 @@ public void setIncludeNewItemsInFilter(boolean value)
 ```
 
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+Indicates whether to include new items to the field in manual filter. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1387,7 +1399,7 @@ public void setInsertBlankRow(boolean value)
 ```
 
 
-Indicates whether inserting blank line after each item.
+Indicates whether to insert a blank line after each item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1400,7 +1412,7 @@ public void setInsertPageBreaksBetweenItems(boolean value)
 ```
 
 
-Indicates whether inserting page breaks after each item. The default value is false.
+Indicates whether to insert page breaks after each item. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1413,7 +1425,7 @@ public void setMultipleItemSelectionAllowed(boolean value)
 ```
 
 
-indicates whether the field can have multiple items selected in the page field The default value is false.
+Indicates whether multiple items could be selected in the page field. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1478,7 +1490,7 @@ public void setRepeatItemLabels(boolean value)
 ```
 
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the region. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1491,7 +1503,7 @@ public void setShowAllItems(boolean value)
 ```
 
 
-Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1504,7 +1516,7 @@ public void setShowCompact(boolean value)
 ```
 
 
-Indicates whether display labels from the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1517,7 +1529,7 @@ public void setShowInOutlineForm(boolean value)
 ```
 
 
-Indicates whether layout this field in outline form on the Pivot Table view
+Indicates whether to layout this field in outline form on the Pivot Table view.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1530,7 +1542,7 @@ public void setShowSubtotalAtTop(boolean value)
 ```
 
 
-when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
 
 **Remarks**
 
@@ -1547,13 +1559,13 @@ public void setSubtotals(int subtotalType, boolean shown)
 ```
 
 
-Sets whether the specified field shows that subtotals.
+Sets how to subtotal the specified field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). subtotals type. |
-| shown | boolean | whether the specified field shows that subtotals. |
+| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) |
+| shown | boolean | Whether the specified field shows that subtotals. |
 
 ### showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem) {#showValuesAs-int-int-int-int-}
 ```

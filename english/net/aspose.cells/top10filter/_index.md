@@ -1,13 +1,13 @@
 ---
 title: Class Top10Filter
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Top10Filter class. Represents the top 10 filter
+description: Aspose.Cells.Top10Filter class. Represents the top N percent or number of items to filter by
 type: docs
 url: /net/aspose.cells/top10filter/
 ---
 ## Top10Filter class
 
-Represents the top 10 filter.
+Represents the top N (percent or number of items) to filter by.
 
 ```csharp
 public class Top10Filter
@@ -17,10 +17,10 @@ public class Top10Filter
 
 | Name | Description |
 | --- | --- |
-| [Criteria](../../aspose.cells/top10filter/criteria/) { get; set; } |  |
-| [IsPercent](../../aspose.cells/top10filter/ispercent/) { get; set; } | Indicates whether the items is percent. |
-| [IsTop](../../aspose.cells/top10filter/istop/) { get; set; } | Indicates whether it's top filter. |
-| [Items](../../aspose.cells/top10filter/items/) { get; set; } | Gets and sets the items of the filter. |
+| [Criteria](../../aspose.cells/top10filter/criteria/) { get; set; } | (**Obsolete.**) The actual cell value in the range which is used to perform the comparison for this filter. This is the cache value during the refresh process. |
+| [IsPercent](../../aspose.cells/top10filter/ispercent/) { get; set; } | Indicates whether or not to filter by percent value of the column |
+| [IsTop](../../aspose.cells/top10filter/istop/) { get; set; } | Indicates whether or not to filter by top order |
+| [Items](../../aspose.cells/top10filter/items/) { get; set; } | Gets and sets top or bottom value to use as the filter criteria. |
 
 ### Examples
 

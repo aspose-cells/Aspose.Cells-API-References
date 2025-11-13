@@ -1,13 +1,13 @@
 ---
 title: Top10Filter.Items
 second_title: Aspose.Cells for .NET API Reference
-description: Top10Filter property. Gets and sets the items of the filter
+description: Top10Filter property. Gets and sets top or bottom value to use as the filter criteria
 type: docs
 url: /net/aspose.cells/top10filter/items/
 ---
 ## Top10Filter.Items property
 
-Gets and sets the items of the filter.
+Gets and sets top or bottom value to use as the filter criteria.
 
 ```csharp
 public int Items { get; set; }

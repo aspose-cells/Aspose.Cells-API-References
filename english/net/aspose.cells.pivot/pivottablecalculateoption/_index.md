@@ -1,13 +1,13 @@
 ---
 title: Class PivotTableCalculateOption
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotTableCalculateOption class. Rerepsents the options of calcuating the pivot table
+description: Aspose.Cells.Pivot.PivotTableCalculateOption class. Rerepsents the options of calculating data of the pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivottablecalculateoption/
 ---
 ## PivotTableCalculateOption class
 
-Rerepsents the options of calcuating the pivot table.
+Rerepsents the options of calculating data of the pivot table.
 
 ```csharp
 public class PivotTableCalculateOption

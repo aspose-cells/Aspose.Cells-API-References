@@ -40,7 +40,7 @@ Represents the options for saving html file.
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
-| [getEmbeddedFontType()](#getEmbeddedFontType--) | Gets the type of font that embedded in html. |
+| [getEmbeddedFontType()](#getEmbeddedFontType--) | Gets the type of embedding font file into html file. |
 | [getEnableCssCustomProperties()](#getEnableCssCustomProperties--) | Optimize the output of html by using CSS custom properties. |
 | [getEncodeEntityAsCode()](#getEncodeEntityAsCode--) | Indicates whether the html character entities are replaced with decimal code. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -80,6 +80,7 @@ Represents the options for saving html file.
 | [getIgnoreInvisibleShapes()](#getIgnoreInvisibleShapes--) | Indicate whether exporting those not visible shapes |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
 | [getImageScalable()](#getImageScalable--) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
+| [getLayoutMode()](#getLayoutMode--) | Gets the layout mode when saving to HTML. |
 | [getLinkTargetType()](#getLinkTargetType--) | Indicating the type of target attribute in `<a>` link. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
@@ -128,7 +129,7 @@ Represents the options for saving html file.
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
-| [setEmbeddedFontType(int value)](#setEmbeddedFontType-int-) | Sets the type of font that embedded in html. |
+| [setEmbeddedFontType(int value)](#setEmbeddedFontType-int-) | Sets the type of embedding font file into html file. |
 | [setEnableCssCustomProperties(boolean value)](#setEnableCssCustomProperties-boolean-) | Optimize the output of html by using CSS custom properties. |
 | [setEncodeEntityAsCode(boolean value)](#setEncodeEntityAsCode-boolean-) | Indicates whether the html character entities are replaced with decimal code. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -172,6 +173,7 @@ Represents the options for saving html file.
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes |
 | [setImageScalable(boolean value)](#setImageScalable-boolean-) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
 | [setJsBrowserCompatible(boolean value)](#setJsBrowserCompatible-boolean-) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. |
+| [setLayoutMode(int value)](#setLayoutMode-int-) | Sets the layout mode when saving to HTML. |
 | [setLinkTargetType(int value)](#setLinkTargetType-int-) | Indicating the type of target attribute in `<a>` link. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
@@ -412,7 +414,7 @@ public int getEmbeddedFontType()
 ```
 
 
-Gets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that it will not embed font in html.
+Gets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that no font will be embedded in html.
 
 See [HtmlEmbeddedFontType](../../com.aspose.cells/htmlembeddedfonttype).
 
@@ -852,6 +854,18 @@ Indicates whether using scalable unit to describe the image width when using sca
 
 **Returns:**
 boolean
+### getLayoutMode() {#getLayoutMode--}
+```
+public int getLayoutMode()
+```
+
+
+Gets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.NORMAL](../../com.aspose.cells/htmllayoutmode\#NORMAL)
+
+See [HtmlLayoutMode](../../com.aspose.cells/htmllayoutmode).
+
+**Returns:**
+int
 ### getLinkTargetType() {#getLinkTargetType--}
 ```
 public int getLinkTargetType()
@@ -1422,7 +1436,7 @@ public void setEmbeddedFontType(int value)
 ```
 
 
-Sets the type of font that embedded in html. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that it will not embed font in html.
+Sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.NONE](../../com.aspose.cells/htmlembeddedfonttype\#NONE) which indicates that no font will be embedded in html.
 
 See [HtmlEmbeddedFontType](../../com.aspose.cells/htmlembeddedfonttype).
 
@@ -2033,6 +2047,21 @@ Indicates whether JavaScript is compatible with browsers that do not support Jav
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setLayoutMode(int value) {#setLayoutMode-int-}
+```
+public void setLayoutMode(int value)
+```
+
+
+Sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.NORMAL](../../com.aspose.cells/htmllayoutmode\#NORMAL)
+
+See [HtmlLayoutMode](../../com.aspose.cells/htmllayoutmode).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setLinkTargetType(int value) {#setLinkTargetType-int-}
 ```

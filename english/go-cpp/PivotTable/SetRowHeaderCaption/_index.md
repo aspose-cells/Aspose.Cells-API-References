@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setrowheadercaption/
 
 ## SetRowHeaderCaption function
 
-Gets the Row Header Caption of the PivotTable.
+Gets and sets custom caption of the Row Header in this PivotTable.
 
 ```go
 

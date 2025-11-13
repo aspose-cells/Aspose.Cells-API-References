@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/changedatasource/
 
 ## ChangeDataSource function
 
-Set pivottable's source data.
+Change data source of the pivottable.
 
 ```go
 
