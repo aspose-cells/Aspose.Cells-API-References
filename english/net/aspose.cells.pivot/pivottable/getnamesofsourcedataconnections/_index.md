@@ -1,13 +1,13 @@
 ---
 title: PivotTable.GetNamesOfSourceDataConnections
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Gets the name of external source data connections
+description: PivotTable method. Gets the names of external source data connections
 type: docs
 url: /net/aspose.cells.pivot/pivottable/getnamesofsourcedataconnections/
 ---
 ## PivotTable.GetNamesOfSourceDataConnections method
 
-Gets the name of external source data connections.
+Gets the names of external source data connections.
 
 ```csharp
 public string[] GetNamesOfSourceDataConnections()

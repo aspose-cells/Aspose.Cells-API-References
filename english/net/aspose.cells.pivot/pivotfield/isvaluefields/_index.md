@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotfield/isvaluefields/
 Indicates whether this field represents values fields.
 
 ```csharp
+[Obsolete("Use PivotField.IsValuesField property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsValueFields { get; }
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.IsValuesField property. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

@@ -1,15 +1,21 @@
 ---
 title: DelimiterEquationNode.NaryGrow
 second_title: Aspose.Cells for .NET API Reference
-description: DelimiterEquationNode property. 
+description: DelimiterEquationNode property. Specifies whether the delimiter should automatically expand and contract with the height of the formula
 type: docs
 url: /net/aspose.cells.drawing.equations/delimiterequationnode/narygrow/
 ---
 ## DelimiterEquationNode.NaryGrow property
 
+Specifies whether the delimiter should automatically expand and contract with the height of the formula.
+
 ```csharp
 public bool NaryGrow { get; set; }
 ```
+
+### Remarks
+
+This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
 
 ### Examples
 

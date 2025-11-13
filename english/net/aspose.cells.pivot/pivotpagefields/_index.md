@@ -1,13 +1,13 @@
 ---
 title: Class PivotPageFields
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotPageFields class. Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields
+description: Aspose.Cells.Pivot.PivotPageFields class. Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items
 type: docs
 url: /net/aspose.cells.pivot/pivotpagefields/
 ---
 ## PivotPageFields class
 
-Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields.
+Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items.
 
 ```csharp
 public class PivotPageFields

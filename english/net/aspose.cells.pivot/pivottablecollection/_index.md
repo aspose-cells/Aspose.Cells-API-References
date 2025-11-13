@@ -39,7 +39,7 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |
-| [Clear](../../aspose.cells.pivot/pivottablecollection/clear/#clear)() | Clear all pivot tables. (2 methods) |
+| [Clear](../../aspose.cells.pivot/pivottablecollection/clear/#clear)() | Clears all pivot tables. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotTable) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[], int) |  |

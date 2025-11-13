@@ -23,18 +23,18 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
-| [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting of sorting pivot fields. |
+| [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
-| [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilter objects |
+| [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition/) |  |
 | [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  |
 | [PivotItem](./pivotitem/) | Represents a item in a PivotField report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [`PivotItem`](../aspose.cells.pivot/pivotitem/) objects in the PivotField. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
-| [PivotPageFields](./pivotpagefields/) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
+| [PivotPageFields](./pivotpagefields/) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable/) | Summary description for PivotTable. |
-| [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calcuating the pivot table. |
+| [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
@@ -51,7 +51,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotFieldGroupType](./pivotfieldgrouptype/) | Represents the group type of pivot field. |
 | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](./pivotfieldtype/) | Represents PivotTable field type. |
-| [PivotFilterType](./pivotfiltertype/) | Represents PivotTable Filter type. |
+| [PivotFilterType](./pivotfiltertype/) | Represents the filter type of the pivot table. |
 | [PivotGroupByType](./pivotgroupbytype/) | Represents group by type. |
 | [PivotItemPosition](./pivotitemposition/) |  |
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |

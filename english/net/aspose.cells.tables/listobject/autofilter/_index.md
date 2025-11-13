@@ -1,17 +1,21 @@
 ---
 title: ListObject.AutoFilter
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets auto filter
+description: ListObject property. Gets auto filter of this table
 type: docs
 url: /net/aspose.cells.tables/listobject/autofilter/
 ---
 ## ListObject.AutoFilter property
 
-Gets auto filter.
+Gets auto filter of this table.
 
 ```csharp
 public AutoFilter AutoFilter { get; }
 ```
+
+### Remarks
+
+It works only when [`HasAutoFilter`](../hasautofilter/) is false.
 
 ### Examples
 

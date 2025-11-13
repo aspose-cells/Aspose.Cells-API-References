@@ -38,6 +38,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [LightCellsDataProvider](../../aspose.cells/markdownsaveoptions/lightcellsdataprovider/) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
 | [LineSeparator](../../aspose.cells/markdownsaveoptions/lineseparator/) { get; set; } | Gets and sets the line separator. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [OfficeMathOutputType](../../aspose.cells/markdownsaveoptions/officemathoutputtype/) { get; set; } | Indicates how export OfficeMath objects to Markdown, Default value is Image. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SheetSet](../../aspose.cells/markdownsaveoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Active`](../../aspose.cells.rendering/sheetset/active/). |

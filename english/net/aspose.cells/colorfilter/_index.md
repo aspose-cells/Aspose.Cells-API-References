@@ -1,13 +1,13 @@
 ---
 title: Class ColorFilter
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.ColorFilter class. Represents filtering the range by color
+description: Aspose.Cells.ColorFilter class. Represents setting for filtering the range by color
 type: docs
 url: /net/aspose.cells/colorfilter/
 ---
 ## ColorFilter class
 
-Represents filtering the range by color.
+Represents setting for filtering the range by color.
 
 ```csharp
 public class ColorFilter

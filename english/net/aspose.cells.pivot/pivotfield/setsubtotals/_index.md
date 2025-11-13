@@ -1,13 +1,13 @@
 ---
 title: PivotField.SetSubtotals
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Sets whether the specified field shows that subtotals
+description: PivotField method. Sets how to subtotal the specified field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/setsubtotals/
 ---
 ## PivotField.SetSubtotals method
 
-Sets whether the specified field shows that subtotals.
+Sets how to subtotal the specified field.
 
 ```csharp
 public void SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
@@ -15,8 +15,8 @@ public void SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | PivotFieldSubtotalType | subtotals type. |
-| shown | Boolean | whether the specified field shows that subtotals. |
+| subtotalType | PivotFieldSubtotalType | [`PivotFieldSubtotalType`](../../pivotfieldsubtotaltype/) |
+| shown | Boolean | Whether the specified field shows that subtotals. |
 
 ### Examples
 

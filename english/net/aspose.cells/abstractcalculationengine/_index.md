@@ -27,6 +27,7 @@ public abstract class AbstractCalculationEngine
 | --- | --- |
 | abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate/)(CalculationData) | Calculates one function with given data. |
 | virtual [ForceRecalculate](../../aspose.cells/abstractcalculationengine/forcerecalculate/)(string) | Whether force given function to be recalculated always when calculating shared formulas. |
+| [SkipCalculation](../../aspose.cells/abstractcalculationengine/skipcalculation/)() | Skips the calculation for the entire formula that references to the function currently under evaluation. |
 
 ### Remarks
 

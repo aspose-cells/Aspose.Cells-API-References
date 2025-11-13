@@ -17,8 +17,8 @@ public enum TableStyleType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` |  |
-| TableStyleLight1 | `1` |  |
+| None | `0` | No style. |
+| TableStyleLight1 | `1` | Table Style Light 1 |
 | TableStyleLight2 | `2` |  |
 | TableStyleLight3 | `3` |  |
 | TableStyleLight4 | `4` |  |

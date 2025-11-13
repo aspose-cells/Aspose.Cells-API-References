@@ -1,13 +1,13 @@
 ---
 title: PivotField.CurrentPageItem
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Represents the current page item showing for the page field valid only for page fields
+description: PivotField property. Represents the current selected page item of the page field to filter data. Only valid for page fields
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/currentpageitem/
 ---
 ## PivotField.CurrentPageItem property
 
-Represents the current page item showing for the page field (valid only for page fields).
+Represents the current selected page item of the page field to filter data. Only valid for page fields.
 
 ```csharp
 public short CurrentPageItem { get; set; }

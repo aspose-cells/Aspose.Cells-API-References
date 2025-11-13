@@ -1,13 +1,13 @@
 ---
 title: PivotField.HideDetail
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field
+description: PivotField method. Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/hidedetail/
 ---
 ## PivotField.HideDetail method
 
-Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field.
+Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
 ```csharp
 public void HideDetail(bool isHiddenDetail)

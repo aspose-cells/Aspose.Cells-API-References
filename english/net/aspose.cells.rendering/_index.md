@@ -40,6 +40,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
 | [DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
+| [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |
 | [ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. |
 | [PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. |

@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ColumnHeaderCaption
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets the Column Header Caption of the PivotTable
+description: PivotTable property. Gets and sets the custom Caption of the Column Header of the PivotTable
 type: docs
 url: /net/aspose.cells.pivot/pivottable/columnheadercaption/
 ---
 ## PivotTable.ColumnHeaderCaption property
 
-Gets the Column Header Caption of the PivotTable.
+Gets and sets the custom Caption of the Column Header of the PivotTable.
 
 ```csharp
 public string ColumnHeaderCaption { get; set; }

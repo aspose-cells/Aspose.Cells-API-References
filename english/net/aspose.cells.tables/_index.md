@@ -12,10 +12,10 @@ The **Aspose.Cells.Tables** namespace contains classes that represent tables, ro
 | Class | Description |
 | --- | --- |
 | [ListColumn](./listcolumn/) | Represents a column in a Table. |
-| [ListColumnCollection](./listcolumncollection/) | Represents A collection of all the [`ListColumn`](../aspose.cells.tables/listcolumn/) objects in the specified ListObject object. |
-| [ListObject](./listobject/) | Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet. |
+| [ListColumnCollection](./listcolumncollection/) | Represents a list of all the [`ListColumn`](../aspose.cells.tables/listcolumn/) objects in the table. |
+| [ListObject](./listobject/) | Represents a table in a worksheet. |
 | [ListObjectCollection](./listobjectcollection/) | Represents a collection of [`ListObject`](../aspose.cells.tables/listobject/) objects in the worksheet. |
-| [TableStyle](./tablestyle/) | Represents the table style. |
+| [TableStyle](./tablestyle/) | Represents the style of the table. |
 | [TableStyleCollection](./tablestylecollection/) | Represents all custom table styles. |
 | [TableStyleElement](./tablestyleelement/) | Represents the element of the table style. |
 | [TableStyleElementCollection](./tablestyleelementcollection/) | Represents all elements of the table style. |

@@ -1,13 +1,13 @@
 ---
 title: ListObject.ShowTableStyleFirstColumn
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Indicates whether the first column in the table should have the style applied
+description: ListObject property. Indicates whether the first column in the table is the style applied to
 type: docs
 url: /net/aspose.cells.tables/listobject/showtablestylefirstcolumn/
 ---
 ## ListObject.ShowTableStyleFirstColumn property
 
-Indicates whether the first column in the table should have the style applied.
+Indicates whether the first column in the table is the style applied to.
 
 ```csharp
 public bool ShowTableStyleFirstColumn { get; set; }

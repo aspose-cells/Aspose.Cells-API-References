@@ -36,6 +36,7 @@ public class ImportTableOptions
 | [IsHtmlString](../../aspose.cells/importtableoptions/ishtmlstring/) { get; set; } | Indicates whether the value contains html tags. |
 | [NumberFormats](../../aspose.cells/importtableoptions/numberformats/) { get; set; } | Gets or sets the number formats |
 | [ShiftFirstRowDown](../../aspose.cells/importtableoptions/shiftfirstrowdown/) { get; set; } | Indicates whether shifting the first row down when inserting rows. |
+| [Styles](../../aspose.cells/importtableoptions/styles/) { get; set; } | Gets and sets the styles for each column of the table. |
 | [TotalColumns](../../aspose.cells/importtableoptions/totalcolumns/) { get; set; } | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [TotalRows](../../aspose.cells/importtableoptions/totalrows/) { get; set; } | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 

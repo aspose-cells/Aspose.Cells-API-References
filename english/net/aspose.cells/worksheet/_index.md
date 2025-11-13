@@ -114,6 +114,7 @@ public class Worksheet : IDisposable
 | [Copy](../../aspose.cells/worksheet/copy/#copy)(Worksheet) | Copies contents and formats from another worksheet. |
 | [Copy](../../aspose.cells/worksheet/copy/#copy_1)(Worksheet, CopyOptions) | Copies contents and formats from another worksheet. |
 | [Dispose](../../aspose.cells/worksheet/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Filter](../../aspose.cells/worksheet/filter/)(CellArea) | Filters the range. |
 | [FreezePanes](../../aspose.cells/worksheet/freezepanes/#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes](../../aspose.cells/worksheet/freezepanes/#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetAdvancedFilter](../../aspose.cells/worksheet/getadvancedfilter/)() | Gets the settings of advanced filter. |

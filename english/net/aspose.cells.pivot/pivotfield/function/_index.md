@@ -1,13 +1,13 @@
 ---
 title: PivotField.Function
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Represents the function used to summarize the PivotTable data field
+description: PivotField property. Represents the function used to summarize this PivotTable data field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/function/
 ---
 ## PivotField.Function property
 
-Represents the function used to summarize the PivotTable data field.
+Represents the function used to summarize this PivotTable data field.
 
 ```csharp
 public ConsolidationFunction Function { get; set; }

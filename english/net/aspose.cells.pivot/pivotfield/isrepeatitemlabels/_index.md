@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsRepeatItemLabels
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether repeating labels of the field in the region. The default value is false
+description: PivotField property. Indicates whether to repeat labels of the field in the region. The default value is false
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/isrepeatitemlabels/
 ---
 ## PivotField.IsRepeatItemLabels property
 
-Indicates whether repeating labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the region. The default value is false.
 
 ```csharp
 public bool IsRepeatItemLabels { get; set; }

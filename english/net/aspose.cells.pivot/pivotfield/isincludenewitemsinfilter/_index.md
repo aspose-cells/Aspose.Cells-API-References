@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsIncludeNewItemsInFilter
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether including new items to the field in manual filter. The default value is false
+description: PivotField property. Indicates whether to include new items to the field in manual filter. The default value is false
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/isincludenewitemsinfilter/
 ---
 ## PivotField.IsIncludeNewItemsInFilter property
 
-Indicates whether including new items to the field in manual filter. The default value is false.
+Indicates whether to include new items to the field in manual filter. The default value is false.
 
 ```csharp
 public bool IsIncludeNewItemsInFilter { get; set; }

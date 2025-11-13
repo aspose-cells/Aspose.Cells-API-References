@@ -1,13 +1,13 @@
 ---
 title: PivotTable.Tag
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets a string saved with the PivotTable report
+description: PivotTable property. Gets and sets a userdefined string that is associated with this PivotTable view
 type: docs
 url: /net/aspose.cells.pivot/pivottable/tag/
 ---
 ## PivotTable.Tag property
 
-Gets a string saved with the PivotTable report.
+Gets and sets a user-defined string that is associated with this PivotTable view.
 
 ```csharp
 public string Tag { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: ListObject.ShowTotals
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject property. Gets and sets whether this ListObject show total row
+description: ListObject property. Gets and sets whether this TAble shows total row
 type: docs
 url: /net/aspose.cells.tables/listobject/showtotals/
 ---
 ## ListObject.ShowTotals property
 
-Gets and sets whether this ListObject show total row.
+Gets and sets whether this TAble shows total row.
 
 ```csharp
 public bool ShowTotals { get; set; }

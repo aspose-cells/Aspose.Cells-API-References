@@ -1,13 +1,13 @@
 ---
 title: Top10Filter.IsPercent
 second_title: Aspose.Cells for .NET API Reference
-description: Top10Filter property. Indicates whether the items is percent
+description: Top10Filter property. Indicates whether or not to filter by percent value of the column
 type: docs
 url: /net/aspose.cells/top10filter/ispercent/
 ---
 ## Top10Filter.IsPercent property
 
-Indicates whether the items is percent.
+Indicates whether or not to filter by percent value of the column
 
 ```csharp
 public bool IsPercent { get; set; }

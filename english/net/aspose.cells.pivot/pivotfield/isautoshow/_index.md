@@ -1,17 +1,21 @@
 ---
 title: PivotField.IsAutoShow
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the specified PivotTable field is automatically shownonly valid for excel 2003
+description: PivotField property. Indicates whether the specified PivotTable field is automatically shown
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/isautoshow/
 ---
 ## PivotField.IsAutoShow property
 
-Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+Indicates whether the specified PivotTable field is automatically shown.
 
 ```csharp
 public bool IsAutoShow { get; set; }
 ```
+
+### Remarks
+
+Only valid for excel 2003.
 
 ### Examples
 

@@ -1,13 +1,13 @@
 ---
 title: PivotField.BaseIndex
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Represents the PivotField index in the base PivotFields
+description: PivotField property. Represents the index in the source pivot fields
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/baseindex/
 ---
 ## PivotField.BaseIndex property
 
-Represents the PivotField index in the base PivotFields.
+Represents the index in the source pivot fields.
 
 ```csharp
 public int BaseIndex { get; set; }

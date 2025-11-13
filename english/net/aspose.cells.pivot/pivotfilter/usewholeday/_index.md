@@ -1,13 +1,13 @@
 ---
 title: PivotFilter.UseWholeDay
 second_title: Aspose.Cells for .NET API Reference
-description: PivotFilter property. Indicates whether uses whole days in its filtering criteria
+description: PivotFilter property. Indicates whether to use whole days in its date filtering criteria
 type: docs
 url: /net/aspose.cells.pivot/pivotfilter/usewholeday/
 ---
 ## PivotFilter.UseWholeDay property
 
-Indicates whether uses whole days in its filtering criteria.
+Indicates whether to use whole days in its date filtering criteria.
 
 ```csharp
 public bool UseWholeDay { get; set; }

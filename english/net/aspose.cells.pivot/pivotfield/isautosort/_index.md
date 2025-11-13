@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsAutoSort
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the specified PivotTable field is automatically sorted
+description: PivotField property. Indicates whether the items of this PivotTable field are automatically sorted
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/isautosort/
 ---
 ## PivotField.IsAutoSort property
 
-Indicates whether the specified PivotTable field is automatically sorted.
+Indicates whether the items of this PivotTable field are automatically sorted.
 
 ```csharp
 public bool IsAutoSort { get; set; }

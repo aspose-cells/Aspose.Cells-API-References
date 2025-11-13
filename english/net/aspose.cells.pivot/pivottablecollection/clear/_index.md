@@ -1,13 +1,13 @@
 ---
 title: PivotTableCollection.Clear
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTableCollection method. Clear all pivot tables
+description: PivotTableCollection method. Clears all pivot tables
 type: docs
 url: /net/aspose.cells.pivot/pivottablecollection/clear/
 ---
 ## PivotTableCollection.Clear method
 
-Clear all pivot tables.
+Clears all pivot tables.
 
 ```csharp
 public void Clear()

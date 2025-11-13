@@ -1,13 +1,13 @@
 ---
 title: Top10Filter.IsTop
 second_title: Aspose.Cells for .NET API Reference
-description: Top10Filter property. Indicates whether its top filter
+description: Top10Filter property. Indicates whether or not to filter by top order
 type: docs
 url: /net/aspose.cells/top10filter/istop/
 ---
 ## Top10Filter.IsTop property
 
-Indicates whether it's top filter.
+Indicates whether or not to filter by top order
 
 ```csharp
 public bool IsTop { get; set; }

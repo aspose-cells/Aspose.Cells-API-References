@@ -1,13 +1,13 @@
 ---
 title: Class PivotFilterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotFilterCollection class. Represents a collection of all the PivotFilter objects
+description: Aspose.Cells.Pivot.PivotFilterCollection class. Represents a collection of all the PivotFilters
 type: docs
 url: /net/aspose.cells.pivot/pivotfiltercollection/
 ---
 ## PivotFilterCollection class
 
-Represents a collection of all the PivotFilter objects
+Represents a collection of all the PivotFilters.
 
 ```csharp
 public class PivotFilterCollection : CollectionBase<PivotFilter>

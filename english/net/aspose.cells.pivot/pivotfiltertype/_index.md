@@ -1,13 +1,13 @@
 ---
 title: Enum PivotFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotFilterType enum. Represents PivotTable Filter type
+description: Aspose.Cells.Pivot.PivotFilterType enum. Represents the filter type of the pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivotfiltertype/
 ---
 ## PivotFilterType enumeration
 
-Represents PivotTable Filter type.
+Represents the filter type of the pivot table.
 
 ```csharp
 public enum PivotFilterType

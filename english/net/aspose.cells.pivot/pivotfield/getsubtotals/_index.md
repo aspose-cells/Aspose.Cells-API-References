@@ -1,13 +1,13 @@
 ---
 title: PivotField.GetSubtotals
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Indicates whether showing specified subtotal
+description: PivotField method. Indicates whether to show specified subtotal for this pivot field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/getsubtotals/
 ---
 ## PivotField.GetSubtotals method
 
-Indicates whether showing specified subtotal.
+Indicates whether to show specified subtotal for this pivot field.
 
 ```csharp
 public bool GetSubtotals(PivotFieldSubtotalType subtotalType)
@@ -15,7 +15,7 @@ public bool GetSubtotals(PivotFieldSubtotalType subtotalType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | PivotFieldSubtotalType | subtotal type. |
+| subtotalType | PivotFieldSubtotalType | Subtotal type. |
 
 ### Return Value
 

@@ -1,13 +1,13 @@
 ---
 title: ListObject.UpdateColumnName
 second_title: Aspose.Cells for .NET API Reference
-description: ListObject method. Updates all list columns name from the worksheet
+description: ListObject method. Updates all list columns name to cells in the table
 type: docs
 url: /net/aspose.cells.tables/listobject/updatecolumnname/
 ---
 ## ListObject.UpdateColumnName method
 
-Updates all list columns' name from the worksheet.
+Updates all list columns' name to cells in the table.
 
 ```csharp
 public void UpdateColumnName()
