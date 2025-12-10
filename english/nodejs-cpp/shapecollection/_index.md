@@ -24,7 +24,8 @@ class ShapeCollection;
 | [addCopy(Shape, number, number, number, number)](#addCopy-shape-number-number-number-number-)| Adds and copy a shape to the worksheet. |
 | [addCheckBox(number, number, number, number, number, number)](#addCheckBox-number-number-number-number-number-number-)| Adds a checkbox to the worksheet. |
 | [addTextBox(number, number, number, number, number, number)](#addTextBox-number-number-number-number-number-number-)| Adds a text box to the worksheet. |
-| [addEquation(number, number, number, number, number, number)](#addEquation-number-number-number-number-number-number-)| Add an equation object to the worksheet. |
+| [addEquation(number, number, number, number, number, number)](#addEquation-number-number-number-number-number-number-)| Adds an equation object to the worksheet. |
+| [addLaTeXEquation(number, number, number, number, number, number, string)](#addLaTeXEquation-number-number-number-number-number-number-string-)| Adds an equation object to the worksheet using LaTeX format strings. |
 | [addSpinner(number, number, number, number, number, number)](#addSpinner-number-number-number-number-number-number-)| Adds a Spinner to the worksheet. |
 | [addScrollBar(number, number, number, number, number, number)](#addScrollBar-number-number-number-number-number-number-)| Adds a ScrollBar to the worksheet. |
 | [addRadioButton(number, number, number, number, number, number)](#addRadioButton-number-number-number-number-number-number-)| Adds a RadioButton to the worksheet. |
@@ -135,15 +136,15 @@ The new [Shape](../shape/) object.
 Adds a checkbox to the worksheet.
 
 ```javascript
-addCheckBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : CheckBox;
+addCheckBox(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : CheckBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of checkbox from its top row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | number | Height of textbox, in unit of pixel. |
 | width | number | Width of textbox, in unit of pixel. |
@@ -157,15 +158,15 @@ The new CheckBox object index.
 Adds a text box to the worksheet.
 
 ```javascript
-addTextBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : TextBox;
+addTextBox(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : TextBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of textbox from its top row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | number | Represents the height of textbox, in unit of pixel. |
 | width | number | Represents the width of textbox, in unit of pixel. |
@@ -176,7 +177,7 @@ A [TextBox](../textbox/) object.
 
 ### addEquation(number, number, number, number, number, number) {#addEquation-number-number-number-number-number-number-}
 
-Add an equation object to the worksheet.
+Adds an equation object to the worksheet.
 
 ```javascript
 addEquation(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : TextBox;
@@ -196,20 +197,43 @@ addEquation(topRow: number, top: number, leftColumn: number, left: number, heigh
 
 [TextBox](../textbox/)
 
-### addSpinner(number, number, number, number, number, number) {#addSpinner-number-number-number-number-number-number-}
+### addLaTeXEquation(number, number, number, number, number, number, string) {#addLaTeXEquation-number-number-number-number-number-number-string-}
 
-Adds a Spinner to the worksheet.
+Adds an equation object to the worksheet using LaTeX format strings.
 
 ```javascript
-addSpinner(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Spinner;
+addLaTeXEquation(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number, latex: string) : TextBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | The top row index. |
+| top | number | The vertical  offset its top row, in unit of pixel. |
+| leftColumn | number | The left column index. |
+| left | number | The horizontal offset from its left column, in unit of pixel. |
+| height | number | The height of equation, in unit of pixel. |
+| width | number | The width of equation, in unit of pixel. |
+| latex | string | LaTeX format string |
+
+**Returns**
+
+[TextBox](../textbox/)
+
+### addSpinner(number, number, number, number, number, number) {#addSpinner-number-number-number-number-number-number-}
+
+Adds a Spinner to the worksheet.
+
+```javascript
+addSpinner(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Spinner;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Spinner from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Spinner from its left column, in unit of pixel. |
 | height | number | Represents the height of Spinner, in unit of pixel. |
 | width | number | Represents the width of Spinner, in unit of pixel. |
@@ -223,15 +247,15 @@ A Spinner object.
 Adds a ScrollBar to the worksheet.
 
 ```javascript
-addScrollBar(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : ScrollBar;
+addScrollBar(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : ScrollBar;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of ScrollBar from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of ScrollBar from its left column, in unit of pixel. |
 | height | number | Represents the height of ScrollBar, in unit of pixel. |
 | width | number | Represents the width of ScrollBar, in unit of pixel. |
@@ -245,15 +269,15 @@ A ScrollBar object.
 Adds a RadioButton to the worksheet.
 
 ```javascript
-addRadioButton(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : RadioButton;
+addRadioButton(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : RadioButton;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of RadioButton from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of RadioButton from its left column, in unit of pixel. |
 | height | number | Represents the height of RadioButton, in unit of pixel. |
 | width | number | Represents the width of RadioButton, in unit of pixel. |
@@ -267,15 +291,15 @@ A RadioButton object.
 Adds a ListBox to the worksheet.
 
 ```javascript
-addListBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : ListBox;
+addListBox(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : ListBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of ListBox from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of ListBox from its left column, in unit of pixel. |
 | height | number | Represents the height of ListBox, in unit of pixel. |
 | width | number | Represents the width of ListBox, in unit of pixel. |
@@ -289,15 +313,15 @@ A ListBox object.
 Adds a ComboBox to the worksheet.
 
 ```javascript
-addComboBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : ComboBox;
+addComboBox(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : ComboBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of ComboBox from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of ComboBox from its left column, in unit of pixel. |
 | height | number | Represents the height of ComboBox, in unit of pixel. |
 | width | number | Represents the width of ComboBox, in unit of pixel. |
@@ -311,15 +335,15 @@ A ComboBox object.
 Adds a GroupBox to the worksheet.
 
 ```javascript
-addGroupBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : GroupBox;
+addGroupBox(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : GroupBox;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of GroupBox from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of GroupBox from its left column, in unit of pixel. |
 | height | number | Represents the height of GroupBox, in unit of pixel. |
 | width | number | Represents the width of GroupBox, in unit of pixel. |
@@ -333,15 +357,15 @@ A GroupBox object.
 Adds a Button to the worksheet.
 
 ```javascript
-addButton(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Button;
+addButton(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Button;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Button from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Button from its left column, in unit of pixel. |
 | height | number | Represents the height of Button, in unit of pixel. |
 | width | number | Represents the width of Button, in unit of pixel. |
@@ -355,15 +379,15 @@ A Button object.
 Adds a Label to the worksheet.
 
 ```javascript
-addLabel(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Label;
+addLabel(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Label;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Label from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Label from its left column, in unit of pixel. |
 | height | number | Represents the height of Label, in unit of pixel. |
 | width | number | Represents the width of Label, in unit of pixel. |
@@ -443,7 +467,7 @@ Returns a Shape object that represents the new WordArt object.
 Inserts a WordArt object.
 
 ```javascript
-addTextEffect(effect: MsoPresetTextEffect, text: string, fontName: string, size: number, fontBold: boolean, fontItalic: boolean, upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Shape;
+addTextEffect(effect: MsoPresetTextEffect, text: string, fontName: string, size: number, fontBold: boolean, fontItalic: boolean, topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Shape;
 ```
 
 **Parameters:**
@@ -455,9 +479,9 @@ addTextEffect(effect: MsoPresetTextEffect, text: string, fontName: string, size:
 | size | number | The font size |
 | fontBold | boolean | Indicates whether font is bold. |
 | fontItalic | boolean | Indicates whether font is italic. |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | number | Represents the height of shape, in unit of pixel. |
 | width | number | Represents the width of shape, in unit of pixel. |
@@ -471,7 +495,7 @@ Returns a Shape object that represents the new WordArt object.
 Adds preset WordArt since Excel 2007.s
 
 ```javascript
-addWordArt(style: PresetWordArtStyle, text: string, upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Shape;
+addWordArt(style: PresetWordArtStyle, text: string, topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Shape;
 ```
 
 **Parameters:**
@@ -479,9 +503,9 @@ addWordArt(style: PresetWordArtStyle, text: string, upperLeftRow: number, top: n
 | --- | --- | --- |
 | style | [PresetWordArtStyle](../presetwordartstyle/) | The preset WordArt Style. |
 | text | string | The text. |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | number | Represents the height of shape, in unit of pixel. |
 | width | number | Represents the width of shape, in unit of pixel. |
@@ -495,15 +519,15 @@ addWordArt(style: PresetWordArtStyle, text: string, upperLeftRow: number, top: n
 Adds a RectangleShape to the worksheet.
 
 ```javascript
-addRectangle(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : RectangleShape;
+addRectangle(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : RectangleShape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of RectangleShape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of RectangleShape from its left column, in unit of pixel. |
 | height | number | Represents the height of RectangleShape, in unit of pixel. |
 | width | number | Represents the width of RectangleShape, in unit of pixel. |
@@ -517,15 +541,15 @@ A RectangleShape object.
 Adds a Oval to the worksheet.
 
 ```javascript
-addOval(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Oval;
+addOval(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Oval;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Oval from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Oval from its left column, in unit of pixel. |
 | height | number | Represents the height of Oval, in unit of pixel. |
 | width | number | Represents the width of Oval, in unit of pixel. |
@@ -539,15 +563,15 @@ A Oval object.
 Adds a LineShape to the worksheet.
 
 ```javascript
-addLine(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : LineShape;
+addLine(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : LineShape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of LineShape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of LineShape from its left column, in unit of pixel. |
 | height | number | Represents the height of LineShape, in unit of pixel. |
 | width | number | Represents the width of LineShape, in unit of pixel. |
@@ -674,15 +698,15 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 Adds a ArcShape to the worksheet.
 
 ```javascript
-addArc(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : ArcShape;
+addArc(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : ArcShape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of ArcShape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of ArcShape from its left column, in unit of pixel. |
 | height | number | Represents the height of ArcShape, in unit of pixel. |
 | width | number | Represents the width of ArcShape, in unit of pixel. |
@@ -696,16 +720,16 @@ A ArcShape object.
 Adds a Shape to the worksheet.
 
 ```javascript
-addShape(type: MsoDrawingType, upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Shape;
+addShape(type: MsoDrawingType, topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Shape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [MsoDrawingType](../msodrawingtype/) | Mso drawing type. |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Shape from its left column, in unit of pixel. |
 | height | number | Represents the height of Shape, in unit of pixel. |
 | width | number | Represents the width of Shape, in unit of pixel. |
@@ -723,16 +747,16 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 Adds a AutoShape to the worksheet.
 
 ```javascript
-addAutoShape(type: AutoShapeType, upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number) : Shape;
+addAutoShape(type: AutoShapeType, topRow: number, top: number, leftColumn: number, left: number, height: number, width: number) : Shape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [AutoShapeType](../autoshapetype/) | Auto shape type. |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of Shape from its left column, in unit of pixel. |
 | height | number | Represents the height of Shape, in unit of pixel. |
 | width | number | Represents the width of Shape, in unit of pixel. |
@@ -798,16 +822,16 @@ addActiveXControl(type: ControlType, topRow: number, top: number, leftColumn: nu
 Adds a picture to the collection.
 
 ```javascript
-addPicture(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number, stream: Uint8Array) : Picture;
+addPicture(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number, stream: Uint8Array) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 | stream | Uint8Array | Stream object which contains the image data. |
 
 **Returns**
@@ -819,14 +843,14 @@ addPicture(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number,
 Adds a picture to the collection.
 
 ```javascript
-addPicture(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, widthScale: number, heightScale: number) : Picture;
+addPicture(topRow: number, leftColumn: number, stream: Uint8Array, widthScale: number, heightScale: number) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | stream | Uint8Array | Stream object which contains the image data. |
 | widthScale | number | Scale of image width, a percentage. |
 | heightScale | number | Scale of image height, a percentage. |
@@ -840,15 +864,15 @@ addPicture(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, wi
 Adds svg image.
 
 ```javascript
-addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, svgData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
+addSvg(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number, svgData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | The horizontal offset of shape from its left column, in unit of pixel. |
 | height | number | The height of shape, in unit of pixel. |
 | width | number | The width of shape, in unit of pixel. |
@@ -864,15 +888,15 @@ addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number,
 Adds svg image.
 
 ```javascript
-addIcons(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageByteData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
+addIcons(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number, imageByteData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | The horizontal offset of shape from its left column, in unit of pixel. |
 | height | number | The height of shape, in unit of pixel. |
 | width | number | The width of shape, in unit of pixel. |
@@ -888,14 +912,14 @@ addIcons(upperLeftRow: number, top: number, upperLeftColumn: number, left: numbe
 Add a linked picture.
 
 ```javascript
-addLinkedPicture(upperLeftRow: number, upperLeftColumn: number, height: number, width: number, sourceFullName: string) : Picture;
+addLinkedPicture(topRow: number, leftColumn: number, height: number, width: number, sourceFullName: string) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | height | number | The height of the shape. In unit of pixels |
 | width | number | The width of the shape. In unit of pixels |
 | sourceFullName | string | The path and name of the source file for the linked image |
@@ -909,14 +933,14 @@ addLinkedPicture(upperLeftRow: number, upperLeftColumn: number, height: number, 
 Add a linked picture.
 
 ```javascript
-addOleObjectWithLinkedImage(upperLeftRow: number, upperLeftColumn: number, height: number, width: number, sourceFullName: string) : OleObject;
+addOleObjectWithLinkedImage(topRow: number, leftColumn: number, height: number, width: number, sourceFullName: string) : OleObject;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | height | number | The height of the shape. In unit of pixels |
 | width | number | The width of the shape. In unit of pixels |
 | sourceFullName | string | The path and name of the source file for the linked image |
@@ -951,15 +975,15 @@ Returns a Picture object.
 Adds an OleObject.
 
 ```javascript
-addOleObject(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageData: Uint8Array) : OleObject;
+addOleObject(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number, imageData: Uint8Array) : OleObject;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number |  |
+| topRow | number |  |
 | top | number |  |
-| upperLeftColumn | number |  |
+| leftColumn | number |  |
 | left | number |  |
 | height | number |  |
 | width | number |  |
@@ -1115,15 +1139,15 @@ updateSelectedValue() : void;
 Adds a freeform shape to the worksheet.
 
 ```javascript
-addFreeform(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, paths: ShapePath[]) : Shape;
+addFreeform(topRow: number, top: number, leftColumn: number, left: number, height: number, width: number, paths: ShapePath[]) : Shape;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
+| topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of freeform shape from its left row, in unit of pixel. |
-| upperLeftColumn | number | Upper left column index. |
+| leftColumn | number | Upper left column index. |
 | left | number | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
 | height | number | Represents the height of freeform shape, in unit of pixel. |
 | width | number | Represents the width of freeform shape, in unit of pixel. |
@@ -1142,14 +1166,14 @@ Notice: That the width and height in the parameters can be any positive integer 
 Adds a Signature Line to the worksheet.
 
 ```javascript
-addSignatureLine(upperLeftRow: number, upperLeftColumn: number, signatureLine: SignatureLine) : Picture;
+addSignatureLine(topRow: number, leftColumn: number, signatureLine: SignatureLine) : Picture;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | signatureLine | [SignatureLine](../signatureline/) | Represents a signature line object. |
 
 **Returns**

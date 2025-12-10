@@ -35,8 +35,9 @@ class MultipleFilterCollection;
 | [get(number)](#get-number-)| Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
 | [getMatchBlank()](#getMatchBlank--)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
 | [setMatchBlank(boolean)](#setMatchBlank-boolean-)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
-| [add(string)](#add-string-)| Adds a label filter. |
+| [add(string)](#add-string-)| Adds a label filter criteria. |
 | [add(DateTimeGroupingType, number, number, number)](#add-datetimegroupingtype-number-number-number-)| Adds a date filter criteria value. |
+| [add(DateTimeGroupingType, number, number, number, number, number, number)](#add-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date time filter criteria value. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
@@ -110,7 +111,7 @@ setMatchBlank(value: boolean) : void;
 
 ### add(string) {#add-string-}
 
-Adds a label filter.
+Adds a label filter criteria.
 
 ```javascript
 add(filter: string) : void;
@@ -136,6 +137,25 @@ add(type: DateTimeGroupingType, year: number, month: number, day: number) : void
 | year | number | The year. |
 | month | number | The month. |
 | day | number | The day. |
+
+### add(DateTimeGroupingType, number, number, number, number, number, number) {#add-datetimegroupingtype-number-number-number-number-number-number-}
+
+Adds a date time filter criteria value.
+
+```javascript
+add(type: DateTimeGroupingType, year: number, month: number, day: number, hour: number, minute: number, second: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [DateTimeGroupingType](../datetimegroupingtype/) | The type of date filter. |
+| year | number | The year. |
+| month | number | The month. |
+| day | number | The day. |
+| hour | number | The hour. |
+| minute | number | The minute. |
+| second | number | The second. |
 
 ### getCount() {#getCount--}
 

@@ -1819,14 +1819,14 @@ copy(source: Picture, options: CopyOptions) : void;
 Moves the picture to a specified location.
 
 ```javascript
-move(upperLeftRow: number, upperLeftColumn: number) : void;
+move(topRow: number, leftColumn: number) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 
 ### placeInCell() {#placeInCell--}
 
@@ -3924,16 +3924,16 @@ removeHyperlink() : void;
 Moves the shape to a specified range.
 
 ```javascript
-moveToRange(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number) : void;
+moveToRange(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 
 ### alignTopRightCorner(number, number) {#alignTopRightCorner-number-number-}
 

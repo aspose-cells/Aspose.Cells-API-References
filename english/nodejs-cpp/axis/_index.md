@@ -75,7 +75,7 @@ workbook.save("output/ChartsAxis.xlsx");
 | [tickLabelPosition](#tickLabelPosition--)| TickLabelPositionType | Represents the position of tick-mark labels on the specified axis. |
 | [crossAt](#crossAt--)| number | Represents the point on the value axis where the category axis crosses it. |
 | [crossType](#crossType--)| CrossType | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
-| [logBase](#logBase--)| number | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [logBase](#logBase--)| number | Represents the logarithmic base. Default value is 10. |
 | [isLogarithmic](#isLogarithmic--)| boolean | Represents if the value axis scale type is logarithmic or not. |
 | [isPlotOrderReversed](#isPlotOrderReversed--)| boolean | Represents if Microsoft Excel plots data points from last to first. |
 | [axisBetweenCategories](#axisBetweenCategories--)| boolean | Represents if the value axis crosses the category axis between categories. |
@@ -88,8 +88,8 @@ workbook.save("output/ChartsAxis.xlsx");
 | [customDisplayUnit](#customDisplayUnit--)| number | Specifies a custom value for the display unit. |
 | [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [isDisplayUnitLabelShown](#isDisplayUnitLabelShown--)| boolean | Represents if the display unit label is shown on the specified axis. |
-| [title](#title--)| Title | Readonly. Gets the axis' title. |
-| [categoryType](#categoryType--)| CategoryType | Represents the category axis type. |
+| [title](#title--)| Title | Readonly. Gets the title of this axis in the chart. |
+| [categoryType](#categoryType--)| CategoryType | Represents the type of the category axis. |
 | [baseUnitScale](#baseUnitScale--)| TimeUnit | Represents the base unit scale for the category axis. |
 | [majorUnitScale](#majorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
 | [minorUnitScale](#minorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
@@ -131,8 +131,8 @@ workbook.save("output/ChartsAxis.xlsx");
 | [setCrossAt(number)](#setCrossAt-number-)| <b>@deprecated.</b> Please use the 'crossAt' property instead. Represents the point on the value axis where the category axis crosses it. |
 | [getCrossType()](#getCrossType--)| <b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
 | [setCrossType(CrossType)](#setCrossType-crosstype-)| <b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
-| [getLogBase()](#getLogBase--)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
-| [setLogBase(number)](#setLogBase-number-)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [getLogBase()](#getLogBase--)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10. |
+| [setLogBase(number)](#setLogBase-number-)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10. |
 | [isLogarithmic()](#isLogarithmic--)| <b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not. |
 | [setIsLogarithmic(boolean)](#setIsLogarithmic-boolean-)| <b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not. |
 | [isPlotOrderReversed()](#isPlotOrderReversed--)| <b>@deprecated.</b> Please use the 'isPlotOrderReversed' property instead. Represents if Microsoft Excel plots data points from last to first. |
@@ -155,9 +155,9 @@ workbook.save("output/ChartsAxis.xlsx");
 | [getDisplayUnitLabel()](#getDisplayUnitLabel--)| <b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [isDisplayUnitLabelShown()](#isDisplayUnitLabelShown--)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
 | [setIsDisplayUnitLabelShown(boolean)](#setIsDisplayUnitLabelShown-boolean-)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
-| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets the axis' title. |
-| [getCategoryType()](#getCategoryType--)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the category axis type. |
-| [setCategoryType(CategoryType)](#setCategoryType-categorytype-)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the category axis type. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets the title of this axis in the chart. |
+| [getCategoryType()](#getCategoryType--)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis. |
+| [setCategoryType(CategoryType)](#setCategoryType-categorytype-)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis. |
 | [getBaseUnitScale()](#getBaseUnitScale--)| <b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis. |
 | [setBaseUnitScale(TimeUnit)](#setBaseUnitScale-timeunit-)| <b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis. |
 | [getMajorUnitScale()](#getMajorUnitScale--)| <b>@deprecated.</b> Please use the 'majorUnitScale' property instead. Represents the major unit scale for the category axis. |
@@ -332,7 +332,7 @@ crossType : CrossType;
 
 ### logBase {#logBase--}
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 ```javascript
 logBase : number;
@@ -469,7 +469,7 @@ The default value is True.
 
 ### title {#title--}
 
-Readonly. Gets the axis' title.
+Readonly. Gets the title of this axis in the chart.
 
 ```javascript
 title : Title;
@@ -478,7 +478,7 @@ title : Title;
 
 ### categoryType {#categoryType--}
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 ```javascript
 categoryType : CategoryType;
@@ -1027,7 +1027,7 @@ setCrossType(value: CrossType) : void;
 
 ### getLogBase() {#getLogBase--}
 
-<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.
 
 ```javascript
 getLogBase() : number;
@@ -1036,7 +1036,7 @@ getLogBase() : number;
 
 ### setLogBase(number) {#setLogBase-number-}
 
-<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.
 
 ```javascript
 setLogBase(value: number) : void;
@@ -1339,7 +1339,7 @@ The default value is True.
 
 ### getTitle() {#getTitle--}
 
-<b>@deprecated.</b> Please use the 'title' property instead. Gets the axis' title.
+<b>@deprecated.</b> Please use the 'title' property instead. Gets the title of this axis in the chart.
 
 ```javascript
 getTitle() : Title;
@@ -1352,7 +1352,7 @@ getTitle() : Title;
 
 ### getCategoryType() {#getCategoryType--}
 
-<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the category axis type.
+<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis.
 
 ```javascript
 getCategoryType() : CategoryType;
@@ -1365,7 +1365,7 @@ getCategoryType() : CategoryType;
 
 ### setCategoryType(CategoryType) {#setCategoryType-categorytype-}
 
-<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the category axis type.
+<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis.
 
 ```javascript
 setCategoryType(value: CategoryType) : void;
