@@ -75,7 +75,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [tickLabelPosition](#tickLabelPosition--)| TickLabelPositionType | Represents the position of tick-mark labels on the specified axis. |
 | [crossAt](#crossAt--)| number | Represents the point on the value axis where the category axis crosses it. |
 | [crossType](#crossType--)| CrossType | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
-| [logBase](#logBase--)| number | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [logBase](#logBase--)| number | Represents the logarithmic base. Default value is 10. |
 | [isLogarithmic](#isLogarithmic--)| boolean | Represents if the value axis scale type is logarithmic or not. |
 | [isPlotOrderReversed](#isPlotOrderReversed--)| boolean | Represents if Microsoft Excel plots data points from last to first. |
 | [axisBetweenCategories](#axisBetweenCategories--)| boolean | Represents if the value axis crosses the category axis between categories. |
@@ -88,8 +88,8 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [customDisplayUnit](#customDisplayUnit--)| number | Specifies a custom value for the display unit. |
 | [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [isDisplayUnitLabelShown](#isDisplayUnitLabelShown--)| boolean | Represents if the display unit label is shown on the specified axis. |
-| [title](#title--)| Title | Readonly. Gets the axis' title. |
-| [categoryType](#categoryType--)| CategoryType | Represents the category axis type. |
+| [title](#title--)| Title | Readonly. Gets the title of this axis in the chart. |
+| [categoryType](#categoryType--)| CategoryType | Represents the type of the category axis. |
 | [baseUnitScale](#baseUnitScale--)| TimeUnit | Represents the base unit scale for the category axis. |
 | [majorUnitScale](#majorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
 | [minorUnitScale](#minorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
@@ -263,7 +263,7 @@ crossType : CrossType;
 
 ### logBase {#logBase--}
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 ```javascript
 logBase : number;
@@ -400,7 +400,7 @@ The default value is True.
 
 ### title {#title--}
 
-Readonly. Gets the axis' title.
+Readonly. Gets the title of this axis in the chart.
 
 ```javascript
 title : Title;
@@ -409,7 +409,7 @@ title : Title;
 
 ### categoryType {#categoryType--}
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 ```javascript
 categoryType : CategoryType;

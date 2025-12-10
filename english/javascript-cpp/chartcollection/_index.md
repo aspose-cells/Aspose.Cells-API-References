@@ -100,17 +100,17 @@ addFloatingChart(type: ChartType, left: number, top: number, width: number, heig
 Adds a chart to the collection.
 
 ```javascript
-add(type: ChartType, upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number) : number;
+add(type: ChartType, topRow: number, leftColumn: number, bottomRow: number, rightColumn: number) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [ChartType](../charttype/) | Chart type |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 
 **Returns**
 

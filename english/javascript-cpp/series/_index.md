@@ -84,6 +84,8 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
 | [isVerticalValues](#isVerticalValues--)| boolean | Readonly. Indicates whether the data source is vertical. |
 | [values](#values--)| string | Represents the Y values of this chart series. |
+| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the values for the points of the series |
+| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the category values of the series |
 | [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
 | [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
 | [xValues](#xValues--)| string | Represents the x values of the chart series. |
@@ -244,6 +246,24 @@ Represents the Y values of this chart series.
 
 ```javascript
 values : string;
+```
+
+
+### pointValues {#pointValues--}
+
+Readonly. Gets the values for the points of the series
+
+```javascript
+pointValues : ChartDataValue[];
+```
+
+
+### categoryValues {#categoryValues--}
+
+Readonly. Gets the category values of the series
+
+```javascript
+categoryValues : ChartDataValue[][];
 ```
 
 

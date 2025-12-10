@@ -101,7 +101,7 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [hideOverflowWrappedText](#hideOverflowWrappedText--)| boolean | Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false |
 | [isBorderCollapsed](#isBorderCollapsed--)| boolean | Indicates whether the table borders are collapsed. The default value is true. |
 | [encodeEntityAsCode](#encodeEntityAsCode--)| boolean | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
-| [officeMathOutputMode](#officeMathOutputMode--)| HtmlOfficeMathOutputType | Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [officeMathOutputMode](#officeMathOutputMode--)| HtmlOfficeMathOutputType | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [cellNameAttribute](#cellNameAttribute--)| string | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
 | [disableCss](#disableCss--)| boolean | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [enableCssCustomProperties](#enableCssCustomProperties--)| boolean | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
@@ -109,6 +109,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [layoutMode](#layoutMode--)| HtmlLayoutMode | Gets or sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.Normal](../htmllayoutmode.normal/) |
 | [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
+| [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true. |
+| [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary> |
 
 
 ### constructor() {#constructor--}
@@ -870,7 +872,7 @@ encodeEntityAsCode : boolean;
 
 ### officeMathOutputMode {#officeMathOutputMode--}
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 ```javascript
 officeMathOutputMode : HtmlOfficeMathOutputType;
@@ -937,6 +939,24 @@ Gets or sets the type of embedding font file into html file. Default value is [H
 
 ```javascript
 embeddedFontType : HtmlEmbeddedFontType;
+```
+
+
+### exportNamedRangeAnchors {#exportNamedRangeAnchors--}
+
+Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true.
+
+```javascript
+exportNamedRangeAnchors : boolean;
+```
+
+
+### dataBarRenderMode {#dataBarRenderMode--}
+
+Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary>
+
+```javascript
+dataBarRenderMode : DataBarRenderMode;
 ```
 
 
