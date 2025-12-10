@@ -4,7 +4,7 @@ linktitle: GetHasMultiLevelLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetHasMultiLevelLabels method. Indicates whether the labels shall be shown as multi level in C++.'
 type: docs
-weight: 6500
+weight: 7100
 url: /cpp/aspose.cells.charts/axis/gethasmultilevellabels/
 ---
 ## Axis::GetHasMultiLevelLabels method

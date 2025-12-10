@@ -4,7 +4,7 @@ linktitle: GetDisplayUnit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetDisplayUnit method. Represents the unit label for the specified axis in C++.'
 type: docs
-weight: 4500
+weight: 4900
 url: /cpp/aspose.cells.charts/axis/getdisplayunit/
 ---
 ## Axis::GetDisplayUnit method

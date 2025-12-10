@@ -150,7 +150,7 @@ class OleObject : public Aspose::Cells::Drawing::Shape
 | [IsSmartArt()](../shape/issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](../shape/istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](../shape/iswordart/) | Indicates whether this shape is a word art. |
-| [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
+| [MoveToRange(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
 | [OleObject(OleObject_Impl* impl)](./oleobject/) | Constructs from an implementation object. |
 | [OleObject(const OleObject\& src)](./oleobject/) | Copy constructor. |
 | [OleObject(const Shape\& src)](./oleobject/) | Constructs from a parent object. |

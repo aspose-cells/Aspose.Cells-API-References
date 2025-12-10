@@ -20,9 +20,10 @@ class MultipleFilterCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const U16String\& filter)](./add/) | Adds a label filter. |
-| [Add(const char16_t* filter)](./add/) | Adds a label filter. |
+| [Add(const U16String\& filter)](./add/) | Adds a label filter criteria. |
+| [Add(const char16_t* filter)](./add/) | Adds a label filter criteria. |
 | [Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day)](./add/) | Adds a date filter criteria value. |
+| [Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second)](./add/) | Adds a date time filter criteria value. |
 | [Get(int32_t index)](./get/) | Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
 | [GetCount()](./getcount/) |  |
 | [GetMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |

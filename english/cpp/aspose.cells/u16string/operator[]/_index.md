@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/u16string/operator[]/
 Array subscript operator.
 
 ```cpp
-char16_t Aspose::Cells::U16String::operator[](int32_t index)
+char16_t Aspose::Cells::U16String::operator[](int32_t index) const
 ```
 
 

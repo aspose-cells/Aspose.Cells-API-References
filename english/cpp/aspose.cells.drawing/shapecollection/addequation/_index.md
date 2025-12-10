@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::ShapeCollection::AddEquation method
 linktitle: AddEquation
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::ShapeCollection::AddEquation method. Add an equation object to the worksheet in C++.'
+description: 'Aspose::Cells::Drawing::ShapeCollection::AddEquation method. Adds an equation object to the worksheet in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.drawing/shapecollection/addequation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shapecollection/addequation/
 ## ShapeCollection::AddEquation method
 
 
-Add an equation object to the worksheet.
+Adds an equation object to the worksheet.
 
 ```cpp
 TextBox Aspose::Cells::Drawing::ShapeCollection::AddEquation(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)

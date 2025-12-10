@@ -4,7 +4,7 @@ linktitle: GetAxisBetweenCategories
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetAxisBetweenCategories method. Represents if the value axis crosses the category axis between categories in C++.'
 type: docs
-weight: 3600
+weight: 4000
 url: /cpp/aspose.cells.charts/axis/getaxisbetweencategories/
 ---
 ## Axis::GetAxisBetweenCategories method

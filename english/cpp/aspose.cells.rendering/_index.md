@@ -37,6 +37,7 @@ url: /cpp/aspose.cells.rendering/
 | --- | --- |
 | [ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. |
 | [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
+| [DataBarRenderMode](./databarrendermode/) | Represents the [DataBar](../aspose.cells/databar/) render mode. |
 | [DrawObjectEnum](./drawobjectenum/) | Indicate [Cell](../aspose.cells/cell/) or Image of [DrawObject](./drawobject/). |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |

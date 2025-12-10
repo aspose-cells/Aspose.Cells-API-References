@@ -4,7 +4,7 @@ linktitle: ChartType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartType enum. Enumerates all chart types used in Excel in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells.charts/charttype/
 ---
 ## ChartType enum
@@ -101,7 +101,6 @@ enum class ChartType
 | Waterfall | 78 | <br>The series is laid out as a waterfall. |
 | Histogram | 79 | <br>The series is laid out as a histogram. |
 | Map | 80 | <br>The series is laid out as a region map. |
-| RadialHistogram | 81 | <br>The series is laid out as a radial historgram. It is used only for rendering. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: AddOleObject
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddOleObject method. Adds an OleObject in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells.drawing/shapecollection/addoleobject/
 ---
 ## ShapeCollection::AddOleObject method
@@ -13,15 +13,15 @@ url: /cpp/aspose.cells.drawing/shapecollection/addoleobject/
 Adds an [OleObject](../../oleobject/).
 
 ```cpp
-OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObject(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width, const Vector<uint8_t> &imageData)
+OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObject(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width, const Vector<uint8_t> &imageData)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t |  |
+| topRow | int32_t |  |
 | top | int32_t |  |
-| upperLeftColumn | int32_t |  |
+| leftColumn | int32_t |  |
 | left | int32_t |  |
 | height | int32_t |  |
 | width | int32_t |  |

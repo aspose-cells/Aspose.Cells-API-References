@@ -4,7 +4,7 @@ linktitle: SetMinorTickMark
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetMinorTickMark method. Represents the type of minor tick mark for the specified axis in C++.'
 type: docs
-weight: 2300
+weight: 2700
 url: /cpp/aspose.cells.charts/axis/setminortickmark/
 ---
 ## Axis::SetMinorTickMark method

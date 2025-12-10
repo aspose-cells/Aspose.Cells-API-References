@@ -13,14 +13,14 @@ url: /cpp/aspose.cells.drawing/oleobjectcollection/add/
 Adds an [OleObject](../../oleobject/) to the collection.
 
 ```cpp
-int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData)
+int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | Height of oleObject, in unit of pixel. |
 | width | int32_t | Width of oleObject, in unit of pixel. |
 | imageData | const Vector \<uint8_t\>\& | Image of ole object as byte array. |
@@ -41,14 +41,14 @@ int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t upperLeftRow, i
 Adds a linked [OleObject](../../oleobject/) to the collection.
 
 ```cpp
-int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData, const U16String &linkedFile)
+int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData, const U16String &linkedFile)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | Height of oleObject, in unit of pixel. |
 | width | int32_t | Width of oleObject, in unit of pixel. |
 | imageData | const Vector \<uint8_t\>\& | Image of ole object as byte array. |
@@ -71,14 +71,14 @@ int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t upperLeftRow, i
 Adds a linked [OleObject](../../oleobject/) to the collection.
 
 ```cpp
-int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData, const char16_t *linkedFile)
+int32_t Aspose::Cells::Drawing::OleObjectCollection::Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector<uint8_t> &imageData, const char16_t *linkedFile)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | Height of oleObject, in unit of pixel. |
 | width | int32_t | Width of oleObject, in unit of pixel. |
 | imageData | const Vector \<uint8_t\>\& | Image of ole object as byte array. |

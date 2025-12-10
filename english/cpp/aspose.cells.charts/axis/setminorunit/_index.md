@@ -4,7 +4,7 @@ linktitle: SetMinorUnit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetMinorUnit method. Represents the minor units for the axis in C++.'
 type: docs
-weight: 1800
+weight: 2200
 url: /cpp/aspose.cells.charts/axis/setminorunit/
 ---
 ## Axis::SetMinorUnit method

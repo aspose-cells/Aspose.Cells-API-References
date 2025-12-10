@@ -60,6 +60,42 @@ class EquationNode : public Aspose::Cells::FontSetting
 | Field | Description |
 | --- | --- |
 | [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+// Instantiate a Workbook object that represents Excel file.
+Workbook workbook;
+
+// Adds an equation object to the worksheet.
+TextBox textBox = workbook.GetWorksheets().Get(0).GetShapes().AddEquation(1, 0, 1, 0, 100, 300);
+
+// Gets the starting node of the equation object
+EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+
+// Inserts a fractional equation.
+FractionEquationNode node = (FractionEquationNode)mathNode.AddChild(EquationNodeType::Fraction);
+node.SetFractionType(EquationFractionType::Skewed);
+
+U16String str1 = u"A";
+EquationComponentNode numerator = (EquationComponentNode)node.AddChild(EquationNodeType::Numerator);
+TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType::Text));
+TR.SetText(str1);
+
+U16String str2 = u"B";
+EquationComponentNode denominator = (EquationComponentNode)node.AddChild(EquationNodeType::Denominator);
+TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType::Text));
+TR.SetText(str2);
+
+
+//Save the excel file.
+workbook.Save(u"exmaple.xlsx");
+
+Aspose::Cells::Cleanup();
+```
+
 ## See Also
 
 * Class [FontSetting](../../aspose.cells/fontsetting/)

@@ -4,7 +4,7 @@ linktitle: GetBins
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetBins method. Represents bins on a chart(Histogram/Pareto) axis in C++.'
 type: docs
-weight: 6800
+weight: 7400
 url: /cpp/aspose.cells.charts/axis/getbins/
 ---
 ## Axis::GetBins method

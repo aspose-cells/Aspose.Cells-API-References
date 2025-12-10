@@ -135,7 +135,7 @@ class Shape
 | [IsSmartArt()](./issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](./istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](./iswordart/) | Indicates whether this shape is a word art. |
-| [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](./movetorange/) | Moves the shape to a specified range. |
+| [MoveToRange(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](./movetorange/) | Moves the shape to a specified range. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Shape\& src)](./operator_asm/) | operator= |
 | [RemoveActiveXControl()](./removeactivexcontrol/) | Remove activeX control. |

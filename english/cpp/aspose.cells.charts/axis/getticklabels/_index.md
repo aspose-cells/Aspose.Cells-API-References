@@ -4,7 +4,7 @@ linktitle: GetTickLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetTickLabels method. Returns a TickLabels object that represents the tick-mark labels for the specified axis in C++.'
 type: docs
-weight: 3800
+weight: 4200
 url: /cpp/aspose.cells.charts/axis/getticklabels/
 ---
 ## Axis::GetTickLabels method

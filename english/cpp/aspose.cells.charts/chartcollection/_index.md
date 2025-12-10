@@ -20,7 +20,7 @@ class ChartCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(ChartType type, int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](./add/) | Adds a chart to the collection. |
+| [Add(ChartType type, int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](./add/) | Adds a chart to the collection. |
 | [Add(const Vector \<uint8_t\>\& data, const U16String\& dataRange, bool isVertical, int32_t topRow, int32_t leftColumn, int32_t rightRow, int32_t bottomColumn)](./add/) | Adds a chart with preset template. |
 | [Add(const Vector \<uint8_t\>\& data, const char16_t* dataRange, bool isVertical, int32_t topRow, int32_t leftColumn, int32_t rightRow, int32_t bottomColumn)](./add/) | Adds a chart with preset template. |
 | [Add(ChartType type, const U16String\& dataRange, bool isVertical, int32_t topRow, int32_t leftColumn, int32_t rightRow, int32_t bottomColumn)](./add/) | Adds a chart to the collection. |

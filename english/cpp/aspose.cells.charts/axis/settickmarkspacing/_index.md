@@ -4,7 +4,7 @@ linktitle: SetTickMarkSpacing
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetTickMarkSpacing method. Returns or sets the number of categories or series between tick marks. Applies only to category and series axes in C++.'
 type: docs
-weight: 4400
+weight: 4800
 url: /cpp/aspose.cells.charts/axis/settickmarkspacing/
 ---
 ## Axis::SetTickMarkSpacing method

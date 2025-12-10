@@ -2,7 +2,7 @@
 title: Aspose::Cells::HtmlSaveOptions::GetOfficeMathOutputMode method
 linktitle: GetOfficeMathOutputMode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::HtmlSaveOptions::GetOfficeMathOutputMode method. Indicates how export OfficeMath objects to HTML, Default value is Image in C++.'
+description: 'Aspose::Cells::HtmlSaveOptions::GetOfficeMathOutputMode method. Indicates how OfficeMath objects are exported to HTML, Default value is Image in C++.'
 type: docs
 weight: 12700
 url: /cpp/aspose.cells/htmlsaveoptions/getofficemathoutputmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/htmlsaveoptions/getofficemathoutputmode/
 ## HtmlSaveOptions::GetOfficeMathOutputMode method
 
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 ```cpp
 HtmlOfficeMathOutputType Aspose::Cells::HtmlSaveOptions::GetOfficeMathOutputMode()

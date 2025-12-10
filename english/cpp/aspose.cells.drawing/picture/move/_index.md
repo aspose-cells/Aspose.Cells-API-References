@@ -13,14 +13,14 @@ url: /cpp/aspose.cells.drawing/picture/move/
 Moves the picture to a specified location.
 
 ```cpp
-void Aspose::Cells::Drawing::Picture::Move(int32_t upperLeftRow, int32_t upperLeftColumn)
+void Aspose::Cells::Drawing::Picture::Move(int32_t topRow, int32_t leftColumn)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 
 
 ## Examples

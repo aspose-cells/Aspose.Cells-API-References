@@ -4,7 +4,7 @@ linktitle: ChartGlobalizationSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartGlobalizationSettings class. Represents the globalization settings for chart in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.charts/chartglobalizationsettings/
 ---
 ## ChartGlobalizationSettings class

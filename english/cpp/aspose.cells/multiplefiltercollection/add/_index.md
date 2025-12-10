@@ -2,7 +2,7 @@
 title: Aspose::Cells::MultipleFilterCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MultipleFilterCollection::Add method. Adds a label filter in C++.'
+description: 'Aspose::Cells::MultipleFilterCollection::Add method. Adds a label filter criteria in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells/multiplefiltercollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/multiplefiltercollection/add/
 ## MultipleFilterCollection::Add(const U16String\&) method
 
 
-Adds a label filter.
+Adds a label filter criteria.
 
 ```cpp
 void Aspose::Cells::MultipleFilterCollection::Add(const U16String &filter)
@@ -31,7 +31,7 @@ void Aspose::Cells::MultipleFilterCollection::Add(const U16String &filter)
 ## MultipleFilterCollection::Add(const char16_t*) method
 
 
-Adds a label filter.
+Adds a label filter criteria.
 
 ```cpp
 void Aspose::Cells::MultipleFilterCollection::Add(const char16_t *filter)
@@ -64,6 +64,33 @@ void Aspose::Cells::MultipleFilterCollection::Add(DateTimeGroupingType type, int
 | year | int32_t | The year. |
 | month | int32_t | The month. |
 | day | int32_t | The day. |
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Enum [DateTimeGroupingType](../../datetimegroupingtype/)
+* Class [MultipleFilterCollection](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## MultipleFilterCollection::Add(DateTimeGroupingType, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t) method
+
+
+Adds a date time filter criteria value.
+
+```cpp
+void Aspose::Cells::MultipleFilterCollection::Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | DateTimeGroupingType | The type of date filter. |
+| year | int32_t | The year. |
+| month | int32_t | The month. |
+| day | int32_t | The day. |
+| hour | int32_t | The hour. |
+| minute | int32_t | The minute. |
+| second | int32_t | The second. |
 
 ## See Also
 

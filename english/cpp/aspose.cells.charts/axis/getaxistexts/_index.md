@@ -4,7 +4,7 @@ linktitle: GetAxisTexts
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetAxisTexts method. Gets the labels of the axis after call Chart.Calculate() method in C++.'
 type: docs
-weight: 6700
+weight: 7300
 url: /cpp/aspose.cells.charts/axis/getaxistexts/
 ---
 ## Axis::GetAxisTexts method

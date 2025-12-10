@@ -4,7 +4,7 @@ linktitle: SetMinorUnitScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetMinorUnitScale method. Represents the major unit scale for the category axis in C++.'
 type: docs
-weight: 6000
+weight: 6600
 url: /cpp/aspose.cells.charts/axis/setminorunitscale/
 ---
 ## Axis::SetMinorUnitScale method

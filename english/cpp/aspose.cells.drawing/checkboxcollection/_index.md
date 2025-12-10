@@ -20,7 +20,7 @@ class CheckBoxCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width)](./add/) | Adds a checkBox to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width)](./add/) | Adds a checkBox to the collection. |
 | [CheckBoxCollection(CheckBoxCollection_Impl* impl)](./checkboxcollection/) | Constructs from an implementation object. |
 | [CheckBoxCollection(const CheckBoxCollection\& src)](./checkboxcollection/) | Copy constructor. |
 | [Get(int32_t index)](./get/) | Gets the [CheckBox](../checkbox/) element at the specified index. |

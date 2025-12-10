@@ -4,7 +4,7 @@ linktitle: GetMinorUnitScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetMinorUnitScale method. Represents the major unit scale for the category axis in C++.'
 type: docs
-weight: 5900
+weight: 6500
 url: /cpp/aspose.cells.charts/axis/getminorunitscale/
 ---
 ## Axis::GetMinorUnitScale method

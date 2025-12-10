@@ -4,7 +4,7 @@ linktitle: SetCrossType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetCrossType method. Represents the CrossType on the specified axis where the other axis crosses in C++.'
 type: docs
-weight: 2900
+weight: 3300
 url: /cpp/aspose.cells.charts/axis/setcrosstype/
 ---
 ## Axis::SetCrossType method

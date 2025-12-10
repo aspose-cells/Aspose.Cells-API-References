@@ -4,7 +4,7 @@ linktitle: IsPlotOrderReversed
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::IsPlotOrderReversed method. Represents if Microsoft Excel plots data points from last to first in C++.'
 type: docs
-weight: 3400
+weight: 3800
 url: /cpp/aspose.cells.charts/axis/isplotorderreversed/
 ---
 ## Axis::IsPlotOrderReversed method

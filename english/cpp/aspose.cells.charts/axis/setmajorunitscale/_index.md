@@ -4,7 +4,7 @@ linktitle: SetMajorUnitScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetMajorUnitScale method. Represents the major unit scale for the category axis in C++.'
 type: docs
-weight: 5800
+weight: 6400
 url: /cpp/aspose.cells.charts/axis/setmajorunitscale/
 ---
 ## Axis::SetMajorUnitScale method

@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::Axis::GetTitle method
 linktitle: GetTitle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Axis::GetTitle method. Gets the axis'' title in C++.'
+description: 'Aspose::Cells::Charts::Axis::GetTitle method. Gets the title of this axis in the chart in C++.'
 type: docs
-weight: 5200
+weight: 5800
 url: /cpp/aspose.cells.charts/axis/gettitle/
 ---
 ## Axis::GetTitle method
 
 
-Gets the axis' title.
+Gets the title of this axis in the chart.
 
 ```cpp
 Title Aspose::Cells::Charts::Axis::GetTitle()
