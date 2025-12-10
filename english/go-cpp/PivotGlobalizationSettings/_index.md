@@ -51,3 +51,4 @@ type PivotGlobalizationSettings struct  {
 |[GetTextOfRange](./gettextofrange/) | Gets the local text of "Range" | 
 |[GetTextOfAllPeriods](./gettextofallperiods/) | Gets the local text of "All Periods" | 
 |[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of PivotFieldSubtotalType type in the PivotTable. | 
+|[GetNameOfDataField](./getnameofdatafield/) | Gets the display name of data pivot field.The default format is "Sum Of Field". | 

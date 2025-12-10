@@ -14,7 +14,7 @@ Adds a linked OleObject to the collection.
 
 ```go
 
-func (instance *OleObjectCollection) Add_Int_Int_Int_Int_Stream_String(upperleftrow int32, upperleftcolumn int32, height int32, width int32, imagedata []byte, linkedfile string)  (int32,  error) 
+func (instance *OleObjectCollection) Add_Int_Int_Int_Int_Stream_String(toprow int32, leftcolumn int32, height int32, width int32, imagedata []byte, linkedfile string)  (int32,  error) 
 
 ```
 

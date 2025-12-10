@@ -10,7 +10,7 @@ url: /go-cpp/axis/gettitle/
 
 ## GetTitle function
 
-Gets the axis' title.
+Gets the title of this axis in the chart.
 
 ```go
 

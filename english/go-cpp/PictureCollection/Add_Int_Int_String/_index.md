@@ -14,7 +14,7 @@ Adds a picture to the collection.
 
 ```go
 
-func (instance *PictureCollection) Add_Int_Int_String(upperleftrow int32, upperleftcolumn int32, filename string)  (int32,  error) 
+func (instance *PictureCollection) Add_Int_Int_String(toprow int32, leftcolumn int32, filename string)  (int32,  error) 
 
 ```
 

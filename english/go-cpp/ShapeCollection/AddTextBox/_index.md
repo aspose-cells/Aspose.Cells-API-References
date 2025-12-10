@@ -14,7 +14,7 @@ Adds a text box to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddTextBox(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*TextBox,  error) 
+func (instance *ShapeCollection) AddTextBox(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*TextBox,  error) 
 
 ```
 

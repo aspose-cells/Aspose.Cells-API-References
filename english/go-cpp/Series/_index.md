@@ -43,6 +43,8 @@ type Series struct  {
 |[IsVerticalValues](./isverticalvalues/) | Indicates whether the data source is vertical. | 
 |[GetValues](./getvalues/) | Represents the Y values of this chart series. | 
 |[SetValues](./setvalues/) | Represents the Y values of this chart series. | 
+|[GetPointValues](./getpointvalues/) | Gets the values for the points of the series | 
+|[GetCategoryValues](./getcategoryvalues/) | Gets the category values of the series | 
 |[GetValuesFormatCode](./getvaluesformatcode/) | Represents format code of Values's NumberList. | 
 |[SetValuesFormatCode](./setvaluesformatcode/) | Represents format code of Values's NumberList. | 
 |[GetXValuesFormatCode](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. | 

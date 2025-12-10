@@ -14,7 +14,7 @@ Adds a freeform shape to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddFreeform(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32, paths []ShapePath)  (*Shape,  error) 
+func (instance *ShapeCollection) AddFreeform(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32, paths []ShapePath)  (*Shape,  error) 
 
 ```
 

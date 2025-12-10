@@ -10,7 +10,7 @@ url: /go-cpp/multiplefiltercollection/add_string/
 
 ## Add_String function
 
-Adds a label filter.
+Adds a label filter criteria.
 
 ```go
 

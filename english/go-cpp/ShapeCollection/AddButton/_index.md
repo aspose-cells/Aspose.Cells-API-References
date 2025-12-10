@@ -14,7 +14,7 @@ Adds a Button to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddButton(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Button,  error) 
+func (instance *ShapeCollection) AddButton(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Button,  error) 
 
 ```
 

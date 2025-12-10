@@ -14,7 +14,7 @@ Adds a Oval to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddOval(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Oval,  error) 
+func (instance *ShapeCollection) AddOval(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Oval,  error) 
 
 ```
 

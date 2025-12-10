@@ -14,7 +14,7 @@ Adds an OleObject.
 
 ```go
 
-func (instance *ShapeCollection) AddOleObject(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32, imagedata []byte)  (*OleObject,  error) 
+func (instance *ShapeCollection) AddOleObject(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32, imagedata []byte)  (*OleObject,  error) 
 
 ```
 

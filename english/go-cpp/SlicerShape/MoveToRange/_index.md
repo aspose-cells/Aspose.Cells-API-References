@@ -14,7 +14,7 @@ Moves the shape to a specified range.
 
 ```go
 
-func (instance *SlicerShape) MoveToRange(upperleftrow int32, upperleftcolumn int32, lowerrightrow int32, lowerrightcolumn int32)  error
+func (instance *SlicerShape) MoveToRange(toprow int32, leftcolumn int32, bottomrow int32, rightcolumn int32)  error
 
 ```
 

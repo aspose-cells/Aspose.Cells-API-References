@@ -10,7 +10,7 @@ url: /go-cpp/axis/getcategorytype/
 
 ## GetCategoryType function
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 ```go
 

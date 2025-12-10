@@ -34,7 +34,8 @@ type ShapeCollection struct  {
 |[AddCopy](./addcopy/) | Adds and copy a shape to the worksheet. | 
 |[AddCheckBox](./addcheckbox/) | Adds a checkbox to the worksheet. | 
 |[AddTextBox](./addtextbox/) | Adds a text box to the worksheet. | 
-|[AddEquation](./addequation/) | Add an equation object to the worksheet. | 
+|[AddEquation](./addequation/) | Adds an equation object to the worksheet. | 
+|[AddLaTeXEquation](./addlatexequation/) | Adds an equation object to the worksheet using LaTeX format strings. | 
 |[AddSpinner](./addspinner/) | Adds a Spinner to the worksheet. | 
 |[AddScrollBar](./addscrollbar/) | Adds a ScrollBar to the worksheet. | 
 |[AddRadioButton](./addradiobutton/) | Adds a RadioButton to the worksheet. | 

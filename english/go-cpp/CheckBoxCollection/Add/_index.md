@@ -14,7 +14,7 @@ Adds a checkBox to the collection.
 
 ```go
 
-func (instance *CheckBoxCollection) Add(upperleftrow int32, upperleftcolumn int32, height int32, width int32)  (int32,  error) 
+func (instance *CheckBoxCollection) Add(toprow int32, leftcolumn int32, height int32, width int32)  (int32,  error) 
 
 ```
 

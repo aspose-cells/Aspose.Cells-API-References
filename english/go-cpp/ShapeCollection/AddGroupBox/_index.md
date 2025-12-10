@@ -14,7 +14,7 @@ Adds a GroupBox to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddGroupBox(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*GroupBox,  error) 
+func (instance *ShapeCollection) AddGroupBox(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*GroupBox,  error) 
 
 ```
 

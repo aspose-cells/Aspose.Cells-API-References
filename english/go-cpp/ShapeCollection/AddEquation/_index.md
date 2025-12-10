@@ -10,7 +10,7 @@ url: /go-cpp/shapecollection/addequation/
 
 ## AddEquation function
 
-Add an equation object to the worksheet.
+Adds an equation object to the worksheet.
 
 ```go
 

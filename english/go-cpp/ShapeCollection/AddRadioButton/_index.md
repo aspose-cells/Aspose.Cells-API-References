@@ -14,7 +14,7 @@ Adds a RadioButton to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddRadioButton(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*RadioButton,  error) 
+func (instance *ShapeCollection) AddRadioButton(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*RadioButton,  error) 
 
 ```
 

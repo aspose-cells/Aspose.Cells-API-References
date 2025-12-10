@@ -57,8 +57,8 @@ type Axis struct  {
 |[SetCrossAt](./setcrossat/) | Represents the point on the value axis where the category axis crosses it. | 
 |[GetCrossType](./getcrosstype/) | Represents the CrossType on the specified axis where the other axis crosses. | 
 |[SetCrossType](./setcrosstype/) | Represents the CrossType on the specified axis where the other axis crosses. | 
-|[GetLogBase](./getlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. | 
-|[SetLogBase](./setlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. | 
+|[GetLogBase](./getlogbase/) | Represents the logarithmic base. Default value is 10. | 
+|[SetLogBase](./setlogbase/) | Represents the logarithmic base. Default value is 10. | 
 |[IsLogarithmic](./islogarithmic/) | Represents if the value axis scale type is logarithmic or not. | 
 |[SetIsLogarithmic](./setislogarithmic/) | Represents if the value axis scale type is logarithmic or not. | 
 |[IsPlotOrderReversed](./isplotorderreversed/) | Represents if Microsoft Excel plots data points from last to first. | 
@@ -79,9 +79,9 @@ type Axis struct  {
 |[GetDisplayUnitLabel](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values— for example, in the millions or billions. | 
 |[IsDisplayUnitLabelShown](./isdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 
 |[SetIsDisplayUnitLabelShown](./setisdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 
-|[GetTitle](./gettitle/) | Gets the axis' title. | 
-|[GetCategoryType](./getcategorytype/) | Represents the category axis type. | 
-|[SetCategoryType](./setcategorytype/) | Represents the category axis type. | 
+|[GetTitle](./gettitle/) | Gets the title of this axis in the chart. | 
+|[GetCategoryType](./getcategorytype/) | Represents the type of the category axis. | 
+|[SetCategoryType](./setcategorytype/) | Represents the type of the category axis. | 
 |[GetBaseUnitScale](./getbaseunitscale/) | Represents the base unit scale for the category axis. | 
 |[SetBaseUnitScale](./setbaseunitscale/) | Represents the base unit scale for the category axis. | 
 |[GetMajorUnitScale](./getmajorunitscale/) | Represents the major unit scale for the category axis. | 

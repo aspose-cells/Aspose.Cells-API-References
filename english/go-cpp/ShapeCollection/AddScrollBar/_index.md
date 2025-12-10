@@ -14,7 +14,7 @@ Adds a ScrollBar to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddScrollBar(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*ScrollBar,  error) 
+func (instance *ShapeCollection) AddScrollBar(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*ScrollBar,  error) 
 
 ```
 

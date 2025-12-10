@@ -14,7 +14,7 @@ Adds a checkbox to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddCheckBox(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*CheckBox,  error) 
+func (instance *ShapeCollection) AddCheckBox(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*CheckBox,  error) 
 
 ```
 

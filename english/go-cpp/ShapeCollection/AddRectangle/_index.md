@@ -14,7 +14,7 @@ Adds a RectangleShape to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddRectangle(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*RectangleShape,  error) 
+func (instance *ShapeCollection) AddRectangle(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*RectangleShape,  error) 
 
 ```
 
