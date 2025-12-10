@@ -17,8 +17,8 @@ Represents embedded OLE objects.
 
 | Method | Description |
 | --- | --- |
-| [add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)](#add-int-int-int-int-byte---) | Adds an OleObject to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, String linkedFile)](#add-int-int-int-int-byte---java.lang.String-) | Adds a linked OleObject to the collection. |
+| [add(int topRow, int leftColumn, int height, int width, byte[] imageData)](#add-int-int-int-int-byte---) | Adds an OleObject to the collection. |
+| [add(int topRow, int leftColumn, int height, int width, byte[] imageData, String linkedFile)](#add-int-int-int-int-byte---java.lang.String-) | Adds a linked OleObject to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Remove all embedded OLE objects. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -36,9 +36,9 @@ Represents embedded OLE objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData) {#add-int-int-int-int-byte---}
+### add(int topRow, int leftColumn, int height, int width, byte[] imageData) {#add-int-int-int-int-byte---}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)
+public int add(int topRow, int leftColumn, int height, int width, byte[] imageData)
 ```
 
 
@@ -47,17 +47,17 @@ Adds an OleObject to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | height | int | Height of oleObject, in unit of pixel. |
 | width | int | Width of oleObject, in unit of pixel. |
 | imageData | byte[] | Image of ole object as byte array. |
 
 **Returns:**
 int - [OleObject](../../com.aspose.cells/oleobject) object index.
-### add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, String linkedFile) {#add-int-int-int-int-byte---java.lang.String-}
+### add(int topRow, int leftColumn, int height, int width, byte[] imageData, String linkedFile) {#add-int-int-int-int-byte---java.lang.String-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, String linkedFile)
+public int add(int topRow, int leftColumn, int height, int width, byte[] imageData, String linkedFile)
 ```
 
 
@@ -66,8 +66,8 @@ Adds a linked OleObject to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | height | int | Height of oleObject, in unit of pixel. |
 | width | int | Width of oleObject, in unit of pixel. |
 | imageData | byte[] | Image of ole object as byte array. |

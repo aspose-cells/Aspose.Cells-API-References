@@ -39,3 +39,4 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | --- | --- |
 | [CoWorkUserProvider](../com.aspose.gridjs/coworkuserprovider) | Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. |
 | [IGridJsService](../com.aspose.gridjs/igridjsservice) | Reprensents the basic operation apis interface used in controller actions. |
+| [ITextTranslator](../com.aspose.gridjs/itexttranslator) | Represents the interface for translate |

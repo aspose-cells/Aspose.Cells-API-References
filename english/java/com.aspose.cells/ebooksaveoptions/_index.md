@@ -37,6 +37,7 @@ Represents the options for saving ebook file.
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCssStyles()](#getCssStyles--) | Gets the additional css styles for the formatter. |
+| [getDataBarRenderMode()](#getDataBarRenderMode--) | Indicates whether to display the DataBar as an image when saving to HTML.. |
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -60,6 +61,7 @@ Represents the options for saving ebook file.
 | [getExportHeadings()](#getExportHeadings--) | Indicates whether exports sheet's row and column headings when saving to HTML files. |
 | [getExportHiddenWorksheet()](#getExportHiddenWorksheet--) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [getExportNamedRangeAnchors()](#getExportNamedRangeAnchors--) | / Indicates whether to export anchor elements generated for named ranges when saving to HTML. |
 | [getExportObjectListener()](#getExportObjectListener--) | Gets the ExportObjectListener for exporting objects. |
 | [getExportPageFooters()](#getExportPageFooters--) | Indicates whether exporting page headers. |
 | [getExportPageHeaders()](#getExportPageHeaders--) | Indicates whether exporting page headers. |
@@ -85,7 +87,7 @@ Represents the options for saving ebook file.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [getMergeEmptyTdType()](#getMergeEmptyTdType--) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
-| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
 | [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
@@ -126,6 +128,7 @@ Represents the options for saving ebook file.
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
+| [setDataBarRenderMode(int value)](#setDataBarRenderMode-int-) | Indicates whether to display the DataBar as an image when saving to HTML.. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -151,6 +154,7 @@ Represents the options for saving ebook file.
 | [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | Indicates whether exports sheet's row and column headings when saving to HTML files. |
 | [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [setExportNamedRangeAnchors(boolean value)](#setExportNamedRangeAnchors-boolean-) | / Indicates whether to export anchor elements generated for named ranges when saving to HTML. |
 | [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) | Sets the ExportObjectListener for exporting objects. |
 | [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) | Indicates whether exporting page headers. |
 | [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) | Indicates whether exporting page headers. |
@@ -179,7 +183,7 @@ Represents the options for saving ebook file.
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [setMergeEmptyTdType(int value)](#setMergeEmptyTdType-int-) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
 | [setMobileCompatible(boolean value)](#setMobileCompatible-boolean-) | Indicates whether the output HTML is compatible with mobile devices. |
-| [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int-) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int-) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
@@ -378,6 +382,18 @@ Gets the additional css styles for the formatter. Only works when [getSaveAsSing
 
 **Returns:**
 java.lang.String
+### getDataBarRenderMode() {#getDataBarRenderMode--}
+```
+public int getDataBarRenderMode()
+```
+
+
+Indicates whether to display the DataBar as an image when saving to HTML.. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR)
+
+See [DataBarRenderMode](../../com.aspose.cells/databarrendermode).
+
+**Returns:**
+int
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
 public String getDefaultFontName()
@@ -623,6 +639,16 @@ Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB.
 **Remarks**
 
 When this property is set to true image data is exported directly on the img elements and separate files are not created.
+
+**Returns:**
+boolean
+### getExportNamedRangeAnchors() {#getExportNamedRangeAnchors--}
+```
+public boolean getExportNamedRangeAnchors()
+```
+
+
+/ Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true.
 
 **Returns:**
 boolean
@@ -920,7 +946,7 @@ public int getOfficeMathOutputMode()
 ```
 
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
 
@@ -1391,6 +1417,21 @@ Sets the additional css styles for the formatter. Only works when [getSaveAsSing
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setDataBarRenderMode(int value) {#setDataBarRenderMode-int-}
+```
+public void setDataBarRenderMode(int value)
+```
+
+
+Indicates whether to display the DataBar as an image when saving to HTML.. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR)
+
+See [DataBarRenderMode](../../com.aspose.cells/databarrendermode).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
 ```
 public void setDefaultFontName(String value)
@@ -1728,6 +1769,19 @@ Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB.
 **Remarks**
 
 When this property is set to true image data is exported directly on the img elements and separate files are not created.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setExportNamedRangeAnchors(boolean value) {#setExportNamedRangeAnchors-boolean-}
+```
+public void setExportNamedRangeAnchors(boolean value)
+```
+
+
+/ Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2142,7 +2196,7 @@ public void setOfficeMathOutputMode(int value)
 ```
 
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
 

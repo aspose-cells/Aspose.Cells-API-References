@@ -34,45 +34,46 @@ Represents all the shape in a worksheet/chart.
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [addActiveXControl(int type, int topRow, int top, int leftColumn, int left, int width, int height)](#addActiveXControl-int-int-int-int-int-int-int-) | Creates an Activex Control. |
-| [addArc(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addArc-int-int-int-int-int-int-) | Adds a ArcShape to the worksheet. |
-| [addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addAutoShape-int-int-int-int-int-int-int-) | Adds a AutoShape to the worksheet. |
+| [addArc(int topRow, int top, int leftColumn, int left, int height, int width)](#addArc-int-int-int-int-int-int-) | Adds a ArcShape to the worksheet. |
+| [addAutoShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)](#addAutoShape-int-int-int-int-int-int-int-) | Adds a AutoShape to the worksheet. |
 | [addAutoShapeInChart(int type, int top, int left, int height, int width)](#addAutoShapeInChart-int-int-int-int-int-) | Adds a AutoShape to the chart. |
-| [addButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addButton-int-int-int-int-int-int-) | Adds a Button to the worksheet. |
-| [addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addCheckBox-int-int-int-int-int-int-) | Adds a checkbox to the worksheet. |
-| [addComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addComboBox-int-int-int-int-int-int-) | Adds a ComboBox to the worksheet. |
+| [addButton(int topRow, int top, int leftColumn, int left, int height, int width)](#addButton-int-int-int-int-int-int-) | Adds a Button to the worksheet. |
+| [addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addCheckBox-int-int-int-int-int-int-) | Adds a checkbox to the worksheet. |
+| [addComboBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addComboBox-int-int-int-int-int-int-) | Adds a ComboBox to the worksheet. |
 | [addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
-| [addEquation(int topRow, int top, int leftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Add an equation object to the worksheet. |
+| [addEquation(int topRow, int top, int leftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Adds an equation object to the worksheet. |
 | [addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)](#addFreeFloatingShape-int-int-int-int-int-byte---boolean-) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
-| [addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths)](#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---) | Adds a freeform shape to the worksheet. |
-| [addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addGroupBox-int-int-int-int-int-int-) | Adds a GroupBox to the worksheet. |
-| [addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)](#addIcons-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
-| [addLabel(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addLabel-int-int-int-int-int-int-) | Adds a Label to the worksheet. |
+| [addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths)](#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---) | Adds a freeform shape to the worksheet. |
+| [addGroupBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addGroupBox-int-int-int-int-int-int-) | Adds a GroupBox to the worksheet. |
+| [addIcons(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)](#addIcons-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
+| [addLaTeXEquation(int topRow, int top, int leftColumn, int left, int height, int width, String latex)](#addLaTeXEquation-int-int-int-int-int-int-java.lang.String-) | Adds an equation object to the worksheet using LaTeX format strings. |
+| [addLabel(int topRow, int top, int leftColumn, int left, int height, int width)](#addLabel-int-int-int-int-int-int-) | Adds a Label to the worksheet. |
 | [addLabelInChart(int top, int left, int height, int width)](#addLabelInChart-int-int-int-int-) | Adds a label to the chart. |
-| [addLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addLine-int-int-int-int-int-int-) | Adds a LineShape to the worksheet. |
-| [addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)](#addLinkedPicture-int-int-int-int-java.lang.String-) | Add a linked picture. |
-| [addListBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addListBox-int-int-int-int-int-int-) | Adds a ListBox to the worksheet. |
-| [addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData)](#addOleObject-int-int-int-int-int-int-byte---) | Adds an OleObject. |
-| [addOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)](#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-) | Add a linked picture. |
-| [addOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addOval-int-int-int-int-int-int-) | Adds a Oval to the worksheet. |
-| [addPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)](#addPicture-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
-| [addPicture(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale)](#addPicture-int-int-java.io.InputStream-int-int-) | Adds a picture to the collection. |
+| [addLine(int topRow, int top, int leftColumn, int left, int height, int width)](#addLine-int-int-int-int-int-int-) | Adds a LineShape to the worksheet. |
+| [addLinkedPicture(int topRow, int leftColumn, int height, int width, String sourceFullName)](#addLinkedPicture-int-int-int-int-java.lang.String-) | Add a linked picture. |
+| [addListBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addListBox-int-int-int-int-int-int-) | Adds a ListBox to the worksheet. |
+| [addOleObject(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageData)](#addOleObject-int-int-int-int-int-int-byte---) | Adds an OleObject. |
+| [addOleObjectWithLinkedImage(int topRow, int leftColumn, int height, int width, String sourceFullName)](#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-) | Add a linked picture. |
+| [addOval(int topRow, int top, int leftColumn, int left, int height, int width)](#addOval-int-int-int-int-int-int-) | Adds a Oval to the worksheet. |
+| [addPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream)](#addPicture-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
+| [addPicture(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale)](#addPicture-int-int-java.io.InputStream-int-int-) | Adds a picture to the collection. |
 | [addPictureInChart(int top, int left, InputStream stream, int widthScale, int heightScale)](#addPictureInChart-int-int-java.io.InputStream-int-int-) | Adds a picture to the chart. |
-| [addRadioButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addRadioButton-int-int-int-int-int-int-) | Adds a RadioButton to the worksheet. |
-| [addRectangle(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addRectangle-int-int-int-int-int-int-) | Adds a RectangleShape to the worksheet. |
-| [addScrollBar(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addScrollBar-int-int-int-int-int-int-) | Adds a ScrollBar to the worksheet. |
-| [addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addShape-int-int-int-int-int-int-int-) | Adds a Shape to the worksheet. |
+| [addRadioButton(int topRow, int top, int leftColumn, int left, int height, int width)](#addRadioButton-int-int-int-int-int-int-) | Adds a RadioButton to the worksheet. |
+| [addRectangle(int topRow, int top, int leftColumn, int left, int height, int width)](#addRectangle-int-int-int-int-int-int-) | Adds a RectangleShape to the worksheet. |
+| [addScrollBar(int topRow, int top, int leftColumn, int left, int height, int width)](#addScrollBar-int-int-int-int-int-int-) | Adds a ScrollBar to the worksheet. |
+| [addShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)](#addShape-int-int-int-int-int-int-int-) | Adds a Shape to the worksheet. |
 | [addShapeInChart(int type, int placement, int left, int top, int right, int bottom)](#addShapeInChart-int-int-int-int-int-int-) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addShapeInChart(int type, int placement, int left, int top, int right, int bottom, byte[] imageData)](#addShapeInChart-int-int-int-int-int-int-byte---) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom)](#addShapeInChartByScale-int-int-double-double-double-double-) | Add a shape to chart. |
 | [addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom, byte[] imageData)](#addShapeInChartByScale-int-int-double-double-double-double-byte---) | Add a shape to chart .All unit is 1/4000 of chart area. |
-| [addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine)](#addSignatureLine-int-int-com.aspose.cells.SignatureLine-) | Adds a Signature Line to the worksheet. |
-| [addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addSpinner-int-int-int-int-int-int-) | Adds a Spinner to the worksheet. |
-| [addSvg(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)](#addSvg-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
-| [addTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addTextBox-int-int-int-int-int-int-) | Adds a text box to the worksheet. |
+| [addSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine)](#addSignatureLine-int-int-com.aspose.cells.SignatureLine-) | Adds a Signature Line to the worksheet. |
+| [addSpinner(int topRow, int top, int leftColumn, int left, int height, int width)](#addSpinner-int-int-int-int-int-int-) | Adds a Spinner to the worksheet. |
+| [addSvg(int topRow, int top, int leftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)](#addSvg-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
+| [addTextBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addTextBox-int-int-int-int-int-int-) | Adds a text box to the worksheet. |
 | [addTextBoxInChart(int top, int left, int height, int width)](#addTextBoxInChart-int-int-int-int-) | Adds a textbox to the chart. |
-| [addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-) | Inserts a WordArt object. |
+| [addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int topRow, int top, int leftColumn, int left, int height, int width)](#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-) | Inserts a WordArt object. |
 | [addTextEffectInChart(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int top, int left, int height, int width)](#addTextEffectInChart-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-) | Inserts a WordArt object to the chart |
-| [addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addWordArt-int-java.lang.String-int-int-int-int-int-int-) | Adds preset WordArt since Excel 2007.s |
+| [addWordArt(int style, String text, int topRow, int top, int leftColumn, int left, int height, int width)](#addWordArt-int-java.lang.String-int-int-int-int-int-int-) | Adds preset WordArt since Excel 2007.s |
 | [clear()](#clear--) | Clear all shapes in the worksheet. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn)](#copyCommentsInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-) | Copy all comments in the range. |
@@ -141,9 +142,9 @@ Creates an Activex Control.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - 
-### addArc(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addArc-int-int-int-int-int-int-}
+### addArc(int topRow, int top, int leftColumn, int left, int height, int width) {#addArc-int-int-int-int-int-int-}
 ```
-public ArcShape addArc(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public ArcShape addArc(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -159,18 +160,18 @@ Adds a ArcShape to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of ArcShape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of ArcShape from its left column, in unit of pixel. |
 | height | int | Represents the height of ArcShape, in unit of pixel. |
 | width | int | Represents the width of ArcShape, in unit of pixel. |
 
 **Returns:**
 [ArcShape](../../com.aspose.cells/arcshape) - A ArcShape object.
-### addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addAutoShape-int-int-int-int-int-int-int-}
+### addAutoShape(int type, int topRow, int top, int leftColumn, int left, int height, int width) {#addAutoShape-int-int-int-int-int-int-int-}
 ```
-public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Shape addAutoShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -191,9 +192,9 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [AutoShapeType](../../com.aspose.cells/autoshapetype). Auto shape type. |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Shape from its left column, in unit of pixel. |
 | height | int | Represents the height of Shape, in unit of pixel. |
 | width | int | Represents the width of Shape, in unit of pixel. |
@@ -223,9 +224,9 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - Returns a shape object.
-### addButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addButton-int-int-int-int-int-int-}
+### addButton(int topRow, int top, int leftColumn, int left, int height, int width) {#addButton-int-int-int-int-int-int-}
 ```
-public Button addButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Button addButton(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -241,18 +242,18 @@ Adds a Button to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Button from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Button from its left column, in unit of pixel. |
 | height | int | Represents the height of Button, in unit of pixel. |
 | width | int | Represents the width of Button, in unit of pixel. |
 
 **Returns:**
 [Button](../../com.aspose.cells/button) - A Button object.
-### addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addCheckBox-int-int-int-int-int-int-}
+### addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addCheckBox-int-int-int-int-int-int-}
 ```
-public CheckBox addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public CheckBox addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -268,18 +269,18 @@ Adds a checkbox to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of checkbox from its top row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Height of textbox, in unit of pixel. |
 | width | int | Width of textbox, in unit of pixel. |
 
 **Returns:**
 [CheckBox](../../com.aspose.cells/checkbox) - The new CheckBox object index.
-### addComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addComboBox-int-int-int-int-int-int-}
+### addComboBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addComboBox-int-int-int-int-int-int-}
 ```
-public ComboBox addComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public ComboBox addComboBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -295,9 +296,9 @@ Adds a ComboBox to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of ComboBox from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of ComboBox from its left column, in unit of pixel. |
 | height | int | Represents the height of ComboBox, in unit of pixel. |
 | width | int | Represents the width of ComboBox, in unit of pixel. |
@@ -338,7 +339,31 @@ public TextBox addEquation(int topRow, int top, int leftColumn, int left, int he
 ```
 
 
-Add an equation object to the worksheet.
+Adds an equation object to the worksheet.
+
+**Example**
+
+```
+         // Adds an equation object to the worksheet.
+         TextBox textBox = shapes.addEquation(1, 0, 1, 0, 100, 300);
+ 
+         // Gets the starting node of the equation object
+         EquationNode mathNode = textBox.getEquationParagraph().getChild(0);
+ 
+         // Inserts a fractional equation.
+         FractionEquationNode node = (FractionEquationNode)mathNode.addChild(EquationNodeType.FRACTION);
+         node.setFractionType(EquationFractionType.SKEWED);
+ 
+         String str1 = "A";
+         EquationComponentNode numerator = (EquationComponentNode)node.addChild(EquationNodeType.NUMERATOR);
+         TextRunEquationNode TR = (TextRunEquationNode)(numerator.addChild(EquationNodeType.TEXT));
+         TR.setText(str1);
+ 
+         String str2 = "B";
+         EquationComponentNode denominator = (EquationComponentNode)node.addChild(EquationNodeType.DENOMINATOR);
+         TR = (TextRunEquationNode) (denominator.addChild(EquationNodeType.TEXT));
+         TR.setText(str2);
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,9 +416,9 @@ Adds a free floating shape to the worksheet.Only applies for line/image shape.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - 
-### addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths) {#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---}
+### addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths) {#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---}
 ```
-public Shape addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths)
+public Shape addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths)
 ```
 
 
@@ -454,9 +479,9 @@ Notice: That the width and height in the parameters can be any positive integer 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of freeform shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
 | height | int | Represents the height of freeform shape, in unit of pixel. |
 | width | int | Represents the width of freeform shape, in unit of pixel. |
@@ -464,9 +489,9 @@ Notice: That the width and height in the parameters can be any positive integer 
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - A freeform shape.
-### addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addGroupBox-int-int-int-int-int-int-}
+### addGroupBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addGroupBox-int-int-int-int-int-int-}
 ```
-public GroupBox addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public GroupBox addGroupBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -482,18 +507,18 @@ Adds a GroupBox to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of GroupBox from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of GroupBox from its left column, in unit of pixel. |
 | height | int | Represents the height of GroupBox, in unit of pixel. |
 | width | int | Represents the width of GroupBox, in unit of pixel. |
 
 **Returns:**
 [GroupBox](../../com.aspose.cells/groupbox) - A GroupBox object.
-### addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData) {#addIcons-int-int-int-int-int-int-byte---byte---}
+### addIcons(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData) {#addIcons-int-int-int-int-int-int-byte---byte---}
 ```
-public Picture addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)
+public Picture addIcons(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)
 ```
 
 
@@ -517,9 +542,9 @@ Adds svg image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | The horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | The height of shape, in unit of pixel. |
 | width | int | The width of shape, in unit of pixel. |
@@ -528,9 +553,39 @@ Adds svg image.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - 
-### addLabel(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addLabel-int-int-int-int-int-int-}
+### addLaTeXEquation(int topRow, int top, int leftColumn, int left, int height, int width, String latex) {#addLaTeXEquation-int-int-int-int-int-int-java.lang.String-}
 ```
-public Label addLabel(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public TextBox addLaTeXEquation(int topRow, int top, int leftColumn, int left, int height, int width, String latex)
+```
+
+
+Adds an equation object to the worksheet using LaTeX format strings.
+
+**Example**
+
+```
+         // LaTeX format string.
+         String latex = "\\alpha +  \\frac{\\partial^2}{\\partial x_1\\partial x_2}y - \\left ( a + b \\right )+_{a}^{b}\\beta";
+         // Adds an equation object to the worksheet.
+         TextBox textBox = shapes.addLaTeXEquation(1, 0, 1, 0, 100, 300, latex);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| topRow | int | The top row index. |
+| top | int | The vertical offset its top row, in unit of pixel. |
+| leftColumn | int | The left column index. |
+| left | int | The horizontal offset from its left column, in unit of pixel. |
+| height | int | The height of equation, in unit of pixel. |
+| width | int | The width of equation, in unit of pixel. |
+| latex | java.lang.String | LaTeX format string |
+
+**Returns:**
+[TextBox](../../com.aspose.cells/textbox) - 
+### addLabel(int topRow, int top, int leftColumn, int left, int height, int width) {#addLabel-int-int-int-int-int-int-}
+```
+public Label addLabel(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -546,9 +601,9 @@ Adds a Label to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Label from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Label from its left column, in unit of pixel. |
 | height | int | Represents the height of Label, in unit of pixel. |
 | width | int | Represents the width of Label, in unit of pixel. |
@@ -573,9 +628,9 @@ Adds a label to the chart.
 
 **Returns:**
 [Label](../../com.aspose.cells/label) - A new Label object.
-### addLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addLine-int-int-int-int-int-int-}
+### addLine(int topRow, int top, int leftColumn, int left, int height, int width) {#addLine-int-int-int-int-int-int-}
 ```
-public LineShape addLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public LineShape addLine(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -591,18 +646,18 @@ Adds a LineShape to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of LineShape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of LineShape from its left column, in unit of pixel. |
 | height | int | Represents the height of LineShape, in unit of pixel. |
 | width | int | Represents the width of LineShape, in unit of pixel. |
 
 **Returns:**
 [LineShape](../../com.aspose.cells/lineshape) - A LineShape object.
-### addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName) {#addLinkedPicture-int-int-int-int-java.lang.String-}
+### addLinkedPicture(int topRow, int leftColumn, int height, int width, String sourceFullName) {#addLinkedPicture-int-int-int-int-java.lang.String-}
 ```
-public Picture addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)
+public Picture addLinkedPicture(int topRow, int leftColumn, int height, int width, String sourceFullName)
 ```
 
 
@@ -611,17 +666,17 @@ Add a linked picture.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | height | int | The height of the shape. In unit of pixels |
 | width | int | The width of the shape. In unit of pixels |
 | sourceFullName | java.lang.String | The path and name of the source file for the linked image |
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - [Picture](../../com.aspose.cells/picture) Picture object.
-### addListBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addListBox-int-int-int-int-int-int-}
+### addListBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addListBox-int-int-int-int-int-int-}
 ```
-public ListBox addListBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public ListBox addListBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -637,18 +692,18 @@ Adds a ListBox to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of ListBox from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of ListBox from its left column, in unit of pixel. |
 | height | int | Represents the height of ListBox, in unit of pixel. |
 | width | int | Represents the width of ListBox, in unit of pixel. |
 
 **Returns:**
 [ListBox](../../com.aspose.cells/listbox) - A ListBox object.
-### addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData) {#addOleObject-int-int-int-int-int-int-byte---}
+### addOleObject(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageData) {#addOleObject-int-int-int-int-int-int-byte---}
 ```
-public OleObject addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData)
+public OleObject addOleObject(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageData)
 ```
 
 
@@ -671,9 +726,9 @@ Adds an OleObject.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int |  |
+| topRow | int |  |
 | top | int |  |
-| upperLeftColumn | int |  |
+| leftColumn | int |  |
 | left | int |  |
 | height | int |  |
 | width | int |  |
@@ -681,9 +736,9 @@ Adds an OleObject.
 
 **Returns:**
 [OleObject](../../com.aspose.cells/oleobject) - 
-### addOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName) {#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-}
+### addOleObjectWithLinkedImage(int topRow, int leftColumn, int height, int width, String sourceFullName) {#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-}
 ```
-public OleObject addOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)
+public OleObject addOleObjectWithLinkedImage(int topRow, int leftColumn, int height, int width, String sourceFullName)
 ```
 
 
@@ -692,17 +747,17 @@ Add a linked picture.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | height | int | The height of the shape. In unit of pixels |
 | width | int | The width of the shape. In unit of pixels |
 | sourceFullName | java.lang.String | The path and name of the source file for the linked image |
 
 **Returns:**
 [OleObject](../../com.aspose.cells/oleobject) - [Picture](../../com.aspose.cells/picture) Picture object.
-### addOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addOval-int-int-int-int-int-int-}
+### addOval(int topRow, int top, int leftColumn, int left, int height, int width) {#addOval-int-int-int-int-int-int-}
 ```
-public Oval addOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Oval addOval(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -718,18 +773,18 @@ Adds a Oval to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Oval from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Oval from its left column, in unit of pixel. |
 | height | int | Represents the height of Oval, in unit of pixel. |
 | width | int | Represents the width of Oval, in unit of pixel. |
 
 **Returns:**
 [Oval](../../com.aspose.cells/oval) - A Oval object.
-### addPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream) {#addPicture-int-int-int-int-java.io.InputStream-}
+### addPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream) {#addPicture-int-int-int-int-java.io.InputStream-}
 ```
-public Picture addPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)
+public Picture addPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream)
 ```
 
 
@@ -738,17 +793,17 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 | stream | java.io.InputStream | Stream object which contains the image data. |
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - [Picture](../../com.aspose.cells/picture) Picture object.
-### addPicture(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale) {#addPicture-int-int-java.io.InputStream-int-int-}
+### addPicture(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale) {#addPicture-int-int-java.io.InputStream-int-int-}
 ```
-public Picture addPicture(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale)
+public Picture addPicture(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale)
 ```
 
 
@@ -757,8 +812,8 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | stream | java.io.InputStream | Stream object which contains the image data. |
 | widthScale | int | Scale of image width, a percentage. |
 | heightScale | int | Scale of image height, a percentage. |
@@ -784,9 +839,9 @@ Adds a picture to the chart.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - Returns a Picture object.
-### addRadioButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addRadioButton-int-int-int-int-int-int-}
+### addRadioButton(int topRow, int top, int leftColumn, int left, int height, int width) {#addRadioButton-int-int-int-int-int-int-}
 ```
-public RadioButton addRadioButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public RadioButton addRadioButton(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -802,18 +857,18 @@ Adds a RadioButton to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of RadioButton from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of RadioButton from its left column, in unit of pixel. |
 | height | int | Represents the height of RadioButton, in unit of pixel. |
 | width | int | Represents the width of RadioButton, in unit of pixel. |
 
 **Returns:**
 [RadioButton](../../com.aspose.cells/radiobutton) - A RadioButton object.
-### addRectangle(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addRectangle-int-int-int-int-int-int-}
+### addRectangle(int topRow, int top, int leftColumn, int left, int height, int width) {#addRectangle-int-int-int-int-int-int-}
 ```
-public RectangleShape addRectangle(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public RectangleShape addRectangle(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -829,18 +884,18 @@ Adds a RectangleShape to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of RectangleShape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of RectangleShape from its left column, in unit of pixel. |
 | height | int | Represents the height of RectangleShape, in unit of pixel. |
 | width | int | Represents the width of RectangleShape, in unit of pixel. |
 
 **Returns:**
 [RectangleShape](../../com.aspose.cells/rectangleshape) - A RectangleShape object.
-### addScrollBar(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addScrollBar-int-int-int-int-int-int-}
+### addScrollBar(int topRow, int top, int leftColumn, int left, int height, int width) {#addScrollBar-int-int-int-int-int-int-}
 ```
-public ScrollBar addScrollBar(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public ScrollBar addScrollBar(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -856,18 +911,18 @@ Adds a ScrollBar to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of ScrollBar from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of ScrollBar from its left column, in unit of pixel. |
 | height | int | Represents the height of ScrollBar, in unit of pixel. |
 | width | int | Represents the width of ScrollBar, in unit of pixel. |
 
 **Returns:**
 [ScrollBar](../../com.aspose.cells/scrollbar) - A ScrollBar object.
-### addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addShape-int-int-int-int-int-int-int-}
+### addShape(int type, int topRow, int top, int leftColumn, int left, int height, int width) {#addShape-int-int-int-int-int-int-int-}
 ```
-public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Shape addShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -888,9 +943,9 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). Mso drawing type. |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Shape from its left column, in unit of pixel. |
 | height | int | Represents the height of Shape, in unit of pixel. |
 | width | int | Represents the width of Shape, in unit of pixel. |
@@ -979,9 +1034,9 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
-### addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine) {#addSignatureLine-int-int-com.aspose.cells.SignatureLine-}
+### addSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine) {#addSignatureLine-int-int-com.aspose.cells.SignatureLine-}
 ```
-public Picture addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine)
+public Picture addSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine)
 ```
 
 
@@ -1005,15 +1060,15 @@ Adds a Signature Line to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | signatureLine | [SignatureLine](../../com.aspose.cells/signatureline) | Represents a signature line object. |
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - 
-### addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addSpinner-int-int-int-int-int-int-}
+### addSpinner(int topRow, int top, int leftColumn, int left, int height, int width) {#addSpinner-int-int-int-int-int-int-}
 ```
-public Spinner addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Spinner addSpinner(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -1029,18 +1084,18 @@ Adds a Spinner to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Spinner from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of Spinner from its left column, in unit of pixel. |
 | height | int | Represents the height of Spinner, in unit of pixel. |
 | width | int | Represents the width of Spinner, in unit of pixel. |
 
 **Returns:**
 [Spinner](../../com.aspose.cells/spinner) - A Spinner object.
-### addSvg(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData) {#addSvg-int-int-int-int-int-int-byte---byte---}
+### addSvg(int topRow, int top, int leftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData) {#addSvg-int-int-int-int-int-int-byte---byte---}
 ```
-public Picture addSvg(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)
+public Picture addSvg(int topRow, int top, int leftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)
 ```
 
 
@@ -1064,9 +1119,9 @@ Adds svg image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | The horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | The height of shape, in unit of pixel. |
 | width | int | The width of shape, in unit of pixel. |
@@ -1075,9 +1130,9 @@ Adds svg image.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - 
-### addTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addTextBox-int-int-int-int-int-int-}
+### addTextBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addTextBox-int-int-int-int-int-int-}
 ```
-public TextBox addTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public TextBox addTextBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -1093,9 +1148,9 @@ Adds a text box to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of textbox from its top row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Represents the height of textbox, in unit of pixel. |
 | width | int | Represents the width of textbox, in unit of pixel. |
@@ -1120,9 +1175,9 @@ Adds a textbox to the chart.
 
 **Returns:**
 [TextBox](../../com.aspose.cells/textbox) - A TextBox object.
-### addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-}
+### addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int topRow, int top, int leftColumn, int left, int height, int width) {#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-}
 ```
-public Shape addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Shape addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -1144,9 +1199,9 @@ Inserts a WordArt object.
 | size | int | The font size |
 | fontBold | boolean | Indicates whether font is bold. |
 | fontItalic | boolean | Indicates whether font is italic. |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | Represents the height of shape, in unit of pixel. |
 | width | int | Represents the width of shape, in unit of pixel. |
@@ -1177,9 +1232,9 @@ Inserts a WordArt object to the chart
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - Returns a Shape object that represents the new WordArt object.
-### addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addWordArt-int-java.lang.String-int-int-int-int-int-int-}
+### addWordArt(int style, String text, int topRow, int top, int leftColumn, int left, int height, int width) {#addWordArt-int-java.lang.String-int-int-int-int-int-int-}
 ```
-public Shape addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Shape addWordArt(int style, String text, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -1197,9 +1252,9 @@ Adds preset WordArt since Excel 2007.s
 | --- | --- | --- |
 | style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt Style. |
 | text | java.lang.String | The text. |
-| upperLeftRow | int | Upper left row index. |
+| topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
+| leftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | Represents the height of shape, in unit of pixel. |
 | width | int | Represents the width of shape, in unit of pixel. |

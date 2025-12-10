@@ -34,7 +34,7 @@ Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
 
 | Method | Description |
 | --- | --- |
-| [add(int upperLeftRow, int upperLeftColumn, int height, int width)](#add-int-int-int-int-) | Adds a textbox to the collection. |
+| [add(int topRow, int leftColumn, int height, int width)](#add-int-int-int-int-) | Adds a textbox to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Clear all text boxes. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -53,9 +53,9 @@ Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(int upperLeftRow, int upperLeftColumn, int height, int width) {#add-int-int-int-int-}
+### add(int topRow, int leftColumn, int height, int width) {#add-int-int-int-int-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, int height, int width)
+public int add(int topRow, int leftColumn, int height, int width)
 ```
 
 
@@ -71,8 +71,8 @@ Adds a textbox to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | height | int | Height of textbox, in unit of pixel. |
 | width | int | Width of textbox, in unit of pixel. |
 

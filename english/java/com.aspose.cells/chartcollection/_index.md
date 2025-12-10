@@ -26,7 +26,7 @@ Encapsulates a collection of [Chart](../../com.aspose.cells/chart) objects.
 | Method | Description |
 | --- | --- |
 | [add(byte[] data, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn)](#add-byte---java.lang.String-boolean-int-int-int-int-) | Adds a chart with preset template. |
-| [add(int type, int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#add-int-int-int-int-int-) | Adds a chart to the collection. |
+| [add(int type, int topRow, int leftColumn, int bottomRow, int rightColumn)](#add-int-int-int-int-int-) | Adds a chart to the collection. |
 | [add(int type, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn)](#add-int-java.lang.String-boolean-int-int-int-int-) | Adds a chart to the collection. |
 | [add(int type, String dataRange, int topRow, int leftColumn, int rightRow, int bottomColumn)](#add-int-java.lang.String-int-int-int-int-) | Adds a chart to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
@@ -70,9 +70,9 @@ Adds a chart with preset template.
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
-### add(int type, int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn) {#add-int-int-int-int-int-}
+### add(int type, int topRow, int leftColumn, int bottomRow, int rightColumn) {#add-int-int-int-int-int-}
 ```
-public int add(int type, int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)
+public int add(int type, int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 
@@ -82,10 +82,10 @@ Adds a chart to the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.

@@ -154,7 +154,7 @@ Represents the oval shape.
 | [isSmartArt()](#isSmartArt--) | Indicates whether the shape is a smart art. |
 | [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [isWordArt()](#isWordArt--) | Indicates whether this shape is a word art. |
-| [moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
+| [moveToRange(int topRow, int leftColumn, int bottomRow, int rightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeActiveXControl()](#removeActiveXControl--) | Remove activeX control. |
@@ -2337,9 +2337,9 @@ Only for the Legacy Shape of xls file.
 
 **Returns:**
 boolean
-### moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn) {#moveToRange-int-int-int-int-}
+### moveToRange(int topRow, int leftColumn, int bottomRow, int rightColumn) {#moveToRange-int-int-int-int-}
 ```
-public void moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)
+public void moveToRange(int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 
@@ -2354,10 +2354,10 @@ Moves the shape to a specified range.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 
 ### notify() {#notify--}
 ```

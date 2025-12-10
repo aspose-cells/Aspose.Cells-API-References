@@ -25,11 +25,11 @@ Summary description for PivotFieldSubtotalType.
 | [MIN](#MIN) | Represents Min subtotal type. |
 | [NONE](#NONE) | Represents None subtotal type. |
 | [PRODUCT](#PRODUCT) | Represents Product subtotal type. |
-| [STDEV](#STDEV) | Represents Stdev subtotal type. |
-| [STDEVP](#STDEVP) | Represents Stdevp subtotal type. |
+| [STDEV](#STDEV) | Represents Standard Deviation subtotal type. |
+| [STDEVP](#STDEVP) | Represents Standard Deviation of a Population subtotal type. |
 | [SUM](#SUM) | Represents Sum subtotal type. |
-| [VAR](#VAR) | Represents Var subtotal type. |
-| [VARP](#VARP) | Represents Varp subtotal type. |
+| [VAR](#VAR) | Represents Variance subtotal type. |
+| [VARP](#VARP) | Represents Variance of a Population subtotal type. |
 ## Methods
 
 | Method | Description |
@@ -113,7 +113,7 @@ public static final int STDEV
 ```
 
 
-Represents Stdev subtotal type.
+Represents Standard Deviation subtotal type.
 
 ### STDEVP {#STDEVP}
 ```
@@ -121,7 +121,7 @@ public static final int STDEVP
 ```
 
 
-Represents Stdevp subtotal type.
+Represents Standard Deviation of a Population subtotal type.
 
 ### SUM {#SUM}
 ```
@@ -137,7 +137,7 @@ public static final int VAR
 ```
 
 
-Represents Var subtotal type.
+Represents Variance subtotal type.
 
 ### VARP {#VARP}
 ```
@@ -145,7 +145,7 @@ public static final int VARP
 ```
 
 
-Represents Varp subtotal type.
+Represents Variance of a Population subtotal type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -71,7 +71,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getAxisTexts()](#getAxisTexts--) | Gets the labels of the axis after call Chart.Calculate() method. |
 | [getBaseUnitScale()](#getBaseUnitScale--) | Represents the base unit scale for the category axis. |
 | [getBins()](#getBins--) | Represents bins on a chart(Histogram/Pareto) axis |
-| [getCategoryType()](#getCategoryType--) | Represents the category axis type. |
+| [getCategoryType()](#getCategoryType--) | Represents the type of the category axis. |
 | [getClass()](#getClass--) |  |
 | [getCrossAt()](#getCrossAt--) | Represents the point on the value axis where the category axis crosses it. |
 | [getCrossType()](#getCrossType--) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
@@ -95,7 +95,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getTickLabelSpacing()](#getTickLabelSpacing--) | Represents the number of categories or series between tick-mark labels. |
 | [getTickLabels()](#getTickLabels--) | Returns a [getTickLabels()](../../com.aspose.cells/axis\#getTickLabels--) object that represents the tick-mark labels for the specified axis. |
 | [getTickMarkSpacing()](#getTickMarkSpacing--) | Returns or sets the number of categories or series between tick marks. |
-| [getTitle()](#getTitle--) | Gets the axis' title. |
+| [getTitle()](#getTitle--) | Gets the title of this axis in the chart. |
 | [hasMultiLevelLabels()](#hasMultiLevelLabels--) | Indicates whether the labels shall be shown as multi level. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoTickLabelSpacing()](#isAutoTickLabelSpacing--) | Indicates whether the spacing of tick label is automatic |
@@ -118,7 +118,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | Represents if the value axis crosses the category axis between categories. |
 | [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | Represents whether the base unit is automatic. |
 | [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | Represents the base unit scale for the category axis. |
-| [setCategoryType(int value)](#setCategoryType-int-) | Represents the category axis type. |
+| [setCategoryType(int value)](#setCategoryType-int-) | Represents the type of the category axis. |
 | [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
 | [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
@@ -251,7 +251,7 @@ public int getCategoryType()
 ```
 
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 See [CategoryType](../../com.aspose.cells/categorytype).
 
@@ -359,7 +359,7 @@ public double getLogBase()
 ```
 
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 **Returns:**
 double
@@ -566,7 +566,7 @@ public Title getTitle()
 ```
 
 
-Gets the axis' title.
+Gets the title of this axis in the chart.
 
 **Returns:**
 [Title](../../com.aspose.cells/title)
@@ -834,7 +834,7 @@ public void setCategoryType(int value)
 ```
 
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 See [CategoryType](../../com.aspose.cells/categorytype).
 
@@ -977,7 +977,7 @@ public void setLogBase(double value)
 ```
 
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 **Parameters:**
 | Parameter | Type | Description |

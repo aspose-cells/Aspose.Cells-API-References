@@ -95,6 +95,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ChartCollection](../com.aspose.cells/chartcollection) | Encapsulates a collection of [Chart](../com.aspose.cells/chart) objects. |
 | [ChartColorPaletteType](../com.aspose.cells/chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in Excel chart. |
 | [ChartDataTable](../com.aspose.cells/chartdatatable) | Represents a chart data table. |
+| [ChartDataValue](../com.aspose.cells/chartdatavalue) | Encapsulates chart data value |
 | [ChartFrame](../com.aspose.cells/chartframe) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](../com.aspose.cells/chartglobalizationsettings) | Represents the globalization settings for chart. |
 | [ChartLineFormattingType](../com.aspose.cells/chartlineformattingtype) | Represents line format type of chart line. |
@@ -177,6 +178,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DataBarBorderType](../com.aspose.cells/databarbordertype) | Specifies the border type of a data bar. |
 | [DataBarFillType](../com.aspose.cells/databarfilltype) | Specifies how a data bar is filled with color. |
 | [DataBarNegativeColorType](../com.aspose.cells/databarnegativecolortype) | Specifies whether to use the same border and fill color as positive data bars. |
+| [DataBarRenderMode](../com.aspose.cells/databarrendermode) | Represents the DataBar render mode. |
 | [DataLabelShapeType](../com.aspose.cells/datalabelshapetype) | Specifies the preset shape geometry that is to be used for a chart. |
 | [DataLabels](../com.aspose.cells/datalabels) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 | [DataLabelsSeparatorType](../com.aspose.cells/datalabelsseparatortype) | Represents the separator type of DataLabels. |
