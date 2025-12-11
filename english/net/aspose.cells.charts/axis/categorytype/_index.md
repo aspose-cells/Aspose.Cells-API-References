@@ -1,13 +1,13 @@
 ---
 title: Axis.CategoryType
 second_title: Aspose.Cells for .NET API Reference
-description: Axis property. Represents the category axis type
+description: Axis property. Represents the type of the category axis
 type: docs
 url: /net/aspose.cells.charts/axis/categorytype/
 ---
 ## Axis.CategoryType property
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 ```csharp
 public CategoryType CategoryType { get; set; }

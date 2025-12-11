@@ -1,13 +1,13 @@
 ---
 title: Axis.LogBase
 second_title: Aspose.Cells for .NET API Reference
-description: Axis property. Represents the logarithmic base. Default value is 10.Only applies for Excel2007
+description: Axis property. Represents the logarithmic base. Default value is 10
 type: docs
 url: /net/aspose.cells.charts/axis/logbase/
 ---
 ## Axis.LogBase property
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 ```csharp
 public double LogBase { get; set; }

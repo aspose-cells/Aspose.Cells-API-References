@@ -65,6 +65,7 @@ public class GridJsWorkbook
 | [SaveToXlsx](../../aspose.cells.gridjs/gridjsworkbook/savetoxlsx/#savetoxlsx_1)(string) | Saves the memory data to the file path,the save format is xlsx. |
 | [SetInterruptMonitorForLoad](../../aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforload/)(GridInterruptMonitor, int) | Sets InterruptMonitor for load operation. |
 | [SetInterruptMonitorForSave](../../aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforsave/)(GridInterruptMonitor) | Sets InterruptMonitor for save operation. |
+| [TranslateSheetAsync](../../aspose.cells.gridjs/gridjsworkbook/translatesheetasync/)(string, string, ITextTranslator, string) | Translate all the string value to the target language in the worksheet |
 | [UpdateCell](../../aspose.cells.gridjs/gridjsworkbook/updatecell/)(string, string) | Applies the update operation. |
 | static [GetGridLoadFormat](../../aspose.cells.gridjs/gridjsworkbook/getgridloadformat/)(string) | Gets the load format by file extension |
 | static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image. |

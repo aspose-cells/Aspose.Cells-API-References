@@ -1,13 +1,13 @@
 ---
 title: ShapeCollection.AddEquation
 second_title: Aspose.Cells for .NET API Reference
-description: ShapeCollection method. Add an equation object to the worksheet
+description: ShapeCollection method. Adds an equation object to the worksheet
 type: docs
 url: /net/aspose.cells.drawing/shapecollection/addequation/
 ---
 ## ShapeCollection.AddEquation method
 
-Add an equation object to the worksheet.
+Adds an equation object to the worksheet.
 
 ```csharp
 public TextBox AddEquation(int topRow, int top, int leftColumn, int left, int height, int width)

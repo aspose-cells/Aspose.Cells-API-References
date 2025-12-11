@@ -10,13 +10,13 @@ url: /net/aspose.cells.drawing/picture/move/
 Moves the picture to a specified location.
 
 ```csharp
-public void Move(int upperLeftRow, int upperLeftColumn)
+public void Move(int topRow, int leftColumn)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 
 ### Examples
 

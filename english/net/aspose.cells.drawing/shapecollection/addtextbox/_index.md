@@ -10,15 +10,14 @@ url: /net/aspose.cells.drawing/shapecollection/addtextbox/
 Adds a text box to the worksheet.
 
 ```csharp
-public TextBox AddTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width)
+public TextBox AddTextBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of textbox from its top row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | Int32 | Represents the height of textbox, in unit of pixel. |
 | width | Int32 | Represents the width of textbox, in unit of pixel. |

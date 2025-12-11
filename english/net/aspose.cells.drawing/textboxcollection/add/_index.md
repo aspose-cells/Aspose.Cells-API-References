@@ -10,13 +10,13 @@ url: /net/aspose.cells.drawing/textboxcollection/add/
 Adds a textbox to the collection.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
+public int Add(int topRow, int leftColumn, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | height | Int32 | Height of textbox, in unit of pixel. |
 | width | Int32 | Width of textbox, in unit of pixel. |
 

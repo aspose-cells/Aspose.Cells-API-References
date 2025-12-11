@@ -10,15 +10,15 @@ url: /net/aspose.cells.drawing/shapecollection/addicons/
 Adds svg image.
 
 ```csharp
-public Picture AddIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width, byte[] imageByteData, byte[] compatibleImageData)
+public Picture AddIcons(int topRow, int top, int leftColumn, int left, int height, int width, 
+    byte[] imageByteData, byte[] compatibleImageData)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | The horizontal offset of shape from its left column, in unit of pixel. |
 | height | Int32 | The height of shape, in unit of pixel. |
 | width | Int32 | The width of shape, in unit of pixel. |

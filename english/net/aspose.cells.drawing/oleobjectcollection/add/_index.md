@@ -10,13 +10,13 @@ url: /net/aspose.cells.drawing/oleobjectcollection/add/
 Adds an OleObject to the collection.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | height | Int32 | Height of oleObject, in unit of pixel. |
 | width | Int32 | Width of oleObject, in unit of pixel. |
 | imageData | Byte[] | Image of ole object as byte array. |
@@ -90,14 +90,14 @@ namespace AsposeCellsExamples
 Adds a linked OleObject to the collection.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, 
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData, 
     string linkedFile)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | height | Int32 | Height of oleObject, in unit of pixel. |
 | width | Int32 | Width of oleObject, in unit of pixel. |
 | imageData | Byte[] | Image of ole object as byte array. |

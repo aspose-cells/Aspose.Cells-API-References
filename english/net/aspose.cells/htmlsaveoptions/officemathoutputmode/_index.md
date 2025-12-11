@@ -1,13 +1,13 @@
 ---
 title: HtmlSaveOptions.OfficeMathOutputMode
 second_title: Aspose.Cells for .NET API Reference
-description: HtmlSaveOptions property. Indicates how export OfficeMath objects to HTML Default value is Image
+description: HtmlSaveOptions property. Indicates how OfficeMath objects are exported to HTML Default value is Image
 type: docs
 url: /net/aspose.cells/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 ```csharp
 public HtmlOfficeMathOutputType OfficeMathOutputMode { get; set; }

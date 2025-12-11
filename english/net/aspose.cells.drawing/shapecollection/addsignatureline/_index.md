@@ -10,13 +10,13 @@ url: /net/aspose.cells.drawing/shapecollection/addsignatureline/
 Adds a Signature Line to the worksheet.
 
 ```csharp
-public Picture AddSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine)
+public Picture AddSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | signatureLine | SignatureLine | Represents a signature line object. |
 
 ### Examples

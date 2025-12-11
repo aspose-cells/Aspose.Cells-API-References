@@ -10,16 +10,15 @@ url: /net/aspose.cells.drawing/shapecollection/addpicture/
 Adds a picture to the collection.
 
 ```csharp
-public Picture AddPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, 
-    int lowerRightColumn, Stream stream)
+public Picture AddPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
-| lowerRightRow | Int32 | Lower right row index |
-| lowerRightColumn | Int32 | Lower right column index |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| bottomRow | Int32 | Lower right row index |
+| rightColumn | Int32 | Lower right column index |
 | stream | Stream | Stream object which contains the image data. |
 
 ### Return Value
@@ -74,14 +73,14 @@ namespace AsposeCellsExamples
 Adds a picture to the collection.
 
 ```csharp
-public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
+public Picture AddPicture(int topRow, int leftColumn, Stream stream, int widthScale, 
     int heightScale)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | stream | Stream | Stream object which contains the image data. |
 | widthScale | Int32 | Scale of image width, a percentage. |
 | heightScale | Int32 | Scale of image height, a percentage. |

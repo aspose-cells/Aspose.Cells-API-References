@@ -13,6 +13,10 @@ Represents the Y values of this chart series.
 public string Values { get; set; }
 ```
 
+### Remarks
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [`PointValues`](../pointvalues/).
+
 ### Examples
 
 ```csharp

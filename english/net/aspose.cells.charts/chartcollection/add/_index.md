@@ -10,17 +10,16 @@ url: /net/aspose.cells.charts/chartcollection/add/
 Adds a chart to the collection.
 
 ```csharp
-public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerRightRow, 
-    int lowerRightColumn)
+public int Add(ChartType type, int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | ChartType | Chart type |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
-| lowerRightRow | Int32 | Lower right row index |
-| lowerRightColumn | Int32 | Lower right column index |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| bottomRow | Int32 | Lower right row index |
+| rightColumn | Int32 | Lower right column index |
 
 ### Return Value
 

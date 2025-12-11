@@ -10,15 +10,14 @@ url: /net/aspose.cells.drawing/shapecollection/addlabel/
 Adds a Label to the worksheet.
 
 ```csharp
-public Label AddLabel(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width)
+public Label AddLabel(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of Label from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of Label from its left column, in unit of pixel. |
 | height | Int32 | Represents the height of Label, in unit of pixel. |
 | width | Int32 | Represents the width of Label, in unit of pixel. |

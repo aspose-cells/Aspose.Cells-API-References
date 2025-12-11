@@ -65,9 +65,9 @@ namespace AsposeCellsExamples
 
                 // Add freeform shape with the configured path
                 Shape shape = worksheet.Shapes.AddFreeform(
-                    upperLeftRow: 2,
+                    topRow: 2,
                     top: 0,
-                    upperLeftColumn: 2,
+                    leftColumn: 2,
                     left: 0,
                     height: 200,
                     width: 200,
