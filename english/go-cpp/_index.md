@@ -91,7 +91,6 @@ is_root: true
 |[HorizontalPageBreak](./horizontalpagebreak/) | Encapsulates the object that represents a horizontal page break. |
 |[HorizontalPageBreakCollection](./horizontalpagebreakcollection/) | Encapsulates a collection of <see cref="HorizontalPageBreak"/> objects. |
 |[HtmlLoadOptions](./htmlloadoptions/) | Represents options when importing a html file. |
-|[HtmlSaveOptions](./htmlsaveoptions/) | Represents the options for saving html file. |
 |[HtmlTableLoadOption](./htmltableloadoption/) | Represents the option when import table from html. |
 |[HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when importing html. |
 |[Hyperlink](./hyperlink/) | Encapsulates the object that represents a hyperlink. |
@@ -333,6 +332,7 @@ is_root: true
 |[ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
 |[ChartCollection](./chartcollection/) | Encapsulates a collection of <see cref="Chart"/> objects. |
 |[ChartDataTable](./chartdatatable/) | Represents a chart data table. |
+|[ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |
 |[ChartFrame](./chartframe/) | Encapsulates the object that represents the frame object in a chart. |
 |[ChartGlobalizationSettings](./chartglobalizationsettings/) | Represents the globalization settings for chart. |
 |[ChartPoint](./chartpoint/) | Represents a single point in a series in a chart. |
@@ -765,6 +765,7 @@ is_root: true
 |[ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. | 
 |[ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. | 
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
+|[DataBarRenderMode](./databarrendermode/) | Represents the DataBar render mode. | 
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
 |[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
 |[HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. | 

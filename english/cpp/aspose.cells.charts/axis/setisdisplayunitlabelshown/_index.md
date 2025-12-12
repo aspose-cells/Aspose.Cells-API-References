@@ -4,7 +4,7 @@ linktitle: SetIsDisplayUnitLabelShown
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetIsDisplayUnitLabelShown method. Represents if the display unit label is shown on the specified axis in C++.'
 type: docs
-weight: 5100
+weight: 5700
 url: /cpp/aspose.cells.charts/axis/setisdisplayunitlabelshown/
 ---
 ## Axis::SetIsDisplayUnitLabelShown method

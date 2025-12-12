@@ -28,6 +28,7 @@ Represents all the load options for GridJs
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAutoFitRowsHeightOnLoad()](#getAutoFitRowsHeightOnLoad--) | Indicates whether to autofit rows height when loading the file,the default value is false. |
 | [getAutoOptimizeForLargeCells()](#getAutoOptimizeForLargeCells--) | Gets whether to automatically optimize the load performance for worksheet with large cells. |
 | [getBaseRouteName()](#getBaseRouteName--) | Gets the route URL base name for GridJs controller.the default is GridJs2 |
 | [getClass()](#getClass--) |  |
@@ -53,6 +54,7 @@ Represents all the load options for GridJs
 | [isCollaborative()](#isCollaborative--) | Gets whether to support collabrative editing,the default is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAutoFitRowsHeightOnLoad(boolean value)](#setAutoFitRowsHeightOnLoad-boolean-) | Indicates whether to autofit rows height when loading the file,the default value is false. |
 | [setAutoOptimizeForLargeCells(boolean value)](#setAutoOptimizeForLargeCells-boolean-) | Sets whether to automatically optimize the load performance for worksheet with large cells. |
 | [setBaseRouteName(String value)](#setBaseRouteName-java.lang.String-) | Sets the route URL base name for GridJs controller.the default is GridJs2 |
 | [setCollaborative(boolean value)](#setCollaborative-boolean-) | Sets whether to support collabrative editing,the default is false. |
@@ -104,6 +106,16 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAutoFitRowsHeightOnLoad() {#getAutoFitRowsHeightOnLoad--}
+```
+public boolean getAutoFitRowsHeightOnLoad()
+```
+
+
+Indicates whether to autofit rows height when loading the file,the default value is false.
 
 **Returns:**
 boolean
@@ -352,6 +364,19 @@ public final native void notifyAll()
 
 
 
+
+### setAutoFitRowsHeightOnLoad(boolean value) {#setAutoFitRowsHeightOnLoad-boolean-}
+```
+public void setAutoFitRowsHeightOnLoad(boolean value)
+```
+
+
+Indicates whether to autofit rows height when loading the file,the default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAutoOptimizeForLargeCells(boolean value) {#setAutoOptimizeForLargeCells-boolean-}
 ```

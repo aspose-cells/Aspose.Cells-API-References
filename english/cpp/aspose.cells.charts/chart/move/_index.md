@@ -13,16 +13,16 @@ url: /cpp/aspose.cells.charts/chart/move/
 Moves the chart to a specified location.
 
 ```cpp
-void Aspose::Cells::Charts::Chart::Move(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)
+void Aspose::Cells::Charts::Chart::Move(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftColumn | int32_t | Upper left column index. |
-| upperLeftRow | int32_t | Upper left row index. |
-| lowerRightColumn | int32_t | Lower right column index |
-| lowerRightRow | int32_t | Lower right row index |
+| leftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| rightColumn | int32_t | Lower right column index |
+| bottomRow | int32_t | Lower right row index |
 
 ## See Also
 

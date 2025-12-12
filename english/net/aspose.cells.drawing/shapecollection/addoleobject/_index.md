@@ -10,15 +10,15 @@ url: /net/aspose.cells.drawing/shapecollection/addoleobject/
 Adds an OleObject.
 
 ```csharp
-public OleObject AddOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width, byte[] imageData)
+public OleObject AddOleObject(int topRow, int top, int leftColumn, int left, int height, int width, 
+    byte[] imageData)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 |  |
+| topRow | Int32 |  |
 | top | Int32 |  |
-| upperLeftColumn | Int32 |  |
+| leftColumn | Int32 |  |
 | left | Int32 |  |
 | height | Int32 |  |
 | width | Int32 |  |

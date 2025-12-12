@@ -34,13 +34,14 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddCheckBox](../../aspose.cells.drawing/shapecollection/addcheckbox/)(int, int, int, int, int, int) | Adds a checkbox to the worksheet. |
 | [AddComboBox](../../aspose.cells.drawing/shapecollection/addcombobox/)(int, int, int, int, int, int) | Adds a ComboBox to the worksheet. |
 | [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy/)(Shape, int, int, int, int) | Adds and copy a shape to the worksheet. |
-| [AddEquation](../../aspose.cells.drawing/shapecollection/addequation/)(int, int, int, int, int, int) | Add an equation object to the worksheet. |
+| [AddEquation](../../aspose.cells.drawing/shapecollection/addequation/)(int, int, int, int, int, int) | Adds an equation object to the worksheet. |
 | [AddFreeFloatingShape](../../aspose.cells.drawing/shapecollection/addfreefloatingshape/)(MsoDrawingType, int, int, int, int, byte[], bool) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [AddFreeform](../../aspose.cells.drawing/shapecollection/addfreeform/)(int, int, int, int, int, int, ShapePath[]) | Adds a freeform shape to the worksheet. |
 | [AddGroupBox](../../aspose.cells.drawing/shapecollection/addgroupbox/)(int, int, int, int, int, int) | Adds a GroupBox to the worksheet. |
 | [AddIcons](../../aspose.cells.drawing/shapecollection/addicons/)(int, int, int, int, int, int, byte[], byte[]) | Adds svg image. |
 | [AddLabel](../../aspose.cells.drawing/shapecollection/addlabel/)(int, int, int, int, int, int) | Adds a Label to the worksheet. |
 | [AddLabelInChart](../../aspose.cells.drawing/shapecollection/addlabelinchart/)(int, int, int, int) | Adds a label to the chart. |
+| [AddLaTeXEquation](../../aspose.cells.drawing/shapecollection/addlatexequation/)(int, int, int, int, int, int, string) | Adds an equation object to the worksheet using LaTeX format strings. |
 | [AddLine](../../aspose.cells.drawing/shapecollection/addline/)(int, int, int, int, int, int) | Adds a LineShape to the worksheet. |
 | [AddLinkedPicture](../../aspose.cells.drawing/shapecollection/addlinkedpicture/)(int, int, int, int, string) | Add a linked picture. |
 | [AddListBox](../../aspose.cells.drawing/shapecollection/addlistbox/)(int, int, int, int, int, int) | Adds a ListBox to the worksheet. |

@@ -4,7 +4,7 @@ linktitle: Series
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series class. Encapsulates the object that represents a single data series in a chart in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells.charts/series/
 ---
 ## Series class
@@ -25,6 +25,7 @@ class Series
 | [GetBorder()](./getborder/) | Represents border of [Series](./) object. |
 | [GetBubbleScale()](./getbubblescale/) | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
 | [GetBubbleSizes()](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
+| [GetCategoryValues()](./getcategoryvalues/) | Gets the category values of the series. |
 | [GetCountOfDataValues()](./getcountofdatavalues/) | Gets the number of the data values. |
 | [GetDataLabels()](./getdatalabels/) | Represents the [DataLabels](../datalabels/) object for the specified ASeries. |
 | [GetDisplayName()](./getdisplayname/) | Gets the series's name that displays on the chart graph. |
@@ -50,6 +51,7 @@ class Series
 | [GetOverlap()](./getoverlap/) | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [GetPlotOnSecondAxis()](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
 | [GetPoints()](./getpoints/) | Gets the collection of points in a series in a chart. |
+| [GetPointValues()](./getpointvalues/) | Gets the values for the points of the series. |
 | [GetSecondPlotSize()](./getsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [GetSeriesLines()](./getserieslines/) | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [GetShadow()](./getshadow/) | True if the series has a shadow. |

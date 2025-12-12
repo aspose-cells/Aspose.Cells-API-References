@@ -63,6 +63,7 @@ is_root: true
 | [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating chart. |
 | [ChartCollection](./chartcollection) | Encapsulates a collection of [Chart](../javascript-cpp/chart/) objects. |
 | [ChartDataTable](./chartdatatable) | Represents a chart data table. |
+| [ChartDataValue](./chartdatavalue) | Encapsulates chart data value |
 | [ChartFrame](./chartframe) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](./chartglobalizationsettings) | Represents the globalization settings for chart. |
 | [ChartPoint](./chartpoint) | Represents a single point in a series in a chart. |
@@ -586,6 +587,7 @@ is_root: true
 | [DataBarBorderType](./databarbordertype) | Specifies the border type of a data bar. |
 | [DataBarFillType](./databarfilltype) | Specifies how a data bar is filled with color. |
 | [DataBarNegativeColorType](./databarnegativecolortype) | Specifies whether to use the same border and fill color as positive data bars. |
+| [DataBarRenderMode](./databarrendermode) | Represents the DataBar render mode. |
 | [DataLabelShapeType](./datalabelshapetype) | Specifies the preset shape geometry that is to be used for a chart. |
 | [DataLabelsSeparatorType](./datalabelsseparatortype) | Represents the separator type of DataLabels. |
 | [DateTimeGroupingType](./datetimegroupingtype) | Specifies how to group dateTime values. |

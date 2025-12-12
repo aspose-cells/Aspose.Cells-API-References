@@ -32,6 +32,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCssStyles()](./getcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
+| [GetDataBarRenderMode()](./getdatabarrendermode/) | Indicates whether to display the [DataBar](../databar/) as an image when saving to HTML.. Default value is [. ](../) |
 | [GetDefaultFontName()](./getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [GetDisableCss()](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [GetDisableDownlevelRevealedComments()](./getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -54,6 +55,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportGridLines()](./getexportgridlines/) | Indicating whether exporting the gridlines.The default value is false. |
 | [GetExportHiddenWorksheet()](./getexporthiddenworksheet/) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [GetExportImagesAsBase64()](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [GetExportNamedRangeAnchors()](./getexportnamedrangeanchors/) | Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true. |
 | [GetExportPageFooters()](./getexportpagefooters/) | Indicates whether exporting page headers. |
 | [GetExportPageHeaders()](./getexportpageheaders/) | Indicates whether exporting page headers. |
 | [GetExportPrintAreaOnly()](./getexportprintareaonly/) | Indicates if only exporting the print area to html file. The default value is false. |
@@ -78,7 +80,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetMergeEmptyTdForcely()](./getmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [GetMergeEmptyTdType()](./getmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
-| [GetOfficeMathOutputMode()](./getofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [GetOfficeMathOutputMode()](./getofficemathoutputmode/) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [GetPageTitle()](./getpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [GetParseHtmlTagInCell()](./getparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |
 | [GetPresentationPreference()](./getpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
@@ -131,6 +133,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCssStyles(const U16String\& value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [SetCssStyles(const char16_t* value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
+| [SetDataBarRenderMode(DataBarRenderMode value)](./setdatabarrendermode/) | Indicates whether to display the [DataBar](../databar/) as an image when saving to HTML.. Default value is [. ](../) |
 | [SetDefaultFontName(const U16String\& value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDefaultFontName(const char16_t* value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDisableCss(bool value)](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
@@ -154,6 +157,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetExportGridLines(bool value)](./setexportgridlines/) | Indicating whether exporting the gridlines.The default value is false. |
 | [SetExportHiddenWorksheet(bool value)](./setexporthiddenworksheet/) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [SetExportImagesAsBase64(bool value)](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [SetExportNamedRangeAnchors(bool value)](./setexportnamedrangeanchors/) | Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true. |
 | [SetExportPageFooters(bool value)](./setexportpagefooters/) | Indicates whether exporting page headers. |
 | [SetExportPageHeaders(bool value)](./setexportpageheaders/) | Indicates whether exporting page headers. |
 | [SetExportPrintAreaOnly(bool value)](./setexportprintareaonly/) | Indicates if only exporting the print area to html file. The default value is false. |
@@ -184,7 +188,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](./setmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [SetMergeEmptyTdType(MergeEmptyTdType value)](./setmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
-| [SetOfficeMathOutputMode(HtmlOfficeMathOutputType value)](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [SetOfficeMathOutputMode(HtmlOfficeMathOutputType value)](./setofficemathoutputmode/) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [SetPageTitle(const U16String\& value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetPageTitle(const char16_t* value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetParseHtmlTagInCell(bool value)](./setparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |

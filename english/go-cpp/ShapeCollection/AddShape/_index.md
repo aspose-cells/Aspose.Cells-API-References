@@ -14,7 +14,7 @@ Adds a Shape to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddShape(type_ MsoDrawingType, upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Shape,  error) 
+func (instance *ShapeCollection) AddShape(type_ MsoDrawingType, toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Shape,  error) 
 
 ```
 

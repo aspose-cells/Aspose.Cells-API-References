@@ -10,7 +10,7 @@ url: /go-cpp/htmlsaveoptions/getofficemathoutputmode/
 
 ## GetOfficeMathOutputMode function
 
-Indicates how export OfficeMath objects to HTML, Default value is Image.
+Indicates how OfficeMath objects are exported to HTML, Default value is Image.
 
 ```go
 

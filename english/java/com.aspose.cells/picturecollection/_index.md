@@ -32,12 +32,12 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 
 | Method | Description |
 | --- | --- |
-| [add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)](#add-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)](#add-int-int-int-int-java.lang.String-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, InputStream stream)](#add-int-int-java.io.InputStream-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale)](#add-int-int-java.io.InputStream-int-int-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, String fileName)](#add-int-int-java.lang.String-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)](#add-int-int-java.lang.String-int-int-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream)](#add-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, int bottomRow, int rightColumn, String fileName)](#add-int-int-int-int-java.lang.String-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, InputStream stream)](#add-int-int-java.io.InputStream-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale)](#add-int-int-java.io.InputStream-int-int-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, String fileName)](#add-int-int-java.lang.String-) | Adds a picture to the collection. |
+| [add(int topRow, int leftColumn, String fileName, int widthScale, int heightScale)](#add-int-int-java.lang.String-int-int-) | Adds a picture to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [camera(int row, int column, String range)](#camera-int-int-java.lang.String-) | Takes a photo of the range. |
 | [clear()](#clear--) | Clear all pictures. |
@@ -56,9 +56,9 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream) {#add-int-int-int-int-java.io.InputStream-}
+### add(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream) {#add-int-int-int-int-java.io.InputStream-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)
+public int add(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream)
 ```
 
 
@@ -67,17 +67,17 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 | stream | java.io.InputStream | Stream object which contains the image data. |
 
 **Returns:**
 int - [Picture](../../com.aspose.cells/picture) object index.
-### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName) {#add-int-int-int-int-java.lang.String-}
+### add(int topRow, int leftColumn, int bottomRow, int rightColumn, String fileName) {#add-int-int-int-int-java.lang.String-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)
+public int add(int topRow, int leftColumn, int bottomRow, int rightColumn, String fileName)
 ```
 
 
@@ -93,17 +93,17 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 | fileName | java.lang.String | Image filename. |
 
 **Returns:**
 int - [Picture](../../com.aspose.cells/picture) object index.
-### add(int upperLeftRow, int upperLeftColumn, InputStream stream) {#add-int-int-java.io.InputStream-}
+### add(int topRow, int leftColumn, InputStream stream) {#add-int-int-java.io.InputStream-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, InputStream stream)
+public int add(int topRow, int leftColumn, InputStream stream)
 ```
 
 
@@ -112,15 +112,15 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | stream | java.io.InputStream | Stream object which contains the image data. |
 
 **Returns:**
 int - [Picture](../../com.aspose.cells/picture) object index.
-### add(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale) {#add-int-int-java.io.InputStream-int-int-}
+### add(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale) {#add-int-int-java.io.InputStream-int-int-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, InputStream stream, int widthScale, int heightScale)
+public int add(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale)
 ```
 
 
@@ -129,17 +129,17 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | stream | java.io.InputStream | Stream object which contains the image data. |
 | widthScale | int | Scale of image width, a percentage. |
 | heightScale | int | Scale of image height, a percentage. |
 
 **Returns:**
 int - [Picture](../../com.aspose.cells/picture) object index.
-### add(int upperLeftRow, int upperLeftColumn, String fileName) {#add-int-int-java.lang.String-}
+### add(int topRow, int leftColumn, String fileName) {#add-int-int-java.lang.String-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, String fileName)
+public int add(int topRow, int leftColumn, String fileName)
 ```
 
 
@@ -155,15 +155,15 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | fileName | java.lang.String | Image filename. |
 
 **Returns:**
 int - [Picture](../../com.aspose.cells/picture) object index.
-### add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale) {#add-int-int-java.lang.String-int-int-}
+### add(int topRow, int leftColumn, String fileName, int widthScale, int heightScale) {#add-int-int-java.lang.String-int-int-}
 ```
-public int add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)
+public int add(int topRow, int leftColumn, String fileName, int widthScale, int heightScale)
 ```
 
 
@@ -179,8 +179,8 @@ Adds a picture to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
 | fileName | java.lang.String | Image filename. |
 | widthScale | int | Scale of image width, a percentage. |
 | heightScale | int | Scale of image height, a percentage. |

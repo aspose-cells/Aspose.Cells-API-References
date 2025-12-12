@@ -20,15 +20,15 @@ class PictureCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn, const Vector \<uint8_t\>\& stream)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn, const U16String\& fileName)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn, const char16_t* fileName)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const Vector \<uint8_t\>\& stream)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const U16String\& fileName)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const char16_t* fileName)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const Vector \<uint8_t\>\& stream, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const U16String\& fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, const char16_t* fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn, const Vector \<uint8_t\>\& stream)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn, const U16String\& fileName)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn, const char16_t* fileName)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const Vector \<uint8_t\>\& stream)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const U16String\& fileName)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const char16_t* fileName)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const Vector \<uint8_t\>\& stream, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const U16String\& fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, const char16_t* fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
 | [Camera(int32_t row, int32_t column, const U16String\& range)](./camera/) | Takes a photo of the range. |
 | [Camera(int32_t row, int32_t column, const char16_t* range)](./camera/) | Takes a photo of the range. |
 | [Clear()](./clear/) | Clear all pictures. |

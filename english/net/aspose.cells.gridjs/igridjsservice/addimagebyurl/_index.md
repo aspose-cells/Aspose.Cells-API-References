@@ -1,19 +1,23 @@
 ---
 title: IGridJsService.AddImageByURL
 second_title: Aspose.Cells for .NET API Reference
-description: IGridJsService method. 
+description: IGridJsService method. Applies the add image from remote URL operation
 type: docs
 url: /net/aspose.cells.gridjs/igridjsservice/addimagebyurl/
 ---
 ## IGridJsService.AddImageByURL method
 
+Applies the add image from remote URL operation.
+
 ```csharp
 public string AddImageByURL(string p, string uid, string imageurl)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| imageurl | Specify the image URL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| p | String | The JSON string parameter |
+| uid | String | The unique id for the file cache. |
+| imageurl | String | Specify the image URL. |
 
 ### Return Value
 

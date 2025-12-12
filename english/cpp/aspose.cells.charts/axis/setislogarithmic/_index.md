@@ -4,7 +4,7 @@ linktitle: SetIsLogarithmic
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetIsLogarithmic method. Represents if the value axis scale type is logarithmic or not in C++.'
 type: docs
-weight: 3300
+weight: 3700
 url: /cpp/aspose.cells.charts/axis/setislogarithmic/
 ---
 ## Axis::SetIsLogarithmic method

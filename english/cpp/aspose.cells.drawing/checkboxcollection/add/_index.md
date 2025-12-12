@@ -13,14 +13,14 @@ url: /cpp/aspose.cells.drawing/checkboxcollection/add/
 Adds a checkBox to the collection.
 
 ```cpp
-int32_t Aspose::Cells::Drawing::CheckBoxCollection::Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width)
+int32_t Aspose::Cells::Drawing::CheckBoxCollection::Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | Height of checkBox, in unit of pixel. |
 | width | int32_t | Width of checkBox, in unit of pixel. |
 

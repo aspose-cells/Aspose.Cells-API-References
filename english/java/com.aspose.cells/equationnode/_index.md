@@ -13,6 +13,38 @@ public abstract class EquationNode extends FontSetting
 ```
 
 Abstract class for deriving other equation nodes.
+
+**Example**
+
+```
+         // Instantiate a Workbook object that represents Excel file.
+         Workbook workbook = new Workbook();
+ 
+         // Adds an equation object to the worksheet.
+         TextBox textBox = workbook.getWorksheets().get(0).getShapes().addEquation(1, 0, 1, 0, 100, 300);
+ 
+         // Gets the starting node of the equation object
+         EquationNode mathNode = textBox.getEquationParagraph().getChild(0);
+ 
+         // Inserts a fractional equation.
+         FractionEquationNode node = (FractionEquationNode)mathNode.addChild(EquationNodeType.FRACTION);
+         node.setFractionType(EquationFractionType.SKEWED);
+ 
+         String str1 = "A";
+         EquationComponentNode numerator = (EquationComponentNode)node.addChild(EquationNodeType.NUMERATOR);
+         TextRunEquationNode TR = (TextRunEquationNode)(numerator.addChild(EquationNodeType.TEXT));
+         TR.setText(str1);
+ 
+         String str2 = "B";
+         EquationComponentNode denominator = (EquationComponentNode)node.addChild(EquationNodeType.DENOMINATOR);
+         TR = (TextRunEquationNode) (denominator.addChild(EquationNodeType.TEXT));
+         TR.setText(str2);
+ 
+         //do your business
+ 
+         //Save the excel file.
+         workbook.save("exmaple.xlsx");
+```
 ## Methods
 
 | Method | Description |

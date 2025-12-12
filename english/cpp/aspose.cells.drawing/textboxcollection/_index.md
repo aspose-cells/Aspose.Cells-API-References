@@ -20,7 +20,7 @@ class TextBoxCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width)](./add/) | Adds a textbox to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width)](./add/) | Adds a textbox to the collection. |
 | [Clear()](./clear/) | Clear all text boxes. |
 | [Get(int32_t index)](./get/) | Gets the [TextBox](../textbox/) element at the specified index. |
 | [Get(const U16String\& name)](./get/) | Gets the [TextBox](../textbox/) element by the name. |

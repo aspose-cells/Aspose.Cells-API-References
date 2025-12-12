@@ -10,13 +10,13 @@ url: /net/aspose.cells.drawing/checkboxcollection/add/
 Adds a checkBox to the collection.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
+public int Add(int topRow, int leftColumn, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
 | height | Int32 | Height of checkBox, in unit of pixel. |
 | width | Int32 | Width of checkBox, in unit of pixel. |
 

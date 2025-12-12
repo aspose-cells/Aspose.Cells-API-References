@@ -32,6 +32,7 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | --- | --- |
 | [CoWorkUserProvider](./coworkuserprovider/) | Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. Customer application can implement this interface to provide the user information. |
 | [IGridJsService](./igridjsservice/) | Reprensents the basic operation apis interface used in controller actions. |
+| [ITextTranslator](./itexttranslator/) | Represents the interface for translate |
 ## Enumeration
 
 | Enumeration | Description |

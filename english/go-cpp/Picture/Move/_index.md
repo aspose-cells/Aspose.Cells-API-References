@@ -14,7 +14,7 @@ Moves the picture to a specified location.
 
 ```go
 
-func (instance *Picture) Move(upperleftrow int32, upperleftcolumn int32)  error
+func (instance *Picture) Move(toprow int32, leftcolumn int32)  error
 
 ```
 

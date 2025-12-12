@@ -47,6 +47,7 @@ public class GridJsService : IGridJsService
 | [LazyLoadingStreamJson](../../aspose.cells.gridjs/gridjsservice/lazyloadingstreamjson/)(Stream, string, string) | Writes the JSON string of the specified sheet in the file from the cache using the specified unique id to the stream.. |
 | [Load](../../aspose.cells.gridjs/gridjsservice/load/)(string, string) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [Ole](../../aspose.cells.gridjs/gridjsservice/ole/)(string, string, int, out string) | Gets the byte array data of the embedded ole object . |
+| [TranslateSheetAsync](../../aspose.cells.gridjs/gridjsservice/translatesheetasync/)(string, string, ITextTranslator, string) | Translate all the string value to the target language in the worksheet |
 | [UpdateCell](../../aspose.cells.gridjs/gridjsservice/updatecell/)(string, string) | Applies the update operation. |
 
 ### See Also

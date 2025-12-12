@@ -36,6 +36,7 @@ Provides the basic operation apis used in controller actions.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFile(String fileid)](#getFile-java.lang.String-) | Get file stream |
+| [getSettings()](#getSettings--) | Represents the workbook settings. |
 | [hashCode()](#hashCode--) |  |
 | [image(String uid, String picid)](#image-java.lang.String-java.lang.String-) | Get Stream of image. |
 | [imageUrl(String baseURL, String picid, String uid)](#imageUrl-java.lang.String-java.lang.String-java.lang.String-) | Gets the image URL. |
@@ -45,6 +46,7 @@ Provides the basic operation apis used in controller actions.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [ole(String uid, String sheet, int oleid, String filename)](#ole-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
+| [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridjs.GridWorkbookSettings-) | Represents the workbook settings. |
 | [toString()](#toString--) |  |
 | [updateCell(String p, String uid)](#updateCell-java.lang.String-java.lang.String-) | Applies the update operation. |
 | [wait()](#wait--) |  |
@@ -231,6 +233,16 @@ Get file stream
 
 **Returns:**
 java.io.InputStream - The stream of the file
+### getSettings() {#getSettings--}
+```
+public GridWorkbookSettings getSettings()
+```
+
+
+Represents the workbook settings.
+
+**Returns:**
+[GridWorkbookSettings](../../com.aspose.gridjs/gridworkbooksettings)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -355,6 +367,19 @@ Gets the byte array data of the embedded ole object .
 
 **Returns:**
 byte[] - The byte array data of the embedded ole object .
+### setSettings(GridWorkbookSettings value) {#setSettings-com.aspose.gridjs.GridWorkbookSettings-}
+```
+public void setSettings(GridWorkbookSettings value)
+```
+
+
+Represents the workbook settings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GridWorkbookSettings](../../com.aspose.gridjs/gridworkbooksettings) |  |
+
 ### toString() {#toString--}
 ```
 public String toString()

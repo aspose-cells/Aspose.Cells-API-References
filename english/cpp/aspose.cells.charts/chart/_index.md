@@ -81,7 +81,7 @@ class Chart
 | [IsChartDataChanged()](./ischartdatachanged/) | Detects if a chart's data source has changed. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsRectangularCornered()](./isrectangularcornered/) | Gets or sets a value indicating whether the chart area is rectangular cornered. Default is true. |
-| [Move(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](./move/) | Moves the chart to a specified location. |
+| [Move(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](./move/) | Moves the chart to a specified location. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Chart\& src)](./operator_asm/) | operator= |
 | [RefreshPivotData()](./refreshpivotdata/) | Refreshes chart's data from pivot table. |

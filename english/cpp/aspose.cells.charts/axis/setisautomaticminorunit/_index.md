@@ -4,7 +4,7 @@ linktitle: SetIsAutomaticMinorUnit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetIsAutomaticMinorUnit method. Indicates whether the minor unit of the axis is automatically assigned in C++.'
 type: docs
-weight: 1600
+weight: 2000
 url: /cpp/aspose.cells.charts/axis/setisautomaticminorunit/
 ---
 ## Axis::SetIsAutomaticMinorUnit method

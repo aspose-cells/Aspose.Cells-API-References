@@ -104,4 +104,3 @@ type ChartType int32
 |[Waterfall](./waterfall/) | The series is laid out as a waterfall. | 
 |[Histogram](./histogram/) | The series is laid out as a histogram. | 
 |[Map](./map/) | The series is laid out as a region map. | 
-|[RadialHistogram](./radialhistogram/) | The series is laid out as a radial historgram. It is used only for rendering | 

@@ -10,14 +10,14 @@ url: /net/aspose.cells.drawing/shapecollection/addoval/
 Adds a Oval to the worksheet.
 
 ```csharp
-public Oval AddOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public Oval AddOval(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of Oval from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of Oval from its left column, in unit of pixel. |
 | height | Int32 | Represents the height of Oval, in unit of pixel. |
 | width | Int32 | Represents the width of Oval, in unit of pixel. |

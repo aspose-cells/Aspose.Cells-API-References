@@ -13,15 +13,15 @@ url: /cpp/aspose.cells.drawing/shapecollection/addtextbox/
 Adds a text box to the worksheet.
 
 ```cpp
-TextBox Aspose::Cells::Drawing::ShapeCollection::AddTextBox(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)
+TextBox Aspose::Cells::Drawing::ShapeCollection::AddTextBox(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
+| topRow | int32_t | Upper left row index. |
 | top | int32_t | Represents the vertical offset of textbox from its top row, in unit of pixel. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| leftColumn | int32_t | Upper left column index. |
 | left | int32_t | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int32_t | Represents the height of textbox, in unit of pixel. |
 | width | int32_t | Represents the width of textbox, in unit of pixel. |

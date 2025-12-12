@@ -4,7 +4,7 @@ linktitle: SetBaseUnitScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetBaseUnitScale method. Represents the base unit scale for the category axis in C++.'
 type: docs
-weight: 5600
+weight: 6200
 url: /cpp/aspose.cells.charts/axis/setbaseunitscale/
 ---
 ## Axis::SetBaseUnitScale method

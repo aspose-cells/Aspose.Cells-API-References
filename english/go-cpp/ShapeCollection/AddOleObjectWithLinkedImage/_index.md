@@ -14,7 +14,7 @@ Add a linked picture.
 
 ```go
 
-func (instance *ShapeCollection) AddOleObjectWithLinkedImage(upperleftrow int32, upperleftcolumn int32, height int32, width int32, sourcefullname string)  (*OleObject,  error) 
+func (instance *ShapeCollection) AddOleObjectWithLinkedImage(toprow int32, leftcolumn int32, height int32, width int32, sourcefullname string)  (*OleObject,  error) 
 
 ```
 

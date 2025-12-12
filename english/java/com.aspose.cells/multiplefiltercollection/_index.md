@@ -23,8 +23,9 @@ Represents the multiple filter collection.
 | Method | Description |
 | --- | --- |
 | [add(int type, int year, int month, int day)](#add-int-int-int-int-) | Adds a date filter criteria value. |
+| [add(int type, int year, int month, int day, int hour, int minute, int second)](#add-int-int-int-int-int-int-int-) | Adds a date time filter criteria value. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String filter)](#add-java.lang.String-) | Adds a label filter. |
+| [add(String filter)](#add-java.lang.String-) | Adds a label filter criteria. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -67,6 +68,25 @@ Adds a date filter criteria value.
 | month | int | The month. |
 | day | int | The day. |
 
+### add(int type, int year, int month, int day, int hour, int minute, int second) {#add-int-int-int-int-int-int-int-}
+```
+public void add(int type, int year, int month, int day, int hour, int minute, int second)
+```
+
+
+Adds a date time filter criteria value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype). The type of date filter. |
+| year | int | The year. |
+| month | int | The month. |
+| day | int | The day. |
+| hour | int | The hour. |
+| minute | int | The minute. |
+| second | int | The second. |
+
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -88,7 +108,7 @@ public void add(String filter)
 ```
 
 
-Adds a label filter.
+Adds a label filter criteria.
 
 **Parameters:**
 | Parameter | Type | Description |

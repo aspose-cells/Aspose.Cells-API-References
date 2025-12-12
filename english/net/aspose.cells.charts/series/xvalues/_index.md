@@ -1,17 +1,21 @@
 ---
 title: Series.XValues
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Represents the x values of the chart series
+description: Series property. Represents the X values of this chart series
 type: docs
 url: /net/aspose.cells.charts/series/xvalues/
 ---
 ## Series.XValues property
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
 
 ```csharp
 public string XValues { get; set; }
 ```
+
+### Remarks
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [`CategoryValues`](../categoryvalues/).
 
 ### Examples
 

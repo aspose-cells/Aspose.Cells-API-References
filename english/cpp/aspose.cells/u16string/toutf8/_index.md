@@ -4,7 +4,7 @@ linktitle: ToUtf8
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::U16String::ToUtf8 method. Converts this to UTF8 string in C++.'
 type: docs
-weight: 1300
+weight: 2500
 url: /cpp/aspose.cells/u16string/toutf8/
 ---
 ## U16String::ToUtf8(char*, int32_t) const method

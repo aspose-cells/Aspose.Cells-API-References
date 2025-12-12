@@ -10,16 +10,15 @@ url: /net/aspose.cells.drawing/shape/movetorange/
 Moves the shape to a specified range.
 
 ```csharp
-public void MoveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, 
-    int lowerRightColumn)
+public void MoveToRange(int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
-| upperLeftColumn | Int32 | Upper left column index. |
-| lowerRightRow | Int32 | Lower right row index |
-| lowerRightColumn | Int32 | Lower right column index |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| bottomRow | Int32 | Lower right row index |
+| rightColumn | Int32 | Lower right column index |
 
 ### Examples
 

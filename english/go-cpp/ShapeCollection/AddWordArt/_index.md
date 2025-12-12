@@ -14,7 +14,7 @@ Adds preset WordArt since Excel 2007.s
 
 ```go
 
-func (instance *ShapeCollection) AddWordArt(style PresetWordArtStyle, text string, upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Shape,  error) 
+func (instance *ShapeCollection) AddWordArt(style PresetWordArtStyle, text string, toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Shape,  error) 
 
 ```
 

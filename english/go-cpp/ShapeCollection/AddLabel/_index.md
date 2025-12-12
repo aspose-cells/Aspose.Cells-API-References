@@ -14,7 +14,7 @@ Adds a Label to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddLabel(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Label,  error) 
+func (instance *ShapeCollection) AddLabel(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Label,  error) 
 
 ```
 

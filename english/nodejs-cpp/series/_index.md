@@ -84,6 +84,8 @@ workbook.save("output/ChartsSeries.xls");
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
 | [isVerticalValues](#isVerticalValues--)| boolean | Readonly. Indicates whether the data source is vertical. |
 | [values](#values--)| string | Represents the Y values of this chart series. |
+| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the values for the points of the series |
+| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the category values of the series |
 | [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
 | [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
 | [xValues](#xValues--)| string | Represents the x values of the chart series. |
@@ -144,6 +146,8 @@ workbook.save("output/ChartsSeries.xls");
 | [isVerticalValues()](#isVerticalValues--)| <b>@deprecated.</b> Please use the 'isVerticalValues' property instead. Indicates whether the data source is vertical. |
 | [getValues()](#getValues--)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
 | [setValues(string)](#setValues-string-)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
+| [getPointValues()](#getPointValues--)| <b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the values for the points of the series |
+| [getCategoryValues()](#getCategoryValues--)| <b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the category values of the series |
 | [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
 | [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
 | [getXValuesFormatCode()](#getXValuesFormatCode--)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList. |
@@ -328,6 +332,24 @@ Represents the Y values of this chart series.
 
 ```javascript
 values : string;
+```
+
+
+### pointValues {#pointValues--}
+
+Readonly. Gets the values for the points of the series
+
+```javascript
+pointValues : ChartDataValue[];
+```
+
+
+### categoryValues {#categoryValues--}
+
+Readonly. Gets the category values of the series
+
+```javascript
+categoryValues : ChartDataValue[][];
 ```
 
 
@@ -861,6 +883,32 @@ setValues(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### getPointValues() {#getPointValues--}
+
+<b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the values for the points of the series
+
+```javascript
+getPointValues() : ChartDataValue[];
+```
+
+
+**Returns**
+
+[ChartDataValue](../chartdatavalue/)[]
+
+### getCategoryValues() {#getCategoryValues--}
+
+<b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the category values of the series
+
+```javascript
+getCategoryValues() : ChartDataValue[][];
+```
+
+
+**Returns**
+
+[ChartDataValue[]](../chartdatavalue[]/)[]
 
 ### getValuesFormatCode() {#getValuesFormatCode--}
 

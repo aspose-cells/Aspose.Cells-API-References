@@ -1,13 +1,13 @@
 ---
 title: Axis.Title
 second_title: Aspose.Cells for .NET API Reference
-description: Axis property. Gets the axis title
+description: Axis property. Gets the title of this axis in the chart
 type: docs
 url: /net/aspose.cells.charts/axis/title/
 ---
 ## Axis.Title property
 
-Gets the axis' title.
+Gets the title of this axis in the chart.
 
 ```csharp
 public Title Title { get; }
@@ -49,7 +49,7 @@ namespace AsposeCellsExamples
             // Configure titles
             chart.Title.Text = "Sample Chart";
             chart.Title.IsVisible = true;
-            chart.Title.Font.Name = "Aktiv Grotesk";
+            chart.Title.Font.Name = "Arial";
             chart.Title.Font.Size = 14;
             
             // Configure axis titles
@@ -59,7 +59,7 @@ namespace AsposeCellsExamples
             
             chart.ValueAxis.Title.Text = "Values";
             chart.ValueAxis.Title.IsVisible = true;
-            chart.ValueAxis.Title.Font.Name = "Aktiv Grotesk";
+            chart.ValueAxis.Title.Font.Name = "Arial";
             
             // Save the workbook
             workbook.Save("AxisPropertyTitleDemo_Output.xlsx");

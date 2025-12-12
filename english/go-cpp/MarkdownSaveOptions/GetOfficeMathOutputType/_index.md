@@ -10,7 +10,7 @@ url: /go-cpp/markdownsaveoptions/getofficemathoutputtype/
 
 ## GetOfficeMathOutputType function
 
-Indicates how export OfficeMath objects to Markdown, Default value is Image.
+Indicates how OfficeMath objects are exported to Markdown, Default value is Image.
 
 ```go
 

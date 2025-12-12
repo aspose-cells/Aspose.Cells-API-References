@@ -14,7 +14,7 @@ Adds a textbox to the collection.
 
 ```go
 
-func (instance *TextBoxCollection) Add(upperleftrow int32, upperleftcolumn int32, height int32, width int32)  (int32,  error) 
+func (instance *TextBoxCollection) Add(toprow int32, leftcolumn int32, height int32, width int32)  (int32,  error) 
 
 ```
 

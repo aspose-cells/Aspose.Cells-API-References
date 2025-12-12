@@ -82,7 +82,6 @@ Enumerates all chart types used in Excel.
 | [RADAR](#RADAR) | Represents Radar Chart. |
 | [RADAR_FILLED](#RADAR-FILLED) | Represents Filled Radar Chart. |
 | [RADAR_WITH_DATA_MARKERS](#RADAR-WITH-DATA-MARKERS) | Represents Radar Chart with data markers. |
-| [RADIAL_HISTOGRAM](#RADIAL-HISTOGRAM) | The series is laid out as a radial historgram. |
 | [SCATTER](#SCATTER) | Represents Scatter Chart. |
 | [SCATTER_CONNECTED_BY_CURVES_WITHOUT_DATA_MARKER](#SCATTER-CONNECTED-BY-CURVES-WITHOUT-DATA-MARKER) | Represents Scatter Chart connected by curves, without data markers. |
 | [SCATTER_CONNECTED_BY_CURVES_WITH_DATA_MARKER](#SCATTER-CONNECTED-BY-CURVES-WITH-DATA-MARKER) | Represents Scatter Chart connected by curves, with data markers. |
@@ -631,14 +630,6 @@ public static final int RADAR_WITH_DATA_MARKERS
 
 
 Represents Radar Chart with data markers.
-
-### RADIAL_HISTOGRAM {#RADIAL-HISTOGRAM}
-```
-public static final int RADIAL_HISTOGRAM
-```
-
-
-The series is laid out as a radial historgram. It is used only for rendering
 
 ### SCATTER {#SCATTER}
 ```

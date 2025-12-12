@@ -14,7 +14,7 @@ Adds a picture to the collection.
 
 ```go
 
-func (instance *ShapeCollection) AddPicture_Int_Int_Stream_Int_Int(upperleftrow int32, upperleftcolumn int32, stream []byte, widthscale int32, heightscale int32)  (*Picture,  error) 
+func (instance *ShapeCollection) AddPicture_Int_Int_Stream_Int_Int(toprow int32, leftcolumn int32, stream []byte, widthscale int32, heightscale int32)  (*Picture,  error) 
 
 ```
 

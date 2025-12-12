@@ -48,14 +48,14 @@ The element at the specified index.
 Adds an OleObject to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number, imageData: Uint8Array) : number;
+add(topRow: number, leftColumn: number, height: number, width: number, imageData: Uint8Array) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | height | number | Height of oleObject, in unit of pixel. |
 | width | number | Width of oleObject, in unit of pixel. |
 | imageData | number[] | Image of ole object as byte array. |
@@ -69,14 +69,14 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 Adds a linked OleObject to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number, imageData: Uint8Array, linkedFile: string) : number;
+add(topRow: number, leftColumn: number, height: number, width: number, imageData: Uint8Array, linkedFile: string) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | height | number | Height of oleObject, in unit of pixel. |
 | width | number | Width of oleObject, in unit of pixel. |
 | imageData | number[] | Image of ole object as byte array. |

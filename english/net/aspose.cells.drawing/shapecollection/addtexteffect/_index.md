@@ -11,8 +11,8 @@ Inserts a WordArt object.
 
 ```csharp
 public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontName, int size, 
-    bool fontBold, bool fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, 
-    int height, int width)
+    bool fontBold, bool fontItalic, int topRow, int top, int leftColumn, int left, int height, 
+    int width)
 ```
 
 | Parameter | Type | Description |
@@ -23,9 +23,9 @@ public Shape AddTextEffect(MsoPresetTextEffect effect, string text, string fontN
 | size | Int32 | The font size |
 | fontBold | Boolean | Indicates whether font is bold. |
 | fontItalic | Boolean | Indicates whether font is italic. |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of shape from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | Int32 | Represents the height of shape, in unit of pixel. |
 | width | Int32 | Represents the width of shape, in unit of pixel. |

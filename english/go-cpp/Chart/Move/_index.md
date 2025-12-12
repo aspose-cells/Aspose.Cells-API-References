@@ -14,7 +14,7 @@ Moves the chart to a specified location.
 
 ```go
 
-func (instance *Chart) Move(upperleftrow int32, upperleftcolumn int32, lowerrightrow int32, lowerrightcolumn int32)  error
+func (instance *Chart) Move(toprow int32, leftcolumn int32, bottomrow int32, rightcolumn int32)  error
 
 ```
 

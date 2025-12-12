@@ -1685,16 +1685,16 @@ changeTemplate(data: Uint8Array) : void;
 Moves the chart to a specified location.
 
 ```javascript
-move(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number) : void;
+move(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 
 ### calculate() {#calculate--}
 

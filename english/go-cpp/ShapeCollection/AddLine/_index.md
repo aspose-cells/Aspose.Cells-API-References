@@ -14,7 +14,7 @@ Adds a LineShape to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddLine(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*LineShape,  error) 
+func (instance *ShapeCollection) AddLine(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*LineShape,  error) 
 
 ```
 

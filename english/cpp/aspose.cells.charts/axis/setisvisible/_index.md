@@ -4,7 +4,7 @@ linktitle: SetIsVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetIsVisible method. Represents if the axis is visible in C++.'
 type: docs
-weight: 6200
+weight: 6800
 url: /cpp/aspose.cells.charts/axis/setisvisible/
 ---
 ## Axis::SetIsVisible method

@@ -4,7 +4,7 @@ linktitle: GetTickLabelSpacing
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetTickLabelSpacing method. Represents the number of categories or series between tick-mark labels. Applies only to category and series axes in C++.'
 type: docs
-weight: 3900
+weight: 4300
 url: /cpp/aspose.cells.charts/axis/getticklabelspacing/
 ---
 ## Axis::GetTickLabelSpacing method

@@ -10,7 +10,7 @@ url: /go-cpp/axis/setlogbase/
 
 ## SetLogBase function
 
-Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
+Represents the logarithmic base. Default value is 10.
 
 ```go
 

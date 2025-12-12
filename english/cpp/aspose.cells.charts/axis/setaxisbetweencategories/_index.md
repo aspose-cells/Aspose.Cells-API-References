@@ -4,7 +4,7 @@ linktitle: SetAxisBetweenCategories
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::SetAxisBetweenCategories method. Represents if the value axis crosses the category axis between categories in C++.'
 type: docs
-weight: 3700
+weight: 4100
 url: /cpp/aspose.cells.charts/axis/setaxisbetweencategories/
 ---
 ## Axis::SetAxisBetweenCategories method

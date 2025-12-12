@@ -19,7 +19,7 @@ Represents the auto fill type.
 | --- | --- |
 | [COPY](#COPY) | Copies the value and format of the source area to the target area |
 | [DEFAULT](#DEFAULT) | Automatically fills the target area with the value and format. |
-| [FORMATS](#FORMATS) | Copies only the format of the source area to the target area, |
+| [FORMATS](#FORMATS) | Only copies the format of the source area to the target area. |
 | [SERIES](#SERIES) | Extend the value in the source area to the target area in the form of a series and copy format to the target area. |
 | [VALUES](#VALUES) | Copies only the value of the source area to the target area, |
 ## Methods
@@ -57,7 +57,7 @@ public static final int FORMATS
 ```
 
 
-Copies only the format of the source area to the target area,
+Only copies the format of the source area to the target area.
 
 ### SERIES {#SERIES}
 ```

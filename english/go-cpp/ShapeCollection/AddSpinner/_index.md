@@ -14,7 +14,7 @@ Adds a Spinner to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddSpinner(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*Spinner,  error) 
+func (instance *ShapeCollection) AddSpinner(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*Spinner,  error) 
 
 ```
 

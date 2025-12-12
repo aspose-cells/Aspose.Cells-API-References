@@ -98,7 +98,6 @@ public enum ChartType
 | Waterfall | `78` | The series is laid out as a waterfall. |
 | Histogram | `79` | The series is laid out as a histogram. |
 | Map | `80` | The series is laid out as a region map. |
-| RadialHistogram | `81` | The series is laid out as a radial historgram. It is used only for rendering |
 
 ### Examples
 

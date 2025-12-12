@@ -107,7 +107,7 @@ The following codes show how to create a chart with .Net codes.
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
 | [isRectangularCornered()](#isRectangularCornered--) | Gets a value indicating whether the chart area is rectangular cornered. |
 | [isReferedByChart(int rowIndex, int columnIndex)](#isReferedByChart-int-int-) | Returns whether the cell refered by the chart. |
-| [move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
+| [move(int topRow, int leftColumn, int bottomRow, int rightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshPivotData()](#refreshPivotData--) | Refreshes chart's data from pivot table. |
@@ -899,9 +899,9 @@ NOTE: This method is now obsolete. Instead, please use IsCellReferedByChart(int,
 
 **Returns:**
 boolean - 
-### move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn) {#move-int-int-int-int-}
+### move(int topRow, int leftColumn, int bottomRow, int rightColumn) {#move-int-int-int-int-}
 ```
-public void move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)
+public void move(int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 
@@ -910,10 +910,10 @@ Moves the chart to a specified location.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
+| topRow | int | Upper left row index. |
+| leftColumn | int | Upper left column index. |
+| bottomRow | int | Lower right row index |
+| rightColumn | int | Lower right column index |
 
 ### notify() {#notify--}
 ```

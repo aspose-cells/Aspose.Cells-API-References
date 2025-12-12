@@ -10,15 +10,15 @@ url: /net/aspose.cells.charts/chart/move/
 Moves the chart to a specified location.
 
 ```csharp
-public void Move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)
+public void Move(int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftColumn | Int32 | Upper left column index. |
-| upperLeftRow | Int32 | Upper left row index. |
-| lowerRightColumn | Int32 | Lower right column index |
-| lowerRightRow | Int32 | Lower right row index |
+| leftColumn | Int32 | Upper left column index. |
+| topRow | Int32 | Upper left row index. |
+| rightColumn | Int32 | Lower right column index |
+| bottomRow | Int32 | Lower right row index |
 
 ### Examples
 

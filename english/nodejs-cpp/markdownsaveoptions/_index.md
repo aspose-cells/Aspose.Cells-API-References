@@ -38,7 +38,7 @@ class MarkdownSaveOptions extends SaveOptions;
 | [exportHyperlinkAsReference](#exportHyperlinkAsReference--)| boolean | Indicates whether to export hyperlink using reference definitions instead of inline format. The default value is false. |
 | [alignColumnPadding](#alignColumnPadding--)| string | Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
 | [splitTablesByBlankRow](#splitTablesByBlankRow--)| boolean | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
-| [officeMathOutputType](#officeMathOutputType--)| HtmlOfficeMathOutputType | Indicates how export OfficeMath objects to Markdown, Default value is Image. |
+| [officeMathOutputType](#officeMathOutputType--)| HtmlOfficeMathOutputType | Indicates how OfficeMath objects are exported to Markdown, Default value is Image. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -80,8 +80,8 @@ class MarkdownSaveOptions extends SaveOptions;
 | [setAlignColumnPadding(string)](#setAlignColumnPadding-string-)| <b>@deprecated.</b> Please use the 'alignColumnPadding' property instead. Indicates whether column alignment is enabled for generated Markdown tables. When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces). Set to '\0' to disable column alignment (default). |
 | [getSplitTablesByBlankRow()](#getSplitTablesByBlankRow--)| <b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
 | [setSplitTablesByBlankRow(boolean)](#setSplitTablesByBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'splitTablesByBlankRow' property instead. Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown. The default value is false. |
-| [getOfficeMathOutputType()](#getOfficeMathOutputType--)| <b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how export OfficeMath objects to Markdown, Default value is Image. |
-| [setOfficeMathOutputType(HtmlOfficeMathOutputType)](#setOfficeMathOutputType-htmlofficemathoutputtype-)| <b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how export OfficeMath objects to Markdown, Default value is Image. |
+| [getOfficeMathOutputType()](#getOfficeMathOutputType--)| <b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how OfficeMath objects are exported to Markdown, Default value is Image. |
+| [setOfficeMathOutputType(HtmlOfficeMathOutputType)](#setOfficeMathOutputType-htmlofficemathoutputtype-)| <b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how OfficeMath objects are exported to Markdown, Default value is Image. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -254,7 +254,7 @@ splitTablesByBlankRow : boolean;
 
 ### officeMathOutputType {#officeMathOutputType--}
 
-Indicates how export OfficeMath objects to Markdown, Default value is Image.
+Indicates how OfficeMath objects are exported to Markdown, Default value is Image.
 
 ```javascript
 officeMathOutputType : HtmlOfficeMathOutputType;
@@ -703,7 +703,7 @@ setSplitTablesByBlankRow(value: boolean) : void;
 
 ### getOfficeMathOutputType() {#getOfficeMathOutputType--}
 
-<b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how export OfficeMath objects to Markdown, Default value is Image.
+<b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how OfficeMath objects are exported to Markdown, Default value is Image.
 
 ```javascript
 getOfficeMathOutputType() : HtmlOfficeMathOutputType;
@@ -716,7 +716,7 @@ getOfficeMathOutputType() : HtmlOfficeMathOutputType;
 
 ### setOfficeMathOutputType(HtmlOfficeMathOutputType) {#setOfficeMathOutputType-htmlofficemathoutputtype-}
 
-<b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how export OfficeMath objects to Markdown, Default value is Image.
+<b>@deprecated.</b> Please use the 'officeMathOutputType' property instead. Indicates how OfficeMath objects are exported to Markdown, Default value is Image.
 
 ```javascript
 setOfficeMathOutputType(value: HtmlOfficeMathOutputType) : void;

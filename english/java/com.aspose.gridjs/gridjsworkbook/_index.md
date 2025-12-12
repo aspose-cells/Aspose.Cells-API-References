@@ -76,6 +76,7 @@ Represents the main entry class for GridJs
 | [setInterruptMonitorForSave(GridInterruptMonitor monitor)](#setInterruptMonitorForSave-com.aspose.gridjs.GridInterruptMonitor-) | Sets InterruptMonitor for save operation. |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridjs.GridWorkbookSettings-) | Represents the workbook settings. |
 | [toString()](#toString--) |  |
+| [translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage)](#translateSheetAsync-java.lang.String-java.lang.String-com.aspose.gridjs.ITextTranslator-java.lang.String-) | Translate all the string value to the target language in the worksheet |
 | [updateCell(String p, String uid)](#updateCell-java.lang.String-java.lang.String-) | Applies the update operation. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -757,6 +758,24 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage) {#translateSheetAsync-java.lang.String-java.lang.String-com.aspose.gridjs.ITextTranslator-java.lang.String-}
+```
+public String translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage)
+```
+
+
+Translate all the string value to the target language in the worksheet
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | The unique id for the file cache. |
+| sheetName | java.lang.String | The sheet name |
+| translator | [ITextTranslator](../../com.aspose.gridjs/itexttranslator) | The translator which implement translate function |
+| targetLanguage | java.lang.String | The target language |
+
+**Returns:**
+java.lang.String - 
 ### updateCell(String p, String uid) {#updateCell-java.lang.String-java.lang.String-}
 ```
 public String updateCell(String p, String uid)

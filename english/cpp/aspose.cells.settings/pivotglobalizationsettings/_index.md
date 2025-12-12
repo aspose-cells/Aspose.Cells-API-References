@@ -20,6 +20,8 @@ class PivotGlobalizationSettings
 
 | Method | Description |
 | --- | --- |
+| virtual [GetNameOfDataField(ConsolidationFunction function, const U16String\& name)](./getnameofdatafield/) | Gets the display name of data pivot field. The default format is "Sum Of Field". |
+| virtual [GetNameOfDataField(ConsolidationFunction function, const char16_t* name)](./getnameofdatafield/) | Gets the display name of data pivot field. The default format is "Sum Of Field". |
 | virtual [GetShortTextOf12Months()](./getshorttextof12months/) | Gets all short formatted string of 12 months. |
 | virtual [GetTextOf4Quaters()](./gettextof4quaters/) | Gets the local text of 4 Quaters. |
 | virtual [GetTextOfAll()](./gettextofall/) | Gets the text of "(All)" label in the PivotTable. |

@@ -52,8 +52,8 @@ type MarkdownSaveOptions struct  {
 |[SetAlignColumnPadding](./setaligncolumnpadding/) | Indicates whether column alignment is enabled for generated Markdown tables.When enabled, columns are aligned by padding cell content with the specified character(typically ' ' for spaces).Set to '\0' to disable column alignment (default). | 
 |[GetSplitTablesByBlankRow](./getsplittablesbyblankrow/) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown.The default value is false. | 
 |[SetSplitTablesByBlankRow](./setsplittablesbyblankrow/) | Indicates whether blank rows in the worksheet should be treated as table separators when exporting to Markdown.The default value is false. | 
-|[GetOfficeMathOutputType](./getofficemathoutputtype/) | Indicates how export OfficeMath objects to Markdown, Default value is Image. | 
-|[SetOfficeMathOutputType](./setofficemathoutputtype/) | Indicates how export OfficeMath objects to Markdown, Default value is Image. | 
+|[GetOfficeMathOutputType](./getofficemathoutputtype/) | Indicates how OfficeMath objects are exported to Markdown, Default value is Image. | 
+|[SetOfficeMathOutputType](./setofficemathoutputtype/) | Indicates how OfficeMath objects are exported to Markdown, Default value is Image. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

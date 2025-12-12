@@ -138,7 +138,7 @@ class Label : public Aspose::Cells::Drawing::Shape
 | [Label(Label_Impl* impl)](./label/) | Constructs from an implementation object. |
 | [Label(const Label\& src)](./label/) | Copy constructor. |
 | [Label(const Shape\& src)](./label/) | Constructs from a parent object. |
-| [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
+| [MoveToRange(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Label\& src)](./operator_asm/) | operator= |
 | [operator=(const Shape\& src)](../shape/operator_asm/) | operator= |

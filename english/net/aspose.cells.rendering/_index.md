@@ -38,6 +38,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | --- | --- |
 | [ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. |
 | [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
+| [DataBarRenderMode](./databarrendermode/) | Represents the DataBar render mode. |
 | [DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |

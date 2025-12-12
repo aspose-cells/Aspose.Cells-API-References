@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::Axis::SetCategoryType method
 linktitle: SetCategoryType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Axis::SetCategoryType method. Represents the category axis type in C++.'
+description: 'Aspose::Cells::Charts::Axis::SetCategoryType method. Represents the type of the category axis in C++.'
 type: docs
-weight: 5400
+weight: 6000
 url: /cpp/aspose.cells.charts/axis/setcategorytype/
 ---
 ## Axis::SetCategoryType method
 
 
-Represents the category axis type.
+Represents the type of the category axis.
 
 ```cpp
 void Aspose::Cells::Charts::Axis::SetCategoryType(CategoryType value)

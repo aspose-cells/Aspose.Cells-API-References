@@ -14,7 +14,7 @@ Adds a Signature Line to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddSignatureLine(upperleftrow int32, upperleftcolumn int32, signatureline *SignatureLine)  (*Picture,  error) 
+func (instance *ShapeCollection) AddSignatureLine(toprow int32, leftcolumn int32, signatureline *SignatureLine)  (*Picture,  error) 
 
 ```
 

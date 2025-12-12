@@ -14,7 +14,7 @@ Adds a ArcShape to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddArc(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*ArcShape,  error) 
+func (instance *ShapeCollection) AddArc(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*ArcShape,  error) 
 
 ```
 

@@ -4,7 +4,7 @@ linktitle: StyleModifyFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::StyleModifyFlag enum. The style modified flags in C++.'
 type: docs
-weight: 26500
+weight: 26600
 url: /cpp/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enum
@@ -45,7 +45,7 @@ enum class StyleModifyFlag
 | Pattern | 4194304 | <br>Indicates whether pattern of the shading has been modified. |
 | ForegroundColor | 8388608 | <br>Indicates whether foreground color has been modified. |
 | BackgroundColor | 16777216 | <br>Indicates whether background color has been modified. |
-| CellShading | 29360128 | <br>Indicates whether one or more shading-related properties([Pattern](../../aspose.cells.drawing/filltype/), [ForegroundColor](./), [BackgroundColor](./)) have been modified. |
+| CellShading | 29360128 | <br>Indicates whether one or more shading-related properties([Pattern](../../aspose.cells.drawing/filltype/), [ForegroundColor](./), [BackgroundColor](../../aspose.cells.rendering/databarrendermode/)) have been modified. |
 | Locked | 67108864 | <br>Indicates whether locked property has been modified. |
 | HideFormula | 134217728 | <br>Indicates whether hide formula has been modified. |
 | ProtectionSettings | 201326592 | <br>Indicates whether one or more protection-related properties([Locked](./), [HideFormula](./)) have been modified. |

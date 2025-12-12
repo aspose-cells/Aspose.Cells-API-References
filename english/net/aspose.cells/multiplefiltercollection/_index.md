@@ -30,8 +30,9 @@ public class MultipleFilterCollection : CollectionBase
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/multiplefiltercollection/add/#add_1)(string) | Adds a label filter. |
+| [Add](../../aspose.cells/multiplefiltercollection/add/#add_2)(string) | Adds a label filter criteria. |
 | [Add](../../aspose.cells/multiplefiltercollection/add/#add)(DateTimeGroupingType, int, int, int) | Adds a date filter criteria value. |
+| [Add](../../aspose.cells/multiplefiltercollection/add/#add_1)(DateTimeGroupingType, int, int, int, int, int, int) | Adds a date time filter criteria value. |
 
 ### Examples
 

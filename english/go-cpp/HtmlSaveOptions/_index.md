@@ -149,8 +149,8 @@ type HtmlSaveOptions struct  {
 |[SetIsBorderCollapsed](./setisbordercollapsed/) | Indicates whether the table borders are collapsed.The default value is true. | 
 |[GetEncodeEntityAsCode](./getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
 |[SetEncodeEntityAsCode](./setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
-|[GetOfficeMathOutputMode](./getofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
-|[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
+|[GetOfficeMathOutputMode](./getofficemathoutputmode/) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. | 
+|[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how OfficeMath objects are exported to HTML, Default value is Image. | 
 |[GetCellNameAttribute](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[GetDisableCss](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
@@ -165,6 +165,10 @@ type HtmlSaveOptions struct  {
 |[SetLayoutMode](./setlayoutmode/) | Gets or sets the layout mode when saving to HTML.The default value is HtmlLayoutMode.Normal | 
 |[GetEmbeddedFontType](./getembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
 |[SetEmbeddedFontType](./setembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
+|[GetExportNamedRangeAnchors](./getexportnamedrangeanchors/) | Indicates whether to export anchor elements  generated for named ranges when saving to HTML.Default value is true. | 
+|[SetExportNamedRangeAnchors](./setexportnamedrangeanchors/) | Indicates whether to export anchor elements  generated for named ranges when saving to HTML.Default value is true. | 
+|[GetDataBarRenderMode](./getdatabarrendermode/) | Indicates whether to display the DataBar as an image when saving to HTML..Default value is DataBarRenderMode.BackgroundColor | 
+|[SetDataBarRenderMode](./setdatabarrendermode/) | Indicates whether to display the DataBar as an image when saving to HTML..Default value is DataBarRenderMode.BackgroundColor | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

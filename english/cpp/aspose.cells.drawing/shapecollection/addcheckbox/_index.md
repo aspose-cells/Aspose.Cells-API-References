@@ -13,15 +13,15 @@ url: /cpp/aspose.cells.drawing/shapecollection/addcheckbox/
 Adds a checkbox to the worksheet.
 
 ```cpp
-CheckBox Aspose::Cells::Drawing::ShapeCollection::AddCheckBox(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)
+CheckBox Aspose::Cells::Drawing::ShapeCollection::AddCheckBox(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
+| topRow | int32_t | Upper left row index. |
 | top | int32_t | Represents the vertical offset of checkbox from its top row, in unit of pixel. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| leftColumn | int32_t | Upper left column index. |
 | left | int32_t | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int32_t | Height of textbox, in unit of pixel. |
 | width | int32_t | Width of textbox, in unit of pixel. |

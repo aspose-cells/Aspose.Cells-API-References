@@ -29,10 +29,10 @@ enum class PivotFieldSubtotalType
 | Min | 32 | <br>Represents Min subtotal type. |
 | Product | 64 | <br>Represents Product subtotal type. |
 | CountNums | 128 | <br>Represents Count Nums subtotal type. |
-| Stdev | 256 | <br>Represents Stdev subtotal type. |
-| Stdevp | 512 | <br>Represents Stdevp subtotal type. |
-| Var | 1024 | <br>Represents Var subtotal type. |
-| Varp | 2048 | <br>Represents Varp subtotal type. |
+| Stdev | 256 | <br>Represents Standard Deviation subtotal type. |
+| Stdevp | 512 | <br>Represents Standard Deviation of a Population subtotal type. |
+| Var | 1024 | <br>Represents Variance subtotal type. |
+| Varp | 2048 | <br>Represents Variance of a Population subtotal type. |
 
 ## See Also
 

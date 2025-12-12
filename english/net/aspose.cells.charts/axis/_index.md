@@ -23,7 +23,7 @@ public class Axis
 | [AxisLine](../../aspose.cells.charts/axis/axisline/) { get; } | Gets the appearance of an Axis. |
 | [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale/) { get; set; } | Represents the base unit scale for the category axis. |
 | [Bins](../../aspose.cells.charts/axis/bins/) { get; } | Represents bins on a chart(Histogram/Pareto) axis |
-| [CategoryType](../../aspose.cells.charts/axis/categorytype/) { get; set; } | Represents the category axis type. |
+| [CategoryType](../../aspose.cells.charts/axis/categorytype/) { get; set; } | Represents the type of the category axis. |
 | [CrossAt](../../aspose.cells.charts/axis/crossat/) { get; set; } | Represents the point on the value axis where the category axis crosses it. |
 | [CrossType](../../aspose.cells.charts/axis/crosstype/) { get; set; } | Represents the [`CrossType`](./crosstype/) on the specified axis where the other axis crosses. |
 | [CustomDisplayUnit](../../aspose.cells.charts/axis/customdisplayunit/) { get; set; } | Specifies a custom value for the display unit. |
@@ -41,7 +41,7 @@ public class Axis
 | [IsLogarithmic](../../aspose.cells.charts/axis/islogarithmic/) { get; set; } | Represents if the value axis scale type is logarithmic or not. |
 | [IsPlotOrderReversed](../../aspose.cells.charts/axis/isplotorderreversed/) { get; set; } | Represents if Microsoft Excel plots data points from last to first. |
 | [IsVisible](../../aspose.cells.charts/axis/isvisible/) { get; set; } | Represents if the axis is visible. |
-| [LogBase](../../aspose.cells.charts/axis/logbase/) { get; set; } | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [LogBase](../../aspose.cells.charts/axis/logbase/) { get; set; } | Represents the logarithmic base. Default value is 10. |
 | [MajorGridLines](../../aspose.cells.charts/axis/majorgridlines/) { get; } | Represents major gridlines on a chart axis. |
 | [MajorTickMark](../../aspose.cells.charts/axis/majortickmark/) { get; set; } | Represents the type of major tick mark for the specified axis. |
 | [MajorUnit](../../aspose.cells.charts/axis/majorunit/) { get; set; } | Represents the major units for the axis. |
@@ -56,7 +56,7 @@ public class Axis
 | [TickLabels](../../aspose.cells.charts/axis/ticklabels/) { get; } | Returns a [`TickLabels`](./ticklabels/) object that represents the tick-mark labels for the specified axis. |
 | [TickLabelSpacing](../../aspose.cells.charts/axis/ticklabelspacing/) { get; set; } | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [TickMarkSpacing](../../aspose.cells.charts/axis/tickmarkspacing/) { get; set; } | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
-| [Title](../../aspose.cells.charts/axis/title/) { get; } | Gets the axis' title. |
+| [Title](../../aspose.cells.charts/axis/title/) { get; } | Gets the title of this axis in the chart. |
 
 ## Methods
 

@@ -20,9 +20,9 @@ class OleObjectCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData)](./add/) | Adds an [OleObject](../oleobject/) to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const U16String\& linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
-| [Add(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const char16_t* linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData)](./add/) | Adds an [OleObject](../oleobject/) to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const U16String\& linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
+| [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const char16_t* linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
 | [Clear()](./clear/) | Remove all embedded OLE objects. |
 | [Get(int32_t index)](./get/) | Gets the [OleObject](../oleobject/) element at the specified index. |
 | [GetCount()](./getcount/) |  |

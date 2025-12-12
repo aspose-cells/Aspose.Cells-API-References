@@ -153,8 +153,8 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [IsSmartArt()](../shape/issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](../shape/istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](../shape/iswordart/) | Indicates whether this shape is a word art. |
-| [Move(int32_t upperLeftRow, int32_t upperLeftColumn)](./move/) | Moves the picture to a specified location. |
-| [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
+| [Move(int32_t topRow, int32_t leftColumn)](./move/) | Moves the picture to a specified location. |
+| [MoveToRange(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Aspose::Cells::Drawing::Picture\& src)](./operator_asm/) | operator= |
 | [operator=(const Shape\& src)](../shape/operator_asm/) | operator= |

@@ -84,6 +84,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getBubbleSizes()](#getBubbleSizes--) | Gets the bubble sizes values of the chart series. |
 | [getCachedCategoryValues()](#getCachedCategoryValues--) | Gets the cached category values for the series |
 | [getCachedValues()](#getCachedValues--) | Gets the cached values for the series |
+| [getCategoryValues()](#getCategoryValues--) | Gets the actual category values that are used to plot every point of this series in the chart. |
 | [getClass()](#getClass--) |  |
 | [getCountOfDataValues()](#getCountOfDataValues--) | Gets the number of the data values. |
 | [getDataLabels()](#getDataLabels--) | Represents the DataLabels object for the specified ASeries. |
@@ -103,6 +104,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getName()](#getName--) | Gets the name of the data series. |
 | [getOverlap()](#getOverlap--) | Specifies how bars and columns are positioned. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if this series is plotted on second value axis. |
+| [getPointValues()](#getPointValues--) | Gets the actual values that are used to plot every point of this series in the chart. |
 | [getPoints()](#getPoints--) | Gets the collection of points in a series in a chart. |
 | [getSecondPlotSize()](#getSecondPlotSize--) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. |
 | [getSeriesLines()](#getSeriesLines--) | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. |
@@ -119,7 +121,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getValues()](#getValues--) | Represents the Y values of this chart series. |
 | [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values's NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
-| [getXValues()](#getXValues--) | Represents the x values of the chart series. |
+| [getXValues()](#getXValues--) | Represents the X values of this chart series. |
 | [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values's NumberList. |
 | [getYErrorBar()](#getYErrorBar--) | Represents Y direction error bar of the series. |
 | [hasDropLines()](#hasDropLines--) | True if the chart has drop lines. |
@@ -166,7 +168,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [setType(int value)](#setType-int-) | Sets a data series' type. |
 | [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
 | [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values's NumberList. |
-| [setXValues(String value)](#setXValues-java.lang.String-) | Represents the x values of the chart series. |
+| [setXValues(String value)](#setXValues-java.lang.String-) | Represents the X values of this chart series. |
 | [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values's NumberList. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -283,6 +285,37 @@ NOTE: This property is currently for internal use only. It will be changed or re
 
 **Returns:**
 java.util.ArrayList
+### getCategoryValues() {#getCategoryValues--}
+```
+public ChartDataValue[][] getCategoryValues()
+```
+
+
+Gets the actual category values that are used to plot every point of this series in the chart.
+
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [getXValues()](../../com.aspose.cells/series\#getXValues--), especially when the specified data source is external link, formula, ...etc.
+
+**Example**
+
+```
+         //Standalone example
+         Workbook workbook = new Workbook("ExternalSourceChart.xlsx");
+         Worksheet worksheet = workbook.getWorksheets().get(0);
+         Chart chart = worksheet.getCharts().get(0);
+         chart.calculate();
+         String XValues = chart.getNSeries().get(0).getXValues();
+         // XValues may be like "[External.xlsx]Sheet1!$B$2:$C$6" which is complicated
+         // for user to get the actual values(the values may be linked to another workbook,
+         // or cached in current workbook). Here you can use CategoryValues property
+         // to get the category values actually displayed in the Excel interface
+         // in the form of a two-dimensional array.
+         ChartDataValue[][] v1 = chart.getNSeries().get(0).getCategoryValues();
+```
+
+**Returns:**
+com.aspose.cells.ChartDataValue[][]
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -483,6 +516,36 @@ Indicates if this series is plotted on second value axis.
 
 **Returns:**
 boolean
+### getPointValues() {#getPointValues--}
+```
+public ChartDataValue[] getPointValues()
+```
+
+
+Gets the actual values that are used to plot every point of this series in the chart.
+
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [getValues()](../../com.aspose.cells/series\#getValues--), especially when the specified data source is external link, formula, ...etc.
+
+**Example**
+
+```
+         Workbook workbook = new Workbook("ExternalSourceChart.xlsx");
+         Worksheet worksheet = workbook.getWorksheets().get(0);
+         Chart chart = worksheet.getCharts().get(0);
+         chart.calculate();
+         String Values = chart.getNSeries().get(0).getValues();
+         // Values could be like "[External.xlsx]Sheet1!$A$1:$A$6" which is complicated
+         // for user to get the actual values(the values may be linked to another workbook,
+         // or cached in current workbook). Here you can use PointValues property
+         // to get the values actually displayed in the Excel interface
+         // in the form of an array.
+         ChartDataValue[] v1 = chart.getNSeries().get(0).getPointValues();
+```
+
+**Returns:**
+com.aspose.cells.ChartDataValue[]
 ### getPoints() {#getPoints--}
 ```
 public ChartPointCollection getPoints()
@@ -635,6 +698,10 @@ public String getValues()
 
 Represents the Y values of this chart series.
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series\#getPointValues--).
+
 **Returns:**
 java.lang.String
 ### getValuesFormatCode() {#getValuesFormatCode--}
@@ -663,7 +730,11 @@ public String getXValues()
 ```
 
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
+
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--).
 
 **Returns:**
 java.lang.String
@@ -1216,6 +1287,10 @@ public void setValues(String value)
 
 Represents the Y values of this chart series.
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series\#getPointValues--).
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1240,7 +1315,11 @@ public void setXValues(String value)
 ```
 
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
+
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -14,7 +14,7 @@ Adds a chart to the collection.
 
 ```go
 
-func (instance *ChartCollection) Add_ChartType_Int_Int_Int_Int(type_ ChartType, upperleftrow int32, upperleftcolumn int32, lowerrightrow int32, lowerrightcolumn int32)  (int32,  error) 
+func (instance *ChartCollection) Add_ChartType_Int_Int_Int_Int(type_ ChartType, toprow int32, leftcolumn int32, bottomrow int32, rightcolumn int32)  (int32,  error) 
 
 ```
 

@@ -10,15 +10,14 @@ url: /net/aspose.cells.drawing/shapecollection/addline/
 Adds a LineShape to the worksheet.
 
 ```csharp
-public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width)
+public LineShape AddLine(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Upper left row index. |
+| topRow | Int32 | Upper left row index. |
 | top | Int32 | Represents the vertical offset of LineShape from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
+| leftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of LineShape from its left column, in unit of pixel. |
 | height | Int32 | Represents the height of LineShape, in unit of pixel. |
 | width | Int32 | Represents the width of LineShape, in unit of pixel. |

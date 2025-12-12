@@ -32,7 +32,7 @@ type PivotFieldSubtotalType int32
 |[Min](./min/) | Represents Min subtotal type. | 
 |[Product](./product/) | Represents Product subtotal type. | 
 |[CountNums](./countnums/) | Represents Count Nums subtotal type. | 
-|[Stdev](./stdev/) | Represents Stdev subtotal type. | 
-|[Stdevp](./stdevp/) | Represents Stdevp subtotal type. | 
-|[Var](./var/) | Represents Var subtotal type. | 
-|[Varp](./varp/) | Represents Varp subtotal type. | 
+|[Stdev](./stdev/) | Represents Standard Deviation subtotal type. | 
+|[Stdevp](./stdevp/) | Represents Standard Deviation of a Population subtotal type. | 
+|[Var](./var/) | Represents Variance subtotal type. | 
+|[Varp](./varp/) | Represents Variance of a Population subtotal type. | 

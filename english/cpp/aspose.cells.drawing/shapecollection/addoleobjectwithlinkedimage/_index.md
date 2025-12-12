@@ -4,7 +4,7 @@ linktitle: AddOleObjectWithLinkedImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage method. Add a linked picture in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells.drawing/shapecollection/addoleobjectwithlinkedimage/
 ---
 ## ShapeCollection::AddOleObjectWithLinkedImage(int32_t, int32_t, int32_t, int32_t, const U16String\&) method
@@ -13,14 +13,14 @@ url: /cpp/aspose.cells.drawing/shapecollection/addoleobjectwithlinkedimage/
 Add a linked picture.
 
 ```cpp
-OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const U16String &sourceFullName)
+OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const U16String &sourceFullName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | The height of the shape. In unit of pixels |
 | width | int32_t | The width of the shape. In unit of pixels |
 | sourceFullName | const U16String\& | The path and name of the source file for the linked image |
@@ -43,14 +43,14 @@ OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage(i
 Add a linked picture.
 
 ```cpp
-OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t height, int32_t width, const char16_t *sourceFullName)
+OleObject Aspose::Cells::Drawing::ShapeCollection::AddOleObjectWithLinkedImage(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const char16_t *sourceFullName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
 | height | int32_t | The height of the shape. In unit of pixels |
 | width | int32_t | The width of the shape. In unit of pixels |
 | sourceFullName | const char16_t* | The path and name of the source file for the linked image |

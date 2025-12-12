@@ -18,6 +18,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
 | [ChartCollection](./chartcollection/) | Encapsulates a collection of [`Chart`](../aspose.cells.charts/chart/) objects. |
 | [ChartDataTable](./chartdatatable/) | Represents a chart data table. |
+| [ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |
 | [ChartFrame](./chartframe/) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](./chartglobalizationsettings/) | Represents the globalization settings for chart. |
 | [ChartPoint](./chartpoint/) | Represents a single point in a series in a chart. |

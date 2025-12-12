@@ -14,7 +14,7 @@ Adds a ListBox to the worksheet.
 
 ```go
 
-func (instance *ShapeCollection) AddListBox(upperleftrow int32, top int32, upperleftcolumn int32, left int32, height int32, width int32)  (*ListBox,  error) 
+func (instance *ShapeCollection) AddListBox(toprow int32, top int32, leftcolumn int32, left int32, height int32, width int32)  (*ListBox,  error) 
 
 ```
 

@@ -4,7 +4,7 @@ linktitle: GetMajorGridLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetMajorGridLines method. Represents major gridlines on a chart axis in C++.'
 type: docs
-weight: 6300
+weight: 6900
 url: /cpp/aspose.cells.charts/axis/getmajorgridlines/
 ---
 ## Axis::GetMajorGridLines method

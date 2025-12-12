@@ -13,16 +13,16 @@ url: /cpp/aspose.cells.drawing/shape/movetorange/
 Moves the shape to a specified range.
 
 ```cpp
-void Aspose::Cells::Drawing::Shape::MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)
+void Aspose::Cells::Drawing::Shape::MoveToRange(int32_t topRow, int32_t leftColumn, int32_t bottomRow, int32_t rightColumn)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int32_t | Upper left row index. |
-| upperLeftColumn | int32_t | Upper left column index. |
-| lowerRightRow | int32_t | Lower right row index |
-| lowerRightColumn | int32_t | Lower right column index |
+| topRow | int32_t | Upper left row index. |
+| leftColumn | int32_t | Upper left column index. |
+| bottomRow | int32_t | Lower right row index |
+| rightColumn | int32_t | Lower right column index |
 
 
 ## Examples

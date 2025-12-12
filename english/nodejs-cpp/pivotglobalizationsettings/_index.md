@@ -45,6 +45,7 @@ class PivotGlobalizationSettings;
 | abstract [getTextOfSeconds()](#getTextOfSeconds--)| Gets the local text of "Seconds" |
 | abstract [getTextOfRange()](#getTextOfRange--)| Gets the local text of "Range" |
 | abstract [getTextOfAllPeriods()](#getTextOfAllPeriods--)| Gets the localized text of "All Periods". |
+| abstract [getNameOfDataField(ConsolidationFunction, string)](#getNameOfDataField-consolidationfunction-string-)| Gets the display name of data pivot field. The default format is "Sum Of Field". |
 | abstract [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
 
 
@@ -288,6 +289,20 @@ Gets the localized text of "All Periods".
 abstract getTextOfAllPeriods() : string;
 ```
 
+
+### getNameOfDataField(ConsolidationFunction, string) {#getNameOfDataField-consolidationfunction-string-}
+
+Gets the display name of data pivot field. The default format is "Sum Of Field".
+
+```javascript
+abstract getNameOfDataField(consolidationFunction: ConsolidationFunction, name: string) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| consolidationFunction | [ConsolidationFunction](../consolidationfunction/) | The function is used to summarize values of pivot field. |
+| name | string | The original name of the pivot field. |
 
 ### getTextOfSubTotal(PivotFieldSubtotalType) {#getTextOfSubTotal-pivotfieldsubtotaltype-}
 

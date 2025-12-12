@@ -65,14 +65,14 @@ get(name: string) : TextBox;
 Adds a textbox to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number) : number;
+add(topRow: number, leftColumn: number, height: number, width: number) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | height | number | Height of textbox, in unit of pixel. |
 | width | number | Width of textbox, in unit of pixel. |
 

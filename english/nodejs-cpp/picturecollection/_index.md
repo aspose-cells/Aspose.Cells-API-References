@@ -70,16 +70,16 @@ camera(row: number, column: number, range: string) : number;
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number, stream: Uint8Array) : number;
+add(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number, stream: Uint8Array) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 | stream | Uint8Array | Stream object which contains the image data. |
 
 **Returns**
@@ -91,16 +91,16 @@ add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerR
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerRightColumn: number, fileName: string) : number;
+add(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number, fileName: string) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
-| lowerRightRow | number | Lower right row index |
-| lowerRightColumn | number | Lower right column index |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
+| bottomRow | number | Lower right row index |
+| rightColumn | number | Lower right column index |
 | fileName | string | Image filename. |
 
 **Returns**
@@ -112,14 +112,14 @@ add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerR
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array) : number;
+add(topRow: number, leftColumn: number, stream: Uint8Array) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | stream | Uint8Array | Stream object which contains the image data. |
 
 **Returns**
@@ -131,14 +131,14 @@ add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array) : number;
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, fileName: string) : number;
+add(topRow: number, leftColumn: number, fileName: string) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | fileName | string | Image filename. |
 
 **Returns**
@@ -150,14 +150,14 @@ add(upperLeftRow: number, upperLeftColumn: number, fileName: string) : number;
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, widthScale: number, heightScale: number) : number;
+add(topRow: number, leftColumn: number, stream: Uint8Array, widthScale: number, heightScale: number) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | stream | Uint8Array | Stream object which contains the image data. |
 | widthScale | number | Scale of image width, a percentage. |
 | heightScale | number | Scale of image height, a percentage. |
@@ -171,14 +171,14 @@ add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, widthScal
 Adds a picture to the collection.
 
 ```javascript
-add(upperLeftRow: number, upperLeftColumn: number, fileName: string, widthScale: number, heightScale: number) : number;
+add(topRow: number, leftColumn: number, fileName: string, widthScale: number, heightScale: number) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | number | Upper left row index. |
-| upperLeftColumn | number | Upper left column index. |
+| topRow | number | Upper left row index. |
+| leftColumn | number | Upper left column index. |
 | fileName | string | Image filename. |
 | widthScale | number | Scale of image width, a percentage. |
 | heightScale | number | Scale of image height, a percentage. |

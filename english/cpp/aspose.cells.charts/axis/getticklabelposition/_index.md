@@ -4,7 +4,7 @@ linktitle: GetTickLabelPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Axis::GetTickLabelPosition method. Represents the position of tick-mark labels on the specified axis in C++.'
 type: docs
-weight: 2400
+weight: 2800
 url: /cpp/aspose.cells.charts/axis/getticklabelposition/
 ---
 ## Axis::GetTickLabelPosition method

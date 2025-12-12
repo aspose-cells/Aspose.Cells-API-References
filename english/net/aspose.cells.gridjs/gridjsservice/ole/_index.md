@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/gridjsservice/ole/
 Gets the byte array data of the embedded ole object .
 
 ```csharp
-public byte[] Ole(string uid, string sheet, int oleid, out string filename)
+public byte[] Ole(string uid, string sheetname, int oleid, out string label)
 ```
 
 | Parameter | Type | Description |

@@ -28,7 +28,7 @@ class Axis
 | [GetAxisTexts()](./getaxistexts/) | Gets the labels of the axis after call [Chart.Calculate()](../chart/calculate/) method. |
 | [GetBaseUnitScale()](./getbaseunitscale/) | Represents the base unit scale for the category axis. |
 | [GetBins()](./getbins/) | Represents bins on a chart(Histogram/Pareto) axis. |
-| [GetCategoryType()](./getcategorytype/) | Represents the category axis type. |
+| [GetCategoryType()](./getcategorytype/) | Represents the type of the category axis. |
 | [GetCrossAt()](./getcrossat/) | Represents the point on the value axis where the category axis crosses it. |
 | [GetCrossType()](./getcrosstype/) | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
 | [GetCustomDisplayUnit()](./getcustomdisplayunit/) | Specifies a custom value for the display unit. |
@@ -36,7 +36,7 @@ class Axis
 | [GetDisplayUnit()](./getdisplayunit/) | Represents the unit label for the specified axis. |
 | [GetDisplayUnitLabel()](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [GetHasMultiLevelLabels()](./gethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. |
-| [GetLogBase()](./getlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [GetLogBase()](./getlogbase/) | Represents the logarithmic base. Default value is 10. |
 | [GetMajorGridLines()](./getmajorgridlines/) | Represents major gridlines on a chart axis. |
 | [GetMajorTickMark()](./getmajortickmark/) | Represents the type of major tick mark for the specified axis. |
 | [GetMajorUnit()](./getmajorunit/) | Represents the major units for the axis. |
@@ -51,7 +51,7 @@ class Axis
 | [GetTickLabels()](./getticklabels/) | Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis. |
 | [GetTickLabelSpacing()](./getticklabelspacing/) | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [GetTickMarkSpacing()](./gettickmarkspacing/) | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
-| [GetTitle()](./gettitle/) | Gets the axis' title. |
+| [GetTitle()](./gettitle/) | Gets the title of this axis in the chart. |
 | [IsAutomaticMajorUnit()](./isautomaticmajorunit/) | Indicates whether the major unit of the axis is automatically assigned. |
 | [IsAutomaticMaxValue()](./isautomaticmaxvalue/) | Indicates whether the max value is automatically assigned. |
 | [IsAutomaticMinorUnit()](./isautomaticminorunit/) | Indicates whether the minor unit of the axis is automatically assigned. |
@@ -66,7 +66,7 @@ class Axis
 | [operator=(const Axis\& src)](./operator_asm/) | operator= |
 | [SetAxisBetweenCategories(bool value)](./setaxisbetweencategories/) | Represents if the value axis crosses the category axis between categories. |
 | [SetBaseUnitScale(TimeUnit value)](./setbaseunitscale/) | Represents the base unit scale for the category axis. |
-| [SetCategoryType(CategoryType value)](./setcategorytype/) | Represents the category axis type. |
+| [SetCategoryType(CategoryType value)](./setcategorytype/) | Represents the type of the category axis. |
 | [SetCrossAt(double value)](./setcrossat/) | Represents the point on the value axis where the category axis crosses it. |
 | [SetCrossType(CrossType value)](./setcrosstype/) | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
 | [SetCustomDisplayUnit(double value)](./setcustomdisplayunit/) | Specifies a custom value for the display unit. |
@@ -82,7 +82,7 @@ class Axis
 | [SetIsLogarithmic(bool value)](./setislogarithmic/) | Represents if the value axis scale type is logarithmic or not. |
 | [SetIsPlotOrderReversed(bool value)](./setisplotorderreversed/) | Represents if Microsoft Excel plots data points from last to first. |
 | [SetIsVisible(bool value)](./setisvisible/) | Represents if the axis is visible. |
-| [SetLogBase(double value)](./setlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
+| [SetLogBase(double value)](./setlogbase/) | Represents the logarithmic base. Default value is 10. |
 | [SetMajorTickMark(TickMarkType value)](./setmajortickmark/) | Represents the type of major tick mark for the specified axis. |
 | [SetMajorUnit(double value)](./setmajorunit/) | Represents the major units for the axis. |
 | [SetMajorUnitScale(TimeUnit value)](./setmajorunitscale/) | Represents the major unit scale for the category axis. |
