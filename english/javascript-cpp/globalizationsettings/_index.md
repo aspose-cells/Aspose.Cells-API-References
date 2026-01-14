@@ -26,7 +26,7 @@ class GlobalizationSettings;
 | Property | Type | Description |
 | --- | --- | --- |
 | [chartSettings](#chartSettings--)| ChartGlobalizationSettings | Gets or sets the globalization settings for Chart. |
-| [pivotSettings](#pivotSettings--)| PivotGlobalizationSettings | Gets or sets the globalization settings for pivot table. |
+| [pivotSettings](#pivotSettings--)| PivotGlobalizationSettings | Gets or sets the globalization settings for the pivot table. |
 
 ## Methods
 
@@ -74,7 +74,7 @@ chartSettings : ChartGlobalizationSettings;
 
 ### pivotSettings {#pivotSettings--}
 
-Gets or sets the globalization settings for pivot table.
+Gets or sets the globalization settings for the pivot table.
 
 ```javascript
 pivotSettings : PivotGlobalizationSettings;

@@ -21,17 +21,17 @@ User should not modify any part of the Workbook directly in this implementation(
 
 | Method | Description |
 | --- | --- |
-| [skipCalculation()](#skipCalculation--)| Skips the calculation for the entire formula that references to the function currently under evaluation. |
-| abstract [isParamLiteralRequired()](#isParamLiteralRequired--)| Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. |
+| [skipCalculation()](#skipCalculation--)| Skips the calculation for the entire formula that references the function currently under evaluation. |
+| abstract [isParamLiteralRequired()](#isParamLiteralRequired--)| Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false. |
 | abstract [isParamArrayModeRequired()](#isParamArrayModeRequired--)| Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](../calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](../workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true. |
 | abstract [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--)| Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. |
 | abstract [calculate(CalculationData)](#calculate-calculationdata-)| Calculates one function with given data. |
-| abstract [forceRecalculate(string)](#forceRecalculate-string-)| Whether force given function to be recalculated always when calculating shared formulas. |
+| abstract [forceRecalculate(string)](#forceRecalculate-string-)| Whether to force the given function to be recalculated always when calculating shared formulas. |
 
 
 ### skipCalculation() {#skipCalculation--}
 
-Skips the calculation for the entire formula that references to the function currently under evaluation.
+Skips the calculation for the entire formula that references the function currently under evaluation.
 
 ```javascript
 skipCalculation() : void;
@@ -44,7 +44,7 @@ This method can be invoked in the implementation of [Calculate(CalculationData)]
 
 ### isParamLiteralRequired() {#isParamLiteralRequired--}
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false.
 
 ```javascript
 abstract isParamLiteralRequired() : boolean;
@@ -100,7 +100,7 @@ User should set the calculated value for given data for all functions(including 
 
 ### forceRecalculate(string) {#forceRecalculate-string-}
 
-Whether force given function to be recalculated always when calculating shared formulas.
+Whether to force the given function to be recalculated always when calculating shared formulas.
 
 ```javascript
 abstract forceRecalculate(functionName: string) : boolean;

@@ -19,9 +19,9 @@ class EbookLoadOptions extends HtmlLoadOptions;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates an options of loading the ebook file. |
+| [constructor()](#constructor--)| Creates an option for loading the ebook file. |
 | [constructor(HtmlLoadOptions)](#constructor-htmlloadoptions-)| Constructs from a parent object convertible to this. |
-| [constructor(LoadFormat)](#constructor-loadformat-)| Creates an options of loading the ebook file. |
+| [constructor(LoadFormat)](#constructor-loadformat-)| Creates an option of loading the ebook file. |
 
 ## Properties
 
@@ -60,6 +60,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [hasFormula](#hasFormula--)| boolean | Indicates whether the text is formula if it starts with "=". |
 | [progId](#progId--)| string | Readonly. Gets the program id of creating the file. Only for MHT files. |
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
+| [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 
 ## Methods
 
@@ -70,7 +71,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 
 ### constructor() {#constructor--}
 
-Creates an options of loading the ebook file.
+Creates an option for loading the ebook file.
 
 ```javascript
 constructor();
@@ -92,7 +93,7 @@ constructor(obj: HtmlLoadOptions);
 
 ### constructor(LoadFormat) {#constructor-loadformat-}
 
-Creates an options of loading the ebook file.
+Creates an option of loading the ebook file.
 
 ```javascript
 constructor(loadFormat: LoadFormat);
@@ -437,6 +438,15 @@ Readonly. Get the HtmlTableLoadOptionCollection instance
 
 ```javascript
 tableLoadOptions : HtmlTableLoadOptionCollection;
+```
+
+
+### detectLaTeX {#detectLaTeX--}
+
+Indicates whether to detect LaTeX formula in the HTML file. The default value is false.
+
+```javascript
+detectLaTeX : boolean;
 ```
 
 

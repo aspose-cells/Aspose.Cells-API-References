@@ -20,7 +20,6 @@ class GradientStopCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the gradient stop by the index. |
-| [set(GradientStop, number)](#set-gradientstop-number-)| Gets the gradient stop by the index. |
 | [add(number, CellsColor, number)](#add-number-cellscolor-number-)| Add a gradient stop. |
 | [add(number, Color, number)](#add-number-color-number-)| Add a gradient stop. |
 
@@ -36,24 +35,6 @@ get(index: number) : GradientStop;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | number | The index. |
-
-**Returns**
-
-The gradient stop.
-
-### set(GradientStop, number) {#set-gradientstop-number-}
-
-Gets the gradient stop by the index.
-
-```javascript
-set(value: GradientStop, index: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [GradientStop](../gradientstop/) |  |
 | index | number | The index. |
 
 **Returns**

@@ -84,11 +84,11 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
 | [isVerticalValues](#isVerticalValues--)| boolean | Readonly. Indicates whether the data source is vertical. |
 | [values](#values--)| string | Represents the Y values of this chart series. |
-| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the values for the points of the series |
-| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the category values of the series |
+| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the actual values that are used to plot every point of this series in the chart. |
+| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the actual category values that are used to plot every point of this series in the chart. |
 | [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
 | [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
-| [xValues](#xValues--)| string | Represents the x values of the chart series. |
+| [xValues](#xValues--)| string | Represents the X values of this chart series. |
 | [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble sizes values of the chart series. |
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
 | [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
@@ -249,23 +249,35 @@ values : string;
 ```
 
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [PointValues](../pointvalues/).
+
 ### pointValues {#pointValues--}
 
-Readonly. Gets the values for the points of the series
+Readonly. Gets the actual values that are used to plot every point of this series in the chart.
 
 ```javascript
 pointValues : ChartDataValue[];
 ```
 
 
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.Values](../series.values/), especially when the specified data source is external link, formula, ...etc.
+
 ### categoryValues {#categoryValues--}
 
-Readonly. Gets the category values of the series
+Readonly. Gets the actual category values that are used to plot every point of this series in the chart.
 
 ```javascript
 categoryValues : ChartDataValue[][];
 ```
 
+
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.XValues](../series.xvalues/), especially when the specified data source is external link, formula, ...etc.
 
 ### valuesFormatCode {#valuesFormatCode--}
 
@@ -287,12 +299,16 @@ xValuesFormatCode : string;
 
 ### xValues {#xValues--}
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
 
 ```javascript
 xValues : string;
 ```
 
+
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
 
 ### bubbleSizes {#bubbleSizes--}
 

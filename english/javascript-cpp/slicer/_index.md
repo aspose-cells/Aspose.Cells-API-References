@@ -19,6 +19,10 @@ class Slicer;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [sortOrderType](#sortOrderType--)| SortOrder | Indicates the type of sorting items. |
+| [showMissing](#showMissing--)| boolean | Indicates whether to show items deteleted from the data source. |
+| [showTypeOfItemsWithNoData](#showTypeOfItemsWithNoData--)| ItemsWithNoDataShowMode | Indicates whether to show items deteleted from the data source. |
+| [showAllItems](#showAllItems--)| boolean | Indicates whether to show all items even if there are no data or they are deleted. Default value is true; |
 | [title](#title--)| string | Specifies the title of the current Slicer object. |
 | [alternativeText](#alternativeText--)| string | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [isPrintable](#isPrintable--)| boolean | Indicates whether the slicer object is printable. |
@@ -29,11 +33,14 @@ class Slicer;
 | [shape](#shape--)| SlicerShape | Readonly. Returns the Shape object associated with the specified slicer. Read-only. |
 | [slicerCache](#slicerCache--)| SlicerCache | Readonly. Returns the SlicerCache object associated with the slicer. Read-only. |
 | [parent](#parent--)| Worksheet | Readonly. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only. |
-| [styleType](#styleType--)| SlicerStyleType | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only. |
+| [styleType](#styleType--)| SlicerStyleType | Specify the type of Built-in slicer style. The default type is SlicerStyleLight1. |
 | [name](#name--)| string | Returns or sets the name of the specified slicer |
 | [caption](#caption--)| string | Returns or sets the caption of the specified slicer. |
-| [captionVisible](#captionVisible--)| boolean | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
-| [numberOfColumns](#numberOfColumns--)| number | Returns or sets the number of columns in the specified slicer. |
+| [firstItemIndex](#firstItemIndex--)| number | Specifies the zero-based index of the first slicer item. |
+| [captionVisible](#captionVisible--)| boolean | Returns or sets whether the header that displays the slicer Caption is visible. The default value is true |
+| [showCaption](#showCaption--)| boolean | Indicates whether the header of the slicer is visible. The default value is true |
+| [numberOfColumns](#numberOfColumns--)| number | Returns or sets the number of columns in the specified slicer. The default value is 1. |
 | [leftPixel](#leftPixel--)| number | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
 | [topPixel](#topPixel--)| number | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [width](#width--)| number | Returns or sets the width of the specified slicer, in points. |
@@ -41,9 +48,9 @@ class Slicer;
 | [height](#height--)| number | Returns or sets the height of the specified slicer, in points. |
 | [heightPixel](#heightPixel--)| number | Returns or sets the height of the specified slicer, in pixels. |
 | [columnWidthPixel](#columnWidthPixel--)| number | Gets or sets the width of each column in the slicer, in unit of pixels. |
-| [columnWidth](#columnWidth--)| number | Returns or sets the width, in points, of each column in the slicer. |
-| [rowHeightPixel](#rowHeightPixel--)| number | Returns or sets the height, in pixels, of each row in the specified slicer. |
-| [rowHeight](#rowHeight--)| number | Returns or sets the height, in points, of each row in the specified slicer. |
+| [columnWidth](#columnWidth--)| number | Returns or sets the width of each column in the slicer in unit of points. |
+| [rowHeightPixel](#rowHeightPixel--)| number | Returns or sets the height of each row in the specified slicer, in unit of pixels. |
+| [rowHeight](#rowHeight--)| number | Returns or sets the height of each row in the specified slicer in unit of points. |
 
 ## Methods
 
@@ -51,7 +58,51 @@ class Slicer;
 | --- | --- |
 | [addPivotConnection(PivotTable)](#addPivotConnection-pivottable-)| Adds PivotTable connection. |
 | [removePivotConnection(PivotTable)](#removePivotConnection-pivottable-)| Removes PivotTable connection. |
-| [refresh()](#refresh--)| Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. |
+| [refresh()](#refresh--)| Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. |
+
+
+### sortOrderType {#sortOrderType--}
+
+Indicates the type of sorting items.
+
+```javascript
+sortOrderType : SortOrder;
+```
+
+
+### showMissing {#showMissing--}
+
+Indicates whether to show items deteleted from the data source.
+
+```javascript
+showMissing : boolean;
+```
+
+
+**Remarks**
+
+Only works when [Slicer.ShowAllItems](../slicer.showallitems/) is true.
+
+### showTypeOfItemsWithNoData {#showTypeOfItemsWithNoData--}
+
+Indicates whether to show items deteleted from the data source.
+
+```javascript
+showTypeOfItemsWithNoData : ItemsWithNoDataShowMode;
+```
+
+
+**Remarks**
+
+Only works when [Slicer.ShowAllItems](../slicer.showallitems/) is true.
+
+### showAllItems {#showAllItems--}
+
+Indicates whether to show all items even if there are no data or they are deleted. Default value is true;
+
+```javascript
+showAllItems : boolean;
+```
 
 
 ### title {#title--}
@@ -63,6 +114,10 @@ title : string;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.Title](../shape.title/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### alternativeText {#alternativeText--}
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
@@ -71,6 +126,10 @@ Returns or sets the descriptive (alternative) text string of the Slicer object.
 alternativeText : string;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.AlternativeText](../shape.alternativetext/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isPrintable {#isPrintable--}
 
@@ -81,6 +140,10 @@ isPrintable : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.IsPrintable](../shape.isprintable/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### isLocked {#isLocked--}
 
 Indicates whether the slicer shape is locked.
@@ -89,6 +152,10 @@ Indicates whether the slicer shape is locked.
 isLocked : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.IsLocked](../shape.islocked/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### placement {#placement--}
 
@@ -99,6 +166,10 @@ placement : PlacementType;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.Placement](../shape.placement/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### lockedAspectRatio {#lockedAspectRatio--}
 
 Indicates whether locking aspect ratio.
@@ -107,6 +178,10 @@ Indicates whether locking aspect ratio.
 lockedAspectRatio : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.GetLockedProperty()](../shape.getlockedproperty()/) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### lockedPosition {#lockedPosition--}
 
@@ -144,9 +219,22 @@ parent : Worksheet;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Slicer.Worksheet](../slicer.worksheet/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### worksheet {#worksheet--}
+
+Readonly. Returns the [Worksheet](../worksheet/) object which contains this slicer. Read-only.
+
+```javascript
+worksheet : Worksheet;
+```
+
+
 ### styleType {#styleType--}
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+Specify the type of Built-in slicer style. The default type is SlicerStyleLight1.
 
 ```javascript
 styleType : SlicerStyleType;
@@ -171,18 +259,40 @@ caption : string;
 ```
 
 
+### firstItemIndex {#firstItemIndex--}
+
+Specifies the zero-based index of the first slicer item.
+
+```javascript
+firstItemIndex : number;
+```
+
+
 ### captionVisible {#captionVisible--}
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+Returns or sets whether the header that displays the slicer Caption is visible. The default value is true
 
 ```javascript
 captionVisible : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Slicer.ShowCaption](../slicer.showcaption/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### showCaption {#showCaption--}
+
+Indicates whether the header of the slicer is visible. The default value is true
+
+```javascript
+showCaption : boolean;
+```
+
+
 ### numberOfColumns {#numberOfColumns--}
 
-Returns or sets the number of columns in the specified slicer.
+Returns or sets the number of columns in the specified slicer. The default value is 1.
 
 ```javascript
 numberOfColumns : number;
@@ -278,7 +388,7 @@ columnWidthPixel : number;
 
 ### columnWidth {#columnWidth--}
 
-Returns or sets the width, in points, of each column in the slicer.
+Returns or sets the width of each column in the slicer in unit of points.
 
 ```javascript
 columnWidth : number;
@@ -287,7 +397,7 @@ columnWidth : number;
 
 ### rowHeightPixel {#rowHeightPixel--}
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer, in unit of pixels.
 
 ```javascript
 rowHeightPixel : number;
@@ -296,7 +406,7 @@ rowHeightPixel : number;
 
 ### rowHeight {#rowHeight--}
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 ```javascript
 rowHeight : number;
@@ -331,7 +441,7 @@ removePivotConnection(pivot: PivotTable) : void;
 
 ### refresh() {#refresh--}
 
-Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables.
+Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
 
 ```javascript
 refresh() : void;

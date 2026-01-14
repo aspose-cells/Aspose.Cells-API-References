@@ -26,6 +26,7 @@ class PasteOptions;
 | Property | Type | Description |
 | --- | --- | --- |
 | [pasteType](#pasteType--)| PasteType | The paste special type. |
+| [shiftFormulasOfShapes](#shiftFormulasOfShapes--)| boolean | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [skipBlanks](#skipBlanks--)| boolean | Indicates whether skips blank cells. |
 | [keepOldTables](#keepOldTables--)| boolean | Keeps the tables in the destination range. |
 | [onlyVisibleCells](#onlyVisibleCells--)| boolean | True means only copying visible cells. |
@@ -49,6 +50,15 @@ The paste special type.
 
 ```javascript
 pasteType : PasteType;
+```
+
+
+### shiftFormulasOfShapes {#shiftFormulasOfShapes--}
+
+Indicates whether to shift formulas of the shapes when copying ranges.
+
+```javascript
+shiftFormulasOfShapes : boolean;
 ```
 
 

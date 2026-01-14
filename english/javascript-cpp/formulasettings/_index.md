@@ -20,16 +20,16 @@ class FormulaSettings;
 | Property | Type | Description |
 | --- | --- | --- |
 | [calculateOnOpen](#calculateOnOpen--)| boolean | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [calculateOnSave](#calculateOnSave--)| boolean | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
-| [forceFullCalculation](#forceFullCalculation--)| boolean | Indicates whether calculates all formulas every time when a calculation is triggered. |
-| [calculationMode](#calculationMode--)| CalcModeType | Gets or sets the mode for workbook calculation in ms excel. |
+| [calculateOnSave](#calculateOnSave--)| boolean | Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
+| [forceFullCalculation](#forceFullCalculation--)| boolean | Indicates whether it calculates all formulas every time when a calculation is triggered. |
+| [calculationMode](#calculationMode--)| CalcModeType | Gets or sets the mode for workbook calculation in MS Excel. |
 | [calculationId](#calculationId--)| string | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [enableIterativeCalculation](#enableIterativeCalculation--)| boolean | Indicates whether enable iterative calculation to resolve circular references. |
+| [enableIterativeCalculation](#enableIterativeCalculation--)| boolean | Indicates whether to enable iterative calculation to resolve circular references. |
 | [maxIteration](#maxIteration--)| number | The maximum iterations to resolve a circular reference. |
 | [maxChange](#maxChange--)| number | The maximum change to resolve a circular reference. |
-| [precisionAsDisplayed](#precisionAsDisplayed--)| boolean | Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [enableCalculationChain](#enableCalculationChain--)| boolean | Whether enable calculation chain for formulas. Default is false. |
-| [preservePaddingSpaces](#preservePaddingSpaces--)| boolean | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [precisionAsDisplayed](#precisionAsDisplayed--)| boolean | Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [enableCalculationChain](#enableCalculationChain--)| boolean | Indicates whether to enable calculation chain for formulas. Default is false. |
+| [preservePaddingSpaces](#preservePaddingSpaces--)| boolean | Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 
 
 ### calculateOnOpen {#calculateOnOpen--}
@@ -47,7 +47,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### calculateOnSave {#calculateOnSave--}
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```javascript
 calculateOnSave : boolean;
@@ -60,7 +60,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### forceFullCalculation {#forceFullCalculation--}
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```javascript
 forceFullCalculation : boolean;
@@ -73,7 +73,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### calculationMode {#calculationMode--}
 
-Gets or sets the mode for workbook calculation in ms excel.
+Gets or sets the mode for workbook calculation in MS Excel.
 
 ```javascript
 calculationMode : CalcModeType;
@@ -99,7 +99,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### enableIterativeCalculation {#enableIterativeCalculation--}
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 ```javascript
 enableIterativeCalculation : boolean;
@@ -126,7 +126,7 @@ maxChange : number;
 
 ### precisionAsDisplayed {#precisionAsDisplayed--}
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```javascript
 precisionAsDisplayed : boolean;
@@ -135,7 +135,7 @@ precisionAsDisplayed : boolean;
 
 ### enableCalculationChain {#enableCalculationChain--}
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```javascript
 enableCalculationChain : boolean;
@@ -148,7 +148,7 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 ### preservePaddingSpaces {#preservePaddingSpaces--}
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```javascript
 preservePaddingSpaces : boolean;

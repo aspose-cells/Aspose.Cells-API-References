@@ -1,14 +1,14 @@
 ﻿---
 title: PclSaveOptions
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the options for saving Pcl file.
+description: Represents the options for saving a Pcl file.
 type: docs
 url: /javascript-cpp/pclsaveoptions/
 ---
 
 ## PclSaveOptions class
 
-Represents the options for saving Pcl file.
+Represents the options for saving a Pcl file.
 
 ```javascript
 class PclSaveOptions extends PaginatedSaveOptions;

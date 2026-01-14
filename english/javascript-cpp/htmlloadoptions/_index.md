@@ -1,14 +1,14 @@
 ﻿---
 title: HtmlLoadOptions
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents options when importing a html file.
+description: Represents options when importing an HTML file.
 type: docs
 url: /javascript-cpp/htmlloadoptions/
 ---
 
 ## HtmlLoadOptions class
 
-Represents options when importing a html file.
+Represents options when importing an HTML file.
 
 ```javascript
 class HtmlLoadOptions extends AbstractTextLoadOptions;
@@ -34,6 +34,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [hasFormula](#hasFormula--)| boolean | Indicates whether the text is formula if it starts with "=". |
 | [progId](#progId--)| string | Readonly. Gets the program id of creating the file. Only for MHT files. |
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
+| [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
 | [parsingFormulaOnOpen](#parsingFormulaOnOpen--)| boolean | Indicates whether parsing the formula when reading the file. |
@@ -163,6 +164,15 @@ Readonly. Get the HtmlTableLoadOptionCollection instance
 
 ```javascript
 tableLoadOptions : HtmlTableLoadOptionCollection;
+```
+
+
+### detectLaTeX {#detectLaTeX--}
+
+Indicates whether to detect LaTeX formula in the HTML file. The default value is false.
+
+```javascript
+detectLaTeX : boolean;
 ```
 
 

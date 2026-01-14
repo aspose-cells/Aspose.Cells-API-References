@@ -1,13 +1,13 @@
 ﻿---
 title: JsonExportHyperlinkType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents type of exporting hyperlinks to json.
+description: Represents type how to export hyperlinks to json.
 type: docs
 url: /javascript-cpp/jsonexporthyperlinktype/
 ---
 
 ## JsonExportHyperlinkType enumeration
-Represents type of exporting hyperlinks to json.
+Represents type how to export hyperlinks to json.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

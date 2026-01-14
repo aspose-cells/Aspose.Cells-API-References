@@ -83,6 +83,7 @@ class WorkbookSettings;
 | [propertiesFollowChartPoint](#propertiesFollowChartPoint--)| boolean | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [discardImageEditData](#discardImageEditData--)| boolean | Indicates whether discarding editting image data. |
 | [defaultImageResolution](#defaultImageResolution--)| number | Gets and sets default resolution of image. |
+| [wpsCompatibility](#wpsCompatibility--)| boolean | Indicates whether to be compatible with WPS. |
 
 ## Methods
 
@@ -766,6 +767,15 @@ Gets and sets default resolution of image.
 
 ```javascript
 defaultImageResolution : number;
+```
+
+
+### wpsCompatibility {#wpsCompatibility--}
+
+Indicates whether to be compatible with WPS.
+
+```javascript
+wpsCompatibility : boolean;
 ```
 
 

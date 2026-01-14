@@ -1,13 +1,13 @@
 ﻿---
 title: MergedCellsShrinkType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the strategy to shrink merged cells for operations such as deleting blank rowscolumn.
+description: Represents the strategy to shrink merged cells for operations such as deleting blank rowscolumns.
 type: docs
 url: /javascript-cpp/mergedcellsshrinktype/
 ---
 
 ## MergedCellsShrinkType enumeration
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

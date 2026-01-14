@@ -26,11 +26,11 @@ class DeleteBlankOptions extends DeleteOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [emptyStringAsBlank](#emptyStringAsBlank--)| boolean | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
-| [emptyFormulaValueAsBlank](#emptyFormulaValueAsBlank--)| boolean | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
-| [drawingsAsBlank](#drawingsAsBlank--)| boolean | Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
+| [emptyStringAsBlank](#emptyStringAsBlank--)| boolean | Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true. |
+| [emptyFormulaValueAsBlank](#emptyFormulaValueAsBlank--)| boolean | Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false. |
+| [drawingsAsBlank](#drawingsAsBlank--)| boolean | Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
 | [mergedCellsShrinkType](#mergedCellsShrinkType--)| MergedCellsShrinkType | Indicates how to process merged cells when deleting blank rows/columns. |
-| [startIndex](#startIndex--)| number | Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [startIndex](#startIndex--)| number | Specifies the start row/column index of the range to check and delete blank row/column. |
 | [endIndex](#endIndex--)| number | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
 | [updateReference](#updateReference--)| boolean | Indicates if update references in other worksheets. |
 | [formulaChangeMonitor](#formulaChangeMonitor--)| AbstractFormulaChangeMonitor | Gets/sets the monitor for tracking changes caused by the deletion. |
@@ -60,7 +60,7 @@ constructor();
 
 ### emptyStringAsBlank {#emptyStringAsBlank--}
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true.
 
 ```javascript
 emptyStringAsBlank : boolean;
@@ -69,7 +69,7 @@ emptyStringAsBlank : boolean;
 
 ### emptyFormulaValueAsBlank {#emptyFormulaValueAsBlank--}
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false.
 
 ```javascript
 emptyFormulaValueAsBlank : boolean;
@@ -82,7 +82,7 @@ Generally user should make sure the formulas have been calculated before deletin
 
 ### drawingsAsBlank {#drawingsAsBlank--}
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 ```javascript
 drawingsAsBlank : boolean;
@@ -108,7 +108,7 @@ For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderon
 
 ### startIndex {#startIndex--}
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+Specifies the start row/column index of the range to check and delete blank row/column.
 
 ```javascript
 startIndex : number;

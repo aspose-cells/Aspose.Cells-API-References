@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlOfficeMathOutputType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents how export OfficeMath to HTML.
+description: Represents how to export OfficeMath to HTML.
 type: docs
 url: /javascript-cpp/htmlofficemathoutputtype/
 ---
 
 ## HtmlOfficeMathOutputType enumeration
-Represents how export OfficeMath to HTML.
+Represents how to export OfficeMath to HTML.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

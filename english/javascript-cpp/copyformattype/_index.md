@@ -1,13 +1,13 @@
 ﻿---
 title: CopyFormatType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents type of copying format when inserting rows.
+description: Represents the type of copying format when inserting rows.
 type: docs
 url: /javascript-cpp/copyformattype/
 ---
 
 ## CopyFormatType enumeration
-Represents type of copying format when inserting rows.
+Represents the type of copying format when inserting rows.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

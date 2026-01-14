@@ -13,12 +13,12 @@ Represents the exported file path provider.
 
 | Method | Description |
 | --- | --- |
-| [getFullName(string)](#getFullName-string-)| Gets the full path of the file by Worksheet name when exporting Worksheet to html separately. So the references among the Worksheets can be exported correctly. |
+| [getFullName(string)](#getFullName-string-)| Gets the full path of the file by Worksheet name when exporting Worksheet to HTML separately. So the references among the Worksheets can be exported correctly. |
 
 
 ### getFullName(string) {#getFullName-string-}
 
-Gets the full path of the file by Worksheet name when exporting Worksheet to html separately. So the references among the Worksheets can be exported correctly.
+Gets the full path of the file by Worksheet name when exporting Worksheet to HTML separately. So the references among the Worksheets can be exported correctly.
 
 ```javascript
 getFullName(sheetName: string) : string;

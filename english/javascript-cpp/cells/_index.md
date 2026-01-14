@@ -2601,7 +2601,7 @@ insertCutCells(cutRange: Range, row: number, column: number, shiftType: ShiftTyp
 | cutRange | [Range](../range/) | The cut range. |
 | row | number | The row. |
 | column | number | The column. |
-| shiftType | [ShiftType](../shifttype/) | The shift type . |
+| shiftType | [ShiftType](../shifttype/) | Indicates how to shift other objects of the target range when inserting cut range. |
 
 ### insertRange(CellArea, number, ShiftType, boolean) {#insertRange-cellarea-number-shifttype-boolean-}
 

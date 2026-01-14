@@ -72,4 +72,8 @@ add(cficon: ConditionalFormattingIcon) : number;
 | --- | --- | --- |
 | cficon | [ConditionalFormattingIcon](../conditionalformattingicon/) | Returns the index of new object in the list. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Add(IconSetType, int) method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 

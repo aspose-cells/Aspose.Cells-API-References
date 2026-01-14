@@ -34,10 +34,11 @@ class TextOptions extends Font;
 | [underlineColor](#underlineColor--)| CellsColor | Gets or sets the color of underline. |
 | [kerning](#kerning--)| number | Specifies the minimum font size at which character kerning will occur for this text run. |
 | [spacing](#spacing--)| number | Specifies the spacing between characters within a text run. |
+| [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
+| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
 | [charset](#charset--)| number | Represent the character set. |
 | [isItalic](#isItalic--)| boolean | Gets or sets a value indicating whether the font is italic. |
 | [isBold](#isBold--)| boolean | Gets or sets a value indicating whether the font is bold. |
-| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
 | [strikeType](#strikeType--)| TextStrikeType | Gets the strike type of the text. |
 | [isStrikeout](#isStrikeout--)| boolean | Gets or sets a value indicating whether the font is single strikeout. |
 | [scriptOffset](#scriptOffset--)| number | Gets and sets the script offset,in unit of percentage |
@@ -49,7 +50,6 @@ class TextOptions extends Font;
 | [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color. |
 | [color](#color--)| Color | Gets or sets the [Color](../color/) of the font. |
 | [argbColor](#argbColor--)| number | Gets and sets the color with a 32-bit ARGB value. |
-| [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
 | [schemeType](#schemeType--)| FontSchemeType | Gets and sets the scheme type of the font. |
 
 ## Methods
@@ -156,6 +156,28 @@ spacing : number;
 ```
 
 
+### isNormalizeHeights {#isNormalizeHeights--}
+
+Indicates whether the normalization of height that is to be applied to the text run.
+
+```javascript
+isNormalizeHeights : boolean;
+```
+
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
+
+### capsType {#capsType--}
+
+Gets and sets the text caps type.
+
+```javascript
+capsType : TextCapsType;
+```
+
+
 ### charset {#charset--}
 
 Represent the character set.
@@ -180,15 +202,6 @@ Gets or sets a value indicating whether the font is bold.
 
 ```javascript
 isBold : boolean;
-```
-
-
-### capsType {#capsType--}
-
-Gets and sets the text caps type.
-
-```javascript
-capsType : TextCapsType;
 ```
 
 
@@ -218,6 +231,10 @@ Gets and sets the script offset,in unit of percentage
 scriptOffset : number;
 ```
 
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript {#isSuperscript--}
 
@@ -292,15 +309,6 @@ Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 argbColor : number;
-```
-
-
-### isNormalizeHeights {#isNormalizeHeights--}
-
-Indicates whether the normalization of height that is to be applied to the text run.
-
-```javascript
-isNormalizeHeights : boolean;
 ```
 
 

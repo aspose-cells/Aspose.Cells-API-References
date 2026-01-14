@@ -20,7 +20,7 @@ class ThreadedCommentCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the threaded comment by the specific index. |
-| [add(string, ThreadedCommentAuthor)](#add-string-threadedcommentauthor-)| Adds a threaded comment; |
+| [add(string, ThreadedCommentAuthor)](#add-string-threadedcommentauthor-)| Adds a threaded comment. |
 
 
 ### get(number) {#get-number-}
@@ -42,7 +42,7 @@ get(index: number) : ThreadedComment;
 
 ### add(string, ThreadedCommentAuthor) {#add-string-threadedcommentauthor-}
 
-Adds a threaded comment;
+Adds a threaded comment.
 
 ```javascript
 add(text: string, author: ThreadedCommentAuthor) : number;

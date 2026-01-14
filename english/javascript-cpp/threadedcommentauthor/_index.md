@@ -1,14 +1,14 @@
 ﻿---
 title: ThreadedCommentAuthor
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the person who creates the threaded comments
+description: Represents the person who creates the threaded comments.
 type: docs
 url: /javascript-cpp/threadedcommentauthor/
 ---
 
 ## ThreadedCommentAuthor class
 
-Represents the person who creates the threaded comments;
+Represents the person who creates the threaded comments.
 
 ```javascript
 class ThreadedCommentAuthor;

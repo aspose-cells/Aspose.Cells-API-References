@@ -107,6 +107,10 @@ wpsCompatibility : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### saveFormat {#saveFormat--}
 
 Readonly. Gets the save file format.
