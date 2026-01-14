@@ -80,15 +80,15 @@ Represent summary description of slicer cache
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCrossFilterType()](#getCrossFilterType--) | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. |
-| [getList()](#getList--) | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. |
+| [getCrossFilterType()](#getCrossFilterType--) | Indicates how to show items with no data of slicer. |
+| [getList()](#getList--) | Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. |
 | [getName()](#getName--) | Returns the name of the slicer cache. |
 | [getSlicerCacheItems()](#getSlicerCacheItems--) | Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. |
 | [getSourceName()](#getSourceName--) | Returns the name of this slicer cache. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCrossFilterType(int value)](#setCrossFilterType-int-) | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. |
+| [setCrossFilterType(int value)](#setCrossFilterType-int-) | Indicates how to show items with no data of slicer. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -124,9 +124,13 @@ public int getCrossFilterType()
 ```
 
 
-Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+Indicates how to show items with no data of slicer.
 
 See [SlicerCacheCrossFilterType](../../com.aspose.cells/slicercachecrossfiltertype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer\#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -136,7 +140,7 @@ public boolean getList()
 ```
 
 
-Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source.
 
 **Example**
 
@@ -230,9 +234,13 @@ public void setCrossFilterType(int value)
 ```
 
 
-Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+Indicates how to show items with no data of slicer.
 
 See [SlicerCacheCrossFilterType](../../com.aspose.cells/slicercachecrossfiltertype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer\#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

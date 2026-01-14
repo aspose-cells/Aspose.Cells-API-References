@@ -17,8 +17,8 @@ Represents options when importing an ebook file.
 
 | Constructor | Description |
 | --- | --- |
-| [EbookLoadOptions()](#EbookLoadOptions--) | Creates an options of loading the ebook file. |
-| [EbookLoadOptions(int loadFormat)](#EbookLoadOptions-int-) | Creates an options of loading the ebook file. |
+| [EbookLoadOptions()](#EbookLoadOptions--) | Creates an option for loading the ebook file. |
+| [EbookLoadOptions(int loadFormat)](#EbookLoadOptions-int-) | Creates an option of loading the ebook file. |
 ## Methods
 
 | Method | Description |
@@ -36,6 +36,7 @@ Represents options when importing an ebook file.
 | [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string in text file is converted to numeric data. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
 | [getDeleteRedundantSpaces()](#getDeleteRedundantSpaces--) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
+| [getDetectLaTeX()](#getDetectLaTeX--) | Indicates whether to detect LaTeX formula in the HTML file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
@@ -77,6 +78,7 @@ Represents options when importing an ebook file.
 | [setConvertFormulasData(boolean value)](#setConvertFormulasData-boolean-) | if true, convert string to formula when string value starts with character '=',the default value is false. |
 | [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether the string in text file is converted to numeric data. |
 | [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
+| [setDetectLaTeX(boolean value)](#setDetectLaTeX-boolean-) | Indicates whether to detect LaTeX formula in the HTML file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
@@ -113,7 +115,7 @@ public EbookLoadOptions()
 ```
 
 
-Creates an options of loading the ebook file.
+Creates an option for loading the ebook file.
 
 ### EbookLoadOptions(int loadFormat) {#EbookLoadOptions-int-}
 ```
@@ -121,7 +123,7 @@ public EbookLoadOptions(int loadFormat)
 ```
 
 
-Creates an options of loading the ebook file.
+Creates an option of loading the ebook file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,6 +278,16 @@ public boolean getDeleteRedundantSpaces()
 
 
 Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
+
+**Returns:**
+boolean
+### getDetectLaTeX() {#getDetectLaTeX--}
+```
+public boolean getDetectLaTeX()
+```
+
+
+Indicates whether to detect LaTeX formula in the HTML file. The default value is false.
 
 **Returns:**
 boolean
@@ -779,6 +791,19 @@ public void setDeleteRedundantSpaces(boolean value)
 
 
 Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setDetectLaTeX(boolean value) {#setDetectLaTeX-boolean-}
+```
+public void setDetectLaTeX(boolean value)
+```
+
+
+Indicates whether to detect LaTeX formula in the HTML file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

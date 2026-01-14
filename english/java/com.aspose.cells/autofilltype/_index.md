@@ -19,9 +19,9 @@ Represents the auto fill type.
 | --- | --- |
 | [COPY](#COPY) | Copies the value and format of the source area to the target area |
 | [DEFAULT](#DEFAULT) | Automatically fills the target area with the value and format. |
-| [FORMATS](#FORMATS) | Only copies the format of the source area to the target area. |
-| [SERIES](#SERIES) | Extend the value in the source area to the target area in the form of a series and copy format to the target area. |
-| [VALUES](#VALUES) | Copies only the value of the source area to the target area, |
+| [FORMATS](#FORMATS) | Copies only the format of the source area to the target area. |
+| [SERIES](#SERIES) | Extend the value in the source area to the target area in the form of a series and copy the format to the target area. |
+| [VALUES](#VALUES) | Copies only the value of the source area to the target area. |
 ## Methods
 
 | Method | Description |
@@ -57,7 +57,7 @@ public static final int FORMATS
 ```
 
 
-Only copies the format of the source area to the target area.
+Copies only the format of the source area to the target area.
 
 ### SERIES {#SERIES}
 ```
@@ -65,7 +65,7 @@ public static final int SERIES
 ```
 
 
-Extend the value in the source area to the target area in the form of a series and copy format to the target area.
+Extend the value in the source area to the target area in the form of a series and copy the format to the target area.
 
 ### VALUES {#VALUES}
 ```
@@ -73,7 +73,7 @@ public static final int VALUES
 ```
 
 
-Copies only the value of the source area to the target area,
+Copies only the value of the source area to the target area.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

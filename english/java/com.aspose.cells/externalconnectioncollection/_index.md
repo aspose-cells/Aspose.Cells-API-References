@@ -46,7 +46,6 @@ Specifies the [ExternalConnection](../../com.aspose.cells/externalconnection) co
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [set(int index, ExternalConnection value)](#set-int-com.aspose.cells.ExternalConnection-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -232,20 +231,6 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
-
-### set(int index, ExternalConnection value) {#set-int-com.aspose.cells.ExternalConnection-}
-```
-public void set(int index, ExternalConnection value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  |
-| value | [ExternalConnection](../../com.aspose.cells/externalconnection) |  |
 
 ### toString() {#toString--}
 ```

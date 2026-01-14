@@ -1,7 +1,7 @@
 ---
 title: JsonExportHyperlinkType
 second_title: Aspose.Cells for Java API Reference
-description: Represents type of exporting hyperlinks to json.
+description: Represents type how to export hyperlinks to json.
 type: docs
 url: /java/com.aspose.cells/jsonexporthyperlinktype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class JsonExportHyperlinkType
 ```
 
-Represents type of exporting hyperlinks to json.
+Represents type how to export hyperlinks to json.
 ## Fields
 
 | Field | Description |

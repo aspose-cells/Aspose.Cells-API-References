@@ -24,12 +24,12 @@ Represents the globalization settings.
 | --- | --- |
 | [compare(String v1, String v2, boolean ignoreCase)](#compare-java.lang.String-java.lang.String-boolean-) | Compares two string values according to certain collation rules. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllName()](#getAllName--) | Gets the name of "(All)" label in the PivotTable. |
+| [getAllName()](#getAllName--) | Gets the name of the "(All)" label in the PivotTable. |
 | [getBooleanValueString(boolean bv)](#getBooleanValueString-boolean-) | Gets the display string value for cell's boolean value |
 | [getChartSettings()](#getChartSettings--) | Gets the globalization settings for Chart. |
 | [getClass()](#getClass--) |  |
 | [getCollationKey(String v, boolean ignoreCase)](#getCollationKey-java.lang.String-boolean-) | Transforms the string into a comparable object according to certain collation rules. |
-| [getColumnLabelsOfPivotTable()](#getColumnLabelsOfPivotTable--) | Gets the name of "Column Labels" label in the PivotTable. |
+| [getColumnLabelsOfPivotTable()](#getColumnLabelsOfPivotTable--) | Gets the name of the "Column Labels" label in the PivotTable. |
 | [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--) | Gets the separator for the items in array's row data in formula. |
 | [getCommentTitleName(int type)](#getCommentTitleName-int-) | Gets the locale dependent comment title name according to comment title type. |
 | [getDataFieldHeaderNameOfPivotTable()](#getDataFieldHeaderNameOfPivotTable--) | Gets the the name of the value area field header in the PivotTable. |
@@ -40,9 +40,9 @@ Represents the globalization settings.
 | [getListSeparator()](#getListSeparator--) | Gets the separator for list, parameters of function, ...etc. |
 | [getLocalBuiltInName(String standardName)](#getLocalBuiltInName-java.lang.String-) | Gets the locale dependent text for built-in Name according to given standard text. |
 | [getLocalFunctionName(String standardName)](#getLocalFunctionName-java.lang.String-) | Gets the locale dependent function name according to given standard function name. |
-| [getMultipleItemsName()](#getMultipleItemsName--) | Gets the name of "(Multiple Items)" label in the PivotTable. |
-| [getPivotGrandTotalName()](#getPivotGrandTotalName--) | Gets the name of "Grand Total" label in the PivotTable. |
-| [getPivotSettings()](#getPivotSettings--) | Gets the globalization settings for pivot table. |
+| [getMultipleItemsName()](#getMultipleItemsName--) | Gets the name of the "(Multiple Items)" label in the PivotTable. |
+| [getPivotGrandTotalName()](#getPivotGrandTotalName--) | Gets the name of the "Grand Total" label in the PivotTable. |
+| [getPivotSettings()](#getPivotSettings--) | Gets the globalization settings for the pivot table. |
 | [getPivotTotalName()](#getPivotTotalName--) | Gets the name of "Total" label in the PivotTable. |
 | [getProtectionNameOfPivotTable()](#getProtectionNameOfPivotTable--) | Gets the protection name in the PivotTable. |
 | [getRowLabelsNameOfPivotTable()](#getRowLabelsNameOfPivotTable--) | Gets the name of "Row Labels" label in the PivotTable. |
@@ -61,7 +61,7 @@ Represents the globalization settings.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setChartSettings(ChartGlobalizationSettings value)](#setChartSettings-com.aspose.cells.ChartGlobalizationSettings-) | Sets the globalization settings for Chart. |
-| [setPivotSettings(PivotGlobalizationSettings value)](#setPivotSettings-com.aspose.cells.PivotGlobalizationSettings-) | Sets the globalization settings for pivot table. |
+| [setPivotSettings(PivotGlobalizationSettings value)](#setPivotSettings-com.aspose.cells.PivotGlobalizationSettings-) | Sets the globalization settings for the pivot table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -110,7 +110,7 @@ public String getAllName()
 ```
 
 
-Gets the name of "(All)" label in the PivotTable.
+Gets the name of the "(All)" label in the PivotTable.
 
 **Remarks**
 
@@ -175,7 +175,7 @@ public String getColumnLabelsOfPivotTable()
 ```
 
 
-Gets the name of "Column Labels" label in the PivotTable.
+Gets the name of the "Column Labels" label in the PivotTable.
 
 **Remarks**
 
@@ -326,7 +326,7 @@ public String getMultipleItemsName()
 ```
 
 
-Gets the name of "(Multiple Items)" label in the PivotTable.
+Gets the name of the "(Multiple Items)" label in the PivotTable.
 
 **Remarks**
 
@@ -340,7 +340,7 @@ public String getPivotGrandTotalName()
 ```
 
 
-Gets the name of "Grand Total" label in the PivotTable.
+Gets the name of the "Grand Total" label in the PivotTable.
 
 **Remarks**
 
@@ -354,7 +354,7 @@ public PivotGlobalizationSettings getPivotSettings()
 ```
 
 
-Gets the globalization settings for pivot table.
+Gets the globalization settings for the pivot table.
 
 **Returns:**
 [PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings)
@@ -584,7 +584,7 @@ public void setPivotSettings(PivotGlobalizationSettings value)
 ```
 
 
-Sets the globalization settings for pivot table.
+Sets the globalization settings for the pivot table.
 
 **Parameters:**
 | Parameter | Type | Description |

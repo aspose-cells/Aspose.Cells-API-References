@@ -25,9 +25,9 @@ Specifies font settings
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
-| [getFontFileDataInfo(String fontName, boolean isBold, boolean isItalic, boolean isExactStyle)](#getFontFileDataInfo-java.lang.String-boolean-boolean-boolean-) | Get data infomation of font file data. |
+| [getFontFileDataInfo(String fontName, boolean isBold, boolean isItalic, boolean isExactStyle)](#getFontFileDataInfo-java.lang.String-boolean-boolean-boolean-) | Get data information of font file data. |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
-| [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
+| [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns an array containing font substitute names to be used if original font is not present. |
 | [hashCode()](#hashCode--) |  |
 | [isFontAvailable(String fontName)](#isFontAvailable-java.lang.String-) | Indicate whether the font is available. |
 | [notify()](#notify--) |  |
@@ -35,8 +35,8 @@ Specifies font settings
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font name. |
 | [setFontExclusiveSources(FontSourceBase[] exclusiveSources)](#setFontExclusiveSources-com.aspose.cells.FontSourceBase---) | Sets the fonts exclusive sources. |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
-| [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
-| [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
+| [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folder |
+| [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the font sources. |
 | [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -89,7 +89,7 @@ public static FontFileDataInfo getFontFileDataInfo(String fontName, boolean isBo
 ```
 
 
-Get data infomation of font file data.
+Get data information of font file data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,7 +117,7 @@ public static String[] getFontSubstitutes(String originalFontName)
 ```
 
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not present.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public static void setFontFolders(String[] fontFolders, boolean recursive)
 ```
 
 
-Sets the fonts folders
+Sets the fonts folder
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public static void setFontSources(FontSourceBase[] sources)
 ```
 
 
-Sets the fonts sources.
+Sets the font sources.
 
 **Parameters:**
 | Parameter | Type | Description |

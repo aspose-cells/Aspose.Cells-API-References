@@ -24,24 +24,24 @@ Represents the setting of deleting blank cells/rows/columns.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDrawingsAsBlank()](#getDrawingsAsBlank--) | Whether drawing related objects such as picture, shape, chart... will be taken as blank. |
-| [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
-| [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Whether one cell will be taken as blank when its value is empty string. |
+| [getDrawingsAsBlank()](#getDrawingsAsBlank--) | Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. |
+| [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. |
+| [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Indicates whether one cell will be taken as blank when its value is an empty string. |
 | [getEndIndex()](#getEndIndex--) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
 | [getFormulaChangeMonitor()](#getFormulaChangeMonitor--) | Gets the monitor for tracking changes caused by the deletion. |
 | [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns. |
-| [getStartIndex()](#getStartIndex--) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [getStartIndex()](#getStartIndex--) | Specifies the start row/column index of the range to check and delete blank row/column. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDrawingsAsBlank(boolean value)](#setDrawingsAsBlank-boolean-) | Whether drawing related objects such as picture, shape, chart... will be taken as blank. |
-| [setEmptyFormulaValueAsBlank(boolean value)](#setEmptyFormulaValueAsBlank-boolean-) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
-| [setEmptyStringAsBlank(boolean value)](#setEmptyStringAsBlank-boolean-) | Whether one cell will be taken as blank when its value is empty string. |
+| [setDrawingsAsBlank(boolean value)](#setDrawingsAsBlank-boolean-) | Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. |
+| [setEmptyFormulaValueAsBlank(boolean value)](#setEmptyFormulaValueAsBlank-boolean-) | Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. |
+| [setEmptyStringAsBlank(boolean value)](#setEmptyStringAsBlank-boolean-) | Indicates whether one cell will be taken as blank when its value is an empty string. |
 | [setEndIndex(int value)](#setEndIndex-int-) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
 | [setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)](#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-) | Sets the monitor for tracking changes caused by the deletion. |
 | [setMergedCellsShrinkType(int value)](#setMergedCellsShrinkType-int-) | Indicates how to process merged cells when deleting blank rows/columns. |
-| [setStartIndex(int value)](#setStartIndex-int-) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
+| [setStartIndex(int value)](#setStartIndex-int-) | Specifies the start row/column index of the range to check and delete blank row/column. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -84,7 +84,7 @@ public boolean getDrawingsAsBlank()
 ```
 
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 **Remarks**
 
@@ -98,7 +98,7 @@ public boolean getEmptyFormulaValueAsBlank()
 ```
 
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false.
 
 **Remarks**
 
@@ -112,7 +112,7 @@ public boolean getEmptyStringAsBlank()
 ```
 
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true.
 
 **Returns:**
 boolean
@@ -164,7 +164,7 @@ public int getStartIndex()
 ```
 
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+Specifies the start row/column index of the range to check and delete blank row/column.
 
 **Returns:**
 int
@@ -210,7 +210,7 @@ public void setDrawingsAsBlank(boolean value)
 ```
 
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 **Remarks**
 
@@ -227,7 +227,7 @@ public void setEmptyFormulaValueAsBlank(boolean value)
 ```
 
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false.
 
 **Remarks**
 
@@ -244,7 +244,7 @@ public void setEmptyStringAsBlank(boolean value)
 ```
 
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setStartIndex(int value)
 ```
 
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+Specifies the start row/column index of the range to check and delete blank row/column.
 
 **Parameters:**
 | Parameter | Type | Description |

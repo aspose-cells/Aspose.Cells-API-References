@@ -1,7 +1,7 @@
 ---
 title: CellRichValue
 second_title: Aspose.Cells for Java API Reference
-description: Represents rich value of the cell.
+description: Represents the rich value of the cell.
 type: docs
 url: /java/com.aspose.cells/cellrichvalue/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class CellRichValue
 ```
 
-Represents rich value of the cell.
+Represents the rich value of the cell.
 ## Constructors
 
 | Constructor | Description |

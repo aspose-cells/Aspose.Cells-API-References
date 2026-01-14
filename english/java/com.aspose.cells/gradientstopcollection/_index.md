@@ -32,7 +32,6 @@ Represents the gradient stop collection.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [set(int index, GradientStop value)](#set-int-com.aspose.cells.GradientStop-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -218,20 +217,6 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
-
-### set(int index, GradientStop value) {#set-int-com.aspose.cells.GradientStop-}
-```
-public void set(int index, GradientStop value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  |
-| value | [GradientStop](../../com.aspose.cells/gradientstop) |  |
 
 ### toString() {#toString--}
 ```

@@ -81,10 +81,11 @@ summary description of Slicer View
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [getCaption()](#getCaption--) | Returns or sets the caption of the specified slicer. |
-| [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible. |
 | [getClass()](#getClass--) |  |
-| [getColumnWidth()](#getColumnWidth--) | Returns or sets the width, in points, of each column in the slicer. |
+| [getColumnWidth()](#getColumnWidth--) | Returns or sets the width of each column in the slicer in unit of points. |
 | [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d |
+| [getFirstItemIndex()](#getFirstItemIndex--) | Specifies the zero-based index of the first slicer item. |
 | [getHeight()](#getHeight--) | Returns or sets the height of the specified slicer, in points. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified slicer, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -94,27 +95,34 @@ summary description of Slicer View
 | [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the specified slicer. |
 | [getParent()](#getParent--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
-| [getRowHeight()](#getRowHeight--) | Returns or sets the height, in points, of each row in the specified slicer. |
-| [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [getRowHeight()](#getRowHeight--) | Returns or sets the height of each row in the specified slicer in unit of points. |
+| [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height of each row in the specified slicer, in unit of pixels. |
 | [getShape()](#getShape--) | Returns the Shape object associated with the specified slicer. |
+| [getShowAllItems()](#getShowAllItems--) | Indicates whether to show all items even if there are no data or they are deleted. |
+| [getShowCaption()](#getShowCaption--) | Indicates whether the header of the slicer is visible. |
+| [getShowMissing()](#getShowMissing--) | Indicates whether to show items deteleted from the data source. |
+| [getShowTypeOfItemsWithNoData()](#getShowTypeOfItemsWithNoData--) | Indicates whether to show items deteleted from the data source. |
 | [getSlicerCache()](#getSlicerCache--) | Returns the SlicerCache object associated with the slicer. |
-| [getStyleType()](#getStyleType--) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [getSortOrderType()](#getSortOrderType--) | Indicates the type of sorting items. |
+| [getStyleType()](#getStyleType--) | Specify the type of Built-in slicer style. |
 | [getTitle()](#getTitle--) | Specifies the title of the current Slicer object. |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [getWidth()](#getWidth--) | Returns or sets the width of the specified slicer, in points. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified slicer, in pixels. |
+| [getWorksheet()](#getWorksheet--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
 | [hashCode()](#hashCode--) |  |
 | [isLocked()](#isLocked--) | Indicates whether the slicer shape is locked. |
 | [isPrintable()](#isPrintable--) | Indicates whether the slicer object is printable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [refresh()](#refresh--) | Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables. |
+| [refresh()](#refresh--) | Refreshing the slicer. |
 | [removePivotConnection(PivotTable pivot)](#removePivotConnection-com.aspose.cells.PivotTable-) | Removes PivotTable connection. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified slicer. |
-| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
-| [setColumnWidth(double value)](#setColumnWidth-double-) | Returns or sets the width, in points, of each column in the slicer. |
+| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible. |
+| [setColumnWidth(double value)](#setColumnWidth-double-) | Returns or sets the width of each column in the slicer in unit of points. |
 | [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d |
+| [setFirstItemIndex(int value)](#setFirstItemIndex-int-) | Specifies the zero-based index of the first slicer item. |
 | [setHeight(double value)](#setHeight-double-) | Returns or sets the height of the specified slicer, in points. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified slicer, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -125,9 +133,14 @@ summary description of Slicer View
 | [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Returns or sets the number of columns in the specified slicer. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
 | [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the slicer object is printable. |
-| [setRowHeight(double value)](#setRowHeight-double-) | Returns or sets the height, in points, of each row in the specified slicer. |
-| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | Returns or sets the height, in pixels, of each row in the specified slicer. |
-| [setStyleType(int value)](#setStyleType-int-) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [setRowHeight(double value)](#setRowHeight-double-) | Returns or sets the height of each row in the specified slicer in unit of points. |
+| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | Returns or sets the height of each row in the specified slicer, in unit of pixels. |
+| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether to show all items even if there are no data or they are deleted. |
+| [setShowCaption(boolean value)](#setShowCaption-boolean-) | Indicates whether the header of the slicer is visible. |
+| [setShowMissing(boolean value)](#setShowMissing-boolean-) | Indicates whether to show items deteleted from the data source. |
+| [setShowTypeOfItemsWithNoData(int value)](#setShowTypeOfItemsWithNoData-int-) | Indicates whether to show items deteleted from the data source. |
+| [setSortOrderType(int value)](#setSortOrderType-int-) | Indicates the type of sorting items. |
+| [setStyleType(int value)](#setStyleType-int-) | Specify the type of Built-in slicer style. |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the title of the current Slicer object. |
 | [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [setWidth(double value)](#setWidth-double-) | Returns or sets the width of the specified slicer, in points. |
@@ -178,10 +191,14 @@ public String getAlternativeText()
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getAlternativeText()](../../com.aspose.cells/shape\#getAlternativeText--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setAlternativeText("AlternativeText test");
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -208,12 +225,16 @@ public boolean getCaptionVisible()
 ```
 
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+Returns or sets whether the header that displays the slicer Caption is visible. The default value is true
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [getShowCaption()](../../com.aspose.cells/slicer\#getShowCaption--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Example**
 
 ```
-         slicer.setCaptionVisible(true);
+         slicer.setCaption("slicer caption");
 ```
 
 **Returns:**
@@ -234,7 +255,7 @@ public double getColumnWidth()
 ```
 
 
-Returns or sets the width, in points, of each column in the slicer.
+Returns or sets the width of each column in the slicer in unit of points.
 
 **Example**
 
@@ -257,6 +278,16 @@ Gets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels
 ```
          slicer.setColumnWidthPixel(120);
 ```
+
+**Returns:**
+int
+### getFirstItemIndex() {#getFirstItemIndex--}
+```
+public int getFirstItemIndex()
+```
+
+
+Specifies the zero-based index of the first slicer item.
 
 **Returns:**
 int
@@ -328,10 +359,14 @@ public boolean getLockedAspectRatio()
 
 Indicates whether locking aspect ratio.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getLockedProperty(int)](../../com.aspose.cells/shape\#getLockedProperty-int-) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setLockedAspectRatio(true);
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -374,7 +409,7 @@ public int getNumberOfColumns()
 ```
 
 
-Returns or sets the number of columns in the specified slicer.
+Returns or sets the number of columns in the specified slicer. The default value is 1.
 
 **Example**
 
@@ -392,10 +427,14 @@ public Worksheet getParent()
 
 Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. Read-only.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [getWorksheet()](../../com.aspose.cells/slicer\#getWorksheet--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         Worksheet currSheet = slicer.getParent();
+         SlicerCache slicerCache = slicer.getSlicerCache();
 ```
 
 **Returns:**
@@ -410,10 +449,14 @@ Represents the way the drawing object is attached to the cells below it. The pro
 
 See [PlacementType](../../com.aspose.cells/placementtype).
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getPlacement()](../../com.aspose.cells/shape\#getPlacement--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setPlacement(PlacementType.FREE_FLOATING);
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -424,7 +467,7 @@ public double getRowHeight()
 ```
 
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 **Example**
 
@@ -440,7 +483,7 @@ public int getRowHeightPixel()
 ```
 
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer, in unit of pixels.
 
 **Example**
 
@@ -460,6 +503,62 @@ Returns the Shape object associated with the specified slicer. Read-only.
 
 **Returns:**
 [SlicerShape](../../com.aspose.cells/slicershape)
+### getShowAllItems() {#getShowAllItems--}
+```
+public boolean getShowAllItems()
+```
+
+
+Indicates whether to show all items even if there are no data or they are deleted. Default value is true;
+
+**Returns:**
+boolean
+### getShowCaption() {#getShowCaption--}
+```
+public boolean getShowCaption()
+```
+
+
+Indicates whether the header of the slicer is visible. The default value is true
+
+**Example**
+
+```
+         slicer.setShowCaption(false);
+```
+
+**Returns:**
+boolean
+### getShowMissing() {#getShowMissing--}
+```
+public boolean getShowMissing()
+```
+
+
+Indicates whether to show items deteleted from the data source.
+
+**Remarks**
+
+Only works when [getShowAllItems()](../../com.aspose.cells/slicer\#getShowAllItems--) is true.
+
+**Returns:**
+boolean
+### getShowTypeOfItemsWithNoData() {#getShowTypeOfItemsWithNoData--}
+```
+public int getShowTypeOfItemsWithNoData()
+```
+
+
+Indicates whether to show items deteleted from the data source.
+
+See [ItemsWithNoDataShowMode](../../com.aspose.cells/itemswithnodatashowmode).
+
+**Remarks**
+
+Only works when [getShowAllItems()](../../com.aspose.cells/slicer\#getShowAllItems--) is true.
+
+**Returns:**
+int
 ### getSlicerCache() {#getSlicerCache--}
 ```
 public SlicerCache getSlicerCache()
@@ -476,13 +575,25 @@ Returns the SlicerCache object associated with the slicer. Read-only.
 
 **Returns:**
 [SlicerCache](../../com.aspose.cells/slicercache)
+### getSortOrderType() {#getSortOrderType--}
+```
+public int getSortOrderType()
+```
+
+
+Indicates the type of sorting items.
+
+See [SortOrder](../../com.aspose.cells/sortorder).
+
+**Returns:**
+int
 ### getStyleType() {#getStyleType--}
 ```
 public int getStyleType()
 ```
 
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+Specify the type of Built-in slicer style. The default type is SlicerStyleLight1.
 
 See [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
 
@@ -502,10 +613,14 @@ public String getTitle()
 
 Specifies the title of the current Slicer object.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getTitle()](../../com.aspose.cells/shape\#getTitle--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setTitle("slicer title");
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -570,6 +685,22 @@ NOTE: This member is now obsolete. Instead, please use Shape.Width property. Thi
 
 **Returns:**
 int
+### getWorksheet() {#getWorksheet--}
+```
+public Worksheet getWorksheet()
+```
+
+
+Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. Read-only.
+
+**Example**
+
+```
+         Worksheet currSheet = slicer.getParent();
+```
+
+**Returns:**
+[Worksheet](../../com.aspose.cells/worksheet)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -588,10 +719,14 @@ public boolean isLocked()
 
 Indicates whether the slicer shape is locked.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.isLocked()](../../com.aspose.cells/shape\#isLocked--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setLocked(false);
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -604,10 +739,14 @@ public boolean isPrintable()
 
 Indicates whether the slicer object is printable.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.isPrintable()](../../com.aspose.cells/shape\#isPrintable--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         slicer.setPrintable(true);
+         slicer.removePivotConnection(pivot);
 ```
 
 **Returns:**
@@ -634,7 +773,7 @@ public void refresh()
 ```
 
 
-Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables.
+Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
 
 **Example**
 
@@ -669,6 +808,10 @@ public void setAlternativeText(String value)
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getAlternativeText()](../../com.aspose.cells/shape\#getAlternativeText--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -693,7 +836,11 @@ public void setCaptionVisible(boolean value)
 ```
 
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+Returns or sets whether the header that displays the slicer Caption is visible. The default value is true
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [getShowCaption()](../../com.aspose.cells/slicer\#getShowCaption--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +853,7 @@ public void setColumnWidth(double value)
 ```
 
 
-Returns or sets the width, in points, of each column in the slicer.
+Returns or sets the width of each column in the slicer in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -720,6 +867,19 @@ public void setColumnWidthPixel(int value)
 
 
 Sets the width of\\u807deach column in\\u807dthe slicer, in unit of\\u807dpixels.\\u807d
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setFirstItemIndex(int value) {#setFirstItemIndex-int-}
+```
+public void setFirstItemIndex(int value)
+```
+
+
+Specifies the zero-based index of the first slicer item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -785,6 +945,10 @@ public void setLocked(boolean value)
 
 Indicates whether the slicer shape is locked.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.isLocked()](../../com.aspose.cells/shape\#isLocked--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -797,6 +961,10 @@ public void setLockedAspectRatio(boolean value)
 
 
 Indicates whether locking aspect ratio.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getLockedProperty(int)](../../com.aspose.cells/shape\#getLockedProperty-int-) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -835,7 +1003,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-Returns or sets the number of columns in the specified slicer.
+Returns or sets the number of columns in the specified slicer. The default value is 1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -852,6 +1020,10 @@ Represents the way the drawing object is attached to the cells below it. The pro
 
 See [PlacementType](../../com.aspose.cells/placementtype).
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getPlacement()](../../com.aspose.cells/shape\#getPlacement--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -865,6 +1037,10 @@ public void setPrintable(boolean value)
 
 Indicates whether the slicer object is printable.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.isPrintable()](../../com.aspose.cells/shape\#isPrintable--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -876,7 +1052,7 @@ public void setRowHeight(double value)
 ```
 
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -889,7 +1065,84 @@ public void setRowHeightPixel(int value)
 ```
 
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer, in unit of pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setShowAllItems(boolean value) {#setShowAllItems-boolean-}
+```
+public void setShowAllItems(boolean value)
+```
+
+
+Indicates whether to show all items even if there are no data or they are deleted. Default value is true;
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowCaption(boolean value) {#setShowCaption-boolean-}
+```
+public void setShowCaption(boolean value)
+```
+
+
+Indicates whether the header of the slicer is visible. The default value is true
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowMissing(boolean value) {#setShowMissing-boolean-}
+```
+public void setShowMissing(boolean value)
+```
+
+
+Indicates whether to show items deteleted from the data source.
+
+**Remarks**
+
+Only works when [getShowAllItems()](../../com.aspose.cells/slicer\#getShowAllItems--) is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowTypeOfItemsWithNoData(int value) {#setShowTypeOfItemsWithNoData-int-}
+```
+public void setShowTypeOfItemsWithNoData(int value)
+```
+
+
+Indicates whether to show items deteleted from the data source.
+
+See [ItemsWithNoDataShowMode](../../com.aspose.cells/itemswithnodatashowmode).
+
+**Remarks**
+
+Only works when [getShowAllItems()](../../com.aspose.cells/slicer\#getShowAllItems--) is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSortOrderType(int value) {#setSortOrderType-int-}
+```
+public void setSortOrderType(int value)
+```
+
+
+Indicates the type of sorting items.
+
+See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -902,7 +1155,7 @@ public void setStyleType(int value)
 ```
 
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+Specify the type of Built-in slicer style. The default type is SlicerStyleLight1.
 
 See [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
 
@@ -918,6 +1171,10 @@ public void setTitle(String value)
 
 
 Specifies the title of the current Slicer object.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [Shape.getTitle()](../../com.aspose.cells/shape\#getTitle--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

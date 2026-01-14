@@ -1,25 +1,26 @@
 ---
-title: ReserveMissingPivotItemType
+title: TimelineLevelType
 second_title: Aspose.Cells for Java API Reference
-description: Represents how to keep the missing pivot items.
+description: Represents the level type of
 type: docs
-url: /java/com.aspose.cells/reservemissingpivotitemtype/
+url: /java/com.aspose.cells/timelineleveltype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class ReserveMissingPivotItemType
+public final class TimelineLevelType
 ```
 
-Represents how to keep the missing pivot items.
+Represents the level type of [Timeline](../../com.aspose.cells/timeline)
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ALL](#ALL) | Reserves all missing items. |
-| [DEFAULT](#DEFAULT) | Removes old missing pivot items and reserves deleted items of new data source as missing items. |
-| [NONE](#NONE) | Removes all missing pivot items. |
+| [DAY](#DAY) | Day |
+| [MONTH](#MONTH) | Month |
+| [QUARTER](#QUARTER) | Quarter |
+| [YEAR](#YEAR) | Year |
 ## Methods
 
 | Method | Description |
@@ -33,37 +34,37 @@ Represents how to keep the missing pivot items.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ALL {#ALL}
+### DAY {#DAY}
 ```
-public static final int ALL
-```
-
-
-Reserves all missing items.
-
-**Remarks**
-
-In Excel, as long as Excel is not closed, the missing items generated from the first refresh of the pivot table will be retained, even if you refresh repeatedly
-
-### DEFAULT {#DEFAULT}
-```
-public static final int DEFAULT
+public static final int DAY
 ```
 
 
-Removes old missing pivot items and reserves deleted items of new data source as missing items.
+Day
 
-### NONE {#NONE}
+### MONTH {#MONTH}
 ```
-public static final int NONE
+public static final int MONTH
 ```
 
 
-Removes all missing pivot items.
+Month
 
-**Remarks**
+### QUARTER {#QUARTER}
+```
+public static final int QUARTER
+```
 
-The order of old missing pivot items will be ignored.
+
+Quarter
+
+### YEAR {#YEAR}
+```
+public static final int YEAR
+```
+
+
+Year
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

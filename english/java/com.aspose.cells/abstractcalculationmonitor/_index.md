@@ -1,7 +1,7 @@
 ---
 title: AbstractCalculationMonitor
 second_title: Aspose.Cells for Java API Reference
-description: Monitor for user to track the progress of formula calculation.
+description: Monitor for the user to track the progress of the formula calculation.
 type: docs
 url: /java/com.aspose.cells/abstractcalculationmonitor/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class AbstractCalculationMonitor
 ```
 
-Monitor for user to track the progress of formula calculation.
+Monitor for the user to track the progress of the formula calculation.
 
 **Example**
 

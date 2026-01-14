@@ -18,7 +18,7 @@ Represents the default edit language.
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | Represents auto detecting edit language according to the text itself. |
-| [CJK](#CJK) | Represents Chinese, Japanese, Korean language. |
+| [CJK](#CJK) | Represents Chinese, Japanese, and Korean languages. |
 | [ENGLISH](#ENGLISH) | Represents English language. |
 ## Methods
 
@@ -47,7 +47,7 @@ public static final int CJK
 ```
 
 
-Represents Chinese, Japanese, Korean language.
+Represents Chinese, Japanese, and Korean languages.
 
 ### ENGLISH {#ENGLISH}
 ```

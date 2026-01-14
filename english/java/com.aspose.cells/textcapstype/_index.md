@@ -13,6 +13,10 @@ public final class TextCapsType
 ```
 
 This type specifies the cap types of the text.
+
+**Remarks**
+
+Only can be applied to chart and shape.
 ## Fields
 
 | Field | Description |

@@ -79,6 +79,7 @@ Encapsulates the font object used in a spreadsheet.
 | [setDoubleSize(double value)](#setDoubleSize-double-) | Sets the double size of the font. |
 | [setItalic(boolean value)](#setItalic-boolean-) | Sets a value indicating whether the font is italic. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [setName(String name, int type)](#setName-java.lang.String-int-) | Sets name and scheme of the font. |
 | [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | Indicates whether the normalization of height that is to be applied to the text run. |
 | [setSchemeType(int value)](#setSchemeType-int-) | Sets the scheme type of the font. |
 | [setScriptOffset(double value)](#setScriptOffset-double-) | Sets the script offset,in unit of percentage |
@@ -143,6 +144,10 @@ Gets the text caps type.
 
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.getCapsType()](../../com.aspose.cells/textoptions\#getCapsType--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
 ### getCharset() {#getCharset--}
@@ -193,6 +198,10 @@ public String getName()
 
 Gets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
 
+**Remarks**
+
+If this property is used to set the name of the font, the [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--) will be updated to [FontSchemeType.NONE](../../com.aspose.cells/fontschemetype\#NONE)
+
 **Returns:**
 java.lang.String
 ### getSchemeType() {#getSchemeType--}
@@ -214,6 +223,10 @@ public double getScriptOffset()
 
 
 Gets the script offset,in unit of percentage
+
+**Remarks**
+
+Only for shapes and charts.
 
 **Returns:**
 double
@@ -303,6 +316,10 @@ public boolean isNormalizeHeights()
 
 Indicates whether the normalization of height that is to be applied to the text run.
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.isNormalizeHeights()](../../com.aspose.cells/textoptions\#isNormalizeHeights--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### isStrikeout() {#isStrikeout--}
@@ -387,6 +404,10 @@ Sets the text caps type.
 
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.getCapsType()](../../com.aspose.cells/textoptions\#getCapsType--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -452,10 +473,28 @@ public void setName(String value)
 
 Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
 
+**Remarks**
+
+If this property is used to set the name of the font, the [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--) will be updated to [FontSchemeType.NONE](../../com.aspose.cells/fontschemetype\#NONE)
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setName(String name, int type) {#setName-java.lang.String-int-}
+```
+public void setName(String name, int type)
+```
+
+
+Sets name and scheme of the font.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String |  |
+| type | int | [FontSchemeType](../../com.aspose.cells/fontschemetype). |
 
 ### setNormalizeHeights(boolean value) {#setNormalizeHeights-boolean-}
 ```
@@ -464,6 +503,10 @@ public void setNormalizeHeights(boolean value)
 
 
 Indicates whether the normalization of height that is to be applied to the text run.
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.isNormalizeHeights()](../../com.aspose.cells/textoptions\#isNormalizeHeights--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,6 +535,10 @@ public void setScriptOffset(double value)
 
 
 Sets the script offset,in unit of percentage
+
+**Remarks**
+
+Only for shapes and charts.
 
 **Parameters:**
 | Parameter | Type | Description |

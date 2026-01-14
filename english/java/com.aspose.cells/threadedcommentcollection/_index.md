@@ -18,7 +18,7 @@ Represents the list of threaded comments.
 | Method | Description |
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String text, ThreadedCommentAuthor author)](#add-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) | Adds a threaded comment; |
+| [add(String text, ThreadedCommentAuthor author)](#add-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) | Adds a threaded comment. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -56,7 +56,7 @@ public int add(String text, ThreadedCommentAuthor author)
 ```
 
 
-Adds a threaded comment;
+Adds a threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -17,9 +17,9 @@ Specifies the type of a font source.
 
 | Field | Description |
 | --- | --- |
-| [FONTS_FOLDER](#FONTS-FOLDER) | represents folder with font files. |
-| [FONT_FILE](#FONT-FILE) | represents single font file. |
-| [MEMORY_FONT](#MEMORY-FONT) | represents single font in memory. |
+| [FONTS_FOLDER](#FONTS-FOLDER) | Represents a folder with font files. |
+| [FONT_FILE](#FONT-FILE) | represents a single font file. |
+| [MEMORY_FONT](#MEMORY-FONT) | Represents a single font in memory. |
 ## Methods
 
 | Method | Description |
@@ -39,7 +39,7 @@ public static final int FONTS_FOLDER
 ```
 
 
-represents folder with font files.
+Represents a folder with font files.
 
 ### FONT_FILE {#FONT-FILE}
 ```
@@ -47,7 +47,7 @@ public static final int FONT_FILE
 ```
 
 
-represents single font file.
+represents a single font file.
 
 ### MEMORY_FONT {#MEMORY-FONT}
 ```
@@ -55,7 +55,7 @@ public static final int MEMORY_FONT
 ```
 
 
-represents single font in memory.
+Represents a single font in memory.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

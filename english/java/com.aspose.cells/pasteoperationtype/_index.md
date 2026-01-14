@@ -1,7 +1,7 @@
 ---
 title: PasteOperationType
 second_title: Aspose.Cells for Java API Reference
-description: Represents operation type when pasting range.
+description: Represents the operation type when pasting a range.
 type: docs
 url: /java/com.aspose.cells/pasteoperationtype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class PasteOperationType
 ```
 
-Represents operation type when pasting range.
+Represents the operation type when pasting a range.
 ## Fields
 
 | Field | Description |

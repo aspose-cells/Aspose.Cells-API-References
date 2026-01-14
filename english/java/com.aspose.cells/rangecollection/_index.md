@@ -19,6 +19,7 @@ Encapsulates a collection of [Range](../../com.aspose.cells/range) objects.
 | --- | --- |
 | [add(Range range)](#add-com.aspose.cells.Range-) | Adds a [Range](../../com.aspose.cells/range) item to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [addRange(Range range)](#addRange-com.aspose.cells.Range-) | Adds a [Range](../../com.aspose.cells/range) item to the collection. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -43,6 +44,10 @@ public int add(Range range)
 
 Adds a [Range](../../com.aspose.cells/range) item to the collection.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AddRange() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -65,6 +70,21 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
+### addRange(Range range) {#addRange-com.aspose.cells.Range-}
+```
+public int addRange(Range range)
+```
+
+
+Adds a [Range](../../com.aspose.cells/range) item to the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | [Range](../../com.aspose.cells/range) | the range to be added |
+
+**Returns:**
+int - index of the added range in this collection
 ### clear() {#clear--}
 ```
 public void clear()

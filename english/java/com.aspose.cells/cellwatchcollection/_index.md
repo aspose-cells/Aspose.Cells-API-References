@@ -33,9 +33,9 @@ Represents the collection of cells on this worksheet being watched in the 'watch
 
 | Method | Description |
 | --- | --- |
-| [add(int row, int column)](#add-int-int-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with row and column. |
+| [add(int row, int column)](#add-int-int-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with a row and a column. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String cellName)](#add-java.lang.String-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name the of cell. |
+| [add(String cellName)](#add-java.lang.String-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name of the cell. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -65,7 +65,7 @@ public int add(int row, int column)
 ```
 
 
-Adds [CellWatch](../../com.aspose.cells/cellwatch) with row and column.
+Adds [CellWatch](../../com.aspose.cells/cellwatch) with a row and a column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ public int add(String cellName)
 ```
 
 
-Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name the of cell.
+Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

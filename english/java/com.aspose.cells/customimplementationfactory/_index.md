@@ -1,7 +1,7 @@
 ---
 title: CustomImplementationFactory
 second_title: Aspose.Cells for Java API Reference
-description: Factory to create some instances which may be re-implemented by user for special purpose.
+description: Factory to create some instances which may be re-implemented by the user for a special purpose.
 type: docs
 url: /java/com.aspose.cells/customimplementationfactory/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class CustomImplementationFactory
 ```
 
-Factory to create some instances which may be re-implemented by user for special purpose.
+Factory to create some instances which may be re-implemented by the user for a special purpose.
 ## Constructors
 
 | Constructor | Description |

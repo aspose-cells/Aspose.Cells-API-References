@@ -1,7 +1,7 @@
 ---
 title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents all persons who .
+description: Represents all persons.
 type: docs
 url: /java/com.aspose.cells/threadedcommentauthorcollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class ThreadedCommentAuthorCollection extends CollectionBase
 ```
 
-Represents all persons who .
+Represents all persons.
 ## Constructors
 
 | Constructor | Description |

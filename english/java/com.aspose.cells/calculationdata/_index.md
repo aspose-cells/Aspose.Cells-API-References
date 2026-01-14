@@ -23,17 +23,17 @@ All objects provided by this class are for "read" purpose only. User should not 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalculatedValue()](#getCalculatedValue--) | Gets the calculated value for this function. |
-| [getCell()](#getCell--) | Gets the Cell object where the function is in. |
-| [getCellColumn()](#getCellColumn--) | Gets the column index of the cell where the function is in. |
-| [getCellRow()](#getCellRow--) | Gets the row index of the cell where the function is in. |
+| [getCell()](#getCell--) | Gets the Cell object where the function is. |
+| [getCellColumn()](#getCellColumn--) | Gets the column index of the cell where the function is. |
+| [getCellRow()](#getCellRow--) | Gets the row index of the cell where the function is. |
 | [getClass()](#getClass--) |  |
 | [getFunctionName()](#getFunctionName--) | Gets the function name to be calculated. |
 | [getParamCount()](#getParamCount--) | Gets the count of parameters |
-| [getParamText(int index)](#getParamText-int-) | Gets the literal text of the parameter at given index. |
-| [getParamValue(int index)](#getParamValue-int-) | Gets the represented value object of the parameter at given index. |
-| [getParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount)](#getParamValueInArrayMode-int-int-int-) | Gets the value(s) of the parameter at given index. |
-| [getWorkbook()](#getWorkbook--) | Gets the Workbook object where the function is in. |
-| [getWorksheet()](#getWorksheet--) | Gets the Worksheet object where the function is in. |
+| [getParamText(int index)](#getParamText-int-) | Gets the literal text of the parameter at the given index. |
+| [getParamValue(int index)](#getParamValue-int-) | Gets the represented value object of the parameter at a given index. |
+| [getParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount)](#getParamValueInArrayMode-int-int-int-) | Gets the value(s) of the parameter at a given index. |
+| [getWorkbook()](#getWorkbook--) | Gets the Workbook object where the function is. |
+| [getWorksheet()](#getWorksheet--) | Gets the Worksheet object where the function is. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -77,7 +77,7 @@ public Cell getCell()
 ```
 
 
-Gets the Cell object where the function is in.
+Gets the Cell object where the function is.
 
 **Remarks**
 
@@ -91,7 +91,7 @@ public int getCellColumn()
 ```
 
 
-Gets the column index of the cell where the function is in.
+Gets the column index of the cell where the function is.
 
 **Returns:**
 int
@@ -101,7 +101,7 @@ public int getCellRow()
 ```
 
 
-Gets the row index of the cell where the function is in.
+Gets the row index of the cell where the function is.
 
 **Returns:**
 int
@@ -141,7 +141,7 @@ public String getParamText(int index)
 ```
 
 
-Gets the literal text of the parameter at given index.
+Gets the literal text of the parameter at the given index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public Object getParamValue(int index)
 ```
 
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 **Remarks**
 
@@ -183,7 +183,7 @@ public Object[][] getParamValueInArrayMode(int index, int maxRowCount, int maxCo
 ```
 
 
-Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
+Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 **Remarks**
 
@@ -204,7 +204,7 @@ public Workbook getWorkbook()
 ```
 
 
-Gets the Workbook object where the function is in.
+Gets the Workbook object where the function is.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)
@@ -214,7 +214,7 @@ public Worksheet getWorksheet()
 ```
 
 
-Gets the Worksheet object where the function is in.
+Gets the Worksheet object where the function is.
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet)

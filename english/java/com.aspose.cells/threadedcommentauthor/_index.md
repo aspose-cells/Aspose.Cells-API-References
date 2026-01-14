@@ -1,7 +1,7 @@
 ---
 title: ThreadedCommentAuthor
 second_title: Aspose.Cells for Java API Reference
-description: Represents the person who creates the threaded comments
+description: Represents the person who creates the threaded comments.
 type: docs
 url: /java/com.aspose.cells/threadedcommentauthor/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ThreadedCommentAuthor
 ```
 
-Represents the person who creates the threaded comments;
+Represents the person who creates the threaded comments.
 ## Methods
 
 | Method | Description |

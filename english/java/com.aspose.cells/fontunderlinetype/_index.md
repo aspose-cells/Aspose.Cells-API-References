@@ -36,7 +36,7 @@ Enumerates the font underline types.
 | [WAVE](#WAVE) | Represents Wave Underline |
 | [WAVY_DOUBLE](#WAVY-DOUBLE) | Represents Double Wave Underline |
 | [WAVY_HEAVY](#WAVY-HEAVY) | Represents Heavy Wave Underline |
-| [WORDS](#WORDS) | Represents Underline Non-Space Characters Only |
+| [WORDS](#WORDS) | Represents Underline Non-Space Characters. |
 ## Methods
 
 | Method | Description |
@@ -66,6 +66,10 @@ public static final int DASH
 
 Represents Dashed Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### DASHED_HEAVY {#DASHED-HEAVY}
 ```
 public static final int DASHED_HEAVY
@@ -73,6 +77,10 @@ public static final int DASHED_HEAVY
 
 
 Represents Thick Dashed Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### DASH_DOT_DOT_HEAVY {#DASH-DOT-DOT-HEAVY}
 ```
@@ -82,6 +90,10 @@ public static final int DASH_DOT_DOT_HEAVY
 
 Represents Thick Dash-Dot-Dot Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### DASH_DOT_HEAVY {#DASH-DOT-HEAVY}
 ```
 public static final int DASH_DOT_HEAVY
@@ -89,6 +101,10 @@ public static final int DASH_DOT_HEAVY
 
 
 Represents Thick Dash-Dot Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### DASH_LONG {#DASH-LONG}
 ```
@@ -98,6 +114,10 @@ public static final int DASH_LONG
 
 Represents Long Dashed Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### DASH_LONG_HEAVY {#DASH-LONG-HEAVY}
 ```
 public static final int DASH_LONG_HEAVY
@@ -105,6 +125,10 @@ public static final int DASH_LONG_HEAVY
 
 
 Represents Thick Long Dashed Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### DOTTED {#DOTTED}
 ```
@@ -114,6 +138,10 @@ public static final int DOTTED
 
 Represents Dotted Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### DOTTED_HEAVY {#DOTTED-HEAVY}
 ```
 public static final int DOTTED_HEAVY
@@ -121,6 +149,10 @@ public static final int DOTTED_HEAVY
 
 
 Represents Thick Dotted Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### DOT_DASH {#DOT-DASH}
 ```
@@ -130,6 +162,10 @@ public static final int DOT_DASH
 
 Represents Dash-Dot Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### DOT_DOT_DASH {#DOT-DOT-DASH}
 ```
 public static final int DOT_DOT_DASH
@@ -137,6 +173,10 @@ public static final int DOT_DOT_DASH
 
 
 Represents Dash-Dot-Dot Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -162,6 +202,10 @@ public static final int HEAVY
 
 Represents Thick Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### NONE {#NONE}
 ```
 public static final int NONE
@@ -186,6 +230,10 @@ public static final int WAVE
 
 Represents Wave Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### WAVY_DOUBLE {#WAVY-DOUBLE}
 ```
 public static final int WAVY_DOUBLE
@@ -193,6 +241,10 @@ public static final int WAVY_DOUBLE
 
 
 Represents Double Wave Underline
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### WAVY_HEAVY {#WAVY-HEAVY}
 ```
@@ -202,13 +254,21 @@ public static final int WAVY_HEAVY
 
 Represents Heavy Wave Underline
 
+**Remarks**
+
+Only can be applied to chart and shape.
+
 ### WORDS {#WORDS}
 ```
 public static final int WORDS
 ```
 
 
-Represents Underline Non-Space Characters Only
+Represents Underline Non-Space Characters.
+
+**Remarks**
+
+Only can be applied to chart and shape.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

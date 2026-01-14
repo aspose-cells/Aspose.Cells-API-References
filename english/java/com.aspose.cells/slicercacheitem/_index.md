@@ -70,7 +70,7 @@ public String getValue()
 ```
 
 
-Returns the label text for the slicer item. Read-only.
+Returns the label text for the slicer item.
 
 **Returns:**
 java.lang.String

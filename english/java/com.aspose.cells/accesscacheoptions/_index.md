@@ -1,7 +1,7 @@
 ---
 title: AccessCacheOptions
 second_title: Aspose.Cells for Java API Reference
-description: Cache options for data access.
+description: Caching options for data access.
 type: docs
 url: /java/com.aspose.cells/accesscacheoptions/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class AccessCacheOptions
 ```
 
-Cache options for data access. Can be combined with \| operator for multiple options together.
+Caching options for data access. Multiple options can be combined using the "\|" operator.
 
 **Remarks**
 

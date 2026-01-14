@@ -1,7 +1,7 @@
 ---
 title: FontFileDataInfo
 second_title: Aspose.Cells for Java API Reference
-description: Represents data infomation of font file data.
+description: Represents data information of font file data.
 type: docs
 url: /java/com.aspose.cells/fontfiledatainfo/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class FontFileDataInfo
 ```
 
-Represents data infomation of font file data.
+Represents data information of font file data.
 ## Methods
 
 | Method | Description |

@@ -1,7 +1,7 @@
 ---
 title: HtmlTableLoadOption
 second_title: Aspose.Cells for Java API Reference
-description: Represents the option when import table from html.
+description: Represents the option when importing a table from HTML.
 type: docs
 url: /java/com.aspose.cells/htmltableloadoption/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class HtmlTableLoadOption
 ```
 
-Represents the option when import table from html.
+Represents the option when importing a table from HTML.
 ## Constructors
 
 | Constructor | Description |

@@ -1,25 +1,25 @@
 ---
-title: ReserveMissingPivotItemType
+title: ItemsWithNoDataShowMode
 second_title: Aspose.Cells for Java API Reference
-description: Represents how to keep the missing pivot items.
+description: Represent the type how to show items with no data for slicer.
 type: docs
-url: /java/com.aspose.cells/reservemissingpivotitemtype/
+url: /java/com.aspose.cells/itemswithnodatashowmode/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class ReserveMissingPivotItemType
+public final class ItemsWithNoDataShowMode
 ```
 
-Represents how to keep the missing pivot items.
+Represent the type how to show items with no data for slicer.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ALL](#ALL) | Reserves all missing items. |
-| [DEFAULT](#DEFAULT) | Removes old missing pivot items and reserves deleted items of new data source as missing items. |
-| [NONE](#NONE) | Removes all missing pivot items. |
+| [LAST](#LAST) | Show items with no data last. |
+| [NATURAL](#NATURAL) | Show items with no data with natural order. |
+| [NONE](#NONE) | Hide items with no data. |
 ## Methods
 
 | Method | Description |
@@ -33,25 +33,21 @@ Represents how to keep the missing pivot items.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ALL {#ALL}
+### LAST {#LAST}
 ```
-public static final int ALL
-```
-
-
-Reserves all missing items.
-
-**Remarks**
-
-In Excel, as long as Excel is not closed, the missing items generated from the first refresh of the pivot table will be retained, even if you refresh repeatedly
-
-### DEFAULT {#DEFAULT}
-```
-public static final int DEFAULT
+public static final int LAST
 ```
 
 
-Removes old missing pivot items and reserves deleted items of new data source as missing items.
+Show items with no data last.
+
+### NATURAL {#NATURAL}
+```
+public static final int NATURAL
+```
+
+
+Show items with no data with natural order.
 
 ### NONE {#NONE}
 ```
@@ -59,11 +55,7 @@ public static final int NONE
 ```
 
 
-Removes all missing pivot items.
-
-**Remarks**
-
-The order of old missing pivot items will be ignored.
+Hide items with no data.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

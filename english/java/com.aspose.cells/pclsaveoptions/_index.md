@@ -1,7 +1,7 @@
 ---
 title: PclSaveOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents the options for saving Pcl file.
+description: Represents the options for saving a Pcl file.
 type: docs
 url: /java/com.aspose.cells/pclsaveoptions/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveopti
 public class PclSaveOptions extends PaginatedSaveOptions
 ```
 
-Represents the options for saving Pcl file.
+Represents the options for saving a Pcl file.
 ## Constructors
 
 | Constructor | Description |

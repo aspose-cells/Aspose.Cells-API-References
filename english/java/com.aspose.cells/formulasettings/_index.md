@@ -19,31 +19,31 @@ Settings of formulas and calculation.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalculateOnOpen()](#getCalculateOnOpen--) | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [getCalculateOnSave()](#getCalculateOnSave--) | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
+| [getCalculateOnSave()](#getCalculateOnSave--) | Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
 | [getCalculationId()](#getCalculationId--) | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [getCalculationMode()](#getCalculationMode--) | Gets the mode for workbook calculation in ms excel. |
+| [getCalculationMode()](#getCalculationMode--) | Gets the mode for workbook calculation in MS Excel. |
 | [getClass()](#getClass--) |  |
-| [getEnableCalculationChain()](#getEnableCalculationChain--) | Whether enable calculation chain for formulas. |
-| [getEnableIterativeCalculation()](#getEnableIterativeCalculation--) | Indicates whether enable iterative calculation to resolve circular references. |
-| [getForceFullCalculation()](#getForceFullCalculation--) | Indicates whether calculates all formulas every time when a calculation is triggered. |
+| [getEnableCalculationChain()](#getEnableCalculationChain--) | Indicates whether to enable calculation chain for formulas. |
+| [getEnableIterativeCalculation()](#getEnableIterativeCalculation--) | Indicates whether to enable iterative calculation to resolve circular references. |
+| [getForceFullCalculation()](#getForceFullCalculation--) | Indicates whether it calculates all formulas every time when a calculation is triggered. |
 | [getMaxChange()](#getMaxChange--) | The maximum change to resolve a circular reference. |
 | [getMaxIteration()](#getMaxIteration--) | The maximum iterations to resolve a circular reference. |
-| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
+| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--) | Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCalculateOnOpen(boolean value)](#setCalculateOnOpen-boolean-) | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [setCalculateOnSave(boolean value)](#setCalculateOnSave-boolean-) | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
+| [setCalculateOnSave(boolean value)](#setCalculateOnSave-boolean-) | Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
 | [setCalculationId(String value)](#setCalculationId-java.lang.String-) | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [setCalculationMode(int value)](#setCalculationMode-int-) | Sets the mode for workbook calculation in ms excel. |
-| [setEnableCalculationChain(boolean value)](#setEnableCalculationChain-boolean-) | Whether enable calculation chain for formulas. |
-| [setEnableIterativeCalculation(boolean value)](#setEnableIterativeCalculation-boolean-) | Indicates whether enable iterative calculation to resolve circular references. |
-| [setForceFullCalculation(boolean value)](#setForceFullCalculation-boolean-) | Indicates whether calculates all formulas every time when a calculation is triggered. |
+| [setCalculationMode(int value)](#setCalculationMode-int-) | Sets the mode for workbook calculation in MS Excel. |
+| [setEnableCalculationChain(boolean value)](#setEnableCalculationChain-boolean-) | Indicates whether to enable calculation chain for formulas. |
+| [setEnableIterativeCalculation(boolean value)](#setEnableIterativeCalculation-boolean-) | Indicates whether to enable iterative calculation to resolve circular references. |
+| [setForceFullCalculation(boolean value)](#setForceFullCalculation-boolean-) | Indicates whether it calculates all formulas every time when a calculation is triggered. |
 | [setMaxChange(double value)](#setMaxChange-double-) | The maximum change to resolve a circular reference. |
 | [setMaxIteration(int value)](#setMaxIteration-int-) | The maximum iterations to resolve a circular reference. |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [setPreservePaddingSpaces(boolean value)](#setPreservePaddingSpaces-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [setPreservePaddingSpaces(boolean value)](#setPreservePaddingSpaces-boolean-) | Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public boolean getCalculateOnSave()
 ```
 
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 **Remarks**
 
@@ -111,7 +111,7 @@ public int getCalculationMode()
 ```
 
 
-Gets the mode for workbook calculation in ms excel.
+Gets the mode for workbook calculation in MS Excel.
 
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
@@ -137,7 +137,7 @@ public boolean getEnableCalculationChain()
 ```
 
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 **Remarks**
 
@@ -151,7 +151,7 @@ public boolean getEnableIterativeCalculation()
 ```
 
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 **Returns:**
 boolean
@@ -161,7 +161,7 @@ public boolean getForceFullCalculation()
 ```
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 **Remarks**
 
@@ -195,7 +195,7 @@ public boolean getPrecisionAsDisplayed()
 ```
 
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 **Returns:**
 boolean
@@ -205,7 +205,7 @@ public boolean getPreservePaddingSpaces()
 ```
 
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 **Remarks**
 
@@ -262,7 +262,7 @@ public void setCalculateOnSave(boolean value)
 ```
 
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 **Remarks**
 
@@ -296,7 +296,7 @@ public void setCalculationMode(int value)
 ```
 
 
-Sets the mode for workbook calculation in ms excel.
+Sets the mode for workbook calculation in MS Excel.
 
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
@@ -315,7 +315,7 @@ public void setEnableCalculationChain(boolean value)
 ```
 
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 **Remarks**
 
@@ -332,7 +332,7 @@ public void setEnableIterativeCalculation(boolean value)
 ```
 
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +345,7 @@ public void setForceFullCalculation(boolean value)
 ```
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 **Remarks**
 
@@ -388,7 +388,7 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -401,7 +401,7 @@ public void setPreservePaddingSpaces(boolean value)
 ```
 
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 **Remarks**
 

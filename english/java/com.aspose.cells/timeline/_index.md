@@ -74,21 +74,35 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCaption()](#getCaption--) | Returns or sets the caption of the specified Timeline. |
+| [getCaption()](#getCaption--) | Gets the caption of this Timeline. |
 | [getClass()](#getClass--) |  |
+| [getCurrentLevel()](#getCurrentLevel--) | The current time level of the Timeline. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified timeline, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [getName()](#getName--) | Returns or sets the name of the specified Timeline |
+| [getSelectionLevel()](#getSelectionLevel--) | Gets the time level at which the current selection was made for the Timeline. |
 | [getShape()](#getShape--) | Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline. |
+| [getShowHeader()](#getShowHeader--) | Indicates whether to display the header. |
+| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--) | Indicates whether to display the horizontal ccroll bar. |
+| [getShowSelectionLabel()](#getShowSelectionLabel--) | Indicates whether to display the selction label. |
+| [getShowTimeLevel()](#getShowTimeLevel--) | Indicates whether to display the time level. |
+| [getStartDate()](#getStartDate--) | Gets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline). |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified timeline, in pixels. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified Timeline. |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Sets the caption of this Timeline. |
+| [setCurrentLevel(int value)](#setCurrentLevel-int-) | The current time level of the Timeline. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified timeline, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified Timeline |
+| [setSelectionLevel(int value)](#setSelectionLevel-int-) | Sets the time level at which the current selection was made for the Timeline. |
+| [setShowHeader(boolean value)](#setShowHeader-boolean-) | Indicates whether to display the header. |
+| [setShowHorizontalScrollbar(boolean value)](#setShowHorizontalScrollbar-boolean-) | Indicates whether to display the horizontal ccroll bar. |
+| [setShowSelectionLabel(boolean value)](#setShowSelectionLabel-boolean-) | Indicates whether to display the selction label. |
+| [setShowTimeLevel(boolean value)](#setShowTimeLevel-boolean-) | Indicates whether to display the time level. |
+| [setStartDate(DateTime value)](#setStartDate-com.aspose.cells.DateTime-) | Sets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline). |
 | [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified timeline, in pixels. |
 | [toString()](#toString--) |  |
@@ -116,12 +130,12 @@ public String getCaption()
 ```
 
 
-Returns or sets the caption of the specified Timeline.
+Gets the caption of this Timeline.
 
 **Example**
 
 ```
-         //Set the caption of the specified Timeline.
+         //Set the caption of this Timeline.
          timelineObj.setCaption("timeline caption test");
 ```
 
@@ -137,6 +151,18 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCurrentLevel() {#getCurrentLevel--}
+```
+public int getCurrentLevel()
+```
+
+
+The current time level of the Timeline.
+
+See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
+
+**Returns:**
+int
 ### getHeightPixel() {#getHeightPixel--}
 ```
 public int getHeightPixel()
@@ -182,16 +208,78 @@ Returns or sets the name of the specified Timeline
 
 **Returns:**
 java.lang.String
+### getSelectionLevel() {#getSelectionLevel--}
+```
+public int getSelectionLevel()
+```
+
+
+Gets the time level at which the current selection was made for the Timeline.
+
+See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
+
+**Returns:**
+int
 ### getShape() {#getShape--}
 ```
 public TimelineShape getShape()
 ```
 
 
-Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline. Read-only.
+Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline.
 
 **Returns:**
 [TimelineShape](../../com.aspose.cells/timelineshape)
+### getShowHeader() {#getShowHeader--}
+```
+public boolean getShowHeader()
+```
+
+
+Indicates whether to display the header.
+
+**Returns:**
+boolean
+### getShowHorizontalScrollbar() {#getShowHorizontalScrollbar--}
+```
+public boolean getShowHorizontalScrollbar()
+```
+
+
+Indicates whether to display the horizontal ccroll bar.
+
+**Returns:**
+boolean
+### getShowSelectionLabel() {#getShowSelectionLabel--}
+```
+public boolean getShowSelectionLabel()
+```
+
+
+Indicates whether to display the selction label.
+
+**Returns:**
+boolean
+### getShowTimeLevel() {#getShowTimeLevel--}
+```
+public boolean getShowTimeLevel()
+```
+
+
+Indicates whether to display the time level.
+
+**Returns:**
+boolean
+### getStartDate() {#getStartDate--}
+```
+public DateTime getStartDate()
+```
+
+
+Gets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline).
+
+**Returns:**
+[DateTime](../../com.aspose.cells/datetime)
 ### getTopPixel() {#getTopPixel--}
 ```
 public int getTopPixel()
@@ -252,12 +340,27 @@ public void setCaption(String value)
 ```
 
 
-Returns or sets the caption of the specified Timeline.
+Sets the caption of this Timeline.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCurrentLevel(int value) {#setCurrentLevel-int-}
+```
+public void setCurrentLevel(int value)
+```
+
+
+The current time level of the Timeline.
+
+See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setHeightPixel(int value) {#setHeightPixel-int-}
 ```
@@ -305,6 +408,86 @@ Returns or sets the name of the specified Timeline
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setSelectionLevel(int value) {#setSelectionLevel-int-}
+```
+public void setSelectionLevel(int value)
+```
+
+
+Sets the time level at which the current selection was made for the Timeline.
+
+See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setShowHeader(boolean value) {#setShowHeader-boolean-}
+```
+public void setShowHeader(boolean value)
+```
+
+
+Indicates whether to display the header.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowHorizontalScrollbar(boolean value) {#setShowHorizontalScrollbar-boolean-}
+```
+public void setShowHorizontalScrollbar(boolean value)
+```
+
+
+Indicates whether to display the horizontal ccroll bar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowSelectionLabel(boolean value) {#setShowSelectionLabel-boolean-}
+```
+public void setShowSelectionLabel(boolean value)
+```
+
+
+Indicates whether to display the selction label.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowTimeLevel(boolean value) {#setShowTimeLevel-boolean-}
+```
+public void setShowTimeLevel(boolean value)
+```
+
+
+Indicates whether to display the time level.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setStartDate(DateTime value) {#setStartDate-com.aspose.cells.DateTime-}
+```
+public void setStartDate(DateTime value)
+```
+
+
+Sets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DateTime](../../com.aspose.cells/datetime) |  |
 
 ### setTopPixel(int value) {#setTopPixel-int-}
 ```

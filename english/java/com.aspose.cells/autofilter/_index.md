@@ -38,22 +38,22 @@ Represents autofiltering for the specified worksheet.
 | [addFilter(int fieldIndex, String criteria)](#addFilter-int-java.lang.String-) | Adds a filter for a filter column. |
 | [addFontColorFilter(int fieldIndex, CellsColor color)](#addFontColorFilter-int-com.aspose.cells.CellsColor-) | Adds a font color filter. |
 | [addIconFilter(int fieldIndex, int iconSetType, int iconId)](#addIconFilter-int-int-int-) | Adds an icon filter. |
-| [custom(int fieldIndex, int operatorType1, Object criteria1)](#custom-int-int-java.lang.Object-) | Filters a list with a custom criteria. |
+| [custom(int fieldIndex, int operatorType1, Object criteria1)](#custom-int-int-java.lang.Object-) | Filters a list with a custom criterion. |
 | [custom(int fieldIndex, int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2)](#custom-int-int-java.lang.Object-boolean-int-java.lang.Object-) | Filters a list with custom criteria. |
 | [dynamicFilter(int fieldIndex, int dynamicFilterType)](#dynamicFilter-int-int-) | Adds a dynamic filter. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [filter(int fieldIndex, String criteria)](#filter-int-java.lang.String-) | Filters a list with specified criteria. |
-| [filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int itemCount)](#filterTop10-int-boolean-boolean-int-) | Filter the top 10 item in the list |
+| [filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int itemCount)](#filterTop10-int-boolean-boolean-int-) | Filter the top 10 items in the list |
 | [getCellArea()](#getCellArea--) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the this AutoFilter applies to. |
-| [getCellArea(boolean refreshAppliedRange)](#getCellArea-boolean-) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to. |
+| [getCellArea(boolean refreshAppliedRange)](#getCellArea-boolean-) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies. |
 | [getClass()](#getClass--) |  |
 | [getFilterColumns()](#getFilterColumns--) | Gets the collection of the filter columns. |
 | [getRange()](#getRange--) | Represents the range to which the specified AutoFilter applies. |
 | [getShowFilterButton()](#getShowFilterButton--) | Indicates whether the AutoFilter button for this column is visible. |
 | [getSorter()](#getSorter--) | Gets the data sorter. |
 | [hashCode()](#hashCode--) |  |
-| [matchBlanks(int fieldIndex)](#matchBlanks-int-) | Match all blank cell in the list. |
-| [matchNonBlanks(int fieldIndex)](#matchNonBlanks-int-) | Match all not blank cell in the list. |
+| [matchBlanks(int fieldIndex)](#matchBlanks-int-) | Match all blank cells in the list. |
+| [matchNonBlanks(int fieldIndex)](#matchNonBlanks-int-) | Match all not-blank cells in the list. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refresh()](#refresh--) | Refresh auto filters to hide or unhide the rows. |
@@ -166,7 +166,7 @@ public void custom(int fieldIndex, int operatorType1, Object criteria1)
 ```
 
 
-Filters a list with a custom criteria.
+Filters a list with a custom criterion.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public void filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int it
 ```
 
 
-Filter the top 10 item in the list
+Filter the top 10 items in the list
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +272,7 @@ public CellArea getCellArea(boolean refreshAppliedRange)
 ```
 
 
-Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to.
+Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -347,7 +347,7 @@ public void matchBlanks(int fieldIndex)
 ```
 
 
-Match all blank cell in the list.
+Match all blank cells in the list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,7 +360,7 @@ public void matchNonBlanks(int fieldIndex)
 ```
 
 
-Match all not blank cell in the list.
+Match all not-blank cells in the list.
 
 **Parameters:**
 | Parameter | Type | Description |

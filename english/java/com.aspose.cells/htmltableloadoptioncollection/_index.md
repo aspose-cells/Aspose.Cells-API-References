@@ -1,7 +1,7 @@
 ---
 title: HtmlTableLoadOptionCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents the table options when importing html.
+description: Represents the table options when importing HTML.
 type: docs
 url: /java/com.aspose.cells/htmltableloadoptioncollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class HtmlTableLoadOptionCollection extends CollectionBase
 ```
 
-Represents the table options when importing html.
+Represents the table options when importing HTML.
 ## Constructors
 
 | Constructor | Description |
@@ -30,6 +30,7 @@ Represents the table options when importing html.
 | [add(String tableId)](#add-java.lang.String-) | Add a HtmlTableLoadOption to the list. |
 | [add(String tableId, int targetSheetIndex)](#add-java.lang.String-int-) | Add a HtmlTableLoadOption to the list. |
 | [add(String tableId, int targetSheetIndex, int originalSheetIndex)](#add-java.lang.String-int-int-) | Add a HtmlTableLoadOption to the list. |
+| [addTableLoadOption(HtmlTableLoadOption item)](#addTableLoadOption-com.aspose.cells.HtmlTableLoadOption-) | Adds one HtmlTableLoadOption into this collection. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -61,6 +62,10 @@ public int add(HtmlTableLoadOption item)
 
 
 Adds one HtmlTableLoadOption into this collection.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AddTableLoadOption() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,6 +185,21 @@ Add a HtmlTableLoadOption to the list.
 
 **Returns:**
 int - 
+### addTableLoadOption(HtmlTableLoadOption item) {#addTableLoadOption-com.aspose.cells.HtmlTableLoadOption-}
+```
+public int addTableLoadOption(HtmlTableLoadOption item)
+```
+
+
+Adds one HtmlTableLoadOption into this collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | [HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) | one HtmlTableLoadOption |
+
+**Returns:**
+int - the index of the added item
 ### clear() {#clear--}
 ```
 public void clear()

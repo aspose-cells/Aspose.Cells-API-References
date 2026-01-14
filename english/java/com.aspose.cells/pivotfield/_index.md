@@ -106,6 +106,8 @@ Represents a field in a PivotTable report.
 | [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether to insert a blank line after each item. |
 | [getItemCount()](#getItemCount--) | Gets the count of the base items in this pivot field. |
 | [getItems()](#getItems--) | Get all labels of pivot items in this field. |
+| [getMaxValue()](#getMaxValue--) | Gets the max value of this field. |
+| [getMinValue()](#getMinValue--) | Gets the max value of this field. |
 | [getName()](#getName--) | Represents the name of PivotField. |
 | [getNonAutoSortDefault()](#getNonAutoSortDefault--) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [getNumber()](#getNumber--) | Represents the built-in display format of numbers and dates. |
@@ -123,10 +125,13 @@ Represents a field in a PivotTable report.
 | [getShowValuesSetting()](#getShowValuesSetting--) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether to show specified subtotal for this pivot field. |
+| [groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-boolean-com.aspose.cells.DateTime-boolean-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
+| [groupBy(boolean isAutoStart, double start, boolean isAutoEnd, double end, double interval, boolean newField)](#groupBy-boolean-double-boolean-double-double-boolean-) | Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
+| [groupBy(int[] groups, double interval, boolean newField)](#groupBy-int---double-boolean-) | Automatically group the field with internal |
 | [hashCode()](#hashCode--) |  |
 | [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the detail of all PivotItems in a pivot field are hidden. |
 | [hideItem(int index, boolean isHidden)](#hideItem-int-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
@@ -573,6 +578,34 @@ Get all labels of pivot items in this field.
 
 **Returns:**
 java.lang.String[]
+### getMaxValue() {#getMaxValue--}
+```
+public CellValue getMaxValue()
+```
+
+
+Gets the max value of this field.
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
+**Returns:**
+[CellValue](../../com.aspose.cells/cellvalue) - 
+### getMinValue() {#getMinValue--}
+```
+public CellValue getMinValue()
+```
+
+
+Gets the max value of this field.
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
+**Returns:**
+[CellValue](../../com.aspose.cells/cellvalue) - 
 ### getName() {#getName--}
 ```
 public String getName()
@@ -763,6 +796,47 @@ Indicates whether to show specified subtotal for this pivot field.
 
 **Returns:**
 boolean - Returns whether showing specified subtotal.
+### groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField) {#groupBy-boolean-com.aspose.cells.DateTime-boolean-com.aspose.cells.DateTime-int---double-boolean-}
+```
+public boolean groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField)
+```
+
+
+Group the file by the date group types.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start date time value. |
+| start | [DateTime](../../com.aspose.cells/datetime) | The start datetime |
+| isAutoEnd | boolean | Indicates whether to auto detect the end date time value. |
+| end | [DateTime](../../com.aspose.cells/datetime) | The end of datetime |
+| groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
+| interval | double | The interval |
+| firstAsNewField | boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+**Returns:**
+boolean - False means this field could not be grouped by date time.
+### groupBy(boolean isAutoStart, double start, boolean isAutoEnd, double end, double interval, boolean newField) {#groupBy-boolean-double-boolean-double-double-boolean-}
+```
+public boolean groupBy(boolean isAutoStart, double start, boolean isAutoEnd, double end, double interval, boolean newField)
+```
+
+
+Group the file by number.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start value. |
+| start | double | The start value |
+| isAutoEnd | boolean | Indicates whether to auto detect the end value. |
+| end | double | The end of value |
+| interval | double | The interval |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns:**
+boolean - False means this field could not be grouped by date time.
 ### groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField) {#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-}
 ```
 public boolean groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)
@@ -820,6 +894,8 @@ public boolean groupBy(double start, double end, double interval, boolean newFie
 
 Group the file by number.
 
+**Remarks**
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -830,6 +906,21 @@ Group the file by number.
 
 **Returns:**
 boolean - False means this field could not be grouped by date time.
+### groupBy(int[] groups, double interval, boolean newField) {#groupBy-int---double-boolean-}
+```
+public void groupBy(int[] groups, double interval, boolean newField)
+```
+
+
+Automatically group the field with internal
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
+| interval | double | The internal of group. Automatic value will be assigned if it's zero, |
+| newField | boolean | Indicates whether adding a new field to the pivottable. |
+
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
