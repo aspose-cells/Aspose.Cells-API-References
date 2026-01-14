@@ -216,6 +216,10 @@ wpsCompatibility : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### saveFormat {#saveFormat--}
 
 Readonly. Gets the save file format.
@@ -552,6 +556,10 @@ getWpsCompatibility() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setWpsCompatibility(boolean) {#setWpsCompatibility-boolean-}
 
 <b>@deprecated.</b> Please use the 'wpsCompatibility' property instead. Indicates whether to make the xls more compatible with WPS.
@@ -564,6 +572,10 @@ setWpsCompatibility(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isNull() {#isNull--}
 

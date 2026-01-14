@@ -136,10 +136,15 @@ class PivotField;
 | [getItemCount()](#getItemCount--)| <b>@deprecated.</b> Please use the 'itemCount' property instead. Gets the count of the base items in this pivot field. |
 | [getShowCompact()](#getShowCompact--)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view |
 | [setShowCompact(boolean)](#setShowCompact-boolean-)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view |
+| [getMaxValue()](#getMaxValue--)| Gets the max value of this field. |
+| [getMinValue()](#getMinValue--)| Gets the max value of this field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
 | [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with internal |
+| [groupBy(PivotGroupByType[], number, boolean)](#groupBy-pivotgroupbytypearray-number-boolean-)| Automatically group the field with internal |
 | [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
+| [groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean)](#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
 | [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
+| [groupBy(boolean, number, boolean, number, number, boolean)](#groupBy-boolean-number-boolean-number-number-boolean-)| Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
 | [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
@@ -1365,6 +1370,40 @@ setShowCompact(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getMaxValue() {#getMaxValue--}
+
+Gets the max value of this field.
+
+```javascript
+getMaxValue() : CellValue;
+```
+
+
+**Returns**
+
+[CellValue](../cellvalue/)
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
+### getMinValue() {#getMinValue--}
+
+Gets the max value of this field.
+
+```javascript
+getMinValue() : CellValue;
+```
+
+
+**Returns**
+
+[CellValue](../cellvalue/)
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
 ### initPivotItems() {#initPivotItems--}
 
 Init the pivot items of the pivot field
@@ -1388,6 +1427,21 @@ groupBy(interval: number, newField: boolean) : void;
 | interval | number | The internal of group.         /// Automatic value will be assigned if it's zero, |
 | newField | boolean | Indicates whether adding a new field to the pivottable. |
 
+### groupBy(PivotGroupByType[], number, boolean) {#groupBy-pivotgroupbytypearray-number-boolean-}
+
+Automatically group the field with internal
+
+```javascript
+groupBy(groups: PivotGroupByType[], interval: number, newField: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
+| interval | number | The internal of group.           /// Automatic value will be assigned if it's zero, |
+| newField | boolean | Indicates whether adding a new field to the pivottable. |
+
 ### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytypearray-number-boolean-}
 
 Group the file by the date group types.
@@ -1409,6 +1463,29 @@ groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, fi
 
 False means this field could not be grouped by date time.
 
+### groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean) {#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-}
+
+Group the file by the date group types.
+
+```javascript
+groupBy(isAutoStart: boolean, start: Date, isAutoEnd: boolean, end: Date, groups: PivotGroupByType[], interval: number, firstAsNewField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start date time value. |
+| start | Date | The start datetime |
+| isAutoEnd | boolean | Indicates whether to auto detect the end date time value. |
+| end | Date | The end of datetime |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
+| interval | number | The interval |
+| firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
 ### groupBy(number, number, number, boolean) {#groupBy-number-number-number-boolean-}
 
 Group the file by number.
@@ -1421,6 +1498,28 @@ groupBy(start: number, end: number, interval: number, newField: boolean) : boole
 | Parameter | Type | Description |
 | --- | --- | --- |
 | start | number | The start value |
+| end | number | The end of value |
+| interval | number | The interval |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+### groupBy(boolean, number, boolean, number, number, boolean) {#groupBy-boolean-number-boolean-number-number-boolean-}
+
+Group the file by number.
+
+```javascript
+groupBy(isAutoStart: boolean, start: number, isAutoEnd: boolean, end: number, interval: number, newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start value. |
+| start | number | The start value |
+| isAutoEnd | boolean | Indicates whether to auto detect the end value. |
 | end | number | The end of value |
 | interval | number | The interval |
 | newField | boolean | Indicates whether adding a new field to the pivottable |

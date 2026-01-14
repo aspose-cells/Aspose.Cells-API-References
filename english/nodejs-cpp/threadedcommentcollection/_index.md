@@ -20,7 +20,7 @@ class ThreadedCommentCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the threaded comment by the specific index. |
-| [add(string, ThreadedCommentAuthor)](#add-string-threadedcommentauthor-)| Adds a threaded comment; |
+| [add(string, ThreadedCommentAuthor)](#add-string-threadedcommentauthor-)| Adds a threaded comment. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -44,7 +44,7 @@ get(index: number) : ThreadedComment;
 
 ### add(string, ThreadedCommentAuthor) {#add-string-threadedcommentauthor-}
 
-Adds a threaded comment;
+Adds a threaded comment.
 
 ```javascript
 add(text: string, author: ThreadedCommentAuthor) : number;

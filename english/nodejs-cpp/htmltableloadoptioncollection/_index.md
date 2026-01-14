@@ -1,14 +1,14 @@
 ﻿---
 title: HtmlTableLoadOptionCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the table options when importing html.
+description: Represents the table options when importing HTML.
 type: docs
 url: /nodejs-cpp/htmltableloadoptioncollection/
 ---
 
 ## HtmlTableLoadOptionCollection class
 
-Represents the table options when importing html.
+Represents the table options when importing HTML.
 
 ```javascript
 class HtmlTableLoadOptionCollection;
@@ -41,6 +41,7 @@ class HtmlTableLoadOptionCollection;
 | [add(string, number)](#add-string-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(number, number, number)](#add-number-number-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(string, number, number)](#add-string-number-number-)| Add a HtmlTableLoadOption to the list. |
+| [addTableLoadOption(HtmlTableLoadOption)](#addTableLoadOption-htmltableloadoption-)| Adds one HtmlTableLoadOption into this collection. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -118,6 +119,10 @@ add(item: HtmlTableLoadOption) : number;
 **Returns**
 
 the index of the added item
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AddTableLoadOption() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### add(number) {#add-number-}
 
@@ -202,6 +207,23 @@ add(tableId: string, targetSheetIndex: number, originalSheetIndex: number) : num
 | tableId | string | Table ID |
 | targetSheetIndex | number | The target index of worksheet in Excel |
 | originalSheetIndex | number | The original index of worksheet in the html |
+
+### addTableLoadOption(HtmlTableLoadOption) {#addTableLoadOption-htmltableloadoption-}
+
+Adds one HtmlTableLoadOption into this collection.
+
+```javascript
+addTableLoadOption(item: HtmlTableLoadOption) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | [HtmlTableLoadOption](../htmltableloadoption/) | one HtmlTableLoadOption |
+
+**Returns**
+
+the index of the added item
 
 ### getCount() {#getCount--}
 

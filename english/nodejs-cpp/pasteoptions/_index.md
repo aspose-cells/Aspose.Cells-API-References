@@ -26,6 +26,7 @@ class PasteOptions;
 | Property | Type | Description |
 | --- | --- | --- |
 | [pasteType](#pasteType--)| PasteType | The paste special type. |
+| [shiftFormulasOfShapes](#shiftFormulasOfShapes--)| boolean | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [skipBlanks](#skipBlanks--)| boolean | Indicates whether skips blank cells. |
 | [keepOldTables](#keepOldTables--)| boolean | Keeps the tables in the destination range. |
 | [onlyVisibleCells](#onlyVisibleCells--)| boolean | True means only copying visible cells. |
@@ -39,6 +40,8 @@ class PasteOptions;
 | --- | --- |
 | [getPasteType()](#getPasteType--)| <b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type. |
 | [setPasteType(PasteType)](#setPasteType-pastetype-)| <b>@deprecated.</b> Please use the 'pasteType' property instead. The paste special type. |
+| [getShiftFormulasOfShapes()](#getShiftFormulasOfShapes--)| <b>@deprecated.</b> Please use the 'shiftFormulasOfShapes' property instead. Indicates whether to shift formulas of the shapes when copying ranges. |
+| [setShiftFormulasOfShapes(boolean)](#setShiftFormulasOfShapes-boolean-)| <b>@deprecated.</b> Please use the 'shiftFormulasOfShapes' property instead. Indicates whether to shift formulas of the shapes when copying ranges. |
 | [getSkipBlanks()](#getSkipBlanks--)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
 | [setSkipBlanks(boolean)](#setSkipBlanks-boolean-)| <b>@deprecated.</b> Please use the 'skipBlanks' property instead. Indicates whether skips blank cells. |
 | [getKeepOldTables()](#getKeepOldTables--)| <b>@deprecated.</b> Please use the 'keepOldTables' property instead. Keeps the tables in the destination range. |
@@ -69,6 +72,15 @@ The paste special type.
 
 ```javascript
 pasteType : PasteType;
+```
+
+
+### shiftFormulasOfShapes {#shiftFormulasOfShapes--}
+
+Indicates whether to shift formulas of the shapes when copying ranges.
+
+```javascript
+shiftFormulasOfShapes : boolean;
 ```
 
 
@@ -151,6 +163,28 @@ setPasteType(value: PasteType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PasteType](../pastetype/) | The value to set. |
+
+### getShiftFormulasOfShapes() {#getShiftFormulasOfShapes--}
+
+<b>@deprecated.</b> Please use the 'shiftFormulasOfShapes' property instead. Indicates whether to shift formulas of the shapes when copying ranges.
+
+```javascript
+getShiftFormulasOfShapes() : boolean;
+```
+
+
+### setShiftFormulasOfShapes(boolean) {#setShiftFormulasOfShapes-boolean-}
+
+<b>@deprecated.</b> Please use the 'shiftFormulasOfShapes' property instead. Indicates whether to shift formulas of the shapes when copying ranges.
+
+```javascript
+setShiftFormulasOfShapes(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getSkipBlanks() {#getSkipBlanks--}
 

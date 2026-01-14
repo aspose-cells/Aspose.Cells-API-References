@@ -96,8 +96,8 @@ class HtmlSaveOptions extends SaveOptions;
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [layoutMode](#layoutMode--)| HtmlLayoutMode | Gets or sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.Normal](../htmllayoutmode.normal/) |
 | [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
-| [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true. |
-| [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary> |
+| [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
+| [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -253,10 +253,10 @@ class HtmlSaveOptions extends SaveOptions;
 | [setLayoutMode(HtmlLayoutMode)](#setLayoutMode-htmllayoutmode-)| <b>@deprecated.</b> Please use the 'layoutMode' property instead. Gets or sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.Normal](../htmllayoutmode.normal/) |
 | [getEmbeddedFontType()](#getEmbeddedFontType--)| <b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
 | [setEmbeddedFontType(HtmlEmbeddedFontType)](#setEmbeddedFontType-htmlembeddedfonttype-)| <b>@deprecated.</b> Please use the 'embeddedFontType' property instead. Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
-| [getExportNamedRangeAnchors()](#getExportNamedRangeAnchors--)| <b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true. |
-| [setExportNamedRangeAnchors(boolean)](#setExportNamedRangeAnchors-boolean-)| <b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true. |
-| [getDataBarRenderMode()](#getDataBarRenderMode--)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary> |
-| [setDataBarRenderMode(DataBarRenderMode)](#setDataBarRenderMode-databarrendermode-)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary> |
+| [getExportNamedRangeAnchors()](#getExportNamedRangeAnchors--)| <b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
+| [setExportNamedRangeAnchors(boolean)](#setExportNamedRangeAnchors-boolean-)| <b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
+| [getDataBarRenderMode()](#getDataBarRenderMode--)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
+| [setDataBarRenderMode(DataBarRenderMode)](#setDataBarRenderMode-databarrendermode-)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -975,7 +975,7 @@ embeddedFontType : HtmlEmbeddedFontType;
 
 ### exportNamedRangeAnchors {#exportNamedRangeAnchors--}
 
-Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true.
+Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 ```javascript
 exportNamedRangeAnchors : boolean;
@@ -984,7 +984,7 @@ exportNamedRangeAnchors : boolean;
 
 ### dataBarRenderMode {#dataBarRenderMode--}
 
-Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary>
+Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/).
 
 ```javascript
 dataBarRenderMode : DataBarRenderMode;
@@ -2767,7 +2767,7 @@ setEmbeddedFontType(value: HtmlEmbeddedFontType) : void;
 
 ### getExportNamedRangeAnchors() {#getExportNamedRangeAnchors--}
 
-<b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true.
+<b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 ```javascript
 getExportNamedRangeAnchors() : boolean;
@@ -2776,7 +2776,7 @@ getExportNamedRangeAnchors() : boolean;
 
 ### setExportNamedRangeAnchors(boolean) {#setExportNamedRangeAnchors-boolean-}
 
-<b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true.
+<b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 ```javascript
 setExportNamedRangeAnchors(value: boolean) : void;
@@ -2789,7 +2789,7 @@ setExportNamedRangeAnchors(value: boolean) : void;
 
 ### getDataBarRenderMode() {#getDataBarRenderMode--}
 
-<b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary>
+<b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/).
 
 ```javascript
 getDataBarRenderMode() : DataBarRenderMode;
@@ -2802,7 +2802,7 @@ getDataBarRenderMode() : DataBarRenderMode;
 
 ### setDataBarRenderMode(DataBarRenderMode) {#setDataBarRenderMode-databarrendermode-}
 
-<b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary>
+<b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/).
 
 ```javascript
 setDataBarRenderMode(value: DataBarRenderMode) : void;

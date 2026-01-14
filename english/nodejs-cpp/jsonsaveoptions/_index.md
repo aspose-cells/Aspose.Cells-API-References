@@ -1,14 +1,14 @@
 ﻿---
 title: JsonSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the options of saving the workbook as a json file.
+description: Represents the options of saving the workbook as a JSON file.
 type: docs
 url: /nodejs-cpp/jsonsaveoptions/
 ---
 
 ## JsonSaveOptions class
 
-Represents the options of saving the workbook as a json file.
+Represents the options of saving the workbook as a JSON file.
 
 ```javascript
 class JsonSaveOptions extends SaveOptions;

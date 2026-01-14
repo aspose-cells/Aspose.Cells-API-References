@@ -1,14 +1,14 @@
 ﻿---
 title: FontFileDataInfo
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents data infomation of font file data.
+description: Represents data information of font file data.
 type: docs
 url: /nodejs-cpp/fontfiledatainfo/
 ---
 
 ## FontFileDataInfo class
 
-Represents data infomation of font file data.
+Represents data information of font file data.
 
 ```javascript
 class FontFileDataInfo;

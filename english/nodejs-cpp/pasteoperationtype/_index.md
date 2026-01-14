@@ -1,13 +1,13 @@
 ﻿---
 title: PasteOperationType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents operation type when pasting range.
+description: Represents the operation type when pasting a range.
 type: docs
 url: /nodejs-cpp/pasteoperationtype/
 ---
 
 ## PasteOperationType enumeration
-Represents operation type when pasting range.
+Represents the operation type when pasting a range.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

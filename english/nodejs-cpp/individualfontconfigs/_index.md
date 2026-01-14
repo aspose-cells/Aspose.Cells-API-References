@@ -25,11 +25,11 @@ class IndividualFontConfigs;
 
 | Method | Description |
 | --- | --- |
-| [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-stringarray-)| Font substitute names for given original font name. |
-| [getFontSubstitutes(string)](#getFontSubstitutes-string-)| Returns array containing font substitute names to be used if original font is not presented. |
+| [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-stringarray-)| Sets font substitute names for a given original font name. |
+| [getFontSubstitutes(string)](#getFontSubstitutes-string-)| Returns an array containing font substitute names to be used if original font is not presented. |
 | [setFontFolder(string, boolean)](#setFontFolder-string-boolean-)| Sets the fonts folder |
-| [setFontFolders(string[], boolean)](#setFontFolders-stringarray-boolean-)| Sets the fonts folders |
-| [setFontSources(FontSourceBase[])](#setFontSources-fontsourcebasearray-)| Sets the fonts sources. |
+| [setFontFolders(string[], boolean)](#setFontFolders-stringarray-boolean-)| Sets the font folders |
+| [setFontSources(FontSourceBase[])](#setFontSources-fontsourcebasearray-)| Sets the font sources. |
 | [getFontSources()](#getFontSources--)| Gets a copy of the array that contains the list of sources |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -45,7 +45,7 @@ constructor();
 
 ### setFontSubstitutes(string, string[]) {#setFontSubstitutes-string-stringarray-}
 
-Font substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 ```javascript
 setFontSubstitutes(originalFontName: string, substituteFontNames: string[]) : void;
@@ -59,7 +59,7 @@ setFontSubstitutes(originalFontName: string, substituteFontNames: string[]) : vo
 
 ### getFontSubstitutes(string) {#getFontSubstitutes-string-}
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not presented.
 
 ```javascript
 getFontSubstitutes(originalFontName: string) : string[];
@@ -90,7 +90,7 @@ setFontFolder(fontFolder: string, recursive: boolean) : void;
 
 ### setFontFolders(string[], boolean) {#setFontFolders-stringarray-boolean-}
 
-Sets the fonts folders
+Sets the font folders
 
 ```javascript
 setFontFolders(fontFolders: string[], recursive: boolean) : void;
@@ -104,7 +104,7 @@ setFontFolders(fontFolders: string[], recursive: boolean) : void;
 
 ### setFontSources(FontSourceBase[]) {#setFontSources-fontsourcebasearray-}
 
-Sets the fonts sources.
+Sets the font sources.
 
 ```javascript
 setFontSources(sources: FontSourceBase[]) : void;

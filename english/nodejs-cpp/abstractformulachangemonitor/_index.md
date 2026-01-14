@@ -1,14 +1,14 @@
 ﻿---
 title: AbstractFormulaChangeMonitor
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Monitor for user to track the change of formulas during certain operations.
+description: Monitor for the user to track the change of formulas during certain operations.
 type: docs
 url: /nodejs-cpp/abstractformulachangemonitor/
 ---
 
 ## AbstractFormulaChangeMonitor class
 
-Monitor for user to track the change of formulas during certain operations.
+Monitor for the user to track the change of formulas during certain operations.
 
 ```javascript
 abstract class AbstractFormulaChangeMonitor;
