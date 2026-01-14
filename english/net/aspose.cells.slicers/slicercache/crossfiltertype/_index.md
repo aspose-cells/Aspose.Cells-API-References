@@ -1,17 +1,23 @@
 ---
 title: SlicerCache.CrossFilterType
 second_title: Aspose.Cells for .NET API Reference
-description: SlicerCache property. Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache and how cross filtering is displayed. Read/write
+description: SlicerCache property. Indicates how to show items with no data of slicer
 type: docs
 url: /net/aspose.cells.slicers/slicercache/crossfiltertype/
 ---
 ## SlicerCache.CrossFilterType property
 
-Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
+Indicates how to show items with no data of slicer.
 
 ```csharp
+[Obsolete("Use Slicer.ShowTypeOfItemsWithNoData property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public SlicerCacheCrossFilterType CrossFilterType { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`ShowTypeOfItemsWithNoData`](../../slicer/showtypeofitemswithnodata/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

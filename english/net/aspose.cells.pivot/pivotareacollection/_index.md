@@ -27,7 +27,8 @@ public class PivotAreaCollection : CollectionBase<PivotArea>
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.cells.pivot/pivotareacollection/add/#add_1)(CellArea) | Adds an area based on pivot table view. |
-| [Add](../../aspose.cells.pivot/pivotareacollection/add/#add)(PivotArea) | Adds pivot area. |
+| [Add](../../aspose.cells.pivot/pivotareacollection/add/#add)(PivotArea) | (**Obsolete.**) Adds pivot area. |
+| [AddPivotArea](../../aspose.cells.pivot/pivotareacollection/addpivotarea/)(PivotArea) | Adds pivot area into this collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotArea) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotArea, IComparer&lt;PivotArea&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotArea, IComparer&lt;PivotArea&gt;) |  |

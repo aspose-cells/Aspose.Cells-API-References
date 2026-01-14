@@ -120,6 +120,72 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 
 NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Collections;
+
+    public class PivotTableMethodSetManualGroupFieldWithPivotFieldDoubleDoubleArrayListDoubleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].Value = "Date";
+            worksheet.Cells["A2"].Value = new DateTime(2023, 1, 1);
+            worksheet.Cells["A3"].Value = new DateTime(2023, 1, 2);
+            worksheet.Cells["A4"].Value = new DateTime(2023, 1, 3);
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 300;
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D3", "SalesPivot");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Calculate data to populate the pivot table
+            pivotTable.CalculateData();
+
+            try
+            {
+                // Get the pivot field for grouping
+                PivotField pivotField = pivotTable.RowFields[0];
+
+                // Create an ArrayList for group by values
+                ArrayList groupByList = new ArrayList();
+                groupByList.Add(1.0);
+                groupByList.Add(2.0);
+
+                // Call SetManualGroupField with appropriate parameters
+                pivotTable.SetManualGroupField(pivotField, 1.0, 3.0, groupByList, 1.0);
+
+                Console.WriteLine("SetManualGroupField method called successfully");
+
+                // Save the workbook to show the effect
+                workbook.Save("SetManualGroupFieldDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling SetManualGroupField: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotField](../../pivotfield/)
@@ -152,6 +218,72 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 
 NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Collections;
+
+    public class PivotTableMethodSetManualGroupFieldWithInt32DateTimeDateTimeArrayListInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].Value = "Date";
+            worksheet.Cells["A2"].Value = new DateTime(2023, 1, 1);
+            worksheet.Cells["A3"].Value = new DateTime(2023, 1, 2);
+            worksheet.Cells["A4"].Value = new DateTime(2023, 1, 3);
+            worksheet.Cells["A5"].Value = new DateTime(2023, 1, 4);
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 1500;
+            worksheet.Cells["B4"].Value = 2000;
+            worksheet.Cells["B5"].Value = 2500;
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            try
+            {
+                // Create an ArrayList for grouping intervals
+                ArrayList groupByList = new ArrayList();
+                groupByList.Add(PivotGroupByType.Days);
+
+                // Call SetManualGroupField with appropriate parameters
+                pivotTable.SetManualGroupField(
+                    0, // baseFieldIndex (Date field)
+                    new DateTime(2023, 1, 1), // startVal
+                    new DateTime(2023, 1, 4), // endVal
+                    groupByList, // groupByList
+                    1); // intervalNum (group by 1 day)
+
+                Console.WriteLine("SetManualGroupField method called successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling SetManualGroupField: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("SetManualGroupFieldDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)
@@ -182,6 +314,78 @@ public void SetManualGroupField(PivotField pivotField, DateTime startVal, DateTi
 ### Remarks
 
 NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Collections;
+
+    public class PivotTableMethodSetManualGroupFieldWithPivotFieldDateTimeDateTimeArrayListInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Populate sample data with a Date column and an Amount column
+            sheet.Cells["A1"].PutValue("Date");
+            sheet.Cells["B1"].PutValue("Amount");
+
+            sheet.Cells["A2"].PutValue(new DateTime(2020, 1, 15));
+            sheet.Cells["B2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(new DateTime(2020, 3, 10));
+            sheet.Cells["B3"].PutValue(150);
+            sheet.Cells["A4"].PutValue(new DateTime(2020, 6, 5));
+            sheet.Cells["B4"].PutValue(200);
+            sheet.Cells["A5"].PutValue(new DateTime(2020, 9, 20));
+            sheet.Cells["B5"].PutValue(180);
+
+            // Create a pivot table based on the data range
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D3", "DemoPivot");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+
+            // Add the Date field as a row field and Amount as a data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+
+            // Get the PivotField that represents the Date column
+            PivotField datePivotField = pivotTable.RowFields[0];
+
+            // Prepare parameters for SetManualGroupField
+            DateTime startDate = new DateTime(2020, 1, 1);
+            DateTime endDate = new DateTime(2020, 12, 31);
+            ArrayList groupByList = new ArrayList();
+            groupByList.Add("Months");
+            groupByList.Add("Quarters");
+            int intervalNum = 1; // group interval
+
+            try
+            {
+                // Call the obsolete SetManualGroupField method
+                pivotTable.SetManualGroupField(datePivotField, startDate, endDate, groupByList, intervalNum);
+
+                // Recalculate the pivot table to apply the grouping
+                pivotTable.CalculateData();
+
+                Console.WriteLine("SetManualGroupField executed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling SetManualGroupField: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("PivotTable_SetManualGroupField_Demo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

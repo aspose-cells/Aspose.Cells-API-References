@@ -18,13 +18,13 @@ public class Font
 | Name | Description |
 | --- | --- |
 | [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
-| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | Gets and sets the text caps type. |
+| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | (**Obsolete.**) Gets and sets the text caps type. |
 | [Charset](../../aspose.cells/font/charset/) { get; set; } | Represent the character set. |
 | [Color](../../aspose.cells/font/color/) { get; set; } | Gets or sets the Color of the font. |
 | [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Gets and sets the double size of the font. |
 | [IsBold](../../aspose.cells/font/isbold/) { get; set; } | Gets or sets a value indicating whether the font is bold. |
 | [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | Gets or sets a value indicating whether the font is italic. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | (**Obsolete.**) Indicates whether the normalization of height that is to be applied to the text run. |
 | [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | Gets or sets a value indicating whether the font is single strikeout. |
 | [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | Gets or sets a value indicating whether the font is subscript. |
 | [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | Gets or sets a value indicating whether the font is super script. |
@@ -41,6 +41,7 @@ public class Font
 | Name | Description |
 | --- | --- |
 | [Equals](../../aspose.cells/font/equals/#equals)(Font) | Checks if two fonts are equals. |
+| [SetName](../../aspose.cells/font/setname/)(string, FontSchemeType) | Sets name and scheme of the font. |
 | override [ToString](../../aspose.cells/font/tostring/)() | Returns a string represents the current Cell object. |
 
 ### Examples

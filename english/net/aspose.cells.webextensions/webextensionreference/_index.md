@@ -22,6 +22,59 @@ public class WebExtensionReference
 | [StoreType](../../aspose.cells.webextensions/webextensionreference/storetype/) { get; set; } | Gets and sets the type of marketplace that the store attribute identifies. |
 | [Version](../../aspose.cells.webextensions/webextensionreference/version/) { get; set; } | Gets and sets the version. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.WebExtensions;
+    using System;
+
+    public class WebExtensionsClassWebExtensionReferenceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a WebExtension first
+                WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+                int extensionIndex = webExtensions.Add();
+                WebExtension webExt = webExtensions[extensionIndex];
+
+                // Get the WebExtensionReference from the WebExtension
+                WebExtensionReference webExtensionRef = webExt.Reference;
+
+                // Set properties of the WebExtensionReference
+                webExtensionRef.Id = "my-addin-123";
+                webExtensionRef.Version = "1.0.0";
+                webExtensionRef.StoreName = "MyAddinStore";
+                webExtensionRef.StoreType = WebExtensionStoreType.OMEX;
+
+                // Display the reference properties
+                Console.WriteLine($"WebExtension Reference created:");
+                Console.WriteLine($"ID: {webExtensionRef.Id}");
+                Console.WriteLine($"Version: {webExtensionRef.Version}");
+                Console.WriteLine($"Store Name: {webExtensionRef.StoreName}");
+                Console.WriteLine($"Store Type: {webExtensionRef.StoreType}");
+
+                // Save the workbook
+                workbook.Save("WebExtensionReferenceDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully with WebExtension reference.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionReference: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions/)

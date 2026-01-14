@@ -1,13 +1,13 @@
 ---
 title: CalculationData.CellRow
 second_title: Aspose.Cells for .NET API Reference
-description: CalculationData property. Gets the row index of the cell where the function is in
+description: CalculationData property. Gets the row index of the cell where the function is
 type: docs
 url: /net/aspose.cells/calculationdata/cellrow/
 ---
 ## CalculationData.CellRow property
 
-Gets the row index of the cell where the function is in.
+Gets the row index of the cell where the function is.
 
 ```csharp
 public int CellRow { get; }

@@ -175,6 +175,59 @@ public void Save(Stream stream, SaveFormat saveFormat)
 | stream | Stream | The file stream. |
 | saveFormat | SaveFormat | The save file format type. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodSaveWithStreamSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Sample Data";
+            worksheet.Cells["B1"].Value = "Stream Save Demo";
+
+            try
+            {
+                // Create a memory stream to save the workbook
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Save the workbook to the stream in XLSX format
+                    workbook.Save(stream, SaveFormat.Xlsx);
+
+                    // Display success message
+                    Console.WriteLine("Workbook saved to stream successfully in XLSX format.");
+                    Console.WriteLine($"Stream length: {stream.Length} bytes");
+
+                    // Reset stream position for potential further processing
+                    stream.Position = 0;
+
+                    // Optionally save to file for verification
+                    using (FileStream fileStream = File.Create("StreamSaveDemo.xlsx"))
+                    {
+                        stream.CopyTo(fileStream);
+                    }
+                    Console.WriteLine("Stream content also saved to file: StreamSaveDemo.xlsx");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error saving workbook to stream: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)
@@ -196,6 +249,59 @@ public void Save(Stream stream, SaveOptions saveOptions)
 | --- | --- | --- |
 | stream | Stream | The file stream. |
 | saveOptions | SaveOptions | The save options. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodSaveWithStreamSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Hello, Aspose.Cells!";
+            worksheet.Cells["B1"].Value = "Stream Save Demo";
+
+            // Create a MemoryStream to save the workbook
+            MemoryStream stream = new MemoryStream();
+
+            try
+            {
+                // Create SaveOptions for PDF format
+                PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+                // Save the workbook to the stream with the specified options
+                workbook.Save(stream, saveOptions);
+
+                Console.WriteLine("Workbook saved to stream successfully in PDF format.");
+                Console.WriteLine($"Stream length: {stream.Length} bytes");
+
+                // Reset stream position for potential further use
+                stream.Position = 0;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error saving workbook: {ex.Message}");
+            }
+            finally
+            {
+                // Clean up resources
+                stream?.Dispose();
+                workbook?.Dispose();
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

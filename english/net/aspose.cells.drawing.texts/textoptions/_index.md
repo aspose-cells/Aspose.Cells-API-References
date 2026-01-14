@@ -18,7 +18,7 @@ public class TextOptions : Font
 | Name | Description |
 | --- | --- |
 | [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Gets and sets the color with a 32-bit ARGB value.(Inherited from [`Font`](../../aspose.cells/font/).) |
-| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | Gets and sets the text caps type.(Inherited from [`Font`](../../aspose.cells/font/).) |
+| [CapsType](../../aspose.cells.drawing.texts/textoptions/capstype/) { get; set; } | Gets and sets the text caps type. |
 | [Charset](../../aspose.cells/font/charset/) { get; set; } | Represent the character set.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [Color](../../aspose.cells/font/color/) { get; set; } | Gets or sets the Color of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Gets and sets the double size of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
@@ -26,7 +26,7 @@ public class TextOptions : Font
 | [Fill](../../aspose.cells.drawing.texts/textoptions/fill/) { get; } | Represents the fill format of the text. |
 | [IsBold](../../aspose.cells/font/isbold/) { get; set; } | Gets or sets a value indicating whether the font is bold.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | Gets or sets a value indicating whether the font is italic.(Inherited from [`Font`](../../aspose.cells/font/).) |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run.(Inherited from [`Font`](../../aspose.cells/font/).) |
+| [IsNormalizeHeights](../../aspose.cells.drawing.texts/textoptions/isnormalizeheights/) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run. |
 | [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | Gets or sets a value indicating whether the font is single strikeout.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | Gets or sets a value indicating whether the font is subscript.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | Gets or sets a value indicating whether the font is super script.(Inherited from [`Font`](../../aspose.cells/font/).) |
@@ -50,6 +50,7 @@ public class TextOptions : Font
 | Name | Description |
 | --- | --- |
 | [Equals](../../aspose.cells/font/equals/)(Font) | Checks if two fonts are equals.(Inherited from [`Font`](../../aspose.cells/font/).) |
+| [SetName](../../aspose.cells/font/setname/)(string, FontSchemeType) | Sets name and scheme of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | override [ToString](../../aspose.cells/font/tostring/)() | Returns a string represents the current Cell object.(Inherited from [`Font`](../../aspose.cells/font/).) |
 
 ### Examples

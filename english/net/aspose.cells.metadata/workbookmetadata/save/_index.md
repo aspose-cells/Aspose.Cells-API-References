@@ -69,6 +69,54 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using System;
+    using System.IO;
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+
+    public class WorkbookMetadataMethodSaveWithStreamDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Path to an existing workbook (ensure the file exists in the execution folder)
+                string sourcePath = "Sample.xlsx";
+
+                // Create MetadataOptions for document properties
+                MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+                // Instantiate WorkbookMetadata with the source file and options
+                WorkbookMetadata metadata = new WorkbookMetadata(sourcePath, options);
+
+                // Access the built‑in document properties collection (read‑only)
+                var builtInProperties = metadata.BuiltInDocumentProperties;
+                Console.WriteLine("Built‑in document properties collection retrieved.");
+
+                // Save the metadata to a new file using a stream
+                using (FileStream outputStream = new FileStream("MetadataOutput.xlsx",
+                                                              FileMode.Create,
+                                                              FileAccess.Write))
+                {
+                    metadata.Save(outputStream);
+                }
+
+                Console.WriteLine("Metadata saved successfully to stream.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during metadata Save: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WorkbookMetadata](../)

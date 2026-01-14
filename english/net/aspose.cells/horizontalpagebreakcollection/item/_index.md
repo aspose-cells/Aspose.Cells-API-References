@@ -79,6 +79,51 @@ public HorizontalPageBreak this[string cellName] { get; }
 
 The element with the specified cell name.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using System;
+    using Aspose.Cells;
+
+    public class HorizontalPageBreakCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a couple of horizontal page breaks using different overloads
+                worksheet.HorizontalPageBreaks.Add(5);          // break after row index 5
+                worksheet.HorizontalPageBreaks.Add("D5");      // break at cell D5 (row index 4)
+
+                // ----- Access via integer index (Item[int]) -----
+                // The Item property is the indexer, so we use the [] syntax
+                HorizontalPageBreak firstBreak = worksheet.HorizontalPageBreaks[0];
+                Console.WriteLine("First break row (int index): " + firstBreak.Row);
+
+                // ----- Access via string key (Item[string]) -----
+                // Retrieve the page break that was added with the cell name "D5"
+                HorizontalPageBreak breakByCell = worksheet.HorizontalPageBreaks["D5"];
+                Console.WriteLine("Break added with \"D5\" is at row: " + breakByCell.Row);
+
+                // Save the workbook to verify that the page breaks are persisted
+                workbook.Save("HorizontalPageBreaks_ItemDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [HorizontalPageBreak](../../horizontalpagebreak/)

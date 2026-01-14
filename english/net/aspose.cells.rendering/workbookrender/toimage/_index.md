@@ -206,6 +206,58 @@ public void ToImage(int pageIndex, Stream stream)
 | pageIndex | Int32 | indicate which page is to be converted |
 | stream | Stream | the stream of the output image |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class WorkbookRenderMethodToImageWithInt32StreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "ToImage with Page Index and Stream Demo";
+
+            // Configure image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+
+            try
+            {
+                // Initialize workbook renderer
+                WorkbookRender renderer = new WorkbookRender(workbook, options);
+
+                // Get the first page index (0-based)
+                int pageIndex = 0;
+
+                // Create a memory stream to hold the image
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Call ToImage with page index and stream
+                    renderer.ToImage(pageIndex, stream);
+
+                    // Display results
+                    Console.WriteLine($"Page {pageIndex} rendered successfully to stream");
+                    Console.WriteLine($"Stream length: {stream.Length} bytes");
+                    Console.WriteLine($"Total pages available: {renderer.PageCount}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during rendering: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WorkbookRender](../)
@@ -229,6 +281,57 @@ public Bitmap ToImage(int pageIndex)
 ### Return Value
 
 the bitmap object of the page
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class WorkbookRenderMethodToImageWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "ToImage with Page Index Demo";
+
+            // Configure image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+
+            // Create output directory if it doesn't exist
+            string outputDir = "output/";
+            Directory.CreateDirectory(outputDir);
+
+            try
+            {
+                // Initialize workbook renderer
+                WorkbookRender renderer = new WorkbookRender(workbook, options);
+
+                // Get the first page index (0-based)
+                int pageIndex = 0;
+
+                // Call ToImage with page index and save to file
+                string imagePath = Path.Combine(outputDir, $"page_{pageIndex}.png");
+                renderer.ToImage(pageIndex, imagePath);
+
+                Console.WriteLine($"Page {pageIndex} rendered successfully to: {imagePath}");
+                Console.WriteLine($"Total pages available: {renderer.PageCount}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during rendering: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

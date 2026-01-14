@@ -10,8 +10,14 @@ url: /net/aspose.cells.slicers/slicer/isprintable/
 Indicates whether the slicer object is printable.
 
 ```csharp
+[Obsolete("Use Shape.IsPrintable property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsPrintable { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`IsPrintable`](../../../aspose.cells.drawing/shape/isprintable/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

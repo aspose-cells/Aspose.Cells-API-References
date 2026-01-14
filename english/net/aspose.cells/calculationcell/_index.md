@@ -33,6 +33,57 @@ public class CalculationCell
 
 All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Reflection;
+
+    public class CellsClassCalculationCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].Value = 10;
+            worksheet.Cells["B1"].Formula = "=A1*2";
+
+            try
+            {
+                // Create CalculationCell instance using reflection since constructor is non-public
+                CalculationCell calcCell = (CalculationCell)Activator.CreateInstance(
+                    typeof(CalculationCell),
+                    BindingFlags.NonPublic | BindingFlags.Instance,
+                    null,
+                    new object[] { workbook, worksheet, 0, 1, worksheet.Cells["B1"] },
+                    null);
+
+                // Display basic properties
+                Console.WriteLine($"Cell Row: {calcCell.CellRow}");
+                Console.WriteLine($"Cell Column: {calcCell.CellColumn}");
+                Console.WriteLine($"Cell Value: {calcCell.Cell.Value}");
+                Console.WriteLine($"Workbook Name: {calcCell.Workbook.FileName}");
+                Console.WriteLine($"Worksheet Name: {calcCell.Worksheet.Name}");
+
+                // Save the workbook
+                workbook.Save("CalculationCellDemo.xlsx");
+                Console.WriteLine("CalculationCell demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

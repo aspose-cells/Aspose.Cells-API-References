@@ -141,6 +141,60 @@ public SmartTagCollection this[string cellName] { get; }
 
 Returns the [`SmartTagCollection`](../../smarttagcollection/) object of the cell. Returns null if there is no any smart tags on the cell.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Markup;
+    using System;
+
+    public class SmartTagSettingPropertyItemDemo2
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Access the SmartTagSetting for the worksheet
+                SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
+
+                // Add a smart tag to cell A1 (row 0, column 0)
+                int smartTagIndex = smartTagSetting.Add(0, 0);
+
+                // Demonstrate the Item property usage (indexer)
+                SmartTagCollection smartTagCollection = smartTagSetting[smartTagIndex];
+
+                // Add a smart tag to the collection
+                smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
+
+                // Display information about the smart tag
+                Console.WriteLine("Number of smart tags in collection: " + smartTagCollection.Count);
+                if (smartTagCollection.Count > 0)
+                {
+                    Console.WriteLine("First smart tag URI: " + smartTagCollection[0].Uri);
+                    Console.WriteLine("First smart tag name: " + smartTagCollection[0].Name);
+                }
+
+                // Save the workbook
+                workbook.Save("SmartTagItemDemo.xlsx");
+                Console.WriteLine("SmartTagItemDemo.xlsx created successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SmartTagCollection](../../smarttagcollection/)

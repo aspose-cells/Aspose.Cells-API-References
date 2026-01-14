@@ -1,13 +1,13 @@
 ---
 title: AutoFilter.MatchBlanks
 second_title: Aspose.Cells for .NET API Reference
-description: AutoFilter method. Match all blank cell in the list
+description: AutoFilter method. Match all blank cells in the list
 type: docs
 url: /net/aspose.cells/autofilter/matchblanks/
 ---
 ## AutoFilter.MatchBlanks method
 
-Match all blank cell in the list.
+Match all blank cells in the list.
 
 ```csharp
 public void MatchBlanks(int fieldIndex)

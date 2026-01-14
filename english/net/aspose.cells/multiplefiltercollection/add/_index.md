@@ -89,6 +89,58 @@ public void Add(DateTimeGroupingType type, int year, int month, int day)
 | month | Int32 | The month. |
 | day | Int32 | The day. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class MultipleFilterCollectionMethodAddWithDateTimeGroupinInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data with dates
+            worksheet.Cells["A1"].PutValue("Date");
+            worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 15));
+            worksheet.Cells["A3"].PutValue(new DateTime(2023, 1, 16));
+            worksheet.Cells["A4"].PutValue(new DateTime(2023, 1, 17));
+
+            try
+            {
+                // Apply auto filter to the date column
+                worksheet.AutoFilter.Range = "A1:A4";
+
+                // Get the filter column for dates
+                FilterColumn filterColumn = worksheet.AutoFilter.FilterColumns[0];
+                filterColumn.FilterType = FilterType.MultipleFilters;
+
+                // Create MultipleFilterCollection
+                MultipleFilterCollection filters = new MultipleFilterCollection();
+
+                // Add a date filter using the Add method with DateTimeGroupingType and integers
+                filters.Add(DateTimeGroupingType.Day, 2023, 1, 16);
+
+                // Apply the filter
+                filterColumn.Filter = filters;
+                worksheet.AutoFilter.Refresh();
+
+                Console.WriteLine("Date filter applied successfully for January 16, 2023");
+                workbook.Save("DateFilterDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error applying date filter: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [DateTimeGroupingType](../../datetimegroupingtype/)

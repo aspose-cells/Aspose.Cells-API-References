@@ -28,6 +28,59 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetArrayFormulaWithStringInt32Int32BooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].Value = 10;
+            worksheet.Cells["A2"].Value = 20;
+            worksheet.Cells["A3"].Value = 30;
+
+            try
+            {
+                // Get the target cell where we want to set the array formula
+                Cell targetCell = worksheet.Cells["B1"];
+
+                // Set an array formula that multiplies values in A1:A3 by 2
+                // Parameters: (formula, rowNumber=3, columnNumber=1, isR1C1=false, isLocal=false)
+                targetCell.SetArrayFormula("=A1:A3*2", 3, 1, false, false);
+
+                // Calculate the workbook to see the results
+                workbook.CalculateFormula();
+
+                // Display the results
+                Console.WriteLine($"B1 value: {targetCell.Value}");
+                Console.WriteLine($"B2 value: {worksheet.Cells["B2"].Value}");
+                Console.WriteLine($"B3 value: {worksheet.Cells["B3"].Value}");
+
+                // Save the workbook
+                workbook.Save("SetArrayFormulaDemo.xlsx");
+                Console.WriteLine("Array formula set successfully and workbook saved.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error setting array formula: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../)
@@ -174,53 +227,6 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | columnNumber | Int32 | Number of columns to populate result of the array formula. |
 | options | FormulaParseOptions | Options for parsing the formula. |
 | values | Object[][] | values for those cells with given array formula |
-
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-
-    public class CellMethodSetArrayFormulaWithStringInt32Int32FormulaParseOpDemo2
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cell cell = worksheet.Cells[0, 0]; // Target cell A1
-
-            // Prepare array formula parameters
-            string arrayFormula = "{1,2;3,4;5,6}"; // 3x2 array formula
-            int rowNumber = 3;
-            int columnNumber = 2;
-            FormulaParseOptions options = new FormulaParseOptions();
-            object[][] values = new object[3][]
-            {
-                new object[] { 1, 2 },
-                new object[] { 3, 4 },
-                new object[] { 5, 6 }
-            };
-
-            try
-            {
-                // Set array formula with predefined values
-                cell.SetArrayFormula(arrayFormula, rowNumber, columnNumber, options, values);
-                Console.WriteLine("Array formula set successfully in A1:B3");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing SetArrayFormula: {ex.Message}");
-            }
-
-            // Save the workbook
-            workbook.Save("SetArrayFormulaDemo.xlsx");
-        }
-    }
-}
-```
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: FontConfigs.GetFontFileDataInfo
 second_title: Aspose.Cells for .NET API Reference
-description: FontConfigs method. Get data infomation of font file data
+description: FontConfigs method. Get data information of font file data
 type: docs
 url: /net/aspose.cells/fontconfigs/getfontfiledatainfo/
 ---
 ## FontConfigs.GetFontFileDataInfo method
 
-Get data infomation of font file data.
+Get data information of font file data.
 
 ```csharp
 public static FontFileDataInfo GetFontFileDataInfo(string fontName, bool isBold, bool isItalic, 

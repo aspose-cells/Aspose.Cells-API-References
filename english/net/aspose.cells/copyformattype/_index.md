@@ -1,13 +1,13 @@
 ---
 title: Enum CopyFormatType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.CopyFormatType enum. Represents type of copying format when inserting rows
+description: Aspose.Cells.CopyFormatType enum. Represents the type of copying format when inserting rows
 type: docs
 url: /net/aspose.cells/copyformattype/
 ---
 ## CopyFormatType enumeration
 
-Represents type of copying format when inserting rows.
+Represents the type of copying format when inserting rows.
 
 ```csharp
 public enum CopyFormatType

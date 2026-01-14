@@ -1,13 +1,13 @@
 ---
 title: Enum MergedCellsShrinkType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.MergedCellsShrinkType enum. Represents the strategy to shrink merged cells for operations such as deleting blank rows/column
+description: Aspose.Cells.MergedCellsShrinkType enum. Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns
 type: docs
 url: /net/aspose.cells/mergedcellsshrinktype/
 ---
 ## MergedCellsShrinkType enumeration
 
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns.
 
 ```csharp
 public enum MergedCellsShrinkType

@@ -48,6 +48,55 @@ public class DataModelConnection : ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+    using System.Collections.Generic;
+
+    public class ExternalConnectionsClassDataModelConnectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+
+            try
+            {
+                // Create an instance of the DataModelConnection class using reflection
+                DataModelConnection connection = (DataModelConnection)System.Runtime.Serialization.FormatterServices.GetUninitializedObject(typeof(DataModelConnection));
+
+                // Set essential properties
+                connection.Command = "SELECT * FROM Products";
+                connection.CommandType = OLEDBCommandType.SqlStatement;
+                connection.ConnectionString = "Provider=SQLOLEDB;Data Source=Northwind;Integrated Security=SSPI";
+
+                // Add the connection to the workbook's data connections
+                ((IList<ExternalConnection>)workbook.DataConnections).Add(connection);
+
+                // Display connection information
+                Console.WriteLine($"Connection Type: {connection.ClassType}");
+                Console.WriteLine($"Command: {connection.Command}");
+                Console.WriteLine($"Command Type: {connection.CommandType}");
+                Console.WriteLine($"Connection String: {connection.ConnectionString}");
+
+                // Save the workbook
+                workbook.Save("DataModelConnectionDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully with DataModelConnection.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with DataModelConnection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

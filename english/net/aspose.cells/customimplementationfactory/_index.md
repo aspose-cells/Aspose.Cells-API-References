@@ -1,13 +1,13 @@
 ---
 title: Class CustomImplementationFactory
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.CustomImplementationFactory class. Factory to create some instances which may be reimplemented by user for special purpose
+description: Aspose.Cells.CustomImplementationFactory class. Factory to create some instances which may be reimplemented by the user for a special purpose
 type: docs
 url: /net/aspose.cells/customimplementationfactory/
 ---
 ## CustomImplementationFactory class
 
-Factory to create some instances which may be re-implemented by user for special purpose.
+Factory to create some instances which may be re-implemented by the user for a special purpose.
 
 ```csharp
 public class CustomImplementationFactory

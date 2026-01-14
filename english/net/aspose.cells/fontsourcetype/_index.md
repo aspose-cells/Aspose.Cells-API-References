@@ -17,9 +17,9 @@ public enum FontSourceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FontFile | `0` | represents single font file. |
-| FontsFolder | `1` | represents folder with font files. |
-| MemoryFont | `2` | represents single font in memory. |
+| FontFile | `0` | represents a single font file. |
+| FontsFolder | `1` | Represents a folder with font files. |
+| MemoryFont | `2` | Represents a single font in memory. |
 
 ### Examples
 

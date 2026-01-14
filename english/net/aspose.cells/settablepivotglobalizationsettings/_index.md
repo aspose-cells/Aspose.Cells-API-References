@@ -57,6 +57,60 @@ public class SettablePivotGlobalizationSettings : PivotGlobalizationSettings
 | [SetTextOfSubTotal](../../aspose.cells/settablepivotglobalizationsettings/settextofsubtotal/)(PivotFieldSubtotalType, string) | Sets the text of [`PivotFieldSubtotalType`](../../aspose.cells.pivot/pivotfieldsubtotaltype/) type in the PivotTable. |
 | [SetTextOfTotal](../../aspose.cells/settablepivotglobalizationsettings/settextoftotal/)(string) | Sets the text of "Total" label in the PivotTable. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassSettablePivotGlobalizationSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create an instance of the SettablePivotGlobalizationSettings class
+                SettablePivotGlobalizationSettings settings = new SettablePivotGlobalizationSettings();
+
+                // Set custom texts for various PivotTable elements
+                settings.SetTextOfTotal("Total Amount");
+                settings.SetTextOfGrandTotal("Grand Total Amount");
+                settings.SetTextOfMultipleItems("Multiple Items Selected");
+                settings.SetTextOfAll("All Items");
+                settings.SetTextOfColumnLabels("Column Headers");
+                settings.SetTextOfRowLabels("Row Headers");
+                settings.SetTextOfEmptyData("No Data");
+                settings.SetTextOfDataFieldHeader("Data Values");
+
+                // Demonstrate getting the set values
+                Console.WriteLine($"Total text: {settings.GetTextOfTotal()}");
+                Console.WriteLine($"Grand Total text: {settings.GetTextOfGrandTotal()}");
+                Console.WriteLine($"Multiple Items text: {settings.GetTextOfMultipleItems()}");
+                Console.WriteLine($"All text: {settings.GetTextOfAll()}");
+                Console.WriteLine($"Column Labels text: {settings.GetTextOfColumnLabels()}");
+                Console.WriteLine($"Row Labels text: {settings.GetTextOfRowLabels()}");
+                Console.WriteLine($"Empty Data text: {settings.GetTextOfEmptyData()}");
+                Console.WriteLine($"Data Field Header text: {settings.GetTextOfDataFieldHeader()}");
+
+                // Save the workbook to demonstrate successful execution
+                workbook.Save("SettablePivotGlobalizationSettingsDemo.xlsx");
+                Console.WriteLine("SettablePivotGlobalizationSettings instance created and configured successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with SettablePivotGlobalizationSettings: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotGlobalizationSettings](../../aspose.cells.settings/pivotglobalizationsettings/)

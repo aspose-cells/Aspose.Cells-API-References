@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.EnableCalculationChain
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Whether enable calculation chain for formulas. Default is false
+description: FormulaSettings property. Indicates whether to enable calculation chain for formulas. Default is false
 type: docs
 url: /net/aspose.cells/formulasettings/enablecalculationchain/
 ---
 ## FormulaSettings.EnableCalculationChain property
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```csharp
 public bool EnableCalculationChain { get; set; }

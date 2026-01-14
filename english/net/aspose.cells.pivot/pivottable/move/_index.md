@@ -108,6 +108,61 @@ public void Move(string destCellName)
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableMethodMoveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["A2"].Value = "A";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["A3"].Value = "B";
+            worksheet.Cells["B3"].Value = 150;
+            worksheet.Cells["A4"].Value = "C";
+            worksheet.Cells["B4"].Value = 200;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            try
+            {
+                // Move the pivot table to a new location using cell name
+                pivotTable.Move("G10");
+
+                Console.WriteLine("PivotTable moved successfully to G10");
+                Console.WriteLine($"New location: {pivotTable.TableRange1.StartRow}, {pivotTable.TableRange1.StartColumn}");
+
+                // Save the workbook
+                workbook.Save("PivotTableMoveDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error moving PivotTable: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

@@ -26,7 +26,7 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingiconcollection/add/#add)(ConditionalFormattingIcon) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon/) object. |
+| [Add](../../aspose.cells/conditionalformattingiconcollection/add/#add)(ConditionalFormattingIcon) | (**Obsolete.**) Adds [`ConditionalFormattingIcon`](../conditionalformattingicon/) object. |
 | [Add](../../aspose.cells/conditionalformattingiconcollection/add/#add_1)(IconSetType, int) | Adds [`ConditionalFormattingIcon`](../conditionalformattingicon/) object. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ConditionalFormattingIcon) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ConditionalFormattingIcon, IComparer&lt;ConditionalFormattingIcon&gt;) |  |

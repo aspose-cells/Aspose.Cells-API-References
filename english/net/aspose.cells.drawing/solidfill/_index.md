@@ -28,6 +28,64 @@ public class SolidFill : Fill
 | override [Equals](../../aspose.cells.drawing/solidfill/equals/)(object) |  |
 | override [GetHashCode](../../aspose.cells.drawing/solidfill/gethashcode/)() | Gets the hash code. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using System;
+    using System.Drawing;
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+
+    public class DrawingClassSolidFillDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a simple rectangle shape to the sheet
+                Shape rect = sheet.Shapes.AddRectangle(2, 0, 2, 0, 150, 100);
+
+                // Configure the shape to use a solid fill
+                rect.Fill.FillType = FillType.Solid;
+
+                // Obtain the SolidFill object
+                SolidFill solidFill = rect.Fill.SolidFill;
+
+                // Set solid fill properties
+                solidFill.Color = Color.CornflowerBlue;   // System.Drawing.Color
+                solidFill.Transparency = 0.25;            // 0 = opaque, 1 = fully transparent
+
+                // Access the CellsColor property (read/write)
+                CellsColor cellsColor = solidFill.CellsColor;
+                if (cellsColor != null)
+                {
+                    Console.WriteLine("CellsColor object is available.");
+                }
+                else
+                {
+                    Console.WriteLine("CellsColor is null (default).");
+                }
+
+                Console.WriteLine($"SolidFill created with Color={solidFill.Color.Name}, Transparency={solidFill.Transparency}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with SolidFill: {ex.Message}");
+            }
+
+            // Save the workbook to verify the shape appearance
+            workbook.Save("DrawingClassSolidFillDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Fill](../fill/)

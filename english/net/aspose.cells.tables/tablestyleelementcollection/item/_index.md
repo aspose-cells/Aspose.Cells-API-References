@@ -90,6 +90,56 @@ public TableStyleElement this[TableStyleElementType type] { get; }
 
 Returns [`TableStyleElement`](../../tablestyleelement/) object
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class TableStyleElementCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Create a custom table style
+            string styleName = "CustomTableStyle";
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            int styleIndex = tableStyles.AddTableStyle(styleName);
+            TableStyle tableStyle = tableStyles[styleIndex];
+
+            // Access the TableStyleElementCollection
+            TableStyleElementCollection elements = tableStyle.TableStyleElements;
+
+            // Add a table style element
+            int elementIndex = elements.Add(TableStyleElementType.FirstColumn);
+
+            try
+            {
+                // Access the Item property using the indexer (which uses the Item property internally)
+                TableStyleElement element = elements[elementIndex];
+
+                // Display information about the element
+                Console.WriteLine("Table Style Element Type: " + element.Type);
+                Console.WriteLine("Element has been successfully accessed via Item property");
+
+                // Save the workbook
+                workbook.Save("TableStyleElementItemDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [TableStyleElement](../../tablestyleelement/)

@@ -77,13 +77,18 @@ public class PivotField
 | [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | (**Obsolete.**) Get the formula string of the specified calculated field . |
 | [GetFilters](../../aspose.cells.pivot/pivotfield/getfilters/)() | Gets all pivot filters applied for this pivot field. |
 | [GetFormula](../../aspose.cells.pivot/pivotfield/getformula/)() | Gets the formula of the calculated field . Only works for calculated field. |
+| [GetMaxValue](../../aspose.cells.pivot/pivotfield/getmaxvalue/)() | Gets the max value of this field. |
+| [GetMinValue](../../aspose.cells.pivot/pivotfield/getminvalue/)() | Gets the max value of this field. |
 | [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype/)(PivotFilterType) | Gets the pivot filter of the pivot field by type |
 | [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters/)() | (**Obsolete.**) Gets the pivot filters of the pivot field |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals/)(PivotFieldSubtotalType) | Indicates whether to show specified subtotal for this pivot field. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby)(CustomPiovtFieldGroupItem[], bool) | Custom group the field. |
-| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_3)(double, bool) | Automatically group the field with internal |
-| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_1)(double, double, double, bool) | Group the file by number. |
-| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_2)(DateTime, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_6)(double, bool) | Automatically group the field with internal |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_5)(PivotGroupByType[], double, bool) | Automatically group the field with internal |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_3)(double, double, double, bool) |  |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_4)(DateTime, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_1)(bool, double, bool, double, double, bool) | Group the file by number. |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_2)(bool, DateTime, bool, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
 | [HideDetail](../../aspose.cells.pivot/pivotfield/hidedetail/)(bool) | Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem)(int, bool) | Sets whether the specific PivotItem in a data field is hidden. |
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem_1)(string, bool) | Sets whether the specific PivotItem in a data field is hidden. |

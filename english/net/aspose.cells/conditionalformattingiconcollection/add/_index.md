@@ -95,12 +95,18 @@ namespace AsposeCellsExamples
 Adds [`ConditionalFormattingIcon`](../../conditionalformattingicon/) object.
 
 ```csharp
+[Obsolete("Use ConditionalFormattingIconCollection.Add(IconSetType, int) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(ConditionalFormattingIcon cficon)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cficon | ConditionalFormattingIcon | Returns the index of new object in the list. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Add(IconSetType, int) method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

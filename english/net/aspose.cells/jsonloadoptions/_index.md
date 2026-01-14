@@ -1,13 +1,13 @@
 ---
 title: Class JsonLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.JsonLoadOptions class. Represents the options of loading json files
+description: Aspose.Cells.JsonLoadOptions class. Represents the options of loading JSON files
 type: docs
 url: /net/aspose.cells/jsonloadoptions/
 ---
 ## JsonLoadOptions class
 
-Represents the options of loading json files
+Represents the options of loading JSON files
 
 ```csharp
 public class JsonLoadOptions : LoadOptions

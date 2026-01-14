@@ -10,8 +10,14 @@ url: /net/aspose.cells.slicers/slicer/alternativetext/
 Returns or sets the descriptive (alternative) text string of the Slicer object.
 
 ```csharp
+[Obsolete("Use Shape.AlternativeText property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public string AlternativeText { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`AlternativeText`](../../../aspose.cells.drawing/shape/alternativetext/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

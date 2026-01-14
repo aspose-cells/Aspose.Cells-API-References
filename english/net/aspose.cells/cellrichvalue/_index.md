@@ -1,13 +1,13 @@
 ---
 title: Class CellRichValue
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.CellRichValue class. Represents rich value of the cell
+description: Aspose.Cells.CellRichValue class. Represents the rich value of the cell
 type: docs
 url: /net/aspose.cells/cellrichvalue/
 ---
 ## CellRichValue class
 
-Represents rich value of the cell.
+Represents the rich value of the cell.
 
 ```csharp
 public abstract class CellRichValue

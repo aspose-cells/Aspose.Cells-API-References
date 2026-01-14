@@ -1,13 +1,13 @@
 ---
 title: Enum HtmlOfficeMathOutputType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.HtmlOfficeMathOutputType enum. Represents how export OfficeMath to HTML
+description: Aspose.Cells.HtmlOfficeMathOutputType enum. Represents how to export OfficeMath to HTML
 type: docs
 url: /net/aspose.cells/htmlofficemathoutputtype/
 ---
 ## HtmlOfficeMathOutputType enumeration
 
-Represents how export OfficeMath to HTML.
+Represents how to export OfficeMath to HTML.
 
 ```csharp
 public enum HtmlOfficeMathOutputType

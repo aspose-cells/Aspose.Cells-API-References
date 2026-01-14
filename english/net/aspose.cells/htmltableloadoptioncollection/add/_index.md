@@ -10,6 +10,8 @@ url: /net/aspose.cells/htmltableloadoptioncollection/add/
 Adds one HtmlTableLoadOption into this collection.
 
 ```csharp
+[Obsolete("Use HtmlTableLoadOptionCollection.AddTableLoadOption(HtmlTableLoadOption) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(HtmlTableLoadOption item)
 ```
 
@@ -20,6 +22,10 @@ public int Add(HtmlTableLoadOption item)
 ### Return Value
 
 the index of the added item
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use AddTableLoadOption() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

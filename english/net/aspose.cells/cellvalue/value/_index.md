@@ -1,13 +1,13 @@
 ---
 title: CellValue.Value
 second_title: Aspose.Cells for .NET API Reference
-description: CellValue property. Gets/sets the cell value
+description: CellValue property. Gets or sets the cell value
 type: docs
 url: /net/aspose.cells/cellvalue/value/
 ---
 ## CellValue.Value property
 
-Gets/sets the cell value.
+Gets or sets the cell value.
 
 ```csharp
 public object Value { get; set; }

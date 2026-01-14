@@ -24,7 +24,7 @@ public class Series
 | [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Gets or sets the bubble sizes values of the chart series. |
 | [CachedCategoryValues](../../aspose.cells.charts/series/cachedcategoryvalues/) { get; } | (**Obsolete.**) Gets the cached category values for the series |
 | [CachedValues](../../aspose.cells.charts/series/cachedvalues/) { get; } | (**Obsolete.**) Gets the cached values for the series |
-| [CategoryValues](../../aspose.cells.charts/series/categoryvalues/) { get; } | Represents the actual category values that are used in the chart. corresponding to [`XValues`](./xvalues/) When Series.XValues is a link, you can use this attribute to get specific data. |
+| [CategoryValues](../../aspose.cells.charts/series/categoryvalues/) { get; } | Gets the actual category values that are used to plot every point of this series in the chart. |
 | [CountOfDataValues](../../aspose.cells.charts/series/countofdatavalues/) { get; } | Gets the number of the data values. |
 | [DataLabels](../../aspose.cells.charts/series/datalabels/) { get; } | Represents the DataLabels object for the specified ASeries. |
 | [DisplayName](../../aspose.cells.charts/series/displayname/) { get; } | Gets the series's name that displays on the chart graph. |
@@ -54,7 +54,7 @@ public class Series
 | [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Indicates if this series is plotted on second value axis. |
 | [Points](../../aspose.cells.charts/series/points/) { get; } | Gets the collection of points in a series in a chart. |
-| [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Represents the actual values that are used to plot every point in the chart. corresponding to [`Values`](./values/) When Series.Values is a link, you can use this attribute to get specific data. |
+| [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Gets the actual values that are used to plot every point of this series in the chart. |
 | [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize/) { get; set; } | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [SeriesLines](../../aspose.cells.charts/series/serieslines/) { get; } | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [Shadow](../../aspose.cells.charts/series/shadow/) { get; set; } | True if the series has a shadow. |

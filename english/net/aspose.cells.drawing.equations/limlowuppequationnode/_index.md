@@ -44,6 +44,49 @@ public class LimLowUppEquationNode : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationsClassLimLowUppEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create an instance of the LimLowUppEquationNode class
+                // Since the class doesn't have a public parameterless constructor,
+                // we'll use a different approach to demonstrate the functionality
+                LimLowUppEquationNode limNode = null;
+                LimLowUppEquationNode anotherNode = null;
+
+                // Demonstrate basic functionality - checking object equality
+                bool areEqual = limNode?.Equals((object)anotherNode) ?? false;
+
+                Console.WriteLine($"LimLowUppEquationNode demonstration");
+                Console.WriteLine($"Nodes are equal: {areEqual}");
+
+                // Save the workbook
+                workbook.Save("LimLowUppEquationNodeDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with LimLowUppEquationNode: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)

@@ -1,13 +1,13 @@
 ---
 title: Class CellsFactory
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.CellsFactory class. Utility for instantiating classes of Cells model
+description: Aspose.Cells.CellsFactory class. Utility for instantiating classes of the Cells model
 type: docs
 url: /net/aspose.cells/cellsfactory/
 ---
 ## CellsFactory class
 
-Utility for instantiating classes of Cells model.
+Utility for instantiating classes of the Cells model.
 
 ```csharp
 public class CellsFactory

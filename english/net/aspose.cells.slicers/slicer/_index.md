@@ -17,38 +17,45 @@ public class Slicer
 
 | Name | Description |
 | --- | --- |
-| [AlternativeText](../../aspose.cells.slicers/slicer/alternativetext/) { get; set; } | Returns or sets the descriptive (alternative) text string of the Slicer object. |
+| [AlternativeText](../../aspose.cells.slicers/slicer/alternativetext/) { get; set; } | (**Obsolete.**) Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [Caption](../../aspose.cells.slicers/slicer/caption/) { get; set; } | Returns or sets the caption of the specified slicer. |
-| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible/) { get; set; } | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
-| [ColumnWidth](../../aspose.cells.slicers/slicer/columnwidth/) { get; set; } | Returns or sets the width, in points, of each column in the slicer. |
+| [CaptionVisible](../../aspose.cells.slicers/slicer/captionvisible/) { get; set; } | (**Obsolete.**) Returns or sets whether the header that displays the slicer Caption is visible. The default value is true |
+| [ColumnWidth](../../aspose.cells.slicers/slicer/columnwidth/) { get; set; } | Returns or sets the width of each column in the slicer in unit of points. |
 | [ColumnWidthPixel](../../aspose.cells.slicers/slicer/columnwidthpixel/) { get; set; } | Gets or sets the width of each column in the slicer, in unit of pixels. |
+| [FirstItemIndex](../../aspose.cells.slicers/slicer/firstitemindex/) { get; set; } | Specifies the zero-based index of the first slicer item. |
 | [Height](../../aspose.cells.slicers/slicer/height/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified slicer, in points. |
 | [HeightPixel](../../aspose.cells.slicers/slicer/heightpixel/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified slicer, in pixels. |
-| [IsLocked](../../aspose.cells.slicers/slicer/islocked/) { get; set; } | Indicates whether the slicer shape is locked. |
-| [IsPrintable](../../aspose.cells.slicers/slicer/isprintable/) { get; set; } | Indicates whether the slicer object is printable. |
+| [IsLocked](../../aspose.cells.slicers/slicer/islocked/) { get; set; } | (**Obsolete.**) Indicates whether the slicer shape is locked. |
+| [IsPrintable](../../aspose.cells.slicers/slicer/isprintable/) { get; set; } | (**Obsolete.**) Indicates whether the slicer object is printable. |
 | [LeftPixel](../../aspose.cells.slicers/slicer/leftpixel/) { get; set; } | (**Obsolete.**) Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
-| [LockedAspectRatio](../../aspose.cells.slicers/slicer/lockedaspectratio/) { get; set; } | Indicates whether locking aspect ratio. |
+| [LockedAspectRatio](../../aspose.cells.slicers/slicer/lockedaspectratio/) { get; set; } | (**Obsolete.**) Indicates whether locking aspect ratio. |
 | [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition/) { get; set; } | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [Name](../../aspose.cells.slicers/slicer/name/) { get; set; } | Returns or sets the name of the specified slicer |
-| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns/) { get; set; } | Returns or sets the number of columns in the specified slicer. |
-| [Parent](../../aspose.cells.slicers/slicer/parent/) { get; } | Returns the [`Worksheet`](../../aspose.cells/worksheet/) object which contains this slicer. Read-only. |
-| [Placement](../../aspose.cells.slicers/slicer/placement/) { get; set; } | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
-| [RowHeight](../../aspose.cells.slicers/slicer/rowheight/) { get; set; } | Returns or sets the height, in points, of each row in the specified slicer. |
-| [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel/) { get; set; } | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns/) { get; set; } | Returns or sets the number of columns in the specified slicer. The default value is 1. |
+| [Parent](../../aspose.cells.slicers/slicer/parent/) { get; } | (**Obsolete.**) Returns the [`Worksheet`](./worksheet/) object which contains this slicer. Read-only. |
+| [Placement](../../aspose.cells.slicers/slicer/placement/) { get; set; } | (**Obsolete.**) Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
+| [RowHeight](../../aspose.cells.slicers/slicer/rowheight/) { get; set; } | Returns or sets the height of each row in the specified slicer in unit of points. |
+| [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel/) { get; set; } | Returns or sets the height of each row in the specified slicer, in unit of pixels. |
 | [Shape](../../aspose.cells.slicers/slicer/shape/) { get; } | Returns the Shape object associated with the specified slicer. Read-only. |
+| [ShowAllItems](../../aspose.cells.slicers/slicer/showallitems/) { get; set; } | Indicates whether to show all items even if there are no data or they are deleted. Default value is true; |
+| [ShowCaption](../../aspose.cells.slicers/slicer/showcaption/) { get; set; } | Indicates whether the header of the slicer is visible. The default value is true |
+| [ShowMissing](../../aspose.cells.slicers/slicer/showmissing/) { get; set; } | Indicates whether to show items deteleted from the data source. |
+| [ShowTypeOfItemsWithNoData](../../aspose.cells.slicers/slicer/showtypeofitemswithnodata/) { get; set; } | Indicates whether to show items deteleted from the data source. |
 | [SlicerCache](../../aspose.cells.slicers/slicer/slicercache/) { get; } | Returns the SlicerCache object associated with the slicer. Read-only. |
-| [StyleType](../../aspose.cells.slicers/slicer/styletype/) { get; set; } | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
-| [Title](../../aspose.cells.slicers/slicer/title/) { get; set; } | Specifies the title of the current Slicer object. |
+| [SortOrderType](../../aspose.cells.slicers/slicer/sortordertype/) { get; set; } | Indicates the type of sorting items. |
+| [StyleType](../../aspose.cells.slicers/slicer/styletype/) { get; set; } | Specify the type of Built-in slicer style. The default type is SlicerStyleLight1. |
+| [Title](../../aspose.cells.slicers/slicer/title/) { get; set; } | (**Obsolete.**) Specifies the title of the current Slicer object. |
 | [TopPixel](../../aspose.cells.slicers/slicer/toppixel/) { get; set; } | (**Obsolete.**) Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [Width](../../aspose.cells.slicers/slicer/width/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified slicer, in points. |
 | [WidthPixel](../../aspose.cells.slicers/slicer/widthpixel/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified slicer, in pixels. |
+| [Worksheet](../../aspose.cells.slicers/slicer/worksheet/) { get; } | Returns the [`Worksheet`](./worksheet/) object which contains this slicer. Read-only. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
 | [AddPivotConnection](../../aspose.cells.slicers/slicer/addpivotconnection/)(PivotTable) | Adds PivotTable connection. |
-| [Refresh](../../aspose.cells.slicers/slicer/refresh/)() | Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables. |
+| [Refresh](../../aspose.cells.slicers/slicer/refresh/)() | Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. |
 | [RemovePivotConnection](../../aspose.cells.slicers/slicer/removepivotconnection/)(PivotTable) | Removes PivotTable connection. |
 
 ### Examples

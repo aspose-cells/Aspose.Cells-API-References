@@ -1,13 +1,13 @@
 ---
 title: Enum AccessCacheOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.AccessCacheOptions enum. Cache options for data access. Can be combined with  operator for multiple options together
+description: Aspose.Cells.AccessCacheOptions enum. Caching options for data access. Multiple options can be combined using the  operator
 type: docs
 url: /net/aspose.cells/accesscacheoptions/
 ---
 ## AccessCacheOptions enumeration
 
-Cache options for data access. Can be combined with &#x7C; operator for multiple options together.
+Caching options for data access. Multiple options can be combined using the "&#x7C;" operator.
 
 ```csharp
 [Flags]

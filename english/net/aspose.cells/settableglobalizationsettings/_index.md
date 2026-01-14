@@ -26,7 +26,7 @@ public class SettableGlobalizationSettings : GlobalizationSettings
 | [ChartSettings](../../aspose.cells/globalizationsettings/chartsettings/) { get; set; } | Gets or sets the globalization settings for Chart.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | override [ColumnSeparatorOfFormulaArray](../../aspose.cells/settableglobalizationsettings/columnseparatorofformulaarray/) { get; } | Gets the separator for the items in array's row data in formula. |
 | override [ListSeparator](../../aspose.cells/settableglobalizationsettings/listseparator/) { get; } | Gets the separator for list, parameters of function, ...etc. |
-| [PivotSettings](../../aspose.cells/globalizationsettings/pivotsettings/) { get; set; } | Gets or sets the globalization settings for pivot table.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
+| [PivotSettings](../../aspose.cells/globalizationsettings/pivotsettings/) { get; set; } | Gets or sets the globalization settings for the pivot table.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | override [RowSeparatorOfFormulaArray](../../aspose.cells/settableglobalizationsettings/rowseparatorofformulaarray/) { get; } | Gets the separator for rows in array data in formula. |
 
 ## Methods
@@ -34,10 +34,10 @@ public class SettableGlobalizationSettings : GlobalizationSettings
 | Name | Description |
 | --- | --- |
 | virtual [Compare](../../aspose.cells/globalizationsettings/compare/)(string, string, bool) | Compares two string values according to certain collation rules.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
-| virtual [GetAllName](../../aspose.cells/globalizationsettings/getallname/)() | (**Obsolete.**) Gets the name of "(All)" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
+| virtual [GetAllName](../../aspose.cells/globalizationsettings/getallname/)() | (**Obsolete.**) Gets the name of the "(All)" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | override [GetBooleanValueString](../../aspose.cells/settableglobalizationsettings/getbooleanvaluestring/)(bool) | Gets the display string value for cell's boolean value |
 | virtual [GetCollationKey](../../aspose.cells/globalizationsettings/getcollationkey/)(string, bool) | Transforms the string into a comparable object according to certain collation rules.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
-| virtual [GetColumnLabelsOfPivotTable](../../aspose.cells/globalizationsettings/getcolumnlabelsofpivottable/)() | (**Obsolete.**) Gets the name of "Column Labels" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
+| virtual [GetColumnLabelsOfPivotTable](../../aspose.cells/globalizationsettings/getcolumnlabelsofpivottable/)() | (**Obsolete.**) Gets the name of the "Column Labels" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | override [GetCommentTitleName](../../aspose.cells/settableglobalizationsettings/getcommenttitlename/)(CommentTitleType) | Gets the locale dependent comment title name according to comment title type. |
 | virtual [GetDataFieldHeaderNameOfPivotTable](../../aspose.cells/globalizationsettings/getdatafieldheadernameofpivottable/)() | (**Obsolete.**) Gets the the name of the value area field header in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | virtual [GetDefaultSheetName](../../aspose.cells/globalizationsettings/getdefaultsheetname/)() | Gets the default sheet name for adding worksheet automatically. Default is "Sheet".(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
@@ -46,8 +46,8 @@ public class SettableGlobalizationSettings : GlobalizationSettings
 | override [GetGrandTotalName](../../aspose.cells/settableglobalizationsettings/getgrandtotalname/)(ConsolidationFunction) | Gets the grand total name of the function. |
 | override [GetLocalBuiltInName](../../aspose.cells/settableglobalizationsettings/getlocalbuiltinname/)(string) | Gets the locale dependent text for built-in Name according to given standard text. |
 | override [GetLocalFunctionName](../../aspose.cells/settableglobalizationsettings/getlocalfunctionname/)(string) | Gets the locale dependent function name according to given standard function name. |
-| virtual [GetMultipleItemsName](../../aspose.cells/globalizationsettings/getmultipleitemsname/)() | (**Obsolete.**) Gets the name of "(Multiple Items)" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
-| virtual [GetPivotGrandTotalName](../../aspose.cells/globalizationsettings/getpivotgrandtotalname/)() | (**Obsolete.**) Gets the name of "Grand Total" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
+| virtual [GetMultipleItemsName](../../aspose.cells/globalizationsettings/getmultipleitemsname/)() | (**Obsolete.**) Gets the name of the "(Multiple Items)" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
+| virtual [GetPivotGrandTotalName](../../aspose.cells/globalizationsettings/getpivotgrandtotalname/)() | (**Obsolete.**) Gets the name of the "Grand Total" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | virtual [GetPivotTotalName](../../aspose.cells/globalizationsettings/getpivottotalname/)() | (**Obsolete.**) Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | virtual [GetProtectionNameOfPivotTable](../../aspose.cells/globalizationsettings/getprotectionnameofpivottable/)() | (**Obsolete.**) Gets the protection name in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |
 | virtual [GetRowLabelsNameOfPivotTable](../../aspose.cells/globalizationsettings/getrowlabelsnameofpivottable/)() | (**Obsolete.**) Gets the name of "Row Labels" label in the PivotTable.(Inherited from [`GlobalizationSettings`](../globalizationsettings/).) |

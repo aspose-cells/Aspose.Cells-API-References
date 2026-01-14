@@ -1,13 +1,13 @@
 ---
 title: Slicer.StyleType
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Specify the type of Builtin slicer style the default type is SlicerStyleLight1
+description: Slicer property. Specify the type of Builtin slicer style. The default type is SlicerStyleLight1
 type: docs
 url: /net/aspose.cells.slicers/slicer/styletype/
 ---
 ## Slicer.StyleType property
 
-Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+Specify the type of Built-in slicer style. The default type is SlicerStyleLight1.
 
 ```csharp
 public SlicerStyleType StyleType { get; set; }

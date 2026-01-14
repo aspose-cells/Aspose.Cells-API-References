@@ -19,7 +19,8 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells.drawing/gradientstopcollection/item/) { get; set; } | Gets the gradient stop by the index. (2 indexers) |
+| [Item](../../aspose.cells.drawing/gradientstopcollection/item/) { get; } | Gets the gradient stop by the index. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 
@@ -53,6 +54,54 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(GradientStop, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(GradientStop, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
+
+    public class DrawingClassGradientStopCollectionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a rectangle shape with gradient fill
+                var shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 300, 100);
+                shape.Fill.FillType = FillType.Gradient;
+
+                // Get the GradientStopCollection from the shape's gradient fill
+                GradientStopCollection gradientStops = shape.Fill.GradientFill.GradientStops;
+                gradientStops.Clear();
+
+                // Add gradient stops using both available Add methods
+                gradientStops.Add(0.0, Color.Red, 255); // Opaque red at start
+                gradientStops.Add(0.5, Color.Yellow, 200); // Semi-transparent yellow at middle
+
+                // Create a CellsColor and add another gradient stop
+                CellsColor customColor = workbook.CreateCellsColor();
+                customColor.Color = Color.Blue;
+                gradientStops.Add(1.0, customColor, 150); // Semi-transparent blue at end
+
+                Console.WriteLine("GradientStopCollection created and populated successfully");
+                workbook.Save("GradientStopCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with GradientStopCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

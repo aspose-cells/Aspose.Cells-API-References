@@ -30,13 +30,13 @@ public class FontConfigs
 
 | Name | Description |
 | --- | --- |
-| static [GetFontFileDataInfo](../../aspose.cells/fontconfigs/getfontfiledatainfo/)(string, bool, bool, bool) | Get data infomation of font file data. |
+| static [GetFontFileDataInfo](../../aspose.cells/fontconfigs/getfontfiledatainfo/)(string, bool, bool, bool) | Get data information of font file data. |
 | static [GetFontSources](../../aspose.cells/fontconfigs/getfontsources/)() | Gets a copy of the array that contains the list of sources |
-| static [GetFontSubstitutes](../../aspose.cells/fontconfigs/getfontsubstitutes/)(string) | Returns array containing font substitute names to be used if original font is not presented. |
+| static [GetFontSubstitutes](../../aspose.cells/fontconfigs/getfontsubstitutes/)(string) | Returns an array containing font substitute names to be used if original font is not present. |
 | static [IsFontAvailable](../../aspose.cells/fontconfigs/isfontavailable/)(string) | Indicate whether the font is available. |
 | static [SetFontFolder](../../aspose.cells/fontconfigs/setfontfolder/)(string, bool) | Sets the fonts folder |
-| static [SetFontFolders](../../aspose.cells/fontconfigs/setfontfolders/)(string[], bool) | Sets the fonts folders |
-| static [SetFontSources](../../aspose.cells/fontconfigs/setfontsources/)(FontSourceBase[]) | Sets the fonts sources. |
+| static [SetFontFolders](../../aspose.cells/fontconfigs/setfontfolders/)(string[], bool) | Sets the fonts folder |
+| static [SetFontSources](../../aspose.cells/fontconfigs/setfontsources/)(FontSourceBase[]) | Sets the font sources. |
 | static [SetFontSubstitutes](../../aspose.cells/fontconfigs/setfontsubstitutes/)(string, string[]) | Font substitute names for given original font name. |
 
 ### Examples

@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.CalculationMode
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Gets or sets the mode for workbook calculation in ms excel
+description: FormulaSettings property. Gets or sets the mode for workbook calculation in MS Excel
 type: docs
 url: /net/aspose.cells/formulasettings/calculationmode/
 ---
 ## FormulaSettings.CalculationMode property
 
-Gets or sets the mode for workbook calculation in ms excel.
+Gets or sets the mode for workbook calculation in MS Excel.
 
 ```csharp
 public CalcModeType CalculationMode { get; set; }

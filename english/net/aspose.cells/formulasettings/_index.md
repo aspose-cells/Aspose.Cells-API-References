@@ -18,16 +18,16 @@ public class FormulaSettings
 | Name | Description |
 | --- | --- |
 | [CalculateOnOpen](../../aspose.cells/formulasettings/calculateonopen/) { get; set; } | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave/) { get; set; } | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
+| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave/) { get; set; } | Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
 | [CalculationId](../../aspose.cells/formulasettings/calculationid/) { get; set; } | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [CalculationMode](../../aspose.cells/formulasettings/calculationmode/) { get; set; } | Gets or sets the mode for workbook calculation in ms excel. |
-| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain/) { get; set; } | Whether enable calculation chain for formulas. Default is false. |
-| [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation/) { get; set; } | Indicates whether enable iterative calculation to resolve circular references. |
-| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation/) { get; set; } | Indicates whether calculates all formulas every time when a calculation is triggered. |
+| [CalculationMode](../../aspose.cells/formulasettings/calculationmode/) { get; set; } | Gets or sets the mode for workbook calculation in MS Excel. |
+| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain/) { get; set; } | Indicates whether to enable calculation chain for formulas. Default is false. |
+| [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation/) { get; set; } | Indicates whether to enable iterative calculation to resolve circular references. |
+| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation/) { get; set; } | Indicates whether it calculates all formulas every time when a calculation is triggered. |
 | [MaxChange](../../aspose.cells/formulasettings/maxchange/) { get; set; } | The maximum change to resolve a circular reference. |
 | [MaxIteration](../../aspose.cells/formulasettings/maxiteration/) { get; set; } | The maximum iterations to resolve a circular reference. |
-| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed/) { get; set; } | Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [PreservePaddingSpaces](../../aspose.cells/formulasettings/preservepaddingspaces/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed/) { get; set; } | Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [PreservePaddingSpaces](../../aspose.cells/formulasettings/preservepaddingspaces/) { get; set; } | Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 
 ### Examples
 

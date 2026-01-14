@@ -100,60 +100,6 @@ public TableStyle this[string name] { get; }
 
 The table style object.
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Tables;
-    using System;
-
-    public class TableStyleCollectionPropertyItemDemo2
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Get the table style collection from the workbook
-            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-
-            // Add a new custom table style
-            int index = tableStyles.AddTableStyle("CustomStyle1");
-            TableStyle customStyle = tableStyles[index];
-
-            // Set some properties of the custom style
-            customStyle.TableStyleElements[TableStyleElementType.FirstRowStripe].GetElementStyle().Font.IsBold = true;
-
-            // Access the style using Item property by name
-            TableStyle retrievedStyle = tableStyles["CustomStyle1"];
-            Console.WriteLine("Retrieved style name: " + retrievedStyle.Name);
-
-            // Modify the retrieved style
-            retrievedStyle.TableStyleElements[TableStyleElementType.FirstColumn].GetElementStyle().Font.Color = System.Drawing.Color.Red;
-
-            // Create a table to demonstrate the style
-            Cells cells = worksheet.Cells;
-            cells["A1"].PutValue("Name");
-            cells["B1"].PutValue("Age");
-            cells["A2"].PutValue("John");
-            cells["B2"].PutValue(30);
-            cells["A3"].PutValue("Alice");
-            cells["B3"].PutValue(25);
-
-            int tableIndex = worksheet.ListObjects.Add(0, 0, 2, 1, true);
-            Aspose.Cells.Tables.ListObject table = worksheet.ListObjects[tableIndex];
-            table.TableStyleName = "CustomStyle1";
-
-            // Save the result
-            workbook.Save("TableStyleCollectionPropertyItemDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [TableStyle](../../tablestyle/)

@@ -10,7 +10,7 @@ url: /net/aspose.cells.externalconnections/connectionparametercollection/item/
 Gets the [`ConnectionParameter`](../../connectionparameter/) element at the specified index.
 
 ```csharp
-public ConnectionParameter this[int index] { get; set; }
+public ConnectionParameter this[int index] { get; }
 ```
 
 | Parameter | Description |

@@ -13,6 +13,57 @@ Gets the row index of the cell.
 public int CellRow { get; }
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Reflection;
+
+    public class CalculationCellPropertyCellRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].Value = 10;
+            worksheet.Cells["B1"].Formula = "=A1*2";
+
+            try
+            {
+                // Create CalculationCell instance using reflection since constructor is non-public
+                CalculationCell calcCell = (CalculationCell)Activator.CreateInstance(
+                    typeof(CalculationCell),
+                    BindingFlags.NonPublic | BindingFlags.Instance,
+                    null,
+                    new object[] { workbook, worksheet, 0, 1, worksheet.Cells["B1"] },
+                    null);
+
+                // Display the CellRow property value
+                Console.WriteLine("CellRow value: " + calcCell.CellRow);
+
+                // Demonstrate related properties for context
+                Console.WriteLine("CellColumn value: " + calcCell.CellColumn);
+                Console.WriteLine("Cell Value: " + calcCell.Cell.Value);
+
+                // Save the workbook
+                workbook.Save("CellRowDemo.xlsx");
+                Console.WriteLine("CellRow property demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CalculationCell](../)

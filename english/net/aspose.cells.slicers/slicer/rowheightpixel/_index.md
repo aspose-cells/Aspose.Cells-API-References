@@ -1,13 +1,13 @@
 ---
 title: Slicer.RowHeightPixel
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Returns or sets the height in pixels of each row in the specified slicer
+description: Slicer property. Returns or sets the height of each row in the specified slicer in unit of pixels
 type: docs
 url: /net/aspose.cells.slicers/slicer/rowheightpixel/
 ---
 ## Slicer.RowHeightPixel property
 
-Returns or sets the height, in pixels, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer, in unit of pixels.
 
 ```csharp
 public int RowHeightPixel { get; set; }

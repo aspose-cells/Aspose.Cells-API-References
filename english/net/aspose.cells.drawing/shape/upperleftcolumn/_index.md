@@ -35,13 +35,13 @@ namespace AsposeCellsExamples
 
             // Set and demonstrate UpperLeftColumn property
             shape.UpperLeftColumn = 3;
-            Console.WriteLine("Shape's initial UpperLeftColumn: " + shape.UpperLeftColumn);
+            Console.WriteLine("Shape's initial leftColumn: " + shape.UpperLeftColumn);
 
             // Modify the UpperLeftColumn
             if (shape.UpperLeftColumn == 3)
             {
                 shape.UpperLeftColumn = 1;
-                Console.WriteLine("Shape's modified UpperLeftColumn: " + shape.UpperLeftColumn);
+                Console.WriteLine("Shape's modified leftColumn: " + shape.UpperLeftColumn);
             }
 
             // Save the workbook

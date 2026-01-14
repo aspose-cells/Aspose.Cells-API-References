@@ -1,13 +1,13 @@
 ---
 title: Enum JsonExportHyperlinkType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Json.JsonExportHyperlinkType enum. Represents type of exporting hyperlinks to json
+description: Aspose.Cells.Json.JsonExportHyperlinkType enum. Represents type how to export hyperlinks to json
 type: docs
 url: /net/aspose.cells.json/jsonexporthyperlinktype/
 ---
 ## JsonExportHyperlinkType enumeration
 
-Represents type of exporting hyperlinks to json.
+Represents type how to export hyperlinks to json.
 
 ```csharp
 public enum JsonExportHyperlinkType

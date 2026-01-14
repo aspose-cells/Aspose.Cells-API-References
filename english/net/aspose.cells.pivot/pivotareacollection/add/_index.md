@@ -10,12 +10,18 @@ url: /net/aspose.cells.pivot/pivotareacollection/add/
 Adds pivot area.
 
 ```csharp
+[Obsolete("Use PivotAreaCollection.AddPivotArea(PivotArea) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(PivotArea pivotArea)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivotArea | PivotArea | The pivot area. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use AddPivotArea() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

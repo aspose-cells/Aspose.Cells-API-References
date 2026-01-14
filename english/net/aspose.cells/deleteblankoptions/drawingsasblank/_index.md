@@ -1,13 +1,13 @@
 ---
 title: DeleteBlankOptions.DrawingsAsBlank
 second_title: Aspose.Cells for .NET API Reference
-description: DeleteBlankOptions property. Whether drawing related objects such as picture shape chart... will be taken as blank. Default value is true
+description: DeleteBlankOptions property. Indicates whether drawing related objects such as picture shape chart... will be taken as blank. Default value is true
 type: docs
 url: /net/aspose.cells/deleteblankoptions/drawingsasblank/
 ---
 ## DeleteBlankOptions.DrawingsAsBlank property
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 ```csharp
 public bool DrawingsAsBlank { get; set; }

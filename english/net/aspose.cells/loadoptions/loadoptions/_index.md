@@ -13,6 +13,60 @@ Creates an options of loading the file.
 public LoadOptions()
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class LoadOptionsMethodSharpctorDemo
+    {
+        public static void Run()
+        {
+            string tempCsvPath = "temp_input.csv";
+
+            try
+            {
+                // Create sample CSV content
+                File.WriteAllText(tempCsvPath, "Name,Age\nJohn,30\nJane,25");
+
+                // Demonstrate default constructor
+                LoadOptions defaultOptions = new LoadOptions();
+                Console.WriteLine("Default LoadFormat: " + defaultOptions.LoadFormat);
+
+                // Demonstrate constructor with LoadFormat parameter
+                LoadOptions csvOptions = new LoadOptions(LoadFormat.Csv);
+                Console.WriteLine("CSV LoadFormat: " + csvOptions.LoadFormat);
+
+                // Load CSV file with the specified options
+                Workbook workbook = new Workbook(tempCsvPath, csvOptions);
+
+                // Verify the data was loaded correctly
+                Worksheet worksheet = workbook.Worksheets[0];
+                Console.WriteLine($"Cell A1: {worksheet.Cells["A1"].StringValue}");
+                Console.WriteLine($"Cell B2: {worksheet.Cells["B2"].StringValue}");
+
+                // Save as XLSX to demonstrate conversion
+                workbook.Save("CsvToExcel.xlsx");
+                Console.WriteLine("CSV file successfully loaded and converted to XLSX");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+            finally
+            {
+                if (File.Exists(tempCsvPath))
+                    File.Delete(tempCsvPath);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

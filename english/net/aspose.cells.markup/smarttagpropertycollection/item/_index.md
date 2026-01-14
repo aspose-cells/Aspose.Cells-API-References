@@ -97,6 +97,62 @@ public SmartTagProperty this[string name] { get; }
 
 Returns a [`SmartTagProperty`](../../smarttagproperty/) object.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Markup;
+    using System;
+
+    public class SmartTagPropertyCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a smart tag setting and add a smart tag
+                SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
+                int smartTagIndex = smartTagSetting.Add(0, 0);
+                SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
+                smartTags.Add("http://example.com", "example");
+
+                // Get the smart tag and its properties
+                SmartTag smartTag = smartTags[0];
+                SmartTagPropertyCollection properties = smartTag.Properties;
+
+                // Add some properties to demonstrate the Item property
+                properties.Add("Author", "John Doe");
+                properties.Add("Version", "1.0");
+
+                // Access properties using the Item indexer (by index)
+                SmartTagProperty firstProperty = properties[0];
+                SmartTagProperty secondProperty = properties[1];
+
+                // Display the property values
+                Console.WriteLine("First Property Name: " + firstProperty.Name);
+                Console.WriteLine("First Property Value: " + firstProperty.Value);
+                Console.WriteLine("Second Property Name: " + secondProperty.Name);
+                Console.WriteLine("Second Property Value: " + secondProperty.Value);
+
+                // Save the workbook
+                workbook.Save("SmartTagItemDemo.xlsx");
+                Console.WriteLine("SmartTagItemDemo.xlsx created successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SmartTagProperty](../../smarttagproperty/)

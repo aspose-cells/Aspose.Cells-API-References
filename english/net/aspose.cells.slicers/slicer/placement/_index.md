@@ -10,8 +10,14 @@ url: /net/aspose.cells.slicers/slicer/placement/
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 ```csharp
+[Obsolete("Use Shape.Placement property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public PlacementType Placement { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`Placement`](../../../aspose.cells.drawing/shape/placement/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

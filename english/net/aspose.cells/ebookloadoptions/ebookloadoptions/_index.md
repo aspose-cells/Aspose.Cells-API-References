@@ -1,13 +1,13 @@
 ---
 title: EbookLoadOptions.EbookLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: EbookLoadOptions constructor. Creates an options of loading the ebook file
+description: EbookLoadOptions constructor. Creates an option for loading the ebook file
 type: docs
 url: /net/aspose.cells/ebookloadoptions/ebookloadoptions/
 ---
 ## EbookLoadOptions() {#constructor}
 
-Creates an options of loading the ebook file.
+Creates an option for loading the ebook file.
 
 ```csharp
 public EbookLoadOptions()
@@ -54,7 +54,7 @@ namespace AsposeCellsExamples
 
 ## EbookLoadOptions(LoadFormat) {#constructor_1}
 
-Creates an options of loading the ebook file.
+Creates an option of loading the ebook file.
 
 ```csharp
 public EbookLoadOptions(LoadFormat loadFormat)

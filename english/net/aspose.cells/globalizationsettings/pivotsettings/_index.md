@@ -1,13 +1,13 @@
 ---
 title: GlobalizationSettings.PivotSettings
 second_title: Aspose.Cells for .NET API Reference
-description: GlobalizationSettings property. Gets or sets the globalization settings for pivot table
+description: GlobalizationSettings property. Gets or sets the globalization settings for the pivot table
 type: docs
 url: /net/aspose.cells/globalizationsettings/pivotsettings/
 ---
 ## GlobalizationSettings.PivotSettings property
 
-Gets or sets the globalization settings for pivot table.
+Gets or sets the globalization settings for the pivot table.
 
 ```csharp
 public PivotGlobalizationSettings PivotSettings { get; set; }

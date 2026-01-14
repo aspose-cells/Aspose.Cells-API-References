@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.PreservePaddingSpaces
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false
+description: FormulaSettings property. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false
 type: docs
 url: /net/aspose.cells/formulasettings/preservepaddingspaces/
 ---
 ## FormulaSettings.PreservePaddingSpaces property
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```csharp
 public bool PreservePaddingSpaces { get; set; }

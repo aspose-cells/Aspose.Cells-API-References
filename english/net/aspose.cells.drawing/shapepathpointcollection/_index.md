@@ -60,6 +60,74 @@ public class ShapePathPointCollection : CollectionBase<ShapePathPoint>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapePathPoint, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassShapePathPointCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create an instance of the ShapePathPointCollection class
+                ShapePathPointCollection pathPoints = new ShapePathPointCollection();
+
+                // Add points to the collection using the Add method
+                pathPoints.Add(10, 10);
+                pathPoints.Add(50, 10);
+                pathPoints.Add(50, 50);
+                pathPoints.Add(10, 50);
+
+                // Access points using the Item property (indexer)
+                Console.WriteLine("Shape path points:");
+                for (int i = 0; i < pathPoints.Count; i++)
+                {
+                    ShapePathPoint point = pathPoints[i];
+                    Console.WriteLine($"Point {i}: X={point.X}, Y={point.Y}");
+                }
+
+                // Create a shape path and use the points
+                ShapePath path = new ShapePath();
+                path.MoveTo(10, 10);
+                foreach (ShapePathPoint point in pathPoints)
+                {
+                    path.LineTo(point.X, point.Y);
+                }
+                path.Close();
+
+                // Add a freeform shape to the worksheet
+                worksheet.Shapes.AddFreeform(
+                    topRow: 2,
+                    top: 0,
+                    leftColumn: 2,
+                    left: 0,
+                    height: 200,
+                    width: 200,
+                    paths: new ShapePath[] { path });
+
+                // Save the workbook
+                workbook.Save("ShapePathPointCollectionDemo.xlsx");
+                Console.WriteLine("ShapePathPointCollection demo completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ShapePathPointCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

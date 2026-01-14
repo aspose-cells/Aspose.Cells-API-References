@@ -137,6 +137,72 @@ Gets the PivotTable report by pivottable's position.
 public PivotTable this[int row, int column] { get; }
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionPropertyItemDemo2
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["A2"].Value = "A";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["A3"].Value = "B";
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["A4"].Value = "C";
+            worksheet.Cells["B4"].Value = 3000;
+
+            try
+            {
+                // Add a pivot table to the worksheet
+                int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+
+                // Access the PivotTableCollection
+                PivotTableCollection pivotTables = worksheet.PivotTables;
+
+                // Demonstrate accessing a pivot table using the Item property (indexer)
+                PivotTable pivotTable = pivotTables[index];
+                Console.WriteLine($"Accessed pivot table at index {index} with name: {pivotTable.Name}");
+
+                // Demonstrate accessing by name using the Item property
+                PivotTable pivotTableByName = pivotTables["PivotTable1"];
+                Console.WriteLine($"Accessed pivot table by name: {pivotTableByName.Name}");
+
+                // Configure the pivot table
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+                // Refresh and calculate data
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+
+                // Save the workbook
+                workbook.Save("PivotTableItemDemo.xlsx");
+                Console.WriteLine("Pivot table demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../../pivottable/)

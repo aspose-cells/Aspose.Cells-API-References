@@ -1,13 +1,13 @@
 ---
 title: CellWatchCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: CellWatchCollection method. Adds CellWatch with row and column
+description: CellWatchCollection method. Adds CellWatch with a row and a column
 type: docs
 url: /net/aspose.cells/cellwatchcollection/add/
 ---
 ## Add(int, int) {#add}
 
-Adds [`CellWatch`](../../cellwatch/) with row and column.
+Adds [`CellWatch`](../../cellwatch/) with a row and a column.
 
 ```csharp
 public int Add(int row, int column)
@@ -74,7 +74,7 @@ namespace AsposeCellsExamples
 
 ## Add(string) {#add_1}
 
-Adds [`CellWatch`](../../cellwatch/) with the name the of cell.
+Adds [`CellWatch`](../../cellwatch/) with the name of the cell.
 
 ```csharp
 public int Add(string cellName)

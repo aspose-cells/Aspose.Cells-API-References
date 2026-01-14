@@ -17,6 +17,50 @@ public void SetAxisTitleName(string name)
 | --- | --- | --- |
 | name | String | local dependent name |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class SettableChartGlobalizationSettingsMethodSetAxisTitleNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add minimal data for context
+            worksheet.Cells["A1"].Value = "Sample Data";
+
+            try
+            {
+                // Create an instance of SettableChartGlobalizationSettings
+                SettableChartGlobalizationSettings settings = new SettableChartGlobalizationSettings();
+
+                // Set a custom axis title name
+                settings.SetAxisTitleName("Custom Axis Title");
+
+                // Verify the setting by getting the axis title name
+                string axisTitleName = settings.GetAxisTitleName();
+                Console.WriteLine("Axis Title Name: " + axisTitleName);
+
+                // Save the workbook
+                workbook.Save("SetAxisTitleNameDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling SetAxisTitleName: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SettableChartGlobalizationSettings](../)

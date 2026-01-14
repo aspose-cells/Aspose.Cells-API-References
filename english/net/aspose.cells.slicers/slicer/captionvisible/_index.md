@@ -1,17 +1,23 @@
 ---
 title: Slicer.CaptionVisible
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+description: Slicer property. Returns or sets whether the header that displays the slicer Caption is visible. The default value is true
 type: docs
 url: /net/aspose.cells.slicers/slicer/captionvisible/
 ---
 ## Slicer.CaptionVisible property
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+Returns or sets whether the header that displays the slicer Caption is visible. The default value is true
 
 ```csharp
+[Obsolete("Use Slicer.ShowCaption property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool CaptionVisible { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`ShowCaption`](../showcaption/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

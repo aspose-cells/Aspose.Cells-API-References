@@ -31,7 +31,7 @@ namespace AsposeCellsExamples
             
             // Set HTML with different font colors and styles
             Cell cell = worksheet.Cells["A1"];
-            cell.HtmlString = "<font color='Red'>Red Text</font> <font color='#0000FF'>Blue Text</font> <font style='color:#00FF00;text-decoration: underline;'>Green Underlined</font>";
+            cell.HtmlString = "<font color='Red'>Red Text</font> <font color='#0000FF'>Blue Text</font><font style='color:#00FF00;text-decoration: underline;'>Green Underlined</font>";
             
             // Get rich text formatting
             FontSetting[] richText = cell.GetCharacters();

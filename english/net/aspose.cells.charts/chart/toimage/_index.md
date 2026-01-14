@@ -395,6 +395,68 @@ public void ToImage(Stream stream, long jpegQuality)
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToImageWithStreamInt64Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            try
+            {
+                // Create a memory stream to save the image
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Call the ToImage method with Stream and Int64 parameters
+                    // JPEG quality is specified as 80 (valid range is typically 0-100)
+                    chart.ToImage(stream, 80);
+
+                    // Display success message
+                    Console.WriteLine("Chart successfully converted to image with JPEG quality 80");
+                    Console.WriteLine($"Image stream length: {stream.Length} bytes");
+
+                    // Save the workbook
+                    workbook.Save("ChartToImageDemo.xlsx");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting chart to image: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Chart](../)
@@ -420,6 +482,68 @@ public void ToImage(Stream stream, ImageFormat imageFormat)
 ### Remarks
 
 NOTE: This member is now obsolete. Instead, please use Chart.ToImage(Stream, ImageType) method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToImageWithStreamImageFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data source
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            try
+            {
+                // Create a memory stream to save the image
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Call ToImage method with Stream and ImageFormat parameters
+                    // Using Aspose.Cells.Drawing.ImageType instead of System.Drawing.Imaging.ImageFormat
+                    chart.ToImage(stream, Aspose.Cells.Drawing.ImageType.Png);
+
+                    // Display success message
+                    Console.WriteLine("Chart successfully saved to stream in PNG format.");
+                    Console.WriteLine($"Stream length: {stream.Length} bytes");
+
+                    // Optionally save the stream to a file for verification
+                    File.WriteAllBytes("ChartImage.png", stream.ToArray());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling ToImage: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -447,6 +571,69 @@ public void ToImage(Stream stream, ImageType imageType)
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToImageWithStreamImageTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            try
+            {
+                // Create a memory stream to save the image
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Call the ToImage method with Stream and ImageType parameters
+                    chart.ToImage(stream, ImageType.Png);
+
+                    // Display success message
+                    Console.WriteLine("Chart successfully converted to image in PNG format");
+
+                    // Save the image to a file for demonstration
+                    File.WriteAllBytes("ChartImage.png", stream.ToArray());
+                }
+
+                // Save the workbook
+                workbook.Save("ChartToImageDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting chart to image: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 
@@ -547,6 +734,74 @@ public void ToImage(Stream stream, ImageOrPrintOptions options)
 The type of the image is specified by using `options.ImageType`. The following formats are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class ChartMethodToImageWithStreamImageOrPrintOptDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            try
+            {
+                // Create a memory stream to save the image
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Create ImageOrPrintOptions with specific settings
+                    ImageOrPrintOptions options = new ImageOrPrintOptions();
+                    options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+                    options.HorizontalResolution = 300;
+                    options.VerticalResolution = 300;
+
+                    // Call the ToImage method with Stream and ImageOrPrintOptions parameters
+                    chart.ToImage(stream, options);
+
+                    // Display success message
+                    Console.WriteLine("Chart successfully converted to image with custom options");
+                    Console.WriteLine($"Image stream length: {stream.Length} bytes");
+
+                    // Save the workbook
+                    workbook.Save("ChartToImageDemo.xlsx");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting chart to image: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

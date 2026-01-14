@@ -45,6 +45,63 @@ public class EquationNodeParagraph : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationsClassEquationNodeParagraphDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a shape to hold the equation paragraph
+                var shape = worksheet.Shapes.AddTextBox(0, 0, 200, 50, 200, 50);
+
+                // Get the equation paragraph from the shape
+                var equationParagraph = shape.GetEquationParagraph() as EquationNodeParagraph;
+
+                if (equationParagraph != null)
+                {
+                    // Display the default justification
+                    Console.WriteLine($"Default Justification: {equationParagraph.Justification}");
+
+                    // Change the justification to Left
+                    equationParagraph.Justification = EquationHorizontalJustificationType.Left;
+                    Console.WriteLine($"Justification changed to: {equationParagraph.Justification}");
+
+                    // Change the justification to Center
+                    equationParagraph.Justification = EquationHorizontalJustificationType.Center;
+                    Console.WriteLine($"Justification changed to: {equationParagraph.Justification}");
+
+                    // Save the workbook
+                    workbook.Save("EquationNodeParagraphDemo.xlsx");
+                    Console.WriteLine("Workbook saved successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Failed to get EquationNodeParagraph from shape.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with EquationNodeParagraph: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)
