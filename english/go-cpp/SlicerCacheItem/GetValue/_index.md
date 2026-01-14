@@ -10,7 +10,7 @@ url: /go-cpp/slicercacheitem/getvalue/
 
 ## GetValue function
 
-Returns the label text for the slicer item. Read-only.
+Returns the label text for the slicer item.
 
 ```go
 

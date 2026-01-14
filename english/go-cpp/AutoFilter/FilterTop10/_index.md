@@ -10,7 +10,7 @@ url: /go-cpp/autofilter/filtertop10/
 
 ## FilterTop10 function
 
-Filter the top 10 item in the list
+Filter the top 10 items in the list
 
 ```go
 

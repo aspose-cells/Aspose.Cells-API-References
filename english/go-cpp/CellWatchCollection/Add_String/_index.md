@@ -10,7 +10,7 @@ url: /go-cpp/cellwatchcollection/add_string/
 
 ## Add_String function
 
-Adds CellWatch with the name the of cell.
+Adds Aspose.Cells.CellWatch with the name of the cell.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getcellcolumn/
 
 ## GetCellColumn function
 
-Gets the column index of the cell where the function is in.
+Gets the column index of the cell where the function is.
 
 ```go
 

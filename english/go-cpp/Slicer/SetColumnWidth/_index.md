@@ -10,7 +10,7 @@ url: /go-cpp/slicer/setcolumnwidth/
 
 ## SetColumnWidth function
 
-Returns or sets the width, in points, of each column in the slicer.
+Returns or sets the width of each column in the slicer in unit of points.
 
 ```go
 

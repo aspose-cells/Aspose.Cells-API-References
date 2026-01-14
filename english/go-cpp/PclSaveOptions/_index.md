@@ -10,7 +10,7 @@ url: /go-cpp/pclsaveoptions/
 
 ## PclSaveOptions class
 
-Represents the options for saving Pcl file.
+Represents the options for saving a Pcl file.
 
 ```go
 

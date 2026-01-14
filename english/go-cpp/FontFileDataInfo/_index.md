@@ -10,7 +10,7 @@ url: /go-cpp/fontfiledatainfo/
 
 ## FontFileDataInfo class
 
-Represents data infomation of font file data.
+Represents data information of font file data.
 
 ```go
 

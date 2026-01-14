@@ -28,8 +28,8 @@ type AbstractCalculationEngine struct  {
 
 | Method | Description |
 | --- | --- |
-|[SkipCalculation](./skipcalculation/) | Skips the calculation for the entire formula that references to the function currently under evaluation. | 
-|[IsParamLiteralRequired](./isparamliteralrequired/) | Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. | 
+|[SkipCalculation](./skipcalculation/) | Skips the calculation for the entire formula that references the function currently under evaluation. | 
+|[IsParamLiteralRequired](./isparamliteralrequired/) | Indicates whether this engine needs the literal text of the parameter while doing a calculation.Default value is false. | 
 |[IsParamArrayModeRequired](./isparamarraymoderequired/) | Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false.If CalculationData.GetParamValueInArrayMode(int, int, int) is required when calculating customfunctions and user has not updated the definition for them(by Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)),this property needs to be set as true. | 
 |[GetProcessBuiltInFunctions](./getprocessbuiltinfunctions/) | Whether built-in functions that have been supported by the built-in engineshould be checked and processed by this implementation.Default is false. | 
-|[ForceRecalculate](./forcerecalculate/) | Whether force given function to be recalculated always when calculating shared formulas. | 
+|[ForceRecalculate](./forcerecalculate/) | Whether to force the given function to be recalculated always when calculating shared formulas. | 

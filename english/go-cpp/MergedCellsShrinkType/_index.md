@@ -10,7 +10,7 @@ url: /go-cpp/mergedcellsshrinktype/
 
 ## MergedCellsShrinkType Enum
 
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns.
 
 ```go
 

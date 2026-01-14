@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getcellrow/
 
 ## GetCellRow function
 
-Gets the row index of the cell where the function is in.
+Gets the row index of the cell where the function is.
 
 ```go
 

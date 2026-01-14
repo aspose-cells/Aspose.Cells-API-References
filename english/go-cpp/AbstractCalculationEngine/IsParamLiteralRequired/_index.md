@@ -10,7 +10,7 @@ url: /go-cpp/abstractcalculationengine/isparamliteralrequired/
 
 ## IsParamLiteralRequired function
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+Indicates whether this engine needs the literal text of the parameter while doing a calculation.Default value is false.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/series/setxvalues/
 
 ## SetXValues function
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
 
 ```go
 

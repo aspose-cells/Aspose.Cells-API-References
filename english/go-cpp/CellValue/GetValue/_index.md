@@ -10,7 +10,7 @@ url: /go-cpp/cellvalue/getvalue/
 
 ## GetValue function
 
-Gets/sets the cell value.
+Gets or sets the cell value.
 
 ```go
 

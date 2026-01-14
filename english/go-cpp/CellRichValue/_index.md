@@ -10,7 +10,7 @@ url: /go-cpp/cellrichvalue/
 
 ## CellRichValue class
 
-Represents rich value of the cell.
+Represents the rich value of the cell.
 
 ```go
 

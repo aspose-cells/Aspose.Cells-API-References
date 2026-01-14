@@ -10,7 +10,7 @@ url: /go-cpp/pasteoperationtype/
 
 ## PasteOperationType Enum
 
-Represents operation type when pasting range.
+Represents the operation type when pasting a range.
 
 ```go
 

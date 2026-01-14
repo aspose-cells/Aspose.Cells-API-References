@@ -23,6 +23,6 @@ type ReserveMissingPivotItemType int32
 
 | Field | Description |
 | --- | --- |
-|[Default](./default/) | Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items. | 
+|[Default](./default/) | Removes old missing pivot items and reserves deleted items of new data source as missing items. | 
 |[All](./all/) | Reserves all missing items. | 
 |[None](./none/) | Removes all missing pivot items. | 

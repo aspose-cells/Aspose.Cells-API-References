@@ -10,7 +10,7 @@ url: /go-cpp/deleteblankoptions/setdrawingsasblank/
 
 ## SetDrawingsAsBlank function
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank.Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank.Default value is true.
 
 ```go
 

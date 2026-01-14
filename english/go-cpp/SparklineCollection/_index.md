@@ -31,5 +31,5 @@ type SparklineCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the Sparkline element at the specified index. | 
 |[Add](./add/) | Add a sparkline. | 
-|[Remove](./remove/) | Removes the sparkline | 
+|[RemoveSparkline](./removesparkline/) | Removes the sparkline | 
 |[GetCount](./getcount/) |  | 

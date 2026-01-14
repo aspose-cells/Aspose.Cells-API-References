@@ -149,3 +149,5 @@ type WorkbookSettings struct  {
 |[SetDiscardImageEditData](./setdiscardimageeditdata/) | Indicates whether discarding editting image data. | 
 |[GetDefaultImageResolution](./getdefaultimageresolution/) | Gets and sets default resolution of image. | 
 |[SetDefaultImageResolution](./setdefaultimageresolution/) | Gets and sets default resolution of image. | 
+|[GetWpsCompatibility](./getwpscompatibility/) | Indicates whether to be compatible with WPS. | 
+|[SetWpsCompatibility](./setwpscompatibility/) | Indicates whether to be compatible with WPS. | 

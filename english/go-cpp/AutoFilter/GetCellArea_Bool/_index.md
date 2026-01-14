@@ -10,7 +10,7 @@ url: /go-cpp/autofilter/getcellarea_bool/
 
 ## GetCellArea_Bool function
 
-Gets the CellArea where the specified AutoFilter applies to.
+Gets the Aspose.Cells.CellArea where the specified AutoFilter applies.
 
 ```go
 

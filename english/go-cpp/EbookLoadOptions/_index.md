@@ -23,8 +23,8 @@ type EbookLoadOptions struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewEbookLoadOptions](./newebookloadoptions/) | Creates an options of loading the ebook file. | 
-|[NewEbookLoadOptions_LoadFormat](./newebookloadoptions_loadformat/) | Creates an options of loading the ebook file. | 
+|[NewEbookLoadOptions](./newebookloadoptions/) | Creates an option for loading the ebook file. | 
+|[NewEbookLoadOptions_LoadFormat](./newebookloadoptions_loadformat/) | Creates an option of loading the ebook file. | 
 |[NewEbookLoadOptions_HtmlLoadOptions](./newebookloadoptions_htmlloadoptions/) | Constructs from a parent object. | 
 
 ## Methods
@@ -54,6 +54,8 @@ type EbookLoadOptions struct  {
 |[SetHasFormula](./sethasformula/) | Indicates whether the text is formula if it starts with "=". | 
 |[GetProgId](./getprogid/) | Gets the program id of creating the file.Only for MHT files. | 
 |[GetTableLoadOptions](./gettableloadoptions/) | Get the HtmlTableLoadOptionCollection instance | 
+|[GetDetectLaTeX](./getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
+|[SetDetectLaTeX](./setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
 |[GetLoadFormat](./getloadformat/) | Gets the load format. | 
 |[GetPassword](./getpassword/) | Gets and set the password of the workbook. | 
 |[SetPassword](./setpassword/) | Gets and set the password of the workbook. | 

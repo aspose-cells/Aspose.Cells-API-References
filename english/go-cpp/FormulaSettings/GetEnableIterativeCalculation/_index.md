@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/getenableiterativecalculation/
 
 ## GetEnableIterativeCalculation function
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 ```go
 

@@ -31,7 +31,7 @@ type TextOptions struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetName](./getname/) | Gets and sets the name of the shape. | 
-|[SetName](./setname/) | Gets and sets the name of the shape. | 
+|[SetName_String](./setname_string/) | Gets and sets the name of the shape. | 
 |[GetLanguageCode](./getlanguagecode/) | Gets and sets the user interface language. | 
 |[SetLanguageCode](./setlanguagecode/) | Gets and sets the user interface language. | 
 |[GetLatinName](./getlatinname/) | Gets and sets the latin name. | 
@@ -47,14 +47,16 @@ type TextOptions struct  {
 |[SetKerning](./setkerning/) | Specifies the minimum font size at which character kerning will occur for this text run. | 
 |[GetSpacing](./getspacing/) | Specifies the spacing between characters within a text run. | 
 |[SetSpacing](./setspacing/) | Specifies the spacing between characters within a text run. | 
+|[IsNormalizeHeights](./isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
+|[SetIsNormalizeHeights](./setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
+|[GetCapsType](./getcapstype/) | Gets and sets the text caps type. | 
+|[SetCapsType](./setcapstype/) | Gets and sets the text caps type. | 
 |[GetCharset](./getcharset/) | Represent the character set. | 
 |[SetCharset](./setcharset/) | Represent the character set. | 
 |[IsItalic](./isitalic/) | Gets or sets a value indicating whether the font is italic. | 
 |[SetIsItalic](./setisitalic/) | Gets or sets a value indicating whether the font is italic. | 
 |[IsBold](./isbold/) | Gets or sets a value indicating whether the font is bold. | 
 |[SetIsBold](./setisbold/) | Gets or sets a value indicating whether the font is bold. | 
-|[GetCapsType](./getcapstype/) | Gets and sets the text caps type. | 
-|[SetCapsType](./setcapstype/) | Gets and sets the text caps type. | 
 |[GetStrikeType](./getstriketype/) | Gets the strike type of the text. | 
 |[SetStrikeType](./setstriketype/) | Gets the strike type of the text. | 
 |[IsStrikeout](./isstrikeout/) | Gets or sets a value indicating whether the font is single strikeout. | 
@@ -67,6 +69,7 @@ type TextOptions struct  {
 |[SetIsSubscript](./setissubscript/) | Gets or sets a value indicating whether the font is subscript. | 
 |[GetUnderline](./getunderline/) | Gets or sets the font underline type. | 
 |[SetUnderline](./setunderline/) | Gets or sets the font underline type. | 
+|[SetName_String_FontSchemeType](./setname_string_fontschemetype/) | Sets name and scheme of the font. | 
 |[GetDoubleSize](./getdoublesize/) | Gets and sets the double size of the font. | 
 |[SetDoubleSize](./setdoublesize/) | Gets and sets the double size of the font. | 
 |[GetSize](./getsize/) | Gets or sets the size of the font. | 
@@ -78,8 +81,6 @@ type TextOptions struct  {
 |[GetArgbColor](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[SetArgbColor](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[Equals](./equals/) | Checks if two fonts are equals. | 
-|[IsNormalizeHeights](./isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
-|[SetIsNormalizeHeights](./setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
 |[GetSchemeType](./getschemetype/) | Gets and sets the scheme type of the font. | 
 |[SetSchemeType](./setschemetype/) | Gets and sets the scheme type of the font. | 
 |[ToString](./tostring/) | Returns a string represents the current Cell object. | 

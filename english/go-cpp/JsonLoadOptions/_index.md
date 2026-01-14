@@ -10,7 +10,7 @@ url: /go-cpp/jsonloadoptions/
 
 ## JsonLoadOptions class
 
-Represents the options of loading json files
+Represents the options of loading JSON files
 
 ```go
 

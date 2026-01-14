@@ -34,8 +34,6 @@ type XlsSaveOptions struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetMatchColor](./getmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. | 
 |[SetMatchColor](./setmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. | 
-|[GetWpsCompatibility](./getwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
-|[SetWpsCompatibility](./setwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

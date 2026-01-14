@@ -10,7 +10,7 @@ url: /go-cpp/threadedcommentauthor/
 
 ## ThreadedCommentAuthor class
 
-Represents the person who creates the threaded comments;
+Represents the person who creates the threaded comments.
 
 ```go
 

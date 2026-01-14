@@ -43,14 +43,14 @@ type Series struct  {
 |[IsVerticalValues](./isverticalvalues/) | Indicates whether the data source is vertical. | 
 |[GetValues](./getvalues/) | Represents the Y values of this chart series. | 
 |[SetValues](./setvalues/) | Represents the Y values of this chart series. | 
-|[GetPointValues](./getpointvalues/) | Gets the values for the points of the series | 
-|[GetCategoryValues](./getcategoryvalues/) | Gets the category values of the series | 
+|[GetPointValues](./getpointvalues/) | Gets the actual values that are used to plot every pointof this series in the chart. | 
+|[GetCategoryValues](./getcategoryvalues/) | Gets the actual category values that are used to plot every pointof this series in the chart. | 
 |[GetValuesFormatCode](./getvaluesformatcode/) | Represents format code of Values's NumberList. | 
 |[SetValuesFormatCode](./setvaluesformatcode/) | Represents format code of Values's NumberList. | 
 |[GetXValuesFormatCode](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. | 
 |[SetXValuesFormatCode](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. | 
-|[GetXValues](./getxvalues/) | Represents the x values of the chart series. | 
-|[SetXValues](./setxvalues/) | Represents the x values of the chart series. | 
+|[GetXValues](./getxvalues/) | Represents the X values of this chart series. | 
+|[SetXValues](./setxvalues/) | Represents the X values of this chart series. | 
 |[GetBubbleSizes](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. | 
 |[SetBubbleSizes](./setbubblesizes/) | Gets or sets the bubble sizes values of the chart series. | 
 |[GetTrendLines](./gettrendlines/) | Returns all the trendlines of this series. | 

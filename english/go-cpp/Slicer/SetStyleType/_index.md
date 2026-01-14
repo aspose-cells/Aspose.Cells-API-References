@@ -10,7 +10,7 @@ url: /go-cpp/slicer/setstyletype/
 
 ## SetStyleType function
 
-Specify the type of Built-in slicer stylethe default type is SlicerStyleLight1
+Specify the type of Built-in slicer style.The default type is SlicerStyleLight1.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/deleteblankoptions/setemptyformulavalueasblank/
 
 ## SetEmptyFormulaValueAsBlank function
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string.Default value is false.
+Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string.Default value is false.
 
 ```go
 

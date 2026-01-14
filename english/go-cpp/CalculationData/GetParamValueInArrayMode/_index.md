@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getparamvalueinarraymode/
 
 ## GetParamValueInArrayMode function
 
-Gets the value(s) of the parameter at given index.If the parameter is some kind of expression that needs to be calculated,then it will be calculated in array mode.
+Gets the value(s) of the parameter at a given index.If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 ```go
 

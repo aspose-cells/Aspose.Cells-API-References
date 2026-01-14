@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/getcalculationmode/
 
 ## GetCalculationMode function
 
-Gets or sets the mode for workbook calculation in ms excel.
+Gets or sets the mode for workbook calculation in MS Excel.
 
 ```go
 

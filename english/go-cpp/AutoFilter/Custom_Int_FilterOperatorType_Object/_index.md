@@ -10,7 +10,7 @@ url: /go-cpp/autofilter/custom_int_filteroperatortype_object/
 
 ## Custom_Int_FilterOperatorType_Object function
 
-Filters a list with a custom criteria.
+Filters a list with a custom criterion.
 
 ```go
 

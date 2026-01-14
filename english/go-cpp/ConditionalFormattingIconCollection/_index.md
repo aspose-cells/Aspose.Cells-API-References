@@ -30,6 +30,5 @@ type ConditionalFormattingIconCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the ConditionalFormattingIcon element at the specified index. | 
-|[Add_IconSetType_Int](./add_iconsettype_int/) | Adds ConditionalFormattingIcon object. | 
-|[Add_ConditionalFormattingIcon](./add_conditionalformattingicon/) | Adds ConditionalFormattingIcon object. | 
+|[Add](./add/) | Adds ConditionalFormattingIcon object. | 
 |[GetCount](./getcount/) |  | 

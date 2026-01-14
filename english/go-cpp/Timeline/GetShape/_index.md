@@ -10,7 +10,7 @@ url: /go-cpp/timeline/getshape/
 
 ## GetShape function
 
-Returns the TimelineShape object associated with this Timeline. Read-only.
+Returns the TimelineShape object associated with this Timeline.
 
 ```go
 

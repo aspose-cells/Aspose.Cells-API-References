@@ -10,7 +10,7 @@ url: /go-cpp/series/getcategoryvalues/
 
 ## GetCategoryValues function
 
-Gets the category values of the series
+Gets the actual category values that are used to plot every pointof this series in the chart.
 
 ```go
 

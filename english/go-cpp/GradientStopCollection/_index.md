@@ -32,5 +32,4 @@ type GradientStopCollection struct  {
 |[Add_Double_CellsColor_Int](./add_double_cellscolor_int/) | Add a gradient stop. | 
 |[Add_Double_Color_Int](./add_double_color_int/) | Add a gradient stop. | 
 |[Get](./get/) | Gets the gradient stop by the index. | 
-|[Set](./set/) | Gets the gradient stop by the index. | 
 |[GetCount](./getcount/) |  | 

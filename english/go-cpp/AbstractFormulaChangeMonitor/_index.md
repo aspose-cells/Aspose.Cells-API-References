@@ -10,7 +10,7 @@ url: /go-cpp/abstractformulachangemonitor/
 
 ## AbstractFormulaChangeMonitor class
 
-Monitor for user to track the change of formulas during certain operations.
+Monitor for the user to track the change of formulas during certain operations.
 
 ```go
 

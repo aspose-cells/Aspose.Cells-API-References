@@ -10,7 +10,7 @@ url: /go-cpp/fontconfigs/fontconfigs_setfontsources/
 
 ## FontConfigs_SetFontSources function
 
-Sets the fonts sources.
+Sets the font sources.
 
 ```go
 
