@@ -2,7 +2,7 @@
 title: Aspose::Cells::CellValue::GetType method
 linktitle: GetType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CellValue::GetType method. Gets/sets the type of cell value in C++.'
+description: 'Aspose::Cells::CellValue::GetType method. Gets or sets the type of cell value in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells/cellvalue/gettype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cellvalue/gettype/
 ## CellValue::GetType method
 
 
-Gets/sets the type of cell value.
+Gets or sets the type of cell value.
 
 ```cpp
 CellValueType Aspose::Cells::CellValue::GetType()

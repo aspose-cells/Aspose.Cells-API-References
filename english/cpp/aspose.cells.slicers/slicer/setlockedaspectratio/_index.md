@@ -4,7 +4,7 @@ linktitle: SetLockedAspectRatio
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetLockedAspectRatio method. Indicates whether locking aspect ratio in C++.'
 type: docs
-weight: 1900
+weight: 2700
 url: /cpp/aspose.cells.slicers/slicer/setlockedaspectratio/
 ---
 ## Slicer::SetLockedAspectRatio method
@@ -12,20 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/setlockedaspectratio/
 
 Indicates whether locking aspect ratio.
 
+
+>Deprecated
+>
+>Use Shape.GetLockedProperty() method instead. 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::SetLockedAspectRatio(bool value)
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use [Shape.GetLockedProperty()](../../../aspose.cells.drawing/shape/getlockedproperty/) method. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetLockedAspectRatio() == false)
-{
-    slicer.SetLockedAspectRatio(true);
-}
-```
 
 ## See Also
 

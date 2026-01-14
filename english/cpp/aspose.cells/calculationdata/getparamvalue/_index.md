@@ -2,7 +2,7 @@
 title: Aspose::Cells::CalculationData::GetParamValue method
 linktitle: GetParamValue
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CalculationData::GetParamValue method. Gets the represented value object of the parameter at given index in C++.'
+description: 'Aspose::Cells::CalculationData::GetParamValue method. Gets the represented value object of the parameter at a given index in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells/calculationdata/getparamvalue/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/calculationdata/getparamvalue/
 ## CalculationData::GetParamValue method
 
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 ```cpp
 Aspose::Cells::Object Aspose::Cells::CalculationData::GetParamValue(int32_t index)

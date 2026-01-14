@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.pivot/pivotareacollection/add/
 
 Adds pivot area.
 
+
+>Deprecated
+>
+>Use PivotAreaCollection.AddPivotArea(PivotArea) method instead. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotAreaCollection::Add(const PivotArea &pivotArea)
 ```
@@ -23,6 +27,12 @@ int32_t Aspose::Cells::Pivot::PivotAreaCollection::Add(const PivotArea &pivotAre
 
 ## ReturnValue
 
+
+## Remarks
+
+
+
+NOTE: This member is now obsolete. Instead, please use [AddPivotArea()](../addpivotarea/) method. This method will be removed 6 months later since December 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

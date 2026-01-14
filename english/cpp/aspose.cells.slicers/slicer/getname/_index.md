@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetName method. Returns or sets the name of the specified slicer in C++.'
 type: docs
-weight: 2800
+weight: 3700
 url: /cpp/aspose.cells.slicers/slicer/getname/
 ---
 ## Slicer::GetName method

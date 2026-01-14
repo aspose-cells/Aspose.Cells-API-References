@@ -2,7 +2,7 @@
 title: Aspose::Cells::FontFileDataInfo class
 linktitle: FontFileDataInfo
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FontFileDataInfo class. Represents data infomation of font file data in C++.'
+description: 'Aspose::Cells::FontFileDataInfo class. Represents data information of font file data in C++.'
 type: docs
 weight: 6900
 url: /cpp/aspose.cells/fontfiledatainfo/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/fontfiledatainfo/
 ## FontFileDataInfo class
 
 
-Represents data infomation of font file data.
+Represents data information of font file data.
 
 ```cpp
 class FontFileDataInfo

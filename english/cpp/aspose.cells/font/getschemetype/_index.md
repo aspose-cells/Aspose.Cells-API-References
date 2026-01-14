@@ -4,7 +4,7 @@ linktitle: GetSchemeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::GetSchemeType method. Gets and sets the scheme type of the font in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells/font/getschemetype/
 ---
 ## Font::GetSchemeType method

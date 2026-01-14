@@ -2,7 +2,7 @@
 title: Aspose::Cells::ThreadedCommentCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::ThreadedCommentCollection::Add method. Adds a threaded comment; in C++.'
+description: 'Aspose::Cells::ThreadedCommentCollection::Add method. Adds a threaded comment in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells/threadedcommentcollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/threadedcommentcollection/add/
 ## ThreadedCommentCollection::Add(const U16String\&, const ThreadedCommentAuthor\&) method
 
 
-Adds a threaded comment;.
+Adds a threaded comment.
 
 ```cpp
 int32_t Aspose::Cells::ThreadedCommentCollection::Add(const U16String &text, const ThreadedCommentAuthor &author)
@@ -37,7 +37,7 @@ int32_t Aspose::Cells::ThreadedCommentCollection::Add(const U16String &text, con
 ## ThreadedCommentCollection::Add(const char16_t*, const ThreadedCommentAuthor\&) method
 
 
-Adds a threaded comment;.
+Adds a threaded comment.
 
 ```cpp
 int32_t Aspose::Cells::ThreadedCommentCollection::Add(const char16_t *text, const ThreadedCommentAuthor &author)

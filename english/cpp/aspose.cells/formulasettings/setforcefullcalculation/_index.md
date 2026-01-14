@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::SetForceFullCalculation method
 linktitle: SetForceFullCalculation
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::SetForceFullCalculation method. Indicates whether calculates all formulas every time when a calculation is triggered in C++.'
+description: 'Aspose::Cells::FormulaSettings::SetForceFullCalculation method. Indicates whether it calculates all formulas every time when a calculation is triggered in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells/formulasettings/setforcefullcalculation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/setforcefullcalculation/
 ## FormulaSettings::SetForceFullCalculation method
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```cpp
 void Aspose::Cells::FormulaSettings::SetForceFullCalculation(bool value)

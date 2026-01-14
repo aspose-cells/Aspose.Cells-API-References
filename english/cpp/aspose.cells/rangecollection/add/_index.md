@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/rangecollection/add/
 
 Adds a [Range](../../range/) item to the collection.
 
+
+>Deprecated
+>
+>Use RangeCollection.AddRange(Range) method instead. 
 ```cpp
 int32_t Aspose::Cells::RangeCollection::Add(const Range &range)
 ```
@@ -23,6 +27,12 @@ int32_t Aspose::Cells::RangeCollection::Add(const Range &range)
 
 ## ReturnValue
 
+
+## Remarks
+
+
+
+NOTE: This member is now obsolete. Instead, please use [AddRange()](../addrange/) method. This method will be removed 6 months later since December 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

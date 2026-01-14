@@ -2,7 +2,7 @@
 title: Aspose::Cells::AutoFilter::FilterTop10 method
 linktitle: FilterTop10
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AutoFilter::FilterTop10 method. Filter the top 10 item in the list in C++.'
+description: 'Aspose::Cells::AutoFilter::FilterTop10 method. Filter the top 10 items in the list in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells/autofilter/filtertop10/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/autofilter/filtertop10/
 ## AutoFilter::FilterTop10 method
 
 
-Filter the top 10 item in the list.
+Filter the top 10 items in the list.
 
 ```cpp
 void Aspose::Cells::AutoFilter::FilterTop10(int32_t fieldIndex, bool isTop, bool isPercent, int32_t itemCount)

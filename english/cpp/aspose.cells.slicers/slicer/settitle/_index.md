@@ -4,7 +4,7 @@ linktitle: SetTitle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetTitle method. Specifies the title of the current Slicer object in C++.'
 type: docs
-weight: 900
+weight: 1700
 url: /cpp/aspose.cells.slicers/slicer/settitle/
 ---
 ## Slicer::SetTitle(const U16String\&) method
@@ -12,21 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/settitle/
 
 Specifies the title of the current [Slicer](../) object.
 
+
+>Deprecated
+>
+>Use Shape.Title property instead. 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::SetTitle(const U16String &value)
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Shape.Title property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-U16String val = u"slicer title";
-if(slicer.GetTitle().IsNull())
-{
-    slicer.SetTitle(val);
-}
-```
 
 ## See Also
 
@@ -40,20 +38,19 @@ if(slicer.GetTitle().IsNull())
 
 Specifies the title of the current [Slicer](../) object.
 
+
+>Deprecated
+>
+>Use Shape.Title property instead. 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::SetTitle(const char16_t *value)
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Shape.Title property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetTitle().IsNull())
-{
-    slicer.SetTitle(u"slicer title");
-}
-```
 
 ## See Also
 

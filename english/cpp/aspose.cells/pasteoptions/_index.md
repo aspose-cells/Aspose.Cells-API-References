@@ -25,6 +25,7 @@ class PasteOptions
 | [GetOnlyVisibleCells()](./getonlyvisiblecells/) | True means only copying visible cells. |
 | [GetOperationType()](./getoperationtype/) | Gets and sets the operation type when pasting range. |
 | [GetPasteType()](./getpastetype/) | The paste special type. |
+| [GetShiftFormulasOfShapes()](./getshiftformulasofshapes/) | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [GetSkipBlanks()](./getskipblanks/) | Indicates whether skips blank cells. |
 | [GetTranspose()](./gettranspose/) | True to transpose rows and columns when the range is pasted. The default value is False. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -38,6 +39,7 @@ class PasteOptions
 | [SetOnlyVisibleCells(bool value)](./setonlyvisiblecells/) | True means only copying visible cells. |
 | [SetOperationType(PasteOperationType value)](./setoperationtype/) | Gets and sets the operation type when pasting range. |
 | [SetPasteType(PasteType value)](./setpastetype/) | The paste special type. |
+| [SetShiftFormulasOfShapes(bool value)](./setshiftformulasofshapes/) | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [SetSkipBlanks(bool value)](./setskipblanks/) | Indicates whether skips blank cells. |
 | [SetTranspose(bool value)](./settranspose/) | True to transpose rows and columns when the range is pasted. The default value is False. |
 | [~PasteOptions()](./~pasteoptions/) | Destructor. |

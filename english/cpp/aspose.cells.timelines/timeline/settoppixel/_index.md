@@ -4,7 +4,7 @@ linktitle: SetTopPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Timelines::Timeline::SetTopPixel method. Returns or sets the vertical offset of timeline shape from its top row, in pixels in C++.'
 type: docs
-weight: 1400
+weight: 2800
 url: /cpp/aspose.cells.timelines/timeline/settoppixel/
 ---
 ## Timeline::SetTopPixel method

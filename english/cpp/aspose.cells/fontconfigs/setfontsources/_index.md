@@ -2,7 +2,7 @@
 title: Aspose::Cells::FontConfigs::SetFontSources method
 linktitle: SetFontSources
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FontConfigs::SetFontSources method. Sets the fonts sources in C++.'
+description: 'Aspose::Cells::FontConfigs::SetFontSources method. Sets the font sources in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells/fontconfigs/setfontsources/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/fontconfigs/setfontsources/
 ## FontConfigs::SetFontSources method
 
 
-Sets the fonts sources.
+Sets the font sources.
 
 ```cpp
 static void Aspose::Cells::FontConfigs::SetFontSources(const Vector<FontSourceBase> &sources)

@@ -16,6 +16,10 @@ Represents the Y values of this chart series.
 U16String Aspose::Cells::Charts::Series::GetValues()
 ```
 
+## Remarks
+
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use PointValues. 
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

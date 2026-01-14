@@ -4,7 +4,7 @@ linktitle: GetWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Timelines::Timeline::GetWidthPixel method. Returns or sets the width of the specified timeline, in pixels in C++.'
 type: docs
-weight: 1500
+weight: 2900
 url: /cpp/aspose.cells.timelines/timeline/getwidthpixel/
 ---
 ## Timeline::GetWidthPixel method

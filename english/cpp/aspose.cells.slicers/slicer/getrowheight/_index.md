@@ -2,15 +2,15 @@
 title: Aspose::Cells::Slicers::Slicer::GetRowHeight method
 linktitle: GetRowHeight
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::Slicer::GetRowHeight method. Returns or sets the height, in points, of each row in the specified slicer in C++.'
+description: 'Aspose::Cells::Slicers::Slicer::GetRowHeight method. Returns or sets the height of each row in the specified slicer in unit of points in C++.'
 type: docs
-weight: 5400
+weight: 6700
 url: /cpp/aspose.cells.slicers/slicer/getrowheight/
 ---
 ## Slicer::GetRowHeight method
 
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 ```cpp
 double Aspose::Cells::Slicers::Slicer::GetRowHeight()

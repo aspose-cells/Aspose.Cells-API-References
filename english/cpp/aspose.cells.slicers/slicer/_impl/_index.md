@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::_impl field. The implementation object in C++.'
 type: docs
-weight: 5600
+weight: 6900
 url: /cpp/aspose.cells.slicers/slicer/_impl/
 ---
 ## _impl field

@@ -47,6 +47,8 @@ class PivotField
 | [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether to insert a blank line after each item. |
 | [GetItemCount()](./getitemcount/) | Gets the count of the base items in this pivot field. |
 | [GetItems()](./getitems/) | Get all labels of pivot items in this field. |
+| [GetMaxValue()](./getmaxvalue/) | Gets the max value of this field. |
+| [GetMinValue()](./getminvalue/) | Gets the max value of this field. |
 | [GetName()](./getname/) | Represents the name of [PivotField](./). |
 | [GetNonAutoSortDefault()](./getnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [GetNumber()](./getnumber/) | Represents the built-in display format of numbers and dates. |
@@ -63,8 +65,11 @@ class PivotField
 | [GetSortSetting()](./getsortsetting/) | Gets all settings of auto sorting. |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether to show specified subtotal for this pivot field. |
 | [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
+| [GroupBy(const Vector \<PivotGroupByType\>\& groups, double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
+| [GroupBy(bool isAutoStart, const Date\& start, bool isAutoEnd, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
 | [GroupBy(double start, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
+| [GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
 | [GroupBy(const Vector \<CustomPiovtFieldGroupItem\>\& customGroupItems, bool newField)](./groupby/) | Custom group the field. |
 | [HideDetail(bool isHiddenDetail)](./hidedetail/) | Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [HideItem(int32_t index, bool isHidden)](./hideitem/) | Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |

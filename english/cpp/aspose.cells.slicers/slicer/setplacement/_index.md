@@ -4,7 +4,7 @@ linktitle: SetPlacement
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetPlacement method. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet in C++.'
 type: docs
-weight: 1700
+weight: 2500
 url: /cpp/aspose.cells.slicers/slicer/setplacement/
 ---
 ## Slicer::SetPlacement method
@@ -12,20 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/setplacement/
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
+
+>Deprecated
+>
+>Use Shape.Placement property instead. 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::SetPlacement(PlacementType value)
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Shape.Placement property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetPlacement() != PlacementType::FreeFloating)
-{
-    slicer.SetPlacement(PlacementType::FreeFloating);
-}
-```
 
 ## See Also
 

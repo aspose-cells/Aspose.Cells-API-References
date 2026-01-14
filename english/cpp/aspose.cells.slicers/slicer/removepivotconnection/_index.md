@@ -4,7 +4,7 @@ linktitle: RemovePivotConnection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::RemovePivotConnection method. Removes PivotTable connection in C++.'
 type: docs
-weight: 700
+weight: 1500
 url: /cpp/aspose.cells.slicers/slicer/removepivotconnection/
 ---
 ## Slicer::RemovePivotConnection method

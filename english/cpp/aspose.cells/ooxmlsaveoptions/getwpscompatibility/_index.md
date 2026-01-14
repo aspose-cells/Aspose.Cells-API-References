@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/ooxmlsaveoptions/getwpscompatibility/
 
 Indicates whether to make the xls more compatible with WPS.
 
+
+>Deprecated
+>
+>Use WorkbookSetting.WpsCompatibility property instead. 
 ```cpp
 bool Aspose::Cells::OoxmlSaveOptions::GetWpsCompatibility()
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

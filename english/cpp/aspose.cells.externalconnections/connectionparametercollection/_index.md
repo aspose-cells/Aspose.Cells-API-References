@@ -29,7 +29,6 @@ class ConnectionParameterCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConnectionParameterCollection\& src)](./operator_asm/) | operator= |
-| [Set(const ConnectionParameter\& value, int32_t index)](./set/) | Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [~ConnectionParameterCollection()](./~connectionparametercollection/) | Destructor. |
 ## Fields
 

@@ -4,7 +4,7 @@ linktitle: InitPivotItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::InitPivotItems method. Init the pivot items of the pivot field in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotfield/initpivotitems/
 ---
 ## PivotField::InitPivotItems method

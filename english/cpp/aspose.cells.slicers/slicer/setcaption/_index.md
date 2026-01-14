@@ -4,7 +4,7 @@ linktitle: SetCaption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetCaption method. Returns or sets the caption of the specified slicer in C++.'
 type: docs
-weight: 3100
+weight: 4000
 url: /cpp/aspose.cells.slicers/slicer/setcaption/
 ---
 ## Slicer::SetCaption(const U16String\&) method

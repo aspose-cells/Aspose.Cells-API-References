@@ -20,9 +20,9 @@ enum class FontSourceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FontFile | 0 | <br>represents single font file. |
-| FontsFolder | 1 | <br>represents folder with font files. |
-| MemoryFont | 2 | <br>represents single font in memory. |
+| FontFile | 0 | <br>represents a single font file. |
+| FontsFolder | 1 | <br>Represents a folder with font files. |
+| MemoryFont | 2 | <br>Represents a single font in memory. |
 
 ## See Also
 

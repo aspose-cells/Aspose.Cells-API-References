@@ -2,15 +2,15 @@
 title: Aspose::Cells::Slicers::Slicer::Refresh method
 linktitle: Refresh
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::Slicer::Refresh method. Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables in C++.'
+description: 'Aspose::Cells::Slicers::Slicer::Refresh method. Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on in C++.'
 type: docs
-weight: 2200
+weight: 3000
 url: /cpp/aspose.cells.slicers/slicer/refresh/
 ---
 ## Slicer::Refresh method
 
 
-Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables.
+Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::Refresh()

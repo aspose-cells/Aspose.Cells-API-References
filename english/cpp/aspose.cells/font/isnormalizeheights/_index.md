@@ -4,7 +4,7 @@ linktitle: IsNormalizeHeights
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::IsNormalizeHeights method. Indicates whether the normalization of height that is to be applied to the text run in C++.'
 type: docs
-weight: 3700
+weight: 3800
 url: /cpp/aspose.cells/font/isnormalizeheights/
 ---
 ## Font::IsNormalizeHeights method
@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/font/isnormalizeheights/
 
 Indicates whether the normalization of height that is to be applied to the text run.
 
+
+>Deprecated
+>
+>Use TextOptions.IsNormalizeHeights property instead. 
 ```cpp
 bool Aspose::Cells::Font::IsNormalizeHeights()
 ```
+
+## Remarks
+
+
+Only for the fonts of Shapes or [Charts](../../../aspose.cells.charts/). NOTE: This member is now obsolete. Instead, please use [TextOptions.IsNormalizeHeights](../../../aspose.cells.drawing.texts/textoptions/isnormalizeheights/) property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

@@ -2,16 +2,20 @@
 title: Aspose::Cells::Slicers::SlicerCacheCrossFilterType enum
 linktitle: SlicerCacheCrossFilterType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::SlicerCacheCrossFilterType enum. Represent the type of SlicerCacheCrossFilterType in C++.'
+description: 'Aspose::Cells::Slicers::SlicerCacheCrossFilterType enum. Represent the type how to show items with no data for slicer in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.slicers/slicercachecrossfiltertype/
 ---
 ## SlicerCacheCrossFilterType enum
 
 
-Represent the type of SlicerCacheCrossFilterType.
+Represent the type how to show items with no data for slicer.
 
+
+>Deprecated
+>
+>Use ItemsWithNoDataShowMode enum instead. 
 ```cpp
 enum class SlicerCacheCrossFilterType
 ```
@@ -20,9 +24,15 @@ enum class SlicerCacheCrossFilterType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | <br>The table style element of the slicer style for slicer items with no data is not applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view. |
-| ShowItemsWithDataAtTop | 1 | <br>The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are sorted at the bottom in the list of slicer items in the slicer view. |
-| ShowItemsWithNoData | 2 | <br>The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view. |
+| None | 0 | <br>Hide items with no data. |
+| ShowItemsWithDataAtTop | 1 | <br>Show items with data at top. |
+| ShowItemsWithNoData | 2 | <br>Show items with no data with natural order. |
+
+## Remarks
+
+
+NOTE: This enum is now obsolete. Instead, please use [ItemsWithNoDataShowMode](../itemswithnodatashowmode/) enum. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

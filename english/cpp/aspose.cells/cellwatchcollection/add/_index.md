@@ -2,7 +2,7 @@
 title: Aspose::Cells::CellWatchCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CellWatchCollection::Add method. Adds CellWatch with row and column in C++.'
+description: 'Aspose::Cells::CellWatchCollection::Add method. Adds Aspose.Cells.CellWatch with a row and a column in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells/cellwatchcollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cellwatchcollection/add/
 ## CellWatchCollection::Add(int32_t, int32_t) method
 
 
-Adds [CellWatch](../../cellwatch/) with row and column.
+Adds [Aspose.Cells.CellWatch](../../cellwatch/) with a row and a column.
 
 ```cpp
 int32_t Aspose::Cells::CellWatchCollection::Add(int32_t row, int32_t column)
@@ -35,7 +35,7 @@ Returns the position of this item in the collection.
 ## CellWatchCollection::Add(const U16String\&) method
 
 
-Adds [CellWatch](../../cellwatch/) with the name the of cell.
+Adds [Aspose.Cells.CellWatch](../../cellwatch/) with the name of the cell.
 
 ```cpp
 int32_t Aspose::Cells::CellWatchCollection::Add(const U16String &cellName)
@@ -60,7 +60,7 @@ int32_t Aspose::Cells::CellWatchCollection::Add(const U16String &cellName)
 ## CellWatchCollection::Add(const char16_t*) method
 
 
-Adds [CellWatch](../../cellwatch/) with the name the of cell.
+Adds [Aspose.Cells.CellWatch](../../cellwatch/) with the name of the cell.
 
 ```cpp
 int32_t Aspose::Cells::CellWatchCollection::Add(const char16_t *cellName)

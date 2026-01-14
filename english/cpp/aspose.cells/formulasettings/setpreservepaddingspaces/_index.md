@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::SetPreservePaddingSpaces method
 linktitle: SetPreservePaddingSpaces
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::SetPreservePaddingSpaces method. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false in C++.'
+description: 'Aspose::Cells::FormulaSettings::SetPreservePaddingSpaces method. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false in C++.'
 type: docs
 weight: 2700
 url: /cpp/aspose.cells/formulasettings/setpreservepaddingspaces/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/setpreservepaddingspaces/
 ## FormulaSettings::SetPreservePaddingSpaces method
 
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```cpp
 void Aspose::Cells::FormulaSettings::SetPreservePaddingSpaces(bool value)

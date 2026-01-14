@@ -4,7 +4,7 @@ linktitle: RangeCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RangeCollection class. Encapsulates a collection of Range objects in C++.'
 type: docs
-weight: 12600
+weight: 12700
 url: /cpp/aspose.cells/rangecollection/
 ---
 ## RangeCollection class
@@ -20,7 +20,8 @@ class RangeCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const Range\& range)](./add/) | Adds a [Range](../range/) item to the collection. |
+| [Add(const Range\& range)](./add/) |  **(Deprecated)** Adds a [Range](../range/) item to the collection. |
+| [AddRange(const Range\& range)](./addrange/) | Adds a [Range](../range/) item to the collection. |
 | [Get(int32_t index)](./get/) | Gets the [Range](../range/) element at the specified index. |
 | [GetCount()](./getcount/) |  |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

@@ -22,7 +22,7 @@ enum class DefaultEditLanguage
 | --- | --- | --- |
 | Auto | 0 | <br>Represents auto detecting edit language according to the text itself. |
 | English | 1 | <br>Represents English language. |
-| CJK | 2 | <br>Represents Chinese, Japanese, Korean language. |
+| CJK | 2 | <br>Represents Chinese, Japanese, and Korean languages. |
 
 ## See Also
 

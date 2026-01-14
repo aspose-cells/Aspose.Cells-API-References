@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::GetForceFullCalculation method
 linktitle: GetForceFullCalculation
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::GetForceFullCalculation method. Indicates whether calculates all formulas every time when a calculation is triggered in C++.'
+description: 'Aspose::Cells::FormulaSettings::GetForceFullCalculation method. Indicates whether it calculates all formulas every time when a calculation is triggered in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells/formulasettings/getforcefullcalculation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/getforcefullcalculation/
 ## FormulaSettings::GetForceFullCalculation method
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```cpp
 bool Aspose::Cells::FormulaSettings::GetForceFullCalculation()

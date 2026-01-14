@@ -4,7 +4,7 @@ linktitle: GetSlicerCache
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetSlicerCache method. Returns the SlicerCache object associated with the slicer. Read-only in C++.'
 type: docs
-weight: 2400
+weight: 3200
 url: /cpp/aspose.cells.slicers/slicer/getslicercache/
 ---
 ## Slicer::GetSlicerCache method

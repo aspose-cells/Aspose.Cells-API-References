@@ -2,15 +2,15 @@
 title: Aspose::Cells::AbstractCalculationEngine::IsParamLiteralRequired method
 linktitle: IsParamLiteralRequired
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AbstractCalculationEngine::IsParamLiteralRequired method. Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false in C++.'
+description: 'Aspose::Cells::AbstractCalculationEngine::IsParamLiteralRequired method. Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells/abstractcalculationengine/isparamliteralrequired/
 ---
 ## AbstractCalculationEngine::IsParamLiteralRequired method
 
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false.
 
 ```cpp
 virtual bool Aspose::Cells::AbstractCalculationEngine::IsParamLiteralRequired()

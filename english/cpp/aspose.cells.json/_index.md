@@ -14,4 +14,4 @@ url: /cpp/aspose.cells.json/
 
 | Enum | Description |
 | --- | --- |
-| [JsonExportHyperlinkType](./jsonexporthyperlinktype/) | Represents type of exporting hyperlinks to json. |
+| [JsonExportHyperlinkType](./jsonexporthyperlinktype/) | Represents type how to export hyperlinks to json. |

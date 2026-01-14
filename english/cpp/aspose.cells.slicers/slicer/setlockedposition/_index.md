@@ -4,7 +4,7 @@ linktitle: SetLockedPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetLockedPosition method. Indicates whether the specified slicer can be moved or resized by using the user interface in C++.'
 type: docs
-weight: 2100
+weight: 2900
 url: /cpp/aspose.cells.slicers/slicer/setlockedposition/
 ---
 ## Slicer::SetLockedPosition method

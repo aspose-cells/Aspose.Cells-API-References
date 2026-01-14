@@ -37,7 +37,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetClearData()](../../aspose.cells/saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../../aspose.cells/saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCssStyles()](../../aspose.cells/htmlsaveoptions/getcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
-| [GetDataBarRenderMode()](../../aspose.cells/htmlsaveoptions/getdatabarrendermode/) | Indicates whether to display the [DataBar](../../aspose.cells/databar/) as an image when saving to HTML.. Default value is [. ](../) |
+| [GetDataBarRenderMode()](../../aspose.cells/htmlsaveoptions/getdatabarrendermode/) | Represents the mode of how to render [DataBar](../../aspose.cells/databar/) when converting Excel files to html files. Default value is DataBarRenderMode.BackgroundColor. |
 | [GetDefaultFontName()](../../aspose.cells/htmlsaveoptions/getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../../aspose.cells/) will use universal font which have the same family with the original font, the default value is null. |
 | [GetDisableCss()](../../aspose.cells/htmlsaveoptions/getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [GetDisableDownlevelRevealedComments()](../../aspose.cells/htmlsaveoptions/getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -60,7 +60,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetExportGridLines()](../../aspose.cells/htmlsaveoptions/getexportgridlines/) | Indicating whether exporting the gridlines.The default value is false. |
 | [GetExportHiddenWorksheet()](../../aspose.cells/htmlsaveoptions/getexporthiddenworksheet/) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [GetExportImagesAsBase64()](../../aspose.cells/htmlsaveoptions/getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
-| [GetExportNamedRangeAnchors()](../../aspose.cells/htmlsaveoptions/getexportnamedrangeanchors/) | Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true. |
+| [GetExportNamedRangeAnchors()](../../aspose.cells/htmlsaveoptions/getexportnamedrangeanchors/) | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
 | [GetExportPageFooters()](../../aspose.cells/htmlsaveoptions/getexportpagefooters/) | Indicates whether exporting page headers. |
 | [GetExportPageHeaders()](../../aspose.cells/htmlsaveoptions/getexportpageheaders/) | Indicates whether exporting page headers. |
 | [GetExportPrintAreaOnly()](../../aspose.cells/htmlsaveoptions/getexportprintareaonly/) | Indicates if only exporting the print area to html file. The default value is false. |
@@ -139,7 +139,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetCreateDirectory(bool value)](../../aspose.cells/saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCssStyles(const U16String\& value)](../../aspose.cells/htmlsaveoptions/setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [SetCssStyles(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
-| [SetDataBarRenderMode(DataBarRenderMode value)](../../aspose.cells/htmlsaveoptions/setdatabarrendermode/) | Indicates whether to display the [DataBar](../../aspose.cells/databar/) as an image when saving to HTML.. Default value is [. ](../) |
+| [SetDataBarRenderMode(DataBarRenderMode value)](../../aspose.cells/htmlsaveoptions/setdatabarrendermode/) | Represents the mode of how to render [DataBar](../../aspose.cells/databar/) when converting Excel files to html files. Default value is DataBarRenderMode.BackgroundColor. |
 | [SetDefaultFontName(const U16String\& value)](../../aspose.cells/htmlsaveoptions/setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../../aspose.cells/) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDefaultFontName(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../../aspose.cells/) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDisableCss(bool value)](../../aspose.cells/htmlsaveoptions/setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
@@ -163,7 +163,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetExportGridLines(bool value)](../../aspose.cells/htmlsaveoptions/setexportgridlines/) | Indicating whether exporting the gridlines.The default value is false. |
 | [SetExportHiddenWorksheet(bool value)](../../aspose.cells/htmlsaveoptions/setexporthiddenworksheet/) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [SetExportImagesAsBase64(bool value)](../../aspose.cells/htmlsaveoptions/setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
-| [SetExportNamedRangeAnchors(bool value)](../../aspose.cells/htmlsaveoptions/setexportnamedrangeanchors/) | Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true. |
+| [SetExportNamedRangeAnchors(bool value)](../../aspose.cells/htmlsaveoptions/setexportnamedrangeanchors/) | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
 | [SetExportPageFooters(bool value)](../../aspose.cells/htmlsaveoptions/setexportpagefooters/) | Indicates whether exporting page headers. |
 | [SetExportPageHeaders(bool value)](../../aspose.cells/htmlsaveoptions/setexportpageheaders/) | Indicates whether exporting page headers. |
 | [SetExportPrintAreaOnly(bool value)](../../aspose.cells/htmlsaveoptions/setexportprintareaonly/) | Indicates if only exporting the print area to html file. The default value is false. |

@@ -20,7 +20,7 @@ enum class ReserveMissingPivotItemType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | <br>Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items. |
+| Default | 0 | <br>Removes old missing pivot items and reserves deleted items of new data source as missing items. |
 | All | 1 | <br>Reserves all missing items. |
 | None | 2 | <br>Removes all missing pivot items. |
 

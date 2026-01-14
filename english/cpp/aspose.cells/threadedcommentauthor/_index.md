@@ -2,15 +2,15 @@
 title: Aspose::Cells::ThreadedCommentAuthor class
 linktitle: ThreadedCommentAuthor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::ThreadedCommentAuthor class. Represents the person who creates the threaded comments; in C++.'
+description: 'Aspose::Cells::ThreadedCommentAuthor class. Represents the person who creates the threaded comments in C++.'
 type: docs
-weight: 14700
+weight: 14800
 url: /cpp/aspose.cells/threadedcommentauthor/
 ---
 ## ThreadedCommentAuthor class
 
 
-Represents the person who creates the threaded comments;.
+Represents the person who creates the threaded comments.
 
 ```cpp
 class ThreadedCommentAuthor

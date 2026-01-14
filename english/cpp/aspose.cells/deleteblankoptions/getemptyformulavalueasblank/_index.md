@@ -2,7 +2,7 @@
 title: Aspose::Cells::DeleteBlankOptions::GetEmptyFormulaValueAsBlank method
 linktitle: GetEmptyFormulaValueAsBlank
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::DeleteBlankOptions::GetEmptyFormulaValueAsBlank method. Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false in C++.'
+description: 'Aspose::Cells::DeleteBlankOptions::GetEmptyFormulaValueAsBlank method. Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells/deleteblankoptions/getemptyformulavalueasblank/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/deleteblankoptions/getemptyformulavalueasblank/
 ## DeleteBlankOptions::GetEmptyFormulaValueAsBlank method
 
 
-Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false.
+Whether one cell will be taken as blank when it is a formula and the calculated result is null or empty string. Default value is false.
 
 ```cpp
 bool Aspose::Cells::DeleteBlankOptions::GetEmptyFormulaValueAsBlank()

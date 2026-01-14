@@ -2,30 +2,29 @@
 title: Aspose::Cells::Slicers::Slicer::GetCaptionVisible method
 linktitle: GetCaptionVisible
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::Slicer::GetCaptionVisible method. Returns or sets whether the header that displays the slicer Caption is visible the default value is true in C++.'
+description: 'Aspose::Cells::Slicers::Slicer::GetCaptionVisible method. Returns or sets whether the header that displays the slicer Caption is visible. The default value is true in C++.'
 type: docs
-weight: 3200
+weight: 4300
 url: /cpp/aspose.cells.slicers/slicer/getcaptionvisible/
 ---
 ## Slicer::GetCaptionVisible method
 
 
-Returns or sets whether the header that displays the slicer Caption is visible the default value is true.
+Returns or sets whether the header that displays the slicer Caption is visible. The default value is true.
 
+
+>Deprecated
+>
+>Use Slicer.ShowCaption property instead. 
 ```cpp
 bool Aspose::Cells::Slicers::Slicer::GetCaptionVisible()
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use Slicer.ShowCaption property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.GetCaptionVisible() == false)
-{
-    slicer.SetCaptionVisible(true);
-}
-```
 
 ## See Also
 

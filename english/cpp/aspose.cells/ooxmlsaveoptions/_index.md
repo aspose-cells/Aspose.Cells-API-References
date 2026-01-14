@@ -40,7 +40,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetUpdateZoom()](./getupdatezoom/) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
-| [GetWpsCompatibility()](./getwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. |
+| [GetWpsCompatibility()](./getwpscompatibility/) |  **(Deprecated)** Indicates whether to make the xls more compatible with WPS. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [OoxmlSaveOptions()](./ooxmlsaveoptions/) | Creates the options for saving office open xml file. |
 | explicit [OoxmlSaveOptions(SaveFormat saveFormat)](./ooxmlsaveoptions/) | Creates the options for saving office open xml file. |
@@ -72,7 +72,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetUpdateZoom(bool value)](./setupdatezoom/) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |
-| [SetWpsCompatibility(bool value)](./setwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. |
+| [SetWpsCompatibility(bool value)](./setwpscompatibility/) |  **(Deprecated)** Indicates whether to make the xls more compatible with WPS. |
 | [~OoxmlSaveOptions()](./~ooxmlsaveoptions/) | Destructor. |
 | [~SaveOptions()](../saveoptions/~saveoptions/) | Destructor. |
 ## Fields

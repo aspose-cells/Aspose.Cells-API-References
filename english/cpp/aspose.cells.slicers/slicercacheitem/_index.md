@@ -21,7 +21,7 @@ class SlicerCacheItem
 | Method | Description |
 | --- | --- |
 | [GetSelected()](./getselected/) | Specifies whether the SlicerItem is selected or not. |
-| [GetValue()](./getvalue/) | Returns the label text for the slicer item. Read-only. |
+| [GetValue()](./getvalue/) | Returns the label text for the slicer item. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SlicerCacheItem\& src)](./operator_asm/) | operator= |

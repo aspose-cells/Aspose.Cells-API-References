@@ -2,15 +2,15 @@
 title: Aspose::Cells::Timelines::Timeline::GetCaption method
 linktitle: GetCaption
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Timelines::Timeline::GetCaption method. Returns or sets the caption of the specified Timeline in C++.'
+description: 'Aspose::Cells::Timelines::Timeline::GetCaption method. Gets or sets the caption of this Timeline in C++.'
 type: docs
-weight: 600
+weight: 2000
 url: /cpp/aspose.cells.timelines/timeline/getcaption/
 ---
 ## Timeline::GetCaption method
 
 
-Returns or sets the caption of the specified [Timeline](../).
+Gets or sets the caption of this [Timeline](../).
 
 ```cpp
 U16String Aspose::Cells::Timelines::Timeline::GetCaption()

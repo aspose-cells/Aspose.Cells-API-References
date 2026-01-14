@@ -38,6 +38,10 @@ Returns the index of new object in the list.
 
 Adds [ConditionalFormattingIcon](../../conditionalformattingicon/) object.
 
+
+>Deprecated
+>
+>Use ConditionalFormattingIconCollection.Add(IconSetType, int) method instead. 
 ```cpp
 int32_t Aspose::Cells::ConditionalFormattingIconCollection::Add(const ConditionalFormattingIcon &cficon)
 ```
@@ -46,6 +50,12 @@ int32_t Aspose::Cells::ConditionalFormattingIconCollection::Add(const Conditiona
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cficon | const ConditionalFormattingIcon\& | Returns the index of new object in the list. |
+## Remarks
+
+
+
+NOTE: This member is now obsolete. Instead, please use [Add(IconSetType, int)](./) method. This method will be removed 6 months later since December 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

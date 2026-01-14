@@ -30,7 +30,6 @@ class ExternalConnectionCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ExternalConnectionCollection\& src)](./operator_asm/) | operator= |
-| [Set(const ExternalConnection\& value, int32_t index)](./set/) | Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
 | [~ExternalConnectionCollection()](./~externalconnectioncollection/) | Destructor. |
 ## Fields
 

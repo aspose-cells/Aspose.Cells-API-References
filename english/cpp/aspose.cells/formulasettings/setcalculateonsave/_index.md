@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::SetCalculateOnSave method
 linktitle: SetCalculateOnSave
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::SetCalculateOnSave method. Indicates whether recalculate the workbook before saving the document, when in manual calculation mode in C++.'
+description: 'Aspose::Cells::FormulaSettings::SetCalculateOnSave method. Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells/formulasettings/setcalculateonsave/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/setcalculateonsave/
 ## FormulaSettings::SetCalculateOnSave method
 
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```cpp
 void Aspose::Cells::FormulaSettings::SetCalculateOnSave(bool value)

@@ -20,9 +20,9 @@ class CellWatchCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t row, int32_t column)](./add/) | Adds [CellWatch](../cellwatch/) with row and column. |
-| [Add(const U16String\& cellName)](./add/) | Adds [CellWatch](../cellwatch/) with the name the of cell. |
-| [Add(const char16_t* cellName)](./add/) | Adds [CellWatch](../cellwatch/) with the name the of cell. |
+| [Add(int32_t row, int32_t column)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with a row and a column. |
+| [Add(const U16String\& cellName)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with the name of the cell. |
+| [Add(const char16_t* cellName)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with the name of the cell. |
 | [CellWatchCollection()](./cellwatchcollection/) | Default constructor. |
 | [CellWatchCollection(CellWatchCollection_Impl* impl)](./cellwatchcollection/) | Constructs from an implementation object. |
 | [CellWatchCollection(const CellWatchCollection\& src)](./cellwatchcollection/) | Copy constructor. |

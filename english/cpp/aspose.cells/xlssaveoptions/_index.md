@@ -4,7 +4,7 @@ linktitle: XlsSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XlsSaveOptions class. Represents the save options for the Excel 97-2003 file format: xls and xlt in C++.'
 type: docs
-weight: 16900
+weight: 17000
 url: /cpp/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class
@@ -35,7 +35,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetUpdateSmartArt()](../saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
-| [GetWpsCompatibility()](./getwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. |
+| [GetWpsCompatibility()](./getwpscompatibility/) |  **(Deprecated)** Indicates whether to make the xls more compatible with WPS. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const XlsSaveOptions\& src)](./operator_asm/) | operator= |
@@ -57,7 +57,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |
-| [SetWpsCompatibility(bool value)](./setwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. |
+| [SetWpsCompatibility(bool value)](./setwpscompatibility/) |  **(Deprecated)** Indicates whether to make the xls more compatible with WPS. |
 | [XlsSaveOptions()](./xlssaveoptions/) | Creates options for saving Excel 97-2003 xls file. |
 | explicit [XlsSaveOptions(SaveFormat saveFormat)](./xlssaveoptions/) | Creates options for saving Excel 97-2003 xls/xlt file. |
 | [XlsSaveOptions(XlsSaveOptions_Impl* impl)](./xlssaveoptions/) | Constructs from an implementation object. |
