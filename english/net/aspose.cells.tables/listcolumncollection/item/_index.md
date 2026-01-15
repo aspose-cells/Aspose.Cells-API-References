@@ -84,47 +84,6 @@ public ListColumn this[string name] { get; }
 
 The ListColumn object.
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Tables;
-    using System;
-
-    public class ListColumnCollectionPropertyItemDemo2
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            worksheet.Cells["A1"].Value = "Product";
-            worksheet.Cells["B1"].Value = "Price";
-            worksheet.Cells["A2"].Value = "Apple";
-            worksheet.Cells["B2"].Value = 2.5;
-            worksheet.Cells["A3"].Value = "Banana";
-            worksheet.Cells["B3"].Value = 1.8;
-
-            int tableIndex = worksheet.ListObjects.Add("A1", "B3", true); // Split range into start/end cells
-            ListObject table = worksheet.ListObjects[tableIndex];
-            table.ShowHeaderRow = true;
-
-            ListColumnCollection listColumns = table.ListColumns;
-
-            ListColumn column = listColumns["Product"];
-            Console.WriteLine("Current column name: " + column.Name);
-
-            column.Name = "Item";
-            Console.WriteLine("Updated column name: " + column.Name);
-
-            workbook.Save("ListColumnCollectionPropertyItemDemo.xlsx");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [ListColumn](../../listcolumn/)

@@ -1,13 +1,13 @@
 ---
 title: CellsDataTableFactory.GetInstance
 second_title: Aspose.Cells for .NET API Reference
-description: CellsDataTableFactory method. Creates ICellsDataTable from given sequence of int values
+description: CellsDataTableFactory method. Creates ICellsDataTable from given sequence of integer values
 type: docs
 url: /net/aspose.cells/cellsdatatablefactory/getinstance/
 ---
 ## GetInstance(int[], string[]) {#getinstance_5}
 
-Creates ICellsDataTable from given sequence of int values.
+Creates ICellsDataTable from given sequence of integer values.
 
 ```csharp
 public ICellsDataTable GetInstance(int[] vals, string[] columnNames)
@@ -87,7 +87,7 @@ namespace AsposeCellsExamples
 
 ## GetInstance(int[], bool) {#getinstance_4}
 
-Creates ICellsDataTable from given sequence of int values.
+Creates ICellsDataTable from given sequence of integer values.
 
 ```csharp
 public ICellsDataTable GetInstance(int[] vals, bool vertial)
@@ -411,7 +411,7 @@ namespace AsposeCellsExamples
 
 ## GetInstance(object[][], bool, string[]) {#getinstance_11}
 
-Creates ICellsDataTable from given sequence of objects.
+Creates an ICellsDataTable from a given sequence of objects.
 
 ```csharp
 public ICellsDataTable GetInstance(object[][] vals, bool hasHeader, string[] columnNames)

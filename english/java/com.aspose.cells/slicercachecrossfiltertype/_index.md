@@ -1,7 +1,7 @@
 ---
 title: SlicerCacheCrossFilterType
 second_title: Aspose.Cells for Java API Reference
-description: Represent the type of SlicerCacheCrossFilterType
+description: Represent the type how to show items with no data for slicer.
 type: docs
 url: /java/com.aspose.cells/slicercachecrossfiltertype/
 ---
@@ -12,14 +12,18 @@ java.lang.Object
 public final class SlicerCacheCrossFilterType
 ```
 
-Represent the type of SlicerCacheCrossFilterType
+Represent the type how to show items with no data for slicer.
+
+**Remarks**
+
+NOTE: This enum is now obsolete. Instead, please use [ItemsWithNoDataShowMode](../../com.aspose.cells/itemswithnodatashowmode) enum. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | The table style element of the slicer style for slicer items with no data is not applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view |
-| [SHOW_ITEMS_WITH_DATA_AT_TOP](#SHOW-ITEMS-WITH-DATA-AT-TOP) | The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are sorted at the bottom in the list of slicer items in the slicer view |
-| [SHOW_ITEMS_WITH_NO_DATA](#SHOW-ITEMS-WITH-NO-DATA) | The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view. |
+| [NONE](#NONE) | Hide items with no data. |
+| [SHOW_ITEMS_WITH_DATA_AT_TOP](#SHOW-ITEMS-WITH-DATA-AT-TOP) | Show items with data at top. |
+| [SHOW_ITEMS_WITH_NO_DATA](#SHOW-ITEMS-WITH-NO-DATA) | Show items with no data with natural order. |
 ## Methods
 
 | Method | Description |
@@ -39,7 +43,7 @@ public static final int NONE
 ```
 
 
-The table style element of the slicer style for slicer items with no data is not applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view
+Hide items with no data.
 
 ### SHOW_ITEMS_WITH_DATA_AT_TOP {#SHOW-ITEMS-WITH-DATA-AT-TOP}
 ```
@@ -47,7 +51,7 @@ public static final int SHOW_ITEMS_WITH_DATA_AT_TOP
 ```
 
 
-The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are sorted at the bottom in the list of slicer items in the slicer view
+Show items with data at top.
 
 ### SHOW_ITEMS_WITH_NO_DATA {#SHOW-ITEMS-WITH-NO-DATA}
 ```
@@ -55,7 +59,7 @@ public static final int SHOW_ITEMS_WITH_NO_DATA
 ```
 
 
-The table style element of the slicer style for slicer items with no data is applied to slicer items with no data, and slicer items with no data are not sorted separately in the list of slicer items in the slicer view.
+Show items with no data with natural order.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

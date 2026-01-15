@@ -30,6 +30,58 @@ public class MsoFillFormatHelper
 | --- | --- |
 | [SetOneColorGradient](../../aspose.cells.drawing/msofillformathelper/setonecolorgradient/)(Color, double, GradientStyleType, int) | Sets the specified fill to a one-color gradient. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
+    using System.Reflection;
+
+    public class DrawingClassMsoFillFormatHelperDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "MsoFillFormatHelper Demo";
+
+            try
+            {
+                // Create an instance of MsoFillFormatHelper using reflection
+                MsoFillFormatHelper fillHelper = (MsoFillFormatHelper)Activator.CreateInstance(
+                    typeof(MsoFillFormatHelper), nonPublic: true);
+
+                // Set basic properties
+                fillHelper.ForeColor = Color.FromArgb(255, 100, 150, 200);
+                fillHelper.ForeColorTransparency = 0.3;
+                fillHelper.BackColor = Color.LightGray;
+                fillHelper.IsVisible = true;
+
+                // Display property values
+                Console.WriteLine($"ForeColor: {fillHelper.ForeColor}");
+                Console.WriteLine($"ForeColorTransparency: {fillHelper.ForeColorTransparency}");
+                Console.WriteLine($"BackColor: {fillHelper.BackColor}");
+                Console.WriteLine($"IsVisible: {fillHelper.IsVisible}");
+                Console.WriteLine($"Texture (read-only): {fillHelper.Texture}");
+
+                // Save the workbook
+                workbook.Save("MsoFillFormatHelperDemo.xlsx");
+                Console.WriteLine("MsoFillFormatHelper demo completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in MsoFillFormatHelper demo: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

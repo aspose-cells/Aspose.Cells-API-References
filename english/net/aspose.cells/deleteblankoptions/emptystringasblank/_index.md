@@ -1,13 +1,13 @@
 ---
 title: DeleteBlankOptions.EmptyStringAsBlank
 second_title: Aspose.Cells for .NET API Reference
-description: DeleteBlankOptions property. Whether one cell will be taken as blank when its value is empty string. Default value is true
+description: DeleteBlankOptions property. Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true
 type: docs
 url: /net/aspose.cells/deleteblankoptions/emptystringasblank/
 ---
 ## DeleteBlankOptions.EmptyStringAsBlank property
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+Indicates whether one cell will be taken as blank when its value is an empty string. Default value is true.
 
 ```csharp
 public bool EmptyStringAsBlank { get; set; }

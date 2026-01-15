@@ -4,7 +4,7 @@ linktitle: AddPivotConnection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::AddPivotConnection method. Adds PivotTable connection in C++.'
 type: docs
-weight: 600
+weight: 1400
 url: /cpp/aspose.cells.slicers/slicer/addpivotconnection/
 ---
 ## Slicer::AddPivotConnection method

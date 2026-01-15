@@ -24,7 +24,7 @@ class Font
 | [Font(Font_Impl* impl)](./font/) | Constructs from an implementation object. |
 | [Font(const Aspose::Cells::Font\& src)](./font/) | Copy constructor. |
 | [GetArgbColor()](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [GetCapsType()](./getcapstype/) | Gets and sets the text caps type. |
+| [GetCapsType()](./getcapstype/) |  **(Deprecated)** Gets and sets the text caps type. |
 | [GetCharset()](./getcharset/) | Represent the character set. |
 | [GetColor()](./getcolor/) | Gets or sets the [Color](../color/) of the font. |
 | [GetDoubleSize()](./getdoublesize/) | Gets and sets the double size of the font. |
@@ -37,7 +37,7 @@ class Font
 | [GetUnderline()](./getunderline/) | Gets or sets the font underline type. |
 | [IsBold()](./isbold/) | Gets or sets a value indicating whether the font is bold. |
 | [IsItalic()](./isitalic/) | Gets or sets a value indicating whether the font is italic. |
-| [IsNormalizeHeights()](./isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
+| [IsNormalizeHeights()](./isnormalizeheights/) |  **(Deprecated)** Indicates whether the normalization of height that is to be applied to the text run. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsStrikeout()](./isstrikeout/) | Gets or sets a value indicating whether the font is single strikeout. |
 | [IsSubscript()](./issubscript/) | Gets or sets a value indicating whether the font is subscript. |
@@ -45,16 +45,18 @@ class Font
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Aspose::Cells::Font\& src)](./operator_asm/) | operator= |
 | [SetArgbColor(int32_t value)](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [SetCapsType(TextCapsType value)](./setcapstype/) | Gets and sets the text caps type. |
+| [SetCapsType(TextCapsType value)](./setcapstype/) |  **(Deprecated)** Gets and sets the text caps type. |
 | [SetCharset(int32_t value)](./setcharset/) | Represent the character set. |
 | [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Gets or sets the [Color](../color/) of the font. |
 | [SetDoubleSize(double value)](./setdoublesize/) | Gets and sets the double size of the font. |
 | [SetIsBold(bool value)](./setisbold/) | Gets or sets a value indicating whether the font is bold. |
 | [SetIsItalic(bool value)](./setisitalic/) | Gets or sets a value indicating whether the font is italic. |
-| [SetIsNormalizeHeights(bool value)](./setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
+| [SetIsNormalizeHeights(bool value)](./setisnormalizeheights/) |  **(Deprecated)** Indicates whether the normalization of height that is to be applied to the text run. |
 | [SetIsStrikeout(bool value)](./setisstrikeout/) | Gets or sets a value indicating whether the font is single strikeout. |
 | [SetIsSubscript(bool value)](./setissubscript/) | Gets or sets a value indicating whether the font is subscript. |
 | [SetIsSuperscript(bool value)](./setissuperscript/) | Gets or sets a value indicating whether the font is super script. |
+| [SetName(const U16String\& name, FontSchemeType type)](./setname/) | Sets name and scheme of the font. |
+| [SetName(const char16_t* name, FontSchemeType type)](./setname/) | Sets name and scheme of the font. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the [Font](./). |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the [Font](./). |
 | [SetSchemeType(FontSchemeType value)](./setschemetype/) | Gets and sets the scheme type of the font. |

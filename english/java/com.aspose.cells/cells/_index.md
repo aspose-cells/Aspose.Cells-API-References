@@ -2631,7 +2631,7 @@ Insert cut range.
 | cutRange | [Range](../../com.aspose.cells/range) | The cut range. |
 | row | int | The row. |
 | column | int | The column. |
-| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). The shift type . |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Indicates how to shift other objects of the target range when inserting cut range. |
 
 ### insertRange(CellArea area, int shiftType) {#insertRange-com.aspose.cells.CellArea-int-}
 ```

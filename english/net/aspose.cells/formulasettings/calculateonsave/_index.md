@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.CalculateOnSave
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Indicates whether recalculate the workbook before saving the document when in manual calculation mode
+description: FormulaSettings property. Indicates whether to recalculate the workbook before saving the document when in manual calculation mode
 type: docs
 url: /net/aspose.cells/formulasettings/calculateonsave/
 ---
 ## FormulaSettings.CalculateOnSave property
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```csharp
 public bool CalculateOnSave { get; set; }

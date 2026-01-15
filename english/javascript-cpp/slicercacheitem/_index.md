@@ -20,7 +20,7 @@ class SlicerCacheItem;
 | Property | Type | Description |
 | --- | --- | --- |
 | [selected](#selected--)| boolean | Specifies whether the SlicerItem is selected or not. |
-| [value](#value--)| string | Readonly. Returns the label text for the slicer item. Read-only. |
+| [value](#value--)| string | Readonly. Returns the label text for the slicer item. |
 
 
 ### selected {#selected--}
@@ -34,7 +34,7 @@ selected : boolean;
 
 ### value {#value--}
 
-Readonly. Returns the label text for the slicer item. Read-only.
+Readonly. Returns the label text for the slicer item.
 
 ```javascript
 value : string;

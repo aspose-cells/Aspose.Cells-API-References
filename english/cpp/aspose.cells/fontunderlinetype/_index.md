@@ -39,7 +39,7 @@ enum class FontUnderlineType
 | Wave | 16 | <br>Represents Wave Underline. |
 | WavyDouble | 17 | <br>Represents Double Wave Underline. |
 | WavyHeavy | 18 | <br>Represents Heavy Wave Underline. |
-| Words | 19 | <br>Represents Underline Non-Space Characters Only. |
+| Words | 19 | <br>Represents Underline Non-Space Characters. |
 
 ## See Also
 

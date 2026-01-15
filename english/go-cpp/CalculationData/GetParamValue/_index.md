@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getparamvalue/
 
 ## GetParamValue function
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/slicer/setnumberofcolumns/
 
 ## SetNumberOfColumns function
 
-Returns or sets the number of columns in the specified slicer.
+Returns or sets the number of columns in the specified slicer.The default value is 1.
 
 ```go
 

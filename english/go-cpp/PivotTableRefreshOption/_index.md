@@ -32,3 +32,5 @@ type PivotTableRefreshOption struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetReserveMissingPivotItemType](./getreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. | 
 |[SetReserveMissingPivotItemType](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. | 
+|[IsKeepOriginalOrder](./iskeeporiginalorder/) | Indicates whether to keep pivot items' original order as old data source. | 
+|[SetIsKeepOriginalOrder](./setiskeeporiginalorder/) | Indicates whether to keep pivot items' original order as old data source. | 

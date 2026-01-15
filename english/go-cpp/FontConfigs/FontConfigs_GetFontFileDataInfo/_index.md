@@ -10,7 +10,7 @@ url: /go-cpp/fontconfigs/fontconfigs_getfontfiledatainfo/
 
 ## FontConfigs_GetFontFileDataInfo function
 
-Get data infomation of font file data.
+Get data information of font file data.
 
 ```go
 

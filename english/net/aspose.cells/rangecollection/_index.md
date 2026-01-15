@@ -26,7 +26,8 @@ public class RangeCollection : CollectionBase<Range>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/rangecollection/add/)(Range) | Adds a [`Range`](../range/) item to the collection. |
+| [Add](../../aspose.cells/rangecollection/add/)(Range) | (**Obsolete.**) Adds a [`Range`](../range/) item to the collection. |
+| [AddRange](../../aspose.cells/rangecollection/addrange/)(Range) | Adds a [`Range`](../range/) item to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Range) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Range, IComparer&lt;Range&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Range, IComparer&lt;Range&gt;) |  |

@@ -50,6 +50,53 @@ public class DBConnection : ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionsClassDBConnectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a new DBConnection instance by adding it to the collection
+                var connections = workbook.DataConnections;
+                DBConnection dbConnection = (DBConnection)connections[connections.Count];
+
+                // Set basic properties
+                dbConnection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\data\\database.mdb;";
+                dbConnection.CommandType = OLEDBCommandType.TableName;
+                dbConnection.Command = "Customers";
+
+                // Display read-only properties
+                Console.WriteLine("DBConnection ClassType: " + dbConnection.ClassType);
+                Console.WriteLine("ConnectionString: " + dbConnection.ConnectionString);
+                Console.WriteLine("CommandType: " + dbConnection.CommandType);
+                Console.WriteLine("Command: " + dbConnection.Command);
+
+                // Save the workbook
+                workbook.Save("DBConnectionDemo.xlsx");
+                Console.WriteLine("DBConnection demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with DBConnection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

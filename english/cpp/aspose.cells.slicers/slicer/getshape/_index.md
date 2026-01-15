@@ -4,7 +4,7 @@ linktitle: GetShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetShape method. Returns the Shape object associated with the specified slicer. Read-only in C++.'
 type: docs
-weight: 2300
+weight: 3100
 url: /cpp/aspose.cells.slicers/slicer/getshape/
 ---
 ## Slicer::GetShape method

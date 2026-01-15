@@ -26,7 +26,7 @@ public class ThreadedCommentCollection : CollectionBase<ThreadedComment>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/threadedcommentcollection/add/)(string, ThreadedCommentAuthor) | Adds a threaded comment; |
+| [Add](../../aspose.cells/threadedcommentcollection/add/)(string, ThreadedCommentAuthor) | Adds a threaded comment. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ThreadedComment) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ThreadedComment, IComparer&lt;ThreadedComment&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, ThreadedComment, IComparer&lt;ThreadedComment&gt;) |  |

@@ -44,8 +44,6 @@ type OoxmlSaveOptions struct  {
 |[SetEmbedOoxmlAsOleObject](./setembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. | 
 |[GetCompressionType](./getcompressiontype/) | Gets and sets the compression type for ooxml file. | 
 |[SetCompressionType](./setcompressiontype/) | Gets and sets the compression type for ooxml file. | 
-|[GetWpsCompatibility](./getwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
-|[SetWpsCompatibility](./setwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

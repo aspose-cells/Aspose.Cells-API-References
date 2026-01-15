@@ -1,13 +1,13 @@
 ﻿---
 title: MergeEmptyTdType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the merge type for empty TD element when exporting file to html.
+description: Represents the merge type for an empty TD element when exporting a file to HTML.
 type: docs
 url: /nodejs-cpp/mergeemptytdtype/
 ---
 
 ## MergeEmptyTdType enumeration
-Represents the merge type for empty TD element when exporting file to html.
+Represents the merge type for an empty TD element when exporting a file to HTML.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

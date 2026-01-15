@@ -1,13 +1,13 @@
 ---
 title: FontConfigs.SetFontSources
 second_title: Aspose.Cells for .NET API Reference
-description: FontConfigs method. Sets the fonts sources
+description: FontConfigs method. Sets the font sources
 type: docs
 url: /net/aspose.cells/fontconfigs/setfontsources/
 ---
 ## FontConfigs.SetFontSources method
 
-Sets the fonts sources.
+Sets the font sources.
 
 ```csharp
 public static void SetFontSources(FontSourceBase[] sources)

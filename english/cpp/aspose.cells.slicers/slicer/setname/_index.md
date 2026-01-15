@@ -4,7 +4,7 @@ linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetName method. Returns or sets the name of the specified slicer in C++.'
 type: docs
-weight: 2900
+weight: 3800
 url: /cpp/aspose.cells.slicers/slicer/setname/
 ---
 ## Slicer::SetName(const U16String\&) method

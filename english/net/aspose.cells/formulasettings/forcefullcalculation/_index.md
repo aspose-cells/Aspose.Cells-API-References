@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.ForceFullCalculation
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Indicates whether calculates all formulas every time when a calculation is triggered
+description: FormulaSettings property. Indicates whether it calculates all formulas every time when a calculation is triggered
 type: docs
 url: /net/aspose.cells/formulasettings/forcefullcalculation/
 ---
 ## FormulaSettings.ForceFullCalculation property
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```csharp
 public bool ForceFullCalculation { get; set; }

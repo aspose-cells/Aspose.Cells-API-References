@@ -42,4 +42,4 @@ type FontUnderlineType int32
 |[Wave](./wave/) | Represents Wave Underline | 
 |[WavyDouble](./wavydouble/) | Represents Double Wave Underline | 
 |[WavyHeavy](./wavyheavy/) | Represents Heavy Wave Underline | 
-|[Words](./words/) | Represents Underline Non-Space Characters Only | 
+|[Words](./words/) | Represents Underline Non-Space Characters. | 

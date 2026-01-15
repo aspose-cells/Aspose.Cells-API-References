@@ -10,7 +10,7 @@ url: /go-cpp/individualfontconfigs/setfontsubstitutes/
 
 ## SetFontSubstitutes function
 
-Font substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 ```go
 

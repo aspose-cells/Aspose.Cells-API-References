@@ -1,13 +1,13 @@
 ---
 title: Timeline.Caption
 second_title: Aspose.Cells for .NET API Reference
-description: Timeline property. Returns or sets the caption of the specified Timeline
+description: Timeline property. Gets or sets the caption of this Timeline
 type: docs
 url: /net/aspose.cells.timelines/timeline/caption/
 ---
 ## Timeline.Caption property
 
-Returns or sets the caption of the specified Timeline.
+Gets or sets the caption of this Timeline.
 
 ```csharp
 public string Caption { get; set; }
@@ -19,7 +19,7 @@ public string Caption { get; set; }
 
 [C#]
 
-//Set the caption of the specified Timeline.
+//Set the caption of this Timeline.
 timelineObj.Caption = "timeline caption test";
 ```
 

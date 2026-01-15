@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/setforcefullcalculation/
 
 ## SetForceFullCalculation function
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```go
 

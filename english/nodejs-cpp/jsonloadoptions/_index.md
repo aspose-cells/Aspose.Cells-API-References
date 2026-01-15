@@ -1,14 +1,14 @@
 ﻿---
 title: JsonLoadOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the options of loading json files
+description: Represents the options of loading JSON files
 type: docs
 url: /nodejs-cpp/jsonloadoptions/
 ---
 
 ## JsonLoadOptions class
 
-Represents the options of loading json files
+Represents the options of loading JSON files
 
 ```javascript
 class JsonLoadOptions extends LoadOptions;

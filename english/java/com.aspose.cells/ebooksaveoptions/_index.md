@@ -37,7 +37,7 @@ Represents the options for saving ebook file.
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCssStyles()](#getCssStyles--) | Gets the additional css styles for the formatter. |
-| [getDataBarRenderMode()](#getDataBarRenderMode--) | Indicates whether to display the DataBar as an image when saving to HTML.. |
+| [getDataBarRenderMode()](#getDataBarRenderMode--) | Represents the mode of how to render DataBar when converting Excel files to html files. |
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -61,7 +61,7 @@ Represents the options for saving ebook file.
 | [getExportHeadings()](#getExportHeadings--) | Indicates whether exports sheet's row and column headings when saving to HTML files. |
 | [getExportHiddenWorksheet()](#getExportHiddenWorksheet--) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
-| [getExportNamedRangeAnchors()](#getExportNamedRangeAnchors--) | / Indicates whether to export anchor elements generated for named ranges when saving to HTML. |
+| [getExportNamedRangeAnchors()](#getExportNamedRangeAnchors--) | Indicates whether to export anchor elements for named ranges when saving as HTML. |
 | [getExportObjectListener()](#getExportObjectListener--) | Gets the ExportObjectListener for exporting objects. |
 | [getExportPageFooters()](#getExportPageFooters--) | Indicates whether exporting page headers. |
 | [getExportPageHeaders()](#getExportPageHeaders--) | Indicates whether exporting page headers. |
@@ -128,7 +128,7 @@ Represents the options for saving ebook file.
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
-| [setDataBarRenderMode(int value)](#setDataBarRenderMode-int-) | Indicates whether to display the DataBar as an image when saving to HTML.. |
+| [setDataBarRenderMode(int value)](#setDataBarRenderMode-int-) | Represents the mode of how to render DataBar when converting Excel files to html files. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
@@ -154,7 +154,7 @@ Represents the options for saving ebook file.
 | [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | Indicates whether exports sheet's row and column headings when saving to HTML files. |
 | [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | Indicating if exporting the hidden worksheet content.The default value is true. |
 | [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
-| [setExportNamedRangeAnchors(boolean value)](#setExportNamedRangeAnchors-boolean-) | / Indicates whether to export anchor elements generated for named ranges when saving to HTML. |
+| [setExportNamedRangeAnchors(boolean value)](#setExportNamedRangeAnchors-boolean-) | Indicates whether to export anchor elements for named ranges when saving as HTML. |
 | [setExportObjectListener(IExportObjectListener value)](#setExportObjectListener-com.aspose.cells.IExportObjectListener-) | Sets the ExportObjectListener for exporting objects. |
 | [setExportPageFooters(boolean value)](#setExportPageFooters-boolean-) | Indicates whether exporting page headers. |
 | [setExportPageHeaders(boolean value)](#setExportPageHeaders-boolean-) | Indicates whether exporting page headers. |
@@ -388,7 +388,7 @@ public int getDataBarRenderMode()
 ```
 
 
-Indicates whether to display the DataBar as an image when saving to HTML.. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR)
+Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR).
 
 See [DataBarRenderMode](../../com.aspose.cells/databarrendermode).
 
@@ -648,7 +648,7 @@ public boolean getExportNamedRangeAnchors()
 ```
 
 
-/ Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true.
+Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 **Returns:**
 boolean
@@ -1423,7 +1423,7 @@ public void setDataBarRenderMode(int value)
 ```
 
 
-Indicates whether to display the DataBar as an image when saving to HTML.. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR)
+Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BACKGROUND\_COLOR](../../com.aspose.cells/databarrendermode\#BACKGROUND-COLOR).
 
 See [DataBarRenderMode](../../com.aspose.cells/databarrendermode).
 
@@ -1781,7 +1781,7 @@ public void setExportNamedRangeAnchors(boolean value)
 ```
 
 
-/ Indicates whether to export anchor elements generated for named ranges when saving to HTML. Default value is true.
+Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

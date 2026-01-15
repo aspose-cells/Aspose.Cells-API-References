@@ -165,10 +165,10 @@ type HtmlSaveOptions struct  {
 |[SetLayoutMode](./setlayoutmode/) | Gets or sets the layout mode when saving to HTML.The default value is HtmlLayoutMode.Normal | 
 |[GetEmbeddedFontType](./getembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
 |[SetEmbeddedFontType](./setembeddedfonttype/) | Gets or sets the type of embedding font file into html file.Default value is HtmlEmbeddedFontType.None which indicates that no font will be embedded in html. | 
-|[GetExportNamedRangeAnchors](./getexportnamedrangeanchors/) | Indicates whether to export anchor elements  generated for named ranges when saving to HTML.Default value is true. | 
-|[SetExportNamedRangeAnchors](./setexportnamedrangeanchors/) | Indicates whether to export anchor elements  generated for named ranges when saving to HTML.Default value is true. | 
-|[GetDataBarRenderMode](./getdatabarrendermode/) | Indicates whether to display the DataBar as an image when saving to HTML..Default value is DataBarRenderMode.BackgroundColor | 
-|[SetDataBarRenderMode](./setdatabarrendermode/) | Indicates whether to display the DataBar as an image when saving to HTML..Default value is DataBarRenderMode.BackgroundColor | 
+|[GetExportNamedRangeAnchors](./getexportnamedrangeanchors/) | Indicates whether to export anchor elements for named ranges when saving as HTML.Default value is true. | 
+|[SetExportNamedRangeAnchors](./setexportnamedrangeanchors/) | Indicates whether to export anchor elements for named ranges when saving as HTML.Default value is true. | 
+|[GetDataBarRenderMode](./getdatabarrendermode/) | Represents the mode of how to render DataBar when converting Excel files to html files.Default value is DataBarRenderMode.BackgroundColor. | 
+|[SetDataBarRenderMode](./setdatabarrendermode/) | Represents the mode of how to render DataBar when converting Excel files to html files.Default value is DataBarRenderMode.BackgroundColor. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

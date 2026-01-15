@@ -32,6 +32,8 @@ type PasteOptions struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetPasteType](./getpastetype/) | The paste special type. | 
 |[SetPasteType](./setpastetype/) | The paste special type. | 
+|[GetShiftFormulasOfShapes](./getshiftformulasofshapes/) | Indicates whether to shift formulas of the shapes when copying ranges. | 
+|[SetShiftFormulasOfShapes](./setshiftformulasofshapes/) | Indicates whether to shift formulas of the shapes when copying ranges. | 
 |[GetSkipBlanks](./getskipblanks/) | Indicates whether skips blank cells. | 
 |[SetSkipBlanks](./setskipblanks/) | Indicates whether skips blank cells. | 
 |[GetKeepOldTables](./getkeepoldtables/) | Keeps the tables in the destination range. | 

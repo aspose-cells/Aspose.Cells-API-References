@@ -19,70 +19,41 @@ Represents a collection of [ConditionalFormattingIcon](../../com.aspose.cells/co
 ```
          //Instantiating a Workbook object
          Workbook workbook = new Workbook();
- 
          Worksheet sheet = workbook.getWorksheets().get(0);
- 
          //Get Conditional Formatting
          ConditionalFormattingCollection cformattings = sheet.getConditionalFormattings();
- 
          //Adds an empty conditional formatting
          int index = cformattings.add();
- 
          //Get newly added Conditional formatting
          FormatConditionCollection fcs = cformattings.get(index);
- 
          //Sets the conditional format range.
          CellArea ca = new CellArea();
- 
          ca.StartRow = 0;
- 
          ca.EndRow = 0;
- 
          ca.StartColumn = 0;
- 
          ca.EndColumn = 0;
- 
          fcs.addArea(ca);
- 
          ca = new CellArea();
- 
          ca.StartRow = 1;
- 
          ca.EndRow = 1;
- 
          ca.StartColumn = 1;
- 
          ca.EndColumn = 1;
- 
          fcs.addArea(ca);
- 
          //Sets condition
-          int idx = fcs.addCondition(FormatConditionType.ICON_SET);
- 
-          FormatCondition cond = fcs.get(idx);
- 
-          //Sets condition's type
-          cond.getIconSet().setType(IconSetType.ARROWS_GRAY_3);
- 
+         int idx = fcs.addCondition(FormatConditionType.ICON_SET);
+         FormatCondition cond = fcs.get(idx);
+         //Sets condition's type
+         cond.getIconSet().setType(IconSetType.ARROWS_GRAY_3);
          //Add custom iconset condition.
-          ConditionalFormattingIcon cfIcon = cond.getIconSet().getCfIcons().get(0);
- 
-          cfIcon.setType(IconSetType.ARROWS_3);
- 
-          cfIcon.setIndex(0);
- 
-          ConditionalFormattingIcon cfIcon1 = cond.getIconSet().getCfIcons().get(1);
- 
-           cfIcon1.setType(IconSetType.ARROWS_GRAY_3);
- 
-           cfIcon1.setIndex(1);
- 
-           ConditionalFormattingIcon cfIcon2 = cond.getIconSet().getCfIcons().get(2);
- 
-           cfIcon2.setType(IconSetType.BOXES_5);
- 
-           cfIcon2.setIndex(2);
- 
+         ConditionalFormattingIcon cfIcon = cond.getIconSet().getCfIcons().get(0);
+         cfIcon.setType(IconSetType.ARROWS_3);
+         cfIcon.setIndex(0);
+         ConditionalFormattingIcon cfIcon1 = cond.getIconSet().getCfIcons().get(1);
+         cfIcon1.setType(IconSetType.ARROWS_GRAY_3);
+         cfIcon1.setIndex(1);
+         ConditionalFormattingIcon cfIcon2 = cond.getIconSet().getCfIcons().get(2);
+         cfIcon2.setType(IconSetType.BOXES_5);
+         cfIcon2.setIndex(2);
          //Saving the Excel file
          workbook.save("output.xls");
 ```
@@ -116,6 +87,10 @@ public int add(ConditionalFormattingIcon cficon)
 
 
 Adds [ConditionalFormattingIcon](../../com.aspose.cells/conditionalformattingicon) object.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Add(IconSetType, int) method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

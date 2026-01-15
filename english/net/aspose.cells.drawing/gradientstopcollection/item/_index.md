@@ -10,7 +10,7 @@ url: /net/aspose.cells.drawing/gradientstopcollection/item/
 Gets the gradient stop by the index.
 
 ```csharp
-public GradientStop this[int index] { get; set; }
+public GradientStop this[int index] { get; }
 ```
 
 | Parameter | Description |

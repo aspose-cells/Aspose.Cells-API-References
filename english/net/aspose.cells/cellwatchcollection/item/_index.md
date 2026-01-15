@@ -79,6 +79,54 @@ public CellWatch this[string cellName] { get; }
 | --- | --- |
 | cellName | The name of the cell. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellWatchCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a cell watch to the collection
+                int watchIndex = worksheet.CellWatches.Add("A1");
+
+                // Access the CellWatchCollection
+                CellWatchCollection cellWatches = worksheet.CellWatches;
+
+                // Demonstrate accessing the Item property using indexer
+                CellWatch cellWatch = cellWatches[watchIndex];
+
+                // Display the properties of the CellWatch item
+                Console.WriteLine("Cell Watch Details:");
+                Console.WriteLine($"Row: {cellWatch.Row}");
+                Console.WriteLine($"Column: {cellWatch.Column}");
+                Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+
+                // Save the workbook
+                workbook.Save("CellWatchItemDemo.xlsx");
+                Console.WriteLine("Item property has been demonstrated successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CellWatch](../../cellwatch/)

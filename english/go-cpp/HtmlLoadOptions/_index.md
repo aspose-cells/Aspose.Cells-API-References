@@ -10,7 +10,7 @@ url: /go-cpp/htmlloadoptions/
 
 ## HtmlLoadOptions class
 
-Represents options when importing a html file.
+Represents options when importing an HTML file.
 
 ```go
 
@@ -44,6 +44,8 @@ type HtmlLoadOptions struct  {
 |[SetHasFormula](./sethasformula/) | Indicates whether the text is formula if it starts with "=". | 
 |[GetProgId](./getprogid/) | Gets the program id of creating the file.Only for MHT files. | 
 |[GetTableLoadOptions](./gettableloadoptions/) | Get the HtmlTableLoadOptionCollection instance | 
+|[GetDetectLaTeX](./getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
+|[SetDetectLaTeX](./setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
 |[GetEncoding](./getencoding/) | Gets and sets the default encoding. Only applies for csv file. | 
 |[SetEncoding](./setencoding/) | Gets and sets the default encoding. Only applies for csv file. | 
 |[GetLoadStyleStrategy](./getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. | 

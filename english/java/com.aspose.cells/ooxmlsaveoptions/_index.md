@@ -367,6 +367,10 @@ public boolean getWpsCompatibility()
 
 Indicates whether to make the xls more compatible with WPS.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### hashCode() {#hashCode--}
@@ -687,6 +691,10 @@ public void setWpsCompatibility(boolean value)
 
 
 Indicates whether to make the xls more compatible with WPS.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

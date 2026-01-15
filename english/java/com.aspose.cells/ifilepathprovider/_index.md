@@ -14,14 +14,14 @@ Represents the exported file path provider.
 
 | Method | Description |
 | --- | --- |
-| [getFullName(String sheetName)](#getFullName-java.lang.String-) | Gets the full path of the file by Worksheet name when exporting Worksheet to html separately. |
+| [getFullName(String sheetName)](#getFullName-java.lang.String-) | Gets the full path of the file by Worksheet name when exporting Worksheet to HTML separately. |
 ### getFullName(String sheetName) {#getFullName-java.lang.String-}
 ```
 public abstract String getFullName(String sheetName)
 ```
 
 
-Gets the full path of the file by Worksheet name when exporting Worksheet to html separately. So the references among the Worksheets can be exported correctly.
+Gets the full path of the file by Worksheet name when exporting Worksheet to HTML separately. So the references among the Worksheets can be exported correctly.
 
 **Parameters:**
 | Parameter | Type | Description |

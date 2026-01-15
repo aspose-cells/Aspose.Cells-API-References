@@ -23,8 +23,8 @@ class EbookLoadOptions : public Aspose::Cells::HtmlLoadOptions
 | [AbstractTextLoadOptions(AbstractTextLoadOptions_Impl* impl)](../abstracttextloadoptions/abstracttextloadoptions/) | Constructs from an implementation object. |
 | [AbstractTextLoadOptions(const AbstractTextLoadOptions\& src)](../abstracttextloadoptions/abstracttextloadoptions/) | Copy constructor. |
 | [AbstractTextLoadOptions(const LoadOptions\& src)](../abstracttextloadoptions/abstracttextloadoptions/) | Constructs from a parent object. |
-| [EbookLoadOptions()](./ebookloadoptions/) | Creates an options of loading the ebook file. |
-| explicit [EbookLoadOptions(LoadFormat loadFormat)](./ebookloadoptions/) | Creates an options of loading the ebook file. |
+| [EbookLoadOptions()](./ebookloadoptions/) | Creates an option for loading the ebook file. |
+| explicit [EbookLoadOptions(LoadFormat loadFormat)](./ebookloadoptions/) | Creates an option of loading the ebook file. |
 | [EbookLoadOptions(EbookLoadOptions_Impl* impl)](./ebookloadoptions/) | Constructs from an implementation object. |
 | [EbookLoadOptions(const EbookLoadOptions\& src)](./ebookloadoptions/) | Copy constructor. |
 | [EbookLoadOptions(const HtmlLoadOptions\& src)](./ebookloadoptions/) | Constructs from a parent object. |
@@ -37,6 +37,7 @@ class EbookLoadOptions : public Aspose::Cells::HtmlLoadOptions
 | [GetConvertNumericData()](../abstracttextloadoptions/getconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
 | [GetDefaultStyleSettings()](../loadoptions/getdefaultstylesettings/) | Gets the default style settings for initializing styles of the workbook. |
 | [GetDeleteRedundantSpaces()](../htmlloadoptions/getdeleteredundantspaces/) | Indicates whether delete redundant spaces when the text wraps lines using **<br>** tag. The default value is false. |
+| [GetDetectLaTeX()](../htmlloadoptions/getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [GetEncoding()](../abstracttextloadoptions/getencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [GetFontConfigs()](../loadoptions/getfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [GetHasFormula()](../htmlloadoptions/gethasformula/) | Indicates whether the text is formula if it starts with "=". |
@@ -84,6 +85,7 @@ class EbookLoadOptions : public Aspose::Cells::HtmlLoadOptions
 | [SetConvertDateTimeData(bool value)](../abstracttextloadoptions/setconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
 | [SetConvertNumericData(bool value)](../abstracttextloadoptions/setconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
 | [SetDeleteRedundantSpaces(bool value)](../htmlloadoptions/setdeleteredundantspaces/) | Indicates whether delete redundant spaces when the text wraps lines using **<br>** tag. The default value is false. |
+| [SetDetectLaTeX(bool value)](../htmlloadoptions/setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [SetEncoding(EncodingType value)](../abstracttextloadoptions/setencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [SetFontConfigs(const IndividualFontConfigs\& value)](../loadoptions/setfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [SetHasFormula(bool value)](../htmlloadoptions/sethasformula/) | Indicates whether the text is formula if it starts with "=". |

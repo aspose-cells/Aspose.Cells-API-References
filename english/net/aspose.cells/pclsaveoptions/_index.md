@@ -1,13 +1,13 @@
 ---
 title: Class PclSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.PclSaveOptions class. Represents the options for saving Pcl file
+description: Aspose.Cells.PclSaveOptions class. Represents the options for saving a Pcl file
 type: docs
 url: /net/aspose.cells/pclsaveoptions/
 ---
 ## PclSaveOptions class
 
-Represents the options for saving Pcl file.
+Represents the options for saving a Pcl file.
 
 ```csharp
 public class PclSaveOptions : PaginatedSaveOptions

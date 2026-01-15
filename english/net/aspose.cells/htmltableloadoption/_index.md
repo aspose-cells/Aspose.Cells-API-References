@@ -1,13 +1,13 @@
 ---
 title: Class HtmlTableLoadOption
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.HtmlTableLoadOption class. Represents the option when import table from html
+description: Aspose.Cells.HtmlTableLoadOption class. Represents the option when importing a table from HTML
 type: docs
 url: /net/aspose.cells/htmltableloadoption/
 ---
 ## HtmlTableLoadOption class
 
-Represents the option when import table from html.
+Represents the option when importing a table from HTML.
 
 ```csharp
 public class HtmlTableLoadOption

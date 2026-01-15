@@ -19,8 +19,8 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item/) { get; set; } | Gets the [`ExternalConnection`](../externalconnection/) element at the specified index. (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item/) { get; } | Gets the [`ExternalConnection`](../externalconnection/) element with the specified name. |
+| [Item](../../aspose.cells.externalconnections/externalconnectioncollection/item/) { get; } | Gets the [`ExternalConnection`](../externalconnection/) element at the specified index. (2 indexers) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 

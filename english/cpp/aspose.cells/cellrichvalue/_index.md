@@ -2,7 +2,7 @@
 title: Aspose::Cells::CellRichValue class
 linktitle: CellRichValue
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CellRichValue class. Represents rich value of the cell in C++.'
+description: 'Aspose::Cells::CellRichValue class. Represents the rich value of the cell in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells/cellrichvalue/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cellrichvalue/
 ## CellRichValue class
 
 
-Represents rich value of the cell.
+Represents the rich value of the cell.
 
 ```cpp
 class CellRichValue

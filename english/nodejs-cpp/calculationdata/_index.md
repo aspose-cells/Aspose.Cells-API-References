@@ -22,11 +22,11 @@ All objects provided by this class are for "read" purpose only. User should not 
 | Property | Type | Description |
 | --- | --- | --- |
 | [calculatedValue](#calculatedValue--)| Object | Gets or sets the calculated value for this function. |
-| [workbook](#workbook--)| Workbook | Readonly. Gets the Workbook object where the function is in. |
-| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the Worksheet object where the function is in. |
-| [cellRow](#cellRow--)| number | Readonly. Gets the row index of the cell where the function is in. |
-| [cellColumn](#cellColumn--)| number | Readonly. Gets the column index of the cell where the function is in. |
-| [cell](#cell--)| Cell | Readonly. Gets the Cell object where the function is in. |
+| [workbook](#workbook--)| Workbook | Readonly. Gets the Workbook object where the function is. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the Worksheet object where the function is. |
+| [cellRow](#cellRow--)| number | Readonly. Gets the row index of the cell where the function is. |
+| [cellColumn](#cellColumn--)| number | Readonly. Gets the column index of the cell where the function is. |
+| [cell](#cell--)| Cell | Readonly. Gets the Cell object where the function is. |
 | [functionName](#functionName--)| string | Readonly. Gets the function name to be calculated. |
 | [paramCount](#paramCount--)| number | Readonly. Gets the count of parameters |
 
@@ -36,16 +36,16 @@ All objects provided by this class are for "read" purpose only. User should not 
 | --- | --- |
 | [getCalculatedValue()](#getCalculatedValue--)| <b>@deprecated.</b> Please use the 'calculatedValue' property instead. Gets or sets the calculated value for this function. |
 | [setCalculatedValue(Object)](#setCalculatedValue-object-)| <b>@deprecated.</b> Please use the 'calculatedValue' property instead. Gets or sets the calculated value for this function. |
-| [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object where the function is in. |
-| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the function is in. |
-| [getCellRow()](#getCellRow--)| <b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell where the function is in. |
-| [getCellColumn()](#getCellColumn--)| <b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell where the function is in. |
-| [getCell()](#getCell--)| <b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object where the function is in. |
+| [getWorkbook()](#getWorkbook--)| <b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object where the function is. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the function is. |
+| [getCellRow()](#getCellRow--)| <b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell where the function is. |
+| [getCellColumn()](#getCellColumn--)| <b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell where the function is. |
+| [getCell()](#getCell--)| <b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object where the function is. |
 | [getFunctionName()](#getFunctionName--)| <b>@deprecated.</b> Please use the 'functionName' property instead. Gets the function name to be calculated. |
 | [getParamCount()](#getParamCount--)| <b>@deprecated.</b> Please use the 'paramCount' property instead. Gets the count of parameters |
-| [getParamValue(number)](#getParamValue-number-)| Gets the represented value object of the parameter at given index. |
-| [getParamValueInArrayMode(number, number, number)](#getParamValueInArrayMode-number-number-number-)| Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
-| [getParamText(number)](#getParamText-number-)| Gets the literal text of the parameter at given index. |
+| [getParamValue(number)](#getParamValue-number-)| Gets the represented value object of the parameter at a given index. |
+| [getParamValueInArrayMode(number, number, number)](#getParamValueInArrayMode-number-number-number-)| Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
+| [getParamText(number)](#getParamText-number-)| Gets the literal text of the parameter at the given index. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -64,7 +64,7 @@ User should set this property in his custom calculation engine for those functio
 
 ### workbook {#workbook--}
 
-Readonly. Gets the Workbook object where the function is in.
+Readonly. Gets the Workbook object where the function is.
 
 ```javascript
 workbook : Workbook;
@@ -73,7 +73,7 @@ workbook : Workbook;
 
 ### worksheet {#worksheet--}
 
-Readonly. Gets the Worksheet object where the function is in.
+Readonly. Gets the Worksheet object where the function is.
 
 ```javascript
 worksheet : Worksheet;
@@ -82,7 +82,7 @@ worksheet : Worksheet;
 
 ### cellRow {#cellRow--}
 
-Readonly. Gets the row index of the cell where the function is in.
+Readonly. Gets the row index of the cell where the function is.
 
 ```javascript
 cellRow : number;
@@ -91,7 +91,7 @@ cellRow : number;
 
 ### cellColumn {#cellColumn--}
 
-Readonly. Gets the column index of the cell where the function is in.
+Readonly. Gets the column index of the cell where the function is.
 
 ```javascript
 cellColumn : number;
@@ -100,7 +100,7 @@ cellColumn : number;
 
 ### cell {#cell--}
 
-Readonly. Gets the Cell object where the function is in.
+Readonly. Gets the Cell object where the function is.
 
 ```javascript
 cell : Cell;
@@ -161,7 +161,7 @@ User should set this property in his custom calculation engine for those functio
 
 ### getWorkbook() {#getWorkbook--}
 
-<b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object where the function is in.
+<b>@deprecated.</b> Please use the 'workbook' property instead. Gets the Workbook object where the function is.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -174,7 +174,7 @@ getWorkbook() : Workbook;
 
 ### getWorksheet() {#getWorksheet--}
 
-<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the function is in.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the Worksheet object where the function is.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -187,7 +187,7 @@ getWorksheet() : Worksheet;
 
 ### getCellRow() {#getCellRow--}
 
-<b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell where the function is in.
+<b>@deprecated.</b> Please use the 'cellRow' property instead. Gets the row index of the cell where the function is.
 
 ```javascript
 getCellRow() : number;
@@ -196,7 +196,7 @@ getCellRow() : number;
 
 ### getCellColumn() {#getCellColumn--}
 
-<b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell where the function is in.
+<b>@deprecated.</b> Please use the 'cellColumn' property instead. Gets the column index of the cell where the function is.
 
 ```javascript
 getCellColumn() : number;
@@ -205,7 +205,7 @@ getCellColumn() : number;
 
 ### getCell() {#getCell--}
 
-<b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object where the function is in.
+<b>@deprecated.</b> Please use the 'cell' property instead. Gets the Cell object where the function is.
 
 ```javascript
 getCell() : Cell;
@@ -240,7 +240,7 @@ getParamCount() : number;
 
 ### getParamValue(number) {#getParamValue-number-}
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 ```javascript
 getParamValue(index: number) : Object;
@@ -261,7 +261,7 @@ For one parameter: <p>If it is plain value, then returns the plain value itself;
 
 ### getParamValueInArrayMode(number, number, number) {#getParamValueInArrayMode-number-number-number-}
 
-Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
+Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 ```javascript
 getParamValueInArrayMode(index: number, maxRowCount: number, maxColumnCount: number) : Object[][];
@@ -284,7 +284,7 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: In 
 
 ### getParamText(number) {#getParamText-number-}
 
-Gets the literal text of the parameter at given index.
+Gets the literal text of the parameter at the given index.
 
 ```javascript
 getParamText(index: number) : string;

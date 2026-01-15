@@ -30,7 +30,7 @@ the area this filter applies to
 ## AutoFilter::GetCellArea(bool) method
 
 
-Gets the [CellArea](../../cellarea/) where the specified [AutoFilter](../) applies to.
+Gets the [Aspose.Cells.CellArea](../../cellarea/) where the specified [AutoFilter](../) applies.
 
 ```cpp
 CellArea Aspose::Cells::AutoFilter::GetCellArea(bool refreshAppliedRange)

@@ -17,6 +17,58 @@ public ImageSaveOptions()
 
 The default type is Tiff.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ImageSaveOptionsMethodSharpctorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data for context
+            worksheet.Cells["A1"].Value = "Sample Data";
+
+            try
+            {
+                // Demonstrate the parameterless constructor
+                ImageSaveOptions defaultOptions = new ImageSaveOptions();
+                Console.WriteLine("Created ImageSaveOptions with default constructor");
+
+                // Demonstrate the constructor with SaveFormat parameter
+                ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png);
+                Console.WriteLine("Created ImageSaveOptions with SaveFormat.Png");
+
+                // Access the read-only ImageOrPrintOptions property
+                var imageOptions = pngOptions.ImageOrPrintOptions;
+                Console.WriteLine($"ImageOrPrintOptions type: {imageOptions.GetType().Name}");
+
+                // Set the StreamProvider property
+                pngOptions.StreamProvider = null;
+                Console.WriteLine("StreamProvider set to null");
+
+                // Save the workbook with the created options
+                workbook.Save("output.png", pngOptions);
+                Console.WriteLine("Workbook saved successfully with ImageSaveOptions");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ImageSaveOptions](../)

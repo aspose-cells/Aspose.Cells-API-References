@@ -454,7 +454,7 @@ isJustifyDistributed : boolean;
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 ### quotePrefix {#quotePrefix--}
 

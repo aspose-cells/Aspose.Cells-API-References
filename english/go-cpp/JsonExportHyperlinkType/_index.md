@@ -10,7 +10,7 @@ url: /go-cpp/jsonexporthyperlinktype/
 
 ## JsonExportHyperlinkType Enum
 
-Represents type of exporting hyperlinks to json.
+Represents type how to export hyperlinks to json.
 
 ```go
 

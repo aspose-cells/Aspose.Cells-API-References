@@ -1,13 +1,13 @@
 ---
 title: Enum MergeEmptyTdType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.MergeEmptyTdType enum. Represents the merge type for empty TD element when exporting file to html
+description: Aspose.Cells.MergeEmptyTdType enum. Represents the merge type for an empty TD element when exporting a file to HTML
 type: docs
 url: /net/aspose.cells/mergeemptytdtype/
 ---
 ## MergeEmptyTdType enumeration
 
-Represents the merge type for empty TD element when exporting file to html.
+Represents the merge type for an empty TD element when exporting a file to HTML.
 
 ```csharp
 public enum MergeEmptyTdType

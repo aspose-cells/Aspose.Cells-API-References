@@ -22,11 +22,11 @@ All objects provided by this class are for "read" purpose only. User should not 
 | Property | Type | Description |
 | --- | --- | --- |
 | [calculatedValue](#calculatedValue--)| VObject | Gets or sets the calculated value for this function. |
-| [workbook](#workbook--)| Workbook | Readonly. Gets the Workbook object where the function is in. |
-| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the Worksheet object where the function is in. |
-| [cellRow](#cellRow--)| number | Readonly. Gets the row index of the cell where the function is in. |
-| [cellColumn](#cellColumn--)| number | Readonly. Gets the column index of the cell where the function is in. |
-| [cell](#cell--)| Cell | Readonly. Gets the Cell object where the function is in. |
+| [workbook](#workbook--)| Workbook | Readonly. Gets the Workbook object where the function is. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the Worksheet object where the function is. |
+| [cellRow](#cellRow--)| number | Readonly. Gets the row index of the cell where the function is. |
+| [cellColumn](#cellColumn--)| number | Readonly. Gets the column index of the cell where the function is. |
+| [cell](#cell--)| Cell | Readonly. Gets the Cell object where the function is. |
 | [functionName](#functionName--)| string | Readonly. Gets the function name to be calculated. |
 | [paramCount](#paramCount--)| number | Readonly. Gets the count of parameters |
 
@@ -34,9 +34,9 @@ All objects provided by this class are for "read" purpose only. User should not 
 
 | Method | Description |
 | --- | --- |
-| [getParamValue(number)](#getParamValue-number-)| Gets the represented value object of the parameter at given index. |
-| [getParamValueInArrayMode(number, number, number)](#getParamValueInArrayMode-number-number-number-)| Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
-| [getParamText(number)](#getParamText-number-)| Gets the literal text of the parameter at given index. |
+| [getParamValue(number)](#getParamValue-number-)| Gets the represented value object of the parameter at a given index. |
+| [getParamValueInArrayMode(number, number, number)](#getParamValueInArrayMode-number-number-number-)| Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
+| [getParamText(number)](#getParamText-number-)| Gets the literal text of the parameter at the given index. |
 
 
 ### calculatedValue {#calculatedValue--}
@@ -54,7 +54,7 @@ User should set this property in his custom calculation engine for those functio
 
 ### workbook {#workbook--}
 
-Readonly. Gets the Workbook object where the function is in.
+Readonly. Gets the Workbook object where the function is.
 
 ```javascript
 workbook : Workbook;
@@ -63,7 +63,7 @@ workbook : Workbook;
 
 ### worksheet {#worksheet--}
 
-Readonly. Gets the Worksheet object where the function is in.
+Readonly. Gets the Worksheet object where the function is.
 
 ```javascript
 worksheet : Worksheet;
@@ -72,7 +72,7 @@ worksheet : Worksheet;
 
 ### cellRow {#cellRow--}
 
-Readonly. Gets the row index of the cell where the function is in.
+Readonly. Gets the row index of the cell where the function is.
 
 ```javascript
 cellRow : number;
@@ -81,7 +81,7 @@ cellRow : number;
 
 ### cellColumn {#cellColumn--}
 
-Readonly. Gets the column index of the cell where the function is in.
+Readonly. Gets the column index of the cell where the function is.
 
 ```javascript
 cellColumn : number;
@@ -90,7 +90,7 @@ cellColumn : number;
 
 ### cell {#cell--}
 
-Readonly. Gets the Cell object where the function is in.
+Readonly. Gets the Cell object where the function is.
 
 ```javascript
 cell : Cell;
@@ -121,7 +121,7 @@ paramCount : number;
 
 ### getParamValue(number) {#getParamValue-number-}
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 ```javascript
 getParamValue(index: number) : VObject;
@@ -142,7 +142,7 @@ For one parameter: <p>If it is plain value, then returns the plain value itself;
 
 ### getParamValueInArrayMode(number, number, number) {#getParamValueInArrayMode-number-number-number-}
 
-Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
+Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 ```javascript
 getParamValueInArrayMode(index: number, maxRowCount: number, maxColumnCount: number) : VObject[][];
@@ -165,7 +165,7 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: In 
 
 ### getParamText(number) {#getParamText-number-}
 
-Gets the literal text of the parameter at given index.
+Gets the literal text of the parameter at the given index.
 
 ```javascript
 getParamText(index: number) : string;

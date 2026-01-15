@@ -2,7 +2,7 @@
 title: Aspose::Cells::DeleteBlankOptions::SetDrawingsAsBlank method
 linktitle: SetDrawingsAsBlank
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::DeleteBlankOptions::SetDrawingsAsBlank method. Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true in C++.'
+description: 'Aspose::Cells::DeleteBlankOptions::SetDrawingsAsBlank method. Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells/deleteblankoptions/setdrawingsasblank/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/deleteblankoptions/setdrawingsasblank/
 ## DeleteBlankOptions::SetDrawingsAsBlank method
 
 
-Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+Indicates whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
 
 ```cpp
 void Aspose::Cells::DeleteBlankOptions::SetDrawingsAsBlank(bool value)

@@ -29,7 +29,6 @@ class GradientStopCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const GradientStopCollection\& src)](./operator_asm/) | operator= |
-| [Set(const GradientStop\& value, int32_t index)](./set/) | Gets the gradient stop by the index. |
 | [~GradientStopCollection()](./~gradientstopcollection/) | Destructor. |
 ## Fields
 

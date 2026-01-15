@@ -20,22 +20,36 @@ class Timeline
 
 | Method | Description |
 | --- | --- |
-| [GetCaption()](./getcaption/) | Returns or sets the caption of the specified [Timeline](./). |
+| [GetCaption()](./getcaption/) | Gets or sets the caption of this [Timeline](./). |
+| [GetCurrentLevel()](./getcurrentlevel/) | The current time level of the [Timeline](./). |
 | [GetHeightPixel()](./getheightpixel/) |  **(Deprecated)** Returns or sets the height of the specified timeline, in pixels. |
 | [GetLeftPixel()](./getleftpixel/) |  **(Deprecated)** Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [GetName()](./getname/) | Returns or sets the name of the specified [Timeline](./). |
-| [GetShape()](./getshape/) | Returns the TimelineShape object associated with this [Timeline](./). Read-only. |
+| [GetSelectionLevel()](./getselectionlevel/) | Gets and sets the time level at which the current selection was made for the [Timeline](./). |
+| [GetShape()](./getshape/) | Returns the TimelineShape object associated with this [Timeline](./). |
+| [GetShowHeader()](./getshowheader/) | Indicates whether to display the header. |
+| [GetShowHorizontalScrollbar()](./getshowhorizontalscrollbar/) | Indicates whether to display the horizontal ccroll bar. |
+| [GetShowSelectionLabel()](./getshowselectionlabel/) | Indicates whether to display the selction label. |
+| [GetShowTimeLevel()](./getshowtimelevel/) | Indicates whether to display the time level. |
+| [GetStartDate()](./getstartdate/) | Gets and sets the start date of the timespan scrolling position of this [Timeline](./). |
 | [GetTopPixel()](./gettoppixel/) |  **(Deprecated)** Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [GetWidthPixel()](./getwidthpixel/) |  **(Deprecated)** Returns or sets the width of the specified timeline, in pixels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Timeline\& src)](./operator_asm/) | operator= |
-| [SetCaption(const U16String\& value)](./setcaption/) | Returns or sets the caption of the specified [Timeline](./). |
-| [SetCaption(const char16_t* value)](./setcaption/) | Returns or sets the caption of the specified [Timeline](./). |
+| [SetCaption(const U16String\& value)](./setcaption/) | Gets or sets the caption of this [Timeline](./). |
+| [SetCaption(const char16_t* value)](./setcaption/) | Gets or sets the caption of this [Timeline](./). |
+| [SetCurrentLevel(TimelineLevelType value)](./setcurrentlevel/) | The current time level of the [Timeline](./). |
 | [SetHeightPixel(int32_t value)](./setheightpixel/) |  **(Deprecated)** Returns or sets the height of the specified timeline, in pixels. |
 | [SetLeftPixel(int32_t value)](./setleftpixel/) |  **(Deprecated)** Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [SetName(const U16String\& value)](./setname/) | Returns or sets the name of the specified [Timeline](./). |
 | [SetName(const char16_t* value)](./setname/) | Returns or sets the name of the specified [Timeline](./). |
+| [SetSelectionLevel(TimelineLevelType value)](./setselectionlevel/) | Gets and sets the time level at which the current selection was made for the [Timeline](./). |
+| [SetShowHeader(bool value)](./setshowheader/) | Indicates whether to display the header. |
+| [SetShowHorizontalScrollbar(bool value)](./setshowhorizontalscrollbar/) | Indicates whether to display the horizontal ccroll bar. |
+| [SetShowSelectionLabel(bool value)](./setshowselectionlabel/) | Indicates whether to display the selction label. |
+| [SetShowTimeLevel(bool value)](./setshowtimelevel/) | Indicates whether to display the time level. |
+| [SetStartDate(const Date\& value)](./setstartdate/) | Gets and sets the start date of the timespan scrolling position of this [Timeline](./). |
 | [SetTopPixel(int32_t value)](./settoppixel/) |  **(Deprecated)** Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [SetWidthPixel(int32_t value)](./setwidthpixel/) |  **(Deprecated)** Returns or sets the width of the specified timeline, in pixels. |
 | [Timeline(Timeline_Impl* impl)](./timeline/) | Constructs from an implementation object. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::EbookLoadOptions::EbookLoadOptions constructor
 linktitle: EbookLoadOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::EbookLoadOptions::EbookLoadOptions constructor. Creates an options of loading the ebook file in C++.'
+description: 'Aspose::Cells::EbookLoadOptions::EbookLoadOptions constructor. Creates an option for loading the ebook file in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells/ebookloadoptions/ebookloadoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/ebookloadoptions/ebookloadoptions/
 ## EbookLoadOptions::EbookLoadOptions() constructor
 
 
-Creates an options of loading the ebook file.
+Creates an option for loading the ebook file.
 
 ```cpp
 Aspose::Cells::EbookLoadOptions::EbookLoadOptions()
@@ -24,7 +24,7 @@ Aspose::Cells::EbookLoadOptions::EbookLoadOptions()
 ## EbookLoadOptions::EbookLoadOptions(LoadFormat) constructor
 
 
-Creates an options of loading the ebook file.
+Creates an option of loading the ebook file.
 
 ```cpp
 Aspose::Cells::EbookLoadOptions::EbookLoadOptions(LoadFormat loadFormat)

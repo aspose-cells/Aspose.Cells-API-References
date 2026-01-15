@@ -2,7 +2,7 @@
 title: Aspose::Cells::AutoFilter::MatchBlanks method
 linktitle: MatchBlanks
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AutoFilter::MatchBlanks method. Match all blank cell in the list in C++.'
+description: 'Aspose::Cells::AutoFilter::MatchBlanks method. Match all blank cells in the list in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.cells/autofilter/matchblanks/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/autofilter/matchblanks/
 ## AutoFilter::MatchBlanks method
 
 
-Match all blank cell in the list.
+Match all blank cells in the list.
 
 ```cpp
 void Aspose::Cells::AutoFilter::MatchBlanks(int32_t fieldIndex)

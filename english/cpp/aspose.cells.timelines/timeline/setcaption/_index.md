@@ -2,15 +2,15 @@
 title: Aspose::Cells::Timelines::Timeline::SetCaption method
 linktitle: SetCaption
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Timelines::Timeline::SetCaption method. Returns or sets the caption of the specified Timeline in C++.'
+description: 'Aspose::Cells::Timelines::Timeline::SetCaption method. Gets or sets the caption of this Timeline in C++.'
 type: docs
-weight: 700
+weight: 2100
 url: /cpp/aspose.cells.timelines/timeline/setcaption/
 ---
 ## Timeline::SetCaption(const U16String\&) method
 
 
-Returns or sets the caption of the specified [Timeline](../).
+Gets or sets the caption of this [Timeline](../).
 
 ```cpp
 void Aspose::Cells::Timelines::Timeline::SetCaption(const U16String &value)
@@ -39,7 +39,7 @@ if(timelineObj.GetCaption().IsNull())
 ## Timeline::SetCaption(const char16_t*) method
 
 
-Returns or sets the caption of the specified [Timeline](../).
+Gets or sets the caption of this [Timeline](../).
 
 ```cpp
 void Aspose::Cells::Timelines::Timeline::SetCaption(const char16_t *value)

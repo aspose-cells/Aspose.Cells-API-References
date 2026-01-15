@@ -10,7 +10,7 @@ url: /go-cpp/threadedcommentcollection/add/
 
 ## Add function
 
-Adds a threaded comment;
+Adds a threaded comment.
 
 ```go
 

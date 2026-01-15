@@ -4,7 +4,7 @@ linktitle: GetHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetHeightPixel method. Returns or sets the height of the specified slicer, in pixels in C++.'
 type: docs
-weight: 4600
+weight: 5900
 url: /cpp/aspose.cells.slicers/slicer/getheightpixel/
 ---
 ## Slicer::GetHeightPixel method

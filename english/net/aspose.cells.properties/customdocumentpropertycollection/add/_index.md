@@ -129,6 +129,48 @@ public DocumentProperty Add(string name, DateTime value)
 
 The newly created property object.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using System;
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+
+    public class CustomDocumentPropertyCollectionMethodAddWithStringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Get the custom document properties collection
+            CustomDocumentPropertyCollection customProps = workbook.Worksheets.CustomDocumentProperties;
+
+            try
+            {
+                // Add a DateTime property
+                DateTime currentTime = DateTime.Now;
+                DocumentProperty addedProp = customProps.Add("ReportGenerated", currentTime);
+
+                // Display information about the added property
+                Console.WriteLine($"Property Name : {addedProp.Name}");
+                Console.WriteLine($"Property Type : {addedProp.Type}");
+                Console.WriteLine($"Property Value: {addedProp.ToDateTime():O}");
+
+                // Save the workbook (optional, demonstrates that the property persists)
+                workbook.Save("AddDateTimePropertyDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding DateTime property: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)

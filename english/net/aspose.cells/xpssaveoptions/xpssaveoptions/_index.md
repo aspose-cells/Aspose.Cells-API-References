@@ -73,6 +73,46 @@ public XpsSaveOptions(SaveFormat saveFormat)
 
 NOTE: This constructor is now obsolete. Instead, please use XpsSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XpsSaveOptionsMethodSharpctorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].Value = "XPS Save Options Demo";
+            worksheet.Cells["B1"].Value = "Using SaveFormat parameter";
+
+            try
+            {
+                // Create XpsSaveOptions using the constructor with SaveFormat parameter
+                XpsSaveOptions saveOptions = new XpsSaveOptions(SaveFormat.Xps);
+
+                // Save the workbook with the specified options
+                workbook.Save("XpsSaveOptionsWithSaveFormatDemo.xps", saveOptions);
+
+                Console.WriteLine("XpsSaveOptions created successfully with SaveFormat parameter");
+                Console.WriteLine("Workbook saved as XPS format");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating XpsSaveOptions or saving workbook: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

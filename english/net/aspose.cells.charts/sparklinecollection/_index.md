@@ -52,8 +52,9 @@ public class SparklineCollection : CollectionBase<Sparkline>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Sparkline) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Sparkline, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Sparkline, int, int) |  |
-| [Remove](../../aspose.cells.charts/sparklinecollection/remove/)(object) | Removes the sparkline |
+| [Remove](../../aspose.cells.charts/sparklinecollection/remove/)(object) | (**Obsolete.**) Removes the sparkline |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [RemoveSparkline](../../aspose.cells.charts/sparklinecollection/removesparkline/)(Sparkline) | Removes the sparkline |
 
 ### Examples
 

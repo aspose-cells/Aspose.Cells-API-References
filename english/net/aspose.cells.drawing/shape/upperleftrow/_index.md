@@ -39,13 +39,13 @@ namespace AsposeCellsExamples
 
             // Set and demonstrate UpperLeftRow property
             shape.UpperLeftRow = 3;
-            Console.WriteLine("Shape's initial UpperLeftRow: " + shape.UpperLeftRow);
+            Console.WriteLine("Shape's initial topRow: " + shape.UpperLeftRow);
 
             // Modify the UpperLeftRow based on condition
             if (shape.UpperLeftRow == 3)
                 shape.UpperLeftRow = 1;
 
-            Console.WriteLine("Shape's modified UpperLeftRow: " + shape.UpperLeftRow);
+            Console.WriteLine("Shape's modified topRow: " + shape.UpperLeftRow);
         }
     }
 }

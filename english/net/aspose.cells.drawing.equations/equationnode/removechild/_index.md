@@ -17,6 +17,55 @@ public void RemoveChild(EquationNode node)
 | --- | --- | --- |
 | node | EquationNode | Node to be deleted. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationNodeMethodRemoveChildWithEquationNodeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a parent equation node
+                EquationNode parentNode = EquationNode.CreateNode(EquationNodeType.Function, workbook, null);
+
+                // Add two child nodes
+                EquationNode child1 = parentNode.AddChild(EquationNodeType.Base);
+                EquationNode child2 = parentNode.AddChild(EquationNodeType.Limit);
+
+                // Verify children exist
+                Console.WriteLine($"Parent has {(parentNode.GetChild(0) != null ? "first" : "no first")} child");
+                Console.WriteLine($"Parent has {(parentNode.GetChild(1) != null ? "second" : "no second")} child");
+
+                // Remove the second child node by reference
+                parentNode.RemoveChild(child2);
+
+                Console.WriteLine("Second child node removed successfully");
+
+                // Verify removal
+                Console.WriteLine($"Parent now has {(parentNode.GetChild(0) != null ? "first" : "no first")} child");
+                Console.WriteLine($"Parent now has {(parentNode.GetChild(1) != null ? "second" : "no second")} child");
+
+                workbook.Save("EquationNodeRemoveChildDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../)

@@ -1,13 +1,13 @@
 ---
 title: AbstractCalculationEngine.ForceRecalculate
 second_title: Aspose.Cells for .NET API Reference
-description: AbstractCalculationEngine method. Whether force given function to be recalculated always when calculating shared formulas
+description: AbstractCalculationEngine method. Whether to force the given function to be recalculated always when calculating shared formulas
 type: docs
 url: /net/aspose.cells/abstractcalculationengine/forcerecalculate/
 ---
 ## AbstractCalculationEngine.ForceRecalculate method
 
-Whether force given function to be recalculated always when calculating shared formulas.
+Whether to force the given function to be recalculated always when calculating shared formulas.
 
 ```csharp
 public virtual bool ForceRecalculate(string functionName)

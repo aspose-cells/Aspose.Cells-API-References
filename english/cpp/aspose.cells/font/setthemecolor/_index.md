@@ -4,7 +4,7 @@ linktitle: SetThemeColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::SetThemeColor method. Gets and sets the theme color in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells/font/setthemecolor/
 ---
 ## Font::SetThemeColor method

@@ -23,6 +23,6 @@ url: /cpp/aspose.cells.slicers/
 
 | Enum | Description |
 | --- | --- |
-| [SlicerCacheCrossFilterType](./slicercachecrossfiltertype/) | Represent the type of SlicerCacheCrossFilterType. |
-| [SlicerCacheItemSortType](./slicercacheitemsorttype/) | Specify the sort type of [SlicerCacheItem](./slicercacheitem/). |
+| [ItemsWithNoDataShowMode](./itemswithnodatashowmode/) | Represent the type how to show items with no data for slicer. |
+| [SlicerCacheCrossFilterType](./slicercachecrossfiltertype/) |  **(Deprecated)** Represent the type how to show items with no data for slicer. |
 | [SlicerStyleType](./slicerstyletype/) | Specify the style of slicer view. |

@@ -10,7 +10,7 @@ url: /go-cpp/series/getpointvalues/
 
 ## GetPointValues function
 
-Gets the values for the points of the series
+Gets the actual values that are used to plot every pointof this series in the chart.
 
 ```go
 

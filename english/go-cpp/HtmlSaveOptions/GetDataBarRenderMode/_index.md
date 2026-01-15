@@ -10,7 +10,7 @@ url: /go-cpp/htmlsaveoptions/getdatabarrendermode/
 
 ## GetDataBarRenderMode function
 
-Indicates whether to display the DataBar as an image when saving to HTML..Default value is DataBarRenderMode.BackgroundColor
+Represents the mode of how to render DataBar when converting Excel files to html files.Default value is DataBarRenderMode.BackgroundColor.
 
 ```go
 

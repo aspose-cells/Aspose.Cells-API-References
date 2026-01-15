@@ -18,7 +18,7 @@ public void InsertCutCells(Range cutRange, int row, int column, ShiftType shiftT
 | cutRange | Range | The cut range. |
 | row | Int32 | The row. |
 | column | Int32 | The column. |
-| shiftType | ShiftType | The shift type . |
+| shiftType | ShiftType | Indicates how to shift other objects of the target range when inserting cut range. |
 
 ### Examples
 

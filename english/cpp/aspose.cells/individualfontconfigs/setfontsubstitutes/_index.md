@@ -2,7 +2,7 @@
 title: Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes method
 linktitle: SetFontSubstitutes
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes method. Font substitute names for given original font name in C++.'
+description: 'Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes method. Sets font substitute names for a given original font name in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells/individualfontconfigs/setfontsubstitutes/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/individualfontconfigs/setfontsubstitutes/
 ## IndividualFontConfigs::SetFontSubstitutes(const U16String\&, const Vector \<U16String\>\&) method
 
 
-[Font](../../font/) substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 ```cpp
 void Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes(const U16String &originalFontName, const Vector<U16String> &substituteFontNames)
@@ -32,7 +32,7 @@ void Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes(const U16String &o
 ## IndividualFontConfigs::SetFontSubstitutes(const char16_t*, const Vector \<U16String\>\&) method
 
 
-[Font](../../font/) substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 ```cpp
 void Aspose::Cells::IndividualFontConfigs::SetFontSubstitutes(const char16_t *originalFontName, const Vector<U16String> &substituteFontNames)

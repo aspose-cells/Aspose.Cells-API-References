@@ -31,6 +31,52 @@ public enum ChartColorPaletteType
 | MonochromaticPalette12 | `12` | accent5 theme color gradient, light to dark. |
 | MonochromaticPalette13 | `13` | accent6 theme color gradient, light to dark. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class ChartsClassChartColorPaletteTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a sample chart to demonstrate the color palette
+                int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
+                Chart chart = worksheet.Charts[chartIndex];
+
+                // Demonstrate using different ChartColorPaletteType enum values
+                ChartColorPaletteType palette1 = ChartColorPaletteType.MonochromaticPalette1;
+                ChartColorPaletteType palette5 = ChartColorPaletteType.MonochromaticPalette5;
+                ChartColorPaletteType palette8 = ChartColorPaletteType.MonochromaticPalette8;
+
+                // Display the enum values
+                Console.WriteLine($"MonochromaticPalette1 value: {(int)palette1}");
+                Console.WriteLine($"MonochromaticPalette5 value: {(int)palette5}");
+                Console.WriteLine($"MonochromaticPalette8 value: {(int)palette8}");
+
+                // Save the workbook
+                workbook.Save("ChartColorPaletteTypeDemo.xlsx");
+                Console.WriteLine("ChartColorPaletteType demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ChartColorPaletteType: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)

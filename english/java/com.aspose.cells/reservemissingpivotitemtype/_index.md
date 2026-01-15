@@ -18,7 +18,7 @@ Represents how to keep the missing pivot items.
 | Field | Description |
 | --- | --- |
 | [ALL](#ALL) | Reserves all missing items. |
-| [DEFAULT](#DEFAULT) | Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items. |
+| [DEFAULT](#DEFAULT) | Removes old missing pivot items and reserves deleted items of new data source as missing items. |
 | [NONE](#NONE) | Removes all missing pivot items. |
 ## Methods
 
@@ -41,13 +41,17 @@ public static final int ALL
 
 Reserves all missing items.
 
+**Remarks**
+
+In Excel, as long as Excel is not closed, the missing items generated from the first refresh of the pivot table will be retained, even if you refresh repeatedly
+
 ### DEFAULT {#DEFAULT}
 ```
 public static final int DEFAULT
 ```
 
 
-Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items.
+Removes old missing pivot items and reserves deleted items of new data source as missing items.
 
 ### NONE {#NONE}
 ```
@@ -56,6 +60,10 @@ public static final int NONE
 
 
 Removes all missing pivot items.
+
+**Remarks**
+
+The order of old missing pivot items will be ignored.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -4,7 +4,7 @@ linktitle: SetDoubleSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::SetDoubleSize method. Gets and sets the double size of the font in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells/font/setdoublesize/
 ---
 ## Font::SetDoubleSize method

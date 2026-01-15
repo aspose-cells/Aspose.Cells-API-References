@@ -4,7 +4,7 @@ linktitle: SetSkipBlanks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetSkipBlanks method. Indicates whether skips blank cells in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells/pasteoptions/setskipblanks/
 ---
 ## PasteOptions::SetSkipBlanks method

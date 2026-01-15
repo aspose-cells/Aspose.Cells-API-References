@@ -19,8 +19,15 @@ class Timeline;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [caption](#caption--)| string | Returns or sets the caption of the specified Timeline. |
-| [shape](#shape--)| TimelineShape | Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only. |
+| [showHeader](#showHeader--)| boolean | Indicates whether to display the header. |
+| [showSelectionLabel](#showSelectionLabel--)| boolean | Indicates whether to display the selction label. |
+| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the time level. |
+| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal ccroll bar. |
+| [startDate](#startDate--)| Date | Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
+| [currentLevel](#currentLevel--)| TimelineLevelType | The current time level of the Timeline. |
+| [selectionLevel](#selectionLevel--)| TimelineLevelType | Gets and sets the time level at which the current selection was made for the Timeline. |
+| [caption](#caption--)| string | Gets or sets the caption of this Timeline. |
+| [shape](#shape--)| TimelineShape | Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. |
 | [name](#name--)| string | Returns or sets the name of the specified Timeline |
 | [leftPixel](#leftPixel--)| number | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [topPixel](#topPixel--)| number | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
@@ -31,9 +38,23 @@ class Timeline;
 
 | Method | Description |
 | --- | --- |
-| [getCaption()](#getCaption--)| <b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified Timeline. |
-| [setCaption(string)](#setCaption-string-)| <b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified Timeline. |
-| [getShape()](#getShape--)| <b>@deprecated.</b> Please use the 'shape' property instead. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only. |
+| [getShowHeader()](#getShowHeader--)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header. |
+| [setShowHeader(boolean)](#setShowHeader-boolean-)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header. |
+| [getShowSelectionLabel()](#getShowSelectionLabel--)| <b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label. |
+| [setShowSelectionLabel(boolean)](#setShowSelectionLabel-boolean-)| <b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label. |
+| [getShowTimeLevel()](#getShowTimeLevel--)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level. |
+| [setShowTimeLevel(boolean)](#setShowTimeLevel-boolean-)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level. |
+| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar. |
+| [setShowHorizontalScrollbar(boolean)](#setShowHorizontalScrollbar-boolean-)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar. |
+| [getStartDate()](#getStartDate--)| <b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
+| [setStartDate(Date)](#setStartDate-date-)| <b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
+| [getCurrentLevel()](#getCurrentLevel--)| <b>@deprecated.</b> Please use the 'currentLevel' property instead. The current time level of the Timeline. |
+| [setCurrentLevel(TimelineLevelType)](#setCurrentLevel-timelineleveltype-)| <b>@deprecated.</b> Please use the 'currentLevel' property instead. The current time level of the Timeline. |
+| [getSelectionLevel()](#getSelectionLevel--)| <b>@deprecated.</b> Please use the 'selectionLevel' property instead. Gets and sets the time level at which the current selection was made for the Timeline. |
+| [setSelectionLevel(TimelineLevelType)](#setSelectionLevel-timelineleveltype-)| <b>@deprecated.</b> Please use the 'selectionLevel' property instead. Gets and sets the time level at which the current selection was made for the Timeline. |
+| [getCaption()](#getCaption--)| <b>@deprecated.</b> Please use the 'caption' property instead. Gets or sets the caption of this Timeline. |
+| [setCaption(string)](#setCaption-string-)| <b>@deprecated.</b> Please use the 'caption' property instead. Gets or sets the caption of this Timeline. |
+| [getShape()](#getShape--)| <b>@deprecated.</b> Please use the 'shape' property instead. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. |
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified Timeline |
 | [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Returns or sets the name of the specified Timeline |
 | [getLeftPixel()](#getLeftPixel--)| <b>@deprecated.</b> Please use the 'leftPixel' property instead. Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
@@ -47,9 +68,72 @@ class Timeline;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
+### showHeader {#showHeader--}
+
+Indicates whether to display the header.
+
+```javascript
+showHeader : boolean;
+```
+
+
+### showSelectionLabel {#showSelectionLabel--}
+
+Indicates whether to display the selction label.
+
+```javascript
+showSelectionLabel : boolean;
+```
+
+
+### showTimeLevel {#showTimeLevel--}
+
+Indicates whether to display the time level.
+
+```javascript
+showTimeLevel : boolean;
+```
+
+
+### showHorizontalScrollbar {#showHorizontalScrollbar--}
+
+Indicates whether to display the horizontal ccroll bar.
+
+```javascript
+showHorizontalScrollbar : boolean;
+```
+
+
+### startDate {#startDate--}
+
+Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/).
+
+```javascript
+startDate : Date;
+```
+
+
+### currentLevel {#currentLevel--}
+
+The current time level of the Timeline.
+
+```javascript
+currentLevel : TimelineLevelType;
+```
+
+
+### selectionLevel {#selectionLevel--}
+
+Gets and sets the time level at which the current selection was made for the Timeline.
+
+```javascript
+selectionLevel : TimelineLevelType;
+```
+
+
 ### caption {#caption--}
 
-Returns or sets the caption of the specified Timeline.
+Gets or sets the caption of this Timeline.
 
 ```javascript
 caption : string;
@@ -58,7 +142,7 @@ caption : string;
 
 ### shape {#shape--}
 
-Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only.
+Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline.
 
 ```javascript
 shape : TimelineShape;
@@ -126,9 +210,171 @@ heightPixel : number;
 
 NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
+### getShowHeader() {#getShowHeader--}
+
+<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header.
+
+```javascript
+getShowHeader() : boolean;
+```
+
+
+### setShowHeader(boolean) {#setShowHeader-boolean-}
+
+<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header.
+
+```javascript
+setShowHeader(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowSelectionLabel() {#getShowSelectionLabel--}
+
+<b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label.
+
+```javascript
+getShowSelectionLabel() : boolean;
+```
+
+
+### setShowSelectionLabel(boolean) {#setShowSelectionLabel-boolean-}
+
+<b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label.
+
+```javascript
+setShowSelectionLabel(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowTimeLevel() {#getShowTimeLevel--}
+
+<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level.
+
+```javascript
+getShowTimeLevel() : boolean;
+```
+
+
+### setShowTimeLevel(boolean) {#setShowTimeLevel-boolean-}
+
+<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level.
+
+```javascript
+setShowTimeLevel(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowHorizontalScrollbar() {#getShowHorizontalScrollbar--}
+
+<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar.
+
+```javascript
+getShowHorizontalScrollbar() : boolean;
+```
+
+
+### setShowHorizontalScrollbar(boolean) {#setShowHorizontalScrollbar-boolean-}
+
+<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar.
+
+```javascript
+setShowHorizontalScrollbar(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getStartDate() {#getStartDate--}
+
+<b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/).
+
+```javascript
+getStartDate() : Date;
+```
+
+
+### setStartDate(Date) {#setStartDate-date-}
+
+<b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/).
+
+```javascript
+setStartDate(value: Date) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Date | The value to set. |
+
+### getCurrentLevel() {#getCurrentLevel--}
+
+<b>@deprecated.</b> Please use the 'currentLevel' property instead. The current time level of the Timeline.
+
+```javascript
+getCurrentLevel() : TimelineLevelType;
+```
+
+
+**Returns**
+
+[TimelineLevelType](../timelineleveltype/)
+
+### setCurrentLevel(TimelineLevelType) {#setCurrentLevel-timelineleveltype-}
+
+<b>@deprecated.</b> Please use the 'currentLevel' property instead. The current time level of the Timeline.
+
+```javascript
+setCurrentLevel(value: TimelineLevelType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimelineLevelType](../timelineleveltype/) | The value to set. |
+
+### getSelectionLevel() {#getSelectionLevel--}
+
+<b>@deprecated.</b> Please use the 'selectionLevel' property instead. Gets and sets the time level at which the current selection was made for the Timeline.
+
+```javascript
+getSelectionLevel() : TimelineLevelType;
+```
+
+
+**Returns**
+
+[TimelineLevelType](../timelineleveltype/)
+
+### setSelectionLevel(TimelineLevelType) {#setSelectionLevel-timelineleveltype-}
+
+<b>@deprecated.</b> Please use the 'selectionLevel' property instead. Gets and sets the time level at which the current selection was made for the Timeline.
+
+```javascript
+setSelectionLevel(value: TimelineLevelType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimelineLevelType](../timelineleveltype/) | The value to set. |
+
 ### getCaption() {#getCaption--}
 
-<b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified Timeline.
+<b>@deprecated.</b> Please use the 'caption' property instead. Gets or sets the caption of this Timeline.
 
 ```javascript
 getCaption() : string;
@@ -137,7 +383,7 @@ getCaption() : string;
 
 ### setCaption(string) {#setCaption-string-}
 
-<b>@deprecated.</b> Please use the 'caption' property instead. Returns or sets the caption of the specified Timeline.
+<b>@deprecated.</b> Please use the 'caption' property instead. Gets or sets the caption of this Timeline.
 
 ```javascript
 setCaption(value: string) : void;
@@ -150,7 +396,7 @@ setCaption(value: string) : void;
 
 ### getShape() {#getShape--}
 
-<b>@deprecated.</b> Please use the 'shape' property instead. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only.
+<b>@deprecated.</b> Please use the 'shape' property instead. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline.
 
 ```javascript
 getShape() : TimelineShape;

@@ -99,6 +99,7 @@ workbook.save("output/Font.xls");
 | [setIsNormalizeHeights(boolean)](#setIsNormalizeHeights-boolean-)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
 | [getSchemeType()](#getSchemeType--)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
+| [setName(string, FontSchemeType)](#setName-string-fontschemetype-)| Sets name and scheme of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getName()](#getName--)| Gets  or sets the name of the [Font](../font/). |
@@ -142,6 +143,10 @@ capsType : TextCapsType;
 ```
 
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.CapsType](../textoptions.capstype/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### strikeType {#strikeType--}
 
 Gets the strike type of the text.
@@ -168,6 +173,10 @@ Gets and sets the script offset,in unit of percentage
 scriptOffset : number;
 ```
 
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript {#isSuperscript--}
 
@@ -253,6 +262,10 @@ Indicates whether the normalization of height that is to be applied to the text 
 isNormalizeHeights : boolean;
 ```
 
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.IsNormalizeHeights](../textoptions.isnormalizeheights/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### schemeType {#schemeType--}
 
@@ -342,6 +355,10 @@ getCapsType() : TextCapsType;
 
 [TextCapsType](../textcapstype/)
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.CapsType](../textoptions.capstype/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
 
 <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
@@ -354,6 +371,10 @@ setCapsType(value: TextCapsType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextCapsType](../textcapstype/) | The value to set. |
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.CapsType](../textoptions.capstype/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getStrikeType() {#getStrikeType--}
 
@@ -412,6 +433,10 @@ getScriptOffset() : number;
 ```
 
 
+**Remarks**
+
+Only for shapes and charts.
+
 ### setScriptOffset(number) {#setScriptOffset-number-}
 
 <b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage
@@ -424,6 +449,10 @@ setScriptOffset(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript() {#isSuperscript--}
 
@@ -630,6 +659,10 @@ isNormalizeHeights() : boolean;
 ```
 
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.IsNormalizeHeights](../textoptions.isnormalizeheights/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setIsNormalizeHeights(boolean) {#setIsNormalizeHeights-boolean-}
 
 <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
@@ -642,6 +675,10 @@ setIsNormalizeHeights(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.IsNormalizeHeights](../textoptions.isnormalizeheights/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getSchemeType() {#getSchemeType--}
 
@@ -668,6 +705,20 @@ setSchemeType(value: FontSchemeType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FontSchemeType](../fontschemetype/) | The value to set. |
+
+### setName(string, FontSchemeType) {#setName-string-fontschemetype-}
+
+Sets name and scheme of the font.
+
+```javascript
+setName(name: string, type: FontSchemeType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
+| type | [FontSchemeType](../fontschemetype/) |  |
 
 ### equals(Font) {#equals-font-}
 
@@ -704,6 +755,10 @@ getName() : string;
 ```
 
 
+**Remarks**
+
+If this property is used to set the name of the font, the [Font.SchemeType](../font.schemetype/) will be updated to [FontSchemeType.None](../fontschemetype.none/)
+
 ### setName(string) {#setName-string-}
 
 Gets  or sets the name of the [Font](../font/).
@@ -716,6 +771,10 @@ setName(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+If this property is used to set the name of the font, the [Font.SchemeType](../font.schemetype/) will be updated to [FontSchemeType.None](../fontschemetype.none/)
 
 **Example**
 ```javascript

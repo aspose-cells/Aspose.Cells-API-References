@@ -1,7 +1,7 @@
 ---
 title: JsonSaveOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents the options of saving the workbook as a json file.
+description: Represents the options of saving the workbook as a JSON file.
 type: docs
 url: /java/com.aspose.cells/jsonsaveoptions/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveopti
 public class JsonSaveOptions extends SaveOptions
 ```
 
-Represents the options of saving the workbook as a json file.
+Represents the options of saving the workbook as a JSON file.
 ## Constructors
 
 | Constructor | Description |

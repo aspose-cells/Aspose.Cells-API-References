@@ -13,7 +13,7 @@ is_root: true
 | --- | --- |
 | [AboveAverage](./aboveaverage) | Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
 | [AbstractCalculationEngine](./abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
+| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor) | Monitor for the user to track the change of formulas during certain operations. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractLowCodeLoadOptionsProvider](./abstractlowcodeloadoptionsprovider) | Implementation to provide multiple load options for processes that use multiple inputs(such as template files). |
 | [AbstractLowCodeProtectionProvider](./abstractlowcodeprotectionprovider) | Implementation to provide protection settings |
@@ -22,7 +22,7 @@ is_root: true
 | [AccentEquationNode](./accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
 | [ActiveXControl](./activexcontrol) | Represents the ActiveX control. |
 | [ActiveXControlBase](./activexcontrolbase) | Represents the ActiveX control. |
-| [AdvancedFilter](./advancedfilter) | Represents the settings of advanced filter. |
+| [AdvancedFilter](./advancedfilter) | Represents the settings of the advanced filter. |
 | [ArcShape](./arcshape) | Represents the arc shape. |
 | [Area](./area) | Encapsulates the object that represents an area format. |
 | [ArrayEquationNode](./arrayequationnode) | Specifies the Equation-Array function, an object consisting of one or more equations. |
@@ -48,11 +48,11 @@ is_root: true
 | [CalculationOptions](./calculationoptions) | Represents options for calculation. |
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](./cellarea) | Represent an area of cells. |
-| [CellRichValue](./cellrichvalue) | Represents rich value of the cell. |
+| [CellRichValue](./cellrichvalue) | Represents the rich value of the cell. |
 | [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../javascript-cpp/cell/), [Row](../javascript-cpp/row/), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
-| [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
+| [CellsFactory](./cellsfactory) | Utility for instantiating classes of the Cells model. |
 | [CellsHelper](./cellshelper) | Provides helper functions. |
 | [CellValue](./cellvalue) | Represents the cell value and corresponding type. |
 | [CellWatch](./cellwatch) | Represents Cell Watch Item in the 'watch window'. |
@@ -168,7 +168,7 @@ is_root: true
 | [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](./font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs) | Specifies font settings |
-| [FontFileDataInfo](./fontfiledatainfo) | Represents data infomation of font file data. |
+| [FontFileDataInfo](./fontfiledatainfo) | Represents data information of font file data. |
 | [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
 | [FontSettingCollection](./fontsettingcollection) | Represents the list of [FontSetting](../javascript-cpp/fontsetting/). |
 | [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
@@ -194,10 +194,10 @@ is_root: true
 | [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
 | [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../javascript-cpp/horizontalpagebreak/) objects. |
 | [HtmlConverter](./htmlconverter) | Converter for conversion between html files(html or mht) and other spreadsheet file formats. |
-| [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
+| [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing an HTML file. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
-| [HtmlTableLoadOption](./htmltableloadoption) | Represents the option when import table from html. |
-| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection) | Represents the table options when importing html. |
+| [HtmlTableLoadOption](./htmltableloadoption) | Represents the option when importing a table from HTML. |
+| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection) | Represents the table options when importing HTML. |
 | [Hyperlink](./hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../javascript-cpp/hyperlink/) objects. |
 | [IconFilter](./iconfilter) | Represents icon filter. |
@@ -212,8 +212,8 @@ is_root: true
 | [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
 | [JsonConverter](./jsonconverter) | Converter for conversion between json data structure and other spreadsheet file formats. |
 | [JsonLayoutOptions](./jsonlayoutoptions) | Represents the options of json layout type. |
-| [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
-| [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
+| [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading JSON files |
+| [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a JSON file. |
 | [JsonUtility](./jsonutility) | Represents the utility class of processing json. |
 | [Label](./label) | Encapsulates the object that represents a label in a spreadsheet. |
 | [LabelActiveXControl](./labelactivexcontrol) | Represents the label ActiveX control. |
@@ -282,7 +282,7 @@ is_root: true
 | [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions) | Represents the paste special options. |
 | [PatternFill](./patternfill) | Encapsulates the object that represents pattern fill format |
-| [PclSaveOptions](./pclsaveoptions) | Represents the options for saving Pcl file. |
+| [PclSaveOptions](./pclsaveoptions) | Represents the options for saving a Pcl file. |
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
 | [PdfConverter](./pdfconverter) | Converter for converting template file to pdf. |
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
@@ -451,8 +451,8 @@ is_root: true
 | [TextureFill](./texturefill) | Encapsulates the object that represents texture fill format |
 | [ThemeColor](./themecolor) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
-| [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
-| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection) | Represents all persons who . |
+| [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments. |
+| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection) | Represents all persons. |
 | [ThreadedCommentCollection](./threadedcommentcollection) | Represents the list of threaded comments. |
 | [ThreeDFormat](./threedformat) | Represents a shape's three-dimensional formatting. |
 | [TickLabelItem](./ticklabelitem) | Represents a tick label in the chart. |
@@ -529,7 +529,7 @@ is_root: true
 
 | Enumeration Type | Description |
 | --- | --- |
-| [AccessCacheOptions](./accesscacheoptions) | Cache options for data access. Can be combined with | operator for multiple options together. |
+| [AccessCacheOptions](./accesscacheoptions) | Caching options for data access. Multiple options can be combined using the "|" operator. |
 | [ActiveXPersistenceType](./activexpersistencetype) | Represents the persistence method to persist an ActiveX control. |
 | [AdjustFontSizeForRowType](./adjustfontsizeforrowtype) | Represents which kind of rows should be ajusted. |
 | [AutoFillType](./autofilltype) | Represents the auto fill type. |
@@ -579,7 +579,7 @@ is_root: true
 | [ControlScrollOrientation](./controlscrollorientation) | Represents type of scroll orientation |
 | [ControlSpecialEffectType](./controlspecialeffecttype) | Represents the type of special effect. |
 | [ControlType](./controltype) | Represents all type of ActiveX control. |
-| [CopyFormatType](./copyformattype) | Represents type of copying format when inserting rows. |
+| [CopyFormatType](./copyformattype) | Represents the type of copying format when inserting rows. |
 | [CountryCode](./countrycode) | Represents Excel country identifiers. |
 | [CredentialsMethodType](./credentialsmethodtype) | Specifies Credentials method used for server access. |
 | [CrossType](./crosstype) | Represents the axis cross type. |
@@ -647,13 +647,14 @@ is_root: true
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLayoutMode](./htmllayoutmode) | Represents the layout mode for HTML rendering. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
-| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
+| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
 | [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageType](./imagetype) | Specifies the type (format) of an image. |
 | [InputMethodEditorMode](./inputmethodeditormode) | Represents the default run-time mode of the Input Method Editor. |
-| [JsonExportHyperlinkType](./jsonexporthyperlinktype) | Represents type of exporting hyperlinks to json. |
+| [ItemsWithNoDataShowMode](./itemswithnodatashowmode) | Represent the type how to show items with no data for slicer. |
+| [JsonExportHyperlinkType](./jsonexporthyperlinktype) | Represents type how to export hyperlinks to json. |
 | [LabelPositionType](./labelpositiontype) | Represents data label position type. |
 | [LegendPositionType](./legendpositiontype) | Enumerates the legend position types. |
 | [LightRigDirectionType](./lightrigdirectiontype) | Represents the light rig direction type. |
@@ -672,8 +673,8 @@ is_root: true
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownTableHeaderType](./markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [MemorySetting](./memorysetting) | Memory usage modes for cells data model. |
-| [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
-| [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
+| [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns. |
+| [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for an empty TD element when exporting a file to HTML. |
 | [MetadataType](./metadatatype) | Represents the type of metadata. |
 | [MirrorType](./mirrortype) | Represents mirror type of texture fill |
 | [MsoArrowheadLength](./msoarrowheadlength) | Enumerates the line end width of the shape border line. |
@@ -701,7 +702,7 @@ is_root: true
 | [PaneStateType](./panestatetype) | Represents state of the sheet's pane. |
 | [PaperSizeType](./papersizetype) | Represents paper size constants. |
 | [ParameterType](./parametertype) | Represents all parameters' type or return value type of function. |
-| [PasteOperationType](./pasteoperationtype) | Represents operation type when pasting range. |
+| [PasteOperationType](./pasteoperationtype) | Represents the operation type when pasting a range. |
 | [PasteType](./pastetype) | Represents the paste special type. |
 | [PdfCompliance](./pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](./pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
@@ -765,9 +766,8 @@ is_root: true
 | [ShiftType](./shifttype) | Represent the shift options when deleting a range of cells. |
 | [ShowDropButtonType](./showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureType](./signaturetype) | Specifies the signature type. |
-| [SignificantDigitsType](./significantdigitstype) | Represents the type of significant digits for outputing numeric values. |
-| [SlicerCacheCrossFilterType](./slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
-| [SlicerCacheItemSortType](./slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
+| [SignificantDigitsType](./significantdigitstype) | Represents the type of significant digits for outputting numeric values. |
+| [SlicerCacheCrossFilterType](./slicercachecrossfiltertype) | Represent the type how to show items with no data for slicer. |
 | [SlicerStyleType](./slicerstyletype) | Specify the style of slicer view |
 | [SlideViewType](./slideviewtype) | Represents the type when exporting to slides. |
 | [SmartTagShowType](./smarttagshowtype) | Represents the show type of the smart tag. |
@@ -802,6 +802,7 @@ is_root: true
 | [TickLabelPositionType](./ticklabelpositiontype) | Represents the position type of tick-mark labels on the specified axis. |
 | [TickMarkType](./tickmarktype) | Represents the tick mark type for the specified axis. |
 | [TiffCompression](./tiffcompression) | Specifies what type of compression to apply when saving images into TIFF format file. |
+| [TimelineLevelType](./timelineleveltype) | Represents the level type of [Timeline](../javascript-cpp/timeline/) |
 | [TimePeriodType](./timeperiodtype) | Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods, which change based on the date the conditional formatting is refreshed / applied. |
 | [TimeUnit](./timeunit) | Represents the base unit for the category axis. |
 | [TotalsCalculation](./totalscalculation) | Determines the type of calculation in the Totals row of the list column. |

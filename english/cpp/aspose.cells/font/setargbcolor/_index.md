@@ -4,7 +4,7 @@ linktitle: SetArgbColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::SetArgbColor method. Gets and sets the color with a 32-bit ARGB value in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells/font/setargbcolor/
 ---
 ## Font::SetArgbColor method

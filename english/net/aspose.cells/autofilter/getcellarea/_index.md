@@ -94,7 +94,7 @@ namespace AsposeCellsExamples
 
 ## GetCellArea(bool) {#getcellarea_1}
 
-Gets the [`CellArea`](../../cellarea/) where the specified AutoFilter applies to.
+Gets the [`CellArea`](../../cellarea/) where the specified AutoFilter applies.
 
 ```csharp
 public CellArea GetCellArea(bool refreshAppliedRange)

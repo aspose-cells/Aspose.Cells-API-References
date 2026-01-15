@@ -81,6 +81,55 @@ public OdsCellField this[int row, int column] { get; }
 | row | The row index. |
 | column | The column index. |
 
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
+{
+    public class OdsCellFieldCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some ODS cell fields
+            // (row, column, field type, format)
+            sheet.Cells.OdsCellFields.Add(0, 0, OdsCellFieldType.Title, "TitleFormat");
+            sheet.Cells.OdsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+
+            try
+            {
+                // Access fields using the Item property (indexer)
+                // 1) By collection index
+                OdsCellField firstField = sheet.Cells.OdsCellFields[0];
+                Console.WriteLine("First field type (by index): " + firstField.FieldType);
+
+                // 2) By cell position (row, column)
+                OdsCellField titleField = sheet.Cells.OdsCellFields[0, 0];
+                Console.WriteLine("Field at (0,0) type (by position): " + titleField.FieldType);
+
+                // Update the cells with the field values
+                sheet.Cells.OdsCellFields.UpdateFieldsValue();
+
+                // Save the workbook (ODS format preserves the fields)
+                workbook.Save("OdsCellFieldItemDemo.ods");
+                Console.WriteLine("Workbook saved as OdsCellFieldItemDemo.ods");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [OdsCellField](../../odscellfield/)

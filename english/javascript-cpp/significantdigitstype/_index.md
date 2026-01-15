@@ -1,13 +1,13 @@
 ﻿---
 title: SignificantDigitsType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the type of significant digits for outputing numeric values.
+description: Represents the type of significant digits for outputting numeric values.
 type: docs
 url: /javascript-cpp/significantdigitstype/
 ---
 
 ## SignificantDigitsType enumeration
-Represents the type of significant digits for outputing numeric values.
+Represents the type of significant digits for outputting numeric values.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

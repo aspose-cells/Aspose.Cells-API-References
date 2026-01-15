@@ -91,6 +91,7 @@ Represents all settings of the workbook.
 | [getWindowWidth()](#getWindowWidth--) | The width of the window, in unit of point. |
 | [getWindowWidthCM()](#getWindowWidthCM--) | The width of the window, in unit of centimeter. |
 | [getWindowWidthInch()](#getWindowWidthInch--) | The width of the window, in unit of inch. |
+| [getWpsCompatibility()](#getWpsCompatibility--) | Indicates whether to be compatible with WPS. |
 | [getWriteProtection()](#getWriteProtection--) | Provides access to the workbook write protection options. |
 | [hashCode()](#hashCode--) |  |
 | [isDefaultEncrypted()](#isDefaultEncrypted--) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
@@ -162,6 +163,7 @@ Represents all settings of the workbook.
 | [setWindowWidth(double value)](#setWindowWidth-double-) | The width of the window, in unit of point. |
 | [setWindowWidthCM(double value)](#setWindowWidthCM-double-) | The width of the window, in unit of centimeter. |
 | [setWindowWidthInch(double value)](#setWindowWidthInch-double-) | The width of the window, in unit of inch. |
+| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | Indicates whether to be compatible with WPS. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -909,6 +911,16 @@ The width of the window, in unit of inch.
 
 **Returns:**
 double
+### getWpsCompatibility() {#getWpsCompatibility--}
+```
+public boolean getWpsCompatibility()
+```
+
+
+Indicates whether to be compatible with WPS.
+
+**Returns:**
+boolean
 ### getWriteProtection() {#getWriteProtection--}
 ```
 public WriteProtection getWriteProtection()
@@ -1912,6 +1924,19 @@ The width of the window, in unit of inch.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
+
+### setWpsCompatibility(boolean value) {#setWpsCompatibility-boolean-}
+```
+public void setWpsCompatibility(boolean value)
+```
+
+
+Indicates whether to be compatible with WPS.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

@@ -10,7 +10,7 @@ url: /go-cpp/jsonsaveoptions/
 
 ## JsonSaveOptions class
 
-Represents the options of saving the workbook as a json file.
+Represents the options of saving the workbook as a JSON file.
 
 ```go
 

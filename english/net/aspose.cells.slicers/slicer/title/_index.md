@@ -10,8 +10,14 @@ url: /net/aspose.cells.slicers/slicer/title/
 Specifies the title of the current Slicer object.
 
 ```csharp
+[Obsolete("Use Shape.Title property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public string Title { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`Title`](../../../aspose.cells.drawing/shape/title/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

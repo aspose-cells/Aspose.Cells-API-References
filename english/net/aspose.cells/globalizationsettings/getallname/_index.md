@@ -1,13 +1,13 @@
 ---
 title: GlobalizationSettings.GetAllName
 second_title: Aspose.Cells for .NET API Reference
-description: GlobalizationSettings method. Gets the name of All label in the PivotTable
+description: GlobalizationSettings method. Gets the name of the All label in the PivotTable
 type: docs
 url: /net/aspose.cells/globalizationsettings/getallname/
 ---
 ## GlobalizationSettings.GetAllName method
 
-Gets the name of "(All)" label in the PivotTable.
+Gets the name of the "(All)" label in the PivotTable.
 
 ```csharp
 [Obsolete("Use PivotGlobalizationSettings.GetTextOfAll() method instead.")]

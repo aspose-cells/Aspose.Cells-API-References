@@ -10,7 +10,7 @@ url: /go-cpp/slicer/setrowheight/
 
 ## SetRowHeight function
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 ```go
 

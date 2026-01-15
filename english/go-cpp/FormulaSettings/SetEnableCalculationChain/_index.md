@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/setenablecalculationchain/
 
 ## SetEnableCalculationChain function
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas.Default is false.
 
 ```go
 

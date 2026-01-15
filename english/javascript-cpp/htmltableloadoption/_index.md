@@ -1,14 +1,14 @@
 ﻿---
 title: HtmlTableLoadOption
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the option when import table from html.
+description: Represents the option when importing a table from HTML.
 type: docs
 url: /javascript-cpp/htmltableloadoption/
 ---
 
 ## HtmlTableLoadOption class
 
-Represents the option when import table from html.
+Represents the option when importing a table from HTML.
 
 ```javascript
 class HtmlTableLoadOption;

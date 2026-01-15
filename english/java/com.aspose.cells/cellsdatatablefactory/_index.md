@@ -21,14 +21,14 @@ Utility to build ICellsDataTable from custom objects for user's convenience.
 | [getClass()](#getClass--) |  |
 | [getInstance(double[] vals, boolean vertial)](#getInstance-double---boolean-) | Creates ICellsDataTable from given sequence of double values. |
 | [getInstance(double[] vals, String[] columnNames)](#getInstance-double---java.lang.String---) | Creates ICellsDataTable from given sequence of double values. |
-| [getInstance(double[][] vals)](#getInstance-double-----) | Creates ICellsDataTable from given 2D array. |
-| [getInstance(int[] vals, boolean vertial)](#getInstance-int---boolean-) | Creates ICellsDataTable from given sequence of int values. |
-| [getInstance(int[] vals, String[] columnNames)](#getInstance-int---java.lang.String---) | Creates ICellsDataTable from given sequence of int values. |
-| [getInstance(int[][] vals)](#getInstance-int-----) | Creates ICellsDataTable from given 2D array. |
+| [getInstance(double[][] vals)](#getInstance-double-----) | Creates ICellsDataTable from a given 2D array. |
+| [getInstance(int[] vals, boolean vertial)](#getInstance-int---boolean-) | Creates ICellsDataTable from given sequence of integer values. |
+| [getInstance(int[] vals, String[] columnNames)](#getInstance-int---java.lang.String---) | Creates ICellsDataTable from given sequence of integer values. |
+| [getInstance(int[][] vals)](#getInstance-int-----) | Creates ICellsDataTable from a given 2D array. |
 | [getInstance(Object[] vals, boolean vertial)](#getInstance-java.lang.Object---boolean-) | Creates ICellsDataTable from given sequence of objects. |
 | [getInstance(Object[] vals, String[] columnNames)](#getInstance-java.lang.Object---java.lang.String---) | Creates ICellsDataTable from given sequence of objects. |
-| [getInstance(Object[][] vals)](#getInstance-java.lang.Object-----) | Creates ICellsDataTable from given 2D array. |
-| [getInstance(Object[][] vals, boolean hasHeader, String[] columnNames)](#getInstance-java.lang.Object-----boolean-java.lang.String---) | Creates ICellsDataTable from given sequence of objects. |
+| [getInstance(Object[][] vals)](#getInstance-java.lang.Object-----) | Creates ICellsDataTable from a given 2D array. |
+| [getInstance(Object[][] vals, boolean hasHeader, String[] columnNames)](#getInstance-java.lang.Object-----boolean-java.lang.String---) | Creates an ICellsDataTable from a given sequence of objects. |
 | [getInstance(Collection collection)](#getInstance-java.util.Collection-) | Creates ICellsDataTable from given collection. |
 | [getInstance(Collection collection, boolean hasHeader)](#getInstance-java.util.Collection-boolean-) | Creates ICellsDataTable from given collection. |
 | [hashCode()](#hashCode--) |  |
@@ -101,7 +101,7 @@ public ICellsDataTable getInstance(double[][] vals)
 ```
 
 
-Creates ICellsDataTable from given 2D array.
+Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -116,7 +116,7 @@ public ICellsDataTable getInstance(int[] vals, boolean vertial)
 ```
 
 
-Creates ICellsDataTable from given sequence of int values.
+Creates ICellsDataTable from given sequence of integer values.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public ICellsDataTable getInstance(int[] vals, String[] columnNames)
 ```
 
 
-Creates ICellsDataTable from given sequence of int values.
+Creates ICellsDataTable from given sequence of integer values.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -148,7 +148,7 @@ public ICellsDataTable getInstance(int[][] vals)
 ```
 
 
-Creates ICellsDataTable from given 2D array.
+Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public ICellsDataTable getInstance(Object[][] vals)
 ```
 
 
-Creates ICellsDataTable from given 2D array.
+Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +210,7 @@ public ICellsDataTable getInstance(Object[][] vals, boolean hasHeader, String[] 
 ```
 
 
-Creates ICellsDataTable from given sequence of objects.
+Creates an ICellsDataTable from a given sequence of objects.
 
 **Parameters:**
 | Parameter | Type | Description |

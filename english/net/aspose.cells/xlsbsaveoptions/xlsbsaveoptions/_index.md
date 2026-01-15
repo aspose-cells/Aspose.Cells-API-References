@@ -64,6 +64,50 @@ public XlsbSaveOptions(SaveFormat saveFormat)
 
 NOTE: This constructor is now obsolete. Instead, please use XlsbSaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XlsbSaveOptionsMethodSharpctorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].Value = "Sample Data";
+            worksheet.Cells["B1"].Value = "Using XlsbSaveOptions";
+
+            try
+            {
+                // Create XlsbSaveOptions using the constructor with SaveFormat parameter
+                XlsbSaveOptions saveOptions = new XlsbSaveOptions(SaveFormat.Xlsb);
+
+                // Set additional properties if needed
+                saveOptions.ExportAllColumnIndexes = true;
+
+                // Save the workbook with the specified save options
+                workbook.Save("XlsbSaveOptionsDemo.xlsb", saveOptions);
+
+                Console.WriteLine("Workbook saved successfully with XlsbSaveOptions");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

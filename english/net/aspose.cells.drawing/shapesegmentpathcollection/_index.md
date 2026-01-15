@@ -60,6 +60,67 @@ public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapeSegmentPath, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassShapeSegmentPathCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Create a ShapePath to work with segments
+                ShapePath path = new ShapePath();
+
+                // Start a new path
+                path.MoveTo(10, 10);
+
+                // Draw a line segment
+                path.LineTo(100, 100);
+
+                // Get the ShapeSegmentPathCollection from the path
+                ShapeSegmentPathCollection segmentPaths = path.PathSegementList;
+
+                // Add a close path segment
+                int index = segmentPaths.Add(ShapePathType.Close);
+
+                // Display information about the collection
+                Console.WriteLine($"Number of path segments: {segmentPaths.Count}");
+                Console.WriteLine($"Added segment at index: {index}");
+
+                // Access the first segment (read-only property)
+                if (segmentPaths.Count > 0)
+                {
+                    ShapeSegmentPath firstSegment = segmentPaths[0];
+                    Console.WriteLine($"First segment type: {firstSegment.Type}");
+                }
+
+                // Add the shape to the worksheet
+                worksheet.Shapes.AddFreeform(1, 0, 1, 0, 300, 200, new ShapePath[] { path });
+
+                // Save the workbook
+                workbook.Save("ShapeSegmentPathCollectionDemo.xlsx");
+                Console.WriteLine("ShapeSegmentPathCollection demo completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in ShapeSegmentPathCollection demo: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

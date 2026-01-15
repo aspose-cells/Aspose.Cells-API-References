@@ -2,15 +2,15 @@
 title: Aspose::Cells::AbstractCalculationEngine::ForceRecalculate method
 linktitle: ForceRecalculate
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AbstractCalculationEngine::ForceRecalculate method. Whether force given function to be recalculated always when calculating shared formulas in C++.'
+description: 'Aspose::Cells::AbstractCalculationEngine::ForceRecalculate method. Whether to force the given function to be recalculated always when calculating shared formulas in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells/abstractcalculationengine/forcerecalculate/
 ---
 ## AbstractCalculationEngine::ForceRecalculate method
 
 
-Whether force given function to be recalculated always when calculating shared formulas.
+Whether to force the given function to be recalculated always when calculating shared formulas.
 
 ```cpp
 virtual bool Aspose::Cells::AbstractCalculationEngine::ForceRecalculate(const U16String &functionName)

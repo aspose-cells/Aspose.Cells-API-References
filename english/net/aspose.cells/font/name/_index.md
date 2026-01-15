@@ -13,6 +13,10 @@ Gets or sets the name of the [`Font`](../).
 public virtual string Name { get; set; }
 ```
 
+### Remarks
+
+If this property is used to set the name of the font, the [`SchemeType`](../schemetype/) will be updated to None
+
 ### Examples
 
 ```csharp

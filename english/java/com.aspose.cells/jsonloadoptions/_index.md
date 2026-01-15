@@ -1,7 +1,7 @@
 ---
 title: JsonLoadOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents the options of loading json files
+description: Represents the options of loading JSON files
 type: docs
 url: /java/com.aspose.cells/jsonloadoptions/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.LoadOptions](../../com.aspose.cells/loadopti
 public class JsonLoadOptions extends LoadOptions
 ```
 
-Represents the options of loading json files
+Represents the options of loading JSON files
 ## Constructors
 
 | Constructor | Description |

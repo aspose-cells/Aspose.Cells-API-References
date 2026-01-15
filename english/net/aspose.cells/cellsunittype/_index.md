@@ -23,6 +23,51 @@ public enum CellsUnitType
 | Cm | `6` | Measurement is in centimeters. |
 | Character | `7` | In unit of characters. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassCellsUnitTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Demonstrate using different CellsUnitType enum values
+                Console.WriteLine("Available CellsUnitType values:");
+
+                // Display all enum values
+                Console.WriteLine("Pixel: " + CellsUnitType.Pixel);
+                Console.WriteLine("Point: " + CellsUnitType.Point);
+                Console.WriteLine("Inch: " + CellsUnitType.Inch);
+                Console.WriteLine("Cm: " + CellsUnitType.Cm);
+                Console.WriteLine("Character: " + CellsUnitType.Character);
+
+                // Example usage: Set column width using different units
+                worksheet.Cells.SetColumnWidthPixel(0, 100); // Using Pixel unit
+                worksheet.Cells.SetColumnWidthInch(1, 2.0);  // Using Inch unit
+
+                // Save the workbook to demonstrate a complete flow
+                workbook.Save("CellsUnitTypeDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully with different unit types applied.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with CellsUnitType: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/setprecisionasdisplayed/
 
 ## SetPrecisionAsDisplayed function
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```go
 

@@ -1,13 +1,13 @@
 ---
 title: GlobalizationSettings.GetPivotGrandTotalName
 second_title: Aspose.Cells for .NET API Reference
-description: GlobalizationSettings method. Gets the name of Grand Total label in the PivotTable
+description: GlobalizationSettings method. Gets the name of the Grand Total label in the PivotTable
 type: docs
 url: /net/aspose.cells/globalizationsettings/getpivotgrandtotalname/
 ---
 ## GlobalizationSettings.GetPivotGrandTotalName method
 
-Gets the name of "Grand Total" label in the PivotTable.
+Gets the name of the "Grand Total" label in the PivotTable.
 
 ```csharp
 [Obsolete("Use PivotGlobalizationSettings.GetTextOfGrandTotal() method instead.")]

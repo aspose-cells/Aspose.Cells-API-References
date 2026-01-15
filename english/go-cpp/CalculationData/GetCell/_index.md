@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getcell/
 
 ## GetCell function
 
-Gets the Cell object where the function is in.
+Gets the Cell object where the function is.
 
 ```go
 

@@ -25,15 +25,15 @@ Font configs for each [Workbook](../../com.aspose.cells/workbook) object.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
-| [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
+| [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns an array containing font substitute names to be used if original font is not presented. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setFontExclusiveSources(FontSourceBase[] exclusiveSources)](#setFontExclusiveSources-com.aspose.cells.FontSourceBase---) | Sets the fonts exclusive sources. |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
-| [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
-| [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
-| [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
+| [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the font folders |
+| [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the font sources. |
+| [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Sets font substitute names for a given original font name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -87,7 +87,7 @@ public String[] getFontSubstitutes(String originalFontName)
 ```
 
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not presented.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -159,7 +159,7 @@ public void setFontFolders(String[] fontFolders, boolean recursive)
 ```
 
 
-Sets the fonts folders
+Sets the font folders
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -173,7 +173,7 @@ public void setFontSources(FontSourceBase[] sources)
 ```
 
 
-Sets the fonts sources.
+Sets the font sources.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -186,7 +186,7 @@ public void setFontSubstitutes(String originalFontName, String[] substituteFontN
 ```
 
 
-Font substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 **Parameters:**
 | Parameter | Type | Description |

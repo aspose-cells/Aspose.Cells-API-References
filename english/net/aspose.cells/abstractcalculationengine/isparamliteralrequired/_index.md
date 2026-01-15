@@ -1,13 +1,13 @@
 ---
 title: AbstractCalculationEngine.IsParamLiteralRequired
 second_title: Aspose.Cells for .NET API Reference
-description: AbstractCalculationEngine property. Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false
+description: AbstractCalculationEngine property. Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false
 type: docs
 url: /net/aspose.cells/abstractcalculationengine/isparamliteralrequired/
 ---
 ## AbstractCalculationEngine.IsParamLiteralRequired property
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false.
 
 ```csharp
 public virtual bool IsParamLiteralRequired { get; }

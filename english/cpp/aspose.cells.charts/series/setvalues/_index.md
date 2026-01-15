@@ -16,6 +16,10 @@ Represents the Y values of this chart series.
 void Aspose::Cells::Charts::Series::SetValues(const U16String &value)
 ```
 
+## Remarks
+
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use PointValues. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -32,6 +36,10 @@ Represents the Y values of this chart series.
 void Aspose::Cells::Charts::Series::SetValues(const char16_t *value)
 ```
 
+## Remarks
+
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use PointValues. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

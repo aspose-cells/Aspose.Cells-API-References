@@ -20,15 +20,15 @@ class SlicerCache
 
 | Method | Description |
 | --- | --- |
-| [GetCrossFilterType()](./getcrossfiltertype/) | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write. |
-| [GetList()](./getlist/) | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only. |
+| [GetCrossFilterType()](./getcrossfiltertype/) |  **(Deprecated)** Indicates how to show items with no data of slicer. |
+| [GetList()](./getlist/) | Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. |
 | [GetName()](./getname/) | Returns the name of the slicer cache. |
 | [GetSlicerCacheItems()](./getslicercacheitems/) | Returns a [SlicerCacheItem](../slicercacheitem/) collection that contains the collection of all items in the slicer cache. Read-only. |
 | [GetSourceName()](./getsourcename/) | Returns the name of this slicer cache. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SlicerCache\& src)](./operator_asm/) | operator= |
-| [SetCrossFilterType(SlicerCacheCrossFilterType value)](./setcrossfiltertype/) | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write. |
+| [SetCrossFilterType(SlicerCacheCrossFilterType value)](./setcrossfiltertype/) |  **(Deprecated)** Indicates how to show items with no data of slicer. |
 | [SlicerCache(SlicerCache_Impl* impl)](./slicercache/) | Constructs from an implementation object. |
 | [SlicerCache(const SlicerCache\& src)](./slicercache/) | Copy constructor. |
 | [~SlicerCache()](./~slicercache/) | Destructor. |

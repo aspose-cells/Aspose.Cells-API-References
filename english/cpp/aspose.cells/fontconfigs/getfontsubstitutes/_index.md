@@ -2,7 +2,7 @@
 title: Aspose::Cells::FontConfigs::GetFontSubstitutes method
 linktitle: GetFontSubstitutes
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FontConfigs::GetFontSubstitutes method. Returns array containing font substitute names to be used if original font is not presented in C++.'
+description: 'Aspose::Cells::FontConfigs::GetFontSubstitutes method. Returns an array containing font substitute names to be used if original font is not present in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells/fontconfigs/getfontsubstitutes/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/fontconfigs/getfontsubstitutes/
 ## FontConfigs::GetFontSubstitutes(const U16String\&) method
 
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not present.
 
 ```cpp
 static Vector<U16String> Aspose::Cells::FontConfigs::GetFontSubstitutes(const U16String &originalFontName)
@@ -35,7 +35,7 @@ An array containing font substitute names to be used if original font is not pre
 ## FontConfigs::GetFontSubstitutes(const char16_t*) method
 
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not present.
 
 ```cpp
 static Vector<U16String> Aspose::Cells::FontConfigs::GetFontSubstitutes(const char16_t *originalFontName)

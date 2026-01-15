@@ -27,8 +27,8 @@ class CellWatchCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets and sets [CellWatch](../cellwatch/) by index. |
 | [get(string)](#get-string-)| Gets and sets [CellWatch](../cellwatch/) by the name of the cell. |
-| [add(number, number)](#add-number-number-)| Adds [CellWatch](../cellwatch/) with row and column. |
-| [add(string)](#add-string-)| Adds [CellWatch](../cellwatch/) with the name the of cell. |
+| [add(number, number)](#add-number-number-)| Adds [Aspose.Cells.CellWatch](../aspose.cells.cellwatch/) with a row and a column. |
+| [add(string)](#add-string-)| Adds [Aspose.Cells.CellWatch](../aspose.cells.cellwatch/) with the name of the cell. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -78,7 +78,7 @@ get(cellName: string) : CellWatch;
 
 ### add(number, number) {#add-number-number-}
 
-Adds [CellWatch](../cellwatch/) with row and column.
+Adds [Aspose.Cells.CellWatch](../aspose.cells.cellwatch/) with a row and a column.
 
 ```javascript
 add(row: number, column: number) : number;
@@ -96,7 +96,7 @@ Returns the position of this item in the collection.
 
 ### add(string) {#add-string-}
 
-Adds [CellWatch](../cellwatch/) with the name the of cell.
+Adds [Aspose.Cells.CellWatch](../aspose.cells.cellwatch/) with the name of the cell.
 
 ```javascript
 add(cellName: string) : number;

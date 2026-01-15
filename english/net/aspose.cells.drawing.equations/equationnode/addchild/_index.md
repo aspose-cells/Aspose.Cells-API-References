@@ -94,6 +94,62 @@ public void AddChild(EquationNode node)
 | --- | --- | --- |
 | node | EquationNode | The specified node |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationNodeMethodAddChildWithEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an equation shape
+            var shape = worksheet.Shapes.AddEquation(0, 0, 200, 50, 0, 0);
+            var equationNode = shape.GetEquationParagraph();
+
+            try
+            {
+                // Create a text node to serve as parent
+                var parentNode = equationNode.AddChild(EquationNodeType.Text);
+                if (parentNode is TextRunEquationNode textNode)
+                {
+                    textNode.Text = "Parent Text";
+                }
+
+                // Create a child node to add using the static CreateNode method
+                var childNode = EquationNode.CreateNode(EquationNodeType.Text, workbook, null);
+                if (childNode is TextRunEquationNode childTextNode)
+                {
+                    childTextNode.Text = "Child Text";
+                }
+
+                // Call AddChild method with EquationNode parameter
+                parentNode.AddChild(childNode);
+
+                Console.WriteLine("AddChild method called successfully with EquationNode parameter");
+                Console.WriteLine("Parent node has children: " + (parentNode.GetChild(0) != null));
+
+                // Save the workbook
+                workbook.Save("EquationNodeAddChildDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling AddChild: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../)

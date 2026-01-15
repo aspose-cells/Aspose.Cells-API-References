@@ -13,12 +13,12 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | --- | --- |
 | [AboveAverage](./aboveaverage/) | Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
 | [AbstractCalculationEngine](./abstractcalculationengine/) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [AbstractCalculationMonitor](./abstractcalculationmonitor/) | Monitor for user to track the progress of formula calculation. |
-| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor/) | Monitor for user to track the change of formulas during certain operations. |
+| [AbstractCalculationMonitor](./abstractcalculationmonitor/) | Monitor for the user to track the progress of the formula calculation. |
+| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor/) | Monitor for the user to track the change of formulas during certain operations. |
 | [AbstractGlobalizationSettings](./abstractglobalizationsettings/) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor/) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](./abstracttextloadoptions/) | Common options for loading text values |
-| [AdvancedFilter](./advancedfilter/) | Represents the settings of advanced filter. |
+| [AdvancedFilter](./advancedfilter/) | Represents the settings of the advanced filter. |
 | [AutoFilter](./autofilter/) | Represents autofiltering for the specified worksheet. |
 | [AutoFitterOptions](./autofitteroptions/) | Represents all auto fitter options. |
 | [Border](./border/) | Encapsulates the object that represents the cell border. |
@@ -27,12 +27,12 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CalculationData](./calculationdata/) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
 | [CalculationOptions](./calculationoptions/) | Represents options for calculation. |
 | [Cell](./cell/) | Encapsulates the object that represents a single Workbook cell. |
-| [CellRichValue](./cellrichvalue/) | Represents rich value of the cell. |
+| [CellRichValue](./cellrichvalue/) | Represents the rich value of the cell. |
 | [Cells](./cells/) | Encapsulates a collection of cell relevant objects, such as [`Cell`](../aspose.cells/cell/), [`Row`](../aspose.cells/row/), ...etc. |
 | [CellsColor](./cellscolor/) | Represents all types of color. |
 | [CellsDataTableFactory](./cellsdatatablefactory/) | Utility to build ICellsDataTable from custom objects for user's convenience. |
 | [CellsException](./cellsexception/) | The exception that is thrown when Aspose.Cells specified error occurs. |
-| [CellsFactory](./cellsfactory/) | Utility for instantiating classes of Cells model. |
+| [CellsFactory](./cellsfactory/) | Utility for instantiating classes of the Cells model. |
 | [CellsHelper](./cellshelper/) | Provides helper functions. |
 | [CellValue](./cellvalue/) | Represents the cell value and corresponding type. |
 | [CellWatch](./cellwatch/) | Represents Cell Watch Item in the 'watch window'. |
@@ -54,7 +54,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CustomFilter](./customfilter/) | Represents the custom filter. |
 | [CustomFilterCollection](./customfiltercollection/) | Represents the custom filters. |
 | [CustomFunctionDefinition](./customfunctiondefinition/) | Definition of custom function for calculating with user's custom engine. |
-| [CustomImplementationFactory](./customimplementationfactory/) | Factory to create some instances which may be re-implemented by user for special purpose. |
+| [CustomImplementationFactory](./customimplementationfactory/) | Factory to create some instances which may be re-implemented by the user for a special purpose. |
 | [DataBar](./databar/) | Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells. |
 | [DataBarBorder](./databarborder/) | Represents the border of the data bars specified by a conditional formatting rule. |
 | [DataSorter](./datasorter/) | Summary description for DataSorter. |
@@ -84,7 +84,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [Font](./font/) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs/) | Specifies font settings |
-| [FontFileDataInfo](./fontfiledatainfo/) | Represents data infomation of font file data. |
+| [FontFileDataInfo](./fontfiledatainfo/) | Represents data information of font file data. |
 | [FontSetting](./fontsetting/) | Represents a range of characters within the cell text. |
 | [FontSourceBase](./fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources |
 | [FormatCondition](./formatcondition/) | Represents conditional formatting condition. |
@@ -95,10 +95,10 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HeaderFooterCommand](./headerfootercommand/) | Represents the command of header/footer |
 | [HorizontalPageBreak](./horizontalpagebreak/) | Encapsulates the object that represents a horizontal page break. |
 | [HorizontalPageBreakCollection](./horizontalpagebreakcollection/) | Encapsulates a collection of [`HorizontalPageBreak`](../aspose.cells/horizontalpagebreak/) objects. |
-| [HtmlLoadOptions](./htmlloadoptions/) | Represents options when importing a html file. |
+| [HtmlLoadOptions](./htmlloadoptions/) | Represents options when importing an HTML file. |
 | [HtmlSaveOptions](./htmlsaveoptions/) | Represents the options for saving html file. |
-| [HtmlTableLoadOption](./htmltableloadoption/) | Represents the option when import table from html. |
-| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when importing html. |
+| [HtmlTableLoadOption](./htmltableloadoption/) | Represents the option when importing a table from HTML. |
+| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when importing HTML. |
 | [Hyperlink](./hyperlink/) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](./hyperlinkcollection/) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink/) objects. |
 | [IconFilter](./iconfilter/) | Represents icon filter. |
@@ -108,8 +108,8 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [IndividualFontConfigs](./individualfontconfigs/) | Font configs for each [`Workbook`](../aspose.cells/workbook/) object. |
 | [InsertOptions](./insertoptions/) | Represents the options of inserting. |
 | [InterruptMonitor](./interruptmonitor/) | Represents all operator about the interrupt. |
-| [JsonLoadOptions](./jsonloadoptions/) | Represents the options of loading json files |
-| [JsonSaveOptions](./jsonsaveoptions/) | Represents the options of saving the workbook as a json file. |
+| [JsonLoadOptions](./jsonloadoptions/) | Represents the options of loading JSON files |
+| [JsonSaveOptions](./jsonsaveoptions/) | Represents the options of saving the workbook as a JSON file. |
 | [License](./license/) | Provides methods to license the component. |
 | [LoadFilter](./loadfilter/) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions/) | Represents the options of loading the file. |
@@ -129,7 +129,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [PaginatedSaveOptions](./paginatedsaveoptions/) | Represents the options for pagination. |
 | [PaneCollection](./panecollection/) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions/) | Represents the paste special options. |
-| [PclSaveOptions](./pclsaveoptions/) | Represents the options for saving Pcl file. |
+| [PclSaveOptions](./pclsaveoptions/) | Represents the options for saving a Pcl file. |
 | [PdfSaveOptions](./pdfsaveoptions/) | Represents the options for saving pdf file. |
 | [PptxSaveOptions](./pptxsaveoptions/) | Represents the pptx save options. |
 | [ProtectedRange](./protectedrange/) | A specified range to be allowed to edit when the sheet protection is ON. |
@@ -161,8 +161,8 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor/) | Simple implementation of [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
 | [ThemeColor](./themecolor/) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment/) | Represents the threaded comment. |
-| [ThreadedCommentAuthor](./threadedcommentauthor/) | Represents the person who creates the threaded comments; |
-| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection/) | Represents all persons who . |
+| [ThreadedCommentAuthor](./threadedcommentauthor/) | Represents the person who creates the threaded comments. |
+| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection/) | Represents all persons. |
 | [ThreadedCommentCollection](./threadedcommentcollection/) | Represents the list of threaded comments. |
 | [ThreadInterruptMonitor](./threadinterruptmonitor/) | Simple implementation of [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) by starting another thread to require the interruption after sleeping user specified limit. |
 | [Top10](./top10/) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
@@ -212,7 +212,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 
 | Enumeration | Description |
 | --- | --- |
-| [AccessCacheOptions](./accesscacheoptions/) | Cache options for data access. Can be combined with &#x7C; operator for multiple options together. |
+| [AccessCacheOptions](./accesscacheoptions/) | Caching options for data access. Multiple options can be combined using the "&#x7C;" operator. |
 | [AutoFillType](./autofilltype/) | Represents the auto fill type. |
 | [AutoFitMergedCellsType](./autofitmergedcellstype/) | Represents the type of auto fitting merged cells. |
 | [AutoFitWrappedTextType](./autofitwrappedtexttype/) | Represents the type of auto fitting wrapped text. |
@@ -228,7 +228,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [ColorType](./colortype/) | Represents all color type |
 | [ConsolidationFunction](./consolidationfunction/) | Represents consolidation function. |
 | [ContentDisposition](./contentdisposition/) | The content disposition type. |
-| [CopyFormatType](./copyformattype/) | Represents type of copying format when inserting rows. |
+| [CopyFormatType](./copyformattype/) | Represents the type of copying format when inserting rows. |
 | [CountryCode](./countrycode/) | Represents Excel country identifiers. |
 | [DataBarAxisPosition](./databaraxisposition/) | Specifies the axis position for a range of cells with conditional formatting as data bars. |
 | [DataBarBorderType](./databarbordertype/) | Specifies the border type of a data bar. |
@@ -262,7 +262,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype/) | Represents two types of showing the hidden columns in html. |
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML  tag. |
-| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how export OfficeMath to HTML. |
+| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how to export OfficeMath to HTML. |
 | [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype/) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
@@ -270,8 +270,8 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [LookAtType](./lookattype/) | Represents look at type. |
 | [LookInType](./lookintype/) | Represents look in type. |
 | [MemorySetting](./memorysetting/) | Memory usage modes for cells data model. |
-| [MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
-| [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. |
+| [MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns. |
+| [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for an empty TD element when exporting a file to HTML. |
 | [NameScopeType](./namescopetype/) | Represents the scope type of defined names. |
 | [NumberCategoryType](./numbercategorytype/) | Represents category type of cell's number formatting. |
 | [OoxmlCompliance](./ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |
@@ -282,7 +282,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [PaneStateType](./panestatetype/) | Represents state of the sheet's pane. |
 | [PaperSizeType](./papersizetype/) | Represents paper size constants. |
 | [ParameterType](./parametertype/) | Represents all parameters' type or return value type of function. |
-| [PasteOperationType](./pasteoperationtype/) | Represents operation type when pasting range. |
+| [PasteOperationType](./pasteoperationtype/) | Represents the operation type when pasting a range. |
 | [PasteType](./pastetype/) | Represents the paste special type. |
 | [PrintCommentsType](./printcommentstype/) | Represents the way comments are printed with the sheet. |
 | [PrintErrorsType](./printerrorstype/) | Represents print errors constants. |
@@ -295,7 +295,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [SaveFormat](./saveformat/) | Represents the format in which the workbook is saved. |
 | [SheetType](./sheettype/) | Specifies the worksheet type. |
 | [ShiftType](./shifttype/) | Represent the shift options when deleting a range of cells. |
-| [SignificantDigitsType](./significantdigitstype/) | Represents the type of significant digits for outputing numeric values. |
+| [SignificantDigitsType](./significantdigitstype/) | Represents the type of significant digits for outputting numeric values. |
 | [SortOnType](./sortontype/) | Sorted value type. |
 | [SortOrder](./sortorder/) | Represents sort order for the data range. |
 | [StyleModifyFlag](./stylemodifyflag/) | The style modified flags. |

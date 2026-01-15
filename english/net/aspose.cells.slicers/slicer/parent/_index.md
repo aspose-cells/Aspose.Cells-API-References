@@ -7,11 +7,17 @@ url: /net/aspose.cells.slicers/slicer/parent/
 ---
 ## Slicer.Parent property
 
-Returns the [`Worksheet`](../../../aspose.cells/worksheet/) object which contains this slicer. Read-only.
+Returns the [`Worksheet`](../worksheet/) object which contains this slicer. Read-only.
 
 ```csharp
+[Obsolete("Use Slicer.Worksheet property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public Worksheet Parent { get; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use [`Worksheet`](../worksheet/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

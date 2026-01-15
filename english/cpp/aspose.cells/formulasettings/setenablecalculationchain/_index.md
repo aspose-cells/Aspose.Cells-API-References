@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::SetEnableCalculationChain method
 linktitle: SetEnableCalculationChain
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::SetEnableCalculationChain method. Whether enable calculation chain for formulas. Default is false in C++.'
+description: 'Aspose::Cells::FormulaSettings::SetEnableCalculationChain method. Indicates whether to enable calculation chain for formulas. Default is false in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.cells/formulasettings/setenablecalculationchain/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/setenablecalculationchain/
 ## FormulaSettings::SetEnableCalculationChain method
 
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```cpp
 void Aspose::Cells::FormulaSettings::SetEnableCalculationChain(bool value)

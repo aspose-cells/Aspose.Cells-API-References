@@ -4,7 +4,7 @@ linktitle: SetIsLocked
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetIsLocked method. Indicates whether the slicer shape is locked in C++.'
 type: docs
-weight: 1500
+weight: 2300
 url: /cpp/aspose.cells.slicers/slicer/setislocked/
 ---
 ## Slicer::SetIsLocked method
@@ -12,20 +12,19 @@ url: /cpp/aspose.cells.slicers/slicer/setislocked/
 
 Indicates whether the slicer shape is locked.
 
+
+>Deprecated
+>
+>Use Shape.IsLocked property instead. 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::SetIsLocked(bool value)
 ```
 
+## Remarks
 
-## Examples
 
+NOTE: This member is now obsolete. Instead, please use [Shape.IsLocked](../../../aspose.cells.drawing/shape/islocked/) property. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
-```cpp
-if (slicer.IsLocked() == true)
-{
-    slicer.SetIsLocked(false);
-}
-```
 
 ## See Also
 

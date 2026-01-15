@@ -2,7 +2,7 @@
 title: Aspose::Cells::CalculationData::GetCellColumn method
 linktitle: GetCellColumn
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CalculationData::GetCellColumn method. Gets the column index of the cell where the function is in in C++.'
+description: 'Aspose::Cells::CalculationData::GetCellColumn method. Gets the column index of the cell where the function is in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells/calculationdata/getcellcolumn/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/calculationdata/getcellcolumn/
 ## CalculationData::GetCellColumn method
 
 
-Gets the column index of the cell where the function is in.
+Gets the column index of the cell where the function is.
 
 ```cpp
 int32_t Aspose::Cells::CalculationData::GetCellColumn()

@@ -25,17 +25,17 @@ class CellValue;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| CellValueType | Gets/sets the type of cell value. |
-| [value](#value--)| Object | Gets/sets the cell value. |
+| [type](#type--)| CellValueType | Gets or sets the type of cell value. |
+| [value](#value--)| Object | Gets or sets the cell value. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets/sets the type of cell value. |
-| [setType(CellValueType)](#setType-cellvaluetype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets/sets the type of cell value. |
-| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the cell value. |
-| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the cell value. |
+| [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the type of cell value. |
+| [setType(CellValueType)](#setType-cellvaluetype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the type of cell value. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the cell value. |
+| [setValue(Object)](#setValue-object-)| <b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the cell value. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -50,7 +50,7 @@ constructor();
 
 ### type {#type--}
 
-Gets/sets the type of cell value.
+Gets or sets the type of cell value.
 
 ```javascript
 type : CellValueType;
@@ -59,7 +59,7 @@ type : CellValueType;
 
 ### value {#value--}
 
-Gets/sets the cell value.
+Gets or sets the cell value.
 
 ```javascript
 value : Object;
@@ -72,7 +72,7 @@ The value must be of the correct type of object corresponding to the [Type](../t
 
 ### getType() {#getType--}
 
-<b>@deprecated.</b> Please use the 'type' property instead. Gets/sets the type of cell value.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the type of cell value.
 
 ```javascript
 getType() : CellValueType;
@@ -85,7 +85,7 @@ getType() : CellValueType;
 
 ### setType(CellValueType) {#setType-cellvaluetype-}
 
-<b>@deprecated.</b> Please use the 'type' property instead. Gets/sets the type of cell value.
+<b>@deprecated.</b> Please use the 'type' property instead. Gets or sets the type of cell value.
 
 ```javascript
 setType(value: CellValueType) : void;
@@ -98,7 +98,7 @@ setType(value: CellValueType) : void;
 
 ### getValue() {#getValue--}
 
-<b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the cell value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the cell value.
 
 ```javascript
 getValue() : Object;
@@ -111,7 +111,7 @@ The value must be of the correct type of object corresponding to the [Type](../t
 
 ### setValue(Object) {#setValue-object-}
 
-<b>@deprecated.</b> Please use the 'value' property instead. Gets/sets the cell value.
+<b>@deprecated.</b> Please use the 'value' property instead. Gets or sets the cell value.
 
 ```javascript
 setValue(value: Object) : void;

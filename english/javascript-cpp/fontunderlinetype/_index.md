@@ -30,5 +30,5 @@ Enumerates the font underline types.
 | Wave | `16` | Represents Wave Underline |
 | WavyDouble | `17` | Represents Double Wave Underline |
 | WavyHeavy | `18` | Represents Heavy Wave Underline |
-| Words | `19` | Represents Underline Non-Space Characters Only |
+| Words | `19` | Represents Underline Non-Space Characters. |
 

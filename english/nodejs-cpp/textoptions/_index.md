@@ -34,10 +34,11 @@ class TextOptions extends Font;
 | [underlineColor](#underlineColor--)| CellsColor | Gets or sets the color of underline. |
 | [kerning](#kerning--)| number | Specifies the minimum font size at which character kerning will occur for this text run. |
 | [spacing](#spacing--)| number | Specifies the spacing between characters within a text run. |
+| [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
+| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
 | [charset](#charset--)| number | Represent the character set. |
 | [isItalic](#isItalic--)| boolean | Gets or sets a value indicating whether the font is italic. |
 | [isBold](#isBold--)| boolean | Gets or sets a value indicating whether the font is bold. |
-| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
 | [strikeType](#strikeType--)| TextStrikeType | Gets the strike type of the text. |
 | [isStrikeout](#isStrikeout--)| boolean | Gets or sets a value indicating whether the font is single strikeout. |
 | [scriptOffset](#scriptOffset--)| number | Gets and sets the script offset,in unit of percentage |
@@ -49,7 +50,6 @@ class TextOptions extends Font;
 | [themeColor](#themeColor--)| ThemeColor | Gets and sets the theme color. |
 | [color](#color--)| Color | Gets or sets the [Color](../color/) of the font. |
 | [argbColor](#argbColor--)| number | Gets and sets the color with a 32-bit ARGB value. |
-| [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
 | [schemeType](#schemeType--)| FontSchemeType | Gets and sets the scheme type of the font. |
 
 ## Methods
@@ -71,6 +71,10 @@ class TextOptions extends Font;
 | [setKerning(number)](#setKerning-number-)| <b>@deprecated.</b> Please use the 'kerning' property instead. Specifies the minimum font size at which character kerning will occur for this text run. |
 | [getSpacing()](#getSpacing--)| <b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run. |
 | [setSpacing(number)](#setSpacing-number-)| <b>@deprecated.</b> Please use the 'spacing' property instead. Specifies the spacing between characters within a text run. |
+| [isNormalizeHeights()](#isNormalizeHeights--)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
+| [setIsNormalizeHeights(boolean)](#setIsNormalizeHeights-boolean-)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
+| [getCapsType()](#getCapsType--)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
+| [setCapsType(TextCapsType)](#setCapsType-textcapstype-)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getCharset()](#getCharset--)| <b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set. |
 | [setCharset(number)](#setCharset-number-)| <b>@deprecated.</b> Please use the 'charset' property instead. Represent the character set. |
@@ -78,8 +82,6 @@ class TextOptions extends Font;
 | [setIsItalic(boolean)](#setIsItalic-boolean-)| <b>@deprecated.</b> Please use the 'isItalic' property instead. Gets or sets a value indicating whether the font is italic. |
 | [isBold()](#isBold--)| <b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold. |
 | [setIsBold(boolean)](#setIsBold-boolean-)| <b>@deprecated.</b> Please use the 'isBold' property instead. Gets or sets a value indicating whether the font is bold. |
-| [getCapsType()](#getCapsType--)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
-| [setCapsType(TextCapsType)](#setCapsType-textcapstype-)| <b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type. |
 | [getStrikeType()](#getStrikeType--)| <b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text. |
 | [setStrikeType(TextStrikeType)](#setStrikeType-textstriketype-)| <b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text. |
 | [isStrikeout()](#isStrikeout--)| <b>@deprecated.</b> Please use the 'isStrikeout' property instead. Gets or sets a value indicating whether the font is single strikeout. |
@@ -102,8 +104,6 @@ class TextOptions extends Font;
 | [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets the [Color](../color/) of the font. |
 | [getArgbColor()](#getArgbColor--)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| <b>@deprecated.</b> Please use the 'argbColor' property instead. Gets and sets the color with a 32-bit ARGB value. |
-| [isNormalizeHeights()](#isNormalizeHeights--)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
-| [setIsNormalizeHeights(boolean)](#setIsNormalizeHeights-boolean-)| <b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run. |
 | [getSchemeType()](#getSchemeType--)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| <b>@deprecated.</b> Please use the 'schemeType' property instead. Gets and sets the scheme type of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
@@ -206,6 +206,28 @@ spacing : number;
 ```
 
 
+### isNormalizeHeights {#isNormalizeHeights--}
+
+Indicates whether the normalization of height that is to be applied to the text run.
+
+```javascript
+isNormalizeHeights : boolean;
+```
+
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
+
+### capsType {#capsType--}
+
+Gets and sets the text caps type.
+
+```javascript
+capsType : TextCapsType;
+```
+
+
 ### charset {#charset--}
 
 Represent the character set.
@@ -230,15 +252,6 @@ Gets or sets a value indicating whether the font is bold.
 
 ```javascript
 isBold : boolean;
-```
-
-
-### capsType {#capsType--}
-
-Gets and sets the text caps type.
-
-```javascript
-capsType : TextCapsType;
 ```
 
 
@@ -268,6 +281,10 @@ Gets and sets the script offset,in unit of percentage
 scriptOffset : number;
 ```
 
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript {#isSuperscript--}
 
@@ -342,15 +359,6 @@ Gets and sets the color with a 32-bit ARGB value.
 
 ```javascript
 argbColor : number;
-```
-
-
-### isNormalizeHeights {#isNormalizeHeights--}
-
-Indicates whether the normalization of height that is to be applied to the text run.
-
-```javascript
-isNormalizeHeights : boolean;
 ```
 
 
@@ -542,6 +550,62 @@ setSpacing(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### isNormalizeHeights() {#isNormalizeHeights--}
+
+<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
+
+```javascript
+isNormalizeHeights() : boolean;
+```
+
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
+
+### setIsNormalizeHeights(boolean) {#setIsNormalizeHeights-boolean-}
+
+<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
+
+```javascript
+setIsNormalizeHeights(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
+
+### getCapsType() {#getCapsType--}
+
+<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
+
+```javascript
+getCapsType() : TextCapsType;
+```
+
+
+**Returns**
+
+[TextCapsType](../textcapstype/)
+
+### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
+
+<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
+
+```javascript
+setCapsType(value: TextCapsType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TextCapsType](../textcapstype/) | The value to set. |
+
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -617,32 +681,6 @@ setIsBold(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getCapsType() {#getCapsType--}
-
-<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
-
-```javascript
-getCapsType() : TextCapsType;
-```
-
-
-**Returns**
-
-[TextCapsType](../textcapstype/)
-
-### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
-
-<b>@deprecated.</b> Please use the 'capsType' property instead. Gets and sets the text caps type.
-
-```javascript
-setCapsType(value: TextCapsType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextCapsType](../textcapstype/) | The value to set. |
-
 ### getStrikeType() {#getStrikeType--}
 
 <b>@deprecated.</b> Please use the 'strikeType' property instead. Gets the strike type of the text.
@@ -700,6 +738,10 @@ getScriptOffset() : number;
 ```
 
 
+**Remarks**
+
+Only for shapes and charts.
+
 ### setScriptOffset(number) {#setScriptOffset-number-}
 
 <b>@deprecated.</b> Please use the 'scriptOffset' property instead. Gets and sets the script offset,in unit of percentage
@@ -712,6 +754,10 @@ setScriptOffset(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript() {#isSuperscript--}
 
@@ -908,28 +954,6 @@ setArgbColor(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
-
-### isNormalizeHeights() {#isNormalizeHeights--}
-
-<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
-
-```javascript
-isNormalizeHeights() : boolean;
-```
-
-
-### setIsNormalizeHeights(boolean) {#setIsNormalizeHeights-boolean-}
-
-<b>@deprecated.</b> Please use the 'isNormalizeHeights' property instead. Indicates whether the normalization of height that is to be applied to the text run.
-
-```javascript
-setIsNormalizeHeights(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
 
 ### getSchemeType() {#getSchemeType--}
 

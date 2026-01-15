@@ -17,11 +17,18 @@ public class Timeline
 
 | Name | Description |
 | --- | --- |
-| [Caption](../../aspose.cells.timelines/timeline/caption/) { get; set; } | Returns or sets the caption of the specified Timeline. |
+| [Caption](../../aspose.cells.timelines/timeline/caption/) { get; set; } | Gets or sets the caption of this Timeline. |
+| [CurrentLevel](../../aspose.cells.timelines/timeline/currentlevel/) { get; set; } | The current time level of the Timeline. |
 | [HeightPixel](../../aspose.cells.timelines/timeline/heightpixel/) { get; set; } | (**Obsolete.**) Returns or sets the height of the specified timeline, in pixels. |
 | [LeftPixel](../../aspose.cells.timelines/timeline/leftpixel/) { get; set; } | (**Obsolete.**) Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [Name](../../aspose.cells.timelines/timeline/name/) { get; set; } | Returns or sets the name of the specified Timeline |
-| [Shape](../../aspose.cells.timelines/timeline/shape/) { get; } | Returns the [`TimelineShape`](../../aspose.cells.drawing/timelineshape/) object associated with this Timeline. Read-only. |
+| [SelectionLevel](../../aspose.cells.timelines/timeline/selectionlevel/) { get; set; } | Gets and sets the time level at which the current selection was made for the Timeline. |
+| [Shape](../../aspose.cells.timelines/timeline/shape/) { get; } | Returns the [`TimelineShape`](../../aspose.cells.drawing/timelineshape/) object associated with this Timeline. |
+| [ShowHeader](../../aspose.cells.timelines/timeline/showheader/) { get; set; } | Indicates whether to display the header. |
+| [ShowHorizontalScrollbar](../../aspose.cells.timelines/timeline/showhorizontalscrollbar/) { get; set; } | Indicates whether to display the horizontal ccroll bar. |
+| [ShowSelectionLabel](../../aspose.cells.timelines/timeline/showselectionlabel/) { get; set; } | Indicates whether to display the selction label. |
+| [ShowTimeLevel](../../aspose.cells.timelines/timeline/showtimelevel/) { get; set; } | Indicates whether to display the time level. |
+| [StartDate](../../aspose.cells.timelines/timeline/startdate/) { get; set; } | Gets and sets the start date of the timespan scrolling position of this `Timeline`. |
 | [TopPixel](../../aspose.cells.timelines/timeline/toppixel/) { get; set; } | (**Obsolete.**) Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [WidthPixel](../../aspose.cells.timelines/timeline/widthpixel/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified timeline, in pixels. |
 

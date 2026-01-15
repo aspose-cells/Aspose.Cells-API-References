@@ -23,6 +23,7 @@ public class PivotTableRefreshOption
 
 | Name | Description |
 | --- | --- |
+| [IsKeepOriginalOrder](../../aspose.cells.pivot/pivottablerefreshoption/iskeeporiginalorder/) { get; set; } | Indicates whether to keep pivot items' original order as old data source. |
 | [ReserveMissingPivotItemType](../../aspose.cells.pivot/pivottablerefreshoption/reservemissingpivotitemtype/) { get; set; } | Represents how to reserve missing pivot items. |
 
 ### Examples

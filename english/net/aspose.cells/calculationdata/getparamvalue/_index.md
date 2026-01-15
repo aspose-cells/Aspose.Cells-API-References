@@ -1,13 +1,13 @@
 ---
 title: CalculationData.GetParamValue
 second_title: Aspose.Cells for .NET API Reference
-description: CalculationData method. Gets the represented value object of the parameter at given index
+description: CalculationData method. Gets the represented value object of the parameter at a given index
 type: docs
 url: /net/aspose.cells/calculationdata/getparamvalue/
 ---
 ## CalculationData.GetParamValue method
 
-Gets the represented value object of the parameter at given index.
+Gets the represented value object of the parameter at a given index.
 
 ```csharp
 public object GetParamValue(int index)

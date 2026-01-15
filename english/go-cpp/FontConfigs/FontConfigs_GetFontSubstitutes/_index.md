@@ -10,7 +10,7 @@ url: /go-cpp/fontconfigs/fontconfigs_getfontsubstitutes/
 
 ## FontConfigs_GetFontSubstitutes function
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not present.
 
 ```go
 

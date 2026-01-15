@@ -10,7 +10,7 @@ url: /go-cpp/htmlofficemathoutputtype/
 
 ## HtmlOfficeMathOutputType Enum
 
-Represents how export OfficeMath to HTML.
+Represents how to export OfficeMath to HTML.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/calculationdata/getworksheet/
 
 ## GetWorksheet function
 
-Gets the Worksheet object where the function is in.
+Gets the Worksheet object where the function is.
 
 ```go
 

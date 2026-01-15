@@ -17,6 +17,48 @@ public void SetTextOfColumnLabels(string text)
 | --- | --- | --- |
 | text | String | The text of column labels |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class SettablePivotGlobalizationSettingsMethodSetTextOfColumnLabelsWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook (just for context)
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Demo Data");
+
+            try
+            {
+                // Create an instance of SettablePivotGlobalizationSettings
+                SettablePivotGlobalizationSettings settings = new SettablePivotGlobalizationSettings();
+
+                // Set custom text for the "Column Labels" label
+                string customColumnLabel = "My Column Headers";
+                settings.SetTextOfColumnLabels(customColumnLabel);
+
+                // Retrieve the current text to verify the change
+                string currentLabel = settings.GetTextOfColumnLabels();
+                Console.WriteLine($"Column Labels text is now: \"{currentLabel}\"");
+
+                // Save the workbook (no pivot table is required for this demo)
+                workbook.Save("SetTextOfColumnLabelsDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling SetTextOfColumnLabels: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SettablePivotGlobalizationSettings](../)

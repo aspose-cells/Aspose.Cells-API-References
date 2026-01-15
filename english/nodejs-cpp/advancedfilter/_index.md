@@ -1,14 +1,14 @@
 ﻿---
 title: AdvancedFilter
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the settings of advanced filter.
+description: Represents the settings of the advanced filter.
 type: docs
 url: /nodejs-cpp/advancedfilter/
 ---
 
 ## AdvancedFilter class
 
-Represents the settings of advanced filter.
+Represents the settings of the advanced filter.
 
 ```javascript
 class AdvancedFilter;

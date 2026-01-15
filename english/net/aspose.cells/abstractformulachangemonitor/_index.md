@@ -1,13 +1,13 @@
 ---
 title: Class AbstractFormulaChangeMonitor
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.AbstractFormulaChangeMonitor class. Monitor for user to track the change of formulas during certain operations
+description: Aspose.Cells.AbstractFormulaChangeMonitor class. Monitor for the user to track the change of formulas during certain operations
 type: docs
 url: /net/aspose.cells/abstractformulachangemonitor/
 ---
 ## AbstractFormulaChangeMonitor class
 
-Monitor for user to track the change of formulas during certain operations.
+Monitor for the user to track the change of formulas during certain operations.
 
 ```csharp
 public abstract class AbstractFormulaChangeMonitor

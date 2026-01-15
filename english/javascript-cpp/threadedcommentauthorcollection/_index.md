@@ -1,14 +1,14 @@
 ﻿---
 title: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents all persons who .
+description: Represents all persons.
 type: docs
 url: /javascript-cpp/threadedcommentauthorcollection/
 ---
 
 ## ThreadedCommentAuthorCollection class
 
-Represents all persons who .
+Represents all persons.
 
 ```javascript
 class ThreadedCommentAuthorCollection;

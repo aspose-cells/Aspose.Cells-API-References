@@ -68,6 +68,64 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 | row | Int32 | the destination row. |
 | col | Int32 | the destination column. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodImportXmlWithStreamStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Create sample XML data
+            string xmlData = @"<Products>
+                <Product>
+                    <Name>Laptop</Name>
+                    <Price>999.99</Price>
+                </Product>
+                <Product>
+                    <Name>Phone</Name>
+                    <Price>699.99</Price>
+                </Product>
+            </Products>";
+
+            // Convert XML string to a MemoryStream
+            MemoryStream xmlStream = new MemoryStream();
+            StreamWriter writer = new StreamWriter(xmlStream);
+            writer.Write(xmlData);
+            writer.Flush();
+            xmlStream.Position = 0;
+
+            try
+            {
+                // Import XML data into the workbook starting at cell A1 of the first worksheet
+                workbook.ImportXml(xmlStream, "Sheet1", 0, 0);
+
+                // Save the workbook
+                workbook.Save("ImportXmlDemo.xlsx");
+                Console.WriteLine("XML data imported successfully to ImportXmlDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error importing XML: {ex.Message}");
+            }
+            finally
+            {
+                // Clean up resources
+                xmlStream.Dispose();
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

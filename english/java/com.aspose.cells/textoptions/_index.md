@@ -62,6 +62,7 @@ Represents the text options.
 | [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language. |
 | [setLatinName(String value)](#setLatinName-java.lang.String-) | Sets the latin name. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the shape. |
+| [setName(String name, int type)](#setName-java.lang.String-int-) | Sets name and scheme of the font. |
 | [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | Indicates whether the normalization of height that is to be applied to the text run. |
 | [setSchemeType(int value)](#setSchemeType-int-) | Sets the scheme type of the font. |
 | [setScriptOffset(double value)](#setScriptOffset-double-) | Sets the script offset,in unit of percentage |
@@ -262,6 +263,10 @@ public double getScriptOffset()
 
 Gets the script offset,in unit of percentage
 
+**Remarks**
+
+Only for shapes and charts.
+
 **Returns:**
 double
 ### getShadow() {#getShadow--}
@@ -379,6 +384,10 @@ public boolean isNormalizeHeights()
 
 
 Indicates whether the normalization of height that is to be applied to the text run.
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
 
 **Returns:**
 boolean
@@ -588,6 +597,20 @@ Sets the name of the shape.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setName(String name, int type) {#setName-java.lang.String-int-}
+```
+public void setName(String name, int type)
+```
+
+
+Sets name and scheme of the font.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String |  |
+| type | int | [FontSchemeType](../../com.aspose.cells/fontschemetype). |
+
 ### setNormalizeHeights(boolean value) {#setNormalizeHeights-boolean-}
 ```
 public void setNormalizeHeights(boolean value)
@@ -595,6 +618,10 @@ public void setNormalizeHeights(boolean value)
 
 
 Indicates whether the normalization of height that is to be applied to the text run.
+
+**Remarks**
+
+Only for the fonts of Shapes or Charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -623,6 +650,10 @@ public void setScriptOffset(double value)
 
 
 Sets the script offset,in unit of percentage
+
+**Remarks**
+
+Only for shapes and charts.
 
 **Parameters:**
 | Parameter | Type | Description |

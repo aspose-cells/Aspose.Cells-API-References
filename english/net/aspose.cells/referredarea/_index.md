@@ -39,6 +39,90 @@ public class ReferredArea
 | [GetValues](../../aspose.cells/referredarea/getvalues/#getvalues_1)(bool) | Gets cell values in this area. |
 | override [ToString](../../aspose.cells/referredarea/tostring/)() | Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassReferredAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Set up some data and a formula that references a range
+                worksheet.Cells["A1"].PutValue(10);
+                worksheet.Cells["A2"].PutValue(20);
+                worksheet.Cells["B1"].PutValue(30);
+                worksheet.Cells["B2"].PutValue(40);
+
+                // Create a formula that references the range A1:B2
+                Cell formulaCell = worksheet.Cells["C1"];
+                formulaCell.Formula = "=SUM(A1:B2)";
+
+                // Get the referred areas from the formula
+                ReferredAreaCollection referredAreas = formulaCell.GetPrecedents();
+                if (referredAreas.Count > 0)
+                {
+                    // Get the first referred area
+                    ReferredArea referredArea = referredAreas[0];
+
+                    // Display basic properties of the referred area
+                    Console.WriteLine($"Referred Area Details:");
+                    Console.WriteLine($"- Is External Link: {referredArea.IsExternalLink}");
+                    Console.WriteLine($"- Sheet Name: {referredArea.SheetName}");
+                    Console.WriteLine($"- Start Row: {referredArea.StartRow}");
+                    Console.WriteLine($"- Start Column: {referredArea.StartColumn}");
+                    Console.WriteLine($"- End Row: {referredArea.EndRow}");
+                    Console.WriteLine($"- End Column: {referredArea.EndColumn}");
+                    Console.WriteLine($"- Is Area: {referredArea.IsArea}");
+                    Console.WriteLine($"- Is Entire Row: {referredArea.IsEntireRow}");
+                    Console.WriteLine($"- Is Entire Column: {referredArea.IsEntireColumn}");
+
+                    // Get values from the referred area
+                    object values = referredArea.GetValues();
+                    if (values is Array)
+                    {
+                        object[][] valueArray = (object[][])values;
+                        Console.WriteLine("\nValues in the referred area:");
+                        foreach (object[] row in valueArray)
+                        {
+                            foreach (object val in row)
+                            {
+                                Console.Write($"{val}\t");
+                            }
+                            Console.WriteLine();
+                        }
+                    }
+
+                    // Get a specific value from the referred area
+                    object specificValue = referredArea.GetValue(0, 1);
+                    Console.WriteLine($"\nValue at row 0, column 1: {specificValue}");
+
+                    // Display the reference address
+                    Console.WriteLine($"Reference address: {referredArea.ToString()}");
+                }
+
+                // Save the workbook
+                workbook.Save("ReferredAreaDemo.xlsx");
+                Console.WriteLine("\nWorkbook saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ReferredArea: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

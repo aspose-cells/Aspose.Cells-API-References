@@ -16,6 +16,10 @@ Gets and sets the script offset,in unit of percentage.
 void Aspose::Cells::Font::SetScriptOffset(double value)
 ```
 
+## Remarks
+
+
+Only for shapes and charts. 
 ## See Also
 
 * Class [Vector](../../vector/)

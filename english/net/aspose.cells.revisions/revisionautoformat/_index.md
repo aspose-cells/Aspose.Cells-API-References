@@ -22,6 +22,68 @@ public class RevisionAutoFormat : Revision
 | override [Type](../../aspose.cells.revisions/revisionautoformat/type/) { get; } | Gets the type of the revision. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet/) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Revisions;
+    using System;
+
+    public class RevisionsClassRevisionAutoFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+
+            try
+            {
+                // Access the revision logs collection
+                RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+                // Find the first RevisionAutoFormat instance
+                RevisionAutoFormat revisionFormat = null;
+                foreach (RevisionLog revisionLog in revisionLogs)
+                {
+                    foreach (Revision revision in revisionLog.Revisions)
+                    {
+                        if (revision is RevisionAutoFormat)
+                        {
+                            revisionFormat = (RevisionAutoFormat)revision;
+                            break;
+                        }
+                    }
+                    if (revisionFormat != null) break;
+                }
+
+                if (revisionFormat != null)
+                {
+                    // Demonstrate the Type property (read-only)
+                    RevisionType type = revisionFormat.Type;
+                    Console.WriteLine($"Revision type: {type}");
+
+                    // Demonstrate the CellArea property (read-only)
+                    CellArea area = revisionFormat.CellArea;
+                    Console.WriteLine($"Formatting applied to area: StartRow={area.StartRow}, " +
+                                      $"StartColumn={area.StartColumn}, EndRow={area.EndRow}, " +
+                                      $"EndColumn={area.EndColumn}");
+                }
+                else
+                {
+                    Console.WriteLine("No auto-format revisions found in the workbook");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with RevisionAutoFormat: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Revision](../revision/)

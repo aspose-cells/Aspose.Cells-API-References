@@ -10,7 +10,7 @@ url: /go-cpp/deleteblankoptions/setemptystringasblank/
 
 ## SetEmptyStringAsBlank function
 
-Whether one cell will be taken as blank when its value is empty string.Default value is true.
+Indicates whether one cell will be taken as blank when its value is an empty string.Default value is true.
 
 ```go
 

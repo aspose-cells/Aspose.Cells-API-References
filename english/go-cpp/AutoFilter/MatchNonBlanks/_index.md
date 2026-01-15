@@ -10,7 +10,7 @@ url: /go-cpp/autofilter/matchnonblanks/
 
 ## MatchNonBlanks function
 
-Match all not blank cell in the list.
+Match all not-blank cells in the list.
 
 ```go
 

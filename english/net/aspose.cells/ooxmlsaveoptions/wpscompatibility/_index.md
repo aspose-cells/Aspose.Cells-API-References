@@ -10,8 +10,14 @@ url: /net/aspose.cells/ooxmlsaveoptions/wpscompatibility/
 Indicates whether to make the xls more compatible with WPS.
 
 ```csharp
+[Obsolete("Use WorkbookSetting.WpsCompatibility property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool WpsCompatibility { get; set; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use WorkbookSetting.WpsCompatibility property. This method will be removed 12 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

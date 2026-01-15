@@ -30,6 +30,52 @@ public enum ShapeTextVerticalAlignmentType
 | CenterMiddle | `10` |  |
 | RightMiddle | `11` |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class TextsClassShapeTextVerticalAlignmentTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a text box to the worksheet
+                var textBox = worksheet.Shapes.AddTextBox(1, 0, 1, 0, 200, 300);
+                textBox.Text = "Sample text for vertical alignment demonstration";
+
+                // Set vertical text alignment to Middle
+                textBox.TextBoxOptions.ShapeTextVerticalAlignment = ShapeTextVerticalAlignmentType.Middle;
+
+                // Display the current vertical alignment
+                Console.WriteLine("Current vertical alignment: " + textBox.TextBoxOptions.ShapeTextVerticalAlignment);
+
+                // Change to Top alignment
+                textBox.TextBoxOptions.ShapeTextVerticalAlignment = ShapeTextVerticalAlignmentType.Top;
+                Console.WriteLine("Changed to: " + textBox.TextBoxOptions.ShapeTextVerticalAlignment);
+
+                // Save the workbook
+                workbook.Save("ShapeTextVerticalAlignmentTypeDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ShapeTextVerticalAlignmentType: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)

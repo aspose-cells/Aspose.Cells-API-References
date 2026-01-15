@@ -23,6 +23,6 @@ type FontSourceType int32
 
 | Field | Description |
 | --- | --- |
-|[FontFile](./fontfile/) | represents single font file. | 
-|[FontsFolder](./fontsfolder/) | represents folder with font files. | 
-|[MemoryFont](./memoryfont/) | represents single font in memory. | 
+|[FontFile](./fontfile/) | represents a single font file. | 
+|[FontsFolder](./fontsfolder/) | Represents a folder with font files. | 
+|[MemoryFont](./memoryfont/) | Represents a single font in memory. | 

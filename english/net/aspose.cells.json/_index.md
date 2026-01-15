@@ -11,6 +11,6 @@ The **Aspose.Cells.Json** namespace contains all classes of JSON.
 
 | Enumeration | Description |
 | --- | --- |
-| [JsonExportHyperlinkType](./jsonexporthyperlinktype/) | Represents type of exporting hyperlinks to json. |
+| [JsonExportHyperlinkType](./jsonexporthyperlinktype/) | Represents type how to export hyperlinks to json. |
 
 

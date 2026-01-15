@@ -1,13 +1,13 @@
 ---
 title: Class ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.ThreadedCommentAuthorCollection class. Represents all persons who 
+description: Aspose.Cells.ThreadedCommentAuthorCollection class. Represents all persons
 type: docs
 url: /net/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
 
-Represents all persons who .
+Represents all persons.
 
 ```csharp
 public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAuthor>

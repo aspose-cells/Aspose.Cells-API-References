@@ -21,6 +21,7 @@ class RangeCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Range](../range/) element at the specified index. |
 | [add(Range)](#add-range-)| Adds a [Range](../range/) item to the collection. |
+| [addRange(Range)](#addRange-range-)| Adds a [Range](../range/) item to the collection. |
 
 
 ### get(number) {#get-number-}
@@ -52,5 +53,26 @@ add(range: Range) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | range | [Range](../range/) | Range object |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AddRange() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### addRange(Range) {#addRange-range-}
+
+Adds a [Range](../range/) item to the collection.
+
+```javascript
+addRange(range: Range) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | [Range](../range/) | the range to be added |
+
+**Returns**
+
+index of the added range in this collection
 
 

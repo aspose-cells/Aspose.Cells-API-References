@@ -2,7 +2,7 @@
 title: Aspose::Cells::CalculationData::GetParamValueInArrayMode method
 linktitle: GetParamValueInArrayMode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CalculationData::GetParamValueInArrayMode method. Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode in C++.'
+description: 'Aspose::Cells::CalculationData::GetParamValueInArrayMode method. Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells/calculationdata/getparamvalueinarraymode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/calculationdata/getparamvalueinarraymode/
 ## CalculationData::GetParamValueInArrayMode method
 
 
-Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
+Gets the value(s) of the parameter at a given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 ```cpp
 Vector<Vector<Aspose::Cells::Object>> Aspose::Cells::CalculationData::GetParamValueInArrayMode(int32_t index, int32_t maxRowCount, int32_t maxColumnCount)

@@ -1,13 +1,13 @@
 ---
 title: AutoFilter.FilterTop10
 second_title: Aspose.Cells for .NET API Reference
-description: AutoFilter method. Filter the top 10 item in the list
+description: AutoFilter method. Filter the top 10 items in the list
 type: docs
 url: /net/aspose.cells/autofilter/filtertop10/
 ---
 ## AutoFilter.FilterTop10 method
 
-Filter the top 10 item in the list
+Filter the top 10 items in the list
 
 ```csharp
 public void FilterTop10(int fieldIndex, bool isTop, bool isPercent, int itemCount)

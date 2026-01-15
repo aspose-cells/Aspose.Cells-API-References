@@ -22,6 +22,7 @@ class SparklineCollection;
 | [get(number)](#get-number-)| Gets the [Sparkline](../sparkline/) element at the specified index. |
 | [add(string, number, number)](#add-string-number-number-)| Add a sparkline. |
 | [remove(VObject)](#remove-vobject-)| Removes the sparkline |
+| [removeSparkline(Sparkline)](#removeSparkline-sparkline-)| Removes the sparkline |
 
 
 ### get(number) {#get-number-}
@@ -68,5 +69,22 @@ remove(o: VObject) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | VObject |  |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use RemoveSparkline() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### removeSparkline(Sparkline) {#removeSparkline-sparkline-}
+
+Removes the sparkline
+
+```javascript
+removeSparkline(o: Sparkline) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | [Sparkline](../sparkline/) |  |
 
 

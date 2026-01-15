@@ -56,13 +56,13 @@ namespace AsposeCellsExamples
             try
             {
                 // Original chart position
-                Console.WriteLine($"Original position - UpperLeftRow: {chart.ChartObject.UpperLeftRow}, UpperLeftColumn: {chart.ChartObject.UpperLeftColumn}");
+                Console.WriteLine($"Original position - topRow: {chart.ChartObject.UpperLeftRow}, leftColumn: {chart.ChartObject.UpperLeftColumn}");
 
                 // Move the chart to new position (rows 10-20, columns 2-8)
                 chart.Move(10, 2, 20, 8);
 
                 // Display new position
-                Console.WriteLine($"New position - UpperLeftRow: {chart.ChartObject.UpperLeftRow}, UpperLeftColumn: {chart.ChartObject.UpperLeftColumn}");
+                Console.WriteLine($"New position - topRow: {chart.ChartObject.UpperLeftRow}, leftColumn: {chart.ChartObject.UpperLeftColumn}");
 
                 // Save the workbook
                 workbook.Save("ChartMoveDemo.xlsx");

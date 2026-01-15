@@ -1,13 +1,13 @@
 ---
 title: IndividualFontConfigs.GetFontSubstitutes
 second_title: Aspose.Cells for .NET API Reference
-description: IndividualFontConfigs method. Returns array containing font substitute names to be used if original font is not presented
+description: IndividualFontConfigs method. Returns an array containing font substitute names to be used if original font is not presented
 type: docs
 url: /net/aspose.cells/individualfontconfigs/getfontsubstitutes/
 ---
 ## IndividualFontConfigs.GetFontSubstitutes method
 
-Returns array containing font substitute names to be used if original font is not presented.
+Returns an array containing font substitute names to be used if original font is not presented.
 
 ```csharp
 public string[] GetFontSubstitutes(string originalFontName)

@@ -100,6 +100,59 @@ The chart.
 
 The default chart name is null. So you have to explicitly set the name of the chart.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class ChartCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+
+            try
+            {
+                // Add a chart to the worksheet
+                int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+
+                // Access the chart using Item property (indexer)
+                Chart chart = worksheet.Charts[chartIndex];
+
+                // Display information about the chart
+                Console.WriteLine("Chart type: " + chart.Type);
+                Console.WriteLine("Chart name: " + chart.Name);
+
+                // Save the workbook
+                workbook.Save("ChartCollectionItemDemo.xlsx");
+
+                Console.WriteLine("Chart created and accessed successfully using Item property.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Chart](../../chart/)

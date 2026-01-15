@@ -520,7 +520,7 @@ isJustifyDistributed : boolean;
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 ### quotePrefix {#quotePrefix--}
 
@@ -1362,7 +1362,7 @@ isJustifyDistributed() : boolean;
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 ### setIsJustifyDistributed(boolean) {#setIsJustifyDistributed-boolean-}
 
@@ -1379,7 +1379,7 @@ setIsJustifyDistributed(value: boolean) : void;
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 ### getQuotePrefix() {#getQuotePrefix--}
 

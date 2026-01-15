@@ -56,6 +56,7 @@ Encapsulates a collection of [Sparkline](../../com.aspose.cells/sparkline) objec
 | [notifyAll()](#notifyAll--) |  |
 | [remove(Object o)](#remove-java.lang.Object-) | Removes the sparkline |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [removeSparkline(Sparkline o)](#removeSparkline-com.aspose.cells.Sparkline-) | Removes the sparkline |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -224,6 +225,10 @@ public void remove(Object o)
 
 Removes the sparkline
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use RemoveSparkline() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -241,6 +246,19 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
+
+### removeSparkline(Sparkline o) {#removeSparkline-com.aspose.cells.Sparkline-}
+```
+public void removeSparkline(Sparkline o)
+```
+
+
+Removes the sparkline
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | [Sparkline](../../com.aspose.cells/sparkline) |  |
 
 ### toString() {#toString--}
 ```

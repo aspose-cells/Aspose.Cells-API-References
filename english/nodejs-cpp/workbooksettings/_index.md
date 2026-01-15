@@ -83,6 +83,7 @@ class WorkbookSettings;
 | [propertiesFollowChartPoint](#propertiesFollowChartPoint--)| boolean | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [discardImageEditData](#discardImageEditData--)| boolean | Indicates whether discarding editting image data. |
 | [defaultImageResolution](#defaultImageResolution--)| number | Gets and sets default resolution of image. |
+| [wpsCompatibility](#wpsCompatibility--)| boolean | Indicates whether to be compatible with WPS. |
 
 ## Methods
 
@@ -207,6 +208,8 @@ class WorkbookSettings;
 | [setDiscardImageEditData(boolean)](#setDiscardImageEditData-boolean-)| <b>@deprecated.</b> Please use the 'discardImageEditData' property instead. Indicates whether discarding editting image data. |
 | [getDefaultImageResolution()](#getDefaultImageResolution--)| <b>@deprecated.</b> Please use the 'defaultImageResolution' property instead. Gets and sets default resolution of image. |
 | [setDefaultImageResolution(number)](#setDefaultImageResolution-number-)| <b>@deprecated.</b> Please use the 'defaultImageResolution' property instead. Gets and sets default resolution of image. |
+| [getWpsCompatibility()](#getWpsCompatibility--)| <b>@deprecated.</b> Please use the 'wpsCompatibility' property instead. Indicates whether to be compatible with WPS. |
+| [setWpsCompatibility(boolean)](#setWpsCompatibility-boolean-)| <b>@deprecated.</b> Please use the 'wpsCompatibility' property instead. Indicates whether to be compatible with WPS. |
 | [dispose()](#dispose--)| Releases resources. |
 | [getThemeFont(FontSchemeType)](#getThemeFont-fontschemetype-)| Gets the default theme font name. |
 | [setPageOrientationType(PageOrientationType)](#setPageOrientationType-pageorientationtype-)| Set the type of  print orientation for the whole workbook. |
@@ -886,6 +889,15 @@ Gets and sets default resolution of image.
 
 ```javascript
 defaultImageResolution : number;
+```
+
+
+### wpsCompatibility {#wpsCompatibility--}
+
+Indicates whether to be compatible with WPS.
+
+```javascript
+wpsCompatibility : boolean;
 ```
 
 
@@ -2359,6 +2371,28 @@ setDefaultImageResolution(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### getWpsCompatibility() {#getWpsCompatibility--}
+
+<b>@deprecated.</b> Please use the 'wpsCompatibility' property instead. Indicates whether to be compatible with WPS.
+
+```javascript
+getWpsCompatibility() : boolean;
+```
+
+
+### setWpsCompatibility(boolean) {#setWpsCompatibility-boolean-}
+
+<b>@deprecated.</b> Please use the 'wpsCompatibility' property instead. Indicates whether to be compatible with WPS.
+
+```javascript
+setWpsCompatibility(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### dispose() {#dispose--}
 

@@ -4,7 +4,7 @@ linktitle: GetTopPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetTopPixel method. Returns or sets the vertical offset of slicer shape from its top row, in pixels in C++.'
 type: docs
-weight: 3800
+weight: 5100
 url: /cpp/aspose.cells.slicers/slicer/gettoppixel/
 ---
 ## Slicer::GetTopPixel method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::AbstractFormulaChangeMonitor class
 linktitle: AbstractFormulaChangeMonitor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AbstractFormulaChangeMonitor class. Monitor for user to track the change of formulas during certain operations in C++.'
+description: 'Aspose::Cells::AbstractFormulaChangeMonitor class. Monitor for the user to track the change of formulas during certain operations in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.cells/abstractformulachangemonitor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/abstractformulachangemonitor/
 ## AbstractFormulaChangeMonitor class
 
 
-Monitor for user to track the change of formulas during certain operations.
+Monitor for the user to track the change of formulas during certain operations.
 
 ```cpp
 class AbstractFormulaChangeMonitor

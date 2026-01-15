@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/getcalculateonsave/
 
 ## GetCalculateOnSave function
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```go
 

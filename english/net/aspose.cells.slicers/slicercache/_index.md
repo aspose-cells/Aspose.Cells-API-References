@@ -17,8 +17,8 @@ public class SlicerCache
 
 | Name | Description |
 | --- | --- |
-| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype/) { get; set; } | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write |
-| [List](../../aspose.cells.slicers/slicercache/list/) { get; } | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only |
+| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype/) { get; set; } | (**Obsolete.**) Indicates how to show items with no data of slicer. |
+| [List](../../aspose.cells.slicers/slicercache/list/) { get; } | Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. |
 | [Name](../../aspose.cells.slicers/slicercache/name/) { get; } | Returns the name of the slicer cache. |
 | [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems/) { get; } | Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
 | [SourceName](../../aspose.cells.slicers/slicercache/sourcename/) { get; } | Returns the name of this slicer cache. |

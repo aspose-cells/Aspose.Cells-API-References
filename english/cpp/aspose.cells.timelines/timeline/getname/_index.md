@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Timelines::Timeline::GetName method. Returns or sets the name of the specified Timeline in C++.'
 type: docs
-weight: 900
+weight: 2300
 url: /cpp/aspose.cells.timelines/timeline/getname/
 ---
 ## Timeline::GetName method

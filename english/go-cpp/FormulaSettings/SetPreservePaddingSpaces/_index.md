@@ -10,7 +10,7 @@ url: /go-cpp/formulasettings/setpreservepaddingspaces/
 
 ## SetPreservePaddingSpaces function
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokenswhile getting and setting formulas.Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas.Default value is false.
 
 ```go
 

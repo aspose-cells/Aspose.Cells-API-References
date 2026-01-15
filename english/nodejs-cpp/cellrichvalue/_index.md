@@ -1,14 +1,14 @@
 ﻿---
 title: CellRichValue
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents rich value of the cell.
+description: Represents the rich value of the cell.
 type: docs
 url: /nodejs-cpp/cellrichvalue/
 ---
 
 ## CellRichValue class
 
-Represents rich value of the cell.
+Represents the rich value of the cell.
 
 ```javascript
 class CellRichValue;

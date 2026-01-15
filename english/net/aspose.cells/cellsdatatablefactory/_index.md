@@ -24,11 +24,11 @@ public class CellsDataTableFactory
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_1)(double[], bool) | Creates ICellsDataTable from given sequence of double values. |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_2)(double[], string[]) | Creates ICellsDataTable from given sequence of double values. |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_7)(ICollection, bool) | Creates ICellsDataTable from given collection. |
-| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_4)(int[], bool) | Creates ICellsDataTable from given sequence of int values. |
-| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_5)(int[], string[]) | Creates ICellsDataTable from given sequence of int values. |
+| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_4)(int[], bool) | Creates ICellsDataTable from given sequence of integer values. |
+| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_5)(int[], string[]) | Creates ICellsDataTable from given sequence of integer values. |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_9)(object[], bool) | Creates ICellsDataTable from given sequence of objects. |
 | [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_10)(object[], string[]) | Creates ICellsDataTable from given sequence of objects. |
-| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_11)(object[][], bool, string[]) | Creates ICellsDataTable from given sequence of objects. |
+| [GetInstance](../../aspose.cells/cellsdatatablefactory/getinstance/#getinstance_11)(object[][], bool, string[]) | Creates an ICellsDataTable from a given sequence of objects. |
 
 ### Examples
 

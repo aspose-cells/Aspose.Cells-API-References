@@ -1,13 +1,13 @@
 ---
 title: IndividualFontConfigs.SetFontSubstitutes
 second_title: Aspose.Cells for .NET API Reference
-description: IndividualFontConfigs method. Font substitute names for given original font name
+description: IndividualFontConfigs method. Sets font substitute names for a given original font name
 type: docs
 url: /net/aspose.cells/individualfontconfigs/setfontsubstitutes/
 ---
 ## IndividualFontConfigs.SetFontSubstitutes method
 
-Font substitute names for given original font name.
+Sets font substitute names for a given original font name.
 
 ```csharp
 public void SetFontSubstitutes(string originalFontName, string[] substituteFontNames)

@@ -151,6 +151,49 @@ public class TimelineShape : Shape
 | [ToImage](../../aspose.cells.drawing/shape/toimage/)(string, ImageOrPrintOptions) | Saves the shape to a file.(Inherited from [`Shape`](../shape/).) |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell.(Inherited from [`Shape`](../shape/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassTimelineShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a basic shape to the worksheet first
+                Shape shape = worksheet.Shapes.AddTextBox(2, 0, 2, 0, 100, 50);
+
+                // Create an instance of the TimelineShape class
+                // Since TimelineShape inherits from Shape, we can cast if needed
+                TimelineShape timelineShape = worksheet.Shapes.AddShape(Aspose.Cells.Drawing.MsoDrawingType.Timeline, 2, 0, 2, 0, 100, 50) as TimelineShape;
+
+                // Demonstrate basic functionality
+                Console.WriteLine("TimelineShape instance created successfully");
+                Console.WriteLine($"TimelineShape type: {timelineShape.GetType().Name}");
+
+                // Save the workbook
+                workbook.Save("TimelineShapeDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with TimelineShape: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Shape](../shape/)

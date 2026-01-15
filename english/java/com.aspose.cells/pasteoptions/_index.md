@@ -29,6 +29,7 @@ Represents the paste special options.
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--) | True means only copying visible cells. |
 | [getOperationType()](#getOperationType--) | Gets the operation type when pasting range. |
 | [getPasteType()](#getPasteType--) | The paste special type. |
+| [getShiftFormulasOfShapes()](#getShiftFormulasOfShapes--) | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [getSkipBlanks()](#getSkipBlanks--) | Indicates whether skips blank cells. |
 | [getTranspose()](#getTranspose--) | True to transpose rows and columns when the range is pasted. |
 | [hashCode()](#hashCode--) |  |
@@ -39,6 +40,7 @@ Represents the paste special options.
 | [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | True means only copying visible cells. |
 | [setOperationType(int value)](#setOperationType-int-) | Sets the operation type when pasting range. |
 | [setPasteType(int value)](#setPasteType-int-) | The paste special type. |
+| [setShiftFormulasOfShapes(boolean value)](#setShiftFormulasOfShapes-boolean-) | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | Indicates whether skips blank cells. |
 | [setTranspose(boolean value)](#setTranspose-boolean-) | True to transpose rows and columns when the range is pasted. |
 | [toString()](#toString--) |  |
@@ -130,6 +132,16 @@ See [PasteType](../../com.aspose.cells/pastetype).
 
 **Returns:**
 int
+### getShiftFormulasOfShapes() {#getShiftFormulasOfShapes--}
+```
+public boolean getShiftFormulasOfShapes()
+```
+
+
+Indicates whether to shift formulas of the shapes when copying ranges.
+
+**Returns:**
+boolean
 ### getSkipBlanks() {#getSkipBlanks--}
 ```
 public boolean getSkipBlanks()
@@ -244,6 +256,19 @@ See [PasteType](../../com.aspose.cells/pastetype).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setShiftFormulasOfShapes(boolean value) {#setShiftFormulasOfShapes-boolean-}
+```
+public void setShiftFormulasOfShapes(boolean value)
+```
+
+
+Indicates whether to shift formulas of the shapes when copying ranges.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setSkipBlanks(boolean value) {#setSkipBlanks-boolean-}
 ```

@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnectionCollection::_impl field. The implementation object in C++.'
 type: docs
-weight: 1000
+weight: 900
 url: /cpp/aspose.cells.externalconnections/externalconnectioncollection/_impl/
 ---
 ## _impl field

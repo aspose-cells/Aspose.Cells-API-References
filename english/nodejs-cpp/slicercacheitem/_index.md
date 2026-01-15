@@ -20,7 +20,7 @@ class SlicerCacheItem;
 | Property | Type | Description |
 | --- | --- | --- |
 | [selected](#selected--)| boolean | Specifies whether the SlicerItem is selected or not. |
-| [value](#value--)| string | Readonly. Returns the label text for the slicer item. Read-only. |
+| [value](#value--)| string | Readonly. Returns the label text for the slicer item. |
 
 ## Methods
 
@@ -28,7 +28,7 @@ class SlicerCacheItem;
 | --- | --- |
 | [getSelected()](#getSelected--)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not. |
 | [setSelected(boolean)](#setSelected-boolean-)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not. |
-| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Returns the label text for the slicer item. Read-only. |
+| [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Returns the label text for the slicer item. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -43,7 +43,7 @@ selected : boolean;
 
 ### value {#value--}
 
-Readonly. Returns the label text for the slicer item. Read-only.
+Readonly. Returns the label text for the slicer item.
 
 ```javascript
 value : string;
@@ -74,7 +74,7 @@ setSelected(value: boolean) : void;
 
 ### getValue() {#getValue--}
 
-<b>@deprecated.</b> Please use the 'value' property instead. Returns the label text for the slicer item. Read-only.
+<b>@deprecated.</b> Please use the 'value' property instead. Returns the label text for the slicer item.
 
 ```javascript
 getValue() : string;

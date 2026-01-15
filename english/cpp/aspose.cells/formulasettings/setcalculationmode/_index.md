@@ -2,7 +2,7 @@
 title: Aspose::Cells::FormulaSettings::SetCalculationMode method
 linktitle: SetCalculationMode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FormulaSettings::SetCalculationMode method. Gets or sets the mode for workbook calculation in ms excel in C++.'
+description: 'Aspose::Cells::FormulaSettings::SetCalculationMode method. Gets or sets the mode for workbook calculation in MS Excel in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells/formulasettings/setcalculationmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/formulasettings/setcalculationmode/
 ## FormulaSettings::SetCalculationMode method
 
 
-Gets or sets the mode for workbook calculation in ms excel.
+Gets or sets the mode for workbook calculation in MS Excel.
 
 ```cpp
 void Aspose::Cells::FormulaSettings::SetCalculationMode(CalcModeType value)

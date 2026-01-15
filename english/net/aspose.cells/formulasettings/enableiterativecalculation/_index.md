@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.EnableIterativeCalculation
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Indicates whether enable iterative calculation to resolve circular references
+description: FormulaSettings property. Indicates whether to enable iterative calculation to resolve circular references
 type: docs
 url: /net/aspose.cells/formulasettings/enableiterativecalculation/
 ---
 ## FormulaSettings.EnableIterativeCalculation property
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 ```csharp
 public bool EnableIterativeCalculation { get; set; }

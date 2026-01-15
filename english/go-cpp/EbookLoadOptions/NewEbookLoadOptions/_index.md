@@ -10,7 +10,7 @@ url: /go-cpp/ebookloadoptions/newebookloadoptions/
 
 ## NewEbookLoadOptions function
 
-Creates an options of loading the ebook file.
+Creates an option for loading the ebook file.
 
 ```go
 

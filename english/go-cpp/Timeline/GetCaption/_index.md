@@ -10,7 +10,7 @@ url: /go-cpp/timeline/getcaption/
 
 ## GetCaption function
 
-Returns or sets the caption of the specified Timeline.
+Gets or sets the caption of this Timeline.
 
 ```go
 

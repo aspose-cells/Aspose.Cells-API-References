@@ -31,7 +31,6 @@ Specifies the [ConnectionParameter](../../com.aspose.cells/connectionparameter) 
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [set(int index, ConnectionParameter value)](#set-int-com.aspose.cells.ConnectionParameter-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -202,20 +201,6 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
-
-### set(int index, ConnectionParameter value) {#set-int-com.aspose.cells.ConnectionParameter-}
-```
-public void set(int index, ConnectionParameter value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  |
-| value | [ConnectionParameter](../../com.aspose.cells/connectionparameter) |  |
 
 ### toString() {#toString--}
 ```

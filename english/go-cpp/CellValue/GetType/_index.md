@@ -10,7 +10,7 @@ url: /go-cpp/cellvalue/gettype/
 
 ## GetType function
 
-Gets/sets the type of cell value.
+Gets or sets the type of cell value.
 
 ```go
 

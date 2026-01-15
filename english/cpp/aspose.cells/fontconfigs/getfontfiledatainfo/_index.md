@@ -2,7 +2,7 @@
 title: Aspose::Cells::FontConfigs::GetFontFileDataInfo method
 linktitle: GetFontFileDataInfo
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FontConfigs::GetFontFileDataInfo method. Get data infomation of font file data in C++.'
+description: 'Aspose::Cells::FontConfigs::GetFontFileDataInfo method. Get data information of font file data in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells/fontconfigs/getfontfiledatainfo/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/fontconfigs/getfontfiledatainfo/
 ## FontConfigs::GetFontFileDataInfo(const U16String\&, bool, bool, bool) method
 
 
-Get data infomation of font file data.
+Get data information of font file data.
 
 ```cpp
 static FontFileDataInfo Aspose::Cells::FontConfigs::GetFontFileDataInfo(const U16String &fontName, bool isBold, bool isItalic, bool isExactStyle)
@@ -39,7 +39,7 @@ Data infomation of font file data.
 ## FontConfigs::GetFontFileDataInfo(const char16_t*, bool, bool, bool) method
 
 
-Get data infomation of font file data.
+Get data information of font file data.
 
 ```cpp
 static FontFileDataInfo Aspose::Cells::FontConfigs::GetFontFileDataInfo(const char16_t *fontName, bool isBold, bool isItalic, bool isExactStyle)

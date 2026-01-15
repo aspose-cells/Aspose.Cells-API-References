@@ -1,7 +1,7 @@
 ---
 title: CopyFormatType
 second_title: Aspose.Cells for Java API Reference
-description: Represents type of copying format when inserting rows.
+description: Represents the type of copying format when inserting rows.
 type: docs
 url: /java/com.aspose.cells/copyformattype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class CopyFormatType
 ```
 
-Represents type of copying format when inserting rows.
+Represents the type of copying format when inserting rows.
 ## Fields
 
 | Field | Description |

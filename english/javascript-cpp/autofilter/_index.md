@@ -47,21 +47,21 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | --- | --- |
 | [setRange(number, number, number)](#setRange-number-number-number-)| Sets the range to which the specified AutoFilter applies. |
 | [getCellArea()](#getCellArea--)| Gets the [CellArea](../cellarea/) where the this AutoFilter applies to. |
-| [getCellArea(boolean)](#getCellArea-boolean-)| Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to. |
+| [getCellArea(boolean)](#getCellArea-boolean-)| Gets the [Aspose.Cells.CellArea](../aspose.cells.cellarea/) where the specified AutoFilter applies. |
 | [addFilter(number, string)](#addFilter-number-string-)| Adds a filter for a filter column. |
 | [addDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#addDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date filter. |
 | [removeDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#removeDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Removes a date filter. |
 | [removeFilter(number, string)](#removeFilter-number-string-)| Removes a filter for a filter column. |
 | [removeFilter(number)](#removeFilter-number-)| Remove the specific filter. |
 | [filter(number, string)](#filter-number-string-)| Filters a list with specified criteria. |
-| [filterTop10(number, boolean, boolean, number)](#filterTop10-number-boolean-boolean-number-)| Filter the top 10 item in the list |
+| [filterTop10(number, boolean, boolean, number)](#filterTop10-number-boolean-boolean-number-)| Filter the top 10 items in the list |
 | [dynamic_Filter(number, DynamicFilterType)](#dynamic_Filter-number-dynamicfiltertype-)| Adds a dynamic filter. |
 | [addFontColorFilter(number, CellsColor)](#addFontColorFilter-number-cellscolor-)| Adds a font color filter. |
 | [addFillColorFilter(number, BackgroundType, CellsColor, CellsColor)](#addFillColorFilter-number-backgroundtype-cellscolor-cellscolor-)| Adds a fill color filter. |
 | [addIconFilter(number, IconSetType, number)](#addIconFilter-number-iconsettype-number-)| Adds an icon filter. |
-| [matchBlanks(number)](#matchBlanks-number-)| Match all blank cell in the list. |
-| [matchNonBlanks(number)](#matchNonBlanks-number-)| Match all not blank cell in the list. |
-| [custom(number, FilterOperatorType, VObject)](#custom-number-filteroperatortype-vobject-)| Filters a list with a custom criteria. |
+| [matchBlanks(number)](#matchBlanks-number-)| Match all blank cells in the list. |
+| [matchNonBlanks(number)](#matchNonBlanks-number-)| Match all not-blank cells in the list. |
+| [custom(number, FilterOperatorType, VObject)](#custom-number-filteroperatortype-vobject-)| Filters a list with a custom criterion. |
 | [custom(number, FilterOperatorType, VObject, boolean, FilterOperatorType, VObject)](#custom-number-filteroperatortype-vobject-boolean-filteroperatortype-vobject-)| Filters a list with custom criteria. |
 | [showAll()](#showAll--)| Unhide all rows. |
 | [refresh()](#refresh--)| Refresh auto filters to hide or unhide the rows. |
@@ -134,7 +134,7 @@ the area this filter applies to
 
 ### getCellArea(boolean) {#getCellArea-boolean-}
 
-Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to.
+Gets the [Aspose.Cells.CellArea](../aspose.cells.cellarea/) where the specified AutoFilter applies.
 
 ```javascript
 getCellArea(refreshAppliedRange: boolean) : CellArea;
@@ -262,7 +262,7 @@ Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2
 
 ### filterTop10(number, boolean, boolean, number) {#filterTop10-number-boolean-boolean-number-}
 
-Filter the top 10 item in the list
+Filter the top 10 items in the list
 
 ```javascript
 filterTop10(fieldIndex: number, isTop: boolean, isPercent: boolean, itemCount: number) : void;
@@ -341,7 +341,7 @@ Only supports to add the icon filter. Not supports checking which row is visible
 
 ### matchBlanks(number) {#matchBlanks-number-}
 
-Match all blank cell in the list.
+Match all blank cells in the list.
 
 ```javascript
 matchBlanks(fieldIndex: number) : void;
@@ -354,7 +354,7 @@ matchBlanks(fieldIndex: number) : void;
 
 ### matchNonBlanks(number) {#matchNonBlanks-number-}
 
-Match all not blank cell in the list.
+Match all not-blank cells in the list.
 
 ```javascript
 matchNonBlanks(fieldIndex: number) : void;
@@ -367,7 +367,7 @@ matchNonBlanks(fieldIndex: number) : void;
 
 ### custom(number, FilterOperatorType, VObject) {#custom-number-filteroperatortype-vobject-}
 
-Filters a list with a custom criteria.
+Filters a list with a custom criterion.
 
 ```javascript
 custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: VObject) : void;

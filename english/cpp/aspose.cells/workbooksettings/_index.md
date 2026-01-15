@@ -78,6 +78,7 @@ class WorkbookSettings
 | [GetWindowWidth()](./getwindowwidth/) | The width of the window, in unit of point. |
 | [GetWindowWidthCM()](./getwindowwidthcm/) | The width of the window, in unit of centimeter. |
 | [GetWindowWidthInch()](./getwindowwidthinch/) | The width of the window, in unit of inch. |
+| [GetWpsCompatibility()](./getwpscompatibility/) | Indicates whether to be compatible with WPS. |
 | [GetWriteProtection()](./getwriteprotection/) | Provides access to the workbook write protection options. |
 | [IsDefaultEncrypted()](./isdefaultencrypted/) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [IsEncrypted()](./isencrypted/) | Gets a value that indicates whether a password is required to open this workbook. |
@@ -148,6 +149,7 @@ class WorkbookSettings
 | [SetWindowWidth(double value)](./setwindowwidth/) | The width of the window, in unit of point. |
 | [SetWindowWidthCM(double value)](./setwindowwidthcm/) | The width of the window, in unit of centimeter. |
 | [SetWindowWidthInch(double value)](./setwindowwidthinch/) | The width of the window, in unit of inch. |
+| [SetWpsCompatibility(bool value)](./setwpscompatibility/) | Indicates whether to be compatible with WPS. |
 | [WorkbookSettings(WorkbookSettings_Impl* impl)](./workbooksettings/) | Constructs from an implementation object. |
 | [WorkbookSettings(const WorkbookSettings\& src)](./workbooksettings/) | Copy constructor. |
 | [~WorkbookSettings()](./~workbooksettings/) | Destructor. |

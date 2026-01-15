@@ -1,13 +1,13 @@
 ---
 title: Class FontFileDataInfo
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.FontFileDataInfo class. Represents data infomation of font file data
+description: Aspose.Cells.FontFileDataInfo class. Represents data information of font file data
 type: docs
 url: /net/aspose.cells/fontfiledatainfo/
 ---
 ## FontFileDataInfo class
 
-Represents data infomation of font file data.
+Represents data information of font file data.
 
 ```csharp
 public class FontFileDataInfo

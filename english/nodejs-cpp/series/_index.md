@@ -84,11 +84,11 @@ workbook.save("output/ChartsSeries.xls");
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
 | [isVerticalValues](#isVerticalValues--)| boolean | Readonly. Indicates whether the data source is vertical. |
 | [values](#values--)| string | Represents the Y values of this chart series. |
-| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the values for the points of the series |
-| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the category values of the series |
+| [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the actual values that are used to plot every point of this series in the chart. |
+| [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the actual category values that are used to plot every point of this series in the chart. |
 | [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
 | [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
-| [xValues](#xValues--)| string | Represents the x values of the chart series. |
+| [xValues](#xValues--)| string | Represents the X values of this chart series. |
 | [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble sizes values of the chart series. |
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
 | [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
@@ -146,14 +146,14 @@ workbook.save("output/ChartsSeries.xls");
 | [isVerticalValues()](#isVerticalValues--)| <b>@deprecated.</b> Please use the 'isVerticalValues' property instead. Indicates whether the data source is vertical. |
 | [getValues()](#getValues--)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
 | [setValues(string)](#setValues-string-)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
-| [getPointValues()](#getPointValues--)| <b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the values for the points of the series |
-| [getCategoryValues()](#getCategoryValues--)| <b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the category values of the series |
+| [getPointValues()](#getPointValues--)| <b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the actual values that are used to plot every point of this series in the chart. |
+| [getCategoryValues()](#getCategoryValues--)| <b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the actual category values that are used to plot every point of this series in the chart. |
 | [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
 | [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
 | [getXValuesFormatCode()](#getXValuesFormatCode--)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList. |
 | [setXValuesFormatCode(string)](#setXValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList. |
-| [getXValues()](#getXValues--)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the x values of the chart series. |
-| [setXValues(string)](#setXValues-string-)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the x values of the chart series. |
+| [getXValues()](#getXValues--)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
+| [setXValues(string)](#setXValues-string-)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
 | [getBubbleSizes()](#getBubbleSizes--)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series. |
 | [setBubbleSizes(string)](#setBubbleSizes-string-)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series. |
 | [getTrendLines()](#getTrendLines--)| <b>@deprecated.</b> Please use the 'trendLines' property instead. Returns all the trendlines of this series. |
@@ -335,23 +335,35 @@ values : string;
 ```
 
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [PointValues](../pointvalues/).
+
 ### pointValues {#pointValues--}
 
-Readonly. Gets the values for the points of the series
+Readonly. Gets the actual values that are used to plot every point of this series in the chart.
 
 ```javascript
 pointValues : ChartDataValue[];
 ```
 
 
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.Values](../series.values/), especially when the specified data source is external link, formula, ...etc.
+
 ### categoryValues {#categoryValues--}
 
-Readonly. Gets the category values of the series
+Readonly. Gets the actual category values that are used to plot every point of this series in the chart.
 
 ```javascript
 categoryValues : ChartDataValue[][];
 ```
 
+
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.XValues](../series.xvalues/), especially when the specified data source is external link, formula, ...etc.
 
 ### valuesFormatCode {#valuesFormatCode--}
 
@@ -373,12 +385,16 @@ xValuesFormatCode : string;
 
 ### xValues {#xValues--}
 
-Represents the x values of the chart series.
+Represents the X values of this chart series.
 
 ```javascript
 xValues : string;
 ```
 
+
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
 
 ### bubbleSizes {#bubbleSizes--}
 
@@ -871,6 +887,10 @@ getValues() : string;
 ```
 
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [PointValues](../pointvalues/).
+
 ### setValues(string) {#setValues-string-}
 
 <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series.
@@ -884,9 +904,13 @@ setValues(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [PointValues](../pointvalues/).
+
 ### getPointValues() {#getPointValues--}
 
-<b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the values for the points of the series
+<b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the actual values that are used to plot every point of this series in the chart.
 
 ```javascript
 getPointValues() : ChartDataValue[];
@@ -897,9 +921,13 @@ getPointValues() : ChartDataValue[];
 
 [ChartDataValue](../chartdatavalue/)[]
 
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.Values](../series.values/), especially when the specified data source is external link, formula, ...etc.
+
 ### getCategoryValues() {#getCategoryValues--}
 
-<b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the category values of the series
+<b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the actual category values that are used to plot every point of this series in the chart.
 
 ```javascript
 getCategoryValues() : ChartDataValue[][];
@@ -909,6 +937,10 @@ getCategoryValues() : ChartDataValue[][];
 **Returns**
 
 [ChartDataValue[]](../chartdatavalue[]/)[]
+
+**Remarks**
+
+This property provides one convenient way to get the actual values corresponding to the data defined by [Series.XValues](../series.xvalues/), especially when the specified data source is external link, formula, ...etc.
 
 ### getValuesFormatCode() {#getValuesFormatCode--}
 
@@ -956,16 +988,20 @@ setXValuesFormatCode(value: string) : void;
 
 ### getXValues() {#getXValues--}
 
-<b>@deprecated.</b> Please use the 'xValues' property instead. Represents the x values of the chart series.
+<b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series.
 
 ```javascript
 getXValues() : string;
 ```
 
 
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
+
 ### setXValues(string) {#setXValues-string-}
 
-<b>@deprecated.</b> Please use the 'xValues' property instead. Represents the x values of the chart series.
+<b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series.
 
 ```javascript
 setXValues(value: string) : void;
@@ -975,6 +1011,10 @@ setXValues(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
 
 ### getBubbleSizes() {#getBubbleSizes--}
 

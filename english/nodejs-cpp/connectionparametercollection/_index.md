@@ -21,7 +21,6 @@ class ConnectionParameterCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [get(string)](#get-string-)| Gets the [ConnectionParameter](../connectionparameter/) element with the specified name. |
-| [set(ConnectionParameter, number)](#set-connectionparameter-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -59,24 +58,6 @@ get(connParamName: string) : ConnectionParameter;
 **Returns**
 
 The element with the specified name.
-
-### set(ConnectionParameter, number) {#set-connectionparameter-number-}
-
-Gets the [ConnectionParameter](../connectionparameter/) element at the specified index.
-
-```javascript
-set(value: ConnectionParameter, index: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ConnectionParameter](../connectionparameter/) | The value to set. |
-| index | number | The zero based index of the element. |
-
-**Returns**
-
-The element at the specified index.
 
 ### getCount() {#getCount--}
 

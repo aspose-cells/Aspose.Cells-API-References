@@ -19,8 +19,15 @@ class Timeline;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [caption](#caption--)| string | Returns or sets the caption of the specified Timeline. |
-| [shape](#shape--)| TimelineShape | Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only. |
+| [showHeader](#showHeader--)| boolean | Indicates whether to display the header. |
+| [showSelectionLabel](#showSelectionLabel--)| boolean | Indicates whether to display the selction label. |
+| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the time level. |
+| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal ccroll bar. |
+| [startDate](#startDate--)| Date | Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
+| [currentLevel](#currentLevel--)| TimelineLevelType | The current time level of the Timeline. |
+| [selectionLevel](#selectionLevel--)| TimelineLevelType | Gets and sets the time level at which the current selection was made for the Timeline. |
+| [caption](#caption--)| string | Gets or sets the caption of this Timeline. |
+| [shape](#shape--)| TimelineShape | Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. |
 | [name](#name--)| string | Returns or sets the name of the specified Timeline |
 | [leftPixel](#leftPixel--)| number | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [topPixel](#topPixel--)| number | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
@@ -28,9 +35,72 @@ class Timeline;
 | [heightPixel](#heightPixel--)| number | Returns or sets the height of the specified timeline, in pixels. |
 
 
+### showHeader {#showHeader--}
+
+Indicates whether to display the header.
+
+```javascript
+showHeader : boolean;
+```
+
+
+### showSelectionLabel {#showSelectionLabel--}
+
+Indicates whether to display the selction label.
+
+```javascript
+showSelectionLabel : boolean;
+```
+
+
+### showTimeLevel {#showTimeLevel--}
+
+Indicates whether to display the time level.
+
+```javascript
+showTimeLevel : boolean;
+```
+
+
+### showHorizontalScrollbar {#showHorizontalScrollbar--}
+
+Indicates whether to display the horizontal ccroll bar.
+
+```javascript
+showHorizontalScrollbar : boolean;
+```
+
+
+### startDate {#startDate--}
+
+Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/).
+
+```javascript
+startDate : Date;
+```
+
+
+### currentLevel {#currentLevel--}
+
+The current time level of the Timeline.
+
+```javascript
+currentLevel : TimelineLevelType;
+```
+
+
+### selectionLevel {#selectionLevel--}
+
+Gets and sets the time level at which the current selection was made for the Timeline.
+
+```javascript
+selectionLevel : TimelineLevelType;
+```
+
+
 ### caption {#caption--}
 
-Returns or sets the caption of the specified Timeline.
+Gets or sets the caption of this Timeline.
 
 ```javascript
 caption : string;
@@ -39,7 +109,7 @@ caption : string;
 
 ### shape {#shape--}
 
-Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline. Read-only.
+Readonly. Returns the [TimelineShape](../timelineshape/) object associated with this Timeline.
 
 ```javascript
 shape : TimelineShape;

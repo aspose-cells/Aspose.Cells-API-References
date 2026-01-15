@@ -30,7 +30,7 @@ type CellValue struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetType](./gettype/) | Gets/sets the type of cell value. | 
-|[SetType](./settype/) | Gets/sets the type of cell value. | 
-|[GetValue](./getvalue/) | Gets/sets the cell value. | 
-|[SetValue](./setvalue/) | Gets/sets the cell value. | 
+|[GetType](./gettype/) | Gets or sets the type of cell value. | 
+|[SetType](./settype/) | Gets or sets the type of cell value. | 
+|[GetValue](./getvalue/) | Gets or sets the cell value. | 
+|[SetValue](./setvalue/) | Gets or sets the cell value. | 

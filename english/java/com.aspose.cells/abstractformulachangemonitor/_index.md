@@ -1,7 +1,7 @@
 ---
 title: AbstractFormulaChangeMonitor
 second_title: Aspose.Cells for Java API Reference
-description: Monitor for user to track the change of formulas during certain operations.
+description: Monitor for the user to track the change of formulas during certain operations.
 type: docs
 url: /java/com.aspose.cells/abstractformulachangemonitor/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class AbstractFormulaChangeMonitor
 ```
 
-Monitor for user to track the change of formulas during certain operations.
+Monitor for the user to track the change of formulas during certain operations.
 
 **Remarks**
 

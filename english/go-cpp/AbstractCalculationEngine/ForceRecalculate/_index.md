@@ -10,7 +10,7 @@ url: /go-cpp/abstractcalculationengine/forcerecalculate/
 
 ## ForceRecalculate function
 
-Whether force given function to be recalculated always when calculating shared formulas.
+Whether to force the given function to be recalculated always when calculating shared formulas.
 
 ```go
 

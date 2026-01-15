@@ -65,6 +65,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 | Method | Description |
 | --- | --- |
+| [setName(string, FontSchemeType)](#setName-string-fontschemetype-)| Sets name and scheme of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [getName()](#getName--)| Gets  or sets the name of the [Font](../font/). |
 | [setName(string)](#setName-string-)| Gets  or sets the name of the [Font](../font/). |
@@ -107,6 +108,10 @@ capsType : TextCapsType;
 ```
 
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.CapsType](../textoptions.capstype/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### strikeType {#strikeType--}
 
 Gets the strike type of the text.
@@ -133,6 +138,10 @@ Gets and sets the script offset,in unit of percentage
 scriptOffset : number;
 ```
 
+
+**Remarks**
+
+Only for shapes and charts.
 
 ### isSuperscript {#isSuperscript--}
 
@@ -219,6 +228,10 @@ isNormalizeHeights : boolean;
 ```
 
 
+**Remarks**
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [TextOptions.IsNormalizeHeights](../textoptions.isnormalizeheights/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### schemeType {#schemeType--}
 
 Gets and sets the scheme type of the font.
@@ -227,6 +240,20 @@ Gets and sets the scheme type of the font.
 schemeType : FontSchemeType;
 ```
 
+
+### setName(string, FontSchemeType) {#setName-string-fontschemetype-}
+
+Sets name and scheme of the font.
+
+```javascript
+setName(name: string, type: FontSchemeType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
+| type | [FontSchemeType](../fontschemetype/) |  |
 
 ### equals(Font) {#equals-font-}
 
@@ -254,6 +281,10 @@ getName() : string;
 ```
 
 
+**Remarks**
+
+If this property is used to set the name of the font, the [Font.SchemeType](../font.schemetype/) will be updated to [FontSchemeType.None](../fontschemetype.none/)
+
 ### setName(string) {#setName-string-}
 
 Gets  or sets the name of the [Font](../font/).
@@ -266,6 +297,10 @@ setName(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+If this property is used to set the name of the font, the [Font.SchemeType](../font.schemetype/) will be updated to [FontSchemeType.None](../fontschemetype.none/)
 
 **Example**
 ```javascript

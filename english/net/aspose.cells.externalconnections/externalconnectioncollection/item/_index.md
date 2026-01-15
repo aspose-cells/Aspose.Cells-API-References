@@ -10,7 +10,7 @@ url: /net/aspose.cells.externalconnections/externalconnectioncollection/item/
 Gets the [`ExternalConnection`](../../externalconnection/) element at the specified index.
 
 ```csharp
-public ExternalConnection this[int index] { get; set; }
+public ExternalConnection this[int index] { get; }
 ```
 
 | Parameter | Description |
@@ -20,6 +20,55 @@ public ExternalConnection this[int index] { get; set; }
 ### Return Value
 
 The element at the specified index.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            try
+            {
+                // Access the external connections collection
+                ExternalConnectionCollection connections = workbook.DataConnections;
+
+                // Check if there are any connections
+                if (connections.Count > 0)
+                {
+                    // Demonstrate accessing an item by index (read operation)
+                    ExternalConnection connection = connections[0];
+
+                    // Display connection information
+                    Console.WriteLine($"Connection Name: {connection.Name}");
+                    Console.WriteLine($"Connection Type: {connection.Type}");
+                    Console.WriteLine($"Connection ID: {connection.ConnectionId}");
+                }
+                else
+                {
+                    Console.WriteLine("No external connections available to demonstrate Item property");
+                }
+
+                // Save the workbook
+                workbook.Save("ExternalConnectionItemDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

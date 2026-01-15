@@ -84,6 +84,7 @@ public class WorkbookSettings : IDisposable
 | [WindowWidth](../../aspose.cells/workbooksettings/windowwidth/) { get; set; } | The width of the window, in unit of point. |
 | [WindowWidthCM](../../aspose.cells/workbooksettings/windowwidthcm/) { get; set; } | The width of the window, in unit of centimeter. |
 | [WindowWidthInch](../../aspose.cells/workbooksettings/windowwidthinch/) { get; set; } | The width of the window, in unit of inch. |
+| [WpsCompatibility](../../aspose.cells/workbooksettings/wpscompatibility/) { get; set; } | Indicates whether to be compatible with WPS. |
 | [WriteProtection](../../aspose.cells/workbooksettings/writeprotection/) { get; } | Provides access to the workbook write protection options. |
 
 ## Methods

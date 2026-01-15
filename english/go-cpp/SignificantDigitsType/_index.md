@@ -10,7 +10,7 @@ url: /go-cpp/significantdigitstype/
 
 ## SignificantDigitsType Enum
 
-Represents the type of significant digits for outputing numeric values.
+Represents the type of significant digits for outputting numeric values.
 
 ```go
 

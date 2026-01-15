@@ -1,13 +1,13 @@
 ---
 title: Enum PasteOperationType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.PasteOperationType enum. Represents operation type when pasting range
+description: Aspose.Cells.PasteOperationType enum. Represents the operation type when pasting a range
 type: docs
 url: /net/aspose.cells/pasteoperationtype/
 ---
 ## PasteOperationType enumeration
 
-Represents operation type when pasting range.
+Represents the operation type when pasting a range.
 
 ```csharp
 public enum PasteOperationType

@@ -1,7 +1,7 @@
 ---
 title: AdvancedFilter
 second_title: Aspose.Cells for Java API Reference
-description: Represents the settings of advanced filter.
+description: Represents the settings of the advanced filter.
 type: docs
 url: /java/com.aspose.cells/advancedfilter/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class AdvancedFilter
 ```
 
-Represents the settings of advanced filter.
+Represents the settings of the advanced filter.
 ## Methods
 
 | Method | Description |

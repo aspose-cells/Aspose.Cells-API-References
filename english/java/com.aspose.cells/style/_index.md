@@ -633,7 +633,7 @@ Indicates if the cells justified or distributed alignment should be used on the 
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 **Returns:**
 boolean
@@ -1042,7 +1042,7 @@ Indicates if the cells justified or distributed alignment should be used on the 
 
 **Remarks**
 
-This is typical for East Asian alignments but not typical in other contexts.
+This is typical for East Asian alignments but not typical in other contexts. Only works when distributed dorizontal alignment.
 
 **Parameters:**
 | Parameter | Type | Description |

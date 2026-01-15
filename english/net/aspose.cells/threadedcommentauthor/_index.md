@@ -7,7 +7,7 @@ url: /net/aspose.cells/threadedcommentauthor/
 ---
 ## ThreadedCommentAuthor class
 
-Represents the person who creates the threaded comments;
+Represents the person who creates the threaded comments.
 
 ```csharp
 public class ThreadedCommentAuthor

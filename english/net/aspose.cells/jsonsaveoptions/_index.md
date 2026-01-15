@@ -1,13 +1,13 @@
 ---
 title: Class JsonSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.JsonSaveOptions class. Represents the options of saving the workbook as a json file
+description: Aspose.Cells.JsonSaveOptions class. Represents the options of saving the workbook as a JSON file
 type: docs
 url: /net/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class
 
-Represents the options of saving the workbook as a json file.
+Represents the options of saving the workbook as a JSON file.
 
 ```csharp
 public class JsonSaveOptions : SaveOptions

@@ -1,7 +1,7 @@
 ---
 title: MergeEmptyTdType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the merge type for empty TD element when exporting file to html.
+description: Represents the merge type for an empty TD element when exporting a file to HTML.
 type: docs
 url: /java/com.aspose.cells/mergeemptytdtype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class MergeEmptyTdType
 ```
 
-Represents the merge type for empty TD element when exporting file to html.
+Represents the merge type for an empty TD element when exporting a file to HTML.
 ## Fields
 
 | Field | Description |

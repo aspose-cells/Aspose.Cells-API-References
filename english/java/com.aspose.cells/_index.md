@@ -16,8 +16,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | --- | --- |
 | [AboveAverage](../com.aspose.cells/aboveaverage) | Describe the AboveAverage conditional formatting rule. |
 | [AbstractCalculationEngine](../com.aspose.cells/abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [AbstractCalculationMonitor](../com.aspose.cells/abstractcalculationmonitor) | Monitor for user to track the progress of formula calculation. |
-| [AbstractFormulaChangeMonitor](../com.aspose.cells/abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
+| [AbstractCalculationMonitor](../com.aspose.cells/abstractcalculationmonitor) | Monitor for the user to track the progress of the formula calculation. |
+| [AbstractFormulaChangeMonitor](../com.aspose.cells/abstractformulachangemonitor) | Monitor for the user to track the change of formulas during certain operations. |
 | [AbstractGlobalizationSettings](../com.aspose.cells/abstractglobalizationsettings) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractLowCodeLoadOptionsProvider](../com.aspose.cells/abstractlowcodeloadoptionsprovider) | Implementation to provide multiple load options for processes that use multiple inputs(such as template files). |
@@ -25,12 +25,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AbstractLowCodeSaveOptionsProvider](../com.aspose.cells/abstractlowcodesaveoptionsprovider) | Implementation to provide multiple save options for processes that require multiple outputs. |
 | [AbstractTextLoadOptions](../com.aspose.cells/abstracttextloadoptions) | Common options for loading text values |
 | [AccentEquationNode](../com.aspose.cells/accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
-| [AccessCacheOptions](../com.aspose.cells/accesscacheoptions) | Cache options for data access. |
+| [AccessCacheOptions](../com.aspose.cells/accesscacheoptions) | Caching options for data access. |
 | [ActiveXControl](../com.aspose.cells/activexcontrol) | Represents the ActiveX control. |
 | [ActiveXControlBase](../com.aspose.cells/activexcontrolbase) | Represents the ActiveX control. |
 | [ActiveXPersistenceType](../com.aspose.cells/activexpersistencetype) | Represents the persistence method to persist an ActiveX control. |
 | [AdjustFontSizeForRowType](../com.aspose.cells/adjustfontsizeforrowtype) | Represents which kind of rows should be ajusted. |
-| [AdvancedFilter](../com.aspose.cells/advancedfilter) | Represents the settings of advanced filter. |
+| [AdvancedFilter](../com.aspose.cells/advancedfilter) | Represents the settings of the advanced filter. |
 | [ArcShape](../com.aspose.cells/arcshape) | Represents the arc shape. |
 | [Area](../com.aspose.cells/area) | Encapsulates the object that represents an area format. |
 | [ArrayEquationNode](../com.aspose.cells/arrayequationnode) | Specifies the Equation-Array function, an object consisting of one or more equations. |
@@ -74,7 +74,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Cell](../com.aspose.cells/cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](../com.aspose.cells/cellarea) | Represent an area of cells. |
 | [CellBorderType](../com.aspose.cells/cellbordertype) | Enumerates a cell's border type. |
-| [CellRichValue](../com.aspose.cells/cellrichvalue) | Represents rich value of the cell. |
+| [CellRichValue](../com.aspose.cells/cellrichvalue) | Represents the rich value of the cell. |
 | [CellValue](../com.aspose.cells/cellvalue) | Represents the cell value and corresponding type. |
 | [CellValueFormatStrategy](../com.aspose.cells/cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](../com.aspose.cells/cellvaluetype) | Specifies a cell value type. |
@@ -85,7 +85,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CellsDataTableFactory](../com.aspose.cells/cellsdatatablefactory) | Utility to build ICellsDataTable from custom objects for user's convenience. |
 | [CellsDrawing](../com.aspose.cells/cellsdrawing) | Represents the auto shape and drawing object. |
 | [CellsException](../com.aspose.cells/cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
-| [CellsFactory](../com.aspose.cells/cellsfactory) | Utility for instantiating classes of Cells model. |
+| [CellsFactory](../com.aspose.cells/cellsfactory) | Utility for instantiating classes of the Cells model. |
 | [CellsHelper](../com.aspose.cells/cellshelper) | Provides helper functions. |
 | [CellsUnitType](../com.aspose.cells/cellsunittype) | Specifies the unit of measurement. |
 | [CharacterBulletValue](../com.aspose.cells/characterbulletvalue) | Represents the character bullet. |
@@ -153,7 +153,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ControlSpecialEffectType](../com.aspose.cells/controlspecialeffecttype) | Represents the type of special effect. |
 | [ControlType](../com.aspose.cells/controltype) | Represents all type of ActiveX control. |
 | [ConversionUtility](../com.aspose.cells/conversionutility) | Represents utility to convert files to other formats. |
-| [CopyFormatType](../com.aspose.cells/copyformattype) | Represents type of copying format when inserting rows. |
+| [CopyFormatType](../com.aspose.cells/copyformattype) | Represents the type of copying format when inserting rows. |
 | [CopyOptions](../com.aspose.cells/copyoptions) | Represents the copy options. |
 | [CountryCode](../com.aspose.cells/countrycode) | Represents Excel country identifiers. |
 | [CredentialsMethodType](../com.aspose.cells/credentialsmethodtype) | Specifies Credentials method used for server access. |
@@ -163,7 +163,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CustomFilterCollection](../com.aspose.cells/customfiltercollection) | Represents the custom filters. |
 | [CustomFunctionDefinition](../com.aspose.cells/customfunctiondefinition) | Definition of custom function for calculating with user's custom engine. |
 | [CustomGeometry](../com.aspose.cells/customgeometry) | Represents a custom geometric shape. |
-| [CustomImplementationFactory](../com.aspose.cells/customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
+| [CustomImplementationFactory](../com.aspose.cells/customimplementationfactory) | Factory to create some instances which may be re-implemented by the user for a special purpose. |
 | [CustomPiovtFieldGroupItem](../com.aspose.cells/custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
 | [CustomProperty](../com.aspose.cells/customproperty) | Represents a custom property which store name and value pairs of arbitrary user-defined data for worksheet. |
 | [CustomPropertyCollection](../com.aspose.cells/custompropertycollection) | A collection of [CustomProperty](../com.aspose.cells/customproperty) objects that represent additional information. |
@@ -275,7 +275,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FolderFontSource](../com.aspose.cells/folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](../com.aspose.cells/font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](../com.aspose.cells/fontconfigs) | Specifies font settings |
-| [FontFileDataInfo](../com.aspose.cells/fontfiledatainfo) | Represents data infomation of font file data. |
+| [FontFileDataInfo](../com.aspose.cells/fontfiledatainfo) | Represents data information of font file data. |
 | [FontFileFormatType](../com.aspose.cells/fontfileformattype) | Represents font format type. |
 | [FontSchemeType](../com.aspose.cells/fontschemetype) | Represents the scheme type of the font. |
 | [FontSetting](../com.aspose.cells/fontsetting) | Represents a range of characters within the cell text. |
@@ -324,11 +324,11 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlHiddenRowDisplayType](../com.aspose.cells/htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLayoutMode](../com.aspose.cells/htmllayoutmode) | Represents the layout mode for HTML rendering. |
 | [HtmlLinkTargetType](../com.aspose.cells/htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
-| [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing a html file. |
-| [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
+| [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing an HTML file. |
+| [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
-| [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when import table from html. |
-| [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing html. |
+| [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when importing a table from HTML. |
+| [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing HTML. |
 | [HtmlVersion](../com.aspose.cells/htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [Hyperlink](../com.aspose.cells/hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](../com.aspose.cells/hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../com.aspose.cells/hyperlink) objects. |
@@ -347,11 +347,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [InputMethodEditorMode](../com.aspose.cells/inputmethodeditormode) | Represents the default run-time mode of the Input Method Editor. |
 | [InsertOptions](../com.aspose.cells/insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](../com.aspose.cells/interruptmonitor) | Represents all operator about the interrupt. |
+| [ItemsWithNoDataShowMode](../com.aspose.cells/itemswithnodatashowmode) | Represent the type how to show items with no data for slicer. |
 | [JsonConverter](../com.aspose.cells/jsonconverter) | Converter for conversion between json data structure and other spreadsheet file formats. |
-| [JsonExportHyperlinkType](../com.aspose.cells/jsonexporthyperlinktype) | Represents type of exporting hyperlinks to json. |
+| [JsonExportHyperlinkType](../com.aspose.cells/jsonexporthyperlinktype) | Represents type how to export hyperlinks to json. |
 | [JsonLayoutOptions](../com.aspose.cells/jsonlayoutoptions) | Represents the options of json layout type. |
-| [JsonLoadOptions](../com.aspose.cells/jsonloadoptions) | Represents the options of loading json files |
-| [JsonSaveOptions](../com.aspose.cells/jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
+| [JsonLoadOptions](../com.aspose.cells/jsonloadoptions) | Represents the options of loading JSON files |
+| [JsonSaveOptions](../com.aspose.cells/jsonsaveoptions) | Represents the options of saving the workbook as a JSON file. |
 | [JsonUtility](../com.aspose.cells/jsonutility) | Represents the utility class of processing json. |
 | [Label](../com.aspose.cells/label) | Encapsulates the object that represents a label in a spreadsheet. |
 | [LabelActiveXControl](../com.aspose.cells/labelactivexcontrol) | Represents the label ActiveX control. |
@@ -404,8 +405,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MemoryFontSource](../com.aspose.cells/memoryfontsource) | Represents the single TrueType font file stored in memory. |
 | [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage modes for cells data model. |
-| [MergeEmptyTdType](../com.aspose.cells/mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
-| [MergedCellsShrinkType](../com.aspose.cells/mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
+| [MergeEmptyTdType](../com.aspose.cells/mergeemptytdtype) | Represents the merge type for an empty TD element when exporting a file to HTML. |
+| [MergedCellsShrinkType](../com.aspose.cells/mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
 | [MetadataType](../com.aspose.cells/metadatatype) | Represents the type of metadata. |
 | [Metered](../com.aspose.cells/metered) | Provides methods to set metered key. |
@@ -465,11 +466,11 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PaneStateType](../com.aspose.cells/panestatetype) | Represents state of the sheet's pane. |
 | [PaperSizeType](../com.aspose.cells/papersizetype) | Represents paper size constants. |
 | [ParameterType](../com.aspose.cells/parametertype) | Represents all parameters' type or return value type of function. |
-| [PasteOperationType](../com.aspose.cells/pasteoperationtype) | Represents operation type when pasting range. |
+| [PasteOperationType](../com.aspose.cells/pasteoperationtype) | Represents the operation type when pasting a range. |
 | [PasteOptions](../com.aspose.cells/pasteoptions) | Represents the paste special options. |
 | [PasteType](../com.aspose.cells/pastetype) | Represents the paste special type. |
 | [PatternFill](../com.aspose.cells/patternfill) | Encapsulates the object that represents pattern fill format |
-| [PclSaveOptions](../com.aspose.cells/pclsaveoptions) | Represents the options for saving Pcl file. |
+| [PclSaveOptions](../com.aspose.cells/pclsaveoptions) | Represents the options for saving a Pcl file. |
 | [PdfBookmarkEntry](../com.aspose.cells/pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. |
 | [PdfCompliance](../com.aspose.cells/pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](../com.aspose.cells/pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
@@ -646,13 +647,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShowDropButtonType](../com.aspose.cells/showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureLine](../com.aspose.cells/signatureline) | Represent the signature line. |
 | [SignatureType](../com.aspose.cells/signaturetype) | Specifies the signature type. |
-| [SignificantDigitsType](../com.aspose.cells/significantdigitstype) | Represents the type of significant digits for outputing numeric values. |
+| [SignificantDigitsType](../com.aspose.cells/significantdigitstype) | Represents the type of significant digits for outputting numeric values. |
 | [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View |
 | [SlicerCache](../com.aspose.cells/slicercache) | Represent summary description of slicer cache |
-| [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
+| [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type how to show items with no data for slicer. |
 | [SlicerCacheItem](../com.aspose.cells/slicercacheitem) | Represent slicer data source item |
 | [SlicerCacheItemCollection](../com.aspose.cells/slicercacheitemcollection) | Represent the collection of SlicerCacheItem |
-| [SlicerCacheItemSortType](../com.aspose.cells/slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerCollection](../com.aspose.cells/slicercollection) | Specifies the collection of all the Slicer objects on the specified worksheet. |
 | [SlicerShape](../com.aspose.cells/slicershape) | Represents the slicer shape. |
 | [SlicerStyleType](../com.aspose.cells/slicerstyletype) | Specify the style of slicer view |
@@ -737,8 +737,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ThemeColorType](../com.aspose.cells/themecolortype) | Enumerates the theme color types. |
 | [ThreadInterruptMonitor](../com.aspose.cells/threadinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by starting another thread to require the interruption after sleeping user specified limit. |
 | [ThreadedComment](../com.aspose.cells/threadedcomment) | Represents the threaded comment. |
-| [ThreadedCommentAuthor](../com.aspose.cells/threadedcommentauthor) | Represents the person who creates the threaded comments; |
-| [ThreadedCommentAuthorCollection](../com.aspose.cells/threadedcommentauthorcollection) | Represents all persons who . |
+| [ThreadedCommentAuthor](../com.aspose.cells/threadedcommentauthor) | Represents the person who creates the threaded comments. |
+| [ThreadedCommentAuthorCollection](../com.aspose.cells/threadedcommentauthorcollection) | Represents all persons. |
 | [ThreadedCommentCollection](../com.aspose.cells/threadedcommentcollection) | Represents the list of threaded comments. |
 | [ThreeDFormat](../com.aspose.cells/threedformat) | Represents a shape's three-dimensional formatting. |
 | [TickLabelAlignmentType](../com.aspose.cells/ticklabelalignmenttype) | Represents the text alignment type for the tick labels on the axis |
@@ -752,6 +752,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TimeUnit](../com.aspose.cells/timeunit) | Represents the base unit for the category axis. |
 | [Timeline](../com.aspose.cells/timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
 | [TimelineCollection](../com.aspose.cells/timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. |
+| [TimelineLevelType](../com.aspose.cells/timelineleveltype) | Represents the level type of [Timeline](../com.aspose.cells/timeline) |
 | [TimelineShape](../com.aspose.cells/timelineshape) | Represents the Timeline msodrawing object. |
 | [Title](../com.aspose.cells/title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](../com.aspose.cells/togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |

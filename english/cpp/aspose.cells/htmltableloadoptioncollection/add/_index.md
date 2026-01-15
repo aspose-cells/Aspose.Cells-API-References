@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/htmltableloadoptioncollection/add/
 
 Adds one [HtmlTableLoadOption](../../htmltableloadoption/) into this collection.
 
+
+>Deprecated
+>
+>Use HtmlTableLoadOptionCollection.AddTableLoadOption(HtmlTableLoadOption) method instead. 
 ```cpp
 int32_t Aspose::Cells::HtmlTableLoadOptionCollection::Add(const HtmlTableLoadOption &item)
 ```
@@ -24,6 +28,12 @@ int32_t Aspose::Cells::HtmlTableLoadOptionCollection::Add(const HtmlTableLoadOpt
 ## ReturnValue
 
 the index of the added item
+## Remarks
+
+
+
+NOTE: This member is now obsolete. Instead, please use [AddTableLoadOption()](../addtableloadoption/) method. This method will be removed 6 months later since December 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: SignificantDigitsType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the type of significant digits for outputing numeric values.
+description: Represents the type of significant digits for outputting numeric values.
 type: docs
 url: /java/com.aspose.cells/significantdigitstype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class SignificantDigitsType
 ```
 
-Represents the type of significant digits for outputing numeric values.
+Represents the type of significant digits for outputting numeric values.
 ## Fields
 
 | Field | Description |

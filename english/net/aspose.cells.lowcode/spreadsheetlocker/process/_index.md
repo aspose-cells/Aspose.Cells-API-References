@@ -148,51 +148,6 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 | workbookPassword | String | Password for protection of the workbook |
 | workbookType | ProtectionType | Protection type to protect the workbook |
 
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.LowCode;
-    using System;
-
-    public class SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo2
-    {
-        public static void Run()
-        {
-            // Create LowCodeLoadOptions and LowCodeSaveOptions instances
-            LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
-            loadOptions.InputFile = "input.xlsx";
-            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
-            saveOptions.OutputFile = "output.xlsx";
-
-            // Define protection parameters
-            string openPassword = "userOpen123";
-            string writePassword = "userWrite123";
-            string workbookPassword = "workbookProtect123";
-            ProtectionType protectionType = ProtectionType.All;
-
-            try
-            {
-                // Call the Process method directly without instantiating SpreadsheetLocker
-                SpreadsheetLocker.Process(loadOptions, saveOptions, openPassword, writePassword, workbookPassword, protectionType);
-                
-                Console.WriteLine("Spreadsheet processed successfully with document protection settings.");
-            }
-            catch (CellsException ex)
-            {
-                Console.WriteLine($"Aspose.Cells error during processing: {ex.Message}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"General error: {ex.Message}");
-            }
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [LowCodeLoadOptions](../../lowcodeloadoptions/)

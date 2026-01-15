@@ -23,6 +23,64 @@ public class RevisionRenameSheet : Revision
 | override [Type](../../aspose.cells.revisions/revisionrenamesheet/type/) { get; } | Represents the type of the revision. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet/) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Revisions;
+    using System;
+
+    public class RevisionsClassRevisionRenameSheetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Store original name and rename the sheet
+                string originalName = worksheet.Name;
+                worksheet.Name = "RenamedSheet";
+
+                // Save to memory stream to generate revisions
+                System.IO.MemoryStream ms = new System.IO.MemoryStream();
+                workbook.Save(ms, SaveFormat.Xlsx);
+
+                // Reopen the workbook to access revision logs
+                workbook = new Workbook(ms);
+
+                // Check revision logs for rename operation
+                foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)
+                {
+                    foreach (Revision rv in log.Revisions)
+                    {
+                        if (rv.Type == RevisionType.RenameSheet)
+                        {
+                            RevisionRenameSheet renameSheet = (RevisionRenameSheet)rv;
+                            Console.WriteLine("Revision Type: " + renameSheet.Type);
+                            Console.WriteLine("Old Sheet Name: " + renameSheet.OldName);
+                            Console.WriteLine("New Sheet Name: " + renameSheet.NewName);
+                        }
+                    }
+                }
+
+                // Save the workbook
+                workbook.Save("RevisionRenameSheetDemo.xlsx");
+                Console.WriteLine("RevisionRenameSheet demo completed successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in RevisionRenameSheet demo: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Revision](../revision/)

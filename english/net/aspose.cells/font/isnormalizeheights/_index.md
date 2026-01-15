@@ -10,8 +10,14 @@ url: /net/aspose.cells/font/isnormalizeheights/
 Indicates whether the normalization of height that is to be applied to the text run.
 
 ```csharp
+[Obsolete("Use TextOptions.IsNormalizeHeights property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsNormalizeHeights { get; set; }
 ```
+
+### Remarks
+
+Only for the fonts of Shapes or Charts. NOTE: This member is now obsolete. Instead, please use [`IsNormalizeHeights`](../../../aspose.cells.drawing.texts/textoptions/isnormalizeheights/) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

@@ -10,7 +10,7 @@ url: /go-cpp/fontconfigs/fontconfigs_setfontfolders/
 
 ## FontConfigs_SetFontFolders function
 
-Sets the fonts folders
+Sets the fonts folder
 
 ```go
 

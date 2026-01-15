@@ -2,7 +2,7 @@
 title: Aspose::Cells::HtmlLoadOptions class
 linktitle: HtmlLoadOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::HtmlLoadOptions class. Represents options when importing a html file in C++.'
+description: 'Aspose::Cells::HtmlLoadOptions class. Represents options when importing an HTML file in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.cells/htmlloadoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/htmlloadoptions/
 ## HtmlLoadOptions class
 
 
-Represents options when importing a html file.
+Represents options when importing an HTML file.
 
 ```cpp
 class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
@@ -32,6 +32,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetConvertNumericData()](../abstracttextloadoptions/getconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
 | [GetDefaultStyleSettings()](../loadoptions/getdefaultstylesettings/) | Gets the default style settings for initializing styles of the workbook. |
 | [GetDeleteRedundantSpaces()](./getdeleteredundantspaces/) | Indicates whether delete redundant spaces when the text wraps lines using **<br>** tag. The default value is false. |
+| [GetDetectLaTeX()](./getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [GetEncoding()](../abstracttextloadoptions/getencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [GetFontConfigs()](../loadoptions/getfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [GetHasFormula()](./gethasformula/) | Indicates whether the text is formula if it starts with "=". |
@@ -78,6 +79,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetConvertDateTimeData(bool value)](../abstracttextloadoptions/setconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data. Default value is true. |
 | [SetConvertNumericData(bool value)](../abstracttextloadoptions/setconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. Default value is true. |
 | [SetDeleteRedundantSpaces(bool value)](./setdeleteredundantspaces/) | Indicates whether delete redundant spaces when the text wraps lines using **<br>** tag. The default value is false. |
+| [SetDetectLaTeX(bool value)](./setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [SetEncoding(EncodingType value)](../abstracttextloadoptions/setencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [SetFontConfigs(const IndividualFontConfigs\& value)](../loadoptions/setfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [SetHasFormula(bool value)](./sethasformula/) | Indicates whether the text is formula if it starts with "=". |

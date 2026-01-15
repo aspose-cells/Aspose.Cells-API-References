@@ -4,7 +4,7 @@ linktitle: SparklineCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineCollection class. Encapsulates a collection of Sparkline objects in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells.charts/sparklinecollection/
 ---
 ## SparklineCollection class
@@ -27,7 +27,8 @@ class SparklineCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SparklineCollection\& src)](./operator_asm/) | operator= |
-| [Remove(const Aspose::Cells::Object\& o)](./remove/) | Removes the sparkline. |
+| [Remove(const Aspose::Cells::Object\& o)](./remove/) |  **(Deprecated)** Removes the sparkline. |
+| [RemoveSparkline(const Sparkline\& o)](./removesparkline/) | Removes the sparkline. |
 | [SparklineCollection(SparklineCollection_Impl* impl)](./sparklinecollection/) | Constructs from an implementation object. |
 | [SparklineCollection(const SparklineCollection\& src)](./sparklinecollection/) | Copy constructor. |
 | [~SparklineCollection()](./~sparklinecollection/) | Destructor. |

@@ -10,7 +10,7 @@ url: /go-cpp/deleteblankoptions/setstartindex/
 
 ## SetStartIndex function
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+Specifies the start row/column index of the range to check and delete blank row/column.
 
 ```go
 

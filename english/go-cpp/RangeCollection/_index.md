@@ -30,5 +30,5 @@ type RangeCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the Range element at the specified index. | 
-|[Add](./add/) | Adds a Range item to the collection. | 
+|[AddRange](./addrange/) | Adds a Range item to the collection. | 
 |[GetCount](./getcount/) |  | 

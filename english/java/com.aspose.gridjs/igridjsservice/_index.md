@@ -43,10 +43,10 @@ Applies the add image from local file operation.
 | --- | --- | --- |
 | p | java.lang.String | The JSON string parameter |
 | uid | java.lang.String | The unique id for the file cache. |
-| filestream | java.io.InputStream |  |
+| filestream | java.io.InputStream | The filestream of the image |
 
 **Returns:**
-java.lang.String
+java.lang.String - The JSON string result
 ### addImageByURL(String p, String uid, InputStream filestream, String imageurl) {#addImageByURL-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-}
 ```
 public abstract String addImageByURL(String p, String uid, InputStream filestream, String imageurl)
@@ -60,11 +60,11 @@ Applies the add image from remote URL operation.
 | --- | --- | --- |
 | p | java.lang.String | The JSON string parameter |
 | uid | java.lang.String | The unique id for the file cache. |
-| filestream | java.io.InputStream |  |
-| imageurl | java.lang.String |  |
+| filestream | java.io.InputStream | The filestream of the image |
+| imageurl | java.lang.String | Specify the image URL. |
 
 **Returns:**
-java.lang.String
+java.lang.String - The JSON string result
 ### checkInCacheForCollaborative(String uid) {#checkInCacheForCollaborative-java.lang.String-}
 ```
 public abstract boolean checkInCacheForCollaborative(String uid)

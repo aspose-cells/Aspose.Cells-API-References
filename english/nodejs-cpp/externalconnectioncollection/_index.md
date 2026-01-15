@@ -21,7 +21,6 @@ class ExternalConnectionCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
 | [get(string)](#get-string-)| Gets the [ExternalConnection](../externalconnection/) element with the specified name. |
-| [set(ExternalConnection, number)](#set-externalconnection-number-)| Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
 | [getExternalConnectionById(number)](#getExternalConnectionById-number-)| Gets the [ExternalConnection](../externalconnection/) element with the specified id. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -60,24 +59,6 @@ get(connectionName: string) : ExternalConnection;
 **Returns**
 
 The element with the specified name.
-
-### set(ExternalConnection, number) {#set-externalconnection-number-}
-
-Gets the [ExternalConnection](../externalconnection/) element at the specified index.
-
-```javascript
-set(value: ExternalConnection, index: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ExternalConnection](../externalconnection/) | The value to set. |
-| index | number | The zero based index of the element. |
-
-**Returns**
-
-The element at the specified index.
 
 ### getExternalConnectionById(number) {#getExternalConnectionById-number-}
 

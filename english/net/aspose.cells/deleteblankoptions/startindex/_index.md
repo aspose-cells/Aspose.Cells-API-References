@@ -1,13 +1,13 @@
 ---
 title: DeleteBlankOptions.StartIndex
 second_title: Aspose.Cells for .NET API Reference
-description: DeleteBlankOptions property. Specifies the start row/column index of the range to check and delete blank rows/columns
+description: DeleteBlankOptions property. Specifies the start row/column index of the range to check and delete blank row/column
 type: docs
 url: /net/aspose.cells/deleteblankoptions/startindex/
 ---
 ## DeleteBlankOptions.StartIndex property
 
-Specifies the start row/column index of the range to check and delete blank rows/columns.
+Specifies the start row/column index of the range to check and delete blank row/column.
 
 ```csharp
 public int StartIndex { get; set; }

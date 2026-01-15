@@ -177,6 +177,54 @@ public Workbook(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodSharpctorWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a sample Excel file in memory
+            MemoryStream sampleStream = new MemoryStream();
+            Workbook sampleWorkbook = new Workbook();
+            sampleWorkbook.Worksheets[0].Cells["A1"].Value = "Sample Data";
+            sampleWorkbook.Save(sampleStream, SaveFormat.Xlsx);
+            sampleStream.Position = 0; // Reset stream position for reading
+
+            try
+            {
+                // Create a new Workbook instance using the Stream constructor
+                Workbook workbook = new Workbook(sampleStream);
+
+                // Access the first worksheet
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Display the loaded data
+                Console.WriteLine($"Loaded data from stream: {worksheet.Cells["A1"].StringValue}");
+
+                // Save the workbook to a file
+                workbook.Save("WorkbookFromStream.xlsx");
+                Console.WriteLine("Workbook saved successfully from stream.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading workbook from stream: {ex.Message}");
+            }
+            finally
+            {
+                sampleStream.Dispose();
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)
@@ -244,6 +292,69 @@ public Workbook(Stream stream, LoadOptions loadOptions)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 | loadOptions | LoadOptions | The load options |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodSharpctorWithStreamLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create a sample Excel file in memory
+                byte[] sampleExcelData = GetSampleExcelData();
+                MemoryStream stream = new MemoryStream(sampleExcelData);
+
+                // Create LoadOptions with specific settings
+                LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
+                loadOptions.MemorySetting = MemorySetting.MemoryPreference;
+
+                // Create a Workbook instance using the #ctor with Stream and LoadOptions
+                Workbook workbook = new Workbook(stream, loadOptions);
+
+                // Display basic information about the loaded workbook
+                Console.WriteLine("Workbook loaded successfully!");
+                Console.WriteLine("Number of worksheets: " + workbook.Worksheets.Count);
+                Console.WriteLine("File format: " + workbook.FileFormat);
+
+                // Access the first worksheet
+                Worksheet worksheet = workbook.Worksheets[0];
+                Console.WriteLine("First worksheet name: " + worksheet.Name);
+
+                // Display some cell content if available
+                if (worksheet.Cells["A1"].Value != null)
+                {
+                    Console.WriteLine("Cell A1 value: " + worksheet.Cells["A1"].Value.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading workbook: {ex.Message}");
+            }
+        }
+
+        private static byte[] GetSampleExcelData()
+        {
+            // Create a simple Excel file in memory for demonstration
+            using (MemoryStream ms = new MemoryStream())
+            {
+                Workbook tempWorkbook = new Workbook();
+                tempWorkbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
+                tempWorkbook.Worksheets[0].Cells["B1"].PutValue("Created for demo");
+                tempWorkbook.Save(ms, SaveFormat.Xlsx);
+                return ms.ToArray();
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

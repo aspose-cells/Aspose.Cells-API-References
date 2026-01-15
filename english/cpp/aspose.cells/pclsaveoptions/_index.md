@@ -2,15 +2,15 @@
 title: Aspose::Cells::PclSaveOptions class
 linktitle: PclSaveOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PclSaveOptions class. Represents the options for saving Pcl file in C++.'
+description: 'Aspose::Cells::PclSaveOptions class. Represents the options for saving a Pcl file in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells/pclsaveoptions/
 ---
 ## PclSaveOptions class
 
 
-Represents the options for saving Pcl file.
+Represents the options for saving a Pcl file.
 
 ```cpp
 class PclSaveOptions : public Aspose::Cells::PaginatedSaveOptions

@@ -72,6 +72,54 @@ public void ExportXml(string mapName, Stream stream)
 | mapName | String | name of the XML map that need to be exported |
 | stream | Stream | the export stream |
 
+### Examples
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodExportXmlWithStringStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and add some data
+            using (Workbook workbook = new Workbook())
+            {
+                Worksheet sheet = workbook.Worksheets[0];
+                sheet.Cells["A1"].PutValue("Id");
+                sheet.Cells["B1"].PutValue("Name");
+                sheet.Cells["A2"].PutValue(1);
+                sheet.Cells["B2"].PutValue("Alice");
+                sheet.Cells["A3"].PutValue(2);
+                sheet.Cells["B3"].PutValue("Bob");
+
+                // Name of the XML map to export – for demo purposes we use a placeholder name
+                string mapName = "SampleMap";
+
+                try
+                {
+                    // Export the XML map to a file using a FileStream (String, Stream overload)
+                    string outputPath = "ExportedSample.xml";
+                    using (FileStream fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
+                    {
+                        workbook.ExportXml(mapName, fs);
+                    }
+
+                    Console.WriteLine($"ExportXml completed successfully. Output saved to '{outputPath}'.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error during ExportXml: {ex.Message}");
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

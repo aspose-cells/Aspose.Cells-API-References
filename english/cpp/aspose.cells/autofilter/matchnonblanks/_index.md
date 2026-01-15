@@ -2,7 +2,7 @@
 title: Aspose::Cells::AutoFilter::MatchNonBlanks method
 linktitle: MatchNonBlanks
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AutoFilter::MatchNonBlanks method. Match all not blank cell in the list in C++.'
+description: 'Aspose::Cells::AutoFilter::MatchNonBlanks method. Match all not-blank cells in the list in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.cells/autofilter/matchnonblanks/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/autofilter/matchnonblanks/
 ## AutoFilter::MatchNonBlanks method
 
 
-Match all not blank cell in the list.
+Match all not-blank cells in the list.
 
 ```cpp
 void Aspose::Cells::AutoFilter::MatchNonBlanks(int32_t fieldIndex)

@@ -151,6 +151,55 @@ public class CellsDrawing : Shape
 | [ToImage](../../aspose.cells.drawing/shape/toimage/)(string, ImageOrPrintOptions) | Saves the shape to a file.(Inherited from [`Shape`](../shape/).) |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell.(Inherited from [`Shape`](../shape/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassCellsDrawingDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // Add a shape to the worksheet to get a CellsDrawing instance
+                RectangleShape rectangle = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+                Shape shape = rectangle;
+
+                // Cast to CellsDrawing since it inherits from Shape
+                CellsDrawing cellsDrawing = shape as CellsDrawing;
+
+                if (cellsDrawing != null)
+                {
+                    Console.WriteLine("CellsDrawing instance created successfully");
+                    Console.WriteLine($"Shape type: {cellsDrawing.GetType().Name}");
+                }
+                else
+                {
+                    Console.WriteLine("Failed to create CellsDrawing instance");
+                }
+
+                // Save the workbook
+                workbook.Save("CellsDrawingDemo.xlsx");
+                Console.WriteLine("Workbook saved successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with CellsDrawing: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Shape](../shape/)

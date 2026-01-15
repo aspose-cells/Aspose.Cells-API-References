@@ -80,6 +80,53 @@ public void ImportCSV(Stream stream, string splitter, bool convertNumericData, i
 | firstRow | Int32 | The row number of the first cell to import in. |
 | firstColumn | Int32 | The column number of the first cell to import in. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class CellsMethodImportCSVWithStreamStringBooleanInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create sample CSV data in memory
+            string csvData = "Name,Age,City\nJohn,30,New York\nAlice,25,London\nBob,35,Paris";
+            byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(csvData);
+            MemoryStream csvStream = new MemoryStream(byteArray);
+
+            try
+            {
+                // Call ImportCSV method with Stream, String, Boolean, Int32, Int32 parameters
+                cells.ImportCSV(csvStream, ",", true, 0, 0);
+
+                Console.WriteLine("CSV data imported successfully to worksheet.");
+                Console.WriteLine($"Data range: A1 to {cells.MaxDisplayRange}");
+
+                // Save the workbook
+                workbook.Save("ImportCSVFromStreamDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error importing CSV: {ex.Message}");
+            }
+            finally
+            {
+                csvStream?.Dispose();
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -162,6 +209,63 @@ public void ImportCSV(Stream stream, TxtLoadOptions options, int firstRow, int f
 | options | TxtLoadOptions | The load options for reading text file |
 | firstRow | Int32 | The row number of the first cell to import in. |
 | firstColumn | Int32 | The column number of the first cell to import in. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class CellsMethodImportCSVWithStreamTxtLoadOptionsInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the Cells collection
+            Cells cells = worksheet.Cells;
+
+            // Create sample CSV data
+            string csvData = "Name,Age,City\nJohn,30,New York\nJane,25,Los Angeles\nBob,35,Chicago";
+
+            // Create a memory stream with the CSV data
+            MemoryStream csvStream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(csvData));
+
+            try
+            {
+                // Create TxtLoadOptions for CSV import
+                TxtLoadOptions loadOptions = new TxtLoadOptions();
+                loadOptions.Separator = ',';
+                loadOptions.ConvertNumericData = true;
+
+                // Import CSV data starting at row 0, column 0
+                cells.ImportCSV(csvStream, loadOptions, 0, 0);
+
+                // Save the workbook
+                workbook.Save("ImportCSVDemo.xlsx");
+
+                Console.WriteLine("CSV data imported successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error importing CSV: {ex.Message}");
+            }
+            finally
+            {
+                // Dispose the stream
+                csvStream.Dispose();
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

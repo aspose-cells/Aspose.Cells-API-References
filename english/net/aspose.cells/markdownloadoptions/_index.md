@@ -60,6 +60,46 @@ public class MarkdownLoadOptions : AbstractTextLoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../loadoptions/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassMarkdownLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create an instance of MarkdownLoadOptions
+                MarkdownLoadOptions options = new MarkdownLoadOptions();
+
+                // Set the HasFormula property
+                options.HasFormula = true;
+
+                // Display the property value
+                Console.WriteLine($"HasFormula property is set to: {options.HasFormula}");
+
+                // Create a workbook and load a markdown file with the options
+                Workbook workbook = new Workbook("sample.md", options);
+
+                // Save the workbook to Excel format
+                workbook.Save("output.xlsx");
+
+                Console.WriteLine("Markdown file loaded and converted to Excel successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractTextLoadOptions](../abstracttextloadoptions/)

@@ -10,7 +10,7 @@ url: /go-cpp/htmlsaveoptions/setexportnamedrangeanchors/
 
 ## SetExportNamedRangeAnchors function
 
-Indicates whether to export anchor elements  generated for named ranges when saving to HTML.Default value is true.
+Indicates whether to export anchor elements for named ranges when saving as HTML.Default value is true.
 
 ```go
 

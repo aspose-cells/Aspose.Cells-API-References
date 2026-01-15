@@ -2,7 +2,7 @@
 title: Aspose::Cells::Json::JsonExportHyperlinkType enum
 linktitle: JsonExportHyperlinkType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Json::JsonExportHyperlinkType enum. Represents type of exporting hyperlinks to json in C++.'
+description: 'Aspose::Cells::Json::JsonExportHyperlinkType enum. Represents type how to export hyperlinks to json in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.json/jsonexporthyperlinktype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.json/jsonexporthyperlinktype/
 ## JsonExportHyperlinkType enum
 
 
-Represents type of exporting hyperlinks to json.
+Represents type how to export hyperlinks to json.
 
 ```cpp
 enum class JsonExportHyperlinkType

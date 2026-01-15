@@ -28,6 +28,7 @@ public class PasteOptions
 | [OnlyVisibleCells](../../aspose.cells/pasteoptions/onlyvisiblecells/) { get; set; } | True means only copying visible cells. |
 | [OperationType](../../aspose.cells/pasteoptions/operationtype/) { get; set; } | Gets and sets the operation type when pasting range. |
 | [PasteType](../../aspose.cells/pasteoptions/pastetype/) { get; set; } | The paste special type. |
+| [ShiftFormulasOfShapes](../../aspose.cells/pasteoptions/shiftformulasofshapes/) { get; set; } | Indicates whether to shift formulas of the shapes when copying ranges. |
 | [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks/) { get; set; } | Indicates whether skips blank cells. |
 | [Transpose](../../aspose.cells/pasteoptions/transpose/) { get; set; } | True to transpose rows and columns when the range is pasted. The default value is False. |
 

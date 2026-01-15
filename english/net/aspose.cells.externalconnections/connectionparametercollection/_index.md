@@ -19,8 +19,8 @@ public class ConnectionParameterCollection : CollectionBase<ConnectionParameter>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item/) { get; set; } | Gets the [`ConnectionParameter`](../connectionparameter/) element at the specified index. (2 indexers) |
-| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item/) { get; } | Gets the [`ConnectionParameter`](../connectionparameter/) element with the specified name. |
+| [Item](../../aspose.cells.externalconnections/connectionparametercollection/item/) { get; } | Gets the [`ConnectionParameter`](../connectionparameter/) element at the specified index. (2 indexers) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 

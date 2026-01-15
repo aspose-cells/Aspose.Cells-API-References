@@ -2,7 +2,7 @@
 title: Aspose::Cells::AutoFilter::Custom method
 linktitle: Custom
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AutoFilter::Custom method. Filters a list with a custom criteria in C++.'
+description: 'Aspose::Cells::AutoFilter::Custom method. Filters a list with a custom criterion in C++.'
 type: docs
 weight: 2200
 url: /cpp/aspose.cells/autofilter/custom/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/autofilter/custom/
 ## AutoFilter::Custom(int32_t, FilterOperatorType, const Aspose::Cells::Object\&) method
 
 
-Filters a list with a custom criteria.
+Filters a list with a custom criterion.
 
 ```cpp
 void Aspose::Cells::AutoFilter::Custom(int32_t fieldIndex, FilterOperatorType operatorType1, const Aspose::Cells::Object &criteria1)

@@ -1,13 +1,13 @@
 ---
 title: CalculationData.GetParamText
 second_title: Aspose.Cells for .NET API Reference
-description: CalculationData method. Gets the literal text of the parameter at given index
+description: CalculationData method. Gets the literal text of the parameter at the given index
 type: docs
 url: /net/aspose.cells/calculationdata/getparamtext/
 ---
 ## CalculationData.GetParamText method
 
-Gets the literal text of the parameter at given index.
+Gets the literal text of the parameter at the given index.
 
 ```csharp
 public string GetParamText(int index)

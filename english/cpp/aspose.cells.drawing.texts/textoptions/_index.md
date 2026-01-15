@@ -24,7 +24,7 @@ class TextOptions : public Aspose::Cells::Font
 | [Font(Font_Impl* impl)](../../aspose.cells/font/font/) | Constructs from an implementation object. |
 | [Font(const Aspose::Cells::Font\& src)](../../aspose.cells/font/font/) | Copy constructor. |
 | [GetArgbColor()](../../aspose.cells/font/getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [GetCapsType()](../../aspose.cells/font/getcapstype/) | Gets and sets the text caps type. |
+| [GetCapsType()](./getcapstype/) | Gets and sets the text caps type. |
 | [GetCharset()](../../aspose.cells/font/getcharset/) | Represent the character set. |
 | [GetColor()](../../aspose.cells/font/getcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [GetDoubleSize()](../../aspose.cells/font/getdoublesize/) | Gets and sets the double size of the font. |
@@ -46,7 +46,7 @@ class TextOptions : public Aspose::Cells::Font
 | [GetUnderlineColor()](./getunderlinecolor/) | Gets or sets the color of underline. |
 | [IsBold()](../../aspose.cells/font/isbold/) | Gets or sets a value indicating whether the font is bold. |
 | [IsItalic()](../../aspose.cells/font/isitalic/) | Gets or sets a value indicating whether the font is italic. |
-| [IsNormalizeHeights()](../../aspose.cells/font/isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
+| [IsNormalizeHeights()](./isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsStrikeout()](../../aspose.cells/font/isstrikeout/) | Gets or sets a value indicating whether the font is single strikeout. |
 | [IsSubscript()](../../aspose.cells/font/issubscript/) | Gets or sets a value indicating whether the font is subscript. |
@@ -55,7 +55,7 @@ class TextOptions : public Aspose::Cells::Font
 | [operator=(const TextOptions\& src)](./operator_asm/) | operator= |
 | [operator=(const Aspose::Cells::Font\& src)](../../aspose.cells/font/operator_asm/) | operator= |
 | [SetArgbColor(int32_t value)](../../aspose.cells/font/setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [SetCapsType(TextCapsType value)](../../aspose.cells/font/setcapstype/) | Gets and sets the text caps type. |
+| [SetCapsType(TextCapsType value)](./setcapstype/) | Gets and sets the text caps type. |
 | [SetCharset(int32_t value)](../../aspose.cells/font/setcharset/) | Represent the character set. |
 | [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells/font/setcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [SetDoubleSize(double value)](../../aspose.cells/font/setdoublesize/) | Gets and sets the double size of the font. |
@@ -63,7 +63,7 @@ class TextOptions : public Aspose::Cells::Font
 | [SetFarEastName(const char16_t* value)](./setfareastname/) | Gets and sets the FarEast name. |
 | [SetIsBold(bool value)](../../aspose.cells/font/setisbold/) | Gets or sets a value indicating whether the font is bold. |
 | [SetIsItalic(bool value)](../../aspose.cells/font/setisitalic/) | Gets or sets a value indicating whether the font is italic. |
-| [SetIsNormalizeHeights(bool value)](../../aspose.cells/font/setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
+| [SetIsNormalizeHeights(bool value)](./setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. |
 | [SetIsStrikeout(bool value)](../../aspose.cells/font/setisstrikeout/) | Gets or sets a value indicating whether the font is single strikeout. |
 | [SetIsSubscript(bool value)](../../aspose.cells/font/setissubscript/) | Gets or sets a value indicating whether the font is subscript. |
 | [SetIsSuperscript(bool value)](../../aspose.cells/font/setissuperscript/) | Gets or sets a value indicating whether the font is super script. |
@@ -73,6 +73,8 @@ class TextOptions : public Aspose::Cells::Font
 | [SetLatinName(const char16_t* value)](./setlatinname/) | Gets and sets the latin name. |
 | [SetName(const U16String\& value)](./setname/) | Gets and sets the name of the shape. |
 | [SetName(const char16_t* value)](./setname/) | Gets and sets the name of the shape. |
+| [SetName(const U16String\& name, FontSchemeType type)](../../aspose.cells/font/setname/) | Sets name and scheme of the font. |
+| [SetName(const char16_t* name, FontSchemeType type)](../../aspose.cells/font/setname/) | Sets name and scheme of the font. |
 | [SetSchemeType(FontSchemeType value)](../../aspose.cells/font/setschemetype/) | Gets and sets the scheme type of the font. |
 | [SetScriptOffset(double value)](../../aspose.cells/font/setscriptoffset/) | Gets and sets the script offset,in unit of percentage. |
 | [SetSize(int32_t value)](../../aspose.cells/font/setsize/) | Gets or sets the size of the font. |

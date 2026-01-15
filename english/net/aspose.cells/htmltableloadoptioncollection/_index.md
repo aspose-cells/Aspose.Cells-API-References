@@ -1,13 +1,13 @@
 ---
 title: Class HtmlTableLoadOptionCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.HtmlTableLoadOptionCollection class. Represents the table options when importing html
+description: Aspose.Cells.HtmlTableLoadOptionCollection class. Represents the table options when importing HTML
 type: docs
 url: /net/aspose.cells/htmltableloadoptioncollection/
 ---
 ## HtmlTableLoadOptionCollection class
 
-Represents the table options when importing html.
+Represents the table options when importing HTML.
 
 ```csharp
 public class HtmlTableLoadOptionCollection : CollectionBase<HtmlTableLoadOption>
@@ -33,13 +33,14 @@ public class HtmlTableLoadOptionCollection : CollectionBase<HtmlTableLoadOption>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add)(HtmlTableLoadOption) | Adds one HtmlTableLoadOption into this collection. |
+| [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add)(HtmlTableLoadOption) | (**Obsolete.**) Adds one HtmlTableLoadOption into this collection. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_1)(int) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_4)(string) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_2)(int, int) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_5)(string, int) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_3)(int, int, int) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_6)(string, int, int) | Add a HtmlTableLoadOption to the list. |
+| [AddTableLoadOption](../../aspose.cells/htmltableloadoptioncollection/addtableloadoption/)(HtmlTableLoadOption) | Adds one HtmlTableLoadOption into this collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(HtmlTableLoadOption) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(HtmlTableLoadOption, IComparer&lt;HtmlTableLoadOption&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, HtmlTableLoadOption, IComparer&lt;HtmlTableLoadOption&gt;) |  |

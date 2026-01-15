@@ -1,11 +1,13 @@
 ---
 title: HtmlSaveOptions.DataBarRenderMode
 second_title: Aspose.Cells for .NET API Reference
-description: HtmlSaveOptions property. 
+description: HtmlSaveOptions property. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is BackgroundColor
 type: docs
 url: /net/aspose.cells/htmlsaveoptions/databarrendermode/
 ---
 ## HtmlSaveOptions.DataBarRenderMode property
+
+Represents the mode of how to render DataBar when converting Excel files to html files. Default value is BackgroundColor.
 
 ```csharp
 public DataBarRenderMode DataBarRenderMode { get; set; }

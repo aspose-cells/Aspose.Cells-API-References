@@ -2,7 +2,7 @@
 title: Aspose::Cells::CalculationData::GetCell method
 linktitle: GetCell
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CalculationData::GetCell method. Gets the Cell object where the function is in in C++.'
+description: 'Aspose::Cells::CalculationData::GetCell method. Gets the Cell object where the function is in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells/calculationdata/getcell/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/calculationdata/getcell/
 ## CalculationData::GetCell method
 
 
-Gets the [Cell](../../cell/) object where the function is in.
+Gets the [Cell](../../cell/) object where the function is.
 
 ```cpp
 Cell Aspose::Cells::CalculationData::GetCell()

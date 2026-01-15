@@ -109,8 +109,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [layoutMode](#layoutMode--)| HtmlLayoutMode | Gets or sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.Normal](../htmllayoutmode.normal/) |
 | [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
-| [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true. |
-| [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary> |
+| [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
+| [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
 
 
 ### constructor() {#constructor--}
@@ -944,7 +944,7 @@ embeddedFontType : HtmlEmbeddedFontType;
 
 ### exportNamedRangeAnchors {#exportNamedRangeAnchors--}
 
-Indicates whether to export anchor elements  generated for named ranges when saving to HTML. Default value is true.
+Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true.
 
 ```javascript
 exportNamedRangeAnchors : boolean;
@@ -953,7 +953,7 @@ exportNamedRangeAnchors : boolean;
 
 ### dataBarRenderMode {#dataBarRenderMode--}
 
-Indicates whether to display the DataBar as an image when saving to HTML.. Default value is <see cref="DataBarRenderMode.BackgroundColor">. </summary>
+Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/).
 
 ```javascript
 dataBarRenderMode : DataBarRenderMode;

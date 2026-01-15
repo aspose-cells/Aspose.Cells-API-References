@@ -1,13 +1,13 @@
 ---
 title: IndividualFontConfigs.SetFontFolders
 second_title: Aspose.Cells for .NET API Reference
-description: IndividualFontConfigs method. Sets the fonts folders
+description: IndividualFontConfigs method. Sets the font folders
 type: docs
 url: /net/aspose.cells/individualfontconfigs/setfontfolders/
 ---
 ## IndividualFontConfigs.SetFontFolders method
 
-Sets the fonts folders
+Sets the font folders
 
 ```csharp
 public void SetFontFolders(string[] fontFolders, bool recursive)

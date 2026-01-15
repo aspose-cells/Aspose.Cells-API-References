@@ -20,6 +20,7 @@ Represents a list of pivot area.
 | [add(CellArea cellArea)](#add-com.aspose.cells.CellArea-) | Adds an area based on pivot table view. |
 | [add(PivotArea pivotArea)](#add-com.aspose.cells.PivotArea-) | Adds pivot area. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [addPivotArea(PivotArea pivotArea)](#addPivotArea-com.aspose.cells.PivotArea-) | Adds pivot area into this collection. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -57,6 +58,10 @@ public int add(PivotArea pivotArea)
 
 Adds pivot area.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AddPivotArea() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -79,6 +84,21 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
+### addPivotArea(PivotArea pivotArea) {#addPivotArea-com.aspose.cells.PivotArea-}
+```
+public int addPivotArea(PivotArea pivotArea)
+```
+
+
+Adds pivot area into this collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivotArea | [PivotArea](../../com.aspose.cells/pivotarea) |  |
+
+**Returns:**
+int - index of the added pivot area in this collection
 ### clear() {#clear--}
 ```
 public void clear()

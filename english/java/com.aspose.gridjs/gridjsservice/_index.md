@@ -45,9 +45,10 @@ Provides the basic operation apis used in controller actions.
 | [load(String uid, String filename)](#load-java.lang.String-java.lang.String-) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [ole(String uid, String sheet, int oleid, String filename)](#ole-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
+| [ole(String uid, String sheetname, int oleid, String label)](#ole-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridjs.GridWorkbookSettings-) | Represents the workbook settings. |
 | [toString()](#toString--) |  |
+| [translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage)](#translateSheetAsync-java.lang.String-java.lang.String-com.aspose.gridjs.ITextTranslator-java.lang.String-) | Translate all the string value to the target language in the worksheet |
 | [updateCell(String p, String uid)](#updateCell-java.lang.String-java.lang.String-) | Applies the update operation. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -349,9 +350,9 @@ public final native void notifyAll()
 
 
 
-### ole(String uid, String sheet, int oleid, String filename) {#ole-java.lang.String-java.lang.String-int-java.lang.String-}
+### ole(String uid, String sheetname, int oleid, String label) {#ole-java.lang.String-java.lang.String-int-java.lang.String-}
 ```
-public byte[] ole(String uid, String sheet, int oleid, String filename)
+public byte[] ole(String uid, String sheetname, int oleid, String label)
 ```
 
 
@@ -361,9 +362,9 @@ Gets the byte array data of the embedded ole object .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | java.lang.String | The unique id for the file cache. |
-| sheet | java.lang.String |  |
+| sheetname | java.lang.String | The worksheet name. |
 | oleid | int | The id for the embedded ole object. |
-| filename | java.lang.String |  |
+| label | java.lang.String | The display label of the embedded ole object. |
 
 **Returns:**
 byte[] - The byte array data of the embedded ole object .
@@ -390,6 +391,24 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage) {#translateSheetAsync-java.lang.String-java.lang.String-com.aspose.gridjs.ITextTranslator-java.lang.String-}
+```
+public String translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage)
+```
+
+
+Translate all the string value to the target language in the worksheet
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | The unique id for the file cache. |
+| sheetName | java.lang.String | The sheet name |
+| translator | [ITextTranslator](../../com.aspose.gridjs/itexttranslator) | The translator which implement translate function |
+| targetLanguage | java.lang.String | The target language |
+
+**Returns:**
+java.lang.String - 
 ### updateCell(String p, String uid) {#updateCell-java.lang.String-java.lang.String-}
 ```
 public String updateCell(String p, String uid)

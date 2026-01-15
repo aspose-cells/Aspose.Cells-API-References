@@ -1,13 +1,13 @@
 ---
 title: Slicer.RowHeight
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Returns or sets the height in points of each row in the specified slicer
+description: Slicer property. Returns or sets the height of each row in the specified slicer in unit of points
 type: docs
 url: /net/aspose.cells.slicers/slicer/rowheight/
 ---
 ## Slicer.RowHeight property
 
-Returns or sets the height, in points, of each row in the specified slicer.
+Returns or sets the height of each row in the specified slicer in unit of points.
 
 ```csharp
 public double RowHeight { get; set; }

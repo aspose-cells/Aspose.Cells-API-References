@@ -4,7 +4,7 @@ linktitle: Equals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::Equals method. Checks if two fonts are equals in C++.'
 type: docs
-weight: 3600
+weight: 3700
 url: /cpp/aspose.cells/font/equals/
 ---
 ## Font::Equals method

@@ -22,6 +22,7 @@ class SparklineCollection;
 | [get(number)](#get-number-)| Gets the [Sparkline](../sparkline/) element at the specified index. |
 | [add(string, number, number)](#add-string-number-number-)| Add a sparkline. |
 | [remove(Object)](#remove-object-)| Removes the sparkline |
+| [removeSparkline(Sparkline)](#removeSparkline-sparkline-)| Removes the sparkline |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -70,6 +71,23 @@ remove(o: Object) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | Object |  |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use RemoveSparkline() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### removeSparkline(Sparkline) {#removeSparkline-sparkline-}
+
+Removes the sparkline
+
+```javascript
+removeSparkline(o: Sparkline) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | [Sparkline](../sparkline/) |  |
 
 ### getCount() {#getCount--}
 

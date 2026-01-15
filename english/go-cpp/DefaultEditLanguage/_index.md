@@ -25,4 +25,4 @@ type DefaultEditLanguage int32
 | --- | --- |
 |[Auto](./auto/) | Represents auto detecting edit language according to the text itself. | 
 |[English](./english/) | Represents English language. | 
-|[CJK](./cjk/) | Represents Chinese, Japanese, Korean language. | 
+|[CJK](./cjk/) | Represents Chinese, Japanese, and Korean languages. | 

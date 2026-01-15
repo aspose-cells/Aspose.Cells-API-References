@@ -24,11 +24,11 @@ public class IndividualFontConfigs
 | Name | Description |
 | --- | --- |
 | [GetFontSources](../../aspose.cells/individualfontconfigs/getfontsources/)() | Gets a copy of the array that contains the list of sources |
-| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes/)(string) | Returns array containing font substitute names to be used if original font is not presented. |
+| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes/)(string) | Returns an array containing font substitute names to be used if original font is not presented. |
 | [SetFontFolder](../../aspose.cells/individualfontconfigs/setfontfolder/)(string, bool) | Sets the fonts folder |
-| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders/)(string[], bool) | Sets the fonts folders |
-| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources/)(FontSourceBase[]) | Sets the fonts sources. |
-| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes/)(string, string[]) | Font substitute names for given original font name. |
+| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders/)(string[], bool) | Sets the font folders |
+| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources/)(FontSourceBase[]) | Sets the font sources. |
+| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes/)(string, string[]) | Sets font substitute names for a given original font name. |
 
 ### Examples
 

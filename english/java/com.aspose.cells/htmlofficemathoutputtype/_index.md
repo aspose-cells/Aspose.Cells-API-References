@@ -1,7 +1,7 @@
 ---
 title: HtmlOfficeMathOutputType
 second_title: Aspose.Cells for Java API Reference
-description: Represents how export OfficeMath to HTML.
+description: Represents how to export OfficeMath to HTML.
 type: docs
 url: /java/com.aspose.cells/htmlofficemathoutputtype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class HtmlOfficeMathOutputType
 ```
 
-Represents how export OfficeMath to HTML.
+Represents how to export OfficeMath to HTML.
 ## Fields
 
 | Field | Description |

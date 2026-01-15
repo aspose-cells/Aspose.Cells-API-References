@@ -1,13 +1,13 @@
 ---
 title: Class HtmlLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.HtmlLoadOptions class. Represents options when importing a html file
+description: Aspose.Cells.HtmlLoadOptions class. Represents options when importing an HTML file
 type: docs
 url: /net/aspose.cells/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
 
-Represents options when importing a html file.
+Represents options when importing an HTML file.
 
 ```csharp
 public class HtmlLoadOptions : AbstractTextLoadOptions
@@ -36,6 +36,7 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Gets or sets the regional settings used for the Workbook that will be loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [DeleteRedundantSpaces](../../aspose.cells/htmlloadoptions/deleteredundantspaces/) { get; set; } | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false. |
+| [DetectLaTeX](../../aspose.cells/htmlloadoptions/detectlatex/) { get; set; } | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [Encoding](../../aspose.cells/abstracttextloadoptions/encoding/) { get; set; } | Gets and sets the default encoding. Only applies for csv file.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
 | [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook/) which uses this [`LoadOptions`](../loadoptions/) to load.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [HasFormula](../../aspose.cells/htmlloadoptions/hasformula/) { get; set; } | Indicates whether the text is formula if it starts with "=". |

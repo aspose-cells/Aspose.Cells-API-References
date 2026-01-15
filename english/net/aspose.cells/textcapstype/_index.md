@@ -21,6 +21,10 @@ public enum TextCapsType
 | All | `1` | Apply all caps on the text. |
 | Small | `2` | Apply small caps to the text. |
 
+### Remarks
+
+Only can be applied to chart and shape.
+
 ### Examples
 
 ```csharp

@@ -10,7 +10,7 @@ url: /go-cpp/slicercache/getlist/
 
 ## GetList function
 
-Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source.
 
 ```go
 

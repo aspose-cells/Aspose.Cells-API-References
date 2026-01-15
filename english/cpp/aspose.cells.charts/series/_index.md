@@ -25,7 +25,7 @@ class Series
 | [GetBorder()](./getborder/) | Represents border of [Series](./) object. |
 | [GetBubbleScale()](./getbubblescale/) | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
 | [GetBubbleSizes()](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
-| [GetCategoryValues()](./getcategoryvalues/) | Gets the category values of the series. |
+| [GetCategoryValues()](./getcategoryvalues/) | Gets the actual category values that are used to plot every point of this series in the chart. |
 | [GetCountOfDataValues()](./getcountofdatavalues/) | Gets the number of the data values. |
 | [GetDataLabels()](./getdatalabels/) | Represents the [DataLabels](../datalabels/) object for the specified ASeries. |
 | [GetDisplayName()](./getdisplayname/) | Gets the series's name that displays on the chart graph. |
@@ -51,7 +51,7 @@ class Series
 | [GetOverlap()](./getoverlap/) | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [GetPlotOnSecondAxis()](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
 | [GetPoints()](./getpoints/) | Gets the collection of points in a series in a chart. |
-| [GetPointValues()](./getpointvalues/) | Gets the values for the points of the series. |
+| [GetPointValues()](./getpointvalues/) | Gets the actual values that are used to plot every point of this series in the chart. |
 | [GetSecondPlotSize()](./getsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [GetSeriesLines()](./getserieslines/) | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [GetShadow()](./getshadow/) | True if the series has a shadow. |
@@ -67,7 +67,7 @@ class Series
 | [GetValues()](./getvalues/) | Represents the Y values of this chart series. |
 | [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [GetXErrorBar()](./getxerrorbar/) | Represents X direction error bar of the series. |
-| [GetXValues()](./getxvalues/) | Represents the x values of the chart series. |
+| [GetXValues()](./getxvalues/) | Represents the X values of this chart series. |
 | [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
 | [IsAutoSplit()](./isautosplit/) | Indicates whether the threshold value is automatic. |
@@ -113,8 +113,8 @@ class Series
 | [SetValues(const char16_t* value)](./setvalues/) | Represents the Y values of this chart series. |
 | [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
-| [SetXValues(const U16String\& value)](./setxvalues/) | Represents the x values of the chart series. |
-| [SetXValues(const char16_t* value)](./setxvalues/) | Represents the x values of the chart series. |
+| [SetXValues(const U16String\& value)](./setxvalues/) | Represents the X values of this chart series. |
+| [SetXValues(const char16_t* value)](./setxvalues/) | Represents the X values of this chart series. |
 | [SetXValuesFormatCode(const U16String\& value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [SetXValuesFormatCode(const char16_t* value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [~Series()](./~series/) | Destructor. |

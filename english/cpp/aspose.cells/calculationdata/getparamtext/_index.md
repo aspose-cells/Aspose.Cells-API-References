@@ -2,7 +2,7 @@
 title: Aspose::Cells::CalculationData::GetParamText method
 linktitle: GetParamText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CalculationData::GetParamText method. Gets the literal text of the parameter at given index in C++.'
+description: 'Aspose::Cells::CalculationData::GetParamText method. Gets the literal text of the parameter at the given index in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.cells/calculationdata/getparamtext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/calculationdata/getparamtext/
 ## CalculationData::GetParamText method
 
 
-Gets the literal text of the parameter at given index.
+Gets the literal text of the parameter at the given index.
 
 ```cpp
 U16String Aspose::Cells::CalculationData::GetParamText(int32_t index)

@@ -23,8 +23,8 @@ public class CellValue
 
 | Name | Description |
 | --- | --- |
-| [Type](../../aspose.cells/cellvalue/type/) { get; set; } | Gets/sets the type of cell value. |
-| [Value](../../aspose.cells/cellvalue/value/) { get; set; } | Gets/sets the cell value. |
+| [Type](../../aspose.cells/cellvalue/type/) { get; set; } | Gets or sets the type of cell value. |
+| [Value](../../aspose.cells/cellvalue/value/) { get; set; } | Gets or sets the cell value. |
 
 ### Examples
 

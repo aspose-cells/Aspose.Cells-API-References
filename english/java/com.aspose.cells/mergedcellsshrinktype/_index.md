@@ -1,7 +1,7 @@
 ---
 title: MergedCellsShrinkType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+description: Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns.
 type: docs
 url: /java/com.aspose.cells/mergedcellsshrinktype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class MergedCellsShrinkType
 ```
 
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns.
 ## Fields
 
 | Field | Description |

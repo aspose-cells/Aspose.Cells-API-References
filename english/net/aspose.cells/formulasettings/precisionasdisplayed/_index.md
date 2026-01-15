@@ -1,13 +1,13 @@
 ---
 title: FormulaSettings.PrecisionAsDisplayed
 second_title: Aspose.Cells for .NET API Reference
-description: FormulaSettings property. Whether the precision of calculated result be set as they are displayed while calculating formulas
+description: FormulaSettings property. Indicates whether the precision of calculated result be set as they are displayed while calculating formulas
 type: docs
 url: /net/aspose.cells/formulasettings/precisionasdisplayed/
 ---
 ## FormulaSettings.PrecisionAsDisplayed property
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```csharp
 public bool PrecisionAsDisplayed { get; set; }

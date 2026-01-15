@@ -62,15 +62,15 @@ User should not modify any part of the Workbook directly in this implementation(
 | --- | --- |
 | [calculate(CalculationData data)](#calculate-com.aspose.cells.CalculationData-) | Calculates one function with given data. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [forceRecalculate(String functionName)](#forceRecalculate-java.lang.String-) | Whether force given function to be recalculated always when calculating shared formulas. |
+| [forceRecalculate(String functionName)](#forceRecalculate-java.lang.String-) | Whether to force the given function to be recalculated always when calculating shared formulas. |
 | [getClass()](#getClass--) |  |
 | [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--) | Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. |
 | [hashCode()](#hashCode--) |  |
 | [isParamArrayModeRequired()](#isParamArrayModeRequired--) | Indicates whether this engine needs the parameter to be calculated in array mode. |
-| [isParamLiteralRequired()](#isParamLiteralRequired--) | Indicates whether this engine needs the literal text of parameter while doing calculation. |
+| [isParamLiteralRequired()](#isParamLiteralRequired--) | Indicates whether this engine needs the literal text of the parameter while doing a calculation. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [skipCalculation()](#skipCalculation--) | Skips the calculation for the entire formula that references to the function currently under evaluation. |
+| [skipCalculation()](#skipCalculation--) | Skips the calculation for the entire formula that references the function currently under evaluation. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public boolean forceRecalculate(String functionName)
 ```
 
 
-Whether force given function to be recalculated always when calculating shared formulas.
+Whether to force the given function to be recalculated always when calculating shared formulas.
 
 **Remarks**
 
@@ -186,7 +186,7 @@ public boolean isParamLiteralRequired()
 ```
 
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+Indicates whether this engine needs the literal text of the parameter while doing a calculation. Default value is false.
 
 **Remarks**
 
@@ -216,7 +216,7 @@ public void skipCalculation()
 ```
 
 
-Skips the calculation for the entire formula that references to the function currently under evaluation.
+Skips the calculation for the entire formula that references the function currently under evaluation.
 
 **Remarks**
 

@@ -1,13 +1,13 @@
 ---
 title: AutoFilter.Custom
 second_title: Aspose.Cells for .NET API Reference
-description: AutoFilter method. Filters a list with a custom criteria
+description: AutoFilter method. Filters a list with a custom criterion
 type: docs
 url: /net/aspose.cells/autofilter/custom/
 ---
 ## Custom(int, FilterOperatorType, object) {#custom}
 
-Filters a list with a custom criteria.
+Filters a list with a custom criterion.
 
 ```csharp
 public void Custom(int fieldIndex, FilterOperatorType operatorType1, object criteria1)

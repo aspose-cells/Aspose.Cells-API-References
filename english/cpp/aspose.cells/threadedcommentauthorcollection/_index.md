@@ -2,15 +2,15 @@
 title: Aspose::Cells::ThreadedCommentAuthorCollection class
 linktitle: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::ThreadedCommentAuthorCollection class. Represents all persons who  in C++.'
+description: 'Aspose::Cells::ThreadedCommentAuthorCollection class. Represents all persons in C++.'
 type: docs
-weight: 14800
+weight: 14900
 url: /cpp/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
 
 
-Represents all persons who .
+Represents all persons.
 
 ```cpp
 class ThreadedCommentAuthorCollection

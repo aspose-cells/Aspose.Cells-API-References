@@ -30,8 +30,8 @@ type CellWatchCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Add_Int_Int](./add_int_int/) | Adds CellWatch with row and column. | 
-|[Add_String](./add_string/) | Adds CellWatch with the name the of cell. | 
+|[Add_Int_Int](./add_int_int/) | Adds Aspose.Cells.CellWatch with a row and a column. | 
+|[Add_String](./add_string/) | Adds Aspose.Cells.CellWatch with the name of the cell. | 
 |[Get_Int](./get_int/) | Gets and sets CellWatch by index. | 
 |[Get_String](./get_string/) | Gets and sets CellWatch by the name of the cell. | 
 |[GetCount](./getcount/) |  | 

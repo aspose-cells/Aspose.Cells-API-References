@@ -10,7 +10,7 @@ url: /go-cpp/abstractcalculationengine/skipcalculation/
 
 ## SkipCalculation function
 
-Skips the calculation for the entire formula that references to the function currently under evaluation.
+Skips the calculation for the entire formula that references the function currently under evaluation.
 
 ```go
 

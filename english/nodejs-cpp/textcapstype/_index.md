@@ -8,6 +8,8 @@ url: /nodejs-cpp/textcapstype/
 
 ## TextCapsType enumeration
 This type specifies the cap types of the text.
+### Remarks
+Only can be applied to chart and shape.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

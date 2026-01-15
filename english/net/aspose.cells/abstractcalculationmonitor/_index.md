@@ -1,13 +1,13 @@
 ---
 title: Class AbstractCalculationMonitor
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.AbstractCalculationMonitor class. Monitor for user to track the progress of formula calculation
+description: Aspose.Cells.AbstractCalculationMonitor class. Monitor for the user to track the progress of the formula calculation
 type: docs
 url: /net/aspose.cells/abstractcalculationmonitor/
 ---
 ## AbstractCalculationMonitor class
 
-Monitor for user to track the progress of formula calculation.
+Monitor for the user to track the progress of the formula calculation.
 
 ```csharp
 public abstract class AbstractCalculationMonitor

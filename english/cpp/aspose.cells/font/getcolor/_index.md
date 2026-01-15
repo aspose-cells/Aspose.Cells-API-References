@@ -4,7 +4,7 @@ linktitle: GetColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::GetColor method. Gets or sets the Color of the font in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.cells/font/getcolor/
 ---
 ## Font::GetColor method

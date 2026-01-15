@@ -10,12 +10,18 @@ url: /net/aspose.cells.charts/sparklinecollection/remove/
 Removes the sparkline
 
 ```csharp
+[Obsolete("Use SparklineCollection.RemoveSparkline(Sparkline) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void Remove(object o)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | Object |  |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use RemoveSparkline() method. This method will be removed 6 months later since December 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

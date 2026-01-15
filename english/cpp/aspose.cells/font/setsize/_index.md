@@ -4,7 +4,7 @@ linktitle: SetSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font::SetSize method. Gets or sets the size of the font in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/font/setsize/
 ---
 ## Font::SetSize method

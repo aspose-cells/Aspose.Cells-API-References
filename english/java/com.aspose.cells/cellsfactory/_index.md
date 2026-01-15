@@ -1,7 +1,7 @@
 ---
 title: CellsFactory
 second_title: Aspose.Cells for Java API Reference
-description: Utility for instantiating classes of Cells model.
+description: Utility for instantiating classes of the Cells model.
 type: docs
 url: /java/com.aspose.cells/cellsfactory/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class CellsFactory
 ```
 
-Utility for instantiating classes of Cells model.
+Utility for instantiating classes of the Cells model.
 ## Constructors
 
 | Constructor | Description |

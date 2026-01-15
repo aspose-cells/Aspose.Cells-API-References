@@ -25,8 +25,8 @@ class CellValue;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [type](#type--)| CellValueType | Gets/sets the type of cell value. |
-| [value](#value--)| VObject | Gets/sets the cell value. |
+| [type](#type--)| CellValueType | Gets or sets the type of cell value. |
+| [value](#value--)| VObject | Gets or sets the cell value. |
 
 
 ### constructor() {#constructor--}
@@ -40,7 +40,7 @@ constructor();
 
 ### type {#type--}
 
-Gets/sets the type of cell value.
+Gets or sets the type of cell value.
 
 ```javascript
 type : CellValueType;
@@ -49,7 +49,7 @@ type : CellValueType;
 
 ### value {#value--}
 
-Gets/sets the cell value.
+Gets or sets the cell value.
 
 ```javascript
 value : VObject;

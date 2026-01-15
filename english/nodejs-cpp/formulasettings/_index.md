@@ -20,16 +20,16 @@ class FormulaSettings;
 | Property | Type | Description |
 | --- | --- | --- |
 | [calculateOnOpen](#calculateOnOpen--)| boolean | Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [calculateOnSave](#calculateOnSave--)| boolean | Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
-| [forceFullCalculation](#forceFullCalculation--)| boolean | Indicates whether calculates all formulas every time when a calculation is triggered. |
-| [calculationMode](#calculationMode--)| CalcModeType | Gets or sets the mode for workbook calculation in ms excel. |
+| [calculateOnSave](#calculateOnSave--)| boolean | Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
+| [forceFullCalculation](#forceFullCalculation--)| boolean | Indicates whether it calculates all formulas every time when a calculation is triggered. |
+| [calculationMode](#calculationMode--)| CalcModeType | Gets or sets the mode for workbook calculation in MS Excel. |
 | [calculationId](#calculationId--)| string | Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [enableIterativeCalculation](#enableIterativeCalculation--)| boolean | Indicates whether enable iterative calculation to resolve circular references. |
+| [enableIterativeCalculation](#enableIterativeCalculation--)| boolean | Indicates whether to enable iterative calculation to resolve circular references. |
 | [maxIteration](#maxIteration--)| number | The maximum iterations to resolve a circular reference. |
 | [maxChange](#maxChange--)| number | The maximum change to resolve a circular reference. |
-| [precisionAsDisplayed](#precisionAsDisplayed--)| boolean | Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [enableCalculationChain](#enableCalculationChain--)| boolean | Whether enable calculation chain for formulas. Default is false. |
-| [preservePaddingSpaces](#preservePaddingSpaces--)| boolean | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [precisionAsDisplayed](#precisionAsDisplayed--)| boolean | Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [enableCalculationChain](#enableCalculationChain--)| boolean | Indicates whether to enable calculation chain for formulas. Default is false. |
+| [preservePaddingSpaces](#preservePaddingSpaces--)| boolean | Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 
 ## Methods
 
@@ -37,26 +37,26 @@ class FormulaSettings;
 | --- | --- |
 | [getCalculateOnOpen()](#getCalculateOnOpen--)| <b>@deprecated.</b> Please use the 'calculateOnOpen' property instead. Indicates whether the application is required to perform a full calculation when the workbook is opened. |
 | [setCalculateOnOpen(boolean)](#setCalculateOnOpen-boolean-)| <b>@deprecated.</b> Please use the 'calculateOnOpen' property instead. Indicates whether the application is required to perform a full calculation when the workbook is opened. |
-| [getCalculateOnSave()](#getCalculateOnSave--)| <b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
-| [setCalculateOnSave(boolean)](#setCalculateOnSave-boolean-)| <b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. |
-| [getForceFullCalculation()](#getForceFullCalculation--)| <b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether calculates all formulas every time when a calculation is triggered. |
-| [setForceFullCalculation(boolean)](#setForceFullCalculation-boolean-)| <b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether calculates all formulas every time when a calculation is triggered. |
-| [getCalculationMode()](#getCalculationMode--)| <b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in ms excel. |
-| [setCalculationMode(CalcModeType)](#setCalculationMode-calcmodetype-)| <b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in ms excel. |
+| [getCalculateOnSave()](#getCalculateOnSave--)| <b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
+| [setCalculateOnSave(boolean)](#setCalculateOnSave-boolean-)| <b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode. |
+| [getForceFullCalculation()](#getForceFullCalculation--)| <b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether it calculates all formulas every time when a calculation is triggered. |
+| [setForceFullCalculation(boolean)](#setForceFullCalculation-boolean-)| <b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether it calculates all formulas every time when a calculation is triggered. |
+| [getCalculationMode()](#getCalculationMode--)| <b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in MS Excel. |
+| [setCalculationMode(CalcModeType)](#setCalculationMode-calcmodetype-)| <b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in MS Excel. |
 | [getCalculationId()](#getCalculationId--)| <b>@deprecated.</b> Please use the 'calculationId' property instead. Specifies the version of the calculation engine used to calculate values in the workbook. |
 | [setCalculationId(string)](#setCalculationId-string-)| <b>@deprecated.</b> Please use the 'calculationId' property instead. Specifies the version of the calculation engine used to calculate values in the workbook. |
-| [getEnableIterativeCalculation()](#getEnableIterativeCalculation--)| <b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether enable iterative calculation to resolve circular references. |
-| [setEnableIterativeCalculation(boolean)](#setEnableIterativeCalculation-boolean-)| <b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether enable iterative calculation to resolve circular references. |
+| [getEnableIterativeCalculation()](#getEnableIterativeCalculation--)| <b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether to enable iterative calculation to resolve circular references. |
+| [setEnableIterativeCalculation(boolean)](#setEnableIterativeCalculation-boolean-)| <b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether to enable iterative calculation to resolve circular references. |
 | [getMaxIteration()](#getMaxIteration--)| <b>@deprecated.</b> Please use the 'maxIteration' property instead. The maximum iterations to resolve a circular reference. |
 | [setMaxIteration(number)](#setMaxIteration-number-)| <b>@deprecated.</b> Please use the 'maxIteration' property instead. The maximum iterations to resolve a circular reference. |
 | [getMaxChange()](#getMaxChange--)| <b>@deprecated.</b> Please use the 'maxChange' property instead. The maximum change to resolve a circular reference. |
 | [setMaxChange(number)](#setMaxChange-number-)| <b>@deprecated.</b> Please use the 'maxChange' property instead. The maximum change to resolve a circular reference. |
-| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--)| <b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [setPrecisionAsDisplayed(boolean)](#setPrecisionAsDisplayed-boolean-)| <b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Whether the precision of calculated result be set as they are displayed while calculating formulas |
-| [getEnableCalculationChain()](#getEnableCalculationChain--)| <b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Whether enable calculation chain for formulas. Default is false. |
-| [setEnableCalculationChain(boolean)](#setEnableCalculationChain-boolean-)| <b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Whether enable calculation chain for formulas. Default is false. |
-| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--)| <b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
-| [setPreservePaddingSpaces(boolean)](#setPreservePaddingSpaces-boolean-)| <b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--)| <b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [setPrecisionAsDisplayed(boolean)](#setPrecisionAsDisplayed-boolean-)| <b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Indicates whether the precision of calculated result be set as they are displayed while calculating formulas. |
+| [getEnableCalculationChain()](#getEnableCalculationChain--)| <b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Indicates whether to enable calculation chain for formulas. Default is false. |
+| [setEnableCalculationChain(boolean)](#setEnableCalculationChain-boolean-)| <b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Indicates whether to enable calculation chain for formulas. Default is false. |
+| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--)| <b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [setPreservePaddingSpaces(boolean)](#setPreservePaddingSpaces-boolean-)| <b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -75,7 +75,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### calculateOnSave {#calculateOnSave--}
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```javascript
 calculateOnSave : boolean;
@@ -88,7 +88,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### forceFullCalculation {#forceFullCalculation--}
 
-Indicates whether calculates all formulas every time when a calculation is triggered.
+Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```javascript
 forceFullCalculation : boolean;
@@ -101,7 +101,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### calculationMode {#calculationMode--}
 
-Gets or sets the mode for workbook calculation in ms excel.
+Gets or sets the mode for workbook calculation in MS Excel.
 
 ```javascript
 calculationMode : CalcModeType;
@@ -127,7 +127,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### enableIterativeCalculation {#enableIterativeCalculation--}
 
-Indicates whether enable iterative calculation to resolve circular references.
+Indicates whether to enable iterative calculation to resolve circular references.
 
 ```javascript
 enableIterativeCalculation : boolean;
@@ -154,7 +154,7 @@ maxChange : number;
 
 ### precisionAsDisplayed {#precisionAsDisplayed--}
 
-Whether the precision of calculated result be set as they are displayed while calculating formulas
+Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```javascript
 precisionAsDisplayed : boolean;
@@ -163,7 +163,7 @@ precisionAsDisplayed : boolean;
 
 ### enableCalculationChain {#enableCalculationChain--}
 
-Whether enable calculation chain for formulas. Default is false.
+Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```javascript
 enableCalculationChain : boolean;
@@ -176,7 +176,7 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 ### preservePaddingSpaces {#preservePaddingSpaces--}
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```javascript
 preservePaddingSpaces : boolean;
@@ -219,7 +219,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### getCalculateOnSave() {#getCalculateOnSave--}
 
-<b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+<b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```javascript
 getCalculateOnSave() : boolean;
@@ -232,7 +232,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### setCalculateOnSave(boolean) {#setCalculateOnSave-boolean-}
 
-<b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+<b>@deprecated.</b> Please use the 'calculateOnSave' property instead. Indicates whether to recalculate the workbook before saving the document, when in manual calculation mode.
 
 ```javascript
 setCalculateOnSave(value: boolean) : void;
@@ -249,7 +249,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### getForceFullCalculation() {#getForceFullCalculation--}
 
-<b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether calculates all formulas every time when a calculation is triggered.
+<b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```javascript
 getForceFullCalculation() : boolean;
@@ -262,7 +262,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### setForceFullCalculation(boolean) {#setForceFullCalculation-boolean-}
 
-<b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether calculates all formulas every time when a calculation is triggered.
+<b>@deprecated.</b> Please use the 'forceFullCalculation' property instead. Indicates whether it calculates all formulas every time when a calculation is triggered.
 
 ```javascript
 setForceFullCalculation(value: boolean) : void;
@@ -279,7 +279,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### getCalculationMode() {#getCalculationMode--}
 
-<b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in ms excel.
+<b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in MS Excel.
 
 ```javascript
 getCalculationMode() : CalcModeType;
@@ -296,7 +296,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### setCalculationMode(CalcModeType) {#setCalculationMode-calcmodetype-}
 
-<b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in ms excel.
+<b>@deprecated.</b> Please use the 'calculationMode' property instead. Gets or sets the mode for workbook calculation in MS Excel.
 
 ```javascript
 setCalculationMode(value: CalcModeType) : void;
@@ -343,7 +343,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ### getEnableIterativeCalculation() {#getEnableIterativeCalculation--}
 
-<b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether enable iterative calculation to resolve circular references.
+<b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether to enable iterative calculation to resolve circular references.
 
 ```javascript
 getEnableIterativeCalculation() : boolean;
@@ -352,7 +352,7 @@ getEnableIterativeCalculation() : boolean;
 
 ### setEnableIterativeCalculation(boolean) {#setEnableIterativeCalculation-boolean-}
 
-<b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether enable iterative calculation to resolve circular references.
+<b>@deprecated.</b> Please use the 'enableIterativeCalculation' property instead. Indicates whether to enable iterative calculation to resolve circular references.
 
 ```javascript
 setEnableIterativeCalculation(value: boolean) : void;
@@ -409,7 +409,7 @@ setMaxChange(value: number) : void;
 
 ### getPrecisionAsDisplayed() {#getPrecisionAsDisplayed--}
 
-<b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Whether the precision of calculated result be set as they are displayed while calculating formulas
+<b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```javascript
 getPrecisionAsDisplayed() : boolean;
@@ -418,7 +418,7 @@ getPrecisionAsDisplayed() : boolean;
 
 ### setPrecisionAsDisplayed(boolean) {#setPrecisionAsDisplayed-boolean-}
 
-<b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Whether the precision of calculated result be set as they are displayed while calculating formulas
+<b>@deprecated.</b> Please use the 'precisionAsDisplayed' property instead. Indicates whether the precision of calculated result be set as they are displayed while calculating formulas.
 
 ```javascript
 setPrecisionAsDisplayed(value: boolean) : void;
@@ -431,7 +431,7 @@ setPrecisionAsDisplayed(value: boolean) : void;
 
 ### getEnableCalculationChain() {#getEnableCalculationChain--}
 
-<b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Whether enable calculation chain for formulas. Default is false.
+<b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```javascript
 getEnableCalculationChain() : boolean;
@@ -444,7 +444,7 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 ### setEnableCalculationChain(boolean) {#setEnableCalculationChain-boolean-}
 
-<b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Whether enable calculation chain for formulas. Default is false.
+<b>@deprecated.</b> Please use the 'enableCalculationChain' property instead. Indicates whether to enable calculation chain for formulas. Default is false.
 
 ```javascript
 setEnableCalculationChain(value: boolean) : void;
@@ -461,7 +461,7 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 ### getPreservePaddingSpaces() {#getPreservePaddingSpaces--}
 
-<b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+<b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```javascript
 getPreservePaddingSpaces() : boolean;
@@ -474,7 +474,7 @@ Generally those spaces and line breaks are jsut for visual purpose, Preserving t
 
 ### setPreservePaddingSpaces(boolean) {#setPreservePaddingSpaces-boolean-}
 
-<b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+<b>@deprecated.</b> Please use the 'preservePaddingSpaces' property instead. Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
 
 ```javascript
 setPreservePaddingSpaces(value: boolean) : void;

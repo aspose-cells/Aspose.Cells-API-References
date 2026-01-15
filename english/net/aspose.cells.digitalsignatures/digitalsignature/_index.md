@@ -34,6 +34,62 @@ public class DigitalSignature
 | [Text](../../aspose.cells.digitalsignatures/digitalsignature/text/) { get; set; } | Specifies the text of actual signature in the digital signature. Default value is Empty. |
 | [XAdESType](../../aspose.cells.digitalsignatures/digitalsignature/xadestype/) { get; set; } | XAdES type. Default value is None(XAdES is off). |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.Security.Cryptography.X509Certificates;
+
+    public class DigitalSignaturesClassDigitalSignatureDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Digital Signature Demo");
+
+            try
+            {
+                // Create a digital signature using certificate constructor
+                X509Certificate2 certificate = new X509Certificate2("test.pfx", "password");
+                DigitalSignature signature = new DigitalSignature(
+                    certificate,
+                    "Document signed for approval",
+                    DateTime.Now);
+
+                // Set additional properties
+                signature.Id = Guid.NewGuid();
+                signature.Text = "Approved";
+                signature.XAdESType = XAdESType.XAdES;
+
+                // Add signature to workbook
+                DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+                signatures.Add(signature);
+                workbook.SetDigitalSignature(signatures);
+
+                // Display signature information
+                Console.WriteLine($"Signature added: {signature.Comments}");
+                Console.WriteLine($"Sign time: {signature.SignTime}");
+                Console.WriteLine($"Signature ID: {signature.Id}");
+
+                // Save the signed workbook
+                workbook.Save("DigitalSignatureDemo.xlsx");
+                Console.WriteLine("Workbook signed and saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with DigitalSignature: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures/)

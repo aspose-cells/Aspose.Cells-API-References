@@ -10,7 +10,7 @@ url: /go-cpp/copyformattype/
 
 ## CopyFormatType Enum
 
-Represents type of copying format when inserting rows.
+Represents the type of copying format when inserting rows.
 
 ```go
 
