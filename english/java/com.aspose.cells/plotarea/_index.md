@@ -334,7 +334,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-HeightPixel = HeightRatioToChart \* chart.ChartObject.Width.
+HeightPixel = HeightRatioToChart \* chart.ChartObject.Width. Note: When HeightRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Returns:**
 double
@@ -368,7 +368,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerHeight in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerHeight in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerHeightRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Returns:**
 double
@@ -402,7 +402,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerWidth in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerWidth in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerWidthRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Returns:**
 double
@@ -436,7 +436,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerX in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerX in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerXRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Returns:**
 double
@@ -470,7 +470,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerY in Pixel = InnerYRatioToChart \* chart.ChartObject.Width.
+InnerY in Pixel = InnerYRatioToChart \* chart.ChartObject.Width. Note: When InnerYRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Returns:**
 double
@@ -558,7 +558,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-WidthPixel = WidthRatioToChart \* chart.ChartObject.Width.
+WidthPixel = WidthRatioToChart \* chart.ChartObject.Width. Note: When WidthRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Returns:**
 double
@@ -602,7 +602,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-XPixel = XRatioToChart \* chart.ChartObject.Width.
+XPixel = XRatioToChart \* chart.ChartObject.Width. Note: When XRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Returns:**
 double
@@ -646,7 +646,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-YPixel = YRatioToChart \* chart.ChartObject.Width.
+YPixel = YRatioToChart \* chart.ChartObject.Width. Note: When YRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Returns:**
 double
@@ -667,6 +667,10 @@ public boolean isAutomaticSize()
 
 
 Indicates whether the plot area is automatic sized.
+
+**Remarks**
+
+NOTE: When IsAutomaticSize is set to True, the values you manually set for Width and Height will be disabled.
 
 **Returns:**
 boolean
@@ -730,6 +734,10 @@ public void setAutomaticSize(boolean value)
 
 
 Indicates whether the plot area is automatic sized.
+
+**Remarks**
+
+NOTE: When IsAutomaticSize is set to True, the values you manually set for Width and Height will be disabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,7 +824,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-HeightPixel = HeightRatioToChart \* chart.ChartObject.Width.
+HeightPixel = HeightRatioToChart \* chart.ChartObject.Width. Note: When HeightRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -856,7 +864,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerHeight in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerHeight in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerHeightRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -913,7 +921,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerWidth in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerWidth in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerWidthRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -953,7 +961,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerX in Pixel = InnerXRatioToChart \* chart.ChartObject.Width.
+InnerX in Pixel = InnerXRatioToChart \* chart.ChartObject.Width. Note: When InnerXRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -993,7 +1001,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-InnerY in Pixel = InnerYRatioToChart \* chart.ChartObject.Width.
+InnerY in Pixel = InnerYRatioToChart \* chart.ChartObject.Width. Note: When InnerYRatioToChart is set, the IsInnerMode property will be automatically set to True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1067,7 +1075,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-WidthPixel = WidthRatioToChart \* chart.ChartObject.Width.
+WidthPixel = WidthRatioToChart \* chart.ChartObject.Width. Note: When WidthRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1120,7 +1128,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-XPixel = XRatioToChart \* chart.ChartObject.Width.
+XPixel = XRatioToChart \* chart.ChartObject.Width. Note: When XRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1173,7 +1181,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-YPixel = YRatioToChart \* chart.ChartObject.Width.
+YPixel = YRatioToChart \* chart.ChartObject.Width. Note: When YRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 **Parameters:**
 | Parameter | Type | Description |

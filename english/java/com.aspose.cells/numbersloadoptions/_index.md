@@ -45,6 +45,7 @@ Represents the options of loading Apple Numbers files.
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
+| [getPreserveTableName()](#getPreserveTableName--) | Indicates whether to preserve table names when exporting from Numbers. |
 | [getRegion()](#getRegion--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
@@ -72,6 +73,7 @@ Represents the options of loading Apple Numbers files.
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
 | [setPreservePaddingSpacesInFormula(boolean value)](#setPreservePaddingSpacesInFormula-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
+| [setPreserveTableName(boolean value)](#setPreserveTableName-boolean-) | Indicates whether to preserve table names when exporting from Numbers. |
 | [setRegion(int value)](#setRegion-int-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
@@ -368,6 +370,16 @@ Indicates whether preserve those spaces and line breaks that are padded between 
 **Remarks**
 
 After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Returns:**
+boolean
+### getPreserveTableName() {#getPreserveTableName--}
+```
+public boolean getPreserveTableName()
+```
+
+
+Indicates whether to preserve table names when exporting from Numbers.
 
 **Returns:**
 boolean
@@ -755,6 +767,19 @@ Indicates whether preserve those spaces and line breaks that are padded between 
 **Remarks**
 
 After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setPreserveTableName(boolean value) {#setPreserveTableName-boolean-}
+```
+public void setPreserveTableName(boolean value)
+```
+
+
+Indicates whether to preserve table names when exporting from Numbers.
 
 **Parameters:**
 | Parameter | Type | Description |

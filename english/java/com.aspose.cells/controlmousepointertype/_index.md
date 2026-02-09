@@ -25,8 +25,8 @@ Represents the type of icon displayed as the mouse pointer for the control.
 | [HELP](#HELP) | Arrow with a question mark. |
 | [HOUR_GLASS](#HOUR-GLASS) | Hourglass. |
 | [I_BEAM](#I-BEAM) | I-beam. |
-| [NO_DROP](#NO-DROP) | "Not\\u9225? |
-| [SIZE_ALL](#SIZE-ALL) | "Size-all\\u9225? |
+| [NO_DROP](#NO-DROP) | "Not" symbol (circle with a diagonal line) on top of the object being dragged. |
+| [SIZE_ALL](#SIZE-ALL) | "Size-all" cursor (arrows pointing north, south, east, and west). |
 | [SIZE_NESW](#SIZE-NESW) | Double arrow pointing northeast and southwest. |
 | [SIZE_NS](#SIZE-NS) | Double arrow pointing north and south. |
 | [SIZE_NWSE](#SIZE-NWSE) | Double arrow pointing northwest and southeast. |
@@ -115,7 +115,7 @@ public static final int NO_DROP
 ```
 
 
-"Not\\u9225?symbol (circle with a diagonal line) on top of the object being dragged.
+"Not" symbol (circle with a diagonal line) on top of the object being dragged.
 
 ### SIZE_ALL {#SIZE-ALL}
 ```
@@ -123,7 +123,7 @@ public static final int SIZE_ALL
 ```
 
 
-"Size-all\\u9225?cursor (arrows pointing north, south, east, and west).
+"Size-all" cursor (arrows pointing north, south, east, and west).
 
 ### SIZE_NESW {#SIZE-NESW}
 ```

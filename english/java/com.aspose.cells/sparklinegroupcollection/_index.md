@@ -42,7 +42,7 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
 | Method | Description |
 | --- | --- |
 | [add(int type)](#add-int-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with a [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
-| [add(int type, String dataRange, boolean isVertical, CellArea locationRange)](#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
+| [add(int type, String dataRange, boolean isVertical, CellArea locationRange)](#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with some [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [clearSparklineGroups(CellArea cellArea)](#clearSparklineGroups-com.aspose.cells.CellArea-) | Clears the sparkline groups that overlaps an area of cells. |
@@ -83,7 +83,11 @@ public int add(int type, String dataRange, boolean isVertical, CellArea location
 ```
 
 
-Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with [Sparkline](../../com.aspose.cells/sparkline) to the collection.
+Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with some [Sparkline](../../com.aspose.cells/sparkline) to the collection.
+
+**Remarks**
+
+This method will create sparklines too. If  is true, the number of rows in dataRange and locationRange must be same. If  is false, the number of columns in dataRange and locationRange must be same.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,6 +142,10 @@ public void clearSparklines(CellArea cellArea)
 
 
 Clears the sparklines that is inside an area of cells.
+
+**Remarks**
+
+[SparklineGroup](../../com.aspose.cells/sparklinegroup) will be removed too if it does not contains any [Sparkline](../../com.aspose.cells/sparkline).
 
 **Parameters:**
 | Parameter | Type | Description |

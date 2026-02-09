@@ -349,7 +349,7 @@ public DisplayUnitLabel getDisplayUnitLabel()
 ```
 
 
-Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values\\u9225?for example, in the millions or billions.
+Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
 
 **Returns:**
 [DisplayUnitLabel](../../com.aspose.cells/displayunitlabel)
@@ -664,7 +664,7 @@ Represents if the display unit label is shown on the specified axis.
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--) is not [DisplayUnitType.NONE](../../com.aspose.cells/displayunittype\#NONE).
 
 **Returns:**
 boolean
@@ -947,7 +947,7 @@ Represents if the display unit label is shown on the specified axis.
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--) is not [DisplayUnitType.NONE](../../com.aspose.cells/displayunittype\#NONE).
 
 **Parameters:**
 | Parameter | Type | Description |

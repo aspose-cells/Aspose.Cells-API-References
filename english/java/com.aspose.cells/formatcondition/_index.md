@@ -76,7 +76,7 @@ Represents conditional formatting condition.
 | [getStopIfTrue()](#getStopIfTrue--) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. |
 | [getStyle()](#getStyle--) | Gets or setts style of conditional formatted cell ranges. |
 | [getText()](#getText--) | The text value in a "text contains" conditional formatting rule. |
-| [getTimePeriod()](#getTimePeriod--) | The applicable time period in a "date occurring\\u9225? |
+| [getTimePeriod()](#getTimePeriod--) | The applicable time period in a "date occurrin" conditional formatting rule. |
 | [getTop10()](#getTop10--) | Get the conditional formatting's "Top10" instance. |
 | [getType()](#getType--) | Gets whether the conditional format Type. |
 | [hashCode()](#hashCode--) |  |
@@ -92,7 +92,7 @@ Represents conditional formatting condition.
 | [setStopIfTrue(boolean value)](#setStopIfTrue-boolean-) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. |
 | [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Gets or setts style of conditional formatted cell ranges. |
 | [setText(String value)](#setText-java.lang.String-) | The text value in a "text contains" conditional formatting rule. |
-| [setTimePeriod(int value)](#setTimePeriod-int-) | The applicable time period in a "date occurring\\u9225? |
+| [setTimePeriod(int value)](#setTimePeriod-int-) | The applicable time period in a "date occurrin" conditional formatting rule. |
 | [setType(int value)](#setType-int-) | Sets whether the conditional format Type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -357,7 +357,7 @@ public int getTimePeriod()
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today.
 
 See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
@@ -564,7 +564,7 @@ public void setTimePeriod(int value)
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today.
 
 See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 

@@ -77,6 +77,10 @@ public static FileFormatInfo detectFileFormat(String filePath)
 
 Detects and returns the information about a format of an excel stored in a file.
 
+**Remarks**
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -91,6 +95,10 @@ public static FileFormatInfo detectFileFormat(String filePath, String password)
 
 
 Detects and returns the information about a format of an excel stored in a file.
+
+**Remarks**
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format.
 
 **Parameters:**
 | Parameter | Type | Description |

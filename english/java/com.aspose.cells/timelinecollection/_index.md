@@ -1,7 +1,7 @@
 ---
 title: TimelineCollection
 second_title: Aspose.Cells for Java API Reference
-description: Specifies the collection of all the Timeline objects on the specified worksheet.
+description: Specifies the collection of all the  objects on the worksheet.
 type: docs
 url: /java/com.aspose.cells/timelinecollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class TimelineCollection extends CollectionBase
 ```
 
-Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline.
+Specifies the collection of all the [Timeline](../../com.aspose.cells/timeline) objects on the worksheet. It was supported since Excel 2013.
 
 **Example**
 

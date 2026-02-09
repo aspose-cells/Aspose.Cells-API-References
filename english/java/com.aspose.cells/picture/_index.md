@@ -164,6 +164,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [isLink()](#isLink--) | Returns true if the picture is linked to a file. |
 | [isLockAspectRatio()](#isLockAspectRatio--) | True means that aspect ratio of the shape is locked. |
 | [isLocked()](#isLocked--) | True means the object can not be modified when the sheet is protected. |
+| [isPlacedInCell()](#isPlacedInCell--) | Indicates whether to place the image in cell or over cells. |
 | [isPrintable()](#isPrintable--) | Indicates whether the object is printable. |
 | [isRichText()](#isRichText--) | Whether or not the text is rich text. |
 | [isSameSetting(Object obj)](#isSameSetting-java.lang.Object-) | Returns whether the shape is same. |
@@ -223,6 +224,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [setLowerRightRow(int value)](#setLowerRightRow-int-) | Represents lower right corner row index. |
 | [setMacroName(String value)](#setMacroName-java.lang.String-) | Sets the name of macro. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the shape. |
+| [setPlacedInCell(boolean value)](#setPlacedInCell-boolean-) | Indicates whether to place the image in cell or over cells. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
 | [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the object is printable. |
 | [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | Indicates whether shape is relative to original picture size. |
@@ -2651,6 +2653,16 @@ True means the object can not be modified when the sheet is protected. Note that
 
 **Returns:**
 boolean
+### isPlacedInCell() {#isPlacedInCell--}
+```
+public boolean isPlacedInCell()
+```
+
+
+Indicates whether to place the image in cell or over cells.
+
+**Returns:**
+boolean
 ### isPrintable() {#isPrintable--}
 ```
 public boolean isPrintable()
@@ -2864,6 +2876,10 @@ public void placeInCell()
 
 
 Place this picture in the cell
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please use Picture.IsPlacedInCell property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### removeActiveXControl() {#removeActiveXControl--}
 ```
@@ -3573,6 +3589,19 @@ Sets the name of the shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setPlacedInCell(boolean value) {#setPlacedInCell-boolean-}
+```
+public void setPlacedInCell(boolean value)
+```
+
+
+Indicates whether to place the image in cell or over cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setPlacement(int value) {#setPlacement-int-}
 ```
