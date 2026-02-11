@@ -1,14 +1,14 @@
 ﻿---
 title: TimelineCollection
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel Excel 2003 does not support Timeline.
+description: Specifies the collection of all the Timeline..timeline objects on the worksheet. It was supported since Excel 2013.
 type: docs
 url: /javascript-cpp/timelinecollection/
 ---
 
 ## TimelineCollection class
 
-Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline.
+Specifies the collection of all the [Timeline](../timeline/) objects on the worksheet. It was supported since Excel 2013.
 
 ```javascript
 class TimelineCollection;

@@ -65,7 +65,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | Property | Type | Description |
 | --- | --- | --- |
 | [categoryData](#categoryData--)| string | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
-| [secondCategoryData](#secondCategoryData--)| string | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [secondCategoryData](#secondCategoryData--)| string | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some series were plotted on the second axis. |
 | [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. |
 
 ## Methods
@@ -96,7 +96,7 @@ categoryData : string;
 
 ### secondCategoryData {#secondCategoryData--}
 
-Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis.
+Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some series were plotted on the second axis.
 
 ```javascript
 secondCategoryData : string;
@@ -111,6 +111,10 @@ Represents if the color of points is varied.
 isColorVaried : boolean;
 ```
 
+
+**Remarks**
+
+Only works for pie chart or when there is only one series.
 
 ### get(number) {#get-number-}
 
@@ -237,14 +241,14 @@ br>If set data on contiguous cells, use colon to seperate them.For example, R[1]
 Adds the [Series](../series/) collection to a chart.
 
 ```javascript
-add(area: string, isVertical: boolean) : number;
+add(dataArea: string, isVertical: boolean) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | string | Specifies values from which to plot the data series |
-| isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
+| dataArea | string | Specifies values from which to plot the data series |
+| isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column.         /// If true, [Series](../series/) will be added column by column |
 
 **Returns**
 
@@ -252,7 +256,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).</br
+br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).</br> <br>This method only simply process <paramref name="dataArea"/> as data range. If you want to smartly check ChartCollection.Add() method. </br
 
 ### add(string, boolean, boolean) {#add-string-boolean-boolean-}
 

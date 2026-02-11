@@ -459,7 +459,7 @@ is_root: true
 | [TickLabels](./ticklabels) | Represents the tick-mark labels associated with tick marks on a chart axis. |
 | [TilePicOption](./tilepicoption) | Represents tile picture as texture. |
 | [Timeline](./timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
-| [TimelineCollection](./timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline. |
+| [TimelineCollection](./timelinecollection) | Specifies the collection of all the [Timeline](../javascript-cpp/timeline/) objects on the worksheet. It was supported since Excel 2013. |
 | [TimelineShape](./timelineshape) | Represents the Timeline msodrawing object. |
 | [Title](./title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](./togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |

@@ -40,7 +40,7 @@ class Slicer;
 | [firstItemIndex](#firstItemIndex--)| number | Specifies the zero-based index of the first slicer item. |
 | [captionVisible](#captionVisible--)| boolean | Returns or sets whether the header that displays the slicer Caption is visible. The default value is true |
 | [showCaption](#showCaption--)| boolean | Indicates whether the header of the slicer is visible. The default value is true |
-| [numberOfColumns](#numberOfColumns--)| number | Returns or sets the number of columns in the specified slicer. The default value is 1. |
+| [numberOfColumns](#numberOfColumns--)| number | Returns or sets the number of columns in the slicer. The default value is 1. |
 | [leftPixel](#leftPixel--)| number | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
 | [topPixel](#topPixel--)| number | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [width](#width--)| number | Returns or sets the width of the specified slicer, in points. |
@@ -181,7 +181,7 @@ lockedAspectRatio : boolean;
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Shape.GetLockedProperty()](../shape.getlockedproperty()/) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Shape.IsAspectRatioLocked](../shape.isaspectratiolocked/) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### lockedPosition {#lockedPosition--}
 
@@ -292,7 +292,7 @@ showCaption : boolean;
 
 ### numberOfColumns {#numberOfColumns--}
 
-Returns or sets the number of columns in the specified slicer. The default value is 1.
+Returns or sets the number of columns in the slicer. The default value is 1.
 
 ```javascript
 numberOfColumns : number;

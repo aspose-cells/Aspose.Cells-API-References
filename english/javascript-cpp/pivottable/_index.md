@@ -22,6 +22,7 @@ class PivotTable;
 | [isExcel2003Compatible](#isExcel2003Compatible--)| boolean | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
 | [refreshedByWho](#refreshedByWho--)| string | Readonly. Gets the name of the last user who refreshed this PivotTable |
 | [refreshDate](#refreshDate--)| Date | Readonly. Gets the last date time when the PivotTable was refreshed. |
+| [pivotTableStyle](#pivotTableStyle--)| TableStyle | Gets [TableStyle](../tablestyle/) settings of this pivot table. |
 | [pivotTableStyleName](#pivotTableStyleName--)| string | Gets and sets the pivottable style name. |
 | [pivotTableStyleType](#pivotTableStyleType--)| PivotTableStyleType | Gets and sets the built-in pivot table style. |
 | [columnFields](#columnFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as column fields. |
@@ -32,6 +33,8 @@ class PivotTable;
 | [valuesField](#valuesField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
 | [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
+| [topRightArea](#topRightArea--)| CellArea | Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
+| [filterArea](#filterArea--)| CellArea | Readonly. Gets the region of filter region. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [rowRange](#rowRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
 | [dataBodyRange](#dataBodyRange--)| CellArea | Readonly. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
@@ -121,6 +124,7 @@ class PivotTable;
 | [addCalculatedField(string, string, boolean)](#addCalculatedField-string-string-boolean-)| Adds a calculated field to pivot field. |
 | [addCalculatedField(string, string)](#addCalculatedField-string-string-)| Adds a calculated field to pivot field and drag it to data area. |
 | [getFields(PivotFieldType)](#getFields-pivotfieldtype-)| Gets the specific pivot field list by the region. |
+| [getButtonArea(PivotFieldType)](#getButtonArea-pivotfieldtype-)| Gets the area contains field button. |
 | [move(number, number)](#move-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [move(string)](#move-string-)| Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(number, number)](#moveTo-number-number-)| Moves the PivotTable to a different location in the worksheet. |
@@ -175,6 +179,15 @@ Readonly. Gets the last date time when the PivotTable was refreshed.
 
 ```javascript
 refreshDate : Date;
+```
+
+
+### pivotTableStyle {#pivotTableStyle--}
+
+Gets [TableStyle](../tablestyle/) settings of this pivot table.
+
+```javascript
+pivotTableStyle : TableStyle;
 ```
 
 
@@ -271,6 +284,28 @@ Readonly. Returns all filters of pivot fields in the pivot table.
 pivotFilters : PivotFilterCollection;
 ```
 
+
+### topRightArea {#topRightArea--}
+
+Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets).
+
+```javascript
+topRightArea : CellArea;
+```
+
+
+### filterArea {#filterArea--}
+
+Readonly. Gets the region of filter region.
+
+```javascript
+filterArea : CellArea;
+```
+
+
+**Remarks**
+
+Only valid if filter pivot fields exists.
 
 ### columnRange {#columnRange--}
 
@@ -1132,6 +1167,23 @@ getFields(fieldType: PivotFieldType) : PivotFieldCollection;
 **Returns**
 
 the specific pivot field collection
+
+### getButtonArea(PivotFieldType) {#getButtonArea-pivotfieldtype-}
+
+Gets the area contains field button.
+
+```javascript
+getButtonArea(axisType: PivotFieldType) : CellArea;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | [PivotFieldType](../pivotfieldtype/) | The region type. |
+
+**Returns**
+
+[CellArea](../cellarea/)
 
 ### move(number, number) {#move-number-number-}
 
