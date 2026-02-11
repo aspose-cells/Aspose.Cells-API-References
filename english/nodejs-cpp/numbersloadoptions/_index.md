@@ -26,6 +26,7 @@ class NumbersLoadOptions extends LoadOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [preserveTableName](#preserveTableName--)| boolean | Indicates whether to preserve table names when importing from Numbers. |
 | [loadTableType](#loadTableType--)| LoadNumbersTableType | Gets and sets the type of loading multiple tables in one worksheet. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
@@ -53,6 +54,8 @@ class NumbersLoadOptions extends LoadOptions;
 
 | Method | Description |
 | --- | --- |
+| [getPreserveTableName()](#getPreserveTableName--)| <b>@deprecated.</b> Please use the 'preserveTableName' property instead. Indicates whether to preserve table names when importing from Numbers. |
+| [setPreserveTableName(boolean)](#setPreserveTableName-boolean-)| <b>@deprecated.</b> Please use the 'preserveTableName' property instead. Indicates whether to preserve table names when importing from Numbers. |
 | [getLoadTableType()](#getLoadTableType--)| <b>@deprecated.</b> Please use the 'loadTableType' property instead. Gets and sets the type of loading multiple tables in one worksheet. |
 | [setLoadTableType(LoadNumbersTableType)](#setLoadTableType-loadnumberstabletype-)| <b>@deprecated.</b> Please use the 'loadTableType' property instead. Gets and sets the type of loading multiple tables in one worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -120,6 +123,15 @@ constructor(obj: LoadOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | LoadOptions | The parent object. |
+
+### preserveTableName {#preserveTableName--}
+
+Indicates whether to preserve table names when importing from Numbers.
+
+```javascript
+preserveTableName : boolean;
+```
+
 
 ### loadTableType {#loadTableType--}
 
@@ -358,6 +370,28 @@ preservePaddingSpacesInFormula : boolean;
 **Remarks**
 
 After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](../formulasettings.preservepaddingspaces/) will be set to the same value with this property.
+
+### getPreserveTableName() {#getPreserveTableName--}
+
+<b>@deprecated.</b> Please use the 'preserveTableName' property instead. Indicates whether to preserve table names when importing from Numbers.
+
+```javascript
+getPreserveTableName() : boolean;
+```
+
+
+### setPreserveTableName(boolean) {#setPreserveTableName-boolean-}
+
+<b>@deprecated.</b> Please use the 'preserveTableName' property instead. Indicates whether to preserve table names when importing from Numbers.
+
+```javascript
+setPreserveTableName(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getLoadTableType() {#getLoadTableType--}
 

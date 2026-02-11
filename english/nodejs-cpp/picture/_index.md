@@ -41,6 +41,7 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [isPlacedInCell](#isPlacedInCell--)| boolean | Indicates whether to place the image in cell or over cells. |
 | [originalHeight](#originalHeight--)| number | Readonly. Gets the original height of the picture. |
 | [originalWidth](#originalWidth--)| number | Readonly. Gets the original width of the picture. |
 | [borderLineColor](#borderLineColor--)| Color | Represents the [Color](../color/) of the border line of a picture. |
@@ -161,6 +162,8 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 
 | Method | Description |
 | --- | --- |
+| [isPlacedInCell()](#isPlacedInCell--)| <b>@deprecated.</b> Please use the 'isPlacedInCell' property instead. Indicates whether to place the image in cell or over cells. |
+| [setIsPlacedInCell(boolean)](#setIsPlacedInCell-boolean-)| <b>@deprecated.</b> Please use the 'isPlacedInCell' property instead. Indicates whether to place the image in cell or over cells. |
 | [getOriginalHeight()](#getOriginalHeight--)| <b>@deprecated.</b> Please use the 'originalHeight' property instead. Gets the original height of the picture. |
 | [getOriginalWidth()](#getOriginalWidth--)| <b>@deprecated.</b> Please use the 'originalWidth' property instead. Gets the original width of the picture. |
 | [getBorderLineColor()](#getBorderLineColor--)| <b>@deprecated.</b> Please use the 'borderLineColor' property instead. Represents the [Color](../color/) of the border line of a picture. |
@@ -401,6 +404,15 @@ constructor(obj: Shape);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Shape | The parent object. |
+
+### isPlacedInCell {#isPlacedInCell--}
+
+Indicates whether to place the image in cell or over cells.
+
+```javascript
+isPlacedInCell : boolean;
+```
+
 
 ### originalHeight {#originalHeight--}
 
@@ -1497,6 +1509,28 @@ isDecorative : boolean;
 ```
 
 
+### isPlacedInCell() {#isPlacedInCell--}
+
+<b>@deprecated.</b> Please use the 'isPlacedInCell' property instead. Indicates whether to place the image in cell or over cells.
+
+```javascript
+isPlacedInCell() : boolean;
+```
+
+
+### setIsPlacedInCell(boolean) {#setIsPlacedInCell-boolean-}
+
+<b>@deprecated.</b> Please use the 'isPlacedInCell' property instead. Indicates whether to place the image in cell or over cells.
+
+```javascript
+setIsPlacedInCell(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### getOriginalHeight() {#getOriginalHeight--}
 
 <b>@deprecated.</b> Please use the 'originalHeight' property instead. Gets the original height of the picture.
@@ -1836,6 +1870,10 @@ Place this picture in the cell
 placeInCell() : void;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please use Picture.IsPlacedInCell property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isNull() {#isNull--}
 

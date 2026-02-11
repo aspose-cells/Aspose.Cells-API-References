@@ -71,7 +71,7 @@ workbook.save("output/FormatCondition.xls");
 | [top10](#top10--)| Top10 | Readonly. Get the conditional formatting's "Top10" instance. The default instance's rule highlights cells whose values fall in the top 10 bracket. Valid only for type is Top10. |
 | [aboveAverage](#aboveAverage--)| AboveAverage | Readonly. Get the conditional formatting's "AboveAverage" instance. The default instance's rule highlights cells that are above the average for all values in the range. Valid only for type = AboveAverage. |
 | [text](#text--)| string | The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
-| [timePeriod](#timePeriod--)| TimePeriodType | The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. |
+| [timePeriod](#timePeriod--)| TimePeriodType | The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today. |
 
 ## Methods
 
@@ -98,8 +98,8 @@ workbook.save("output/FormatCondition.xls");
 | [getAboveAverage()](#getAboveAverage--)| <b>@deprecated.</b> Please use the 'aboveAverage' property instead. Get the conditional formatting's "AboveAverage" instance. The default instance's rule highlights cells that are above the average for all values in the range. Valid only for type = AboveAverage. |
 | [getText()](#getText--)| <b>@deprecated.</b> Please use the 'text' property instead. The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
 | [setText(string)](#setText-string-)| <b>@deprecated.</b> Please use the 'text' property instead. The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
-| [getTimePeriod()](#getTimePeriod--)| <b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. |
-| [setTimePeriod(TimePeriodType)](#setTimePeriod-timeperiodtype-)| <b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. |
+| [getTimePeriod()](#getTimePeriod--)| <b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today. |
+| [setTimePeriod(TimePeriodType)](#setTimePeriod-timeperiodtype-)| <b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today. |
 | [getFormula1(boolean, boolean)](#getFormula1-boolean-boolean-)| Gets the value or expression associated with this format condition. |
 | [getFormula1(boolean, boolean, number, number)](#getFormula1-boolean-boolean-number-number-)| Gets the value or expression of the conditional formatting of the cell. |
 | [getFormula1(number, number)](#getFormula1-number-number-)| Gets the formula of the conditional formatting of the cell. |
@@ -239,7 +239,7 @@ text : string;
 
 ### timePeriod {#timePeriod--}
 
-The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today.
 
 ```javascript
 timePeriod : TimePeriodType;
@@ -517,7 +517,7 @@ setText(value: string) : void;
 
 ### getTimePeriod() {#getTimePeriod--}
 
-<b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+<b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today.
 
 ```javascript
 getTimePeriod() : TimePeriodType;
@@ -530,7 +530,7 @@ getTimePeriod() : TimePeriodType;
 
 ### setTimePeriod(TimePeriodType) {#setTimePeriod-timeperiodtype-}
 
-<b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+<b>@deprecated.</b> Please use the 'timePeriod' property instead. The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today.
 
 ```javascript
 setTimePeriod(value: TimePeriodType) : void;
