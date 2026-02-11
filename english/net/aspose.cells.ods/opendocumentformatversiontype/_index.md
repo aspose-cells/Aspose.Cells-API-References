@@ -21,6 +21,7 @@ public enum OpenDocumentFormatVersionType
 | Odf11 | `1` | ODF Version 1.1 |
 | Odf12 | `2` | ODF Version 1.2 |
 | Odf13 | `3` | ODF Version 1.3 |
+| Odf14 | `4` | ODF Version 1.4 |
 
 ### Examples
 

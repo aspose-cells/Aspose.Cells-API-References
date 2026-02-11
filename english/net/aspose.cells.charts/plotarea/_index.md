@@ -42,7 +42,7 @@ public class PlotArea : ChartFrame
 | [InnerXRatioToChart](../../aspose.cells.charts/plotarea/innerxratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
 | [InnerY](../../aspose.cells.charts/plotarea/innery/) { get; set; } | (**Obsolete.**) Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [InnerYRatioToChart](../../aspose.cells.charts/plotarea/inneryratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize/) { get; set; } | Indicates whether the plot area is automatic sized. |
+| override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize/) { get; set; } |  |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |

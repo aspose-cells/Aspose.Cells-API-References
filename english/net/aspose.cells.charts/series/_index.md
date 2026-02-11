@@ -43,7 +43,7 @@ public class Series
 | [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars/) { get; set; } | True if a line chart has up and down bars. Applies only to line charts. |
 | [HiLoLines](../../aspose.cells.charts/series/hilolines/) { get; } | Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts. |
 | [IsAutoSplit](../../aspose.cells.charts/series/isautosplit/) { get; } | Indicates whether the threshold value is automatic. |
-| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Represents if the color of points is varied. The chart must contain only one series. |
+| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Indicates whether the data source is vertical. |
 | [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Represents the properties of layout. |
@@ -51,7 +51,7 @@ public class Series
 | [LegendEntry](../../aspose.cells.charts/series/legendentry/) { get; } | Gets the legend entry according to this series. |
 | [Marker](../../aspose.cells.charts/series/marker/) { get; } | Gets the [`marker`](./marker/). |
 | [Name](../../aspose.cells.charts/series/name/) { get; set; } | Gets or sets the name of the data series. |
-| [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
+| [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Indicates if this series is plotted on second value axis. |
 | [Points](../../aspose.cells.charts/series/points/) { get; } | Gets the collection of points in a series in a chart. |
 | [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Gets the actual values that are used to plot every point of this series in the chart. |

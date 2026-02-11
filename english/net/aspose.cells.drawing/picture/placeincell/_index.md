@@ -10,8 +10,14 @@ url: /net/aspose.cells.drawing/picture/placeincell/
 Place this picture in the cell
 
 ```csharp
+[Obsolete("Use Picture.IsPlacedInCell property, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void PlaceInCell()
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead,please use Picture.IsPlacedInCell property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

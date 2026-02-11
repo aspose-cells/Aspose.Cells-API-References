@@ -23,7 +23,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [IsColorVaried](../../aspose.cells.charts/seriescollection/iscolorvaried/) { get; set; } | Represents if the color of points is varied. |
 | [Item](../../aspose.cells.charts/seriescollection/item/) { get; } | Gets the [`Series`](../series/) element at the specified index. |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
-| [SecondCategoryData](../../aspose.cells.charts/seriescollection/secondcategorydata/) { get; set; } | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
+| [SecondCategoryData](../../aspose.cells.charts/seriescollection/secondcategorydata/) { get; set; } | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some series were plotted on the second axis. |
 
 ## Methods
 

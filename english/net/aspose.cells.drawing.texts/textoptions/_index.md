@@ -18,7 +18,7 @@ public class TextOptions : Font
 | Name | Description |
 | --- | --- |
 | [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Gets and sets the color with a 32-bit ARGB value.(Inherited from [`Font`](../../aspose.cells/font/).) |
-| [CapsType](../../aspose.cells.drawing.texts/textoptions/capstype/) { get; set; } | Gets and sets the text caps type. |
+| [CapsType](../../aspose.cells.drawing.texts/textoptions/capstype/) { get; set; } | Gets and sets the caps type for texts of the shape. |
 | [Charset](../../aspose.cells/font/charset/) { get; set; } | Represent the character set.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [Color](../../aspose.cells/font/color/) { get; set; } | Gets or sets the Color of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Gets and sets the double size of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |

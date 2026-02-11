@@ -17,6 +17,10 @@ public void ClearSparklines(CellArea cellArea)
 | --- | --- | --- |
 | cellArea | CellArea | Specifies the area of cells |
 
+### Remarks
+
+[`SparklineGroup`](../../sparklinegroup/) will be removed too if it does not contains any [`Sparkline`](../../sparkline/).
+
 ### Examples
 
 ```csharp

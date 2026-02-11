@@ -30,7 +30,7 @@ public class Axis
 | [CustomUnit](../../aspose.cells.charts/axis/customunit/) { get; set; } | (**Obsolete.**) Specifies a custom value for the display unit. |
 | [CustUnit](../../aspose.cells.charts/axis/custunit/) { get; set; } | (**Obsolete.**) Specifies a custom value for the display unit. |
 | [DisplayUnit](../../aspose.cells.charts/axis/displayunit/) { get; set; } | Represents the unit label for the specified axis. |
-| [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel/) { get; } | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel/) { get; } | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
 | [HasMultiLevelLabels](../../aspose.cells.charts/axis/hasmultilevellabels/) { get; set; } | Indicates whether the labels shall be shown as multi level. |
 | [IsAutomaticMajorUnit](../../aspose.cells.charts/axis/isautomaticmajorunit/) { get; set; } | Indicates whether the major unit of the axis is automatically assigned. |
 | [IsAutomaticMaxValue](../../aspose.cells.charts/axis/isautomaticmaxvalue/) { get; set; } | Indicates whether the max value is automatically assigned. |

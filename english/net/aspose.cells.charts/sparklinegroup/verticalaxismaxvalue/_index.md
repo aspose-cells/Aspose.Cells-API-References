@@ -13,6 +13,10 @@ Gets and sets the custom maximum value for the vertical axis.
 public double VerticalAxisMaxValue { get; set; }
 ```
 
+### Remarks
+
+If this property is set, [`VerticalAxisMaxValueType`](../verticalaxismaxvaluetype/) will be Custom.
+
 ### Examples
 
 ```csharp

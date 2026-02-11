@@ -151,6 +151,10 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 
 A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected information.
 
+### Remarks
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format.
+
 ### Examples
 
 ```csharp
@@ -204,6 +208,10 @@ public static FileFormatInfo DetectFileFormat(string filePath, string password)
 ### Return Value
 
 A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected information.
+
+### Remarks
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format.
 
 ### Examples
 

@@ -85,7 +85,7 @@ public class PivotField
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby)(CustomPiovtFieldGroupItem[], bool) | Custom group the field. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_6)(double, bool) | Automatically group the field with internal |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_5)(PivotGroupByType[], double, bool) | Automatically group the field with internal |
-| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_3)(double, double, double, bool) |  |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_3)(double, double, double, bool) | Group the file by number. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_4)(DateTime, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_1)(bool, double, bool, double, double, bool) | Group the file by number. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_2)(bool, DateTime, bool, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |

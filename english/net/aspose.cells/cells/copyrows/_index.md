@@ -69,13 +69,13 @@ namespace AsposeCellsExamples
 Copies data and formats of some whole rows.
 
 ```csharp
-public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowIndex, 
-    int rowNumber, CopyOptions copyOptions)
+public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, 
+    CopyOptions copyOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | Cells | Source Cells object contains data and formats to copy. |
+| sourceCells | Cells | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | Int32 | Source row index. |
 | destinationRowIndex | Int32 | Destination row index. |
 | rowNumber | Int32 | The copied row number. |

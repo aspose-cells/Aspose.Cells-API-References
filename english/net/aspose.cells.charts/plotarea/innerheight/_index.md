@@ -23,6 +23,8 @@ The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-a
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
+Note: When InnerHeight is set, the IsInnerMode property will be automatically set to True.
+
 NOTE: This member is now obsolete. Please use PlotArea.InnerHeightRatioToChart property, instead. InnerHeight = InnerHeightRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples

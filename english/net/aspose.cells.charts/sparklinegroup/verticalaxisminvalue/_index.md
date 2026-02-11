@@ -13,6 +13,10 @@ Gets and sets the custom minimum value for the vertical axis.
 public double VerticalAxisMinValue { get; set; }
 ```
 
+### Remarks
+
+If this property is set, [`VerticalAxisMinValueType`](../verticalaxisminvaluetype/) will be Custom.
+
 ### Examples
 
 ```csharp

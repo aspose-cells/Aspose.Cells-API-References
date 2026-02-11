@@ -118,6 +118,7 @@ public class Worksheet : IDisposable
 | [FreezePanes](../../aspose.cells/worksheet/freezepanes/#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes](../../aspose.cells/worksheet/freezepanes/#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetAdvancedFilter](../../aspose.cells/worksheet/getadvancedfilter/)() | Gets the settings of advanced filter. |
+| [GetAllPictures](../../aspose.cells/worksheet/getallpictures/)() | Gets all pictures includes images are embedded in the cell and over the cells. |
 | [GetFreezedPanes](../../aspose.cells/worksheet/getfreezedpanes/)(out int, out int, out int, out int) | Gets the freeze panes. |
 | [GetPanes](../../aspose.cells/worksheet/getpanes/)() | Gets the window panes. |
 | [GetPrintingPageBreaks](../../aspose.cells/worksheet/getprintingpagebreaks/)(ImageOrPrintOptions) | Gets automatic page breaks. |

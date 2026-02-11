@@ -12,7 +12,7 @@ The **Aspose.Cells.Timelines** namespace contains classes that allow to access a
 | Class | Description |
 | --- | --- |
 | [Timeline](./timeline/) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
-| [TimelineCollection](./timelinecollection/) | Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline. |
+| [TimelineCollection](./timelinecollection/) | Specifies the collection of all the [`Timeline`](../aspose.cells.timelines/timeline/) objects on the worksheet. It was supported since Excel 2013. |
 ## Enumeration
 
 | Enumeration | Description |

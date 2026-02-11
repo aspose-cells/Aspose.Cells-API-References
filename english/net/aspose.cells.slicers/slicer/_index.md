@@ -31,7 +31,7 @@ public class Slicer
 | [LockedAspectRatio](../../aspose.cells.slicers/slicer/lockedaspectratio/) { get; set; } | (**Obsolete.**) Indicates whether locking aspect ratio. |
 | [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition/) { get; set; } | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [Name](../../aspose.cells.slicers/slicer/name/) { get; set; } | Returns or sets the name of the specified slicer |
-| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns/) { get; set; } | Returns or sets the number of columns in the specified slicer. The default value is 1. |
+| [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns/) { get; set; } | Returns or sets the number of columns in the slicer. The default value is 1. |
 | [Parent](../../aspose.cells.slicers/slicer/parent/) { get; } | (**Obsolete.**) Returns the [`Worksheet`](./worksheet/) object which contains this slicer. Read-only. |
 | [Placement](../../aspose.cells.slicers/slicer/placement/) { get; set; } | (**Obsolete.**) Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
 | [RowHeight](../../aspose.cells.slicers/slicer/rowheight/) { get; set; } | Returns or sets the height of each row in the specified slicer in unit of points. |

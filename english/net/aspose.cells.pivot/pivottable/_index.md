@@ -45,6 +45,7 @@ public class PivotTable : IDisposable
 | [ErrorString](../../aspose.cells.pivot/pivottable/errorstring/) { get; set; } | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [ExternalConnectionDataSource](../../aspose.cells.pivot/pivottable/externalconnectiondatasource/) { get; } | (**Obsolete.**) Gets the external connection data source. |
 | [FieldListSortAscending](../../aspose.cells.pivot/pivottable/fieldlistsortascending/) { get; set; } | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
+| [FilterArea](../../aspose.cells.pivot/pivottable/filterarea/) { get; } | Gets the region of filter region. |
 | [GrandTotalName](../../aspose.cells.pivot/pivottable/grandtotalname/) { get; set; } | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [HasBlankRows](../../aspose.cells.pivot/pivottable/hasblankrows/) { get; set; } | Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
 | [Indent](../../aspose.cells.pivot/pivottable/indent/) { get; set; } | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
@@ -65,6 +66,7 @@ public class PivotTable : IDisposable
 | [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters/) { get; } | Returns all filters of pivot fields in the pivot table. |
 | [PivotFormatConditions](../../aspose.cells.pivot/pivottable/pivotformatconditions/) { get; } | (**Obsolete.**) Gets the Format Conditions of the pivot table. |
 | [PivotFormats](../../aspose.cells.pivot/pivottable/pivotformats/) { get; } | Gets all formats applied to PivotTable. |
+| [PivotTableStyle](../../aspose.cells.pivot/pivottable/pivottablestyle/) { get; set; } | Gets TableStyle settings of this pivot table. |
 | [PivotTableStyleName](../../aspose.cells.pivot/pivottable/pivottablestylename/) { get; set; } | Gets and sets the pivottable style name. |
 | [PivotTableStyleType](../../aspose.cells.pivot/pivottable/pivottablestyletype/) { get; set; } | Gets and sets the built-in pivot table style. |
 | [PreserveFormatting](../../aspose.cells.pivot/pivottable/preserveformatting/) { get; set; } | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
@@ -99,6 +101,7 @@ public class PivotTable : IDisposable
 | [TableRange1](../../aspose.cells.pivot/pivottable/tablerange1/) { get; } | Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
 | [TableRange2](../../aspose.cells.pivot/pivottable/tablerange2/) { get; } | Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
 | [Tag](../../aspose.cells.pivot/pivottable/tag/) { get; set; } | Gets and sets a user-defined string that is associated with this PivotTable view. |
+| [TopRightArea](../../aspose.cells.pivot/pivottable/toprightarea/) { get; } | Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
 | [ValuesField](../../aspose.cells.pivot/pivottable/valuesfield/) { get; } | Gets a [`PivotField`](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 
 ## Methods
@@ -123,6 +126,7 @@ public class PivotTable : IDisposable
 | [Format](../../aspose.cells.pivot/pivottable/format/#format_2)(int, int, Style) | Formats the cell in the pivottable area |
 | [FormatAll](../../aspose.cells.pivot/pivottable/formatall/)(Style) | Format all the cell in the pivottable area |
 | [FormatRow](../../aspose.cells.pivot/pivottable/formatrow/)(int, Style) | Format the row data in the pivottable area |
+| [GetButtonArea](../../aspose.cells.pivot/pivottable/getbuttonarea/)(PivotFieldType) | Gets the area contains field button. |
 | [GetCellByDisplayName](../../aspose.cells.pivot/pivottable/getcellbydisplayname/)(string) | Gets the [`Cell`](../../aspose.cells/cell/) object by the display name of PivotField. |
 | [GetChildren](../../aspose.cells.pivot/pivottable/getchildren/)() | Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [GetFields](../../aspose.cells.pivot/pivottable/getfields/)(PivotFieldType) | Gets the specific pivot field list by the region. |
