@@ -25,7 +25,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling [Chart.Calculate()](../../chart/calculate/).
 
-InnerY in Pixel = InnerYRatioToChart * chart.ChartObject.Width. 
+InnerY in Pixel = InnerYRatioToChart * chart.ChartObject.Width. Note: When InnerYRatioToChart is set, the IsInnerMode property will be automatically set to True. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

@@ -39,12 +39,12 @@ class Cells
 | [ClearRange(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn)](./clearrange/) | Clears contents and formatting of a range. |
 | [ConvertStringToNumericValue()](./convertstringtonumericvalue/) | Converts all string data in the worksheet to numeric value if possible. |
 | [CopyColumn(const Cells\& sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex)](./copycolumn/) | Copies data and formats of a whole column. |
-| [CopyColumns(const Cells\& sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber, const PasteOptions\& pasteOptions)](./copycolumns/) | Copies data and formats of a whole column. |
-| [CopyColumns(const Cells\& sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber)](./copycolumns/) | Copies data and formats of a whole column. |
+| [CopyColumns(const Cells\& sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber, const PasteOptions\& pasteOptions)](./copycolumns/) | Copies data and formats of a whole column. |
+| [CopyColumns(const Cells\& sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber)](./copycolumns/) | Copies data and formats of whole columns. |
 | [CopyColumns(const Cells\& sourceCells, int32_t sourceColumnIndex, int32_t sourceTotalColumns, int32_t destinationColumnIndex, int32_t destinationTotalColumns)](./copycolumns/) | Copies data and formats of the whole columns. |
 | [CopyRow(const Cells\& sourceCells, int32_t sourceRowIndex, int32_t destinationRowIndex)](./copyrow/) | Copies data and formats of a whole row. |
 | [CopyRows(const Cells\& sourceCells, int32_t sourceRowIndex, int32_t destinationRowIndex, int32_t rowNumber)](./copyrows/) | Copies data and formats of some whole rows. |
-| [CopyRows(const Cells\& sourceCells0, int32_t sourceRowIndex, int32_t destinationRowIndex, int32_t rowNumber, const CopyOptions\& copyOptions)](./copyrows/) | Copies data and formats of some whole rows. |
+| [CopyRows(const Cells\& sourceCells, int32_t sourceRowIndex, int32_t destinationRowIndex, int32_t rowNumber, const CopyOptions\& copyOptions)](./copyrows/) | Copies data and formats of some whole rows. |
 | [CopyRows(const Cells\& sourceCells0, int32_t sourceRowIndex, int32_t destinationRowIndex, int32_t rowNumber, const CopyOptions\& copyOptions, const PasteOptions\& pasteOptions)](./copyrows/) | Copies data and formats of some whole rows. |
 | [CreateRange(const U16String\& upperLeftCell, const U16String\& lowerRightCell)](./createrange/) | Creates a [Range](../range/) object from a range of cells. |
 | [CreateRange(const char16_t* upperLeftCell, const char16_t* lowerRightCell)](./createrange/) | Creates a [Range](../range/) object from a range of cells. |

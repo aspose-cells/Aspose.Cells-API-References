@@ -35,7 +35,7 @@ int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type)
 ## SparklineGroupCollection::Add(SparklineType, const U16String\&, bool, const CellArea\&) method
 
 
-Adds an [SparklineGroup](../../sparklinegroup/) with [Sparkline](../../sparkline/) to the collection.
+Adds an [SparklineGroup](../../sparklinegroup/) with some [Sparkline](../../sparkline/) to the collection.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type, const U16String &dataRange, bool isVertical, const CellArea &locationRange)
@@ -52,7 +52,11 @@ int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type,
 ## ReturnValue
 
 [SparklineGroup](../../sparklinegroup/) object index.
+## Remarks
 
+
+
+This method will create sparklines too. If *isVertical*  is true, the number of rows in dataRange and locationRange must be same. If *isVertical*  is false, the number of columns in dataRange and locationRange must be same. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -65,7 +69,7 @@ int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type,
 ## SparklineGroupCollection::Add(SparklineType, const char16_t*, bool, const CellArea\&) method
 
 
-Adds an [SparklineGroup](../../sparklinegroup/) with [Sparkline](../../sparkline/) to the collection.
+Adds an [SparklineGroup](../../sparklinegroup/) with some [Sparkline](../../sparkline/) to the collection.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type, const char16_t *dataRange, bool isVertical, const CellArea &locationRange)
@@ -82,7 +86,11 @@ int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type,
 ## ReturnValue
 
 [SparklineGroup](../../sparklinegroup/) object index.
+## Remarks
 
+
+
+This method will create sparklines too. If *isVertical*  is true, the number of rows in dataRange and locationRange must be same. If *isVertical*  is false, the number of columns in dataRange and locationRange must be same. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

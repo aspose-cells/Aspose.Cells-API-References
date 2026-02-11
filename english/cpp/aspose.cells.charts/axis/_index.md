@@ -34,7 +34,7 @@ class Axis
 | [GetCustomDisplayUnit()](./getcustomdisplayunit/) | Specifies a custom value for the display unit. |
 | [GetCustomUnit()](./getcustomunit/) |  **(Deprecated)** Specifies a custom value for the display unit. |
 | [GetDisplayUnit()](./getdisplayunit/) | Represents the unit label for the specified axis. |
-| [GetDisplayUnitLabel()](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [GetDisplayUnitLabel()](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
 | [GetHasMultiLevelLabels()](./gethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. |
 | [GetLogBase()](./getlogbase/) | Represents the logarithmic base. Default value is 10. |
 | [GetMajorGridLines()](./getmajorgridlines/) | Represents major gridlines on a chart axis. |

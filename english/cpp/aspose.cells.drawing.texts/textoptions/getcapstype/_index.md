@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Texts::TextOptions::GetCapsType method
 linktitle: GetCapsType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Texts::TextOptions::GetCapsType method. Gets and sets the text caps type in C++.'
+description: 'Aspose::Cells::Drawing::Texts::TextOptions::GetCapsType method. Gets and sets the caps type for texts of the shape in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.cells.drawing.texts/textoptions/getcapstype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing.texts/textoptions/getcapstype/
 ## TextOptions::GetCapsType method
 
 
-Gets and sets the text caps type.
+Gets and sets the caps type for texts of the shape.
 
 ```cpp
 TextCapsType Aspose::Cells::Drawing::Texts::TextOptions::GetCapsType()

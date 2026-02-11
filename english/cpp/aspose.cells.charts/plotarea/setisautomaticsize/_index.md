@@ -16,6 +16,10 @@ Indicates whether the plot area is automatic sized.
 void Aspose::Cells::Charts::PlotArea::SetIsAutomaticSize(bool value)
 ```
 
+## Remarks
+
+
+NOTE: When IsAutomaticSize is set to True, the values you manually set for Width and Height will be disabled. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

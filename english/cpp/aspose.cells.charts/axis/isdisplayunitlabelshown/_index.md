@@ -19,7 +19,7 @@ bool Aspose::Cells::Charts::Axis::IsDisplayUnitLabelShown()
 ## Remarks
 
 
-The default value is True.
+The default value is True. Only works when Axis.DisplayUnit is not [DisplayUnitType.None](../../displayunittype/). 
 ## See Also
 
 * Class [Axis](../)

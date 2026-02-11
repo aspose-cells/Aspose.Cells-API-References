@@ -48,7 +48,7 @@ class Series
 | [GetLegendEntry()](./getlegendentry/) | Gets the legend entry according to this series. |
 | [GetMarker()](./getmarker/) | Gets the [marker](../marker/). |
 | [GetName()](./getname/) | Gets or sets the name of the data series. |
-| [GetOverlap()](./getoverlap/) | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
+| [GetOverlap()](./getoverlap/) | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [GetPlotOnSecondAxis()](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
 | [GetPoints()](./getpoints/) | Gets the collection of points in a series in a chart. |
 | [GetPointValues()](./getpointvalues/) | Gets the actual values that are used to plot every point of this series in the chart. |
@@ -71,7 +71,7 @@ class Series
 | [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
 | [IsAutoSplit()](./isautosplit/) | Indicates whether the threshold value is automatic. |
-| [IsColorVaried()](./iscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series. |
+| [IsColorVaried()](./iscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [IsFiltered()](./isfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsVerticalValues()](./isverticalvalues/) | Indicates whether the data source is vertical. |
@@ -95,11 +95,11 @@ class Series
 | [SetHasRadarAxisLabels(bool value)](./sethasradaraxislabels/) | True if a radar chart has category axis labels. Applies only to radar charts. |
 | [SetHasSeriesLines(bool value)](./sethasserieslines/) | True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts. |
 | [SetHasUpDownBars(bool value)](./sethasupdownbars/) | True if a line chart has up and down bars. Applies only to line charts. |
-| [SetIsColorVaried(bool value)](./setiscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series. |
+| [SetIsColorVaried(bool value)](./setiscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [SetIsFiltered(bool value)](./setisfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the data series. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the data series. |
-| [SetOverlap(int16_t value)](./setoverlap/) | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
+| [SetOverlap(int16_t value)](./setoverlap/) | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [SetPlotOnSecondAxis(bool value)](./setplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
 | [SetSecondPlotSize(int16_t value)](./setsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [SetShadow(bool value)](./setshadow/) | True if the series has a shadow. |

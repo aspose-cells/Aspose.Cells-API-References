@@ -40,6 +40,7 @@ class NumbersLoadOptions : public Aspose::Cells::LoadOptions
 | [GetParsingPivotCachedRecords()](../../aspose.cells/loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../../aspose.cells/loadoptions/getpassword/) | Gets and set the password of the workbook. |
 | [GetPreservePaddingSpacesInFormula()](../../aspose.cells/loadoptions/getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [GetPreserveTableName()](./getpreservetablename/) | Indicates whether to preserve table names when importing from [Numbers](../). |
 | [GetRegion()](../../aspose.cells/loadoptions/getregion/) | Gets or sets the regional settings used for the [Workbook](../../aspose.cells/workbook/) that will be loaded. |
 | [GetWarningCallback()](../../aspose.cells/loadoptions/getwarningcallback/) | Gets or sets warning callback. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -74,6 +75,7 @@ class NumbersLoadOptions : public Aspose::Cells::LoadOptions
 | [SetPassword(const U16String\& value)](../../aspose.cells/loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPassword(const char16_t* value)](../../aspose.cells/loadoptions/setpassword/) | Gets and set the password of the workbook. |
 | [SetPreservePaddingSpacesInFormula(bool value)](../../aspose.cells/loadoptions/setpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [SetPreserveTableName(bool value)](./setpreservetablename/) | Indicates whether to preserve table names when importing from [Numbers](../). |
 | [SetRegion(CountryCode value)](../../aspose.cells/loadoptions/setregion/) | Gets or sets the regional settings used for the [Workbook](../../aspose.cells/workbook/) that will be loaded. |
 | [SetWarningCallback(IWarningCallback* value)](../../aspose.cells/loadoptions/setwarningcallback/) | Gets or sets warning callback. |
 | [~LoadOptions()](../../aspose.cells/loadoptions/~loadoptions/) | Destructor. |

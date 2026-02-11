@@ -4,7 +4,7 @@ linktitle: SetDropZoneCategories
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PivotOptions::SetDropZoneCategories method. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.charts/pivotoptions/setdropzonecategories/
 ---
 ## PivotOptions::SetDropZoneCategories method

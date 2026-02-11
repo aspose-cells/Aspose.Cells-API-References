@@ -102,7 +102,11 @@ static FileFormatInfo Aspose::Cells::FileFormatUtil::DetectFileFormat(const U16S
 ## ReturnValue
 
 A [FileFormatInfo](../../fileformatinfo/) object that contains the detected information.
+## Remarks
 
+
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format. 
 ## See Also
 
 * Class [FileFormatInfo](../../fileformatinfo/)
@@ -128,7 +132,11 @@ static FileFormatInfo Aspose::Cells::FileFormatUtil::DetectFileFormat(const char
 ## ReturnValue
 
 A [FileFormatInfo](../../fileformatinfo/) object that contains the detected information.
+## Remarks
 
+
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format. 
 ## See Also
 
 * Class [FileFormatInfo](../../fileformatinfo/)
@@ -154,7 +162,11 @@ static FileFormatInfo Aspose::Cells::FileFormatUtil::DetectFileFormat(const U16S
 ## ReturnValue
 
 A [FileFormatInfo](../../fileformatinfo/) object that contains the detected information.
+## Remarks
 
+
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format. 
 ## See Also
 
 * Class [FileFormatInfo](../../fileformatinfo/)
@@ -181,7 +193,11 @@ static FileFormatInfo Aspose::Cells::FileFormatUtil::DetectFileFormat(const char
 ## ReturnValue
 
 A [FileFormatInfo](../../fileformatinfo/) object that contains the detected information.
+## Remarks
 
+
+
+Only supports checking some files with magic signature. If there is no magic signature, we can not precisely detect the file format. 
 ## See Also
 
 * Class [FileFormatInfo](../../fileformatinfo/)

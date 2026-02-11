@@ -2,7 +2,7 @@
 title: Aspose::Cells::Timelines::TimelineCollection class
 linktitle: TimelineCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Timelines::TimelineCollection class. Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline in C++.'
+description: 'Aspose::Cells::Timelines::TimelineCollection class. Specifies the collection of all the Timeline objects on the worksheet. It was supported since Excel 2013 in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.cells.timelines/timelinecollection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.timelines/timelinecollection/
 ## TimelineCollection class
 
 
-Specifies the collection of all the [Timeline](../timeline/) objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support [Timeline](../timeline/).
+Specifies the collection of all the [Timeline](../timeline/) objects on the worksheet. It was supported since Excel 2013.
 
 ```cpp
 class TimelineCollection

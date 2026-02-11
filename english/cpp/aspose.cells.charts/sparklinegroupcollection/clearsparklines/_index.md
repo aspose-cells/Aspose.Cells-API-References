@@ -20,7 +20,11 @@ void Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklines(const Cell
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellArea | const CellArea\& | Specifies the area of cells |
+## Remarks
 
+
+
+[SparklineGroup](../../sparklinegroup/) will be removed too if it does not contains any [Sparkline](../../sparkline/). 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

@@ -68,6 +68,7 @@ class Worksheet
 | [GetActiveCell()](./getactivecell/) | Gets or sets the active cell in the worksheet. |
 | [GetAdvancedFilter()](./getadvancedfilter/) | Gets the settings of advanced filter. |
 | [GetAllowEditRanges()](./getalloweditranges/) | Gets the allow edit range collection in the worksheet. |
+| [GetAllPictures()](./getallpictures/) | Gets all pictures includes images are embedded in the cell and over the cells. |
 | [GetAutoFilter()](./getautofilter/) | Represents auto filter for the specified worksheet. |
 | [GetBackgroundImage()](./getbackgroundimage/) | Gets and sets worksheet background image. |
 | [GetCells()](./getcells/) | Gets the [Cells](../cells/) collection. |

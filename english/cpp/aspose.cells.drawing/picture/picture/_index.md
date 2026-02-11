@@ -13,7 +13,7 @@ url: /cpp/aspose.cells.drawing/picture/picture/
 Constructs from an implementation object.
 
 ```cpp
-Aspose::Cells::Drawing::Picture::Picture(Picture_Impl *impl)
+Aspose::Cells::Drawing::Picture::Picture(Picture_Impl *impl=nullptr)
 ```
 
 ## See Also
