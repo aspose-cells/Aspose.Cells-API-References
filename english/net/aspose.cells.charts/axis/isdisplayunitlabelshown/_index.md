@@ -15,7 +15,7 @@ public bool IsDisplayUnitLabelShown { get; set; }
 
 ### Remarks
 
-The default value is True.
+The default value is True. Only works when [`DisplayUnit`](../displayunit/) is not None.
 
 ### Examples
 

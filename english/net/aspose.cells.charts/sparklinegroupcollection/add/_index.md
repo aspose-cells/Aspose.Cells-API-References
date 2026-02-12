@@ -82,7 +82,7 @@ namespace AsposeCellsExamples
 
 ## Add(SparklineType, string, bool, CellArea) {#add_1}
 
-Adds an [`SparklineGroup`](../../sparklinegroup/) with [`Sparkline`](../../sparkline/) to the collection.
+Adds an [`SparklineGroup`](../../sparklinegroup/) with some [`Sparkline`](../../sparkline/) to the collection.
 
 ```csharp
 public int Add(SparklineType type, string dataRange, bool isVertical, CellArea locationRange)
@@ -98,6 +98,10 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 ### Return Value
 
 [`SparklineGroup`](../../sparklinegroup/) object index.
+
+### Remarks
+
+This method will create sparklines too. If *isVertical* is true, the number of rows in dataRange and locationRange must be same. If *isVertical* is false, the number of columns in dataRange and locationRange must be same.
 
 ### Examples
 

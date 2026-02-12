@@ -17,6 +17,7 @@ public Range DataRange { get; }
 
 ```csharp
 using System;
+using System.Text;
 using Aspose.Cells;
 
 namespace AsposeCellsExamples
@@ -25,6 +26,7 @@ namespace AsposeCellsExamples
     {
         public static void Run()
         {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
@@ -52,7 +54,7 @@ namespace AsposeCellsExamples
 
             // Add a formula to the last column using DataRange
             string formula = "=CONCATENATE(\"ID-\", [ID])";
-            int lastColIndex = dataRange.ColumnCount;
+            int lastColIndex = dataRange.ColumnCount - 1;
             dataRange[0, lastColIndex].PutValue("FormattedID");
             for (int i = 1; i < dataRange.RowCount; i++)
             {

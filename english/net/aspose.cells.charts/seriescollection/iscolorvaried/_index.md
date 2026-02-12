@@ -13,6 +13,10 @@ Represents if the color of points is varied.
 public bool IsColorVaried { get; set; }
 ```
 
+### Remarks
+
+Only works for pie chart or when there is only one series.
+
 ### Examples
 
 ```csharp

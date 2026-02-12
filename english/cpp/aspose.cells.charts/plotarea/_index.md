@@ -4,7 +4,7 @@ linktitle: PlotArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PlotArea class. Encapsulates the object that represents the plot area in a chart in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells.charts/plotarea/
 ---
 ## PlotArea class

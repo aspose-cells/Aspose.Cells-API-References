@@ -63,7 +63,7 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | Method | Description |
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String area, boolean isVertical)](#add-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
+| [add(String dataArea, boolean isVertical)](#add-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [add(String area, boolean isVertical, boolean checkLabels)](#add-java.lang.String-boolean-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [addR1C1(String area, boolean isVertical)](#addR1C1-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [changeColors(int type)](#changeColors-int-) | Set Monochromatic Palette for chart series. |
@@ -108,9 +108,9 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
-### add(String area, boolean isVertical) {#add-java.lang.String-boolean-}
+### add(String dataArea, boolean isVertical) {#add-java.lang.String-boolean-}
 ```
-public int add(String area, boolean isVertical)
+public int add(String dataArea, boolean isVertical)
 ```
 
 
@@ -123,12 +123,14 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 
 If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).
 
+This method only simply process  as data range. If you want to smartly check ChartCollection.Add() method.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | java.lang.String | Specifies values from which to plot the data series |
-| isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
+| dataArea | java.lang.String | Specifies values from which to plot the data series |
+| isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. If true, [Series](../../com.aspose.cells/series) will be added column by column |
 
 **Returns:**
 int - Return the first index of the added ASeries in the NSeries.
@@ -301,7 +303,7 @@ public String getSecondCategoryData()
 ```
 
 
-Gets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
+Gets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some series were plotted on the second axis.
 
 **Returns:**
 java.lang.String
@@ -352,6 +354,10 @@ public boolean isColorVaried()
 
 
 Represents if the color of points is varied.
+
+**Remarks**
+
+Only works for pie chart or when there is only one series.
 
 **Returns:**
 boolean
@@ -415,6 +421,10 @@ public void setColorVaried(boolean value)
 
 Represents if the color of points is varied.
 
+**Remarks**
+
+Only works for pie chart or when there is only one series.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -426,7 +436,7 @@ public void setSecondCategoryData(String value)
 ```
 
 
-Sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
+Sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some series were plotted on the second axis.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -21,6 +21,7 @@ Open Document Format version type.
 | [ODF_11](#ODF-11) | ODF Version 1.1 |
 | [ODF_12](#ODF-12) | ODF Version 1.2 |
 | [ODF_13](#ODF-13) | ODF Version 1.3 |
+| [ODF_14](#ODF-14) | ODF Version 1.4 |
 ## Methods
 
 | Method | Description |
@@ -69,6 +70,14 @@ public static final int ODF_13
 
 
 ODF Version 1.3
+
+### ODF_14 {#ODF-14}
+```
+public static final int ODF_14
+```
+
+
+ODF Version 1.4
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

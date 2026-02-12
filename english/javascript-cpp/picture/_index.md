@@ -41,6 +41,7 @@ var uint8Array = workbook.save(SaveFormat.Excel97To2003);
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [isPlacedInCell](#isPlacedInCell--)| boolean | Indicates whether to place the image in cell or over cells. |
 | [originalHeight](#originalHeight--)| number | Readonly. Gets the original height of the picture. |
 | [originalWidth](#originalWidth--)| number | Readonly. Gets the original width of the picture. |
 | [borderLineColor](#borderLineColor--)| Color | Represents the [Color](../color/) of the border line of a picture. |
@@ -206,6 +207,15 @@ constructor(obj: Shape);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | Shape | The parent object. |
+
+### isPlacedInCell {#isPlacedInCell--}
+
+Indicates whether to place the image in cell or over cells.
+
+```javascript
+isPlacedInCell : boolean;
+```
+
 
 ### originalHeight {#originalHeight--}
 
@@ -1338,6 +1348,10 @@ Place this picture in the cell
 placeInCell() : void;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please use Picture.IsPlacedInCell property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### toFrontOrBack(number) {#toFrontOrBack-number-}
 

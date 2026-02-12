@@ -92,7 +92,7 @@ summary description of Slicer View
 | [getLockedAspectRatio()](#getLockedAspectRatio--) | Indicates whether locking aspect ratio. |
 | [getLockedPosition()](#getLockedPosition--) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [getName()](#getName--) | Returns or sets the name of the specified slicer |
-| [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the specified slicer. |
+| [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the slicer. |
 | [getParent()](#getParent--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
 | [getRowHeight()](#getRowHeight--) | Returns or sets the height of each row in the specified slicer in unit of points. |
@@ -130,7 +130,7 @@ summary description of Slicer View
 | [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) | Indicates whether locking aspect ratio. |
 | [setLockedPosition(boolean value)](#setLockedPosition-boolean-) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified slicer |
-| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Returns or sets the number of columns in the specified slicer. |
+| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Returns or sets the number of columns in the slicer. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
 | [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the slicer object is printable. |
 | [setRowHeight(double value)](#setRowHeight-double-) | Returns or sets the height of each row in the specified slicer in unit of points. |
@@ -361,7 +361,7 @@ Indicates whether locking aspect ratio.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Shape.getLockedProperty(int)](../../com.aspose.cells/shape\#getLockedProperty-int-) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Shape.isAspectRatioLocked()](../../com.aspose.cells/shape\#isAspectRatioLocked--) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Example**
 
@@ -409,7 +409,7 @@ public int getNumberOfColumns()
 ```
 
 
-Returns or sets the number of columns in the specified slicer. The default value is 1.
+Returns or sets the number of columns in the slicer. The default value is 1.
 
 **Example**
 
@@ -964,7 +964,7 @@ Indicates whether locking aspect ratio.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Shape.getLockedProperty(int)](../../com.aspose.cells/shape\#getLockedProperty-int-) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Shape.isAspectRatioLocked()](../../com.aspose.cells/shape\#isAspectRatioLocked--) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1003,7 +1003,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-Returns or sets the number of columns in the specified slicer. The default value is 1.
+Returns or sets the number of columns in the slicer. The default value is 1.
 
 **Parameters:**
 | Parameter | Type | Description |

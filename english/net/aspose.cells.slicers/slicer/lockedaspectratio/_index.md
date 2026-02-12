@@ -10,14 +10,14 @@ url: /net/aspose.cells.slicers/slicer/lockedaspectratio/
 Indicates whether locking aspect ratio.
 
 ```csharp
-[Obsolete("Use Shape.GetLockedProperty() method instead.")]
+[Obsolete("Use Shape.IsLockAspectRatio property instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public bool LockedAspectRatio { get; set; }
 ```
 
 ### Remarks
 
-NOTE: This member is now obsolete. Instead, please use !:Shape.GetLockedProperty() method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [`IsAspectRatioLocked`](../../../aspose.cells.drawing/shape/isaspectratiolocked/) method. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

@@ -86,7 +86,7 @@ workbook.save("output/ChartsAxis.xlsx");
 | [displayUnit](#displayUnit--)| DisplayUnitType | Represents the unit label for the specified axis. |
 | [customUnit](#customUnit--)| number | Specifies a custom value for the display unit. |
 | [customDisplayUnit](#customDisplayUnit--)| number | Specifies a custom value for the display unit. |
-| [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
 | [isDisplayUnitLabelShown](#isDisplayUnitLabelShown--)| boolean | Represents if the display unit label is shown on the specified axis. |
 | [title](#title--)| Title | Readonly. Gets the title of this axis in the chart. |
 | [categoryType](#categoryType--)| CategoryType | Represents the type of the category axis. |
@@ -152,7 +152,7 @@ workbook.save("output/ChartsAxis.xlsx");
 | [setCustomUnit(number)](#setCustomUnit-number-)| <b>@deprecated.</b> Please use the 'customUnit' property instead. Specifies a custom value for the display unit. |
 | [getCustomDisplayUnit()](#getCustomDisplayUnit--)| <b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit. |
 | [setCustomDisplayUnit(number)](#setCustomDisplayUnit-number-)| <b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit. |
-| [getDisplayUnitLabel()](#getDisplayUnitLabel--)| <b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [getDisplayUnitLabel()](#getDisplayUnitLabel--)| <b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
 | [isDisplayUnitLabelShown()](#isDisplayUnitLabelShown--)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
 | [setIsDisplayUnitLabelShown(boolean)](#setIsDisplayUnitLabelShown-boolean-)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
 | [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets the title of this axis in the chart. |
@@ -447,7 +447,7 @@ customDisplayUnit : number;
 
 ### displayUnitLabel {#displayUnitLabel--}
 
-Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions.
+Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
 
 ```javascript
 displayUnitLabel : DisplayUnitLabel;
@@ -465,7 +465,7 @@ isDisplayUnitLabelShown : boolean;
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
 
 ### title {#title--}
 
@@ -1296,7 +1296,7 @@ setCustomDisplayUnit(value: number) : void;
 
 ### getDisplayUnitLabel() {#getDisplayUnitLabel--}
 
-<b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions.
+<b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
 
 ```javascript
 getDisplayUnitLabel() : DisplayUnitLabel;
@@ -1318,7 +1318,7 @@ isDisplayUnitLabelShown() : boolean;
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
 
 ### setIsDisplayUnitLabelShown(boolean) {#setIsDisplayUnitLabelShown-boolean-}
 
@@ -1335,7 +1335,7 @@ setIsDisplayUnitLabelShown(value: boolean) : void;
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
 
 ### getTitle() {#getTitle--}
 

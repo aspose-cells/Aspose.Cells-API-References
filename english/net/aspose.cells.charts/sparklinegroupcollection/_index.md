@@ -27,7 +27,7 @@ public class SparklineGroupCollection : CollectionBase<SparklineGroup>
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.cells.charts/sparklinegroupcollection/add/#add)(SparklineType) | Adds an [`SparklineGroup`](../sparklinegroup/) with a [`Sparkline`](../sparkline/) to the collection. |
-| [Add](../../aspose.cells.charts/sparklinegroupcollection/add/#add_1)(SparklineType, string, bool, CellArea) | Adds an [`SparklineGroup`](../sparklinegroup/) with [`Sparkline`](../sparkline/) to the collection. |
+| [Add](../../aspose.cells.charts/sparklinegroupcollection/add/#add_1)(SparklineType, string, bool, CellArea) | Adds an [`SparklineGroup`](../sparklinegroup/) with some [`Sparkline`](../sparkline/) to the collection. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(SparklineGroup) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |

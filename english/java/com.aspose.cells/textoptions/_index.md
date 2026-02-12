@@ -20,7 +20,7 @@ Represents the text options.
 | [equals(Font font)](#equals-com.aspose.cells.Font-) | Checks if two fonts are equals. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArgbColor()](#getArgbColor--) | Gets the color with a 32-bit ARGB value. |
-| [getCapsType()](#getCapsType--) | Gets the text caps type. |
+| [getCapsType()](#getCapsType--) | Gets the caps type for texts of the shape. |
 | [getCharset()](#getCharset--) | Represent the character set. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color) of the font. |
@@ -52,7 +52,7 @@ Represents the text options.
 | [notifyAll()](#notifyAll--) |  |
 | [setArgbColor(int value)](#setArgbColor-int-) | Sets the color with a 32-bit ARGB value. |
 | [setBold(boolean value)](#setBold-boolean-) | Sets a value indicating whether the font is bold. |
-| [setCapsType(int value)](#setCapsType-int-) | Sets the text caps type. |
+| [setCapsType(int value)](#setCapsType-int-) | Sets the caps type for texts of the shape. |
 | [setCharset(int value)](#setCharset-int-) | Represent the character set. |
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of the font. |
 | [setDoubleSize(double value)](#setDoubleSize-double-) | Sets the double size of the font. |
@@ -125,7 +125,7 @@ public int getCapsType()
 ```
 
 
-Gets the text caps type.
+Gets the caps type for texts of the shape.
 
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 
@@ -469,7 +469,7 @@ public void setCapsType(int value)
 ```
 
 
-Sets the text caps type.
+Sets the caps type for texts of the shape.
 
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 

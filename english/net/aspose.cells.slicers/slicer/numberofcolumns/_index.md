@@ -1,13 +1,13 @@
 ---
 title: Slicer.NumberOfColumns
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Returns or sets the number of columns in the specified slicer. The default value is 1
+description: Slicer property. Returns or sets the number of columns in the slicer. The default value is 1
 type: docs
 url: /net/aspose.cells.slicers/slicer/numberofcolumns/
 ---
 ## Slicer.NumberOfColumns property
 
-Returns or sets the number of columns in the specified slicer. The default value is 1.
+Returns or sets the number of columns in the slicer. The default value is 1.
 
 ```csharp
 public int NumberOfColumns { get; set; }

@@ -751,7 +751,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TimePeriodType](../com.aspose.cells/timeperiodtype) | Used in a FormatConditionType.TimePeriod conditional formatting rule. |
 | [TimeUnit](../com.aspose.cells/timeunit) | Represents the base unit for the category axis. |
 | [Timeline](../com.aspose.cells/timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
-| [TimelineCollection](../com.aspose.cells/timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. |
+| [TimelineCollection](../com.aspose.cells/timelinecollection) | Specifies the collection of all the [Timeline](../com.aspose.cells/timeline) objects on the worksheet. |
 | [TimelineLevelType](../com.aspose.cells/timelineleveltype) | Represents the level type of [Timeline](../com.aspose.cells/timeline) |
 | [TimelineShape](../com.aspose.cells/timelineshape) | Represents the Timeline msodrawing object. |
 | [Title](../com.aspose.cells/title) | Encapsulates the object that represents the title of chart or axis. |

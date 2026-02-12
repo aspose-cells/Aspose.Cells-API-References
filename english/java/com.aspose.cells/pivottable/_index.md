@@ -118,6 +118,7 @@ Summary description for PivotTable.
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the auto format type of PivotTable. |
 | [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether autofitting column width on update |
 | [getBaseFields()](#getBaseFields--) | Returns all base pivot fields in the PivotTable. |
+| [getButtonArea(int axisType)](#getButtonArea-int-) | Gets the area contains field button. |
 | [getCellByDisplayName(String displayName)](#getCellByDisplayName-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) object by the display name of PivotField. |
 | [getChildren()](#getChildren--) | Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [getClass()](#getClass--) |  |
@@ -144,6 +145,7 @@ Summary description for PivotTable.
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--) | Gets the external connection data source. |
 | [getFieldListSortAscending()](#getFieldListSortAscending--) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [getFields(int fieldType)](#getFields-int-) | Gets the specific pivot field list by the region. |
+| [getFilterArea()](#getFilterArea--) | Gets the region of filter region. |
 | [getGrandTotalName()](#getGrandTotalName--) | Returns the label that is displayed in the grand total column or row heading. |
 | [getHorizontalBreaks()](#getHorizontalBreaks--) | Gets pivot table row index list of horizontal page breaks |
 | [getHorizontalPageBreaks()](#getHorizontalPageBreaks--) | Gets horizontal page breaks of this pivot table. |
@@ -161,6 +163,7 @@ Summary description for PivotTable.
 | [getPivotFilters()](#getPivotFilters--) | Returns all filters of pivot fields in the pivot table. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
 | [getPivotFormats()](#getPivotFormats--) | Gets all formats applied to PivotTable. |
+| [getPivotTableStyle()](#getPivotTableStyle--) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
 | [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets the pivottable style name. |
 | [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets the built-in pivot table style. |
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
@@ -198,6 +201,7 @@ Summary description for PivotTable.
 | [getTableRange1()](#getTableRange1--) | Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. |
 | [getTableRange2()](#getTableRange2--) | Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. |
 | [getTag()](#getTag--) | Gets a user-defined string that is associated with this PivotTable view. |
+| [getTopRightArea()](#getTopRightArea--) | Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
 | [getValuesField()](#getValuesField--) | Gets a [PivotField](../../com.aspose.cells/pivotfield) object that represents all the data fields in a PivotTable. |
 | [hasBlankRows()](#hasBlankRows--) | Indicates whether to add blank rows. |
 | [hashCode()](#hashCode--) |  |
@@ -259,6 +263,7 @@ Summary description for PivotTable.
 | [setNullString(String value)](#setNullString-java.lang.String-) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [setPageFieldOrder(int value)](#setPageFieldOrder-int-) | Sets the order in which page fields are added to the PivotTable report's layout. |
 | [setPageFieldWrapCount(int value)](#setPageFieldWrapCount-int-) | Gets the number of page fields in each column or row in the PivotTable report. |
+| [setPivotTableStyle(TableStyle value)](#setPivotTableStyle-com.aspose.cells.TableStyle-) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
 | [setPivotTableStyleName(String value)](#setPivotTableStyleName-java.lang.String-) | Sets the pivottable style name. |
 | [setPivotTableStyleType(int value)](#setPivotTableStyleType-int-) | Sets the built-in pivot table style. |
 | [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
@@ -630,6 +635,21 @@ Returns all base pivot fields in the PivotTable.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection)
+### getButtonArea(int axisType) {#getButtonArea-int-}
+```
+public CellArea getButtonArea(int axisType)
+```
+
+
+Gets the area contains field button.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - 
 ### getCellByDisplayName(String displayName) {#getCellByDisplayName-java.lang.String-}
 ```
 public Cell getCellByDisplayName(String displayName)
@@ -912,6 +932,20 @@ Gets the specific pivot field list by the region.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) - the specific pivot field collection
+### getFilterArea() {#getFilterArea--}
+```
+public CellArea getFilterArea()
+```
+
+
+Gets the region of filter region.
+
+**Remarks**
+
+Only valid if filter pivot fields exists.
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea)
 ### getGrandTotalName() {#getGrandTotalName--}
 ```
 public String getGrandTotalName()
@@ -1098,6 +1132,16 @@ Gets all formats applied to PivotTable.
 
 **Returns:**
 [PivotTableFormatCollection](../../com.aspose.cells/pivottableformatcollection)
+### getPivotTableStyle() {#getPivotTableStyle--}
+```
+public TableStyle getPivotTableStyle()
+```
+
+
+Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table.
+
+**Returns:**
+[TableStyle](../../com.aspose.cells/tablestyle)
 ### getPivotTableStyleName() {#getPivotTableStyleName--}
 ```
 public String getPivotTableStyleName()
@@ -1487,6 +1531,16 @@ Gets a user-defined string that is associated with this PivotTable view.
 
 **Returns:**
 java.lang.String
+### getTopRightArea() {#getTopRightArea--}
+```
+public CellArea getTopRightArea()
+```
+
+
+Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets).
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea)
 ### getValuesField() {#getValuesField--}
 ```
 public PivotField getValuesField()
@@ -2325,6 +2379,19 @@ Gets the number of page fields in each column or row in the PivotTable report.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setPivotTableStyle(TableStyle value) {#setPivotTableStyle-com.aspose.cells.TableStyle-}
+```
+public void setPivotTableStyle(TableStyle value)
+```
+
+
+Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TableStyle](../../com.aspose.cells/tablestyle) |  |
 
 ### setPivotTableStyleName(String value) {#setPivotTableStyleName-java.lang.String-}
 ```

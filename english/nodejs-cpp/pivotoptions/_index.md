@@ -19,6 +19,7 @@ class PivotOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [showExpandCollapseFieldButtons](#showExpandCollapseFieldButtons--)| boolean | Gets or sets a value indicating whether to show expand/collapse field buttons |
 | [dropZoneFilter](#dropZoneFilter--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [dropZoneCategories](#dropZoneCategories--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [dropZoneData](#dropZoneData--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
@@ -29,6 +30,8 @@ class PivotOptions;
 
 | Method | Description |
 | --- | --- |
+| [getShowExpandCollapseFieldButtons()](#getShowExpandCollapseFieldButtons--)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons |
+| [setShowExpandCollapseFieldButtons(boolean)](#setShowExpandCollapseFieldButtons-boolean-)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons |
 | [getDropZoneFilter()](#getDropZoneFilter--)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [setDropZoneFilter(boolean)](#setDropZoneFilter-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [getDropZoneCategories()](#getDropZoneCategories--)| <b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
@@ -40,6 +43,15 @@ class PivotOptions;
 | [getDropZonesVisible()](#getDropZonesVisible--)| <b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart. |
 | [setDropZonesVisible(boolean)](#setDropZonesVisible-boolean-)| <b>@deprecated.</b> Please use the 'dropZonesVisible' property instead. Specifies whether any pivot controls can appear on the pivot chart. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### showExpandCollapseFieldButtons {#showExpandCollapseFieldButtons--}
+
+Gets or sets a value indicating whether to show expand/collapse field buttons
+
+```javascript
+showExpandCollapseFieldButtons : boolean;
+```
 
 
 ### dropZoneFilter {#dropZoneFilter--}
@@ -86,6 +98,28 @@ Specifies whether any pivot controls can appear on the pivot chart.
 dropZonesVisible : boolean;
 ```
 
+
+### getShowExpandCollapseFieldButtons() {#getShowExpandCollapseFieldButtons--}
+
+<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons
+
+```javascript
+getShowExpandCollapseFieldButtons() : boolean;
+```
+
+
+### setShowExpandCollapseFieldButtons(boolean) {#setShowExpandCollapseFieldButtons-boolean-}
+
+<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons
+
+```javascript
+setShowExpandCollapseFieldButtons(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getDropZoneFilter() {#getDropZoneFilter--}
 

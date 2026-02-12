@@ -63,6 +63,7 @@ public class Picture : Shape
 | [IsLink](../../aspose.cells.drawing/picture/islink/) { get; set; } | Returns true if the picture is linked to a file. |
 | [IsLockAspectRatio](../../aspose.cells.drawing/shape/islockaspectratio/) { get; set; } | (**Obsolete.**) True means that aspect ratio of the shape is locked.(Inherited from [`Shape`](../shape/).) |
 | [IsLocked](../../aspose.cells.drawing/shape/islocked/) { get; set; } | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.(Inherited from [`Shape`](../shape/).) |
+| [IsPlacedInCell](../../aspose.cells.drawing/picture/isplacedincell/) { get; set; } | Indicates whether to place the image in cell or over cells. |
 | [IsPrintable](../../aspose.cells.drawing/shape/isprintable/) { get; set; } | Indicates whether the object is printable. If False, this shape will not be printed when printing.(Inherited from [`Shape`](../shape/).) |
 | [IsRichText](../../aspose.cells.drawing/shape/isrichtext/) { get; } | Whether or not the text is rich text.(Inherited from [`Shape`](../shape/).) |
 | [IsSmartArt](../../aspose.cells.drawing/shape/issmartart/) { get; } | Indicates whether the shape is a smart art.(Inherited from [`Shape`](../shape/).) |
@@ -158,7 +159,7 @@ public class Picture : Shape
 | override [IsSameSetting](../../aspose.cells.drawing/picture/issamesetting/)(object) | Returns whether the shape is same. |
 | [Move](../../aspose.cells.drawing/picture/move/)(int, int) | Moves the picture to a specified location. |
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange/)(int, int, int, int) | Moves the shape to a specified range.(Inherited from [`Shape`](../shape/).) |
-| [PlaceInCell](../../aspose.cells.drawing/picture/placeincell/)() | Place this picture in the cell |
+| [PlaceInCell](../../aspose.cells.drawing/picture/placeincell/)() | (**Obsolete.**) Place this picture in the cell |
 | [RemoveActiveXControl](../../aspose.cells.drawing/shape/removeactivexcontrol/)() | Remove activeX control.(Inherited from [`Shape`](../shape/).) |
 | [RemoveHyperlink](../../aspose.cells.drawing/shape/removehyperlink/)() | Removes the hyperlink of the shape.(Inherited from [`Shape`](../shape/).) |
 | [SetInputRange](../../aspose.cells.drawing/shape/setinputrange/)(string, bool, bool) | Sets the range used to fill the control.(Inherited from [`Shape`](../shape/).) |

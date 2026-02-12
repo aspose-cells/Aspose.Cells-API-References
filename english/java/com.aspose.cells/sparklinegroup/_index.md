@@ -399,6 +399,10 @@ public double getVerticalAxisMaxValue()
 
 Gets the custom maximum value for the vertical axis.
 
+**Remarks**
+
+If this property is set, [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--) will be [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM).
+
 **Returns:**
 double
 ### getVerticalAxisMaxValueType() {#getVerticalAxisMaxValueType--}
@@ -420,6 +424,10 @@ public double getVerticalAxisMinValue()
 
 
 Gets the custom minimum value for the vertical axis.
+
+**Remarks**
+
+If this property is set, [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--) will be [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM).
 
 **Returns:**
 double
@@ -776,6 +784,10 @@ public void setVerticalAxisMaxValue(double value)
 
 Sets the custom maximum value for the vertical axis.
 
+**Remarks**
+
+If this property is set, [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--) will be [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM).
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -803,6 +815,10 @@ public void setVerticalAxisMinValue(double value)
 
 
 Sets the custom minimum value for the vertical axis.
+
+**Remarks**
+
+If this property is set, [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--) will be [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM).
 
 **Parameters:**
 | Parameter | Type | Description |

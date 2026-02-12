@@ -21,9 +21,9 @@ Represents the type of icon displayed as the mouse pointer for the control.
 | SizeWE | `9` | Double arrow pointing west and east. |
 | UpArrow | `10` | Up arrow. |
 | HourGlass | `11` | Hourglass. |
-| NoDrop | `12` | "Not” symbol (circle with a diagonal line) on top of the object being dragged. |
+| NoDrop | `12` | "Not" symbol (circle with a diagonal line) on top of the object being dragged. |
 | AppStarting | `13` | Arrow with an hourglass. |
 | Help | `14` | Arrow with a question mark. |
-| SizeAll | `15` | "Size-all” cursor (arrows pointing north, south, east, and west). |
+| SizeAll | `15` | "Size-all" cursor (arrows pointing north, south, east, and west). |
 | Custom | `99` | Uses the icon specified by the MouseIcon property. |
 

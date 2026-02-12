@@ -10,13 +10,13 @@ url: /net/aspose.cells/cells/copycolumns/
 Copies data and formats of a whole column.
 
 ```csharp
-public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, 
+public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, 
     int columnNumber, PasteOptions pasteOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | Cells | Source Cells object contains data and formats to copy. |
+| sourceCells | Cells | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | Int32 | Source column index. |
 | destinationColumnIndex | Int32 | Destination column index. |
 | columnNumber | Int32 | The copied column number. |
@@ -83,16 +83,16 @@ namespace AsposeCellsExamples
 
 ## CopyColumns(Cells, int, int, int) {#copycolumns}
 
-Copies data and formats of a whole column.
+Copies data and formats of whole columns.
 
 ```csharp
-public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, 
+public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, 
     int columnNumber)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | Cells | Source Cells object contains data and formats to copy. |
+| sourceCells | Cells | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | Int32 | Source column index. |
 | destinationColumnIndex | Int32 | Destination column index. |
 | columnNumber | Int32 | The copied column number. |

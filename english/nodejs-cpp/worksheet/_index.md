@@ -234,6 +234,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [selectRange(number, number, number, number, boolean)](#selectRange-number-number-number-number-boolean-)| Selects a range. |
 | [removeAllDrawingObjects()](#removeAllDrawingObjects--)| Removes all drawing objects in this worksheet. |
 | [clearComments()](#clearComments--)| Clears all comments in designer spreadsheet. |
+| [getAllPictures()](#getAllPictures--)| Gets all pictures includes images are embedded in the cell and over the cells. |
 | [protect(ProtectionType)](#protect-protectiontype-)| Protects worksheet. |
 | [protect(ProtectionType, string, string)](#protect-protectiontype-string-string-)| Protects worksheet. |
 | [unprotect()](#unprotect--)| Unprotects worksheet. |
@@ -2742,6 +2743,19 @@ Clears all comments in designer spreadsheet.
 clearComments() : void;
 ```
 
+
+### getAllPictures() {#getAllPictures--}
+
+Gets all pictures includes images are embedded in the cell and over the cells.
+
+```javascript
+getAllPictures() : Picture[];
+```
+
+
+**Returns**
+
+[Picture](../picture/)[]
 
 ### protect(ProtectionType) {#protect-protectiontype-}
 

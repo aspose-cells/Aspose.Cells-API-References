@@ -21,7 +21,7 @@ class SparklineGroupCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [SparklineGroup](../sparklinegroup/) element at the specified index. |
 | [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection. |
-| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection. |
+| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](../sparklinegroup/) with some [Sparkline](../sparkline/) to the collection. |
 | [clearSparklines(CellArea)](#clearSparklines-cellarea-)| Clears the sparklines that is inside an area of cells. |
 | [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlaps an area of cells. |
 
@@ -62,7 +62,7 @@ add(type: SparklineType) : number;
 
 ### add(SparklineType, string, boolean, CellArea) {#add-sparklinetype-string-boolean-cellarea-}
 
-Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection.
+Adds an [SparklineGroup](../sparklinegroup/) with some [Sparkline](../sparkline/) to the collection.
 
 ```javascript
 add(type: SparklineType, dataRange: string, isVertical: boolean, locationRange: CellArea) : number;
@@ -80,6 +80,10 @@ add(type: SparklineType, dataRange: string, isVertical: boolean, locationRange: 
 
 [SparklineGroup](../sparklinegroup/) object index.
 
+**Remarks**
+
+This method will create sparklines too. If <paramref name="isVertical"/> is true, the number of rows in dataRange and locationRange must be same. If <paramref name="isVertical"/> is false, the number of columns in dataRange and locationRange must be same.
+
 ### clearSparklines(CellArea) {#clearSparklines-cellarea-}
 
 Clears the sparklines that is inside an area of cells.
@@ -92,6 +96,10 @@ clearSparklines(cellArea: CellArea) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellArea | [CellArea](../cellarea/) | Specifies the area of cells |
+
+**Remarks**
+
+[SparklineGroup](../sparklinegroup/) will be removed too if it does not contains any [Sparkline](../sparkline/).
 
 ### clearSparklineGroups(CellArea) {#clearSparklineGroups-cellarea-}
 

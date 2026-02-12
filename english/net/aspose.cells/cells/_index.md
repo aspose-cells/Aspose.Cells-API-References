@@ -71,7 +71,7 @@ public class Cells : IDisposable, IEnumerable
 | [ClearRange](../../aspose.cells/cells/clearrange/#clearrange_1)(int, int, int, int) | Clears contents and formatting of a range. |
 | [ConvertStringToNumericValue](../../aspose.cells/cells/convertstringtonumericvalue/)() | Converts all string data in the worksheet to numeric value if possible. |
 | [CopyColumn](../../aspose.cells/cells/copycolumn/)(Cells, int, int) | Copies data and formats of a whole column. |
-| [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns)(Cells, int, int, int) | Copies data and formats of a whole column. |
+| [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns)(Cells, int, int, int) | Copies data and formats of whole columns. |
 | [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns_2)(Cells, int, int, int, int) | Copies data and formats of the whole columns. |
 | [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns_1)(Cells, int, int, int, PasteOptions) | Copies data and formats of a whole column. |
 | [CopyRow](../../aspose.cells/cells/copyrow/)(Cells, int, int) | Copies data and formats of a whole row. |

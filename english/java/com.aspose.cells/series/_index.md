@@ -502,7 +502,7 @@ public short getOverlap()
 ```
 
 
-Specifies how bars and columns are positioned. Can be a value between \\u9225?100 and 100. Applies only to 2-D bar and 2-D column charts.
+Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts.
 
 **Returns:**
 short
@@ -844,7 +844,7 @@ public boolean isColorVaried()
 ```
 
 
-Represents if the color of points is varied. The chart must contain only one series.
+Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Returns:**
 boolean
@@ -963,7 +963,7 @@ public void setColorVaried(boolean value)
 ```
 
 
-Represents if the color of points is varied. The chart must contain only one series.
+Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1145,7 +1145,7 @@ public void setOverlap(short value)
 ```
 
 
-Specifies how bars and columns are positioned. Can be a value between \\u9225?100 and 100. Applies only to 2-D bar and 2-D column charts.
+Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts.
 
 **Parameters:**
 | Parameter | Type | Description |

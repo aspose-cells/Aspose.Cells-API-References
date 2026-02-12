@@ -30,10 +30,10 @@ enum class ControlMousePointerType
 | SizeWE | 9 | <br>Double arrow pointing west and east. |
 | UpArrow | 10 | <br>Up arrow. |
 | HourGlass | 11 | <br>Hourglass. |
-| NoDrop | 12 | <br>"Not” symbol (circle with a diagonal line) on top of the object being dragged. |
+| NoDrop | 12 | <br>"Not" symbol (circle with a diagonal line) on top of the object being dragged. |
 | AppStarting | 13 | <br>Arrow with an hourglass. |
 | Help | 14 | <br>Arrow with a question mark. |
-| SizeAll | 15 | <br>"Size-all” cursor (arrows pointing north, south, east, and west). |
+| SizeAll | 15 | <br>"Size-all" cursor (arrows pointing north, south, east, and west). |
 | Custom | 99 | <br>Uses the icon specified by the MouseIcon property. |
 
 ## See Also

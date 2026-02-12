@@ -330,5 +330,5 @@ url: /cpp/aspose.cells/
 | bool operator==(const U16String &str1, const U16String &str2) | operator== |
 | bool operator!=(const Aspose::Cells::Color &left, const Aspose::Cells::Color &right) |  |
 | bool operator!=(const U16String &str1, const U16String &str2) | operator!= |
-| void Startup() | Initializes the [Aspose.Cells](./) library, which must be invoked before using the library. |
-| void Cleanup(bool cleanupOpenSSL=true) | Clean up the [Aspose.Cells](./) library. |
+| void Startup() | Initializes the [Aspose.Cells](./) library. This method must be invoked before using the library and only needs to be invoked once. |
+| void Cleanup(bool cleanupOpenSSL=true) | Clean up the [Aspose.Cells](./) library. Like the Startup function, the Cleanup method only needs to be called once when the program ends. |

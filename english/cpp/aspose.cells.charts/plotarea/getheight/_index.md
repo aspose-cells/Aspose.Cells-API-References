@@ -29,6 +29,8 @@ The **X**, **Y**, **Width** and **Height** of **[PlotArea](../)** represents the
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling [Chart.Calculate()](../../chart/calculate/).
 
+Note: When Height is set, the IsInnerMode property will be automatically set to false. 
+
 NOTE: This member is now obsolete. Please use PlotArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
 

@@ -86,7 +86,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [displayUnit](#displayUnit--)| DisplayUnitType | Represents the unit label for the specified axis. |
 | [customUnit](#customUnit--)| number | Specifies a custom value for the display unit. |
 | [customDisplayUnit](#customDisplayUnit--)| number | Specifies a custom value for the display unit. |
-| [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
+| [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
 | [isDisplayUnitLabelShown](#isDisplayUnitLabelShown--)| boolean | Represents if the display unit label is shown on the specified axis. |
 | [title](#title--)| Title | Readonly. Gets the title of this axis in the chart. |
 | [categoryType](#categoryType--)| CategoryType | Represents the type of the category axis. |
@@ -378,7 +378,7 @@ customDisplayUnit : number;
 
 ### displayUnitLabel {#displayUnitLabel--}
 
-Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions.
+Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
 
 ```javascript
 displayUnitLabel : DisplayUnitLabel;
@@ -396,7 +396,7 @@ isDisplayUnitLabelShown : boolean;
 
 **Remarks**
 
-The default value is True.
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
 
 ### title {#title--}
 

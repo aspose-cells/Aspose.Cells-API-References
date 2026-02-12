@@ -147,6 +147,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [IsLockAspectRatio()](../shape/islockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
 | [IsLocked()](../shape/islocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| [IsPlacedInCell()](./isplacedincell/) | Indicates whether to place the image in cell or over cells. |
 | [IsPrintable()](../shape/isprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText()](../shape/isrichtext/) | Whether or not the text is rich text. |
 | [IsSameSetting(const Aspose::Cells::Object\& obj)](./issamesetting/) | Returns whether the shape is same. |
@@ -161,7 +162,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [Picture(Picture_Impl* impl)](./picture/) | Constructs from an implementation object. |
 | [Picture(const Aspose::Cells::Drawing::Picture\& src)](./picture/) | Copy constructor. |
 | [Picture(const Shape\& src)](./picture/) | Constructs from a parent object. |
-| [PlaceInCell()](./placeincell/) | Place this picture in the cell. |
+| [PlaceInCell()](./placeincell/) |  **(Deprecated)** Place this picture in the cell. |
 | [RemoveActiveXControl()](../shape/removeactivexcontrol/) | Remove activeX control. |
 | [RemoveHyperlink()](../shape/removehyperlink/) | Removes the hyperlink of the shape. |
 | [SetAlternativeText(const U16String\& value)](../shape/setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
@@ -201,6 +202,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [SetIsLink(bool value)](./setislink/) | Returns true if the picture is linked to a file. |
 | [SetIsLockAspectRatio(bool value)](../shape/setislockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
 | [SetIsLocked(bool value)](../shape/setislocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [SetIsPlacedInCell(bool value)](./setisplacedincell/) | Indicates whether to place the image in cell or over cells. |
 | [SetIsPrintable(bool value)](../shape/setisprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [SetIsTextWrapped(bool value)](../shape/setistextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [SetLeft(int32_t value)](../shape/setleft/) | Represents the horizontal offset of shape from its left column, in unit of pixels. |

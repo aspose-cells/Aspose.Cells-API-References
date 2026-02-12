@@ -39,7 +39,7 @@ class FormatCondition
 | [GetStopIfTrue()](./getstopiftrue/) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. Only applies for Excel 2007;. |
 | [GetStyle()](./getstyle/) | Gets or setts style of conditional formatted cell ranges. |
 | [GetText()](./gettext/) | The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
-| [GetTimePeriod()](./gettimeperiod/) | The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is [TimePeriodType.Today](../timeperiodtype/). |
+| [GetTimePeriod()](./gettimeperiod/) | The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is [TimePeriodType.Today](../timeperiodtype/). |
 | [GetTop10()](./gettop10/) | Get the conditional formatting's "Top10" instance. The default instance's rule highlights cells whose values fall in the top 10 bracket. Valid only for type is [Top10](../top10/). |
 | [GetType()](./gettype/) | Gets and sets whether the conditional format Type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -61,7 +61,7 @@ class FormatCondition
 | [SetStyle(const Style\& value)](./setstyle/) | Gets or setts style of conditional formatted cell ranges. |
 | [SetText(const U16String\& value)](./settext/) | The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
 | [SetText(const char16_t* value)](./settext/) | The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
-| [SetTimePeriod(TimePeriodType value)](./settimeperiod/) | The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is [TimePeriodType.Today](../timeperiodtype/). |
+| [SetTimePeriod(TimePeriodType value)](./settimeperiod/) | The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is [TimePeriodType.Today](../timeperiodtype/). |
 | [SetType(FormatConditionType value)](./settype/) | Gets and sets whether the conditional format Type. |
 | [~FormatCondition()](./~formatcondition/) | Destructor. |
 ## Fields

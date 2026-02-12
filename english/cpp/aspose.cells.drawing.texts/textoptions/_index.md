@@ -24,7 +24,7 @@ class TextOptions : public Aspose::Cells::Font
 | [Font(Font_Impl* impl)](../../aspose.cells/font/font/) | Constructs from an implementation object. |
 | [Font(const Aspose::Cells::Font\& src)](../../aspose.cells/font/font/) | Copy constructor. |
 | [GetArgbColor()](../../aspose.cells/font/getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [GetCapsType()](./getcapstype/) | Gets and sets the text caps type. |
+| [GetCapsType()](./getcapstype/) | Gets and sets the caps type for texts of the shape. |
 | [GetCharset()](../../aspose.cells/font/getcharset/) | Represent the character set. |
 | [GetColor()](../../aspose.cells/font/getcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [GetDoubleSize()](../../aspose.cells/font/getdoublesize/) | Gets and sets the double size of the font. |
@@ -55,7 +55,7 @@ class TextOptions : public Aspose::Cells::Font
 | [operator=(const TextOptions\& src)](./operator_asm/) | operator= |
 | [operator=(const Aspose::Cells::Font\& src)](../../aspose.cells/font/operator_asm/) | operator= |
 | [SetArgbColor(int32_t value)](../../aspose.cells/font/setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [SetCapsType(TextCapsType value)](./setcapstype/) | Gets and sets the text caps type. |
+| [SetCapsType(TextCapsType value)](./setcapstype/) | Gets and sets the caps type for texts of the shape. |
 | [SetCharset(int32_t value)](../../aspose.cells/font/setcharset/) | Represent the character set. |
 | [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells/font/setcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [SetDoubleSize(double value)](../../aspose.cells/font/setdoublesize/) | Gets and sets the double size of the font. |

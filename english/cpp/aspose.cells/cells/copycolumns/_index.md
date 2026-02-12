@@ -4,7 +4,7 @@ linktitle: CopyColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::CopyColumns method. Copies data and formats of a whole column in C++.'
 type: docs
-weight: 9400
+weight: 9600
 url: /cpp/aspose.cells/cells/copycolumns/
 ---
 ## Cells::CopyColumns(const Cells\&, int32_t, int32_t, int32_t, const PasteOptions\&) method
@@ -13,13 +13,13 @@ url: /cpp/aspose.cells/cells/copycolumns/
 Copies data and formats of a whole column.
 
 ```cpp
-void Aspose::Cells::Cells::CopyColumns(const Cells &sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber, const PasteOptions &pasteOptions)
+void Aspose::Cells::Cells::CopyColumns(const Cells &sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber, const PasteOptions &pasteOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | const Cells\& | Source [Cells](../) object contains data and formats to copy. |
+| sourceCells | const Cells\& | Source [Cells](../) object contains data and formats to copy. |
 | sourceColumnIndex | int32_t | Source column index. |
 | destinationColumnIndex | int32_t | Destination column index. |
 | columnNumber | int32_t | The copied column number. |
@@ -36,16 +36,16 @@ void Aspose::Cells::Cells::CopyColumns(const Cells &sourceCells0, int32_t source
 ## Cells::CopyColumns(const Cells\&, int32_t, int32_t, int32_t) method
 
 
-Copies data and formats of a whole column.
+Copies data and formats of whole columns.
 
 ```cpp
-void Aspose::Cells::Cells::CopyColumns(const Cells &sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber)
+void Aspose::Cells::Cells::CopyColumns(const Cells &sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | const Cells\& | Source [Cells](../) object contains data and formats to copy. |
+| sourceCells | const Cells\& | Source [Cells](../) object contains data and formats to copy. |
 | sourceColumnIndex | int32_t | Source column index. |
 | destinationColumnIndex | int32_t | Destination column index. |
 | columnNumber | int32_t | The copied column number. |

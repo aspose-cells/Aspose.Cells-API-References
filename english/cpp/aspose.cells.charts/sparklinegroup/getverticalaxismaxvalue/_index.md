@@ -16,6 +16,10 @@ Gets and sets the custom maximum value for the vertical axis.
 double Aspose::Cells::Charts::SparklineGroup::GetVerticalAxisMaxValue()
 ```
 
+## Remarks
+
+
+If this property is set, VerticalAxisMaxValueType will be [SparklineAxisMinMaxType.Custom](../../sparklineaxisminmaxtype/). 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

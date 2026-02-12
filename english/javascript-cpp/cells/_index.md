@@ -139,7 +139,7 @@ cells.merge(5, 4, 2, 2);
 | [applyRowStyle(number, Style, StyleFlag)](#applyRowStyle-number-style-styleflag-)| Applies formats for a whole row. |
 | [applyStyle(Style, StyleFlag)](#applyStyle-style-styleflag-)| Applies formats for a whole worksheet. |
 | [copyColumns(Cells, number, number, number, PasteOptions)](#copyColumns-cells-number-number-number-pasteoptions-)| Copies data and formats of a whole column. |
-| [copyColumns(Cells, number, number, number)](#copyColumns-cells-number-number-number-)| Copies data and formats of a whole column. |
+| [copyColumns(Cells, number, number, number)](#copyColumns-cells-number-number-number-)| Copies data and formats of whole columns. |
 | [copyColumns(Cells, number, number, number, number)](#copyColumns-cells-number-number-number-number-)| Copies data and formats of the whole columns. |
 | [copyColumn(Cells, number, number)](#copyColumn-cells-number-number-)| Copies data and formats of a whole column. |
 | [copyRow(Cells, number, number)](#copyRow-cells-number-number-)| Copies data and formats of a whole row. |
@@ -1682,13 +1682,13 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 Copies data and formats of a whole column.
 
 ```javascript
-copyColumns(sourceCells0: Cells, sourceColumnIndex: number, destinationColumnIndex: number, columnNumber: number, pasteOptions: PasteOptions) : void;
+copyColumns(sourceCells: Cells, sourceColumnIndex: number, destinationColumnIndex: number, columnNumber: number, pasteOptions: PasteOptions) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | destinationColumnIndex | number | Destination column index. |
 | columnNumber | number | The copied column number. |
@@ -1696,16 +1696,16 @@ copyColumns(sourceCells0: Cells, sourceColumnIndex: number, destinationColumnInd
 
 ### copyColumns(Cells, number, number, number) {#copyColumns-cells-number-number-number-}
 
-Copies data and formats of a whole column.
+Copies data and formats of whole columns.
 
 ```javascript
-copyColumns(sourceCells0: Cells, sourceColumnIndex: number, destinationColumnIndex: number, columnNumber: number) : void;
+copyColumns(sourceCells: Cells, sourceColumnIndex: number, destinationColumnIndex: number, columnNumber: number) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | destinationColumnIndex | number | Destination column index. |
 | columnNumber | number | The copied column number. |
@@ -1778,13 +1778,13 @@ copyRows(sourceCells: Cells, sourceRowIndex: number, destinationRowIndex: number
 Copies data and formats of some whole rows.
 
 ```javascript
-copyRows(sourceCells0: Cells, sourceRowIndex: number, destinationRowIndex: number, rowNumber: number, copyOptions: CopyOptions) : void;
+copyRows(sourceCells: Cells, sourceRowIndex: number, destinationRowIndex: number, rowNumber: number, copyOptions: CopyOptions) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../cells/) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | number | Source row index. |
 | destinationRowIndex | number | Destination row index. |
 | rowNumber | number | The copied row number. |

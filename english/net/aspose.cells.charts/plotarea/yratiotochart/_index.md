@@ -21,7 +21,7 @@ The **XRatioToChart**, **YRatioToChart**, **WidthRatioToChart** and **HeightRati
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
-YPixel = YRatioToChart * chart.ChartObject.Width.
+YPixel = YRatioToChart * chart.ChartObject.Width. Note: When YRatioToChart is set, the IsInnerMode property will be automatically set to false.
 
 ### Examples
 

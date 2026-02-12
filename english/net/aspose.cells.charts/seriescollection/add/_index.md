@@ -10,13 +10,13 @@ url: /net/aspose.cells.charts/seriescollection/add/
 Adds the [`Series`](../../series/) collection to a chart.
 
 ```csharp
-public int Add(string area, bool isVertical)
+public int Add(string dataArea, bool isVertical)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | String | Specifies values from which to plot the data series |
-| isVertical | Boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
+| dataArea | String | Specifies values from which to plot the data series |
+| isVertical | Boolean | Specifies whether to plot the series from a range of cell values by row or by column. If true, [`Series`](../../series/) will be added column by column |
 
 ### Return Value
 
@@ -24,7 +24,7 @@ Return the first index of the added ASeries in the NSeries.
 
 ### Remarks
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).
+If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).This method only simply process *dataArea* as data range. If you want to smartly check ChartCollection.Add() method.
 
 ### Examples
 

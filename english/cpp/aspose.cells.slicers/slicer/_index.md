@@ -33,7 +33,7 @@ class Slicer
 | [GetLockedAspectRatio()](./getlockedaspectratio/) |  **(Deprecated)** Indicates whether locking aspect ratio. |
 | [GetLockedPosition()](./getlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [GetName()](./getname/) | Returns or sets the name of the specified slicer. |
-| [GetNumberOfColumns()](./getnumberofcolumns/) | Returns or sets the number of columns in the specified slicer. The default value is 1. |
+| [GetNumberOfColumns()](./getnumberofcolumns/) | Returns or sets the number of columns in the slicer. The default value is 1. |
 | [GetParent()](./getparent/) |  **(Deprecated)** Returns the [Worksheet](../../aspose.cells/worksheet/) object which contains this slicer. Read-only. |
 | [GetPlacement()](./getplacement/) |  **(Deprecated)** Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
 | [GetRowHeight()](./getrowheight/) | Returns or sets the height of each row in the specified slicer in unit of points. |
@@ -75,7 +75,7 @@ class Slicer
 | [SetLockedPosition(bool value)](./setlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [SetName(const U16String\& value)](./setname/) | Returns or sets the name of the specified slicer. |
 | [SetName(const char16_t* value)](./setname/) | Returns or sets the name of the specified slicer. |
-| [SetNumberOfColumns(int32_t value)](./setnumberofcolumns/) | Returns or sets the number of columns in the specified slicer. The default value is 1. |
+| [SetNumberOfColumns(int32_t value)](./setnumberofcolumns/) | Returns or sets the number of columns in the slicer. The default value is 1. |
 | [SetPlacement(PlacementType value)](./setplacement/) |  **(Deprecated)** Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
 | [SetRowHeight(double value)](./setrowheight/) | Returns or sets the height of each row in the specified slicer in unit of points. |
 | [SetRowHeightPixel(int32_t value)](./setrowheightpixel/) | Returns or sets the height of each row in the specified slicer, in unit of pixels. |

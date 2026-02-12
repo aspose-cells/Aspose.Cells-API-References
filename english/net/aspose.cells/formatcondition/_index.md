@@ -28,7 +28,7 @@ public class FormatCondition
 | [StopIfTrue](../../aspose.cells/formatcondition/stopiftrue/) { get; set; } | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. Only applies for Excel 2007; |
 | [Style](../../aspose.cells/formatcondition/style/) { get; set; } | Gets or setts style of conditional formatted cell ranges. |
 | [Text](../../aspose.cells/formatcondition/text/) { get; set; } | The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null. |
-| [TimePeriod](../../aspose.cells/formatcondition/timeperiod/) { get; set; } | The applicable time period in a "date occurring…" conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. |
+| [TimePeriod](../../aspose.cells/formatcondition/timeperiod/) { get; set; } | The applicable time period in a "date occurrin" conditional formatting rule. Valid only for type is timePeriod. The default value is TimePeriodType.Today. |
 | [Top10](../../aspose.cells/formatcondition/top10/) { get; } | Get the conditional formatting's "Top10" instance. The default instance's rule highlights cells whose values fall in the top 10 bracket. Valid only for type is Top10. |
 | [Type](../../aspose.cells/formatcondition/type/) { get; set; } | Gets and sets whether the conditional format Type. |
 

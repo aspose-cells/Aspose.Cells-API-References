@@ -4,7 +4,7 @@ linktitle: SetLoadTableType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Numbers::NumbersLoadOptions::SetLoadTableType method. Gets and sets the type of loading multiple tables in one worksheet in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells.numbers/numbersloadoptions/setloadtabletype/
 ---
 ## NumbersLoadOptions::SetLoadTableType method

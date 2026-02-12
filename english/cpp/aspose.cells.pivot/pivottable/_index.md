@@ -46,6 +46,7 @@ class PivotTable
 | [GetAutofitColumnWidthOnUpdate()](./getautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update. |
 | [GetAutoFormatType()](./getautoformattype/) | Gets and sets the auto format type of [PivotTable](./). |
 | [GetBaseFields()](./getbasefields/) | Returns all base pivot fields in the [PivotTable](./). |
+| [GetButtonArea(PivotFieldType axisType)](./getbuttonarea/) | Gets the area contains field button. |
 | [GetCellByDisplayName(const U16String\& displayName)](./getcellbydisplayname/) | Gets the [Cell](../../aspose.cells/cell/) object by the display name of [PivotField](../pivotfield/). |
 | [GetCellByDisplayName(const char16_t* displayName)](./getcellbydisplayname/) | Gets the [Cell](../../aspose.cells/cell/) object by the display name of [PivotField](../pivotfield/). |
 | [GetChildren()](./getchildren/) | Gets the Children [Pivot](../)[Tables](../../aspose.cells.tables/) which use this [PivotTable](./) data as data source. |
@@ -72,6 +73,7 @@ class PivotTable
 | [GetExternalConnectionDataSource()](./getexternalconnectiondatasource/) |  **(Deprecated)** Gets the external connection data source. |
 | [GetFieldListSortAscending()](./getfieldlistsortascending/) | Indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
 | [GetFields(PivotFieldType fieldType)](./getfields/) | Gets the specific pivot field list by the region. |
+| [GetFilterArea()](./getfilterarea/) | Gets the region of filter region. |
 | [GetGrandTotalName()](./getgrandtotalname/) | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [GetHasBlankRows()](./gethasblankrows/) | Indicates whether to add blank rows. This property only applies for the [PivotTable](./) auto format types which needs to add blank rows. |
 | [GetHorizontalPageBreaks()](./gethorizontalpagebreaks/) | Gets horizontal page breaks of this pivot table. |
@@ -89,6 +91,7 @@ class PivotTable
 | [GetPivotFilters()](./getpivotfilters/) | Returns all filters of pivot fields in the pivot table. |
 | [GetPivotFormatConditions()](./getpivotformatconditions/) |  **(Deprecated)** Gets the Format Conditions of the pivot table. |
 | [GetPivotFormats()](./getpivotformats/) | Gets all formats applied to [PivotTable](./). |
+| [GetPivotTableStyle()](./getpivottablestyle/) | Gets TableStyle settings of this pivot table. |
 | [GetPivotTableStyleName()](./getpivottablestylename/) | Gets and sets the pivottable style name. |
 | [GetPivotTableStyleType()](./getpivottablestyletype/) | Gets and sets the built-in pivot table style. |
 | [GetPreserveFormatting()](./getpreserveformatting/) | Indicates whether formatting is preserved when the [PivotTable](./) is refreshed or recalculated. |
@@ -126,6 +129,7 @@ class PivotTable
 | [GetTableRange1()](./gettablerange1/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range containing the entire [PivotTable](./) report, but doesn't include page fields. Read-only. |
 | [GetTableRange2()](./gettablerange2/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range containing the entire [PivotTable](./) report, includes page fields. Read-only. |
 | [GetTag()](./gettag/) | Gets and sets a user-defined string that is associated with this [PivotTable](./) view. |
+| [GetTopRightArea()](./gettoprightarea/) | Represents the blank area at the top-right of the [PivotTable](./) (top-left for RTL sheets). |
 | [GetValuesField()](./getvaluesfield/) | Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with [PivotTable.AddFieldToArea()](./addfieldtoarea/) method . |
 | [IsAutoFormat()](./isautoformat/) | Indicates whether the [PivotTable](./) report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003. |
 | [IsExcel2003Compatible()](./isexcel2003compatible/) | Specifies whether the [PivotTable](./) is compatible for Excel2003 when refreshing [PivotTable](./), if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
@@ -194,6 +198,7 @@ class PivotTable
 | [SetNullString(const char16_t* value)](./setnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [SetPageFieldOrder(PrintOrderType value)](./setpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [SetPageFieldWrapCount(int32_t value)](./setpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
+| [SetPivotTableStyle(const TableStyle\& value)](./setpivottablestyle/) | Gets TableStyle settings of this pivot table. |
 | [SetPivotTableStyleName(const U16String\& value)](./setpivottablestylename/) | Gets and sets the pivottable style name. |
 | [SetPivotTableStyleName(const char16_t* value)](./setpivottablestylename/) | Gets and sets the pivottable style name. |
 | [SetPivotTableStyleType(PivotTableStyleType value)](./setpivottablestyletype/) | Gets and sets the built-in pivot table style. |

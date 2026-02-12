@@ -15,7 +15,7 @@ Indicates whether locking aspect ratio.
 
 >Deprecated
 >
->Use Shape.GetLockedProperty() method instead. 
+>Use Shape.IsLockAspectRatio property instead. 
 ```cpp
 bool Aspose::Cells::Slicers::Slicer::GetLockedAspectRatio()
 ```
@@ -23,7 +23,7 @@ bool Aspose::Cells::Slicers::Slicer::GetLockedAspectRatio()
 ## Remarks
 
 
-NOTE: This member is now obsolete. Instead, please use [Shape.GetLockedProperty()](../../../aspose.cells.drawing/shape/getlockedproperty/) method. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Shape.IsAspectRatioLocked](../../../aspose.cells.drawing/shape/isaspectratiolocked/) method. This property will be removed 12 months later since January 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

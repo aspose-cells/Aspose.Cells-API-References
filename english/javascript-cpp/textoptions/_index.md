@@ -35,7 +35,7 @@ class TextOptions extends Font;
 | [kerning](#kerning--)| number | Specifies the minimum font size at which character kerning will occur for this text run. |
 | [spacing](#spacing--)| number | Specifies the spacing between characters within a text run. |
 | [isNormalizeHeights](#isNormalizeHeights--)| boolean | Indicates whether the normalization of height that is to be applied to the text run. |
-| [capsType](#capsType--)| TextCapsType | Gets and sets the text caps type. |
+| [capsType](#capsType--)| TextCapsType | Gets and sets the caps type for texts of the shape. |
 | [charset](#charset--)| number | Represent the character set. |
 | [isItalic](#isItalic--)| boolean | Gets or sets a value indicating whether the font is italic. |
 | [isBold](#isBold--)| boolean | Gets or sets a value indicating whether the font is bold. |
@@ -171,7 +171,7 @@ Only for the fonts of Shapes or Charts.
 
 ### capsType {#capsType--}
 
-Gets and sets the text caps type.
+Gets and sets the caps type for texts of the shape.
 
 ```javascript
 capsType : TextCapsType;

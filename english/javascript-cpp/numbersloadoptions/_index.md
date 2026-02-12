@@ -26,6 +26,7 @@ class NumbersLoadOptions extends LoadOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [preserveTableName](#preserveTableName--)| boolean | Indicates whether to preserve table names when importing from Numbers. |
 | [loadTableType](#loadTableType--)| LoadNumbersTableType | Gets and sets the type of loading multiple tables in one worksheet. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
@@ -77,6 +78,15 @@ constructor(obj: LoadOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | LoadOptions | The parent object. |
+
+### preserveTableName {#preserveTableName--}
+
+Indicates whether to preserve table names when importing from Numbers.
+
+```javascript
+preserveTableName : boolean;
+```
+
 
 ### loadTableType {#loadTableType--}
 

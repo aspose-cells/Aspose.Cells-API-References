@@ -4,7 +4,7 @@ linktitle: GetOriginalHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalHeight method. Gets the original height of the picture in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.drawing/picture/getoriginalheight/
 ---
 ## Picture::GetOriginalHeight method

@@ -1,13 +1,13 @@
 ---
 title: TextOptions.CapsType
 second_title: Aspose.Cells for .NET API Reference
-description: TextOptions property. Gets and sets the text caps type
+description: TextOptions property. Gets and sets the caps type for texts of the shape
 type: docs
 url: /net/aspose.cells.drawing.texts/textoptions/capstype/
 ---
 ## TextOptions.CapsType property
 
-Gets and sets the text caps type.
+Gets and sets the caps type for texts of the shape.
 
 ```csharp
 public TextCapsType CapsType { get; set; }

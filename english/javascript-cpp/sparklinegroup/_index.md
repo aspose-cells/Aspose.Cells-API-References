@@ -279,6 +279,10 @@ verticalAxisMaxValue : number;
 ```
 
 
+**Remarks**
+
+If this property is set, [VerticalAxisMaxValueType](../verticalaxismaxvaluetype/) will be <see  cref="SparklineAxisMinMaxType.Custom"/>.
+
 ### verticalAxisMinValueType {#verticalAxisMinValueType--}
 
 Represents the vertical axis minimum value type.
@@ -296,6 +300,10 @@ Gets and sets the custom minimum value for the vertical axis.
 verticalAxisMinValue : number;
 ```
 
+
+**Remarks**
+
+If this property is set, [VerticalAxisMinValueType](../verticalaxisminvaluetype/) will be <see  cref="SparklineAxisMinMaxType.Custom"/>.
 
 ### resetRanges(string, boolean, CellArea) {#resetRanges-string-boolean-cellarea-}
 

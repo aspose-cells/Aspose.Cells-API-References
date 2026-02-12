@@ -110,10 +110,10 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [hasUpDownBars](#hasUpDownBars--)| boolean | True if a line chart has up and down bars. Applies only to line charts. |
 | [upBars](#upBars--)| DropBars | Readonly. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
 | [downBars](#downBars--)| DropBars | Readonly. Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
-| [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. The chart must contain only one series. |
+| [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [gapWidth](#gapWidth--)| number | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [firstSliceAngle](#firstSliceAngle--)| number | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
-| [overlap](#overlap--)| number | Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts. |
+| [overlap](#overlap--)| number | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [secondPlotSize](#secondPlotSize--)| number | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [splitType](#splitType--)| ChartSplitType | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [splitValue](#splitValue--)| number | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
@@ -501,7 +501,7 @@ downBars : DropBars;
 
 ### isColorVaried {#isColorVaried--}
 
-Represents if the color of points is varied. The chart must contain only one series.
+Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 ```javascript
 isColorVaried : boolean;
@@ -528,7 +528,7 @@ firstSliceAngle : number;
 
 ### overlap {#overlap--}
 
-Specifies how bars and columns are positioned. Can be a value between – 100 and 100. Applies only to 2-D bar and 2-D column charts.
+Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts.
 
 ```javascript
 overlap : number;

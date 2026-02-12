@@ -67,12 +67,12 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [clearRange(int startRow, int startColumn, int endRow, int endColumn)](#clearRange-int-int-int-int-) | Clears contents and formatting of a range. |
 | [convertStringToNumericValue()](#convertStringToNumericValue--) | Converts all string data in the worksheet to numeric value if possible. |
 | [copyColumn(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex)](#copyColumn-com.aspose.cells.Cells-int-int-) | Copies data and formats of a whole column. |
-| [copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber)](#copyColumns-com.aspose.cells.Cells-int-int-int-) | Copies data and formats of a whole column. |
-| [copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions)](#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-) | Copies data and formats of a whole column. |
+| [copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber)](#copyColumns-com.aspose.cells.Cells-int-int-int-) | Copies data and formats of whole columns. |
+| [copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions)](#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-) | Copies data and formats of a whole column. |
 | [copyColumns(Cells sourceCells, int sourceColumnIndex, int sourceTotalColumns, int destinationColumnIndex, int destinationTotalColumns)](#copyColumns-com.aspose.cells.Cells-int-int-int-int-) | Copies data and formats of the whole columns. |
 | [copyRow(Cells sourceCells, int sourceRowIndex, int destinationRowIndex)](#copyRow-com.aspose.cells.Cells-int-int-) | Copies data and formats of a whole row. |
 | [copyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber)](#copyRows-com.aspose.cells.Cells-int-int-int-) | Copies data and formats of some whole rows. |
-| [copyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)](#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-) | Copies data and formats of some whole rows. |
+| [copyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)](#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-) | Copies data and formats of some whole rows. |
 | [copyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions, PasteOptions pasteOptions)](#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) | Copies data and formats of some whole rows. |
 | [createRange(int firstIndex, int number, boolean isVertical)](#createRange-int-int-boolean-) | Creates a [Range](../../com.aspose.cells/range) object from rows of cells or columns of cells. |
 | [createRange(int firstRow, int firstColumn, int totalRows, int totalColumns)](#createRange-int-int-int-int-) | Creates a [Range](../../com.aspose.cells/range) object from a range of cells. |
@@ -498,25 +498,25 @@ Copies data and formats of a whole column.
 | sourceColumnIndex | int | Source column index. |
 | destinationColumnIndex | int | Destination column index. |
 
-### copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber) {#copyColumns-com.aspose.cells.Cells-int-int-int-}
+### copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber) {#copyColumns-com.aspose.cells.Cells-int-int-int-}
 ```
-public void copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber)
+public void copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber)
 ```
 
 
-Copies data and formats of a whole column.
+Copies data and formats of whole columns.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | int | Source column index. |
 | destinationColumnIndex | int | Destination column index. |
 | columnNumber | int | The copied column number. |
 
-### copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions) {#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-}
+### copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions) {#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-}
 ```
-public void copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions)
+public void copyColumns(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions)
 ```
 
 
@@ -525,7 +525,7 @@ Copies data and formats of a whole column.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | int | Source column index. |
 | destinationColumnIndex | int | Destination column index. |
 | columnNumber | int | The copied column number. |
@@ -579,9 +579,9 @@ Copies data and formats of some whole rows.
 | destinationRowIndex | int | Destination row index. |
 | rowNumber | int | The copied row number. |
 
-### copyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) {#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-}
+### copyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) {#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-}
 ```
-public void copyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)
+public void copyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)
 ```
 
 
@@ -590,7 +590,7 @@ Copies data and formats of some whole rows.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](../../com.aspose.cells/cells) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | int | Source row index. |
 | destinationRowIndex | int | Destination row index. |
 | rowNumber | int | The copied row number. |
