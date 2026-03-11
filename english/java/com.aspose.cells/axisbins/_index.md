@@ -123,6 +123,10 @@ public boolean isAutomatic()
 
 Indicates whether the axis bins are automatic.
 
+**Remarks**
+
+If [getWidth()](../../com.aspose.cells/axisbins\#getWidth--) or [getCount()](../../com.aspose.cells/axisbins\#getCount--) is called, the value will be false.
+
 **Returns:**
 boolean
 ### isByCategory() {#isByCategory--}
@@ -182,6 +186,10 @@ public void setAutomatic(boolean value)
 
 
 Indicates whether the axis bins are automatic.
+
+**Remarks**
+
+If [getWidth()](../../com.aspose.cells/axisbins\#getWidth--) or [getCount()](../../com.aspose.cells/axisbins\#getCount--) is called, the value will be false.
 
 **Parameters:**
 | Parameter | Type | Description |

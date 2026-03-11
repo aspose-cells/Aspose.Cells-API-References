@@ -53,7 +53,7 @@ Represents the pptx save options.
 | [getPageIndex()](#getPageIndex--) | Gets the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveAsEditableShapes()](#getSaveAsEditableShapes--) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
@@ -96,7 +96,7 @@ Represents the pptx save options.
 | [setPageIndex(int value)](#setPageIndex-int-) | Sets the 0-based index of the first page to save. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSaveAsEditableShapes(boolean value)](#setSaveAsEditableShapes-boolean-) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -574,7 +574,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -1198,7 +1198,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

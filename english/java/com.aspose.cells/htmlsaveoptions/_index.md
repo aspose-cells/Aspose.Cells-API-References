@@ -91,7 +91,7 @@ Represents the options for saving html file.
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
 | [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveAsSingleFile()](#getSaveAsSingleFile--) | Indicates whether save the html as single file. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
@@ -187,7 +187,7 @@ Represents the options for saving html file.
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | Indicates whether save the html as single file. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | Indicates whether showing all sheets when saving as a single html file. |
@@ -988,7 +988,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -2250,7 +2250,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

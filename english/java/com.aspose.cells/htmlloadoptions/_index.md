@@ -52,6 +52,7 @@ Represents options when importing an HTML file.
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [getLocale()](#getLocale--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory mode for loaded workbook. |
+| [getParagrahLayoutMode()](#getParagrahLayoutMode--) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
@@ -95,6 +96,7 @@ Represents options when importing an HTML file.
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the regional settings used for the Workbook that will be loaded. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory mode for loaded workbook. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
+| [setParagrahLayoutMode(int value)](#setParagrahLayoutMode-int-) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
@@ -466,6 +468,18 @@ See [MemorySetting](../../com.aspose.cells/memorysetting).
 **Remarks**
 
 For more details about memory mode, please see [Cells.getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--).
+
+**Returns:**
+int
+### getParagrahLayoutMode() {#getParagrahLayoutMode--}
+```
+public int getParagrahLayoutMode()
+```
+
+
+Specifies how HTML <p> elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.NORMAL](../../com.aspose.cells/htmlparagraphlayoutmode\#NORMAL).
+
+See [HtmlParagraphLayoutMode](../../com.aspose.cells/htmlparagraphlayoutmode).
 
 **Returns:**
 int
@@ -1047,6 +1061,21 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [PaperSizeType](../../com.aspose.cells/papersizetype). The default paper size. |
+
+### setParagrahLayoutMode(int value) {#setParagrahLayoutMode-int-}
+```
+public void setParagrahLayoutMode(int value)
+```
+
+
+Specifies how HTML <p> elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.NORMAL](../../com.aspose.cells/htmlparagraphlayoutmode\#NORMAL).
+
+See [HtmlParagraphLayoutMode](../../com.aspose.cells/htmlparagraphlayoutmode).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setParsingFormulaOnOpen(boolean value) {#setParsingFormulaOnOpen-boolean-}
 ```

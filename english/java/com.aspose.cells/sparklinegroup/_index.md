@@ -273,6 +273,10 @@ Gets the preset style type of the sparkline group.
 
 See [SparklinePresetStyleType](../../com.aspose.cells/sparklinepresetstyletype).
 
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
+
 **Returns:**
 int
 ### getSeriesColor() {#getSeriesColor--}
@@ -651,6 +655,10 @@ public void setPresetStyle(int value)
 Sets the preset style type of the sparkline group.
 
 See [SparklinePresetStyleType](../../com.aspose.cells/sparklinepresetstyletype).
+
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
 
 **Parameters:**
 | Parameter | Type | Description |

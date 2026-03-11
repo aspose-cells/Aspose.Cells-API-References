@@ -38,7 +38,7 @@ Represents the options of saving the workbook as a JSON file.
 | [getExportStylePool()](#getExportStylePool--) | Indicates whether to export styles collectively or individually to each cell. |
 | [getIndent()](#getIndent--) | Indicates the indent. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSchemas()](#getSchemas--) | The original json schema of each worksheet. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
@@ -68,7 +68,7 @@ Represents the options of saving the workbook as a JSON file.
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setIndent(String value)](#setIndent-java.lang.String-) | Indicates the indent. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSchemas(String[] value)](#setSchemas-java.lang.String---) | The original json schema of each worksheet. |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
 | [setSkipEmptyRows(boolean value)](#setSkipEmptyRows-boolean-) | Indicates whether skipping emtpy rows. |
@@ -289,7 +289,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -672,7 +672,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

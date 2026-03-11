@@ -61,6 +61,7 @@ Represents the style of the table.
 
 | Method | Description |
 | --- | --- |
+| [create(String name, WorksheetCollection sheets)](#create-java.lang.String-com.aspose.cells.WorksheetCollection-) | Creates an empty table/pivot table style. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Gets the name of table style. |
@@ -72,6 +73,22 @@ Represents the style of the table.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### create(String name, WorksheetCollection sheets) {#create-java.lang.String-com.aspose.cells.WorksheetCollection-}
+```
+public static TableStyle create(String name, WorksheetCollection sheets)
+```
+
+
+Creates an empty table/pivot table style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of table. |
+| sheets | [WorksheetCollection](../../com.aspose.cells/worksheetcollection) | The [WorksheetCollection](../../com.aspose.cells/worksheetcollection) |
+
+**Returns:**
+[TableStyle](../../com.aspose.cells/tablestyle) - 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

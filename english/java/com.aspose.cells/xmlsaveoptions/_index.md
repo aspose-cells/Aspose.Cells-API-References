@@ -32,7 +32,7 @@ Represents the options of saving the workbook as an xml file.
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
 | [getSheetNameAsElementName()](#getSheetNameAsElementName--) | Indicates whether exporting sheet's name as the name of the element. |
@@ -55,7 +55,7 @@ Represents the options of saving the workbook as an xml file.
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
 | [setSheetNameAsElementName(boolean value)](#setSheetNameAsElementName-boolean-) | Indicates whether exporting sheet's name as the name of the element. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -203,7 +203,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -482,7 +482,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

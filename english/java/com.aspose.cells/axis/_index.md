@@ -231,7 +231,7 @@ See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 **Returns:**
 int
@@ -242,6 +242,10 @@ public AxisBins getBins()
 
 
 Represents bins on a chart(Histogram/Pareto) axis
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
 
 **Returns:**
 [AxisBins](../../com.aspose.cells/axisbins)
@@ -821,7 +825,7 @@ See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 **Parameters:**
 | Parameter | Type | Description |

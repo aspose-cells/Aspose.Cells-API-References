@@ -32,7 +32,7 @@ Represents image save options. For advanced usage, please use [WorkbookRender](.
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getImageOrPrintOptions()](#getImageOrPrintOptions--) | Additional image creation options. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
@@ -49,7 +49,7 @@ Represents image save options. For advanced usage, please use [WorkbookRender](.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the IStreamProvider for exporting objects. |
@@ -206,7 +206,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -420,7 +420,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

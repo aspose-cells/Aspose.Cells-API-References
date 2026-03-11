@@ -45,7 +45,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
@@ -104,7 +104,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
-| [isNeverOverlap()](#isNeverOverlap--) | Indicates whether the datalabels display never overlap. |
+| [isNeverOverlap()](#isNeverOverlap--) | Indicates whether datalabels never overlap when performing Pie Chart to image. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
@@ -112,7 +112,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutoText(boolean value)](#setAutoText-boolean-) | Indicates the text is auto generated. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
@@ -121,7 +121,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of frame in units of ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Sets a reference to the worksheet. |
-| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) | Indicates whether the datalabels display never overlap. |
+| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) | Indicates whether datalabels never overlap when performing Pie Chart to image. |
 | [setNumber(int value)](#setNumber-int-) | Sets the built-in number format. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the DataLabels object. |
 | [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
@@ -224,13 +224,13 @@ public int getBackground()
 ```
 
 
-Gets the display mode of the background
+Gets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -552,6 +552,10 @@ public boolean getShadow()
 
 True if the frame has a shadow.
 
+**Remarks**
+
+Only for charts in xls file.
+
 **Returns:**
 boolean
 ### getShapeProperties() {#getShapeProperties--}
@@ -653,6 +657,10 @@ public String getText()
 
 
 Gets the text of data label.
+
+**Remarks**
+
+Only works when this is a data label of a chart point.
 
 **Returns:**
 java.lang.String
@@ -914,7 +922,7 @@ public boolean isNeverOverlap()
 ```
 
 
-Indicates whether the datalabels display never overlap. (For Pie chart)
+Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
 
 **Returns:**
 boolean
@@ -999,13 +1007,13 @@ public void setBackground(int value)
 ```
 
 
-Sets the display mode of the background
+Sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1138,7 +1146,7 @@ public void setNeverOverlap(boolean value)
 ```
 
 
-Indicates whether the datalabels display never overlap. (For Pie chart)
+Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1300,6 +1308,10 @@ public void setShadow(boolean value)
 
 True if the frame has a shadow.
 
+**Remarks**
+
+Only for charts in xls file.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1418,6 +1430,10 @@ public void setText(String value)
 
 
 Sets the text of data label.
+
+**Remarks**
+
+Only works when this is a data label of a chart point.
 
 **Parameters:**
 | Parameter | Type | Description |

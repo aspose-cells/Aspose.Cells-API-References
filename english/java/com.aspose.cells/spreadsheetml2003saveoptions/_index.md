@@ -33,7 +33,7 @@ Represents the options for saving Excel 2003 spreadml file.
 | [getExportColumnIndexOfCell()](#getExportColumnIndexOfCell--) | The default value is false, it means that column index will be ignored if the cell is contiguous to the previous cell. |
 | [getLimitAsXls()](#getLimitAsXls--) | Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
@@ -53,7 +53,7 @@ Represents the options for saving Excel 2003 spreadml file.
 | [setIndentedFormatting(boolean value)](#setIndentedFormatting-boolean-) | Causes child elements to be indented. |
 | [setLimitAsXls(boolean value)](#setLimitAsXls-boolean-) | Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
@@ -215,7 +215,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -472,7 +472,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

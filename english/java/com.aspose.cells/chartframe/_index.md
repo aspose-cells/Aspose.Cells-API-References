@@ -20,8 +20,8 @@ Encapsulates the object that represents the frame object in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background. |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -58,8 +58,8 @@ Encapsulates the object that represents the frame object in a chart.
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
 | [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of frame in units of ratio of the chart area. |
@@ -120,13 +120,13 @@ public int getBackground()
 ```
 
 
-Gets the display mode of the background
+Gets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -136,9 +136,13 @@ public int getBackgroundMode()
 ```
 
 
-Gets the display mode of the background
+Gets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since February 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -323,6 +327,10 @@ public boolean getShadow()
 
 
 True if the frame has a shadow.
+
+**Remarks**
+
+Only for charts in xls file.
 
 **Returns:**
 boolean
@@ -566,13 +574,13 @@ public void setBackground(int value)
 ```
 
 
-Sets the display mode of the background
+Sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,9 +593,13 @@ public void setBackgroundMode(int value)
 ```
 
 
-Sets the display mode of the background
+Sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since February 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,6 +685,10 @@ public void setShadow(boolean value)
 
 
 True if the frame has a shadow.
+
+**Remarks**
+
+Only for charts in xls file.
 
 **Parameters:**
 | Parameter | Type | Description |

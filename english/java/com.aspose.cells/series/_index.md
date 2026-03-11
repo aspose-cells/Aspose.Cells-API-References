@@ -422,7 +422,11 @@ public boolean getHas3DEffect()
 ```
 
 
-True if the series has a three-dimensional appearance. Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
+
+**Remarks**
+
+Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D) charts.
 
 **Returns:**
 boolean
@@ -452,7 +456,7 @@ public Line getLeaderLines()
 ```
 
 
-Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn\\u9225\\u6a9b a collection; there\\u9225\\u6a9a no object that represents a single leader line.
+Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -1041,7 +1045,11 @@ public void setHas3DEffect(boolean value)
 ```
 
 
-True if the series has a three-dimensional appearance. Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
+
+**Remarks**
+
+Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D) charts.
 
 **Parameters:**
 | Parameter | Type | Description |
