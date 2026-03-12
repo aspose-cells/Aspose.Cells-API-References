@@ -63,6 +63,12 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [name](#name--)| string | Readonly. Gets the name of table style. |
 | [tableStyleElements](#tableStyleElements--)| TableStyleElementCollection | Readonly. Gets all elements of the table style. |
 
+## Methods
+
+| Method | Description |
+| --- | --- |
+| static [create(string, WorksheetCollection)](#create-string-worksheetcollection-)| Creates an empty table/pivot table style. |
+
 
 ### name {#name--}
 
@@ -81,5 +87,23 @@ Readonly. Gets all elements of the table style.
 tableStyleElements : TableStyleElementCollection;
 ```
 
+
+### create(string, WorksheetCollection) {#create-string-worksheetcollection-}
+
+Creates an empty table/pivot table style.
+
+```javascript
+static create(name: string, sheets: WorksheetCollection) : TableStyle;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of table. |
+| sheets | [WorksheetCollection](../worksheetcollection/) | The [WorksheetCollection](../worksheetcollection/) |
+
+**Returns**
+
+[TableStyle](../tablestyle/)
 
 
