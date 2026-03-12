@@ -53,7 +53,7 @@ class PaginatedSaveOptions extends SaveOptions;
 | [createDirectory](#createDirectory--)| boolean | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [sortNames](#sortNames--)| boolean | Indicates whether sorting defined names before saving file. |
 | [sortExternalNames](#sortExternalNames--)| boolean | Indicates whether sorting external defined names before saving file. |
-| [refreshChartCache](#refreshChartCache--)| boolean | Indicates whether refreshing chart cache data |
+| [refreshChartCache](#refreshChartCache--)| boolean | Indicates whether to cache the latest data of the chart. |
 | [warningCallback](#warningCallback--)| IWarningCallback | Gets or sets warning callback. |
 | [checkExcelRestriction](#checkExcelRestriction--)| boolean | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [updateSmartArt](#updateSmartArt--)| boolean | Indicates whether updating smart art setting. The default value is false. |
@@ -119,8 +119,8 @@ class PaginatedSaveOptions extends SaveOptions;
 | [setSortNames(boolean)](#setSortNames-boolean-)| <b>@deprecated.</b> Please use the 'sortNames' property instead. Indicates whether sorting defined names before saving file. |
 | [getSortExternalNames()](#getSortExternalNames--)| <b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file. |
 | [setSortExternalNames(boolean)](#setSortExternalNames-boolean-)| <b>@deprecated.</b> Please use the 'sortExternalNames' property instead. Indicates whether sorting external defined names before saving file. |
-| [getRefreshChartCache()](#getRefreshChartCache--)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data |
-| [setRefreshChartCache(boolean)](#setRefreshChartCache-boolean-)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether to cache the latest data of the chart. |
+| [setRefreshChartCache(boolean)](#setRefreshChartCache-boolean-)| <b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether to cache the latest data of the chart. |
 | [setWarningCallback(IWarningCallback)](#setWarningCallback-iwarningcallback-)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
 | [getWarningCallback()](#getWarningCallback--)| <b>@deprecated.</b> Please use the 'warningCallback' property instead. Gets or sets warning callback. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--)| <b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
@@ -458,7 +458,7 @@ sortExternalNames : boolean;
 
 ### refreshChartCache {#refreshChartCache--}
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 ```javascript
 refreshChartCache : boolean;
@@ -1287,7 +1287,7 @@ setSortExternalNames(value: boolean) : void;
 
 ### getRefreshChartCache() {#getRefreshChartCache--}
 
-<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data
+<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether to cache the latest data of the chart.
 
 ```javascript
 getRefreshChartCache() : boolean;
@@ -1296,7 +1296,7 @@ getRefreshChartCache() : boolean;
 
 ### setRefreshChartCache(boolean) {#setRefreshChartCache-boolean-}
 
-<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether refreshing chart cache data
+<b>@deprecated.</b> Please use the 'refreshChartCache' property instead. Indicates whether to cache the latest data of the chart.
 
 ```javascript
 setRefreshChartCache(value: boolean) : void;

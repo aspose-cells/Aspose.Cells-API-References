@@ -70,6 +70,7 @@ workbook.save("output/TablesTableStyle.xlsx");
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets the name of table style. |
 | [getTableStyleElements()](#getTableStyleElements--)| <b>@deprecated.</b> Please use the 'tableStyleElements' property instead. Gets all elements of the table style. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| static [create(string, WorksheetCollection)](#create-string-worksheetcollection-)| Creates an empty table/pivot table style. |
 
 
 ### name {#name--}
@@ -120,5 +121,23 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### create(string, WorksheetCollection) {#create-string-worksheetcollection-}
+
+Creates an empty table/pivot table style.
+
+```javascript
+static create(name: string, sheets: WorksheetCollection) : TableStyle;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of table. |
+| sheets | [WorksheetCollection](../worksheetcollection/) | The [WorksheetCollection](../worksheetcollection/) |
+
+**Returns**
+
+[TableStyle](../tablestyle/)
 
 
