@@ -4,7 +4,7 @@ linktitle: DataLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels class. Encapsulates a collection of all the DataLabel objects for the specified Series in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.charts/datalabels/
 ---
 ## DataLabels class
@@ -33,6 +33,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [Get_NumberFormat()](./get_numberformat/) | Represents the format string for the [DataLabels](./) object. |
 | [GetArea()](./getarea/) | Gets the [area](../). |
 | [GetAutoScaleFont()](../chartframe/getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBackgroundMode()](./getbackgroundmode/) | Gets and sets the display mode of the background. |
 | [GetBorder()](./getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
@@ -85,7 +86,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [IsNeverOverlap()](./isneveroverlap/) | Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [IsNeverOverlap()](./isneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsResizeShapeToFitText()](../charttextframe/isresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [IsTextWrapped()](./istextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
@@ -94,6 +95,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [operator=(const ChartTextFrame\& src)](../charttextframe/operator_asm/) | operator= |
 | [operator=(const ChartFrame\& src)](../chartframe/operator_asm/) | operator= |
 | [SetAutoScaleFont(bool value)](../chartframe/setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
+| [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetBackgroundMode(BackgroundMode value)](./setbackgroundmode/) | Gets and sets the display mode of the background. |
 | [SetDirectionType(ChartTextDirectionType value)](./setdirectiontype/) | Gets and sets the direction of text. |
 | [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
@@ -103,7 +105,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetIsAutoText(bool value)](./setisautotext/) | Indicates the text is auto generated. |
 | [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels is deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [SetIsNeverOverlap(bool value)](./setisneveroverlap/) | Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [SetIsNeverOverlap(bool value)](./setisneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
 | [SetLinkedSource(const U16String\& value)](../charttextframe/setlinkedsource/) | Gets and sets a reference to the worksheet. |

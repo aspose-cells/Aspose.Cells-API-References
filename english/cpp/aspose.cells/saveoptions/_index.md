@@ -4,7 +4,7 @@ linktitle: SaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SaveOptions class. Represents all save options in C++.'
 type: docs
-weight: 13200
+weight: 13300
 url: /cpp/aspose.cells/saveoptions/
 ---
 ## SaveOptions class
@@ -26,7 +26,7 @@ class SaveOptions
 | [GetCreateDirectory()](./getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncryptDocumentProperties()](./getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetMergeAreas()](./getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](./getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](./getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](./getsaveformat/) | Gets the save file format. |
 | [GetSortExternalNames()](./getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](./getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -45,7 +45,7 @@ class SaveOptions
 | [SetCreateDirectory(bool value)](./setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncryptDocumentProperties(bool value)](./setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetMergeAreas(bool value)](./setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](./setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](./setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSortExternalNames(bool value)](./setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](./setsortnames/) | Indicates whether sorting defined names before saving file. |
 | [SetUpdateSmartArt(bool value)](./setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |

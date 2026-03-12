@@ -20,6 +20,8 @@ class TableStyle
 
 | Method | Description |
 | --- | --- |
+| static [Create(const U16String\& name, const WorksheetCollection\& sheets)](./create/) | Creates an empty table/pivot table style. |
+| static [Create(const char16_t* name, const WorksheetCollection\& sheets)](./create/) | Creates an empty table/pivot table style. |
 | [GetName()](./getname/) | Gets the name of table style. |
 | [GetTableStyleElements()](./gettablestyleelements/) | Gets all elements of the table style. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

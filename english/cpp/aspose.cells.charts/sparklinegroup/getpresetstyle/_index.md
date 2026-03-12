@@ -16,6 +16,10 @@ Gets and sets the preset style type of the sparkline group.
 SparklinePresetStyleType Aspose::Cells::Charts::SparklineGroup::GetPresetStyle()
 ```
 
+## Remarks
+
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others. 
 ## See Also
 
 * Enum [SparklinePresetStyleType](../../sparklinepresetstyletype/)

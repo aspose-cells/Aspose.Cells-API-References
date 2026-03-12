@@ -41,6 +41,7 @@ url: /cpp/aspose.cells.rendering/
 | [DrawObjectEnum](./drawobjectenum/) | Indicate [Cell](../aspose.cells/cell/) or Image of [DrawObject](./drawobject/). |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |
+| [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. |
 | [PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility. |
 | [PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. |

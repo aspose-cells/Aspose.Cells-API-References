@@ -19,7 +19,7 @@ void Aspose::Cells::Charts::Axis::SetBaseUnitScale(TimeUnit value)
 ## Remarks
 
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 ## See Also
 
 * Enum [TimeUnit](../../timeunit/)

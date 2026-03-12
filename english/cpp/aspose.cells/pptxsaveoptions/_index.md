@@ -48,7 +48,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPageIndex()](../paginatedsaveoptions/getpageindex/) | Gets or sets the 0-based index of the first page to save. |
 | [GetPageSavingCallback()](../paginatedsaveoptions/getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveAsEditableShapes()](./getsaveaseditableshapes/) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
@@ -105,7 +105,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetPageIndex(int32_t value)](../paginatedsaveoptions/setpageindex/) | Gets or sets the 0-based index of the first page to save. |
 | [SetPageSavingCallback(IPageSavingCallback* value)](../paginatedsaveoptions/setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](../paginatedsaveoptions/setprintingpagetype/) | Indicates which pages will not be printed. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSaveAsEditableShapes(bool value)](./setsaveaseditableshapes/) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

@@ -16,6 +16,10 @@ Gets or sets the text of data label.
 U16String Aspose::Cells::Charts::DataLabels::GetText()
 ```
 
+## Remarks
+
+
+Only works when this is a data label of a chart point. 
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

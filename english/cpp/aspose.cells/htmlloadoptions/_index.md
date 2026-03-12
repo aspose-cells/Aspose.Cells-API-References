@@ -48,6 +48,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetLoadFormulas()](./getloadformulas/) | Indicates whether importing formulas if the original html file contains formulas. |
 | [GetLoadStyleStrategy()](../abstracttextloadoptions/getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
+| [GetParagrahLayoutMode()](./getparagrahlayoutmode/) | Specifies how HTML <p> elements are rendered when loading HTML. The default value is HtmlParagraphLayoutMode.Normal. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [GetPassword()](../loadoptions/getpassword/) | Gets and set the password of the workbook. |
@@ -95,6 +96,7 @@ class HtmlLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetLoadStyleStrategy(TxtLoadStyleStrategy value)](../abstracttextloadoptions/setloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory mode for loaded workbook. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
+| [SetParagrahLayoutMode(HtmlParagraphLayoutMode value)](./setparagrahlayoutmode/) | Specifies how HTML <p> elements are rendered when loading HTML. The default value is HtmlParagraphLayoutMode.Normal. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [SetParsingPivotCachedRecords(bool value)](../loadoptions/setparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [SetPassword(const U16String\& value)](../loadoptions/setpassword/) | Gets and set the password of the workbook. |

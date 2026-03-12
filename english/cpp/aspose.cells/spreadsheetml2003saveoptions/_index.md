@@ -4,7 +4,7 @@ linktitle: SpreadsheetML2003SaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SpreadsheetML2003SaveOptions class. Represents the options for saving Excel 2003 spreadml file in C++.'
 type: docs
-weight: 14000
+weight: 14100
 url: /cpp/aspose.cells/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions class
@@ -28,7 +28,7 @@ class SpreadsheetML2003SaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportColumnIndexOfCell()](./getexportcolumnindexofcell/) | The default value is false, it means that column index will be ignored if the cell is contiguous to the previous cell. |
 | [GetLimitAsXls()](./getlimitasxls/) | Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -52,7 +52,7 @@ class SpreadsheetML2003SaveOptions : public Aspose::Cells::SaveOptions
 | [SetIsIndentedFormatting(bool value)](./setisindentedformatting/) | Causes child elements to be indented. |
 | [SetLimitAsXls(bool value)](./setlimitasxls/) | Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |

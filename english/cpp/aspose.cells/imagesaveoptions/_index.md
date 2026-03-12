@@ -27,7 +27,7 @@ class ImageSaveOptions : public Aspose::Cells::SaveOptions
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetImageOrPrintOptions()](./getimageorprintoptions/) | Additional image creation options. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -52,7 +52,7 @@ class ImageSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |

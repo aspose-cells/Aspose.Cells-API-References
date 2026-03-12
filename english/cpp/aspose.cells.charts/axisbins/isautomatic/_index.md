@@ -16,6 +16,10 @@ Indicates whether the axis bins are automatic.
 bool Aspose::Cells::Charts::AxisBins::IsAutomatic()
 ```
 
+## Remarks
+
+
+If Width or [Count](../../../aspose.cells/consolidationfunction/) is called, the value will be false. 
 ## See Also
 
 * Class [AxisBins](../)

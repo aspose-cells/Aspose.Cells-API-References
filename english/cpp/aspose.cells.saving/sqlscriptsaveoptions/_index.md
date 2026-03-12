@@ -37,7 +37,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [GetMergeAreas()](../../aspose.cells/saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOperatorType()](./getoperatortype/) | Gets and sets the operator type of sql. |
 | [GetPrimaryKey()](./getprimarykey/) | Represents which column is primary key of the data table. |
-| [GetRefreshChartCache()](../../aspose.cells/saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../../aspose.cells/saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../../aspose.cells/saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSeparator()](./getseparator/) | Gets and sets character separator of sql script. |
 | [GetSheetIndexes()](./getsheetindexes/) | Represents the indexes of exported sheets. |
@@ -73,7 +73,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [SetMergeAreas(bool value)](../../aspose.cells/saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetOperatorType(SqlScriptOperatorType value)](./setoperatortype/) | Gets and sets the operator type of sql. |
 | [SetPrimaryKey(int32_t value)](./setprimarykey/) | Represents which column is primary key of the data table. |
-| [SetRefreshChartCache(bool value)](../../aspose.cells/saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../../aspose.cells/saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSeparator(char16_t value)](./setseparator/) | Gets and sets character separator of sql script. |
 | [SetSheetIndexes(const Vector \<int32_t\>\& value)](./setsheetindexes/) | Represents the indexes of exported sheets. |
 | [SetSortExternalNames(bool value)](../../aspose.cells/saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

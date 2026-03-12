@@ -27,7 +27,8 @@ class ChartArea : public Aspose::Cells::Charts::ChartFrame
 | [ChartFrame(const ChartFrame\& src)](../chartframe/chartframe/) | Copy constructor. |
 | [GetArea()](../chartframe/getarea/) | Gets the [area](../). |
 | [GetAutoScaleFont()](../chartframe/getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [GetBackgroundMode()](../chartframe/getbackgroundmode/) | Gets and sets the display mode of the background. |
+| [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
 | [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
@@ -61,7 +62,8 @@ class ChartArea : public Aspose::Cells::Charts::ChartFrame
 | [operator=(const ChartArea\& src)](./operator_asm/) | operator= |
 | [operator=(const ChartFrame\& src)](../chartframe/operator_asm/) | operator= |
 | [SetAutoScaleFont(bool value)](../chartframe/setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) | Gets and sets the display mode of the background. |
+| [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetHeight(int32_t value)](./setheight/) |  **(Deprecated)** Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
 | [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |
 | [SetHeightRatioToChart(double value)](./setheightratiotochart/) | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |

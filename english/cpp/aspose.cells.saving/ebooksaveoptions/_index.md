@@ -89,7 +89,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetPageTitle()](../../aspose.cells/htmlsaveoptions/getpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [GetParseHtmlTagInCell()](../../aspose.cells/htmlsaveoptions/getparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |
 | [GetPresentationPreference()](../../aspose.cells/htmlsaveoptions/getpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
-| [GetRefreshChartCache()](../../aspose.cells/saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../../aspose.cells/saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveAsSingleFile()](../../aspose.cells/htmlsaveoptions/getsaveassinglefile/) | Indicates whether save the html as single file. The default value is false. |
 | [GetSaveFormat()](../../aspose.cells/saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](../../aspose.cells/htmlsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
@@ -199,7 +199,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetPageTitle(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetParseHtmlTagInCell(bool value)](../../aspose.cells/htmlsaveoptions/setparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |
 | [SetPresentationPreference(bool value)](../../aspose.cells/htmlsaveoptions/setpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
-| [SetRefreshChartCache(bool value)](../../aspose.cells/saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../../aspose.cells/saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSaveAsSingleFile(bool value)](../../aspose.cells/htmlsaveoptions/setsaveassinglefile/) | Indicates whether save the html as single file. The default value is false. |
 | [SetSheetSet(const SheetSet\& value)](../../aspose.cells/htmlsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetShowAllSheets(bool value)](../../aspose.cells/htmlsaveoptions/setshowallsheets/) | Indicates whether showing all sheets when saving as a single html file. |

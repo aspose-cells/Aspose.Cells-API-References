@@ -4,7 +4,7 @@ linktitle: Title
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Title class. Encapsulates the object that represents the title of chart or axis in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.charts/title/
 ---
 ## Title class
@@ -29,7 +29,8 @@ class Title : public Aspose::Cells::Charts::ChartTextFrame
 | [ChartTextFrame(const ChartFrame\& src)](../charttextframe/charttextframe/) | Constructs from a parent object. |
 | [GetArea()](../chartframe/getarea/) | Gets the [area](../). |
 | [GetAutoScaleFont()](../chartframe/getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [GetBackgroundMode()](../chartframe/getbackgroundmode/) | Gets and sets the display mode of the background. |
+| [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
 | [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
@@ -78,7 +79,8 @@ class Title : public Aspose::Cells::Charts::ChartTextFrame
 | [operator=(const ChartTextFrame\& src)](../charttextframe/operator_asm/) | operator= |
 | [operator=(const ChartFrame\& src)](../chartframe/operator_asm/) | operator= |
 | [SetAutoScaleFont(bool value)](../chartframe/setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) | Gets and sets the display mode of the background. |
+| [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetDirectionType(ChartTextDirectionType value)](../charttextframe/setdirectiontype/) | Gets and sets the direction of text. |
 | [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
 | [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |

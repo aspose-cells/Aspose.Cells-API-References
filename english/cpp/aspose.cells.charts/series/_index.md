@@ -35,7 +35,7 @@ class Series
 | [GetExplosion()](./getexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [GetFirstSliceAngle()](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
 | [GetGapWidth()](./getgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
-| [GetHas3DEffect()](./gethas3deffect/) | True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [GetHas3DEffect()](./gethas3deffect/) | True if the series has a three-dimensional appearance. |
 | [GetHasDropLines()](./gethasdroplines/) | True if the chart has drop lines. Applies only to line chart or area charts. |
 | [GetHasHiLoLines()](./gethashilolines/) | True if the line chart has high-low lines. Applies only to line charts. |
 | [GetHasLeaderLines()](./gethasleaderlines/) | True if the series has leader lines. |
@@ -44,7 +44,7 @@ class Series
 | [GetHasUpDownBars()](./gethasupdownbars/) | True if a line chart has up and down bars. Applies only to line charts. |
 | [GetHiLoLines()](./gethilolines/) | Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts. |
 | [GetLayoutProperties()](./getlayoutproperties/) | Represents the properties of layout. |
-| [GetLeaderLines()](./getleaderlines/) | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
+| [GetLeaderLines()](./getleaderlines/) | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
 | [GetLegendEntry()](./getlegendentry/) | Gets the legend entry according to this series. |
 | [GetMarker()](./getmarker/) | Gets the [marker](../marker/). |
 | [GetName()](./getname/) | Gets or sets the name of the data series. |
@@ -88,7 +88,7 @@ class Series
 | [SetExplosion(int32_t value)](./setexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [SetFirstSliceAngle(int16_t value)](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
 | [SetGapWidth(int16_t value)](./setgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
-| [SetHas3DEffect(bool value)](./sethas3deffect/) | True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [SetHas3DEffect(bool value)](./sethas3deffect/) | True if the series has a three-dimensional appearance. |
 | [SetHasDropLines(bool value)](./sethasdroplines/) | True if the chart has drop lines. Applies only to line chart or area charts. |
 | [SetHasHiLoLines(bool value)](./sethashilolines/) | True if the line chart has high-low lines. Applies only to line charts. |
 | [SetHasLeaderLines(bool value)](./sethasleaderlines/) | True if the series has leader lines. |

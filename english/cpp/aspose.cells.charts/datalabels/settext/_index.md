@@ -16,6 +16,10 @@ Gets or sets the text of data label.
 void Aspose::Cells::Charts::DataLabels::SetText(const U16String &value)
 ```
 
+## Remarks
+
+
+Only works when this is a data label of a chart point. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -32,6 +36,10 @@ Gets or sets the text of data label.
 void Aspose::Cells::Charts::DataLabels::SetText(const char16_t *value)
 ```
 
+## Remarks
+
+
+Only works when this is a data label of a chart point. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
