@@ -19,8 +19,8 @@ public class ChartFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area/) { get; } | Gets the [`area`](./area/). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | Gets and sets the display mode of the background |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Gets the [`border`](../../aspose.cells.drawing/line/). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of default position in units of 1/4000 of the chart area. |
 | [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents height of default position in units of Fraction of the chart area. |

@@ -19,8 +19,8 @@ public class PlotArea : ChartFrame
 | --- | --- |
 | virtual [Area](../../aspose.cells.charts/chartframe/area/) { get; } | Gets the [`area`](../chartframe/area/).(Inherited from [`ChartFrame`](../chartframe/).) |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background(Inherited from [`ChartFrame`](../chartframe/).) |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | Gets and sets the display mode of the background(Inherited from [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.(Inherited from [`ChartFrame`](../chartframe/).) |
 | virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Gets the [`border`](../../aspose.cells.drawing/line/).(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents height of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
@@ -42,7 +42,7 @@ public class PlotArea : ChartFrame
 | [InnerXRatioToChart](../../aspose.cells.charts/plotarea/innerxratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
 | [InnerY](../../aspose.cells.charts/plotarea/innery/) { get; set; } | (**Obsolete.**) Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [InnerYRatioToChart](../../aspose.cells.charts/plotarea/inneryratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize/) { get; set; } |  |
+| override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize/) { get; set; } | Indicates whether the plot area is automatic sized. |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |

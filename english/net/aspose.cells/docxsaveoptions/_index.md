@@ -51,7 +51,7 @@ public class DocxSaveOptions : PaginatedSaveOptions
 | [PageIndex](../../aspose.cells/paginatedsaveoptions/pageindex/) { get; set; } | Gets or sets the 0-based index of the first page to save.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [PageSavingCallback](../../aspose.cells/paginatedsaveoptions/pagesavingcallback/) { get; set; } | Control/Indicate progress of page saving process.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [PrintingPageType](../../aspose.cells/paginatedsaveoptions/printingpagetype/) { get; set; } | Indicates which pages will not be printed.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveAsEditableShapes](../../aspose.cells/docxsaveoptions/saveaseditableshapes/) { get; set; } | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [SaveAsEditableShaps](../../aspose.cells/docxsaveoptions/saveaseditableshaps/) { get; set; } | (**Obsolete.**) Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [SaveElementType](../../aspose.cells/docxsaveoptions/saveelementtype/) { get; set; } | Indicates which elements should be saved. |

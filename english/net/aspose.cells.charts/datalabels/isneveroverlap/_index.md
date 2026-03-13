@@ -1,13 +1,13 @@
 ---
 title: DataLabels.IsNeverOverlap
 second_title: Aspose.Cells for .NET API Reference
-description: DataLabels property. Indicates whether the datalabels display never overlap. For Pie chart
+description: DataLabels property. Indicates whether datalabels never overlap when performing Pie Chart to image. Note this property is only meaningful when Pie Chart to image
 type: docs
 url: /net/aspose.cells.charts/datalabels/isneveroverlap/
 ---
 ## DataLabels.IsNeverOverlap property
 
-Indicates whether the datalabels display never overlap. (For Pie chart)
+Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
 
 ```csharp
 public bool IsNeverOverlap { get; set; }

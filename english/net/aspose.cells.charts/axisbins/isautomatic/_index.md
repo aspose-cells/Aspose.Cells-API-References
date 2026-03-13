@@ -13,6 +13,10 @@ Indicates whether the axis bins are automatic.
 public bool IsAutomatic { get; set; }
 ```
 
+### Remarks
+
+If [`Width`](../width/) or [`Count`](../count/) is called, the value will be false.
+
 ### Examples
 
 ```csharp

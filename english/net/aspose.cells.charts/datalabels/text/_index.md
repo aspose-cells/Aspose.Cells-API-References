@@ -13,6 +13,10 @@ Gets or sets the text of data label.
 public override string Text { get; set; }
 ```
 
+### Remarks
+
+Only works when this is a data label of a chart point.
+
 ### Examples
 
 ```csharp

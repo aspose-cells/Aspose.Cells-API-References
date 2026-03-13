@@ -19,7 +19,7 @@ public class DataLabels : ChartTextFrame
 | --- | --- |
 | override [Area](../../aspose.cells.charts/datalabels/area/) { get; } | Gets the [`area`](./area/). |
 | virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background(Inherited from [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [BackgroundMode](../../aspose.cells.charts/datalabels/backgroundmode/) { get; set; } | Gets and sets the display mode of the background |
 | override [Border](../../aspose.cells.charts/datalabels/border/) { get; } | Gets the [`border`](../../aspose.cells.drawing/line/). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
@@ -41,7 +41,7 @@ public class DataLabels : ChartTextFrame
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data labels is deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap/) { get; set; } | Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap/) { get; set; } | Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
 | [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | override [IsTextWrapped](../../aspose.cells.charts/datalabels/istextwrapped/) { get; set; } | Gets or sets a value indicating whether the text is wrapped. |
 | virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | Gets and sets a reference to the worksheet.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
