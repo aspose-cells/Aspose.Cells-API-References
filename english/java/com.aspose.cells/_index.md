@@ -326,6 +326,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlLinkTargetType](../com.aspose.cells/htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
 | [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing an HTML file. |
 | [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
+| [HtmlParagraphLayoutMode](../com.aspose.cells/htmlparagraphlayoutmode) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when importing a table from HTML. |
 | [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing HTML. |

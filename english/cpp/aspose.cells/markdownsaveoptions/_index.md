@@ -36,7 +36,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetLineSeparator()](./getlineseparator/) | Gets and sets the line separator. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOfficeMathOutputType()](./getofficemathoutputtype/) | Indicates how OfficeMath objects are exported to [Markdown](../../aspose.cells.markdown/), Default value is Image. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -73,7 +73,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetLineSeparator(const char16_t* value)](./setlineseparator/) | Gets and sets the line separator. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetOfficeMathOutputType(HtmlOfficeMathOutputType value)](./setofficemathoutputtype/) | Indicates how OfficeMath objects are exported to [Markdown](../../aspose.cells.markdown/), Default value is Image. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

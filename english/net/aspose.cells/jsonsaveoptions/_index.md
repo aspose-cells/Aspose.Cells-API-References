@@ -38,7 +38,7 @@ public class JsonSaveOptions : SaveOptions
 | [HasHeaderRow](../../aspose.cells/jsonsaveoptions/hasheaderrow/) { get; set; } | Indicates whether the range contains header row. |
 | [Indent](../../aspose.cells/jsonsaveoptions/indent/) { get; set; } | Indicates the indent. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Schemas](../../aspose.cells/jsonsaveoptions/schemas/) { get; set; } | The original json schema of each worksheet. |
 | [SheetIndexes](../../aspose.cells/jsonsaveoptions/sheetindexes/) { get; set; } | Represents the indexes of exported sheets. |

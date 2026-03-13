@@ -647,6 +647,7 @@ is_root: true
 | [HtmlLayoutMode](./htmllayoutmode) | Represents the layout mode for HTML rendering. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
+| [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. |
 | [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |

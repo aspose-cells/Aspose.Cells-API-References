@@ -40,7 +40,7 @@ Represents the options of saving sql.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOperatorType()](#getOperatorType--) | Gets the operator type of sql. |
 | [getPrimaryKey()](#getPrimaryKey--) | Represents which column is primary key of the data table. |
-| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSeparator()](#getSeparator--) | Gets character separator of sql script. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
@@ -72,7 +72,7 @@ Represents the options of saving sql.
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setOperatorType(int value)](#setOperatorType-int-) | Sets the operator type of sql. |
 | [setPrimaryKey(int value)](#setPrimaryKey-int-) | Represents which column is primary key of the data table. |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
 | [setSeparator(char value)](#setSeparator-char-) | Sets character separator of sql script. |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -315,7 +315,7 @@ public boolean getRefreshChartCache()
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
@@ -730,7 +730,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

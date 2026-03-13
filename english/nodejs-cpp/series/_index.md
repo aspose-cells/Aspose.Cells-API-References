@@ -93,7 +93,7 @@ workbook.save("output/ChartsSeries.xls");
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
 | [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
 | [shadow](#shadow--)| boolean | True if the series has a shadow. |
-| [has3DEffect](#has3DEffect--)| boolean | True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [has3DEffect](#has3DEffect--)| boolean | True if the series has a three-dimensional appearance. |
 | [bar3DShapeType](#bar3DShapeType--)| Bar3DShapeType | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [dataLabels](#dataLabels--)| DataLabels | Readonly. Represents the DataLabels object for the specified ASeries. |
 | [type](#type--)| ChartType | Gets or sets a data series' type. |
@@ -125,7 +125,7 @@ workbook.save("output/ChartsSeries.xls");
 | [explosion](#explosion--)| number | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [hasRadarAxisLabels](#hasRadarAxisLabels--)| boolean | True if a radar chart has category axis labels. Applies only to radar charts. |
 | [hasLeaderLines](#hasLeaderLines--)| boolean | True if the series has leader lines. |
-| [leaderLines](#leaderLines--)| Line | Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
+| [leaderLines](#leaderLines--)| Line | Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
 | [legendEntry](#legendEntry--)| LegendEntry | Readonly. Gets the legend entry according to this series. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series. |
 
@@ -161,8 +161,8 @@ workbook.save("output/ChartsSeries.xls");
 | [setSmooth(boolean)](#setSmooth-boolean-)| <b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
 | [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the series has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the series has a shadow. |
-| [getHas3DEffect()](#getHas3DEffect--)| <b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. Applies only to bubble charts. |
-| [setHas3DEffect(boolean)](#setHas3DEffect-boolean-)| <b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [getHas3DEffect()](#getHas3DEffect--)| <b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. |
+| [setHas3DEffect(boolean)](#setHas3DEffect-boolean-)| <b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. |
 | [getBar3DShapeType()](#getBar3DShapeType--)| <b>@deprecated.</b> Please use the 'bar3DShapeType' property instead. Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [setBar3DShapeType(Bar3DShapeType)](#setBar3DShapeType-bar3dshapetype-)| <b>@deprecated.</b> Please use the 'bar3DShapeType' property instead. Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [getDataLabels()](#getDataLabels--)| <b>@deprecated.</b> Please use the 'dataLabels' property instead. Represents the DataLabels object for the specified ASeries. |
@@ -215,7 +215,7 @@ workbook.save("output/ChartsSeries.xls");
 | [setHasRadarAxisLabels(boolean)](#setHasRadarAxisLabels-boolean-)| <b>@deprecated.</b> Please use the 'hasRadarAxisLabels' property instead. True if a radar chart has category axis labels. Applies only to radar charts. |
 | [getHasLeaderLines()](#getHasLeaderLines--)| <b>@deprecated.</b> Please use the 'hasLeaderLines' property instead. True if the series has leader lines. |
 | [setHasLeaderLines(boolean)](#setHasLeaderLines-boolean-)| <b>@deprecated.</b> Please use the 'hasLeaderLines' property instead. True if the series has leader lines. |
-| [getLeaderLines()](#getLeaderLines--)| <b>@deprecated.</b> Please use the 'leaderLines' property instead. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
+| [getLeaderLines()](#getLeaderLines--)| <b>@deprecated.</b> Please use the 'leaderLines' property instead. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
 | [getLegendEntry()](#getLegendEntry--)| <b>@deprecated.</b> Please use the 'legendEntry' property instead. Gets the legend entry according to this series. |
 | [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series. |
 | [move(number)](#move-number-)| Moves the series up or down. |
@@ -434,12 +434,16 @@ shadow : boolean;
 
 ### has3DEffect {#has3DEffect--}
 
-True if the series has a three-dimensional appearance. Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
 
 ```javascript
 has3DEffect : boolean;
 ```
 
+
+**Remarks**
+
+Applies only to [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/) charts.
 
 ### bar3DShapeType {#bar3DShapeType--}
 
@@ -726,7 +730,7 @@ hasLeaderLines : boolean;
 
 ### leaderLines {#leaderLines--}
 
-Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line.
+Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line.
 
 ```javascript
 leaderLines : Line;
@@ -1097,16 +1101,20 @@ setShadow(value: boolean) : void;
 
 ### getHas3DEffect() {#getHas3DEffect--}
 
-<b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. Applies only to bubble charts.
+<b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance.
 
 ```javascript
 getHas3DEffect() : boolean;
 ```
 
 
+**Remarks**
+
+Applies only to [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/) charts.
+
 ### setHas3DEffect(boolean) {#setHas3DEffect-boolean-}
 
-<b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. Applies only to bubble charts.
+<b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance.
 
 ```javascript
 setHas3DEffect(value: boolean) : void;
@@ -1116,6 +1124,10 @@ setHas3DEffect(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Applies only to [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/) charts.
 
 ### getBar3DShapeType() {#getBar3DShapeType--}
 
@@ -1731,7 +1743,7 @@ setHasLeaderLines(value: boolean) : void;
 
 ### getLeaderLines() {#getLeaderLines--}
 
-<b>@deprecated.</b> Please use the 'leaderLines' property instead. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line.
+<b>@deprecated.</b> Please use the 'leaderLines' property instead. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line.
 
 ```javascript
 getLeaderLines() : Line;

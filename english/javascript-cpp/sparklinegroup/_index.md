@@ -63,6 +63,10 @@ presetStyle : SparklinePresetStyleType;
 ```
 
 
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
+
 ### sparklines {#sparklines--}
 
 Readonly. Gets the collection of [Sparkline](../sparkline/) object.

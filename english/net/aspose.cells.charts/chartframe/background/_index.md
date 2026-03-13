@@ -1,23 +1,23 @@
 ---
 title: ChartFrame.Background
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Gets and sets the display mode of the background
+description: ChartFrame property. Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions
 type: docs
 url: /net/aspose.cells.charts/chartframe/background/
 ---
 ## ChartFrame.Background property
 
-Gets and sets the display mode of the background
+Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 ```csharp
-[Obsolete("Use ChartFrame.BackgroundMode property instead.")]
+[Obsolete("Use ChartFrame.Area.FillFormat.FillType property instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public BackgroundMode Background { get; set; }
 ```
 
 ### Remarks
 
-NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

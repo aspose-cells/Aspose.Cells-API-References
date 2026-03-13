@@ -13,6 +13,10 @@ Represents bins on a chart(Histogram/Pareto) axis
 public AxisBins Bins { get; }
 ```
 
+### Remarks
+
+Only for Histogram or Pareto chart.
+
 ### Examples
 
 ```csharp

@@ -117,6 +117,10 @@ presetStyle : SparklinePresetStyleType;
 ```
 
 
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
+
 ### sparklines {#sparklines--}
 
 Readonly. Gets the collection of [Sparkline](../sparkline/) object.
@@ -372,6 +376,10 @@ getPresetStyle() : SparklinePresetStyleType;
 
 [SparklinePresetStyleType](../sparklinepresetstyletype/)
 
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
+
 ### setPresetStyle(SparklinePresetStyleType) {#setPresetStyle-sparklinepresetstyletype-}
 
 <b>@deprecated.</b> Please use the 'presetStyle' property instead. Gets and sets the preset style type of the sparkline group.
@@ -384,6 +392,10 @@ setPresetStyle(value: SparklinePresetStyleType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SparklinePresetStyleType](../sparklinepresetstyletype/) | The value to set. |
+
+**Remarks**
+
+If this property is set,these properties: SeriesColor,NegativePointsColor,HorizontalAxisColor,MarkersColor,FirstPointColor,LastPointColor,HighPointColor,LowPointColor will be covered. So please set property first ,then set others.
 
 ### getSparklines() {#getSparklines--}
 

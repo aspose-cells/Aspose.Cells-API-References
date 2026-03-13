@@ -35,6 +35,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [progId](#progId--)| string | Readonly. Gets the program id of creating the file. Only for MHT files. |
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
+| [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
 | [parsingFormulaOnOpen](#parsingFormulaOnOpen--)| boolean | Indicates whether parsing the formula when reading the file. |
@@ -173,6 +174,15 @@ Indicates whether to detect LaTeX formula in the HTML file. The default value is
 
 ```javascript
 detectLaTeX : boolean;
+```
+
+
+### paragrahLayoutMode {#paragrahLayoutMode--}
+
+Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+paragrahLayoutMode : HtmlParagraphLayoutMode;
 ```
 
 

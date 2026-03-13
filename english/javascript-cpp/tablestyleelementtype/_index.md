@@ -39,6 +39,8 @@ Represents the Table or PivotTable style element type.
 | ThirdRowSubheading | `27` | Table style element that applies to PivotTable's third row subheading. |
 | ThirdSubtotalColumn | `17` | Table style element that applies to pivot table's third subtotal column. |
 | ThirdSubtotalRow | `21` | Table style element that applies to PivotTable's third subtotal row. |
-| TotalRow | `10` | Table style element that applies to table's total row. |
+| TotalRow | `10` | Table style element that applies to Table's total row. |
 | WholeTable | `0` | Table style element that applies to table's entire content. |
+| GrandTotalColumnHeader | `128` | Table style element that applies to pivot table's header of grand total column. |
+| GrandTotalRowHeader | `129` | Table style element that applies to pivot table's header of grand total row. |
 

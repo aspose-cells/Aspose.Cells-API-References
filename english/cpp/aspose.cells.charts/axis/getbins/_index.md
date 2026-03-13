@@ -16,6 +16,10 @@ Represents bins on a chart(Histogram/Pareto) axis.
 AxisBins Aspose::Cells::Charts::Axis::GetBins()
 ```
 
+## Remarks
+
+
+Only for Histogram or Pareto chart. 
 ## See Also
 
 * Class [AxisBins](../../axisbins/)

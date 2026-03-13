@@ -13,6 +13,10 @@ True if the frame has a shadow.
 public bool Shadow { get; set; }
 ```
 
+### Remarks
+
+Only for charts in xls file.
+
 ### Examples
 
 ```csharp

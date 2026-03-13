@@ -19,7 +19,7 @@ The data source.
 
 ### Remarks
 
-Only supports range.
+Only supports range. If the Series.Values, Name, and XValues are in a continuous range, a range contains them will be returned.
 
 ### Examples
 

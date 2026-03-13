@@ -39,7 +39,7 @@ public class TxtSaveOptions : SaveOptions
 | [LightCellsDataProvider](../../aspose.cells/txtsaveoptions/lightcellsdataprovider/) { get; set; } | The data provider for saving workbook in light mode. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [QuoteType](../../aspose.cells/txtsaveoptions/quotetype/) { get; set; } | Gets or sets how to quote values in the exported text file. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Separator](../../aspose.cells/txtsaveoptions/separator/) { get; set; } | Gets and sets char Delimiter of text file. |
 | [SeparatorString](../../aspose.cells/txtsaveoptions/separatorstring/) { get; set; } | Gets and sets a string value as separator. |

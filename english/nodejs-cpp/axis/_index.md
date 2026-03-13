@@ -496,7 +496,7 @@ baseUnitScale : TimeUnit;
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 ### majorUnitScale {#majorUnitScale--}
 
@@ -656,6 +656,10 @@ Readonly. Represents bins on a chart(Histogram/Pareto) axis
 bins : AxisBins;
 ```
 
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
 
 ### getArea() {#getArea--}
 
@@ -1391,7 +1395,7 @@ getBaseUnitScale() : TimeUnit;
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 ### setBaseUnitScale(TimeUnit) {#setBaseUnitScale-timeunit-}
 
@@ -1408,7 +1412,7 @@ setBaseUnitScale(value: TimeUnit) : void;
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 ### getMajorUnitScale() {#getMajorUnitScale--}
 
@@ -1552,6 +1556,10 @@ getBins() : AxisBins;
 **Returns**
 
 [AxisBins](../axisbins/)
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
 
 ### getAxisTexts() {#getAxisTexts--}
 

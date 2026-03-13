@@ -24,7 +24,7 @@ The data source.
 
 
 
-Only supports range. 
+Only supports range. If the Series.Values, [Name](../../../aspose.cells/name/), and XValues are in a continuous range, a range contains them will be returned. 
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

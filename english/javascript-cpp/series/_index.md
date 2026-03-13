@@ -93,7 +93,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
 | [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
 | [shadow](#shadow--)| boolean | True if the series has a shadow. |
-| [has3DEffect](#has3DEffect--)| boolean | True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [has3DEffect](#has3DEffect--)| boolean | True if the series has a three-dimensional appearance. |
 | [bar3DShapeType](#bar3DShapeType--)| Bar3DShapeType | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [dataLabels](#dataLabels--)| DataLabels | Readonly. Represents the DataLabels object for the specified ASeries. |
 | [type](#type--)| ChartType | Gets or sets a data series' type. |
@@ -125,7 +125,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [explosion](#explosion--)| number | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [hasRadarAxisLabels](#hasRadarAxisLabels--)| boolean | True if a radar chart has category axis labels. Applies only to radar charts. |
 | [hasLeaderLines](#hasLeaderLines--)| boolean | True if the series has leader lines. |
-| [leaderLines](#leaderLines--)| Line | Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
+| [leaderLines](#leaderLines--)| Line | Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
 | [legendEntry](#legendEntry--)| LegendEntry | Readonly. Gets the legend entry according to this series. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series. |
 
@@ -348,12 +348,16 @@ shadow : boolean;
 
 ### has3DEffect {#has3DEffect--}
 
-True if the series has a three-dimensional appearance. Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
 
 ```javascript
 has3DEffect : boolean;
 ```
 
+
+**Remarks**
+
+Applies only to [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/) charts.
 
 ### bar3DShapeType {#bar3DShapeType--}
 
@@ -640,7 +644,7 @@ hasLeaderLines : boolean;
 
 ### leaderLines {#leaderLines--}
 
-Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line.
+Readonly. Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line.
 
 ```javascript
 leaderLines : Line;

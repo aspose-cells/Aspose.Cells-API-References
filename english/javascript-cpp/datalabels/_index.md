@@ -81,9 +81,10 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [separatorType](#separatorType--)| DataLabelsSeparatorType | Gets or sets the separator type used for the data labels on a chart. |
 | [separatorValue](#separatorValue--)| string | Gets or sets the separator value used for the data labels on a chart. |
 | [position](#position--)| LabelPositionType | Represents the position of the data label. |
-| [isNeverOverlap](#isNeverOverlap--)| boolean | Indicates whether the datalabels display never overlap. (For Pie chart) |
+| [isNeverOverlap](#isNeverOverlap--)| boolean | Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
 | [shapeType](#shapeType--)| DataLabelShapeType | Gets or sets  shape type of data label. |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [background](#background--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
 | [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
@@ -299,7 +300,7 @@ position : LabelPositionType;
 
 ### isNeverOverlap {#isNeverOverlap--}
 
-Indicates whether the datalabels display never overlap. (For Pie chart)
+Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
 
 ```javascript
 isNeverOverlap : boolean;
@@ -328,6 +329,19 @@ isInnerMode : boolean;
 
 Only for Xlsx file.
 
+### background {#background--}
+
+Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
+
+```javascript
+background : BackgroundMode;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+
 ### shadow {#shadow--}
 
 True if the frame has a shadow.
@@ -336,6 +350,10 @@ True if the frame has a shadow.
 shadow : boolean;
 ```
 
+
+**Remarks**
+
+Only for charts in xls file.
 
 ### shapeProperties {#shapeProperties--}
 
@@ -620,6 +638,10 @@ getText() : string;
 ```
 
 
+**Remarks**
+
+Only works when this is a data label of a chart point.
+
 ### setText(string) {#setText-string-}
 
 Gets or sets the text of data label.
@@ -632,6 +654,10 @@ setText(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+Only works when this is a data label of a chart point.
 
 ### isTextWrapped() {#isTextWrapped--}
 

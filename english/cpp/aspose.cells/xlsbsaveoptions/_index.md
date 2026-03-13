@@ -4,7 +4,7 @@ linktitle: XlsbSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XlsbSaveOptions class. Represents the options for saving xlsb file in C++.'
 type: docs
-weight: 16800
+weight: 16900
 url: /cpp/aspose.cells/xlsbsaveoptions/
 ---
 ## XlsbSaveOptions class
@@ -29,7 +29,7 @@ class XlsbSaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportAllColumnIndexes()](./getexportallcolumnindexes/) | Indicates whether exporting all column indexes for cells. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -52,7 +52,7 @@ class XlsbSaveOptions : public Aspose::Cells::SaveOptions
 | [SetExportAllColumnIndexes(bool value)](./setexportallcolumnindexes/) | Indicates whether exporting all column indexes for cells. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |

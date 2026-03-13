@@ -61,6 +61,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [progId](#progId--)| string | Readonly. Gets the program id of creating the file. Only for MHT files. |
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
+| [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 
 ## Methods
 
@@ -132,6 +133,8 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [getTableLoadOptions()](#getTableLoadOptions--)| <b>@deprecated.</b> Please use the 'tableLoadOptions' property instead. Get the HtmlTableLoadOptionCollection instance |
 | [getDetectLaTeX()](#getDetectLaTeX--)| <b>@deprecated.</b> Please use the 'detectLaTeX' property instead. Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [setDetectLaTeX(boolean)](#setDetectLaTeX-boolean-)| <b>@deprecated.</b> Please use the 'detectLaTeX' property instead. Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
+| [getParagrahLayoutMode()](#getParagrahLayoutMode--)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [setParagrahLayoutMode(HtmlParagraphLayoutMode)](#setParagrahLayoutMode-htmlparagraphlayoutmode-)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 
 
 ### constructor() {#constructor--}
@@ -512,6 +515,15 @@ Indicates whether to detect LaTeX formula in the HTML file. The default value is
 
 ```javascript
 detectLaTeX : boolean;
+```
+
+
+### paragrahLayoutMode {#paragrahLayoutMode--}
+
+Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+paragrahLayoutMode : HtmlParagraphLayoutMode;
 ```
 
 
@@ -1372,5 +1384,31 @@ setDetectLaTeX(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getParagrahLayoutMode() {#getParagrahLayoutMode--}
+
+<b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+getParagrahLayoutMode() : HtmlParagraphLayoutMode;
+```
+
+
+**Returns**
+
+[HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/)
+
+### setParagrahLayoutMode(HtmlParagraphLayoutMode) {#setParagrahLayoutMode-htmlparagraphlayoutmode-}
+
+<b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+setParagrahLayoutMode(value: HtmlParagraphLayoutMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/) | The value to set. |
 
 

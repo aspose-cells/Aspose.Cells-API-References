@@ -1,17 +1,21 @@
 ---
 title: Series.Has3DEffect
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. True if the series has a threedimensional appearance. Applies only to bubble charts
+description: Series property. True if the series has a threedimensional appearance
 type: docs
 url: /net/aspose.cells.charts/series/has3deffect/
 ---
 ## Series.Has3DEffect property
 
-True if the series has a three-dimensional appearance. Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
 
 ```csharp
 public bool Has3DEffect { get; set; }
 ```
+
+### Remarks
+
+Applies only to Bubble or Bubble3D charts.
 
 ### Examples
 

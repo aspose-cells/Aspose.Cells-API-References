@@ -2,7 +2,7 @@
 title: Aspose::Cells::JsonSaveOptions class
 linktitle: JsonSaveOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::JsonSaveOptions class. Represents the options of saving the workbook as a json file in C++.'
+description: 'Aspose::Cells::JsonSaveOptions class. Represents the options of saving the workbook as a JSON file in C++.'
 type: docs
 weight: 9600
 url: /cpp/aspose.cells/jsonsaveoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/jsonsaveoptions/
 ## JsonSaveOptions class
 
 
-Represents the options of saving the workbook as a json file.
+Represents the options of saving the workbook as a JSON file.
 
 ```cpp
 class JsonSaveOptions : public Aspose::Cells::SaveOptions
@@ -35,7 +35,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
 | [GetIndent()](./getindent/) | Indicates the indent. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSchemas()](./getschemas/) | The original json schema of each worksheet. |
 | [GetSheetIndexes()](./getsheetindexes/) | Represents the indexes of exported sheets. |
@@ -73,7 +73,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetIndent(const U16String\& value)](./setindent/) | Indicates the indent. |
 | [SetIndent(const char16_t* value)](./setindent/) | Indicates the indent. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSchemas(const Vector \<U16String\>\& value)](./setschemas/) | The original json schema of each worksheet. |
 | [SetSheetIndexes(const Vector \<int32_t\>\& value)](./setsheetindexes/) | Represents the indexes of exported sheets. |
 | [SetSkipEmptyRows(bool value)](./setskipemptyrows/) | Indicates whether skipping emtpy rows. |

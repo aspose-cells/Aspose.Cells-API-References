@@ -276,7 +276,7 @@ Gets the data source range of the chart.
 
 **Remarks**
 
-Only supports range.
+Only supports range. If the Series.Values, Name, and XValues are in a continuous range, a range contains them will be returned.
 
 **Returns:**
 java.lang.String - The data source.

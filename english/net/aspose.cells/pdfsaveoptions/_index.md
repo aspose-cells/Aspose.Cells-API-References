@@ -61,7 +61,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [PdfCompression](../../aspose.cells/pdfsaveoptions/pdfcompression/) { get; set; } | Indicate the compression algorithm |
 | [PrintingPageType](../../aspose.cells/paginatedsaveoptions/printingpagetype/) { get; set; } | Indicates which pages will not be printed.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [Producer](../../aspose.cells/pdfsaveoptions/producer/) { get; set; } | Gets and sets producer of generated pdf document. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SecurityOptions](../../aspose.cells/pdfsaveoptions/securityoptions/) { get; set; } | Set this options, when security is need in xls2pdf result. |
 | [SheetSet](../../aspose.cells/paginatedsaveoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Visible`](../../aspose.cells.rendering/sheetset/visible/).(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |

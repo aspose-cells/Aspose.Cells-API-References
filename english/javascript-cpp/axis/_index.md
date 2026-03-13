@@ -427,7 +427,7 @@ baseUnitScale : TimeUnit;
 
 **Remarks**
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 ### majorUnitScale {#majorUnitScale--}
 
@@ -587,6 +587,10 @@ Readonly. Represents bins on a chart(Histogram/Pareto) axis
 bins : AxisBins;
 ```
 
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
 
 ### getAxisTexts() {#getAxisTexts--}
 

@@ -1,13 +1,13 @@
 ---
 title: SaveOptions.RefreshChartCache
 second_title: Aspose.Cells for .NET API Reference
-description: SaveOptions property. Indicates whether refreshing chart cache data
+description: SaveOptions property. Indicates whether to cache the latest data of the chart
 type: docs
 url: /net/aspose.cells/saveoptions/refreshchartcache/
 ---
 ## SaveOptions.RefreshChartCache property
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 ```csharp
 public bool RefreshChartCache { get; set; }

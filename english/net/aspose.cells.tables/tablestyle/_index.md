@@ -20,6 +20,12 @@ public class TableStyle
 | [Name](../../aspose.cells.tables/tablestyle/name/) { get; } | Gets the name of table style. |
 | [TableStyleElements](../../aspose.cells.tables/tablestyle/tablestyleelements/) { get; } | Gets all elements of the table style. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [Create](../../aspose.cells.tables/tablestyle/create/)(string, WorksheetCollection) | Creates an empty table/pivot table style. |
+
 ### Examples
 
 ```csharp

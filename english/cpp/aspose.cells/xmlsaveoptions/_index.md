@@ -29,7 +29,7 @@ class XmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetExportArea()](./getexportarea/) | Gets or sets the exporting range. |
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetIndexes()](./getsheetindexes/) | Represents the indexes of exported sheets. |
 | [GetSheetNameAsElementName()](./getsheetnameaselementname/) | Indicates whether exporting sheet's name as the name of the element. |
@@ -55,7 +55,7 @@ class XmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetExportArea(const CellArea\& value)](./setexportarea/) | Gets or sets the exporting range. |
 | [SetHasHeaderRow(bool value)](./sethasheaderrow/) | Indicates whether the range contains header row. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSheetIndexes(const Vector \<int32_t\>\& value)](./setsheetindexes/) | Represents the indexes of exported sheets. |
 | [SetSheetNameAsElementName(bool value)](./setsheetnameaselementname/) | Indicates whether exporting sheet's name as the name of the element. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

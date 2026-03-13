@@ -4,7 +4,7 @@ linktitle: TxtSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtSaveOptions class. Represents the save options for csv/tab delimited/other text format in C++.'
 type: docs
-weight: 15400
+weight: 15500
 url: /cpp/aspose.cells/txtsaveoptions/
 ---
 ## TxtSaveOptions class
@@ -34,7 +34,7 @@ class TxtSaveOptions : public Aspose::Cells::SaveOptions
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetQuoteType()](./getquotetype/) | Gets or sets how to quote values in the exported text file. |
-| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSeparator()](./getseparator/) | Gets and sets char Delimiter of text file. |
 | [GetSeparatorString()](./getseparatorstring/) | Gets and sets a string value as separator. |
@@ -66,7 +66,7 @@ class TxtSaveOptions : public Aspose::Cells::SaveOptions
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetQuoteType(TxtValueQuoteType value)](./setquotetype/) | Gets or sets how to quote values in the exported text file. |
-| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [SetSeparator(char16_t value)](./setseparator/) | Gets and sets char Delimiter of text file. |
 | [SetSeparatorString(const U16String\& value)](./setseparatorstring/) | Gets and sets a string value as separator. |
 | [SetSeparatorString(const char16_t* value)](./setseparatorstring/) | Gets and sets a string value as separator. |

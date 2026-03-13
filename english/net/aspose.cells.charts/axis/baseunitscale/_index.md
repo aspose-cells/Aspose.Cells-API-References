@@ -15,7 +15,7 @@ public TimeUnit BaseUnitScale { get; set; }
 
 ### Remarks
 
-Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Only takes effect when the CategoryType property is set to TimeScale.
 
 ### Examples
 

@@ -76,7 +76,8 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | Property | Type | Description |
 | --- | --- | --- |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
+| [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
+| [background](#background--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
 | [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
@@ -174,12 +175,29 @@ Only for Xlsx file.
 
 ### backgroundMode {#backgroundMode--}
 
-Gets and sets the display mode of the background
+Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
 ```javascript
 backgroundMode : BackgroundMode;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since February 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### background {#background--}
+
+Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
+
+```javascript
+background : BackgroundMode;
+```
+
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 ### shadow {#shadow--}
 
@@ -189,6 +207,10 @@ True if the frame has a shadow.
 shadow : boolean;
 ```
 
+
+**Remarks**
+
+Only for charts in xls file.
 
 ### shapeProperties {#shapeProperties--}
 

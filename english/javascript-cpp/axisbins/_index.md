@@ -52,6 +52,10 @@ isAutomatic : boolean;
 ```
 
 
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
 ### width {#width--}
 
 Gets or sets the width of axis bin

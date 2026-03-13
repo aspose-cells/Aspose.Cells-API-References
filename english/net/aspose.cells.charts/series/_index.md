@@ -34,7 +34,7 @@ public class Series
 | [Explosion](../../aspose.cells.charts/series/explosion/) { get; set; } | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle/) { get; set; } | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
 | [GapWidth](../../aspose.cells.charts/series/gapwidth/) { get; set; } | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
-| [Has3DEffect](../../aspose.cells.charts/series/has3deffect/) { get; set; } | True if the series has a three-dimensional appearance. Applies only to bubble charts. |
+| [Has3DEffect](../../aspose.cells.charts/series/has3deffect/) { get; set; } | True if the series has a three-dimensional appearance. |
 | [HasDropLines](../../aspose.cells.charts/series/hasdroplines/) { get; set; } | True if the chart has drop lines. Applies only to line chart or area charts. |
 | [HasHiLoLines](../../aspose.cells.charts/series/hashilolines/) { get; set; } | True if the line chart has high-low lines. Applies only to line charts. |
 | [HasLeaderLines](../../aspose.cells.charts/series/hasleaderlines/) { get; set; } | True if the series has leader lines. |
@@ -47,7 +47,7 @@ public class Series
 | [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Indicates whether the data source is vertical. |
 | [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Represents the properties of layout. |
-| [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
+| [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
 | [LegendEntry](../../aspose.cells.charts/series/legendentry/) { get; } | Gets the legend entry according to this series. |
 | [Marker](../../aspose.cells.charts/series/marker/) { get; } | Gets the [`marker`](./marker/). |
 | [Name](../../aspose.cells.charts/series/name/) { get; set; } | Gets or sets the name of the data series. |

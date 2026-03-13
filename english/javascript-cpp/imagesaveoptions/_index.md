@@ -36,7 +36,7 @@ class ImageSaveOptions extends SaveOptions;
 | [createDirectory](#createDirectory--)| boolean | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [sortNames](#sortNames--)| boolean | Indicates whether sorting defined names before saving file. |
 | [sortExternalNames](#sortExternalNames--)| boolean | Indicates whether sorting external defined names before saving file. |
-| [refreshChartCache](#refreshChartCache--)| boolean | Indicates whether refreshing chart cache data |
+| [refreshChartCache](#refreshChartCache--)| boolean | Indicates whether to cache the latest data of the chart. |
 | [warningCallback](#warningCallback--)| IWarningCallback | Gets or sets warning callback. |
 | [checkExcelRestriction](#checkExcelRestriction--)| boolean | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [updateSmartArt](#updateSmartArt--)| boolean | Indicates whether updating smart art setting. The default value is false. |
@@ -185,7 +185,7 @@ sortExternalNames : boolean;
 
 ### refreshChartCache {#refreshChartCache--}
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 ```javascript
 refreshChartCache : boolean;

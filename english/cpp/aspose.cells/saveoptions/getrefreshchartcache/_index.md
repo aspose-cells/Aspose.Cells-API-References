@@ -2,7 +2,7 @@
 title: Aspose::Cells::SaveOptions::GetRefreshChartCache method
 linktitle: GetRefreshChartCache
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::SaveOptions::GetRefreshChartCache method. Indicates whether refreshing chart cache data in C++.'
+description: 'Aspose::Cells::SaveOptions::GetRefreshChartCache method. Indicates whether to cache the latest data of the chart in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.cells/saveoptions/getrefreshchartcache/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/saveoptions/getrefreshchartcache/
 ## SaveOptions::GetRefreshChartCache method
 
 
-Indicates whether refreshing chart cache data.
+Indicates whether to cache the latest data of the chart.
 
 ```cpp
 bool Aspose::Cells::SaveOptions::GetRefreshChartCache()

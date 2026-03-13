@@ -28,7 +28,9 @@ Represents the Table or PivotTable style element type.
 | [FIRST_SUBTOTAL_ROW](#FIRST-SUBTOTAL-ROW) | Table style element that applies to pivot table's first subtotal row. |
 | [FIRST_TOTAL_CELL](#FIRST-TOTAL-CELL) | Table style element that applies to table's first total row cell. |
 | [GRAND_TOTAL_COLUMN](#GRAND-TOTAL-COLUMN) | Table style element that applies to pivot table's grand total column. |
+| [GRAND_TOTAL_COLUMN_HEADER](#GRAND-TOTAL-COLUMN-HEADER) | Table style element that applies to pivot table's header of grand total column. |
 | [GRAND_TOTAL_ROW](#GRAND-TOTAL-ROW) | Table style element that applies to pivot table's grand total row. |
+| [GRAND_TOTAL_ROW_HEADER](#GRAND-TOTAL-ROW-HEADER) | Table style element that applies to pivot table's header of grand total row. |
 | [HEADER_ROW](#HEADER-ROW) | Table style element that applies to table's header row. |
 | [LAST_COLUMN](#LAST-COLUMN) | Table style element that applies to table's last column. |
 | [LAST_HEADER_CELL](#LAST-HEADER-CELL) | Table style element that applies to table's last header row cell. |
@@ -45,7 +47,7 @@ Represents the Table or PivotTable style element type.
 | [THIRD_ROW_SUBHEADING](#THIRD-ROW-SUBHEADING) | Table style element that applies to PivotTable's third row subheading. |
 | [THIRD_SUBTOTAL_COLUMN](#THIRD-SUBTOTAL-COLUMN) | Table style element that applies to pivot table's third subtotal column. |
 | [THIRD_SUBTOTAL_ROW](#THIRD-SUBTOTAL-ROW) | Table style element that applies to PivotTable's third subtotal row. |
-| [TOTAL_ROW](#TOTAL-ROW) | Table style element that applies to table's total row. |
+| [TOTAL_ROW](#TOTAL-ROW) | Table style element that applies to Table's total row. |
 | [WHOLE_TABLE](#WHOLE-TABLE) | Table style element that applies to table's entire content. |
 ## Methods
 
@@ -148,6 +150,18 @@ public static final int GRAND_TOTAL_COLUMN
 
 Table style element that applies to pivot table's grand total column.
 
+### GRAND_TOTAL_COLUMN_HEADER {#GRAND-TOTAL-COLUMN-HEADER}
+```
+public static final int GRAND_TOTAL_COLUMN_HEADER
+```
+
+
+Table style element that applies to pivot table's header of grand total column.
+
+**Remarks**
+
+Internal usage for calculating pivot style of xls file.
+
 ### GRAND_TOTAL_ROW {#GRAND-TOTAL-ROW}
 ```
 public static final int GRAND_TOTAL_ROW
@@ -155,6 +169,18 @@ public static final int GRAND_TOTAL_ROW
 
 
 Table style element that applies to pivot table's grand total row.
+
+### GRAND_TOTAL_ROW_HEADER {#GRAND-TOTAL-ROW-HEADER}
+```
+public static final int GRAND_TOTAL_ROW_HEADER
+```
+
+
+Table style element that applies to pivot table's header of grand total row.
+
+**Remarks**
+
+Internal usage for calculating pivot style of xls file.
 
 ### HEADER_ROW {#HEADER-ROW}
 ```
@@ -290,7 +316,7 @@ public static final int TOTAL_ROW
 ```
 
 
-Table style element that applies to table's total row.
+Table style element that applies to Table's total row.
 
 ### WHOLE_TABLE {#WHOLE-TABLE}
 ```

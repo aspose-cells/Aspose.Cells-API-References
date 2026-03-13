@@ -65,6 +65,10 @@ isAutomatic : boolean;
 ```
 
 
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
 ### width {#width--}
 
 Gets or sets the width of axis bin
@@ -132,6 +136,10 @@ isAutomatic() : boolean;
 ```
 
 
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
 ### setIsAutomatic(boolean) {#setIsAutomatic-boolean-}
 
 <b>@deprecated.</b> Please use the 'isAutomatic' property instead. Indicates whether the axis bins are automatic.
@@ -144,6 +152,10 @@ setIsAutomatic(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
 
 ### getWidth() {#getWidth--}
 
