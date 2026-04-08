@@ -41,7 +41,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of frame in units of ratio of the chart area. |
 | [getLinkedSource()](#getLinkedSource--) | Gets a reference to the worksheet. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
-| [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
+| [getRotationAngle()](#getRotationAngle--) | Represents the text rotation angle. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getText()](#getText--) | Gets the text of a frame's title. |
@@ -64,7 +64,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
+| [isDeleted()](#isDeleted--) | Indicates whether this data labels are deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
@@ -75,7 +75,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels are deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
@@ -85,7 +85,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Sets whether a shape should be auto-fit to fully contain the text described within it. |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents the text rotation angle. |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the text of a frame's title. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
@@ -402,7 +402,7 @@ public int getRotationAngle()
 ```
 
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 **Remarks**
 
@@ -686,7 +686,7 @@ public boolean isDeleted()
 ```
 
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 **Returns:**
 boolean
@@ -823,7 +823,7 @@ public void setDeleted(boolean value)
 ```
 
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -964,7 +964,7 @@ public void setRotationAngle(int value)
 ```
 
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 **Remarks**
 

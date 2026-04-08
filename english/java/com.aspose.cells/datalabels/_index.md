@@ -69,7 +69,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getPosition()](#getPosition--) | Represents the position of the data label. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
-| [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
+| [getRotationAngle()](#getRotationAngle--) | Represents the text rotation angle. |
 | [getSeparatorType()](#getSeparatorType--) | Gets the separator type used for the data labels on a chart. |
 | [getSeparatorValue()](#getSeparatorValue--) | Gets the separator value used for the data labels on a chart. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
@@ -102,7 +102,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
+| [isDeleted()](#isDeleted--) | Indicates whether this data labels are deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isNeverOverlap()](#isNeverOverlap--) | Indicates whether datalabels never overlap when performing Pie Chart to image. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
@@ -114,7 +114,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels are deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
@@ -129,7 +129,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Sets whether a shape should be auto-fit to fully contain the text described within it. |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents the text rotation angle. |
 | [setSeparatorType(int value)](#setSeparatorType-int-) | Sets the separator type used for the data labels on a chart. |
 | [setSeparatorValue(String value)](#setSeparatorValue-java.lang.String-) | Sets the separator value used for the data labels on a chart. |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
@@ -502,7 +502,7 @@ public int getRotationAngle()
 ```
 
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 **Remarks**
 
@@ -898,7 +898,7 @@ public boolean isDeleted()
 ```
 
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 **Returns:**
 boolean
@@ -1041,7 +1041,7 @@ public void setDeleted(boolean value)
 ```
 
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1249,7 +1249,7 @@ public void setRotationAngle(int value)
 ```
 
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 **Remarks**
 

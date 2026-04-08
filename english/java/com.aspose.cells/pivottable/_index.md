@@ -145,7 +145,7 @@ Summary description for PivotTable.
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--) | Gets the external connection data source. |
 | [getFieldListSortAscending()](#getFieldListSortAscending--) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [getFields(int fieldType)](#getFields-int-) | Gets the specific pivot field list by the region. |
-| [getFilterArea()](#getFilterArea--) | Gets the region of filter region. |
+| [getFilterArea()](#getFilterArea--) | Gets the area of filter region. |
 | [getGrandTotalName()](#getGrandTotalName--) | Returns the label that is displayed in the grand total column or row heading. |
 | [getHorizontalBreaks()](#getHorizontalBreaks--) | Gets pivot table row index list of horizontal page breaks |
 | [getHorizontalPageBreaks()](#getHorizontalPageBreaks--) | Gets horizontal page breaks of this pivot table. |
@@ -938,11 +938,11 @@ public CellArea getFilterArea()
 ```
 
 
-Gets the region of filter region.
+Gets the area of filter region.
 
 **Remarks**
 
-Only valid if filter pivot fields exists.
+Only valid if filter pivot fields exists. An empty area will be returned if this pivot table does not contains filter pivot fields
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)

@@ -19,12 +19,12 @@ Represents data label position type.
 | --- | --- |
 | [ABOVE](#ABOVE) | Applies only to line charts |
 | [BELOW](#BELOW) | Applies only to line charts |
-| [BEST_FIT](#BEST-FIT) | Applies only to 2d/3d pie charts |
-| [CENTER](#CENTER) | Applies only to bar, 2d/3d pie charts |
+| [BEST_FIT](#BEST-FIT) | Applies only to 2D/3D pie charts |
+| [CENTER](#CENTER) | Applies only to bar, 2D/3D pie charts |
 | [INSIDE_BASE](#INSIDE-BASE) | Applies only to bar, 2d/3d pie charts |
 | [INSIDE_END](#INSIDE-END) | Applies only to bar charts |
 | [LEFT](#LEFT) | Applies only to line charts |
-| [MOVED](#MOVED) | User moved the data labels, Only for reading chart from template file. |
+| [MOVED](#MOVED) | User moved the data labels only for reading the chart from the template file. |
 | [OUTSIDE_END](#OUTSIDE-END) | Applies only to bar, 2d/3d pie charts |
 | [RIGHT](#RIGHT) | Applies only to line charts |
 ## Methods
@@ -62,7 +62,7 @@ public static final int BEST_FIT
 ```
 
 
-Applies only to 2d/3d pie charts
+Applies only to 2D/3D pie charts
 
 ### CENTER {#CENTER}
 ```
@@ -70,7 +70,7 @@ public static final int CENTER
 ```
 
 
-Applies only to bar, 2d/3d pie charts
+Applies only to bar, 2D/3D pie charts
 
 ### INSIDE_BASE {#INSIDE-BASE}
 ```
@@ -102,7 +102,7 @@ public static final int MOVED
 ```
 
 
-User moved the data labels, Only for reading chart from template file.
+User moved the data labels only for reading the chart from the template file.
 
 ### OUTSIDE_END {#OUTSIDE-END}
 ```

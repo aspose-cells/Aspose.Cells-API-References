@@ -1,7 +1,7 @@
 ---
 title: SparklineGroup
 second_title: Aspose.Cells for Java API Reference
-description: is organized into sparkline group.
+description: is organized into a sparkline group.
 type: docs
 url: /java/com.aspose.cells/sparklinegroup/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class SparklineGroup
 ```
 
-[Sparkline](../../com.aspose.cells/sparkline) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
+[Sparkline](../../com.aspose.cells/sparkline) is organized into a sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
 
 **Example**
 

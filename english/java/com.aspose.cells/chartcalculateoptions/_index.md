@@ -1,7 +1,7 @@
 ---
 title: ChartCalculateOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents the options for calculating chart.
+description: Represents the options for calculating the chart.
 type: docs
 url: /java/com.aspose.cells/chartcalculateoptions/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ChartCalculateOptions
 ```
 
-Represents the options for calculating chart.
+Represents the options for calculating the chart.
 ## Constructors
 
 | Constructor | Description |

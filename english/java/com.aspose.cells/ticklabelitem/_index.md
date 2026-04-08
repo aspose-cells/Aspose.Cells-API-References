@@ -19,10 +19,10 @@ Represents a tick label in the chart.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHeight()](#getHeight--) | Height of Ticklabel item in ratio of chart height. |
-| [getWidth()](#getWidth--) | Width of Ticklabel item in ratio of chart width. |
-| [getX()](#getX--) | X coordinates of Ticklabel item in ratio of chart width. |
-| [getY()](#getY--) | Y coordinates of Ticklabel item in ratio of chart height. |
+| [getHeight()](#getHeight--) | Height of Ticklabel item as a ratio of chart height. |
+| [getWidth()](#getWidth--) | Width of Ticklabel item as a ratio of chart width. |
+| [getX()](#getX--) | X coordinates of Ticklabel item as a ratio of chart width. |
+| [getY()](#getY--) | Y coordinates of Ticklabel item as a ratio of the chart height. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -61,7 +61,7 @@ public double getHeight()
 ```
 
 
-Height of Ticklabel item in ratio of chart height.
+Height of Ticklabel item as a ratio of chart height.
 
 **Returns:**
 double
@@ -71,7 +71,7 @@ public double getWidth()
 ```
 
 
-Width of Ticklabel item in ratio of chart width.
+Width of Ticklabel item as a ratio of chart width.
 
 **Returns:**
 double
@@ -81,7 +81,7 @@ public double getX()
 ```
 
 
-X coordinates of Ticklabel item in ratio of chart width.
+X coordinates of Ticklabel item as a ratio of chart width.
 
 **Returns:**
 double
@@ -91,7 +91,7 @@ public double getY()
 ```
 
 
-Y coordinates of Ticklabel item in ratio of chart height.
+Y coordinates of Ticklabel item as a ratio of the chart height.
 
 **Returns:**
 double

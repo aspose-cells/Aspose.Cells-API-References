@@ -13,6 +13,10 @@ public class SeriesLayoutProperties
 ```
 
 Represents the properties of series layout.
+
+**Remarks**
+
+Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and Histogram chart.
 ## Constructors
 
 | Constructor | Description |
@@ -28,11 +32,11 @@ Represents the properties of series layout.
 | [getMapChartRegionType()](#getMapChartRegionType--) | Gets the region type of the map. |
 | [getMapLabelLayout()](#getMapLabelLayout--) | Gets the layout of map labels. |
 | [getQuartileCalculation()](#getQuartileCalculation--) | Represents the statistical properties for the series. |
-| [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether showing connector lines between data points. |
-| [getShowInnerPoints()](#getShowInnerPoints--) | Indicates whether showing non-outlier data points. |
-| [getShowMeanLine()](#getShowMeanLine--) | Indicates whether showing the line connecting all mean points. |
-| [getShowMeanMarker()](#getShowMeanMarker--) | Indicates whether showing markers denoting the mean. |
-| [getShowOutlierPoints()](#getShowOutlierPoints--) | Indicates whether showing outlier data points. |
+| [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether connector lines are shown between data points. |
+| [getShowInnerPoints()](#getShowInnerPoints--) | Indicates whether to show non-outlier data points. |
+| [getShowMeanLine()](#getShowMeanLine--) | Indicates whether to show the line connecting all mean points. |
+| [getShowMeanMarker()](#getShowMeanMarker--) | Indicates whether markers denoting the mean are shown. |
+| [getShowOutlierPoints()](#getShowOutlierPoints--) | Indicates whether outlier data points are shown. |
 | [getSubtotals()](#getSubtotals--) | Represents the index of a subtotal data point. |
 | [hashCode()](#hashCode--) |  |
 | [isIntervalLeftClosed()](#isIntervalLeftClosed--) | Indicates whether the interval is closed on the left side. |
@@ -43,11 +47,11 @@ Represents the properties of series layout.
 | [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | Sets the region type of the map. |
 | [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | Sets the layout of map labels. |
 | [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | Represents the statistical properties for the series. |
-| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Indicates whether showing connector lines between data points. |
-| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | Indicates whether showing non-outlier data points. |
-| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | Indicates whether showing the line connecting all mean points. |
-| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | Indicates whether showing markers denoting the mean. |
-| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | Indicates whether showing outlier data points. |
+| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Indicates whether connector lines are shown between data points. |
+| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | Indicates whether to show non-outlier data points. |
+| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | Indicates whether to show the line connecting all mean points. |
+| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | Indicates whether markers denoting the mean are shown. |
+| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | Indicates whether outlier data points are shown. |
 | [setSubtotals(int[] value)](#setSubtotals-int---) | Represents the index of a subtotal data point. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -94,6 +98,10 @@ Gets the projection type of the map.
 
 See [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
+**Remarks**
+
+Only for map chart.
+
 **Returns:**
 int
 ### getMapChartRegionType() {#getMapChartRegionType--}
@@ -105,6 +113,10 @@ public int getMapChartRegionType()
 Gets the region type of the map.
 
 See [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
+
+**Remarks**
+
+Only for map chart.
 
 **Returns:**
 int
@@ -130,6 +142,10 @@ Represents the statistical properties for the series.
 
 See [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
+**Remarks**
+
+Only applicable to BoxWhisker chart.
+
 **Returns:**
 int
 ### getShowConnectorLines() {#getShowConnectorLines--}
@@ -138,7 +154,11 @@ public boolean getShowConnectorLines()
 ```
 
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
+
+**Remarks**
+
+Only for Waterfall chart.
 
 **Returns:**
 boolean
@@ -148,7 +168,7 @@ public boolean getShowInnerPoints()
 ```
 
 
-Indicates whether showing non-outlier data points.
+Indicates whether to show non-outlier data points.
 
 **Returns:**
 boolean
@@ -158,7 +178,11 @@ public boolean getShowMeanLine()
 ```
 
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
+
+**Remarks**
+
+Only works for BoxWhisker chart.
 
 **Returns:**
 boolean
@@ -168,7 +192,7 @@ public boolean getShowMeanMarker()
 ```
 
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 **Returns:**
 boolean
@@ -178,7 +202,7 @@ public boolean getShowOutlierPoints()
 ```
 
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 **Returns:**
 boolean
@@ -210,6 +234,10 @@ public boolean isIntervalLeftClosed()
 
 Indicates whether the interval is closed on the left side.
 
+**Remarks**
+
+Only for ParetoLine chart.
+
 **Returns:**
 boolean
 ### notify() {#notify--}
@@ -236,6 +264,10 @@ public void setIntervalLeftClosed(boolean value)
 
 Indicates whether the interval is closed on the left side.
 
+**Remarks**
+
+Only for ParetoLine chart.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -251,6 +283,10 @@ Sets the projection type of the map.
 
 See [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
+**Remarks**
+
+Only for map chart.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -265,6 +301,10 @@ public void setMapChartRegionType(int value)
 Sets the region type of the map.
 
 See [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
+
+**Remarks**
+
+Only for map chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -296,6 +336,10 @@ Represents the statistical properties for the series.
 
 See [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
+**Remarks**
+
+Only applicable to BoxWhisker chart.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -307,7 +351,11 @@ public void setShowConnectorLines(boolean value)
 ```
 
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
+
+**Remarks**
+
+Only for Waterfall chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +368,7 @@ public void setShowInnerPoints(boolean value)
 ```
 
 
-Indicates whether showing non-outlier data points.
+Indicates whether to show non-outlier data points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +381,11 @@ public void setShowMeanLine(boolean value)
 ```
 
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
+
+**Remarks**
+
+Only works for BoxWhisker chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +398,7 @@ public void setShowMeanMarker(boolean value)
 ```
 
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -359,7 +411,7 @@ public void setShowOutlierPoints(boolean value)
 ```
 
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 **Parameters:**
 | Parameter | Type | Description |

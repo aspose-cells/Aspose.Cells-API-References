@@ -31,6 +31,7 @@ Represents the copy options.
 | [getKeepMacros()](#getKeepMacros--) | Indicates whether keeping macros; |
 | [getReferToDestinationSheet()](#getReferToDestinationSheet--) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. |
 | [getReferToSheetWithSameName()](#getReferToSheetWithSameName--) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. |
+| [getUpdateInvalidReferencesToTargetSheet()](#getUpdateInvalidReferencesToTargetSheet--) | Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -41,6 +42,7 @@ Represents the copy options.
 | [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | Indicates whether keeping macros; |
 | [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. |
 | [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. |
+| [setUpdateInvalidReferencesToTargetSheet(boolean value)](#setUpdateInvalidReferencesToTargetSheet-boolean-) | Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -161,6 +163,20 @@ In ms excel, when copying formulas which refer to other worksheets while copying
 **Remarks**
 
 The default value is true.
+
+**Returns:**
+boolean
+### getUpdateInvalidReferencesToTargetSheet() {#getUpdateInvalidReferencesToTargetSheet--}
+```
+public boolean getUpdateInvalidReferencesToTargetSheet()
+```
+
+
+Indicates whether to refer to target worksheet if the referred worksheet is not copied.
+
+**Remarks**
+
+Only works when copying range or worksheet from another obook.
 
 **Returns:**
 boolean
@@ -291,6 +307,23 @@ In ms excel, when copying formulas which refer to other worksheets while copying
 **Remarks**
 
 The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setUpdateInvalidReferencesToTargetSheet(boolean value) {#setUpdateInvalidReferencesToTargetSheet-boolean-}
+```
+public void setUpdateInvalidReferencesToTargetSheet(boolean value)
+```
+
+
+Indicates whether to refer to target worksheet if the referred worksheet is not copied.
+
+**Remarks**
+
+Only works when copying range or worksheet from another obook.
 
 **Parameters:**
 | Parameter | Type | Description |

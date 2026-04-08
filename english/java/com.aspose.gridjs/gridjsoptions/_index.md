@@ -34,6 +34,7 @@ Represents all the load options for GridJs
 | [getClass()](#getClass--) |  |
 | [getEmptySheetMaxCol()](#getEmptySheetMaxCol--) | Gets default max column for an empty worksheet. |
 | [getEmptySheetMaxRow()](#getEmptySheetMaxRow--) | Gets default max row for an empty worksheet. |
+| [getEnableChartClientRendering()](#getEnableChartClientRendering--) | Gets whether to enable client-side chart rendering. |
 | [getFileCacheDirectory()](#getFileCacheDirectory--) | Gets the cache directory for storing spreadsheet file. |
 | [getFontFolders()](#getFontFolders--) | Gets the fonts folders for fonts in the rendered pictures/shapes |
 | [getIgnoreEmptyContent()](#getIgnoreEmptyContent--) | Gets whether to show the max range which includes data ,style, merged cells and shapes. |
@@ -60,6 +61,7 @@ Represents all the load options for GridJs
 | [setCollaborative(boolean value)](#setCollaborative-boolean-) | Sets whether to support collabrative editing,the default is false. |
 | [setEmptySheetMaxCol(int value)](#setEmptySheetMaxCol-int-) | Sets default max column for an empty worksheet. |
 | [setEmptySheetMaxRow(int value)](#setEmptySheetMaxRow-int-) | Sets default max row for an empty worksheet. |
+| [setEnableChartClientRendering(boolean value)](#setEnableChartClientRendering-boolean-) | Sets whether to enable client-side chart rendering. |
 | [setFileCacheDirectory(String value)](#setFileCacheDirectory-java.lang.String-) | Sets the cache directory for storing spreadsheet file. |
 | [setFontFolders(String[] value)](#setFontFolders-java.lang.String---) | Sets the fonts folders for fonts in the rendered pictures/shapes |
 | [setIgnoreEmptyContent(boolean value)](#setIgnoreEmptyContent-boolean-) | Sets whether to show the max range which includes data ,style, merged cells and shapes. |
@@ -169,6 +171,16 @@ Gets default max row for an empty worksheet. the default value is 12.
 
 **Returns:**
 int
+### getEnableChartClientRendering() {#getEnableChartClientRendering--}
+```
+public boolean getEnableChartClientRendering()
+```
+
+
+Gets whether to enable client-side chart rendering. If set to false, GridJs will emit chart images/shapes only and will not require client-side chart rendering. the default value is true.
+
+**Returns:**
+boolean
 ### getFileCacheDirectory() {#getFileCacheDirectory--}
 ```
 public String getFileCacheDirectory()
@@ -442,6 +454,19 @@ Sets default max row for an empty worksheet. the default value is 12.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setEnableChartClientRendering(boolean value) {#setEnableChartClientRendering-boolean-}
+```
+public void setEnableChartClientRendering(boolean value)
+```
+
+
+Sets whether to enable client-side chart rendering. If set to false, GridJs will emit chart images/shapes only and will not require client-side chart rendering. the default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFileCacheDirectory(String value) {#setFileCacheDirectory-java.lang.String-}
 ```
