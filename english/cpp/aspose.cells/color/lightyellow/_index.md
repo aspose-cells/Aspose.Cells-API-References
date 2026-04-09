@@ -4,7 +4,7 @@ linktitle: LightYellow
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightYellow method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13800
+weight: 14200
 url: /cpp/aspose.cells/color/lightyellow/
 ---
 ## Color::LightYellow method

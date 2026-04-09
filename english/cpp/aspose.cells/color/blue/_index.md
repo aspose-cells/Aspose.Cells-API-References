@@ -4,7 +4,7 @@ linktitle: Blue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Blue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 500
+weight: 900
 url: /cpp/aspose.cells/color/blue/
 ---
 ## Color::Blue method

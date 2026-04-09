@@ -4,7 +4,7 @@ linktitle: HotPink
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use HotPink method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11600
+weight: 12000
 url: /cpp/aspose.cells/color/hotpink/
 ---
 ## Color::HotPink method

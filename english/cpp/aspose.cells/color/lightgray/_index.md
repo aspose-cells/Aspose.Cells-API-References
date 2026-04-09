@@ -4,7 +4,7 @@ linktitle: LightGray
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightGray method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8000
+weight: 8400
 url: /cpp/aspose.cells/color/lightgray/
 ---
 ## Color::LightGray method

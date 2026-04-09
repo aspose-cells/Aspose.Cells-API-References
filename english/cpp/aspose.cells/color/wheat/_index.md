@@ -4,7 +4,7 @@ linktitle: Wheat
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Wheat method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10000
+weight: 10400
 url: /cpp/aspose.cells/color/wheat/
 ---
 ## Color::Wheat method

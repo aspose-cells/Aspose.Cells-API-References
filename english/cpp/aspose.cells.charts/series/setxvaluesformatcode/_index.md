@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::Series::SetXValuesFormatCode method
 linktitle: SetXValuesFormatCode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::SetXValuesFormatCode method. Represents format code of X Values''s NumberList in C++.'
+description: 'Aspose::Cells::Charts::Series::SetXValuesFormatCode method. Represents format code of X Values'' NumberList in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells.charts/series/setxvaluesformatcode/
 ---
 ## Series::SetXValuesFormatCode(const U16String\&) method
 
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 ```cpp
 void Aspose::Cells::Charts::Series::SetXValuesFormatCode(const U16String &value)
@@ -26,7 +26,7 @@ void Aspose::Cells::Charts::Series::SetXValuesFormatCode(const U16String &value)
 ## Series::SetXValuesFormatCode(const char16_t*) method
 
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 ```cpp
 void Aspose::Cells::Charts::Series::SetXValuesFormatCode(const char16_t *value)

@@ -4,7 +4,7 @@ linktitle: Chocolate
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Chocolate method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7800
+weight: 8200
 url: /cpp/aspose.cells/color/chocolate/
 ---
 ## Color::Chocolate method

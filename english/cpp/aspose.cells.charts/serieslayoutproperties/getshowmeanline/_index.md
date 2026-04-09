@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanLine method
 linktitle: GetShowMeanLine
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanLine method. Indicates whether showing the line connecting all mean points in C++.'
+description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanLine method. Indicates whether to show the line connecting all mean points in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowmeanline/
@@ -10,12 +10,16 @@ url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowmeanline/
 ## SeriesLayoutProperties::GetShowMeanLine method
 
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
 
 ```cpp
 bool Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanLine()
 ```
 
+## Remarks
+
+
+Only works for BoxWhisker chart. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

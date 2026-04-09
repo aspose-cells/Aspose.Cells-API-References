@@ -4,7 +4,7 @@ linktitle: HoneyDew
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use HoneyDew method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9700
+weight: 10100
 url: /cpp/aspose.cells/color/honeydew/
 ---
 ## Color::HoneyDew method

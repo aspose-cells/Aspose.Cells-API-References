@@ -4,7 +4,7 @@ linktitle: White
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use White method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 14000
+weight: 14400
 url: /cpp/aspose.cells/color/white/
 ---
 ## Color::White method

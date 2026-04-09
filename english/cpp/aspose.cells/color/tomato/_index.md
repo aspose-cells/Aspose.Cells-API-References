@@ -4,7 +4,7 @@ linktitle: Tomato
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Tomato method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11500
+weight: 11900
 url: /cpp/aspose.cells/color/tomato/
 ---
 ## Color::Tomato method

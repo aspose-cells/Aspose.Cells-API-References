@@ -4,7 +4,7 @@ linktitle: BlanchedAlmond
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use BlanchedAlmond method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12900
+weight: 13300
 url: /cpp/aspose.cells/color/blanchedalmond/
 ---
 ## Color::BlanchedAlmond method

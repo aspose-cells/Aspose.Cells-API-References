@@ -4,7 +4,7 @@ linktitle: GhostWhite
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use GhostWhite method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10400
+weight: 10800
 url: /cpp/aspose.cells/color/ghostwhite/
 ---
 ## Color::GhostWhite method

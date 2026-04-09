@@ -16,6 +16,10 @@ Gets and sets the region type of the map.
 void Aspose::Cells::Charts::SeriesLayoutProperties::SetMapChartRegionType(MapChartRegionType value)
 ```
 
+## Remarks
+
+
+Only for map chart. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

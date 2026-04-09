@@ -16,6 +16,10 @@ Gets and sets the region type of the map.
 MapChartRegionType Aspose::Cells::Charts::SeriesLayoutProperties::GetMapChartRegionType()
 ```
 
+## Remarks
+
+
+Only for map chart. 
 ## See Also
 
 * Enum [MapChartRegionType](../../mapchartregiontype/)

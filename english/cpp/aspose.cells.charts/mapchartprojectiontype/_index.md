@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::MapChartProjectionType enum
 linktitle: MapChartProjectionType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::MapChartProjectionType enum. Represents projection type of the map chart in C++.'
+description: 'Aspose::Cells::Charts::MapChartProjectionType enum. Represents the projection type of the map chart in C++.'
 type: docs
-weight: 5600
+weight: 5800
 url: /cpp/aspose.cells.charts/mapchartprojectiontype/
 ---
 ## MapChartProjectionType enum
 
 
-Represents projection type of the map chart.
+Represents the projection type of the map chart.
 
 ```cpp
 enum class MapChartProjectionType

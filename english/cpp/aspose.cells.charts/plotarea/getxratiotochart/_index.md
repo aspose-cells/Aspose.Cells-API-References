@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetXRatioToChart method
 linktitle: GetXRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetXRatioToChart method. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetXRatioToChart method. Gets or sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area in C++.'
 type: docs
 weight: 2200
 url: /cpp/aspose.cells.charts/plotarea/getxratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getxratiotochart/
 ## PlotArea::GetXRatioToChart method
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area.
 
 ```cpp
 double Aspose::Cells::Charts::PlotArea::GetXRatioToChart()

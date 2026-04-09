@@ -4,7 +4,7 @@ linktitle: r
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use r field of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 14300
+weight: 14600
 url: /cpp/aspose.cells/color/r/
 ---
 ## r field

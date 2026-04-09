@@ -4,7 +4,7 @@ linktitle: SetBubbleSizes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetBubbleSizes method. Gets or sets the bubble sizes values of the chart series in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells.charts/series/setbubblesizes/
 ---
 ## Series::SetBubbleSizes(const U16String\&) method
@@ -16,6 +16,10 @@ Gets or sets the bubble sizes values of the chart series.
 void Aspose::Cells::Charts::Series::SetBubbleSizes(const U16String &value)
 ```
 
+## Remarks
+
+
+Only for [ChartType.Bubble](../../charttype/) or [ChartType.Bubble3D](../../charttype/). 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -32,6 +36,10 @@ Gets or sets the bubble sizes values of the chart series.
 void Aspose::Cells::Charts::Series::SetBubbleSizes(const char16_t *value)
 ```
 
+## Remarks
+
+
+Only for [ChartType.Bubble](../../charttype/) or [ChartType.Bubble3D](../../charttype/). 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

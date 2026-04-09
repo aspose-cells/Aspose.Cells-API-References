@@ -4,7 +4,7 @@ linktitle: LavenderBlush
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LavenderBlush method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13100
+weight: 13500
 url: /cpp/aspose.cells/color/lavenderblush/
 ---
 ## Color::LavenderBlush method

@@ -4,7 +4,7 @@ linktitle: LabelPositionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::LabelPositionType enum. Represents data label position type in C++.'
 type: docs
-weight: 5300
+weight: 5500
 url: /cpp/aspose.cells.charts/labelpositiontype/
 ---
 ## LabelPositionType enum
@@ -20,7 +20,7 @@ enum class LabelPositionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 0 | <br>Applies only to bar, 2d/3d pie charts. |
+| Center | 0 | <br>Applies only to bar, 2D/3D pie charts. |
 | InsideBase | 1 | <br>Applies only to bar, 2d/3d pie charts. |
 | InsideEnd | 2 | <br>Applies only to bar charts. |
 | OutsideEnd | 3 | <br>Applies only to bar, 2d/3d pie charts. |
@@ -28,8 +28,8 @@ enum class LabelPositionType
 | Below | 5 | <br>Applies only to line charts. |
 | Left | 6 | <br>Applies only to line charts. |
 | Right | 7 | <br>Applies only to line charts. |
-| BestFit | 8 | <br>Applies only to 2d/3d pie charts. |
-| Moved | 9 | <br>User moved the data labels, Only for reading chart from template file. |
+| BestFit | 8 | <br>Applies only to 2D/3D pie charts. |
+| Moved | 9 | <br>User moved the data labels only for reading the chart from the template file. |
 
 ## See Also
 

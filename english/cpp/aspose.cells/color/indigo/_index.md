@@ -4,7 +4,7 @@ linktitle: Indigo
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Indigo method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3000
+weight: 3400
 url: /cpp/aspose.cells/color/indigo/
 ---
 ## Color::Indigo method

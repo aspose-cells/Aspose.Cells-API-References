@@ -4,7 +4,7 @@ linktitle: CornflowerBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use CornflowerBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3300
+weight: 3700
 url: /cpp/aspose.cells/color/cornflowerblue/
 ---
 ## Color::CornflowerBlue method

@@ -4,7 +4,7 @@ linktitle: MintCream
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use MintCream method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10300
+weight: 10700
 url: /cpp/aspose.cells/color/mintcream/
 ---
 ## Color::MintCream method

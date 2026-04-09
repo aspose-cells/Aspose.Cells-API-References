@@ -4,7 +4,7 @@ linktitle: LightBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6400
+weight: 6800
 url: /cpp/aspose.cells/color/lightblue/
 ---
 ## Color::LightBlue method

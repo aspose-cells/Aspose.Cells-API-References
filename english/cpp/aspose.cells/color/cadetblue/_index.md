@@ -4,7 +4,7 @@ linktitle: CadetBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use CadetBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3200
+weight: 3600
 url: /cpp/aspose.cells/color/cadetblue/
 ---
 ## Color::CadetBlue method

@@ -4,7 +4,7 @@ linktitle: OrangeRed
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use OrangeRed method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11400
+weight: 11800
 url: /cpp/aspose.cells/color/orangered/
 ---
 ## Color::OrangeRed method

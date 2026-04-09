@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetX method
 linktitle: GetX
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetX method. Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetX method. Gets or sets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.charts/plotarea/getx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getx/
 ## PlotArea::GetX method
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets or sets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 
 >Deprecated

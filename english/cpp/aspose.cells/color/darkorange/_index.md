@@ -4,7 +4,7 @@ linktitle: DarkOrange
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkOrange method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11800
+weight: 12200
 url: /cpp/aspose.cells/color/darkorange/
 ---
 ## Color::DarkOrange method

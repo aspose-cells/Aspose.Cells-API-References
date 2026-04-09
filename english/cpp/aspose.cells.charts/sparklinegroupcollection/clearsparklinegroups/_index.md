@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklineGroups method
 linktitle: ClearSparklineGroups
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklineGroups method. Clears the sparkline groups that overlaps an area of cells in C++.'
+description: 'Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklineGroups method. Clears the sparkline groups that overlap an area of cells in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.charts/sparklinegroupcollection/clearsparklinegroups/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/sparklinegroupcollection/clearsparklinegroups/
 ## SparklineGroupCollection::ClearSparklineGroups method
 
 
-Clears the sparkline groups that overlaps an area of cells.
+Clears the sparkline groups that overlap an area of cells.
 
 ```cpp
 void Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklineGroups(const CellArea &cellArea)

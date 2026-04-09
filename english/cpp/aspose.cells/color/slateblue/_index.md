@@ -4,7 +4,7 @@ linktitle: SlateBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use SlateBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3600
+weight: 4000
 url: /cpp/aspose.cells/color/slateblue/
 ---
 ## Color::SlateBlue method

@@ -4,7 +4,7 @@ linktitle: LightGoldenRodYellow
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightGoldenRodYellow method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10800
+weight: 11200
 url: /cpp/aspose.cells/color/lightgoldenrodyellow/
 ---
 ## Color::LightGoldenRodYellow method

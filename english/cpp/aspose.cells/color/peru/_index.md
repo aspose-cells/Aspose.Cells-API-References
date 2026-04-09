@@ -4,7 +4,7 @@ linktitle: Peru
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Peru method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7700
+weight: 8100
 url: /cpp/aspose.cells/color/peru/
 ---
 ## Color::Peru method

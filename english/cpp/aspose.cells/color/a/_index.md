@@ -4,7 +4,7 @@ linktitle: a
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use a field of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 14200
+weight: 14500
 url: /cpp/aspose.cells/color/a/
 ---
 ## a field

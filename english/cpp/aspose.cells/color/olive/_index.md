@@ -4,7 +4,7 @@ linktitle: Olive
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Olive method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 4600
+weight: 5000
 url: /cpp/aspose.cells/color/olive/
 ---
 ## Color::Olive method

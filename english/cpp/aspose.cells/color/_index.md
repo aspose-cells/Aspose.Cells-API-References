@@ -4,7 +4,7 @@ linktitle: Color
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Color struct. Represents an ARGB (alpha, red, green, blue) color in C++.'
 type: docs
-weight: 28400
+weight: 28700
 url: /cpp/aspose.cells/color/
 ---
 ## Color struct
@@ -66,6 +66,8 @@ struct Color
 | static [FloralWhite()](./floralwhite/) |  |
 | static [ForestGreen()](./forestgreen/) |  |
 | static [FromArgb(int32_t value)](./fromargb/) | Creates a [Color](./) from its 32-bit component (alpha, red, green, and blue) values. |
+| static [FromHex(const U16String\& hex)](./fromhex/) | Creates a [Color](./) from a hexadecimal color string. |
+| static [FromName(const U16String\& name)](./fromname/) | Creates a [Color](./) from a predefined color name. |
 | static [Fuchsia()](./fuchsia/) |  |
 | static [Gainsboro()](./gainsboro/) |  |
 | static [GhostWhite()](./ghostwhite/) |  |
@@ -153,6 +155,7 @@ struct Color
 | static [Tan()](./tan/) |  |
 | static [Teal()](./teal/) |  |
 | static [Thistle()](./thistle/) |  |
+| [ToHex(bool withAlpha)](./tohex/) const | Converts the current [Color](./) to its hexadecimal string representation. |
 | static [Tomato()](./tomato/) |  |
 | static [Turquoise()](./turquoise/) |  |
 | static [Violet()](./violet/) |  |

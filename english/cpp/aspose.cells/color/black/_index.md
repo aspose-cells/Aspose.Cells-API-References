@@ -4,7 +4,7 @@ linktitle: Black
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Black method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 100
+weight: 500
 url: /cpp/aspose.cells/color/black/
 ---
 ## Color::Black method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::AxisBins::SetWidth method
 linktitle: SetWidth
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::AxisBins::SetWidth method. Gets or sets the width of axis bin in C++.'
+description: 'Aspose::Cells::Charts::AxisBins::SetWidth method. Gets or sets the width of the axis bin in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.charts/axisbins/setwidth/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/axisbins/setwidth/
 ## AxisBins::SetWidth method
 
 
-Gets or sets the width of axis bin.
+Gets or sets the width of the axis bin.
 
 ```cpp
 void Aspose::Cells::Charts::AxisBins::SetWidth(double value)

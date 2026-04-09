@@ -4,7 +4,7 @@ linktitle: Turquoise
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Turquoise method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells/color/turquoise/
 ---
 ## Color::Turquoise method

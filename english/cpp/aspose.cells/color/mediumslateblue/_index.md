@@ -4,7 +4,7 @@ linktitle: MediumSlateBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use MediumSlateBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 4000
+weight: 4400
 url: /cpp/aspose.cells/color/mediumslateblue/
 ---
 ## Color::MediumSlateBlue method

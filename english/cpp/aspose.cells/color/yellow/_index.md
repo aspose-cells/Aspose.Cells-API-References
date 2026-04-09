@@ -4,7 +4,7 @@ linktitle: Yellow
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Yellow method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13700
+weight: 14100
 url: /cpp/aspose.cells/color/yellow/
 ---
 ## Color::Yellow method

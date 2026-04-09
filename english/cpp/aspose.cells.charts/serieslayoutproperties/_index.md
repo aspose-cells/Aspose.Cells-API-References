@@ -4,7 +4,7 @@ linktitle: SeriesLayoutProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesLayoutProperties class. Represents the properties of series layout in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.charts/serieslayoutproperties/
 ---
 ## SeriesLayoutProperties class
@@ -24,11 +24,11 @@ class SeriesLayoutProperties
 | [GetMapChartRegionType()](./getmapchartregiontype/) | Gets and sets the region type of the map. |
 | [GetMapLabelLayout()](./getmaplabellayout/) | Gets and sets the layout of map labels. |
 | [GetQuartileCalculation()](./getquartilecalculation/) | Represents the statistical properties for the series. |
-| [GetShowConnectorLines()](./getshowconnectorlines/) | Indicates whether showing connector lines between data points. |
-| [GetShowInnerPoints()](./getshowinnerpoints/) | Indicates whether showing non-outlier data points. |
-| [GetShowMeanLine()](./getshowmeanline/) | Indicates whether showing the line connecting all mean points. |
-| [GetShowMeanMarker()](./getshowmeanmarker/) | Indicates whether showing markers denoting the mean. |
-| [GetShowOutlierPoints()](./getshowoutlierpoints/) | Indicates whether showing outlier data points. |
+| [GetShowConnectorLines()](./getshowconnectorlines/) | Indicates whether connector lines are shown between data points. |
+| [GetShowInnerPoints()](./getshowinnerpoints/) | Indicates whether to show non-outlier data points. |
+| [GetShowMeanLine()](./getshowmeanline/) | Indicates whether to show the line connecting all mean points. |
+| [GetShowMeanMarker()](./getshowmeanmarker/) | Indicates whether markers denoting the mean are shown. |
+| [GetShowOutlierPoints()](./getshowoutlierpoints/) | Indicates whether outlier data points are shown. |
 | [GetSubtotals()](./getsubtotals/) | Represents the index of a subtotal data point. |
 | [IsIntervalLeftClosed()](./isintervalleftclosed/) | Indicates whether the interval is closed on the left side. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -42,11 +42,11 @@ class SeriesLayoutProperties
 | [SetMapChartRegionType(MapChartRegionType value)](./setmapchartregiontype/) | Gets and sets the region type of the map. |
 | [SetMapLabelLayout(MapChartLabelLayout value)](./setmaplabellayout/) | Gets and sets the layout of map labels. |
 | [SetQuartileCalculation(QuartileCalculationType value)](./setquartilecalculation/) | Represents the statistical properties for the series. |
-| [SetShowConnectorLines(bool value)](./setshowconnectorlines/) | Indicates whether showing connector lines between data points. |
-| [SetShowInnerPoints(bool value)](./setshowinnerpoints/) | Indicates whether showing non-outlier data points. |
-| [SetShowMeanLine(bool value)](./setshowmeanline/) | Indicates whether showing the line connecting all mean points. |
-| [SetShowMeanMarker(bool value)](./setshowmeanmarker/) | Indicates whether showing markers denoting the mean. |
-| [SetShowOutlierPoints(bool value)](./setshowoutlierpoints/) | Indicates whether showing outlier data points. |
+| [SetShowConnectorLines(bool value)](./setshowconnectorlines/) | Indicates whether connector lines are shown between data points. |
+| [SetShowInnerPoints(bool value)](./setshowinnerpoints/) | Indicates whether to show non-outlier data points. |
+| [SetShowMeanLine(bool value)](./setshowmeanline/) | Indicates whether to show the line connecting all mean points. |
+| [SetShowMeanMarker(bool value)](./setshowmeanmarker/) | Indicates whether markers denoting the mean are shown. |
+| [SetShowOutlierPoints(bool value)](./setshowoutlierpoints/) | Indicates whether outlier data points are shown. |
 | [SetSubtotals(const Vector \<int32_t\>\& value)](./setsubtotals/) | Represents the index of a subtotal data point. |
 | [~SeriesLayoutProperties()](./~serieslayoutproperties/) | Destructor. |
 ## Fields
@@ -54,6 +54,10 @@ class SeriesLayoutProperties
 | Field | Description |
 | --- | --- |
 | [_impl](./_impl/) | The implementation object. |
+## Remarks
+
+
+Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and Histogram chart. 
 ## See Also
 
 * Namespace [Aspose::Cells::Charts](../)

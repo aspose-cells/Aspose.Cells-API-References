@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetInnerXRatioToChart method
 linktitle: GetInnerXRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetInnerXRatioToChart method. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetInnerXRatioToChart method. Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.cells.charts/plotarea/getinnerxratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getinnerxratiotochart/
 ## PlotArea::GetInnerXRatioToChart method
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 ```cpp
 double Aspose::Cells::Charts::PlotArea::GetInnerXRatioToChart()

@@ -4,7 +4,7 @@ linktitle: Orange
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Orange method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12000
+weight: 12400
 url: /cpp/aspose.cells/color/orange/
 ---
 ## Color::Orange method

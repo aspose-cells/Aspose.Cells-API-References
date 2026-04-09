@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::AxisBins::GetUnderflow method
 linktitle: GetUnderflow
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::AxisBins::GetUnderflow method. Gets or set the underflow of axis bins in C++.'
+description: 'Aspose::Cells::Charts::AxisBins::GetUnderflow method. Gets or sets the underflow of axis bins in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells.charts/axisbins/getunderflow/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/axisbins/getunderflow/
 ## AxisBins::GetUnderflow method
 
 
-Gets or set the underflow of axis bins.
+Gets or sets the underflow of axis bins.
 
 ```cpp
 double Aspose::Cells::Charts::AxisBins::GetUnderflow()

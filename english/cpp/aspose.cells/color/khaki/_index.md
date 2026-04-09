@@ -4,7 +4,7 @@ linktitle: Khaki
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Khaki method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9500
+weight: 9900
 url: /cpp/aspose.cells/color/khaki/
 ---
 ## Color::Khaki method

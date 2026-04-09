@@ -16,6 +16,10 @@ Gets and sets the projection type of the map.
 MapChartProjectionType Aspose::Cells::Charts::SeriesLayoutProperties::GetMapChartProjectionType()
 ```
 
+## Remarks
+
+
+Only for map chart. 
 ## See Also
 
 * Enum [MapChartProjectionType](../../mapchartprojectiontype/)

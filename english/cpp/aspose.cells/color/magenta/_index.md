@@ -4,7 +4,7 @@ linktitle: Magenta
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Magenta method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11200
+weight: 11600
 url: /cpp/aspose.cells/color/magenta/
 ---
 ## Color::Magenta method

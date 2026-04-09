@@ -4,7 +4,7 @@ linktitle: DarkGoldenRod
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkGoldenRod method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7000
+weight: 7400
 url: /cpp/aspose.cells/color/darkgoldenrod/
 ---
 ## Color::DarkGoldenRod method

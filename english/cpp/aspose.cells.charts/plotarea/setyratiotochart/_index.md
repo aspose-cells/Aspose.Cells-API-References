@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetYRatioToChart method
 linktitle: SetYRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetYRatioToChart method. Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetYRatioToChart method. Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.cells.charts/plotarea/setyratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/setyratiotochart/
 ## PlotArea::SetYRatioToChart method
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 ```cpp
 void Aspose::Cells::Charts::PlotArea::SetYRatioToChart(double value)

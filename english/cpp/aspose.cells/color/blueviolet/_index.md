@@ -4,7 +4,7 @@ linktitle: BlueViolet
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use BlueViolet method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 5000
+weight: 5400
 url: /cpp/aspose.cells/color/blueviolet/
 ---
 ## Color::BlueViolet method

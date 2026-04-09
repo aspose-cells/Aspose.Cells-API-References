@@ -4,7 +4,7 @@ linktitle: LightSalmon
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightSalmon method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11900
+weight: 12300
 url: /cpp/aspose.cells/color/lightsalmon/
 ---
 ## Color::LightSalmon method

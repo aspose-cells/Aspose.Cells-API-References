@@ -4,7 +4,7 @@ linktitle: Thistle
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Thistle method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8100
+weight: 8500
 url: /cpp/aspose.cells/color/thistle/
 ---
 ## Color::Thistle method

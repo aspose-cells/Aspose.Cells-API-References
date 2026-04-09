@@ -4,7 +4,7 @@ linktitle: LightSkyBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightSkyBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 4900
+weight: 5300
 url: /cpp/aspose.cells/color/lightskyblue/
 ---
 ## Color::LightSkyBlue method

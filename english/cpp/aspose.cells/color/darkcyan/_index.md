@@ -4,7 +4,7 @@ linktitle: DarkCyan
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkCyan method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 900
+weight: 1300
 url: /cpp/aspose.cells/color/darkcyan/
 ---
 ## Color::DarkCyan method

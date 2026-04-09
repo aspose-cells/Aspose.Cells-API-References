@@ -4,7 +4,7 @@ linktitle: LightSlateGray
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightSlateGray method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3900
+weight: 4300
 url: /cpp/aspose.cells/color/lightslategray/
 ---
 ## Color::LightSlateGray method

@@ -4,7 +4,7 @@ linktitle: PaleGoldenRod
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use PaleGoldenRod method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9300
+weight: 9700
 url: /cpp/aspose.cells/color/palegoldenrod/
 ---
 ## Color::PaleGoldenRod method

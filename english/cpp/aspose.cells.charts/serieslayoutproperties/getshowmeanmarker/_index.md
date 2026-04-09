@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanMarker method
 linktitle: GetShowMeanMarker
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanMarker method. Indicates whether showing markers denoting the mean in C++.'
+description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanMarker method. Indicates whether markers denoting the mean are shown in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowmeanmarker/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowmeanmarker/
 ## SeriesLayoutProperties::GetShowMeanMarker method
 
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 ```cpp
 bool Aspose::Cells::Charts::SeriesLayoutProperties::GetShowMeanMarker()

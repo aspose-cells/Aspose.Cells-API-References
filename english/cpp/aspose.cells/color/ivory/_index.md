@@ -4,7 +4,7 @@ linktitle: Ivory
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Ivory method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13900
+weight: 14300
 url: /cpp/aspose.cells/color/ivory/
 ---
 ## Color::Ivory method

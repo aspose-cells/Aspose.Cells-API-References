@@ -2,15 +2,15 @@
 title: Aspose::Cells::Date::month field
 linktitle: month
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use month field of Aspose::Cells::Date class in C++.'
+description: 'Aspose::Cells::Date::month field. Month component (1-12) in C++.'
 type: docs
-weight: 200
+weight: 2600
 url: /cpp/aspose.cells/date/month/
 ---
 ## month field
 
 
-
+Month component (1-12).
 
 ```cpp
 int32_t Aspose::Cells::Date::month

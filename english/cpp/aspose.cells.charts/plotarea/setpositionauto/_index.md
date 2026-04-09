@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetPositionAuto method
 linktitle: SetPositionAuto
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetPositionAuto method. Set position of the plot area to automatic in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetPositionAuto method. Set the position of the plot area to automatic in C++.'
 type: docs
 weight: 3800
 url: /cpp/aspose.cells.charts/plotarea/setpositionauto/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/setpositionauto/
 ## PlotArea::SetPositionAuto method
 
 
-Set position of the plot area to automatic.
+Set the position of the plot area to automatic.
 
 ```cpp
 void Aspose::Cells::Charts::PlotArea::SetPositionAuto()

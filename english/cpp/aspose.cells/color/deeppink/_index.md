@@ -4,7 +4,7 @@ linktitle: DeepPink
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DeepPink method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11300
+weight: 11700
 url: /cpp/aspose.cells/color/deeppink/
 ---
 ## Color::DeepPink method

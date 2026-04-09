@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Series::IsFiltered method
 linktitle: IsFiltered
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::IsFiltered method. Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart in C++.'
+description: 'Aspose::Cells::Charts::Series::IsFiltered method. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.charts/series/isfiltered/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/series/isfiltered/
 ## Series::IsFiltered method
 
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```cpp
 bool Aspose::Cells::Charts::Series::IsFiltered()

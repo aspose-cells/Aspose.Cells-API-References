@@ -4,7 +4,7 @@ linktitle: GreenYellow
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use GreenYellow method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6500
+weight: 6900
 url: /cpp/aspose.cells/color/greenyellow/
 ---
 ## Color::GreenYellow method

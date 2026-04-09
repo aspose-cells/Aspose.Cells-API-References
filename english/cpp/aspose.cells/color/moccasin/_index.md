@@ -4,7 +4,7 @@ linktitle: Moccasin
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Moccasin method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12600
+weight: 13000
 url: /cpp/aspose.cells/color/moccasin/
 ---
 ## Color::Moccasin method

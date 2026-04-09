@@ -4,7 +4,7 @@ linktitle: DarkTurquoise
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkTurquoise method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 1100
+weight: 1500
 url: /cpp/aspose.cells/color/darkturquoise/
 ---
 ## Color::DarkTurquoise method

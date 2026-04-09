@@ -4,7 +4,7 @@ linktitle: DarkGray
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkGray method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6300
+weight: 6700
 url: /cpp/aspose.cells/color/darkgray/
 ---
 ## Color::DarkGray method

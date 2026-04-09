@@ -4,7 +4,7 @@ linktitle: Violet
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Violet method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9200
+weight: 9600
 url: /cpp/aspose.cells/color/violet/
 ---
 ## Color::Violet method

@@ -4,7 +4,7 @@ linktitle: Orchid
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Orchid method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8200
+weight: 8600
 url: /cpp/aspose.cells/color/orchid/
 ---
 ## Color::Orchid method

@@ -30,6 +30,7 @@ class CopyOptions
 | [GetKeepMacros()](./getkeepmacros/) | Indicates whether keeping macros;. |
 | [GetReferToDestinationSheet()](./getrefertodestinationsheet/) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
 | [GetReferToSheetWithSameName()](./getrefertosheetwithsamename/) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
+| [GetUpdateInvalidReferencesToTargetSheet()](./getupdateinvalidreferencestotargetsheet/) | Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CopyOptions\& src)](./operator_asm/) | operator= |
@@ -40,6 +41,7 @@ class CopyOptions
 | [SetKeepMacros(bool value)](./setkeepmacros/) | Indicates whether keeping macros;. |
 | [SetReferToDestinationSheet(bool value)](./setrefertodestinationsheet/) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
 | [SetReferToSheetWithSameName(bool value)](./setrefertosheetwithsamename/) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
+| [SetUpdateInvalidReferencesToTargetSheet(bool value)](./setupdateinvalidreferencestotargetsheet/) | Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
 | [~CopyOptions()](./~copyoptions/) | Destructor. |
 ## Fields
 

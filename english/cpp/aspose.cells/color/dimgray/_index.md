@@ -4,7 +4,7 @@ linktitle: DimGray
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DimGray method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3500
+weight: 3900
 url: /cpp/aspose.cells/color/dimgray/
 ---
 ## Color::DimGray method

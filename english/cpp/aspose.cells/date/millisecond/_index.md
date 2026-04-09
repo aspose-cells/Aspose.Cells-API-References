@@ -2,15 +2,15 @@
 title: Aspose::Cells::Date::millisecond field
 linktitle: millisecond
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use millisecond field of Aspose::Cells::Date class in C++.'
+description: 'Aspose::Cells::Date::millisecond field. Millisecond component (0-999) in C++.'
 type: docs
-weight: 700
+weight: 3100
 url: /cpp/aspose.cells/date/millisecond/
 ---
 ## millisecond field
 
 
-
+Millisecond component (0-999).
 
 ```cpp
 int32_t Aspose::Cells::Date::millisecond

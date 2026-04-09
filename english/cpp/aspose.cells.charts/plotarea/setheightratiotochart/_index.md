@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetHeightRatioToChart method
 linktitle: SetHeightRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetHeightRatioToChart method. Gets or sets the height of plot-area bounding box in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetHeightRatioToChart method. Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area in C++.'
 type: docs
 weight: 2700
 url: /cpp/aspose.cells.charts/plotarea/setheightratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/setheightratiotochart/
 ## PlotArea::SetHeightRatioToChart method
 
 
-Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area.
 
 ```cpp
 void Aspose::Cells::Charts::PlotArea::SetHeightRatioToChart(double value)

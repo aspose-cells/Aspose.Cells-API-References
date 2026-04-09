@@ -4,7 +4,7 @@ linktitle: SparklineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineType enum. Represents the sparkline types in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells.charts/sparklinetype/
 ---
 ## SparklineType enum
@@ -22,7 +22,7 @@ enum class SparklineType
 | --- | --- | --- |
 | Line | 0 | <br>Line sparkline. |
 | Column | 1 | <br>[Column](../../aspose.cells/column/) sparkline. |
-| Stacked | 2 | <br>Win/Loss sparkline. |
+| Stacked | 2 | <br>Represents a Win/Loss sparkline. |
 
 ## See Also
 

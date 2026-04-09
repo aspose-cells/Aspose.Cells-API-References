@@ -4,7 +4,7 @@ linktitle: Brown
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Brown method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6200
+weight: 6600
 url: /cpp/aspose.cells/color/brown/
 ---
 ## Color::Brown method

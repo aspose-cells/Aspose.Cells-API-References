@@ -4,7 +4,7 @@ linktitle: LightPink
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightPink method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12100
+weight: 12500
 url: /cpp/aspose.cells/color/lightpink/
 ---
 ## Color::LightPink method

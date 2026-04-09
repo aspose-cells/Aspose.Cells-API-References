@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklines method
 linktitle: ClearSparklines
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklines method. Clears the sparklines that is inside an area of cells in C++.'
+description: 'Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklines method. Clears the sparklines that are inside an area of cells in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.charts/sparklinegroupcollection/clearsparklines/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/sparklinegroupcollection/clearsparklines/
 ## SparklineGroupCollection::ClearSparklines method
 
 
-Clears the sparklines that is inside an area of cells.
+Clears the sparklines that are inside an area of cells.
 
 ```cpp
 void Aspose::Cells::Charts::SparklineGroupCollection::ClearSparklines(const CellArea &cellArea)

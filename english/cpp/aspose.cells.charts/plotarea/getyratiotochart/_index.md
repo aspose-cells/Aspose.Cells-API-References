@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetYRatioToChart method
 linktitle: GetYRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetYRatioToChart method. Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetYRatioToChart method. Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area in C++.'
 type: docs
 weight: 2400
 url: /cpp/aspose.cells.charts/plotarea/getyratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getyratiotochart/
 ## PlotArea::GetYRatioToChart method
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 ```cpp
 double Aspose::Cells::Charts::PlotArea::GetYRatioToChart()

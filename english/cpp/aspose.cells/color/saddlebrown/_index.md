@@ -4,7 +4,7 @@ linktitle: SaddleBrown
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use SaddleBrown method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 5300
+weight: 5700
 url: /cpp/aspose.cells/color/saddlebrown/
 ---
 ## Color::SaddleBrown method

@@ -4,7 +4,7 @@ linktitle: Pink
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Pink method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12200
+weight: 12600
 url: /cpp/aspose.cells/color/pink/
 ---
 ## Color::Pink method
