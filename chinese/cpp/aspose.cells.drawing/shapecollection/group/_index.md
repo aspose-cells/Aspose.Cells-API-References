@@ -1,0 +1,53 @@
+﻿---
+title: Aspose::Cells::Drawing::ShapeCollection::Group method
+linktitle: Group
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Drawing::ShapeCollection::Group method. Group the shapes in C++.'
+type: docs
+weight: 4600
+url: /zh/cpp/aspose.cells.drawing/shapecollection/group/
+---
+## ShapeCollection::Group method
+
+
+Group the shapes.
+
+```cpp
+GroupShape Aspose::Cells::Drawing::ShapeCollection::Group(const Vector<Shape> &groupItems)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groupItems | const Vector \<Shape\>\& | the group items. |
+
+## ReturnValue
+
+Return the group shape.
+## Remarks
+
+
+
+The shape in the groupItems should not be grouped. The shape must be in this Shapes collection.
+
+## Examples
+
+
+```cpp
+    //添加第一个形状
+shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+//添加第二个形状
+shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+
+Vector<Shape> shapesArr{ shapes.Get(0), shapes.Get(1) };
+GroupShape groupShape = shapes.Group(shapesArr);
+```
+
+## See Also
+
+* Class [GroupShape](../../groupshape/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [Shape](../../shape/)
+* Class [ShapeCollection](../)
+* Namespace [Aspose::Cells::Drawing](../../)
+* Library [Aspose.Cells for C++](../../../)
