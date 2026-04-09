@@ -22,8 +22,8 @@ class SparklineGroupCollection;
 | [get(number)](#get-number-)| Gets the [SparklineGroup](../sparklinegroup/) element at the specified index. |
 | [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection. |
 | [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](../sparklinegroup/) with some [Sparkline](../sparkline/) to the collection. |
-| [clearSparklines(CellArea)](#clearSparklines-cellarea-)| Clears the sparklines that is inside an area of cells. |
-| [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlaps an area of cells. |
+| [clearSparklines(CellArea)](#clearSparklines-cellarea-)| Clears the sparklines that are inside an area of cells. |
+| [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlap an area of cells. |
 
 
 ### get(number) {#get-number-}
@@ -86,7 +86,7 @@ This method will create sparklines too. If <paramref name="isVertical"/> is true
 
 ### clearSparklines(CellArea) {#clearSparklines-cellarea-}
 
-Clears the sparklines that is inside an area of cells.
+Clears the sparklines that are inside an area of cells.
 
 ```javascript
 clearSparklines(cellArea: CellArea) : void;
@@ -103,7 +103,7 @@ clearSparklines(cellArea: CellArea) : void;
 
 ### clearSparklineGroups(CellArea) {#clearSparklineGroups-cellarea-}
 
-Clears the sparkline groups that overlaps an area of cells.
+Clears the sparkline groups that overlap an area of cells.
 
 ```javascript
 clearSparklineGroups(cellArea: CellArea) : void;
