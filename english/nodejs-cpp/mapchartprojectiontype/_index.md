@@ -1,13 +1,13 @@
 ﻿---
 title: MapChartProjectionType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents projection type of the map chart.
+description: Represents the projection type of the map chart.
 type: docs
 url: /nodejs-cpp/mapchartprojectiontype/
 ---
 
 ## MapChartProjectionType enumeration
-Represents projection type of the map chart.
+Represents the projection type of the map chart.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

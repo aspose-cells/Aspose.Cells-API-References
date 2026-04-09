@@ -64,10 +64,10 @@ legend.position = LegendPositionType.Left;
 | [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
 | [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
 | [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
-| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels is deleted. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels are deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle. |
+| [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Readonly. Indicates whether the text of the chart is automatically rotated. |
 | [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
 | [isResizeShapeToFitText](#isResizeShapeToFitText--)| boolean | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
@@ -101,14 +101,14 @@ legend.position = LegendPositionType.Left;
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
-| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted. |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
 | [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
-| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle. |
 | [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the text of the chart is automatically rotated. |
 | [getReadingOrder()](#getReadingOrder--)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
 | [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
@@ -364,7 +364,7 @@ defaultHeightRatioToChart : number;
 
 ### isDeleted {#isDeleted--}
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 ```javascript
 isDeleted : boolean;
@@ -391,7 +391,7 @@ textVerticalAlignment : TextAlignmentType;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```javascript
 rotationAngle : number;
@@ -760,7 +760,7 @@ getDefaultHeightRatioToChart() : number;
 
 ### isDeleted() {#isDeleted--}
 
-<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted.
 
 ```javascript
 isDeleted() : boolean;
@@ -769,7 +769,7 @@ isDeleted() : boolean;
 
 ### setIsDeleted(boolean) {#setIsDeleted-boolean-}
 
-<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels is deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted.
 
 ```javascript
 setIsDeleted(value: boolean) : void;
@@ -834,7 +834,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle.
 
 ```javascript
 getRotationAngle() : number;
@@ -847,7 +847,7 @@ br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle.
 
 ```javascript
 setRotationAngle(value: number) : void;

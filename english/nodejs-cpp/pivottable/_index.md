@@ -34,7 +34,7 @@ class PivotTable;
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
 | [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
 | [topRightArea](#topRightArea--)| CellArea | Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
-| [filterArea](#filterArea--)| CellArea | Readonly. Gets the region of filter region. |
+| [filterArea](#filterArea--)| CellArea | Readonly. Gets the area of filter region. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [rowRange](#rowRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
 | [dataBodyRange](#dataBodyRange--)| CellArea | Readonly. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
@@ -129,7 +129,7 @@ class PivotTable;
 | [getBaseFields()](#getBaseFields--)| <b>@deprecated.</b> Please use the 'baseFields' property instead. Returns all base pivot fields in the PivotTable. |
 | [getPivotFilters()](#getPivotFilters--)| <b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters of pivot fields in the pivot table. |
 | [getTopRightArea()](#getTopRightArea--)| <b>@deprecated.</b> Please use the 'topRightArea' property instead. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
-| [getFilterArea()](#getFilterArea--)| <b>@deprecated.</b> Please use the 'filterArea' property instead. Gets the region of filter region. |
+| [getFilterArea()](#getFilterArea--)| <b>@deprecated.</b> Please use the 'filterArea' property instead. Gets the area of filter region. |
 | [getColumnRange()](#getColumnRange--)| <b>@deprecated.</b> Please use the 'columnRange' property instead. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [getRowRange()](#getRowRange--)| <b>@deprecated.</b> Please use the 'rowRange' property instead. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
 | [getDataBodyRange()](#getDataBodyRange--)| <b>@deprecated.</b> Please use the 'dataBodyRange' property instead. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
@@ -447,7 +447,7 @@ topRightArea : CellArea;
 
 ### filterArea {#filterArea--}
 
-Readonly. Gets the region of filter region.
+Readonly. Gets the area of filter region.
 
 ```javascript
 filterArea : CellArea;
@@ -456,7 +456,7 @@ filterArea : CellArea;
 
 **Remarks**
 
-Only valid if filter pivot fields exists.
+Only valid if filter pivot fields exists. An empty area will be returned if this pivot table does not contains filter pivot fields
 
 ### columnRange {#columnRange--}
 
@@ -1353,7 +1353,7 @@ getTopRightArea() : CellArea;
 
 ### getFilterArea() {#getFilterArea--}
 
-<b>@deprecated.</b> Please use the 'filterArea' property instead. Gets the region of filter region.
+<b>@deprecated.</b> Please use the 'filterArea' property instead. Gets the area of filter region.
 
 ```javascript
 getFilterArea() : CellArea;
@@ -1366,7 +1366,7 @@ getFilterArea() : CellArea;
 
 **Remarks**
 
-Only valid if filter pivot fields exists.
+Only valid if filter pivot fields exists. An empty area will be returned if this pivot table does not contains filter pivot fields
 
 ### getColumnRange() {#getColumnRange--}
 

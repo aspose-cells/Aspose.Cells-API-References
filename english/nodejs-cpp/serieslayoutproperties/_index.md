@@ -14,6 +14,8 @@ Represents the properties of series layout.
 class SeriesLayoutProperties;
 ```
 
+### Remarks
+Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and Histogram chart.
 
 ## Constructors
 
@@ -25,11 +27,11 @@ class SeriesLayoutProperties;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether showing connector lines between data points. |
-| [showMeanLine](#showMeanLine--)| boolean | Indicates whether showing the line connecting all mean points. |
-| [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether showing outlier data points. |
-| [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether showing markers denoting the mean. |
-| [showInnerPoints](#showInnerPoints--)| boolean | Indicates whether showing non-outlier data points. |
+| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are shown between data points. |
+| [showMeanLine](#showMeanLine--)| boolean | Indicates whether to show the line connecting all mean points. |
+| [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether outlier data points are shown. |
+| [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether markers denoting the mean are shown. |
+| [showInnerPoints](#showInnerPoints--)| boolean | Indicates whether to show non-outlier data points. |
 | [subtotals](#subtotals--)| number[] | Represents the index of a subtotal data point. |
 | [quartileCalculation](#quartileCalculation--)| QuartileCalculationType | Represents the statistical properties for the series. |
 | [mapLabelLayout](#mapLabelLayout--)| MapChartLabelLayout | Gets and sets the layout of map labels. |
@@ -41,16 +43,16 @@ class SeriesLayoutProperties;
 
 | Method | Description |
 | --- | --- |
-| [getShowConnectorLines()](#getShowConnectorLines--)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points. |
-| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points. |
-| [getShowMeanLine()](#getShowMeanLine--)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points. |
-| [setShowMeanLine(boolean)](#setShowMeanLine-boolean-)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points. |
-| [getShowOutlierPoints()](#getShowOutlierPoints--)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points. |
-| [setShowOutlierPoints(boolean)](#setShowOutlierPoints-boolean-)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points. |
-| [getShowMeanMarker()](#getShowMeanMarker--)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean. |
-| [setShowMeanMarker(boolean)](#setShowMeanMarker-boolean-)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean. |
-| [getShowInnerPoints()](#getShowInnerPoints--)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points. |
-| [setShowInnerPoints(boolean)](#setShowInnerPoints-boolean-)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points. |
+| [getShowConnectorLines()](#getShowConnectorLines--)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points. |
+| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points. |
+| [getShowMeanLine()](#getShowMeanLine--)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points. |
+| [setShowMeanLine(boolean)](#setShowMeanLine-boolean-)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points. |
+| [getShowOutlierPoints()](#getShowOutlierPoints--)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether outlier data points are shown. |
+| [setShowOutlierPoints(boolean)](#setShowOutlierPoints-boolean-)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether outlier data points are shown. |
+| [getShowMeanMarker()](#getShowMeanMarker--)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether markers denoting the mean are shown. |
+| [setShowMeanMarker(boolean)](#setShowMeanMarker-boolean-)| <b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether markers denoting the mean are shown. |
+| [getShowInnerPoints()](#getShowInnerPoints--)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether to show non-outlier data points. |
+| [setShowInnerPoints(boolean)](#setShowInnerPoints-boolean-)| <b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether to show non-outlier data points. |
 | [getSubtotals()](#getSubtotals--)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point. |
 | [setSubtotals(number[])](#setSubtotals-numberarray-)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Represents the index of a subtotal data point. |
 | [getQuartileCalculation()](#getQuartileCalculation--)| <b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series. |
@@ -77,25 +79,33 @@ constructor();
 
 ### showConnectorLines {#showConnectorLines--}
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
 
 ```javascript
 showConnectorLines : boolean;
 ```
 
 
+**Remarks**
+
+Only for Waterfall chart.
+
 ### showMeanLine {#showMeanLine--}
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
 
 ```javascript
 showMeanLine : boolean;
 ```
 
 
+**Remarks**
+
+Only works for BoxWhisker chart.
+
 ### showOutlierPoints {#showOutlierPoints--}
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 ```javascript
 showOutlierPoints : boolean;
@@ -104,7 +114,7 @@ showOutlierPoints : boolean;
 
 ### showMeanMarker {#showMeanMarker--}
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 ```javascript
 showMeanMarker : boolean;
@@ -113,7 +123,7 @@ showMeanMarker : boolean;
 
 ### showInnerPoints {#showInnerPoints--}
 
-Indicates whether showing non-outlier data points.
+Indicates whether to show non-outlier data points.
 
 ```javascript
 showInnerPoints : boolean;
@@ -138,6 +148,10 @@ quartileCalculation : QuartileCalculationType;
 ```
 
 
+**Remarks**
+
+Only applicable to BoxWhisker chart.
+
 ### mapLabelLayout {#mapLabelLayout--}
 
 Gets and sets the layout of map labels.
@@ -156,6 +170,10 @@ isIntervalLeftClosed : boolean;
 ```
 
 
+**Remarks**
+
+Only for ParetoLine chart.
+
 ### mapChartRegionType {#mapChartRegionType--}
 
 Gets and sets the region type of the map.
@@ -164,6 +182,10 @@ Gets and sets the region type of the map.
 mapChartRegionType : MapChartRegionType;
 ```
 
+
+**Remarks**
+
+Only for map chart.
 
 ### mapChartProjectionType {#mapChartProjectionType--}
 
@@ -174,18 +196,26 @@ mapChartProjectionType : MapChartProjectionType;
 ```
 
 
+**Remarks**
+
+Only for map chart.
+
 ### getShowConnectorLines() {#getShowConnectorLines--}
 
-<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points.
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points.
 
 ```javascript
 getShowConnectorLines() : boolean;
 ```
 
 
+**Remarks**
+
+Only for Waterfall chart.
+
 ### setShowConnectorLines(boolean) {#setShowConnectorLines-boolean-}
 
-<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether showing connector lines between data points.
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points.
 
 ```javascript
 setShowConnectorLines(value: boolean) : void;
@@ -196,18 +226,26 @@ setShowConnectorLines(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+Only for Waterfall chart.
+
 ### getShowMeanLine() {#getShowMeanLine--}
 
-<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points.
+<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points.
 
 ```javascript
 getShowMeanLine() : boolean;
 ```
 
 
+**Remarks**
+
+Only works for BoxWhisker chart.
+
 ### setShowMeanLine(boolean) {#setShowMeanLine-boolean-}
 
-<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether showing the line connecting all mean points.
+<b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points.
 
 ```javascript
 setShowMeanLine(value: boolean) : void;
@@ -218,9 +256,13 @@ setShowMeanLine(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+Only works for BoxWhisker chart.
+
 ### getShowOutlierPoints() {#getShowOutlierPoints--}
 
-<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points.
+<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether outlier data points are shown.
 
 ```javascript
 getShowOutlierPoints() : boolean;
@@ -229,7 +271,7 @@ getShowOutlierPoints() : boolean;
 
 ### setShowOutlierPoints(boolean) {#setShowOutlierPoints-boolean-}
 
-<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether showing outlier data points.
+<b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether outlier data points are shown.
 
 ```javascript
 setShowOutlierPoints(value: boolean) : void;
@@ -242,7 +284,7 @@ setShowOutlierPoints(value: boolean) : void;
 
 ### getShowMeanMarker() {#getShowMeanMarker--}
 
-<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean.
+<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether markers denoting the mean are shown.
 
 ```javascript
 getShowMeanMarker() : boolean;
@@ -251,7 +293,7 @@ getShowMeanMarker() : boolean;
 
 ### setShowMeanMarker(boolean) {#setShowMeanMarker-boolean-}
 
-<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether showing markers denoting the mean.
+<b>@deprecated.</b> Please use the 'showMeanMarker' property instead. Indicates whether markers denoting the mean are shown.
 
 ```javascript
 setShowMeanMarker(value: boolean) : void;
@@ -264,7 +306,7 @@ setShowMeanMarker(value: boolean) : void;
 
 ### getShowInnerPoints() {#getShowInnerPoints--}
 
-<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points.
+<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether to show non-outlier data points.
 
 ```javascript
 getShowInnerPoints() : boolean;
@@ -273,7 +315,7 @@ getShowInnerPoints() : boolean;
 
 ### setShowInnerPoints(boolean) {#setShowInnerPoints-boolean-}
 
-<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether showing non-outlier data points.
+<b>@deprecated.</b> Please use the 'showInnerPoints' property instead. Indicates whether to show non-outlier data points.
 
 ```javascript
 setShowInnerPoints(value: boolean) : void;
@@ -323,6 +365,10 @@ getQuartileCalculation() : QuartileCalculationType;
 
 [QuartileCalculationType](../quartilecalculationtype/)
 
+**Remarks**
+
+Only applicable to BoxWhisker chart.
+
 ### setQuartileCalculation(QuartileCalculationType) {#setQuartileCalculation-quartilecalculationtype-}
 
 <b>@deprecated.</b> Please use the 'quartileCalculation' property instead. Represents the statistical properties for the series.
@@ -335,6 +381,10 @@ setQuartileCalculation(value: QuartileCalculationType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [QuartileCalculationType](../quartilecalculationtype/) | The value to set. |
+
+**Remarks**
+
+Only applicable to BoxWhisker chart.
 
 ### getMapLabelLayout() {#getMapLabelLayout--}
 
@@ -371,6 +421,10 @@ isIntervalLeftClosed() : boolean;
 ```
 
 
+**Remarks**
+
+Only for ParetoLine chart.
+
 ### setIsIntervalLeftClosed(boolean) {#setIsIntervalLeftClosed-boolean-}
 
 <b>@deprecated.</b> Please use the 'isIntervalLeftClosed' property instead. Indicates whether the interval is closed on the left side.
@@ -383,6 +437,10 @@ setIsIntervalLeftClosed(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Only for ParetoLine chart.
 
 ### getMapChartRegionType() {#getMapChartRegionType--}
 
@@ -397,6 +455,10 @@ getMapChartRegionType() : MapChartRegionType;
 
 [MapChartRegionType](../mapchartregiontype/)
 
+**Remarks**
+
+Only for map chart.
+
 ### setMapChartRegionType(MapChartRegionType) {#setMapChartRegionType-mapchartregiontype-}
 
 <b>@deprecated.</b> Please use the 'mapChartRegionType' property instead. Gets and sets the region type of the map.
@@ -409,6 +471,10 @@ setMapChartRegionType(value: MapChartRegionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapChartRegionType](../mapchartregiontype/) | The value to set. |
+
+**Remarks**
+
+Only for map chart.
 
 ### getMapChartProjectionType() {#getMapChartProjectionType--}
 
@@ -423,6 +489,10 @@ getMapChartProjectionType() : MapChartProjectionType;
 
 [MapChartProjectionType](../mapchartprojectiontype/)
 
+**Remarks**
+
+Only for map chart.
+
 ### setMapChartProjectionType(MapChartProjectionType) {#setMapChartProjectionType-mapchartprojectiontype-}
 
 <b>@deprecated.</b> Please use the 'mapChartProjectionType' property instead. Gets and sets the projection type of the map.
@@ -435,6 +505,10 @@ setMapChartProjectionType(value: MapChartProjectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapChartProjectionType](../mapchartprojectiontype/) | The value to set. |
+
+**Remarks**
+
+Only for map chart.
 
 ### isNull() {#isNull--}
 
