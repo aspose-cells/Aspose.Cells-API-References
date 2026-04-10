@@ -13,6 +13,10 @@ Gets or sets the bubble sizes values of the chart series.
 public string BubbleSizes { get; set; }
 ```
 
+### Remarks
+
+Only for Bubble or Bubble3D.
+
 ### Examples
 
 ```csharp

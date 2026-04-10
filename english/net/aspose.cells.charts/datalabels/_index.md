@@ -39,7 +39,7 @@ public class DataLabels : ChartTextFrame
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Indicates whether the chart frame is automatic sized.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [IsAutoText](../../aspose.cells.charts/datalabels/isautotext/) { get; set; } | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data labels is deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data labels are deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap/) { get; set; } | Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
 | [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
@@ -50,7 +50,7 @@ public class DataLabels : ChartTextFrame
 | [NumberFormatLinked](../../aspose.cells.charts/datalabels/numberformatlinked/) { get; set; } | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [Position](../../aspose.cells.charts/datalabels/position/) { get; set; } | Represents the position of the data label. |
 | [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
-| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Represents text rotation angle.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Represents the text rotation angle.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [SeparatorType](../../aspose.cells.charts/datalabels/separatortype/) { get; set; } | Gets or sets the separator type used for the data labels on a chart. |
 | [SeparatorValue](../../aspose.cells.charts/datalabels/separatorvalue/) { get; set; } | Gets or sets the separator value used for the data labels on a chart. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |

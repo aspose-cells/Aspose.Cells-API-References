@@ -1,13 +1,13 @@
 ---
 title: TickLabelItem.Height
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabelItem property. Height of Ticklabel item in ratio of chart height
+description: TickLabelItem property. Height of Ticklabel item as a ratio of chart height
 type: docs
 url: /net/aspose.cells.charts/ticklabelitem/height/
 ---
 ## TickLabelItem.Height property
 
-Height of Ticklabel item in ratio of chart height.
+Height of Ticklabel item as a ratio of chart height.
 
 ```csharp
 public double Height { get; }

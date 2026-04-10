@@ -45,7 +45,7 @@ public class PivotTable : IDisposable
 | [ErrorString](../../aspose.cells.pivot/pivottable/errorstring/) { get; set; } | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [ExternalConnectionDataSource](../../aspose.cells.pivot/pivottable/externalconnectiondatasource/) { get; } | (**Obsolete.**) Gets the external connection data source. |
 | [FieldListSortAscending](../../aspose.cells.pivot/pivottable/fieldlistsortascending/) { get; set; } | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
-| [FilterArea](../../aspose.cells.pivot/pivottable/filterarea/) { get; } | Gets the region of filter region. |
+| [FilterArea](../../aspose.cells.pivot/pivottable/filterarea/) { get; } | Gets the area of filter region. |
 | [GrandTotalName](../../aspose.cells.pivot/pivottable/grandtotalname/) { get; set; } | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [HasBlankRows](../../aspose.cells.pivot/pivottable/hasblankrows/) { get; set; } | Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
 | [Indent](../../aspose.cells.pivot/pivottable/indent/) { get; set; } | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |

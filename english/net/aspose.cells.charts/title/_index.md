@@ -39,7 +39,7 @@ public class Title : ChartTextFrame
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Indicates whether the chart frame is automatic sized.(Inherited from [`ChartFrame`](../chartframe/).) |
 | virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext/) { get; set; } | Indicates the text is auto generated.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data labels is deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data labels are deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped/) { get; set; } | Gets or sets a value indicating whether the text is wrapped.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
@@ -47,7 +47,7 @@ public class Title : ChartTextFrame
 | virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | Gets and sets a reference to the worksheet.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [OverLay](../../aspose.cells.charts/title/overlay/) { get; set; } | Represents overlay centered title on chart without resizing chart. |
 | [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
-| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Represents text rotation angle.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Represents the text rotation angle.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties/) object.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [Text](../../aspose.cells.charts/title/text/) { get; set; } | Gets or sets the text of display unit label. |

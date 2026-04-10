@@ -1,13 +1,13 @@
 ---
 title: PlotArea.InnerXRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area
+description: PlotArea property. Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/innerxratiotochart/
 ---
 ## PlotArea.InnerXRatioToChart property
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 ```csharp
 public double InnerXRatioToChart { get; set; }

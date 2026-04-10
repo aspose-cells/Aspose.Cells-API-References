@@ -1,13 +1,13 @@
 ---
 title: Enum MapChartProjectionType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.MapChartProjectionType enum. Represents projection type of the map chart
+description: Aspose.Cells.Charts.MapChartProjectionType enum. Represents the projection type of the map chart
 type: docs
 url: /net/aspose.cells.charts/mapchartprojectiontype/
 ---
 ## MapChartProjectionType enumeration
 
-Represents projection type of the map chart.
+Represents the projection type of the map chart.
 
 ```csharp
 public enum MapChartProjectionType

@@ -1,13 +1,13 @@
 ---
 title: ChartTextFrame.RotationAngle
 second_title: Aspose.Cells for .NET API Reference
-description: ChartTextFrame property. Represents text rotation angle
+description: ChartTextFrame property. Represents the text rotation angle
 type: docs
 url: /net/aspose.cells.charts/charttextframe/rotationangle/
 ---
 ## ChartTextFrame.RotationAngle property
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```csharp
 public int RotationAngle { get; set; }

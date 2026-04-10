@@ -47,8 +47,9 @@ public enum TableStyleElementType
 | ThirdSubtotalRow | `21` | Table style element that applies to PivotTable's third subtotal row. |
 | TotalRow | `10` | Table style element that applies to Table's total row. |
 | WholeTable | `0` | Table style element that applies to table's entire content. |
-| GrandTotalColumnHeader | `128` | Table style element that applies to pivot table's header of grand total column. |
-| GrandTotalRowHeader | `129` | Table style element that applies to pivot table's header of grand total row. |
+| LastColumnSubheading | `130` | Table style element that applies to pivot table's last column field. |
+| LastRowSubheading | `131` | Table style element that applies to pivot table's last row field. |
+| LastSubtotalRow | `133` | Table style element that applies to pivot table's last subtotal row field. |
 
 ### Examples
 

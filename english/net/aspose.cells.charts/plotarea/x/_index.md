@@ -1,13 +1,13 @@
 ---
 title: PlotArea.X
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or gets the x coordinate of the upper left corner of plotarea bounding box in units of 1/4000 of the chart area
+description: PlotArea property. Gets or sets the x coordinate of the upper left corner of the plotarea bounding box in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/x/
 ---
 ## PlotArea.X property
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets or sets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use PlotArea.XRatioToChart property, instead.")]

@@ -1,13 +1,13 @@
 ---
 title: Enum ChartColorPaletteType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.ChartColorPaletteType enum. Enumerates all Monochromatic Palettes used in Excel chart
+description: Aspose.Cells.Charts.ChartColorPaletteType enum. Enumerates all Monochromatic Palettes used in an Excel chart
 type: docs
 url: /net/aspose.cells.charts/chartcolorpalettetype/
 ---
 ## ChartColorPaletteType enumeration
 
-Enumerates all Monochromatic Palettes used in Excel chart.
+Enumerates all Monochromatic Palettes used in an Excel chart.
 
 ```csharp
 public enum ChartColorPaletteType

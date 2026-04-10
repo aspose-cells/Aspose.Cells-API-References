@@ -1,13 +1,13 @@
 ---
 title: Series.Area
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Represents the background area of Series object
+description: Series property. Represents the background area of the Series object
 type: docs
 url: /net/aspose.cells.charts/series/area/
 ---
 ## Series.Area property
 
-Represents the background area of Series object.
+Represents the background area of the Series object.
 
 ```csharp
 public Area Area { get; }

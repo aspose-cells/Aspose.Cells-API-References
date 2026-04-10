@@ -1,13 +1,13 @@
 ---
 title: Class ChartGlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.ChartGlobalizationSettings class. Represents the globalization settings for chart
+description: Aspose.Cells.Charts.ChartGlobalizationSettings class. Represents the globalization settings for a chart
 type: docs
 url: /net/aspose.cells.charts/chartglobalizationsettings/
 ---
 ## ChartGlobalizationSettings class
 
-Represents the globalization settings for chart.
+Represents the globalization settings for a chart.
 
 ```csharp
 public class ChartGlobalizationSettings

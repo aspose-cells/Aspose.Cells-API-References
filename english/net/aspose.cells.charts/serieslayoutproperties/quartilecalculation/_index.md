@@ -13,6 +13,10 @@ Represents the statistical properties for the series.
 public QuartileCalculationType QuartileCalculation { get; set; }
 ```
 
+### Remarks
+
+Only applicable to BoxWhisker chart.
+
 ### Examples
 
 ```csharp

@@ -1,13 +1,13 @@
 ---
 title: PlotArea.InnerY
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area
+description: PlotArea property. Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/innery/
 ---
 ## PlotArea.InnerY property
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use PlotArea.InnerYRatioToChart property, instead.")]

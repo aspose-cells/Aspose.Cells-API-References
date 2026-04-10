@@ -32,8 +32,8 @@ public class SparklineGroupCollection : CollectionBase<SparklineGroup>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, SparklineGroup, IComparer&lt;SparklineGroup&gt;) |  |
 | [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
-| [ClearSparklineGroups](../../aspose.cells.charts/sparklinegroupcollection/clearsparklinegroups/)(CellArea) | Clears the sparkline groups that overlaps an area of cells. |
-| [ClearSparklines](../../aspose.cells.charts/sparklinegroupcollection/clearsparklines/)(CellArea) | Clears the sparklines that is inside an area of cells. |
+| [ClearSparklineGroups](../../aspose.cells.charts/sparklinegroupcollection/clearsparklinegroups/)(CellArea) | Clears the sparkline groups that overlap an area of cells. |
+| [ClearSparklines](../../aspose.cells.charts/sparklinegroupcollection/clearsparklines/)(CellArea) | Clears the sparklines that are inside an area of cells. |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(SparklineGroup) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(SparklineGroup[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(SparklineGroup[], int) |  |

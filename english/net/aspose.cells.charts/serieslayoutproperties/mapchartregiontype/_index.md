@@ -13,6 +13,10 @@ Gets and sets the region type of the map.
 public MapChartRegionType MapChartRegionType { get; set; }
 ```
 
+### Remarks
+
+Only for map chart.
+
 ### Examples
 
 ```csharp

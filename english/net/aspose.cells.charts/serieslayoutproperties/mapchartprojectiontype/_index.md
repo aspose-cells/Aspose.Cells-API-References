@@ -13,6 +13,10 @@ Gets and sets the projection type of the map.
 public MapChartProjectionType MapChartProjectionType { get; set; }
 ```
 
+### Remarks
+
+Only for map chart.
+
 ### Examples
 
 ```csharp

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Charts
 second_title: Aspose.Cells for .NET API Reference
-description: The Aspose.Cells.Charts namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets
+description: The ltbgtAspose.Cells.Chartslt/bgt namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets
 type: docs
 url: /net/aspose.cells.charts/
 ---
-The **Aspose.Cells.Charts** namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets.
+The &lt;b&gt;Aspose.Cells.Charts&lt;/b&gt; namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets.
 
 ## Classes
 
@@ -15,12 +15,12 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [AxisBins](./axisbins/) | Represents axis bins |
 | [Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating the chart. |
 | [ChartCollection](./chartcollection/) | Encapsulates a collection of [`Chart`](../aspose.cells.charts/chart/) objects. |
 | [ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 | [ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |
 | [ChartFrame](./chartframe/) | Encapsulates the object that represents the frame object in a chart. |
-| [ChartGlobalizationSettings](./chartglobalizationsettings/) | Represents the globalization settings for chart. |
+| [ChartGlobalizationSettings](./chartglobalizationsettings/) | Represents the globalization settings for a chart. |
 | [ChartPoint](./chartpoint/) | Represents a single point in a series in a chart. |
 | [ChartPointCollection](./chartpointcollection/) | Represents a collection that contains all the points in one series. |
 | [ChartTextFrame](./charttextframe/) | Encapsulates the object that represents the frame object which contains text. |
@@ -40,7 +40,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [SeriesLayoutProperties](./serieslayoutproperties/) | Represents the properties of series layout. |
 | [Sparkline](./sparkline/) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 | [SparklineCollection](./sparklinecollection/) | Encapsulates a collection of [`Sparkline`](../aspose.cells.charts/sparkline/) objects. |
-| [SparklineGroup](./sparklinegroup/) | [`Sparkline`](../aspose.cells.charts/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+| [SparklineGroup](./sparklinegroup/) | [`Sparkline`](../aspose.cells.charts/sparkline/) is organized into a sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
 | [SparklineGroupCollection](./sparklinegroupcollection/) | Encapsulates a collection of [`SparklineGroup`](../aspose.cells.charts/sparklinegroup/) objects. |
 | [TickLabelItem](./ticklabelitem/) | Represents a tick label in the chart. |
 | [TickLabels](./ticklabels/) | Represents the tick-mark labels associated with tick marks on a chart axis. |
@@ -57,7 +57,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [Bar3DShapeType](./bar3dshapetype/) | Represents the shape used with the 3-D bar or column chart. |
 | [BubbleSizeRepresents](./bubblesizerepresents/) | Represents what the bubble size represents on a bubble chart. |
 | [CategoryType](./categorytype/) | Represents the category axis type. |
-| [ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in Excel chart. |
+| [ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in an Excel chart. |
 | [ChartLineFormattingType](./chartlineformattingtype/) | Represents line format type of chart line. |
 | [ChartMarkerType](./chartmarkertype/) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartSplitType](./chartsplittype/) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. |
@@ -72,7 +72,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [LabelPositionType](./labelpositiontype/) | Represents data label position type. |
 | [LegendPositionType](./legendpositiontype/) | Enumerates the legend position types. |
 | [MapChartLabelLayout](./mapchartlabellayout/) | Represents the layout of map chart's labels. |
-| [MapChartProjectionType](./mapchartprojectiontype/) | Represents projection type of the map chart. |
+| [MapChartProjectionType](./mapchartprojectiontype/) | Represents the projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype/) | Represents the region type of the map chart. |
 | [PlotDataByType](./plotdatabytype/) | Represents the type of data plot by row or column. |
 | [PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cells type of a chart. |

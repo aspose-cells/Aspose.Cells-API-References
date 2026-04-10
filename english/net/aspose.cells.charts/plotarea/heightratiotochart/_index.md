@@ -1,13 +1,13 @@
 ---
 title: PlotArea.HeightRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or sets the height of plotarea bounding box in units of ratio of the chart area
+description: PlotArea property. Gets or sets the height of the plotarea bounding box in units of the ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/heightratiotochart/
 ---
 ## PlotArea.HeightRatioToChart property
 
-Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area.
 
 ```csharp
 public override double HeightRatioToChart { get; set; }

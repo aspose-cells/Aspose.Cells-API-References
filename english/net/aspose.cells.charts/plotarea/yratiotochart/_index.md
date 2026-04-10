@@ -1,13 +1,13 @@
 ---
 title: PlotArea.YRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or gets the y coordinate of the upper top corner of plotarea bounding box in units of ratio of the chart area
+description: PlotArea property. Gets or sets the y coordinate of the upper top corner of the plotarea bounding box as a ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/yratiotochart/
 ---
 ## PlotArea.YRatioToChart property
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 ```csharp
 public override double YRatioToChart { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: PivotTable.FilterArea
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets the region of filter region
+description: PivotTable property. Gets the area of filter region
 type: docs
 url: /net/aspose.cells.pivot/pivottable/filterarea/
 ---
 ## PivotTable.FilterArea property
 
-Gets the region of filter region.
+Gets the area of filter region.
 
 ```csharp
 public CellArea FilterArea { get; }
@@ -15,7 +15,7 @@ public CellArea FilterArea { get; }
 
 ### Remarks
 
-Only valid if filter pivot fields exists.
+Only valid if filter pivot fields exists. An empty area will be returned if this pivot table does not contains filter pivot fields
 
 ### See Also
 

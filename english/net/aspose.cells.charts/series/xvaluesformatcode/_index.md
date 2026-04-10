@@ -1,13 +1,13 @@
 ---
 title: Series.XValuesFormatCode
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Represents format code of X Valuess NumberList
+description: Series property. Represents format code of X Values NumberList
 type: docs
 url: /net/aspose.cells.charts/series/xvaluesformatcode/
 ---
 ## Series.XValuesFormatCode property
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 ```csharp
 public string XValuesFormatCode { get; set; }

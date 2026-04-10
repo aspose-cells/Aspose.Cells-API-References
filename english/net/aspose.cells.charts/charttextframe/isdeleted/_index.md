@@ -1,13 +1,13 @@
 ---
 title: ChartTextFrame.IsDeleted
 second_title: Aspose.Cells for .NET API Reference
-description: ChartTextFrame property. Indicates whether this data labels is deleted
+description: ChartTextFrame property. Indicates whether this data labels are deleted
 type: docs
 url: /net/aspose.cells.charts/charttextframe/isdeleted/
 ---
 ## ChartTextFrame.IsDeleted property
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 ```csharp
 public bool IsDeleted { get; set; }

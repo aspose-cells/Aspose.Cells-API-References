@@ -13,6 +13,10 @@ Indicates whether the interval is closed on the left side.
 public bool IsIntervalLeftClosed { get; set; }
 ```
 
+### Remarks
+
+Only for ParetoLine chart.
+
 ### Examples
 
 ```csharp
