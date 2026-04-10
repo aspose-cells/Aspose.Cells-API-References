@@ -1,0 +1,23 @@
+﻿---
+title: Aspose::Cells::Drawing::SolidFill::GetColor method
+linktitle: GetColor
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Drawing::SolidFill::GetColor method. Gets or sets the Color in C++.'
+type: docs
+weight: 600
+url: /ru/cpp/aspose.cells.drawing/solidfill/getcolor/
+---
+## SolidFill::GetColor method
+
+
+Gets or sets the [Color](../../../aspose.cells/color/).
+
+```cpp
+Aspose::Cells::Color Aspose::Cells::Drawing::SolidFill::GetColor()
+```
+
+## See Also
+
+* Class [SolidFill](../)
+* Namespace [Aspose::Cells::Drawing](../../)
+* Library [Aspose.Cells for C++](../../../)
