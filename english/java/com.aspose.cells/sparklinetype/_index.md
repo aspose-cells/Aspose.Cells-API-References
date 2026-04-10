@@ -19,7 +19,7 @@ Represents the sparkline types.
 | --- | --- |
 | [COLUMN](#COLUMN) | Column sparkline. |
 | [LINE](#LINE) | Line sparkline. |
-| [STACKED](#STACKED) | Win/Loss sparkline. |
+| [STACKED](#STACKED) | Represents a Win/Loss sparkline. |
 ## Methods
 
 | Method | Description |
@@ -55,7 +55,7 @@ public static final int STACKED
 ```
 
 
-Win/Loss sparkline.
+Represents a Win/Loss sparkline.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

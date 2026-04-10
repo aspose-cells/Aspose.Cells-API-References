@@ -4,7 +4,7 @@ linktitle: BurlyWood
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use BurlyWood method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8800
+weight: 9200
 url: /cpp/aspose.cells/color/burlywood/
 ---
 ## Color::BurlyWood method

@@ -4,7 +4,7 @@ linktitle: Coral
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Coral method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11700
+weight: 12100
 url: /cpp/aspose.cells/color/coral/
 ---
 ## Color::Coral method

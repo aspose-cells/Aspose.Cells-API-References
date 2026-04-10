@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartCalculateOptions class
 linktitle: ChartCalculateOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartCalculateOptions class. Represents the options for calculating chart in C++.'
+description: 'Aspose::Cells::Charts::ChartCalculateOptions class. Represents the options for calculating the chart in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.cells.charts/chartcalculateoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartcalculateoptions/
 ## ChartCalculateOptions class
 
 
-Represents the options for calculating chart.
+Represents the options for calculating the chart.
 
 ```cpp
 class ChartCalculateOptions

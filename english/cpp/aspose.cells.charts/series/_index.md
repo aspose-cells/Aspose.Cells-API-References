@@ -20,9 +20,9 @@ class Series
 
 | Method | Description |
 | --- | --- |
-| [GetArea()](./getarea/) | Represents the background area of [Series](./) object. |
+| [GetArea()](./getarea/) | Represents the background area of the [Series](./) object. |
 | [GetBar3DShapeType()](./getbar3dshapetype/) | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
-| [GetBorder()](./getborder/) | Represents border of [Series](./) object. |
+| [GetBorder()](./getborder/) | Represents the border of a [Series](./) object. |
 | [GetBubbleScale()](./getbubblescale/) | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
 | [GetBubbleSizes()](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
 | [GetCategoryValues()](./getcategoryvalues/) | Gets the actual category values that are used to plot every point of this series in the chart. |
@@ -65,14 +65,14 @@ class Series
 | [GetType()](./gettype/) | Gets or sets a data series' type. |
 | [GetUpBars()](./getupbars/) | Returns an [DropBars](../dropbars/) object that represents the up bars on a line chart. Applies only to line charts. |
 | [GetValues()](./getvalues/) | Represents the Y values of this chart series. |
-| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values's NumberList. |
+| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values' NumberList. |
 | [GetXErrorBar()](./getxerrorbar/) | Represents X direction error bar of the series. |
 | [GetXValues()](./getxvalues/) | Represents the X values of this chart series. |
-| [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. |
+| [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values' NumberList. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
 | [IsAutoSplit()](./isautosplit/) | Indicates whether the threshold value is automatic. |
 | [IsColorVaried()](./iscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [IsFiltered()](./isfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [IsFiltered()](./isfiltered/) | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsVerticalValues()](./isverticalvalues/) | Indicates whether the data source is vertical. |
 | [Move(int32_t count)](./move/) | Moves the series up or down. |
@@ -96,7 +96,7 @@ class Series
 | [SetHasSeriesLines(bool value)](./sethasserieslines/) | True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts. |
 | [SetHasUpDownBars(bool value)](./sethasupdownbars/) | True if a line chart has up and down bars. Applies only to line charts. |
 | [SetIsColorVaried(bool value)](./setiscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [SetIsFiltered(bool value)](./setisfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [SetIsFiltered(bool value)](./setisfiltered/) | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the data series. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the data series. |
 | [SetOverlap(int16_t value)](./setoverlap/) | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
@@ -111,12 +111,12 @@ class Series
 | [SetType(ChartType value)](./settype/) | Gets or sets a data series' type. |
 | [SetValues(const U16String\& value)](./setvalues/) | Represents the Y values of this chart series. |
 | [SetValues(const char16_t* value)](./setvalues/) | Represents the Y values of this chart series. |
-| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
-| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
+| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values' NumberList. |
+| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values' NumberList. |
 | [SetXValues(const U16String\& value)](./setxvalues/) | Represents the X values of this chart series. |
 | [SetXValues(const char16_t* value)](./setxvalues/) | Represents the X values of this chart series. |
-| [SetXValuesFormatCode(const U16String\& value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
-| [SetXValuesFormatCode(const char16_t* value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
+| [SetXValuesFormatCode(const U16String\& value)](./setxvaluesformatcode/) | Represents format code of X Values' NumberList. |
+| [SetXValuesFormatCode(const char16_t* value)](./setxvaluesformatcode/) | Represents format code of X Values' NumberList. |
 | [~Series()](./~series/) | Destructor. |
 ## Fields
 

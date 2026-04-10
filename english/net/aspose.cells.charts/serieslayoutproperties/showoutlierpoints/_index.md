@@ -1,13 +1,13 @@
 ---
 title: SeriesLayoutProperties.ShowOutlierPoints
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesLayoutProperties property. Indicates whether showing outlier data points
+description: SeriesLayoutProperties property. Indicates whether outlier data points are shown
 type: docs
 url: /net/aspose.cells.charts/serieslayoutproperties/showoutlierpoints/
 ---
 ## SeriesLayoutProperties.ShowOutlierPoints property
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }

@@ -1,13 +1,13 @@
 ﻿---
 title: ChartColorPaletteType
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Enumerates all Monochromatic Palettes used in Excel chart.
+description: Enumerates all Monochromatic Palettes used in an Excel chart.
 type: docs
 url: /javascript-cpp/chartcolorpalettetype/
 ---
 
 ## ChartColorPaletteType enumeration
-Enumerates all Monochromatic Palettes used in Excel chart.
+Enumerates all Monochromatic Palettes used in an Excel chart.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

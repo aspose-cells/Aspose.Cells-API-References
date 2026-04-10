@@ -54,7 +54,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [GetNumberFormatLinked()](./getnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [GetPosition()](./getposition/) | Represents the position of the data label. |
 | [GetReadingOrder()](../charttextframe/getreadingorder/) | Represents text reading order. |
-| [GetRotationAngle()](../charttextframe/getrotationangle/) | Represents text rotation angle. |
+| [GetRotationAngle()](../charttextframe/getrotationangle/) | Represents the text rotation angle. |
 | [GetSeparatorType()](./getseparatortype/) | Gets or sets the separator type used for the data labels on a chart. |
 | [GetSeparatorValue()](./getseparatorvalue/) | Gets or sets the separator value used for the data labels on a chart. |
 | [GetShadow()](../chartframe/getshadow/) | True if the frame has a shadow. |
@@ -84,7 +84,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](./isautotext/) | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels is deleted. |
+| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels are deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNeverOverlap()](./isneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -103,7 +103,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](./setisautotext/) | Indicates the text is auto generated. |
-| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels is deleted. |
+| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels are deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [SetIsNeverOverlap(bool value)](./setisneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
@@ -117,7 +117,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetPosition(LabelPositionType value)](./setposition/) | Represents the position of the data label. |
 | [SetPositionAuto()](../chartframe/setpositionauto/) | Set position of the frame to automatic. |
 | [SetReadingOrder(TextDirectionType value)](../charttextframe/setreadingorder/) | Represents text reading order. |
-| [SetRotationAngle(int32_t value)](../charttextframe/setrotationangle/) | Represents text rotation angle. |
+| [SetRotationAngle(int32_t value)](../charttextframe/setrotationangle/) | Represents the text rotation angle. |
 | [SetSeparatorType(DataLabelsSeparatorType value)](./setseparatortype/) | Gets or sets the separator type used for the data labels on a chart. |
 | [SetSeparatorValue(const U16String\& value)](./setseparatorvalue/) | Gets or sets the separator value used for the data labels on a chart. |
 | [SetSeparatorValue(const char16_t* value)](./setseparatorvalue/) | Gets or sets the separator value used for the data labels on a chart. |

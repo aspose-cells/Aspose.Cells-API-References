@@ -60,12 +60,12 @@ is_root: true
 | [CharacterBulletValue](./characterbulletvalue) | Represents the character bullet. |
 | [Chart](./chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating chart. |
+| [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating the chart. |
 | [ChartCollection](./chartcollection) | Encapsulates a collection of [Chart](../nodejs-cpp/chart/) objects. |
 | [ChartDataTable](./chartdatatable) | Represents a chart data table. |
 | [ChartDataValue](./chartdatavalue) | Encapsulates chart data value |
 | [ChartFrame](./chartframe) | Encapsulates the object that represents the frame object in a chart. |
-| [ChartGlobalizationSettings](./chartglobalizationsettings) | Represents the globalization settings for chart. |
+| [ChartGlobalizationSettings](./chartglobalizationsettings) | Represents the globalization settings for a chart. |
 | [ChartPoint](./chartpoint) | Represents a single point in a series in a chart. |
 | [ChartPointCollection](./chartpointcollection) | Represents a collection that contains all the points in one series. |
 | [ChartShape](./chartshape) | Represents the shape of the chart. Properties and methods for the ChartObject object control the appearance and size of the embedded chart on the worksheet. |
@@ -413,7 +413,7 @@ is_root: true
 | [SolidFill](./solidfill) | Encapsulates the object that represents solid fill format |
 | [Sparkline](./sparkline) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 | [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [Sparkline](../nodejs-cpp/sparkline/) objects. |
-| [SparklineGroup](./sparklinegroup) | [Sparkline](../nodejs-cpp/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+| [SparklineGroup](./sparklinegroup) | [Sparkline](../nodejs-cpp/sparkline/) is organized into a sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
 | [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [SparklineGroup](../nodejs-cpp/sparklinegroup/) objects. |
 | [SpinButtonActiveXControl](./spinbuttonactivexcontrol) | Represents the SpinButton control. |
 | [Spinner](./spinner) | Represents the Forms control: Spinner. |
@@ -552,7 +552,7 @@ is_root: true
 | [CellsUnitType](./cellsunittype) | Specifies the unit of measurement. |
 | [CellValueFormatStrategy](./cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](./cellvaluetype) | Specifies a cell value type. |
-| [ChartColorPaletteType](./chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in Excel chart. |
+| [ChartColorPaletteType](./chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in an Excel chart. |
 | [ChartLineFormattingType](./chartlineformattingtype) | Represents line format type of chart line. |
 | [ChartMarkerType](./chartmarkertype) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartSplitType](./chartsplittype) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. |
@@ -669,7 +669,7 @@ is_root: true
 | [LookAtType](./lookattype) | Represents look at type. |
 | [LookInType](./lookintype) | Represents look in type. |
 | [MapChartLabelLayout](./mapchartlabellayout) | Represents the layout of map chart's labels. |
-| [MapChartProjectionType](./mapchartprojectiontype) | Represents projection type of the map chart. |
+| [MapChartProjectionType](./mapchartprojectiontype) | Represents the projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownTableHeaderType](./markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [MemorySetting](./memorysetting) | Memory usage modes for cells data model. |

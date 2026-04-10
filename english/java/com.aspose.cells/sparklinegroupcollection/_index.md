@@ -45,8 +45,8 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
 | [add(int type, String dataRange, boolean isVertical, CellArea locationRange)](#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with some [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
-| [clearSparklineGroups(CellArea cellArea)](#clearSparklineGroups-com.aspose.cells.CellArea-) | Clears the sparkline groups that overlaps an area of cells. |
-| [clearSparklines(CellArea cellArea)](#clearSparklines-com.aspose.cells.CellArea-) | Clears the sparklines that is inside an area of cells. |
+| [clearSparklineGroups(CellArea cellArea)](#clearSparklineGroups-com.aspose.cells.CellArea-) | Clears the sparkline groups that overlap an area of cells. |
+| [clearSparklines(CellArea cellArea)](#clearSparklines-com.aspose.cells.CellArea-) | Clears the sparklines that are inside an area of cells. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [SparklineGroup](../../com.aspose.cells/sparklinegroup) element at the specified index. |
@@ -128,7 +128,7 @@ public void clearSparklineGroups(CellArea cellArea)
 ```
 
 
-Clears the sparkline groups that overlaps an area of cells.
+Clears the sparkline groups that overlap an area of cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -141,7 +141,7 @@ public void clearSparklines(CellArea cellArea)
 ```
 
 
-Clears the sparklines that is inside an area of cells.
+Clears the sparklines that are inside an area of cells.
 
 **Remarks**
 

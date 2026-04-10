@@ -4,7 +4,7 @@ linktitle: PowderBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use PowderBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6800
+weight: 7200
 url: /cpp/aspose.cells/color/powderblue/
 ---
 ## Color::PowderBlue method

@@ -23,10 +23,13 @@ Represents a cell value which contains an error.
 | [CONNECT](#CONNECT) | Represents the value of a cell containing a \#CONNECT! |
 | [EXTERNAL](#EXTERNAL) | Represents the value of a cell containing an \#EXTERNAL! |
 | [FIELD](#FIELD) | Represents the value of a cell containing a \#FIELD! |
+| [NA](#NA) | Represents the value of a cell containing a \#NAME? |
 | [NAME](#NAME) | Represents the value of a cell containing a \#NAME? |
+| [REF](#REF) | Represents the value of a cell containing a \#REF! |
 | [SPILL](#SPILL) | Represents the value of a cell containing a \#SPILL! |
 | [TIME_OUT](#TIME-OUT) | Represents the value of a cell containing a \#TIMEOUT! |
 | [UNKNOWN](#UNKNOWN) | Represents the value of a cell containing a \#UNKNOWN! |
+| [VALUE](#VALUE) | Represents the value of a cell containing a \#VALUE! |
 ## Methods
 
 | Method | Description |
@@ -88,6 +91,14 @@ public static final int FIELD
 
 Represents the value of a cell containing a \#FIELD! error.
 
+### NA {#NA}
+```
+public static final int NA
+```
+
+
+Represents the value of a cell containing a \#NAME? error.
+
 ### NAME {#NAME}
 ```
 public static final int NAME
@@ -95,6 +106,14 @@ public static final int NAME
 
 
 Represents the value of a cell containing a \#NAME? error.
+
+### REF {#REF}
+```
+public static final int REF
+```
+
+
+Represents the value of a cell containing a \#REF! error.
 
 ### SPILL {#SPILL}
 ```
@@ -119,6 +138,14 @@ public static final int UNKNOWN
 
 
 Represents the value of a cell containing a \#UNKNOWN! error.
+
+### VALUE {#VALUE}
+```
+public static final int VALUE
+```
+
+
+Represents the value of a cell containing a \#VALUE! error.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

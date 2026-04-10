@@ -73,7 +73,7 @@ class PivotTable
 | [GetExternalConnectionDataSource()](./getexternalconnectiondatasource/) |  **(Deprecated)** Gets the external connection data source. |
 | [GetFieldListSortAscending()](./getfieldlistsortascending/) | Indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
 | [GetFields(PivotFieldType fieldType)](./getfields/) | Gets the specific pivot field list by the region. |
-| [GetFilterArea()](./getfilterarea/) | Gets the region of filter region. |
+| [GetFilterArea()](./getfilterarea/) | Gets the area of filter region. |
 | [GetGrandTotalName()](./getgrandtotalname/) | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [GetHasBlankRows()](./gethasblankrows/) | Indicates whether to add blank rows. This property only applies for the [PivotTable](./) auto format types which needs to add blank rows. |
 | [GetHorizontalPageBreaks()](./gethorizontalpagebreaks/) | Gets horizontal page breaks of this pivot table. |

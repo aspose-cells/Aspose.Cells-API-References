@@ -4,7 +4,7 @@ linktitle: Azure
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Azure method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9800
+weight: 10200
 url: /cpp/aspose.cells/color/azure/
 ---
 ## Color::Azure method

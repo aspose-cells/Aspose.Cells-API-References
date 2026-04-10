@@ -4,7 +4,7 @@ linktitle: DarkSalmon
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkSalmon method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9100
+weight: 9500
 url: /cpp/aspose.cells/color/darksalmon/
 ---
 ## Color::DarkSalmon method

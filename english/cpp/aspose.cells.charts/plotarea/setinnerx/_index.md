@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetInnerX method
 linktitle: SetInnerX
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetInnerX method. Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetInnerX method. Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells.charts/plotarea/setinnerx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/setinnerx/
 ## PlotArea::SetInnerX method
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 
 >Deprecated

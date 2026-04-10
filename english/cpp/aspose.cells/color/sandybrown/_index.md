@@ -4,7 +4,7 @@ linktitle: SandyBrown
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use SandyBrown method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9900
+weight: 10300
 url: /cpp/aspose.cells/color/sandybrown/
 ---
 ## Color::SandyBrown method

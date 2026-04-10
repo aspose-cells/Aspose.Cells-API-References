@@ -17,7 +17,7 @@ public enum MapChartLabelLayout
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BestFitOnly | `0` | Only best fit. |
+| BestFitOnly | `0` | Only the best fit. |
 | ShowAll | `1` | Shows all labels. |
 | None | `2` | No labels. |
 

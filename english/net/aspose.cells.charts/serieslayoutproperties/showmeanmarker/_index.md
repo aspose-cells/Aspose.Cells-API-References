@@ -1,13 +1,13 @@
 ---
 title: SeriesLayoutProperties.ShowMeanMarker
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesLayoutProperties property. Indicates whether showing markers denoting the mean
+description: SeriesLayoutProperties property. Indicates whether markers denoting the mean are shown
 type: docs
 url: /net/aspose.cells.charts/serieslayoutproperties/showmeanmarker/
 ---
 ## SeriesLayoutProperties.ShowMeanMarker property
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 ```csharp
 public bool ShowMeanMarker { get; set; }

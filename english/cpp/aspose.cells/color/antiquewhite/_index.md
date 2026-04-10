@@ -4,7 +4,7 @@ linktitle: AntiqueWhite
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use AntiqueWhite method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10600
+weight: 11000
 url: /cpp/aspose.cells/color/antiquewhite/
 ---
 ## Color::AntiqueWhite method

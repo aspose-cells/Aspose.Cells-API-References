@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::IsAutomaticSize method
 linktitle: IsAutomaticSize
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::IsAutomaticSize method. Indicates whether the plot area is automatic sized in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::IsAutomaticSize method. Indicates whether the plot area is automatically sized in C++.'
 type: docs
 weight: 3900
 url: /cpp/aspose.cells.charts/plotarea/isautomaticsize/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/isautomaticsize/
 ## PlotArea::IsAutomaticSize method
 
 
-Indicates whether the plot area is automatic sized.
+Indicates whether the plot area is automatically sized.
 
 ```cpp
 bool Aspose::Cells::Charts::PlotArea::IsAutomaticSize()

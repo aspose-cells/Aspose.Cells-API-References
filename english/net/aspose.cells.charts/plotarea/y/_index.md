@@ -1,13 +1,13 @@
 ---
 title: PlotArea.Y
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or gets the y coordinate of the upper top corner of plotarea bounding box in units of 1/4000 of the chart area
+description: PlotArea property. Gets or sets the y coordinate of the upper top corner of the plotarea bounding box in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/y/
 ---
 ## PlotArea.Y property
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use PlotArea.YRatioToChart property, instead.")]

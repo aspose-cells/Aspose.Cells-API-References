@@ -17,12 +17,12 @@ public class AxisBins
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.charts/axisbins/count/) { get; set; } | Gets or set the count of axis bins |
+| [Count](../../aspose.cells.charts/axisbins/count/) { get; set; } | Gets or sets the count of axis bins |
 | [IsAutomatic](../../aspose.cells.charts/axisbins/isautomatic/) { get; set; } | Indicates whether the axis bins are automatic. |
-| [IsByCategory](../../aspose.cells.charts/axisbins/isbycategory/) { get; set; } | Indicates whether grouping data by category |
-| [Overflow](../../aspose.cells.charts/axisbins/overflow/) { get; set; } | Gets or set the overflow of axis bins |
-| [Underflow](../../aspose.cells.charts/axisbins/underflow/) { get; set; } | Gets or set the underflow of axis bins |
-| [Width](../../aspose.cells.charts/axisbins/width/) { get; set; } | Gets or sets the width of axis bin |
+| [IsByCategory](../../aspose.cells.charts/axisbins/isbycategory/) { get; set; } | Indicates whether grouping data by category is enabled. |
+| [Overflow](../../aspose.cells.charts/axisbins/overflow/) { get; set; } | Gets or sets the overflow of axis bins |
+| [Underflow](../../aspose.cells.charts/axisbins/underflow/) { get; set; } | Gets or sets the underflow of axis bins |
+| [Width](../../aspose.cells.charts/axisbins/width/) { get; set; } | Gets or sets the width of the axis bin. |
 
 ## Methods
 

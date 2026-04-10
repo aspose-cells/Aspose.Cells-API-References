@@ -4,7 +4,7 @@ linktitle: TickLabelItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TickLabelItem class. Represents a tick label in the chart in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class
@@ -20,10 +20,10 @@ class TickLabelItem
 
 | Method | Description |
 | --- | --- |
-| [GetHeight()](./getheight/) | Height of Ticklabel item in ratio of chart height. |
-| [GetWidth()](./getwidth/) | Width of Ticklabel item in ratio of chart width. |
-| [GetX()](./getx/) | X coordinates of Ticklabel item in ratio of chart width. |
-| [GetY()](./gety/) | Y coordinates of Ticklabel item in ratio of chart height. |
+| [GetHeight()](./getheight/) | Height of Ticklabel item as a ratio of chart height. |
+| [GetWidth()](./getwidth/) | Width of Ticklabel item as a ratio of chart width. |
+| [GetX()](./getx/) | X coordinates of Ticklabel item as a ratio of chart width. |
+| [GetY()](./gety/) | Y coordinates of Ticklabel item as a ratio of the chart height. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TickLabelItem\& src)](./operator_asm/) | operator= |

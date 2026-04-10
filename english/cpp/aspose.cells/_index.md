@@ -196,6 +196,7 @@ url: /cpp/aspose.cells/
 | --- | --- |
 | [Color](./color/) | Represents an ARGB (alpha, red, green, blue) color. |
 | [Date](./date/) | Represents a date and time. |
+| [Duration](./duration/) | Represents a time interval with a resolution of 100 nanoseconds (tick). |
 ## Enums
 
 | Enum | Description |
@@ -222,6 +223,8 @@ url: /cpp/aspose.cells/
 | [DataBarBorderType](./databarbordertype/) | Specifies the border type of a data bar. |
 | [DataBarFillType](./databarfilltype/) | Specifies how a data bar is filled with color. |
 | [DataBarNegativeColorType](./databarnegativecolortype/) | Specifies whether to use the same border and fill color as positive data bars. |
+| [Weekday](./weekday/) | Specifies the day of the week. |
+| [DateKind](./datekind/) | Specifies whether a [Date](./date/) object represents a local time, a Coordinated UTC Time (UTC), or is not specified as either local time or UTC. |
 | [DateTimeGroupingType](./datetimegroupingtype/) | Specifies how to group dateTime values. |
 | [DefaultEditLanguage](./defaulteditlanguage/) | Represents the default edit language. |
 | [DirectoryType](./directorytype/) | Represents the directory type of the file name. |

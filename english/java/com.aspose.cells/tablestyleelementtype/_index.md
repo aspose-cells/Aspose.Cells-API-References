@@ -28,12 +28,13 @@ Represents the Table or PivotTable style element type.
 | [FIRST_SUBTOTAL_ROW](#FIRST-SUBTOTAL-ROW) | Table style element that applies to pivot table's first subtotal row. |
 | [FIRST_TOTAL_CELL](#FIRST-TOTAL-CELL) | Table style element that applies to table's first total row cell. |
 | [GRAND_TOTAL_COLUMN](#GRAND-TOTAL-COLUMN) | Table style element that applies to pivot table's grand total column. |
-| [GRAND_TOTAL_COLUMN_HEADER](#GRAND-TOTAL-COLUMN-HEADER) | Table style element that applies to pivot table's header of grand total column. |
 | [GRAND_TOTAL_ROW](#GRAND-TOTAL-ROW) | Table style element that applies to pivot table's grand total row. |
-| [GRAND_TOTAL_ROW_HEADER](#GRAND-TOTAL-ROW-HEADER) | Table style element that applies to pivot table's header of grand total row. |
 | [HEADER_ROW](#HEADER-ROW) | Table style element that applies to table's header row. |
 | [LAST_COLUMN](#LAST-COLUMN) | Table style element that applies to table's last column. |
+| [LAST_COLUMN_SUBHEADING](#LAST-COLUMN-SUBHEADING) | Table style element that applies to pivot table's last column field. |
 | [LAST_HEADER_CELL](#LAST-HEADER-CELL) | Table style element that applies to table's last header row cell. |
+| [LAST_ROW_SUBHEADING](#LAST-ROW-SUBHEADING) | Table style element that applies to pivot table's last row field. |
+| [LAST_SUBTOTAL_ROW](#LAST-SUBTOTAL-ROW) | Table style element that applies to pivot table's last subtotal row field. |
 | [LAST_TOTAL_CELL](#LAST-TOTAL-CELL) | Table style element that applies to table's last total row cell. |
 | [PAGE_FIELD_LABELS](#PAGE-FIELD-LABELS) | Table style element that applies to pivot table's page field labels. |
 | [PAGE_FIELD_VALUES](#PAGE-FIELD-VALUES) | Table style element that applies to pivot table's page field values. |
@@ -150,18 +151,6 @@ public static final int GRAND_TOTAL_COLUMN
 
 Table style element that applies to pivot table's grand total column.
 
-### GRAND_TOTAL_COLUMN_HEADER {#GRAND-TOTAL-COLUMN-HEADER}
-```
-public static final int GRAND_TOTAL_COLUMN_HEADER
-```
-
-
-Table style element that applies to pivot table's header of grand total column.
-
-**Remarks**
-
-Internal usage for calculating pivot style of xls file.
-
 ### GRAND_TOTAL_ROW {#GRAND-TOTAL-ROW}
 ```
 public static final int GRAND_TOTAL_ROW
@@ -169,18 +158,6 @@ public static final int GRAND_TOTAL_ROW
 
 
 Table style element that applies to pivot table's grand total row.
-
-### GRAND_TOTAL_ROW_HEADER {#GRAND-TOTAL-ROW-HEADER}
-```
-public static final int GRAND_TOTAL_ROW_HEADER
-```
-
-
-Table style element that applies to pivot table's header of grand total row.
-
-**Remarks**
-
-Internal usage for calculating pivot style of xls file.
 
 ### HEADER_ROW {#HEADER-ROW}
 ```
@@ -198,6 +175,18 @@ public static final int LAST_COLUMN
 
 Table style element that applies to table's last column.
 
+### LAST_COLUMN_SUBHEADING {#LAST-COLUMN-SUBHEADING}
+```
+public static final int LAST_COLUMN_SUBHEADING
+```
+
+
+Table style element that applies to pivot table's last column field.
+
+**Remarks**
+
+Internal usage for calculating pivot style of xls file.
+
 ### LAST_HEADER_CELL {#LAST-HEADER-CELL}
 ```
 public static final int LAST_HEADER_CELL
@@ -205,6 +194,30 @@ public static final int LAST_HEADER_CELL
 
 
 Table style element that applies to table's last header row cell.
+
+### LAST_ROW_SUBHEADING {#LAST-ROW-SUBHEADING}
+```
+public static final int LAST_ROW_SUBHEADING
+```
+
+
+Table style element that applies to pivot table's last row field.
+
+**Remarks**
+
+Internal usage for calculating pivot style of xls file.
+
+### LAST_SUBTOTAL_ROW {#LAST-SUBTOTAL-ROW}
+```
+public static final int LAST_SUBTOTAL_ROW
+```
+
+
+Table style element that applies to pivot table's last subtotal row field.
+
+**Remarks**
+
+Internal usage for calculating pivot style of xls file.
 
 ### LAST_TOTAL_CELL {#LAST-TOTAL-CELL}
 ```

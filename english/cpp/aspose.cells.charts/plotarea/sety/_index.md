@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetY method
 linktitle: SetY
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetY method. Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetY method. Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.charts/plotarea/sety/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/sety/
 ## PlotArea::SetY method
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 
 >Deprecated

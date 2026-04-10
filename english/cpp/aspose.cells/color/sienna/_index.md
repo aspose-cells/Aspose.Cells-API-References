@@ -4,7 +4,7 @@ linktitle: Sienna
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Sienna method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6100
+weight: 6500
 url: /cpp/aspose.cells/color/sienna/
 ---
 ## Color::Sienna method

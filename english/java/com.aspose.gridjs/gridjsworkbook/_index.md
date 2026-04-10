@@ -30,6 +30,7 @@ Represents the main entry class for GridJs
 
 | Method | Description |
 | --- | --- |
+| [burnRedactionFile(String excelFilePath, String uid)](#burnRedactionFile-java.lang.String-java.lang.String-) | Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [copyImageOrShape(String uid, String p)](#copyImageOrShape-java.lang.String-java.lang.String-) | Copys image or shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -62,6 +63,7 @@ Represents the main entry class for GridJs
 | [mergeExcelFileFromJson(String uid, String json)](#mergeExcelFileFromJson-java.lang.String-java.lang.String-) | Applies a batch update to the memory data. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [redactFile(String excelFilePath, String uid, String[] arrayOfRedactionOpr)](#redactFile-java.lang.String-java.lang.String-java.lang.String---) | Performs redaction on an Excel file based on an array of JSON operations. |
 | [saveToCacheWithFileName(String uid, String filename, String password)](#saveToCacheWithFileName-java.lang.String-java.lang.String-java.lang.String-) | Saves the memory data to the cache file with the specified filename and also set the open password, the save format is baseed on the file extension of the filename . |
 | [saveToExcelFile(OutputStream stream)](#saveToExcelFile-java.io.OutputStream-) | Saves the memory data to the sream, baseed on the origin file format. |
 | [saveToExcelFile(String path)](#saveToExcelFile-java.lang.String-) | Saves the memory data to the file path,if the file has extension ,save format is baseed on the file extension . |
@@ -75,6 +77,7 @@ Represents the main entry class for GridJs
 | [setInterruptMonitorForLoad(GridInterruptMonitor monitor, int calculateTimeoutMilliseconds)](#setInterruptMonitorForLoad-com.aspose.gridjs.GridInterruptMonitor-int-) | Sets InterruptMonitor for load operation. |
 | [setInterruptMonitorForSave(GridInterruptMonitor monitor)](#setInterruptMonitorForSave-com.aspose.gridjs.GridInterruptMonitor-) | Sets InterruptMonitor for save operation. |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridjs.GridWorkbookSettings-) | Represents the workbook settings. |
+| [setTransParentView(String excelFilePath, String uid, boolean isTransparent)](#setTransParentView-java.lang.String-java.lang.String-boolean-) | Sets the transparency of redaction shapes in the workbook. |
 | [toString()](#toString--) |  |
 | [translateSheetAsync(String uid, String sheetName, ITextTranslator translator, String targetLanguage)](#translateSheetAsync-java.lang.String-java.lang.String-com.aspose.gridjs.ITextTranslator-java.lang.String-) | Translate all the string value to the target language in the worksheet |
 | [updateCell(String p, String uid)](#updateCell-java.lang.String-java.lang.String-) | Applies the update operation. |
@@ -118,6 +121,20 @@ public static GridUpdateMonitor UpdateMonitor
 
 
 Gets/Sets the update monitor to track update operation
+
+### burnRedactionFile(String excelFilePath, String uid) {#burnRedactionFile-java.lang.String-java.lang.String-}
+```
+public void burnRedactionFile(String excelFilePath, String uid)
+```
+
+
+Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| excelFilePath | java.lang.String | The file path of the Excel file. |
+| uid | java.lang.String | The unique identifier for the workbook. If null or empty, a new uid will be generated based on the file path. |
 
 ### checkInCacheForCollaborative(String uid) {#checkInCacheForCollaborative-java.lang.String-}
 ```
@@ -572,6 +589,21 @@ public final native void notifyAll()
 
 
 
+### redactFile(String excelFilePath, String uid, String[] arrayOfRedactionOpr) {#redactFile-java.lang.String-java.lang.String-java.lang.String---}
+```
+public void redactFile(String excelFilePath, String uid, String[] arrayOfRedactionOpr)
+```
+
+
+Performs redaction on an Excel file based on an array of JSON operations.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| excelFilePath | java.lang.String | The file path of the Excel file to be redacted. |
+| uid | java.lang.String | The unique identifier for the workbook. If null or empty, a new uid will be generated based on the file path. |
+| arrayOfRedactionOpr | java.lang.String[] | An array of JSON strings representing the redaction operations to be applied. |
+
 ### saveToCacheWithFileName(String uid, String filename, String password) {#saveToCacheWithFileName-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public void saveToCacheWithFileName(String uid, String filename, String password)
@@ -747,6 +779,21 @@ Represents the workbook settings.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridWorkbookSettings](../../com.aspose.gridjs/gridworkbooksettings) |  |
+
+### setTransParentView(String excelFilePath, String uid, boolean isTransparent) {#setTransParentView-java.lang.String-java.lang.String-boolean-}
+```
+public void setTransParentView(String excelFilePath, String uid, boolean isTransparent)
+```
+
+
+Sets the transparency of redaction shapes in the workbook.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| excelFilePath | java.lang.String | The file path of the Excel file. |
+| uid | java.lang.String | The unique identifier for the workbook. If null or empty, a new uid will be generated based on the file path. |
+| isTransparent | boolean | If true, sets transparency to 0.89 (semi-transparent); if false, sets transparency to 1 (fully opaque/invisible). |
 
 ### toString() {#toString--}
 ```

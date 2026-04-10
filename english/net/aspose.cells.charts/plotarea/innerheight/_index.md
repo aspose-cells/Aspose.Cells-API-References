@@ -1,13 +1,13 @@
 ---
 title: PlotArea.InnerHeight
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or sets the height of plot area in units of 1/4000 of the chart area
+description: PlotArea property. Gets or sets the height of the plot area in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/innerheight/
 ---
 ## PlotArea.InnerHeight property
 
-Gets or sets the height of plot area in units of 1/4000 of the chart area.
+Gets or sets the height of the plot area in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use PlotArea.InnerHeightRatioToChart property, instead.")]

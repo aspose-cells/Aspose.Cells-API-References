@@ -4,7 +4,7 @@ linktitle: Beige
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Beige method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10100
+weight: 10500
 url: /cpp/aspose.cells/color/beige/
 ---
 ## Color::Beige method

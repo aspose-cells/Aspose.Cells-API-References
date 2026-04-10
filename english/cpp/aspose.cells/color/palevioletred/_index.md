@@ -4,7 +4,7 @@ linktitle: PaleVioletRed
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use PaleVioletRed method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8400
+weight: 8800
 url: /cpp/aspose.cells/color/palevioletred/
 ---
 ## Color::PaleVioletRed method

@@ -4,7 +4,7 @@ linktitle: DarkViolet
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkViolet method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 5700
+weight: 6100
 url: /cpp/aspose.cells/color/darkviolet/
 ---
 ## Color::DarkViolet method

@@ -1,13 +1,13 @@
 ---
 title: AxisBins.Width
 second_title: Aspose.Cells for .NET API Reference
-description: AxisBins property. Gets or sets the width of axis bin
+description: AxisBins property. Gets or sets the width of the axis bin
 type: docs
 url: /net/aspose.cells.charts/axisbins/width/
 ---
 ## AxisBins.Width property
 
-Gets or sets the width of axis bin
+Gets or sets the width of the axis bin.
 
 ```csharp
 public double Width { get; set; }

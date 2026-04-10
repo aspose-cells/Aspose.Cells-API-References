@@ -19,12 +19,12 @@ class AxisBins;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isByCategory](#isByCategory--)| boolean | Indicates whether grouping data by category |
+| [isByCategory](#isByCategory--)| boolean | Indicates whether grouping data by category is enabled. |
 | [isAutomatic](#isAutomatic--)| boolean | Indicates whether the axis bins are automatic. |
-| [width](#width--)| number | Gets or sets the width of axis bin |
-| [count](#count--)| number | Gets or set the count of axis bins |
-| [overflow](#overflow--)| number | Gets or set the overflow of axis bins |
-| [underflow](#underflow--)| number | Gets or set the underflow of axis bins |
+| [width](#width--)| number | Gets or sets the width of the axis bin. |
+| [count](#count--)| number | Gets or sets the count of axis bins |
+| [overflow](#overflow--)| number | Gets or sets the overflow of axis bins |
+| [underflow](#underflow--)| number | Gets or sets the underflow of axis bins |
 
 ## Methods
 
@@ -36,7 +36,7 @@ class AxisBins;
 
 ### isByCategory {#isByCategory--}
 
-Indicates whether grouping data by category
+Indicates whether grouping data by category is enabled.
 
 ```javascript
 isByCategory : boolean;
@@ -58,7 +58,7 @@ If [Width](../width/) or [Count](../count/) is called, the value will be false.
 
 ### width {#width--}
 
-Gets or sets the width of axis bin
+Gets or sets the width of the axis bin.
 
 ```javascript
 width : number;
@@ -67,7 +67,7 @@ width : number;
 
 ### count {#count--}
 
-Gets or set the count of axis bins
+Gets or sets the count of axis bins
 
 ```javascript
 count : number;
@@ -76,7 +76,7 @@ count : number;
 
 ### overflow {#overflow--}
 
-Gets or set the overflow of axis bins
+Gets or sets the overflow of axis bins
 
 ```javascript
 overflow : number;
@@ -85,7 +85,7 @@ overflow : number;
 
 ### underflow {#underflow--}
 
-Gets or set the underflow of axis bins
+Gets or sets the underflow of axis bins
 
 ```javascript
 underflow : number;

@@ -4,7 +4,7 @@ linktitle: MediumAquaMarine
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use MediumAquaMarine method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3400
+weight: 3800
 url: /cpp/aspose.cells/color/mediumaquamarine/
 ---
 ## Color::MediumAquaMarine method

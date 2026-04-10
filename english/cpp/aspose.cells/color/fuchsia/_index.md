@@ -4,7 +4,7 @@ linktitle: Fuchsia
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Fuchsia method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 11100
+weight: 11500
 url: /cpp/aspose.cells/color/fuchsia/
 ---
 ## Color::Fuchsia method

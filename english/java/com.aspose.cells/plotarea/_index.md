@@ -36,61 +36,61 @@ Encapsulates the object that represents the plot area in a chart.
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getHeight()](#getHeight--) | Gets the height of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getHeightPixel()](#getHeightPixel--) | Gets the height of frame in units of Pixel. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of plot-area bounding box in units of ratio of the chart area. |
-| [getInnerHeight()](#getInnerHeight--) | Gets the height of plot area in units of 1/4000 of the chart area. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the plot-area bounding box in units of the ratio of the chart area. |
+| [getInnerHeight()](#getInnerHeight--) | Gets the height of the plot area in units of 1/4000 of the chart area. |
 | [getInnerHeightRatioToChart()](#getInnerHeightRatioToChart--) | Gets the height of plot area in units of ratio of the chart area. |
 | [getInnerWidth()](#getInnerWidth--) | Gets the width of plot area in units of 1/4000 of the chart area. |
-| [getInnerWidthRatioToChart()](#getInnerWidthRatioToChart--) | Gets the width of plot area in units of ratio of the chart area. |
-| [getInnerX()](#getInnerX--) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [getInnerXRatioToChart()](#getInnerXRatioToChart--) | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [getInnerY()](#getInnerY--) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [getInnerYRatioToChart()](#getInnerYRatioToChart--) | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
+| [getInnerWidthRatioToChart()](#getInnerWidthRatioToChart--) | Gets the width of the plot area in units of the ratio of the chart area. |
+| [getInnerX()](#getInnerX--) | Gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [getInnerXRatioToChart()](#getInnerXRatioToChart--) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
+| [getInnerY()](#getInnerY--) | Gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [getInnerYRatioToChart()](#getInnerYRatioToChart--) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getWidth()](#getWidth--) | Gets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of frame in units of Pixel. |
-| [getWidthRatioToChart()](#getWidthRatioToChart--) | Gets the width of plot-area bounding box in units of ratio of the chart area. |
-| [getX()](#getX--) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getWidthRatioToChart()](#getWidthRatioToChart--) | Gets the width of plot-area bounding box in units of the ratio of the chart area. |
+| [getX()](#getX--) | Gets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area. |
 | [getXPixel()](#getXPixel--) | Gets the x coordinate of the upper left corner in units of Pixel. |
-| [getXRatioToChart()](#getXRatioToChart--) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
-| [getY()](#getY--) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--) | Gets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area. |
+| [getY()](#getY--) | Gets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area. |
 | [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of Pixel. |
-| [getYRatioToChart()](#getYRatioToChart--) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area. |
+| [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 | [hashCode()](#hashCode--) |  |
-| [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the plot area is automatic sized. |
+| [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the plot area is automatically sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the plot area is automatic sized. |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the plot area is automatically sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
-| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of plot-area bounding box in units of ratio of the chart area. |
-| [setInnerHeight(int value)](#setInnerHeight-int-) | Sets the height of plot area in units of 1/4000 of the chart area. |
+| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of the plot-area bounding box in units of the ratio of the chart area. |
+| [setInnerHeight(int value)](#setInnerHeight-int-) | Sets the height of the plot area in units of 1/4000 of the chart area. |
 | [setInnerHeightRatioToChart(double value)](#setInnerHeightRatioToChart-double-) | Sets the height of plot area in units of ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setInnerWidth(int value)](#setInnerWidth-int-) | Sets the width of plot area in units of 1/4000 of the chart area. |
-| [setInnerWidthRatioToChart(double value)](#setInnerWidthRatioToChart-double-) | Sets the width of plot area in units of ratio of the chart area. |
-| [setInnerX(int value)](#setInnerX-int-) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [setInnerXRatioToChart(double value)](#setInnerXRatioToChart-double-) | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [setInnerY(int value)](#setInnerY-int-) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
-| [setInnerYRatioToChart(double value)](#setInnerYRatioToChart-double-) | Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area. |
-| [setPositionAuto()](#setPositionAuto--) | Set position of the plot area to automatic |
+| [setInnerWidthRatioToChart(double value)](#setInnerWidthRatioToChart-double-) | Sets the width of the plot area in units of the ratio of the chart area. |
+| [setInnerX(int value)](#setInnerX-int-) | Sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [setInnerXRatioToChart(double value)](#setInnerXRatioToChart-double-) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
+| [setInnerY(int value)](#setInnerY-int-) | Sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [setInnerYRatioToChart(double value)](#setInnerYRatioToChart-double-) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
+| [setPositionAuto()](#setPositionAuto--) | Set the position of the plot area to automatic |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
 | [setWidth(int value)](#setWidth-int-) | Sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Sets the width of frame in units of Pixel. |
-| [setWidthRatioToChart(double value)](#setWidthRatioToChart-double-) | Sets the width of plot-area bounding box in units of ratio of the chart area. |
-| [setX(int value)](#setX-int-) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setWidthRatioToChart(double value)](#setWidthRatioToChart-double-) | Sets the width of plot-area bounding box in units of the ratio of the chart area. |
+| [setX(int value)](#setX-int-) | Sets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area. |
 | [setXPixel(int value)](#setXPixel-int-) | Sets the x coordinate of the upper left corner in units of Pixel. |
-| [setXRatioToChart(double value)](#setXRatioToChart-double-) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area. |
-| [setY(int value)](#setY-int-) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setXRatioToChart(double value)](#setXRatioToChart-double-) | Sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area. |
+| [setY(int value)](#setY-int-) | Sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area. |
 | [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of Pixel. |
-| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area. |
+| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -328,7 +328,7 @@ public double getHeightRatioToChart()
 ```
 
 
-Gets the height of plot-area bounding box in units of ratio of the chart area.
+Gets the height of the plot-area bounding box in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -348,7 +348,7 @@ public int getInnerHeight()
 ```
 
 
-Gets the height of plot area in units of 1/4000 of the chart area.
+Gets the height of the plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -396,7 +396,7 @@ public double getInnerWidthRatioToChart()
 ```
 
 
-Gets the width of plot area in units of ratio of the chart area.
+Gets the width of the plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -416,7 +416,7 @@ public int getInnerX()
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -430,7 +430,7 @@ public double getInnerXRatioToChart()
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -450,7 +450,7 @@ public int getInnerY()
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -464,7 +464,7 @@ public double getInnerYRatioToChart()
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -556,7 +556,7 @@ public double getWidthRatioToChart()
 ```
 
 
-Gets the width of plot-area bounding box in units of ratio of the chart area.
+Gets the width of plot-area bounding box in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -576,7 +576,7 @@ public int getX()
 ```
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -600,7 +600,7 @@ public double getXRatioToChart()
 ```
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+Gets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area.
 
 **Remarks**
 
@@ -620,7 +620,7 @@ public int getY()
 ```
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+Gets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -644,7 +644,7 @@ public double getYRatioToChart()
 ```
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area.
+Gets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 **Remarks**
 
@@ -674,7 +674,7 @@ public boolean isAutomaticSize()
 ```
 
 
-Indicates whether the plot area is automatic sized.
+Indicates whether the plot area is automatically sized.
 
 **Remarks**
 
@@ -741,7 +741,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-Indicates whether the plot area is automatic sized.
+Indicates whether the plot area is automatically sized.
 
 **Remarks**
 
@@ -826,7 +826,7 @@ public void setHeightRatioToChart(double value)
 ```
 
 
-Sets the height of plot-area bounding box in units of ratio of the chart area.
+Sets the height of the plot-area bounding box in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -849,7 +849,7 @@ public void setInnerHeight(int value)
 ```
 
 
-Sets the height of plot area in units of 1/4000 of the chart area.
+Sets the height of the plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -923,7 +923,7 @@ public void setInnerWidthRatioToChart(double value)
 ```
 
 
-Sets the width of plot area in units of ratio of the chart area.
+Sets the width of the plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -946,7 +946,7 @@ public void setInnerX(int value)
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -963,7 +963,7 @@ public void setInnerXRatioToChart(double value)
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -986,7 +986,7 @@ public void setInnerY(int value)
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+Sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -1003,7 +1003,7 @@ public void setInnerYRatioToChart(double value)
 ```
 
 
-Gets or gets the x coordinate of the upper top corner of plot area in units of ratio of the chart area.
+Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -1026,7 +1026,7 @@ public void setPositionAuto()
 ```
 
 
-Set position of the plot area to automatic
+Set the position of the plot area to automatic
 
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
@@ -1081,7 +1081,7 @@ public void setWidthRatioToChart(double value)
 ```
 
 
-Sets the width of plot-area bounding box in units of ratio of the chart area.
+Sets the width of plot-area bounding box in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -1104,7 +1104,7 @@ public void setX(int value)
 ```
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+Sets the x coordinate of the upper left corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -1134,7 +1134,7 @@ public void setXRatioToChart(double value)
 ```
 
 
-Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of ratio of the chart area.
+Sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area.
 
 **Remarks**
 
@@ -1157,7 +1157,7 @@ public void setY(int value)
 ```
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+Sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -1187,7 +1187,7 @@ public void setYRatioToChart(double value)
 ```
 
 
-Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of ratio of the chart area.
+Sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 **Remarks**
 

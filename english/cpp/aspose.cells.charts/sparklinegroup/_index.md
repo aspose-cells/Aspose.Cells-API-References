@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::SparklineGroup class
 linktitle: SparklineGroup
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SparklineGroup class. Sparkline is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines in C++.'
+description: 'Aspose::Cells::Charts::SparklineGroup class. Sparkline is organized into a sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells.charts/sparklinegroup/
 ---
 ## SparklineGroup class
 
 
-[Sparkline](../sparkline/) is organized into sparkline group. A [SparklineGroup](./) contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
+[Sparkline](../sparkline/) is organized into a sparkline group. A [SparklineGroup](./) contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
 
 ```cpp
 class SparklineGroup

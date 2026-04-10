@@ -4,7 +4,7 @@ linktitle: Plum
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Plum method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8700
+weight: 9100
 url: /cpp/aspose.cells/color/plum/
 ---
 ## Color::Plum method

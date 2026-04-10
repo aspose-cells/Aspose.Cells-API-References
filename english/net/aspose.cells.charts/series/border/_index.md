@@ -1,13 +1,13 @@
 ---
 title: Series.Border
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Represents border of Series object
+description: Series property. Represents the border of a Series object
 type: docs
 url: /net/aspose.cells.charts/series/border/
 ---
 ## Series.Border property
 
-Represents border of Series object.
+Represents the border of a Series object.
 
 ```csharp
 public Line Border { get; }

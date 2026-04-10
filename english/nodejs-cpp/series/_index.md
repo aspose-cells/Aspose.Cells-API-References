@@ -74,11 +74,11 @@ workbook.save("output/ChartsSeries.xls");
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
 | [layoutProperties](#layoutProperties--)| SeriesLayoutProperties | Readonly. Represents the properties of layout. |
 | [points](#points--)| ChartPointCollection | Readonly. Gets the collection of points in a series in a chart. |
-| [area](#area--)| Area | Readonly. Represents the background area of Series object. |
-| [border](#border--)| Line | Readonly. Represents border of Series object. |
+| [area](#area--)| Area | Readonly. Represents the background area of the Series object. |
+| [border](#border--)| Line | Readonly. Represents the border of a Series object. |
 | [name](#name--)| string | Gets or sets the name of the data series. |
 | [displayName](#displayName--)| string | Readonly. Gets the series's name that displays on the chart graph. |
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
@@ -86,8 +86,8 @@ workbook.save("output/ChartsSeries.xls");
 | [values](#values--)| string | Represents the Y values of this chart series. |
 | [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the actual values that are used to plot every point of this series in the chart. |
 | [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the actual category values that are used to plot every point of this series in the chart. |
-| [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
-| [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
+| [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values' NumberList. |
+| [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values' NumberList. |
 | [xValues](#xValues--)| string | Represents the X values of this chart series. |
 | [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble sizes values of the chart series. |
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
@@ -133,12 +133,12 @@ workbook.save("output/ChartsSeries.xls");
 
 | Method | Description |
 | --- | --- |
-| [isFiltered()](#isFiltered--)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
-| [setIsFiltered(boolean)](#setIsFiltered-boolean-)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered()](#isFiltered--)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [setIsFiltered(boolean)](#setIsFiltered-boolean-)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
 | [getLayoutProperties()](#getLayoutProperties--)| <b>@deprecated.</b> Please use the 'layoutProperties' property instead. Represents the properties of layout. |
 | [getPoints()](#getPoints--)| <b>@deprecated.</b> Please use the 'points' property instead. Gets the collection of points in a series in a chart. |
-| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Represents the background area of Series object. |
-| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Represents border of Series object. |
+| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Represents the background area of the Series object. |
+| [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Represents the border of a Series object. |
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the data series. |
 | [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the data series. |
 | [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Gets the series's name that displays on the chart graph. |
@@ -148,10 +148,10 @@ workbook.save("output/ChartsSeries.xls");
 | [setValues(string)](#setValues-string-)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
 | [getPointValues()](#getPointValues--)| <b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the actual values that are used to plot every point of this series in the chart. |
 | [getCategoryValues()](#getCategoryValues--)| <b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the actual category values that are used to plot every point of this series in the chart. |
-| [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
-| [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList. |
-| [getXValuesFormatCode()](#getXValuesFormatCode--)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList. |
-| [setXValuesFormatCode(string)](#setXValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList. |
+| [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList. |
+| [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList. |
+| [getXValuesFormatCode()](#getXValuesFormatCode--)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList. |
+| [setXValuesFormatCode(string)](#setXValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList. |
 | [getXValues()](#getXValues--)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
 | [setXValues(string)](#setXValues-string-)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
 | [getBubbleSizes()](#getBubbleSizes--)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series. |
@@ -224,7 +224,7 @@ workbook.save("output/ChartsSeries.xls");
 
 ### isFiltered {#isFiltered--}
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 isFiltered : boolean;
@@ -255,7 +255,7 @@ When the chart is Pie of Pie or Bar of Pie, the last point is other point in fir
 
 ### area {#area--}
 
-Readonly. Represents the background area of Series object.
+Readonly. Represents the background area of the Series object.
 
 ```javascript
 area : Area;
@@ -264,7 +264,7 @@ area : Area;
 
 ### border {#border--}
 
-Readonly. Represents border of Series object.
+Readonly. Represents the border of a Series object.
 
 ```javascript
 border : Line;
@@ -367,7 +367,7 @@ This property provides one convenient way to get the actual values corresponding
 
 ### valuesFormatCode {#valuesFormatCode--}
 
-Represents format code of Values's NumberList.
+Represents format code of Values' NumberList.
 
 ```javascript
 valuesFormatCode : string;
@@ -376,7 +376,7 @@ valuesFormatCode : string;
 
 ### xValuesFormatCode {#xValuesFormatCode--}
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 ```javascript
 xValuesFormatCode : string;
@@ -394,7 +394,7 @@ xValues : string;
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](../seriescollection.categorydata/) for other types of charts [CategoryValues](../categoryvalues/) is used to get the actual category values of this series.
 
 ### bubbleSizes {#bubbleSizes--}
 
@@ -404,6 +404,10 @@ Gets or sets the bubble sizes values of the chart series.
 bubbleSizes : string;
 ```
 
+
+**Remarks**
+
+Only for [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/).
 
 ### trendLines {#trendLines--}
 
@@ -757,7 +761,7 @@ shapeProperties : ShapePropertyCollection;
 
 ### isFiltered() {#isFiltered--}
 
-<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 isFiltered() : boolean;
@@ -766,7 +770,7 @@ isFiltered() : boolean;
 
 ### setIsFiltered(boolean) {#setIsFiltered-boolean-}
 
-<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 setIsFiltered(value: boolean) : void;
@@ -809,7 +813,7 @@ When the chart is Pie of Pie or Bar of Pie, the last point is other point in fir
 
 ### getArea() {#getArea--}
 
-<b>@deprecated.</b> Please use the 'area' property instead. Represents the background area of Series object.
+<b>@deprecated.</b> Please use the 'area' property instead. Represents the background area of the Series object.
 
 ```javascript
 getArea() : Area;
@@ -822,7 +826,7 @@ getArea() : Area;
 
 ### getBorder() {#getBorder--}
 
-<b>@deprecated.</b> Please use the 'border' property instead. Represents border of Series object.
+<b>@deprecated.</b> Please use the 'border' property instead. Represents the border of a Series object.
 
 ```javascript
 getBorder() : Line;
@@ -948,7 +952,7 @@ This property provides one convenient way to get the actual values corresponding
 
 ### getValuesFormatCode() {#getValuesFormatCode--}
 
-<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList.
+<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList.
 
 ```javascript
 getValuesFormatCode() : string;
@@ -957,7 +961,7 @@ getValuesFormatCode() : string;
 
 ### setValuesFormatCode(string) {#setValuesFormatCode-string-}
 
-<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values's NumberList.
+<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList.
 
 ```javascript
 setValuesFormatCode(value: string) : void;
@@ -970,7 +974,7 @@ setValuesFormatCode(value: string) : void;
 
 ### getXValuesFormatCode() {#getXValuesFormatCode--}
 
-<b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList.
+<b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList.
 
 ```javascript
 getXValuesFormatCode() : string;
@@ -979,7 +983,7 @@ getXValuesFormatCode() : string;
 
 ### setXValuesFormatCode(string) {#setXValuesFormatCode-string-}
 
-<b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values's NumberList.
+<b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList.
 
 ```javascript
 setXValuesFormatCode(value: string) : void;
@@ -1001,7 +1005,7 @@ getXValues() : string;
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](../seriescollection.categorydata/) for other types of charts [CategoryValues](../categoryvalues/) is used to get the actual category values of this series.
 
 ### setXValues(string) {#setXValues-string-}
 
@@ -1018,7 +1022,7 @@ setXValues(value: string) : void;
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](../seriescollection.categorydata/) for other types of charts [CategoryValues](../categoryvalues/) is used to get the actual category values of this series.
 
 ### getBubbleSizes() {#getBubbleSizes--}
 
@@ -1028,6 +1032,10 @@ To get the actual values(corresponding to every point of this series) defined by
 getBubbleSizes() : string;
 ```
 
+
+**Remarks**
+
+Only for [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/).
 
 ### setBubbleSizes(string) {#setBubbleSizes-string-}
 
@@ -1041,6 +1049,10 @@ setBubbleSizes(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+Only for [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/).
 
 ### getTrendLines() {#getTrendLines--}
 

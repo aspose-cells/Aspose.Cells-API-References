@@ -4,7 +4,7 @@ linktitle: Gainsboro
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Gainsboro method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 8600
+weight: 9000
 url: /cpp/aspose.cells/color/gainsboro/
 ---
 ## Color::Gainsboro method

@@ -17,9 +17,9 @@ Represents the text alignment type for the tick labels on the axis
 
 | Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | Represents the text shall be centered. |
-| [LEFT](#LEFT) | Represents the text shall be left justified. |
-| [RIGHT](#RIGHT) | Represents the text shall be right justified. |
+| [CENTER](#CENTER) | Represents that the text shall be centered. |
+| [LEFT](#LEFT) | Represents the text that shall be left justified. |
+| [RIGHT](#RIGHT) | Represents that the text shall be right justified. |
 ## Methods
 
 | Method | Description |
@@ -39,7 +39,7 @@ public static final int CENTER
 ```
 
 
-Represents the text shall be centered.
+Represents that the text shall be centered.
 
 ### LEFT {#LEFT}
 ```
@@ -47,7 +47,7 @@ public static final int LEFT
 ```
 
 
-Represents the text shall be left justified.
+Represents the text that shall be left justified.
 
 ### RIGHT {#RIGHT}
 ```
@@ -55,7 +55,7 @@ public static final int RIGHT
 ```
 
 
-Represents the text shall be right justified.
+Represents that the text shall be right justified.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

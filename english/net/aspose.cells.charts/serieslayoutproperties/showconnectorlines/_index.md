@@ -1,17 +1,21 @@
 ---
 title: SeriesLayoutProperties.ShowConnectorLines
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesLayoutProperties property. Indicates whether showing connector lines between data points
+description: SeriesLayoutProperties property. Indicates whether connector lines are shown between data points
 type: docs
 url: /net/aspose.cells.charts/serieslayoutproperties/showconnectorlines/
 ---
 ## SeriesLayoutProperties.ShowConnectorLines property
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
 
 ```csharp
 public bool ShowConnectorLines { get; set; }
 ```
+
+### Remarks
+
+Only for Waterfall chart.
 
 ### Examples
 

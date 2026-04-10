@@ -19,7 +19,7 @@ U16String Aspose::Cells::Charts::Series::GetXValues()
 ## Remarks
 
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use CategoryValues. 
+Only for Scatter and Bubble chart. Please use SeriesCollection.CategoryData for other types of charts CategoryValues is used to get the actual category values of this series. 
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

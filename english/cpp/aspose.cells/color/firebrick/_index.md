@@ -4,7 +4,7 @@ linktitle: FireBrick
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use FireBrick method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 6900
+weight: 7300
 url: /cpp/aspose.cells/color/firebrick/
 ---
 ## Color::FireBrick method

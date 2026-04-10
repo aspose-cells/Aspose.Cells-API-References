@@ -1,7 +1,7 @@
 ---
 title: ChartGlobalizationSettings
 second_title: Aspose.Cells for Java API Reference
-description: Represents the globalization settings for chart.
+description: Represents the globalization settings for a chart.
 type: docs
 url: /java/com.aspose.cells/chartglobalizationsettings/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ChartGlobalizationSettings
 ```
 
-Represents the globalization settings for chart.
+Represents the globalization settings for a chart.
 ## Constructors
 
 | Constructor | Description |

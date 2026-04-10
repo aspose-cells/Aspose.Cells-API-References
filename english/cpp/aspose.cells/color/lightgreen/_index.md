@@ -4,7 +4,7 @@ linktitle: LightGreen
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightGreen method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 5500
+weight: 5900
 url: /cpp/aspose.cells/color/lightgreen/
 ---
 ## Color::LightGreen method

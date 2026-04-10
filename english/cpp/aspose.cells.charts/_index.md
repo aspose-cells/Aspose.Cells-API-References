@@ -18,7 +18,7 @@ url: /cpp/aspose.cells.charts/
 | [AxisBins](./axisbins/) | Represents axis bins. |
 | [Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating the chart. |
 | [ChartCollection](./chartcollection/) | Encapsulates a collection of [Chart](./chart/) objects. |
 | [ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 | [ChartDataValue](./chartdatavalue/) | Encapsulates chart data value. |
@@ -43,7 +43,7 @@ url: /cpp/aspose.cells.charts/
 | [SeriesLayoutProperties](./serieslayoutproperties/) | Represents the properties of series layout. |
 | [Sparkline](./sparkline/) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 | [SparklineCollection](./sparklinecollection/) | Encapsulates a collection of [Sparkline](./sparkline/) objects. |
-| [SparklineGroup](./sparklinegroup/) | [Sparkline](./sparkline/) is organized into sparkline group. A [SparklineGroup](./sparklinegroup/) contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+| [SparklineGroup](./sparklinegroup/) | [Sparkline](./sparkline/) is organized into a sparkline group. A [SparklineGroup](./sparklinegroup/) contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
 | [SparklineGroupCollection](./sparklinegroupcollection/) | Encapsulates a collection of [SparklineGroup](./sparklinegroup/) objects. |
 | [TickLabelItem](./ticklabelitem/) | Represents a tick label in the chart. |
 | [TickLabels](./ticklabels/) | Represents the tick-mark labels associated with tick marks on a chart axis. |
@@ -60,7 +60,7 @@ url: /cpp/aspose.cells.charts/
 | [Bar3DShapeType](./bar3dshapetype/) | Represents the shape used with the 3-D bar or column chart. |
 | [BubbleSizeRepresents](./bubblesizerepresents/) | Represents what the bubble size represents on a bubble chart. |
 | [CategoryType](./categorytype/) | Represents the category axis type. |
-| [ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in Excel chart. |
+| [ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in an Excel chart. |
 | [ChartLineFormattingType](./chartlineformattingtype/) | Represents line format type of chart line. |
 | [ChartMarkerType](./chartmarkertype/) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartSplitType](./chartsplittype/) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. |
@@ -75,7 +75,7 @@ url: /cpp/aspose.cells.charts/
 | [LabelPositionType](./labelpositiontype/) | Represents data label position type. |
 | [LegendPositionType](./legendpositiontype/) | Enumerates the legend position types. |
 | [MapChartLabelLayout](./mapchartlabellayout/) | Represents the layout of map chart's labels. |
-| [MapChartProjectionType](./mapchartprojectiontype/) | Represents projection type of the map chart. |
+| [MapChartProjectionType](./mapchartprojectiontype/) | Represents the projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype/) | Represents the region type of the map chart. |
 | [PlotDataByType](./plotdatabytype/) | Represents the type of data plot by row or column. |
 | [PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cells type of a chart. |

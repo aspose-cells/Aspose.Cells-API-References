@@ -4,7 +4,7 @@ linktitle: LightCoral
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use LightCoral method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 9400
+weight: 9800
 url: /cpp/aspose.cells/color/lightcoral/
 ---
 ## Color::LightCoral method

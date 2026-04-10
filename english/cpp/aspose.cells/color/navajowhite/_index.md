@@ -4,7 +4,7 @@ linktitle: NavajoWhite
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use NavajoWhite method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 12500
+weight: 12900
 url: /cpp/aspose.cells/color/navajowhite/
 ---
 ## Color::NavajoWhite method

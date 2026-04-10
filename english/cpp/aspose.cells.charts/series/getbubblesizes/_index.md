@@ -4,7 +4,7 @@ linktitle: GetBubbleSizes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetBubbleSizes method. Gets or sets the bubble sizes values of the chart series in C++.'
 type: docs
-weight: 2400
+weight: 2800
 url: /cpp/aspose.cells.charts/series/getbubblesizes/
 ---
 ## Series::GetBubbleSizes method
@@ -16,6 +16,10 @@ Gets or sets the bubble sizes values of the chart series.
 U16String Aspose::Cells::Charts::Series::GetBubbleSizes()
 ```
 
+## Remarks
+
+
+Only for [ChartType.Bubble](../../charttype/) or [ChartType.Bubble3D](../../charttype/). 
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

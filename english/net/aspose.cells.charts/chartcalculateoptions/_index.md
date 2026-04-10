@@ -1,13 +1,13 @@
 ---
 title: Class ChartCalculateOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.ChartCalculateOptions class. Represents the options for calculating chart
+description: Aspose.Cells.Charts.ChartCalculateOptions class. Represents the options for calculating the chart
 type: docs
 url: /net/aspose.cells.charts/chartcalculateoptions/
 ---
 ## ChartCalculateOptions class
 
-Represents the options for calculating chart.
+Represents the options for calculating the chart.
 
 ```csharp
 public class ChartCalculateOptions

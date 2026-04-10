@@ -16,6 +16,10 @@ Represents the statistical properties for the series.
 void Aspose::Cells::Charts::SeriesLayoutProperties::SetQuartileCalculation(QuartileCalculationType value)
 ```
 
+## Remarks
+
+
+Only applicable to BoxWhisker chart. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

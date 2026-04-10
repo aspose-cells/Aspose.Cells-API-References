@@ -4,7 +4,7 @@ linktitle: Silver
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Silver method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7400
+weight: 7800
 url: /cpp/aspose.cells/color/silver/
 ---
 ## Color::Silver method

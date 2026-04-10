@@ -1,17 +1,21 @@
 ---
 title: SeriesLayoutProperties.ShowMeanLine
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesLayoutProperties property. Indicates whether showing the line connecting all mean points
+description: SeriesLayoutProperties property. Indicates whether to show the line connecting all mean points
 type: docs
 url: /net/aspose.cells.charts/serieslayoutproperties/showmeanline/
 ---
 ## SeriesLayoutProperties.ShowMeanLine property
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
 
 ```csharp
 public bool ShowMeanLine { get; set; }
 ```
+
+### Remarks
+
+Only works for BoxWhisker chart.
 
 ### Examples
 

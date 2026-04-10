@@ -4,7 +4,7 @@ linktitle: Navy
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Navy method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 200
+weight: 600
 url: /cpp/aspose.cells/color/navy/
 ---
 ## Color::Navy method

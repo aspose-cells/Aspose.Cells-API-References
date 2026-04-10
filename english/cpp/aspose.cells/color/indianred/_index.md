@@ -4,7 +4,7 @@ linktitle: IndianRed
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use IndianRed method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7600
+weight: 8000
 url: /cpp/aspose.cells/color/indianred/
 ---
 ## Color::IndianRed method

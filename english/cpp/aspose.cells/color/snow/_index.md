@@ -4,7 +4,7 @@ linktitle: Snow
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Snow method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13600
+weight: 14000
 url: /cpp/aspose.cells/color/snow/
 ---
 ## Color::Snow method

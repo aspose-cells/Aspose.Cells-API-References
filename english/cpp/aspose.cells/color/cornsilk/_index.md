@@ -4,7 +4,7 @@ linktitle: Cornsilk
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Cornsilk method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13300
+weight: 13700
 url: /cpp/aspose.cells/color/cornsilk/
 ---
 ## Color::Cornsilk method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetInnerWidthRatioToChart method
 linktitle: GetInnerWidthRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetInnerWidthRatioToChart method. Gets or sets the width of plot area in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetInnerWidthRatioToChart method. Gets or sets the width of the plot area in units of the ratio of the chart area in C++.'
 type: docs
 weight: 3600
 url: /cpp/aspose.cells.charts/plotarea/getinnerwidthratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getinnerwidthratiotochart/
 ## PlotArea::GetInnerWidthRatioToChart method
 
 
-Gets or sets the width of plot area in units of ratio of the chart area.
+Gets or sets the width of the plot area in units of the ratio of the chart area.
 
 ```cpp
 double Aspose::Cells::Charts::PlotArea::GetInnerWidthRatioToChart()

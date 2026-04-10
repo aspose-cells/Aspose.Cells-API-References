@@ -1,13 +1,13 @@
 ---
 title: PlotArea.InnerWidthRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Gets or sets the width of plot area in units of ratio of the chart area
+description: PlotArea property. Gets or sets the width of the plot area in units of the ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/plotarea/innerwidthratiotochart/
 ---
 ## PlotArea.InnerWidthRatioToChart property
 
-Gets or sets the width of plot area in units of ratio of the chart area.
+Gets or sets the width of the plot area in units of the ratio of the chart area.
 
 ```csharp
 public double InnerWidthRatioToChart { get; set; }

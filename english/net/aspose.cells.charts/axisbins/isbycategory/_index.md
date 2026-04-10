@@ -1,13 +1,13 @@
 ---
 title: AxisBins.IsByCategory
 second_title: Aspose.Cells for .NET API Reference
-description: AxisBins property. Indicates whether grouping data by category
+description: AxisBins property. Indicates whether grouping data by category is enabled
 type: docs
 url: /net/aspose.cells.charts/axisbins/isbycategory/
 ---
 ## AxisBins.IsByCategory property
 
-Indicates whether grouping data by category
+Indicates whether grouping data by category is enabled.
 
 ```csharp
 public bool IsByCategory { get; set; }

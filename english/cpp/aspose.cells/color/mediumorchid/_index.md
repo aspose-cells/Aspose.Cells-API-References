@@ -4,7 +4,7 @@ linktitle: MediumOrchid
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use MediumOrchid method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7100
+weight: 7500
 url: /cpp/aspose.cells/color/mediumorchid/
 ---
 ## Color::MediumOrchid method

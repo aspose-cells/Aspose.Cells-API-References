@@ -76,9 +76,9 @@ Encapsulates the object that represents a single data series in a chart.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Represents the background area of Series object. |
+| [getArea()](#getArea--) | Represents the background area of the Series object. |
 | [getBar3DShapeType()](#getBar3DShapeType--) | Gets the 3D shape type used with the 3-D bar or column chart. |
-| [getBorder()](#getBorder--) | Represents border of Series object. |
+| [getBorder()](#getBorder--) | Represents the border of a Series object. |
 | [getBubbleScale()](#getBubbleScale--) | Gets the scale factor for bubbles in the specified chart group. |
 | [getBubbleSizeRepresents()](#getBubbleSizeRepresents--) | Gets what the bubble size represents on a bubble chart. |
 | [getBubbleSizes()](#getBubbleSizes--) | Gets the bubble sizes values of the chart series. |
@@ -119,10 +119,10 @@ Encapsulates the object that represents a single data series in a chart.
 | [getType()](#getType--) | Gets a data series' type. |
 | [getUpBars()](#getUpBars--) | Returns an DropBars object that represents the up bars on a line chart. |
 | [getValues()](#getValues--) | Represents the Y values of this chart series. |
-| [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values's NumberList. |
+| [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values' NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
 | [getXValues()](#getXValues--) | Represents the X values of this chart series. |
-| [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values's NumberList. |
+| [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values' NumberList. |
 | [getYErrorBar()](#getYErrorBar--) | Represents Y direction error bar of the series. |
 | [hasDropLines()](#hasDropLines--) | True if the chart has drop lines. |
 | [hasHiLoLines()](#hasHiLoLines--) | True if the line chart has high-low lines. |
@@ -133,7 +133,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [hashCode()](#hashCode--) |  |
 | [isAutoSplit()](#isAutoSplit--) | Indicates whether the threshold value is automatic. |
 | [isColorVaried()](#isColorVaried--) | Represents if the color of points is varied. |
-| [isFiltered()](#isFiltered--) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered()](#isFiltered--) | Indicates whether the series is selected or filtered. |
 | [isVerticalValues()](#isVerticalValues--) | Indicates whether the data source is vertical. |
 | [move(int count)](#move-int-) | Moves the series up or down. |
 | [notify()](#notify--) |  |
@@ -145,7 +145,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
 | [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int-) | Returns or sets the size of the hole in a doughnut chart group. |
 | [setExplosion(int value)](#setExplosion-int-) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
-| [setFiltered(boolean value)](#setFiltered-boolean-) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [setFiltered(boolean value)](#setFiltered-boolean-) | Indicates whether the series is selected or filtered. |
 | [setFirstSliceAngle(short value)](#setFirstSliceAngle-short-) | Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [setGapWidth(short value)](#setGapWidth-short-) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
 | [setHas3DEffect(boolean value)](#setHas3DEffect-boolean-) | True if the series has a three-dimensional appearance. |
@@ -167,9 +167,9 @@ Encapsulates the object that represents a single data series in a chart.
 | [setSplitValue(double value)](#setSplitValue-double-) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [setType(int value)](#setType-int-) | Sets a data series' type. |
 | [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
-| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values's NumberList. |
+| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values' NumberList. |
 | [setXValues(String value)](#setXValues-java.lang.String-) | Represents the X values of this chart series. |
-| [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values's NumberList. |
+| [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values' NumberList. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -195,7 +195,7 @@ public Area getArea()
 ```
 
 
-Represents the background area of Series object.
+Represents the background area of the Series object.
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -217,7 +217,7 @@ public Line getBorder()
 ```
 
 
-Represents border of Series object.
+Represents the border of a Series object.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -254,6 +254,10 @@ public String getBubbleSizes()
 
 
 Gets the bubble sizes values of the chart series.
+
+**Remarks**
+
+Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D).
 
 **Returns:**
 java.lang.String
@@ -714,7 +718,7 @@ public String getValuesFormatCode()
 ```
 
 
-Represents format code of Values's NumberList.
+Represents format code of Values' NumberList.
 
 **Returns:**
 java.lang.String
@@ -738,7 +742,7 @@ Represents the X values of this chart series.
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--) is used to get the actual category values of this series.
 
 **Returns:**
 java.lang.String
@@ -748,7 +752,7 @@ public String getXValuesFormatCode()
 ```
 
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 **Returns:**
 java.lang.String
@@ -858,7 +862,7 @@ public boolean isFiltered()
 ```
 
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 **Returns:**
 boolean
@@ -956,6 +960,10 @@ public void setBubbleSizes(String value)
 
 Sets the bubble sizes values of the chart series.
 
+**Remarks**
+
+Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D).
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1006,7 +1014,7 @@ public void setFiltered(boolean value)
 ```
 
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1310,7 +1318,7 @@ public void setValuesFormatCode(String value)
 ```
 
 
-Represents format code of Values's NumberList.
+Represents format code of Values' NumberList.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1327,7 +1335,7 @@ Represents the X values of this chart series.
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--) is used to get the actual category values of this series.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1340,7 +1348,7 @@ public void setXValuesFormatCode(String value)
 ```
 
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 **Parameters:**
 | Parameter | Type | Description |

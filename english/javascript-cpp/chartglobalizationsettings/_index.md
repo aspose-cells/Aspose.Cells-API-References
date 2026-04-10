@@ -1,14 +1,14 @@
 ﻿---
 title: ChartGlobalizationSettings
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the globalization settings for chart.
+description: Represents the globalization settings for a chart.
 type: docs
 url: /javascript-cpp/chartglobalizationsettings/
 ---
 
 ## ChartGlobalizationSettings class
 
-Represents the globalization settings for chart.
+Represents the globalization settings for a chart.
 
 ```javascript
 class ChartGlobalizationSettings;

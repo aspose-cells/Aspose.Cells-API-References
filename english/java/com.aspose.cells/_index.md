@@ -91,13 +91,13 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CharacterBulletValue](../com.aspose.cells/characterbulletvalue) | Represents the character bullet. |
 | [Chart](../com.aspose.cells/chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](../com.aspose.cells/chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating chart. |
+| [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating the chart. |
 | [ChartCollection](../com.aspose.cells/chartcollection) | Encapsulates a collection of [Chart](../com.aspose.cells/chart) objects. |
-| [ChartColorPaletteType](../com.aspose.cells/chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in Excel chart. |
+| [ChartColorPaletteType](../com.aspose.cells/chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in an Excel chart. |
 | [ChartDataTable](../com.aspose.cells/chartdatatable) | Represents a chart data table. |
 | [ChartDataValue](../com.aspose.cells/chartdatavalue) | Encapsulates chart data value |
 | [ChartFrame](../com.aspose.cells/chartframe) | Encapsulates the object that represents the frame object in a chart. |
-| [ChartGlobalizationSettings](../com.aspose.cells/chartglobalizationsettings) | Represents the globalization settings for chart. |
+| [ChartGlobalizationSettings](../com.aspose.cells/chartglobalizationsettings) | Represents the globalization settings for a chart. |
 | [ChartLineFormattingType](../com.aspose.cells/chartlineformattingtype) | Represents line format type of chart line. |
 | [ChartMarkerType](../com.aspose.cells/chartmarkertype) | Represents the marker style in a line chart, scatter chart, or radar chart. |
 | [ChartPoint](../com.aspose.cells/chartpoint) | Represents a single point in a series in a chart. |
@@ -396,7 +396,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [LowCodeSaveOptionsProviderOfPlaceHolders](../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders) | Implementation to provide save options which save split parts to files and the path of resultant file are defined with placeholders. |
 | [LowCodeSplitOptions](../com.aspose.cells/lowcodesplitoptions) | Options for splitting spreadsheet. |
 | [MapChartLabelLayout](../com.aspose.cells/mapchartlabellayout) | Represents the layout of map chart's labels. |
-| [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents projection type of the map chart. |
+| [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents the projection type of the map chart. |
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownLoadOptions](../com.aspose.cells/markdownloadoptions) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](../com.aspose.cells/markdownsaveoptions) | Represents the save options for markdown. |
@@ -672,7 +672,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Sparkline](../com.aspose.cells/sparkline) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 | [SparklineAxisMinMaxType](../com.aspose.cells/sparklineaxisminmaxtype) | Represents the minimum and maximum value types for the sparkline vertical axis. |
 | [SparklineCollection](../com.aspose.cells/sparklinecollection) | Encapsulates a collection of [Sparkline](../com.aspose.cells/sparkline) objects. |
-| [SparklineGroup](../com.aspose.cells/sparklinegroup) | [Sparkline](../com.aspose.cells/sparkline) is organized into sparkline group. |
+| [SparklineGroup](../com.aspose.cells/sparklinegroup) | [Sparkline](../com.aspose.cells/sparkline) is organized into a sparkline group. |
 | [SparklineGroupCollection](../com.aspose.cells/sparklinegroupcollection) | Encapsulates a collection of [SparklineGroup](../com.aspose.cells/sparklinegroup) objects. |
 | [SparklinePresetStyleType](../com.aspose.cells/sparklinepresetstyletype) | Represents the preset style types for sparkline. |
 | [SparklineType](../com.aspose.cells/sparklinetype) | Represents the sparkline types. |

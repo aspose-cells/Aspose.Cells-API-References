@@ -4,7 +4,7 @@ linktitle: MediumSeaGreen
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use MediumSeaGreen method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 2400
+weight: 2800
 url: /cpp/aspose.cells/color/mediumseagreen/
 ---
 ## Color::MediumSeaGreen method

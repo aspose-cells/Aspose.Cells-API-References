@@ -4,7 +4,7 @@ linktitle: DarkSlateBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkSlateBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 2800
+weight: 3200
 url: /cpp/aspose.cells/color/darkslateblue/
 ---
 ## Color::DarkSlateBlue method

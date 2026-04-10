@@ -1,7 +1,7 @@
 ---
 title: ChartColorPaletteType
 second_title: Aspose.Cells for Java API Reference
-description: Enumerates all Monochromatic Palettes used in Excel chart.
+description: Enumerates all Monochromatic Palettes used in an Excel chart.
 type: docs
 url: /java/com.aspose.cells/chartcolorpalettetype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ChartColorPaletteType
 ```
 
-Enumerates all Monochromatic Palettes used in Excel chart.
+Enumerates all Monochromatic Palettes used in an Excel chart.
 ## Fields
 
 | Field | Description |

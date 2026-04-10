@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::ChartColorPaletteType enum
 linktitle: ChartColorPaletteType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartColorPaletteType enum. Enumerates all Monochromatic Palettes used in Excel chart in C++.'
+description: 'Aspose::Cells::Charts::ChartColorPaletteType enum. Enumerates all Monochromatic Palettes used in an Excel chart in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells.charts/chartcolorpalettetype/
 ---
 ## ChartColorPaletteType enum
 
 
-Enumerates all Monochromatic Palettes used in Excel chart.
+Enumerates all Monochromatic Palettes used in an Excel chart.
 
 ```cpp
 enum class ChartColorPaletteType

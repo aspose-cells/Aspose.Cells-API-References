@@ -4,7 +4,7 @@ linktitle: SeaShell
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use SeaShell method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 13200
+weight: 13600
 url: /cpp/aspose.cells/color/seashell/
 ---
 ## Color::SeaShell method

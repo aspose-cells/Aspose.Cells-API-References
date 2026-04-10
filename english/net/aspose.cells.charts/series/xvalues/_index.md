@@ -15,7 +15,7 @@ public string XValues { get; set; }
 
 ### Remarks
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [`CategoryValues`](../categoryvalues/).
+Only for Scatter and Bubble chart. Please use [`CategoryData`](../../seriescollection/categorydata/) for other types of charts [`CategoryValues`](../categoryvalues/) is used to get the actual category values of this series.
 
 ### Examples
 

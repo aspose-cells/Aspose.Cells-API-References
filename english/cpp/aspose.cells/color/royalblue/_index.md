@@ -4,7 +4,7 @@ linktitle: RoyalBlue
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use RoyalBlue method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 2600
+weight: 3000
 url: /cpp/aspose.cells/color/royalblue/
 ---
 ## Color::RoyalBlue method

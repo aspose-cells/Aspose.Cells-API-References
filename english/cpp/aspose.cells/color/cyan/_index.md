@@ -4,7 +4,7 @@ linktitle: Cyan
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Cyan method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 1600
+weight: 2000
 url: /cpp/aspose.cells/color/cyan/
 ---
 ## Color::Cyan method

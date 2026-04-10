@@ -49,7 +49,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [GetLinkedSource()](../charttextframe/getlinkedsource/) | Gets and sets a reference to the worksheet. |
 | [GetPosition()](./getposition/) | Gets or sets the legend position type. |
 | [GetReadingOrder()](../charttextframe/getreadingorder/) | Represents text reading order. |
-| [GetRotationAngle()](../charttextframe/getrotationangle/) | Represents text rotation angle. |
+| [GetRotationAngle()](../charttextframe/getrotationangle/) | Represents the text rotation angle. |
 | [GetShadow()](../chartframe/getshadow/) | True if the frame has a shadow. |
 | [GetShapeProperties()](../chartframe/getshapeproperties/) | Gets the ShapeProperties object. |
 | [GetText()](../charttextframe/gettext/) | Gets or sets the text of a frame's title. |
@@ -69,7 +69,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](../charttextframe/isautotext/) | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels is deleted. |
+| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels are deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsOverLay()](./isoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
@@ -91,7 +91,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](../charttextframe/setisautotext/) | Indicates the text is auto generated. |
-| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels is deleted. |
+| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels are deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [SetIsOverLay(bool value)](./setisoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
@@ -101,7 +101,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [SetPosition(LegendPositionType value)](./setposition/) | Gets or sets the legend position type. |
 | [SetPositionAuto()](../chartframe/setpositionauto/) | Set position of the frame to automatic. |
 | [SetReadingOrder(TextDirectionType value)](../charttextframe/setreadingorder/) | Represents text reading order. |
-| [SetRotationAngle(int32_t value)](../charttextframe/setrotationangle/) | Represents text rotation angle. |
+| [SetRotationAngle(int32_t value)](../charttextframe/setrotationangle/) | Represents the text rotation angle. |
 | [SetShadow(bool value)](../chartframe/setshadow/) | True if the frame has a shadow. |
 | [SetText(const U16String\& value)](../charttextframe/settext/) | Gets or sets the text of a frame's title. |
 | [SetText(const char16_t* value)](../charttextframe/settext/) | Gets or sets the text of a frame's title. |

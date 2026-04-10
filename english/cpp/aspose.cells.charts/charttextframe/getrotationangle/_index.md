@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartTextFrame::GetRotationAngle method
 linktitle: GetRotationAngle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartTextFrame::GetRotationAngle method. Represents text rotation angle in C++.'
+description: 'Aspose::Cells::Charts::ChartTextFrame::GetRotationAngle method. Represents the text rotation angle in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/charttextframe/getrotationangle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/charttextframe/getrotationangle/
 ## ChartTextFrame::GetRotationAngle method
 
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```cpp
 int32_t Aspose::Cells::Charts::ChartTextFrame::GetRotationAngle()

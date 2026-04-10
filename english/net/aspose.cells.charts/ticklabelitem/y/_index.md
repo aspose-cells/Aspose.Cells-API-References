@@ -1,13 +1,13 @@
 ---
 title: TickLabelItem.Y
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabelItem property. Y coordinates of Ticklabel item in ratio of chart height
+description: TickLabelItem property. Y coordinates of Ticklabel item as a ratio of the chart height
 type: docs
 url: /net/aspose.cells.charts/ticklabelitem/y/
 ---
 ## TickLabelItem.Y property
 
-Y coordinates of Ticklabel item in ratio of chart height.
+Y coordinates of Ticklabel item as a ratio of the chart height.
 
 ```csharp
 public double Y { get; }

@@ -34,7 +34,7 @@ class PivotTable;
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
 | [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
 | [topRightArea](#topRightArea--)| CellArea | Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
-| [filterArea](#filterArea--)| CellArea | Readonly. Gets the region of filter region. |
+| [filterArea](#filterArea--)| CellArea | Readonly. Gets the area of filter region. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [rowRange](#rowRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
 | [dataBodyRange](#dataBodyRange--)| CellArea | Readonly. Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
@@ -296,7 +296,7 @@ topRightArea : CellArea;
 
 ### filterArea {#filterArea--}
 
-Readonly. Gets the region of filter region.
+Readonly. Gets the area of filter region.
 
 ```javascript
 filterArea : CellArea;
@@ -305,7 +305,7 @@ filterArea : CellArea;
 
 **Remarks**
 
-Only valid if filter pivot fields exists.
+Only valid if filter pivot fields exists. An empty area will be returned if this pivot table does not contains filter pivot fields
 
 ### columnRange {#columnRange--}
 

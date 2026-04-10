@@ -1,13 +1,13 @@
 ---
 title: PlotArea.IsAutomaticSize
 second_title: Aspose.Cells for .NET API Reference
-description: PlotArea property. Indicates whether the plot area is automatic sized
+description: PlotArea property. Indicates whether the plot area is automatically sized
 type: docs
 url: /net/aspose.cells.charts/plotarea/isautomaticsize/
 ---
 ## PlotArea.IsAutomaticSize property
 
-Indicates whether the plot area is automatic sized.
+Indicates whether the plot area is automatically sized.
 
 ```csharp
 public override bool IsAutomaticSize { get; set; }

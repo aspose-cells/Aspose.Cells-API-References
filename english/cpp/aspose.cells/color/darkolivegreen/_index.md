@@ -4,7 +4,7 @@ linktitle: DarkOliveGreen
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkOliveGreen method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 3100
+weight: 3500
 url: /cpp/aspose.cells/color/darkolivegreen/
 ---
 ## Color::DarkOliveGreen method

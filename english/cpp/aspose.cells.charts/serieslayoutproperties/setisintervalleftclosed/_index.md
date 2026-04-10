@@ -16,6 +16,10 @@ Indicates whether the interval is closed on the left side.
 void Aspose::Cells::Charts::SeriesLayoutProperties::SetIsIntervalLeftClosed(bool value)
 ```
 
+## Remarks
+
+
+Only for ParetoLine chart. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

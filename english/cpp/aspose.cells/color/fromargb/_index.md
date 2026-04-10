@@ -4,7 +4,7 @@ linktitle: FromArgb
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Color::FromArgb method. Creates a Color from its 32-bit component (alpha, red, green, and blue) values in C++.'
 type: docs
-weight: 14100
+weight: 200
 url: /cpp/aspose.cells/color/fromargb/
 ---
 ## Color::FromArgb method

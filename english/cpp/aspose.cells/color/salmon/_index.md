@@ -4,7 +4,7 @@ linktitle: Salmon
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Salmon method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 10500
+weight: 10900
 url: /cpp/aspose.cells/color/salmon/
 ---
 ## Color::Salmon method

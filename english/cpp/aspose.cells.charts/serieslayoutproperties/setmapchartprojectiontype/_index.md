@@ -16,6 +16,10 @@ Gets and sets the projection type of the map.
 void Aspose::Cells::Charts::SeriesLayoutProperties::SetMapChartProjectionType(MapChartProjectionType value)
 ```
 
+## Remarks
+
+
+Only for map chart. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

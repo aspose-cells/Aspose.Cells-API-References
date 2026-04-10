@@ -14,6 +14,8 @@ Represents the properties of series layout.
 class SeriesLayoutProperties;
 ```
 
+### Remarks
+Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and Histogram chart.
 
 ## Constructors
 
@@ -25,11 +27,11 @@ class SeriesLayoutProperties;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether showing connector lines between data points. |
-| [showMeanLine](#showMeanLine--)| boolean | Indicates whether showing the line connecting all mean points. |
-| [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether showing outlier data points. |
-| [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether showing markers denoting the mean. |
-| [showInnerPoints](#showInnerPoints--)| boolean | Indicates whether showing non-outlier data points. |
+| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are shown between data points. |
+| [showMeanLine](#showMeanLine--)| boolean | Indicates whether to show the line connecting all mean points. |
+| [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether outlier data points are shown. |
+| [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether markers denoting the mean are shown. |
+| [showInnerPoints](#showInnerPoints--)| boolean | Indicates whether to show non-outlier data points. |
 | [subtotals](#subtotals--)| number[] | Represents the index of a subtotal data point. |
 | [quartileCalculation](#quartileCalculation--)| QuartileCalculationType | Represents the statistical properties for the series. |
 | [mapLabelLayout](#mapLabelLayout--)| MapChartLabelLayout | Gets and sets the layout of map labels. |
@@ -49,25 +51,33 @@ constructor();
 
 ### showConnectorLines {#showConnectorLines--}
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
 
 ```javascript
 showConnectorLines : boolean;
 ```
 
 
+**Remarks**
+
+Only for Waterfall chart.
+
 ### showMeanLine {#showMeanLine--}
 
-Indicates whether showing the line connecting all mean points.
+Indicates whether to show the line connecting all mean points.
 
 ```javascript
 showMeanLine : boolean;
 ```
 
 
+**Remarks**
+
+Only works for BoxWhisker chart.
+
 ### showOutlierPoints {#showOutlierPoints--}
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 ```javascript
 showOutlierPoints : boolean;
@@ -76,7 +86,7 @@ showOutlierPoints : boolean;
 
 ### showMeanMarker {#showMeanMarker--}
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 ```javascript
 showMeanMarker : boolean;
@@ -85,7 +95,7 @@ showMeanMarker : boolean;
 
 ### showInnerPoints {#showInnerPoints--}
 
-Indicates whether showing non-outlier data points.
+Indicates whether to show non-outlier data points.
 
 ```javascript
 showInnerPoints : boolean;
@@ -110,6 +120,10 @@ quartileCalculation : QuartileCalculationType;
 ```
 
 
+**Remarks**
+
+Only applicable to BoxWhisker chart.
+
 ### mapLabelLayout {#mapLabelLayout--}
 
 Gets and sets the layout of map labels.
@@ -128,6 +142,10 @@ isIntervalLeftClosed : boolean;
 ```
 
 
+**Remarks**
+
+Only for ParetoLine chart.
+
 ### mapChartRegionType {#mapChartRegionType--}
 
 Gets and sets the region type of the map.
@@ -137,6 +155,10 @@ mapChartRegionType : MapChartRegionType;
 ```
 
 
+**Remarks**
+
+Only for map chart.
+
 ### mapChartProjectionType {#mapChartProjectionType--}
 
 Gets and sets the projection type of the map.
@@ -145,5 +167,9 @@ Gets and sets the projection type of the map.
 mapChartProjectionType : MapChartProjectionType;
 ```
 
+
+**Remarks**
+
+Only for map chart.
 
 

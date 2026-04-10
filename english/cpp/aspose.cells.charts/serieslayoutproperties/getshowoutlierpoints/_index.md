@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SeriesLayoutProperties::GetShowOutlierPoints method
 linktitle: GetShowOutlierPoints
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowOutlierPoints method. Indicates whether showing outlier data points in C++.'
+description: 'Aspose::Cells::Charts::SeriesLayoutProperties::GetShowOutlierPoints method. Indicates whether outlier data points are shown in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowoutlierpoints/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/serieslayoutproperties/getshowoutlierpoints/
 ## SeriesLayoutProperties::GetShowOutlierPoints method
 
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 ```cpp
 bool Aspose::Cells::Charts::SeriesLayoutProperties::GetShowOutlierPoints()

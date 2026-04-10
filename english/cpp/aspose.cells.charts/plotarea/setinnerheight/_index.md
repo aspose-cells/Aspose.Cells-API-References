@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::SetInnerHeight method
 linktitle: SetInnerHeight
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::SetInnerHeight method. Gets or sets the height of plot area in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::SetInnerHeight method. Gets or sets the height of the plot area in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.cells.charts/plotarea/setinnerheight/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/setinnerheight/
 ## PlotArea::SetInnerHeight method
 
 
-Gets or sets the height of plot area in units of 1/4000 of the chart area.
+Gets or sets the height of the plot area in units of 1/4000 of the chart area.
 
 
 >Deprecated

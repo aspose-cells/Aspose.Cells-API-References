@@ -74,11 +74,11 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
 | [layoutProperties](#layoutProperties--)| SeriesLayoutProperties | Readonly. Represents the properties of layout. |
 | [points](#points--)| ChartPointCollection | Readonly. Gets the collection of points in a series in a chart. |
-| [area](#area--)| Area | Readonly. Represents the background area of Series object. |
-| [border](#border--)| Line | Readonly. Represents border of Series object. |
+| [area](#area--)| Area | Readonly. Represents the background area of the Series object. |
+| [border](#border--)| Line | Readonly. Represents the border of a Series object. |
 | [name](#name--)| string | Gets or sets the name of the data series. |
 | [displayName](#displayName--)| string | Readonly. Gets the series's name that displays on the chart graph. |
 | [countOfDataValues](#countOfDataValues--)| number | Readonly. Gets the number of the data values. |
@@ -86,8 +86,8 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [values](#values--)| string | Represents the Y values of this chart series. |
 | [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the actual values that are used to plot every point of this series in the chart. |
 | [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the actual category values that are used to plot every point of this series in the chart. |
-| [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values's NumberList. |
-| [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values's NumberList. |
+| [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values' NumberList. |
+| [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values' NumberList. |
 | [xValues](#xValues--)| string | Represents the X values of this chart series. |
 | [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble sizes values of the chart series. |
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
@@ -138,7 +138,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 ### isFiltered {#isFiltered--}
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 isFiltered : boolean;
@@ -169,7 +169,7 @@ When the chart is Pie of Pie or Bar of Pie, the last point is other point in fir
 
 ### area {#area--}
 
-Readonly. Represents the background area of Series object.
+Readonly. Represents the background area of the Series object.
 
 ```javascript
 area : Area;
@@ -178,7 +178,7 @@ area : Area;
 
 ### border {#border--}
 
-Readonly. Represents border of Series object.
+Readonly. Represents the border of a Series object.
 
 ```javascript
 border : Line;
@@ -281,7 +281,7 @@ This property provides one convenient way to get the actual values corresponding
 
 ### valuesFormatCode {#valuesFormatCode--}
 
-Represents format code of Values's NumberList.
+Represents format code of Values' NumberList.
 
 ```javascript
 valuesFormatCode : string;
@@ -290,7 +290,7 @@ valuesFormatCode : string;
 
 ### xValuesFormatCode {#xValuesFormatCode--}
 
-Represents format code of X Values's NumberList.
+Represents format code of X Values' NumberList.
 
 ```javascript
 xValuesFormatCode : string;
@@ -308,7 +308,7 @@ xValues : string;
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [CategoryValues](../categoryvalues/).
+Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](../seriescollection.categorydata/) for other types of charts [CategoryValues](../categoryvalues/) is used to get the actual category values of this series.
 
 ### bubbleSizes {#bubbleSizes--}
 
@@ -318,6 +318,10 @@ Gets or sets the bubble sizes values of the chart series.
 bubbleSizes : string;
 ```
 
+
+**Remarks**
+
+Only for [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../charttype.bubble3d/).
 
 ### trendLines {#trendLines--}
 

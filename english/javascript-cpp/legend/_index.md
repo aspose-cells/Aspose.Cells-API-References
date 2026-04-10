@@ -64,10 +64,10 @@ legend.position = LegendPositionType.Left;
 | [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
 | [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
 | [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
-| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels is deleted. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels are deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle. |
+| [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Readonly. Indicates whether the text of the chart is automatically rotated. |
 | [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
 | [isResizeShapeToFitText](#isResizeShapeToFitText--)| boolean | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
@@ -327,7 +327,7 @@ defaultHeightRatioToChart : number;
 
 ### isDeleted {#isDeleted--}
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 ```javascript
 isDeleted : boolean;
@@ -354,7 +354,7 @@ textVerticalAlignment : TextAlignmentType;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```javascript
 rotationAngle : number;

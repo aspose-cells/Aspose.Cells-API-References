@@ -16,6 +16,10 @@ Represents the statistical properties for the series.
 QuartileCalculationType Aspose::Cells::Charts::SeriesLayoutProperties::GetQuartileCalculation()
 ```
 
+## Remarks
+
+
+Only applicable to BoxWhisker chart. 
 ## See Also
 
 * Enum [QuartileCalculationType](../../quartilecalculationtype/)

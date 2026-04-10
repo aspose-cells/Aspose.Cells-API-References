@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotArea::GetWidthRatioToChart method
 linktitle: GetWidthRatioToChart
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotArea::GetWidthRatioToChart method. Gets or sets the width of plot-area bounding box in units of ratio of the chart area in C++.'
+description: 'Aspose::Cells::Charts::PlotArea::GetWidthRatioToChart method. Gets or sets the width of plot-area bounding box in units of the ratio of the chart area in C++.'
 type: docs
 weight: 2800
 url: /cpp/aspose.cells.charts/plotarea/getwidthratiotochart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotarea/getwidthratiotochart/
 ## PlotArea::GetWidthRatioToChart method
 
 
-Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the width of plot-area bounding box in units of the ratio of the chart area.
 
 ```cpp
 double Aspose::Cells::Charts::PlotArea::GetWidthRatioToChart()

@@ -4,7 +4,7 @@ linktitle: DarkKhaki
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use DarkKhaki method of Aspose::Cells::Color class in C++.'
 type: docs
-weight: 7300
+weight: 7700
 url: /cpp/aspose.cells/color/darkkhaki/
 ---
 ## Color::DarkKhaki method
