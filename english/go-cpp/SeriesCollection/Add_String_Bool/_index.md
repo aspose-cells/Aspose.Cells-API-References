@@ -14,7 +14,7 @@ Adds the Series collection to a chart.
 
 ```go
 
-func (instance *SeriesCollection) Add_String_Bool(area string, isvertical bool)  (int32,  error) 
+func (instance *SeriesCollection) Add_String_Bool(dataarea string, isvertical bool)  (int32,  error) 
 
 ```
 

@@ -10,7 +10,7 @@ url: /go-cpp/sparklinegroupcollection/clearsparklinegroups/
 
 ## ClearSparklineGroups function
 
-Clears the sparkline groups that overlaps an area of cells.
+Clears the sparkline groups that overlap an area of cells.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/series/getborder/
 
 ## GetBorder function
 
-Represents border of Series object.
+Represents the border of a Series object.
 
 ```go
 

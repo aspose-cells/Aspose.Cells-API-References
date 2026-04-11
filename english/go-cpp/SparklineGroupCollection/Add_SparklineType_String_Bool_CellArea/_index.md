@@ -10,7 +10,7 @@ url: /go-cpp/sparklinegroupcollection/add_sparklinetype_string_bool_cellarea/
 
 ## Add_SparklineType_String_Bool_CellArea function
 
-Adds an SparklineGroup with Sparkline to the collection.
+Adds an SparklineGroup with some Sparkline to the collection.
 
 ```go
 

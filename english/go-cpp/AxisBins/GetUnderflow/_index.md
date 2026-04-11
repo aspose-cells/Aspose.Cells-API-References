@@ -10,7 +10,7 @@ url: /go-cpp/axisbins/getunderflow/
 
 ## GetUnderflow function
 
-Gets or set the underflow of axis bins
+Gets or sets the underflow of axis bins
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/serieslayoutproperties/setshowconnectorlines/
 
 ## SetShowConnectorLines function
 
-Indicates whether showing connector lines between data points.
+Indicates whether connector lines are shown between data points.
 
 ```go
 

@@ -14,7 +14,7 @@ Gets the NumberType of the object.
 
 ```go
 
-func (instance *Object) GetNumberType()  error
+func (instance *Object) GetNumberType()  (NumberType,  error) 
 
 ```
 

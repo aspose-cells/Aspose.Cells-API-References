@@ -23,6 +23,6 @@ type TickLabelAlignmentType int32
 
 | Field | Description |
 | --- | --- |
-|[Center](./center/) | Represents the text shall be centered. | 
-|[Left](./left/) | Represents the text shall be left justified. | 
-|[Right](./right/) | Represents the text shall be right justified. | 
+|[Center](./center/) | Represents that the text shall be centered. | 
+|[Left](./left/) | Represents the text that shall be left justified. | 
+|[Right](./right/) | Represents that the text shall be right justified. | 

@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/setrotationangle/
 
 ## SetRotationAngle function
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```go
 

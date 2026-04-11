@@ -31,6 +31,8 @@ type NumbersLoadOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetPreserveTableName](./getpreservetablename/) | Indicates whether to preserve table names when importing from Numbers. | 
+|[SetPreserveTableName](./setpreservetablename/) | Indicates whether to preserve table names when importing from Numbers. | 
 |[GetLoadTableType](./getloadtabletype/) | Gets and sets the type of loading multiple tables in one worksheet. | 
 |[SetLoadTableType](./setloadtabletype/) | Gets and sets the type of loading multiple tables in one worksheet. | 
 |[GetLoadFormat](./getloadformat/) | Gets the load format. | 

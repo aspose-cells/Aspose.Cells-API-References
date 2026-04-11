@@ -10,7 +10,7 @@ url: /go-cpp/series/getleaderlines/
 
 ## GetLeaderLines function
 
-Represents leader lines on a chart. Leader lines connect data labels to data points.This object isn’t a collection; there’s no object that represents a single leader line.
+Represents leader lines on a chart. Leader lines connect data labels to data points.This object isn't a collection; there's no object that represents a single leader line.
 
 ```go
 

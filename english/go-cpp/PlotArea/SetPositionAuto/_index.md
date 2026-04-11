@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/setpositionauto/
 
 ## SetPositionAuto function
 
-Set position of the plot area to automatic
+Set the position of the plot area to automatic
 
 ```go
 

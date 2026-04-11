@@ -49,8 +49,8 @@ type TextOptions struct  {
 |[SetSpacing](./setspacing/) | Specifies the spacing between characters within a text run. | 
 |[IsNormalizeHeights](./isnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
 |[SetIsNormalizeHeights](./setisnormalizeheights/) | Indicates whether the normalization of height that is to be applied to the text run. | 
-|[GetCapsType](./getcapstype/) | Gets and sets the text caps type. | 
-|[SetCapsType](./setcapstype/) | Gets and sets the text caps type. | 
+|[GetCapsType](./getcapstype/) | Gets and sets the caps type for texts of the shape. | 
+|[SetCapsType](./setcapstype/) | Gets and sets the caps type for texts of the shape. | 
 |[GetCharset](./getcharset/) | Represent the character set. | 
 |[SetCharset](./setcharset/) | Represent the character set. | 
 |[IsItalic](./isitalic/) | Gets or sets a value indicating whether the font is italic. | 

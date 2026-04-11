@@ -25,4 +25,4 @@ type SparklineType int32
 | --- | --- |
 |[Line](./line/) | Line sparkline. | 
 |[Column](./column/) | Column sparkline. | 
-|[Stacked](./stacked/) | Win/Loss sparkline. | 
+|[Stacked](./stacked/) | Represents a Win/Loss sparkline. | 

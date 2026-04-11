@@ -29,13 +29,13 @@ type Series struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[IsFiltered](./isfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. | 
-|[SetIsFiltered](./setisfiltered/) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. | 
+|[IsFiltered](./isfiltered/) | Indicates whether the series is selected or filtered.True represents that this series is filtered, and it will not be displayed on the chart. | 
+|[SetIsFiltered](./setisfiltered/) | Indicates whether the series is selected or filtered.True represents that this series is filtered, and it will not be displayed on the chart. | 
 |[GetLayoutProperties](./getlayoutproperties/) | Represents the properties of layout. | 
 |[Move](./move/) | Moves the series up or down. | 
 |[GetPoints](./getpoints/) | Gets the collection of points in a series in a chart. | 
-|[GetArea](./getarea/) | Represents the background area of Series object. | 
-|[GetBorder](./getborder/) | Represents border of Series object. | 
+|[GetArea](./getarea/) | Represents the background area of the Series object. | 
+|[GetBorder](./getborder/) | Represents the border of a Series object. | 
 |[GetName](./getname/) | Gets or sets the name of the data series. | 
 |[SetName](./setname/) | Gets or sets the name of the data series. | 
 |[GetDisplayName](./getdisplayname/) | Gets the series's name that displays on the chart graph. | 
@@ -45,10 +45,10 @@ type Series struct  {
 |[SetValues](./setvalues/) | Represents the Y values of this chart series. | 
 |[GetPointValues](./getpointvalues/) | Gets the actual values that are used to plot every pointof this series in the chart. | 
 |[GetCategoryValues](./getcategoryvalues/) | Gets the actual category values that are used to plot every pointof this series in the chart. | 
-|[GetValuesFormatCode](./getvaluesformatcode/) | Represents format code of Values's NumberList. | 
-|[SetValuesFormatCode](./setvaluesformatcode/) | Represents format code of Values's NumberList. | 
-|[GetXValuesFormatCode](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. | 
-|[SetXValuesFormatCode](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. | 
+|[GetValuesFormatCode](./getvaluesformatcode/) | Represents format code of Values' NumberList. | 
+|[SetValuesFormatCode](./setvaluesformatcode/) | Represents format code of Values' NumberList. | 
+|[GetXValuesFormatCode](./getxvaluesformatcode/) | Represents format code of X Values' NumberList. | 
+|[SetXValuesFormatCode](./setxvaluesformatcode/) | Represents format code of X Values' NumberList. | 
 |[GetXValues](./getxvalues/) | Represents the X values of this chart series. | 
 |[SetXValues](./setxvalues/) | Represents the X values of this chart series. | 
 |[GetBubbleSizes](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. | 
@@ -58,8 +58,8 @@ type Series struct  {
 |[SetSmooth](./setsmooth/) | Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line and scatter connected by lines charts. | 
 |[GetShadow](./getshadow/) | True if the series has a shadow. | 
 |[SetShadow](./setshadow/) | True if the series has a shadow. | 
-|[GetHas3DEffect](./gethas3deffect/) | True if the series has a three-dimensional appearance.Applies only to bubble charts. | 
-|[SetHas3DEffect](./sethas3deffect/) | True if the series has a three-dimensional appearance.Applies only to bubble charts. | 
+|[GetHas3DEffect](./gethas3deffect/) | True if the series has a three-dimensional appearance. | 
+|[SetHas3DEffect](./sethas3deffect/) | True if the series has a three-dimensional appearance. | 
 |[GetBar3DShapeType](./getbar3dshapetype/) | Gets or sets the 3D shape type used with the 3-D bar or column chart. | 
 |[SetBar3DShapeType](./setbar3dshapetype/) | Gets or sets the 3D shape type used with the 3-D bar or column chart. | 
 |[GetDataLabels](./getdatalabels/) | Represents the DataLabels object for the specified ASeries. | 
@@ -83,14 +83,14 @@ type Series struct  {
 |[SetHasUpDownBars](./sethasupdownbars/) | True if a line chart has up and down bars.Applies only to line charts. | 
 |[GetUpBars](./getupbars/) | Returns an DropBars object that represents the up bars on a line chart.Applies only to line charts. | 
 |[GetDownBars](./getdownbars/) | Returns a DropBars object that represents the down bars on a line chart.Applies only to line charts. | 
-|[IsColorVaried](./iscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series. | 
-|[SetIsColorVaried](./setiscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series. | 
+|[IsColorVaried](./iscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
+|[SetIsColorVaried](./setiscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
 |[GetGapWidth](./getgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
 |[SetGapWidth](./setgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
 |[GetFirstSliceAngle](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. | 
 |[SetFirstSliceAngle](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. | 
-|[GetOverlap](./getoverlap/) | Specifies how bars and columns are positioned.Can be a value between – 100 and 100.Applies only to 2-D bar and 2-D column charts. | 
-|[SetOverlap](./setoverlap/) | Specifies how bars and columns are positioned.Can be a value between – 100 and 100.Applies only to 2-D bar and 2-D column charts. | 
+|[GetOverlap](./getoverlap/) | Specifies how bars and columns are positioned.Can be a value between -100 and 100.Applies only to 2-D bar and 2-D column charts. | 
+|[SetOverlap](./setoverlap/) | Specifies how bars and columns are positioned.Can be a value between -100 and 100.Applies only to 2-D bar and 2-D column charts. | 
 |[GetSecondPlotSize](./getsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart,as a percentage of the size of the primary pie.Can be a value from 5 to 200. | 
 |[SetSecondPlotSize](./setsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart,as a percentage of the size of the primary pie.Can be a value from 5 to 200. | 
 |[GetSplitType](./getsplittype/) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar ofpie chart. | 
@@ -112,6 +112,6 @@ type Series struct  {
 |[SetHasRadarAxisLabels](./sethasradaraxislabels/) | True if a radar chart has category axis labels. Applies only to radar charts. | 
 |[GetHasLeaderLines](./gethasleaderlines/) | True if the series has leader lines. | 
 |[SetHasLeaderLines](./sethasleaderlines/) | True if the series has leader lines. | 
-|[GetLeaderLines](./getleaderlines/) | Represents leader lines on a chart. Leader lines connect data labels to data points.This object isn’t a collection; there’s no object that represents a single leader line. | 
+|[GetLeaderLines](./getleaderlines/) | Represents leader lines on a chart. Leader lines connect data labels to data points.This object isn't a collection; there's no object that represents a single leader line. | 
 |[GetLegendEntry](./getlegendentry/) | Gets the legend entry according to this series. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the ShapePropertyCollection object that holds the visual shape properties of the Series. | 

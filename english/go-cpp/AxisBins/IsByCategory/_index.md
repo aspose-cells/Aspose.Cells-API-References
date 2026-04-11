@@ -10,7 +10,7 @@ url: /go-cpp/axisbins/isbycategory/
 
 ## IsByCategory function
 
-Indicates whether grouping data by category
+Indicates whether grouping data by category is enabled.
 
 ```go
 

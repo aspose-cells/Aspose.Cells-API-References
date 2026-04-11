@@ -10,7 +10,7 @@ url: /go-cpp/textoptions/setcapstype/
 
 ## SetCapsType function
 
-Gets and sets the text caps type.
+Gets and sets the caps type for texts of the shape.
 
 ```go
 

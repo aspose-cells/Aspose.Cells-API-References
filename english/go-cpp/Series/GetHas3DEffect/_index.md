@@ -10,7 +10,7 @@ url: /go-cpp/series/gethas3deffect/
 
 ## GetHas3DEffect function
 
-True if the series has a three-dimensional appearance.Applies only to bubble charts.
+True if the series has a three-dimensional appearance.
 
 ```go
 

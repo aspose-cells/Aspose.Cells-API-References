@@ -10,7 +10,7 @@ url: /go-cpp/serieslayoutproperties/getshowoutlierpoints/
 
 ## GetShowOutlierPoints function
 
-Indicates whether showing outlier data points.
+Indicates whether outlier data points are shown.
 
 ```go
 

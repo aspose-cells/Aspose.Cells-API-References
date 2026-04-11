@@ -10,7 +10,7 @@ url: /go-cpp/chartcolorpalettetype/
 
 ## ChartColorPaletteType Enum
 
-Enumerates all Monochromatic Palettes used in Excel chart.
+Enumerates all Monochromatic Palettes used in an Excel chart.
 
 ```go
 

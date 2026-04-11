@@ -25,6 +25,6 @@ type ChartTextDirectionType int32
 | --- | --- |
 |[Horizontal](./horizontal/) | Horizontal direction type. | 
 |[Vertical](./vertical/) | Vertical direction type. | 
-|[Rotate90](./rotate90/) | Rotate 90 angle. | 
-|[Rotate270](./rotate270/) | Rotate 270 angle. | 
+|[Rotate90](./rotate90/) | Rotate 90-degree angle. | 
+|[Rotate270](./rotate270/) | Rotate 270-degree angle. | 
 |[Stacked](./stacked/) | Stacked text. | 

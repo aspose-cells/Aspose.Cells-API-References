@@ -23,10 +23,11 @@ type Date int32
 
 | Field | Description |
 | --- | --- |
-|[year](./year/) |  | 
-|[month](./month/) |  | 
-|[day](./day/) |  | 
-|[hour](./hour/) |  | 
-|[minute](./minute/) |  | 
-|[second](./second/) |  | 
-|[millisecond](./millisecond/) |  | 
+|[year](./year/) | Year component (1-9999). | 
+|[month](./month/) | Month component (1-12). | 
+|[day](./day/) | Day component (1-31). | 
+|[hour](./hour/) | Hour component (0-23). | 
+|[minute](./minute/) | Minute component (0-59). | 
+|[second](./second/) | Second component (0-59). | 
+|[millisecond](./millisecond/) | Millisecond component (0-999). | 
+|[dateKind](./datekind/) | Specifies whether the time is local, UTC, or unspecified. Default value is Unspecified. | 

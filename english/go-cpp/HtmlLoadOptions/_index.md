@@ -46,6 +46,8 @@ type HtmlLoadOptions struct  {
 |[GetTableLoadOptions](./gettableloadoptions/) | Get the HtmlTableLoadOptionCollection instance | 
 |[GetDetectLaTeX](./getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
 |[SetDetectLaTeX](./setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
+|[GetParagrahLayoutMode](./getparagrahlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
+|[SetParagrahLayoutMode](./setparagrahlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
 |[GetEncoding](./getencoding/) | Gets and sets the default encoding. Only applies for csv file. | 
 |[SetEncoding](./setencoding/) | Gets and sets the default encoding. Only applies for csv file. | 
 |[GetLoadStyleStrategy](./getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. | 

@@ -14,7 +14,7 @@ Copies data and formats of a whole column.
 
 ```go
 
-func (instance *Cells) CopyColumns_Cells_Int_Int_Int_PasteOptions(sourcecells0 *Cells, sourcecolumnindex int32, destinationcolumnindex int32, columnnumber int32, pasteoptions *PasteOptions)  error
+func (instance *Cells) CopyColumns_Cells_Int_Int_Int_PasteOptions(sourcecells *Cells, sourcecolumnindex int32, destinationcolumnindex int32, columnnumber int32, pasteoptions *PasteOptions)  error
 
 ```
 

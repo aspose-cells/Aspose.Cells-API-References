@@ -10,7 +10,7 @@ url: /go-cpp/axisbins/getwidth/
 
 ## GetWidth function
 
-Gets or sets the width of axis bin
+Gets or sets the width of the axis bin.
 
 ```go
 

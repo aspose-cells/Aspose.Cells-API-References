@@ -127,7 +127,7 @@ type Cells struct  {
 |[ApplyStyle](./applystyle/) | Applies formats for a whole worksheet. | 
 |[CopyColumns_Cells_Int_Int_Int_PasteOptions](./copycolumns_cells_int_int_int_pasteoptions/) | Copies data and formats of a whole column. | 
 |[CopyColumn](./copycolumn/) | Copies data and formats of a whole column. | 
-|[CopyColumns_Cells_Int_Int_Int](./copycolumns_cells_int_int_int/) | Copies data and formats of a whole column. | 
+|[CopyColumns_Cells_Int_Int_Int](./copycolumns_cells_int_int_int/) | Copies data and formats of whole columns. | 
 |[CopyColumns_Cells_Int_Int_Int_Int](./copycolumns_cells_int_int_int_int/) | Copies data and formats of the whole columns. | 
 |[CopyRow](./copyrow/) | Copies data and formats of a whole row. | 
 |[CopyRows_Cells_Int_Int_Int](./copyrows_cells_int_int_int/) | Copies data and formats of some whole rows. | 

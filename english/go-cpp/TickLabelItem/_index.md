@@ -29,7 +29,7 @@ type TickLabelItem struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetX](./getx/) | X coordinates of Ticklabel item in ratio of chart width. | 
-|[GetY](./gety/) | Y coordinates of Ticklabel item in ratio of chart height. | 
-|[GetWidth](./getwidth/) | Width of Ticklabel item in ratio of chart width. | 
-|[GetHeight](./getheight/) | Height of Ticklabel item in ratio of chart height. | 
+|[GetX](./getx/) | X coordinates of Ticklabel item as a ratio of chart width. | 
+|[GetY](./gety/) | Y coordinates of Ticklabel item as a ratio of the chart height. | 
+|[GetWidth](./getwidth/) | Width of Ticklabel item as a ratio of chart width. | 
+|[GetHeight](./getheight/) | Height of Ticklabel item as a ratio of chart height. | 

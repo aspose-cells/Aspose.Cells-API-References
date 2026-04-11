@@ -10,7 +10,7 @@ url: /go-cpp/formatcondition/gettimeperiod/
 
 ## GetTimePeriod function
 
-The applicable time period in a "date occurring…" conditional formatting rule.Valid only for type = timePeriod.The default value is TimePeriodType.Today.
+The applicable time period in a "date occurrin" conditional formatting rule.Valid only for type is timePeriod.The default value is TimePeriodType.Today.
 
 ```go
 

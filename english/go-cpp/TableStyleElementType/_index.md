@@ -51,5 +51,8 @@ type TableStyleElementType int32
 |[ThirdRowSubheading](./thirdrowsubheading/) | Table style element that applies to PivotTable's third row subheading. | 
 |[ThirdSubtotalColumn](./thirdsubtotalcolumn/) | Table style element that applies to pivot table's third subtotal column. | 
 |[ThirdSubtotalRow](./thirdsubtotalrow/) | Table style element that applies to PivotTable's third subtotal row. | 
-|[TotalRow](./totalrow/) | Table style element that applies to table's total row. | 
+|[TotalRow](./totalrow/) | Table style element that applies to Table's total row. | 
 |[WholeTable](./wholetable/) | Table style element that applies to table's entire content. | 
+|[LastColumnSubheading](./lastcolumnsubheading/) | Table style element that applies to pivot table's last column field. | 
+|[LastRowSubheading](./lastrowsubheading/) | Table style element that applies to pivot table's last row field. | 
+|[LastSubtotalRow](./lastsubtotalrow/) | Table style element that applies to pivot table's last subtotal row field. | 

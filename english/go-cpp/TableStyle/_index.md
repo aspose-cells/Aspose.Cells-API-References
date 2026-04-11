@@ -31,3 +31,4 @@ type TableStyle struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetName](./getname/) | Gets the name of table style. | 
 |[GetTableStyleElements](./gettablestyleelements/) | Gets all elements of the table style. | 
+|[TableStyle_Create](./tablestyle_create/) | Creates an empty table/pivot table style. | 

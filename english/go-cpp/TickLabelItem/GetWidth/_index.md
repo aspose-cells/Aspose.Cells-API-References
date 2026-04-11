@@ -10,7 +10,7 @@ url: /go-cpp/ticklabelitem/getwidth/
 
 ## GetWidth function
 
-Width of Ticklabel item in ratio of chart width.
+Width of Ticklabel item as a ratio of chart width.
 
 ```go
 

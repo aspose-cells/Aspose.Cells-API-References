@@ -74,5 +74,5 @@ type ChartPoint struct  {
 |[GetBottomPointXPx](./getbottompointxpx/) | Gets x-coordinate of the bottom point of shape after calls Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid | 
 |[GetBottomPointYPx](./getbottompointypx/) | Gets y-coordinate of the bottom point of shape  after calls Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid | 
 |[GetOnCategoryAxisPointCount](./getoncategoryaxispointcount/) | Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart. | 
-|[GetOnCategoryAxisPointXPx](./getoncategoryaxispointxpx/) | Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. | 
+|[GetOnCategoryAxisPointXPx](./getoncategoryaxispointxpx/) | Gets x-coordinate of the point on category axis after calls Chart.Calculate() method.Only applies to Area chart. | 
 |[GetOnCategoryAxisPointYPx](./getoncategoryaxispointypx/) | Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. | 

@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/setheightratiotochart/
 
 ## SetHeightRatioToChart function
 
-Gets or sets the height of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area.
 
 ```go
 

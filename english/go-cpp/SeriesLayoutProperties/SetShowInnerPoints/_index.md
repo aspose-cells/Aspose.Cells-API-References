@@ -10,7 +10,7 @@ url: /go-cpp/serieslayoutproperties/setshowinnerpoints/
 
 ## SetShowInnerPoints function
 
-Indicates whether showing non-outlier data points.
+Indicates whether to show non-outlier data points.
 
 ```go
 

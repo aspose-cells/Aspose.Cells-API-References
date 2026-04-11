@@ -10,7 +10,7 @@ url: /go-cpp/serieslayoutproperties/setshowmeanmarker/
 
 ## SetShowMeanMarker function
 
-Indicates whether showing markers denoting the mean.
+Indicates whether markers denoting the mean are shown.
 
 ```go
 

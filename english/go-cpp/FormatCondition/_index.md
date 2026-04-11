@@ -59,5 +59,5 @@ type FormatCondition struct  {
 |[GetAboveAverage](./getaboveaverage/) | Get the conditional formatting's "AboveAverage" instance.The default instance's rule highlights cells that areabove the average for all values in the range.Valid only for type = AboveAverage. | 
 |[GetText](./gettext/) | The text value in a "text contains" conditional formatting rule.Valid only for type = containsText, notContainsText, beginsWith and endsWith.The default value is null. | 
 |[SetText](./settext/) | The text value in a "text contains" conditional formatting rule.Valid only for type = containsText, notContainsText, beginsWith and endsWith.The default value is null. | 
-|[GetTimePeriod](./gettimeperiod/) | The applicable time period in a "date occurring…" conditional formatting rule.Valid only for type = timePeriod.The default value is TimePeriodType.Today. | 
-|[SetTimePeriod](./settimeperiod/) | The applicable time period in a "date occurring…" conditional formatting rule.Valid only for type = timePeriod.The default value is TimePeriodType.Today. | 
+|[GetTimePeriod](./gettimeperiod/) | The applicable time period in a "date occurrin" conditional formatting rule.Valid only for type is timePeriod.The default value is TimePeriodType.Today. | 
+|[SetTimePeriod](./settimeperiod/) | The applicable time period in a "date occurrin" conditional formatting rule.Valid only for type is timePeriod.The default value is TimePeriodType.Today. | 

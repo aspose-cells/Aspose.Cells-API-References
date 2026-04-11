@@ -10,7 +10,7 @@ url: /go-cpp/ticklabelitem/getheight/
 
 ## GetHeight function
 
-Height of Ticklabel item in ratio of chart height.
+Height of Ticklabel item as a ratio of chart height.
 
 ```go
 
