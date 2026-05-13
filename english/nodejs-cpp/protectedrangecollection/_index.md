@@ -11,7 +11,7 @@ url: /nodejs-cpp/protectedrangecollection/
 Encapsulates a collection of [ProtectedRange](../protectedrange/) objects.
 
 ```javascript
-class ProtectedRangeCollection;
+class ProtectedRangeCollection implements Iterable<ProtectedRange>;
 ```
 
 
@@ -23,6 +23,11 @@ class ProtectedRangeCollection;
 | [add(string, number, number, number, number)](#add-string-number-number-number-number-)| Adds a [ProtectedRange](../protectedrange/) item to the collection. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ProtectedRange\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

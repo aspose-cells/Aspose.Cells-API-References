@@ -11,7 +11,7 @@ url: /nodejs-cpp/referredareacollection/
 Represents all referred cells and areas.
 
 ```javascript
-class ReferredAreaCollection;
+class ReferredAreaCollection implements Iterable<ReferredArea>;
 ```
 
 
@@ -22,6 +22,11 @@ class ReferredAreaCollection;
 | [get(number)](#get-number-)|  |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ReferredArea\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

@@ -11,7 +11,7 @@ url: /nodejs-cpp/smarttagsetting/
 Represents all [SmartTagCollection](../smarttagcollection/) object in the worksheet.
 
 ```javascript
-class SmartTagSetting;
+class SmartTagSetting implements Iterable<SmartTagCollection>;
 ```
 
 
@@ -26,6 +26,11 @@ class SmartTagSetting;
 | [add(string)](#add-string-)| Add a cell smart tags. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<SmartTagCollection\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

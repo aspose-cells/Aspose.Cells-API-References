@@ -19,7 +19,7 @@ class PivotOptions;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showExpandCollapseFieldButtons](#showExpandCollapseFieldButtons--)| boolean | Gets or sets a value indicating whether to show expand/collapse field buttons |
+| [showExpandCollapseFieldButtons](#showExpandCollapseFieldButtons--)| boolean | Gets or sets a value indicating whether to show expand or collapse field buttons |
 | [dropZoneFilter](#dropZoneFilter--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [dropZoneCategories](#dropZoneCategories--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [dropZoneData](#dropZoneData--)| boolean | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
@@ -30,8 +30,8 @@ class PivotOptions;
 
 | Method | Description |
 | --- | --- |
-| [getShowExpandCollapseFieldButtons()](#getShowExpandCollapseFieldButtons--)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons |
-| [setShowExpandCollapseFieldButtons(boolean)](#setShowExpandCollapseFieldButtons-boolean-)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons |
+| [getShowExpandCollapseFieldButtons()](#getShowExpandCollapseFieldButtons--)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand or collapse field buttons |
+| [setShowExpandCollapseFieldButtons(boolean)](#setShowExpandCollapseFieldButtons-boolean-)| <b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand or collapse field buttons |
 | [getDropZoneFilter()](#getDropZoneFilter--)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [setDropZoneFilter(boolean)](#setDropZoneFilter-boolean-)| <b>@deprecated.</b> Please use the 'dropZoneFilter' property instead. Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [getDropZoneCategories()](#getDropZoneCategories--)| <b>@deprecated.</b> Please use the 'dropZoneCategories' property instead. Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
@@ -47,7 +47,7 @@ class PivotOptions;
 
 ### showExpandCollapseFieldButtons {#showExpandCollapseFieldButtons--}
 
-Gets or sets a value indicating whether to show expand/collapse field buttons
+Gets or sets a value indicating whether to show expand or collapse field buttons
 
 ```javascript
 showExpandCollapseFieldButtons : boolean;
@@ -101,7 +101,7 @@ dropZonesVisible : boolean;
 
 ### getShowExpandCollapseFieldButtons() {#getShowExpandCollapseFieldButtons--}
 
-<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons
+<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand or collapse field buttons
 
 ```javascript
 getShowExpandCollapseFieldButtons() : boolean;
@@ -110,7 +110,7 @@ getShowExpandCollapseFieldButtons() : boolean;
 
 ### setShowExpandCollapseFieldButtons(boolean) {#setShowExpandCollapseFieldButtons-boolean-}
 
-<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand/collapse field buttons
+<b>@deprecated.</b> Please use the 'showExpandCollapseFieldButtons' property instead. Gets or sets a value indicating whether to show expand or collapse field buttons
 
 ```javascript
 setShowExpandCollapseFieldButtons(value: boolean) : void;

@@ -11,7 +11,7 @@ url: /nodejs-cpp/trendlinecollection/
 Represents a collection of all the [Trendline](../trendline/) objects for the specified data series.
 
 ```javascript
-class TrendlineCollection;
+class TrendlineCollection implements Iterable<Trendline>;
 ```
 
 
@@ -38,6 +38,11 @@ line.color = Color.Red;
 | [add(TrendlineType, string)](#add-trendlinetype-string-)| Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Trendline\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

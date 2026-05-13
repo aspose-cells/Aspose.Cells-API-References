@@ -11,7 +11,7 @@ url: /nodejs-cpp/sparklinecollection/
 Encapsulates a collection of [Sparkline](../sparkline/) objects.
 
 ```javascript
-class SparklineCollection;
+class SparklineCollection implements Iterable<Sparkline>;
 ```
 
 
@@ -25,6 +25,11 @@ class SparklineCollection;
 | [removeSparkline(Sparkline)](#removeSparkline-sparkline-)| Removes the sparkline |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Sparkline\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

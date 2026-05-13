@@ -105,6 +105,8 @@ class SparklineGroup;
 | [getVerticalAxisMinValue()](#getVerticalAxisMinValue--)| <b>@deprecated.</b> Please use the 'verticalAxisMinValue' property instead. Gets and sets the custom minimum value for the vertical axis. |
 | [setVerticalAxisMinValue(number)](#setVerticalAxisMinValue-number-)| <b>@deprecated.</b> Please use the 'verticalAxisMinValue' property instead. Gets and sets the custom minimum value for the vertical axis. |
 | [resetRanges(string, boolean, CellArea)](#resetRanges-string-boolean-cellarea-)| Resets the data range and location range of the sparkline group. This method will clear original sparkline items in the group and creates new sparkline items for the new ranges. |
+| [setVerticalAxisMaxValue(SparklineAxisMinMaxType, number)](#setVerticalAxisMaxValue-sparklineaxisminmaxtype-number-)| Sets the custom maximum value for the sparkline vertical axis with the specified axis value type. |
+| [setVerticalAxisMinValue(SparklineAxisMinMaxType, number)](#setVerticalAxisMinValue-sparklineaxisminmaxtype-number-)| Sets the custom minimum value for the sparkline vertical axis with the specified axis value type. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -1038,6 +1040,34 @@ resetRanges(dataRange: string, isVertical: boolean, locationRange: CellArea) : v
 | dataRange | string | Specifies the new data range of the sparkline group. |
 | isVertical | boolean | Specifies whether to plot the sparklines from the new data range by row or by column. |
 | locationRange | [CellArea](../cellarea/) | Specifies where the sparklines to be placed. |
+
+### setVerticalAxisMaxValue(SparklineAxisMinMaxType, number) {#setVerticalAxisMaxValue-sparklineaxisminmaxtype-number-}
+
+Sets the custom maximum value for the sparkline vertical axis with the specified axis value type.
+
+```javascript
+setVerticalAxisMaxValue(type: SparklineAxisMinMaxType, value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [SparklineAxisMinMaxType](../sparklineaxisminmaxtype/) | Type that specifies how the axis maximum value is applied. |
+| value | number | Custom maximum value of the vertical axis.         /// Ignored if type is not [SparklineAxisMinMaxType.Custom](../sparklineaxisminmaxtype.custom/) |
+
+### setVerticalAxisMinValue(SparklineAxisMinMaxType, number) {#setVerticalAxisMinValue-sparklineaxisminmaxtype-number-}
+
+Sets the custom minimum value for the sparkline vertical axis with the specified axis value type.
+
+```javascript
+setVerticalAxisMinValue(type: SparklineAxisMinMaxType, value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [SparklineAxisMinMaxType](../sparklineaxisminmaxtype/) | Type that specifies how the axis minimum value is applied. |
+| value | number | Custom minimum value of the vertical axis.         /// Ignored if type is not [SparklineAxisMinMaxType.Custom](../sparklineaxisminmaxtype.custom/) |
 
 ### isNull() {#isNull--}
 

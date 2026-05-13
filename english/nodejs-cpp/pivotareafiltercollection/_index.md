@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotareafiltercollection/
 Represents the list of filters for [PivotArea](../pivotarea/)
 
 ```javascript
-class PivotAreaFilterCollection;
+class PivotAreaFilterCollection implements Iterable<PivotAreaFilter>;
 ```
 
 
@@ -28,6 +28,11 @@ class PivotAreaFilterCollection;
 | [get(number)](#get-number-)| Gets filter from the list by the index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotAreaFilter\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

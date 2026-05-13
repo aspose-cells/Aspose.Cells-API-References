@@ -11,7 +11,7 @@ url: /nodejs-cpp/oleobjectcollection/
 Represents embedded OLE objects.
 
 ```javascript
-class OleObjectCollection;
+class OleObjectCollection implements Iterable<OleObject>;
 ```
 
 
@@ -26,6 +26,11 @@ class OleObjectCollection;
 | [removeAt(number)](#removeAt-number-)| Removes the element at the specified index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<OleObject\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

@@ -11,7 +11,7 @@ url: /nodejs-cpp/errorcheckoptioncollection/
 Represents all error check option.
 
 ```javascript
-class ErrorCheckOptionCollection;
+class ErrorCheckOptionCollection implements Iterable<ErrorCheckOption>;
 ```
 
 
@@ -23,6 +23,11 @@ class ErrorCheckOptionCollection;
 | [add()](#add--)| Add an error check option. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ErrorCheckOption\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

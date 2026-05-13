@@ -11,7 +11,7 @@ url: /nodejs-cpp/webextensionpropertycollection/
 Represents the list of web extension properties.
 
 ```javascript
-class WebExtensionPropertyCollection;
+class WebExtensionPropertyCollection implements Iterable<WebExtensionProperty>;
 ```
 
 
@@ -31,6 +31,11 @@ class WebExtensionPropertyCollection;
 | [removeAt(string)](#removeAt-string-)| Remove the property by the name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<WebExtensionProperty\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

@@ -11,7 +11,7 @@ url: /nodejs-cpp/picturecollection/
 Encapsulates a collection of [Picture](../picture/) objects.
 
 ```javascript
-class PictureCollection;
+class PictureCollection implements Iterable<Picture>;
 ```
 
 
@@ -31,6 +31,11 @@ class PictureCollection;
 | [removeAt(number)](#removeAt-number-)| Remove shapes at the specific index |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Picture\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

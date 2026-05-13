@@ -11,7 +11,7 @@ url: /nodejs-cpp/unionrange/
 Represents union range.
 
 ```javascript
-class UnionRange;
+class UnionRange implements Iterable<Cell>;
 ```
 
 
@@ -66,6 +66,11 @@ class UnionRange;
 | [union(UnionRange)](#union-unionrange-)| Union another range. |
 | [union(Range[])](#union-rangearray-)| Union the ranges. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Cell\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### firstRow {#firstRow--}

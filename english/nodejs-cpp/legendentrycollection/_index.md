@@ -11,7 +11,7 @@ url: /nodejs-cpp/legendentrycollection/
 Represents a collection of all the [LegendEntry](../legendentry/) objects in the specified chart legend.
 
 ```javascript
-class LegendEntryCollection;
+class LegendEntryCollection implements Iterable<LegendEntry>;
 ```
 
 
@@ -22,6 +22,11 @@ class LegendEntryCollection;
 | [get(number)](#get-number-)| Gets the [LegendEntry](../legendentry/) element at the specified index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<LegendEntry\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

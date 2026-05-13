@@ -11,7 +11,7 @@ url: /nodejs-cpp/externallinkcollection/
 Represents external links collection in a workbook.
 
 ```javascript
-class ExternalLinkCollection;
+class ExternalLinkCollection implements Iterable<ExternalLink>;
 ```
 
 
@@ -44,6 +44,11 @@ workbook.worksheets.externalLinks.get(0).dataSource = "input/Book1.xls";
 | [removeAt(number, boolean)](#removeAt-number-boolean-)| Removes the specified external link from the workbook. |
 | [getEnumerator()](#getEnumerator--)| Get an enumerator that iterates through this collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ExternalLink\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

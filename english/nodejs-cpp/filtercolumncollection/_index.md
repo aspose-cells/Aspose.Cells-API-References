@@ -11,7 +11,7 @@ url: /nodejs-cpp/filtercolumncollection/
 A collection of Filter objects that represents all the filters in an autofiltered range.
 
 ```javascript
-class FilterColumnCollection;
+class FilterColumnCollection implements Iterable<FilterColumn>;
 ```
 
 
@@ -24,6 +24,11 @@ class FilterColumnCollection;
 | [getByIndex(number)](#getByIndex-number-)| Returns a single Filter object from a collection. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<FilterColumn\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

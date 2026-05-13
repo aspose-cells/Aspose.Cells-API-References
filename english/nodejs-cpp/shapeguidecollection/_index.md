@@ -11,7 +11,7 @@ url: /nodejs-cpp/shapeguidecollection/
 Encapsulates a collection of shape guide
 
 ```javascript
-class ShapeGuideCollection;
+class ShapeGuideCollection implements Iterable<ShapeGuide>;
 ```
 
 
@@ -29,6 +29,11 @@ class ShapeGuideCollection;
 | [add(string, number)](#add-string-number-)| Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ShapeGuide\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

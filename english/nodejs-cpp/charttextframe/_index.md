@@ -25,7 +25,7 @@ class ChartTextFrame extends ChartFrame;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels are deleted. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data label is deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
 | [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle. |
@@ -51,8 +51,8 @@ class ChartTextFrame extends ChartFrame;
 
 | Method | Description |
 | --- | --- |
-| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted. |
-| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted. |
+| [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted. |
+| [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
 | [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--)| <b>@deprecated.</b> Please use the 'textVerticalAlignment' property instead. Gets or sets the text vertical alignment of text. |
@@ -144,7 +144,7 @@ constructor(obj: ChartFrame);
 
 ### isDeleted {#isDeleted--}
 
-Indicates whether this data labels are deleted.
+Indicates whether this data label is deleted.
 
 ```javascript
 isDeleted : boolean;
@@ -369,7 +369,7 @@ defaultHeightRatioToChart : number;
 
 ### isDeleted() {#isDeleted--}
 
-<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted.
 
 ```javascript
 isDeleted() : boolean;
@@ -378,7 +378,7 @@ isDeleted() : boolean;
 
 ### setIsDeleted(boolean) {#setIsDeleted-boolean-}
 
-<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data labels are deleted.
+<b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted.
 
 ```javascript
 setIsDeleted(value: boolean) : void;

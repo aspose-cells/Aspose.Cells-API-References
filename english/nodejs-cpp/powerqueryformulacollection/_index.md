@@ -11,7 +11,7 @@ url: /nodejs-cpp/powerqueryformulacollection/
 Represents all power query formulas in the mashup data.
 
 ```javascript
-class PowerQueryFormulaCollection;
+class PowerQueryFormulaCollection implements Iterable<PowerQueryFormula>;
 ```
 
 
@@ -24,6 +24,11 @@ class PowerQueryFormulaCollection;
 | [removeBy(string)](#removeBy-string-)| Remove power query formula by name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PowerQueryFormula\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

@@ -11,7 +11,7 @@ url: /nodejs-cpp/verticalpagebreakcollection/
 Encapsulates a collection of [VerticalPageBreak](../verticalpagebreak/) objects.
 
 ```javascript
-class VerticalPageBreakCollection;
+class VerticalPageBreakCollection implements Iterable<VerticalPageBreak>;
 ```
 
 
@@ -28,6 +28,11 @@ class VerticalPageBreakCollection;
 | [removeAt(number)](#removeAt-number-)| Removes the VPageBreak element at a specified name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<VerticalPageBreak\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

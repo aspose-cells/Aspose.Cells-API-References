@@ -11,7 +11,7 @@ url: /nodejs-cpp/shapepathpointcollection/
 Represents all shape path points.
 
 ```javascript
-class ShapePathPointCollection;
+class ShapePathPointCollection implements Iterable<ShapePathPoint>;
 ```
 
 
@@ -29,6 +29,11 @@ class ShapePathPointCollection;
 | [add(number, number)](#add-number-number-)| Adds a path point in unit of EMUs. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ShapePathPoint\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

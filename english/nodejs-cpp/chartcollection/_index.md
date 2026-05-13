@@ -11,7 +11,7 @@ url: /nodejs-cpp/chartcollection/
 Encapsulates a collection of [Chart](../chart/) objects.
 
 ```javascript
-class ChartCollection;
+class ChartCollection implements Iterable<Chart>;
 ```
 
 
@@ -36,6 +36,11 @@ var charts = workbook.worksheets.get(0).charts;
 | [clear()](#clear--)| Clear all charts. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Chart\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotfiltercollection/
 Represents a collection of all the PivotFilters.
 
 ```javascript
-class PivotFilterCollection;
+class PivotFilterCollection implements Iterable<PivotFilter>;
 ```
 
 
@@ -28,6 +28,11 @@ class PivotFilterCollection;
 | [clearFilter(number)](#clearFilter-number-)| Clear PivotFilter from the specific PivotField |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotFilter\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

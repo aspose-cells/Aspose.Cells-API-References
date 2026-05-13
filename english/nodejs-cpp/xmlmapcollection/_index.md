@@ -11,7 +11,7 @@ url: /nodejs-cpp/xmlmapcollection/
 A collection of [XmlMap](../xmlmap/) objects that represent XmlMap information.
 
 ```javascript
-class XmlMapCollection;
+class XmlMapCollection implements Iterable<XmlMap>;
 ```
 
 
@@ -24,6 +24,11 @@ class XmlMapCollection;
 | [clear()](#clear--)| Removes all XmlMaps. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<XmlMap\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

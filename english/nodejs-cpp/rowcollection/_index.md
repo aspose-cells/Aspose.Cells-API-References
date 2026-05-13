@@ -11,7 +11,7 @@ url: /nodejs-cpp/rowcollection/
 Collects the [Row](../row/) objects that represent the individual rows in a worksheet.
 
 ```javascript
-class RowCollection;
+class RowCollection implements Iterable<Row>;
 ```
 
 
@@ -33,6 +33,11 @@ class RowCollection;
 | [clear()](#clear--)| Clear all rows and cells. |
 | [removeAt(number)](#removeAt-number-)| Remove the row item at the specified index(position) in this collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Row\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

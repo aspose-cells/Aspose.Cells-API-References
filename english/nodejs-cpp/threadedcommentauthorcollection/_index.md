@@ -11,7 +11,7 @@ url: /nodejs-cpp/threadedcommentauthorcollection/
 Represents all persons.
 
 ```javascript
-class ThreadedCommentAuthorCollection;
+class ThreadedCommentAuthorCollection implements Iterable<ThreadedCommentAuthor>;
 ```
 
 
@@ -39,6 +39,11 @@ class ThreadedCommentAuthorCollection;
 | [add(string, string, string)](#add-string-string-string-)| Adds one thread comment person. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ThreadedCommentAuthor\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

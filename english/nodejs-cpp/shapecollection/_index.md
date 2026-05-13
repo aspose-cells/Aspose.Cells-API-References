@@ -11,7 +11,7 @@ url: /nodejs-cpp/shapecollection/
 Represents all the shape in a worksheet/chart.
 
 ```javascript
-class ShapeCollection;
+class ShapeCollection implements Iterable<Shape>;
 ```
 
 
@@ -74,6 +74,11 @@ class ShapeCollection;
 | [addSignatureLine(number, number, SignatureLine)](#addSignatureLine-number-number-signatureline-)| Adds a Signature Line to the worksheet. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Shape\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

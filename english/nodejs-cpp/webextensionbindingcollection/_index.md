@@ -11,7 +11,7 @@ url: /nodejs-cpp/webextensionbindingcollection/
 Represents the list of binding relationships between an Office Add-in and the data in the document.
 
 ```javascript
-class WebExtensionBindingCollection;
+class WebExtensionBindingCollection implements Iterable<WebExtensionBinding>;
 ```
 
 
@@ -29,6 +29,11 @@ class WebExtensionBindingCollection;
 | [add()](#add--)| Adds an a binding relationship between an Office Add-in and the data in the document. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<WebExtensionBinding\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

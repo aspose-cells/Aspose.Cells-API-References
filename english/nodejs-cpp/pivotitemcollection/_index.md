@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotitemcollection/
 Represents all the [PivotItem](../pivotitem/) objects in the PivotField.
 
 ```javascript
-class PivotItemCollection;
+class PivotItemCollection implements Iterable<PivotItem>;
 ```
 
 
@@ -31,6 +31,11 @@ class PivotItemCollection;
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
 | [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotItem\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

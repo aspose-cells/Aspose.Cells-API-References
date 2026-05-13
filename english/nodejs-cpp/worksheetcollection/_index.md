@@ -11,7 +11,7 @@ url: /nodejs-cpp/worksheetcollection/
 Encapsulates a collection of [Worksheet](../worksheet/) objects.
 
 ```javascript
-class WorksheetCollection;
+class WorksheetCollection implements Iterable<Worksheet>;
 ```
 
 
@@ -108,6 +108,11 @@ sheets.activeSheetIndex = 1;
 | [refreshPivotTablesAsync(PivotTableRefreshOption)](#refreshPivotTablesAsync-pivottablerefreshoption-)| Refreshes all the PivotTables in the Excel file. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Worksheet\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### webExtensionTaskPanes {#webExtensionTaskPanes--}
@@ -1000,6 +1005,10 @@ refreshAll() : void;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Workbook.RefreshAll() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### refreshAllAsync() {#refreshAllAsync--}
 
 Refresh all pivot tables and charts with pivot source.
@@ -1012,6 +1021,10 @@ refreshAllAsync() : Promise<void>;
 **Returns**
 
 [Promise<void>](../promise<void>/)
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Workbook.RefreshAll() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### refreshPivotTables() {#refreshPivotTables--}
 

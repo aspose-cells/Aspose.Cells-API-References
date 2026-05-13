@@ -11,7 +11,7 @@ url: /nodejs-cpp/conditionalformattingiconcollection/
 Represents  a collection of [ConditionalFormattingIcon](../conditionalformattingicon/) objects.
 
 ```javascript
-class ConditionalFormattingIconCollection;
+class ConditionalFormattingIconCollection implements Iterable<ConditionalFormattingIcon>;
 ```
 
 
@@ -24,6 +24,11 @@ class ConditionalFormattingIconCollection;
 | [add(ConditionalFormattingIcon)](#add-conditionalformattingicon-)| Adds [ConditionalFormattingIcon](../conditionalformattingicon/) object. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ConditionalFormattingIcon\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

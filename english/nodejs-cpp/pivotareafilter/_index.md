@@ -25,12 +25,14 @@ class PivotAreaFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
 | [selected](#selected--)| boolean | Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getFieldIndex()](#getFieldIndex--)| <b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
 | [getSelected()](#getSelected--)| <b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 | [setSelected(boolean)](#setSelected-boolean-)| <b>@deprecated.</b> Please use the 'selected' property instead. Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 | [isSubtotalSet(PivotFieldSubtotalType)](#isSubtotalSet-pivotfieldsubtotaltype-)| Gets which subtotal is set for this filter. |
@@ -47,12 +49,30 @@ constructor();
 ```
 
 
+### fieldIndex {#fieldIndex--}
+
+Readonly. Gets the index of the field to which this filter refers. A value of -2 indicates the values field.
+
+```javascript
+fieldIndex : number;
+```
+
+
 ### selected {#selected--}
 
 Indicates whether this field has selection. Only works when the PivotTable is in Outline view.
 
 ```javascript
 selected : boolean;
+```
+
+
+### getFieldIndex() {#getFieldIndex--}
+
+<b>@deprecated.</b> Please use the 'fieldIndex' property instead. Gets the index of the field to which this filter refers. A value of -2 indicates the values field.
+
+```javascript
+getFieldIndex() : number;
 ```
 
 

@@ -11,7 +11,7 @@ url: /nodejs-cpp/sparklinegroupcollection/
 Encapsulates a collection of [SparklineGroup](../sparklinegroup/) objects.
 
 ```javascript
-class SparklineGroupCollection;
+class SparklineGroupCollection implements Iterable<SparklineGroup>;
 ```
 
 
@@ -26,6 +26,11 @@ class SparklineGroupCollection;
 | [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlap an area of cells. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<SparklineGroup\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

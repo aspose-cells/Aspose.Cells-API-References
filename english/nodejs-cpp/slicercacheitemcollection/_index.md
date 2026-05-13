@@ -11,7 +11,7 @@ url: /nodejs-cpp/slicercacheitemcollection/
 Represent the collection of SlicerCacheItem
 
 ```javascript
-class SlicerCacheItemCollection;
+class SlicerCacheItemCollection implements Iterable<SlicerCacheItem>;
 ```
 
 
@@ -28,6 +28,11 @@ class SlicerCacheItemCollection;
 | [get(number)](#get-number-)| Gets the SlicerCacheItem object by index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the SlicerCacheItem. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<SlicerCacheItem\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

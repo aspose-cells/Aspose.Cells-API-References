@@ -43,7 +43,8 @@ workbook.save("output/result.xls", saveOptions);
 | --- | --- |
 | [constructor()](#constructor--)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | [constructor(FileFormatType)](#constructor-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
-| [constructor(string)](#constructor-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| [constructor(LoadOptions)](#constructor-loadoptions-)| Initializes a new empty instance of the [Workbook](../workbook/) class with options |
+| [constructor(string)](#constructor-string-)|  |
 | [constructor(Uint8Array)](#constructor-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
 | [constructor(string, LoadOptions)](#constructor-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | [constructor(Uint8Array, LoadOptions)](#constructor-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
@@ -185,11 +186,13 @@ workbook.save("output/result.xls", saveOptions);
 | [addDigitalSignature(DigitalSignatureCollection)](#addDigitalSignature-digitalsignaturecollection-)| Adds digital signature to an OOXML spreadsheet file (Excel2007 and later). |
 | [getDigitalSignature()](#getDigitalSignature--)| Gets digital signature from file. |
 | [removePersonalInformation()](#removePersonalInformation--)| Removes personal information. |
+| [refreshAll()](#refreshAll--)| Refresh linked shapes, all pivot tables and charts with pivot source. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [openAsync()](#openAsync--)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | static [openAsync(FileFormatType)](#openAsync-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
-| static [openAsync(string)](#openAsync-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| static [openAsync(LoadOptions)](#openAsync-loadoptions-)| Initializes a new empty instance of the [Workbook](../workbook/) class with options |
+| static [openAsync(string)](#openAsync-string-)|  |
 | static [openAsync(Uint8Array)](#openAsync-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
 | static [openAsync(string, LoadOptions)](#openAsync-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | static [openAsync(Uint8Array, LoadOptions)](#openAsync-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
@@ -245,9 +248,22 @@ const { Workbook, FileFormatType } = require("aspose.cells.node");
 var workbook = new Workbook(FileFormatType.Xlsx);
 ```
 
+### constructor(LoadOptions) {#constructor-loadoptions-}
+
+Initializes a new empty instance of the [Workbook](../workbook/) class with options
+
+```javascript
+constructor(loadOptions: LoadOptions);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptions | [LoadOptions](../loadoptions/) | The options. |
+
 ### constructor(string) {#constructor-string-}
 
-Initializes a new instance of the [Workbook](../workbook/) class and open a file.
+
 
 ```javascript
 constructor(file: string);
@@ -256,7 +272,7 @@ constructor(file: string);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | string | The file name. |
+| file | string |  |
 
 ### constructor(Uint8Array) {#constructor-uint8array-}
 
@@ -2141,6 +2157,15 @@ removePersonalInformation() : void;
 ```
 
 
+### refreshAll() {#refreshAll--}
+
+Refresh linked shapes, all pivot tables and charts with pivot source.
+
+```javascript
+refreshAll() : void;
+```
+
+
 ### dispose() {#dispose--}
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
@@ -2197,9 +2222,26 @@ static openAsync(fileFormatType: FileFormatType) : Promise<Workbook>;
 
 The default file format type is Excel97To2003.
 
+### openAsync(LoadOptions) {#openAsync-loadoptions-}
+
+Initializes a new empty instance of the [Workbook](../workbook/) class with options
+
+```javascript
+static openAsync(loadOptions: LoadOptions) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptions | [LoadOptions](../loadoptions/) | The options. |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
 ### openAsync(string) {#openAsync-string-}
 
-Initializes a new instance of the [Workbook](../workbook/) class and open a file.
+
 
 ```javascript
 static openAsync(file: string) : Promise<Workbook>;
@@ -2208,7 +2250,7 @@ static openAsync(file: string) : Promise<Workbook>;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | string | The file name. |
+| file | string |  |
 
 **Returns**
 

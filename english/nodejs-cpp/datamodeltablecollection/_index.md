@@ -11,7 +11,7 @@ url: /nodejs-cpp/datamodeltablecollection/
 Represents the list of the data model table.
 
 ```javascript
-class DataModelTableCollection;
+class DataModelTableCollection implements Iterable<DataModelTable>;
 ```
 
 
@@ -23,6 +23,11 @@ class DataModelTableCollection;
 | [get(string)](#get-string-)| Gets the data model table by the name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<DataModelTable\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}
