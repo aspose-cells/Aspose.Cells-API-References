@@ -36,6 +36,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [hyperlinkLoadMode](#hyperlinkLoadMode--)| HyperlinkLoadMode | Specifies how hyperlinks are loaded when loading HTML. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
 | [parsingFormulaOnOpen](#parsingFormulaOnOpen--)| boolean | Indicates whether parsing the formula when reading the file. |
@@ -183,6 +184,15 @@ Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The defaul
 
 ```javascript
 paragrahLayoutMode : HtmlParagraphLayoutMode;
+```
+
+
+### hyperlinkLoadMode {#hyperlinkLoadMode--}
+
+Specifies how hyperlinks are loaded when loading HTML.
+
+```javascript
+hyperlinkLoadMode : HyperlinkLoadMode;
 ```
 
 

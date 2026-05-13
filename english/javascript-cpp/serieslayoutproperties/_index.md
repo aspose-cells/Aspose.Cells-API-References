@@ -27,7 +27,7 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are shown between data points. |
+| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are displayed between data points. |
 | [showMeanLine](#showMeanLine--)| boolean | Indicates whether to show the line connecting all mean points. |
 | [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether outlier data points are shown. |
 | [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether markers denoting the mean are shown. |
@@ -51,7 +51,7 @@ constructor();
 
 ### showConnectorLines {#showConnectorLines--}
 
-Indicates whether connector lines are shown between data points.
+Indicates whether connector lines are displayed between data points.
 
 ```javascript
 showConnectorLines : boolean;

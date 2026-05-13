@@ -25,7 +25,7 @@ class ChartTextFrame extends ChartFrame;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isDeleted](#isDeleted--)| boolean | Indicates whether this data labels are deleted. |
+| [isDeleted](#isDeleted--)| boolean | Indicates whether this data label is deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
 | [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle. |
@@ -112,7 +112,7 @@ constructor(obj: ChartFrame);
 
 ### isDeleted {#isDeleted--}
 
-Indicates whether this data labels are deleted.
+Indicates whether this data label is deleted.
 
 ```javascript
 isDeleted : boolean;

@@ -53,8 +53,7 @@ class PivotTable;
 | [isAutoFormat](#isAutoFormat--)| boolean | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
 | [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether autofitting column width on update |
 | [autoFormatType](#autoFormatType--)| PivotTableAutoFormatType | Gets and sets the auto format type of PivotTable. |
-| [hasBlankRows](#hasBlankRows--)| boolean | Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
-| [mergeLabels](#mergeLabels--)| boolean | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [mergeLabels](#mergeLabels--)| boolean | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
 | [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [showDrill](#showDrill--)| boolean | Gets and sets whether showing expand/collapse buttons. |
 | [enableDrilldown](#enableDrilldown--)| boolean | Gets whether drilldown is enabled. |
@@ -68,7 +67,7 @@ class PivotTable;
 | [allowMultipleFiltersPerField](#allowMultipleFiltersPerField--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [missingItemsLimit](#missingItemsLimit--)| PivotMissingItemLimitType | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
-| [showDataTips](#showDataTips--)| boolean | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [showDataTips](#showDataTips--)| boolean | Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [showMemberPropertyTips](#showMemberPropertyTips--)| boolean | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [showValuesRow](#showValuesRow--)| boolean | Indicates whether showing values row. |
 | [showEmptyCol](#showEmptyCol--)| boolean | Indicates whether to include empty columns in the table |
@@ -139,6 +138,8 @@ class PivotTable;
 | [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
 | [clearData()](#clearData--)| Clear data and formatting of PivotTable view. |
+| [clearFilters()](#clearFilters--)| Clears all filters of this pivot table. |
+| [clearAll()](#clearAll--)| Remove all fields from regions. |
 | [calculateRange()](#calculateRange--)| Calculates pivottable's range. |
 | [formatAll(Style)](#formatAll-style-)| Format all the cell in the pivottable area |
 | [formatRow(number, Style)](#formatRow-number-style-)| Format the row data in the pivottable area |
@@ -152,6 +153,7 @@ class PivotTable;
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
 | [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
+| [getDependentPivotTables()](#getDependentPivotTables--)| Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
 
 
@@ -477,18 +479,9 @@ autoFormatType : PivotTableAutoFormatType;
 ```
 
 
-### hasBlankRows {#hasBlankRows--}
-
-Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
-
-```javascript
-hasBlankRows : boolean;
-```
-
-
 ### mergeLabels {#mergeLabels--}
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+Indicates whether row or column titles that span multiple cells should be merged into a single cell.
 
 ```javascript
 mergeLabels : boolean;
@@ -618,7 +611,7 @@ enableDataValueEditing : boolean;
 
 ### showDataTips {#showDataTips--}
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+Indicates whether tooltips should be displayed for PivotTable data cells.
 
 ```javascript
 showDataTips : boolean;
@@ -1393,6 +1386,24 @@ clearData() : void;
 
 If this method is not called before you add or delete PivotField, Maybe the PivotTable data is not corrected
 
+### clearFilters() {#clearFilters--}
+
+Clears all filters of this pivot table.
+
+```javascript
+clearFilters() : void;
+```
+
+
+### clearAll() {#clearAll--}
+
+Remove all fields from regions.
+
+```javascript
+clearAll() : void;
+```
+
+
 ### calculateRange() {#calculateRange--}
 
 Calculates pivottable's range.
@@ -1567,6 +1578,23 @@ getCellByDisplayName(displayName: string) : Cell;
 
 the Cell object
 
+### getDependentPivotTables() {#getDependentPivotTables--}
+
+Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source.
+
+```javascript
+getDependentPivotTables() : PivotTable[];
+```
+
+
+**Returns**
+
+[PivotTable](../pivottable/)[]
+
+**Remarks**
+
+Because pivot tables may depend on each other's data, they must be refreshed in the correct order to ensure data consistency.
+
 ### getChildren() {#getChildren--}
 
 Gets the Children Pivot Tables which use this PivotTable data as data source.
@@ -1579,5 +1607,9 @@ getChildren() : PivotTable[];
 **Returns**
 
 the PivotTable array object
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.GetDependentPivotTables() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 

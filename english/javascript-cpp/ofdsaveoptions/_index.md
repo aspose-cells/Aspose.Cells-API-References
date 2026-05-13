@@ -1,17 +1,17 @@
 ﻿---
-title: PclSaveOptions
+title: OfdSaveOptions
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the options for saving a Pcl file.
+description: Represents the options for saving a OFDOpen Fixedlayout Document file.
 type: docs
-url: /javascript-cpp/pclsaveoptions/
+url: /javascript-cpp/ofdsaveoptions/
 ---
 
-## PclSaveOptions class
+## OfdSaveOptions class
 
-Represents the options for saving a Pcl file.
+Represents the options for saving a OFD(Open Fixed-layout Document) file.
 
 ```javascript
-class PclSaveOptions extends PaginatedSaveOptions;
+class OfdSaveOptions extends PaginatedSaveOptions;
 ```
 
 
@@ -19,14 +19,13 @@ class PclSaveOptions extends PaginatedSaveOptions;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates the options for saving pcl file. |
+| [constructor()](#constructor--)| Creates the options for saving OFD file. |
 | [constructor(PaginatedSaveOptions)](#constructor-paginatedsaveoptions-)| Constructs from a parent object convertible to this. |
 
 ## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [embedFont](#embedFont--)| boolean | Indicates whether to embed font into the output Pcl file. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -61,16 +60,10 @@ class PclSaveOptions extends PaginatedSaveOptions;
 | [emfRenderSetting](#emfRenderSetting--)| EmfRenderSetting | Setting for rendering Emf metafile. |
 | [customRenderSettings](#customRenderSettings--)| CustomRenderSettings | Gets or sets custom settings during rendering. |
 
-## Methods
-
-| Method | Description |
-| --- | --- |
-| [addPrinterFont(string, string)](#addPrinterFont-string-string-)| Adds information about font that is already added to the printer by manufacturer. |
-
 
 ### constructor() {#constructor--}
 
-Creates the options for saving pcl file.
+Creates the options for saving OFD file.
 
 ```javascript
 constructor();
@@ -89,19 +82,6 @@ constructor(obj: PaginatedSaveOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | PaginatedSaveOptions | The parent object. |
-
-### embedFont {#embedFont--}
-
-Indicates whether to embed font into the output Pcl file.
-
-```javascript
-embedFont : boolean;
-```
-
-
-**Remarks**
-
-The default value is true.
 
 ### saveFormat {#saveFormat--}
 
@@ -467,23 +447,5 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
-
-### addPrinterFont(string, string) {#addPrinterFont-string-string-}
-
-Adds information about font that is already added to the printer by manufacturer.
-
-```javascript
-addPrinterFont(fontFullName: string, fontPclName: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFullName | string | Full name of the font (e.g. "Times New Roman Bold Italic") used in the source file. |
-| fontPclName | string | Name of the font that will be used in the output Pcl document. |
-
-**Remarks**
-
-There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices.
 
 
