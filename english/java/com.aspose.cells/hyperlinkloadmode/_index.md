@@ -1,25 +1,24 @@
 ---
-title: TickLabelAlignmentType
+title: HyperlinkLoadMode
 second_title: Aspose.Cells for Java API Reference
-description: Represents the text alignment type for the tick labels on the axis
+description: Specifies how hyperlinks are handled when loading HTML.
 type: docs
-url: /java/com.aspose.cells/ticklabelalignmenttype/
+url: /java/com.aspose.cells/hyperlinkloadmode/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class TickLabelAlignmentType
+public final class HyperlinkLoadMode
 ```
 
-Represents the text alignment type for the tick labels on the axis
+Specifies how hyperlinks are handled when loading HTML.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | Specifies that the text is centered. |
-| [LEFT](#LEFT) | Specifies that the text is left-aligned.. |
-| [RIGHT](#RIGHT) | Specifies that the text is right-aligned.. |
+| [ALLOW_MULTIPLE](#ALLOW-MULTIPLE) | All hyperlinks in a cell are added to [Worksheet.getHyperlinks()](../../com.aspose.cells/worksheet\#getHyperlinks--). |
+| [NORMAL](#NORMAL) | Only the first hyperlink in a cell is loaded, subsequent ones are ignored. |
 ## Methods
 
 | Method | Description |
@@ -33,29 +32,21 @@ Represents the text alignment type for the tick labels on the axis
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CENTER {#CENTER}
+### ALLOW_MULTIPLE {#ALLOW-MULTIPLE}
 ```
-public static final int CENTER
-```
-
-
-Specifies that the text is centered.
-
-### LEFT {#LEFT}
-```
-public static final int LEFT
+public static final int ALLOW_MULTIPLE
 ```
 
 
-Specifies that the text is left-aligned..
+All hyperlinks in a cell are added to [Worksheet.getHyperlinks()](../../com.aspose.cells/worksheet\#getHyperlinks--). Note that MS Excel itself supports only one hyperlink per cell, so this option may produce files that Excel cannot fully render.
 
-### RIGHT {#RIGHT}
+### NORMAL {#NORMAL}
 ```
-public static final int RIGHT
+public static final int NORMAL
 ```
 
 
-Specifies that the text is right-aligned..
+Only the first hyperlink in a cell is loaded, subsequent ones are ignored.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

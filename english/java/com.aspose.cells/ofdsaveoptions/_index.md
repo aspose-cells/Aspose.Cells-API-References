@@ -1,28 +1,27 @@
 ---
-title: PclSaveOptions
+title: OfdSaveOptions
 second_title: Aspose.Cells for Java API Reference
-description: Represents the options for saving a Pcl file.
+description: Represents the options for saving a OFDOpen Fixed-layout Document file.
 type: docs
-url: /java/com.aspose.cells/pclsaveoptions/
+url: /java/com.aspose.cells/ofdsaveoptions/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveoptions), [com.aspose.cells.PaginatedSaveOptions](../../com.aspose.cells/paginatedsaveoptions)
 ```
-public class PclSaveOptions extends PaginatedSaveOptions
+public class OfdSaveOptions extends PaginatedSaveOptions
 ```
 
-Represents the options for saving a Pcl file.
+Represents the options for saving a OFD(Open Fixed-layout Document) file.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PclSaveOptions()](#PclSaveOptions--) | Creates the options for saving pcl file. |
+| [OfdSaveOptions()](#OfdSaveOptions--) | Creates the options for saving OFD file. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addPrinterFont(String fontFullName, String fontPclName)](#addPrinterFont-java.lang.String-java.lang.String-) | Adds information about font that is already added to the printer by manufacturer. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The folder for temporary files that may be used as data cache. |
@@ -36,7 +35,6 @@ Represents the options for saving a Pcl file.
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
-| [getEmbedFont()](#getEmbedFont--) | Indicates whether to embed font into the output Pcl file. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
@@ -73,7 +71,6 @@ Represents the options for saving a Pcl file.
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
-| [setEmbedFont(boolean value)](#setEmbedFont-boolean-) | Indicates whether to embed font into the output Pcl file. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -99,31 +96,13 @@ Represents the options for saving a Pcl file.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PclSaveOptions() {#PclSaveOptions--}
+### OfdSaveOptions() {#OfdSaveOptions--}
 ```
-public PclSaveOptions()
-```
-
-
-Creates the options for saving pcl file.
-
-### addPrinterFont(String fontFullName, String fontPclName) {#addPrinterFont-java.lang.String-java.lang.String-}
-```
-public void addPrinterFont(String fontFullName, String fontPclName)
+public OfdSaveOptions()
 ```
 
 
-Adds information about font that is already added to the printer by manufacturer.
-
-**Remarks**
-
-There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFullName | java.lang.String | Full name of the font (e.g. "Times New Roman Bold Italic") used in the source file. |
-| fontPclName | java.lang.String | Name of the font that will be used in the output Pcl document. |
+Creates the options for saving OFD file.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -282,20 +261,6 @@ Implements this interface to get DrawObject and Bound when rendering.
 
 **Returns:**
 [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler)
-### getEmbedFont() {#getEmbedFont--}
-```
-public boolean getEmbedFont()
-```
-
-
-Indicates whether to embed font into the output Pcl file.
-
-**Remarks**
-
-The default value is true.
-
-**Returns:**
-boolean
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
 ```
 public int getEmfRenderSetting()
@@ -840,23 +805,6 @@ Implements this interface to get DrawObject and Bound when rendering.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler) |  |
-
-### setEmbedFont(boolean value) {#setEmbedFont-boolean-}
-```
-public void setEmbedFont(boolean value)
-```
-
-
-Indicates whether to embed font into the output Pcl file.
-
-**Remarks**
-
-The default value is true.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setEmfRenderSetting(int value) {#setEmfRenderSetting-int-}
 ```

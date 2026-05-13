@@ -95,7 +95,7 @@ Encapsulates the object that represents the title of chart or axis.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [isDeleted()](#isDeleted--) | Indicates whether this data labels are deleted. |
+| [isDeleted()](#isDeleted--) | Indicates whether this data label is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
@@ -107,7 +107,7 @@ Encapsulates the object that represents the title of chart or axis.
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels are deleted. |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data label is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
@@ -746,7 +746,7 @@ public boolean isDeleted()
 ```
 
 
-Indicates whether this data labels are deleted.
+Indicates whether this data label is deleted.
 
 **Returns:**
 boolean
@@ -893,7 +893,7 @@ public void setDeleted(boolean value)
 ```
 
 
-Indicates whether this data labels are deleted.
+Indicates whether this data label is deleted.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -81,7 +81,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getBorder()](#getBorder--) | Represents the border of a Series object. |
 | [getBubbleScale()](#getBubbleScale--) | Gets the scale factor for bubbles in the specified chart group. |
 | [getBubbleSizeRepresents()](#getBubbleSizeRepresents--) | Gets what the bubble size represents on a bubble chart. |
-| [getBubbleSizes()](#getBubbleSizes--) | Gets the bubble sizes values of the chart series. |
+| [getBubbleSizes()](#getBubbleSizes--) | Gets the bubble size values of the chart series. |
 | [getCachedCategoryValues()](#getCachedCategoryValues--) | Gets the cached category values for the series |
 | [getCachedValues()](#getCachedValues--) | Gets the cached values for the series |
 | [getCategoryValues()](#getCategoryValues--) | Gets the actual category values that are used to plot every point of this series in the chart. |
@@ -103,7 +103,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getMarker()](#getMarker--) | Gets the [getMarker()](../../com.aspose.cells/series\#getMarker--). |
 | [getName()](#getName--) | Gets the name of the data series. |
 | [getOverlap()](#getOverlap--) | Specifies how bars and columns are positioned. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if this series is plotted on second value axis. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if this series is plotted on the second value axis. |
 | [getPointValues()](#getPointValues--) | Gets the actual values that are used to plot every point of this series in the chart. |
 | [getPoints()](#getPoints--) | Gets the collection of points in a series in a chart. |
 | [getSecondPlotSize()](#getSecondPlotSize--) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. |
@@ -117,9 +117,9 @@ Encapsulates the object that represents a single data series in a chart.
 | [getSplitValue()](#getSplitValue--) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getTrendLines()](#getTrendLines--) | Returns all the trendlines of this series. |
 | [getType()](#getType--) | Gets a data series' type. |
-| [getUpBars()](#getUpBars--) | Returns an DropBars object that represents the up bars on a line chart. |
+| [getUpBars()](#getUpBars--) | Returns a DropBars object that represents the up bars on a line chart. |
 | [getValues()](#getValues--) | Represents the Y values of this chart series. |
-| [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values' NumberList. |
+| [getValuesFormatCode()](#getValuesFormatCode--) | Represents the format code of the Values NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
 | [getXValues()](#getXValues--) | Represents the X values of this chart series. |
 | [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values' NumberList. |
@@ -132,7 +132,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [hasUpDownBars()](#hasUpDownBars--) | True if a line chart has up and down bars. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSplit()](#isAutoSplit--) | Indicates whether the threshold value is automatic. |
-| [isColorVaried()](#isColorVaried--) | Represents if the color of points is varied. |
+| [isColorVaried()](#isColorVaried--) | Represents whether the color of points is varied. |
 | [isFiltered()](#isFiltered--) | Indicates whether the series is selected or filtered. |
 | [isVerticalValues()](#isVerticalValues--) | Indicates whether the data source is vertical. |
 | [move(int count)](#move-int-) | Moves the series up or down. |
@@ -141,8 +141,8 @@ Encapsulates the object that represents a single data series in a chart.
 | [setBar3DShapeType(int value)](#setBar3DShapeType-int-) | Sets the 3D shape type used with the 3-D bar or column chart. |
 | [setBubbleScale(int value)](#setBubbleScale-int-) | Sets the scale factor for bubbles in the specified chart group. |
 | [setBubbleSizeRepresents(int value)](#setBubbleSizeRepresents-int-) | Gets what the bubble size represents on a bubble chart. |
-| [setBubbleSizes(String value)](#setBubbleSizes-java.lang.String-) | Sets the bubble sizes values of the chart series. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
+| [setBubbleSizes(String value)](#setBubbleSizes-java.lang.String-) | Sets the bubble size values of the chart series. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents whether the color of points is varied. |
 | [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int-) | Returns or sets the size of the hole in a doughnut chart group. |
 | [setExplosion(int value)](#setExplosion-int-) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [setFiltered(boolean value)](#setFiltered-boolean-) | Indicates whether the series is selected or filtered. |
@@ -157,7 +157,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [setHasUpDownBars(boolean value)](#setHasUpDownBars-boolean-) | True if a line chart has up and down bars. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the data series. |
 | [setOverlap(short value)](#setOverlap-short-) | Specifies how bars and columns are positioned. |
-| [setPlotOnSecondAxis(boolean value)](#setPlotOnSecondAxis-boolean-) | Indicates if this series is plotted on second value axis. |
+| [setPlotOnSecondAxis(boolean value)](#setPlotOnSecondAxis-boolean-) | Indicates if this series is plotted on the second value axis. |
 | [setSecondPlotSize(short value)](#setSecondPlotSize-short-) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the series has a shadow. |
 | [setShowNegativeBubbles(boolean value)](#setShowNegativeBubbles-boolean-) | True if negative bubbles are shown for the chart group. |
@@ -167,7 +167,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [setSplitValue(double value)](#setSplitValue-double-) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [setType(int value)](#setType-int-) | Sets a data series' type. |
 | [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
-| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values' NumberList. |
+| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents the format code of the Values NumberList. |
 | [setXValues(String value)](#setXValues-java.lang.String-) | Represents the X values of this chart series. |
 | [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values' NumberList. |
 | [toString()](#toString--) |  |
@@ -253,7 +253,7 @@ public String getBubbleSizes()
 ```
 
 
-Gets the bubble sizes values of the chart series.
+Gets the bubble size values of the chart series.
 
 **Remarks**
 
@@ -386,7 +386,7 @@ public Line getDropLines()
 ```
 
 
-Returns a [Line](../../com.aspose.cells/line) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
+Returns a [Line](../../com.aspose.cells/line) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -406,7 +406,7 @@ public short getFirstSliceAngle()
 ```
 
 
-Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 **Returns:**
 short
@@ -520,7 +520,7 @@ public boolean getPlotOnSecondAxis()
 ```
 
 
-Indicates if this series is plotted on second value axis.
+Indicates if this series is plotted on the second value axis.
 
 **Returns:**
 boolean
@@ -640,7 +640,7 @@ public boolean getSmooth()
 ```
 
 
-Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts.
+Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 **Returns:**
 boolean
@@ -694,7 +694,7 @@ public DropBars getUpBars()
 ```
 
 
-Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts.
+Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts.
 
 **Returns:**
 [DropBars](../../com.aspose.cells/dropbars)
@@ -718,7 +718,7 @@ public String getValuesFormatCode()
 ```
 
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 **Returns:**
 java.lang.String
@@ -852,7 +852,7 @@ public boolean isColorVaried()
 ```
 
 
-Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
+Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Returns:**
 boolean
@@ -862,7 +862,7 @@ public boolean isFiltered()
 ```
 
 
-Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 **Returns:**
 boolean
@@ -958,7 +958,7 @@ public void setBubbleSizes(String value)
 ```
 
 
-Sets the bubble sizes values of the chart series.
+Sets the bubble size values of the chart series.
 
 **Remarks**
 
@@ -975,7 +975,7 @@ public void setColorVaried(boolean value)
 ```
 
 
-Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
+Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1014,7 +1014,7 @@ public void setFiltered(boolean value)
 ```
 
 
-Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1027,7 +1027,7 @@ public void setFirstSliceAngle(short value)
 ```
 
 
-Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1174,7 +1174,7 @@ public void setPlotOnSecondAxis(boolean value)
 ```
 
 
-Indicates if this series is plotted on second value axis.
+Indicates if this series is plotted on the second value axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1245,7 +1245,7 @@ public void setSmooth(boolean value)
 ```
 
 
-Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts.
+Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1318,7 +1318,7 @@ public void setValuesFormatCode(String value)
 ```
 
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 **Parameters:**
 | Parameter | Type | Description |

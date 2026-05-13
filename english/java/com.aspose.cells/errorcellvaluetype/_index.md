@@ -23,7 +23,7 @@ Represents a cell value which contains an error.
 | [CONNECT](#CONNECT) | Represents the value of a cell containing a \#CONNECT! |
 | [EXTERNAL](#EXTERNAL) | Represents the value of a cell containing an \#EXTERNAL! |
 | [FIELD](#FIELD) | Represents the value of a cell containing a \#FIELD! |
-| [NA](#NA) | Represents the value of a cell containing a \#NAME? |
+| [NA](#NA) | Represents the value of a cell containing a \#N/A error. |
 | [NAME](#NAME) | Represents the value of a cell containing a \#NAME? |
 | [REF](#REF) | Represents the value of a cell containing a \#REF! |
 | [SPILL](#SPILL) | Represents the value of a cell containing a \#SPILL! |
@@ -97,7 +97,7 @@ public static final int NA
 ```
 
 
-Represents the value of a cell containing a \#NAME? error.
+Represents the value of a cell containing a \#N/A error.
 
 ### NAME {#NAME}
 ```

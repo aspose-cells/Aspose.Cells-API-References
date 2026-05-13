@@ -33,14 +33,16 @@ Represents the main entry class for GridJs
 | [burnRedactionFile(String excelFilePath, String uid)](#burnRedactionFile-java.lang.String-java.lang.String-) | Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [copyImageOrShape(String uid, String p)](#copyImageOrShape-java.lang.String-java.lang.String-) | Copys image or shape. |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [errorJson(String msg)](#errorJson-java.lang.String-) | Gets the error message string in JSON format. |
 | [exportToJson()](#exportToJson--) | Gets JSON string from memory data, the default filename in the JSON is: book1. |
 | [exportToJson(String filename)](#exportToJson-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
 | [exportToJsonStringBuilder(String filename)](#exportToJsonStringBuilder-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [getCacheDirectory()](#getCacheDirectory--) | Gets the cache directory for storing spreadsheet file. |
 | [getClass()](#getClass--) |  |
 | [getGridLoadFormat(String extension)](#getGridLoadFormat-java.lang.String-) | Gets the load format by file extension |
-| [getImageStream(String uid, String picid)](#getImageStream-java.lang.String-java.lang.String-) | Get Stream of image. |
+| [getImageStream(String uid, String picid, String cachedir)](#getImageStream-java.lang.String-java.lang.String-java.lang.String-) | Get Stream of image. |
 | [getImageUrl(String uid, String picid, String delimiter)](#getImageUrl-java.lang.String-java.lang.String-java.lang.String-) | Gets the image URL. |
 | [getJsonByUid(String uid, String filename)](#getJsonByUid-java.lang.String-java.lang.String-) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [getOle(String uid, String sheetname, int oleid, String label)](#getOle-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
@@ -73,6 +75,7 @@ Represents the main entry class for GridJs
 | [saveToPdf(String path)](#saveToPdf-java.lang.String-) | Saves the memory data to the file path,the save format is pdf. |
 | [saveToXlsx(OutputStream stream)](#saveToXlsx-java.io.OutputStream-) | Saves the memory data to the sream,the save format is xlsx. |
 | [saveToXlsx(String path)](#saveToXlsx-java.lang.String-) | Saves the memory data to the file path,the save format is xlsx. |
+| [setCacheDirectory(String value)](#setCacheDirectory-java.lang.String-) | Sets the cache directory for storing spreadsheet file. |
 | [setImageUrlBase(String baseImageURL)](#setImageUrlBase-java.lang.String-) | Set the base image get action URL from controller . |
 | [setInterruptMonitorForLoad(GridInterruptMonitor monitor, int calculateTimeoutMilliseconds)](#setInterruptMonitorForLoad-com.aspose.gridjs.GridInterruptMonitor-int-) | Sets InterruptMonitor for load operation. |
 | [setInterruptMonitorForSave(GridInterruptMonitor monitor)](#setInterruptMonitorForSave-com.aspose.gridjs.GridInterruptMonitor-) | Sets InterruptMonitor for save operation. |
@@ -167,6 +170,14 @@ Copys image or shape.
 
 **Returns:**
 java.lang.String - The JSON string of the new copied image
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -237,6 +248,16 @@ Gets JSON string from memory data,set the output filename in the JSON.
 
 **Returns:**
 java.lang.StringBuilder - The JSON StringBuilder.
+### getCacheDirectory() {#getCacheDirectory--}
+```
+public String getCacheDirectory()
+```
+
+
+Gets the cache directory for storing spreadsheet file. if this is not set ,we will use the static propertie from [Config.getFileCacheDirectory()](../../com.aspose.gridjs/config\#getFileCacheDirectory--) or [CacheImp](../../com.aspose.gridjs/gridjsworkbook\#CacheImp) .
+
+**Returns:**
+java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -262,9 +283,9 @@ Gets the load format by file extension
 
 **Returns:**
 int - [GridLoadFormat](../../com.aspose.gridjs/gridloadformat).
-### getImageStream(String uid, String picid) {#getImageStream-java.lang.String-java.lang.String-}
+### getImageStream(String uid, String picid, String cachedir) {#getImageStream-java.lang.String-java.lang.String-java.lang.String-}
 ```
-public static InputStream getImageStream(String uid, String picid)
+public static InputStream getImageStream(String uid, String picid, String cachedir)
 ```
 
 
@@ -275,6 +296,7 @@ Get Stream of image.
 | --- | --- | --- |
 | uid | java.lang.String | The unique id for the file cache. |
 | picid | java.lang.String | The image id. |
+| cachedir | java.lang.String |  |
 
 **Returns:**
 java.io.InputStream - The image stream
@@ -722,6 +744,19 @@ Saves the memory data to the file path,the save format is xlsx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | The file path to save. |
+
+### setCacheDirectory(String value) {#setCacheDirectory-java.lang.String-}
+```
+public void setCacheDirectory(String value)
+```
+
+
+Sets the cache directory for storing spreadsheet file. if this is not set ,we will use the static propertie from [Config.getFileCacheDirectory()](../../com.aspose.gridjs/config\#getFileCacheDirectory--) or [CacheImp](../../com.aspose.gridjs/gridjsworkbook\#CacheImp) .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setImageUrlBase(String baseImageURL) {#setImageUrlBase-java.lang.String-}
 ```

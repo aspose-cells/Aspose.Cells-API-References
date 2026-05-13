@@ -109,8 +109,10 @@ public class SparklineGroup
 | [setShowNegativePoints(boolean value)](#setShowNegativePoints-boolean-) | Indicates whether to highlight the negative values on the sparkline group with a different color or marker. |
 | [setType(int value)](#setType-int-) | Indicates the sparkline type of the sparkline group. |
 | [setVerticalAxisMaxValue(double value)](#setVerticalAxisMaxValue-double-) | Sets the custom maximum value for the vertical axis. |
+| [setVerticalAxisMaxValue(int type, double value)](#setVerticalAxisMaxValue-int-double-) | Sets the custom maximum value for the sparkline vertical axis with the specified axis value type. |
 | [setVerticalAxisMaxValueType(int value)](#setVerticalAxisMaxValueType-int-) | Represents the vertical axis maximum value type. |
 | [setVerticalAxisMinValue(double value)](#setVerticalAxisMinValue-double-) | Sets the custom minimum value for the vertical axis. |
+| [setVerticalAxisMinValue(int type, double value)](#setVerticalAxisMinValue-int-double-) | Sets the custom minimum value for the sparkline vertical axis with the specified axis value type. |
 | [setVerticalAxisMinValueType(int value)](#setVerticalAxisMinValueType-int-) | Represents the vertical axis minimum value type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -801,6 +803,20 @@ If this property is set, [getVerticalAxisMaxValueType()](../../com.aspose.cells/
 | --- | --- | --- |
 | value | double |  |
 
+### setVerticalAxisMaxValue(int type, double value) {#setVerticalAxisMaxValue-int-double-}
+```
+public void setVerticalAxisMaxValue(int type, double value)
+```
+
+
+Sets the custom maximum value for the sparkline vertical axis with the specified axis value type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype). Type that specifies how the axis maximum value is applied. |
+| value | double | Custom maximum value of the vertical axis. Ignored if type is not [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM) |
+
 ### setVerticalAxisMaxValueType(int value) {#setVerticalAxisMaxValueType-int-}
 ```
 public void setVerticalAxisMaxValueType(int value)
@@ -832,6 +848,20 @@ If this property is set, [getVerticalAxisMinValueType()](../../com.aspose.cells/
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
+
+### setVerticalAxisMinValue(int type, double value) {#setVerticalAxisMinValue-int-double-}
+```
+public void setVerticalAxisMinValue(int type, double value)
+```
+
+
+Sets the custom minimum value for the sparkline vertical axis with the specified axis value type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype). Type that specifies how the axis minimum value is applied. |
+| value | double | Custom minimum value of the vertical axis. Ignored if type is not [SparklineAxisMinMaxType.CUSTOM](../../com.aspose.cells/sparklineaxisminmaxtype\#CUSTOM) |
 
 ### setVerticalAxisMinValueType(int value) {#setVerticalAxisMinValueType-int-}
 ```

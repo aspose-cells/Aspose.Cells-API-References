@@ -32,7 +32,7 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 | [getMapChartRegionType()](#getMapChartRegionType--) | Gets the region type of the map. |
 | [getMapLabelLayout()](#getMapLabelLayout--) | Gets the layout of map labels. |
 | [getQuartileCalculation()](#getQuartileCalculation--) | Represents the statistical properties for the series. |
-| [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether connector lines are shown between data points. |
+| [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether connector lines are displayed between data points. |
 | [getShowInnerPoints()](#getShowInnerPoints--) | Indicates whether to show non-outlier data points. |
 | [getShowMeanLine()](#getShowMeanLine--) | Indicates whether to show the line connecting all mean points. |
 | [getShowMeanMarker()](#getShowMeanMarker--) | Indicates whether markers denoting the mean are shown. |
@@ -47,7 +47,7 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 | [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | Sets the region type of the map. |
 | [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | Sets the layout of map labels. |
 | [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | Represents the statistical properties for the series. |
-| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Indicates whether connector lines are shown between data points. |
+| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Indicates whether connector lines are displayed between data points. |
 | [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | Indicates whether to show non-outlier data points. |
 | [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | Indicates whether to show the line connecting all mean points. |
 | [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | Indicates whether markers denoting the mean are shown. |
@@ -154,7 +154,7 @@ public boolean getShowConnectorLines()
 ```
 
 
-Indicates whether connector lines are shown between data points.
+Indicates whether connector lines are displayed between data points.
 
 **Remarks**
 
@@ -351,7 +351,7 @@ public void setShowConnectorLines(boolean value)
 ```
 
 
-Indicates whether connector lines are shown between data points.
+Indicates whether connector lines are displayed between data points.
 
 **Remarks**
 

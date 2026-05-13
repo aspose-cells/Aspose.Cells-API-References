@@ -24,7 +24,7 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [getDropZoneFilter()](#getDropZoneFilter--) | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [getDropZoneSeries()](#getDropZoneSeries--) | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [getDropZonesVisible()](#getDropZonesVisible--) | Specifies whether any pivot controls can appear on the pivot chart. |
-| [getShowExpandCollapseFieldButtons()](#getShowExpandCollapseFieldButtons--) | Gets a value indicating whether to show expand/collapse field buttons |
+| [getShowExpandCollapseFieldButtons()](#getShowExpandCollapseFieldButtons--) | Gets a value indicating whether to show expand or collapse field buttons |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -33,7 +33,7 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | Specifies whether any pivot controls can appear on the pivot chart. |
-| [setShowExpandCollapseFieldButtons(boolean value)](#setShowExpandCollapseFieldButtons-boolean-) | Sets a value indicating whether to show expand/collapse field buttons |
+| [setShowExpandCollapseFieldButtons(boolean value)](#setShowExpandCollapseFieldButtons-boolean-) | Sets a value indicating whether to show expand or collapse field buttons |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public boolean getShowExpandCollapseFieldButtons()
 ```
 
 
-Gets a value indicating whether to show expand/collapse field buttons
+Gets a value indicating whether to show expand or collapse field buttons
 
 **Returns:**
 boolean
@@ -220,7 +220,7 @@ public void setShowExpandCollapseFieldButtons(boolean value)
 ```
 
 
-Sets a value indicating whether to show expand/collapse field buttons
+Sets a value indicating whether to show expand or collapse field buttons
 
 **Parameters:**
 | Parameter | Type | Description |

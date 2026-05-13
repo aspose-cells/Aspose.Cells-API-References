@@ -754,6 +754,10 @@ public void refreshAll()
 
 Refresh all pivot tables and charts with pivot source.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Workbook.RefreshAll() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### refreshPivotTables() {#refreshPivotTables--}
 ```
 public void refreshPivotTables()
