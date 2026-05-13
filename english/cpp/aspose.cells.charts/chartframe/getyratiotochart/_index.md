@@ -4,7 +4,7 @@ linktitle: GetYRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetYRatioToChart method. Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area in C++.'
 type: docs
-weight: 4000
+weight: 4200
 url: /cpp/aspose.cells.charts/chartframe/getyratiotochart/
 ---
 ## ChartFrame::GetYRatioToChart method

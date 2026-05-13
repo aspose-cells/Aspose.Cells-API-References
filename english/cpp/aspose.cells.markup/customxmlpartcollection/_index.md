@@ -21,10 +21,12 @@ class CustomXmlPartCollection
 | Method | Description |
 | --- | --- |
 | [Add(const Vector \<uint8_t\>\& data, const Vector \<uint8_t\>\& shemaData)](./add/) | Adds an item to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CustomXmlPartCollection](./). |
 | [CustomXmlPartCollection(CustomXmlPartCollection_Impl* impl)](./customxmlpartcollection/) | Constructs from an implementation object. |
 | [CustomXmlPartCollection(const CustomXmlPartCollection\& src)](./customxmlpartcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CustomXmlPartCollection](./). |
 | [Get(int32_t index)](./get/) | Gets an item at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomXmlPartCollection\& src)](./operator_asm/) | operator= |

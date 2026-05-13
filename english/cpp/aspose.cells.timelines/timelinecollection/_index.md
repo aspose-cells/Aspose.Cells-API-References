@@ -30,10 +30,12 @@ class TimelineCollection
 | [Add(const PivotTable\& pivot, int32_t row, int32_t column, const PivotField\& baseField)](./add/) | Add a new [Timeline](../timeline/) using PivotTable as data source. |
 | [Add(const PivotTable\& pivot, const U16String\& destCellName, const PivotField\& baseField)](./add/) | Add a new [Timeline](../timeline/) using PivotTable as data source. |
 | [Add(const PivotTable\& pivot, const char16_t* destCellName, const PivotField\& baseField)](./add/) | Add a new [Timeline](../timeline/) using PivotTable as data source. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TimelineCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TimelineCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Timeline](../timeline/) by index. |
 | [Get(const U16String\& name)](./get/) | Gets the [Timeline](../timeline/) by [Timeline](../timeline/)'s name. |
 | [Get(const char16_t* name)](./get/) | Gets the [Timeline](../timeline/) by [Timeline](../timeline/)'s name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TimelineCollection\& src)](./operator_asm/) | operator= |

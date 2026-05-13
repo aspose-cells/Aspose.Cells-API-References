@@ -23,11 +23,13 @@ class SmartTagSetting
 | [Add(int32_t row, int32_t column)](./add/) | Adds a [SmartTagCollection](../smarttagcollection/) object to a cell. |
 | [Add(const U16String\& cellName)](./add/) | Add a cell smart tags. |
 | [Add(const char16_t* cellName)](./add/) | Add a cell smart tags. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [SmartTagSetting](./). |
+| [end()](./end/) | Returns an iterator to the end of the [SmartTagSetting](./). |
 | [Get(int32_t index)](./get/) | Gets a [SmartTagCollection](../smarttagcollection/) object by the index. |
 | [Get(int32_t row, int32_t column)](./get/) | Gets the [SmartTagCollection](../smarttagcollection/) object of the cell. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [SmartTagCollection](../smarttagcollection/) object of the cell. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [SmartTagCollection](../smarttagcollection/) object of the cell. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SmartTagSetting\& src)](./operator_asm/) | operator= |

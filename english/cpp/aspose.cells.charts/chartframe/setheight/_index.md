@@ -4,7 +4,7 @@ linktitle: SetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetHeight method. Gets or sets the height of frame in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.cells.charts/chartframe/setheight/
 ---
 ## ChartFrame::SetHeight method

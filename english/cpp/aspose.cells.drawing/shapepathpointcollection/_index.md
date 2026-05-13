@@ -21,8 +21,10 @@ class ShapePathPointCollection
 | Method | Description |
 | --- | --- |
 | [Add(int32_t x, int32_t y)](./add/) |  **(Deprecated)** Adds a path point in unit of EMUs. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ShapePathPointCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ShapePathPointCollection](./). |
 | [Get(int32_t index)](./get/) | Gets shape path point by index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ShapePathPointCollection\& src)](./operator_asm/) | operator= |

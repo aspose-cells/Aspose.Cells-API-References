@@ -20,8 +20,10 @@ class PivotAreaFilterCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotAreaFilterCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotAreaFilterCollection](./). |
 | [Get(int32_t index)](./get/) | Gets filter from the list by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotAreaFilterCollection\& src)](./operator_asm/) | operator= |

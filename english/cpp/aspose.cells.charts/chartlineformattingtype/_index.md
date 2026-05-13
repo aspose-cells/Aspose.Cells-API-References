@@ -4,7 +4,7 @@ linktitle: ChartLineFormattingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartLineFormattingType enum. Represents line format type of chart line in C++.'
 type: docs
-weight: 4200
+weight: 4400
 url: /cpp/aspose.cells.charts/chartlineformattingtype/
 ---
 ## ChartLineFormattingType enum

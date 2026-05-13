@@ -4,7 +4,7 @@ linktitle: PdfOptimizationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfOptimizationType enum. Specifies a type of optimization in C++.'
 type: docs
-weight: 2600
+weight: 3000
 url: /cpp/aspose.cells.rendering/pdfoptimizationtype/
 ---
 ## PdfOptimizationType enum

@@ -4,7 +4,7 @@ linktitle: BubbleSizeRepresents
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::BubbleSizeRepresents enum. Represents what the bubble size represents on a bubble chart in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells.charts/bubblesizerepresents/
 ---
 ## BubbleSizeRepresents enum

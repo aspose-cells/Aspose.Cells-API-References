@@ -4,7 +4,7 @@ linktitle: SetValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaParameter::SetValue method. Gets the value of parameter in C++.'
 type: docs
-weight: 900
+weight: 800
 url: /cpp/aspose.cells.querytables/powerqueryformulaparameter/setvalue/
 ---
 ## PowerQueryFormulaParameter::SetValue(const U16String\&) method

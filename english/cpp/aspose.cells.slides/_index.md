@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Slides
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Slides namespace in C++.'
 type: docs
-weight: 2300
+weight: 2800
 url: /cpp/aspose.cells.slides/
 ---
 

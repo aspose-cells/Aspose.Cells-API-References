@@ -4,7 +4,7 @@ linktitle: Protection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Protection class. Represents the various types of protection options available for a worksheet in C++.'
 type: docs
-weight: 12200
+weight: 12400
 url: /cpp/aspose.cells/protection/
 ---
 ## Protection class

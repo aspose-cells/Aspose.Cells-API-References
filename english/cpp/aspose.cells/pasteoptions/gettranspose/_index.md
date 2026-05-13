@@ -4,7 +4,7 @@ linktitle: GetTranspose
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::GetTranspose method. True to transpose rows and columns when the range is pasted. The default value is False in C++.'
 type: docs
-weight: 1200
+weight: 1600
 url: /cpp/aspose.cells/pasteoptions/gettranspose/
 ---
 ## PasteOptions::GetTranspose method

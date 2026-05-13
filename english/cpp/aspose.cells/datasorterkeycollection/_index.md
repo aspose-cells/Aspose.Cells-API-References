@@ -20,11 +20,13 @@ class DataSorterKeyCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [DataSorterKeyCollection](./). |
 | [DataSorterKeyCollection()](./datasorterkeycollection/) | Default constructor. |
 | [DataSorterKeyCollection(DataSorterKeyCollection_Impl* impl)](./datasorterkeycollection/) | Constructs from an implementation object. |
 | [DataSorterKeyCollection(const DataSorterKeyCollection\& src)](./datasorterkeycollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [DataSorterKeyCollection](./). |
 | [Get(int32_t index)](./get/) | Gets and sets [DataSorterKey](../datasorterkey/) by index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DataSorterKeyCollection\& src)](./operator_asm/) | operator= |

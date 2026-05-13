@@ -4,7 +4,7 @@ linktitle: UUID
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UUID typedef. Guid struct in C++.'
 type: docs
-weight: 28300
+weight: 28800
 url: /cpp/aspose.cells/uuid/
 ---
 ## UUID typedef

@@ -20,6 +20,8 @@ class PivotItemCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotItemCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotItemCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [PivotItem](../pivotitem/)[Object](../../aspose.cells/object/) at the specific index. |
 | [Get(const U16String\& itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [Get(const char16_t* itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |

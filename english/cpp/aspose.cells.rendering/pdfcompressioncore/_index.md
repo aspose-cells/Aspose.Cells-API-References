@@ -4,7 +4,7 @@ linktitle: PdfCompressionCore
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfCompressionCore enum. Specifies a type of compression applied to all content in the PDF file except images in C++.'
 type: docs
-weight: 2300
+weight: 2700
 url: /cpp/aspose.cells.rendering/pdfcompressioncore/
 ---
 ## PdfCompressionCore enum

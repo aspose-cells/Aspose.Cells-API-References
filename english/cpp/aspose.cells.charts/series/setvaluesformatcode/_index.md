@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Series::SetValuesFormatCode method
 linktitle: SetValuesFormatCode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::SetValuesFormatCode method. Represents format code of Values'' NumberList in C++.'
+description: 'Aspose::Cells::Charts::Series::SetValuesFormatCode method. Represents the format code of the Values NumberList in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.cells.charts/series/setvaluesformatcode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/series/setvaluesformatcode/
 ## Series::SetValuesFormatCode(const U16String\&) method
 
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 ```cpp
 void Aspose::Cells::Charts::Series::SetValuesFormatCode(const U16String &value)
@@ -26,7 +26,7 @@ void Aspose::Cells::Charts::Series::SetValuesFormatCode(const U16String &value)
 ## Series::SetValuesFormatCode(const char16_t*) method
 
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 ```cpp
 void Aspose::Cells::Charts::Series::SetValuesFormatCode(const char16_t *value)

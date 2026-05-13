@@ -4,7 +4,7 @@ linktitle: GetDropZoneSeries
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PivotOptions::GetDropZoneSeries method. Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.charts/pivotoptions/getdropzoneseries/
 ---
 ## PivotOptions::GetDropZoneSeries method

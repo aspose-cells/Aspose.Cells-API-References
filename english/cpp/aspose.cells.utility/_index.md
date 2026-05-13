@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Utility
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Utility namespace in C++.'
 type: docs
-weight: 2600
+weight: 3200
 url: /cpp/aspose.cells.utility/
 ---
 

@@ -26,9 +26,11 @@ class VbaProjectReferenceCollection
 | [AddProjectRefrernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectrefrernce/) | Adds a reference to an external VBA project. |
 | [AddRegisteredReference(const U16String\& name, const U16String\& libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
 | [AddRegisteredReference(const char16_t* name, const char16_t* libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [VbaProjectReferenceCollection](./). |
 | [Copy(const VbaProjectReferenceCollection\& source)](./copy/) | Copies references from other VBA project. |
+| [end()](./end/) | Returns an iterator to the end of the [VbaProjectReferenceCollection](./). |
 | [Get(int32_t i)](./get/) | Get the reference in the list by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const VbaProjectReferenceCollection\& src)](./operator_asm/) | operator= |

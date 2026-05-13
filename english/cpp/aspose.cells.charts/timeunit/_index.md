@@ -4,7 +4,7 @@ linktitle: TimeUnit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TimeUnit enum. Represents the base unit for the category axis in C++.'
 type: docs
-weight: 6700
+weight: 6900
 url: /cpp/aspose.cells.charts/timeunit/
 ---
 ## TimeUnit enum

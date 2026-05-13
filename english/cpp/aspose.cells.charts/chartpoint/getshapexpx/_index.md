@@ -4,7 +4,7 @@ linktitle: GetShapeXPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetShapeXPx method. Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2300
+weight: 2700
 url: /cpp/aspose.cells.charts/chartpoint/getshapexpx/
 ---
 ## ChartPoint::GetShapeXPx method

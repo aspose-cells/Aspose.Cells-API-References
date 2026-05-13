@@ -4,7 +4,7 @@ linktitle: MergedCellsShrinkType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MergedCellsShrinkType enum. Represents the strategy to shrink merged cells for operations such as deleting blank rows/columns in C++.'
 type: docs
-weight: 23600
+weight: 24000
 url: /cpp/aspose.cells/mergedcellsshrinktype/
 ---
 ## MergedCellsShrinkType enum

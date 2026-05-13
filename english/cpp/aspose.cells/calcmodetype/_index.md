@@ -4,7 +4,7 @@ linktitle: CalcModeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalcModeType enum. Represents the mode type of calculating formulas in C++.'
 type: docs
-weight: 18400
+weight: 18500
 url: /cpp/aspose.cells/calcmodetype/
 ---
 ## CalcModeType enum

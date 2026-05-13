@@ -4,7 +4,7 @@ linktitle: IsDynamicDataExchange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::IsDynamicDataExchange method. Gets or sets whether dynamic data exchange in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells.drawing/picture/isdynamicdataexchange/
 ---
 ## Picture::IsDynamicDataExchange method

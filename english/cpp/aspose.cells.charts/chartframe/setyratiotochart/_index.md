@@ -4,7 +4,7 @@ linktitle: SetYRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetYRatioToChart method. Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area in C++.'
 type: docs
-weight: 4100
+weight: 4300
 url: /cpp/aspose.cells.charts/chartframe/setyratiotochart/
 ---
 ## ChartFrame::SetYRatioToChart method

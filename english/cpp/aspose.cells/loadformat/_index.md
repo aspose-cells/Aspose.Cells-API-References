@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadFormat enum. Represents the load file format in C++.'
 type: docs
-weight: 23200
+weight: 23600
 url: /cpp/aspose.cells/loadformat/
 ---
 ## LoadFormat enum

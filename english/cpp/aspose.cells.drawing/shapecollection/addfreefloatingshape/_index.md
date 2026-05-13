@@ -4,7 +4,7 @@ linktitle: AddFreeFloatingShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddFreeFloatingShape method. Adds a free floating shape to the worksheet.Only applies for line/image shape in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells.drawing/shapecollection/addfreefloatingshape/
 ---
 ## ShapeCollection::AddFreeFloatingShape method

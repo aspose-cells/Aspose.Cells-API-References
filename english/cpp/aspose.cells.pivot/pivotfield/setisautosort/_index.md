@@ -4,7 +4,7 @@ linktitle: SetIsAutoSort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsAutoSort method. Indicates whether the items of this PivotTable field are automatically sorted in C++.'
 type: docs
-weight: 5700
+weight: 5900
 url: /cpp/aspose.cells.pivot/pivotfield/setisautosort/
 ---
 ## PivotField::SetIsAutoSort method

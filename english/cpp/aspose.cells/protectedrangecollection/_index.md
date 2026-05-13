@@ -4,7 +4,7 @@ linktitle: ProtectedRangeCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ProtectedRangeCollection class. Encapsulates a collection of ProtectedRange objects in C++.'
 type: docs
-weight: 12100
+weight: 12300
 url: /cpp/aspose.cells/protectedrangecollection/
 ---
 ## ProtectedRangeCollection class
@@ -22,8 +22,10 @@ class ProtectedRangeCollection
 | --- | --- |
 | [Add(const U16String\& name, int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn)](./add/) | Adds a [ProtectedRange](../protectedrange/) item to the collection. |
 | [Add(const char16_t* name, int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn)](./add/) | Adds a [ProtectedRange](../protectedrange/) item to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ProtectedRangeCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ProtectedRangeCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ProtectedRange](../protectedrange/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ProtectedRangeCollection\& src)](./operator_asm/) | operator= |

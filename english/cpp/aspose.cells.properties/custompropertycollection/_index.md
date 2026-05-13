@@ -22,12 +22,14 @@ class CustomPropertyCollection
 | --- | --- |
 | [Add(const U16String\& name, const U16String\& value)](./add/) | Adds custom property information. |
 | [Add(const char16_t* name, const char16_t* value)](./add/) | Adds custom property information. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CustomPropertyCollection](./). |
 | [CustomPropertyCollection(CustomPropertyCollection_Impl* impl)](./custompropertycollection/) | Constructs from an implementation object. |
 | [CustomPropertyCollection(const CustomPropertyCollection\& src)](./custompropertycollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CustomPropertyCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the custom property by the specific index. |
 | [Get(const U16String\& name)](./get/) | Gets the custom property by the property name. |
 | [Get(const char16_t* name)](./get/) | Gets the custom property by the property name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomPropertyCollection\& src)](./operator_asm/) | operator= |

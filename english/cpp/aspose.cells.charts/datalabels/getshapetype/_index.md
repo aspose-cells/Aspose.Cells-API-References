@@ -4,7 +4,7 @@ linktitle: GetShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels::GetShapeType method. Gets or sets shape type of data label in C++.'
 type: docs
-weight: 4700
+weight: 4800
 url: /cpp/aspose.cells.charts/datalabels/getshapetype/
 ---
 ## DataLabels::GetShapeType method

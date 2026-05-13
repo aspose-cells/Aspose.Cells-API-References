@@ -22,10 +22,12 @@ class ConditionalFormattingValueCollection
 | --- | --- |
 | [Add(FormatConditionValueType type, const U16String\& value)](./add/) | Adds [ConditionalFormattingValue](../conditionalformattingvalue/) object. |
 | [Add(FormatConditionValueType type, const char16_t* value)](./add/) | Adds [ConditionalFormattingValue](../conditionalformattingvalue/) object. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ConditionalFormattingValueCollection](./). |
 | [ConditionalFormattingValueCollection(ConditionalFormattingValueCollection_Impl* impl)](./conditionalformattingvaluecollection/) | Constructs from an implementation object. |
 | [ConditionalFormattingValueCollection(const ConditionalFormattingValueCollection\& src)](./conditionalformattingvaluecollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [ConditionalFormattingValueCollection](./). |
 | [Get(int32_t index)](./get/) | Get the CFValueObject element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConditionalFormattingValueCollection\& src)](./operator_asm/) | operator= |

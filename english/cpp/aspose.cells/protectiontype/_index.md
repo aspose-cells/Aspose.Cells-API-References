@@ -4,7 +4,7 @@ linktitle: ProtectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ProtectionType enum. Represents workbook/worksheet protection type in C++.'
 type: docs
-weight: 25700
+weight: 26100
 url: /cpp/aspose.cells/protectiontype/
 ---
 ## ProtectionType enum

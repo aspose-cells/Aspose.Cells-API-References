@@ -4,7 +4,7 @@ linktitle: IsHtmlTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::IsHtmlTables method. Flag indicating whether web queries should only work on HTML tables in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/ishtmltables/
 ---
 ## WebQueryConnection::IsHtmlTables method

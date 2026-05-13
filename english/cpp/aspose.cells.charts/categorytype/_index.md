@@ -4,7 +4,7 @@ linktitle: CategoryType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::CategoryType enum. Represents the category axis type in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells.charts/categorytype/
 ---
 ## CategoryType enum

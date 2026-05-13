@@ -4,7 +4,7 @@ linktitle: SparklinePresetStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklinePresetStyleType enum. Represents the preset style types for sparkline in C++.'
 type: docs
-weight: 6200
+weight: 6400
 url: /cpp/aspose.cells.charts/sparklinepresetstyletype/
 ---
 ## SparklinePresetStyleType enum

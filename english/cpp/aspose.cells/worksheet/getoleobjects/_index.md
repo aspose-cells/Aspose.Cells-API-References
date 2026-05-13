@@ -4,7 +4,7 @@ linktitle: GetOleObjects
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetOleObjects method. Represents a collection of OleObject in a worksheet in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.cells/worksheet/getoleobjects/
 ---
 ## Worksheet::GetOleObjects method

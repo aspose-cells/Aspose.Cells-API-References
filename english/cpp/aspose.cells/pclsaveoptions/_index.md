@@ -4,7 +4,7 @@ linktitle: PclSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PclSaveOptions class. Represents the options for saving a Pcl file in C++.'
 type: docs
-weight: 11800
+weight: 11900
 url: /cpp/aspose.cells/pclsaveoptions/
 ---
 ## PclSaveOptions class
@@ -64,7 +64,7 @@ class PclSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)](../paginatedsaveoptions/paginatedsaveoptions/) | Constructs from an implementation object. |
 | [PaginatedSaveOptions(const PaginatedSaveOptions\& src)](../paginatedsaveoptions/paginatedsaveoptions/) | Copy constructor. |
 | [PaginatedSaveOptions(const SaveOptions\& src)](../paginatedsaveoptions/paginatedsaveoptions/) | Constructs from a parent object. |
-| [PclSaveOptions()](./pclsaveoptions/) | Creates the options for saving pdf file. |
+| [PclSaveOptions()](./pclsaveoptions/) | Creates the options for saving pcl file. |
 | [PclSaveOptions(PclSaveOptions_Impl* impl)](./pclsaveoptions/) | Constructs from an implementation object. |
 | [PclSaveOptions(const PclSaveOptions\& src)](./pclsaveoptions/) | Copy constructor. |
 | [PclSaveOptions(const PaginatedSaveOptions\& src)](./pclsaveoptions/) | Constructs from a parent object. |

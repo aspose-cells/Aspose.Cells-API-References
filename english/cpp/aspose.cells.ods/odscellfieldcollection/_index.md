@@ -22,9 +22,11 @@ class OdsCellFieldCollection
 | --- | --- |
 | [Add(int32_t row, int32_t column, OdsCellFieldType fieldType, const U16String\& format)](./add/) | Adds a field. |
 | [Add(int32_t row, int32_t column, OdsCellFieldType fieldType, const char16_t* format)](./add/) | Adds a field. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [OdsCellFieldCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [OdsCellFieldCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the field by the index. |
 | [Get(int32_t row, int32_t column)](./get/) | Gets the field by row and column index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [OdsCellFieldCollection(OdsCellFieldCollection_Impl* impl)](./odscellfieldcollection/) | Constructs from an implementation object. |
 | [OdsCellFieldCollection(const OdsCellFieldCollection\& src)](./odscellfieldcollection/) | Copy constructor. |

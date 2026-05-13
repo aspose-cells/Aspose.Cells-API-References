@@ -4,7 +4,7 @@ linktitle: SqlScriptOperatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::SqlScriptOperatorType enum. Represents the type of operating data in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells.saving/sqlscriptoperatortype/
 ---
 ## SqlScriptOperatorType enum

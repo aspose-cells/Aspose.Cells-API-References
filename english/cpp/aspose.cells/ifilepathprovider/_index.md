@@ -20,7 +20,7 @@ class IFilePathProvider
 
 | Method | Description |
 | --- | --- |
-| virtual [GetFullName(const U16String\& sheetName)](./getfullname/) | Gets the full path of the file by [Worksheet](../worksheet/) name when exporting [Worksheet](../worksheet/) to html separately. So the references among the Worksheets can be exported correctly. |
+| virtual [GetFullName(const U16String\& sheetName)](./getfullname/) | Gets the full path of the file by [Worksheet](../worksheet/) name when exporting [Worksheet](../worksheet/) to HTML separately. So the references among the Worksheets can be exported correctly. |
 ## See Also
 
 * Namespace [Aspose::Cells](../)

@@ -4,7 +4,7 @@ linktitle: GetShapeWidthPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetShapeWidthPx method. Gets the width in units of pixels after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells.charts/chartpoint/getshapewidthpx/
 ---
 ## ChartPoint::GetShapeWidthPx method

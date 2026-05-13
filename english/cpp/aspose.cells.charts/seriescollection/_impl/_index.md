@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesCollection::_impl field. The implementation object in C++.'
 type: docs
-weight: 2100
+weight: 2500
 url: /cpp/aspose.cells.charts/seriescollection/_impl/
 ---
 ## _impl field

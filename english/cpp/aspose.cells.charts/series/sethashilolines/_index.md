@@ -4,7 +4,7 @@ linktitle: SetHasHiLoLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetHasHiLoLines method. True if the line chart has high-low lines. Applies only to line charts in C++.'
 type: docs
-weight: 4400
+weight: 4800
 url: /cpp/aspose.cells.charts/series/sethashilolines/
 ---
 ## Series::SetHasHiLoLines method

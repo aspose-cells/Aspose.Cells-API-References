@@ -27,10 +27,12 @@ class VbaModuleCollection
 | [AddDesignerStorage(const char16_t* name, const Vector \<uint8_t\>\& data)](./adddesignerstorage/) |  |
 | [AddUserForm(const U16String\& name, const U16String\& codes, const Vector \<uint8_t\>\& designerStorage)](./adduserform/) | Inser user form into VBA Project. |
 | [AddUserForm(const char16_t* name, const char16_t* codes, const Vector \<uint8_t\>\& designerStorage)](./adduserform/) | Inser user form into VBA Project. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [VbaModuleCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [VbaModuleCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [VbaModule](../vbamodule/) in the list by the index. |
 | [Get(const U16String\& name)](./get/) | Gets [VbaModule](../vbamodule/) in the list by the name. |
 | [Get(const char16_t* name)](./get/) | Gets [VbaModule](../vbamodule/) in the list by the name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetDesignerStorage(const U16String\& name)](./getdesignerstorage/) | Represents the data of Designer. |
 | [GetDesignerStorage(const char16_t* name)](./getdesignerstorage/) | Represents the data of Designer. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

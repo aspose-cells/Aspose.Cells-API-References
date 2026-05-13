@@ -4,7 +4,7 @@ linktitle: GetXValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetXValueType method. Gets X value type of the chart point in C++.'
 type: docs
-weight: 1500
+weight: 1900
 url: /cpp/aspose.cells.charts/chartpoint/getxvaluetype/
 ---
 ## ChartPoint::GetXValueType method

@@ -4,7 +4,7 @@ linktitle: IsParamArrayModeRequired
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractCalculationEngine::IsParamArrayModeRequired method. Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If CalculationData.GetParamValueInArrayMode(int, int, int) is required when calculating custom functions and user has not updated the definition for them (by Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)), this property needs to be set as true in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells/abstractcalculationengine/isparamarraymoderequired/
 ---
 ## AbstractCalculationEngine::IsParamArrayModeRequired method

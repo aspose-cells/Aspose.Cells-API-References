@@ -4,7 +4,7 @@ linktitle: GetHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetHeightPixel method. Gets or sets the height of frame in units of Pixel in C++.'
 type: docs
-weight: 5200
+weight: 5400
 url: /cpp/aspose.cells.charts/chartframe/getheightpixel/
 ---
 ## ChartFrame::GetHeightPixel method

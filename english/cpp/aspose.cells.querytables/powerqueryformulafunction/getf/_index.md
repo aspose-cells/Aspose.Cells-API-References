@@ -4,7 +4,7 @@ linktitle: GetF
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaFunction::GetF method. Gets and sets the definition of function in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.querytables/powerqueryformulafunction/getf/
 ---
 ## PowerQueryFormulaFunction::GetF method

@@ -4,7 +4,7 @@ linktitle: GetEnableFieldList
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetEnableFieldList method. Indicates whether the field list for the PivotTable is available on the view of Excel in C++.'
 type: docs
-weight: 7500
+weight: 7900
 url: /cpp/aspose.cells.pivot/pivottable/getenablefieldlist/
 ---
 ## PivotTable::GetEnableFieldList method

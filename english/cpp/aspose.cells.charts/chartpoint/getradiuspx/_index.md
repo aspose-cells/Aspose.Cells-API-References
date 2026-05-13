@@ -4,7 +4,7 @@ linktitle: GetRadiusPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetRadiusPx method. Gets the radius of bubble, pie or doughnut in units of pixels after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2800
+weight: 3200
 url: /cpp/aspose.cells.charts/chartpoint/getradiuspx/
 ---
 ## ChartPoint::GetRadiusPx method

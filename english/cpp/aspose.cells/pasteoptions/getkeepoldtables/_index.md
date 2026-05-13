@@ -4,7 +4,7 @@ linktitle: GetKeepOldTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::GetKeepOldTables method. Keeps the tables in the destination range in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells/pasteoptions/getkeepoldtables/
 ---
 ## PasteOptions::GetKeepOldTables method

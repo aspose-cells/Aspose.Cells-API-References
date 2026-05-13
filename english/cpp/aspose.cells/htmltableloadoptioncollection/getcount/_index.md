@@ -2,15 +2,15 @@
 title: Aspose::Cells::HtmlTableLoadOptionCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetCount method of Aspose::Cells::HtmlTableLoadOptionCollection class in C++.'
+description: 'Aspose::Cells::HtmlTableLoadOptionCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/htmltableloadoptioncollection/getcount/
 ---
 ## HtmlTableLoadOptionCollection::GetCount method
 
 
-
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::HtmlTableLoadOptionCollection::GetCount()

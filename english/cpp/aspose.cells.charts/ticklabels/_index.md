@@ -4,7 +4,7 @@ linktitle: TickLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TickLabels class. Represents the tick-mark labels associated with tick marks on a chart axis in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.cells.charts/ticklabels/
 ---
 ## TickLabels class

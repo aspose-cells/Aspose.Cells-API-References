@@ -4,7 +4,7 @@ linktitle: Vector
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vector class. Vector template class. The elements are stored contiguously in C++.'
 type: docs
-weight: 15900
+weight: 16100
 url: /cpp/aspose.cells/vector/
 ---
 ## Vector class
@@ -24,6 +24,8 @@ template<typenameT>class Vector
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the vector. |
+| [end()](./end/) | Returns an iterator to the end of the vector. |
 | [GetData()](./getdata/) const | Gets the address of the element array in this vector. |
 | [GetLength()](./getlength/) const | Gets the length of the elements in this [Vector](./). |
 | [IsNull()](./isnull/) const | Checks whether the element array is nullptr. |

@@ -4,7 +4,7 @@ linktitle: IsCloudPlatform
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsHelper::IsCloudPlatform method. Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells/cellshelper/iscloudplatform/
 ---
 ## CellsHelper::IsCloudPlatform method

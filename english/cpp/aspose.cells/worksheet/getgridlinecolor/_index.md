@@ -4,7 +4,7 @@ linktitle: GetGridlineColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetGridlineColor method. Gets and sets the color of gridline in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells/worksheet/getgridlinecolor/
 ---
 ## Worksheet::GetGridlineColor method

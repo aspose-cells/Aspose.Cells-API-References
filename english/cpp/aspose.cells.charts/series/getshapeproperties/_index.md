@@ -4,7 +4,7 @@ linktitle: GetShapeProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetShapeProperties method. Gets the ShapePropertyCollection object that holds the visual shape properties of the Series in C++.'
 type: docs
-weight: 8700
+weight: 9100
 url: /cpp/aspose.cells.charts/series/getshapeproperties/
 ---
 ## Series::GetShapeProperties method

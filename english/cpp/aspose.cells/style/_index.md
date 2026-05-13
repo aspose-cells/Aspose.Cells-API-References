@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style class. Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties in C++.'
 type: docs
-weight: 14100
+weight: 14300
 url: /cpp/aspose.cells/style/
 ---
 ## Style class
@@ -26,6 +26,7 @@ class Style
 | [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets a style's background color. |
 | [GetBackgroundThemeColor()](./getbackgroundthemecolor/) | Gets and sets the background theme color. |
 | [GetBorders()](./getborders/) | Gets the [BorderCollection](../bordercollection/) of the style. |
+| [GetBottomBorder()](./getbottomborder/) | Gets the bottom border. |
 | [GetCultureCustom()](./getculturecustom/) | Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
 | [GetCustom()](./getcustom/) | Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
 | [GetFont()](./getfont/) | Gets a [Font](../font/) object. |
@@ -37,14 +38,17 @@ class Style
 | [GetHorizontalAlignment()](./gethorizontalalignment/) | Gets or sets the horizontal alignment type of the text in a cell. |
 | [GetIndentLevel()](./getindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
 | [GetInvariantCustom()](./getinvariantcustom/) | Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [GetLeftBorder()](./getleftborder/) | Gets the left border. |
 | [GetName()](./getname/) | Gets or sets the name of the style. |
 | [GetNumber()](./getnumber/) | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
 | [GetParentStyle()](./getparentstyle/) | Gets the parent style of this style. |
 | [GetPattern()](./getpattern/) | Gets or sets the cell background pattern type. |
 | [GetQuotePrefix()](./getquoteprefix/) | Indicates whether the cell's value starts with single quote mark. |
+| [GetRightBorder()](./getrightborder/) | Gets the right border. |
 | [GetRotationAngle()](./getrotationangle/) | Represents text rotation angle. |
 | [GetShrinkToFit()](./getshrinktofit/) | Represents if text automatically shrinks to fit in the available column width. |
 | [GetTextDirection()](./gettextdirection/) | Represents text reading order. |
+| [GetTopBorder()](./gettopborder/) | Gets the top border. |
 | [GetTwoColorGradientSetting()](./gettwocolorgradientsetting/) | Get the two-color gradient setting. |
 | [GetVerticalAlignment()](./getverticalalignment/) | Gets or sets the vertical alignment type of the text in a cell. |
 | [IsAlignmentApplied()](./isalignmentapplied/) | Indicate whether the alignment formatting should be applied. |

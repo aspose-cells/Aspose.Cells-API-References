@@ -4,7 +4,7 @@ linktitle: GetFunction
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetFunction method. Represents the function used to summarize this PivotTable data field in C++.'
 type: docs
-weight: 7100
+weight: 7300
 url: /cpp/aspose.cells.pivot/pivotfield/getfunction/
 ---
 ## PivotField::GetFunction method

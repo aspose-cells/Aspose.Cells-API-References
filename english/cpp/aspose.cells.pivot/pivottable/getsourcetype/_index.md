@@ -4,7 +4,7 @@ linktitle: GetSourceType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetSourceType method. Gets the data source type of the pivot table in C++.'
 type: docs
-weight: 13700
+weight: 14100
 url: /cpp/aspose.cells.pivot/pivottable/getsourcetype/
 ---
 ## PivotTable::GetSourceType method

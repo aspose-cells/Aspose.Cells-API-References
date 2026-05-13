@@ -23,8 +23,10 @@ class WebExtensionCollection
 | [Add()](./add/) | Adds a web extension. |
 | [AddWebVideoPlayer(const U16String\& url, bool autoPlay, int32_t startTime, int32_t endTime)](./addwebvideoplayer/) | Add a web video player into exel. |
 | [AddWebVideoPlayer(const char16_t* url, bool autoPlay, int32_t startTime, int32_t endTime)](./addwebvideoplayer/) | Add a web video player into exel. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionCollection](./). |
 | [Get(int32_t index)](./get/) | Gets web extension by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WebExtensionCollection\& src)](./operator_asm/) | operator= |

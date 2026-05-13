@@ -4,7 +4,7 @@ linktitle: TickMarkType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TickMarkType enum. Represents the tick mark type for the specified axis in C++.'
 type: docs
-weight: 6600
+weight: 6800
 url: /cpp/aspose.cells.charts/tickmarktype/
 ---
 ## TickMarkType enum

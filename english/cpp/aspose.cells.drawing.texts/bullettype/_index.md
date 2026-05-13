@@ -4,7 +4,7 @@ linktitle: BulletType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::BulletType enum. Represents the type of the bullet in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.drawing.texts/bullettype/
 ---
 ## BulletType enum

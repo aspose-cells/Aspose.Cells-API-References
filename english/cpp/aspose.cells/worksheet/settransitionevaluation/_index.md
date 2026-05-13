@@ -4,7 +4,7 @@ linktitle: SetTransitionEvaluation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetTransitionEvaluation method. Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled in C++.'
 type: docs
-weight: 5800
+weight: 5900
 url: /cpp/aspose.cells/worksheet/settransitionevaluation/
 ---
 ## Worksheet::SetTransitionEvaluation method

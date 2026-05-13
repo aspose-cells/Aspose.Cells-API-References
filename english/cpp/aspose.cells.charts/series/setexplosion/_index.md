@@ -4,7 +4,7 @@ linktitle: SetExplosion
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetExplosion method. The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter in C++.'
 type: docs
-weight: 8000
+weight: 8400
 url: /cpp/aspose.cells.charts/series/setexplosion/
 ---
 ## Series::SetExplosion method

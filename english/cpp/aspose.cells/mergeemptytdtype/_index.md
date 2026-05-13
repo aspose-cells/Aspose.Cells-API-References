@@ -4,7 +4,7 @@ linktitle: MergeEmptyTdType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MergeEmptyTdType enum. Represents the merge type for an empty TD element when exporting a file to HTML in C++.'
 type: docs
-weight: 23700
+weight: 24100
 url: /cpp/aspose.cells/mergeemptytdtype/
 ---
 ## MergeEmptyTdType enum

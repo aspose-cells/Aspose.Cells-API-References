@@ -26,13 +26,15 @@ class ChartCollection
 | [Add(ChartType type, const U16String\& dataRange, bool isVertical, int32_t topRow, int32_t leftColumn, int32_t rightRow, int32_t bottomColumn)](./add/) | Adds a chart to the collection. |
 | [Add(ChartType type, const char16_t* dataRange, bool isVertical, int32_t topRow, int32_t leftColumn, int32_t rightRow, int32_t bottomColumn)](./add/) | Adds a chart to the collection. |
 | [AddFloatingChart(ChartType type, int32_t left, int32_t top, int32_t width, int32_t height)](./addfloatingchart/) | Adds a chart to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ChartCollection](./). |
 | [ChartCollection(ChartCollection_Impl* impl)](./chartcollection/) | Constructs from an implementation object. |
 | [ChartCollection(const ChartCollection\& src)](./chartcollection/) | Copy constructor. |
 | [Clear()](./clear/) | Clear all charts. |
+| [end()](./end/) | Returns an iterator to the end of the [ChartCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Chart](../chart/) element at the specified index. |
 | [Get(const U16String\& name)](./get/) | Gets the chart by the name. |
 | [Get(const char16_t* name)](./get/) | Gets the chart by the name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ChartCollection\& src)](./operator_asm/) | operator= |

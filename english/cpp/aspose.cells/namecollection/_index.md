@@ -4,7 +4,7 @@ linktitle: NameCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NameCollection class. Represents a collection of all the Name objects in the spreadsheet in C++.'
 type: docs
-weight: 10600
+weight: 10700
 url: /cpp/aspose.cells/namecollection/
 ---
 ## NameCollection class
@@ -22,12 +22,14 @@ class NameCollection
 | --- | --- |
 | [Add(const U16String\& text)](./add/) | Defines a new name. |
 | [Add(const char16_t* text)](./add/) | Defines a new name. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [NameCollection](./). |
 | [Clear()](./clear/) | Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred, we only set Name.ReferTo as null and hide them. |
+| [end()](./end/) | Returns an iterator to the end of the [NameCollection](./). |
 | [Filter(NameScopeType type, int32_t sheetIndex)](./filter/) | Gets all defined name by scope. |
 | [Get(int32_t index)](./get/) | Gets the [Name](../name/) element at the specified index. |
 | [Get(const U16String\& text)](./get/) | Gets the [Name](../name/) element with the specified name. |
 | [Get(const char16_t* text)](./get/) | Gets the [Name](../name/) element with the specified name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [NameCollection(NameCollection_Impl* impl)](./namecollection/) | Constructs from an implementation object. |
 | [NameCollection(const NameCollection\& src)](./namecollection/) | Copy constructor. |

@@ -66,7 +66,7 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](./isautotext/) | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [IsDeleted()](./isdeleted/) | Indicates whether this data labels are deleted. |
+| [IsDeleted()](./isdeleted/) | Indicates whether this data label is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsResizeShapeToFitText()](./isresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
@@ -83,7 +83,7 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](./setisautotext/) | Indicates the text is auto generated. |
-| [SetIsDeleted(bool value)](./setisdeleted/) | Indicates whether this data labels are deleted. |
+| [SetIsDeleted(bool value)](./setisdeleted/) | Indicates whether this data label is deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [SetIsResizeShapeToFitText(bool value)](./setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |

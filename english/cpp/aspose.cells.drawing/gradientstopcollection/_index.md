@@ -22,8 +22,10 @@ class GradientStopCollection
 | --- | --- |
 | [Add(double position, const CellsColor\& color, int32_t alpha)](./add/) | Add a gradient stop. |
 | [Add(double position, const Aspose::Cells::Color\& color, int32_t alpha)](./add/) | Add a gradient stop. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [GradientStopCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [GradientStopCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the gradient stop by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GradientStopCollection(GradientStopCollection_Impl* impl)](./gradientstopcollection/) | Constructs from an implementation object. |
 | [GradientStopCollection(const GradientStopCollection\& src)](./gradientstopcollection/) | Copy constructor. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

@@ -4,7 +4,7 @@ linktitle: GetInnerArcEndPointXPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetInnerArcEndPointXPx method. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart in C++.'
 type: docs
-weight: 3800
+weight: 4300
 url: /cpp/aspose.cells.charts/chartpoint/getinnerarcendpointxpx/
 ---
 ## ChartPoint::GetInnerArcEndPointXPx method

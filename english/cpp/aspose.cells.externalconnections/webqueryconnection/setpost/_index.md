@@ -4,7 +4,7 @@ linktitle: SetPost
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetPost method. Returns or sets the string used with the post method of inputting data into a web server to return data from a web query in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/setpost/
 ---
 ## WebQueryConnection::SetPost(const U16String\&) method

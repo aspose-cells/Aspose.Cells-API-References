@@ -4,7 +4,7 @@ linktitle: GetDefaultHeightRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultHeightRatioToChart method. Represents height of default position in units of Fraction of the chart area in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells.charts/chartframe/getdefaultheightratiotochart/
 ---
 ## ChartFrame::GetDefaultHeightRatioToChart method

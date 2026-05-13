@@ -4,7 +4,7 @@ linktitle: IsValuesField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::IsValuesField method. Indicates whether this field represents values field in C++.'
 type: docs
-weight: 2000
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivotfield/isvaluesfield/
 ---
 ## PivotField::IsValuesField method

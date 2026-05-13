@@ -4,7 +4,7 @@ linktitle: GetFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels::GetFont method. Gets the font of the DataLabels; in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells.charts/datalabels/getfont/
 ---
 ## DataLabels::GetFont method

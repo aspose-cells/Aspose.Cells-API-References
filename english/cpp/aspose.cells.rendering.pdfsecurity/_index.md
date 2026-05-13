@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Rendering::PdfSecurity
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Rendering::PdfSecurity namespace in C++.'
 type: docs
-weight: 1800
+weight: 2300
 url: /cpp/aspose.cells.rendering.pdfsecurity/
 ---
 

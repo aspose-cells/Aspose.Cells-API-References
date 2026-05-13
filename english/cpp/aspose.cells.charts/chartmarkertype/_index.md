@@ -4,7 +4,7 @@ linktitle: ChartMarkerType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartMarkerType enum. Represents the marker style in a line chart, scatter chart, or radar chart in C++.'
 type: docs
-weight: 4300
+weight: 4500
 url: /cpp/aspose.cells.charts/chartmarkertype/
 ---
 ## ChartMarkerType enum

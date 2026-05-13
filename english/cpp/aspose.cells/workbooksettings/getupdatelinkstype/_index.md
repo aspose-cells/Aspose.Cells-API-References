@@ -4,7 +4,7 @@ linktitle: GetUpdateLinksType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetUpdateLinksType method. Gets and sets how updates external links when the workbook is opened in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells/workbooksettings/getupdatelinkstype/
 ---
 ## WorkbookSettings::GetUpdateLinksType method

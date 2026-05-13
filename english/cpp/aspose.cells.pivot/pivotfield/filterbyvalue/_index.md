@@ -4,7 +4,7 @@ linktitle: FilterByValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::FilterByValue method. Filters by values of data pivot field in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.pivot/pivotfield/filterbyvalue/
 ---
 ## PivotField::FilterByValue method

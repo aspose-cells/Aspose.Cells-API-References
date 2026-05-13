@@ -4,7 +4,7 @@ linktitle: RowCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RowCollection class. Collects the Row objects that represent the individual rows in a worksheet in C++.'
 type: docs
-weight: 13100
+weight: 13300
 url: /cpp/aspose.cells/rowcollection/
 ---
 ## RowCollection class
@@ -20,7 +20,9 @@ class RowCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [RowCollection](./). |
 | [Clear()](./clear/) | Clear all rows and cells. |
+| [end()](./end/) | Returns an iterator to the end of the [RowCollection](./). |
 | [Get(int32_t rowIndex)](./get/) | Gets a [Row](../row/) object by given row index. The [Row](../row/) object of given row index will be instantiated if it does not exist before. |
 | [GetCount()](./getcount/) | Gets the number of rows in this collection. |
 | [GetEnumerator()](./getenumerator/) | Gets an enumerator that iterates rows through this collection. |

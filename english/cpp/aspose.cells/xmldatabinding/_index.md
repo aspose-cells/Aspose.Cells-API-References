@@ -4,7 +4,7 @@ linktitle: XmlDataBinding
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlDataBinding class. Represents Xml Data Binding information in C++.'
 type: docs
-weight: 17100
+weight: 17200
 url: /cpp/aspose.cells/xmldatabinding/
 ---
 ## XmlDataBinding class

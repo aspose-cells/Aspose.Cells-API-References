@@ -2,7 +2,7 @@
 title: Aspose::Cells::Revisions::RevisionCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetCount method of Aspose::Cells::Revisions::RevisionCollection class in C++.'
+description: 'Aspose::Cells::Revisions::RevisionCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.revisions/revisioncollection/getcount/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.revisions/revisioncollection/getcount/
 ## RevisionCollection::GetCount method
 
 
-
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::Revisions::RevisionCollection::GetCount()

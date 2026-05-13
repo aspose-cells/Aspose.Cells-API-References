@@ -4,7 +4,7 @@ linktitle: GetSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetSubtotals method. Indicates whether to show specified subtotal for this pivot field in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.cells.pivot/pivotfield/getsubtotals/
 ---
 ## PivotField::GetSubtotals method

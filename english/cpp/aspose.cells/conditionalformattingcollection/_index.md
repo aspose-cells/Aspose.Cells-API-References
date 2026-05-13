@@ -21,11 +21,13 @@ class ConditionalFormattingCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds a FormatConditions to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ConditionalFormattingCollection](./). |
 | [ConditionalFormattingCollection(ConditionalFormattingCollection_Impl* impl)](./conditionalformattingcollection/) | Constructs from an implementation object. |
 | [ConditionalFormattingCollection(const ConditionalFormattingCollection\& src)](./conditionalformattingcollection/) | Copy constructor. |
 | [Copy(const ConditionalFormattingCollection\& cfs)](./copy/) | Copies conditional formatting. |
+| [end()](./end/) | Returns an iterator to the end of the [ConditionalFormattingCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the FormatConditions element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConditionalFormattingCollection\& src)](./operator_asm/) | operator= |

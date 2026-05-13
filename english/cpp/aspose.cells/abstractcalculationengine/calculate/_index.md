@@ -4,7 +4,7 @@ linktitle: Calculate
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractCalculationEngine::Calculate method. Calculates one function with given data in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.cells/abstractcalculationengine/calculate/
 ---
 ## AbstractCalculationEngine::Calculate method

@@ -20,12 +20,14 @@ class DataModelTableCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [DataModelTableCollection](./). |
 | [DataModelTableCollection(DataModelTableCollection_Impl* impl)](./datamodeltablecollection/) | Constructs from an implementation object. |
 | [DataModelTableCollection(const DataModelTableCollection\& src)](./datamodeltablecollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [DataModelTableCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the data model table by position of the collection. |
 | [Get(const U16String\& name)](./get/) | Gets the data model table by the name. |
 | [Get(const char16_t* name)](./get/) | Gets the data model table by the name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DataModelTableCollection\& src)](./operator_asm/) | operator= |

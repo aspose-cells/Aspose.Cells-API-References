@@ -4,7 +4,7 @@ linktitle: GetSeparatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels::GetSeparatorType method. Gets or sets the separator type used for the data labels on a chart in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells.charts/datalabels/getseparatortype/
 ---
 ## DataLabels::GetSeparatorType method

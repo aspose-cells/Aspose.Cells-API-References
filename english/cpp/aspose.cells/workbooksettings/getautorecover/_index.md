@@ -4,7 +4,7 @@ linktitle: GetAutoRecover
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetAutoRecover method. Indicates whether the file is marked for auto-recovery in C++.'
 type: docs
-weight: 9600
+weight: 9900
 url: /cpp/aspose.cells/workbooksettings/getautorecover/
 ---
 ## WorkbookSettings::GetAutoRecover method

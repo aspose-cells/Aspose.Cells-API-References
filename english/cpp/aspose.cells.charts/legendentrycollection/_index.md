@@ -4,7 +4,7 @@ linktitle: LegendEntryCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::LegendEntryCollection class. Represents a collection of all the LegendEntry objects in the specified chart legend in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class
@@ -20,8 +20,10 @@ class LegendEntryCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [LegendEntryCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [LegendEntryCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [LegendEntry](../legendentry/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [LegendEntryCollection(LegendEntryCollection_Impl* impl)](./legendentrycollection/) | Constructs from an implementation object. |
 | [LegendEntryCollection(const LegendEntryCollection\& src)](./legendentrycollection/) | Copy constructor. |

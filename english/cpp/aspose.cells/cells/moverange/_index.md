@@ -4,7 +4,7 @@ linktitle: MoveRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::MoveRange method. Moves the range in C++.'
 type: docs
-weight: 13100
+weight: 13300
 url: /cpp/aspose.cells/cells/moverange/
 ---
 ## Cells::MoveRange method

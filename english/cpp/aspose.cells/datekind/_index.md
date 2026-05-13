@@ -4,7 +4,7 @@ linktitle: DateKind
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateKind enum. Specifies whether a Date object represents a local time, a Coordinated UTC Time (UTC), or is not specified as either local time or UTC in C++.'
 type: docs
-weight: 20000
+weight: 20100
 url: /cpp/aspose.cells/datekind/
 ---
 ## DateKind enum

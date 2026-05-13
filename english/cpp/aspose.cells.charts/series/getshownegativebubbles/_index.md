@@ -4,7 +4,7 @@ linktitle: GetShowNegativeBubbles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetShowNegativeBubbles method. True if negative bubbles are shown for the chart group. Valid only for bubble charts in C++.'
 type: docs
-weight: 7500
+weight: 7900
 url: /cpp/aspose.cells.charts/series/getshownegativebubbles/
 ---
 ## Series::GetShowNegativeBubbles method

@@ -4,7 +4,7 @@ linktitle: GetUrl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::GetUrl method. URL to use to refresh external data in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/geturl/
 ---
 ## WebQueryConnection::GetUrl method

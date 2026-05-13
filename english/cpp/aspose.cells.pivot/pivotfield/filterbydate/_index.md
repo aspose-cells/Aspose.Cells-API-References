@@ -4,7 +4,7 @@ linktitle: FilterByDate
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::FilterByDate method. Filters by date values of row or column pivot field in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells.pivot/pivotfield/filterbydate/
 ---
 ## PivotField::FilterByDate method

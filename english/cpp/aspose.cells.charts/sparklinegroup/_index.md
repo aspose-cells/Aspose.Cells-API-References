@@ -76,7 +76,9 @@ class SparklineGroup
 | [SetShowNegativePoints(bool value)](./setshownegativepoints/) | Indicates whether to highlight the negative values on the sparkline group with a different color or marker. |
 | [SetType(SparklineType value)](./settype/) | Indicates the sparkline type of the sparkline group. |
 | [SetVerticalAxisMaxValue(double value)](./setverticalaxismaxvalue/) | Gets and sets the custom maximum value for the vertical axis. |
+| [SetVerticalAxisMaxValue(SparklineAxisMinMaxType type, double value)](./setverticalaxismaxvalue/) | Sets the custom maximum value for the sparkline vertical axis with the specified axis value type. |
 | [SetVerticalAxisMaxValueType(SparklineAxisMinMaxType value)](./setverticalaxismaxvaluetype/) | Represents the vertical axis maximum value type. |
+| [SetVerticalAxisMinValue(SparklineAxisMinMaxType type, double value)](./setverticalaxisminvalue/) | Sets the custom minimum value for the sparkline vertical axis with the specified axis value type. |
 | [SetVerticalAxisMinValue(double value)](./setverticalaxisminvalue/) | Gets and sets the custom minimum value for the vertical axis. |
 | [SetVerticalAxisMinValueType(SparklineAxisMinMaxType value)](./setverticalaxisminvaluetype/) | Represents the vertical axis minimum value type. |
 | [SparklineGroup(SparklineGroup_Impl* impl)](./sparklinegroup/) | Constructs from an implementation object. |

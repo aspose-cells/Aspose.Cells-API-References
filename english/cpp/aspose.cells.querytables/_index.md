@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::QueryTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::QueryTables namespace in C++.'
 type: docs
-weight: 1700
+weight: 2100
 url: /cpp/aspose.cells.querytables/
 ---
 

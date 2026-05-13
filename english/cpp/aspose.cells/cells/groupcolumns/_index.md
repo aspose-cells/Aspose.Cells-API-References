@@ -4,7 +4,7 @@ linktitle: GroupColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GroupColumns method. Groups columns in C++.'
 type: docs
-weight: 10500
+weight: 10700
 url: /cpp/aspose.cells/cells/groupcolumns/
 ---
 ## Cells::GroupColumns(int32_t, int32_t) method

@@ -24,8 +24,10 @@ class MultipleFilterCollection
 | [Add(const char16_t* filter)](./add/) | Adds a label filter criteria. |
 | [Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day)](./add/) | Adds a date filter criteria value. |
 | [Add(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second)](./add/) | Adds a date time filter criteria value. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [MultipleFilterCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [MultipleFilterCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [MultipleFilterCollection()](./multiplefiltercollection/) | Constructs one new instance. |

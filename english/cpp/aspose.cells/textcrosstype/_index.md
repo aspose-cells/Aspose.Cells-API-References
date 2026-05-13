@@ -4,7 +4,7 @@ linktitle: TextCrossType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextCrossType enum. Enumerates displaying text type when the text width is larger than cell width in C++.'
 type: docs
-weight: 26900
+weight: 27400
 url: /cpp/aspose.cells/textcrosstype/
 ---
 ## TextCrossType enum

@@ -4,7 +4,7 @@ linktitle: GetUpdateAdjacentCellsBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetUpdateAdjacentCellsBorder method. Indicates whether update adjacent cells'' border in C++.'
 type: docs
-weight: 8800
+weight: 9100
 url: /cpp/aspose.cells/workbooksettings/getupdateadjacentcellsborder/
 ---
 ## WorkbookSettings::GetUpdateAdjacentCellsBorder method

@@ -27,14 +27,16 @@ class CommentCollection
 | [AddThreadedComment(int32_t row, int32_t column, const char16_t* text, const ThreadedCommentAuthor\& author)](./addthreadedcomment/) | Adds a threaded comment. |
 | [AddThreadedComment(const U16String\& cellName, const U16String\& text, const ThreadedCommentAuthor\& author)](./addthreadedcomment/) | Adds a threaded comment. |
 | [AddThreadedComment(const char16_t* cellName, const char16_t* text, const ThreadedCommentAuthor\& author)](./addthreadedcomment/) | Adds a threaded comment. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CommentCollection](./). |
 | [Clear()](./clear/) | Removes all comments;. |
 | [CommentCollection(CommentCollection_Impl* impl)](./commentcollection/) | Constructs from an implementation object. |
 | [CommentCollection(const CommentCollection\& src)](./commentcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CommentCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Comment](../comment/) element at the specified index. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [Comment](../comment/) element at the specified cell. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [Comment](../comment/) element at the specified cell. |
 | [Get(int32_t row, int32_t column)](./get/) | Gets the [Comment](../comment/) element at the specified row index and column index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetThreadedComments(int32_t row, int32_t column)](./getthreadedcomments/) | Gets the threaded comments by row and column index. |
 | [GetThreadedComments(const U16String\& cellName)](./getthreadedcomments/) | Gets the threaded comments by cell name. |
 | [GetThreadedComments(const char16_t* cellName)](./getthreadedcomments/) | Gets the threaded comments by cell name. |

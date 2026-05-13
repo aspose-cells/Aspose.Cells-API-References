@@ -4,7 +4,7 @@ linktitle: FormatConditionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FormatConditionType enum. Conditional format rule type in C++.'
 type: docs
-weight: 21900
+weight: 22200
 url: /cpp/aspose.cells/formatconditiontype/
 ---
 ## FormatConditionType enum

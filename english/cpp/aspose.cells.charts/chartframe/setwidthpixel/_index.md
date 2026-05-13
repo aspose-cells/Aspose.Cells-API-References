@@ -4,7 +4,7 @@ linktitle: SetWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetWidthPixel method. Gets or sets the width of frame in units of Pixel in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells.charts/chartframe/setwidthpixel/
 ---
 ## ChartFrame::SetWidthPixel method

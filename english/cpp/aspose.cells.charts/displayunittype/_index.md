@@ -4,7 +4,7 @@ linktitle: DisplayUnitType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DisplayUnitType enum. Represents the type of display unit of chart''s axis in C++.'
 type: docs
-weight: 4900
+weight: 5100
 url: /cpp/aspose.cells.charts/displayunittype/
 ---
 ## DisplayUnitType enum

@@ -4,7 +4,7 @@ linktitle: GetDataLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetDataLabels method. Represents the DataLabels object for the specified ASeries in C++.'
 type: docs
-weight: 3500
+weight: 3900
 url: /cpp/aspose.cells.charts/series/getdatalabels/
 ---
 ## Series::GetDataLabels method

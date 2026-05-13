@@ -4,7 +4,7 @@ linktitle: UnionRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange class. Represents union range in C++.'
 type: docs
-weight: 15600
+weight: 15800
 url: /cpp/aspose.cells/unionrange/
 ---
 ## UnionRange class
@@ -21,7 +21,9 @@ class UnionRange
 | Method | Description |
 | --- | --- |
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole range. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [UnionRange](./). |
 | [Copy(const UnionRange\& range, const PasteOptions\& options)](./copy/) | Copying the range with paste special options. |
+| [end()](./end/) | Returns an iterator to the end of the [UnionRange](./). |
 | [GetCellCount()](./getcellcount/) | Gets all cell count in the range. |
 | [GetColumnCount()](./getcolumncount/) | Gets the count of rows in the range. |
 | [GetEnumerator()](./getenumerator/) | Gets the enumerator for cells in this [Range](../range/). |

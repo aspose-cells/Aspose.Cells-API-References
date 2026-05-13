@@ -19,7 +19,7 @@ bool Aspose::Cells::Pivot::PivotItem::IsMissing()
 ## Remarks
 
 
-True means this value has benn removed from the data source. 
+True means this value has been removed from the data source. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

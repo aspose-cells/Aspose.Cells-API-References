@@ -22,9 +22,11 @@ class SmartTagCollection
 | --- | --- |
 | [Add(const U16String\& uri, const U16String\& name)](./add/) | Adds a smart tag. |
 | [Add(const char16_t* uri, const char16_t* name)](./add/) | Adds a smart tag. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [SmartTagCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [SmartTagCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a [SmartTag](../smarttag/) object at the specific index. |
 | [GetColumn()](./getcolumn/) | Gets the column of the cell smart tags. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetRow()](./getrow/) | Gets the row of the cell smart tags. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

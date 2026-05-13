@@ -4,7 +4,7 @@ linktitle: ChartSplitType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartSplitType enum. Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells.charts/chartsplittype/
 ---
 ## ChartSplitType enum

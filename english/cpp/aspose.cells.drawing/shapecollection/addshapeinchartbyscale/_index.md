@@ -4,7 +4,7 @@ linktitle: AddShapeInChartByScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddShapeInChartByScale method. Add a shape to chart. All unit is percent scale of chart area in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells.drawing/shapecollection/addshapeinchartbyscale/
 ---
 ## ShapeCollection::AddShapeInChartByScale(MsoDrawingType, PlacementType, double, double, double, double) method

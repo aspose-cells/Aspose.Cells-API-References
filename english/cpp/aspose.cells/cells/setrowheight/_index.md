@@ -4,7 +4,7 @@ linktitle: SetRowHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetRowHeight method. Sets the height of the specified row in C++.'
 type: docs
-weight: 5600
+weight: 5800
 url: /cpp/aspose.cells/cells/setrowheight/
 ---
 ## Cells::SetRowHeight method

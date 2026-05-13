@@ -4,7 +4,7 @@ linktitle: ShiftType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ShiftType enum. Represent the shift options when deleting a range of cells in C++.'
 type: docs
-weight: 26200
+weight: 26600
 url: /cpp/aspose.cells/shifttype/
 ---
 ## ShiftType enum

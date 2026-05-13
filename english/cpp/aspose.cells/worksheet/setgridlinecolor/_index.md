@@ -4,7 +4,7 @@ linktitle: SetGridlineColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetGridlineColor method. Gets and sets the color of gridline in C++.'
 type: docs
-weight: 10500
+weight: 10700
 url: /cpp/aspose.cells/worksheet/setgridlinecolor/
 ---
 ## Worksheet::SetGridlineColor method

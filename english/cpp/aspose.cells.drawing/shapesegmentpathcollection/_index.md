@@ -21,8 +21,10 @@ class ShapeSegmentPathCollection
 | Method | Description |
 | --- | --- |
 | [Add(ShapePathType type)](./add/) | Add a segment path in creation path. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ShapeSegmentPathCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ShapeSegmentPathCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [ShapeSegmentPath](../shapesegmentpath/) object. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ShapeSegmentPathCollection\& src)](./operator_asm/) | operator= |

@@ -4,7 +4,7 @@ linktitle: ExportArray
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ExportArray method. Exports data in the Cells collection to a two-dimension array object in C++.'
 type: docs
-weight: 13500
+weight: 13700
 url: /cpp/aspose.cells/cells/exportarray/
 ---
 ## Cells::ExportArray method

@@ -4,7 +4,7 @@ linktitle: AddLabelInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddLabelInChart method. Adds a label to the chart in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.drawing/shapecollection/addlabelinchart/
 ---
 ## ShapeCollection::AddLabelInChart method

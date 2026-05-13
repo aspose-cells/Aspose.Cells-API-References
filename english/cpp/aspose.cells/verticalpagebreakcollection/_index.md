@@ -4,7 +4,7 @@ linktitle: VerticalPageBreakCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::VerticalPageBreakCollection class. Encapsulates a collection of VerticalPageBreak objects in C++.'
 type: docs
-weight: 16100
+weight: 16300
 url: /cpp/aspose.cells/verticalpagebreakcollection/
 ---
 ## VerticalPageBreakCollection class
@@ -25,10 +25,12 @@ class VerticalPageBreakCollection
 | [Add(int32_t row, int32_t column)](./add/) | Adds a vertical page break to the collection. |
 | [Add(const U16String\& cellName)](./add/) | Adds a vertical page break to the collection. |
 | [Add(const char16_t* cellName)](./add/) | Adds a vertical page break to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [VerticalPageBreakCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [VerticalPageBreakCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [VerticalPageBreak](../verticalpagebreak/) element at the specified index. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [VerticalPageBreak](../verticalpagebreak/) element with the specified cell name. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [VerticalPageBreak](../verticalpagebreak/) element with the specified cell name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const VerticalPageBreakCollection\& src)](./operator_asm/) | operator= |

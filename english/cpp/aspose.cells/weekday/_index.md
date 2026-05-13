@@ -4,7 +4,7 @@ linktitle: Weekday
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Weekday enum. Specifies the day of the week in C++.'
 type: docs
-weight: 19900
+weight: 20000
 url: /cpp/aspose.cells/weekday/
 ---
 ## Weekday enum

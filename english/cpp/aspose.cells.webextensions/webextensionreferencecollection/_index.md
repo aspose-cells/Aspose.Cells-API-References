@@ -21,8 +21,10 @@ class WebExtensionReferenceCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds an empty reference of web extension. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionReferenceCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionReferenceCollection](./). |
 | [Get(int32_t index)](./get/) | Gets web extension by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WebExtensionReferenceCollection\& src)](./operator_asm/) | operator= |

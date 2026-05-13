@@ -24,7 +24,7 @@ class SeriesLayoutProperties
 | [GetMapChartRegionType()](./getmapchartregiontype/) | Gets and sets the region type of the map. |
 | [GetMapLabelLayout()](./getmaplabellayout/) | Gets and sets the layout of map labels. |
 | [GetQuartileCalculation()](./getquartilecalculation/) | Represents the statistical properties for the series. |
-| [GetShowConnectorLines()](./getshowconnectorlines/) | Indicates whether connector lines are shown between data points. |
+| [GetShowConnectorLines()](./getshowconnectorlines/) | Indicates whether connector lines are displayed between data points. |
 | [GetShowInnerPoints()](./getshowinnerpoints/) | Indicates whether to show non-outlier data points. |
 | [GetShowMeanLine()](./getshowmeanline/) | Indicates whether to show the line connecting all mean points. |
 | [GetShowMeanMarker()](./getshowmeanmarker/) | Indicates whether markers denoting the mean are shown. |
@@ -42,7 +42,7 @@ class SeriesLayoutProperties
 | [SetMapChartRegionType(MapChartRegionType value)](./setmapchartregiontype/) | Gets and sets the region type of the map. |
 | [SetMapLabelLayout(MapChartLabelLayout value)](./setmaplabellayout/) | Gets and sets the layout of map labels. |
 | [SetQuartileCalculation(QuartileCalculationType value)](./setquartilecalculation/) | Represents the statistical properties for the series. |
-| [SetShowConnectorLines(bool value)](./setshowconnectorlines/) | Indicates whether connector lines are shown between data points. |
+| [SetShowConnectorLines(bool value)](./setshowconnectorlines/) | Indicates whether connector lines are displayed between data points. |
 | [SetShowInnerPoints(bool value)](./setshowinnerpoints/) | Indicates whether to show non-outlier data points. |
 | [SetShowMeanLine(bool value)](./setshowmeanline/) | Indicates whether to show the line connecting all mean points. |
 | [SetShowMeanMarker(bool value)](./setshowmeanmarker/) | Indicates whether markers denoting the mean are shown. |

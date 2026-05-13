@@ -4,7 +4,7 @@ linktitle: SetWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetWidth method. Gets or sets the width of frame in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.cells.charts/chartframe/setwidth/
 ---
 ## ChartFrame::SetWidth method

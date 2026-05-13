@@ -4,7 +4,7 @@ linktitle: TextTabStopCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextTabStopCollection class. Represents the list of all tab stops in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.drawing.texts/texttabstopcollection/
 ---
 ## TextTabStopCollection class
@@ -21,8 +21,10 @@ class TextTabStopCollection
 | Method | Description |
 | --- | --- |
 | [Add(TextTabAlignmentType tabAlignment, double tabPosition)](./add/) | Adds a tab stop. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TextTabStopCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TextTabStopCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [TextTabStop](../texttabstop/) by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TextTabStopCollection\& src)](./operator_asm/) | operator= |

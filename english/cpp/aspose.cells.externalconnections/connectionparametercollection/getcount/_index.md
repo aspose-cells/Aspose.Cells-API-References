@@ -2,15 +2,15 @@
 title: Aspose::Cells::ExternalConnections::ConnectionParameterCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetCount method of Aspose::Cells::ExternalConnections::ConnectionParameterCollection class in C++.'
+description: 'Aspose::Cells::ExternalConnections::ConnectionParameterCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 800
+weight: 700
 url: /cpp/aspose.cells.externalconnections/connectionparametercollection/getcount/
 ---
 ## ConnectionParameterCollection::GetCount method
 
 
-
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::ExternalConnections::ConnectionParameterCollection::GetCount()

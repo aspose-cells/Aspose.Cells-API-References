@@ -31,8 +31,10 @@ class HtmlTableLoadOptionCollection
 | [Add(const U16String\& tableId, int32_t targetSheetIndex, int32_t originalSheetIndex)](./add/) | Add a [HtmlTableLoadOption](../htmltableloadoption/) to the list. |
 | [Add(const char16_t* tableId, int32_t targetSheetIndex, int32_t originalSheetIndex)](./add/) | Add a [HtmlTableLoadOption](../htmltableloadoption/) to the list. |
 | [AddTableLoadOption(const HtmlTableLoadOption\& item)](./addtableloadoption/) | Adds one [HtmlTableLoadOption](../htmltableloadoption/) into this collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [HtmlTableLoadOptionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [HtmlTableLoadOptionCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [HtmlTableLoadOption](../htmltableloadoption/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetTableToListObject()](./gettabletolistobject/) | Indicates whether generate list objects from imported tables. The default value is false. |
 | [HtmlTableLoadOptionCollection()](./htmltableloadoptioncollection/) | Default constructor. |
 | [HtmlTableLoadOptionCollection(HtmlTableLoadOptionCollection_Impl* impl)](./htmltableloadoptioncollection/) | Constructs from an implementation object. |

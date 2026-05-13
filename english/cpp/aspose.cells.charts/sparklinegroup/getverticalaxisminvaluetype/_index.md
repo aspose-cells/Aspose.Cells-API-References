@@ -4,7 +4,7 @@ linktitle: GetVerticalAxisMinValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineGroup::GetVerticalAxisMinValueType method. Represents the vertical axis minimum value type in C++.'
 type: docs
-weight: 5600
+weight: 5700
 url: /cpp/aspose.cells.charts/sparklinegroup/getverticalaxisminvaluetype/
 ---
 ## SparklineGroup::GetVerticalAxisMinValueType method

@@ -23,10 +23,12 @@ class SparklineGroupCollection
 | [Add(SparklineType type)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection. |
 | [Add(SparklineType type, const U16String\& dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with some [Sparkline](../sparkline/) to the collection. |
 | [Add(SparklineType type, const char16_t* dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with some [Sparkline](../sparkline/) to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [SparklineGroupCollection](./). |
 | [ClearSparklineGroups(const CellArea\& cellArea)](./clearsparklinegroups/) | Clears the sparkline groups that overlap an area of cells. |
 | [ClearSparklines(const CellArea\& cellArea)](./clearsparklines/) | Clears the sparklines that are inside an area of cells. |
+| [end()](./end/) | Returns an iterator to the end of the [SparklineGroupCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [SparklineGroup](../sparklinegroup/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SparklineGroupCollection\& src)](./operator_asm/) | operator= |

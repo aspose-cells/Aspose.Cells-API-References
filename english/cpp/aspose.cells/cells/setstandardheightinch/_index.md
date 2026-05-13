@@ -4,7 +4,7 @@ linktitle: SetStandardHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetStandardHeightInch method. Gets or sets the default row height in this worksheet, in unit of inches in C++.'
 type: docs
-weight: 4100
+weight: 4300
 url: /cpp/aspose.cells/cells/setstandardheightinch/
 ---
 ## Cells::SetStandardHeightInch method

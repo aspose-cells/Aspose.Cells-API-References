@@ -4,7 +4,7 @@ linktitle: GetY
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetY method. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells.charts/chartframe/gety/
 ---
 ## ChartFrame::GetY method

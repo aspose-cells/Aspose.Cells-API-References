@@ -4,7 +4,7 @@ linktitle: CrossType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::CrossType enum. Represents the axis cross type in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells.charts/crosstype/
 ---
 ## CrossType enum

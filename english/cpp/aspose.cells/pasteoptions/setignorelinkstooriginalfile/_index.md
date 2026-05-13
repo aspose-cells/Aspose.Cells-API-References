@@ -4,7 +4,7 @@ linktitle: SetIgnoreLinksToOriginalFile
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetIgnoreLinksToOriginalFile method. Ingore links to the original file in C++.'
 type: docs
-weight: 1700
+weight: 2100
 url: /cpp/aspose.cells/pasteoptions/setignorelinkstooriginalfile/
 ---
 ## PasteOptions::SetIgnoreLinksToOriginalFile method

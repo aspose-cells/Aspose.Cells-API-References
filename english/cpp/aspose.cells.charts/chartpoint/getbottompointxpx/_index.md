@@ -4,7 +4,7 @@ linktitle: GetBottomPointXPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetBottomPointXPx method. Gets x-coordinate of the bottom point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid in C++.'
 type: docs
-weight: 4400
+weight: 4900
 url: /cpp/aspose.cells.charts/chartpoint/getbottompointxpx/
 ---
 ## ChartPoint::GetBottomPointXPx method

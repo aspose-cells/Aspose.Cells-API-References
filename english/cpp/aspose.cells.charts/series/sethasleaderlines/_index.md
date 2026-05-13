@@ -4,7 +4,7 @@ linktitle: SetHasLeaderLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetHasLeaderLines method. True if the series has leader lines in C++.'
 type: docs
-weight: 8400
+weight: 8800
 url: /cpp/aspose.cells.charts/series/sethasleaderlines/
 ---
 ## Series::SetHasLeaderLines method

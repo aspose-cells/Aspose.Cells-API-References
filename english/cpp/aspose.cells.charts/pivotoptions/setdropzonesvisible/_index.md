@@ -4,7 +4,7 @@ linktitle: SetDropZonesVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PivotOptions::SetDropZonesVisible method. Specifies whether any pivot controls can appear on the pivot chart in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.charts/pivotoptions/setdropzonesvisible/
 ---
 ## PivotOptions::SetDropZonesVisible method

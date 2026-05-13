@@ -4,7 +4,7 @@ linktitle: ValidationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ValidationType enum. Represents data validation type in C++.'
 type: docs
-weight: 27900
+weight: 28400
 url: /cpp/aspose.cells/validationtype/
 ---
 ## ValidationType enum

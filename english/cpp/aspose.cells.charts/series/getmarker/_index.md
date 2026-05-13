@@ -4,7 +4,7 @@ linktitle: GetMarker
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetMarker method. Gets the marker in C++.'
 type: docs
-weight: 3800
+weight: 4200
 url: /cpp/aspose.cells.charts/series/getmarker/
 ---
 ## Series::GetMarker method

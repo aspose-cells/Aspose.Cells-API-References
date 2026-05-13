@@ -4,7 +4,7 @@ linktitle: TrendlineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TrendlineType enum. Represents the trendline type in C++.'
 type: docs
-weight: 6800
+weight: 7000
 url: /cpp/aspose.cells.charts/trendlinetype/
 ---
 ## TrendlineType enum

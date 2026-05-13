@@ -4,7 +4,7 @@ linktitle: SetRowGrand
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetRowGrand method. Indicates whether to show grand totals for rows of this pivot table in C++.'
 type: docs
-weight: 4600
+weight: 5200
 url: /cpp/aspose.cells.pivot/pivottable/setrowgrand/
 ---
 ## PivotTable::SetRowGrand method

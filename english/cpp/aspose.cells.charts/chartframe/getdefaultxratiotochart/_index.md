@@ -4,7 +4,7 @@ linktitle: GetDefaultXRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultXRatioToChart method. Represents x of default position in units of Fraction of the chart area in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.charts/chartframe/getdefaultxratiotochart/
 ---
 ## ChartFrame::GetDefaultXRatioToChart method

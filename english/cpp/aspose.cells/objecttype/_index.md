@@ -4,7 +4,7 @@ linktitle: ObjectType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ObjectType enum. Represents the type of the object in C++.'
 type: docs
-weight: 24000
+weight: 24400
 url: /cpp/aspose.cells/objecttype/
 ---
 ## ObjectType enum

@@ -4,7 +4,7 @@ linktitle: GetSeparatorValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels::GetSeparatorValue method. Gets or sets the separator value used for the data labels on a chart in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells.charts/datalabels/getseparatorvalue/
 ---
 ## DataLabels::GetSeparatorValue method

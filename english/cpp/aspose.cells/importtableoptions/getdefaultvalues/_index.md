@@ -4,7 +4,7 @@ linktitle: GetDefaultValues
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::GetDefaultValues method. Default value for the value in the table is null in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.cells/importtableoptions/getdefaultvalues/
 ---
 ## ImportTableOptions::GetDefaultValues method

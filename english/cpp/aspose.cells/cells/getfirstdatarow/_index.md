@@ -4,7 +4,7 @@ linktitle: GetFirstDataRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetFirstDataRow method. Gets the first row index of cell which contains data in the specified column in C++.'
 type: docs
-weight: 8500
+weight: 8700
 url: /cpp/aspose.cells/cells/getfirstdatarow/
 ---
 ## Cells::GetFirstDataRow method

@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/worksheetcollection/refreshall/
 
 Refresh all pivot tables and charts with pivot source.
 
+
+>Deprecated
+>
+>Use Workbook.RefreshAll() method instead. 
 ```cpp
 void Aspose::Cells::WorksheetCollection::RefreshAll()
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead, please use [Workbook.RefreshAll()](../../workbook/refreshall/) method. This method will be removed 12 months later since April 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

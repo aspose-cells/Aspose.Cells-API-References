@@ -4,7 +4,7 @@ linktitle: PlotDataByType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PlotDataByType enum. Represents the type of data plot by row or column in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells.charts/plotdatabytype/
 ---
 ## PlotDataByType enum
@@ -20,7 +20,7 @@ enum class PlotDataByType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Row | 0 | <br>By row. |
+| Row | 0 | <br>Sorted by row. |
 | Column | 1 | <br>By column. |
 
 ## See Also

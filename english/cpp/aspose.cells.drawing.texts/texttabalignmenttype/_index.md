@@ -4,7 +4,7 @@ linktitle: TextTabAlignmentType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextTabAlignmentType enum. Represents the text tab alignment types in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells.drawing.texts/texttabalignmenttype/
 ---
 ## TextTabAlignmentType enum

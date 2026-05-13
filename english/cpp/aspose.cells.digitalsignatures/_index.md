@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::DigitalSignatures
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::DigitalSignatures namespace in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells.digitalsignatures/
 ---
 

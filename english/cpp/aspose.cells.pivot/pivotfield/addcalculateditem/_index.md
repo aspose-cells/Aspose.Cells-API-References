@@ -4,7 +4,7 @@ linktitle: AddCalculatedItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::AddCalculatedItem method. Add a calculated formula item to the pivot field in C++.'
 type: docs
-weight: 9500
+weight: 9700
 url: /cpp/aspose.cells.pivot/pivotfield/addcalculateditem/
 ---
 ## PivotField::AddCalculatedItem(const U16String\&, const U16String\&) method

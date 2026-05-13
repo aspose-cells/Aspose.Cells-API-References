@@ -4,7 +4,7 @@ linktitle: SetDiscardImageEditData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetDiscardImageEditData method. Indicates whether discarding editting image data in C++.'
 type: docs
-weight: 12200
+weight: 12500
 url: /cpp/aspose.cells/workbooksettings/setdiscardimageeditdata/
 ---
 ## WorkbookSettings::SetDiscardImageEditData method

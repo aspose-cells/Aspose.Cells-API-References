@@ -4,7 +4,7 @@ linktitle: SetIsRulerVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetIsRulerVisible method. Indicates whether the ruler is visible. This property is only applied for page break preview in C++.'
 type: docs
-weight: 10000
+weight: 10200
 url: /cpp/aspose.cells/worksheet/setisrulervisible/
 ---
 ## Worksheet::SetIsRulerVisible method

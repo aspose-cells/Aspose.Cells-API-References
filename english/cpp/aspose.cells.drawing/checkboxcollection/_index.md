@@ -21,10 +21,12 @@ class CheckBoxCollection
 | Method | Description |
 | --- | --- |
 | [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width)](./add/) | Adds a checkBox to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CheckBoxCollection](./). |
 | [CheckBoxCollection(CheckBoxCollection_Impl* impl)](./checkboxcollection/) | Constructs from an implementation object. |
 | [CheckBoxCollection(const CheckBoxCollection\& src)](./checkboxcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CheckBoxCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [CheckBox](../checkbox/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CheckBoxCollection\& src)](./operator_asm/) | operator= |

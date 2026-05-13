@@ -4,7 +4,7 @@ linktitle: DeleteShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::DeleteShape method. Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted in C++.'
 type: docs
-weight: 4500
+weight: 4600
 url: /cpp/aspose.cells.drawing/shapecollection/deleteshape/
 ---
 ## ShapeCollection::DeleteShape method

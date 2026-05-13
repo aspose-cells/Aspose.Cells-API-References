@@ -4,7 +4,7 @@ linktitle: GetOriginalHeightCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalHeightCM method. Gets the original height of picture, in unit of centimeters in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.cells.drawing/picture/getoriginalheightcm/
 ---
 ## Picture::GetOriginalHeightCM method

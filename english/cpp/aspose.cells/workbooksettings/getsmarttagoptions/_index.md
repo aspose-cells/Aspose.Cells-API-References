@@ -4,7 +4,7 @@ linktitle: GetSmartTagOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetSmartTagOptions method. Gets the options of the smart tag in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells/workbooksettings/getsmarttagoptions/
 ---
 ## WorkbookSettings::GetSmartTagOptions method

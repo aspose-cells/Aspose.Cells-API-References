@@ -4,7 +4,7 @@ linktitle: ViewType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ViewType enum. Represents the view type of the worksheet in C++.'
 type: docs
-weight: 28000
+weight: 28500
 url: /cpp/aspose.cells/viewtype/
 ---
 ## ViewType enum

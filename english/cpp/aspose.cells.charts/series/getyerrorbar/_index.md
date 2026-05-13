@@ -4,7 +4,7 @@ linktitle: GetYErrorBar
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetYErrorBar method. Represents Y direction error bar of the series in C++.'
 type: docs
-weight: 4200
+weight: 4600
 url: /cpp/aspose.cells.charts/series/getyerrorbar/
 ---
 ## Series::GetYErrorBar method

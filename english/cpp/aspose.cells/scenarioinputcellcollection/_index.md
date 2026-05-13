@@ -4,7 +4,7 @@ linktitle: ScenarioInputCellCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioInputCellCollection class. Represents the list of the scenario''s input cells in C++.'
 type: docs
-weight: 13600
+weight: 13800
 url: /cpp/aspose.cells/scenarioinputcellcollection/
 ---
 ## ScenarioInputCellCollection class
@@ -22,8 +22,10 @@ class ScenarioInputCellCollection
 | --- | --- |
 | [Add(int32_t row, int32_t column, const U16String\& value)](./add/) | Adds an input cell. |
 | [Add(int32_t row, int32_t column, const char16_t* value)](./add/) | Adds an input cell. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ScenarioInputCellCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ScenarioInputCellCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [ScenarioInputCell](../scenarioinputcell/) by index in the list. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ScenarioInputCellCollection\& src)](./operator_asm/) | operator= |

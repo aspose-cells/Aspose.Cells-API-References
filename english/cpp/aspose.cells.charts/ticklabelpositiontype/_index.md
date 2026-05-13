@@ -4,7 +4,7 @@ linktitle: TickLabelPositionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TickLabelPositionType enum. Represents the position type of tick-mark labels on the specified axis in C++.'
 type: docs
-weight: 6500
+weight: 6700
 url: /cpp/aspose.cells.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enum

@@ -4,7 +4,7 @@ linktitle: WorksheetCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection class. Encapsulates a collection of Worksheet objects in C++.'
 type: docs
-weight: 16600
+weight: 16800
 url: /cpp/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
@@ -28,19 +28,21 @@ class WorksheetCollection
 | [AddCopy(const char16_t* sheetName)](./addcopy/) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [AddCopy(int32_t sheetIndex)](./addcopy/) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [AddCopy(const Vector \<Worksheet\>\& source, const Vector \<U16String\>\& destSheetNames)](./addcopy/) | Copy a group of worksheets. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WorksheetCollection](./). |
 | [Clear()](./clear/) | Clear all worksheets. |
 | [ClearPivottables()](./clearpivottables/) | Clears pivot tables from the spreadsheet. |
 | [CreateRange(const U16String\& address, int32_t sheetIndex)](./createrange/) | Creates a [Range](../range/) object from an address of the range. |
 | [CreateRange(const char16_t* address, int32_t sheetIndex)](./createrange/) | Creates a [Range](../range/) object from an address of the range. |
 | [CreateUnionRange(const U16String\& address, int32_t sheetIndex)](./createunionrange/) | Creates a [Range](../range/) object from an address of the range. |
 | [CreateUnionRange(const char16_t* address, int32_t sheetIndex)](./createunionrange/) | Creates a [Range](../range/) object from an address of the range. |
+| [end()](./end/) | Returns an iterator to the end of the [WorksheetCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Worksheet](../worksheet/) element at the specified index. |
 | [Get(const U16String\& sheetName)](./get/) | Gets the [Worksheet](../worksheet/) element with the specified name. |
 | [Get(const char16_t* sheetName)](./get/) | Gets the [Worksheet](../worksheet/) element with the specified name. |
 | [GetActiveSheetIndex()](./getactivesheetindex/) | Represents the index of active worksheet when the spreadsheet is opened. |
 | [GetActiveSheetName()](./getactivesheetname/) | Represents the name of active worksheet when the spreadsheet is opened. |
 | [GetBuiltInDocumentProperties()](./getbuiltindocumentproperties/) | Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetCustomDocumentProperties()](./getcustomdocumentproperties/) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. |
 | [GetDxfs()](./getdxfs/) | Gets the master differential formatting records. |
 | [GetExternalLinks()](./getexternallinks/) | Represents external links in a workbook. |
@@ -68,7 +70,7 @@ class WorksheetCollection
 | [IsRefreshAllConnections()](./isrefreshallconnections/) | Indicates whether refresh all connections on opening file in MS Excel. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WorksheetCollection\& src)](./operator_asm/) | operator= |
-| [RefreshAll()](./refreshall/) | Refresh all pivot tables and charts with pivot source. |
+| [RefreshAll()](./refreshall/) |  **(Deprecated)** Refresh all pivot tables and charts with pivot source. |
 | [RefreshPivotTables()](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. |
 | [RefreshPivotTables(const PivotTableRefreshOption\& option)](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. |
 | [RegisterAddInFunction(const U16String\& addInFile, const U16String\& functionName, bool lib)](./registeraddinfunction/) | Adds addin function into the workbook. |

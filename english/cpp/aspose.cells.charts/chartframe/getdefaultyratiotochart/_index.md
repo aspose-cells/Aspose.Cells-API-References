@@ -4,7 +4,7 @@ linktitle: GetDefaultYRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultYRatioToChart method. Represents y of default position in units of Fraction of the chart area in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells.charts/chartframe/getdefaultyratiotochart/
 ---
 ## ChartFrame::GetDefaultYRatioToChart method

@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Drawing::Equations
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Drawing::Equations namespace in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.drawing.equations/
 ---
 

@@ -4,7 +4,7 @@ linktitle: SetSignatureLine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetSignatureLine method. Gets and sets the signature line in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.cells.drawing/picture/setsignatureline/
 ---
 ## Picture::SetSignatureLine method

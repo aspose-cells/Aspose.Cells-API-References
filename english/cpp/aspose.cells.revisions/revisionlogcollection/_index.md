@@ -20,8 +20,10 @@ class RevisionLogCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [RevisionLogCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [RevisionLogCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [RevisionLog](../revisionlog/) by index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetDaysPreservingHistory()](./getdayspreservinghistory/) | Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [HighlightChanges(const HighlightChangesOptions\& options)](./highlightchanges/) | Highlights changes of shared workbook. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

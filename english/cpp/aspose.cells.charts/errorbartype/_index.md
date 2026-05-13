@@ -4,7 +4,7 @@ linktitle: ErrorBarType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ErrorBarType enum. Represents error bar amount type in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells.charts/errorbartype/
 ---
 ## ErrorBarType enum

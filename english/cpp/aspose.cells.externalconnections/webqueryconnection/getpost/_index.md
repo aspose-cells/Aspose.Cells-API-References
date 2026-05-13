@@ -4,7 +4,7 @@ linktitle: GetPost
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::GetPost method. Returns or sets the string used with the post method of inputting data into a web server to return data from a web query in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/getpost/
 ---
 ## WebQueryConnection::GetPost method

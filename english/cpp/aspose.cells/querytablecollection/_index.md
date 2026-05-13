@@ -4,7 +4,7 @@ linktitle: QueryTableCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTableCollection class. A collection of QueryTableCollection objects that represent QueryTable collection information in C++.'
 type: docs
-weight: 12400
+weight: 12600
 url: /cpp/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class
@@ -20,8 +20,10 @@ class QueryTableCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [QueryTableCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [QueryTableCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the querytable by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const QueryTableCollection\& src)](./operator_asm/) | operator= |

@@ -4,7 +4,7 @@ linktitle: ScenarioCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioCollection class. Represents the list of scenarios in C++.'
 type: docs
-weight: 13400
+weight: 13600
 url: /cpp/aspose.cells/scenariocollection/
 ---
 ## ScenarioCollection class
@@ -22,9 +22,11 @@ class ScenarioCollection
 | --- | --- |
 | [Add(const U16String\& name)](./add/) | Adds a scenario. |
 | [Add(const char16_t* name)](./add/) | Adds a scenario. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ScenarioCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ScenarioCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Scenario](../scenario/) object by the index. |
 | [GetActiveIndex()](./getactiveindex/) | Gets and sets which scenario is selected. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetLastSelected()](./getlastselected/) | Indicates which scenario was last selected by the user to be run/shown. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

@@ -4,7 +4,7 @@ linktitle: ConsolidationFunction
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConsolidationFunction enum. Represents consolidation function in C++.'
 type: docs
-weight: 19100
+weight: 19200
 url: /cpp/aspose.cells/consolidationfunction/
 ---
 ## ConsolidationFunction enum

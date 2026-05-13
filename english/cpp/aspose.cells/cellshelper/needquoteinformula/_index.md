@@ -4,7 +4,7 @@ linktitle: NeedQuoteInFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsHelper::NeedQuoteInFormula method. Indicates whether the name of the sheet should be enclosed in single quotes in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.cells/cellshelper/needquoteinformula/
 ---
 ## CellsHelper::NeedQuoteInFormula(const U16String\&) method

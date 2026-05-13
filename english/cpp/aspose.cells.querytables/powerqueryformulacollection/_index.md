@@ -20,10 +20,12 @@ class PowerQueryFormulaCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PowerQueryFormulaCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PowerQueryFormulaCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [ PowerQueryFormula](../powerqueryformula/) by the index in the list. |
 | [Get(const U16String\& name)](./get/) | Gets [ PowerQueryFormula](../powerqueryformula/) by the name of the power query formula. |
 | [Get(const char16_t* name)](./get/) | Gets [ PowerQueryFormula](../powerqueryformula/) by the name of the power query formula. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PowerQueryFormulaCollection\& src)](./operator_asm/) | operator= |

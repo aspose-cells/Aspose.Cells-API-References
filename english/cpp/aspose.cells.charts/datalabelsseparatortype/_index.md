@@ -4,7 +4,7 @@ linktitle: DataLabelsSeparatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabelsSeparatorType enum. Represents the separator type of DataLabels in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells.charts/datalabelsseparatortype/
 ---
 ## DataLabelsSeparatorType enum

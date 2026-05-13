@@ -23,9 +23,11 @@ class OleObjectCollection
 | [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData)](./add/) | Adds an [OleObject](../oleobject/) to the collection. |
 | [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const U16String\& linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
 | [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, const char16_t* linkedFile)](./add/) | Adds a linked [OleObject](../oleobject/) to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [OleObjectCollection](./). |
 | [Clear()](./clear/) | Remove all embedded OLE objects. |
+| [end()](./end/) | Returns an iterator to the end of the [OleObjectCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [OleObject](../oleobject/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [OleObjectCollection(OleObjectCollection_Impl* impl)](./oleobjectcollection/) | Constructs from an implementation object. |
 | [OleObjectCollection(const OleObjectCollection\& src)](./oleobjectcollection/) | Copy constructor. |

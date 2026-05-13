@@ -4,7 +4,7 @@ linktitle: GetSelectedAreas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetSelectedAreas method. Gets selected ranges of cells in the designer spreadsheet in C++.'
 type: docs
-weight: 10100
+weight: 10300
 url: /cpp/aspose.cells/worksheet/getselectedareas/
 ---
 ## Worksheet::GetSelectedAreas method

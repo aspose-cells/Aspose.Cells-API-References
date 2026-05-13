@@ -24,11 +24,13 @@ class TableStyleCollection
 | [AddPivotTableStyle(const char16_t* name)](./addpivottablestyle/) | Adds a custom pivot table style. |
 | [AddTableStyle(const U16String\& name)](./addtablestyle/) | Adds a custom table style. |
 | [AddTableStyle(const char16_t* name)](./addtablestyle/) | Adds a custom table style. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TableStyleCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TableStyleCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the table style by the index. |
 | [Get(const U16String\& name)](./get/) | Gets the table style by the name. |
 | [Get(const char16_t* name)](./get/) | Gets the table style by the name. |
 | [GetBuiltinTableStyle(TableStyleType type)](./getbuiltintablestyle/) | Gets the builtin table style. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetDefaultPivotStyleName()](./getdefaultpivotstylename/) | Gets and sets the default style name of pivot table . |
 | [GetDefaultTableStyleName()](./getdefaulttablestylename/) | Gets and sets the default style name of the table. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

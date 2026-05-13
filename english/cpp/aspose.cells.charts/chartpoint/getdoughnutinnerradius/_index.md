@@ -4,7 +4,7 @@ linktitle: GetDoughnutInnerRadius
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetDoughnutInnerRadius method. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart in C++.'
 type: docs
-weight: 2900
+weight: 3300
 url: /cpp/aspose.cells.charts/chartpoint/getdoughnutinnerradius/
 ---
 ## ChartPoint::GetDoughnutInnerRadius method

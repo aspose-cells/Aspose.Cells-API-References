@@ -20,10 +20,12 @@ class DataModelRelationshipCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [DataModelRelationshipCollection](./). |
 | [DataModelRelationshipCollection(DataModelRelationshipCollection_Impl* impl)](./datamodelrelationshipcollection/) | Constructs from an implementation object. |
 | [DataModelRelationshipCollection(const DataModelRelationshipCollection\& src)](./datamodelrelationshipcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [DataModelRelationshipCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the relationship. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DataModelRelationshipCollection\& src)](./operator_asm/) | operator= |

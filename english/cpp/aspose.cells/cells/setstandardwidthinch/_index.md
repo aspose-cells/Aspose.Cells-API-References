@@ -4,7 +4,7 @@ linktitle: SetStandardWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetStandardWidthInch method. Gets or sets the default column width in the worksheet, in unit of inches in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells/cells/setstandardwidthinch/
 ---
 ## Cells::SetStandardWidthInch method

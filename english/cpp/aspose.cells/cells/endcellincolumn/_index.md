@@ -4,7 +4,7 @@ linktitle: EndCellInColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::EndCellInColumn method. Gets the last cell in this column in C++.'
 type: docs
-weight: 13000
+weight: 13200
 url: /cpp/aspose.cells/cells/endcellincolumn/
 ---
 ## Cells::EndCellInColumn(int32_t) method

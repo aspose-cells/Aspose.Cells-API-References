@@ -4,7 +4,7 @@ linktitle: SignatureType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureType enum. Specifies the signature type in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells.drawing/signaturetype/
 ---
 ## SignatureType enum

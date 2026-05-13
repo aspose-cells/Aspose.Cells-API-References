@@ -4,7 +4,7 @@ linktitle: ErrorCellValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ErrorCellValueType enum. Represents a cell value which contains an error in C++.'
 type: docs
-weight: 20900
+weight: 21000
 url: /cpp/aspose.cells/errorcellvaluetype/
 ---
 ## ErrorCellValueType enum
@@ -23,7 +23,7 @@ enum class ErrorCellValueType
 | Value | 1 | <br>Represents the value of a cell containing a #VALUE! error. |
 | Ref | 3 | <br>Represents the value of a cell containing a #REF! error. |
 | Name | 4 | <br>Represents the value of a cell containing a #NAME? error. |
-| NA | 6 | <br>Represents the value of a cell containing a #NAME? error. |
+| NA | 6 | <br>Represents the value of a cell containing a #N/A error. |
 | Blocked | 10 | <br>Represents the value of a cell containing a #BLOCKED! error. |
 | Busy | 14 | <br>Represents the value of a cell containing a #BUSY! error. |
 | Calc | 13 | <br>Represents the value of a cell containing a #CALC! error. |

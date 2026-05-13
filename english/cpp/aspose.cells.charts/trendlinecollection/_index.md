@@ -4,7 +4,7 @@ linktitle: TrendlineCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TrendlineCollection class. Represents a collection of all the Trendline objects for the specified data series in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class
@@ -23,8 +23,10 @@ class TrendlineCollection
 | [Add(TrendlineType type)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type. |
 | [Add(TrendlineType type, const U16String\& name)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [Add(TrendlineType type, const char16_t* name)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TrendlineCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TrendlineCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a [Trendline](../trendline/) object by its index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TrendlineCollection\& src)](./operator_asm/) | operator= |

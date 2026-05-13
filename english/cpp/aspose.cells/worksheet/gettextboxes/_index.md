@@ -4,7 +4,7 @@ linktitle: GetTextBoxes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetTextBoxes method. Gets a TextBox collection in C++.'
 type: docs
-weight: 7300
+weight: 7500
 url: /cpp/aspose.cells/worksheet/gettextboxes/
 ---
 ## Worksheet::GetTextBoxes method

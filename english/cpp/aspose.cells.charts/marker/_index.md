@@ -4,7 +4,7 @@ linktitle: Marker
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Marker class. Represents the marker in a line chart, scatter chart, or radar chart in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.charts/marker/
 ---
 ## Marker class

@@ -4,7 +4,7 @@ linktitle: GetMaxRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetMaxRow method. Gets the max row index, zero-based in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells/workbooksettings/getmaxrow/
 ---
 ## WorkbookSettings::GetMaxRow method

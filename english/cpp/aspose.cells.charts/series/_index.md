@@ -24,16 +24,16 @@ class Series
 | [GetBar3DShapeType()](./getbar3dshapetype/) | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [GetBorder()](./getborder/) | Represents the border of a [Series](./) object. |
 | [GetBubbleScale()](./getbubblescale/) | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
-| [GetBubbleSizes()](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
+| [GetBubbleSizes()](./getbubblesizes/) | Gets or sets the bubble size values of the chart series. |
 | [GetCategoryValues()](./getcategoryvalues/) | Gets the actual category values that are used to plot every point of this series in the chart. |
 | [GetCountOfDataValues()](./getcountofdatavalues/) | Gets the number of the data values. |
 | [GetDataLabels()](./getdatalabels/) | Represents the [DataLabels](../datalabels/) object for the specified ASeries. |
 | [GetDisplayName()](./getdisplayname/) | Gets the series's name that displays on the chart graph. |
 | [GetDoughnutHoleSize()](./getdoughnutholesize/) | Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent. |
 | [GetDownBars()](./getdownbars/) | Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
-| [GetDropLines()](./getdroplines/) | Returns a Line object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
+| [GetDropLines()](./getdroplines/) | Returns a Line object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts. |
 | [GetExplosion()](./getexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
-| [GetFirstSliceAngle()](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
+| [GetFirstSliceAngle()](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
 | [GetGapWidth()](./getgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [GetHas3DEffect()](./gethas3deffect/) | True if the series has a three-dimensional appearance. |
 | [GetHasDropLines()](./gethasdroplines/) | True if the chart has drop lines. Applies only to line chart or area charts. |
@@ -49,7 +49,7 @@ class Series
 | [GetMarker()](./getmarker/) | Gets the [marker](../marker/). |
 | [GetName()](./getname/) | Gets or sets the name of the data series. |
 | [GetOverlap()](./getoverlap/) | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
-| [GetPlotOnSecondAxis()](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
+| [GetPlotOnSecondAxis()](./getplotonsecondaxis/) | Indicates if this series is plotted on the second value axis. |
 | [GetPoints()](./getpoints/) | Gets the collection of points in a series in a chart. |
 | [GetPointValues()](./getpointvalues/) | Gets the actual values that are used to plot every point of this series in the chart. |
 | [GetSecondPlotSize()](./getsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
@@ -58,21 +58,21 @@ class Series
 | [GetShapeProperties()](./getshapeproperties/) | Gets the ShapePropertyCollection object that holds the visual shape properties of the [Series](./). |
 | [GetShowNegativeBubbles()](./getshownegativebubbles/) | True if negative bubbles are shown for the chart group. Valid only for bubble charts. |
 | [GetSizeRepresents()](./getsizerepresents/) | Gets or sets what the bubble size represents on a bubble chart. |
-| [GetSmooth()](./getsmooth/) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
+| [GetSmooth()](./getsmooth/) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
 | [GetSplitType()](./getsplittype/) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [GetSplitValue()](./getsplitvalue/) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [GetTrendLines()](./gettrendlines/) | Returns all the trendlines of this series. |
 | [GetType()](./gettype/) | Gets or sets a data series' type. |
-| [GetUpBars()](./getupbars/) | Returns an [DropBars](../dropbars/) object that represents the up bars on a line chart. Applies only to line charts. |
+| [GetUpBars()](./getupbars/) | Returns a [DropBars](../dropbars/) object that represents the up bars on a line chart. Applies only to line charts. |
 | [GetValues()](./getvalues/) | Represents the Y values of this chart series. |
-| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values' NumberList. |
+| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents the format code of the Values NumberList. |
 | [GetXErrorBar()](./getxerrorbar/) | Represents X direction error bar of the series. |
 | [GetXValues()](./getxvalues/) | Represents the X values of this chart series. |
 | [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values' NumberList. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
 | [IsAutoSplit()](./isautosplit/) | Indicates whether the threshold value is automatic. |
-| [IsColorVaried()](./iscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [IsFiltered()](./isfiltered/) | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [IsColorVaried()](./iscolorvaried/) | Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [IsFiltered()](./isfiltered/) | Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsVerticalValues()](./isverticalvalues/) | Indicates whether the data source is vertical. |
 | [Move(int32_t count)](./move/) | Moves the series up or down. |
@@ -82,11 +82,11 @@ class Series
 | [Series(const Series\& src)](./series/) | Copy constructor. |
 | [SetBar3DShapeType(Bar3DShapeType value)](./setbar3dshapetype/) | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [SetBubbleScale(int32_t value)](./setbubblescale/) | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
-| [SetBubbleSizes(const U16String\& value)](./setbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
-| [SetBubbleSizes(const char16_t* value)](./setbubblesizes/) | Gets or sets the bubble sizes values of the chart series. |
+| [SetBubbleSizes(const U16String\& value)](./setbubblesizes/) | Gets or sets the bubble size values of the chart series. |
+| [SetBubbleSizes(const char16_t* value)](./setbubblesizes/) | Gets or sets the bubble size values of the chart series. |
 | [SetDoughnutHoleSize(int32_t value)](./setdoughnutholesize/) | Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent. |
 | [SetExplosion(int32_t value)](./setexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
-| [SetFirstSliceAngle(int16_t value)](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
+| [SetFirstSliceAngle(int16_t value)](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
 | [SetGapWidth(int16_t value)](./setgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [SetHas3DEffect(bool value)](./sethas3deffect/) | True if the series has a three-dimensional appearance. |
 | [SetHasDropLines(bool value)](./sethasdroplines/) | True if the chart has drop lines. Applies only to line chart or area charts. |
@@ -95,24 +95,24 @@ class Series
 | [SetHasRadarAxisLabels(bool value)](./sethasradaraxislabels/) | True if a radar chart has category axis labels. Applies only to radar charts. |
 | [SetHasSeriesLines(bool value)](./sethasserieslines/) | True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts. |
 | [SetHasUpDownBars(bool value)](./sethasupdownbars/) | True if a line chart has up and down bars. Applies only to line charts. |
-| [SetIsColorVaried(bool value)](./setiscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [SetIsFiltered(bool value)](./setisfiltered/) | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [SetIsColorVaried(bool value)](./setiscolorvaried/) | Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [SetIsFiltered(bool value)](./setisfiltered/) | Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the data series. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the data series. |
 | [SetOverlap(int16_t value)](./setoverlap/) | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
-| [SetPlotOnSecondAxis(bool value)](./setplotonsecondaxis/) | Indicates if this series is plotted on second value axis. |
+| [SetPlotOnSecondAxis(bool value)](./setplotonsecondaxis/) | Indicates if this series is plotted on the second value axis. |
 | [SetSecondPlotSize(int16_t value)](./setsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [SetShadow(bool value)](./setshadow/) | True if the series has a shadow. |
 | [SetShowNegativeBubbles(bool value)](./setshownegativebubbles/) | True if negative bubbles are shown for the chart group. Valid only for bubble charts. |
 | [SetSizeRepresents(BubbleSizeRepresents value)](./setsizerepresents/) | Gets or sets what the bubble size represents on a bubble chart. |
-| [SetSmooth(bool value)](./setsmooth/) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
+| [SetSmooth(bool value)](./setsmooth/) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
 | [SetSplitType(ChartSplitType value)](./setsplittype/) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SetSplitValue(double value)](./setsplitvalue/) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SetType(ChartType value)](./settype/) | Gets or sets a data series' type. |
 | [SetValues(const U16String\& value)](./setvalues/) | Represents the Y values of this chart series. |
 | [SetValues(const char16_t* value)](./setvalues/) | Represents the Y values of this chart series. |
-| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values' NumberList. |
-| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values' NumberList. |
+| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents the format code of the Values NumberList. |
+| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents the format code of the Values NumberList. |
 | [SetXValues(const U16String\& value)](./setxvalues/) | Represents the X values of this chart series. |
 | [SetXValues(const char16_t* value)](./setxvalues/) | Represents the X values of this chart series. |
 | [SetXValuesFormatCode(const U16String\& value)](./setxvaluesformatcode/) | Represents format code of X Values' NumberList. |

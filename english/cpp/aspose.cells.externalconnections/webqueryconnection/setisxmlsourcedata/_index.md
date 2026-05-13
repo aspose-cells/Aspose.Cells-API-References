@@ -4,7 +4,7 @@ linktitle: SetIsXmlSourceData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetIsXmlSourceData method. Flag indicating that XML source data should be imported instead of the HTML table itself in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/setisxmlsourcedata/
 ---
 ## WebQueryConnection::SetIsXmlSourceData method

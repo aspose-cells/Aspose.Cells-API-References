@@ -4,7 +4,7 @@ linktitle: Merge
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::Merge method. Merges a specified range of cells into a single cell in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells/cells/merge/
 ---
 ## Cells::Merge(int32_t, int32_t, int32_t, int32_t) method

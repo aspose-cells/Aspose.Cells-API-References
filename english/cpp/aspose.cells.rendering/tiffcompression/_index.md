@@ -4,7 +4,7 @@ linktitle: TiffCompression
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::TiffCompression enum. Specifies what type of compression to apply when saving images into TIFF format file in C++.'
 type: docs
-weight: 2800
+weight: 3200
 url: /cpp/aspose.cells.rendering/tiffcompression/
 ---
 ## TiffCompression enum

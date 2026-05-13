@@ -4,7 +4,7 @@ linktitle: TextOverflowType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::TextOverflowType enum. Represents the way the text vertical or horizontal overflow in C++.'
 type: docs
-weight: 11800
+weight: 11900
 url: /cpp/aspose.cells.drawing/textoverflowtype/
 ---
 ## TextOverflowType enum

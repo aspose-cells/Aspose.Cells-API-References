@@ -2,7 +2,7 @@
 title: Aspose::Cells::PclSaveOptions::PclSaveOptions constructor
 linktitle: PclSaveOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PclSaveOptions::PclSaveOptions constructor. Creates the options for saving pdf file in C++.'
+description: 'Aspose::Cells::PclSaveOptions::PclSaveOptions constructor. Creates the options for saving pcl file in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells/pclsaveoptions/pclsaveoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/pclsaveoptions/pclsaveoptions/
 ## PclSaveOptions::PclSaveOptions() constructor
 
 
-Creates the options for saving pdf file.
+Creates the options for saving pcl file.
 
 ```cpp
 Aspose::Cells::PclSaveOptions::PclSaveOptions()

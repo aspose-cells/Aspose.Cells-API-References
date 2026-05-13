@@ -4,7 +4,7 @@ linktitle: GetCellsWithPlaceInCellPicture
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetCellsWithPlaceInCellPicture method. Gets all cells that contain embedded picture in C++.'
 type: docs
-weight: 14300
+weight: 14500
 url: /cpp/aspose.cells/cells/getcellswithplaceincellpicture/
 ---
 ## Cells::GetCellsWithPlaceInCellPicture method

@@ -21,8 +21,10 @@ class WebExtensionBindingCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds an a binding relationship between an Office Add-in and the data in the document. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionBindingCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionBindingCollection](./). |
 | [Get(int32_t index)](./get/) | Gets web extension binding relationship by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WebExtensionBindingCollection\& src)](./operator_asm/) | operator= |

@@ -21,9 +21,11 @@ class DigitalSignatureCollection
 | Method | Description |
 | --- | --- |
 | [Add(const DigitalSignature\& digitalSignature)](./add/) | Add one signature to [DigitalSignatureCollection](./). |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [DigitalSignatureCollection](./). |
 | [DigitalSignatureCollection()](./digitalsignaturecollection/) | The constructor of [DigitalSignatureCollection](./). |
 | [DigitalSignatureCollection(DigitalSignatureCollection_Impl* impl)](./digitalsignaturecollection/) | Constructs from an implementation object. |
 | [DigitalSignatureCollection(const DigitalSignatureCollection\& src)](./digitalsignaturecollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [DigitalSignatureCollection](./). |
 | [GetEnumerator()](./getenumerator/) | Get the enumerator for [DigitalSignatureCollection](./), this enumerator allows iteration over the collection. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

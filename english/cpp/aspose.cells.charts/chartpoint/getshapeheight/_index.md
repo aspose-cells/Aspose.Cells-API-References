@@ -4,7 +4,7 @@ linktitle: GetShapeHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetShapeHeight method. Gets the height in units of 1/4000 of chart''s height after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2200
+weight: 2600
 url: /cpp/aspose.cells.charts/chartpoint/getshapeheight/
 ---
 ## ChartPoint::GetShapeHeight method

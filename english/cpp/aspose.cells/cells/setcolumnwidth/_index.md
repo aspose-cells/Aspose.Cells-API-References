@@ -4,7 +4,7 @@ linktitle: SetColumnWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetColumnWidth method. Sets the width of the specified column in normal view in C++.'
 type: docs
-weight: 7100
+weight: 7300
 url: /cpp/aspose.cells/cells/setcolumnwidth/
 ---
 ## Cells::SetColumnWidth method

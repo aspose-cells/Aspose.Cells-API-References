@@ -4,7 +4,7 @@ linktitle: TxtValueQuoteType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtValueQuoteType enum. Specifies the type of using quotation marks for values in text format files in C++.'
 type: docs
-weight: 27600
+weight: 28100
 url: /cpp/aspose.cells/txtvaluequotetype/
 ---
 ## TxtValueQuoteType enum

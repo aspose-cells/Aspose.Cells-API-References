@@ -24,8 +24,10 @@ class ExternalLinkCollection
 | [Add(const char16_t* fileName, const Vector \<U16String\>\& sheetNames)](./add/) | Adds an external link. |
 | [Add(DirectoryType directoryType, const U16String\& fileName, const Vector \<U16String\>\& sheetNames)](./add/) | Add an external link . |
 | [Add(DirectoryType directoryType, const char16_t* fileName, const Vector \<U16String\>\& sheetNames)](./add/) | Add an external link . |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ExternalLinkCollection](./). |
 | [Clear()](./clear/) | Removes all external links. |
 | [Clear(bool updateReferencesAsLocal)](./clear/) | Removes all external links. |
+| [end()](./end/) | Returns an iterator to the end of the [ExternalLinkCollection](./). |
 | [ExternalLinkCollection(ExternalLinkCollection_Impl* impl)](./externallinkcollection/) | Constructs from an implementation object. |
 | [ExternalLinkCollection(const ExternalLinkCollection\& src)](./externallinkcollection/) | Copy constructor. |
 | [Get(int32_t index)](./get/) | Gets the [ExternalLink](../externallink/) element at the specified index. |

@@ -4,7 +4,7 @@ linktitle: FilterTop10
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::FilterTop10 method. Filters by values of data pivot field in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.pivot/pivotfield/filtertop10/
 ---
 ## PivotField::FilterTop10 method

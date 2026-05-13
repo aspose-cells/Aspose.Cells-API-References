@@ -4,7 +4,7 @@ linktitle: GetLinkedDataSources
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationOptions::GetLinkedDataSources method. Specifies the data sources for external links used in formulas in C++.'
 type: docs
-weight: 1600
+weight: 1900
 url: /cpp/aspose.cells/calculationoptions/getlinkeddatasources/
 ---
 ## CalculationOptions::GetLinkedDataSources method
