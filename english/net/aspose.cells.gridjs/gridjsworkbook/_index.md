@@ -23,6 +23,7 @@ public class GridJsWorkbook
 
 | Name | Description |
 | --- | --- |
+| [CacheDirectory](../../aspose.cells.gridjs/gridjsworkbook/cachedirectory/) { get; set; } | Gets/Sets the cache directory for storing spreadsheet file. if this is not set ,we will use the static propertie from [`FileCacheDirectory`](../config/filecachedirectory/) or [`CacheImp`](./cacheimp/) . |
 | [Settings](../../aspose.cells.gridjs/gridjsworkbook/settings/) { get; set; } | Represents the workbook settings. |
 | [WarningCallback](../../aspose.cells.gridjs/gridjsworkbook/warningcallback/) { get; set; } | Gets or sets warning callback for import file. |
 
@@ -33,6 +34,7 @@ public class GridJsWorkbook
 | [BurnRedactionFile](../../aspose.cells.gridjs/gridjsworkbook/burnredactionfile/)(string, string) | Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsworkbook/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [CopyImageOrShape](../../aspose.cells.gridjs/gridjsworkbook/copyimageorshape/)(string, string) | Copys image or shape. |
+| [Dispose](../../aspose.cells.gridjs/gridjsworkbook/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ErrorJson](../../aspose.cells.gridjs/gridjsworkbook/errorjson/)(string) | Gets the error message string in JSON format. |
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson)() | Gets JSON string from memory data, the default filename in the JSON is: book1. |
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson_1)(string) | Gets JSON string from memory data,set the output filename in the JSON. |
@@ -71,7 +73,7 @@ public class GridJsWorkbook
 | [TranslateSheetAsync](../../aspose.cells.gridjs/gridjsworkbook/translatesheetasync/)(string, string, ITextTranslator, string) | Translate all the string value to the target language in the worksheet |
 | [UpdateCell](../../aspose.cells.gridjs/gridjsworkbook/updatecell/)(string, string) | Applies the update operation. |
 | static [GetGridLoadFormat](../../aspose.cells.gridjs/gridjsworkbook/getgridloadformat/)(string) | Gets the load format by file extension |
-| static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image. |
+| static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string, string) | Get Stream of image. |
 | static [GetImageUrl](../../aspose.cells.gridjs/gridjsworkbook/getimageurl/)(string, string, string) | Gets the image URL. |
 | static [GetUidForFile](../../aspose.cells.gridjs/gridjsworkbook/getuidforfile/)(string) | Generates a new unique id for the file cache using the given file name. |
 | static [SetImageUrlBase](../../aspose.cells.gridjs/gridjsworkbook/setimageurlbase/)(string) | Set the base image get action URL from controller . |

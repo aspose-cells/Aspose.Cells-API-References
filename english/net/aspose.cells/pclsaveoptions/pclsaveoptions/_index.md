@@ -1,13 +1,13 @@
 ---
 title: PclSaveOptions.PclSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: PclSaveOptions constructor. Creates the options for saving pdf file
+description: PclSaveOptions constructor. Creates the options for saving pcl file
 type: docs
 url: /net/aspose.cells/pclsaveoptions/pclsaveoptions/
 ---
 ## PclSaveOptions constructor
 
-Creates the options for saving pdf file.
+Creates the options for saving pcl file.
 
 ```csharp
 public PclSaveOptions()

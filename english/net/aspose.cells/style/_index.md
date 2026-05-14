@@ -27,6 +27,7 @@ public class Style
 | [BackgroundColor](../../aspose.cells/style/backgroundcolor/) { get; set; } | Gets or sets a style's background color. |
 | [BackgroundThemeColor](../../aspose.cells/style/backgroundthemecolor/) { get; set; } | Gets and sets the background theme color. |
 | [Borders](../../aspose.cells/style/borders/) { get; } | Gets the [`BorderCollection`](../bordercollection/) of the style. |
+| [BottomBorder](../../aspose.cells/style/bottomborder/) { get; } | Gets the bottom border. |
 | [CultureCustom](../../aspose.cells/style/culturecustom/) { get; set; } | Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
 | [Custom](../../aspose.cells/style/custom/) { get; set; } | Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
 | [Font](../../aspose.cells/style/font/) { get; } | Gets a [`Font`](./font/) object. |
@@ -50,14 +51,17 @@ public class Style
 | [IsPercent](../../aspose.cells/style/ispercent/) { get; } | Indicates whether the number format is a percent format. |
 | [IsProtectionApplied](../../aspose.cells/style/isprotectionapplied/) { get; set; } | Indicate whether the protection formatting should be applied. |
 | [IsTextWrapped](../../aspose.cells/style/istextwrapped/) { get; set; } | Gets or sets a value indicating whether the text within a cell is wrapped. |
+| [LeftBorder](../../aspose.cells/style/leftborder/) { get; } | Gets the left border. |
 | [Name](../../aspose.cells/style/name/) { get; set; } | Gets or sets the name of the style. |
 | [Number](../../aspose.cells/style/number/) { get; set; } | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
 | [ParentStyle](../../aspose.cells/style/parentstyle/) { get; } | Gets the parent style of this style. |
 | [Pattern](../../aspose.cells/style/pattern/) { get; set; } | Gets or sets the cell background pattern type. |
 | [QuotePrefix](../../aspose.cells/style/quoteprefix/) { get; set; } | Indicates whether the cell's value starts with single quote mark. |
+| [RightBorder](../../aspose.cells/style/rightborder/) { get; } | Gets the right border. |
 | [RotationAngle](../../aspose.cells/style/rotationangle/) { get; set; } | Represents text rotation angle. |
 | [ShrinkToFit](../../aspose.cells/style/shrinktofit/) { get; set; } | Represents if text automatically shrinks to fit in the available column width. |
 | [TextDirection](../../aspose.cells/style/textdirection/) { get; set; } | Represents text reading order. |
+| [TopBorder](../../aspose.cells/style/topborder/) { get; } | Gets the top border. |
 | [VerticalAlignment](../../aspose.cells/style/verticalalignment/) { get; set; } | Gets or sets the vertical alignment type of the text in a cell. |
 
 ## Methods

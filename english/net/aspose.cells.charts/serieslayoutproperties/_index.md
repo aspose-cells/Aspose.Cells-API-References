@@ -28,7 +28,7 @@ public class SeriesLayoutProperties
 | [MapChartRegionType](../../aspose.cells.charts/serieslayoutproperties/mapchartregiontype/) { get; set; } | Gets and sets the region type of the map. |
 | [MapLabelLayout](../../aspose.cells.charts/serieslayoutproperties/maplabellayout/) { get; set; } | Gets and sets the layout of map labels. |
 | [QuartileCalculation](../../aspose.cells.charts/serieslayoutproperties/quartilecalculation/) { get; set; } | Represents the statistical properties for the series. |
-| [ShowConnectorLines](../../aspose.cells.charts/serieslayoutproperties/showconnectorlines/) { get; set; } | Indicates whether connector lines are shown between data points. |
+| [ShowConnectorLines](../../aspose.cells.charts/serieslayoutproperties/showconnectorlines/) { get; set; } | Indicates whether connector lines are displayed between data points. |
 | [ShowInnerPoints](../../aspose.cells.charts/serieslayoutproperties/showinnerpoints/) { get; set; } | Indicates whether to show non-outlier data points. |
 | [ShowMeanLine](../../aspose.cells.charts/serieslayoutproperties/showmeanline/) { get; set; } | Indicates whether to show the line connecting all mean points. |
 | [ShowMeanMarker](../../aspose.cells.charts/serieslayoutproperties/showmeanmarker/) { get; set; } | Indicates whether markers denoting the mean are shown. |

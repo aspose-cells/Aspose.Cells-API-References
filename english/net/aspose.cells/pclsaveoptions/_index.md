@@ -17,7 +17,7 @@ public class PclSaveOptions : PaginatedSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PclSaveOptions](pclsaveoptions/)() | Creates the options for saving pdf file. |
+| [PclSaveOptions](pclsaveoptions/)() | Creates the options for saving pcl file. |
 
 ## Properties
 

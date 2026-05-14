@@ -13,6 +13,10 @@ Gets and sets the format strategy when exporting the value as string value.
 public CellValueFormatStrategy FormatStrategy { get; set; }
 ```
 
+### Remarks
+
+The default value is CellStyle.
+
 ### Examples
 
 ```csharp

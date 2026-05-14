@@ -1,13 +1,13 @@
 ---
 title: PivotOptions.ShowExpandCollapseFieldButtons
 second_title: Aspose.Cells for .NET API Reference
-description: PivotOptions property. Gets or sets a value indicating whether to show expand/collapse field buttons
+description: PivotOptions property. Gets or sets a value indicating whether to show expand or collapse field buttons
 type: docs
 url: /net/aspose.cells.charts/pivotoptions/showexpandcollapsefieldbuttons/
 ---
 ## PivotOptions.ShowExpandCollapseFieldButtons property
 
-Gets or sets a value indicating whether to show expand/collapse field buttons
+Gets or sets a value indicating whether to show expand or collapse field buttons
 
 ```csharp
 public bool ShowExpandCollapseFieldButtons { get; set; }

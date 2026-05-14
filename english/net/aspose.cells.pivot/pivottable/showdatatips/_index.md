@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowDataTips
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells
+description: PivotTable property. Indicates whether tooltips should be displayed for PivotTable data cells
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showdatatips/
 ---
 ## PivotTable.ShowDataTips property
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+Indicates whether tooltips should be displayed for PivotTable data cells.
 
 ```csharp
 public bool ShowDataTips { get; set; }
