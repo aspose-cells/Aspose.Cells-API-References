@@ -102,7 +102,9 @@ Summary description for PivotTable.
 | [calculateData(PivotTableCalculateOption option)](#calculateData-com.aspose.cells.PivotTableCalculateOption-) | Calculates pivot table with options. |
 | [calculateRange()](#calculateRange--) | Calculates pivottable's range. |
 | [changeDataSource(String[] source)](#changeDataSource-java.lang.String---) | Change data source of the pivottable. |
+| [clearAll()](#clearAll--) | Remove all fields from regions. |
 | [clearData()](#clearData--) | Clear data and formatting of PivotTable view. |
+| [clearFilters()](#clearFilters--) | Clears all filters of this pivot table. |
 | [copyStyle(PivotTable pivotTable)](#copyStyle-com.aspose.cells.PivotTable-) | Copies named style from another pivot table. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -133,6 +135,7 @@ Summary description for PivotTable.
 | [getDataFieldHeaderName()](#getDataFieldHeaderName--) | Gets the name of the value area field header in the PivotTable. |
 | [getDataFields()](#getDataFields--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
 | [getDataSource()](#getDataSource--) | Gets the data source of the pivot table. |
+| [getDependentPivotTables()](#getDependentPivotTables--) | Gets all [PivotTable](../../com.aspose.cells/pivottable)s that use this PivotTable as their data source. |
 | [getDisplayErrorString()](#getDisplayErrorString--) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
 | [getDisplayImmediateItems()](#getDisplayImmediateItems--) | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. |
 | [getDisplayNullString()](#getDisplayNullString--) | Indicates whether the PivotTable report displays a custom string if the value is null. |
@@ -152,7 +155,7 @@ Summary description for PivotTable.
 | [getIndent()](#getIndent--) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [getItemPrintTitles()](#getItemPrintTitles--) | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [getManualUpdate()](#getManualUpdate--) | Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [getMergeLabels()](#getMergeLabels--) | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [getMergeLabels()](#getMergeLabels--) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
 | [getMissingItemsLimit()](#getMissingItemsLimit--) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getName()](#getName--) | Gets the name of the PivotTable |
 | [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--) | Gets the names of external source data connections. |
@@ -180,7 +183,7 @@ Summary description for PivotTable.
 | [getRowRange()](#getRowRange--) | Returns a CellArea object that represents the range that contains the row area in the PivotTable report. |
 | [getSaveData()](#getSaveData--) | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [getShowColumnGrandTotals()](#getShowColumnGrandTotals--) | Indicates whether to show grand totals for columns of this pivot table. |
-| [getShowDataTips()](#getShowDataTips--) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [getShowDataTips()](#getShowDataTips--) | Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [getShowDrill()](#getShowDrill--) | Gets whether showing expand/collapse buttons. |
 | [getShowEmptyCol()](#getShowEmptyCol--) | Indicates whether to include empty columns in the table |
 | [getShowEmptyRow()](#getShowEmptyRow--) | Indicates whether to include empty rows in the table. |
@@ -256,7 +259,7 @@ Summary description for PivotTable.
 | [setManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum)](#setManualGroupField-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-java.util.ArrayList-int-) | Sets manual field group by the PivotTable. |
 | [setManualGroupField(int baseFieldIndex, double startVal, double endVal, ArrayList groupByList, double intervalNum)](#setManualGroupField-int-double-double-java.util.ArrayList-double-) | Sets manual field group by the PivotTable. |
 | [setManualUpdate(boolean value)](#setManualUpdate-boolean-) | Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [setMergeLabels(boolean value)](#setMergeLabels-boolean-) | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [setMergeLabels(boolean value)](#setMergeLabels-boolean-) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
 | [setMissingItemsLimit(int value)](#setMissingItemsLimit-int-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setMultipleFieldFilters(boolean value)](#setMultipleFieldFilters-boolean-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the PivotTable |
@@ -277,7 +280,7 @@ Summary description for PivotTable.
 | [setSaveData(boolean value)](#setSaveData-boolean-) | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [setSelected(boolean value)](#setSelected-boolean-) | Indicates whether this PivotTable is selected. |
 | [setShowColumnGrandTotals(boolean value)](#setShowColumnGrandTotals-boolean-) | Indicates whether to show grand totals for columns of this pivot table. |
-| [setShowDataTips(boolean value)](#setShowDataTips-boolean-) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
+| [setShowDataTips(boolean value)](#setShowDataTips-boolean-) | Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [setShowDrill(boolean value)](#setShowDrill-boolean-) | Sets whether showing expand/collapse buttons. |
 | [setShowEmptyCol(boolean value)](#setShowEmptyCol-boolean-) | Indicates whether to include empty columns in the table |
 | [setShowEmptyRow(boolean value)](#setShowEmptyRow-boolean-) | Indicates whether to include empty rows in the table. |
@@ -436,6 +439,14 @@ Change data source of the pivottable.
 | --- | --- | --- |
 | source | java.lang.String[] |  |
 
+### clearAll() {#clearAll--}
+```
+public void clearAll()
+```
+
+
+Remove all fields from regions.
+
 ### clearData() {#clearData--}
 ```
 public void clearData()
@@ -447,6 +458,14 @@ Clear data and formatting of PivotTable view.
 **Remarks**
 
 If this method is not called before you add or delete PivotField, Maybe the PivotTable data is not corrected
+
+### clearFilters() {#clearFilters--}
+```
+public void clearFilters()
+```
+
+
+Clears all filters of this pivot table.
 
 ### copyStyle(PivotTable pivotTable) {#copyStyle-com.aspose.cells.PivotTable-}
 ```
@@ -673,6 +692,10 @@ public PivotTable[] getChildren()
 
 Gets the Children Pivot Tables which use this PivotTable data as data source.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.GetDependentPivotTables() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 com.aspose.cells.PivotTable[] - the PivotTable array object
 ### getClass() {#getClass--}
@@ -803,6 +826,20 @@ Gets the data source of the pivot table.
 
 **Returns:**
 java.lang.String[]
+### getDependentPivotTables() {#getDependentPivotTables--}
+```
+public PivotTable[] getDependentPivotTables()
+```
+
+
+Gets all [PivotTable](../../com.aspose.cells/pivottable)s that use this PivotTable as their data source.
+
+**Remarks**
+
+Because pivot tables may depend on each other's data, they must be refreshed in the correct order to ensure data consistency.
+
+**Returns:**
+com.aspose.cells.PivotTable[] - 
 ### getDisplayErrorString() {#getDisplayErrorString--}
 ```
 public boolean getDisplayErrorString()
@@ -1020,7 +1057,7 @@ public boolean getMergeLabels()
 ```
 
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+Indicates whether row or column titles that span multiple cells should be merged into a single cell.
 
 **Returns:**
 boolean
@@ -1318,7 +1355,7 @@ public boolean getShowDataTips()
 ```
 
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+Indicates whether tooltips should be displayed for PivotTable data cells.
 
 **Returns:**
 boolean
@@ -2287,7 +2324,7 @@ public void setMergeLabels(boolean value)
 ```
 
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+Indicates whether row or column titles that span multiple cells should be merged into a single cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2578,7 +2615,7 @@ public void setShowDataTips(boolean value)
 ```
 
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+Indicates whether tooltips should be displayed for PivotTable data cells.
 
 **Parameters:**
 | Parameter | Type | Description |

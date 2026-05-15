@@ -4,7 +4,7 @@ linktitle: GetStandardWidthPixels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetStandardWidthPixels method. Gets or sets the default column width in the worksheet, in unit of pixels in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells/cells/getstandardwidthpixels/
 ---
 ## Cells::GetStandardWidthPixels method

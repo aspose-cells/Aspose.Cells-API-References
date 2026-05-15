@@ -33,8 +33,8 @@ type ControlMousePointerType int32
 |[SizeWE](./sizewe/) | Double arrow pointing west and east. | 
 |[UpArrow](./uparrow/) | Up arrow. | 
 |[HourGlass](./hourglass/) | Hourglass. | 
-|[NoDrop](./nodrop/) | "Not” symbol (circle with a diagonal line) on top of the object being dragged. | 
+|[NoDrop](./nodrop/) | "Not" symbol (circle with a diagonal line) on top of the object being dragged. | 
 |[AppStarting](./appstarting/) | Arrow with an hourglass. | 
 |[Help](./help/) | Arrow with a question mark. | 
-|[SizeAll](./sizeall/) | "Size-all” cursor (arrows pointing north, south, east, and west). | 
+|[SizeAll](./sizeall/) | "Size-all" cursor (arrows pointing north, south, east, and west). | 
 |[Custom](./custom/) | Uses the icon specified by the MouseIcon property. | 

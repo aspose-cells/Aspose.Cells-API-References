@@ -41,6 +41,7 @@ class EbookLoadOptions : public Aspose::Cells::HtmlLoadOptions
 | [GetEncoding()](../abstracttextloadoptions/getencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [GetFontConfigs()](../loadoptions/getfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [GetHasFormula()](../htmlloadoptions/gethasformula/) | Indicates whether the text is formula if it starts with "=". |
+| [GetHyperlinkLoadMode()](../htmlloadoptions/gethyperlinkloadmode/) | Specifies how hyperlinks are loaded when loading HTML. |
 | [GetIgnoreNotPrinted()](../loadoptions/getignorenotprinted/) | Ignore the data which are not printed if directly printing the file. |
 | [GetIgnoreUselessShapes()](../loadoptions/getignoreuselessshapes/) | Indicates whether ignoring useless shapes. |
 | [GetInterruptMonitor()](../loadoptions/getinterruptmonitor/) | Gets and sets the interrupt monitor. |
@@ -90,6 +91,7 @@ class EbookLoadOptions : public Aspose::Cells::HtmlLoadOptions
 | [SetEncoding(EncodingType value)](../abstracttextloadoptions/setencoding/) | Gets and sets the default encoding. Only applies for csv file. |
 | [SetFontConfigs(const IndividualFontConfigs\& value)](../loadoptions/setfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [SetHasFormula(bool value)](../htmlloadoptions/sethasformula/) | Indicates whether the text is formula if it starts with "=". |
+| [SetHyperlinkLoadMode(HyperlinkLoadMode value)](../htmlloadoptions/sethyperlinkloadmode/) | Specifies how hyperlinks are loaded when loading HTML. |
 | [SetIgnoreNotPrinted(bool value)](../loadoptions/setignorenotprinted/) | Ignore the data which are not printed if directly printing the file. |
 | [SetIgnoreUselessShapes(bool value)](../loadoptions/setignoreuselessshapes/) | Indicates whether ignoring useless shapes. |
 | [SetInterruptMonitor(AbstractInterruptMonitor* value)](../loadoptions/setinterruptmonitor/) | Gets and sets the interrupt monitor. |

@@ -4,7 +4,7 @@ linktitle: SignificantDigitsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SignificantDigitsType enum. Represents the type of significant digits for outputting numeric values in C++.'
 type: docs
-weight: 26300
+weight: 26700
 url: /cpp/aspose.cells/significantdigitstype/
 ---
 ## SignificantDigitsType enum

@@ -4,7 +4,7 @@ linktitle: PaperSizeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaperSizeType enum. Represents paper size constants in C++.'
 type: docs
-weight: 24800
+weight: 25200
 url: /cpp/aspose.cells/papersizetype/
 ---
 ## PaperSizeType enum

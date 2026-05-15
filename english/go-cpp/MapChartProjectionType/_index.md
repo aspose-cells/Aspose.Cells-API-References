@@ -10,7 +10,7 @@ url: /go-cpp/mapchartprojectiontype/
 
 ## MapChartProjectionType Enum
 
-Represents projection type of the map chart.
+Represents the projection type of the map chart.
 
 ```go
 

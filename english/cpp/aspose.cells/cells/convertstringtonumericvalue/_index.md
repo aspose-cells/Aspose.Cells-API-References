@@ -4,7 +4,7 @@ linktitle: ConvertStringToNumericValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ConvertStringToNumericValue method. Converts all string data in the worksheet to numeric value if possible in C++.'
 type: docs
-weight: 14000
+weight: 14200
 url: /cpp/aspose.cells/cells/convertstringtonumericvalue/
 ---
 ## Cells::ConvertStringToNumericValue method

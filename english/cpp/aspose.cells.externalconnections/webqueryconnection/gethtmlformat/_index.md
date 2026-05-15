@@ -4,7 +4,7 @@ linktitle: GetHtmlFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::GetHtmlFormat method. How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/gethtmlformat/
 ---
 ## WebQueryConnection::GetHtmlFormat method

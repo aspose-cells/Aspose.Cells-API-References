@@ -20,6 +20,7 @@ class BuiltInDocumentPropertyCollection : public Aspose::Cells::Properties::Docu
 
 | Method | Description |
 | --- | --- |
+| [begin()](../documentpropertycollection/begin/) | Returns an iterator to the beginning of the [DocumentPropertyCollection](../documentpropertycollection/). |
 | [BuiltInDocumentPropertyCollection(BuiltInDocumentPropertyCollection_Impl* impl)](./builtindocumentpropertycollection/) | Constructs from an implementation object. |
 | [BuiltInDocumentPropertyCollection(const BuiltInDocumentPropertyCollection\& src)](./builtindocumentpropertycollection/) | Copy constructor. |
 | [BuiltInDocumentPropertyCollection(const DocumentPropertyCollection\& src)](./builtindocumentpropertycollection/) | Constructs from a parent object. |
@@ -27,6 +28,7 @@ class BuiltInDocumentPropertyCollection : public Aspose::Cells::Properties::Docu
 | [Contains(const char16_t* name)](../documentpropertycollection/contains/) | Returns true if a property with the specified name exists in the collection. |
 | [DocumentPropertyCollection(DocumentPropertyCollection_Impl* impl)](../documentpropertycollection/documentpropertycollection/) | Constructs from an implementation object. |
 | [DocumentPropertyCollection(const DocumentPropertyCollection\& src)](../documentpropertycollection/documentpropertycollection/) | Copy constructor. |
+| [end()](../documentpropertycollection/end/) | Returns an iterator to the end of the [DocumentPropertyCollection](../documentpropertycollection/). |
 | [Get(const U16String\& name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [Get(const char16_t* name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [Get(int32_t index)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by index. |
@@ -36,7 +38,7 @@ class BuiltInDocumentPropertyCollection : public Aspose::Cells::Properties::Docu
 | [GetCompany()](./getcompany/) | Gets or sets the company property. |
 | [GetContentStatus()](./getcontentstatus/) | Gets or sets the content status of the document. |
 | [GetContentType()](./getcontenttype/) | Gets or sets the content type of the document. |
-| [GetCount()](../documentpropertycollection/getcount/) |  |
+| [GetCount()](../documentpropertycollection/getcount/) | Gets the number of elements contained in the instance. |
 | [GetCreatedTime()](./getcreatedtime/) | Gets or sets date of the document creation in local timezone. |
 | [GetCreatedUniversalTime()](./getcreateduniversaltime/) | Gets or sets the Universal time of the document creation. |
 | [GetDocumentVersion()](./getdocumentversion/) | Represents the version of the file. |

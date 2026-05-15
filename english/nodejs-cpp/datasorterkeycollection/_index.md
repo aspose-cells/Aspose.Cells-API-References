@@ -11,7 +11,7 @@ url: /nodejs-cpp/datasorterkeycollection/
 Represents the key list of data sorter.
 
 ```javascript
-class DataSorterKeyCollection;
+class DataSorterKeyCollection implements Iterable<DataSorterKey>;
 ```
 
 
@@ -28,6 +28,11 @@ class DataSorterKeyCollection;
 | [get(number)](#get-number-)| Gets and sets [DataSorterKey](../datasorterkey/) by index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<DataSorterKey\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

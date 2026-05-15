@@ -11,7 +11,7 @@ url: /nodejs-cpp/webextensioncollection/
 Represents the list of web extension.
 
 ```javascript
-class WebExtensionCollection;
+class WebExtensionCollection implements Iterable<WebExtension>;
 ```
 
 
@@ -25,6 +25,11 @@ class WebExtensionCollection;
 | [removeAt(number)](#removeAt-number-)| Remove web extension by the index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<WebExtension\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

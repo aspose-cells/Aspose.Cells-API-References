@@ -4,7 +4,7 @@ linktitle: SetPropertiesFollowChartPoint
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetPropertiesFollowChartPoint method. Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference in C++.'
 type: docs
-weight: 12000
+weight: 12300
 url: /cpp/aspose.cells/workbooksettings/setpropertiesfollowchartpoint/
 ---
 ## WorkbookSettings::SetPropertiesFollowChartPoint method

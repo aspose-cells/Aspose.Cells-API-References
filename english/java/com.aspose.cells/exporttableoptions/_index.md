@@ -153,6 +153,10 @@ Gets the format strategy when exporting the value as string value.
 
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
+**Remarks**
+
+The default value is [CellValueFormatStrategy.CELL\_STYLE](../../com.aspose.cells/cellvalueformatstrategy\#CELL-STYLE).
+
 **Returns:**
 int
 ### getIndexes() {#getIndexes--}
@@ -348,6 +352,10 @@ public void setFormatStrategy(int value)
 Sets the format strategy when exporting the value as string value.
 
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+
+**Remarks**
+
+The default value is [CellValueFormatStrategy.CELL\_STYLE](../../com.aspose.cells/cellvalueformatstrategy\#CELL-STYLE).
 
 **Parameters:**
 | Parameter | Type | Description |

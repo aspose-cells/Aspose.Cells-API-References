@@ -4,7 +4,7 @@ linktitle: GetValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaParameter::GetValue method. Gets the value of parameter in C++.'
 type: docs
-weight: 800
+weight: 700
 url: /cpp/aspose.cells.querytables/powerqueryformulaparameter/getvalue/
 ---
 ## PowerQueryFormulaParameter::GetValue method

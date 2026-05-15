@@ -29,11 +29,13 @@ class PictureCollection
 | [Add(int32_t topRow, int32_t leftColumn, const Vector \<uint8_t\>\& stream, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
 | [Add(int32_t topRow, int32_t leftColumn, const U16String\& fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
 | [Add(int32_t topRow, int32_t leftColumn, const char16_t* fileName, int32_t widthScale, int32_t heightScale)](./add/) | Adds a picture to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PictureCollection](./). |
 | [Camera(int32_t row, int32_t column, const U16String\& range)](./camera/) | Takes a photo of the range. |
 | [Camera(int32_t row, int32_t column, const char16_t* range)](./camera/) | Takes a photo of the range. |
 | [Clear()](./clear/) | Clear all pictures. |
+| [end()](./end/) | Returns an iterator to the end of the [PictureCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Picture](../picture/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PictureCollection\& src)](./operator_asm/) | operator= |

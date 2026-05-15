@@ -4,7 +4,7 @@ linktitle: AddActiveXControl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddActiveXControl method. Creates an Activex Control in C++.'
 type: docs
-weight: 3400
+weight: 3500
 url: /cpp/aspose.cells.drawing/shapecollection/addactivexcontrol/
 ---
 ## ShapeCollection::AddActiveXControl method

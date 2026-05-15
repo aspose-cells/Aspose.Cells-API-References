@@ -4,7 +4,7 @@ linktitle: SetOperationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetOperationType method. Gets and sets the operation type when pasting range in C++.'
 type: docs
-weight: 1500
+weight: 1900
 url: /cpp/aspose.cells/pasteoptions/setoperationtype/
 ---
 ## PasteOptions::SetOperationType method

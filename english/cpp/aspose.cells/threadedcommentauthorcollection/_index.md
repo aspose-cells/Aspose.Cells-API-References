@@ -4,7 +4,7 @@ linktitle: ThreadedCommentAuthorCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThreadedCommentAuthorCollection class. Represents all persons in C++.'
 type: docs
-weight: 14900
+weight: 15000
 url: /cpp/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
@@ -22,10 +22,12 @@ class ThreadedCommentAuthorCollection
 | --- | --- |
 | [Add(const U16String\& name, const U16String\& userId, const U16String\& providerId)](./add/) | Adds one thread comment person. |
 | [Add(const char16_t* name, const char16_t* userId, const char16_t* providerId)](./add/) | Adds one thread comment person. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ThreadedCommentAuthorCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ThreadedCommentAuthorCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the person who create threaded comments. |
 | [Get(const U16String\& name)](./get/) | Gets the person who create threaded comments. |
 | [Get(const char16_t* name)](./get/) | Gets the person who create threaded comments. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetCurrentPerson()](./getcurrentperson/) | Gets and sets the current user. |
 | [IndexOf(const ThreadedCommentAuthor\& author)](./indexof/) | Gets the index of [ThreadedCommentAuthor](../threadedcommentauthor/) object. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

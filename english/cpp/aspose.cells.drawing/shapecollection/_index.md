@@ -67,15 +67,17 @@ class ShapeCollection
 | [AddTextEffectInChart(MsoPresetTextEffect effect, const char16_t* text, const char16_t* fontName, int32_t size, bool fontBold, bool fontItalic, int32_t top, int32_t left, int32_t height, int32_t width)](./addtexteffectinchart/) | Inserts a WordArt object to the chart. |
 | [AddWordArt(PresetWordArtStyle style, const U16String\& text, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addwordart/) | Adds preset WordArt since Excel 2007.s. |
 | [AddWordArt(PresetWordArtStyle style, const char16_t* text, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addwordart/) | Adds preset WordArt since Excel 2007.s. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ShapeCollection](./). |
 | [Clear()](./clear/) | Clear all shapes in the worksheet. |
 | [CopyCommentsInRange(const ShapeCollection\& shapes, const CellArea\& ca, int32_t destRow, int32_t destColumn)](./copycommentsinrange/) | Copy all comments in the range. |
 | [CopyInRange(const ShapeCollection\& sourceShapes, const CellArea\& ca, int32_t destRow, int32_t destColumn, bool isContained)](./copyinrange/) | Copy shapes in the range to destination range. |
 | [DeleteInRange(const CellArea\& ca)](./deleteinrange/) | Delete shapes in the range.Comment shapes will not be deleted. |
 | [DeleteShape(const Shape\& shape)](./deleteshape/) | Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted. |
+| [end()](./end/) | Returns an iterator to the end of the [ShapeCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Shape](../shape/) object at the specific index in the list. |
 | [Get(const U16String\& name)](./get/) | Gets the [Shape](../shape/) object by the name of the shape. |
 | [Get(const char16_t* name)](./get/) | Gets the [Shape](../shape/) object by the name of the shape. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [Group(const Vector \<Shape\>\& groupItems)](./group/) | Group the shapes. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

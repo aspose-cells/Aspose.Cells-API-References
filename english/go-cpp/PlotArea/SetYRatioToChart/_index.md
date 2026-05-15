@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/setyratiotochart/
 
 ## SetYRatioToChart function
 
-Gets or gets the y coordinate of the upper top corner  of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area.
 
 ```go
 

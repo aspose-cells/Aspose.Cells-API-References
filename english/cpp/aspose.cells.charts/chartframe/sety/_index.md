@@ -4,7 +4,7 @@ linktitle: SetY
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetY method. Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.cells.charts/chartframe/sety/
 ---
 ## ChartFrame::SetY method

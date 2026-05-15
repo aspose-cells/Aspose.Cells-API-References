@@ -4,7 +4,7 @@ linktitle: GridlineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::GridlineType enum. Enumerates grid line Type in C++.'
 type: docs
-weight: 22100
+weight: 22400
 url: /cpp/aspose.cells/gridlinetype/
 ---
 ## GridlineType enum

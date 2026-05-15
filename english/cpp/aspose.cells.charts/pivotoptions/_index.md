@@ -25,7 +25,7 @@ class PivotOptions
 | [GetDropZoneFilter()](./getdropzonefilter/) | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [GetDropZoneSeries()](./getdropzoneseries/) | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [GetDropZonesVisible()](./getdropzonesvisible/) | Specifies whether any pivot controls can appear on the pivot chart. |
-| [GetShowExpandCollapseFieldButtons()](./getshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand/collapse field buttons. |
+| [GetShowExpandCollapseFieldButtons()](./getshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand or collapse field buttons. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotOptions\& src)](./operator_asm/) | operator= |
@@ -36,7 +36,7 @@ class PivotOptions
 | [SetDropZoneFilter(bool value)](./setdropzonefilter/) | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [SetDropZoneSeries(bool value)](./setdropzoneseries/) | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [SetDropZonesVisible(bool value)](./setdropzonesvisible/) | Specifies whether any pivot controls can appear on the pivot chart. |
-| [SetShowExpandCollapseFieldButtons(bool value)](./setshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand/collapse field buttons. |
+| [SetShowExpandCollapseFieldButtons(bool value)](./setshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand or collapse field buttons. |
 | [~PivotOptions()](./~pivotoptions/) | Destructor. |
 ## Fields
 

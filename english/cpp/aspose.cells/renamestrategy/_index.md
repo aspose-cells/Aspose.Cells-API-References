@@ -4,7 +4,7 @@ linktitle: RenameStrategy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RenameStrategy enum. Strategy option for duplicate names of columns in C++.'
 type: docs
-weight: 25800
+weight: 26200
 url: /cpp/aspose.cells/renamestrategy/
 ---
 ## RenameStrategy enum

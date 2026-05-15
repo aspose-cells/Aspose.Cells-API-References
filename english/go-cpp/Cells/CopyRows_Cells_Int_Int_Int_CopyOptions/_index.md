@@ -14,7 +14,7 @@ Copies data and formats of some whole rows.
 
 ```go
 
-func (instance *Cells) CopyRows_Cells_Int_Int_Int_CopyOptions(sourcecells0 *Cells, sourcerowindex int32, destinationrowindex int32, rownumber int32, copyoptions *CopyOptions)  error
+func (instance *Cells) CopyRows_Cells_Int_Int_Int_CopyOptions(sourcecells *Cells, sourcerowindex int32, destinationrowindex int32, rownumber int32, copyoptions *CopyOptions)  error
 
 ```
 

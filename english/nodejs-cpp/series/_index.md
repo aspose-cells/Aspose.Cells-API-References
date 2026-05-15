@@ -74,7 +74,7 @@ workbook.save("output/ChartsSeries.xls");
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered](#isFiltered--)| boolean | Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
 | [layoutProperties](#layoutProperties--)| SeriesLayoutProperties | Readonly. Represents the properties of layout. |
 | [points](#points--)| ChartPointCollection | Readonly. Gets the collection of points in a series in a chart. |
 | [area](#area--)| Area | Readonly. Represents the background area of the Series object. |
@@ -86,19 +86,19 @@ workbook.save("output/ChartsSeries.xls");
 | [values](#values--)| string | Represents the Y values of this chart series. |
 | [pointValues](#pointValues--)| ChartDataValue[] | Readonly. Gets the actual values that are used to plot every point of this series in the chart. |
 | [categoryValues](#categoryValues--)| ChartDataValue[][] | Readonly. Gets the actual category values that are used to plot every point of this series in the chart. |
-| [valuesFormatCode](#valuesFormatCode--)| string | Represents format code of Values' NumberList. |
+| [valuesFormatCode](#valuesFormatCode--)| string | Represents the format code of the Values NumberList. |
 | [xValuesFormatCode](#xValuesFormatCode--)| string | Represents format code of X Values' NumberList. |
 | [xValues](#xValues--)| string | Represents the X values of this chart series. |
-| [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble sizes values of the chart series. |
+| [bubbleSizes](#bubbleSizes--)| string | Gets or sets the bubble size values of the chart series. |
 | [trendLines](#trendLines--)| TrendlineCollection | Readonly. Returns all the trendlines of this series. |
-| [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
+| [smooth](#smooth--)| boolean | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
 | [shadow](#shadow--)| boolean | True if the series has a shadow. |
 | [has3DEffect](#has3DEffect--)| boolean | True if the series has a three-dimensional appearance. |
 | [bar3DShapeType](#bar3DShapeType--)| Bar3DShapeType | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [dataLabels](#dataLabels--)| DataLabels | Readonly. Represents the DataLabels object for the specified ASeries. |
 | [type](#type--)| ChartType | Gets or sets a data series' type. |
 | [marker](#marker--)| Marker | Readonly. Gets the <see cref="Marker">marker</see>. |
-| [plotOnSecondAxis](#plotOnSecondAxis--)| boolean | Indicates if this series is plotted on second value axis. |
+| [plotOnSecondAxis](#plotOnSecondAxis--)| boolean | Indicates if this series is plotted on the second value axis. |
 | [xErrorBar](#xErrorBar--)| ErrorBar | Readonly. Represents X direction error bar of the series. |
 | [yErrorBar](#yErrorBar--)| ErrorBar | Readonly. Represents Y direction error bar of the series. |
 | [hasHiLoLines](#hasHiLoLines--)| boolean | True if the line chart has high-low lines. Applies only to line charts. |
@@ -106,13 +106,13 @@ workbook.save("output/ChartsSeries.xls");
 | [hasSeriesLines](#hasSeriesLines--)| boolean | True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts. |
 | [seriesLines](#seriesLines--)| Line | Readonly. Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [hasDropLines](#hasDropLines--)| boolean | True if the chart has drop lines. Applies only to line chart or area charts. |
-| [dropLines](#dropLines--)| Line | Readonly. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
+| [dropLines](#dropLines--)| Line | Readonly. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts. |
 | [hasUpDownBars](#hasUpDownBars--)| boolean | True if a line chart has up and down bars. Applies only to line charts. |
-| [upBars](#upBars--)| DropBars | Readonly. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
+| [upBars](#upBars--)| DropBars | Readonly. Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts. |
 | [downBars](#downBars--)| DropBars | Readonly. Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
-| [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [isColorVaried](#isColorVaried--)| boolean | Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [gapWidth](#gapWidth--)| number | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
-| [firstSliceAngle](#firstSliceAngle--)| number | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
+| [firstSliceAngle](#firstSliceAngle--)| number | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
 | [overlap](#overlap--)| number | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [secondPlotSize](#secondPlotSize--)| number | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [splitType](#splitType--)| ChartSplitType | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
@@ -133,8 +133,8 @@ workbook.save("output/ChartsSeries.xls");
 
 | Method | Description |
 | --- | --- |
-| [isFiltered()](#isFiltered--)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
-| [setIsFiltered(boolean)](#setIsFiltered-boolean-)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [isFiltered()](#isFiltered--)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
+| [setIsFiltered(boolean)](#setIsFiltered-boolean-)| <b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
 | [getLayoutProperties()](#getLayoutProperties--)| <b>@deprecated.</b> Please use the 'layoutProperties' property instead. Represents the properties of layout. |
 | [getPoints()](#getPoints--)| <b>@deprecated.</b> Please use the 'points' property instead. Gets the collection of points in a series in a chart. |
 | [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Represents the background area of the Series object. |
@@ -148,17 +148,17 @@ workbook.save("output/ChartsSeries.xls");
 | [setValues(string)](#setValues-string-)| <b>@deprecated.</b> Please use the 'values' property instead. Represents the Y values of this chart series. |
 | [getPointValues()](#getPointValues--)| <b>@deprecated.</b> Please use the 'pointValues' property instead. Gets the actual values that are used to plot every point of this series in the chart. |
 | [getCategoryValues()](#getCategoryValues--)| <b>@deprecated.</b> Please use the 'categoryValues' property instead. Gets the actual category values that are used to plot every point of this series in the chart. |
-| [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList. |
-| [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList. |
+| [getValuesFormatCode()](#getValuesFormatCode--)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents the format code of the Values NumberList. |
+| [setValuesFormatCode(string)](#setValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents the format code of the Values NumberList. |
 | [getXValuesFormatCode()](#getXValuesFormatCode--)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList. |
 | [setXValuesFormatCode(string)](#setXValuesFormatCode-string-)| <b>@deprecated.</b> Please use the 'xValuesFormatCode' property instead. Represents format code of X Values' NumberList. |
 | [getXValues()](#getXValues--)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
 | [setXValues(string)](#setXValues-string-)| <b>@deprecated.</b> Please use the 'xValues' property instead. Represents the X values of this chart series. |
-| [getBubbleSizes()](#getBubbleSizes--)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series. |
-| [setBubbleSizes(string)](#setBubbleSizes-string-)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series. |
+| [getBubbleSizes()](#getBubbleSizes--)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble size values of the chart series. |
+| [setBubbleSizes(string)](#setBubbleSizes-string-)| <b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble size values of the chart series. |
 | [getTrendLines()](#getTrendLines--)| <b>@deprecated.</b> Please use the 'trendLines' property instead. Returns all the trendlines of this series. |
-| [getSmooth()](#getSmooth--)| <b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
-| [setSmooth(boolean)](#setSmooth-boolean-)| <b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
+| [getSmooth()](#getSmooth--)| <b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
+| [setSmooth(boolean)](#setSmooth-boolean-)| <b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
 | [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the series has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the series has a shadow. |
 | [getHas3DEffect()](#getHas3DEffect--)| <b>@deprecated.</b> Please use the 'has3DEffect' property instead. True if the series has a three-dimensional appearance. |
@@ -169,8 +169,8 @@ workbook.save("output/ChartsSeries.xls");
 | [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets a data series' type. |
 | [setType(ChartType)](#setType-charttype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets or sets a data series' type. |
 | [getMarker()](#getMarker--)| <b>@deprecated.</b> Please use the 'marker' property instead. Gets the <see cref="Marker">marker</see>. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--)| <b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on second value axis. |
-| [setPlotOnSecondAxis(boolean)](#setPlotOnSecondAxis-boolean-)| <b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on second value axis. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--)| <b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on the second value axis. |
+| [setPlotOnSecondAxis(boolean)](#setPlotOnSecondAxis-boolean-)| <b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on the second value axis. |
 | [getXErrorBar()](#getXErrorBar--)| <b>@deprecated.</b> Please use the 'xErrorBar' property instead. Represents X direction error bar of the series. |
 | [getYErrorBar()](#getYErrorBar--)| <b>@deprecated.</b> Please use the 'yErrorBar' property instead. Represents Y direction error bar of the series. |
 | [getHasHiLoLines()](#getHasHiLoLines--)| <b>@deprecated.</b> Please use the 'hasHiLoLines' property instead. True if the line chart has high-low lines. Applies only to line charts. |
@@ -181,17 +181,17 @@ workbook.save("output/ChartsSeries.xls");
 | [getSeriesLines()](#getSeriesLines--)| <b>@deprecated.</b> Please use the 'seriesLines' property instead. Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [getHasDropLines()](#getHasDropLines--)| <b>@deprecated.</b> Please use the 'hasDropLines' property instead. True if the chart has drop lines. Applies only to line chart or area charts. |
 | [setHasDropLines(boolean)](#setHasDropLines-boolean-)| <b>@deprecated.</b> Please use the 'hasDropLines' property instead. True if the chart has drop lines. Applies only to line chart or area charts. |
-| [getDropLines()](#getDropLines--)| <b>@deprecated.</b> Please use the 'dropLines' property instead. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
+| [getDropLines()](#getDropLines--)| <b>@deprecated.</b> Please use the 'dropLines' property instead. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts. |
 | [getHasUpDownBars()](#getHasUpDownBars--)| <b>@deprecated.</b> Please use the 'hasUpDownBars' property instead. True if a line chart has up and down bars. Applies only to line charts. |
 | [setHasUpDownBars(boolean)](#setHasUpDownBars-boolean-)| <b>@deprecated.</b> Please use the 'hasUpDownBars' property instead. True if a line chart has up and down bars. Applies only to line charts. |
-| [getUpBars()](#getUpBars--)| <b>@deprecated.</b> Please use the 'upBars' property instead. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
+| [getUpBars()](#getUpBars--)| <b>@deprecated.</b> Please use the 'upBars' property instead. Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts. |
 | [getDownBars()](#getDownBars--)| <b>@deprecated.</b> Please use the 'downBars' property instead. Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
-| [isColorVaried()](#isColorVaried--)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [isColorVaried()](#isColorVaried--)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| <b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
 | [getGapWidth()](#getGapWidth--)| <b>@deprecated.</b> Please use the 'gapWidth' property instead. Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [setGapWidth(number)](#setGapWidth-number-)| <b>@deprecated.</b> Please use the 'gapWidth' property instead. Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--)| <b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
-| [setFirstSliceAngle(number)](#setFirstSliceAngle-number-)| <b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--)| <b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
+| [setFirstSliceAngle(number)](#setFirstSliceAngle-number-)| <b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
 | [getOverlap()](#getOverlap--)| <b>@deprecated.</b> Please use the 'overlap' property instead. Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [setOverlap(number)](#setOverlap-number-)| <b>@deprecated.</b> Please use the 'overlap' property instead. Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
 | [getSecondPlotSize()](#getSecondPlotSize--)| <b>@deprecated.</b> Please use the 'secondPlotSize' property instead. Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
@@ -224,7 +224,7 @@ workbook.save("output/ChartsSeries.xls");
 
 ### isFiltered {#isFiltered--}
 
-Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 isFiltered : boolean;
@@ -367,7 +367,7 @@ This property provides one convenient way to get the actual values corresponding
 
 ### valuesFormatCode {#valuesFormatCode--}
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 ```javascript
 valuesFormatCode : string;
@@ -398,7 +398,7 @@ Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](..
 
 ### bubbleSizes {#bubbleSizes--}
 
-Gets or sets the bubble sizes values of the chart series.
+Gets or sets the bubble size values of the chart series.
 
 ```javascript
 bubbleSizes : string;
@@ -420,7 +420,7 @@ trendLines : TrendlineCollection;
 
 ### smooth {#smooth--}
 
-Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts.
+Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 ```javascript
 smooth : boolean;
@@ -487,7 +487,7 @@ marker : Marker;
 
 ### plotOnSecondAxis {#plotOnSecondAxis--}
 
-Indicates if this series is plotted on second value axis.
+Indicates if this series is plotted on the second value axis.
 
 ```javascript
 plotOnSecondAxis : boolean;
@@ -559,7 +559,7 @@ hasDropLines : boolean;
 
 ### dropLines {#dropLines--}
 
-Readonly. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
+Readonly. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts.
 
 ```javascript
 dropLines : Line;
@@ -577,7 +577,7 @@ hasUpDownBars : boolean;
 
 ### upBars {#upBars--}
 
-Readonly. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts.
+Readonly. Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts.
 
 ```javascript
 upBars : DropBars;
@@ -595,7 +595,7 @@ downBars : DropBars;
 
 ### isColorVaried {#isColorVaried--}
 
-Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
+Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 ```javascript
 isColorVaried : boolean;
@@ -613,7 +613,7 @@ gapWidth : number;
 
 ### firstSliceAngle {#firstSliceAngle--}
 
-Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 ```javascript
 firstSliceAngle : number;
@@ -761,7 +761,7 @@ shapeProperties : ShapePropertyCollection;
 
 ### isFiltered() {#isFiltered--}
 
-<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
+<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 isFiltered() : boolean;
@@ -770,7 +770,7 @@ isFiltered() : boolean;
 
 ### setIsFiltered(boolean) {#setIsFiltered-boolean-}
 
-<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart.
+<b>@deprecated.</b> Please use the 'isFiltered' property instead. Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 ```javascript
 setIsFiltered(value: boolean) : void;
@@ -952,7 +952,7 @@ This property provides one convenient way to get the actual values corresponding
 
 ### getValuesFormatCode() {#getValuesFormatCode--}
 
-<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList.
+<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents the format code of the Values NumberList.
 
 ```javascript
 getValuesFormatCode() : string;
@@ -961,7 +961,7 @@ getValuesFormatCode() : string;
 
 ### setValuesFormatCode(string) {#setValuesFormatCode-string-}
 
-<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents format code of Values' NumberList.
+<b>@deprecated.</b> Please use the 'valuesFormatCode' property instead. Represents the format code of the Values NumberList.
 
 ```javascript
 setValuesFormatCode(value: string) : void;
@@ -1026,7 +1026,7 @@ Only for Scatter and Bubble chart. Please use [SeriesCollection.CategoryData](..
 
 ### getBubbleSizes() {#getBubbleSizes--}
 
-<b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series.
+<b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble size values of the chart series.
 
 ```javascript
 getBubbleSizes() : string;
@@ -1039,7 +1039,7 @@ Only for [ChartType.Bubble](../charttype.bubble/) or [ChartType.Bubble3D](../cha
 
 ### setBubbleSizes(string) {#setBubbleSizes-string-}
 
-<b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble sizes values of the chart series.
+<b>@deprecated.</b> Please use the 'bubbleSizes' property instead. Gets or sets the bubble size values of the chart series.
 
 ```javascript
 setBubbleSizes(value: string) : void;
@@ -1069,7 +1069,7 @@ getTrendLines() : TrendlineCollection;
 
 ### getSmooth() {#getSmooth--}
 
-<b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts.
+<b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 ```javascript
 getSmooth() : boolean;
@@ -1078,7 +1078,7 @@ getSmooth() : boolean;
 
 ### setSmooth(boolean) {#setSmooth-boolean-}
 
-<b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts.
+<b>@deprecated.</b> Please use the 'smooth' property instead. Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 ```javascript
 setSmooth(value: boolean) : void;
@@ -1221,7 +1221,7 @@ getMarker() : Marker;
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
 
-<b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on second value axis.
+<b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on the second value axis.
 
 ```javascript
 getPlotOnSecondAxis() : boolean;
@@ -1230,7 +1230,7 @@ getPlotOnSecondAxis() : boolean;
 
 ### setPlotOnSecondAxis(boolean) {#setPlotOnSecondAxis-boolean-}
 
-<b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on second value axis.
+<b>@deprecated.</b> Please use the 'plotOnSecondAxis' property instead. Indicates if this series is plotted on the second value axis.
 
 ```javascript
 setPlotOnSecondAxis(value: boolean) : void;
@@ -1361,7 +1361,7 @@ setHasDropLines(value: boolean) : void;
 
 ### getDropLines() {#getDropLines--}
 
-<b>@deprecated.</b> Please use the 'dropLines' property instead. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
+<b>@deprecated.</b> Please use the 'dropLines' property instead. Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts.
 
 ```javascript
 getDropLines() : Line;
@@ -1396,7 +1396,7 @@ setHasUpDownBars(value: boolean) : void;
 
 ### getUpBars() {#getUpBars--}
 
-<b>@deprecated.</b> Please use the 'upBars' property instead. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts.
+<b>@deprecated.</b> Please use the 'upBars' property instead. Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts.
 
 ```javascript
 getUpBars() : DropBars;
@@ -1422,7 +1422,7 @@ getDownBars() : DropBars;
 
 ### isColorVaried() {#isColorVaried--}
 
-<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
+<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 ```javascript
 isColorVaried() : boolean;
@@ -1431,7 +1431,7 @@ isColorVaried() : boolean;
 
 ### setIsColorVaried(boolean) {#setIsColorVaried-boolean-}
 
-<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart.
+<b>@deprecated.</b> Please use the 'isColorVaried' property instead. Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 ```javascript
 setIsColorVaried(value: boolean) : void;
@@ -1466,7 +1466,7 @@ setGapWidth(value: number) : void;
 
 ### getFirstSliceAngle() {#getFirstSliceAngle--}
 
-<b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+<b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 ```javascript
 getFirstSliceAngle() : number;
@@ -1475,7 +1475,7 @@ getFirstSliceAngle() : number;
 
 ### setFirstSliceAngle(number) {#setFirstSliceAngle-number-}
 
-<b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+<b>@deprecated.</b> Please use the 'firstSliceAngle' property instead. Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 ```javascript
 setFirstSliceAngle(value: number) : void;

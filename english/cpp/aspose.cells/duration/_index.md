@@ -4,7 +4,7 @@ linktitle: Duration
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Duration struct. Represents a time interval with a resolution of 100 nanoseconds (tick) in C++.'
 type: docs
-weight: 28900
+weight: 29100
 url: /cpp/aspose.cells/duration/
 ---
 ## Duration struct

@@ -4,7 +4,7 @@ linktitle: RemoveAt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaCollection::RemoveAt method. Remove one pivot conditional formatted area setting in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.pivot/pivotareacollection/removeat/
 ---
 ## PivotAreaCollection::RemoveAt method

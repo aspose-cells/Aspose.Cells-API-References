@@ -10,7 +10,7 @@ url: /go-cpp/timelinecollection/
 
 ## TimelineCollection class
 
-Specifies the collection of all the Timeline objects on the specified worksheet.Due to MS Excel, Excel 2003 does not support Timeline.
+Specifies the collection of all the <see cref="Timeline"/> objects on the worksheet.It was supported since Excel 2013.
 
 ```go
 

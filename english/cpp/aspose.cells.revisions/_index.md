@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Revisions
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Revisions namespace in C++.'
 type: docs
-weight: 1900
+weight: 2400
 url: /cpp/aspose.cells.revisions/
 ---
 

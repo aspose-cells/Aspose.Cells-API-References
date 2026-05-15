@@ -4,7 +4,7 @@ linktitle: DisplayDrawingObjects
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DisplayDrawingObjects enum. Represents whether and how to show objects in the workbook in C++.'
 type: docs
-weight: 20200
+weight: 20500
 url: /cpp/aspose.cells/displaydrawingobjects/
 ---
 ## DisplayDrawingObjects enum

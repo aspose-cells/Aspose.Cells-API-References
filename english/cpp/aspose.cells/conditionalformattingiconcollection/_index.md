@@ -22,10 +22,12 @@ class ConditionalFormattingIconCollection
 | --- | --- |
 | [Add(IconSetType type, int32_t index)](./add/) | Adds [ConditionalFormattingIcon](../conditionalformattingicon/) object. |
 | [Add(const ConditionalFormattingIcon\& cficon)](./add/) |  **(Deprecated)** Adds [ConditionalFormattingIcon](../conditionalformattingicon/) object. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ConditionalFormattingIconCollection](./). |
 | [ConditionalFormattingIconCollection(ConditionalFormattingIconCollection_Impl* impl)](./conditionalformattingiconcollection/) | Constructs from an implementation object. |
 | [ConditionalFormattingIconCollection(const ConditionalFormattingIconCollection\& src)](./conditionalformattingiconcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [ConditionalFormattingIconCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ConditionalFormattingIcon](../conditionalformattingicon/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConditionalFormattingIconCollection\& src)](./operator_asm/) | operator= |

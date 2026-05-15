@@ -21,8 +21,10 @@ class WebExtensionTaskPaneCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds task pane. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionTaskPaneCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionTaskPaneCollection](./). |
 | [Get(int32_t index)](./get/) | Gets task pane by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WebExtensionTaskPaneCollection\& src)](./operator_asm/) | operator= |

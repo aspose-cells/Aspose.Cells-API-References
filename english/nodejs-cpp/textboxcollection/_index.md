@@ -11,7 +11,7 @@ url: /nodejs-cpp/textboxcollection/
 Encapsulates a collection of [TextBox](../textbox/) objects.
 
 ```javascript
-class TextBoxCollection;
+class TextBoxCollection implements Iterable<TextBox>;
 ```
 
 
@@ -26,6 +26,11 @@ class TextBoxCollection;
 | [clear()](#clear--)| Clear all text boxes. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<TextBox\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

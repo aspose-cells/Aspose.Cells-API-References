@@ -38,8 +38,6 @@ type Legend struct  {
 |[SetIsOverLay](./setisoverlay/) | Gets or sets whether showing the legend without overlapping the chart. | 
 |[IsInnerMode](./isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels.False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. | 
 |[SetIsInnerMode](./setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels.False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. | 
-|[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 
-|[SetBackgroundMode](./setbackgroundmode/) | Gets and sets the display mode of the background | 
 |[GetShadow](./getshadow/) | True if the frame has a shadow. | 
 |[SetShadow](./setshadow/) | True if the frame has a shadow. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the ShapeProperties object. | 
@@ -73,14 +71,14 @@ type Legend struct  {
 |[GetHeightPixel](./getheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
 |[SetHeightPixel](./setheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
 |[SetPositionAuto](./setpositionauto/) | Set position of the frame to automatic | 
-|[IsDeleted](./isdeleted/) | Indicates whether this data labels is deleted. | 
-|[SetIsDeleted](./setisdeleted/) | Indicates whether this data labels is deleted. | 
+|[IsDeleted](./isdeleted/) | Indicates whether this data labels are deleted. | 
+|[SetIsDeleted](./setisdeleted/) | Indicates whether this data labels are deleted. | 
 |[GetTextHorizontalAlignment](./gettexthorizontalalignment/) | Gets and sets the text horizontal alignment. | 
 |[SetTextHorizontalAlignment](./settexthorizontalalignment/) | Gets and sets the text horizontal alignment. | 
 |[GetTextVerticalAlignment](./gettextverticalalignment/) | Gets or sets the text vertical alignment of text. | 
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets or sets the text vertical alignment of text. | 
-|[GetRotationAngle](./getrotationangle/) | Represents text rotation angle. | 
-|[SetRotationAngle](./setrotationangle/) | Represents text rotation angle. | 
+|[GetRotationAngle](./getrotationangle/) | Represents the text rotation angle. | 
+|[SetRotationAngle](./setrotationangle/) | Represents the text rotation angle. | 
 |[IsAutomaticRotation](./isautomaticrotation/) | Indicates whether the text of the chart is automatically rotated. | 
 |[Characters](./characters/) | Returns a Characters object that represents a range of characters within the text. | 
 |[GetReadingOrder](./getreadingorder/) | Represents text reading order. | 

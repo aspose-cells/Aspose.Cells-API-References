@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Vba
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Vba namespace in C++.'
 type: docs
-weight: 2700
+weight: 3300
 url: /cpp/aspose.cells.vba/
 ---
 

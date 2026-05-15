@@ -41,6 +41,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a style's background color. |
 | [getBackgroundThemeColor()](#getBackgroundThemeColor--) | Gets the background theme color. |
 | [getBorders()](#getBorders--) | Gets the [BorderCollection](../../com.aspose.cells/bordercollection) of the style. |
+| [getBottomBorder()](#getBottomBorder--) | Gets the bottom border. |
 | [getClass()](#getClass--) |  |
 | [getCultureCustom()](#getCultureCustom--) | Gets the culture-dependent pattern string for number format. |
 | [getCustom()](#getCustom--) | Represents the custom number format string of this style object. |
@@ -51,14 +52,17 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets the horizontal alignment type of the text in a cell. |
 | [getIndentLevel()](#getIndentLevel--) | Represents the indent level for the cell or range. |
 | [getInvariantCustom()](#getInvariantCustom--) | Gets the culture-independent pattern string for number format. |
+| [getLeftBorder()](#getLeftBorder--) | Gets the left border. |
 | [getName()](#getName--) | Gets the name of the style. |
 | [getNumber()](#getNumber--) | Gets the display format of numbers and dates. |
 | [getParentStyle()](#getParentStyle--) | Gets the parent style of this style. |
 | [getPattern()](#getPattern--) | Gets the cell background pattern type. |
 | [getQuotePrefix()](#getQuotePrefix--) | Indicates whether the cell's value starts with single quote mark. |
+| [getRightBorder()](#getRightBorder--) | Gets the right border. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
 | [getShrinkToFit()](#getShrinkToFit--) | Represents if text automatically shrinks to fit in the available column width. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
+| [getTopBorder()](#getTopBorder--) | Gets the top border. |
 | [getTwoColorGradient()](#getTwoColorGradient--) | Get the two-color gradient setting. |
 | [getTwoColorGradientSetting()](#getTwoColorGradientSetting--) | Get the two-color gradient setting. |
 | [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment type of the text in a cell. |
@@ -212,6 +216,16 @@ Gets the [BorderCollection](../../com.aspose.cells/bordercollection) of the styl
 
 **Returns:**
 [BorderCollection](../../com.aspose.cells/bordercollection)
+### getBottomBorder() {#getBottomBorder--}
+```
+public Border getBottomBorder()
+```
+
+
+Gets the bottom border.
+
+**Returns:**
+[Border](../../com.aspose.cells/border)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -338,6 +352,16 @@ For builtin number formats, the returned pattern content is still culture-depend
 
 **Returns:**
 java.lang.String
+### getLeftBorder() {#getLeftBorder--}
+```
+public Border getLeftBorder()
+```
+
+
+Gets the left border.
+
+**Returns:**
+[Border](../../com.aspose.cells/border)
 ### getName() {#getName--}
 ```
 public String getName()
@@ -433,6 +457,16 @@ Indicates whether the cell's value starts with single quote mark.
 
 **Returns:**
 boolean
+### getRightBorder() {#getRightBorder--}
+```
+public Border getRightBorder()
+```
+
+
+Gets the right border.
+
+**Returns:**
+[Border](../../com.aspose.cells/border)
 ### getRotationAngle() {#getRotationAngle--}
 ```
 public int getRotationAngle()
@@ -477,6 +511,16 @@ See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
+### getTopBorder() {#getTopBorder--}
+```
+public Border getTopBorder()
+```
+
+
+Gets the top border.
+
+**Returns:**
+[Border](../../com.aspose.cells/border)
 ### getTwoColorGradient() {#getTwoColorGradient--}
 ```
 public Object[] getTwoColorGradient()

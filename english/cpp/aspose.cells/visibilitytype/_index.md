@@ -4,7 +4,7 @@ linktitle: VisibilityType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::VisibilityType enum. Represents the states for sheet visibility in C++.'
 type: docs
-weight: 28100
+weight: 28600
 url: /cpp/aspose.cells/visibilitytype/
 ---
 ## VisibilityType enum

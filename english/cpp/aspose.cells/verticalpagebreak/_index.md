@@ -4,7 +4,7 @@ linktitle: VerticalPageBreak
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::VerticalPageBreak class. Encapsulates the object that represents a vertical page break in C++.'
 type: docs
-weight: 16000
+weight: 16200
 url: /cpp/aspose.cells/verticalpagebreak/
 ---
 ## VerticalPageBreak class

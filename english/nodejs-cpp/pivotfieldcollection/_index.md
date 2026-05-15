@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotfieldcollection/
 Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type.
 
 ```javascript
-class PivotFieldCollection;
+class PivotFieldCollection implements Iterable<PivotField>;
 ```
 
 
@@ -36,6 +36,11 @@ class PivotFieldCollection;
 | [clear()](#clear--)| clear all fields of PivotFieldCollection |
 | [move(number, number)](#move-number-number-)| Moves the PivotField from current position to destination position |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotField\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### type {#type--}

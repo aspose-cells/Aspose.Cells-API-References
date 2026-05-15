@@ -4,7 +4,7 @@ linktitle: FilterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterType enum. The filter type in C++.'
 type: docs
-weight: 21400
+weight: 21700
 url: /cpp/aspose.cells/filtertype/
 ---
 ## FilterType enum

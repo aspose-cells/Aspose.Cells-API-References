@@ -22,7 +22,7 @@ class SensitivityLabelCollection
 | --- | --- |
 | [Add(const U16String\& id, bool isEnabled, SensitivityLabelAssignmentType methodType, const U16String\& siteId, SensitivityLabelMarkType markType)](./add/) | Adds a sensitivity label. |
 | [Add(const char16_t* id, bool isEnabled, SensitivityLabelAssignmentType methodType, const char16_t* siteId, SensitivityLabelMarkType markType)](./add/) | Adds a sensitivity label. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SensitivityLabelCollection\& src)](./operator_asm/) | operator= |

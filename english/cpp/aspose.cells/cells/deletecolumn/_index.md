@@ -4,7 +4,7 @@ linktitle: DeleteColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::DeleteColumn method. Deletes a column in C++.'
 type: docs
-weight: 10800
+weight: 11000
 url: /cpp/aspose.cells/cells/deletecolumn/
 ---
 ## Cells::DeleteColumn(int32_t, bool) method

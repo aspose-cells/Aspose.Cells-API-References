@@ -70,8 +70,8 @@ type DataLabels struct  {
 |[SetSeparatorValue](./setseparatorvalue/) | Gets or sets the separator value used for the data labels on a chart. | 
 |[GetPosition](./getposition/) | Represents the position of the data label. | 
 |[SetPosition](./setposition/) | Represents the position of the data label. | 
-|[IsNeverOverlap](./isneveroverlap/) | Indicates whether the datalabels display never overlap. (For Pie chart) | 
-|[SetIsNeverOverlap](./setisneveroverlap/) | Indicates whether the datalabels display never overlap. (For Pie chart) | 
+|[IsNeverOverlap](./isneveroverlap/) | Indicates whether datalabels never overlap when performing Pie Chart to image.Note: this property is only meaningful when Pie Chart to image. | 
+|[SetIsNeverOverlap](./setisneveroverlap/) | Indicates whether datalabels never overlap when performing Pie Chart to image.Note: this property is only meaningful when Pie Chart to image. | 
 |[GetShapeType](./getshapetype/) | Gets or sets  shape type of data label. | 
 |[SetShapeType](./setshapetype/) | Gets or sets  shape type of data label. | 
 |[IsInnerMode](./isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels.False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. | 
@@ -106,14 +106,14 @@ type DataLabels struct  {
 |[GetHeightPixel](./getheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
 |[SetHeightPixel](./setheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
 |[SetPositionAuto](./setpositionauto/) | Set position of the frame to automatic | 
-|[IsDeleted](./isdeleted/) | Indicates whether this data labels is deleted. | 
-|[SetIsDeleted](./setisdeleted/) | Indicates whether this data labels is deleted. | 
+|[IsDeleted](./isdeleted/) | Indicates whether this data labels are deleted. | 
+|[SetIsDeleted](./setisdeleted/) | Indicates whether this data labels are deleted. | 
 |[GetTextHorizontalAlignment](./gettexthorizontalalignment/) | Gets and sets the text horizontal alignment. | 
 |[SetTextHorizontalAlignment](./settexthorizontalalignment/) | Gets and sets the text horizontal alignment. | 
 |[GetTextVerticalAlignment](./gettextverticalalignment/) | Gets or sets the text vertical alignment of text. | 
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets or sets the text vertical alignment of text. | 
-|[GetRotationAngle](./getrotationangle/) | Represents text rotation angle. | 
-|[SetRotationAngle](./setrotationangle/) | Represents text rotation angle. | 
+|[GetRotationAngle](./getrotationangle/) | Represents the text rotation angle. | 
+|[SetRotationAngle](./setrotationangle/) | Represents the text rotation angle. | 
 |[IsAutomaticRotation](./isautomaticrotation/) | Indicates whether the text of the chart is automatically rotated. | 
 |[Characters](./characters/) | Returns a Characters object that represents a range of characters within the text. | 
 |[GetReadingOrder](./getreadingorder/) | Represents text reading order. | 

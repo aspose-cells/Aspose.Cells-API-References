@@ -4,7 +4,7 @@ linktitle: LegendPositionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::LegendPositionType enum. Enumerates the legend position types in C++.'
 type: docs
-weight: 5400
+weight: 5600
 url: /cpp/aspose.cells.charts/legendpositiontype/
 ---
 ## LegendPositionType enum

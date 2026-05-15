@@ -11,7 +11,7 @@ url: /nodejs-cpp/horizontalpagebreakcollection/
 Encapsulates a collection of [HorizontalPageBreak](../horizontalpagebreak/) objects.
 
 ```javascript
-class HorizontalPageBreakCollection;
+class HorizontalPageBreakCollection implements Iterable<HorizontalPageBreak>;
 ```
 
 
@@ -37,6 +37,11 @@ excel.worksheets.get(0).verticalPageBreaks.add("G5");
 | [removeAt(number)](#removeAt-number-)| Removes the HPageBreak element at a specified name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<HorizontalPageBreak\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

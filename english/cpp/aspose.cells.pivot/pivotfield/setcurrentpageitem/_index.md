@@ -4,7 +4,7 @@ linktitle: SetCurrentPageItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetCurrentPageItem method. Represents the current selected page item of the page field to filter data. Only valid for page fields in C++.'
 type: docs
-weight: 7600
+weight: 7800
 url: /cpp/aspose.cells.pivot/pivotfield/setcurrentpageitem/
 ---
 ## PivotField::SetCurrentPageItem method

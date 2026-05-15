@@ -4,7 +4,7 @@ linktitle: Advanced_Filter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::Advanced_Filter method. Filters data using complex criteria in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.cells/worksheet/advanced_filter/
 ---
 ## Worksheet::Advanced_Filter(bool, const U16String\&, const U16String\&, const U16String\&, bool) method

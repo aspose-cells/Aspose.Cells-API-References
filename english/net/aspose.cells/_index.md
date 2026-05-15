@@ -123,6 +123,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [NegativeBarFormat](./negativebarformat/) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [OdsLoadOptions](./odsloadoptions/) | Represents the options of loading ods file. |
 | [OdsSaveOptions](./odssaveoptions/) | Represents the options of saving ods file. |
+| [OfdSaveOptions](./ofdsaveoptions/) | Represents the options for saving a OFD(Open Fixed-layout Document) file. |
 | [OoxmlSaveOptions](./ooxmlsaveoptions/) | Represents the options of saving office open xml file. |
 | [Outline](./outline/) | Represents an outline on a worksheet. |
 | [PageSetup](./pagesetup/) | Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options. |
@@ -264,6 +265,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML  tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how to export OfficeMath to HTML. |
 | [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. |
+| [HyperlinkLoadMode](./hyperlinkloadmode/) | Specifies how hyperlinks are handled when loading HTML. |
 | [IconSetType](./iconsettype/) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
 | [LoadFormat](./loadformat/) | Represents the load file format. |

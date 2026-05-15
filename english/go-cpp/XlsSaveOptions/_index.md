@@ -49,8 +49,8 @@ type XlsSaveOptions struct  {
 |[SetSortNames](./setsortnames/) | Indicates whether sorting defined names before saving file. | 
 |[GetSortExternalNames](./getsortexternalnames/) | Indicates whether sorting external defined names before saving file. | 
 |[SetSortExternalNames](./setsortexternalnames/) | Indicates whether sorting external defined names before saving file. | 
-|[GetRefreshChartCache](./getrefreshchartcache/) | Indicates whether refreshing chart cache data | 
-|[SetRefreshChartCache](./setrefreshchartcache/) | Indicates whether refreshing chart cache data | 
+|[GetRefreshChartCache](./getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. | 
+|[SetRefreshChartCache](./setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. | 
 |[GetCheckExcelRestriction](./getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
 |[SetCheckExcelRestriction](./setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
 |[GetUpdateSmartArt](./getupdatesmartart/) | Indicates whether updating smart art setting.The default value is false. | 

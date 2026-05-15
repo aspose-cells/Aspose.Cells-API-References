@@ -4,7 +4,7 @@ linktitle: IsSameSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::IsSameSettings method. Flag indicating whether to parse all tables inside a PRE block with the same width settings as the first row in C++.'
 type: docs
-weight: 2600
+weight: 2800
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/issamesettings/
 ---
 ## WebQueryConnection::IsSameSettings method

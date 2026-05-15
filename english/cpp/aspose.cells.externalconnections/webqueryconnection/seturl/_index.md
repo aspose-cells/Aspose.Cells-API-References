@@ -4,7 +4,7 @@ linktitle: SetUrl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetUrl method. URL to use to refresh external data in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/seturl/
 ---
 ## WebQueryConnection::SetUrl(const U16String\&) method

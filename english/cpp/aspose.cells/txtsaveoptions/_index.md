@@ -4,7 +4,7 @@ linktitle: TxtSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtSaveOptions class. Represents the save options for csv/tab delimited/other text format in C++.'
 type: docs
-weight: 15500
+weight: 15600
 url: /cpp/aspose.cells/txtsaveoptions/
 ---
 ## TxtSaveOptions class

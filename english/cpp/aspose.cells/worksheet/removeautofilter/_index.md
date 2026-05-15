@@ -4,7 +4,7 @@ linktitle: RemoveAutoFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::RemoveAutoFilter method. Removes the auto filter of the worksheet in C++.'
 type: docs
-weight: 5500
+weight: 5600
 url: /cpp/aspose.cells/worksheet/removeautofilter/
 ---
 ## Worksheet::RemoveAutoFilter method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PivotOptions::GetShowExpandCollapseFieldButtons method
 linktitle: GetShowExpandCollapseFieldButtons
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PivotOptions::GetShowExpandCollapseFieldButtons method. Gets or sets a value indicating whether to show expand/collapse field buttons in C++.'
+description: 'Aspose::Cells::Charts::PivotOptions::GetShowExpandCollapseFieldButtons method. Gets or sets a value indicating whether to show expand or collapse field buttons in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.charts/pivotoptions/getshowexpandcollapsefieldbuttons/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/pivotoptions/getshowexpandcollapsefieldbuttons/
 ## PivotOptions::GetShowExpandCollapseFieldButtons method
 
 
-Gets or sets a value indicating whether to show expand/collapse field buttons.
+Gets or sets a value indicating whether to show expand or collapse field buttons.
 
 ```cpp
 bool Aspose::Cells::Charts::PivotOptions::GetShowExpandCollapseFieldButtons()

@@ -11,7 +11,7 @@ url: /nodejs-cpp/row/
 Represents a single row in a worksheet.
 
 ```javascript
-class Row;
+class Row implements Iterable<Cell>;
 ```
 
 
@@ -65,6 +65,11 @@ class Row;
 | [equals(Object)](#equals-object-)| Checks whether this object refers to the same row with another. |
 | [equals(Row)](#equals-row-)| Checks whether this object refers to the same row with another row object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Cell\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### isBlank {#isBlank--}

@@ -4,7 +4,7 @@ linktitle: ColorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ColorType enum. Represents all color type in C++.'
 type: docs
-weight: 19000
+weight: 19100
 url: /cpp/aspose.cells/colortype/
 ---
 ## ColorType enum

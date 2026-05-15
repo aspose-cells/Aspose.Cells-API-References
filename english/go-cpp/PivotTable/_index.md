@@ -34,6 +34,8 @@ type PivotTable struct  {
 |[SetIsExcel2003Compatible](./setisexcel2003compatible/) | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable,if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters,it will be truncated. if false, a string will not have the aforementioned restriction.The default value is true. | 
 |[GetRefreshedByWho](./getrefreshedbywho/) | Gets the name of the last user who refreshed this PivotTable | 
 |[GetRefreshDate](./getrefreshdate/) | Gets the last date time when the PivotTable was refreshed. | 
+|[GetPivotTableStyle](./getpivottablestyle/) | Gets TableStyle settings of this pivot table. | 
+|[SetPivotTableStyle](./setpivottablestyle/) | Gets TableStyle settings of this pivot table. | 
 |[GetPivotTableStyleName](./getpivottablestylename/) | Gets and sets the pivottable style name. | 
 |[SetPivotTableStyleName](./setpivottablestylename/) | Gets and sets the pivottable style name. | 
 |[GetPivotTableStyleType](./getpivottablestyletype/) | Gets and sets the built-in pivot table style. | 
@@ -58,6 +60,9 @@ type PivotTable struct  {
 |[GetValuesField](./getvaluesfield/) | Gets a PivotField object that represents all the data fields in a PivotTable.Read-only.It would only be created when there are two or more data fields in the Data region.Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . | 
 |[GetBaseFields](./getbasefields/) | Returns all base pivot fields in the PivotTable. | 
 |[GetPivotFilters](./getpivotfilters/) | Returns all filters of pivot fields in the pivot table. | 
+|[GetButtonArea](./getbuttonarea/) | Gets the area contains field button. | 
+|[GetTopRightArea](./gettoprightarea/) | Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). | 
+|[GetFilterArea](./getfilterarea/) | Gets the area of filter region. | 
 |[GetColumnRange](./getcolumnrange/) | Returns a CellArea object that represents the rangethat contains the column area in the PivotTable report. Read-only. | 
 |[GetRowRange](./getrowrange/) | Returns a CellArea object that represents the rangethat contains the row area in the PivotTable report. Read-only. | 
 |[GetDataBodyRange](./getdatabodyrange/) | Returns a CellArea object that represents the range that contains the data areain the list between the header row and the insert row. Read-only. | 

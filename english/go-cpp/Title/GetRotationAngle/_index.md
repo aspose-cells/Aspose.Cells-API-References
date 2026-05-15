@@ -10,7 +10,7 @@ url: /go-cpp/title/getrotationangle/
 
 ## GetRotationAngle function
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```go
 

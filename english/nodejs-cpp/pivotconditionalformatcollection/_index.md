@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotconditionalformatcollection/
 Represents all conditional formats of pivot table.
 
 ```javascript
-class PivotConditionalFormatCollection;
+class PivotConditionalFormatCollection implements Iterable<PivotConditionalFormat>;
 ```
 
 
@@ -23,6 +23,11 @@ class PivotConditionalFormatCollection;
 | [add()](#add--)| Adds a pivot FormatCondition to the collection. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotConditionalFormat\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

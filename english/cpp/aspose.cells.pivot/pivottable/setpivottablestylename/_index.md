@@ -4,7 +4,7 @@ linktitle: SetPivotTableStyleName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetPivotTableStyleName method. Gets and sets the pivottable style name in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivottable/setpivottablestylename/
 ---
 ## PivotTable::SetPivotTableStyleName(const U16String\&) method

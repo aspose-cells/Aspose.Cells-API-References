@@ -4,7 +4,7 @@ linktitle: PdfFontEncoding
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::PdfFontEncoding enum. Represents pdf embedded font encoding in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells.rendering/pdffontencoding/
 ---
 ## PdfFontEncoding enum

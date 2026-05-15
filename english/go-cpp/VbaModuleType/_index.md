@@ -1,30 +1,27 @@
 ---
-title: VbaModuleType Class 
+title: VbaModuleType Enum 
 linktitle: VbaModuleType
 second_title: Aspose.Cells for Go via C++ API Reference
-description: 'VbaModuleType class. Encapsulates the object that represents vbamoduletype in Go.'
+description: 'VbaModuleType enum. Encapsulates the object that represents vbamoduletype in Go.'
 type: docs
 weight: 200
 url: /go-cpp/vbamoduletype/
 ---
 
-## VbaModuleType class
+## VbaModuleType Enum
 
-Represents a class module.
+Represents the type of VBA module.
 
 ```go
 
-type VbaModuleType struct  {
-	ptr unsafe.Pointer
-}
+type VbaModuleType int32
+
 
 ```
-## Constructors
 
-| Method | Description |
+## Fields
+
+| Field | Description |
 | --- | --- |
-
-## Methods
-
-| Method | Description |
-| --- | --- |
+|[Procedural](./procedural/) | Represents a procedural module. | 
+|[Document](./document/) | Represents a document module. | 

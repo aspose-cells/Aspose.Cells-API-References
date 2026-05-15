@@ -18,7 +18,7 @@ Represents the type of data plot by row or column.
 | Field | Description |
 | --- | --- |
 | [COLUMN](#COLUMN) | By column. |
-| [ROW](#ROW) | By row. |
+| [ROW](#ROW) | Sorted by row. |
 ## Methods
 
 | Method | Description |
@@ -46,7 +46,7 @@ public static final int ROW
 ```
 
 
-By row.
+Sorted by row.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

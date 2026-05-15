@@ -112,6 +112,7 @@ type Worksheet struct  {
 |[GetCharts](./getcharts/) | Gets a Chart collection | 
 |[GetComments](./getcomments/) | Gets the Comment collection. | 
 |[GetPictures](./getpictures/) | Gets a Picture collection. | 
+|[GetAllPictures](./getallpictures/) | Gets all pictures includes images are embedded in the cell and over the cells. | 
 |[GetTextBoxes](./gettextboxes/) | Gets a TextBox collection. | 
 |[GetCheckBoxes](./getcheckboxes/) | Gets a CheckBox collection. | 
 |[GetOleObjects](./getoleobjects/) | Represents a collection of OleObject in a worksheet. | 

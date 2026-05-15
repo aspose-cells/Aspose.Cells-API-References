@@ -4,7 +4,7 @@ linktitle: GetShapeProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetShapeProperties method. Gets the ShapePropertyCollection object that holds the visual shape properties of the ChartPoint in C++.'
 type: docs
-weight: 1600
+weight: 2000
 url: /cpp/aspose.cells.charts/chartpoint/getshapeproperties/
 ---
 ## ChartPoint::GetShapeProperties method

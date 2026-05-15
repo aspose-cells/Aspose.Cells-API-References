@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row class. Represents a single row in a worksheet in C++.'
 type: docs
-weight: 13000
+weight: 13200
 url: /cpp/aspose.cells/row/
 ---
 ## Row class
@@ -21,7 +21,9 @@ class Row
 | Method | Description |
 | --- | --- |
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole row. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [Row](./). |
 | [CopySettings(const Row\& source, bool checkStyle)](./copysettings/) | Copy settings of row, such as style, height, visibility, ...etc. |
+| [end()](./end/) | Returns an iterator to the end of the [Row](./). |
 | [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Checks whether this object refers to the same row with another. |
 | [Equals(const Row\& row)](./equals/) | Checks whether this object refers to the same row with another row object. |
 | [Get(int32_t column)](./get/) | Gets the cell. |

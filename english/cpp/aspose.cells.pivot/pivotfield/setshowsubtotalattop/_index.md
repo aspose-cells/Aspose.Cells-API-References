@@ -4,7 +4,7 @@ linktitle: SetShowSubtotalAtTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetShowSubtotalAtTop method. Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then in C++.'
 type: docs
-weight: 8000
+weight: 8200
 url: /cpp/aspose.cells.pivot/pivotfield/setshowsubtotalattop/
 ---
 ## PivotField::SetShowSubtotalAtTop method

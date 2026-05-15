@@ -4,7 +4,7 @@ linktitle: GetInnerArcEndPointYPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetInnerArcEndPointYPx method. Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart in C++.'
 type: docs
-weight: 3900
+weight: 4400
 url: /cpp/aspose.cells.charts/chartpoint/getinnerarcendpointypx/
 ---
 ## ChartPoint::GetInnerArcEndPointYPx method

@@ -4,7 +4,7 @@ linktitle: GetRowHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetRowHeight method. Gets row''s height in C++.'
 type: docs
-weight: 5700
+weight: 5900
 url: /cpp/aspose.cells/cells/getrowheight/
 ---
 ## Cells::GetRowHeight(int32_t, bool, CellsUnitType) method

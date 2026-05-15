@@ -4,7 +4,7 @@ linktitle: AddR1C1
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesCollection::AddR1C1 method. Adds the Series collection to a chart in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.charts/seriescollection/addr1c1/
 ---
 ## SeriesCollection::AddR1C1(const U16String\&, bool) method

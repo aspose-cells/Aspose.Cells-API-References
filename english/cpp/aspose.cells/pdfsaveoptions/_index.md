@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions class. Represents the options for saving pdf file in C++.'
 type: docs
-weight: 11900
+weight: 12000
 url: /cpp/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

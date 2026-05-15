@@ -11,7 +11,7 @@ url: /nodejs-cpp/textparagraphcollection/
 Represents all text paragraph.
 
 ```javascript
-class TextParagraphCollection;
+class TextParagraphCollection implements Iterable<TextParagraph>;
 ```
 
 
@@ -29,6 +29,11 @@ class TextParagraphCollection;
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of text paragraphs. |
 | [getEnumerator()](#getEnumerator--)| Gets the enumerator of the paragraphs. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<TextParagraph\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

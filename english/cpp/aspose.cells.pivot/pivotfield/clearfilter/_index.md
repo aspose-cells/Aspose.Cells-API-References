@@ -4,7 +4,7 @@ linktitle: ClearFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::ClearFilter method. Clears filter setting on this pivot field in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivotfield/clearfilter/
 ---
 ## PivotField::ClearFilter method

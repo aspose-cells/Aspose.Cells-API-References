@@ -4,7 +4,7 @@ linktitle: SetXPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetXPixel method. Gets or sets the x coordinate of the upper left corner in units of Pixel in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells.charts/chartframe/setxpixel/
 ---
 ## ChartFrame::SetXPixel method

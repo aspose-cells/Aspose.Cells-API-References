@@ -20,13 +20,15 @@ class CustomFilterCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CustomFilterCollection](./). |
 | [CustomFilterCollection()](./customfiltercollection/) | Constructs new instance. |
 | [CustomFilterCollection(CustomFilterCollection_Impl* impl)](./customfiltercollection/) | Constructs from an implementation object. |
 | [CustomFilterCollection(const Aspose::Cells::Object\& obj)](./customfiltercollection/) | Constructs from an [Object](../object/) convertible to this. |
 | [CustomFilterCollection(const CustomFilterCollection\& src)](./customfiltercollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CustomFilterCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the custom filter in the specific index. |
 | [GetAnd()](./getand/) | Indicates whether the two criteria have an "and" relationship. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomFilterCollection\& src)](./operator_asm/) | operator= |

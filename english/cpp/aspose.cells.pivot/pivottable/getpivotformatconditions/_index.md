@@ -4,7 +4,7 @@ linktitle: GetPivotFormatConditions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPivotFormatConditions method. Gets the Format Conditions of the pivot table in C++.'
 type: docs
-weight: 12300
+weight: 12700
 url: /cpp/aspose.cells.pivot/pivottable/getpivotformatconditions/
 ---
 ## PivotTable::GetPivotFormatConditions method

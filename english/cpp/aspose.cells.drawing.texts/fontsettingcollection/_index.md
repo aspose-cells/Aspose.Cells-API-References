@@ -22,14 +22,16 @@ class FontSettingCollection
 | --- | --- |
 | [AppendText(const U16String\& text)](./appendtext/) | Appends the text. |
 | [AppendText(const char16_t* text)](./appendtext/) | Appends the text. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [FontSettingCollection](./). |
 | [Clear()](./clear/) | Clear all setting. |
 | [DeleteText(int32_t index, int32_t count)](./deletetext/) | Delete some characters. |
+| [end()](./end/) | Returns an iterator to the end of the [FontSettingCollection](./). |
 | [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [FontSettingCollection(FontSettingCollection_Impl* impl)](./fontsettingcollection/) | Constructs from an implementation object. |
 | [FontSettingCollection(const FontSettingCollection\& src)](./fontsettingcollection/) | Copy constructor. |
 | [Format(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](./format/) | Format the text with font setting. |
 | [Get(int32_t index)](./get/) | Gets the [FontSetting](../../aspose.cells/fontsetting/) by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetHashCode()](./gethashcode/) |  |
 | [GetHtmlString()](./gethtmlstring/) | Gets and sets the html string which contains data and some formats in this shape. |
 | [GetParagraphEnumerator()](./getparagraphenumerator/) | Gets the enumerator of the paragraphs. |

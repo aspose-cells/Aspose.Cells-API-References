@@ -4,7 +4,7 @@ linktitle: SetIsFormulas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::SetIsFormulas method. Indicates whether the data are formulas in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/importtableoptions/setisformulas/
 ---
 ## ImportTableOptions::SetIsFormulas method

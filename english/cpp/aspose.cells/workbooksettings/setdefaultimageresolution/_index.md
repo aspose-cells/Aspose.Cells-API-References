@@ -4,7 +4,7 @@ linktitle: SetDefaultImageResolution
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetDefaultImageResolution method. Gets and sets default resolution of image in C++.'
 type: docs
-weight: 12400
+weight: 12700
 url: /cpp/aspose.cells/workbooksettings/setdefaultimageresolution/
 ---
 ## WorkbookSettings::SetDefaultImageResolution method

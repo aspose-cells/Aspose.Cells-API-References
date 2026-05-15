@@ -4,7 +4,7 @@ linktitle: GetTopPointCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetTopPointCount method. Gets the number of top points after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 4000
+weight: 4500
 url: /cpp/aspose.cells.charts/chartpoint/gettoppointcount/
 ---
 ## ChartPoint::GetTopPointCount method

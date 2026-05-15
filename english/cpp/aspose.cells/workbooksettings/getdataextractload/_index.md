@@ -4,7 +4,7 @@ linktitle: GetDataExtractLoad
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetDataExtractLoad method. indicates whether the application last opened the workbook for data recovery in C++.'
 type: docs
-weight: 10000
+weight: 10300
 url: /cpp/aspose.cells/workbooksettings/getdataextractload/
 ---
 ## WorkbookSettings::GetDataExtractLoad method

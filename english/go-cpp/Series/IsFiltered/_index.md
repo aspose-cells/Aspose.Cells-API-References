@@ -10,7 +10,7 @@ url: /go-cpp/series/isfiltered/
 
 ## IsFiltered function
 
-Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+Indicates whether the series is selected or filtered.True represents that this series is filtered, and it will not be displayed on the chart.
 
 ```go
 

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Tables::TableStyleElementCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetCount method of Aspose::Cells::Tables::TableStyleElementCollection class in C++.'
+description: 'Aspose::Cells::Tables::TableStyleElementCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.tables/tablestyleelementcollection/getcount/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.tables/tablestyleelementcollection/getcount/
 ## TableStyleElementCollection::GetCount method
 
 
-
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::Tables::TableStyleElementCollection::GetCount()

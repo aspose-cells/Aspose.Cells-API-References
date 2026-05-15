@@ -21,9 +21,11 @@ class TableStyleElementCollection
 | Method | Description |
 | --- | --- |
 | [Add(TableStyleElementType type)](./add/) | Adds an element. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TableStyleElementCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TableStyleElementCollection](./). |
 | [Get(int32_t index)](./get/) | Gets an element of the table style by the index. |
 | [Get(TableStyleElementType type)](./get/) | Gets the element of the table style by the element type. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TableStyleElementCollection\& src)](./operator_asm/) | operator= |

@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getoncategoryaxispointxpx/
 
 ## GetOnCategoryAxisPointXPx function
 
-Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart.
+Gets x-coordinate of the point on category axis after calls Chart.Calculate() method.Only applies to Area chart.
 
 ```go
 

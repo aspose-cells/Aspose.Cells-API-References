@@ -20,8 +20,10 @@ class RevisionCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [RevisionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [RevisionCollection](./). |
 | [Get(int32_t index)](./get/) | Gets [Revision](../revision/) by the index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const RevisionCollection\& src)](./operator_asm/) | operator= |

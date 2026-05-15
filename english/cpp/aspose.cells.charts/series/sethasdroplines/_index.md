@@ -4,7 +4,7 @@ linktitle: SetHasDropLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetHasDropLines method. True if the chart has drop lines. Applies only to line chart or area charts in C++.'
 type: docs
-weight: 5000
+weight: 5400
 url: /cpp/aspose.cells.charts/series/sethasdroplines/
 ---
 ## Series::SetHasDropLines method

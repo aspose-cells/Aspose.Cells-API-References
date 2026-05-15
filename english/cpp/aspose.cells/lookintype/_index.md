@@ -4,7 +4,7 @@ linktitle: LookInType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LookInType enum. Represents look in type in C++.'
 type: docs
-weight: 23400
+weight: 23800
 url: /cpp/aspose.cells/lookintype/
 ---
 ## LookInType enum

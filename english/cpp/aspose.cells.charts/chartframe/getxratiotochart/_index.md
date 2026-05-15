@@ -4,7 +4,7 @@ linktitle: GetXRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetXRatioToChart method. Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells.charts/chartframe/getxratiotochart/
 ---
 ## ChartFrame::GetXRatioToChart method

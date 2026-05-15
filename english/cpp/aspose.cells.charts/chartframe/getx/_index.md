@@ -4,7 +4,7 @@ linktitle: GetX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetX method. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.cells.charts/chartframe/getx/
 ---
 ## ChartFrame::GetX method

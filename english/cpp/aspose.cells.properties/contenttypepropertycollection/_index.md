@@ -24,12 +24,14 @@ class ContentTypePropertyCollection
 | [Add(const char16_t* name, const char16_t* value)](./add/) | Adds content type property information. |
 | [Add(const U16String\& name, const U16String\& value, const U16String\& type)](./add/) | Adds content type property information. |
 | [Add(const char16_t* name, const char16_t* value, const char16_t* type)](./add/) | Adds content type property information. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ContentTypePropertyCollection](./). |
 | [ContentTypePropertyCollection(ContentTypePropertyCollection_Impl* impl)](./contenttypepropertycollection/) | Constructs from an implementation object. |
 | [ContentTypePropertyCollection(const ContentTypePropertyCollection\& src)](./contenttypepropertycollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [ContentTypePropertyCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the content type property by the specific index. |
 | [Get(const U16String\& name)](./get/) | Gets the content type property by the property name. |
 | [Get(const char16_t* name)](./get/) | Gets the content type property by the property name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ContentTypePropertyCollection\& src)](./operator_asm/) | operator= |

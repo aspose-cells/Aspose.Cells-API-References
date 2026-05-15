@@ -4,7 +4,7 @@ linktitle: FilterByLabel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::FilterByLabel method. Filters by captions of row or column pivot field in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.cells.pivot/pivotfield/filterbylabel/
 ---
 ## PivotField::FilterByLabel(PivotFilterType, const U16String\&, const U16String\&) method

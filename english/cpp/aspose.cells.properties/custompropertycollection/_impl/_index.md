@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::CustomPropertyCollection::_impl field. The implementation object in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.properties/custompropertycollection/_impl/
 ---
 ## _impl field

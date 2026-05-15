@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/setwidthratiotochart/
 
 ## SetWidthRatioToChart function
 
-Gets or sets the width of plot-area bounding box in units of ratio of the chart area.
+Gets or sets the width of plot-area bounding box in units of the ratio of the chart area.
 
 ```go
 

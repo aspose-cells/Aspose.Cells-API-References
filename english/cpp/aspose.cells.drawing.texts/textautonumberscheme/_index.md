@@ -4,7 +4,7 @@ linktitle: TextAutonumberScheme
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextAutonumberScheme enum. Represents all automatic number scheme in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.cells.drawing.texts/textautonumberscheme/
 ---
 ## TextAutonumberScheme enum

@@ -4,7 +4,7 @@ linktitle: ScenarioInputCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioInputCell class. Represents input cell for the scenario in C++.'
 type: docs
-weight: 13500
+weight: 13700
 url: /cpp/aspose.cells/scenarioinputcell/
 ---
 ## ScenarioInputCell class

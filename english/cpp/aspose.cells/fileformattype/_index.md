@@ -4,7 +4,7 @@ linktitle: FileFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFormatType enum. Represents the file format types in C++.'
 type: docs
-weight: 21100
+weight: 21400
 url: /cpp/aspose.cells/fileformattype/
 ---
 ## FileFormatType enum
@@ -99,6 +99,8 @@ enum class FileFormatType
 | Chm | 784 | <br>CHM. |
 | Oxps | 776 | <br>OXPS (Open XML Paper Specification) format. |
 | GZip | 35615 | <br>Rrepesents GZip file. |
+| Otg | 1025 | <br>Represents an OTG file. |
+| Odb | 1026 | <br>Represents an Odb file. |
 
 ## See Also
 

@@ -22,7 +22,9 @@ class PivotFieldCollection
 | --- | --- |
 | [Add(const PivotField\& pivotField)](./add/) | Adds a [PivotField](../pivotfield/)[Object](../../aspose.cells/object/) to the specific type PivotFields. |
 | [AddByBaseIndex(int32_t baseFieldIndex)](./addbybaseindex/) | Adds a [PivotField](../pivotfield/)[Object](../../aspose.cells/object/) to the specific type PivotFields. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotFieldCollection](./). |
 | [Clear()](./clear/) | clear all fields of [PivotFieldCollection](./) |
+| [end()](./end/) | Returns an iterator to the end of the [PivotFieldCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [PivotField](../pivotfield/)[Object](../../aspose.cells/object/) at the specific index. |
 | [Get(const U16String\& name)](./get/) | Gets the [PivotField](../pivotfield/)[Object](../../aspose.cells/object/) of the specific name. |
 | [Get(const char16_t* name)](./get/) | Gets the [PivotField](../pivotfield/)[Object](../../aspose.cells/object/) of the specific name. |

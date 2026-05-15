@@ -21,11 +21,13 @@ class TextBoxCollection
 | Method | Description |
 | --- | --- |
 | [Add(int32_t topRow, int32_t leftColumn, int32_t height, int32_t width)](./add/) | Adds a textbox to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TextBoxCollection](./). |
 | [Clear()](./clear/) | Clear all text boxes. |
+| [end()](./end/) | Returns an iterator to the end of the [TextBoxCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [TextBox](../textbox/) element at the specified index. |
 | [Get(const U16String\& name)](./get/) | Gets the [TextBox](../textbox/) element by the name. |
 | [Get(const char16_t* name)](./get/) | Gets the [TextBox](../textbox/) element by the name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TextBoxCollection\& src)](./operator_asm/) | operator= |

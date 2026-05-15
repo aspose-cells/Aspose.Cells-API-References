@@ -4,7 +4,7 @@ linktitle: SetTranspose
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetTranspose method. True to transpose rows and columns when the range is pasted. The default value is False in C++.'
 type: docs
-weight: 1300
+weight: 1700
 url: /cpp/aspose.cells/pasteoptions/settranspose/
 ---
 ## PasteOptions::SetTranspose method

@@ -11,7 +11,7 @@ url: /nodejs-cpp/chartpointcollection/
 Represents a collection that contains all the points in one series.
 
 ```javascript
-class ChartPointCollection;
+class ChartPointCollection implements Iterable<ChartPoint>;
 ```
 
 
@@ -73,6 +73,11 @@ workbook.save("output/ChartsChartPointCollection.xls");
 | [clear()](#clear--)| Remove all setting of the chart points. |
 | [removeAt(number)](#removeAt-number-)| Removes point at the index of the series.. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ChartPoint\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

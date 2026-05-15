@@ -20,12 +20,14 @@ class ExternalConnectionCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ExternalConnectionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ExternalConnectionCollection](./). |
 | [ExternalConnectionCollection(ExternalConnectionCollection_Impl* impl)](./externalconnectioncollection/) | Constructs from an implementation object. |
 | [ExternalConnectionCollection(const ExternalConnectionCollection\& src)](./externalconnectioncollection/) | Copy constructor. |
 | [Get(int32_t index)](./get/) | Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
 | [Get(const U16String\& connectionName)](./get/) | Gets the [ExternalConnection](../externalconnection/) element with the specified name. |
 | [Get(const char16_t* connectionName)](./get/) | Gets the [ExternalConnection](../externalconnection/) element with the specified name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetExternalConnectionById(int32_t connId)](./getexternalconnectionbyid/) | Gets the [ExternalConnection](../externalconnection/) element with the specified id. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

@@ -4,7 +4,7 @@ linktitle: ChartPointCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPointCollection class. Represents a collection that contains all the points in one series in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class
@@ -20,9 +20,11 @@ class ChartPointCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ChartPointCollection](./). |
 | [ChartPointCollection(ChartPointCollection_Impl* impl)](./chartpointcollection/) | Constructs from an implementation object. |
 | [ChartPointCollection(const ChartPointCollection\& src)](./chartpointcollection/) | Copy constructor. |
 | [Clear()](./clear/) | Remove all setting of the chart points. |
+| [end()](./end/) | Returns an iterator to the end of the [ChartPointCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ChartPoint](../chartpoint/) element at the specified index in the series. |
 | [GetCount()](./getcount/) | Gets the count of the chart point. |
 | [GetEnumerator()](./getenumerator/) | Returns an enumerator for the entire [ChartPointCollection](./). |

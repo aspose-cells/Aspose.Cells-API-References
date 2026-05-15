@@ -4,7 +4,7 @@ linktitle: GetShowValuesSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetShowValuesSetting method. Gets the settings of showing values as when the ShowDataAs calculation is in use in C++.'
 type: docs
-weight: 7400
+weight: 7600
 url: /cpp/aspose.cells.pivot/pivotfield/getshowvaluessetting/
 ---
 ## PivotField::GetShowValuesSetting method

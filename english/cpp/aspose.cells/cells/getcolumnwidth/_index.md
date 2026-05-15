@@ -4,7 +4,7 @@ linktitle: GetColumnWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnWidth method. Gets the column width in C++.'
 type: docs
-weight: 5900
+weight: 6100
 url: /cpp/aspose.cells/cells/getcolumnwidth/
 ---
 ## Cells::GetColumnWidth(int32_t, bool, CellsUnitType) method

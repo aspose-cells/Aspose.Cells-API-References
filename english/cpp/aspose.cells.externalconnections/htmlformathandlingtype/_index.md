@@ -4,7 +4,7 @@ linktitle: HtmlFormatHandlingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::HtmlFormatHandlingType enum. Specifies how to handle formatting from the HTML source in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.externalconnections/htmlformathandlingtype/
 ---
 ## HtmlFormatHandlingType enum

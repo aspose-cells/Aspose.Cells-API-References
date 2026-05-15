@@ -4,7 +4,7 @@ linktitle: GetPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels::GetPosition method. Represents the position of the data label in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.cells.charts/datalabels/getposition/
 ---
 ## DataLabels::GetPosition method

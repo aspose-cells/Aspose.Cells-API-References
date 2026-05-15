@@ -22,10 +22,12 @@ class WebExtensionPropertyCollection
 | --- | --- |
 | [Add(const U16String\& name, const U16String\& value)](./add/) | Adds web extension property. |
 | [Add(const char16_t* name, const char16_t* value)](./add/) | Adds web extension property. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionPropertyCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionPropertyCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the property of web extension by the index. |
 | [Get(const U16String\& name)](./get/) | Gets the property of web extension. |
 | [Get(const char16_t* name)](./get/) | Gets the property of web extension. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WebExtensionPropertyCollection\& src)](./operator_asm/) | operator= |

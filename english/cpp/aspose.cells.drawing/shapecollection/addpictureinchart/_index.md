@@ -4,7 +4,7 @@ linktitle: AddPictureInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddPictureInChart method. Adds a picture to the chart in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells.drawing/shapecollection/addpictureinchart/
 ---
 ## ShapeCollection::AddPictureInChart method

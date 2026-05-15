@@ -1,13 +1,13 @@
 ---
 title: Series.UpBars
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts
+description: Series property. Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts
 type: docs
 url: /net/aspose.cells.charts/series/upbars/
 ---
 ## Series.UpBars property
 
-Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts.
+Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts.
 
 ```csharp
 public DropBars UpBars { get; }

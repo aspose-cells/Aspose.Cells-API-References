@@ -4,7 +4,7 @@ linktitle: SetSeriesNames
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesCollection::SetSeriesNames method. Sets the name of all the serieses in the chart in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.charts/seriescollection/setseriesnames/
 ---
 ## SeriesCollection::SetSeriesNames(int32_t, const U16String\&, bool) method

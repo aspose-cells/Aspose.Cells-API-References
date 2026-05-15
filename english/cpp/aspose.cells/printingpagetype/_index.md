@@ -4,7 +4,7 @@ linktitle: PrintingPageType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintingPageType enum. Indicates which pages will not be printed in C++.'
 type: docs
-weight: 25400
+weight: 25800
 url: /cpp/aspose.cells/printingpagetype/
 ---
 ## PrintingPageType enum

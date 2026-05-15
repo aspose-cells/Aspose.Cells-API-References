@@ -11,7 +11,7 @@ url: /nodejs-cpp/listcolumncollection/
 Represents a list of all the [ListColumn](../listcolumn/) objects in the table.
 
 ```javascript
-class ListColumnCollection;
+class ListColumnCollection implements Iterable<ListColumn>;
 ```
 
 
@@ -23,6 +23,11 @@ class ListColumnCollection;
 | [get(string)](#get-string-)| Gets the ListColumn by the name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ListColumn\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

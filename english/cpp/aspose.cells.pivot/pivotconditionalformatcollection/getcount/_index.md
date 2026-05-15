@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotConditionalFormatCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use GetCount method of Aspose::Cells::Pivot::PivotConditionalFormatCollection class in C++.'
+description: 'Aspose::Cells::Pivot::PivotConditionalFormatCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.pivot/pivotconditionalformatcollection/getcount/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotconditionalformatcollection/getcount/
 ## PivotConditionalFormatCollection::GetCount method
 
 
-
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotConditionalFormatCollection::GetCount()

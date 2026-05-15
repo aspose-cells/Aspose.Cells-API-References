@@ -11,7 +11,7 @@ url: /nodejs-cpp/cells/
 Encapsulates a collection of cell relevant objects, such as [Cell](../cell/), [Row](../row/), ...etc.
 
 ```javascript
-class Cells;
+class Cells implements Iterable<Cell>;
 ```
 
 
@@ -261,6 +261,11 @@ cells.merge(5, 4, 2, 2);
 | [getCellDisplayStyle(number, number)](#getCellDisplayStyle-number-number-)| Get the display style of given cell. |
 | [getCellDisplayStyle(number, number, BorderType)](#getCellDisplayStyle-number-number-bordertype-)| Get the display style of given cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Cell\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### odsCellFields {#odsCellFields--}

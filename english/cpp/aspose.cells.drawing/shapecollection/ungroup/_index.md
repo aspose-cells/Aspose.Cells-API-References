@@ -4,7 +4,7 @@ linktitle: Ungroup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::Ungroup method. Ungroups the shape items in C++.'
 type: docs
-weight: 4700
+weight: 4800
 url: /cpp/aspose.cells.drawing/shapecollection/ungroup/
 ---
 ## ShapeCollection::Ungroup method

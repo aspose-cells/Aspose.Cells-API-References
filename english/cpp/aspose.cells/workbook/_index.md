@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 16300
+weight: 16500
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -89,6 +89,7 @@ class Workbook
 | [Protect(ProtectionType protectionType, const char16_t* password)](./protect/) | Protects a workbook. |
 | [ProtectSharedWorkbook(const U16String\& password)](./protectsharedworkbook/) | Protects a shared workbook. |
 | [ProtectSharedWorkbook(const char16_t* password)](./protectsharedworkbook/) | Protects a shared workbook. |
+| [RefreshAll()](./refreshall/) | Refresh linked shapes, all pivot tables and charts with pivot source. |
 | [RefreshDynamicArrayFormulas(bool calculate)](./refreshdynamicarrayformulas/) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas. |
 | [RefreshDynamicArrayFormulas(bool calculate, const CalculationOptions\& copts)](./refreshdynamicarrayformulas/) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
 | [RemoveDigitalSignature()](./removedigitalsignature/) | Removes digital signature from this spreadsheet. |
@@ -142,8 +143,9 @@ class Workbook
 | [UpdateLinkedDataSource(const Vector \<Workbook\>\& externalWorkbooks)](./updatelinkeddatasource/) | If this workbook contains external links to other data source, [Aspose.Cells](../) will attempt to retrieve the latest data from give sources. |
 | [Workbook()](./workbook/) | Initializes a new instance of the [Workbook](./) class. |
 | explicit [Workbook(FileFormatType fileFormatType)](./workbook/) | Initializes a new instance of the [Workbook](./) class. |
-| explicit [Workbook(const U16String\& file)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
-| explicit [Workbook(const char16_t* file)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
+| explicit [Workbook(const LoadOptions\& loadOptions)](./workbook/) | Initializes a new empty instance of the [Workbook](./) class with options. |
+| explicit [Workbook(const U16String\& file)](./workbook/) |  |
+| explicit [Workbook(const char16_t* file)](./workbook/) |  |
 | explicit [Workbook(const Vector \<uint8_t\>\& stream)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a stream. |
 | [Workbook(const U16String\& file, const LoadOptions\& loadOptions)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
 | [Workbook(const char16_t* file, const LoadOptions\& loadOptions)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |

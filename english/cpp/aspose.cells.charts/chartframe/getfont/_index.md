@@ -4,7 +4,7 @@ linktitle: GetFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetFont method. Gets a Font object of the specified ChartFrame object in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells.charts/chartframe/getfont/
 ---
 ## ChartFrame::GetFont method

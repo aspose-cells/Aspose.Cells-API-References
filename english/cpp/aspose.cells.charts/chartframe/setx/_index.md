@@ -4,7 +4,7 @@ linktitle: SetX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetX method. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells.charts/chartframe/setx/
 ---
 ## ChartFrame::SetX method

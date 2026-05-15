@@ -4,7 +4,7 @@ linktitle: GetProcessBuiltInFunctions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractCalculationEngine::GetProcessBuiltInFunctions method. Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.cells/abstractcalculationengine/getprocessbuiltinfunctions/
 ---
 ## AbstractCalculationEngine::GetProcessBuiltInFunctions method

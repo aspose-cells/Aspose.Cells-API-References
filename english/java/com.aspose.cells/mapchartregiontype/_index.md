@@ -19,7 +19,7 @@ Represents the region type of the map chart.
 | --- | --- |
 | [AUTOMATIC](#AUTOMATIC) | Automatic |
 | [COUNTRY_REGION_LIST](#COUNTRY-REGION-LIST) | Country region list. |
-| [DATA_ONLY](#DATA-ONLY) | Only Data. |
+| [DATA_ONLY](#DATA-ONLY) | Only data. |
 | [WORLD](#WORLD) | World. |
 ## Methods
 
@@ -56,7 +56,7 @@ public static final int DATA_ONLY
 ```
 
 
-Only Data.
+Only data.
 
 ### WORLD {#WORLD}
 ```

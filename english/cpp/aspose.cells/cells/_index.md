@@ -24,6 +24,7 @@ class Cells
 | [ApplyColumnStyle(int32_t column, const Style\& style, const StyleFlag\& flag)](./applycolumnstyle/) | Applies formats for a whole column. |
 | [ApplyRowStyle(int32_t row, const Style\& style, const StyleFlag\& flag)](./applyrowstyle/) | Applies formats for a whole row. |
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole worksheet. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [Cells](./). |
 | [Cells(Cells_Impl* impl)](./cells/) | Constructs from an implementation object. |
 | [Cells(const Cells\& src)](./cells/) | Copy constructor. |
 | [CheckCell(int32_t row, int32_t column)](./checkcell/) | Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
@@ -67,6 +68,7 @@ class Cells
 | [DeleteRows(int32_t rowIndex, int32_t totalRows, bool updateReference)](./deleterows/) | Deletes multiple rows in the worksheet. |
 | [DeleteRows(int32_t rowIndex, int32_t totalRows, const DeleteOptions\& options)](./deleterows/) | Deletes multiple rows in the worksheet. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [end()](./end/) | Returns an iterator to the end of the [Cells](./). |
 | [EndCellInColumn(int32_t columnIndex)](./endcellincolumn/) | Gets the last cell in this column. |
 | [EndCellInColumn(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
 | [EndCellInRow(int32_t rowIndex)](./endcellinrow/) | Gets the last cell in this row. |

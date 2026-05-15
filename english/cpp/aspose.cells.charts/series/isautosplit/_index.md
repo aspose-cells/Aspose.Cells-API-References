@@ -4,7 +4,7 @@ linktitle: IsAutoSplit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::IsAutoSplit method. Indicates whether the threshold value is automatic in C++.'
 type: docs
-weight: 7000
+weight: 7400
 url: /cpp/aspose.cells.charts/series/isautosplit/
 ---
 ## Series::IsAutoSplit method

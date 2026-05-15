@@ -4,7 +4,7 @@ linktitle: SetOnlyVisibleCells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetOnlyVisibleCells method. True means only copying visible cells in C++.'
 type: docs
-weight: 1100
+weight: 1500
 url: /cpp/aspose.cells/pasteoptions/setonlyvisiblecells/
 ---
 ## PasteOptions::SetOnlyVisibleCells method

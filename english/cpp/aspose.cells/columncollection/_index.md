@@ -20,11 +20,13 @@ class ColumnCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ColumnCollection](./). |
 | [ColumnCollection(ColumnCollection_Impl* impl)](./columncollection/) | Constructs from an implementation object. |
 | [ColumnCollection(const ColumnCollection\& src)](./columncollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [ColumnCollection](./). |
 | [Get(int32_t columnIndex)](./get/) | Gets a [Column](../column/) object by column index. The [Column](../column/) object of given column index will be instantiated if it does not exist before. |
 | [GetColumnByIndex(int32_t index)](./getcolumnbyindex/) | Gets the [Column](../column/) object by the position in the list. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ColumnCollection\& src)](./operator_asm/) | operator= |

@@ -4,7 +4,7 @@ linktitle: SetBorderLineColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetBorderLineColor method. Represents the Color of the border line of a picture in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.drawing/picture/setborderlinecolor/
 ---
 ## Picture::SetBorderLineColor method

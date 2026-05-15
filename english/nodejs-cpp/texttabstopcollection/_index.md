@@ -11,7 +11,7 @@ url: /nodejs-cpp/texttabstopcollection/
 Represents the list of all tab stops.
 
 ```javascript
-class TextTabStopCollection;
+class TextTabStopCollection implements Iterable<TextTabStop>;
 ```
 
 
@@ -29,6 +29,11 @@ class TextTabStopCollection;
 | [add(TextTabAlignmentType, number)](#add-texttabalignmenttype-number-)| Adds a tab stop. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<TextTabStop\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

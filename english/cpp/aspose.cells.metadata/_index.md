@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Metadata
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Metadata namespace in C++.'
 type: docs
-weight: 1100
+weight: 1500
 url: /cpp/aspose.cells.metadata/
 ---
 

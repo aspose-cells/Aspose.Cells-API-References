@@ -4,7 +4,7 @@ linktitle: SetWidthRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetWidthRatioToChart method. Gets or sets the width of frame in units of ratio of the chart area in C++.'
 type: docs
-weight: 4300
+weight: 4500
 url: /cpp/aspose.cells.charts/chartframe/setwidthratiotochart/
 ---
 ## ChartFrame::SetWidthRatioToChart method

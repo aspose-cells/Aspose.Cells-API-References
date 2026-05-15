@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Settings::PivotGlobalizationSettings::_impl field. The implementation object in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells.settings/pivotglobalizationsettings/_impl/
 ---
 ## _impl field

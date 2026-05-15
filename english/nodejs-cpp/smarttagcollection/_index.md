@@ -11,7 +11,7 @@ url: /nodejs-cpp/smarttagcollection/
 Represents all smart tags in the cell.
 
 ```javascript
-class SmartTagCollection;
+class SmartTagCollection implements Iterable<SmartTag>;
 ```
 
 
@@ -32,6 +32,11 @@ class SmartTagCollection;
 | [add(string, string)](#add-string-string-)| Adds a smart tag. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<SmartTag\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### row {#row--}

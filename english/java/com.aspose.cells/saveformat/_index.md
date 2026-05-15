@@ -36,6 +36,7 @@ Represents the format in which the workbook is saved.
 | [M_HTML](#M-HTML) | Represents a mhtml file. |
 | [NUMBERS](#NUMBERS) | Represents a numbers file. |
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
+| [OFD](#OFD) | OFD (Open Fixed-layout Document) |
 | [OTS](#OTS) | Open Document Template Sheet(OTS) file. |
 | [PCL](#PCL) | PCL (Printer Command Language) |
 | [PDF](#PDF) | Represents a Pdf file. |
@@ -227,6 +228,14 @@ public static final int ODS
 
 
 Open Document Sheet(ODS) file.
+
+### OFD {#OFD}
+```
+public static final int OFD
+```
+
+
+OFD (Open Fixed-layout Document)
 
 ### OTS {#OTS}
 ```

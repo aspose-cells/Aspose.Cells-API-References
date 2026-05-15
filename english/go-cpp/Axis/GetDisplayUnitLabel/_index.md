@@ -10,7 +10,7 @@ url: /go-cpp/axis/getdisplayunitlabel/
 
 ## GetDisplayUnitLabel function
 
-Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values— for example, in the millions or billions.
+Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values - for example, in the millions or billions.
 
 ```go
 

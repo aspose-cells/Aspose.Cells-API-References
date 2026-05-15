@@ -11,7 +11,7 @@ url: /nodejs-cpp/hyperlinkcollection/
 Encapsulates a collection of [Hyperlink](../hyperlink/) objects.
 
 ```javascript
-class HyperlinkCollection;
+class HyperlinkCollection implements Iterable<Hyperlink>;
 ```
 
 
@@ -44,6 +44,11 @@ workbook.save("output/HyperlinkCollection.xls");
 | [clear()](#clear--)| Clears all hyperlinks. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Hyperlink\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

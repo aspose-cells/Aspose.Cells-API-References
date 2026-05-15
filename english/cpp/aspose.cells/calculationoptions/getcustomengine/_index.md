@@ -4,7 +4,7 @@ linktitle: GetCustomEngine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationOptions::GetCustomEngine method. The custom formula calculation engine to extend the default calculation engine of Aspose.Cells in C++.'
 type: docs
-weight: 1000
+weight: 1300
 url: /cpp/aspose.cells/calculationoptions/getcustomengine/
 ---
 ## CalculationOptions::GetCustomEngine method

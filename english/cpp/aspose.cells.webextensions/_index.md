@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::WebExtensions
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::WebExtensions namespace in C++.'
 type: docs
-weight: 2800
+weight: 3400
 url: /cpp/aspose.cells.webextensions/
 ---
 

@@ -11,7 +11,7 @@ url: /nodejs-cpp/gradientstopcollection/
 Represents the gradient stop collection.
 
 ```javascript
-class GradientStopCollection;
+class GradientStopCollection implements Iterable<GradientStop>;
 ```
 
 
@@ -24,6 +24,11 @@ class GradientStopCollection;
 | [add(number, Color, number)](#add-number-color-number-)| Add a gradient stop. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<GradientStop\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

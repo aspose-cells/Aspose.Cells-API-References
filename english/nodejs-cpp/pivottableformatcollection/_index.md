@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivottableformatcollection/
 Represents the collection of formats applied to PivotTable.
 
 ```javascript
-class PivotTableFormatCollection;
+class PivotTableFormatCollection implements Iterable<PivotTableFormat>;
 ```
 
 
@@ -24,6 +24,11 @@ class PivotTableFormatCollection;
 | [formatArea(PivotFieldType, number, PivotFieldSubtotalType, PivotTableSelectionType, boolean, boolean, Style)](#formatArea-pivotfieldtype-number-pivotfieldsubtotaltype-pivottableselectiontype-boolean-boolean-style-)| Formats selected area. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PivotTableFormat\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

@@ -2,7 +2,7 @@
 title: Aspose::Cells::JsonLoadOptions class
 linktitle: JsonLoadOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::JsonLoadOptions class. Represents the options of loading json files in C++.'
+description: 'Aspose::Cells::JsonLoadOptions class. Represents the options of loading JSON files in C++.'
 type: docs
 weight: 9500
 url: /cpp/aspose.cells/jsonloadoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/jsonloadoptions/
 ## JsonLoadOptions class
 
 
-Represents the options of loading json files.
+Represents the options of loading JSON files.
 
 ```cpp
 class JsonLoadOptions : public Aspose::Cells::LoadOptions

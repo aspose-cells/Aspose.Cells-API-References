@@ -14,7 +14,7 @@ Adds module.
 
 ```go
 
-func (instance *VbaModuleCollection) Add_VbaModuleType_String(type_ *VbaModuleType, name string)  (int32,  error) 
+func (instance *VbaModuleCollection) Add_VbaModuleType_String(type_ VbaModuleType, name string)  (int32,  error) 
 
 ```
 

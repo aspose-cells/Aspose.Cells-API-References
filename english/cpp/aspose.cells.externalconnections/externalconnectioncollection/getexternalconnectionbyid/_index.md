@@ -4,7 +4,7 @@ linktitle: GetExternalConnectionById
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnectionCollection::GetExternalConnectionById method. Gets the ExternalConnection element with the specified id in C++.'
 type: docs
-weight: 800
+weight: 700
 url: /cpp/aspose.cells.externalconnections/externalconnectioncollection/getexternalconnectionbyid/
 ---
 ## ExternalConnectionCollection::GetExternalConnectionById method

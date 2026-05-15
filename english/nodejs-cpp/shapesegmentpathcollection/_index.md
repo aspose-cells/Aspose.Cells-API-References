@@ -11,7 +11,7 @@ url: /nodejs-cpp/shapesegmentpathcollection/
 Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape.
 
 ```javascript
-class ShapeSegmentPathCollection;
+class ShapeSegmentPathCollection implements Iterable<ShapeSegmentPath>;
 ```
 
 
@@ -29,6 +29,11 @@ class ShapeSegmentPathCollection;
 | [add(ShapePathType)](#add-shapepathtype-)| Add a segment path in creation path. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ShapeSegmentPath\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

@@ -77,6 +77,10 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [isGradient](#isGradient--)| boolean | Indicates whether the cell shading is a gradient pattern. |
 | [isPercent](#isPercent--)| boolean | Readonly. Indicates whether the number format is a percent format. |
 | [isDateTime](#isDateTime--)| boolean | Readonly. Indicates whether the number format is a date format. |
+| [leftBorder](#leftBorder--)| Border | Readonly. Gets the left border. |
+| [rightBorder](#rightBorder--)| Border | Readonly. Gets the right border. |
+| [topBorder](#topBorder--)| Border | Readonly. Gets the top border. |
+| [bottomBorder](#bottomBorder--)| Border | Readonly. Gets the bottom border. |
 
 ## Methods
 
@@ -147,6 +151,10 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [setIsGradient(boolean)](#setIsGradient-boolean-)| <b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern. |
 | [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the number format is a percent format. |
 | [isDateTime()](#isDateTime--)| <b>@deprecated.</b> Please use the 'isDateTime' property instead. Indicates whether the number format is a date format. |
+| [getLeftBorder()](#getLeftBorder--)| <b>@deprecated.</b> Please use the 'leftBorder' property instead. Gets the left border. |
+| [getRightBorder()](#getRightBorder--)| <b>@deprecated.</b> Please use the 'rightBorder' property instead. Gets the right border. |
+| [getTopBorder()](#getTopBorder--)| <b>@deprecated.</b> Please use the 'topBorder' property instead. Gets the top border. |
+| [getBottomBorder()](#getBottomBorder--)| <b>@deprecated.</b> Please use the 'bottomBorder' property instead. Gets the bottom border. |
 | [setPatternColor(BackgroundType, Color, Color)](#setPatternColor-backgroundtype-color-color-)| Sets the background color. |
 | [copy(Style)](#copy-style-)| Copies data from another style object |
 | [update()](#update--)| Apply the named style to the styles of the cells which use this named style. It works like clicking the "ok" button after you finished modifying the style. Only applies for named style. |
@@ -555,6 +563,42 @@ Readonly. Indicates whether the number format is a date format.
 
 ```javascript
 isDateTime : boolean;
+```
+
+
+### leftBorder {#leftBorder--}
+
+Readonly. Gets the left border.
+
+```javascript
+leftBorder : Border;
+```
+
+
+### rightBorder {#rightBorder--}
+
+Readonly. Gets the right border.
+
+```javascript
+rightBorder : Border;
+```
+
+
+### topBorder {#topBorder--}
+
+Readonly. Gets the top border.
+
+```javascript
+topBorder : Border;
+```
+
+
+### bottomBorder {#bottomBorder--}
+
+Readonly. Gets the bottom border.
+
+```javascript
+bottomBorder : Border;
 ```
 
 
@@ -1442,6 +1486,58 @@ isPercent() : boolean;
 isDateTime() : boolean;
 ```
 
+
+### getLeftBorder() {#getLeftBorder--}
+
+<b>@deprecated.</b> Please use the 'leftBorder' property instead. Gets the left border.
+
+```javascript
+getLeftBorder() : Border;
+```
+
+
+**Returns**
+
+[Border](../border/)
+
+### getRightBorder() {#getRightBorder--}
+
+<b>@deprecated.</b> Please use the 'rightBorder' property instead. Gets the right border.
+
+```javascript
+getRightBorder() : Border;
+```
+
+
+**Returns**
+
+[Border](../border/)
+
+### getTopBorder() {#getTopBorder--}
+
+<b>@deprecated.</b> Please use the 'topBorder' property instead. Gets the top border.
+
+```javascript
+getTopBorder() : Border;
+```
+
+
+**Returns**
+
+[Border](../border/)
+
+### getBottomBorder() {#getBottomBorder--}
+
+<b>@deprecated.</b> Please use the 'bottomBorder' property instead. Gets the bottom border.
+
+```javascript
+getBottomBorder() : Border;
+```
+
+
+**Returns**
+
+[Border](../border/)
 
 ### setPatternColor(BackgroundType, Color, Color) {#setPatternColor-backgroundtype-color-color-}
 

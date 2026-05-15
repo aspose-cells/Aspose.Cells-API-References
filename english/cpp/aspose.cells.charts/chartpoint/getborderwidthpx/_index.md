@@ -4,7 +4,7 @@ linktitle: GetBorderWidthPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetBorderWidthPx method. Gets the width of border in units of pixels after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2700
+weight: 3100
 url: /cpp/aspose.cells.charts/chartpoint/getborderwidthpx/
 ---
 ## ChartPoint::GetBorderWidthPx method

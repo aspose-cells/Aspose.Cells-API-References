@@ -20,14 +20,16 @@ class DocumentPropertyCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [DocumentPropertyCollection](./). |
 | [Contains(const U16String\& name)](./contains/) | Returns true if a property with the specified name exists in the collection. |
 | [Contains(const char16_t* name)](./contains/) | Returns true if a property with the specified name exists in the collection. |
 | [DocumentPropertyCollection(DocumentPropertyCollection_Impl* impl)](./documentpropertycollection/) | Constructs from an implementation object. |
 | [DocumentPropertyCollection(const DocumentPropertyCollection\& src)](./documentpropertycollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [DocumentPropertyCollection](./). |
 | [Get(int32_t index)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [Get(const U16String\& name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [Get(const char16_t* name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IndexOf(const U16String\& name)](./indexof/) | Gets the index of a property by name. |
 | [IndexOf(const char16_t* name)](./indexof/) | Gets the index of a property by name. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

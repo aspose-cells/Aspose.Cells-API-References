@@ -32,7 +32,8 @@ type Picture struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Copy](./copy/) | Copy the picture. | 
 |[Move](./move/) | Moves the picture to a specified location. | 
-|[PlaceInCell](./placeincell/) | Place this picture in the cell | 
+|[IsPlacedInCell](./isplacedincell/) | Indicates whether to place the image in cell or over cells. | 
+|[SetIsPlacedInCell](./setisplacedincell/) | Indicates whether to place the image in cell or over cells. | 
 |[GetOriginalHeight](./getoriginalheight/) | Gets the original height of the picture. | 
 |[GetOriginalWidth](./getoriginalwidth/) | Gets the original width of the picture. | 
 |[GetBorderLineColor](./getborderlinecolor/) | Represents the Color of the border line of a picture. | 

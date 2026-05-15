@@ -4,7 +4,7 @@ linktitle: IsLink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::IsLink method. Returns true if the picture is linked to a file in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells.drawing/picture/islink/
 ---
 ## Picture::IsLink method

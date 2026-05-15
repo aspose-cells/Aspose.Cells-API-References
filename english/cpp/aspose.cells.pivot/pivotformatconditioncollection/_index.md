@@ -25,6 +25,8 @@ class PivotFormatConditionCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds a pivot [FormatCondition](../../aspose.cells/formatcondition/) to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotFormatConditionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotFormatConditionCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the pivot [FormatCondition](../../aspose.cells/formatcondition/) object at the specific index. |
 | [GetCount()](./getcount/) | Gets the count of conditional formats. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

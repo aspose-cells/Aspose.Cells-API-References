@@ -4,7 +4,7 @@ linktitle: ReConnectionMethodType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ReConnectionMethodType enum. Specifies what the spreadsheet application should do when a connection fails in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.externalconnections/reconnectionmethodtype/
 ---
 ## ReConnectionMethodType enum

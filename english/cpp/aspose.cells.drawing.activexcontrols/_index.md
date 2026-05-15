@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Drawing::ActiveXControls
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Drawing::ActiveXControls namespace in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells.drawing.activexcontrols/
 ---
 

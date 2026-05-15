@@ -11,7 +11,7 @@ url: /nodejs-cpp/cellwatchcollection/
 Represents the collection of cells on this worksheet being watched in the 'watch window'.
 
 ```javascript
-class CellWatchCollection;
+class CellWatchCollection implements Iterable<CellWatch>;
 ```
 
 
@@ -31,6 +31,11 @@ class CellWatchCollection;
 | [add(string)](#add-string-)| Adds [Aspose.Cells.CellWatch](../aspose.cells.cellwatch/) with the name of the cell. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<CellWatch\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

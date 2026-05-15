@@ -23,13 +23,15 @@ class CellWatchCollection
 | [Add(int32_t row, int32_t column)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with a row and a column. |
 | [Add(const U16String\& cellName)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with the name of the cell. |
 | [Add(const char16_t* cellName)](./add/) | Adds [Aspose.Cells.CellWatch](../cellwatch/) with the name of the cell. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CellWatchCollection](./). |
 | [CellWatchCollection()](./cellwatchcollection/) | Default constructor. |
 | [CellWatchCollection(CellWatchCollection_Impl* impl)](./cellwatchcollection/) | Constructs from an implementation object. |
 | [CellWatchCollection(const CellWatchCollection\& src)](./cellwatchcollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CellWatchCollection](./). |
 | [Get(int32_t index)](./get/) | Gets and sets [CellWatch](../cellwatch/) by index. |
 | [Get(const U16String\& cellName)](./get/) | Gets and sets [CellWatch](../cellwatch/) by the name of the cell. |
 | [Get(const char16_t* cellName)](./get/) | Gets and sets [CellWatch](../cellwatch/) by the name of the cell. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CellWatchCollection\& src)](./operator_asm/) | operator= |

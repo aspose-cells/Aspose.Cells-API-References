@@ -1,63 +1,10 @@
 ---
 title: Shape.ToImage
 second_title: Aspose.Cells for .NET API Reference
-description: Shape method. Saves the shape to a stream
+description: Shape method. Creates the shape image and saves it to a stream in the specified format
 type: docs
 url: /net/aspose.cells.drawing/shape/toimage/
 ---
-## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
-
-Saves the shape to a stream.
-
-```csharp
-public void ToImage(Stream stream, ImageOrPrintOptions options)
-```
-
-### Examples
-
-```csharp
-
-[C#]
-MemoryStream imageStream = new MemoryStream();
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage(imageStream, op);
-```
-
-### See Also
-
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
-* class [Shape](../)
-* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ToImage(ImageOrPrintOptions) {#toimage}
-
-Returns the bitmap object of the shape .
-
-```csharp
-public Bitmap ToImage(ImageOrPrintOptions options)
-```
-
-### Examples
-
-```csharp
-
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-System.Drawing.Bitmap btm = shape.ToImage(op);
-```
-
-### See Also
-
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
-* class [Shape](../)
-* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## ToImage(Stream, ImageType) {#toimage_1}
 
 Creates the shape image and saves it to a stream in the specified format.
@@ -157,6 +104,59 @@ namespace AsposeCellsExamples
         }
     }
 }
+```
+
+### See Also
+
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
+
+Saves the shape to a stream.
+
+```csharp
+public void ToImage(Stream stream, ImageOrPrintOptions options)
+```
+
+### Examples
+
+```csharp
+
+[C#]
+MemoryStream imageStream = new MemoryStream();
+ImageOrPrintOptions op = new ImageOrPrintOptions();
+shape.ToImage(imageStream, op);
+```
+
+### See Also
+
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ToImage(ImageOrPrintOptions) {#toimage}
+
+Returns the bitmap object of the shape .
+
+```csharp
+public Bitmap ToImage(ImageOrPrintOptions options)
+```
+
+### Examples
+
+```csharp
+
+[C#]
+ImageOrPrintOptions op = new ImageOrPrintOptions();
+System.Drawing.Bitmap btm = shape.ToImage(op);
 ```
 
 ### See Also

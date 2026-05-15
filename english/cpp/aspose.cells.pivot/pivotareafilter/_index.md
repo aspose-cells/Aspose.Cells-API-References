@@ -20,6 +20,7 @@ class PivotAreaFilter
 
 | Method | Description |
 | --- | --- |
+| [GetFieldIndex()](./getfieldindex/) | Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
 | [GetSelected()](./getselected/) | Indicates whether this field has selection. Only works when the [PivotTable](../pivottable/) is in [Outline](../../aspose.cells/outline/) view. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsSubtotalSet(PivotFieldSubtotalType subtotalType)](./issubtotalset/) | Gets which subtotal is set for this filter. |

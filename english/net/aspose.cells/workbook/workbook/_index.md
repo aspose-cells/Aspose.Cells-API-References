@@ -109,52 +109,31 @@ namespace AsposeCellsExamples
 
 ---
 
-## Workbook(string) {#constructor_4}
+## Workbook(LoadOptions) {#constructor_2}
 
-Initializes a new instance of the [`Workbook`](../) class and open a file.
+Initializes a new empty instance of the [`Workbook`](../) class with options
 
 ```csharp
-public Workbook(string file)
+public Workbook(LoadOptions loadOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | String | The file name. |
+| loadOptions | LoadOptions | The options. |
 
-### Examples
+### See Also
+
+* class [LoadOptions](../../loadoptions/)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Workbook(string) {#constructor_5}
 
 ```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class WorkbookMethodCtorWithStringDemo
-    {
-        public static void Run()
-        {
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-
-            // Create a Workbook from an existing Excel file
-            Workbook workbook = new Workbook(dataDir + "example.xlsx");
-
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Display some worksheet information
-            Console.WriteLine("Worksheet Name: " + worksheet.Name);
-            Console.WriteLine("Number of Cells: " + worksheet.Cells.Count);
-
-            // Save the workbook in MHTML format
-            workbook.Save(dataDir + "output.mht", SaveFormat.MHtml);
-
-            // Create another Workbook from the saved MHTML file
-            Workbook workbook2 = new Workbook(dataDir + "output.mht");
-            Console.WriteLine("Number of Worksheets in MHTML: " + workbook2.Worksheets.Count);
-        }
-    }
-}
+public Workbook(string file)
 ```
 
 ### See Also
@@ -165,7 +144,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Workbook(Stream) {#constructor_2}
+## Workbook(Stream) {#constructor_3}
 
 Initializes a new instance of the [`Workbook`](../) class and open a stream.
 
@@ -233,7 +212,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Workbook(string, LoadOptions) {#constructor_5}
+## Workbook(string, LoadOptions) {#constructor_6}
 
 Initializes a new instance of the [`Workbook`](../) class and open a file.
 
@@ -280,7 +259,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Workbook(Stream, LoadOptions) {#constructor_3}
+## Workbook(Stream, LoadOptions) {#constructor_4}
 
 Initializes a new instance of the [`Workbook`](../) class and open stream.
 

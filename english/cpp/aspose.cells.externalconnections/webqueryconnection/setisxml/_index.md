@@ -4,7 +4,7 @@ linktitle: SetIsXml
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetIsXml method. true if the web query source is XML (versus HTML), otherwise false in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/setisxml/
 ---
 ## WebQueryConnection::SetIsXml method

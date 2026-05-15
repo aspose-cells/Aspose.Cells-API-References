@@ -4,7 +4,7 @@ linktitle: GetAllowMultipleFiltersPerField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetAllowMultipleFiltersPerField method. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them in C++.'
 type: docs
-weight: 8700
+weight: 9100
 url: /cpp/aspose.cells.pivot/pivottable/getallowmultiplefiltersperfield/
 ---
 ## PivotTable::GetAllowMultipleFiltersPerField method

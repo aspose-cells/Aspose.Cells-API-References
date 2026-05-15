@@ -4,7 +4,7 @@ linktitle: GetDisplayName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetDisplayName method. Represents the display name of pivot field in the pivot table view in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells.pivot/pivotfield/getdisplayname/
 ---
 ## PivotField::GetDisplayName method

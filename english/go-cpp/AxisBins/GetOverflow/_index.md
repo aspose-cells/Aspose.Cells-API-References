@@ -10,7 +10,7 @@ url: /go-cpp/axisbins/getoverflow/
 
 ## GetOverflow function
 
-Gets or set the overflow of axis bins
+Gets or sets the overflow of axis bins
 
 ```go
 

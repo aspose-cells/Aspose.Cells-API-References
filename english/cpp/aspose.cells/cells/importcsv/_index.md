@@ -4,7 +4,7 @@ linktitle: ImportCSV
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ImportCSV method. Import a CSV file to the cells in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells/cells/importcsv/
 ---
 ## Cells::ImportCSV(const U16String\&, const U16String\&, bool, int32_t, int32_t) method

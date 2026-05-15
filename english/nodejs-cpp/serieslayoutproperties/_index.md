@@ -27,7 +27,7 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are shown between data points. |
+| [showConnectorLines](#showConnectorLines--)| boolean | Indicates whether connector lines are displayed between data points. |
 | [showMeanLine](#showMeanLine--)| boolean | Indicates whether to show the line connecting all mean points. |
 | [showOutlierPoints](#showOutlierPoints--)| boolean | Indicates whether outlier data points are shown. |
 | [showMeanMarker](#showMeanMarker--)| boolean | Indicates whether markers denoting the mean are shown. |
@@ -43,8 +43,8 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 
 | Method | Description |
 | --- | --- |
-| [getShowConnectorLines()](#getShowConnectorLines--)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points. |
-| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points. |
+| [getShowConnectorLines()](#getShowConnectorLines--)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are displayed between data points. |
+| [setShowConnectorLines(boolean)](#setShowConnectorLines-boolean-)| <b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are displayed between data points. |
 | [getShowMeanLine()](#getShowMeanLine--)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points. |
 | [setShowMeanLine(boolean)](#setShowMeanLine-boolean-)| <b>@deprecated.</b> Please use the 'showMeanLine' property instead. Indicates whether to show the line connecting all mean points. |
 | [getShowOutlierPoints()](#getShowOutlierPoints--)| <b>@deprecated.</b> Please use the 'showOutlierPoints' property instead. Indicates whether outlier data points are shown. |
@@ -79,7 +79,7 @@ constructor();
 
 ### showConnectorLines {#showConnectorLines--}
 
-Indicates whether connector lines are shown between data points.
+Indicates whether connector lines are displayed between data points.
 
 ```javascript
 showConnectorLines : boolean;
@@ -202,7 +202,7 @@ Only for map chart.
 
 ### getShowConnectorLines() {#getShowConnectorLines--}
 
-<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points.
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are displayed between data points.
 
 ```javascript
 getShowConnectorLines() : boolean;
@@ -215,7 +215,7 @@ Only for Waterfall chart.
 
 ### setShowConnectorLines(boolean) {#setShowConnectorLines-boolean-}
 
-<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are shown between data points.
+<b>@deprecated.</b> Please use the 'showConnectorLines' property instead. Indicates whether connector lines are displayed between data points.
 
 ```javascript
 setShowConnectorLines(value: boolean) : void;

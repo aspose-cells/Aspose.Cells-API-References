@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/isneveroverlap/
 
 ## IsNeverOverlap function
 
-Indicates whether the datalabels display never overlap. (For Pie chart)
+Indicates whether datalabels never overlap when performing Pie Chart to image.Note: this property is only meaningful when Pie Chart to image.
 
 ```go
 

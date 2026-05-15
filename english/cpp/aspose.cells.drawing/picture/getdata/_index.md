@@ -4,7 +4,7 @@ linktitle: GetData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetData method. Gets the data of the picture in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.drawing/picture/getdata/
 ---
 ## Picture::GetData method

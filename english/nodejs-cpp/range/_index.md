@@ -11,7 +11,7 @@ url: /nodejs-cpp/range/
 Encapsulates the object that represents a range of cells within a spreadsheet.
 
 ```javascript
-class Range;
+class Range implements Iterable<Cell>;
 ```
 
 ### Remarks
@@ -109,6 +109,11 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [clearHyperlinks(boolean)](#clearHyperlinks-boolean-)| Only removes hyperlinks. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toString()](#toString--)| Returns a string represents the current Range object. |
+
+## \[Symbol.iterator\](): Iterator\<Cell\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### currentRegion {#currentRegion--}

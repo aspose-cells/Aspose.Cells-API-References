@@ -66,6 +66,7 @@ public enum SaveFormat
 | Epub | `772` | Represents Epub file. |
 | Azw3 | `773` | Represents Azw3 file. |
 | Pcl | `1025` | PCL (Printer Command Language) |
+| Ofd | `1026` | OFD (Open Fixed-layout Document) |
 | Dbf | `515` | Xbase Data file |
 
 ### Examples

@@ -4,7 +4,7 @@ linktitle: HtmlLayoutMode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::HtmlLayoutMode enum. Represents the layout mode for HTML rendering in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells.rendering/htmllayoutmode/
 ---
 ## HtmlLayoutMode enum

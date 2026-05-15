@@ -11,7 +11,7 @@ url: /nodejs-cpp/revisionlogcollection/
 Represents all revision logs.
 
 ```javascript
-class RevisionLogCollection;
+class RevisionLogCollection implements Iterable<RevisionLog>;
 ```
 
 
@@ -31,6 +31,11 @@ class RevisionLogCollection;
 | [highlightChanges(HighlightChangesOptions)](#highlightChanges-highlightchangesoptions-)| Highlights changes of shared workbook. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<RevisionLog\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### daysPreservingHistory {#daysPreservingHistory--}

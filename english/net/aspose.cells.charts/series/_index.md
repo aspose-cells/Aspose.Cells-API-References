@@ -21,7 +21,7 @@ public class Series
 | [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype/) { get; set; } | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [Border](../../aspose.cells.charts/series/border/) { get; } | Represents the border of a Series object. |
 | [BubbleScale](../../aspose.cells.charts/series/bubblescale/) { get; set; } | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
-| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Gets or sets the bubble sizes values of the chart series. |
+| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Gets or sets the bubble size values of the chart series. |
 | [CachedCategoryValues](../../aspose.cells.charts/series/cachedcategoryvalues/) { get; } | (**Obsolete.**) Gets the cached category values for the series |
 | [CachedValues](../../aspose.cells.charts/series/cachedvalues/) { get; } | (**Obsolete.**) Gets the cached values for the series |
 | [CategoryValues](../../aspose.cells.charts/series/categoryvalues/) { get; } | Gets the actual category values that are used to plot every point of this series in the chart. |
@@ -30,9 +30,9 @@ public class Series
 | [DisplayName](../../aspose.cells.charts/series/displayname/) { get; } | Gets the series's name that displays on the chart graph. |
 | [DoughnutHoleSize](../../aspose.cells.charts/series/doughnutholesize/) { get; set; } | Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent. |
 | [DownBars](../../aspose.cells.charts/series/downbars/) { get; } | Returns a [`DropBars`](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
-| [DropLines](../../aspose.cells.charts/series/droplines/) { get; } | Returns a [`Line`](../../aspose.cells.drawing/line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
+| [DropLines](../../aspose.cells.charts/series/droplines/) { get; } | Returns a [`Line`](../../aspose.cells.drawing/line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts. |
 | [Explosion](../../aspose.cells.charts/series/explosion/) { get; set; } | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
-| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle/) { get; set; } | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
+| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle/) { get; set; } | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. |
 | [GapWidth](../../aspose.cells.charts/series/gapwidth/) { get; set; } | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [Has3DEffect](../../aspose.cells.charts/series/has3deffect/) { get; set; } | True if the series has a three-dimensional appearance. |
 | [HasDropLines](../../aspose.cells.charts/series/hasdroplines/) { get; set; } | True if the chart has drop lines. Applies only to line chart or area charts. |
@@ -43,8 +43,8 @@ public class Series
 | [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars/) { get; set; } | True if a line chart has up and down bars. Applies only to line charts. |
 | [HiLoLines](../../aspose.cells.charts/series/hilolines/) { get; } | Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts. |
 | [IsAutoSplit](../../aspose.cells.charts/series/isautosplit/) { get; } | Indicates whether the threshold value is automatic. |
-| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Represents if the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
-| [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Indicates whether the series is selected or filtered. True represents that this series is filtered, and it will not be displayed on the chart. |
+| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart. |
+| [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart. |
 | [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Indicates whether the data source is vertical. |
 | [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Represents the properties of layout. |
 | [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line. |
@@ -52,7 +52,7 @@ public class Series
 | [Marker](../../aspose.cells.charts/series/marker/) { get; } | Gets the [`marker`](./marker/). |
 | [Name](../../aspose.cells.charts/series/name/) { get; set; } | Gets or sets the name of the data series. |
 | [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts. |
-| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Indicates if this series is plotted on second value axis. |
+| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Indicates if this series is plotted on the second value axis. |
 | [Points](../../aspose.cells.charts/series/points/) { get; } | Gets the collection of points in a series in a chart. |
 | [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Gets the actual values that are used to plot every point of this series in the chart. |
 | [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize/) { get; set; } | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
@@ -61,14 +61,14 @@ public class Series
 | [ShapeProperties](../../aspose.cells.charts/series/shapeproperties/) { get; } | Gets the [`ShapePropertyCollection`](../../aspose.cells.drawing/shapepropertycollection/) object that holds the visual shape properties of the Series. |
 | [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles/) { get; set; } | True if negative bubbles are shown for the chart group. Valid only for bubble charts. |
 | [SizeRepresents](../../aspose.cells.charts/series/sizerepresents/) { get; set; } | Gets or sets what the bubble size represents on a bubble chart. |
-| [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
+| [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines. |
 | [SplitType](../../aspose.cells.charts/series/splittype/) { get; set; } | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SplitValue](../../aspose.cells.charts/series/splitvalue/) { get; set; } | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [TrendLines](../../aspose.cells.charts/series/trendlines/) { get; } | Returns all the trendlines of this series. |
 | [Type](../../aspose.cells.charts/series/type/) { get; set; } | Gets or sets a data series' type. |
-| [UpBars](../../aspose.cells.charts/series/upbars/) { get; } | Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
+| [UpBars](../../aspose.cells.charts/series/upbars/) { get; } | Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts. |
 | [Values](../../aspose.cells.charts/series/values/) { get; set; } | Represents the Y values of this chart series. |
-| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Represents format code of Values' NumberList. |
+| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Represents the format code of the Values NumberList. |
 | [XErrorBar](../../aspose.cells.charts/series/xerrorbar/) { get; } | Represents X direction error bar of the series. |
 | [XValues](../../aspose.cells.charts/series/xvalues/) { get; set; } | Represents the X values of this chart series. |
 | [XValuesFormatCode](../../aspose.cells.charts/series/xvaluesformatcode/) { get; set; } | Represents format code of X Values' NumberList. |

@@ -21,6 +21,8 @@ class ShapePathCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Add a creation path. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ShapePathCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ShapePathCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a creation path. |
 | [GetCount()](./getcount/) | Gets the count of paths. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

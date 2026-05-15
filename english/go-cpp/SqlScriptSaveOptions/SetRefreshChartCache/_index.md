@@ -10,7 +10,7 @@ url: /go-cpp/sqlscriptsaveoptions/setrefreshchartcache/
 
 ## SetRefreshChartCache function
 
-Indicates whether refreshing chart cache data
+Indicates whether to cache the latest data of the chart.
 
 ```go
 

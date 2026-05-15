@@ -4,7 +4,7 @@ linktitle: GetWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetWidthPixel method. Gets or sets the width of frame in units of Pixel in C++.'
 type: docs
-weight: 5000
+weight: 5200
 url: /cpp/aspose.cells.charts/chartframe/getwidthpixel/
 ---
 ## ChartFrame::GetWidthPixel method

@@ -4,7 +4,7 @@ linktitle: ThreadedComment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThreadedComment class. Represents the threaded comment in C++.'
 type: docs
-weight: 14600
+weight: 14800
 url: /cpp/aspose.cells/threadedcomment/
 ---
 ## ThreadedComment class

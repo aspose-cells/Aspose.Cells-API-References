@@ -17,7 +17,7 @@ Represents the options for saving a Pcl file.
 
 | Constructor | Description |
 | --- | --- |
-| [PclSaveOptions()](#PclSaveOptions--) | Creates the options for saving pdf file. |
+| [PclSaveOptions()](#PclSaveOptions--) | Creates the options for saving pcl file. |
 ## Methods
 
 | Method | Description |
@@ -105,7 +105,7 @@ public PclSaveOptions()
 ```
 
 
-Creates the options for saving pdf file.
+Creates the options for saving pcl file.
 
 ### addPrinterFont(String fontFullName, String fontPclName) {#addPrinterFont-java.lang.String-java.lang.String-}
 ```

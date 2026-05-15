@@ -29,6 +29,8 @@ type PivotOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetShowExpandCollapseFieldButtons](./getshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand/collapse field buttons | 
+|[SetShowExpandCollapseFieldButtons](./setshowexpandcollapsefieldbuttons/) | Gets or sets a value indicating whether to show expand/collapse field buttons | 
 |[GetDropZoneFilter](./getdropzonefilter/) | Specifies whether a control for each PivotTable field on the PivotTable page axisof the source PivotTable appears on the chart when dropZonesVisible is set to true. | 
 |[SetDropZoneFilter](./setdropzonefilter/) | Specifies whether a control for each PivotTable field on the PivotTable page axisof the source PivotTable appears on the chart when dropZonesVisible is set to true. | 
 |[GetDropZoneCategories](./getdropzonecategories/) | Specifies whether a control for each PivotTable field on the PivotTable row axisof the source PivotTable appears on the chart when dropZonesVisible is set to true. | 

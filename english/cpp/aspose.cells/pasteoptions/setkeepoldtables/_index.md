@@ -4,7 +4,7 @@ linktitle: SetKeepOldTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOptions::SetKeepOldTables method. Keeps the tables in the destination range in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells/pasteoptions/setkeepoldtables/
 ---
 ## PasteOptions::SetKeepOldTables method

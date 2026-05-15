@@ -4,7 +4,7 @@ linktitle: GetArcStartPointXPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetArcStartPointXPx method. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut chart in C++.'
 type: docs
-weight: 3200
+weight: 3700
 url: /cpp/aspose.cells.charts/chartpoint/getarcstartpointxpx/
 ---
 ## ChartPoint::GetArcStartPointXPx method

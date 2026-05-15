@@ -4,7 +4,7 @@ linktitle: GetYValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetYValueType method. Gets Y value type of the chart point in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.charts/chartpoint/getyvaluetype/
 ---
 ## ChartPoint::GetYValueType method

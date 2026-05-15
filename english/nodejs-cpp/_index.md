@@ -60,7 +60,7 @@ is_root: true
 | [CharacterBulletValue](./characterbulletvalue) | Represents the character bullet. |
 | [Chart](./chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating the chart. |
+| [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating a chart. |
 | [ChartCollection](./chartcollection) | Encapsulates a collection of [Chart](../nodejs-cpp/chart/) objects. |
 | [ChartDataTable](./chartdatatable) | Represents a chart data table. |
 | [ChartDataValue](./chartdatavalue) | Encapsulates chart data value |
@@ -269,6 +269,7 @@ is_root: true
 | [OdsLoadOptions](./odsloadoptions) | Represents the options of loading ods file. |
 | [OdsPageBackground](./odspagebackground) | Represents the page background of ods. |
 | [OdsSaveOptions](./odssaveoptions) | Represents the options of saving ods file. |
+| [OfdSaveOptions](./ofdsaveoptions) | Represents the options for saving a OFD(Open Fixed-layout Document) file. |
 | [OleObject](./oleobject) | Represents an OleObject in a worksheet. |
 | [OleObjectCollection](./oleobjectcollection) | Represents embedded OLE objects. |
 | [OoxmlSaveOptions](./ooxmlsaveoptions) | Represents the options of saving office open xml file. |
@@ -649,6 +650,7 @@ is_root: true
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
 | [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. |
 | [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
+| [HyperlinkLoadMode](./hyperlinkloadmode) | Specifies how hyperlinks are handled when loading HTML. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageType](./imagetype) | Specifies the type (format) of an image. |

@@ -11,7 +11,7 @@ url: /nodejs-cpp/custompropertycollection/
 A collection of [CustomProperty](../customproperty/) objects that represent additional information.
 
 ```javascript
-class CustomPropertyCollection;
+class CustomPropertyCollection implements Iterable<CustomProperty>;
 ```
 
 
@@ -24,6 +24,11 @@ class CustomPropertyCollection;
 | [add(string, string)](#add-string-string-)| Adds custom property information. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<CustomProperty\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

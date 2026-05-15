@@ -11,7 +11,7 @@ url: /nodejs-cpp/htmltableloadoptioncollection/
 Represents the table options when importing HTML.
 
 ```javascript
-class HtmlTableLoadOptionCollection;
+class HtmlTableLoadOptionCollection implements Iterable<HtmlTableLoadOption>;
 ```
 
 
@@ -44,6 +44,11 @@ class HtmlTableLoadOptionCollection;
 | [addTableLoadOption(HtmlTableLoadOption)](#addTableLoadOption-htmltableloadoption-)| Adds one HtmlTableLoadOption into this collection. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<HtmlTableLoadOption\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

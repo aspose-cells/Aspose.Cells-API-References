@@ -4,7 +4,7 @@ linktitle: GetTrendLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetTrendLines method. Returns all the trendlines of this series in C++.'
 type: docs
-weight: 2600
+weight: 3000
 url: /cpp/aspose.cells.charts/series/gettrendlines/
 ---
 ## Series::GetTrendLines method

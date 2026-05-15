@@ -4,7 +4,7 @@ linktitle: SetTotalRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImportTableOptions::SetTotalRows method. Gets or sets total row count to import from data source. -1 means all rows of given data source in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells/importtableoptions/settotalrows/
 ---
 ## ImportTableOptions::SetTotalRows method

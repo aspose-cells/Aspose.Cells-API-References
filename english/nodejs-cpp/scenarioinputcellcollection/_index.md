@@ -11,7 +11,7 @@ url: /nodejs-cpp/scenarioinputcellcollection/
 Represents the list of the scenario's input cells.
 
 ```javascript
-class ScenarioInputCellCollection;
+class ScenarioInputCellCollection implements Iterable<ScenarioInputCell>;
 ```
 
 
@@ -23,6 +23,11 @@ class ScenarioInputCellCollection;
 | [add(number, number, string)](#add-number-number-string-)| Adds an input cell. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ScenarioInputCell\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

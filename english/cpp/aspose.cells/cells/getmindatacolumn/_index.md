@@ -4,7 +4,7 @@ linktitle: GetMinDataColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetMinDataColumn method. Minimum column index of cell which contains data in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells/cells/getmindatacolumn/
 ---
 ## Cells::GetMinDataColumn method

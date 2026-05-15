@@ -4,7 +4,7 @@ linktitle: SetShowValuesRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetShowValuesRow method. Indicates whether showing values row in C++.'
 type: docs
-weight: 10400
+weight: 10200
 url: /cpp/aspose.cells.pivot/pivottable/setshowvaluesrow/
 ---
 ## PivotTable::SetShowValuesRow method

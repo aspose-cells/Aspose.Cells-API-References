@@ -36,6 +36,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [hyperlinkLoadMode](#hyperlinkLoadMode--)| HyperlinkLoadMode | Specifies how hyperlinks are loaded when loading HTML. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
 | [parsingFormulaOnOpen](#parsingFormulaOnOpen--)| boolean | Indicates whether parsing the formula when reading the file. |
@@ -83,6 +84,8 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [setDetectLaTeX(boolean)](#setDetectLaTeX-boolean-)| <b>@deprecated.</b> Please use the 'detectLaTeX' property instead. Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [getParagrahLayoutMode()](#getParagrahLayoutMode--)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [setParagrahLayoutMode(HtmlParagraphLayoutMode)](#setParagrahLayoutMode-htmlparagraphlayoutmode-)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [getHyperlinkLoadMode()](#getHyperlinkLoadMode--)| <b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML. |
+| [setHyperlinkLoadMode(HyperlinkLoadMode)](#setHyperlinkLoadMode-hyperlinkloadmode-)| <b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| <b>@deprecated.</b> Please use the 'loadFormat' property instead. Gets the load format. |
 | [getPassword()](#getPassword--)| <b>@deprecated.</b> Please use the 'password' property instead. Gets and set the password of the workbook. |
@@ -250,6 +253,15 @@ Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The defaul
 
 ```javascript
 paragrahLayoutMode : HtmlParagraphLayoutMode;
+```
+
+
+### hyperlinkLoadMode {#hyperlinkLoadMode--}
+
+Specifies how hyperlinks are loaded when loading HTML.
+
+```javascript
+hyperlinkLoadMode : HyperlinkLoadMode;
 ```
 
 
@@ -706,6 +718,32 @@ setParagrahLayoutMode(value: HtmlParagraphLayoutMode) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/) | The value to set. |
+
+### getHyperlinkLoadMode() {#getHyperlinkLoadMode--}
+
+<b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML.
+
+```javascript
+getHyperlinkLoadMode() : HyperlinkLoadMode;
+```
+
+
+**Returns**
+
+[HyperlinkLoadMode](../hyperlinkloadmode/)
+
+### setHyperlinkLoadMode(HyperlinkLoadMode) {#setHyperlinkLoadMode-hyperlinkloadmode-}
+
+<b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML.
+
+```javascript
+setHyperlinkLoadMode(value: HyperlinkLoadMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HyperlinkLoadMode](../hyperlinkloadmode/) | The value to set. |
 
 ### isNull() {#isNull--}
 

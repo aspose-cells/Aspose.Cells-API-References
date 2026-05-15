@@ -4,7 +4,7 @@ linktitle: RemoveAt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::RemoveAt method. Remove the shape in C++.'
 type: docs
-weight: 4800
+weight: 4900
 url: /cpp/aspose.cells.drawing/shapecollection/removeat/
 ---
 ## ShapeCollection::RemoveAt method

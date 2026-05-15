@@ -4,7 +4,7 @@ linktitle: FontUnderlineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontUnderlineType enum. Enumerates the font underline types in C++.'
 type: docs
-weight: 21800
+weight: 22100
 url: /cpp/aspose.cells/fontunderlinetype/
 ---
 ## FontUnderlineType enum

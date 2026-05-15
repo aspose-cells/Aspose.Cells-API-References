@@ -4,7 +4,7 @@ linktitle: SqlDataType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::SqlDataType enum. Specifies SQL data type of the parameter. Only valid for ODBC sources in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.externalconnections/sqldatatype/
 ---
 ## SqlDataType enum

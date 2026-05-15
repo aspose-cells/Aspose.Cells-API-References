@@ -11,7 +11,7 @@ url: /nodejs-cpp/powerqueryformulaparametercollection/
 Represents the parameters of power query formula.
 
 ```javascript
-class PowerQueryFormulaParameterCollection;
+class PowerQueryFormulaParameterCollection implements Iterable<PowerQueryFormulaParameter>;
 ```
 
 ### Remarks
@@ -31,6 +31,11 @@ NOTE: This class is now obsolete. Instead, please use PowerQueryFormulaCollectio
 | [get(string)](#get-string-)| Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the name of the item. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<PowerQueryFormulaParameter\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

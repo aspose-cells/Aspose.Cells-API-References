@@ -54,6 +54,11 @@ var customProperties = workbook.worksheets.customDocumentProperties;
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
+## \[Symbol.iterator\](): Iterator\<DocumentProperty\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
+
 
 ### constructor(DocumentPropertyCollection) {#constructor-documentpropertycollection-}
 

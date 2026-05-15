@@ -10,7 +10,7 @@ url: /go-cpp/displayunitlabel/setrotationangle/
 
 ## SetRotationAngle function
 
-Represents text rotation angle.
+Represents the text rotation angle.
 
 ```go
 

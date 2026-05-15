@@ -1,14 +1,14 @@
 ﻿---
 title: ChartCalculateOptions
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the options for calculating the chart.
+description: Represents the options for calculating a chart.
 type: docs
 url: /javascript-cpp/chartcalculateoptions/
 ---
 
 ## ChartCalculateOptions class
 
-Represents the options for calculating the chart.
+Represents the options for calculating a chart.
 
 ```javascript
 class ChartCalculateOptions;

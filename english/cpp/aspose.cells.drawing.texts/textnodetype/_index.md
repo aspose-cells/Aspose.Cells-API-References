@@ -4,7 +4,7 @@ linktitle: TextNodeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextNodeType enum. Represents the node type in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.drawing.texts/textnodetype/
 ---
 ## TextNodeType enum

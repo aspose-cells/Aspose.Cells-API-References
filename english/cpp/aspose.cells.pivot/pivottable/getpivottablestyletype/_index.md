@@ -4,7 +4,7 @@ linktitle: GetPivotTableStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPivotTableStyleType method. Gets and sets the built-in pivot table style in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivottable/getpivottablestyletype/
 ---
 ## PivotTable::GetPivotTableStyleType method

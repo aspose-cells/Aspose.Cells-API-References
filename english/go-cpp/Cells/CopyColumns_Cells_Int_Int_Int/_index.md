@@ -10,11 +10,11 @@ url: /go-cpp/cells/copycolumns_cells_int_int_int/
 
 ## CopyColumns_Cells_Int_Int_Int function
 
-Copies data and formats of a whole column.
+Copies data and formats of whole columns.
 
 ```go
 
-func (instance *Cells) CopyColumns_Cells_Int_Int_Int(sourcecells0 *Cells, sourcecolumnindex int32, destinationcolumnindex int32, columnnumber int32)  error
+func (instance *Cells) CopyColumns_Cells_Int_Int_Int(sourcecells *Cells, sourcecolumnindex int32, destinationcolumnindex int32, columnnumber int32)  error
 
 ```
 

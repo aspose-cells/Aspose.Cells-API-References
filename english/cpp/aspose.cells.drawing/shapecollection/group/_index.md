@@ -4,7 +4,7 @@ linktitle: Group
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::Group method. Group the shapes in C++.'
 type: docs
-weight: 4600
+weight: 4700
 url: /cpp/aspose.cells.drawing/shapecollection/group/
 ---
 ## ShapeCollection::Group method

@@ -26,9 +26,11 @@ class HyperlinkCollection
 | [Add(const char16_t* cellName, int32_t totalRows, int32_t totalColumns, const char16_t* address)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Add(const U16String\& startCellName, const U16String\& endCellName, const U16String\& address, const U16String\& textToDisplay, const U16String\& screenTip)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Add(const char16_t* startCellName, const char16_t* endCellName, const char16_t* address, const char16_t* textToDisplay, const char16_t* screenTip)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [HyperlinkCollection](./). |
 | [Clear()](./clear/) | Clears all hyperlinks. |
+| [end()](./end/) | Returns an iterator to the end of the [HyperlinkCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Hyperlink](../hyperlink/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [HyperlinkCollection(HyperlinkCollection_Impl* impl)](./hyperlinkcollection/) | Constructs from an implementation object. |
 | [HyperlinkCollection(const HyperlinkCollection\& src)](./hyperlinkcollection/) | Copy constructor. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

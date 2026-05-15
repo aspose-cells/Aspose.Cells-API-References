@@ -4,7 +4,7 @@ linktitle: SetIsConsecutive
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetIsConsecutive method. Flag indicating whether consecutive delimiters should be treated as just one delimiter in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/setisconsecutive/
 ---
 ## WebQueryConnection::SetIsConsecutive method

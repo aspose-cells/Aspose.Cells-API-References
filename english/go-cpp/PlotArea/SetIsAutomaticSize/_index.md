@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/setisautomaticsize/
 
 ## SetIsAutomaticSize function
 
-Indicates whether the plot area is automatic sized.
+Indicates whether the plot area is automatically sized.
 
 ```go
 

@@ -4,7 +4,7 @@ linktitle: GetShapeYPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetShapeYPx method. Gets the y coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method in C++.'
 type: docs
-weight: 2400
+weight: 2800
 url: /cpp/aspose.cells.charts/chartpoint/getshapeypx/
 ---
 ## ChartPoint::GetShapeYPx method

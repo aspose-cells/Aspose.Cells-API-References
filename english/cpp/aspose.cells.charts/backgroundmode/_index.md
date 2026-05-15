@@ -4,7 +4,7 @@ linktitle: BackgroundMode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::BackgroundMode enum. Represents the display mode of the background in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells.charts/backgroundmode/
 ---
 ## BackgroundMode enum

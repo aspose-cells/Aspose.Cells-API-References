@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range class. Encapsulates the object that represents a range of cells within a spreadsheet in C++.'
 type: docs
-weight: 12500
+weight: 12700
 url: /cpp/aspose.cells/range/
 ---
 ## Range class
@@ -25,6 +25,7 @@ class Range
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole range. |
 | [AutoFill(const Range\& target)](./autofill/) | Automaticall fill the target range. |
 | [AutoFill(const Range\& target, AutoFillType autoFillType)](./autofill/) | Automaticall fill the target range. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [Range](./). |
 | [Clear()](./clear/) | Clears this range. |
 | [ClearComments()](./clearcomments/) | Clears the comments of this range. |
 | [ClearContents()](./clearcontents/) | Clears the contents of this range. |
@@ -35,6 +36,7 @@ class Range
 | [CopyData(const Range\& range)](./copydata/) | Copies cell data (including formulas) from a source range. |
 | [CopyStyle(const Range\& range)](./copystyle/) | Copies style settings from a source range. |
 | [CopyValue(const Range\& range)](./copyvalue/) | Copies cell value from a source range. |
+| [end()](./end/) | Returns an iterator to the end of the [Range](./). |
 | [Get(int32_t rowOffset, int32_t columnOffset)](./get/) | Gets [Cell](../cell/) object in this range. |
 | [GetAddress()](./getaddress/) | Gets address of the range. |
 | [GetCellOrNull(int32_t rowOffset, int32_t columnOffset)](./getcellornull/) | Gets [Cell](../cell/) object or null in this range. |

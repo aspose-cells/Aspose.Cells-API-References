@@ -55,8 +55,8 @@ type Slicer struct  {
 |[SetFirstItemIndex](./setfirstitemindex/) | Specifies the zero-based index of the first slicer item. | 
 |[GetShowCaption](./getshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 
 |[SetShowCaption](./setshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 
-|[GetNumberOfColumns](./getnumberofcolumns/) | Returns or sets the number of columns in the specified slicer.The default value is 1. | 
-|[SetNumberOfColumns](./setnumberofcolumns/) | Returns or sets the number of columns in the specified slicer.The default value is 1. | 
+|[GetNumberOfColumns](./getnumberofcolumns/) | Returns or sets the number of columns in the slicer.The default value is 1. | 
+|[SetNumberOfColumns](./setnumberofcolumns/) | Returns or sets the number of columns in the slicer.The default value is 1. | 
 |[GetColumnWidthPixel](./getcolumnwidthpixel/) | Gets or sets the width of each column in the slicer, in unit of pixels. | 
 |[SetColumnWidthPixel](./setcolumnwidthpixel/) | Gets or sets the width of each column in the slicer, in unit of pixels. | 
 |[GetColumnWidth](./getcolumnwidth/) | Returns or sets the width of each column in the slicer in unit of points. | 

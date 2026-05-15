@@ -4,7 +4,7 @@ linktitle: SetIsTextDates
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::WebQueryConnection::SetIsTextDates method. Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.externalconnections/webqueryconnection/setistextdates/
 ---
 ## WebQueryConnection::SetIsTextDates method

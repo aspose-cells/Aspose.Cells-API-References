@@ -18,7 +18,7 @@ public enum MapChartRegionType
 | Name | Value | Description |
 | --- | --- | --- |
 | Automatic | `0` | Automatic |
-| DataOnly | `1` | Only Data. |
+| DataOnly | `1` | Only data. |
 | CountryRegionList | `2` | Country region list. |
 | World | `3` | World. |
 

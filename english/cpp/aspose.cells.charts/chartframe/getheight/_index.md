@@ -4,7 +4,7 @@ linktitle: GetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetHeight method. Gets or sets the height of frame in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 3400
+weight: 3600
 url: /cpp/aspose.cells.charts/chartframe/getheight/
 ---
 ## ChartFrame::GetHeight method

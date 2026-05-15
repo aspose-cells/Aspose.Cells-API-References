@@ -22,10 +22,12 @@ class SmartTagPropertyCollection
 | --- | --- |
 | [Add(const U16String\& name, const U16String\& value)](./add/) | Adds a property of cell's smart tag. |
 | [Add(const char16_t* name, const char16_t* value)](./add/) | Adds a property of cell's smart tag. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [SmartTagPropertyCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [SmartTagPropertyCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a [SmartTagProperty](../smarttagproperty/) object. |
 | [Get(const U16String\& name)](./get/) | Gets a [SmartTagProperty](../smarttagproperty/) object by the name of the property. |
 | [Get(const char16_t* name)](./get/) | Gets a [SmartTagProperty](../smarttagproperty/) object by the name of the property. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SmartTagPropertyCollection\& src)](./operator_asm/) | operator= |

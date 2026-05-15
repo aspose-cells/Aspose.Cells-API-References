@@ -21,10 +21,10 @@ Represents data label position type.
 | [BELOW](#BELOW) | Applies only to line charts |
 | [BEST_FIT](#BEST-FIT) | Applies only to 2D/3D pie charts |
 | [CENTER](#CENTER) | Applies only to bar, 2D/3D pie charts |
-| [INSIDE_BASE](#INSIDE-BASE) | Applies only to bar, 2d/3d pie charts |
+| [INSIDE_BASE](#INSIDE-BASE) | Applies only to bar, 2D/3D pie charts |
 | [INSIDE_END](#INSIDE-END) | Applies only to bar charts |
 | [LEFT](#LEFT) | Applies only to line charts |
-| [MOVED](#MOVED) | User moved the data labels only for reading the chart from the template file. |
+| [MOVED](#MOVED) | User moved the data labels. |
 | [OUTSIDE_END](#OUTSIDE-END) | Applies only to bar, 2d/3d pie charts |
 | [RIGHT](#RIGHT) | Applies only to line charts |
 ## Methods
@@ -78,7 +78,7 @@ public static final int INSIDE_BASE
 ```
 
 
-Applies only to bar, 2d/3d pie charts
+Applies only to bar, 2D/3D pie charts
 
 ### INSIDE_END {#INSIDE-END}
 ```
@@ -102,7 +102,7 @@ public static final int MOVED
 ```
 
 
-User moved the data labels only for reading the chart from the template file.
+User moved the data labels. This is only for reading chart from template file.
 
 ### OUTSIDE_END {#OUTSIDE-END}
 ```

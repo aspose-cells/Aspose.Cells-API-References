@@ -17,8 +17,8 @@ Represents the layout of map chart's labels.
 
 | Field | Description |
 | --- | --- |
-| [BEST_FIT_ONLY](#BEST-FIT-ONLY) | Only the best fit. |
-| [NONE](#NONE) | No labels. |
+| [BEST_FIT_ONLY](#BEST-FIT-ONLY) | Only the best fit is used. |
+| [NONE](#NONE) | There are no labels. |
 | [SHOW_ALL](#SHOW-ALL) | Shows all labels. |
 ## Methods
 
@@ -39,7 +39,7 @@ public static final int BEST_FIT_ONLY
 ```
 
 
-Only the best fit.
+Only the best fit is used.
 
 ### NONE {#NONE}
 ```
@@ -47,7 +47,7 @@ public static final int NONE
 ```
 
 
-No labels.
+There are no labels.
 
 ### SHOW_ALL {#SHOW-ALL}
 ```

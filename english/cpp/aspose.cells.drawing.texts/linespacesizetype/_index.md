@@ -4,7 +4,7 @@ linktitle: LineSpaceSizeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::LineSpaceSizeType enum. Represents the unit type of line space size in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.drawing.texts/linespacesizetype/
 ---
 ## LineSpaceSizeType enum

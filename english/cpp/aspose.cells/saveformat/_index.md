@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SaveFormat enum. Represents the format in which the workbook is saved in C++.'
 type: docs
-weight: 26000
+weight: 26400
 url: /cpp/aspose.cells/saveformat/
 ---
 ## SaveFormat enum
@@ -69,6 +69,7 @@ enum class SaveFormat
 | Epub | 772 | <br>Represents Epub file. |
 | Azw3 | 773 | <br>Represents Azw3 file. |
 | Pcl | 1025 | <br>PCL (Printer Command Language) |
+| Ofd | 1026 | <br>OFD (Open Fixed-layout Document) |
 | Dbf | 515 | <br>Xbase Data file. |
 
 ## See Also

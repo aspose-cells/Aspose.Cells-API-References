@@ -91,7 +91,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CharacterBulletValue](../com.aspose.cells/characterbulletvalue) | Represents the character bullet. |
 | [Chart](../com.aspose.cells/chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](../com.aspose.cells/chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating the chart. |
+| [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating a chart. |
 | [ChartCollection](../com.aspose.cells/chartcollection) | Encapsulates a collection of [Chart](../com.aspose.cells/chart) objects. |
 | [ChartColorPaletteType](../com.aspose.cells/chartcolorpalettetype) | Enumerates all Monochromatic Palettes used in an Excel chart. |
 | [ChartDataTable](../com.aspose.cells/chartdatatable) | Represents a chart data table. |
@@ -333,6 +333,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlVersion](../com.aspose.cells/htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [Hyperlink](../com.aspose.cells/hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](../com.aspose.cells/hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../com.aspose.cells/hyperlink) objects. |
+| [HyperlinkLoadMode](../com.aspose.cells/hyperlinkloadmode) | Specifies how hyperlinks are handled when loading HTML. |
 | [IconFilter](../com.aspose.cells/iconfilter) | Represents icon filter. |
 | [IconSet](../com.aspose.cells/iconset) | Describe the IconSet conditional formatting rule. |
 | [IconSetType](../com.aspose.cells/iconsettype) | Icon set type for conditional formatting. |
@@ -447,6 +448,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [OdsPageBackgroundGraphicType](../com.aspose.cells/odspagebackgroundgraphictype) | Represents the type of formatting page background with image. |
 | [OdsPageBackgroundType](../com.aspose.cells/odspagebackgroundtype) | Represents the page background type of ods. |
 | [OdsSaveOptions](../com.aspose.cells/odssaveoptions) | Represents the options of saving ods file. |
+| [OfdSaveOptions](../com.aspose.cells/ofdsaveoptions) | Represents the options for saving a OFD(Open Fixed-layout Document) file. |
 | [OleObject](../com.aspose.cells/oleobject) | Represents an OleObject in a worksheet. |
 | [OleObjectCollection](../com.aspose.cells/oleobjectcollection) | Represents embedded OLE objects. |
 | [OoxmlCompliance](../com.aspose.cells/ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |

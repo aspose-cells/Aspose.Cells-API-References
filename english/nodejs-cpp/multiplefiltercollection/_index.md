@@ -11,7 +11,7 @@ url: /nodejs-cpp/multiplefiltercollection/
 Represents the multiple filter collection.
 
 ```javascript
-class MultipleFilterCollection;
+class MultipleFilterCollection implements Iterable<Object>;
 ```
 
 
@@ -41,6 +41,11 @@ class MultipleFilterCollection;
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
+
+## \[Symbol.iterator\](): Iterator\<Object\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### constructor() {#constructor--}

@@ -51,6 +51,8 @@ public class SparklineGroup
 | Name | Description |
 | --- | --- |
 | [ResetRanges](../../aspose.cells.charts/sparklinegroup/resetranges/)(string, bool, CellArea) | Resets the data range and location range of the sparkline group. This method will clear original sparkline items in the group and creates new sparkline items for the new ranges. |
+| [SetVerticalAxisMaxValue](../../aspose.cells.charts/sparklinegroup/setverticalaxismaxvalue/)(SparklineAxisMinMaxType, double) | Sets the custom maximum value for the sparkline vertical axis with the specified axis value type. |
+| [SetVerticalAxisMinValue](../../aspose.cells.charts/sparklinegroup/setverticalaxisminvalue/)(SparklineAxisMinMaxType, double) | Sets the custom minimum value for the sparkline vertical axis with the specified axis value type. |
 
 ### Examples
 

@@ -4,7 +4,7 @@ linktitle: GetColumnOriginalWidthPoint
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnOriginalWidthPoint method. Gets original column''s height in unit of point if the column is hidden in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells/cells/getcolumnoriginalwidthpoint/
 ---
 ## Cells::GetColumnOriginalWidthPoint method

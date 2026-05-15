@@ -4,7 +4,7 @@ linktitle: GetShadow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetShadow method. True if the series has a shadow in C++.'
 type: docs
-weight: 2900
+weight: 3300
 url: /cpp/aspose.cells.charts/series/getshadow/
 ---
 ## Series::GetShadow method

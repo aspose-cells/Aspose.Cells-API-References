@@ -20,12 +20,14 @@ class ConnectionParameterCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ConnectionParameterCollection](./). |
 | [ConnectionParameterCollection(ConnectionParameterCollection_Impl* impl)](./connectionparametercollection/) | Constructs from an implementation object. |
 | [ConnectionParameterCollection(const ConnectionParameterCollection\& src)](./connectionparametercollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [ConnectionParameterCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [Get(const U16String\& connParamName)](./get/) | Gets the [ConnectionParameter](../connectionparameter/) element with the specified name. |
 | [Get(const char16_t* connParamName)](./get/) | Gets the [ConnectionParameter](../connectionparameter/) element with the specified name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConnectionParameterCollection\& src)](./operator_asm/) | operator= |

@@ -11,7 +11,7 @@ url: /nodejs-cpp/querytablecollection/
 A collection of [QueryTableCollection](../querytablecollection/) objects that represent QueryTable collection information.
 
 ```javascript
-class QueryTableCollection;
+class QueryTableCollection implements Iterable<QueryTable>;
 ```
 
 
@@ -22,6 +22,11 @@ class QueryTableCollection;
 | [get(number)](#get-number-)| Gets the querytable by the specific index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<QueryTable\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

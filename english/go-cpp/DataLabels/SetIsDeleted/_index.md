@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/setisdeleted/
 
 ## SetIsDeleted function
 
-Indicates whether this data labels is deleted.
+Indicates whether this data labels are deleted.
 
 ```go
 

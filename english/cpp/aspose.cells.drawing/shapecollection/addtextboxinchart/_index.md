@@ -4,7 +4,7 @@ linktitle: AddTextBoxInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddTextBoxInChart method. Adds a textbox to the chart in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.drawing/shapecollection/addtextboxinchart/
 ---
 ## ShapeCollection::AddTextBoxInChart method

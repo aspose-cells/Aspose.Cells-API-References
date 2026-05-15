@@ -4,7 +4,7 @@ linktitle: AddShapeInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddShapeInChart method. Add a shape to chart .All unit is 1/4000 of chart area in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells.drawing/shapecollection/addshapeinchart/
 ---
 ## ShapeCollection::AddShapeInChart(MsoDrawingType, PlacementType, int32_t, int32_t, int32_t, int32_t, const Vector \<uint8_t\>\&) method

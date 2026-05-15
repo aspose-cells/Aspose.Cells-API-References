@@ -11,7 +11,7 @@ url: /nodejs-cpp/documentpropertycollection/
 Base class for [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) collections.
 
 ```javascript
-class DocumentPropertyCollection;
+class DocumentPropertyCollection implements Iterable<DocumentProperty>;
 ```
 
 
@@ -45,6 +45,11 @@ console.log("Custom Properties: " + customProperties.count);
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
+
+## \[Symbol.iterator\](): Iterator\<DocumentProperty\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

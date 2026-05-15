@@ -69,7 +69,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](../charttextframe/isautotext/) | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
-| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels are deleted. |
+| [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data label is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsOverLay()](./isoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
@@ -91,7 +91,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](../charttextframe/setisautotext/) | Indicates the text is auto generated. |
-| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels are deleted. |
+| [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data label is deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [SetIsOverLay(bool value)](./setisoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |

@@ -4,7 +4,7 @@ linktitle: GetDefaultHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultHeight method. Represents height of default position in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells.charts/chartframe/getdefaultheight/
 ---
 ## ChartFrame::GetDefaultHeight method

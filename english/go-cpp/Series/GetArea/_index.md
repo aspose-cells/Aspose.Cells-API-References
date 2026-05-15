@@ -10,7 +10,7 @@ url: /go-cpp/series/getarea/
 
 ## GetArea function
 
-Represents the background area of Series object.
+Represents the background area of the Series object.
 
 ```go
 

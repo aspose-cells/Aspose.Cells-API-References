@@ -4,7 +4,7 @@ linktitle: SetPageOrientationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetPageOrientationType method. Set the type of print orientation for the whole workbook in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells/workbooksettings/setpageorientationtype/
 ---
 ## WorkbookSettings::SetPageOrientationType method

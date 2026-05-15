@@ -4,7 +4,7 @@ linktitle: BorderType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderType enum. Enumerates the border line and diagonal line types in C++.'
 type: docs
-weight: 18200
+weight: 18300
 url: /cpp/aspose.cells/bordertype/
 ---
 ## BorderType enum

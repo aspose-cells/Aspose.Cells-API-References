@@ -4,7 +4,7 @@ linktitle: SetHeightRatioToChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetHeightRatioToChart method. Gets or sets the height of frame in units of ratio of the chart area in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells.charts/chartframe/setheightratiotochart/
 ---
 ## ChartFrame::SetHeightRatioToChart method

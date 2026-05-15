@@ -11,7 +11,7 @@ url: /nodejs-cpp/slicercollection/
 Specifies the collection of all the Slicer objects on the specified worksheet.
 
 ```javascript
-class SlicerCollection;
+class SlicerCollection implements Iterable<Slicer>;
 ```
 
 
@@ -35,6 +35,11 @@ class SlicerCollection;
 | [add(ListObject, ListColumn, number, number)](#add-listobject-listcolumn-number-number-)| Add a new Slicer using ListObjet as data source |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<Slicer\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

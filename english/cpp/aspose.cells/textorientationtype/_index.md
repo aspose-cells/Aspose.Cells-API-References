@@ -4,7 +4,7 @@ linktitle: TextOrientationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextOrientationType enum. Enumerates text orientation types in C++.'
 type: docs
-weight: 27100
+weight: 27600
 url: /cpp/aspose.cells/textorientationtype/
 ---
 ## TextOrientationType enum

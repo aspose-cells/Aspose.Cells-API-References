@@ -4,7 +4,7 @@ linktitle: SetVerticalAxisMinValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineGroup::SetVerticalAxisMinValueType method. Represents the vertical axis minimum value type in C++.'
 type: docs
-weight: 5700
+weight: 5800
 url: /cpp/aspose.cells.charts/sparklinegroup/setverticalaxisminvaluetype/
 ---
 ## SparklineGroup::SetVerticalAxisMinValueType method

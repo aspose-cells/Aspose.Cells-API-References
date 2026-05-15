@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Charts
 second_title: Aspose.Cells for .NET API Reference
-description: The ltbgtAspose.Cells.Chartslt/bgt namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets
+description: The Aspose.Cells.Charts namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets
 type: docs
 url: /net/aspose.cells.charts/
 ---
-The &lt;b&gt;Aspose.Cells.Charts&lt;/b&gt; namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets.
+The **Aspose.Cells.Charts** namespace provides classes that allow access to and drawing of charts and sparkline in Microsoft Excel spreadsheets.
 
 ## Classes
 
@@ -15,7 +15,7 @@ The &lt;b&gt;Aspose.Cells.Charts&lt;/b&gt; namespace provides classes that allow
 | [AxisBins](./axisbins/) | Represents axis bins |
 | [Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
-| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating the chart. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating a chart. |
 | [ChartCollection](./chartcollection/) | Encapsulates a collection of [`Chart`](../aspose.cells.charts/chart/) objects. |
 | [ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 | [ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |

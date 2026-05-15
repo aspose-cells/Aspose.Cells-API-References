@@ -4,7 +4,7 @@ linktitle: ValidationCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ValidationCollection class. Represents data validation collection in C++.'
 type: docs
-weight: 15800
+weight: 16000
 url: /cpp/aspose.cells/validationcollection/
 ---
 ## ValidationCollection class
@@ -21,8 +21,10 @@ class ValidationCollection
 | Method | Description |
 | --- | --- |
 | [Add(const CellArea\& ca)](./add/) | Adds a data validation to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ValidationCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ValidationCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Validation](../validation/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [GetValidationInCell(int32_t row, int32_t column)](./getvalidationincell/) | Gets the validation applied to given cell. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

@@ -4,7 +4,7 @@ linktitle: SetStandardHeightPixels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetStandardHeightPixels method. Gets or sets the default row height in this worksheet, in unit of pixels in C++.'
 type: docs
-weight: 3900
+weight: 4100
 url: /cpp/aspose.cells/cells/setstandardheightpixels/
 ---
 ## Cells::SetStandardHeightPixels method

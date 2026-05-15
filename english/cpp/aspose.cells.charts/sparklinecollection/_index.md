@@ -22,8 +22,10 @@ class SparklineCollection
 | --- | --- |
 | [Add(const U16String\& dataRange, int32_t row, int32_t column)](./add/) | Add a sparkline. |
 | [Add(const char16_t* dataRange, int32_t row, int32_t column)](./add/) | Add a sparkline. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [SparklineCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [SparklineCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [Sparkline](../sparkline/) element at the specified index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SparklineCollection\& src)](./operator_asm/) | operator= |

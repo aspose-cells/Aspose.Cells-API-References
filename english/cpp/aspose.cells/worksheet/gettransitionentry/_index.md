@@ -4,7 +4,7 @@ linktitle: GetTransitionEntry
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetTransitionEntry method. Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled in C++.'
 type: docs
-weight: 5900
+weight: 6000
 url: /cpp/aspose.cells/worksheet/gettransitionentry/
 ---
 ## Worksheet::GetTransitionEntry method

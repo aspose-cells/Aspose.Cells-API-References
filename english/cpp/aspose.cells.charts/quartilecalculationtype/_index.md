@@ -4,7 +4,7 @@ linktitle: QuartileCalculationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::QuartileCalculationType enum. Represents quartile calculation methods in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells.charts/quartilecalculationtype/
 ---
 ## QuartileCalculationType enum

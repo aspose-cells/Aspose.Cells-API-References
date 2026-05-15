@@ -4,7 +4,7 @@ linktitle: CopyCommentsInRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::CopyCommentsInRange method. Copy all comments in the range in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells.drawing/shapecollection/copycommentsinrange/
 ---
 ## ShapeCollection::CopyCommentsInRange method

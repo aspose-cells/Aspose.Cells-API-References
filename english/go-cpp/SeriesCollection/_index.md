@@ -34,8 +34,8 @@ type SeriesCollection struct  {
 |[RemoveAt](./removeat/) | Remove at a series at the specific index. | 
 |[GetCategoryData](./getcategorydata/) | Gets or sets the range of category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}"). | 
 |[SetCategoryData](./setcategorydata/) | Gets or sets the range of category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}"). | 
-|[GetSecondCategoryData](./getsecondcategorydata/) | Gets or sets the range of second category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}").Only effects when some ASerieses plot on the second axis. | 
-|[SetSecondCategoryData](./setsecondcategorydata/) | Gets or sets the range of second category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}").Only effects when some ASerieses plot on the second axis. | 
+|[GetSecondCategoryData](./getsecondcategorydata/) | Gets or sets the range of second category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}").Only effects when some series were plotted on the second axis. | 
+|[SetSecondCategoryData](./setsecondcategorydata/) | Gets or sets the range of second category Axis values.It can be a range of cells (such as, "d1:e10"),or a sequence of values (such as,"{2,6,8,10}").Only effects when some series were plotted on the second axis. | 
 |[SwapSeries](./swapseries/) | Directly changes the orders of the two series. | 
 |[SetSeriesNames](./setseriesnames/) | Sets the name of all the serieses in the chart. | 
 |[AddR1C1](./addr1c1/) | Adds the Series collection to a chart. | 

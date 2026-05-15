@@ -30,16 +30,16 @@ type SeriesLayoutProperties struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetShowConnectorLines](./getshowconnectorlines/) | Indicates whether showing connector lines between data points. | 
-|[SetShowConnectorLines](./setshowconnectorlines/) | Indicates whether showing connector lines between data points. | 
-|[GetShowMeanLine](./getshowmeanline/) | Indicates whether showing the line connecting all mean points. | 
-|[SetShowMeanLine](./setshowmeanline/) | Indicates whether showing the line connecting all mean points. | 
-|[GetShowOutlierPoints](./getshowoutlierpoints/) | Indicates whether showing outlier data points. | 
-|[SetShowOutlierPoints](./setshowoutlierpoints/) | Indicates whether showing outlier data points. | 
-|[GetShowMeanMarker](./getshowmeanmarker/) | Indicates whether showing markers denoting the mean. | 
-|[SetShowMeanMarker](./setshowmeanmarker/) | Indicates whether showing markers denoting the mean. | 
-|[GetShowInnerPoints](./getshowinnerpoints/) | Indicates whether showing non-outlier data points. | 
-|[SetShowInnerPoints](./setshowinnerpoints/) | Indicates whether showing non-outlier data points. | 
+|[GetShowConnectorLines](./getshowconnectorlines/) | Indicates whether connector lines are shown between data points. | 
+|[SetShowConnectorLines](./setshowconnectorlines/) | Indicates whether connector lines are shown between data points. | 
+|[GetShowMeanLine](./getshowmeanline/) | Indicates whether to show the line connecting all mean points. | 
+|[SetShowMeanLine](./setshowmeanline/) | Indicates whether to show the line connecting all mean points. | 
+|[GetShowOutlierPoints](./getshowoutlierpoints/) | Indicates whether outlier data points are shown. | 
+|[SetShowOutlierPoints](./setshowoutlierpoints/) | Indicates whether outlier data points are shown. | 
+|[GetShowMeanMarker](./getshowmeanmarker/) | Indicates whether markers denoting the mean are shown. | 
+|[SetShowMeanMarker](./setshowmeanmarker/) | Indicates whether markers denoting the mean are shown. | 
+|[GetShowInnerPoints](./getshowinnerpoints/) | Indicates whether to show non-outlier data points. | 
+|[SetShowInnerPoints](./setshowinnerpoints/) | Indicates whether to show non-outlier data points. | 
 |[GetSubtotals](./getsubtotals/) | Represents the index of a subtotal data point. | 
 |[SetSubtotals](./setsubtotals/) | Represents the index of a subtotal data point. | 
 |[GetQuartileCalculation](./getquartilecalculation/) | Represents the statistical properties for the series. | 

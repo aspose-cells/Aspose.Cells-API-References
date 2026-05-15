@@ -39,6 +39,7 @@ Represents options when importing an HTML file.
 | [getDetectLaTeX()](#getDetectLaTeX--) | Indicates whether to detect LaTeX formula in the HTML file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
+| [getHyperlinkLoadMode()](#getHyperlinkLoadMode--) | Specifies how hyperlinks are loaded when loading HTML. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
@@ -83,6 +84,7 @@ Represents options when importing an HTML file.
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
+| [setHyperlinkLoadMode(int value)](#setHyperlinkLoadMode-int-) | Specifies how hyperlinks are loaded when loading HTML. |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
@@ -313,6 +315,18 @@ Gets individual font configs. Only works for the [Workbook](../../com.aspose.cel
 
 **Returns:**
 [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs)
+### getHyperlinkLoadMode() {#getHyperlinkLoadMode--}
+```
+public int getHyperlinkLoadMode()
+```
+
+
+Specifies how hyperlinks are loaded when loading HTML.
+
+See [HyperlinkLoadMode](../../com.aspose.cells/hyperlinkloadmode).
+
+**Returns:**
+int
 ### getIgnoreNotPrinted() {#getIgnoreNotPrinted--}
 ```
 public boolean getIgnoreNotPrinted()
@@ -862,6 +876,21 @@ Indicates whether the text is formula if it starts with "=".
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setHyperlinkLoadMode(int value) {#setHyperlinkLoadMode-int-}
+```
+public void setHyperlinkLoadMode(int value)
+```
+
+
+Specifies how hyperlinks are loaded when loading HTML.
+
+See [HyperlinkLoadMode](../../com.aspose.cells/hyperlinkloadmode).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setIgnoreNotPrinted(boolean value) {#setIgnoreNotPrinted-boolean-}
 ```

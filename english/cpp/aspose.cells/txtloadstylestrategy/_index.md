@@ -4,7 +4,7 @@ linktitle: TxtLoadStyleStrategy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtLoadStyleStrategy enum. Specifies how to apply style for parsed values when converting string value to number or datetime in C++.'
 type: docs
-weight: 27500
+weight: 28000
 url: /cpp/aspose.cells/txtloadstylestrategy/
 ---
 ## TxtLoadStyleStrategy enum

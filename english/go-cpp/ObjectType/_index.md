@@ -10,7 +10,7 @@ url: /go-cpp/objecttype/
 
 ## ObjectType Enum
 
-Represents the type of the number.
+Represents the type of the object.
 
 ```go
 
@@ -33,12 +33,3 @@ type ObjectType int32
 |[Range](./range/) | The object is Range type. | 
 |[Array1D](./array1d/) | The object is a one-dimensional array. | 
 |[Array2D](./array2d/) | The object is a two-dimensional array. | 
-|[Int8](./int8/) |  | 
-|[UInt8](./uint8/) |  | 
-|[Int16](./int16/) |  | 
-|[UInt16](./uint16/) |  | 
-|[Int32](./int32/) |  | 
-|[UInt32](./uint32/) |  | 
-|[Int64](./int64/) |  | 
-|[UInt64](./uint64/) |  | 
-|[Float](./float/) |  | 

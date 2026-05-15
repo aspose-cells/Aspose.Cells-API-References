@@ -4,7 +4,7 @@ linktitle: DeleteInRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::DeleteInRange method. Delete shapes in the range.Comment shapes will not be deleted in C++.'
 type: docs
-weight: 4400
+weight: 4500
 url: /cpp/aspose.cells.drawing/shapecollection/deleteinrange/
 ---
 ## ShapeCollection::DeleteInRange method

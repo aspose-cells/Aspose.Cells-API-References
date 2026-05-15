@@ -10,7 +10,7 @@ url: /go-cpp/series/iscolorvaried/
 
 ## IsColorVaried function
 
-Represents if the color of points is varied.The chart must contain only one series.
+Represents if the color of points is varied.The chart must contain only one series or this chart is a pie chart.
 
 ```go
 

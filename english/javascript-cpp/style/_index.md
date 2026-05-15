@@ -77,6 +77,10 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [isGradient](#isGradient--)| boolean | Indicates whether the cell shading is a gradient pattern. |
 | [isPercent](#isPercent--)| boolean | Readonly. Indicates whether the number format is a percent format. |
 | [isDateTime](#isDateTime--)| boolean | Readonly. Indicates whether the number format is a date format. |
+| [leftBorder](#leftBorder--)| Border | Readonly. Gets the left border. |
+| [rightBorder](#rightBorder--)| Border | Readonly. Gets the right border. |
+| [topBorder](#topBorder--)| Border | Readonly. Gets the top border. |
+| [bottomBorder](#bottomBorder--)| Border | Readonly. Gets the bottom border. |
 
 ## Methods
 
@@ -489,6 +493,42 @@ Readonly. Indicates whether the number format is a date format.
 
 ```javascript
 isDateTime : boolean;
+```
+
+
+### leftBorder {#leftBorder--}
+
+Readonly. Gets the left border.
+
+```javascript
+leftBorder : Border;
+```
+
+
+### rightBorder {#rightBorder--}
+
+Readonly. Gets the right border.
+
+```javascript
+rightBorder : Border;
+```
+
+
+### topBorder {#topBorder--}
+
+Readonly. Gets the top border.
+
+```javascript
+topBorder : Border;
+```
+
+
+### bottomBorder {#bottomBorder--}
+
+Readonly. Gets the bottom border.
+
+```javascript
+bottomBorder : Border;
 ```
 
 

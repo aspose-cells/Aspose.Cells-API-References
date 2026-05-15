@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::GetMergeLabels method
 linktitle: GetMergeLabels
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetMergeLabels method. True if the specified PivotTable report''s outer-row item, column item, subtotal, and grand total labels use merged cells in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetMergeLabels method. Indicates whether row or column titles that span multiple cells should be merged into a single cell in C++.'
 type: docs
-weight: 6500
+weight: 6900
 url: /cpp/aspose.cells.pivot/pivottable/getmergelabels/
 ---
 ## PivotTable::GetMergeLabels method
 
 
-True if the specified [PivotTable](../) report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+Indicates whether row or column titles that span multiple cells should be merged into a single cell.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotTable::GetMergeLabels()

@@ -17,9 +17,9 @@ public enum TickLabelAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | `0` | Represents that the text shall be centered. |
-| Left | `1` | Represents the text that shall be left justified. |
-| Right | `2` | Represents that the text shall be right justified. |
+| Center | `0` | Specifies that the text is centered. |
+| Left | `1` | Specifies that the text is left-aligned.. |
+| Right | `2` | Specifies that the text is right-aligned.. |
 
 ### Examples
 

@@ -4,7 +4,7 @@ linktitle: GetOnCategoryAxisPointXPx
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint::GetOnCategoryAxisPointXPx method. Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart in C++.'
 type: docs
-weight: 4700
+weight: 5200
 url: /cpp/aspose.cells.charts/chartpoint/getoncategoryaxispointxpx/
 ---
 ## ChartPoint::GetOnCategoryAxisPointXPx method

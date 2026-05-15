@@ -4,7 +4,7 @@ linktitle: SetRowHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetRowHeightPixel method. Sets row height in unit of pixels in C++.'
 type: docs
-weight: 5400
+weight: 5600
 url: /cpp/aspose.cells/cells/setrowheightpixel/
 ---
 ## Cells::SetRowHeightPixel method

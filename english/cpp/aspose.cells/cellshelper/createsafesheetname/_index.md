@@ -4,7 +4,7 @@ linktitle: CreateSafeSheetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsHelper::CreateSafeSheetName method. Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with '' '', then return the rebuilt string value in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/cellshelper/createsafesheetname/
 ---
 ## CellsHelper::CreateSafeSheetName(const U16String\&) method

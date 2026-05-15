@@ -4,7 +4,7 @@ linktitle: SetSizeRepresents
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetSizeRepresents method. Gets or sets what the bubble size represents on a bubble chart in C++.'
 type: docs
-weight: 7400
+weight: 7800
 url: /cpp/aspose.cells.charts/series/setsizerepresents/
 ---
 ## Series::SetSizeRepresents method

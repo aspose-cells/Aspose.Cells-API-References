@@ -26,9 +26,11 @@ class PivotFilterCollection
 | [AddLabelFilter(int32_t baseFieldIndex, PivotFilterType type, const char16_t* label1, const char16_t* label2)](./addlabelfilter/) | Filters by captions of row or column pivot field. |
 | [AddTop10Filter(int32_t baseFieldIndex, int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)](./addtop10filter/) | Filters by values of data pivot field. |
 | [AddValueFilter(int32_t baseFieldIndex, int32_t valueFieldIndex, PivotFilterType type, double value1, double value2)](./addvaluefilter/) | Filters by values of data pivot field. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotFilterCollection](./). |
 | [ClearFilter(int32_t fieldIndex)](./clearfilter/) | Clear [PivotFilter](../pivotfilter/) from the specific [PivotField](../pivotfield/). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotFilterCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the pivotfilter object at the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotFilterCollection\& src)](./operator_asm/) | operator= |

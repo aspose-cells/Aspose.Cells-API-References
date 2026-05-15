@@ -4,7 +4,7 @@ linktitle: CellBorderType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellBorderType enum. Enumerates a cell''s border type in C++.'
 type: docs
-weight: 18600
+weight: 18700
 url: /cpp/aspose.cells/cellbordertype/
 ---
 ## CellBorderType enum

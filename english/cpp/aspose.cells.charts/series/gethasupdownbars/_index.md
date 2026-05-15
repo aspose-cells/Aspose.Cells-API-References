@@ -4,7 +4,7 @@ linktitle: GetHasUpDownBars
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetHasUpDownBars method. True if a line chart has up and down bars. Applies only to line charts in C++.'
 type: docs
-weight: 5200
+weight: 5600
 url: /cpp/aspose.cells.charts/series/gethasupdownbars/
 ---
 ## Series::GetHasUpDownBars method

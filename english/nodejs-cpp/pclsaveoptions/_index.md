@@ -19,7 +19,7 @@ class PclSaveOptions extends PaginatedSaveOptions;
 
 | Constructor | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates the options for saving pdf file. |
+| [constructor()](#constructor--)| Creates the options for saving pcl file. |
 | [constructor(PaginatedSaveOptions)](#constructor-paginatedsaveoptions-)| Constructs from a parent object convertible to this. |
 
 ## Properties
@@ -138,7 +138,7 @@ class PclSaveOptions extends PaginatedSaveOptions;
 
 ### constructor() {#constructor--}
 
-Creates the options for saving pdf file.
+Creates the options for saving pcl file.
 
 ```javascript
 constructor();

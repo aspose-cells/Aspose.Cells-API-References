@@ -4,7 +4,7 @@ linktitle: GetDownBars
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetDownBars method. Returns a DropBars object that represents the down bars on a line chart. Applies only to line charts in C++.'
 type: docs
-weight: 5500
+weight: 5900
 url: /cpp/aspose.cells.charts/series/getdownbars/
 ---
 ## Series::GetDownBars method

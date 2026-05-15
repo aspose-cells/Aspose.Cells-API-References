@@ -4,7 +4,7 @@ linktitle: AddAutoShapeInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddAutoShapeInChart method. Adds a AutoShape to the chart in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.drawing/shapecollection/addautoshapeinchart/
 ---
 ## ShapeCollection::AddAutoShapeInChart method

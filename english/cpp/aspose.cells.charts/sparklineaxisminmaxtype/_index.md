@@ -4,7 +4,7 @@ linktitle: SparklineAxisMinMaxType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineAxisMinMaxType enum. Represents the minimum and maximum value types for the sparkline vertical axis in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells.charts/sparklineaxisminmaxtype/
 ---
 ## SparklineAxisMinMaxType enum

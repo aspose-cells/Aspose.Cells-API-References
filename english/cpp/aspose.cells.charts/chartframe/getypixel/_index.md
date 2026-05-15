@@ -4,7 +4,7 @@ linktitle: GetYPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetYPixel method. Gets or sets the y coordinate of the upper left corner in units of Pixel in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells.charts/chartframe/getypixel/
 ---
 ## ChartFrame::GetYPixel method

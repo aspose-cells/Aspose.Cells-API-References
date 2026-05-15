@@ -4,7 +4,7 @@ linktitle: GetRowOriginalHeightPoint
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetRowOriginalHeightPoint method. Gets original row''s height in unit of point if the row is hidden in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells/cells/getroworiginalheightpoint/
 ---
 ## Cells::GetRowOriginalHeightPoint method

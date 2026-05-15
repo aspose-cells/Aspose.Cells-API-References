@@ -4,7 +4,7 @@ linktitle: HideRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::HideRow method. Hides a row in C++.'
 type: docs
-weight: 5000
+weight: 5200
 url: /cpp/aspose.cells/cells/hiderow/
 ---
 ## Cells::HideRow method

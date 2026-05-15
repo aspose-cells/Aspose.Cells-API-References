@@ -4,7 +4,7 @@ linktitle: AddTextEffectInChart
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddTextEffectInChart method. Inserts a WordArt object to the chart in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.drawing/shapecollection/addtexteffectinchart/
 ---
 ## ShapeCollection::AddTextEffectInChart(MsoPresetTextEffect, const U16String\&, const U16String\&, int32_t, bool, bool, int32_t, int32_t, int32_t, int32_t) method

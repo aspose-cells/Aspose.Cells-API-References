@@ -4,7 +4,7 @@ linktitle: PasteType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteType enum. Represents the paste special type in C++.'
 type: docs
-weight: 25000
+weight: 25500
 url: /cpp/aspose.cells/pastetype/
 ---
 ## PasteType enum

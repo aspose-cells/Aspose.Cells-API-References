@@ -4,7 +4,7 @@ linktitle: CopyInRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::CopyInRange method. Copy shapes in the range to destination range in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.cells.drawing/shapecollection/copyinrange/
 ---
 ## ShapeCollection::CopyInRange method

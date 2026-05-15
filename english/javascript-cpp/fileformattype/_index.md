@@ -90,4 +90,6 @@ Represents the file format types.
 | Chm | `784` | CHM |
 | Oxps | `776` | OXPS (Open XML Paper Specification) format. |
 | GZip | `35615` | Rrepesents GZip file. |
+| Otg | `1025` | Represents an OTG file. |
+| Odb | `1026` | Represents an Odb file. |
 

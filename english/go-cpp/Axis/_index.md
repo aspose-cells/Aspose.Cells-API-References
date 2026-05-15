@@ -76,7 +76,7 @@ type Axis struct  {
 |[SetDisplayUnit](./setdisplayunit/) | Represents the unit label for the specified axis. | 
 |[GetCustomDisplayUnit](./getcustomdisplayunit/) | Specifies a custom value for the display unit. | 
 |[SetCustomDisplayUnit](./setcustomdisplayunit/) | Specifies a custom value for the display unit. | 
-|[GetDisplayUnitLabel](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values— for example, in the millions or billions. | 
+|[GetDisplayUnitLabel](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values - for example, in the millions or billions. | 
 |[IsDisplayUnitLabelShown](./isdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 
 |[SetIsDisplayUnitLabelShown](./setisdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 
 |[GetTitle](./gettitle/) | Gets the title of this axis in the chart. | 

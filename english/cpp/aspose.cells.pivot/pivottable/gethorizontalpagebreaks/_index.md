@@ -4,7 +4,7 @@ linktitle: GetHorizontalPageBreaks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetHorizontalPageBreaks method. Gets horizontal page breaks of this pivot table in C++.'
 type: docs
-weight: 17500
+weight: 18100
 url: /cpp/aspose.cells.pivot/pivottable/gethorizontalpagebreaks/
 ---
 ## PivotTable::GetHorizontalPageBreaks method

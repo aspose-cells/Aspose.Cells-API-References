@@ -10,7 +10,7 @@ url: /go-cpp/ticklabelitem/gety/
 
 ## GetY function
 
-Y coordinates of Ticklabel item in ratio of chart height.
+Y coordinates of Ticklabel item as a ratio of the chart height.
 
 ```go
 

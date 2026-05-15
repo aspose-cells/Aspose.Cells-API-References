@@ -51,6 +51,7 @@ Represents the file format types.
 | [NUMBERS](#NUMBERS) | Represents Numbers 9.0 file format by Apple Inc. |
 | [NUMBERS_09](#NUMBERS-09) | Represents Numbers 9.0 file format by Apple Inc. |
 | [NUMBERS_35](#NUMBERS-35) | Represents Numbers 3.5 file format since 2014 by Apple Inc |
+| [ODB](#ODB) | Represents an Odb file. |
 | [ODF](#ODF) | Represents an ODF file. |
 | [ODG](#ODG) | Represents an ODG file. |
 | [ODP](#ODP) | Represents a ODP file. |
@@ -60,6 +61,7 @@ Represents the file format types.
 | [OLE_10_NATIVE](#OLE-10-NATIVE) | Represents the embedded native object. |
 | [ONE_NOTE](#ONE-NOTE) | Rrepesents One Note file. |
 | [OOXML](#OOXML) | Represents office open xml file(such as xlsx, docx,pptx, etc). |
+| [OTG](#OTG) | Represents an OTG file. |
 | [OTP](#OTP) | Represents a OTP file. |
 | [OTS](#OTS) | Represents an ots file. |
 | [OTT](#OTT) | Represents an OTT file. |
@@ -437,6 +439,18 @@ public static final int NUMBERS_35
 
 Represents Numbers 3.5 file format since 2014 by Apple Inc
 
+### ODB {#ODB}
+```
+public static final int ODB
+```
+
+
+Represents an Odb file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
+
 ### ODF {#ODF}
 ```
 public static final int ODF
@@ -540,6 +554,18 @@ Represents office open xml file(such as xlsx, docx,pptx, etc).
 **Remarks**
 
 The file format is not supported Only for detecting file type. If the office open xml file is encrypted, it could not be detected as xlsx ,docx, pptx,etc.
+
+### OTG {#OTG}
+```
+public static final int OTG
+```
+
+
+Represents an OTG file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### OTP {#OTP}
 ```

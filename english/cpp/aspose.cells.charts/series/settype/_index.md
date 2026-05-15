@@ -4,7 +4,7 @@ linktitle: SetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::SetType method. Gets or sets a data series'' type in C++.'
 type: docs
-weight: 3700
+weight: 4100
 url: /cpp/aspose.cells.charts/series/settype/
 ---
 ## Series::SetType method

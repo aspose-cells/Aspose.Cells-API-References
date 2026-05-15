@@ -4,7 +4,7 @@ linktitle: MapChartRegionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::MapChartRegionType enum. Represents the region type of the map chart in C++.'
 type: docs
-weight: 5700
+weight: 5900
 url: /cpp/aspose.cells.charts/mapchartregiontype/
 ---
 ## MapChartRegionType enum
@@ -21,7 +21,7 @@ enum class MapChartRegionType
 | Name | Value | Description |
 | --- | --- | --- |
 | Automatic | 0 | <br>Automatic. |
-| DataOnly | 1 | <br>Only Data. |
+| DataOnly | 1 | <br>Only data. |
 | CountryRegionList | 2 | <br>Country region list. |
 | World | 3 | <br>World. |
 

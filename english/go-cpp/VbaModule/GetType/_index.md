@@ -14,7 +14,7 @@ Gets the type of module.
 
 ```go
 
-func (instance *VbaModule) GetType()  (*VbaModuleType,  error) 
+func (instance *VbaModule) GetType()  (VbaModuleType,  error) 
 
 ```
 

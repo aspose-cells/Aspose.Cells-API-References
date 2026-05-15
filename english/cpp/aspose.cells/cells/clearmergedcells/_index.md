@@ -4,7 +4,7 @@ linktitle: ClearMergedCells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ClearMergedCells method. Clears all merged ranges in C++.'
 type: docs
-weight: 4900
+weight: 5100
 url: /cpp/aspose.cells/cells/clearmergedcells/
 ---
 ## Cells::ClearMergedCells method

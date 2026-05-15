@@ -4,7 +4,7 @@ linktitle: GetDefaultX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultX method. Represents x of default position in units of 1/4000 of the chart area in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.charts/chartframe/getdefaultx/
 ---
 ## ChartFrame::GetDefaultX method

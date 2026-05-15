@@ -10,7 +10,7 @@ url: /go-cpp/ticklabelitem/getx/
 
 ## GetX function
 
-X coordinates of Ticklabel item in ratio of chart width.
+X coordinates of Ticklabel item as a ratio of chart width.
 
 ```go
 

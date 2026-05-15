@@ -21,10 +21,12 @@ class ErrorCheckOptionCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Add an error check option. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ErrorCheckOptionCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ErrorCheckOptionCollection](./). |
 | [ErrorCheckOptionCollection(ErrorCheckOptionCollection_Impl* impl)](./errorcheckoptioncollection/) | Constructs from an implementation object. |
 | [ErrorCheckOptionCollection(const ErrorCheckOptionCollection\& src)](./errorcheckoptioncollection/) | Copy constructor. |
 | [Get(int32_t index)](./get/) | Gets [ErrorCheckOption](../errorcheckoption/) object by the given index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ErrorCheckOptionCollection\& src)](./operator_asm/) | operator= |

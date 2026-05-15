@@ -25,10 +25,12 @@ class HorizontalPageBreakCollection
 | [Add(int32_t row, int32_t column)](./add/) | Adds a horizontal page break to the collection. |
 | [Add(const U16String\& cellName)](./add/) | Adds a horizontal page break to the collection. |
 | [Add(const char16_t* cellName)](./add/) | Adds a horizontal page break to the collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [HorizontalPageBreakCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [HorizontalPageBreakCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [HorizontalPageBreak](../horizontalpagebreak/) element at the specified index. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [HorizontalPageBreak](../horizontalpagebreak/) element with the specified cell name. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [HorizontalPageBreak](../horizontalpagebreak/) element with the specified cell name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [HorizontalPageBreakCollection(HorizontalPageBreakCollection_Impl* impl)](./horizontalpagebreakcollection/) | Constructs from an implementation object. |
 | [HorizontalPageBreakCollection(const HorizontalPageBreakCollection\& src)](./horizontalpagebreakcollection/) | Copy constructor. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

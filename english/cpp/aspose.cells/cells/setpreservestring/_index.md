@@ -4,7 +4,7 @@ linktitle: SetPreserveString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetPreserveString method. Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells/cells/setpreservestring/
 ---
 ## Cells::SetPreserveString method

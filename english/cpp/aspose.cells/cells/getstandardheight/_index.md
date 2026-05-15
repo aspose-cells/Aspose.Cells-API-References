@@ -4,7 +4,7 @@ linktitle: GetStandardHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetStandardHeight method. Gets or sets the default row height in this worksheet, in unit of points in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.cells/cells/getstandardheight/
 ---
 ## Cells::GetStandardHeight method

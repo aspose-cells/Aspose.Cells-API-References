@@ -32,6 +32,7 @@ class CustomDocumentPropertyCollection : public Aspose::Cells::Properties::Docum
 | [Add(const char16_t* name, double value)](./add/) | Creates a new custom document property of the **PropertyType.Float** data type. |
 | [AddLinkToContent(const U16String\& name, const U16String\& source)](./addlinktocontent/) | Creates a new custom document property which links to content. |
 | [AddLinkToContent(const char16_t* name, const char16_t* source)](./addlinktocontent/) | Creates a new custom document property which links to content. |
+| [begin()](../documentpropertycollection/begin/) | Returns an iterator to the beginning of the [DocumentPropertyCollection](../documentpropertycollection/). |
 | [Contains(const U16String\& name)](../documentpropertycollection/contains/) | Returns true if a property with the specified name exists in the collection. |
 | [Contains(const char16_t* name)](../documentpropertycollection/contains/) | Returns true if a property with the specified name exists in the collection. |
 | [CustomDocumentPropertyCollection(CustomDocumentPropertyCollection_Impl* impl)](./customdocumentpropertycollection/) | Constructs from an implementation object. |
@@ -39,10 +40,11 @@ class CustomDocumentPropertyCollection : public Aspose::Cells::Properties::Docum
 | [CustomDocumentPropertyCollection(const DocumentPropertyCollection\& src)](./customdocumentpropertycollection/) | Constructs from a parent object. |
 | [DocumentPropertyCollection(DocumentPropertyCollection_Impl* impl)](../documentpropertycollection/documentpropertycollection/) | Constructs from an implementation object. |
 | [DocumentPropertyCollection(const DocumentPropertyCollection\& src)](../documentpropertycollection/documentpropertycollection/) | Copy constructor. |
+| [end()](../documentpropertycollection/end/) | Returns an iterator to the end of the [DocumentPropertyCollection](../documentpropertycollection/). |
 | [Get(int32_t index)](../documentpropertycollection/get/) | Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [Get(const U16String\& name)](../documentpropertycollection/get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [Get(const char16_t* name)](../documentpropertycollection/get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
-| [GetCount()](../documentpropertycollection/getcount/) |  |
+| [GetCount()](../documentpropertycollection/getcount/) | Gets the number of elements contained in the instance. |
 | [IndexOf(const U16String\& name)](../documentpropertycollection/indexof/) | Gets the index of a property by name. |
 | [IndexOf(const char16_t* name)](../documentpropertycollection/indexof/) | Gets the index of a property by name. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

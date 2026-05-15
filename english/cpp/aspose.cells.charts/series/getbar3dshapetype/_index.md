@@ -4,7 +4,7 @@ linktitle: GetBar3DShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series::GetBar3DShapeType method. Gets or sets the 3D shape type used with the 3-D bar or column chart in C++.'
 type: docs
-weight: 3300
+weight: 3700
 url: /cpp/aspose.cells.charts/series/getbar3dshapetype/
 ---
 ## Series::GetBar3DShapeType method

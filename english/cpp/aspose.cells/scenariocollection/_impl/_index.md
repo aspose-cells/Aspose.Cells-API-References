@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioCollection::_impl field. The implementation object in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells/scenariocollection/_impl/
 ---
 ## _impl field

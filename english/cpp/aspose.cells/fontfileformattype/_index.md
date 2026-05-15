@@ -4,7 +4,7 @@ linktitle: FontFileFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontFileFormatType enum. Represents font format type in C++.'
 type: docs
-weight: 21500
+weight: 21800
 url: /cpp/aspose.cells/fontfileformattype/
 ---
 ## FontFileFormatType enum

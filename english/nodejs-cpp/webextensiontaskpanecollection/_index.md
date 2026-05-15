@@ -11,7 +11,7 @@ url: /nodejs-cpp/webextensiontaskpanecollection/
 Represents the list of task pane.
 
 ```javascript
-class WebExtensionTaskPaneCollection;
+class WebExtensionTaskPaneCollection implements Iterable<WebExtensionTaskPane>;
 ```
 
 
@@ -23,6 +23,11 @@ class WebExtensionTaskPaneCollection;
 | [add()](#add--)| Adds task pane. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<WebExtensionTaskPane\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}

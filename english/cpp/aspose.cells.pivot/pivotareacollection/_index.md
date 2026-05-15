@@ -23,8 +23,10 @@ class PivotAreaCollection
 | [Add(const PivotArea\& pivotArea)](./add/) |  **(Deprecated)** Adds pivot area. |
 | [Add(const CellArea\& cellArea)](./add/) | Adds an area based on pivot table view. |
 | [AddPivotArea(const PivotArea\& pivotArea)](./addpivotarea/) | Adds pivot area into this collection. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotAreaCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotAreaCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a [PivotArea](../pivotarea/) object;. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotAreaCollection\& src)](./operator_asm/) | operator= |

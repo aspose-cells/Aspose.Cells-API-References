@@ -4,7 +4,7 @@ linktitle: GetSaveData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetSaveData method. Indicates whether data for the PivotTable report is saved with the workbook in C++.'
 type: docs
-weight: 13100
+weight: 13500
 url: /cpp/aspose.cells.pivot/pivottable/getsavedata/
 ---
 ## PivotTable::GetSaveData method

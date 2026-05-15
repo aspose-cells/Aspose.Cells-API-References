@@ -4,7 +4,7 @@ linktitle: SetRowHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetRowHeightInch method. Sets row height in unit of inches in C++.'
 type: docs
-weight: 5500
+weight: 5700
 url: /cpp/aspose.cells/cells/setrowheightinch/
 ---
 ## Cells::SetRowHeightInch method

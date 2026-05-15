@@ -20,10 +20,12 @@ class ListColumnCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ListColumnCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ListColumnCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ListColumn](../listcolumn/) by the index. |
 | [Get(const U16String\& name)](./get/) | Gets the [ListColumn](../listcolumn/) by the name. |
 | [Get(const char16_t* name)](./get/) | Gets the [ListColumn](../listcolumn/) by the name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [ListColumnCollection(ListColumnCollection_Impl* impl)](./listcolumncollection/) | Constructs from an implementation object. |
 | [ListColumnCollection(const ListColumnCollection\& src)](./listcolumncollection/) | Copy constructor. |

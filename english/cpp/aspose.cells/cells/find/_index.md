@@ -4,7 +4,7 @@ linktitle: Find
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::Find method. Finds the cell containing with the input object in C++.'
 type: docs
-weight: 12800
+weight: 13000
 url: /cpp/aspose.cells/cells/find/
 ---
 ## Cells::Find(const Aspose::Cells::Object\&, const Cell\&) method

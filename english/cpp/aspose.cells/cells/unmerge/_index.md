@@ -4,7 +4,7 @@ linktitle: UnMerge
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::UnMerge method. Unmerges a specified range of merged cells in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells/cells/unmerge/
 ---
 ## Cells::UnMerge method

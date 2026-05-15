@@ -4,7 +4,7 @@ linktitle: GetIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetIndex method. Gets the index of sheet in the worksheet collection in C++.'
 type: docs
-weight: 8100
+weight: 8300
 url: /cpp/aspose.cells/worksheet/getindex/
 ---
 ## Worksheet::GetIndex method

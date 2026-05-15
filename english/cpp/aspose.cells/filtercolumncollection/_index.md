@@ -20,11 +20,13 @@ class FilterColumnCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [FilterColumnCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [FilterColumnCollection](./). |
 | [FilterColumnCollection(FilterColumnCollection_Impl* impl)](./filtercolumncollection/) | Constructs from an implementation object. |
 | [FilterColumnCollection(const FilterColumnCollection\& src)](./filtercolumncollection/) | Copy constructor. |
 | [Get(int32_t fieldIndex)](./get/) | Gets [FilterColumn](../filtercolumn/) object at the special field. |
 | [GetByIndex(int32_t index)](./getbyindex/) | Returns a single Filter object from a collection. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const FilterColumnCollection\& src)](./operator_asm/) | operator= |

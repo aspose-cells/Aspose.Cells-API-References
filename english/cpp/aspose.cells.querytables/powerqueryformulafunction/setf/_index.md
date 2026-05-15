@@ -4,7 +4,7 @@ linktitle: SetF
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaFunction::SetF method. Gets and sets the definition of function in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.querytables/powerqueryformulafunction/setf/
 ---
 ## PowerQueryFormulaFunction::SetF(const U16String\&) method

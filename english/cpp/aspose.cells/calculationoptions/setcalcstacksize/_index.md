@@ -4,7 +4,7 @@ linktitle: SetCalcStackSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationOptions::SetCalcStackSize method. The stack size for calculating cells recursively. Default value is 200 in C++.'
 type: docs
-weight: 1300
+weight: 1600
 url: /cpp/aspose.cells/calculationoptions/setcalcstacksize/
 ---
 ## CalculationOptions::SetCalcStackSize method

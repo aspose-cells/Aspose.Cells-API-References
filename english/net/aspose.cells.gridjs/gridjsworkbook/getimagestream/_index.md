@@ -10,13 +10,13 @@ url: /net/aspose.cells.gridjs/gridjsworkbook/getimagestream/
 Get Stream of image.
 
 ```csharp
-public static Stream GetImageStream(string uid, string picid)
+public static Stream GetImageStream(string uid, string picid, string cachedir)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uid | String | The unique id for the file cache. |
-| picid | String | The image id. |
+| Parameter | Description |
+| --- | --- |
+| uid | The unique id for the file cache. |
+| picid | The image id. |
 
 ### Return Value
 

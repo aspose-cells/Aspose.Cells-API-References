@@ -4,7 +4,7 @@ linktitle: ThreadedCommentCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThreadedCommentCollection class. Represents the list of threaded comments in C++.'
 type: docs
-weight: 15000
+weight: 15100
 url: /cpp/aspose.cells/threadedcommentcollection/
 ---
 ## ThreadedCommentCollection class
@@ -22,8 +22,10 @@ class ThreadedCommentCollection
 | --- | --- |
 | [Add(const U16String\& text, const ThreadedCommentAuthor\& author)](./add/) | Adds a threaded comment. |
 | [Add(const char16_t* text, const ThreadedCommentAuthor\& author)](./add/) | Adds a threaded comment. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ThreadedCommentCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ThreadedCommentCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the threaded comment by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ThreadedCommentCollection\& src)](./operator_asm/) | operator= |

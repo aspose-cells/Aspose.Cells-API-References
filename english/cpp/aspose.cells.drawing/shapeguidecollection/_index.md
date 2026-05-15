@@ -22,8 +22,10 @@ class ShapeGuideCollection
 | --- | --- |
 | [Add(const U16String\& name, double val)](./add/) | Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
 | [Add(const char16_t* name, double val)](./add/) | Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ShapeGuideCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ShapeGuideCollection](./). |
 | [Get(int32_t index)](./get/) | Gets a shape guide by index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ShapeGuideCollection\& src)](./operator_asm/) | operator= |

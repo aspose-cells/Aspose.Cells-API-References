@@ -23,6 +23,7 @@ public class PivotAreaFilter
 
 | Name | Description |
 | --- | --- |
+| [FieldIndex](../../aspose.cells.pivot/pivotareafilter/fieldindex/) { get; } | Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
 | [Selected](../../aspose.cells.pivot/pivotareafilter/selected/) { get; set; } | Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 
 ## Methods

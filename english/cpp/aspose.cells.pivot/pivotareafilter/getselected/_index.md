@@ -4,7 +4,7 @@ linktitle: GetSelected
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaFilter::GetSelected method. Indicates whether this field has selection. Only works when the PivotTable is in Outline view in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotareafilter/getselected/
 ---
 ## PivotAreaFilter::GetSelected method

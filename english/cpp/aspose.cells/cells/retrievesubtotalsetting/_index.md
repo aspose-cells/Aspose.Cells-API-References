@@ -4,7 +4,7 @@ linktitle: RetrieveSubtotalSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::RetrieveSubtotalSetting method. Retrieves subtotals setting of the range in C++.'
 type: docs
-weight: 13600
+weight: 13800
 url: /cpp/aspose.cells/cells/retrievesubtotalsetting/
 ---
 ## Cells::RetrieveSubtotalSetting method

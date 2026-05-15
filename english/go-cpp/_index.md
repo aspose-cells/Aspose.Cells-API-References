@@ -330,7 +330,7 @@ is_root: true
 |[AxisBins](./axisbins/) | Represents axis bins |
 |[Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 |[ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
-|[ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
+|[ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating the chart. |
 |[ChartCollection](./chartcollection/) | Encapsulates a collection of <see cref="Chart"/> objects. |
 |[ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 |[ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |
@@ -355,7 +355,7 @@ is_root: true
 |[SeriesLayoutProperties](./serieslayoutproperties/) | Represents the properties of series layout. |
 |[Sparkline](./sparkline/) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 |[SparklineCollection](./sparklinecollection/) | Encapsulates a collection of <see cref="Sparkline"/> objects. |
-|[SparklineGroup](./sparklinegroup/) | <see cref="Sparkline"/> is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items.A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+|[SparklineGroup](./sparklinegroup/) | <see cref="Sparkline"/> is organized into a sparkline group.A SparklineGroup contains a variable number of sparkline items.A sparkline group specifies the type, display settings and axis settings for the sparklines. |
 |[SparklineGroupCollection](./sparklinegroupcollection/) | Encapsulates a collection of <see cref="SparklineGroup"/> objects. |
 |[TickLabelItem](./ticklabelitem/) | Represents a tick label in the chart. |
 |[TickLabels](./ticklabels/) | Represents the tick-mark labels associated with tick marks on a chart axis. |
@@ -498,10 +498,9 @@ is_root: true
 |[SlicerCacheItemCollection](./slicercacheitemcollection/) | Represent the collection of SlicerCacheItem |
 |[SlicerCollection](./slicercollection/) | Specifies the collection of all the Slicer objects on the specified worksheet. |
 |[Timeline](./timeline/) | Summary description of Timeline ViewDue to MS Excel, Excel 2003 does not support Timeline |
-|[TimelineCollection](./timelinecollection/) | Specifies the collection of all the Timeline objects on the specified worksheet.Due to MS Excel, Excel 2003 does not support Timeline. |
+|[TimelineCollection](./timelinecollection/) | Specifies the collection of all the <see cref="Timeline"/> objects on the worksheet.It was supported since Excel 2013. |
 |[VbaModule](./vbamodule/) | Represents the module in VBA project. |
 |[VbaModuleCollection](./vbamodulecollection/) | Represents the list of <see cref="VbaModule"/> |
-|[VbaModuleType](./vbamoduletype/) | Represents a class module. |
 |[VbaProject](./vbaproject/) | Represents the VBA project. |
 |[VbaProjectReference](./vbaprojectreference/) | Represents the reference of VBA project. |
 |[VbaProjectReferenceCollection](./vbaprojectreferencecollection/) | Represents all references of VBA project. |
@@ -540,6 +539,8 @@ is_root: true
 |[DataBarBorderType](./databarbordertype/) | Specifies the border type of a data bar. | 
 |[DataBarFillType](./databarfilltype/) | Specifies how a data bar is filled with color. | 
 |[DataBarNegativeColorType](./databarnegativecolortype/) | Specifies whether to use the same border and fill color as positive data bars. | 
+|[Weekday](./weekday/) | Specifies the day of the week. | 
+|[DateKind](./datekind/) | Specifies whether a Date object represents a local time, a Coordinated UTC Time (UTC), or is not specified as either local time or UTC. | 
 |[DateTimeGroupingType](./datetimegroupingtype/) | Specifies how to group dateTime values. | 
 |[DefaultEditLanguage](./defaulteditlanguage/) | Represents the default edit language. | 
 |[DirectoryType](./directorytype/) | Represents the directory  type of the file name. | 
@@ -581,7 +582,8 @@ is_root: true
 |[MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for an empty TD element when exporting a file to HTML. | 
 |[NameScopeType](./namescopetype/) | Represents the scope type of defined names. | 
 |[NumberCategoryType](./numbercategorytype/) | Represents category type of cell's number formatting. | 
-|[ObjectType](./objecttype/) | Represents the type of the number. | 
+|[ObjectType](./objecttype/) | Represents the type of the object. | 
+|[NumberType](./numbertype/) | Represents the type of the number. | 
 |[OoxmlCompliance](./ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. | 
 |[OoxmlCompressionType](./ooxmlcompressiontype/) | The Ooxml compression type | 
 |[OperatorType](./operatortype/) | Represents the operator type of conditional format and data validation. | 
@@ -708,7 +710,7 @@ is_root: true
 |[Bar3DShapeType](./bar3dshapetype/) | Represents the shape used with the 3-D bar or column chart. | 
 |[BubbleSizeRepresents](./bubblesizerepresents/) | Represents what the bubble size represents on a bubble chart. | 
 |[CategoryType](./categorytype/) | Represents the category axis type. | 
-|[ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in Excel chart. | 
+|[ChartColorPaletteType](./chartcolorpalettetype/) | Enumerates all Monochromatic Palettes used in an Excel chart. | 
 |[ChartLineFormattingType](./chartlineformattingtype/) | Represents line format type of chart line. | 
 |[ChartMarkerType](./chartmarkertype/) | Represents the marker style in a line chart, scatter chart, or radar chart. | 
 |[ChartSplitType](./chartsplittype/) | Represents the way the two sections of either a pie of pie chart or a bar of pie chart are split. | 
@@ -723,7 +725,7 @@ is_root: true
 |[LabelPositionType](./labelpositiontype/) | Represents data label position type. | 
 |[LegendPositionType](./legendpositiontype/) | Enumerates the legend position types. | 
 |[MapChartLabelLayout](./mapchartlabellayout/) | Represents the layout of map chart's labels. | 
-|[MapChartProjectionType](./mapchartprojectiontype/) | Represents projection type of the map chart. | 
+|[MapChartProjectionType](./mapchartprojectiontype/) | Represents the projection type of the map chart. | 
 |[MapChartRegionType](./mapchartregiontype/) | Represents the region type of the map chart. | 
 |[PlotDataByType](./plotdatabytype/) | Represents the type of data plot by row or column. | 
 |[PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cells type of a chart. | 
@@ -770,6 +772,7 @@ is_root: true
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
 |[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
 |[HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. | 
+|[HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. | 
 |[ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. | 
 |[PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility | 
 |[PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. | 
@@ -803,6 +806,7 @@ is_root: true
 |[SlicerCacheCrossFilterType](./slicercachecrossfiltertype/) | Represent the type how to show items with no data for slicer. | 
 |[SlicerStyleType](./slicerstyletype/) | Specify the style of slicer view | 
 |[TimelineLevelType](./timelineleveltype/) | Represents the level type of <see cref="Timeline"/> | 
+|[VbaModuleType](./vbamoduletype/) | Represents the type of VBA module. | 
 |[VbaProjectReferenceType](./vbaprojectreferencetype/) | Represents the type of VBA project reference. | 
 |[WebExtensionStoreType](./webextensionstoretype/) | Represents the store type of web extension. | 
 |[AdjustFontSizeForRowType](./adjustfontsizeforrowtype/) | Represents which kind of rows should be ajusted. | 
@@ -814,3 +818,4 @@ is_root: true
 | --- | --- |
 |[Color](./color/) | Represents an ARGB (alpha, red, green, blue) color. | 
 |[Date](./date/) | Represents a date and time. | 
+|[Duration](./duration/) | Represents a time interval with a resolution of 100 nanoseconds (tick). | 

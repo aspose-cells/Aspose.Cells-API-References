@@ -4,7 +4,7 @@ linktitle: XmlMapCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlMapCollection class. A collection of XmlMap objects that represent XmlMap information in C++.'
 type: docs
-weight: 17400
+weight: 17500
 url: /cpp/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class
@@ -22,9 +22,11 @@ class XmlMapCollection
 | --- | --- |
 | [Add(const U16String\& url)](./add/) | Add a [XmlMap](../xmlmap/) by the url/path of a xml/xsd file. |
 | [Add(const char16_t* url)](./add/) | Add a [XmlMap](../xmlmap/) by the url/path of a xml/xsd file. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [XmlMapCollection](./). |
 | [Clear()](./clear/) | Removes all XmlMaps. |
+| [end()](./end/) | Returns an iterator to the end of the [XmlMapCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the xml map by the specific index. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const XmlMapCollection\& src)](./operator_asm/) | operator= |

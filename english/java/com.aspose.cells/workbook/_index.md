@@ -45,7 +45,8 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | --- | --- |
 | [Workbook()](#Workbook--) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. |
 | [Workbook(int fileFormatType)](#Workbook-int-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. |
-| [Workbook(String file)](#Workbook-java.lang.String-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file. |
+| [Workbook(LoadOptions loadOptions)](#Workbook-com.aspose.cells.LoadOptions-) | Initializes a new empty instance of the [Workbook](../../com.aspose.cells/workbook) class with options |
+| [Workbook(String file)](#Workbook-java.lang.String-) |  |
 | [Workbook(InputStream stream)](#Workbook-java.io.InputStream-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a stream. |
 | [Workbook(String file, LoadOptions loadOptions)](#Workbook-java.lang.String-com.aspose.cells.LoadOptions-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file. |
 | [Workbook(InputStream stream, LoadOptions loadOptions)](#Workbook-java.io.InputStream-com.aspose.cells.LoadOptions-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open stream. |
@@ -118,6 +119,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [parseFormulas(boolean ignoreError)](#parseFormulas-boolean-) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [protect(int protectionType, String password)](#protect-int-java.lang.String-) | Protects a workbook. |
 | [protectSharedWorkbook(String password)](#protectSharedWorkbook-java.lang.String-) | Protects a shared workbook. |
+| [refreshAll()](#refreshAll--) | Refresh linked shapes, all pivot tables and charts with pivot source. |
 | [refreshDynamicArrayFormulas(boolean calculate)](#refreshDynamicArrayFormulas-boolean-) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas. |
 | [refreshDynamicArrayFormulas(boolean calculate, CalculationOptions copts)](#refreshDynamicArrayFormulas-boolean-com.aspose.cells.CalculationOptions-) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
 | [removeDigitalSignature()](#removeDigitalSignature--) | Removes digital signature from this spreadsheet. |
@@ -202,18 +204,29 @@ The following code shows how to use the Workbook constructor to create and initi
 | --- | --- | --- |
 | fileFormatType | int | [FileFormatType](../../com.aspose.cells/fileformattype). The new file format. |
 
+### Workbook(LoadOptions loadOptions) {#Workbook-com.aspose.cells.LoadOptions-}
+```
+public Workbook(LoadOptions loadOptions)
+```
+
+
+Initializes a new empty instance of the [Workbook](../../com.aspose.cells/workbook) class with options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptions | [LoadOptions](../../com.aspose.cells/loadoptions) | The options. |
+
 ### Workbook(String file) {#Workbook-java.lang.String-}
 ```
 public Workbook(String file)
 ```
 
 
-Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.lang.String | The file name. |
+| file | java.lang.String |  |
 
 ### Workbook(InputStream stream) {#Workbook-java.io.InputStream-}
 ```
@@ -1246,6 +1259,14 @@ Protects a shared workbook.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | java.lang.String | Password to protect the workbook. |
+
+### refreshAll() {#refreshAll--}
+```
+public void refreshAll()
+```
+
+
+Refresh linked shapes, all pivot tables and charts with pivot source.
 
 ### refreshDynamicArrayFormulas(boolean calculate) {#refreshDynamicArrayFormulas-boolean-}
 ```

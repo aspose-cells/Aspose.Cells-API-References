@@ -11,7 +11,7 @@ url: /nodejs-cpp/fontsettingcollection/
 Represents the list of [FontSetting](../fontsetting/).
 
 ```javascript
-class FontSettingCollection;
+class FontSettingCollection implements Iterable<FontSetting>;
 ```
 
 
@@ -48,6 +48,11 @@ class FontSettingCollection;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [equals(Object)](#equals-object-)|  |
 | [getHashCode()](#getHashCode--)|  |
+
+## \[Symbol.iterator\](): Iterator\<FontSetting\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### textAlignment {#textAlignment--}

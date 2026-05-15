@@ -11,7 +11,7 @@ url: /nodejs-cpp/shapepathcollection/
 Represents path collection information in NotPrimitive autoshape
 
 ```javascript
-class ShapePathCollection;
+class ShapePathCollection implements Iterable<ShapePath>;
 ```
 
 
@@ -29,6 +29,11 @@ class ShapePathCollection;
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of paths |
 | [add()](#add--)| Add a creation path. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ShapePath\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### count {#count--}

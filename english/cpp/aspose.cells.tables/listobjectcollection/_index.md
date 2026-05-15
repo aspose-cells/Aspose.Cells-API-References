@@ -23,10 +23,12 @@ class ListObjectCollection
 | [Add(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn, bool hasHeaders)](./add/) | Adds a [ListObject](../listobject/) to the worksheet. |
 | [Add(const U16String\& startCell, const U16String\& endCell, bool hasHeaders)](./add/) | Adds a [ListObject](../listobject/) to the worksheet. |
 | [Add(const char16_t* startCell, const char16_t* endCell, bool hasHeaders)](./add/) | Adds a [ListObject](../listobject/) to the worksheet. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [ListObjectCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [ListObjectCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [ListObject](../listobject/) by index. |
 | [Get(const U16String\& tableName)](./get/) | Gets the [ListObject](../listobject/) by specified name. |
 | [Get(const char16_t* tableName)](./get/) | Gets the [ListObject](../listobject/) by specified name. |
-| [GetCount()](./getcount/) |  |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [ListObjectCollection(ListObjectCollection_Impl* impl)](./listobjectcollection/) | Constructs from an implementation object. |
 | [ListObjectCollection(const ListObjectCollection\& src)](./listobjectcollection/) | Copy constructor. |

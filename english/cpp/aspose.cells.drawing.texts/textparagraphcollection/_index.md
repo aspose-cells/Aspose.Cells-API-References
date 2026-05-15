@@ -4,7 +4,7 @@ linktitle: TextParagraphCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextParagraphCollection class. Represents all text paragraph in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.drawing.texts/textparagraphcollection/
 ---
 ## TextParagraphCollection class
@@ -20,6 +20,8 @@ class TextParagraphCollection
 
 | Method | Description |
 | --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [TextParagraphCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [TextParagraphCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [TextParagraph](../textparagraph/) object at specific index. |
 | [GetCount()](./getcount/) | Gets the count of text paragraphs. |
 | [GetEnumerator()](./getenumerator/) | Gets the enumerator of the paragraphs. |

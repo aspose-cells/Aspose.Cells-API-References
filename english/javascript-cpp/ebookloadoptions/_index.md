@@ -62,6 +62,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [hyperlinkLoadMode](#hyperlinkLoadMode--)| HyperlinkLoadMode | Specifies how hyperlinks are loaded when loading HTML. |
 
 ## Methods
 
@@ -457,6 +458,15 @@ Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The defaul
 
 ```javascript
 paragrahLayoutMode : HtmlParagraphLayoutMode;
+```
+
+
+### hyperlinkLoadMode {#hyperlinkLoadMode--}
+
+Specifies how hyperlinks are loaded when loading HTML.
+
+```javascript
+hyperlinkLoadMode : HyperlinkLoadMode;
 ```
 
 

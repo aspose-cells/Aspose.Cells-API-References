@@ -31,8 +31,6 @@ type ChartFrame struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[IsInnerMode](./isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels.False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. | 
 |[SetIsInnerMode](./setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels.False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. | 
-|[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 
-|[SetBackgroundMode](./setbackgroundmode/) | Gets and sets the display mode of the background | 
 |[GetShadow](./getshadow/) | True if the frame has a shadow. | 
 |[SetShadow](./setshadow/) | True if the frame has a shadow. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the ShapeProperties object. | 

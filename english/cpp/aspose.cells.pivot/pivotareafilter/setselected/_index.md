@@ -4,7 +4,7 @@ linktitle: SetSelected
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaFilter::SetSelected method. Indicates whether this field has selection. Only works when the PivotTable is in Outline view in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotareafilter/setselected/
 ---
 ## PivotAreaFilter::SetSelected method

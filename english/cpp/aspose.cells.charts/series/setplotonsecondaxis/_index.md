@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::Series::SetPlotOnSecondAxis method
 linktitle: SetPlotOnSecondAxis
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::SetPlotOnSecondAxis method. Indicates if this series is plotted on second value axis in C++.'
+description: 'Aspose::Cells::Charts::Series::SetPlotOnSecondAxis method. Indicates if this series is plotted on the second value axis in C++.'
 type: docs
-weight: 4000
+weight: 4400
 url: /cpp/aspose.cells.charts/series/setplotonsecondaxis/
 ---
 ## Series::SetPlotOnSecondAxis method
 
 
-Indicates if this series is plotted on second value axis.
+Indicates if this series is plotted on the second value axis.
 
 ```cpp
 void Aspose::Cells::Charts::Series::SetPlotOnSecondAxis(bool value)

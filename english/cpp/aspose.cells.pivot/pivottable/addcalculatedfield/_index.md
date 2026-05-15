@@ -4,7 +4,7 @@ linktitle: AddCalculatedField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::AddCalculatedField method. Adds a calculated field to pivot field in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells.pivot/pivottable/addcalculatedfield/
 ---
 ## PivotTable::AddCalculatedField(const U16String\&, const U16String\&, bool) method

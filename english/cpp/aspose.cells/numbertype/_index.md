@@ -4,7 +4,7 @@ linktitle: NumberType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NumberType enum. Represents the type of the number in C++.'
 type: docs
-weight: 24100
+weight: 24500
 url: /cpp/aspose.cells/numbertype/
 ---
 ## NumberType enum

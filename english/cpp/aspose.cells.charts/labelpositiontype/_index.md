@@ -21,7 +21,7 @@ enum class LabelPositionType
 | Name | Value | Description |
 | --- | --- | --- |
 | Center | 0 | <br>Applies only to bar, 2D/3D pie charts. |
-| InsideBase | 1 | <br>Applies only to bar, 2d/3d pie charts. |
+| InsideBase | 1 | <br>Applies only to bar, 2D/3D pie charts. |
 | InsideEnd | 2 | <br>Applies only to bar charts. |
 | OutsideEnd | 3 | <br>Applies only to bar, 2d/3d pie charts. |
 | Above | 4 | <br>Applies only to line charts. |
@@ -29,7 +29,7 @@ enum class LabelPositionType
 | Left | 6 | <br>Applies only to line charts. |
 | Right | 7 | <br>Applies only to line charts. |
 | BestFit | 8 | <br>Applies only to 2D/3D pie charts. |
-| Moved | 9 | <br>User moved the data labels only for reading the chart from the template file. |
+| Moved | 9 | <br>User moved the data labels. This is only for reading chart from template file. |
 
 ## See Also
 

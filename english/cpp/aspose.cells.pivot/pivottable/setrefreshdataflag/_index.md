@@ -4,7 +4,7 @@ linktitle: SetRefreshDataFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetRefreshDataFlag method. Indicates whether Refreshing Data or not in C++.'
 type: docs
-weight: 13600
+weight: 14000
 url: /cpp/aspose.cells.pivot/pivottable/setrefreshdataflag/
 ---
 ## PivotTable::SetRefreshDataFlag method

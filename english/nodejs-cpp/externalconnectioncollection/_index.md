@@ -11,7 +11,7 @@ url: /nodejs-cpp/externalconnectioncollection/
 Specifies the [ExternalConnection](../externalconnection/) collection
 
 ```javascript
-class ExternalConnectionCollection;
+class ExternalConnectionCollection implements Iterable<ExternalConnection>;
 ```
 
 
@@ -24,6 +24,11 @@ class ExternalConnectionCollection;
 | [getExternalConnectionById(number)](#getExternalConnectionById-number-)| Gets the [ExternalConnection](../externalconnection/) element with the specified id. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ExternalConnection\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
 
 
 ### get(number) {#get-number-}
