@@ -118,7 +118,9 @@ class Slicer;
 | [setRowHeight(number)](#setRowHeight-number-)| <b>@deprecated.</b> Please use the 'rowHeight' property instead. Returns or sets the height of each row in the specified slicer in unit of points. |
 | [addPivotConnection(PivotTable)](#addPivotConnection-pivottable-)| Adds PivotTable connection. |
 | [removePivotConnection(PivotTable)](#removePivotConnection-pivottable-)| Removes PivotTable connection. |
-| [refresh()](#refresh--)| Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. |
+| [refresh()](#refresh--)| Refreshing the items of the slicer from the associated pivot tables. |
+| [selectItems(string[], boolean)](#selectItems-stringarray-boolean-)|  |
+| [clearFilter()](#clearFilter--)| Remove filters |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -1310,10 +1312,37 @@ removePivotConnection(pivot: PivotTable) : void;
 
 ### refresh() {#refresh--}
 
-Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
+Refreshing the items of the slicer from the associated pivot tables.
 
 ```javascript
 refresh() : void;
+```
+
+
+### selectItems(string[], boolean) {#selectItems-stringarray-boolean-}
+
+
+
+```javascript
+selectItems(labels: string[], append: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| labels | string[] | Selected labels. |
+| append | boolean | False means only selecting these labels and unselecting others.         /// True means keeping old selected items and selecting these labels. |
+
+**Remarks**
+
+If you want to select all items, please use [ClearFilter](../clearfilter/) method.
+
+### clearFilter() {#clearFilter--}
+
+Remove filters
+
+```javascript
+clearFilter() : void;
 ```
 
 

@@ -21,6 +21,7 @@ class ListColumnCollection implements Iterable<ListColumn>;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the ListColumn by the index. |
 | [get(string)](#get-string-)| Gets the ListColumn by the name. |
+| [removeAt(number)](#removeAt-number-)| Remove [ListColumn](../listcolumn/) by index. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -63,6 +64,19 @@ get(name: string) : ListColumn;
 **Returns**
 
 The ListColumn object.
+
+### removeAt(number) {#removeAt-number-}
+
+Remove [ListColumn](../listcolumn/) by index.
+
+```javascript
+removeAt(index: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index. |
 
 ### getCount() {#getCount--}
 

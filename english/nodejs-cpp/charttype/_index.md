@@ -11,23 +11,23 @@ Enumerates all chart types used in Excel.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |
-| Area | `0` | Represents Area Chart. |
+| Area | `0` | Represents an Area Chart. |
 | AreaStacked | `1` | Represents Stacked Area Chart. |
 | Area100PercentStacked | `2` | Represents 100% Stacked Area Chart. |
 | Area3D | `3` | Represents 3D Area Chart. |
 | Area3DStacked | `4` | Represents 3D Stacked Area Chart. |
 | Area3D100PercentStacked | `5` | Represents 3D 100% Stacked Area Chart. |
-| Bar | `6` | Represents Bar Chart: Clustered Bar Chart. |
+| Bar | `6` | Represents a Bar Chart: Clustered Bar Chart. |
 | BarStacked | `7` | Represents Stacked Bar Chart. |
 | Bar100PercentStacked | `8` | Represents 100% Stacked Bar Chart. |
 | Bar3DClustered | `9` | Represents 3D Clustered Bar Chart. |
 | Bar3DStacked | `10` | Represents 3D Stacked Bar Chart. |
 | Bar3D100PercentStacked | `11` | Represents 3D 100% Stacked Bar Chart. |
-| Bubble | `12` | Represents Bubble Chart. |
+| Bubble | `12` | Represents a Bubble Chart. |
 | Bubble3D | `13` | Represents 3D Bubble Chart. |
 | Column | `14` | Represents Column Chart: Clustered Column Chart. |
 | ColumnStacked | `15` | Represents Stacked Column Chart. |
-| Column100PercentStacked | `16` | Represents 100% Stacked Column Chart. |
+| Column100PercentStacked | `16` | Represents a 100% Stacked Column Chart. |
 | Column3D | `17` | Represents 3D Column Chart. |
 | Column3DClustered | `18` | Represents 3D Clustered Column Chart. |
 | Column3DStacked | `19` | Represents 3D Stacked Column Chart. |
@@ -37,11 +37,11 @@ Enumerates all chart types used in Excel.
 | Cone100PercentStacked | `23` | Represents 100% Stacked Cone Chart. |
 | ConicalBar | `24` | Represents Conical Bar Chart. |
 | ConicalBarStacked | `25` | Represents Stacked Conical Bar Chart. |
-| ConicalBar100PercentStacked | `26` | Represents 100% Stacked Conical Bar Chart. |
+| ConicalBar100PercentStacked | `26` | Represents a 100% Stacked Conical Bar Chart. |
 | ConicalColumn3D | `27` | Represents 3D Conical Column Chart. |
-| Cylinder | `28` | Represents Cylinder Chart. |
+| Cylinder | `28` | Represents a Cylinder Chart. |
 | CylinderStacked | `29` | Represents Stacked Cylinder Chart. |
-| Cylinder100PercentStacked | `30` | Represents 100% Stacked Cylinder Chart. |
+| Cylinder100PercentStacked | `30` | Represents a 100% Stacked Cylinder Chart. |
 | CylindricalBar | `31` | Represents Cylindrical Bar Chart. |
 | CylindricalBarStacked | `32` | Represents Stacked Cylindrical Bar Chart. |
 | CylindricalBar100PercentStacked | `33` | Represents 100% Stacked Cylindrical Bar Chart. |
@@ -57,11 +57,11 @@ Enumerates all chart types used in Excel.
 | Line3D | `43` | Represents 3D Line Chart. |
 | Pie | `44` | Represents Pie Chart. |
 | Pie3D | `45` | Represents 3D Pie Chart. |
-| PiePie | `46` | Represents Pie of Pie Chart. |
+| PiePie | `46` | Represents the pie of a pie chart. |
 | PieExploded | `47` | Represents Exploded Pie Chart. |
 | Pie3DExploded | `48` | Represents 3D Exploded Pie Chart. |
 | PieBar | `49` | Represents Bar of Pie Chart. |
-| Pyramid | `50` | Represents Pyramid Chart. |
+| Pyramid | `50` | Represents a Pyramid Chart. |
 | PyramidStacked | `51` | Represents Stacked Pyramid Chart. |
 | Pyramid100PercentStacked | `52` | Represents 100% Stacked Pyramid Chart. |
 | PyramidBar | `53` | Represents Pyramid Bar Chart. |
@@ -69,11 +69,11 @@ Enumerates all chart types used in Excel.
 | PyramidBar100PercentStacked | `55` | Represents 100% Stacked Pyramid Bar Chart. |
 | PyramidColumn3D | `56` | Represents 3D Pyramid Column Chart. |
 | Radar | `57` | Represents Radar Chart. |
-| RadarWithDataMarkers | `58` | Represents Radar Chart with data markers. |
+| RadarWithDataMarkers | `58` | Represents a Radar Chart with data markers. |
 | RadarFilled | `59` | Represents Filled Radar Chart. |
-| Scatter | `60` | Represents Scatter Chart. |
+| Scatter | `60` | Represents a Scatter Chart. |
 | ScatterConnectedByCurvesWithDataMarker | `61` | Represents Scatter Chart connected by curves, with data markers. |
-| ScatterConnectedByCurvesWithoutDataMarker | `62` | Represents Scatter Chart connected by curves, without data markers. |
+| ScatterConnectedByCurvesWithoutDataMarker | `62` | Represents a Scatter Chart connected by curves, without data markers. |
 | ScatterConnectedByLinesWithDataMarker | `63` | Represents Scatter Chart connected by lines, with data markers. |
 | ScatterConnectedByLinesWithoutDataMarker | `64` | Represents Scatter Chart connected by lines, without data markers. |
 | StockHighLowClose | `65` | Represents High-Low-Close Stock Chart. |

@@ -59,7 +59,7 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | --- | --- | --- |
 | [type](#type--)| ErrorBarType | Represents error bar amount type. |
 | [displayType](#displayType--)| ErrorBarDisplayType | Represents the display type of error bar. |
-| [amount](#amount--)| number | Represents amount of error bar. |
+| [amount](#amount--)| number | Represents the amount of error bar. |
 | [showMarkerTTop](#showMarkerTTop--)| boolean | Indicates if formatting error bars with a T-top. |
 | [plusValue](#plusValue--)| string | Represents positive error amount when error bar type is Custom. |
 | [minusValue](#minusValue--)| string | Represents negative error amount when error bar type is Custom. |
@@ -94,8 +94,8 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setType(ErrorBarType)](#setType-errorbartype-)| <b>@deprecated.</b> Please use the 'type' property instead. Represents error bar amount type. |
 | [getDisplayType()](#getDisplayType--)| <b>@deprecated.</b> Please use the 'displayType' property instead. Represents the display type of error bar. |
 | [setDisplayType(ErrorBarDisplayType)](#setDisplayType-errorbardisplaytype-)| <b>@deprecated.</b> Please use the 'displayType' property instead. Represents the display type of error bar. |
-| [getAmount()](#getAmount--)| <b>@deprecated.</b> Please use the 'amount' property instead. Represents amount of error bar. |
-| [setAmount(number)](#setAmount-number-)| <b>@deprecated.</b> Please use the 'amount' property instead. Represents amount of error bar. |
+| [getAmount()](#getAmount--)| <b>@deprecated.</b> Please use the 'amount' property instead. Represents the amount of error bar. |
+| [setAmount(number)](#setAmount-number-)| <b>@deprecated.</b> Please use the 'amount' property instead. Represents the amount of error bar. |
 | [getShowMarkerTTop()](#getShowMarkerTTop--)| <b>@deprecated.</b> Please use the 'showMarkerTTop' property instead. Indicates if formatting error bars with a T-top. |
 | [setShowMarkerTTop(boolean)](#setShowMarkerTTop-boolean-)| <b>@deprecated.</b> Please use the 'showMarkerTTop' property instead. Indicates if formatting error bars with a T-top. |
 | [getPlusValue()](#getPlusValue--)| <b>@deprecated.</b> Please use the 'plusValue' property instead. Represents positive error amount when error bar type is Custom. |
@@ -214,7 +214,7 @@ displayType : ErrorBarDisplayType;
 
 ### amount {#amount--}
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 ```javascript
 amount : number;
@@ -508,7 +508,7 @@ setDisplayType(value: ErrorBarDisplayType) : void;
 
 ### getAmount() {#getAmount--}
 
-<b>@deprecated.</b> Please use the 'amount' property instead. Represents amount of error bar.
+<b>@deprecated.</b> Please use the 'amount' property instead. Represents the amount of error bar.
 
 ```javascript
 getAmount() : number;
@@ -521,7 +521,7 @@ The amount must be greater than or equal to zero.
 
 ### setAmount(number) {#setAmount-number-}
 
-<b>@deprecated.</b> Please use the 'amount' property instead. Represents amount of error bar.
+<b>@deprecated.</b> Please use the 'amount' property instead. Represents the amount of error bar.
 
 ```javascript
 setAmount(value: number) : void;

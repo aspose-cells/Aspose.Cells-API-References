@@ -38,6 +38,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [type](#type--)| SheetType | Represents worksheet type. |
 | [name](#name--)| string | Gets or sets the name of the worksheet. |
 | [showFormulas](#showFormulas--)| boolean | Indicates whether to show formulas or their results. |
+| [showDataTypeIcons](#showDataTypeIcons--)| boolean | Indicates whether to show data type icons. |
 | [isGridlinesVisible](#isGridlinesVisible--)| boolean | Gets or sets a value indicating whether the gridlines are visible.Default is true. |
 | [isRowColumnHeadersVisible](#isRowColumnHeadersVisible--)| boolean | Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
 | [paneState](#paneState--)| PaneStateType | Readonly. Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. |
@@ -107,6 +108,8 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets or sets the name of the worksheet. |
 | [getShowFormulas()](#getShowFormulas--)| <b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results. |
 | [setShowFormulas(boolean)](#setShowFormulas-boolean-)| <b>@deprecated.</b> Please use the 'showFormulas' property instead. Indicates whether to show formulas or their results. |
+| [getShowDataTypeIcons()](#getShowDataTypeIcons--)| <b>@deprecated.</b> Please use the 'showDataTypeIcons' property instead. Indicates whether to show data type icons. |
+| [setShowDataTypeIcons(boolean)](#setShowDataTypeIcons-boolean-)| <b>@deprecated.</b> Please use the 'showDataTypeIcons' property instead. Indicates whether to show data type icons. |
 | [isGridlinesVisible()](#isGridlinesVisible--)| <b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true. |
 | [setIsGridlinesVisible(boolean)](#setIsGridlinesVisible-boolean-)| <b>@deprecated.</b> Please use the 'isGridlinesVisible' property instead. Gets or sets a value indicating whether the gridlines are visible.Default is true. |
 | [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--)| <b>@deprecated.</b> Please use the 'isRowColumnHeadersVisible' property instead. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true. |
@@ -345,6 +348,15 @@ Indicates whether to show formulas or their results.
 
 ```javascript
 showFormulas : boolean;
+```
+
+
+### showDataTypeIcons {#showDataTypeIcons--}
+
+Indicates whether to show data type icons.
+
+```javascript
+showDataTypeIcons : boolean;
 ```
 
 
@@ -977,6 +989,28 @@ getShowFormulas() : boolean;
 
 ```javascript
 setShowFormulas(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowDataTypeIcons() {#getShowDataTypeIcons--}
+
+<b>@deprecated.</b> Please use the 'showDataTypeIcons' property instead. Indicates whether to show data type icons.
+
+```javascript
+getShowDataTypeIcons() : boolean;
+```
+
+
+### setShowDataTypeIcons(boolean) {#setShowDataTypeIcons-boolean-}
+
+<b>@deprecated.</b> Please use the 'showDataTypeIcons' property instead. Indicates whether to show data type icons.
+
+```javascript
+setShowDataTypeIcons(value: boolean) : void;
 ```
 
 **Parameters:**

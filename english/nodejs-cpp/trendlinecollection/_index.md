@@ -34,7 +34,7 @@ line.color = Color.Red;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets a [Trendline](../trendline/) object by its index. |
-| [add(TrendlineType)](#add-trendlinetype-)| Adds a [Trendline](../trendline/) object to this collection with specified type. |
+| [add(TrendlineType)](#add-trendlinetype-)| Adds a [Trendline](../trendline/) object to this collection with the specified type. |
 | [add(TrendlineType, string)](#add-trendlinetype-string-)| Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -64,7 +64,7 @@ get(index: number) : Trendline;
 
 ### add(TrendlineType) {#add-trendlinetype-}
 
-Adds a [Trendline](../trendline/) object to this collection with specified type.
+Adds a [Trendline](../trendline/) object to this collection with the specified type.
 
 ```javascript
 add(type: TrendlineType) : number;

@@ -30,7 +30,7 @@ is_root: true
 | [AutoFitterOptions](./autofitteroptions) | Represents all auto fitter options. |
 | [AutomaticFill](./automaticfill) | represents automatic fill. |
 | [AutoNumberedBulletValue](./autonumberedbulletvalue) | Represents automatic numbered bullet. |
-| [Axis](./axis) | Encapsulates the object that represents an axis of chart. |
+| [Axis](./axis) | Encapsulates the object that represents an axis of a chart. |
 | [AxisBins](./axisbins) | Represents axis bins |
 | [BarEquationNode](./barequationnode) | This class specifies the bar equation, consisting of a base argument and an overbar or underbar. |
 | [BaseShapeGuide](./baseshapeguide) | Represents the shape guide. |
@@ -141,7 +141,7 @@ is_root: true
 | [DocxSaveOptions](./docxsaveoptions) | Represents options of saving .docx file. |
 | [DrawObject](./drawobject) | DrawObject will be initialized and returned when rendering. |
 | [DrawObjectEventHandler](./drawobjecteventhandler) | Interface to get DrawObject and Bound when rendering. |
-| [DropBars](./dropbars) | Represents the up/down bars in a chart. |
+| [DropBars](./dropbars) | Represents the up and down bars in a chart. |
 | [DxfCollection](./dxfcollection) | Represents the master differential formatting records. |
 | [DynamicFilter](./dynamicfilter) | Represents the dynamic filter. |
 | [EbookLoadOptions](./ebookloadoptions) | Represents options when importing an ebook file. |
@@ -732,7 +732,8 @@ is_root: true
 | [PivotTableStyleType](./pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](./placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotDataByType](./plotdatabytype) | Represents the type of data plot by row or column. |
-| [PlotEmptyCellsType](./plotemptycellstype) | Represents all plot empty cells type of a chart. |
+| [PlotEmptyCellsType](./plotemptycellstype) | Represents all plot empty cell types of a chart. |
+| [PowerQueryFormulaItemType](./powerqueryformulaitemtype) | Represents the type of a Power Query formula item. |
 | [PowerQueryFormulaType](./powerqueryformulatype) | Represents the type of power query formula. |
 | [PresetCameraType](./presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](./presetmaterialtype) | Describes surface appearance of a shape. |
@@ -761,6 +762,7 @@ is_root: true
 | [SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
 | [SensitivityLabelMarkType](./sensitivitylabelmarktype) | Represents the types of content marking that ought to be applied to a file. |
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
+| [ShapeDisplayType](./shapedisplaytype) | Represents how the application displays shapes in this workbook. Shapes might include charts, images, and other object data that the application supports. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |
 | [ShapePathPointValueType](./shapepathpointvaluetype) | Specifies the value type of [ShapePathPoint](../nodejs-cpp/shapepathpoint/) object |
 | [ShapePathType](./shapepathtype) | Represents path segment type. |

@@ -21,9 +21,9 @@ class Marker;
 | --- | --- | --- |
 | [border](#border--)| Line | Readonly. Gets the <see cref="Line">border</see>. |
 | [area](#area--)| Area | Readonly. Gets the <see cref="Area">area</see>. |
-| [markerStyle](#markerStyle--)| ChartMarkerType | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [markerStyle](#markerStyle--)| ChartMarkerType | Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 | [markerSize](#markerSize--)| number | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [markerSizePx](#markerSizePx--)| number | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [markerSizePx](#markerSizePx--)| number | Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
 | [foregroundColor](#foregroundColor--)| Color | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [foregroundColorSetType](#foregroundColorSetType--)| FormattingType | Gets or sets the marker foreground color set type. |
 | [backgroundColor](#backgroundColor--)| Color | Represents the marker background color in a line chart, scatter chart, or radar chart. |
@@ -35,12 +35,12 @@ class Marker;
 | --- | --- |
 | [getBorder()](#getBorder--)| <b>@deprecated.</b> Please use the 'border' property instead. Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Gets the <see cref="Area">area</see>. |
-| [getMarkerStyle()](#getMarkerStyle--)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
-| [setMarkerStyle(ChartMarkerType)](#setMarkerStyle-chartmarkertype-)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [getMarkerStyle()](#getMarkerStyle--)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
+| [setMarkerStyle(ChartMarkerType)](#setMarkerStyle-chartmarkertype-)| <b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 | [getMarkerSize()](#getMarkerSize--)| <b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
 | [setMarkerSize(number)](#setMarkerSize-number-)| <b>@deprecated.</b> Please use the 'markerSize' property instead. Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [getMarkerSizePx()](#getMarkerSizePx--)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [setMarkerSizePx(number)](#setMarkerSizePx-number-)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [getMarkerSizePx()](#getMarkerSizePx--)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
+| [setMarkerSizePx(number)](#setMarkerSizePx-number-)| <b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
 | [getForegroundColor()](#getForegroundColor--)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [setForegroundColor(Color)](#setForegroundColor-color-)| <b>@deprecated.</b> Please use the 'foregroundColor' property instead. Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [getForegroundColorSetType()](#getForegroundColorSetType--)| <b>@deprecated.</b> Please use the 'foregroundColorSetType' property instead. Gets or sets the marker foreground color set type. |
@@ -72,7 +72,7 @@ area : Area;
 
 ### markerStyle {#markerStyle--}
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```javascript
 markerStyle : ChartMarkerType;
@@ -90,7 +90,7 @@ markerSize : number;
 
 ### markerSizePx {#markerSizePx--}
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```javascript
 markerSizePx : number;
@@ -161,7 +161,7 @@ getArea() : Area;
 
 ### getMarkerStyle() {#getMarkerStyle--}
 
-<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```javascript
 getMarkerStyle() : ChartMarkerType;
@@ -174,7 +174,7 @@ getMarkerStyle() : ChartMarkerType;
 
 ### setMarkerStyle(ChartMarkerType) {#setMarkerStyle-chartmarkertype-}
 
-<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerStyle' property instead. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```javascript
 setMarkerStyle(value: ChartMarkerType) : void;
@@ -209,7 +209,7 @@ setMarkerSize(value: number) : void;
 
 ### getMarkerSizePx() {#getMarkerSizePx--}
 
-<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```javascript
 getMarkerSizePx() : number;
@@ -218,7 +218,7 @@ getMarkerSizePx() : number;
 
 ### setMarkerSizePx(number) {#setMarkerSizePx-number-}
 
-<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+<b>@deprecated.</b> Please use the 'markerSizePx' property instead. Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```javascript
 setMarkerSizePx(value: number) : void;
