@@ -45,6 +45,7 @@ class WorkbookSettings;
 | [isHidden](#isHidden--)| boolean | Indicates whether this workbook is hidden. |
 | [autoCompressPictures](#autoCompressPictures--)| boolean | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [removePersonalInformation](#removePersonalInformation--)| boolean | True if personal information can be removed from the specified workbook. |
+| [shapeDisplayType](#shapeDisplayType--)| ShapeDisplayType | Gets and sets how the application displays shapes in this workbook |
 | [hidePivotFieldList](#hidePivotFieldList--)| boolean | Gets and sets whether hide the field list for the PivotTable. |
 | [maxUniqueItemsPerField](#maxUniqueItemsPerField--)| number | Gets and set the limitation of unique items per field |
 | [updateLinksType](#updateLinksType--)| UpdateLinksType | Gets and sets how updates external links when the workbook is opened. |
@@ -393,6 +394,15 @@ True if personal information can be removed from the specified workbook.
 
 ```javascript
 removePersonalInformation : boolean;
+```
+
+
+### shapeDisplayType {#shapeDisplayType--}
+
+Gets and sets how the application displays shapes in this workbook
+
+```javascript
+shapeDisplayType : ShapeDisplayType;
 ```
 
 

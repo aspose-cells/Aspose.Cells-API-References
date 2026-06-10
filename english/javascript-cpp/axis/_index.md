@@ -1,14 +1,14 @@
 ﻿---
 title: Axis
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Encapsulates the object that represents an axis of chart.
+description: Encapsulates the object that represents an axis of a chart.
 type: docs
 url: /javascript-cpp/axis/
 ---
 
 ## Axis class
 
-Encapsulates the object that represents an axis of chart.
+Encapsulates the object that represents an axis of a chart.
 
 ```javascript
 class Axis;

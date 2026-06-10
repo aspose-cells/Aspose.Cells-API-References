@@ -14,7 +14,7 @@ Represents the separator type of DataLabels.
 | Auto | `0` | Represents automatic separator |
 | Space | `1` | Represents space(" ") |
 | Comma | `2` | Represents comma(",") |
-| Semicolon | `3` | Represents semicolon(";") |
+| Semicolon | `3` | Represents a semicolon(";") |
 | Period | `4` | Represents period(".") |
 | NewLine | `5` | Represents newline("\n") |
 | Custom | `6` | Represents custom separator |

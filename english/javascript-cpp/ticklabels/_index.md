@@ -22,13 +22,13 @@ class TickLabels;
 | [font](#font--)| Font | Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
 | [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle in clockwise. |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle clockwise. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Indicates whether the rotation angle is automatic |
 | [numberFormat](#numberFormat--)| string | Represents the format string for the TickLabels object. |
 | [number](#number--)| number | Represents the format number for the TickLabels object. |
 | [numberFormatLinked](#numberFormatLinked--)| boolean | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [displayNumberFormat](#displayNumberFormat--)| string | Readonly. Gets and sets the display number format of tick labels. |
-| [offset](#offset--)| number | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [offset](#offset--)| number | Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
 | [directionType](#directionType--)| ChartTextDirectionType | Gets and sets the direction of text. |
 | [tickLabelItems](#tickLabelItems--)| TickLabelItem[] | Readonly. Gets the display tick labels of the axis. |
@@ -64,7 +64,7 @@ backgroundMode : BackgroundMode;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 ```javascript
 rotationAngle : number;
@@ -126,7 +126,7 @@ displayNumberFormat : string;
 
 ### offset {#offset--}
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```javascript
 offset : number;

@@ -21,6 +21,7 @@ class ListColumnCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the ListColumn by the index. |
 | [get(string)](#get-string-)| Gets the ListColumn by the name. |
+| [removeAt(number)](#removeAt-number-)| Remove [ListColumn](../listcolumn/) by index. |
 
 
 ### get(number) {#get-number-}
@@ -56,5 +57,18 @@ get(name: string) : ListColumn;
 **Returns**
 
 The ListColumn object.
+
+### removeAt(number) {#removeAt-number-}
+
+Remove [ListColumn](../listcolumn/) by index.
+
+```javascript
+removeAt(index: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index. |
 
 

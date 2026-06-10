@@ -64,7 +64,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [categoryData](#categoryData--)| string | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [categoryData](#categoryData--)| string | Gets or sets the range of category Axis values. It can be a range of cells (such as "d1:e10") or a sequence of values (such as "{2,6,8,10}"). |
 | [secondCategoryData](#secondCategoryData--)| string | Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some series were plotted on the second axis. |
 | [isColorVaried](#isColorVaried--)| boolean | Represents if the color of points is varied. |
 
@@ -77,7 +77,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [removeAt(number)](#removeAt-number-)| Remove at a series at the specific index. |
 | [changeSeriesOrder(number, number)](#changeSeriesOrder-number-number-)| Directly changes the orders of the two series. |
 | [swapSeries(number, number)](#swapSeries-number-number-)| Directly changes the orders of the two series. |
-| [setSeriesNames(number, string, boolean)](#setSeriesNames-number-string-boolean-)| Sets the name of all the serieses in the chart. |
+| [setSeriesNames(number, string, boolean)](#setSeriesNames-number-string-boolean-)| Sets the names of all the series in the chart. |
 | [addR1C1(string, boolean)](#addR1C1-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [add(string, boolean)](#add-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [add(string, boolean, boolean)](#add-string-boolean-boolean-)| Adds the [Series](../series/) collection to a chart. |
@@ -87,7 +87,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 ### categoryData {#categoryData--}
 
-Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}").
+Gets or sets the range of category Axis values. It can be a range of cells (such as "d1:e10") or a sequence of values (such as "{2,6,8,10}").
 
 ```javascript
 categoryData : string;
@@ -197,7 +197,7 @@ swapSeries(sourceIndex: number, destIndex: number) : void;
 
 ### setSeriesNames(number, string, boolean) {#setSeriesNames-number-string-boolean-}
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 ```javascript
 setSeriesNames(startIndex: number, area: string, isVertical: boolean) : void;
