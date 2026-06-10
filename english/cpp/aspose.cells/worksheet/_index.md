@@ -105,6 +105,7 @@ class Worksheet
 | [GetScenarios()](./getscenarios/) | Gets the collection of [Scenario](../scenario/). |
 | [GetSelectedAreas()](./getselectedareas/) | Gets selected ranges of cells in the designer spreadsheet. |
 | [GetShapes()](./getshapes/) | Returns all drawing shapes in this worksheet. |
+| [GetShowDataTypeIcons()](./getshowdatatypeicons/) | Indicates whether to show data type icons. |
 | [GetShowFormulas()](./getshowformulas/) | Indicates whether to show formulas or their results. |
 | [GetSlicers()](./getslicers/) | Get the Slicer collection in the worksheet. |
 | [GetSmartTagSetting()](./getsmarttagsetting/) | Gets all SmartTagCollection objects of the worksheet. |
@@ -165,6 +166,7 @@ class Worksheet
 | [SetIsVisible(bool value)](./setisvisible/) | Represents if the worksheet is visible. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the worksheet. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the worksheet. |
+| [SetShowDataTypeIcons(bool value)](./setshowdatatypeicons/) | Indicates whether to show data type icons. |
 | [SetShowFormulas(bool value)](./setshowformulas/) | Indicates whether to show formulas or their results. |
 | [SetTabColor(const Aspose::Cells::Color\& value)](./settabcolor/) | Represents worksheet tab color. |
 | [SetTabId(int32_t value)](./settabid/) | Specifies the internal identifier for the sheet. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartArea::GetFont method
 linktitle: GetFont
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartArea::GetFont method. Gets a Font object of the specified chartarea object in C++.'
+description: 'Aspose::Cells::Charts::ChartArea::GetFont method. Gets a <see cref=Font"/> object of the specified ChartArea object in C++.'
 type: docs
 weight: 2200
 url: /cpp/aspose.cells.charts/chartarea/getfont/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartarea/getfont/
 ## ChartArea::GetFont method
 
 
-Gets a [Font](../../../aspose.cells/font/) object of the specified chartarea object.
+Gets a <see cref=[Font](../../../aspose.cells/font/)"/> object of the specified [ChartArea](../) object.
 
 ```cpp
 Aspose::Cells::Font Aspose::Cells::Charts::ChartArea::GetFont()

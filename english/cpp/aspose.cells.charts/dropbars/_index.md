@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DropBars class
 linktitle: DropBars
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DropBars class. Represents the up/down bars in a chart in C++.'
+description: 'Aspose::Cells::Charts::DropBars class. Represents the up and down bars in a chart in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells.charts/dropbars/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/dropbars/
 ## DropBars class
 
 
-Represents the up/down bars in a chart.
+Represents the up and down bars in a chart.
 
 ```cpp
 class DropBars

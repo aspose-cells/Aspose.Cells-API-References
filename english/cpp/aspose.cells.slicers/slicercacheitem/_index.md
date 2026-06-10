@@ -20,12 +20,12 @@ class SlicerCacheItem
 
 | Method | Description |
 | --- | --- |
-| [GetSelected()](./getselected/) | Specifies whether the SlicerItem is selected or not. |
+| [GetSelected()](./getselected/) | Specifies whether the [SlicerCacheItem](./) is selected or not. |
 | [GetValue()](./getvalue/) | Returns the label text for the slicer item. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SlicerCacheItem\& src)](./operator_asm/) | operator= |
-| [SetSelected(bool value)](./setselected/) | Specifies whether the SlicerItem is selected or not. |
+| [SetSelected(bool value)](./setselected/) | Specifies whether the [SlicerCacheItem](./) is selected or not. |
 | [SlicerCacheItem(SlicerCacheItem_Impl* impl)](./slicercacheitem/) | Constructs from an implementation object. |
 | [SlicerCacheItem(const SlicerCacheItem\& src)](./slicercacheitem/) | Copy constructor. |
 | [~SlicerCacheItem()](./~slicercacheitem/) | Destructor. |

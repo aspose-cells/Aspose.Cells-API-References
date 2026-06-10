@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DataLabels::SetText method
 linktitle: SetText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DataLabels::SetText method. Gets or sets the text of data label in C++.'
+description: 'Aspose::Cells::Charts::DataLabels::SetText method. Gets or sets the text of the data label in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells.charts/datalabels/settext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/datalabels/settext/
 ## DataLabels::SetText(const U16String\&) method
 
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```cpp
 void Aspose::Cells::Charts::DataLabels::SetText(const U16String &value)
@@ -30,7 +30,7 @@ Only works when this is a data label of a chart point.
 ## DataLabels::SetText(const char16_t*) method
 
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```cpp
 void Aspose::Cells::Charts::DataLabels::SetText(const char16_t *value)

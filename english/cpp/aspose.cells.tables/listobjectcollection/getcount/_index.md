@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObjectCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.tables/listobjectcollection/getcount/
 ---
 ## ListObjectCollection::GetCount method

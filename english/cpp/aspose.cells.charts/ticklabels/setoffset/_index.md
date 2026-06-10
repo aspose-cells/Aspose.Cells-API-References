@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::TickLabels::SetOffset method
 linktitle: SetOffset
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TickLabels::SetOffset method. Gets and sets the distance of labels from the category axis. Only for category (x) axis in C++.'
+description: 'Aspose::Cells::Charts::TickLabels::SetOffset method. Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.cells.charts/ticklabels/setoffset/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/ticklabels/setoffset/
 ## TickLabels::SetOffset method
 
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```cpp
 void Aspose::Cells::Charts::TickLabels::SetOffset(int32_t value)

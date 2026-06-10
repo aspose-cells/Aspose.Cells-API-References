@@ -28,23 +28,23 @@ class Walls : public Aspose::Cells::Charts::Floor
 | [GetBackgroundColor()](../../aspose.cells.drawing/area/getbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../../aspose.cells.drawing/area/). |
 | [GetBorder()](../floor/getborder/) | Gets or sets the border Line. |
 | [GetCenterX()](./getcenterx/) | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetCenterXPx()](./getcenterxpx/) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetCenterY()](./getcentery/) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls [Chart.Calculate()](../chart/calculate/) method. |
+| [GetCenterXPx()](./getcenterxpx/) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the [Chart.Calculate()](../chart/calculate/) method. |
+| [GetCenterY()](./getcentery/) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the [Chart.Calculate()](../chart/calculate/) method. |
 | [GetCenterYPx()](./getcenterypx/) | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
 | [GetCubePointCount()](./getcubepointcount/) | Gets the number of cube points after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetCubePointXPx(int32_t index)](./getcubepointxpx/) | Gets x-coordinate of the apex point of walls cube after calls [Chart.Calculate()](../chart/calculate/) method. The number of apex points of walls cube is eight. |
+| [GetCubePointXPx(int32_t index)](./getcubepointxpx/) | Gets x-coordinate of the apex point of walls cube after calling the [Chart.Calculate()](../chart/calculate/) method. The number of apex points of walls cube is eight. |
 | [GetCubePointYPx(int32_t index)](./getcubepointypx/) | Gets y-coordinate of the apex point of walls cube after calls [Chart.Calculate()](../chart/calculate/) method. The number of apex points of walls cube is eight. |
-| [GetDepth()](./getdepth/) | Gets the depth front to back in units of 1/4000 of chart's width after calls [Chart.Calculate()](../chart/calculate/) method. |
+| [GetDepth()](./getdepth/) | Gets the depth front to back in units of 1/4000 of chart's width after calling the [Chart.Calculate()](../chart/calculate/) method. |
 | [GetDepthPx()](./getdepthpx/) | Gets the depth front to back in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
 | [GetFillFormat()](../../aspose.cells.drawing/area/getfillformat/) | Represents a [FillFormat](../../aspose.cells.drawing/fillformat/) object that contains fill formatting properties for the specified chart or shape. |
 | [GetForegroundColor()](../../aspose.cells.drawing/area/getforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [GetFormatting()](../../aspose.cells.drawing/area/getformatting/) | Represents the formatting of the area. |
 | [GetHeight()](./getheight/) | Gets the height of top to bottom in units of 1/4000 of chart's height after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetHeightPx()](./getheightpx/) | Gets the height of top to bottom in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
+| [GetHeightPx()](./getheightpx/) | Gets the height from top to bottom in units of pixels after calling the [Chart.Calculate()](../chart/calculate/) method. |
 | [GetInvertIfNegative()](../../aspose.cells.drawing/area/getinvertifnegative/) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [GetTransparency()](../../aspose.cells.drawing/area/gettransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [GetWidth()](./getwidth/) | Gets the width of left to right in units of 1/4000 of chart's width after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetWidthPx()](./getwidthpx/) | Gets the width of left to right in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
+| [GetWidthPx()](./getwidthpx/) | Gets the width of left to right in units of pixels after calling the [Chart.Calculate()](../chart/calculate/) method. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Walls\& src)](./operator_asm/) | operator= |

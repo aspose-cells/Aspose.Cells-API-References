@@ -20,9 +20,9 @@ class Chart
 
 | Method | Description |
 | --- | --- |
-| [Calculate()](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [Calculate()](./calculate/) | Calculates the custom positions of the plot area and axes if their positions are auto-assigned. |
 | [Calculate(const ChartCalculateOptions\& calculateOptions)](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with [Chart](./) Calculate Options. |
-| [ChangeTemplate(const Vector \<uint8_t\>\& data)](./changetemplate/) | Change chart type with preset template. |
+| [ChangeTemplate(const Vector \<uint8_t\>\& data)](./changetemplate/) | Change chart type with a preset template. |
 | [Chart(Chart_Impl* impl)](./chart/) | Constructs from an implementation object. |
 | [Chart(const Chart\& src)](./chart/) | Copy constructor. |
 | [GetActualSize()](./getactualsize/) | Gets actual size of chart in unit of pixels. |
@@ -34,7 +34,7 @@ class Chart
 | [GetChartDataTable()](./getchartdatatable/) | Represents the chart data table. |
 | [GetChartObject()](./getchartobject/) | Represents the chartShape;. |
 | [GetDepthPercent()](./getdepthpercent/) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
-| [GetDisplayNaAsBlank()](./getdisplaynaasblank/) | Indicates whether displaying #N/A as blank value. |
+| [GetDisplayNaAsBlank()](./getdisplaynaasblank/) | Indicates whether to display #N/A as a blank value. |
 | [GetElevation()](./getelevation/) | Represents the elevation of the 3-D chart view, in degrees. |
 | [GetFilteredNSeries()](./getfilterednseries/) | Gets a [SeriesCollection](../seriescollection/) collection representing the data series that are filtered in the chart. |
 | [GetFirstSliceAngle()](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
@@ -49,7 +49,7 @@ class Chart
 | [GetName()](./getname/) | Gets and sets the name of the chart. |
 | [GetNSeries()](./getnseries/) | Gets a [SeriesCollection](../seriescollection/) collection representing the data series in the chart. |
 | [GetPageSetup()](./getpagesetup/) | Represents the page setup description in this chart. |
-| [GetPerspective()](./getperspective/) | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
+| [GetPerspective()](./getperspective/) | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [GetPivotOptions()](./getpivotoptions/) | Specifies the pivot controls that appear on the chart. |
 | [GetPivotSource()](./getpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
 | [GetPlacement()](./getplacement/) | Represents the way the chart is attached to the cells below it. |
@@ -69,7 +69,7 @@ class Chart
 | [GetSideWall()](./getsidewall/) | Returns a [Walls](../walls/) object that represents the side wall of a 3-D chart. |
 | [GetSizeWithWindow()](./getsizewithwindow/) | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
 | [GetStyle()](./getstyle/) | Gets and sets the builtin style. |
-| [GetSubTitle()](./getsubtitle/) | Gets the chart's sub-title. Only for ODS format file. |
+| [GetSubTitle()](./getsubtitle/) | Gets the chart's sub-title. Only applies to ODS files. |
 | [GetTitle()](./gettitle/) | Gets the chart's title. |
 | [GetType()](./gettype/) | Gets or sets a chart's type. |
 | [GetValueAxis()](./getvalueaxis/) | Gets the chart's Y axis. |
@@ -89,7 +89,7 @@ class Chart
 | [SetChartDataRange(const U16String\& area, bool isVertical)](./setchartdatarange/) | Specifies data range for a chart. |
 | [SetChartDataRange(const char16_t* area, bool isVertical)](./setchartdatarange/) | Specifies data range for a chart. |
 | [SetDepthPercent(int32_t value)](./setdepthpercent/) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
-| [SetDisplayNaAsBlank(bool value)](./setdisplaynaasblank/) | Indicates whether displaying #N/A as blank value. |
+| [SetDisplayNaAsBlank(bool value)](./setdisplaynaasblank/) | Indicates whether to display #N/A as a blank value. |
 | [SetElevation(int32_t value)](./setelevation/) | Represents the elevation of the 3-D chart view, in degrees. |
 | [SetFirstSliceAngle(int32_t value)](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
 | [SetGapDepth(int32_t value)](./setgapdepth/) | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500. |
@@ -99,7 +99,7 @@ class Chart
 | [SetIsRectangularCornered(bool value)](./setisrectangularcornered/) | Gets or sets a value indicating whether the chart area is rectangular cornered. Default is true. |
 | [SetName(const U16String\& value)](./setname/) | Gets and sets the name of the chart. |
 | [SetName(const char16_t* value)](./setname/) | Gets and sets the name of the chart. |
-| [SetPerspective(int16_t value)](./setperspective/) | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
+| [SetPerspective(int16_t value)](./setperspective/) | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [SetPivotSource(const U16String\& value)](./setpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
 | [SetPivotSource(const char16_t* value)](./setpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
 | [SetPlacement(PlacementType value)](./setplacement/) | Represents the way the chart is attached to the cells below it. |
@@ -130,7 +130,7 @@ class Chart
 | [ToPdf(const char16_t* fileName)](./topdf/) | Saves the chart to a pdf file. |
 | [ToPdf(const U16String\& fileName, float desiredPageWidth, float desiredPageHeight, PageLayoutAlignmentType hAlignmentType, PageLayoutAlignmentType vAlignmentType)](./topdf/) | Saves the chart to a pdf file. |
 | [ToPdf(const char16_t* fileName, float desiredPageWidth, float desiredPageHeight, PageLayoutAlignmentType hAlignmentType, PageLayoutAlignmentType vAlignmentType)](./topdf/) | Saves the chart to a pdf file. |
-| [ToPdf()](./topdf/) | Creates the chart pdf and saves it to a stream. |
+| [ToPdf()](./topdf/) | Creates the chart PDF and saves it to a stream. |
 | [ToPdf(float desiredPageWidth, float desiredPageHeight, PageLayoutAlignmentType hAlignmentType, PageLayoutAlignmentType vAlignmentType)](./topdf/) | Creates the chart pdf and saves it to a stream. |
 | [~Chart()](./~chart/) | Destructor. |
 ## Fields

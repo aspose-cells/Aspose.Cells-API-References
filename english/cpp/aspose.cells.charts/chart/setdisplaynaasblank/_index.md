@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Chart::SetDisplayNaAsBlank method
 linktitle: SetDisplayNaAsBlank
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Chart::SetDisplayNaAsBlank method. Indicates whether displaying #N/A as blank value in C++.'
+description: 'Aspose::Cells::Charts::Chart::SetDisplayNaAsBlank method. Indicates whether to display #N/A as a blank value in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.cells.charts/chart/setdisplaynaasblank/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chart/setdisplaynaasblank/
 ## Chart::SetDisplayNaAsBlank method
 
 
-Indicates whether displaying #N/A as blank value.
+Indicates whether to display #N/A as a blank value.
 
 ```cpp
 void Aspose::Cells::Charts::Chart::SetDisplayNaAsBlank(bool value)

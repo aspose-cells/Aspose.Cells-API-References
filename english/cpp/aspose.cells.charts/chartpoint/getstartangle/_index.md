@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartPoint::GetStartAngle method
 linktitle: GetStartAngle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartPoint::GetStartAngle method. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart in C++.'
+description: 'Aspose::Cells::Charts::ChartPoint::GetStartAngle method. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method. Applies to Pie chart in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.cells.charts/chartpoint/getstartangle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartpoint/getstartangle/
 ## ChartPoint::GetStartAngle method
 
 
-Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calls [Chart.Calculate()](../../chart/calculate/) method. Applies to Pie chart.
+Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the [Chart.Calculate()](../../chart/calculate/) method. Applies to Pie chart.
 
 ```cpp
 float Aspose::Cells::Charts::ChartPoint::GetStartAngle()

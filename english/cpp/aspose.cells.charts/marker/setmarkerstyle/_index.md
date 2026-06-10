@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Marker::SetMarkerStyle method
 linktitle: SetMarkerStyle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Marker::SetMarkerStyle method. Represents the marker style. Applies to line chart, scatter chart, or radar chart in C++.'
+description: 'Aspose::Cells::Charts::Marker::SetMarkerStyle method. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.charts/marker/setmarkerstyle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/marker/setmarkerstyle/
 ## Marker::SetMarkerStyle method
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```cpp
 void Aspose::Cells::Charts::Marker::SetMarkerStyle(ChartMarkerType value)

@@ -31,19 +31,19 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
-| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
+| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
 | [GetDefaultXRatioToChart()](../chartframe/getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. |
-| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents y of default position in units of 1/4000 of the chart area. |
-| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of default position in units of Fraction of the chart area. |
+| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents the y of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of the default position in units of the fraction of the chart area. |
 | [GetDirectionType()](./getdirectiontype/) | Gets and sets the direction of text. |
 | [GetFont()](../chartframe/getfont/) | Gets a [Font](../../aspose.cells/font/) object of the specified [ChartFrame](../chartframe/) object. |
-| [GetHeight()](../chartframe/getheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [GetHeightRatioToChart()](../chartframe/getheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
+| [GetHeight()](../chartframe/getheight/) |  **(Deprecated)** Gets or sets the height of the frame in units of 1/4000 of the chart area. |
+| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [GetHeightRatioToChart()](../chartframe/getheightratiotochart/) | Gets or sets the height of the frame in units of the ratio of the chart area. |
 | [GetLinkedSource()](./getlinkedsource/) | Gets and sets a reference to the worksheet. |
 | [GetReadingOrder()](./getreadingorder/) | Represents text reading order. |
 | [GetRotationAngle()](./getrotationangle/) | Represents the text rotation angle. |
@@ -60,12 +60,12 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [GetXPixel()](../chartframe/getxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [GetXRatioToChart()](../chartframe/getxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [GetY()](../chartframe/gety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [GetYRatioToChart()](../chartframe/getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [GetYRatioToChart()](../chartframe/getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [IsAutomaticRotation()](./isautomaticrotation/) | Indicates whether the text of the chart is automatically rotated. |
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](./isautotext/) | Indicates the text is auto generated. |
-| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsDeleted()](./isdeleted/) | Indicates whether this data label is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -78,9 +78,9 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetDirectionType(ChartTextDirectionType value)](./setdirectiontype/) | Gets and sets the direction of text. |
-| [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
+| [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of the frame in units of 1/4000 of the chart area. |
+| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of the frame in units of the ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](./setisautotext/) | Indicates the text is auto generated. |
 | [SetIsDeleted(bool value)](./setisdeleted/) | Indicates whether this data label is deleted. |
@@ -104,8 +104,8 @@ class ChartTextFrame : public Aspose::Cells::Charts::ChartFrame
 | [SetXPixel(int32_t value)](../chartframe/setxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [SetXRatioToChart(double value)](../chartframe/setxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [SetY(int32_t value)](../chartframe/sety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [SetYRatioToChart(double value)](../chartframe/setyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [SetYRatioToChart(double value)](../chartframe/setyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [~ChartFrame()](../chartframe/~chartframe/) | Destructor. |
 | [~ChartTextFrame()](./~charttextframe/) | Destructor. |
 ## Fields

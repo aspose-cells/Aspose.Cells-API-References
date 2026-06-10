@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Title::GetText method
 linktitle: GetText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Title::GetText method. Gets or sets the text of display unit label in C++.'
+description: 'Aspose::Cells::Charts::Title::GetText method. Gets or sets the text of the display unit label in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.charts/title/gettext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/title/gettext/
 ## Title::GetText method
 
 
-Gets or sets the text of display unit label.
+Gets or sets the text of the display unit label.
 
 ```cpp
 U16String Aspose::Cells::Charts::Title::GetText()

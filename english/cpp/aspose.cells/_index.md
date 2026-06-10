@@ -289,6 +289,7 @@ url: /cpp/aspose.cells/
 | [RenameStrategy](./renamestrategy/) | Strategy option for duplicate names of columns. |
 | [ResourceLoadingType](./resourceloadingtype/) | Represents how to loading the linked resource. |
 | [SaveFormat](./saveformat/) | Represents the format in which the workbook is saved. |
+| [ShapeDisplayType](./shapedisplaytype/) | Represents how the application displays shapes in this workbook. Shapes might include charts, images, and other object data that the application supports. |
 | [SheetType](./sheettype/) | Specifies the worksheet type. |
 | [ShiftType](./shifttype/) | Represent the shift options when deleting a range of cells. |
 | [SignificantDigitsType](./significantdigitstype/) | Represents the type of significant digits for outputting numeric values. |

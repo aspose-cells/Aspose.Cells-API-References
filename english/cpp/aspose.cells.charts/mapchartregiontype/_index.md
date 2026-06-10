@@ -21,7 +21,7 @@ enum class MapChartRegionType
 | Name | Value | Description |
 | --- | --- | --- |
 | Automatic | 0 | <br>Automatic. |
-| DataOnly | 1 | <br>Only data. |
+| DataOnly | 1 | <br>Contains only data. |
 | CountryRegionList | 2 | <br>Country region list. |
 | World | 3 | <br>World. |
 

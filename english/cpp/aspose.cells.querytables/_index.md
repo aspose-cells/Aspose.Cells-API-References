@@ -26,4 +26,5 @@ url: /cpp/aspose.cells.querytables/
 
 | Enum | Description |
 | --- | --- |
+| [PowerQueryFormulaItemType](./powerqueryformulaitemtype/) | Represents the type of a Power Query formula item. |
 | [PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. |

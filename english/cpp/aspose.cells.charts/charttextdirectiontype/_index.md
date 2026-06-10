@@ -22,7 +22,7 @@ enum class ChartTextDirectionType
 | --- | --- | --- |
 | Horizontal | 0 | <br>Horizontal direction type. |
 | Vertical | 1 | <br>Vertical direction type. |
-| Rotate90 | 2 | <br>Rotate 90-degree angle. |
+| Rotate90 | 2 | <br>Rotate by a ninety-degree angle. |
 | Rotate270 | 3 | <br>Rotate 270-degree angle. |
 | Stacked | 4 | <br>Stacked text. |
 

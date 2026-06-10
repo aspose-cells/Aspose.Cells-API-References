@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Title::SetOverLay method
 linktitle: SetOverLay
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Title::SetOverLay method. Represents overlay centered title on chart without resizing chart in C++.'
+description: 'Aspose::Cells::Charts::Title::SetOverLay method. Represents an overlay centered title on a chart without resizing the chart in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.cells.charts/title/setoverlay/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/title/setoverlay/
 ## Title::SetOverLay method
 
 
-Represents overlay centered title on chart without resizing chart.
+Represents an overlay centered title on a chart without resizing the chart.
 
 ```cpp
 void Aspose::Cells::Charts::Title::SetOverLay(bool value)

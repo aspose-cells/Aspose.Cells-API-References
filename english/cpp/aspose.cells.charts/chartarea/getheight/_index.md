@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartArea::GetHeight method
 linktitle: GetHeight
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartArea::GetHeight method. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::ChartArea::GetHeight method. Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.charts/chartarea/getheight/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartarea/getheight/
 ## ChartArea::GetHeight method
 
 
-Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area.
 
 
 >Deprecated

@@ -22,7 +22,7 @@ enum class TickLabelPositionType
 | --- | --- | --- |
 | High | 0 | <br>Position type is high. |
 | Low | 1 | <br>Position type is low. |
-| NextToAxis | 2 | <br>Position type is next to axis. |
+| NextToAxis | 2 | <br>Position type is next to the axis. |
 | None | 3 | <br>Position type is none. |
 
 ## See Also

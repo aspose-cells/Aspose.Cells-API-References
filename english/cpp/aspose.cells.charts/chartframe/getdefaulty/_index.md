@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartFrame::GetDefaultY method
 linktitle: GetDefaultY
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultY method. Represents y of default position in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::ChartFrame::GetDefaultY method. Represents the y of the default position in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.cells.charts/chartframe/getdefaulty/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartframe/getdefaulty/
 ## ChartFrame::GetDefaultY method
 
 
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 
 >Deprecated

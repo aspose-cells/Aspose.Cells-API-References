@@ -23,7 +23,7 @@ enum class DataLabelsSeparatorType
 | Auto | 0 | <br>Represents automatic separator. |
 | Space | 1 | <br>Represents space(" ") |
 | Comma | 2 | <br>Represents comma(",") |
-| Semicolon | 3 | <br>Represents semicolon(";") |
+| Semicolon | 3 | <br>Represents a semicolon(";") |
 | Period | 4 | <br>Represents period(".") |
 | NewLine | 5 | <br>Represents newline("\n") |
 | Custom | 6 | <br>Represents custom separator. |

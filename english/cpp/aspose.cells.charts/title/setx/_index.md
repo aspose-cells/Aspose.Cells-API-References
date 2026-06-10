@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Title::SetX method
 linktitle: SetX
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Title::SetX method. Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::Title::SetX method. Gets or sets the X coordinate of the upper left corner in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.charts/title/setx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/title/setx/
 ## Title::SetX method
 
 
-Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+Gets or sets the X coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 
 >Deprecated

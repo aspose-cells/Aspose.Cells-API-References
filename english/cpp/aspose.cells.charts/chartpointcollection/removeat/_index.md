@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartpointcollection/removeat/
 ## ChartPointCollection::RemoveAt method
 
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 ```cpp
 void Aspose::Cells::Charts::ChartPointCollection::RemoveAt(int32_t index)
