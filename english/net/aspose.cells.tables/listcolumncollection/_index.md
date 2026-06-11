@@ -51,7 +51,7 @@ public class ListColumnCollection : CollectionBase<ListColumn>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [RemoveAt](../../aspose.cells.tables/listcolumncollection/removeat/#removeat)(int) | Remove [`ListColumn`](../listcolumn/) by index. (2 methods) |
 
 ### Examples
 

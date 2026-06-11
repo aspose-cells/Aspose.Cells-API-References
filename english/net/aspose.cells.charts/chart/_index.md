@@ -17,7 +17,7 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize/) { get; } | (**Obsolete.**) Gets actual size of chart in unit of pixels. |
+| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize/) { get; } | (**Obsolete.**) Gets actual size of chart in units of pixels. |
 | [AutoScaling](../../aspose.cells.charts/chart/autoscaling/) { get; set; } | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [BackWall](../../aspose.cells.charts/chart/backwall/) { get; } | Returns a [`Walls`](./walls/) object that represents the back wall of a 3-D chart. |
 | [CategoryAxis](../../aspose.cells.charts/chart/categoryaxis/) { get; } | Gets the chart's X axis. |
@@ -25,7 +25,7 @@ public class Chart
 | [ChartDataTable](../../aspose.cells.charts/chart/chartdatatable/) { get; } | Represents the chart data table. |
 | [ChartObject](../../aspose.cells.charts/chart/chartobject/) { get; } | Represents the chartShape; |
 | [DepthPercent](../../aspose.cells.charts/chart/depthpercent/) { get; set; } | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
-| [DisplayNaAsBlank](../../aspose.cells.charts/chart/displaynaasblank/) { get; set; } | Indicates whether displaying #N/A as blank value. |
+| [DisplayNaAsBlank](../../aspose.cells.charts/chart/displaynaasblank/) { get; set; } | Indicates whether to display #N/A as a blank value. |
 | [Elevation](../../aspose.cells.charts/chart/elevation/) { get; set; } | Represents the elevation of the 3-D chart view, in degrees. |
 | [FilteredNSeries](../../aspose.cells.charts/chart/filterednseries/) { get; } | Gets a [`SeriesCollection`](../seriescollection/) collection representing the data series that are filtered in the chart. |
 | [FirstSliceAngle](../../aspose.cells.charts/chart/firstsliceangle/) { get; set; } | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
@@ -41,7 +41,7 @@ public class Chart
 | [Name](../../aspose.cells.charts/chart/name/) { get; set; } | Gets and sets the name of the chart. |
 | [NSeries](../../aspose.cells.charts/chart/nseries/) { get; } | Gets a [`SeriesCollection`](../seriescollection/) collection representing the data series in the chart. |
 | [PageSetup](../../aspose.cells.charts/chart/pagesetup/) { get; } | Represents the page setup description in this chart. |
-| [Perspective](../../aspose.cells.charts/chart/perspective/) { get; set; } | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
+| [Perspective](../../aspose.cells.charts/chart/perspective/) { get; set; } | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [PivotOptions](../../aspose.cells.charts/chart/pivotoptions/) { get; } | Specifies the pivot controls that appear on the chart |
 | [PivotSource](../../aspose.cells.charts/chart/pivotsource/) { get; set; } | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
 | [Placement](../../aspose.cells.charts/chart/placement/) { get; set; } | Represents the way the chart is attached to the cells below it. |
@@ -62,7 +62,7 @@ public class Chart
 | [SideWall](../../aspose.cells.charts/chart/sidewall/) { get; } | Returns a [`Walls`](./walls/) object that represents the side wall of a 3-D chart. |
 | [SizeWithWindow](../../aspose.cells.charts/chart/sizewithwindow/) { get; set; } | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
 | [Style](../../aspose.cells.charts/chart/style/) { get; set; } | Gets and sets the builtin style. |
-| [SubTitle](../../aspose.cells.charts/chart/subtitle/) { get; } | Gets the chart's sub-title. Only for ODS format file. |
+| [SubTitle](../../aspose.cells.charts/chart/subtitle/) { get; } | Gets the chart's sub-title. Only applies to ODS files. |
 | [Title](../../aspose.cells.charts/chart/title/) { get; } | Gets the chart's title. |
 | [Type](../../aspose.cells.charts/chart/type/) { get; set; } | Gets or sets a chart's type. |
 | [ValueAxis](../../aspose.cells.charts/chart/valueaxis/) { get; } | Gets the chart's Y axis. |
@@ -74,15 +74,15 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [Calculate](../../aspose.cells.charts/chart/calculate/#calculate)() | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [Calculate](../../aspose.cells.charts/chart/calculate/#calculate)() | Calculates the custom positions of the plot area and axes if their positions are auto-assigned. |
 | [Calculate](../../aspose.cells.charts/chart/calculate/#calculate_1)(ChartCalculateOptions) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
-| [ChangeTemplate](../../aspose.cells.charts/chart/changetemplate/)(byte[]) | Change chart type with preset template. |
+| [ChangeTemplate](../../aspose.cells.charts/chart/changetemplate/)(byte[]) | Change chart type with a preset template. |
 | [GetActualSize](../../aspose.cells.charts/chart/getactualsize/)() | Gets actual size of chart in unit of pixels. |
 | [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange/)() | Gets the data source range of the chart. |
 | [HasAxis](../../aspose.cells.charts/chart/hasaxis/)(AxisType, bool) | Returns which axes exist on the chart. |
 | [IsCellReferedByChart](../../aspose.cells.charts/chart/iscellreferedbychart/)(int, int, int) | Returns whether the cell refered by the chart. |
 | [IsChartDataChanged](../../aspose.cells.charts/chart/ischartdatachanged/)() | Detects if a chart's data source has changed. |
-| [IsReferedByChart](../../aspose.cells.charts/chart/isreferedbychart/)(int, int) | (**Obsolete.**) Returns whether the cell refered by the chart. |
+| [IsReferedByChart](../../aspose.cells.charts/chart/isreferedbychart/)(int, int) | (**Obsolete.**) Returns whether the cell is referred by the chart. |
 | [Move](../../aspose.cells.charts/chart/move/)(int, int, int, int) | Moves the chart to a specified location. |
 | [RefreshPivotData](../../aspose.cells.charts/chart/refreshpivotdata/)() | Refreshes chart's data from pivot table. |
 | [SetChartDataRange](../../aspose.cells.charts/chart/setchartdatarange/)(string, bool) | Specifies data range for a chart. |
@@ -98,7 +98,7 @@ public class Chart
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_8)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_7)(string, ImageType) | Creates the chart image and saves it to a file in the specified image type. |
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_9)(string, long) | (**Obsolete.**) Creates the chart image and saves it to a file in the Jpeg format. |
-| [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
+| [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf)(Stream) | Creates the chart PDF and saves it to a stream. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf_2)(string) | Saves the chart to a pdf file. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf_1)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf_3)(string, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Saves the chart to a pdf file. |

@@ -22,28 +22,28 @@ public class PlotArea : ChartFrame
 | [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.(Inherited from [`ChartFrame`](../chartframe/).) |
 | virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Gets the [`border`](../../aspose.cells.drawing/line/).(Inherited from [`ChartFrame`](../chartframe/).) |
-| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents height of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of the default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents height of the default position in units of the fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolete.**) Represents width of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | Represents width of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolete.**) Represents x of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | Represents x of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) Represents y of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Represents y of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) Represents the y of the default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Represents y of the default position in units of the fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | virtual [Font](../../aspose.cells.charts/chartframe/font/) { get; } | Gets a [`Font`](../chartframe/font/) object of the specified ChartFrame object.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [Height](../../aspose.cells.charts/plotarea/height/) { get; set; } | (**Obsolete.**) Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Gets or sets the height of frame in units of Pixel.(Inherited from [`ChartFrame`](../chartframe/).) |
-| override [HeightRatioToChart](../../aspose.cells.charts/plotarea/heightratiotochart/) { get; set; } | Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area. |
+| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Gets or sets the height of the frame in units of pixels.(Inherited from [`ChartFrame`](../chartframe/).) |
+| override [HeightRatioToChart](../../aspose.cells.charts/plotarea/heightratiotochart/) { get; set; } | Gets or sets the height of the plot area bounding box in units of the ratio of the chart area. |
 | [InnerHeight](../../aspose.cells.charts/plotarea/innerheight/) { get; set; } | (**Obsolete.**) Gets or sets the height of the plot area in units of 1/4000 of the chart area. |
 | [InnerHeightRatioToChart](../../aspose.cells.charts/plotarea/innerheightratiotochart/) { get; set; } | Gets or sets the height of plot area in units of ratio of the chart area. |
 | [InnerWidth](../../aspose.cells.charts/plotarea/innerwidth/) { get; set; } | (**Obsolete.**) Gets or sets the width of plot area in units of 1/4000 of the chart area. |
 | [InnerWidthRatioToChart](../../aspose.cells.charts/plotarea/innerwidthratiotochart/) { get; set; } | Gets or sets the width of the plot area in units of the ratio of the chart area. |
 | [InnerX](../../aspose.cells.charts/plotarea/innerx/) { get; set; } | (**Obsolete.**) Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [InnerXRatioToChart](../../aspose.cells.charts/plotarea/innerxratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
-| [InnerY](../../aspose.cells.charts/plotarea/innery/) { get; set; } | (**Obsolete.**) Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [InnerY](../../aspose.cells.charts/plotarea/innery/) { get; set; } | (**Obsolete.**) Gets or sets the x coordinate of the upper top corner of the plot area in units of 1/4000 of the chart area. |
 | [InnerYRatioToChart](../../aspose.cells.charts/plotarea/inneryratiotochart/) { get; set; } | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
 | override [IsAutomaticSize](../../aspose.cells.charts/plotarea/isautomaticsize/) { get; set; } | Indicates whether the plot area is automatically sized. |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | Gets the [`ShapeProperties`](../chartframe/shapeproperties/) object.(Inherited from [`ChartFrame`](../chartframe/).) |
@@ -56,7 +56,7 @@ public class PlotArea : ChartFrame
 | virtual [XPixel](../../aspose.cells.charts/chartframe/xpixel/) { get; set; } | Gets or sets the x coordinate of the upper left corner in units of Pixel.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [XRatioToChart](../../aspose.cells.charts/plotarea/xratiotochart/) { get; set; } | Gets or sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area. |
 | override [Y](../../aspose.cells.charts/plotarea/y/) { get; set; } | (**Obsolete.**) Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area. |
-| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | Gets or sets the y coordinate of the upper left corner in units of Pixel.(Inherited from [`ChartFrame`](../chartframe/).) |
+| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | Gets or sets the y coordinate of the upper left corner in units of pixels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [YRatioToChart](../../aspose.cells.charts/plotarea/yratiotochart/) { get; set; } | Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 
 ## Methods

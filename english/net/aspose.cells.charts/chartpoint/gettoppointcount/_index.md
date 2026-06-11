@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.GetTopPointCount
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint method. Gets the number of top points after calls Chart.Calculate method
+description: ChartPoint method. Gets the number of top points after calling the Chart.Calculate method
 type: docs
 url: /net/aspose.cells.charts/chartpoint/gettoppointcount/
 ---
 ## ChartPoint.GetTopPointCount method
 
-Gets the number of top points after calls Chart.Calculate() method.
+Gets the number of top points after calling the Chart.Calculate() method.
 
 ```csharp
 public int GetTopPointCount()

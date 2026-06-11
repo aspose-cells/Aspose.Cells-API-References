@@ -1,13 +1,13 @@
 ---
 title: Walls.HeightPx
 second_title: Aspose.Cells for .NET API Reference
-description: Walls property. Gets the height of top to bottom in units of pixels after calls Chart.Calculate method
+description: Walls property. Gets the height from top to bottom in units of pixels after calling the Chart.Calculate method
 type: docs
 url: /net/aspose.cells.charts/walls/heightpx/
 ---
 ## Walls.HeightPx property
 
-Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+Gets the height from top to bottom in units of pixels after calling the Chart.Calculate() method.
 
 ```csharp
 public int HeightPx { get; }

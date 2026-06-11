@@ -1,10 +1,86 @@
 ---
 title: Cells.ImportData
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Import data from custom data table
+description: Cells method. Imports data from a IDataReader object
 type: docs
 url: /net/aspose.cells/cells/importdata/
 ---
+## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
+
+Imports data from a IDataReader object.
+
+```csharp
+public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| reader | IDataReader | The IDataReader object which contains data. |
+| firstRow | Int32 | The row number of the first cell to import in. |
+| firstColumn | Int32 | The column number of the first cell to import in. |
+| options | ImportTableOptions | The options of importing table. |
+
+### Return Value
+
+Total number of rows imported.
+
+### Examples
+
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportDataWithIDataReaderInt32Int32ImportTabDemo
+    {
+        public static void Run()
+        {
+            // Create a sample DataTable
+            DataTable dt = new DataTable("TestData");
+            dt.Columns.Add("Column1", typeof(string));
+            dt.Columns.Add("Column2", typeof(int));
+            dt.Columns.Add("Column3", typeof(DateTime));
+            
+            // Add sample data
+            dt.Rows.Add("Data1", 100, DateTime.Now);
+            dt.Rows.Add("Data2", 200, DateTime.Now.AddDays(1));
+            dt.Rows.Add("Data3", 300, DateTime.Now.AddDays(2));
+
+            // Create DataTableReader
+            DataTableReader reader = dt.CreateDataReader();
+
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set import options
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFieldNameShown = true;
+            options.InsertRows = true;
+            options.ConvertNumericData = true;
+            options.DateFormat = "MM/dd/yyyy";
+
+            // Import data starting at row 5, column 0
+            int rowsImported = worksheet.Cells.ImportData(reader, 5, 0, options);
+
+            // Save the workbook
+            workbook.Save("ImportDataOutput.xlsx");
+        }
+    }
+}
+```
+
+### See Also
+
+* class [ImportTableOptions](../../importtableoptions/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ImportData(ICellsDataTable, int, int, ImportTableOptions) {#importdata}
 
 Import data from custom data table.
@@ -286,82 +362,6 @@ namespace AsposeCellsExamples
 
 ### See Also
 
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
-
-Imports data from a IDataReader object.
-
-```csharp
-public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| reader | IDataReader | The IDataReader object which contains data. |
-| firstRow | Int32 | The row number of the first cell to import in. |
-| firstColumn | Int32 | The column number of the first cell to import in. |
-| options | ImportTableOptions | The options of importing table. |
-
-### Return Value
-
-Total number of rows imported.
-
-### Examples
-
-```csharp
-using System;
-using System.Data;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class CellsMethodImportDataWithIDataReaderInt32Int32ImportTabDemo
-    {
-        public static void Run()
-        {
-            // Create a sample DataTable
-            DataTable dt = new DataTable("TestData");
-            dt.Columns.Add("Column1", typeof(string));
-            dt.Columns.Add("Column2", typeof(int));
-            dt.Columns.Add("Column3", typeof(DateTime));
-            
-            // Add sample data
-            dt.Rows.Add("Data1", 100, DateTime.Now);
-            dt.Rows.Add("Data2", 200, DateTime.Now.AddDays(1));
-            dt.Rows.Add("Data3", 300, DateTime.Now.AddDays(2));
-
-            // Create DataTableReader
-            DataTableReader reader = dt.CreateDataReader();
-
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Set import options
-            ImportTableOptions options = new ImportTableOptions();
-            options.IsFieldNameShown = true;
-            options.InsertRows = true;
-            options.ConvertNumericData = true;
-            options.DateFormat = "MM/dd/yyyy";
-
-            // Import data starting at row 5, column 0
-            int rowsImported = worksheet.Cells.ImportData(reader, 5, 0, options);
-
-            // Save the workbook
-            workbook.Save("ImportDataOutput.xlsx");
-        }
-    }
-}
-```
-
-### See Also
-
-* class [ImportTableOptions](../../importtableoptions/)
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

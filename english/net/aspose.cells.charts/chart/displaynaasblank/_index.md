@@ -1,13 +1,13 @@
 ---
 title: Chart.DisplayNaAsBlank
 second_title: Aspose.Cells for .NET API Reference
-description: Chart property. Indicates whether displaying N/A as blank value
+description: Chart property. Indicates whether to display N/A as a blank value
 type: docs
 url: /net/aspose.cells.charts/chart/displaynaasblank/
 ---
 ## Chart.DisplayNaAsBlank property
 
-Indicates whether displaying #N/A as blank value.
+Indicates whether to display #N/A as a blank value.
 
 ```csharp
 public bool DisplayNaAsBlank { get; set; }

@@ -55,8 +55,10 @@ public class Slicer
 | Name | Description |
 | --- | --- |
 | [AddPivotConnection](../../aspose.cells.slicers/slicer/addpivotconnection/)(PivotTable) | Adds PivotTable connection. |
-| [Refresh](../../aspose.cells.slicers/slicer/refresh/)() | Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. |
+| [ClearFilter](../../aspose.cells.slicers/slicer/clearfilter/)() | Remove filters |
+| [Refresh](../../aspose.cells.slicers/slicer/refresh/)() | Refreshing the items of the slicer from the associated pivot tables. |
 | [RemovePivotConnection](../../aspose.cells.slicers/slicer/removepivotconnection/)(PivotTable) | Removes PivotTable connection. |
+| [SelectItems](../../aspose.cells.slicers/slicer/selectitems/)(string[], bool) |  |
 
 ### Examples
 

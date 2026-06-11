@@ -1,13 +1,13 @@
 ---
 title: TrendlineCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: TrendlineCollection method. Adds a Trendline object to this collection with specified type
+description: TrendlineCollection method. Adds a Trendline object to this collection with the specified type
 type: docs
 url: /net/aspose.cells.charts/trendlinecollection/add/
 ---
 ## Add(TrendlineType) {#add}
 
-Adds a [`Trendline`](../../trendline/) object to this collection with specified type.
+Adds a [`Trendline`](../../trendline/) object to this collection with the specified type.
 
 ```csharp
 public int Add(TrendlineType type)

@@ -1,13 +1,13 @@
 ---
 title: Class Axis
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.Axis class. Encapsulates the object that represents an axis of chart
+description: Aspose.Cells.Charts.Axis class. Encapsulates the object that represents an axis of a chart
 type: docs
 url: /net/aspose.cells.charts/axis/
 ---
 ## Axis class
 
-Encapsulates the object that represents an axis of chart.
+Encapsulates the object that represents an axis of a chart.
 
 ```csharp
 public class Axis

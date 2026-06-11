@@ -1,13 +1,13 @@
 ---
 title: ChartArea.XRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: ChartArea property. Gets or gets the horizontal offset from its upper left corner column in units of ratio of the chart area
+description: ChartArea property. Gets or sets the horizontal offset from the upperleft corner column as a ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartarea/xratiotochart/
 ---
 ## ChartArea.XRatioToChart property
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 ```csharp
 public override double XRatioToChart { get; set; }

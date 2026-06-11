@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.HeightPixel
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Gets or sets the height of frame in units of Pixel
+description: ChartFrame property. Gets or sets the height of the frame in units of pixels
 type: docs
 url: /net/aspose.cells.charts/chartframe/heightpixel/
 ---
 ## ChartFrame.HeightPixel property
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```csharp
 public virtual int HeightPixel { get; set; }

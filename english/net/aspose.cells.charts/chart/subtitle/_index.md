@@ -1,13 +1,13 @@
 ---
 title: Chart.SubTitle
 second_title: Aspose.Cells for .NET API Reference
-description: Chart property. Gets the charts subtitle. Only for ODS format file
+description: Chart property. Gets the charts subtitle. Only applies to ODS files
 type: docs
 url: /net/aspose.cells.charts/chart/subtitle/
 ---
 ## Chart.SubTitle property
 
-Gets the chart's sub-title. Only for ODS format file.
+Gets the chart's sub-title. Only applies to ODS files.
 
 ```csharp
 public Title SubTitle { get; }

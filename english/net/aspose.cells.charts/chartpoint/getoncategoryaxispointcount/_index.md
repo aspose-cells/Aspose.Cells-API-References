@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.GetOnCategoryAxisPointCount
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint method. Gets the number of the points on category axis after calls Chart.Calculate method. Only applies to area chart
+description: ChartPoint method. Gets the number of the points on the category axis after calling the Chart.Calculate method. Only applies to area charts
 type: docs
 url: /net/aspose.cells.charts/chartpoint/getoncategoryaxispointcount/
 ---
 ## ChartPoint.GetOnCategoryAxisPointCount method
 
-Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart.
+Gets the number of the points on the category axis after calling the Chart.Calculate() method. Only applies to area charts.
 
 ```csharp
 public int GetOnCategoryAxisPointCount()

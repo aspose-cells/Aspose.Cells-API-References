@@ -1,13 +1,13 @@
 ---
 title: Walls.GetCubePointXPx
 second_title: Aspose.Cells for .NET API Reference
-description: Walls method. Gets xcoordinate of the apex point of walls cube after calls Chart.Calculate method. The number of apex points of walls cube is eight
+description: Walls method. Gets xcoordinate of the apex point of walls cube after calling the Chart.Calculate method. The number of apex points of walls cube is eight
 type: docs
 url: /net/aspose.cells.charts/walls/getcubepointxpx/
 ---
 ## Walls.GetCubePointXPx method
 
-Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight
+Gets x-coordinate of the apex point of walls cube after calling the Chart.Calculate() method. The number of apex points of walls cube is eight
 
 ```csharp
 public float GetCubePointXPx(int index)

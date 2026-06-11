@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.HeightRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Gets or sets the height of frame in units of ratio of the chart area
+description: ChartFrame property. Gets or sets the height of the frame in units of the ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartframe/heightratiotochart/
 ---
 ## ChartFrame.HeightRatioToChart property
 
-Gets or sets the height of frame in units of ratio of the chart area.
+Gets or sets the height of the frame in units of the ratio of the chart area.
 
 ```csharp
 public virtual double HeightRatioToChart { get; set; }

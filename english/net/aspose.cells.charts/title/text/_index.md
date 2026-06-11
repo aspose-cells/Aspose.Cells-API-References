@@ -1,13 +1,13 @@
 ---
 title: Title.Text
 second_title: Aspose.Cells for .NET API Reference
-description: Title property. Gets or sets the text of display unit label
+description: Title property. Gets or sets the text of the display unit label
 type: docs
 url: /net/aspose.cells.charts/title/text/
 ---
 ## Title.Text property
 
-Gets or sets the text of display unit label.
+Gets or sets the text of the display unit label.
 
 ```csharp
 public override string Text { get; set; }

@@ -17,7 +17,13 @@ public class PowerQueryFormulaItem
 
 | Name | Description |
 | --- | --- |
+| [IsFunction](../../aspose.cells.querytables/powerqueryformulaitem/isfunction/) { get; } | Gets whether this item is a function. |
+| [IsList](../../aspose.cells.querytables/powerqueryformulaitem/islist/) { get; } | Gets whether this item is a list. |
+| [IsLiteral](../../aspose.cells.querytables/powerqueryformulaitem/isliteral/) { get; } | Gets whether this item is a literal value. |
+| [IsParameter](../../aspose.cells.querytables/powerqueryformulaitem/isparameter/) { get; } | Gets whether this item is a parameter. |
+| [ItemType](../../aspose.cells.querytables/powerqueryformulaitem/itemtype/) { get; } | Gets the type of this item (Function, Parameter, List, Literal, or Unknown). |
 | [Name](../../aspose.cells.querytables/powerqueryformulaitem/name/) { get; } | Gets the name of the item. |
+| [TextValue](../../aspose.cells.querytables/powerqueryformulaitem/textvalue/) { get; } | Gets the text value of the item. |
 | [Value](../../aspose.cells.querytables/powerqueryformulaitem/value/) { get; set; } | Gets the value of the item. |
 
 ### Examples

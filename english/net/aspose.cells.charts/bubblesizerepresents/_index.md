@@ -17,7 +17,7 @@ public enum BubbleSizeRepresents
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SizeIsArea | `0` | Represents the value of [`BubbleSizes`](../series/bubblesizes/) is area of the bubble. |
+| SizeIsArea | `0` | Represents the value of [`BubbleSizes`](../series/bubblesizes/), which is the area of the bubble. |
 | SizeIsWidth | `1` | Represents the value of [`BubbleSizes`](../series/bubblesizes/) is width of the bubble. |
 
 ### Examples

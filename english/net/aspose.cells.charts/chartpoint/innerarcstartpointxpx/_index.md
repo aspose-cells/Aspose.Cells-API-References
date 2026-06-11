@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.InnerArcStartPointXPx
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint property. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate method. Applies to Doughnut chart
+description: ChartPoint property. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate method. Applies to the Doughnut chart
 type: docs
 url: /net/aspose.cells.charts/chartpoint/innerarcstartpointxpx/
 ---
 ## ChartPoint.InnerArcStartPointXPx property
 
-Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart.
+Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to the Doughnut chart.
 
 ```csharp
 public float InnerArcStartPointXPx { get; }

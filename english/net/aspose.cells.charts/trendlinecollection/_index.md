@@ -26,7 +26,7 @@ public class TrendlineCollection : CollectionBase<Trendline>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.charts/trendlinecollection/add/#add)(TrendlineType) | Adds a [`Trendline`](../trendline/) object to this collection with specified type. |
+| [Add](../../aspose.cells.charts/trendlinecollection/add/#add)(TrendlineType) | Adds a [`Trendline`](../trendline/) object to this collection with the specified type. |
 | [Add](../../aspose.cells.charts/trendlinecollection/add/#add_1)(TrendlineType, string) | Adds a [`Trendline`](../trendline/) object to this collection with specified type and name. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Trendline) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Trendline, IComparer&lt;Trendline&gt;) |  |

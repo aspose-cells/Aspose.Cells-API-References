@@ -1,13 +1,13 @@
 ---
 title: TickLabels.Offset
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabels property. Gets and sets the distance of labels from the category axis. Only for category x axis
+description: TickLabels property. Gets and sets the distance of labels from the category axis. This applies only to the category x axis
 type: docs
 url: /net/aspose.cells.charts/ticklabels/offset/
 ---
 ## TickLabels.Offset property
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```csharp
 public int Offset { get; set; }

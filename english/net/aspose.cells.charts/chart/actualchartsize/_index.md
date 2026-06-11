@@ -1,13 +1,13 @@
 ---
 title: Chart.ActualChartSize
 second_title: Aspose.Cells for .NET API Reference
-description: Chart property. Gets actual size of chart in unit of pixels
+description: Chart property. Gets actual size of chart in units of pixels
 type: docs
 url: /net/aspose.cells.charts/chart/actualchartsize/
 ---
 ## Chart.ActualChartSize property
 
-Gets actual size of chart in unit of pixels.
+Gets actual size of chart in units of pixels.
 
 ```csharp
 [Obsolete("Use Chart.GetActualSize() method instead.")]

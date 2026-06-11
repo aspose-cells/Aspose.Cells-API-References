@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.InnerArcEndPointXPx
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint property. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate method. Applies to Doughnut chart
+description: ChartPoint property. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate method. Applies to Doughnut charts
 type: docs
 url: /net/aspose.cells.charts/chartpoint/innerarcendpointxpx/
 ---
 ## ChartPoint.InnerArcEndPointXPx property
 
-Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart.
+Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Doughnut charts.
 
 ```csharp
 public float InnerArcEndPointXPx { get; }

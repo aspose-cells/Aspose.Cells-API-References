@@ -1,13 +1,13 @@
 ---
 title: ChartArea.Height
 second_title: Aspose.Cells for .NET API Reference
-description: ChartArea property. Gets or sets the vertical offset from its lower right corner row in units of 1/4000 of the chart area
+description: ChartArea property. Gets or sets the vertical offset from its lowerright corner row in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartarea/height/
 ---
 ## ChartArea.Height property
 
-Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use ChartArea.HeightRatioToChart property, instead.")]

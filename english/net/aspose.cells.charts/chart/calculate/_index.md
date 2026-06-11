@@ -1,13 +1,13 @@
 ---
 title: Chart.Calculate
 second_title: Aspose.Cells for .NET API Reference
-description: Chart method. Calculates the custom position of plot area axes if the position of them are auto assigned
+description: Chart method. Calculates the custom positions of the plot area and axes if their positions are autoassigned
 type: docs
 url: /net/aspose.cells.charts/chart/calculate/
 ---
 ## Calculate() {#calculate}
 
-Calculates the custom position of plot area, axes if the position of them are auto assigned.
+Calculates the custom positions of the plot area and axes if their positions are auto-assigned.
 
 ```csharp
 public void Calculate()

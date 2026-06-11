@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.YPixel
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Gets or sets the y coordinate of the upper left corner in units of Pixel
+description: ChartFrame property. Gets or sets the y coordinate of the upper left corner in units of pixels
 type: docs
 url: /net/aspose.cells.charts/chartframe/ypixel/
 ---
 ## ChartFrame.YPixel property
 
-Gets or sets the y coordinate of the upper left corner in units of Pixel.
+Gets or sets the y coordinate of the upper left corner in units of pixels.
 
 ```csharp
 public virtual int YPixel { get; set; }

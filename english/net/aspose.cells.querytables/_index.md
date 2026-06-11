@@ -23,6 +23,7 @@ The **Aspose.Cells.QueryTables** namespace provides classes to access and update
 
 | Enumeration | Description |
 | --- | --- |
+| [PowerQueryFormulaItemType](./powerqueryformulaitemtype/) | Represents the type of a Power Query formula item. |
 | [PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. |
 
 

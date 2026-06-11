@@ -1,13 +1,13 @@
 ---
 title: Marker.MarkerSizePx
 second_title: Aspose.Cells for .NET API Reference
-description: Marker property. Represents the marker size in unit of pixels. Applies to line chart scatter chart or radar chart
+description: Marker property. Represents the marker size in units of pixels. Applies to line charts scatter charts or radar charts
 type: docs
 url: /net/aspose.cells.charts/marker/markersizepx/
 ---
 ## Marker.MarkerSizePx property
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```csharp
 public int MarkerSizePx { get; set; }
