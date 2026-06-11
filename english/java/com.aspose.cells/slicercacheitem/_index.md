@@ -19,12 +19,12 @@ Represent slicer data source item
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSelected()](#getSelected--) | Specifies whether the SlicerItem is selected or not. |
+| [getSelected()](#getSelected--) | Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not. |
 | [getValue()](#getValue--) | Returns the label text for the slicer item. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSelected(boolean value)](#setSelected-boolean-) | Specifies whether the SlicerItem is selected or not. |
+| [setSelected(boolean value)](#setSelected-boolean-) | Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,11 @@ public boolean getSelected()
 ```
 
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not.
+
+**Remarks**
+
+Please use [Slicer.selectItems(String[],boolean)](../../com.aspose.cells/slicer\#selectItems-String---boolean-) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 **Returns:**
 boolean
@@ -106,7 +110,11 @@ public void setSelected(boolean value)
 ```
 
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not.
+
+**Remarks**
+
+Please use [Slicer.selectItems(String[],boolean)](../../com.aspose.cells/slicer\#selectItems-String---boolean-) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 **Parameters:**
 | Parameter | Type | Description |

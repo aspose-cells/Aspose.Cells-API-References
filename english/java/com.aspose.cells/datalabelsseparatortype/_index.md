@@ -22,7 +22,7 @@ Represents the separator type of DataLabels.
 | [CUSTOM](#CUSTOM) | Represents custom separator |
 | [NEW_LINE](#NEW-LINE) | Represents newline("\\n") |
 | [PERIOD](#PERIOD) | Represents period(".") |
-| [SEMICOLON](#SEMICOLON) | Represents semicolon(";") |
+| [SEMICOLON](#SEMICOLON) | Represents a semicolon(";") |
 | [SPACE](#SPACE) | Represents space(" ") |
 ## Methods
 
@@ -83,7 +83,7 @@ public static final int SEMICOLON
 ```
 
 
-Represents semicolon(";")
+Represents a semicolon(";")
 
 ### SPACE {#SPACE}
 ```

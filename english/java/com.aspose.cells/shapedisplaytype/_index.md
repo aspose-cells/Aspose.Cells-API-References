@@ -1,25 +1,25 @@
 ---
-title: TickLabelAlignmentType
+title: ShapeDisplayType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the text alignment type for the tick labels on the axis
+description: Represents how the application displays shapes in this workbook.
 type: docs
-url: /java/com.aspose.cells/ticklabelalignmenttype/
+url: /java/com.aspose.cells/shapedisplaytype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class TickLabelAlignmentType
+public final class ShapeDisplayType
 ```
 
-Represents the text alignment type for the tick labels on the axis
+Represents how the application displays shapes in this workbook. Shapes might include charts, images, and other object data that the application supports.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | Specifies that the text is centered. |
-| [LEFT](#LEFT) | Specifies that the text is left-aligned. |
-| [RIGHT](#RIGHT) | Specifies that the text is right-aligned.. |
+| [ALL](#ALL) | Indicates that all shapes be shown in the workbook. |
+| [NONE](#NONE) | Indicates that all shapes be hidden in the workbook. |
+| [PLACEHOLDERS](#PLACEHOLDERS) | Indicates that the application show placeholders for shapes in the workbook. |
 ## Methods
 
 | Method | Description |
@@ -33,29 +33,29 @@ Represents the text alignment type for the tick labels on the axis
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CENTER {#CENTER}
+### ALL {#ALL}
 ```
-public static final int CENTER
-```
-
-
-Specifies that the text is centered.
-
-### LEFT {#LEFT}
-```
-public static final int LEFT
+public static final int ALL
 ```
 
 
-Specifies that the text is left-aligned.
+Indicates that all shapes be shown in the workbook.
 
-### RIGHT {#RIGHT}
+### NONE {#NONE}
 ```
-public static final int RIGHT
+public static final int NONE
 ```
 
 
-Specifies that the text is right-aligned..
+Indicates that all shapes be hidden in the workbook.
+
+### PLACEHOLDERS {#PLACEHOLDERS}
+```
+public static final int PLACEHOLDERS
+```
+
+
+Indicates that the application show placeholders for shapes in the workbook.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

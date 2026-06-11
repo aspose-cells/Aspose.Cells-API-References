@@ -42,7 +42,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AutoNumberedBulletValue](../com.aspose.cells/autonumberedbulletvalue) | Represents automatic numbered bullet. |
 | [AutoShapeType](../com.aspose.cells/autoshapetype) | Represents all built-in auto shape type. |
 | [AutomaticFill](../com.aspose.cells/automaticfill) | represents automatic fill. |
-| [Axis](../com.aspose.cells/axis) | Encapsulates the object that represents an axis of chart. |
+| [Axis](../com.aspose.cells/axis) | Encapsulates the object that represents an axis of a chart. |
 | [AxisBins](../com.aspose.cells/axisbins) | Represents axis bins |
 | [AxisType](../com.aspose.cells/axistype) | Represents the axis type. |
 | [BackgroundMode](../com.aspose.cells/backgroundmode) | Represents the display mode of the background. |
@@ -217,7 +217,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DrawObject](../com.aspose.cells/drawobject) | DrawObject will be initialized and returned when rendering. |
 | [DrawObjectEnum](../com.aspose.cells/drawobjectenum) | Indicate Cell or Image of DrawObject. |
 | [DrawObjectEventHandler](../com.aspose.cells/drawobjecteventhandler) | Interface to get DrawObject and Bound when rendering. |
-| [DropBars](../com.aspose.cells/dropbars) | Represents the up/down bars in a chart. |
+| [DropBars](../com.aspose.cells/dropbars) | Represents the up and down bars in a chart. |
 | [DropButtonStyle](../com.aspose.cells/dropbuttonstyle) | Represents the symbol displayed on the drop button. |
 | [DxfCollection](../com.aspose.cells/dxfcollection) | Represents the master differential formatting records. |
 | [DynamicFilter](../com.aspose.cells/dynamicfilter) | Represents the dynamic filter. |
@@ -537,12 +537,13 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotArea](../com.aspose.cells/plotarea) | Encapsulates the object that represents the plot area in a chart. |
 | [PlotDataByType](../com.aspose.cells/plotdatabytype) | Represents the type of data plot by row or column. |
-| [PlotEmptyCellsType](../com.aspose.cells/plotemptycellstype) | Represents all plot empty cells type of a chart. |
+| [PlotEmptyCellsType](../com.aspose.cells/plotemptycellstype) | Represents all plot empty cell types of a chart. |
 | [PowerQueryFormula](../com.aspose.cells/powerqueryformula) | Represents the definition of power query formula. |
 | [PowerQueryFormulaCollection](../com.aspose.cells/powerqueryformulacollection) | Represents all power query formulas in the mashup data. |
 | [PowerQueryFormulaFunction](../com.aspose.cells/powerqueryformulafunction) | Represents the function of power query. |
 | [PowerQueryFormulaItem](../com.aspose.cells/powerqueryformulaitem) | Represents the item of the power query formula. |
 | [PowerQueryFormulaItemCollection](../com.aspose.cells/powerqueryformulaitemcollection) | Represents all item of the power query formula. |
+| [PowerQueryFormulaItemType](../com.aspose.cells/powerqueryformulaitemtype) | Represents the type of a Power Query formula item. |
 | [PowerQueryFormulaParameter](../com.aspose.cells/powerqueryformulaparameter) | Represents the parameter of power query formula. |
 | [PowerQueryFormulaParameterCollection](../com.aspose.cells/powerqueryformulaparametercollection) | Represents the parameters of power query formula. |
 | [PowerQueryFormulaType](../com.aspose.cells/powerqueryformulatype) | Represents the type of power query formula. |
@@ -628,6 +629,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Shape](../com.aspose.cells/shape) | Represents the msodrawing object. |
 | [ShapeAnchorType](../com.aspose.cells/shapeanchortype) | Represents the anchor type. |
 | [ShapeCollection](../com.aspose.cells/shapecollection) | Represents all the shape in a worksheet/chart. |
+| [ShapeDisplayType](../com.aspose.cells/shapedisplaytype) | Represents how the application displays shapes in this workbook. |
 | [ShapeGuide](../com.aspose.cells/shapeguide) | Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape |
 | [ShapeGuideCollection](../com.aspose.cells/shapeguidecollection) | Encapsulates a collection of shape guide |
 | [ShapeLockType](../com.aspose.cells/shapelocktype) | Represents type of the property to be locked. |

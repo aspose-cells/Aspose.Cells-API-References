@@ -1,25 +1,27 @@
 ---
-title: TickLabelAlignmentType
+title: PowerQueryFormulaItemType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the text alignment type for the tick labels on the axis
+description: Represents the type of a Power Query formula item.
 type: docs
-url: /java/com.aspose.cells/ticklabelalignmenttype/
+url: /java/com.aspose.cells/powerqueryformulaitemtype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class TickLabelAlignmentType
+public final class PowerQueryFormulaItemType
 ```
 
-Represents the text alignment type for the tick labels on the axis
+Represents the type of a Power Query formula item.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | Specifies that the text is centered. |
-| [LEFT](#LEFT) | Specifies that the text is left-aligned. |
-| [RIGHT](#RIGHT) | Specifies that the text is right-aligned.. |
+| [FUNCTION](#FUNCTION) | The item is a function (contains => arrow). |
+| [LIST](#LIST) | The item is a list (starts with \{). |
+| [LITERAL](#LITERAL) | The item is a literal value (string, number, boolean, null). |
+| [PARAMETER](#PARAMETER) | The item is a parameter. |
+| [UNKNOWN](#UNKNOWN) | Unknown or default type. |
 ## Methods
 
 | Method | Description |
@@ -33,29 +35,45 @@ Represents the text alignment type for the tick labels on the axis
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CENTER {#CENTER}
+### FUNCTION {#FUNCTION}
 ```
-public static final int CENTER
-```
-
-
-Specifies that the text is centered.
-
-### LEFT {#LEFT}
-```
-public static final int LEFT
+public static final int FUNCTION
 ```
 
 
-Specifies that the text is left-aligned.
+The item is a function (contains => arrow).
 
-### RIGHT {#RIGHT}
+### LIST {#LIST}
 ```
-public static final int RIGHT
+public static final int LIST
 ```
 
 
-Specifies that the text is right-aligned..
+The item is a list (starts with \{).
+
+### LITERAL {#LITERAL}
+```
+public static final int LITERAL
+```
+
+
+The item is a literal value (string, number, boolean, null).
+
+### PARAMETER {#PARAMETER}
+```
+public static final int PARAMETER
+```
+
+
+The item is a parameter.
+
+### UNKNOWN {#UNKNOWN}
+```
+public static final int UNKNOWN
+```
+
+
+Unknown or default type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

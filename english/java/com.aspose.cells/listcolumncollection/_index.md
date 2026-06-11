@@ -30,7 +30,7 @@ Represents a list of all the [ListColumn](../../com.aspose.cells/listcolumn) obj
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [removeAt(int index)](#removeAt-int-) | Remove [ListColumn](../../com.aspose.cells/listcolumn) by index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -195,12 +195,12 @@ public void removeAt(int index)
 ```
 
 
-Removes the item at the specified index.
+Remove [ListColumn](../../com.aspose.cells/listcolumn) by index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
+| index | int | The index. |
 
 ### toString() {#toString--}
 ```

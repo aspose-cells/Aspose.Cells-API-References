@@ -24,7 +24,7 @@ Represents the filter of [PivotArea](../../com.aspose.cells/pivotarea) for [Pivo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFieldIndex()](#getFieldIndex--) | Gets the index of the field to which this filter refers. |
+| [getFieldIndex()](#getFieldIndex--) | Gets the index of the field which this filter refers to. |
 | [getSelected()](#getSelected--) | Indicates whether this field has selection. |
 | [hashCode()](#hashCode--) |  |
 | [isSubtotalSet(int subtotalType)](#isSubtotalSet-int-) | Gets which subtotal is set for this filter. |
@@ -73,7 +73,7 @@ public int getFieldIndex()
 ```
 
 
-Gets the index of the field to which this filter refers. A value of -2 indicates the values field.
+Gets the index of the field which this filter refers to. A value of -2 indicates the values field.
 
 **Returns:**
 int

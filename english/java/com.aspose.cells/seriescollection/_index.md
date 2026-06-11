@@ -87,7 +87,7 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [setCategoryData(String value)](#setCategoryData-java.lang.String-) | Sets the range of category Axis values. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
 | [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | Sets the range of second category Axis values. |
-| [setSeriesNames(int startIndex, String area, boolean isVertical)](#setSeriesNames-int-java.lang.String-boolean-) | Sets the name of all the serieses in the chart. |
+| [setSeriesNames(int startIndex, String area, boolean isVertical)](#setSeriesNames-int-java.lang.String-boolean-) | Sets the names of all the series in the chart. |
 | [swapSeries(int sourceIndex, int destIndex)](#swapSeries-int-int-) | Directly changes the orders of the two series. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -273,7 +273,7 @@ public String getCategoryData()
 ```
 
 
-Gets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
+Gets the range of category Axis values. It can be a range of cells (such as "d1:e10") or a sequence of values (such as "\{2,6,8,10\}").
 
 **Returns:**
 java.lang.String
@@ -406,7 +406,7 @@ public void setCategoryData(String value)
 ```
 
 
-Sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
+Sets the range of category Axis values. It can be a range of cells (such as "d1:e10") or a sequence of values (such as "\{2,6,8,10\}").
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ public void setSeriesNames(int startIndex, String area, boolean isVertical)
 ```
 
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 **Remarks**
 

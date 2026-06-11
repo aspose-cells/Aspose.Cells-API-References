@@ -50,19 +50,19 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
-| [getDefaultHeight()](#getDefaultHeight--) | Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of default position in units of Fraction of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--) | Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultY()](#getDefaultY--) | Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
 | [getFont()](#getFont--) | Gets the font of the DataLabels; |
-| [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
-| [getHeightPixel()](#getHeightPixel--) | Gets the height of frame in units of Pixel. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of frame in units of ratio of the chart area. |
+| [getHeight()](#getHeight--) | Gets the height of the frame in units of 1/4000 of the chart area. |
+| [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the frame in units of the ratio of the chart area. |
 | [getLinkedSource()](#getLinkedSource--) | Gets a reference to the worksheet. |
 | [getNumber()](#getNumber--) | Gets the built-in number format. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the DataLabels object. |
@@ -77,12 +77,12 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getShapeType()](#getShapeType--) | Gets shape type of data label. |
 | [getShowBubbleSize()](#getShowBubbleSize--) | Represents a specified chart's data label percentage value display behavior. |
 | [getShowCategoryName()](#getShowCategoryName--) | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. |
-| [getShowCellRange()](#getShowCellRange--) | Indicates whether showing cell range as the data labels. |
+| [getShowCellRange()](#getShowCellRange--) | Indicates whether to show cell range as the data labels. |
 | [getShowLegendKey()](#getShowLegendKey--) | Represents a specified chart's data label legend key display behavior. |
 | [getShowPercentage()](#getShowPercentage--) | Represents a specified chart's data label percentage value display behavior. |
-| [getShowSeriesName()](#getShowSeriesName--) | Indicates whether the series name displays for the data labels on a chart. |
+| [getShowSeriesName()](#getShowSeriesName--) | Indicates whether the series name displays on the data labels on a chart. |
 | [getShowValue()](#getShowValue--) | Represents a specified chart's data label values display behavior. |
-| [getText()](#getText--) | Gets the text of data label. |
+| [getText()](#getText--) | Gets the text of the data label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment. |
@@ -95,16 +95,16 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getXPixel()](#getXPixel--) | Gets the x coordinate of the upper left corner in units of Pixel. |
 | [getXRatioToChart()](#getXRatioToChart--) | Gets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of Pixel. |
-| [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of pixels. |
+| [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data label is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
-| [isNeverOverlap()](#isNeverOverlap--) | Indicates whether datalabels never overlap when performing Pie Chart to image. |
+| [isNeverOverlap()](#isNeverOverlap--) | Indicates whether Datalabels never overlap when performing a Pie Chart to image. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
@@ -116,12 +116,12 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data label is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
-| [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
-| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of frame in units of ratio of the chart area. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the frame in units of 1/4000 of the chart area. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of the frame in units of pixels. |
+| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of the frame in units of the ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Sets a reference to the worksheet. |
-| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) | Indicates whether datalabels never overlap when performing Pie Chart to image. |
+| [setNeverOverlap(boolean value)](#setNeverOverlap-boolean-) | Indicates whether Datalabels never overlap when performing a Pie Chart to image. |
 | [setNumber(int value)](#setNumber-int-) | Sets the built-in number format. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the DataLabels object. |
 | [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
@@ -136,12 +136,12 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setShapeType(int value)](#setShapeType-int-) | Sets shape type of data label. |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean-) | Represents a specified chart's data label percentage value display behavior. |
 | [setShowCategoryName(boolean value)](#setShowCategoryName-boolean-) | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. |
-| [setShowCellRange(boolean value)](#setShowCellRange-boolean-) | Indicates whether showing cell range as the data labels. |
+| [setShowCellRange(boolean value)](#setShowCellRange-boolean-) | Indicates whether to show cell range as the data labels. |
 | [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | Represents a specified chart's data label legend key display behavior. |
 | [setShowPercentage(boolean value)](#setShowPercentage-boolean-) | Represents a specified chart's data label percentage value display behavior. |
-| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Indicates whether the series name displays for the data labels on a chart. |
+| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Indicates whether the series name displays on the data labels on a chart. |
 | [setShowValue(boolean value)](#setShowValue-boolean-) | Represents a specified chart's data label values display behavior. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the text of data label. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the data label. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
 | [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment. |
 | [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Sets the text vertical alignment of text. |
@@ -153,8 +153,8 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setXPixel(int value)](#setXPixel-int-) | Sets the x coordinate of the upper left corner in units of Pixel. |
 | [setXRatioToChart(double value)](#setXRatioToChart-double-) | Sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [setY(int value)](#setY-int-) | Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of Pixel. |
-| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of pixels. |
+| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -282,7 +282,7 @@ public int getDefaultHeight()
 ```
 
 
-Represents height of default position in units of 1/4000 of the chart area.
+Represents height of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -296,7 +296,7 @@ public double getDefaultHeightRatioToChart()
 ```
 
 
-Represents height of default position in units of Fraction of the chart area.
+Represents height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -354,7 +354,7 @@ public int getDefaultY()
 ```
 
 
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -368,7 +368,7 @@ public double getDefaultYRatioToChart()
 ```
 
 
-Represents y of default position in units of Fraction of the chart area.
+Represents y of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -400,7 +400,7 @@ public int getHeight()
 ```
 
 
-Gets the height of frame in units of 1/4000 of the chart area.
+Gets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -414,7 +414,7 @@ public int getHeightPixel()
 ```
 
 
-Gets the height of frame in units of Pixel.
+Gets the height of the frame in units of pixels.
 
 **Returns:**
 int
@@ -424,7 +424,7 @@ public double getHeightRatioToChart()
 ```
 
 
-Gets the height of frame in units of ratio of the chart area.
+Gets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -586,7 +586,7 @@ public boolean getShowBubbleSize()
 ```
 
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 **Returns:**
 boolean
@@ -606,7 +606,7 @@ public boolean getShowCellRange()
 ```
 
 
-Indicates whether showing cell range as the data labels.
+Indicates whether to show cell range as the data labels.
 
 **Returns:**
 boolean
@@ -636,7 +636,7 @@ public boolean getShowSeriesName()
 ```
 
 
-Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide.
 
 **Returns:**
 boolean
@@ -656,7 +656,7 @@ public String getText()
 ```
 
 
-Gets the text of data label.
+Gets the text of the data label.
 
 **Remarks**
 
@@ -824,7 +824,7 @@ public int getYPixel()
 ```
 
 
-Gets the y coordinate of the upper left corner in units of Pixel.
+Gets the y coordinate of the upper left corner in units of pixels.
 
 **Returns:**
 int
@@ -834,7 +834,7 @@ public double getYRatioToChart()
 ```
 
 
-Gets the y coordinate of the upper left corner in units of ratio of the chart area.
+Gets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -888,7 +888,7 @@ public boolean isDefaultPosBeSet()
 ```
 
 
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean
@@ -922,7 +922,7 @@ public boolean isNeverOverlap()
 ```
 
 
-Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
+Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image.
 
 **Returns:**
 boolean
@@ -1069,7 +1069,7 @@ public void setHeight(int value)
 ```
 
 
-Sets the height of frame in units of 1/4000 of the chart area.
+Sets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -1086,7 +1086,7 @@ public void setHeightPixel(int value)
 ```
 
 
-Sets the height of frame in units of Pixel.
+Sets the height of the frame in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1099,7 +1099,7 @@ public void setHeightRatioToChart(double value)
 ```
 
 
-Sets the height of frame in units of ratio of the chart area.
+Sets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -1146,7 +1146,7 @@ public void setNeverOverlap(boolean value)
 ```
 
 
-Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
+Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1338,7 +1338,7 @@ public void setShowBubbleSize(boolean value)
 ```
 
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1364,7 +1364,7 @@ public void setShowCellRange(boolean value)
 ```
 
 
-Indicates whether showing cell range as the data labels.
+Indicates whether to show cell range as the data labels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1403,7 +1403,7 @@ public void setShowSeriesName(boolean value)
 ```
 
 
-Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1429,7 +1429,7 @@ public void setText(String value)
 ```
 
 
-Sets the text of data label.
+Sets the text of the data label.
 
 **Remarks**
 
@@ -1619,7 +1619,7 @@ public void setYPixel(int value)
 ```
 
 
-Sets the y coordinate of the upper left corner in units of Pixel.
+Sets the y coordinate of the upper left corner in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1632,7 +1632,7 @@ public void setYRatioToChart(double value)
 ```
 
 
-Sets the y coordinate of the upper left corner in units of ratio of the chart area.
+Sets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 **Remarks**
 

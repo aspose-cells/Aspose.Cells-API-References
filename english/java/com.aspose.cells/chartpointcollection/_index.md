@@ -84,7 +84,7 @@ Represents a collection that contains all the points in one series.
 | [iterator()](#iterator--) | Returns an enumerator for the entire [ChartPointCollection](../../com.aspose.cells/chartpointcollection). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes point at the index of the series.. |
+| [removeAt(int index)](#removeAt-int-) | Removes point at the index of the series. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -189,7 +189,7 @@ public void removeAt(int index)
 ```
 
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 **Parameters:**
 | Parameter | Type | Description |

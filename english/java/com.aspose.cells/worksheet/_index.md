@@ -110,6 +110,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getSelectedAreas()](#getSelectedAreas--) | Gets selected ranges of cells in the designer spreadsheet. |
 | [getSelectedRanges()](#getSelectedRanges--) | Gets selected ranges of cells in the designer spreadsheet. |
 | [getShapes()](#getShapes--) | Returns all drawing shapes in this worksheet. |
+| [getShowDataTypeIcons()](#getShowDataTypeIcons--) | Indicates whether to show data type icons. |
 | [getShowFormulas()](#getShowFormulas--) | Indicates whether to show formulas or their results. |
 | [getSlicers()](#getSlicers--) | Get the Slicer collection in the worksheet |
 | [getSmartTagSetting()](#getSmartTagSetting--) | Gets all [SmartTagCollection](../../com.aspose.cells/smarttagcollection) objects of the worksheet. |
@@ -165,6 +166,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [setRowColumnHeadersVisible(boolean value)](#setRowColumnHeadersVisible-boolean-) | Sets a value indicating whether the worksheet will display row and column headers. |
 | [setRulerVisible(boolean value)](#setRulerVisible-boolean-) | Indicates whether the ruler is visible. |
 | [setSelected(boolean value)](#setSelected-boolean-) | Indicates whether this worksheet is selected when the workbook is opened. |
+| [setShowDataTypeIcons(boolean value)](#setShowDataTypeIcons-boolean-) | Indicates whether to show data type icons. |
 | [setShowFormulas(boolean value)](#setShowFormulas-boolean-) | Indicates whether to show formulas or their results. |
 | [setTabColor(Color value)](#setTabColor-com.aspose.cells.Color-) | Represents worksheet tab color. |
 | [setTabId(int value)](#setTabId-int-) | Specifies the internal identifier for the sheet. |
@@ -1212,6 +1214,16 @@ Returns all drawing shapes in this worksheet.
 
 **Returns:**
 [ShapeCollection](../../com.aspose.cells/shapecollection)
+### getShowDataTypeIcons() {#getShowDataTypeIcons--}
+```
+public boolean getShowDataTypeIcons()
+```
+
+
+Indicates whether to show data type icons.
+
+**Returns:**
+boolean
 ### getShowFormulas() {#getShowFormulas--}
 ```
 public boolean getShowFormulas()
@@ -1858,6 +1870,19 @@ public void setSelected(boolean value)
 
 
 Indicates whether this worksheet is selected when the workbook is opened.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowDataTypeIcons(boolean value) {#setShowDataTypeIcons-boolean-}
+```
+public void setShowDataTypeIcons(boolean value)
+```
+
+
+Indicates whether to show data type icons.
 
 **Parameters:**
 | Parameter | Type | Description |

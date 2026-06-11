@@ -102,7 +102,7 @@ public static final int MOVED
 ```
 
 
-User moved the data labels. This is only for reading chart from template file.
+User moved the data labels. This is only for reading the chart from the template file.
 
 ### OUTSIDE_END {#OUTSIDE-END}
 ```

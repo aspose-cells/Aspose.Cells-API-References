@@ -18,11 +18,11 @@ Enumerates the legend position types.
 | Field | Description |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | Displays the legend to the bottom of the chart's plot area. |
-| [CORNER](#CORNER) | Displays the legend to the corner of the chart's plot area. |
+| [CORNER](#CORNER) | Displays the legend in the corner of the chart's plot area. |
 | [LEFT](#LEFT) | Displays the legend to the left of the chart's plot area. |
-| [NOT_DOCKED](#NOT-DOCKED) | Represents that the legend is not docked. |
+| [NOT_DOCKED](#NOT-DOCKED) | Indicates that the legend is not docked. |
 | [RIGHT](#RIGHT) | Displays the legend to the right of the chart's plot area. |
-| [TOP](#TOP) | Displays the legend to the top of the chart's plot area. |
+| [TOP](#TOP) | Displays the legend at the top of the chart's plot area. |
 ## Methods
 
 | Method | Description |
@@ -50,7 +50,7 @@ public static final int CORNER
 ```
 
 
-Displays the legend to the corner of the chart's plot area.
+Displays the legend in the corner of the chart's plot area.
 
 ### LEFT {#LEFT}
 ```
@@ -66,7 +66,7 @@ public static final int NOT_DOCKED
 ```
 
 
-Represents that the legend is not docked.
+Indicates that the legend is not docked.
 
 ### RIGHT {#RIGHT}
 ```
@@ -82,7 +82,7 @@ public static final int TOP
 ```
 
 
-Displays the legend to the top of the chart's plot area.
+Displays the legend at the top of the chart's plot area.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

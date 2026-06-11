@@ -19,7 +19,7 @@ Represents the text direction type of the chart.
 | --- | --- |
 | [HORIZONTAL](#HORIZONTAL) | Horizontal direction type. |
 | [ROTATE_270](#ROTATE-270) | Rotate 270-degree angle. |
-| [ROTATE_90](#ROTATE-90) | Rotate 90-degree angle. |
+| [ROTATE_90](#ROTATE-90) | Rotate by a ninety-degree angle. |
 | [STACKED](#STACKED) | Stacked text. |
 | [VERTICAL](#VERTICAL) | Vertical direction type. |
 ## Methods
@@ -57,7 +57,7 @@ public static final int ROTATE_90
 ```
 
 
-Rotate 90-degree angle.
+Rotate by a ninety-degree angle.
 
 ### STACKED {#STACKED}
 ```

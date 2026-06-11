@@ -23,6 +23,7 @@ Represents all the load options for GridJs
 | Field | Description |
 | --- | --- |
 | [CacheImp](#CacheImp) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. |
+| [RedactionUseClientGenerateId](#RedactionUseClientGenerateId) | Indicates whether use client generate id instead of actual shape id in redaction related operations |
 ## Methods
 
 | Method | Description |
@@ -95,6 +96,14 @@ public GridCacheForStream CacheImp
 
 
 Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it.
+
+### RedactionUseClientGenerateId {#RedactionUseClientGenerateId}
+```
+public boolean RedactionUseClientGenerateId
+```
+
+
+Indicates whether use client generate id instead of actual shape id in redaction related operations
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

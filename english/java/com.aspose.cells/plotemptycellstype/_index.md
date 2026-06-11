@@ -1,7 +1,7 @@
 ---
 title: PlotEmptyCellsType
 second_title: Aspose.Cells for Java API Reference
-description: Represents all plot empty cells type of a chart.
+description: Represents all plot empty cell types of a chart.
 type: docs
 url: /java/com.aspose.cells/plotemptycellstype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class PlotEmptyCellsType
 ```
 
-Represents all plot empty cells type of a chart.
+Represents all plot empty cell types of a chart.
 ## Fields
 
 | Field | Description |

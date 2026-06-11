@@ -32,7 +32,7 @@ Represents a collection of [ListObject](../../com.aspose.cells/listobject) objec
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [removeAt(int index)](#removeAt-int-) | Remove [ListObject](../../com.aspose.cells/listobject) by index. |
 | [toString()](#toString--) |  |
 | [updateColumnName()](#updateColumnName--) | Update all column name of the tables. |
 | [wait()](#wait--) |  |
@@ -234,12 +234,12 @@ public void removeAt(int index)
 ```
 
 
-Removes the item at the specified index.
+Remove [ListObject](../../com.aspose.cells/listobject) by index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
+| index | int | The index. |
 
 ### toString() {#toString--}
 ```

@@ -74,17 +74,17 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
-| [getDefaultHeight()](#getDefaultHeight--) | Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of default position in units of Fraction of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--) | Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultY()](#getDefaultY--) | Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of default position in units of Fraction of the chart area. |
-| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified chartarea object. |
-| [getHeight()](#getHeight--) | Gets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [getHeightPixel()](#getHeightPixel--) | Gets the height of frame in units of Pixel. |
+| [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartArea object. |
+| [getHeight()](#getHeight--) | Gets the vertical offset from its lower\\u9225\\u6186ight corner row, in units of 1/4000 of the chart area. |
+| [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
 | [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
@@ -93,15 +93,15 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [getWidth()](#getWidth--) | Gets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of frame in units of Pixel. |
 | [getWidthRatioToChart()](#getWidthRatioToChart--) | Gets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [getX()](#getX--) | Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | Gets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area. |
 | [getXPixel()](#getXPixel--) | Gets the x coordinate of the upper left corner in units of Pixel. |
-| [getXRatioToChart()](#getXRatioToChart--) | Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--) | Gets the horizontal offset from the upper-left corner column, as a ratio of the chart area. |
 | [getY()](#getY--) | Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of Pixel. |
+| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of pixels. |
 | [getYRatioToChart()](#getYRatioToChart--) | Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -109,8 +109,8 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
-| [setHeight(int value)](#setHeight-int-) | Sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
+| [setHeight(int value)](#setHeight-int-) | Sets the vertical offset from its lower\\u9225\\u6186ight corner row, in units of 1/4000 of the chart area. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of the frame in units of pixels. |
 | [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
@@ -118,11 +118,11 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [setWidth(int value)](#setWidth-int-) | Sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Sets the width of frame in units of Pixel. |
 | [setWidthRatioToChart(double value)](#setWidthRatioToChart-double-) | Sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [setX(int value)](#setX-int-) | Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [setX(int value)](#setX-int-) | Sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area. |
 | [setXPixel(int value)](#setXPixel-int-) | Sets the x coordinate of the upper left corner in units of Pixel. |
-| [setXRatioToChart(double value)](#setXRatioToChart-double-) | Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [setXRatioToChart(double value)](#setXRatioToChart-double-) | Sets the horizontal offset from the upper-left corner column, as a ratio of the chart area. |
 | [setY(int value)](#setY-int-) | Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of Pixel. |
+| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of pixels. |
 | [setYRatioToChart(double value)](#setYRatioToChart-double-) | Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -231,7 +231,7 @@ public int getDefaultHeight()
 ```
 
 
-Represents height of default position in units of 1/4000 of the chart area.
+Represents height of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -245,7 +245,7 @@ public double getDefaultHeightRatioToChart()
 ```
 
 
-Represents height of default position in units of Fraction of the chart area.
+Represents height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -303,7 +303,7 @@ public int getDefaultY()
 ```
 
 
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -317,7 +317,7 @@ public double getDefaultYRatioToChart()
 ```
 
 
-Represents y of default position in units of Fraction of the chart area.
+Represents y of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -327,7 +327,7 @@ public Font getFont()
 ```
 
 
-Gets a [getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified chartarea object.
+Gets a [getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartArea object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -337,7 +337,7 @@ public int getHeight()
 ```
 
 
-Gets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Gets the vertical offset from its lower\\u9225\\u6186ight corner row, in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -351,7 +351,7 @@ public int getHeightPixel()
 ```
 
 
-Gets the height of frame in units of Pixel.
+Gets the height of the frame in units of pixels.
 
 **Returns:**
 int
@@ -453,7 +453,7 @@ public int getX()
 ```
 
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Gets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -477,7 +477,7 @@ public double getXRatioToChart()
 ```
 
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Gets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 **Returns:**
 double
@@ -501,7 +501,7 @@ public int getYPixel()
 ```
 
 
-Gets the y coordinate of the upper left corner in units of Pixel.
+Gets the y coordinate of the upper left corner in units of pixels.
 
 **Returns:**
 int
@@ -541,7 +541,7 @@ public boolean isDefaultPosBeSet()
 ```
 
 
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean
@@ -645,7 +645,7 @@ public void setHeight(int value)
 ```
 
 
-Sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Sets the vertical offset from its lower\\u9225\\u6186ight corner row, in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -662,7 +662,7 @@ public void setHeightPixel(int value)
 ```
 
 
-Sets the height of frame in units of Pixel.
+Sets the height of the frame in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -773,7 +773,7 @@ public void setX(int value)
 ```
 
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -803,7 +803,7 @@ public void setXRatioToChart(double value)
 ```
 
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Sets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -833,7 +833,7 @@ public void setYPixel(int value)
 ```
 
 
-Sets the y coordinate of the upper left corner in units of Pixel.
+Sets the y coordinate of the upper left corner in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
