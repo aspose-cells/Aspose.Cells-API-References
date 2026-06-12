@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DataLabels::SetShowBubbleSize method
 linktitle: SetShowBubbleSize
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DataLabels::SetShowBubbleSize method. Represents a specified chart''s data label percentage value display behavior. True displays the percentage value. False to hide in C++.'
+description: 'Aspose::Cells::Charts::DataLabels::SetShowBubbleSize method. Represents a specified chart''s data label percentage value display behavior. True displays the percentage value. False hides the percentage value in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.cells.charts/datalabels/setshowbubblesize/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/datalabels/setshowbubblesize/
 ## DataLabels::SetShowBubbleSize method
 
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 ```cpp
 void Aspose::Cells::Charts::DataLabels::SetShowBubbleSize(bool value)

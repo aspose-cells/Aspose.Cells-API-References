@@ -70,7 +70,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [get(number)](#get-number-)| Gets the [ChartPoint](../chartpoint/) element at the specified index in the series. |
 | [getEnumerator()](#getEnumerator--)| Returns an enumerator for the entire [ChartPointCollection](../chartpointcollection/). |
 | [clear()](#clear--)| Remove all setting of the chart points. |
-| [removeAt(number)](#removeAt-number-)| Removes point at the index of the series.. |
+| [removeAt(number)](#removeAt-number-)| Removes point at the index of the series. |
 
 
 ### count {#count--}
@@ -123,7 +123,7 @@ clear() : void;
 
 ### removeAt(number) {#removeAt-number-}
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 ```javascript
 removeAt(index: number) : void;

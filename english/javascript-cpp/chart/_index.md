@@ -50,7 +50,7 @@ chart.title.text = "Income Analysis";
 | [plotBy](#plotBy--)| PlotDataByType | Readonly. Gets and sets whether plot by row or column. |
 | [plotEmptyCellsType](#plotEmptyCellsType--)| PlotEmptyCellsType | Gets and sets  how to plot the empty cells. |
 | [plotVisibleCellsOnly](#plotVisibleCellsOnly--)| boolean | Indicates whether plot visible cells only. |
-| [displayNaAsBlank](#displayNaAsBlank--)| boolean | Indicates whether displaying #N/A as blank value. |
+| [displayNaAsBlank](#displayNaAsBlank--)| boolean | Indicates whether to display #N/A as a blank value. |
 | [name](#name--)| string | Gets and sets the name of the chart. |
 | [sizeWithWindow](#sizeWithWindow--)| boolean | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
 | [worksheet](#worksheet--)| Worksheet | Readonly. Gets the worksheet which contains this chart. |
@@ -60,7 +60,7 @@ chart.title.text = "Income Analysis";
 | [nSeries](#nSeries--)| SeriesCollection | Readonly. Gets a [SeriesCollection](../seriescollection/) collection representing the data series in the chart. |
 | [filteredNSeries](#filteredNSeries--)| SeriesCollection | Readonly. Gets a [SeriesCollection](../seriescollection/) collection representing the data series that are filtered in the chart. |
 | [title](#title--)| Title | Readonly. Gets the chart's title. |
-| [subTitle](#subTitle--)| Title | Readonly. Gets the chart's sub-title. Only for ODS format file. |
+| [subTitle](#subTitle--)| Title | Readonly. Gets the chart's sub-title. Only applies to ODS files. |
 | [plotArea](#plotArea--)| PlotArea | Readonly. Gets the chart's plot area which includes axis tick labels. |
 | [chartArea](#chartArea--)| ChartArea | Readonly. Gets the chart area in the worksheet. |
 | [categoryAxis](#categoryAxis--)| Axis | Readonly. Gets the chart's X axis. |
@@ -86,7 +86,7 @@ chart.title.text = "Income Analysis";
 | [rightAngleAxes](#rightAngleAxes--)| boolean | True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). |
 | [autoScaling](#autoScaling--)| boolean | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [heightPercent](#heightPercent--)| number | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
-| [perspective](#perspective--)| number | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
+| [perspective](#perspective--)| number | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [is3D](#is3D--)| boolean | Readonly. Indicates whether the chart is a 3d chart. |
 | [depthPercent](#depthPercent--)| number | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [placement](#placement--)| PlacementType | Represents the way the chart is attached to the cells below it. |
@@ -100,9 +100,9 @@ chart.title.text = "Income Analysis";
 | [isCellReferedByChart(number, number, number)](#isCellReferedByChart-number-number-number-)| Returns whether the cell refered by the chart. |
 | [isChartDataChanged()](#isChartDataChanged--)| Detects if a chart's data source has changed. |
 | [refreshPivotData()](#refreshPivotData--)| Refreshes chart's data from pivot table. |
-| [changeTemplate(Uint8Array)](#changeTemplate-uint8array-)| Change chart type with preset template. |
+| [changeTemplate(Uint8Array)](#changeTemplate-uint8array-)| Change chart type with a preset template. |
 | [move(number, number, number, number)](#move-number-number-number-number-)| Moves the chart to a specified location. |
-| [calculate()](#calculate--)| Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [calculate()](#calculate--)| Calculates the custom positions of the plot area and axes if their positions are auto-assigned. |
 | [calculate(ChartCalculateOptions)](#calculate-chartcalculateoptions-)| Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
 | [toImageAsync(string)](#toImageAsync-string-)| Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [toImageAsync(string, ImageType)](#toImageAsync-string-imagetype-)| Creates the chart image and saves it to a file in the specified image type. |
@@ -120,11 +120,11 @@ chart.title.text = "Income Analysis";
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Creates the chart image and saves it to a stream in the specified format. |
 | [toPdfAsync(string)](#toPdfAsync-string-)| Saves the chart to a pdf file. |
 | [toPdfAsync(string, number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdfAsync-string-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Saves the chart to a pdf file. |
-| [toPdfAsync()](#toPdfAsync--)| Creates the chart pdf and saves it to a stream. |
+| [toPdfAsync()](#toPdfAsync--)| Creates the chart PDF and saves it to a stream. |
 | [toPdfAsync(number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdfAsync-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Creates the chart pdf and saves it to a stream. |
 | [toPdf(string)](#toPdf-string-)| Saves the chart to a pdf file. |
 | [toPdf(string, number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdf-string-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Saves the chart to a pdf file. |
-| [toPdf()](#toPdf--)| Creates the chart pdf and saves it to a stream. |
+| [toPdf()](#toPdf--)| Creates the chart PDF and saves it to a stream. |
 | [toPdf(number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdf-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Creates the chart pdf and saves it to a stream. |
 | [getActualSize()](#getActualSize--)| Gets actual size of chart in unit of pixels. |
 | [hasAxis(AxisType, boolean)](#hasAxis-axistype-boolean-)| Returns which axes exist on the chart. |
@@ -215,7 +215,7 @@ plotVisibleCellsOnly : boolean;
 
 ### displayNaAsBlank {#displayNaAsBlank--}
 
-Indicates whether displaying #N/A as blank value.
+Indicates whether to display #N/A as a blank value.
 
 ```javascript
 displayNaAsBlank : boolean;
@@ -305,7 +305,7 @@ title : Title;
 
 ### subTitle {#subTitle--}
 
-Readonly. Gets the chart's sub-title. Only for ODS format file.
+Readonly. Gets the chart's sub-title. Only applies to ODS files.
 
 ```javascript
 subTitle : Title;
@@ -559,7 +559,7 @@ heightPercent : number;
 
 ### perspective {#perspective--}
 
-Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
+Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
 
 ```javascript
 perspective : number;
@@ -658,7 +658,7 @@ We will gather data from pivot data source to the pivot table report. This metho
 
 ### changeTemplate(Uint8Array) {#changeTemplate-uint8array-}
 
-Change chart type with preset template.
+Change chart type with a preset template.
 
 ```javascript
 changeTemplate(data: Uint8Array) : void;
@@ -687,7 +687,7 @@ move(topRow: number, leftColumn: number, bottomRow: number, rightColumn: number)
 
 ### calculate() {#calculate--}
 
-Calculates the custom position of plot area, axes if the position of them are auto assigned.
+Calculates the custom positions of the plot area and axes if their positions are auto-assigned.
 
 ```javascript
 calculate() : void;
@@ -1064,7 +1064,7 @@ toPdfAsync(fileName: string, desiredPageWidth: number, desiredPageHeight: number
 
 ### toPdfAsync() {#toPdfAsync--}
 
-Creates the chart pdf and saves it to a stream.
+Creates the chart PDF and saves it to a stream.
 
 ```javascript
 toPdfAsync() : Promise<Uint8Array>;
@@ -1127,7 +1127,7 @@ toPdf(fileName: string, desiredPageWidth: number, desiredPageHeight: number, hAl
 
 ### toPdf() {#toPdf--}
 
-Creates the chart pdf and saves it to a stream.
+Creates the chart PDF and saves it to a stream.
 
 ```javascript
 toPdf() : Uint8Array;

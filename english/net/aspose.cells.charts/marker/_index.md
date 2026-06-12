@@ -24,8 +24,8 @@ public class Marker
 | [ForegroundColor](../../aspose.cells.charts/marker/foregroundcolor/) { get; set; } | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [ForegroundColorSetType](../../aspose.cells.charts/marker/foregroundcolorsettype/) { get; set; } | Gets or sets the marker foreground color set type. |
 | [MarkerSize](../../aspose.cells.charts/marker/markersize/) { get; set; } | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [MarkerSizePx](../../aspose.cells.charts/marker/markersizepx/) { get; set; } | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [MarkerStyle](../../aspose.cells.charts/marker/markerstyle/) { get; set; } | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [MarkerSizePx](../../aspose.cells.charts/marker/markersizepx/) { get; set; } | Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
+| [MarkerStyle](../../aspose.cells.charts/marker/markerstyle/) { get; set; } | Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 
 ### Examples
 

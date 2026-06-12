@@ -26,7 +26,7 @@ public class ChartPointCollection : IEnumerable
 | --- | --- |
 | [Clear](../../aspose.cells.charts/chartpointcollection/clear/)() | Remove all setting of the chart points. |
 | [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator/)() | Returns an enumerator for the entire `ChartPointCollection`. |
-| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat/)(int) | Removes point at the index of the series.. |
+| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat/)(int) | Removes point at the index of the series. |
 
 ### Examples
 

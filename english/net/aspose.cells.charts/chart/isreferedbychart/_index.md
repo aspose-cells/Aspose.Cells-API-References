@@ -1,13 +1,13 @@
 ---
 title: Chart.IsReferedByChart
 second_title: Aspose.Cells for .NET API Reference
-description: Chart method. Returns whether the cell refered by the chart
+description: Chart method. Returns whether the cell is referred by the chart
 type: docs
 url: /net/aspose.cells.charts/chart/isreferedbychart/
 ---
 ## Chart.IsReferedByChart method
 
-Returns whether the cell refered by the chart.
+Returns whether the cell is referred by the chart.
 
 ```csharp
 [Obsolete("Use Chart.IsCellReferedByChart(int,int,int) method instead.")]

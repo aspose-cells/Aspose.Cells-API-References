@@ -1,13 +1,13 @@
 ---
 title: ChartArea.X
 second_title: Aspose.Cells for .NET API Reference
-description: ChartArea property. Gets or gets the horizontal offset from its upper left corner column in units of 1/4000 of the chart area
+description: ChartArea property. Gets or sets the horizontal offset from its upperleft corner column in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartarea/x/
 ---
 ## ChartArea.X property
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use ChartArea.XRatioToChart property, instead.")]

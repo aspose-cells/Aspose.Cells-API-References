@@ -71,7 +71,7 @@ workbook.save("output/ChartsChartPointCollection.xls");
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the chart point. |
 | [getEnumerator()](#getEnumerator--)| Returns an enumerator for the entire [ChartPointCollection](../chartpointcollection/). |
 | [clear()](#clear--)| Remove all setting of the chart points. |
-| [removeAt(number)](#removeAt-number-)| Removes point at the index of the series.. |
+| [removeAt(number)](#removeAt-number-)| Removes point at the index of the series. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 ## \[Symbol.iterator\](): Iterator\<ChartPoint\>
@@ -139,7 +139,7 @@ clear() : void;
 
 ### removeAt(number) {#removeAt-number-}
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 ```javascript
 removeAt(index: number) : void;

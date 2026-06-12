@@ -18,6 +18,11 @@ Represents all the static settings for GridJs
 | Constructor | Description |
 | --- | --- |
 | [Config()](#Config--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [RedactionUseClientGenerateId](#RedactionUseClientGenerateId) | Indicates whether use client generate id instead of actual shape id in redaction related operations |
 ## Methods
 
 | Method | Description |
@@ -82,6 +87,14 @@ Represents all the static settings for GridJs
 public Config()
 ```
 
+
+### RedactionUseClientGenerateId {#RedactionUseClientGenerateId}
+```
+public static boolean RedactionUseClientGenerateId
+```
+
+
+Indicates whether use client generate id instead of actual shape id in redaction related operations
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

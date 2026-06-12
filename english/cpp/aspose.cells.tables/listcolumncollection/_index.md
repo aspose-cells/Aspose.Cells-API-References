@@ -31,6 +31,7 @@ class ListColumnCollection
 | [ListColumnCollection(const ListColumnCollection\& src)](./listcolumncollection/) | Copy constructor. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ListColumnCollection\& src)](./operator_asm/) | operator= |
+| [RemoveAt(int32_t index)](./removeat/) | Remove [ListColumn](../listcolumn/) by index. |
 | [~ListColumnCollection()](./~listcolumncollection/) | Destructor. |
 ## Fields
 

@@ -53,7 +53,7 @@ Represents error bar of data series.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAmount()](#getAmount--) | Represents amount of error bar. |
+| [getAmount()](#getAmount--) | Represents the amount of error bar. |
 | [getBeginArrowLength()](#getBeginArrowLength--) | Specifies the length of the arrowhead for the begin of a line. |
 | [getBeginArrowWidth()](#getBeginArrowWidth--) | Specifies the width of the arrowhead for the begin of a line. |
 | [getBeginType()](#getBeginType--) | Specifies an arrowhead for the begin of a line. |
@@ -85,7 +85,7 @@ Represents error bar of data series.
 | [isVisible()](#isVisible--) | Represents whether the line is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAmount(double value)](#setAmount-double-) | Represents amount of error bar. |
+| [setAmount(double value)](#setAmount-double-) | Represents the amount of error bar. |
 | [setAuto(boolean value)](#setAuto-boolean-) | Indicates whether this line style is auto assigned. |
 | [setBeginArrowLength(int value)](#setBeginArrowLength-int-) | Specifies the length of the arrowhead for the begin of a line. |
 | [setBeginArrowWidth(int value)](#setBeginArrowWidth-int-) | Specifies the width of the arrowhead for the begin of a line. |
@@ -136,7 +136,7 @@ public double getAmount()
 ```
 
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 **Remarks**
 
@@ -502,7 +502,7 @@ public void setAmount(double value)
 ```
 
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 **Remarks**
 

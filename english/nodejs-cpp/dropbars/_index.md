@@ -1,14 +1,14 @@
 ﻿---
 title: DropBars
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the updown bars in a chart.
+description: Represents the up and down bars in a chart.
 type: docs
 url: /nodejs-cpp/dropbars/
 ---
 
 ## DropBars class
 
-Represents the up/down bars in a chart.
+Represents the up and down bars in a chart.
 
 ```javascript
 class DropBars;

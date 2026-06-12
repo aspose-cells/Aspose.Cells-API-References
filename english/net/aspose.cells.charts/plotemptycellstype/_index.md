@@ -1,13 +1,13 @@
 ---
 title: Enum PlotEmptyCellsType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.PlotEmptyCellsType enum. Represents all plot empty cells type of a chart
+description: Aspose.Cells.Charts.PlotEmptyCellsType enum. Represents all plot empty cell types of a chart
 type: docs
 url: /net/aspose.cells.charts/plotemptycellstype/
 ---
 ## PlotEmptyCellsType enumeration
 
-Represents all plot empty cells type of a chart.
+Represents all plot empty cell types of a chart.
 
 ```csharp
 public enum PlotEmptyCellsType

@@ -17,7 +17,7 @@ public class ErrorBar : Line
 
 | Name | Description |
 | --- | --- |
-| [Amount](../../aspose.cells.charts/errorbar/amount/) { get; set; } | Represents amount of error bar. |
+| [Amount](../../aspose.cells.charts/errorbar/amount/) { get; set; } | Represents the amount of error bar. |
 | [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength/) { get; set; } | Specifies the length of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth/) { get; set; } | Specifies the width of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [BeginType](../../aspose.cells.drawing/line/begintype/) { get; set; } | Specifies an arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |

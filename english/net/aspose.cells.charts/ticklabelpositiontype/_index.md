@@ -19,7 +19,7 @@ public enum TickLabelPositionType
 | --- | --- | --- |
 | High | `0` | Position type is high. |
 | Low | `1` | Position type is low. |
-| NextToAxis | `2` | Position type is next to axis. |
+| NextToAxis | `2` | Position type is next to the axis. |
 | None | `3` | Position type is none. |
 
 ### Examples

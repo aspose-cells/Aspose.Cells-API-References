@@ -21,7 +21,7 @@ enum class TickLabelAlignmentType
 | Name | Value | Description |
 | --- | --- | --- |
 | Center | 0 | <br>Specifies that the text is centered. |
-| Left | 1 | <br>Specifies that the text is left-aligned.. |
+| Left | 1 | <br>Specifies that the text is left-aligned. |
 | Right | 2 | <br>Specifies that the text is right-aligned.. |
 
 ## See Also

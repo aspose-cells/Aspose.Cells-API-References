@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ErrorBar::GetAmount method
 linktitle: GetAmount
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ErrorBar::GetAmount method. Represents amount of error bar in C++.'
+description: 'Aspose::Cells::Charts::ErrorBar::GetAmount method. Represents the amount of error bar in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.charts/errorbar/getamount/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/errorbar/getamount/
 ## ErrorBar::GetAmount method
 
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 ```cpp
 double Aspose::Cells::Charts::ErrorBar::GetAmount()

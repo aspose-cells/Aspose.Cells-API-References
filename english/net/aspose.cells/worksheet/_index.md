@@ -59,6 +59,7 @@ public class Worksheet : IDisposable
 | [QueryTables](../../aspose.cells/worksheet/querytables/) { get; } | Gets [`QueryTableCollection`](../querytablecollection/) in the worksheet. |
 | [Scenarios](../../aspose.cells/worksheet/scenarios/) { get; } | Gets the collection of [`Scenario`](../scenario/). |
 | [Shapes](../../aspose.cells/worksheet/shapes/) { get; } | Returns all drawing shapes in this worksheet. |
+| [ShowDataTypeIcons](../../aspose.cells/worksheet/showdatatypeicons/) { get; set; } | Indicates whether to show data type icons. |
 | [ShowFormulas](../../aspose.cells/worksheet/showformulas/) { get; set; } | Indicates whether to show formulas or their results. |
 | [Slicers](../../aspose.cells/worksheet/slicers/) { get; } | Get the Slicer collection in the worksheet |
 | [SmartTagSetting](../../aspose.cells/worksheet/smarttagsetting/) { get; } | Gets all [`SmartTagCollection`](../../aspose.cells.markup/smarttagcollection/) objects of the worksheet. |

@@ -1,13 +1,13 @@
 ---
 title: Chart.ChangeTemplate
 second_title: Aspose.Cells for .NET API Reference
-description: Chart method. Change chart type with preset template
+description: Chart method. Change chart type with a preset template
 type: docs
 url: /net/aspose.cells.charts/chart/changetemplate/
 ---
 ## Chart.ChangeTemplate method
 
-Change chart type with preset template.
+Change chart type with a preset template.
 
 ```csharp
 public void ChangeTemplate(byte[] data)

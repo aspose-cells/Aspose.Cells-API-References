@@ -19,27 +19,31 @@ class SlicerCacheItem;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [selected](#selected--)| boolean | Specifies whether the SlicerItem is selected or not. |
+| [selected](#selected--)| boolean | Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not. |
 | [value](#value--)| string | Readonly. Returns the label text for the slicer item. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSelected()](#getSelected--)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not. |
-| [setSelected(boolean)](#setSelected-boolean-)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not. |
+| [getSelected()](#getSelected--)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not. |
+| [setSelected(boolean)](#setSelected-boolean-)| <b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not. |
 | [getValue()](#getValue--)| <b>@deprecated.</b> Please use the 'value' property instead. Returns the label text for the slicer item. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### selected {#selected--}
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not.
 
 ```javascript
 selected : boolean;
 ```
 
+
+**Remarks**
+
+Please use [ Slicer.SelectItems(string[], bool)](../ slicer.selectitems(string[], bool)/) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 ### value {#value--}
 
@@ -52,16 +56,20 @@ value : string;
 
 ### getSelected() {#getSelected--}
 
-<b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not.
+<b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not.
 
 ```javascript
 getSelected() : boolean;
 ```
 
 
+**Remarks**
+
+Please use [ Slicer.SelectItems(string[], bool)](../ slicer.selectitems(string[], bool)/) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
+
 ### setSelected(boolean) {#setSelected-boolean-}
 
-<b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the SlicerItem is selected or not.
+<b>@deprecated.</b> Please use the 'selected' property instead. Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not.
 
 ```javascript
 setSelected(value: boolean) : void;
@@ -71,6 +79,10 @@ setSelected(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Please use [ Slicer.SelectItems(string[], bool)](../ slicer.selectitems(string[], bool)/) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 ### getValue() {#getValue--}
 

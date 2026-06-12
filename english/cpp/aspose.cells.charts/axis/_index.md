@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Axis class
 linktitle: Axis
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Axis class. Encapsulates the object that represents an axis of chart in C++.'
+description: 'Aspose::Cells::Charts::Axis class. Encapsulates the object that represents an axis of a chart in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.charts/axis/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/axis/
 ## Axis class
 
 
-Encapsulates the object that represents an axis of chart.
+Encapsulates the object that represents an axis of a chart.
 
 ```cpp
 class Axis

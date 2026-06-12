@@ -18,7 +18,7 @@ public class SeriesCollection : CollectionBase<Series>
 | Name | Description |
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
-| [CategoryData](../../aspose.cells.charts/seriescollection/categorydata/) { get; set; } | Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
+| [CategoryData](../../aspose.cells.charts/seriescollection/categorydata/) { get; set; } | Gets or sets the range of category Axis values. It can be a range of cells (such as "d1:e10") or a sequence of values (such as "{2,6,8,10}"). |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
 | [IsColorVaried](../../aspose.cells.charts/seriescollection/iscolorvaried/) { get; set; } | Represents if the color of points is varied. |
 | [Item](../../aspose.cells.charts/seriescollection/item/) { get; } | Gets the [`Series`](../series/) element at the specified index. |
@@ -61,7 +61,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Series, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Series, int, int) |  |
 | [RemoveAt](../../aspose.cells.charts/seriescollection/removeat/#removeat)(int) | Remove at a series at the specific index. (2 methods) |
-| [SetSeriesNames](../../aspose.cells.charts/seriescollection/setseriesnames/)(int, string, bool) | Sets the name of all the serieses in the chart. |
+| [SetSeriesNames](../../aspose.cells.charts/seriescollection/setseriesnames/)(int, string, bool) | Sets the names of all the series in the chart. |
 | [SwapSeries](../../aspose.cells.charts/seriescollection/swapseries/)(int, int) | Directly changes the orders of the two series. |
 
 ### Examples

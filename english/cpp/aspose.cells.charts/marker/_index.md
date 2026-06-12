@@ -27,8 +27,8 @@ class Marker
 | [GetForegroundColor()](./getforegroundcolor/) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [GetForegroundColorSetType()](./getforegroundcolorsettype/) | Gets or sets the marker foreground color set type. |
 | [GetMarkerSize()](./getmarkersize/) | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [GetMarkerSizePx()](./getmarkersizepx/) | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [GetMarkerStyle()](./getmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [GetMarkerSizePx()](./getmarkersizepx/) | Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
+| [GetMarkerStyle()](./getmarkerstyle/) | Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [Marker(Marker_Impl* impl)](./marker/) | Constructs from an implementation object. |
 | [Marker(const Marker\& src)](./marker/) | Copy constructor. |
@@ -39,8 +39,8 @@ class Marker
 | [SetForegroundColor(const Aspose::Cells::Color\& value)](./setforegroundcolor/) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [SetForegroundColorSetType(FormattingType value)](./setforegroundcolorsettype/) | Gets or sets the marker foreground color set type. |
 | [SetMarkerSize(int32_t value)](./setmarkersize/) | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [SetMarkerSizePx(int32_t value)](./setmarkersizepx/) | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
-| [SetMarkerStyle(ChartMarkerType value)](./setmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [SetMarkerSizePx(int32_t value)](./setmarkersizepx/) | Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
+| [SetMarkerStyle(ChartMarkerType value)](./setmarkerstyle/) | Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 | [~Marker()](./~marker/) | Destructor. |
 ## Fields
 

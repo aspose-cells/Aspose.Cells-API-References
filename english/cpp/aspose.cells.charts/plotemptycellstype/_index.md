@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::PlotEmptyCellsType enum
 linktitle: PlotEmptyCellsType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::PlotEmptyCellsType enum. Represents all plot empty cells type of a chart in C++.'
+description: 'Aspose::Cells::Charts::PlotEmptyCellsType enum. Represents all plot empty cell types of a chart in C++.'
 type: docs
 weight: 6100
 url: /cpp/aspose.cells.charts/plotemptycellstype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/plotemptycellstype/
 ## PlotEmptyCellsType enum
 
 
-Represents all plot empty cells type of a chart.
+Represents all plot empty cell types of a chart.
 
 ```cpp
 enum class PlotEmptyCellsType

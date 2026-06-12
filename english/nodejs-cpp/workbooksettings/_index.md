@@ -45,6 +45,7 @@ class WorkbookSettings;
 | [isHidden](#isHidden--)| boolean | Indicates whether this workbook is hidden. |
 | [autoCompressPictures](#autoCompressPictures--)| boolean | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [removePersonalInformation](#removePersonalInformation--)| boolean | True if personal information can be removed from the specified workbook. |
+| [shapeDisplayType](#shapeDisplayType--)| ShapeDisplayType | Gets and sets how the application displays shapes in this workbook |
 | [hidePivotFieldList](#hidePivotFieldList--)| boolean | Gets and sets whether hide the field list for the PivotTable. |
 | [maxUniqueItemsPerField](#maxUniqueItemsPerField--)| number | Gets and set the limitation of unique items per field |
 | [updateLinksType](#updateLinksType--)| UpdateLinksType | Gets and sets how updates external links when the workbook is opened. |
@@ -137,6 +138,8 @@ class WorkbookSettings;
 | [setAutoCompressPictures(boolean)](#setAutoCompressPictures-boolean-)| <b>@deprecated.</b> Please use the 'autoCompressPictures' property instead. Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--)| <b>@deprecated.</b> Please use the 'removePersonalInformation' property instead. True if personal information can be removed from the specified workbook. |
 | [setRemovePersonalInformation(boolean)](#setRemovePersonalInformation-boolean-)| <b>@deprecated.</b> Please use the 'removePersonalInformation' property instead. True if personal information can be removed from the specified workbook. |
+| [getShapeDisplayType()](#getShapeDisplayType--)| <b>@deprecated.</b> Please use the 'shapeDisplayType' property instead. Gets and sets how the application displays shapes in this workbook |
+| [setShapeDisplayType(ShapeDisplayType)](#setShapeDisplayType-shapedisplaytype-)| <b>@deprecated.</b> Please use the 'shapeDisplayType' property instead. Gets and sets how the application displays shapes in this workbook |
 | [getHidePivotFieldList()](#getHidePivotFieldList--)| <b>@deprecated.</b> Please use the 'hidePivotFieldList' property instead. Gets and sets whether hide the field list for the PivotTable. |
 | [setHidePivotFieldList(boolean)](#setHidePivotFieldList-boolean-)| <b>@deprecated.</b> Please use the 'hidePivotFieldList' property instead. Gets and sets whether hide the field list for the PivotTable. |
 | [getMaxUniqueItemsPerField()](#getMaxUniqueItemsPerField--)| <b>@deprecated.</b> Please use the 'maxUniqueItemsPerField' property instead. Gets and set the limitation of unique items per field |
@@ -515,6 +518,15 @@ True if personal information can be removed from the specified workbook.
 
 ```javascript
 removePersonalInformation : boolean;
+```
+
+
+### shapeDisplayType {#shapeDisplayType--}
+
+Gets and sets how the application displays shapes in this workbook
+
+```javascript
+shapeDisplayType : ShapeDisplayType;
 ```
 
 
@@ -1508,6 +1520,32 @@ setRemovePersonalInformation(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getShapeDisplayType() {#getShapeDisplayType--}
+
+<b>@deprecated.</b> Please use the 'shapeDisplayType' property instead. Gets and sets how the application displays shapes in this workbook
+
+```javascript
+getShapeDisplayType() : ShapeDisplayType;
+```
+
+
+**Returns**
+
+[ShapeDisplayType](../shapedisplaytype/)
+
+### setShapeDisplayType(ShapeDisplayType) {#setShapeDisplayType-shapedisplaytype-}
+
+<b>@deprecated.</b> Please use the 'shapeDisplayType' property instead. Gets and sets how the application displays shapes in this workbook
+
+```javascript
+setShapeDisplayType(value: ShapeDisplayType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ShapeDisplayType](../shapedisplaytype/) | The value to set. |
 
 ### getHidePivotFieldList() {#getHidePivotFieldList--}
 

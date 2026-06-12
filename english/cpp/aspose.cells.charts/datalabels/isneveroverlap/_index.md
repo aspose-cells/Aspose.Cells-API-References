@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DataLabels::IsNeverOverlap method
 linktitle: IsNeverOverlap
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DataLabels::IsNeverOverlap method. Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image in C++.'
+description: 'Aspose::Cells::Charts::DataLabels::IsNeverOverlap method. Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image in C++.'
 type: docs
 weight: 4600
 url: /cpp/aspose.cells.charts/datalabels/isneveroverlap/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/datalabels/isneveroverlap/
 ## DataLabels::IsNeverOverlap method
 
 
-Indicates whether datalabels never overlap when performing Pie [Chart](../../chart/) to image. Note: this property is only meaningful when Pie [Chart](../../chart/) to image.
+Indicates whether Datalabels never overlap when performing a Pie [Chart](../../chart/) to image. Note: this property is only meaningful when a Pie [Chart](../../chart/) to image.
 
 ```cpp
 bool Aspose::Cells::Charts::DataLabels::IsNeverOverlap()

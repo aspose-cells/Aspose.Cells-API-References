@@ -53,6 +53,7 @@ public class GridJsOptions
 | Name | Description |
 | --- | --- |
 | [CacheImp](../../aspose.cells.gridjs/gridjsoptions/cacheimp/) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. |
+| [RedactionUseClientGenerateId](../../aspose.cells.gridjs/gridjsoptions/redactionuseclientgenerateid/) | Indicates whether use client generate id instead of actual shape id in redaction related operations |
 
 ### See Also
 

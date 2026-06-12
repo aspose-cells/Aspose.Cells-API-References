@@ -12,7 +12,7 @@ Represents the region type of the map chart.
 | Name | Value | Description |
 | --- | --- | --- |
 | Automatic | `0` | Automatic |
-| DataOnly | `1` | Only data. |
+| DataOnly | `1` | Contains only data. |
 | CountryRegionList | `2` | Country region list. |
 | World | `3` | World. |
 

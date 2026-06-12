@@ -21,6 +21,7 @@ class Slicer
 | Method | Description |
 | --- | --- |
 | [AddPivotConnection(const PivotTable\& pivot)](./addpivotconnection/) | Adds PivotTable connection. |
+| [ClearFilter()](./clearfilter/) | Remove filters. |
 | [GetAlternativeText()](./getalternativetext/) |  **(Deprecated)** Returns or sets the descriptive (alternative) text string of the [Slicer](./) object. |
 | [GetCaption()](./getcaption/) | Returns or sets the caption of the specified slicer. |
 | [GetCaptionVisible()](./getcaptionvisible/) |  **(Deprecated)** Returns or sets whether the header that displays the slicer Caption is visible. The default value is true. |
@@ -56,8 +57,9 @@ class Slicer
 | [IsPrintable()](./isprintable/) |  **(Deprecated)** Indicates whether the slicer object is printable. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Slicer\& src)](./operator_asm/) | operator= |
-| [Refresh()](./refresh/) | Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. |
+| [Refresh()](./refresh/) | Refreshing the items of the slicer from the associated pivot tables. |
 | [RemovePivotConnection(const PivotTable\& pivot)](./removepivotconnection/) | Removes PivotTable connection. |
+| [SelectItems(const Vector \<U16String\>\& labels, bool append)](./selectitems/) |  |
 | [SetAlternativeText(const U16String\& value)](./setalternativetext/) |  **(Deprecated)** Returns or sets the descriptive (alternative) text string of the [Slicer](./) object. |
 | [SetAlternativeText(const char16_t* value)](./setalternativetext/) |  **(Deprecated)** Returns or sets the descriptive (alternative) text string of the [Slicer](./) object. |
 | [SetCaption(const U16String\& value)](./setcaption/) | Returns or sets the caption of the specified slicer. |

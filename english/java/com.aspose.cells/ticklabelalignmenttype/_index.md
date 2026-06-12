@@ -18,7 +18,7 @@ Represents the text alignment type for the tick labels on the axis
 | Field | Description |
 | --- | --- |
 | [CENTER](#CENTER) | Specifies that the text is centered. |
-| [LEFT](#LEFT) | Specifies that the text is left-aligned.. |
+| [LEFT](#LEFT) | Specifies that the text is left-aligned. |
 | [RIGHT](#RIGHT) | Specifies that the text is right-aligned.. |
 ## Methods
 
@@ -47,7 +47,7 @@ public static final int LEFT
 ```
 
 
-Specifies that the text is left-aligned..
+Specifies that the text is left-aligned.
 
 ### RIGHT {#RIGHT}
 ```

@@ -20,7 +20,7 @@ enum class BubbleSizeRepresents
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SizeIsArea | 0 | <br>Represents the value of Series.BubbleSizes is area of the bubble. |
+| SizeIsArea | 0 | <br>Represents the value of Series.BubbleSizes, which is the area of the bubble. |
 | SizeIsWidth | 1 | <br>Represents the value of Series.BubbleSizes is width of the bubble. |
 
 ## See Also

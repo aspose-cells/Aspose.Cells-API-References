@@ -7,7 +7,7 @@ url: /net/aspose.cells.charts/chartpointcollection/removeat/
 ---
 ## ChartPointCollection.RemoveAt method
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 ```csharp
 public void RemoveAt(int index)

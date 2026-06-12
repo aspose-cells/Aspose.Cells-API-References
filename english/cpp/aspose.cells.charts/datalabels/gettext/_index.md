@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DataLabels::GetText method
 linktitle: GetText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DataLabels::GetText method. Gets or sets the text of data label in C++.'
+description: 'Aspose::Cells::Charts::DataLabels::GetText method. Gets or sets the text of the data label in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/datalabels/gettext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/datalabels/gettext/
 ## DataLabels::GetText method
 
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```cpp
 U16String Aspose::Cells::Charts::DataLabels::GetText()

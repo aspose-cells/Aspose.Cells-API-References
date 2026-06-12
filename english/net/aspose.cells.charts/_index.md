@@ -11,7 +11,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow access to and 
 
 | Class | Description |
 | --- | --- |
-| [Axis](./axis/) | Encapsulates the object that represents an axis of chart. |
+| [Axis](./axis/) | Encapsulates the object that represents an axis of a chart. |
 | [AxisBins](./axisbins/) | Represents axis bins |
 | [Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
@@ -26,7 +26,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow access to and 
 | [ChartTextFrame](./charttextframe/) | Encapsulates the object that represents the frame object which contains text. |
 | [DataLabels](./datalabels/) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 | [DisplayUnitLabel](./displayunitlabel/) | Represents the display unit label. |
-| [DropBars](./dropbars/) | Represents the up/down bars in a chart. |
+| [DropBars](./dropbars/) | Represents the up and down bars in a chart. |
 | [ErrorBar](./errorbar/) | Represents error bar of data series. |
 | [Floor](./floor/) | Encapsulates the object that represents the floor of a 3-D chart. |
 | [Legend](./legend/) | Encapsulates the object that represents the chart legend. |
@@ -75,7 +75,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow access to and 
 | [MapChartProjectionType](./mapchartprojectiontype/) | Represents the projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype/) | Represents the region type of the map chart. |
 | [PlotDataByType](./plotdatabytype/) | Represents the type of data plot by row or column. |
-| [PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cells type of a chart. |
+| [PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cell types of a chart. |
 | [QuartileCalculationType](./quartilecalculationtype/) | Represents quartile calculation methods. |
 | [SparklineAxisMinMaxType](./sparklineaxisminmaxtype/) | Represents the minimum and maximum value types for the sparkline vertical axis. |
 | [SparklinePresetStyleType](./sparklinepresetstyletype/) | Represents the preset style types for sparkline. |

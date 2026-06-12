@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartPoint::GetInnerArcStartPointXPx method
 linktitle: GetInnerArcStartPointXPx
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartPoint::GetInnerArcStartPointXPx method. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart in C++.'
+description: 'Aspose::Cells::Charts::ChartPoint::GetInnerArcStartPointXPx method. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to the Doughnut chart in C++.'
 type: docs
 weight: 4100
 url: /cpp/aspose.cells.charts/chartpoint/getinnerarcstartpointxpx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartpoint/getinnerarcstartpointxpx/
 ## ChartPoint::GetInnerArcStartPointXPx method
 
 
-Gets the x coordinate of starting point for the pie section after calls [Chart.Calculate()](../../chart/calculate/) method. Applies to Doughnut chart.
+Gets the x coordinate of the starting point for the pie section after calling the [Chart.Calculate()](../../chart/calculate/) method. Applies to the Doughnut chart.
 
 ```cpp
 float Aspose::Cells::Charts::ChartPoint::GetInnerArcStartPointXPx()

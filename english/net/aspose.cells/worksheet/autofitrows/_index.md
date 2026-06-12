@@ -1,10 +1,133 @@
 ---
 title: Worksheet.AutoFitRows
 second_title: Aspose.Cells for .NET API Reference
-description: Worksheet method. Autofits all rows in this worksheet
+description: Worksheet method. Autofits row height in a range
 type: docs
 url: /net/aspose.cells/worksheet/autofitrows/
 ---
+## AutoFitRows(int, int) {#autofitrows_3}
+
+Autofits row height in a range.
+
+```csharp
+public void AutoFitRows(int startRow, int endRow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | Int32 | Start row index. |
+| endRow | Int32 | End row index. |
+
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitRowsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Populate cells with sample data and styles
+            for (int i = 0; i <= 8; i++)
+            {
+                Cell cell = cells[i, i];
+                cell.Value = "Sample text for row " + i;
+                
+                if (i % 2 == 0)
+                {
+                    Style style = cell.GetStyle();
+                    style.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, System.Drawing.Color.Black);
+                    cell.SetStyle(style);
+                }
+            }
+
+            // Auto-fit rows from index 0 to 8
+            sheet.AutoFitRows(0, 8);
+
+            // Output the resulting row heights
+            for (int i = 0; i <= 8; i++)
+            {
+                Console.WriteLine($"Row {i} height: {cells.GetRowHeightPixel(i)} pixels");
+            }
+        }
+    }
+}
+```
+
+### See Also
+
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## AutoFitRows(int, int, AutoFitterOptions) {#autofitrows_4}
+
+Autofits row height in a range.
+
+```csharp
+public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | Int32 | Start row index. |
+| endRow | Int32 | End row index. |
+| options | AutoFitterOptions | The options of auto fitter. |
+
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitRowsWithInt32Int32AutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("This is a test string for auto-fit row height demonstration");
+            worksheet.Cells["A2"].PutValue("Another line\nwith multiple lines\nof text");
+            
+            // Create auto fitter options
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.OnlyAuto = true;
+            
+            // Auto fit rows 0 to 1 with options
+            worksheet.AutoFitRows(0, 1, options);
+            
+            // Save the workbook
+            workbook.Save("AutoFitRowsDemo.xlsx");
+        }
+    }
+}
+```
+
+### See Also
+
+* class [AutoFitterOptions](../../autofitteroptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## AutoFitRows() {#autofitrows}
 
 Autofits all rows in this worksheet.
@@ -158,129 +281,6 @@ namespace AsposeCellsExamples
                 OnlyAuto = true
             });
 
-            // Save the workbook
-            workbook.Save("AutoFitRowsDemo.xlsx");
-        }
-    }
-}
-```
-
-### See Also
-
-* class [AutoFitterOptions](../../autofitteroptions/)
-* class [Worksheet](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## AutoFitRows(int, int) {#autofitrows_3}
-
-Autofits row height in a range.
-
-```csharp
-public void AutoFitRows(int startRow, int endRow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startRow | Int32 | Start row index. |
-| endRow | Int32 | End row index. |
-
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class WorksheetMethodAutoFitRowsWithInt32Int32Demo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-
-            // Populate cells with sample data and styles
-            for (int i = 0; i <= 8; i++)
-            {
-                Cell cell = cells[i, i];
-                cell.Value = "Sample text for row " + i;
-                
-                if (i % 2 == 0)
-                {
-                    Style style = cell.GetStyle();
-                    style.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, System.Drawing.Color.Black);
-                    cell.SetStyle(style);
-                }
-            }
-
-            // Auto-fit rows from index 0 to 8
-            sheet.AutoFitRows(0, 8);
-
-            // Output the resulting row heights
-            for (int i = 0; i <= 8; i++)
-            {
-                Console.WriteLine($"Row {i} height: {cells.GetRowHeightPixel(i)} pixels");
-            }
-        }
-    }
-}
-```
-
-### See Also
-
-* class [Worksheet](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## AutoFitRows(int, int, AutoFitterOptions) {#autofitrows_4}
-
-Autofits row height in a range.
-
-```csharp
-public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startRow | Int32 | Start row index. |
-| endRow | Int32 | End row index. |
-| options | AutoFitterOptions | The options of auto fitter. |
-
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class WorksheetMethodAutoFitRowsWithInt32Int32AutoFitterOptionsDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            
-            // Access first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add sample data to cells
-            worksheet.Cells["A1"].PutValue("This is a test string for auto-fit row height demonstration");
-            worksheet.Cells["A2"].PutValue("Another line\nwith multiple lines\nof text");
-            
-            // Create auto fitter options
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = true;
-            
-            // Auto fit rows 0 to 1 with options
-            worksheet.AutoFitRows(0, 1, options);
-            
             // Save the workbook
             workbook.Save("AutoFitRowsDemo.xlsx");
         }

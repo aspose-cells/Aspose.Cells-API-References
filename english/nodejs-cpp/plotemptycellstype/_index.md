@@ -1,13 +1,13 @@
 ﻿---
 title: PlotEmptyCellsType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all plot empty cells type of a chart.
+description: Represents all plot empty cell types of a chart.
 type: docs
 url: /nodejs-cpp/plotemptycellstype/
 ---
 
 ## PlotEmptyCellsType enumeration
-Represents all plot empty cells type of a chart.
+Represents all plot empty cell types of a chart.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

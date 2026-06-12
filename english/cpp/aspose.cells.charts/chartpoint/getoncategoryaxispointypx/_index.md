@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartPoint::GetOnCategoryAxisPointYPx method
 linktitle: GetOnCategoryAxisPointYPx
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartPoint::GetOnCategoryAxisPointYPx method. Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart in C++.'
+description: 'Aspose::Cells::Charts::ChartPoint::GetOnCategoryAxisPointYPx method. Gets y-coordinate of the point on category axis after calling the Chart.Calculate() method. Only applies to Area chart in C++.'
 type: docs
 weight: 5300
 url: /cpp/aspose.cells.charts/chartpoint/getoncategoryaxispointypx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartpoint/getoncategoryaxispointypx/
 ## ChartPoint::GetOnCategoryAxisPointYPx method
 
 
-Gets y-coordinate of the point on category axis after calls [Chart.Calculate()](../../chart/calculate/) method. Only applies to Area chart.
+Gets y-coordinate of the point on category axis after calling the [Chart.Calculate()](../../chart/calculate/) method. Only applies to Area chart.
 
 ```cpp
 float Aspose::Cells::Charts::ChartPoint::GetOnCategoryAxisPointYPx(int32_t index)

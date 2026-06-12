@@ -1,13 +1,13 @@
 ---
 title: SeriesCollection.SetSeriesNames
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesCollection method. Sets the name of all the serieses in the chart
+description: SeriesCollection method. Sets the names of all the series in the chart
 type: docs
 url: /net/aspose.cells.charts/seriescollection/setseriesnames/
 ---
 ## SeriesCollection.SetSeriesNames method
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 ```csharp
 public void SetSeriesNames(int startIndex, string area, bool isVertical)

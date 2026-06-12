@@ -23,7 +23,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | [ErrorBar(ErrorBar_Impl* impl)](./errorbar/) | Constructs from an implementation object. |
 | [ErrorBar(const ErrorBar\& src)](./errorbar/) | Copy constructor. |
 | [ErrorBar(const Line\& src)](./errorbar/) | Constructs from a parent object. |
-| [GetAmount()](./getamount/) | Represents amount of error bar. |
+| [GetAmount()](./getamount/) | Represents the amount of error bar. |
 | [GetBeginArrowLength()](../../aspose.cells.drawing/line/getbeginarrowlength/) | Specifies the length of the arrowhead for the begin of a line. |
 | [GetBeginArrowWidth()](../../aspose.cells.drawing/line/getbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [GetBeginType()](../../aspose.cells.drawing/line/getbegintype/) | Specifies an arrowhead for the begin of a line. |
@@ -57,7 +57,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ErrorBar\& src)](./operator_asm/) | operator= |
 | [operator=(const Line\& src)](../../aspose.cells.drawing/line/operator_asm/) | operator= |
-| [SetAmount(double value)](./setamount/) | Represents amount of error bar. |
+| [SetAmount(double value)](./setamount/) | Represents the amount of error bar. |
 | [SetBeginArrowLength(MsoArrowheadLength value)](../../aspose.cells.drawing/line/setbeginarrowlength/) | Specifies the length of the arrowhead for the begin of a line. |
 | [SetBeginArrowWidth(MsoArrowheadWidth value)](../../aspose.cells.drawing/line/setbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [SetBeginType(MsoArrowheadStyle value)](../../aspose.cells.drawing/line/setbegintype/) | Specifies an arrowhead for the begin of a line. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ErrorBar::SetAmount method
 linktitle: SetAmount
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ErrorBar::SetAmount method. Represents amount of error bar in C++.'
+description: 'Aspose::Cells::Charts::ErrorBar::SetAmount method. Represents the amount of error bar in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.charts/errorbar/setamount/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/errorbar/setamount/
 ## ErrorBar::SetAmount method
 
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 ```cpp
 void Aspose::Cells::Charts::ErrorBar::SetAmount(double value)

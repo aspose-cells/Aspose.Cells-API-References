@@ -62,6 +62,7 @@ public class WorkbookSettings : IDisposable
 | [RemovePersonalInformation](../../aspose.cells/workbooksettings/removepersonalinformation/) { get; set; } | True if personal information can be removed from the specified workbook. |
 | [RepairLoad](../../aspose.cells/workbooksettings/repairload/) { get; set; } | Indicates whether the application last opened the workbook in safe or repair mode. |
 | [ResourceProvider](../../aspose.cells/workbooksettings/resourceprovider/) { get; set; } | Gets and sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [ShapeDisplayType](../../aspose.cells/workbooksettings/shapedisplaytype/) { get; set; } | Gets and sets how the application displays shapes in this workbook |
 | [Shared](../../aspose.cells/workbooksettings/shared/) { get; set; } | Gets or sets a value that indicates whether the Workbook is shared. |
 | [SheetTabBarWidth](../../aspose.cells/workbooksettings/sheettabbarwidth/) { get; set; } | Width of worksheet tab bar (in 1/1000 of window width). |
 | [ShowTabs](../../aspose.cells/workbooksettings/showtabs/) { get; set; } | Get or sets a value whether the Workbook tabs are displayed. |

@@ -78,6 +78,7 @@ summary description of Slicer View
 | Method | Description |
 | --- | --- |
 | [addPivotConnection(PivotTable pivot)](#addPivotConnection-com.aspose.cells.PivotTable-) | Adds PivotTable connection. |
+| [clearFilter()](#clearFilter--) | Remove filters |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [getCaption()](#getCaption--) | Returns or sets the caption of the specified slicer. |
@@ -115,8 +116,9 @@ summary description of Slicer View
 | [isPrintable()](#isPrintable--) | Indicates whether the slicer object is printable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [refresh()](#refresh--) | Refreshing the slicer. |
+| [refresh()](#refresh--) | Refreshing the items of the slicer from the associated pivot tables. |
 | [removePivotConnection(PivotTable pivot)](#removePivotConnection-com.aspose.cells.PivotTable-) | Removes PivotTable connection. |
+| [selectItems(String[] labels, boolean append)](#selectItems-java.lang.String---boolean-) | **Remarks** |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified slicer. |
 | [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible. |
@@ -167,6 +169,14 @@ Adds PivotTable connection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | The PivotTable object |
+
+### clearFilter() {#clearFilter--}
+```
+public void clearFilter()
+```
+
+
+Remove filters
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -773,7 +783,7 @@ public void refresh()
 ```
 
 
-Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
+Refreshing the items of the slicer from the associated pivot tables.
 
 **Example**
 
@@ -799,6 +809,22 @@ Removes PivotTable connection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | The PivotTable object |
+
+### selectItems(String[] labels, boolean append) {#selectItems-java.lang.String---boolean-}
+```
+public void selectItems(String[] labels, boolean append)
+```
+
+
+**Remarks**
+
+If you want to select all items, please use [clearFilter()](../../com.aspose.cells/slicer\#clearFilter--) method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| labels | java.lang.String[] | Selected labels. |
+| append | boolean | False means only selecting these labels and unselecting others. True means keeping old selected items and selecting these labels. |
 
 ### setAlternativeText(String value) {#setAlternativeText-java.lang.String-}
 ```

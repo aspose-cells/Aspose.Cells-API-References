@@ -21,9 +21,9 @@ class Marker;
 | --- | --- | --- |
 | [border](#border--)| Line | Readonly. Gets the <see cref="Line">border</see>. |
 | [area](#area--)| Area | Readonly. Gets the <see cref="Area">area</see>. |
-| [markerStyle](#markerStyle--)| ChartMarkerType | Represents the marker style. Applies to line chart, scatter chart, or radar chart. |
+| [markerStyle](#markerStyle--)| ChartMarkerType | Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart. |
 | [markerSize](#markerSize--)| number | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. |
-| [markerSizePx](#markerSizePx--)| number | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. |
+| [markerSizePx](#markerSizePx--)| number | Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts. |
 | [foregroundColor](#foregroundColor--)| Color | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [foregroundColorSetType](#foregroundColorSetType--)| FormattingType | Gets or sets the marker foreground color set type. |
 | [backgroundColor](#backgroundColor--)| Color | Represents the marker background color in a line chart, scatter chart, or radar chart. |
@@ -50,7 +50,7 @@ area : Area;
 
 ### markerStyle {#markerStyle--}
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```javascript
 markerStyle : ChartMarkerType;
@@ -68,7 +68,7 @@ markerSize : number;
 
 ### markerSizePx {#markerSizePx--}
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```javascript
 markerSizePx : number;

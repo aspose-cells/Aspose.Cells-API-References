@@ -127,7 +127,7 @@ namespace AsposeCellsExamples
 
 ## ToPdf(Stream) {#topdf}
 
-Creates the chart pdf and saves it to a stream.
+Creates the chart PDF and saves it to a stream.
 
 ```csharp
 public void ToPdf(Stream stream)

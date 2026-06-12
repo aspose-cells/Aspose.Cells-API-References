@@ -4,7 +4,7 @@ linktitle: PowerQueryFormulaType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaType enum. Represents the type of power query formula in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.querytables/powerqueryformulatype/
 ---
 ## PowerQueryFormulaType enum

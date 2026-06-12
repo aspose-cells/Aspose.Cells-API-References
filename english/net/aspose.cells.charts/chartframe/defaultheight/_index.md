@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.DefaultHeight
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Represents height of default position in units of 1/4000 of the chart area
+description: ChartFrame property. Represents height of the default position in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartframe/defaultheight/
 ---
 ## ChartFrame.DefaultHeight property
 
-Represents height of default position in units of 1/4000 of the chart area.
+Represents height of the default position in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use ChartFrame.DefaultHeightRatioToChart property, instead.")]

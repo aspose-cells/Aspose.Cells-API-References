@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.YRatioToChart
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area
+description: ChartFrame property. Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartframe/yratiotochart/
 ---
 ## ChartFrame.YRatioToChart property
 
-Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 ```csharp
 public virtual double YRatioToChart { get; set; }

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SeriesCollection::SetSeriesNames method
 linktitle: SetSeriesNames
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SeriesCollection::SetSeriesNames method. Sets the name of all the serieses in the chart in C++.'
+description: 'Aspose::Cells::Charts::SeriesCollection::SetSeriesNames method. Sets the names of all the series in the chart in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells.charts/seriescollection/setseriesnames/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/seriescollection/setseriesnames/
 ## SeriesCollection::SetSeriesNames(int32_t, const U16String\&, bool) method
 
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 ```cpp
 void Aspose::Cells::Charts::SeriesCollection::SetSeriesNames(int32_t startIndex, const U16String &area, bool isVertical)
@@ -43,7 +43,7 @@ If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$
 ## SeriesCollection::SetSeriesNames(int32_t, const char16_t*, bool) method
 
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 ```cpp
 void Aspose::Cells::Charts::SeriesCollection::SetSeriesNames(int32_t startIndex, const char16_t *area, bool isVertical)

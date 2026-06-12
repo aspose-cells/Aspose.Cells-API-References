@@ -31,7 +31,7 @@ class ChartPointCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ChartPointCollection\& src)](./operator_asm/) | operator= |
-| [RemoveAt(int32_t index)](./removeat/) | Removes point at the index of the series.. |
+| [RemoveAt(int32_t index)](./removeat/) | Removes point at the index of the series. |
 | [~ChartPointCollection()](./~chartpointcollection/) | Destructor. |
 ## Fields
 

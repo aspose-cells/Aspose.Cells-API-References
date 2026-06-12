@@ -19,7 +19,7 @@ Represents the position type of tick-mark labels on the specified axis.
 | --- | --- |
 | [HIGH](#HIGH) | Position type is high. |
 | [LOW](#LOW) | Position type is low. |
-| [NEXT_TO_AXIS](#NEXT-TO-AXIS) | Position type is next to axis. |
+| [NEXT_TO_AXIS](#NEXT-TO-AXIS) | Position type is next to the axis. |
 | [NONE](#NONE) | Position type is none. |
 ## Methods
 
@@ -56,7 +56,7 @@ public static final int NEXT_TO_AXIS
 ```
 
 
-Position type is next to axis.
+Position type is next to the axis.
 
 ### NONE {#NONE}
 ```

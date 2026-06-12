@@ -1,13 +1,13 @@
 ---
 title: Slicer.Refresh
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer method. Refreshing the slicer. Meanwhile Refreshing and Calculating PivotTables which this slicer based on
+description: Slicer method. Refreshing the items of the slicer from the associated pivot tables
 type: docs
 url: /net/aspose.cells.slicers/slicer/refresh/
 ---
 ## Slicer.Refresh method
 
-Refreshing the slicer. Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
+Refreshing the items of the slicer from the associated pivot tables.
 
 ```csharp
 public void Refresh()

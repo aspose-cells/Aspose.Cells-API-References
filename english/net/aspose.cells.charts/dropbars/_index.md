@@ -1,13 +1,13 @@
 ---
 title: Class DropBars
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.DropBars class. Represents the up/down bars in a chart
+description: Aspose.Cells.Charts.DropBars class. Represents the up and down bars in a chart
 type: docs
 url: /net/aspose.cells.charts/dropbars/
 ---
 ## DropBars class
 
-Represents the up/down bars in a chart.
+Represents the up and down bars in a chart.
 
 ```csharp
 public class DropBars

@@ -12,6 +12,6 @@ Represents the text alignment type for the tick labels on the axis
 | Name | Value | Description |
 | --- | --- | --- |
 | Center | `0` | Specifies that the text is centered. |
-| Left | `1` | Specifies that the text is left-aligned.. |
+| Left | `1` | Specifies that the text is left-aligned. |
 | Right | `2` | Specifies that the text is right-aligned.. |
 

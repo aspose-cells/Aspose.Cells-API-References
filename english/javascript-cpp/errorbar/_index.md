@@ -59,7 +59,7 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | --- | --- | --- |
 | [type](#type--)| ErrorBarType | Represents error bar amount type. |
 | [displayType](#displayType--)| ErrorBarDisplayType | Represents the display type of error bar. |
-| [amount](#amount--)| number | Represents amount of error bar. |
+| [amount](#amount--)| number | Represents the amount of error bar. |
 | [showMarkerTTop](#showMarkerTTop--)| boolean | Indicates if formatting error bars with a T-top. |
 | [plusValue](#plusValue--)| string | Represents positive error amount when error bar type is Custom. |
 | [minusValue](#minusValue--)| string | Represents negative error amount when error bar type is Custom. |
@@ -154,7 +154,7 @@ displayType : ErrorBarDisplayType;
 
 ### amount {#amount--}
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 ```javascript
 amount : number;

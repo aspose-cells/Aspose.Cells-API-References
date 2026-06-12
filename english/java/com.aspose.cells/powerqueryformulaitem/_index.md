@@ -19,9 +19,15 @@ Represents the item of the power query formula.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getItemType()](#getItemType--) | Gets the type of this item (Function, Parameter, List, Literal, or Unknown). |
 | [getName()](#getName--) | Gets the name of the item. |
+| [getTextValue()](#getTextValue--) | Gets the text value of the item. |
 | [getValue()](#getValue--) | Gets the value of the item. |
 | [hashCode()](#hashCode--) |  |
+| [isFunction()](#isFunction--) | Gets whether this item is a function. |
+| [isList()](#isList--) | Gets whether this item is a list. |
+| [isLiteral()](#isLiteral--) | Gets whether this item is a literal value. |
+| [isParameter()](#isParameter--) | Gets whether this item is a parameter. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setValue(String value)](#setValue-java.lang.String-) | Gets the value of the item. |
@@ -54,6 +60,18 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getItemType() {#getItemType--}
+```
+public int getItemType()
+```
+
+
+Gets the type of this item (Function, Parameter, List, Literal, or Unknown).
+
+See [PowerQueryFormulaItemType](../../com.aspose.cells/powerqueryformulaitemtype).
+
+**Returns:**
+int
 ### getName() {#getName--}
 ```
 public String getName()
@@ -61,6 +79,16 @@ public String getName()
 
 
 Gets the name of the item.
+
+**Returns:**
+java.lang.String
+### getTextValue() {#getTextValue--}
+```
+public String getTextValue()
+```
+
+
+Gets the text value of the item.
 
 **Returns:**
 java.lang.String
@@ -84,6 +112,46 @@ public native int hashCode()
 
 **Returns:**
 int
+### isFunction() {#isFunction--}
+```
+public boolean isFunction()
+```
+
+
+Gets whether this item is a function.
+
+**Returns:**
+boolean
+### isList() {#isList--}
+```
+public boolean isList()
+```
+
+
+Gets whether this item is a list.
+
+**Returns:**
+boolean
+### isLiteral() {#isLiteral--}
+```
+public boolean isLiteral()
+```
+
+
+Gets whether this item is a literal value.
+
+**Returns:**
+boolean
+### isParameter() {#isParameter--}
+```
+public boolean isParameter()
+```
+
+
+Gets whether this item is a parameter.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()

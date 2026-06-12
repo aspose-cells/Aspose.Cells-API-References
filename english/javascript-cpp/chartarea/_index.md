@@ -65,37 +65,37 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [background](#background--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
-| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents the y of the default position in units of 1/4000 of the chart area. |
 | [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
-| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of the default position in units of 1/4000 of the chart area. |
 | [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
-| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of the default position in units of the fraction of the chart area. |
 | [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
-| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of the default position in units of the fraction of the chart area. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getX()](#getX--)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
-| [setX(number)](#setX-number-)| Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [getX()](#getX--)| Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area. |
+| [setX(number)](#setX-number-)| Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area. |
 | [getY()](#getY--)| Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
 | [setY(number)](#setY-number-)| Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
-| [getHeight()](#getHeight--)| Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
-| [setHeight(number)](#setHeight-number-)| Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--)| Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area. |
+| [setHeight(number)](#setHeight-number-)| Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area. |
 | [getWidth()](#getWidth--)| Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
 | [setWidth(number)](#setWidth-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
-| [getXRatioToChart()](#getXRatioToChart--)| Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
-| [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [getXRatioToChart()](#getXRatioToChart--)| Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area. |
+| [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area. |
 | [getYRatioToChart()](#getYRatioToChart--)| Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [getHeightRatioToChart()](#getHeightRatioToChart--)| Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
 | [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified chartarea object. |
+| [getFont()](#getFont--)| Gets a <see cref=Font"/> object of the specified ChartArea object. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -105,12 +105,12 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [setIsAutomaticSize(boolean)](#setIsAutomaticSize-boolean-)| Indicates whether the chart frame is automatic sized. |
 | [getXPixel()](#getXPixel--)| Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [setXPixel(number)](#setXPixel-number-)| Gets or sets the x coordinate of the upper left corner in units of Pixel. |
-| [getYPixel()](#getYPixel--)| Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [setYPixel(number)](#setYPixel-number-)| Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [getYPixel()](#getYPixel--)| Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [setYPixel(number)](#setYPixel-number-)| Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [getWidthPixel()](#getWidthPixel--)| Gets or sets the width of frame in units of Pixel. |
 | [setWidthPixel(number)](#setWidthPixel-number-)| Gets or sets the width of frame in units of Pixel. |
-| [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of frame in units of Pixel. |
-| [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of frame in units of Pixel. |
+| [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of the frame in units of pixels. |
+| [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of the frame in units of pixels. |
 | [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 
 
@@ -190,7 +190,7 @@ shapeProperties : ShapePropertyCollection;
 
 ### isDefaultPosBeSet {#isDefaultPosBeSet--}
 
-Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 ```javascript
 isDefaultPosBeSet : boolean;
@@ -212,7 +212,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart pr
 
 ### defaultY {#defaultY--}
 
-Readonly. Represents y of default position in units of 1/4000 of the chart area.
+Readonly. Represents the y of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 defaultY : number;
@@ -238,7 +238,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChar
 
 ### defaultHeight {#defaultHeight--}
 
-Readonly. Represents height of default position in units of 1/4000 of the chart area.
+Readonly. Represents height of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 defaultHeight : number;
@@ -260,7 +260,7 @@ defaultXRatioToChart : number;
 
 ### defaultYRatioToChart {#defaultYRatioToChart--}
 
-Readonly. Represents y of default position in units of Fraction of the chart area.
+Readonly. Represents y of the default position in units of the fraction of the chart area.
 
 ```javascript
 defaultYRatioToChart : number;
@@ -278,7 +278,7 @@ defaultWidthRatioToChart : number;
 
 ### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
 
-Readonly. Represents height of default position in units of Fraction of the chart area.
+Readonly. Represents height of the default position in units of the fraction of the chart area.
 
 ```javascript
 defaultHeightRatioToChart : number;
@@ -287,7 +287,7 @@ defaultHeightRatioToChart : number;
 
 ### getX() {#getX--}
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 ```javascript
 getX() : number;
@@ -300,7 +300,7 @@ NOTE: This member is now obsolete. Please use ChartArea.XRatioToChart property, 
 
 ### setX(number) {#setX-number-}
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 ```javascript
 setX(value: number) : void;
@@ -347,7 +347,7 @@ NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, 
 
 ### getHeight() {#getHeight--}
 
-Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area.
 
 ```javascript
 getHeight() : number;
@@ -360,7 +360,7 @@ NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart prope
 
 ### setHeight(number) {#setHeight-number-}
 
-Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
+Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area.
 
 ```javascript
 setHeight(value: number) : void;
@@ -407,7 +407,7 @@ NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart proper
 
 ### getXRatioToChart() {#getXRatioToChart--}
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 ```javascript
 getXRatioToChart() : number;
@@ -416,7 +416,7 @@ getXRatioToChart() : number;
 
 ### setXRatioToChart(number) {#setXRatioToChart-number-}
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 ```javascript
 setXRatioToChart(value: number) : void;
@@ -495,7 +495,7 @@ setWidthRatioToChart(value: number) : void;
 
 ### getFont() {#getFont--}
 
-Gets a [Font](../font/) object of the specified chartarea object.
+Gets a <see cref=Font"/> object of the specified ChartArea object.
 
 ```javascript
 getFont() : Font;
@@ -613,7 +613,7 @@ setXPixel(value: number) : void;
 
 ### getYPixel() {#getYPixel--}
 
-Gets or sets the y coordinate of the upper left corner in units of Pixel.
+Gets or sets the y coordinate of the upper left corner in units of pixels.
 
 ```javascript
 getYPixel() : number;
@@ -622,7 +622,7 @@ getYPixel() : number;
 
 ### setYPixel(number) {#setYPixel-number-}
 
-Gets or sets the y coordinate of the upper left corner in units of Pixel.
+Gets or sets the y coordinate of the upper left corner in units of pixels.
 
 ```javascript
 setYPixel(value: number) : void;
@@ -657,7 +657,7 @@ setWidthPixel(value: number) : void;
 
 ### getHeightPixel() {#getHeightPixel--}
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```javascript
 getHeightPixel() : number;
@@ -666,7 +666,7 @@ getHeightPixel() : number;
 
 ### setHeightPixel(number) {#setHeightPixel-number-}
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```javascript
 setHeightPixel(value: number) : void;

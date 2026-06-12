@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormulaItem::_impl field. The implementation object in C++.'
 type: docs
-weight: 900
+weight: 1500
 url: /cpp/aspose.cells.querytables/powerqueryformulaitem/_impl/
 ---
 ## _impl field

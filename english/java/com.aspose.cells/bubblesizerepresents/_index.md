@@ -17,7 +17,7 @@ Represents what the bubble size represents on a bubble chart.
 
 | Field | Description |
 | --- | --- |
-| [SIZE_IS_AREA](#SIZE-IS-AREA) | Represents the value of [Series.getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is area of the bubble. |
+| [SIZE_IS_AREA](#SIZE-IS-AREA) | Represents the value of [Series.getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--), which is the area of the bubble. |
 | [SIZE_IS_WIDTH](#SIZE-IS-WIDTH) | Represents the value of [Series.getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is width of the bubble. |
 ## Methods
 
@@ -38,7 +38,7 @@ public static final int SIZE_IS_AREA
 ```
 
 
-Represents the value of [Series.getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is area of the bubble.
+Represents the value of [Series.getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--), which is the area of the bubble.
 
 ### SIZE_IS_WIDTH {#SIZE-IS-WIDTH}
 ```

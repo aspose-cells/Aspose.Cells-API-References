@@ -68,6 +68,7 @@ Represents all settings of the workbook.
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--) | True if personal information can be removed from the specified workbook. |
 | [getRepairLoad()](#getRepairLoad--) | Indicates whether the application last opened the workbook in safe or repair mode. |
 | [getResourceProvider()](#getResourceProvider--) | Gets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [getShapeDisplayType()](#getShapeDisplayType--) | Gets how the application displays shapes in this workbook |
 | [getShared()](#getShared--) | Gets a value that indicates whether the Workbook is shared. |
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [getShowTabs()](#getShowTabs--) | Gets a value whether the Workbook tabs are displayed. |
@@ -141,6 +142,7 @@ Represents all settings of the workbook.
 | [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | True if personal information can be removed from the specified workbook. |
 | [setRepairLoad(boolean value)](#setRepairLoad-boolean-) | Indicates whether the application last opened the workbook in safe or repair mode. |
 | [setResourceProvider(IStreamProvider value)](#setResourceProvider-com.aspose.cells.IStreamProvider-) | Sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [setShapeDisplayType(int value)](#setShapeDisplayType-int-) | Sets how the application displays shapes in this workbook |
 | [setShared(boolean value)](#setShared-boolean-) | Sets a value that indicates whether the Workbook is shared. |
 | [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [setShowTabs(boolean value)](#setShowTabs-boolean-) | Sets a value whether the Workbook tabs are displayed. |
@@ -643,6 +645,18 @@ Gets the stream provider for external resource, such as loading image data for p
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
+### getShapeDisplayType() {#getShapeDisplayType--}
+```
+public int getShapeDisplayType()
+```
+
+
+Gets how the application displays shapes in this workbook
+
+See [ShapeDisplayType](../../com.aspose.cells/shapedisplaytype).
+
+**Returns:**
+int
 ### getShared() {#getShared--}
 ```
 public boolean getShared()
@@ -1610,6 +1624,21 @@ Sets the stream provider for external resource, such as loading image data for p
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IStreamProvider](../../com.aspose.cells/istreamprovider) |  |
+
+### setShapeDisplayType(int value) {#setShapeDisplayType-int-}
+```
+public void setShapeDisplayType(int value)
+```
+
+
+Sets how the application displays shapes in this workbook
+
+See [ShapeDisplayType](../../com.aspose.cells/shapedisplaytype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setShared(boolean value) {#setShared-boolean-}
 ```

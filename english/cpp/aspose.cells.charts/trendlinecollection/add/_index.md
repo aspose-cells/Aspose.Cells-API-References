@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::TrendlineCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TrendlineCollection::Add method. Adds a Trendline object to this collection with specified type in C++.'
+description: 'Aspose::Cells::Charts::TrendlineCollection::Add method. Adds a Trendline object to this collection with the specified type in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.charts/trendlinecollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/trendlinecollection/add/
 ## TrendlineCollection::Add(TrendlineType) method
 
 
-Adds a [Trendline](../../trendline/) object to this collection with specified type.
+Adds a [Trendline](../../trendline/) object to this collection with the specified type.
 
 ```cpp
 int32_t Aspose::Cells::Charts::TrendlineCollection::Add(TrendlineType type)

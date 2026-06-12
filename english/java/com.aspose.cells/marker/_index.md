@@ -26,7 +26,7 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | [getForegroundColor()](#getForegroundColor--) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [getForegroundColorSetType()](#getForegroundColorSetType--) | Gets the marker foreground color set type. |
 | [getMarkerSize()](#getMarkerSize--) | Represents the marker size in unit of points. |
-| [getMarkerSizePx()](#getMarkerSizePx--) | Represents the marker size in unit of pixels. |
+| [getMarkerSizePx()](#getMarkerSizePx--) | Represents the marker size in units of pixels. |
 | [getMarkerStyle()](#getMarkerStyle--) | Represents the marker style. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -36,7 +36,7 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
 | [setForegroundColorSetType(int value)](#setForegroundColorSetType-int-) | Sets the marker foreground color set type. |
 | [setMarkerSize(int value)](#setMarkerSize-int-) | Represents the marker size in unit of points. |
-| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | Represents the marker size in unit of pixels. |
+| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | Represents the marker size in units of pixels. |
 | [setMarkerStyle(int value)](#setMarkerStyle-int-) | Represents the marker style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -147,7 +147,7 @@ public int getMarkerSizePx()
 ```
 
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 **Returns:**
 int
@@ -157,7 +157,7 @@ public int getMarkerStyle()
 ```
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 See [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
 
@@ -264,7 +264,7 @@ public void setMarkerSizePx(int value)
 ```
 
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public void setMarkerStyle(int value)
 ```
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 See [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
 

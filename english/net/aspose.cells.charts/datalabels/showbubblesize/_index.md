@@ -1,13 +1,13 @@
 ---
 title: DataLabels.ShowBubbleSize
 second_title: Aspose.Cells for .NET API Reference
-description: DataLabels property. Represents a specified charts data label percentage value display behavior. True displays the percentage value. False to hide
+description: DataLabels property. Represents a specified charts data label percentage value display behavior. True displays the percentage value. False hides the percentage value
 type: docs
 url: /net/aspose.cells.charts/datalabels/showbubblesize/
 ---
 ## DataLabels.ShowBubbleSize property
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }

@@ -53,7 +53,7 @@ public class ListObjectCollection : CollectionBase<ListObject>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListObject) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListObject, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListObject, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [RemoveAt](../../aspose.cells.tables/listobjectcollection/removeat/#removeat)(int) | Remove [`ListObject`](../listobject/) by index. (2 methods) |
 | [UpdateColumnName](../../aspose.cells.tables/listobjectcollection/updatecolumnname/)() | Update all column name of the tables. |
 
 ### Examples

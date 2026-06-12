@@ -25,18 +25,18 @@ Encapsulates the object that represents the frame object in a chart.
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
-| [getDefaultHeight()](#getDefaultHeight--) | Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of default position in units of Fraction of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--) | Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultY()](#getDefaultY--) | Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
-| [getHeightPixel()](#getHeightPixel--) | Gets the height of frame in units of Pixel. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of frame in units of ratio of the chart area. |
+| [getHeight()](#getHeight--) | Gets the height of the frame in units of 1/4000 of the chart area. |
+| [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the frame in units of the ratio of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
@@ -48,11 +48,11 @@ Encapsulates the object that represents the frame object in a chart.
 | [getXPixel()](#getXPixel--) | Gets the x coordinate of the upper left corner in units of Pixel. |
 | [getXRatioToChart()](#getXRatioToChart--) | Gets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of Pixel. |
-| [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of pixels. |
+| [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,9 +60,9 @@ Encapsulates the object that represents the frame object in a chart.
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
 | [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
-| [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
-| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of frame in units of ratio of the chart area. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the frame in units of 1/4000 of the chart area. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of the frame in units of pixels. |
+| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of the frame in units of the ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
@@ -73,8 +73,8 @@ Encapsulates the object that represents the frame object in a chart.
 | [setXPixel(int value)](#setXPixel-int-) | Sets the x coordinate of the upper left corner in units of Pixel. |
 | [setXRatioToChart(double value)](#setXRatioToChart-double-) | Sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [setY(int value)](#setY-int-) | Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of Pixel. |
-| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of pixels. |
+| [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -182,7 +182,7 @@ public int getDefaultHeight()
 ```
 
 
-Represents height of default position in units of 1/4000 of the chart area.
+Represents height of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -196,7 +196,7 @@ public double getDefaultHeightRatioToChart()
 ```
 
 
-Represents height of default position in units of Fraction of the chart area.
+Represents height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -254,7 +254,7 @@ public int getDefaultY()
 ```
 
 
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -268,7 +268,7 @@ public double getDefaultYRatioToChart()
 ```
 
 
-Represents y of default position in units of Fraction of the chart area.
+Represents y of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -288,7 +288,7 @@ public int getHeight()
 ```
 
 
-Gets the height of frame in units of 1/4000 of the chart area.
+Gets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -302,7 +302,7 @@ public int getHeightPixel()
 ```
 
 
-Gets the height of frame in units of Pixel.
+Gets the height of the frame in units of pixels.
 
 **Returns:**
 int
@@ -312,7 +312,7 @@ public double getHeightRatioToChart()
 ```
 
 
-Gets the height of frame in units of ratio of the chart area.
+Gets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -464,7 +464,7 @@ public int getYPixel()
 ```
 
 
-Gets the y coordinate of the upper left corner in units of Pixel.
+Gets the y coordinate of the upper left corner in units of pixels.
 
 **Returns:**
 int
@@ -474,7 +474,7 @@ public double getYRatioToChart()
 ```
 
 
-Gets the y coordinate of the upper left corner in units of ratio of the chart area.
+Gets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -508,7 +508,7 @@ public boolean isDefaultPosBeSet()
 ```
 
 
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean
@@ -612,7 +612,7 @@ public void setHeight(int value)
 ```
 
 
-Sets the height of frame in units of 1/4000 of the chart area.
+Sets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
@@ -629,7 +629,7 @@ public void setHeightPixel(int value)
 ```
 
 
-Sets the height of frame in units of Pixel.
+Sets the height of the frame in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -642,7 +642,7 @@ public void setHeightRatioToChart(double value)
 ```
 
 
-Sets the height of frame in units of ratio of the chart area.
+Sets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
@@ -812,7 +812,7 @@ public void setYPixel(int value)
 ```
 
 
-Sets the y coordinate of the upper left corner in units of Pixel.
+Sets the y coordinate of the upper left corner in units of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -825,7 +825,7 @@ public void setYRatioToChart(double value)
 ```
 
 
-Sets the y coordinate of the upper left corner in units of ratio of the chart area.
+Sets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 **Remarks**
 

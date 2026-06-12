@@ -17,10 +17,10 @@ Represents the way the two sections of either a pie of pie chart or a bar of pie
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Represents the data points shall be split using the default mechanism for this chart type. |
+| [AUTO](#AUTO) | Represents the data points that shall be split using the default mechanism for this chart type. |
 | [CUSTOM](#CUSTOM) | Represents the data points shall be split between the pie and the second chart according to the Custom Split values. |
-| [PERCENT_VALUE](#PERCENT-VALUE) | Represents the data points shall be split between the pie and the second chart by putting the points with percentage less than Split Position percent in the second chart. |
-| [POSITION](#POSITION) | Represents the data points shall be split between the pie and the second chart by putting the last Split Position of the data points in the second chart |
+| [PERCENT_VALUE](#PERCENT-VALUE) | Represents the data points that shall be split between the pie and the second chart by putting the points with a percentage less than the Split Position percent in the second chart. |
+| [POSITION](#POSITION) | Represents the data points. |
 | [VALUE](#VALUE) | Represents the data points shall be split between the pie and the second chart by putting the data points with value less than Split Position in the second chart. |
 ## Methods
 
@@ -41,7 +41,7 @@ public static final int AUTO
 ```
 
 
-Represents the data points shall be split using the default mechanism for this chart type.
+Represents the data points that shall be split using the default mechanism for this chart type.
 
 **Remarks**
 
@@ -61,7 +61,7 @@ public static final int PERCENT_VALUE
 ```
 
 
-Represents the data points shall be split between the pie and the second chart by putting the points with percentage less than Split Position percent in the second chart.
+Represents the data points that shall be split between the pie and the second chart by putting the points with a percentage less than the Split Position percent in the second chart.
 
 ### POSITION {#POSITION}
 ```
@@ -69,7 +69,7 @@ public static final int POSITION
 ```
 
 
-Represents the data points shall be split between the pie and the second chart by putting the last Split Position of the data points in the second chart
+Represents the data points. The data points shall be split between the pie and the second chart by putting the last split position of the data points in the second chart.
 
 ### VALUE {#VALUE}
 ```

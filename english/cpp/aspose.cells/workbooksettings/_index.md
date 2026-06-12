@@ -57,6 +57,7 @@ class WorkbookSettings
 | [GetRegion()](./getregion/) | Gets or sets the regional settings for workbook. |
 | [GetRemovePersonalInformation()](./getremovepersonalinformation/) | True if personal information can be removed from the specified workbook. |
 | [GetRepairLoad()](./getrepairload/) | Indicates whether the application last opened the workbook in safe or repair mode. |
+| [GetShapeDisplayType()](./getshapedisplaytype/) | Gets and sets how the application displays shapes in this workbook. |
 | [GetShared()](./getshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [GetSheetTabBarWidth()](./getsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [GetShowTabs()](./getshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
@@ -130,6 +131,7 @@ class WorkbookSettings
 | [SetRegion(CountryCode value)](./setregion/) | Gets or sets the regional settings for workbook. |
 | [SetRemovePersonalInformation(bool value)](./setremovepersonalinformation/) | True if personal information can be removed from the specified workbook. |
 | [SetRepairLoad(bool value)](./setrepairload/) | Indicates whether the application last opened the workbook in safe or repair mode. |
+| [SetShapeDisplayType(ShapeDisplayType value)](./setshapedisplaytype/) | Gets and sets how the application displays shapes in this workbook. |
 | [SetShared(bool value)](./setshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [SetSheetTabBarWidth(int32_t value)](./setsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [SetShowTabs(bool value)](./setshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |

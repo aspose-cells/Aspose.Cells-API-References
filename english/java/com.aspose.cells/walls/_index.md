@@ -21,24 +21,24 @@ Encapsulates the object that represents the walls of a 3-D chart.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [getBorder()](#getBorder--) | Gets the border [Line](../../com.aspose.cells/line). |
 | [getCenterX()](#getCenterX--) | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getCenterXPx()](#getCenterXPx--) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
-| [getCenterY()](#getCenterY--) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
+| [getCenterXPx()](#getCenterXPx--) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
+| [getCenterY()](#getCenterY--) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
 | [getCenterYPx()](#getCenterYPx--) | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [getClass()](#getClass--) |  |
 | [getCubePointCount()](#getCubePointCount--) | Gets the number of cube points after calls Chart.Calculate() method. |
-| [getCubePointXPx(int index)](#getCubePointXPx-int-) | Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method. |
+| [getCubePointXPx(int index)](#getCubePointXPx-int-) | Gets x-coordinate of the apex point of walls cube after calling the Chart.Calculate() method. |
 | [getCubePointYPx(int index)](#getCubePointYPx-int-) | Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate() method. |
-| [getDepth()](#getDepth--) | Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [getDepth()](#getDepth--) | Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method. |
 | [getDepthPx()](#getDepthPx--) | Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
 | [getFillFormat()](#getFillFormat--) | Represents a [getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified chart or shape. |
 | [getForegroundColor()](#getForegroundColor--) | Gets the foreground [Color](../../com.aspose.cells/color). |
 | [getFormatting()](#getFormatting--) | Represents the formatting of the area. |
 | [getHeight()](#getHeight--) | Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [getHeightPx()](#getHeightPx--) | Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
+| [getHeightPx()](#getHeightPx--) | Gets the height from top to bottom in units of pixels after calling the Chart.Calculate() method. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getWidth()](#getWidth--) | Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getWidthPx()](#getWidthPx--) | Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
+| [getWidthPx()](#getWidthPx--) | Gets the width of left to right in units of pixels after calling the Chart.Calculate() method. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -103,7 +103,7 @@ public int getCenterXPx()
 ```
 
 
-Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ public int getCenterY()
 ```
 
 
-Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -153,7 +153,7 @@ public float getCubePointXPx(int index)
 ```
 
 
-Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight
+Gets x-coordinate of the apex point of walls cube after calling the Chart.Calculate() method. The number of apex points of walls cube is eight
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +183,7 @@ public int getDepth()
 ```
 
 
-Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -245,7 +245,7 @@ public int getHeightPx()
 ```
 
 
-Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+Gets the height from top to bottom in units of pixels after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -316,7 +316,7 @@ public int getWidthPx()
 ```
 
 
-Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
+Gets the width of left to right in units of pixels after calling the Chart.Calculate() method.
 
 **Returns:**
 int

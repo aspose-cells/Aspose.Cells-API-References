@@ -30,7 +30,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getOffset()](#getOffset--) | Gets the distance of labels from the category axis. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
-| [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
+| [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTickLabelItems()](#getTickLabelItems--) | Gets the display tick labels of the axis. |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [setOffset(int value)](#setOffset-int-) | Sets the distance of labels from the category axis. |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle in clockwise. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle clockwise. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -184,7 +184,7 @@ public int getOffset()
 ```
 
 
-Gets the distance of labels from the category axis. Only for category (x) axis.
+Gets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 **Remarks**
 
@@ -210,7 +210,7 @@ public int getRotationAngle()
 ```
 
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 **Remarks**
 
@@ -412,7 +412,7 @@ public void setOffset(int value)
 ```
 
 
-Sets the distance of labels from the category axis. Only for category (x) axis.
+Sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 **Remarks**
 
@@ -444,7 +444,7 @@ public void setRotationAngle(int value)
 ```
 
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 **Remarks**
 

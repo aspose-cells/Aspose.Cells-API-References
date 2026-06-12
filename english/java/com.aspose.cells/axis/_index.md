@@ -1,7 +1,7 @@
 ---
 title: Axis
 second_title: Aspose.Cells for Java API Reference
-description: Encapsulates the object that represents an axis of chart.
+description: Encapsulates the object that represents an axis of a chart.
 type: docs
 url: /java/com.aspose.cells/axis/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class Axis
 ```
 
-Encapsulates the object that represents an axis of chart.
+Encapsulates the object that represents an axis of a chart.
 
 **Example**
 

@@ -23,6 +23,7 @@ class ListObjectCollection;
 | [get(string)](#get-string-)| Gets the ListObject by specified name. |
 | [add(number, number, number, number, boolean)](#add-number-number-number-number-boolean-)| Adds a ListObject to the worksheet. |
 | [add(string, string, boolean)](#add-string-string-boolean-)| Adds a ListObject to the worksheet. |
+| [removeAt(number)](#removeAt-number-)| Remove [ListObject](../listobject/) by index. |
 | [updateColumnName()](#updateColumnName--)| Update all column name of the tables. |
 
 
@@ -99,6 +100,19 @@ add(startCell: string, endCell: string, hasHeaders: boolean) : number;
 **Returns**
 
 The index of the new ListObject
+
+### removeAt(number) {#removeAt-number-}
+
+Remove [ListObject](../listobject/) by index.
+
+```javascript
+removeAt(index: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index. |
 
 ### updateColumnName() {#updateColumnName--}
 

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::TickLabels::SetRotationAngle method
 linktitle: SetRotationAngle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TickLabels::SetRotationAngle method. Represents text rotation angle in clockwise in C++.'
+description: 'Aspose::Cells::Charts::TickLabels::SetRotationAngle method. Represents text rotation angle clockwise in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/ticklabels/setrotationangle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/ticklabels/setrotationangle/
 ## TickLabels::SetRotationAngle method
 
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 ```cpp
 void Aspose::Cells::Charts::TickLabels::SetRotationAngle(int32_t value)

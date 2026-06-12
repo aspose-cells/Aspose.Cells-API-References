@@ -36,19 +36,19 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBackgroundMode()](./getbackgroundmode/) | Gets and sets the display mode of the background. |
 | [GetBorder()](./getborder/) | Gets the [border](../). |
-| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
+| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
 | [GetDefaultXRatioToChart()](../chartframe/getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. |
-| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents y of default position in units of 1/4000 of the chart area. |
-| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of default position in units of Fraction of the chart area. |
+| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents the y of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of the default position in units of the fraction of the chart area. |
 | [GetDirectionType()](./getdirectiontype/) | Gets and sets the direction of text. |
 | [GetFont()](./getfont/) | Gets the font of the [DataLabels](./);. |
-| [GetHeight()](../chartframe/getheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [GetHeightRatioToChart()](../chartframe/getheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
+| [GetHeight()](../chartframe/getheight/) |  **(Deprecated)** Gets or sets the height of the frame in units of 1/4000 of the chart area. |
+| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [GetHeightRatioToChart()](../chartframe/getheightratiotochart/) | Gets or sets the height of the frame in units of the ratio of the chart area. |
 | [GetLinkedSource()](../charttextframe/getlinkedsource/) | Gets and sets a reference to the worksheet. |
 | [GetNumber()](./getnumber/) | Gets and sets the built-in number format. |
 | [GetNumberFormatLinked()](./getnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
@@ -60,14 +60,14 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [GetShadow()](../chartframe/getshadow/) | True if the frame has a shadow. |
 | [GetShapeProperties()](../chartframe/getshapeproperties/) | Gets the ShapeProperties object. |
 | [GetShapeType()](./getshapetype/) | Gets or sets shape type of data label. |
-| [GetShowBubbleSize()](./getshowbubblesize/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [GetShowBubbleSize()](./getshowbubblesize/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value. |
 | [GetShowCategoryName()](./getshowcategoryname/) | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [GetShowCellRange()](./getshowcellrange/) | Indicates whether showing cell range as the data labels. |
+| [GetShowCellRange()](./getshowcellrange/) | Indicates whether to show cell range as the data labels. |
 | [GetShowLegendKey()](./getshowlegendkey/) | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [GetShowPercentage()](./getshowpercentage/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [GetShowSeriesName()](./getshowseriesname/) | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [GetShowSeriesName()](./getshowseriesname/) | Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide. |
 | [GetShowValue()](./getshowvalue/) | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [GetText()](./gettext/) | Gets or sets the text of data label. |
+| [GetText()](./gettext/) | Gets or sets the text of the data label. |
 | [GetTextHorizontalAlignment()](../charttextframe/gettexthorizontalalignment/) | Gets and sets the text horizontal alignment. |
 | [GetTextOptions()](../chartframe/gettextoptions/) | Gets and sets the options of the text. |
 | [GetTextVerticalAlignment()](../charttextframe/gettextverticalalignment/) | Gets or sets the text vertical alignment of text. |
@@ -78,15 +78,15 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [GetXPixel()](../chartframe/getxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [GetXRatioToChart()](../chartframe/getxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [GetY()](../chartframe/gety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [GetYRatioToChart()](../chartframe/getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [GetYRatioToChart()](../chartframe/getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [IsAutomaticRotation()](../charttextframe/isautomaticrotation/) | Indicates whether the text of the chart is automatically rotated. |
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](./isautotext/) | Indicates the text is auto generated. |
-| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data label is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [IsNeverOverlap()](./isneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
+| [IsNeverOverlap()](./isneveroverlap/) | Indicates whether Datalabels never overlap when performing a Pie [Chart](../chart/) to image. Note: this property is only meaningful when a Pie [Chart](../chart/) to image. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsResizeShapeToFitText()](../charttextframe/isresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [IsTextWrapped()](./istextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
@@ -98,14 +98,14 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetBackgroundMode(BackgroundMode value)](./setbackgroundmode/) | Gets and sets the display mode of the background. |
 | [SetDirectionType(ChartTextDirectionType value)](./setdirectiontype/) | Gets and sets the direction of text. |
-| [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. |
+| [SetHeight(int32_t value)](../chartframe/setheight/) |  **(Deprecated)** Gets or sets the height of the frame in units of 1/4000 of the chart area. |
+| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [SetHeightRatioToChart(double value)](../chartframe/setheightratiotochart/) | Gets or sets the height of the frame in units of the ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsAutoText(bool value)](./setisautotext/) | Indicates the text is auto generated. |
 | [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data label is deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [SetIsNeverOverlap(bool value)](./setisneveroverlap/) | Indicates whether datalabels never overlap when performing Pie [Chart](../chart/) to image. Note: this property is only meaningful when Pie [Chart](../chart/) to image. |
+| [SetIsNeverOverlap(bool value)](./setisneveroverlap/) | Indicates whether Datalabels never overlap when performing a Pie [Chart](../chart/) to image. Note: this property is only meaningful when a Pie [Chart](../chart/) to image. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
 | [SetLinkedSource(const U16String\& value)](../charttextframe/setlinkedsource/) | Gets and sets a reference to the worksheet. |
@@ -123,15 +123,15 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetSeparatorValue(const char16_t* value)](./setseparatorvalue/) | Gets or sets the separator value used for the data labels on a chart. |
 | [SetShadow(bool value)](../chartframe/setshadow/) | True if the frame has a shadow. |
 | [SetShapeType(DataLabelShapeType value)](./setshapetype/) | Gets or sets shape type of data label. |
-| [SetShowBubbleSize(bool value)](./setshowbubblesize/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [SetShowBubbleSize(bool value)](./setshowbubblesize/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value. |
 | [SetShowCategoryName(bool value)](./setshowcategoryname/) | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [SetShowCellRange(bool value)](./setshowcellrange/) | Indicates whether showing cell range as the data labels. |
+| [SetShowCellRange(bool value)](./setshowcellrange/) | Indicates whether to show cell range as the data labels. |
 | [SetShowLegendKey(bool value)](./setshowlegendkey/) | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [SetShowPercentage(bool value)](./setshowpercentage/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [SetShowSeriesName(bool value)](./setshowseriesname/) | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [SetShowSeriesName(bool value)](./setshowseriesname/) | Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide. |
 | [SetShowValue(bool value)](./setshowvalue/) | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [SetText(const U16String\& value)](./settext/) | Gets or sets the text of data label. |
-| [SetText(const char16_t* value)](./settext/) | Gets or sets the text of data label. |
+| [SetText(const U16String\& value)](./settext/) | Gets or sets the text of the data label. |
+| [SetText(const char16_t* value)](./settext/) | Gets or sets the text of the data label. |
 | [SetTextHorizontalAlignment(TextAlignmentType value)](../charttextframe/settexthorizontalalignment/) | Gets and sets the text horizontal alignment. |
 | [SetTextVerticalAlignment(TextAlignmentType value)](../charttextframe/settextverticalalignment/) | Gets or sets the text vertical alignment of text. |
 | [SetWidth(int32_t value)](../chartframe/setwidth/) |  **(Deprecated)** Gets or sets the width of frame in units of 1/4000 of the chart area. |
@@ -141,8 +141,8 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetXPixel(int32_t value)](../chartframe/setxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [SetXRatioToChart(double value)](../chartframe/setxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [SetY(int32_t value)](../chartframe/sety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [SetYRatioToChart(double value)](../chartframe/setyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [SetYRatioToChart(double value)](../chartframe/setyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [~ChartFrame()](../chartframe/~chartframe/) | Destructor. |
 | [~ChartTextFrame()](../charttextframe/~charttextframe/) | Destructor. |
 | [~DataLabels()](./~datalabels/) | Destructor. |

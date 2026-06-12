@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.DoughnutInnerRadius
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint property. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate method. Applies to Doughnut chart
+description: ChartPoint property. Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate method. Applies to Doughnut chart
 type: docs
 url: /net/aspose.cells.charts/chartpoint/doughnutinnerradius/
 ---
 ## ChartPoint.DoughnutInnerRadius property
 
-Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart.
+Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate() method. Applies to Doughnut chart.
 
 ```csharp
 public int DoughnutInnerRadius { get; }

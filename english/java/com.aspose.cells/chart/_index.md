@@ -42,9 +42,9 @@ The following codes show how to create a chart with .Net codes.
 
 | Method | Description |
 | --- | --- |
-| [calculate()](#calculate--) | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [calculate()](#calculate--) | Calculates the custom positions of the plot area and axes if their positions are auto-assigned. |
 | [calculate(ChartCalculateOptions calculateOptions)](#calculate-com.aspose.cells.ChartCalculateOptions-) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
-| [changeTemplate(byte[] data)](#changeTemplate-byte---) | Change chart type with preset template. |
+| [changeTemplate(byte[] data)](#changeTemplate-byte---) | Change chart type with a preset template. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getActualChartSize()](#getActualChartSize--) | Gets actual size of chart in unit of pixels. |
 | [getActualSize()](#getActualSize--) | Gets actual size of chart in unit of pixels. |
@@ -58,7 +58,7 @@ The following codes show how to create a chart with .Net codes.
 | [getChartShape()](#getChartShape--) | Represents the chartShape; |
 | [getClass()](#getClass--) |  |
 | [getDepthPercent()](#getDepthPercent--) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
-| [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether displaying \#N/A as blank value. |
+| [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether to display \#N/A as a blank value. |
 | [getElevation()](#getElevation--) | Represents the elevation of the 3-D chart view, in degrees. |
 | [getFilteredNSeries()](#getFilteredNSeries--) | Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series that are filtered in the chart. |
 | [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
@@ -73,7 +73,7 @@ The following codes show how to create a chart with .Net codes.
 | [getNSeries()](#getNSeries--) | Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series in the chart. |
 | [getName()](#getName--) | Gets the name of the chart. |
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this chart. |
-| [getPerspective()](#getPerspective--) | Returns or sets the perspective for the 3-D chart view. |
+| [getPerspective()](#getPerspective--) | Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. |
 | [getPivotOptions()](#getPivotOptions--) | Specifies the pivot controls that appear on the chart |
 | [getPivotSource()](#getPivotSource--) | The source is the data of the pivotTable. |
 | [getPlacement()](#getPlacement--) | Represents the way the chart is attached to the cells below it. |
@@ -106,7 +106,7 @@ The following codes show how to create a chart with .Net codes.
 | [isCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex)](#isCellReferedByChart-int-int-int-) | Returns whether the cell refered by the chart. |
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
 | [isRectangularCornered()](#isRectangularCornered--) | Gets a value indicating whether the chart area is rectangular cornered. |
-| [isReferedByChart(int rowIndex, int columnIndex)](#isReferedByChart-int-int-) | Returns whether the cell refered by the chart. |
+| [isReferedByChart(int rowIndex, int columnIndex)](#isReferedByChart-int-int-) | Returns whether the cell is referred by the chart. |
 | [move(int topRow, int leftColumn, int bottomRow, int rightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -114,7 +114,7 @@ The following codes show how to create a chart with .Net codes.
 | [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. |
 | [setChartDataRange(String area, boolean isVertical)](#setChartDataRange-java.lang.String-boolean-) | Specifies data range for a chart. |
 | [setDepthPercent(int value)](#setDepthPercent-int-) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
-| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | Indicates whether displaying \#N/A as blank value. |
+| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | Indicates whether to display \#N/A as a blank value. |
 | [setElevation(int value)](#setElevation-int-) | Represents the elevation of the 3-D chart view, in degrees. |
 | [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [setGapDepth(int value)](#setGapDepth-int-) | Sets the distance between the data series in a 3-D chart, as a percentage of the marker width. |
@@ -122,7 +122,7 @@ The following codes show how to create a chart with .Net codes.
 | [setHeightPercent(int value)](#setHeightPercent-int-) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
 | [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the chart. |
-| [setPerspective(short value)](#setPerspective-short-) | Returns or sets the perspective for the 3-D chart view. |
+| [setPerspective(short value)](#setPerspective-short-) | Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. |
 | [setPivotSource(String value)](#setPivotSource-java.lang.String-) | The source is the data of the pivotTable. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the chart is attached to the cells below it. |
 | [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Sets how to plot the empty cells. |
@@ -159,7 +159,7 @@ public void calculate()
 ```
 
 
-Calculates the custom position of plot area, axes if the position of them are auto assigned.
+Calculates the custom positions of the plot area and axes if their positions are auto-assigned.
 
 ### calculate(ChartCalculateOptions calculateOptions) {#calculate-com.aspose.cells.ChartCalculateOptions-}
 ```
@@ -180,7 +180,7 @@ public void changeTemplate(byte[] data)
 ```
 
 
-Change chart type with preset template.
+Change chart type with a preset template.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public boolean getDisplayNaAsBlank()
 ```
 
 
-Indicates whether displaying \#N/A as blank value.
+Indicates whether to display \#N/A as a blank value.
 
 **Returns:**
 boolean
@@ -498,7 +498,7 @@ public short getPerspective()
 ```
 
 
-Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
+Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
 
 **Returns:**
 short
@@ -738,7 +738,7 @@ public Title getSubTitle()
 ```
 
 
-Gets the chart's sub-title. Only for ODS format file.
+Gets the chart's sub-title. Only applies to ODS files.
 
 **Returns:**
 [Title](../../com.aspose.cells/title)
@@ -885,7 +885,7 @@ public boolean isReferedByChart(int rowIndex, int columnIndex)
 ```
 
 
-Returns whether the cell refered by the chart.
+Returns whether the cell is referred by the chart.
 
 **Remarks**
 
@@ -989,7 +989,7 @@ public void setDisplayNaAsBlank(boolean value)
 ```
 
 
-Indicates whether displaying \#N/A as blank value.
+Indicates whether to display \#N/A as a blank value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1097,7 +1097,7 @@ public void setPerspective(short value)
 ```
 
 
-Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
+Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
 
 **Parameters:**
 | Parameter | Type | Description |

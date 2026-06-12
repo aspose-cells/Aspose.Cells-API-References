@@ -1,7 +1,7 @@
 ---
 title: DropBars
 second_title: Aspose.Cells for Java API Reference
-description: Represents the up/down bars in a chart.
+description: Represents the up and down bars in a chart.
 type: docs
 url: /java/com.aspose.cells/dropbars/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class DropBars
 ```
 
-Represents the up/down bars in a chart.
+Represents the up and down bars in a chart.
 ## Methods
 
 | Method | Description |

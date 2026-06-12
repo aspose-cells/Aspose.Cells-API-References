@@ -20,7 +20,7 @@ class TrendlineCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(TrendlineType type)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type. |
+| [Add(TrendlineType type)](./add/) | Adds a [Trendline](../trendline/) object to this collection with the specified type. |
 | [Add(TrendlineType type, const U16String\& name)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [Add(TrendlineType type, const char16_t* name)](./add/) | Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [TrendlineCollection](./). |

@@ -17,7 +17,7 @@ public class SlicerCacheItem
 
 | Name | Description |
 | --- | --- |
-| [Selected](../../aspose.cells.slicers/slicercacheitem/selected/) { get; set; } | Specifies whether the SlicerItem is selected or not. |
+| [Selected](../../aspose.cells.slicers/slicercacheitem/selected/) { get; set; } | Specifies whether the `SlicerCacheItem` is selected or not. |
 | [Value](../../aspose.cells.slicers/slicercacheitem/value/) { get; } | Returns the label text for the slicer item. |
 
 ### Examples

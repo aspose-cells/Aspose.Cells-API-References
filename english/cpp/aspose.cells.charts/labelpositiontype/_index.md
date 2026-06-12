@@ -29,7 +29,7 @@ enum class LabelPositionType
 | Left | 6 | <br>Applies only to line charts. |
 | Right | 7 | <br>Applies only to line charts. |
 | BestFit | 8 | <br>Applies only to 2D/3D pie charts. |
-| Moved | 9 | <br>User moved the data labels. This is only for reading chart from template file. |
+| Moved | 9 | <br>User moved the data labels. This is only for reading the chart from the template file. |
 
 ## See Also
 

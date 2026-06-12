@@ -34,6 +34,7 @@ class ListObjectCollection
 | [ListObjectCollection(const ListObjectCollection\& src)](./listobjectcollection/) | Copy constructor. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ListObjectCollection\& src)](./operator_asm/) | operator= |
+| [RemoveAt(int32_t index)](./removeat/) | Remove [ListObject](../listobject/) by index. |
 | [UpdateColumnName()](./updatecolumnname/) | Update all column name of the tables. |
 | [~ListObjectCollection()](./~listobjectcollection/) | Destructor. |
 ## Fields

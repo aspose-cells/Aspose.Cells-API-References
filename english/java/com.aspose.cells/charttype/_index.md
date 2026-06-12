@@ -17,23 +17,23 @@ Enumerates all chart types used in Excel.
 
 | Field | Description |
 | --- | --- |
-| [AREA](#AREA) | Represents Area Chart. |
+| [AREA](#AREA) | Represents an Area Chart. |
 | [AREA_100_PERCENT_STACKED](#AREA-100-PERCENT-STACKED) | Represents 100% Stacked Area Chart. |
 | [AREA_3_D](#AREA-3-D) | Represents 3D Area Chart. |
 | [AREA_3_D_100_PERCENT_STACKED](#AREA-3-D-100-PERCENT-STACKED) | Represents 3D 100% Stacked Area Chart. |
 | [AREA_3_D_STACKED](#AREA-3-D-STACKED) | Represents 3D Stacked Area Chart. |
 | [AREA_STACKED](#AREA-STACKED) | Represents Stacked Area Chart. |
-| [BAR](#BAR) | Represents Bar Chart: Clustered Bar Chart. |
+| [BAR](#BAR) | Represents a Bar Chart: Clustered Bar Chart. |
 | [BAR_100_PERCENT_STACKED](#BAR-100-PERCENT-STACKED) | Represents 100% Stacked Bar Chart. |
 | [BAR_3_D_100_PERCENT_STACKED](#BAR-3-D-100-PERCENT-STACKED) | Represents 3D 100% Stacked Bar Chart. |
 | [BAR_3_D_CLUSTERED](#BAR-3-D-CLUSTERED) | Represents 3D Clustered Bar Chart. |
 | [BAR_3_D_STACKED](#BAR-3-D-STACKED) | Represents 3D Stacked Bar Chart. |
 | [BAR_STACKED](#BAR-STACKED) | Represents Stacked Bar Chart. |
 | [BOX_WHISKER](#BOX-WHISKER) | The series is laid out as box and whisker. |
-| [BUBBLE](#BUBBLE) | Represents Bubble Chart. |
+| [BUBBLE](#BUBBLE) | Represents a Bubble Chart. |
 | [BUBBLE_3_D](#BUBBLE-3-D) | Represents 3D Bubble Chart. |
 | [COLUMN](#COLUMN) | Represents Column Chart: Clustered Column Chart. |
-| [COLUMN_100_PERCENT_STACKED](#COLUMN-100-PERCENT-STACKED) | Represents 100% Stacked Column Chart. |
+| [COLUMN_100_PERCENT_STACKED](#COLUMN-100-PERCENT-STACKED) | Represents a 100% Stacked Column Chart. |
 | [COLUMN_3_D](#COLUMN-3-D) | Represents 3D Column Chart. |
 | [COLUMN_3_D_100_PERCENT_STACKED](#COLUMN-3-D-100-PERCENT-STACKED) | Represents 3D 100% Stacked Column Chart. |
 | [COLUMN_3_D_CLUSTERED](#COLUMN-3-D-CLUSTERED) | Represents 3D Clustered Column Chart. |
@@ -43,11 +43,11 @@ Enumerates all chart types used in Excel.
 | [CONE_100_PERCENT_STACKED](#CONE-100-PERCENT-STACKED) | Represents 100% Stacked Cone Chart. |
 | [CONE_STACKED](#CONE-STACKED) | Represents Stacked Cone Chart. |
 | [CONICAL_BAR](#CONICAL-BAR) | Represents Conical Bar Chart. |
-| [CONICAL_BAR_100_PERCENT_STACKED](#CONICAL-BAR-100-PERCENT-STACKED) | Represents 100% Stacked Conical Bar Chart. |
+| [CONICAL_BAR_100_PERCENT_STACKED](#CONICAL-BAR-100-PERCENT-STACKED) | Represents a 100% Stacked Conical Bar Chart. |
 | [CONICAL_BAR_STACKED](#CONICAL-BAR-STACKED) | Represents Stacked Conical Bar Chart. |
 | [CONICAL_COLUMN_3_D](#CONICAL-COLUMN-3-D) | Represents 3D Conical Column Chart. |
-| [CYLINDER](#CYLINDER) | Represents Cylinder Chart. |
-| [CYLINDER_100_PERCENT_STACKED](#CYLINDER-100-PERCENT-STACKED) | Represents 100% Stacked Cylinder Chart. |
+| [CYLINDER](#CYLINDER) | Represents a Cylinder Chart. |
+| [CYLINDER_100_PERCENT_STACKED](#CYLINDER-100-PERCENT-STACKED) | Represents a 100% Stacked Cylinder Chart. |
 | [CYLINDER_STACKED](#CYLINDER-STACKED) | Represents Stacked Cylinder Chart. |
 | [CYLINDRICAL_BAR](#CYLINDRICAL-BAR) | Represents Cylindrical Bar Chart. |
 | [CYLINDRICAL_BAR_100_PERCENT_STACKED](#CYLINDRICAL-BAR-100-PERCENT-STACKED) | Represents 100% Stacked Cylindrical Bar Chart. |
@@ -71,8 +71,8 @@ Enumerates all chart types used in Excel.
 | [PIE_3_D_EXPLODED](#PIE-3-D-EXPLODED) | Represents 3D Exploded Pie Chart. |
 | [PIE_BAR](#PIE-BAR) | Represents Bar of Pie Chart. |
 | [PIE_EXPLODED](#PIE-EXPLODED) | Represents Exploded Pie Chart. |
-| [PIE_PIE](#PIE-PIE) | Represents Pie of Pie Chart. |
-| [PYRAMID](#PYRAMID) | Represents Pyramid Chart. |
+| [PIE_PIE](#PIE-PIE) | Represents the pie of a pie chart. |
+| [PYRAMID](#PYRAMID) | Represents a Pyramid Chart. |
 | [PYRAMID_100_PERCENT_STACKED](#PYRAMID-100-PERCENT-STACKED) | Represents 100% Stacked Pyramid Chart. |
 | [PYRAMID_BAR](#PYRAMID-BAR) | Represents Pyramid Bar Chart. |
 | [PYRAMID_BAR_100_PERCENT_STACKED](#PYRAMID-BAR-100-PERCENT-STACKED) | Represents 100% Stacked Pyramid Bar Chart. |
@@ -81,9 +81,9 @@ Enumerates all chart types used in Excel.
 | [PYRAMID_STACKED](#PYRAMID-STACKED) | Represents Stacked Pyramid Chart. |
 | [RADAR](#RADAR) | Represents Radar Chart. |
 | [RADAR_FILLED](#RADAR-FILLED) | Represents Filled Radar Chart. |
-| [RADAR_WITH_DATA_MARKERS](#RADAR-WITH-DATA-MARKERS) | Represents Radar Chart with data markers. |
-| [SCATTER](#SCATTER) | Represents Scatter Chart. |
-| [SCATTER_CONNECTED_BY_CURVES_WITHOUT_DATA_MARKER](#SCATTER-CONNECTED-BY-CURVES-WITHOUT-DATA-MARKER) | Represents Scatter Chart connected by curves, without data markers. |
+| [RADAR_WITH_DATA_MARKERS](#RADAR-WITH-DATA-MARKERS) | Represents a Radar Chart with data markers. |
+| [SCATTER](#SCATTER) | Represents a Scatter Chart. |
+| [SCATTER_CONNECTED_BY_CURVES_WITHOUT_DATA_MARKER](#SCATTER-CONNECTED-BY-CURVES-WITHOUT-DATA-MARKER) | Represents a Scatter Chart connected by curves, without data markers. |
 | [SCATTER_CONNECTED_BY_CURVES_WITH_DATA_MARKER](#SCATTER-CONNECTED-BY-CURVES-WITH-DATA-MARKER) | Represents Scatter Chart connected by curves, with data markers. |
 | [SCATTER_CONNECTED_BY_LINES_WITHOUT_DATA_MARKER](#SCATTER-CONNECTED-BY-LINES-WITHOUT-DATA-MARKER) | Represents Scatter Chart connected by lines, without data markers. |
 | [SCATTER_CONNECTED_BY_LINES_WITH_DATA_MARKER](#SCATTER-CONNECTED-BY-LINES-WITH-DATA-MARKER) | Represents Scatter Chart connected by lines, with data markers. |
@@ -117,7 +117,7 @@ public static final int AREA
 ```
 
 
-Represents Area Chart.
+Represents an Area Chart.
 
 ### AREA_100_PERCENT_STACKED {#AREA-100-PERCENT-STACKED}
 ```
@@ -165,7 +165,7 @@ public static final int BAR
 ```
 
 
-Represents Bar Chart: Clustered Bar Chart.
+Represents a Bar Chart: Clustered Bar Chart.
 
 ### BAR_100_PERCENT_STACKED {#BAR-100-PERCENT-STACKED}
 ```
@@ -221,7 +221,7 @@ public static final int BUBBLE
 ```
 
 
-Represents Bubble Chart.
+Represents a Bubble Chart.
 
 ### BUBBLE_3_D {#BUBBLE-3-D}
 ```
@@ -245,7 +245,7 @@ public static final int COLUMN_100_PERCENT_STACKED
 ```
 
 
-Represents 100% Stacked Column Chart.
+Represents a 100% Stacked Column Chart.
 
 ### COLUMN_3_D {#COLUMN-3-D}
 ```
@@ -325,7 +325,7 @@ public static final int CONICAL_BAR_100_PERCENT_STACKED
 ```
 
 
-Represents 100% Stacked Conical Bar Chart.
+Represents a 100% Stacked Conical Bar Chart.
 
 ### CONICAL_BAR_STACKED {#CONICAL-BAR-STACKED}
 ```
@@ -349,7 +349,7 @@ public static final int CYLINDER
 ```
 
 
-Represents Cylinder Chart.
+Represents a Cylinder Chart.
 
 ### CYLINDER_100_PERCENT_STACKED {#CYLINDER-100-PERCENT-STACKED}
 ```
@@ -357,7 +357,7 @@ public static final int CYLINDER_100_PERCENT_STACKED
 ```
 
 
-Represents 100% Stacked Cylinder Chart.
+Represents a 100% Stacked Cylinder Chart.
 
 ### CYLINDER_STACKED {#CYLINDER-STACKED}
 ```
@@ -549,7 +549,7 @@ public static final int PIE_PIE
 ```
 
 
-Represents Pie of Pie Chart.
+Represents the pie of a pie chart.
 
 ### PYRAMID {#PYRAMID}
 ```
@@ -557,7 +557,7 @@ public static final int PYRAMID
 ```
 
 
-Represents Pyramid Chart.
+Represents a Pyramid Chart.
 
 ### PYRAMID_100_PERCENT_STACKED {#PYRAMID-100-PERCENT-STACKED}
 ```
@@ -629,7 +629,7 @@ public static final int RADAR_WITH_DATA_MARKERS
 ```
 
 
-Represents Radar Chart with data markers.
+Represents a Radar Chart with data markers.
 
 ### SCATTER {#SCATTER}
 ```
@@ -637,7 +637,7 @@ public static final int SCATTER
 ```
 
 
-Represents Scatter Chart.
+Represents a Scatter Chart.
 
 ### SCATTER_CONNECTED_BY_CURVES_WITHOUT_DATA_MARKER {#SCATTER-CONNECTED-BY-CURVES-WITHOUT-DATA-MARKER}
 ```
@@ -645,7 +645,7 @@ public static final int SCATTER_CONNECTED_BY_CURVES_WITHOUT_DATA_MARKER
 ```
 
 
-Represents Scatter Chart connected by curves, without data markers.
+Represents a Scatter Chart connected by curves, without data markers.
 
 ### SCATTER_CONNECTED_BY_CURVES_WITH_DATA_MARKER {#SCATTER-CONNECTED-BY-CURVES-WITH-DATA-MARKER}
 ```

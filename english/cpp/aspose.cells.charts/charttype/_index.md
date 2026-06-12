@@ -20,23 +20,23 @@ enum class ChartType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Area | 0 | <br>Represents Area [Chart](../chart/). |
+| Area | 0 | <br>Represents an Area [Chart](../chart/). |
 | AreaStacked | 1 | <br>Represents Stacked Area [Chart](../chart/). |
 | Area100PercentStacked | 2 | <br>Represents 100% Stacked Area [Chart](../chart/). |
 | Area3D | 3 | <br>Represents 3D Area [Chart](../chart/). |
 | Area3DStacked | 4 | <br>Represents 3D Stacked Area [Chart](../chart/). |
 | Area3D100PercentStacked | 5 | <br>Represents 3D 100% Stacked Area [Chart](../chart/). |
-| Bar | 6 | <br>Represents Bar [Chart](../chart/): Clustered Bar [Chart](../chart/). |
+| Bar | 6 | <br>Represents a Bar [Chart](../chart/): Clustered Bar [Chart](../chart/). |
 | BarStacked | 7 | <br>Represents Stacked Bar [Chart](../chart/). |
 | Bar100PercentStacked | 8 | <br>Represents 100% Stacked Bar [Chart](../chart/). |
 | Bar3DClustered | 9 | <br>Represents 3D Clustered Bar [Chart](../chart/). |
 | Bar3DStacked | 10 | <br>Represents 3D Stacked Bar [Chart](../chart/). |
 | Bar3D100PercentStacked | 11 | <br>Represents 3D 100% Stacked Bar [Chart](../chart/). |
-| Bubble | 12 | <br>Represents Bubble [Chart](../chart/). |
+| Bubble | 12 | <br>Represents a Bubble [Chart](../chart/). |
 | Bubble3D | 13 | <br>Represents 3D Bubble [Chart](../chart/). |
 | Column | 14 | <br>Represents [Column](../../aspose.cells/column/)[Chart](../chart/): Clustered [Column](../../aspose.cells/column/)[Chart](../chart/). |
 | ColumnStacked | 15 | <br>Represents Stacked [Column](../../aspose.cells/column/)[Chart](../chart/). |
-| Column100PercentStacked | 16 | <br>Represents 100% Stacked [Column](../../aspose.cells/column/)[Chart](../chart/). |
+| Column100PercentStacked | 16 | <br>Represents a 100% Stacked [Column](../../aspose.cells/column/)[Chart](../chart/). |
 | Column3D | 17 | <br>Represents 3D [Column](../../aspose.cells/column/)[Chart](../chart/). |
 | Column3DClustered | 18 | <br>Represents 3D Clustered [Column](../../aspose.cells/column/)[Chart](../chart/). |
 | Column3DStacked | 19 | <br>Represents 3D Stacked [Column](../../aspose.cells/column/)[Chart](../chart/). |
@@ -46,11 +46,11 @@ enum class ChartType
 | Cone100PercentStacked | 23 | <br>Represents 100% Stacked Cone [Chart](../chart/). |
 | ConicalBar | 24 | <br>Represents Conical Bar [Chart](../chart/). |
 | ConicalBarStacked | 25 | <br>Represents Stacked Conical Bar [Chart](../chart/). |
-| ConicalBar100PercentStacked | 26 | <br>Represents 100% Stacked Conical Bar [Chart](../chart/). |
+| ConicalBar100PercentStacked | 26 | <br>Represents a 100% Stacked Conical Bar [Chart](../chart/). |
 | ConicalColumn3D | 27 | <br>Represents 3D Conical [Column](../../aspose.cells/column/)[Chart](../chart/). |
-| Cylinder | 28 | <br>Represents Cylinder [Chart](../chart/). |
+| Cylinder | 28 | <br>Represents a Cylinder [Chart](../chart/). |
 | CylinderStacked | 29 | <br>Represents Stacked Cylinder [Chart](../chart/). |
-| Cylinder100PercentStacked | 30 | <br>Represents 100% Stacked Cylinder [Chart](../chart/). |
+| Cylinder100PercentStacked | 30 | <br>Represents a 100% Stacked Cylinder [Chart](../chart/). |
 | CylindricalBar | 31 | <br>Represents Cylindrical Bar [Chart](../chart/). |
 | CylindricalBarStacked | 32 | <br>Represents Stacked Cylindrical Bar [Chart](../chart/). |
 | CylindricalBar100PercentStacked | 33 | <br>Represents 100% Stacked Cylindrical Bar [Chart](../chart/). |
@@ -66,11 +66,11 @@ enum class ChartType
 | Line3D | 43 | <br>Represents 3D Line [Chart](../chart/). |
 | Pie | 44 | <br>Represents Pie [Chart](../chart/). |
 | Pie3D | 45 | <br>Represents 3D Pie [Chart](../chart/). |
-| PiePie | 46 | <br>Represents Pie of Pie [Chart](../chart/). |
+| PiePie | 46 | <br>Represents the pie of a pie chart. |
 | PieExploded | 47 | <br>Represents Exploded Pie [Chart](../chart/). |
 | Pie3DExploded | 48 | <br>Represents 3D Exploded Pie [Chart](../chart/). |
 | PieBar | 49 | <br>Represents Bar of Pie [Chart](../chart/). |
-| Pyramid | 50 | <br>Represents Pyramid [Chart](../chart/). |
+| Pyramid | 50 | <br>Represents a Pyramid [Chart](../chart/). |
 | PyramidStacked | 51 | <br>Represents Stacked Pyramid [Chart](../chart/). |
 | Pyramid100PercentStacked | 52 | <br>Represents 100% Stacked Pyramid [Chart](../chart/). |
 | PyramidBar | 53 | <br>Represents Pyramid Bar [Chart](../chart/). |
@@ -78,11 +78,11 @@ enum class ChartType
 | PyramidBar100PercentStacked | 55 | <br>Represents 100% Stacked Pyramid Bar [Chart](../chart/). |
 | PyramidColumn3D | 56 | <br>Represents 3D Pyramid [Column](../../aspose.cells/column/)[Chart](../chart/). |
 | Radar | 57 | <br>Represents Radar [Chart](../chart/). |
-| RadarWithDataMarkers | 58 | <br>Represents Radar [Chart](../chart/) with data markers. |
+| RadarWithDataMarkers | 58 | <br>Represents a Radar [Chart](../chart/) with data markers. |
 | RadarFilled | 59 | <br>Represents Filled Radar [Chart](../chart/). |
-| Scatter | 60 | <br>Represents Scatter [Chart](../chart/). |
+| Scatter | 60 | <br>Represents a Scatter [Chart](../chart/). |
 | ScatterConnectedByCurvesWithDataMarker | 61 | <br>Represents Scatter [Chart](../chart/) connected by curves, with data markers. |
-| ScatterConnectedByCurvesWithoutDataMarker | 62 | <br>Represents Scatter [Chart](../chart/) connected by curves, without data markers. |
+| ScatterConnectedByCurvesWithoutDataMarker | 62 | <br>Represents a Scatter [Chart](../chart/) connected by curves, without data markers. |
 | ScatterConnectedByLinesWithDataMarker | 63 | <br>Represents Scatter [Chart](../chart/) connected by lines, with data markers. |
 | ScatterConnectedByLinesWithoutDataMarker | 64 | <br>Represents Scatter [Chart](../chart/) connected by lines, without data markers. |
 | StockHighLowClose | 65 | <br>Represents High-Low-Close Stock [Chart](../chart/). |

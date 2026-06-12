@@ -102,7 +102,7 @@ void Aspose::Cells::Charts::Chart::ToPdf(const char16_t *fileName, float desired
 ## Chart::ToPdf() method
 
 
-Creates the chart pdf and saves it to a stream.
+Creates the chart PDF and saves it to a stream.
 
 ```cpp
 Vector<uint8_t> Aspose::Cells::Charts::Chart::ToPdf()

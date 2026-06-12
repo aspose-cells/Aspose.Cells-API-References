@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Marker::GetMarkerStyle method
 linktitle: GetMarkerStyle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Marker::GetMarkerStyle method. Represents the marker style. Applies to line chart, scatter chart, or radar chart in C++.'
+description: 'Aspose::Cells::Charts::Marker::GetMarkerStyle method. Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.charts/marker/getmarkerstyle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/marker/getmarkerstyle/
 ## Marker::GetMarkerStyle method
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style. Applies to a line chart, a scatter chart, or a radar chart.
 
 ```cpp
 ChartMarkerType Aspose::Cells::Charts::Marker::GetMarkerStyle()

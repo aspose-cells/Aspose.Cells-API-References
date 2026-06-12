@@ -27,25 +27,25 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [GetBackground()](../chartframe/getbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
-| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
+| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
 | [GetDefaultXRatioToChart()](../chartframe/getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. |
-| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents y of default position in units of 1/4000 of the chart area. |
-| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of default position in units of Fraction of the chart area. |
+| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents the y of the default position in units of 1/4000 of the chart area. |
+| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of the default position in units of the fraction of the chart area. |
 | [GetFont()](../chartframe/getfont/) | Gets a [Font](../../aspose.cells/font/) object of the specified [ChartFrame](../chartframe/) object. |
 | [GetHeight()](./getheight/) |  **(Deprecated)** Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [GetHeightRatioToChart()](./getheightratiotochart/) | Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area. |
+| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [GetHeightRatioToChart()](./getheightratiotochart/) | Gets or sets the height of the plot area bounding box in units of the ratio of the chart area. |
 | [GetInnerHeight()](./getinnerheight/) |  **(Deprecated)** Gets or sets the height of the plot area in units of 1/4000 of the chart area. |
 | [GetInnerHeightRatioToChart()](./getinnerheightratiotochart/) | Gets or sets the height of plot area in units of ratio of the chart area. |
 | [GetInnerWidth()](./getinnerwidth/) |  **(Deprecated)** Gets or sets the width of plot area in units of 1/4000 of the chart area. |
 | [GetInnerWidthRatioToChart()](./getinnerwidthratiotochart/) | Gets or sets the width of the plot area in units of the ratio of the chart area. |
 | [GetInnerX()](./getinnerx/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [GetInnerXRatioToChart()](./getinnerxratiotochart/) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
-| [GetInnerY()](./getinnery/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [GetInnerY()](./getinnery/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of the plot area in units of 1/4000 of the chart area. |
 | [GetInnerYRatioToChart()](./getinneryratiotochart/) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
 | [GetShadow()](../chartframe/getshadow/) | True if the frame has a shadow. |
 | [GetShapeProperties()](../chartframe/getshapeproperties/) | Gets the ShapeProperties object. |
@@ -57,10 +57,10 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [GetXPixel()](../chartframe/getxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [GetXRatioToChart()](./getxratiotochart/) | Gets or sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area. |
 | [GetY()](./gety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area. |
-| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [GetYRatioToChart()](./getyratiotochart/) | Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 | [IsAutomaticSize()](./isautomaticsize/) | Indicates whether the plot area is automatically sized. |
-| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -73,15 +73,15 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [SetBackground(BackgroundMode value)](../chartframe/setbackground/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [SetHeight(int32_t value)](./setheight/) |  **(Deprecated)** Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |
-| [SetHeightRatioToChart(double value)](./setheightratiotochart/) | Gets or sets the height of the plot-area bounding box in units of the ratio of the chart area. |
+| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of the frame in units of pixels. |
+| [SetHeightRatioToChart(double value)](./setheightratiotochart/) | Gets or sets the height of the plot area bounding box in units of the ratio of the chart area. |
 | [SetInnerHeight(int32_t value)](./setinnerheight/) |  **(Deprecated)** Gets or sets the height of the plot area in units of 1/4000 of the chart area. |
 | [SetInnerHeightRatioToChart(double value)](./setinnerheightratiotochart/) | Gets or sets the height of plot area in units of ratio of the chart area. |
 | [SetInnerWidth(int32_t value)](./setinnerwidth/) |  **(Deprecated)** Gets or sets the width of plot area in units of 1/4000 of the chart area. |
 | [SetInnerWidthRatioToChart(double value)](./setinnerwidthratiotochart/) | Gets or sets the width of the plot area in units of the ratio of the chart area. |
 | [SetInnerX(int32_t value)](./setinnerx/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [SetInnerXRatioToChart(double value)](./setinnerxratiotochart/) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
-| [SetInnerY(int32_t value)](./setinnery/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [SetInnerY(int32_t value)](./setinnery/) |  **(Deprecated)** Gets or sets the x coordinate of the upper top corner of the plot area in units of 1/4000 of the chart area. |
 | [SetInnerYRatioToChart(double value)](./setinneryratiotochart/) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](./setisautomaticsize/) | Indicates whether the plot area is automatically sized. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
@@ -94,7 +94,7 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [SetXPixel(int32_t value)](../chartframe/setxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [SetXRatioToChart(double value)](./setxratiotochart/) | Gets or sets the x coordinate of the upper left corner of the plot area bounding box as a ratio of the chart area. |
 | [SetY(int32_t value)](./sety/) |  **(Deprecated)** Gets or sets the y coordinate of the upper top corner of the plot-area bounding box in units of 1/4000 of the chart area. |
-| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [SetYRatioToChart(double value)](./setyratiotochart/) | Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 | [~ChartFrame()](../chartframe/~chartframe/) | Destructor. |
 | [~PlotArea()](./~plotarea/) | Destructor. |

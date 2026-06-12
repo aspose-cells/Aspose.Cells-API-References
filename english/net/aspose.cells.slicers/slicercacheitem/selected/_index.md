@@ -1,17 +1,21 @@
 ---
 title: SlicerCacheItem.Selected
 second_title: Aspose.Cells for .NET API Reference
-description: SlicerCacheItem property. Specifies whether the SlicerItem is selected or not
+description: SlicerCacheItem property. Specifies whether the SlicerCacheItem is selected or not
 type: docs
 url: /net/aspose.cells.slicers/slicercacheitem/selected/
 ---
 ## SlicerCacheItem.Selected property
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the [`SlicerCacheItem`](../) is selected or not.
 
 ```csharp
 public bool Selected { get; set; }
 ```
+
+### Remarks
+
+Please use [`SelectItems`](../../slicer/selectitems/) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 ### Examples
 

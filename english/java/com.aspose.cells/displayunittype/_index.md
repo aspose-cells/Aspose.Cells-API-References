@@ -20,16 +20,16 @@ Represents the type of display unit of chart's axis.
 | [BILLIONS](#BILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000. |
 | [CUST](#CUST) | specifies a custom value for the display unit. |
 | [CUSTOM](#CUSTOM) | specifies a custom value for the display unit. |
-| [HUNDREDS](#HUNDREDS) | Specifies the values on the chart shall be divided by 100. |
-| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies the values on the chart shall be divided by 100,000,000. |
+| [HUNDREDS](#HUNDREDS) | Specifies that the values on the chart shall be divided by 100. |
+| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies that the values on the chart shall be divided by 100,000,000. |
 | [HUNDRED_THOUSANDS](#HUNDRED-THOUSANDS) | Specifies the values on the chart shall be divided by 100,000. |
-| [MILLIONS](#MILLIONS) | Specifies the values on the chart shall be divided by 1,000,000. |
+| [MILLIONS](#MILLIONS) | Specifies that the values on the chart shall be divided by 1,000,000. |
 | [NONE](#NONE) | Display unit is None. |
 | [PERCENTAGE](#PERCENTAGE) | The values on the chart shall be divided by 0.01. |
 | [TEN_MILLIONS](#TEN-MILLIONS) | Specifies the values on the chart shall be divided by 10,000,000. |
-| [TEN_THOUSANDS](#TEN-THOUSANDS) | Specifies the values on the chart shall be divided by 10,000. |
+| [TEN_THOUSANDS](#TEN-THOUSANDS) | Specifies that the values on the chart shall be divided by 10,000. |
 | [THOUSANDS](#THOUSANDS) | Specifies the values on the chart shall be divided by 1,000. |
-| [TRILLIONS](#TRILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
+| [TRILLIONS](#TRILLIONS) | Specifies that the values on the chart shall be divided by 1,000,000,000,000. |
 ## Methods
 
 | Method | Description |
@@ -77,7 +77,7 @@ public static final int HUNDREDS
 ```
 
 
-Specifies the values on the chart shall be divided by 100.
+Specifies that the values on the chart shall be divided by 100.
 
 ### HUNDRED_MILLIONS {#HUNDRED-MILLIONS}
 ```
@@ -85,7 +85,7 @@ public static final int HUNDRED_MILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 100,000,000.
+Specifies that the values on the chart shall be divided by 100,000,000.
 
 ### HUNDRED_THOUSANDS {#HUNDRED-THOUSANDS}
 ```
@@ -101,7 +101,7 @@ public static final int MILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000.
+Specifies that the values on the chart shall be divided by 1,000,000.
 
 ### NONE {#NONE}
 ```
@@ -133,7 +133,7 @@ public static final int TEN_THOUSANDS
 ```
 
 
-Specifies the values on the chart shall be divided by 10,000.
+Specifies that the values on the chart shall be divided by 10,000.
 
 ### THOUSANDS {#THOUSANDS}
 ```
@@ -149,7 +149,7 @@ public static final int TRILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000,000,000.
+Specifies that the values on the chart shall be divided by 1,000,000,000,000.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -73,42 +73,42 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [xValueType](#xValueType--)| CellValueType | Readonly. Gets X value type of the chart point. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
 | [isInSecondaryPlot](#isInSecondaryPlot--)| boolean | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
-| [shapeX](#shapeX--)| number | Readonly. Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [shapeX](#shapeX--)| number | Readonly. Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calling the Chart.Calculate() method. |
 | [shapeY](#shapeY--)| number | Readonly. Gets the y coordinate of the upper left corner in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [shapeWidth](#shapeWidth--)| number | Readonly. Gets the width in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
+| [shapeWidth](#shapeWidth--)| number | Readonly. Gets the width in units of 1/4000 of the chart's width after calling the Chart.Calculate() method. |
 | [shapeHeight](#shapeHeight--)| number | Readonly. Gets the height in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [shapeXPx](#shapeXPx--)| number | Readonly. Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method. |
+| [shapeXPx](#shapeXPx--)| number | Readonly. Gets the x coordinate of the upper left corner in units of pixels after calling the Chart.Calculate() method. |
 | [shapeYPx](#shapeYPx--)| number | Readonly. Gets the y coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method. |
-| [shapeWidthPx](#shapeWidthPx--)| number | Readonly. Gets the width in units of pixels after calls Chart.Calculate() method. |
+| [shapeWidthPx](#shapeWidthPx--)| number | Readonly. Gets the width in units of pixels after calling the Chart.Calculate() method. |
 | [shapeHeightPx](#shapeHeightPx--)| number | Readonly. Gets the height in units of pixels after calls Chart.Calculate() method. |
-| [borderWidthPx](#borderWidthPx--)| number | Readonly. Gets the width of border in units of pixels after calls Chart.Calculate() method. |
+| [borderWidthPx](#borderWidthPx--)| number | Readonly. Gets the width of border in units of pixels after calling the Chart.Calculate() method. |
 | [radiusPx](#radiusPx--)| number | Readonly. Gets the radius of bubble, pie or doughnut in units of pixels after calls Chart.Calculate() method. |
-| [doughnutInnerRadius](#doughnutInnerRadius--)| number | Readonly. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
+| [doughnutInnerRadius](#doughnutInnerRadius--)| number | Readonly. Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate() method. Applies to Doughnut chart. |
 | [innerRadiusPx](#innerRadiusPx--)| number | Readonly. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
-| [startAngle](#startAngle--)| number | Readonly. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart. |
+| [startAngle](#startAngle--)| number | Readonly. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method. Applies to Pie chart. |
 | [endAngle](#endAngle--)| number | Readonly. Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart. |
-| [arcStartPointXPx](#arcStartPointXPx--)| number | Readonly. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart. |
+| [arcStartPointXPx](#arcStartPointXPx--)| number | Readonly. Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [arcStartPointYPx](#arcStartPointYPx--)| number | Readonly. Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart. |
-| [arcEndPointXPx](#arcEndPointXPx--)| number | Readonly. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart. |
+| [arcEndPointXPx](#arcEndPointXPx--)| number | Readonly. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [arcEndPointYPx](#arcEndPointYPx--)| number | Readonly. Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut chart. |
-| [innerArcStartPointXPx](#innerArcStartPointXPx--)| number | Readonly. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
+| [innerArcStartPointXPx](#innerArcStartPointXPx--)| number | Readonly. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to the Doughnut chart. |
 | [innerArcStartPointYPx](#innerArcStartPointYPx--)| number | Readonly. Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
-| [innerArcEndPointXPx](#innerArcEndPointXPx--)| number | Readonly. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
+| [innerArcEndPointXPx](#innerArcEndPointXPx--)| number | Readonly. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Doughnut charts. |
 | [innerArcEndPointYPx](#innerArcEndPointYPx--)| number | Readonly. Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getTopPointCount()](#getTopPointCount--)| Gets the number of top points after calls Chart.Calculate() method. |
+| [getTopPointCount()](#getTopPointCount--)| Gets the number of top points after calling the Chart.Calculate() method. |
 | [getTopPointXPx(number)](#getTopPointXPx-number-)| Gets x-coordinate of the top point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D |
-| [getTopPointYPx(number)](#getTopPointYPx-number-)| Gets y-coordinate of the top point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D |
+| [getTopPointYPx(number)](#getTopPointYPx-number-)| Gets y-coordinate of the top point of the shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid, and Area3D. |
 | [getBottomPointCount()](#getBottomPointCount--)| Gets the number of bottom points  after calls Chart.Calculate() method. |
-| [getBottomPointXPx(number)](#getBottomPointXPx-number-)| Gets x-coordinate of the bottom point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
+| [getBottomPointXPx(number)](#getBottomPointXPx-number-)| Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
 | [getBottomPointYPx(number)](#getBottomPointYPx-number-)| Gets y-coordinate of the bottom point of shape  after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
-| [getOnCategoryAxisPointCount()](#getOnCategoryAxisPointCount--)| Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart. |
+| [getOnCategoryAxisPointCount()](#getOnCategoryAxisPointCount--)| Gets the number of the points on the category axis after calling the Chart.Calculate() method. Only applies to area charts. |
 | [getOnCategoryAxisPointXPx(number)](#getOnCategoryAxisPointXPx-number-)| Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |
-| [getOnCategoryAxisPointYPx(number)](#getOnCategoryAxisPointYPx-number-)| Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |
+| [getOnCategoryAxisPointYPx(number)](#getOnCategoryAxisPointYPx-number-)| Gets y-coordinate of the point on category axis after calling the Chart.Calculate() method. Only applies to Area chart. |
 
 
 ### explosion {#explosion--}
@@ -221,7 +221,7 @@ isInSecondaryPlot : boolean;
 
 ### shapeX {#shapeX--}
 
-Readonly. Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+Readonly. Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calling the Chart.Calculate() method.
 
 ```javascript
 shapeX : number;
@@ -239,7 +239,7 @@ shapeY : number;
 
 ### shapeWidth {#shapeWidth--}
 
-Readonly. Gets the width in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+Readonly. Gets the width in units of 1/4000 of the chart's width after calling the Chart.Calculate() method.
 
 ```javascript
 shapeWidth : number;
@@ -257,7 +257,7 @@ shapeHeight : number;
 
 ### shapeXPx {#shapeXPx--}
 
-Readonly. Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method.
+Readonly. Gets the x coordinate of the upper left corner in units of pixels after calling the Chart.Calculate() method.
 
 ```javascript
 shapeXPx : number;
@@ -275,7 +275,7 @@ shapeYPx : number;
 
 ### shapeWidthPx {#shapeWidthPx--}
 
-Readonly. Gets the width in units of pixels after calls Chart.Calculate() method.
+Readonly. Gets the width in units of pixels after calling the Chart.Calculate() method.
 
 ```javascript
 shapeWidthPx : number;
@@ -293,7 +293,7 @@ shapeHeightPx : number;
 
 ### borderWidthPx {#borderWidthPx--}
 
-Readonly. Gets the width of border in units of pixels after calls Chart.Calculate() method.
+Readonly. Gets the width of border in units of pixels after calling the Chart.Calculate() method.
 
 ```javascript
 borderWidthPx : number;
@@ -311,7 +311,7 @@ radiusPx : number;
 
 ### doughnutInnerRadius {#doughnutInnerRadius--}
 
-Readonly. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart.
+Readonly. Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate() method. Applies to Doughnut chart.
 
 ```javascript
 doughnutInnerRadius : number;
@@ -333,7 +333,7 @@ NOTE: This property is now obsolete. Instead, please use ChartPoint.DoughnutInne
 
 ### startAngle {#startAngle--}
 
-Readonly. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart.
+Readonly. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method. Applies to Pie chart.
 
 ```javascript
 startAngle : number;
@@ -351,7 +351,7 @@ endAngle : number;
 
 ### arcStartPointXPx {#arcStartPointXPx--}
 
-Readonly. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart.
+Readonly. Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
 
 ```javascript
 arcStartPointXPx : number;
@@ -369,7 +369,7 @@ arcStartPointYPx : number;
 
 ### arcEndPointXPx {#arcEndPointXPx--}
 
-Readonly. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart.
+Readonly. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
 
 ```javascript
 arcEndPointXPx : number;
@@ -387,7 +387,7 @@ arcEndPointYPx : number;
 
 ### innerArcStartPointXPx {#innerArcStartPointXPx--}
 
-Readonly. Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart.
+Readonly. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to the Doughnut chart.
 
 ```javascript
 innerArcStartPointXPx : number;
@@ -405,7 +405,7 @@ innerArcStartPointYPx : number;
 
 ### innerArcEndPointXPx {#innerArcEndPointXPx--}
 
-Readonly. Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart.
+Readonly. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Doughnut charts.
 
 ```javascript
 innerArcEndPointXPx : number;
@@ -423,7 +423,7 @@ innerArcEndPointYPx : number;
 
 ### getTopPointCount() {#getTopPointCount--}
 
-Gets the number of top points after calls Chart.Calculate() method.
+Gets the number of top points after calling the Chart.Calculate() method.
 
 ```javascript
 getTopPointCount() : number;
@@ -445,7 +445,7 @@ getTopPointXPx(index: number) : number;
 
 ### getTopPointYPx(number) {#getTopPointYPx-number-}
 
-Gets y-coordinate of the top point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D
+Gets y-coordinate of the top point of the shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid, and Area3D.
 
 ```javascript
 getTopPointYPx(index: number) : number;
@@ -467,7 +467,7 @@ getBottomPointCount() : number;
 
 ### getBottomPointXPx(number) {#getBottomPointXPx-number-}
 
-Gets x-coordinate of the bottom point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
+Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
 
 ```javascript
 getBottomPointXPx(index: number) : number;
@@ -493,7 +493,7 @@ getBottomPointYPx(index: number) : number;
 
 ### getOnCategoryAxisPointCount() {#getOnCategoryAxisPointCount--}
 
-Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart.
+Gets the number of the points on the category axis after calling the Chart.Calculate() method. Only applies to area charts.
 
 ```javascript
 getOnCategoryAxisPointCount() : number;
@@ -523,7 +523,7 @@ Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
 
 ### getOnCategoryAxisPointYPx(number) {#getOnCategoryAxisPointYPx-number-}
 
-Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart.
+Gets y-coordinate of the point on category axis after calling the Chart.Calculate() method. Only applies to Area chart.
 
 ```javascript
 getOnCategoryAxisPointYPx(index: number) : number;

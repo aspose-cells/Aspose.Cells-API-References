@@ -46,7 +46,7 @@ Represents a collection of all the [Trendline](../../com.aspose.cells/trendline)
 
 | Method | Description |
 | --- | --- |
-| [add(int type)](#add-int-) | Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection with specified type. |
+| [add(int type)](#add-int-) | Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection with the specified type. |
 | [add(int type, String name)](#add-int-java.lang.String-) | Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection with specified type and name. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
@@ -71,7 +71,7 @@ public int add(int type)
 ```
 
 
-Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection with specified type.
+Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection with the specified type.
 
 **Parameters:**
 | Parameter | Type | Description |

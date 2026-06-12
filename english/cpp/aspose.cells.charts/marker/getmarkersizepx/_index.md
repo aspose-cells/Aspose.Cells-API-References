@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Marker::GetMarkerSizePx method
 linktitle: GetMarkerSizePx
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Marker::GetMarkerSizePx method. Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart in C++.'
+description: 'Aspose::Cells::Charts::Marker::GetMarkerSizePx method. Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/marker/getmarkersizepx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/marker/getmarkersizepx/
 ## Marker::GetMarkerSizePx method
 
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels. Applies to line charts, scatter charts, or radar charts.
 
 ```cpp
 int32_t Aspose::Cells::Charts::Marker::GetMarkerSizePx()

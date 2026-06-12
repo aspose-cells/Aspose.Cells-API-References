@@ -69,11 +69,11 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | --- | --- | --- |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
 | [showValue](#showValue--)| boolean | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [showCellRange](#showCellRange--)| boolean | Indicates whether showing cell range as the data labels. |
+| [showCellRange](#showCellRange--)| boolean | Indicates whether to show cell range as the data labels. |
 | [showPercentage](#showPercentage--)| boolean | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [showBubbleSize](#showBubbleSize--)| boolean | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [showBubbleSize](#showBubbleSize--)| boolean | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value. |
 | [showCategoryName](#showCategoryName--)| boolean | Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [showSeriesName](#showSeriesName--)| boolean | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [showSeriesName](#showSeriesName--)| boolean | Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide. |
 | [showLegendKey](#showLegendKey--)| boolean | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [numberFormat](#numberFormat--)| string | Represents the format string for the DataLabels object. |
 | [number](#number--)| number | Gets and sets the built-in number format. |
@@ -81,21 +81,21 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [separatorType](#separatorType--)| DataLabelsSeparatorType | Gets or sets the separator type used for the data labels on a chart. |
 | [separatorValue](#separatorValue--)| string | Gets or sets the separator value used for the data labels on a chart. |
 | [position](#position--)| LabelPositionType | Represents the position of the data label. |
-| [isNeverOverlap](#isNeverOverlap--)| boolean | Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
+| [isNeverOverlap](#isNeverOverlap--)| boolean | Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image. |
 | [shapeType](#shapeType--)| DataLabelShapeType | Gets or sets  shape type of data label. |
 | [isInnerMode](#isInnerMode--)| boolean | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [background](#background--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
-| [defaultY](#defaultY--)| number | Readonly. Represents y of default position in units of 1/4000 of the chart area. |
+| [defaultY](#defaultY--)| number | Readonly. Represents the y of the default position in units of 1/4000 of the chart area. |
 | [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
-| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of default position in units of 1/4000 of the chart area. |
+| [defaultHeight](#defaultHeight--)| number | Readonly. Represents height of the default position in units of 1/4000 of the chart area. |
 | [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
-| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of default position in units of Fraction of the chart area. |
+| [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of the default position in units of the fraction of the chart area. |
 | [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
-| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of default position in units of Fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of the default position in units of the fraction of the chart area. |
 | [isDeleted](#isDeleted--)| boolean | Indicates whether this data label is deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
@@ -112,16 +112,16 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
 | [getShowValue()](#getShowValue--)| <b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | [setShowValue(boolean)](#setShowValue-boolean-)| <b>@deprecated.</b> Please use the 'showValue' property instead. Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
-| [getShowCellRange()](#getShowCellRange--)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels. |
-| [setShowCellRange(boolean)](#setShowCellRange-boolean-)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels. |
+| [getShowCellRange()](#getShowCellRange--)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether to show cell range as the data labels. |
+| [setShowCellRange(boolean)](#setShowCellRange-boolean-)| <b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether to show cell range as the data labels. |
 | [getShowPercentage()](#getShowPercentage--)| <b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
 | [setShowPercentage(boolean)](#setShowPercentage-boolean-)| <b>@deprecated.</b> Please use the 'showPercentage' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [getShowBubbleSize()](#getShowBubbleSize--)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [setShowBubbleSize(boolean)](#setShowBubbleSize-boolean-)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
+| [getShowBubbleSize()](#getShowBubbleSize--)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value. |
+| [setShowBubbleSize(boolean)](#setShowBubbleSize-boolean-)| <b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value. |
 | [getShowCategoryName()](#getShowCategoryName--)| <b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
 | [setShowCategoryName(boolean)](#setShowCategoryName-boolean-)| <b>@deprecated.</b> Please use the 'showCategoryName' property instead. Represents a specified chart's data label category name display behavior.True to display the category name for the data labels on a chart. False to hide. |
-| [getShowSeriesName()](#getShowSeriesName--)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
-| [setShowSeriesName(boolean)](#setShowSeriesName-boolean-)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
+| [getShowSeriesName()](#getShowSeriesName--)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide. |
+| [setShowSeriesName(boolean)](#setShowSeriesName-boolean-)| <b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide. |
 | [getShowLegendKey()](#getShowLegendKey--)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| <b>@deprecated.</b> Please use the 'showLegendKey' property instead. Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the DataLabels object. |
@@ -136,8 +136,8 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setSeparatorValue(string)](#setSeparatorValue-string-)| <b>@deprecated.</b> Please use the 'separatorValue' property instead. Gets or sets the separator value used for the data labels on a chart. |
 | [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label. |
 | [setPosition(LabelPositionType)](#setPosition-labelpositiontype-)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the position of the data label. |
-| [isNeverOverlap()](#isNeverOverlap--)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
-| [setIsNeverOverlap(boolean)](#setIsNeverOverlap-boolean-)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image. |
+| [isNeverOverlap()](#isNeverOverlap--)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image. |
+| [setIsNeverOverlap(boolean)](#setIsNeverOverlap-boolean-)| <b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image. |
 | [getShapeType()](#getShapeType--)| <b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label. |
 | [setShapeType(DataLabelShapeType)](#setShapeType-datalabelshapetype-)| <b>@deprecated.</b> Please use the 'shapeType' property instead. Gets or sets  shape type of data label. |
 | [applyFont()](#applyFont--)| Apply the font of the datalabels to all child nodes. |
@@ -149,15 +149,15 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [getShadow()](#getShadow--)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| <b>@deprecated.</b> Please use the 'shadow' property instead. True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--)| <b>@deprecated.</b> Please use the 'shapeProperties' property instead. Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--)| <b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [getDefaultX()](#getDefaultX--)| <b>@deprecated.</b> Please use the 'defaultX' property instead. Represents x of default position in units of 1/4000 of the chart area. |
-| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area. |
+| [getDefaultY()](#getDefaultY--)| <b>@deprecated.</b> Please use the 'defaultY' property instead. Represents the y of the default position in units of 1/4000 of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--)| <b>@deprecated.</b> Please use the 'defaultWidth' property instead. Represents width of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--)| <b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of the default position in units of 1/4000 of the chart area. |
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultXRatioToChart' property instead. Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of the default position in units of the fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultWidthRatioToChart' property instead. Represents width of default position in units of Fraction of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| <b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of the default position in units of the fraction of the chart area. |
 | [isDeleted()](#isDeleted--)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted. |
 | [setIsDeleted(boolean)](#setIsDeleted-boolean-)| <b>@deprecated.</b> Please use the 'isDeleted' property instead. Indicates whether this data label is deleted. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| <b>@deprecated.</b> Please use the 'textHorizontalAlignment' property instead. Gets and sets the text horizontal alignment. |
@@ -178,8 +178,8 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setIsAutoText(boolean)](#setIsAutoText-boolean-)| Indicates the text is auto generated. |
 | [getDirectionType()](#getDirectionType--)| Gets and sets the direction of text. |
 | [setDirectionType(ChartTextDirectionType)](#setDirectionType-charttextdirectiontype-)| Gets and sets the direction of text. |
-| [getText()](#getText--)| Gets or sets the text of data label. |
-| [setText(string)](#setText-string-)| Gets or sets the text of data label. |
+| [getText()](#getText--)| Gets or sets the text of the data label. |
+| [setText(string)](#setText-string-)| Gets or sets the text of the data label. |
 | [isTextWrapped()](#isTextWrapped--)| Gets or sets a value indicating whether the text is wrapped. |
 | [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets a value indicating whether the text is wrapped. |
 | [getFont()](#getFont--)| Gets the font of the DataLabels; |
@@ -192,26 +192,26 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [setX(number)](#setX-number-)| Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [getY()](#getY--)| Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [setY(number)](#setY-number-)| Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getHeight()](#getHeight--)| Gets or sets the height of frame in units of 1/4000 of the chart area. |
-| [setHeight(number)](#setHeight-number-)| Gets or sets the height of frame in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--)| Gets or sets the height of the frame in units of 1/4000 of the chart area. |
+| [setHeight(number)](#setHeight-number-)| Gets or sets the height of the frame in units of 1/4000 of the chart area. |
 | [getWidth()](#getWidth--)| Gets or sets the width of frame in units of 1/4000 of the chart area. |
 | [setWidth(number)](#setWidth-number-)| Gets or sets the width of frame in units of 1/4000 of the chart area. |
 | [getXRatioToChart()](#getXRatioToChart--)| Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
 | [setXRatioToChart(number)](#setXRatioToChart-number-)| Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. |
-| [getYRatioToChart()](#getYRatioToChart--)| Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
-| [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. |
+| [getYRatioToChart()](#getYRatioToChart--)| Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
+| [setYRatioToChart(number)](#setYRatioToChart-number-)| Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the width of frame in units of ratio of the chart area. |
 | [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the width of frame in units of ratio of the chart area. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--)| Gets or sets the height of frame in units of ratio of the chart area. |
-| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the height of frame in units of ratio of the chart area. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--)| Gets or sets the height of the frame in units of the ratio of the chart area. |
+| [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the height of the frame in units of the ratio of the chart area. |
 | [getXPixel()](#getXPixel--)| Gets or sets the x coordinate of the upper left corner in units of Pixel. |
 | [setXPixel(number)](#setXPixel-number-)| Gets or sets the x coordinate of the upper left corner in units of Pixel. |
-| [getYPixel()](#getYPixel--)| Gets or sets the y coordinate of the upper left corner in units of Pixel. |
-| [setYPixel(number)](#setYPixel-number-)| Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [getYPixel()](#getYPixel--)| Gets or sets the y coordinate of the upper left corner in units of pixels. |
+| [setYPixel(number)](#setYPixel-number-)| Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [getWidthPixel()](#getWidthPixel--)| Gets or sets the width of frame in units of Pixel. |
 | [setWidthPixel(number)](#setWidthPixel-number-)| Gets or sets the width of frame in units of Pixel. |
-| [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of frame in units of Pixel. |
-| [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of frame in units of Pixel. |
+| [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of the frame in units of pixels. |
+| [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of the frame in units of pixels. |
 | [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 | [getLinkedSource()](#getLinkedSource--)| Gets and sets a reference to the worksheet. |
 | [setLinkedSource(string)](#setLinkedSource-string-)| Gets and sets a reference to the worksheet. |
@@ -250,7 +250,7 @@ showValue : boolean;
 
 ### showCellRange {#showCellRange--}
 
-Indicates whether showing cell range as the data labels.
+Indicates whether to show cell range as the data labels.
 
 ```javascript
 showCellRange : boolean;
@@ -268,7 +268,7 @@ showPercentage : boolean;
 
 ### showBubbleSize {#showBubbleSize--}
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 ```javascript
 showBubbleSize : boolean;
@@ -286,7 +286,7 @@ showCategoryName : boolean;
 
 ### showSeriesName {#showSeriesName--}
 
-Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide.
 
 ```javascript
 showSeriesName : boolean;
@@ -362,7 +362,7 @@ position : LabelPositionType;
 
 ### isNeverOverlap {#isNeverOverlap--}
 
-Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
+Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image.
 
 ```javascript
 isNeverOverlap : boolean;
@@ -428,7 +428,7 @@ shapeProperties : ShapePropertyCollection;
 
 ### isDefaultPosBeSet {#isDefaultPosBeSet--}
 
-Readonly. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 ```javascript
 isDefaultPosBeSet : boolean;
@@ -450,7 +450,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart pr
 
 ### defaultY {#defaultY--}
 
-Readonly. Represents y of default position in units of 1/4000 of the chart area.
+Readonly. Represents the y of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 defaultY : number;
@@ -476,7 +476,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChar
 
 ### defaultHeight {#defaultHeight--}
 
-Readonly. Represents height of default position in units of 1/4000 of the chart area.
+Readonly. Represents height of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 defaultHeight : number;
@@ -498,7 +498,7 @@ defaultXRatioToChart : number;
 
 ### defaultYRatioToChart {#defaultYRatioToChart--}
 
-Readonly. Represents y of default position in units of Fraction of the chart area.
+Readonly. Represents y of the default position in units of the fraction of the chart area.
 
 ```javascript
 defaultYRatioToChart : number;
@@ -516,7 +516,7 @@ defaultWidthRatioToChart : number;
 
 ### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
 
-Readonly. Represents height of default position in units of Fraction of the chart area.
+Readonly. Represents height of the default position in units of the fraction of the chart area.
 
 ```javascript
 defaultHeightRatioToChart : number;
@@ -640,7 +640,7 @@ setShowValue(value: boolean) : void;
 
 ### getShowCellRange() {#getShowCellRange--}
 
-<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels.
+<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether to show cell range as the data labels.
 
 ```javascript
 getShowCellRange() : boolean;
@@ -649,7 +649,7 @@ getShowCellRange() : boolean;
 
 ### setShowCellRange(boolean) {#setShowCellRange-boolean-}
 
-<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether showing cell range as the data labels.
+<b>@deprecated.</b> Please use the 'showCellRange' property instead. Indicates whether to show cell range as the data labels.
 
 ```javascript
 setShowCellRange(value: boolean) : void;
@@ -684,7 +684,7 @@ setShowPercentage(value: boolean) : void;
 
 ### getShowBubbleSize() {#getShowBubbleSize--}
 
-<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 ```javascript
 getShowBubbleSize() : boolean;
@@ -693,7 +693,7 @@ getShowBubbleSize() : boolean;
 
 ### setShowBubbleSize(boolean) {#setShowBubbleSize-boolean-}
 
-<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+<b>@deprecated.</b> Please use the 'showBubbleSize' property instead. Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False hides the percentage value.
 
 ```javascript
 setShowBubbleSize(value: boolean) : void;
@@ -728,7 +728,7 @@ setShowCategoryName(value: boolean) : void;
 
 ### getShowSeriesName() {#getShowSeriesName--}
 
-<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide.
 
 ```javascript
 getShowSeriesName() : boolean;
@@ -737,7 +737,7 @@ getShowSeriesName() : boolean;
 
 ### setShowSeriesName(boolean) {#setShowSeriesName-boolean-}
 
-<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
+<b>@deprecated.</b> Please use the 'showSeriesName' property instead. Indicates whether the series name displays on the data labels on a chart. True to show the series name. False to hide.
 
 ```javascript
 setShowSeriesName(value: boolean) : void;
@@ -920,7 +920,7 @@ setPosition(value: LabelPositionType) : void;
 
 ### isNeverOverlap() {#isNeverOverlap--}
 
-<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
+<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image.
 
 ```javascript
 isNeverOverlap() : boolean;
@@ -929,7 +929,7 @@ isNeverOverlap() : boolean;
 
 ### setIsNeverOverlap(boolean) {#setIsNeverOverlap-boolean-}
 
-<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether datalabels never overlap when performing Pie Chart to image. Note: this property is only meaningful when Pie Chart to image.
+<b>@deprecated.</b> Please use the 'isNeverOverlap' property instead. Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image.
 
 ```javascript
 setIsNeverOverlap(value: boolean) : void;
@@ -1093,7 +1093,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
-<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+<b>@deprecated.</b> Please use the 'isDefaultPosBeSet' property instead. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 ```javascript
 isDefaultPosBeSet() : boolean;
@@ -1115,7 +1115,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart pr
 
 ### getDefaultY() {#getDefaultY--}
 
-<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents y of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultY' property instead. Represents the y of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultY() : number;
@@ -1141,7 +1141,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChar
 
 ### getDefaultHeight() {#getDefaultHeight--}
 
-<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of default position in units of 1/4000 of the chart area.
+<b>@deprecated.</b> Please use the 'defaultHeight' property instead. Represents height of the default position in units of 1/4000 of the chart area.
 
 ```javascript
 getDefaultHeight() : number;
@@ -1163,7 +1163,7 @@ getDefaultXRatioToChart() : number;
 
 ### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
 
-<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultYRatioToChart' property instead. Represents y of the default position in units of the fraction of the chart area.
 
 ```javascript
 getDefaultYRatioToChart() : number;
@@ -1181,7 +1181,7 @@ getDefaultWidthRatioToChart() : number;
 
 ### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
 
-<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of default position in units of Fraction of the chart area.
+<b>@deprecated.</b> Please use the 'defaultHeightRatioToChart' property instead. Represents height of the default position in units of the fraction of the chart area.
 
 ```javascript
 getDefaultHeightRatioToChart() : number;
@@ -1443,7 +1443,7 @@ setDirectionType(value: ChartTextDirectionType) : void;
 
 ### getText() {#getText--}
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```javascript
 getText() : string;
@@ -1456,7 +1456,7 @@ Only works when this is a data label of a chart point.
 
 ### setText(string) {#setText-string-}
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```javascript
 setText(value: string) : void;
@@ -1625,7 +1625,7 @@ How to convert units of 1/4000 to pixels? Y In Pixels = Y * Chart.ChartObject.He
 
 ### getHeight() {#getHeight--}
 
-Gets or sets the height of frame in units of 1/4000 of the chart area.
+Gets or sets the height of the frame in units of 1/4000 of the chart area.
 
 ```javascript
 getHeight() : number;
@@ -1638,7 +1638,7 @@ How to convert units of 1/4000 to pixels? Height In Pixels = Y * Chart.ChartObje
 
 ### setHeight(number) {#setHeight-number-}
 
-Gets or sets the height of frame in units of 1/4000 of the chart area.
+Gets or sets the height of the frame in units of 1/4000 of the chart area.
 
 ```javascript
 setHeight(value: number) : void;
@@ -1715,7 +1715,7 @@ This is a fraction value, its valid range is between 0-1. How to convert units o
 
 ### getYRatioToChart() {#getYRatioToChart--}
 
-Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 ```javascript
 getYRatioToChart() : number;
@@ -1728,7 +1728,7 @@ This is a fraction value, its valid range is between 0-1. How to convert units o
 
 ### setYRatioToChart(number) {#setYRatioToChart-number-}
 
-Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area.
+Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area.
 
 ```javascript
 setYRatioToChart(value: number) : void;
@@ -1775,7 +1775,7 @@ This is a fraction value, its valid range is between 0-1. How to convert units o
 
 ### getHeightRatioToChart() {#getHeightRatioToChart--}
 
-Gets or sets the height of frame in units of ratio of the chart area.
+Gets or sets the height of the frame in units of the ratio of the chart area.
 
 ```javascript
 getHeightRatioToChart() : number;
@@ -1788,7 +1788,7 @@ This is a fraction value, its valid range is between 0-1. How to convert units o
 
 ### setHeightRatioToChart(number) {#setHeightRatioToChart-number-}
 
-Gets or sets the height of frame in units of ratio of the chart area.
+Gets or sets the height of the frame in units of the ratio of the chart area.
 
 ```javascript
 setHeightRatioToChart(value: number) : void;
@@ -1827,7 +1827,7 @@ setXPixel(value: number) : void;
 
 ### getYPixel() {#getYPixel--}
 
-Gets or sets the y coordinate of the upper left corner in units of Pixel.
+Gets or sets the y coordinate of the upper left corner in units of pixels.
 
 ```javascript
 getYPixel() : number;
@@ -1836,7 +1836,7 @@ getYPixel() : number;
 
 ### setYPixel(number) {#setYPixel-number-}
 
-Gets or sets the y coordinate of the upper left corner in units of Pixel.
+Gets or sets the y coordinate of the upper left corner in units of pixels.
 
 ```javascript
 setYPixel(value: number) : void;
@@ -1871,7 +1871,7 @@ setWidthPixel(value: number) : void;
 
 ### getHeightPixel() {#getHeightPixel--}
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```javascript
 getHeightPixel() : number;
@@ -1880,7 +1880,7 @@ getHeightPixel() : number;
 
 ### setHeightPixel(number) {#setHeightPixel-number-}
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```javascript
 setHeightPixel(value: number) : void;

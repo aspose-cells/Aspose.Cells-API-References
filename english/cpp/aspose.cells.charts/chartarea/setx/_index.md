@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartArea::SetX method
 linktitle: SetX
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartArea::SetX method. Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area in C++.'
+description: 'Aspose::Cells::Charts::ChartArea::SetX method. Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.charts/chartarea/setx/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chartarea/setx/
 ## ChartArea::SetX method
 
 
-Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area.
+Gets or sets the horizontal offset from its upper-left corner column, in units of 1/4000 of the chart area.
 
 
 >Deprecated

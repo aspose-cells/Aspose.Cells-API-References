@@ -25,7 +25,7 @@ class PivotAreaFilter;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
+| [fieldIndex](#fieldIndex--)| number | Readonly. Gets the index of the field which this filter refers to. A value of -2 indicates the values field. |
 | [selected](#selected--)| boolean | Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 
 ## Methods
@@ -47,7 +47,7 @@ constructor();
 
 ### fieldIndex {#fieldIndex--}
 
-Readonly. Gets the index of the field to which this filter refers. A value of -2 indicates the values field.
+Readonly. Gets the index of the field which this filter refers to. A value of -2 indicates the values field.
 
 ```javascript
 fieldIndex : number;

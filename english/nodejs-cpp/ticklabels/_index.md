@@ -22,13 +22,13 @@ class TickLabels;
 | [font](#font--)| Font | Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
 | [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle in clockwise. |
+| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle clockwise. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Indicates whether the rotation angle is automatic |
 | [numberFormat](#numberFormat--)| string | Represents the format string for the TickLabels object. |
 | [number](#number--)| number | Represents the format number for the TickLabels object. |
 | [numberFormatLinked](#numberFormatLinked--)| boolean | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [displayNumberFormat](#displayNumberFormat--)| string | Readonly. Gets and sets the display number format of tick labels. |
-| [offset](#offset--)| number | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [offset](#offset--)| number | Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [readingOrder](#readingOrder--)| TextDirectionType | Represents text reading order. |
 | [directionType](#directionType--)| ChartTextDirectionType | Gets and sets the direction of text. |
 | [tickLabelItems](#tickLabelItems--)| TickLabelItem[] | Readonly. Gets the display tick labels of the axis. |
@@ -43,8 +43,8 @@ class TickLabels;
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
-| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise. |
 | [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
 | [setIsAutomaticRotation(boolean)](#setIsAutomaticRotation-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
 | [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object. |
@@ -54,8 +54,8 @@ class TickLabels;
 | [getNumberFormatLinked()](#getNumberFormatLinked--)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| <b>@deprecated.</b> Please use the 'numberFormatLinked' property instead. True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getDisplayNumberFormat()](#getDisplayNumberFormat--)| <b>@deprecated.</b> Please use the 'displayNumberFormat' property instead. Gets and sets the display number format of tick labels. |
-| [getOffset()](#getOffset--)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
-| [setOffset(number)](#setOffset-number-)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [getOffset()](#getOffset--)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
+| [setOffset(number)](#setOffset-number-)| <b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [getReadingOrder()](#getReadingOrder--)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
 | [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| <b>@deprecated.</b> Please use the 'readingOrder' property instead. Represents text reading order. |
 | [getDirectionType()](#getDirectionType--)| <b>@deprecated.</b> Please use the 'directionType' property instead. Gets and sets the direction of text. |
@@ -95,7 +95,7 @@ backgroundMode : BackgroundMode;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 ```javascript
 rotationAngle : number;
@@ -157,7 +157,7 @@ displayNumberFormat : string;
 
 ### offset {#offset--}
 
-Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```javascript
 offset : number;
@@ -271,7 +271,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise.
 
 ```javascript
 getRotationAngle() : number;
@@ -284,7 +284,7 @@ br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle in clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise.
 
 ```javascript
 setRotationAngle(value: number) : void;
@@ -406,7 +406,7 @@ getDisplayNumberFormat() : string;
 
 ### getOffset() {#getOffset--}
 
-<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```javascript
 getOffset() : number;
@@ -419,7 +419,7 @@ The default distance is 100 percent, which represents the default spacing betwee
 
 ### setOffset(number) {#setOffset-number-}
 
-<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. Only for category (x) axis.
+<b>@deprecated.</b> Please use the 'offset' property instead. Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis.
 
 ```javascript
 setOffset(value: number) : void;

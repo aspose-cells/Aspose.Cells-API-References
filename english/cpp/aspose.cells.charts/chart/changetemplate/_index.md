@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Chart::ChangeTemplate method
 linktitle: ChangeTemplate
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Chart::ChangeTemplate method. Change chart type with preset template in C++.'
+description: 'Aspose::Cells::Charts::Chart::ChangeTemplate method. Change chart type with a preset template in C++.'
 type: docs
 weight: 3200
 url: /cpp/aspose.cells.charts/chart/changetemplate/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chart/changetemplate/
 ## Chart::ChangeTemplate method
 
 
-Change chart type with preset template.
+Change chart type with a preset template.
 
 ```cpp
 void Aspose::Cells::Charts::Chart::ChangeTemplate(const Vector<uint8_t> &data)

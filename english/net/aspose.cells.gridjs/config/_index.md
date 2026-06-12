@@ -54,6 +54,12 @@ public class Config
 | static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder/)(string, bool) | Sets the fonts folder |
 | static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders/)(string[], bool) | Sets the fonts folders |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static [RedactionUseClientGenerateId](../../aspose.cells.gridjs/config/redactionuseclientgenerateid/) | Indicates whether use client generate id instead of actual shape id in redaction related operations |
+
 ### See Also
 
 * namespace [Aspose.Cells.GridJs](../../aspose.cells.gridjs/)

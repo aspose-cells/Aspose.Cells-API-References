@@ -19,18 +19,22 @@ class SlicerCacheItem;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [selected](#selected--)| boolean | Specifies whether the SlicerItem is selected or not. |
+| [selected](#selected--)| boolean | Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not. |
 | [value](#value--)| string | Readonly. Returns the label text for the slicer item. |
 
 
 ### selected {#selected--}
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the [SlicerCacheItem](../slicercacheitem/) is selected or not.
 
 ```javascript
 selected : boolean;
 ```
 
+
+**Remarks**
+
+Please use [ Slicer.SelectItems(string[], bool)](../ slicer.selectitems(string[], bool)/) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 ### value {#value--}
 

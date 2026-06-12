@@ -1,13 +1,13 @@
 ---
 title: ChartFrame.DefaultY
 second_title: Aspose.Cells for .NET API Reference
-description: ChartFrame property. Represents y of default position in units of 1/4000 of the chart area
+description: ChartFrame property. Represents the y of the default position in units of 1/4000 of the chart area
 type: docs
 url: /net/aspose.cells.charts/chartframe/defaulty/
 ---
 ## ChartFrame.DefaultY property
 
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 ```csharp
 [Obsolete("Use ChartFrame.DefaultYRatioToChart property, instead.")]
