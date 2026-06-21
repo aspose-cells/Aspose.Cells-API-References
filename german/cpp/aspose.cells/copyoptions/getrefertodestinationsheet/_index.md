@@ -1,0 +1,29 @@
+﻿---
+title: Aspose::Cells::CopyOptions::GetReferToDestinationSheet method
+linktitle: GetReferToDestinationSheet
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::CopyOptions::GetReferToDestinationSheet method. When copying the range in the same file and the chart refers to the source sheet, False means the copied chart''s data source will not be changed. True means the copied chart''s data source refers to the destination sheet in C++.'
+type: docs
+weight: 1800
+url: /de/cpp/aspose.cells/copyoptions/getrefertodestinationsheet/
+---
+## CopyOptions::GetReferToDestinationSheet method
+
+
+When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
+
+```cpp
+bool Aspose::Cells::CopyOptions::GetReferToDestinationSheet()
+```
+
+## Remarks
+
+
+The default value is false, it works as MS Excel. For example: if copying a chart with the data source "sheet1!A1:B10" from worksheet "sheet1 to other worksheet "sheet2",
+The data source will be changed as "sheet2!A1:B10" 
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [CopyOptions](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
