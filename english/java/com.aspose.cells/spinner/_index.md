@@ -346,6 +346,15 @@ public void fitToTextSize()
 
 Recalculate a text area suitable for displaying all text content.
 
+**Example**
+
+```
+         if (shape.getName().startsWith("Your traget"))
+         {
+             shape.fitToTextSize();
+         }
+```
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
@@ -394,6 +403,16 @@ Get the actual position and size of the shape (after applying rotation, flip, et
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Example**
+
+```
+         float[] box = shape.getActualBox();
+         System.out.println("x = " + box[0]);
+         System.out.println("y = " + box[1]);
+         System.out.println("w = " + box[2]);
+         System.out.println("h = " + box[3]);
+```
 
 **Returns:**
 float[] - Return the position and size in the order of x, y, w, h
@@ -554,6 +573,15 @@ public UUID getCreateId()
 
 
 Gets create id for this shape.
+
+**Example**
+
+```
+         System.out.println(shape.getCreateId());
+         java.util.UUID g = java.util.UUID.randomUUID();
+         shape.setCreateId(g);
+         System.out.println(shape.getCreateId());
+```
 
 **Returns:**
 java.util.UUID
@@ -1479,6 +1507,17 @@ public TextBoxOptions getTextBoxOptions()
 
 Gets the text information in the shape
 
+**Example**
+
+```
+         TextBoxOptions textBoxOpt = shape.getTextBoxOptions();
+         textBoxOpt.setShapeTextVerticalAlignment(ShapeTextVerticalAlignmentType.LEFT);
+         textBoxOpt.setTopMarginPt(0.2d);
+         textBoxOpt.setLeftMarginPt(0.2d);
+         textBoxOpt.setRightMarginPt(0.2d);
+         textBoxOpt.setBottomMarginPt(0.2d);
+```
+
 **Returns:**
 [TextBoxOptions](../../com.aspose.cells/textboxoptions)
 ### getTextDirection() {#getTextDirection--}
@@ -2100,6 +2139,13 @@ public boolean isDecorative()
 
 
 Indicates whether the object is decorative.
+
+**Example**
+
+```
+         if (!shape.isDecorative())
+             shape.setDecorative(true);
+```
 
 **Returns:**
 boolean

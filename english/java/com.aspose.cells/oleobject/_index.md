@@ -130,7 +130,6 @@ Represents an OleObject in a worksheet.
 | [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
 | [getSoftEdges()](#getSoftEdges--) | Gets the radius of blur to apply to the edges, in unit of points. |
-| [getSourceFullName()](#getSourceFullName--) | Returns the source full name of the source file for the linked OLE object. |
 | [getSpid()](#getSpid--) | Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [getSpt()](#getSpt--) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [getText()](#getText--) | Gets the text of this shape. |
@@ -253,7 +252,6 @@ Represents an OleObject in a worksheet.
 | [setRight(int value)](#setRight-int-) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
 | [setSoftEdges(double value)](#setSoftEdges-double-) | Sets the radius of blur to apply to the edges, in unit of points. |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Returns the source full name of the source file for the linked OLE object. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the text of this shape. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Sets the direction of the text flow for this object. |
 | [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment type of the shape. |
@@ -399,6 +397,15 @@ public void fitToTextSize()
 
 Recalculate a text area suitable for displaying all text content.
 
+**Example**
+
+```
+         if (shape.getName().startsWith("Your traget"))
+         {
+             shape.fitToTextSize();
+         }
+```
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
@@ -447,6 +454,16 @@ Get the actual position and size of the shape (after applying rotation, flip, et
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Example**
+
+```
+         float[] box = shape.getActualBox();
+         System.out.println("x = " + box[0]);
+         System.out.println("y = " + box[1]);
+         System.out.println("w = " + box[2]);
+         System.out.println("h = " + box[3]);
+```
 
 **Returns:**
 float[] - Return the position and size in the order of x, y, w, h
@@ -637,6 +654,15 @@ public UUID getCreateId()
 
 
 Gets create id for this shape.
+
+**Example**
+
+```
+         System.out.println(shape.getCreateId());
+         java.util.UUID g = java.util.UUID.randomUUID();
+         shape.setCreateId(g);
+         System.out.println(shape.getCreateId());
+```
 
 **Returns:**
 java.util.UUID
@@ -1550,20 +1576,6 @@ Gets the radius of blur to apply to the edges, in unit of points.
 
 **Returns:**
 double
-### getSourceFullName() {#getSourceFullName--}
-```
-public String getSourceFullName()
-```
-
-
-Returns the source full name of the source file for the linked OLE object.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use OleObject.ObjectSourceFullName property. This property will be removed 12 months later since November 2013. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-java.lang.String
 ### getSpid() {#getSpid--}
 ```
 public String getSpid()
@@ -1637,6 +1649,17 @@ public TextBoxOptions getTextBoxOptions()
 
 
 Gets the text information in the shape
+
+**Example**
+
+```
+         TextBoxOptions textBoxOpt = shape.getTextBoxOptions();
+         textBoxOpt.setShapeTextVerticalAlignment(ShapeTextVerticalAlignmentType.LEFT);
+         textBoxOpt.setTopMarginPt(0.2d);
+         textBoxOpt.setLeftMarginPt(0.2d);
+         textBoxOpt.setRightMarginPt(0.2d);
+         textBoxOpt.setBottomMarginPt(0.2d);
+```
 
 **Returns:**
 [TextBoxOptions](../../com.aspose.cells/textboxoptions)
@@ -2269,6 +2292,13 @@ public boolean isDecorative()
 
 
 Indicates whether the object is decorative.
+
+**Example**
+
+```
+         if (!shape.isDecorative())
+             shape.setDecorative(true);
+```
 
 **Returns:**
 boolean
@@ -3517,23 +3547,6 @@ Sets the radius of blur to apply to the edges, in unit of points.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-
-### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
-```
-public void setSourceFullName(String value)
-```
-
-
-Returns the source full name of the source file for the linked OLE object.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use OleObject.ObjectSourceFullName property. This property will be removed 12 months later since November 2013. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```

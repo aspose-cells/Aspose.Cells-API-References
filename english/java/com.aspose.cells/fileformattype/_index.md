@@ -57,6 +57,7 @@ Represents the file format types.
 | [ODP](#ODP) | Represents a ODP file. |
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
 | [ODT](#ODT) | Represents an ODT file. |
+| [OFD](#OFD) | Represents an Ofd file. |
 | [OLE](#OLE) | Represents the embedded ole object. |
 | [OLE_10_NATIVE](#OLE-10-NATIVE) | Represents the embedded native object. |
 | [ONE_NOTE](#ONE-NOTE) | Rrepesents One Note file. |
@@ -506,6 +507,18 @@ Represents an ODT file.
 **Remarks**
 
 The file format is not supported Only for detecting file type.
+
+### OFD {#OFD}
+```
+public static final int OFD
+```
+
+
+Represents an Ofd file.
+
+**Remarks**
+
+Only support to save as ofd.
 
 ### OLE {#OLE}
 ```

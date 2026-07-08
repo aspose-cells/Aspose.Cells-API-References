@@ -26,12 +26,14 @@ Rerepsents the options of calculating data of the pivot table.
 | [getClass()](#getClass--) |  |
 | [getRefreshCharts()](#getRefreshCharts--) | Indicates whether refreshing charts are based on this pivot table. |
 | [getRefreshData()](#getRefreshData--) | Indicates whether refreshing data source of the pivottable. |
+| [getRefreshOption()](#getRefreshOption--) | Gets options for refreshing data source to pivot cache. |
 | [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--) | Represents how to reserve missing pivot items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setRefreshCharts(boolean value)](#setRefreshCharts-boolean-) | Indicates whether refreshing charts are based on this pivot table. |
 | [setRefreshData(boolean value)](#setRefreshData-boolean-) | Indicates whether refreshing data source of the pivottable. |
+| [setRefreshOption(PivotTableRefreshOption value)](#setRefreshOption-com.aspose.cells.PivotTableRefreshOption-) | Sets options for refreshing data source to pivot cache. |
 | [setReserveMissingPivotItemType(int value)](#setReserveMissingPivotItemType-int-) | Represents how to reserve missing pivot items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -92,6 +94,16 @@ If it is true, refresh pivot cache from data source,then calculate all pivot tab
 
 **Returns:**
 boolean
+### getRefreshOption() {#getRefreshOption--}
+```
+public PivotTableRefreshOption getRefreshOption()
+```
+
+
+Gets options for refreshing data source to pivot cache.
+
+**Returns:**
+[PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption)
 ### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
 ```
 public int getReserveMissingPivotItemType()
@@ -163,6 +175,19 @@ If it is true, refresh pivot cache from data source,then calculate all pivot tab
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setRefreshOption(PivotTableRefreshOption value) {#setRefreshOption-com.aspose.cells.PivotTableRefreshOption-}
+```
+public void setRefreshOption(PivotTableRefreshOption value)
+```
+
+
+Sets options for refreshing data source to pivot cache.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) |  |
 
 ### setReserveMissingPivotItemType(int value) {#setReserveMissingPivotItemType-int-}
 ```

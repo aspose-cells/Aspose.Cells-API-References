@@ -70,6 +70,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [hashCode()](#hashCode--) | Serves as a hash function for a Style object. |
 | [isAlignmentApplied()](#isAlignmentApplied--) | Indicate whether the alignment formatting should be applied. |
 | [isBorderApplied()](#isBorderApplied--) | Indicate whether the border formatting should be applied. |
+| [isCheckBox()](#isCheckBox--) | Indicates whether it's a style of check box |
 | [isDateTime()](#isDateTime--) | Indicates whether the number format is a date format. |
 | [isFillApplied()](#isFillApplied--) | Indicate whether the fill formatting should be applied. |
 | [isFontApplied()](#isFontApplied--) | Indicate whether the font formatting should be applied. |
@@ -91,6 +92,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [setBorder(int borderType, int borderStyle, CellsColor borderColor)](#setBorder-int-int-com.aspose.cells.CellsColor-) | Sets the borders of the style. |
 | [setBorder(int borderType, int borderStyle, Color borderColor)](#setBorder-int-int-com.aspose.cells.Color-) | Sets the borders of the style. |
 | [setBorderApplied(boolean value)](#setBorderApplied-boolean-) | Indicate whether the border formatting should be applied. |
+| [setCheckBox(boolean value)](#setCheckBox-boolean-) | Indicates whether it's a style of check box |
 | [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) | Sets the culture-dependent pattern string for number format. |
 | [setCustom(String value)](#setCustom-java.lang.String-) | Represents the custom number format string of this style object. |
 | [setCustom(String custom, boolean builtinPreference)](#setCustom-java.lang.String-boolean-) | Sets the Custom number format string of a cell. |
@@ -609,6 +611,16 @@ Only for named style.
 
 **Returns:**
 boolean
+### isCheckBox() {#isCheckBox--}
+```
+public boolean isCheckBox()
+```
+
+
+Indicates whether it's a style of check box
+
+**Returns:**
+boolean
 ### isDateTime() {#isDateTime--}
 ```
 public boolean isDateTime()
@@ -883,6 +895,19 @@ Indicate whether the border formatting should be applied.
 **Remarks**
 
 Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setCheckBox(boolean value) {#setCheckBox-boolean-}
+```
+public void setCheckBox(boolean value)
+```
+
+
+Indicates whether it's a style of check box
 
 **Parameters:**
 | Parameter | Type | Description |

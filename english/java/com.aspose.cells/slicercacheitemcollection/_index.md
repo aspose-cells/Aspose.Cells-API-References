@@ -81,7 +81,7 @@ Represent the collection of SlicerCacheItem
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the SlicerCacheItem object by index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the count of the SlicerCacheItem. |
+| [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
@@ -182,16 +182,10 @@ public int getCount()
 ```
 
 
-Gets the count of the SlicerCacheItem.
-
-**Example**
-
-```
-         int count = items.getCount();
-```
+Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
-int
+int - The number of elements contained in the CollectionBase instance.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -80,28 +80,30 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified timeline, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [getName()](#getName--) | Returns or sets the name of the specified Timeline |
+| [getSelectedDateTimeRange()](#getSelectedDateTimeRange--) | Gets the selected range of date time. |
 | [getSelectionLevel()](#getSelectionLevel--) | Gets the time level at which the current selection was made for the Timeline. |
 | [getShape()](#getShape--) | Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline. |
-| [getShowHeader()](#getShowHeader--) | Indicates whether to display the header. |
-| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--) | Indicates whether to display the horizontal ccroll bar. |
+| [getShowHeader()](#getShowHeader--) | Indicates whether to display the header of this timeline. |
+| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--) | Indicates whether to display the horizontal scroll bar. |
 | [getShowSelectionLabel()](#getShowSelectionLabel--) | Indicates whether to display the selction label. |
-| [getShowTimeLevel()](#getShowTimeLevel--) | Indicates whether to display the time level. |
+| [getShowTimeLevel()](#getShowTimeLevel--) | Indicates whether to display the drop-down selection box of the time level. |
 | [getStartDate()](#getStartDate--) | Gets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline). |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified timeline, in pixels. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [select(DateTime start, DateTime end, boolean calculate)](#select-com.aspose.cells.DateTime-com.aspose.cells.DateTime-boolean-) | Select item between the date time. |
 | [setCaption(String value)](#setCaption-java.lang.String-) | Sets the caption of this Timeline. |
 | [setCurrentLevel(int value)](#setCurrentLevel-int-) | The current time level of the Timeline. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified timeline, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified Timeline |
 | [setSelectionLevel(int value)](#setSelectionLevel-int-) | Sets the time level at which the current selection was made for the Timeline. |
-| [setShowHeader(boolean value)](#setShowHeader-boolean-) | Indicates whether to display the header. |
-| [setShowHorizontalScrollbar(boolean value)](#setShowHorizontalScrollbar-boolean-) | Indicates whether to display the horizontal ccroll bar. |
+| [setShowHeader(boolean value)](#setShowHeader-boolean-) | Indicates whether to display the header of this timeline. |
+| [setShowHorizontalScrollbar(boolean value)](#setShowHorizontalScrollbar-boolean-) | Indicates whether to display the horizontal scroll bar. |
 | [setShowSelectionLabel(boolean value)](#setShowSelectionLabel-boolean-) | Indicates whether to display the selction label. |
-| [setShowTimeLevel(boolean value)](#setShowTimeLevel-boolean-) | Indicates whether to display the time level. |
+| [setShowTimeLevel(boolean value)](#setShowTimeLevel-boolean-) | Indicates whether to display the drop-down selection box of the time level. |
 | [setStartDate(DateTime value)](#setStartDate-com.aspose.cells.DateTime-) | Sets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline). |
 | [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified timeline, in pixels. |
@@ -208,6 +210,16 @@ Returns or sets the name of the specified Timeline
 
 **Returns:**
 java.lang.String
+### getSelectedDateTimeRange() {#getSelectedDateTimeRange--}
+```
+public DateTime[] getSelectedDateTimeRange()
+```
+
+
+Gets the selected range of date time.
+
+**Returns:**
+com.aspose.cells.DateTime[] - 
 ### getSelectionLevel() {#getSelectionLevel--}
 ```
 public int getSelectionLevel()
@@ -236,7 +248,7 @@ public boolean getShowHeader()
 ```
 
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 **Returns:**
 boolean
@@ -246,7 +258,7 @@ public boolean getShowHorizontalScrollbar()
 ```
 
 
-Indicates whether to display the horizontal ccroll bar.
+Indicates whether to display the horizontal scroll bar.
 
 **Returns:**
 boolean
@@ -266,7 +278,7 @@ public boolean getShowTimeLevel()
 ```
 
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 **Returns:**
 boolean
@@ -333,6 +345,25 @@ public final native void notifyAll()
 
 
 
+
+### select(DateTime start, DateTime end, boolean calculate) {#select-com.aspose.cells.DateTime-com.aspose.cells.DateTime-boolean-}
+```
+public void select(DateTime start, DateTime end, boolean calculate)
+```
+
+
+Select item between the date time.
+
+**Remarks**
+
+[getCurrentLevel()](../../com.aspose.cells/timeline\#getCurrentLevel--) must be set before calling this method. If this method is called, [getSelectionLevel()](../../com.aspose.cells/timeline\#getSelectionLevel--) will be [getCurrentLevel()](../../com.aspose.cells/timeline\#getCurrentLevel--).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | [DateTime](../../com.aspose.cells/datetime) | The start date time |
+| end | [DateTime](../../com.aspose.cells/datetime) | The end date time |
+| calculate | boolean | Indicates whether to calculate relative pivot tables |
 
 ### setCaption(String value) {#setCaption-java.lang.String-}
 ```
@@ -430,7 +461,7 @@ public void setShowHeader(boolean value)
 ```
 
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +474,7 @@ public void setShowHorizontalScrollbar(boolean value)
 ```
 
 
-Indicates whether to display the horizontal ccroll bar.
+Indicates whether to display the horizontal scroll bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +500,7 @@ public void setShowTimeLevel(boolean value)
 ```
 
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 **Parameters:**
 | Parameter | Type | Description |

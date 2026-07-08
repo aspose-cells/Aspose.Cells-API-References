@@ -61,6 +61,7 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [getNamedRangesAndTables()](#getNamedRangesAndTables--) | Gets all pre-defined named ranges in the spreadsheet. |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
 | [getOleSize()](#getOleSize--) | Gets displayed size when Workbook file is used as an Ole object. |
+| [getPivotCaches()](#getPivotCaches--) | Gets all [PivotCache](../../com.aspose.cells/pivotcache). |
 | [getRangeByName(String rangeName)](#getRangeByName-java.lang.String-) | Gets Range object by pre-defined name. |
 | [getRangeByName(String rangeName, int currentSheetIndex, boolean includeTable)](#getRangeByName-java.lang.String-int-boolean-) | Gets [Range](../../com.aspose.cells/range) by pre-defined name or table's name |
 | [getRevisionLogs()](#getRevisionLogs--) | Represents revision logs. |
@@ -533,6 +534,16 @@ Null means no ole size setting.
 
 **Returns:**
 java.lang.Object
+### getPivotCaches() {#getPivotCaches--}
+```
+public PivotCacheCollection getPivotCaches()
+```
+
+
+Gets all [PivotCache](../../com.aspose.cells/pivotcache).
+
+**Returns:**
+[PivotCacheCollection](../../com.aspose.cells/pivotcachecollection)
 ### getRangeByName(String rangeName) {#getRangeByName-java.lang.String-}
 ```
 public Range getRangeByName(String rangeName)

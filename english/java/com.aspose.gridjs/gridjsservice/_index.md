@@ -32,6 +32,7 @@ Provides the basic operation apis used in controller actions.
 | [detailFileJsonWithUid(String filePath, String uid)](#detailFileJsonWithUid-java.lang.String-java.lang.String-) | Gets JSON string for the file by the specified unique id. . |
 | [detailStreamJson(OutputStream stream, String filePath)](#detailStreamJson-java.io.OutputStream-java.lang.String-) | Write the JSON string for the file to the stream . |
 | [detailStreamJsonWithUid(OutputStream stream, String filePath, String uid)](#detailStreamJsonWithUid-java.io.OutputStream-java.lang.String-java.lang.String-) | Write the JSON string for the file to the stream by the specified unique id. |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [download(String p, String uid, String filename)](#download-java.lang.String-java.lang.String-java.lang.String-) | Applies the download file operation |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -176,6 +177,14 @@ Write the JSON string for the file to the stream by the specified unique id.
 | stream | java.io.OutputStream | The stream that will be written |
 | filePath | java.lang.String | The file path |
 | uid | java.lang.String | The unique id for the file cache. |
+
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### download(String p, String uid, String filename) {#download-java.lang.String-java.lang.String-java.lang.String-}
 ```

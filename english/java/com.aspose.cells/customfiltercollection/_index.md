@@ -25,6 +25,7 @@ Represents the custom filters.
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
+| [custom(int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2)](#custom-int-java.lang.Object-boolean-int-java.lang.Object-) | Filters a list with custom criteria. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the custom filter in the specific index. |
 | [getAnd()](#getAnd--) | Indicates whether the two criteria have an "and" relationship. |
@@ -48,6 +49,10 @@ public CustomFilterCollection()
 
 
 Constructs new instance.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as FilterType.CustomFilters then get FilterColumn.CustomFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### add(Object o) {#add-java.lang.Object-}
 ```
@@ -87,6 +92,23 @@ Return whether instance contains this object
 
 **Returns:**
 boolean - Whether instance contains this object
+### custom(int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2) {#custom-int-java.lang.Object-boolean-int-java.lang.Object-}
+```
+public void custom(int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2)
+```
+
+
+Filters a list with custom criteria.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorType1 | int |  |
+| criteria1 | java.lang.Object |  |
+| isAnd | boolean |  |
+| operatorType2 | int |  |
+| criteria2 | java.lang.Object |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

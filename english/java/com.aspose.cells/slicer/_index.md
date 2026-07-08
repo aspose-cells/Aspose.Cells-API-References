@@ -148,6 +148,7 @@ summary description of Slicer View
 | [setWidth(double value)](#setWidth-double-) | Returns or sets the width of the specified slicer, in points. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified slicer, in pixels. |
 | [toString()](#toString--) |  |
+| [unselectItems(String[] labels)](#unselectItems-java.lang.String---) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -1268,6 +1269,19 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### unselectItems(String[] labels) {#unselectItems-java.lang.String---}
+```
+public void unselectItems(String[] labels)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| labels | java.lang.String[] |  |
+
 ### wait() {#wait--}
 ```
 public final void wait()

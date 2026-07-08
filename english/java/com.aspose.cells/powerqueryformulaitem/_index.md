@@ -24,10 +24,6 @@ Represents the item of the power query formula.
 | [getTextValue()](#getTextValue--) | Gets the text value of the item. |
 | [getValue()](#getValue--) | Gets the value of the item. |
 | [hashCode()](#hashCode--) |  |
-| [isFunction()](#isFunction--) | Gets whether this item is a function. |
-| [isList()](#isList--) | Gets whether this item is a list. |
-| [isLiteral()](#isLiteral--) | Gets whether this item is a literal value. |
-| [isParameter()](#isParameter--) | Gets whether this item is a parameter. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setValue(String value)](#setValue-java.lang.String-) | Gets the value of the item. |
@@ -112,46 +108,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isFunction() {#isFunction--}
-```
-public boolean isFunction()
-```
-
-
-Gets whether this item is a function.
-
-**Returns:**
-boolean
-### isList() {#isList--}
-```
-public boolean isList()
-```
-
-
-Gets whether this item is a list.
-
-**Returns:**
-boolean
-### isLiteral() {#isLiteral--}
-```
-public boolean isLiteral()
-```
-
-
-Gets whether this item is a literal value.
-
-**Returns:**
-boolean
-### isParameter() {#isParameter--}
-```
-public boolean isParameter()
-```
-
-
-Gets whether this item is a parameter.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()

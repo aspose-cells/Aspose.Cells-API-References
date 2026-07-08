@@ -45,7 +45,6 @@ Encapsulates the object that represents a cell comment.
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Format some characters with the font setting. |
 | [getAuthor()](#getAuthor--) | Gets Name of the original comment author |
 | [getAutoSize()](#getAutoSize--) | Indicates if size of comment is adjusted automatically according to its content. |
-| [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the comment text. |
 | [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | Gets the column index of the comment. |
 | [getCommentShape()](#getCommentShape--) | Get a Shape object that represents the shape attached to the specified comment. |
@@ -176,26 +175,6 @@ Indicates if size of comment is adjusted automatically according to its content.
 
 **Returns:**
 boolean
-### getCharacters() {#getCharacters--}
-```
-public ArrayList getCharacters()
-```
-
-
-Returns all Characters objects that represents a range of characters within the comment text.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use Comment.GetRichFormattings() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Example**
-
-```
-         FontSetting fontSetting = comment1.characters(0, 4);
-```
-
-**Returns:**
-java.util.ArrayList - All Characters objects
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
