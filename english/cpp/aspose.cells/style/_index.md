@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style class. Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties in C++.'
 type: docs
-weight: 14300
+weight: 14500
 url: /cpp/aspose.cells/style/
 ---
 ## Style class
@@ -53,6 +53,7 @@ class Style
 | [GetVerticalAlignment()](./getverticalalignment/) | Gets or sets the vertical alignment type of the text in a cell. |
 | [IsAlignmentApplied()](./isalignmentapplied/) | Indicate whether the alignment formatting should be applied. |
 | [IsBorderApplied()](./isborderapplied/) | Indicate whether the border formatting should be applied. |
+| [IsCheckBox()](./ischeckbox/) | Indicates whether it's a style of check box. |
 | [IsDateTime()](./isdatetime/) | Indicates whether the number format is a date format. |
 | [IsFillApplied()](./isfillapplied/) | Indicate whether the fill formatting should be applied. |
 | [IsFontApplied()](./isfontapplied/) | Indicate whether the font formatting should be applied. |
@@ -86,6 +87,7 @@ class Style
 | [SetIndentLevel(int32_t value)](./setindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
 | [SetIsAlignmentApplied(bool value)](./setisalignmentapplied/) | Indicate whether the alignment formatting should be applied. |
 | [SetIsBorderApplied(bool value)](./setisborderapplied/) | Indicate whether the border formatting should be applied. |
+| [SetIsCheckBox(bool value)](./setischeckbox/) | Indicates whether it's a style of check box. |
 | [SetIsFillApplied(bool value)](./setisfillapplied/) | Indicate whether the fill formatting should be applied. |
 | [SetIsFontApplied(bool value)](./setisfontapplied/) | Indicate whether the font formatting should be applied. |
 | [SetIsFormulaHidden(bool value)](./setisformulahidden/) | Represents if the formula will be hidden when the worksheet is protected. |

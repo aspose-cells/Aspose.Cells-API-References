@@ -16,6 +16,19 @@ Gets the text information in the shape.
 TextBoxOptions Aspose::Cells::Drawing::Shape::GetTextBoxOptions()
 ```
 
+
+## Examples
+
+
+```cpp
+TextBoxOptions textBoxOpt = shape.GetTextBoxOptions();
+textBoxOpt.SetShapeTextVerticalAlignment(ShapeTextVerticalAlignmentType::Left);
+textBoxOpt.SetTopMarginPt(0.2);
+textBoxOpt.SetLeftMarginPt(0.2);
+textBoxOpt.SetRightMarginPt(0.2);
+textBoxOpt.SetBottomMarginPt(0.2);
+```
+
 ## See Also
 
 * Class [TextBoxOptions](../../../aspose.cells.drawing.texts/textboxoptions/)

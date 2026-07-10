@@ -4,7 +4,7 @@ linktitle: GetShowPivotStyleLastColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetShowPivotStyleLastColumn method. Indicates whether the column formatting is applied in C++.'
 type: docs
-weight: 17900
+weight: 18100
 url: /cpp/aspose.cells.pivot/pivottable/getshowpivotstylelastcolumn/
 ---
 ## PivotTable::GetShowPivotStyleLastColumn method

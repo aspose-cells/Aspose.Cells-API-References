@@ -2,7 +2,7 @@
 title: Aspose::Cells::Timelines::Timeline::GetShowHeader method
 linktitle: GetShowHeader
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Timelines::Timeline::GetShowHeader method. Indicates whether to display the header in C++.'
+description: 'Aspose::Cells::Timelines::Timeline::GetShowHeader method. Indicates whether to display the header of this timeline in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.timelines/timeline/getshowheader/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.timelines/timeline/getshowheader/
 ## Timeline::GetShowHeader method
 
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 ```cpp
 bool Aspose::Cells::Timelines::Timeline::GetShowHeader()

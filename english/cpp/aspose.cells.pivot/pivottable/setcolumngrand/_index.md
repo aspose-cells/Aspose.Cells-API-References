@@ -4,7 +4,7 @@ linktitle: SetColumnGrand
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetColumnGrand method. Indicates whether the PivotTable report shows grand totals for columns in C++.'
 type: docs
-weight: 5000
+weight: 5100
 url: /cpp/aspose.cells.pivot/pivottable/setcolumngrand/
 ---
 ## PivotTable::SetColumnGrand method

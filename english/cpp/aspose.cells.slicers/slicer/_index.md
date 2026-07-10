@@ -94,6 +94,7 @@ class Slicer
 | [SetWidthPixel(int32_t value)](./setwidthpixel/) |  **(Deprecated)** Returns or sets the width of the specified slicer, in pixels. |
 | [Slicer(Slicer_Impl* impl)](./slicer/) | Constructs from an implementation object. |
 | [Slicer(const Slicer\& src)](./slicer/) | Copy constructor. |
+| [UnselectItems(const Vector \<U16String\>\& labels)](./unselectitems/) |  |
 | [~Slicer()](./~slicer/) | Destructor. |
 ## Fields
 

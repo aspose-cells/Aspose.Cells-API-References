@@ -16,6 +16,17 @@ Recalculate a text area suitable for displaying all text content.
 void Aspose::Cells::Drawing::Shape::FitToTextSize()
 ```
 
+
+## Examples
+
+
+```cpp
+if (shape.GetName().StartsWith("Your traget"))
+{
+    shape.FitToTextSize();
+}
+```
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

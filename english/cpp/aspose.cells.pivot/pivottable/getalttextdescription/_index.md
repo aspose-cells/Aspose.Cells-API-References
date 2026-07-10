@@ -4,7 +4,7 @@ linktitle: GetAltTextDescription
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetAltTextDescription method. Gets the description of the alt text in C++.'
 type: docs
-weight: 11300
+weight: 11400
 url: /cpp/aspose.cells.pivot/pivottable/getalttextdescription/
 ---
 ## PivotTable::GetAltTextDescription method

@@ -19,7 +19,7 @@ void Aspose::Cells::Pivot::PivotTableCalculateOption::SetReserveMissingPivotItem
 ## Remarks
 
 
-Only works when RefreshData is true. 
+Only works when PivotTableCalculateOption.RefreshData is true. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

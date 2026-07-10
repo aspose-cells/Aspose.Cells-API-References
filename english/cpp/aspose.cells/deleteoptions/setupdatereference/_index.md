@@ -16,6 +16,10 @@ Indicates if update references in other worksheets.
 void Aspose::Cells::DeleteOptions::SetUpdateReference(bool value)
 ```
 
+## Remarks
+
+
+Starting from 26.7 we set the default value of this property to true. 
 ## See Also
 
 * Class [Vector](../../vector/)

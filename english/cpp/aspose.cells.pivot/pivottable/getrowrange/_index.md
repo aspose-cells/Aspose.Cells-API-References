@@ -4,7 +4,7 @@ linktitle: GetRowRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetRowRange method. Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only in C++.'
 type: docs
-weight: 3700
+weight: 3800
 url: /cpp/aspose.cells.pivot/pivottable/getrowrange/
 ---
 ## PivotTable::GetRowRange method

@@ -4,7 +4,7 @@ linktitle: GetDependentPivotTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetDependentPivotTables method. Gets all PivotTables that use this PivotTable as their data source in C++.'
 type: docs
-weight: 18600
+weight: 18800
 url: /cpp/aspose.cells.pivot/pivottable/getdependentpivottables/
 ---
 ## PivotTable::GetDependentPivotTables method

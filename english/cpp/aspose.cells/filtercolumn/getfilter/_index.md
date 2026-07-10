@@ -15,7 +15,7 @@ Gets and sets the condition of filtering data.
 
 >Deprecated
 >
->Use FilterColumn.MultipleFilters,CustomFilters and so on... property, instead. 
+>Use corresponding property according to the filter type instead. 
 ```cpp
 Aspose::Cells::Object Aspose::Cells::FilterColumn::GetFilter()
 ```
@@ -23,7 +23,7 @@ Aspose::Cells::Object Aspose::Cells::FilterColumn::GetFilter()
 ## Remarks
 
 
-NOTE: This member is now obsolete. Instead,please use FilterColumn.MultipleFilters,CustomFilters and so on... property according to differnt type of filter This property will be removed 12 months later since October 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use corresponding property according to FilterColumn.FilterType. And for filter type [FilterType.MultipleFilters](../../filtertype/), the returned object is [FilterValueCollection](../../filtervaluecollection/) now instead of [MultipleFilterCollection](../../multiplefiltercollection/). This property will be removed 12 months later since October 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

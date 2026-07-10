@@ -7,7 +7,7 @@ type: docs
 weight: 700
 url: /cpp/aspose.cells.drawing/shapecollection/addcopy/
 ---
-## ShapeCollection::AddCopy method
+## ShapeCollection::AddCopy(const Shape\&, int32_t, int32_t, int32_t, int32_t) method
 
 
 Adds and copy a shape to the worksheet.
@@ -44,6 +44,49 @@ shapes.AddCopy(rectangle, 7, 0, 7, 0);
 
 * Class [Shape](../../shape/)
 * Class [Vector](../../../aspose.cells/vector/)
+* Class [ShapeCollection](../)
+* Namespace [Aspose::Cells::Drawing](../../)
+* Library [Aspose.Cells for C++](../../../)
+## ShapeCollection::AddCopy(const Shape\&, int32_t, int32_t, int32_t, int32_t, const CopyOptions\&) method
+
+
+Adds and copy a shape to the worksheet.
+
+```cpp
+Shape Aspose::Cells::Drawing::ShapeCollection::AddCopy(const Shape &sourceShape, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, const CopyOptions &copyOptions)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | const Shape\& | Source shape. |
+| topRow | int32_t | The top row index. |
+| top | int32_t | Represents the vertical offset from its top row, in unit of pixel. |
+| leftColumn | int32_t | The left column index. |
+| left | int32_t | Represents the horizontal offset from its left column, in unit of pixel. |
+| copyOptions | const CopyOptions\& | The options of copying shapes. |
+
+## ReturnValue
+
+The new [Shape](../../shape/) object.
+
+
+## Examples
+
+
+```cpp
+CopyOptions copyOpt;
+//add a shape
+RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+//Adds and copies a shape.
+shapes.AddCopy(rectangle, 7, 0, 7, 0, copyOpt);
+```
+
+## See Also
+
+* Class [Shape](../../shape/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [CopyOptions](../../../aspose.cells/copyoptions/)
 * Class [ShapeCollection](../)
 * Namespace [Aspose::Cells::Drawing](../../)
 * Library [Aspose.Cells for C++](../../../)

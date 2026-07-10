@@ -4,7 +4,7 @@ linktitle: GetTag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetTag method. Gets and sets a user-defined string that is associated with this PivotTable view in C++.'
 type: docs
-weight: 13300
+weight: 13400
 url: /cpp/aspose.cells.pivot/pivottable/gettag/
 ---
 ## PivotTable::GetTag method

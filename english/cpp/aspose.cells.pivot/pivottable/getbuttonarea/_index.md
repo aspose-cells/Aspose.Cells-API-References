@@ -4,7 +4,7 @@ linktitle: GetButtonArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetButtonArea method. Gets the area contains field button in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.pivot/pivottable/getbuttonarea/
 ---
 ## PivotTable::GetButtonArea method

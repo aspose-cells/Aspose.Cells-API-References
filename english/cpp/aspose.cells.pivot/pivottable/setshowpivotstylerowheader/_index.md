@@ -4,7 +4,7 @@ linktitle: SetShowPivotStyleRowHeader
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetShowPivotStyleRowHeader method. Indicates whether the row header in the pivot table should have the style applied in C++.'
 type: docs
-weight: 17200
+weight: 17400
 url: /cpp/aspose.cells.pivot/pivottable/setshowpivotstylerowheader/
 ---
 ## PivotTable::SetShowPivotStyleRowHeader method

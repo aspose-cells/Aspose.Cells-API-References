@@ -22,7 +22,8 @@ enum class SparklineType
 | --- | --- | --- |
 | Line | 0 | <br>Line sparkline. |
 | Column | 1 | <br>[Column](../../aspose.cells/column/) sparkline. |
-| Stacked | 2 | <br>Represents a Win/Loss sparkline. |
+| Stacked | 2 |  **(Deprecated - Use SparklineType.WinLoss enum instead. )** <br>Represents a Win/Loss sparkline. |
+| WinLoss | 2 | <br>Represents a Win/Loss sparkline. |
 
 ## See Also
 

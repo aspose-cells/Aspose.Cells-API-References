@@ -4,7 +4,7 @@ linktitle: SetFieldIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterColumn::SetFieldIndex method. Gets and sets the column offset in the range in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells/filtercolumn/setfieldindex/
 ---
 ## FilterColumn::SetFieldIndex method

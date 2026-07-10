@@ -2,15 +2,15 @@
 title: Aspose::Cells::MultipleFilterCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MultipleFilterCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
+description: 'Aspose::Cells::MultipleFilterCollection::GetCount method. Gets the count of the filter values in C++.'
 type: docs
-weight: 1100
+weight: 700
 url: /cpp/aspose.cells/multiplefiltercollection/getcount/
 ---
 ## MultipleFilterCollection::GetCount method
 
 
-Gets the number of elements contained in the instance.
+Gets the count of the filter values.
 
 ```cpp
 int32_t Aspose::Cells::MultipleFilterCollection::GetCount()

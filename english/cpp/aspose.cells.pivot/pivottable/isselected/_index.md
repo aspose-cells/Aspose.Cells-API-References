@@ -4,7 +4,7 @@ linktitle: IsSelected
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::IsSelected method. Indicates whether this PivotTable is selected in C++.'
 type: docs
-weight: 16900
+weight: 17100
 url: /cpp/aspose.cells.pivot/pivottable/isselected/
 ---
 ## PivotTable::IsSelected method

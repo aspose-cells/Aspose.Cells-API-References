@@ -4,7 +4,7 @@ linktitle: SetShowEmptyCol
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetShowEmptyCol method. Indicates whether to include empty columns in the table in C++.'
 type: docs
-weight: 10400
+weight: 10500
 url: /cpp/aspose.cells.pivot/pivottable/setshowemptycol/
 ---
 ## PivotTable::SetShowEmptyCol method

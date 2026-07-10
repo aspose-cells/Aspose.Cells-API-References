@@ -42,11 +42,13 @@ url: /cpp/aspose.cells.rendering/
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |
 | [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML <p> elements are rendered when loading HTML. |
+| [HtmlSpaceMode](./htmlspacemode/) | Specifies how whitespace is represented in the generated HTML. |
 | [ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. |
 | [PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility. |
 | [PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. |
 | [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way CustomDocumentPropertyCollection are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. |
+| [PdfZoomBehavior](./pdfzoombehavior/) | Specifies the initial view mode when the generated PDF document is opened. |
 | [SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. |

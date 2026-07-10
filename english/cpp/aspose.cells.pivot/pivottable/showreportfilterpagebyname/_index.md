@@ -4,7 +4,7 @@ linktitle: ShowReportFilterPageByName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::ShowReportFilterPageByName method. Show all the report filter pages according to PivotField''s name, the PivotField must be located in the PageFields in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivottable/showreportfilterpagebyname/
 ---
 ## PivotTable::ShowReportFilterPageByName(const U16String\&) method

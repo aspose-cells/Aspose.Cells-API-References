@@ -4,7 +4,7 @@ linktitle: GetShowRowGrandTotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetShowRowGrandTotals method. Indicates whether to show grand totals for rows of the pivot table in C++.'
 type: docs
-weight: 4700
+weight: 4800
 url: /cpp/aspose.cells.pivot/pivottable/getshowrowgrandtotals/
 ---
 ## PivotTable::GetShowRowGrandTotals method

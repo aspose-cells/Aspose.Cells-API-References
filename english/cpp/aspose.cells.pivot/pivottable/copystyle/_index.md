@@ -4,7 +4,7 @@ linktitle: CopyStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::CopyStyle method. Copies named style from another pivot table in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.pivot/pivottable/copystyle/
 ---
 ## PivotTable::CopyStyle method

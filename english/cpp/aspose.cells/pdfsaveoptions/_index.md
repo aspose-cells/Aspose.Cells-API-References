@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions class. Represents the options for saving pdf file in C++.'
 type: docs
-weight: 12000
+weight: 12200
 url: /cpp/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -67,6 +67,8 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
 | [GetWatermark()](./getwatermark/) | Gets or sets watermark to output. |
+| [GetZoomBehavior()](./getzoombehavior/) | Gets or sets the initial view mode when the generated PDF document is opened. The default value is PdfZoomBehavior.None. |
+| [GetZoomFactor()](./getzoomfactor/) | Gets or sets the zoom percentage used when ZoomBehavior is PdfZoomBehavior.ZoomFactor. |
 | [IsFontSubstitutionCharGranularity()](../paginatedsaveoptions/isfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -133,6 +135,8 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |
 | [SetWatermark(const RenderingWatermark\& value)](./setwatermark/) | Gets or sets watermark to output. |
+| [SetZoomBehavior(PdfZoomBehavior value)](./setzoombehavior/) | Gets or sets the initial view mode when the generated PDF document is opened. The default value is PdfZoomBehavior.None. |
+| [SetZoomFactor(int32_t value)](./setzoomfactor/) | Gets or sets the zoom percentage used when ZoomBehavior is PdfZoomBehavior.ZoomFactor. |
 | [~PaginatedSaveOptions()](../paginatedsaveoptions/~paginatedsaveoptions/) | Destructor. |
 | [~PdfSaveOptions()](./~pdfsaveoptions/) | Destructor. |
 | [~SaveOptions()](../saveoptions/~saveoptions/) | Destructor. |

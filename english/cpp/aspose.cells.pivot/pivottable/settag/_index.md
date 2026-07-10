@@ -4,7 +4,7 @@ linktitle: SetTag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetTag method. Gets and sets a user-defined string that is associated with this PivotTable view in C++.'
 type: docs
-weight: 13400
+weight: 13500
 url: /cpp/aspose.cells.pivot/pivottable/settag/
 ---
 ## PivotTable::SetTag(const U16String\&) method
