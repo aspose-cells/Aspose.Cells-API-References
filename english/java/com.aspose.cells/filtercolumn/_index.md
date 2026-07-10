@@ -131,7 +131,7 @@ Gets the condition of filtering data.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead,please use FilterColumn.MultipleFilters,CustomFilters and so on... property according to differnt type of filter /// This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use corresponding property according to [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--). And for filter type [FilterType.MULTIPLE\_FILTERS](../../com.aspose.cells/filtertype\#MULTIPLE-FILTERS), the returned object is [FilterValueCollection](../../com.aspose.cells/filtervaluecollection) now instead of [MultipleFilterCollection](../../com.aspose.cells/multiplefiltercollection). This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.Object
@@ -147,7 +147,16 @@ See [FilterType](../../com.aspose.cells/filtertype).
 
 **Remarks**
 
-The corresponding filter object will be created when this property is set.
+The corresponding filter object will be created when this property is set and corresponding property should be used to get the filter object accordingly:
+
+| FilterType      | Property                                                                     |
+| --------------- | ---------------------------------------------------------------------------- |
+| MultipleFilters | [getFilterValues()](../../com.aspose.cells/filtercolumn\#getFilterValues--)   |
+| CustomFilters   | [getCustomFilters()](../../com.aspose.cells/filtercolumn\#getCustomFilters--) |
+| ColorFilter     | [getColorFilter()](../../com.aspose.cells/filtercolumn\#getColorFilter--)     |
+| DynamicFilter   | [getDynamicFilter()](../../com.aspose.cells/filtercolumn\#getDynamicFilter--) |
+| IconFilter      | [getIconFilter()](../../com.aspose.cells/filtercolumn\#getIconFilter--)       |
+| Top10           | [getTop10Filter()](../../com.aspose.cells/filtercolumn\#getTop10Filter--)     |
 
 **Returns:**
 int
@@ -304,7 +313,7 @@ Sets the condition of filtering data.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead,please use FilterColumn.MultipleFilters,CustomFilters and so on... property according to differnt type of filter /// This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use corresponding property according to [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--). And for filter type [FilterType.MULTIPLE\_FILTERS](../../com.aspose.cells/filtertype\#MULTIPLE-FILTERS), the returned object is [FilterValueCollection](../../com.aspose.cells/filtervaluecollection) now instead of [MultipleFilterCollection](../../com.aspose.cells/multiplefiltercollection). This property will be removed 12 months later since October 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -323,7 +332,16 @@ See [FilterType](../../com.aspose.cells/filtertype).
 
 **Remarks**
 
-The corresponding filter object will be created when this property is set.
+The corresponding filter object will be created when this property is set and corresponding property should be used to get the filter object accordingly:
+
+| FilterType      | Property                                                                     |
+| --------------- | ---------------------------------------------------------------------------- |
+| MultipleFilters | [getFilterValues()](../../com.aspose.cells/filtercolumn\#getFilterValues--)   |
+| CustomFilters   | [getCustomFilters()](../../com.aspose.cells/filtercolumn\#getCustomFilters--) |
+| ColorFilter     | [getColorFilter()](../../com.aspose.cells/filtercolumn\#getColorFilter--)     |
+| DynamicFilter   | [getDynamicFilter()](../../com.aspose.cells/filtercolumn\#getDynamicFilter--) |
+| IconFilter      | [getIconFilter()](../../com.aspose.cells/filtercolumn\#getIconFilter--)       |
+| Top10           | [getTop10Filter()](../../com.aspose.cells/filtercolumn\#getTop10Filter--)     |
 
 **Parameters:**
 | Parameter | Type | Description |
