@@ -1,13 +1,13 @@
 ---
 title: Class DateTimeGroupItem
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.DateTimeGroupItem class. Represents the datetimes group setting
+description: Aspose.Cells.DateTimeGroupItem class. Represents the datetime group setting
 type: docs
 url: /net/aspose.cells/datetimegroupitem/
 ---
 ## DateTimeGroupItem class
 
-Represents the datetime's group setting.
+Represents the datetime group setting.
 
 ```csharp
 public class DateTimeGroupItem

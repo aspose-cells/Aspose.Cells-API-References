@@ -97,7 +97,6 @@ public class OleObject : Shape
 | [RotationAngle](../../aspose.cells.drawing/shape/rotationangle/) { get; set; } | Gets and sets the rotation of the shape.(Inherited from [`Shape`](../shape/).) |
 | [ShadowEffect](../../aspose.cells.drawing/shape/shadoweffect/) { get; } | Represents a [`ShadowEffect`](../shadoweffect/) object that specifies shadow effect for the chart element or shape.(Inherited from [`Shape`](../shape/).) |
 | [SoftEdges](../../aspose.cells.drawing/shape/softedges/) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points.(Inherited from [`Shape`](../shape/).) |
-| [SourceFullName](../../aspose.cells.drawing/oleobject/sourcefullname/) { get; set; } | (**Obsolete.**) Returns the source full name of the source file for the linked OLE object. |
 | [Spid](../../aspose.cells.drawing/shape/spid/) { get; } | Specifies an optional string identifier that an application can use to identify the particular shape.(Inherited from [`Shape`](../shape/).) |
 | [Spt](../../aspose.cells.drawing/shape/spt/) { get; } | Specifies an optional number that an application can use to associate the particular shape with a defined shape type.(Inherited from [`Shape`](../shape/).) |
 | [Text](../../aspose.cells.drawing/shape/text/) { get; set; } | Gets and sets the text of this shape.(Inherited from [`Shape`](../shape/).) |
@@ -226,7 +225,6 @@ namespace AsposeCellsExamples
             oleObject.FileFormatType = FileFormatType.Excel97To2003;
             oleObject.ObjectSourceFullName = "OleObjectExample.xls";
             oleObject.Label = "Embedded Excel File";
-            oleObject.SourceFullName = "OleObjectExample.xls";
             oleObject.AutoUpdate = false;
             oleObject.AutoLoad = true;
             oleObject.MacroName = "DoWork()";

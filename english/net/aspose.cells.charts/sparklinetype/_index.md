@@ -20,6 +20,7 @@ public enum SparklineType
 | Line | `0` | Line sparkline. |
 | Column | `1` | Column sparkline. |
 | Stacked | `2` | Represents a Win/Loss sparkline. |
+| WinLoss | `2` | Represents a Win/Loss sparkline. |
 
 ### Examples
 

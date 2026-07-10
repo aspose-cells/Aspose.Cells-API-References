@@ -22,15 +22,9 @@ public class LineShape : Shape
 | [AlternativeText](../../aspose.cells.drawing/shape/alternativetext/) { get; set; } | Returns or sets the descriptive (alternative) text string of the [`Shape`](../shape/) object.(Inherited from [`Shape`](../shape/).) |
 | [AnchorType](../../aspose.cells.drawing/shape/anchortype/) { get; set; } | Gets and set the type of the shape anchor placeholder.(Inherited from [`Shape`](../shape/).) |
 | [AutoShapeType](../../aspose.cells.drawing/shape/autoshapetype/) { get; set; } | Gets and sets the auto shape type.(Inherited from [`Shape`](../shape/).) |
-| [BeginArrowheadLength](../../aspose.cells.drawing/lineshape/beginarrowheadlength/) { get; set; } | (**Obsolete.**) Gets and sets the begin arrow head length of the line. |
-| [BeginArrowheadStyle](../../aspose.cells.drawing/lineshape/beginarrowheadstyle/) { get; set; } | (**Obsolete.**) Gets and sets the begin arrow head style of the line. |
-| [BeginArrowheadWidth](../../aspose.cells.drawing/lineshape/beginarrowheadwidth/) { get; set; } | (**Obsolete.**) Gets and sets the begin arrow head width of the line. |
 | [Bottom](../../aspose.cells.drawing/shape/bottom/) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.(Inherited from [`Shape`](../shape/).) |
 | [ControlData](../../aspose.cells.drawing/shape/controldata/) { get; } | Gets the data of control.(Inherited from [`Shape`](../shape/).) |
 | [CreateId](../../aspose.cells.drawing/shape/createid/) { get; set; } | Gets and sets create id for this shape.(Inherited from [`Shape`](../shape/).) |
-| [EndArrowheadLength](../../aspose.cells.drawing/lineshape/endarrowheadlength/) { get; set; } | (**Obsolete.**) Gets and sets the end arrow head length of the line. |
-| [EndArrowheadStyle](../../aspose.cells.drawing/lineshape/endarrowheadstyle/) { get; set; } | (**Obsolete.**) Gets and sets the end arrow head style of the line. |
-| [EndArrowheadWidth](../../aspose.cells.drawing/lineshape/endarrowheadwidth/) { get; set; } | (**Obsolete.**) Gets and sets the end arrow head width of the line. |
 | [Fill](../../aspose.cells.drawing/shape/fill/) { get; } | Returns a [`FillFormat`](../shape/fillformat/) object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape/).) |
 | [FillFormat](../../aspose.cells.drawing/shape/fillformat/) { get; } | (**Obsolete.**) Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape/).) |
 | [Font](../../aspose.cells.drawing/shape/font/) { get; set; } | Represents the font of shape.(Inherited from [`Shape`](../shape/).) |

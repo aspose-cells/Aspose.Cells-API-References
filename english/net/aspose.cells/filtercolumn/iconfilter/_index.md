@@ -7,11 +7,15 @@ url: /net/aspose.cells/filtercolumn/iconfilter/
 ---
 ## FilterColumn.IconFilter property
 
-Gets [`IconFilter`](../../iconfilter/) for filtering data by icon.
+Gets `IconFilter` for filtering data by icon.
 
 ```csharp
 public IconFilter IconFilter { get; }
 ```
+
+### Remarks
+
+Before using this property, please make sure [`FilterType`](../filtertype/) is IconFilter, otherwise null will be returned.
 
 ### Examples
 

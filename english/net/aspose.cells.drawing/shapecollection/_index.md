@@ -33,7 +33,8 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddButton](../../aspose.cells.drawing/shapecollection/addbutton/)(int, int, int, int, int, int) | Adds a Button to the worksheet. |
 | [AddCheckBox](../../aspose.cells.drawing/shapecollection/addcheckbox/)(int, int, int, int, int, int) | Adds a checkbox to the worksheet. |
 | [AddComboBox](../../aspose.cells.drawing/shapecollection/addcombobox/)(int, int, int, int, int, int) | Adds a ComboBox to the worksheet. |
-| [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy/)(Shape, int, int, int, int) | Adds and copy a shape to the worksheet. |
+| [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy/#addcopy)(Shape, int, int, int, int) | Adds and copy a shape to the worksheet. |
+| [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy/#addcopy_1)(Shape, int, int, int, int, CopyOptions) | Adds and copy a shape to the worksheet. |
 | [AddEquation](../../aspose.cells.drawing/shapecollection/addequation/)(int, int, int, int, int, int) | Adds an equation object to the worksheet. |
 | [AddFreeFloatingShape](../../aspose.cells.drawing/shapecollection/addfreefloatingshape/)(MsoDrawingType, int, int, int, int, byte[], bool) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [AddFreeform](../../aspose.cells.drawing/shapecollection/addfreeform/)(int, int, int, int, int, int, ShapePath[]) | Adds a freeform shape to the worksheet. |

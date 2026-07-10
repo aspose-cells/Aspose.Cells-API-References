@@ -5,7 +5,7 @@ description: PivotTable method. Calculates data of pivottable to cells
 type: docs
 url: /net/aspose.cells.pivot/pivottable/calculatedata/
 ---
-## CalculateData() {#calculatedata}
+## CalculateData() {#calculatedata_1}
 
 Calculates data of pivottable to cells.
 
@@ -15,7 +15,7 @@ public void CalculateData()
 
 ### Remarks
 
-Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+This method only calculate data with the cached data in the [`PivotCache`](../pivotcache/). So if you want to calcualte with latest data source, please use [`Refresh`](../../pivotcache/refresh/) method to calculate. If only the setting of pivot table is changed, `CalculateData` is enough.
 
 ### Examples
 
@@ -76,21 +76,25 @@ namespace AsposeCellsExamples
 
 ---
 
-## CalculateData(PivotTableCalculateOption) {#calculatedata_1}
+## CalculateData(PivotTableCalculateOption) {#calculatedata}
 
 Calculates pivot table with options.
 
 ```csharp
-public void CalculateData(PivotTableCalculateOption option)
+public PivotTable[] CalculateData(PivotTableCalculateOption option)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | PivotTableCalculateOption | The options for calculating the pivot table |
 
+### Return Value
+
+Returns all pivot tables which have been calculated. If [`RefreshData`](../../pivottablecalculateoption/refreshdata/) is true,all pivot tables based on same pivot cache will be calculated together.
+
 ### Remarks
 
-If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+If [`RefreshData`](../../pivottablecalculateoption/refreshdata/) is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache. Otherwise, only calculating with the cached data in the pivot cache.
 
 ### Examples
 

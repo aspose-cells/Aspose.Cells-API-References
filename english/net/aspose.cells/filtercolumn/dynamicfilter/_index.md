@@ -7,11 +7,15 @@ url: /net/aspose.cells/filtercolumn/dynamicfilter/
 ---
 ## FilterColumn.DynamicFilter property
 
-Gets [`DynamicFilter`](../../dynamicfilter/) for filtering with dynamic criteria.
+Gets `DynamicFilter` for filtering with dynamic criteria.
 
 ```csharp
 public DynamicFilter DynamicFilter { get; }
 ```
+
+### Remarks
+
+Before using this property, please make sure [`FilterType`](../filtertype/) is DynamicFilter, otherwise null will be returned.
 
 ### Examples
 

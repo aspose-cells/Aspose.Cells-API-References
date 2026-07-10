@@ -24,6 +24,7 @@ public class GridJsService : IGridJsService
 | Name | Description |
 | --- | --- |
 | [Settings](../../aspose.cells.gridjs/gridjsservice/settings/) { get; set; } | Represents the workbook settings. |
+| [WarningCallback](../../aspose.cells.gridjs/gridjsservice/warningcallback/) { get; set; } | Gets or sets custom warning callback for import file. |
 
 ## Methods
 
@@ -39,6 +40,7 @@ public class GridJsService : IGridJsService
 | [DetailStreamJson](../../aspose.cells.gridjs/gridjsservice/detailstreamjson/#detailstreamjson)(Stream, Workbook, string) | Write the JSON string for the Workbook to the stream |
 | [DetailStreamJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailstreamjsonwithuid/#detailstreamjsonwithuid_1)(Stream, string, string) | Write the JSON string for the file to the stream by the specified unique id. |
 | [DetailStreamJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailstreamjsonwithuid/#detailstreamjsonwithuid)(Stream, Workbook, string, string) | Write the JSON string for the Workbook to the stream by the specified unique id. |
+| [Dispose](../../aspose.cells.gridjs/gridjsservice/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Download](../../aspose.cells.gridjs/gridjsservice/download/)(string, string, string) | Applies the download file operation |
 | [GetFile](../../aspose.cells.gridjs/gridjsservice/getfile/)(string) | Get file stream |
 | [Image](../../aspose.cells.gridjs/gridjsservice/image/)(string, string) | Get Stream of image. |

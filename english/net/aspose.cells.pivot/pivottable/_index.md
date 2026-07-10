@@ -63,6 +63,7 @@ public class PivotTable : IDisposable
 | [PageFieldOrder](../../aspose.cells.pivot/pivottable/pagefieldorder/) { get; set; } | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [PageFields](../../aspose.cells.pivot/pivottable/pagefields/) { get; } | Returns a PivotFields object that are currently shown as page fields. |
 | [PageFieldWrapCount](../../aspose.cells.pivot/pivottable/pagefieldwrapcount/) { get; set; } | Gets the number of page fields in each column or row in the PivotTable report. |
+| [PivotCache](../../aspose.cells.pivot/pivottable/pivotcache/) { get; } | Gets the data source. |
 | [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters/) { get; } | Returns all filters of pivot fields in the pivot table. |
 | [PivotFormatConditions](../../aspose.cells.pivot/pivottable/pivotformatconditions/) { get; } | (**Obsolete.**) Gets the Format Conditions of the pivot table. |
 | [PivotFormats](../../aspose.cells.pivot/pivottable/pivotformats/) { get; } | Gets all formats applied to PivotTable. |
@@ -113,8 +114,8 @@ public class PivotTable : IDisposable
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea_1)(PivotFieldType, int) | Adds the field to the specific area. |
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea)(PivotFieldType, PivotField) | Adds the field to the specific area. |
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea_2)(PivotFieldType, string) | Adds the field to the specific area. |
-| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata)() | Calculates data of pivottable to cells. |
-| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata_1)(PivotTableCalculateOption) | Calculates pivot table with options. |
+| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata_1)() | Calculates data of pivottable to cells. |
+| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata)(PivotTableCalculateOption) | Calculates pivot table with options. |
 | [CalculateRange](../../aspose.cells.pivot/pivottable/calculaterange/)() | Calculates pivottable's range. |
 | [ChangeDataSource](../../aspose.cells.pivot/pivottable/changedatasource/)(string[]) | Change data source of the pivottable. |
 | [ClearAll](../../aspose.cells.pivot/pivottable/clearall/)() | Remove all fields from regions. |
@@ -136,6 +137,7 @@ public class PivotTable : IDisposable
 | [GetHorizontalBreaks](../../aspose.cells.pivot/pivottable/gethorizontalbreaks/)() | (**Obsolete.**) Gets pivot table row index list of horizontal page breaks |
 | [GetHorizontalPageBreaks](../../aspose.cells.pivot/pivottable/gethorizontalpagebreaks/)() | Gets horizontal page breaks of this pivot table. |
 | [GetNamesOfSourceDataConnections](../../aspose.cells.pivot/pivottable/getnamesofsourcedataconnections/)() | Gets the names of external source data connections. |
+| [GetPivotTablesWithSamePivotCache](../../aspose.cells.pivot/pivottable/getpivottableswithsamepivotcache/)() | Gets all pivot tables with same pivot cache. |
 | [GetSource](../../aspose.cells.pivot/pivottable/getsource/#getsource)() | Get the data source of this pivottable. |
 | [GetSource](../../aspose.cells.pivot/pivottable/getsource/#getsource_1)(bool) | Get the data source of this pivottable. |
 | [GetSourceDataConnections](../../aspose.cells.pivot/pivottable/getsourcedataconnections/)() | Gets the external connection data sources. |
@@ -143,8 +145,8 @@ public class PivotTable : IDisposable
 | [Move](../../aspose.cells.pivot/pivottable/move/#move)(int, int) | (**Obsolete.**) Moves the PivotTable to a different location in the worksheet. |
 | [MoveTo](../../aspose.cells.pivot/pivottable/moveto/#moveto_1)(string) | Moves the PivotTable to a different location in the worksheet. |
 | [MoveTo](../../aspose.cells.pivot/pivottable/moveto/#moveto)(int, int) | Moves the PivotTable to a different location in the worksheet. |
-| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata)() | Refreshes pivottable's data and setting from it's data source. |
-| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata_1)(PivotTableRefreshOption) | Refreshes pivottable's data and setting from it's data source with options. |
+| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata)() | (**Obsolete.**) Refreshes data from it's data source to pivot cache. |
+| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata_1)(PivotTableRefreshOption) | (**Obsolete.**) Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_1)(PivotFieldType, int) | Removes a field from specific field area |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield)(PivotFieldType, PivotField) | Remove field from specific field area |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_2)(PivotFieldType, string) | Removes a field from specific field area |

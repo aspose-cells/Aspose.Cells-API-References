@@ -23,6 +23,7 @@ public class GridJsOptions
 
 | Name | Description |
 | --- | --- |
+| [AutoFitColumnsOnLoad](../../aspose.cells.gridjs/gridjsoptions/autofitcolumnsonload/) { get; set; } | Indicates whether to autofit columns width when loading the file,the default value is false. |
 | [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/gridjsoptions/autofitrowsheightonload/) { get; set; } | Indicates whether to autofit rows height when loading the file,the default value is false. |
 | [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/gridjsoptions/autooptimizeforlargecells/) { get; set; } | Gets/Sets whether to automatically optimize the load performance for worksheet with large cells. it will ignore some style /borders to reduce the load time. the default value is true. |
 | [BaseRouteName](../../aspose.cells.gridjs/gridjsoptions/baseroutename/) { get; set; } | Gets/Sets the route URL base name for GridJs controller.the default is GridJs2 |

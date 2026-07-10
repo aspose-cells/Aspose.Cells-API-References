@@ -23,7 +23,8 @@ public class Config
 
 | Name | Description |
 | --- | --- |
-| static [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/config/autofitrowsheightonload/) { get; set; } | Indicates whether to autofit rows height when loading the file,the default value is false. |
+| static [AutoFitColumnsOnLoad](../../aspose.cells.gridjs/config/autofitcolumnsonload/) { get; set; } | Indicates whether to auto-fit column widths during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all columns operation post-load, which may have a noticeable impact on performance. |
+| static [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/config/autofitrowsheightonload/) { get; set; } | Indicates whether to auto-fit row heights during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all rows operation post-load, which may have a noticeable impact on performance. |
 | static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Gets/Sets whether to automatically optimize the load performance for worksheet with large cells. it will ignore some style /borders to reduce the load time. the default value is true. |
 | static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Gets/Sets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | static [CustomPdfSaveOptions](../../aspose.cells.gridjs/config/custompdfsaveoptions/) { get; set; } | Gets/Sets the custom PdfSaveOptions for PDF export. If set, this will be used instead of the default options. the default value is null. |

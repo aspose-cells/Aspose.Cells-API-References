@@ -18,7 +18,7 @@ public class SlicerCacheItemCollection : CollectionBase<SlicerCacheItem>
 | Name | Description |
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
-| [Count](../../aspose.cells.slicers/slicercacheitemcollection/count/) { get; } | Gets the count of the SlicerCacheItem. |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.cells.slicers/slicercacheitemcollection/item/) { get; } | Gets the SlicerCacheItem object by index. |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 

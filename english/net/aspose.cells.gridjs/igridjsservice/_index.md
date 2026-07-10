@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/igridjsservice/
 Reprensents the basic operation apis interface used in controller actions.
 
 ```csharp
-public interface IGridJsService
+public interface IGridJsService : IDisposable
 ```
 
 ## Methods

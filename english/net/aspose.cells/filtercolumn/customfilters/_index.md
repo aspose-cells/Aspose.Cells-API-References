@@ -13,6 +13,10 @@ Gets [`CustomFilterCollection`](../../customfiltercollection/) for filtering dat
 public CustomFilterCollection CustomFilters { get; set; }
 ```
 
+### Remarks
+
+NOTE: This setter of this propery is now obsolete. Instead,please use property [`FilterType`](../filtertype/) by setting it as CustomFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### Examples
 
 ```csharp
