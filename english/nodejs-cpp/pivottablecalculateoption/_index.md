@@ -28,6 +28,7 @@ class PivotTableCalculateOption;
 | [refreshData](#refreshData--)| boolean | Indicates whether refreshing data source of the pivottable. |
 | [refreshCharts](#refreshCharts--)| boolean | Indicates whether refreshing charts are based on this pivot table. |
 | [reserveMissingPivotItemType](#reserveMissingPivotItemType--)| ReserveMissingPivotItemType | Represents how to reserve missing pivot items. |
+| [refreshOption](#refreshOption--)| PivotTableRefreshOption | Gets and set options for refreshing data source to pivot cache. |
 
 ## Methods
 
@@ -39,6 +40,8 @@ class PivotTableCalculateOption;
 | [setRefreshCharts(boolean)](#setRefreshCharts-boolean-)| <b>@deprecated.</b> Please use the 'refreshCharts' property instead. Indicates whether refreshing charts are based on this pivot table. |
 | [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
 | [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| <b>@deprecated.</b> Please use the 'reserveMissingPivotItemType' property instead. Represents how to reserve missing pivot items. |
+| [getRefreshOption()](#getRefreshOption--)| <b>@deprecated.</b> Please use the 'refreshOption' property instead. Gets and set options for refreshing data source to pivot cache. |
+| [setRefreshOption(PivotTableRefreshOption)](#setRefreshOption-pivottablerefreshoption-)| <b>@deprecated.</b> Please use the 'refreshOption' property instead. Gets and set options for refreshing data source to pivot cache. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -84,7 +87,16 @@ reserveMissingPivotItemType : ReserveMissingPivotItemType;
 
 **Remarks**
 
-Only works when [RefreshData](../refreshdata/) is true.
+Only works when [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true.
+
+### refreshOption {#refreshOption--}
+
+Gets and set options for refreshing data source to pivot cache.
+
+```javascript
+refreshOption : PivotTableRefreshOption;
+```
+
 
 ### getRefreshData() {#getRefreshData--}
 
@@ -153,7 +165,7 @@ getReserveMissingPivotItemType() : ReserveMissingPivotItemType;
 
 **Remarks**
 
-Only works when [RefreshData](../refreshdata/) is true.
+Only works when [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true.
 
 ### setReserveMissingPivotItemType(ReserveMissingPivotItemType) {#setReserveMissingPivotItemType-reservemissingpivotitemtype-}
 
@@ -170,7 +182,33 @@ setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;
 
 **Remarks**
 
-Only works when [RefreshData](../refreshdata/) is true.
+Only works when [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true.
+
+### getRefreshOption() {#getRefreshOption--}
+
+<b>@deprecated.</b> Please use the 'refreshOption' property instead. Gets and set options for refreshing data source to pivot cache.
+
+```javascript
+getRefreshOption() : PivotTableRefreshOption;
+```
+
+
+**Returns**
+
+[PivotTableRefreshOption](../pivottablerefreshoption/)
+
+### setRefreshOption(PivotTableRefreshOption) {#setRefreshOption-pivottablerefreshoption-}
+
+<b>@deprecated.</b> Please use the 'refreshOption' property instead. Gets and set options for refreshing data source to pivot cache.
+
+```javascript
+setRefreshOption(value: PivotTableRefreshOption) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PivotTableRefreshOption](../pivottablerefreshoption/) | The value to set. |
 
 ### isNull() {#isNull--}
 

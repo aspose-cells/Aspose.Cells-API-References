@@ -1,90 +1,43 @@
 ﻿---
-title: MultipleFilterCollection
+title: FilterValueCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
 description: Represents the multiple filter collection.
 type: docs
-url: /nodejs-cpp/multiplefiltercollection/
+url: /nodejs-cpp/filtervaluecollection/
 ---
 
-## MultipleFilterCollection class
+## FilterValueCollection class
 
 Represents the multiple filter collection.
 
 ```javascript
-class MultipleFilterCollection implements Iterable<FilterValue>;
+class FilterValueCollection implements Iterable<FilterValue>;
 ```
 
-### Remarks
-NOTE: This class is now obsolete. Instead,please use [FilterValueCollection](../filtervaluecollection/) instead. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
-
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [constructor()](#constructor--)| Constructs one new instance. |
-| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [count](#count--)| number | Readonly. Gets the count of the filter values. |
 | [matchBlank](#matchBlank--)| boolean | Indicates whether to filter by blank. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value. |
-| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the filter values. |
+| [get(number)](#get-number-)| Gets [FilterValue](../filtervalue/) by index. |
 | [getMatchBlank()](#getMatchBlank--)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
 | [setMatchBlank(boolean)](#setMatchBlank-boolean-)| <b>@deprecated.</b> Please use the 'matchBlank' property instead. Indicates whether to filter by blank. |
 | [add(string)](#add-string-)| Adds a label filter criteria. |
 | [add(DateTimeGroupingType, number, number, number)](#add-datetimegroupingtype-number-number-number-)| Adds a date filter criteria value. |
 | [add(DateTimeGroupingType, number, number, number, number, number, number)](#add-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date time filter criteria value. |
-| [getEnumerator()](#getEnumerator--)| Get the enumerator for filter value, |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [toObject()](#toObject--)| Gets the Object. |
 
 ## \[Symbol.iterator\](): Iterator\<FilterValue\>
 
 Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
 
-
-
-### constructor() {#constructor--}
-
-Constructs one new instance.
-
-```javascript
-constructor();
-```
-
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as FilterType.MultipleFilters then get FilterColumn.MultipleFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
-
-### constructor(Object) {#constructor-object-}
-
-Constructs from an Object convertible to this.
-
-```javascript
-constructor(obj: Object);
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The object. |
-
-### count {#count--}
-
-Readonly. Gets the count of the filter values.
-
-```javascript
-count : number;
-```
 
 
 ### matchBlank {#matchBlank--}
@@ -98,10 +51,10 @@ matchBlank : boolean;
 
 ### get(number) {#get-number-}
 
-Gets [DateTimeGroupItem](../datetimegroupitem/) or a string value.
+Gets [FilterValue](../filtervalue/) by index.
 
 ```javascript
-get(index: number) : Object;
+get(index: number) : FilterValue;
 ```
 
 **Parameters:**
@@ -109,14 +62,9 @@ get(index: number) : Object;
 | --- | --- | --- |
 | index | number |  |
 
-### getCount() {#getCount--}
+**Returns**
 
-<b>@deprecated.</b> Please use the 'count' property instead. Gets the count of the filter values.
-
-```javascript
-getCount() : number;
-```
-
+[FilterValue](../filtervalue/)
 
 ### getMatchBlank() {#getMatchBlank--}
 
@@ -188,18 +136,14 @@ add(type: DateTimeGroupingType, year: number, month: number, day: number, hour: 
 | minute | number | The minute. |
 | second | number | The second. |
 
-### getEnumerator() {#getEnumerator--}
+### getCount() {#getCount--}
 
-Get the enumerator for filter value,
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
 
 ```javascript
-getEnumerator() : FilterValueEnumerator;
+getCount() : number;
 ```
 
-
-**Returns**
-
-[FilterValueEnumerator](../filtervalueenumerator/)
 
 ### isNull() {#isNull--}
 
@@ -207,15 +151,6 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
-```
-
-
-### toObject() {#toObject--}
-
-Gets the Object.
-
-```javascript
-toObject() : Object;
 ```
 
 

@@ -19,10 +19,10 @@ class Timeline;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showHeader](#showHeader--)| boolean | Indicates whether to display the header. |
+| [showHeader](#showHeader--)| boolean | Indicates whether to display the header of this timeline. |
 | [showSelectionLabel](#showSelectionLabel--)| boolean | Indicates whether to display the selction label. |
-| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the time level. |
-| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal ccroll bar. |
+| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the drop-down selection box of the time level. |
+| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal scroll bar. |
 | [startDate](#startDate--)| Date | Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
 | [currentLevel](#currentLevel--)| TimelineLevelType | The current time level of the Timeline. |
 | [selectionLevel](#selectionLevel--)| TimelineLevelType | Gets and sets the time level at which the current selection was made for the Timeline. |
@@ -38,14 +38,14 @@ class Timeline;
 
 | Method | Description |
 | --- | --- |
-| [getShowHeader()](#getShowHeader--)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header. |
-| [setShowHeader(boolean)](#setShowHeader-boolean-)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header. |
+| [getShowHeader()](#getShowHeader--)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header of this timeline. |
+| [setShowHeader(boolean)](#setShowHeader-boolean-)| <b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header of this timeline. |
 | [getShowSelectionLabel()](#getShowSelectionLabel--)| <b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label. |
 | [setShowSelectionLabel(boolean)](#setShowSelectionLabel-boolean-)| <b>@deprecated.</b> Please use the 'showSelectionLabel' property instead. Indicates whether to display the selction label. |
-| [getShowTimeLevel()](#getShowTimeLevel--)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level. |
-| [setShowTimeLevel(boolean)](#setShowTimeLevel-boolean-)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level. |
-| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar. |
-| [setShowHorizontalScrollbar(boolean)](#setShowHorizontalScrollbar-boolean-)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar. |
+| [getShowTimeLevel()](#getShowTimeLevel--)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the drop-down selection box of the time level. |
+| [setShowTimeLevel(boolean)](#setShowTimeLevel-boolean-)| <b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the drop-down selection box of the time level. |
+| [getShowHorizontalScrollbar()](#getShowHorizontalScrollbar--)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal scroll bar. |
+| [setShowHorizontalScrollbar(boolean)](#setShowHorizontalScrollbar-boolean-)| <b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal scroll bar. |
 | [getStartDate()](#getStartDate--)| <b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
 | [setStartDate(Date)](#setStartDate-date-)| <b>@deprecated.</b> Please use the 'startDate' property instead. Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
 | [getCurrentLevel()](#getCurrentLevel--)| <b>@deprecated.</b> Please use the 'currentLevel' property instead. The current time level of the Timeline. |
@@ -65,12 +65,14 @@ class Timeline;
 | [setWidthPixel(number)](#setWidthPixel-number-)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Returns or sets the width of the specified timeline, in pixels. |
 | [getHeightPixel()](#getHeightPixel--)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified timeline, in pixels. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| <b>@deprecated.</b> Please use the 'heightPixel' property instead. Returns or sets the height of the specified timeline, in pixels. |
+| [getSelectedDateTimeRange()](#getSelectedDateTimeRange--)| Gets the selected range of date time. |
+| [select(Date, Date, boolean)](#select-date-date-boolean-)| Select item between the date time. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### showHeader {#showHeader--}
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 ```javascript
 showHeader : boolean;
@@ -88,7 +90,7 @@ showSelectionLabel : boolean;
 
 ### showTimeLevel {#showTimeLevel--}
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 ```javascript
 showTimeLevel : boolean;
@@ -97,7 +99,7 @@ showTimeLevel : boolean;
 
 ### showHorizontalScrollbar {#showHorizontalScrollbar--}
 
-Indicates whether to display the horizontal ccroll bar.
+Indicates whether to display the horizontal scroll bar.
 
 ```javascript
 showHorizontalScrollbar : boolean;
@@ -212,7 +214,7 @@ NOTE: This member is now obsolete. Instead, please use Shape.Height property. Th
 
 ### getShowHeader() {#getShowHeader--}
 
-<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header.
+<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header of this timeline.
 
 ```javascript
 getShowHeader() : boolean;
@@ -221,7 +223,7 @@ getShowHeader() : boolean;
 
 ### setShowHeader(boolean) {#setShowHeader-boolean-}
 
-<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header.
+<b>@deprecated.</b> Please use the 'showHeader' property instead. Indicates whether to display the header of this timeline.
 
 ```javascript
 setShowHeader(value: boolean) : void;
@@ -256,7 +258,7 @@ setShowSelectionLabel(value: boolean) : void;
 
 ### getShowTimeLevel() {#getShowTimeLevel--}
 
-<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level.
+<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the drop-down selection box of the time level.
 
 ```javascript
 getShowTimeLevel() : boolean;
@@ -265,7 +267,7 @@ getShowTimeLevel() : boolean;
 
 ### setShowTimeLevel(boolean) {#setShowTimeLevel-boolean-}
 
-<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the time level.
+<b>@deprecated.</b> Please use the 'showTimeLevel' property instead. Indicates whether to display the drop-down selection box of the time level.
 
 ```javascript
 setShowTimeLevel(value: boolean) : void;
@@ -278,7 +280,7 @@ setShowTimeLevel(value: boolean) : void;
 
 ### getShowHorizontalScrollbar() {#getShowHorizontalScrollbar--}
 
-<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar.
+<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal scroll bar.
 
 ```javascript
 getShowHorizontalScrollbar() : boolean;
@@ -287,7 +289,7 @@ getShowHorizontalScrollbar() : boolean;
 
 ### setShowHorizontalScrollbar(boolean) {#setShowHorizontalScrollbar-boolean-}
 
-<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal ccroll bar.
+<b>@deprecated.</b> Please use the 'showHorizontalScrollbar' property instead. Indicates whether to display the horizontal scroll bar.
 
 ```javascript
 setShowHorizontalScrollbar(value: boolean) : void;
@@ -548,6 +550,38 @@ setHeightPixel(value: number) : void;
 **Remarks**
 
 NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getSelectedDateTimeRange() {#getSelectedDateTimeRange--}
+
+Gets the selected range of date time.
+
+```javascript
+getSelectedDateTimeRange() : Date[];
+```
+
+
+**Returns**
+
+Date[]
+
+### select(Date, Date, boolean) {#select-date-date-boolean-}
+
+Select item between the date time.
+
+```javascript
+select(start: Date, end: Date, calculate: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | Date | The start date time |
+| end | Date | The end date time |
+| calculate | boolean | Indicates whether to calculate relative pivot tables |
+
+**Remarks**
+
+[Timeline.CurrentLevel](../timeline.currentlevel/) must be set before calling this method. If this method is called, [Timeline.SelectionLevel](../timeline.selectionlevel/) will be [Timeline.CurrentLevel](../timeline.currentlevel/).
 
 ### isNull() {#isNull--}
 

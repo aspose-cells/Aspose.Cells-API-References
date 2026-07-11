@@ -77,6 +77,7 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [isGradient](#isGradient--)| boolean | Indicates whether the cell shading is a gradient pattern. |
 | [isPercent](#isPercent--)| boolean | Readonly. Indicates whether the number format is a percent format. |
 | [isDateTime](#isDateTime--)| boolean | Readonly. Indicates whether the number format is a date format. |
+| [isCheckBox](#isCheckBox--)| boolean | Indicates whether it's a style of check box |
 | [leftBorder](#leftBorder--)| Border | Readonly. Gets the left border. |
 | [rightBorder](#rightBorder--)| Border | Readonly. Gets the right border. |
 | [topBorder](#topBorder--)| Border | Readonly. Gets the top border. |
@@ -151,6 +152,8 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [setIsGradient(boolean)](#setIsGradient-boolean-)| <b>@deprecated.</b> Please use the 'isGradient' property instead. Indicates whether the cell shading is a gradient pattern. |
 | [isPercent()](#isPercent--)| <b>@deprecated.</b> Please use the 'isPercent' property instead. Indicates whether the number format is a percent format. |
 | [isDateTime()](#isDateTime--)| <b>@deprecated.</b> Please use the 'isDateTime' property instead. Indicates whether the number format is a date format. |
+| [isCheckBox()](#isCheckBox--)| <b>@deprecated.</b> Please use the 'isCheckBox' property instead. Indicates whether it's a style of check box |
+| [setIsCheckBox(boolean)](#setIsCheckBox-boolean-)| <b>@deprecated.</b> Please use the 'isCheckBox' property instead. Indicates whether it's a style of check box |
 | [getLeftBorder()](#getLeftBorder--)| <b>@deprecated.</b> Please use the 'leftBorder' property instead. Gets the left border. |
 | [getRightBorder()](#getRightBorder--)| <b>@deprecated.</b> Please use the 'rightBorder' property instead. Gets the right border. |
 | [getTopBorder()](#getTopBorder--)| <b>@deprecated.</b> Please use the 'topBorder' property instead. Gets the top border. |
@@ -563,6 +566,15 @@ Readonly. Indicates whether the number format is a date format.
 
 ```javascript
 isDateTime : boolean;
+```
+
+
+### isCheckBox {#isCheckBox--}
+
+Indicates whether it's a style of check box
+
+```javascript
+isCheckBox : boolean;
 ```
 
 
@@ -1486,6 +1498,28 @@ isPercent() : boolean;
 isDateTime() : boolean;
 ```
 
+
+### isCheckBox() {#isCheckBox--}
+
+<b>@deprecated.</b> Please use the 'isCheckBox' property instead. Indicates whether it's a style of check box
+
+```javascript
+isCheckBox() : boolean;
+```
+
+
+### setIsCheckBox(boolean) {#setIsCheckBox-boolean-}
+
+<b>@deprecated.</b> Please use the 'isCheckBox' property instead. Indicates whether it's a style of check box
+
+```javascript
+setIsCheckBox(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getLeftBorder() {#getLeftBorder--}
 

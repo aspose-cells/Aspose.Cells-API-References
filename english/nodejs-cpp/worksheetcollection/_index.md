@@ -45,6 +45,7 @@ sheets.activeSheetIndex = 1;
 | [customDocumentProperties](#customDocumentProperties--)| CustomDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [oleSize](#oleSize--)| Object | Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [externalLinks](#externalLinks--)| ExternalLinkCollection | Readonly. Represents external links in a workbook. |
+| [pivotCaches](#pivotCaches--)| PivotCacheCollection | Readonly. Gets all [PivotCache](../pivotcache/). |
 | [tableStyles](#tableStyles--)| TableStyleCollection | Readonly. Gets [TableStyles](../tablestyles/) object. |
 | [revisionLogs](#revisionLogs--)| RevisionLogCollection | Readonly. Represents revision logs. |
 | [sensitivityLabels](#sensitivityLabels--)| SensitivityLabelCollection | Readonly. Represents all sensitivity labels. |
@@ -73,6 +74,7 @@ sheets.activeSheetIndex = 1;
 | [getOleSize()](#getOleSize--)| <b>@deprecated.</b> Please use the 'oleSize' property instead. Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [setOleSize(Object)](#setOleSize-object-)| <b>@deprecated.</b> Please use the 'oleSize' property instead. Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [getExternalLinks()](#getExternalLinks--)| <b>@deprecated.</b> Please use the 'externalLinks' property instead. Represents external links in a workbook. |
+| [getPivotCaches()](#getPivotCaches--)| <b>@deprecated.</b> Please use the 'pivotCaches' property instead. Gets all [PivotCache](../pivotcache/). |
 | [getTableStyles()](#getTableStyles--)| <b>@deprecated.</b> Please use the 'tableStyles' property instead. Gets [TableStyles](../tablestyles/) object. |
 | [getRevisionLogs()](#getRevisionLogs--)| <b>@deprecated.</b> Please use the 'revisionLogs' property instead. Represents revision logs. |
 | [getSensitivityLabels()](#getSensitivityLabels--)| <b>@deprecated.</b> Please use the 'sensitivityLabels' property instead. Represents all sensitivity labels. |
@@ -258,6 +260,15 @@ Readonly. Represents external links in a workbook.
 
 ```javascript
 externalLinks : ExternalLinkCollection;
+```
+
+
+### pivotCaches {#pivotCaches--}
+
+Readonly. Gets all [PivotCache](../pivotcache/).
+
+```javascript
+pivotCaches : PivotCacheCollection;
 ```
 
 
@@ -559,6 +570,19 @@ getExternalLinks() : ExternalLinkCollection;
 **Returns**
 
 [ExternalLinkCollection](../externallinkcollection/)
+
+### getPivotCaches() {#getPivotCaches--}
+
+<b>@deprecated.</b> Please use the 'pivotCaches' property instead. Gets all [PivotCache](../pivotcache/).
+
+```javascript
+getPivotCaches() : PivotCacheCollection;
+```
+
+
+**Returns**
+
+[PivotCacheCollection](../pivotcachecollection/)
 
 ### getTableStyles() {#getTableStyles--}
 

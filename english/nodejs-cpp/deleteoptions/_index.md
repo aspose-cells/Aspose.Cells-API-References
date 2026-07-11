@@ -57,6 +57,10 @@ updateReference : boolean;
 ```
 
 
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
 ### formulaChangeMonitor {#formulaChangeMonitor--}
 
 Gets/sets the monitor for tracking changes caused by the deletion.
@@ -75,6 +79,10 @@ getUpdateReference() : boolean;
 ```
 
 
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
 ### setUpdateReference(boolean) {#setUpdateReference-boolean-}
 
 <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if update references in other worksheets.
@@ -87,6 +95,10 @@ setUpdateReference(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
 
 ### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
 

@@ -92,4 +92,5 @@ Represents the file format types.
 | GZip | `35615` | Rrepesents GZip file. |
 | Otg | `1025` | Represents an OTG file. |
 | Odb | `1026` | Represents an Odb file. |
+| Ofd | `1029` | Represents an Ofd file. |
 

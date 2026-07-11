@@ -1,17 +1,17 @@
 ﻿---
-title: SlicerCacheItemCollection
+title: PivotCacheCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represent the collection of SlicerCacheItem
+description: Represents the collection of memory caches from the PivotTable reports in a workbook.
 type: docs
-url: /nodejs-cpp/slicercacheitemcollection/
+url: /nodejs-cpp/pivotcachecollection/
 ---
 
-## SlicerCacheItemCollection class
+## PivotCacheCollection class
 
-Represent the collection of SlicerCacheItem
+Represents the collection of memory caches from the PivotTable reports in a workbook.
 
 ```javascript
-class SlicerCacheItemCollection implements Iterable<SlicerCacheItem>;
+class PivotCacheCollection implements Iterable<PivotCache>;
 ```
 
 
@@ -19,11 +19,12 @@ class SlicerCacheItemCollection implements Iterable<SlicerCacheItem>;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the SlicerCacheItem object by index. |
+| [get(number)](#get-number-)| Gets the pivot table cache at the specified index. |
+| [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
-## \[Symbol.iterator\](): Iterator\<SlicerCacheItem\>
+## \[Symbol.iterator\](): Iterator\<PivotCache\>
 
 Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
 
@@ -31,10 +32,10 @@ Returns an iterator over the items in the collection. Enables use of `for...of`,
 
 ### get(number) {#get-number-}
 
-Gets the SlicerCacheItem object by index.
+Gets the pivot table cache at the specified index.
 
 ```javascript
-get(index: number) : SlicerCacheItem;
+get(index: number) : PivotCache;
 ```
 
 **Parameters:**
@@ -44,7 +45,16 @@ get(index: number) : SlicerCacheItem;
 
 **Returns**
 
-[SlicerCacheItem](../slicercacheitem/)
+[PivotCache](../pivotcache/)
+
+### dispose() {#dispose--}
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+```javascript
+dispose() : void;
+```
+
 
 ### getCount() {#getCount--}
 
