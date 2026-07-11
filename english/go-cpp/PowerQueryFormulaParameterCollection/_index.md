@@ -32,4 +32,4 @@ type PowerQueryFormulaParameterCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get_Int](./get_int/) | Gets  PowerQueryFormulaParameter by the index in the list. | 
 |[Get_String](./get_string/) | Gets  PowerQueryFormulaParameter by the name of the item. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -32,4 +32,4 @@ type ExternalConnectionCollection struct  {
 |[Get_Int](./get_int/) | Gets the ExternalConnection element at the specified index. | 
 |[Get_String](./get_string/) | Gets the ExternalConnection element with the specified name. | 
 |[GetExternalConnectionById](./getexternalconnectionbyid/) | Gets the ExternalConnection element with the specified id. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

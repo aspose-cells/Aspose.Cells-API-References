@@ -32,4 +32,4 @@ type TableStyleElementCollection struct  {
 |[Get_Int](./get_int/) | Gets an element of the table style by the index. | 
 |[Get_TableStyleElementType](./get_tablestyleelementtype/) | Gets the element of the table style by the element type. | 
 |[Add](./add/) | Adds an element. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

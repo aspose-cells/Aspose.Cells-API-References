@@ -94,4 +94,4 @@ type BuiltInDocumentPropertyCollection struct  {
 |[IndexOf](./indexof/) | Gets the index of a property by name. | 
 |[Remove](./remove/) | Removes a property with the specified name from the collection. | 
 |[RemoveAt](./removeat/) | Removes a property at the specified index. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -10,7 +10,7 @@ url: /go-cpp/walls/getheightpx/
 
 ## GetHeightPx function
 
-Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+Gets the height from top to bottom in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

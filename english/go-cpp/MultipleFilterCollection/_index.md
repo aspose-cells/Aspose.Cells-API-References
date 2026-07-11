@@ -23,8 +23,7 @@ type MultipleFilterCollection struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewMultipleFilterCollection](./newmultiplefiltercollection/) | Constructs one new instance. | 
-|[NewMultipleFilterCollection_Object](./newmultiplefiltercollection_object/) | Constructs from an Object convertible to this. | 
+|[NewMultipleFilterCollection](./newmultiplefiltercollection/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
@@ -32,10 +31,11 @@ type MultipleFilterCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[ToObject](./toobject/) | Gets the Object. | 
+|[GetCount](./getcount/) | Gets the count of the filter values. | 
 |[GetMatchBlank](./getmatchblank/) | Indicates whether to filter by blank. | 
 |[SetMatchBlank](./setmatchblank/) | Indicates whether to filter by blank. | 
 |[Get](./get/) | Gets DateTimeGroupItem or a string value. | 
 |[Add_String](./add_string/) | Adds a label filter criteria. | 
 |[Add_DateTimeGroupingType_Int_Int_Int](./add_datetimegroupingtype_int_int_int/) | Adds a date filter criteria value. | 
 |[Add_DateTimeGroupingType_Int_Int_Int_Int_Int_Int](./add_datetimegroupingtype_int_int_int_int_int_int/) | Adds a date time filter criteria value. | 
-|[GetCount](./getcount/) |  | 
+|[GetEnumerator](./getenumerator/) | Get the enumerator for filter value, | 

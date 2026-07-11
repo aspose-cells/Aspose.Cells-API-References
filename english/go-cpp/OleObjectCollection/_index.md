@@ -34,4 +34,4 @@ type OleObjectCollection struct  {
 |[Get](./get/) | Gets the OleObject element at the specified index. | 
 |[Clear](./clear/) | Remove all embedded OLE objects. | 
 |[RemoveAt](./removeat/) | Removes the element at the specified index. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

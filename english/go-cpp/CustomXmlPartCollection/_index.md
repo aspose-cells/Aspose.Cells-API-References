@@ -32,4 +32,4 @@ type CustomXmlPartCollection struct  {
 |[Add](./add/) | Adds an item to the collection. | 
 |[Get](./get/) | Gets an item at the specified index. | 
 |[SelectByID](./selectbyid/) | Gets an item by id. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -10,7 +10,7 @@ url: /go-cpp/timeline/setshowhorizontalscrollbar/
 
 ## SetShowHorizontalScrollbar function
 
-Indicates whether to display the horizontal ccroll bar.
+Indicates whether to display the horizontal scroll bar.
 
 ```go
 

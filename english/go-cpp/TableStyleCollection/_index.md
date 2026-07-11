@@ -38,4 +38,4 @@ type TableStyleCollection struct  {
 |[Get_Int](./get_int/) | Gets the table style by the index. | 
 |[Get_String](./get_string/) | Gets the table style by the name. | 
 |[GetBuiltinTableStyle](./getbuiltintablestyle/) | Gets the builtin table style | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

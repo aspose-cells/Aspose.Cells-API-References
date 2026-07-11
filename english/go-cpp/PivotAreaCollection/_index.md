@@ -33,4 +33,4 @@ type PivotAreaCollection struct  {
 |[RemoveAt](./removeat/) | Remove one pivot conditional formatted area setting. | 
 |[Get](./get/) | Gets a PivotArea object; | 
 |[Add](./add/) | Adds an area based on pivot table view. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

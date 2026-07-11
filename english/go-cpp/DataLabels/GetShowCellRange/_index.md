@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/getshowcellrange/
 
 ## GetShowCellRange function
 
-Indicates whether showing cell range as the data labels.
+Indicates whether to show cell range as the data labels.
 
 ```go
 

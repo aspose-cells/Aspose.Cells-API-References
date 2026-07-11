@@ -36,4 +36,4 @@ type ThreadedCommentAuthorCollection struct  {
 |[Get_Int](./get_int/) | Gets the person who create threaded comments. | 
 |[Get_String](./get_string/) | Gets the person who create threaded comments. | 
 |[Add](./add/) | Adds one thread comment person. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

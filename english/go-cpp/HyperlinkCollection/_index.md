@@ -35,4 +35,4 @@ type HyperlinkCollection struct  {
 |[Get](./get/) | Gets the Hyperlink element at the specified index. | 
 |[RemoveAt](./removeat/) | Remove the hyperlink  at the specified index in this collection. | 
 |[Clear](./clear/) | Clears all hyperlinks. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

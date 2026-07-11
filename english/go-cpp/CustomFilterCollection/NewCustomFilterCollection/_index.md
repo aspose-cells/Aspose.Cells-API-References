@@ -10,11 +10,11 @@ url: /go-cpp/customfiltercollection/newcustomfiltercollection/
 
 ## NewCustomFilterCollection function
 
-Constructs new instance.
+Constructs from an Object convertible to this.
 
 ```go
 
-func NewCustomFilterCollection() ( *CustomFilterCollection, error)
+func NewCustomFilterCollection(obj *Object) ( *CustomFilterCollection, error)
 
 ```
 

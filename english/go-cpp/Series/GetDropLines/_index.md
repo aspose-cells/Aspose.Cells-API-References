@@ -10,7 +10,7 @@ url: /go-cpp/series/getdroplines/
 
 ## GetDropLines function
 
-Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts.
+Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line charts or area charts.
 
 ```go
 

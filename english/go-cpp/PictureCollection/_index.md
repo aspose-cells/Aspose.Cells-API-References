@@ -39,4 +39,4 @@ type PictureCollection struct  {
 |[Get](./get/) | Gets the Picture element at the specified index. | 
 |[Clear](./clear/) | Clear all pictures. | 
 |[RemoveAt](./removeat/) | Remove shapes at the specific index | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -31,4 +31,4 @@ type CheckBoxCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a checkBox to the collection. | 
 |[Get](./get/) | Gets the CheckBox element at the specified index. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

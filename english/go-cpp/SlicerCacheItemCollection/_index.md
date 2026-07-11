@@ -30,4 +30,4 @@ type SlicerCacheItemCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the SlicerCacheItem object by index. | 
-|[GetCount](./getcount/) | Gets the count of the SlicerCacheItem. | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

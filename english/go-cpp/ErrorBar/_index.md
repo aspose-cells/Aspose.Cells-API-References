@@ -34,8 +34,8 @@ type ErrorBar struct  {
 |[SetType](./settype/) | Represents error bar amount type. | 
 |[GetDisplayType](./getdisplaytype/) | Represents the display type of error bar. | 
 |[SetDisplayType](./setdisplaytype/) | Represents the display type of error bar. | 
-|[GetAmount](./getamount/) | Represents amount of error bar. | 
-|[SetAmount](./setamount/) | Represents amount of error bar. | 
+|[GetAmount](./getamount/) | Represents the amount of error bar. | 
+|[SetAmount](./setamount/) | Represents the amount of error bar. | 
 |[GetShowMarkerTTop](./getshowmarkerttop/) | Indicates if formatting error bars with a T-top. | 
 |[SetShowMarkerTTop](./setshowmarkerttop/) | Indicates if formatting error bars with a T-top. | 
 |[GetPlusValue](./getplusvalue/) | Represents positive error amount when error bar type is Custom. | 

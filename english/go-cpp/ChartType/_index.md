@@ -23,23 +23,23 @@ type ChartType int32
 
 | Field | Description |
 | --- | --- |
-|[Area](./area/) | Represents Area Chart. | 
+|[Area](./area/) | Represents an Area Chart. | 
 |[AreaStacked](./areastacked/) | Represents Stacked Area Chart. | 
 |[Area100PercentStacked](./area100percentstacked/) | Represents 100% Stacked Area Chart. | 
 |[Area3D](./area3d/) | Represents 3D Area Chart. | 
 |[Area3DStacked](./area3dstacked/) | Represents 3D Stacked Area Chart. | 
 |[Area3D100PercentStacked](./area3d100percentstacked/) | Represents 3D 100% Stacked Area Chart. | 
-|[Bar](./bar/) | Represents Bar Chart: Clustered Bar Chart. | 
+|[Bar](./bar/) | Represents a Bar Chart: Clustered Bar Chart. | 
 |[BarStacked](./barstacked/) | Represents Stacked Bar Chart. | 
 |[Bar100PercentStacked](./bar100percentstacked/) | Represents 100% Stacked Bar Chart. | 
 |[Bar3DClustered](./bar3dclustered/) | Represents 3D Clustered Bar Chart. | 
 |[Bar3DStacked](./bar3dstacked/) | Represents 3D Stacked Bar Chart. | 
 |[Bar3D100PercentStacked](./bar3d100percentstacked/) | Represents 3D 100% Stacked Bar Chart. | 
-|[Bubble](./bubble/) | Represents Bubble Chart. | 
+|[Bubble](./bubble/) | Represents a Bubble Chart. | 
 |[Bubble3D](./bubble3d/) | Represents 3D Bubble Chart. | 
 |[Column](./column/) | Represents Column Chart: Clustered Column Chart. | 
 |[ColumnStacked](./columnstacked/) | Represents Stacked Column Chart. | 
-|[Column100PercentStacked](./column100percentstacked/) | Represents 100% Stacked Column Chart. | 
+|[Column100PercentStacked](./column100percentstacked/) | Represents a 100% Stacked Column Chart. | 
 |[Column3D](./column3d/) | Represents 3D Column Chart. | 
 |[Column3DClustered](./column3dclustered/) | Represents 3D Clustered Column Chart. | 
 |[Column3DStacked](./column3dstacked/) | Represents 3D Stacked Column Chart. | 
@@ -49,11 +49,11 @@ type ChartType int32
 |[Cone100PercentStacked](./cone100percentstacked/) | Represents 100% Stacked Cone Chart. | 
 |[ConicalBar](./conicalbar/) | Represents Conical Bar Chart. | 
 |[ConicalBarStacked](./conicalbarstacked/) | Represents Stacked Conical Bar Chart. | 
-|[ConicalBar100PercentStacked](./conicalbar100percentstacked/) | Represents 100% Stacked Conical Bar Chart. | 
+|[ConicalBar100PercentStacked](./conicalbar100percentstacked/) | Represents a 100% Stacked Conical Bar Chart. | 
 |[ConicalColumn3D](./conicalcolumn3d/) | Represents 3D Conical Column Chart. | 
-|[Cylinder](./cylinder/) | Represents Cylinder Chart. | 
+|[Cylinder](./cylinder/) | Represents a Cylinder Chart. | 
 |[CylinderStacked](./cylinderstacked/) | Represents Stacked Cylinder Chart. | 
-|[Cylinder100PercentStacked](./cylinder100percentstacked/) | Represents 100% Stacked Cylinder Chart. | 
+|[Cylinder100PercentStacked](./cylinder100percentstacked/) | Represents a 100% Stacked Cylinder Chart. | 
 |[CylindricalBar](./cylindricalbar/) | Represents Cylindrical Bar Chart. | 
 |[CylindricalBarStacked](./cylindricalbarstacked/) | Represents Stacked Cylindrical Bar Chart. | 
 |[CylindricalBar100PercentStacked](./cylindricalbar100percentstacked/) | Represents 100% Stacked Cylindrical Bar Chart. | 
@@ -69,11 +69,11 @@ type ChartType int32
 |[Line3D](./line3d/) | Represents 3D Line Chart. | 
 |[Pie](./pie/) | Represents Pie Chart. | 
 |[Pie3D](./pie3d/) | Represents 3D Pie Chart. | 
-|[PiePie](./piepie/) | Represents Pie of Pie Chart. | 
+|[PiePie](./piepie/) | Represents the pie of a pie chart. | 
 |[PieExploded](./pieexploded/) | Represents Exploded Pie Chart. | 
 |[Pie3DExploded](./pie3dexploded/) | Represents 3D Exploded Pie Chart. | 
 |[PieBar](./piebar/) | Represents Bar of Pie Chart. | 
-|[Pyramid](./pyramid/) | Represents Pyramid Chart. | 
+|[Pyramid](./pyramid/) | Represents a Pyramid Chart. | 
 |[PyramidStacked](./pyramidstacked/) | Represents Stacked Pyramid Chart. | 
 |[Pyramid100PercentStacked](./pyramid100percentstacked/) | Represents 100% Stacked Pyramid Chart. | 
 |[PyramidBar](./pyramidbar/) | Represents Pyramid Bar Chart. | 
@@ -81,11 +81,11 @@ type ChartType int32
 |[PyramidBar100PercentStacked](./pyramidbar100percentstacked/) | Represents 100% Stacked Pyramid Bar Chart. | 
 |[PyramidColumn3D](./pyramidcolumn3d/) | Represents 3D Pyramid Column Chart. | 
 |[Radar](./radar/) | Represents Radar Chart. | 
-|[RadarWithDataMarkers](./radarwithdatamarkers/) | Represents Radar Chart with data markers. | 
+|[RadarWithDataMarkers](./radarwithdatamarkers/) | Represents a Radar Chart with data markers. | 
 |[RadarFilled](./radarfilled/) | Represents Filled Radar Chart. | 
-|[Scatter](./scatter/) | Represents Scatter Chart. | 
+|[Scatter](./scatter/) | Represents a Scatter Chart. | 
 |[ScatterConnectedByCurvesWithDataMarker](./scatterconnectedbycurveswithdatamarker/) | Represents Scatter Chart connected by curves, with data markers. | 
-|[ScatterConnectedByCurvesWithoutDataMarker](./scatterconnectedbycurveswithoutdatamarker/) | Represents Scatter Chart connected by curves, without data markers. | 
+|[ScatterConnectedByCurvesWithoutDataMarker](./scatterconnectedbycurveswithoutdatamarker/) | Represents a Scatter Chart connected by curves, without data markers. | 
 |[ScatterConnectedByLinesWithDataMarker](./scatterconnectedbylineswithdatamarker/) | Represents Scatter Chart connected by lines, with data markers. | 
 |[ScatterConnectedByLinesWithoutDataMarker](./scatterconnectedbylineswithoutdatamarker/) | Represents Scatter Chart connected by lines, without data markers. | 
 |[StockHighLowClose](./stockhighlowclose/) | Represents High-Low-Close Stock Chart. | 

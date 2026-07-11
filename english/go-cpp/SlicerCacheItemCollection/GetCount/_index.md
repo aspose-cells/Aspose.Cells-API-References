@@ -10,7 +10,7 @@ url: /go-cpp/slicercacheitemcollection/getcount/
 
 ## GetCount function
 
-Gets the count of the SlicerCacheItem.
+Gets the number of elements contained in the instance.
 
 ```go
 

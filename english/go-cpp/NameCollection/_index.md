@@ -39,4 +39,4 @@ type NameCollection struct  {
 |[Clear](./clear/) | Remove all defined names which are not referenced by the formulas and data source.If the defined name is referred, we only set Name.ReferTo as null and hide them. | 
 |[RemoveDuplicateNames](./removeduplicatenames/) | Remove the duplicate defined names | 
 |[Sort](./sort/) | Sorts defined names. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

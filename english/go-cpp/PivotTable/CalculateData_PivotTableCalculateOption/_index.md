@@ -14,7 +14,7 @@ Calculates pivot table with options.
 
 ```go
 
-func (instance *PivotTable) CalculateData_PivotTableCalculateOption(option *PivotTableCalculateOption)  error
+func (instance *PivotTable) CalculateData_PivotTableCalculateOption(option *PivotTableCalculateOption)  ([]PivotTable,  error) 
 
 ```
 

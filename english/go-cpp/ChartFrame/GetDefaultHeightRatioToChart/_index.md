@@ -10,7 +10,7 @@ url: /go-cpp/chartframe/getdefaultheightratiotochart/
 
 ## GetDefaultHeightRatioToChart function
 
-Represents height of default position in units of Fraction of the chart area.
+Represents height of the default position in units of the fraction of the chart area.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/filtercolumn/setcustomfilters/
 
 ## SetCustomFilters function
 
-Gets Aspose.Cells.CustomFilterCollection for filtering data by custom criteria.
+Gets CustomFilterCollection for filtering data by custom criteria.
 
 ```go
 

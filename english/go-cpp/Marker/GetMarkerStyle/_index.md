@@ -10,7 +10,7 @@ url: /go-cpp/marker/getmarkerstyle/
 
 ## GetMarkerStyle function
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart.
+Represents the marker style.Applies to a line chart, a scatter chart, or a radar chart.
 
 ```go
 

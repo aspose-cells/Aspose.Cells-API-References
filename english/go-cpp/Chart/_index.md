@@ -45,8 +45,8 @@ type Chart struct  {
 |[SetPlotEmptyCellsType](./setplotemptycellstype/) | Gets and sets  how to plot the empty cells. | 
 |[GetPlotVisibleCellsOnly](./getplotvisiblecellsonly/) | Indicates whether plot visible cells only. | 
 |[SetPlotVisibleCellsOnly](./setplotvisiblecellsonly/) | Indicates whether plot visible cells only. | 
-|[GetDisplayNaAsBlank](./getdisplaynaasblank/) | Indicates whether displaying #N/A as blank value. | 
-|[SetDisplayNaAsBlank](./setdisplaynaasblank/) | Indicates whether displaying #N/A as blank value. | 
+|[GetDisplayNaAsBlank](./getdisplaynaasblank/) | Indicates whether to display #N/A as a blank value. | 
+|[SetDisplayNaAsBlank](./setdisplaynaasblank/) | Indicates whether to display #N/A as a blank value. | 
 |[GetName](./getname/) | Gets and sets the name of the chart. | 
 |[SetName](./setname/) | Gets and sets the name of the chart. | 
 |[GetSizeWithWindow](./getsizewithwindow/) | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. | 
@@ -55,14 +55,14 @@ type Chart struct  {
 |[GetShapes](./getshapes/) | Returns all drawing shapes in this chart. | 
 |[GetPrintSize](./getprintsize/) | Gets and sets the printed chart size. | 
 |[SetPrintSize](./setprintsize/) | Gets and sets the printed chart size. | 
-|[ChangeTemplate](./changetemplate/) | Change chart type with preset template. | 
+|[ChangeTemplate](./changetemplate/) | Change chart type with a preset template. | 
 |[GetType](./gettype/) | Gets or sets a chart's type. | 
 |[SetType](./settype/) | Gets or sets a chart's type. | 
 |[Move](./move/) | Moves the chart to a specified location. | 
 |[GetNSeries](./getnseries/) | Gets a SeriesCollection collection representing the data series in the chart. | 
 |[GetFilteredNSeries](./getfilterednseries/) | Gets a SeriesCollection collection representing the data series that are filtered in the chart. | 
 |[GetTitle](./gettitle/) | Gets the chart's title. | 
-|[GetSubTitle](./getsubtitle/) | Gets the chart's sub-title.Only for ODS format file. | 
+|[GetSubTitle](./getsubtitle/) | Gets the chart's sub-title.Only applies to ODS files. | 
 |[GetPlotArea](./getplotarea/) | Gets the chart's plot area which includes axis tick labels. | 
 |[GetChartArea](./getchartarea/) | Gets the chart area in the worksheet. | 
 |[GetCategoryAxis](./getcategoryaxis/) | Gets the chart's X axis. | 
@@ -84,7 +84,7 @@ type Chart struct  {
 |[SetGapWidth](./setgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
 |[GetGapDepth](./getgapdepth/) | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width.The value of this property must be between 0 and 500. | 
 |[SetGapDepth](./setgapdepth/) | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width.The value of this property must be between 0 and 500. | 
-|[Calculate](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned. | 
+|[Calculate](./calculate/) | Calculates the custom positions of the plot area and axes if their positions are auto-assigned. | 
 |[Calculate_ChartCalculateOptions](./calculate_chartcalculateoptions/) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. | 
 |[GetFloor](./getfloor/) | Returns a Floor object that represents the walls of a 3-D chart. | 
 |[GetWalls](./getwalls/) | Returns a Walls object that represents the walls of a 3-D chart. | 
@@ -102,8 +102,8 @@ type Chart struct  {
 |[SetAutoScaling](./setautoscaling/) | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart.The RightAngleAxes property must be True. | 
 |[GetHeightPercent](./getheightpercent/) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). | 
 |[SetHeightPercent](./setheightpercent/) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). | 
-|[GetPerspective](./getperspective/) | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True. | 
-|[SetPerspective](./setperspective/) | Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True. | 
+|[GetPerspective](./getperspective/) | Returns or sets the perspective for the three‑dimensional chart view.Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True. | 
+|[SetPerspective](./setperspective/) | Returns or sets the perspective for the three‑dimensional chart view.Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True. | 
 |[GetIs3D](./getis3d/) | Indicates whether the chart is a 3d chart. | 
 |[GetDepthPercent](./getdepthpercent/) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). | 
 |[SetDepthPercent](./setdepthpercent/) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). | 
@@ -113,7 +113,7 @@ type Chart struct  {
 |[ToImage_ImageType](./toimage_imagetype/) | Creates the chart image and saves it to a stream in the specified format. | 
 |[ToPdf_String](./topdf_string/) | Saves the chart to a pdf file. | 
 |[ToPdf_String_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType](./topdf_string_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/) | Saves the chart to a pdf file. | 
-|[ToPdf](./topdf/) | Creates the chart pdf and saves it to a stream. | 
+|[ToPdf](./topdf/) | Creates the chart PDF and saves it to a stream. | 
 |[ToPdf_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType](./topdf_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/) | Creates the chart pdf and saves it to a stream. | 
 |[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Creates the chart image and saves it to a file.The extension of the file name determines the format of the image. | 
 |[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Creates the chart image and saves it to a stream in the specified format. | 

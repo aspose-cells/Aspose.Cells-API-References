@@ -33,4 +33,4 @@ type RevisionLogCollection struct  {
 |[SetDaysPreservingHistory](./setdayspreservinghistory/) | Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. | 
 |[Get](./get/) | Gets RevisionLog by index. | 
 |[HighlightChanges](./highlightchanges/) | Highlights changes of shared workbook. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

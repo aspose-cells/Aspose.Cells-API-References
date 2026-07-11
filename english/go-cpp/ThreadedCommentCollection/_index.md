@@ -31,4 +31,4 @@ type ThreadedCommentCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the threaded comment by the specific index. | 
 |[Add](./add/) | Adds a threaded comment. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

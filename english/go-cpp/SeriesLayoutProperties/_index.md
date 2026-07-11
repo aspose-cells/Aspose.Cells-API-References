@@ -30,8 +30,8 @@ type SeriesLayoutProperties struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetShowConnectorLines](./getshowconnectorlines/) | Indicates whether connector lines are shown between data points. | 
-|[SetShowConnectorLines](./setshowconnectorlines/) | Indicates whether connector lines are shown between data points. | 
+|[GetShowConnectorLines](./getshowconnectorlines/) | Indicates whether connector lines are displayed between data points. | 
+|[SetShowConnectorLines](./setshowconnectorlines/) | Indicates whether connector lines are displayed between data points. | 
 |[GetShowMeanLine](./getshowmeanline/) | Indicates whether to show the line connecting all mean points. | 
 |[SetShowMeanLine](./setshowmeanline/) | Indicates whether to show the line connecting all mean points. | 
 |[GetShowOutlierPoints](./getshowoutlierpoints/) | Indicates whether outlier data points are shown. | 

@@ -10,6 +10,7 @@ url: /go-cpp/multiplefiltercollection/getcount/
 
 ## GetCount function
 
+Gets the count of the filter values.
 
 ```go
 

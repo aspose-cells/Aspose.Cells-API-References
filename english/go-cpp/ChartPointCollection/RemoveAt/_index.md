@@ -10,7 +10,7 @@ url: /go-cpp/chartpointcollection/removeat/
 
 ## RemoveAt function
 
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 ```go
 

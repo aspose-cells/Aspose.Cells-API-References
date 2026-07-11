@@ -79,6 +79,8 @@ type WorkbookSettings struct  {
 |[SetAutoCompressPictures](./setautocompresspictures/) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. | 
 |[GetRemovePersonalInformation](./getremovepersonalinformation/) | True if personal information can be removed from the specified workbook. | 
 |[SetRemovePersonalInformation](./setremovepersonalinformation/) | True if personal information can be removed from the specified workbook. | 
+|[GetShapeDisplayType](./getshapedisplaytype/) | Gets and sets how the application displays shapes in this workbook | 
+|[SetShapeDisplayType](./setshapedisplaytype/) | Gets and sets how the application displays shapes in this workbook | 
 |[GetHidePivotFieldList](./gethidepivotfieldlist/) | Gets and sets whether hide the field list for the PivotTable. | 
 |[SetHidePivotFieldList](./sethidepivotfieldlist/) | Gets and sets whether hide the field list for the PivotTable. | 
 |[GetMaxUniqueItemsPerField](./getmaxuniqueitemsperfield/) | Gets and set the limitation of unique items per field | 

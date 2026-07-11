@@ -43,6 +43,8 @@ type Worksheet struct  {
 |[SetName](./setname/) | Gets or sets the name of the worksheet. | 
 |[GetShowFormulas](./getshowformulas/) | Indicates whether to show formulas or their results. | 
 |[SetShowFormulas](./setshowformulas/) | Indicates whether to show formulas or their results. | 
+|[GetShowDataTypeIcons](./getshowdatatypeicons/) | Indicates whether to show data type icons. | 
+|[SetShowDataTypeIcons](./setshowdatatypeicons/) | Indicates whether to show data type icons. | 
 |[IsGridlinesVisible](./isgridlinesvisible/) | Gets or sets a value indicating whether the gridlines are visible.Default is true. | 
 |[SetIsGridlinesVisible](./setisgridlinesvisible/) | Gets or sets a value indicating whether the gridlines are visible.Default is true. | 
 |[IsRowColumnHeadersVisible](./isrowcolumnheadersvisible/) | Gets or sets a value indicating whether the worksheet will display row and column headers.Default is true. | 

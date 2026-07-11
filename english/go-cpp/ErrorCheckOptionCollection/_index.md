@@ -31,4 +31,4 @@ type ErrorCheckOptionCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets ErrorCheckOption object by the given index. | 
 |[Add](./add/) | Add an error check option. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

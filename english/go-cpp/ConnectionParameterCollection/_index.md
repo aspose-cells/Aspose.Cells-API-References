@@ -31,4 +31,4 @@ type ConnectionParameterCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get_Int](./get_int/) | Gets the ConnectionParameter element at the specified index. | 
 |[Get_String](./get_string/) | Gets the ConnectionParameter element with the specified name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

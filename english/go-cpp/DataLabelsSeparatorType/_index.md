@@ -26,7 +26,7 @@ type DataLabelsSeparatorType int32
 |[Auto](./auto/) | Represents automatic separator | 
 |[Space](./space/) | Represents space(" ") | 
 |[Comma](./comma/) | Represents comma(",") | 
-|[Semicolon](./semicolon/) | Represents semicolon(";") | 
+|[Semicolon](./semicolon/) | Represents a semicolon(";") | 
 |[Period](./period/) | Represents period(".") | 
 |[NewLine](./newline/) | Represents newline("\n") | 
 |[Custom](./custom/) | Represents custom separator | 

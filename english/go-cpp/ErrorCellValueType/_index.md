@@ -26,7 +26,7 @@ type ErrorCellValueType int32
 |[Value](./value/) | Represents the value of a cell containing a #VALUE! error. | 
 |[Ref](./ref/) | Represents the value of a cell containing a #REF! error. | 
 |[Name](./name/) | Represents the value of a cell containing a #NAME? error. | 
-|[NA](./na/) | Represents the value of a cell containing a #NAME? error. | 
+|[NA](./na/) | Represents the value of a cell containing a #N/A error. | 
 |[Blocked](./blocked/) | Represents the value of a cell containing a #BLOCKED! error. | 
 |[Busy](./busy/) | Represents the value of a cell containing a #BUSY! error. | 
 |[Calc](./calc/) | Represents the value of a cell containing a #CALC! error. | 

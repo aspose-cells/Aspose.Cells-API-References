@@ -10,7 +10,7 @@ url: /go-cpp/chart/setdisplaynaasblank/
 
 ## SetDisplayNaAsBlank function
 
-Indicates whether displaying #N/A as blank value.
+Indicates whether to display #N/A as a blank value.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/series/setplotonsecondaxis/
 
 ## SetPlotOnSecondAxis function
 
-Indicates if this series is plotted on second value axis.
+Indicates if this series is plotted on the second value axis.
 
 ```go
 

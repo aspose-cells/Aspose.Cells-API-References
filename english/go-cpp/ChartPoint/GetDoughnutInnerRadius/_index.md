@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getdoughnutinnerradius/
 
 ## GetDoughnutInnerRadius function
 
-Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method.Applies to Doughnut chart.
+Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate() method.Applies to Doughnut chart.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/chartcalculateoptions/
 
 ## ChartCalculateOptions class
 
-Represents the options for calculating the chart.
+Represents the options for calculating a chart.
 
 ```go
 

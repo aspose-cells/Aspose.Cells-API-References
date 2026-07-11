@@ -23,8 +23,7 @@ type CustomFilterCollection struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewCustomFilterCollection](./newcustomfiltercollection/) | Constructs new instance. | 
-|[NewCustomFilterCollection_Object](./newcustomfiltercollection_object/) | Constructs from an Object convertible to this. | 
+|[NewCustomFilterCollection](./newcustomfiltercollection/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
@@ -35,4 +34,5 @@ type CustomFilterCollection struct  {
 |[GetAnd](./getand/) | Indicates whether the two criteria have an "and" relationship. | 
 |[SetAnd](./setand/) | Indicates whether the two criteria have an "and" relationship. | 
 |[Get](./get/) | Gets the custom filter in the specific index. | 
-|[GetCount](./getcount/) |  | 
+|[Custom](./custom/) | Filters a list with custom criteria. | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -62,4 +62,5 @@ type SaveFormat int32
 |[Epub](./epub/) | Represents Epub file. | 
 |[Azw3](./azw3/) | Represents Azw3 file. | 
 |[Pcl](./pcl/) | PCL (Printer Command Language) | 
+|[Ofd](./ofd/) | OFD (Open Fixed-layout Document) | 
 |[Dbf](./dbf/) | Xbase Data file | 

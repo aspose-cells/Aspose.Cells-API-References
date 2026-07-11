@@ -10,7 +10,7 @@ url: /go-cpp/chartarea/getfont/
 
 ## GetFont function
 
-Gets a Font object of the specified chartarea object.
+Gets a Font object of the specified ChartArea object.
 
 ```go
 

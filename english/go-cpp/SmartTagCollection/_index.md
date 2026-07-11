@@ -33,4 +33,4 @@ type SmartTagCollection struct  {
 |[GetColumn](./getcolumn/) | Gets the column of the cell smart tags. | 
 |[Get](./get/) | Gets a SmartTag object at the specific index | 
 |[Add](./add/) | Adds a smart tag. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -10,7 +10,7 @@ url: /go-cpp/filtercolumn/gettop10filter/
 
 ## GetTop10Filter function
 
-Gets Aspose.Cells.Top10Filter for filtering data by rank of data.
+Gets Top10Filter for filtering data by rank of data.
 
 ```go
 

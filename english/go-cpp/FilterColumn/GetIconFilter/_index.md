@@ -10,7 +10,7 @@ url: /go-cpp/filtercolumn/geticonfilter/
 
 ## GetIconFilter function
 
-Gets Aspose.Cells.IconFilter for filtering data by icon.
+Gets IconFilter for filtering data by icon.
 
 ```go
 

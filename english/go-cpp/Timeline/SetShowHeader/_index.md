@@ -10,7 +10,7 @@ url: /go-cpp/timeline/setshowheader/
 
 ## SetShowHeader function
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 ```go
 

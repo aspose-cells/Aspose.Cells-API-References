@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getmergelabels/
 
 ## GetMergeLabels function
 
-True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+Indicates whether row or column titles that span multiple cells should be merged into a single cell.
 
 ```go
 

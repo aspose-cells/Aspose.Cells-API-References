@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getinnerarcstartpointxpx/
 
 ## GetInnerArcStartPointXPx function
 
-Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method.Applies to Doughnut chart.
+Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method.Applies to the Doughnut chart.
 
 ```go
 

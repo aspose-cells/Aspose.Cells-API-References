@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getarcstartpointxpx/
 
 ## GetArcStartPointXPx function
 
-Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method.Applies to Pie and Doughnut  chart.
+Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method.Applies to Pie and Doughnut charts.
 
 ```go
 

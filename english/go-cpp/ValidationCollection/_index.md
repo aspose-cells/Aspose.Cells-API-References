@@ -34,4 +34,4 @@ type ValidationCollection struct  {
 |[RemoveACell](./removeacell/) | Removes all validation setting on the cell. | 
 |[RemoveArea](./removearea/) | Removes all validation setting on the range.. | 
 |[GetValidationInCell](./getvalidationincell/) | Gets the validation applied to given cell. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

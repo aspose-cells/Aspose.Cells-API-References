@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/getdefaultyratiotochart/
 
 ## GetDefaultYRatioToChart function
 
-Represents y of default position in units of Fraction of the chart area.
+Represents y of the default position in units of the fraction of the chart area.
 
 ```go
 

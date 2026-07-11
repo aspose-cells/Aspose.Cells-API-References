@@ -10,6 +10,7 @@ url: /go-cpp/revisionlogcollection/getcount/
 
 ## GetCount function
 
+Gets the number of elements contained in the instance.
 
 ```go
 

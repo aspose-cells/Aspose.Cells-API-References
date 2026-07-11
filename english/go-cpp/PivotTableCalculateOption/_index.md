@@ -36,3 +36,5 @@ type PivotTableCalculateOption struct  {
 |[SetRefreshCharts](./setrefreshcharts/) | Indicates whether refreshing charts are based on this pivot table. | 
 |[GetReserveMissingPivotItemType](./getreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. | 
 |[SetReserveMissingPivotItemType](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. | 
+|[GetRefreshOption](./getrefreshoption/) | Gets and set options for refreshing data source to pivot cache. | 
+|[SetRefreshOption](./setrefreshoption/) | Gets and set options for refreshing data source to pivot cache. | 

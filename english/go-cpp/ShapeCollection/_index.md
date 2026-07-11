@@ -31,7 +31,8 @@ type ShapeCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get_Int](./get_int/) | Gets the Shape object at the specific index in the list. | 
 |[Get_String](./get_string/) | Gets the Shape object by the name of the shape. | 
-|[AddCopy](./addcopy/) | Adds and copy a shape to the worksheet. | 
+|[AddCopy_Shape_Int_Int_Int_Int](./addcopy_shape_int_int_int_int/) | Adds and copy a shape to the worksheet. | 
+|[AddCopy_Shape_Int_Int_Int_Int_CopyOptions](./addcopy_shape_int_int_int_int_copyoptions/) | Adds and copy a shape to the worksheet. | 
 |[AddCheckBox](./addcheckbox/) | Adds a checkbox to the worksheet. | 
 |[AddTextBox](./addtextbox/) | Adds a text box to the worksheet. | 
 |[AddEquation](./addequation/) | Adds an equation object to the worksheet. | 
@@ -82,4 +83,4 @@ type ShapeCollection struct  {
 |[UpdateSelectedValue](./updateselectedvalue/) | Update the selected value by the value of the linked cell or range of the shape. | 
 |[AddFreeform](./addfreeform/) | Adds a freeform shape to the worksheet. | 
 |[AddSignatureLine](./addsignatureline/) | Adds a Signature Line to the worksheet. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -10,7 +10,7 @@ url: /go-cpp/dropbars/
 
 ## DropBars class
 
-Represents the up/down bars in a chart.
+Represents the up and down bars in a chart.
 
 ```go
 

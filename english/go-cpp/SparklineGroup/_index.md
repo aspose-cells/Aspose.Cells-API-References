@@ -78,8 +78,10 @@ type SparklineGroup struct  {
 |[GetVerticalAxisMaxValueType](./getverticalaxismaxvaluetype/) | Represents the vertical axis maximum value type. | 
 |[SetVerticalAxisMaxValueType](./setverticalaxismaxvaluetype/) | Represents the vertical axis maximum value type. | 
 |[GetVerticalAxisMaxValue](./getverticalaxismaxvalue/) | Gets and sets the custom maximum value for the vertical axis. | 
-|[SetVerticalAxisMaxValue](./setverticalaxismaxvalue/) | Gets and sets the custom maximum value for the vertical axis. | 
+|[SetVerticalAxisMaxValue_Double](./setverticalaxismaxvalue_double/) | Gets and sets the custom maximum value for the vertical axis. | 
+|[SetVerticalAxisMaxValue_SparklineAxisMinMaxType_Double](./setverticalaxismaxvalue_sparklineaxisminmaxtype_double/) | Sets the custom maximum value for the sparkline vertical axis with the specified axis value type. | 
+|[SetVerticalAxisMinValue_SparklineAxisMinMaxType_Double](./setverticalaxisminvalue_sparklineaxisminmaxtype_double/) | Sets the custom minimum value for the sparkline vertical axis with the specified axis value type. | 
 |[GetVerticalAxisMinValueType](./getverticalaxisminvaluetype/) | Represents the vertical axis minimum value type. | 
 |[SetVerticalAxisMinValueType](./setverticalaxisminvaluetype/) | Represents the vertical axis minimum value type. | 
 |[GetVerticalAxisMinValue](./getverticalaxisminvalue/) | Gets and sets the custom minimum value for the vertical axis. | 
-|[SetVerticalAxisMinValue](./setverticalaxisminvalue/) | Gets and sets the custom minimum value for the vertical axis. | 
+|[SetVerticalAxisMinValue_Double](./setverticalaxisminvalue_double/) | Gets and sets the custom minimum value for the vertical axis. | 

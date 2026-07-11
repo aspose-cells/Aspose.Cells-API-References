@@ -10,7 +10,7 @@ url: /go-cpp/legend/getheightratiotochart/
 
 ## GetHeightRatioToChart function
 
-Gets or sets the height of frame in units of ratio of the chart area.
+Gets or sets the height of the frame in units of the ratio of the chart area.
 
 ```go
 

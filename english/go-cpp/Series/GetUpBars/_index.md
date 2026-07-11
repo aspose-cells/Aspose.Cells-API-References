@@ -10,7 +10,7 @@ url: /go-cpp/series/getupbars/
 
 ## GetUpBars function
 
-Returns an DropBars object that represents the up bars on a line chart.Applies only to line charts.
+Returns a DropBars object that represents the up bars on a line chart.Applies only to line charts.
 
 ```go
 

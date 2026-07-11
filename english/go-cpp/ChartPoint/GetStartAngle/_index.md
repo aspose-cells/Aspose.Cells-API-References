@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getstartangle/
 
 ## GetStartAngle function
 
-Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method.Applies to Pie chart.
+Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method.Applies to Pie chart.
 
 ```go
 

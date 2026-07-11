@@ -48,4 +48,4 @@ type PivotTableCollection struct  {
 |[Remove_PivotTable_Bool](./remove_pivottable_bool/) | Deletes the specified PivotTable | 
 |[RemoveAt_Int](./removeat_int/) | Deletes the PivotTable at the specified index and delete the PivotTable data | 
 |[RemoveAt_Int_Bool](./removeat_int_bool/) | Deletes the PivotTable at the specified index | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

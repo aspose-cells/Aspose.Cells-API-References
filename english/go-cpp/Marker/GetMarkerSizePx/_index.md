@@ -10,7 +10,7 @@ url: /go-cpp/marker/getmarkersizepx/
 
 ## GetMarkerSizePx function
 
-Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
+Represents the marker size in units of pixels.Applies to line charts, scatter charts, or radar charts.
 
 ```go
 

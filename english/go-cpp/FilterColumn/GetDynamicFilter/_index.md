@@ -10,7 +10,7 @@ url: /go-cpp/filtercolumn/getdynamicfilter/
 
 ## GetDynamicFilter function
 
-Gets Aspose.Cells.DynamicFilter for filtering with dynamic criteria.
+Gets DynamicFilter for filtering with dynamic criteria.
 
 ```go
 

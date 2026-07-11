@@ -10,7 +10,7 @@ url: /go-cpp/title/getheightpixel/
 
 ## GetHeightPixel function
 
-Gets or sets the height of frame in units of Pixel.
+Gets or sets the height of the frame in units of pixels.
 
 ```go
 

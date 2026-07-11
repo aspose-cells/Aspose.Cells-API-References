@@ -62,6 +62,10 @@ type PdfSaveOptions struct  {
 |[SetWatermark](./setwatermark/) | Gets or sets watermark to output. | 
 |[GetEmbedAttachments](./getembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. | 
 |[SetEmbedAttachments](./setembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. | 
+|[GetZoomBehavior](./getzoombehavior/) | Gets or sets the initial view mode when the generated PDF document is opened.The default value is PdfZoomBehavior.None. | 
+|[SetZoomBehavior](./setzoombehavior/) | Gets or sets the initial view mode when the generated PDF document is opened.The default value is PdfZoomBehavior.None. | 
+|[GetZoomFactor](./getzoomfactor/) | Gets or sets the zoom percentage used whenZoomBehavior is PdfZoomBehavior.ZoomFactor. | 
+|[SetZoomFactor](./setzoomfactor/) | Gets or sets the zoom percentage used whenZoomBehavior is PdfZoomBehavior.ZoomFactor. | 
 |[GetDefaultFont](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
 |[SetDefaultFont](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
 |[GetCheckWorkbookDefaultFont](./getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set this to true to try to use workbook's default font to show these characters first. | 

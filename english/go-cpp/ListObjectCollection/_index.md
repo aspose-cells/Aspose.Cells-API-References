@@ -33,5 +33,6 @@ type ListObjectCollection struct  {
 |[Get_String](./get_string/) | Gets the ListObject by specified name. | 
 |[Add_Int_Int_Int_Int_Bool](./add_int_int_int_int_bool/) | Adds a ListObject to the worksheet. | 
 |[Add_String_String_Bool](./add_string_string_bool/) | Adds a ListObject to the worksheet. | 
+|[RemoveAt](./removeat/) | Remove ListObject by index. | 
 |[UpdateColumnName](./updatecolumnname/) | Update all column name of the tables. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

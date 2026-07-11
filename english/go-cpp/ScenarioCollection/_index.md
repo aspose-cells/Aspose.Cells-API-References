@@ -35,4 +35,4 @@ type ScenarioCollection struct  {
 |[SetLastSelected](./setlastselected/) | Indicates which scenario was last selected by the user to be run/shown. | 
 |[Get](./get/) | Gets the Scenario object by the index. | 
 |[Add](./add/) | Adds a scenario. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

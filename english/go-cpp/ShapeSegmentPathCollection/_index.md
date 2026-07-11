@@ -32,4 +32,4 @@ type ShapeSegmentPathCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Add a segment path in creation path. | 
 |[Get](./get/) | Gets ShapeSegmentPath object. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

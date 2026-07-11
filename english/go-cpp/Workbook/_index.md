@@ -25,7 +25,8 @@ type Workbook struct  {
 | --- | --- |
 |[NewWorkbook](./newworkbook/) | Initializes a new instance of the Workbook class. | 
 |[NewWorkbook_FileFormatType](./newworkbook_fileformattype/) | Initializes a new instance of the Workbook class. | 
-|[NewWorkbook_String](./newworkbook_string/) | Initializes a new instance of the Workbook class and open a file. | 
+|[NewWorkbook_LoadOptions](./newworkbook_loadoptions/) | Initializes a new empty instance of the Workbook class with options | 
+|[NewWorkbook_String](./newworkbook_string/) |  | 
 |[NewWorkbook_Stream](./newworkbook_stream/) | Initializes a new instance of the Workbook class and open a stream. | 
 |[NewWorkbook_String_LoadOptions](./newworkbook_string_loadoptions/) | Initializes a new instance of the Workbook class and open a file. | 
 |[NewWorkbook_Stream_LoadOptions](./newworkbook_stream_loadoptions/) | Initializes a new instance of the Workbook class and open stream. | 
@@ -128,4 +129,5 @@ type Workbook struct  {
 |[GetDigitalSignature](./getdigitalsignature/) | Gets digital signature from file. | 
 |[RemovePersonalInformation](./removepersonalinformation/) | Removes personal information. | 
 |[GetDataModel](./getdatamodel/) | Gets data model in the workbook. | 
+|[RefreshAll](./refreshall/) | Refresh linked shapes, all pivot tables and charts with pivot source. | 
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 

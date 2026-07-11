@@ -10,7 +10,7 @@ url: /go-cpp/title/getoverlay/
 
 ## GetOverLay function
 
-Represents overlay centered title on chart without resizing chart.
+Represents an overlay centered title on a chart without resizing the chart.
 
 ```go
 

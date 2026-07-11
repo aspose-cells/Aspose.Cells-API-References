@@ -10,7 +10,7 @@ url: /go-cpp/chartarea/setxratiotochart/
 
 ## SetXRatioToChart function
 
-Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area.
+Gets or sets the horizontal offset from the upper-left corner column, as a ratio of the chart area.
 
 ```go
 

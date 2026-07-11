@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/settext/
 
 ## SetText function
 
-Gets or sets the text of data label.
+Gets or sets the text of the data label.
 
 ```go
 

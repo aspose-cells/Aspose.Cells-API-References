@@ -72,11 +72,11 @@ type WorksheetCollection struct  {
 |[SetOleSize_Object](./setolesize_object/) | Gets and Sets displayed size when Workbook file is used as an Ole object. | 
 |[SetOleSize_Int_Int_Int_Int](./setolesize_int_int_int_int/) | Sets displayed size when Workbook file is used as an Ole object. | 
 |[GetExternalLinks](./getexternallinks/) | Represents external links in a workbook. | 
+|[GetPivotCaches](./getpivotcaches/) | Gets all PivotCache. | 
 |[GetTableStyles](./gettablestyles/) | Gets TableStyles object. | 
 |[ClearPivottables](./clearpivottables/) | Clears pivot tables from the spreadsheet. | 
 |[GetRevisionLogs](./getrevisionlogs/) | Represents revision logs. | 
-|[RefreshAll](./refreshall/) | Refresh all pivot tables and charts with pivot source. | 
 |[RefreshPivotTables](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. | 
 |[RefreshPivotTables_PivotTableRefreshOption](./refreshpivottables_pivottablerefreshoption/) | Refreshes all the PivotTables in the Excel file. | 
 |[GetSensitivityLabels](./getsensitivitylabels/) | Represents all sensitivity labels. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -10,7 +10,7 @@ url: /go-cpp/chart/calculate/
 
 ## Calculate function
 
-Calculates the custom position of plot area, axes if the position of them are auto assigned.
+Calculates the custom positions of the plot area and axes if their positions are auto-assigned.
 
 ```go
 

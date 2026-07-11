@@ -41,4 +41,4 @@ type CommentCollection struct  {
 |[RemoveAt_String](./removeat_string/) | Removes the comment of the specific cell. | 
 |[RemoveAt_Int_Int](./removeat_int_int/) | Removes the comment of the specific cell. | 
 |[Clear](./clear/) | Removes all comments; | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

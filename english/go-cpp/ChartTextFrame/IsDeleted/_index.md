@@ -10,7 +10,7 @@ url: /go-cpp/charttextframe/isdeleted/
 
 ## IsDeleted function
 
-Indicates whether this data labels are deleted.
+Indicates whether this data label is deleted.
 
 ```go
 

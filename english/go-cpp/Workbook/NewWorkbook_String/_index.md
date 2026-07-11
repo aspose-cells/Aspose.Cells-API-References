@@ -10,7 +10,6 @@ url: /go-cpp/workbook/newworkbook_string/
 
 ## NewWorkbook_String function
 
-Initializes a new instance of the Workbook class and open a file.
 
 ```go
 

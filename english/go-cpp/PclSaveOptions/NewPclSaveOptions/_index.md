@@ -10,7 +10,7 @@ url: /go-cpp/pclsaveoptions/newpclsaveoptions/
 
 ## NewPclSaveOptions function
 
-Creates the options for saving pdf file.
+Creates the options for saving pcl file.
 
 ```go
 

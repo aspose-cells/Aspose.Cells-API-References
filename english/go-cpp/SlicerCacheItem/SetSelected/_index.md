@@ -10,7 +10,7 @@ url: /go-cpp/slicercacheitem/setselected/
 
 ## SetSelected function
 
-Specifies whether the SlicerItem is selected or not.
+Specifies whether the SlicerCacheItem is selected or not.
 
 ```go
 

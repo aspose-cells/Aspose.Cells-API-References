@@ -23,5 +23,5 @@ type PlotDataByType int32
 
 | Field | Description |
 | --- | --- |
-|[Row](./row/) | By row. | 
+|[Row](./row/) | Sorted by row. | 
 |[Column](./column/) | By column. | 

@@ -36,4 +36,4 @@ type HorizontalPageBreakCollection struct  {
 |[Add_Int_Int](./add_int_int/) | Adds a horizontal page break to the collection. | 
 |[Add_String](./add_string/) | Adds a horizontal page break to the collection. | 
 |[RemoveAt](./removeat/) | Removes the HPageBreak element at a specified name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

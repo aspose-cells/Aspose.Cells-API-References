@@ -10,7 +10,7 @@ url: /go-cpp/displayunitlabel/isdefaultposbeset/
 
 ## IsDefaultPosBeSet function
 
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setshowdatatips/
 
 ## SetShowDataTips function
 
-Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells.
+Indicates whether tooltips should be displayed for PivotTable data cells.
 
 ```go
 

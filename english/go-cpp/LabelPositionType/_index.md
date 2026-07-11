@@ -24,7 +24,7 @@ type LabelPositionType int32
 | Field | Description |
 | --- | --- |
 |[Center](./center/) | Applies only to bar, 2D/3D pie charts | 
-|[InsideBase](./insidebase/) | Applies only to bar, 2d/3d pie charts | 
+|[InsideBase](./insidebase/) | Applies only to bar, 2D/3D pie charts | 
 |[InsideEnd](./insideend/) | Applies only to bar charts | 
 |[OutsideEnd](./outsideend/) | Applies only to bar, 2d/3d pie charts | 
 |[Above](./above/) | Applies only to line charts | 
@@ -32,4 +32,4 @@ type LabelPositionType int32
 |[Left](./left/) | Applies only to line charts | 
 |[Right](./right/) | Applies only to line charts | 
 |[BestFit](./bestfit/) | Applies only to 2D/3D pie charts | 
-|[Moved](./moved/) | User moved the data labels only for reading the chart from the template file. | 
+|[Moved](./moved/) | User moved the data labels.This is only for reading the chart from the template file. | 

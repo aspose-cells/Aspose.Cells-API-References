@@ -24,6 +24,6 @@ type MapChartRegionType int32
 | Field | Description |
 | --- | --- |
 |[Automatic](./automatic/) | Automatic | 
-|[DataOnly](./dataonly/) | Only Data. | 
+|[DataOnly](./dataonly/) | Contains only data. | 
 |[CountryRegionList](./countryregionlist/) | Country region list. | 
 |[World](./world/) | World. | 

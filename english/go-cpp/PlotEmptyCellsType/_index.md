@@ -10,7 +10,7 @@ url: /go-cpp/plotemptycellstype/
 
 ## PlotEmptyCellsType Enum
 
-Represents all plot empty cells type of a chart.
+Represents all plot empty cell types of a chart.
 
 ```go
 

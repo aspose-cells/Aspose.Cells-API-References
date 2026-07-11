@@ -33,4 +33,4 @@ type OdsCellFieldCollection struct  {
 |[Get_Int_Int](./get_int_int/) | Gets the field by row and column index. | 
 |[Add](./add/) | Adds a field. | 
 |[UpdateFieldsValue](./updatefieldsvalue/) | Update fields value to the cells. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

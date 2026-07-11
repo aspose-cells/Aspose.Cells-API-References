@@ -29,6 +29,6 @@ type SlicerCacheItem struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetSelected](./getselected/) | Specifies whether the SlicerItem is selected or not. | 
-|[SetSelected](./setselected/) | Specifies whether the SlicerItem is selected or not. | 
+|[GetSelected](./getselected/) | Specifies whether the SlicerCacheItem is selected or not. | 
+|[SetSelected](./setselected/) | Specifies whether the SlicerCacheItem is selected or not. | 
 |[GetValue](./getvalue/) | Returns the label text for the slicer item. | 
