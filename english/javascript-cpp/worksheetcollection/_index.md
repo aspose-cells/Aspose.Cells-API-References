@@ -45,6 +45,7 @@ sheets.activeSheetIndex = 1;
 | [customDocumentProperties](#customDocumentProperties--)| CustomDocumentPropertyCollection | Readonly. Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [oleSize](#oleSize--)| VObject | Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [externalLinks](#externalLinks--)| ExternalLinkCollection | Readonly. Represents external links in a workbook. |
+| [pivotCaches](#pivotCaches--)| PivotCacheCollection | Readonly. Gets all [PivotCache](../pivotcache/). |
 | [tableStyles](#tableStyles--)| TableStyleCollection | Readonly. Gets [TableStyles](../tablestyles/) object. |
 | [revisionLogs](#revisionLogs--)| RevisionLogCollection | Readonly. Represents revision logs. |
 | [sensitivityLabels](#sensitivityLabels--)| SensitivityLabelCollection | Readonly. Represents all sensitivity labels. |
@@ -230,6 +231,15 @@ Readonly. Represents external links in a workbook.
 
 ```javascript
 externalLinks : ExternalLinkCollection;
+```
+
+
+### pivotCaches {#pivotCaches--}
+
+Readonly. Gets all [PivotCache](../pivotcache/).
+
+```javascript
+pivotCaches : PivotCacheCollection;
 ```
 
 

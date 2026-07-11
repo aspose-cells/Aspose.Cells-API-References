@@ -1,14 +1,14 @@
 ﻿---
 title: DateTimeGroupItem
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the datetimes group setting.
+description: Represents the datetime group setting.
 type: docs
 url: /javascript-cpp/datetimegroupitem/
 ---
 
 ## DateTimeGroupItem class
 
-Represents the datetime's group setting.
+Represents the datetime group setting.
 
 ```javascript
 class DateTimeGroupItem;

@@ -15,26 +15,11 @@ class SlicerCacheItemCollection;
 ```
 
 
-## Properties
-
-| Property | Type | Description |
-| --- | --- | --- |
-| [count](#count--)| number | Readonly. Gets the count of the SlicerCacheItem. |
-
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the SlicerCacheItem object by index. |
-
-
-### count {#count--}
-
-Readonly. Gets the count of the SlicerCacheItem.
-
-```javascript
-count : number;
-```
 
 
 ### get(number) {#get-number-}

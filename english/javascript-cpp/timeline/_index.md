@@ -19,10 +19,10 @@ class Timeline;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [showHeader](#showHeader--)| boolean | Indicates whether to display the header. |
+| [showHeader](#showHeader--)| boolean | Indicates whether to display the header of this timeline. |
 | [showSelectionLabel](#showSelectionLabel--)| boolean | Indicates whether to display the selction label. |
-| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the time level. |
-| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal ccroll bar. |
+| [showTimeLevel](#showTimeLevel--)| boolean | Indicates whether to display the drop-down selection box of the time level. |
+| [showHorizontalScrollbar](#showHorizontalScrollbar--)| boolean | Indicates whether to display the horizontal scroll bar. |
 | [startDate](#startDate--)| Date | Gets and sets the start date of the timespan scrolling position of this [Timeline](../timeline/). |
 | [currentLevel](#currentLevel--)| TimelineLevelType | The current time level of the Timeline. |
 | [selectionLevel](#selectionLevel--)| TimelineLevelType | Gets and sets the time level at which the current selection was made for the Timeline. |
@@ -34,10 +34,17 @@ class Timeline;
 | [widthPixel](#widthPixel--)| number | Returns or sets the width of the specified timeline, in pixels. |
 | [heightPixel](#heightPixel--)| number | Returns or sets the height of the specified timeline, in pixels. |
 
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getSelectedDateTimeRange()](#getSelectedDateTimeRange--)| Gets the selected range of date time. |
+| [select(Date, Date, boolean)](#select-date-date-boolean-)| Select item between the date time. |
+
 
 ### showHeader {#showHeader--}
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 ```javascript
 showHeader : boolean;
@@ -55,7 +62,7 @@ showSelectionLabel : boolean;
 
 ### showTimeLevel {#showTimeLevel--}
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 ```javascript
 showTimeLevel : boolean;
@@ -64,7 +71,7 @@ showTimeLevel : boolean;
 
 ### showHorizontalScrollbar {#showHorizontalScrollbar--}
 
-Indicates whether to display the horizontal ccroll bar.
+Indicates whether to display the horizontal scroll bar.
 
 ```javascript
 showHorizontalScrollbar : boolean;
@@ -176,5 +183,37 @@ heightPixel : number;
 **Remarks**
 
 NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getSelectedDateTimeRange() {#getSelectedDateTimeRange--}
+
+Gets the selected range of date time.
+
+```javascript
+getSelectedDateTimeRange() : Date[];
+```
+
+
+**Returns**
+
+Date[]
+
+### select(Date, Date, boolean) {#select-date-date-boolean-}
+
+Select item between the date time.
+
+```javascript
+select(start: Date, end: Date, calculate: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | Date | The start date time |
+| end | Date | The end date time |
+| calculate | boolean | Indicates whether to calculate relative pivot tables |
+
+**Remarks**
+
+[Timeline.CurrentLevel](../timeline.currentlevel/) must be set before calling this method. If this method is called, [Timeline.SelectionLevel](../timeline.selectionlevel/) will be [Timeline.CurrentLevel](../timeline.currentlevel/).
 
 

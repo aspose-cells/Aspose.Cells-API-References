@@ -15,6 +15,7 @@ Provides utility functions for loading font data, ICU data, and exception messag
 | --- | --- |
 | static [loadICUData(string)](#loadICUData-string-)| Loads ICU data from a local file path. |
 | static [loadICUData(Uint8Array)](#loadICUData-uint8array-)| Loads ICU data from Uint8Array. |
+| static [loadFonts(Uint8Array[])](#loadFonts-uint8array-array-)| Loads multiple font data from Uint8Array array. |
 | static [loadFont(Uint8Array)](#loadFont-uint8array-)| Loads font data from Uint8Array. |
 | static [fetchWasmError(number)](#fetchWasmError-number-)| Fetches the error message from WebAssembly by the exception address. |
 
@@ -44,6 +45,18 @@ static loadICUData(stream: Uint8Array): void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | A stream that contains the ICU data. |
+
+### loadFonts(Uint8Array[]) {loadFonts-uint8array-array-}
+Loads multiple font data from Uint8Array array.
+
+```javascript
+static loadFonts(sources: Uint8Array[]): void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sources | Uint8Array[] | An array of sources that contain TrueType fonts. |
 
 ### loadFont(Uint8Array) {loadFont-uint8array-}
 

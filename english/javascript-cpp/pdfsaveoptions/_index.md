@@ -41,6 +41,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [fontEncoding](#fontEncoding--)| PdfFontEncoding | Gets or sets embedded font encoding in pdf. |
 | [watermark](#watermark--)| RenderingWatermark | Gets or sets watermark to output. |
 | [embedAttachments](#embedAttachments--)| boolean | Indicates whether to embed attachment for Ole objects in Excel. |
+| [zoomBehavior](#zoomBehavior--)| PdfZoomBehavior | Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/). |
+| [zoomFactor](#zoomFactor--)| number | Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/). |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -270,6 +272,28 @@ embedAttachments : boolean;
 **Remarks**
 
 Default value is false. The value must be false when PDF/A compliance is set or pdf encryption is enabled.
+
+### zoomBehavior {#zoomBehavior--}
+
+Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/).
+
+```javascript
+zoomBehavior : PdfZoomBehavior;
+```
+
+
+### zoomFactor {#zoomFactor--}
+
+Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
+
+```javascript
+zoomFactor : number;
+```
+
+
+**Remarks**
+
+This property is ignored unless [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
 
 ### saveFormat {#saveFormat--}
 

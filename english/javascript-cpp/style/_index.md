@@ -77,6 +77,7 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [isGradient](#isGradient--)| boolean | Indicates whether the cell shading is a gradient pattern. |
 | [isPercent](#isPercent--)| boolean | Readonly. Indicates whether the number format is a percent format. |
 | [isDateTime](#isDateTime--)| boolean | Readonly. Indicates whether the number format is a date format. |
+| [isCheckBox](#isCheckBox--)| boolean | Indicates whether it's a style of check box |
 | [leftBorder](#leftBorder--)| Border | Readonly. Gets the left border. |
 | [rightBorder](#rightBorder--)| Border | Readonly. Gets the right border. |
 | [topBorder](#topBorder--)| Border | Readonly. Gets the top border. |
@@ -493,6 +494,15 @@ Readonly. Indicates whether the number format is a date format.
 
 ```javascript
 isDateTime : boolean;
+```
+
+
+### isCheckBox {#isCheckBox--}
+
+Indicates whether it's a style of check box
+
+```javascript
+isCheckBox : boolean;
 ```
 
 

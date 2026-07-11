@@ -133,6 +133,10 @@ updateReference : boolean;
 ```
 
 
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
 ### formulaChangeMonitor {#formulaChangeMonitor--}
 
 Gets/sets the monitor for tracking changes caused by the deletion.
